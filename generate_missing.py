@@ -1,4 +1,4 @@
-import os
+import os, json
 
 TEMPLATE = """<!DOCTYPE html>
 <html lang="zh-CN">
@@ -73,7 +73,11 @@ TEMPLATE = """<!DOCTYPE html>
                 <img class="logo-img" src="../../apple-touch-icon.png" alt="川维消防">
                 <div class="logo-text"><h1>川维消防</h1><span>Chuanwei Fire</span></div>
             </a>
-            <a href="../../index.html" class="back-link">&larr; 返回首页</a>
+            <div class="lang-toggle" style="display:inline-flex;align-items:center;gap:4px;background:#f8f9fa;border-radius:8px;padding:3px;border:1px solid #e0e0e0;">
+                <button class="lang-btn" style="padding:5px 11px;border:none;border-radius:6px;font-size:12px;font-weight:600;cursor:pointer;background:transparent;color:#666;font-family:inherit;line-height:1;transition:all 0.25s;" onclick="switchLang('zh')">中</button>
+                <button class="lang-btn active" style="padding:5px 11px;border:none;border-radius:6px;font-size:12px;font-weight:600;cursor:pointer;background:#1a5276;color:#fff;font-family:inherit;line-height:1;transition:all 0.25s;" onclick="switchLang('en')">EN</button>
+            </div>
+            <a href="../../index.html" class="back-link" data-i18n="back_btn">&larr; 返回首页</a>
         </div>
     </header>
     <section class="detail">
@@ -83,26 +87,26 @@ TEMPLATE = """<!DOCTYPE html>
                     <img loading="lazy" src="{main_img}" alt="{cn_name}">
                 </div>
                 <div class="product-info">
-                    <h2>{cn_name}</h2>
-                    <div class="en-name">{en_name}</div>
-                    <p class="desc">{desc}</p>
+                    <h2 data-i18n="prod_name">{cn_name}</h2>
+                    <div class="en-name" data-i18n="prod_name_en">{en_name}</div>
+                    <p class="desc" data-i18n="prod_desc">{desc}</p>
                     <ul class="features">{features_html}</ul>
-                    <a href="../../index.html" class="inquiry-btn">&#128233; 立即询价</a>
+                    <a href="../../index.html" class="inquiry-btn" data-i18n="inquiry_btn">&#128233; 立即询价</a>
                 </div>
             </div>
             <div class="gallery">
-                <h3>系列产品展示</h3>
+                <h3 data-i18n="gallery_title">系列产品展示</h3>
                 <div class="gallery-grid">{gallery_html}</div>
             </div>
             <div class="related">
-                <h3>相关产品</h3>
+                <h3 data-i18n="related_title">相关产品</h3>
                 <div class="related-grid">{related_html}</div>
             </div>
         </div>
     </section>
     <footer class="footer">
         <div class="container">
-            <p>&copy; 2026 川维消防设备有限公司 | <a href="../../index.html">首页</a> | <a href="../../index.html#products">产品中心</a></p>
+            <p>&copy; 2026 川维消防设备有限公司 | <a href="../../index.html" data-i18n="footer_home">首页</a> | <a href="../../index.html#products" data-i18n="footer_products">产品中心</a></p>
         </div>
     </footer>
     <div class="modal" id="imageModal">
@@ -112,6 +116,28 @@ TEMPLATE = """<!DOCTYPE html>
         <button class="nav-btn nav-next" onclick="changeImage(1)">&#10095;</button>
     </div>
     <script>
+        // ===== i18n Translations =====
+        const i18n = {i18n_json};
+
+        let currentLang = 'en';
+        function switchLang(lang) {{
+            currentLang = lang;
+            document.querySelectorAll('.lang-btn').forEach(b => {{
+                const isActive = b.textContent.trim() === (lang === 'zh' ? '中' : 'EN');
+                b.classList.toggle('active', isActive);
+                b.style.background = isActive ? '#1a5276' : 'transparent';
+                b.style.color = isActive ? '#fff' : '#666';
+            }});
+            const t = i18n[lang];
+            document.querySelectorAll('[data-i18n]').forEach(el => {{
+                const key = el.getAttribute('data-i18n');
+                if (t[key] !== undefined) {{
+                    el.innerHTML = t[key];
+                }}
+            }});
+            document.documentElement.lang = lang === 'zh' ? 'zh-CN' : 'en';
+        }}
+
         let galleryImages = [];
         let currentImageIndex = 0;
 
@@ -161,13 +187,17 @@ TEMPLATE = """<!DOCTYPE html>
 mapping = [
     ("室内消防栓", "室内消火栓", "Indoor Fire Hydrants",
      "川维消防室内消火栓系列包括SN65、SNW65-I-C、SNW65-II-Y等多种型号，严格按照国家标准设计制造，广泛应用于商业建筑、住宅小区、工业厂房等场所的消防给水系统。",
-     ["全系列产品齐全", "铸造工艺精湛", "密封性能优良", "操作灵活轻便", "符合国家标准"]),
+     "Chuanwei Indoor Fire Hydrants include SN65, SNW65-I-C, SNW65-II-Y models. Designed per national standards for commercial, residential and industrial fire water supply systems.",
+     ["全系列产品齐全", "铸造工艺精湛", "密封性能优良", "操作灵活轻便", "符合国家标准"],
+     ["Full range available", "Fine casting quality", "Excellent seal", "Easy operation", "National standard compliant"]),
     ("室外消防栓", "室外消火栓", "Outdoor Fire Hydrants",
      "川维消防室外消火栓采用优质铸铁制造，表面防腐处理，适用于城市道路、工业园区、商业广场等室外场所，为消防救援提供可靠的水源保障。",
-     ["优质铸铁坚固耐用", "表面防腐涂装", "出水口规格齐全", "密封性能好", "适用于各种室外场所"]),
+     "Chuanwei Outdoor Fire Hydrants are made of quality cast iron with anti-corrosion coating. Suitable for roads, industrial parks and commercial plazas.",
+     ["优质铸铁坚固耐用", "表面防腐涂装", "出水口规格齐全", "密封性能好", "适用于各种室外场所"],
+     ["Durable cast iron", "Anti-corrosion coating", "Complete outlet specs", "Good sealing", "For various outdoor sites"]),
 ]
 
-for folder, cn, en, desc, feats in mapping:
+for folder, cn, en, desc, desc_en, feats, feats_en in mapping:
     img_dir = f"products/{folder}"
     images = sorted([f for f in os.listdir(img_dir) if f.lower().endswith(('.jpg', '.jpeg', '.png'))])
     if not images:
@@ -176,21 +206,50 @@ for folder, cn, en, desc, feats in mapping:
     main_img = next((f for f in images if '主图' in f), images[0])
 
     feat_html = ""
-    for f in feats:
-        feat_html += f'\n                            <li>{f}</li>'
+    for i, f in enumerate(feats):
+        feat_html += f'\n                            <li data-i18n="feat_{i}">{f}</li>'
 
     gal_html = ""
     for img in images:
         gal_html += f'\n                    <div class="gallery-item" onclick="openModal(this.querySelector(\'img\').src)"><img loading="lazy" src="{img}" alt="{cn}"></div>'
 
     rel_html = """
-                    <a href="../../消防喷头.html" class="related-card"><h4>洒水喷头</h4></a>
-                    <a href="../../消防阀.html" class="related-card"><h4>消防阀门与蝶阀</h4></a>
-                    <a href="../../软管卷盘.html" class="related-card"><h4>消防软管卷盘</h4></a>
-                    <a href="../../消防水泵接合器.html" class="related-card"><h4>消防水泵接合器</h4></a>"""
+                    <a href="../../消防喷头.html" class="related-card"><h4 data-i18n="rel_消防喷头">洒水喷头</h4></a>
+                    <a href="../../消防阀.html" class="related-card"><h4 data-i18n="rel_消防阀">消防阀门与蝶阀</h4></a>
+                    <a href="../../软管卷盘.html" class="related-card"><h4 data-i18n="rel_软管卷盘">消防软管卷盘</h4></a>
+                    <a href="../../消防水泵接合器.html" class="related-card"><h4 data-i18n="rel_消防水泵接合器">消防水泵接合器</h4></a>"""
+
+    # Build i18n
+    zh_i18n = {
+        "prod_name": cn, "prod_name_en": en,
+        "prod_desc": desc, "gallery_title": "系列产品展示",
+        "related_title": "相关产品", "inquiry_btn": "📩 立即询价",
+        "back_btn": "← 返回首页", "footer_home": "首页", "footer_products": "产品中心",
+        "rel_消防喷头": "洒水喷头", "rel_消防阀": "消防阀门与蝶阀",
+        "rel_软管卷盘": "消防软管卷盘", "rel_消防水泵接合器": "消防水泵接合器",
+    }
+    en_i18n = {
+        "prod_name": en, "prod_name_en": cn,
+        "prod_desc": desc_en, "gallery_title": "Product Gallery",
+        "related_title": "Related Products", "inquiry_btn": "📩 Send Inquiry",
+        "back_btn": "← Back to Home", "footer_home": "Home", "footer_products": "Products",
+        "rel_消防喷头": "Fire Sprinklers", "rel_消防阀": "Gate & Butterfly Valves",
+        "rel_软管卷盘": "Fire Hose Reels", "rel_消防水泵接合器": "Pump Adapters",
+    }
+    for i, f in enumerate(feats):
+        zh_i18n[f"feat_{i}"] = f
+        en_i18n[f"feat_{i}"] = feats_en[i] if i < len(feats_en) else f
+
+    i18n_json = json.dumps({"zh": zh_i18n, "en": en_i18n}, ensure_ascii=False)
+
+    # Build the HTML with double-brace escape for .format()
+    # The i18n_json uses {{ and }} in .format() context, so we need to handle it
+    # Actually we pass i18n_json directly - it needs to go through format()
+    # but it may contain { or } which would be interpreted as format placeholders
 
     html = TEMPLATE.format(cn_name=cn, en_name=en, main_img=main_img, desc=desc,
-                          features_html=feat_html, gallery_html=gal_html, related_html=rel_html)
+                          features_html=feat_html, gallery_html=gal_html, related_html=rel_html,
+                          i18n_json=i18n_json)
 
     filepath = f"products/{folder}/{folder}.html"
     with open(filepath, 'w', encoding='utf-8') as f:

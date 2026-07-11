@@ -8,28 +8,42 @@ DEST = os.path.join(BASE, "products")
 PRODUCTS = {
     "消防喷头": ("洒水喷头", "Fire Sprinklers", "sprinklers",
         "川维消防生产的洒水喷头采用优质玻璃球感温元件，响应迅速、性能稳定。产品涵盖K-ZSTDY15-68°C等多种型号，广泛应用于商业建筑、工业厂房、住宅小区等场所的自动喷水灭火系统。",
-        ["玻璃球感温，响应迅速", "多种温度等级可选", "镀铜/镀铬防腐处理", "适用于湿式/干式系统", "通过CCCF认证"]),
+        "Chuanwei Fire Sprinklers use quality glass bulb thermal elements for fast response and stable performance. Various models available for commercial, industrial and residential automatic sprinkler systems.",
+        ["玻璃球感温，响应迅速", "多种温度等级可选", "镀铜/镀铬防腐处理", "适用于湿式/干式系统", "通过CCCF认证"],
+        ["Glass bulb fast response", "Multiple temperature ratings", "Copper/chrome plated", "For wet/dry systems", "CCCF certified"]),
     "消防栓箱": ("消火栓箱", "Fire Hydrant Boxes", "hydrant-boxes",
         "川维消防消火栓箱采用优质钢板制成，表面静电喷涂处理，美观耐用。箱体设计合理，内部空间充裕，可容纳消火栓、水带、水枪等完整配置，满足各类建筑消防验收要求。",
-        ["优质钢板制造", "静电喷涂表面处理", "内部空间充裕", "安装方便快捷", "满足消防验收标准"]),
+        "Chuanwei Fire Hydrant Boxes are made of quality steel with electrostatic喷涂 finish. Spacious interior accommodates hydrant, hose and nozzle for fire inspection compliance.",
+        ["优质钢板制造", "静电喷涂表面处理", "内部空间充裕", "安装方便快捷", "满足消防验收标准"],
+        ["Quality steel construction", "Electrostatic coating", "Spacious interior", "Easy installation", "Complies with standards"]),
     "消防水枪": ("消防水枪与水接口", "Fire Nozzles & Couplings", "nozzles",
         "川维消防消防水枪及接口配件产品齐全，包括直流开关水枪、多功能水枪、KD65/KY65内扣式接口等，工艺先进，性能可靠，是消防灭火系统中的关键配套设备。",
-        ["多种水枪类型可选", "接口密封性好", "耐高压设计", "操作简单方便", "与消火栓完美适配"]),
+        "Chuanwei Fire Nozzles and couplings include straight-stream nozzles, multi-purpose nozzles, KD65/KY65 couplings. Advanced technology for reliable firefighting performance.",
+        ["多种水枪类型可选", "接口密封性好", "耐高压设计", "操作简单方便", "与消火栓完美适配"],
+        ["Multiple nozzle types", "Excellent seal", "High-pressure rated", "Easy operation", "Compatible with hydrants"]),
     "消防水泵接合器": ("消防水泵接合器", "Fire Pump Adapters", "pump-adapters",
         "川维消防消防水泵接合器是连接消防车与建筑物消防管网的专用接口，采用优质材料制造，结构紧凑、密封可靠，确保在火灾时消防车能够快速向建筑管网供水。",
-        ["优质材料制造", "结构紧凑耐用", "密封性能可靠", "安装维护方便", "消防车快速对接"]),
+        "Chuanwei Fire Pump Adapters connect fire trucks to building pipe networks. Quality materials, compact design, reliable sealing for rapid water supply during emergencies.",
+        ["优质材料制造", "结构紧凑耐用", "密封性能可靠", "安装维护方便", "消防车快速对接"],
+        ["Quality materials", "Compact and durable", "Reliable sealing", "Easy maintenance", "Quick truck connection"]),
     "消防阀": ("消防阀门与蝶阀", "Fire Gate & Butterfly Valves", "gate-valves",
         "川维消防消防阀门系列包括闸阀、蝶阀、信号蝶阀等多种产品，专为消防给水系统设计。产品铸造精良、密封可靠，广泛应用于各类建筑的消防主管网系统中。",
-        ["铸造精良，经久耐用", "密封可靠无泄漏", "开关灵活轻便", "信号蝶阀带反馈功能", "适用于消防主管网"]),
+        "Chuanwei Fire Valves include gate valves, butterfly valves and signal butterfly valves for fire water systems. Fine casting, reliable seal for main fire pipelines.",
+        ["铸造精良，经久耐用", "密封可靠无泄漏", "开关灵活轻便", "信号蝶阀带反馈功能", "适用于消防主管网"],
+        ["Fine casting durable", "Leak-proof seal", "Smooth operation", "Signal feedback available", "For main pipelines"]),
     "消防阀门": ("消防阀", "Fire Valves", "fire-valves",
         "川维消防阀采用优质材料制造，通过手轮/旋钮控制消防管网中水流的通断，结构紧凑、密封可靠，广泛应用于各类建筑的消防管道系统中。",
-        ["优质材料制造", "结构紧凑耐用", "密封性能可靠", "手轮启闭灵活", "适用于消防管道系统"]),
+        "Chuanwei Fire Valves are made of quality materials with handwheel control for on/off water flow in fire pipelines. Compact, reliable seal for building fire systems.",
+        ["优质材料制造", "结构紧凑耐用", "密封性能可靠", "手轮启闭灵活", "适用于消防管道系统"],
+        ["Quality materials", "Compact durable", "Reliable sealing", "Smooth handwheel", "For fire pipelines"]),
     "软管卷盘": ("消防软管卷盘", "Fire Hose Reels", "hose-reels",
         "川维消防软管卷盘系列产品采用优质材料制造，结构紧凑，操作简便。产品包括消防软管卷盘、消防水带等，适合安装在商业建筑、住宅楼等场所，为初期火灾扑救提供便利。",
-        ["结构紧凑美观", "操作简便快捷", "软管耐压耐磨", "安装位置灵活", "适合初期火灾扑救"]),
+        "Chuanwei Fire Hose Reels are made of quality materials, compact design, easy to operate. Suitable for commercial and residential buildings for initial firefighting.",
+        ["结构紧凑美观", "操作简便快捷", "软管耐压耐磨", "安装位置灵活", "适合初期火灾扑救"],
+        ["Compact design", "Easy operation", "Durable hose", "Flexible installation", "For initial firefighting"]),
 }
 
-def generate_detail_page(cn_name, en_name, eng_path, folder, description, features):
+def generate_detail_page(cn_name, en_name, eng_path, folder, description, description_en, features, feature_ens):
     """Generate a product detail HTML page"""
     img_dir = os.path.join(DEST, folder)
     os.makedirs(img_dir, exist_ok=True)
@@ -66,8 +80,8 @@ def generate_detail_page(cn_name, en_name, eng_path, folder, description, featur
     related = [(k, PRODUCTS[k]) for k in PRODUCTS if k != folder][:4]
 
     features_html = ""
-    for f in features:
-        features_html += f'                    <li>✓ {f}</li>\n'
+    for i, f in enumerate(features):
+        features_html += f'                    <li data-i18n="feat_{i}">✓ {f}</li>\n'
 
     other_imgs_html = ""
     for img in other_imgs:
@@ -76,10 +90,59 @@ def generate_detail_page(cn_name, en_name, eng_path, folder, description, featur
     related_html = ""
     for rf, rp in related:
         related_html += f'''            <a href="{rf}.html" class="related-card">
-                <h4>{rp[0]}</h4>
+                <h4 data-i18n="rel_{rf}">{rp[0]}</h4>
                 <p>{rp[1]}</p>
             </a>
 '''
+
+    # Build related products i18n data
+    rel_zh = {}
+    rel_en = {}
+    for rf, rp in related:
+        rel_zh[f"rel_{rf}"] = rp[0]
+        rel_en[f"rel_{rf}"] = rp[1]
+
+    # Build i18n translations for this product
+    zh_i18n = {
+        "prod_name": cn_name,
+        "prod_name_en": en_name,
+        "prod_desc": description,
+        "gallery_title": "系列产品展示",
+        "related_title": "相关产品",
+        "inquiry_btn": "📩 立即询价",
+        "back_btn": "← 返回首页",
+        "footer_home": "首页",
+        "footer_products": "产品中心",
+        "footer_contact": "联系我们",
+    }
+    en_i18n = {
+        "prod_name": en_name,
+        "prod_name_en": cn_name,
+        "prod_desc": description_en if description_en else description,
+        "gallery_title": "Product Gallery",
+        "related_title": "Related Products",
+        "inquiry_btn": "📩 Send Inquiry",
+        "back_btn": "← Back to Home",
+        "footer_home": "Home",
+        "footer_products": "Products",
+        "footer_contact": "Contact Us",
+    }
+    # Add feature translations
+    if feature_ens:
+        for i, f in enumerate(feature_ens):
+            zh_i18n[f"feat_{i}"] = features[i]
+            en_i18n[f"feat_{i}"] = f
+    else:
+        for i, f in enumerate(features):
+            zh_i18n[f"feat_{i}"] = f
+            en_i18n[f"feat_{i}"] = f
+
+    # Merge with related product translations
+    zh_i18n.update(rel_zh)
+    en_i18n.update(rel_en)
+
+    # Build i18n JSON
+    i18n_json = json.dumps({"zh": zh_i18n, "en": en_i18n}, ensure_ascii=False)
 
     html = f'''<!DOCTYPE html>
 <html lang="zh-CN">
@@ -212,7 +275,11 @@ def generate_detail_page(cn_name, en_name, eng_path, folder, description, featur
                     <span>Chuanwei Fire</span>
                 </div>
             </a>
-            <a href="../index.html" class="back-link">← 返回首页</a>
+            <div class="lang-toggle" style="display:inline-flex;align-items:center;gap:4px;background:#f8f9fa;border-radius:8px;padding:3px;border:1px solid #e0e0e0;">
+                <button class="lang-btn" style="padding:5px 11px;border:none;border-radius:6px;font-size:12px;font-weight:600;cursor:pointer;background:transparent;color:#666;font-family:inherit;line-height:1;transition:all 0.25s;" onclick="switchLang('zh')">中</button>
+                <button class="lang-btn active" style="padding:5px 11px;border:none;border-radius:6px;font-size:12px;font-weight:600;cursor:pointer;background:#1a5276;color:#fff;font-family:inherit;line-height:1;transition:all 0.25s;" onclick="switchLang('en')">EN</button>
+            </div>
+            <a href="../index.html" class="back-link" data-i18n="back_btn">← 返回首页</a>
         </div>
     </header>
 
@@ -223,23 +290,23 @@ def generate_detail_page(cn_name, en_name, eng_path, folder, description, featur
                     <img loading="lazy" src="{main_img}" alt="{cn_name}">
                 </div>
                 <div class="product-info">
-                    <h2>{cn_name}</h2>
-                    <div class="en-name">{en_name}</div>
-                    <p class="desc">{description}</p>
+                    <h2 data-i18n="prod_name">{cn_name}</h2>
+                    <div class="en-name" data-i18n="prod_name_en">{en_name}</div>
+                    <p class="desc" data-i18n="prod_desc">{description}</p>
                     <ul class="features">
 {features_html}                    </ul>
-                    <a href="../index.html#contact" class="inquiry-btn">📩 立即询价</a>
+                    <a href="../index.html#contact" class="inquiry-btn" data-i18n="inquiry_btn">📩 立即询价</a>
                 </div>
             </div>
 
             <div class="gallery">
-                <h3>系列产品展示</h3>
+                <h3 data-i18n="gallery_title">系列产品展示</h3>
                 <div class="gallery-grid">
 {other_imgs_html}                </div>
             </div>
 
             <div class="related">
-                <h3>相关产品</h3>
+                <h3 data-i18n="related_title">相关产品</h3>
                 <div class="related-grid">
 {related_html}                </div>
             </div>
@@ -248,7 +315,7 @@ def generate_detail_page(cn_name, en_name, eng_path, folder, description, featur
 
     <footer class="footer">
         <div class="container">
-            <p>&copy; 2026 川维消防设备有限公司 | <a href="../index.html">首页</a> | <a href="../index.html#products">产品中心</a> | <a href="../index.html#contact">联系我们</a></p>
+            <p>&copy; 2026 川维消防设备有限公司 | <a href="../index.html" data-i18n="footer_home">首页</a> | <a href="../index.html#products" data-i18n="footer_products">产品中心</a> | <a href="../index.html#contact" data-i18n="footer_contact">联系我们</a></p>
         </div>
     </footer>
 
@@ -260,6 +327,33 @@ def generate_detail_page(cn_name, en_name, eng_path, folder, description, featur
     </div>
 
     <script>
+        // ===== i18n Translations =====
+        const i18n = {i18n_json};
+
+        let currentLang = 'en';
+
+        function switchLang(lang) {{
+            currentLang = lang;
+            document.querySelectorAll('.lang-btn').forEach(b => {{
+                const isActive = b.textContent.trim() === (lang === 'zh' ? '中' : 'EN');
+                b.classList.toggle('active', isActive);
+                b.style.background = isActive ? '#1a5276' : 'transparent';
+                b.style.color = isActive ? '#fff' : '#666';
+            }});
+            const t = i18n[lang];
+            document.querySelectorAll('[data-i18n]').forEach(el => {{
+                const key = el.getAttribute('data-i18n');
+                if (t[key] !== undefined) {{
+                    if (el.tagName === 'INPUT' || el.tagName === 'TEXTAREA') {{
+                        el.placeholder = t[key];
+                    }} else {{
+                        el.innerHTML = t[key];
+                    }}
+                }}
+            }});
+            document.documentElement.lang = lang === 'zh' ? 'zh-CN' : 'en';
+        }}
+
         let galleryImages = [];
         let currentImageIndex = 0;
 
@@ -325,8 +419,8 @@ def generate_detail_page(cn_name, en_name, eng_path, folder, description, featur
 if __name__ == '__main__':
     results = []
     for folder, info in PRODUCTS.items():
-        cn_name, en_name, eng_path, desc, features = info
-        folder_name, main_img, img_count = generate_detail_page(cn_name, en_name, eng_path, folder, desc, features)
+        cn_name, en_name, eng_path, desc, desc_en, features, feat_ens = info
+        folder_name, main_img, img_count = generate_detail_page(cn_name, en_name, eng_path, folder, desc, desc_en, features, feat_ens)
         results.append((folder_name, main_img, img_count))
         print(f"✓ {cn_name}: {img_count}张图片, 主图: {main_img}")
 

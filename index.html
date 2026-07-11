@@ -1108,7 +1108,7 @@
             }
         };
 
-        let currentLang = 'zh';
+        let currentLang = 'en';
 
         function switchLang(lang) {
             currentLang = lang;
@@ -1209,6 +1209,11 @@
                     btn.disabled = false;
                 }, 3000);
             });
+        });
+
+        // ===== Init English as default =====
+        document.addEventListener('DOMContentLoaded', function() {
+            switchLang('en');
         });
     </script>
 </body>
