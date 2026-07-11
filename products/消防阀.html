@@ -67,7 +67,7 @@
             cursor: pointer; transition: all 0.3s; background: #f5f7fa;
         }
         .gallery-item:hover { transform: translateY(-3px); box-shadow: 0 8px 20px rgba(0,0,0,0.08); }
-        .gallery-item img { width: 100%; height: 180px; object-fit: cover; }
+        .gallery-item img { width: 100%; height: 180px; object-fit: contain; background: #f5f7fa; }
         .gallery-item .label { padding: 8px 12px; font-size: 12px; color: var(--text-light); text-align: center; }
 
         /* Related */
@@ -94,6 +94,16 @@
             position: absolute; top: 20px; right: 30px; color: #fff;
             font-size: 36px; cursor: pointer; font-weight: 300;
         }
+        .modal .nav-btn {
+            position: absolute; top: 50%; transform: translateY(-50%);
+            background: rgba(255,255,255,0.12); color: #fff;
+            border: none; font-size: 28px; padding: 14px 20px;
+            cursor: pointer; border-radius: 50%; transition: all 0.3s;
+            z-index: 10; line-height: 1;
+        }
+        .modal .nav-btn:hover { background: rgba(255,255,255,0.3); }
+        .modal .nav-prev { left: 16px; }
+        .modal .nav-next { right: 16px; }
 
         /* Footer */
         .footer { background: var(--primary-dark); color: rgba(255,255,255,0.65); padding: 30px 0 20px; text-align: center; font-size: 12px; }
@@ -119,7 +129,7 @@
                     <span>Chuanwei Fire</span>
                 </div>
             </a>
-            <a href="../index.html" class="back-link">← 返回首页</a>
+            <a href="javascript:history.back()" class="back-link">← 返回</a>
         </div>
     </header>
 
@@ -127,7 +137,7 @@
         <div class="container">
             <div class="detail-grid">
                 <div class="main-image" onclick="openModal(this.querySelector('img').src)">
-                    <img src="消防阀/消防阀主图.jpg" alt="消防阀门与蝶阀">
+                    <img loading="lazy" src="消防阀/消防阀主图.jpg" alt="消防阀门与蝶阀">
                 </div>
                 <div class="product-info">
                     <h2>消防阀门与蝶阀</h2>
@@ -147,16 +157,16 @@
             <div class="gallery">
                 <h3>系列产品展示</h3>
                 <div class="gallery-grid">
-                <div class="gallery-item"><img src="消防阀/DSC_5719.jpg" alt="消防阀门与蝶阀" onclick="openModal(this.src)"></div>
-                <div class="gallery-item"><img src="消防阀/DSC_5724.jpg" alt="消防阀门与蝶阀" onclick="openModal(this.src)"></div>
-                <div class="gallery-item"><img src="消防阀/DSC_5726.jpg" alt="消防阀门与蝶阀" onclick="openModal(this.src)"></div>
-                <div class="gallery-item"><img src="消防阀/DSC_5727.jpg" alt="消防阀门与蝶阀" onclick="openModal(this.src)"></div>
-                <div class="gallery-item"><img src="消防阀/DSC_5728.jpg" alt="消防阀门与蝶阀" onclick="openModal(this.src)"></div>
-                <div class="gallery-item"><img src="消防阀/DSC_5731.jpg" alt="消防阀门与蝶阀" onclick="openModal(this.src)"></div>
-                <div class="gallery-item"><img src="消防阀/DSC_5732.jpg" alt="消防阀门与蝶阀" onclick="openModal(this.src)"></div>
-                <div class="gallery-item"><img src="消防阀/DSC_5733.jpg" alt="消防阀门与蝶阀" onclick="openModal(this.src)"></div>
-                <div class="gallery-item"><img src="消防阀/DSC_5734.jpg" alt="消防阀门与蝶阀" onclick="openModal(this.src)"></div>
-                <div class="gallery-item"><img src="消防阀/DSC_5735.jpg" alt="消防阀门与蝶阀" onclick="openModal(this.src)"></div>
+                <div class="gallery-item"><img loading="lazy" src="消防阀/DSC_5719.jpg" alt="消防阀门与蝶阀" onclick="openModal(this.src)"></div>
+                <div class="gallery-item"><img loading="lazy" src="消防阀/DSC_5724.jpg" alt="消防阀门与蝶阀" onclick="openModal(this.src)"></div>
+                <div class="gallery-item"><img loading="lazy" src="消防阀/DSC_5726.jpg" alt="消防阀门与蝶阀" onclick="openModal(this.src)"></div>
+                <div class="gallery-item"><img loading="lazy" src="消防阀/DSC_5727.jpg" alt="消防阀门与蝶阀" onclick="openModal(this.src)"></div>
+                <div class="gallery-item"><img loading="lazy" src="消防阀/DSC_5728.jpg" alt="消防阀门与蝶阀" onclick="openModal(this.src)"></div>
+                <div class="gallery-item"><img loading="lazy" src="消防阀/DSC_5731.jpg" alt="消防阀门与蝶阀" onclick="openModal(this.src)"></div>
+                <div class="gallery-item"><img loading="lazy" src="消防阀/DSC_5732.jpg" alt="消防阀门与蝶阀" onclick="openModal(this.src)"></div>
+                <div class="gallery-item"><img loading="lazy" src="消防阀/DSC_5733.jpg" alt="消防阀门与蝶阀" onclick="openModal(this.src)"></div>
+                <div class="gallery-item"><img loading="lazy" src="消防阀/DSC_5734.jpg" alt="消防阀门与蝶阀" onclick="openModal(this.src)"></div>
+                <div class="gallery-item"><img loading="lazy" src="消防阀/DSC_5735.jpg" alt="消防阀门与蝶阀" onclick="openModal(this.src)"></div>
                 </div>
             </div>
 
@@ -190,16 +200,65 @@
         </div>
     </footer>
 
-    <div class="modal" id="imageModal" onclick="this.classList.remove('open')">
+    <div class="modal" id="imageModal">
         <span class="close">&times;</span>
+        <button class="nav-btn nav-prev" onclick="changeImage(-1)">&#10094;</button>
         <img id="modalImage" src="" alt="">
+        <button class="nav-btn nav-next" onclick="changeImage(1)">&#10095;</button>
     </div>
 
     <script>
+        let galleryImages = [];
+        let currentImageIndex = 0;
+
         function openModal(src) {
-            document.getElementById('modalImage').src = src;
+            // Collect all gallery images
+            const imgs = document.querySelectorAll('.gallery-grid img');
+            galleryImages = Array.from(imgs).map(img => img.src);
+            // Also include the main image if available (put it first)
+            const mainImg = document.querySelector('.main-image img');
+            if (mainImg) {
+                const mainSrc = mainImg.src;
+                const idx = galleryImages.indexOf(mainSrc);
+                if (idx !== -1) {
+                    galleryImages.splice(idx, 1);
+                }
+                galleryImages.unshift(mainSrc);
+            }
+            currentImageIndex = galleryImages.indexOf(src);
+            if (currentImageIndex === -1) currentImageIndex = 0;
+            showImage();
             document.getElementById('imageModal').classList.add('open');
         }
+
+        function changeImage(direction) {
+            currentImageIndex += direction;
+            if (currentImageIndex < 0) currentImageIndex = galleryImages.length - 1;
+            if (currentImageIndex >= galleryImages.length) currentImageIndex = 0;
+            showImage();
+        }
+
+        function showImage() {
+            document.getElementById('modalImage').src = galleryImages[currentImageIndex];
+        }
+
+        // Close modal on background click
+        document.getElementById('imageModal').addEventListener('click', function(e) {
+            if (e.target === this) this.classList.remove('open');
+        });
+
+        // Close modal on X click
+        document.querySelector('.modal .close').addEventListener('click', function() {
+            document.getElementById('imageModal').classList.remove('open');
+        });
+
+        // Keyboard navigation
+        document.addEventListener('keydown', function(e) {
+            if (!document.getElementById('imageModal').classList.contains('open')) return;
+            if (e.key === 'ArrowLeft') changeImage(-1);
+            if (e.key === 'ArrowRight') changeImage(1);
+            if (e.key === 'Escape') document.getElementById('imageModal').classList.remove('open');
+        });
     </script>
 </body>
 </html>

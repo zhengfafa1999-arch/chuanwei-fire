@@ -40,8 +40,11 @@ def generate_detail_page(cn_name, en_name, eng_path, folder, description, featur
     img_dir = os.path.join(DEST, folder)
     os.makedirs(img_dir, exist_ok=True)
 
+    # Folder name mapping (source folder → display folder)
+    folder_map = {"室内消火栓": "室内消防栓", "室外消火栓": "室外消防栓"}
+    src_folder_name = folder_map.get(folder, folder)
     # Get all image files in the source folder
-    src_folder = os.path.join(IMG_SRC, folder)
+    src_folder = os.path.join(IMG_SRC, src_folder_name)
     images = []
     if os.path.exists(src_folder):
         for f in sorted(os.listdir(src_folder)):
@@ -62,6 +65,12 @@ def generate_detail_page(cn_name, en_name, eng_path, folder, description, featur
         main_img = images[0]
         other_imgs = images[1:]
 
+    # Add folder prefix to image paths (page is at products/ root, images in subfolder)
+    img_prefix = folder + "/"
+    if main_img:
+        main_img = img_prefix + main_img
+    other_imgs = [img_prefix + img for img in other_imgs]
+
     # Generate related products (exclude self)
     related = [(k, PRODUCTS[k]) for k in PRODUCTS if k != folder][:4]
 
@@ -71,7 +80,7 @@ def generate_detail_page(cn_name, en_name, eng_path, folder, description, featur
 
     other_imgs_html = ""
     for img in other_imgs:
-        other_imgs_html += f'                <div class="gallery-item"><img src="{img}" alt="{cn_name}" onclick="openModal(this.src)"></div>\n'
+        other_imgs_html += f'                <div class="gallery-item"><img loading="lazy" src="{img}" alt="{cn_name}" onclick="openModal(this.src)"></div>\n'
 
     related_html = ""
     for rf, rp in related:
@@ -150,7 +159,7 @@ def generate_detail_page(cn_name, en_name, eng_path, folder, description, featur
             cursor: pointer; transition: all 0.3s; background: #f5f7fa;
         }}
         .gallery-item:hover {{ transform: translateY(-3px); box-shadow: 0 8px 20px rgba(0,0,0,0.08); }}
-        .gallery-item img {{ width: 100%; height: 180px; object-fit: cover; }}
+        .gallery-item img {{ width: 100%; height: 180px; object-fit: contain; background: #f5f7fa; }}
         .gallery-item .label {{ padding: 8px 12px; font-size: 12px; color: var(--text-light); text-align: center; }}
 
         /* Related */
@@ -177,6 +186,16 @@ def generate_detail_page(cn_name, en_name, eng_path, folder, description, featur
             position: absolute; top: 20px; right: 30px; color: #fff;
             font-size: 36px; cursor: pointer; font-weight: 300;
         }}
+        .modal .nav-btn {{
+            position: absolute; top: 50%; transform: translateY(-50%);
+            background: rgba(255,255,255,0.12); color: #fff;
+            border: none; font-size: 28px; padding: 14px 20px;
+            cursor: pointer; border-radius: 50%; transition: all 0.3s;
+            z-index: 10; line-height: 1;
+        }}
+        .modal .nav-btn:hover {{ background: rgba(255,255,255,0.3); }}
+        .modal .nav-prev {{ left: 16px; }}
+        .modal .nav-next {{ right: 16px; }}
 
         /* Footer */
         .footer {{ background: var(--primary-dark); color: rgba(255,255,255,0.65); padding: 30px 0 20px; text-align: center; font-size: 12px; }}
@@ -202,7 +221,7 @@ def generate_detail_page(cn_name, en_name, eng_path, folder, description, featur
                     <span>Chuanwei Fire</span>
                 </div>
             </a>
-            <a href="../index.html" class="back-link">← 返回首页</a>
+            <a href="javascript:history.back()" class="back-link">← 返回</a>
         </div>
     </header>
 
@@ -210,7 +229,7 @@ def generate_detail_page(cn_name, en_name, eng_path, folder, description, featur
         <div class="container">
             <div class="detail-grid">
                 <div class="main-image" onclick="openModal(this.querySelector('img').src)">
-                    <img src="{main_img}" alt="{cn_name}">
+                    <img loading="lazy" src="{main_img}" alt="{cn_name}">
                 </div>
                 <div class="product-info">
                     <h2>{cn_name}</h2>
@@ -242,16 +261,65 @@ def generate_detail_page(cn_name, en_name, eng_path, folder, description, featur
         </div>
     </footer>
 
-    <div class="modal" id="imageModal" onclick="this.classList.remove('open')">
+    <div class="modal" id="imageModal">
         <span class="close">&times;</span>
+        <button class="nav-btn nav-prev" onclick="changeImage(-1)">&#10094;</button>
         <img id="modalImage" src="" alt="">
+        <button class="nav-btn nav-next" onclick="changeImage(1)">&#10095;</button>
     </div>
 
     <script>
+        let galleryImages = [];
+        let currentImageIndex = 0;
+
         function openModal(src) {{
-            document.getElementById('modalImage').src = src;
+            // Collect all gallery images
+            const imgs = document.querySelectorAll('.gallery-grid img');
+            galleryImages = Array.from(imgs).map(img => img.src);
+            // Also include the main image if available (put it first)
+            const mainImg = document.querySelector('.main-image img');
+            if (mainImg) {{
+                const mainSrc = mainImg.src;
+                const idx = galleryImages.indexOf(mainSrc);
+                if (idx !== -1) {{
+                    galleryImages.splice(idx, 1);
+                }}
+                galleryImages.unshift(mainSrc);
+            }}
+            currentImageIndex = galleryImages.indexOf(src);
+            if (currentImageIndex === -1) currentImageIndex = 0;
+            showImage();
             document.getElementById('imageModal').classList.add('open');
         }}
+
+        function changeImage(direction) {{
+            currentImageIndex += direction;
+            if (currentImageIndex < 0) currentImageIndex = galleryImages.length - 1;
+            if (currentImageIndex >= galleryImages.length) currentImageIndex = 0;
+            showImage();
+        }}
+
+        function showImage() {{
+            document.getElementById('modalImage').src = galleryImages[currentImageIndex];
+        }}
+
+        // Close modal on background click
+        document.getElementById('imageModal').addEventListener('click', function(e) {{
+            if (e.target === this) this.classList.remove('open');
+        }});
+
+        // Close modal on X click
+        document.querySelector('.modal .close').addEventListener('click', function() {{
+            document.getElementById('imageModal').classList.remove('open');
+        }});
+
+        // Keyboard navigation
+        document.addEventListener('keydown', function(e) {{
+            if (!document.getElementById('imageModal').classList.contains('open')) return;
+            if (e.key === 'ArrowLeft') changeImage(-1);
+            if (e.key === 'ArrowRight') changeImage(1);
+            if (e.key === 'Escape') document.getElementById('imageModal').classList.remove('open');
+        }});
     </script>
 </body>
 </html>'''

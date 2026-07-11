@@ -419,32 +419,19 @@
             padding-top: 18px; text-align: center; font-size: 12px;
         }
 
-        /* ===== Brand Visual ===== */
-        .brand-grid {
-            display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px;
+        /* ===== Certifications ===== */
+        .cert-grid {
+            display: grid; grid-template-columns: repeat(5, 1fr); gap: 16px;
         }
-        .brand-item {
-            border-radius: 10px; overflow: hidden; border: 1px solid var(--border);
-            background: var(--white); text-align: center; padding: 20px 12px;
-            transition: all 0.3s;
-        }
-        .brand-item:hover { box-shadow: 0 8px 20px rgba(0,0,0,0.06); }
-        .brand-item h5 { font-size: 13px; color: var(--primary); font-weight: 600; margin-top: 8px; }
-        .brand-item p { font-size: 11px; color: var(--text-light); margin-top: 4px; }
-        .brand-icon { width: 48px; height: 48px; margin: 0 auto; }
-
-        /* ===== News ===== */
-        .news-grid {
-            display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px;
-        }
-        .news-card {
+        .cert-card {
             background: var(--white); border-radius: 12px;
-            border: 1px solid var(--border); padding: 20px; transition: all 0.3s;
+            border: 1px solid var(--border); padding: 24px 14px;
+            text-align: center; transition: all 0.3s;
         }
-        .news-card:hover { box-shadow: 0 8px 20px rgba(0,0,0,0.06); }
-        .news-card h4 { font-size: 14px; color: var(--primary); margin-bottom: 8px; line-height: 1.5; }
-        .news-card p { font-size: 12px; color: var(--text-light); line-height: 1.6; }
-        .news-card .date { font-size: 11px; color: #999; margin-top: 10px; }
+        .cert-card:hover { transform: translateY(-4px); box-shadow: 0 8px 20px rgba(0,0,0,0.06); }
+        .cert-card .cert-icon { width: 48px; height: 48px; margin: 0 auto 12px; }
+        .cert-card h5 { font-size: 13px; color: var(--primary); font-weight: 600; margin-bottom: 4px; }
+        .cert-card p { font-size: 11px; color: var(--text-light); line-height: 1.5; }
 
         /* ===== Responsive ===== */
         @media (max-width: 992px) {
@@ -457,8 +444,7 @@
             .why-grid { grid-template-columns: repeat(2, 1fr); }
             .footer-grid { grid-template-columns: repeat(2, 1fr); }
             .contact-grid { grid-template-columns: 1fr; }
-            .news-grid { grid-template-columns: repeat(2, 1fr); }
-            .brand-grid { grid-template-columns: repeat(2, 1fr); }
+            .cert-grid { grid-template-columns: repeat(2, 1fr); }
         }
         @media (max-width: 768px) {
             .nav {
@@ -475,7 +461,7 @@
             .hero-stat .num { font-size: 26px; }
             section { padding: 44px 0; }
             .section-title h3 { font-size: 24px; }
-            .products-grid, .certs-grid, .why-grid, .news-grid, .brand-grid { grid-template-columns: 1fr; }
+            .products-grid, .certs-grid, .why-grid, .cert-grid { grid-template-columns: 1fr; }
             .about-features { grid-template-columns: 1fr; }
             .form-row { grid-template-columns: 1fr; }
             .footer-grid { grid-template-columns: 1fr; }
@@ -516,8 +502,7 @@
                 <a href="#home" data-i18n="nav_home">首页</a>
                 <a href="#about" data-i18n="nav_about">关于我们</a>
                 <a href="#products" data-i18n="nav_products">产品中心</a>
-                <a href="#brand" data-i18n="nav_brand">品牌形象</a>
-                <a href="#news" data-i18n="nav_news">新闻资讯</a>
+                <a href="#certs" data-i18n="nav_certs">资质荣誉</a>
                 <div class="lang-toggle">
                     <button class="lang-btn active" onclick="switchLang('zh')">中</button>
                     <button class="lang-btn" onclick="switchLang('en')">EN</button>
@@ -571,8 +556,6 @@
             </div>
             <div class="section-divider"></div>
             <div class="story-content">
-                <p>福建消防作为消防行业的重要版图，历来风起云涌，英雄辈出。80年代，浪起潮头，敢为天下先的闽南人相继投身消防大业，而后磅礴发展。</p>
-                <p>在那个久远年代里，<span class="highlight">川维</span>一直都在，只是我们那时还没有叫川维。我们专业从事OEM加工和半成品加工，兢兢业业数十年，我们隐藏在行业里，发光发热。</p>
                 <p><span class="highlight">川维成立于2017年</span>，我们浸染行业数十年，默默磨练。我们为大梦想而来，做大品牌、大企业，为目标矢志不渝。我们做大品质，精雕细琢为每一个精品品质而来。</p>
                 <p>我们坚持 <span class="highlight">"品质为本、诚信为基、市场为导、创新为魂"</span> 的经营理念，弘扬 <span class="highlight">"踏实、学习、团结、奉献"</span> 的企业精神。</p>
             </div>
@@ -662,7 +645,7 @@
             <div class="products-grid">
 
                 <a href="products/消防喷头.html" class="product-card">
-                    <div class="product-img"><img src="products/消防喷头/消防喷头主图.jpg" alt="洒水喷头"></div>
+                    <div class="product-img"><img loading="lazy" src="products/消防喷头/消防喷头主图.jpg" alt="洒水喷头"></div>
                     <div class="body">
                         <h4>洒水喷头</h4>
                         <p>玻璃球型喷头，包括K-ZSTDY15-68°C系列。可靠的热响应火灾扑灭装置。</p>
@@ -671,7 +654,7 @@
                 </a>
 
                 <a href="products/消防阀门.html" class="product-card">
-                    <div class="product-img"><img src="products/消防阀门/消防阀门主图.jpg" alt="湿式报警阀"></div>
+                    <div class="product-img"><img loading="lazy" src="products/消防阀门/消防阀门主图.jpg" alt="湿式报警阀"></div>
                     <div class="body">
                         <h4>湿式报警阀</h4>
                         <p>耐用的湿式报警阀组件，专为自动喷淋系统设计，结构坚固，水力性能可靠。</p>
@@ -679,7 +662,7 @@
                 </a>
 
                 <a href="products/消防阀.html" class="product-card">
-                    <div class="product-img"><img src="products/消防阀/消防阀主图.jpg" alt="消防阀门与蝶阀"></div>
+                    <div class="product-img"><img loading="lazy" src="products/消防阀/消防阀主图.jpg" alt="消防阀门与蝶阀"></div>
                     <div class="body">
                         <h4>消防阀门与蝶阀</h4>
                         <p>工业级闸阀、蝶阀及信号蝶阀，专为消防主管网系统中的可靠流量控制而设计。</p>
@@ -688,7 +671,7 @@
                 </a>
 
                 <a href="products/室内消防栓/室内消防栓.html" class="product-card">
-                    <div class="product-img"><img src="products/室内消防栓/室内消防栓主图.jpg" alt="室内消火栓"></div>
+                    <div class="product-img"><img loading="lazy" src="products/室内消防栓/室内消防栓主图.jpg" alt="室内消火栓"></div>
                     <div class="body">
                         <h4>室内消火栓</h4>
                         <p>全系列包括SN65、SNW65等型号，符合最新检测标准。</p>
@@ -696,7 +679,7 @@
                 </a>
 
                 <a href="products/室外消防栓/室外消防栓.html" class="product-card">
-                    <div class="product-img"><img src="products/室外消防栓/室外消防栓主图.jpg" alt="室外消火栓"></div>
+                    <div class="product-img"><img loading="lazy" src="products/室外消防栓/室外消防栓主图.jpg" alt="室外消火栓"></div>
                     <div class="body">
                         <h4>室外消火栓</h4>
                         <p>优质铸铁制造，表面防腐处理，适用于道路、园区等室外消防给水系统。</p>
@@ -704,7 +687,7 @@
                 </a>
 
                 <a href="products/软管卷盘.html" class="product-card">
-                    <div class="product-img"><img src="products/软管卷盘/软管卷盘主图.jpg" alt="消防软管卷盘"></div>
+                    <div class="product-img"><img loading="lazy" src="products/软管卷盘/软管卷盘主图.jpg" alt="消防软管卷盘"></div>
                     <div class="body">
                         <h4>消防软管卷盘</h4>
                         <p>消防水带、软管卷盘，适合快速应急救火。</p>
@@ -712,7 +695,7 @@
                 </a>
 
                 <a href="products/消防水枪.html" class="product-card">
-                    <div class="product-img"><img src="products/消防水枪/消防水枪主图.jpg" alt="消防水枪与水接口"></div>
+                    <div class="product-img"><img loading="lazy" src="products/消防水枪/消防水枪主图.jpg" alt="消防水枪与水接口"></div>
                     <div class="body">
                         <h4>消防水枪与水接口</h4>
                         <p>消防水枪、KD65/KY65内扣式接口及水监控，确保高效水力传递。</p>
@@ -720,7 +703,7 @@
                 </a>
 
                 <a href="products/消防栓箱.html" class="product-card">
-                    <div class="product-img"><img src="products/消防栓箱/消防栓箱主图.jpg" alt="消火栓箱"></div>
+                    <div class="product-img"><img loading="lazy" src="products/消防栓箱/消防栓箱主图.jpg" alt="消火栓箱"></div>
                     <div class="body">
                         <h4>消火栓箱</h4>
                         <p>高质量钢制消火栓箱，室内安装，紧急情况下可快速取用设备。</p>
@@ -728,7 +711,7 @@
                 </a>
 
                 <a href="products/消防水泵接合器.html" class="product-card">
-                    <div class="product-img"><img src="products/消防水泵接合器/消防水泵接合器主图.jpg" alt="消防水泵接合器"></div>
+                    <div class="product-img"><img loading="lazy" src="products/消防水泵接合器/消防水泵接合器主图.jpg" alt="消防水泵接合器"></div>
                     <div class="body">
                         <h4>消防水泵接合器</h4>
                         <p>消防车与建筑管网的专用接口，结构紧凑，确保快速供水。</p>
@@ -739,76 +722,50 @@
         </div>
     </section>
 
-    <!-- ===== Brand Visual ===== -->
-    <section class="certs" id="brand">
+    <!-- ===== Certifications ===== -->
+    <section class="certs" id="certs">
         <div class="container">
             <div class="section-title">
-                <div class="en-sub">VISUAL SYSTEM OF BRAND IMAGE</div>
-                <h3 data-i18n="brand_title">品牌形象视觉系统</h3>
-                <p data-i18n="brand_sub">专业品牌形象，彰显企业实力</p>
+                <div class="en-sub">CERTIFICATIONS & QUALIFICATIONS</div>
+                <h3 data-i18n="certs_title">资质荣誉</h3>
+                <p data-i18n="certs_sub">权威认证，品质保障，值得信赖</p>
             </div>
             <div class="section-divider"></div>
-            <div class="brand-grid">
-                <div class="brand-item">
-                    <h5>品牌标志释译</h5>
-                    <p>标志设计理念与企业文化相融合</p>
+            <div class="cert-grid">
+                <div class="cert-card">
+                    <div class="cert-icon">
+                        <svg viewBox="0 0 48 48" fill="none"><rect x="6" y="10" width="36" height="28" rx="3" stroke="#1a5276" stroke-width="2.5" fill="none"/><path d="M16 22L22 28L32 18" stroke="#2e86c1" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                    </div>
+                    <h5>ISO 9001</h5>
+                    <p>质量管理体系认证</p>
                 </div>
-                <div class="brand-item">
-                    <h5>品牌图标草图</h5>
-                    <p>品牌图标的创意与设计过程</p>
+                <div class="cert-card">
+                    <div class="cert-icon">
+                        <svg viewBox="0 0 48 48" fill="none"><rect x="6" y="10" width="36" height="28" rx="3" stroke="#1a5276" stroke-width="2.5" fill="none"/><path d="M16 22L22 28L32 18" stroke="#2e86c1" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                    </div>
+                    <h5>ISO 14001</h5>
+                    <p>环境管理体系认证</p>
                 </div>
-                <div class="brand-item">
-                    <h5>品牌中文草图</h5>
-                    <p>中文标准字体的设计演变</p>
+                <div class="cert-card">
+                    <div class="cert-icon">
+                        <svg viewBox="0 0 48 48" fill="none"><path d="M24 4L28 18H42L30 26L34 40L24 32L14 40L18 26L6 18H20L24 4Z" stroke="#1a5276" stroke-width="2.5" fill="none" stroke-linejoin="round"/></svg>
+                    </div>
+                    <h5>CCCF 认证</h5>
+                    <p>消防产品合格评定</p>
                 </div>
-                <div class="brand-item">
-                    <h5>品牌标准色</h5>
-                    <p>统一的品牌色彩体系</p>
+                <div class="cert-card">
+                    <div class="cert-icon">
+                        <svg viewBox="0 0 48 48" fill="none"><circle cx="24" cy="24" r="16" stroke="#1a5276" stroke-width="2.5" fill="none"/><path d="M20 22L24 26L32 18" stroke="#2e86c1" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/><path d="M16 24L20 28L24 24" stroke="#2e86c1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="0.6"/></svg>
+                    </div>
+                    <h5>型式检验</h5>
+                    <p>国家消防检测中心</p>
                 </div>
-                <div class="brand-item">
-                    <h5>品牌辅助图形</h5>
-                    <p>辅助图形及延展应用</p>
-                </div>
-                <div class="brand-item">
-                    <h5>品牌反白效果</h5>
-                    <p>标志在不同背景下的应用</p>
-                </div>
-                <div class="brand-item">
-                    <h5>名片</h5>
-                    <p>商务名片设计规范</p>
-                </div>
-                <div class="brand-item">
-                    <h5>包装展示</h5>
-                    <p>产品包装系统设计</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- ===== News ===== -->
-    <section id="news">
-        <div class="container">
-            <div class="section-title">
-                <div class="en-sub">NEWS & INFORMATION</div>
-                <h3 data-i18n="news_title">新闻资讯</h3>
-                <p data-i18n="news_sub">了解最新行业动态与公司资讯</p>
-            </div>
-            <div class="section-divider"></div>
-            <div class="news-grid">
-                <div class="news-card">
-                    <h4>消防验收三核25新重点！</h4>
-                    <p>消防验收重点包括：水泵、报警阀、消火栓、水泵接合器、闸阀等主要设备，需提供相关参数和产品合格证书......</p>
-                    <div class="date">2026-06-15</div>
-                </div>
-                <div class="news-card">
-                    <h4>什么是阀门的概念？</h4>
-                    <p>阀门是流体输送系统中的控制部件，用于改变通路断面和介质流动方向，具有导流、截止、调节、节流、止回等功能......</p>
-                    <div class="date">2026-05-20</div>
-                </div>
-                <div class="news-card">
-                    <h4>信号蝶阀的工作原理及注意事项</h4>
-                    <p>信号蝶阀广泛应用于石油、化工、食品、医药、造纸、水电、给排水、冶金、能源等系统管路中......</p>
-                    <div class="date">2026-04-10</div>
+                <div class="cert-card">
+                    <div class="cert-icon">
+                        <svg viewBox="0 0 48 48" fill="none"><path d="M8 16H40V38C40 40 38 42 36 42H12C10 42 8 40 8 38V16Z" stroke="#1a5276" stroke-width="2.5" fill="none"/><path d="M16 16V12C16 8 20 6 24 6C28 6 32 8 32 12V16" stroke="#1a5276" stroke-width="2.5" fill="none"/><circle cx="24" cy="28" r="4" fill="#2e86c1"/><path d="M24 32V36" stroke="#2e86c1" stroke-width="2.5" stroke-linecap="round"/></svg>
+                    </div>
+                    <h5>品质保障</h5>
+                    <p>全流程质检体系</p>
                 </div>
             </div>
         </div>
@@ -897,9 +854,14 @@
                         <label style="font-size:13px;color:var(--text-light);display:block;margin-bottom:8px;">感兴趣的产品（可多选）</label>
                         <div class="tag-group">
                             <label class="tag-btn"><input type="checkbox" name="感兴趣的产品" value="洒水喷头" hidden><span>洒水喷头</span></label>
-                            <label class="tag-btn"><input type="checkbox" name="感兴趣的产品" value="报警阀门" hidden><span>报警阀门</span></label>
+                            <label class="tag-btn"><input type="checkbox" name="感兴趣的产品" value="湿式报警阀" hidden><span>湿式报警阀</span></label>
+                            <label class="tag-btn"><input type="checkbox" name="感兴趣的产品" value="消防阀门与蝶阀" hidden><span>消防阀门与蝶阀</span></label>
                             <label class="tag-btn"><input type="checkbox" name="感兴趣的产品" value="室内消火栓" hidden><span>室内消火栓</span></label>
-                            <label class="tag-btn"><input type="checkbox" name="感兴趣的产品" value="消防水带与卷盘" hidden><span>消防水带与卷盘</span></label>
+                            <label class="tag-btn"><input type="checkbox" name="感兴趣的产品" value="室外消火栓" hidden><span>室外消火栓</span></label>
+                            <label class="tag-btn"><input type="checkbox" name="感兴趣的产品" value="消火栓箱" hidden><span>消火栓箱</span></label>
+                            <label class="tag-btn"><input type="checkbox" name="感兴趣的产品" value="消防水枪与水接口" hidden><span>消防水枪与水接口</span></label>
+                            <label class="tag-btn"><input type="checkbox" name="感兴趣的产品" value="消防软管卷盘" hidden><span>消防软管卷盘</span></label>
+                            <label class="tag-btn"><input type="checkbox" name="感兴趣的产品" value="消防水泵接合器" hidden><span>消防水泵接合器</span></label>
                             <label class="tag-btn"><input type="checkbox" name="感兴趣的产品" value="完整产品目录" hidden><span>完整产品目录</span></label>
                             <label class="tag-btn"><input type="checkbox" name="感兴趣的产品" value="经销/合作" hidden><span>经销/合作</span></label>
                         </div>
@@ -954,8 +916,7 @@
                 nav_home: '首页',
                 nav_about: '关于我们',
                 nav_products: '产品中心',
-                nav_brand: '品牌形象',
-                nav_news: '新闻资讯',
+                nav_certs: '资质荣誉',
                 nav_contact: '联系我们',
                 hero_badge: '★ 专业消防设备制造商  Professional Manufacturer',
                 hero_title: '川维消防<br><span>守护安全  精益求精</span>',
@@ -967,8 +928,6 @@
                 stat_years: '成立至今',
                 story_title: '品牌故事',
                 story_sub: '初心依旧 · Still at Heart',
-                story_p1: '福建消防作为消防行业的重要版图，历来风起云涌，英雄辈出。80年代，浪起潮头，敢为天下先的闽南人相继投身消防大业，而后磅礴发展。',
-                story_p2: '在那个久远年代里，<span class="highlight">川维</span>一直都在，只是我们那时还没有叫川维。我们专业从事OEM加工和半成品加工，兢兢业业数十年，我们隐藏在行业里，发光发热。',
                 story_p3: '<span class="highlight">川维成立于2017年</span>，我们浸染行业数十年，默默磨练。我们为大梦想而来，做大品牌、大企业，为目标矢志不渝。我们做大品质，精雕细琢为每一个精品品质而来。',
                 story_p4: '我们坚持 <span class="highlight">"品质为本、诚信为基、市场为导、创新为魂"</span> 的经营理念，弘扬 <span class="highlight">"踏实、学习、团结、奉献"</span> 的企业精神。',
                 about_title: '关于川维消防',
@@ -1000,10 +959,8 @@
                 s6_desc: '完善的售后服务体系，专业团队快速响应，为您解决后顾之忧。',
                 products_title: '产品中心',
                 products_sub: '全面的消防保护设备，满足各类应用场景',
-                brand_title: '品牌形象视觉系统',
-                brand_sub: '专业品牌形象，彰显企业实力',
-                news_title: '新闻资讯',
-                news_sub: '了解最新行业动态与公司资讯',
+                certs_title: '资质荣誉',
+                certs_sub: '权威认证，品质保障，值得信赖',
                 cta_title: '准备好与川维消防合作了吗？',
                 cta_desc: '获取产品报价或产品目录，我们通常在24小时内回复。',
                 cta_btn: '✉ 立即咨询',
@@ -1030,8 +987,7 @@
                 nav_home: 'Home',
                 nav_about: 'About Us',
                 nav_products: 'Products',
-                nav_brand: 'Brand',
-                nav_news: 'News',
+                nav_certs: 'Certifications',
                 nav_contact: 'Contact Us',
                 hero_badge: '★ Professional Fire Equipment Manufacturer',
                 hero_title: 'Chuanwei Fire<br><span>Protecting Safety with Excellence</span>',
@@ -1043,8 +999,6 @@
                 stat_years: 'Since 2017',
                 story_title: 'Brand Story',
                 story_sub: 'Still at Heart',
-                story_p1: 'Fujian fire protection has long been a vital force in the industry. Since the 1980s, pioneers from southern Fujian have dedicated themselves to the fire safety cause.',
-                story_p2: 'In those early years, <span class="highlight">Chuanwei</span> was always there — just not yet under that name. For decades we specialized in OEM and semi-finished processing, working quietly behind the scenes.',
                 story_p3: '<span class="highlight">Chuanwei was founded in 2017</span>, building on decades of industry experience. We dream big, pursuing excellence in quality and building a brand that stands for reliability.',
                 story_p4: 'We uphold the philosophy of <span class="highlight">"Quality First, Integrity as Foundation, Market-Driven, Innovation as Soul"</span>, promoting a spirit of dedication, learning, unity, and contribution.',
                 about_title: 'About Chuanwei Fire',
@@ -1076,10 +1030,8 @@
                 s6_desc: 'Comprehensive after-sales support with a professional team providing quick responses.',
                 products_title: 'Product Center',
                 products_sub: 'Comprehensive fire protection equipment for every application',
-                brand_title: 'Visual System of Brand Image',
-                brand_sub: 'Professional brand image showcasing corporate strength',
-                news_title: 'News & Information',
-                news_sub: 'Latest industry trends and company updates',
+                certs_title: 'Certifications',
+                certs_sub: 'Authorized & Certified for Quality and Reliability',
                 cta_title: 'Ready to Partner with Chuanwei Fire?',
                 cta_desc: 'Request a quote or product catalog. We typically respond within 24 hours.',
                 cta_btn: '✉ Send Inquiry',

@@ -24,3 +24,6 @@ guanya_original.html
 products/**/*.jpg
 products/**/*.jpeg
 products/**/*.png
+
+# Source product images (not for git)
+产品图/

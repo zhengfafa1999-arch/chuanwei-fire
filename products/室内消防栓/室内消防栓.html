@@ -39,7 +39,7 @@
         .gallery-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; }
         .gallery-item { border-radius: 8px; overflow: hidden; border: 1px solid var(--border); cursor: pointer; transition: all 0.3s; background: #f5f7fa; }
         .gallery-item:hover { transform: translateY(-3px); box-shadow: 0 8px 20px rgba(0,0,0,0.08); }
-        .gallery-item img { width: 100%; height: 180px; object-fit: cover; }
+        .gallery-item img { width: 100%; height: 180px; object-fit: contain; background: #f5f7fa; }
         .related { margin-top: 50px; padding-top: 40px; border-top: 1px solid var(--border); }
         .related h3 { font-size: 20px; color: var(--primary); margin-bottom: 16px; }
         .related-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; }
@@ -50,6 +50,16 @@
         .modal.open { display: flex; }
         .modal img { max-width: 90%; max-height: 90%; }
         .modal .close { position: absolute; top: 20px; right: 30px; color: #fff; font-size: 36px; cursor: pointer; }
+        .modal .nav-btn {
+            position: absolute; top: 50%; transform: translateY(-50%);
+            background: rgba(255,255,255,0.12); color: #fff;
+            border: none; font-size: 28px; padding: 14px 20px;
+            cursor: pointer; border-radius: 50%; transition: all 0.3s;
+            z-index: 10; line-height: 1;
+        }
+        .modal .nav-btn:hover { background: rgba(255,255,255,0.3); }
+        .modal .nav-prev { left: 16px; }
+        .modal .nav-next { right: 16px; }
         .footer { background: var(--primary-dark); color: rgba(255,255,255,0.65); padding: 30px 0 20px; text-align: center; font-size: 12px; }
         @media (max-width: 768px) { .detail-grid { grid-template-columns: 1fr; } .gallery-grid, .related-grid { grid-template-columns: repeat(2, 1fr); } }
     </style>
@@ -61,14 +71,14 @@
                 <img class="logo-img" src="../apple-touch-icon.png" alt="川维消防">
                 <div class="logo-text"><h1>川维消防</h1><span>Chuanwei Fire</span></div>
             </a>
-            <a href="../index.html" class="back-link">&larr; 返回首页</a>
+            <a href="javascript:history.back()" class="back-link">&larr; 返回</a>
         </div>
     </header>
     <section class="detail">
         <div class="container">
             <div class="detail-grid">
                 <div class="main-image" onclick="openModal(this.querySelector('img').src)">
-                    <img src="室内消防栓主图.jpg" alt="室内消火栓">
+                    <img loading="lazy" src="室内消防栓主图.jpg" alt="室内消火栓">
                 </div>
                 <div class="product-info">
                     <h2>室内消火栓</h2>
@@ -86,20 +96,20 @@
             <div class="gallery">
                 <h3>系列产品展示</h3>
                 <div class="gallery-grid">
-                    <div class="gallery-item" onclick="openModal(this.querySelector('img').src)"><img src="DSC_5577.jpg" alt="室内消火栓"></div>
-                    <div class="gallery-item" onclick="openModal(this.querySelector('img').src)"><img src="DSC_5579.jpg" alt="室内消火栓"></div>
-                    <div class="gallery-item" onclick="openModal(this.querySelector('img').src)"><img src="DSC_5580.jpg" alt="室内消火栓"></div>
-                    <div class="gallery-item" onclick="openModal(this.querySelector('img').src)"><img src="DSC_5581.jpg" alt="室内消火栓"></div>
-                    <div class="gallery-item" onclick="openModal(this.querySelector('img').src)"><img src="DSC_5582.jpg" alt="室内消火栓"></div>
-                    <div class="gallery-item" onclick="openModal(this.querySelector('img').src)"><img src="DSC_5583.jpg" alt="室内消火栓"></div>
-                    <div class="gallery-item" onclick="openModal(this.querySelector('img').src)"><img src="DSC_5584.jpg" alt="室内消火栓"></div>
-                    <div class="gallery-item" onclick="openModal(this.querySelector('img').src)"><img src="DSC_5585.jpg" alt="室内消火栓"></div>
-                    <div class="gallery-item" onclick="openModal(this.querySelector('img').src)"><img src="DSC_5586.jpg" alt="室内消火栓"></div>
-                    <div class="gallery-item" onclick="openModal(this.querySelector('img').src)"><img src="DSC_5587.jpg" alt="室内消火栓"></div>
-                    <div class="gallery-item" onclick="openModal(this.querySelector('img').src)"><img src="DSC_5588.jpg" alt="室内消火栓"></div>
-                    <div class="gallery-item" onclick="openModal(this.querySelector('img').src)"><img src="DSC_5589.jpg" alt="室内消火栓"></div>
-                    <div class="gallery-item" onclick="openModal(this.querySelector('img').src)"><img src="DSC_5590.jpg" alt="室内消火栓"></div>
-                    <div class="gallery-item" onclick="openModal(this.querySelector('img').src)"><img src="室内消防栓主图.jpg" alt="室内消火栓"></div></div>
+                    <div class="gallery-item" onclick="openModal(this.querySelector('img').src)"><img loading="lazy" src="DSC_5577.jpg" alt="室内消火栓"></div>
+                    <div class="gallery-item" onclick="openModal(this.querySelector('img').src)"><img loading="lazy" src="DSC_5579.jpg" alt="室内消火栓"></div>
+                    <div class="gallery-item" onclick="openModal(this.querySelector('img').src)"><img loading="lazy" src="DSC_5580.jpg" alt="室内消火栓"></div>
+                    <div class="gallery-item" onclick="openModal(this.querySelector('img').src)"><img loading="lazy" src="DSC_5581.jpg" alt="室内消火栓"></div>
+                    <div class="gallery-item" onclick="openModal(this.querySelector('img').src)"><img loading="lazy" src="DSC_5582.jpg" alt="室内消火栓"></div>
+                    <div class="gallery-item" onclick="openModal(this.querySelector('img').src)"><img loading="lazy" src="DSC_5583.jpg" alt="室内消火栓"></div>
+                    <div class="gallery-item" onclick="openModal(this.querySelector('img').src)"><img loading="lazy" src="DSC_5584.jpg" alt="室内消火栓"></div>
+                    <div class="gallery-item" onclick="openModal(this.querySelector('img').src)"><img loading="lazy" src="DSC_5585.jpg" alt="室内消火栓"></div>
+                    <div class="gallery-item" onclick="openModal(this.querySelector('img').src)"><img loading="lazy" src="DSC_5586.jpg" alt="室内消火栓"></div>
+                    <div class="gallery-item" onclick="openModal(this.querySelector('img').src)"><img loading="lazy" src="DSC_5587.jpg" alt="室内消火栓"></div>
+                    <div class="gallery-item" onclick="openModal(this.querySelector('img').src)"><img loading="lazy" src="DSC_5588.jpg" alt="室内消火栓"></div>
+                    <div class="gallery-item" onclick="openModal(this.querySelector('img').src)"><img loading="lazy" src="DSC_5589.jpg" alt="室内消火栓"></div>
+                    <div class="gallery-item" onclick="openModal(this.querySelector('img').src)"><img loading="lazy" src="DSC_5590.jpg" alt="室内消火栓"></div>
+                    <div class="gallery-item" onclick="openModal(this.querySelector('img').src)"><img loading="lazy" src="室内消防栓主图.jpg" alt="室内消火栓"></div></div>
             </div>
             <div class="related">
                 <h3>相关产品</h3>
@@ -116,15 +126,55 @@
             <p>&copy; 2026 川维消防设备有限公司 | <a href="../index.html">首页</a> | <a href="../index.html#products">产品中心</a></p>
         </div>
     </footer>
-    <div class="modal" id="imageModal" onclick="this.classList.remove('open')">
+    <div class="modal" id="imageModal">
         <span class="close">&times;</span>
+        <button class="nav-btn nav-prev" onclick="changeImage(-1)">&#10094;</button>
         <img id="modalImage" src="" alt="">
+        <button class="nav-btn nav-next" onclick="changeImage(1)">&#10095;</button>
     </div>
     <script>
+        let galleryImages = [];
+        let currentImageIndex = 0;
+
         function openModal(src) {
-            document.getElementById('modalImage').src = src;
+            const imgs = document.querySelectorAll('.gallery-grid img');
+            galleryImages = Array.from(imgs).map(img => img.src);
+            const mainImg = document.querySelector('.main-image img');
+            if (mainImg) {
+                const mainSrc = mainImg.src;
+                const idx = galleryImages.indexOf(mainSrc);
+                if (idx !== -1) galleryImages.splice(idx, 1);
+                galleryImages.unshift(mainSrc);
+            }
+            currentImageIndex = galleryImages.indexOf(src);
+            if (currentImageIndex === -1) currentImageIndex = 0;
+            showImage();
             document.getElementById('imageModal').classList.add('open');
         }
+
+        function changeImage(direction) {
+            currentImageIndex += direction;
+            if (currentImageIndex < 0) currentImageIndex = galleryImages.length - 1;
+            if (currentImageIndex >= galleryImages.length) currentImageIndex = 0;
+            showImage();
+        }
+
+        function showImage() {
+            document.getElementById('modalImage').src = galleryImages[currentImageIndex];
+        }
+
+        document.getElementById('imageModal').addEventListener('click', function(e) {
+            if (e.target === this) this.classList.remove('open');
+        });
+        document.querySelector('.modal .close').addEventListener('click', function() {
+            document.getElementById('imageModal').classList.remove('open');
+        });
+        document.addEventListener('keydown', function(e) {
+            if (!document.getElementById('imageModal').classList.contains('open')) return;
+            if (e.key === 'ArrowLeft') changeImage(-1);
+            if (e.key === 'ArrowRight') changeImage(1);
+            if (e.key === 'Escape') document.getElementById('imageModal').classList.remove('open');
+        });
     </script>
 </body>
 </html>
