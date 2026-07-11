@@ -20,10 +20,5 @@ guanya_original.html
 # Claude
 .claude/
 
-# Product images (deploy manually to server)
-products/**/*.jpg
-products/**/*.jpeg
-products/**/*.png
-
 # Source product images (not for git)
 产品图/
