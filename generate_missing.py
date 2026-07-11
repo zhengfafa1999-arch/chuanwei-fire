@@ -180,6 +180,11 @@ TEMPLATE = """<!DOCTYPE html>
             if (e.key === 'ArrowRight') changeImage(1);
             if (e.key === 'Escape') document.getElementById('imageModal').classList.remove('open');
         }});
+
+        // Init English
+        document.addEventListener('DOMContentLoaded', function() {{
+            switchLang('en');
+        }});
     </script>
 </body>
 </html>"""
