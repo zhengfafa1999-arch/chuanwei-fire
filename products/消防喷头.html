@@ -254,10 +254,11 @@
         // ===== i18n Translations =====
         const i18n = {"zh": {"prod_name": "洒水喷头", "prod_name_en": "Fire Sprinklers", "prod_desc": "川维消防生产的洒水喷头采用优质玻璃球感温元件，响应迅速、性能稳定。产品涵盖K-ZSTDY15-68°C等多种型号，广泛应用于商业建筑、工业厂房、住宅小区等场所的自动喷水灭火系统。", "gallery_title": "系列产品展示", "related_title": "相关产品", "inquiry_btn": "📩 立即询价", "back_btn": "← 返回首页", "footer_home": "首页", "footer_products": "产品中心", "footer_contact": "联系我们", "feat_0": "玻璃球感温，响应迅速", "feat_1": "多种温度等级可选", "feat_2": "镀铜/镀铬防腐处理", "feat_3": "适用于湿式/干式系统", "feat_4": "通过CCCF认证", "rel_消防栓箱": "消火栓箱", "rel_消防水枪": "消防水枪与水接口", "rel_消防水泵接合器": "消防水泵接合器", "rel_消防阀": "消防阀门与蝶阀"}, "en": {"prod_name": "Fire Sprinklers", "prod_name_en": "洒水喷头", "prod_desc": "Chuanwei Fire Sprinklers use quality glass bulb thermal elements for fast response and stable performance. Various models available for commercial, industrial and residential automatic sprinkler systems.", "gallery_title": "Product Gallery", "related_title": "Related Products", "inquiry_btn": "📩 Send Inquiry", "back_btn": "← Back to Home", "footer_home": "Home", "footer_products": "Products", "footer_contact": "Contact Us", "feat_0": "Glass bulb fast response", "feat_1": "Multiple temperature ratings", "feat_2": "Copper/chrome plated", "feat_3": "For wet/dry systems", "feat_4": "CCCF certified", "rel_消防栓箱": "Fire Hydrant Boxes", "rel_消防水枪": "Fire Nozzles & Couplings", "rel_消防水泵接合器": "Fire Pump Adapters", "rel_消防阀": "Fire Gate & Butterfly Valves"}};
 
-        let currentLang = 'en';
+        let currentLang = localStorage.getItem('lang') || 'en';
 
         function switchLang(lang) {
             currentLang = lang;
+            localStorage.setItem('lang', lang);
             document.querySelectorAll('.lang-btn').forEach(b => {
                 const isActive = b.textContent.trim() === (lang === 'zh' ? '中' : 'EN');
                 b.classList.toggle('active', isActive);
@@ -330,9 +331,10 @@
             if (e.key === 'Escape') document.getElementById('imageModal').classList.remove('open');
         });
 
-        // Init English
+        // Init language from localStorage (default English)
         document.addEventListener('DOMContentLoaded', function() {
-            switchLang('en');
+            const saved = localStorage.getItem('lang') || 'en';
+            switchLang(saved);
         });
     </script>
 </body>

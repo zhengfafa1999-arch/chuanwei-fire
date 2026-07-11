@@ -330,10 +330,11 @@ def generate_detail_page(cn_name, en_name, eng_path, folder, description, descri
         // ===== i18n Translations =====
         const i18n = {i18n_json};
 
-        let currentLang = 'en';
+        let currentLang = localStorage.getItem('lang') || 'en';
 
         function switchLang(lang) {{
             currentLang = lang;
+            localStorage.setItem('lang', lang);
             document.querySelectorAll('.lang-btn').forEach(b => {{
                 const isActive = b.textContent.trim() === (lang === 'zh' ? '中' : 'EN');
                 b.classList.toggle('active', isActive);
@@ -406,9 +407,10 @@ def generate_detail_page(cn_name, en_name, eng_path, folder, description, descri
             if (e.key === 'Escape') document.getElementById('imageModal').classList.remove('open');
         }});
 
-        // Init English
+        // Init language from localStorage (default English)
         document.addEventListener('DOMContentLoaded', function() {{
-            switchLang('en');
+            const saved = localStorage.getItem('lang') || 'en';
+            switchLang(saved);
         }});
     </script>
 </body>

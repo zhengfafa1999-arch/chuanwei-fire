@@ -216,10 +216,11 @@
         // ===== i18n Translations =====
         const i18n = {"zh": {"prod_name": "消防软管卷盘", "prod_name_en": "Fire Hose Reels", "prod_desc": "川维消防软管卷盘系列产品采用优质材料制造，结构紧凑，操作简便。产品包括消防软管卷盘、消防水带等，适合安装在商业建筑、住宅楼等场所，为初期火灾扑救提供便利。", "gallery_title": "系列产品展示", "related_title": "相关产品", "inquiry_btn": "📩 立即询价", "back_btn": "← 返回首页", "footer_home": "首页", "footer_products": "产品中心", "footer_contact": "联系我们", "feat_0": "结构紧凑美观", "feat_1": "操作简便快捷", "feat_2": "软管耐压耐磨", "feat_3": "安装位置灵活", "feat_4": "适合初期火灾扑救", "rel_消防喷头": "洒水喷头", "rel_消防栓箱": "消火栓箱", "rel_消防水枪": "消防水枪与水接口", "rel_消防水泵接合器": "消防水泵接合器"}, "en": {"prod_name": "Fire Hose Reels", "prod_name_en": "消防软管卷盘", "prod_desc": "Chuanwei Fire Hose Reels are made of quality materials, compact design, easy to operate. Suitable for commercial and residential buildings for initial firefighting.", "gallery_title": "Product Gallery", "related_title": "Related Products", "inquiry_btn": "📩 Send Inquiry", "back_btn": "← Back to Home", "footer_home": "Home", "footer_products": "Products", "footer_contact": "Contact Us", "feat_0": "Compact design", "feat_1": "Easy operation", "feat_2": "Durable hose", "feat_3": "Flexible installation", "feat_4": "For initial firefighting", "rel_消防喷头": "Fire Sprinklers", "rel_消防栓箱": "Fire Hydrant Boxes", "rel_消防水枪": "Fire Nozzles & Couplings", "rel_消防水泵接合器": "Fire Pump Adapters"}};
 
-        let currentLang = 'en';
+        let currentLang = localStorage.getItem('lang') || 'en';
 
         function switchLang(lang) {
             currentLang = lang;
+            localStorage.setItem('lang', lang);
             document.querySelectorAll('.lang-btn').forEach(b => {
                 const isActive = b.textContent.trim() === (lang === 'zh' ? '中' : 'EN');
                 b.classList.toggle('active', isActive);
@@ -292,9 +293,10 @@
             if (e.key === 'Escape') document.getElementById('imageModal').classList.remove('open');
         });
 
-        // Init English
+        // Init language from localStorage (default English)
         document.addEventListener('DOMContentLoaded', function() {
-            switchLang('en');
+            const saved = localStorage.getItem('lang') || 'en';
+            switchLang(saved);
         });
     </script>
 </body>

@@ -140,9 +140,10 @@
         // ===== i18n Translations =====
         const i18n = {"zh": {"prod_name": "室内消火栓", "prod_name_en": "Indoor Fire Hydrants", "prod_desc": "川维消防室内消火栓系列包括SN65、SNW65-I-C、SNW65-II-Y等多种型号，严格按照国家标准设计制造，广泛应用于商业建筑、住宅小区、工业厂房等场所的消防给水系统。", "gallery_title": "系列产品展示", "related_title": "相关产品", "inquiry_btn": "📩 立即询价", "back_btn": "← 返回首页", "footer_home": "首页", "footer_products": "产品中心", "rel_消防喷头": "洒水喷头", "rel_消防阀": "消防阀门与蝶阀", "rel_软管卷盘": "消防软管卷盘", "rel_消防水泵接合器": "消防水泵接合器", "feat_0": "全系列产品齐全", "feat_1": "铸造工艺精湛", "feat_2": "密封性能优良", "feat_3": "操作灵活轻便", "feat_4": "符合国家标准"}, "en": {"prod_name": "Indoor Fire Hydrants", "prod_name_en": "室内消火栓", "prod_desc": "Chuanwei Indoor Fire Hydrants include SN65, SNW65-I-C, SNW65-II-Y models. Designed per national standards for commercial, residential and industrial fire water supply systems.", "gallery_title": "Product Gallery", "related_title": "Related Products", "inquiry_btn": "📩 Send Inquiry", "back_btn": "← Back to Home", "footer_home": "Home", "footer_products": "Products", "rel_消防喷头": "Fire Sprinklers", "rel_消防阀": "Gate & Butterfly Valves", "rel_软管卷盘": "Fire Hose Reels", "rel_消防水泵接合器": "Pump Adapters", "feat_0": "Full range available", "feat_1": "Fine casting quality", "feat_2": "Excellent seal", "feat_3": "Easy operation", "feat_4": "National standard compliant"}};
 
-        let currentLang = 'en';
+        let currentLang = localStorage.getItem('lang') || 'en';
         function switchLang(lang) {
             currentLang = lang;
+            localStorage.setItem('lang', lang);
             document.querySelectorAll('.lang-btn').forEach(b => {
                 const isActive = b.textContent.trim() === (lang === 'zh' ? '中' : 'EN');
                 b.classList.toggle('active', isActive);
@@ -202,9 +203,10 @@
             if (e.key === 'Escape') document.getElementById('imageModal').classList.remove('open');
         });
 
-        // Init English
+        // Init language from localStorage (default English)
         document.addEventListener('DOMContentLoaded', function() {
-            switchLang('en');
+            const saved = localStorage.getItem('lang') || 'en';
+            switchLang(saved);
         });
     </script>
 </body>

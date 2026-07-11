@@ -147,9 +147,10 @@
         // ===== i18n Translations =====
         const i18n = {"zh": {"prod_name": "室外消火栓", "prod_name_en": "Outdoor Fire Hydrants", "prod_desc": "川维消防室外消火栓采用优质铸铁制造，表面防腐处理，适用于城市道路、工业园区、商业广场等室外场所，为消防救援提供可靠的水源保障。", "gallery_title": "系列产品展示", "related_title": "相关产品", "inquiry_btn": "📩 立即询价", "back_btn": "← 返回首页", "footer_home": "首页", "footer_products": "产品中心", "rel_消防喷头": "洒水喷头", "rel_消防阀": "消防阀门与蝶阀", "rel_软管卷盘": "消防软管卷盘", "rel_消防水泵接合器": "消防水泵接合器", "feat_0": "优质铸铁坚固耐用", "feat_1": "表面防腐涂装", "feat_2": "出水口规格齐全", "feat_3": "密封性能好", "feat_4": "适用于各种室外场所"}, "en": {"prod_name": "Outdoor Fire Hydrants", "prod_name_en": "室外消火栓", "prod_desc": "Chuanwei Outdoor Fire Hydrants are made of quality cast iron with anti-corrosion coating. Suitable for roads, industrial parks and commercial plazas.", "gallery_title": "Product Gallery", "related_title": "Related Products", "inquiry_btn": "📩 Send Inquiry", "back_btn": "← Back to Home", "footer_home": "Home", "footer_products": "Products", "rel_消防喷头": "Fire Sprinklers", "rel_消防阀": "Gate & Butterfly Valves", "rel_软管卷盘": "Fire Hose Reels", "rel_消防水泵接合器": "Pump Adapters", "feat_0": "Durable cast iron", "feat_1": "Anti-corrosion coating", "feat_2": "Complete outlet specs", "feat_3": "Good sealing", "feat_4": "For various outdoor sites"}};
 
-        let currentLang = 'en';
+        let currentLang = localStorage.getItem('lang') || 'en';
         function switchLang(lang) {
             currentLang = lang;
+            localStorage.setItem('lang', lang);
             document.querySelectorAll('.lang-btn').forEach(b => {
                 const isActive = b.textContent.trim() === (lang === 'zh' ? '中' : 'EN');
                 b.classList.toggle('active', isActive);
@@ -209,9 +210,10 @@
             if (e.key === 'Escape') document.getElementById('imageModal').classList.remove('open');
         });
 
-        // Init English
+        // Init language from localStorage (default English)
         document.addEventListener('DOMContentLoaded', function() {
-            switchLang('en');
+            const saved = localStorage.getItem('lang') || 'en';
+            switchLang(saved);
         });
     </script>
 </body>

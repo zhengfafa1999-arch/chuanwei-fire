@@ -220,10 +220,11 @@
         // ===== i18n Translations =====
         const i18n = {"zh": {"prod_name": "消防阀", "prod_name_en": "Fire Valves", "prod_desc": "川维消防阀采用优质材料制造，通过手轮/旋钮控制消防管网中水流的通断，结构紧凑、密封可靠，广泛应用于各类建筑的消防管道系统中。", "gallery_title": "系列产品展示", "related_title": "相关产品", "inquiry_btn": "📩 立即询价", "back_btn": "← 返回首页", "footer_home": "首页", "footer_products": "产品中心", "footer_contact": "联系我们", "feat_0": "优质材料制造", "feat_1": "结构紧凑耐用", "feat_2": "密封性能可靠", "feat_3": "手轮启闭灵活", "feat_4": "适用于消防管道系统", "rel_消防喷头": "洒水喷头", "rel_消防栓箱": "消火栓箱", "rel_消防水枪": "消防水枪与水接口", "rel_消防水泵接合器": "消防水泵接合器"}, "en": {"prod_name": "Fire Valves", "prod_name_en": "消防阀", "prod_desc": "Chuanwei Fire Valves are made of quality materials with handwheel control for on/off water flow in fire pipelines. Compact, reliable seal for building fire systems.", "gallery_title": "Product Gallery", "related_title": "Related Products", "inquiry_btn": "📩 Send Inquiry", "back_btn": "← Back to Home", "footer_home": "Home", "footer_products": "Products", "footer_contact": "Contact Us", "feat_0": "Quality materials", "feat_1": "Compact durable", "feat_2": "Reliable sealing", "feat_3": "Smooth handwheel", "feat_4": "For fire pipelines", "rel_消防喷头": "Fire Sprinklers", "rel_消防栓箱": "Fire Hydrant Boxes", "rel_消防水枪": "Fire Nozzles & Couplings", "rel_消防水泵接合器": "Fire Pump Adapters"}};
 
-        let currentLang = 'en';
+        let currentLang = localStorage.getItem('lang') || 'en';
 
         function switchLang(lang) {
             currentLang = lang;
+            localStorage.setItem('lang', lang);
             document.querySelectorAll('.lang-btn').forEach(b => {
                 const isActive = b.textContent.trim() === (lang === 'zh' ? '中' : 'EN');
                 b.classList.toggle('active', isActive);
@@ -296,9 +297,10 @@
             if (e.key === 'Escape') document.getElementById('imageModal').classList.remove('open');
         });
 
-        // Init English
+        // Init language from localStorage (default English)
         document.addEventListener('DOMContentLoaded', function() {
-            switchLang('en');
+            const saved = localStorage.getItem('lang') || 'en';
+            switchLang(saved);
         });
     </script>
 </body>

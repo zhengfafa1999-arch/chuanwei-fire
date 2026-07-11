@@ -216,10 +216,11 @@
         // ===== i18n Translations =====
         const i18n = {"zh": {"prod_name": "消防水泵接合器", "prod_name_en": "Fire Pump Adapters", "prod_desc": "川维消防消防水泵接合器是连接消防车与建筑物消防管网的专用接口，采用优质材料制造，结构紧凑、密封可靠，确保在火灾时消防车能够快速向建筑管网供水。", "gallery_title": "系列产品展示", "related_title": "相关产品", "inquiry_btn": "📩 立即询价", "back_btn": "← 返回首页", "footer_home": "首页", "footer_products": "产品中心", "footer_contact": "联系我们", "feat_0": "优质材料制造", "feat_1": "结构紧凑耐用", "feat_2": "密封性能可靠", "feat_3": "安装维护方便", "feat_4": "消防车快速对接", "rel_消防喷头": "洒水喷头", "rel_消防栓箱": "消火栓箱", "rel_消防水枪": "消防水枪与水接口", "rel_消防阀": "消防阀门与蝶阀"}, "en": {"prod_name": "Fire Pump Adapters", "prod_name_en": "消防水泵接合器", "prod_desc": "Chuanwei Fire Pump Adapters connect fire trucks to building pipe networks. Quality materials, compact design, reliable sealing for rapid water supply during emergencies.", "gallery_title": "Product Gallery", "related_title": "Related Products", "inquiry_btn": "📩 Send Inquiry", "back_btn": "← Back to Home", "footer_home": "Home", "footer_products": "Products", "footer_contact": "Contact Us", "feat_0": "Quality materials", "feat_1": "Compact and durable", "feat_2": "Reliable sealing", "feat_3": "Easy maintenance", "feat_4": "Quick truck connection", "rel_消防喷头": "Fire Sprinklers", "rel_消防栓箱": "Fire Hydrant Boxes", "rel_消防水枪": "Fire Nozzles & Couplings", "rel_消防阀": "Fire Gate & Butterfly Valves"}};
 
-        let currentLang = 'en';
+        let currentLang = localStorage.getItem('lang') || 'en';
 
         function switchLang(lang) {
             currentLang = lang;
+            localStorage.setItem('lang', lang);
             document.querySelectorAll('.lang-btn').forEach(b => {
                 const isActive = b.textContent.trim() === (lang === 'zh' ? '中' : 'EN');
                 b.classList.toggle('active', isActive);
@@ -292,9 +293,10 @@
             if (e.key === 'Escape') document.getElementById('imageModal').classList.remove('open');
         });
 
-        // Init English
+        // Init language from localStorage (default English)
         document.addEventListener('DOMContentLoaded', function() {
-            switchLang('en');
+            const saved = localStorage.getItem('lang') || 'en';
+            switchLang(saved);
         });
     </script>
 </body>

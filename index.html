@@ -1112,6 +1112,7 @@
 
         function switchLang(lang) {
             currentLang = lang;
+            localStorage.setItem('lang', lang);
             document.querySelectorAll('.lang-btn').forEach(b => b.classList.toggle('active', b.textContent.trim() === (lang === 'zh' ? '中' : 'EN')));
             const t = i18n[lang];
             document.querySelectorAll('[data-i18n]').forEach(el => {
@@ -1211,9 +1212,10 @@
             });
         });
 
-        // ===== Init English as default =====
+        // ===== Init language from localStorage (default English) =====
         document.addEventListener('DOMContentLoaded', function() {
-            switchLang('en');
+            const saved = localStorage.getItem('lang') || 'en';
+            switchLang(saved);
         });
     </script>
 </body>

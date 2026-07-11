@@ -215,10 +215,11 @@
         // ===== i18n Translations =====
         const i18n = {"zh": {"prod_name": "消防阀门与蝶阀", "prod_name_en": "Fire Gate & Butterfly Valves", "prod_desc": "川维消防消防阀门系列包括闸阀、蝶阀、信号蝶阀等多种产品，专为消防给水系统设计。产品铸造精良、密封可靠，广泛应用于各类建筑的消防主管网系统中。", "gallery_title": "系列产品展示", "related_title": "相关产品", "inquiry_btn": "📩 立即询价", "back_btn": "← 返回首页", "footer_home": "首页", "footer_products": "产品中心", "footer_contact": "联系我们", "feat_0": "铸造精良，经久耐用", "feat_1": "密封可靠无泄漏", "feat_2": "开关灵活轻便", "feat_3": "信号蝶阀带反馈功能", "feat_4": "适用于消防主管网", "rel_消防喷头": "洒水喷头", "rel_消防栓箱": "消火栓箱", "rel_消防水枪": "消防水枪与水接口", "rel_消防水泵接合器": "消防水泵接合器"}, "en": {"prod_name": "Fire Gate & Butterfly Valves", "prod_name_en": "消防阀门与蝶阀", "prod_desc": "Chuanwei Fire Valves include gate valves, butterfly valves and signal butterfly valves for fire water systems. Fine casting, reliable seal for main fire pipelines.", "gallery_title": "Product Gallery", "related_title": "Related Products", "inquiry_btn": "📩 Send Inquiry", "back_btn": "← Back to Home", "footer_home": "Home", "footer_products": "Products", "footer_contact": "Contact Us", "feat_0": "Fine casting durable", "feat_1": "Leak-proof seal", "feat_2": "Smooth operation", "feat_3": "Signal feedback available", "feat_4": "For main pipelines", "rel_消防喷头": "Fire Sprinklers", "rel_消防栓箱": "Fire Hydrant Boxes", "rel_消防水枪": "Fire Nozzles & Couplings", "rel_消防水泵接合器": "Fire Pump Adapters"}};
 
-        let currentLang = 'en';
+        let currentLang = localStorage.getItem('lang') || 'en';
 
         function switchLang(lang) {
             currentLang = lang;
+            localStorage.setItem('lang', lang);
             document.querySelectorAll('.lang-btn').forEach(b => {
                 const isActive = b.textContent.trim() === (lang === 'zh' ? '中' : 'EN');
                 b.classList.toggle('active', isActive);
@@ -291,9 +292,10 @@
             if (e.key === 'Escape') document.getElementById('imageModal').classList.remove('open');
         });
 
-        // Init English
+        // Init language from localStorage (default English)
         document.addEventListener('DOMContentLoaded', function() {
-            switchLang('en');
+            const saved = localStorage.getItem('lang') || 'en';
+            switchLang(saved);
         });
     </script>
 </body>
