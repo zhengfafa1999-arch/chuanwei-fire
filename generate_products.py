@@ -221,7 +221,7 @@ def generate_detail_page(cn_name, en_name, eng_path, folder, description, featur
                     <span>Chuanwei Fire</span>
                 </div>
             </a>
-            <a href="../index.html#products" class="back-link">← 返回产品中心</a>
+            <a href="../index.html" class="back-link">← 返回首页</a>
         </div>
     </header>
 

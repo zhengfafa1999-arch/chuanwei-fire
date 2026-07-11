@@ -7,8 +7,8 @@ TEMPLATE = """<!DOCTYPE html>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{cn_name} - {en_name} - 川维消防设备有限公司</title>
     <meta name="description" content="川维消防{cn_name}产品">
-    <link rel="icon" href="../favicon.ico">
-    <link rel="apple-touch-icon" href="../apple-touch-icon.png">
+    <link rel="icon" href="../../favicon.ico">
+    <link rel="apple-touch-icon" href="../../apple-touch-icon.png">
     <style>
         * {{ box-sizing: border-box; margin: 0; padding: 0; }}
         body {{ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Microsoft YaHei', sans-serif; color: #333; line-height: 1.6; background: #fff; }}
@@ -69,11 +69,11 @@ TEMPLATE = """<!DOCTYPE html>
 <body>
     <header class="header">
         <div class="header-inner">
-            <a href="../index.html" class="logo">
-                <img class="logo-img" src="../apple-touch-icon.png" alt="川维消防">
+            <a href="../../index.html" class="logo">
+                <img class="logo-img" src="../../apple-touch-icon.png" alt="川维消防">
                 <div class="logo-text"><h1>川维消防</h1><span>Chuanwei Fire</span></div>
             </a>
-            <a href="../index.html#products" class="back-link">&larr; 返回产品中心</a>
+            <a href="../../index.html" class="back-link">&larr; 返回首页</a>
         </div>
     </header>
     <section class="detail">
@@ -87,7 +87,7 @@ TEMPLATE = """<!DOCTYPE html>
                     <div class="en-name">{en_name}</div>
                     <p class="desc">{desc}</p>
                     <ul class="features">{features_html}</ul>
-                    <a href="../index.html#contact" class="inquiry-btn">&#128233; 立即询价</a>
+                    <a href="../../index.html" class="inquiry-btn">&#128233; 立即询价</a>
                 </div>
             </div>
             <div class="gallery">
@@ -102,7 +102,7 @@ TEMPLATE = """<!DOCTYPE html>
     </section>
     <footer class="footer">
         <div class="container">
-            <p>&copy; 2026 川维消防设备有限公司 | <a href="../index.html">首页</a> | <a href="../index.html#products">产品中心</a></p>
+            <p>&copy; 2026 川维消防设备有限公司 | <a href="../../index.html">首页</a> | <a href="../../index.html#products">产品中心</a></p>
         </div>
     </footer>
     <div class="modal" id="imageModal">
@@ -184,10 +184,10 @@ for folder, cn, en, desc, feats in mapping:
         gal_html += f'\n                    <div class="gallery-item" onclick="openModal(this.querySelector(\'img\').src)"><img loading="lazy" src="{img}" alt="{cn}"></div>'
 
     rel_html = """
-                    <a href="../products/消防喷头/消防喷头.html" class="related-card"><h4>洒水喷头</h4></a>
-                    <a href="../products/消防阀/消防阀.html" class="related-card"><h4>消防阀门与蝶阀</h4></a>
-                    <a href="../products/软管卷盘/软管卷盘.html" class="related-card"><h4>消防软管卷盘</h4></a>
-                    <a href="../products/消防水泵接合器/消防水泵接合器.html" class="related-card"><h4>消防水泵接合器</h4></a>"""
+                    <a href="../../消防喷头.html" class="related-card"><h4>洒水喷头</h4></a>
+                    <a href="../../消防阀.html" class="related-card"><h4>消防阀门与蝶阀</h4></a>
+                    <a href="../../软管卷盘.html" class="related-card"><h4>消防软管卷盘</h4></a>
+                    <a href="../../消防水泵接合器.html" class="related-card"><h4>消防水泵接合器</h4></a>"""
 
     html = TEMPLATE.format(cn_name=cn, en_name=en, main_img=main_img, desc=desc,
                           features_html=feat_html, gallery_html=gal_html, related_html=rel_html)
