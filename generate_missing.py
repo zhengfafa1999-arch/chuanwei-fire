@@ -73,7 +73,7 @@ TEMPLATE = """<!DOCTYPE html>
                 <img class="logo-img" src="../apple-touch-icon.png" alt="川维消防">
                 <div class="logo-text"><h1>川维消防</h1><span>Chuanwei Fire</span></div>
             </a>
-            <a href="javascript:history.back()" class="back-link">&larr; 返回</a>
+            <a href="../index.html#products" class="back-link">&larr; 返回产品中心</a>
         </div>
     </header>
     <section class="detail">
