@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>洒水喷头 - Fire Sprinklers - 川维消防设备有限公司</title>
+    <meta name="description" content="川维消防洒水喷头产品，川维消防生产的洒水喷头采用优质玻璃球感温元件，响应迅速、性能稳定。产品涵盖K-ZSTDY15-68°C等多种型号，广泛应用于商业建筑、工业厂房、住宅小区等场所的">
+    <link rel="icon" href="../favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="../apple-touch-icon.png">
+    <link rel="canonical" href="https://chuanweifire.com/products/sprinklers.html">
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Microsoft YaHei', sans-serif;
+            color: #333; line-height: 1.6; background: #fff;
+        }
+        img { max-width: 100%; display: block; }
+        a { text-decoration: none; color: inherit; }
+        .container { max-width: 1200px; margin: 0 auto; padding: 0 20px; }
+        :root { --primary: #1a5276; --primary-light: #2e86c1; --primary-dark: #0e2f44; --bg-light: #f8f9fa; --text-light: #666; --border: #e0e0e0; }
+
+        /* Header */
+        .header {
+            position: fixed; top: 0; left: 0; width: 100%; z-index: 1000;
+            background: #fff; box-shadow: 0 2px 20px rgba(0,0,0,0.08);
+        }
+        .header-inner { display: flex; align-items: center; justify-content: space-between; padding: 8px 20px; max-width: 1200px; margin: 0 auto; }
+        .logo { display: flex; align-items: center; gap: 10px; }
+        .logo-img { height: 36px; border-radius: 6px; }
+        .logo-text h1 { font-size: 16px; color: var(--primary); }
+        .logo-text span { font-size: 10px; color: var(--text-light); }
+        .back-link {
+            display: inline-flex; align-items: center; gap: 6px;
+            color: var(--primary); font-size: 14px; font-weight: 500;
+            padding: 6px 14px; border-radius: 6px; transition: background 0.2s;
+        }
+        .back-link:hover { background: #e8f0fe; }
+
+        /* Product Detail */
+        .detail { padding: 100px 0 60px; }
+        .detail-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; align-items: start; }
+        .main-image {
+            border-radius: 12px; overflow: hidden; border: 1px solid var(--border);
+            cursor: pointer; background: #f5f7fa;
+        }
+        .main-image img { width: 100%; height: auto; object-fit: contain; max-height: 500px; }
+        .product-info h2 { font-size: 28px; color: var(--primary); margin-bottom: 6px; }
+        .product-info .en-name { font-size: 14px; color: var(--primary-light); margin-bottom: 16px; }
+        .product-info .desc { font-size: 14px; color: #555; line-height: 1.8; margin-bottom: 20px; }
+        .features { list-style: none; margin-bottom: 24px; }
+        .features li { display: flex; align-items: center; gap: 8px; font-size: 14px; color: #444; margin-bottom: 8px; }
+        .features li::before { content: '✓'; color: var(--primary-light); font-weight: 700; font-size: 16px; }
+        .inquiry-btn {
+            display: inline-flex; align-items: center; gap: 8px;
+            background: var(--primary); color: #fff; padding: 12px 28px;
+            border-radius: 8px; font-size: 14px; font-weight: 600;
+            transition: background 0.3s; border: none; cursor: pointer;
+        }
+        .inquiry-btn:hover { background: var(--primary-dark); }
+
+        /* Gallery */
+        .gallery { margin-top: 40px; }
+        .gallery h3 { font-size: 20px; color: var(--primary); margin-bottom: 16px; }
+        .gallery-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; }
+        .gallery-item {
+            border-radius: 8px; overflow: hidden; border: 1px solid var(--border);
+            cursor: pointer; transition: all 0.3s; background: #f5f7fa;
+        }
+        .gallery-item:hover { transform: translateY(-3px); box-shadow: 0 8px 20px rgba(0,0,0,0.08); }
+        .gallery-item img { width: 100%; height: 180px; object-fit: cover; }
+        .gallery-item .label { padding: 8px 12px; font-size: 12px; color: var(--text-light); text-align: center; }
+
+        /* Related */
+        .related { margin-top: 50px; padding-top: 40px; border-top: 1px solid var(--border); }
+        .related h3 { font-size: 20px; color: var(--primary); margin-bottom: 16px; }
+        .related-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; }
+        .related-card {
+            padding: 16px; border-radius: 10px; border: 1px solid var(--border);
+            transition: all 0.3s; display: block;
+        }
+        .related-card:hover { box-shadow: 0 8px 20px rgba(0,0,0,0.06); border-color: var(--primary-light); }
+        .related-card h4 { font-size: 14px; color: var(--primary); margin-bottom: 4px; }
+        .related-card p { font-size: 12px; color: var(--text-light); line-height: 1.4; }
+
+        /* Modal */
+        .modal {
+            display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%;
+            background: rgba(0,0,0,0.85); z-index: 9999; cursor: pointer;
+            align-items: center; justify-content: center;
+        }
+        .modal.open { display: flex; }
+        .modal img { max-width: 90%; max-height: 90%; object-fit: contain; }
+        .modal .close {
+            position: absolute; top: 20px; right: 30px; color: #fff;
+            font-size: 36px; cursor: pointer; font-weight: 300;
+        }
+
+        /* Footer */
+        .footer { background: var(--primary-dark); color: rgba(255,255,255,0.65); padding: 30px 0 20px; text-align: center; font-size: 12px; }
+        .footer a { color: rgba(255,255,255,0.8); margin: 0 10px; }
+        .footer a:hover { color: var(--primary-light); }
+
+        @media (max-width: 768px) {
+            .detail-grid { grid-template-columns: 1fr; gap: 24px; }
+            .gallery-grid { grid-template-columns: repeat(2, 1fr); }
+            .related-grid { grid-template-columns: repeat(2, 1fr); }
+            .product-info h2 { font-size: 22px; }
+        }
+    </style>
+</head>
+<body>
+
+    <header class="header">
+        <div class="header-inner">
+            <a href="../index.html" class="logo">
+                <img class="logo-img" src="../apple-touch-icon.png" alt="川维消防">
+                <div class="logo-text">
+                    <h1>川维消防</h1>
+                    <span>Chuanwei Fire</span>
+                </div>
+            </a>
+            <a href="../index.html" class="back-link">← 返回首页</a>
+        </div>
+    </header>
+
+    <section class="detail">
+        <div class="container">
+            <div class="detail-grid">
+                <div class="main-image" onclick="openModal(this.querySelector('img').src)">
+                    <img src="消防喷头/消防喷头主图.jpg" alt="洒水喷头">
+                </div>
+                <div class="product-info">
+                    <h2>洒水喷头</h2>
+                    <div class="en-name">Fire Sprinklers</div>
+                    <p class="desc">川维消防生产的洒水喷头采用优质玻璃球感温元件，响应迅速、性能稳定。产品涵盖K-ZSTDY15-68°C等多种型号，广泛应用于商业建筑、工业厂房、住宅小区等场所的自动喷水灭火系统。</p>
+                    <ul class="features">
+                    <li>✓ 玻璃球感温，响应迅速</li>
+                    <li>✓ 多种温度等级可选</li>
+                    <li>✓ 镀铜/镀铬防腐处理</li>
+                    <li>✓ 适用于湿式/干式系统</li>
+                    <li>✓ 通过CCCF认证</li>
+                    </ul>
+                    <a href="../index.html#contact" class="inquiry-btn">📩 立即询价</a>
+                </div>
+            </div>
+
+            <div class="gallery">
+                <h3>系列产品展示</h3>
+                <div class="gallery-grid">
+                <div class="gallery-item"><img src="消防喷头/DSC_5813.jpg" alt="洒水喷头" onclick="openModal(this.src)"></div>
+                <div class="gallery-item"><img src="消防喷头/DSC_5814.jpg" alt="洒水喷头" onclick="openModal(this.src)"></div>
+                <div class="gallery-item"><img src="消防喷头/DSC_5816.jpg" alt="洒水喷头" onclick="openModal(this.src)"></div>
+                <div class="gallery-item"><img src="消防喷头/DSC_5817.jpg" alt="洒水喷头" onclick="openModal(this.src)"></div>
+                <div class="gallery-item"><img src="消防喷头/DSC_5818.jpg" alt="洒水喷头" onclick="openModal(this.src)"></div>
+                <div class="gallery-item"><img src="消防喷头/DSC_5819.jpg" alt="洒水喷头" onclick="openModal(this.src)"></div>
+                <div class="gallery-item"><img src="消防喷头/DSC_5820.jpg" alt="洒水喷头" onclick="openModal(this.src)"></div>
+                <div class="gallery-item"><img src="消防喷头/DSC_5821.jpg" alt="洒水喷头" onclick="openModal(this.src)"></div>
+                <div class="gallery-item"><img src="消防喷头/DSC_5822.jpg" alt="洒水喷头" onclick="openModal(this.src)"></div>
+                <div class="gallery-item"><img src="消防喷头/DSC_5823.jpg" alt="洒水喷头" onclick="openModal(this.src)"></div>
+                <div class="gallery-item"><img src="消防喷头/DSC_5824.jpg" alt="洒水喷头" onclick="openModal(this.src)"></div>
+                <div class="gallery-item"><img src="消防喷头/DSC_5825.jpg" alt="洒水喷头" onclick="openModal(this.src)"></div>
+                <div class="gallery-item"><img src="消防喷头/DSC_5826.jpg" alt="洒水喷头" onclick="openModal(this.src)"></div>
+                <div class="gallery-item"><img src="消防喷头/DSC_5827.jpg" alt="洒水喷头" onclick="openModal(this.src)"></div>
+                <div class="gallery-item"><img src="消防喷头/DSC_5828.jpg" alt="洒水喷头" onclick="openModal(this.src)"></div>
+                <div class="gallery-item"><img src="消防喷头/DSC_5832.jpg" alt="洒水喷头" onclick="openModal(this.src)"></div>
+                <div class="gallery-item"><img src="消防喷头/DSC_5834.jpg" alt="洒水喷头" onclick="openModal(this.src)"></div>
+                <div class="gallery-item"><img src="消防喷头/DSC_5835.jpg" alt="洒水喷头" onclick="openModal(this.src)"></div>
+                <div class="gallery-item"><img src="消防喷头/DSC_5836.jpg" alt="洒水喷头" onclick="openModal(this.src)"></div>
+                <div class="gallery-item"><img src="消防喷头/DSC_5837.jpg" alt="洒水喷头" onclick="openModal(this.src)"></div>
+                <div class="gallery-item"><img src="消防喷头/DSC_5838.jpg" alt="洒水喷头" onclick="openModal(this.src)"></div>
+                <div class="gallery-item"><img src="消防喷头/DSC_5839.jpg" alt="洒水喷头" onclick="openModal(this.src)"></div>
+                <div class="gallery-item"><img src="消防喷头/DSC_5840.jpg" alt="洒水喷头" onclick="openModal(this.src)"></div>
+                <div class="gallery-item"><img src="消防喷头/DSC_5841.jpg" alt="洒水喷头" onclick="openModal(this.src)"></div>
+                <div class="gallery-item"><img src="消防喷头/DSC_5842.jpg" alt="洒水喷头" onclick="openModal(this.src)"></div>
+                <div class="gallery-item"><img src="消防喷头/DSC_5843.jpg" alt="洒水喷头" onclick="openModal(this.src)"></div>
+                <div class="gallery-item"><img src="消防喷头/DSC_5844.jpg" alt="洒水喷头" onclick="openModal(this.src)"></div>
+                <div class="gallery-item"><img src="消防喷头/DSC_5845.jpg" alt="洒水喷头" onclick="openModal(this.src)"></div>
+                <div class="gallery-item"><img src="消防喷头/DSC_5846.jpg" alt="洒水喷头" onclick="openModal(this.src)"></div>
+                <div class="gallery-item"><img src="消防喷头/DSC_5847.jpg" alt="洒水喷头" onclick="openModal(this.src)"></div>
+                <div class="gallery-item"><img src="消防喷头/DSC_5848.jpg" alt="洒水喷头" onclick="openModal(this.src)"></div>
+                <div class="gallery-item"><img src="消防喷头/DSC_5849.jpg" alt="洒水喷头" onclick="openModal(this.src)"></div>
+                <div class="gallery-item"><img src="消防喷头/DSC_5850.jpg" alt="洒水喷头" onclick="openModal(this.src)"></div>
+                <div class="gallery-item"><img src="消防喷头/DSC_5851.jpg" alt="洒水喷头" onclick="openModal(this.src)"></div>
+                <div class="gallery-item"><img src="消防喷头/DSC_5852.jpg" alt="洒水喷头" onclick="openModal(this.src)"></div>
+                <div class="gallery-item"><img src="消防喷头/DSC_5853.jpg" alt="洒水喷头" onclick="openModal(this.src)"></div>
+                <div class="gallery-item"><img src="消防喷头/DSC_5854.jpg" alt="洒水喷头" onclick="openModal(this.src)"></div>
+                <div class="gallery-item"><img src="消防喷头/DSC_5856.jpg" alt="洒水喷头" onclick="openModal(this.src)"></div>
+                <div class="gallery-item"><img src="消防喷头/DSC_5857.jpg" alt="洒水喷头" onclick="openModal(this.src)"></div>
+                <div class="gallery-item"><img src="消防喷头/DSC_5858.jpg" alt="洒水喷头" onclick="openModal(this.src)"></div>
+                <div class="gallery-item"><img src="消防喷头/DSC_5859.jpg" alt="洒水喷头" onclick="openModal(this.src)"></div>
+                <div class="gallery-item"><img src="消防喷头/DSC_5860.jpg" alt="洒水喷头" onclick="openModal(this.src)"></div>
+                <div class="gallery-item"><img src="消防喷头/DSC_5861.jpg" alt="洒水喷头" onclick="openModal(this.src)"></div>
+                <div class="gallery-item"><img src="消防喷头/DSC_5863.jpg" alt="洒水喷头" onclick="openModal(this.src)"></div>
+                <div class="gallery-item"><img src="消防喷头/DSC_5864.jpg" alt="洒水喷头" onclick="openModal(this.src)"></div>
+                <div class="gallery-item"><img src="消防喷头/DSC_5865.jpg" alt="洒水喷头" onclick="openModal(this.src)"></div>
+                <div class="gallery-item"><img src="消防喷头/DSC_5866.jpg" alt="洒水喷头" onclick="openModal(this.src)"></div>
+                <div class="gallery-item"><img src="消防喷头/DSC_5867.jpg" alt="洒水喷头" onclick="openModal(this.src)"></div>
+                <div class="gallery-item"><img src="消防喷头/DSC_5868.jpg" alt="洒水喷头" onclick="openModal(this.src)"></div>
+                </div>
+            </div>
+
+            <div class="related">
+                <h3>相关产品</h3>
+                <div class="related-grid">
+            <a href="室内消火栓.html" class="related-card">
+                <h4>室内消火栓</h4>
+                <p>Indoor Fire Hydrants</p>
+            </a>
+            <a href="室外消火栓.html" class="related-card">
+                <h4>室外消火栓</h4>
+                <p>Outdoor Fire Hydrants</p>
+            </a>
+            <a href="消防栓箱.html" class="related-card">
+                <h4>消火栓箱</h4>
+                <p>Fire Hydrant Boxes</p>
+            </a>
+            <a href="消防水枪.html" class="related-card">
+                <h4>消防水枪与水接口</h4>
+                <p>Fire Nozzles & Couplings</p>
+            </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 川维消防设备有限公司 | <a href="../index.html">首页</a> | <a href="../index.html#products">产品中心</a> | <a href="../index.html#contact">联系我们</a></p>
+        </div>
+    </footer>
+
+    <div class="modal" id="imageModal" onclick="this.classList.remove('open')">
+        <span class="close">&times;</span>
+        <img id="modalImage" src="" alt="">
+    </div>
+
+    <script>
+        function openModal(src) {
+            document.getElementById('modalImage').src = src;
+            document.getElementById('imageModal').classList.add('open');
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+__MACOSX/
+
+# PDF source (too large, keep local only)
+冠亚消防.pdf
+
+# Ignore the original download (it's a copy of the site)
+guanya_original.html
+
+# Editor/IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Claude
+.claude/
+
+# Product images (deploy manually to server)
+products/**/*.jpg
+products/**/*.jpeg
+products/**/*.png

@@ -1,0 +1,1212 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>川维消防设备有限公司 - Chuanwei Fire Equipment Co., Ltd.</title>
+    <meta name="description" content="川维消防设备有限公司（Chuanwei Fire）— 专业消防设备制造商，主营消防喷头、报警阀、消火栓、消防水带等，通过ISO 9001等认证，欢迎国内外合作伙伴。">
+    <meta name="keywords" content="川维消防, Chuanwei Fire, 消防设备, 消防喷头, 报警阀, 消火栓, 消防器材, 消防水带">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://chuanweifire.com/">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="川维消防设备有限公司 - Chuanwei Fire Equipment Co., Ltd.">
+    <meta property="og:description" content="专业消防设备制造商，主营消防喷头、报警阀、消火栓、消防水带等。">
+    <meta property="og:url" content="https://chuanweifire.com/">
+    <meta property="og:image" content="https://chuanweifire.com/og-image.jpg">
+    <meta property="og:site_name" content="川维消防 Chuanwei Fire">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="川维消防设备有限公司 - Chuanwei Fire Equipment Co., Ltd.">
+
+    <!-- Hreflang -->
+    <link rel="alternate" href="https://chuanweifire.com/" hreflang="zh-CN">
+    <link rel="alternate" href="https://chuanweifire.com/en/" hreflang="en">
+
+    <!-- JSON-LD -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "川维消防设备有限公司",
+        "alternateName": "Chuanwei Fire",
+        "url": "https://chuanweifire.com/",
+        "logo": "https://chuanweifire.com/og-image.jpg",
+        "description": "专业消防设备制造商，主营消防喷头、报警阀、消火栓、消防水带等，通过ISO 9001认证。",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "福建省泉州市南安市美林街道柳美北路22号",
+            "addressLocality": "南安市",
+            "addressRegion": "福建省",
+            "addressCountry": "CN"
+        },
+        "contactPoint": [{
+            "@type": "ContactPoint",
+            "telephone": "+86-595-86378789",
+            "contactType": "sales"
+        }],
+        "foundingDate": "2017"
+    }
+    </script>
+
+    <style>
+        /* ===== Reset & Base ===== */
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+        html { scroll-behavior: smooth; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Microsoft YaHei', sans-serif;
+            color: #333;
+            line-height: 1.6;
+            background: #fff;
+        }
+        img { max-width: 100%; display: block; }
+        a { text-decoration: none; color: inherit; }
+        ul { list-style: none; }
+        .container { max-width: 1200px; margin: 0 auto; padding: 0 20px; }
+
+        /* ===== Colors ===== */
+        :root {
+            --primary: #1a5276;
+            --primary-light: #2e86c1;
+            --primary-dark: #0e2f44;
+            --accent: #e74c3c;
+            --bg-light: #f8f9fa;
+            --bg-dark: #1a1a2e;
+            --text: #333;
+            --text-light: #666;
+            --white: #fff;
+            --border: #e0e0e0;
+        }
+
+        /* ===== Header ===== */
+        .header {
+            position: fixed; top: 0; left: 0; width: 100%;
+            z-index: 1000; background: var(--white);
+            box-shadow: 0 2px 20px rgba(0,0,0,0.08);
+            transition: all 0.3s;
+        }
+        .header-inner {
+            display: flex; align-items: center;
+            justify-content: space-between; padding: 8px 0; gap: 12px;
+        }
+        .logo { display: flex; align-items: center; gap: 10px; flex-shrink: 0; }
+        .logo-img { height: 40px; width: auto; border-radius: 6px; }
+        .logo-text { display: flex; flex-direction: column; }
+        .logo-text h1 {
+            font-size: 17px; font-weight: 700; color: var(--primary); line-height: 1.2;
+        }
+        .logo-text .logo-sub {
+            font-size: 10px; color: var(--text-light); letter-spacing: 0.3px;
+        }
+        .nav { display: flex; gap: 20px; align-items: center; }
+        .nav a {
+            font-size: 13.5px; font-weight: 500; color: var(--text);
+            transition: color 0.3s; position: relative; white-space: nowrap;
+        }
+        .nav a::after {
+            content: ''; position: absolute; bottom: -4px; left: 0;
+            width: 0; height: 2px; background: var(--primary-light);
+            transition: width 0.3s;
+        }
+        .nav a:hover { color: var(--primary-light); }
+        .nav a:hover::after { width: 100%; }
+        .nav .quote-btn {
+            background: var(--primary); color: #fff !important;
+            padding: 7px 18px; border-radius: 6px; font-weight: 600;
+            transition: background 0.3s; white-space: nowrap;
+        }
+        .nav .quote-btn::after { display: none; }
+        .nav .quote-btn:hover { background: var(--primary-dark); }
+
+        /* ===== Lang Toggle ===== */
+        .lang-toggle {
+            display: flex; align-items: center; gap: 4px;
+            background: var(--bg-light); border-radius: 8px;
+            padding: 3px; border: 1px solid var(--border);
+        }
+        .lang-btn {
+            padding: 5px 11px; border: none; border-radius: 6px;
+            font-size: 12px; font-weight: 600; cursor: pointer;
+            background: transparent; color: var(--text-light);
+            transition: all 0.25s; font-family: inherit; line-height: 1;
+        }
+        .lang-btn.active {
+            background: var(--primary); color: var(--white);
+        }
+        .lang-btn:not(.active):hover { color: var(--primary); }
+
+        /* ===== i18n ===== */
+        .i18n-item { transition: opacity 0.15s; }
+        .i18n-switching .i18n-item { opacity: 0; }
+        .menu-toggle {
+            display: none; flex-direction: column; gap: 4px;
+            cursor: pointer; background: none; border: none; padding: 4px;
+        }
+        .menu-toggle span {
+            display: block; width: 24px; height: 2.5px;
+            background: var(--primary); border-radius: 3px; transition: all 0.3s;
+        }
+
+        /* ===== Hero ===== */
+        .hero {
+            padding: 120px 0 70px;
+            background: linear-gradient(135deg, var(--primary-dark) 0%, var(--primary) 50%, var(--primary-light) 100%);
+            color: var(--white); position: relative; overflow: hidden;
+        }
+        .hero-bg {
+            position: absolute; top: 0; left: 0; width: 100%; height: 100%;
+            object-fit: cover; opacity: 0.12; pointer-events: none;
+        }
+        .hero-grid {
+            display: grid; grid-template-columns: 1fr 1fr;
+            gap: 50px; align-items: center; position: relative; z-index: 1;
+        }
+        .hero-badge {
+            display: inline-block; background: rgba(255,255,255,0.12);
+            padding: 5px 14px; border-radius: 20px; font-size: 12px;
+            letter-spacing: 0.3px; margin-bottom: 16px;
+            border: 1px solid rgba(255,255,255,0.15);
+        }
+        .hero h2 {
+            font-size: 40px; font-weight: 800; line-height: 1.15; margin-bottom: 16px;
+        }
+        .hero h2 span { color: #85c1e9; }
+        .hero p {
+            font-size: 16px; line-height: 1.7; opacity: 0.9;
+            margin-bottom: 28px; max-width: 500px;
+        }
+        .hero-buttons { display: flex; gap: 14px; flex-wrap: wrap; }
+        .btn {
+            display: inline-flex; align-items: center; gap: 8px;
+            padding: 12px 28px; border-radius: 8px; font-size: 14px;
+            font-weight: 600; border: none; cursor: pointer; transition: all 0.3s;
+        }
+        .btn-primary { background: var(--white); color: var(--primary); }
+        .btn-primary:hover { background: #e8f0fe; transform: translateY(-2px); }
+        .btn-outline {
+            background: transparent; color: var(--white);
+            border: 2px solid rgba(255,255,255,0.4);
+        }
+        .btn-outline:hover { background: rgba(255,255,255,0.1); border-color: var(--white); transform: translateY(-2px); }
+        .hero-stats {
+            display: grid; grid-template-columns: repeat(3, 1fr);
+            gap: 16px; padding: 24px; background: rgba(255,255,255,0.08);
+            border-radius: 16px; backdrop-filter: blur(10px);
+            border: 1px solid rgba(255,255,255,0.1);
+        }
+        .hero-stat { text-align: center; }
+        .hero-stat .num { font-size: 32px; font-weight: 800; display: block; line-height: 1.2; }
+        .hero-stat .label { font-size: 12px; opacity: 0.8; margin-top: 4px; }
+
+        /* ===== Sections Common ===== */
+        section { padding: 70px 0; }
+        .section-title { text-align: center; margin-bottom: 12px; }
+        .section-title h3 {
+            font-size: 30px; font-weight: 700; color: var(--primary); margin-bottom: 10px;
+        }
+        .section-title .en-sub {
+            font-size: 13px; color: var(--primary-light); text-transform: uppercase;
+            letter-spacing: 2px; margin-bottom: 6px; font-weight: 500;
+        }
+        .section-title p {
+            color: var(--text-light); font-size: 15px; max-width: 600px; margin: 0 auto;
+        }
+        .section-divider {
+            width: 50px; height: 3px;
+            background: linear-gradient(90deg, var(--primary), var(--primary-light));
+            border-radius: 2px; margin: 0 auto 32px;
+        }
+
+        /* ===== About ===== */
+        .about { background: var(--bg-light); }
+        .about-grid {
+            display: grid; grid-template-columns: 1fr 1fr; gap: 50px; align-items: center;
+        }
+        .about-image {
+            border-radius: 16px; overflow: hidden; min-height: 300px; position: relative;
+        }
+        .about-image img {
+            width: 100%; height: 100%; object-fit: cover; position: absolute; top: 0; left: 0;
+        }
+        .about-image .overlay {
+            position: absolute; top: 0; left: 0; width: 100%; height: 100%;
+            background: linear-gradient(135deg, rgba(26,82,118,0.9), rgba(46,134,193,0.8));
+            padding: 36px; display: flex; flex-direction: column; justify-content: center;
+        }
+        .about-image .overlay h4 { font-size: 20px; color: #fff; margin-bottom: 10px; }
+        .about-image .overlay p { color: rgba(255,255,255,0.9); font-size: 13.5px; line-height: 1.7; }
+        .about-text h4 { font-size: 18px; color: var(--primary); margin-bottom: 14px; }
+        .about-text p { color: var(--text-light); margin-bottom: 18px; font-size: 14px; }
+        .about-features {
+            display: grid; grid-template-columns: 1fr 1fr; gap: 10px;
+        }
+        .about-features li {
+            display: flex; align-items: center; gap: 8px;
+            font-size: 13px; color: var(--text);
+        }
+        .about-features li::before {
+            content: '✓'; color: var(--primary-light); font-weight: 700; font-size: 15px;
+        }
+
+        /* ===== Products ===== */
+        .products-grid {
+            display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px;
+        }
+        .product-card {
+            background: var(--white); border-radius: 12px;
+            border: 1px solid var(--border); transition: all 0.3s; overflow: hidden;
+            display: block; color: inherit; text-decoration: none;
+            cursor: pointer;
+        }
+        .product-card:hover {
+            transform: translateY(-5px); box-shadow: 0 12px 36px rgba(0,0,0,0.07);
+            border-color: var(--primary-light);
+        }
+        .product-img {
+            width: 100%; height: 200px; overflow: hidden;
+            background: #f5f7fa; display: flex;
+            align-items: center; justify-content: center;
+        }
+        .product-img img {
+            width: 100%; height: 100%; object-fit: contain;
+            padding: 16px; transition: transform 0.4s;
+        }
+        .product-card:hover .product-img img { transform: scale(1.06); }
+        .product-card .body { padding: 18px 20px 22px; }
+        .product-card .body h4 { font-size: 16px; font-weight: 600; color: var(--primary); margin-bottom: 6px; }
+        .product-card .body p { font-size: 13px; color: var(--text-light); line-height: 1.6; }
+        .product-tag {
+            display: inline-block; background: #e8f0fe; color: var(--primary);
+            font-size: 10px; padding: 2px 8px; border-radius: 10px; margin-top: 8px; font-weight: 500;
+        }
+
+        /* ===== Brand Story ===== */
+        .brand-story { background: var(--white); }
+        .story-content {
+            max-width: 800px; margin: 0 auto; text-align: center;
+        }
+        .story-content p {
+            font-size: 14px; color: var(--text-light); line-height: 2; margin-bottom: 12px;
+        }
+        .story-content .highlight {
+            color: var(--primary); font-weight: 600; font-size: 15px;
+        }
+
+        /* ===== Certifications ===== */
+        .certs { background: var(--bg-light); }
+        .certs-grid {
+            display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px;
+        }
+        .cert-card {
+            background: var(--white); border-radius: 12px; padding: 24px 18px;
+            text-align: center; border: 1px solid var(--border); transition: all 0.3s;
+        }
+        .cert-card:hover {
+            transform: translateY(-4px); box-shadow: 0 8px 20px rgba(0,0,0,0.06);
+        }
+        .cert-card h5 { font-size: 13px; font-weight: 600; color: var(--primary); margin-bottom: 5px; }
+        .cert-card p { font-size: 11.5px; color: var(--text-light); line-height: 1.5; }
+
+        /* ===== Why Us ===== */
+        .why-grid {
+            display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px;
+        }
+        .why-card {
+            text-align: center; padding: 30px 20px; border-radius: 12px;
+            transition: all 0.3s; background: var(--white); border: 1px solid var(--border);
+        }
+        .why-card:hover { box-shadow: 0 8px 20px rgba(0,0,0,0.06); }
+        .why-card h4 { font-size: 16px; color: var(--primary); margin-bottom: 6px; }
+        .why-card p { font-size: 13px; color: var(--text-light); line-height: 1.6; }
+
+        /* ===== CTA ===== */
+        .cta {
+            background: linear-gradient(135deg, var(--primary-dark), var(--primary));
+            color: var(--white); text-align: center; padding: 60px 0;
+        }
+        .cta h3 { font-size: 30px; font-weight: 700; margin-bottom: 10px; }
+        .cta p { font-size: 16px; opacity: 0.9; margin-bottom: 24px; }
+        .cta .btn-primary { background: var(--white); color: var(--primary); }
+        .cta .btn-primary:hover { background: #e8f0fe; }
+
+        /* ===== Tag Buttons ===== */
+        .tag-group {
+            display: flex; flex-wrap: wrap; gap: 8px;
+        }
+        .tag-btn {
+            display: inline-block;
+            padding: 7px 16px;
+            border-radius: 20px;
+            font-size: 13px;
+            font-weight: 500;
+            cursor: pointer;
+            transition: all 0.25s;
+            border: 1.5px solid var(--border);
+            background: var(--white);
+            color: var(--text-light);
+            user-select: none;
+        }
+        .tag-btn:hover {
+            border-color: var(--primary-light);
+            color: var(--primary);
+        }
+        .tag-btn:has(input:checked) {
+            background: var(--primary);
+            border-color: var(--primary);
+            color: var(--white);
+        }
+        .tag-btn:has(input:checked):hover {
+            background: var(--primary-dark);
+            border-color: var(--primary-dark);
+        }
+
+        /* ===== Contact ===== */
+        .contact-grid {
+            display: grid; grid-template-columns: 1fr 1fr; gap: 40px;
+        }
+        .contact-info h4 { font-size: 20px; color: var(--primary); margin-bottom: 16px; }
+        .contact-info > p { color: var(--text-light); font-size: 14px; margin-bottom: 22px; }
+        .contact-item { display: flex; gap: 12px; margin-bottom: 14px; }
+        .contact-item .ci-icon {
+            width: 40px; height: 40px; background: #e8f0fe;
+            border-radius: 10px; display: flex; align-items: center; justify-content: center; flex-shrink: 0;
+        }
+        .contact-item .ci-text h5 { font-size: 12px; color: var(--text-light); font-weight: 500; }
+        .contact-item .ci-text p { font-size: 14px; color: var(--text); }
+        .contact-form { background: var(--bg-light); padding: 32px; border-radius: 16px; }
+        .contact-form h4 { font-size: 18px; color: var(--primary); margin-bottom: 18px; }
+        .form-group { margin-bottom: 14px; }
+        .form-group input,
+        .form-group textarea,
+        .form-group select {
+            width: 100%; padding: 11px 14px; border: 1px solid var(--border);
+            border-radius: 8px; font-size: 13px; font-family: inherit;
+            transition: border-color 0.3s; background: var(--white); color: var(--text);
+        }
+        .form-group input:focus,
+        .form-group textarea:focus,
+        .form-group select:focus {
+            outline: none; border-color: var(--primary-light);
+        }
+        .form-group textarea { height: 100px; resize: vertical; }
+        .form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+        .submit-btn {
+            background: var(--primary); color: var(--white);
+            padding: 12px 28px; border: none; border-radius: 8px;
+            font-size: 14px; font-weight: 600; cursor: pointer;
+            transition: background 0.3s; width: 100%; font-family: inherit;
+        }
+        .submit-btn:hover { background: var(--primary-dark); }
+
+        /* ===== Footer ===== */
+        .footer {
+            background: var(--bg-dark); color: rgba(255,255,255,0.65);
+            padding: 44px 0 24px;
+        }
+        .footer-grid {
+            display: grid; grid-template-columns: 2fr 1fr 1fr 1fr; gap: 36px; margin-bottom: 24px;
+        }
+        .footer h5 { color: var(--white); font-size: 15px; margin-bottom: 14px; }
+        .footer p { font-size: 13px; line-height: 1.7; }
+        .footer a { display: block; font-size: 13px; margin-bottom: 6px; transition: color 0.3s; }
+        .footer a:hover { color: var(--primary-light); }
+        .footer-bottom {
+            border-top: 1px solid rgba(255,255,255,0.08);
+            padding-top: 18px; text-align: center; font-size: 12px;
+        }
+
+        /* ===== Brand Visual ===== */
+        .brand-grid {
+            display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px;
+        }
+        .brand-item {
+            border-radius: 10px; overflow: hidden; border: 1px solid var(--border);
+            background: var(--white); text-align: center; padding: 20px 12px;
+            transition: all 0.3s;
+        }
+        .brand-item:hover { box-shadow: 0 8px 20px rgba(0,0,0,0.06); }
+        .brand-item h5 { font-size: 13px; color: var(--primary); font-weight: 600; margin-top: 8px; }
+        .brand-item p { font-size: 11px; color: var(--text-light); margin-top: 4px; }
+        .brand-icon { width: 48px; height: 48px; margin: 0 auto; }
+
+        /* ===== News ===== */
+        .news-grid {
+            display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px;
+        }
+        .news-card {
+            background: var(--white); border-radius: 12px;
+            border: 1px solid var(--border); padding: 20px; transition: all 0.3s;
+        }
+        .news-card:hover { box-shadow: 0 8px 20px rgba(0,0,0,0.06); }
+        .news-card h4 { font-size: 14px; color: var(--primary); margin-bottom: 8px; line-height: 1.5; }
+        .news-card p { font-size: 12px; color: var(--text-light); line-height: 1.6; }
+        .news-card .date { font-size: 11px; color: #999; margin-top: 10px; }
+
+        /* ===== Responsive ===== */
+        @media (max-width: 992px) {
+            .hero-grid { grid-template-columns: 1fr; gap: 36px; }
+            .hero h2 { font-size: 32px; }
+            .hero-stats { grid-template-columns: repeat(3, 1fr); }
+            .about-grid { grid-template-columns: 1fr; gap: 28px; }
+            .products-grid { grid-template-columns: repeat(2, 1fr); }
+            .certs-grid { grid-template-columns: repeat(2, 1fr); }
+            .why-grid { grid-template-columns: repeat(2, 1fr); }
+            .footer-grid { grid-template-columns: repeat(2, 1fr); }
+            .contact-grid { grid-template-columns: 1fr; }
+            .news-grid { grid-template-columns: repeat(2, 1fr); }
+            .brand-grid { grid-template-columns: repeat(2, 1fr); }
+        }
+        @media (max-width: 768px) {
+            .nav {
+                display: none; position: absolute; top: 100%; left: 0;
+                width: 100%; background: var(--white); padding: 16px 20px;
+                box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+                flex-direction: column; gap: 12px;
+            }
+            .nav.open { display: flex; }
+            .menu-toggle { display: flex; }
+            .hero { padding: 110px 0 50px; }
+            .hero h2 { font-size: 26px; }
+            .hero-stats { padding: 16px; }
+            .hero-stat .num { font-size: 26px; }
+            section { padding: 44px 0; }
+            .section-title h3 { font-size: 24px; }
+            .products-grid, .certs-grid, .why-grid, .news-grid, .brand-grid { grid-template-columns: 1fr; }
+            .about-features { grid-template-columns: 1fr; }
+            .form-row { grid-template-columns: 1fr; }
+            .footer-grid { grid-template-columns: 1fr; }
+            .contact-form { padding: 20px; }
+        }
+        @media (max-width: 480px) {
+            .hero h2 { font-size: 22px; }
+            .hero-stats { grid-template-columns: 1fr; gap: 10px; }
+            .hero-stat .num { font-size: 22px; }
+            .logo-text h1 { font-size: 15px; }
+        }
+
+        /* ===== Animation ===== */
+        @keyframes fadeInUp {
+            from { opacity: 0; transform: translateY(24px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        .animate { animation: fadeInUp 0.5s ease forwards; }
+
+        .en-text { font-size: 12px; color: var(--primary-light); display: block; }
+        .zh-label { display: inline; }
+        .en-label { display: inline; font-size: 11px; color: #999; margin-left: 4px; }
+    </style>
+</head>
+<body>
+
+    <!-- ===== Header ===== -->
+    <header class="header" id="header">
+        <div class="container header-inner">
+            <a href="#" class="logo">
+                <img class="logo-img" src="apple-touch-icon.png" alt="川维消防 Chuanwei Fire Logo">
+                <div class="logo-text">
+                    <h1>川维消防</h1>
+                    <span class="logo-sub">Chuanwei Fire Equipment Co., Ltd.</span>
+                </div>
+            </a>
+            <nav class="nav" id="nav">
+                <a href="#home" data-i18n="nav_home">首页</a>
+                <a href="#about" data-i18n="nav_about">关于我们</a>
+                <a href="#products" data-i18n="nav_products">产品中心</a>
+                <a href="#brand" data-i18n="nav_brand">品牌形象</a>
+                <a href="#news" data-i18n="nav_news">新闻资讯</a>
+                <div class="lang-toggle">
+                    <button class="lang-btn active" onclick="switchLang('zh')">中</button>
+                    <button class="lang-btn" onclick="switchLang('en')">EN</button>
+                </div>
+                <a href="#contact" class="quote-btn" data-i18n="nav_contact">联系我们</a>
+            </nav>
+            <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- ===== Hero ===== -->
+    <section class="hero" id="home">
+        <div class="container hero-grid">
+            <div>
+                <div class="hero-badge" data-i18n="hero_badge">★ 专业消防设备制造商  Professional Manufacturer</div>
+                <h2 data-i18n="hero_title">川维消防<br><span>守护安全  精益求精</span></h2>
+                <p data-i18n="hero_desc">川维消防设备有限公司是一家集研发、生产、销售、服务于一体的现代化消防设备制造企业，致力于为全球客户提供高品质的消防产品和解决方案。</p>
+                <div class="hero-buttons">
+                    <a href="#products" class="btn btn-primary" data-i18n="hero_btn_products">查看产品</a>
+                    <a href="#contact" class="btn btn-outline" data-i18n="hero_btn_contact">联系我们</a>
+                </div>
+            </div>
+            <div>
+                <div class="hero-stats">
+                    <div class="hero-stat">
+                        <span class="num">5000m²</span>
+                        <span class="label" data-i18n="stat_facility">生产基地</span>
+                    </div>
+                    <div class="hero-stat">
+                        <span class="num">35万+</span>
+                        <span class="label" data-i18n="stat_capacity">年产能（台）</span>
+                    </div>
+                    <div class="hero-stat">
+                        <span class="num">2017</span>
+                        <span class="label" data-i18n="stat_years">成立至今</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== Brand Story ===== -->
+    <section class="brand-story" id="about">
+        <div class="container">
+            <div class="section-title">
+                <div class="en-sub">BRAND STORY</div>
+                <h3>品牌故事</h3>
+                <p>初心依旧 · Still at Heart</p>
+            </div>
+            <div class="section-divider"></div>
+            <div class="story-content">
+                <p>福建消防作为消防行业的重要版图，历来风起云涌，英雄辈出。80年代，浪起潮头，敢为天下先的闽南人相继投身消防大业，而后磅礴发展。</p>
+                <p>在那个久远年代里，<span class="highlight">川维</span>一直都在，只是我们那时还没有叫川维。我们专业从事OEM加工和半成品加工，兢兢业业数十年，我们隐藏在行业里，发光发热。</p>
+                <p><span class="highlight">川维成立于2017年</span>，我们浸染行业数十年，默默磨练。我们为大梦想而来，做大品牌、大企业，为目标矢志不渝。我们做大品质，精雕细琢为每一个精品品质而来。</p>
+                <p>我们坚持 <span class="highlight">"品质为本、诚信为基、市场为导、创新为魂"</span> 的经营理念，弘扬 <span class="highlight">"踏实、学习、团结、奉献"</span> 的企业精神。</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== About Company ===== -->
+    <section class="about">
+        <div class="container">
+            <div class="section-title">
+                <div class="en-sub">ABOUT US</div>
+                <h3>关于川维消防</h3>
+                <p>一站式消防服务解决方案</p>
+            </div>
+            <div class="section-divider"></div>
+            <div class="about-grid">
+                <div class="about-image">
+                    <div class="overlay">
+                        <h4>自2017年以来的制造卓越</h4>
+                        <p>川维消防位于福建南安——中国领先的消防设备制造中心，公司占地10亩，拥有5000平方米生产车间，具备向全球市场提供高品质消防产品的能力。</p>
+                    </div>
+                </div>
+                <div class="about-text">
+                    <h4>公司简介</h4>
+                    <p>川维消防设备有限公司（Chuanwei Fire Equipment Co., Ltd.）位于福建省泉州市南安市，是一家集研发、生产、销售、服务为一体的消防设备制造企业。</p>
+                    <p>公司生产的"川维"牌消防系列主营产品为洒水喷头、湿式报警阀、水流指示器、消防闸阀、消防蝶阀、消火栓箱、消防水带等，产品广泛应用于商业、工业及住宅领域。</p>
+                    <ul class="about-features">
+                        <li>5000m² 生产基地</li>
+                        <li>ISO 9001 / 14001 认证</li>
+                        <li>CCCF 认证产品</li>
+                        <li>专业研发团队</li>
+                        <li>年产能35万+台</li>
+                        <li>完善的售后服务</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== Our Strengths ===== -->
+    <section class="why" id="strengths">
+        <div class="container">
+            <div class="section-title">
+                <div class="en-sub">OUR STRENGTHS</div>
+                <h3 data-i18n="strengths_title">我们的优势</h3>
+                <p data-i18n="strengths_sub">精雕细琢  精益求精</p>
+            </div>
+            <div class="section-divider"></div>
+            <div class="why-grid">
+                <div class="why-card">
+                    <h4 data-i18n="s1_title">实力雄厚</h4>
+                    <p data-i18n="s1_desc">公司发展多年，经多年的行业积累、资金积累、经验设备及优秀施工团队，为您提供良好的综合服务。</p>
+                </div>
+                <div class="why-card">
+                    <h4 data-i18n="s2_title">一站式服务</h4>
+                    <p data-i18n="s2_desc">自有产品生产线，品类齐全，从喷头到阀门、水带到消火栓，一站式采购满足您的全部需求。</p>
+                </div>
+                <div class="why-card">
+                    <h4 data-i18n="s3_title">先进设备</h4>
+                    <p data-i18n="s3_desc">设备先进，全程规范的技术操作，可为企业提供强有力的生产支持，确保产品品质。</p>
+                </div>
+                <div class="why-card">
+                    <h4 data-i18n="s4_title">充足库存</h4>
+                    <p data-i18n="s4_desc">常备市场通用原材料库存，接到订单可立即安排生产调配，确保产品及时交付。</p>
+                </div>
+                <div class="why-card">
+                    <h4 data-i18n="s5_title">品质保障</h4>
+                    <p data-i18n="s5_desc">自行生产，产品质量安全放心。严格质检流程，确保每一件产品都符合标准。</p>
+                </div>
+                <div class="why-card">
+                    <h4 data-i18n="s6_title">售后服务</h4>
+                    <p data-i18n="s6_desc">完善的售后服务体系，专业团队快速响应，为您解决后顾之忧。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== Products ===== -->
+    <section class="products" id="products">
+        <div class="container">
+            <div class="section-title">
+                <div class="en-sub">PRODUCT CENTER</div>
+                <h3 data-i18n="products_title">产品中心</h3>
+                <p data-i18n="products_sub">全面的消防保护设备，满足各类应用场景</p>
+            </div>
+            <div class="section-divider"></div>
+            <div class="products-grid">
+
+                <a href="products/消防喷头.html" class="product-card">
+                    <div class="product-img"><img src="products/消防喷头/消防喷头主图.jpg" alt="洒水喷头"></div>
+                    <div class="body">
+                        <h4>洒水喷头</h4>
+                        <p>玻璃球型喷头，包括K-ZSTDY15-68°C系列。可靠的热响应火灾扑灭装置。</p>
+                        <span class="product-tag">核心产品</span>
+                    </div>
+                </a>
+
+                <a href="products/消防阀门.html" class="product-card">
+                    <div class="product-img"><img src="products/消防阀门/消防阀门主图.jpg" alt="湿式报警阀"></div>
+                    <div class="body">
+                        <h4>湿式报警阀</h4>
+                        <p>耐用的湿式报警阀组件，专为自动喷淋系统设计，结构坚固，水力性能可靠。</p>
+                    </div>
+                </a>
+
+                <a href="products/消防阀.html" class="product-card">
+                    <div class="product-img"><img src="products/消防阀/消防阀主图.jpg" alt="消防阀门与蝶阀"></div>
+                    <div class="body">
+                        <h4>消防阀门与蝶阀</h4>
+                        <p>工业级闸阀、蝶阀及信号蝶阀，专为消防主管网系统中的可靠流量控制而设计。</p>
+                        <span class="product-tag">CCCF认证</span>
+                    </div>
+                </a>
+
+                <a href="products/室内消防栓/室内消防栓.html" class="product-card">
+                    <div class="product-img"><img src="products/室内消防栓/室内消防栓主图.jpg" alt="室内消火栓"></div>
+                    <div class="body">
+                        <h4>室内消火栓</h4>
+                        <p>全系列包括SN65、SNW65等型号，符合最新检测标准。</p>
+                    </div>
+                </a>
+
+                <a href="products/室外消防栓/室外消防栓.html" class="product-card">
+                    <div class="product-img"><img src="products/室外消防栓/室外消防栓主图.jpg" alt="室外消火栓"></div>
+                    <div class="body">
+                        <h4>室外消火栓</h4>
+                        <p>优质铸铁制造，表面防腐处理，适用于道路、园区等室外消防给水系统。</p>
+                    </div>
+                </a>
+
+                <a href="products/软管卷盘.html" class="product-card">
+                    <div class="product-img"><img src="products/软管卷盘/软管卷盘主图.jpg" alt="消防软管卷盘"></div>
+                    <div class="body">
+                        <h4>消防软管卷盘</h4>
+                        <p>消防水带、软管卷盘，适合快速应急救火。</p>
+                    </div>
+                </a>
+
+                <a href="products/消防水枪.html" class="product-card">
+                    <div class="product-img"><img src="products/消防水枪/消防水枪主图.jpg" alt="消防水枪与水接口"></div>
+                    <div class="body">
+                        <h4>消防水枪与水接口</h4>
+                        <p>消防水枪、KD65/KY65内扣式接口及水监控，确保高效水力传递。</p>
+                    </div>
+                </a>
+
+                <a href="products/消防栓箱.html" class="product-card">
+                    <div class="product-img"><img src="products/消防栓箱/消防栓箱主图.jpg" alt="消火栓箱"></div>
+                    <div class="body">
+                        <h4>消火栓箱</h4>
+                        <p>高质量钢制消火栓箱，室内安装，紧急情况下可快速取用设备。</p>
+                    </div>
+                </a>
+
+                <a href="products/消防水泵接合器.html" class="product-card">
+                    <div class="product-img"><img src="products/消防水泵接合器/消防水泵接合器主图.jpg" alt="消防水泵接合器"></div>
+                    <div class="body">
+                        <h4>消防水泵接合器</h4>
+                        <p>消防车与建筑管网的专用接口，结构紧凑，确保快速供水。</p>
+                    </div>
+                </a>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== Brand Visual ===== -->
+    <section class="certs" id="brand">
+        <div class="container">
+            <div class="section-title">
+                <div class="en-sub">VISUAL SYSTEM OF BRAND IMAGE</div>
+                <h3 data-i18n="brand_title">品牌形象视觉系统</h3>
+                <p data-i18n="brand_sub">专业品牌形象，彰显企业实力</p>
+            </div>
+            <div class="section-divider"></div>
+            <div class="brand-grid">
+                <div class="brand-item">
+                    <h5>品牌标志释译</h5>
+                    <p>标志设计理念与企业文化相融合</p>
+                </div>
+                <div class="brand-item">
+                    <h5>品牌图标草图</h5>
+                    <p>品牌图标的创意与设计过程</p>
+                </div>
+                <div class="brand-item">
+                    <h5>品牌中文草图</h5>
+                    <p>中文标准字体的设计演变</p>
+                </div>
+                <div class="brand-item">
+                    <h5>品牌标准色</h5>
+                    <p>统一的品牌色彩体系</p>
+                </div>
+                <div class="brand-item">
+                    <h5>品牌辅助图形</h5>
+                    <p>辅助图形及延展应用</p>
+                </div>
+                <div class="brand-item">
+                    <h5>品牌反白效果</h5>
+                    <p>标志在不同背景下的应用</p>
+                </div>
+                <div class="brand-item">
+                    <h5>名片</h5>
+                    <p>商务名片设计规范</p>
+                </div>
+                <div class="brand-item">
+                    <h5>包装展示</h5>
+                    <p>产品包装系统设计</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== News ===== -->
+    <section id="news">
+        <div class="container">
+            <div class="section-title">
+                <div class="en-sub">NEWS & INFORMATION</div>
+                <h3 data-i18n="news_title">新闻资讯</h3>
+                <p data-i18n="news_sub">了解最新行业动态与公司资讯</p>
+            </div>
+            <div class="section-divider"></div>
+            <div class="news-grid">
+                <div class="news-card">
+                    <h4>消防验收三核25新重点！</h4>
+                    <p>消防验收重点包括：水泵、报警阀、消火栓、水泵接合器、闸阀等主要设备，需提供相关参数和产品合格证书......</p>
+                    <div class="date">2026-06-15</div>
+                </div>
+                <div class="news-card">
+                    <h4>什么是阀门的概念？</h4>
+                    <p>阀门是流体输送系统中的控制部件，用于改变通路断面和介质流动方向，具有导流、截止、调节、节流、止回等功能......</p>
+                    <div class="date">2026-05-20</div>
+                </div>
+                <div class="news-card">
+                    <h4>信号蝶阀的工作原理及注意事项</h4>
+                    <p>信号蝶阀广泛应用于石油、化工、食品、医药、造纸、水电、给排水、冶金、能源等系统管路中......</p>
+                    <div class="date">2026-04-10</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== CTA ===== -->
+    <section class="cta">
+        <div class="container">
+            <h3 data-i18n="cta_title">准备好与川维消防合作了吗？</h3>
+            <p data-i18n="cta_desc">获取产品报价或产品目录，我们通常在24小时内回复。</p>
+            <a href="#contact" class="btn btn-primary">✉ 立即咨询</a>
+        </div>
+    </section>
+
+    <!-- ===== Contact ===== -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-title">
+                <div class="en-sub">CONTACT US</div>
+                <h3 data-i18n="contact_title">联系我们</h3>
+                <p data-i18n="contact_sub">产品咨询、获取报价或合作商讨</p>
+            </div>
+            <div class="section-divider"></div>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h4 data-i18n="contact_info_title">联系方式</h4>
+                    <p>不管您是分销商、工程商还是采购专员，我们的团队都乐意为您提供帮助。</p>
+                    <div class="contact-item">
+                        <div class="ci-icon">
+                            <svg viewBox="0 0 18 18" fill="none" width="18" height="18"><path d="M9 2C6.2 2 4 4.2 4 7C4 10 9 16 9 16C9 16 14 10 14 7C14 4.2 11.8 2 9 2Z" stroke="#1a5276" stroke-width="1.5" fill="none"/></svg>
+                        </div>
+                        <div class="ci-text">
+                            <h5>公司地址</h5>
+                            <p>福建省泉州市南安市美林街道柳美北路22号</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="ci-icon">
+                            <svg viewBox="0 0 18 18" fill="none" width="18" height="18"><path d="M3 5C3 4 4 3 5 3H6C7 3 8 4 8 5V6C8 7 7 8 6 8C6 8 7 10 9 12C11 13 11 13 11 13C11 13 12 12 12 11V10C12 9 13 8 14 8H15C16 8 17 9 17 10V11C17 12 16 13 15 14C13 16 10 15 7 12C4 9 3 6 3 5Z" stroke="#1a5276" stroke-width="1.5" fill="none"/></svg>
+                        </div>
+                        <div class="ci-text">
+                            <h5>服务热线</h5>
+                            <p>0595-86378789</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="ci-icon">
+                            <svg viewBox="0 0 18 18" fill="none" width="18" height="18"><rect x="2" y="4" width="14" height="10" rx="2" stroke="#1a5276" stroke-width="1.5" fill="none"/><path d="M2 5L9 10L16 5" stroke="#1a5276" stroke-width="1.5" fill="none"/></svg>
+                        </div>
+                        <div class="ci-text">
+                            <h5>电子邮箱</h5>
+                            <p>zhengcolin1@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="ci-icon">
+                            <svg viewBox="0 0 18 18" fill="none" width="18" height="18"><circle cx="9" cy="9" r="7" stroke="#1a5276" stroke-width="1.5" fill="none"/><path d="M9 5V9L12 11" stroke="#1a5276" stroke-width="1.5" stroke-linecap="round"/></svg>
+                        </div>
+                        <div class="ci-text">
+                            <h5>工作时间</h5>
+                            <p>周一至周六 8:00 AM – 6:00 PM</p>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form" id="contactForm" action="https://api.web3forms.com/submit" method="POST">
+                    <h4 data-i18n="form_title">发送留言</h4>
+                    <input type="hidden" name="access_key" value="f4a9bed0-d98c-45b8-8d40-448bf5de6475">
+                    <input type="hidden" name="subject" value="川维消防官网 - 新询盘">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <input type="text" name="姓名" id="formName" data-i18n="form_name_ph" placeholder="您的姓名 *" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" name="邮箱" id="formEmail" data-i18n="form_email_ph" placeholder="邮箱地址 *" required>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <input type="text" name="公司名称" id="formCompany" data-i18n="form_company_ph" placeholder="公司名称">
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" name="电话" id="formPhone" data-i18n="form_phone_ph" placeholder="电话 / WhatsApp">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label style="font-size:13px;color:var(--text-light);display:block;margin-bottom:8px;">感兴趣的产品（可多选）</label>
+                        <div class="tag-group">
+                            <label class="tag-btn"><input type="checkbox" name="感兴趣的产品" value="洒水喷头" hidden><span>洒水喷头</span></label>
+                            <label class="tag-btn"><input type="checkbox" name="感兴趣的产品" value="报警阀门" hidden><span>报警阀门</span></label>
+                            <label class="tag-btn"><input type="checkbox" name="感兴趣的产品" value="室内消火栓" hidden><span>室内消火栓</span></label>
+                            <label class="tag-btn"><input type="checkbox" name="感兴趣的产品" value="消防水带与卷盘" hidden><span>消防水带与卷盘</span></label>
+                            <label class="tag-btn"><input type="checkbox" name="感兴趣的产品" value="完整产品目录" hidden><span>完整产品目录</span></label>
+                            <label class="tag-btn"><input type="checkbox" name="感兴趣的产品" value="经销/合作" hidden><span>经销/合作</span></label>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="formMessage" name="需求描述" data-i18n="form_msg_ph" placeholder="请描述您的需求..." required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">✉ 发送询盘</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== Footer ===== -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div>
+                    <h5 data-i18n="footer_title">川维消防设备有限公司</h5>
+                    <p>专业消防设备制造商，通过ISO 9001、ISO 14001认证。自2017年起服务国内外合作伙伴。</p>
+                </div>
+                <div>
+                    <h5 data-i18n="footer_quicklinks">快速链接</h5>
+                    <a href="#about">关于我们</a>
+                    <a href="#products">产品中心</a>
+                    <a href="#brand">品牌形象</a>
+                    <a href="#contact">联系我们</a>
+                </div>
+                <div>
+                    <h5 data-i18n="footer_products_label">产品分类</h5>
+                    <a href="#products">洒水喷头</a>
+                    <a href="#products">报警阀门</a>
+                    <a href="#products">消火栓</a>
+                    <a href="#products">消防水带</a>
+                </div>
+                <div>
+                    <h5 data-i18n="footer_contact_label">联系方式</h5>
+                    <a href="tel:+8659586378789">0595-86378789</a>
+                    <a href="mailto:zhengcolin1@gmail.com">zhengcolin1@gmail.com</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 川维消防设备有限公司 Chuanwei Fire Equipment Co., Ltd. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // ===== i18n Translations =====
+        const i18n = {
+            zh: {
+                nav_home: '首页',
+                nav_about: '关于我们',
+                nav_products: '产品中心',
+                nav_brand: '品牌形象',
+                nav_news: '新闻资讯',
+                nav_contact: '联系我们',
+                hero_badge: '★ 专业消防设备制造商  Professional Manufacturer',
+                hero_title: '川维消防<br><span>守护安全  精益求精</span>',
+                hero_desc: '川维消防设备有限公司是一家集研发、生产、销售、服务于一体的现代化消防设备制造企业，致力于为全球客户提供高品质的消防产品和解决方案。',
+                hero_btn_products: '查看产品',
+                hero_btn_contact: '联系我们',
+                stat_facility: '生产基地',
+                stat_capacity: '年产能（台）',
+                stat_years: '成立至今',
+                story_title: '品牌故事',
+                story_sub: '初心依旧 · Still at Heart',
+                story_p1: '福建消防作为消防行业的重要版图，历来风起云涌，英雄辈出。80年代，浪起潮头，敢为天下先的闽南人相继投身消防大业，而后磅礴发展。',
+                story_p2: '在那个久远年代里，<span class="highlight">川维</span>一直都在，只是我们那时还没有叫川维。我们专业从事OEM加工和半成品加工，兢兢业业数十年，我们隐藏在行业里，发光发热。',
+                story_p3: '<span class="highlight">川维成立于2017年</span>，我们浸染行业数十年，默默磨练。我们为大梦想而来，做大品牌、大企业，为目标矢志不渝。我们做大品质，精雕细琢为每一个精品品质而来。',
+                story_p4: '我们坚持 <span class="highlight">"品质为本、诚信为基、市场为导、创新为魂"</span> 的经营理念，弘扬 <span class="highlight">"踏实、学习、团结、奉献"</span> 的企业精神。',
+                about_title: '关于川维消防',
+                about_sub: '一站式消防服务解决方案',
+                about_manufacturing_title: '自2017年以来的制造卓越',
+                about_manufacturing_desc: '川维消防位于福建南安——中国领先的消防设备制造中心，公司占地10亩，拥有5000平方米生产车间，具备向全球市场提供高品质消防产品的能力。',
+                about_who_title: '公司简介',
+                about_who_desc: '川维消防设备有限公司（Chuanwei Fire Equipment Co., Ltd.）位于福建省泉州市南安市，是一家集研发、生产、销售、服务为一体的消防设备制造企业。',
+                about_who_desc2: '公司生产的"川维"牌消防系列主营产品为洒水喷头、湿式报警阀、水流指示器、消防闸阀、消防蝶阀、消火栓箱、消防水带等，产品广泛应用于商业、工业及住宅领域。',
+                about_f1: '5000m² 生产基地',
+                about_f2: 'ISO 9001 / 14001 认证',
+                about_f3: 'CCCF 认证产品',
+                about_f4: '专业研发团队',
+                about_f5: '年产能35万+台',
+                about_f6: '完善的售后服务',
+                strengths_title: '我们的优势',
+                strengths_sub: '精雕细琢  精益求精',
+                s1_title: '实力雄厚',
+                s1_desc: '公司发展多年，经多年的行业积累、资金积累、经验设备及优秀施工团队，为您提供良好的综合服务。',
+                s2_title: '一站式服务',
+                s2_desc: '自有产品生产线，品类齐全，从喷头到阀门、水带到消火栓，一站式采购满足您的全部需求。',
+                s3_title: '先进设备',
+                s3_desc: '设备先进，全程规范的技术操作，可为企业提供强有力的生产支持，确保产品品质。',
+                s4_title: '充足库存',
+                s4_desc: '常备市场通用原材料库存，接到订单可立即安排生产调配，确保产品及时交付。',
+                s5_title: '品质保障',
+                s5_desc: '自行生产，产品质量安全放心。严格质检流程，确保每一件产品都符合标准。',
+                s6_title: '售后服务',
+                s6_desc: '完善的售后服务体系，专业团队快速响应，为您解决后顾之忧。',
+                products_title: '产品中心',
+                products_sub: '全面的消防保护设备，满足各类应用场景',
+                brand_title: '品牌形象视觉系统',
+                brand_sub: '专业品牌形象，彰显企业实力',
+                news_title: '新闻资讯',
+                news_sub: '了解最新行业动态与公司资讯',
+                cta_title: '准备好与川维消防合作了吗？',
+                cta_desc: '获取产品报价或产品目录，我们通常在24小时内回复。',
+                cta_btn: '✉ 立即咨询',
+                contact_title: '联系我们',
+                contact_sub: '产品咨询、获取报价或合作商讨',
+                contact_info_title: '联系方式',
+                contact_info_desc: '不管您是分销商、工程商还是采购专员，我们的团队都乐意为您提供帮助。',
+                form_title: '发送留言',
+                form_name_ph: '您的姓名 *',
+                form_email_ph: '邮箱地址 *',
+                form_company_ph: '公司名称',
+                form_phone_ph: '电话 / WhatsApp',
+                form_msg_ph: '请描述您的需求...',
+                form_submit: '✉ 发送询盘',
+                form_success: '✓ 发送成功！',
+                submit_btn: '✉ 发送询盘',
+                footer_about: '专业消防设备制造商，通过ISO 9001、ISO 14001认证。自2017年起服务国内外合作伙伴。',
+                footer_quicklinks: '快速链接',
+                footer_products_label: '产品分类',
+                footer_contact_label: '联系方式',
+                footer_rights: 'All Rights Reserved.',
+            },
+            en: {
+                nav_home: 'Home',
+                nav_about: 'About Us',
+                nav_products: 'Products',
+                nav_brand: 'Brand',
+                nav_news: 'News',
+                nav_contact: 'Contact Us',
+                hero_badge: '★ Professional Fire Equipment Manufacturer',
+                hero_title: 'Chuanwei Fire<br><span>Protecting Safety with Excellence</span>',
+                hero_desc: 'Chuanwei Fire Equipment Co., Ltd. is a modern enterprise integrating R&D, production, sales, and service, dedicated to providing high-quality fire protection products and solutions to global customers.',
+                hero_btn_products: 'View Products',
+                hero_btn_contact: 'Contact Us',
+                stat_facility: 'Manufacturing Facility',
+                stat_capacity: 'Annual Capacity (units)',
+                stat_years: 'Since 2017',
+                story_title: 'Brand Story',
+                story_sub: 'Still at Heart',
+                story_p1: 'Fujian fire protection has long been a vital force in the industry. Since the 1980s, pioneers from southern Fujian have dedicated themselves to the fire safety cause.',
+                story_p2: 'In those early years, <span class="highlight">Chuanwei</span> was always there — just not yet under that name. For decades we specialized in OEM and semi-finished processing, working quietly behind the scenes.',
+                story_p3: '<span class="highlight">Chuanwei was founded in 2017</span>, building on decades of industry experience. We dream big, pursuing excellence in quality and building a brand that stands for reliability.',
+                story_p4: 'We uphold the philosophy of <span class="highlight">"Quality First, Integrity as Foundation, Market-Driven, Innovation as Soul"</span>, promoting a spirit of dedication, learning, unity, and contribution.',
+                about_title: 'About Chuanwei Fire',
+                about_sub: 'One-Stop Fire Protection Solutions',
+                about_manufacturing_title: 'Manufacturing Excellence Since 2017',
+                about_manufacturing_desc: 'Based in Nan\'an, Fujian — China\'s premier fire equipment manufacturing hub — Chuanwei Fire spans a 10-acre facility with 5,000 square meters of production space.',
+                about_who_title: 'Who We Are',
+                about_who_desc: 'Chuanwei Fire Equipment Co., Ltd. is located in Nan\'an City, Fujian Province. We are a fire equipment manufacturer integrating R&D, production, sales, and service.',
+                about_who_desc2: 'Our "Chuanwei" brand products include sprinklers, alarm valves, flow indicators, gate valves, butterfly valves, hydrant boxes, and fire hoses for commercial, industrial, and residential use.',
+                about_f1: '5,000m² facility',
+                about_f2: 'ISO 9001 / 14001 certified',
+                about_f3: 'CCCF approved products',
+                about_f4: 'Professional R&D team',
+                about_f5: '350K+ annual capacity',
+                about_f6: 'Comprehensive after-sales service',
+                strengths_title: 'Our Strengths',
+                strengths_sub: 'Crafted with Precision, Driven by Quality',
+                s1_title: 'Strong Foundation',
+                s1_desc: 'Years of industry experience, capital accumulation, advanced equipment, and an excellent team provide you with comprehensive service.',
+                s2_title: 'One-Stop Service',
+                s2_desc: 'Complete product line from sprinklers to valves, hoses to hydrants — meet all your needs from a single source.',
+                s3_title: 'Advanced Equipment',
+                s3_desc: 'State-of-the-art machinery and standardized operations ensure strong production support and product quality.',
+                s4_title: 'Ample Inventory',
+                s4_desc: 'Adequate raw material stock ensures rapid production arrangement upon order, guaranteeing timely delivery.',
+                s5_title: 'Quality Assurance',
+                s5_desc: 'In-house production with strict quality control ensures every product meets standards.',
+                s6_title: 'After-Sales Service',
+                s6_desc: 'Comprehensive after-sales support with a professional team providing quick responses.',
+                products_title: 'Product Center',
+                products_sub: 'Comprehensive fire protection equipment for every application',
+                brand_title: 'Visual System of Brand Image',
+                brand_sub: 'Professional brand image showcasing corporate strength',
+                news_title: 'News & Information',
+                news_sub: 'Latest industry trends and company updates',
+                cta_title: 'Ready to Partner with Chuanwei Fire?',
+                cta_desc: 'Request a quote or product catalog. We typically respond within 24 hours.',
+                cta_btn: '✉ Send Inquiry',
+                contact_title: 'Contact Us',
+                contact_sub: 'Product inquiries, quotes, or partnership discussions',
+                contact_info_title: 'Get In Touch',
+                contact_info_desc: 'Whether you are a distributor, contractor, or procurement professional, our team is ready to assist.',
+                form_title: 'Send Us a Message',
+                form_name_ph: 'Your Name *',
+                form_email_ph: 'Email Address *',
+                form_company_ph: 'Company Name',
+                form_phone_ph: 'Phone / WhatsApp',
+                form_msg_ph: 'Tell us about your requirements...',
+                form_submit: '✉ Submit Inquiry',
+                form_success: '✓ Sent Successfully!',
+                submit_btn: '✉ Submit Inquiry',
+                footer_about: 'Professional fire equipment manufacturer. ISO 9001 & ISO 14001 certified. Serving partners worldwide since 2017.',
+                footer_quicklinks: 'Quick Links',
+                footer_products_label: 'Products',
+                footer_contact_label: 'Contact',
+                footer_rights: 'All Rights Reserved.',
+            }
+        };
+
+        let currentLang = 'zh';
+
+        function switchLang(lang) {
+            currentLang = lang;
+            document.querySelectorAll('.lang-btn').forEach(b => b.classList.toggle('active', b.textContent.trim() === (lang === 'zh' ? '中' : 'EN')));
+            const t = i18n[lang];
+            document.querySelectorAll('[data-i18n]').forEach(el => {
+                const key = el.getAttribute('data-i18n');
+                if (t[key] !== undefined) {
+                    if (el.tagName === 'INPUT' || el.tagName === 'TEXTAREA') {
+                        el.placeholder = t[key];
+                    } else {
+                        el.innerHTML = t[key];
+                    }
+                }
+            });
+            document.documentElement.lang = lang === 'zh' ? 'zh-CN' : 'en';
+
+            // Update submit button
+            const submitBtn = document.querySelector('.submit-btn');
+            if (submitBtn && t.submit_btn) submitBtn.innerHTML = t.submit_btn;
+
+            // Update footer company name
+            const footerAbout = document.querySelector('.footer-grid > div:first-child p');
+            if (footerAbout && t.footer_about) footerAbout.innerHTML = t.footer_about;
+
+            // Update section titles
+            document.querySelectorAll('[data-i18n-title]').forEach(el => {
+                const key = el.getAttribute('data-i18n-title');
+                if (t[key] !== undefined) el.innerHTML = t[key];
+            });
+        }
+
+        // ===== Mobile menu =====
+        document.getElementById('menuToggle').addEventListener('click', () => {
+            document.getElementById('nav').classList.toggle('open');
+        });
+        document.querySelectorAll('#nav a').forEach(link => {
+            link.addEventListener('click', () => document.getElementById('nav').classList.remove('open'));
+        });
+
+        // ===== Header scroll =====
+        window.addEventListener('scroll', () => {
+            document.getElementById('header').classList.toggle('scrolled', window.scrollY > 50);
+        });
+
+        // ===== Smooth scroll =====
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    const top = target.getBoundingClientRect().top + window.pageYOffset - document.getElementById('header').offsetHeight;
+                    window.scrollTo({ top, behavior: 'smooth' });
+                }
+            });
+        });
+
+        // ===== Contact form =====
+        document.getElementById('contactForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            const btn = this.querySelector('.submit-btn');
+            const lang = currentLang;
+            const originalHTML = btn.innerHTML;
+            const successMsg = i18n[lang].form_success || '✓ 发送成功！';
+
+            // Disable button and show sending state
+            btn.disabled = true;
+            btn.innerHTML = '⏳ 发送中...';
+            btn.style.background = '#95a5a6';
+
+            // Send via Fetch API (AJAX, no page reload)
+            fetch('https://api.web3forms.com/submit', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
+                body: JSON.stringify(Object.fromEntries(new FormData(this)))
+            })
+            .then(res => res.json())
+            .then(data => {
+                if (data.success) {
+                    btn.innerHTML = successMsg;
+                    btn.style.background = '#27ae60';
+                    this.reset();
+                    setTimeout(() => {
+                        btn.innerHTML = originalHTML;
+                        btn.style.background = '';
+                        btn.disabled = false;
+                    }, 4000);
+                } else {
+                    throw new Error('Send failed');
+                }
+            })
+            .catch(() => {
+                btn.innerHTML = '✗ ' + (lang === 'en' ? 'Failed, try again' : '发送失败，请重试');
+                btn.style.background = '#e74c3c';
+                setTimeout(() => {
+                    btn.innerHTML = originalHTML;
+                    btn.style.background = '';
+                    btn.disabled = false;
+                }, 3000);
+            });
+        });
+        });
+    </script>
+</body>
+</html>
