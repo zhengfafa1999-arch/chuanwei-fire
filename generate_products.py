@@ -9,12 +9,6 @@ PRODUCTS = {
     "消防喷头": ("洒水喷头", "Fire Sprinklers", "sprinklers",
         "川维消防生产的洒水喷头采用优质玻璃球感温元件，响应迅速、性能稳定。产品涵盖K-ZSTDY15-68°C等多种型号，广泛应用于商业建筑、工业厂房、住宅小区等场所的自动喷水灭火系统。",
         ["玻璃球感温，响应迅速", "多种温度等级可选", "镀铜/镀铬防腐处理", "适用于湿式/干式系统", "通过CCCF认证"]),
-    "室内消火栓": ("室内消火栓", "Indoor Fire Hydrants", "indoor-hydrants",
-        "川维消防室内消火栓系列包括SN65、SNW65-I-C、SNW65-II-Y、SNZW65-I-C、SNZW65-II-Y等多种型号，严格按照国家标准设计制造，广泛应用于商业建筑、住宅小区、工业厂房等场所。",
-        ["全系列产品齐全", "铸造工艺精湛", "密封性能优良", "操作灵活轻便", "符合国家标准"]),
-    "室外消火栓": ("室外消火栓", "Outdoor Fire Hydrants", "outdoor-hydrants",
-        "川维消防室外消火栓产品采用优质铸铁制造，表面涂装防腐处理，适用于城市道路、工业园区、商业广场等室外场所的消防给水系统，为消防救援提供可靠的水源保障。",
-        ["优质铸铁制造，坚固耐用", "表面防腐涂装处理", "出水口规格齐全", "密封性能好，无渗漏", "适用于各种室外场所"]),
     "消防栓箱": ("消火栓箱", "Fire Hydrant Boxes", "hydrant-boxes",
         "川维消防消火栓箱采用优质钢板制成，表面静电喷涂处理，美观耐用。箱体设计合理，内部空间充裕，可容纳消火栓、水带、水枪等完整配置，满足各类建筑消防验收要求。",
         ["优质钢板制造", "静电喷涂表面处理", "内部空间充裕", "安装方便快捷", "满足消防验收标准"]),
@@ -40,11 +34,8 @@ def generate_detail_page(cn_name, en_name, eng_path, folder, description, featur
     img_dir = os.path.join(DEST, folder)
     os.makedirs(img_dir, exist_ok=True)
 
-    # Folder name mapping (source folder → display folder)
-    folder_map = {"室内消火栓": "室内消防栓", "室外消火栓": "室外消防栓"}
-    src_folder_name = folder_map.get(folder, folder)
     # Get all image files in the source folder
-    src_folder = os.path.join(IMG_SRC, src_folder_name)
+    src_folder = os.path.join(IMG_SRC, folder)
     images = []
     if os.path.exists(src_folder):
         for f in sorted(os.listdir(src_folder)):
