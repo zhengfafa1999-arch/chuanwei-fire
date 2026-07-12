@@ -792,7 +792,7 @@
             <div class="contact-grid">
                 <div class="contact-info">
                     <h4 data-i18n="contact_info_title">联系方式</h4>
-                    <p>不管您是分销商、工程商还是采购专员，我们的团队都乐意为您提供帮助。</p>
+                    <p data-i18n="contact_info_desc">不管您是分销商、工程商还是采购专员，我们的团队都乐意为您提供帮助。</p>
                     <div class="contact-item">
                         <div class="ci-icon">
                             <svg viewBox="0 0 18 18" fill="none" width="18" height="18"><path d="M9 2C6.2 2 4 4.2 4 7C4 10 9 16 9 16C9 16 14 10 14 7C14 4.2 11.8 2 9 2Z" stroke="#1a5276" stroke-width="1.5" fill="none"/></svg>
@@ -881,21 +881,21 @@
             <div class="footer-grid">
                 <div>
                     <h5 data-i18n="footer_title">川维消防设备有限公司</h5>
-                    <p>专业消防设备制造商，通过ISO 9001、ISO 14001认证。自2017年起服务国内外合作伙伴。</p>
+                    <p data-i18n="footer_about">专业消防设备制造商，通过ISO 9001、ISO 14001认证。自2017年起服务国内外合作伙伴。</p>
                 </div>
                 <div>
                     <h5 data-i18n="footer_quicklinks">快速链接</h5>
-                    <a href="#about">关于我们</a>
-                    <a href="#products">产品中心</a>
-                    <a href="#brand">品牌形象</a>
-                    <a href="#contact">联系我们</a>
+                    <a href="#about" data-i18n="nav_about">关于我们</a>
+                    <a href="#products" data-i18n="nav_products">产品中心</a>
+                    <a href="#certs" data-i18n="nav_certs">资质荣誉</a>
+                    <a href="#contact" data-i18n="nav_contact">联系我们</a>
                 </div>
                 <div>
                     <h5 data-i18n="footer_products_label">产品分类</h5>
-                    <a href="#products">洒水喷头</a>
-                    <a href="#products">报警阀门</a>
-                    <a href="#products">消火栓</a>
-                    <a href="#products">消防水带</a>
+                    <a href="#products" data-i18n="fl1">洒水喷头</a>
+                    <a href="#products" data-i18n="fl2">消防阀门</a>
+                    <a href="#products" data-i18n="fl3">消火栓</a>
+                    <a href="#products" data-i18n="fl4">消防水带</a>
                 </div>
                 <div>
                     <h5 data-i18n="footer_contact_label">联系方式</h5>
@@ -904,7 +904,7 @@
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; 2026 川维消防设备有限公司 Chuanwei Fire Equipment Co., Ltd. All Rights Reserved.</p>
+                <p data-i18n="footer_rights">&copy; 2026 川维消防设备有限公司 Chuanwei Fire Equipment Co., Ltd. All Rights Reserved.</p>
             </div>
         </div>
     </footer>
@@ -1014,11 +1014,13 @@
                 form_submit: '✉ 发送询盘',
                 form_success: '✓ 发送成功！',
                 submit_btn: '✉ 发送询盘',
+                footer_title: '川维消防设备有限公司',
                 footer_about: '专业消防设备制造商，通过ISO 9001、ISO 14001认证。自2017年起服务国内外合作伙伴。',
                 footer_quicklinks: '快速链接',
                 footer_products_label: '产品分类',
                 footer_contact_label: '联系方式',
                 footer_rights: 'All Rights Reserved.',
+                fl1: '洒水喷头', fl2: '消防阀门', fl3: '消火栓', fl4: '消防水带',
             },
             en: {
                 nav_home: 'Home',
@@ -1122,11 +1124,13 @@
                 form_submit: '✉ Submit Inquiry',
                 form_success: '✓ Sent Successfully!',
                 submit_btn: '✉ Submit Inquiry',
+                footer_title: 'Chuanwei Fire Equipment Co., Ltd.',
                 footer_about: 'Professional fire equipment manufacturer. ISO 9001 & ISO 14001 certified. Serving partners worldwide since 2017.',
                 footer_quicklinks: 'Quick Links',
                 footer_products_label: 'Products',
                 footer_contact_label: 'Contact',
                 footer_rights: 'All Rights Reserved.',
+                fl1: 'Fire Sprinklers', fl2: 'Fire Valves', fl3: 'Fire Hydrants', fl4: 'Fire Hoses',
             }
         };
 
@@ -1152,10 +1156,6 @@
             // Update submit button
             const submitBtn = document.querySelector('.submit-btn');
             if (submitBtn && t.submit_btn) submitBtn.innerHTML = t.submit_btn;
-
-            // Update footer company name
-            const footerAbout = document.querySelector('.footer-grid > div:first-child p');
-            if (footerAbout && t.footer_about) footerAbout.innerHTML = t.footer_about;
 
             // Update section titles
             document.querySelectorAll('[data-i18n-title]').forEach(el => {
