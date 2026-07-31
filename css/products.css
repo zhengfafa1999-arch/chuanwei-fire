@@ -1,0 +1,72 @@
+/* ==========================================================================
+   products.css — Product-page-specific styles
+   Load AFTER common.css. Used by all product pages under /products/
+   ========================================================================== */
+
+/* Header-inner override (product pages don't wrap .header-inner in .container) */
+.header-inner { padding: 8px 20px; max-width: 1200px; margin: 0 auto; }
+
+/* Back link (return to homepage) */
+.back-link { display: inline-flex; align-items: center; gap: 6px; color: var(--primary); font-size: 14px; font-weight: 500; padding: 6px 14px; border-radius: 6px; transition: background 0.2s; }
+.back-link:hover { background: #e8f0fe; }
+
+/* Product detail section */
+.detail { padding: 100px 0 60px; }
+.detail-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; align-items: start; }
+.main-image { border-radius: 12px; overflow: hidden; border: 1px solid var(--border); cursor: pointer; background: #f5f7fa; }
+.main-image img { width: 100%; height: auto; object-fit: contain; max-height: 500px; }
+
+/* Product info */
+.product-info h2 { font-size: 28px; color: var(--primary); margin-bottom: 6px; }
+.product-info .en-name { font-size: 14px; color: var(--primary-light); margin-bottom: 16px; }
+.product-info .desc { font-size: 14px; color: #555; line-height: 1.8; margin-bottom: 20px; }
+
+/* Features list */
+.features { list-style: none; margin-bottom: 24px; }
+.features li { display: flex; align-items: center; gap: 8px; font-size: 14px; color: #444; margin-bottom: 8px; }
+.features li::before { content: '✓'; color: var(--primary-light); font-weight: 700; font-size: 16px; }
+
+/* Inquiry button */
+.inquiry-btn { display: inline-flex; align-items: center; gap: 8px; background: var(--primary); color: #fff; padding: 12px 28px; border-radius: 8px; font-size: 14px; font-weight: 600; transition: background 0.3s; border: none; cursor: pointer; }
+.inquiry-btn:hover { background: var(--primary-dark); }
+
+/* Gallery */
+.gallery { margin-top: 40px; }
+.gallery h3 { font-size: 20px; color: var(--primary); margin-bottom: 16px; }
+.gallery-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; }
+.gallery-item { border-radius: 8px; overflow: hidden; border: 1px solid var(--border); cursor: pointer; transition: all 0.3s; background: #f5f7fa; }
+.gallery-item:hover { transform: translateY(-3px); box-shadow: 0 8px 20px rgba(0,0,0,0.08); }
+.gallery-item img { width: 100%; height: 180px; object-fit: contain; background: #f5f7fa; }
+.gallery-item .label { padding: 8px 12px; font-size: 12px; color: var(--text-light); text-align: center; }
+
+/* Related products */
+.related { margin-top: 50px; padding-top: 40px; border-top: 1px solid var(--border); }
+.related h3 { font-size: 20px; color: var(--primary); margin-bottom: 16px; }
+.related-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; }
+.related-card { padding: 16px; border-radius: 10px; border: 1px solid var(--border); transition: all 0.3s; display: block; }
+.related-card:hover { box-shadow: 0 8px 20px rgba(0,0,0,0.06); border-color: var(--primary-light); }
+.related-card h4 { font-size: 14px; color: var(--primary); margin-bottom: 4px; }
+.related-card p { font-size: 12px; color: var(--text-light); line-height: 1.4; }
+
+/* Image modal / lightbox */
+.modal { display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.85); z-index: 9999; cursor: pointer; align-items: center; justify-content: center; }
+.modal.open { display: flex; }
+.modal img { max-width: 90%; max-height: 90%; object-fit: contain; }
+.modal .close { position: absolute; top: 20px; right: 30px; color: #fff; font-size: 36px; cursor: pointer; font-weight: 300; }
+.modal .nav-btn { position: absolute; top: 50%; transform: translateY(-50%); background: rgba(255,255,255,0.12); color: #fff; border: none; font-size: 28px; padding: 14px 20px; cursor: pointer; border-radius: 50%; transition: all 0.3s; z-index: 10; line-height: 1; }
+.modal .nav-btn:hover { background: rgba(255,255,255,0.3); }
+.modal .nav-prev { left: 16px; }
+.modal .nav-next { right: 16px; }
+
+/* Footer — product page (simpler, overrides common.css homepage footer) */
+.footer { background: var(--primary-dark); color: rgba(255,255,255,0.65); padding: 30px 0 20px; text-align: center; font-size: 12px; }
+.footer a { color: rgba(255,255,255,0.8); margin: 0 10px; display: inline; }
+.footer a:hover { color: var(--primary-light); }
+
+/* Responsive — product page */
+@media (max-width: 768px) {
+    .detail-grid { grid-template-columns: 1fr; gap: 24px; }
+    .gallery-grid { grid-template-columns: repeat(2, 1fr); }
+    .related-grid { grid-template-columns: repeat(2, 1fr); }
+    .product-info h2 { font-size: 22px; }
+}
