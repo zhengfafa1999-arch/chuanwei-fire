@@ -22,3 +22,8 @@ guanya_original.html
 
 # Source product images (not for git)
 产品图/
+
+# AI 建站中间产物（参考/草稿，不纳入版本管理）
+pdf_pages/
+outputs/
+demo/
