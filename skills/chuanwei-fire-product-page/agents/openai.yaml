@@ -1,0 +1,7 @@
+interface:
+  display_name: "CHUANWEI FIRE Product Page"
+  short_description: "Build verified export fire-product detail pages"
+  brand_color: "#CF1821"
+  default_prompt: "Use $chuanwei-fire-product-page to build one verified English product-series detail page from my model list and photos."
+policy:
+  allow_implicit_invocation: true
