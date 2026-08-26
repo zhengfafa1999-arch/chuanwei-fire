@@ -51,7 +51,7 @@
           </div>
         </div>
         <div class="spr-hero__visual">
-          <div class="spr-hero__image"><img src="消防喷头/categories/quick-response-pendent.jpg" alt="Glass bulb fire sprinkler product" width="1081" height="1440"></div>
+          <div class="spr-hero__image"><img src="消防喷头/glass-bulb-sprinkler/quick-response-pendent.jpg" alt="Glass bulb fire sprinkler product" width="865" height="1200"></div>
           <div class="spr-hero__badge"><strong data-en="Start with four inputs" data-zh="从四项需求开始">Start with four inputs</strong><span data-en="Style · K-factor · Temperature · Market" data-zh="类型 · K系数 · 温度 · 目标市场">Style · K-factor · Temperature · Market</span></div>
         </div>
       </div>
@@ -91,7 +91,7 @@
           </article>
 
           <article class="spr-family" id="quick">
-            <button class="spr-family__image" type="button" data-lightbox="消防喷头/categories/quick-response-pendent.jpg" aria-label="View quick response sprinkler image"><img src="消防喷头/categories/quick-response-pendent.jpg" alt="Quick response pendent fire sprinkler" loading="lazy"></button>
+            <button class="spr-family__image" type="button" data-lightbox="消防喷头/glass-bulb-sprinkler/quick-response-pendent.jpg" aria-label="View quick response sprinkler image"><img src="消防喷头/glass-bulb-sprinkler/quick-response-pendent.jpg" alt="Quick response pendent fire sprinkler" loading="lazy"></button>
             <div class="spr-family__body">
               <div class="spr-family__top"><span class="spr-family__index">02</span><span class="spr-chip spr-chip--red">QR</span></div>
               <h3 data-en="Quick Response Standard Spray" data-zh="快速响应标准覆盖喷头">Quick Response Standard Spray</h3>
@@ -270,6 +270,16 @@
     modal.querySelector('button').addEventListener('click', closeModal);
     modal.addEventListener('click', event => { if (event.target === modal) closeModal(); });
     document.addEventListener('keydown', event => { if (event.key === 'Escape') closeModal(); });
+
+    // Whole card click -> navigate to the detail page (image still opens the lightbox)
+    document.querySelectorAll('.spr-family').forEach(card => {
+      card.style.cursor = 'pointer';
+      card.addEventListener('click', event => {
+        if (event.target.closest('[data-lightbox]') || event.target.closest('a')) return;
+        const link = card.querySelector('.spr-family__link');
+        if (link) window.location.href = link.getAttribute('href');
+      });
+    });
 
     document.querySelectorAll('[data-product]').forEach(link => link.addEventListener('click', () => { document.getElementById('familySelect').value = link.dataset.product; }));
     document.getElementById('sprinklerInquiry').addEventListener('submit', event => {
