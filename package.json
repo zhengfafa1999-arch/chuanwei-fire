@@ -1,0 +1,14 @@
+{
+  "name": "chuanwei-fire-site",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "validate": "node tools/validate-catalog.mjs",
+    "build": "npm run validate && eleventy && node tools/validate-generated.mjs",
+    "serve": "eleventy --serve"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^3.1.6"
+  }
+}

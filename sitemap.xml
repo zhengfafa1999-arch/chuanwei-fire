@@ -62,4 +62,25 @@
         <priority>0.7</priority>
     </url>
 
+    <!-- Wet alarm check valve product pages -->
+    <url>
+        <loc>https://chuanweifire.com/products/%E6%B6%88%E9%98%B2%E9%98%80/wet-alarm-check-valve-assemblies.html</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://chuanweifire.com/products/%E6%B6%88%E9%98%B2%E9%98%80/wet-alarm-check-valve-assemblies.html" />
+        <xhtml:link rel="alternate" hreflang="ar" href="https://chuanweifire.com/ar/products/wet-alarm-check-valve/" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://chuanweifire.com/products/%E6%B6%88%E9%98%B2%E9%98%80/wet-alarm-check-valve-assemblies.html" />
+        <lastmod>2026-09-03</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <url>
+        <loc>https://chuanweifire.com/ar/products/wet-alarm-check-valve/</loc>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://chuanweifire.com/ar/products/wet-alarm-check-valve/" />
+        <xhtml:link rel="alternate" hreflang="en" href="https://chuanweifire.com/products/%E6%B6%88%E9%98%B2%E9%98%80/wet-alarm-check-valve-assemblies.html" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://chuanweifire.com/products/%E6%B6%88%E9%98%B2%E9%98%80/wet-alarm-check-valve-assemblies.html" />
+        <lastmod>2026-09-03</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
 </urlset>

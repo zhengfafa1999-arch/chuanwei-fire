@@ -27,3 +27,7 @@ guanya_original.html
 pdf_pages/
 outputs/
 demo/
+
+# Static-site build dependencies and cache
+node_modules/
+.cache/

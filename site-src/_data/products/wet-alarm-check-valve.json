@@ -1,0 +1,79 @@
+{
+  "id": "wet-alarm-check-valve",
+  "family": "alarm-system-valves",
+  "factorySeries": "ZSFZ",
+  "status": "published",
+  "lastReviewed": "2026-09-03",
+  "evidence": {
+    "status": "confirmed",
+    "source": "user-confirmed product data and supplied product photographs"
+  },
+  "sizeRange": {
+    "minimumDn": 100,
+    "minimumInch": "4",
+    "maximumDn": 250,
+    "maximumInch": "10"
+  },
+  "connections": ["flanged", "grooved"],
+  "facts": {
+    "maximumWorkingPressureMpa": { "value": 1.6, "status": "confirmed" },
+    "valveBody": { "value": "ductileIronQt45010", "status": "confirmed" },
+    "clapper": { "value": "ductileIron", "status": "confirmed" },
+    "valveSeat": { "value": "stainlessSteel", "status": "confirmed" },
+    "stemAndInternalMetal": { "value": "stainlessSteel", "status": "confirmed" },
+    "seals": { "value": "epdm", "status": "confirmed" },
+    "coating": { "value": "internalExternalEpoxy", "status": "confirmed" },
+    "packaging": { "value": "woodenCaseOrPallet", "status": "confirmed" },
+    "installationOrientation": { "value": null, "status": "unresolved" },
+    "waterFlowDirection": { "value": null, "status": "unresolved" }
+  },
+  "pressureSwitch": {
+    "operatingVoltage": { "value": "DC 24 V", "status": "confirmed" },
+    "contact": { "value": "1 NO", "status": "confirmed" },
+    "contactRating": { "value": "1 A", "status": "confirmed" },
+    "actuationPressureMpa": { "value": 0.05, "status": "confirmed" }
+  },
+  "supplyScope": [
+    "mainValve",
+    "pressureGauges",
+    "retardChamber",
+    "waterMotorAlarm",
+    "pressureSwitch",
+    "drainOrTestValve",
+    "trimPipingAndFittings",
+    "agreedAccessories"
+  ],
+  "oemCapabilities": [
+    "flangeMachining",
+    "groovedConnection",
+    "trimConfiguration",
+    "brandPresentation",
+    "drawingOrSampleProduction",
+    "exportPacking"
+  ],
+  "models": [
+    { "connection": "flanged", "dn": 100, "inch": "4", "heightMm": 250, "design": "new", "factoryReference": "ZSFZ100" },
+    { "connection": "flanged", "dn": 150, "inch": "6", "heightMm": 275, "design": "new", "factoryReference": "ZSFZ150" },
+    { "connection": "flanged", "dn": 200, "inch": "8", "heightMm": 325, "design": "new", "factoryReference": "ZSFZ200" },
+    { "connection": "flanged", "dn": 250, "inch": "10", "heightMm": 380, "design": "conventional", "factoryReference": "ZSFZ250" },
+    { "connection": "grooved", "dn": 100, "inch": "4", "heightMm": 250, "design": "new", "factoryReference": "ZSFZ100(G)" },
+    { "connection": "grooved", "dn": 150, "inch": "6", "heightMm": 280, "design": "new", "factoryReference": "ZSFZ150(G)" },
+    { "connection": "grooved", "dn": 200, "inch": "8", "heightMm": 330, "design": "conventional", "factoryReference": "ZSFZ200(G)" }
+  ],
+  "media": [
+    {
+      "src": "products/消防阀/wet-alarm-check-valve-assemblies/dn150-flanged-wet-alarm-assembly-en.jpg",
+      "configuration": "flanged",
+      "width": 1537,
+      "height": 1023,
+      "evidence": "realProductPhoto"
+    },
+    {
+      "src": "products/消防阀/wet-alarm-check-valve-assemblies/dn150-grooved-wet-alarm-assembly-en.jpg",
+      "configuration": "grooved",
+      "width": 1600,
+      "height": 967,
+      "evidence": "realProductPhoto"
+    }
+  ]
+}

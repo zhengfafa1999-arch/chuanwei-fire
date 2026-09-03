@@ -1,0 +1,57 @@
+{
+  "lang": "ar",
+  "dir": "rtl",
+  "locale": "ar_AR",
+  "brandTagline": "مصنّع معدات مكافحة الحريق",
+  "navigation": {
+    "gallery": "صور المنتج",
+    "specifications": "المواصفات",
+    "models": "الموديلات المتاحة",
+    "oem": "OEM / ODM",
+    "quote": "اطلب عرض سعر"
+  },
+  "labels": {
+    "productType": "نوع المنتج",
+    "availableSizes": "المقاسات المتاحة",
+    "connectionOptions": "خيارات التوصيل",
+    "maximumWorkingPressure": "أقصى ضغط تشغيل",
+    "valveBody": "جسم الصمام",
+    "clapper": "قرص الصمام",
+    "valveSeat": "مقعد الصمام",
+    "stemAndInternalMetal": "ساق الصمام والأجزاء المعدنية الداخلية",
+    "seals": "مادة موانع التسرب",
+    "coating": "الطلاء",
+    "packaging": "التعبئة",
+    "operatingVoltage": "جهد التشغيل",
+    "contact": "نقطة التلامس",
+    "contactRating": "سعة نقطة التلامس",
+    "actuationPressure": "ضغط التشغيل",
+    "internationalConfiguration": "التكوين الدولي",
+    "nominalSize": "المقاس الاسمي",
+    "maximumPressure": "أقصى ضغط",
+    "referenceHeight": "الارتفاع المرجعي",
+    "design": "التصميم",
+    "factoryReference": "مرجع المصنع"
+  },
+  "values": {
+    "flanged": "فلنجي",
+    "grooved": "محزّز",
+    "new": "التصميم الجديد",
+    "conventional": "التصميم التقليدي",
+    "ductileIronQt45010": "حديد زهر مطيل QT450-10",
+    "ductileIron": "حديد زهر مطيل",
+    "stainlessSteel": "فولاذ مقاوم للصدأ",
+    "epdm": "EPDM",
+    "internalExternalEpoxy": "طلاء إيبوكسي داخلي وخارجي",
+    "woodenCaseOrPallet": "صندوق خشبي أو منصة نقالة"
+  },
+  "common": {
+    "previous": "صورة المنتج السابقة",
+    "next": "صورة المنتج التالية",
+    "close": "إغلاق معاينة الصورة",
+    "companyWebsite": "موقع الشركة",
+    "backToCategory": "العودة إلى صمامات الإنذار والأنظمة",
+    "english": "English",
+    "arabic": "العربية"
+  }
+}

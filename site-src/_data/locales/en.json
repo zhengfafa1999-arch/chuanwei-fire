@@ -1,0 +1,57 @@
+{
+  "lang": "en",
+  "dir": "ltr",
+  "locale": "en_US",
+  "brandTagline": "Fire protection equipment manufacturer",
+  "navigation": {
+    "gallery": "Product views",
+    "specifications": "Specifications",
+    "models": "Available models",
+    "oem": "OEM / ODM",
+    "quote": "Request a quote"
+  },
+  "labels": {
+    "productType": "Product type",
+    "availableSizes": "Available sizes",
+    "connectionOptions": "Connection options",
+    "maximumWorkingPressure": "Maximum working pressure",
+    "valveBody": "Valve body",
+    "clapper": "Clapper",
+    "valveSeat": "Valve seat",
+    "stemAndInternalMetal": "Stem & internal metal parts",
+    "seals": "Seals",
+    "coating": "Coating",
+    "packaging": "Packaging",
+    "operatingVoltage": "Operating voltage",
+    "contact": "Contact",
+    "contactRating": "Contact rating",
+    "actuationPressure": "Actuation pressure",
+    "internationalConfiguration": "International configuration",
+    "nominalSize": "Nominal size",
+    "maximumPressure": "Maximum pressure",
+    "referenceHeight": "Reference height",
+    "design": "Design",
+    "factoryReference": "Factory reference"
+  },
+  "values": {
+    "flanged": "Flanged",
+    "grooved": "Grooved",
+    "new": "New design",
+    "conventional": "Conventional design",
+    "ductileIronQt45010": "Ductile iron QT450-10",
+    "ductileIron": "Ductile iron",
+    "stainlessSteel": "Stainless steel",
+    "epdm": "EPDM",
+    "internalExternalEpoxy": "Internal and external epoxy coating",
+    "woodenCaseOrPallet": "Wooden case or pallet"
+  },
+  "common": {
+    "previous": "Previous product image",
+    "next": "Next product image",
+    "close": "Close image preview",
+    "companyWebsite": "Company website",
+    "backToCategory": "Back to Alarm & System Valves",
+    "english": "English",
+    "arabic": "العربية"
+  }
+}
