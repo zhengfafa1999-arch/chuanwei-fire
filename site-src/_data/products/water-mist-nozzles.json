@@ -1,0 +1,76 @@
+{
+  "id": "water-mist-nozzles",
+  "family": "fire-sprinklers-and-nozzles",
+  "factorySeries": ["ZSTWB", "ZSTWC"],
+  "status": "published",
+  "lastReviewed": "2026-09-04",
+  "evidence": {
+    "status": "confirmed",
+    "source": "user-confirmed product data, accepted model table and replacement real product photographs"
+  },
+  "sizeOptions": [
+    { "dn": 15, "inch": "½", "domestic": "4分" },
+    { "dn": 20, "inch": "¾", "domestic": "6分" },
+    { "dn": 25, "inch": "1", "domestic": "1寸" }
+  ],
+  "configurations": ["standardWaterMist", "impingementType"],
+  "facts": {
+    "bodyMaterial": { "value": "copper", "status": "confirmed" },
+    "surfaceFinish": { "value": "chromePlated", "status": "confirmed" },
+    "operatingElement": { "value": "openNozzleNoHeatSensitiveElement", "status": "confirmed" },
+    "maximumWorkingPressureMpa": { "value": 1.2, "status": "confirmed" },
+    "inletStrainer": { "value": "optionalConfirmByModel", "status": "confirmed" },
+    "strainerMeshAndDimensions": { "value": null, "status": "unresolved" },
+    "threadForm": { "value": "confirmedCustomerRequirementOrSample", "status": "confirmed" }
+  },
+  "oemCapabilities": [
+    "connectionCustomization",
+    "nozzleConfiguration",
+    "drawingOrSampleProduction"
+  ],
+  "models": [
+    { "style": "standard", "dn": 15, "inch": "½", "configuration": "openNozzle", "strainer": "optionalConfirmByModel", "factoryReference": "ZSTWB" },
+    { "style": "standard", "dn": 20, "inch": "¾", "configuration": "openNozzle", "strainer": "optionalConfirmByModel", "factoryReference": "ZSTWB" },
+    { "style": "standard", "dn": 25, "inch": "1", "configuration": "openNozzle", "strainer": "optionalConfirmByModel", "factoryReference": "ZSTWB" },
+    { "style": "impingement", "dn": 15, "inch": "½", "configuration": "openImpingementType", "strainer": "optionalConfirmByModel", "factoryReference": "ZSTWC" },
+    { "style": "impingement", "dn": 20, "inch": "¾", "configuration": "openImpingementType", "strainer": "optionalConfirmByModel", "factoryReference": "ZSTWC" },
+    { "style": "customImpingement", "size": "otherSizes", "configuration": "developedToDrawingOrSample", "strainer": "subjectToDesignReview", "factoryReference": "custom" }
+  ],
+  "media": [
+    {
+      "src": "products/消防喷头/water-mist-nozzles/water-mist-nozzle-with-inlet-strainer.jpg",
+      "configuration": "standardWithStrainer",
+      "width": 726,
+      "height": 1291,
+      "evidence": "realProductPhoto"
+    },
+    {
+      "src": "products/消防喷头/water-mist-nozzles/water-mist-nozzle-body.jpg",
+      "configuration": "standardBody",
+      "width": 574,
+      "height": 869,
+      "evidence": "realProductPhoto"
+    },
+    {
+      "src": "products/消防喷头/water-mist-nozzles/water-mist-nozzle-with-mesh-guard.jpg",
+      "configuration": "standardWithMeshGuard",
+      "width": 1468,
+      "height": 1342,
+      "evidence": "realProductPhoto"
+    },
+    {
+      "src": "products/消防喷头/water-mist-nozzles/impingement-water-mist-nozzle-with-inlet-strainer.jpg",
+      "configuration": "impingementWithStrainer",
+      "width": 928,
+      "height": 1392,
+      "evidence": "realProductPhoto"
+    },
+    {
+      "src": "products/消防喷头/water-mist-nozzles/impingement-water-mist-nozzle-open-type.jpg",
+      "configuration": "impingementOpen",
+      "width": 995,
+      "height": 1240,
+      "evidence": "realProductPhoto"
+    }
+  ]
+}

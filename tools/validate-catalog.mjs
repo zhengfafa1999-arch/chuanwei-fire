@@ -80,6 +80,37 @@ function validateWaterCurtain() {
   }
 }
 
+function validateWaterMist() {
+  const product = readJson("site-src/_data/products/water-mist-nozzles.json");
+  assert(product.id === "water-mist-nozzles", "Unexpected water mist product ID.");
+  assert(product.status === "published" && product.evidence?.status === "confirmed", "Water mist product is not confirmed for publication.");
+  assert(product.facts.bodyMaterial.value === "copper" && product.facts.bodyMaterial.status === "confirmed", "Water mist body material must remain confirmed copper.");
+  assert(product.facts.surfaceFinish.value === "chromePlated" && product.facts.surfaceFinish.status === "confirmed", "Water mist finish must remain confirmed chrome plating.");
+  assert(product.facts.operatingElement.value === "openNozzleNoHeatSensitiveElement" && product.facts.operatingElement.status === "confirmed", "Water mist operating type mismatch.");
+  assert(product.facts.maximumWorkingPressureMpa.value === 1.2 && product.facts.maximumWorkingPressureMpa.status === "confirmed", "Water mist maximum working pressure must remain 1.2 MPa.");
+  assert(product.facts.strainerMeshAndDimensions.value === null && product.facts.strainerMeshAndDimensions.status === "unresolved", "Water mist strainer dimensions must remain unresolved.");
+  assert(product.facts.threadForm.status === "confirmed", "Water mist connection customization must remain confirmed.");
+  assert(product.sizeOptions.map((size) => size.dn).join(",") === "15,20,25", "Water mist nominal sizes must be DN15, DN20 and DN25.");
+  assert(product.sizeOptions.map((size) => size.domestic).join(",") === "4分,6分,1寸", "Water mist domestic thread mapping is incomplete.");
+  assert(product.configurations.join(",") === "standardWaterMist,impingementType", "Water mist configurations are incomplete.");
+  assert(product.models.length === 6, "The water mist model table must contain six current/custom rows.");
+  assert(product.models.filter((model) => model.factoryReference === "ZSTWB").length === 3, "ZSTWB standard model rows are incomplete.");
+  assert(product.models.filter((model) => model.factoryReference === "ZSTWC").length === 2, "ZSTWC impingement model rows are incomplete.");
+  assert(product.models.filter((model) => model.factoryReference === "ZSTWB").map((model) => model.dn).join(",") === "15,20,25", "ZSTWB standard sizes are incorrect.");
+  assert(product.models.filter((model) => model.factoryReference === "ZSTWC").map((model) => model.dn).join(",") === "15,20", "ZSTWC impingement sizes are incorrect.");
+  assert(product.models.some((model) => model.factoryReference === "custom"), "The confirmed custom impingement option is missing.");
+  assert(product.media.length === 5, "Only the five approved replacement water mist photos should be published.");
+  assert(!product.media.some((media) => /glass-bulb/i.test(media.src)), "A heat-sensitive glass-bulb image must not appear in the open-nozzle gallery.");
+  validateMedia(product);
+  validateLocalizedCopy(product, ["seoTitle", "seoDescription", "name", "lead", "galleryTitle", "technicalTitle", "detailPanelTitle", "modelsTitle", "oemTitle", "inquiryTitle"]);
+  for (const localeCode of localeCodes) {
+    const copy = readJson(`site-src/content/products/${localeCode}/${product.id}.json`);
+    assert(copy.detailNotes?.length === 4, `${product.id}/${localeCode} must contain four quotation notes.`);
+    for (const style of ["standard", "impingement", "customImpingement"]) assert(copy.modelNames?.[style], `${product.id}/${localeCode} is missing model name '${style}'.`);
+  }
+}
+
 validateWetAlarm();
 validateWaterCurtain();
-console.log("Catalog validation passed: two confirmed products and four localized outputs are ready.");
+validateWaterMist();
+console.log("Catalog validation passed: three confirmed products and six localized outputs are ready.");

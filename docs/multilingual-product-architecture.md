@@ -24,6 +24,9 @@ Each migrated product has one technical record and one copy file per language. T
 - Water curtain nozzles
   - English: `products/消防喷头/water-curtain-nozzles.html`
   - Arabic: `ar/products/water-curtain-nozzles/index.html`
+- Water mist nozzles
+  - English: `products/消防喷头/water-mist-nozzles.html`
+  - Arabic: `ar/products/water-mist-nozzles/index.html`
 
 The same technical facts, model lists and real product images are reused in both languages. Only market-facing prose, labels, alt text and inquiry wording are localized.
 
@@ -46,4 +49,4 @@ Create its confirmed product data and localized copy, then add it to the catalog
 
 ## Evidence rule
 
-Confirmed facts, unresolved fields and real product media remain explicit in the source data. Unresolved values are shown as requiring quotation or approved product documentation; they are not guessed during translation or generation. This currently applies to wet-alarm-valve installation orientation and water-flow direction, and to water-curtain-nozzle maximum working pressure and hydraulic performance.
+Confirmed facts, unresolved fields and real product media remain explicit in the source data. Unresolved values are shown as requiring quotation or approved product documentation; they are not guessed during translation or generation. This currently applies to wet-alarm-valve installation orientation and water-flow direction, water-curtain-nozzle maximum working pressure and hydraulic performance, and water-mist-nozzle strainer mesh and dimensions.

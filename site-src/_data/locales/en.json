@@ -41,7 +41,10 @@
     "threadForm": "Thread form",
     "internationalProductName": "International product name",
     "dischargeConfiguration": "Discharge configuration",
-    "operatingType": "Operating type"
+    "operatingType": "Operating type",
+    "configuration": "Configuration",
+    "strainer": "Strainer",
+    "optionalInletStrainer": "Optional inlet strainer"
   },
   "values": {
     "flanged": "Flanged",
@@ -56,6 +59,7 @@
     "woodenCaseOrPallet": "Wooden case or pallet",
     "copper": "Copper",
     "chromePlated": "Chrome-plated",
+    "chromePlatedCopper": "Chrome-plated copper",
     "openNozzleNoHeatSensitiveElement": "Open nozzle; no heat-sensitive element",
     "horizontalSingleSlot": "Horizontal single-slot",
     "horizontalDoubleSlot": "Horizontal double-slot",
@@ -64,7 +68,16 @@
     "singleOrDoubleSlot": "Single or double slot",
     "openNozzle": "Open nozzle",
     "standardOrApprovedDrawingSample": "Standard production or customized to approved drawing / sample",
-    "availableOnRequest": "Available on request"
+    "availableOnRequest": "Available on request",
+    "standardWaterMist": "Standard water mist",
+    "impingementType": "Impingement type",
+    "optionalConfirmByModel": "Optional; confirm by model",
+    "openImpingementType": "Open impingement type",
+    "otherSizes": "Other sizes",
+    "developedToDrawingOrSample": "Developed to drawing or sample",
+    "subjectToDesignReview": "Subject to design review",
+    "custom": "Custom",
+    "confirmedCustomerRequirementOrSample": "Confirmed against customer requirement or approved sample"
   },
   "common": {
     "previous": "Previous product image",

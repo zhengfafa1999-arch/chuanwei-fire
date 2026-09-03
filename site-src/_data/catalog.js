@@ -11,7 +11,8 @@ function readJson(filePath) {
 
 const products = {
   wetAlarm: readJson(path.join(dataDirectory, "products", "wet-alarm-check-valve.json")),
-  waterCurtain: readJson(path.join(dataDirectory, "products", "water-curtain-nozzles.json"))
+  waterCurtain: readJson(path.join(dataDirectory, "products", "water-curtain-nozzles.json")),
+  waterMist: readJson(path.join(dataDirectory, "products", "water-mist-nozzles.json"))
 };
 
 const routes = {
@@ -54,6 +55,28 @@ const routes = {
       canonical: "https://chuanweifire.com/ar/products/water-curtain-nozzles/",
       alternate: "https://chuanweifire.com/products/%E6%B6%88%E9%98%B2%E5%96%B7%E5%A4%B4/water-curtain-nozzles.html",
       alternateHref: "../../../products/消防喷头/water-curtain-nozzles.html",
+      homeHref: "../../index.html",
+      categoryHref: "../../products.html",
+      assetPrefix: "../../../"
+    }
+  },
+  waterMist: {
+    en: {
+      outputPath: "products/消防喷头/water-mist-nozzles.html",
+      selfHref: "water-mist-nozzles.html",
+      canonical: "https://chuanweifire.com/products/%E6%B6%88%E9%98%B2%E5%96%B7%E5%A4%B4/water-mist-nozzles.html",
+      alternate: "https://chuanweifire.com/ar/products/water-mist-nozzles/",
+      alternateHref: "../../ar/products/water-mist-nozzles/index.html",
+      homeHref: "../../index.html",
+      categoryHref: "../消防喷头.html",
+      assetPrefix: "../../"
+    },
+    ar: {
+      outputPath: "ar/products/water-mist-nozzles/index.html",
+      selfHref: "index.html",
+      canonical: "https://chuanweifire.com/ar/products/water-mist-nozzles/",
+      alternate: "https://chuanweifire.com/products/%E6%B6%88%E9%98%B2%E5%96%B7%E5%A4%B4/water-mist-nozzles.html",
+      alternateHref: "../../../products/消防喷头/water-mist-nozzles.html",
       homeHref: "../../index.html",
       categoryHref: "../../products.html",
       assetPrefix: "../../../"
@@ -159,7 +182,7 @@ function createWaterCurtainPage(localeCode) {
   const { locale, copy } = page;
   const sizes = product.sizeOptions.map((size) => `DN${size.dn} / ${size.inch} in`).join("; ");
 
-  page.chips = [locale.values.openNozzle, "DN15–DN25", localeCode === "ar" ? "شق واحد / شقان" : "Single / Double Slot", `${locale.values.chromePlated} ${locale.values.copper}`, localeCode === "ar" ? "وصلات حسب الطلب" : "Custom Connections"];
+  page.chips = [locale.values.openNozzle, "DN15–DN25", localeCode === "ar" ? "شق واحد / شقان" : "Single / Double Slot", locale.values.chromePlatedCopper, localeCode === "ar" ? "وصلات حسب الطلب" : "Custom Connections"];
   page.specRows = [
     [locale.labels.productFamily, copy.name],
     [locale.labels.availableConfigurations, product.configurations.map((key) => locale.values[key]).join("; ")],
@@ -185,4 +208,45 @@ function createWaterCurtainPage(localeCode) {
   return page;
 }
 
-export default [createWetAlarmPage("en"), createWetAlarmPage("ar"), createWaterCurtainPage("en"), createWaterCurtainPage("ar")];
+function createWaterMistPage(localeCode) {
+  const product = products.waterMist;
+  const page = createBasePage(product, "waterMist", localeCode);
+  const { locale, copy } = page;
+  const pressure = product.facts.maximumWorkingPressureMpa.value;
+  const sizes = product.sizeOptions.map((size) => `DN${size.dn} / ${size.inch} in`).join("; ");
+
+  page.chips = [locale.values.openNozzle, "DN15–DN25", formatPressure(pressure, localeCode, false), locale.values.chromePlatedCopper, localeCode === "ar" ? "قياسي / تصادمي" : "Standard / Impingement"];
+  page.specRows = [
+    [locale.labels.productFamily, copy.name],
+    [locale.labels.availableConfigurations, product.configurations.map((key) => locale.values[key]).join("; ")],
+    [locale.labels.operatingElement, locale.values[product.facts.operatingElement.value]],
+    [locale.labels.bodyMaterial, locale.values[product.facts.bodyMaterial.value]],
+    [locale.labels.surfaceFinish, locale.values[product.facts.surfaceFinish.value]],
+    [locale.labels.nominalConnections, sizes],
+    [locale.labels.maximumWorkingPressure, formatPressure(pressure, localeCode)],
+    [locale.labels.optionalInletStrainer, locale.values[product.facts.inletStrainer.value]],
+    [locale.labels.threadForm, locale.values[product.facts.threadForm.value]]
+  ].map(([label, value]) => ({ label, value }));
+  page.detailPanel = { title: copy.detailPanelTitle, cards: [], notes: copy.detailNotes };
+  page.featureSection = null;
+  page.modelColumns = [locale.labels.internationalProductName, locale.labels.nominalSize, locale.labels.configuration, locale.labels.strainer, locale.labels.factoryReference];
+  page.models = product.models.map((model) => ({ cells: [
+    { value: copy.modelNames[model.style] },
+    { value: model.dn ? `DN${model.dn} / ${model.inch} in` : locale.values[model.size], dir: model.dn ? "ltr" : null },
+    { value: locale.values[model.configuration] },
+    { value: locale.values[model.strainer] },
+    { value: locale.values[model.factoryReference] ?? model.factoryReference, dir: model.factoryReference === "custom" ? null : "ltr" }
+  ] }));
+  page.oemItems = product.oemCapabilities.map((key) => copy.oem[key]);
+  page.ogImage = "https://chuanweifire.com/products/%E6%B6%88%E9%98%B2%E5%96%B7%E5%A4%B4/water-mist-nozzles/water-mist-nozzle-with-inlet-strainer.jpg";
+  return page;
+}
+
+export default [
+  createWetAlarmPage("en"),
+  createWetAlarmPage("ar"),
+  createWaterCurtainPage("en"),
+  createWaterCurtainPage("ar"),
+  createWaterMistPage("en"),
+  createWaterMistPage("ar")
+];

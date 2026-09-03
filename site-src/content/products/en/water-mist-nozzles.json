@@ -1,0 +1,54 @@
+{
+  "seoTitle": "Water Mist Nozzles | Open Type 1.2 MPa | CHUANWEI FIRE",
+  "seoDescription": "Chrome-plated copper open water mist nozzles in standard and impingement configurations, DN15 to DN25, rated for a maximum working pressure of 1.2 MPa.",
+  "eyebrow": "Open Nozzle · Standard & Impingement Configurations",
+  "name": "Water Mist Nozzles",
+  "lead": "A chrome-plated copper open-nozzle range for water-mist and water-spray systems. Standard models are available from DN15 to DN25, while current impingement models are listed in DN15 and DN20.",
+  "heroNote": "Spray angle, flow coefficient, flow data and optional strainer dimensions are confirmed against the exact model and approved order.",
+  "askWhatsApp": "Ask on WhatsApp",
+  "viewModels": "View available models",
+  "galleryEyebrow": "Real product configurations",
+  "galleryTitle": "Standard and impingement water mist nozzle views",
+  "galleryDescription": "The gallery uses the confirmed replacement photographs: three standard water mist views and two impingement-type views, with and without inlet strainer configurations.",
+  "media": {
+    "standardWithStrainer": { "title": "Standard Type with Inlet Strainer", "alt": "Chrome-plated standard water mist nozzle with inlet strainer", "thumb": "Standard + Strainer" },
+    "standardBody": { "title": "Standard Water Mist Nozzle Body", "alt": "Chrome-plated standard open water mist nozzle body", "thumb": "Standard Body" },
+    "standardWithMeshGuard": { "title": "Standard Type with Mesh Guard", "alt": "Chrome-plated standard water mist nozzle with mesh guard", "thumb": "Mesh Guard" },
+    "impingementWithStrainer": { "title": "Impingement Type with Inlet Strainer", "alt": "Chrome-plated open impingement water mist nozzle with inlet strainer", "thumb": "Impingement + Strainer" },
+    "impingementOpen": { "title": "Open Impingement Type", "alt": "Chrome-plated open impingement-type water mist nozzle", "thumb": "Impingement Open" }
+  },
+  "technicalEyebrow": "Technical overview",
+  "technicalTitle": "Confirmed buyer-facing specifications",
+  "technicalDescription": "Construction, rated pressure and connection sizes are presented as confirmed data. Spray and strainer details are matched to the selected model during quotation.",
+  "seriesSpecifications": "Series specifications",
+  "detailPanelTitle": "Data supplied with quotation",
+  "detailNotes": [
+    { "title": "Spray performance", "body": "Spray angle, flow coefficient and flow data are supplied for the selected model on request." },
+    { "title": "Strainer option", "body": "The gallery shows optional strainer configurations. Mesh and overall dimensions are confirmed before production." },
+    { "title": "System design", "body": "Nozzle spacing, discharge density and hydraulic design remain subject to the exact project design and approved technical data." },
+    { "title": "Approval status", "body": "No foreign approval or certification is claimed on this page." }
+  ],
+  "modelsEyebrow": "Available models",
+  "modelsTitle": "Current standard and impingement configurations",
+  "modelsDescription": "Standard production sizes are listed first. Other impingement-nozzle sizes can be evaluated against a customer drawing or approved sample.",
+  "modelNames": {
+    "standard": "Standard Water Mist Nozzle",
+    "impingement": "Impingement-Type Water Mist Nozzle",
+    "customImpingement": "Custom Impingement Nozzle"
+  },
+  "modelsNote": "For quotation, specify nozzle configuration, nominal size, required thread, strainer requirement, target spray data and quantity.",
+  "oemEyebrow": "OEM / ODM capability",
+  "oemTitle": "Nozzle configurations developed for your order",
+  "oemDescription": "Connection, nozzle structure and strainer configuration can be reviewed against the customer drawing, approved sample and project requirement.",
+  "oem": {
+    "connectionCustomization": { "title": "Connection customization", "body": "Thread and nominal size reviewed against the confirmed drawing or approved sample." },
+    "nozzleConfiguration": { "title": "Nozzle configuration", "body": "Standard and impingement structures available, with custom variants subject to technical review." },
+    "drawingOrSampleProduction": { "title": "Drawing or sample production", "body": "Connection, nozzle and strainer details reviewed before manufacturing." }
+  },
+  "inquiryTitle": "Send us your water mist nozzle requirement",
+  "inquiryDescription": "Include configuration, size, thread, strainer option, target spray data, quantity and destination country.",
+  "inquiryWhatsApp": "WhatsApp inquiry",
+  "inquiryEmail": "Email sales",
+  "whatsAppMessage": "Hello, I need a quotation for Water Mist Nozzles. Type: [standard/impingement], size: [DN/inch], thread: [requirement], strainer: [yes/no], target spray data: [details], quantity: [pcs], destination: [country].",
+  "emailSubject": "Water Mist Nozzle Inquiry"
+}

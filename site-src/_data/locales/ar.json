@@ -41,7 +41,10 @@
     "threadForm": "شكل اللولب",
     "internationalProductName": "اسم المنتج الدولي",
     "dischargeConfiguration": "تكوين التصريف",
-    "operatingType": "نوع التشغيل"
+    "operatingType": "نوع التشغيل",
+    "configuration": "التكوين",
+    "strainer": "المصفاة",
+    "optionalInletStrainer": "مصفاة مدخل اختيارية"
   },
   "values": {
     "flanged": "فلنجي",
@@ -56,6 +59,7 @@
     "woodenCaseOrPallet": "صندوق خشبي أو منصة نقالة",
     "copper": "نحاس",
     "chromePlated": "مطلي بالكروم",
+    "chromePlatedCopper": "نحاس مطلي بالكروم",
     "openNozzleNoHeatSensitiveElement": "فوهة مفتوحة دون عنصر حساس للحرارة",
     "horizontalSingleSlot": "أفقي أحادي الشق",
     "horizontalDoubleSlot": "أفقي مزدوج الشق",
@@ -64,7 +68,16 @@
     "singleOrDoubleSlot": "شق واحد أو شقان",
     "openNozzle": "فوهة مفتوحة",
     "standardOrApprovedDrawingSample": "إنتاج قياسي أو تخصيص وفق رسم أو عينة معتمدة",
-    "availableOnRequest": "متاح عند الطلب"
+    "availableOnRequest": "متاح عند الطلب",
+    "standardWaterMist": "ضباب ماء قياسي",
+    "impingementType": "نوع تصادمي",
+    "optionalConfirmByModel": "اختياري؛ يُؤكد حسب الموديل",
+    "openImpingementType": "نوع تصادمي مفتوح",
+    "otherSizes": "مقاسات أخرى",
+    "developedToDrawingOrSample": "مطوّر حسب الرسم أو العينة",
+    "subjectToDesignReview": "خاضع لمراجعة التصميم",
+    "custom": "مخصص",
+    "confirmedCustomerRequirementOrSample": "يُؤكد حسب متطلبات العميل أو العينة المعتمدة"
   },
   "common": {
     "previous": "صورة المنتج السابقة",

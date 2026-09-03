@@ -104,4 +104,25 @@
         <priority>0.8</priority>
     </url>
 
+    <!-- Water mist nozzle product pages -->
+    <url>
+        <loc>https://chuanweifire.com/products/%E6%B6%88%E9%98%B2%E5%96%B7%E5%A4%B4/water-mist-nozzles.html</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://chuanweifire.com/products/%E6%B6%88%E9%98%B2%E5%96%B7%E5%A4%B4/water-mist-nozzles.html" />
+        <xhtml:link rel="alternate" hreflang="ar" href="https://chuanweifire.com/ar/products/water-mist-nozzles/" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://chuanweifire.com/products/%E6%B6%88%E9%98%B2%E5%96%B7%E5%A4%B4/water-mist-nozzles.html" />
+        <lastmod>2026-09-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <url>
+        <loc>https://chuanweifire.com/ar/products/water-mist-nozzles/</loc>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://chuanweifire.com/ar/products/water-mist-nozzles/" />
+        <xhtml:link rel="alternate" hreflang="en" href="https://chuanweifire.com/products/%E6%B6%88%E9%98%B2%E5%96%B7%E5%A4%B4/water-mist-nozzles.html" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://chuanweifire.com/products/%E6%B6%88%E9%98%B2%E5%96%B7%E5%A4%B4/water-mist-nozzles.html" />
+        <lastmod>2026-09-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
 </urlset>

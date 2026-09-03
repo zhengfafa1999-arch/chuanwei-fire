@@ -50,6 +50,30 @@ const pages = [
     xDefault: "https://chuanweifire.com/products/%E6%B6%88%E9%98%B2%E5%96%B7%E5%A4%B4/water-curtain-nozzles.html",
     required: ["فوهات ستارة مائية", "متاح عند الطلب", "ZSTMA", "ZSTMB", "DN15", "DN25"],
     forbidden: ["1.2 MPa", "1.6 MPa"]
+  },
+  {
+    product: "water-mist-nozzles",
+    relativePath: "products/消防喷头/water-mist-nozzles.html",
+    lang: "en",
+    dir: "ltr",
+    selfHref: "water-mist-nozzles.html",
+    selfCanonical: "https://chuanweifire.com/products/%E6%B6%88%E9%98%B2%E5%96%B7%E5%A4%B4/water-mist-nozzles.html",
+    alternate: "https://chuanweifire.com/ar/products/water-mist-nozzles/",
+    xDefault: "https://chuanweifire.com/products/%E6%B6%88%E9%98%B2%E5%96%B7%E5%A4%B4/water-mist-nozzles.html",
+    required: ["Water Mist Nozzles", "1.2 MPa", "ZSTWB", "ZSTWC", "DN15", "DN25", "impingement-water-mist-nozzle-open-type.jpg"],
+    forbidden: ["impingement-water-mist-glass-bulb.jpg"]
+  },
+  {
+    product: "water-mist-nozzles",
+    relativePath: "ar/products/water-mist-nozzles/index.html",
+    lang: "ar",
+    dir: "rtl",
+    selfHref: "index.html",
+    selfCanonical: "https://chuanweifire.com/ar/products/water-mist-nozzles/",
+    alternate: "https://chuanweifire.com/products/%E6%B6%88%E9%98%B2%E5%96%B7%E5%A4%B4/water-mist-nozzles.html",
+    xDefault: "https://chuanweifire.com/products/%E6%B6%88%E9%98%B2%E5%96%B7%E5%A4%B4/water-mist-nozzles.html",
+    required: ["فوهات ضباب الماء", "1.2 MPa", "ZSTWB", "ZSTWC", "DN15", "DN25", "impingement-water-mist-nozzle-open-type.jpg"],
+    forbidden: ["impingement-water-mist-glass-bulb.jpg"]
   }
 ];
 
@@ -88,6 +112,7 @@ for (const page of pages) {
 const arabicCategory = fs.readFileSync(path.join(root, "ar/products.html"), "utf8");
 assert(arabicCategory.includes('href="products/wet-alarm-check-valve/index.html"'), "Arabic product index does not link to the generated wet alarm valve page.");
 assert(arabicCategory.includes('href="products/water-curtain-nozzles/index.html"'), "Arabic product index does not link to the generated water curtain nozzle page.");
+assert(arabicCategory.includes('href="products/water-mist-nozzles/index.html"'), "Arabic product index does not link to the generated water mist nozzle page.");
 
 const homePage = fs.readFileSync(path.join(root, "index.html"), "utf8");
 assert(homePage.includes('href="ar/index.html"'), "Homepage Arabic switch must point to an explicit file for local preview.");
@@ -95,4 +120,4 @@ assert(homePage.includes('href="ar/index.html"'), "Homepage Arabic switch must p
 const sitemap = fs.readFileSync(path.join(root, "sitemap.xml"), "utf8");
 for (const page of pages) assert(sitemap.includes(`<loc>${page.selfCanonical}</loc>`), `Sitemap is missing ${page.selfCanonical}.`);
 
-console.log("Generated-page validation passed: four English and Arabic product outputs are linked and complete.");
+console.log("Generated-page validation passed: six English and Arabic product outputs are linked and complete.");
