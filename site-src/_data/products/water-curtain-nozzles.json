@@ -1,0 +1,60 @@
+{
+  "id": "water-curtain-nozzles",
+  "family": "fire-sprinklers-and-nozzles",
+  "factorySeries": ["ZSTMA", "ZSTMB"],
+  "status": "published",
+  "lastReviewed": "2026-09-04",
+  "evidence": {
+    "status": "confirmed",
+    "source": "user-confirmed series data, existing accepted model table and supplied real product photographs"
+  },
+  "sizeOptions": [
+    { "dn": 15, "inch": "½" },
+    { "dn": 20, "inch": "¾" },
+    { "dn": 25, "inch": "1" }
+  ],
+  "configurations": ["horizontalSingleSlot", "horizontalDoubleSlot", "pendent"],
+  "facts": {
+    "bodyMaterial": { "value": "copper", "status": "confirmed" },
+    "surfaceFinish": { "value": "chromePlated", "status": "confirmed" },
+    "operatingElement": { "value": "openNozzleNoHeatSensitiveElement", "status": "confirmed" },
+    "maximumWorkingPressureMpa": { "value": null, "status": "unresolved" },
+    "threadForm": { "value": "standardOrApprovedDrawingSample", "status": "confirmed" }
+  },
+  "oemCapabilities": [
+    "threadCustomization",
+    "slotConfiguration",
+    "drawingOrSampleProduction"
+  ],
+  "models": [
+    { "style": "pendent", "dn": 15, "inch": "½", "discharge": "pendentDischarge", "factoryReference": "ZSTMA" },
+    { "style": "pendent", "dn": 20, "inch": "¾", "discharge": "pendentDischarge", "factoryReference": "ZSTMA" },
+    { "style": "pendent", "dn": 25, "inch": "1", "discharge": "pendentDischarge", "factoryReference": "ZSTMA" },
+    { "style": "horizontal", "dn": 15, "inch": "½", "discharge": "singleOrDoubleSlot", "factoryReference": "ZSTMB" },
+    { "style": "horizontal", "dn": 20, "inch": "¾", "discharge": "singleOrDoubleSlot", "factoryReference": "ZSTMB" },
+    { "style": "horizontal", "dn": 25, "inch": "1", "discharge": "singleOrDoubleSlot", "factoryReference": "ZSTMB" }
+  ],
+  "media": [
+    {
+      "src": "products/消防喷头/water-curtain-nozzles/horizontal-single-slot-water-curtain-nozzle.jpg",
+      "configuration": "horizontalSingleSlot",
+      "width": 742,
+      "height": 1105,
+      "evidence": "realProductPhoto"
+    },
+    {
+      "src": "products/消防喷头/water-curtain-nozzles/horizontal-double-slot-water-curtain-nozzle.jpg",
+      "configuration": "horizontalDoubleSlot",
+      "width": 759,
+      "height": 1198,
+      "evidence": "realProductPhoto"
+    },
+    {
+      "src": "products/消防喷头/water-curtain-nozzles/pendent-water-curtain-nozzle.jpg",
+      "configuration": "pendent",
+      "width": 726,
+      "height": 903,
+      "evidence": "realProductPhoto"
+    }
+  ]
+}

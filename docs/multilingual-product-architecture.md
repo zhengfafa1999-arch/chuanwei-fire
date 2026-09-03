@@ -14,14 +14,18 @@ Product facts are maintained once, while localized wording is maintained once pe
 
 Generated HTML files contain a `GENERATED FILE` comment. Do not edit those files directly because the next build replaces them.
 
-## Current pilot
+## Migrated products
 
-The wet alarm check valve assembly is the first migrated product. One confirmed product record generates:
+Each migrated product has one technical record and one copy file per language. The current generated pages are:
 
-- English: `products/消防阀/wet-alarm-check-valve-assemblies.html`
-- Arabic: `ar/products/wet-alarm-check-valve/index.html`
+- Wet alarm check valve assembly
+  - English: `products/消防阀/wet-alarm-check-valve-assemblies.html`
+  - Arabic: `ar/products/wet-alarm-check-valve/index.html`
+- Water curtain nozzles
+  - English: `products/消防喷头/water-curtain-nozzles.html`
+  - Arabic: `ar/products/water-curtain-nozzles/index.html`
 
-The same technical facts, model list and real product images are reused in both languages. Only market-facing prose, labels, alt text and inquiry wording are localized.
+The same technical facts, model lists and real product images are reused in both languages. Only market-facing prose, labels, alt text and inquiry wording are localized.
 
 ## Normal update workflow
 
@@ -30,7 +34,7 @@ The same technical facts, model list and real product images are reused in both 
 3. Run `npm run build`.
 4. Review the generated pages and commit both the source files and generated HTML.
 
-The build first validates confirmed facts and images. It then generates pages and checks language direction, canonical and alternate-language links, required model rows, excluded models and local file references.
+The build first validates confirmed and unresolved facts, model invariants and images. It then generates pages and checks language direction, canonical and alternate-language links, required model rows, excluded or unconfirmed values and local file references.
 
 ## Adding a language
 
@@ -42,4 +46,4 @@ Create its confirmed product data and localized copy, then add it to the catalog
 
 ## Evidence rule
 
-Confirmed facts, unresolved fields and real product media remain explicit in the source data. Unresolved installation orientation and water-flow direction are presented as items requiring approved product documentation; they are not guessed during translation or generation.
+Confirmed facts, unresolved fields and real product media remain explicit in the source data. Unresolved values are shown as requiring quotation or approved product documentation; they are not guessed during translation or generation. This currently applies to wet-alarm-valve installation orientation and water-flow direction, and to water-curtain-nozzle maximum working pressure and hydraulic performance.

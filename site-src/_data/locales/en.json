@@ -31,7 +31,17 @@
     "maximumPressure": "Maximum pressure",
     "referenceHeight": "Reference height",
     "design": "Design",
-    "factoryReference": "Factory reference"
+    "factoryReference": "Factory reference",
+    "productFamily": "Product family",
+    "availableConfigurations": "Available configurations",
+    "operatingElement": "Operating element",
+    "bodyMaterial": "Body material",
+    "surfaceFinish": "Surface finish",
+    "nominalConnections": "Nominal connections",
+    "threadForm": "Thread form",
+    "internationalProductName": "International product name",
+    "dischargeConfiguration": "Discharge configuration",
+    "operatingType": "Operating type"
   },
   "values": {
     "flanged": "Flanged",
@@ -43,14 +53,25 @@
     "stainlessSteel": "Stainless steel",
     "epdm": "EPDM",
     "internalExternalEpoxy": "Internal and external epoxy coating",
-    "woodenCaseOrPallet": "Wooden case or pallet"
+    "woodenCaseOrPallet": "Wooden case or pallet",
+    "copper": "Copper",
+    "chromePlated": "Chrome-plated",
+    "openNozzleNoHeatSensitiveElement": "Open nozzle; no heat-sensitive element",
+    "horizontalSingleSlot": "Horizontal single-slot",
+    "horizontalDoubleSlot": "Horizontal double-slot",
+    "pendent": "Pendent",
+    "pendentDischarge": "Pendent discharge",
+    "singleOrDoubleSlot": "Single or double slot",
+    "openNozzle": "Open nozzle",
+    "standardOrApprovedDrawingSample": "Standard production or customized to approved drawing / sample",
+    "availableOnRequest": "Available on request"
   },
   "common": {
     "previous": "Previous product image",
     "next": "Next product image",
     "close": "Close image preview",
     "companyWebsite": "Company website",
-    "backToCategory": "Back to Alarm & System Valves",
+    "backToCategory": "Back to product category",
     "english": "English",
     "arabic": "العربية"
   }

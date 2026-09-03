@@ -31,7 +31,17 @@
     "maximumPressure": "أقصى ضغط",
     "referenceHeight": "الارتفاع المرجعي",
     "design": "التصميم",
-    "factoryReference": "مرجع المصنع"
+    "factoryReference": "مرجع المصنع",
+    "productFamily": "عائلة المنتج",
+    "availableConfigurations": "التكوينات المتاحة",
+    "operatingElement": "عنصر التشغيل",
+    "bodyMaterial": "مادة الجسم",
+    "surfaceFinish": "معالجة السطح",
+    "nominalConnections": "الوصلات الاسمية",
+    "threadForm": "شكل اللولب",
+    "internationalProductName": "اسم المنتج الدولي",
+    "dischargeConfiguration": "تكوين التصريف",
+    "operatingType": "نوع التشغيل"
   },
   "values": {
     "flanged": "فلنجي",
@@ -43,14 +53,25 @@
     "stainlessSteel": "فولاذ مقاوم للصدأ",
     "epdm": "EPDM",
     "internalExternalEpoxy": "طلاء إيبوكسي داخلي وخارجي",
-    "woodenCaseOrPallet": "صندوق خشبي أو منصة نقالة"
+    "woodenCaseOrPallet": "صندوق خشبي أو منصة نقالة",
+    "copper": "نحاس",
+    "chromePlated": "مطلي بالكروم",
+    "openNozzleNoHeatSensitiveElement": "فوهة مفتوحة دون عنصر حساس للحرارة",
+    "horizontalSingleSlot": "أفقي أحادي الشق",
+    "horizontalDoubleSlot": "أفقي مزدوج الشق",
+    "pendent": "متدلٍ",
+    "pendentDischarge": "تصريف متدلٍ",
+    "singleOrDoubleSlot": "شق واحد أو شقان",
+    "openNozzle": "فوهة مفتوحة",
+    "standardOrApprovedDrawingSample": "إنتاج قياسي أو تخصيص وفق رسم أو عينة معتمدة",
+    "availableOnRequest": "متاح عند الطلب"
   },
   "common": {
     "previous": "صورة المنتج السابقة",
     "next": "صورة المنتج التالية",
     "close": "إغلاق معاينة الصورة",
     "companyWebsite": "موقع الشركة",
-    "backToCategory": "العودة إلى صمامات الإنذار والأنظمة",
+    "backToCategory": "العودة إلى فئة المنتج",
     "english": "English",
     "arabic": "العربية"
   }

@@ -1,0 +1,51 @@
+{
+  "seoTitle": "Water Curtain Nozzles | Open Type DN15–DN25 | CHUANWEI FIRE",
+  "seoDescription": "Chrome-plated copper open water curtain nozzles in pendent, horizontal single-slot and horizontal double-slot configurations, available in DN15, DN20 and DN25.",
+  "eyebrow": "Open Nozzle · Pendent & Horizontal Configurations",
+  "name": "Water Curtain Nozzles",
+  "lead": "A chrome-plated copper open-nozzle range available in pendent and horizontal configurations. Horizontal models can be supplied with a single discharge slot or double discharge slots.",
+  "heroNote": "Working pressure, flow coefficient, discharge angle and water-curtain performance are confirmed against the exact model and approved project requirement.",
+  "askWhatsApp": "Ask on WhatsApp",
+  "viewModels": "View available models",
+  "galleryEyebrow": "Real product configurations",
+  "galleryTitle": "Three available discharge configurations",
+  "galleryDescription": "The supplied photographs show horizontal single-slot, horizontal double-slot and pendent water curtain nozzles. All three are open nozzles without a heat-sensitive element.",
+  "media": {
+    "horizontalSingleSlot": { "title": "Horizontal Single-Slot Type", "alt": "Chrome-plated copper horizontal single-slot water curtain nozzle", "thumb": "Horizontal · Single Slot" },
+    "horizontalDoubleSlot": { "title": "Horizontal Double-Slot Type", "alt": "Chrome-plated copper horizontal double-slot water curtain nozzle", "thumb": "Horizontal · Double Slot" },
+    "pendent": { "title": "Pendent Water Curtain Type", "alt": "Chrome-plated copper pendent water curtain nozzle", "thumb": "Pendent" }
+  },
+  "technicalEyebrow": "Technical overview",
+  "technicalTitle": "Confirmed buyer-facing specifications",
+  "technicalDescription": "Confirmed construction and configuration data is separated from hydraulic values that must be matched to the selected model and project design.",
+  "seriesSpecifications": "Series specifications",
+  "detailPanelTitle": "Data confirmed with quotation",
+  "detailNotes": [
+    { "title": "Hydraulic performance", "body": "Maximum working pressure, flow coefficient, discharge angle, flow data and water-curtain pattern are confirmed for the exact model." },
+    { "title": "Slot configuration", "body": "Single-slot and double-slot options are available. Availability is confirmed against nominal size and order requirement." },
+    { "title": "System design", "body": "Nozzle spacing, installation position and hydraulic design remain subject to the approved project design." },
+    { "title": "Approval status", "body": "No foreign approval or certification is claimed on this page." }
+  ],
+  "modelsEyebrow": "Available models",
+  "modelsTitle": "Six configurations for quotation",
+  "modelsDescription": "International product names and nominal dimensions are the primary selection fields. ZSTMA and ZSTMB are retained as factory references for production matching.",
+  "modelNames": {
+    "pendent": "Pendent Water Curtain Nozzle",
+    "horizontal": "Horizontal Water Curtain Nozzle"
+  },
+  "modelsNote": "For quotation, specify installation style, nominal size, single- or double-slot configuration, thread requirement, target hydraulic data and quantity.",
+  "oemEyebrow": "OEM / ODM capability",
+  "oemTitle": "Connections and discharge structures matched to your order",
+  "oemDescription": "Thread and slot configuration can be reviewed against the customer drawing, approved sample and project requirement.",
+  "oem": {
+    "threadCustomization": { "title": "Thread customization", "body": "Connection manufactured to a confirmed drawing or approved sample." },
+    "slotConfiguration": { "title": "Slot configuration", "body": "Single-slot and double-slot structures reviewed by size and project requirement." },
+    "drawingOrSampleProduction": { "title": "Drawing or sample production", "body": "Connection and discharge details reviewed before manufacturing." }
+  },
+  "inquiryTitle": "Send us your water curtain nozzle requirement",
+  "inquiryDescription": "Include installation style, size, single or double slot, thread requirement, target hydraulic data, quantity and destination country.",
+  "inquiryWhatsApp": "WhatsApp inquiry",
+  "inquiryEmail": "Email sales",
+  "whatsAppMessage": "Hello, I need a quotation for Water Curtain Nozzles. Type: [pendent/horizontal], size: [DN/inch], slot: [single/double], thread: [requirement], hydraulic requirement: [details], quantity: [pcs], destination: [country].",
+  "emailSubject": "Water Curtain Nozzle Inquiry"
+}
