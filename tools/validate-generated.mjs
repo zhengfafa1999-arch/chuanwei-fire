@@ -15,7 +15,7 @@ const pages = [
     relativePath: "ar/products/wet-alarm-check-valve/index.html",
     lang: "ar",
     dir: "rtl",
-    selfHref: "./",
+    selfHref: "index.html",
     selfCanonical: "https://chuanweifire.com/ar/products/wet-alarm-check-valve/",
     alternate: "https://chuanweifire.com/products/%E6%B6%88%E9%98%B2%E9%98%80/wet-alarm-check-valve-assemblies.html"
   }
@@ -55,7 +55,10 @@ for (const page of pages) {
 }
 
 const arabicCategory = fs.readFileSync(path.join(root, "ar/products.html"), "utf8");
-assert(arabicCategory.includes('href="products/wet-alarm-check-valve/"'), "Arabic product index does not link to the generated wet alarm valve page.");
+assert(arabicCategory.includes('href="products/wet-alarm-check-valve/index.html"'), "Arabic product index does not link to the generated wet alarm valve page.");
+
+const homePage = fs.readFileSync(path.join(root, "index.html"), "utf8");
+assert(homePage.includes('href="ar/index.html"'), "Homepage Arabic switch must point to an explicit file for local preview.");
 
 const sitemap = fs.readFileSync(path.join(root, "sitemap.xml"), "utf8");
 for (const page of pages) assert(sitemap.includes(`<loc>${page.selfCanonical}</loc>`), `Sitemap is missing ${page.selfCanonical}.`);

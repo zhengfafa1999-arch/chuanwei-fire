@@ -17,14 +17,14 @@ const routes = {
     selfHref: "wet-alarm-check-valve-assemblies.html",
     canonical: "https://chuanweifire.com/products/%E6%B6%88%E9%98%B2%E9%98%80/wet-alarm-check-valve-assemblies.html",
     alternate: "https://chuanweifire.com/ar/products/wet-alarm-check-valve/",
-    alternateHref: "../../ar/products/wet-alarm-check-valve/",
+    alternateHref: "../../ar/products/wet-alarm-check-valve/index.html",
     homeHref: "../../index.html",
     categoryHref: "../消防阀.html",
     assetPrefix: "../../"
   },
   ar: {
     outputPath: "ar/products/wet-alarm-check-valve/index.html",
-    selfHref: "./",
+    selfHref: "index.html",
     canonical: "https://chuanweifire.com/ar/products/wet-alarm-check-valve/",
     alternate: "https://chuanweifire.com/products/%E6%B6%88%E9%98%B2%E9%98%80/wet-alarm-check-valve-assemblies.html",
     alternateHref: "../../../products/消防阀/wet-alarm-check-valve-assemblies.html",
