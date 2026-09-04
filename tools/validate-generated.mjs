@@ -120,6 +120,15 @@ assert(arabicCategory.includes('href="products/water-mist-nozzles/index.html"'),
 const homePage = fs.readFileSync(path.join(root, "index.html"), "utf8");
 assert(homePage.includes('href="ar/index.html"'), "Homepage Arabic switch must point to an explicit file for local preview.");
 assert(homePage.includes('data-site-language-choice="ar"'), "Homepage Arabic switch must persist the Arabic preference.");
+assert(homePage.includes("GENERATED FILE"), "English homepage must be generated from the shared homepage template.");
+assert(homePage.includes('data-home-language="en"'), "English homepage is missing its generated language marker.");
+
+const arabicHomePage = fs.readFileSync(path.join(root, "ar/index.html"), "utf8");
+assert(arabicHomePage.includes("GENERATED FILE"), "Arabic homepage must be generated from the shared homepage template.");
+assert(arabicHomePage.includes('data-home-language="ar"'), "Arabic homepage is missing its generated language marker.");
+assert(arabicHomePage.includes('<base href="../">'), "Arabic homepage must resolve shared root assets in local preview.");
+assert(arabicHomePage.includes('href="ar/products.html#system-valves"'), "Arabic homepage must route alarm-valve visitors to the Arabic product catalog.");
+assert(arabicHomePage.includes("تصنيع معدات مكافحة الحريق"), "Arabic homepage is missing its localized content data.");
 
 const detailScript = fs.readFileSync(path.join(root, "assets/js/product-detail.js"), "utf8");
 assert(detailScript.includes('chuanwei-site-language'), "Product detail script must read the shared language preference.");

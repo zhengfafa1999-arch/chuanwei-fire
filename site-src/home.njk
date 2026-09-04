@@ -1,25 +1,34 @@
+---
+pagination:
+  data: homePages
+  size: 1
+  alias: entry
+permalink: "{{ entry.outputPath }}"
+eleventyExcludeFromCollections: true
+---
 <!doctype html>
 <!-- GENERATED FILE. Edit site-src/home.njk or site-src/_data/homePages.js instead of editing this HTML directly. -->
-<html lang="en" dir="ltr">
+<html lang="{{ entry.lang }}" dir="{{ entry.dir }}">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-
-  <title>CHUANWEI FIRE | Fire Protection Equipment Manufacturer &amp; OEM Support</title>
-  <meta name="description" content="Fire protection equipment manufacturing and OEM support for sprinklers, alarm valves, fire valves, hose reels, fire hoses, nozzles, couplings and hydrant-system components.">
-  <link rel="canonical" href="https://chuanweifire.com/">
+{% if entry.lang == 'ar' %}  <base href="../">
+{% endif %}
+  <title>{{ entry.title }}</title>
+  <meta name="description" content="{{ entry.description }}">
+  <link rel="canonical" href="{{ entry.canonical }}">
   <link rel="alternate" hreflang="en" href="https://chuanweifire.com/">
   <link rel="alternate" hreflang="ar" href="https://chuanweifire.com/ar/">
   <link rel="alternate" hreflang="x-default" href="https://chuanweifire.com/">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="CHUANWEI FIRE">
-  <meta property="og:title" content="CHUANWEI FIRE | Fire Protection Equipment Manufacturer &amp; OEM Support">
-  <meta property="og:description" content="Fire protection equipment manufacturing and OEM support for sprinklers, alarm valves, fire valves, hose reels, fire hoses, nozzles, couplings and hydrant-system components.">
-  <meta property="og:url" content="https://chuanweifire.com/">
+  <meta property="og:title" content="{{ entry.title }}">
+  <meta property="og:description" content="{{ entry.description }}">
+  <meta property="og:url" content="{{ entry.canonical }}">
   <meta property="og:image" content="https://chuanweifire.com/og-image.jpg">
-  <meta property="og:locale" content="en_US">
-  <meta property="og:locale:alternate" content="ar_AR">
-  <link rel="icon" href="apple-touch-icon.png">
+  <meta property="og:locale" content="{{ entry.locale }}">
+  <meta property="og:locale:alternate" content="{{ entry.alternateLocale }}">
+  <link rel="icon" href="{{ entry.assetPrefix }}apple-touch-icon.png">
   <style>
     :root{--navy:#0a2742;--navy2:#123d60;--red:#d51d34;--ink:#142433;--muted:#607080;--line:#dce4ea;--soft:#f3f6f8;--white:#fff;--max:1180px;--shadow:0 18px 50px rgba(10,39,66,.12)}
     *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Inter,Arial,"Microsoft YaHei",sans-serif;color:var(--ink);background:#fff;line-height:1.6}a{color:inherit;text-decoration:none}img{display:block;max-width:100%}button,input,textarea,select{font:inherit}.container{width:min(var(--max),calc(100% - 40px));margin:auto}.eyebrow{margin:0 0 10px;color:var(--red);font-size:12px;font-weight:800;letter-spacing:.16em;text-transform:uppercase}.section{padding:82px 0}.section.soft{background:var(--soft)}.heading{display:flex;justify-content:space-between;gap:40px;align-items:end;margin-bottom:34px}.heading h2{max-width:700px;margin:0;font-size:clamp(28px,4vw,46px);line-height:1.12;color:var(--navy)}.heading>p{max-width:460px;margin:0;color:var(--muted)}
@@ -38,12 +47,12 @@
     html[dir="rtl"] body{font-family:Arial,"Tahoma","Microsoft YaHei",sans-serif}html[dir="rtl"] .brand{margin-right:0;margin-left:auto}html[dir="rtl"] .proof div{border-right:0;border-left:1px solid rgba(255,255,255,.18)}html[dir="rtl"] .fact,html[dir="rtl"] .cert-note{border-left:0;border-right:3px solid var(--red)}html[dir="rtl"] .cert-note{border-right-width:4px}html[dir="rtl"] .intro-photo span{left:auto;right:18px}html[dir="rtl"] .social-float{right:auto;left:24px}
   </style>
 <style>.social-float{position:fixed;bottom:24px;right:24px;z-index:999;display:flex;flex-direction:column;align-items:center;gap:12px}.social-float__item{width:48px;height:48px;border-radius:50%;display:flex;align-items:center;justify-content:center;box-shadow:0 4px 12px rgba(0,0,0,.15);transition:all .25s}.social-float__item:hover{transform:scale(1.15);box-shadow:0 6px 16px rgba(0,0,0,.2)}.social-float__item--whatsapp{background:#25D366}.social-float__item--whatsapp:hover{background:#1da851}.social-float__item--facebook{background:#1877F2}.social-float__item--facebook:hover{background:#0d65d9}.social-float__item--linkedin{background:#0A66C2}.social-float__item--linkedin:hover{background:#084e96}@media(max-width:640px){.social-float{bottom:16px;right:16px;gap:8px}.social-float__item{width:42px;height:42px}}</style></head>
-<body data-home-language="en">
+<body data-home-language="{{ entry.lang }}">
   <header class="header">
     <div class="container header-in">
       <a class="brand" href="#home"><img src="apple-touch-icon.png" alt="CHUANWEI FIRE"><span><strong>CHUANWEI FIRE</strong><small data-en="Fire protection equipment" data-zh="消防设备制造与供应">Fire protection equipment</small></span></a>
       <nav class="nav"><a href="#products" data-en="Products" data-zh="产品">Products</a><a href="#manufacturing" data-en="Manufacturing" data-zh="制造能力">Manufacturing</a><a href="#oem">OEM / ODM</a><a href="#certificates" data-en="Certificates" data-zh="证书">Certificates</a><a href="#contact" data-en="Contact" data-zh="联系">Contact</a></nav>
-      <div class="langs" aria-label="Language selector"><a href="index.html" lang="en" data-site-language-choice="en" class="active">EN</a><a href="index.html?lang=zh" lang="zh-CN" data-site-language-choice="zh">中</a><a href="ar/index.html" lang="ar" dir="rtl" data-site-language-choice="ar">العربية</a></div>
+      <div class="langs" aria-label="Language selector"><a href="index.html" lang="en" data-site-language-choice="en"{% if entry.lang == 'en' %} class="active"{% endif %}>EN</a><a href="index.html?lang=zh" lang="zh-CN" data-site-language-choice="zh">中</a><a href="ar/index.html" lang="ar" dir="rtl" data-site-language-choice="ar"{% if entry.lang == 'ar' %} class="active"{% endif %}>العربية</a></div>
     </div>
   </header>
 
@@ -77,8 +86,8 @@
       <div class="container">
         <div class="heading"><div><p class="eyebrow" data-en="Product range" data-zh="产品范围">Product range</p><h2 data-en="Select by product family, size and project requirement." data-zh="按产品系列、尺寸和项目要求选型">Select by product family, size and project requirement.</h2></div><p data-en="International descriptions are used first; factory reference codes remain available for quotation and production coordination." data-zh="优先使用国际通用产品名称；工厂参考型号保留用于报价和生产对应。">International descriptions are used first; factory reference codes remain available for quotation and production coordination.</p></div>
         <div class="products">
-          <a class="product" href="products/消防喷头.html"><img src="products/消防喷头/categories/standard-response-upright.jpg" alt="Fire sprinklers including the standard response range"><div class="product-body"><h3 data-en="Fire Sprinklers" data-zh="消防喷头">Fire Sprinklers</h3><p data-en="Upright, pendent, sidewall, concealed and special-purpose configurations." data-zh="上喷、下喷、边墙、隐蔽式及特殊用途系列。">Upright, pendent, sidewall, concealed and special-purpose configurations.</p><span class="more" data-en="View range →" data-zh="查看系列 →">View range →</span></div></a>
-          <a class="product" href="products/消防阀.html"><img src="products/消防阀/消防阀主图.jpg" alt="Alarm and system valves"><div class="product-body"><h3 data-en="Alarm & System Valves" data-zh="报警阀与系统阀门">Alarm & System Valves</h3><p data-en="Wet alarm, deluge, preaction and dry-pipe valve families." data-zh="湿式、雨淋、预作用和干式阀组系列。">Wet alarm, deluge, preaction and dry-pipe valve families.</p><span class="more" data-en="View range →" data-zh="查看系列 →">View range →</span></div></a>
+          <a class="product" href="{% if entry.lang == 'ar' %}ar/products.html#sprinklers{% else %}products/消防喷头.html{% endif %}"><img src="products/消防喷头/categories/standard-response-upright.jpg" alt="Fire sprinklers including the standard response range"><div class="product-body"><h3 data-en="Fire Sprinklers" data-zh="消防喷头">Fire Sprinklers</h3><p data-en="Upright, pendent, sidewall, concealed and special-purpose configurations." data-zh="上喷、下喷、边墙、隐蔽式及特殊用途系列。">Upright, pendent, sidewall, concealed and special-purpose configurations.</p><span class="more" data-en="View range →" data-zh="查看系列 →">View range →</span></div></a>
+          <a class="product" href="{% if entry.lang == 'ar' %}ar/products.html#system-valves{% else %}products/消防阀.html{% endif %}"><img src="products/消防阀/消防阀主图.jpg" alt="Alarm and system valves"><div class="product-body"><h3 data-en="Alarm & System Valves" data-zh="报警阀与系统阀门">Alarm & System Valves</h3><p data-en="Wet alarm, deluge, preaction and dry-pipe valve families." data-zh="湿式、雨淋、预作用和干式阀组系列。">Wet alarm, deluge, preaction and dry-pipe valve families.</p><span class="more" data-en="View range →" data-zh="查看系列 →">View range →</span></div></a>
           <a class="product" href="products/消防蝶阀.html"><img src="products/消防阀门/DSC_5671.jpg" alt="Fire butterfly valves"><div class="product-body"><h3 data-en="Fire Butterfly Valves" data-zh="消防蝶阀">Fire Butterfly Valves</h3><p data-en="Lever-operated and supervisory configurations with wafer or grooved connections." data-zh="手柄式和信号监控型，可选对夹或沟槽连接。">Lever-operated and supervisory configurations with wafer or grooved connections.</p><span class="more" data-en="View range →" data-zh="查看系列 →">View range →</span></div></a>
           <a class="product" href="products/消防阀门.html"><img src="products/消防阀门/消防阀门主图.jpg" alt="Fire gate valves"><div class="product-body"><h3 data-en="Fire Gate Valves" data-zh="消防闸阀">Fire Gate Valves</h3><p data-en="Supervisory, NRS and OS&Y configurations in grooved or flanged styles." data-zh="信号、暗杆及明杆结构，提供沟槽式或法兰式。">Supervisory, NRS and OS&Y configurations in grooved or flanged styles.</p><span class="more" data-en="View range →" data-zh="查看系列 →">View range →</span></div></a>
           <a class="product" href="products/软管卷盘.html"><img src="products/软管卷盘/ria25-fire-hose-reel/ria25-fire-hose-reel.jpg" alt="Fire hose reels including the RIA 25 EN 671-1 European-standard reel"><div class="product-body"><h3 data-en="Fire Hose Reels" data-zh="消防软管卷盘">Fire Hose Reels</h3><p data-en="RIA 25 European-standard (EN 671-1) and JPS direct-stream and jet/spray reel configurations." data-zh="欧标RIA25及JPS直流/喷雾卷盘配置。">RIA 25 European-standard (EN 671-1) and JPS direct-stream and jet/spray reel configurations.</p><span class="more" data-en="View range →" data-zh="查看系列 →">View range →</span></div></a>
@@ -111,7 +120,7 @@
 
   <div class="modal" id="imageModal"><button type="button" aria-label="Close">×</button><img src="assets/home/certificates/iso-9001.png" alt="Certificate preview"></div>
   <script>
-    const homeLanguage='en',arabicTranslations={};
+    const homeLanguage='{{ entry.lang }}',arabicTranslations={{ entry.translationsJson | safe }};
     const setLanguage=lang=>{document.documentElement.lang=lang==='zh'?'zh-CN':lang;document.documentElement.dir=lang==='ar'?'rtl':'ltr';document.querySelectorAll('[data-en]').forEach(el=>{const value=lang==='ar'?arabicTranslations[el.dataset.en]:el.dataset[lang];if(value)el.textContent=value});document.querySelectorAll('[data-site-language-choice]').forEach(control=>control.classList.toggle('active',control.dataset.siteLanguageChoice===lang));localStorage.setItem('lang',lang);localStorage.setItem('chuanwei-site-language',lang==='ar'?'ar':'en')};
     document.querySelectorAll('[data-site-language-choice]').forEach(link=>link.addEventListener('click',()=>{const lang=link.dataset.siteLanguageChoice;localStorage.setItem('chuanwei-site-language',lang==='ar'?'ar':'en');localStorage.setItem('lang',lang)}));
     const requestedLanguage=new URLSearchParams(location.search).get('lang');
