@@ -1,4 +1,6 @@
-export default function () {
+export default function (eleventyConfig) {
+  eleventyConfig.addNunjucksFilter("homeCopy", (source, translations = {}) => translations[source] || source);
+
   return {
     dir: {
       input: "site-src",

@@ -121,10 +121,18 @@ assert(homePage.includes('href="ar/index.html"'), "Homepage Arabic switch must p
 assert(homePage.includes('data-site-language-choice="ar"'), "Homepage Arabic switch must persist the Arabic preference.");
 assert(homePage.includes("GENERATED FILE"), "English homepage must be generated from the shared homepage template.");
 assert(homePage.includes('data-home-language="en"'), "English homepage is missing its generated language marker.");
-assert(homePage.includes('hreflang="zh-CN" href="https://chuanweifire.com/?lang=zh"'), "Homepage is missing its Chinese hreflang.");
+assert(homePage.includes('hreflang="zh-CN" href="https://chuanweifire.com/zh/"'), "Homepage is missing its Chinese hreflang.");
 assert(homePage.includes('hreflang="x-default" href="https://chuanweifire.com/"'), "Homepage x-default must resolve to English.");
 assert(homePage.includes("localStorage.getItem('chuanwei-site-language')"), "Homepage must restore the shared language preference.");
-assert(homePage.includes("location.replace(languageLinks[preferredLanguage])"), "Homepage must route to the saved localized homepage.");
+assert(homePage.includes("location.replace(languageLinks[storedLanguage])"), "Homepage must route to the saved localized homepage.");
+
+const chineseHomePage = fs.readFileSync(path.join(root, "zh/index.html"), "utf8");
+assert(chineseHomePage.includes("GENERATED FILE"), "Chinese homepage must be generated from the shared homepage template.");
+assert(chineseHomePage.includes('data-home-language="zh"'), "Chinese homepage is missing its generated language marker.");
+assert(chineseHomePage.includes('<html lang="zh-CN" dir="ltr">'), "Chinese homepage has incorrect language metadata.");
+assert(chineseHomePage.includes('<link rel="canonical" href="https://chuanweifire.com/zh/">'), "Chinese homepage has an incorrect canonical URL.");
+assert(chineseHomePage.includes("消防设备制造与OEM配套支持"), "Chinese homepage is missing build-time localized copy.");
+assert(!chineseHomePage.includes('data-zh='), "Chinese homepage copy must come from the dedicated language data source.");
 
 const arabicHomePage = fs.readFileSync(path.join(root, "ar/index.html"), "utf8");
 assert(arabicHomePage.includes("GENERATED FILE"), "Arabic homepage must be generated from the shared homepage template.");
@@ -132,7 +140,7 @@ assert(arabicHomePage.includes('data-home-language="ar"'), "Arabic homepage is m
 assert(arabicHomePage.includes('<base href="../">'), "Arabic homepage must resolve shared root assets in local preview.");
 assert(arabicHomePage.includes('href="ar/products/system-valves/index.html"'), "Arabic homepage must route alarm-valve visitors to the Arabic category page.");
 assert(arabicHomePage.includes("تصنيع معدات مكافحة الحريق"), "Arabic homepage is missing its localized content data.");
-assert(arabicHomePage.includes('hreflang="zh-CN" href="https://chuanweifire.com/?lang=zh"'), "Arabic homepage is missing its Chinese hreflang.");
+assert(arabicHomePage.includes('hreflang="zh-CN" href="https://chuanweifire.com/zh/"'), "Arabic homepage is missing its Chinese hreflang.");
 
 const detailScript = fs.readFileSync(path.join(root, "assets/js/product-detail.js"), "utf8");
 assert(detailScript.includes('chuanwei-site-language'), "Product detail script must read the shared language preference.");
@@ -144,6 +152,6 @@ for (const page of pages) assert(sitemap.includes(`<loc>${page.selfCanonical}</l
 for (const language of ["en", "zh-CN", "ar", "x-default"]) {
   assert(sitemap.includes(`hreflang="${language}"`), `Sitemap is missing homepage hreflang ${language}.`);
 }
-assert(sitemap.includes("<loc>https://chuanweifire.com/?lang=zh</loc>"), "Sitemap is missing the Chinese homepage canonical.");
+assert(sitemap.includes("<loc>https://chuanweifire.com/zh/</loc>"), "Sitemap is missing the Chinese homepage canonical.");
 
 console.log("Generated-page validation passed: six English and Arabic product outputs are linked and complete.");

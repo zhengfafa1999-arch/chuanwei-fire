@@ -9,7 +9,7 @@ const fallback = (outputPath, fragment = "") => ({ outputPath, fragment, status:
 // The single registry for language counterparts. Fallbacks point to a real
 // localized catalog section until a dedicated translated page is published.
 export const SITE_ROUTES = {
-  home: { kind: "core", locales: { en: published("index.html"), ar: published("ar/index.html"), zh: { outputPath: "index.html", query: "lang=zh", status: "inline" } } },
+  home: { kind: "core", locales: { en: published("index.html"), zh: published("zh/index.html"), ar: published("ar/index.html") } },
   products: { kind: "core", locales: { en: published("products.html"), ar: published("ar/products.html") } },
   about: { kind: "core", locales: { en: published("about.html"), ar: published("ar/about.html") } },
   downloads: { kind: "core", locales: { en: published("downloads.html"), ar: published("ar/downloads.html") } },
@@ -116,6 +116,7 @@ export function createHomeRoute(locale) {
   if (!current || current.status !== "published") throw new Error(`Homepage locale '${locale}' is not published.`);
   const outputPath = current.outputPath;
   const rootBased = true;
+  const destinationLocale = locale === "zh" ? "en" : locale;
   const familyIds = ["sprinklers", "system-valves", "butterfly-valves", "gate-valves", "hose-reels", "hoses-nozzles-couplings", "indoor-hydrants", "outdoor-hydrants", "fire-department-connections"];
   return {
     outputPath,
@@ -131,8 +132,8 @@ export function createHomeRoute(locale) {
       zh: hrefBetween(outputPath, SITE_ROUTES.home.locales.zh, rootBased),
       ar: resolveSiteRoute("home", "ar", outputPath, { rootBased }).href
     },
-    familyHrefs: Object.fromEntries(familyIds.map((familyId) => [familyId, resolveSiteRoute(`category:${familyId}`, locale, outputPath, { rootBased }).href])),
-    coreHrefs: Object.fromEntries(["about", "downloads", "contact"].map((routeId) => [routeId, resolveSiteRoute(routeId, locale, outputPath, { rootBased }).href]))
+    familyHrefs: Object.fromEntries(familyIds.map((familyId) => [familyId, resolveSiteRoute(`category:${familyId}`, destinationLocale, outputPath, { rootBased }).href])),
+    coreHrefs: Object.fromEntries(["about", "downloads", "contact"].map((routeId) => [routeId, resolveSiteRoute(routeId, destinationLocale, outputPath, { rootBased }).href]))
   };
 }
 

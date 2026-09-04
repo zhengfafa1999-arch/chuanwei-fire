@@ -34,8 +34,8 @@ for (const [routeId, route] of Object.entries(SITE_ROUTES)) {
     assert(target, `Route '${routeId}' is missing an explicit '${locale}' target or fallback.`);
     const resolved = resolveSiteRoute(routeId, locale, route.locales.en.outputPath);
     assert(resolved.href, `Route '${routeId}' produced an empty '${locale}' href.`);
-    if (target.status === "published") publishedOutputs.push(target.outputPath);
   }
+  for (const target of Object.values(route.locales)) if (target.status === "published") publishedOutputs.push(target.outputPath);
   if (route.kind === "product") {
     assert(route.category && SITE_ROUTES[route.category]?.kind === "category", `Product route '${routeId}' has an invalid category.`);
   }
@@ -56,13 +56,16 @@ const formalHtml = listFormalHtml();
 for (const outputPath of formalHtml) assert(uniquePublished.has(outputPath), `Formal page is missing from the route registry: ${outputPath}`);
 
 const englishHome = createHomeRoute("en");
+const chineseHome = createHomeRoute("zh");
 const arabicHome = createHomeRoute("ar");
 assert(englishHome.languageLinks.ar === "ar/index.html", "English homepage Arabic link is incorrect.");
-assert(englishHome.languageLinks.zh === "index.html?lang=zh", "English homepage Chinese link is incorrect.");
-assert(englishHome.languageCanonicals["zh-CN"] === "https://chuanweifire.com/?lang=zh", "Chinese homepage canonical is incorrect.");
+assert(englishHome.languageLinks.zh === "zh/index.html", "English homepage Chinese link is incorrect.");
+assert(englishHome.languageCanonicals["zh-CN"] === "https://chuanweifire.com/zh/", "Chinese homepage canonical is incorrect.");
 assert(englishHome.languageCanonicals["x-default"] === englishHome.languageCanonicals.en, "Homepage x-default must match English.");
 assert(arabicHome.languageLinks.en === "index.html", "Arabic homepage English link is incorrect for root-based local preview.");
 assert(arabicHome.familyHrefs["system-valves"] === "ar/products/system-valves/index.html", "Arabic alarm-valve family link is incorrect.");
+assert(chineseHome.languageLinks.en === "index.html", "Chinese homepage English link is incorrect for root-based local preview.");
+assert(chineseHome.familyHrefs["system-valves"] === "products/消防阀.html", "Chinese homepage must use the English technical catalog until Chinese category pages exist.");
 
 for (const routeId of ["product:wet-alarm-check-valve", "product:water-curtain-nozzles", "product:water-mist-nozzles"]) {
   for (const locale of SUPPORTED_LOCALES) {

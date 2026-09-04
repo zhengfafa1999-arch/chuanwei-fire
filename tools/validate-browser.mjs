@@ -144,6 +144,7 @@ async function inspectPage(client) {
 
 const pages = [
   { id: "home-en", path: "/index.html?lang=en", lang: "en", dir: "ltr", marker: "Fire Protection Equipment" },
+  { id: "home-zh", path: "/zh/index.html", lang: "zh-CN", preference: "zh", dir: "ltr", marker: "消防设备制造" },
   { id: "home-ar", path: "/ar/index.html?lang=ar", lang: "ar", dir: "rtl", marker: "تصنيع معدات مكافحة الحريق" },
   { id: "catalog-en", path: "/products.html", lang: "en", dir: "ltr", marker: "Product" },
   { id: "catalog-ar", path: "/ar/products.html", lang: "ar", dir: "rtl", marker: "منتجات" },
@@ -212,7 +213,8 @@ async function run() {
       });
       for (const page of pages) {
         await navigate(client, `${origin}/index.html?lang=en`, "/index.html");
-        await evaluate(client, `localStorage.setItem('chuanwei-site-language', ${JSON.stringify(page.lang)}); localStorage.setItem('lang', ${JSON.stringify(page.lang)})`);
+        const preference = page.preference || page.lang;
+        await evaluate(client, `localStorage.setItem('chuanwei-site-language', ${JSON.stringify(preference)}); localStorage.setItem('lang', ${JSON.stringify(preference)})`);
         await navigate(client, `${origin}${encodeURI(page.path)}`, new URL(page.path, origin).pathname);
         const result = await inspectPage(client);
         assert(result.lang === page.lang, `${viewport.id}/${page.id} rendered lang=${result.lang}, expected ${page.lang}.`);
@@ -222,7 +224,7 @@ async function run() {
         assert(!result.hasTemplateMarker, `${viewport.id}/${page.id} contains an unrendered template marker.`);
         if (page.id.startsWith("home-")) {
           assert(result.hreflangs.en === "https://chuanweifire.com/", `${page.id} has incorrect English hreflang.`);
-          assert(result.hreflangs["zh-CN"] === "https://chuanweifire.com/?lang=zh", `${page.id} has incorrect Chinese hreflang.`);
+          assert(result.hreflangs["zh-CN"] === "https://chuanweifire.com/zh/", `${page.id} has incorrect Chinese hreflang.`);
           assert(result.hreflangs.ar === "https://chuanweifire.com/ar/", `${page.id} has incorrect Arabic hreflang.`);
           assert(result.hreflangs["x-default"] === result.hreflangs.en, `${page.id} has inconsistent x-default.`);
         }
@@ -242,25 +244,36 @@ async function run() {
     assert(arabicSwitch.lang === "ar" && arabicSwitch.dir === "rtl", "English-to-Arabic language switch failed.");
 
     await evaluate(client, `document.querySelector('[data-site-language-choice="zh"]').click()`);
-    await waitForLocation(client, "/index.html", "?lang=zh");
+    await waitForLocation(client, "/zh/index.html");
     const chineseSwitch = await inspectPage(client);
     assert(chineseSwitch.lang === "zh-CN", "Arabic-to-Chinese language switch failed.");
-    assert(chineseSwitch.canonical === "https://chuanweifire.com/?lang=zh", "Chinese inline homepage has an incorrect runtime canonical.");
+    assert(chineseSwitch.canonical === "https://chuanweifire.com/zh/", "Chinese homepage has an incorrect canonical URL.");
 
     await evaluate(client, `localStorage.setItem('chuanwei-site-language','ar')`);
     await navigate(client, `${origin}/index.html`, "/ar/index.html");
     const restoredArabic = await inspectPage(client);
     assert(restoredArabic.lang === "ar", "Saved Arabic preference was not restored from the English homepage.");
     await evaluate(client, `localStorage.setItem('chuanwei-site-language','en')`);
-    await navigate(client, `${origin}/ar/index.html`, "/index.html");
-    const restoredEnglish = await inspectPage(client);
-    assert(restoredEnglish.lang === "en", "Saved English preference was not restored from the Arabic homepage.");
+    await navigate(client, `${origin}/ar/index.html`, "/ar/index.html");
+    const directArabic = await inspectPage(client);
+    assert(directArabic.lang === "ar", "An explicit Arabic URL must remain authoritative over a stored preference.");
+
+    await navigate(client, `${origin}/index.html?lang=zh`, "/zh/index.html");
+    const legacyChinese = await inspectPage(client);
+    assert(legacyChinese.lang === "zh-CN", "The legacy Chinese query URL did not redirect to the dedicated Chinese homepage.");
+
+    await evaluate(client, `localStorage.setItem('chuanwei-site-language','zh')`);
+    await navigate(client, `${origin}/index.html`, "/zh/index.html");
+    const restoredChinese = await inspectPage(client);
+    assert(restoredChinese.lang === "zh-CN", "Saved Chinese preference was not restored from the English homepage.");
 
     const languageSwitches = [
       { scenario: "EN control to AR homepage", status: "PASS", finalUrl: arabicSwitch.url, lang: arabicSwitch.lang, dir: arabicSwitch.dir },
-      { scenario: "AR control to inline Chinese homepage", status: "PASS", finalUrl: chineseSwitch.url, lang: chineseSwitch.lang, dir: chineseSwitch.dir, canonical: chineseSwitch.canonical },
+      { scenario: "AR control to dedicated Chinese homepage", status: "PASS", finalUrl: chineseSwitch.url, lang: chineseSwitch.lang, dir: chineseSwitch.dir, canonical: chineseSwitch.canonical },
       { scenario: "saved AR preference from EN homepage", status: "PASS", finalUrl: restoredArabic.url, lang: restoredArabic.lang, dir: restoredArabic.dir },
-      { scenario: "saved EN preference from AR homepage", status: "PASS", finalUrl: restoredEnglish.url, lang: restoredEnglish.lang, dir: restoredEnglish.dir }
+      { scenario: "explicit AR URL overrides stored EN", status: "PASS", finalUrl: directArabic.url, lang: directArabic.lang, dir: directArabic.dir },
+      { scenario: "legacy Chinese query redirects to /zh/", status: "PASS", finalUrl: legacyChinese.url, lang: legacyChinese.lang, dir: legacyChinese.dir },
+      { scenario: "saved ZH preference from EN homepage", status: "PASS", finalUrl: restoredChinese.url, lang: restoredChinese.lang, dir: restoredChinese.dir }
     ];
 
     for (const page of publicPagePairs) {
@@ -299,7 +312,7 @@ async function run() {
       viewports,
       matrix,
       languageSwitches,
-      screenshots: viewports.flatMap((viewport) => ["home-en", "home-ar", "about-en", "about-ar", "downloads-en", "downloads-ar", "contact-en", "contact-ar"].map((page) => `edge-${viewport.id}-${page}.png`))
+      screenshots: viewports.flatMap((viewport) => ["home-en", "home-zh", "home-ar", "about-en", "about-ar", "downloads-en", "downloads-ar", "contact-en", "contact-ar"].map((page) => `edge-${viewport.id}-${page}.png`))
     };
     fs.writeFileSync(path.join(evidenceDirectory, "browser-validation.json"), `${JSON.stringify(evidence, null, 2)}\n`);
     const markdown = [
@@ -318,11 +331,11 @@ async function run() {
       "",
       "## 覆盖范围",
       "",
-      "英文/阿文首页、产品总目录、关于我们、下载中心、联系页面、报警阀分类页、湿式报警阀/水幕喷头/水雾喷头三组双语详情、未翻译雨淋阀英文安全回退，以及首页四个语言场景和三个公共页面各自的恢复、切换、刷新、返回场景。",
+      "英文/中文/阿文首页、产品总目录、关于我们、下载中心、联系页面、报警阀分类页、湿式报警阀/水幕喷头/水雾喷头三组双语详情、未翻译雨淋阀英文安全回退，以及首页六个语言路由场景和三个公共页面各自的恢复、切换、刷新、返回场景。",
       "",
       "## 可复核产物",
       "",
-      "逐页 URL、语言、方向、canonical、hreflang、横向溢出与标题数据见 `browser-validation.json`；同目录含英文/阿文首页及三个公共页面的桌面与手机截图。"
+      "逐页 URL、语言、方向、canonical、hreflang、横向溢出与标题数据见 `browser-validation.json`；同目录含英文/中文/阿文首页及三个公共页面的桌面与手机截图。"
     ].join("\n");
     fs.writeFileSync(path.join(evidenceDirectory, "README.md"), `${markdown}\n`);
     console.log(`Browser validation passed: ${matrix.length} page/viewport checks and ${languageSwitches.length} language-switch checks on ${version.Browser}.`);

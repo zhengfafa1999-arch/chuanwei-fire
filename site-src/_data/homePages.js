@@ -1,4 +1,5 @@
 import { createHomeRoute } from "./siteRoutes.js";
+import chinese from "./homeChinese.js";
 
 const arabic = {
   "Fire protection equipment": "تصنيع معدات مكافحة الحريق",
@@ -101,10 +102,24 @@ const arabic = {
 
 const shared = {
   alternateLocale: "ar_AR",
-  description: "Fire protection equipment manufacturing and OEM support for sprinklers, alarm valves, fire valves, hose reels, fire hoses, nozzles, couplings and hydrant-system components."
+  description: "Fire protection equipment manufacturing and OEM support for sprinklers, alarm valves, fire valves, hose reels, fire hoses, nozzles, couplings and hydrant-system components.",
+  form: {
+    options: [
+      ["Fire Sprinklers", "Fire Sprinklers"],
+      ["Alarm & System Valves", "Alarm & System Valves"],
+      ["Fire Butterfly / Gate Valves", "Fire Butterfly / Gate Valves"],
+      ["Fire Hose Reels", "Fire Hose Reels"],
+      ["Hoses, Nozzles & Couplings", "Hoses, Nozzles & Couplings"],
+      ["Hydrants & Boxes", "Hydrants & Boxes"],
+      ["Other Fire-Water Components", "Other Fire-Water Components"]
+    ],
+    quantityPlaceholder: "e.g. 500 pcs",
+    detailsPlaceholder: "Tell us what needs to be confirmed..."
+  }
 };
 
 const englishRoute = createHomeRoute("en");
+const chineseRoute = createHomeRoute("zh");
 const arabicRoute = createHomeRoute("ar");
 
 export default [
@@ -113,20 +128,52 @@ export default [
     route: englishRoute,
     outputPath: englishRoute.outputPath,
     lang: "en",
+    languageCode: "en",
     dir: "ltr",
     locale: "en_US",
     canonical: englishRoute.canonical,
     assetPrefix: "",
     title: "CHUANWEI FIRE | Fire Protection Equipment Manufacturer & OEM Support",
-    translationsJson: "{}",
+    translations: {},
     languageLinksJson: JSON.stringify(englishRoute.languageLinks),
     languageCanonicalsJson: JSON.stringify(englishRoute.languageCanonicals)
+  },
+  {
+    ...shared,
+    route: chineseRoute,
+    outputPath: chineseRoute.outputPath,
+    lang: "zh-CN",
+    languageCode: "zh",
+    dir: "ltr",
+    locale: "zh_CN",
+    alternateLocale: "en_US",
+    canonical: chineseRoute.canonical,
+    assetPrefix: "../",
+    title: "CHUANWEI FIRE | 消防设备制造商与 OEM 配套支持",
+    description: "面向贸易合作伙伴、经销商和自有品牌客户，提供消防设备制造、产品配置与 OEM 配套支持。",
+    translations: chinese,
+    form: {
+      options: [
+        ["Fire Sprinklers", "消防喷头"],
+        ["Alarm & System Valves", "报警阀与系统阀门"],
+        ["Fire Butterfly / Gate Valves", "消防蝶阀 / 闸阀"],
+        ["Fire Hose Reels", "消防软管卷盘"],
+        ["Hoses, Nozzles & Couplings", "消防水带、水枪与接口"],
+        ["Hydrants & Boxes", "消火栓与消防箱"],
+        ["Other Fire-Water Components", "其他消防给水组件"]
+      ],
+      quantityPlaceholder: "例如：500件",
+      detailsPlaceholder: "请填写需要确认的产品要求……"
+    },
+    languageLinksJson: JSON.stringify(chineseRoute.languageLinks),
+    languageCanonicalsJson: JSON.stringify(chineseRoute.languageCanonicals)
   },
   {
     ...shared,
     route: arabicRoute,
     outputPath: arabicRoute.outputPath,
     lang: "ar",
+    languageCode: "ar",
     dir: "rtl",
     locale: "ar_AR",
     alternateLocale: "en_US",
@@ -134,7 +181,20 @@ export default [
     assetPrefix: "../",
     title: "CHUANWEI FIRE | تصنيع معدات مكافحة الحريق ودعم OEM",
     description: "تصنيع وتوريد معدات مكافحة الحريق ودعم OEM لرشاشات الحريق والصمامات وبكرات الخراطيم ومكونات شبكات مياه الحريق.",
-    translationsJson: JSON.stringify(arabic),
+    translations: arabic,
+    form: {
+      options: [
+        ["Fire Sprinklers", "رشاشات الحريق"],
+        ["Alarm & System Valves", "صمامات الإنذار وصمامات الأنظمة"],
+        ["Fire Butterfly / Gate Valves", "صمامات الفراشة والبوابة"],
+        ["Fire Hose Reels", "بكرات خراطيم الحريق"],
+        ["Hoses, Nozzles & Couplings", "الخراطيم والفوهات والوصلات"],
+        ["Hydrants & Boxes", "صنابير وصناديق الحريق"],
+        ["Other Fire-Water Components", "مكونات أخرى لأنظمة مياه الحريق"]
+      ],
+      quantityPlaceholder: "مثال: 500 قطعة",
+      detailsPlaceholder: "أخبرنا بما يجب تأكيده..."
+    },
     languageLinksJson: JSON.stringify(arabicRoute.languageLinks),
     languageCanonicalsJson: JSON.stringify(arabicRoute.languageCanonicals)
   }
