@@ -50,7 +50,7 @@ eleventyExcludeFromCollections: true
   <header class="header">
     <div class="container header-in">
       <a class="brand" href="#home"><img src="apple-touch-icon.png" alt="CHUANWEI FIRE"><span><strong>CHUANWEI FIRE</strong><small data-en="Fire protection equipment" data-zh="消防设备制造与供应">Fire protection equipment</small></span></a>
-      <nav class="nav"><a href="#products" data-en="Products" data-zh="产品">Products</a><a href="#manufacturing" data-en="Manufacturing" data-zh="制造能力">Manufacturing</a><a href="#oem">OEM / ODM</a><a href="#certificates" data-en="Certificates" data-zh="证书">Certificates</a><a href="#contact" data-en="Contact" data-zh="联系">Contact</a></nav>
+      <nav class="nav"><a href="#products" data-en="Products" data-zh="产品">Products</a><a href="{{ entry.route.coreHrefs.about }}" data-en="About" data-zh="关于我们">About</a><a href="#manufacturing" data-en="Manufacturing" data-zh="制造能力">Manufacturing</a><a href="{{ entry.route.coreHrefs.downloads }}" data-en="Downloads" data-zh="资料下载">Downloads</a><a href="{{ entry.route.coreHrefs.contact }}" data-en="Contact" data-zh="联系">Contact</a></nav>
       <div class="langs" aria-label="Language selector"><a href="{{ entry.route.languageLinks.en }}" lang="en" data-site-language-choice="en"{% if entry.lang == 'en' %} class="active"{% endif %}>EN</a><a href="{{ entry.route.languageLinks.zh }}" lang="zh-CN" data-site-language-choice="zh">中</a><a href="{{ entry.route.languageLinks.ar }}" lang="ar" dir="rtl" data-site-language-choice="ar"{% if entry.lang == 'ar' %} class="active"{% endif %}>العربية</a></div>
     </div>
   </header>
@@ -62,7 +62,7 @@ eleventyExcludeFromCollections: true
           <p class="eyebrow" style="color:#ff8b99" data-en="Manufacturer · Fire-water system components" data-zh="制造商 · 消防给水系统组件">Manufacturer · Fire-water system components</p>
           <h1 data-en="Fire Protection Equipment Manufacturing & OEM Support." data-zh="消防设备制造与OEM配套支持">Fire Protection Equipment Manufacturing & OEM Support.</h1>
           <p class="lead" data-en="Sprinklers, alarm and control valves, hose reels, fire hoses, nozzles, couplings and hydrant-system components for trading partners, distributors and private-label customers." data-zh="面向贸易合作伙伴、经销商和自有品牌客户，提供消防喷头、报警与控制阀、软管卷盘、消防水带、水枪、接口及消火栓系统组件。">Sprinklers, alarm and control valves, hose reels, fire hoses, nozzles, couplings and hydrant-system components for trading partners, distributors and private-label customers.</p>
-          <div class="actions"><a class="btn" href="#products" data-en="Explore Products" data-zh="查看产品">Explore Products</a><a class="btn outline" href="#contact" data-en="Contact Manufacturing Team" data-zh="联系制造团队">Contact Manufacturing Team</a></div>
+          <div class="actions"><a class="btn" href="#products" data-en="Explore Products" data-zh="查看产品">Explore Products</a><a class="btn outline" href="{{ entry.route.coreHrefs.contact }}" data-en="Contact Manufacturing Team" data-zh="联系制造团队">Contact Manufacturing Team</a></div>
         </div>
         <div class="proof"><div><strong>2017</strong><small data-en="Company established" data-zh="公司成立">Company established</small></div><div><strong>5,000 m²</strong><small data-en="Production space stated by company" data-zh="公司提供的生产车间面积">Production space stated by company</small></div><div><strong>CNC</strong><small data-en="Machining capability" data-zh="机加工能力">Machining capability</small></div></div>
       </div>

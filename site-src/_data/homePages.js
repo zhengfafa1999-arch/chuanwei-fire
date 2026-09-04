@@ -3,7 +3,9 @@ import { createHomeRoute } from "./siteRoutes.js";
 const arabic = {
   "Fire protection equipment": "تصنيع معدات مكافحة الحريق",
   "Products": "المنتجات",
+  "About": "من نحن",
   "Manufacturing": "قدرات التصنيع",
+  "Downloads": "التنزيلات",
   "Certificates": "الشهادات",
   "Contact": "تواصل معنا",
   "Manufacturer · Fire-water system components": "مصنّع · مكونات أنظمة مياه مكافحة الحريق",

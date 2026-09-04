@@ -25,7 +25,7 @@ eleventyExcludeFromCollections: true
 <body data-site-language="{{ entry.copy.lang }}" data-language-alternate="{{ entry.route.alternateHref }}">
   <header class="catalog-header"><div class="catalog-shell catalog-header__in">
     <a class="catalog-brand" href="{{ entry.route.homeHref }}"><img src="{{ entry.route.assetPrefix }}apple-touch-icon.png" alt="CHUANWEI FIRE"><span><strong>CHUANWEI FIRE</strong><small>{{ entry.copy.brandTagline }}</small></span></a>
-    <nav class="catalog-nav"><a href="{{ entry.route.homeHref }}">{{ entry.copy.home }}</a><a href="{{ entry.route.selfHref }}" aria-current="page">{{ entry.copy.products }}</a></nav>
+    <nav class="catalog-nav"><a href="{{ entry.route.homeHref }}">{{ entry.copy.home }}</a><a href="{{ entry.route.selfHref }}" aria-current="page">{{ entry.copy.products }}</a><a href="{{ entry.route.aboutHref }}">{{ entry.copy.about }}</a><a href="{{ entry.route.downloadsHref }}">{{ entry.copy.downloads }}</a><a href="{{ entry.route.contactHref }}">{{ entry.copy.contact }}</a></nav>
     <div class="catalog-languages" aria-label="Language selector"><a href="{{ entry.route.languageLinks.en }}" lang="en" data-site-language-choice="en"{% if entry.copy.lang == 'en' %} aria-current="true"{% endif %}>{{ entry.copy.english }}</a><a href="{{ entry.route.languageLinks.ar }}" lang="ar" dir="rtl" data-site-language-choice="ar"{% if entry.copy.lang == 'ar' %} aria-current="true"{% endif %}>{{ entry.copy.arabic }}</a></div>
   </div></header>
   <main>

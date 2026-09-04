@@ -147,6 +147,12 @@ const pages = [
   { id: "home-ar", path: "/ar/index.html?lang=ar", lang: "ar", dir: "rtl", marker: "تصنيع معدات مكافحة الحريق" },
   { id: "catalog-en", path: "/products.html", lang: "en", dir: "ltr", marker: "Product" },
   { id: "catalog-ar", path: "/ar/products.html", lang: "ar", dir: "rtl", marker: "منتجات" },
+  { id: "about-en", path: "/about.html", lang: "en", dir: "ltr", marker: "manufacturing source" },
+  { id: "about-ar", path: "/ar/about.html", lang: "ar", dir: "rtl", marker: "جهة تصنيع" },
+  { id: "downloads-en", path: "/downloads.html", lang: "en", dir: "ltr", marker: "Available catalog" },
+  { id: "downloads-ar", path: "/ar/downloads.html", lang: "ar", dir: "rtl", marker: "الكتالوج والوثائق" },
+  { id: "contact-en", path: "/contact.html", lang: "en", dir: "ltr", marker: "product or project requirement" },
+  { id: "contact-ar", path: "/ar/contact.html", lang: "ar", dir: "rtl", marker: "متطلبات المنتج" },
   { id: "category-en", path: "/products/消防阀.html", lang: "en", dir: "ltr", marker: "Valve" },
   { id: "category-ar", path: "/ar/products/system-valves/index.html", lang: "ar", dir: "rtl", marker: "صمامات" },
   { id: "wet-valve-en", path: "/products/消防阀/wet-alarm-check-valve-assemblies.html?lang=en", lang: "en", dir: "ltr", marker: "Wet" },
@@ -161,6 +167,12 @@ const pages = [
 const viewports = [
   { id: "desktop", width: 1440, height: 900, deviceScaleFactor: 1, mobile: false },
   { id: "mobile", width: 390, height: 844, deviceScaleFactor: 1, mobile: true }
+];
+
+const publicPagePairs = [
+  { id: "about", en: "/about.html", ar: "/ar/about.html" },
+  { id: "downloads", en: "/downloads.html", ar: "/ar/downloads.html" },
+  { id: "contact", en: "/contact.html", ar: "/ar/contact.html" }
 ];
 
 async function run() {
@@ -213,6 +225,8 @@ async function run() {
           assert(result.hreflangs["zh-CN"] === "https://chuanweifire.com/?lang=zh", `${page.id} has incorrect Chinese hreflang.`);
           assert(result.hreflangs.ar === "https://chuanweifire.com/ar/", `${page.id} has incorrect Arabic hreflang.`);
           assert(result.hreflangs["x-default"] === result.hreflangs.en, `${page.id} has inconsistent x-default.`);
+        }
+        if (page.id.startsWith("home-") || ["about-en", "about-ar", "downloads-en", "downloads-ar", "contact-en", "contact-ar"].includes(page.id)) {
           const screenshot = await client.send("Page.captureScreenshot", { format: "png", captureBeyondViewport: false });
           fs.writeFileSync(path.join(evidenceDirectory, `edge-${viewport.id}-${page.id}.png`), Buffer.from(screenshot.data, "base64"));
         }
@@ -248,6 +262,36 @@ async function run() {
       { scenario: "saved AR preference from EN homepage", status: "PASS", finalUrl: restoredArabic.url, lang: restoredArabic.lang, dir: restoredArabic.dir },
       { scenario: "saved EN preference from AR homepage", status: "PASS", finalUrl: restoredEnglish.url, lang: restoredEnglish.lang, dir: restoredEnglish.dir }
     ];
+
+    for (const page of publicPagePairs) {
+      await evaluate(client, `localStorage.setItem('chuanwei-site-language','ar')`);
+      await navigate(client, `${origin}${page.en}`, page.ar);
+      const restoredPublicArabic = await inspectPage(client);
+      assert(restoredPublicArabic.lang === "ar" && restoredPublicArabic.dir === "rtl", `${page.id} did not restore the saved Arabic preference.`);
+      languageSwitches.push({ scenario: `${page.id}: restore saved AR from EN URL`, status: "PASS", finalUrl: restoredPublicArabic.url, lang: restoredPublicArabic.lang, dir: restoredPublicArabic.dir });
+
+      await evaluate(client, `document.querySelector('[data-site-language-choice="en"]').click()`);
+      await waitForLocation(client, page.en);
+      const switchedPublicEnglish = await inspectPage(client);
+      assert(switchedPublicEnglish.lang === "en" && switchedPublicEnglish.dir === "ltr", `${page.id} Arabic-to-English switch failed.`);
+      languageSwitches.push({ scenario: `${page.id}: switch AR to EN`, status: "PASS", finalUrl: switchedPublicEnglish.url, lang: switchedPublicEnglish.lang, dir: switchedPublicEnglish.dir });
+
+      await client.send("Page.reload", { ignoreCache: true });
+      await waitForLocation(client, page.en);
+      const refreshedPublicEnglish = await inspectPage(client);
+      assert(refreshedPublicEnglish.lang === "en", `${page.id} did not retain English after refresh.`);
+      languageSwitches.push({ scenario: `${page.id}: refresh retains EN`, status: "PASS", finalUrl: refreshedPublicEnglish.url, lang: refreshedPublicEnglish.lang, dir: refreshedPublicEnglish.dir });
+
+      await evaluate(client, `document.querySelector('[data-site-language-choice="ar"]').click()`);
+      await waitForLocation(client, page.ar);
+      await evaluate(client, `document.querySelector('.brand').click()`);
+      await waitForLocation(client, "/ar/index.html");
+      await evaluate(client, "history.back()");
+      await waitForLocation(client, page.ar);
+      const returnedPublicArabic = await inspectPage(client);
+      assert(returnedPublicArabic.lang === "ar" && returnedPublicArabic.dir === "rtl", `${page.id} did not return to its Arabic page from the homepage.`);
+      languageSwitches.push({ scenario: `${page.id}: browser back returns to AR page`, status: "PASS", finalUrl: returnedPublicArabic.url, lang: returnedPublicArabic.lang, dir: returnedPublicArabic.dir });
+    }
     const evidence = {
       generatedAt: new Date().toISOString(),
       browser: version.Browser,
@@ -255,7 +299,7 @@ async function run() {
       viewports,
       matrix,
       languageSwitches,
-      screenshots: viewports.flatMap((viewport) => ["home-en", "home-ar"].map((page) => `edge-${viewport.id}-${page}.png`))
+      screenshots: viewports.flatMap((viewport) => ["home-en", "home-ar", "about-en", "about-ar", "downloads-en", "downloads-ar", "contact-en", "contact-ar"].map((page) => `edge-${viewport.id}-${page}.png`))
     };
     fs.writeFileSync(path.join(evidenceDirectory, "browser-validation.json"), `${JSON.stringify(evidence, null, 2)}\n`);
     const markdown = [
@@ -274,11 +318,11 @@ async function run() {
       "",
       "## 覆盖范围",
       "",
-      "英文/阿文首页、产品总目录、报警阀分类页、湿式报警阀/水幕喷头/水雾喷头三组双语详情、未翻译雨淋阀英文安全回退，以及 EN→AR、AR→中文、保存 AR、保存 EN 四个切换/恢复场景。",
+      "英文/阿文首页、产品总目录、关于我们、下载中心、联系页面、报警阀分类页、湿式报警阀/水幕喷头/水雾喷头三组双语详情、未翻译雨淋阀英文安全回退，以及首页四个语言场景和三个公共页面各自的恢复、切换、刷新、返回场景。",
       "",
       "## 可复核产物",
       "",
-      "逐页 URL、语言、方向、canonical、hreflang、横向溢出与标题数据见 `browser-validation.json`；同目录含英文/阿文首页的桌面与手机截图。"
+      "逐页 URL、语言、方向、canonical、hreflang、横向溢出与标题数据见 `browser-validation.json`；同目录含英文/阿文首页及三个公共页面的桌面与手机截图。"
     ].join("\n");
     fs.writeFileSync(path.join(evidenceDirectory, "README.md"), `${markdown}\n`);
     console.log(`Browser validation passed: ${matrix.length} page/viewport checks and ${languageSwitches.length} language-switch checks on ${version.Browser}.`);

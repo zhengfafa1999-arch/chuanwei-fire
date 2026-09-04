@@ -11,9 +11,9 @@ const fallback = (outputPath, fragment = "") => ({ outputPath, fragment, status:
 export const SITE_ROUTES = {
   home: { kind: "core", locales: { en: published("index.html"), ar: published("ar/index.html"), zh: { outputPath: "index.html", query: "lang=zh", status: "inline" } } },
   products: { kind: "core", locales: { en: published("products.html"), ar: published("ar/products.html") } },
-  about: { kind: "core", locales: { en: fallback("index.html", "about"), ar: published("ar/about.html") } },
-  downloads: { kind: "core", locales: { en: fallback("index.html", "certificates"), ar: published("ar/downloads.html") } },
-  contact: { kind: "core", locales: { en: fallback("index.html", "contact"), ar: published("ar/contact.html") } },
+  about: { kind: "core", locales: { en: published("about.html"), ar: published("ar/about.html") } },
+  downloads: { kind: "core", locales: { en: published("downloads.html"), ar: published("ar/downloads.html") } },
+  contact: { kind: "core", locales: { en: published("contact.html"), ar: published("ar/contact.html") } },
 
   "category:sprinklers": { kind: "category", locales: { en: published("products/消防喷头.html"), ar: published("ar/products/sprinklers/index.html") } },
   "category:system-valves": { kind: "category", locales: { en: published("products/消防阀.html"), ar: published("ar/products/system-valves/index.html") } },
@@ -131,7 +131,8 @@ export function createHomeRoute(locale) {
       zh: hrefBetween(outputPath, SITE_ROUTES.home.locales.zh, rootBased),
       ar: resolveSiteRoute("home", "ar", outputPath, { rootBased }).href
     },
-    familyHrefs: Object.fromEntries(familyIds.map((familyId) => [familyId, resolveSiteRoute(`category:${familyId}`, locale, outputPath, { rootBased }).href]))
+    familyHrefs: Object.fromEntries(familyIds.map((familyId) => [familyId, resolveSiteRoute(`category:${familyId}`, locale, outputPath, { rootBased }).href])),
+    coreHrefs: Object.fromEntries(["about", "downloads", "contact"].map((routeId) => [routeId, resolveSiteRoute(routeId, locale, outputPath, { rootBased }).href]))
   };
 }
 
@@ -174,6 +175,8 @@ export function createListingPageRoute(routeId, locale) {
     selfHref: current.href,
     homeHref: resolveSiteRoute("home", locale, outputPath).href,
     productsHref: resolveSiteRoute("products", locale, outputPath).href,
+    aboutHref: resolveSiteRoute("about", locale, outputPath).href,
+    downloadsHref: resolveSiteRoute("downloads", locale, outputPath).href,
     contactHref: resolveSiteRoute("contact", locale, outputPath).href,
     assetPrefix: assetPrefixFor(outputPath),
     languageLinks: {

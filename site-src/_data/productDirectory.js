@@ -2,7 +2,7 @@ export const DIRECTORY_COPY = {
   en: {
     lang: "en", dir: "ltr", locale: "en_US",
     brandTagline: "Fire protection equipment manufacturing and supply",
-    home: "Home", products: "Products", english: "English", arabic: "العربية",
+    home: "Home", products: "Products", about: "About", downloads: "Downloads", contact: "Contact", english: "English", arabic: "العربية",
     directoryEyebrow: "Product directory",
     directoryTitle: "Fire-water-system products organized by family.",
     directoryLead: "Start with a product family, then confirm the model, nominal size, connection, quantity, destination and required documentation with our team.",
@@ -28,7 +28,7 @@ export const DIRECTORY_COPY = {
   ar: {
     lang: "ar", dir: "rtl", locale: "ar_AR",
     brandTagline: "تصنيع وتوريد معدات مكافحة الحريق",
-    home: "الرئيسية", products: "المنتجات", english: "English", arabic: "العربية",
+    home: "الرئيسية", products: "المنتجات", about: "عن الشركة", downloads: "الملفات", contact: "تواصل معنا", english: "English", arabic: "العربية",
     directoryEyebrow: "دليل المنتجات",
     directoryTitle: "منتجات أنظمة مياه مكافحة الحريق مرتبة حسب الفئة.",
     directoryLead: "ابدأ باختيار فئة المنتج، ثم أكد الموديل والمقاس الاسمي والتوصيل والكمية والوجهة والوثائق المطلوبة مع فريقنا.",
