@@ -11,9 +11,7 @@ eleventyExcludeFromCollections: true
 <html lang="{{ entry.copy.lang }}" dir="{{ entry.copy.dir }}">
 <head>
   <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>{{ entry.copy.title }}</title><meta name="description" content="{{ entry.copy.description }}">
-  <link rel="canonical" href="{{ entry.route.canonical }}"><link rel="alternate" hreflang="{{ entry.copy.lang }}" href="{{ entry.route.canonical }}"><link rel="alternate" hreflang="{% if entry.copy.lang == 'en' %}ar{% else %}en{% endif %}" href="{{ entry.route.alternate }}"><link rel="alternate" hreflang="x-default" href="{% if entry.copy.lang == 'en' %}{{ entry.route.canonical }}{% else %}{{ entry.route.alternate }}{% endif %}">
-  <meta property="og:type" content="website"><meta property="og:site_name" content="CHUANWEI FIRE"><meta property="og:title" content="{{ entry.copy.title }}"><meta property="og:description" content="{{ entry.copy.description }}"><meta property="og:url" content="{{ entry.route.canonical }}"><meta property="og:image" content="{{ entry.ogImage }}"><meta property="og:locale" content="{{ entry.copy.locale }}"><meta property="og:locale:alternate" content="{{ entry.copy.alternateLocale }}">
+{% seoTags entry.seo %}
   <link rel="icon" href="{{ entry.route.assetPrefix }}favicon.ico"><link rel="stylesheet" href="{{ entry.route.assetPrefix }}css/public-pages.css">
 </head>
 <body data-site-language="{{ entry.copy.lang }}" data-language-alternate="{{ entry.route.alternateHref }}">

@@ -1,4 +1,5 @@
 import { SITE_ORIGIN, SUPPORTED_LOCALES, createListingPageRoute, resolveSiteRoute } from "./siteRoutes.js";
+import { createSeoMetadata } from "./seo.js";
 
 const common = {
   en: { lang: "en", dir: "ltr", locale: "en_US", alternateLocale: "ar_AR", brandTagline: "Fire protection equipment manufacturing and supply", nav: { home: "Home", products: "Products", about: "About", downloads: "Catalog & Files", contact: "Contact" }, languages: { en: "English", ar: "العربية" }, skip: "Skip to content", menu: "Open menu", productOptions: [["Fire Sprinklers", "Fire Sprinklers"], ["Alarm & System Valves", "Alarm & System Valves"], ["Fire Butterfly / Gate Valves", "Fire Butterfly / Gate Valves"], ["Fire Hose Reels", "Fire Hose Reels"], ["Hoses, Nozzles & Couplings", "Hoses, Nozzles & Couplings"], ["Hydrants & Connections", "Hydrants & Connections"], ["Other", "Other"]], footerSummary: "Manufacturing and supply of fire-water-system components with private-label project support.", footerDisclaimer: "Website information indicates product scope. Final specifications, connection standards, test documents and certificate applicability are confirmed by model and order before supply." },
@@ -29,5 +30,6 @@ const certificates = [
 export default Object.keys(pages).flatMap((routeId) => SUPPORTED_LOCALES.map((locale) => {
   const route = createListingPageRoute(routeId, locale);
   const copy = { ...common[locale], ...pages[routeId][locale] };
-  return { routeId, pageType: routeId, route, copy, ogImage: `${SITE_ORIGIN}/og-image.jpg`, navItems: ["home", "products", "about", "downloads", "contact"].map((id) => ({ id, label: copy.nav[id], href: id === "home" ? route.homeHref : id === "products" ? route.productsHref : resolveSiteRoute(id, locale, route.outputPath).href })), certificates: routeId === "downloads" ? certificates.map((certificate) => ({ ...certificate, description: certificate[locale], href: `${route.assetPrefix}${certificate.file}` })) : [], whatsapp: "https://wa.me/8617326528368", email: "zhengcolin1@gmail.com" };
+  const ogImage = `${SITE_ORIGIN}/og-image.jpg`;
+  return { routeId, pageType: routeId, route, copy, ogImage, seo: createSeoMetadata(routeId, locale, { title: copy.title, description: copy.description, image: ogImage }), navItems: ["home", "products", "about", "downloads", "contact"].map((id) => ({ id, label: copy.nav[id], href: id === "home" ? route.homeHref : id === "products" ? route.productsHref : resolveSiteRoute(id, locale, route.outputPath).href })), certificates: routeId === "downloads" ? certificates.map((certificate) => ({ ...certificate, description: certificate[locale], href: `${route.assetPrefix}${certificate.file}` })) : [], whatsapp: "https://wa.me/8617326528368", email: "zhengcolin1@gmail.com" };
 }));

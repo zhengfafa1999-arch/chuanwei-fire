@@ -1,17 +1,4 @@
-# ===== Robots.txt for Chuanwei Fire Equipment Co., Ltd. =====
-# https://chuanweifire.com/
-
 User-agent: *
 Allow: /
 
-# Sitemap
 Sitemap: https://chuanweifire.com/sitemap.xml
-
-# Crawl budget: main pages only
-Allow: /
-Allow: /?lang=zh
-
-# Disallow: no restricted areas
-
-# Crawl-delay: be gentle
-Crawl-delay: 5

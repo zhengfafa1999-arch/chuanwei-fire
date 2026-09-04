@@ -12,13 +12,7 @@ eleventyExcludeFromCollections: true
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>{{ entry.seoTitle }}</title>
-  <meta name="description" content="{{ entry.seoDescription }}">
-  <link rel="canonical" href="{{ entry.route.canonical }}">
-  <link rel="alternate" hreflang="{{ entry.copy.lang }}" href="{{ entry.route.canonical }}">
-  <link rel="alternate" hreflang="{% if entry.copy.lang == 'en' %}ar{% else %}en{% endif %}" href="{{ entry.route.alternate }}">
-  <link rel="alternate" hreflang="x-default" href="https://chuanweifire.com/products.html">
-  <meta property="og:type" content="website"><meta property="og:title" content="{{ entry.seoTitle }}"><meta property="og:description" content="{{ entry.seoDescription }}"><meta property="og:url" content="{{ entry.route.canonical }}"><meta property="og:image" content="{{ entry.ogImage }}">
+{% seoTags entry.seo %}
   <link rel="icon" href="{{ entry.route.assetPrefix }}favicon.ico">
   <link rel="stylesheet" href="{{ entry.route.assetPrefix }}css/catalog-pages.css">
 </head>

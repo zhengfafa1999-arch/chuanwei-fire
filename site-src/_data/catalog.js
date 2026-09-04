@@ -2,6 +2,7 @@ import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { createProductPageRoute } from "./siteRoutes.js";
+import { createSeoMetadata } from "./seo.js";
 
 const dataDirectory = path.dirname(fileURLToPath(import.meta.url));
 const sourceDirectory = path.resolve(dataDirectory, "..");
@@ -36,6 +37,7 @@ function createBasePage(product, routeId, localeCode) {
   }));
 
   return {
+    routeId,
     locale,
     copy,
     product,
@@ -174,7 +176,7 @@ function createWaterMistPage(localeCode) {
   return page;
 }
 
-export default [
+const pages = [
   createWetAlarmPage("en"),
   createWetAlarmPage("ar"),
   createWaterCurtainPage("en"),
@@ -182,3 +184,12 @@ export default [
   createWaterMistPage("en"),
   createWaterMistPage("ar")
 ];
+
+export default pages.map((page) => ({
+  ...page,
+  seo: createSeoMetadata(page.routeId, page.locale.lang, {
+    title: page.copy.seoTitle,
+    description: page.copy.seoDescription,
+    image: page.ogImage
+  })
+}));

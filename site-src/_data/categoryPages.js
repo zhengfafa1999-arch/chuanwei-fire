@@ -1,5 +1,6 @@
 import { DIRECTORY_COPY, PRODUCT_FAMILIES, localizedText } from "./productDirectory.js";
 import { SITE_ORIGIN, SITE_ROUTES, SUPPORTED_LOCALES, createListingPageRoute, resolveSiteRoute } from "./siteRoutes.js";
+import { createSeoMetadata } from "./seo.js";
 
 function productCard(product, locale, pageRoute) {
   if (!product.routeId) {
@@ -26,6 +27,9 @@ export default PRODUCT_FAMILIES.flatMap((family) => SUPPORTED_LOCALES.map((local
   const copy = DIRECTORY_COPY[locale];
   const route = createListingPageRoute(family.routeId, locale);
   const familyName = localizedText(family.name, locale);
+  const seoTitle = `${familyName} | CHUANWEI FIRE`;
+  const seoDescription = localizedText(family.description, locale);
+  const ogImage = new URL(`/${family.image}`, SITE_ORIGIN).href;
   return {
     locale,
     copy,
@@ -33,10 +37,11 @@ export default PRODUCT_FAMILIES.flatMap((family) => SUPPORTED_LOCALES.map((local
     familyId: family.id,
     familyName,
     familyDescription: localizedText(family.description, locale),
-    seoTitle: `${familyName} | CHUANWEI FIRE`,
-    seoDescription: localizedText(family.description, locale),
+    seoTitle,
+    seoDescription,
     heroImage: `${route.assetPrefix}${family.image}`,
-    ogImage: new URL(`/${family.image}`, SITE_ORIGIN).href,
+    ogImage,
+    seo: createSeoMetadata(family.routeId, locale, { title: seoTitle, description: seoDescription, image: ogImage }),
     products: family.products.map((product) => productCard(product, locale, route)),
     whatsappHref: `https://wa.me/8617326528368?text=${encodeURIComponent(locale === "ar" ? `مرحباً، أحتاج إلى عرض سعر لفئة ${familyName}. سأرسل المقاس والتوصيل والكمية والوجهة.` : `Hello, I need a quotation for ${familyName}. I will provide the size, connection, quantity and destination.`)}`
   };

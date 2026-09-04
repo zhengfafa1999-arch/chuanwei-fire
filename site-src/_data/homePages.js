@@ -1,4 +1,5 @@
 import { createHomeRoute } from "./siteRoutes.js";
+import { createSeoMetadata } from "./seo.js";
 import chinese from "./homeChinese.js";
 
 const arabic = {
@@ -122,7 +123,7 @@ const englishRoute = createHomeRoute("en");
 const chineseRoute = createHomeRoute("zh");
 const arabicRoute = createHomeRoute("ar");
 
-export default [
+const pages = [
   {
     ...shared,
     route: englishRoute,
@@ -199,3 +200,12 @@ export default [
     languageCanonicalsJson: JSON.stringify(arabicRoute.languageCanonicals)
   }
 ];
+
+export default pages.map((page) => ({
+  ...page,
+  seo: createSeoMetadata("home", page.languageCode, {
+    title: page.title,
+    description: page.description,
+    image: "https://chuanweifire.com/og-image.jpg"
+  })
+}));

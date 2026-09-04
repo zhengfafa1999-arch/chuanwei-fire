@@ -12,20 +12,7 @@ eleventyExcludeFromCollections: true
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>{{ entry.copy.seoTitle }}</title>
-  <meta name="description" content="{{ entry.copy.seoDescription }}">
-  <link rel="canonical" href="{{ entry.route.canonical }}">
-  <link rel="alternate" hreflang="{{ entry.locale.lang }}" href="{{ entry.route.canonical }}">
-  <link rel="alternate" hreflang="{% if entry.locale.lang == 'en' %}ar{% else %}en{% endif %}" href="{{ entry.route.alternate }}">
-  <link rel="alternate" hreflang="x-default" href="{{ entry.xDefault }}">
-  <meta property="og:type" content="website">
-  <meta property="og:site_name" content="CHUANWEI FIRE">
-  <meta property="og:title" content="{{ entry.copy.seoTitle }}">
-  <meta property="og:description" content="{{ entry.copy.seoDescription }}">
-  <meta property="og:url" content="{{ entry.route.canonical }}">
-  <meta property="og:image" content="{{ entry.ogImage }}">
-  <meta property="og:locale" content="{{ entry.locale.locale }}">
-  <meta property="og:locale:alternate" content="{% if entry.locale.lang == 'en' %}ar_AR{% else %}en_US{% endif %}">
+{% seoTags entry.seo %}
   <link rel="icon" href="{{ entry.route.assetPrefix }}favicon.ico" type="image/x-icon">
   <link rel="apple-touch-icon" href="{{ entry.route.assetPrefix }}apple-touch-icon.png">
   <link rel="stylesheet" href="{{ entry.route.assetPrefix }}css/common.css">

@@ -14,19 +14,7 @@ eleventyExcludeFromCollections: true
   <meta name="viewport" content="width=device-width,initial-scale=1">
 {% if entry.assetPrefix %}  <base href="../">
 {% endif %}
-  <title>{{ entry.title }}</title>
-  <meta name="description" content="{{ entry.description }}">
-  <link rel="canonical" href="{{ entry.canonical }}">
-{% for language, href in entry.route.languageCanonicals %}  <link rel="alternate" hreflang="{{ language }}" href="{{ href }}">
-{% endfor %}
-  <meta property="og:type" content="website">
-  <meta property="og:site_name" content="CHUANWEI FIRE">
-  <meta property="og:title" content="{{ entry.title }}">
-  <meta property="og:description" content="{{ entry.description }}">
-  <meta property="og:url" content="{{ entry.canonical }}">
-  <meta property="og:image" content="https://chuanweifire.com/og-image.jpg">
-  <meta property="og:locale" content="{{ entry.locale }}">
-  <meta property="og:locale:alternate" content="{{ entry.alternateLocale }}">
+{% seoTags entry.seo %}
   <link rel="icon" href="{{ entry.assetPrefix }}apple-touch-icon.png">
   <style>
     :root{--navy:#0a2742;--navy2:#123d60;--red:#d51d34;--ink:#142433;--muted:#607080;--line:#dce4ea;--soft:#f3f6f8;--white:#fff;--max:1180px;--shadow:0 18px 50px rgba(10,39,66,.12)}
