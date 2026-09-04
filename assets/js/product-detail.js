@@ -1,24 +1,6 @@
 (() => {
   "use strict";
 
-  const languageKey = "chuanwei-site-language";
-  const currentLanguage = document.body.dataset.siteLanguage;
-  const alternateHref = document.body.dataset.languageAlternate;
-  const preferredLanguage = localStorage.getItem(languageKey);
-  const requestedLanguage = new URLSearchParams(window.location.search).get("lang");
-  const hasExplicitLanguageView = requestedLanguage === currentLanguage;
-
-  document.querySelectorAll("[data-site-language-choice]").forEach((link) => {
-    link.addEventListener("click", () => {
-      localStorage.setItem(languageKey, link.dataset.siteLanguageChoice);
-    });
-  });
-
-  if (!hasExplicitLanguageView && (preferredLanguage === "en" || preferredLanguage === "ar") && preferredLanguage !== currentLanguage && alternateHref) {
-    window.location.replace(alternateHref);
-    return;
-  }
-
   const modal = document.getElementById("productModal");
   if (modal) {
     const modalImage = modal.querySelector("img");

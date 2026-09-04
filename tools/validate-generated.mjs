@@ -120,15 +120,14 @@ const homePage = fs.readFileSync(path.join(root, "index.html"), "utf8");
 assert(homePage.includes('href="ar/index.html"'), "Homepage Arabic switch must point to an explicit file for local preview.");
 assert(homePage.includes('data-site-language-choice="ar"'), "Homepage Arabic switch must persist the Arabic preference.");
 assert(homePage.includes("GENERATED FILE"), "English homepage must be generated from the shared homepage template.");
-assert(homePage.includes('data-home-language="en"'), "English homepage is missing its generated language marker.");
+assert(homePage.includes('data-site-language="en" data-site-route-id="home"'), "English homepage is missing its shared navigation markers.");
 assert(homePage.includes('hreflang="zh-CN" href="https://chuanweifire.com/zh/"'), "Homepage is missing its Chinese hreflang.");
 assert(homePage.includes('hreflang="x-default" href="https://chuanweifire.com/"'), "Homepage x-default must resolve to English.");
-assert(homePage.includes("localStorage.getItem('chuanwei-site-language')"), "Homepage must restore the shared language preference.");
-assert(homePage.includes("location.replace(languageLinks[storedLanguage])"), "Homepage must route to the saved localized homepage.");
+assert(homePage.includes('assets/js/site-navigation.js'), "Homepage must use the shared navigation behavior.");
 
 const chineseHomePage = fs.readFileSync(path.join(root, "zh/index.html"), "utf8");
 assert(chineseHomePage.includes("GENERATED FILE"), "Chinese homepage must be generated from the shared homepage template.");
-assert(chineseHomePage.includes('data-home-language="zh"'), "Chinese homepage is missing its generated language marker.");
+assert(chineseHomePage.includes('data-site-language="zh" data-site-route-id="home"'), "Chinese homepage is missing its shared navigation markers.");
 assert(chineseHomePage.includes('<html lang="zh-CN" dir="ltr">'), "Chinese homepage has incorrect language metadata.");
 assert(chineseHomePage.includes('<link rel="canonical" href="https://chuanweifire.com/zh/">'), "Chinese homepage has an incorrect canonical URL.");
 assert(chineseHomePage.includes("消防设备制造与OEM配套支持"), "Chinese homepage is missing build-time localized copy.");
@@ -136,16 +135,17 @@ assert(!chineseHomePage.includes('data-zh='), "Chinese homepage copy must come f
 
 const arabicHomePage = fs.readFileSync(path.join(root, "ar/index.html"), "utf8");
 assert(arabicHomePage.includes("GENERATED FILE"), "Arabic homepage must be generated from the shared homepage template.");
-assert(arabicHomePage.includes('data-home-language="ar"'), "Arabic homepage is missing its generated language marker.");
+assert(arabicHomePage.includes('data-site-language="ar" data-site-route-id="home"'), "Arabic homepage is missing its shared navigation markers.");
 assert(arabicHomePage.includes('<base href="../">'), "Arabic homepage must resolve shared root assets in local preview.");
 assert(arabicHomePage.includes('href="ar/products/system-valves/index.html"'), "Arabic homepage must route alarm-valve visitors to the Arabic category page.");
 assert(arabicHomePage.includes("تصنيع معدات مكافحة الحريق"), "Arabic homepage is missing its localized content data.");
 assert(arabicHomePage.includes('hreflang="zh-CN" href="https://chuanweifire.com/zh/"'), "Arabic homepage is missing its Chinese hreflang.");
 
 const detailScript = fs.readFileSync(path.join(root, "assets/js/product-detail.js"), "utf8");
-assert(detailScript.includes('chuanwei-site-language'), "Product detail script must read the shared language preference.");
-assert(detailScript.includes('window.location.replace(alternateHref)'), "Product detail script must route to the preferred localized page.");
-assert(detailScript.includes('hasExplicitLanguageView'), "Product detail script must allow an explicitly selected fallback-language page.");
+assert(!detailScript.includes("location.replace"), "Product detail behavior must not redirect an explicitly opened language URL.");
+const navigationScript = fs.readFileSync(path.join(root, "assets/js/site-navigation.js"), "utf8");
+assert(navigationScript.includes('routeId === "home"'), "Shared navigation must preserve legacy homepage query-language links.");
+assert(!navigationScript.includes("storedLanguageLink"), "Shared navigation must not redirect explicit inner-page URLs from a stored preference.");
 
 const sitemap = fs.readFileSync(path.join(root, "sitemap.xml"), "utf8");
 for (const page of pages) assert(sitemap.includes(`<loc>${page.selfCanonical}</loc>`), `Sitemap is missing ${page.selfCanonical}.`);

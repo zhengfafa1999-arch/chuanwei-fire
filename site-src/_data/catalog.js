@@ -3,6 +3,7 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { createProductPageRoute } from "./siteRoutes.js";
 import { createSeoMetadata } from "./seo.js";
+import { createSiteNavigation } from "./navigation.js";
 
 const dataDirectory = path.dirname(fileURLToPath(import.meta.url));
 const sourceDirectory = path.resolve(dataDirectory, "..");
@@ -187,6 +188,7 @@ const pages = [
 
 export default pages.map((page) => ({
   ...page,
+  navigation: createSiteNavigation(page.routeId, page.locale.lang, page.route.outputPath),
   seo: createSeoMetadata(page.routeId, page.locale.lang, {
     title: page.copy.seoTitle,
     description: page.copy.seoDescription,

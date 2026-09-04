@@ -1,0 +1,14 @@
+<header class="global-header" data-global-header>
+  <div class="global-header__inner">
+    <a class="global-brand" href="{{ entry.navigation.homeHref }}" aria-label="CHUANWEI FIRE home"><img src="{{ entry.navigation.assetPrefix }}apple-touch-icon.png" alt="CHUANWEI FIRE" width="40" height="40"><span><strong>CHUANWEI FIRE</strong><small>{{ entry.navigation.brandTagline }}</small></span></a>
+    <button class="global-menu" type="button" data-nav-toggle aria-expanded="false" aria-controls="site-primary-navigation" aria-label="{{ entry.navigation.menu }}">☰</button>
+    <nav class="global-nav" id="site-primary-navigation" data-site-nav aria-label="{{ entry.navigation.primaryLabel }}">
+{% for item in entry.navigation.primaryItems %}      <a href="{{ item.href }}" data-site-nav-item="{{ item.id }}"{% if item.current %} aria-current="page"{% endif %}>{{ item.label }}</a>
+{% endfor %}    </nav>
+    <div class="global-languages" aria-label="{{ entry.navigation.languageLabel }}">
+{% for item in entry.navigation.languageItems %}      <a href="{{ item.href }}" lang="{{ item.lang }}" dir="{{ item.dir }}" data-site-language-choice="{{ item.language }}" data-language-status="{{ item.status }}" title="{{ item.title }}"{% if item.current %} aria-current="true"{% endif %}>{{ item.label }}</a>
+{% endfor %}    </div>
+{% if entry.navigation.kind == 'product' %}    <a class="global-header__quote" href="#inquiry">{{ entry.navigation.quote }}</a>
+{% endif %}  </div>
+</header>
+

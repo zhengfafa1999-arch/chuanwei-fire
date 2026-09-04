@@ -1,6 +1,7 @@
 import { DIRECTORY_COPY, PRODUCT_FAMILIES, localizedText } from "./productDirectory.js";
 import { SITE_ORIGIN, SITE_ROUTES, SUPPORTED_LOCALES, createListingPageRoute, resolveSiteRoute } from "./siteRoutes.js";
 import { createSeoMetadata } from "./seo.js";
+import { createSiteNavigation } from "./navigation.js";
 
 function productCard(product, locale, pageRoute) {
   if (!product.routeId) {
@@ -18,7 +19,7 @@ function productCard(product, locale, pageRoute) {
   return {
     name: localizedText(product.name, locale),
     image: `${pageRoute.assetPrefix}${product.image}`,
-    href: targetLocale === locale ? resolvedHref : `${resolvedHref}?lang=${targetLocale}`,
+    href: resolvedHref,
     linkType: targetLocale === locale ? "localized" : "english"
   };
 }
@@ -34,6 +35,7 @@ export default PRODUCT_FAMILIES.flatMap((family) => SUPPORTED_LOCALES.map((local
     locale,
     copy,
     route,
+    navigation: createSiteNavigation(family.routeId, locale, route.outputPath),
     familyId: family.id,
     familyName,
     familyDescription: localizedText(family.description, locale),

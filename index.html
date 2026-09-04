@@ -31,6 +31,7 @@
 <meta name="twitter:image:alt" content="CHUANWEI FIRE | Fire Protection Equipment Manufacturer &amp; OEM Support">
 <!-- SEO:END -->
   <link rel="icon" href="apple-touch-icon.png">
+  <link rel="stylesheet" href="css/site-navigation.css">
   <style>
     :root{--navy:#0a2742;--navy2:#123d60;--red:#d51d34;--ink:#142433;--muted:#607080;--line:#dce4ea;--soft:#f3f6f8;--white:#fff;--max:1180px;--shadow:0 18px 50px rgba(10,39,66,.12)}
     *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Inter,Arial,"Microsoft YaHei",sans-serif;color:var(--ink);background:#fff;line-height:1.6}a{color:inherit;text-decoration:none}img{display:block;max-width:100%}button,input,textarea,select{font:inherit}.container{width:min(var(--max),calc(100% - 40px));margin:auto}.eyebrow{margin:0 0 10px;color:var(--red);font-size:12px;font-weight:800;letter-spacing:.16em;text-transform:uppercase}.section{padding:82px 0}.section.soft{background:var(--soft)}.heading{display:flex;justify-content:space-between;gap:40px;align-items:end;margin-bottom:34px}.heading h2{max-width:700px;margin:0;font-size:clamp(28px,4vw,46px);line-height:1.12;color:var(--navy)}.heading>p{max-width:460px;margin:0;color:var(--muted)}
@@ -49,14 +50,27 @@
     html[dir="rtl"] body{font-family:Arial,"Tahoma","Microsoft YaHei",sans-serif}html[dir="rtl"] .brand{margin-right:0;margin-left:auto}html[dir="rtl"] .proof div{border-right:0;border-left:1px solid rgba(255,255,255,.18)}html[dir="rtl"] .fact,html[dir="rtl"] .cert-note{border-left:0;border-right:3px solid var(--red)}html[dir="rtl"] .cert-note{border-right-width:4px}html[dir="rtl"] .intro-photo span{left:auto;right:18px}html[dir="rtl"] .social-float{right:auto;left:24px}
   </style>
 <style>.social-float{position:fixed;bottom:24px;right:24px;z-index:999;display:flex;flex-direction:column;align-items:center;gap:12px}.social-float__item{width:48px;height:48px;border-radius:50%;display:flex;align-items:center;justify-content:center;box-shadow:0 4px 12px rgba(0,0,0,.15);transition:all .25s}.social-float__item:hover{transform:scale(1.15);box-shadow:0 6px 16px rgba(0,0,0,.2)}.social-float__item--whatsapp{background:#25D366}.social-float__item--whatsapp:hover{background:#1da851}.social-float__item--facebook{background:#1877F2}.social-float__item--facebook:hover{background:#0d65d9}.social-float__item--linkedin{background:#0A66C2}.social-float__item--linkedin:hover{background:#084e96}@media(max-width:640px){.social-float{bottom:16px;right:16px;gap:8px}.social-float__item{width:42px;height:42px}}</style></head>
-<body data-home-language="en">
-  <header class="header">
-    <div class="container header-in">
-      <a class="brand" href="#home"><img src="apple-touch-icon.png" alt="CHUANWEI FIRE"><span><strong>CHUANWEI FIRE</strong><small data-copy-key="Fire protection equipment">Fire protection equipment</small></span></a>
-      <nav class="nav"><a href="#products" data-copy-key="Products">Products</a><a href="about.html" data-copy-key="About">About</a><a href="#manufacturing" data-copy-key="Manufacturing">Manufacturing</a><a href="downloads.html" data-copy-key="Downloads">Downloads</a><a href="contact.html" data-copy-key="Contact">Contact</a></nav>
-      <div class="langs" aria-label="Language selector"><a href="index.html" lang="en" data-site-language-choice="en" class="active">EN</a><a href="zh/index.html" lang="zh-CN" data-site-language-choice="zh">中</a><a href="ar/index.html" lang="ar" dir="rtl" data-site-language-choice="ar">العربية</a></div>
+<body data-site-language="en" data-site-route-id="home">
+<header class="global-header" data-global-header>
+  <div class="global-header__inner">
+    <a class="global-brand" href="index.html" aria-label="CHUANWEI FIRE home"><img src="apple-touch-icon.png" alt="CHUANWEI FIRE" width="40" height="40"><span><strong>CHUANWEI FIRE</strong><small>Fire protection equipment manufacturer</small></span></a>
+    <button class="global-menu" type="button" data-nav-toggle aria-expanded="false" aria-controls="site-primary-navigation" aria-label="Open main navigation">☰</button>
+    <nav class="global-nav" id="site-primary-navigation" data-site-nav aria-label="Main navigation">
+      <a href="index.html" data-site-nav-item="home" aria-current="page">Home</a>
+      <a href="products.html" data-site-nav-item="products">Products</a>
+      <a href="about.html" data-site-nav-item="about">About</a>
+      <a href="downloads.html" data-site-nav-item="downloads">Catalog &amp; Files</a>
+      <a href="contact.html" data-site-nav-item="contact">Contact</a>
+    </nav>
+    <div class="global-languages" aria-label="Language selector">
+      <a href="index.html" lang="en" dir="ltr" data-site-language-choice="en" data-language-status="published" title="English" aria-current="true">EN</a>
+      <a href="zh/index.html" lang="zh-CN" dir="ltr" data-site-language-choice="zh" data-language-status="published" title="中文">中</a>
+      <a href="ar/index.html" lang="ar" dir="rtl" data-site-language-choice="ar" data-language-status="published" title="العربية">العربية</a>
     </div>
-  </header>
+  </div>
+</header>
+
+
 
   <main>
     <section class="hero" id="home">
@@ -121,20 +135,8 @@
   <footer class="footer"><div class="container footer-in"><div><strong>CHUANWEI FIRE</strong><br><span data-copy-key="Fire protection equipment manufacturing and supply">Fire protection equipment manufacturing and supply</span></div><div class="disclaimer" data-copy-key="Website information is for product-range reference. Final specifications, connection standards, test documentation and certificate applicability are confirmed by model and order before supply.">Website information is for product-range reference. Final specifications, connection standards, test documentation and certificate applicability are confirmed by model and order before supply.</div><div>© 2026</div></div></footer>
 
   <div class="modal" id="imageModal"><button type="button" aria-label="Close">×</button><img src="assets/home/certificates/iso-9001.png" alt="Certificate preview"></div>
+  <script src="assets/js/site-navigation.js"></script>
   <script>
-    const homeLanguage='en',languageLinks={"en":"index.html","zh":"zh/index.html","ar":"ar/index.html"};
-    const supportedLanguages=['en','zh','ar'];
-    const saveLanguage=lang=>{localStorage.setItem('lang',lang);localStorage.setItem('chuanwei-site-language',lang)};
-    document.querySelectorAll('[data-site-language-choice]').forEach(link=>link.addEventListener('click',()=>saveLanguage(link.dataset.siteLanguageChoice)));
-    const requestedLanguage=new URLSearchParams(location.search).get('lang');
-    const storedLanguage=localStorage.getItem('chuanwei-site-language')||localStorage.getItem('lang');
-    const explicitLanguage=supportedLanguages.includes(requestedLanguage)?requestedLanguage:null;
-    if(explicitLanguage&&explicitLanguage!==homeLanguage){saveLanguage(explicitLanguage);location.replace(languageLinks[explicitLanguage])}
-    else if(homeLanguage==='en'&&!explicitLanguage&&supportedLanguages.includes(storedLanguage)&&storedLanguage!=='en'){location.replace(languageLinks[storedLanguage])}
-    else{saveLanguage(homeLanguage)}
-    if(homeLanguage!=='en'){
-      document.querySelectorAll('a[href^="#"]').forEach(link=>link.addEventListener('click',event=>{event.preventDefault();document.querySelector(link.getAttribute('href'))?.scrollIntoView()}));
-    }
     const modal=document.getElementById('imageModal'),modalImg=modal.querySelector('img');
     const closeModal=()=>{modal.classList.remove('open');document.body.style.overflow=''};
     document.querySelectorAll('[data-lightbox]').forEach(btn=>btn.addEventListener('click',()=>{modalImg.src=btn.dataset.lightbox;modal.classList.add('open');document.body.style.overflow='hidden'}));

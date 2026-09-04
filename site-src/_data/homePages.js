@@ -1,5 +1,6 @@
 import { createHomeRoute } from "./siteRoutes.js";
 import { createSeoMetadata } from "./seo.js";
+import { createSiteNavigation } from "./navigation.js";
 import chinese from "./homeChinese.js";
 
 const arabic = {
@@ -203,6 +204,7 @@ const pages = [
 
 export default pages.map((page) => ({
   ...page,
+  navigation: createSiteNavigation("home", page.languageCode, page.outputPath),
   seo: createSeoMetadata("home", page.languageCode, {
     title: page.title,
     description: page.description,

@@ -3,6 +3,7 @@ import http from "node:http";
 import os from "node:os";
 import path from "node:path";
 import { spawn } from "node:child_process";
+import { SITE_ROUTES } from "../site-src/_data/siteRoutes.js";
 
 const root = process.cwd();
 const evidenceDirectory = path.join(root, "docs", "evidence", "multilingual-browser", "2026-09-04");
@@ -109,11 +110,23 @@ async function evaluate(client, expression) {
   return result.result.value;
 }
 
+function normalizedPathname(value) {
+  try {
+    return decodeURIComponent(value);
+  } catch {
+    return value;
+  }
+}
+
+function pathnameMatches(actual, expected) {
+  return normalizedPathname(actual) === normalizedPathname(expected);
+}
+
 async function navigate(client, url, expectedPath) {
   await client.send("Page.navigate", { url });
   for (let attempt = 0; attempt < 100; attempt += 1) {
     const state = await evaluate(client, "({readyState:document.readyState,path:location.pathname,search:location.search})");
-    if (state.readyState === "complete" && (!expectedPath || state.path === expectedPath)) return state;
+    if (state.readyState === "complete" && (!expectedPath || pathnameMatches(state.path, expectedPath))) return state;
     await delay(50);
   }
   throw new Error(`Timed out waiting for browser navigation to ${expectedPath || url}.`);
@@ -122,7 +135,7 @@ async function navigate(client, url, expectedPath) {
 async function waitForLocation(client, expectedPath, expectedSearch = null) {
   for (let attempt = 0; attempt < 100; attempt += 1) {
     const state = await evaluate(client, "({readyState:document.readyState,path:location.pathname,search:location.search})");
-    if (state.readyState === "complete" && state.path === expectedPath && (expectedSearch === null || state.search === expectedSearch)) return state;
+    if (state.readyState === "complete" && pathnameMatches(state.path, expectedPath) && (expectedSearch === null || state.search === expectedSearch)) return state;
     await delay(50);
   }
   throw new Error(`Timed out waiting for browser location ${expectedPath}${expectedSearch || ""}.`);
@@ -138,7 +151,11 @@ async function inspectPage(client) {
     canonical: document.querySelector('link[rel="canonical"]')?.href || '',
     hreflangs: Object.fromEntries([...document.querySelectorAll('link[rel="alternate"][hreflang]')].map((link) => [link.hreflang, link.href])),
     horizontalOverflow: Math.max(0, document.documentElement.scrollWidth - document.documentElement.clientWidth),
-    hasTemplateMarker: ['{{', '{%', '{#'].some((marker) => document.documentElement.outerHTML.includes(marker))
+    hasTemplateMarker: ['{{', '{%', '{#'].some((marker) => document.documentElement.outerHTML.includes(marker)),
+    globalHeaderCount: document.querySelectorAll('[data-global-header]').length,
+    primaryNavigationCount: document.querySelectorAll('[data-site-nav-item]').length,
+    activePrimaryCount: document.querySelectorAll('[data-site-nav-item][aria-current="page"]').length,
+    activeLanguageCount: document.querySelectorAll('[data-site-language-choice][aria-current="true"]').length
   })`);
 }
 
@@ -162,7 +179,7 @@ const pages = [
   { id: "water-curtain-ar", path: "/ar/products/water-curtain-nozzles/index.html?lang=ar", lang: "ar", dir: "rtl", marker: "ستارة" },
   { id: "water-mist-en", path: "/products/消防喷头/water-mist-nozzles.html?lang=en", lang: "en", dir: "ltr", marker: "Water Mist" },
   { id: "water-mist-ar", path: "/ar/products/water-mist-nozzles/index.html?lang=ar", lang: "ar", dir: "rtl", marker: "ضباب" },
-  { id: "fallback-en", path: "/products/消防阀/diaphragm-deluge-valves.html?lang=en", lang: "en", dir: "", marker: "Deluge" }
+  { id: "fallback-en", path: "/products/消防阀/diaphragm-deluge-valves.html", lang: "en", dir: "", marker: "Deluge" }
 ];
 
 const viewports = [
@@ -175,6 +192,10 @@ const publicPagePairs = [
   { id: "downloads", en: "/downloads.html", ar: "/ar/downloads.html" },
   { id: "contact", en: "/contact.html", ar: "/ar/contact.html" }
 ];
+
+const navigationPages = Object.entries(SITE_ROUTES).flatMap(([routeId, definition]) => Object.entries(definition.locales)
+  .filter(([, target]) => target.status === "published")
+  .map(([locale, target]) => ({ routeId, locale, path: `/${target.outputPath}` })));
 
 async function run() {
   assert(edgePath, "Microsoft Edge was not found. Set EDGE_PATH to a Chromium-compatible Edge executable.");
@@ -222,6 +243,8 @@ async function run() {
         assert(`${result.title} ${result.heading}`.includes(page.marker), `${viewport.id}/${page.id} is missing marker '${page.marker}'.`);
         assert(result.horizontalOverflow <= 1, `${viewport.id}/${page.id} has ${result.horizontalOverflow}px horizontal overflow.`);
         assert(!result.hasTemplateMarker, `${viewport.id}/${page.id} contains an unrendered template marker.`);
+        assert(result.globalHeaderCount === 1, `${viewport.id}/${page.id} does not have exactly one global header.`);
+        assert(result.primaryNavigationCount === 5 && result.activePrimaryCount === 1 && result.activeLanguageCount === 1, `${viewport.id}/${page.id} has an incomplete navigation state.`);
         if (page.id.startsWith("home-")) {
           assert(result.hreflangs.en === "https://chuanweifire.com/", `${page.id} has incorrect English hreflang.`);
           assert(result.hreflangs["zh-CN"] === "https://chuanweifire.com/zh/", `${page.id} has incorrect Chinese hreflang.`);
@@ -234,6 +257,21 @@ async function run() {
         }
         matrix.push({ viewport: viewport.id, width: viewport.width, height: viewport.height, page: page.id, status: "PASS", ...result });
       }
+    }
+
+    await client.send("Emulation.setDeviceMetricsOverride", { width: 390, height: 844, deviceScaleFactor: 1, mobile: true });
+    const navigationAudit = [];
+    for (const page of navigationPages) {
+      await navigate(client, `${origin}${encodeURI(page.path)}`, page.path);
+      const state = await inspectPage(client);
+      assert(state.globalHeaderCount === 1, `${page.path} is missing its shared global header.`);
+      assert(state.primaryNavigationCount === 5, `${page.path} does not expose all five primary destinations.`);
+      assert(state.activePrimaryCount === 1, `${page.path} does not identify exactly one primary section.`);
+      assert(state.activeLanguageCount === 1, `${page.path} does not identify exactly one current language.`);
+      await evaluate(client, `document.querySelector('[data-nav-toggle]').click()`);
+      const mobileMenu = await evaluate(client, `({open:document.querySelector('[data-site-nav]').classList.contains('open'),expanded:document.querySelector('[data-nav-toggle]').getAttribute('aria-expanded')})`);
+      assert(mobileMenu.open && mobileMenu.expanded === "true", `${page.path} mobile navigation did not open.`);
+      navigationAudit.push({ routeId: page.routeId, locale: page.locale, path: page.path, status: "PASS" });
     }
 
     await client.send("Emulation.setDeviceMetricsOverride", { width: 1440, height: 900, deviceScaleFactor: 1, mobile: false });
@@ -250,9 +288,9 @@ async function run() {
     assert(chineseSwitch.canonical === "https://chuanweifire.com/zh/", "Chinese homepage has an incorrect canonical URL.");
 
     await evaluate(client, `localStorage.setItem('chuanwei-site-language','ar')`);
-    await navigate(client, `${origin}/index.html`, "/ar/index.html");
-    const restoredArabic = await inspectPage(client);
-    assert(restoredArabic.lang === "ar", "Saved Arabic preference was not restored from the English homepage.");
+    await navigate(client, `${origin}/index.html`, "/index.html");
+    const explicitEnglish = await inspectPage(client);
+    assert(explicitEnglish.lang === "en", "The explicit English homepage must remain authoritative over a stored preference.");
     await evaluate(client, `localStorage.setItem('chuanwei-site-language','en')`);
     await navigate(client, `${origin}/ar/index.html`, "/ar/index.html");
     const directArabic = await inspectPage(client);
@@ -262,42 +300,34 @@ async function run() {
     const legacyChinese = await inspectPage(client);
     assert(legacyChinese.lang === "zh-CN", "The legacy Chinese query URL did not redirect to the dedicated Chinese homepage.");
 
-    await evaluate(client, `localStorage.setItem('chuanwei-site-language','zh')`);
-    await navigate(client, `${origin}/index.html`, "/zh/index.html");
-    const restoredChinese = await inspectPage(client);
-    assert(restoredChinese.lang === "zh-CN", "Saved Chinese preference was not restored from the English homepage.");
-
     const languageSwitches = [
       { scenario: "EN control to AR homepage", status: "PASS", finalUrl: arabicSwitch.url, lang: arabicSwitch.lang, dir: arabicSwitch.dir },
       { scenario: "AR control to dedicated Chinese homepage", status: "PASS", finalUrl: chineseSwitch.url, lang: chineseSwitch.lang, dir: chineseSwitch.dir, canonical: chineseSwitch.canonical },
-      { scenario: "saved AR preference from EN homepage", status: "PASS", finalUrl: restoredArabic.url, lang: restoredArabic.lang, dir: restoredArabic.dir },
+      { scenario: "explicit EN homepage overrides stored AR", status: "PASS", finalUrl: explicitEnglish.url, lang: explicitEnglish.lang, dir: explicitEnglish.dir },
       { scenario: "explicit AR URL overrides stored EN", status: "PASS", finalUrl: directArabic.url, lang: directArabic.lang, dir: directArabic.dir },
-      { scenario: "legacy Chinese query redirects to /zh/", status: "PASS", finalUrl: legacyChinese.url, lang: legacyChinese.lang, dir: legacyChinese.dir },
-      { scenario: "saved ZH preference from EN homepage", status: "PASS", finalUrl: restoredChinese.url, lang: restoredChinese.lang, dir: restoredChinese.dir }
+      { scenario: "legacy Chinese query redirects to /zh/", status: "PASS", finalUrl: legacyChinese.url, lang: legacyChinese.lang, dir: legacyChinese.dir }
     ];
 
     for (const page of publicPagePairs) {
       await evaluate(client, `localStorage.setItem('chuanwei-site-language','ar')`);
-      await navigate(client, `${origin}${page.en}`, page.ar);
-      const restoredPublicArabic = await inspectPage(client);
-      assert(restoredPublicArabic.lang === "ar" && restoredPublicArabic.dir === "rtl", `${page.id} did not restore the saved Arabic preference.`);
-      languageSwitches.push({ scenario: `${page.id}: restore saved AR from EN URL`, status: "PASS", finalUrl: restoredPublicArabic.url, lang: restoredPublicArabic.lang, dir: restoredPublicArabic.dir });
-
-      await evaluate(client, `document.querySelector('[data-site-language-choice="en"]').click()`);
-      await waitForLocation(client, page.en);
-      const switchedPublicEnglish = await inspectPage(client);
-      assert(switchedPublicEnglish.lang === "en" && switchedPublicEnglish.dir === "ltr", `${page.id} Arabic-to-English switch failed.`);
-      languageSwitches.push({ scenario: `${page.id}: switch AR to EN`, status: "PASS", finalUrl: switchedPublicEnglish.url, lang: switchedPublicEnglish.lang, dir: switchedPublicEnglish.dir });
-
-      await client.send("Page.reload", { ignoreCache: true });
-      await waitForLocation(client, page.en);
-      const refreshedPublicEnglish = await inspectPage(client);
-      assert(refreshedPublicEnglish.lang === "en", `${page.id} did not retain English after refresh.`);
-      languageSwitches.push({ scenario: `${page.id}: refresh retains EN`, status: "PASS", finalUrl: refreshedPublicEnglish.url, lang: refreshedPublicEnglish.lang, dir: refreshedPublicEnglish.dir });
+      await navigate(client, `${origin}${page.en}`, page.en);
+      const explicitPublicEnglish = await inspectPage(client);
+      assert(explicitPublicEnglish.lang === "en" && explicitPublicEnglish.dir === "ltr", `${page.id} did not respect its explicit English URL.`);
+      languageSwitches.push({ scenario: `${page.id}: explicit EN overrides stored AR`, status: "PASS", finalUrl: explicitPublicEnglish.url, lang: explicitPublicEnglish.lang, dir: explicitPublicEnglish.dir });
 
       await evaluate(client, `document.querySelector('[data-site-language-choice="ar"]').click()`);
       await waitForLocation(client, page.ar);
-      await evaluate(client, `document.querySelector('.brand').click()`);
+      const switchedPublicArabic = await inspectPage(client);
+      assert(switchedPublicArabic.lang === "ar" && switchedPublicArabic.dir === "rtl", `${page.id} English-to-Arabic switch failed.`);
+      languageSwitches.push({ scenario: `${page.id}: switch EN to AR`, status: "PASS", finalUrl: switchedPublicArabic.url, lang: switchedPublicArabic.lang, dir: switchedPublicArabic.dir });
+
+      await client.send("Page.reload", { ignoreCache: true });
+      await waitForLocation(client, page.ar);
+      const refreshedPublicArabic = await inspectPage(client);
+      assert(refreshedPublicArabic.lang === "ar", `${page.id} did not retain Arabic after refresh.`);
+      languageSwitches.push({ scenario: `${page.id}: refresh retains AR`, status: "PASS", finalUrl: refreshedPublicArabic.url, lang: refreshedPublicArabic.lang, dir: refreshedPublicArabic.dir });
+
+      await evaluate(client, `document.querySelector('.global-brand').click()`);
       await waitForLocation(client, "/ar/index.html");
       await evaluate(client, "history.back()");
       await waitForLocation(client, page.ar);
@@ -305,12 +335,32 @@ async function run() {
       assert(returnedPublicArabic.lang === "ar" && returnedPublicArabic.dir === "rtl", `${page.id} did not return to its Arabic page from the homepage.`);
       languageSwitches.push({ scenario: `${page.id}: browser back returns to AR page`, status: "PASS", finalUrl: returnedPublicArabic.url, lang: returnedPublicArabic.lang, dir: returnedPublicArabic.dir });
     }
+
+    await navigate(client, `${origin}/ar/products/sprinklers/index.html`, "/ar/products/sprinklers/index.html");
+    await evaluate(client, `document.querySelector('a[href*="standard-response-fire-sprinkler.html"]').click()`);
+    await waitForLocation(client, "/products/消防喷头/standard-response-fire-sprinkler.html");
+    const englishFallback = await inspectPage(client);
+    assert(englishFallback.lang === "en", "An untranslated product opened from Arabic must remain available in English.");
+    languageSwitches.push({ scenario: "AR category opens untranslated EN product without redirect loop", status: "PASS", finalUrl: englishFallback.url, lang: englishFallback.lang, dir: englishFallback.dir });
+    await evaluate(client, `document.querySelector('[data-site-language-choice="ar"]').click()`);
+    await waitForLocation(client, "/ar/products/sprinklers/index.html");
+    const fallbackCategory = await inspectPage(client);
+    assert(fallbackCategory.lang === "ar", "Fallback Arabic language control did not return to the matching category.");
+    languageSwitches.push({ scenario: "untranslated EN product AR control returns to matching category", status: "PASS", finalUrl: fallbackCategory.url, lang: fallbackCategory.lang, dir: fallbackCategory.dir });
+
+    await navigate(client, `${origin}/ar/products/wet-alarm-check-valve/index.html`, "/ar/products/wet-alarm-check-valve/index.html");
+    await evaluate(client, `document.querySelector('[data-site-nav-item="products"]').click()`);
+    await waitForLocation(client, "/ar/products.html");
+    const arabicProductNavigation = await inspectPage(client);
+    assert(arabicProductNavigation.lang === "ar", "Arabic product navigation did not preserve the selected language.");
+    languageSwitches.push({ scenario: "AR product global navigation preserves Arabic", status: "PASS", finalUrl: arabicProductNavigation.url, lang: arabicProductNavigation.lang, dir: arabicProductNavigation.dir });
     const evidence = {
       generatedAt: new Date().toISOString(),
       browser: version.Browser,
       protocolVersion: version["Protocol-Version"],
       viewports,
       matrix,
+      navigationAudit,
       languageSwitches,
       screenshots: viewports.flatMap((viewport) => ["home-en", "home-zh", "home-ar", "about-en", "about-ar", "downloads-en", "downloads-ar", "contact-en", "contact-ar"].map((page) => `edge-${viewport.id}-${page}.png`))
     };
@@ -321,7 +371,7 @@ async function run() {
       `- 生成时间：${evidence.generatedAt}`,
       `- 浏览器：${evidence.browser}`,
       `- DevTools 协议：${evidence.protocolVersion}`,
-      `- 结果：${matrix.length} 个页面/视口组合通过；${languageSwitches.length} 个语言切换与偏好恢复场景通过。`,
+      `- 结果：${matrix.length} 个页面/视口组合通过；${navigationAudit.length} 个正式页面移动端导航通过；${languageSwitches.length} 个语言与返回场景通过。`,
       "",
       "## 视口矩阵",
       "",
@@ -331,14 +381,14 @@ async function run() {
       "",
       "## 覆盖范围",
       "",
-      "英文/中文/阿文首页、产品总目录、关于我们、下载中心、联系页面、报警阀分类页、湿式报警阀/水幕喷头/水雾喷头三组双语详情、未翻译雨淋阀英文安全回退，以及首页六个语言路由场景和三个公共页面各自的恢复、切换、刷新、返回场景。",
+      "英文/中文/阿文首页、产品总目录、关于我们、下载中心、联系页面、分类页、双语详情与未翻译英文详情；另逐一打开全部 64 个正式页面的移动端主导航，并验证显式网址优先、语言切换、刷新、浏览器返回、阿文分类到英文回退详情及阿文全局导航。",
       "",
       "## 可复核产物",
       "",
       "逐页 URL、语言、方向、canonical、hreflang、横向溢出与标题数据见 `browser-validation.json`；同目录含英文/中文/阿文首页及三个公共页面的桌面与手机截图。"
     ].join("\n");
     fs.writeFileSync(path.join(evidenceDirectory, "README.md"), `${markdown}\n`);
-    console.log(`Browser validation passed: ${matrix.length} page/viewport checks and ${languageSwitches.length} language-switch checks on ${version.Browser}.`);
+    console.log(`Browser validation passed: ${matrix.length} page/viewport checks, ${navigationAudit.length} full-site mobile navigation checks and ${languageSwitches.length} language/return checks on ${version.Browser}.`);
   } finally {
     client?.close();
     browser.kill();

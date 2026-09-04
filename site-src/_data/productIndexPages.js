@@ -1,6 +1,7 @@
 import { DIRECTORY_COPY, PRODUCT_FAMILIES, localizedText } from "./productDirectory.js";
 import { SITE_ORIGIN, SUPPORTED_LOCALES, createListingPageRoute, resolveSiteRoute } from "./siteRoutes.js";
 import { createSeoMetadata } from "./seo.js";
+import { createSiteNavigation } from "./navigation.js";
 
 export default SUPPORTED_LOCALES.map((locale) => {
   const copy = DIRECTORY_COPY[locale];
@@ -12,6 +13,7 @@ export default SUPPORTED_LOCALES.map((locale) => {
     locale,
     copy,
     route,
+    navigation: createSiteNavigation("products", locale, route.outputPath),
     seoTitle,
     seoDescription,
     ogImage,

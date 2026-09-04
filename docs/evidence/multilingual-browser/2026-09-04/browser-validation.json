@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-04T15:53:06.500Z",
+  "generatedAt": "2026-09-04T17:01:20.681Z",
   "browser": "Edg/152.0.4191.62",
   "protocolVersion": "1.3",
   "viewports": [
@@ -25,7 +25,7 @@
       "height": 900,
       "page": "home-en",
       "status": "PASS",
-      "url": "http://127.0.0.1:52908/index.html?lang=en",
+      "url": "http://127.0.0.1:54583/index.html?lang=en",
       "lang": "en",
       "dir": "ltr",
       "title": "CHUANWEI FIRE | Fire Protection Equipment Manufacturer & OEM Support",
@@ -38,7 +38,11 @@
         "x-default": "https://chuanweifire.com/"
       },
       "horizontalOverflow": 0,
-      "hasTemplateMarker": false
+      "hasTemplateMarker": false,
+      "globalHeaderCount": 1,
+      "primaryNavigationCount": 5,
+      "activePrimaryCount": 1,
+      "activeLanguageCount": 1
     },
     {
       "viewport": "desktop",
@@ -46,7 +50,7 @@
       "height": 900,
       "page": "home-zh",
       "status": "PASS",
-      "url": "http://127.0.0.1:52908/zh/index.html",
+      "url": "http://127.0.0.1:54583/zh/index.html",
       "lang": "zh-CN",
       "dir": "ltr",
       "title": "CHUANWEI FIRE | 消防设备制造商与 OEM 配套支持",
@@ -59,7 +63,11 @@
         "x-default": "https://chuanweifire.com/"
       },
       "horizontalOverflow": 0,
-      "hasTemplateMarker": false
+      "hasTemplateMarker": false,
+      "globalHeaderCount": 1,
+      "primaryNavigationCount": 5,
+      "activePrimaryCount": 1,
+      "activeLanguageCount": 1
     },
     {
       "viewport": "desktop",
@@ -67,7 +75,7 @@
       "height": 900,
       "page": "home-ar",
       "status": "PASS",
-      "url": "http://127.0.0.1:52908/ar/index.html?lang=ar",
+      "url": "http://127.0.0.1:54583/ar/index.html?lang=ar",
       "lang": "ar",
       "dir": "rtl",
       "title": "CHUANWEI FIRE | تصنيع معدات مكافحة الحريق ودعم OEM",
@@ -80,7 +88,11 @@
         "x-default": "https://chuanweifire.com/"
       },
       "horizontalOverflow": 0,
-      "hasTemplateMarker": false
+      "hasTemplateMarker": false,
+      "globalHeaderCount": 1,
+      "primaryNavigationCount": 5,
+      "activePrimaryCount": 1,
+      "activeLanguageCount": 1
     },
     {
       "viewport": "desktop",
@@ -88,7 +100,7 @@
       "height": 900,
       "page": "catalog-en",
       "status": "PASS",
-      "url": "http://127.0.0.1:52908/products.html",
+      "url": "http://127.0.0.1:54583/products.html",
       "lang": "en",
       "dir": "ltr",
       "title": "Fire Protection Product Directory | CHUANWEI FIRE",
@@ -100,7 +112,11 @@
         "x-default": "https://chuanweifire.com/products.html"
       },
       "horizontalOverflow": 0,
-      "hasTemplateMarker": false
+      "hasTemplateMarker": false,
+      "globalHeaderCount": 1,
+      "primaryNavigationCount": 5,
+      "activePrimaryCount": 1,
+      "activeLanguageCount": 1
     },
     {
       "viewport": "desktop",
@@ -108,7 +124,7 @@
       "height": 900,
       "page": "catalog-ar",
       "status": "PASS",
-      "url": "http://127.0.0.1:52908/ar/products.html",
+      "url": "http://127.0.0.1:54583/ar/products.html",
       "lang": "ar",
       "dir": "rtl",
       "title": "دليل منتجات مكافحة الحريق | CHUANWEI FIRE",
@@ -120,7 +136,11 @@
         "x-default": "https://chuanweifire.com/products.html"
       },
       "horizontalOverflow": 0,
-      "hasTemplateMarker": false
+      "hasTemplateMarker": false,
+      "globalHeaderCount": 1,
+      "primaryNavigationCount": 5,
+      "activePrimaryCount": 1,
+      "activeLanguageCount": 1
     },
     {
       "viewport": "desktop",
@@ -128,7 +148,7 @@
       "height": 900,
       "page": "about-en",
       "status": "PASS",
-      "url": "http://127.0.0.1:52908/about.html",
+      "url": "http://127.0.0.1:54583/about.html",
       "lang": "en",
       "dir": "ltr",
       "title": "About the Manufacturer | CHUANWEI FIRE",
@@ -140,7 +160,11 @@
         "x-default": "https://chuanweifire.com/about.html"
       },
       "horizontalOverflow": 0,
-      "hasTemplateMarker": false
+      "hasTemplateMarker": false,
+      "globalHeaderCount": 1,
+      "primaryNavigationCount": 5,
+      "activePrimaryCount": 1,
+      "activeLanguageCount": 1
     },
     {
       "viewport": "desktop",
@@ -148,7 +172,7 @@
       "height": 900,
       "page": "about-ar",
       "status": "PASS",
-      "url": "http://127.0.0.1:52908/ar/about.html",
+      "url": "http://127.0.0.1:54583/ar/about.html",
       "lang": "ar",
       "dir": "rtl",
       "title": "عن الشركة | CHUANWEI FIRE",
@@ -160,7 +184,11 @@
         "x-default": "https://chuanweifire.com/about.html"
       },
       "horizontalOverflow": 0,
-      "hasTemplateMarker": false
+      "hasTemplateMarker": false,
+      "globalHeaderCount": 1,
+      "primaryNavigationCount": 5,
+      "activePrimaryCount": 1,
+      "activeLanguageCount": 1
     },
     {
       "viewport": "desktop",
@@ -168,7 +196,7 @@
       "height": 900,
       "page": "downloads-en",
       "status": "PASS",
-      "url": "http://127.0.0.1:52908/downloads.html",
+      "url": "http://127.0.0.1:54583/downloads.html",
       "lang": "en",
       "dir": "ltr",
       "title": "Catalog & Files | CHUANWEI FIRE",
@@ -180,7 +208,11 @@
         "x-default": "https://chuanweifire.com/downloads.html"
       },
       "horizontalOverflow": 0,
-      "hasTemplateMarker": false
+      "hasTemplateMarker": false,
+      "globalHeaderCount": 1,
+      "primaryNavigationCount": 5,
+      "activePrimaryCount": 1,
+      "activeLanguageCount": 1
     },
     {
       "viewport": "desktop",
@@ -188,7 +220,7 @@
       "height": 900,
       "page": "downloads-ar",
       "status": "PASS",
-      "url": "http://127.0.0.1:52908/ar/downloads.html",
+      "url": "http://127.0.0.1:54583/ar/downloads.html",
       "lang": "ar",
       "dir": "rtl",
       "title": "الكتالوج والملفات | CHUANWEI FIRE",
@@ -200,7 +232,11 @@
         "x-default": "https://chuanweifire.com/downloads.html"
       },
       "horizontalOverflow": 0,
-      "hasTemplateMarker": false
+      "hasTemplateMarker": false,
+      "globalHeaderCount": 1,
+      "primaryNavigationCount": 5,
+      "activePrimaryCount": 1,
+      "activeLanguageCount": 1
     },
     {
       "viewport": "desktop",
@@ -208,7 +244,7 @@
       "height": 900,
       "page": "contact-en",
       "status": "PASS",
-      "url": "http://127.0.0.1:52908/contact.html",
+      "url": "http://127.0.0.1:54583/contact.html",
       "lang": "en",
       "dir": "ltr",
       "title": "Contact & Inquiry | CHUANWEI FIRE",
@@ -220,7 +256,11 @@
         "x-default": "https://chuanweifire.com/contact.html"
       },
       "horizontalOverflow": 0,
-      "hasTemplateMarker": false
+      "hasTemplateMarker": false,
+      "globalHeaderCount": 1,
+      "primaryNavigationCount": 5,
+      "activePrimaryCount": 1,
+      "activeLanguageCount": 1
     },
     {
       "viewport": "desktop",
@@ -228,7 +268,7 @@
       "height": 900,
       "page": "contact-ar",
       "status": "PASS",
-      "url": "http://127.0.0.1:52908/ar/contact.html",
+      "url": "http://127.0.0.1:54583/ar/contact.html",
       "lang": "ar",
       "dir": "rtl",
       "title": "تواصل واستفسار | CHUANWEI FIRE",
@@ -240,7 +280,11 @@
         "x-default": "https://chuanweifire.com/contact.html"
       },
       "horizontalOverflow": 0,
-      "hasTemplateMarker": false
+      "hasTemplateMarker": false,
+      "globalHeaderCount": 1,
+      "primaryNavigationCount": 5,
+      "activePrimaryCount": 1,
+      "activeLanguageCount": 1
     },
     {
       "viewport": "desktop",
@@ -248,7 +292,7 @@
       "height": 900,
       "page": "category-en",
       "status": "PASS",
-      "url": "http://127.0.0.1:52908/products/%E6%B6%88%E9%98%B2%E9%98%80.html",
+      "url": "http://127.0.0.1:54583/products/%E6%B6%88%E9%98%B2%E9%98%80.html",
       "lang": "en",
       "dir": "ltr",
       "title": "Alarm & System Valves | CHUANWEI FIRE",
@@ -260,7 +304,11 @@
         "x-default": "https://chuanweifire.com/products/%E6%B6%88%E9%98%B2%E9%98%80.html"
       },
       "horizontalOverflow": 0,
-      "hasTemplateMarker": false
+      "hasTemplateMarker": false,
+      "globalHeaderCount": 1,
+      "primaryNavigationCount": 5,
+      "activePrimaryCount": 1,
+      "activeLanguageCount": 1
     },
     {
       "viewport": "desktop",
@@ -268,7 +316,7 @@
       "height": 900,
       "page": "category-ar",
       "status": "PASS",
-      "url": "http://127.0.0.1:52908/ar/products/system-valves/index.html",
+      "url": "http://127.0.0.1:54583/ar/products/system-valves/index.html",
       "lang": "ar",
       "dir": "rtl",
       "title": "صمامات الإنذار وصمامات الأنظمة | CHUANWEI FIRE",
@@ -280,7 +328,11 @@
         "x-default": "https://chuanweifire.com/products/%E6%B6%88%E9%98%B2%E9%98%80.html"
       },
       "horizontalOverflow": 0,
-      "hasTemplateMarker": false
+      "hasTemplateMarker": false,
+      "globalHeaderCount": 1,
+      "primaryNavigationCount": 5,
+      "activePrimaryCount": 1,
+      "activeLanguageCount": 1
     },
     {
       "viewport": "desktop",
@@ -288,7 +340,7 @@
       "height": 900,
       "page": "wet-valve-en",
       "status": "PASS",
-      "url": "http://127.0.0.1:52908/products/%E6%B6%88%E9%98%B2%E9%98%80/wet-alarm-check-valve-assemblies.html?lang=en",
+      "url": "http://127.0.0.1:54583/products/%E6%B6%88%E9%98%B2%E9%98%80/wet-alarm-check-valve-assemblies.html?lang=en",
       "lang": "en",
       "dir": "ltr",
       "title": "Wet Alarm Check Valve Assemblies | DN100–DN250 | CHUANWEI FIRE",
@@ -300,7 +352,11 @@
         "x-default": "https://chuanweifire.com/products/%E6%B6%88%E9%98%B2%E9%98%80/wet-alarm-check-valve-assemblies.html"
       },
       "horizontalOverflow": 0,
-      "hasTemplateMarker": false
+      "hasTemplateMarker": false,
+      "globalHeaderCount": 1,
+      "primaryNavigationCount": 5,
+      "activePrimaryCount": 1,
+      "activeLanguageCount": 1
     },
     {
       "viewport": "desktop",
@@ -308,7 +364,7 @@
       "height": 900,
       "page": "wet-valve-ar",
       "status": "PASS",
-      "url": "http://127.0.0.1:52908/ar/products/wet-alarm-check-valve/index.html?lang=ar",
+      "url": "http://127.0.0.1:54583/ar/products/wet-alarm-check-valve/index.html?lang=ar",
       "lang": "ar",
       "dir": "rtl",
       "title": "مجموعات صمام الإنذار الرطب | DN100–DN250 | CHUANWEI FIRE",
@@ -320,7 +376,11 @@
         "x-default": "https://chuanweifire.com/products/%E6%B6%88%E9%98%B2%E9%98%80/wet-alarm-check-valve-assemblies.html"
       },
       "horizontalOverflow": 0,
-      "hasTemplateMarker": false
+      "hasTemplateMarker": false,
+      "globalHeaderCount": 1,
+      "primaryNavigationCount": 5,
+      "activePrimaryCount": 1,
+      "activeLanguageCount": 1
     },
     {
       "viewport": "desktop",
@@ -328,7 +388,7 @@
       "height": 900,
       "page": "water-curtain-en",
       "status": "PASS",
-      "url": "http://127.0.0.1:52908/products/%E6%B6%88%E9%98%B2%E5%96%B7%E5%A4%B4/water-curtain-nozzles.html?lang=en",
+      "url": "http://127.0.0.1:54583/products/%E6%B6%88%E9%98%B2%E5%96%B7%E5%A4%B4/water-curtain-nozzles.html?lang=en",
       "lang": "en",
       "dir": "ltr",
       "title": "Water Curtain Nozzles | Open Type DN15–DN25 | CHUANWEI FIRE",
@@ -340,7 +400,11 @@
         "x-default": "https://chuanweifire.com/products/%E6%B6%88%E9%98%B2%E5%96%B7%E5%A4%B4/water-curtain-nozzles.html"
       },
       "horizontalOverflow": 0,
-      "hasTemplateMarker": false
+      "hasTemplateMarker": false,
+      "globalHeaderCount": 1,
+      "primaryNavigationCount": 5,
+      "activePrimaryCount": 1,
+      "activeLanguageCount": 1
     },
     {
       "viewport": "desktop",
@@ -348,7 +412,7 @@
       "height": 900,
       "page": "water-curtain-ar",
       "status": "PASS",
-      "url": "http://127.0.0.1:52908/ar/products/water-curtain-nozzles/index.html?lang=ar",
+      "url": "http://127.0.0.1:54583/ar/products/water-curtain-nozzles/index.html?lang=ar",
       "lang": "ar",
       "dir": "rtl",
       "title": "فوهات ستارة مائية مفتوحة DN15–DN25 | CHUANWEI FIRE",
@@ -360,7 +424,11 @@
         "x-default": "https://chuanweifire.com/products/%E6%B6%88%E9%98%B2%E5%96%B7%E5%A4%B4/water-curtain-nozzles.html"
       },
       "horizontalOverflow": 0,
-      "hasTemplateMarker": false
+      "hasTemplateMarker": false,
+      "globalHeaderCount": 1,
+      "primaryNavigationCount": 5,
+      "activePrimaryCount": 1,
+      "activeLanguageCount": 1
     },
     {
       "viewport": "desktop",
@@ -368,7 +436,7 @@
       "height": 900,
       "page": "water-mist-en",
       "status": "PASS",
-      "url": "http://127.0.0.1:52908/products/%E6%B6%88%E9%98%B2%E5%96%B7%E5%A4%B4/water-mist-nozzles.html?lang=en",
+      "url": "http://127.0.0.1:54583/products/%E6%B6%88%E9%98%B2%E5%96%B7%E5%A4%B4/water-mist-nozzles.html?lang=en",
       "lang": "en",
       "dir": "ltr",
       "title": "Water Mist Nozzles | Open Type 1.2 MPa | CHUANWEI FIRE",
@@ -380,7 +448,11 @@
         "x-default": "https://chuanweifire.com/products/%E6%B6%88%E9%98%B2%E5%96%B7%E5%A4%B4/water-mist-nozzles.html"
       },
       "horizontalOverflow": 0,
-      "hasTemplateMarker": false
+      "hasTemplateMarker": false,
+      "globalHeaderCount": 1,
+      "primaryNavigationCount": 5,
+      "activePrimaryCount": 1,
+      "activeLanguageCount": 1
     },
     {
       "viewport": "desktop",
@@ -388,7 +460,7 @@
       "height": 900,
       "page": "water-mist-ar",
       "status": "PASS",
-      "url": "http://127.0.0.1:52908/ar/products/water-mist-nozzles/index.html?lang=ar",
+      "url": "http://127.0.0.1:54583/ar/products/water-mist-nozzles/index.html?lang=ar",
       "lang": "ar",
       "dir": "rtl",
       "title": "فوهات ضباب الماء المفتوحة 1.2 MPa | CHUANWEI FIRE",
@@ -400,7 +472,11 @@
         "x-default": "https://chuanweifire.com/products/%E6%B6%88%E9%98%B2%E5%96%B7%E5%A4%B4/water-mist-nozzles.html"
       },
       "horizontalOverflow": 0,
-      "hasTemplateMarker": false
+      "hasTemplateMarker": false,
+      "globalHeaderCount": 1,
+      "primaryNavigationCount": 5,
+      "activePrimaryCount": 1,
+      "activeLanguageCount": 1
     },
     {
       "viewport": "desktop",
@@ -408,7 +484,7 @@
       "height": 900,
       "page": "fallback-en",
       "status": "PASS",
-      "url": "http://127.0.0.1:52908/products/%E6%B6%88%E9%98%B2%E9%98%80/diaphragm-deluge-valves.html?lang=en",
+      "url": "http://127.0.0.1:54583/products/%E6%B6%88%E9%98%B2%E9%98%80/diaphragm-deluge-valves.html",
       "lang": "en",
       "dir": "",
       "title": "Diaphragm Deluge Valve | DN50–DN250 | CHUANWEI FIRE",
@@ -419,7 +495,11 @@
         "x-default": "https://chuanweifire.com/products/%E6%B6%88%E9%98%B2%E9%98%80/diaphragm-deluge-valves.html"
       },
       "horizontalOverflow": 0,
-      "hasTemplateMarker": false
+      "hasTemplateMarker": false,
+      "globalHeaderCount": 1,
+      "primaryNavigationCount": 5,
+      "activePrimaryCount": 1,
+      "activeLanguageCount": 1
     },
     {
       "viewport": "mobile",
@@ -427,7 +507,7 @@
       "height": 844,
       "page": "home-en",
       "status": "PASS",
-      "url": "http://127.0.0.1:52908/index.html?lang=en",
+      "url": "http://127.0.0.1:54583/index.html?lang=en",
       "lang": "en",
       "dir": "ltr",
       "title": "CHUANWEI FIRE | Fire Protection Equipment Manufacturer & OEM Support",
@@ -440,7 +520,11 @@
         "x-default": "https://chuanweifire.com/"
       },
       "horizontalOverflow": 0,
-      "hasTemplateMarker": false
+      "hasTemplateMarker": false,
+      "globalHeaderCount": 1,
+      "primaryNavigationCount": 5,
+      "activePrimaryCount": 1,
+      "activeLanguageCount": 1
     },
     {
       "viewport": "mobile",
@@ -448,7 +532,7 @@
       "height": 844,
       "page": "home-zh",
       "status": "PASS",
-      "url": "http://127.0.0.1:52908/zh/index.html",
+      "url": "http://127.0.0.1:54583/zh/index.html",
       "lang": "zh-CN",
       "dir": "ltr",
       "title": "CHUANWEI FIRE | 消防设备制造商与 OEM 配套支持",
@@ -461,7 +545,11 @@
         "x-default": "https://chuanweifire.com/"
       },
       "horizontalOverflow": 0,
-      "hasTemplateMarker": false
+      "hasTemplateMarker": false,
+      "globalHeaderCount": 1,
+      "primaryNavigationCount": 5,
+      "activePrimaryCount": 1,
+      "activeLanguageCount": 1
     },
     {
       "viewport": "mobile",
@@ -469,7 +557,7 @@
       "height": 844,
       "page": "home-ar",
       "status": "PASS",
-      "url": "http://127.0.0.1:52908/ar/index.html?lang=ar",
+      "url": "http://127.0.0.1:54583/ar/index.html?lang=ar",
       "lang": "ar",
       "dir": "rtl",
       "title": "CHUANWEI FIRE | تصنيع معدات مكافحة الحريق ودعم OEM",
@@ -482,7 +570,11 @@
         "x-default": "https://chuanweifire.com/"
       },
       "horizontalOverflow": 0,
-      "hasTemplateMarker": false
+      "hasTemplateMarker": false,
+      "globalHeaderCount": 1,
+      "primaryNavigationCount": 5,
+      "activePrimaryCount": 1,
+      "activeLanguageCount": 1
     },
     {
       "viewport": "mobile",
@@ -490,7 +582,7 @@
       "height": 844,
       "page": "catalog-en",
       "status": "PASS",
-      "url": "http://127.0.0.1:52908/products.html",
+      "url": "http://127.0.0.1:54583/products.html",
       "lang": "en",
       "dir": "ltr",
       "title": "Fire Protection Product Directory | CHUANWEI FIRE",
@@ -502,7 +594,11 @@
         "x-default": "https://chuanweifire.com/products.html"
       },
       "horizontalOverflow": 0,
-      "hasTemplateMarker": false
+      "hasTemplateMarker": false,
+      "globalHeaderCount": 1,
+      "primaryNavigationCount": 5,
+      "activePrimaryCount": 1,
+      "activeLanguageCount": 1
     },
     {
       "viewport": "mobile",
@@ -510,7 +606,7 @@
       "height": 844,
       "page": "catalog-ar",
       "status": "PASS",
-      "url": "http://127.0.0.1:52908/ar/products.html",
+      "url": "http://127.0.0.1:54583/ar/products.html",
       "lang": "ar",
       "dir": "rtl",
       "title": "دليل منتجات مكافحة الحريق | CHUANWEI FIRE",
@@ -522,7 +618,11 @@
         "x-default": "https://chuanweifire.com/products.html"
       },
       "horizontalOverflow": 0,
-      "hasTemplateMarker": false
+      "hasTemplateMarker": false,
+      "globalHeaderCount": 1,
+      "primaryNavigationCount": 5,
+      "activePrimaryCount": 1,
+      "activeLanguageCount": 1
     },
     {
       "viewport": "mobile",
@@ -530,7 +630,7 @@
       "height": 844,
       "page": "about-en",
       "status": "PASS",
-      "url": "http://127.0.0.1:52908/about.html",
+      "url": "http://127.0.0.1:54583/about.html",
       "lang": "en",
       "dir": "ltr",
       "title": "About the Manufacturer | CHUANWEI FIRE",
@@ -542,7 +642,11 @@
         "x-default": "https://chuanweifire.com/about.html"
       },
       "horizontalOverflow": 0,
-      "hasTemplateMarker": false
+      "hasTemplateMarker": false,
+      "globalHeaderCount": 1,
+      "primaryNavigationCount": 5,
+      "activePrimaryCount": 1,
+      "activeLanguageCount": 1
     },
     {
       "viewport": "mobile",
@@ -550,7 +654,7 @@
       "height": 844,
       "page": "about-ar",
       "status": "PASS",
-      "url": "http://127.0.0.1:52908/ar/about.html",
+      "url": "http://127.0.0.1:54583/ar/about.html",
       "lang": "ar",
       "dir": "rtl",
       "title": "عن الشركة | CHUANWEI FIRE",
@@ -562,7 +666,11 @@
         "x-default": "https://chuanweifire.com/about.html"
       },
       "horizontalOverflow": 0,
-      "hasTemplateMarker": false
+      "hasTemplateMarker": false,
+      "globalHeaderCount": 1,
+      "primaryNavigationCount": 5,
+      "activePrimaryCount": 1,
+      "activeLanguageCount": 1
     },
     {
       "viewport": "mobile",
@@ -570,7 +678,7 @@
       "height": 844,
       "page": "downloads-en",
       "status": "PASS",
-      "url": "http://127.0.0.1:52908/downloads.html",
+      "url": "http://127.0.0.1:54583/downloads.html",
       "lang": "en",
       "dir": "ltr",
       "title": "Catalog & Files | CHUANWEI FIRE",
@@ -582,7 +690,11 @@
         "x-default": "https://chuanweifire.com/downloads.html"
       },
       "horizontalOverflow": 0,
-      "hasTemplateMarker": false
+      "hasTemplateMarker": false,
+      "globalHeaderCount": 1,
+      "primaryNavigationCount": 5,
+      "activePrimaryCount": 1,
+      "activeLanguageCount": 1
     },
     {
       "viewport": "mobile",
@@ -590,7 +702,7 @@
       "height": 844,
       "page": "downloads-ar",
       "status": "PASS",
-      "url": "http://127.0.0.1:52908/ar/downloads.html",
+      "url": "http://127.0.0.1:54583/ar/downloads.html",
       "lang": "ar",
       "dir": "rtl",
       "title": "الكتالوج والملفات | CHUANWEI FIRE",
@@ -602,7 +714,11 @@
         "x-default": "https://chuanweifire.com/downloads.html"
       },
       "horizontalOverflow": 0,
-      "hasTemplateMarker": false
+      "hasTemplateMarker": false,
+      "globalHeaderCount": 1,
+      "primaryNavigationCount": 5,
+      "activePrimaryCount": 1,
+      "activeLanguageCount": 1
     },
     {
       "viewport": "mobile",
@@ -610,7 +726,7 @@
       "height": 844,
       "page": "contact-en",
       "status": "PASS",
-      "url": "http://127.0.0.1:52908/contact.html",
+      "url": "http://127.0.0.1:54583/contact.html",
       "lang": "en",
       "dir": "ltr",
       "title": "Contact & Inquiry | CHUANWEI FIRE",
@@ -622,7 +738,11 @@
         "x-default": "https://chuanweifire.com/contact.html"
       },
       "horizontalOverflow": 0,
-      "hasTemplateMarker": false
+      "hasTemplateMarker": false,
+      "globalHeaderCount": 1,
+      "primaryNavigationCount": 5,
+      "activePrimaryCount": 1,
+      "activeLanguageCount": 1
     },
     {
       "viewport": "mobile",
@@ -630,7 +750,7 @@
       "height": 844,
       "page": "contact-ar",
       "status": "PASS",
-      "url": "http://127.0.0.1:52908/ar/contact.html",
+      "url": "http://127.0.0.1:54583/ar/contact.html",
       "lang": "ar",
       "dir": "rtl",
       "title": "تواصل واستفسار | CHUANWEI FIRE",
@@ -642,7 +762,11 @@
         "x-default": "https://chuanweifire.com/contact.html"
       },
       "horizontalOverflow": 0,
-      "hasTemplateMarker": false
+      "hasTemplateMarker": false,
+      "globalHeaderCount": 1,
+      "primaryNavigationCount": 5,
+      "activePrimaryCount": 1,
+      "activeLanguageCount": 1
     },
     {
       "viewport": "mobile",
@@ -650,7 +774,7 @@
       "height": 844,
       "page": "category-en",
       "status": "PASS",
-      "url": "http://127.0.0.1:52908/products/%E6%B6%88%E9%98%B2%E9%98%80.html",
+      "url": "http://127.0.0.1:54583/products/%E6%B6%88%E9%98%B2%E9%98%80.html",
       "lang": "en",
       "dir": "ltr",
       "title": "Alarm & System Valves | CHUANWEI FIRE",
@@ -662,7 +786,11 @@
         "x-default": "https://chuanweifire.com/products/%E6%B6%88%E9%98%B2%E9%98%80.html"
       },
       "horizontalOverflow": 0,
-      "hasTemplateMarker": false
+      "hasTemplateMarker": false,
+      "globalHeaderCount": 1,
+      "primaryNavigationCount": 5,
+      "activePrimaryCount": 1,
+      "activeLanguageCount": 1
     },
     {
       "viewport": "mobile",
@@ -670,7 +798,7 @@
       "height": 844,
       "page": "category-ar",
       "status": "PASS",
-      "url": "http://127.0.0.1:52908/ar/products/system-valves/index.html",
+      "url": "http://127.0.0.1:54583/ar/products/system-valves/index.html",
       "lang": "ar",
       "dir": "rtl",
       "title": "صمامات الإنذار وصمامات الأنظمة | CHUANWEI FIRE",
@@ -682,7 +810,11 @@
         "x-default": "https://chuanweifire.com/products/%E6%B6%88%E9%98%B2%E9%98%80.html"
       },
       "horizontalOverflow": 0,
-      "hasTemplateMarker": false
+      "hasTemplateMarker": false,
+      "globalHeaderCount": 1,
+      "primaryNavigationCount": 5,
+      "activePrimaryCount": 1,
+      "activeLanguageCount": 1
     },
     {
       "viewport": "mobile",
@@ -690,7 +822,7 @@
       "height": 844,
       "page": "wet-valve-en",
       "status": "PASS",
-      "url": "http://127.0.0.1:52908/products/%E6%B6%88%E9%98%B2%E9%98%80/wet-alarm-check-valve-assemblies.html?lang=en",
+      "url": "http://127.0.0.1:54583/products/%E6%B6%88%E9%98%B2%E9%98%80/wet-alarm-check-valve-assemblies.html?lang=en",
       "lang": "en",
       "dir": "ltr",
       "title": "Wet Alarm Check Valve Assemblies | DN100–DN250 | CHUANWEI FIRE",
@@ -702,7 +834,11 @@
         "x-default": "https://chuanweifire.com/products/%E6%B6%88%E9%98%B2%E9%98%80/wet-alarm-check-valve-assemblies.html"
       },
       "horizontalOverflow": 0,
-      "hasTemplateMarker": false
+      "hasTemplateMarker": false,
+      "globalHeaderCount": 1,
+      "primaryNavigationCount": 5,
+      "activePrimaryCount": 1,
+      "activeLanguageCount": 1
     },
     {
       "viewport": "mobile",
@@ -710,7 +846,7 @@
       "height": 844,
       "page": "wet-valve-ar",
       "status": "PASS",
-      "url": "http://127.0.0.1:52908/ar/products/wet-alarm-check-valve/index.html?lang=ar",
+      "url": "http://127.0.0.1:54583/ar/products/wet-alarm-check-valve/index.html?lang=ar",
       "lang": "ar",
       "dir": "rtl",
       "title": "مجموعات صمام الإنذار الرطب | DN100–DN250 | CHUANWEI FIRE",
@@ -722,7 +858,11 @@
         "x-default": "https://chuanweifire.com/products/%E6%B6%88%E9%98%B2%E9%98%80/wet-alarm-check-valve-assemblies.html"
       },
       "horizontalOverflow": 0,
-      "hasTemplateMarker": false
+      "hasTemplateMarker": false,
+      "globalHeaderCount": 1,
+      "primaryNavigationCount": 5,
+      "activePrimaryCount": 1,
+      "activeLanguageCount": 1
     },
     {
       "viewport": "mobile",
@@ -730,7 +870,7 @@
       "height": 844,
       "page": "water-curtain-en",
       "status": "PASS",
-      "url": "http://127.0.0.1:52908/products/%E6%B6%88%E9%98%B2%E5%96%B7%E5%A4%B4/water-curtain-nozzles.html?lang=en",
+      "url": "http://127.0.0.1:54583/products/%E6%B6%88%E9%98%B2%E5%96%B7%E5%A4%B4/water-curtain-nozzles.html?lang=en",
       "lang": "en",
       "dir": "ltr",
       "title": "Water Curtain Nozzles | Open Type DN15–DN25 | CHUANWEI FIRE",
@@ -742,7 +882,11 @@
         "x-default": "https://chuanweifire.com/products/%E6%B6%88%E9%98%B2%E5%96%B7%E5%A4%B4/water-curtain-nozzles.html"
       },
       "horizontalOverflow": 0,
-      "hasTemplateMarker": false
+      "hasTemplateMarker": false,
+      "globalHeaderCount": 1,
+      "primaryNavigationCount": 5,
+      "activePrimaryCount": 1,
+      "activeLanguageCount": 1
     },
     {
       "viewport": "mobile",
@@ -750,7 +894,7 @@
       "height": 844,
       "page": "water-curtain-ar",
       "status": "PASS",
-      "url": "http://127.0.0.1:52908/ar/products/water-curtain-nozzles/index.html?lang=ar",
+      "url": "http://127.0.0.1:54583/ar/products/water-curtain-nozzles/index.html?lang=ar",
       "lang": "ar",
       "dir": "rtl",
       "title": "فوهات ستارة مائية مفتوحة DN15–DN25 | CHUANWEI FIRE",
@@ -762,7 +906,11 @@
         "x-default": "https://chuanweifire.com/products/%E6%B6%88%E9%98%B2%E5%96%B7%E5%A4%B4/water-curtain-nozzles.html"
       },
       "horizontalOverflow": 0,
-      "hasTemplateMarker": false
+      "hasTemplateMarker": false,
+      "globalHeaderCount": 1,
+      "primaryNavigationCount": 5,
+      "activePrimaryCount": 1,
+      "activeLanguageCount": 1
     },
     {
       "viewport": "mobile",
@@ -770,7 +918,7 @@
       "height": 844,
       "page": "water-mist-en",
       "status": "PASS",
-      "url": "http://127.0.0.1:52908/products/%E6%B6%88%E9%98%B2%E5%96%B7%E5%A4%B4/water-mist-nozzles.html?lang=en",
+      "url": "http://127.0.0.1:54583/products/%E6%B6%88%E9%98%B2%E5%96%B7%E5%A4%B4/water-mist-nozzles.html?lang=en",
       "lang": "en",
       "dir": "ltr",
       "title": "Water Mist Nozzles | Open Type 1.2 MPa | CHUANWEI FIRE",
@@ -782,7 +930,11 @@
         "x-default": "https://chuanweifire.com/products/%E6%B6%88%E9%98%B2%E5%96%B7%E5%A4%B4/water-mist-nozzles.html"
       },
       "horizontalOverflow": 0,
-      "hasTemplateMarker": false
+      "hasTemplateMarker": false,
+      "globalHeaderCount": 1,
+      "primaryNavigationCount": 5,
+      "activePrimaryCount": 1,
+      "activeLanguageCount": 1
     },
     {
       "viewport": "mobile",
@@ -790,7 +942,7 @@
       "height": 844,
       "page": "water-mist-ar",
       "status": "PASS",
-      "url": "http://127.0.0.1:52908/ar/products/water-mist-nozzles/index.html?lang=ar",
+      "url": "http://127.0.0.1:54583/ar/products/water-mist-nozzles/index.html?lang=ar",
       "lang": "ar",
       "dir": "rtl",
       "title": "فوهات ضباب الماء المفتوحة 1.2 MPa | CHUANWEI FIRE",
@@ -802,7 +954,11 @@
         "x-default": "https://chuanweifire.com/products/%E6%B6%88%E9%98%B2%E5%96%B7%E5%A4%B4/water-mist-nozzles.html"
       },
       "horizontalOverflow": 0,
-      "hasTemplateMarker": false
+      "hasTemplateMarker": false,
+      "globalHeaderCount": 1,
+      "primaryNavigationCount": 5,
+      "activePrimaryCount": 1,
+      "activeLanguageCount": 1
     },
     {
       "viewport": "mobile",
@@ -810,7 +966,7 @@
       "height": 844,
       "page": "fallback-en",
       "status": "PASS",
-      "url": "http://127.0.0.1:52908/products/%E6%B6%88%E9%98%B2%E9%98%80/diaphragm-deluge-valves.html?lang=en",
+      "url": "http://127.0.0.1:54583/products/%E6%B6%88%E9%98%B2%E9%98%80/diaphragm-deluge-valves.html",
       "lang": "en",
       "dir": "",
       "title": "Diaphragm Deluge Valve | DN50–DN250 | CHUANWEI FIRE",
@@ -821,134 +977,538 @@
         "x-default": "https://chuanweifire.com/products/%E6%B6%88%E9%98%B2%E9%98%80/diaphragm-deluge-valves.html"
       },
       "horizontalOverflow": 0,
-      "hasTemplateMarker": false
+      "hasTemplateMarker": false,
+      "globalHeaderCount": 1,
+      "primaryNavigationCount": 5,
+      "activePrimaryCount": 1,
+      "activeLanguageCount": 1
+    }
+  ],
+  "navigationAudit": [
+    {
+      "routeId": "home",
+      "locale": "en",
+      "path": "/index.html",
+      "status": "PASS"
+    },
+    {
+      "routeId": "home",
+      "locale": "zh",
+      "path": "/zh/index.html",
+      "status": "PASS"
+    },
+    {
+      "routeId": "home",
+      "locale": "ar",
+      "path": "/ar/index.html",
+      "status": "PASS"
+    },
+    {
+      "routeId": "products",
+      "locale": "en",
+      "path": "/products.html",
+      "status": "PASS"
+    },
+    {
+      "routeId": "products",
+      "locale": "ar",
+      "path": "/ar/products.html",
+      "status": "PASS"
+    },
+    {
+      "routeId": "about",
+      "locale": "en",
+      "path": "/about.html",
+      "status": "PASS"
+    },
+    {
+      "routeId": "about",
+      "locale": "ar",
+      "path": "/ar/about.html",
+      "status": "PASS"
+    },
+    {
+      "routeId": "downloads",
+      "locale": "en",
+      "path": "/downloads.html",
+      "status": "PASS"
+    },
+    {
+      "routeId": "downloads",
+      "locale": "ar",
+      "path": "/ar/downloads.html",
+      "status": "PASS"
+    },
+    {
+      "routeId": "contact",
+      "locale": "en",
+      "path": "/contact.html",
+      "status": "PASS"
+    },
+    {
+      "routeId": "contact",
+      "locale": "ar",
+      "path": "/ar/contact.html",
+      "status": "PASS"
+    },
+    {
+      "routeId": "category:sprinklers",
+      "locale": "en",
+      "path": "/products/消防喷头.html",
+      "status": "PASS"
+    },
+    {
+      "routeId": "category:sprinklers",
+      "locale": "ar",
+      "path": "/ar/products/sprinklers/index.html",
+      "status": "PASS"
+    },
+    {
+      "routeId": "category:system-valves",
+      "locale": "en",
+      "path": "/products/消防阀.html",
+      "status": "PASS"
+    },
+    {
+      "routeId": "category:system-valves",
+      "locale": "ar",
+      "path": "/ar/products/system-valves/index.html",
+      "status": "PASS"
+    },
+    {
+      "routeId": "category:butterfly-valves",
+      "locale": "en",
+      "path": "/products/消防蝶阀.html",
+      "status": "PASS"
+    },
+    {
+      "routeId": "category:butterfly-valves",
+      "locale": "ar",
+      "path": "/ar/products/butterfly-valves/index.html",
+      "status": "PASS"
+    },
+    {
+      "routeId": "category:gate-valves",
+      "locale": "en",
+      "path": "/products/消防阀门.html",
+      "status": "PASS"
+    },
+    {
+      "routeId": "category:gate-valves",
+      "locale": "ar",
+      "path": "/ar/products/gate-valves/index.html",
+      "status": "PASS"
+    },
+    {
+      "routeId": "category:hose-reels",
+      "locale": "en",
+      "path": "/products/软管卷盘.html",
+      "status": "PASS"
+    },
+    {
+      "routeId": "category:hose-reels",
+      "locale": "ar",
+      "path": "/ar/products/hose-reels/index.html",
+      "status": "PASS"
+    },
+    {
+      "routeId": "category:hoses-nozzles-couplings",
+      "locale": "en",
+      "path": "/products/消防水枪.html",
+      "status": "PASS"
+    },
+    {
+      "routeId": "category:hoses-nozzles-couplings",
+      "locale": "ar",
+      "path": "/ar/products/hoses-nozzles-couplings/index.html",
+      "status": "PASS"
+    },
+    {
+      "routeId": "category:indoor-hydrants",
+      "locale": "en",
+      "path": "/products/室内消防栓/室内消防栓.html",
+      "status": "PASS"
+    },
+    {
+      "routeId": "category:indoor-hydrants",
+      "locale": "ar",
+      "path": "/ar/products/indoor-hydrants/index.html",
+      "status": "PASS"
+    },
+    {
+      "routeId": "category:outdoor-hydrants",
+      "locale": "en",
+      "path": "/products/室外消防栓/室外消防栓.html",
+      "status": "PASS"
+    },
+    {
+      "routeId": "category:outdoor-hydrants",
+      "locale": "ar",
+      "path": "/ar/products/outdoor-hydrants/index.html",
+      "status": "PASS"
+    },
+    {
+      "routeId": "category:fire-department-connections",
+      "locale": "en",
+      "path": "/products/消防水泵接合器.html",
+      "status": "PASS"
+    },
+    {
+      "routeId": "category:fire-department-connections",
+      "locale": "ar",
+      "path": "/ar/products/fire-department-connections/index.html",
+      "status": "PASS"
+    },
+    {
+      "routeId": "product:wet-alarm-check-valve",
+      "locale": "en",
+      "path": "/products/消防阀/wet-alarm-check-valve-assemblies.html",
+      "status": "PASS"
+    },
+    {
+      "routeId": "product:wet-alarm-check-valve",
+      "locale": "ar",
+      "path": "/ar/products/wet-alarm-check-valve/index.html",
+      "status": "PASS"
+    },
+    {
+      "routeId": "product:diaphragm-deluge-valves",
+      "locale": "en",
+      "path": "/products/消防阀/diaphragm-deluge-valves.html",
+      "status": "PASS"
+    },
+    {
+      "routeId": "product:preaction-valve-assemblies",
+      "locale": "en",
+      "path": "/products/消防阀/preaction-valve-assemblies.html",
+      "status": "PASS"
+    },
+    {
+      "routeId": "product:dry-pipe-alarm-valves",
+      "locale": "en",
+      "path": "/products/消防阀/dry-pipe-alarm-valves.html",
+      "status": "PASS"
+    },
+    {
+      "routeId": "product:water-curtain-nozzles",
+      "locale": "en",
+      "path": "/products/消防喷头/water-curtain-nozzles.html",
+      "status": "PASS"
+    },
+    {
+      "routeId": "product:water-curtain-nozzles",
+      "locale": "ar",
+      "path": "/ar/products/water-curtain-nozzles/index.html",
+      "status": "PASS"
+    },
+    {
+      "routeId": "product:water-mist-nozzles",
+      "locale": "en",
+      "path": "/products/消防喷头/water-mist-nozzles.html",
+      "status": "PASS"
+    },
+    {
+      "routeId": "product:water-mist-nozzles",
+      "locale": "ar",
+      "path": "/ar/products/water-mist-nozzles/index.html",
+      "status": "PASS"
+    },
+    {
+      "routeId": "product:standard-response-fire-sprinkler",
+      "locale": "en",
+      "path": "/products/消防喷头/standard-response-fire-sprinkler.html",
+      "status": "PASS"
+    },
+    {
+      "routeId": "product:glass-bulb-fire-sprinkler",
+      "locale": "en",
+      "path": "/products/消防喷头/glass-bulb-fire-sprinkler.html",
+      "status": "PASS"
+    },
+    {
+      "routeId": "product:concealed-pendent-fire-sprinkler",
+      "locale": "en",
+      "path": "/products/消防喷头/concealed-pendent-fire-sprinkler.html",
+      "status": "PASS"
+    },
+    {
+      "routeId": "product:dry-pendent-fire-sprinklers",
+      "locale": "en",
+      "path": "/products/消防喷头/dry-pendent-fire-sprinklers.html",
+      "status": "PASS"
+    },
+    {
+      "routeId": "product:extended-coverage-quick-response-fire-sprinkler",
+      "locale": "en",
+      "path": "/products/消防喷头/extended-coverage-quick-response-fire-sprinkler.html",
+      "status": "PASS"
+    },
+    {
+      "routeId": "product:large-k-factor-esfr-sprinklers",
+      "locale": "en",
+      "path": "/products/消防喷头/large-k-factor-esfr-sprinklers.html",
+      "status": "PASS"
+    },
+    {
+      "routeId": "product:ria25-fire-hose-reel",
+      "locale": "en",
+      "path": "/products/软管卷盘/ria25-fire-hose-reel.html",
+      "status": "PASS"
+    },
+    {
+      "routeId": "product:straight-stream-fire-hose-reel",
+      "locale": "en",
+      "path": "/products/软管卷盘/straight-stream-fire-hose-reel.html",
+      "status": "PASS"
+    },
+    {
+      "routeId": "product:jet-spray-fire-hose-reel",
+      "locale": "en",
+      "path": "/products/软管卷盘/jet-spray-fire-hose-reel.html",
+      "status": "PASS"
+    },
+    {
+      "routeId": "product:heavy-duty-fire-hose-reel",
+      "locale": "en",
+      "path": "/products/软管卷盘/heavy-duty-fire-hose-reel.html",
+      "status": "PASS"
+    },
+    {
+      "routeId": "product:lever-operated-grooved-butterfly-valves",
+      "locale": "en",
+      "path": "/products/消防蝶阀/lever-operated-grooved-butterfly-valves.html",
+      "status": "PASS"
+    },
+    {
+      "routeId": "product:lever-operated-wafer-butterfly-valves",
+      "locale": "en",
+      "path": "/products/消防蝶阀/lever-operated-wafer-butterfly-valves.html",
+      "status": "PASS"
+    },
+    {
+      "routeId": "product:grooved-supervisory-butterfly-valves",
+      "locale": "en",
+      "path": "/products/消防蝶阀/grooved-supervisory-butterfly-valves.html",
+      "status": "PASS"
+    },
+    {
+      "routeId": "product:wafer-supervisory-butterfly-valves",
+      "locale": "en",
+      "path": "/products/消防蝶阀/wafer-supervisory-butterfly-valves.html",
+      "status": "PASS"
+    },
+    {
+      "routeId": "product:flanged-supervisory-gate-valves",
+      "locale": "en",
+      "path": "/products/消防阀门/flanged-supervisory-gate-valves.html",
+      "status": "PASS"
+    },
+    {
+      "routeId": "product:grooved-supervisory-gate-valves",
+      "locale": "en",
+      "path": "/products/消防阀门/grooved-supervisory-gate-valves.html",
+      "status": "PASS"
+    },
+    {
+      "routeId": "product:nrs-gate-valves",
+      "locale": "en",
+      "path": "/products/消防阀门/nrs-gate-valves.html",
+      "status": "PASS"
+    },
+    {
+      "routeId": "product:osy-gate-valves",
+      "locale": "en",
+      "path": "/products/消防阀门/osy-gate-valves.html",
+      "status": "PASS"
+    },
+    {
+      "routeId": "product:standard-indoor-hydrant",
+      "locale": "en",
+      "path": "/products/室内消防栓/standard-indoor-hydrant.html",
+      "status": "PASS"
+    },
+    {
+      "routeId": "product:export-slanted-hydrant-valve",
+      "locale": "en",
+      "path": "/products/室内消防栓/export-slanted-hydrant-valve.html",
+      "status": "PASS"
+    },
+    {
+      "routeId": "product:double-outlet-hydrant",
+      "locale": "en",
+      "path": "/products/室内消防栓/double-outlet-hydrant.html",
+      "status": "PASS"
+    },
+    {
+      "routeId": "product:rotating-pressure-regulating-hydrant",
+      "locale": "en",
+      "path": "/products/室内消防栓/rotating-pressure-regulating-hydrant.html",
+      "status": "PASS"
+    },
+    {
+      "routeId": "product:bs750-pillar-hydrant",
+      "locale": "en",
+      "path": "/products/室外消防栓/bs750-pillar-hydrant.html",
+      "status": "PASS"
+    },
+    {
+      "routeId": "product:french-pattern-hydrant",
+      "locale": "en",
+      "path": "/products/室外消防栓/french-pattern-hydrant.html",
+      "status": "PASS"
+    },
+    {
+      "routeId": "product:indonesian-pattern-hydrant",
+      "locale": "en",
+      "path": "/products/室外消防栓/indonesian-pattern-hydrant.html",
+      "status": "PASS"
+    },
+    {
+      "routeId": "product:russian-pattern-hydrant",
+      "locale": "en",
+      "path": "/products/室外消防栓/russian-pattern-hydrant.html",
+      "status": "PASS"
     }
   ],
   "languageSwitches": [
     {
       "scenario": "EN control to AR homepage",
       "status": "PASS",
-      "finalUrl": "http://127.0.0.1:52908/ar/index.html",
+      "finalUrl": "http://127.0.0.1:54583/ar/index.html",
       "lang": "ar",
       "dir": "rtl"
     },
     {
       "scenario": "AR control to dedicated Chinese homepage",
       "status": "PASS",
-      "finalUrl": "http://127.0.0.1:52908/zh/index.html",
+      "finalUrl": "http://127.0.0.1:54583/zh/index.html",
       "lang": "zh-CN",
       "dir": "ltr",
       "canonical": "https://chuanweifire.com/zh/"
     },
     {
-      "scenario": "saved AR preference from EN homepage",
+      "scenario": "explicit EN homepage overrides stored AR",
       "status": "PASS",
-      "finalUrl": "http://127.0.0.1:52908/ar/index.html",
-      "lang": "ar",
-      "dir": "rtl"
+      "finalUrl": "http://127.0.0.1:54583/index.html",
+      "lang": "en",
+      "dir": "ltr"
     },
     {
       "scenario": "explicit AR URL overrides stored EN",
       "status": "PASS",
-      "finalUrl": "http://127.0.0.1:52908/ar/index.html",
+      "finalUrl": "http://127.0.0.1:54583/ar/index.html",
       "lang": "ar",
       "dir": "rtl"
     },
     {
       "scenario": "legacy Chinese query redirects to /zh/",
       "status": "PASS",
-      "finalUrl": "http://127.0.0.1:52908/zh/index.html",
+      "finalUrl": "http://127.0.0.1:54583/zh/index.html",
       "lang": "zh-CN",
       "dir": "ltr"
     },
     {
-      "scenario": "saved ZH preference from EN homepage",
+      "scenario": "about: explicit EN overrides stored AR",
       "status": "PASS",
-      "finalUrl": "http://127.0.0.1:52908/zh/index.html",
-      "lang": "zh-CN",
+      "finalUrl": "http://127.0.0.1:54583/about.html",
+      "lang": "en",
       "dir": "ltr"
     },
     {
-      "scenario": "about: restore saved AR from EN URL",
+      "scenario": "about: switch EN to AR",
       "status": "PASS",
-      "finalUrl": "http://127.0.0.1:52908/ar/about.html",
+      "finalUrl": "http://127.0.0.1:54583/ar/about.html",
       "lang": "ar",
       "dir": "rtl"
     },
     {
-      "scenario": "about: switch AR to EN",
+      "scenario": "about: refresh retains AR",
       "status": "PASS",
-      "finalUrl": "http://127.0.0.1:52908/about.html",
-      "lang": "en",
-      "dir": "ltr"
-    },
-    {
-      "scenario": "about: refresh retains EN",
-      "status": "PASS",
-      "finalUrl": "http://127.0.0.1:52908/about.html",
-      "lang": "en",
-      "dir": "ltr"
+      "finalUrl": "http://127.0.0.1:54583/ar/about.html",
+      "lang": "ar",
+      "dir": "rtl"
     },
     {
       "scenario": "about: browser back returns to AR page",
       "status": "PASS",
-      "finalUrl": "http://127.0.0.1:52908/ar/about.html",
+      "finalUrl": "http://127.0.0.1:54583/ar/about.html",
       "lang": "ar",
       "dir": "rtl"
     },
     {
-      "scenario": "downloads: restore saved AR from EN URL",
+      "scenario": "downloads: explicit EN overrides stored AR",
       "status": "PASS",
-      "finalUrl": "http://127.0.0.1:52908/ar/downloads.html",
+      "finalUrl": "http://127.0.0.1:54583/downloads.html",
+      "lang": "en",
+      "dir": "ltr"
+    },
+    {
+      "scenario": "downloads: switch EN to AR",
+      "status": "PASS",
+      "finalUrl": "http://127.0.0.1:54583/ar/downloads.html",
       "lang": "ar",
       "dir": "rtl"
     },
     {
-      "scenario": "downloads: switch AR to EN",
+      "scenario": "downloads: refresh retains AR",
       "status": "PASS",
-      "finalUrl": "http://127.0.0.1:52908/downloads.html",
-      "lang": "en",
-      "dir": "ltr"
-    },
-    {
-      "scenario": "downloads: refresh retains EN",
-      "status": "PASS",
-      "finalUrl": "http://127.0.0.1:52908/downloads.html",
-      "lang": "en",
-      "dir": "ltr"
+      "finalUrl": "http://127.0.0.1:54583/ar/downloads.html",
+      "lang": "ar",
+      "dir": "rtl"
     },
     {
       "scenario": "downloads: browser back returns to AR page",
       "status": "PASS",
-      "finalUrl": "http://127.0.0.1:52908/ar/downloads.html",
+      "finalUrl": "http://127.0.0.1:54583/ar/downloads.html",
       "lang": "ar",
       "dir": "rtl"
     },
     {
-      "scenario": "contact: restore saved AR from EN URL",
+      "scenario": "contact: explicit EN overrides stored AR",
       "status": "PASS",
-      "finalUrl": "http://127.0.0.1:52908/ar/contact.html",
+      "finalUrl": "http://127.0.0.1:54583/contact.html",
+      "lang": "en",
+      "dir": "ltr"
+    },
+    {
+      "scenario": "contact: switch EN to AR",
+      "status": "PASS",
+      "finalUrl": "http://127.0.0.1:54583/ar/contact.html",
       "lang": "ar",
       "dir": "rtl"
     },
     {
-      "scenario": "contact: switch AR to EN",
+      "scenario": "contact: refresh retains AR",
       "status": "PASS",
-      "finalUrl": "http://127.0.0.1:52908/contact.html",
-      "lang": "en",
-      "dir": "ltr"
-    },
-    {
-      "scenario": "contact: refresh retains EN",
-      "status": "PASS",
-      "finalUrl": "http://127.0.0.1:52908/contact.html",
-      "lang": "en",
-      "dir": "ltr"
+      "finalUrl": "http://127.0.0.1:54583/ar/contact.html",
+      "lang": "ar",
+      "dir": "rtl"
     },
     {
       "scenario": "contact: browser back returns to AR page",
       "status": "PASS",
-      "finalUrl": "http://127.0.0.1:52908/ar/contact.html",
+      "finalUrl": "http://127.0.0.1:54583/ar/contact.html",
+      "lang": "ar",
+      "dir": "rtl"
+    },
+    {
+      "scenario": "AR category opens untranslated EN product without redirect loop",
+      "status": "PASS",
+      "finalUrl": "http://127.0.0.1:54583/products/%E6%B6%88%E9%98%B2%E5%96%B7%E5%A4%B4/standard-response-fire-sprinkler.html",
+      "lang": "en",
+      "dir": ""
+    },
+    {
+      "scenario": "untranslated EN product AR control returns to matching category",
+      "status": "PASS",
+      "finalUrl": "http://127.0.0.1:54583/ar/products/sprinklers/index.html",
+      "lang": "ar",
+      "dir": "rtl"
+    },
+    {
+      "scenario": "AR product global navigation preserves Arabic",
+      "status": "PASS",
+      "finalUrl": "http://127.0.0.1:54583/ar/products.html",
       "lang": "ar",
       "dir": "rtl"
     }

@@ -80,8 +80,7 @@ for (const family of PRODUCT_FAMILIES) {
       const localizedTarget = SITE_ROUTES[product.routeId].locales[locale];
       const targetLocale = localizedTarget.status === "published" ? locale : "en";
       const resolvedHref = resolveSiteRoute(product.routeId, targetLocale, route.outputPath).href;
-      const href = targetLocale === locale ? resolvedHref : `${resolvedHref}?lang=${targetLocale}`;
-      assert(html.includes(`href="${href}"`), `${route.outputPath} has an incorrect link for ${product.routeId}.`);
+      assert(html.includes(`href="${resolvedHref}"`), `${route.outputPath} has an incorrect link for ${product.routeId}.`);
     }
   }
 }
