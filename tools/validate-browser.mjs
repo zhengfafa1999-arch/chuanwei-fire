@@ -6,7 +6,7 @@ import { spawn } from "node:child_process";
 import { SITE_ROUTES } from "../site-src/_data/siteRoutes.js";
 
 const root = process.cwd();
-const evidenceDirectory = path.join(root, "docs", "evidence", "multilingual-browser", "2026-09-04");
+const evidenceDirectory = path.join(root, "docs", "evidence", "responsive-rtl", "2026-09-05");
 const edgeCandidates = [
   process.env.EDGE_PATH,
   "C:/Program Files (x86)/Microsoft/Edge/Application/msedge.exe",
@@ -142,21 +142,54 @@ async function waitForLocation(client, expectedPath, expectedSearch = null) {
 }
 
 async function inspectPage(client) {
-  return evaluate(client, `({
-    url: location.href,
-    lang: document.documentElement.lang,
-    dir: document.documentElement.dir,
-    title: document.title,
-    heading: document.querySelector('h1')?.textContent.trim() || document.querySelector('h2')?.textContent.trim() || '',
-    canonical: document.querySelector('link[rel="canonical"]')?.href || '',
-    hreflangs: Object.fromEntries([...document.querySelectorAll('link[rel="alternate"][hreflang]')].map((link) => [link.hreflang, link.href])),
-    horizontalOverflow: Math.max(0, document.documentElement.scrollWidth - document.documentElement.clientWidth),
-    hasTemplateMarker: ['{{', '{%', '{#'].some((marker) => document.documentElement.outerHTML.includes(marker)),
-    globalHeaderCount: document.querySelectorAll('[data-global-header]').length,
-    primaryNavigationCount: document.querySelectorAll('[data-site-nav-item]').length,
-    activePrimaryCount: document.querySelectorAll('[data-site-nav-item][aria-current="page"]').length,
-    activeLanguageCount: document.querySelectorAll('[data-site-language-choice][aria-current="true"]').length
-  })`);
+  return evaluate(client, `(() => {
+    const root = document.documentElement;
+    const viewportWidth = root.clientWidth;
+    const header = document.querySelector('[data-global-header]');
+    const headerBounds = header?.getBoundingClientRect();
+    const socialFloat = document.querySelector('.social-float');
+    const isVisible = (element) => {
+      const style = getComputedStyle(element);
+      return style.display !== 'none' && style.visibility !== 'hidden';
+    };
+    const isInsideHorizontalScroller = (element) => {
+      for (let parent = element.parentElement; parent && parent !== document.body; parent = parent.parentElement) {
+        const style = getComputedStyle(parent);
+        if (/(auto|scroll)/.test(style.overflowX) && parent.scrollWidth > parent.clientWidth + 1) return true;
+      }
+      return false;
+    };
+    return {
+      url: location.href,
+      lang: root.lang,
+      dir: root.dir,
+      computedDirection: getComputedStyle(root).direction,
+      title: document.title,
+      heading: document.querySelector('h1')?.textContent.trim() || document.querySelector('h2')?.textContent.trim() || '',
+      canonical: document.querySelector('link[rel="canonical"]')?.href || '',
+      hreflangs: Object.fromEntries([...document.querySelectorAll('link[rel="alternate"][hreflang]')].map((link) => [link.hreflang, link.href])),
+      viewportMeta: document.querySelector('meta[name="viewport"]')?.content || '',
+      horizontalOverflow: Math.max(0, root.scrollWidth - viewportWidth),
+      hasTemplateMarker: ['{{', '{%', '{#'].some((marker) => root.outerHTML.includes(marker)),
+      globalHeaderCount: document.querySelectorAll('[data-global-header]').length,
+      primaryNavigationCount: document.querySelectorAll('[data-site-nav-item]').length,
+      activePrimaryCount: document.querySelectorAll('[data-site-nav-item][aria-current="page"]').length,
+      activeLanguageCount: document.querySelectorAll('[data-site-language-choice][aria-current="true"]').length,
+      headerWithinViewport: Boolean(headerBounds && headerBounds.left >= -1 && headerBounds.right <= viewportWidth + 1),
+      brokenImageCount: [...document.images].filter((image) => image.complete && image.naturalWidth === 0).length,
+      overflowingControls: [...document.querySelectorAll('input,select,textarea,button')].filter((element) => {
+        if (!isVisible(element) || element.closest('[role="dialog"]:not(.open)') || isInsideHorizontalScroller(element)) return false;
+        const bounds = element.getBoundingClientRect();
+        return bounds.left < -1 || bounds.right > viewportWidth + 1;
+      }).map((element) => {
+        const bounds = element.getBoundingClientRect();
+        return { tag: element.tagName, className: element.className, label: element.getAttribute('aria-label') || element.textContent.trim().slice(0, 80), left: bounds.left, right: bounds.right, width: bounds.width };
+      }),
+      socialFloatPosition: socialFloat ? getComputedStyle(socialFloat).position : null,
+      menuDisplay: getComputedStyle(document.querySelector('[data-nav-toggle]')).display,
+      navigationDisplay: getComputedStyle(document.querySelector('[data-site-nav]')).display
+    };
+  })()`);
 }
 
 const pages = [
@@ -179,12 +212,19 @@ const pages = [
   { id: "water-curtain-ar", path: "/ar/products/water-curtain-nozzles/index.html?lang=ar", lang: "ar", dir: "rtl", marker: "ستارة" },
   { id: "water-mist-en", path: "/products/消防喷头/water-mist-nozzles.html?lang=en", lang: "en", dir: "ltr", marker: "Water Mist" },
   { id: "water-mist-ar", path: "/ar/products/water-mist-nozzles/index.html?lang=ar", lang: "ar", dir: "rtl", marker: "ضباب" },
-  { id: "fallback-en", path: "/products/消防阀/diaphragm-deluge-valves.html", lang: "en", dir: "", marker: "Deluge" }
+  { id: "fallback-en", path: "/products/消防阀/diaphragm-deluge-valves.html", lang: "en", dir: "ltr", marker: "Deluge" }
 ];
 
 const viewports = [
   { id: "desktop", width: 1440, height: 900, deviceScaleFactor: 1, mobile: false },
   { id: "mobile", width: 390, height: 844, deviceScaleFactor: 1, mobile: true }
+];
+
+const responsiveViewports = [
+  { id: "desktop", width: 1440, height: 900, deviceScaleFactor: 1, mobile: false },
+  { id: "tablet", width: 768, height: 1024, deviceScaleFactor: 1, mobile: true },
+  { id: "mobile", width: 390, height: 844, deviceScaleFactor: 1, mobile: true },
+  { id: "compact", width: 320, height: 568, deviceScaleFactor: 1, mobile: true }
 ];
 
 const publicPagePairs = [
@@ -196,6 +236,12 @@ const publicPagePairs = [
 const navigationPages = Object.entries(SITE_ROUTES).flatMap(([routeId, definition]) => Object.entries(definition.locales)
   .filter(([, target]) => target.status === "published")
   .map(([locale, target]) => ({ routeId, locale, path: `/${target.outputPath}` })));
+const responsiveScreenshotTargets = new Set([
+  "home:ar",
+  "category:sprinklers:ar",
+  "product:wet-alarm-check-valve:ar",
+  "product:standard-response-fire-sprinkler:en"
+]);
 
 async function run() {
   assert(edgePath, "Microsoft Edge was not found. Set EDGE_PATH to a Chromium-compatible Edge executable.");
@@ -259,19 +305,45 @@ async function run() {
       }
     }
 
-    await client.send("Emulation.setDeviceMetricsOverride", { width: 390, height: 844, deviceScaleFactor: 1, mobile: true });
-    const navigationAudit = [];
-    for (const page of navigationPages) {
-      await navigate(client, `${origin}${encodeURI(page.path)}`, page.path);
-      const state = await inspectPage(client);
-      assert(state.globalHeaderCount === 1, `${page.path} is missing its shared global header.`);
-      assert(state.primaryNavigationCount === 5, `${page.path} does not expose all five primary destinations.`);
-      assert(state.activePrimaryCount === 1, `${page.path} does not identify exactly one primary section.`);
-      assert(state.activeLanguageCount === 1, `${page.path} does not identify exactly one current language.`);
-      await evaluate(client, `document.querySelector('[data-nav-toggle]').click()`);
-      const mobileMenu = await evaluate(client, `({open:document.querySelector('[data-site-nav]').classList.contains('open'),expanded:document.querySelector('[data-nav-toggle]').getAttribute('aria-expanded')})`);
-      assert(mobileMenu.open && mobileMenu.expanded === "true", `${page.path} mobile navigation did not open.`);
-      navigationAudit.push({ routeId: page.routeId, locale: page.locale, path: page.path, status: "PASS" });
+    const responsiveAudit = [];
+    const responsiveScreenshots = [];
+    for (const viewport of responsiveViewports) {
+      await client.send("Emulation.setDeviceMetricsOverride", viewport);
+      for (const page of navigationPages) {
+        await navigate(client, `${origin}${encodeURI(page.path)}`, page.path);
+        const state = await inspectPage(client);
+        const expectedLanguage = page.locale === "zh" ? "zh-CN" : page.locale;
+        const expectedDirection = page.locale === "ar" ? "rtl" : "ltr";
+        assert(state.lang === expectedLanguage, `${viewport.id}/${page.path} has lang=${state.lang}, expected ${expectedLanguage}.`);
+        assert(state.dir === expectedDirection && state.computedDirection === expectedDirection, `${viewport.id}/${page.path} has an incorrect writing direction.`);
+        assert(state.viewportMeta.includes("width=device-width"), `${viewport.id}/${page.path} is missing a responsive viewport declaration.`);
+        assert(state.horizontalOverflow <= 1, `${viewport.id}/${page.path} has ${state.horizontalOverflow}px document overflow.`);
+        assert(state.headerWithinViewport, `${viewport.id}/${page.path} header exceeds the viewport.`);
+        assert(state.brokenImageCount === 0, `${viewport.id}/${page.path} has ${state.brokenImageCount} broken images.`);
+        assert(state.overflowingControls.length === 0, `${viewport.id}/${page.path} has controls outside the viewport: ${JSON.stringify(state.overflowingControls)}.`);
+        if (viewport.width <= 480 && state.socialFloatPosition !== null) {
+          assert(state.socialFloatPosition === "static", `${viewport.id}/${page.path} keeps floating social controls over compact content.`);
+        }
+        assert(state.globalHeaderCount === 1, `${viewport.id}/${page.path} is missing its shared global header.`);
+        assert(state.primaryNavigationCount === 5, `${viewport.id}/${page.path} does not expose all five primary destinations.`);
+        assert(state.activePrimaryCount === 1, `${viewport.id}/${page.path} does not identify exactly one primary section.`);
+        assert(state.activeLanguageCount === 1, `${viewport.id}/${page.path} does not identify exactly one current language.`);
+        if (viewport.width > 980) {
+          assert(state.menuDisplay === "none" && state.navigationDisplay === "flex", `${viewport.id}/${page.path} does not expose desktop navigation.`);
+        } else {
+          assert(state.menuDisplay !== "none" && state.navigationDisplay === "none", `${viewport.id}/${page.path} does not start with a collapsed navigation menu.`);
+          await evaluate(client, `document.querySelector('[data-nav-toggle]').click()`);
+          const mobileMenu = await evaluate(client, `({open:document.querySelector('[data-site-nav]').classList.contains('open'),expanded:document.querySelector('[data-nav-toggle]').getAttribute('aria-expanded'),display:getComputedStyle(document.querySelector('[data-site-nav]')).display})`);
+          assert(mobileMenu.open && mobileMenu.expanded === "true" && mobileMenu.display === "flex", `${viewport.id}/${page.path} responsive navigation did not open.`);
+        }
+        if (responsiveScreenshotTargets.has(`${page.routeId}:${page.locale}`)) {
+          const screenshotName = `edge-${viewport.id}-${page.routeId.replace(/[^a-z0-9]+/gi, "-")}-${page.locale}.png`;
+          const screenshot = await client.send("Page.captureScreenshot", { format: "png", captureBeyondViewport: false });
+          fs.writeFileSync(path.join(evidenceDirectory, screenshotName), Buffer.from(screenshot.data, "base64"));
+          responsiveScreenshots.push(screenshotName);
+        }
+        responsiveAudit.push({ viewport: viewport.id, width: viewport.width, routeId: page.routeId, locale: page.locale, path: page.path, status: "PASS", ...state });
+      }
     }
 
     await client.send("Emulation.setDeviceMetricsOverride", { width: 1440, height: 900, deviceScaleFactor: 1, mobile: false });
@@ -360,9 +432,13 @@ async function run() {
       protocolVersion: version["Protocol-Version"],
       viewports,
       matrix,
-      navigationAudit,
+      responsiveViewports,
+      responsiveAudit,
       languageSwitches,
-      screenshots: viewports.flatMap((viewport) => ["home-en", "home-zh", "home-ar", "about-en", "about-ar", "downloads-en", "downloads-ar", "contact-en", "contact-ar"].map((page) => `edge-${viewport.id}-${page}.png`))
+      screenshots: [
+        ...viewports.flatMap((viewport) => ["home-en", "home-zh", "home-ar", "about-en", "about-ar", "downloads-en", "downloads-ar", "contact-en", "contact-ar"].map((page) => `edge-${viewport.id}-${page}.png`)),
+        ...responsiveScreenshots
+      ]
     };
     fs.writeFileSync(path.join(evidenceDirectory, "browser-validation.json"), `${JSON.stringify(evidence, null, 2)}\n`);
     const markdown = [
@@ -371,7 +447,7 @@ async function run() {
       `- 生成时间：${evidence.generatedAt}`,
       `- 浏览器：${evidence.browser}`,
       `- DevTools 协议：${evidence.protocolVersion}`,
-      `- 结果：${matrix.length} 个页面/视口组合通过；${navigationAudit.length} 个正式页面移动端导航通过；${languageSwitches.length} 个语言与返回场景通过。`,
+      `- 结果：${matrix.length} 个代表页面/视口组合通过；${responsiveAudit.length} 个全站响应式与方向检查通过；${languageSwitches.length} 个语言与返回场景通过。`,
       "",
       "## 视口矩阵",
       "",
@@ -381,14 +457,14 @@ async function run() {
       "",
       "## 覆盖范围",
       "",
-      "英文/中文/阿文首页、产品总目录、关于我们、下载中心、联系页面、分类页、双语详情与未翻译英文详情；另逐一打开全部 64 个正式页面的移动端主导航，并验证显式网址优先、语言切换、刷新、浏览器返回、阿文分类到英文回退详情及阿文全局导航。",
+      "英文/中文/阿文首页、产品总目录、关于我们、下载中心、联系页面、分类页、双语详情与未翻译英文详情；另逐一打开全部 64 个正式页面，在 1440、768、390 和 320 像素四档宽度检查 LTR/RTL、页面溢出、页头边界、图片加载、表单控件和响应式菜单，并验证显式网址优先、语言切换、刷新、浏览器返回及语言回退。",
       "",
       "## 可复核产物",
       "",
-      "逐页 URL、语言、方向、canonical、hreflang、横向溢出与标题数据见 `browser-validation.json`；同目录含英文/中文/阿文首页及三个公共页面的桌面与手机截图。"
+      "逐页 URL、语言、方向、canonical、hreflang、横向溢出、图片与控件边界数据见 `browser-validation.json`；同目录含首页、公共页面、阿文分类、双语详情及未翻译英文详情的代表性截图。"
     ].join("\n");
     fs.writeFileSync(path.join(evidenceDirectory, "README.md"), `${markdown}\n`);
-    console.log(`Browser validation passed: ${matrix.length} page/viewport checks, ${navigationAudit.length} full-site mobile navigation checks and ${languageSwitches.length} language/return checks on ${version.Browser}.`);
+    console.log(`Browser validation passed: ${matrix.length} representative page/viewport checks, ${responsiveAudit.length} full-site responsive/RTL checks and ${languageSwitches.length} language/return checks on ${version.Browser}.`);
   } finally {
     client?.close();
     browser.kill();

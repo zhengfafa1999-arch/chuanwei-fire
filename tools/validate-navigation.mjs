@@ -39,6 +39,12 @@ for (const [routeId, definition] of Object.entries(SITE_ROUTES)) {
     assert(fs.existsSync(absolutePath), `Navigation audit cannot find ${target.outputPath}.`);
     const html = fs.readFileSync(absolutePath, "utf8");
     const navigation = createSiteNavigation(routeId, locale, target.outputPath);
+    const documentTag = tags(html, "html")[0];
+    const expectedLanguage = locale === "zh" ? "zh-CN" : locale;
+    const expectedDirection = locale === "ar" ? "rtl" : "ltr";
+    assert(documentTag, `${target.outputPath} is missing its document element.`);
+    assert(readAttribute(documentTag, "lang") === expectedLanguage, `${target.outputPath} has an incorrect HTML language.`);
+    assert(readAttribute(documentTag, "dir") === expectedDirection, `${target.outputPath} has an incorrect HTML direction.`);
     assert((html.match(/data-global-header(?:\s|>)/g) ?? []).length === 1, `${target.outputPath} must contain exactly one shared global header.`);
     assert(html.includes(`data-site-language="${locale}"`), `${target.outputPath} has an incorrect page language marker.`);
     assert(html.includes(`data-site-route-id="${routeId}"`), `${target.outputPath} has an incorrect route marker.`);
@@ -80,4 +86,3 @@ for (const [routeId, definition] of Object.entries(SITE_ROUTES)) {
 }
 
 console.log(`Navigation validation passed: ${pageCount} published pages, ${productCount} product return paths and ${fallbackCount} explicit language fallbacks are consistent.`);
-

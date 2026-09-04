@@ -31,6 +31,17 @@ function setBodyRoute(html, routeId, locale) {
   });
 }
 
+function setDocumentLocale(html, locale) {
+  const language = locale === "zh" ? "zh-CN" : locale;
+  const direction = locale === "ar" ? "rtl" : "ltr";
+  return html.replace(/<html\b([^>]*)>/i, (_, attributes) => {
+    const cleaned = attributes
+      .replace(/\slang=(['"])[\s\S]*?\1/gi, "")
+      .replace(/\sdir=(['"])[\s\S]*?\1/gi, "");
+    return `<html${cleaned} lang="${language}" dir="${direction}">`;
+  });
+}
+
 function ensureStylesheet(html, href) {
   if (html.includes(`href="${href}"`) || html.includes(`href='${href}'`)) return html;
   return html.replace(/\s*<\/head>/i, `\n  <link rel="stylesheet" href="${href}">\n</head>`);
@@ -66,6 +77,7 @@ for (const [routeId, definition] of Object.entries(SITE_ROUTES)) {
       if (!legacyFooterPattern.test(updated)) throw new Error(`Legacy page '${target.outputPath}' has no replaceable product footer.`);
       updated = updated.replace(legacyFooterPattern, footerBlock);
     }
+    updated = setDocumentLocale(updated, locale);
     updated = setBodyRoute(updated, routeId, locale);
     updated = ensureStylesheet(updated, `${navigation.assetPrefix}css/site-navigation.css`);
     updated = ensureScript(updated, `${navigation.assetPrefix}assets/js/site-navigation.js`);
@@ -76,4 +88,3 @@ for (const [routeId, definition] of Object.entries(SITE_ROUTES)) {
 }
 
 console.log(`Legacy navigation normalization passed: ${normalizedCount} hand-maintained product pages updated.`);
-
