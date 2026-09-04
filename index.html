@@ -9,8 +9,10 @@
   <meta name="description" content="Fire protection equipment manufacturing and OEM support for sprinklers, alarm valves, fire valves, hose reels, fire hoses, nozzles, couplings and hydrant-system components.">
   <link rel="canonical" href="https://chuanweifire.com/">
   <link rel="alternate" hreflang="en" href="https://chuanweifire.com/">
+  <link rel="alternate" hreflang="zh-CN" href="https://chuanweifire.com/?lang=zh">
   <link rel="alternate" hreflang="ar" href="https://chuanweifire.com/ar/">
   <link rel="alternate" hreflang="x-default" href="https://chuanweifire.com/">
+
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="CHUANWEI FIRE">
   <meta property="og:title" content="CHUANWEI FIRE | Fire Protection Equipment Manufacturer &amp; OEM Support">
@@ -111,14 +113,18 @@
 
   <div class="modal" id="imageModal"><button type="button" aria-label="Close">×</button><img src="assets/home/certificates/iso-9001.png" alt="Certificate preview"></div>
   <script>
-    const homeLanguage='en',arabicTranslations={};
-    const setLanguage=lang=>{document.documentElement.lang=lang==='zh'?'zh-CN':lang;document.documentElement.dir=lang==='ar'?'rtl':'ltr';document.querySelectorAll('[data-en]').forEach(el=>{const value=lang==='ar'?arabicTranslations[el.dataset.en]:el.dataset[lang];if(value)el.textContent=value});document.querySelectorAll('[data-site-language-choice]').forEach(control=>control.classList.toggle('active',control.dataset.siteLanguageChoice===lang));localStorage.setItem('lang',lang);localStorage.setItem('chuanwei-site-language',lang==='ar'?'ar':'en')};
-    document.querySelectorAll('[data-site-language-choice]').forEach(link=>link.addEventListener('click',()=>{const lang=link.dataset.siteLanguageChoice;localStorage.setItem('chuanwei-site-language',lang==='ar'?'ar':'en');localStorage.setItem('lang',lang)}));
+    const homeLanguage='en',arabicTranslations={},languageLinks={"en":"index.html","zh":"index.html?lang=zh","ar":"ar/index.html"},languageCanonicals={"en":"https://chuanweifire.com/","zh-CN":"https://chuanweifire.com/?lang=zh","ar":"https://chuanweifire.com/ar/","x-default":"https://chuanweifire.com/"};
+    const supportedLanguages=['en','zh','ar'];
+    const saveLanguage=lang=>{localStorage.setItem('lang',lang);localStorage.setItem('chuanwei-site-language',lang)};
+    const setLanguage=lang=>{document.documentElement.lang=lang==='zh'?'zh-CN':lang;document.documentElement.dir=lang==='ar'?'rtl':'ltr';document.querySelectorAll('[data-en]').forEach(el=>{const value=lang==='ar'?arabicTranslations[el.dataset.en]:el.dataset[lang];if(value)el.textContent=value});document.querySelectorAll('[data-site-language-choice]').forEach(control=>control.classList.toggle('active',control.dataset.siteLanguageChoice===lang));const canonicalLanguage=lang==='zh'?'zh-CN':lang;document.querySelector('link[rel="canonical"]').href=languageCanonicals[canonicalLanguage];document.querySelector('meta[property="og:url"]').content=languageCanonicals[canonicalLanguage];saveLanguage(lang)};
+    document.querySelectorAll('[data-site-language-choice]').forEach(link=>link.addEventListener('click',()=>saveLanguage(link.dataset.siteLanguageChoice)));
     const requestedLanguage=new URLSearchParams(location.search).get('lang');
-    setLanguage(homeLanguage==='ar'?'ar':requestedLanguage==='zh'||localStorage.getItem('lang')==='zh'?'zh':'en');
+    const storedLanguage=localStorage.getItem('chuanwei-site-language')||localStorage.getItem('lang');
+    const preferredLanguage=supportedLanguages.includes(requestedLanguage)?requestedLanguage:supportedLanguages.includes(storedLanguage)?storedLanguage:homeLanguage;
+    const requiresLocalizedPage=preferredLanguage==='ar'?homeLanguage!=='ar':homeLanguage==='ar';
+    if(requiresLocalizedPage){location.replace(languageLinks[preferredLanguage])}else{setLanguage(preferredLanguage)}
     if(homeLanguage==='ar'){
       document.querySelectorAll('a[href^="#"]').forEach(link=>link.addEventListener('click',event=>{event.preventDefault();document.querySelector(link.getAttribute('href'))?.scrollIntoView()}));
-      document.querySelectorAll('.product').forEach(link=>{if(!link.getAttribute('href').startsWith('ar/products.html'))link.href='ar/products.html'});
     }
     const modal=document.getElementById('imageModal'),modalImg=modal.querySelector('img');
     const closeModal=()=>{modal.classList.remove('open');document.body.style.overflow=''};

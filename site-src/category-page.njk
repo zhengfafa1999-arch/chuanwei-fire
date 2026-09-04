@@ -1,0 +1,42 @@
+---
+pagination:
+  data: categoryPages
+  size: 1
+  alias: entry
+permalink: "{{ entry.route.outputPath }}"
+eleventyExcludeFromCollections: true
+---
+<!doctype html>
+<!-- GENERATED FILE. Edit site-src/category-page.njk or site-src/_data/productDirectory.js. -->
+<html lang="{{ entry.copy.lang }}" dir="{{ entry.copy.dir }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>{{ entry.seoTitle }}</title>
+  <meta name="description" content="{{ entry.seoDescription }}">
+  <link rel="canonical" href="{{ entry.route.canonical }}">
+  <link rel="alternate" hreflang="{{ entry.copy.lang }}" href="{{ entry.route.canonical }}">
+  <link rel="alternate" hreflang="{% if entry.copy.lang == 'en' %}ar{% else %}en{% endif %}" href="{{ entry.route.alternate }}">
+  <link rel="alternate" hreflang="x-default" href="{% if entry.copy.lang == 'en' %}{{ entry.route.canonical }}{% else %}{{ entry.route.alternate }}{% endif %}">
+  <meta property="og:type" content="website"><meta property="og:title" content="{{ entry.seoTitle }}"><meta property="og:description" content="{{ entry.seoDescription }}"><meta property="og:url" content="{{ entry.route.canonical }}"><meta property="og:image" content="{{ entry.ogImage }}">
+  <link rel="icon" href="{{ entry.route.assetPrefix }}favicon.ico">
+  <link rel="stylesheet" href="{{ entry.route.assetPrefix }}css/catalog-pages.css">
+</head>
+<body data-site-language="{{ entry.copy.lang }}" data-language-alternate="{{ entry.route.alternateHref }}">
+  <header class="catalog-header"><div class="catalog-shell catalog-header__in">
+    <a class="catalog-brand" href="{{ entry.route.homeHref }}"><img src="{{ entry.route.assetPrefix }}apple-touch-icon.png" alt="CHUANWEI FIRE"><span><strong>CHUANWEI FIRE</strong><small>{{ entry.copy.brandTagline }}</small></span></a>
+    <nav class="catalog-nav"><a href="{{ entry.route.homeHref }}">{{ entry.copy.home }}</a><a href="{{ entry.route.productsHref }}">{{ entry.copy.products }}</a></nav>
+    <div class="catalog-languages" aria-label="Language selector"><a href="{{ entry.route.languageLinks.en }}" lang="en" data-site-language-choice="en"{% if entry.copy.lang == 'en' %} aria-current="true"{% endif %}>{{ entry.copy.english }}</a><a href="{{ entry.route.languageLinks.ar }}" lang="ar" dir="rtl" data-site-language-choice="ar"{% if entry.copy.lang == 'ar' %} aria-current="true"{% endif %}>{{ entry.copy.arabic }}</a></div>
+  </div></header>
+  <main>
+    <section class="catalog-hero category-hero"><div class="catalog-shell category-hero__grid"><div><p class="catalog-eyebrow">{{ entry.copy.categoryEyebrow }}</p><h1>{{ entry.familyName }}</h1><p>{{ entry.familyDescription }}</p><div class="category-hero__actions"><a class="catalog-button" href="#products">{{ entry.copy.availableProducts }}</a><a class="catalog-button catalog-button--ghost" href="{{ entry.whatsappHref }}" target="_blank" rel="noopener">{{ entry.copy.whatsapp }}</a></div></div><div class="category-hero__image"><img src="{{ entry.heroImage }}" alt="{{ entry.familyName }}"></div></div></section>
+    <section class="catalog-section" id="products"><div class="catalog-shell"><div class="catalog-section__heading"><div><p class="catalog-eyebrow">{{ entry.copy.availableProducts }}</p><h2>{{ entry.familyName }}</h2></div><p>{{ entry.copy.categoryNote }}</p></div><div class="product-grid">
+      {% for product in entry.products %}<article class="product-card"><a class="product-card__image" href="{{ product.href }}"><img src="{{ product.image }}" alt="{{ product.name }}" loading="lazy"></a><div class="product-card__body"><span class="product-card__badge product-card__badge--{{ product.linkType }}">{% if product.linkType == 'localized' %}{{ entry.copy.localizedBadge }}{% elif product.linkType == 'english' %}{{ entry.copy.fallbackBadge }}{% else %}{{ entry.copy.inquiryBadge }}{% endif %}</span><h3>{{ product.name }}</h3><a class="product-card__link" href="{{ product.href }}">{% if product.linkType == 'localized' %}{{ entry.copy.localizedDetails }}{% elif product.linkType == 'english' %}{{ entry.copy.englishDetails }}{% else %}{{ entry.copy.requestDetails }}{% endif %} <span aria-hidden="true">→</span></a></div></article>{% endfor %}
+    </div></div></section>
+    <section class="catalog-selection"><div class="catalog-shell catalog-selection__grid"><div><p class="catalog-eyebrow">OEM / ODM</p><h2>{{ entry.copy.selectionTitle }}</h2><p>{{ entry.copy.selectionLead }}</p></div><ul>{% for item in entry.copy.selectionItems %}<li>{{ item }}</li>{% endfor %}</ul></div></section>
+    <section class="catalog-cta"><div class="catalog-shell catalog-cta__in"><div><h2>{{ entry.copy.inquiryTitle }}</h2><p>{{ entry.copy.inquiryBody }}</p></div><a class="catalog-button" href="{{ entry.whatsappHref }}" target="_blank" rel="noopener">{{ entry.copy.whatsapp }}</a></div></section>
+  </main>
+  <footer class="catalog-footer"><div class="catalog-shell"><span>© 2026 CHUANWEI FIRE</span><a href="{{ entry.route.productsHref }}">{{ entry.copy.backToDirectory }}</a></div></footer>
+  <script src="{{ entry.route.assetPrefix }}assets/js/product-detail.js"></script>
+</body>
+</html>

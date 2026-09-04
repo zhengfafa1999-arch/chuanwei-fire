@@ -1,3 +1,5 @@
+import { createHomeRoute } from "./siteRoutes.js";
+
 const arabic = {
   "Fire protection equipment": "تصنيع معدات مكافحة الحريق",
   "Products": "المنتجات",
@@ -100,29 +102,38 @@ const shared = {
   description: "Fire protection equipment manufacturing and OEM support for sprinklers, alarm valves, fire valves, hose reels, fire hoses, nozzles, couplings and hydrant-system components."
 };
 
+const englishRoute = createHomeRoute("en");
+const arabicRoute = createHomeRoute("ar");
+
 export default [
   {
     ...shared,
-    outputPath: "index.html",
+    route: englishRoute,
+    outputPath: englishRoute.outputPath,
     lang: "en",
     dir: "ltr",
     locale: "en_US",
-    canonical: "https://chuanweifire.com/",
+    canonical: englishRoute.canonical,
     assetPrefix: "",
     title: "CHUANWEI FIRE | Fire Protection Equipment Manufacturer & OEM Support",
-    translationsJson: "{}"
+    translationsJson: "{}",
+    languageLinksJson: JSON.stringify(englishRoute.languageLinks),
+    languageCanonicalsJson: JSON.stringify(englishRoute.languageCanonicals)
   },
   {
     ...shared,
-    outputPath: "ar/index.html",
+    route: arabicRoute,
+    outputPath: arabicRoute.outputPath,
     lang: "ar",
     dir: "rtl",
     locale: "ar_AR",
     alternateLocale: "en_US",
-    canonical: "https://chuanweifire.com/ar/",
+    canonical: arabicRoute.canonical,
     assetPrefix: "../",
     title: "CHUANWEI FIRE | تصنيع معدات مكافحة الحريق ودعم OEM",
     description: "تصنيع وتوريد معدات مكافحة الحريق ودعم OEM لرشاشات الحريق والصمامات وبكرات الخراطيم ومكونات شبكات مياه الحريق.",
-    translationsJson: JSON.stringify(arabic)
+    translationsJson: JSON.stringify(arabic),
+    languageLinksJson: JSON.stringify(arabicRoute.languageLinks),
+    languageCanonicalsJson: JSON.stringify(arabicRoute.languageCanonicals)
   }
 ];

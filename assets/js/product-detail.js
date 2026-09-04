@@ -5,6 +5,8 @@
   const currentLanguage = document.body.dataset.siteLanguage;
   const alternateHref = document.body.dataset.languageAlternate;
   const preferredLanguage = localStorage.getItem(languageKey);
+  const requestedLanguage = new URLSearchParams(window.location.search).get("lang");
+  const hasExplicitLanguageView = requestedLanguage === currentLanguage;
 
   document.querySelectorAll("[data-site-language-choice]").forEach((link) => {
     link.addEventListener("click", () => {
@@ -12,7 +14,7 @@
     });
   });
 
-  if ((preferredLanguage === "en" || preferredLanguage === "ar") && preferredLanguage !== currentLanguage && alternateHref) {
+  if (!hasExplicitLanguageView && (preferredLanguage === "en" || preferredLanguage === "ar") && preferredLanguage !== currentLanguage && alternateHref) {
     window.location.replace(alternateHref);
     return;
   }

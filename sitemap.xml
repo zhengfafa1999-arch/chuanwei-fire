@@ -1,128 +1,524 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:xhtml="http://www.w3.org/1999/xhtml"
-        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-
-    <!-- Main page (English) -->
-    <url>
-        <loc>https://chuanweifire.com/</loc>
-        <xhtml:link rel="alternate" hreflang="en" href="https://chuanweifire.com/" />
-        <xhtml:link rel="alternate" hreflang="ar" href="https://chuanweifire.com/ar/" />
-        <xhtml:link rel="alternate" hreflang="x-default" href="https://chuanweifire.com/" />
-        <lastmod>2026-09-03</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>1.0</priority>
-    </url>
-
-    <!-- Main page (Chinese) -->
-    <url>
-        <loc>https://chuanweifire.com/?lang=zh</loc>
-        <lastmod>2026-09-03</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.9</priority>
-    </url>
-
-    <!-- Arabic core pages -->
-    <url>
-        <loc>https://chuanweifire.com/ar/</loc>
-        <xhtml:link rel="alternate" hreflang="ar" href="https://chuanweifire.com/ar/" />
-        <xhtml:link rel="alternate" hreflang="en" href="https://chuanweifire.com/" />
-        <xhtml:link rel="alternate" hreflang="x-default" href="https://chuanweifire.com/" />
-        <lastmod>2026-09-03</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.9</priority>
-    </url>
-
-    <url>
-        <loc>https://chuanweifire.com/ar/products.html</loc>
-        <lastmod>2026-09-03</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.9</priority>
-    </url>
-
-    <url>
-        <loc>https://chuanweifire.com/ar/about.html</loc>
-        <lastmod>2026-09-03</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
-    </url>
-
-    <url>
-        <loc>https://chuanweifire.com/ar/contact.html</loc>
-        <lastmod>2026-09-03</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-
-    <url>
-        <loc>https://chuanweifire.com/ar/downloads.html</loc>
-        <lastmod>2026-09-03</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
-    </url>
-
-    <!-- Wet alarm check valve product pages -->
-    <url>
-        <loc>https://chuanweifire.com/products/%E6%B6%88%E9%98%B2%E9%98%80/wet-alarm-check-valve-assemblies.html</loc>
-        <xhtml:link rel="alternate" hreflang="en" href="https://chuanweifire.com/products/%E6%B6%88%E9%98%B2%E9%98%80/wet-alarm-check-valve-assemblies.html" />
-        <xhtml:link rel="alternate" hreflang="ar" href="https://chuanweifire.com/ar/products/wet-alarm-check-valve/" />
-        <xhtml:link rel="alternate" hreflang="x-default" href="https://chuanweifire.com/products/%E6%B6%88%E9%98%B2%E9%98%80/wet-alarm-check-valve-assemblies.html" />
-        <lastmod>2026-09-03</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-
-    <url>
-        <loc>https://chuanweifire.com/ar/products/wet-alarm-check-valve/</loc>
-        <xhtml:link rel="alternate" hreflang="ar" href="https://chuanweifire.com/ar/products/wet-alarm-check-valve/" />
-        <xhtml:link rel="alternate" hreflang="en" href="https://chuanweifire.com/products/%E6%B6%88%E9%98%B2%E9%98%80/wet-alarm-check-valve-assemblies.html" />
-        <xhtml:link rel="alternate" hreflang="x-default" href="https://chuanweifire.com/products/%E6%B6%88%E9%98%B2%E9%98%80/wet-alarm-check-valve-assemblies.html" />
-        <lastmod>2026-09-03</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-
-    <!-- Water curtain nozzle product pages -->
-    <url>
-        <loc>https://chuanweifire.com/products/%E6%B6%88%E9%98%B2%E5%96%B7%E5%A4%B4/water-curtain-nozzles.html</loc>
-        <xhtml:link rel="alternate" hreflang="en" href="https://chuanweifire.com/products/%E6%B6%88%E9%98%B2%E5%96%B7%E5%A4%B4/water-curtain-nozzles.html" />
-        <xhtml:link rel="alternate" hreflang="ar" href="https://chuanweifire.com/ar/products/water-curtain-nozzles/" />
-        <xhtml:link rel="alternate" hreflang="x-default" href="https://chuanweifire.com/products/%E6%B6%88%E9%98%B2%E5%96%B7%E5%A4%B4/water-curtain-nozzles.html" />
-        <lastmod>2026-09-04</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-
-    <url>
-        <loc>https://chuanweifire.com/ar/products/water-curtain-nozzles/</loc>
-        <xhtml:link rel="alternate" hreflang="ar" href="https://chuanweifire.com/ar/products/water-curtain-nozzles/" />
-        <xhtml:link rel="alternate" hreflang="en" href="https://chuanweifire.com/products/%E6%B6%88%E9%98%B2%E5%96%B7%E5%A4%B4/water-curtain-nozzles.html" />
-        <xhtml:link rel="alternate" hreflang="x-default" href="https://chuanweifire.com/products/%E6%B6%88%E9%98%B2%E5%96%B7%E5%A4%B4/water-curtain-nozzles.html" />
-        <lastmod>2026-09-04</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-
-    <!-- Water mist nozzle product pages -->
-    <url>
-        <loc>https://chuanweifire.com/products/%E6%B6%88%E9%98%B2%E5%96%B7%E5%A4%B4/water-mist-nozzles.html</loc>
-        <xhtml:link rel="alternate" hreflang="en" href="https://chuanweifire.com/products/%E6%B6%88%E9%98%B2%E5%96%B7%E5%A4%B4/water-mist-nozzles.html" />
-        <xhtml:link rel="alternate" hreflang="ar" href="https://chuanweifire.com/ar/products/water-mist-nozzles/" />
-        <xhtml:link rel="alternate" hreflang="x-default" href="https://chuanweifire.com/products/%E6%B6%88%E9%98%B2%E5%96%B7%E5%A4%B4/water-mist-nozzles.html" />
-        <lastmod>2026-09-04</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-
-    <url>
-        <loc>https://chuanweifire.com/ar/products/water-mist-nozzles/</loc>
-        <xhtml:link rel="alternate" hreflang="ar" href="https://chuanweifire.com/ar/products/water-mist-nozzles/" />
-        <xhtml:link rel="alternate" hreflang="en" href="https://chuanweifire.com/products/%E6%B6%88%E9%98%B2%E5%96%B7%E5%A4%B4/water-mist-nozzles.html" />
-        <xhtml:link rel="alternate" hreflang="x-default" href="https://chuanweifire.com/products/%E6%B6%88%E9%98%B2%E5%96%B7%E5%A4%B4/water-mist-nozzles.html" />
-        <lastmod>2026-09-04</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-
+<!-- GENERATED FILE. Edit site-src/sitemap.njk or site-src/_data/siteRoutes.js. -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://chuanweifire.com/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://chuanweifire.com/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://chuanweifire.com/ar/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://chuanweifire.com/?lang=zh" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://chuanweifire.com/" />
+    <lastmod>2026-09-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://chuanweifire.com/ar/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://chuanweifire.com/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://chuanweifire.com/ar/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://chuanweifire.com/?lang=zh" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://chuanweifire.com/" />
+    <lastmod>2026-09-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://chuanweifire.com/?lang=zh</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://chuanweifire.com/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://chuanweifire.com/ar/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://chuanweifire.com/?lang=zh" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://chuanweifire.com/" />
+    <lastmod>2026-09-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://chuanweifire.com/products.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://chuanweifire.com/products.html" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://chuanweifire.com/ar/products.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://chuanweifire.com/products.html" />
+    <lastmod>2026-09-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://chuanweifire.com/ar/products.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://chuanweifire.com/products.html" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://chuanweifire.com/ar/products.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://chuanweifire.com/products.html" />
+    <lastmod>2026-09-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://chuanweifire.com/ar/about.html</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://chuanweifire.com/ar/about.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://chuanweifire.com/ar/about.html" />
+    <lastmod>2026-09-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://chuanweifire.com/ar/downloads.html</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://chuanweifire.com/ar/downloads.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://chuanweifire.com/ar/downloads.html" />
+    <lastmod>2026-09-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://chuanweifire.com/ar/contact.html</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://chuanweifire.com/ar/contact.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://chuanweifire.com/ar/contact.html" />
+    <lastmod>2026-09-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://chuanweifire.com/products/%E6%B6%88%E9%98%B2%E5%96%B7%E5%A4%B4.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://chuanweifire.com/products/%E6%B6%88%E9%98%B2%E5%96%B7%E5%A4%B4.html" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://chuanweifire.com/ar/products/sprinklers/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://chuanweifire.com/products/%E6%B6%88%E9%98%B2%E5%96%B7%E5%A4%B4.html" />
+    <lastmod>2026-09-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://chuanweifire.com/ar/products/sprinklers/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://chuanweifire.com/products/%E6%B6%88%E9%98%B2%E5%96%B7%E5%A4%B4.html" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://chuanweifire.com/ar/products/sprinklers/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://chuanweifire.com/products/%E6%B6%88%E9%98%B2%E5%96%B7%E5%A4%B4.html" />
+    <lastmod>2026-09-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://chuanweifire.com/products/%E6%B6%88%E9%98%B2%E9%98%80.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://chuanweifire.com/products/%E6%B6%88%E9%98%B2%E9%98%80.html" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://chuanweifire.com/ar/products/system-valves/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://chuanweifire.com/products/%E6%B6%88%E9%98%B2%E9%98%80.html" />
+    <lastmod>2026-09-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://chuanweifire.com/ar/products/system-valves/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://chuanweifire.com/products/%E6%B6%88%E9%98%B2%E9%98%80.html" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://chuanweifire.com/ar/products/system-valves/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://chuanweifire.com/products/%E6%B6%88%E9%98%B2%E9%98%80.html" />
+    <lastmod>2026-09-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://chuanweifire.com/products/%E6%B6%88%E9%98%B2%E8%9D%B6%E9%98%80.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://chuanweifire.com/products/%E6%B6%88%E9%98%B2%E8%9D%B6%E9%98%80.html" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://chuanweifire.com/ar/products/butterfly-valves/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://chuanweifire.com/products/%E6%B6%88%E9%98%B2%E8%9D%B6%E9%98%80.html" />
+    <lastmod>2026-09-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://chuanweifire.com/ar/products/butterfly-valves/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://chuanweifire.com/products/%E6%B6%88%E9%98%B2%E8%9D%B6%E9%98%80.html" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://chuanweifire.com/ar/products/butterfly-valves/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://chuanweifire.com/products/%E6%B6%88%E9%98%B2%E8%9D%B6%E9%98%80.html" />
+    <lastmod>2026-09-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://chuanweifire.com/products/%E6%B6%88%E9%98%B2%E9%98%80%E9%97%A8.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://chuanweifire.com/products/%E6%B6%88%E9%98%B2%E9%98%80%E9%97%A8.html" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://chuanweifire.com/ar/products/gate-valves/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://chuanweifire.com/products/%E6%B6%88%E9%98%B2%E9%98%80%E9%97%A8.html" />
+    <lastmod>2026-09-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://chuanweifire.com/ar/products/gate-valves/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://chuanweifire.com/products/%E6%B6%88%E9%98%B2%E9%98%80%E9%97%A8.html" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://chuanweifire.com/ar/products/gate-valves/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://chuanweifire.com/products/%E6%B6%88%E9%98%B2%E9%98%80%E9%97%A8.html" />
+    <lastmod>2026-09-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://chuanweifire.com/products/%E8%BD%AF%E7%AE%A1%E5%8D%B7%E7%9B%98.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://chuanweifire.com/products/%E8%BD%AF%E7%AE%A1%E5%8D%B7%E7%9B%98.html" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://chuanweifire.com/ar/products/hose-reels/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://chuanweifire.com/products/%E8%BD%AF%E7%AE%A1%E5%8D%B7%E7%9B%98.html" />
+    <lastmod>2026-09-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://chuanweifire.com/ar/products/hose-reels/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://chuanweifire.com/products/%E8%BD%AF%E7%AE%A1%E5%8D%B7%E7%9B%98.html" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://chuanweifire.com/ar/products/hose-reels/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://chuanweifire.com/products/%E8%BD%AF%E7%AE%A1%E5%8D%B7%E7%9B%98.html" />
+    <lastmod>2026-09-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://chuanweifire.com/products/%E6%B6%88%E9%98%B2%E6%B0%B4%E6%9E%AA.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://chuanweifire.com/products/%E6%B6%88%E9%98%B2%E6%B0%B4%E6%9E%AA.html" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://chuanweifire.com/ar/products/hoses-nozzles-couplings/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://chuanweifire.com/products/%E6%B6%88%E9%98%B2%E6%B0%B4%E6%9E%AA.html" />
+    <lastmod>2026-09-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://chuanweifire.com/ar/products/hoses-nozzles-couplings/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://chuanweifire.com/products/%E6%B6%88%E9%98%B2%E6%B0%B4%E6%9E%AA.html" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://chuanweifire.com/ar/products/hoses-nozzles-couplings/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://chuanweifire.com/products/%E6%B6%88%E9%98%B2%E6%B0%B4%E6%9E%AA.html" />
+    <lastmod>2026-09-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://chuanweifire.com/products/%E5%AE%A4%E5%86%85%E6%B6%88%E9%98%B2%E6%A0%93/%E5%AE%A4%E5%86%85%E6%B6%88%E9%98%B2%E6%A0%93.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://chuanweifire.com/products/%E5%AE%A4%E5%86%85%E6%B6%88%E9%98%B2%E6%A0%93/%E5%AE%A4%E5%86%85%E6%B6%88%E9%98%B2%E6%A0%93.html" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://chuanweifire.com/ar/products/indoor-hydrants/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://chuanweifire.com/products/%E5%AE%A4%E5%86%85%E6%B6%88%E9%98%B2%E6%A0%93/%E5%AE%A4%E5%86%85%E6%B6%88%E9%98%B2%E6%A0%93.html" />
+    <lastmod>2026-09-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://chuanweifire.com/ar/products/indoor-hydrants/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://chuanweifire.com/products/%E5%AE%A4%E5%86%85%E6%B6%88%E9%98%B2%E6%A0%93/%E5%AE%A4%E5%86%85%E6%B6%88%E9%98%B2%E6%A0%93.html" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://chuanweifire.com/ar/products/indoor-hydrants/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://chuanweifire.com/products/%E5%AE%A4%E5%86%85%E6%B6%88%E9%98%B2%E6%A0%93/%E5%AE%A4%E5%86%85%E6%B6%88%E9%98%B2%E6%A0%93.html" />
+    <lastmod>2026-09-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://chuanweifire.com/products/%E5%AE%A4%E5%A4%96%E6%B6%88%E9%98%B2%E6%A0%93/%E5%AE%A4%E5%A4%96%E6%B6%88%E9%98%B2%E6%A0%93.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://chuanweifire.com/products/%E5%AE%A4%E5%A4%96%E6%B6%88%E9%98%B2%E6%A0%93/%E5%AE%A4%E5%A4%96%E6%B6%88%E9%98%B2%E6%A0%93.html" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://chuanweifire.com/ar/products/outdoor-hydrants/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://chuanweifire.com/products/%E5%AE%A4%E5%A4%96%E6%B6%88%E9%98%B2%E6%A0%93/%E5%AE%A4%E5%A4%96%E6%B6%88%E9%98%B2%E6%A0%93.html" />
+    <lastmod>2026-09-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://chuanweifire.com/ar/products/outdoor-hydrants/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://chuanweifire.com/products/%E5%AE%A4%E5%A4%96%E6%B6%88%E9%98%B2%E6%A0%93/%E5%AE%A4%E5%A4%96%E6%B6%88%E9%98%B2%E6%A0%93.html" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://chuanweifire.com/ar/products/outdoor-hydrants/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://chuanweifire.com/products/%E5%AE%A4%E5%A4%96%E6%B6%88%E9%98%B2%E6%A0%93/%E5%AE%A4%E5%A4%96%E6%B6%88%E9%98%B2%E6%A0%93.html" />
+    <lastmod>2026-09-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://chuanweifire.com/products/%E6%B6%88%E9%98%B2%E6%B0%B4%E6%B3%B5%E6%8E%A5%E5%90%88%E5%99%A8.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://chuanweifire.com/products/%E6%B6%88%E9%98%B2%E6%B0%B4%E6%B3%B5%E6%8E%A5%E5%90%88%E5%99%A8.html" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://chuanweifire.com/ar/products/fire-department-connections/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://chuanweifire.com/products/%E6%B6%88%E9%98%B2%E6%B0%B4%E6%B3%B5%E6%8E%A5%E5%90%88%E5%99%A8.html" />
+    <lastmod>2026-09-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://chuanweifire.com/ar/products/fire-department-connections/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://chuanweifire.com/products/%E6%B6%88%E9%98%B2%E6%B0%B4%E6%B3%B5%E6%8E%A5%E5%90%88%E5%99%A8.html" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://chuanweifire.com/ar/products/fire-department-connections/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://chuanweifire.com/products/%E6%B6%88%E9%98%B2%E6%B0%B4%E6%B3%B5%E6%8E%A5%E5%90%88%E5%99%A8.html" />
+    <lastmod>2026-09-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://chuanweifire.com/products/%E6%B6%88%E9%98%B2%E9%98%80/wet-alarm-check-valve-assemblies.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://chuanweifire.com/products/%E6%B6%88%E9%98%B2%E9%98%80/wet-alarm-check-valve-assemblies.html" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://chuanweifire.com/ar/products/wet-alarm-check-valve/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://chuanweifire.com/products/%E6%B6%88%E9%98%B2%E9%98%80/wet-alarm-check-valve-assemblies.html" />
+    <lastmod>2026-09-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://chuanweifire.com/ar/products/wet-alarm-check-valve/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://chuanweifire.com/products/%E6%B6%88%E9%98%B2%E9%98%80/wet-alarm-check-valve-assemblies.html" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://chuanweifire.com/ar/products/wet-alarm-check-valve/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://chuanweifire.com/products/%E6%B6%88%E9%98%B2%E9%98%80/wet-alarm-check-valve-assemblies.html" />
+    <lastmod>2026-09-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://chuanweifire.com/products/%E6%B6%88%E9%98%B2%E9%98%80/diaphragm-deluge-valves.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://chuanweifire.com/products/%E6%B6%88%E9%98%B2%E9%98%80/diaphragm-deluge-valves.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://chuanweifire.com/products/%E6%B6%88%E9%98%B2%E9%98%80/diaphragm-deluge-valves.html" />
+    <lastmod>2026-09-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://chuanweifire.com/products/%E6%B6%88%E9%98%B2%E9%98%80/preaction-valve-assemblies.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://chuanweifire.com/products/%E6%B6%88%E9%98%B2%E9%98%80/preaction-valve-assemblies.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://chuanweifire.com/products/%E6%B6%88%E9%98%B2%E9%98%80/preaction-valve-assemblies.html" />
+    <lastmod>2026-09-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://chuanweifire.com/products/%E6%B6%88%E9%98%B2%E9%98%80/dry-pipe-alarm-valves.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://chuanweifire.com/products/%E6%B6%88%E9%98%B2%E9%98%80/dry-pipe-alarm-valves.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://chuanweifire.com/products/%E6%B6%88%E9%98%B2%E9%98%80/dry-pipe-alarm-valves.html" />
+    <lastmod>2026-09-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://chuanweifire.com/products/%E6%B6%88%E9%98%B2%E5%96%B7%E5%A4%B4/water-curtain-nozzles.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://chuanweifire.com/products/%E6%B6%88%E9%98%B2%E5%96%B7%E5%A4%B4/water-curtain-nozzles.html" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://chuanweifire.com/ar/products/water-curtain-nozzles/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://chuanweifire.com/products/%E6%B6%88%E9%98%B2%E5%96%B7%E5%A4%B4/water-curtain-nozzles.html" />
+    <lastmod>2026-09-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://chuanweifire.com/ar/products/water-curtain-nozzles/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://chuanweifire.com/products/%E6%B6%88%E9%98%B2%E5%96%B7%E5%A4%B4/water-curtain-nozzles.html" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://chuanweifire.com/ar/products/water-curtain-nozzles/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://chuanweifire.com/products/%E6%B6%88%E9%98%B2%E5%96%B7%E5%A4%B4/water-curtain-nozzles.html" />
+    <lastmod>2026-09-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://chuanweifire.com/products/%E6%B6%88%E9%98%B2%E5%96%B7%E5%A4%B4/water-mist-nozzles.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://chuanweifire.com/products/%E6%B6%88%E9%98%B2%E5%96%B7%E5%A4%B4/water-mist-nozzles.html" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://chuanweifire.com/ar/products/water-mist-nozzles/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://chuanweifire.com/products/%E6%B6%88%E9%98%B2%E5%96%B7%E5%A4%B4/water-mist-nozzles.html" />
+    <lastmod>2026-09-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://chuanweifire.com/ar/products/water-mist-nozzles/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://chuanweifire.com/products/%E6%B6%88%E9%98%B2%E5%96%B7%E5%A4%B4/water-mist-nozzles.html" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://chuanweifire.com/ar/products/water-mist-nozzles/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://chuanweifire.com/products/%E6%B6%88%E9%98%B2%E5%96%B7%E5%A4%B4/water-mist-nozzles.html" />
+    <lastmod>2026-09-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://chuanweifire.com/products/%E6%B6%88%E9%98%B2%E5%96%B7%E5%A4%B4/standard-response-fire-sprinkler.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://chuanweifire.com/products/%E6%B6%88%E9%98%B2%E5%96%B7%E5%A4%B4/standard-response-fire-sprinkler.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://chuanweifire.com/products/%E6%B6%88%E9%98%B2%E5%96%B7%E5%A4%B4/standard-response-fire-sprinkler.html" />
+    <lastmod>2026-09-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://chuanweifire.com/products/%E6%B6%88%E9%98%B2%E5%96%B7%E5%A4%B4/glass-bulb-fire-sprinkler.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://chuanweifire.com/products/%E6%B6%88%E9%98%B2%E5%96%B7%E5%A4%B4/glass-bulb-fire-sprinkler.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://chuanweifire.com/products/%E6%B6%88%E9%98%B2%E5%96%B7%E5%A4%B4/glass-bulb-fire-sprinkler.html" />
+    <lastmod>2026-09-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://chuanweifire.com/products/%E6%B6%88%E9%98%B2%E5%96%B7%E5%A4%B4/concealed-pendent-fire-sprinkler.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://chuanweifire.com/products/%E6%B6%88%E9%98%B2%E5%96%B7%E5%A4%B4/concealed-pendent-fire-sprinkler.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://chuanweifire.com/products/%E6%B6%88%E9%98%B2%E5%96%B7%E5%A4%B4/concealed-pendent-fire-sprinkler.html" />
+    <lastmod>2026-09-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://chuanweifire.com/products/%E6%B6%88%E9%98%B2%E5%96%B7%E5%A4%B4/dry-pendent-fire-sprinklers.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://chuanweifire.com/products/%E6%B6%88%E9%98%B2%E5%96%B7%E5%A4%B4/dry-pendent-fire-sprinklers.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://chuanweifire.com/products/%E6%B6%88%E9%98%B2%E5%96%B7%E5%A4%B4/dry-pendent-fire-sprinklers.html" />
+    <lastmod>2026-09-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://chuanweifire.com/products/%E6%B6%88%E9%98%B2%E5%96%B7%E5%A4%B4/extended-coverage-quick-response-fire-sprinkler.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://chuanweifire.com/products/%E6%B6%88%E9%98%B2%E5%96%B7%E5%A4%B4/extended-coverage-quick-response-fire-sprinkler.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://chuanweifire.com/products/%E6%B6%88%E9%98%B2%E5%96%B7%E5%A4%B4/extended-coverage-quick-response-fire-sprinkler.html" />
+    <lastmod>2026-09-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://chuanweifire.com/products/%E6%B6%88%E9%98%B2%E5%96%B7%E5%A4%B4/large-k-factor-esfr-sprinklers.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://chuanweifire.com/products/%E6%B6%88%E9%98%B2%E5%96%B7%E5%A4%B4/large-k-factor-esfr-sprinklers.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://chuanweifire.com/products/%E6%B6%88%E9%98%B2%E5%96%B7%E5%A4%B4/large-k-factor-esfr-sprinklers.html" />
+    <lastmod>2026-09-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://chuanweifire.com/products/%E8%BD%AF%E7%AE%A1%E5%8D%B7%E7%9B%98/ria25-fire-hose-reel.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://chuanweifire.com/products/%E8%BD%AF%E7%AE%A1%E5%8D%B7%E7%9B%98/ria25-fire-hose-reel.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://chuanweifire.com/products/%E8%BD%AF%E7%AE%A1%E5%8D%B7%E7%9B%98/ria25-fire-hose-reel.html" />
+    <lastmod>2026-09-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://chuanweifire.com/products/%E8%BD%AF%E7%AE%A1%E5%8D%B7%E7%9B%98/straight-stream-fire-hose-reel.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://chuanweifire.com/products/%E8%BD%AF%E7%AE%A1%E5%8D%B7%E7%9B%98/straight-stream-fire-hose-reel.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://chuanweifire.com/products/%E8%BD%AF%E7%AE%A1%E5%8D%B7%E7%9B%98/straight-stream-fire-hose-reel.html" />
+    <lastmod>2026-09-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://chuanweifire.com/products/%E8%BD%AF%E7%AE%A1%E5%8D%B7%E7%9B%98/jet-spray-fire-hose-reel.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://chuanweifire.com/products/%E8%BD%AF%E7%AE%A1%E5%8D%B7%E7%9B%98/jet-spray-fire-hose-reel.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://chuanweifire.com/products/%E8%BD%AF%E7%AE%A1%E5%8D%B7%E7%9B%98/jet-spray-fire-hose-reel.html" />
+    <lastmod>2026-09-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://chuanweifire.com/products/%E8%BD%AF%E7%AE%A1%E5%8D%B7%E7%9B%98/heavy-duty-fire-hose-reel.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://chuanweifire.com/products/%E8%BD%AF%E7%AE%A1%E5%8D%B7%E7%9B%98/heavy-duty-fire-hose-reel.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://chuanweifire.com/products/%E8%BD%AF%E7%AE%A1%E5%8D%B7%E7%9B%98/heavy-duty-fire-hose-reel.html" />
+    <lastmod>2026-09-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://chuanweifire.com/products/%E6%B6%88%E9%98%B2%E8%9D%B6%E9%98%80/lever-operated-grooved-butterfly-valves.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://chuanweifire.com/products/%E6%B6%88%E9%98%B2%E8%9D%B6%E9%98%80/lever-operated-grooved-butterfly-valves.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://chuanweifire.com/products/%E6%B6%88%E9%98%B2%E8%9D%B6%E9%98%80/lever-operated-grooved-butterfly-valves.html" />
+    <lastmod>2026-09-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://chuanweifire.com/products/%E6%B6%88%E9%98%B2%E8%9D%B6%E9%98%80/lever-operated-wafer-butterfly-valves.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://chuanweifire.com/products/%E6%B6%88%E9%98%B2%E8%9D%B6%E9%98%80/lever-operated-wafer-butterfly-valves.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://chuanweifire.com/products/%E6%B6%88%E9%98%B2%E8%9D%B6%E9%98%80/lever-operated-wafer-butterfly-valves.html" />
+    <lastmod>2026-09-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://chuanweifire.com/products/%E6%B6%88%E9%98%B2%E8%9D%B6%E9%98%80/grooved-supervisory-butterfly-valves.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://chuanweifire.com/products/%E6%B6%88%E9%98%B2%E8%9D%B6%E9%98%80/grooved-supervisory-butterfly-valves.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://chuanweifire.com/products/%E6%B6%88%E9%98%B2%E8%9D%B6%E9%98%80/grooved-supervisory-butterfly-valves.html" />
+    <lastmod>2026-09-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://chuanweifire.com/products/%E6%B6%88%E9%98%B2%E8%9D%B6%E9%98%80/wafer-supervisory-butterfly-valves.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://chuanweifire.com/products/%E6%B6%88%E9%98%B2%E8%9D%B6%E9%98%80/wafer-supervisory-butterfly-valves.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://chuanweifire.com/products/%E6%B6%88%E9%98%B2%E8%9D%B6%E9%98%80/wafer-supervisory-butterfly-valves.html" />
+    <lastmod>2026-09-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://chuanweifire.com/products/%E6%B6%88%E9%98%B2%E9%98%80%E9%97%A8/flanged-supervisory-gate-valves.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://chuanweifire.com/products/%E6%B6%88%E9%98%B2%E9%98%80%E9%97%A8/flanged-supervisory-gate-valves.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://chuanweifire.com/products/%E6%B6%88%E9%98%B2%E9%98%80%E9%97%A8/flanged-supervisory-gate-valves.html" />
+    <lastmod>2026-09-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://chuanweifire.com/products/%E6%B6%88%E9%98%B2%E9%98%80%E9%97%A8/grooved-supervisory-gate-valves.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://chuanweifire.com/products/%E6%B6%88%E9%98%B2%E9%98%80%E9%97%A8/grooved-supervisory-gate-valves.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://chuanweifire.com/products/%E6%B6%88%E9%98%B2%E9%98%80%E9%97%A8/grooved-supervisory-gate-valves.html" />
+    <lastmod>2026-09-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://chuanweifire.com/products/%E6%B6%88%E9%98%B2%E9%98%80%E9%97%A8/nrs-gate-valves.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://chuanweifire.com/products/%E6%B6%88%E9%98%B2%E9%98%80%E9%97%A8/nrs-gate-valves.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://chuanweifire.com/products/%E6%B6%88%E9%98%B2%E9%98%80%E9%97%A8/nrs-gate-valves.html" />
+    <lastmod>2026-09-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://chuanweifire.com/products/%E6%B6%88%E9%98%B2%E9%98%80%E9%97%A8/osy-gate-valves.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://chuanweifire.com/products/%E6%B6%88%E9%98%B2%E9%98%80%E9%97%A8/osy-gate-valves.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://chuanweifire.com/products/%E6%B6%88%E9%98%B2%E9%98%80%E9%97%A8/osy-gate-valves.html" />
+    <lastmod>2026-09-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://chuanweifire.com/products/%E5%AE%A4%E5%86%85%E6%B6%88%E9%98%B2%E6%A0%93/standard-indoor-hydrant.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://chuanweifire.com/products/%E5%AE%A4%E5%86%85%E6%B6%88%E9%98%B2%E6%A0%93/standard-indoor-hydrant.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://chuanweifire.com/products/%E5%AE%A4%E5%86%85%E6%B6%88%E9%98%B2%E6%A0%93/standard-indoor-hydrant.html" />
+    <lastmod>2026-09-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://chuanweifire.com/products/%E5%AE%A4%E5%86%85%E6%B6%88%E9%98%B2%E6%A0%93/export-slanted-hydrant-valve.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://chuanweifire.com/products/%E5%AE%A4%E5%86%85%E6%B6%88%E9%98%B2%E6%A0%93/export-slanted-hydrant-valve.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://chuanweifire.com/products/%E5%AE%A4%E5%86%85%E6%B6%88%E9%98%B2%E6%A0%93/export-slanted-hydrant-valve.html" />
+    <lastmod>2026-09-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://chuanweifire.com/products/%E5%AE%A4%E5%86%85%E6%B6%88%E9%98%B2%E6%A0%93/double-outlet-hydrant.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://chuanweifire.com/products/%E5%AE%A4%E5%86%85%E6%B6%88%E9%98%B2%E6%A0%93/double-outlet-hydrant.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://chuanweifire.com/products/%E5%AE%A4%E5%86%85%E6%B6%88%E9%98%B2%E6%A0%93/double-outlet-hydrant.html" />
+    <lastmod>2026-09-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://chuanweifire.com/products/%E5%AE%A4%E5%86%85%E6%B6%88%E9%98%B2%E6%A0%93/rotating-pressure-regulating-hydrant.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://chuanweifire.com/products/%E5%AE%A4%E5%86%85%E6%B6%88%E9%98%B2%E6%A0%93/rotating-pressure-regulating-hydrant.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://chuanweifire.com/products/%E5%AE%A4%E5%86%85%E6%B6%88%E9%98%B2%E6%A0%93/rotating-pressure-regulating-hydrant.html" />
+    <lastmod>2026-09-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://chuanweifire.com/products/%E5%AE%A4%E5%A4%96%E6%B6%88%E9%98%B2%E6%A0%93/bs750-pillar-hydrant.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://chuanweifire.com/products/%E5%AE%A4%E5%A4%96%E6%B6%88%E9%98%B2%E6%A0%93/bs750-pillar-hydrant.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://chuanweifire.com/products/%E5%AE%A4%E5%A4%96%E6%B6%88%E9%98%B2%E6%A0%93/bs750-pillar-hydrant.html" />
+    <lastmod>2026-09-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://chuanweifire.com/products/%E5%AE%A4%E5%A4%96%E6%B6%88%E9%98%B2%E6%A0%93/french-pattern-hydrant.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://chuanweifire.com/products/%E5%AE%A4%E5%A4%96%E6%B6%88%E9%98%B2%E6%A0%93/french-pattern-hydrant.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://chuanweifire.com/products/%E5%AE%A4%E5%A4%96%E6%B6%88%E9%98%B2%E6%A0%93/french-pattern-hydrant.html" />
+    <lastmod>2026-09-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://chuanweifire.com/products/%E5%AE%A4%E5%A4%96%E6%B6%88%E9%98%B2%E6%A0%93/indonesian-pattern-hydrant.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://chuanweifire.com/products/%E5%AE%A4%E5%A4%96%E6%B6%88%E9%98%B2%E6%A0%93/indonesian-pattern-hydrant.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://chuanweifire.com/products/%E5%AE%A4%E5%A4%96%E6%B6%88%E9%98%B2%E6%A0%93/indonesian-pattern-hydrant.html" />
+    <lastmod>2026-09-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://chuanweifire.com/products/%E5%AE%A4%E5%A4%96%E6%B6%88%E9%98%B2%E6%A0%93/russian-pattern-hydrant.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://chuanweifire.com/products/%E5%AE%A4%E5%A4%96%E6%B6%88%E9%98%B2%E6%A0%93/russian-pattern-hydrant.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://chuanweifire.com/products/%E5%AE%A4%E5%A4%96%E6%B6%88%E9%98%B2%E6%A0%93/russian-pattern-hydrant.html" />
+    <lastmod>2026-09-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
 </urlset>

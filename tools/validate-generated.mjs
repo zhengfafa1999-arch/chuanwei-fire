@@ -113,28 +113,37 @@ for (const page of pages) {
 }
 
 const arabicCategory = fs.readFileSync(path.join(root, "ar/products.html"), "utf8");
-assert(arabicCategory.includes('href="products/wet-alarm-check-valve/index.html"'), "Arabic product index does not link to the generated wet alarm valve page.");
-assert(arabicCategory.includes('href="products/water-curtain-nozzles/index.html"'), "Arabic product index does not link to the generated water curtain nozzle page.");
-assert(arabicCategory.includes('href="products/water-mist-nozzles/index.html"'), "Arabic product index does not link to the generated water mist nozzle page.");
+assert(arabicCategory.includes('href="products/system-valves/index.html"'), "Arabic product index does not link to the system-valve category.");
+assert(arabicCategory.includes('href="products/sprinklers/index.html"'), "Arabic product index does not link to the sprinkler category.");
 
 const homePage = fs.readFileSync(path.join(root, "index.html"), "utf8");
 assert(homePage.includes('href="ar/index.html"'), "Homepage Arabic switch must point to an explicit file for local preview.");
 assert(homePage.includes('data-site-language-choice="ar"'), "Homepage Arabic switch must persist the Arabic preference.");
 assert(homePage.includes("GENERATED FILE"), "English homepage must be generated from the shared homepage template.");
 assert(homePage.includes('data-home-language="en"'), "English homepage is missing its generated language marker.");
+assert(homePage.includes('hreflang="zh-CN" href="https://chuanweifire.com/?lang=zh"'), "Homepage is missing its Chinese hreflang.");
+assert(homePage.includes('hreflang="x-default" href="https://chuanweifire.com/"'), "Homepage x-default must resolve to English.");
+assert(homePage.includes("localStorage.getItem('chuanwei-site-language')"), "Homepage must restore the shared language preference.");
+assert(homePage.includes("location.replace(languageLinks[preferredLanguage])"), "Homepage must route to the saved localized homepage.");
 
 const arabicHomePage = fs.readFileSync(path.join(root, "ar/index.html"), "utf8");
 assert(arabicHomePage.includes("GENERATED FILE"), "Arabic homepage must be generated from the shared homepage template.");
 assert(arabicHomePage.includes('data-home-language="ar"'), "Arabic homepage is missing its generated language marker.");
 assert(arabicHomePage.includes('<base href="../">'), "Arabic homepage must resolve shared root assets in local preview.");
-assert(arabicHomePage.includes('href="ar/products.html#system-valves"'), "Arabic homepage must route alarm-valve visitors to the Arabic product catalog.");
+assert(arabicHomePage.includes('href="ar/products/system-valves/index.html"'), "Arabic homepage must route alarm-valve visitors to the Arabic category page.");
 assert(arabicHomePage.includes("تصنيع معدات مكافحة الحريق"), "Arabic homepage is missing its localized content data.");
+assert(arabicHomePage.includes('hreflang="zh-CN" href="https://chuanweifire.com/?lang=zh"'), "Arabic homepage is missing its Chinese hreflang.");
 
 const detailScript = fs.readFileSync(path.join(root, "assets/js/product-detail.js"), "utf8");
 assert(detailScript.includes('chuanwei-site-language'), "Product detail script must read the shared language preference.");
 assert(detailScript.includes('window.location.replace(alternateHref)'), "Product detail script must route to the preferred localized page.");
+assert(detailScript.includes('hasExplicitLanguageView'), "Product detail script must allow an explicitly selected fallback-language page.");
 
 const sitemap = fs.readFileSync(path.join(root, "sitemap.xml"), "utf8");
 for (const page of pages) assert(sitemap.includes(`<loc>${page.selfCanonical}</loc>`), `Sitemap is missing ${page.selfCanonical}.`);
+for (const language of ["en", "zh-CN", "ar", "x-default"]) {
+  assert(sitemap.includes(`hreflang="${language}"`), `Sitemap is missing homepage hreflang ${language}.`);
+}
+assert(sitemap.includes("<loc>https://chuanweifire.com/?lang=zh</loc>"), "Sitemap is missing the Chinese homepage canonical.");
 
 console.log("Generated-page validation passed: six English and Arabic product outputs are linked and complete.");

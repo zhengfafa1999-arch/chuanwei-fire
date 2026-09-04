@@ -1,0 +1,16 @@
+---
+permalink: sitemap.xml
+eleventyExcludeFromCollections: true
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- GENERATED FILE. Edit site-src/sitemap.njk or site-src/_data/siteRoutes.js. -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+{% for entry in sitemapEntries %}  <url>
+    <loc>{{ entry.canonical }}</loc>
+{% for lang, href in entry.alternates %}    <xhtml:link rel="alternate" hreflang="{{ lang }}" href="{{ href }}" />
+{% endfor %}{% if entry.xDefault %}    <xhtml:link rel="alternate" hreflang="x-default" href="{{ entry.xDefault }}" />
+{% endif %}    <lastmod>2026-09-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>{{ entry.priority }}</priority>
+  </url>
+{% endfor %}</urlset>
