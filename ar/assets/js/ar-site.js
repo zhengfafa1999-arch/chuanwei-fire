@@ -1,6 +1,15 @@
 (function () {
   "use strict";
 
+  const languageKey = "chuanwei-site-language";
+  localStorage.setItem(languageKey, "ar");
+  document.querySelectorAll('a[lang="en"]').forEach((link) => {
+    link.addEventListener("click", () => localStorage.setItem(languageKey, "en"));
+  });
+  document.querySelectorAll('a[lang="ar"]').forEach((link) => {
+    link.addEventListener("click", () => localStorage.setItem(languageKey, "ar"));
+  });
+
   const dictionary = window.CHUANWEI_I18N && window.CHUANWEI_I18N.ar;
   if (dictionary) {
     document.querySelectorAll("[data-i18n]").forEach((element) => {

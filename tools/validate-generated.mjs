@@ -98,6 +98,9 @@ for (const page of pages) {
   const html = fs.readFileSync(absolutePath, "utf8");
   assert(html.includes("GENERATED FILE"), `${page.relativePath} is missing the generated-file marker.`);
   assert(html.includes(`<html lang="${page.lang}" dir="${page.dir}">`), `${page.relativePath} has incorrect language direction.`);
+  assert(html.includes(`data-site-language="${page.lang}"`), `${page.relativePath} is missing its persistent language marker.`);
+  assert(html.includes('data-site-language-choice="en"'), `${page.relativePath} is missing the English language preference control.`);
+  assert(html.includes('data-site-language-choice="ar"'), `${page.relativePath} is missing the Arabic language preference control.`);
   assert(html.includes(`<link rel="canonical" href="${page.selfCanonical}">`), `${page.relativePath} has an incorrect canonical URL.`);
   assert(html.includes(`hreflang="${page.lang}" href="${page.selfCanonical}"`), `${page.relativePath} is missing its self hreflang.`);
   assert(html.includes(`href="${page.alternate}"`), `${page.relativePath} is missing the alternate-language URL.`);
@@ -116,6 +119,11 @@ assert(arabicCategory.includes('href="products/water-mist-nozzles/index.html"'),
 
 const homePage = fs.readFileSync(path.join(root, "index.html"), "utf8");
 assert(homePage.includes('href="ar/index.html"'), "Homepage Arabic switch must point to an explicit file for local preview.");
+assert(homePage.includes('data-site-language-choice="ar"'), "Homepage Arabic switch must persist the Arabic preference.");
+
+const detailScript = fs.readFileSync(path.join(root, "assets/js/product-detail.js"), "utf8");
+assert(detailScript.includes('chuanwei-site-language'), "Product detail script must read the shared language preference.");
+assert(detailScript.includes('window.location.replace(alternateHref)'), "Product detail script must route to the preferred localized page.");
 
 const sitemap = fs.readFileSync(path.join(root, "sitemap.xml"), "utf8");
 for (const page of pages) assert(sitemap.includes(`<loc>${page.selfCanonical}</loc>`), `Sitemap is missing ${page.selfCanonical}.`);
