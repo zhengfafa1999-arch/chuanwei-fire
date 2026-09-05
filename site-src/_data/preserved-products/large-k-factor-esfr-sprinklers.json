@@ -1,0 +1,737 @@
+{
+  "id": "large-k-factor-esfr-sprinklers",
+  "routeId": "product:large-k-factor-esfr-sprinklers",
+  "template": "product-series/large-k-esfr.njk",
+  "styles": [
+    "css/common.css",
+    "css/sprinkler-product.css",
+    "css/sprinkler-product-gallery.css",
+    "css/site-navigation.css"
+  ],
+  "inlineStyle": "\n    .wm-frame{position:relative;overflow:hidden}.wm-frame::before{content:\"CHUANWEI FIRE · chuanweifire.com\";position:absolute;right:16px;bottom:14px;z-index:4;color:rgba(28,44,61,.38);font:700 12px/1.2 Arial,sans-serif;letter-spacing:.04em;pointer-events:none}.wm-frame::after{content:\"CHUANWEI FIRE\";position:absolute;left:50%;top:48%;z-index:3;transform:translate(-50%,-50%) rotate(-24deg);color:rgba(28,44,61,.16);font:800 clamp(24px,4vw,54px)/1 Arial,sans-serif;letter-spacing:.12em;white-space:nowrap;pointer-events:none}.series-block{margin-top:28px}.series-block h3{font-size:1.35rem;margin:0 0 10px}.series-block>p{color:#647184;margin:0 0 16px}.pdp-table+.pdp-table{margin-top:24px}\n  ",
+  "source": {
+    "path": "products/消防喷头/large-k-factor-esfr-sprinklers.html",
+    "revision": "ada3095",
+    "status": "preserved-existing-content-not-reaudited"
+  },
+  "media": {
+    "hero": "products/消防喷头/large-k-esfr-sprinkler/esfr-pendent-series.jpg",
+    "image1": "products/消防喷头/large-k-esfr-sprinkler/esfr-upright-series.jpg",
+    "image2": "products/消防喷头/large-k-esfr-sprinkler/large-k202-pendent.jpg",
+    "image3": "products/消防喷头/large-k-esfr-sprinkler/large-k202-horizontal-sidewall.jpg",
+    "image4": "products/消防喷头/large-k-esfr-sprinkler/large-k202-upright.jpg",
+    "image5": "products/消防喷头/large-k-esfr-sprinkler/esfr-fusible-link-detail-1.jpg",
+    "image6": "products/消防喷头/large-k-esfr-sprinkler/esfr-fusible-link-detail-2.jpg"
+  },
+  "copy": {
+    "productImages": {
+      "text": "Product images",
+      "numbers": []
+    },
+    "specifications": {
+      "text": "Specifications",
+      "numbers": []
+    },
+    "availableModels": {
+      "text": "Available models",
+      "numbers": []
+    },
+    "oEMODM": {
+      "text": "OEM / ODM",
+      "numbers": []
+    },
+    "highFlowSprayStorageProtection": {
+      "text": "High-Flow Spray · Storage Protection",
+      "numbers": []
+    },
+    "largeKFactorESFRSprinklers": {
+      "text": "Large K-Factor & ESFR Sprinklers",
+      "numbers": []
+    },
+    "twoRelatedButDistinctProductGroupsLargeK": {
+      "text": "Two related but distinct product groups: large K-factor spray sprinklers for higher discharge capacity, and fusible-link ESFR sprinklers for storage-protection applications. Each group is identified separately for accurate sourcing.",
+      "numbers": []
+    },
+    "askOnWhatsApp": {
+      "text": "Ask on WhatsApp",
+      "numbers": []
+    },
+    "viewAvailableModels": {
+      "text": "View available models",
+      "numbers": []
+    },
+    "largeKFactorDoesNotByItselfDefine": {
+      "text": "Large K-factor does not by itself define an ESFR sprinkler. ESFR project suitability, hydraulic design and installation criteria remain subject to the exact product technical data.",
+      "numbers": []
+    },
+    "productPresentation": {
+      "text": "Product presentation",
+      "numbers": []
+    },
+    "sprayAndESFRConfigurations": {
+      "text": "Spray and ESFR configurations.",
+      "numbers": []
+    },
+    "theGallerySeparatesChromePlatedLargeKFactor": {
+      "text": "The gallery separates chrome-plated large K-factor glass-bulb sprinklers from natural-copper ESFR fusible-link sprinklers. Similar-looking ESFR models are presented as series views unless the exact K-factor is visible or otherwise confirmed.",
+      "numbers": []
+    },
+    "eSFRPendentSeries": {
+      "text": "ESFR Pendent Series",
+      "numbers": []
+    },
+    "eSFRPendent": {
+      "text": "ESFR Pendent",
+      "numbers": []
+    },
+    "eSFRUpright": {
+      "text": "ESFR Upright",
+      "numbers": []
+    },
+    "k202Pendent": {
+      "text": "K{n0} Pendent",
+      "numbers": [
+        "202"
+      ]
+    },
+    "k202Sidewall": {
+      "text": "K{n0} Sidewall",
+      "numbers": [
+        "202"
+      ]
+    },
+    "k202Upright": {
+      "text": "K{n0} Upright",
+      "numbers": [
+        "202"
+      ]
+    },
+    "eSFRDetail01": {
+      "text": "ESFR Detail {n0}",
+      "numbers": [
+        "01"
+      ]
+    },
+    "eSFRDetail02": {
+      "text": "ESFR Detail {n0}",
+      "numbers": [
+        "02"
+      ]
+    },
+    "technicalOverview": {
+      "text": "Technical overview",
+      "numbers": []
+    },
+    "twoProductGroupsClearlySeparated": {
+      "text": "Two product groups, clearly separated.",
+      "numbers": []
+    },
+    "internationalKFactorValuesArePairedWithThe": {
+      "text": "International K-factor values are paired with the metric values used in factory records. Pricing and domestic quotation-sheet language are omitted.",
+      "numbers": []
+    },
+    "largeKFactorSpraySprinklers": {
+      "text": "Large K-Factor Spray Sprinklers",
+      "numbers": []
+    },
+    "availableKFactors": {
+      "text": "Available K-factors",
+      "numbers": []
+    },
+    "k112USK161MetricK140US": {
+      "text": "K{n0} US / K{n1} metric; K{n2} US / K{n3} metric",
+      "numbers": [
+        "11.2",
+        "161",
+        "14.0",
+        "202"
+      ]
+    },
+    "responseOptions": {
+      "text": "Response options",
+      "numbers": []
+    },
+    "standardResponseWith5MmBulbQuickResponse": {
+      "text": "Standard response with {n0} mm bulb; quick response with {n1} mm bulb for K{n2} models",
+      "numbers": [
+        "5",
+        "3",
+        "161"
+      ]
+    },
+    "temperature": {
+      "text": "Temperature",
+      "numbers": []
+    },
+    "installation": {
+      "text": "Installation",
+      "numbers": []
+    },
+    "uprightAndPendentHorizontalSidewallAvailableForK202": {
+      "text": "Upright and pendent; horizontal sidewall available for K{n0}",
+      "numbers": [
+        "202"
+      ]
+    },
+    "nominalConnection": {
+      "text": "Nominal connection",
+      "numbers": []
+    },
+    "frameMaterial": {
+      "text": "Frame material",
+      "numbers": []
+    },
+    "copper": {
+      "text": "Copper",
+      "numbers": []
+    },
+    "surfaceFinish": {
+      "text": "Surface finish",
+      "numbers": []
+    },
+    "chromePlated": {
+      "text": "Chrome-plated",
+      "numbers": []
+    },
+    "maxWorkingPressure": {
+      "text": "Max. working pressure",
+      "numbers": []
+    },
+    "value12MPa12BarApprox175Psi": {
+      "text": "{n0} MPa / {n1} bar / approx. {n2} psi",
+      "numbers": [
+        "1.2",
+        "12",
+        "175"
+      ]
+    },
+    "standardPacking": {
+      "text": "Standard packing",
+      "numbers": []
+    },
+    "value100PcsPerExportCarton": {
+      "text": "{n0} pcs per export carton",
+      "numbers": [
+        "100"
+      ]
+    },
+    "eSFRStorageSprinklers": {
+      "text": "ESFR Storage Sprinklers",
+      "numbers": []
+    },
+    "k140USK202MetricK168US": {
+      "text": "K{n0} US / K{n1} metric; K{n2} US / K{n3} metric; K{n4} US / K{n5} metric",
+      "numbers": [
+        "14.0",
+        "202",
+        "16.8",
+        "242",
+        "25.2",
+        "363"
+      ]
+    },
+    "operatingElement": {
+      "text": "Operating element",
+      "numbers": []
+    },
+    "fusibleAlloyLink": {
+      "text": "Fusible alloy link",
+      "numbers": []
+    },
+    "uprightOrPendent": {
+      "text": "Upright or pendent",
+      "numbers": []
+    },
+    "connections": {
+      "text": "Connections",
+      "numbers": []
+    },
+    "k202AndK242DN20InNPTK363DN25": {
+      "text": "K{n0} and K{n1}: DN{n2} / ¾ in NPT; K{n3}: DN{n4} / {n5} in NPT",
+      "numbers": [
+        "202",
+        "242",
+        "20",
+        "363",
+        "25",
+        "1"
+      ]
+    },
+    "naturalCopperWithoutPlating": {
+      "text": "Natural copper, without plating",
+      "numbers": []
+    },
+    "projectData": {
+      "text": "Project data",
+      "numbers": []
+    },
+    "storageCommodityClassificationMaximumStorageHeightCeilingHeight": {
+      "text": "Storage commodity classification, maximum storage height, ceiling height, minimum design pressure, sprinkler spacing and hydraulic design data are available only against the exact model and project requirement. No UL, FM or other foreign approval is implied.",
+      "numbers": []
+    },
+    "availableConfigurations": {
+      "text": "Available configurations",
+      "numbers": []
+    },
+    "modelsYouCanOrder": {
+      "text": "Models you can order",
+      "numbers": []
+    },
+    "factoryReferencesAreShownForProductionMatchingOverseas": {
+      "text": "Factory references are shown for production matching. Overseas buyers can select by product group, response type, K-factor, orientation, connection and temperature.",
+      "numbers": []
+    },
+    "productConfiguration": {
+      "text": "Product configuration",
+      "numbers": []
+    },
+    "kFactor": {
+      "text": "K-factor",
+      "numbers": []
+    },
+    "connection": {
+      "text": "Connection",
+      "numbers": []
+    },
+    "thermalElement": {
+      "text": "Thermal element",
+      "numbers": []
+    },
+    "factoryReference": {
+      "text": "Factory reference",
+      "numbers": []
+    },
+    "standardResponseUpright": {
+      "text": "Standard Response Upright",
+      "numbers": []
+    },
+    "value5MmBulb68C": {
+      "text": "{n0} mm bulb · {n1}°C",
+      "numbers": [
+        "5",
+        "68"
+      ]
+    },
+    "standardResponsePendent": {
+      "text": "Standard Response Pendent",
+      "numbers": []
+    },
+    "quickResponseUpright": {
+      "text": "Quick Response Upright",
+      "numbers": []
+    },
+    "value3MmBulb68C": {
+      "text": "{n0} mm bulb · {n1}°C",
+      "numbers": [
+        "3",
+        "68"
+      ]
+    },
+    "quickResponsePendent": {
+      "text": "Quick Response Pendent",
+      "numbers": []
+    },
+    "standardResponseUprightPendent": {
+      "text": "Standard Response Upright / Pendent",
+      "numbers": []
+    },
+    "standardResponseHorizontalSidewall": {
+      "text": "Standard Response Horizontal Sidewall",
+      "numbers": []
+    },
+    "fusibleAlloy74C": {
+      "text": "Fusible alloy · {n0}°C",
+      "numbers": [
+        "74"
+      ]
+    },
+    "nPTIsTheStandardListedConnectionOtherThread": {
+      "text": "NPT is the standard listed connection. Other thread forms can be manufactured against a confirmed customer drawing or approved sample.",
+      "numbers": []
+    },
+    "oEMODMSupport": {
+      "text": "OEM / ODM support",
+      "numbers": []
+    },
+    "configuredForYourProductProgram": {
+      "text": "Configured for your product program.",
+      "numbers": []
+    },
+    "modelMarkingThreadFormAndExportPackagingCan": {
+      "text": "Model marking, thread form and export packaging can be reviewed against the selected sprinkler configuration and approved technical requirement.",
+      "numbers": []
+    },
+    "productMarking": {
+      "text": "Product marking",
+      "numbers": []
+    },
+    "customerBrandAndModelMarkingAccordingToAvailable": {
+      "text": "Customer brand and model marking according to available marking space.",
+      "numbers": []
+    },
+    "threadCustomization": {
+      "text": "Thread customization",
+      "numbers": []
+    },
+    "alternativeThreadFormsProducedToAConfirmedDrawing": {
+      "text": "Alternative thread forms produced to a confirmed drawing or approved sample.",
+      "numbers": []
+    },
+    "kFactorOrientationAndOperatingElementMatchedTo": {
+      "text": "K-factor, orientation and operating element matched to the confirmed order.",
+      "numbers": []
+    },
+    "exportPackaging": {
+      "text": "Export packaging",
+      "numbers": []
+    },
+    "privateLabelCartonsLabelsAndShippingMarksAvailable": {
+      "text": "Private-label cartons, labels and shipping marks available for review.",
+      "numbers": []
+    },
+    "sendUsYourSprinklerRequirement": {
+      "text": "Send us your sprinkler requirement.",
+      "numbers": []
+    },
+    "includeDestinationCountryProductGroupKFactorOrientation": {
+      "text": "Include destination country, product group, K-factor, orientation, connection, quantity and required hydraulic documentation.",
+      "numbers": []
+    },
+    "whatsAppInquiry": {
+      "text": "WhatsApp inquiry",
+      "numbers": []
+    },
+    "emailSales": {
+      "text": "Email sales",
+      "numbers": []
+    },
+    "onThisPage": {
+      "text": "On this page",
+      "numbers": []
+    },
+    "enlargeESFRSprinklerImage": {
+      "text": "Enlarge ESFR sprinkler image",
+      "numbers": []
+    },
+    "naturalCopperESFRPendentSprinklerWithFusibleLink": {
+      "text": "Natural copper ESFR pendent sprinkler with fusible link",
+      "numbers": []
+    },
+    "largeKFactorAndESFRSprinklerGallery": {
+      "text": "Large K-factor and ESFR sprinkler gallery",
+      "numbers": []
+    },
+    "previousProductImage": {
+      "text": "Previous product image",
+      "numbers": []
+    },
+    "eSFRPendentSprinklerSeriesView": {
+      "text": "ESFR pendent sprinkler series view",
+      "numbers": []
+    },
+    "nextProductImage": {
+      "text": "Next product image",
+      "numbers": []
+    },
+    "selectProductImage": {
+      "text": "Select product image",
+      "numbers": []
+    },
+    "eSFRPendentThumbnail": {
+      "text": "ESFR pendent thumbnail",
+      "numbers": []
+    },
+    "eSFRUprightThumbnail": {
+      "text": "ESFR upright thumbnail",
+      "numbers": []
+    },
+    "k202PendentThumbnail": {
+      "text": "K{n0} pendent thumbnail",
+      "numbers": [
+        "202"
+      ]
+    },
+    "k202SidewallThumbnail": {
+      "text": "K{n0} sidewall thumbnail",
+      "numbers": [
+        "202"
+      ]
+    },
+    "k202UprightThumbnail": {
+      "text": "K{n0} upright thumbnail",
+      "numbers": [
+        "202"
+      ]
+    },
+    "eSFRFusibleLinkDetailThumbnail": {
+      "text": "ESFR fusible link detail thumbnail",
+      "numbers": []
+    },
+    "productImagePreview": {
+      "text": "Product image preview",
+      "numbers": []
+    },
+    "closeImagePreview": {
+      "text": "Close image preview",
+      "numbers": []
+    },
+    "enlargedSprinklerImage": {
+      "text": "Enlarged sprinkler image",
+      "numbers": []
+    },
+    "whatsAppChat": {
+      "text": "WhatsApp Chat",
+      "numbers": []
+    },
+    "facebookPage": {
+      "text": "Facebook Page",
+      "numbers": []
+    },
+    "linkedInProfile": {
+      "text": "LinkedIn Profile",
+      "numbers": []
+    },
+    "eSFRUprightSprinklerSeriesView": {
+      "text": "ESFR upright sprinkler series view",
+      "numbers": []
+    },
+    "eSFRUprightSeries": {
+      "text": "ESFR Upright Series",
+      "numbers": []
+    },
+    "k140USK202MetricPendentSprinkler": {
+      "text": "K{n0} US K{n1} metric pendent sprinkler",
+      "numbers": [
+        "14.0",
+        "202"
+      ]
+    },
+    "largeK202Pendent": {
+      "text": "Large K{n0} Pendent",
+      "numbers": [
+        "202"
+      ]
+    },
+    "k140USK202MetricHorizontalSidewallSprinkler": {
+      "text": "K{n0} US K{n1} metric horizontal sidewall sprinkler",
+      "numbers": [
+        "14.0",
+        "202"
+      ]
+    },
+    "largeK202HorizontalSidewall": {
+      "text": "Large K{n0} Horizontal Sidewall",
+      "numbers": [
+        "202"
+      ]
+    },
+    "k140USK202MetricUprightSprinkler": {
+      "text": "K{n0} US K{n1} metric upright sprinkler",
+      "numbers": [
+        "14.0",
+        "202"
+      ]
+    },
+    "largeK202Upright": {
+      "text": "Large K{n0} Upright",
+      "numbers": [
+        "202"
+      ]
+    },
+    "eSFRNaturalCopperFrameAndFusibleLinkDetail": {
+      "text": "ESFR natural copper frame and fusible link detail",
+      "numbers": []
+    },
+    "eSFRFusibleLinkDetail": {
+      "text": "ESFR Fusible-Link Detail",
+      "numbers": []
+    },
+    "eSFRNaturalCopperSprinklerDetail": {
+      "text": "ESFR natural copper sprinkler detail",
+      "numbers": []
+    },
+    "eSFRSeriesDetail": {
+      "text": "ESFR Series Detail",
+      "numbers": []
+    },
+    "seoTitle": {
+      "text": "Large K-Factor &amp; ESFR Sprinklers | CHUANWEI FIRE",
+      "numbers": []
+    },
+    "seoDescription": {
+      "text": "Large K-factor spray sprinklers and ESFR storage sprinklers in K{n0}, K{n1}, K{n2} and K{n3} options, with OEM and custom thread support.",
+      "numbers": [
+        "11.2",
+        "14.0",
+        "16.8",
+        "25.2"
+      ]
+    }
+  },
+  "shared": {
+    "k112K161": "K11.2 / K161",
+    "k140K202": "K14.0 / K202",
+    "eSFRK140K252": "ESFR K14.0–K25.2",
+    "value12Bar175Psi": "12 bar / 175 psi",
+    "value17": "1 / 7",
+    "value68C155F": "68°C / 155°F",
+    "dN251InNPT": "DN25 / 1 in NPT",
+    "value74C165F": "74°C / 165°F",
+    "tZSTZ16168CQ5": "T-ZSTZ161-68°C Q5",
+    "tZSTX16168CQ5": "T-ZSTX161-68°C Q5",
+    "kZSTZ16168CQ3": "K-ZSTZ161-68°C Q3",
+    "kZSTX16168CQ3": "K-ZSTX161-68°C Q3",
+    "zSTZX20268CQ5": "ZSTZ.X202-68°C Q5",
+    "zSTBS20268CQ5": "ZSTBS202-68°C Q5",
+    "dN20InNPT": "DN20 / ¾ in NPT",
+    "eSFR20274CUY": "ESFR-202/74°C UY",
+    "eSFR20274CPY": "ESFR-202/74°C PY",
+    "k168K242": "K16.8 / K242",
+    "eSFR24274CUY": "ESFR-242/74°C UY",
+    "eSFR24274CPY": "ESFR-242/74°C PY",
+    "k252K363": "K25.2 / K363",
+    "eSFR36374CUY": "ESFR-363/74°C UY",
+    "eSFR36374CPY": "ESFR-363/74°C PY"
+  },
+  "models": [
+    [
+      "standardResponseUpright",
+      "k112K161",
+      "dN251InNPT",
+      "value5MmBulb68C",
+      "tZSTZ16168CQ5"
+    ],
+    [
+      "standardResponsePendent",
+      "k112K161",
+      "dN251InNPT",
+      "value5MmBulb68C",
+      "tZSTX16168CQ5"
+    ],
+    [
+      "quickResponseUpright",
+      "k112K161",
+      "dN251InNPT",
+      "value3MmBulb68C",
+      "kZSTZ16168CQ3"
+    ],
+    [
+      "quickResponsePendent",
+      "k112K161",
+      "dN251InNPT",
+      "value3MmBulb68C",
+      "kZSTX16168CQ3"
+    ],
+    [
+      "standardResponseUprightPendent",
+      "k140K202",
+      "dN251InNPT",
+      "value5MmBulb68C",
+      "zSTZX20268CQ5"
+    ],
+    [
+      "standardResponseHorizontalSidewall",
+      "k140K202",
+      "dN251InNPT",
+      "value5MmBulb68C",
+      "zSTBS20268CQ5"
+    ],
+    [
+      "eSFRUpright",
+      "k140K202",
+      "dN20InNPT",
+      "fusibleAlloy74C",
+      "eSFR20274CUY"
+    ],
+    [
+      "eSFRPendent",
+      "k140K202",
+      "dN20InNPT",
+      "fusibleAlloy74C",
+      "eSFR20274CPY"
+    ],
+    [
+      "eSFRUpright",
+      "k168K242",
+      "dN20InNPT",
+      "fusibleAlloy74C",
+      "eSFR24274CUY"
+    ],
+    [
+      "eSFRPendent",
+      "k168K242",
+      "dN20InNPT",
+      "fusibleAlloy74C",
+      "eSFR24274CPY"
+    ],
+    [
+      "eSFRUpright",
+      "k252K363",
+      "dN251InNPT",
+      "fusibleAlloy74C",
+      "eSFR36374CUY"
+    ],
+    [
+      "eSFRPendent",
+      "k252K363",
+      "dN251InNPT",
+      "fusibleAlloy74C",
+      "eSFR36374CPY"
+    ]
+  ],
+  "modelGroups": [
+    [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ]
+  ],
+  "gallery": [
+    {
+      "media": "hero",
+      "alt": "eSFRPendentSprinklerSeriesView",
+      "caption": "eSFRPendentSeries"
+    },
+    {
+      "media": "image1",
+      "alt": "eSFRUprightSprinklerSeriesView",
+      "caption": "eSFRUprightSeries"
+    },
+    {
+      "media": "image2",
+      "alt": "k140USK202MetricPendentSprinkler",
+      "caption": "largeK202Pendent"
+    },
+    {
+      "media": "image3",
+      "alt": "k140USK202MetricHorizontalSidewallSprinkler",
+      "caption": "largeK202HorizontalSidewall"
+    },
+    {
+      "media": "image4",
+      "alt": "k140USK202MetricUprightSprinkler",
+      "caption": "largeK202Upright"
+    },
+    {
+      "media": "image5",
+      "alt": "eSFRNaturalCopperFrameAndFusibleLinkDetail",
+      "caption": "eSFRFusibleLinkDetail"
+    },
+    {
+      "media": "image6",
+      "alt": "eSFRNaturalCopperSprinklerDetail",
+      "caption": "eSFRSeriesDetail"
+    }
+  ]
+}

@@ -263,7 +263,7 @@ const responsiveScreenshotTargets = new Set([
   "home:ar",
   "category:sprinklers:ar",
   "product:wet-alarm-check-valve:ar",
-  "product:large-k-factor-esfr-sprinklers:en"
+  "product:ria25-fire-hose-reel:en"
 ]);
 
 async function run() {
@@ -272,7 +272,7 @@ async function run() {
     const source = path.join(root, 'site-src', '_data', 'preserved-products', `${focusedSlug}.json`);
     assert(fs.existsSync(source), `No shared product source for ${focusedSlug}; add a targeted test adapter before testing this product.`);
     focusedProduct = JSON.parse(fs.readFileSync(source, 'utf8'));
-    assert(['product-series/quick-response.njk', 'product-series/standard-response.njk', 'product-series/concealed-pendent.njk', 'product-series/dry-pendent.njk', 'product-series/extended-coverage.njk'].includes(focusedProduct.template), 'This template needs its own targeted interaction adapter; do not silently skip its checks.');
+    assert(['product-series/quick-response.njk', 'product-series/standard-response.njk', 'product-series/concealed-pendent.njk', 'product-series/dry-pendent.njk', 'product-series/extended-coverage.njk', 'product-series/large-k-esfr.njk'].includes(focusedProduct.template), 'This template needs its own targeted interaction adapter; do not silently skip its checks.');
   }
   assert(edgePath, "Microsoft Edge was not found. Set EDGE_PATH to a Chromium-compatible Edge executable.");
   fs.mkdirSync(evidenceDirectory, { recursive: true });
@@ -307,7 +307,8 @@ async function run() {
       const result = await validateStandardResponse({
         client, origin, viewports, evaluate, navigate, waitForLocation, inspectPage, assert, evidenceDirectory,
         routeId: focusedProduct.routeId, slug: focusedSlug, imageCount: focusedProduct.gallery.length,
-        neutralCaptions: Object.fromEntries(focusedProduct.gallery.flatMap((item, index) => Object.hasOwn(focusedProduct.shared, item.caption) ? [[index, focusedProduct.shared[item.caption]]] : []))
+        neutralCaptions: Object.fromEntries(focusedProduct.gallery.flatMap((item, index) => Object.hasOwn(focusedProduct.shared, item.caption) ? [[index, focusedProduct.shared[item.caption]]] : [])),
+        modelTableRows: focusedProduct.modelGroups?.map(group => group.length)
       });
       const evidence = {
         scope: 'single-product', product: focusedSlug,
@@ -457,17 +458,23 @@ async function run() {
       languageSwitches.push({ scenario: `${page.id}: browser back returns to AR page`, status: "PASS", finalUrl: returnedPublicArabic.url, lang: returnedPublicArabic.lang, dir: returnedPublicArabic.dir });
     }
 
-    await navigate(client, `${origin}/ar/products/sprinklers/index.html`, "/ar/products/sprinklers/index.html");
-    await evaluate(client, `document.querySelector('a[href*="large-k-factor-esfr-sprinklers.html"]').click()`);
-    await waitForLocation(client, "/products/消防喷头/large-k-factor-esfr-sprinklers.html");
+    const untranslated = Object.values(SITE_ROUTES).find(route => route.kind === 'product' && route.locales.ar.status === 'fallback');
+    if (untranslated) {
+    const fallbackPath = '/' + untranslated.locales.ar.outputPath;
+    const englishPath = '/' + untranslated.locales.en.outputPath;
+    await navigate(client, `${origin}${encodeURI(fallbackPath)}`, fallbackPath);
+    const fallbackClicked = await evaluate(client, `(() => { const link = [...document.querySelectorAll('.product-card__link')].find(a => decodeURIComponent(new URL(a.href).pathname).endsWith(${JSON.stringify(englishPath)})); if (!link) return false; link.click(); return true; })()`);
+    assert(fallbackClicked, 'Missing untranslated product category link');
+    await waitForLocation(client, englishPath);
     const englishFallback = await inspectPage(client);
     assert(englishFallback.lang === "en", "An untranslated product opened from Arabic must remain available in English.");
     languageSwitches.push({ scenario: "AR category opens untranslated EN product without redirect loop", status: "PASS", finalUrl: englishFallback.url, lang: englishFallback.lang, dir: englishFallback.dir });
     await evaluate(client, `document.querySelector('[data-site-language-choice="ar"]').click()`);
-    await waitForLocation(client, "/ar/products/sprinklers/index.html");
+    await waitForLocation(client, fallbackPath);
     const fallbackCategory = await inspectPage(client);
     assert(fallbackCategory.lang === "ar", "Fallback Arabic language control did not return to the matching category.");
     languageSwitches.push({ scenario: "untranslated EN product AR control returns to matching category", status: "PASS", finalUrl: fallbackCategory.url, lang: fallbackCategory.lang, dir: fallbackCategory.dir });
+    }
 
     await navigate(client, `${origin}/ar/products/wet-alarm-check-valve/index.html`, "/ar/products/wet-alarm-check-valve/index.html");
     await evaluate(client, `document.querySelector('[data-site-nav-item="products"]').click()`);
@@ -627,6 +634,11 @@ async function run() {
       routeId: 'product:extended-coverage-quick-response-fire-sprinkler', slug: 'extended-coverage-quick-response-fire-sprinkler', imageCount: 3
     });
     languageSwitches.push(...extendedResponse.results);
+    const esfrResponse = await validateStandardResponse({
+      client, origin, viewports, evaluate, navigate, waitForLocation, inspectPage, assert, evidenceDirectory,
+      routeId: 'product:large-k-factor-esfr-sprinklers', slug: 'large-k-factor-esfr-sprinklers', imageCount: 7, modelTableRows: [6,6]
+    });
+    languageSwitches.push(...esfrResponse.results);
     const evidence = {
       previewMode: process.argv.includes("--file-preview") ? "file" : "http",
       generatedAt: new Date().toISOString(),
@@ -646,7 +658,8 @@ async function run() {
         ...quickResponse.screenshots,
         ...concealedResponse.screenshots,
         ...dryPendentResponse.screenshots,
-        ...extendedResponse.screenshots
+        ...extendedResponse.screenshots,
+        ...esfrResponse.screenshots
       ]
     };
     fs.writeFileSync(path.join(evidenceDirectory, "browser-validation.json"), `${JSON.stringify(evidence, null, 2)}\n`);

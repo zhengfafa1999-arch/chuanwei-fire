@@ -2,7 +2,7 @@ import fs from "node:fs";
 import path from "node:path";
 import { SITE_ROUTES } from "../site-src/_data/siteRoutes.js";
 
-export async function validateStandardResponse({client, origin, viewports, evaluate, navigate, waitForLocation, inspectPage, assert, evidenceDirectory, routeId = "product:standard-response-fire-sprinkler", slug = "standard-response", imageCount = 4, neutralCaptions = {}}) {
+export async function validateStandardResponse({client, origin, viewports, evaluate, navigate, waitForLocation, inspectPage, assert, evidenceDirectory, routeId = "product:standard-response-fire-sprinkler", slug = "standard-response", imageCount = 4, neutralCaptions = {}, modelTableRows}) {
   const routePath = (id, locale) => `/${SITE_ROUTES[id].locales[locale].outputPath}`;
   const results = [], screenshots = [];
   for (const viewport of viewports) {
@@ -88,6 +88,25 @@ export async function validateStandardResponse({client, origin, viewports, evalu
         const name = `edge-${viewport.id}-${slug}-${locale}-${anchor}.png`;
         fs.writeFileSync(path.join(evidenceDirectory, name), Buffer.from(shot.data,"base64"));
         screenshots.push(name);
+      }
+      if (modelTableRows) {
+        const counts = await evaluate(client, `[...document.querySelectorAll('#models tbody')].map(body => body.rows.length)`);
+        assert(JSON.stringify(counts) === JSON.stringify(modelTableRows), `${slug}: model table rows changed`);
+        for (let tableIndex = 1; tableIndex < modelTableRows.length; tableIndex += 1) {
+          await evaluate(client, `(() => {
+            const table = document.querySelectorAll('#models .series-block')[${tableIndex}];
+            const header = document.querySelector('.global-header').getBoundingClientRect().height;
+            window.scrollTo({top: window.scrollY + table.getBoundingClientRect().top - header - 20, behavior:'instant'});
+          })()`);
+          const visible = await evaluate(client, `(() => { const rect = document.querySelectorAll('#models .series-block')[${tableIndex}].getBoundingClientRect();return rect.top >= document.querySelector('.global-header').getBoundingClientRect().bottom && rect.top < innerHeight; })()`);
+          assert(visible, `${slug}: additional model table hidden by header`);
+          const state = await inspectPage(client);
+          assert(state.brokenImageCount === 0 && state.horizontalOverflow <= 1, `${slug}: additional model table layout failure`);
+          const shot = await client.send('Page.captureScreenshot', {format:'png',captureBeyondViewport:false});
+          const name = `edge-${viewport.id}-${slug}-${locale}-models-${tableIndex + 1}.png`;
+          fs.writeFileSync(path.join(evidenceDirectory, name), Buffer.from(shot.data,'base64'));
+          screenshots.push(name);
+        }
       }
       for (const [index, destination] of ["category:sprinklers", "products", "home"].entries()) {
         await evaluate(client, `document.querySelectorAll('[data-global-product-footer] a')[${index}].click()`);

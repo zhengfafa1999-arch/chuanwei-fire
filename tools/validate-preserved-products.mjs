@@ -36,8 +36,13 @@ for (const entry of catalog) {
   assert.deepEqual(structure(content), structure(baseline), `${entry.lang}: original section/tag/class structure changed`);
   assert.deepEqual(media(content, entry.route.outputPath), media(baseline, entry.product.source.path), `${entry.lang}: original product images changed`);
   for (const image of media(content, entry.route.outputPath)) assert(fs.existsSync(image), `Missing product image: ${image}`);
-  const tableRows = content.match(/<tbody>([\s\S]*?)<\/tbody>/)?.[1].match(/<tr>/g) || [];
+  const bodies = [...content.matchAll(/<tbody>([\s\S]*?)<\/tbody>/g)];
+  const tableRows = bodies.flatMap(([, rows]) => rows.match(/<tr>/g) || []);
   assert.equal(tableRows.length, entry.product.models.length, `${entry.lang}: model count changed`);
+  if (entry.product.modelGroups) {
+    assert.deepEqual(entry.product.modelGroups.flat(), entry.product.models.map((_, i) => i), 'Model groups must reference every model once, in original order');
+    assert.deepEqual(bodies.map(([, rows]) => (rows.match(/<tr>/g) || []).length), entry.product.modelGroups.map(group => group.length), 'Model group row counts changed');
+  }
   if (entry.lang === "en") {
     const styles = html => [...html.matchAll(/<link\b[^>]*rel="stylesheet"[^>]*href="([^"]+)"/g)].map(([, href]) => href);
     assert.deepEqual(styles(output), styles(read(baselineFile)), "English stylesheets changed during language-only migration");

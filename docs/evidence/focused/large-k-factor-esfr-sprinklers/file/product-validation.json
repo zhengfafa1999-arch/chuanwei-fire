@@ -1,0 +1,55 @@
+{
+  "scope": "single-product",
+  "product": "large-k-factor-esfr-sprinklers",
+  "previewMode": "file",
+  "generatedAt": "2026-09-05T12:08:00.767Z",
+  "browser": "Edg/152.0.4191.62",
+  "viewports": [
+    {
+      "id": "desktop",
+      "width": 1440,
+      "height": 900,
+      "deviceScaleFactor": 1,
+      "mobile": false
+    },
+    {
+      "id": "mobile",
+      "width": 390,
+      "height": 844,
+      "deviceScaleFactor": 1,
+      "mobile": true
+    }
+  ],
+  "languageSwitches": [
+    {
+      "scenario": "desktop/en: large-k-factor-esfr-sprinklers image/text category entries, reciprocal switch, refresh, 7-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+      "status": "PASS"
+    },
+    {
+      "scenario": "desktop/ar: large-k-factor-esfr-sprinklers image/text category entries, reciprocal switch, refresh, 7-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+      "status": "PASS"
+    },
+    {
+      "scenario": "mobile/en: large-k-factor-esfr-sprinklers image/text category entries, reciprocal switch, refresh, 7-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+      "status": "PASS"
+    },
+    {
+      "scenario": "mobile/ar: large-k-factor-esfr-sprinklers image/text category entries, reciprocal switch, refresh, 7-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+      "status": "PASS"
+    }
+  ],
+  "screenshots": [
+    "edge-desktop-large-k-factor-esfr-sprinklers-en-gallery.png",
+    "edge-desktop-large-k-factor-esfr-sprinklers-en-models.png",
+    "edge-desktop-large-k-factor-esfr-sprinklers-en-models-2.png",
+    "edge-desktop-large-k-factor-esfr-sprinklers-ar-gallery.png",
+    "edge-desktop-large-k-factor-esfr-sprinklers-ar-models.png",
+    "edge-desktop-large-k-factor-esfr-sprinklers-ar-models-2.png",
+    "edge-mobile-large-k-factor-esfr-sprinklers-en-gallery.png",
+    "edge-mobile-large-k-factor-esfr-sprinklers-en-models.png",
+    "edge-mobile-large-k-factor-esfr-sprinklers-en-models-2.png",
+    "edge-mobile-large-k-factor-esfr-sprinklers-ar-gallery.png",
+    "edge-mobile-large-k-factor-esfr-sprinklers-ar-models.png",
+    "edge-mobile-large-k-factor-esfr-sprinklers-ar-models-2.png"
+  ]
+}
