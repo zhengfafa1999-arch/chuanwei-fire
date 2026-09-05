@@ -1,0 +1,587 @@
+{
+  "task": "MIG-905",
+  "date": "2026-09-05",
+  "status": "in-progress",
+  "publishedPageCount": 64,
+  "completed": [
+    "Corrected standard water mist category image in EN and AR",
+    "Removed three explicitly documented Baidu temporary reference photos from product HTML, modal, script and social metadata",
+    "Removed unmatched national type-test and measured performance claims",
+    "Withheld legacy deluge, dry-pipe and preaction heights; merged duplicate preaction old/new reference rows without asserting which physical design is supplied",
+    "Removed unsupported EN 671-1 compliance presentation and QT450-10/ASTM grade equivalence",
+    "Added localized captions to three generated home scene illustrations and About packaging illustration",
+    "Added build regression checks for withdrawn content"
+  ],
+  "confirmedProductSources": [
+    "site-src/_data/products/wet-alarm-check-valve.json",
+    "site-src/_data/products/water-curtain-nozzles.json",
+    "site-src/_data/products/water-mist-nozzles.json"
+  ],
+  "limitations": [
+    "This is a targeted content correction and evidence inventory, not certification or validation of every legacy parameter.",
+    "Existing category upright EC photograph reused as one configuration view; other configurations require matching photographs.",
+    "Three supplied management-system certificates remain distinguished from product approval; no legal authenticity verification performed."
+  ],
+  "legacyProducts": [
+    {
+      "page": "products/消防阀/diaphragm-deluge-valves.html",
+      "name": "Diaphragm Deluge Valve",
+      "status": "evidence-reconciliation-required",
+      "specificationFields": [
+        "Product type",
+        "Available sizes",
+        "Connection options",
+        "Maximum working pressure",
+        "Supply pressure range",
+        "Minimum actuation pressure",
+        "Alarm port pressure",
+        "Alarm response",
+        "Valve body & cover",
+        "Diaphragm",
+        "O-rings",
+        "Disc, seat, bushings & pressure plates",
+        "Spring & shaft",
+        "Coating",
+        "Type-test standard",
+        "Packaging"
+      ],
+      "changedThisPass": true
+    },
+    {
+      "page": "products/消防阀/preaction-valve-assemblies.html",
+      "name": "Preaction Valve Assemblies",
+      "status": "evidence-reconciliation-required",
+      "specificationFields": [
+        "International product name",
+        "Available nominal sizes",
+        "Connection versions",
+        "Factory references",
+        "Assembly height",
+        "Release method",
+        "Working pressure",
+        "Valve and trim materials",
+        "Approval / execution standard"
+      ],
+      "changedThisPass": true
+    },
+    {
+      "page": "products/消防阀/dry-pipe-alarm-valves.html",
+      "name": "Dry Pipe Alarm Valve",
+      "status": "evidence-reconciliation-required",
+      "specificationFields": [
+        "Product type",
+        "Available sizes",
+        "Connection options",
+        "Maximum working pressure",
+        "Air-to-water differential ratio",
+        "Reset prevention",
+        "Alarm device inlet pressure",
+        "Valve body",
+        "Coating",
+        "Weight",
+        "Type-test standard",
+        "Packaging"
+      ],
+      "changedThisPass": true
+    },
+    {
+      "page": "products/消防喷头/standard-response-fire-sprinkler.html",
+      "name": "Standard Response Fire Sprinklers",
+      "status": "evidence-reconciliation-required",
+      "specificationFields": [
+        "Product type",
+        "Installation",
+        "Nominal sizes",
+        "K-factor",
+        "Thermal element",
+        "Temperature options",
+        "Frame material",
+        "Surface finish",
+        "Thread form",
+        "Max. working pressure",
+        "Unit weight",
+        "Standard packing",
+        "System application",
+        "Compliance"
+      ],
+      "changedThisPass": false
+    },
+    {
+      "page": "products/消防喷头/glass-bulb-fire-sprinkler.html",
+      "name": "Glass Bulb Fire Sprinkler",
+      "status": "evidence-reconciliation-required",
+      "specificationFields": [
+        "Product type",
+        "Installation",
+        "Nominal size",
+        "K-factor",
+        "Thermal element",
+        "Temperature",
+        "System application",
+        "Frame material",
+        "Surface finish",
+        "Thread form",
+        "Max. working pressure",
+        "Unit weight",
+        "Standard packing",
+        "Compliance"
+      ],
+      "changedThisPass": false
+    },
+    {
+      "page": "products/消防喷头/concealed-pendent-fire-sprinkler.html",
+      "name": "Concealed Pendent Fire Sprinklers",
+      "status": "evidence-reconciliation-required",
+      "specificationFields": [
+        "Product type",
+        "Response options",
+        "Thermal element",
+        "Nominal sizes",
+        "K-factor",
+        "Temperature options",
+        "Frame material",
+        "Surface finish",
+        "Thread form",
+        "Max. working pressure",
+        "Standard packing",
+        "System application",
+        "Compliance"
+      ],
+      "changedThisPass": false
+    },
+    {
+      "page": "products/消防喷头/dry-pendent-fire-sprinklers.html",
+      "name": "Dry Pendent Fire Sprinklers",
+      "status": "evidence-reconciliation-required",
+      "specificationFields": [
+        "Product type",
+        "Installation",
+        "Nominal connection",
+        "K-factor",
+        "Response options",
+        "Temperature rating",
+        "Standard overall lengths",
+        "Minimum overall length",
+        "Length definition",
+        "Frame material",
+        "Frame finish",
+        "Max. working pressure"
+      ],
+      "changedThisPass": false
+    },
+    {
+      "page": "products/消防喷头/extended-coverage-quick-response-fire-sprinkler.html",
+      "name": "Extended Coverage Quick Response Sprinklers",
+      "status": "evidence-reconciliation-required",
+      "specificationFields": [
+        "Product type",
+        "Installation",
+        "Nominal size",
+        "K-factor",
+        "Thermal element",
+        "Temperature rating",
+        "Frame material",
+        "Surface finish",
+        "Thread form",
+        "Max. working pressure",
+        "Standard packing",
+        "OEM / ODM"
+      ],
+      "changedThisPass": true
+    },
+    {
+      "page": "products/消防喷头/large-k-factor-esfr-sprinklers.html",
+      "name": "Large K-Factor & ESFR Sprinklers",
+      "status": "evidence-reconciliation-required",
+      "specificationFields": [
+        "Available K-factors",
+        "Response options",
+        "Temperature",
+        "Installation",
+        "Nominal connection",
+        "Frame material",
+        "Surface finish",
+        "Max. working pressure",
+        "Standard packing",
+        "Available K-factors",
+        "Operating element",
+        "Temperature",
+        "Installation",
+        "Connections",
+        "Frame material",
+        "Surface finish",
+        "Max. working pressure",
+        "Standard packing"
+      ],
+      "changedThisPass": false
+    },
+    {
+      "page": "products/软管卷盘/ria25-fire-hose-reel.html",
+      "name": "RIA 25 Fire Hose Reel",
+      "status": "evidence-reconciliation-required",
+      "specificationFields": [
+        "Product type",
+        "Standard",
+        "Hose",
+        "Hose lengths",
+        "Maximum working pressure",
+        "Test pressure",
+        "Burst pressure",
+        "Inlet",
+        "Nozzle",
+        "Reel support & housing",
+        "Inlet control valve",
+        "Reel diameter",
+        "Overall dimensions",
+        "Installation"
+      ],
+      "changedThisPass": true
+    },
+    {
+      "page": "products/软管卷盘/straight-stream-fire-hose-reel.html",
+      "name": "Straight-Stream Fire Hose Reel",
+      "status": "evidence-reconciliation-required",
+      "specificationFields": [
+        "Product type",
+        "Hose",
+        "Hose lengths",
+        "Pressure classes",
+        "Reel plate",
+        "Inlet",
+        "Nozzle",
+        "Hub",
+        "Installation",
+        "Standard"
+      ],
+      "changedThisPass": true
+    },
+    {
+      "page": "products/软管卷盘/jet-spray-fire-hose-reel.html",
+      "name": "Jet / Spray Fire Hose Reel",
+      "status": "evidence-reconciliation-required",
+      "specificationFields": [
+        "Product type",
+        "Hose",
+        "Hose lengths",
+        "Pressure classes",
+        "Reel plate",
+        "Nozzle",
+        "Quick coupling",
+        "Inlet",
+        "Hub",
+        "Installation",
+        "Standard"
+      ],
+      "changedThisPass": true
+    },
+    {
+      "page": "products/软管卷盘/heavy-duty-fire-hose-reel.html",
+      "name": "Heavy-Duty Fire Hose Reel",
+      "status": "evidence-reconciliation-required",
+      "specificationFields": [
+        "Product type",
+        "Hose",
+        "Hose lengths",
+        "Heavy-duty (0.8 MPa)",
+        "High-pressure (1.6 MPa)",
+        "Reel plate",
+        "Inlet",
+        "Nozzle",
+        "Hub",
+        "Installation",
+        "Standard"
+      ],
+      "changedThisPass": false
+    },
+    {
+      "page": "products/消防蝶阀/lever-operated-grooved-butterfly-valves.html",
+      "name": "Lever-Operated Grooved Butterfly Valve",
+      "status": "evidence-reconciliation-required",
+      "specificationFields": [
+        "Product type",
+        "Available sizes",
+        "Connection",
+        "Working pressure",
+        "Body & disc",
+        "Seat",
+        "Stem",
+        "Lever & position plate",
+        "Medium",
+        "Working temperature",
+        "Standard",
+        "Installation"
+      ],
+      "changedThisPass": true
+    },
+    {
+      "page": "products/消防蝶阀/lever-operated-wafer-butterfly-valves.html",
+      "name": "Lever-Operated Wafer Butterfly Valve",
+      "status": "evidence-reconciliation-required",
+      "specificationFields": [
+        "Product type",
+        "Available sizes",
+        "Connection",
+        "Working pressure",
+        "Body & disc",
+        "Seat",
+        "Stem",
+        "Lever & position plate",
+        "Medium",
+        "Working temperature",
+        "Standard",
+        "Installation"
+      ],
+      "changedThisPass": true
+    },
+    {
+      "page": "products/消防蝶阀/grooved-supervisory-butterfly-valves.html",
+      "name": "Grooved Supervisory Butterfly Valve",
+      "status": "evidence-reconciliation-required",
+      "specificationFields": [
+        "Product type",
+        "Available sizes",
+        "Connection",
+        "Working pressure",
+        "Body",
+        "Disc",
+        "Stem",
+        "Seat",
+        "Medium",
+        "Working temperature",
+        "Standard",
+        "Operation"
+      ],
+      "changedThisPass": true
+    },
+    {
+      "page": "products/消防蝶阀/wafer-supervisory-butterfly-valves.html",
+      "name": "Wafer Supervisory Butterfly Valve",
+      "status": "evidence-reconciliation-required",
+      "specificationFields": [
+        "Product type",
+        "Available sizes",
+        "Connection",
+        "Working pressure",
+        "Body",
+        "Disc",
+        "Stem",
+        "Seat",
+        "Medium",
+        "Working temperature",
+        "Standard",
+        "Operation"
+      ],
+      "changedThisPass": true
+    },
+    {
+      "page": "products/消防阀门/flanged-supervisory-gate-valves.html",
+      "name": "Flanged Supervisory Gate Valve",
+      "status": "evidence-reconciliation-required",
+      "specificationFields": [
+        "Product type",
+        "Available sizes",
+        "Connection",
+        "Working pressure",
+        "Strength test pressure",
+        "Seal test pressure",
+        "Body & cover",
+        "Disc",
+        "Stem",
+        "Stem nut",
+        "Seal",
+        "Installation"
+      ],
+      "changedThisPass": true
+    },
+    {
+      "page": "products/消防阀门/grooved-supervisory-gate-valves.html",
+      "name": "Grooved Supervisory Gate Valve",
+      "status": "evidence-reconciliation-required",
+      "specificationFields": [
+        "Product type",
+        "Available sizes",
+        "Connection",
+        "Working pressure",
+        "Strength test pressure",
+        "Seal test pressure",
+        "Body & cover",
+        "Disc",
+        "Stem",
+        "Stem nut",
+        "Seal",
+        "Installation"
+      ],
+      "changedThisPass": true
+    },
+    {
+      "page": "products/消防阀门/nrs-gate-valves.html",
+      "name": "NRS Gate Valve",
+      "status": "evidence-reconciliation-required",
+      "specificationFields": [
+        "Product type",
+        "Connection options",
+        "Operation",
+        "Working pressure",
+        "Body & disc material",
+        "Seat / seal material",
+        "Coating",
+        "Standard / approval"
+      ],
+      "changedThisPass": false
+    },
+    {
+      "page": "products/消防阀门/osy-gate-valves.html",
+      "name": "OS&amp;Y Gate Valve",
+      "status": "evidence-reconciliation-required",
+      "specificationFields": [
+        "Product type",
+        "Available sizes",
+        "Connection",
+        "Working pressure",
+        "Body, cover & disc",
+        "Stem",
+        "Stem nut",
+        "Seal",
+        "Coating",
+        "Operation",
+        "Installation"
+      ],
+      "changedThisPass": true
+    },
+    {
+      "page": "products/室内消防栓/standard-indoor-hydrant.html",
+      "name": "Standard Indoor Fire Hydrant",
+      "status": "evidence-reconciliation-required",
+      "specificationFields": [
+        "Product type",
+        "Nominal size",
+        "Working pressure",
+        "Standard",
+        "Inlet",
+        "Outlet",
+        "Closed height H",
+        "Stem center distance B",
+        "Outlet center height h",
+        "Application"
+      ],
+      "changedThisPass": false
+    },
+    {
+      "page": "products/室内消防栓/export-slanted-hydrant-valve.html",
+      "name": "Export Slanted Single-Outlet Hydrant Valve",
+      "status": "evidence-reconciliation-required",
+      "specificationFields": [
+        "Product type",
+        "Common name",
+        "Nominal size",
+        "Inlet",
+        "Outlet",
+        "Outlet angle",
+        "Working pressure",
+        "Strength test pressure",
+        "Seal test pressure",
+        "Body & cover",
+        "Stem",
+        "Handwheel",
+        "Seal",
+        "Dimensions",
+        "Installation"
+      ],
+      "changedThisPass": false
+    },
+    {
+      "page": "products/室内消防栓/double-outlet-hydrant.html",
+      "name": "Double-Outlet Indoor Fire Hydrant",
+      "status": "evidence-reconciliation-required",
+      "specificationFields": [
+        "Product type",
+        "Nominal size",
+        "Inlet",
+        "Outlet",
+        "Working pressure",
+        "Strength test pressure",
+        "Body & cover",
+        "Stem",
+        "Seat & stem nut",
+        "Dimensions",
+        "Weight",
+        "Application"
+      ],
+      "changedThisPass": false
+    },
+    {
+      "page": "products/室内消防栓/rotating-pressure-regulating-hydrant.html",
+      "name": "Rotating &amp; Pressure-Regulating Indoor Fire Hydrant",
+      "status": "evidence-reconciliation-required",
+      "specificationFields": [
+        "Product type",
+        "Standard",
+        "Rotating variants",
+        "Pressure-regulating variants",
+        "Hose-reel combination",
+        "Nominal size",
+        "Working pressure",
+        "Body material"
+      ],
+      "changedThisPass": false
+    },
+    {
+      "page": "products/室外消防栓/bs750-pillar-hydrant.html",
+      "name": "British-Type Pillar Fire Hydrant (BS-750)",
+      "status": "evidence-reconciliation-required",
+      "specificationFields": [
+        "Product type",
+        "Model / marking",
+        "Inlet",
+        "Outlet",
+        "Working pressure",
+        "Shell test pressure",
+        "Seat test pressure",
+        "Body",
+        "Outlet valve",
+        "Stem",
+        "Handwheels",
+        "Structure",
+        "Typical overall height",
+        "Unit weight"
+      ],
+      "changedThisPass": false
+    },
+    {
+      "page": "products/室外消防栓/french-pattern-hydrant.html",
+      "name": "French-Pattern Dry-Barrel Hydrant",
+      "status": "evidence-reconciliation-required",
+      "specificationFields": [
+        "Outlet interface",
+        "Inlet connection",
+        "Operation",
+        "Appearance & marking"
+      ],
+      "changedThisPass": false
+    },
+    {
+      "page": "products/室外消防栓/indonesian-pattern-hydrant.html",
+      "name": "Indonesian-Pattern Wet-Barrel Hydrant",
+      "status": "evidence-reconciliation-required",
+      "specificationFields": [
+        "Outlet interface",
+        "Inlet connection",
+        "Operation",
+        "Appearance & marking"
+      ],
+      "changedThisPass": false
+    },
+    {
+      "page": "products/室外消防栓/russian-pattern-hydrant.html",
+      "name": "Russian-Pattern Above-Ground Hydrant",
+      "status": "evidence-reconciliation-required",
+      "specificationFields": [
+        "Outlet interface",
+        "Inlet connection",
+        "Operation",
+        "Appearance & marking"
+      ],
+      "changedThisPass": false
+    }
+  ]
+}

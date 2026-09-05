@@ -6,7 +6,9 @@ import { spawn } from "node:child_process";
 import { SITE_ROUTES } from "../site-src/_data/siteRoutes.js";
 
 const root = process.cwd();
-const evidenceDirectory = path.join(root, "docs", "evidence", "responsive-rtl", "2026-09-05");
+const evidenceDirectory = process.env.SITE_BROWSER_EVIDENCE_DIR
+  ? path.resolve(root, process.env.SITE_BROWSER_EVIDENCE_DIR)
+  : path.join(root, "docs", "evidence", "responsive-rtl", "2026-09-05");
 const edgeCandidates = [
   process.env.EDGE_PATH,
   "C:/Program Files (x86)/Microsoft/Edge/Application/msedge.exe",
@@ -440,6 +442,50 @@ async function run() {
         ...responsiveScreenshots
       ]
     };
+    if (process.argv.includes("--content-review")) {
+      evidence.contentInteractions = [];
+      const targets = [
+        { id: "manufacturing-en", path: "/index.html", selector: "#manufacturing" },
+        { id: "manufacturing-ar", path: "/ar/index.html", selector: "#manufacturing .cap:nth-child(2)" },
+        { id: "ec-gallery", path: "/products/消防喷头/extended-coverage-quick-response-fire-sprinkler.html", selector: "#gallery" },
+        { id: "mist-category", path: "/ar/products/sprinklers/index.html", selector: ".product-card:nth-child(7)" }
+      ];
+      for (const viewport of viewports) {
+        await client.send("Emulation.setDeviceMetricsOverride", viewport);
+        for (const target of targets) {
+          await navigate(client, `${origin}${encodeURI(target.path)}`, target.path);
+          await evaluate(client, `(async () => {
+            const target = document.querySelector(${JSON.stringify(target.selector)});
+            if (!target) throw new Error('Content review target not found');
+            const images = [...target.querySelectorAll('img')];
+            images.forEach(image => { image.loading = 'eager'; });
+            await Promise.race([
+              Promise.all(images.map(image => image.decode())),
+              new Promise((_, reject) => setTimeout(() => reject(new Error('Content images did not load')), 5000))
+            ]);
+            const header = document.querySelector('[data-global-header]');
+            window.scrollTo({top: target.getBoundingClientRect().top + scrollY - (header?.getBoundingClientRect().height || 0) - 16, behavior:'instant'});
+            await new Promise(resolve => requestAnimationFrame(() => requestAnimationFrame(resolve)));
+          })()`);
+          const screenshot = await client.send("Page.captureScreenshot", { format: "png", captureBeyondViewport: false });
+          const filename = `content-${viewport.id}-${target.id}.png`;
+          fs.writeFileSync(path.join(evidenceDirectory, filename), Buffer.from(screenshot.data, "base64"));
+          evidence.screenshots.push(filename);
+          if (target.id === "ec-gallery") {
+            const interaction = await evaluate(client, `(() => {
+              const trigger = document.querySelector('#gallery [data-lightbox]');
+              const modal = document.getElementById('productModal');
+              trigger.click();
+              const opened = modal.classList.contains('open') && modal.querySelector('img').getAttribute('src') === trigger.dataset.lightbox;
+              document.dispatchEvent(new KeyboardEvent('keydown', {key:'Escape'}));
+              return {opened, closed: !modal.classList.contains('open') && document.body.style.overflow !== 'hidden'};
+            })()`);
+            assert(interaction.opened && interaction.closed, `${viewport.id}: corrected EC gallery preview must open and close.`);
+            evidence.contentInteractions.push({ viewport: viewport.id, scenario: "EC upright image preview and Escape close", status: "PASS" });
+          }
+        }
+      }
+    }
     fs.writeFileSync(path.join(evidenceDirectory, "browser-validation.json"), `${JSON.stringify(evidence, null, 2)}\n`);
     const markdown = [
       "# 多语言浏览器验证证据",
