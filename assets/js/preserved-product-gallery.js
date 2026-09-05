@@ -14,6 +14,7 @@
       }
       const gallery=document.querySelector('[data-gallery]');
       if(!gallery)return; // Single-photo pages keep zoom without introducing a carousel.
+      gallery.querySelector('[data-gallery-count]').dir='ltr';
       const thumbs=[...gallery.querySelectorAll('[data-gallery-index]')],main=gallery.querySelector('.wav-gallery__main'),image=main.querySelector('img'),title=gallery.querySelector('[data-gallery-title]'),count=gallery.querySelector('[data-gallery-count]');let index=0,touchStart=0;
       const show=next=>{index=(next+thumbs.length)%thumbs.length;const selected=thumbs[index];image.src=selected.dataset.src;image.alt=selected.dataset.alt;main.dataset.lightbox=selected.dataset.src;title.textContent=selected.dataset.title;count.textContent=`${index+1} / ${thumbs.length}`;thumbs.forEach((thumb,i)=>thumb.classList.toggle('active',i===index))};
       thumbs.forEach(thumb=>thumb.addEventListener('click',()=>show(Number(thumb.dataset.galleryIndex))));gallery.querySelector('.wav-gallery__arrow--prev').addEventListener('click',()=>show(index-1));gallery.querySelector('.wav-gallery__arrow--next').addEventListener('click',()=>show(index+1));

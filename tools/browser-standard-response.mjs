@@ -45,7 +45,7 @@ export async function validateStandardResponse({client, origin, viewports, evalu
         const touchTarget = wav ? wav.querySelector('.wav-gallery__stage') : image;
         const modal = document.getElementById('productModal');
         const initialHeight = image.getBoundingClientRect().height;
-        const checks = [thumbs.length === ${imageCount}];
+        const checks = [thumbs.length === ${imageCount} && getComputedStyle(count).direction === 'ltr'];
         const check = index => {
           const thumb = thumbs[index];
           checks.push(image.src === thumb.querySelector('img').src && image.alt === alt(thumb) &&
