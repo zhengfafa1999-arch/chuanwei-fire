@@ -1,0 +1,51 @@
+{
+  "scope": "single-product",
+  "product": "jet-spray-fire-hose-reel",
+  "previewMode": "http",
+  "generatedAt": "2026-09-05T13:59:36.360Z",
+  "browser": "Edg/152.0.4191.62",
+  "viewports": [
+    {
+      "id": "desktop",
+      "width": 1440,
+      "height": 900,
+      "deviceScaleFactor": 1,
+      "mobile": false
+    },
+    {
+      "id": "mobile",
+      "width": 390,
+      "height": 844,
+      "deviceScaleFactor": 1,
+      "mobile": true
+    }
+  ],
+  "languageSwitches": [
+    {
+      "scenario": "desktop/en: jet-spray-fire-hose-reel image/text category entries, reciprocal switch, refresh, 1-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+      "status": "PASS"
+    },
+    {
+      "scenario": "desktop/ar: jet-spray-fire-hose-reel image/text category entries, reciprocal switch, refresh, 1-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+      "status": "PASS"
+    },
+    {
+      "scenario": "mobile/en: jet-spray-fire-hose-reel image/text category entries, reciprocal switch, refresh, 1-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+      "status": "PASS"
+    },
+    {
+      "scenario": "mobile/ar: jet-spray-fire-hose-reel image/text category entries, reciprocal switch, refresh, 1-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+      "status": "PASS"
+    }
+  ],
+  "screenshots": [
+    "edge-desktop-jet-spray-fire-hose-reel-en-gallery.png",
+    "edge-desktop-jet-spray-fire-hose-reel-en-models.png",
+    "edge-desktop-jet-spray-fire-hose-reel-ar-gallery.png",
+    "edge-desktop-jet-spray-fire-hose-reel-ar-models.png",
+    "edge-mobile-jet-spray-fire-hose-reel-en-gallery.png",
+    "edge-mobile-jet-spray-fire-hose-reel-en-models.png",
+    "edge-mobile-jet-spray-fire-hose-reel-ar-gallery.png",
+    "edge-mobile-jet-spray-fire-hose-reel-ar-models.png"
+  ]
+}

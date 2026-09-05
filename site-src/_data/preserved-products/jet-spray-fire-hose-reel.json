@@ -1,0 +1,509 @@
+{
+  "id": "jet-spray-fire-hose-reel",
+  "routeId": "product:jet-spray-fire-hose-reel",
+  "template": "product-series/jet-spray-hose-reel.njk",
+  "source": {
+    "path": "products/软管卷盘/jet-spray-fire-hose-reel.html",
+    "revision": "3e2f239",
+    "status": "preserved-existing-content-not-reaudited"
+  },
+  "media": {
+    "hero": "products/软管卷盘/jet-spray-fire-hose-reel/jet-spray-fire-hose-reel.jpg",
+    "image1": "products/软管卷盘/jet-spray-fire-hose-reel/reel-original.jpg"
+  },
+  "copy": {
+    "productViews": {
+      "text": "Product views",
+      "numbers": []
+    },
+    "specifications": {
+      "text": "Specifications",
+      "numbers": []
+    },
+    "availableModels": {
+      "text": "Available models",
+      "numbers": []
+    },
+    "oEMODM": {
+      "text": "OEM / ODM",
+      "numbers": []
+    },
+    "indoorFirstAidFireHoseReel": {
+      "text": "Indoor First-Aid Fire Hose Reel",
+      "numbers": []
+    },
+    "jetSprayFireHoseReel": {
+      "text": "Jet / Spray Fire Hose Reel",
+      "numbers": []
+    },
+    "aFireHoseReelWithA19Mm": {
+      "text": "A fire hose reel with a {n0} mm semi-rigid hose and a full-copper jet/spray nozzle with copper quick coupling, for first-aid firefighting in indoor hydrant systems.",
+      "numbers": [
+        "19"
+      ]
+    },
+    "value19MmInHose": {
+      "text": "{n0} mm / ¾ in hose",
+      "numbers": [
+        "19"
+      ]
+    },
+    "copperNozzleCoupling": {
+      "text": "Copper nozzle & coupling",
+      "numbers": []
+    },
+    "askOnWhatsApp": {
+      "text": "Ask on WhatsApp",
+      "numbers": []
+    },
+    "viewAvailableModels": {
+      "text": "View available models",
+      "numbers": []
+    },
+    "inletConnectionReelPlateDiameterAndMarkingAre": {
+      "text": "Inlet connection, reel-plate diameter and marking are confirmed against the approved drawing, sample or order schedule before production.",
+      "numbers": []
+    },
+    "realProductView": {
+      "text": "Real product view",
+      "numbers": []
+    },
+    "completeJetSprayReelAssembly": {
+      "text": "Complete jet/spray reel assembly",
+      "numbers": []
+    },
+    "photographShowsTheCompleteJPSJetSprayHose": {
+      "text": "Photograph shows the complete JPS jet/spray hose reel assembly. The visible physical GUANYA / 冠亚 product markings are retained; CHUANWEI FIRE identifies the website and export-sales presentation.",
+      "numbers": []
+    },
+    "completeReelAssembly": {
+      "text": "Complete reel assembly",
+      "numbers": []
+    },
+    "reel": {
+      "text": "Reel",
+      "numbers": []
+    },
+    "technicalOverview": {
+      "text": "Technical overview",
+      "numbers": []
+    },
+    "confirmedConstructionAndOperatingData": {
+      "text": "Confirmed construction and operating data",
+      "numbers": []
+    },
+    "criticalProductDataIsPresentedInHTMLFor": {
+      "text": "Critical product data is presented in HTML for clear international sourcing. The reel is produced to a national standard; no foreign approval is claimed on this page.",
+      "numbers": []
+    },
+    "seriesSpecifications": {
+      "text": "Series specifications",
+      "numbers": []
+    },
+    "productType": {
+      "text": "Product type",
+      "numbers": []
+    },
+    "hose": {
+      "text": "Hose",
+      "numbers": []
+    },
+    "value19MmInSemiRigidHose": {
+      "text": "{n0} mm / ¾ in semi-rigid hose",
+      "numbers": [
+        "19"
+      ]
+    },
+    "hoseLengths": {
+      "text": "Hose lengths",
+      "numbers": []
+    },
+    "pressureClasses": {
+      "text": "Pressure classes",
+      "numbers": []
+    },
+    "reelPlate": {
+      "text": "Reel plate",
+      "numbers": []
+    },
+    "value400430450Mm0810": {
+      "text": "{n0} / {n1} / {n2} mm ({n3}, {n4} MPa); {n5} mm plate, diameter on request ({n6} MPa)",
+      "numbers": [
+        "400",
+        "430",
+        "450",
+        "0.8",
+        "1.0",
+        "0.7",
+        "1.6"
+      ]
+    },
+    "nozzle": {
+      "text": "Nozzle",
+      "numbers": []
+    },
+    "fullCopperJetSprayNozzle": {
+      "text": "Full-copper jet / spray nozzle",
+      "numbers": []
+    },
+    "quickCoupling": {
+      "text": "Quick coupling",
+      "numbers": []
+    },
+    "copper": {
+      "text": "Copper",
+      "numbers": []
+    },
+    "inlet": {
+      "text": "Inlet",
+      "numbers": []
+    },
+    "ironDN251In": {
+      "text": "Iron, DN{n0} / {n1} in",
+      "numbers": [
+        "25",
+        "1"
+      ]
+    },
+    "hub": {
+      "text": "Hub",
+      "numbers": []
+    },
+    "aluminium08MPaIron101": {
+      "text": "Aluminium ({n0} MPa); iron ({n1} / {n2} MPa)",
+      "numbers": [
+        "0.8",
+        "1.0",
+        "1.6"
+      ]
+    },
+    "installation": {
+      "text": "Installation",
+      "numbers": []
+    },
+    "indoorHydrantBoxWallMounted": {
+      "text": "Indoor hydrant box wall-mounted",
+      "numbers": []
+    },
+    "standard": {
+      "text": "Standard",
+      "numbers": []
+    },
+    "gB15090NationalFireHoseReelStandardNo": {
+      "text": "GB {n0} (national fire hose reel standard); no foreign approval implied",
+      "numbers": [
+        "15090"
+      ]
+    },
+    "commonSelectionFields": {
+      "text": "Common selection fields",
+      "numbers": []
+    },
+    "value19MmSemiRigid": {
+      "text": "{n0} mm semi-rigid",
+      "numbers": [
+        "19"
+      ]
+    },
+    "length": {
+      "text": "Length",
+      "numbers": []
+    },
+    "pressure": {
+      "text": "Pressure",
+      "numbers": []
+    },
+    "jetSpray": {
+      "text": "Jet / Spray",
+      "numbers": []
+    },
+    "copper51": {
+      "text": "copper",
+      "numbers": []
+    },
+    "configurationNote": {
+      "text": "Configuration note",
+      "numbers": []
+    },
+    "inletConnectionAndReelPlateDiameterAreSupplied": {
+      "text": "Inlet connection and reel-plate diameter are supplied according to the confirmed order configuration.",
+      "numbers": []
+    },
+    "installationData": {
+      "text": "Installation data",
+      "numbers": []
+    },
+    "installedOnTheIndoorHydrantBoxWallPer": {
+      "text": "Installed on the indoor hydrant box wall, per the approved design.",
+      "numbers": []
+    },
+    "configurationsForQuotation": {
+      "text": "Configurations for quotation",
+      "numbers": []
+    },
+    "internationalSizeAndPressureAreThePrimarySelection": {
+      "text": "International size and pressure are the primary selection fields. JPS codes are retained only as factory references.",
+      "numbers": []
+    },
+    "internationalConfiguration": {
+      "text": "International configuration",
+      "numbers": []
+    },
+    "hoseLength": {
+      "text": "Hose length",
+      "numbers": []
+    },
+    "reelDiameter": {
+      "text": "Reel diameter",
+      "numbers": []
+    },
+    "factoryReference": {
+      "text": "Factory reference",
+      "numbers": []
+    },
+    "onRequest": {
+      "text": "On request",
+      "numbers": []
+    },
+    "forQuotationSpecifyPressureClassHoseLengthInlet": {
+      "text": "For quotation, specify pressure class, hose length, inlet connection and quantity. The {n0} MPa version uses {n1} mm reel plates.",
+      "numbers": [
+        "1.6",
+        "0.7"
+      ]
+    },
+    "oEMODMCapability": {
+      "text": "OEM / ODM capability",
+      "numbers": []
+    },
+    "configuredToTheApprovedDrawingOrSample": {
+      "text": "Configured to the approved drawing or sample",
+      "numbers": []
+    },
+    "manufacturingOptionsAreConfirmedAgainstTheBuyerS": {
+      "text": "Manufacturing options are confirmed against the buyer's technical schedule. Standards and marking are confirmed together with the approved conformity documentation.",
+      "numbers": []
+    },
+    "reelNameplateBranding": {
+      "text": "Reel & nameplate branding",
+      "numbers": []
+    },
+    "customNameplateLogoAndCoatingColor": {
+      "text": "Custom nameplate, logo and coating color.",
+      "numbers": []
+    },
+    "hosePressure": {
+      "text": "Hose & pressure",
+      "numbers": []
+    },
+    "hoseLengthAndPressureClassSelectedToThe": {
+      "text": "Hose length and pressure class selected to the order.",
+      "numbers": []
+    },
+    "nozzleCoupling": {
+      "text": "Nozzle & coupling",
+      "numbers": []
+    },
+    "jetSprayNozzleAndCopperQuickCouplingConfiguration": {
+      "text": "Jet/spray nozzle and copper quick-coupling configuration reviewed before manufacturing.",
+      "numbers": []
+    },
+    "exportPacking": {
+      "text": "Export packing",
+      "numbers": []
+    },
+    "cartonOrWoodenCasePackingPreparedAccordingTo": {
+      "text": "Carton or wooden-case packing prepared according to the order.",
+      "numbers": []
+    },
+    "sendYourHoseReelSchedule": {
+      "text": "Send your hose reel schedule",
+      "numbers": []
+    },
+    "includePressureHoseLengthInletConnectionAndQuantity": {
+      "text": "Include pressure, hose length, inlet connection and quantity.",
+      "numbers": []
+    },
+    "whatsAppInquiry": {
+      "text": "WhatsApp inquiry",
+      "numbers": []
+    },
+    "emailSales": {
+      "text": "Email sales",
+      "numbers": []
+    },
+    "onThisPage": {
+      "text": "On this page",
+      "numbers": []
+    },
+    "enlargeJetSprayFireHoseReelImage": {
+      "text": "Enlarge jet spray fire hose reel image",
+      "numbers": []
+    },
+    "jetSprayFireHoseReelWithCopperNozzle": {
+      "text": "Jet spray fire hose reel with copper nozzle and quick coupling",
+      "numbers": []
+    },
+    "enlargeSelectedProductImage": {
+      "text": "Enlarge selected product image",
+      "numbers": []
+    },
+    "jetSprayFireHoseReelAssembly": {
+      "text": "Jet spray fire hose reel assembly",
+      "numbers": []
+    },
+    "previousProductImage": {
+      "text": "Previous product image",
+      "numbers": []
+    },
+    "nextProductImage": {
+      "text": "Next product image",
+      "numbers": []
+    },
+    "productImageThumbnails": {
+      "text": "Product image thumbnails",
+      "numbers": []
+    },
+    "reelAssemblyThumbnail": {
+      "text": "Reel assembly thumbnail",
+      "numbers": []
+    },
+    "productImagePreview": {
+      "text": "Product image preview",
+      "numbers": []
+    },
+    "closeImagePreview": {
+      "text": "Close image preview",
+      "numbers": []
+    },
+    "enlargedJetSprayFireHoseReel": {
+      "text": "Enlarged jet spray fire hose reel",
+      "numbers": []
+    },
+    "whatsAppChat": {
+      "text": "WhatsApp Chat",
+      "numbers": []
+    },
+    "facebookPage": {
+      "text": "Facebook Page",
+      "numbers": []
+    },
+    "linkedInProfile": {
+      "text": "LinkedIn Profile",
+      "numbers": []
+    },
+    "seoTitle": {
+      "text": "Jet / Spray Fire Hose Reel | {n0} mm, JPS Series | CHUANWEI FIRE",
+      "numbers": [
+        "19"
+      ]
+    },
+    "seoDescription": {
+      "text": "JPS jet/spray fire hose reel with {n0} mm semi-rigid hose, full-copper jet/spray nozzle and copper quick coupling, in {n1}, {n2} and {n3} MPa pressure classes. OEM/ODM support.",
+      "numbers": [
+        "19",
+        "0.8",
+        "1.0",
+        "1.6"
+      ]
+    }
+  },
+  "shared": {
+    "value202530M": "20 / 25 / 30 m",
+    "value081016MPa": "0.8 / 1.0 / 1.6 MPa",
+    "value11": "1 / 1",
+    "in": "¾ in",
+    "value65682984Ft": "65.6 / 82 / 98.4 ft",
+    "value116145232Psi": "116 / 145 / 232 psi",
+    "value08MPa": "0.8 MPa",
+    "value20M656Ft": "20 m / 65.6 ft",
+    "value400Mm": "400 mm",
+    "jPS081920D": "JPS0.8-19/20D",
+    "value25M82Ft": "25 m / 82 ft",
+    "value430Mm": "430 mm",
+    "jPS081925D": "JPS0.8-19/25D",
+    "value30M984Ft": "30 m / 98.4 ft",
+    "value450Mm": "450 mm",
+    "jPS081930D": "JPS0.8-19/30D",
+    "value10MPa": "1.0 MPa",
+    "jPS101920E": "JPS1.0-19/20E",
+    "jPS101925E": "JPS1.0-19/25E",
+    "jPS101930E": "JPS1.0-19/30E",
+    "value16MPa": "1.6 MPa",
+    "jPS161920F": "JPS1.6-19/20F",
+    "jPS161925F": "JPS1.6-19/25F",
+    "jPS161930F": "JPS1.6-19/30F"
+  },
+  "models": [
+    [
+      "jetSprayFireHoseReel",
+      "value08MPa",
+      "value20M656Ft",
+      "value400Mm",
+      "jPS081920D"
+    ],
+    [
+      "jetSprayFireHoseReel",
+      "value08MPa",
+      "value25M82Ft",
+      "value430Mm",
+      "jPS081925D"
+    ],
+    [
+      "jetSprayFireHoseReel",
+      "value08MPa",
+      "value30M984Ft",
+      "value450Mm",
+      "jPS081930D"
+    ],
+    [
+      "jetSprayFireHoseReel",
+      "value10MPa",
+      "value20M656Ft",
+      "value400Mm",
+      "jPS101920E"
+    ],
+    [
+      "jetSprayFireHoseReel",
+      "value10MPa",
+      "value25M82Ft",
+      "value430Mm",
+      "jPS101925E"
+    ],
+    [
+      "jetSprayFireHoseReel",
+      "value10MPa",
+      "value30M984Ft",
+      "value450Mm",
+      "jPS101930E"
+    ],
+    [
+      "jetSprayFireHoseReel",
+      "value16MPa",
+      "value20M656Ft",
+      "onRequest",
+      "jPS161920F"
+    ],
+    [
+      "jetSprayFireHoseReel",
+      "value16MPa",
+      "value25M82Ft",
+      "onRequest",
+      "jPS161925F"
+    ],
+    [
+      "jetSprayFireHoseReel",
+      "value16MPa",
+      "value30M984Ft",
+      "onRequest",
+      "jPS161930F"
+    ]
+  ],
+  "gallery": [
+    {
+      "media": "image1",
+      "alt": "jetSprayFireHoseReelAssembly",
+      "caption": "completeReelAssembly"
+    }
+  ]
+}
