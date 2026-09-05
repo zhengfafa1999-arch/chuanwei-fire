@@ -17,7 +17,8 @@ eleventyExcludeFromCollections: true
 {% for style in entry.styles %}  <link rel="stylesheet" href="{{ entry.route.assetPrefix }}{{ style }}">
 {% endfor %}{% if entry.lang == 'ar' %}  <link rel="stylesheet" href="{{ entry.route.assetPrefix }}css/multilingual-product.css">
 {% endif %}
-{% seoTags entry.seo %}
+{% if entry.product.inlineStyle %}<style>{{ entry.product.inlineStyle | safe }}</style>
+{% endif %}{% seoTags entry.seo %}
 </head>
 <body data-site-language="{{ entry.lang }}" data-site-route-id="{{ entry.product.routeId }}">
 {% include "site-header.njk" %}

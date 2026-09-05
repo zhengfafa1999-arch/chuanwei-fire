@@ -1,0 +1,541 @@
+{
+  "id": "dry-pendent-fire-sprinklers",
+  "routeId": "product:dry-pendent-fire-sprinklers",
+  "template": "product-series/dry-pendent.njk",
+  "styles": [
+    "css/common.css",
+    "css/sprinkler-product.css",
+    "css/sprinkler-product-gallery.css",
+    "css/site-navigation.css"
+  ],
+  "inlineStyle": ".wm-frame{position:relative;overflow:hidden}.wm-frame::before{content:\"CHUANWEI FIRE · chuanweifire.com\";position:absolute;right:16px;bottom:14px;z-index:4;color:rgba(28,44,61,.38);font:700 12px/1.2 Arial,sans-serif;letter-spacing:.04em;pointer-events:none}.wm-frame::after{content:\"CHUANWEI FIRE\";position:absolute;left:50%;top:48%;z-index:3;transform:translate(-50%,-50%) rotate(-24deg);color:rgba(28,44,61,.16);font:800 clamp(24px,4vw,54px)/1 Arial,sans-serif;letter-spacing:.12em;white-space:nowrap;pointer-events:none}",
+  "source": {
+    "path": "products/消防喷头/dry-pendent-fire-sprinklers.html",
+    "revision": "afff8a0",
+    "status": "preserved-existing-content-not-reaudited"
+  },
+  "media": {
+    "hero": "products/消防喷头/dry-pendent-sprinkler/dry-pendent-full-view.jpg",
+    "image1": "products/消防喷头/dry-pendent-sprinkler/dry-pendent-front.jpg",
+    "image2": "products/消防喷头/dry-pendent-sprinkler/dry-pendent-with-escutcheon.jpg",
+    "image3": "products/消防喷头/dry-pendent-sprinkler/dry-pendent-escutcheon-detail.jpg"
+  },
+  "copy": {
+    "productImages": {
+      "text": "Product images",
+      "numbers": []
+    },
+    "specifications": {
+      "text": "Specifications",
+      "numbers": []
+    },
+    "availableModels": {
+      "text": "Available models",
+      "numbers": []
+    },
+    "oEMODM": {
+      "text": "OEM / ODM",
+      "numbers": []
+    },
+    "pendentStandardOrQuickResponse": {
+      "text": "Pendent · Standard or Quick Response",
+      "numbers": []
+    },
+    "dryPendentFireSprinklers": {
+      "text": "Dry Pendent Fire Sprinklers",
+      "numbers": []
+    },
+    "aDN15InDryBarrelSprinklerSeriesAvailable": {
+      "text": "A DN{n0} / ½ in dry-barrel sprinkler series available with standard-response or quick-response glass bulbs. Standard overall lengths are {n1} mm and {n2} mm, with custom lengths reviewed from an {n3} mm minimum.",
+      "numbers": [
+        "15",
+        "100",
+        "145",
+        "80"
+      ]
+    },
+    "k56USK80Metric": {
+      "text": "K{n0} US / K{n1} Metric",
+      "numbers": [
+        "5.6",
+        "80"
+      ]
+    },
+    "customLength": {
+      "text": "Custom Length",
+      "numbers": []
+    },
+    "askOnWhatsApp": {
+      "text": "Ask on WhatsApp",
+      "numbers": []
+    },
+    "viewAvailableModels": {
+      "text": "View available models",
+      "numbers": []
+    },
+    "overallLengthIsMeasuredEndToEndAcross": {
+      "text": "Overall length is measured end-to-end across the complete sprinkler assembly. Final length, thread and escutcheon configuration are confirmed against the approved order.",
+      "numbers": []
+    },
+    "productPresentation": {
+      "text": "Product presentation",
+      "numbers": []
+    },
+    "dryBarrelConstructionAndTrim": {
+      "text": "Dry-barrel construction and trim.",
+      "numbers": []
+    },
+    "reviewTheCompleteSprinklerChromePlatedFrameVisible": {
+      "text": "Review the complete sprinkler, chrome-plated frame, visible red barrel exterior and escutcheon configurations. Image captions do not assign a response type or exact length unless confirmed by the model marking.",
+      "numbers": []
+    },
+    "fullProductView": {
+      "text": "Full Product View",
+      "numbers": []
+    },
+    "frameBulbDetail": {
+      "text": "Frame & Bulb Detail",
+      "numbers": []
+    },
+    "escutcheonOption": {
+      "text": "Escutcheon Option",
+      "numbers": []
+    },
+    "escutcheonDetail": {
+      "text": "Escutcheon Detail",
+      "numbers": []
+    },
+    "technicalOverview": {
+      "text": "Technical overview",
+      "numbers": []
+    },
+    "internationalBuyerSpecifications": {
+      "text": "International buyer specifications",
+      "numbers": []
+    },
+    "theSeriesIsPresentedByResponseTypeAnd": {
+      "text": "The series is presented by response type and overall length. Domestic model codes are retained only for factory production and repeat-order matching.",
+      "numbers": []
+    },
+    "confirmedProductSpecifications": {
+      "text": "Confirmed product specifications",
+      "numbers": []
+    },
+    "productType": {
+      "text": "Product type",
+      "numbers": []
+    },
+    "dryPendentFireSprinkler": {
+      "text": "Dry Pendent Fire Sprinkler",
+      "numbers": []
+    },
+    "installation": {
+      "text": "Installation",
+      "numbers": []
+    },
+    "pendentOnly": {
+      "text": "Pendent only",
+      "numbers": []
+    },
+    "nominalConnection": {
+      "text": "Nominal connection",
+      "numbers": []
+    },
+    "kFactor": {
+      "text": "K-factor",
+      "numbers": []
+    },
+    "k56USK80MetricText": {
+      "text": "K{n0} US / K{n1} metric",
+      "numbers": [
+        "5.6",
+        "80"
+      ]
+    },
+    "responseOptions": {
+      "text": "Response options",
+      "numbers": []
+    },
+    "standardResponse5MmBulbQuickResponse3": {
+      "text": "Standard response, {n0} mm bulb; quick response, {n1} mm bulb",
+      "numbers": [
+        "5",
+        "3"
+      ]
+    },
+    "temperatureRating": {
+      "text": "Temperature rating",
+      "numbers": []
+    },
+    "value68C155FRedGlassBulb": {
+      "text": "{n0}°C / {n1}°F, red glass bulb",
+      "numbers": [
+        "68",
+        "155"
+      ]
+    },
+    "standardOverallLengths": {
+      "text": "Standard overall lengths",
+      "numbers": []
+    },
+    "minimumOverallLength": {
+      "text": "Minimum overall length",
+      "numbers": []
+    },
+    "lengthDefinition": {
+      "text": "Length definition",
+      "numbers": []
+    },
+    "endToEndOverallLengthOfTheComplete": {
+      "text": "End-to-end overall length of the complete product",
+      "numbers": []
+    },
+    "frameMaterial": {
+      "text": "Frame material",
+      "numbers": []
+    },
+    "copper": {
+      "text": "Copper",
+      "numbers": []
+    },
+    "frameFinish": {
+      "text": "Frame finish",
+      "numbers": []
+    },
+    "chromePlated": {
+      "text": "Chrome-plated",
+      "numbers": []
+    },
+    "maxWorkingPressure": {
+      "text": "Max. working pressure",
+      "numbers": []
+    },
+    "value12MPa12BarApprox175Psi": {
+      "text": "{n0} MPa / {n1} bar / approx. {n2} psi",
+      "numbers": [
+        "1.2",
+        "12",
+        "175"
+      ]
+    },
+    "configurationStatus": {
+      "text": "Configuration status",
+      "numbers": []
+    },
+    "customOverallLength": {
+      "text": "Custom overall length",
+      "numbers": []
+    },
+    "availableFromAn80MmMinimumFinalDimensions": {
+      "text": "Available from an {n0} mm minimum; final dimensions are confirmed against the approved drawing or order.",
+      "numbers": [
+        "80"
+      ]
+    },
+    "escutcheon": {
+      "text": "Escutcheon",
+      "numbers": []
+    },
+    "configurationsWithAndWithoutAnEscutcheonAreShown": {
+      "text": "Configurations with and without an escutcheon are shown. Final trim dimensions are confirmed with the selected length.",
+      "numbers": []
+    },
+    "threadForm": {
+      "text": "Thread form",
+      "numbers": []
+    },
+    "availableOnRequestAndConfirmedAgainstTheCustomer": {
+      "text": "Available on request and confirmed against the customer drawing or approved sample.",
+      "numbers": []
+    },
+    "designNote": {
+      "text": "Design note",
+      "numbers": []
+    },
+    "systemTypeInstallationEnvironmentMinimumTemperatureAndProject": {
+      "text": "System type, installation environment, minimum temperature and project suitability must be confirmed against the exact technical documentation.",
+      "numbers": []
+    },
+    "availableConfigurations": {
+      "text": "Available configurations",
+      "numbers": []
+    },
+    "modelsYouCanOrder": {
+      "text": "Models you can order",
+      "numbers": []
+    },
+    "bothResponseTypesAreAvailableInTheTwo": {
+      "text": "Both response types are available in the two listed standard lengths. Other overall lengths are reviewed as custom configurations.",
+      "numbers": []
+    },
+    "productConfiguration": {
+      "text": "Product configuration",
+      "numbers": []
+    },
+    "overallLength": {
+      "text": "Overall length",
+      "numbers": []
+    },
+    "thermalElement": {
+      "text": "Thermal element",
+      "numbers": []
+    },
+    "factoryReference": {
+      "text": "Factory reference",
+      "numbers": []
+    },
+    "standardResponseDryPendent": {
+      "text": "Standard Response Dry Pendent",
+      "numbers": []
+    },
+    "value5MmBulb68C": {
+      "text": "{n0} mm bulb · {n1}°C",
+      "numbers": [
+        "5",
+        "68"
+      ]
+    },
+    "quickResponseDryPendent": {
+      "text": "Quick Response Dry Pendent",
+      "numbers": []
+    },
+    "value3MmBulb68C": {
+      "text": "{n0} mm bulb · {n1}°C",
+      "numbers": [
+        "3",
+        "68"
+      ]
+    },
+    "forQuotationSpecifyResponseTypeRequiredOverallLength": {
+      "text": "For quotation, specify response type, required overall length, thread form, escutcheon requirement, destination country, quantity and OEM marking.",
+      "numbers": []
+    },
+    "oEMODMSupport": {
+      "text": "OEM / ODM support",
+      "numbers": []
+    },
+    "lengthAndConnectionCustomization": {
+      "text": "Length and connection customization.",
+      "numbers": []
+    },
+    "dryBarrelLengthConnectionMarkingAndExportPackaging": {
+      "text": "Dry-barrel length, connection, marking and export packaging can be reviewed against the customer drawing, sample and project requirement.",
+      "numbers": []
+    },
+    "customLengthText": {
+      "text": "Custom length",
+      "numbers": []
+    },
+    "overallLengthDevelopedFromTheConfirmedProjectDimension": {
+      "text": "Overall length developed from the confirmed project dimension.",
+      "numbers": []
+    },
+    "threadCustomization": {
+      "text": "Thread customization",
+      "numbers": []
+    },
+    "connectionManufacturedToAConfirmedDrawingOrApproved": {
+      "text": "Connection manufactured to a confirmed drawing or approved sample.",
+      "numbers": []
+    },
+    "productMarking": {
+      "text": "Product marking",
+      "numbers": []
+    },
+    "customerBrandAndModelMarkingAccordingToAvailable": {
+      "text": "Customer brand and model marking according to available marking space.",
+      "numbers": []
+    },
+    "exportPackaging": {
+      "text": "Export packaging",
+      "numbers": []
+    },
+    "privateLabelCartonsLabelsAndShippingMarksAvailable": {
+      "text": "Private-label cartons, labels and shipping marks available for review.",
+      "numbers": []
+    },
+    "sendUsYourDrySprinklerRequirement": {
+      "text": "Send us your dry sprinkler requirement.",
+      "numbers": []
+    },
+    "includeDestinationCountryResponseTypeOverallLengthThread": {
+      "text": "Include destination country, response type, overall length, thread, escutcheon, quantity and OEM request.",
+      "numbers": []
+    },
+    "whatsAppInquiry": {
+      "text": "WhatsApp inquiry",
+      "numbers": []
+    },
+    "emailSales": {
+      "text": "Email sales",
+      "numbers": []
+    },
+    "onThisPage": {
+      "text": "On this page",
+      "numbers": []
+    },
+    "enlargeDryPendentSprinklerImage": {
+      "text": "Enlarge dry pendent sprinkler image",
+      "numbers": []
+    },
+    "dryPendentFireSprinklerWithRedBarrelAnd": {
+      "text": "Dry pendent fire sprinkler with red barrel and chrome-plated sprinkler frame",
+      "numbers": []
+    },
+    "dryPendentSprinklerGallery": {
+      "text": "Dry pendent sprinkler gallery",
+      "numbers": []
+    },
+    "previousProductImage": {
+      "text": "Previous product image",
+      "numbers": []
+    },
+    "dryPendentSprinklerFullProductView": {
+      "text": "Dry pendent sprinkler full product view",
+      "numbers": []
+    },
+    "nextProductImage": {
+      "text": "Next product image",
+      "numbers": []
+    },
+    "selectProductImage": {
+      "text": "Select product image",
+      "numbers": []
+    },
+    "fullDrySprinklerThumbnail": {
+      "text": "Full dry sprinkler thumbnail",
+      "numbers": []
+    },
+    "drySprinklerFrameDetailThumbnail": {
+      "text": "Dry sprinkler frame detail thumbnail",
+      "numbers": []
+    },
+    "drySprinklerWithEscutcheonThumbnail": {
+      "text": "Dry sprinkler with escutcheon thumbnail",
+      "numbers": []
+    },
+    "escutcheonDetailThumbnail": {
+      "text": "Escutcheon detail thumbnail",
+      "numbers": []
+    },
+    "productImagePreview": {
+      "text": "Product image preview",
+      "numbers": []
+    },
+    "closeImagePreview": {
+      "text": "Close image preview",
+      "numbers": []
+    },
+    "enlargedDrySprinklerImage": {
+      "text": "Enlarged dry sprinkler image",
+      "numbers": []
+    },
+    "whatsAppChat": {
+      "text": "WhatsApp Chat",
+      "numbers": []
+    },
+    "facebookPage": {
+      "text": "Facebook Page",
+      "numbers": []
+    },
+    "linkedInProfile": {
+      "text": "LinkedIn Profile",
+      "numbers": []
+    },
+    "dryPendentSprinklerFrameAndBulbDetail": {
+      "text": "Dry pendent sprinkler frame and bulb detail",
+      "numbers": []
+    },
+    "dryPendentSprinklerWithEscutcheon": {
+      "text": "Dry pendent sprinkler with escutcheon",
+      "numbers": []
+    },
+    "escutcheonConfiguration": {
+      "text": "Escutcheon Configuration",
+      "numbers": []
+    },
+    "dryPendentSprinklerEscutcheonDetail": {
+      "text": "Dry pendent sprinkler escutcheon detail",
+      "numbers": []
+    },
+    "seoTitle": {
+      "text": "Dry Pendent Fire Sprinklers | Custom Length | CHUANWEI FIRE",
+      "numbers": []
+    },
+    "seoDescription": {
+      "text": "DN{n0} dry pendent fire sprinklers in standard and quick response configurations, {n1}°C, K{n2}, {n3} mm and {n4} mm overall lengths with custom length support.",
+      "numbers": [
+        "15",
+        "68",
+        "5.6",
+        "100",
+        "145"
+      ]
+    }
+  },
+  "shared": {
+    "dN15In": "DN15 / ½ in",
+    "value68C155F": "68°C / 155°F",
+    "value100145Mm": "100 / 145 mm",
+    "value14": "1 / 4",
+    "value100Mm394In145Mm5": "100 mm / 3.94 in; 145 mm / 5.71 in",
+    "value80Mm315In": "80 mm / 3.15 in",
+    "value100Mm394In": "100 mm / 3.94 in",
+    "k56K80": "K5.6 / K80",
+    "tZSTGX8068CQ5": "T-ZSTGX80-68°C Q5",
+    "value145Mm571In": "145 mm / 5.71 in",
+    "kZSTGX8068CQ3": "K-ZSTGX80-68°C Q3"
+  },
+  "models": [
+    [
+      "standardResponseDryPendent",
+      "value100Mm394In",
+      "k56K80",
+      "value5MmBulb68C",
+      "tZSTGX8068CQ5"
+    ],
+    [
+      "standardResponseDryPendent",
+      "value145Mm571In",
+      "k56K80",
+      "value5MmBulb68C",
+      "tZSTGX8068CQ5"
+    ],
+    [
+      "quickResponseDryPendent",
+      "value100Mm394In",
+      "k56K80",
+      "value3MmBulb68C",
+      "kZSTGX8068CQ3"
+    ],
+    [
+      "quickResponseDryPendent",
+      "value145Mm571In",
+      "k56K80",
+      "value3MmBulb68C",
+      "kZSTGX8068CQ3"
+    ]
+  ],
+  "gallery": [
+    {
+      "media": "hero",
+      "alt": "dryPendentSprinklerFullProductView",
+      "caption": "fullProductView"
+    },
+    {
+      "media": "image1",
+      "alt": "dryPendentSprinklerFrameAndBulbDetail",
+      "caption": "frameBulbDetail"
+    },
+    {
+      "media": "image2",
+      "alt": "dryPendentSprinklerWithEscutcheon",
+      "caption": "escutcheonConfiguration"
+    },
+    {
+      "media": "image3",
+      "alt": "dryPendentSprinklerEscutcheonDetail",
+      "caption": "escutcheonDetail"
+    }
+  ]
+}

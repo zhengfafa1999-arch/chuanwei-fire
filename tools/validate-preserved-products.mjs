@@ -15,6 +15,10 @@ const media = (html, file) => [...html.matchAll(/\b(?:src|data-src|data-lightbox
 for (const entry of catalog) {
   const output = read(entry.route.outputPath);
   const content = main(output);
+  if (entry.product.inlineStyle) {
+    assert(output.includes(`<style>${entry.product.inlineStyle}</style>`), 'Original product inline style missing');
+    assert(read(`tools/fixtures/${entry.product.id}-en-baseline.txt`).includes(`<style>${entry.product.inlineStyle}</style>`), 'Product inline style differs from original');
+  }
   assert(content, `${entry.lang}: product content missing`);
   assert(!/\{\{|\{%|\{n\d+\}/.test(output), `${entry.lang}: unresolved template or numeric placeholder`);
   const baselineFile = `tools/fixtures/${entry.product.id === "diaphragm-deluge-valves" ? "diaphragm-deluge" : entry.product.id}-en-baseline.txt`;
