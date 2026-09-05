@@ -15,7 +15,7 @@
       </div>
     </section>
 
-    <section class="pdp-section" id="gallery">
+    {% if entry.product.showGallery %}<section class="pdp-section" id="gallery">
       <div class="pdp-container">
         <div class="pdp-heading"><div><p class="pdp-eyebrow">{{ entry.text.realProductViews }}</p><h2>{{ entry.text[entry.product.textKeys.galleryTitle] }}</h2></div><p>{{ entry.text[entry.product.textKeys.galleryIntro] }}</p></div>
         <div class="wav-gallery" data-gallery>
@@ -30,7 +30,7 @@
           </div>
         </div>
       </div>
-    </section>
+    </section>{% endif %}
 
     <section class="pdp-section pdp-section--soft" id="specifications">
       <div class="pdp-container">

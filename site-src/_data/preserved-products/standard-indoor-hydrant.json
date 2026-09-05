@@ -29,6 +29,7 @@
   ],
   "secondaryAction": {"anchor": "models", "label": "viewAvailableModels"},
   "showModels": true,
+  "showGallery": true,
   "textKeys": {
     "eyebrow": "indoorFireWaterOutlet",
     "title": "standardIndoorFireHydrant",

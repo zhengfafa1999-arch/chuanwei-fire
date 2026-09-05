@@ -35,6 +35,7 @@
     "label": "viewSpecifications"
   },
   "showModels": false,
+  "showGallery": true,
   "textKeys": {
     "eyebrow": "exportFireHydrantValve",
     "title": "exportSlantedSingleOutletHydrantValve",

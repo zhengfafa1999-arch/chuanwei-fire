@@ -49,7 +49,7 @@ for (const entry of catalog) {
     const body = html => html.match(/<body\b[^>]*>([\s\S]*?)<\/body>/i)?.[1].replace(/<script\b[^>]*>[\s\S]*?<\/script>/gi, "") || "";
     assert.deepEqual(structure(body(output)), structure(body(read(baselineFile))), "English page structure/footer/social order changed");
     assert.equal(visibleText(content), visibleText(baseline), "English visible product content changed during language-only migration");
-    if (entry.product.gallery) {
+    if (entry.product.gallery?.length) {
       const original = read(baselineFile);
       const originalGallery = original.match(/const galleryItems=(\[[\s\S]*?\]);/)?.[1];
       const items = originalGallery

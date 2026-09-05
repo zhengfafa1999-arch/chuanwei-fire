@@ -1,0 +1,51 @@
+{
+  "scope": "single-product",
+  "product": "double-outlet-hydrant",
+  "previewMode": "file",
+  "generatedAt": "2026-09-05T19:11:51.298Z",
+  "browser": "Edg/152.0.4191.62",
+  "viewports": [
+    {
+      "id": "desktop",
+      "width": 1440,
+      "height": 900,
+      "deviceScaleFactor": 1,
+      "mobile": false
+    },
+    {
+      "id": "mobile",
+      "width": 390,
+      "height": 844,
+      "deviceScaleFactor": 1,
+      "mobile": true
+    }
+  ],
+  "languageSwitches": [
+    {
+      "scenario": "desktop/en: double-outlet-hydrant image/text category entries, reciprocal switch, refresh, single hero image zoom, three modal closes and footer returns",
+      "status": "PASS"
+    },
+    {
+      "scenario": "desktop/ar: double-outlet-hydrant image/text category entries, reciprocal switch, refresh, single hero image zoom, three modal closes and footer returns",
+      "status": "PASS"
+    },
+    {
+      "scenario": "mobile/en: double-outlet-hydrant image/text category entries, reciprocal switch, refresh, single hero image zoom, three modal closes and footer returns",
+      "status": "PASS"
+    },
+    {
+      "scenario": "mobile/ar: double-outlet-hydrant image/text category entries, reciprocal switch, refresh, single hero image zoom, three modal closes and footer returns",
+      "status": "PASS"
+    }
+  ],
+  "screenshots": [
+    "edge-desktop-double-outlet-hydrant-en-hero.png",
+    "edge-desktop-double-outlet-hydrant-en-specifications.png",
+    "edge-desktop-double-outlet-hydrant-ar-hero.png",
+    "edge-desktop-double-outlet-hydrant-ar-specifications.png",
+    "edge-mobile-double-outlet-hydrant-en-hero.png",
+    "edge-mobile-double-outlet-hydrant-en-specifications.png",
+    "edge-mobile-double-outlet-hydrant-ar-hero.png",
+    "edge-mobile-double-outlet-hydrant-ar-specifications.png"
+  ]
+}

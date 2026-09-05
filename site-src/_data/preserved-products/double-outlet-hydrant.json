@@ -1,0 +1,149 @@
+{
+  "id": "double-outlet-hydrant",
+  "routeId": "product:double-outlet-hydrant",
+  "template": "product-series/indoor-hydrant.njk",
+  "source": {
+    "path": "products/室内消防栓/double-outlet-hydrant.html",
+    "revision": "f124e08",
+    "status": "preserved-existing-content-not-reaudited"
+  },
+  "media": {
+    "hero": "products/室内消防栓/double-outlet-hydrant/double-outlet-hydrant.jpg"
+  },
+  "hero": {
+    "width": 1200,
+    "height": 1183
+  },
+  "sectionLinks": [
+    ["specifications", "specifications"],
+    ["oem", "oEMODM"]
+  ],
+  "secondaryAction": {
+    "anchor": "specifications",
+    "label": "viewSpecifications"
+  },
+  "showModels": false,
+  "showGallery": false,
+  "textKeys": {
+    "eyebrow": "indoorFireWaterOutlet",
+    "title": "doubleOutletIndoorFireHydrant",
+    "lead": "doubleOutletHydrantLead",
+    "note": "outletCouplingsAndInletConfirmed",
+    "imageAria": "enlargeDoubleOutletHydrantImage",
+    "imageAlt": "doubleValveDoubleOutletHydrant",
+    "sideTitle": "applicationAndConnection",
+    "manufacturingNote": "manufacturingOptionsConfirmedAgainstBuyerSchedule",
+    "ctaTitle": "sendYourHydrantSchedule",
+    "ctaText": "includeQuantityDestinationCountry",
+    "modalAlt": "enlargedDoubleOutletHydrant"
+  },
+  "chips": [
+    "dN65TwoHalfIn",
+    "twoKN65Outlets",
+    "pN16MPa",
+    "castIronBody"
+  ],
+  "gallery": [],
+  "specifications": [
+    ["productType", "doubleValveDoubleOutletIndoorHydrant"],
+    ["nominalSize", "dN65TwoHalfIn"],
+    ["inlet", "dN65BottomFlange"],
+    ["outlet", "twoDN65KN65QuickCouplings"],
+    ["workingPressure", "pressure16"],
+    ["strengthTestPressure", "strength24"],
+    ["bodyCover", "hT200CastIron"],
+    ["stem", "leadBrass"],
+    ["seatStemNut", "zCuZn38CopperAlloy"],
+    ["dimensions", "dimensionsValue"],
+    ["weight", "weightValue"],
+    ["application", "indoorCabinetWithHoseNozzle"]
+  ],
+  "disclaimers": [
+    ["application", "indoorCabinetNotOutdoorNetworks"],
+    ["outletCoupling", "twoCouplingsConfirmedStandard"],
+    ["installationData", "suppliedWithHoseNozzleApprovedDesign"]
+  ],
+  "modelHeaders": [],
+  "models": [],
+  "oemCards": [
+    ["outletCoupling", "couplingsProducedToConfirmedStandard"],
+    ["brandPresentation", "customProductMarkingNameplateColor"],
+    ["connectionReview", "inletFlangeOutletCouplingReviewed"],
+    ["exportPacking", "cartonOrWoodenCasePacking"]
+  ],
+  "inquiry": {
+    "whatsapp": "https://wa.me/8617326528368?text=Hello%2C%20I%20need%20a%20quotation%20for%20a%20Double-Outlet%20Indoor%20Fire%20Hydrant.%20Quantity%3A%20%5Bpcs%5D%2C%20destination%3A%20%5Bcountry%5D.",
+    "email": "mailto:zhengcolin1@gmail.com?subject=Double-Outlet%20Indoor%20Fire%20Hydrant%20Inquiry"
+  },
+  "copy": {
+    "specifications": {"text": "Specifications", "numbers": []},
+    "oEMODM": {"text": "OEM / ODM", "numbers": []},
+    "onThisPage": {"text": "On this page", "numbers": []},
+    "indoorFireWaterOutlet": {"text": "Indoor Fire-Water Outlet", "numbers": []},
+    "doubleOutletIndoorFireHydrant": {"text": "Double-Outlet Indoor Fire Hydrant", "numbers": []},
+    "doubleOutletHydrantLead": {"text": "A double-valve, double-outlet indoor fire hydrant that supports two fire hose lines from a single hydrant cabinet, for high-occupancy and large-floorplate buildings.", "numbers": []},
+    "askOnWhatsApp": {"text": "Ask on WhatsApp", "numbers": []},
+    "viewSpecifications": {"text": "View specifications", "numbers": []},
+    "outletCouplingsAndInletConfirmed": {"text": "Outlet couplings and inlet connection are confirmed against the required standard or drawing for the destination market.", "numbers": []},
+    "enlargeDoubleOutletHydrantImage": {"text": "Enlarge double-outlet indoor fire hydrant image", "numbers": []},
+    "doubleValveDoubleOutletHydrant": {"text": "Double-valve double-outlet indoor fire hydrant with two KN{n0} outlets", "numbers": ["65"]},
+    "castIronBody": {"text": "Cast iron body", "numbers": []},
+    "seriesSpecifications": {"text": "Series specifications", "numbers": []},
+    "productType": {"text": "Product type", "numbers": []},
+    "doubleValveDoubleOutletIndoorHydrant": {"text": "Double-Valve Double-Outlet Indoor Fire Hydrant", "numbers": []},
+    "nominalSize": {"text": "Nominal size", "numbers": []},
+    "inlet": {"text": "Inlet", "numbers": []},
+    "outlet": {"text": "Outlet", "numbers": []},
+    "workingPressure": {"text": "Working pressure", "numbers": []},
+    "strengthTestPressure": {"text": "Strength test pressure", "numbers": []},
+    "bodyCover": {"text": "Body & cover", "numbers": []},
+    "stem": {"text": "Stem", "numbers": []},
+    "seatStemNut": {"text": "Seat & stem nut", "numbers": []},
+    "dimensions": {"text": "Dimensions", "numbers": []},
+    "weight": {"text": "Weight", "numbers": []},
+    "application": {"text": "Application", "numbers": []},
+    "applicationAndConnection": {"text": "Application & connection", "numbers": []},
+    "indoorCabinetNotOutdoorNetworks": {"text": "For indoor hydrant cabinet use with fire hose and nozzle. Not for outdoor networks or pump rooms.", "numbers": []},
+    "outletCoupling": {"text": "Outlet coupling", "numbers": []},
+    "twoCouplingsConfirmedStandard": {"text": "The two outlet couplings are produced to the confirmed standard (KN{n0}, BS{n1}, NH or other) for the destination market.", "numbers": ["65", "336"]},
+    "installationData": {"text": "Installation data", "numbers": []},
+    "suppliedWithHoseNozzleApprovedDesign": {"text": "Supplied with the hydrant hose and nozzle; install in the indoor hydrant cabinet per the approved design.", "numbers": []},
+    "oEMODMCapability": {"text": "OEM / ODM capability", "numbers": []},
+    "configuredToTheApprovedDrawingOrSample": {"text": "Configured to the approved drawing or sample", "numbers": []},
+    "manufacturingOptionsConfirmedAgainstBuyerSchedule": {"text": "Manufacturing options are confirmed against the buyer's technical schedule. Connection-standard names describe available machining patterns and do not imply third-party product approval.", "numbers": []},
+    "couplingsProducedToConfirmedStandard": {"text": "Couplings produced to the confirmed standard, sample or drawing for the destination market.", "numbers": []},
+    "brandPresentation": {"text": "Brand presentation", "numbers": []},
+    "customProductMarkingNameplateColor": {"text": "Custom product marking, nameplate and coating color.", "numbers": []},
+    "connectionReview": {"text": "Connection review", "numbers": []},
+    "inletFlangeOutletCouplingReviewed": {"text": "Inlet flange and outlet coupling details reviewed before manufacturing.", "numbers": []},
+    "exportPacking": {"text": "Export packing", "numbers": []},
+    "cartonOrWoodenCasePacking": {"text": "Carton or wooden-case packing prepared according to the order.", "numbers": []},
+    "sendYourHydrantSchedule": {"text": "Send your hydrant schedule", "numbers": []},
+    "includeQuantityDestinationCountry": {"text": "Include quantity and destination country.", "numbers": []},
+    "whatsAppInquiry": {"text": "WhatsApp inquiry", "numbers": []},
+    "emailSales": {"text": "Email sales", "numbers": []},
+    "productImagePreview": {"text": "Product image preview", "numbers": []},
+    "closeImagePreview": {"text": "Close image preview", "numbers": []},
+    "enlargedDoubleOutletHydrant": {"text": "Enlarged double-outlet indoor fire hydrant", "numbers": []},
+    "whatsAppChat": {"text": "WhatsApp Chat", "numbers": []},
+    "facebookPage": {"text": "Facebook Page", "numbers": []},
+    "linkedInProfile": {"text": "LinkedIn Profile", "numbers": []},
+    "seoTitle": {"text": "Double-Outlet Indoor Fire Hydrant | DN{n0}, {n1}-{n2}K-{n3} | CHUANWEI FIRE", "numbers": ["65", "65", "16", "65"]},
+    "seoDescription": {"text": "Double-valve double-outlet indoor fire hydrant, DN{n0}, {n1} x KN{n2} outlets, {n3} MPa, cast iron body with copper-alloy seat. OEM/ODM support.", "numbers": ["65", "2", "65", "1.6"]}
+  },
+  "shared": {
+    "dN65TwoHalfIn": "DN65 / 2½ in",
+    "twoKN65Outlets": "2 × KN65 outlets",
+    "pN16MPa": "PN1.6 MPa",
+    "dN65BottomFlange": "DN65 bottom flange",
+    "twoDN65KN65QuickCouplings": "2 × DN65, KN65 quick couplings",
+    "pressure16": "1.6 MPa / 16 bar",
+    "strength24": "2.4 MPa",
+    "hT200CastIron": "HT200 cast iron",
+    "leadBrass": "Lead brass",
+    "zCuZn38CopperAlloy": "ZCuZn38 copper alloy",
+    "dimensionsValue": "Height ≈ 300 mm; length ≈ 400 mm; width ≈ 250 mm",
+    "weightValue": "Approx. 5–7 kg",
+    "indoorCabinetWithHoseNozzle": "Indoor hydrant cabinet, supplied with fire hose and nozzle"
+  }
+}
