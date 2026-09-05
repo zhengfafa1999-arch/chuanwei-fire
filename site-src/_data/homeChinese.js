@@ -1,6 +1,5 @@
 // Chinese homepage copy keyed by the English source text used in the shared template.
 export default {
-  "Illustrative view — request current factory photographs.": "示意图，可联系索取当前工厂实拍照片。",
   "Fire protection equipment": "消防设备制造与供应",
   "Products": "产品",
   "About": "关于我们",
@@ -41,7 +40,7 @@ export default {
   "Fire Gate Valves": "消防闸阀",
   "Supervisory, NRS and OS&Y configurations in grooved or flanged styles.": "信号、暗杆及明杆结构，提供沟槽式或法兰式。",
   "Fire Hose Reels": "消防软管卷盘",
-  "RIA 25 and JPS direct-stream and jet/spray reel configurations.": "RIA25及JPS直流/喷雾卷盘配置。",
+  "RIA 25 European-standard (EN 671-1) and JPS direct-stream and jet/spray reel configurations.": "欧标RIA25及JPS直流/喷雾卷盘配置。",
   "Hoses, Nozzles & Couplings": "消防水带、水枪与接口",
   "Components or matched hose-line assemblies for quotation.": "可按单品或完整水带线路总成询价。",
   "Indoor Fire Hydrants": "室内消火栓",

@@ -1,7 +1,8 @@
 {
   "task": "MIG-905",
   "date": "2026-09-05",
-  "status": "in-progress",
+  "status": "paused-by-user",
+  "supersededNote": "Historical record only. Content changes restored to 95b955e at user request. Continue language switching only; do not audit or change product facts.",
   "publishedPageCount": 64,
   "completed": [
     "Corrected standard water mist category image in EN and AR",

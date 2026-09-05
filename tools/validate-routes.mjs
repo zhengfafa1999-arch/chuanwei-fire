@@ -62,10 +62,10 @@ assert(englishHome.languageLinks.ar === "ar/index.html", "English homepage Arabi
 assert(englishHome.languageLinks.zh === "zh/index.html", "English homepage Chinese link is incorrect.");
 assert(englishHome.languageCanonicals["zh-CN"] === "https://chuanweifire.com/zh/", "Chinese homepage canonical is incorrect.");
 assert(englishHome.languageCanonicals["x-default"] === englishHome.languageCanonicals.en, "Homepage x-default must match English.");
-assert(arabicHome.languageLinks.en === "index.html", "Arabic homepage English link is incorrect for root-based local preview.");
-assert(arabicHome.familyHrefs["system-valves"] === "ar/products/system-valves/index.html", "Arabic alarm-valve family link is incorrect.");
-assert(chineseHome.languageLinks.en === "index.html", "Chinese homepage English link is incorrect for root-based local preview.");
-assert(chineseHome.familyHrefs["system-valves"] === "products/消防阀.html", "Chinese homepage must use the English technical catalog until Chinese category pages exist.");
+assert(arabicHome.languageLinks.en === "../index.html", "Arabic homepage English link must be relative to its own file.");
+assert(arabicHome.familyHrefs["system-valves"] === "products/system-valves/index.html", "Arabic alarm-valve family link is incorrect.");
+assert(chineseHome.languageLinks.en === "../index.html", "Chinese homepage English link must be relative to its own file.");
+assert(chineseHome.familyHrefs["system-valves"] === "../products/消防阀.html", "Chinese homepage must use the English technical catalog until Chinese category pages exist.");
 
 for (const routeId of ["product:wet-alarm-check-valve", "product:water-curtain-nozzles", "product:water-mist-nozzles"]) {
   for (const locale of SUPPORTED_LOCALES) {

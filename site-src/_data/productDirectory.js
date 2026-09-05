@@ -68,7 +68,7 @@ export const PRODUCT_FAMILIES = [
       ["product:concealed-pendent-fire-sprinkler", "Concealed Pendent Sprinklers", "رشاشات معلقة مخفية", "products/消防喷头/categories/concealed-pendent.jpg"],
       ["product:large-k-factor-esfr-sprinklers", "Large K-Factor & ESFR Sprinklers", "رشاشات بمعامل K كبير وESFR", "products/消防喷头/categories/large-k-esfr-sprinkler.jpg"],
       ["product:dry-pendent-fire-sprinklers", "Dry Pendent Fire Sprinklers", "رشاشات حريق جافة معلقة", "products/消防喷头/categories/dry-sprinkler.jpg"],
-      ["product:water-mist-nozzles", "Water Mist Nozzles", "فوهات ضباب الماء", "products/消防喷头/water-mist-nozzles/water-mist-nozzle-with-inlet-strainer.jpg"],
+      ["product:water-mist-nozzles", "Water Mist Nozzles", "فوهات ضباب الماء", "products/消防喷头/water-mist-nozzles/standard-water-mist-nozzle-view-1.jpg"],
       ["product:water-curtain-nozzles", "Water Curtain Nozzles", "فوهات الستارة المائية", "products/消防喷头/water-curtain-nozzles/horizontal-single-slot-water-curtain-nozzle.jpg"]
     ]
   },

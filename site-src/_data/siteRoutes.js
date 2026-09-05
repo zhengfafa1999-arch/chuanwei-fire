@@ -115,7 +115,7 @@ export function createHomeRoute(locale) {
   const current = SITE_ROUTES.home.locales[locale];
   if (!current || current.status !== "published") throw new Error(`Homepage locale '${locale}' is not published.`);
   const outputPath = current.outputPath;
-  const rootBased = true;
+  const rootBased = false;
   const destinationLocale = locale === "zh" ? "en" : locale;
   const familyIds = ["sprinklers", "system-valves", "butterfly-valves", "gate-valves", "hose-reels", "hoses-nozzles-couplings", "indoor-hydrants", "outdoor-hydrants", "fire-department-connections"];
   return {

@@ -136,8 +136,8 @@ assert(!chineseHomePage.includes('data-zh='), "Chinese homepage copy must come f
 const arabicHomePage = fs.readFileSync(path.join(root, "ar/index.html"), "utf8");
 assert(arabicHomePage.includes("GENERATED FILE"), "Arabic homepage must be generated from the shared homepage template.");
 assert(arabicHomePage.includes('data-site-language="ar" data-site-route-id="home"'), "Arabic homepage is missing its shared navigation markers.");
-assert(arabicHomePage.includes('<base href="../">'), "Arabic homepage must resolve shared root assets in local preview.");
-assert(arabicHomePage.includes('href="ar/products/system-valves/index.html"'), "Arabic homepage must route alarm-valve visitors to the Arabic category page.");
+assert(!/<base\b/i.test(arabicHomePage), "Arabic homepage must not rebase navigation or fragment links.");
+assert(arabicHomePage.includes('href="products/system-valves/index.html"'), "Arabic homepage must route alarm-valve visitors to the Arabic category page.");
 assert(arabicHomePage.includes("تصنيع معدات مكافحة الحريق"), "Arabic homepage is missing its localized content data.");
 assert(arabicHomePage.includes('hreflang="zh-CN" href="https://chuanweifire.com/zh/"'), "Arabic homepage is missing its Chinese hreflang.");
 

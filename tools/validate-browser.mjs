@@ -2,6 +2,7 @@ import fs from "node:fs";
 import http from "node:http";
 import os from "node:os";
 import path from "node:path";
+import { pathToFileURL } from "node:url";
 import { spawn } from "node:child_process";
 import { SITE_ROUTES } from "../site-src/_data/siteRoutes.js";
 
@@ -121,7 +122,10 @@ function normalizedPathname(value) {
 }
 
 function pathnameMatches(actual, expected) {
-  return normalizedPathname(actual) === normalizedPathname(expected);
+  const actualPath = normalizedPathname(actual);
+  const expectedPath = normalizedPathname(expected);
+  const localRoot = normalizedPathname(pathToFileURL(root).pathname);
+  return actualPath === expectedPath || actualPath === `${localRoot}${expectedPath}`;
 }
 
 async function navigate(client, url, expectedPath) {
@@ -179,6 +183,7 @@ async function inspectPage(client) {
       activeLanguageCount: document.querySelectorAll('[data-site-language-choice][aria-current="true"]').length,
       headerWithinViewport: Boolean(headerBounds && headerBounds.left >= -1 && headerBounds.right <= viewportWidth + 1),
       brokenImageCount: [...document.images].filter((image) => image.complete && image.naturalWidth === 0).length,
+      brokenImages: [...document.images].filter((image) => image.complete && image.naturalWidth === 0).map(image => image.src),
       overflowingControls: [...document.querySelectorAll('input,select,textarea,button')].filter((element) => {
         if (!isVisible(element) || element.closest('[role="dialog"]:not(.open)') || isInsideHorizontalScroller(element)) return false;
         const bounds = element.getBoundingClientRect();
@@ -270,7 +275,9 @@ async function run() {
     await client.send("Page.enable");
     await client.send("Runtime.enable");
     const version = await (await fetch(`http://127.0.0.1:${debugPort}/json/version`)).json();
-    const origin = `http://127.0.0.1:${sitePort}`;
+    const origin = process.argv.includes("--file-preview")
+      ? pathToFileURL(root).href
+      : `http://127.0.0.1:${sitePort}`;
     const matrix = [];
 
     for (const viewport of viewports) {
@@ -284,7 +291,7 @@ async function run() {
         await navigate(client, `${origin}/index.html?lang=en`, "/index.html");
         const preference = page.preference || page.lang;
         await evaluate(client, `localStorage.setItem('chuanwei-site-language', ${JSON.stringify(preference)}); localStorage.setItem('lang', ${JSON.stringify(preference)})`);
-        await navigate(client, `${origin}${encodeURI(page.path)}`, new URL(page.path, origin).pathname);
+        await navigate(client, `${origin}${encodeURI(page.path)}`, new URL(page.path, "http://localhost").pathname);
         const result = await inspectPage(client);
         assert(result.lang === page.lang, `${viewport.id}/${page.id} rendered lang=${result.lang}, expected ${page.lang}.`);
         assert(result.dir === page.dir, `${viewport.id}/${page.id} rendered dir=${result.dir}, expected ${page.dir}.`);
@@ -321,7 +328,7 @@ async function run() {
         assert(state.viewportMeta.includes("width=device-width"), `${viewport.id}/${page.path} is missing a responsive viewport declaration.`);
         assert(state.horizontalOverflow <= 1, `${viewport.id}/${page.path} has ${state.horizontalOverflow}px document overflow.`);
         assert(state.headerWithinViewport, `${viewport.id}/${page.path} header exceeds the viewport.`);
-        assert(state.brokenImageCount === 0, `${viewport.id}/${page.path} has ${state.brokenImageCount} broken images.`);
+        assert(state.brokenImageCount === 0, `${viewport.id}/${page.path} has broken images: ${state.brokenImages.join(', ')}.`);
         assert(state.overflowingControls.length === 0, `${viewport.id}/${page.path} has controls outside the viewport: ${JSON.stringify(state.overflowingControls)}.`);
         if (viewport.width <= 480 && state.socialFloatPosition !== null) {
           assert(state.socialFloatPosition === "static", `${viewport.id}/${page.path} keeps floating social controls over compact content.`);
@@ -428,7 +435,25 @@ async function run() {
     const arabicProductNavigation = await inspectPage(client);
     assert(arabicProductNavigation.lang === "ar", "Arabic product navigation did not preserve the selected language.");
     languageSwitches.push({ scenario: "AR product global navigation preserves Arabic", status: "PASS", finalUrl: arabicProductNavigation.url, lang: arabicProductNavigation.lang, dir: arabicProductNavigation.dir });
+    for (const home of ["/index.html", "/zh/index.html", "/ar/index.html"]) {
+      await navigate(client, `${origin}${home}`, home);
+      const resources = await evaluate(client, `({
+        styled: [...document.styleSheets].some(sheet => sheet.href?.includes('site-navigation.css')),
+        logoLoaded: document.querySelector('.global-brand img').naturalWidth > 0,
+        anchorsLocal: [...document.querySelectorAll('a[href^="#"]')].every(link => new URL(link.href).pathname === location.pathname)
+      })`);
+      assert(resources.styled && resources.logoLoaded && resources.anchorsLocal, `${home}: homepage resources and section links must resolve from the current page.`);
+      await evaluate(client, `document.querySelector('.actions a[href="#products"]').click()`);
+      await delay(100);
+      const anchorState = await evaluate(client, "({path: location.pathname, hash: location.hash})");
+      assert(pathnameMatches(anchorState.path, home) && anchorState.hash === "#products", `${home}: product section link changed the homepage language.`);
+      languageSwitches.push({ scenario: `${home}: shared styles/logo load and product section retains locale`, status: "PASS" });
+    }
+    await evaluate(client, "document.querySelector('.product').click()");
+    await waitForLocation(client, "/ar/products/sprinklers/index.html");
+    languageSwitches.push({ scenario: "AR homepage product card opens AR category", status: "PASS" });
     const evidence = {
+      previewMode: process.argv.includes("--file-preview") ? "file" : "http",
       generatedAt: new Date().toISOString(),
       browser: version.Browser,
       protocolVersion: version["Protocol-Version"],
@@ -442,50 +467,6 @@ async function run() {
         ...responsiveScreenshots
       ]
     };
-    if (process.argv.includes("--content-review")) {
-      evidence.contentInteractions = [];
-      const targets = [
-        { id: "manufacturing-en", path: "/index.html", selector: "#manufacturing" },
-        { id: "manufacturing-ar", path: "/ar/index.html", selector: "#manufacturing .cap:nth-child(2)" },
-        { id: "ec-gallery", path: "/products/消防喷头/extended-coverage-quick-response-fire-sprinkler.html", selector: "#gallery" },
-        { id: "mist-category", path: "/ar/products/sprinklers/index.html", selector: ".product-card:nth-child(7)" }
-      ];
-      for (const viewport of viewports) {
-        await client.send("Emulation.setDeviceMetricsOverride", viewport);
-        for (const target of targets) {
-          await navigate(client, `${origin}${encodeURI(target.path)}`, target.path);
-          await evaluate(client, `(async () => {
-            const target = document.querySelector(${JSON.stringify(target.selector)});
-            if (!target) throw new Error('Content review target not found');
-            const images = [...target.querySelectorAll('img')];
-            images.forEach(image => { image.loading = 'eager'; });
-            await Promise.race([
-              Promise.all(images.map(image => image.decode())),
-              new Promise((_, reject) => setTimeout(() => reject(new Error('Content images did not load')), 5000))
-            ]);
-            const header = document.querySelector('[data-global-header]');
-            window.scrollTo({top: target.getBoundingClientRect().top + scrollY - (header?.getBoundingClientRect().height || 0) - 16, behavior:'instant'});
-            await new Promise(resolve => requestAnimationFrame(() => requestAnimationFrame(resolve)));
-          })()`);
-          const screenshot = await client.send("Page.captureScreenshot", { format: "png", captureBeyondViewport: false });
-          const filename = `content-${viewport.id}-${target.id}.png`;
-          fs.writeFileSync(path.join(evidenceDirectory, filename), Buffer.from(screenshot.data, "base64"));
-          evidence.screenshots.push(filename);
-          if (target.id === "ec-gallery") {
-            const interaction = await evaluate(client, `(() => {
-              const trigger = document.querySelector('#gallery [data-lightbox]');
-              const modal = document.getElementById('productModal');
-              trigger.click();
-              const opened = modal.classList.contains('open') && modal.querySelector('img').getAttribute('src') === trigger.dataset.lightbox;
-              document.dispatchEvent(new KeyboardEvent('keydown', {key:'Escape'}));
-              return {opened, closed: !modal.classList.contains('open') && document.body.style.overflow !== 'hidden'};
-            })()`);
-            assert(interaction.opened && interaction.closed, `${viewport.id}: corrected EC gallery preview must open and close.`);
-            evidence.contentInteractions.push({ viewport: viewport.id, scenario: "EC upright image preview and Escape close", status: "PASS" });
-          }
-        }
-      }
-    }
     fs.writeFileSync(path.join(evidenceDirectory, "browser-validation.json"), `${JSON.stringify(evidence, null, 2)}\n`);
     const markdown = [
       "# 多语言浏览器验证证据",
