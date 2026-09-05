@@ -86,6 +86,31 @@ for (const family of PRODUCT_FAMILIES) {
 }
 
 const sitemap = readOutput("sitemap.xml");
+// MIG-105: this category is fully translated; do not silently reintroduce an
+// English fallback or let a correct image link conceal an incorrect text link.
+const alarmRouteIds = [
+  "product:wet-alarm-check-valve", "product:diaphragm-deluge-valves",
+  "product:preaction-valve-assemblies", "product:dry-pipe-alarm-valves"
+];
+const alarmFamily = PRODUCT_FAMILIES.find(family => family.routeId === "category:system-valves");
+assert(JSON.stringify(alarmFamily.products.map(product => product.routeId)) === JSON.stringify(alarmRouteIds),
+  "Alarm category must retain its four existing product families.");
+for (const locale of SUPPORTED_LOCALES) {
+  const { html, route } = validateListingShell(alarmFamily.routeId, locale);
+  const cards = [...html.matchAll(/<article class="product-card">([\s\S]*?)<\/article>/g)].map(match => match[1]);
+  assert(cards.length === alarmRouteIds.length, "Alarm category card count changed.");
+  alarmRouteIds.forEach((routeId, index) => {
+    assert(SITE_ROUTES[routeId].locales[locale].status === "published", `${routeId}/${locale} must not fall back.`);
+    assert(SITE_ROUTES[routeId].category === alarmFamily.routeId, `${routeId} has the wrong parent category.`);
+    const href = resolveSiteRoute(routeId, locale, route.outputPath).href;
+    const links = [...cards[index].matchAll(/<a\b[^>]*href="([^"]+)"/g)].map(match => match[1]);
+    assert(links.length === 2 && links.every(link => link === href), `${routeId}/${locale}: image and text links must match the localized product.`);
+    assert(cards[index].includes("product-card__badge--localized") && !cards[index].includes("product-card__badge--english"),
+      `${routeId}/${locale} has a stale fallback badge.`);
+  });
+}
+console.log("Alarm-category validation passed: four families, eight localized cards and sixteen matching image/text entries.");
+
 assert(sitemap.includes("GENERATED FILE"), "Sitemap is not generated from the shared route registry.");
 for (const [routeId, route] of Object.entries(SITE_ROUTES)) {
   for (const locale of SUPPORTED_LOCALES) {

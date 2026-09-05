@@ -5,6 +5,7 @@ import path from "node:path";
 import { pathToFileURL } from "node:url";
 import { spawn } from "node:child_process";
 import { SITE_ROUTES } from "../site-src/_data/siteRoutes.js";
+import { validateSystemValveNavigation } from "./browser-system-valves.mjs";
 
 const root = process.cwd();
 const evidenceDirectory = process.env.SITE_BROWSER_EVIDENCE_DIR
@@ -311,7 +312,7 @@ async function run() {
           assert(result.hreflangs.ar === "https://chuanweifire.com/ar/", `${page.id} has incorrect Arabic hreflang.`);
           assert(result.hreflangs["x-default"] === result.hreflangs.en, `${page.id} has inconsistent x-default.`);
         }
-        if (page.id.startsWith("home-") || page.id.startsWith("deluge-") || page.id.startsWith("preaction-") || page.id.startsWith("dry-pipe-") || ["about-en", "about-ar", "downloads-en", "downloads-ar", "contact-en", "contact-ar"].includes(page.id)) {
+        if (page.id.startsWith("home-") || page.id.startsWith("category-") || page.id.startsWith("deluge-") || page.id.startsWith("preaction-") || page.id.startsWith("dry-pipe-") || ["about-en", "about-ar", "downloads-en", "downloads-ar", "contact-en", "contact-ar"].includes(page.id)) {
           const screenshot = await client.send("Page.captureScreenshot", { format: "png", captureBeyondViewport: false });
           fs.writeFileSync(path.join(evidenceDirectory, `edge-${viewport.id}-${page.id}.png`), Buffer.from(screenshot.data, "base64"));
         }
@@ -557,6 +558,9 @@ async function run() {
         languageSwitches.push({scenario:`${viewport.id}: ${product.id} AR category, same-product EN/AR switch, refresh, model anchor and AR category return`,status:"PASS"});
       }
     }
+    languageSwitches.push(...await validateSystemValveNavigation({
+      client, origin, viewports, evaluate, navigate, waitForLocation, inspectPage, assert
+    }));
     const evidence = {
       previewMode: process.argv.includes("--file-preview") ? "file" : "http",
       generatedAt: new Date().toISOString(),
@@ -569,7 +573,7 @@ async function run() {
       languageSwitches,
       productInteractions,
       screenshots: [
-        ...viewports.flatMap((viewport) => ["home-en", "home-zh", "home-ar", "about-en", "about-ar", "downloads-en", "downloads-ar", "contact-en", "contact-ar", "deluge-en", "deluge-ar", "preaction-en", "preaction-ar", "dry-pipe-en", "dry-pipe-ar"].map((page) => `edge-${viewport.id}-${page}.png`)),
+        ...viewports.flatMap((viewport) => ["home-en", "home-zh", "home-ar", "category-en", "category-ar", "about-en", "about-ar", "downloads-en", "downloads-ar", "contact-en", "contact-ar", "deluge-en", "deluge-ar", "preaction-en", "preaction-ar", "dry-pipe-en", "dry-pipe-ar"].map((page) => `edge-${viewport.id}-${page}.png`)),
         ...responsiveScreenshots,
         ...singlePhotoScreenshots
       ]
@@ -591,7 +595,7 @@ async function run() {
       "",
       "## 覆盖范围",
       "",
-      `英文/中文/阿文首页、产品总目录、公共页面、分类页和双语详情；逐一打开全部 ${navigationPages.length} 个正式页面，在 1440、768、390 和 320 像素四档宽度检查 LTR/RTL、页面溢出、页头边界、图片加载、控件和菜单；验证语言切换与返回，检查雨淋阀图库，以及预作用阀组、干式报警阀单图放大、三种关闭方式和型号锚点。`,
+      `英文/中文/阿文首页、产品总目录、公共页面、分类页和双语详情；逐一打开全部 ${navigationPages.length} 个正式页面，在 1440、768、390 和 320 像素四档宽度检查 LTR/RTL、页面溢出、页头边界、图片加载、控件和菜单；验证语言切换与返回，检查雨淋阀图库，以及预作用阀组、干式报警阀单图放大、三种关闭方式和型号锚点；逐一验证报警阀分类四类产品的图片/文字入口、双向语言切换、刷新、浏览器返回及三个页脚返回入口。`,
       "",
       "## 可复核产物",
       "",
