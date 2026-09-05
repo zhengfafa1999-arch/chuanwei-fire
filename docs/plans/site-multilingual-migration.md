@@ -8,11 +8,11 @@
 
 ## 当前基线
 
-- 正式站点 HTML：77 个
-- 已由共享模板生成：61 个
-- 待迁移手写页面：16 个，均为英文产品详情页。
+- 正式站点 HTML：78 个
+- 已由共享模板生成：63 个
+- 待迁移手写页面：15 个，均为英文产品详情页。
 - 已完成：首页、产品总目录、关于我们、下载中心、联系页面、九个产品分类页、湿式报警阀、隔膜式雨淋阀、预作用阀组、干式报警阀、水幕喷头、水雾喷头、标准响应消防喷头及其英文/阿拉伯文输出。
-- 当前路由注册表：46 个逻辑路由，注册并覆盖全部 77 个正式 HTML；中文首页使用独立 `/zh/` 地址，旧 `/?lang=zh` 自动跳转兼容。
+- 当前路由注册表：46 个逻辑路由，注册并覆盖全部 78 个正式 HTML；中文首页使用独立 `/zh/` 地址，旧 `/?lang=zh` 自动跳转兼容。
 - MIG-204 已完成玻璃球快速响应喷头迁移；文件与 HTTP 单款检查均通过，保留 6 行型号和 5 张原图。报告：`docs/execution/2026-09-05_quick-response-language-migration.md`。
 - MIG-203 阶段验收：文件与 HTTP 预览分别运行 54 个代表页面/视口组合、272 个全站响应式与 LTR/RTL 检查、54 个语言切换与返回场景；新增标准响应喷头双语入口、四张图库动态说明、放大、滑动、型号锚点及三个页脚入口检查。原有报警阀回归保留。结果见 `docs/evidence/mig-203/`。
 
@@ -78,7 +78,7 @@
 
 ## 第五阶段：消防蝶阀
 
-- [ ] **MIG-401 手柄沟槽式蝶阀**：`lever-operated-grooved-butterfly-valves.html`。
+- [x] **MIG-401 手柄沟槽式蝶阀**：保留英文原文、7 行型号、单张主图及原版式；首个可复用蝶阀共享模板生成英阿详情，文件/HTTP 单款语言、分类、主图放大与手机布局验收通过。报告：`docs/execution/2026-09-05_lever-grooved-butterfly-valve-language-migration.md`。
 - [ ] **MIG-402 手柄对夹式蝶阀**：`lever-operated-wafer-butterfly-valves.html`。
 - [ ] **MIG-403 信号沟槽式蝶阀**：`grooved-supervisory-butterfly-valves.html`。
 - [ ] **MIG-404 信号对夹式蝶阀**：`wafer-supervisory-butterfly-valves.html`。

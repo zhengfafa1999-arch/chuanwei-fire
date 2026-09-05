@@ -1,0 +1,51 @@
+{
+  "scope": "single-product",
+  "product": "lever-operated-grooved-butterfly-valves",
+  "previewMode": "file",
+  "generatedAt": "2026-09-05T15:23:34.636Z",
+  "browser": "Edg/152.0.4191.62",
+  "viewports": [
+    {
+      "id": "desktop",
+      "width": 1440,
+      "height": 900,
+      "deviceScaleFactor": 1,
+      "mobile": false
+    },
+    {
+      "id": "mobile",
+      "width": 390,
+      "height": 844,
+      "deviceScaleFactor": 1,
+      "mobile": true
+    }
+  ],
+  "languageSwitches": [
+    {
+      "scenario": "desktop/en: lever-operated-grooved-butterfly-valves image/text category entries, reciprocal switch, refresh, single hero image zoom, three modal closes and footer returns",
+      "status": "PASS"
+    },
+    {
+      "scenario": "desktop/ar: lever-operated-grooved-butterfly-valves image/text category entries, reciprocal switch, refresh, single hero image zoom, three modal closes and footer returns",
+      "status": "PASS"
+    },
+    {
+      "scenario": "mobile/en: lever-operated-grooved-butterfly-valves image/text category entries, reciprocal switch, refresh, single hero image zoom, three modal closes and footer returns",
+      "status": "PASS"
+    },
+    {
+      "scenario": "mobile/ar: lever-operated-grooved-butterfly-valves image/text category entries, reciprocal switch, refresh, single hero image zoom, three modal closes and footer returns",
+      "status": "PASS"
+    }
+  ],
+  "screenshots": [
+    "edge-desktop-lever-operated-grooved-butterfly-valves-en-hero.png",
+    "edge-desktop-lever-operated-grooved-butterfly-valves-en-models.png",
+    "edge-desktop-lever-operated-grooved-butterfly-valves-ar-hero.png",
+    "edge-desktop-lever-operated-grooved-butterfly-valves-ar-models.png",
+    "edge-mobile-lever-operated-grooved-butterfly-valves-en-hero.png",
+    "edge-mobile-lever-operated-grooved-butterfly-valves-en-models.png",
+    "edge-mobile-lever-operated-grooved-butterfly-valves-ar-hero.png",
+    "edge-mobile-lever-operated-grooved-butterfly-valves-ar-models.png"
+  ]
+}

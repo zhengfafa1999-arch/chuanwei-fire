@@ -100,7 +100,12 @@ export async function validateStandardResponse({client, origin, viewports, evalu
         screenshots.push(name);
       }
       for (const anchor of imageCount > 0 ? ["gallery", "models"] : ["models"]) {
-        await evaluate(client, `document.querySelector('.pdp-section-navigation a[href="#${anchor}"]').click()`);
+        // Exercise the real anchor link while disabling animation in the test page.
+        // File URLs can defer long smooth scrolls even after location.hash changes.
+        await evaluate(client, `(() => {
+          document.documentElement.style.scrollBehavior = 'auto';
+          document.querySelector('.pdp-section-navigation a[href="#${anchor}"]').click();
+        })()`);
         // Observe completion, not an assumed animation duration, before screenshots.
         let settled = false;
         for (let attempt = 0; attempt < 80; attempt += 1) {
