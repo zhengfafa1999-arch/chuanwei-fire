@@ -137,6 +137,30 @@ for (const locale of SUPPORTED_LOCALES) {
 }
 console.log("Sprinkler-category validation passed: eight families, sixteen localized cards and thirty-two matching entries.");
 
+// MIG-305: all four hose reel families are now published in both languages.
+const hoseReelIds = [
+  "product:ria25-fire-hose-reel", "product:straight-stream-fire-hose-reel",
+  "product:jet-spray-fire-hose-reel", "product:heavy-duty-fire-hose-reel"
+];
+const hoseReelFamily = PRODUCT_FAMILIES.find(family => family.routeId === "category:hose-reels");
+assert(JSON.stringify(hoseReelFamily.products.map(product => product.routeId)) === JSON.stringify(hoseReelIds),
+  "Hose reel category must retain its four existing families and their order.");
+for (const locale of SUPPORTED_LOCALES) {
+  const { html, route } = validateListingShell(hoseReelFamily.routeId, locale);
+  const cards = [...html.matchAll(/<article class="product-card">([\s\S]*?)<\/article>/g)].map(match => match[1]);
+  assert(cards.length === hoseReelIds.length, "Hose reel category card count changed.");
+  hoseReelIds.forEach((routeId, index) => {
+    assert(SITE_ROUTES[routeId].locales[locale].status === "published", `${routeId}/${locale} must not fall back.`);
+    assert(SITE_ROUTES[routeId].category === hoseReelFamily.routeId, `${routeId}: wrong parent category.`);
+    const href = resolveSiteRoute(routeId, locale, route.outputPath).href;
+    const links = [...cards[index].matchAll(/<a\b[^>]*href="([^"]+)"/g)].map(match => match[1]);
+    assert(links.length === 2 && links.every(link => link === href), `${routeId}/${locale}: mismatched image/text entry.`);
+    assert(cards[index].includes("product-card__badge--localized") && !cards[index].includes("product-card__badge--english"),
+      `${routeId}/${locale}: stale fallback badge.`);
+  });
+}
+console.log("Hose-reel category validation passed: four families, eight localized cards and sixteen matching entries.");
+
 assert(sitemap.includes("GENERATED FILE"), "Sitemap is not generated from the shared route registry.");
 for (const [routeId, route] of Object.entries(SITE_ROUTES)) {
   for (const locale of SUPPORTED_LOCALES) {

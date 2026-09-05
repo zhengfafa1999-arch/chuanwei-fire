@@ -58,7 +58,7 @@ export async function validateSystemValveNavigation({
       await waitForLocation(client, categoryPath);
       await expectLocale(locale, categoryId);
       const category = await inspectPage(client);
-      assert(category.brokenImageCount === 0 && category.horizontalOverflow <= 1, "Alarm category has a broken image or page overflow.");
+      assert(category.brokenImageCount === 0 && category.horizontalOverflow <= 1, `${categoryId} has a broken image or page overflow.`);
       results.push({scenario:`${viewport.id}/${locale}: home and directory entries, category reciprocal switch and refresh`, status:"PASS"});
 
       for (const [routeId] of products) {

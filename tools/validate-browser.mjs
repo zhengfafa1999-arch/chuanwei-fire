@@ -12,8 +12,10 @@ const root = process.cwd();
 const productArgument = process.argv.find(argument => argument.startsWith('--product='));
 const focusedSlug = productArgument?.slice('--product='.length);
 if (productArgument) assert(/^[a-z0-9-]+$/.test(focusedSlug), 'Provide a valid product slug with --product=<slug>.');
-const evidenceDirectory = process.env.SITE_BROWSER_EVIDENCE_DIR
-  ? path.resolve(root, process.env.SITE_BROWSER_EVIDENCE_DIR)
+const evidenceArgument = process.argv.find(argument => argument.startsWith('--evidence-dir='));
+const evidencePath = evidenceArgument?.slice('--evidence-dir='.length) || process.env.SITE_BROWSER_EVIDENCE_DIR;
+const evidenceDirectory = evidencePath
+  ? path.resolve(root, evidencePath)
   : focusedSlug
     ? path.join(root, "docs", "evidence", "focused", focusedSlug, process.argv.includes('--file-preview') ? 'file' : 'http')
     : path.join(root, "docs", "evidence", "responsive-rtl", "2026-09-05");
@@ -615,6 +617,10 @@ async function run() {
       client, origin, viewports, evaluate, navigate, waitForLocation, inspectPage, assert,
       categoryId: "category:sprinklers", expectedProducts: 8
     }));
+    languageSwitches.push(...await validateSystemValveNavigation({
+      client, origin, viewports, evaluate, navigate, waitForLocation, inspectPage, assert,
+      categoryId: "category:hose-reels", expectedProducts: 4
+    }));
     const standardResponse = await validateStandardResponse({
       client, origin, viewports, evaluate, navigate, waitForLocation, inspectPage, assert, evidenceDirectory
     });
@@ -648,22 +654,22 @@ async function run() {
     languageSwitches.push(...esfrResponse.results);
     const ria25Response = await validateStandardResponse({
       client, origin, viewports, evaluate, navigate, waitForLocation, inspectPage, assert, evidenceDirectory,
-      routeId: 'product:ria25-fire-hose-reel', slug: 'ria25-fire-hose-reel', imageCount: 3
+      routeId: 'product:ria25-fire-hose-reel', slug: 'ria25-fire-hose-reel', imageCount: 3, modelTableRows: [3]
     });
     languageSwitches.push(...ria25Response.results);
     const straightResponse = await validateStandardResponse({
       client, origin, viewports, evaluate, navigate, waitForLocation, inspectPage, assert, evidenceDirectory,
-      routeId: 'product:straight-stream-fire-hose-reel', slug: 'straight-stream-fire-hose-reel', imageCount: 2
+      routeId: 'product:straight-stream-fire-hose-reel', slug: 'straight-stream-fire-hose-reel', imageCount: 2, modelTableRows: [9]
     });
     languageSwitches.push(...straightResponse.results);
     const jetResponse = await validateStandardResponse({
       client, origin, viewports, evaluate, navigate, waitForLocation, inspectPage, assert, evidenceDirectory,
-      routeId: 'product:jet-spray-fire-hose-reel', slug: 'jet-spray-fire-hose-reel', imageCount: 1
+      routeId: 'product:jet-spray-fire-hose-reel', slug: 'jet-spray-fire-hose-reel', imageCount: 1, modelTableRows: [9]
     });
     languageSwitches.push(...jetResponse.results);
     const heavyDutyResponse = await validateStandardResponse({
       client, origin, viewports, evaluate, navigate, waitForLocation, inspectPage, assert, evidenceDirectory,
-      routeId: 'product:heavy-duty-fire-hose-reel', slug: 'heavy-duty-fire-hose-reel', imageCount: 0
+      routeId: 'product:heavy-duty-fire-hose-reel', slug: 'heavy-duty-fire-hose-reel', imageCount: 0, modelTableRows: [6]
     });
     languageSwitches.push(...heavyDutyResponse.results);
     const evidence = {
