@@ -111,6 +111,32 @@ for (const locale of SUPPORTED_LOCALES) {
 }
 console.log("Alarm-category validation passed: four families, eight localized cards and sixteen matching image/text entries.");
 
+// MIG-209: all eight published sprinkler families must stay in their locale.
+const sprinklerIds = [
+  "standard-response-fire-sprinkler", "glass-bulb-fire-sprinkler",
+  "extended-coverage-quick-response-fire-sprinkler", "concealed-pendent-fire-sprinkler",
+  "large-k-factor-esfr-sprinklers", "dry-pendent-fire-sprinklers",
+  "water-mist-nozzles", "water-curtain-nozzles"
+].map(id => `product:${id}`);
+const sprinklerFamily = PRODUCT_FAMILIES.find(family => family.routeId === "category:sprinklers");
+assert(JSON.stringify(sprinklerFamily.products.map(product => product.routeId)) === JSON.stringify(sprinklerIds),
+  "Sprinkler category must retain its eight existing families and their order.");
+for (const locale of SUPPORTED_LOCALES) {
+  const { html, route } = validateListingShell(sprinklerFamily.routeId, locale);
+  const cards = [...html.matchAll(/<article class="product-card">([\s\S]*?)<\/article>/g)].map(match => match[1]);
+  assert(cards.length === sprinklerIds.length, "Sprinkler category card count changed.");
+  sprinklerIds.forEach((id, index) => {
+    assert(SITE_ROUTES[id].locales[locale].status === "published", `${id}/${locale} must not fall back.`);
+    assert(SITE_ROUTES[id].category === sprinklerFamily.routeId, `${id}: wrong parent category.`);
+    const href = resolveSiteRoute(id, locale, route.outputPath).href;
+    const links = [...cards[index].matchAll(/<a\b[^>]*href="([^"]+)"/g)].map(match => match[1]);
+    assert(links.length === 2 && links.every(link => link === href), `${id}/${locale}: mismatched image/text entry.`);
+    assert(cards[index].includes("product-card__badge--localized") && !cards[index].includes("product-card__badge--english"),
+      `${id}/${locale}: stale fallback badge.`);
+  });
+}
+console.log("Sprinkler-category validation passed: eight families, sixteen localized cards and thirty-two matching entries.");
+
 assert(sitemap.includes("GENERATED FILE"), "Sitemap is not generated from the shared route registry.");
 for (const [routeId, route] of Object.entries(SITE_ROUTES)) {
   for (const locale of SUPPORTED_LOCALES) {

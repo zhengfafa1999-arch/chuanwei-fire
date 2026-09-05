@@ -2,11 +2,11 @@ import { SITE_ROUTES } from "../site-src/_data/siteRoutes.js";
 
 // Navigation-only acceptance: never inspect or rewrite technical product facts.
 export async function validateSystemValveNavigation({
-  client, origin, viewports, evaluate, navigate, waitForLocation, inspectPage, assert
+  client, origin, viewports, evaluate, navigate, waitForLocation, inspectPage, assert,
+  categoryId = "category:system-valves", expectedProducts = 4
 }) {
-  const categoryId = "category:system-valves";
   const products = Object.entries(SITE_ROUTES).filter(([, route]) => route.category === categoryId);
-  assert(products.length === 4, "Alarm category must expose four existing product families.");
+  assert(products.length === expectedProducts, `${categoryId}: unexpected product family count.`);
   const results = [];
   const routePath = (id, locale) => {
     const target = SITE_ROUTES[id].locales[locale];
@@ -61,11 +61,17 @@ export async function validateSystemValveNavigation({
       assert(category.brokenImageCount === 0 && category.horizontalOverflow <= 1, "Alarm category has a broken image or page overflow.");
       results.push({scenario:`${viewport.id}/${locale}: home and directory entries, category reciprocal switch and refresh`, status:"PASS"});
 
-      for (const [index, [routeId]] of products.entries()) {
+      for (const [routeId] of products) {
         const productPath = routePath(routeId, locale);
         for (const selector of [".product-card__image", ".product-card__link"]) {
           await navigate(client, `${origin}${encodeURI(categoryPath)}`, categoryPath);
-          await evaluate(client, `document.querySelectorAll('.product-card')[${index}].querySelector('${selector}').click()`);
+          const clicked = await evaluate(client, `(() => {
+            const link = [...document.querySelectorAll('${selector}')].find(link =>
+              decodeURIComponent(new URL(link.href).pathname).endsWith(${JSON.stringify(productPath)}));
+            if (!link) return false;
+            link.click(); return true;
+          })()`);
+          assert(clicked, `${categoryId}: missing ${selector} entry to ${productPath}`);
           await waitForLocation(client, productPath);
           await expectLocale(locale, routeId);
           await evaluate(client, "history.back()");

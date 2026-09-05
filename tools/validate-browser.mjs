@@ -608,6 +608,10 @@ async function run() {
     languageSwitches.push(...await validateSystemValveNavigation({
       client, origin, viewports, evaluate, navigate, waitForLocation, inspectPage, assert
     }));
+    languageSwitches.push(...await validateSystemValveNavigation({
+      client, origin, viewports, evaluate, navigate, waitForLocation, inspectPage, assert,
+      categoryId: "category:sprinklers", expectedProducts: 8
+    }));
     const standardResponse = await validateStandardResponse({
       client, origin, viewports, evaluate, navigate, waitForLocation, inspectPage, assert, evidenceDirectory
     });
