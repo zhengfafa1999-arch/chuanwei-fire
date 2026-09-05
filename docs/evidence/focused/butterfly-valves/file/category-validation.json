@@ -1,0 +1,159 @@
+{
+  "scope": "single-category",
+  "category": "butterfly-valves",
+  "previewMode": "file",
+  "generatedAt": "2026-09-05T17:04:21.996Z",
+  "browser": "Edg/152.0.4191.62",
+  "viewports": [
+    {
+      "id": "desktop",
+      "width": 1440,
+      "height": 900,
+      "deviceScaleFactor": 1,
+      "mobile": false
+    },
+    {
+      "id": "mobile",
+      "width": 390,
+      "height": 844,
+      "deviceScaleFactor": 1,
+      "mobile": true
+    }
+  ],
+  "languageSwitches": [
+    {
+      "scenario": "desktop/en: home and directory entries, category reciprocal switch and refresh",
+      "status": "PASS"
+    },
+    {
+      "scenario": "desktop/en: product:lever-operated-grooved-butterfly-valves image/text entries, back, reciprocal switch, refresh and three footer returns",
+      "status": "PASS",
+      "viewport": "desktop",
+      "locale": "en",
+      "routeId": "product:lever-operated-grooved-butterfly-valves"
+    },
+    {
+      "scenario": "desktop/en: product:lever-operated-wafer-butterfly-valves image/text entries, back, reciprocal switch, refresh and three footer returns",
+      "status": "PASS",
+      "viewport": "desktop",
+      "locale": "en",
+      "routeId": "product:lever-operated-wafer-butterfly-valves"
+    },
+    {
+      "scenario": "desktop/en: product:grooved-supervisory-butterfly-valves image/text entries, back, reciprocal switch, refresh and three footer returns",
+      "status": "PASS",
+      "viewport": "desktop",
+      "locale": "en",
+      "routeId": "product:grooved-supervisory-butterfly-valves"
+    },
+    {
+      "scenario": "desktop/en: product:wafer-supervisory-butterfly-valves image/text entries, back, reciprocal switch, refresh and three footer returns",
+      "status": "PASS",
+      "viewport": "desktop",
+      "locale": "en",
+      "routeId": "product:wafer-supervisory-butterfly-valves"
+    },
+    {
+      "scenario": "desktop/ar: home and directory entries, category reciprocal switch and refresh",
+      "status": "PASS"
+    },
+    {
+      "scenario": "desktop/ar: product:lever-operated-grooved-butterfly-valves image/text entries, back, reciprocal switch, refresh and three footer returns",
+      "status": "PASS",
+      "viewport": "desktop",
+      "locale": "ar",
+      "routeId": "product:lever-operated-grooved-butterfly-valves"
+    },
+    {
+      "scenario": "desktop/ar: product:lever-operated-wafer-butterfly-valves image/text entries, back, reciprocal switch, refresh and three footer returns",
+      "status": "PASS",
+      "viewport": "desktop",
+      "locale": "ar",
+      "routeId": "product:lever-operated-wafer-butterfly-valves"
+    },
+    {
+      "scenario": "desktop/ar: product:grooved-supervisory-butterfly-valves image/text entries, back, reciprocal switch, refresh and three footer returns",
+      "status": "PASS",
+      "viewport": "desktop",
+      "locale": "ar",
+      "routeId": "product:grooved-supervisory-butterfly-valves"
+    },
+    {
+      "scenario": "desktop/ar: product:wafer-supervisory-butterfly-valves image/text entries, back, reciprocal switch, refresh and three footer returns",
+      "status": "PASS",
+      "viewport": "desktop",
+      "locale": "ar",
+      "routeId": "product:wafer-supervisory-butterfly-valves"
+    },
+    {
+      "scenario": "mobile/en: home and directory entries, category reciprocal switch and refresh",
+      "status": "PASS"
+    },
+    {
+      "scenario": "mobile/en: product:lever-operated-grooved-butterfly-valves image/text entries, back, reciprocal switch, refresh and three footer returns",
+      "status": "PASS",
+      "viewport": "mobile",
+      "locale": "en",
+      "routeId": "product:lever-operated-grooved-butterfly-valves"
+    },
+    {
+      "scenario": "mobile/en: product:lever-operated-wafer-butterfly-valves image/text entries, back, reciprocal switch, refresh and three footer returns",
+      "status": "PASS",
+      "viewport": "mobile",
+      "locale": "en",
+      "routeId": "product:lever-operated-wafer-butterfly-valves"
+    },
+    {
+      "scenario": "mobile/en: product:grooved-supervisory-butterfly-valves image/text entries, back, reciprocal switch, refresh and three footer returns",
+      "status": "PASS",
+      "viewport": "mobile",
+      "locale": "en",
+      "routeId": "product:grooved-supervisory-butterfly-valves"
+    },
+    {
+      "scenario": "mobile/en: product:wafer-supervisory-butterfly-valves image/text entries, back, reciprocal switch, refresh and three footer returns",
+      "status": "PASS",
+      "viewport": "mobile",
+      "locale": "en",
+      "routeId": "product:wafer-supervisory-butterfly-valves"
+    },
+    {
+      "scenario": "mobile/ar: home and directory entries, category reciprocal switch and refresh",
+      "status": "PASS"
+    },
+    {
+      "scenario": "mobile/ar: product:lever-operated-grooved-butterfly-valves image/text entries, back, reciprocal switch, refresh and three footer returns",
+      "status": "PASS",
+      "viewport": "mobile",
+      "locale": "ar",
+      "routeId": "product:lever-operated-grooved-butterfly-valves"
+    },
+    {
+      "scenario": "mobile/ar: product:lever-operated-wafer-butterfly-valves image/text entries, back, reciprocal switch, refresh and three footer returns",
+      "status": "PASS",
+      "viewport": "mobile",
+      "locale": "ar",
+      "routeId": "product:lever-operated-wafer-butterfly-valves"
+    },
+    {
+      "scenario": "mobile/ar: product:grooved-supervisory-butterfly-valves image/text entries, back, reciprocal switch, refresh and three footer returns",
+      "status": "PASS",
+      "viewport": "mobile",
+      "locale": "ar",
+      "routeId": "product:grooved-supervisory-butterfly-valves"
+    },
+    {
+      "scenario": "mobile/ar: product:wafer-supervisory-butterfly-valves image/text entries, back, reciprocal switch, refresh and three footer returns",
+      "status": "PASS",
+      "viewport": "mobile",
+      "locale": "ar",
+      "routeId": "product:wafer-supervisory-butterfly-valves"
+    }
+  ],
+  "screenshots": [
+    "edge-desktop-butterfly-valves-en.png",
+    "edge-desktop-butterfly-valves-ar.png",
+    "edge-mobile-butterfly-valves-en.png",
+    "edge-mobile-butterfly-valves-ar.png"
+  ]
+}

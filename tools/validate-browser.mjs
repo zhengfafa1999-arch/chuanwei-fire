@@ -12,12 +12,17 @@ const root = process.cwd();
 const productArgument = process.argv.find(argument => argument.startsWith('--product='));
 const focusedSlug = productArgument?.slice('--product='.length);
 if (productArgument) assert(/^[a-z0-9-]+$/.test(focusedSlug), 'Provide a valid product slug with --product=<slug>.');
+const categoryArgument = process.argv.find(argument => argument.startsWith('--category='));
+const focusedCategorySlug = categoryArgument?.slice('--category='.length);
+const focusedCategoryId = focusedCategorySlug ? `category:${focusedCategorySlug}` : undefined;
+if (categoryArgument) assert(/^[a-z0-9-]+$/.test(focusedCategorySlug), 'Provide a valid category slug with --category=<slug>.');
+assert(!(focusedSlug && focusedCategorySlug), 'Use either --product or --category, not both.');
 const evidenceArgument = process.argv.find(argument => argument.startsWith('--evidence-dir='));
 const evidencePath = evidenceArgument?.slice('--evidence-dir='.length) || process.env.SITE_BROWSER_EVIDENCE_DIR;
 const evidenceDirectory = evidencePath
   ? path.resolve(root, evidencePath)
-  : focusedSlug
-    ? path.join(root, "docs", "evidence", "focused", focusedSlug, process.argv.includes('--file-preview') ? 'file' : 'http')
+  : focusedSlug || focusedCategorySlug
+    ? path.join(root, "docs", "evidence", "focused", focusedSlug || focusedCategorySlug, process.argv.includes('--file-preview') ? 'file' : 'http')
     : path.join(root, "docs", "evidence", "responsive-rtl", "2026-09-05");
 const edgeCandidates = [
   process.env.EDGE_PATH,
@@ -276,6 +281,9 @@ async function run() {
     focusedProduct = JSON.parse(fs.readFileSync(source, 'utf8'));
     assert(['product-series/quick-response.njk', 'product-series/standard-response.njk', 'product-series/concealed-pendent.njk', 'product-series/dry-pendent.njk', 'product-series/extended-coverage.njk', 'product-series/large-k-esfr.njk', 'product-series/ria25-hose-reel.njk', 'product-series/straight-stream-hose-reel.njk', 'product-series/jet-spray-hose-reel.njk', 'product-series/heavy-duty-hose-reel.njk', 'product-series/butterfly-valve.njk'].includes(focusedProduct.template), 'This template needs its own targeted interaction adapter; do not silently skip its checks.');
   }
+  if (focusedCategoryId) {
+    assert(SITE_ROUTES[focusedCategoryId]?.kind === 'category', `No registered category route for ${focusedCategorySlug}.`);
+  }
   assert(edgePath, "Microsoft Edge was not found. Set EDGE_PATH to a Chromium-compatible Edge executable.");
   fs.mkdirSync(evidenceDirectory, { recursive: true });
   const server = createStaticServer();
@@ -323,6 +331,39 @@ async function run() {
       };
       fs.writeFileSync(path.join(evidenceDirectory, 'product-validation.json'), `${JSON.stringify(evidence, null, 2)}\n`);
       console.log(`Focused browser validation passed: ${focusedSlug}, ${result.results.length} desktop/mobile × EN/AR scenarios. Full-site browser audit intentionally not run.`);
+      return;
+    }
+
+    if (focusedCategoryId) {
+      const productCount = Object.values(SITE_ROUTES).filter(route => route.category === focusedCategoryId).length;
+      const results = await validateSystemValveNavigation({
+        client, origin, viewports, evaluate, navigate, waitForLocation, inspectPage, assert,
+        categoryId: focusedCategoryId, expectedProducts: productCount
+      });
+      const screenshots = [];
+      for (const viewport of viewports) {
+        await client.send('Emulation.setDeviceMetricsOverride', viewport);
+        for (const locale of ['en', 'ar']) {
+          const target = SITE_ROUTES[focusedCategoryId].locales[locale];
+          const routePath = `/${target.outputPath}`;
+          await navigate(client, `${origin}${encodeURI(routePath)}`, routePath);
+          const state = await inspectPage(client);
+          assert(state.lang === locale && state.dir === (locale === 'ar' ? 'rtl' : 'ltr'), `${focusedCategoryId}/${locale}: wrong language direction.`);
+          assert(state.brokenImageCount === 0 && state.horizontalOverflow <= 1, `${focusedCategoryId}/${locale}: broken image or page overflow.`);
+          const screenshot = await client.send('Page.captureScreenshot', {format:'png', captureBeyondViewport:false});
+          const name = `edge-${viewport.id}-${focusedCategorySlug}-${locale}.png`;
+          fs.writeFileSync(path.join(evidenceDirectory, name), Buffer.from(screenshot.data, 'base64'));
+          screenshots.push(name);
+        }
+      }
+      const evidence = {
+        scope: 'single-category', category: focusedCategorySlug,
+        previewMode: process.argv.includes('--file-preview') ? 'file' : 'http',
+        generatedAt: new Date().toISOString(), browser: version.Browser, viewports,
+        languageSwitches: results, screenshots
+      };
+      fs.writeFileSync(path.join(evidenceDirectory, 'category-validation.json'), `${JSON.stringify(evidence, null, 2)}\n`);
+      console.log(`Focused category validation passed: ${focusedCategorySlug}, ${results.length} desktop/mobile × EN/AR navigation scenarios. Full-site browser audit intentionally not run.`);
       return;
     }
 
@@ -621,6 +662,10 @@ async function run() {
       client, origin, viewports, evaluate, navigate, waitForLocation, inspectPage, assert,
       categoryId: "category:hose-reels", expectedProducts: 4
     }));
+    languageSwitches.push(...await validateSystemValveNavigation({
+      client, origin, viewports, evaluate, navigate, waitForLocation, inspectPage, assert,
+      categoryId: "category:butterfly-valves", expectedProducts: 4
+    }));
     const standardResponse = await validateStandardResponse({
       client, origin, viewports, evaluate, navigate, waitForLocation, inspectPage, assert, evidenceDirectory
     });
@@ -672,6 +717,26 @@ async function run() {
       routeId: 'product:heavy-duty-fire-hose-reel', slug: 'heavy-duty-fire-hose-reel', imageCount: 0, modelTableRows: [6]
     });
     languageSwitches.push(...heavyDutyResponse.results);
+    const leverGroovedButterflyResponse = await validateStandardResponse({
+      client, origin, viewports, evaluate, navigate, waitForLocation, inspectPage, assert, evidenceDirectory,
+      routeId: 'product:lever-operated-grooved-butterfly-valves', slug: 'lever-operated-grooved-butterfly-valves', imageCount: 0, modelTableRows: [7]
+    });
+    languageSwitches.push(...leverGroovedButterflyResponse.results);
+    const leverWaferButterflyResponse = await validateStandardResponse({
+      client, origin, viewports, evaluate, navigate, waitForLocation, inspectPage, assert, evidenceDirectory,
+      routeId: 'product:lever-operated-wafer-butterfly-valves', slug: 'lever-operated-wafer-butterfly-valves', imageCount: 0, modelTableRows: [7]
+    });
+    languageSwitches.push(...leverWaferButterflyResponse.results);
+    const groovedSupervisoryButterflyResponse = await validateStandardResponse({
+      client, origin, viewports, evaluate, navigate, waitForLocation, inspectPage, assert, evidenceDirectory,
+      routeId: 'product:grooved-supervisory-butterfly-valves', slug: 'grooved-supervisory-butterfly-valves', imageCount: 0, modelTableRows: [3]
+    });
+    languageSwitches.push(...groovedSupervisoryButterflyResponse.results);
+    const waferSupervisoryButterflyResponse = await validateStandardResponse({
+      client, origin, viewports, evaluate, navigate, waitForLocation, inspectPage, assert, evidenceDirectory,
+      routeId: 'product:wafer-supervisory-butterfly-valves', slug: 'wafer-supervisory-butterfly-valves', imageCount: 0, modelTableRows: [3]
+    });
+    languageSwitches.push(...waferSupervisoryButterflyResponse.results);
     const evidence = {
       previewMode: process.argv.includes("--file-preview") ? "file" : "http",
       generatedAt: new Date().toISOString(),
@@ -696,7 +761,11 @@ async function run() {
         ...ria25Response.screenshots,
         ...straightResponse.screenshots,
         ...jetResponse.screenshots,
-        ...heavyDutyResponse.screenshots
+        ...heavyDutyResponse.screenshots,
+        ...leverGroovedButterflyResponse.screenshots,
+        ...leverWaferButterflyResponse.screenshots,
+        ...groovedSupervisoryButterflyResponse.screenshots,
+        ...waferSupervisoryButterflyResponse.screenshots
       ]
     };
     fs.writeFileSync(path.join(evidenceDirectory, "browser-validation.json"), `${JSON.stringify(evidence, null, 2)}\n`);

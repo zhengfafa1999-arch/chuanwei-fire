@@ -32,7 +32,7 @@
 
 - 每款：运行 `npm run build`，然后仅运行当前产品的浏览器检查。保留文件预览和 HTTP 预览，截图只保存当前产品。
 - 单款示例：`node tools/validate-browser.mjs --product=glass-bulb-fire-sprinkler --file-preview`，以及不带 `--file-preview` 的 HTTP 检查。
-- 每个分类收尾：运行不带 `--product` 的完整浏览器回归，覆盖全站页面与语言路径。
+- 每个分类收尾：只运行该分类的定向浏览器回归，覆盖该分类页及所属产品入口；全站完整浏览器回归仅在 MIG-906 最终验收运行。
 - 新模板必须配套相应的单款交互测试；不支持的模板应明确报错，不能跳过检查后声称通过。目前单款入口支持标准响应、玻璃球快速响应、隐蔽式、干式下垂、扩大覆盖及大流量/ESFR 六种喷头模板。
 - 单款验收标准不减：英阿同商品互切、分类入口、刷新与返回、全部图库图片和动态说明、放大关闭、桌面/手机布局均须通过。
 - 单款失败时只重跑受影响检查，不因截图或测试等待问题反复运行全站浏览器矩阵。无需重新核对技术参数。
@@ -82,7 +82,7 @@
 - [x] **MIG-402 手柄对夹式蝶阀**：保留英文原文、7 行型号、单张主图和原版式；蝶阀共享模板生成英阿详情，文件/HTTP 单款语言、分类、主图放大与手机布局验收通过。报告：`docs/execution/2026-09-05_lever-wafer-butterfly-valve-language-migration.md`。
 - [x] **MIG-403 信号沟槽式蝶阀**：保留英文原文、3 行型号、单张主图与原版式；复用蝶阀共享模板生成英阿详情，文件/HTTP 单款语言、分类、主图放大及手机布局验收通过。报告：`docs/execution/2026-09-06_grooved-supervisory-butterfly-valve-language-migration.md`。
 - [x] **MIG-404 信号对夹式蝶阀**：保留英文原文、3 行型号、单张主图与原版式；复用蝶阀共享模板生成英阿详情，文件/HTTP 单款语言、分类、主图放大及手机布局验收通过。报告：`docs/execution/2026-09-06_wafer-supervisory-butterfly-valve-language-migration.md`。
-- [ ] **MIG-405 消防蝶阀分类页**：迁移 `products/消防蝶阀.html`。
+- [x] **MIG-405 消防蝶阀分类页**：四款蝶阀的英阿图片/文字入口、语言互切、刷新、返回和桌面/手机布局均通过文件与 HTTP 分类定向验收，无英文回退。报告：`docs/execution/2026-09-06_butterfly-valve-category-language-closeout.md`。
 
 ## 第六阶段：消防闸阀
 
