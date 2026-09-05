@@ -106,7 +106,7 @@
 - [x] **MIG-702 法式地上消火栓**：保留英文原文、2 张图库图片、5 行配置表、4 项可选配置和原版式；复用室外消火栓共享模板的配置/可选项版式生成英阿详情，文件/HTTP 单款语言、分类、图库、配置、可选项和手机布局验收通过。报告：`docs/execution/2026-09-06_french-pattern-hydrant-language-migration.md`。
 - [x] **MIG-703 印尼式湿式消火栓**：保留英文原文、2 张图库图片、5 行配置表、4 项可选配置和原版式；复用室外消火栓共享模板的配置/可选项版式生成英阿详情，文件/HTTP 单款语言、分类、图库、配置、可选项和手机布局验收通过。报告：`docs/execution/2026-09-06_indonesian-pattern-hydrant-language-migration.md`。
 - [x] **MIG-704 俄式地上消火栓**：保留英文原文、2 张图库图片、5 行配置表、4 项可选配置和原版式；复用室外消火栓共享模板的配置/可选项版式生成英阿详情，文件/HTTP 单款语言、分类、图库、配置、可选项和手机布局验收通过。报告：`docs/execution/2026-09-06_russian-pattern-hydrant-language-migration.md`。
-- [ ] **MIG-705 室外消火栓分类页**：迁移 `products/室外消防栓/室外消防栓.html`。
+- [x] **MIG-705 室外消火栓分类页**：英阿分类页继续共用目录数据与模板；四款产品顺序不变，图片与文字入口均进入同语言详情页且无语言回退。文件/HTTP 分类入口、语言切换和手机布局验收通过。报告：`docs/execution/2026-09-06_outdoor-hydrant-category-language-closeout.md`。
 
 ## 第九阶段：其他产品系列
 

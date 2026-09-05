@@ -1,0 +1,159 @@
+{
+  "scope": "single-category",
+  "category": "outdoor-hydrants",
+  "previewMode": "file",
+  "generatedAt": "2026-09-05T20:57:55.149Z",
+  "browser": "Edg/152.0.4191.62",
+  "viewports": [
+    {
+      "id": "desktop",
+      "width": 1440,
+      "height": 900,
+      "deviceScaleFactor": 1,
+      "mobile": false
+    },
+    {
+      "id": "mobile",
+      "width": 390,
+      "height": 844,
+      "deviceScaleFactor": 1,
+      "mobile": true
+    }
+  ],
+  "languageSwitches": [
+    {
+      "scenario": "desktop/en: home and directory entries, category reciprocal switch and refresh",
+      "status": "PASS"
+    },
+    {
+      "scenario": "desktop/en: product:bs750-pillar-hydrant image/text entries, back, reciprocal switch, refresh and three footer returns",
+      "status": "PASS",
+      "viewport": "desktop",
+      "locale": "en",
+      "routeId": "product:bs750-pillar-hydrant"
+    },
+    {
+      "scenario": "desktop/en: product:french-pattern-hydrant image/text entries, back, reciprocal switch, refresh and three footer returns",
+      "status": "PASS",
+      "viewport": "desktop",
+      "locale": "en",
+      "routeId": "product:french-pattern-hydrant"
+    },
+    {
+      "scenario": "desktop/en: product:indonesian-pattern-hydrant image/text entries, back, reciprocal switch, refresh and three footer returns",
+      "status": "PASS",
+      "viewport": "desktop",
+      "locale": "en",
+      "routeId": "product:indonesian-pattern-hydrant"
+    },
+    {
+      "scenario": "desktop/en: product:russian-pattern-hydrant image/text entries, back, reciprocal switch, refresh and three footer returns",
+      "status": "PASS",
+      "viewport": "desktop",
+      "locale": "en",
+      "routeId": "product:russian-pattern-hydrant"
+    },
+    {
+      "scenario": "desktop/ar: home and directory entries, category reciprocal switch and refresh",
+      "status": "PASS"
+    },
+    {
+      "scenario": "desktop/ar: product:bs750-pillar-hydrant image/text entries, back, reciprocal switch, refresh and three footer returns",
+      "status": "PASS",
+      "viewport": "desktop",
+      "locale": "ar",
+      "routeId": "product:bs750-pillar-hydrant"
+    },
+    {
+      "scenario": "desktop/ar: product:french-pattern-hydrant image/text entries, back, reciprocal switch, refresh and three footer returns",
+      "status": "PASS",
+      "viewport": "desktop",
+      "locale": "ar",
+      "routeId": "product:french-pattern-hydrant"
+    },
+    {
+      "scenario": "desktop/ar: product:indonesian-pattern-hydrant image/text entries, back, reciprocal switch, refresh and three footer returns",
+      "status": "PASS",
+      "viewport": "desktop",
+      "locale": "ar",
+      "routeId": "product:indonesian-pattern-hydrant"
+    },
+    {
+      "scenario": "desktop/ar: product:russian-pattern-hydrant image/text entries, back, reciprocal switch, refresh and three footer returns",
+      "status": "PASS",
+      "viewport": "desktop",
+      "locale": "ar",
+      "routeId": "product:russian-pattern-hydrant"
+    },
+    {
+      "scenario": "mobile/en: home and directory entries, category reciprocal switch and refresh",
+      "status": "PASS"
+    },
+    {
+      "scenario": "mobile/en: product:bs750-pillar-hydrant image/text entries, back, reciprocal switch, refresh and three footer returns",
+      "status": "PASS",
+      "viewport": "mobile",
+      "locale": "en",
+      "routeId": "product:bs750-pillar-hydrant"
+    },
+    {
+      "scenario": "mobile/en: product:french-pattern-hydrant image/text entries, back, reciprocal switch, refresh and three footer returns",
+      "status": "PASS",
+      "viewport": "mobile",
+      "locale": "en",
+      "routeId": "product:french-pattern-hydrant"
+    },
+    {
+      "scenario": "mobile/en: product:indonesian-pattern-hydrant image/text entries, back, reciprocal switch, refresh and three footer returns",
+      "status": "PASS",
+      "viewport": "mobile",
+      "locale": "en",
+      "routeId": "product:indonesian-pattern-hydrant"
+    },
+    {
+      "scenario": "mobile/en: product:russian-pattern-hydrant image/text entries, back, reciprocal switch, refresh and three footer returns",
+      "status": "PASS",
+      "viewport": "mobile",
+      "locale": "en",
+      "routeId": "product:russian-pattern-hydrant"
+    },
+    {
+      "scenario": "mobile/ar: home and directory entries, category reciprocal switch and refresh",
+      "status": "PASS"
+    },
+    {
+      "scenario": "mobile/ar: product:bs750-pillar-hydrant image/text entries, back, reciprocal switch, refresh and three footer returns",
+      "status": "PASS",
+      "viewport": "mobile",
+      "locale": "ar",
+      "routeId": "product:bs750-pillar-hydrant"
+    },
+    {
+      "scenario": "mobile/ar: product:french-pattern-hydrant image/text entries, back, reciprocal switch, refresh and three footer returns",
+      "status": "PASS",
+      "viewport": "mobile",
+      "locale": "ar",
+      "routeId": "product:french-pattern-hydrant"
+    },
+    {
+      "scenario": "mobile/ar: product:indonesian-pattern-hydrant image/text entries, back, reciprocal switch, refresh and three footer returns",
+      "status": "PASS",
+      "viewport": "mobile",
+      "locale": "ar",
+      "routeId": "product:indonesian-pattern-hydrant"
+    },
+    {
+      "scenario": "mobile/ar: product:russian-pattern-hydrant image/text entries, back, reciprocal switch, refresh and three footer returns",
+      "status": "PASS",
+      "viewport": "mobile",
+      "locale": "ar",
+      "routeId": "product:russian-pattern-hydrant"
+    }
+  ],
+  "screenshots": [
+    "edge-desktop-outdoor-hydrants-en.png",
+    "edge-desktop-outdoor-hydrants-ar.png",
+    "edge-mobile-outdoor-hydrants-en.png",
+    "edge-mobile-outdoor-hydrants-ar.png"
+  ]
+}
