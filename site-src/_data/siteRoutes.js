@@ -26,7 +26,7 @@ export const SITE_ROUTES = {
   "category:fire-department-connections": { kind: "category", locales: { en: published("products/消防水泵接合器.html"), ar: published("ar/products/fire-department-connections/index.html") } },
 
   "product:wet-alarm-check-valve": { kind: "product", category: "category:system-valves", locales: { en: published("products/消防阀/wet-alarm-check-valve-assemblies.html"), ar: published("ar/products/wet-alarm-check-valve/index.html") } },
-  "product:diaphragm-deluge-valves": { kind: "product", category: "category:system-valves", locales: { en: published("products/消防阀/diaphragm-deluge-valves.html"), ar: fallback("ar/products/system-valves/index.html") } },
+  "product:diaphragm-deluge-valves": { kind: "product", category: "category:system-valves", locales: { en: published("products/消防阀/diaphragm-deluge-valves.html"), ar: published("ar/products/diaphragm-deluge-valves/index.html") } },
   "product:preaction-valve-assemblies": { kind: "product", category: "category:system-valves", locales: { en: published("products/消防阀/preaction-valve-assemblies.html"), ar: fallback("ar/products/system-valves/index.html") } },
   "product:dry-pipe-alarm-valves": { kind: "product", category: "category:system-valves", locales: { en: published("products/消防阀/dry-pipe-alarm-valves.html"), ar: fallback("ar/products/system-valves/index.html") } },
 

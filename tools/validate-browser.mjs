@@ -219,7 +219,8 @@ const pages = [
   { id: "water-curtain-ar", path: "/ar/products/water-curtain-nozzles/index.html?lang=ar", lang: "ar", dir: "rtl", marker: "ستارة" },
   { id: "water-mist-en", path: "/products/消防喷头/water-mist-nozzles.html?lang=en", lang: "en", dir: "ltr", marker: "Water Mist" },
   { id: "water-mist-ar", path: "/ar/products/water-mist-nozzles/index.html?lang=ar", lang: "ar", dir: "rtl", marker: "ضباب" },
-  { id: "fallback-en", path: "/products/消防阀/diaphragm-deluge-valves.html", lang: "en", dir: "ltr", marker: "Deluge" }
+  { id: "deluge-en", path: "/products/消防阀/diaphragm-deluge-valves.html", lang: "en", dir: "ltr", marker: "Deluge" },
+  { id: "deluge-ar", path: "/ar/products/diaphragm-deluge-valves/index.html", lang: "ar", dir: "rtl", marker: "الغمر" }
 ];
 
 const viewports = [
@@ -306,7 +307,7 @@ async function run() {
           assert(result.hreflangs.ar === "https://chuanweifire.com/ar/", `${page.id} has incorrect Arabic hreflang.`);
           assert(result.hreflangs["x-default"] === result.hreflangs.en, `${page.id} has inconsistent x-default.`);
         }
-        if (page.id.startsWith("home-") || ["about-en", "about-ar", "downloads-en", "downloads-ar", "contact-en", "contact-ar"].includes(page.id)) {
+        if (page.id.startsWith("home-") || page.id.startsWith("deluge-") || ["about-en", "about-ar", "downloads-en", "downloads-ar", "contact-en", "contact-ar"].includes(page.id)) {
           const screenshot = await client.send("Page.captureScreenshot", { format: "png", captureBeyondViewport: false });
           fs.writeFileSync(path.join(evidenceDirectory, `edge-${viewport.id}-${page.id}.png`), Buffer.from(screenshot.data, "base64"));
         }
@@ -452,6 +453,49 @@ async function run() {
     await evaluate(client, "document.querySelector('.product').click()");
     await waitForLocation(client, "/ar/products/sprinklers/index.html");
     languageSwitches.push({ scenario: "AR homepage product card opens AR category", status: "PASS" });
+    const productInteractions = [];
+    for (const viewport of viewports) {
+      await client.send("Emulation.setDeviceMetricsOverride", viewport);
+      const en = "/products/消防阀/diaphragm-deluge-valves.html";
+      const ar = "/ar/products/diaphragm-deluge-valves/index.html";
+      await navigate(client, `${origin}/ar/products/system-valves/index.html`, "/ar/products/system-valves/index.html");
+      await evaluate(client, `document.querySelector('a[href*="diaphragm-deluge-valves"]').click()`);
+      await waitForLocation(client, ar);
+      assert((await inspectPage(client)).lang === "ar", "AR category must open the translated deluge product");
+      await evaluate(client, `document.querySelector('[data-site-language-choice="en"]').click()`);
+      await waitForLocation(client, en);
+      for (const [locale, productPath] of [["en", en], ["ar", ar]]) {
+        await evaluate(client, `document.querySelector('[data-site-language-choice="${locale}"]').click()`);
+        await waitForLocation(client, productPath);
+        assert((await inspectPage(client)).lang === locale, `Deluge switch must retain the same product in ${locale}`);
+        await client.send("Page.reload", { ignoreCache: true });
+        await waitForLocation(client, productPath);
+        assert((await inspectPage(client)).lang === locale, `Deluge refresh must retain ${locale}`);
+        const gallery = await evaluate(client, `(() => {
+          const get = selector => document.querySelector(selector);
+          const thumb = index => get('[data-gallery-index="' + index + '"]');
+          const selected = index => thumb(index).classList.contains('active') && get('.wav-gallery__main img').getAttribute('src') === thumb(index).dataset.src;
+          get('.wav-gallery__arrow--next').click(); const next = selected(1);
+          get('.wav-gallery__main').click(); const modal = get('#productModal').classList.contains('open') && get('#productModal img').getAttribute('src') === thumb(1).dataset.src;
+          document.dispatchEvent(new KeyboardEvent('keydown', {key:'Escape', bubbles:true}));
+          const close = !get('#productModal').classList.contains('open') && document.body.style.overflow === '';
+          get('.wav-gallery__arrow--prev').click(); const previous = selected(0);
+          thumb(1).click(); const thumbnail = selected(1);
+          thumb(0).click();
+          const stage = get('.wav-gallery__stage');
+          for (const [type, x] of [['touchstart',200],['touchend', document.dir === 'rtl' ? 300 : 100]]) {
+            const event = new Event(type); Object.defineProperty(event,'changedTouches',{value:[{clientX:x}]}); stage.dispatchEvent(event);
+          }
+          const swipe = selected(1);
+          return {next, previous, thumbnail, modal, close, swipe};
+        })()`);
+        assert(Object.values(gallery).every(Boolean), `${viewport.id}/${locale}: deluge gallery failed: ${JSON.stringify(gallery)}`);
+        productInteractions.push({viewport:viewport.id, locale, status:"PASS", gallery});
+      }
+      await evaluate(client, `document.querySelector('[data-global-product-footer] a').click()`);
+      await waitForLocation(client, "/ar/products/system-valves/index.html");
+      languageSwitches.push({scenario:`${viewport.id}: deluge AR category, same-product EN/AR switch, refresh and AR category return`, status:"PASS"});
+    }
     const evidence = {
       previewMode: process.argv.includes("--file-preview") ? "file" : "http",
       generatedAt: new Date().toISOString(),
@@ -462,8 +506,9 @@ async function run() {
       responsiveViewports,
       responsiveAudit,
       languageSwitches,
+      productInteractions,
       screenshots: [
-        ...viewports.flatMap((viewport) => ["home-en", "home-zh", "home-ar", "about-en", "about-ar", "downloads-en", "downloads-ar", "contact-en", "contact-ar"].map((page) => `edge-${viewport.id}-${page}.png`)),
+        ...viewports.flatMap((viewport) => ["home-en", "home-zh", "home-ar", "about-en", "about-ar", "downloads-en", "downloads-ar", "contact-en", "contact-ar", "deluge-en", "deluge-ar"].map((page) => `edge-${viewport.id}-${page}.png`)),
         ...responsiveScreenshots
       ]
     };
@@ -484,7 +529,7 @@ async function run() {
       "",
       "## 覆盖范围",
       "",
-      "英文/中文/阿文首页、产品总目录、关于我们、下载中心、联系页面、分类页、双语详情与未翻译英文详情；另逐一打开全部 64 个正式页面，在 1440、768、390 和 320 像素四档宽度检查 LTR/RTL、页面溢出、页头边界、图片加载、表单控件和响应式菜单，并验证显式网址优先、语言切换、刷新、浏览器返回及语言回退。",
+      `英文/中文/阿文首页、产品总目录、公共页面、分类页和双语详情；逐一打开全部 ${navigationPages.length} 个正式页面，在 1440、768、390 和 320 像素四档宽度检查 LTR/RTL、页面溢出、页头边界、图片加载、控件和菜单；验证语言切换与返回，并检查雨淋阀两种语言的图库、缩略图、放大、关闭和滑动。`,
       "",
       "## 可复核产物",
       "",

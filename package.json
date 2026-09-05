@@ -5,7 +5,8 @@
   "type": "module",
   "scripts": {
     "validate": "node tools/validate-routes.mjs && node tools/validate-catalog.mjs",
-    "build": "npm run validate && eleventy && node tools/normalize-legacy-seo.mjs && node tools/normalize-legacy-navigation.mjs && npm run validate:seo && npm run validate:navigation && node tools/validate-generated.mjs && node tools/validate-listings.mjs && node tools/validate-public-pages.mjs",
+    "build": "npm run validate && eleventy && node tools/normalize-legacy-seo.mjs && node tools/normalize-legacy-navigation.mjs && npm run validate:seo && npm run validate:navigation && node tools/validate-generated.mjs && node tools/validate-preserved-products.mjs && node tools/validate-listings.mjs && node tools/validate-public-pages.mjs",
+    "validate:preserved": "node tools/validate-preserved-products.mjs",
     "validate:seo": "node tools/validate-seo.mjs",
     "validate:navigation": "node tools/validate-navigation.mjs",
     "validate:browser": "node tools/validate-browser.mjs",

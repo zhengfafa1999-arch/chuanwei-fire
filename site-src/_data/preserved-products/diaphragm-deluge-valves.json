@@ -1,0 +1,660 @@
+{
+  "id": "diaphragm-deluge-valves",
+  "routeId": "product:diaphragm-deluge-valves",
+  "template": "product-series/diaphragm-deluge.njk",
+  "source": {
+    "path": "products/消防阀/diaphragm-deluge-valves.html",
+    "revision": "69f59bd",
+    "status": "preserved-existing-content-not-reaudited"
+  },
+  "media": {
+    "flanged": "products/消防阀/diaphragm-deluge-valves/deluge-valve-flanged.jpg",
+    "grooved": "products/消防阀/diaphragm-deluge-valves/deluge-valve-grooved.jpg"
+  },
+  "copy": {
+    "productViews": {
+      "text": "Product views",
+      "numbers": []
+    },
+    "specifications": {
+      "text": "Specifications",
+      "numbers": []
+    },
+    "availableModels": {
+      "text": "Available models",
+      "numbers": []
+    },
+    "oEMODM": {
+      "text": "OEM / ODM",
+      "numbers": []
+    },
+    "onThisPage": {
+      "text": "On this page",
+      "numbers": []
+    },
+    "delugeSystemWaterControlValve": {
+      "text": "Deluge-System Water Control Valve",
+      "numbers": []
+    },
+    "diaphragmDelugeValve": {
+      "text": "Diaphragm Deluge Valve",
+      "numbers": []
+    },
+    "aDiaphragmActuatedWaterControlValveForOpen": {
+      "text": "A diaphragm-actuated water control valve for open deluge sprinkler systems, offered with flanged or grooved connections. In the standby state the valve holds supply water back; on fire detection or manual release it opens and floods the deluge piping so open sprinklers or nozzles discharge over the protected area.",
+      "numbers": []
+    },
+    "flangedGrooved": {
+      "text": "Flanged / Grooved",
+      "numbers": []
+    },
+    "completeAlarmTrim": {
+      "text": "Complete Alarm Trim",
+      "numbers": []
+    },
+    "askOnWhatsApp": {
+      "text": "Ask on WhatsApp",
+      "numbers": []
+    },
+    "viewAvailableModels": {
+      "text": "View available models",
+      "numbers": []
+    },
+    "flangeDrillingGrooveProfileAndTrimArrangementAre": {
+      "text": "Flange drilling, groove profile and trim arrangement are confirmed against the approved drawing, sample or order schedule before production.",
+      "numbers": []
+    },
+    "realProductConfigurations": {
+      "text": "Real product configurations",
+      "numbers": []
+    },
+    "flangedAndGroovedConnectionViews": {
+      "text": "Flanged and grooved connection views",
+      "numbers": []
+    },
+    "bothPhotographsShowCompleteDelugeValveAssembliesThe": {
+      "text": "Both photographs show complete deluge valve assemblies. The visible physical GUANYA / 冠亚 product markings are retained; CHUANWEI FIRE identifies the website and export-sales presentation.",
+      "numbers": []
+    },
+    "flangedDiaphragmDelugeValve": {
+      "text": "Flanged Diaphragm Deluge Valve",
+      "numbers": []
+    },
+    "flanged": {
+      "text": "Flanged",
+      "numbers": []
+    },
+    "grooved": {
+      "text": "Grooved",
+      "numbers": []
+    },
+    "technicalOverview": {
+      "text": "Technical overview",
+      "numbers": []
+    },
+    "confirmedConstructionAndOperatingData": {
+      "text": "Confirmed construction and operating data",
+      "numbers": []
+    },
+    "criticalProductDataIsPresentedInHTMLFor": {
+      "text": "Critical product data is presented in HTML for clear international sourcing. The valve is type-tested to a national standard; no foreign approval is claimed on this page.",
+      "numbers": []
+    },
+    "seriesSpecifications": {
+      "text": "Series specifications",
+      "numbers": []
+    },
+    "productType": {
+      "text": "Product type",
+      "numbers": []
+    },
+    "diaphragmDelugeValveDelugeSystemWaterControlValve": {
+      "text": "Diaphragm Deluge Valve (deluge-system water control valve)",
+      "numbers": []
+    },
+    "availableSizes": {
+      "text": "Available sizes",
+      "numbers": []
+    },
+    "dN502InToDN25010In": {
+      "text": "DN{n0} / {n1} in to DN{n2} / {n3} in",
+      "numbers": [
+        "50",
+        "2",
+        "250",
+        "10"
+      ]
+    },
+    "connectionOptions": {
+      "text": "Connection options",
+      "numbers": []
+    },
+    "flangedOrGrooved": {
+      "text": "Flanged or grooved",
+      "numbers": []
+    },
+    "maximumWorkingPressure": {
+      "text": "Maximum working pressure",
+      "numbers": []
+    },
+    "16MPa16BarApprox232Psi": {
+      "text": "{n0} MPa / {n1} bar / approx. {n2} psi",
+      "numbers": [
+        "1.6",
+        "16",
+        "232"
+      ]
+    },
+    "supplyPressureRange": {
+      "text": "Supply pressure range",
+      "numbers": []
+    },
+    "minimumActuationPressure": {
+      "text": "Minimum actuation pressure",
+      "numbers": []
+    },
+    "alarmPortPressure": {
+      "text": "Alarm port pressure",
+      "numbers": []
+    },
+    "alarmResponse": {
+      "text": "Alarm response",
+      "numbers": []
+    },
+    "valveBodyAndCover": {
+      "text": "Valve body & cover",
+      "numbers": []
+    },
+    "ductileIronQT45010ASTMA5366545": {
+      "text": "Ductile iron QT{n0}-{n1} / ASTM A{n2} {n3}-{n4}-{n5}",
+      "numbers": [
+        "450",
+        "10",
+        "536",
+        "65",
+        "45",
+        "12"
+      ]
+    },
+    "diaphragm": {
+      "text": "Diaphragm",
+      "numbers": []
+    },
+    "nylonReinforcedNitrileRubberNBR": {
+      "text": "Nylon-reinforced nitrile rubber (NBR)",
+      "numbers": []
+    },
+    "oRings": {
+      "text": "O-rings",
+      "numbers": []
+    },
+    "nitrileRubberNBRBunaN": {
+      "text": "Nitrile rubber (NBR / Buna-N)",
+      "numbers": []
+    },
+    "discSeatBushingsAndPressurePlates": {
+      "text": "Disc, seat, bushings & pressure plates",
+      "numbers": []
+    },
+    "bronze": {
+      "text": "Bronze",
+      "numbers": []
+    },
+    "springAndShaft": {
+      "text": "Spring & shaft",
+      "numbers": []
+    },
+    "304StainlessSteel": {
+      "text": "{n0} stainless steel",
+      "numbers": [
+        "304"
+      ]
+    },
+    "coating": {
+      "text": "Coating",
+      "numbers": []
+    },
+    "internalAndExternalEpoxyCoatingRed": {
+      "text": "Internal and external epoxy coating (red)",
+      "numbers": []
+    },
+    "typeTestStandard": {
+      "text": "Type-test standard",
+      "numbers": []
+    },
+    "gB51355NationalDelugeValveStandardNo": {
+      "text": "GB {n0} (national deluge-valve standard); no foreign approval implied",
+      "numbers": [
+        "5135.5"
+      ]
+    },
+    "packaging": {
+      "text": "Packaging",
+      "numbers": []
+    },
+    "woodenCase": {
+      "text": "Wooden case",
+      "numbers": []
+    },
+    "actuationAndAlarmTrim": {
+      "text": "Actuation & alarm trim",
+      "numbers": []
+    },
+    "solenoidValve": {
+      "text": "Solenoid valve",
+      "numbers": []
+    },
+    "waterMotorAlarm": {
+      "text": "Water motor alarm",
+      "numbers": []
+    },
+    "brassBody": {
+      "text": "brass body",
+      "numbers": []
+    },
+    "minimumActuation": {
+      "text": "Minimum actuation",
+      "numbers": []
+    },
+    "035BarApprox5Psi": {
+      "text": "{n0} bar / approx. {n1} psi",
+      "numbers": [
+        "0.35",
+        "5"
+      ]
+    },
+    "byNominalSize": {
+      "text": "by nominal size",
+      "numbers": []
+    },
+    "configurationNote": {
+      "text": "Configuration note",
+      "numbers": []
+    },
+    "electricalAndTrimComponentsAreSuppliedAccordingTo": {
+      "text": "Electrical and trim components are supplied according to the confirmed order configuration.",
+      "numbers": []
+    },
+    "installationData": {
+      "text": "Installation data",
+      "numbers": []
+    },
+    "verticalInstallationWithTheFlowArrowUpwardAnd": {
+      "text": "Vertical installation with the flow arrow upward and aligned with the water-flow direction. Ambient temperature {n0}–{n1} °C; protect from freezing.",
+      "numbers": [
+        "4",
+        "70"
+      ]
+    },
+    "completeSupplyScope": {
+      "text": "Complete supply scope",
+      "numbers": []
+    },
+    "alarmTrimSuppliedWithTheMainValve": {
+      "text": "Alarm trim supplied with the main valve",
+      "numbers": []
+    },
+    "theStandardCompleteAssemblyIncludesTheItemsBelow": {
+      "text": "The standard complete assembly includes the items below. Customer-specified accessory makes or trim arrangements can be reviewed before quotation.",
+      "numbers": []
+    },
+    "diaphragmDelugeValveText": {
+      "text": "Diaphragm deluge valve",
+      "numbers": []
+    },
+    "pressureGauges": {
+      "text": "Pressure gauges",
+      "numbers": []
+    },
+    "manualQuickOpenBallValve": {
+      "text": "Manual quick-open ball valve",
+      "numbers": []
+    },
+    "checkValve": {
+      "text": "Check valve",
+      "numbers": []
+    },
+    "yStrainer": {
+      "text": "Y-strainer",
+      "numbers": []
+    },
+    "dripValve": {
+      "text": "Drip valve",
+      "numbers": []
+    },
+    "drainBallValve": {
+      "text": "Drain ball valve",
+      "numbers": []
+    },
+    "trimPipingAndFittings": {
+      "text": "Trim piping & fittings",
+      "numbers": []
+    },
+    "trimMaterialsSolenoidValveBallValvesCheckValve": {
+      "text": "Trim materials: solenoid valve, ball valves, check valve, drip/drain valves and water-motor-alarm body in brass; Y-strainer in brass with ≥ {n0} mesh screen; control piping in {n1} stainless steel; pressure gauges with stainless-steel case; fasteners in galvanized carbon steel.",
+      "numbers": [
+        "60",
+        "304"
+      ]
+    },
+    "configurationsForQuotation": {
+      "text": "Configurations for quotation",
+      "numbers": []
+    },
+    "internationalSizeAndConnectionAreThePrimarySelection": {
+      "text": "International size and connection are the primary selection fields. ZSFM codes are retained only as factory references. Reference height may vary with the approved trim arrangement.",
+      "numbers": []
+    },
+    "internationalConfiguration": {
+      "text": "International configuration",
+      "numbers": []
+    },
+    "nominalSize": {
+      "text": "Nominal size",
+      "numbers": []
+    },
+    "maximumPressure": {
+      "text": "Maximum pressure",
+      "numbers": []
+    },
+    "referenceHeight": {
+      "text": "Reference height",
+      "numbers": []
+    },
+    "factoryReference": {
+      "text": "Factory reference",
+      "numbers": []
+    },
+    "availableOnRequest": {
+      "text": "Available on request",
+      "numbers": []
+    },
+    "groovedDiaphragmDelugeValve": {
+      "text": "Grooved Diaphragm Deluge Valve",
+      "numbers": []
+    },
+    "dN200FlangedIsAvailableInTwoReferenceHeights": {
+      "text": "DN{n0} flanged is available in two reference heights ({n1} mm and {n2} mm) across standard and current designs. For quotation, specify DN size, flanged or grooved connection, required flange drilling or groove profile, trim requirements, quantity and destination country.",
+      "numbers": [
+        "200",
+        "530",
+        "535"
+      ]
+    },
+    "oEMODMCapability": {
+      "text": "OEM / ODM capability",
+      "numbers": []
+    },
+    "configuredToTheApprovedDrawingOrSample": {
+      "text": "Configured to the approved drawing or sample",
+      "numbers": []
+    },
+    "manufacturingAndAssemblyOptionsAreConfirmedAgainstThe": {
+      "text": "Manufacturing and assembly options are confirmed against the buyer's technical schedule. Connection-standard names describe available machining patterns and do not imply third-party product approval.",
+      "numbers": []
+    },
+    "flangeMachining": {
+      "text": "Flange machining",
+      "numbers": []
+    },
+    "gBANSIDINOrBSDimensionalPatternsSubject": {
+      "text": "GB, ANSI, DIN or BS dimensional patterns, subject to the approved drawing and pressure requirement.",
+      "numbers": []
+    },
+    "groovedConnection": {
+      "text": "Grooved connection",
+      "numbers": []
+    },
+    "grooveDimensionsProducedToAnApprovedCustomerSample": {
+      "text": "Groove dimensions produced to an approved customer sample or drawing.",
+      "numbers": []
+    },
+    "trimConfiguration": {
+      "text": "Trim configuration",
+      "numbers": []
+    },
+    "customerSpecifiedAccessoriesPipingArrangementAndAgreedComponent": {
+      "text": "Customer-specified accessories, piping arrangement and agreed component configuration.",
+      "numbers": []
+    },
+    "brandPresentation": {
+      "text": "Brand presentation",
+      "numbers": []
+    },
+    "customNameplateLogoAndEpoxyCoatingColor": {
+      "text": "Custom nameplate, logo and epoxy coating color.",
+      "numbers": []
+    },
+    "drawingOrSampleProduction": {
+      "text": "Drawing or sample production",
+      "numbers": []
+    },
+    "valveConnectionAndTrimDetailsReviewedBeforeManufacturing": {
+      "text": "Valve connection and trim details reviewed before manufacturing.",
+      "numbers": []
+    },
+    "exportPacking": {
+      "text": "Export packing",
+      "numbers": []
+    },
+    "woodenCasePackingPreparedAccordingToTheOrder": {
+      "text": "Wooden-case packing prepared according to the order.",
+      "numbers": []
+    },
+    "sendYourDelugeValveSchedule": {
+      "text": "Send your deluge valve schedule",
+      "numbers": []
+    },
+    "includeSizeConnectionFlangeOrGrooveRequirementTrim": {
+      "text": "Include size, connection, flange or groove requirement, trim configuration, quantity and destination country.",
+      "numbers": []
+    },
+    "whatsAppInquiry": {
+      "text": "WhatsApp inquiry",
+      "numbers": []
+    },
+    "emailSales": {
+      "text": "Email sales",
+      "numbers": []
+    },
+    "enlargeFlangedDiaphragmDelugeValveImage": {
+      "text": "Enlarge flanged diaphragm deluge valve image",
+      "numbers": []
+    },
+    "flangedDiaphragmDelugeValveCompleteAssemblyWithSolenoid": {
+      "text": "Flanged diaphragm deluge valve complete assembly with solenoid valve, pressure gauges and water motor alarm",
+      "numbers": []
+    },
+    "enlargeSelectedProductImage": {
+      "text": "Enlarge selected product image",
+      "numbers": []
+    },
+    "flangedDiaphragmDelugeValveAssembly": {
+      "text": "Flanged diaphragm deluge valve assembly",
+      "numbers": []
+    },
+    "previousProductImage": {
+      "text": "Previous product image",
+      "numbers": []
+    },
+    "nextProductImage": {
+      "text": "Next product image",
+      "numbers": []
+    },
+    "productImageThumbnails": {
+      "text": "Product image thumbnails",
+      "numbers": []
+    },
+    "flangedDelugeValveThumbnail": {
+      "text": "Flanged deluge valve thumbnail",
+      "numbers": []
+    },
+    "groovedDiaphragmDelugeValveAssembly": {
+      "text": "Grooved diaphragm deluge valve assembly",
+      "numbers": []
+    },
+    "groovedDelugeValveThumbnail": {
+      "text": "Grooved deluge valve thumbnail",
+      "numbers": []
+    },
+    "productImagePreview": {
+      "text": "Product image preview",
+      "numbers": []
+    },
+    "closeImagePreview": {
+      "text": "Close image preview",
+      "numbers": []
+    },
+    "enlargedDiaphragmDelugeValve": {
+      "text": "Enlarged diaphragm deluge valve",
+      "numbers": []
+    },
+    "whatsAppChat": {
+      "text": "WhatsApp Chat",
+      "numbers": []
+    },
+    "facebookPage": {
+      "text": "Facebook Page",
+      "numbers": []
+    },
+    "linkedInProfile": {
+      "text": "LinkedIn Profile",
+      "numbers": []
+    },
+    "seoTitle": {
+      "text": "Diaphragm Deluge Valve | DN{n0}–DN{n1} | CHUANWEI FIRE",
+      "numbers": [
+        "50",
+        "250"
+      ]
+    },
+    "seoDescription": {
+      "text": "Flanged and grooved diaphragm deluge valves in DN{n0} to DN{n1}, {n2} MPa, supplied with complete alarm trim and product-specific OEM/ODM support.",
+      "numbers": [
+        "50",
+        "250",
+        "1.6"
+      ]
+    }
+  },
+  "shared": {
+    "dN50DN250": "DN50–DN250",
+    "210In": "2–10 in",
+    "16MPa16Bar": "1.6 MPa / 16 bar",
+    "01416MPa1416": "0.14–1.6 MPa / 1.4–16 bar",
+    "0035MPa035Bar": "0.035 MPa / 0.35 bar",
+    "005MPa05Bar": "≥ 0.05 MPa / 0.5 bar",
+    "15SDN15060SDN200": "≤ 15 s (DN ≤ 150) · ≤ 60 s (DN ≥ 200)",
+    "dC24V05A": "DC 24 V · 0.5 A",
+    "70DB": "≥ 70 dB",
+    "0035MPa": "0.035 MPa",
+    "15S60S": "≤ 15 s / 60 s",
+    "dN502In": "DN50 / 2 in",
+    "16MPa": "1.6 MPa",
+    "265Mm": "265 mm",
+    "zSFM50": "ZSFM50",
+    "dN652In": "DN65 / 2½ in",
+    "zSFM65": "ZSFM65",
+    "dN803In": "DN80 / 3 in",
+    "325Mm": "325 mm",
+    "zSFM80": "ZSFM80",
+    "dN1004In": "DN100 / 4 in",
+    "335Mm": "335 mm",
+    "zSFM100": "ZSFM100",
+    "dN1255In": "DN125 / 5 in",
+    "zSFM125": "ZSFM125",
+    "dN1506In": "DN150 / 6 in",
+    "415Mm": "415 mm",
+    "zSFM150": "ZSFM150",
+    "dN2008In": "DN200 / 8 in",
+    "530535Mm": "530–535 mm",
+    "zSFM200": "ZSFM200",
+    "dN25010In": "DN250 / 10 in",
+    "615Mm": "615 mm",
+    "zSFM250": "ZSFM250",
+    "340Mm": "340 mm",
+    "zSFM100G": "ZSFM100(G)",
+    "425Mm": "425 mm",
+    "zSFM150G": "ZSFM150(G)",
+    "zSFM200G": "ZSFM200(G)"
+  },
+  "models": [
+    [
+      "flangedDiaphragmDelugeValve",
+      "dN502In",
+      "16MPa",
+      "265Mm",
+      "zSFM50"
+    ],
+    [
+      "flangedDiaphragmDelugeValve",
+      "dN652In",
+      "16MPa",
+      "265Mm",
+      "zSFM65"
+    ],
+    [
+      "flangedDiaphragmDelugeValve",
+      "dN803In",
+      "16MPa",
+      "325Mm",
+      "zSFM80"
+    ],
+    [
+      "flangedDiaphragmDelugeValve",
+      "dN1004In",
+      "16MPa",
+      "335Mm",
+      "zSFM100"
+    ],
+    [
+      "flangedDiaphragmDelugeValve",
+      "dN1255In",
+      "16MPa",
+      "availableOnRequest",
+      "zSFM125"
+    ],
+    [
+      "flangedDiaphragmDelugeValve",
+      "dN1506In",
+      "16MPa",
+      "415Mm",
+      "zSFM150"
+    ],
+    [
+      "flangedDiaphragmDelugeValve",
+      "dN2008In",
+      "16MPa",
+      "530535Mm",
+      "zSFM200"
+    ],
+    [
+      "flangedDiaphragmDelugeValve",
+      "dN25010In",
+      "16MPa",
+      "615Mm",
+      "zSFM250"
+    ],
+    [
+      "groovedDiaphragmDelugeValve",
+      "dN1004In",
+      "16MPa",
+      "340Mm",
+      "zSFM100G"
+    ],
+    [
+      "groovedDiaphragmDelugeValve",
+      "dN1506In",
+      "16MPa",
+      "425Mm",
+      "zSFM150G"
+    ],
+    [
+      "groovedDiaphragmDelugeValve",
+      "dN2008In",
+      "16MPa",
+      "availableOnRequest",
+      "zSFM200G"
+    ]
+  ]
+}

@@ -1,0 +1,31 @@
+---
+pagination:
+  data: preservedCatalog
+  size: 1
+  alias: entry
+permalink: "{{ entry.route.outputPath }}"
+eleventyExcludeFromCollections: true
+---
+<!doctype html>
+<!-- GENERATED FILE. Edit the preserved product data, Arabic copy, or shared product-series include; do not edit language outputs. -->
+<html lang="{{ entry.lang }}" dir="{{ entry.dir }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="{{ entry.route.assetPrefix }}favicon.ico" type="image/x-icon">
+  <link rel="apple-touch-icon" href="{{ entry.route.assetPrefix }}apple-touch-icon.png">
+  <link rel="stylesheet" href="{{ entry.route.assetPrefix }}css/common.css">
+  <link rel="stylesheet" href="{{ entry.route.assetPrefix }}css/sprinkler-product.css">
+  <link rel="stylesheet" href="{{ entry.route.assetPrefix }}css/wet-alarm-valve-product.css">
+  <link rel="stylesheet" href="{{ entry.route.assetPrefix }}css/site-navigation.css">
+{% if entry.lang == 'ar' %}  <link rel="stylesheet" href="{{ entry.route.assetPrefix }}css/multilingual-product.css">
+{% endif %}
+{% seoTags entry.seo %}
+</head>
+<body data-site-language="{{ entry.lang }}" data-site-route-id="{{ entry.product.routeId }}">
+{% include "site-header.njk" %}
+{% include entry.product.template %}
+  <script src="{{ entry.route.assetPrefix }}assets/js/preserved-product-gallery.js"></script>
+  <script src="{{ entry.route.assetPrefix }}assets/js/site-navigation.js"></script>
+</body>
+</html>
