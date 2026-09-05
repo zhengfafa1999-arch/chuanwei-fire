@@ -14,6 +14,20 @@
     "width": 1200,
     "height": 1146
   },
+  "textKeys": {
+    "eyebrow": "fireProtectionButterflyValve",
+    "title": "leverOperatedGroovedButterflyValve",
+    "lead": "manualLeverOperatedButterflyValveWithGroovedEnds",
+    "note": "grooveProfileFaceToFaceDimensionAndMarkingAre",
+    "imageAria": "enlargeLeverOperatedGroovedButterflyValveImage",
+    "imageAlt": "leverOperatedGroovedButterflyValveWithGroovedEndsAndVisibleLever",
+    "modelIntro": "internationalSizeAndConnectionAreThePrimarySelection",
+    "optionsNote": "forQuotationSpecifyDNSizeGrooveProfileRequirement",
+    "manufacturingNote": "manufacturingOptionsAreConfirmedAgainstTheBuyerS",
+    "ctaTitle": "sendYourButterflyValveSchedule",
+    "ctaText": "includeSizeGrooveProfileRequirementQuantityAndDestination",
+    "modalAlt": "enlargedLeverOperatedGroovedButterflyValve"
+  },
   "chips": ["sizeRangeChip", "inchRangeChip", "grooved", "pressureChip", "leverOperated"],
   "specifications": [
     ["productType", "leverOperatedGroovedButterflyValve"],

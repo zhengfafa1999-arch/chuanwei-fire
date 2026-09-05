@@ -1,0 +1,51 @@
+{
+  "scope": "single-product",
+  "product": "lever-operated-wafer-butterfly-valves",
+  "previewMode": "file",
+  "generatedAt": "2026-09-05T15:49:30.750Z",
+  "browser": "Edg/152.0.4191.62",
+  "viewports": [
+    {
+      "id": "desktop",
+      "width": 1440,
+      "height": 900,
+      "deviceScaleFactor": 1,
+      "mobile": false
+    },
+    {
+      "id": "mobile",
+      "width": 390,
+      "height": 844,
+      "deviceScaleFactor": 1,
+      "mobile": true
+    }
+  ],
+  "languageSwitches": [
+    {
+      "scenario": "desktop/en: lever-operated-wafer-butterfly-valves image/text category entries, reciprocal switch, refresh, single hero image zoom, three modal closes and footer returns",
+      "status": "PASS"
+    },
+    {
+      "scenario": "desktop/ar: lever-operated-wafer-butterfly-valves image/text category entries, reciprocal switch, refresh, single hero image zoom, three modal closes and footer returns",
+      "status": "PASS"
+    },
+    {
+      "scenario": "mobile/en: lever-operated-wafer-butterfly-valves image/text category entries, reciprocal switch, refresh, single hero image zoom, three modal closes and footer returns",
+      "status": "PASS"
+    },
+    {
+      "scenario": "mobile/ar: lever-operated-wafer-butterfly-valves image/text category entries, reciprocal switch, refresh, single hero image zoom, three modal closes and footer returns",
+      "status": "PASS"
+    }
+  ],
+  "screenshots": [
+    "edge-desktop-lever-operated-wafer-butterfly-valves-en-hero.png",
+    "edge-desktop-lever-operated-wafer-butterfly-valves-en-models.png",
+    "edge-desktop-lever-operated-wafer-butterfly-valves-ar-hero.png",
+    "edge-desktop-lever-operated-wafer-butterfly-valves-ar-models.png",
+    "edge-mobile-lever-operated-wafer-butterfly-valves-en-hero.png",
+    "edge-mobile-lever-operated-wafer-butterfly-valves-en-models.png",
+    "edge-mobile-lever-operated-wafer-butterfly-valves-ar-hero.png",
+    "edge-mobile-lever-operated-wafer-butterfly-valves-ar-models.png"
+  ]
+}
