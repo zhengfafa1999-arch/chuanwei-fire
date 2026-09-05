@@ -13,7 +13,7 @@ const readJson = file => JSON.parse(fs.readFileSync(file, "utf8"));
 function displayText(text, lang) {
   if (lang !== "ar") return text;
   return Object.fromEntries(Object.entries(text).map(([key, value]) => [key,
-    value.replace(/[A-Za-z0-9≥≤][A-Za-z0-9 \t.:/(),≥≤–·+%-]*[A-Za-z0-9%)]|[A-Za-z0-9]/g, run => `\u2066${run}\u2069`)
+    value.replace(/[A-Za-z0-9≥≤½¾][A-Za-z0-9 \t.:/(),≥≤–·+%°½¾-]*[A-Za-z0-9%½¾)]|[A-Za-z0-9½¾]/g, run => `\u2066${run}\u2069`)
   ]));
 }
 
@@ -44,7 +44,7 @@ export default products.flatMap(product => ["en", "ar"].map(lang => {
     navigation: createSiteNavigation(product.routeId, lang, route.outputPath),
     seo: createSeoMetadata(product.routeId, lang, {
       title: text.seoTitle, description: text.seoDescription,
-      image: new URL(product.media.flanged, `${SITE_ORIGIN}/`).href
+      image: new URL(product.media.hero || product.media.flanged, `${SITE_ORIGIN}/`).href
     })
   };
 }));

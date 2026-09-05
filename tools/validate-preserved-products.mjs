@@ -30,13 +30,25 @@ for (const entry of catalog) {
     const body = html => html.match(/<body\b[^>]*>([\s\S]*?)<\/body>/i)?.[1].replace(/<script\b[^>]*>[\s\S]*?<\/script>/gi, "") || "";
     assert.deepEqual(structure(body(output)), structure(body(read(baselineFile))), "English page structure/footer/social order changed");
     assert.equal(visibleText(content), visibleText(baseline), "English visible product content changed during language-only migration");
+    if (entry.product.gallery) {
+      const originalGallery = read(baselineFile).match(/const galleryItems=(\[[\s\S]*?\]);/)?.[1];
+      assert(originalGallery, "Gallery baseline missing");
+      const items = [...originalGallery.matchAll(/src:'([^']+)',alt:'([^']+)',caption:'([^']+)'/g)];
+      assert.equal(items.length, entry.product.gallery.length, "Gallery image count changed");
+      entry.product.gallery.forEach((item, index) => {
+        const [, src, alt, caption] = items[index];
+        assert.equal(entry.text[item.alt], alt, "English dynamic gallery alt changed");
+        assert.equal(entry.text[item.caption], caption, "English dynamic gallery caption changed");
+        assert.equal(path.resolve(entry.product.media[item.media]), path.resolve(path.dirname(entry.product.source.path), src), "Dynamic gallery image changed");
+      });
+    }
     const inquiries = html => [...html.matchAll(/href="(https:[^"]*|mailto:[^"]*)"/g)].map(([, href]) => decode(href));
     assert.deepEqual(inquiries(content), inquiries(baseline), "Existing inquiry destinations/messages changed");
   } else {
     // A ratio must remain one LTR run: splitting on ':' reverses its terms in RTL.
     for (const value of Object.values(entry.text)) {
       const plain = value.replace(/[\u2066\u2069]/g, "");
-      for (const [ratio] of plain.matchAll(/\d+(?:\.\d+)?:\d+(?:\.\d+)?/g)) {
+      for (const [ratio] of plain.matchAll(/\d+(?:\.\d+)?:\d+(?:\.\d+)?|\d+°C\s*\/\s*\d+°F|DN\d+\s*\/\s*[½¾]\s*in/g)) {
         assert(value.includes(ratio), `Arabic ratio split by direction markers: ${ratio}`);
       }
     }

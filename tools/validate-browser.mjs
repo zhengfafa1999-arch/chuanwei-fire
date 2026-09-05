@@ -6,6 +6,7 @@ import { pathToFileURL } from "node:url";
 import { spawn } from "node:child_process";
 import { SITE_ROUTES } from "../site-src/_data/siteRoutes.js";
 import { validateSystemValveNavigation } from "./browser-system-valves.mjs";
+import { validateStandardResponse } from "./browser-standard-response.mjs";
 
 const root = process.cwd();
 const evidenceDirectory = process.env.SITE_BROWSER_EVIDENCE_DIR
@@ -201,6 +202,8 @@ async function inspectPage(client) {
 }
 
 const pages = [
+  { id: "standard-response-en", path: "/products/消防喷头/standard-response-fire-sprinkler.html", lang: "en", dir: "ltr", marker: "Standard Response" },
+  { id: "standard-response-ar", path: "/ar/products/standard-response-fire-sprinkler/index.html", lang: "ar", dir: "rtl", marker: "الاستجابة القياسية" },
   { id: "home-en", path: "/index.html?lang=en", lang: "en", dir: "ltr", marker: "Fire Protection Equipment" },
   { id: "home-zh", path: "/zh/index.html", lang: "zh-CN", preference: "zh", dir: "ltr", marker: "消防设备制造" },
   { id: "home-ar", path: "/ar/index.html?lang=ar", lang: "ar", dir: "rtl", marker: "تصنيع معدات مكافحة الحريق" },
@@ -253,7 +256,7 @@ const responsiveScreenshotTargets = new Set([
   "home:ar",
   "category:sprinklers:ar",
   "product:wet-alarm-check-valve:ar",
-  "product:standard-response-fire-sprinkler:en"
+  "product:glass-bulb-fire-sprinkler:en"
 ]);
 
 async function run() {
@@ -424,8 +427,8 @@ async function run() {
     }
 
     await navigate(client, `${origin}/ar/products/sprinklers/index.html`, "/ar/products/sprinklers/index.html");
-    await evaluate(client, `document.querySelector('a[href*="standard-response-fire-sprinkler.html"]').click()`);
-    await waitForLocation(client, "/products/消防喷头/standard-response-fire-sprinkler.html");
+    await evaluate(client, `document.querySelector('a[href*="glass-bulb-fire-sprinkler.html"]').click()`);
+    await waitForLocation(client, "/products/消防喷头/glass-bulb-fire-sprinkler.html");
     const englishFallback = await inspectPage(client);
     assert(englishFallback.lang === "en", "An untranslated product opened from Arabic must remain available in English.");
     languageSwitches.push({ scenario: "AR category opens untranslated EN product without redirect loop", status: "PASS", finalUrl: englishFallback.url, lang: englishFallback.lang, dir: englishFallback.dir });
@@ -533,6 +536,12 @@ async function run() {
           })()`);
           assert(Object.values(zoom).every(Boolean), `${viewport.id}/${locale}: ${product.id} zoom failed: ${JSON.stringify(zoom)}`);
           productInteractions.push({product:product.id,viewport:viewport.id,locale,status:"PASS",zoom});
+          // Separate modal focus/scroll restoration from the next anchor scenario.
+          // Otherwise a pending browser scroll can interrupt the anchor animation.
+          await evaluate(client, `new Promise(resolve => requestAnimationFrame(() => {
+            window.scrollTo({top:0,behavior:'instant'});
+            requestAnimationFrame(resolve);
+          }))`);
           await evaluate(client, `document.querySelector('.pdp-section-navigation a[href="#models"]').click()`);
           // Wait for smooth anchor scrolling, otherwise a screenshot can capture
           // the preceding section and a lower-bound-only position check still pass.
@@ -547,7 +556,7 @@ async function run() {
           const anchor = await evaluate(client, `({path:location.pathname,hash:location.hash,top:document.querySelector('#models').getBoundingClientRect().top,headingTop:document.querySelector('#models h2').getBoundingClientRect().top,headerBottom:document.querySelector('[data-global-header]').getBoundingClientRect().bottom})`);
           assert(pathnameMatches(anchor.path,productPath) && anchor.hash === "#models", "Single-photo product section link changed language");
           assert(anchor.headingTop >= anchor.headerBottom - 1, "Single-photo product model heading is hidden under navigation");
-          assert(anchor.top < viewport.height / 2, "Single-photo product model section did not finish scrolling into view");
+          assert(anchor.top < viewport.height / 2, `${viewport.id}/${locale}/${product.id}: model anchor did not settle: ${JSON.stringify(anchor)}`);
           const screenshot = await client.send("Page.captureScreenshot", {format:"png",captureBeyondViewport:false});
           const screenshotName = `edge-${viewport.id}-${product.id}-${locale}-models.png`;
           fs.writeFileSync(path.join(evidenceDirectory,screenshotName),Buffer.from(screenshot.data,"base64"));
@@ -561,6 +570,10 @@ async function run() {
     languageSwitches.push(...await validateSystemValveNavigation({
       client, origin, viewports, evaluate, navigate, waitForLocation, inspectPage, assert
     }));
+    const standardResponse = await validateStandardResponse({
+      client, origin, viewports, evaluate, navigate, waitForLocation, inspectPage, assert, evidenceDirectory
+    });
+    languageSwitches.push(...standardResponse.results);
     const evidence = {
       previewMode: process.argv.includes("--file-preview") ? "file" : "http",
       generatedAt: new Date().toISOString(),
@@ -575,7 +588,8 @@ async function run() {
       screenshots: [
         ...viewports.flatMap((viewport) => ["home-en", "home-zh", "home-ar", "category-en", "category-ar", "about-en", "about-ar", "downloads-en", "downloads-ar", "contact-en", "contact-ar", "deluge-en", "deluge-ar", "preaction-en", "preaction-ar", "dry-pipe-en", "dry-pipe-ar"].map((page) => `edge-${viewport.id}-${page}.png`)),
         ...responsiveScreenshots,
-        ...singlePhotoScreenshots
+        ...singlePhotoScreenshots,
+        ...standardResponse.screenshots
       ]
     };
     fs.writeFileSync(path.join(evidenceDirectory, "browser-validation.json"), `${JSON.stringify(evidence, null, 2)}\n`);
@@ -595,6 +609,7 @@ async function run() {
       "",
       "## 覆盖范围",
       "",
+      "标准响应消防喷头：双语分类图片/文字入口、同商品双向切换与刷新、四张图库及阿文动态说明、箭头循环、左右滑动、放大及三种关闭方式、三个页脚同语言返回入口。",
       `英文/中文/阿文首页、产品总目录、公共页面、分类页和双语详情；逐一打开全部 ${navigationPages.length} 个正式页面，在 1440、768、390 和 320 像素四档宽度检查 LTR/RTL、页面溢出、页头边界、图片加载、控件和菜单；验证语言切换与返回，检查雨淋阀图库，以及预作用阀组、干式报警阀单图放大、三种关闭方式和型号锚点；逐一验证报警阀分类四类产品的图片/文字入口、双向语言切换、刷新、浏览器返回及三个页脚返回入口。`,
       "",
       "## 可复核产物",
