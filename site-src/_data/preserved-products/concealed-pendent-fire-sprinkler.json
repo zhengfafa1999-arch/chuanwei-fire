@@ -1,0 +1,680 @@
+{
+  "id": "concealed-pendent-fire-sprinkler",
+  "routeId": "product:concealed-pendent-fire-sprinkler",
+  "template": "product-series/concealed-pendent.njk",
+  "styles": [
+    "css/common.css",
+    "css/sprinkler-product.css",
+    "css/sprinkler-product-gallery.css",
+    "css/site-navigation.css"
+  ],
+  "source": {
+    "path": "products/消防喷头/concealed-pendent-fire-sprinkler.html",
+    "revision": "c4b6dfa",
+    "status": "preserved-existing-content-not-reaudited"
+  },
+  "media": {
+    "hero": "products/消防喷头/concealed-pendent-sprinkler/concealed-sprinkler-68c-open.jpg",
+    "image1": "products/消防喷头/concealed-pendent-sprinkler/concealed-sprinkler-cover-plate.jpg",
+    "image2": "products/消防喷头/concealed-pendent-sprinkler/concealed-sprinkler-orange-bulb.jpg",
+    "image3": "products/消防喷头/concealed-pendent-sprinkler/concealed-sprinkler-red-bulb.jpg",
+    "image4": "products/消防喷头/concealed-pendent-sprinkler/concealed-sprinkler-green-bulb.jpg",
+    "image5": "products/消防喷头/concealed-pendent-sprinkler/concealed-sprinkler-blue-bulb.jpg"
+  },
+  "copy": {
+    "productImages": {
+      "text": "Product images",
+      "numbers": []
+    },
+    "specifications": {
+      "text": "Specifications",
+      "numbers": []
+    },
+    "availableModels": {
+      "text": "Available models",
+      "numbers": []
+    },
+    "oEMODM": {
+      "text": "OEM / ODM",
+      "numbers": []
+    },
+    "concealedPendentStandardQuickResponse": {
+      "text": "Concealed Pendent · Standard & Quick Response",
+      "numbers": []
+    },
+    "concealedPendentFireSprinklers": {
+      "text": "Concealed Pendent Fire Sprinklers",
+      "numbers": []
+    },
+    "aFlushFinishPendentSprinklerFamilyForCeiling": {
+      "text": "A flush-finish pendent sprinkler family for ceiling installations, available in standard response and quick response versions. Select the response type, nominal size, K-factor and temperature required for the project.",
+      "numbers": []
+    },
+    "standardQuickResponse": {
+      "text": "Standard / Quick Response",
+      "numbers": []
+    },
+    "value57141COptions": {
+      "text": "{n0}–{n1}°C Options",
+      "numbers": [
+        "57",
+        "141"
+      ]
+    },
+    "askOnWhatsApp": {
+      "text": "Ask on WhatsApp",
+      "numbers": []
+    },
+    "viewAvailableModels": {
+      "text": "View available models",
+      "numbers": []
+    },
+    "factoryReferencesAreShownOnlyForProductionAnd": {
+      "text": "Factory references are shown only for production and repeat-order matching. Cover configuration, thread, marking and documentation are confirmed against the approved order.",
+      "numbers": []
+    },
+    "productPresentation": {
+      "text": "Product presentation",
+      "numbers": []
+    },
+    "mechanismCoverAndTemperatureSamples": {
+      "text": "Mechanism, cover and temperature samples.",
+      "numbers": []
+    },
+    "reviewTheConcealedSprinklerMechanismCoverPlateAssembly": {
+      "text": "Review the concealed sprinkler mechanism, cover plate assembly and real product samples with different glass-bulb temperature colors. The product markings remain visible for model identification.",
+      "numbers": []
+    },
+    "coverPlateAssembly": {
+      "text": "Cover Plate Assembly",
+      "numbers": []
+    },
+    "value57COrangeBulb": {
+      "text": "{n0}°C Orange Bulb",
+      "numbers": [
+        "57"
+      ]
+    },
+    "value93CGreenBulb": {
+      "text": "{n0}°C Green Bulb",
+      "numbers": [
+        "93"
+      ]
+    },
+    "value141CBlueBulb": {
+      "text": "{n0}°C Blue Bulb",
+      "numbers": [
+        "141"
+      ]
+    },
+    "technicalOverview": {
+      "text": "Technical overview",
+      "numbers": []
+    },
+    "twoResponseOptionsInOneFamily": {
+      "text": "Two response options in one family.",
+      "numbers": []
+    },
+    "theStandardResponseVersionUsesA5Mm": {
+      "text": "The standard response version uses a {n0} mm glass bulb. The quick response version uses a {n1} mm glass bulb. Both are available in DN{n2} and DN{n3} configurations.",
+      "numbers": [
+        "5",
+        "3",
+        "15",
+        "20"
+      ]
+    },
+    "productSpecifications": {
+      "text": "Product specifications",
+      "numbers": []
+    },
+    "productType": {
+      "text": "Product type",
+      "numbers": []
+    },
+    "concealedPendentFireSprinkler": {
+      "text": "Concealed Pendent Fire Sprinkler",
+      "numbers": []
+    },
+    "responseOptions": {
+      "text": "Response options",
+      "numbers": []
+    },
+    "standardResponseOrQuickResponse": {
+      "text": "Standard Response or Quick Response",
+      "numbers": []
+    },
+    "thermalElement": {
+      "text": "Thermal element",
+      "numbers": []
+    },
+    "value5MmGlassBulbForStandardResponse3": {
+      "text": "{n0} mm glass bulb for Standard Response; {n1} mm glass bulb for Quick Response",
+      "numbers": [
+        "5",
+        "3"
+      ]
+    },
+    "nominalSizes": {
+      "text": "Nominal sizes",
+      "numbers": []
+    },
+    "kFactor": {
+      "text": "K-factor",
+      "numbers": []
+    },
+    "k56USK80MetricK80US": {
+      "text": "K{n0} US / K{n1} metric; K{n2} US / K{n3} metric",
+      "numbers": [
+        "5.6",
+        "80",
+        "8.0",
+        "115"
+      ]
+    },
+    "temperatureOptions": {
+      "text": "Temperature options",
+      "numbers": []
+    },
+    "frameMaterial": {
+      "text": "Frame material",
+      "numbers": []
+    },
+    "copper": {
+      "text": "Copper",
+      "numbers": []
+    },
+    "surfaceFinish": {
+      "text": "Surface finish",
+      "numbers": []
+    },
+    "chromePlatedOrNaturalCopperFinish": {
+      "text": "Chrome-plated or natural copper finish",
+      "numbers": []
+    },
+    "threadForm": {
+      "text": "Thread form",
+      "numbers": []
+    },
+    "manufacturedToTheConfirmedCustomerDrawingOrApproved": {
+      "text": "Manufactured to the confirmed customer drawing or approved sample",
+      "numbers": []
+    },
+    "maxWorkingPressure": {
+      "text": "Max. working pressure",
+      "numbers": []
+    },
+    "value12MPa12BarApprox175Psi": {
+      "text": "{n0} MPa / {n1} bar / approx. {n2} psi",
+      "numbers": [
+        "1.2",
+        "12",
+        "175"
+      ]
+    },
+    "standardPacking": {
+      "text": "Standard packing",
+      "numbers": []
+    },
+    "value100PcsPerExportCarton": {
+      "text": "{n0} pcs per export carton",
+      "numbers": [
+        "100"
+      ]
+    },
+    "systemApplication": {
+      "text": "System application",
+      "numbers": []
+    },
+    "wetPipeAutomaticSprinklerSystemsWithConcealedPendent": {
+      "text": "Wet-pipe automatic sprinkler systems with concealed pendent installation",
+      "numbers": []
+    },
+    "compliance": {
+      "text": "Compliance",
+      "numbers": []
+    },
+    "documentationReviewedAccordingToTheConfirmedOrderAnd": {
+      "text": "Documentation reviewed according to the confirmed order and destination market; no foreign approval is implied",
+      "numbers": []
+    },
+    "responseComparison": {
+      "text": "Response comparison",
+      "numbers": []
+    },
+    "standardResponse": {
+      "text": "Standard Response",
+      "numbers": []
+    },
+    "value5MmGlassBulbAvailableInDN15K5": {
+      "text": "{n0} mm glass bulb. Available in DN{n1} / K{n2} and DN{n3} / K{n4}.",
+      "numbers": [
+        "5",
+        "15",
+        "5.6",
+        "20",
+        "8.0"
+      ]
+    },
+    "quickResponse": {
+      "text": "Quick Response",
+      "numbers": []
+    },
+    "value3MmGlassBulbAvailableInDN15K5": {
+      "text": "{n0} mm glass bulb. Available in DN{n1} / K{n2} and DN{n3} / K{n4}.",
+      "numbers": [
+        "3",
+        "15",
+        "5.6",
+        "20",
+        "8.0"
+      ]
+    },
+    "availableTemperatures": {
+      "text": "Available temperatures",
+      "numbers": []
+    },
+    "value57687993And141CFor": {
+      "text": "{n0}, {n1}, {n2}, {n3} and {n4}°C for both response groups.",
+      "numbers": [
+        "57",
+        "68",
+        "79",
+        "93",
+        "141"
+      ]
+    },
+    "coverPlate": {
+      "text": "Cover plate",
+      "numbers": []
+    },
+    "coverConfigurationAndFinishAreConfirmedWithThe": {
+      "text": "Cover configuration and finish are confirmed with the selected sprinkler and approved sample.",
+      "numbers": []
+    },
+    "engineeringNote": {
+      "text": "Engineering note",
+      "numbers": []
+    },
+    "finalSelectionCeilingArrangementSpacingPressureAndInstallation": {
+      "text": "Final selection, ceiling arrangement, spacing, pressure and installation must follow the approved system design and exact supplied model.",
+      "numbers": []
+    },
+    "availableConfigurations": {
+      "text": "Available configurations",
+      "numbers": []
+    },
+    "modelsYouCanOrder": {
+      "text": "Models you can order",
+      "numbers": []
+    },
+    "chooseTheResponseTypeAndNominalSizeFirst": {
+      "text": "Choose the response type and nominal size first, then specify temperature, finish, thread and marking. Factory references remain secondary production identifiers.",
+      "numbers": []
+    },
+    "responseType": {
+      "text": "Response type",
+      "numbers": []
+    },
+    "nominalSize": {
+      "text": "Nominal size",
+      "numbers": []
+    },
+    "factoryReference": {
+      "text": "Factory reference",
+      "numbers": []
+    },
+    "value5MmGlassBulb": {
+      "text": "{n0} mm glass bulb",
+      "numbers": [
+        "5"
+      ]
+    },
+    "k56USK80Metric": {
+      "text": "K{n0} US / K{n1} metric",
+      "numbers": [
+        "5.6",
+        "80"
+      ]
+    },
+    "k80USK115Metric": {
+      "text": "K{n0} US / K{n1} metric",
+      "numbers": [
+        "8.0",
+        "115"
+      ]
+    },
+    "value3MmGlassBulb": {
+      "text": "{n0} mm glass bulb",
+      "numbers": [
+        "3"
+      ]
+    },
+    "the79COptionIsConfirmedInThe": {
+      "text": "The {n0}°C option is confirmed in the available model range even though a separate yellow-bulb sample photo is not included in this gallery.",
+      "numbers": [
+        "79"
+      ]
+    },
+    "oEMODMSupport": {
+      "text": "OEM / ODM support",
+      "numbers": []
+    },
+    "concealedSprinklersConfiguredForYourOrder": {
+      "text": "Concealed sprinklers configured for your order.",
+      "numbers": []
+    },
+    "productMarkingChromePlatedOrNaturalCopperFinish": {
+      "text": "Product marking, chrome-plated or natural copper finish, thread form, cover configuration and export packaging can be reviewed against the selected model and approved sample.",
+      "numbers": []
+    },
+    "productMarking": {
+      "text": "Product marking",
+      "numbers": []
+    },
+    "customerBrandAndModelMarkingAccordingToAvailable": {
+      "text": "Customer brand and model marking according to available marking space.",
+      "numbers": []
+    },
+    "finishOptions": {
+      "text": "Finish options",
+      "numbers": []
+    },
+    "chromePlatedOrNaturalCopperFinishForThe": {
+      "text": "Chrome-plated or natural copper finish for the confirmed configuration.",
+      "numbers": []
+    },
+    "threadCover": {
+      "text": "Thread & cover",
+      "numbers": []
+    },
+    "producedAccordingToTheConfirmedDrawingOrApproved": {
+      "text": "Produced according to the confirmed drawing or approved sample.",
+      "numbers": []
+    },
+    "exportPackaging": {
+      "text": "Export packaging",
+      "numbers": []
+    },
+    "standardPackingIs100PcsPerCartonLabels": {
+      "text": "Standard packing is {n0} pcs per carton; labels and shipping marks can be customized.",
+      "numbers": [
+        "100"
+      ]
+    },
+    "sendUsYourConcealedSprinklerRequirement": {
+      "text": "Send us your concealed sprinkler requirement.",
+      "numbers": []
+    },
+    "includeResponseTypeSizeTemperatureThreadFinishCover": {
+      "text": "Include response type, size, temperature, thread, finish, cover requirement, quantity and destination country.",
+      "numbers": []
+    },
+    "whatsAppInquiry": {
+      "text": "WhatsApp inquiry",
+      "numbers": []
+    },
+    "emailSales": {
+      "text": "Email sales",
+      "numbers": []
+    },
+    "onThisPage": {
+      "text": "On this page",
+      "numbers": []
+    },
+    "enlargeDN20K115ConcealedPendentSprinklerImage": {
+      "text": "Enlarge DN{n0} K{n1} concealed pendent sprinkler image",
+      "numbers": [
+        "20",
+        "115"
+      ]
+    },
+    "dN20K80USK115Metric68Degree": {
+      "text": "DN{n0} K{n1} US K{n2} metric {n3} degree concealed pendent fire sprinkler without cover plate",
+      "numbers": [
+        "20",
+        "8.0",
+        "115",
+        "68"
+      ]
+    },
+    "concealedPendentSprinklerImageGallery": {
+      "text": "Concealed pendent sprinkler image gallery",
+      "numbers": []
+    },
+    "previousProductImage": {
+      "text": "Previous product image",
+      "numbers": []
+    },
+    "dN20K80USK115Metric68DegreeText": {
+      "text": "DN{n0} K{n1} US K{n2} metric {n3} degree concealed pendent sprinkler mechanism",
+      "numbers": [
+        "20",
+        "8.0",
+        "115",
+        "68"
+      ]
+    },
+    "nextProductImage": {
+      "text": "Next product image",
+      "numbers": []
+    },
+    "selectProductImage": {
+      "text": "Select product image",
+      "numbers": []
+    },
+    "dN20K11568DegreeConcealedSprinklerThumbnail": {
+      "text": "DN{n0} K{n1} {n2} degree concealed sprinkler thumbnail",
+      "numbers": [
+        "20",
+        "115",
+        "68"
+      ]
+    },
+    "coverPlateAssemblyThumbnail": {
+      "text": "Cover plate assembly thumbnail",
+      "numbers": []
+    },
+    "orangeGlassBulbThumbnail": {
+      "text": "Orange glass bulb thumbnail",
+      "numbers": []
+    },
+    "dN15K8068DegreeConcealedSprinklerThumbnail": {
+      "text": "DN{n0} K{n1} {n2} degree concealed sprinkler thumbnail",
+      "numbers": [
+        "15",
+        "80",
+        "68"
+      ]
+    },
+    "greenGlassBulbThumbnail": {
+      "text": "Green glass bulb thumbnail",
+      "numbers": []
+    },
+    "blueGlassBulbThumbnail": {
+      "text": "Blue glass bulb thumbnail",
+      "numbers": []
+    },
+    "productImagePreview": {
+      "text": "Product image preview",
+      "numbers": []
+    },
+    "closeImagePreview": {
+      "text": "Close image preview",
+      "numbers": []
+    },
+    "enlargedProductImage": {
+      "text": "Enlarged product image",
+      "numbers": []
+    },
+    "whatsAppChat": {
+      "text": "WhatsApp Chat",
+      "numbers": []
+    },
+    "facebookPage": {
+      "text": "Facebook Page",
+      "numbers": []
+    },
+    "linkedInProfile": {
+      "text": "LinkedIn Profile",
+      "numbers": []
+    },
+    "concealedPendentSprinklerCoverPlateAssembly": {
+      "text": "Concealed pendent sprinkler cover plate assembly",
+      "numbers": []
+    },
+    "concealedSprinklerWith57DegreeOrangeGlassBulb": {
+      "text": "Concealed sprinkler with {n0} degree orange glass bulb",
+      "numbers": [
+        "57"
+      ]
+    },
+    "value57C135FOrangeBulb": {
+      "text": "{n0}°C / {n1}°F · Orange Bulb",
+      "numbers": [
+        "57",
+        "135"
+      ]
+    },
+    "dN15K56USK80MetricConcealedSprinkler": {
+      "text": "DN{n0} K{n1} US K{n2} metric concealed sprinkler with {n3} degree red glass bulb",
+      "numbers": [
+        "15",
+        "5.6",
+        "80",
+        "68"
+      ]
+    },
+    "concealedSprinklerWith93DegreeGreenGlassBulb": {
+      "text": "Concealed sprinkler with {n0} degree green glass bulb",
+      "numbers": [
+        "93"
+      ]
+    },
+    "value93C200FGreenBulb": {
+      "text": "{n0}°C / {n1}°F · Green Bulb",
+      "numbers": [
+        "93",
+        "200"
+      ]
+    },
+    "concealedSprinklerWith141DegreeBlueGlassBulb": {
+      "text": "Concealed sprinkler with {n0} degree blue glass bulb",
+      "numbers": [
+        "141"
+      ]
+    },
+    "value141C286FBlueBulb": {
+      "text": "{n0}°C / {n1}°F · Blue Bulb",
+      "numbers": [
+        "141",
+        "286"
+      ]
+    },
+    "seoTitle": {
+      "text": "Concealed Pendent Fire Sprinklers | Standard &amp; Quick Response | CHUANWEI FIRE",
+      "numbers": []
+    },
+    "seoDescription": {
+      "text": "Concealed pendent fire sprinklers in standard and quick response versions. DN{n0} and DN{n1}, K{n2} and K{n3}, multiple temperatures, chrome-plated or natural copper finish, OEM and ODM support.",
+      "numbers": [
+        "15",
+        "20",
+        "5.6",
+        "8.0"
+      ]
+    }
+  },
+  "shared": {
+    "k56K80US": "K5.6 / K8.0 US",
+    "dN15InDN20In": "DN15 / ½ in · DN20 / ¾ in",
+    "dN20InK80K11568C": "DN20 / ¾ in · K8.0 / K115 · 68°C",
+    "value16": "1 / 6",
+    "dN20K11568C": "DN20 · K115 · 68°C",
+    "dN15K8068C": "DN15 · K80 · 68°C",
+    "dN15InDN20InText": "DN15 / ½ in; DN20 / ¾ in",
+    "value57C135F68C155F": "57°C / 135°F, 68°C / 155°F, 79°C / 175°F, 93°C / 200°F, 141°C / 286°F",
+    "dN15In": "DN15 / ½ in",
+    "value57687993141C": "57, 68, 79, 93, 141°C",
+    "zSTDY80Q5A": "ZSTDY 80 / Q5A",
+    "dN20In": "DN20 / ¾ in",
+    "zSTDY115Q5A": "ZSTDY 115 / Q5A",
+    "zSTDY80Q3A": "ZSTDY 80 / Q3A",
+    "zSTDY115Q3A": "ZSTDY 115 / Q3A",
+    "dN15InK56K8068C": "DN15 / ½ in · K5.6 / K80 · 68°C"
+  },
+  "models": [
+    [
+      {
+        "text": "standardResponse",
+        "note": "value5MmGlassBulb"
+      },
+      "dN15In",
+      "k56USK80Metric",
+      "value57687993141C",
+      "zSTDY80Q5A"
+    ],
+    [
+      {
+        "text": "standardResponse",
+        "note": "value5MmGlassBulb"
+      },
+      "dN20In",
+      "k80USK115Metric",
+      "value57687993141C",
+      "zSTDY115Q5A"
+    ],
+    [
+      {
+        "text": "quickResponse",
+        "note": "value3MmGlassBulb"
+      },
+      "dN15In",
+      "k56USK80Metric",
+      "value57687993141C",
+      "zSTDY80Q3A"
+    ],
+    [
+      {
+        "text": "quickResponse",
+        "note": "value3MmGlassBulb"
+      },
+      "dN20In",
+      "k80USK115Metric",
+      "value57687993141C",
+      "zSTDY115Q3A"
+    ]
+  ],
+  "gallery": [
+    {
+      "media": "hero",
+      "alt": "dN20K80USK115Metric68DegreeText",
+      "caption": "dN20InK80K11568C"
+    },
+    {
+      "media": "image1",
+      "alt": "concealedPendentSprinklerCoverPlateAssembly",
+      "caption": "coverPlateAssembly"
+    },
+    {
+      "media": "image2",
+      "alt": "concealedSprinklerWith57DegreeOrangeGlassBulb",
+      "caption": "value57C135FOrangeBulb"
+    },
+    {
+      "media": "image3",
+      "alt": "dN15K56USK80MetricConcealedSprinkler",
+      "caption": "dN15InK56K8068C"
+    },
+    {
+      "media": "image4",
+      "alt": "concealedSprinklerWith93DegreeGreenGlassBulb",
+      "caption": "value93C200FGreenBulb"
+    },
+    {
+      "media": "image5",
+      "alt": "concealedSprinklerWith141DegreeBlueGlassBulb",
+      "caption": "value141C286FBlueBulb"
+    }
+  ]
+}

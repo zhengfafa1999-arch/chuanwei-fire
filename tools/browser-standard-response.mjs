@@ -2,7 +2,7 @@ import fs from "node:fs";
 import path from "node:path";
 import { SITE_ROUTES } from "../site-src/_data/siteRoutes.js";
 
-export async function validateStandardResponse({client, origin, viewports, evaluate, navigate, waitForLocation, inspectPage, assert, evidenceDirectory, routeId = "product:standard-response-fire-sprinkler", slug = "standard-response", imageCount = 4}) {
+export async function validateStandardResponse({client, origin, viewports, evaluate, navigate, waitForLocation, inspectPage, assert, evidenceDirectory, routeId = "product:standard-response-fire-sprinkler", slug = "standard-response", imageCount = 4, neutralCaptions = {}}) {
   const routePath = (id, locale) => `/${SITE_ROUTES[id].locales[locale].outputPath}`;
   const results = [], screenshots = [];
   for (const viewport of viewports) {
@@ -43,7 +43,9 @@ export async function validateStandardResponse({client, origin, viewports, evalu
             document.getElementById('galleryCaption').textContent === thumb.dataset.galleryTitle &&
             document.getElementById('galleryCount').textContent.replace(/[\u2066\u2069]/g,'') === (index+1)+' / ${imageCount}' &&
             thumbs.filter(t=>t.classList.contains('active')).length === 1 && thumb.classList.contains('active'));
-          if (document.dir === 'rtl') checks.push(/[\u0600-\u06ff]/.test(image.alt), /[\u0600-\u06ff]/.test(thumb.dataset.galleryTitle));
+          if (document.dir === 'rtl') checks.push(/[\u0600-\u06ff]/.test(image.alt),
+            /[\u0600-\u06ff]/.test(thumb.dataset.galleryTitle) ||
+            (Object.hasOwn(${JSON.stringify(neutralCaptions)}, index) && thumb.dataset.galleryTitle.replace(/[\u2066\u2069]/g,'') === ${JSON.stringify(neutralCaptions)}[index]));
         };
         thumbs.forEach((thumb,index)=>{
           thumb.click(); check(index); image.click();

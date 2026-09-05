@@ -8,11 +8,11 @@
 
 ## 当前基线
 
-- 正式站点 HTML：69 个
-- 已由共享模板生成：45 个
-- 待迁移手写页面：24 个，均为英文产品详情页。
+- 正式站点 HTML：70 个
+- 已由共享模板生成：47 个
+- 待迁移手写页面：23 个，均为英文产品详情页。
 - 已完成：首页、产品总目录、关于我们、下载中心、联系页面、九个产品分类页、湿式报警阀、隔膜式雨淋阀、预作用阀组、干式报警阀、水幕喷头、水雾喷头、标准响应消防喷头及其英文/阿拉伯文输出。
-- 当前路由注册表：46 个逻辑路由，注册并覆盖全部 69 个正式 HTML；中文首页使用独立 `/zh/` 地址，旧 `/?lang=zh` 自动跳转兼容。
+- 当前路由注册表：46 个逻辑路由，注册并覆盖全部 70 个正式 HTML；中文首页使用独立 `/zh/` 地址，旧 `/?lang=zh` 自动跳转兼容。
 - MIG-204 已完成玻璃球快速响应喷头迁移；文件与 HTTP 单款检查均通过，保留 6 行型号和 5 张原图。报告：`docs/execution/2026-09-05_quick-response-language-migration.md`。
 - MIG-203 阶段验收：文件与 HTTP 预览分别运行 54 个代表页面/视口组合、272 个全站响应式与 LTR/RTL 检查、54 个语言切换与返回场景；新增标准响应喷头双语入口、四张图库动态说明、放大、滑动、型号锚点及三个页脚入口检查。原有报警阀回归保留。结果见 `docs/evidence/mig-203/`。
 
@@ -61,7 +61,7 @@
 - [x] **MIG-202 水雾喷头**。
 - [x] **MIG-203 标准响应消防喷头**：保留英文原文、6 行型号、7 档温度、4 张图库图片及原版式；英阿共用产品数据和系列模板，分类入口、同产品互切、刷新、返回及本地化图库已验收。报告：`docs/execution/2026-09-05_standard-response-language-migration.md`。
 - [x] **MIG-204 玻璃球快速响应喷头**：保留英文原文、6 行型号、5 张原图及原版式；共享数据和模板生成英阿页面，单款文件与 HTTP 预览均已验收。报告：`docs/execution/2026-09-05_quick-response-language-migration.md`。
-- [ ] **MIG-205 隐蔽式下垂喷头**：`concealed-pendent-fire-sprinkler.html`。
+- [x] **MIG-205 隐蔽式下垂喷头**：保留英文内容、4 行型号、6 张原图和原版式，英阿切换、分类、图库及手机布局通过文件/HTTP 单款验收。报告：`docs/execution/2026-09-05_concealed-pendent-language-migration.md`。
 - [ ] **MIG-206 干式下垂喷头**：`dry-pendent-fire-sprinklers.html`。
 - [ ] **MIG-207 扩大覆盖快速响应喷头**：`extended-coverage-quick-response-fire-sprinkler.html`。
 - [ ] **MIG-208 大流量系数与 ESFR 喷头**：`large-k-factor-esfr-sprinklers.html`。

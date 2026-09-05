@@ -18,7 +18,17 @@ for (const entry of catalog) {
   assert(content, `${entry.lang}: product content missing`);
   assert(!/\{\{|\{%|\{n\d+\}/.test(output), `${entry.lang}: unresolved template or numeric placeholder`);
   const baselineFile = `tools/fixtures/${entry.product.id === "diaphragm-deluge-valves" ? "diaphragm-deluge" : entry.product.id}-en-baseline.txt`;
-  const baseline = main(read(baselineFile));
+  let baseline = main(read(baselineFile));
+  // This legacy page assigns its actual initial labels in inline JavaScript.
+  // Preserve the displayed values, while keeping the original fixture immutable.
+  if (entry.product.id === "concealed-pendent-fire-sprinkler") {
+    const original = read(baselineFile);
+    for (const [before, after] of [["68°C Concealed Sprinkler", "DN20 / ¾ in · K8.0 / K115 · 68°C"], ["68°C Sprinkler", "DN20 · K115 · 68°C"], ["68°C Red Bulb", "DN15 · K80 · 68°C"]]) {
+      assert(original.includes(`'${after}'`), "Original runtime label missing");
+      assert(baseline.includes(`>${before}<`), "Original static label missing");
+      baseline = baseline.replace(`>${before}<`, `>${after}<`);
+    }
+  }
   assert.deepEqual(structure(content), structure(baseline), `${entry.lang}: original section/tag/class structure changed`);
   assert.deepEqual(media(content, entry.route.outputPath), media(baseline, entry.product.source.path), `${entry.lang}: original product images changed`);
   for (const image of media(content, entry.route.outputPath)) assert(fs.existsSync(image), `Missing product image: ${image}`);

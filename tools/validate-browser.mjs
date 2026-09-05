@@ -263,7 +263,7 @@ const responsiveScreenshotTargets = new Set([
   "home:ar",
   "category:sprinklers:ar",
   "product:wet-alarm-check-valve:ar",
-  "product:concealed-pendent-fire-sprinkler:en"
+  "product:dry-pendent-fire-sprinklers:en"
 ]);
 
 async function run() {
@@ -272,7 +272,7 @@ async function run() {
     const source = path.join(root, 'site-src', '_data', 'preserved-products', `${focusedSlug}.json`);
     assert(fs.existsSync(source), `No shared product source for ${focusedSlug}; add a targeted test adapter before testing this product.`);
     focusedProduct = JSON.parse(fs.readFileSync(source, 'utf8'));
-    assert(['product-series/quick-response.njk', 'product-series/standard-response.njk'].includes(focusedProduct.template), 'This template needs its own targeted interaction adapter; do not silently skip its checks.');
+    assert(['product-series/quick-response.njk', 'product-series/standard-response.njk', 'product-series/concealed-pendent.njk'].includes(focusedProduct.template), 'This template needs its own targeted interaction adapter; do not silently skip its checks.');
   }
   assert(edgePath, "Microsoft Edge was not found. Set EDGE_PATH to a Chromium-compatible Edge executable.");
   fs.mkdirSync(evidenceDirectory, { recursive: true });
@@ -306,7 +306,8 @@ async function run() {
     if (focusedProduct) {
       const result = await validateStandardResponse({
         client, origin, viewports, evaluate, navigate, waitForLocation, inspectPage, assert, evidenceDirectory,
-        routeId: focusedProduct.routeId, slug: focusedSlug, imageCount: focusedProduct.gallery.length
+        routeId: focusedProduct.routeId, slug: focusedSlug, imageCount: focusedProduct.gallery.length,
+        neutralCaptions: Object.fromEntries(focusedProduct.gallery.flatMap((item, index) => Object.hasOwn(focusedProduct.shared, item.caption) ? [[index, focusedProduct.shared[item.caption]]] : []))
       });
       const evidence = {
         scope: 'single-product', product: focusedSlug,
@@ -457,8 +458,8 @@ async function run() {
     }
 
     await navigate(client, `${origin}/ar/products/sprinklers/index.html`, "/ar/products/sprinklers/index.html");
-    await evaluate(client, `document.querySelector('a[href*="concealed-pendent-fire-sprinkler.html"]').click()`);
-    await waitForLocation(client, "/products/消防喷头/concealed-pendent-fire-sprinkler.html");
+    await evaluate(client, `document.querySelector('a[href*="dry-pendent-fire-sprinklers.html"]').click()`);
+    await waitForLocation(client, "/products/消防喷头/dry-pendent-fire-sprinklers.html");
     const englishFallback = await inspectPage(client);
     assert(englishFallback.lang === "en", "An untranslated product opened from Arabic must remain available in English.");
     languageSwitches.push({ scenario: "AR category opens untranslated EN product without redirect loop", status: "PASS", finalUrl: englishFallback.url, lang: englishFallback.lang, dir: englishFallback.dir });
@@ -609,6 +610,13 @@ async function run() {
       routeId: "product:glass-bulb-fire-sprinkler", slug: "quick-response", imageCount: 5
     });
     languageSwitches.push(...quickResponse.results);
+    const concealedProduct = JSON.parse(fs.readFileSync(path.join(root, 'site-src/_data/preserved-products/concealed-pendent-fire-sprinkler.json'), 'utf8'));
+    const concealedResponse = await validateStandardResponse({
+      client, origin, viewports, evaluate, navigate, waitForLocation, inspectPage, assert, evidenceDirectory,
+      routeId: concealedProduct.routeId, slug: concealedProduct.id, imageCount: concealedProduct.gallery.length,
+      neutralCaptions: Object.fromEntries(concealedProduct.gallery.flatMap((item, index) => Object.hasOwn(concealedProduct.shared, item.caption) ? [[index, concealedProduct.shared[item.caption]]] : []))
+    });
+    languageSwitches.push(...concealedResponse.results);
     const evidence = {
       previewMode: process.argv.includes("--file-preview") ? "file" : "http",
       generatedAt: new Date().toISOString(),
@@ -625,7 +633,8 @@ async function run() {
         ...responsiveScreenshots,
         ...singlePhotoScreenshots,
         ...standardResponse.screenshots,
-        ...quickResponse.screenshots
+        ...quickResponse.screenshots,
+        ...concealedResponse.screenshots
       ]
     };
     fs.writeFileSync(path.join(evidenceDirectory, "browser-validation.json"), `${JSON.stringify(evidence, null, 2)}\n`);
