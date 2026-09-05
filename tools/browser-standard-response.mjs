@@ -67,7 +67,8 @@ export async function validateStandardResponse({client, origin, viewports, evalu
         thumbs[0].click();checks.push(image.getBoundingClientRect().height === initialHeight);
         return checks;
       })()`);
-      assert(galleryChecks.length > 20 && galleryChecks.every(Boolean), `Standard-response gallery failed: ${JSON.stringify(galleryChecks)}`);
+      const expectedChecks = locale === 'ar' ? 5 * imageCount + 18 : 3 * imageCount + 10;
+      assert(galleryChecks.length === expectedChecks && galleryChecks.every(Boolean), `${slug} gallery failed: ${JSON.stringify(galleryChecks)}`);
       for (const anchor of ["gallery", "models"]) {
         await evaluate(client, `document.querySelector('.pdp-section-navigation a[href="#${anchor}"]').click()`);
         // Observe completion, not an assumed animation duration, before screenshots.

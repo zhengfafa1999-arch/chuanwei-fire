@@ -36,7 +36,7 @@ export const SITE_ROUTES = {
   "product:glass-bulb-fire-sprinkler": { kind: "product", category: "category:sprinklers", locales: { en: published("products/消防喷头/glass-bulb-fire-sprinkler.html"), ar: published("ar/products/glass-bulb-fire-sprinkler/index.html") } },
   "product:concealed-pendent-fire-sprinkler": { kind: "product", category: "category:sprinklers", locales: { en: published("products/消防喷头/concealed-pendent-fire-sprinkler.html"), ar: published("ar/products/concealed-pendent-fire-sprinkler/index.html") } },
   "product:dry-pendent-fire-sprinklers": { kind: "product", category: "category:sprinklers", locales: { en: published("products/消防喷头/dry-pendent-fire-sprinklers.html"), ar: published("ar/products/dry-pendent-fire-sprinklers/index.html") } },
-  "product:extended-coverage-quick-response-fire-sprinkler": { kind: "product", category: "category:sprinklers", locales: { en: published("products/消防喷头/extended-coverage-quick-response-fire-sprinkler.html"), ar: fallback("ar/products/sprinklers/index.html") } },
+  "product:extended-coverage-quick-response-fire-sprinkler": { kind: "product", category: "category:sprinklers", locales: { en: published("products/消防喷头/extended-coverage-quick-response-fire-sprinkler.html"), ar: published("ar/products/extended-coverage-quick-response-fire-sprinkler/index.html") } },
   "product:large-k-factor-esfr-sprinklers": { kind: "product", category: "category:sprinklers", locales: { en: published("products/消防喷头/large-k-factor-esfr-sprinklers.html"), ar: fallback("ar/products/sprinklers/index.html") } },
 
   "product:ria25-fire-hose-reel": { kind: "product", category: "category:hose-reels", locales: { en: published("products/软管卷盘/ria25-fire-hose-reel.html"), ar: fallback("ar/products/hose-reels/index.html") } },

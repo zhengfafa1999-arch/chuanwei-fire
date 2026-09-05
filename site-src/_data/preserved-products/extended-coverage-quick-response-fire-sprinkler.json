@@ -1,0 +1,554 @@
+{
+  "id": "extended-coverage-quick-response-fire-sprinkler",
+  "routeId": "product:extended-coverage-quick-response-fire-sprinkler",
+  "template": "product-series/extended-coverage.njk",
+  "styles": [
+    "css/common.css",
+    "css/sprinkler-product.css",
+    "css/sprinkler-product-gallery.css",
+    "css/site-navigation.css"
+  ],
+  "source": {
+    "path": "products/消防喷头/extended-coverage-quick-response-fire-sprinkler.html",
+    "revision": "9d4ac44",
+    "status": "preserved-existing-content-not-reaudited"
+  },
+  "media": {
+    "hero": "products/消防喷头/extended-coverage-quick-response-sprinkler/temporary-reference-pendent.jpg",
+    "image1": "products/消防喷头/extended-coverage-quick-response-sprinkler/temporary-reference-upright.jpg",
+    "image2": "products/消防喷头/extended-coverage-quick-response-sprinkler/temporary-reference-horizontal-sidewall.jpg"
+  },
+  "copy": {
+    "productImages": {
+      "text": "Product images",
+      "numbers": []
+    },
+    "specifications": {
+      "text": "Specifications",
+      "numbers": []
+    },
+    "availableModels": {
+      "text": "Available models",
+      "numbers": []
+    },
+    "oEMODM": {
+      "text": "OEM / ODM",
+      "numbers": []
+    },
+    "extendedCoverageQuickResponse": {
+      "text": "Extended Coverage · Quick Response",
+      "numbers": []
+    },
+    "extendedCoverageQuickResponseSprinklers": {
+      "text": "Extended Coverage Quick Response Sprinklers",
+      "numbers": []
+    },
+    "a3MmGlassBulbSprinklerFamilyAvailable": {
+      "text": "A {n0} mm glass bulb sprinkler family available in pendent, upright and horizontal sidewall configurations. The current range is DN{n1} / ¾ in, K{n2} US / K{n3} metric and {n4}°C / {n5}°F.",
+      "numbers": [
+        "3",
+        "20",
+        "8.0",
+        "115",
+        "68",
+        "155"
+      ]
+    },
+    "k80USK115Metric": {
+      "text": "K{n0} US / K{n1} Metric",
+      "numbers": [
+        "8.0",
+        "115"
+      ]
+    },
+    "value3MmGlassBulb": {
+      "text": "{n0} mm Glass Bulb",
+      "numbers": [
+        "3"
+      ]
+    },
+    "askOnWhatsApp": {
+      "text": "Ask on WhatsApp",
+      "numbers": []
+    },
+    "viewAvailableModels": {
+      "text": "View available models",
+      "numbers": []
+    },
+    "exactCoverageAreaMaximumSpacingMinimumOperatingPressure": {
+      "text": "Exact coverage area, maximum spacing, minimum operating pressure and hydraulic data are supplied against the confirmed model and project requirement.",
+      "numbers": []
+    },
+    "availableConfigurations": {
+      "text": "Available configurations",
+      "numbers": []
+    },
+    "threeInstallationStyles": {
+      "text": "Three installation styles.",
+      "numbers": []
+    },
+    "reviewThePendentUprightAndHorizontalSidewallConfigurations": {
+      "text": "Review the pendent, upright and horizontal sidewall configurations. Product markings are retained for configuration and factory-reference identification.",
+      "numbers": []
+    },
+    "pendentSprinkler": {
+      "text": "Pendent Sprinkler",
+      "numbers": []
+    },
+    "pendent": {
+      "text": "Pendent",
+      "numbers": []
+    },
+    "upright": {
+      "text": "Upright",
+      "numbers": []
+    },
+    "horizontalSidewall": {
+      "text": "Horizontal Sidewall",
+      "numbers": []
+    },
+    "technicalOverview": {
+      "text": "Technical overview",
+      "numbers": []
+    },
+    "buyerFacingSpecifications": {
+      "text": "Buyer-facing specifications",
+      "numbers": []
+    },
+    "internationalProductNamesAndUnitEquivalentsAreShown": {
+      "text": "International product names and unit equivalents are shown first. Factory codes are retained only for production and repeat-order matching.",
+      "numbers": []
+    },
+    "confirmedProductSpecifications": {
+      "text": "Confirmed product specifications",
+      "numbers": []
+    },
+    "productType": {
+      "text": "Product type",
+      "numbers": []
+    },
+    "extendedCoverageQuickResponseSprinkler": {
+      "text": "Extended Coverage Quick Response Sprinkler",
+      "numbers": []
+    },
+    "installation": {
+      "text": "Installation",
+      "numbers": []
+    },
+    "pendentUprightOrHorizontalSidewall": {
+      "text": "Pendent, Upright or Horizontal Sidewall",
+      "numbers": []
+    },
+    "nominalSize": {
+      "text": "Nominal size",
+      "numbers": []
+    },
+    "kFactor": {
+      "text": "K-factor",
+      "numbers": []
+    },
+    "k80USK115MetricText": {
+      "text": "K{n0} US / K{n1} metric",
+      "numbers": [
+        "8.0",
+        "115"
+      ]
+    },
+    "thermalElement": {
+      "text": "Thermal element",
+      "numbers": []
+    },
+    "value3MmQuickResponseGlassBulb": {
+      "text": "{n0} mm quick-response glass bulb",
+      "numbers": [
+        "3"
+      ]
+    },
+    "temperatureRating": {
+      "text": "Temperature rating",
+      "numbers": []
+    },
+    "value68C155FRedGlassBulb": {
+      "text": "{n0}°C / {n1}°F, red glass bulb",
+      "numbers": [
+        "68",
+        "155"
+      ]
+    },
+    "frameMaterial": {
+      "text": "Frame material",
+      "numbers": []
+    },
+    "copper": {
+      "text": "Copper",
+      "numbers": []
+    },
+    "surfaceFinish": {
+      "text": "Surface finish",
+      "numbers": []
+    },
+    "chromePlatedOrNaturalCopperFinish": {
+      "text": "Chrome-plated or natural copper finish",
+      "numbers": []
+    },
+    "threadForm": {
+      "text": "Thread form",
+      "numbers": []
+    },
+    "manufacturedToTheConfirmedCustomerDrawingOrApproved": {
+      "text": "Manufactured to the confirmed customer drawing or approved sample",
+      "numbers": []
+    },
+    "maxWorkingPressure": {
+      "text": "Max. working pressure",
+      "numbers": []
+    },
+    "value12MPa12BarApprox175Psi": {
+      "text": "{n0} MPa / {n1} bar / approx. {n2} psi",
+      "numbers": [
+        "1.2",
+        "12",
+        "175"
+      ]
+    },
+    "standardPacking": {
+      "text": "Standard packing",
+      "numbers": []
+    },
+    "value100PcsPerExportCarton": {
+      "text": "{n0} pcs per export carton",
+      "numbers": [
+        "100"
+      ]
+    },
+    "markingFinishConnectionAndPackagingReviewedAgainstThe": {
+      "text": "Marking, finish, connection and packaging reviewed against the approved requirement",
+      "numbers": []
+    },
+    "engineeringDataStatus": {
+      "text": "Engineering data status",
+      "numbers": []
+    },
+    "coverageArea": {
+      "text": "Coverage area",
+      "numbers": []
+    },
+    "availableOnRequestForTheExactSuppliedModel": {
+      "text": "Available on request for the exact supplied model.",
+      "numbers": []
+    },
+    "maximumSpacing": {
+      "text": "Maximum spacing",
+      "numbers": []
+    },
+    "availableOnRequestForProjectReview": {
+      "text": "Available on request for project review.",
+      "numbers": []
+    },
+    "minimumOperatingPressure": {
+      "text": "Minimum operating pressure",
+      "numbers": []
+    },
+    "availableOnRequestWithTheMatchingHydraulicData": {
+      "text": "Available on request with the matching hydraulic data.",
+      "numbers": []
+    },
+    "flowAndPressureCurve": {
+      "text": "Flow and pressure curve",
+      "numbers": []
+    },
+    "availableOnRequest": {
+      "text": "Available on request.",
+      "numbers": []
+    },
+    "designNote": {
+      "text": "Design note",
+      "numbers": []
+    },
+    "responseClassificationAndExtendedCoverageClassificationAreSeparate": {
+      "text": "Response classification and extended-coverage classification are separate properties. Final spacing, pressure and installation must follow the approved system design and exact product data.",
+      "numbers": []
+    },
+    "modelsYouCanOrder": {
+      "text": "Models you can order",
+      "numbers": []
+    },
+    "theCurrentFactoryRangeIsOrganizedByInstallation": {
+      "text": "The current factory range is organized by installation orientation. All listed versions share the confirmed nominal size, K-factor and temperature rating.",
+      "numbers": []
+    },
+    "configuration": {
+      "text": "Configuration",
+      "numbers": []
+    },
+    "temperature": {
+      "text": "Temperature",
+      "numbers": []
+    },
+    "factoryReference": {
+      "text": "Factory reference",
+      "numbers": []
+    },
+    "pendentECQuickResponse": {
+      "text": "Pendent, EC Quick Response",
+      "numbers": []
+    },
+    "deflectorFacingDownwardWhenInstalled": {
+      "text": "Deflector facing downward when installed",
+      "numbers": []
+    },
+    "eCZSTX11568CSeries": {
+      "text": "EC-ZSTX{n0}-{n1}°C series",
+      "numbers": [
+        "115",
+        "68"
+      ]
+    },
+    "uprightECQuickResponse": {
+      "text": "Upright, EC Quick Response",
+      "numbers": []
+    },
+    "deflectorFacingUpwardWhenInstalled": {
+      "text": "Deflector facing upward when installed",
+      "numbers": []
+    },
+    "eCZSTZ11568CSeries": {
+      "text": "EC-ZSTZ{n0}-{n1}°C series",
+      "numbers": [
+        "115",
+        "68"
+      ]
+    },
+    "horizontalSidewallECQuickResponse": {
+      "text": "Horizontal Sidewall, EC Quick Response",
+      "numbers": []
+    },
+    "horizontalSidewallInstallation": {
+      "text": "Horizontal sidewall installation",
+      "numbers": []
+    },
+    "eCZSTBS11568CSeries": {
+      "text": "EC-ZSTBS{n0}-{n1}°C series",
+      "numbers": [
+        "115",
+        "68"
+      ]
+    },
+    "forQuotationSpecifyOrientationDestinationCountryThreadRequirement": {
+      "text": "For quotation, specify orientation, destination country, thread requirement, finish, quantity, marking and required technical documentation.",
+      "numbers": []
+    },
+    "oEMODMSupport": {
+      "text": "OEM / ODM support",
+      "numbers": []
+    },
+    "configuredForYourBrandAndMarket": {
+      "text": "Configured for your brand and market.",
+      "numbers": []
+    },
+    "productMarkingFinishConnectionAndExportPackagingCan": {
+      "text": "Product marking, finish, connection and export packaging can be developed against your drawing, sample and destination requirements.",
+      "numbers": []
+    },
+    "productMarking": {
+      "text": "Product marking",
+      "numbers": []
+    },
+    "customerBrandAndModelMarkingAccordingToAvailable": {
+      "text": "Customer brand and model marking according to available marking space.",
+      "numbers": []
+    },
+    "chromePlatedAndNaturalCopperFinishOptions": {
+      "text": "Chrome-plated and natural copper finish options.",
+      "numbers": []
+    },
+    "connection": {
+      "text": "Connection",
+      "numbers": []
+    },
+    "threadFormManufacturedToAConfirmedDrawingOr": {
+      "text": "Thread form manufactured to a confirmed drawing or approved sample.",
+      "numbers": []
+    },
+    "exportPackaging": {
+      "text": "Export packaging",
+      "numbers": []
+    },
+    "privateLabelCartonsLabelsAndShippingMarksAvailable": {
+      "text": "Private-label cartons, labels and shipping marks available for review.",
+      "numbers": []
+    },
+    "sendUsYourECSprinklerRequirement": {
+      "text": "Send us your EC sprinkler requirement.",
+      "numbers": []
+    },
+    "includeCountryOrientationThreadFinishQuantityOEMRequest": {
+      "text": "Include country, orientation, thread, finish, quantity, OEM request and required hydraulic documentation.",
+      "numbers": []
+    },
+    "whatsAppInquiry": {
+      "text": "WhatsApp inquiry",
+      "numbers": []
+    },
+    "emailSales": {
+      "text": "Email sales",
+      "numbers": []
+    },
+    "onThisPage": {
+      "text": "On this page",
+      "numbers": []
+    },
+    "enlargePendentSprinklerImage": {
+      "text": "Enlarge pendent sprinkler image",
+      "numbers": []
+    },
+    "extendedCoverageQuickResponsePendentSprinklerDN20K8": {
+      "text": "Extended coverage quick response pendent sprinkler, DN{n0}, K{n1}, {n2} degrees Celsius",
+      "numbers": [
+        "20",
+        "8.0",
+        "68"
+      ]
+    },
+    "extendedCoverageSprinklerImageGallery": {
+      "text": "Extended coverage sprinkler image gallery",
+      "numbers": []
+    },
+    "previousProductImage": {
+      "text": "Previous product image",
+      "numbers": []
+    },
+    "extendedCoverageQuickResponsePendentSprinkler": {
+      "text": "Extended coverage quick response pendent sprinkler",
+      "numbers": []
+    },
+    "nextProductImage": {
+      "text": "Next product image",
+      "numbers": []
+    },
+    "selectProductImage": {
+      "text": "Select product image",
+      "numbers": []
+    },
+    "pendentSprinklerThumbnail": {
+      "text": "Pendent sprinkler thumbnail",
+      "numbers": []
+    },
+    "uprightSprinklerThumbnail": {
+      "text": "Upright sprinkler thumbnail",
+      "numbers": []
+    },
+    "horizontalSidewallSprinklerThumbnail": {
+      "text": "Horizontal sidewall sprinkler thumbnail",
+      "numbers": []
+    },
+    "productImagePreview": {
+      "text": "Product image preview",
+      "numbers": []
+    },
+    "closeImagePreview": {
+      "text": "Close image preview",
+      "numbers": []
+    },
+    "enlargedProductImage": {
+      "text": "Enlarged product image",
+      "numbers": []
+    },
+    "whatsAppChat": {
+      "text": "WhatsApp Chat",
+      "numbers": []
+    },
+    "facebookPage": {
+      "text": "Facebook Page",
+      "numbers": []
+    },
+    "linkedInProfile": {
+      "text": "LinkedIn Profile",
+      "numbers": []
+    },
+    "extendedCoverageQuickResponseUprightSprinkler": {
+      "text": "Extended coverage quick response upright sprinkler",
+      "numbers": []
+    },
+    "uprightSprinkler": {
+      "text": "Upright Sprinkler",
+      "numbers": []
+    },
+    "extendedCoverageQuickResponseHorizontalSidewallSprinkler": {
+      "text": "Extended coverage quick response horizontal sidewall sprinkler",
+      "numbers": []
+    },
+    "horizontalSidewallSprinkler": {
+      "text": "Horizontal Sidewall Sprinkler",
+      "numbers": []
+    },
+    "seoTitle": {
+      "text": "Extended Coverage Quick Response Sprinklers | K{n0} | CHUANWEI FIRE",
+      "numbers": [
+        "8.0"
+      ]
+    },
+    "seoDescription": {
+      "text": "Extended coverage quick response sprinklers in pendent, upright and horizontal sidewall configurations. DN{n0}, K{n1}, {n2}°C and OEM/ODM support.",
+      "numbers": [
+        "20",
+        "8.0",
+        "68"
+      ]
+    }
+  },
+  "shared": {
+    "dN20In": "DN20 / ¾ in",
+    "value68C155F": "68°C / 155°F",
+    "value13": "1 / 3"
+  },
+  "models": [
+    [
+      {
+        "text": "pendentECQuickResponse",
+        "note": "deflectorFacingDownwardWhenInstalled"
+      },
+      "dN20In",
+      "k80USK115MetricText",
+      "value68C155F",
+      "eCZSTX11568CSeries"
+    ],
+    [
+      {
+        "text": "uprightECQuickResponse",
+        "note": "deflectorFacingUpwardWhenInstalled"
+      },
+      "dN20In",
+      "k80USK115MetricText",
+      "value68C155F",
+      "eCZSTZ11568CSeries"
+    ],
+    [
+      {
+        "text": "horizontalSidewallECQuickResponse",
+        "note": "horizontalSidewallInstallation"
+      },
+      "dN20In",
+      "k80USK115MetricText",
+      "value68C155F",
+      "eCZSTBS11568CSeries"
+    ]
+  ],
+  "gallery": [
+    {
+      "media": "hero",
+      "alt": "extendedCoverageQuickResponsePendentSprinkler",
+      "caption": "pendentSprinkler"
+    },
+    {
+      "media": "image1",
+      "alt": "extendedCoverageQuickResponseUprightSprinkler",
+      "caption": "uprightSprinkler"
+    },
+    {
+      "media": "image2",
+      "alt": "extendedCoverageQuickResponseHorizontalSidewallSprinkler",
+      "caption": "horizontalSidewallSprinkler"
+    }
+  ]
+}

@@ -263,7 +263,7 @@ const responsiveScreenshotTargets = new Set([
   "home:ar",
   "category:sprinklers:ar",
   "product:wet-alarm-check-valve:ar",
-  "product:extended-coverage-quick-response-fire-sprinkler:en"
+  "product:large-k-factor-esfr-sprinklers:en"
 ]);
 
 async function run() {
@@ -272,7 +272,7 @@ async function run() {
     const source = path.join(root, 'site-src', '_data', 'preserved-products', `${focusedSlug}.json`);
     assert(fs.existsSync(source), `No shared product source for ${focusedSlug}; add a targeted test adapter before testing this product.`);
     focusedProduct = JSON.parse(fs.readFileSync(source, 'utf8'));
-    assert(['product-series/quick-response.njk', 'product-series/standard-response.njk', 'product-series/concealed-pendent.njk', 'product-series/dry-pendent.njk'].includes(focusedProduct.template), 'This template needs its own targeted interaction adapter; do not silently skip its checks.');
+    assert(['product-series/quick-response.njk', 'product-series/standard-response.njk', 'product-series/concealed-pendent.njk', 'product-series/dry-pendent.njk', 'product-series/extended-coverage.njk'].includes(focusedProduct.template), 'This template needs its own targeted interaction adapter; do not silently skip its checks.');
   }
   assert(edgePath, "Microsoft Edge was not found. Set EDGE_PATH to a Chromium-compatible Edge executable.");
   fs.mkdirSync(evidenceDirectory, { recursive: true });
@@ -458,8 +458,8 @@ async function run() {
     }
 
     await navigate(client, `${origin}/ar/products/sprinklers/index.html`, "/ar/products/sprinklers/index.html");
-    await evaluate(client, `document.querySelector('a[href*="extended-coverage-quick-response-fire-sprinkler.html"]').click()`);
-    await waitForLocation(client, "/products/消防喷头/extended-coverage-quick-response-fire-sprinkler.html");
+    await evaluate(client, `document.querySelector('a[href*="large-k-factor-esfr-sprinklers.html"]').click()`);
+    await waitForLocation(client, "/products/消防喷头/large-k-factor-esfr-sprinklers.html");
     const englishFallback = await inspectPage(client);
     assert(englishFallback.lang === "en", "An untranslated product opened from Arabic must remain available in English.");
     languageSwitches.push({ scenario: "AR category opens untranslated EN product without redirect loop", status: "PASS", finalUrl: englishFallback.url, lang: englishFallback.lang, dir: englishFallback.dir });
@@ -622,6 +622,11 @@ async function run() {
       routeId: 'product:dry-pendent-fire-sprinklers', slug: 'dry-pendent-fire-sprinklers', imageCount: 4
     });
     languageSwitches.push(...dryPendentResponse.results);
+    const extendedResponse = await validateStandardResponse({
+      client, origin, viewports, evaluate, navigate, waitForLocation, inspectPage, assert, evidenceDirectory,
+      routeId: 'product:extended-coverage-quick-response-fire-sprinkler', slug: 'extended-coverage-quick-response-fire-sprinkler', imageCount: 3
+    });
+    languageSwitches.push(...extendedResponse.results);
     const evidence = {
       previewMode: process.argv.includes("--file-preview") ? "file" : "http",
       generatedAt: new Date().toISOString(),
@@ -640,7 +645,8 @@ async function run() {
         ...standardResponse.screenshots,
         ...quickResponse.screenshots,
         ...concealedResponse.screenshots,
-        ...dryPendentResponse.screenshots
+        ...dryPendentResponse.screenshots,
+        ...extendedResponse.screenshots
       ]
     };
     fs.writeFileSync(path.join(evidenceDirectory, "browser-validation.json"), `${JSON.stringify(evidence, null, 2)}\n`);
