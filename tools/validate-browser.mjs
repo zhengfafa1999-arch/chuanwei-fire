@@ -279,7 +279,7 @@ async function run() {
     const source = path.join(root, 'site-src', '_data', 'preserved-products', `${focusedSlug}.json`);
     assert(fs.existsSync(source), `No shared product source for ${focusedSlug}; add a targeted test adapter before testing this product.`);
     focusedProduct = JSON.parse(fs.readFileSync(source, 'utf8'));
-    assert(['product-series/quick-response.njk', 'product-series/standard-response.njk', 'product-series/concealed-pendent.njk', 'product-series/dry-pendent.njk', 'product-series/extended-coverage.njk', 'product-series/large-k-esfr.njk', 'product-series/ria25-hose-reel.njk', 'product-series/straight-stream-hose-reel.njk', 'product-series/jet-spray-hose-reel.njk', 'product-series/heavy-duty-hose-reel.njk', 'product-series/butterfly-valve.njk', 'product-series/gate-valve.njk', 'product-series/indoor-hydrant.njk'].includes(focusedProduct.template), 'This template needs its own targeted interaction adapter; do not silently skip its checks.');
+    assert(['product-series/quick-response.njk', 'product-series/standard-response.njk', 'product-series/concealed-pendent.njk', 'product-series/dry-pendent.njk', 'product-series/extended-coverage.njk', 'product-series/large-k-esfr.njk', 'product-series/ria25-hose-reel.njk', 'product-series/straight-stream-hose-reel.njk', 'product-series/jet-spray-hose-reel.njk', 'product-series/heavy-duty-hose-reel.njk', 'product-series/butterfly-valve.njk', 'product-series/gate-valve.njk', 'product-series/indoor-hydrant.njk', 'product-series/outdoor-hydrant.njk'].includes(focusedProduct.template), 'This template needs its own targeted interaction adapter; do not silently skip its checks.');
   }
   if (focusedCategoryId) {
     assert(SITE_ROUTES[focusedCategoryId]?.kind === 'category', `No registered category route for ${focusedCategorySlug}.`);
@@ -318,14 +318,17 @@ async function run() {
       const focusedModelRows = focusedProduct.showModels === false ? undefined
         : focusedProduct.modelGroups?.map(group => group.length)
           ?? (focusedProduct.models ? [focusedProduct.models.length] : undefined);
-      const focusedAnchors = focusedProduct.showModels === false
+      const focusedModelSection = focusedProduct.template === 'product-series/outdoor-hydrant.njk' ? 'configuration' : 'models';
+      const focusedAnchors = focusedProduct.template === 'product-series/outdoor-hydrant.njk'
+        ? ['gallery', 'configuration']
+        : focusedProduct.showModels === false
         ? (focusedGallery.length ? ['gallery', 'specifications'] : ['specifications'])
         : undefined;
       const result = await validateStandardResponse({
         client, origin, viewports, evaluate, navigate, waitForLocation, inspectPage, assert, evidenceDirectory,
         routeId: focusedProduct.routeId, slug: focusedSlug, imageCount: focusedGallery.length,
         neutralCaptions: Object.fromEntries(focusedGallery.flatMap((item, index) => Object.hasOwn(focusedProduct.shared, item.caption) ? [[index, focusedProduct.shared[item.caption]]] : [])),
-        modelTableRows: focusedModelRows, anchors: focusedAnchors
+        modelTableRows: focusedModelRows, modelSection: focusedModelSection, anchors: focusedAnchors
       });
       const evidence = {
         scope: 'single-product', product: focusedSlug,

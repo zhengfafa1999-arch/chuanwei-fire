@@ -2,7 +2,7 @@ import fs from "node:fs";
 import path from "node:path";
 import { SITE_ROUTES } from "../site-src/_data/siteRoutes.js";
 
-export async function validateStandardResponse({client, origin, viewports, evaluate, navigate, waitForLocation, inspectPage, assert, evidenceDirectory, routeId = "product:standard-response-fire-sprinkler", slug = "standard-response", imageCount = 4, neutralCaptions = {}, modelTableRows, anchors}) {
+export async function validateStandardResponse({client, origin, viewports, evaluate, navigate, waitForLocation, inspectPage, assert, evidenceDirectory, routeId = "product:standard-response-fire-sprinkler", slug = "standard-response", imageCount = 4, neutralCaptions = {}, modelTableRows, modelSection = "models", anchors}) {
   const routePath = (id, locale) => `/${SITE_ROUTES[id].locales[locale].outputPath}`;
   const results = [], screenshots = [];
   for (const viewport of viewports) {
@@ -128,7 +128,7 @@ export async function validateStandardResponse({client, origin, viewports, evalu
         screenshots.push(name);
       }
       if (modelTableRows) {
-        const counts = await evaluate(client, `[...document.querySelectorAll('#models tbody')].map(body => body.rows.length)`);
+        const counts = await evaluate(client, `[...document.querySelectorAll('#${modelSection} tbody')].map(body => body.rows.length)`);
         assert(JSON.stringify(counts) === JSON.stringify(modelTableRows), `${slug}: model table rows changed`);
         for (let tableIndex = 1; tableIndex < modelTableRows.length; tableIndex += 1) {
           await evaluate(client, `(() => {

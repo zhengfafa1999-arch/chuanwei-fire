@@ -1,0 +1,51 @@
+{
+  "scope": "single-product",
+  "product": "bs750-pillar-hydrant",
+  "previewMode": "http",
+  "generatedAt": "2026-09-05T20:11:13.717Z",
+  "browser": "Edg/152.0.4191.62",
+  "viewports": [
+    {
+      "id": "desktop",
+      "width": 1440,
+      "height": 900,
+      "deviceScaleFactor": 1,
+      "mobile": false
+    },
+    {
+      "id": "mobile",
+      "width": 390,
+      "height": 844,
+      "deviceScaleFactor": 1,
+      "mobile": true
+    }
+  ],
+  "languageSwitches": [
+    {
+      "scenario": "desktop/en: bs750-pillar-hydrant image/text category entries, reciprocal switch, refresh, 2-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+      "status": "PASS"
+    },
+    {
+      "scenario": "desktop/ar: bs750-pillar-hydrant image/text category entries, reciprocal switch, refresh, 2-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+      "status": "PASS"
+    },
+    {
+      "scenario": "mobile/en: bs750-pillar-hydrant image/text category entries, reciprocal switch, refresh, 2-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+      "status": "PASS"
+    },
+    {
+      "scenario": "mobile/ar: bs750-pillar-hydrant image/text category entries, reciprocal switch, refresh, 2-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+      "status": "PASS"
+    }
+  ],
+  "screenshots": [
+    "edge-desktop-bs750-pillar-hydrant-en-gallery.png",
+    "edge-desktop-bs750-pillar-hydrant-en-configuration.png",
+    "edge-desktop-bs750-pillar-hydrant-ar-gallery.png",
+    "edge-desktop-bs750-pillar-hydrant-ar-configuration.png",
+    "edge-mobile-bs750-pillar-hydrant-en-gallery.png",
+    "edge-mobile-bs750-pillar-hydrant-en-configuration.png",
+    "edge-mobile-bs750-pillar-hydrant-ar-gallery.png",
+    "edge-mobile-bs750-pillar-hydrant-ar-configuration.png"
+  ]
+}

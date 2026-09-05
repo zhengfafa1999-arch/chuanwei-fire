@@ -102,7 +102,7 @@
 
 ## 第八阶段：室外消火栓
 
-- [ ] **MIG-701 BS 750 柱式消火栓**：`bs750-pillar-hydrant.html`。
+- [x] **MIG-701 BS 750 柱式消火栓**：保留英文原文、2 张图库图片、14 项规格、5 行配置表和原版式；建立室外消火栓共享模板并生成英阿详情，文件/HTTP 单款语言、分类、图库、配置表和手机布局验收通过。报告：`docs/execution/2026-09-06_bs750-pillar-hydrant-language-migration.md`。
 - [ ] **MIG-702 法式地上消火栓**：`french-pattern-hydrant.html`。
 - [ ] **MIG-703 印尼式湿式消火栓**：`indonesian-pattern-hydrant.html`。
 - [ ] **MIG-704 俄式地上消火栓**：`russian-pattern-hydrant.html`。
