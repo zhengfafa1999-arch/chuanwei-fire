@@ -46,7 +46,7 @@ export const SITE_ROUTES = {
 
   "product:lever-operated-grooved-butterfly-valves": { kind: "product", category: "category:butterfly-valves", locales: { en: published("products/消防蝶阀/lever-operated-grooved-butterfly-valves.html"), ar: published("ar/products/lever-operated-grooved-butterfly-valves/index.html") } },
   "product:lever-operated-wafer-butterfly-valves": { kind: "product", category: "category:butterfly-valves", locales: { en: published("products/消防蝶阀/lever-operated-wafer-butterfly-valves.html"), ar: published("ar/products/lever-operated-wafer-butterfly-valves/index.html") } },
-  "product:grooved-supervisory-butterfly-valves": { kind: "product", category: "category:butterfly-valves", locales: { en: published("products/消防蝶阀/grooved-supervisory-butterfly-valves.html"), ar: fallback("ar/products/butterfly-valves/index.html") } },
+  "product:grooved-supervisory-butterfly-valves": { kind: "product", category: "category:butterfly-valves", locales: { en: published("products/消防蝶阀/grooved-supervisory-butterfly-valves.html"), ar: published("ar/products/grooved-supervisory-butterfly-valves/index.html") } },
   "product:wafer-supervisory-butterfly-valves": { kind: "product", category: "category:butterfly-valves", locales: { en: published("products/消防蝶阀/wafer-supervisory-butterfly-valves.html"), ar: fallback("ar/products/butterfly-valves/index.html") } },
 
   "product:flanged-supervisory-gate-valves": { kind: "product", category: "category:gate-valves", locales: { en: published("products/消防阀门/flanged-supervisory-gate-valves.html"), ar: fallback("ar/products/gate-valves/index.html") } },

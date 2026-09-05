@@ -17,13 +17,13 @@
 
     <section class="pdp-section pdp-section--soft" id="specifications">
       <div class="pdp-container">
-        <div class="pdp-heading"><div><p class="pdp-eyebrow">{{ entry.text.technicalOverview }}</p><h2>{{ entry.text.confirmedConstructionAndOperatingData }}</h2></div><p>{{ entry.text.criticalProductDataIsPresentedInHTMLFor }}</p></div>
+        <div class="pdp-heading"><div><p class="pdp-eyebrow">{{ entry.text.technicalOverview }}</p><h2>{{ entry.text.confirmedConstructionAndOperatingData }}</h2></div><p>{{ entry.text[entry.product.textKeys.technicalIntro] }}</p></div>
         <div class="pdp-spec-layout">
           <div class="pdp-panel"><h3>{{ entry.text.seriesSpecifications }}</h3><dl class="pdp-specs">
             {% for row in entry.product.specifications %}<div><dt>{{ entry.text[row[0]] }}</dt><dd>{{ entry.text[row[1]] }}</dd></div>
             {% endfor %}</dl></div>
-          <aside class="pdp-panel"><h3>{{ entry.text.operation }}</h3>
-            <div class="wav-switch-grid">{% for card in entry.product.operationCards %}<div><span>{{ entry.text[card[0]] }}</span><strong>{{ entry.text[card[1]] }}</strong><small>{{ entry.text[card[2]] }}</small></div>{% endfor %}</div>
+          <aside class="pdp-panel"><h3>{{ entry.text[entry.product.textKeys.sideTitle] }}</h3>
+            <div class="wav-switch-grid">{% for card in entry.product.operationCards %}<div><span>{{ entry.text[card[0]] }}</span><strong>{{ entry.text[card[1]] }}</strong>{% if card[2] %}<small>{{ entry.text[card[2]] }}</small>{% endif %}</div>{% endfor %}</div>
             {% for item in entry.product.disclaimers %}<div class="pdp-disclaimer"><strong>{{ entry.text[item[0]] }}</strong>{{ entry.text[item[1]] }}</div>
             {% endfor %}</aside>
         </div>
