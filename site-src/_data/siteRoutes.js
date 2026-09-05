@@ -61,7 +61,7 @@ export const SITE_ROUTES = {
 
   "product:bs750-pillar-hydrant": { kind: "product", category: "category:outdoor-hydrants", locales: { en: published("products/室外消防栓/bs750-pillar-hydrant.html"), ar: published("ar/products/bs750-pillar-hydrant/index.html") } },
   "product:french-pattern-hydrant": { kind: "product", category: "category:outdoor-hydrants", locales: { en: published("products/室外消防栓/french-pattern-hydrant.html"), ar: published("ar/products/french-pattern-hydrant/index.html") } },
-  "product:indonesian-pattern-hydrant": { kind: "product", category: "category:outdoor-hydrants", locales: { en: published("products/室外消防栓/indonesian-pattern-hydrant.html"), ar: fallback("ar/products/outdoor-hydrants/index.html") } },
+  "product:indonesian-pattern-hydrant": { kind: "product", category: "category:outdoor-hydrants", locales: { en: published("products/室外消防栓/indonesian-pattern-hydrant.html"), ar: published("ar/products/indonesian-pattern-hydrant/index.html") } },
   "product:russian-pattern-hydrant": { kind: "product", category: "category:outdoor-hydrants", locales: { en: published("products/室外消防栓/russian-pattern-hydrant.html"), ar: fallback("ar/products/outdoor-hydrants/index.html") } }
 };
 

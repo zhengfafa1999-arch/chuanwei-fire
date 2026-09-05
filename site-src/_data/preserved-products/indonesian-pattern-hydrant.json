@@ -1,0 +1,421 @@
+{
+  "id": "indonesian-pattern-hydrant",
+  "routeId": "product:indonesian-pattern-hydrant",
+  "template": "product-series/outdoor-hydrant.njk",
+  "layout": "options",
+  "source": {
+    "path": "products/室外消防栓/indonesian-pattern-hydrant.html",
+    "revision": "206e02f",
+    "status": "preserved-existing-content-not-reaudited"
+  },
+  "media": {
+    "hero": "products/室外消防栓/global-series/indonesia-wet-barrel-hydrant.jpg",
+    "front": "products/室外消防栓/global-series/indonesia-wet-barrel-hydrant.jpg",
+    "angle": "products/室外消防栓/global-series/indonesia-wet-barrel-detail.jpg"
+  },
+  "hero": {
+    "width": 1179,
+    "height": 1548
+  },
+  "sectionLinks": [
+    [
+      "gallery",
+      "productViews"
+    ],
+    [
+      "configuration",
+      "configuration"
+    ],
+    [
+      "options",
+      "options"
+    ],
+    [
+      "inquiry",
+      "inquiry"
+    ]
+  ],
+  "secondaryAction": {
+    "anchor": "configuration",
+    "label": "viewConfiguration"
+  },
+  "textKeys": {
+    "eyebrow": "wetBarrelPillarFireHydrant",
+    "title": "indonesianPatternWetBarrelHydrant",
+    "lead": "wetBarrelLead",
+    "note": "exactConnectionsConfirmed",
+    "imageAria": "enlargeIndonesianHydrantImage",
+    "imageAlt": "indonesianWetBarrelPillar",
+    "galleryTitle": "frontAndAlternateAngle",
+    "galleryIntro": "photographsShowTwinOutlets",
+    "configurationTitle": "wetBarrelWetClimateArrangement",
+    "configurationIntro": "wetBarrelConfigurationIntro",
+    "optionsTitle": "configureHydrantToMarket",
+    "optionsIntro": "optionsReviewedAgainstDrawing",
+    "sideTitle": "customization",
+    "ctaTitle": "sendYourHydrantSpecification",
+    "ctaText": "includeQuotationPressure",
+    "modalAlt": "enlargedIndonesianHydrant"
+  },
+  "chips": [
+    "wetBarrel",
+    "sniProjectReview",
+    "twinOutlets"
+  ],
+  "gallery": [
+    {
+      "media": "front",
+      "alt": "indonesianFrontView",
+      "caption": "frontView",
+      "thumbAlt": "frontViewThumbnail",
+      "label": "front"
+    },
+    {
+      "media": "angle",
+      "alt": "indonesianAngleView",
+      "caption": "alternateAngle",
+      "thumbAlt": "alternateAngleThumbnail",
+      "label": "angle"
+    }
+  ],
+  "configurationHeaders": [
+    "field",
+    "value"
+  ],
+  "models": [
+    [
+      "quotationReference",
+      "cwIdWb2"
+    ],
+    [
+      "barrel",
+      "wetBarrelAboveGround"
+    ],
+    [
+      "outlets",
+      "twinIndependentOutlets"
+    ],
+    [
+      "inletConnection",
+      "verticalFlangedBase"
+    ],
+    [
+      "marketBasis",
+      "sniProjectReview"
+    ]
+  ],
+  "specifications": [
+    [
+      "outletInterface",
+      "indonesianPatternOrCustom"
+    ],
+    [
+      "inletConnection",
+      "verticalLowerOrProjectFlange"
+    ],
+    [
+      "operation",
+      "topNutOrPhotographed"
+    ],
+    [
+      "appearanceMarking",
+      "colorLetteringNameplateLogo"
+    ]
+  ],
+  "disclaimers": [
+    [
+      "drawingBasedReview",
+      "interfacesConfirmedFromDrawing"
+    ],
+    [
+      "standardsNote",
+      "standardsAreReferences"
+    ]
+  ],
+  "inquiry": {
+    "whatsapp": "https://wa.me/8617326528368?text=Hello%2C%20I%20need%20a%20quotation%20for%20an%20Indonesian-Pattern%20Wet-Barrel%20Hydrant.%20Quotation%20ref%3A%20CW-ID-WB-2%2C%20inlet%2Foutlet%3A%20%5Bdetails%5D%2C%20quantity%3A%20%5Bpcs%5D%2C%20destination%3A%20%5Bcountry%5D.",
+    "email": "mailto:zhengcolin1@gmail.com?subject=Indonesian%20Hydrant%20Inquiry"
+  },
+  "copy": {
+    "onThisPage": {
+      "text": "On this page",
+      "numbers": []
+    },
+    "productViews": {
+      "text": "Product views",
+      "numbers": []
+    },
+    "configuration": {
+      "text": "Configuration",
+      "numbers": []
+    },
+    "options": {
+      "text": "Options",
+      "numbers": []
+    },
+    "inquiry": {
+      "text": "Inquiry",
+      "numbers": []
+    },
+    "askOnWhatsApp": {
+      "text": "Ask on WhatsApp",
+      "numbers": []
+    },
+    "viewConfiguration": {
+      "text": "View configuration",
+      "numbers": []
+    },
+    "exactConnectionsConfirmed": {
+      "text": "Exact inlet, outlets, pressure, flange drilling and operating key are confirmed from the approved buyer drawing before quotation.",
+      "numbers": []
+    },
+    "enlargeSelectedProductImage": {
+      "text": "Enlarge selected product image",
+      "numbers": []
+    },
+    "previousProductImage": {
+      "text": "Previous product image",
+      "numbers": []
+    },
+    "nextProductImage": {
+      "text": "Next product image",
+      "numbers": []
+    },
+    "productImageThumbnails": {
+      "text": "Product image thumbnails",
+      "numbers": []
+    },
+    "frontView": {
+      "text": "Front view",
+      "numbers": []
+    },
+    "frontViewThumbnail": {
+      "text": "Front view thumbnail",
+      "numbers": []
+    },
+    "front": {
+      "text": "Front",
+      "numbers": []
+    },
+    "field": {
+      "text": "Field",
+      "numbers": []
+    },
+    "value": {
+      "text": "Value",
+      "numbers": []
+    },
+    "quotationReference": {
+      "text": "Quotation reference",
+      "numbers": []
+    },
+    "barrel": {
+      "text": "Barrel",
+      "numbers": []
+    },
+    "outlets": {
+      "text": "Outlets",
+      "numbers": []
+    },
+    "inletConnection": {
+      "text": "Inlet connection",
+      "numbers": []
+    },
+    "marketBasis": {
+      "text": "Market basis",
+      "numbers": []
+    },
+    "availableOptions": {
+      "text": "Available options",
+      "numbers": []
+    },
+    "configureHydrantToMarket": {
+      "text": "Configure the hydrant to your market",
+      "numbers": []
+    },
+    "optionsReviewedAgainstDrawing": {
+      "text": "Options are reviewed against the approved drawing or order schedule. Standards named here are specification references for project review, not certification claims.",
+      "numbers": []
+    },
+    "selectableOptions": {
+      "text": "Selectable options",
+      "numbers": []
+    },
+    "outletInterface": {
+      "text": "Outlet interface",
+      "numbers": []
+    },
+    "operation": {
+      "text": "Operation",
+      "numbers": []
+    },
+    "appearanceMarking": {
+      "text": "Appearance & marking",
+      "numbers": []
+    },
+    "colorLetteringNameplateLogo": {
+      "text": "Coating color, cast lettering, nameplate language, customer logo",
+      "numbers": []
+    },
+    "customization": {
+      "text": "Customization",
+      "numbers": []
+    },
+    "drawingBasedReview": {
+      "text": "Drawing-based review",
+      "numbers": []
+    },
+    "interfacesConfirmedFromDrawing": {
+      "text": "Inlet and outlet interfaces, flange drilling, pressure class and operating key are confirmed from the approved drawing.",
+      "numbers": []
+    },
+    "standardsNote": {
+      "text": "Standards note",
+      "numbers": []
+    },
+    "standardsAreReferences": {
+      "text": "Standards named on this page are specification references for project review, not certification claims.",
+      "numbers": []
+    },
+    "sendYourHydrantSpecification": {
+      "text": "Send your hydrant specification",
+      "numbers": []
+    },
+    "includeQuotationPressure": {
+      "text": "Include quotation reference, inlet/outlet sizes, pressure class, flange or coupling drawing, quantity and destination.",
+      "numbers": []
+    },
+    "whatsAppInquiry": {
+      "text": "WhatsApp inquiry",
+      "numbers": []
+    },
+    "emailSales": {
+      "text": "Email sales",
+      "numbers": []
+    },
+    "productImagePreview": {
+      "text": "Product image preview",
+      "numbers": []
+    },
+    "closeImagePreview": {
+      "text": "Close image preview",
+      "numbers": []
+    },
+    "whatsAppChat": {
+      "text": "WhatsApp Chat",
+      "numbers": []
+    },
+    "facebookPage": {
+      "text": "Facebook Page",
+      "numbers": []
+    },
+    "linkedInProfile": {
+      "text": "LinkedIn Profile",
+      "numbers": []
+    },
+    "wetBarrelPillarFireHydrant": {
+      "text": "Wet-Barrel Pillar Fire Hydrant",
+      "numbers": []
+    },
+    "indonesianPatternWetBarrelHydrant": {
+      "text": "Indonesian-Pattern Wet-Barrel Hydrant",
+      "numbers": []
+    },
+    "wetBarrelLead": {
+      "text": "An above-ground wet-barrel arrangement for warm climates without freezing exposure. Individual outlet valves and coupling interfaces are configured to the approved project drawing.",
+      "numbers": []
+    },
+    "wetBarrel": {
+      "text": "Wet barrel",
+      "numbers": []
+    },
+    "twinOutlets": {
+      "text": "Twin outlets",
+      "numbers": []
+    },
+    "enlargeIndonesianHydrantImage": {
+      "text": "Enlarge Indonesian wet barrel hydrant image",
+      "numbers": []
+    },
+    "indonesianWetBarrelPillar": {
+      "text": "Indonesian-pattern wet barrel pillar fire hydrant with twin outlets",
+      "numbers": []
+    },
+    "frontAndAlternateAngle": {
+      "text": "Front and alternate angle",
+      "numbers": []
+    },
+    "photographsShowTwinOutlets": {
+      "text": "Photographs show the twin side outlets, independently operated outlet valves and flanged base. The visible physical GUANYA / 冠亚 product markings are retained; CHUANWEI FIRE identifies the website and export-sales presentation.",
+      "numbers": []
+    },
+    "indonesianFrontView": {
+      "text": "Indonesian wet barrel hydrant front view",
+      "numbers": []
+    },
+    "indonesianAngleView": {
+      "text": "Indonesian wet barrel hydrant angle view",
+      "numbers": []
+    },
+    "alternateAngle": {
+      "text": "Alternate angle",
+      "numbers": []
+    },
+    "alternateAngleThumbnail": {
+      "text": "Alternate angle thumbnail",
+      "numbers": []
+    },
+    "angle": {
+      "text": "Angle",
+      "numbers": []
+    },
+    "wetBarrelWetClimateArrangement": {
+      "text": "Wet-barrel wet climate arrangement",
+      "numbers": []
+    },
+    "wetBarrelConfigurationIntro": {
+      "text": "Wet-barrel hydrants are used where freezing is not a concern. The reference below identifies this photographed configuration for quotation.",
+      "numbers": []
+    },
+    "wetBarrelAboveGround": {
+      "text": "Wet barrel (above ground)",
+      "numbers": []
+    },
+    "twinIndependentOutlets": {
+      "text": "Twin side outlets, independently operated outlet valves",
+      "numbers": []
+    },
+    "verticalFlangedBase": {
+      "text": "Vertical flanged base",
+      "numbers": []
+    },
+    "indonesianPatternOrCustom": {
+      "text": "Indonesian pattern, or approved custom coupling per drawing",
+      "numbers": []
+    },
+    "verticalLowerOrProjectFlange": {
+      "text": "Vertical flanged base, lower flanged elbow, or project mating flange",
+      "numbers": []
+    },
+    "topNutOrPhotographed": {
+      "text": "Top operating nut, or per the photographed configuration",
+      "numbers": []
+    },
+    "enlargedIndonesianHydrant": {
+      "text": "Enlarged Indonesian wet barrel hydrant",
+      "numbers": []
+    },
+    "seoTitle": {
+      "text": "Indonesian-Pattern Wet-Barrel Hydrant | CHUANWEI FIRE",
+      "numbers": []
+    },
+    "seoDescription": {
+      "text": "Indonesian-pattern wet-barrel pillar hydrant for warm climates, with twin independently operated outlets and project-specific interfaces.",
+      "numbers": []
+    }
+  },
+  "shared": {
+    "sniProjectReview": "SNI project review",
+    "cwIdWb2": "CW-ID-WB-2"
+  }
+}

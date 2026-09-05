@@ -1,0 +1,55 @@
+{
+  "scope": "single-product",
+  "product": "indonesian-pattern-hydrant",
+  "previewMode": "file",
+  "generatedAt": "2026-09-05T20:33:47.989Z",
+  "browser": "Edg/152.0.4191.62",
+  "viewports": [
+    {
+      "id": "desktop",
+      "width": 1440,
+      "height": 900,
+      "deviceScaleFactor": 1,
+      "mobile": false
+    },
+    {
+      "id": "mobile",
+      "width": 390,
+      "height": 844,
+      "deviceScaleFactor": 1,
+      "mobile": true
+    }
+  ],
+  "languageSwitches": [
+    {
+      "scenario": "desktop/en: indonesian-pattern-hydrant image/text category entries, reciprocal switch, refresh, 2-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+      "status": "PASS"
+    },
+    {
+      "scenario": "desktop/ar: indonesian-pattern-hydrant image/text category entries, reciprocal switch, refresh, 2-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+      "status": "PASS"
+    },
+    {
+      "scenario": "mobile/en: indonesian-pattern-hydrant image/text category entries, reciprocal switch, refresh, 2-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+      "status": "PASS"
+    },
+    {
+      "scenario": "mobile/ar: indonesian-pattern-hydrant image/text category entries, reciprocal switch, refresh, 2-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+      "status": "PASS"
+    }
+  ],
+  "screenshots": [
+    "edge-desktop-indonesian-pattern-hydrant-en-gallery.png",
+    "edge-desktop-indonesian-pattern-hydrant-en-configuration.png",
+    "edge-desktop-indonesian-pattern-hydrant-en-options.png",
+    "edge-desktop-indonesian-pattern-hydrant-ar-gallery.png",
+    "edge-desktop-indonesian-pattern-hydrant-ar-configuration.png",
+    "edge-desktop-indonesian-pattern-hydrant-ar-options.png",
+    "edge-mobile-indonesian-pattern-hydrant-en-gallery.png",
+    "edge-mobile-indonesian-pattern-hydrant-en-configuration.png",
+    "edge-mobile-indonesian-pattern-hydrant-en-options.png",
+    "edge-mobile-indonesian-pattern-hydrant-ar-gallery.png",
+    "edge-mobile-indonesian-pattern-hydrant-ar-configuration.png",
+    "edge-mobile-indonesian-pattern-hydrant-ar-options.png"
+  ]
+}
