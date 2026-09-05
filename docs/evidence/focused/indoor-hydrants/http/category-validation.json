@@ -1,0 +1,159 @@
+{
+  "scope": "single-category",
+  "category": "indoor-hydrants",
+  "previewMode": "http",
+  "generatedAt": "2026-09-05T19:48:58.602Z",
+  "browser": "Edg/152.0.4191.62",
+  "viewports": [
+    {
+      "id": "desktop",
+      "width": 1440,
+      "height": 900,
+      "deviceScaleFactor": 1,
+      "mobile": false
+    },
+    {
+      "id": "mobile",
+      "width": 390,
+      "height": 844,
+      "deviceScaleFactor": 1,
+      "mobile": true
+    }
+  ],
+  "languageSwitches": [
+    {
+      "scenario": "desktop/en: home and directory entries, category reciprocal switch and refresh",
+      "status": "PASS"
+    },
+    {
+      "scenario": "desktop/en: product:standard-indoor-hydrant image/text entries, back, reciprocal switch, refresh and three footer returns",
+      "status": "PASS",
+      "viewport": "desktop",
+      "locale": "en",
+      "routeId": "product:standard-indoor-hydrant"
+    },
+    {
+      "scenario": "desktop/en: product:export-slanted-hydrant-valve image/text entries, back, reciprocal switch, refresh and three footer returns",
+      "status": "PASS",
+      "viewport": "desktop",
+      "locale": "en",
+      "routeId": "product:export-slanted-hydrant-valve"
+    },
+    {
+      "scenario": "desktop/en: product:double-outlet-hydrant image/text entries, back, reciprocal switch, refresh and three footer returns",
+      "status": "PASS",
+      "viewport": "desktop",
+      "locale": "en",
+      "routeId": "product:double-outlet-hydrant"
+    },
+    {
+      "scenario": "desktop/en: product:rotating-pressure-regulating-hydrant image/text entries, back, reciprocal switch, refresh and three footer returns",
+      "status": "PASS",
+      "viewport": "desktop",
+      "locale": "en",
+      "routeId": "product:rotating-pressure-regulating-hydrant"
+    },
+    {
+      "scenario": "desktop/ar: home and directory entries, category reciprocal switch and refresh",
+      "status": "PASS"
+    },
+    {
+      "scenario": "desktop/ar: product:standard-indoor-hydrant image/text entries, back, reciprocal switch, refresh and three footer returns",
+      "status": "PASS",
+      "viewport": "desktop",
+      "locale": "ar",
+      "routeId": "product:standard-indoor-hydrant"
+    },
+    {
+      "scenario": "desktop/ar: product:export-slanted-hydrant-valve image/text entries, back, reciprocal switch, refresh and three footer returns",
+      "status": "PASS",
+      "viewport": "desktop",
+      "locale": "ar",
+      "routeId": "product:export-slanted-hydrant-valve"
+    },
+    {
+      "scenario": "desktop/ar: product:double-outlet-hydrant image/text entries, back, reciprocal switch, refresh and three footer returns",
+      "status": "PASS",
+      "viewport": "desktop",
+      "locale": "ar",
+      "routeId": "product:double-outlet-hydrant"
+    },
+    {
+      "scenario": "desktop/ar: product:rotating-pressure-regulating-hydrant image/text entries, back, reciprocal switch, refresh and three footer returns",
+      "status": "PASS",
+      "viewport": "desktop",
+      "locale": "ar",
+      "routeId": "product:rotating-pressure-regulating-hydrant"
+    },
+    {
+      "scenario": "mobile/en: home and directory entries, category reciprocal switch and refresh",
+      "status": "PASS"
+    },
+    {
+      "scenario": "mobile/en: product:standard-indoor-hydrant image/text entries, back, reciprocal switch, refresh and three footer returns",
+      "status": "PASS",
+      "viewport": "mobile",
+      "locale": "en",
+      "routeId": "product:standard-indoor-hydrant"
+    },
+    {
+      "scenario": "mobile/en: product:export-slanted-hydrant-valve image/text entries, back, reciprocal switch, refresh and three footer returns",
+      "status": "PASS",
+      "viewport": "mobile",
+      "locale": "en",
+      "routeId": "product:export-slanted-hydrant-valve"
+    },
+    {
+      "scenario": "mobile/en: product:double-outlet-hydrant image/text entries, back, reciprocal switch, refresh and three footer returns",
+      "status": "PASS",
+      "viewport": "mobile",
+      "locale": "en",
+      "routeId": "product:double-outlet-hydrant"
+    },
+    {
+      "scenario": "mobile/en: product:rotating-pressure-regulating-hydrant image/text entries, back, reciprocal switch, refresh and three footer returns",
+      "status": "PASS",
+      "viewport": "mobile",
+      "locale": "en",
+      "routeId": "product:rotating-pressure-regulating-hydrant"
+    },
+    {
+      "scenario": "mobile/ar: home and directory entries, category reciprocal switch and refresh",
+      "status": "PASS"
+    },
+    {
+      "scenario": "mobile/ar: product:standard-indoor-hydrant image/text entries, back, reciprocal switch, refresh and three footer returns",
+      "status": "PASS",
+      "viewport": "mobile",
+      "locale": "ar",
+      "routeId": "product:standard-indoor-hydrant"
+    },
+    {
+      "scenario": "mobile/ar: product:export-slanted-hydrant-valve image/text entries, back, reciprocal switch, refresh and three footer returns",
+      "status": "PASS",
+      "viewport": "mobile",
+      "locale": "ar",
+      "routeId": "product:export-slanted-hydrant-valve"
+    },
+    {
+      "scenario": "mobile/ar: product:double-outlet-hydrant image/text entries, back, reciprocal switch, refresh and three footer returns",
+      "status": "PASS",
+      "viewport": "mobile",
+      "locale": "ar",
+      "routeId": "product:double-outlet-hydrant"
+    },
+    {
+      "scenario": "mobile/ar: product:rotating-pressure-regulating-hydrant image/text entries, back, reciprocal switch, refresh and three footer returns",
+      "status": "PASS",
+      "viewport": "mobile",
+      "locale": "ar",
+      "routeId": "product:rotating-pressure-regulating-hydrant"
+    }
+  ],
+  "screenshots": [
+    "edge-desktop-indoor-hydrants-en.png",
+    "edge-desktop-indoor-hydrants-ar.png",
+    "edge-mobile-indoor-hydrants-en.png",
+    "edge-mobile-indoor-hydrants-ar.png"
+  ]
+}

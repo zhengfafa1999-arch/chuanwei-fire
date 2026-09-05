@@ -98,7 +98,7 @@
 - [x] **MIG-602 出口型斜式消火栓阀**：保留英文原文、2 张图库图片、无型号表结构和原版式；复用室内消火栓共享模板生成英阿详情，文件/HTTP 单款语言、分类、图库、规格区和手机布局验收通过。报告：`docs/execution/2026-09-06_export-slanted-hydrant-valve-language-migration.md`。
 - [x] **MIG-603 双出口室内消火栓**：保留英文原文、单张主图、无图库和无型号表结构及原版式；复用室内消火栓共享模板生成英阿详情，文件/HTTP 单款语言、分类、主图放大、规格区和手机布局验收通过。报告：`docs/execution/2026-09-06_double-outlet-hydrant-language-migration.md`。
 - [x] **MIG-604 旋转减压稳压消火栓**：保留英文原文、6 行型号、单张主图和原版式；复用室内消火栓共享模板生成英阿详情，文件/HTTP 单款语言、分类、主图放大、型号表和手机布局验收通过。报告：`docs/execution/2026-09-06_rotating-pressure-regulating-hydrant-language-migration.md`。
-- [ ] **MIG-605 室内消火栓分类页**：迁移 `products/室内消防栓/室内消防栓.html`。
+- [x] **MIG-605 室内消火栓分类页**：四款室内消火栓的英阿图片/文字入口、语言互切、刷新、返回和桌面/手机布局均通过文件与 HTTP 分类定向验收，无英文回退。报告：`docs/execution/2026-09-06_indoor-hydrant-category-language-closeout.md`。
 
 ## 第八阶段：室外消火栓
 
