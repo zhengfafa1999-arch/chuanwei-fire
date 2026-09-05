@@ -1,0 +1,823 @@
+{
+  "id": "wafer-supervisory-butterfly-valves",
+  "routeId": "product:wafer-supervisory-butterfly-valves",
+  "template": "product-series/butterfly-valve.njk",
+  "source": {
+    "path": "products/消防蝶阀/wafer-supervisory-butterfly-valves.html",
+    "revision": "eb1f8b2",
+    "status": "preserved-existing-content-not-reaudited"
+  },
+  "media": {
+    "hero": "products/消防蝶阀/wafer-supervisory-butterfly-valves/wafer-supervisory-butterfly-valve.jpg"
+  },
+  "hero": {
+    "width": 1417,
+    "height": 2682
+  },
+  "textKeys": {
+    "eyebrow": "supervisoryFireButterflyValve",
+    "title": "waferSupervisoryButterflyValve",
+    "lead": "waferButterflyValveWithGearOperator",
+    "note": "switchSpecificationFaceToFaceDimensionAndMarkingAre",
+    "imageAria": "enlargeWaferSupervisoryButterflyValveImage",
+    "imageAlt": "waferSupervisoryFireButterflyValveWithGearOperator",
+    "technicalIntro": "criticalProductDataNoULFM",
+    "sideTitle": "supervisorySwitch",
+    "modelIntro": "internationalSizeAndConnectionZSXDF7",
+    "optionsNote": "confirmedTypeTestReportCoversWafer",
+    "manufacturingNote": "manufacturingOptionsAreConfirmedAgainstTheBuyerS",
+    "ctaTitle": "sendYourSupervisoryButterflyValveSchedule",
+    "ctaText": "includeSizeSwitchSpecificationQuantityAndDestination",
+    "modalAlt": "enlargedWaferSupervisoryButterflyValve"
+  },
+  "chips": [
+    "sizeRangeChip",
+    "inchRangeChip",
+    "wafer",
+    "pressureChip",
+    "supervisorySwitch"
+  ],
+  "specifications": [
+    [
+      "productType",
+      "waferSupervisoryButterflyValve"
+    ],
+    [
+      "availableSizes",
+      "availableSizeRange"
+    ],
+    [
+      "connection",
+      "waferSandwichedBetweenTwoFlanges"
+    ],
+    [
+      "workingPressure",
+      "workingPressureValue"
+    ],
+    [
+      "body",
+      "ductileIronQT45010InternalAndExternalEpoxyCoating"
+    ],
+    [
+      "disc",
+      "ductileIron"
+    ],
+    [
+      "stem",
+      "stainlessSteel"
+    ],
+    [
+      "seat",
+      "ePDM"
+    ],
+    [
+      "medium",
+      "waterOrWaterFoamMixture"
+    ],
+    [
+      "workingTemperature",
+      "workingTemperatureZeroTo80"
+    ],
+    [
+      "standard",
+      "supervisoryWaferStandardValue"
+    ],
+    [
+      "operation",
+      "gearOperatorWithHandwheelAndPositionIndicator"
+    ]
+  ],
+  "operationCards": [
+    [
+      "microSwitch",
+      "dc24V05A"
+    ],
+    [
+      "contactForm",
+      "oneNOOneNC",
+      "sPDT"
+    ],
+    [
+      "enclosure",
+      "iP67",
+      "signalBox"
+    ],
+    [
+      "signalFlow",
+      "atLeast80Percent",
+      "ofFullOpenFlow"
+    ]
+  ],
+  "disclaimers": [
+    [
+      "typeTested",
+      "signalConversionMechanicalStrengthCyclesInsulationAndResistance"
+    ],
+    [
+      "installationData",
+      "installedWaferStyleWithSwitchWired"
+    ]
+  ],
+  "models": [
+    [
+      "waferSupervisoryButterflyValve",
+      "dN1004In",
+      "pN16",
+      "zSXDF7Q10016"
+    ],
+    [
+      "waferSupervisoryButterflyValve",
+      "dN1506In",
+      "pN16",
+      "zSXDF7Q15016"
+    ],
+    [
+      "waferSupervisoryButterflyValve",
+      "dN2008In",
+      "pN16",
+      "zSXDF7Q20016"
+    ]
+  ],
+  "oemCards": [
+    [
+      "flangeCompatibility",
+      "waferFaceToFaceDimensionProducedToTheApprovedDrawing"
+    ],
+    [
+      "switchConfiguration",
+      "microSwitchMakeContactFormAndEnclosureReviewed"
+    ],
+    [
+      "brandPresentation",
+      "customNameplateLogoAndCoatingColor"
+    ],
+    [
+      "exportPacking",
+      "cartonOrWoodenCasePackingPreparedAccordingTo"
+    ]
+  ],
+  "inquiry": {
+    "whatsapp": "https://wa.me/8617326528368?text=Hello%2C%20I%20need%20a%20quotation%20for%20Wafer%20Supervisory%20Butterfly%20Valves.%20Size%3A%20%5BDN%2Finch%5D%2C%20switch%20requirement%3A%20%5Bdetails%5D%2C%20quantity%3A%20%5Bpcs%5D%2C%20destination%3A%20%5Bcountry%5D.",
+    "email": "mailto:zhengcolin1@gmail.com?subject=Wafer%20Supervisory%20Butterfly%20Valve%20Inquiry"
+  },
+  "copy": {
+    "specifications": {
+      "text": "Specifications",
+      "numbers": []
+    },
+    "availableModels": {
+      "text": "Available models",
+      "numbers": []
+    },
+    "oEMODM": {
+      "text": "OEM / ODM",
+      "numbers": []
+    },
+    "fireProtectionButterflyValve": {
+      "text": "Fire Protection Butterfly Valve",
+      "numbers": []
+    },
+    "leverOperatedGroovedButterflyValve": {
+      "text": "Lever-Operated Grooved Butterfly Valve",
+      "numbers": []
+    },
+    "manualLeverOperatedButterflyValveWithGroovedEnds": {
+      "text": "A manual lever-operated butterfly valve with grooved ends for quick installation on grooved fire protection piping. A visible lever with a position-locking plate provides simple open/close control.",
+      "numbers": []
+    },
+    "sizeRangeChip": {
+      "text": "DN{n0}–DN{n1}",
+      "numbers": [
+        "100",
+        "200"
+      ]
+    },
+    "inchRangeChip": {
+      "text": "{n0}–{n1} in",
+      "numbers": [
+        "4",
+        "8"
+      ]
+    },
+    "grooved": {
+      "text": "Grooved",
+      "numbers": []
+    },
+    "pressureChip": {
+      "text": "PN{n0} / {n1} MPa",
+      "numbers": [
+        "16",
+        "1.6"
+      ]
+    },
+    "leverOperated": {
+      "text": "Lever operated",
+      "numbers": []
+    },
+    "askOnWhatsApp": {
+      "text": "Ask on WhatsApp",
+      "numbers": []
+    },
+    "viewAvailableModels": {
+      "text": "View available models",
+      "numbers": []
+    },
+    "grooveProfileFaceToFaceDimensionAndMarkingAre": {
+      "text": "Groove profile, face-to-face dimension and marking are confirmed against the approved drawing, sample or order schedule before production.",
+      "numbers": []
+    },
+    "technicalOverview": {
+      "text": "Technical overview",
+      "numbers": []
+    },
+    "confirmedConstructionAndOperatingData": {
+      "text": "Confirmed construction and operating data",
+      "numbers": []
+    },
+    "criticalProductDataIsPresentedInHTMLFor": {
+      "text": "Critical product data is presented in HTML for clear international sourcing. The valve is produced to a national standard; no foreign approval is claimed on this page.",
+      "numbers": []
+    },
+    "seriesSpecifications": {
+      "text": "Series specifications",
+      "numbers": []
+    },
+    "productType": {
+      "text": "Product type",
+      "numbers": []
+    },
+    "availableSizes": {
+      "text": "Available sizes",
+      "numbers": []
+    },
+    "availableSizeRange": {
+      "text": "DN{n0} / {n1} in to DN{n2} / {n3} in",
+      "numbers": [
+        "100",
+        "4",
+        "200",
+        "8"
+      ]
+    },
+    "connection": {
+      "text": "Connection",
+      "numbers": []
+    },
+    "workingPressure": {
+      "text": "Working pressure",
+      "numbers": []
+    },
+    "workingPressureValue": {
+      "text": "PN{n0} / {n1} MPa / {n2} bar",
+      "numbers": [
+        "16",
+        "1.6",
+        "16"
+      ]
+    },
+    "bodyDisc": {
+      "text": "Body & disc",
+      "numbers": []
+    },
+    "ductileIronQT45010": {
+      "text": "Ductile iron QT{n0}-{n1}",
+      "numbers": [
+        "450",
+        "10"
+      ]
+    },
+    "seat": {
+      "text": "Seat",
+      "numbers": []
+    },
+    "ePDM": {
+      "text": "EPDM",
+      "numbers": []
+    },
+    "stem": {
+      "text": "Stem",
+      "numbers": []
+    },
+    "stainlessSteel": {
+      "text": "Stainless steel",
+      "numbers": []
+    },
+    "leverPositionPlate": {
+      "text": "Lever & position plate",
+      "numbers": []
+    },
+    "carbonSteelLeverGalvanized45SteelLockingPlate": {
+      "text": "Carbon steel lever; galvanized {n0}# steel locking plate",
+      "numbers": [
+        "45"
+      ]
+    },
+    "medium": {
+      "text": "Medium",
+      "numbers": []
+    },
+    "water": {
+      "text": "Water",
+      "numbers": []
+    },
+    "workingTemperature": {
+      "text": "Working temperature",
+      "numbers": []
+    },
+    "workingTemperatureRange": {
+      "text": "-{n0} to {n1} °C",
+      "numbers": [
+        "10",
+        "80"
+      ]
+    },
+    "standard": {
+      "text": "Standard",
+      "numbers": []
+    },
+    "standardValue": {
+      "text": "GB {n0}.{n1}-{n2} (national fire butterfly valve standard); groove connection to GB {n3}.{n4}",
+      "numbers": [
+        "5135",
+        "6",
+        "2018",
+        "5135",
+        "11"
+      ]
+    },
+    "installation": {
+      "text": "Installation",
+      "numbers": []
+    },
+    "groovedCouplingsOnHorizontalOrVerticalFireWaterPiping": {
+      "text": "Grooved couplings on horizontal or vertical fire-water piping",
+      "numbers": []
+    },
+    "operation": {
+      "text": "Operation",
+      "numbers": []
+    },
+    "manualLever": {
+      "text": "Manual lever",
+      "numbers": []
+    },
+    "openClose": {
+      "text": "open / close",
+      "numbers": []
+    },
+    "positionControl": {
+      "text": "Position control",
+      "numbers": []
+    },
+    "lockingPlate": {
+      "text": "Locking plate",
+      "numbers": []
+    },
+    "value45GalvanizedSteel": {
+      "text": "{n0}# galvanized steel",
+      "numbers": [
+        "45"
+      ]
+    },
+    "workingTemp": {
+      "text": "Working temp",
+      "numbers": []
+    },
+    "fahrenheitRange": {
+      "text": "{n0} to {n1} °F",
+      "numbers": [
+        "14",
+        "176"
+      ]
+    },
+    "pressureClass": {
+      "text": "Pressure class",
+      "numbers": []
+    },
+    "pN16": {
+      "text": "PN{n0}",
+      "numbers": [
+        "16"
+      ]
+    },
+    "pressureMetric": {
+      "text": "{n0} MPa / {n1} bar",
+      "numbers": [
+        "1.6",
+        "16"
+      ]
+    },
+    "configurationNote": {
+      "text": "Configuration note",
+      "numbers": []
+    },
+    "grooveProfileAndLeverOrientationAreSupplied": {
+      "text": "Groove profile and lever orientation are supplied according to the confirmed order requirements.",
+      "numbers": []
+    },
+    "installationData": {
+      "text": "Installation data",
+      "numbers": []
+    },
+    "installedWithGroovedCouplingsOnHorizontalOrVertical": {
+      "text": "Installed with grooved couplings on horizontal or vertical fire-water piping, per the approved design.",
+      "numbers": []
+    },
+    "configurationsForQuotation": {
+      "text": "Configurations for quotation",
+      "numbers": []
+    },
+    "internationalSizeAndConnectionAreThePrimarySelection": {
+      "text": "International size and connection are the primary selection fields. ZSDF{n0}-Q codes are retained only as factory references.",
+      "numbers": [
+        "8"
+      ]
+    },
+    "internationalConfiguration": {
+      "text": "International configuration",
+      "numbers": []
+    },
+    "nominalSize": {
+      "text": "Nominal size",
+      "numbers": []
+    },
+    "factoryReference": {
+      "text": "Factory reference",
+      "numbers": []
+    },
+    "forQuotationSpecifyDNSizeGrooveProfileRequirement": {
+      "text": "For quotation, specify DN size, groove profile requirement, lever orientation and quantity. The DN{n0} operator type (lever or worm gear) is confirmed on order.",
+      "numbers": [
+        "200"
+      ]
+    },
+    "oEMODMCapability": {
+      "text": "OEM / ODM capability",
+      "numbers": []
+    },
+    "configuredToTheApprovedDrawingOrSample": {
+      "text": "Configured to the approved drawing or sample",
+      "numbers": []
+    },
+    "manufacturingOptionsAreConfirmedAgainstTheBuyerS": {
+      "text": "Manufacturing options are confirmed against the buyer's technical schedule. Connection-standard names describe available machining patterns and do not imply third-party product approval.",
+      "numbers": []
+    },
+    "grooveProfile": {
+      "text": "Groove profile",
+      "numbers": []
+    },
+    "grooveDimensionsProducedToAnApprovedCustomerSample": {
+      "text": "Groove dimensions produced to an approved customer sample, drawing or coupling standard.",
+      "numbers": []
+    },
+    "brandPresentation": {
+      "text": "Brand presentation",
+      "numbers": []
+    },
+    "customNameplateLogoAndCoatingColor": {
+      "text": "Custom nameplate, logo and coating color.",
+      "numbers": []
+    },
+    "leverPlateReview": {
+      "text": "Lever & plate review",
+      "numbers": []
+    },
+    "leverOrientationAndLockingPlateConfigurationReviewedBeforeManufacturing": {
+      "text": "Lever orientation and locking-plate configuration reviewed before manufacturing.",
+      "numbers": []
+    },
+    "exportPacking": {
+      "text": "Export packing",
+      "numbers": []
+    },
+    "cartonOrWoodenCasePackingPreparedAccordingTo": {
+      "text": "Carton or wooden-case packing prepared according to the order.",
+      "numbers": []
+    },
+    "sendYourButterflyValveSchedule": {
+      "text": "Send your butterfly valve schedule",
+      "numbers": []
+    },
+    "includeSizeGrooveProfileRequirementQuantityAndDestination": {
+      "text": "Include size, groove profile requirement, quantity and destination country.",
+      "numbers": []
+    },
+    "whatsAppInquiry": {
+      "text": "WhatsApp inquiry",
+      "numbers": []
+    },
+    "emailSales": {
+      "text": "Email sales",
+      "numbers": []
+    },
+    "onThisPage": {
+      "text": "On this page",
+      "numbers": []
+    },
+    "enlargeLeverOperatedGroovedButterflyValveImage": {
+      "text": "Enlarge lever operated grooved butterfly valve image",
+      "numbers": []
+    },
+    "leverOperatedGroovedButterflyValveWithGroovedEndsAndVisibleLever": {
+      "text": "Lever operated grooved butterfly valve with grooved ends and visible lever",
+      "numbers": []
+    },
+    "productImagePreview": {
+      "text": "Product image preview",
+      "numbers": []
+    },
+    "closeImagePreview": {
+      "text": "Close image preview",
+      "numbers": []
+    },
+    "enlargedLeverOperatedGroovedButterflyValve": {
+      "text": "Enlarged lever operated grooved butterfly valve",
+      "numbers": []
+    },
+    "whatsAppChat": {
+      "text": "WhatsApp Chat",
+      "numbers": []
+    },
+    "facebookPage": {
+      "text": "Facebook Page",
+      "numbers": []
+    },
+    "linkedInProfile": {
+      "text": "LinkedIn Profile",
+      "numbers": []
+    },
+    "seoTitle": {
+      "text": "Wafer Supervisory Butterfly Valve | DN{n0}–DN{n1} | CHUANWEI FIRE",
+      "numbers": [
+        "100",
+        "200"
+      ]
+    },
+    "seoDescription": {
+      "text": "Wafer supervisory fire butterfly valves with gear operator and supervisory switch enclosure in DN{n0} to DN{n1}, PN{n2}, ductile iron body with EPDM seat. OEM/ODM support.",
+      "numbers": [
+        "100",
+        "200",
+        "16"
+      ]
+    },
+    "supervisoryFireButterflyValve": {
+      "text": "Supervisory Fire Butterfly Valve",
+      "numbers": []
+    },
+    "groovedSupervisoryButterflyValve": {
+      "text": "Grooved Supervisory Butterfly Valve",
+      "numbers": []
+    },
+    "groovedEndButterflyValveWithGearOperator": {
+      "text": "A grooved-end butterfly valve with a gear operator and supervisory switch enclosure, used where open/closed position must be electrically monitored. Grooved ends allow quick installation with grooved couplings.",
+      "numbers": []
+    },
+    "supervisorySwitch": {
+      "text": "Supervisory switch",
+      "numbers": []
+    },
+    "grooveProfileSwitchSpecificationAndMarkingAre": {
+      "text": "Groove profile, switch specification and marking are confirmed against the approved drawing, sample or order schedule before production.",
+      "numbers": []
+    },
+    "criticalProductDataNoULFM": {
+      "text": "Critical product data is presented in HTML for clear international sourcing. The valve is produced to a national standard; no UL, FM or other foreign approval is claimed on this page.",
+      "numbers": []
+    },
+    "body": {
+      "text": "Body",
+      "numbers": []
+    },
+    "ductileIronQT45010InternalAndExternalEpoxyCoating": {
+      "text": "Ductile iron QT{n0}-{n1}, internal and external epoxy coating",
+      "numbers": [
+        "450",
+        "10"
+      ]
+    },
+    "disc": {
+      "text": "Disc",
+      "numbers": []
+    },
+    "ductileIron": {
+      "text": "Ductile iron",
+      "numbers": []
+    },
+    "waterOrWaterFoamMixture": {
+      "text": "Water or water-foam mixture",
+      "numbers": []
+    },
+    "workingTemperatureZeroTo80": {
+      "text": "{n0} to {n1} °C",
+      "numbers": [
+        "0",
+        "80"
+      ]
+    },
+    "supervisoryGroovedStandardValue": {
+      "text": "GB {n0}.{n1}-{n2} (national fire butterfly valve standard); groove connection to GB {n3}.{n4}",
+      "numbers": [
+        "5135",
+        "6",
+        "2018",
+        "5135",
+        "11"
+      ]
+    },
+    "gearOperatorWithHandwheelAndPositionIndicator": {
+      "text": "Gear operator with handwheel and position indicator",
+      "numbers": []
+    },
+    "microSwitch": {
+      "text": "Micro switch",
+      "numbers": []
+    },
+    "dc24V05A": {
+      "text": "DC {n0} V · {n1} A",
+      "numbers": [
+        "24",
+        "0.5"
+      ]
+    },
+    "contactForm": {
+      "text": "Contact form",
+      "numbers": []
+    },
+    "oneNOOneNC": {
+      "text": "{n0} NO + {n1} NC",
+      "numbers": [
+        "1",
+        "1"
+      ]
+    },
+    "sPDT": {
+      "text": "SPDT",
+      "numbers": []
+    },
+    "enclosure": {
+      "text": "Enclosure",
+      "numbers": []
+    },
+    "iP67": {
+      "text": "IP{n0}",
+      "numbers": [
+        "67"
+      ]
+    },
+    "signalBox": {
+      "text": "signal box",
+      "numbers": []
+    },
+    "signalFlow": {
+      "text": "Signal flow",
+      "numbers": []
+    },
+    "atLeast80Percent": {
+      "text": "≥ {n0}%",
+      "numbers": [
+        "80"
+      ]
+    },
+    "ofFullOpenFlow": {
+      "text": "of full-open flow",
+      "numbers": []
+    },
+    "typeTested": {
+      "text": "Type-tested",
+      "numbers": []
+    },
+    "signalConversionMechanicalStrengthCyclesInsulationAndResistance": {
+      "text": "Signal conversion, mechanical strength ({n0} N), {n1} operating cycles, insulation ≥ {n2} MΩ and contact resistance ≤ {n3} Ω per the national type-test report.",
+      "numbers": [
+        "890",
+        "5000",
+        "2",
+        "0.01"
+      ]
+    },
+    "installedWithGroovedCouplingsAndSwitchWired": {
+      "text": "Installed with grooved couplings and the switch wired to the fire alarm or monitoring panel per the approved design.",
+      "numbers": []
+    },
+    "internationalSizeAndConnectionZSXDF8": {
+      "text": "International size and connection are the primary selection fields. ZSXDF{n0}-Q codes are retained only as factory references.",
+      "numbers": [
+        "8"
+      ]
+    },
+    "confirmedTypeTestReportCovers": {
+      "text": "The confirmed type-test report covers DN{n0}, DN{n1} and DN{n2}. Other sizes are confirmed separately. For quotation, specify DN size, groove profile requirement, switch specification and quantity.",
+      "numbers": [
+        "100",
+        "150",
+        "200"
+      ]
+    },
+    "switchConfiguration": {
+      "text": "Switch configuration",
+      "numbers": []
+    },
+    "microSwitchMakeContactFormAndEnclosureReviewed": {
+      "text": "Micro-switch make, contact form and enclosure reviewed before manufacturing.",
+      "numbers": []
+    },
+    "sendYourSupervisoryButterflyValveSchedule": {
+      "text": "Send your supervisory butterfly valve schedule",
+      "numbers": []
+    },
+    "includeSizeSwitchSpecificationQuantityAndDestination": {
+      "text": "Include size, switch specification, quantity and destination country.",
+      "numbers": []
+    },
+    "enlargeGroovedSupervisoryButterflyValveImage": {
+      "text": "Enlarge grooved supervisory butterfly valve image",
+      "numbers": []
+    },
+    "groovedSupervisoryFireButterflyValveWithGearOperator": {
+      "text": "Grooved supervisory fire butterfly valve with gear operator, handwheel and switch enclosure",
+      "numbers": []
+    },
+    "enlargedGroovedSupervisoryButterflyValve": {
+      "text": "Enlarged grooved supervisory butterfly valve",
+      "numbers": []
+    },
+    "waferSupervisoryButterflyValve": {
+      "text": "Wafer Supervisory Butterfly Valve",
+      "numbers": []
+    },
+    "waferButterflyValveWithGearOperator": {
+      "text": "A wafer butterfly valve with a gear operator and supervisory switch enclosure, used where open/closed position must be electrically monitored. The switch signals the valve position to a fire alarm or monitoring panel.",
+      "numbers": []
+    },
+    "wafer": {
+      "text": "Wafer",
+      "numbers": []
+    },
+    "switchSpecificationFaceToFaceDimensionAndMarkingAre": {
+      "text": "Switch specification, face-to-face dimension and marking are confirmed against the approved drawing, sample or order schedule before production.",
+      "numbers": []
+    },
+    "waferSandwichedBetweenTwoFlanges": {
+      "text": "Wafer (sandwiched between two flanges)",
+      "numbers": []
+    },
+    "supervisoryWaferStandardValue": {
+      "text": "GB {n0}.{n1}-{n2} (national fire butterfly valve standard); wafer compatibility to GB/T {n3}.{n4}",
+      "numbers": [
+        "5135",
+        "6",
+        "2018",
+        "17241",
+        "6"
+      ]
+    },
+    "installedWaferStyleWithSwitchWired": {
+      "text": "Installed wafer-style between two flanges with the switch wired to the fire alarm or monitoring panel per the approved design.",
+      "numbers": []
+    },
+    "internationalSizeAndConnectionZSXDF7": {
+      "text": "International size and connection are the primary selection fields. ZSXDF{n0}-Q codes are retained only as factory references.",
+      "numbers": [
+        "7"
+      ]
+    },
+    "confirmedTypeTestReportCoversWafer": {
+      "text": "The confirmed type-test report covers DN{n0}, DN{n1} and DN{n2}. Other sizes are confirmed separately. For quotation, specify DN size, flange drilling requirement, switch specification and quantity.",
+      "numbers": [
+        "100",
+        "150",
+        "200"
+      ]
+    },
+    "flangeCompatibility": {
+      "text": "Flange compatibility",
+      "numbers": []
+    },
+    "waferFaceToFaceDimensionProducedToTheApprovedDrawing": {
+      "text": "Wafer face-to-face dimension produced to the approved drawing or mating flange standard.",
+      "numbers": []
+    },
+    "enlargeWaferSupervisoryButterflyValveImage": {
+      "text": "Enlarge wafer supervisory butterfly valve image",
+      "numbers": []
+    },
+    "waferSupervisoryFireButterflyValveWithGearOperator": {
+      "text": "Wafer supervisory fire butterfly valve with gear operator, handwheel and switch enclosure",
+      "numbers": []
+    },
+    "enlargedWaferSupervisoryButterflyValve": {
+      "text": "Enlarged wafer supervisory butterfly valve",
+      "numbers": []
+    }
+  },
+  "shared": {
+    "dN1004In": "DN100 / 4 in",
+    "dN1506In": "DN150 / 6 in",
+    "dN2008In": "DN200 / 8 in",
+    "zSXDF7Q10016": "ZSXDF7-Q-100-16",
+    "zSXDF7Q15016": "ZSXDF7-Q-150-16",
+    "zSXDF7Q20016": "ZSXDF7-Q-200-16"
+  }
+}

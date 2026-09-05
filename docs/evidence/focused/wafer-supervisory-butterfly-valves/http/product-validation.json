@@ -1,0 +1,51 @@
+{
+  "scope": "single-product",
+  "product": "wafer-supervisory-butterfly-valves",
+  "previewMode": "http",
+  "generatedAt": "2026-09-05T16:24:06.367Z",
+  "browser": "Edg/152.0.4191.62",
+  "viewports": [
+    {
+      "id": "desktop",
+      "width": 1440,
+      "height": 900,
+      "deviceScaleFactor": 1,
+      "mobile": false
+    },
+    {
+      "id": "mobile",
+      "width": 390,
+      "height": 844,
+      "deviceScaleFactor": 1,
+      "mobile": true
+    }
+  ],
+  "languageSwitches": [
+    {
+      "scenario": "desktop/en: wafer-supervisory-butterfly-valves image/text category entries, reciprocal switch, refresh, single hero image zoom, three modal closes and footer returns",
+      "status": "PASS"
+    },
+    {
+      "scenario": "desktop/ar: wafer-supervisory-butterfly-valves image/text category entries, reciprocal switch, refresh, single hero image zoom, three modal closes and footer returns",
+      "status": "PASS"
+    },
+    {
+      "scenario": "mobile/en: wafer-supervisory-butterfly-valves image/text category entries, reciprocal switch, refresh, single hero image zoom, three modal closes and footer returns",
+      "status": "PASS"
+    },
+    {
+      "scenario": "mobile/ar: wafer-supervisory-butterfly-valves image/text category entries, reciprocal switch, refresh, single hero image zoom, three modal closes and footer returns",
+      "status": "PASS"
+    }
+  ],
+  "screenshots": [
+    "edge-desktop-wafer-supervisory-butterfly-valves-en-hero.png",
+    "edge-desktop-wafer-supervisory-butterfly-valves-en-models.png",
+    "edge-desktop-wafer-supervisory-butterfly-valves-ar-hero.png",
+    "edge-desktop-wafer-supervisory-butterfly-valves-ar-models.png",
+    "edge-mobile-wafer-supervisory-butterfly-valves-en-hero.png",
+    "edge-mobile-wafer-supervisory-butterfly-valves-en-models.png",
+    "edge-mobile-wafer-supervisory-butterfly-valves-ar-hero.png",
+    "edge-mobile-wafer-supervisory-butterfly-valves-ar-models.png"
+  ]
+}
