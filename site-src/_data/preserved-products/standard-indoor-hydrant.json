@@ -1,0 +1,624 @@
+{
+  "id": "standard-indoor-hydrant",
+  "routeId": "product:standard-indoor-hydrant",
+  "template": "product-series/indoor-hydrant.njk",
+  "source": {
+    "path": "products/室内消防栓/standard-indoor-hydrant.html",
+    "revision": "ec092e2",
+    "status": "preserved-existing-content-not-reaudited"
+  },
+  "media": {
+    "hero": "products/室内消防栓/standard-indoor-hydrant/standard-indoor-hydrant.jpg",
+    "image1": "products/室内消防栓/standard-indoor-hydrant/standard-indoor-hydrant.jpg",
+    "image2": "products/室内消防栓/standard-indoor-hydrant/real-ref.jpg",
+    "image3": "products/室内消防栓/standard-indoor-hydrant/view-2.jpg",
+    "image4": "products/室内消防栓/standard-indoor-hydrant/view-3.jpg",
+    "image5": "products/室内消防栓/standard-indoor-hydrant/view-4.jpg",
+    "image6": "products/室内消防栓/standard-indoor-hydrant/view-5.jpg",
+    "image7": "products/室内消防栓/standard-indoor-hydrant/view-6.jpg"
+  },
+  "hero": {
+    "width": 1254,
+    "height": 1254
+  },
+  "textKeys": {
+    "eyebrow": "indoorFireWaterOutlet",
+    "title": "standardIndoorFireHydrant",
+    "lead": "singleOutletIndoorHydrantLead",
+    "note": "outletCouplingConnectionConfirmed",
+    "imageAria": "enlargeStandardIndoorHydrantImage",
+    "imageAlt": "standardSingleOutletIndoorHydrantQuickCoupling",
+    "galleryTitle": "productViewsAndModels",
+    "galleryIntro": "photographsShowStandardSingleOutlet",
+    "sideTitle": "selectionAndConnection",
+    "modelTitle": "configurationsForQuotation",
+    "modelIntro": "internationalSizePrimarySNReferences",
+    "optionsNote": "dN50AvailableOnRequest",
+    "manufacturingNote": "manufacturingOptionsConfirmedAgainstBuyerSchedule",
+    "ctaTitle": "sendYourHydrantSchedule",
+    "ctaText": "includeSizeOutletCouplingQuantityDestination",
+    "modalAlt": "enlargedStandardIndoorHydrant"
+  },
+  "chips": [
+    "dN65TwoHalfIn",
+    "pN16MPa",
+    "gB34452018",
+    "singleOutlet"
+  ],
+  "gallery": [
+    {
+      "media": "image1",
+      "alt": "standardIndoorHydrantProductView",
+      "caption": "productView",
+      "thumbAlt": "productViewThumbnail",
+      "label": "front"
+    },
+    {
+      "media": "image2",
+      "alt": "standardIndoorHydrantDetailView",
+      "caption": "detail",
+      "thumbAlt": "detailViewThumbnail",
+      "label": "detail"
+    },
+    {
+      "media": "image3",
+      "alt": "standardIndoorHydrantView2",
+      "caption": "view2",
+      "thumbAlt": "view2Thumbnail",
+      "label": "view2"
+    },
+    {
+      "media": "image4",
+      "alt": "standardIndoorHydrantView3",
+      "caption": "view3",
+      "thumbAlt": "view3Thumbnail",
+      "label": "view3"
+    },
+    {
+      "media": "image5",
+      "alt": "standardIndoorHydrantView4",
+      "caption": "view4",
+      "thumbAlt": "view4Thumbnail",
+      "label": "view4"
+    },
+    {
+      "media": "image6",
+      "alt": "standardIndoorHydrantView5",
+      "caption": "view5",
+      "thumbAlt": "view5Thumbnail",
+      "label": "view5"
+    },
+    {
+      "media": "image7",
+      "alt": "standardIndoorHydrantView6",
+      "caption": "view6",
+      "thumbAlt": "view6Thumbnail",
+      "label": "view6"
+    }
+  ],
+  "specifications": [
+    [
+      "productType",
+      "standardIndoorHydrantSingleOutlet"
+    ],
+    [
+      "nominalSize",
+      "dN65Full"
+    ],
+    [
+      "workingPressure",
+      "pN16Full"
+    ],
+    [
+      "standard",
+      "gBStandardNoForeignApproval"
+    ],
+    [
+      "inlet",
+      "rpTwoHalfFemale"
+    ],
+    [
+      "outlet",
+      "kN65CouplingsPerMarket"
+    ],
+    [
+      "closedHeightH",
+      "lessEqual205Mm"
+    ],
+    [
+      "stemCenterDistanceB",
+      "lessEqual120Mm"
+    ],
+    [
+      "outletCenterHeightH",
+      "height71Mm"
+    ],
+    [
+      "application",
+      "indoorCabinetBottomInlet"
+    ]
+  ],
+  "disclaimers": [
+    [
+      "outletCoupling",
+      "outletCouplingProducedToConfirmedStandard"
+    ],
+    [
+      "bodyMaterial",
+      "bodyMaterialFinishConfirmed"
+    ],
+    [
+      "installationData",
+      "installedInIndoorCabinetBottom"
+    ]
+  ],
+  "modelHeaders": [
+    "internationalConfiguration",
+    "nominalSize",
+    "workingPressure",
+    "factoryReference"
+  ],
+  "models": [
+    [
+      "standardIndoorFireHydrant",
+      "dN65TwoHalfIn",
+      "pN16MPa",
+      "sN65"
+    ]
+  ],
+  "oemCards": [
+    [
+      "outletCoupling",
+      "couplingProducedToConfirmedStandard"
+    ],
+    [
+      "brandPresentation",
+      "customProductMarkingNameplateColor"
+    ],
+    [
+      "connectionReview",
+      "inletOutletReviewedBeforeManufacturing"
+    ],
+    [
+      "exportPacking",
+      "cartonOrWoodenCasePacking"
+    ]
+  ],
+  "inquiry": {
+    "whatsapp": "https://wa.me/8617326528368?text=Hello%2C%20I%20need%20a%20quotation%20for%20a%20Standard%20Indoor%20Fire%20Hydrant.%20Size%3A%20DN65%2C%20outlet%20coupling%3A%20%5BKN65%2FBS336%2FNH%2FStorz%5D%2C%20quantity%3A%20%5Bpcs%5D%2C%20destination%3A%20%5Bcountry%5D.",
+    "email": "mailto:zhengcolin1@gmail.com?subject=Standard%20Indoor%20Fire%20Hydrant%20Inquiry"
+  },
+  "copy": {
+    "specifications": {
+      "text": "Specifications",
+      "numbers": []
+    },
+    "availableModels": {
+      "text": "Available models",
+      "numbers": []
+    },
+    "oEMODM": {
+      "text": "OEM / ODM",
+      "numbers": []
+    },
+    "onThisPage": {
+      "text": "On this page",
+      "numbers": []
+    },
+    "productViews": {
+      "text": "Product views",
+      "numbers": []
+    },
+    "indoorFireWaterOutlet": {
+      "text": "Indoor Fire-Water Outlet",
+      "numbers": []
+    },
+    "standardIndoorFireHydrant": {
+      "text": "Standard Indoor Fire Hydrant",
+      "numbers": []
+    },
+    "singleOutletIndoorHydrantLead": {
+      "text": "A single-outlet indoor fire hydrant for building fire-water systems, installed in the hydrant cabinet with the inlet at the bottom and the outlet connecting to the fire hose. The outlet coupling is produced to the confirmed standard for your market.",
+      "numbers": []
+    },
+    "singleOutlet": {
+      "text": "Single outlet",
+      "numbers": []
+    },
+    "askOnWhatsApp": {
+      "text": "Ask on WhatsApp",
+      "numbers": []
+    },
+    "viewAvailableModels": {
+      "text": "View available models",
+      "numbers": []
+    },
+    "outletCouplingConnectionConfirmed": {
+      "text": "Outlet coupling and connection are confirmed against the required standard, drawing or approved sample for the destination market.",
+      "numbers": []
+    },
+    "enlargeStandardIndoorHydrantImage": {
+      "text": "Enlarge standard indoor fire hydrant image",
+      "numbers": []
+    },
+    "standardSingleOutletIndoorHydrantQuickCoupling": {
+      "text": "Standard single-outlet indoor fire hydrant with quick coupling",
+      "numbers": []
+    },
+    "realProductViews": {
+      "text": "Real product views",
+      "numbers": []
+    },
+    "productViewsAndModels": {
+      "text": "Product views and models",
+      "numbers": []
+    },
+    "photographsShowStandardSingleOutlet": {
+      "text": "Photographs show the standard single-outlet indoor hydrant from multiple angles. The visible physical GUANYA / 冠亚 product markings are retained; CHUANWEI FIRE identifies the website and export-sales presentation.",
+      "numbers": []
+    },
+    "enlargeSelectedProductImage": {
+      "text": "Enlarge selected product image",
+      "numbers": []
+    },
+    "previousProductImage": {
+      "text": "Previous product image",
+      "numbers": []
+    },
+    "nextProductImage": {
+      "text": "Next product image",
+      "numbers": []
+    },
+    "productImageThumbnails": {
+      "text": "Product image thumbnails",
+      "numbers": []
+    },
+    "standardIndoorHydrantProductView": {
+      "text": "Standard indoor fire hydrant product view",
+      "numbers": []
+    },
+    "productView": {
+      "text": "Product view",
+      "numbers": []
+    },
+    "productViewThumbnail": {
+      "text": "Product view thumbnail",
+      "numbers": []
+    },
+    "front": {
+      "text": "Front",
+      "numbers": []
+    },
+    "standardIndoorHydrantDetailView": {
+      "text": "Standard indoor fire hydrant detail view",
+      "numbers": []
+    },
+    "detail": {
+      "text": "Detail",
+      "numbers": []
+    },
+    "detailViewThumbnail": {
+      "text": "Detail view thumbnail",
+      "numbers": []
+    },
+    "standardIndoorHydrantView2": {
+      "text": "Standard indoor fire hydrant view {n0}",
+      "numbers": [
+        "2"
+      ]
+    },
+    "view2": {
+      "text": "View {n0}",
+      "numbers": [
+        "2"
+      ]
+    },
+    "view2Thumbnail": {
+      "text": "View {n0} thumbnail",
+      "numbers": [
+        "2"
+      ]
+    },
+    "standardIndoorHydrantView3": {
+      "text": "Standard indoor fire hydrant view {n0}",
+      "numbers": [
+        "3"
+      ]
+    },
+    "view3": {
+      "text": "View {n0}",
+      "numbers": [
+        "3"
+      ]
+    },
+    "view3Thumbnail": {
+      "text": "View {n0} thumbnail",
+      "numbers": [
+        "3"
+      ]
+    },
+    "standardIndoorHydrantView4": {
+      "text": "Standard indoor fire hydrant view {n0}",
+      "numbers": [
+        "4"
+      ]
+    },
+    "view4": {
+      "text": "View {n0}",
+      "numbers": [
+        "4"
+      ]
+    },
+    "view4Thumbnail": {
+      "text": "View {n0} thumbnail",
+      "numbers": [
+        "4"
+      ]
+    },
+    "standardIndoorHydrantView5": {
+      "text": "Standard indoor fire hydrant view {n0}",
+      "numbers": [
+        "5"
+      ]
+    },
+    "view5": {
+      "text": "View {n0}",
+      "numbers": [
+        "5"
+      ]
+    },
+    "view5Thumbnail": {
+      "text": "View {n0} thumbnail",
+      "numbers": [
+        "5"
+      ]
+    },
+    "standardIndoorHydrantView6": {
+      "text": "Standard indoor fire hydrant view {n0}",
+      "numbers": [
+        "6"
+      ]
+    },
+    "view6": {
+      "text": "View {n0}",
+      "numbers": [
+        "6"
+      ]
+    },
+    "view6Thumbnail": {
+      "text": "View {n0} thumbnail",
+      "numbers": [
+        "6"
+      ]
+    },
+    "seriesSpecifications": {
+      "text": "Series specifications",
+      "numbers": []
+    },
+    "productType": {
+      "text": "Product type",
+      "numbers": []
+    },
+    "standardIndoorHydrantSingleOutlet": {
+      "text": "Standard Indoor Fire Hydrant (single outlet)",
+      "numbers": []
+    },
+    "nominalSize": {
+      "text": "Nominal size",
+      "numbers": []
+    },
+    "workingPressure": {
+      "text": "Working pressure",
+      "numbers": []
+    },
+    "standard": {
+      "text": "Standard",
+      "numbers": []
+    },
+    "gBStandardNoForeignApproval": {
+      "text": "GB {n0}-{n1} (national indoor hydrant standard); no foreign approval implied",
+      "numbers": [
+        "3445",
+        "2018"
+      ]
+    },
+    "inlet": {
+      "text": "Inlet",
+      "numbers": []
+    },
+    "outlet": {
+      "text": "Outlet",
+      "numbers": []
+    },
+    "kN65CouplingsPerMarket": {
+      "text": "KN{n0} quick coupling — confirmed; BS{n1}, NH, Storz or other couplings per market",
+      "numbers": [
+        "65",
+        "336"
+      ]
+    },
+    "closedHeightH": {
+      "text": "Closed height H",
+      "numbers": []
+    },
+    "stemCenterDistanceB": {
+      "text": "Stem center distance B",
+      "numbers": []
+    },
+    "outletCenterHeightH": {
+      "text": "Outlet center height h",
+      "numbers": []
+    },
+    "application": {
+      "text": "Application",
+      "numbers": []
+    },
+    "indoorCabinetBottomInlet": {
+      "text": "Indoor hydrant cabinet; bottom inlet, side hose connection",
+      "numbers": []
+    },
+    "selectionAndConnection": {
+      "text": "Selection & connection",
+      "numbers": []
+    },
+    "outletCoupling": {
+      "text": "Outlet coupling",
+      "numbers": []
+    },
+    "outletCouplingProducedToConfirmedStandard": {
+      "text": "The outlet coupling is produced to the confirmed standard for the destination market. Submit the required coupling (KN{n0}, BS{n1}, NH, Storz) or drawing for review.",
+      "numbers": [
+        "65",
+        "336"
+      ]
+    },
+    "bodyMaterial": {
+      "text": "Body material",
+      "numbers": []
+    },
+    "bodyMaterialFinishConfirmed": {
+      "text": "Body material and finish are confirmed against the supplied technical schedule before production.",
+      "numbers": []
+    },
+    "installationData": {
+      "text": "Installation data",
+      "numbers": []
+    },
+    "installedInIndoorCabinetBottom": {
+      "text": "Installed in the indoor hydrant cabinet with the inlet at the bottom, per the approved design.",
+      "numbers": []
+    },
+    "configurationsForQuotation": {
+      "text": "Configurations for quotation",
+      "numbers": []
+    },
+    "internationalSizePrimarySNReferences": {
+      "text": "International size is the primary selection field. SN codes are retained only as factory references.",
+      "numbers": []
+    },
+    "internationalConfiguration": {
+      "text": "International configuration",
+      "numbers": []
+    },
+    "factoryReference": {
+      "text": "Factory reference",
+      "numbers": []
+    },
+    "dN50AvailableOnRequest": {
+      "text": "DN{n0} / {n1} in is available on request. For quotation, specify outlet coupling, quantity and destination country.",
+      "numbers": [
+        "50",
+        "2"
+      ]
+    },
+    "oEMODMCapability": {
+      "text": "OEM / ODM capability",
+      "numbers": []
+    },
+    "configuredToTheApprovedDrawingOrSample": {
+      "text": "Configured to the approved drawing or sample",
+      "numbers": []
+    },
+    "manufacturingOptionsConfirmedAgainstBuyerSchedule": {
+      "text": "Manufacturing options are confirmed against the buyer's technical schedule. Connection-standard names describe available machining patterns and do not imply third-party product approval.",
+      "numbers": []
+    },
+    "couplingProducedToConfirmedStandard": {
+      "text": "Coupling produced to the confirmed standard, sample or drawing for the destination market.",
+      "numbers": []
+    },
+    "brandPresentation": {
+      "text": "Brand presentation",
+      "numbers": []
+    },
+    "customProductMarkingNameplateColor": {
+      "text": "Custom product marking, nameplate and coating color.",
+      "numbers": []
+    },
+    "connectionReview": {
+      "text": "Connection review",
+      "numbers": []
+    },
+    "inletOutletReviewedBeforeManufacturing": {
+      "text": "Inlet and outlet connection details reviewed before manufacturing.",
+      "numbers": []
+    },
+    "exportPacking": {
+      "text": "Export packing",
+      "numbers": []
+    },
+    "cartonOrWoodenCasePacking": {
+      "text": "Carton or wooden-case packing prepared according to the order.",
+      "numbers": []
+    },
+    "sendYourHydrantSchedule": {
+      "text": "Send your hydrant schedule",
+      "numbers": []
+    },
+    "includeSizeOutletCouplingQuantityDestination": {
+      "text": "Include size, outlet coupling, quantity and destination country.",
+      "numbers": []
+    },
+    "whatsAppInquiry": {
+      "text": "WhatsApp inquiry",
+      "numbers": []
+    },
+    "emailSales": {
+      "text": "Email sales",
+      "numbers": []
+    },
+    "productImagePreview": {
+      "text": "Product image preview",
+      "numbers": []
+    },
+    "closeImagePreview": {
+      "text": "Close image preview",
+      "numbers": []
+    },
+    "enlargedStandardIndoorHydrant": {
+      "text": "Enlarged standard indoor fire hydrant",
+      "numbers": []
+    },
+    "whatsAppChat": {
+      "text": "WhatsApp Chat",
+      "numbers": []
+    },
+    "facebookPage": {
+      "text": "Facebook Page",
+      "numbers": []
+    },
+    "linkedInProfile": {
+      "text": "LinkedIn Profile",
+      "numbers": []
+    },
+    "seoTitle": {
+      "text": "Standard Indoor Fire Hydrant | DN{n0}, SN{n1} | CHUANWEI FIRE",
+      "numbers": [
+        "65",
+        "65"
+      ]
+    },
+    "seoDescription": {
+      "text": "Standard single-outlet indoor fire hydrant (SN{n0}), DN{n1}, PN{n2} MPa, to GB {n3}-{n4}. Outlet coupling confirmed per target market. OEM/ODM support.",
+      "numbers": [
+        "65",
+        "65",
+        "1.6",
+        "3445",
+        "2018"
+      ]
+    }
+  },
+  "shared": {
+    "dN65TwoHalfIn": "DN65 / 2½ in",
+    "pN16MPa": "PN1.6 MPa",
+    "gB34452018": "GB 3445-2018",
+    "dN65Full": "DN65 / 65 mm / 2½ in",
+    "pN16Full": "PN1.6 MPa / 16 bar",
+    "rpTwoHalfFemale": "Rp 2½ (female thread)",
+    "lessEqual205Mm": "≤ 205 mm",
+    "lessEqual120Mm": "≤ 120 mm",
+    "height71Mm": "71 mm",
+    "sN65": "SN65"
+  }
+}

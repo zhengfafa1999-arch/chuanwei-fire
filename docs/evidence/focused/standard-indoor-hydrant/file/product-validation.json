@@ -1,0 +1,51 @@
+{
+  "scope": "single-product",
+  "product": "standard-indoor-hydrant",
+  "previewMode": "file",
+  "generatedAt": "2026-09-05T18:36:12.465Z",
+  "browser": "Edg/152.0.4191.62",
+  "viewports": [
+    {
+      "id": "desktop",
+      "width": 1440,
+      "height": 900,
+      "deviceScaleFactor": 1,
+      "mobile": false
+    },
+    {
+      "id": "mobile",
+      "width": 390,
+      "height": 844,
+      "deviceScaleFactor": 1,
+      "mobile": true
+    }
+  ],
+  "languageSwitches": [
+    {
+      "scenario": "desktop/en: standard-indoor-hydrant image/text category entries, reciprocal switch, refresh, 7-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+      "status": "PASS"
+    },
+    {
+      "scenario": "desktop/ar: standard-indoor-hydrant image/text category entries, reciprocal switch, refresh, 7-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+      "status": "PASS"
+    },
+    {
+      "scenario": "mobile/en: standard-indoor-hydrant image/text category entries, reciprocal switch, refresh, 7-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+      "status": "PASS"
+    },
+    {
+      "scenario": "mobile/ar: standard-indoor-hydrant image/text category entries, reciprocal switch, refresh, 7-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+      "status": "PASS"
+    }
+  ],
+  "screenshots": [
+    "edge-desktop-standard-indoor-hydrant-en-gallery.png",
+    "edge-desktop-standard-indoor-hydrant-en-models.png",
+    "edge-desktop-standard-indoor-hydrant-ar-gallery.png",
+    "edge-desktop-standard-indoor-hydrant-ar-models.png",
+    "edge-mobile-standard-indoor-hydrant-en-gallery.png",
+    "edge-mobile-standard-indoor-hydrant-en-models.png",
+    "edge-mobile-standard-indoor-hydrant-ar-gallery.png",
+    "edge-mobile-standard-indoor-hydrant-ar-models.png"
+  ]
+}
