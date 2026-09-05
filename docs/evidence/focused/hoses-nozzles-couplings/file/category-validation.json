@@ -1,0 +1,187 @@
+{
+  "scope": "single-category",
+  "category": "hoses-nozzles-couplings",
+  "previewMode": "file",
+  "generatedAt": "2026-09-05T21:42:47.487Z",
+  "browser": "Edg/152.0.4191.62",
+  "viewports": [
+    {
+      "id": "desktop",
+      "width": 1440,
+      "height": 900,
+      "deviceScaleFactor": 1,
+      "mobile": false
+    },
+    {
+      "id": "mobile",
+      "width": 390,
+      "height": 844,
+      "deviceScaleFactor": 1,
+      "mobile": true
+    }
+  ],
+  "languageSwitches": [
+    {
+      "scenario": "desktop/en: home and directory entries, category reciprocal switch and refresh",
+      "status": "PASS"
+    },
+    {
+      "scenario": "desktop/en: product:combination-jet-fog-nozzles image/text entries, back, reciprocal switch, refresh and three footer returns",
+      "status": "PASS",
+      "viewport": "desktop",
+      "locale": "en",
+      "routeId": "product:combination-jet-fog-nozzles"
+    },
+    {
+      "scenario": "desktop/en: product:layflat-fire-hoses image/text entries, back, reciprocal switch, refresh and three footer returns",
+      "status": "PASS",
+      "viewport": "desktop",
+      "locale": "en",
+      "routeId": "product:layflat-fire-hoses"
+    },
+    {
+      "scenario": "desktop/en: product:kd-hose-couplings image/text entries, back, reciprocal switch, refresh and three footer returns",
+      "status": "PASS",
+      "viewport": "desktop",
+      "locale": "en",
+      "routeId": "product:kd-hose-couplings"
+    },
+    {
+      "scenario": "desktop/en: product:kn-threaded-adapters image/text entries, back, reciprocal switch, refresh and three footer returns",
+      "status": "PASS",
+      "viewport": "desktop",
+      "locale": "en",
+      "routeId": "product:kn-threaded-adapters"
+    },
+    {
+      "scenario": "desktop/en: product:matched-hose-assemblies image/text entries, back, reciprocal switch, refresh and three footer returns",
+      "status": "PASS",
+      "viewport": "desktop",
+      "locale": "en",
+      "routeId": "product:matched-hose-assemblies"
+    },
+    {
+      "scenario": "desktop/ar: home and directory entries, category reciprocal switch and refresh",
+      "status": "PASS"
+    },
+    {
+      "scenario": "desktop/ar: product:combination-jet-fog-nozzles image/text entries, back, reciprocal switch, refresh and three footer returns",
+      "status": "PASS",
+      "viewport": "desktop",
+      "locale": "ar",
+      "routeId": "product:combination-jet-fog-nozzles"
+    },
+    {
+      "scenario": "desktop/ar: product:layflat-fire-hoses image/text entries, back, reciprocal switch, refresh and three footer returns",
+      "status": "PASS",
+      "viewport": "desktop",
+      "locale": "ar",
+      "routeId": "product:layflat-fire-hoses"
+    },
+    {
+      "scenario": "desktop/ar: product:kd-hose-couplings image/text entries, back, reciprocal switch, refresh and three footer returns",
+      "status": "PASS",
+      "viewport": "desktop",
+      "locale": "ar",
+      "routeId": "product:kd-hose-couplings"
+    },
+    {
+      "scenario": "desktop/ar: product:kn-threaded-adapters image/text entries, back, reciprocal switch, refresh and three footer returns",
+      "status": "PASS",
+      "viewport": "desktop",
+      "locale": "ar",
+      "routeId": "product:kn-threaded-adapters"
+    },
+    {
+      "scenario": "desktop/ar: product:matched-hose-assemblies image/text entries, back, reciprocal switch, refresh and three footer returns",
+      "status": "PASS",
+      "viewport": "desktop",
+      "locale": "ar",
+      "routeId": "product:matched-hose-assemblies"
+    },
+    {
+      "scenario": "mobile/en: home and directory entries, category reciprocal switch and refresh",
+      "status": "PASS"
+    },
+    {
+      "scenario": "mobile/en: product:combination-jet-fog-nozzles image/text entries, back, reciprocal switch, refresh and three footer returns",
+      "status": "PASS",
+      "viewport": "mobile",
+      "locale": "en",
+      "routeId": "product:combination-jet-fog-nozzles"
+    },
+    {
+      "scenario": "mobile/en: product:layflat-fire-hoses image/text entries, back, reciprocal switch, refresh and three footer returns",
+      "status": "PASS",
+      "viewport": "mobile",
+      "locale": "en",
+      "routeId": "product:layflat-fire-hoses"
+    },
+    {
+      "scenario": "mobile/en: product:kd-hose-couplings image/text entries, back, reciprocal switch, refresh and three footer returns",
+      "status": "PASS",
+      "viewport": "mobile",
+      "locale": "en",
+      "routeId": "product:kd-hose-couplings"
+    },
+    {
+      "scenario": "mobile/en: product:kn-threaded-adapters image/text entries, back, reciprocal switch, refresh and three footer returns",
+      "status": "PASS",
+      "viewport": "mobile",
+      "locale": "en",
+      "routeId": "product:kn-threaded-adapters"
+    },
+    {
+      "scenario": "mobile/en: product:matched-hose-assemblies image/text entries, back, reciprocal switch, refresh and three footer returns",
+      "status": "PASS",
+      "viewport": "mobile",
+      "locale": "en",
+      "routeId": "product:matched-hose-assemblies"
+    },
+    {
+      "scenario": "mobile/ar: home and directory entries, category reciprocal switch and refresh",
+      "status": "PASS"
+    },
+    {
+      "scenario": "mobile/ar: product:combination-jet-fog-nozzles image/text entries, back, reciprocal switch, refresh and three footer returns",
+      "status": "PASS",
+      "viewport": "mobile",
+      "locale": "ar",
+      "routeId": "product:combination-jet-fog-nozzles"
+    },
+    {
+      "scenario": "mobile/ar: product:layflat-fire-hoses image/text entries, back, reciprocal switch, refresh and three footer returns",
+      "status": "PASS",
+      "viewport": "mobile",
+      "locale": "ar",
+      "routeId": "product:layflat-fire-hoses"
+    },
+    {
+      "scenario": "mobile/ar: product:kd-hose-couplings image/text entries, back, reciprocal switch, refresh and three footer returns",
+      "status": "PASS",
+      "viewport": "mobile",
+      "locale": "ar",
+      "routeId": "product:kd-hose-couplings"
+    },
+    {
+      "scenario": "mobile/ar: product:kn-threaded-adapters image/text entries, back, reciprocal switch, refresh and three footer returns",
+      "status": "PASS",
+      "viewport": "mobile",
+      "locale": "ar",
+      "routeId": "product:kn-threaded-adapters"
+    },
+    {
+      "scenario": "mobile/ar: product:matched-hose-assemblies image/text entries, back, reciprocal switch, refresh and three footer returns",
+      "status": "PASS",
+      "viewport": "mobile",
+      "locale": "ar",
+      "routeId": "product:matched-hose-assemblies"
+    }
+  ],
+  "screenshots": [
+    "edge-desktop-hoses-nozzles-couplings-en.png",
+    "edge-desktop-hoses-nozzles-couplings-ar.png",
+    "edge-mobile-hoses-nozzles-couplings-en.png",
+    "edge-mobile-hoses-nozzles-couplings-ar.png"
+  ]
+}

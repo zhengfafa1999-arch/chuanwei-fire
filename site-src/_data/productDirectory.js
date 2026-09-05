@@ -126,11 +126,11 @@ export const PRODUCT_FAMILIES = [
     description: text("Fire hose-line components supplied individually or reviewed as a matched assembly.", "مكونات خطوط خراطيم الحريق للتوريد المنفرد أو للمراجعة كمجموعة متوافقة."),
     image: "products/消防水枪/消防水枪主图.jpg",
     products: [
-      [null, "Combination Jet/Fog Nozzles", "فوهات نفاثة/ضبابية مركبة", "products/消防水枪/categories/combination-jet-fog-nozzle.jpg"],
-      [null, "Layflat Fire Hoses", "خراطيم حريق مسطحة", "products/消防水枪/categories/layflat-fire-hose.jpg"],
-      [null, "KD Hose Couplings", "وصلات خراطيم KD", "products/消防水枪/categories/kd-hose-coupling.jpg"],
-      [null, "KN Threaded Adapters", "محولات لولبية KN", "products/消防水枪/categories/kn-threaded-adapter.jpg"],
-      [null, "Matched Hose Assemblies", "مجموعات خراطيم متوافقة", "products/消防水枪/categories/hose-assembly.jpg"]
+      ["product:combination-jet-fog-nozzles", "Combination Jet/Fog Nozzles", "فوهات نفاثة/ضبابية مركبة", "products/消防水枪/categories/combination-jet-fog-nozzle.jpg"],
+      ["product:layflat-fire-hoses", "Layflat Fire Hoses", "خراطيم حريق مسطحة", "products/消防水枪/categories/layflat-fire-hose.jpg"],
+      ["product:kd-hose-couplings", "KD Hose Couplings", "وصلات خراطيم KD", "products/消防水枪/categories/kd-hose-coupling.jpg"],
+      ["product:kn-threaded-adapters", "KN Threaded Adapters", "محولات لولبية KN", "products/消防水枪/categories/kn-threaded-adapter.jpg"],
+      ["product:matched-hose-assemblies", "Matched Hose Assemblies", "مجموعات خراطيم متوافقة", "products/消防水枪/categories/hose-assembly.jpg"]
     ]
   },
   {

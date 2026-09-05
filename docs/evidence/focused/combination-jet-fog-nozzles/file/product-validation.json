@@ -1,0 +1,51 @@
+{
+  "scope": "single-product",
+  "product": "combination-jet-fog-nozzles",
+  "previewMode": "file",
+  "generatedAt": "2026-09-05T21:27:22.703Z",
+  "browser": "Edg/152.0.4191.62",
+  "viewports": [
+    {
+      "id": "desktop",
+      "width": 1440,
+      "height": 900,
+      "deviceScaleFactor": 1,
+      "mobile": false
+    },
+    {
+      "id": "mobile",
+      "width": 390,
+      "height": 844,
+      "deviceScaleFactor": 1,
+      "mobile": true
+    }
+  ],
+  "languageSwitches": [
+    {
+      "scenario": "desktop/en: combination-jet-fog-nozzles image/text category entries, reciprocal switch, refresh, single hero image zoom, three modal closes and footer returns",
+      "status": "PASS"
+    },
+    {
+      "scenario": "desktop/ar: combination-jet-fog-nozzles image/text category entries, reciprocal switch, refresh, single hero image zoom, three modal closes and footer returns",
+      "status": "PASS"
+    },
+    {
+      "scenario": "mobile/en: combination-jet-fog-nozzles image/text category entries, reciprocal switch, refresh, single hero image zoom, three modal closes and footer returns",
+      "status": "PASS"
+    },
+    {
+      "scenario": "mobile/ar: combination-jet-fog-nozzles image/text category entries, reciprocal switch, refresh, single hero image zoom, three modal closes and footer returns",
+      "status": "PASS"
+    }
+  ],
+  "screenshots": [
+    "edge-desktop-combination-jet-fog-nozzles-en-hero.png",
+    "edge-desktop-combination-jet-fog-nozzles-en-details.png",
+    "edge-desktop-combination-jet-fog-nozzles-ar-hero.png",
+    "edge-desktop-combination-jet-fog-nozzles-ar-details.png",
+    "edge-mobile-combination-jet-fog-nozzles-en-hero.png",
+    "edge-mobile-combination-jet-fog-nozzles-en-details.png",
+    "edge-mobile-combination-jet-fog-nozzles-ar-hero.png",
+    "edge-mobile-combination-jet-fog-nozzles-ar-details.png"
+  ]
+}

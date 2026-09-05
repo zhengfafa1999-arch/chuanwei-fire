@@ -1,0 +1,27 @@
+<nav class="pdp-section-navigation" aria-label="{{ entry.text.onThisPage }}"><div class="pdp-section-navigation__links"><a href="#details">{{ entry.text.details }}</a><a href="#inquiry">{{ entry.text.inquiry }}</a></div></nav>
+<main>
+  <section class="pdp-hero">
+    <div class="pdp-container pdp-hero__grid">
+      <div>
+        <p class="pdp-eyebrow">{{ entry.text.eyebrow }}</p>
+        <h1>{{ entry.text.title }}</h1>
+        <p class="pdp-lead">{{ entry.text.lead }}</p>
+        <div class="pdp-actions"><a class="pdp-btn" href="{{ entry.product.inquiry.whatsapp }}" target="_blank" rel="noopener">{{ entry.text.askOnWhatsApp }}</a><a class="pdp-btn pdp-btn--ghost" href="#details">{{ entry.text.details }}</a></div>
+        <p class="pdp-note">{{ entry.text.note }}</p>
+      </div>
+      <button class="pdp-hero__image" type="button" data-lightbox="{{ entry.media.hero }}" aria-label="{{ entry.text.imageAria }}"><img src="{{ entry.media.hero }}" alt="{{ entry.text.imageAlt }}" width="{{ entry.product.imageWidth }}" height="{{ entry.product.imageHeight }}"></button>
+    </div>
+  </section>
+  <section class="pdp-section pdp-section--soft" id="details">
+    <div class="pdp-container">
+      <div class="pdp-heading"><div><p class="pdp-eyebrow">{{ entry.text.details }}</p><h2>{{ entry.text.detailsTitle }}</h2></div><p>{{ entry.text.detailsBody }}</p></div>
+      <div class="pdp-spec-layout">
+        <div class="pdp-panel"><h3>{{ entry.text.identifyTitle }}</h3><div class="pdp-disclaimer">{{ entry.text.identifyBody }}</div></div>
+        <aside class="pdp-panel"><h3>{{ entry.text.inquiryTitle }}</h3><div class="pdp-disclaimer">{{ entry.text.inquiryBody }}</div></aside>
+      </div>
+    </div>
+  </section>
+  <section class="pdp-cta" id="inquiry"><div class="pdp-container pdp-cta__in"><div><h2>{{ entry.text.inquiryTitle }}</h2><p>{{ entry.text.inquiryBody }}</p></div><div class="pdp-actions"><a class="pdp-btn" href="{{ entry.product.inquiry.whatsapp }}" target="_blank" rel="noopener">{{ entry.text.askOnWhatsApp }}</a><a class="pdp-btn pdp-btn--ghost" href="{{ entry.product.inquiry.email }}">{{ entry.text.emailSales }}</a></div></div></section>
+</main>
+{% include "product-footer.njk" %}
+<div class="pdp-modal" id="productModal" role="dialog" aria-modal="true" aria-label="{{ entry.text.productImagePreview }}"><button type="button" aria-label="{{ entry.text.closeImagePreview }}">×</button><div><img src="{{ entry.media.hero }}" alt="{{ entry.text.enlargedImage }}"></div></div>

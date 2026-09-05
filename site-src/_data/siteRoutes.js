@@ -62,7 +62,12 @@ export const SITE_ROUTES = {
   "product:bs750-pillar-hydrant": { kind: "product", category: "category:outdoor-hydrants", locales: { en: published("products/室外消防栓/bs750-pillar-hydrant.html"), ar: published("ar/products/bs750-pillar-hydrant/index.html") } },
   "product:french-pattern-hydrant": { kind: "product", category: "category:outdoor-hydrants", locales: { en: published("products/室外消防栓/french-pattern-hydrant.html"), ar: published("ar/products/french-pattern-hydrant/index.html") } },
   "product:indonesian-pattern-hydrant": { kind: "product", category: "category:outdoor-hydrants", locales: { en: published("products/室外消防栓/indonesian-pattern-hydrant.html"), ar: published("ar/products/indonesian-pattern-hydrant/index.html") } },
-  "product:russian-pattern-hydrant": { kind: "product", category: "category:outdoor-hydrants", locales: { en: published("products/室外消防栓/russian-pattern-hydrant.html"), ar: published("ar/products/russian-pattern-hydrant/index.html") } }
+  "product:russian-pattern-hydrant": { kind: "product", category: "category:outdoor-hydrants", locales: { en: published("products/室外消防栓/russian-pattern-hydrant.html"), ar: published("ar/products/russian-pattern-hydrant/index.html") } },
+  "product:combination-jet-fog-nozzles": { kind: "product", category: "category:hoses-nozzles-couplings", locales: { en: published("products/消防水枪/combination-jet-fog-nozzles.html"), ar: published("ar/products/combination-jet-fog-nozzles/index.html") } },
+  "product:layflat-fire-hoses": { kind: "product", category: "category:hoses-nozzles-couplings", locales: { en: published("products/消防水枪/layflat-fire-hoses.html"), ar: published("ar/products/layflat-fire-hoses/index.html") } },
+  "product:kd-hose-couplings": { kind: "product", category: "category:hoses-nozzles-couplings", locales: { en: published("products/消防水枪/kd-hose-couplings.html"), ar: published("ar/products/kd-hose-couplings/index.html") } },
+  "product:kn-threaded-adapters": { kind: "product", category: "category:hoses-nozzles-couplings", locales: { en: published("products/消防水枪/kn-threaded-adapters.html"), ar: published("ar/products/kn-threaded-adapters/index.html") } },
+  "product:matched-hose-assemblies": { kind: "product", category: "category:hoses-nozzles-couplings", locales: { en: published("products/消防水枪/matched-hose-assemblies.html"), ar: published("ar/products/matched-hose-assemblies/index.html") } }
 };
 
 function canonicalFor(outputPath) {

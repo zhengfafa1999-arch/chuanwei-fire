@@ -111,7 +111,10 @@ export async function validateStandardResponse({client, origin, viewports, evalu
         for (let attempt = 0; attempt < 80; attempt += 1) {
           settled = await evaluate(client, `(() => {
             const section = document.getElementById('${anchor}');
-            return location.hash === '#${anchor}' && Math.abs(section.getBoundingClientRect().top - parseFloat(getComputedStyle(section).scrollMarginTop || '0')) < 2;
+            const top = section.getBoundingClientRect().top;
+            const margin = parseFloat(getComputedStyle(section).scrollMarginTop || '0');
+            const atDocumentEnd = Math.ceil(scrollY + innerHeight) >= document.documentElement.scrollHeight;
+            return location.hash === '#${anchor}' && (Math.abs(top - margin) < 2 || (atDocumentEnd && top >= margin && top < innerHeight / 2));
           })()`);
           if (settled) break;
           await new Promise(resolve => setTimeout(resolve, 50));

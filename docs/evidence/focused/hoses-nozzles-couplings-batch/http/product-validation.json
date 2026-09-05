@@ -1,0 +1,254 @@
+{
+  "scope": "product-batch",
+  "products": [
+    "layflat-fire-hoses",
+    "kd-hose-couplings",
+    "kn-threaded-adapters",
+    "matched-hose-assemblies"
+  ],
+  "previewMode": "http",
+  "generatedAt": "2026-09-05T21:37:00.099Z",
+  "browser": "Edg/152.0.4191.62",
+  "viewports": [
+    {
+      "id": "desktop",
+      "width": 1440,
+      "height": 900,
+      "deviceScaleFactor": 1,
+      "mobile": false
+    },
+    {
+      "id": "mobile",
+      "width": 390,
+      "height": 844,
+      "deviceScaleFactor": 1,
+      "mobile": true
+    }
+  ],
+  "validations": [
+    {
+      "slug": "layflat-fire-hoses",
+      "languageSwitches": [
+        {
+          "scenario": "desktop/en: layflat-fire-hoses image/text category entries, reciprocal switch, refresh, single hero image zoom, three modal closes and footer returns",
+          "status": "PASS"
+        },
+        {
+          "scenario": "desktop/ar: layflat-fire-hoses image/text category entries, reciprocal switch, refresh, single hero image zoom, three modal closes and footer returns",
+          "status": "PASS"
+        },
+        {
+          "scenario": "mobile/en: layflat-fire-hoses image/text category entries, reciprocal switch, refresh, single hero image zoom, three modal closes and footer returns",
+          "status": "PASS"
+        },
+        {
+          "scenario": "mobile/ar: layflat-fire-hoses image/text category entries, reciprocal switch, refresh, single hero image zoom, three modal closes and footer returns",
+          "status": "PASS"
+        }
+      ],
+      "screenshots": [
+        "edge-desktop-layflat-fire-hoses-en-hero.png",
+        "edge-desktop-layflat-fire-hoses-en-details.png",
+        "edge-desktop-layflat-fire-hoses-ar-hero.png",
+        "edge-desktop-layflat-fire-hoses-ar-details.png",
+        "edge-mobile-layflat-fire-hoses-en-hero.png",
+        "edge-mobile-layflat-fire-hoses-en-details.png",
+        "edge-mobile-layflat-fire-hoses-ar-hero.png",
+        "edge-mobile-layflat-fire-hoses-ar-details.png"
+      ]
+    },
+    {
+      "slug": "kd-hose-couplings",
+      "languageSwitches": [
+        {
+          "scenario": "desktop/en: kd-hose-couplings image/text category entries, reciprocal switch, refresh, single hero image zoom, three modal closes and footer returns",
+          "status": "PASS"
+        },
+        {
+          "scenario": "desktop/ar: kd-hose-couplings image/text category entries, reciprocal switch, refresh, single hero image zoom, three modal closes and footer returns",
+          "status": "PASS"
+        },
+        {
+          "scenario": "mobile/en: kd-hose-couplings image/text category entries, reciprocal switch, refresh, single hero image zoom, three modal closes and footer returns",
+          "status": "PASS"
+        },
+        {
+          "scenario": "mobile/ar: kd-hose-couplings image/text category entries, reciprocal switch, refresh, single hero image zoom, three modal closes and footer returns",
+          "status": "PASS"
+        }
+      ],
+      "screenshots": [
+        "edge-desktop-kd-hose-couplings-en-hero.png",
+        "edge-desktop-kd-hose-couplings-en-details.png",
+        "edge-desktop-kd-hose-couplings-ar-hero.png",
+        "edge-desktop-kd-hose-couplings-ar-details.png",
+        "edge-mobile-kd-hose-couplings-en-hero.png",
+        "edge-mobile-kd-hose-couplings-en-details.png",
+        "edge-mobile-kd-hose-couplings-ar-hero.png",
+        "edge-mobile-kd-hose-couplings-ar-details.png"
+      ]
+    },
+    {
+      "slug": "kn-threaded-adapters",
+      "languageSwitches": [
+        {
+          "scenario": "desktop/en: kn-threaded-adapters image/text category entries, reciprocal switch, refresh, single hero image zoom, three modal closes and footer returns",
+          "status": "PASS"
+        },
+        {
+          "scenario": "desktop/ar: kn-threaded-adapters image/text category entries, reciprocal switch, refresh, single hero image zoom, three modal closes and footer returns",
+          "status": "PASS"
+        },
+        {
+          "scenario": "mobile/en: kn-threaded-adapters image/text category entries, reciprocal switch, refresh, single hero image zoom, three modal closes and footer returns",
+          "status": "PASS"
+        },
+        {
+          "scenario": "mobile/ar: kn-threaded-adapters image/text category entries, reciprocal switch, refresh, single hero image zoom, three modal closes and footer returns",
+          "status": "PASS"
+        }
+      ],
+      "screenshots": [
+        "edge-desktop-kn-threaded-adapters-en-hero.png",
+        "edge-desktop-kn-threaded-adapters-en-details.png",
+        "edge-desktop-kn-threaded-adapters-ar-hero.png",
+        "edge-desktop-kn-threaded-adapters-ar-details.png",
+        "edge-mobile-kn-threaded-adapters-en-hero.png",
+        "edge-mobile-kn-threaded-adapters-en-details.png",
+        "edge-mobile-kn-threaded-adapters-ar-hero.png",
+        "edge-mobile-kn-threaded-adapters-ar-details.png"
+      ]
+    },
+    {
+      "slug": "matched-hose-assemblies",
+      "languageSwitches": [
+        {
+          "scenario": "desktop/en: matched-hose-assemblies image/text category entries, reciprocal switch, refresh, single hero image zoom, three modal closes and footer returns",
+          "status": "PASS"
+        },
+        {
+          "scenario": "desktop/ar: matched-hose-assemblies image/text category entries, reciprocal switch, refresh, single hero image zoom, three modal closes and footer returns",
+          "status": "PASS"
+        },
+        {
+          "scenario": "mobile/en: matched-hose-assemblies image/text category entries, reciprocal switch, refresh, single hero image zoom, three modal closes and footer returns",
+          "status": "PASS"
+        },
+        {
+          "scenario": "mobile/ar: matched-hose-assemblies image/text category entries, reciprocal switch, refresh, single hero image zoom, three modal closes and footer returns",
+          "status": "PASS"
+        }
+      ],
+      "screenshots": [
+        "edge-desktop-matched-hose-assemblies-en-hero.png",
+        "edge-desktop-matched-hose-assemblies-en-details.png",
+        "edge-desktop-matched-hose-assemblies-ar-hero.png",
+        "edge-desktop-matched-hose-assemblies-ar-details.png",
+        "edge-mobile-matched-hose-assemblies-en-hero.png",
+        "edge-mobile-matched-hose-assemblies-en-details.png",
+        "edge-mobile-matched-hose-assemblies-ar-hero.png",
+        "edge-mobile-matched-hose-assemblies-ar-details.png"
+      ]
+    }
+  ],
+  "languageSwitches": [
+    {
+      "scenario": "desktop/en: layflat-fire-hoses image/text category entries, reciprocal switch, refresh, single hero image zoom, three modal closes and footer returns",
+      "status": "PASS"
+    },
+    {
+      "scenario": "desktop/ar: layflat-fire-hoses image/text category entries, reciprocal switch, refresh, single hero image zoom, three modal closes and footer returns",
+      "status": "PASS"
+    },
+    {
+      "scenario": "mobile/en: layflat-fire-hoses image/text category entries, reciprocal switch, refresh, single hero image zoom, three modal closes and footer returns",
+      "status": "PASS"
+    },
+    {
+      "scenario": "mobile/ar: layflat-fire-hoses image/text category entries, reciprocal switch, refresh, single hero image zoom, three modal closes and footer returns",
+      "status": "PASS"
+    },
+    {
+      "scenario": "desktop/en: kd-hose-couplings image/text category entries, reciprocal switch, refresh, single hero image zoom, three modal closes and footer returns",
+      "status": "PASS"
+    },
+    {
+      "scenario": "desktop/ar: kd-hose-couplings image/text category entries, reciprocal switch, refresh, single hero image zoom, three modal closes and footer returns",
+      "status": "PASS"
+    },
+    {
+      "scenario": "mobile/en: kd-hose-couplings image/text category entries, reciprocal switch, refresh, single hero image zoom, three modal closes and footer returns",
+      "status": "PASS"
+    },
+    {
+      "scenario": "mobile/ar: kd-hose-couplings image/text category entries, reciprocal switch, refresh, single hero image zoom, three modal closes and footer returns",
+      "status": "PASS"
+    },
+    {
+      "scenario": "desktop/en: kn-threaded-adapters image/text category entries, reciprocal switch, refresh, single hero image zoom, three modal closes and footer returns",
+      "status": "PASS"
+    },
+    {
+      "scenario": "desktop/ar: kn-threaded-adapters image/text category entries, reciprocal switch, refresh, single hero image zoom, three modal closes and footer returns",
+      "status": "PASS"
+    },
+    {
+      "scenario": "mobile/en: kn-threaded-adapters image/text category entries, reciprocal switch, refresh, single hero image zoom, three modal closes and footer returns",
+      "status": "PASS"
+    },
+    {
+      "scenario": "mobile/ar: kn-threaded-adapters image/text category entries, reciprocal switch, refresh, single hero image zoom, three modal closes and footer returns",
+      "status": "PASS"
+    },
+    {
+      "scenario": "desktop/en: matched-hose-assemblies image/text category entries, reciprocal switch, refresh, single hero image zoom, three modal closes and footer returns",
+      "status": "PASS"
+    },
+    {
+      "scenario": "desktop/ar: matched-hose-assemblies image/text category entries, reciprocal switch, refresh, single hero image zoom, three modal closes and footer returns",
+      "status": "PASS"
+    },
+    {
+      "scenario": "mobile/en: matched-hose-assemblies image/text category entries, reciprocal switch, refresh, single hero image zoom, three modal closes and footer returns",
+      "status": "PASS"
+    },
+    {
+      "scenario": "mobile/ar: matched-hose-assemblies image/text category entries, reciprocal switch, refresh, single hero image zoom, three modal closes and footer returns",
+      "status": "PASS"
+    }
+  ],
+  "screenshots": [
+    "edge-desktop-layflat-fire-hoses-en-hero.png",
+    "edge-desktop-layflat-fire-hoses-en-details.png",
+    "edge-desktop-layflat-fire-hoses-ar-hero.png",
+    "edge-desktop-layflat-fire-hoses-ar-details.png",
+    "edge-mobile-layflat-fire-hoses-en-hero.png",
+    "edge-mobile-layflat-fire-hoses-en-details.png",
+    "edge-mobile-layflat-fire-hoses-ar-hero.png",
+    "edge-mobile-layflat-fire-hoses-ar-details.png",
+    "edge-desktop-kd-hose-couplings-en-hero.png",
+    "edge-desktop-kd-hose-couplings-en-details.png",
+    "edge-desktop-kd-hose-couplings-ar-hero.png",
+    "edge-desktop-kd-hose-couplings-ar-details.png",
+    "edge-mobile-kd-hose-couplings-en-hero.png",
+    "edge-mobile-kd-hose-couplings-en-details.png",
+    "edge-mobile-kd-hose-couplings-ar-hero.png",
+    "edge-mobile-kd-hose-couplings-ar-details.png",
+    "edge-desktop-kn-threaded-adapters-en-hero.png",
+    "edge-desktop-kn-threaded-adapters-en-details.png",
+    "edge-desktop-kn-threaded-adapters-ar-hero.png",
+    "edge-desktop-kn-threaded-adapters-ar-details.png",
+    "edge-mobile-kn-threaded-adapters-en-hero.png",
+    "edge-mobile-kn-threaded-adapters-en-details.png",
+    "edge-mobile-kn-threaded-adapters-ar-hero.png",
+    "edge-mobile-kn-threaded-adapters-ar-details.png",
+    "edge-desktop-matched-hose-assemblies-en-hero.png",
+    "edge-desktop-matched-hose-assemblies-en-details.png",
+    "edge-desktop-matched-hose-assemblies-ar-hero.png",
+    "edge-desktop-matched-hose-assemblies-ar-details.png",
+    "edge-mobile-matched-hose-assemblies-en-hero.png",
+    "edge-mobile-matched-hose-assemblies-en-details.png",
+    "edge-mobile-matched-hose-assemblies-ar-hero.png",
+    "edge-mobile-matched-hose-assemblies-ar-details.png"
+  ]
+}
