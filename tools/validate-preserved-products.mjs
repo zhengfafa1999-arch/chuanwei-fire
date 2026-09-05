@@ -50,14 +50,17 @@ for (const entry of catalog) {
     assert.deepEqual(structure(body(output)), structure(body(read(baselineFile))), "English page structure/footer/social order changed");
     assert.equal(visibleText(content), visibleText(baseline), "English visible product content changed during language-only migration");
     if (entry.product.gallery) {
-      const originalGallery = read(baselineFile).match(/const galleryItems=(\[[\s\S]*?\]);/)?.[1];
-      assert(originalGallery, "Gallery baseline missing");
-      const items = [...originalGallery.matchAll(/src:'([^']+)',alt:'([^']+)',caption:'([^']+)'/g)];
+      const original = read(baselineFile);
+      const originalGallery = original.match(/const galleryItems=(\[[\s\S]*?\]);/)?.[1];
+      const items = originalGallery
+        ? [...originalGallery.matchAll(/src:'([^']+)',alt:'([^']+)',caption:'([^']+)'/g)]
+        : [...original.matchAll(/data-gallery-index="\d+" data-src="([^"]+)" data-alt="([^"]+)" data-title="([^"]+)"/g)];
+      assert(items.length, "Gallery baseline missing");
       assert.equal(items.length, entry.product.gallery.length, "Gallery image count changed");
       entry.product.gallery.forEach((item, index) => {
         const [, src, alt, caption] = items[index];
-        assert.equal(entry.text[item.alt], alt, "English dynamic gallery alt changed");
-        assert.equal(entry.text[item.caption], caption, "English dynamic gallery caption changed");
+        assert.equal(entry.text[item.alt], decode(alt), "English dynamic gallery alt changed");
+        assert.equal(entry.text[item.caption], decode(caption), "English dynamic gallery caption changed");
         assert.equal(path.resolve(entry.product.media[item.media]), path.resolve(path.dirname(entry.product.source.path), src), "Dynamic gallery image changed");
       });
     }

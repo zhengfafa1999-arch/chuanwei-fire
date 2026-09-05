@@ -39,7 +39,7 @@ export const SITE_ROUTES = {
   "product:extended-coverage-quick-response-fire-sprinkler": { kind: "product", category: "category:sprinklers", locales: { en: published("products/消防喷头/extended-coverage-quick-response-fire-sprinkler.html"), ar: published("ar/products/extended-coverage-quick-response-fire-sprinkler/index.html") } },
   "product:large-k-factor-esfr-sprinklers": { kind: "product", category: "category:sprinklers", locales: { en: published("products/消防喷头/large-k-factor-esfr-sprinklers.html"), ar: published("ar/products/large-k-factor-esfr-sprinklers/index.html") } },
 
-  "product:ria25-fire-hose-reel": { kind: "product", category: "category:hose-reels", locales: { en: published("products/软管卷盘/ria25-fire-hose-reel.html"), ar: fallback("ar/products/hose-reels/index.html") } },
+  "product:ria25-fire-hose-reel": { kind: "product", category: "category:hose-reels", locales: { en: published("products/软管卷盘/ria25-fire-hose-reel.html"), ar: published("ar/products/ria25-fire-hose-reel/index.html") } },
   "product:straight-stream-fire-hose-reel": { kind: "product", category: "category:hose-reels", locales: { en: published("products/软管卷盘/straight-stream-fire-hose-reel.html"), ar: fallback("ar/products/hose-reels/index.html") } },
   "product:jet-spray-fire-hose-reel": { kind: "product", category: "category:hose-reels", locales: { en: published("products/软管卷盘/jet-spray-fire-hose-reel.html"), ar: fallback("ar/products/hose-reels/index.html") } },
   "product:heavy-duty-fire-hose-reel": { kind: "product", category: "category:hose-reels", locales: { en: published("products/软管卷盘/heavy-duty-fire-hose-reel.html"), ar: fallback("ar/products/hose-reels/index.html") } },

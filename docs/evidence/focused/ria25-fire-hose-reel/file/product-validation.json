@@ -1,0 +1,51 @@
+{
+  "scope": "single-product",
+  "product": "ria25-fire-hose-reel",
+  "previewMode": "file",
+  "generatedAt": "2026-09-05T13:05:00.998Z",
+  "browser": "Edg/152.0.4191.62",
+  "viewports": [
+    {
+      "id": "desktop",
+      "width": 1440,
+      "height": 900,
+      "deviceScaleFactor": 1,
+      "mobile": false
+    },
+    {
+      "id": "mobile",
+      "width": 390,
+      "height": 844,
+      "deviceScaleFactor": 1,
+      "mobile": true
+    }
+  ],
+  "languageSwitches": [
+    {
+      "scenario": "desktop/en: ria25-fire-hose-reel image/text category entries, reciprocal switch, refresh, 3-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+      "status": "PASS"
+    },
+    {
+      "scenario": "desktop/ar: ria25-fire-hose-reel image/text category entries, reciprocal switch, refresh, 3-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+      "status": "PASS"
+    },
+    {
+      "scenario": "mobile/en: ria25-fire-hose-reel image/text category entries, reciprocal switch, refresh, 3-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+      "status": "PASS"
+    },
+    {
+      "scenario": "mobile/ar: ria25-fire-hose-reel image/text category entries, reciprocal switch, refresh, 3-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+      "status": "PASS"
+    }
+  ],
+  "screenshots": [
+    "edge-desktop-ria25-fire-hose-reel-en-gallery.png",
+    "edge-desktop-ria25-fire-hose-reel-en-models.png",
+    "edge-desktop-ria25-fire-hose-reel-ar-gallery.png",
+    "edge-desktop-ria25-fire-hose-reel-ar-models.png",
+    "edge-mobile-ria25-fire-hose-reel-en-gallery.png",
+    "edge-mobile-ria25-fire-hose-reel-en-models.png",
+    "edge-mobile-ria25-fire-hose-reel-ar-gallery.png",
+    "edge-mobile-ria25-fire-hose-reel-ar-models.png"
+  ]
+}

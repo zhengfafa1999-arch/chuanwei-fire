@@ -1,0 +1,558 @@
+{
+  "id": "ria25-fire-hose-reel",
+  "routeId": "product:ria25-fire-hose-reel",
+  "template": "product-series/ria25-hose-reel.njk",
+  "source": {
+    "path": "products/软管卷盘/ria25-fire-hose-reel.html",
+    "revision": "c090ae8",
+    "status": "preserved-existing-content-not-reaudited"
+  },
+  "media": {
+    "hero": "products/软管卷盘/ria25-fire-hose-reel/ria25-fire-hose-reel.jpg",
+    "image1": "products/软管卷盘/ria25-fire-hose-reel/ria25-front.jpg",
+    "image2": "products/软管卷盘/ria25-fire-hose-reel/ria25-back.jpg",
+    "image3": "products/软管卷盘/ria25-fire-hose-reel/ria25-inlet-outlet.jpg"
+  },
+  "copy": {
+    "productViews": {
+      "text": "Product views",
+      "numbers": []
+    },
+    "specifications": {
+      "text": "Specifications",
+      "numbers": []
+    },
+    "availableModels": {
+      "text": "Available models",
+      "numbers": []
+    },
+    "oEMODM": {
+      "text": "OEM / ODM",
+      "numbers": []
+    },
+    "europeanStyleFirstAidFireHoseReel": {
+      "text": "European-Style First-Aid Fire Hose Reel",
+      "numbers": []
+    },
+    "rIA25FireHoseReel": {
+      "text": "RIA {n0} Fire Hose Reel",
+      "numbers": [
+        "25"
+      ]
+    },
+    "aWallMountedFireHoseReelBuiltTo": {
+      "text": "A wall-mounted fire hose reel built to the EN {n0}-{n1} semi-rigid hose standard, for first-aid firefighting in indoor hydrant and hose-line systems. Available in {n2}, {n3} and {n4} m hose lengths.",
+      "numbers": [
+        "671",
+        "1",
+        "20",
+        "25",
+        "30"
+      ]
+    },
+    "value25Mm1InHose": {
+      "text": "{n0} mm / {n1} in hose",
+      "numbers": [
+        "25",
+        "1"
+      ]
+    },
+    "wallMountedSwingArm": {
+      "text": "Wall-mounted swing arm",
+      "numbers": []
+    },
+    "askOnWhatsApp": {
+      "text": "Ask on WhatsApp",
+      "numbers": []
+    },
+    "viewAvailableModels": {
+      "text": "View available models",
+      "numbers": []
+    },
+    "hoseLengthInletConnectionAndMarkingAreConfirmed": {
+      "text": "Hose length, inlet connection and marking are confirmed against the approved drawing, sample or order schedule before production.",
+      "numbers": []
+    },
+    "realProductViews": {
+      "text": "Real product views",
+      "numbers": []
+    },
+    "frontRearAndInletOutletDetail": {
+      "text": "Front, rear and inlet/outlet detail",
+      "numbers": []
+    },
+    "photographsShowTheCompleteRIA25HoseReel": {
+      "text": "Photographs show the complete RIA {n0} hose reel assembly. The visible physical GUANYA / 冠亚 product markings are retained; CHUANWEI FIRE identifies the website and export-sales presentation.",
+      "numbers": [
+        "25"
+      ]
+    },
+    "frontView": {
+      "text": "Front view",
+      "numbers": []
+    },
+    "front": {
+      "text": "Front",
+      "numbers": []
+    },
+    "rear": {
+      "text": "Rear",
+      "numbers": []
+    },
+    "inletOutlet": {
+      "text": "Inlet/Outlet",
+      "numbers": []
+    },
+    "technicalOverview": {
+      "text": "Technical overview",
+      "numbers": []
+    },
+    "confirmedConstructionAndOperatingData": {
+      "text": "Confirmed construction and operating data",
+      "numbers": []
+    },
+    "criticalProductDataIsPresentedInHTMLFor": {
+      "text": "Critical product data is presented in HTML for clear international sourcing. The reel is built to the EN {n0}-{n1} semi-rigid hose standard.",
+      "numbers": [
+        "671",
+        "1"
+      ]
+    },
+    "seriesSpecifications": {
+      "text": "Series specifications",
+      "numbers": []
+    },
+    "productType": {
+      "text": "Product type",
+      "numbers": []
+    },
+    "rIA25FireHoseReelFirstAidHose": {
+      "text": "RIA {n0} Fire Hose Reel (first-aid hose reel)",
+      "numbers": [
+        "25"
+      ]
+    },
+    "standard": {
+      "text": "Standard",
+      "numbers": []
+    },
+    "eN6711SemiRigidHoseReels": {
+      "text": "EN {n0}-{n1} (semi-rigid hose reels)",
+      "numbers": [
+        "671",
+        "1"
+      ]
+    },
+    "hose": {
+      "text": "Hose",
+      "numbers": []
+    },
+    "value25Mm1InSemiRigidHose": {
+      "text": "{n0} mm / {n1} in semi-rigid hose",
+      "numbers": [
+        "25",
+        "1"
+      ]
+    },
+    "hoseLengths": {
+      "text": "Hose lengths",
+      "numbers": []
+    },
+    "maximumWorkingPressure": {
+      "text": "Maximum working pressure",
+      "numbers": []
+    },
+    "value12MPa12BarApprox174Psi": {
+      "text": "{n0} MPa / {n1} bar / approx. {n2} psi",
+      "numbers": [
+        "1.2",
+        "12",
+        "174"
+      ]
+    },
+    "testPressure": {
+      "text": "Test pressure",
+      "numbers": []
+    },
+    "burstPressure": {
+      "text": "Burst pressure",
+      "numbers": []
+    },
+    "inlet": {
+      "text": "Inlet",
+      "numbers": []
+    },
+    "nozzle": {
+      "text": "Nozzle",
+      "numbers": []
+    },
+    "brassOnOffFunction": {
+      "text": "Brass, on/off function",
+      "numbers": []
+    },
+    "reelSupportHousing": {
+      "text": "Reel support & housing",
+      "numbers": []
+    },
+    "ductileIron": {
+      "text": "Ductile iron",
+      "numbers": []
+    },
+    "inletControlValve": {
+      "text": "Inlet control valve",
+      "numbers": []
+    },
+    "brassBallValve": {
+      "text": "Brass ball valve",
+      "numbers": []
+    },
+    "reelDiameter": {
+      "text": "Reel diameter",
+      "numbers": []
+    },
+    "value550Mm217In30MVersion": {
+      "text": "{n0} mm / {n1} in ({n2} m version)",
+      "numbers": [
+        "550",
+        "21.7",
+        "30"
+      ]
+    },
+    "overallDimensions": {
+      "text": "Overall dimensions",
+      "numbers": []
+    },
+    "totalWidth300MmReelBodyWidth200": {
+      "text": "Total width {n0} mm; reel-body width {n1} mm",
+      "numbers": [
+        "300",
+        "200"
+      ]
+    },
+    "installation": {
+      "text": "Installation",
+      "numbers": []
+    },
+    "indoorWallMountedSwingArm": {
+      "text": "Indoor wall-mounted swing arm",
+      "numbers": []
+    },
+    "commonSelectionFields": {
+      "text": "Common selection fields",
+      "numbers": []
+    },
+    "value25MmSemiRigid": {
+      "text": "{n0} mm semi-rigid",
+      "numbers": [
+        "25"
+      ]
+    },
+    "hoseLength": {
+      "text": "Hose length",
+      "numbers": []
+    },
+    "confirmedOnRequest": {
+      "text": "confirmed on request",
+      "numbers": []
+    },
+    "wallMounted": {
+      "text": "Wall-mounted",
+      "numbers": []
+    },
+    "swingArm": {
+      "text": "swing arm",
+      "numbers": []
+    },
+    "configurationNote": {
+      "text": "Configuration note",
+      "numbers": []
+    },
+    "swingArmReachInletConnectionAndMarkingAre": {
+      "text": "Swing-arm reach, inlet connection and marking are supplied according to the confirmed order configuration.",
+      "numbers": []
+    },
+    "standardNote": {
+      "text": "Standard note",
+      "numbers": []
+    },
+    "theEN6711VersionYearIsConfirmed": {
+      "text": "The EN {n0}-{n1} version (year) is confirmed against the supplied product label and conformity documents before order.",
+      "numbers": [
+        "671",
+        "1"
+      ]
+    },
+    "threeHoseLengthsForQuotation": {
+      "text": "Three hose lengths for quotation",
+      "numbers": []
+    },
+    "hoseLengthIsThePrimarySelectionFieldReel": {
+      "text": "Hose length is the primary selection field. Reel diameter for the {n0} m version is confirmed at {n1} mm; other lengths are confirmed on the order schedule.",
+      "numbers": [
+        "30",
+        "550"
+      ]
+    },
+    "internationalConfiguration": {
+      "text": "International configuration",
+      "numbers": []
+    },
+    "workingPressure": {
+      "text": "Working pressure",
+      "numbers": []
+    },
+    "factoryReference": {
+      "text": "Factory reference",
+      "numbers": []
+    },
+    "availableOnRequest": {
+      "text": "Available on request",
+      "numbers": []
+    },
+    "forQuotationSpecifyHoseLengthInletConnectionSwing": {
+      "text": "For quotation, specify hose length, inlet connection, swing-arm arrangement and quantity. Net weight, shaft material and mounting-hole spacing are confirmed on request.",
+      "numbers": []
+    },
+    "oEMODMCapability": {
+      "text": "OEM / ODM capability",
+      "numbers": []
+    },
+    "configuredToTheApprovedDrawingOrSample": {
+      "text": "Configured to the approved drawing or sample",
+      "numbers": []
+    },
+    "manufacturingAndAssemblyOptionsAreConfirmedAgainstThe": {
+      "text": "Manufacturing and assembly options are confirmed against the buyer's technical schedule. Standards and marking are confirmed together with the approved conformity documentation.",
+      "numbers": []
+    },
+    "reelNameplateBranding": {
+      "text": "Reel & nameplate branding",
+      "numbers": []
+    },
+    "customNameplateLogoAndCoatingColor": {
+      "text": "Custom nameplate, logo and coating color.",
+      "numbers": []
+    },
+    "value2025Or30MSemiRigidHose": {
+      "text": "{n0}, {n1} or {n2} m semi-rigid hose per order.",
+      "numbers": [
+        "20",
+        "25",
+        "30"
+      ]
+    },
+    "inletConnection": {
+      "text": "Inlet connection",
+      "numbers": []
+    },
+    "dN25G1BSPOrConfirmedAlternativeRequirement": {
+      "text": "DN{n0} / G{n1} BSP or confirmed alternative requirement.",
+      "numbers": [
+        "25",
+        "1"
+      ]
+    },
+    "exportPacking": {
+      "text": "Export packing",
+      "numbers": []
+    },
+    "cartonOrWoodenCasePackingPreparedAccordingTo": {
+      "text": "Carton or wooden-case packing prepared according to the order.",
+      "numbers": []
+    },
+    "sendYourHoseReelSchedule": {
+      "text": "Send your hose reel schedule",
+      "numbers": []
+    },
+    "includeHoseLengthInletConnectionAndQuantity": {
+      "text": "Include hose length, inlet connection and quantity.",
+      "numbers": []
+    },
+    "whatsAppInquiry": {
+      "text": "WhatsApp inquiry",
+      "numbers": []
+    },
+    "emailSales": {
+      "text": "Email sales",
+      "numbers": []
+    },
+    "onThisPage": {
+      "text": "On this page",
+      "numbers": []
+    },
+    "enlargeRIA25FireHoseReelImage": {
+      "text": "Enlarge RIA {n0} fire hose reel image",
+      "numbers": [
+        "25"
+      ]
+    },
+    "rIA25FireHoseReelWithSemiRigid": {
+      "text": "RIA {n0} fire hose reel with semi-rigid hose and brass nozzle",
+      "numbers": [
+        "25"
+      ]
+    },
+    "enlargeSelectedProductImage": {
+      "text": "Enlarge selected product image",
+      "numbers": []
+    },
+    "rIA25FireHoseReelFrontView": {
+      "text": "RIA {n0} fire hose reel front view",
+      "numbers": [
+        "25"
+      ]
+    },
+    "previousProductImage": {
+      "text": "Previous product image",
+      "numbers": []
+    },
+    "nextProductImage": {
+      "text": "Next product image",
+      "numbers": []
+    },
+    "productImageThumbnails": {
+      "text": "Product image thumbnails",
+      "numbers": []
+    },
+    "frontViewThumbnail": {
+      "text": "Front view thumbnail",
+      "numbers": []
+    },
+    "rIA25FireHoseReelRearView": {
+      "text": "RIA {n0} fire hose reel rear view",
+      "numbers": [
+        "25"
+      ]
+    },
+    "rearView": {
+      "text": "Rear view",
+      "numbers": []
+    },
+    "rearViewThumbnail": {
+      "text": "Rear view thumbnail",
+      "numbers": []
+    },
+    "rIA25FireHoseReelInletAndOutlet": {
+      "text": "RIA {n0} fire hose reel inlet and outlet detail",
+      "numbers": [
+        "25"
+      ]
+    },
+    "inletOutletDetail": {
+      "text": "Inlet & outlet detail",
+      "numbers": []
+    },
+    "inletAndOutletDetailThumbnail": {
+      "text": "Inlet and outlet detail thumbnail",
+      "numbers": []
+    },
+    "productImagePreview": {
+      "text": "Product image preview",
+      "numbers": []
+    },
+    "closeImagePreview": {
+      "text": "Close image preview",
+      "numbers": []
+    },
+    "enlargedRIA25FireHoseReel": {
+      "text": "Enlarged RIA {n0} fire hose reel",
+      "numbers": [
+        "25"
+      ]
+    },
+    "whatsAppChat": {
+      "text": "WhatsApp Chat",
+      "numbers": []
+    },
+    "facebookPage": {
+      "text": "Facebook Page",
+      "numbers": []
+    },
+    "linkedInProfile": {
+      "text": "LinkedIn Profile",
+      "numbers": []
+    },
+    "seoTitle": {
+      "text": "RIA {n0} Fire Hose Reel | EN {n1}-{n2}, {n3} mm Semi-Rigid Hose | CHUANWEI FIRE",
+      "numbers": [
+        "25",
+        "671",
+        "1",
+        "25"
+      ]
+    },
+    "seoDescription": {
+      "text": "EN {n0}-{n1} fire hose reel with {n2} mm semi-rigid hose in {n3}, {n4} and {n5} m lengths, {n6} MPa working pressure, DN{n7}/G{n8} BSP inlet and wall-mounted swing arm. OEM/ODM support.",
+      "numbers": [
+        "671",
+        "1",
+        "25",
+        "20",
+        "25",
+        "30",
+        "1.2",
+        "25",
+        "1"
+      ]
+    }
+  },
+  "shared": {
+    "eN6711": "EN 671-1",
+    "value202530M": "20 / 25 / 30 m",
+    "value12MPa12Bar": "1.2 MPa / 12 bar",
+    "value13": "1 / 3",
+    "value18MPa": "1.8 MPa",
+    "value36MPa": "≥ 3.6 MPa",
+    "dN25G1BSP": "DN25 / G1 BSP",
+    "value1In": "1 in",
+    "value65682984Ft": "65.6 / 82 / 98.4 ft",
+    "value20M656Ft": "20 m / 65.6 ft",
+    "value12MPa": "1.2 MPa",
+    "rIA2520m": "RIA 25/20m",
+    "value25M82Ft": "25 m / 82 ft",
+    "rIA2525m": "RIA 25/25m",
+    "value30M984Ft": "30 m / 98.4 ft",
+    "value550Mm": "550 mm",
+    "rIA2530m": "RIA 25/30m"
+  },
+  "models": [
+    [
+      "rIA25FireHoseReel",
+      "value20M656Ft",
+      "value12MPa",
+      "availableOnRequest",
+      "rIA2520m"
+    ],
+    [
+      "rIA25FireHoseReel",
+      "value25M82Ft",
+      "value12MPa",
+      "availableOnRequest",
+      "rIA2525m"
+    ],
+    [
+      "rIA25FireHoseReel",
+      "value30M984Ft",
+      "value12MPa",
+      "value550Mm",
+      "rIA2530m"
+    ]
+  ],
+  "gallery": [
+    {
+      "media": "image1",
+      "alt": "rIA25FireHoseReelFrontView",
+      "caption": "frontView"
+    },
+    {
+      "media": "image2",
+      "alt": "rIA25FireHoseReelRearView",
+      "caption": "rearView"
+    },
+    {
+      "media": "image3",
+      "alt": "rIA25FireHoseReelInletAndOutlet",
+      "caption": "inletOutletDetail"
+    }
+  ]
+}

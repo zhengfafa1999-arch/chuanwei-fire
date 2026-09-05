@@ -8,7 +8,7 @@ export async function validateStandardResponse({client, origin, viewports, evalu
   for (const viewport of viewports) {
     await client.send("Emulation.setDeviceMetricsOverride", viewport);
     for (const locale of ["en", "ar"]) {
-      const productPath = routePath(routeId, locale), categoryPath = routePath("category:sprinklers", locale);
+      const productPath = routePath(routeId, locale), categoryPath = routePath(SITE_ROUTES[routeId].category, locale);
       const opposite = locale === "ar" ? "en" : "ar";
       for (const selector of [".product-card__image", ".product-card__link"]) {
         await navigate(client, `${origin}${encodeURI(categoryPath)}`, categoryPath);
@@ -33,19 +33,28 @@ export async function validateStandardResponse({client, origin, viewports, evalu
       assert((await inspectPage(client)).lang === locale, "Standard-response refresh lost locale");
       await evaluate(client, "document.querySelector('a[href=\"#gallery\"]').click()");
       const galleryChecks = await evaluate(client, `(() => {
-        const thumbs = [...document.querySelectorAll('.pdp-gallery__thumb')], image = document.getElementById('galleryMain');
+        const wav = document.querySelector('[data-gallery]');
+        const thumbs = [...document.querySelectorAll(wav ? '[data-gallery-index]' : '.pdp-gallery__thumb')];
+        const image = wav ? wav.querySelector('.wav-gallery__main img') : document.getElementById('galleryMain');
+        const caption = wav ? wav.querySelector('[data-gallery-title]') : document.getElementById('galleryCaption');
+        const count = wav ? wav.querySelector('[data-gallery-count]') : document.getElementById('galleryCount');
+        const alt = thumb => wav ? thumb.dataset.alt : thumb.dataset.galleryAlt;
+        const title = thumb => wav ? thumb.dataset.title : thumb.dataset.galleryTitle;
+        const next = document.querySelector(wav ? '.wav-gallery__arrow--next' : '.pdp-gallery__arrow--next');
+        const prev = document.querySelector(wav ? '.wav-gallery__arrow--prev' : '.pdp-gallery__arrow--prev');
+        const touchTarget = wav ? wav.querySelector('.wav-gallery__stage') : image;
         const modal = document.getElementById('productModal');
         const initialHeight = image.getBoundingClientRect().height;
         const checks = [thumbs.length === ${imageCount}];
         const check = index => {
           const thumb = thumbs[index];
-          checks.push(image.src === thumb.querySelector('img').src && image.alt === thumb.dataset.galleryAlt &&
-            document.getElementById('galleryCaption').textContent === thumb.dataset.galleryTitle &&
-            document.getElementById('galleryCount').textContent.replace(/[\u2066\u2069]/g,'') === (index+1)+' / ${imageCount}' &&
+          checks.push(image.src === thumb.querySelector('img').src && image.alt === alt(thumb) &&
+            caption.textContent === title(thumb) &&
+            count.textContent.replace(/[\u2066\u2069]/g,'') === (index+1)+' / ${imageCount}' &&
             thumbs.filter(t=>t.classList.contains('active')).length === 1 && thumb.classList.contains('active'));
           if (document.dir === 'rtl') checks.push(/[\u0600-\u06ff]/.test(image.alt),
-            /[\u0600-\u06ff]/.test(thumb.dataset.galleryTitle) ||
-            (Object.hasOwn(${JSON.stringify(neutralCaptions)}, index) && thumb.dataset.galleryTitle.replace(/[\u2066\u2069]/g,'') === ${JSON.stringify(neutralCaptions)}[index]));
+            /[\u0600-\u06ff]/.test(title(thumb)) ||
+            (Object.hasOwn(${JSON.stringify(neutralCaptions)}, index) && title(thumb).replace(/[\u2066\u2069]/g,'') === ${JSON.stringify(neutralCaptions)}[index]));
         };
         thumbs.forEach((thumb,index)=>{
           thumb.click(); check(index); image.click();
@@ -53,9 +62,9 @@ export async function validateStandardResponse({client, origin, viewports, evalu
           document.dispatchEvent(new KeyboardEvent('keydown',{key:'Escape'}));
           checks.push(!modal.classList.contains('open'));
         });
-        document.querySelector('.pdp-gallery__arrow--next').click(); check(0);
-        document.querySelector('.pdp-gallery__arrow--prev').click(); check(${imageCount - 1});
-        const touch = (name,x)=>{const event=new Event(name);Object.defineProperty(event,'changedTouches',{value:[{clientX:x}]});image.dispatchEvent(event)};
+        next.click(); check(0);
+        prev.click(); check(${imageCount - 1});
+        const touch = (name,x)=>{const event=new Event(name);Object.defineProperty(event,'changedTouches',{value:[{clientX:x}]});touchTarget.dispatchEvent(event)};
         touch('touchstart',200);touch('touchend',document.dir==='rtl'?300:100);check(0);
         touch('touchstart',200);touch('touchend',document.dir==='rtl'?100:300);check(${imageCount - 1});
         image.click();modal.querySelector('button').click();checks.push(!modal.classList.contains('open'));
@@ -69,6 +78,9 @@ export async function validateStandardResponse({client, origin, viewports, evalu
       })()`);
       const expectedChecks = locale === 'ar' ? 5 * imageCount + 18 : 3 * imageCount + 10;
       assert(galleryChecks.length === expectedChecks && galleryChecks.every(Boolean), `${slug} gallery failed: ${JSON.stringify(galleryChecks)}`);
+      // Image switching can still be decoding when a file-preview scroll starts.
+      // Observe asset readiness before asserting the final anchored position.
+      await evaluate(client, "Promise.all([...document.images].map(image => image.decode()))");
       for (const anchor of ["gallery", "models"]) {
         await evaluate(client, `document.querySelector('.pdp-section-navigation a[href="#${anchor}"]').click()`);
         // Observe completion, not an assumed animation duration, before screenshots.
@@ -81,7 +93,10 @@ export async function validateStandardResponse({client, origin, viewports, evalu
           if (settled) break;
           await new Promise(resolve => setTimeout(resolve, 50));
         }
-        assert(settled, `${viewport.id}/${locale}: standard-response ${anchor} anchor did not settle`);
+        if (!settled) {
+          const diagnostic = await evaluate(client, `({hash:location.hash, scrollY, sectionTop:document.getElementById('${anchor}').getBoundingClientRect().top, margin:getComputedStyle(document.getElementById('${anchor}')).scrollMarginTop, header:document.querySelector('.global-header').getBoundingClientRect().bottom, images:[...document.images].filter(i=>!i.complete).map(i=>i.src)})`);
+          assert(false, `${viewport.id}/${locale}: ${slug} ${anchor} anchor did not settle: ${JSON.stringify(diagnostic)}`);
+        }
         const state = await inspectPage(client);
         assert(state.brokenImageCount === 0 && state.horizontalOverflow <= 1, "Standard-response layout/image failure");
         const shot = await client.send("Page.captureScreenshot", {format:"png",captureBeyondViewport:false});
@@ -108,7 +123,7 @@ export async function validateStandardResponse({client, origin, viewports, evalu
           screenshots.push(name);
         }
       }
-      for (const [index, destination] of ["category:sprinklers", "products", "home"].entries()) {
+      for (const [index, destination] of [SITE_ROUTES[routeId].category, "products", "home"].entries()) {
         await evaluate(client, `document.querySelectorAll('[data-global-product-footer] a')[${index}].click()`);
         await waitForLocation(client, routePath(destination, locale));
         assert((await inspectPage(client)).lang === locale, "Standard-response footer lost locale");
