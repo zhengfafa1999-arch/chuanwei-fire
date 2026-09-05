@@ -1,0 +1,578 @@
+{
+  "id": "osy-gate-valves",
+  "routeId": "product:osy-gate-valves",
+  "template": "product-series/gate-valve.njk",
+  "source": {
+    "path": "products/消防阀门/osy-gate-valves.html",
+    "revision": "e2b9670",
+    "status": "preserved-existing-content-not-reaudited"
+  },
+  "media": {
+    "hero": "products/消防阀门/osy-gate-valves/osy-gate-valve.jpg"
+  },
+  "hero": {
+    "width": 2241,
+    "height": 4096
+  },
+  "textKeys": {
+    "eyebrow": "fireGateValve",
+    "title": "oSYGateValve",
+    "lead": "outsideScrewYokeGateValve",
+    "note": "flangeDrillingAndMarkingConfirmed",
+    "imageAria": "enlargeOSYGateValveImage",
+    "imageAlt": "flangedOSYRisingStemGateValve",
+    "technicalTitle": "confirmedConstructionAndOperatingData",
+    "technicalIntro": "criticalProductDataNationalStandard",
+    "sideTitle": "stemDesign",
+    "modelTitle": "configurationsForQuotation",
+    "modelIntro": "internationalSizeConnectionZSZF4Q",
+    "optionsNote": "forQuotationSpecifyDNSizeFlangeDrilling",
+    "manufacturingNote": "manufacturingOptionsConfirmedAgainstBuyerSchedule",
+    "ctaTitle": "sendYourOSYGateValveSchedule",
+    "ctaText": "includeSizeFlangeDrillingQuantity",
+    "modalAlt": "enlargedOSYGateValve"
+  },
+  "chips": [
+    "sizeRangeChip",
+    "inchRangeChip",
+    "flanged",
+    "pressureChip",
+    "risingStem"
+  ],
+  "modelHeaders": [
+    "internationalConfiguration",
+    "nominalSize",
+    "workingPressure",
+    "factoryReference"
+  ],
+  "specifications": [
+    [
+      "productType",
+      "oSYOutsideScrewYokeGateValve"
+    ],
+    [
+      "availableSizes",
+      "availableSizeRange"
+    ],
+    [
+      "connection",
+      "doubleFlangeGBT"
+    ],
+    [
+      "workingPressure",
+      "workingPressureValue"
+    ],
+    [
+      "bodyCoverDisc",
+      "ductileIronQT45010"
+    ],
+    [
+      "stem",
+      "stainlessSteel"
+    ],
+    [
+      "stemNut",
+      "copperAlloy"
+    ],
+    [
+      "seal",
+      "ePDM"
+    ],
+    [
+      "coating",
+      "redEpoxyCoating"
+    ],
+    [
+      "operation",
+      "oSYRisingStemHandwheel"
+    ],
+    [
+      "installation",
+      "firePumpRoomRiserInstallation"
+    ]
+  ],
+  "operationCards": [
+    [
+      "stemType",
+      "rising",
+      "oSY"
+    ],
+    [
+      "position",
+      "visual",
+      "exposedStem"
+    ],
+    [
+      "connection",
+      "flanged",
+      "gBT172416"
+    ],
+    [
+      "pressureClass",
+      "pN16",
+      "pressureMetric"
+    ]
+  ],
+  "disclaimers": [
+    [
+      "configurationNote",
+      "stemHeightIncreasesAsValveOpens"
+    ],
+    [
+      "installationData",
+      "installedStemVerticalUpward"
+    ]
+  ],
+  "models": [
+    [
+      "oSYGateValve",
+      "dN502In",
+      "pN16",
+      "zSZF4Q5016MG"
+    ],
+    [
+      "oSYGateValve",
+      "dN652HalfIn",
+      "pN16",
+      "zSZF4Q6516MG"
+    ],
+    [
+      "oSYGateValve",
+      "dN803In",
+      "pN16",
+      "zSZF4Q8016MG"
+    ],
+    [
+      "oSYGateValve",
+      "dN1004In",
+      "pN16",
+      "zSZF4Q10016MG"
+    ],
+    [
+      "oSYGateValve",
+      "dN1506In",
+      "pN16",
+      "zSZF4Q15016MG"
+    ]
+  ],
+  "oemCards": [
+    [
+      "flangeMachining",
+      "flangeDrillingProducedToApprovedDrawing"
+    ],
+    [
+      "brandPresentation",
+      "customNameplateLogoCoatingColor"
+    ],
+    [
+      "drawingOrSampleProduction",
+      "valveConnectionAndStemDetailsReviewed"
+    ],
+    [
+      "exportPacking",
+      "cartonOrWoodenCasePacking"
+    ]
+  ],
+  "inquiry": {
+    "whatsapp": "https://wa.me/8617326528368?text=Hello%2C%20I%20need%20a%20quotation%20for%20OS%26Y%20Gate%20Valves.%20Size%3A%20%5BDN%2Finch%5D%2C%20quantity%3A%20%5Bpcs%5D%2C%20destination%3A%20%5Bcountry%5D.",
+    "email": "mailto:zhengcolin1@gmail.com?subject=OS%26Y%20Gate%20Valve%20Inquiry"
+  },
+  "copy": {
+    "specifications": {
+      "text": "Specifications",
+      "numbers": []
+    },
+    "availableModels": {
+      "text": "Available models",
+      "numbers": []
+    },
+    "oEMODM": {
+      "text": "OEM / ODM",
+      "numbers": []
+    },
+    "fireGateValve": {
+      "text": "Fire Gate Valve",
+      "numbers": []
+    },
+    "oSYGateValve": {
+      "text": "OS&Y Gate Valve",
+      "numbers": []
+    },
+    "outsideScrewYokeGateValve": {
+      "text": "An outside screw and yoke (OS&Y) gate valve with an exposed rising stem that gives a clear visual indication of open/closed position. Flanged connection for fire pump rooms and fire-water risers.",
+      "numbers": []
+    },
+    "sizeRangeChip": {
+      "text": "DN{n0}–DN{n1}",
+      "numbers": [
+        "50",
+        "150"
+      ]
+    },
+    "inchRangeChip": {
+      "text": "{n0}–{n1} in",
+      "numbers": [
+        "2",
+        "6"
+      ]
+    },
+    "flanged": {
+      "text": "Flanged",
+      "numbers": []
+    },
+    "pressureChip": {
+      "text": "PN{n0} / {n1} MPa",
+      "numbers": [
+        "16",
+        "1.6"
+      ]
+    },
+    "risingStem": {
+      "text": "Rising stem",
+      "numbers": []
+    },
+    "askOnWhatsApp": {
+      "text": "Ask on WhatsApp",
+      "numbers": []
+    },
+    "viewAvailableModels": {
+      "text": "View available models",
+      "numbers": []
+    },
+    "flangeDrillingAndMarkingConfirmed": {
+      "text": "Flange drilling and marking are confirmed against the approved drawing, sample or order schedule before production.",
+      "numbers": []
+    },
+    "technicalOverview": {
+      "text": "Technical overview",
+      "numbers": []
+    },
+    "confirmedConstructionAndOperatingData": {
+      "text": "Confirmed construction and operating data",
+      "numbers": []
+    },
+    "criticalProductDataNationalStandard": {
+      "text": "Critical product data is presented in HTML for clear international sourcing. The valve is produced to a national standard; no foreign approval is claimed on this page.",
+      "numbers": []
+    },
+    "seriesSpecifications": {
+      "text": "Series specifications",
+      "numbers": []
+    },
+    "productType": {
+      "text": "Product type",
+      "numbers": []
+    },
+    "oSYOutsideScrewYokeGateValve": {
+      "text": "OS&Y (Outside Screw & Yoke) Gate Valve",
+      "numbers": []
+    },
+    "availableSizes": {
+      "text": "Available sizes",
+      "numbers": []
+    },
+    "availableSizeRange": {
+      "text": "DN{n0} / {n1} in to DN{n2} / {n3} in",
+      "numbers": [
+        "50",
+        "2",
+        "150",
+        "6"
+      ]
+    },
+    "connection": {
+      "text": "Connection",
+      "numbers": []
+    },
+    "doubleFlangeGBT": {
+      "text": "Double flange, GB/T {n0}.{n1}",
+      "numbers": [
+        "17241",
+        "6"
+      ]
+    },
+    "workingPressure": {
+      "text": "Working pressure",
+      "numbers": []
+    },
+    "workingPressureValue": {
+      "text": "PN{n0} / {n1} MPa / {n2} bar",
+      "numbers": [
+        "16",
+        "1.6",
+        "16"
+      ]
+    },
+    "bodyCoverDisc": {
+      "text": "Body, cover & disc",
+      "numbers": []
+    },
+    "ductileIronQT45010": {
+      "text": "Ductile iron QT{n0}-{n1}",
+      "numbers": [
+        "450",
+        "10"
+      ]
+    },
+    "stem": {
+      "text": "Stem",
+      "numbers": []
+    },
+    "stainlessSteel": {
+      "text": "Stainless steel",
+      "numbers": []
+    },
+    "stemNut": {
+      "text": "Stem nut",
+      "numbers": []
+    },
+    "copperAlloy": {
+      "text": "Copper alloy",
+      "numbers": []
+    },
+    "seal": {
+      "text": "Seal",
+      "numbers": []
+    },
+    "ePDM": {
+      "text": "EPDM",
+      "numbers": []
+    },
+    "coating": {
+      "text": "Coating",
+      "numbers": []
+    },
+    "redEpoxyCoating": {
+      "text": "Red epoxy coating",
+      "numbers": []
+    },
+    "operation": {
+      "text": "Operation",
+      "numbers": []
+    },
+    "oSYRisingStemHandwheel": {
+      "text": "OS&Y rising-stem handwheel",
+      "numbers": []
+    },
+    "installation": {
+      "text": "Installation",
+      "numbers": []
+    },
+    "firePumpRoomRiserInstallation": {
+      "text": "Fire pump room or fire-water riser; stem vertical upward; allow full-open height",
+      "numbers": []
+    },
+    "stemDesign": {
+      "text": "Stem design",
+      "numbers": []
+    },
+    "stemType": {
+      "text": "Stem type",
+      "numbers": []
+    },
+    "rising": {
+      "text": "Rising",
+      "numbers": []
+    },
+    "oSY": {
+      "text": "OS&Y",
+      "numbers": []
+    },
+    "position": {
+      "text": "Position",
+      "numbers": []
+    },
+    "visual": {
+      "text": "Visual",
+      "numbers": []
+    },
+    "exposedStem": {
+      "text": "exposed stem",
+      "numbers": []
+    },
+    "gBT172416": {
+      "text": "GB/T {n0}.{n1}",
+      "numbers": [
+        "17241",
+        "6"
+      ]
+    },
+    "pressureClass": {
+      "text": "Pressure class",
+      "numbers": []
+    },
+    "pressureMetric": {
+      "text": "{n0} MPa / {n1} bar",
+      "numbers": [
+        "1.6",
+        "16"
+      ]
+    },
+    "configurationNote": {
+      "text": "Configuration note",
+      "numbers": []
+    },
+    "stemHeightIncreasesAsValveOpens": {
+      "text": "Stem height increases as the valve opens; installation must reserve the full open-stem height.",
+      "numbers": []
+    },
+    "installationData": {
+      "text": "Installation data",
+      "numbers": []
+    },
+    "installedStemVerticalUpward": {
+      "text": "Installed with the stem vertical and upward in fire pump rooms or fire-water risers, per the approved design.",
+      "numbers": []
+    },
+    "configurationsForQuotation": {
+      "text": "Configurations for quotation",
+      "numbers": []
+    },
+    "internationalSizeConnectionZSZF4Q": {
+      "text": "International size and connection are the primary selection fields. ZSZF{n0}-Q codes are retained only as factory references.",
+      "numbers": [
+        "4"
+      ]
+    },
+    "internationalConfiguration": {
+      "text": "International configuration",
+      "numbers": []
+    },
+    "nominalSize": {
+      "text": "Nominal size",
+      "numbers": []
+    },
+    "factoryReference": {
+      "text": "Factory reference",
+      "numbers": []
+    },
+    "forQuotationSpecifyDNSizeFlangeDrilling": {
+      "text": "For quotation, specify DN size, flange drilling requirement and quantity. Other sizes are confirmed separately.",
+      "numbers": []
+    },
+    "oEMODMCapability": {
+      "text": "OEM / ODM capability",
+      "numbers": []
+    },
+    "configuredToTheApprovedDrawingOrSample": {
+      "text": "Configured to the approved drawing or sample",
+      "numbers": []
+    },
+    "manufacturingOptionsConfirmedAgainstBuyerSchedule": {
+      "text": "Manufacturing options are confirmed against the buyer's technical schedule. Connection-standard names describe available machining patterns and do not imply third-party product approval.",
+      "numbers": []
+    },
+    "flangeMachining": {
+      "text": "Flange machining",
+      "numbers": []
+    },
+    "flangeDrillingProducedToApprovedDrawing": {
+      "text": "Flange drilling produced to the approved drawing or flange standard.",
+      "numbers": []
+    },
+    "brandPresentation": {
+      "text": "Brand presentation",
+      "numbers": []
+    },
+    "customNameplateLogoCoatingColor": {
+      "text": "Custom nameplate, logo and coating color.",
+      "numbers": []
+    },
+    "drawingOrSampleProduction": {
+      "text": "Drawing or sample production",
+      "numbers": []
+    },
+    "valveConnectionAndStemDetailsReviewed": {
+      "text": "Valve connection and stem details reviewed before manufacturing.",
+      "numbers": []
+    },
+    "exportPacking": {
+      "text": "Export packing",
+      "numbers": []
+    },
+    "cartonOrWoodenCasePacking": {
+      "text": "Carton or wooden-case packing prepared according to the order.",
+      "numbers": []
+    },
+    "sendYourOSYGateValveSchedule": {
+      "text": "Send your OS&Y gate valve schedule",
+      "numbers": []
+    },
+    "includeSizeFlangeDrillingQuantity": {
+      "text": "Include size, flange drilling requirement and quantity.",
+      "numbers": []
+    },
+    "whatsAppInquiry": {
+      "text": "WhatsApp inquiry",
+      "numbers": []
+    },
+    "emailSales": {
+      "text": "Email sales",
+      "numbers": []
+    },
+    "onThisPage": {
+      "text": "On this page",
+      "numbers": []
+    },
+    "enlargeOSYGateValveImage": {
+      "text": "Enlarge OS&Y gate valve image",
+      "numbers": []
+    },
+    "flangedOSYRisingStemGateValve": {
+      "text": "Flanged OS and Y rising stem fire gate valve with handwheel",
+      "numbers": []
+    },
+    "productImagePreview": {
+      "text": "Product image preview",
+      "numbers": []
+    },
+    "closeImagePreview": {
+      "text": "Close image preview",
+      "numbers": []
+    },
+    "enlargedOSYGateValve": {
+      "text": "Enlarged OS&Y gate valve",
+      "numbers": []
+    },
+    "whatsAppChat": {
+      "text": "WhatsApp Chat",
+      "numbers": []
+    },
+    "facebookPage": {
+      "text": "Facebook Page",
+      "numbers": []
+    },
+    "linkedInProfile": {
+      "text": "LinkedIn Profile",
+      "numbers": []
+    },
+    "seoTitle": {
+      "text": "OS&Y Fire Gate Valve | DN{n0}–DN{n1} | CHUANWEI FIRE",
+      "numbers": [
+        "50",
+        "150"
+      ]
+    },
+    "seoDescription": {
+      "text": "Flanged OS&Y fire gate valves with rising stem and handwheel in DN{n0} to DN{n1}, PN{n2}, ductile iron construction and OEM/ODM support.",
+      "numbers": [
+        "50",
+        "150",
+        "16"
+      ]
+    }
+  },
+  "shared": {
+    "pN16": "PN16",
+    "dN502In": "DN50 / 2 in",
+    "zSZF4Q5016MG": "ZSZF4-Q-50-16-MG",
+    "dN652HalfIn": "DN65 / 2½ in",
+    "zSZF4Q6516MG": "ZSZF4-Q-65-16-MG",
+    "dN803In": "DN80 / 3 in",
+    "zSZF4Q8016MG": "ZSZF4-Q-80-16-MG",
+    "dN1004In": "DN100 / 4 in",
+    "zSZF4Q10016MG": "ZSZF4-Q-100-16-MG",
+    "dN1506In": "DN150 / 6 in",
+    "zSZF4Q15016MG": "ZSZF4-Q-150-16-MG"
+  }
+}

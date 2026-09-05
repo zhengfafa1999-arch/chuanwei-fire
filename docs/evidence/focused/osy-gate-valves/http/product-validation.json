@@ -1,0 +1,51 @@
+{
+  "scope": "single-product",
+  "product": "osy-gate-valves",
+  "previewMode": "http",
+  "generatedAt": "2026-09-05T18:00:32.617Z",
+  "browser": "Edg/152.0.4191.62",
+  "viewports": [
+    {
+      "id": "desktop",
+      "width": 1440,
+      "height": 900,
+      "deviceScaleFactor": 1,
+      "mobile": false
+    },
+    {
+      "id": "mobile",
+      "width": 390,
+      "height": 844,
+      "deviceScaleFactor": 1,
+      "mobile": true
+    }
+  ],
+  "languageSwitches": [
+    {
+      "scenario": "desktop/en: osy-gate-valves image/text category entries, reciprocal switch, refresh, single hero image zoom, three modal closes and footer returns",
+      "status": "PASS"
+    },
+    {
+      "scenario": "desktop/ar: osy-gate-valves image/text category entries, reciprocal switch, refresh, single hero image zoom, three modal closes and footer returns",
+      "status": "PASS"
+    },
+    {
+      "scenario": "mobile/en: osy-gate-valves image/text category entries, reciprocal switch, refresh, single hero image zoom, three modal closes and footer returns",
+      "status": "PASS"
+    },
+    {
+      "scenario": "mobile/ar: osy-gate-valves image/text category entries, reciprocal switch, refresh, single hero image zoom, three modal closes and footer returns",
+      "status": "PASS"
+    }
+  ],
+  "screenshots": [
+    "edge-desktop-osy-gate-valves-en-hero.png",
+    "edge-desktop-osy-gate-valves-en-models.png",
+    "edge-desktop-osy-gate-valves-ar-hero.png",
+    "edge-desktop-osy-gate-valves-ar-models.png",
+    "edge-mobile-osy-gate-valves-en-hero.png",
+    "edge-mobile-osy-gate-valves-en-models.png",
+    "edge-mobile-osy-gate-valves-ar-hero.png",
+    "edge-mobile-osy-gate-valves-ar-models.png"
+  ]
+}

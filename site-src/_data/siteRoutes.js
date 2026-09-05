@@ -52,7 +52,7 @@ export const SITE_ROUTES = {
   "product:flanged-supervisory-gate-valves": { kind: "product", category: "category:gate-valves", locales: { en: published("products/消防阀门/flanged-supervisory-gate-valves.html"), ar: published("ar/products/flanged-supervisory-gate-valves/index.html") } },
   "product:grooved-supervisory-gate-valves": { kind: "product", category: "category:gate-valves", locales: { en: published("products/消防阀门/grooved-supervisory-gate-valves.html"), ar: published("ar/products/grooved-supervisory-gate-valves/index.html") } },
   "product:nrs-gate-valves": { kind: "product", category: "category:gate-valves", locales: { en: published("products/消防阀门/nrs-gate-valves.html"), ar: published("ar/products/nrs-gate-valves/index.html") } },
-  "product:osy-gate-valves": { kind: "product", category: "category:gate-valves", locales: { en: published("products/消防阀门/osy-gate-valves.html"), ar: fallback("ar/products/gate-valves/index.html") } },
+  "product:osy-gate-valves": { kind: "product", category: "category:gate-valves", locales: { en: published("products/消防阀门/osy-gate-valves.html"), ar: published("ar/products/osy-gate-valves/index.html") } },
 
   "product:standard-indoor-hydrant": { kind: "product", category: "category:indoor-hydrants", locales: { en: published("products/室内消防栓/standard-indoor-hydrant.html"), ar: fallback("ar/products/indoor-hydrants/index.html") } },
   "product:export-slanted-hydrant-valve": { kind: "product", category: "category:indoor-hydrants", locales: { en: published("products/室内消防栓/export-slanted-hydrant-valve.html"), ar: fallback("ar/products/indoor-hydrants/index.html") } },
