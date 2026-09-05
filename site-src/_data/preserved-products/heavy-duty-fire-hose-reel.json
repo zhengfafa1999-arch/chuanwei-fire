@@ -1,0 +1,438 @@
+{
+  "id": "heavy-duty-fire-hose-reel",
+  "routeId": "product:heavy-duty-fire-hose-reel",
+  "template": "product-series/heavy-duty-hose-reel.njk",
+  "source": {
+    "path": "products/软管卷盘/heavy-duty-fire-hose-reel.html",
+    "revision": "72ea0fb",
+    "status": "preserved-existing-content-not-reaudited"
+  },
+  "media": {
+    "hero": "products/软管卷盘/heavy-duty-fire-hose-reel/heavy-duty-reel.jpg"
+  },
+  "copy": {
+    "specifications": {
+      "text": "Specifications",
+      "numbers": []
+    },
+    "availableModels": {
+      "text": "Available models",
+      "numbers": []
+    },
+    "oEMODM": {
+      "text": "OEM / ODM",
+      "numbers": []
+    },
+    "indoorFirstAidFireHoseReel": {
+      "text": "Indoor First-Aid Fire Hose Reel",
+      "numbers": []
+    },
+    "heavyDutyFireHoseReel": {
+      "text": "Heavy-Duty Fire Hose Reel",
+      "numbers": []
+    },
+    "anUpgradedJPSFireHoseReelWithThicker": {
+      "text": "An upgraded JPS fire hose reel with thicker hose, reel plates and nozzle, plus a high-pressure {n0} MPa range using {n1} mm reel plates.",
+      "numbers": [
+        "1.6",
+        "0.7"
+      ]
+    },
+    "value19MmInHose": {
+      "text": "{n0} mm / ¾ in hose",
+      "numbers": [
+        "19"
+      ]
+    },
+    "heavierComponents": {
+      "text": "Heavier components",
+      "numbers": []
+    },
+    "value07MmPlate16MPa": {
+      "text": "{n0} mm plate ({n1} MPa)",
+      "numbers": [
+        "0.7",
+        "1.6"
+      ]
+    },
+    "askOnWhatsApp": {
+      "text": "Ask on WhatsApp",
+      "numbers": []
+    },
+    "viewAvailableModels": {
+      "text": "View available models",
+      "numbers": []
+    },
+    "inletConnectionReelPlateDiameterAndMarkingAre": {
+      "text": "Inlet connection, reel-plate diameter and marking are confirmed against the approved drawing, sample or order schedule before production.",
+      "numbers": []
+    },
+    "seriesSpecifications": {
+      "text": "Series specifications",
+      "numbers": []
+    },
+    "productType": {
+      "text": "Product type",
+      "numbers": []
+    },
+    "hose": {
+      "text": "Hose",
+      "numbers": []
+    },
+    "value19MmInSemiRigidHose": {
+      "text": "{n0} mm / ¾ in semi-rigid hose",
+      "numbers": [
+        "19"
+      ]
+    },
+    "hoseLengths": {
+      "text": "Hose lengths",
+      "numbers": []
+    },
+    "heavyDuty08MPa": {
+      "text": "Heavy-duty ({n0} MPa)",
+      "numbers": [
+        "0.8"
+      ]
+    },
+    "thickerHoseReelPlatesAndNozzle": {
+      "text": "Thicker hose, reel plates and nozzle",
+      "numbers": []
+    },
+    "highPressure16MPa": {
+      "text": "High-pressure ({n0} MPa)",
+      "numbers": [
+        "1.6"
+      ]
+    },
+    "value07MmReelPlatesStandardHoseThicker": {
+      "text": "{n0} mm reel plates; standard hose; thicker copper nozzle",
+      "numbers": [
+        "0.7"
+      ]
+    },
+    "reelPlate": {
+      "text": "Reel plate",
+      "numbers": []
+    },
+    "value400430450Mm08MPaDiameter": {
+      "text": "{n0} / {n1} / {n2} mm ({n3} MPa); diameter on request ({n4} MPa)",
+      "numbers": [
+        "400",
+        "430",
+        "450",
+        "0.8",
+        "1.6"
+      ]
+    },
+    "inlet": {
+      "text": "Inlet",
+      "numbers": []
+    },
+    "ironDN251In": {
+      "text": "Iron, DN{n0} / {n1} in",
+      "numbers": [
+        "25",
+        "1"
+      ]
+    },
+    "nozzle": {
+      "text": "Nozzle",
+      "numbers": []
+    },
+    "copperAlloyThickerCopperNozzle": {
+      "text": "Copper alloy; thicker copper nozzle",
+      "numbers": []
+    },
+    "hub": {
+      "text": "Hub",
+      "numbers": []
+    },
+    "aluminium08MPaIron16MPa": {
+      "text": "Aluminium ({n0} MPa); iron ({n1} MPa)",
+      "numbers": [
+        "0.8",
+        "1.6"
+      ]
+    },
+    "installation": {
+      "text": "Installation",
+      "numbers": []
+    },
+    "indoorHydrantBoxWallMounted": {
+      "text": "Indoor hydrant box wall-mounted",
+      "numbers": []
+    },
+    "standard": {
+      "text": "Standard",
+      "numbers": []
+    },
+    "gB15090NationalFireHoseReelStandardNo": {
+      "text": "GB {n0} (national fire hose reel standard); no foreign approval implied",
+      "numbers": [
+        "15090"
+      ]
+    },
+    "upgradeNotes": {
+      "text": "Upgrade notes",
+      "numbers": []
+    },
+    "heavyDuty": {
+      "text": "Heavy duty",
+      "numbers": []
+    },
+    "thickerComponents": {
+      "text": "thicker components",
+      "numbers": []
+    },
+    "highPressure": {
+      "text": "High pressure",
+      "numbers": []
+    },
+    "value07MmPlates": {
+      "text": "{n0} mm plates",
+      "numbers": [
+        "0.7"
+      ]
+    },
+    "value19MmSemiRigid": {
+      "text": "{n0} mm semi-rigid",
+      "numbers": [
+        "19"
+      ]
+    },
+    "configurationNote": {
+      "text": "Configuration note",
+      "numbers": []
+    },
+    "inletConnectionAndReelPlateDiameterAreSupplied": {
+      "text": "Inlet connection and reel-plate diameter are supplied according to the confirmed order configuration.",
+      "numbers": []
+    },
+    "installationData": {
+      "text": "Installation data",
+      "numbers": []
+    },
+    "installedOnTheIndoorHydrantBoxWallPer": {
+      "text": "Installed on the indoor hydrant box wall, per the approved design.",
+      "numbers": []
+    },
+    "configurationsForQuotation": {
+      "text": "Configurations for quotation",
+      "numbers": []
+    },
+    "heavyDutyAndHighPressureConfigurationsAreShown": {
+      "text": "Heavy-duty and high-pressure configurations are shown below. JPS codes are retained only as factory references.",
+      "numbers": []
+    },
+    "internationalConfiguration": {
+      "text": "International configuration",
+      "numbers": []
+    },
+    "pressure": {
+      "text": "Pressure",
+      "numbers": []
+    },
+    "hoseLength": {
+      "text": "Hose length",
+      "numbers": []
+    },
+    "reelDiameter": {
+      "text": "Reel diameter",
+      "numbers": []
+    },
+    "factoryReference": {
+      "text": "Factory reference",
+      "numbers": []
+    },
+    "highPressureFireHoseReel": {
+      "text": "High-Pressure Fire Hose Reel",
+      "numbers": []
+    },
+    "onRequest": {
+      "text": "On request",
+      "numbers": []
+    },
+    "forQuotationSpecifyPressureClassHoseLengthAnd": {
+      "text": "For quotation, specify pressure class, hose length and quantity. The heavy-duty {n0} MPa version uses thicker hose, reel plates and nozzle; the {n1} MPa version uses {n2} mm reel plates.",
+      "numbers": [
+        "0.8",
+        "1.6",
+        "0.7"
+      ]
+    },
+    "oEMODMCapability": {
+      "text": "OEM / ODM capability",
+      "numbers": []
+    },
+    "configuredToTheApprovedDrawingOrSample": {
+      "text": "Configured to the approved drawing or sample",
+      "numbers": []
+    },
+    "manufacturingOptionsAreConfirmedAgainstTheBuyerS": {
+      "text": "Manufacturing options are confirmed against the buyer's technical schedule. Standards and marking are confirmed together with the approved conformity documentation.",
+      "numbers": []
+    },
+    "reelNameplateBranding": {
+      "text": "Reel & nameplate branding",
+      "numbers": []
+    },
+    "customNameplateLogoAndCoatingColor": {
+      "text": "Custom nameplate, logo and coating color.",
+      "numbers": []
+    },
+    "hosePressure": {
+      "text": "Hose & pressure",
+      "numbers": []
+    },
+    "hoseLengthAndDutyLevelSelectedToThe": {
+      "text": "Hose length and duty level selected to the order.",
+      "numbers": []
+    },
+    "nozzleCoupling": {
+      "text": "Nozzle & coupling",
+      "numbers": []
+    },
+    "nozzleAndQuickCouplingConfigurationReviewedBeforeManufacturing": {
+      "text": "Nozzle and quick-coupling configuration reviewed before manufacturing.",
+      "numbers": []
+    },
+    "exportPacking": {
+      "text": "Export packing",
+      "numbers": []
+    },
+    "cartonOrWoodenCasePackingPreparedAccordingTo": {
+      "text": "Carton or wooden-case packing prepared according to the order.",
+      "numbers": []
+    },
+    "sendYourHoseReelSchedule": {
+      "text": "Send your hose reel schedule",
+      "numbers": []
+    },
+    "includePressureHoseLengthInletConnectionAndQuantity": {
+      "text": "Include pressure, hose length, inlet connection and quantity.",
+      "numbers": []
+    },
+    "whatsAppInquiry": {
+      "text": "WhatsApp inquiry",
+      "numbers": []
+    },
+    "emailSales": {
+      "text": "Email sales",
+      "numbers": []
+    },
+    "onThisPage": {
+      "text": "On this page",
+      "numbers": []
+    },
+    "enlargeHeavyDutyFireHoseReelImage": {
+      "text": "Enlarge heavy duty fire hose reel image",
+      "numbers": []
+    },
+    "heavyDutyFireHoseReelWithThickerComponents": {
+      "text": "Heavy-duty fire hose reel with thicker components",
+      "numbers": []
+    },
+    "productImagePreview": {
+      "text": "Product image preview",
+      "numbers": []
+    },
+    "closeImagePreview": {
+      "text": "Close image preview",
+      "numbers": []
+    },
+    "enlargedHeavyDutyFireHoseReel": {
+      "text": "Enlarged heavy duty fire hose reel",
+      "numbers": []
+    },
+    "whatsAppChat": {
+      "text": "WhatsApp Chat",
+      "numbers": []
+    },
+    "facebookPage": {
+      "text": "Facebook Page",
+      "numbers": []
+    },
+    "linkedInProfile": {
+      "text": "LinkedIn Profile",
+      "numbers": []
+    },
+    "seoTitle": {
+      "text": "Heavy-Duty Fire Hose Reel | {n0} mm, JPS Series | CHUANWEI FIRE",
+      "numbers": [
+        "19"
+      ]
+    },
+    "seoDescription": {
+      "text": "Heavy-duty JPS fire hose reel with thicker hose, reel plates and nozzle, plus high-pressure {n0} MPa configurations with {n1} mm plates. OEM/ODM support.",
+      "numbers": [
+        "1.6",
+        "0.7"
+      ]
+    }
+  },
+  "shared": {
+    "value202530M": "20 / 25 / 30 m",
+    "value08MPa": "0.8 MPa",
+    "value16MPa": "1.6 MPa",
+    "in": "¾ in",
+    "dN251In": "DN25 / 1 in",
+    "confirmedOnRequest": "confirmed on request",
+    "value20M656Ft": "20 m / 65.6 ft",
+    "value400Mm": "400 mm",
+    "jPS081920": "JPS0.8-19/20",
+    "value25M82Ft": "25 m / 82 ft",
+    "value430Mm": "430 mm",
+    "jPS081925": "JPS0.8-19/25",
+    "value30M984Ft": "30 m / 98.4 ft",
+    "value450Mm": "450 mm",
+    "jPS081930": "JPS0.8-19/30",
+    "jPS161920": "JPS1.6-19/20",
+    "jPS161925": "JPS1.6-19/25",
+    "jPS161930": "JPS1.6-19/30"
+  },
+  "models": [
+    [
+      "heavyDutyFireHoseReel",
+      "value08MPa",
+      "value20M656Ft",
+      "value400Mm",
+      "jPS081920"
+    ],
+    [
+      "heavyDutyFireHoseReel",
+      "value08MPa",
+      "value25M82Ft",
+      "value430Mm",
+      "jPS081925"
+    ],
+    [
+      "heavyDutyFireHoseReel",
+      "value08MPa",
+      "value30M984Ft",
+      "value450Mm",
+      "jPS081930"
+    ],
+    [
+      "highPressureFireHoseReel",
+      "value16MPa",
+      "value20M656Ft",
+      "onRequest",
+      "jPS161920"
+    ],
+    [
+      "highPressureFireHoseReel",
+      "value16MPa",
+      "value25M82Ft",
+      "onRequest",
+      "jPS161925"
+    ],
+    [
+      "highPressureFireHoseReel",
+      "value16MPa",
+      "value30M984Ft",
+      "onRequest",
+      "jPS161930"
+    ]
+  ]
+}

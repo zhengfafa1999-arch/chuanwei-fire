@@ -31,8 +31,9 @@ export async function validateStandardResponse({client, origin, viewports, evalu
       await client.send("Page.reload", {ignoreCache:true});
       await waitForLocation(client, productPath);
       assert((await inspectPage(client)).lang === locale, "Standard-response refresh lost locale");
-      await evaluate(client, "document.querySelector('a[href=\"#gallery\"]').click()");
-      const galleryChecks = await evaluate(client, `(() => {
+      if (imageCount > 0) {
+        await evaluate(client, "document.querySelector('a[href=\"#gallery\"]').click()");
+        const galleryChecks = await evaluate(client, `(() => {
         const wav = document.querySelector('[data-gallery]');
         const thumbs = [...document.querySelectorAll(wav ? '[data-gallery-index]' : '.pdp-gallery__thumb')];
         const image = wav ? wav.querySelector('.wav-gallery__main img') : document.getElementById('galleryMain');
@@ -76,12 +77,29 @@ export async function validateStandardResponse({client, origin, viewports, evalu
         thumbs[0].click();checks.push(image.getBoundingClientRect().height === initialHeight);
         return checks;
       })()`);
-      const expectedChecks = locale === 'ar' ? 5 * imageCount + 18 : 3 * imageCount + 10;
-      assert(galleryChecks.length === expectedChecks && galleryChecks.every(Boolean), `${slug} gallery failed: ${JSON.stringify(galleryChecks)}`);
-      // Image switching can still be decoding when a file-preview scroll starts.
-      // Observe asset readiness before asserting the final anchored position.
-      await evaluate(client, "Promise.all([...document.images].map(image => image.decode()))");
-      for (const anchor of ["gallery", "models"]) {
+        const expectedChecks = locale === 'ar' ? 5 * imageCount + 18 : 3 * imageCount + 10;
+        assert(galleryChecks.length === expectedChecks && galleryChecks.every(Boolean), `${slug} gallery failed: ${JSON.stringify(galleryChecks)}`);
+        // Image switching can still be decoding when a file-preview scroll starts.
+        // Observe asset readiness before asserting the final anchored position.
+        await evaluate(client, "Promise.all([...document.images].map(image => image.decode()))");
+      } else {
+        const heroChecks = await evaluate(client, `(() => {
+          const hero = document.querySelector('.pdp-hero__image');
+          const modal = document.getElementById('productModal');
+          const checks = [Boolean(hero && modal && hero.querySelector('img').complete)];
+          const open = () => { hero.click(); checks.push(modal.classList.contains('open') && modal.querySelector('img').src === hero.querySelector('img').src && modal.querySelector('img').alt === hero.querySelector('img').alt); };
+          open(); document.dispatchEvent(new KeyboardEvent('keydown',{key:'Escape'})); checks.push(!modal.classList.contains('open'));
+          open(); modal.querySelector('button').click(); checks.push(!modal.classList.contains('open'));
+          open(); modal.click(); checks.push(!modal.classList.contains('open') && document.body.style.overflow === '');
+          return checks;
+        })()`);
+        assert(heroChecks.length === 7 && heroChecks.every(Boolean), `${slug} hero zoom failed: ${JSON.stringify(heroChecks)}`);
+        const shot = await client.send("Page.captureScreenshot", {format:"png",captureBeyondViewport:false});
+        const name = `edge-${viewport.id}-${slug}-${locale}-hero.png`;
+        fs.writeFileSync(path.join(evidenceDirectory, name), Buffer.from(shot.data,"base64"));
+        screenshots.push(name);
+      }
+      for (const anchor of imageCount > 0 ? ["gallery", "models"] : ["models"]) {
         await evaluate(client, `document.querySelector('.pdp-section-navigation a[href="#${anchor}"]').click()`);
         // Observe completion, not an assumed animation duration, before screenshots.
         let settled = false;
@@ -130,7 +148,7 @@ export async function validateStandardResponse({client, origin, viewports, evalu
         await evaluate(client, "history.back()");
         await waitForLocation(client, productPath);
       }
-      results.push({scenario:`${viewport.id}/${locale}: ${slug} image/text category entries, reciprocal switch, refresh, ${imageCount}-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns`,status:"PASS"});
+      results.push({scenario:`${viewport.id}/${locale}: ${slug} image/text category entries, reciprocal switch, refresh, ${imageCount ? `${imageCount}-image gallery, localized captions/zoom, arrows/wrap/swipe` : 'single hero image zoom'}, three modal closes and footer returns`,status:"PASS"});
     }
   }
   return {results, screenshots};

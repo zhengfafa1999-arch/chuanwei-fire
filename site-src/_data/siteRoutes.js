@@ -42,7 +42,7 @@ export const SITE_ROUTES = {
   "product:ria25-fire-hose-reel": { kind: "product", category: "category:hose-reels", locales: { en: published("products/软管卷盘/ria25-fire-hose-reel.html"), ar: published("ar/products/ria25-fire-hose-reel/index.html") } },
   "product:straight-stream-fire-hose-reel": { kind: "product", category: "category:hose-reels", locales: { en: published("products/软管卷盘/straight-stream-fire-hose-reel.html"), ar: published("ar/products/straight-stream-fire-hose-reel/index.html") } },
   "product:jet-spray-fire-hose-reel": { kind: "product", category: "category:hose-reels", locales: { en: published("products/软管卷盘/jet-spray-fire-hose-reel.html"), ar: published("ar/products/jet-spray-fire-hose-reel/index.html") } },
-  "product:heavy-duty-fire-hose-reel": { kind: "product", category: "category:hose-reels", locales: { en: published("products/软管卷盘/heavy-duty-fire-hose-reel.html"), ar: fallback("ar/products/hose-reels/index.html") } },
+  "product:heavy-duty-fire-hose-reel": { kind: "product", category: "category:hose-reels", locales: { en: published("products/软管卷盘/heavy-duty-fire-hose-reel.html"), ar: published("ar/products/heavy-duty-fire-hose-reel/index.html") } },
 
   "product:lever-operated-grooved-butterfly-valves": { kind: "product", category: "category:butterfly-valves", locales: { en: published("products/消防蝶阀/lever-operated-grooved-butterfly-valves.html"), ar: fallback("ar/products/butterfly-valves/index.html") } },
   "product:lever-operated-wafer-butterfly-valves": { kind: "product", category: "category:butterfly-valves", locales: { en: published("products/消防蝶阀/lever-operated-wafer-butterfly-valves.html"), ar: fallback("ar/products/butterfly-valves/index.html") } },

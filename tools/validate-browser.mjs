@@ -272,7 +272,7 @@ async function run() {
     const source = path.join(root, 'site-src', '_data', 'preserved-products', `${focusedSlug}.json`);
     assert(fs.existsSync(source), `No shared product source for ${focusedSlug}; add a targeted test adapter before testing this product.`);
     focusedProduct = JSON.parse(fs.readFileSync(source, 'utf8'));
-    assert(['product-series/quick-response.njk', 'product-series/standard-response.njk', 'product-series/concealed-pendent.njk', 'product-series/dry-pendent.njk', 'product-series/extended-coverage.njk', 'product-series/large-k-esfr.njk', 'product-series/ria25-hose-reel.njk', 'product-series/straight-stream-hose-reel.njk', 'product-series/jet-spray-hose-reel.njk'].includes(focusedProduct.template), 'This template needs its own targeted interaction adapter; do not silently skip its checks.');
+    assert(['product-series/quick-response.njk', 'product-series/standard-response.njk', 'product-series/concealed-pendent.njk', 'product-series/dry-pendent.njk', 'product-series/extended-coverage.njk', 'product-series/large-k-esfr.njk', 'product-series/ria25-hose-reel.njk', 'product-series/straight-stream-hose-reel.njk', 'product-series/jet-spray-hose-reel.njk', 'product-series/heavy-duty-hose-reel.njk'].includes(focusedProduct.template), 'This template needs its own targeted interaction adapter; do not silently skip its checks.');
   }
   assert(edgePath, "Microsoft Edge was not found. Set EDGE_PATH to a Chromium-compatible Edge executable.");
   fs.mkdirSync(evidenceDirectory, { recursive: true });
@@ -304,11 +304,14 @@ async function run() {
     const matrix = [];
 
     if (focusedProduct) {
+      const focusedGallery = focusedProduct.gallery ?? [];
+      const focusedModelRows = focusedProduct.modelGroups?.map(group => group.length)
+        ?? (focusedProduct.models ? [focusedProduct.models.length] : undefined);
       const result = await validateStandardResponse({
         client, origin, viewports, evaluate, navigate, waitForLocation, inspectPage, assert, evidenceDirectory,
-        routeId: focusedProduct.routeId, slug: focusedSlug, imageCount: focusedProduct.gallery.length,
-        neutralCaptions: Object.fromEntries(focusedProduct.gallery.flatMap((item, index) => Object.hasOwn(focusedProduct.shared, item.caption) ? [[index, focusedProduct.shared[item.caption]]] : [])),
-        modelTableRows: focusedProduct.modelGroups?.map(group => group.length)
+        routeId: focusedProduct.routeId, slug: focusedSlug, imageCount: focusedGallery.length,
+        neutralCaptions: Object.fromEntries(focusedGallery.flatMap((item, index) => Object.hasOwn(focusedProduct.shared, item.caption) ? [[index, focusedProduct.shared[item.caption]]] : [])),
+        modelTableRows: focusedModelRows
       });
       const evidence = {
         scope: 'single-product', product: focusedSlug,
@@ -658,6 +661,11 @@ async function run() {
       routeId: 'product:jet-spray-fire-hose-reel', slug: 'jet-spray-fire-hose-reel', imageCount: 1
     });
     languageSwitches.push(...jetResponse.results);
+    const heavyDutyResponse = await validateStandardResponse({
+      client, origin, viewports, evaluate, navigate, waitForLocation, inspectPage, assert, evidenceDirectory,
+      routeId: 'product:heavy-duty-fire-hose-reel', slug: 'heavy-duty-fire-hose-reel', imageCount: 0
+    });
+    languageSwitches.push(...heavyDutyResponse.results);
     const evidence = {
       previewMode: process.argv.includes("--file-preview") ? "file" : "http",
       generatedAt: new Date().toISOString(),
@@ -681,7 +689,8 @@ async function run() {
         ...esfrResponse.screenshots,
         ...ria25Response.screenshots,
         ...straightResponse.screenshots,
-        ...jetResponse.screenshots
+        ...jetResponse.screenshots,
+        ...heavyDutyResponse.screenshots
       ]
     };
     fs.writeFileSync(path.join(evidenceDirectory, "browser-validation.json"), `${JSON.stringify(evidence, null, 2)}\n`);
