@@ -13,7 +13,7 @@ const readJson = file => JSON.parse(fs.readFileSync(file, "utf8"));
 function displayText(text, lang) {
   if (lang !== "ar") return text;
   return Object.fromEntries(Object.entries(text).map(([key, value]) => [key,
-    value.replace(/[A-Za-z0-9≥≤][A-Za-z0-9 \t./(),≥≤–·+%-]*[A-Za-z0-9%)]|[A-Za-z0-9]/g, run => `\u2066${run}\u2069`)
+    value.replace(/[A-Za-z0-9≥≤][A-Za-z0-9 \t.:/(),≥≤–·+%-]*[A-Za-z0-9%)]|[A-Za-z0-9]/g, run => `\u2066${run}\u2069`)
   ]));
 }
 

@@ -33,6 +33,13 @@ for (const entry of catalog) {
     const inquiries = html => [...html.matchAll(/href="(https:[^"]*|mailto:[^"]*)"/g)].map(([, href]) => decode(href));
     assert.deepEqual(inquiries(content), inquiries(baseline), "Existing inquiry destinations/messages changed");
   } else {
+    // A ratio must remain one LTR run: splitting on ':' reverses its terms in RTL.
+    for (const value of Object.values(entry.text)) {
+      const plain = value.replace(/[\u2066\u2069]/g, "");
+      for (const [ratio] of plain.matchAll(/\d+(?:\.\d+)?:\d+(?:\.\d+)?/g)) {
+        assert(value.includes(ratio), `Arabic ratio split by direction markers: ${ratio}`);
+      }
+    }
     for (const [key, value] of Object.entries(entry.product.shared)) {
       assert.equal(entry.text[key].replace(/[\u2066\u2069]/g, ""), value, `Arabic technical value changed: ${key}`);
       assert(entry.text[key].includes("\u2066"), `Arabic technical value lacks LTR isolation: ${key}`);

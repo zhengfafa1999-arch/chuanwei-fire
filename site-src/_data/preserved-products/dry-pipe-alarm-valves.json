@@ -1,0 +1,508 @@
+{
+  "id": "dry-pipe-alarm-valves",
+  "routeId": "product:dry-pipe-alarm-valves",
+  "template": "product-series/dry-pipe.njk",
+  "source": {
+    "path": "products/消防阀/dry-pipe-alarm-valves.html",
+    "revision": "1529479",
+    "status": "preserved-existing-content-not-reaudited"
+  },
+  "media": {
+    "flanged": "products/消防阀/dry-pipe-alarm-valves/dry-pipe-alarm-valve-flanged.jpg"
+  },
+  "copy": {
+    "specifications": {
+      "text": "Specifications",
+      "numbers": []
+    },
+    "alarmTrim": {
+      "text": "Alarm trim",
+      "numbers": []
+    },
+    "availableModels": {
+      "text": "Available models",
+      "numbers": []
+    },
+    "oEMODM": {
+      "text": "OEM / ODM",
+      "numbers": []
+    },
+    "dryPipeSprinklerSystemEquipment": {
+      "text": "Dry-Pipe Sprinkler System Equipment",
+      "numbers": []
+    },
+    "dryPipeAlarmValve": {
+      "text": "Dry Pipe Alarm Valve",
+      "numbers": []
+    },
+    "aDifferentialTypeWaterControlValveForDry": {
+      "text": "A differential-type water control valve for dry-pipe sprinkler systems in unheated or freezing environments. The downstream piping is kept charged with air or nitrogen instead of water; when a sprinkler opens and the system air pressure drops, the valve opens and floods the piping with water.",
+      "numbers": []
+    },
+    "flanged": {
+      "text": "Flanged",
+      "numbers": []
+    },
+    "airWaterDifferential": {
+      "text": "Air / Water Differential",
+      "numbers": []
+    },
+    "askOnWhatsApp": {
+      "text": "Ask on WhatsApp",
+      "numbers": []
+    },
+    "viewAvailableModels": {
+      "text": "View available models",
+      "numbers": []
+    },
+    "flangeDrillingSystemAirSupplyPressureAndTrim": {
+      "text": "Flange drilling, system air-supply pressure and trim arrangement are confirmed against the approved drawing, sample or order schedule before production.",
+      "numbers": []
+    },
+    "technicalOverview": {
+      "text": "Technical overview",
+      "numbers": []
+    },
+    "confirmedConstructionAndOperatingData": {
+      "text": "Confirmed construction and operating data",
+      "numbers": []
+    },
+    "criticalProductDataIsPresentedInHTMLFor": {
+      "text": "Critical product data is presented in HTML for clear international sourcing. The valve is type-tested to a national standard; no foreign approval is claimed on this page.",
+      "numbers": []
+    },
+    "seriesSpecifications": {
+      "text": "Series specifications",
+      "numbers": []
+    },
+    "productType": {
+      "text": "Product type",
+      "numbers": []
+    },
+    "differentialDryPipeAlarmValve": {
+      "text": "Differential Dry Pipe Alarm Valve",
+      "numbers": []
+    },
+    "availableSizes": {
+      "text": "Available sizes",
+      "numbers": []
+    },
+    "dN1004InToDN2008In": {
+      "text": "DN{n0} / {n1} in to DN{n2} / {n3} in",
+      "numbers": [
+        "100",
+        "4",
+        "200",
+        "8"
+      ]
+    },
+    "connectionOptions": {
+      "text": "Connection options",
+      "numbers": []
+    },
+    "maximumWorkingPressure": {
+      "text": "Maximum working pressure",
+      "numbers": []
+    },
+    "value16MPa16BarApprox232Psi": {
+      "text": "{n0} MPa / {n1} bar / approx. {n2} psi",
+      "numbers": [
+        "1.6",
+        "16",
+        "232"
+      ]
+    },
+    "airToWaterDifferentialRatio": {
+      "text": "Air-to-water differential ratio",
+      "numbers": []
+    },
+    "approx551To7251": {
+      "text": "approx. {n0}:{n1} to {n2}:{n3} (measured)",
+      "numbers": [
+        "5.5",
+        "1",
+        "7.25",
+        "1"
+      ]
+    },
+    "resetPrevention": {
+      "text": "Reset prevention",
+      "numbers": []
+    },
+    "latchingMechanismFitted": {
+      "text": "Latching mechanism fitted",
+      "numbers": []
+    },
+    "alarmDeviceInletPressure": {
+      "text": "Alarm device inlet pressure",
+      "numbers": []
+    },
+    "value005MPaMeasured008009": {
+      "text": "≥ {n0} MPa (measured {n1}–{n2} MPa)",
+      "numbers": [
+        "0.05",
+        "0.08",
+        "0.09"
+      ]
+    },
+    "valveBody": {
+      "text": "Valve body",
+      "numbers": []
+    },
+    "ductileIronQT45010ASTMA5366545": {
+      "text": "Ductile iron QT{n0}-{n1} / ASTM A{n2} {n3}-{n4}-{n5}",
+      "numbers": [
+        "450",
+        "10",
+        "536",
+        "65",
+        "45",
+        "12"
+      ]
+    },
+    "coating": {
+      "text": "Coating",
+      "numbers": []
+    },
+    "internalAndExternalEpoxyCoatingRed": {
+      "text": "Internal and external epoxy coating (red)",
+      "numbers": []
+    },
+    "weight": {
+      "text": "Weight",
+      "numbers": []
+    },
+    "availableOnRequest": {
+      "text": "Available on request",
+      "numbers": []
+    },
+    "typeTestStandard": {
+      "text": "Type-test standard",
+      "numbers": []
+    },
+    "gB51354NationalDryPipeValveStandard": {
+      "text": "GB {n0} (national dry-pipe-valve standard); no foreign approval implied",
+      "numbers": [
+        "5135.4"
+      ]
+    },
+    "packaging": {
+      "text": "Packaging",
+      "numbers": []
+    },
+    "woodenCase": {
+      "text": "Wooden case",
+      "numbers": []
+    },
+    "airSupplyAlarm": {
+      "text": "Air supply & alarm",
+      "numbers": []
+    },
+    "systemSide": {
+      "text": "System side",
+      "numbers": []
+    },
+    "airNitrogen": {
+      "text": "Air / nitrogen",
+      "numbers": []
+    },
+    "keptDryUntilOperation": {
+      "text": "kept dry until operation",
+      "numbers": []
+    },
+    "differentialRatio": {
+      "text": "Differential ratio",
+      "numbers": []
+    },
+    "measuredWithLatching": {
+      "text": "measured, with latching",
+      "numbers": []
+    },
+    "alarmInletPressure": {
+      "text": "Alarm inlet pressure",
+      "numbers": []
+    },
+    "value05BarApprox7Psi": {
+      "text": "{n0} bar / approx. {n1} psi",
+      "numbers": [
+        "0.5",
+        "7"
+      ]
+    },
+    "alarmSignal": {
+      "text": "Alarm signal",
+      "numbers": []
+    },
+    "waterMotorSwitch": {
+      "text": "Water motor + switch",
+      "numbers": []
+    },
+    "electricAlarmDevice": {
+      "text": "electric alarm device",
+      "numbers": []
+    },
+    "configurationNote": {
+      "text": "Configuration note",
+      "numbers": []
+    },
+    "systemAirPressureAcceleratorAndTrimComponentsAre": {
+      "text": "System air pressure, accelerator and trim components are supplied according to the confirmed order configuration.",
+      "numbers": []
+    },
+    "installationData": {
+      "text": "Installation data",
+      "numbers": []
+    },
+    "verticalInstallationWithTheFlowArrowUpwardAnd": {
+      "text": "Vertical installation with the flow arrow upward and aligned with the water-flow direction, per the national installation standard.",
+      "numbers": []
+    },
+    "completeSupplyScope": {
+      "text": "Complete supply scope",
+      "numbers": []
+    },
+    "alarmTrimSuppliedWithTheMainValve": {
+      "text": "Alarm trim supplied with the main valve",
+      "numbers": []
+    },
+    "theStandardCompleteAssemblyIncludesTheItemsBelow": {
+      "text": "The standard complete assembly includes the items below. Customer-specified accessory makes or trim arrangements can be reviewed before quotation.",
+      "numbers": []
+    },
+    "dryPipeAlarmValveText": {
+      "text": "Dry pipe alarm valve",
+      "numbers": []
+    },
+    "accelerator": {
+      "text": "Accelerator",
+      "numbers": []
+    },
+    "airPressureGauge": {
+      "text": "Air pressure gauge",
+      "numbers": []
+    },
+    "waterPressureGauge": {
+      "text": "Water pressure gauge",
+      "numbers": []
+    },
+    "waterMotorAlarm": {
+      "text": "Water motor alarm",
+      "numbers": []
+    },
+    "pressureSwitch": {
+      "text": "Pressure switch",
+      "numbers": []
+    },
+    "exhaustAirVentValve": {
+      "text": "Exhaust / air vent valve",
+      "numbers": []
+    },
+    "fillDripValve": {
+      "text": "Fill / drip valve",
+      "numbers": []
+    },
+    "testValve": {
+      "text": "Test valve",
+      "numbers": []
+    },
+    "trimPipingFittings": {
+      "text": "Trim piping & fittings",
+      "numbers": []
+    },
+    "configurationsForQuotation": {
+      "text": "Configurations for quotation",
+      "numbers": []
+    },
+    "internationalSizeAndConnectionAreThePrimarySelection": {
+      "text": "International size and connection are the primary selection fields. ZSFC codes are retained only as factory references. Reference height may vary with the approved trim arrangement.",
+      "numbers": []
+    },
+    "internationalConfiguration": {
+      "text": "International configuration",
+      "numbers": []
+    },
+    "nominalSize": {
+      "text": "Nominal size",
+      "numbers": []
+    },
+    "maximumPressure": {
+      "text": "Maximum pressure",
+      "numbers": []
+    },
+    "referenceHeight": {
+      "text": "Reference height",
+      "numbers": []
+    },
+    "factoryReference": {
+      "text": "Factory reference",
+      "numbers": []
+    },
+    "flangedDryPipeAlarmValve": {
+      "text": "Flanged Dry Pipe Alarm Valve",
+      "numbers": []
+    },
+    "forQuotationSpecifyDNSizeFlangeDrillingRequirement": {
+      "text": "For quotation, specify DN size, flange drilling requirement, system air-supply pressure, trim and accessory requirements, quantity and destination country.",
+      "numbers": []
+    },
+    "oEMODMCapability": {
+      "text": "OEM / ODM capability",
+      "numbers": []
+    },
+    "configuredToTheApprovedDrawingOrSample": {
+      "text": "Configured to the approved drawing or sample",
+      "numbers": []
+    },
+    "manufacturingAndAssemblyOptionsAreConfirmedAgainstThe": {
+      "text": "Manufacturing and assembly options are confirmed against the buyer's technical schedule. Connection-standard names describe available machining patterns and do not imply third-party product approval.",
+      "numbers": []
+    },
+    "flangeMachining": {
+      "text": "Flange machining",
+      "numbers": []
+    },
+    "gBANSIDINOrBSDimensionalPatternsSubject": {
+      "text": "GB, ANSI, DIN or BS dimensional patterns, subject to the approved drawing and pressure requirement.",
+      "numbers": []
+    },
+    "trimConfiguration": {
+      "text": "Trim configuration",
+      "numbers": []
+    },
+    "customerSpecifiedAccessoriesAcceleratorOptionAndAgreedComponent": {
+      "text": "Customer-specified accessories, accelerator option and agreed component configuration.",
+      "numbers": []
+    },
+    "brandPresentation": {
+      "text": "Brand presentation",
+      "numbers": []
+    },
+    "customNameplateLogoAndEpoxyCoatingColor": {
+      "text": "Custom nameplate, logo and epoxy coating color.",
+      "numbers": []
+    },
+    "drawingOrSampleProduction": {
+      "text": "Drawing or sample production",
+      "numbers": []
+    },
+    "valveConnectionAndTrimDetailsReviewedBeforeManufacturing": {
+      "text": "Valve connection and trim details reviewed before manufacturing.",
+      "numbers": []
+    },
+    "exportPacking": {
+      "text": "Export packing",
+      "numbers": []
+    },
+    "woodenCasePackingPreparedAccordingToTheOrder": {
+      "text": "Wooden-case packing prepared according to the order.",
+      "numbers": []
+    },
+    "sendYourDryPipeValveSchedule": {
+      "text": "Send your dry pipe valve schedule",
+      "numbers": []
+    },
+    "includeSizeAirSupplyPressureTrimConfigurationQuantity": {
+      "text": "Include size, air-supply pressure, trim configuration, quantity and destination country.",
+      "numbers": []
+    },
+    "whatsAppInquiry": {
+      "text": "WhatsApp inquiry",
+      "numbers": []
+    },
+    "emailSales": {
+      "text": "Email sales",
+      "numbers": []
+    },
+    "onThisPage": {
+      "text": "On this page",
+      "numbers": []
+    },
+    "enlargeDryPipeAlarmValveImage": {
+      "text": "Enlarge dry pipe alarm valve image",
+      "numbers": []
+    },
+    "flangedDryPipeAlarmValveWithTrimConnections": {
+      "text": "Flanged dry pipe alarm valve with trim connections and gauges",
+      "numbers": []
+    },
+    "productImagePreview": {
+      "text": "Product image preview",
+      "numbers": []
+    },
+    "closeImagePreview": {
+      "text": "Close image preview",
+      "numbers": []
+    },
+    "enlargedDryPipeAlarmValve": {
+      "text": "Enlarged dry pipe alarm valve",
+      "numbers": []
+    },
+    "whatsAppChat": {
+      "text": "WhatsApp Chat",
+      "numbers": []
+    },
+    "facebookPage": {
+      "text": "Facebook Page",
+      "numbers": []
+    },
+    "linkedInProfile": {
+      "text": "LinkedIn Profile",
+      "numbers": []
+    },
+    "seoTitle": {
+      "text": "Dry Pipe Alarm Valve | DN{n0}–DN{n1} | CHUANWEI FIRE",
+      "numbers": [
+        "100",
+        "200"
+      ]
+    },
+    "seoDescription": {
+      "text": "Flanged differential dry pipe alarm valves in DN{n0} to DN{n1}, {n2} MPa, for dry-pipe sprinkler systems in unheated or freezing environments. Supplied with complete alarm trim and OEM/ODM support.",
+      "numbers": [
+        "100",
+        "200",
+        "1.6"
+      ]
+    }
+  },
+  "shared": {
+    "dN100DN200": "DN100–DN200",
+    "value48In": "4–8 in",
+    "value16MPa16Bar": "1.6 MPa / 16 bar",
+    "value5517251": "5.5:1 – 7.25:1",
+    "value005MPa": "≥ 0.05 MPa",
+    "dN1004In": "DN100 / 4 in",
+    "value16MPa": "1.6 MPa",
+    "value375Mm": "375 mm",
+    "zSFC100": "ZSFC100",
+    "dN1506In": "DN150 / 6 in",
+    "value455Mm": "455 mm",
+    "zSFC150": "ZSFC150",
+    "dN2008In": "DN200 / 8 in",
+    "value610Mm": "610 mm",
+    "zSFC200": "ZSFC200"
+  },
+  "models": [
+    [
+      "flangedDryPipeAlarmValve",
+      "dN1004In",
+      "value16MPa",
+      "value375Mm",
+      "zSFC100"
+    ],
+    [
+      "flangedDryPipeAlarmValve",
+      "dN1506In",
+      "value16MPa",
+      "value455Mm",
+      "zSFC150"
+    ],
+    [
+      "flangedDryPipeAlarmValve",
+      "dN2008In",
+      "value16MPa",
+      "value610Mm",
+      "zSFC200"
+    ]
+  ]
+}
