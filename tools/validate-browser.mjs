@@ -220,7 +220,9 @@ const pages = [
   { id: "water-mist-en", path: "/products/消防喷头/water-mist-nozzles.html?lang=en", lang: "en", dir: "ltr", marker: "Water Mist" },
   { id: "water-mist-ar", path: "/ar/products/water-mist-nozzles/index.html?lang=ar", lang: "ar", dir: "rtl", marker: "ضباب" },
   { id: "deluge-en", path: "/products/消防阀/diaphragm-deluge-valves.html", lang: "en", dir: "ltr", marker: "Deluge" },
-  { id: "deluge-ar", path: "/ar/products/diaphragm-deluge-valves/index.html", lang: "ar", dir: "rtl", marker: "الغمر" }
+  { id: "deluge-ar", path: "/ar/products/diaphragm-deluge-valves/index.html", lang: "ar", dir: "rtl", marker: "الغمر" },
+  { id: "preaction-en", path: "/products/消防阀/preaction-valve-assemblies.html", lang: "en", dir: "ltr", marker: "Preaction" },
+  { id: "preaction-ar", path: "/ar/products/preaction-valve-assemblies/index.html", lang: "ar", dir: "rtl", marker: "الإجراء المسبق" }
 ];
 
 const viewports = [
@@ -307,7 +309,7 @@ async function run() {
           assert(result.hreflangs.ar === "https://chuanweifire.com/ar/", `${page.id} has incorrect Arabic hreflang.`);
           assert(result.hreflangs["x-default"] === result.hreflangs.en, `${page.id} has inconsistent x-default.`);
         }
-        if (page.id.startsWith("home-") || page.id.startsWith("deluge-") || ["about-en", "about-ar", "downloads-en", "downloads-ar", "contact-en", "contact-ar"].includes(page.id)) {
+        if (page.id.startsWith("home-") || page.id.startsWith("deluge-") || page.id.startsWith("preaction-") || ["about-en", "about-ar", "downloads-en", "downloads-ar", "contact-en", "contact-ar"].includes(page.id)) {
           const screenshot = await client.send("Page.captureScreenshot", { format: "png", captureBeyondViewport: false });
           fs.writeFileSync(path.join(evidenceDirectory, `edge-${viewport.id}-${page.id}.png`), Buffer.from(screenshot.data, "base64"));
         }
@@ -496,6 +498,58 @@ async function run() {
       await waitForLocation(client, "/ar/products/system-valves/index.html");
       languageSwitches.push({scenario:`${viewport.id}: deluge AR category, same-product EN/AR switch, refresh and AR category return`, status:"PASS"});
     }
+    const preactionScreenshots = [];
+    for (const viewport of viewports) {
+      await client.send("Emulation.setDeviceMetricsOverride", viewport);
+      const en = "/products/消防阀/preaction-valve-assemblies.html";
+      const ar = "/ar/products/preaction-valve-assemblies/index.html";
+      await navigate(client, `${origin}/ar/products/system-valves/index.html`, "/ar/products/system-valves/index.html");
+      await evaluate(client, `document.querySelector('a[href*="preaction-valve-assemblies"]').click()`);
+      await waitForLocation(client, ar);
+      assert((await inspectPage(client)).lang === "ar", "AR category must open the translated preaction product");
+      for (const [locale, productPath] of [["en", en], ["ar", ar]]) {
+        await evaluate(client, `document.querySelector('[data-site-language-choice="${locale}"]').click()`);
+        await waitForLocation(client, productPath);
+        assert((await inspectPage(client)).lang === locale, `Preaction switch must retain the same product in ${locale}`);
+        await client.send("Page.reload", {ignoreCache:true});
+        await waitForLocation(client, productPath);
+        assert((await inspectPage(client)).lang === locale, `Preaction refresh must retain ${locale}`);
+        const zoom = await evaluate(client, `(() => {
+          const trigger = document.querySelector('[data-lightbox]'), modal = document.querySelector('#productModal');
+          const closed = () => !modal.classList.contains('open') && document.body.style.overflow === '';
+          trigger.click();
+          const opened = modal.classList.contains('open') && modal.querySelector('img').src === trigger.querySelector('img').src && document.activeElement === modal.querySelector('button');
+          document.dispatchEvent(new KeyboardEvent('keydown',{key:'Escape',bubbles:true})); const escape = closed();
+          trigger.click(); modal.querySelector('button').click(); const closeButton = closed();
+          trigger.click(); modal.click(); const backdrop = closed();
+          return {opened,escape,closeButton,backdrop,singlePhoto:!document.querySelector('[data-gallery]'),models:document.querySelectorAll('#models tbody tr').length === 9};
+        })()`);
+        assert(Object.values(zoom).every(Boolean), `${viewport.id}/${locale}: preaction zoom failed: ${JSON.stringify(zoom)}`);
+        productInteractions.push({product:"preaction",viewport:viewport.id,locale,status:"PASS",zoom});
+        await evaluate(client, `document.querySelector('.pdp-section-navigation a[href="#models"]').click()`);
+        // Wait for smooth anchor scrolling, otherwise a screenshot can capture
+        // the preceding section and a lower-bound-only position check still pass.
+        for (let attempt = 0; attempt < 60; attempt += 1) {
+          const settled = await evaluate(client, `(() => {
+            const section = document.querySelector('#models');
+            return Math.abs(section.getBoundingClientRect().top - parseFloat(getComputedStyle(section).scrollMarginTop || '0')) < 2;
+          })()`);
+          if (settled) break;
+          await delay(50);
+        }
+        const anchor = await evaluate(client, `({path:location.pathname,hash:location.hash,top:document.querySelector('#models').getBoundingClientRect().top,headingTop:document.querySelector('#models h2').getBoundingClientRect().top,headerBottom:document.querySelector('[data-global-header]').getBoundingClientRect().bottom})`);
+        assert(pathnameMatches(anchor.path,productPath) && anchor.hash === "#models", "Preaction section link changed language");
+        assert(anchor.headingTop >= anchor.headerBottom - 1, "Preaction model heading is hidden under navigation");
+        assert(anchor.top < viewport.height / 2, "Preaction model section did not finish scrolling into view");
+        const screenshot = await client.send("Page.captureScreenshot", {format:"png",captureBeyondViewport:false});
+        const screenshotName = `edge-${viewport.id}-preaction-${locale}-models.png`;
+        fs.writeFileSync(path.join(evidenceDirectory,screenshotName),Buffer.from(screenshot.data,"base64"));
+        preactionScreenshots.push(screenshotName);
+      }
+      await evaluate(client, `document.querySelector('[data-global-product-footer] a').click()`);
+      await waitForLocation(client, "/ar/products/system-valves/index.html");
+      languageSwitches.push({scenario:`${viewport.id}: preaction AR category, same-product EN/AR switch, refresh, model anchor and AR category return`,status:"PASS"});
+    }
     const evidence = {
       previewMode: process.argv.includes("--file-preview") ? "file" : "http",
       generatedAt: new Date().toISOString(),
@@ -508,8 +562,9 @@ async function run() {
       languageSwitches,
       productInteractions,
       screenshots: [
-        ...viewports.flatMap((viewport) => ["home-en", "home-zh", "home-ar", "about-en", "about-ar", "downloads-en", "downloads-ar", "contact-en", "contact-ar", "deluge-en", "deluge-ar"].map((page) => `edge-${viewport.id}-${page}.png`)),
-        ...responsiveScreenshots
+        ...viewports.flatMap((viewport) => ["home-en", "home-zh", "home-ar", "about-en", "about-ar", "downloads-en", "downloads-ar", "contact-en", "contact-ar", "deluge-en", "deluge-ar", "preaction-en", "preaction-ar"].map((page) => `edge-${viewport.id}-${page}.png`)),
+        ...responsiveScreenshots,
+        ...preactionScreenshots
       ]
     };
     fs.writeFileSync(path.join(evidenceDirectory, "browser-validation.json"), `${JSON.stringify(evidence, null, 2)}\n`);
@@ -529,7 +584,7 @@ async function run() {
       "",
       "## 覆盖范围",
       "",
-      `英文/中文/阿文首页、产品总目录、公共页面、分类页和双语详情；逐一打开全部 ${navigationPages.length} 个正式页面，在 1440、768、390 和 320 像素四档宽度检查 LTR/RTL、页面溢出、页头边界、图片加载、控件和菜单；验证语言切换与返回，并检查雨淋阀两种语言的图库、缩略图、放大、关闭和滑动。`,
+      `英文/中文/阿文首页、产品总目录、公共页面、分类页和双语详情；逐一打开全部 ${navigationPages.length} 个正式页面，在 1440、768、390 和 320 像素四档宽度检查 LTR/RTL、页面溢出、页头边界、图片加载、控件和菜单；验证语言切换与返回，检查雨淋阀图库，以及预作用阀组单图放大、三种关闭方式和型号锚点。`,
       "",
       "## 可复核产物",
       "",

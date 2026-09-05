@@ -14,11 +14,8 @@ eleventyExcludeFromCollections: true
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" href="{{ entry.route.assetPrefix }}favicon.ico" type="image/x-icon">
   <link rel="apple-touch-icon" href="{{ entry.route.assetPrefix }}apple-touch-icon.png">
-  <link rel="stylesheet" href="{{ entry.route.assetPrefix }}css/common.css">
-  <link rel="stylesheet" href="{{ entry.route.assetPrefix }}css/sprinkler-product.css">
-  <link rel="stylesheet" href="{{ entry.route.assetPrefix }}css/wet-alarm-valve-product.css">
-  <link rel="stylesheet" href="{{ entry.route.assetPrefix }}css/site-navigation.css">
-{% if entry.lang == 'ar' %}  <link rel="stylesheet" href="{{ entry.route.assetPrefix }}css/multilingual-product.css">
+{% for style in entry.styles %}  <link rel="stylesheet" href="{{ entry.route.assetPrefix }}{{ style }}">
+{% endfor %}{% if entry.lang == 'ar' %}  <link rel="stylesheet" href="{{ entry.route.assetPrefix }}css/multilingual-product.css">
 {% endif %}
 {% seoTags entry.seo %}
 </head>

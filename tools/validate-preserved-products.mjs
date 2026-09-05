@@ -25,6 +25,8 @@ for (const entry of catalog) {
   const tableRows = content.match(/<tbody>([\s\S]*?)<\/tbody>/)?.[1].match(/<tr>/g) || [];
   assert.equal(tableRows.length, entry.product.models.length, `${entry.lang}: model count changed`);
   if (entry.lang === "en") {
+    const styles = html => [...html.matchAll(/<link\b[^>]*rel="stylesheet"[^>]*href="([^"]+)"/g)].map(([, href]) => href);
+    assert.deepEqual(styles(output), styles(read(baselineFile)), "English stylesheets changed during language-only migration");
     const body = html => html.match(/<body\b[^>]*>([\s\S]*?)<\/body>/i)?.[1].replace(/<script\b[^>]*>[\s\S]*?<\/script>/gi, "") || "";
     assert.deepEqual(structure(body(output)), structure(body(read(baselineFile))), "English page structure/footer/social order changed");
     assert.equal(visibleText(content), visibleText(baseline), "English visible product content changed during language-only migration");

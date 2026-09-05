@@ -40,6 +40,7 @@ export default products.flatMap(product => ["en", "ar"].map(lang => {
   const media = Object.fromEntries(Object.entries(product.media).map(([key, source]) => [key, path.posix.relative(path.posix.dirname(route.outputPath), source)]));
   return {
     product, route, text: displayText(text, lang), media, lang, dir: lang === "ar" ? "rtl" : "ltr",
+    styles: product.styles || ["css/common.css", "css/sprinkler-product.css", "css/wet-alarm-valve-product.css", "css/site-navigation.css"],
     navigation: createSiteNavigation(product.routeId, lang, route.outputPath),
     seo: createSeoMetadata(product.routeId, lang, {
       title: text.seoTitle, description: text.seoDescription,

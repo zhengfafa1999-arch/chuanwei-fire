@@ -27,7 +27,7 @@ export const SITE_ROUTES = {
 
   "product:wet-alarm-check-valve": { kind: "product", category: "category:system-valves", locales: { en: published("products/消防阀/wet-alarm-check-valve-assemblies.html"), ar: published("ar/products/wet-alarm-check-valve/index.html") } },
   "product:diaphragm-deluge-valves": { kind: "product", category: "category:system-valves", locales: { en: published("products/消防阀/diaphragm-deluge-valves.html"), ar: published("ar/products/diaphragm-deluge-valves/index.html") } },
-  "product:preaction-valve-assemblies": { kind: "product", category: "category:system-valves", locales: { en: published("products/消防阀/preaction-valve-assemblies.html"), ar: fallback("ar/products/system-valves/index.html") } },
+  "product:preaction-valve-assemblies": { kind: "product", category: "category:system-valves", locales: { en: published("products/消防阀/preaction-valve-assemblies.html"), ar: published("ar/products/preaction-valve-assemblies/index.html") } },
   "product:dry-pipe-alarm-valves": { kind: "product", category: "category:system-valves", locales: { en: published("products/消防阀/dry-pipe-alarm-valves.html"), ar: fallback("ar/products/system-valves/index.html") } },
 
   "product:water-curtain-nozzles": { kind: "product", category: "category:sprinklers", locales: { en: published("products/消防喷头/water-curtain-nozzles.html"), ar: published("ar/products/water-curtain-nozzles/index.html") } },

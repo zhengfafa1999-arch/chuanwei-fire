@@ -1,0 +1,496 @@
+{
+  "id": "preaction-valve-assemblies",
+  "routeId": "product:preaction-valve-assemblies",
+  "template": "product-series/preaction.njk",
+  "styles": [
+    "css/common.css",
+    "css/sprinkler-product.css",
+    "css/site-navigation.css"
+  ],
+  "source": {
+    "path": "products/消防阀/preaction-valve-assemblies.html",
+    "revision": "7f6fbce",
+    "status": "preserved-existing-content-not-reaudited"
+  },
+  "media": {
+    "flanged": "products/消防阀/preaction-valve-assemblies/preaction-valve-assembly-watermarked.jpg"
+  },
+  "copy": {
+    "specifications": {
+      "text": "Specifications",
+      "numbers": []
+    },
+    "availableModels": {
+      "text": "Available models",
+      "numbers": []
+    },
+    "configurationScope": {
+      "text": "Configuration scope",
+      "numbers": []
+    },
+    "oEMODM": {
+      "text": "OEM / ODM",
+      "numbers": []
+    },
+    "automaticSprinklerSystemEquipment": {
+      "text": "Automatic Sprinkler System Equipment",
+      "numbers": []
+    },
+    "preactionValveAssemblies": {
+      "text": "Preaction Valve Assemblies",
+      "numbers": []
+    },
+    "projectConfiguredValveAssembliesForPreactionSprinklerSystems": {
+      "text": "Project-configured valve assemblies for preaction sprinkler systems, available in flanged and grooved connection versions. Buyers can match the required nominal size, connection and assembly scope without relying on domestic model codes.",
+      "numbers": []
+    },
+    "approx410In": {
+      "text": "Approx. {n0}–{n1} in",
+      "numbers": [
+        "4",
+        "10"
+      ]
+    },
+    "flangedGrooved": {
+      "text": "Flanged / Grooved",
+      "numbers": []
+    },
+    "projectConfiguredTrim": {
+      "text": "Project-Configured Trim",
+      "numbers": []
+    },
+    "askOnWhatsApp": {
+      "text": "Ask on WhatsApp",
+      "numbers": []
+    },
+    "viewAvailableModels": {
+      "text": "View available models",
+      "numbers": []
+    },
+    "releaseMethodWorkingPressureFlangeDrillingOrGroove": {
+      "text": "Release method, working pressure, flange drilling or groove profile, trim scope and control arrangement are confirmed for each project before production.",
+      "numbers": []
+    },
+    "technicalOverview": {
+      "text": "Technical overview",
+      "numbers": []
+    },
+    "clearProjectDataWithoutUnsupportedClaims": {
+      "text": "Clear project data without unsupported claims.",
+      "numbers": []
+    },
+    "thePhotographShowsOneAssembledFlangedConfigurationFinal": {
+      "text": "The photograph shows one assembled flanged configuration. Final components and dimensions depend on the selected model and approved project schedule.",
+      "numbers": []
+    },
+    "confirmedSeriesInformation": {
+      "text": "Confirmed series information",
+      "numbers": []
+    },
+    "internationalProductName": {
+      "text": "International product name",
+      "numbers": []
+    },
+    "preactionValveAssembly": {
+      "text": "Preaction Valve Assembly",
+      "numbers": []
+    },
+    "availableNominalSizes": {
+      "text": "Available nominal sizes",
+      "numbers": []
+    },
+    "connectionVersions": {
+      "text": "Connection versions",
+      "numbers": []
+    },
+    "flangedAndGrooved": {
+      "text": "Flanged and grooved",
+      "numbers": []
+    },
+    "factoryReferences": {
+      "text": "Factory references",
+      "numbers": []
+    },
+    "zSFYSeries": {
+      "text": "ZSFY series",
+      "numbers": []
+    },
+    "assemblyHeight": {
+      "text": "Assembly height",
+      "numbers": []
+    },
+    "value5701000MmDependingOnSizeConnectionAnd": {
+      "text": "{n0}–{n1} mm depending on size, connection and design version",
+      "numbers": [
+        "570",
+        "1000"
+      ]
+    },
+    "releaseMethod": {
+      "text": "Release method",
+      "numbers": []
+    },
+    "toBeSpecifiedForTheProject": {
+      "text": "To be specified for the project",
+      "numbers": []
+    },
+    "workingPressure": {
+      "text": "Working pressure",
+      "numbers": []
+    },
+    "toBeConfirmedForTheSelectedModel": {
+      "text": "To be confirmed for the selected model",
+      "numbers": []
+    },
+    "valveAndTrimMaterials": {
+      "text": "Valve and trim materials",
+      "numbers": []
+    },
+    "availableOnRequestConfirmedAgainstTheApprovedOrder": {
+      "text": "Available on request; confirmed against the approved order",
+      "numbers": []
+    },
+    "approvalExecutionStandard": {
+      "text": "Approval / execution standard",
+      "numbers": []
+    },
+    "noForeignApprovalClaimedDocumentaryScopeAvailableOn": {
+      "text": "No foreign approval claimed; documentary scope available on request",
+      "numbers": []
+    },
+    "photographedAssembly": {
+      "text": "Photographed assembly",
+      "numbers": []
+    },
+    "visibleConfiguration": {
+      "text": "Visible configuration",
+      "numbers": []
+    },
+    "theRealProductPhotoShowsAFlangedAssembly": {
+      "text": "The real product photo shows a flanged assembly with trim piping, two pressure gauges, an electrically operated component and a water motor alarm.",
+      "numbers": []
+    },
+    "supplyBoundary": {
+      "text": "Supply boundary",
+      "numbers": []
+    },
+    "theVisibleComponentsDescribeThePhotographedSampleOnly": {
+      "text": "The visible components describe the photographed sample only. Included trim, control panel, detection devices and accessories must be listed in the quotation.",
+      "numbers": []
+    },
+    "connectionDetails": {
+      "text": "Connection details",
+      "numbers": []
+    },
+    "flangeDrillingGrooveProfileAndMatingDimensionsAre": {
+      "text": "Flange drilling, groove profile and mating dimensions are confirmed from the customer schedule or approved drawing.",
+      "numbers": []
+    },
+    "systemDesign": {
+      "text": "System design",
+      "numbers": []
+    },
+    "systemLogicDetectionMethodAndInstallationDesignRemain": {
+      "text": "System logic, detection method and installation design remain subject to the project engineer and approved technical documents.",
+      "numbers": []
+    },
+    "availableConfigurations": {
+      "text": "Available configurations",
+      "numbers": []
+    },
+    "modelsCurrentlyAvailableForQuotation": {
+      "text": "Models currently available for quotation",
+      "numbers": []
+    },
+    "domesticZSFYCodesAreRetainedOnlyAsFactory": {
+      "text": "Domestic ZSFY codes are retained only as factory references. Heights are approximate factory records and must be reconfirmed before order approval.",
+      "numbers": []
+    },
+    "internationalConfiguration": {
+      "text": "International configuration",
+      "numbers": []
+    },
+    "nominalSize": {
+      "text": "Nominal size",
+      "numbers": []
+    },
+    "connection": {
+      "text": "Connection",
+      "numbers": []
+    },
+    "approxAssemblyHeight": {
+      "text": "Approx. assembly height",
+      "numbers": []
+    },
+    "factoryReference": {
+      "text": "Factory reference",
+      "numbers": []
+    },
+    "flanged": {
+      "text": "Flanged",
+      "numbers": []
+    },
+    "preactionValveAssemblyStandardDesign": {
+      "text": "Preaction Valve Assembly — standard design",
+      "numbers": []
+    },
+    "preactionValveAssemblyCurrentDesign": {
+      "text": "Preaction Valve Assembly — current design",
+      "numbers": []
+    },
+    "groovedPreactionValveAssembly": {
+      "text": "Grooved Preaction Valve Assembly",
+      "numbers": []
+    },
+    "grooved": {
+      "text": "Grooved",
+      "numbers": []
+    },
+    "forQuotationSpecifyNominalSizeConnectionWorkingPressure": {
+      "text": "For quotation, specify nominal size, connection, working pressure, release method, required trim and accessories, electrical requirements, quantity and destination market.",
+      "numbers": []
+    },
+    "quotedAsAnAssemblyNotOnlyAsA": {
+      "text": "Quoted as an assembly, not only as a valve body.",
+      "numbers": []
+    },
+    "theSupplyCanBeReviewedAgainstAProject": {
+      "text": "The supply can be reviewed against a project valve schedule, piping diagram, drawing or approved sample. The final quotation identifies what is included, what remains by others and which technical documents require approval.",
+      "numbers": []
+    },
+    "valveSizeConnection": {
+      "text": "Valve size & connection",
+      "numbers": []
+    },
+    "flangedOrGroovedVersionsFromDN100ToDN250": {
+      "text": "Flanged or grooved versions from DN{n0} to DN{n1}.",
+      "numbers": [
+        "100",
+        "250"
+      ]
+    },
+    "releaseArrangement": {
+      "text": "Release arrangement",
+      "numbers": []
+    },
+    "confirmedAccordingToTheRequiredProjectControlLogic": {
+      "text": "Confirmed according to the required project control logic.",
+      "numbers": []
+    },
+    "trimAlarmComponents": {
+      "text": "Trim & alarm components",
+      "numbers": []
+    },
+    "itemizedAgainstTheApprovedAssemblyScope": {
+      "text": "Itemized against the approved assembly scope.",
+      "numbers": []
+    },
+    "electricalRequirements": {
+      "text": "Electrical requirements",
+      "numbers": []
+    },
+    "voltageAndComponentRequirementsConfirmedBeforeProduction": {
+      "text": "Voltage and component requirements confirmed before production.",
+      "numbers": []
+    },
+    "oEMODMSupport": {
+      "text": "OEM / ODM support",
+      "numbers": []
+    },
+    "preparedForYourDrawingAndMarketRequirements": {
+      "text": "Prepared for your drawing and market requirements.",
+      "numbers": []
+    },
+    "productMarkingNameplateConnectionArrangementTrimLayoutAnd": {
+      "text": "Product marking, nameplate, connection arrangement, trim layout and export packaging can be reviewed against the customer drawing, technical schedule or approved sample.",
+      "numbers": []
+    },
+    "nameplateMarking": {
+      "text": "Nameplate & marking",
+      "numbers": []
+    },
+    "customerLogoModelAndOrderInformationSubjectTo": {
+      "text": "Customer logo, model and order information subject to available marking space.",
+      "numbers": []
+    },
+    "connectionReview": {
+      "text": "Connection review",
+      "numbers": []
+    },
+    "flangeDrillingAndGrooveRequirementsConfirmedByApproved": {
+      "text": "Flange drilling and groove requirements confirmed by approved technical data.",
+      "numbers": []
+    },
+    "assemblyConfiguration": {
+      "text": "Assembly configuration",
+      "numbers": []
+    },
+    "trimAndComponentScopeReviewedForTheRequired": {
+      "text": "Trim and component scope reviewed for the required project arrangement.",
+      "numbers": []
+    },
+    "exportPackaging": {
+      "text": "Export packaging",
+      "numbers": []
+    },
+    "labelsCartonsShippingMarksAndDocumentationPreparedTo": {
+      "text": "Labels, cartons, shipping marks and documentation prepared to order.",
+      "numbers": []
+    },
+    "sendYourPreactionValveSchedule": {
+      "text": "Send your preaction valve schedule.",
+      "numbers": []
+    },
+    "includeDNSizeConnectionWorkingPressureReleaseMethod": {
+      "text": "Include DN size, connection, working pressure, release method, trim scope, voltage, quantity and destination country.",
+      "numbers": []
+    },
+    "whatsAppInquiry": {
+      "text": "WhatsApp inquiry",
+      "numbers": []
+    },
+    "emailSales": {
+      "text": "Email sales",
+      "numbers": []
+    },
+    "onThisPage": {
+      "text": "On this page",
+      "numbers": []
+    },
+    "enlargePreactionValveAssemblyImage": {
+      "text": "Enlarge preaction valve assembly image",
+      "numbers": []
+    },
+    "flangedPreactionValveAssemblyShownWithTrimPiping": {
+      "text": "Flanged preaction valve assembly shown with trim piping, pressure gauges, solenoid valve and water motor alarm",
+      "numbers": []
+    },
+    "productImagePreview": {
+      "text": "Product image preview",
+      "numbers": []
+    },
+    "closeImagePreview": {
+      "text": "Close image preview",
+      "numbers": []
+    },
+    "enlargedPreactionValveAssembly": {
+      "text": "Enlarged preaction valve assembly",
+      "numbers": []
+    },
+    "whatsAppChat": {
+      "text": "WhatsApp Chat",
+      "numbers": []
+    },
+    "facebookPage": {
+      "text": "Facebook Page",
+      "numbers": []
+    },
+    "linkedInProfile": {
+      "text": "LinkedIn Profile",
+      "numbers": []
+    },
+    "seoTitle": {
+      "text": "Preaction Valve Assemblies | DN{n0}–DN{n1} | CHUANWEI FIRE",
+      "numbers": [
+        "100",
+        "250"
+      ]
+    },
+    "seoDescription": {
+      "text": "Project-configured preaction valve assemblies in DN{n0} to DN{n1}, with flanged and grooved connection options, factory model references and OEM support.",
+      "numbers": [
+        "100",
+        "250"
+      ]
+    }
+  },
+  "shared": {
+    "dN100DN250": "DN100–DN250",
+    "dN1004InDN1506InDN2008": "DN100 / 4 in; DN150 / 6 in; DN200 / 8 in; DN250 / 10 in",
+    "dN1004In": "DN100 / 4 in",
+    "value570Mm": "570 mm",
+    "zSFY100": "ZSFY100",
+    "dN1506In": "DN150 / 6 in",
+    "value665Mm": "665 mm",
+    "zSFY150": "ZSFY150",
+    "value690Mm": "690 mm",
+    "dN2008In": "DN200 / 8 in",
+    "value825Mm": "825 mm",
+    "zSFY200": "ZSFY200",
+    "value865Mm": "865 mm",
+    "dN25010In": "DN250 / 10 in",
+    "value1000Mm": "1000 mm",
+    "zSFY250": "ZSFY250",
+    "value590Mm": "590 mm",
+    "zSFY100G": "ZSFY100(G)",
+    "value740Mm": "740 mm",
+    "zSFY150G": "ZSFY150(G)",
+    "value905Mm": "905 mm",
+    "zSFY200G": "ZSFY200(G)"
+  },
+  "models": [
+    [
+      "preactionValveAssembly",
+      "dN1004In",
+      "flanged",
+      "value570Mm",
+      "zSFY100"
+    ],
+    [
+      "preactionValveAssemblyStandardDesign",
+      "dN1506In",
+      "flanged",
+      "value665Mm",
+      "zSFY150"
+    ],
+    [
+      "preactionValveAssemblyCurrentDesign",
+      "dN1506In",
+      "flanged",
+      "value690Mm",
+      "zSFY150"
+    ],
+    [
+      "preactionValveAssemblyStandardDesign",
+      "dN2008In",
+      "flanged",
+      "value825Mm",
+      "zSFY200"
+    ],
+    [
+      "preactionValveAssemblyCurrentDesign",
+      "dN2008In",
+      "flanged",
+      "value865Mm",
+      "zSFY200"
+    ],
+    [
+      "preactionValveAssembly",
+      "dN25010In",
+      "flanged",
+      "value1000Mm",
+      "zSFY250"
+    ],
+    [
+      "groovedPreactionValveAssembly",
+      "dN1004In",
+      "grooved",
+      "value590Mm",
+      "zSFY100G"
+    ],
+    [
+      "groovedPreactionValveAssembly",
+      "dN1506In",
+      "grooved",
+      "value740Mm",
+      "zSFY150G"
+    ],
+    [
+      "groovedPreactionValveAssembly",
+      "dN2008In",
+      "grooved",
+      "value905Mm",
+      "zSFY200G"
+    ]
+  ]
+}
