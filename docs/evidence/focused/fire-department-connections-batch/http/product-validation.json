@@ -1,0 +1,254 @@
+{
+  "scope": "product-batch",
+  "products": [
+    "freestanding-above-ground-fdcs",
+    "alternative-freestanding-fdc-configurations",
+    "underground-fdc-assemblies",
+    "wall-mounted-grooved-fdc-families"
+  ],
+  "previewMode": "http",
+  "generatedAt": "2026-09-05T21:57:46.821Z",
+  "browser": "Edg/152.0.4191.62",
+  "viewports": [
+    {
+      "id": "desktop",
+      "width": 1440,
+      "height": 900,
+      "deviceScaleFactor": 1,
+      "mobile": false
+    },
+    {
+      "id": "mobile",
+      "width": 390,
+      "height": 844,
+      "deviceScaleFactor": 1,
+      "mobile": true
+    }
+  ],
+  "validations": [
+    {
+      "slug": "freestanding-above-ground-fdcs",
+      "languageSwitches": [
+        {
+          "scenario": "desktop/en: freestanding-above-ground-fdcs image/text category entries, reciprocal switch, refresh, single hero image zoom, three modal closes and footer returns",
+          "status": "PASS"
+        },
+        {
+          "scenario": "desktop/ar: freestanding-above-ground-fdcs image/text category entries, reciprocal switch, refresh, single hero image zoom, three modal closes and footer returns",
+          "status": "PASS"
+        },
+        {
+          "scenario": "mobile/en: freestanding-above-ground-fdcs image/text category entries, reciprocal switch, refresh, single hero image zoom, three modal closes and footer returns",
+          "status": "PASS"
+        },
+        {
+          "scenario": "mobile/ar: freestanding-above-ground-fdcs image/text category entries, reciprocal switch, refresh, single hero image zoom, three modal closes and footer returns",
+          "status": "PASS"
+        }
+      ],
+      "screenshots": [
+        "edge-desktop-freestanding-above-ground-fdcs-en-hero.png",
+        "edge-desktop-freestanding-above-ground-fdcs-en-details.png",
+        "edge-desktop-freestanding-above-ground-fdcs-ar-hero.png",
+        "edge-desktop-freestanding-above-ground-fdcs-ar-details.png",
+        "edge-mobile-freestanding-above-ground-fdcs-en-hero.png",
+        "edge-mobile-freestanding-above-ground-fdcs-en-details.png",
+        "edge-mobile-freestanding-above-ground-fdcs-ar-hero.png",
+        "edge-mobile-freestanding-above-ground-fdcs-ar-details.png"
+      ]
+    },
+    {
+      "slug": "alternative-freestanding-fdc-configurations",
+      "languageSwitches": [
+        {
+          "scenario": "desktop/en: alternative-freestanding-fdc-configurations image/text category entries, reciprocal switch, refresh, single hero image zoom, three modal closes and footer returns",
+          "status": "PASS"
+        },
+        {
+          "scenario": "desktop/ar: alternative-freestanding-fdc-configurations image/text category entries, reciprocal switch, refresh, single hero image zoom, three modal closes and footer returns",
+          "status": "PASS"
+        },
+        {
+          "scenario": "mobile/en: alternative-freestanding-fdc-configurations image/text category entries, reciprocal switch, refresh, single hero image zoom, three modal closes and footer returns",
+          "status": "PASS"
+        },
+        {
+          "scenario": "mobile/ar: alternative-freestanding-fdc-configurations image/text category entries, reciprocal switch, refresh, single hero image zoom, three modal closes and footer returns",
+          "status": "PASS"
+        }
+      ],
+      "screenshots": [
+        "edge-desktop-alternative-freestanding-fdc-configurations-en-hero.png",
+        "edge-desktop-alternative-freestanding-fdc-configurations-en-details.png",
+        "edge-desktop-alternative-freestanding-fdc-configurations-ar-hero.png",
+        "edge-desktop-alternative-freestanding-fdc-configurations-ar-details.png",
+        "edge-mobile-alternative-freestanding-fdc-configurations-en-hero.png",
+        "edge-mobile-alternative-freestanding-fdc-configurations-en-details.png",
+        "edge-mobile-alternative-freestanding-fdc-configurations-ar-hero.png",
+        "edge-mobile-alternative-freestanding-fdc-configurations-ar-details.png"
+      ]
+    },
+    {
+      "slug": "underground-fdc-assemblies",
+      "languageSwitches": [
+        {
+          "scenario": "desktop/en: underground-fdc-assemblies image/text category entries, reciprocal switch, refresh, single hero image zoom, three modal closes and footer returns",
+          "status": "PASS"
+        },
+        {
+          "scenario": "desktop/ar: underground-fdc-assemblies image/text category entries, reciprocal switch, refresh, single hero image zoom, three modal closes and footer returns",
+          "status": "PASS"
+        },
+        {
+          "scenario": "mobile/en: underground-fdc-assemblies image/text category entries, reciprocal switch, refresh, single hero image zoom, three modal closes and footer returns",
+          "status": "PASS"
+        },
+        {
+          "scenario": "mobile/ar: underground-fdc-assemblies image/text category entries, reciprocal switch, refresh, single hero image zoom, three modal closes and footer returns",
+          "status": "PASS"
+        }
+      ],
+      "screenshots": [
+        "edge-desktop-underground-fdc-assemblies-en-hero.png",
+        "edge-desktop-underground-fdc-assemblies-en-details.png",
+        "edge-desktop-underground-fdc-assemblies-ar-hero.png",
+        "edge-desktop-underground-fdc-assemblies-ar-details.png",
+        "edge-mobile-underground-fdc-assemblies-en-hero.png",
+        "edge-mobile-underground-fdc-assemblies-en-details.png",
+        "edge-mobile-underground-fdc-assemblies-ar-hero.png",
+        "edge-mobile-underground-fdc-assemblies-ar-details.png"
+      ]
+    },
+    {
+      "slug": "wall-mounted-grooved-fdc-families",
+      "languageSwitches": [
+        {
+          "scenario": "desktop/en: wall-mounted-grooved-fdc-families image/text category entries, reciprocal switch, refresh, single hero image zoom, three modal closes and footer returns",
+          "status": "PASS"
+        },
+        {
+          "scenario": "desktop/ar: wall-mounted-grooved-fdc-families image/text category entries, reciprocal switch, refresh, single hero image zoom, three modal closes and footer returns",
+          "status": "PASS"
+        },
+        {
+          "scenario": "mobile/en: wall-mounted-grooved-fdc-families image/text category entries, reciprocal switch, refresh, single hero image zoom, three modal closes and footer returns",
+          "status": "PASS"
+        },
+        {
+          "scenario": "mobile/ar: wall-mounted-grooved-fdc-families image/text category entries, reciprocal switch, refresh, single hero image zoom, three modal closes and footer returns",
+          "status": "PASS"
+        }
+      ],
+      "screenshots": [
+        "edge-desktop-wall-mounted-grooved-fdc-families-en-hero.png",
+        "edge-desktop-wall-mounted-grooved-fdc-families-en-details.png",
+        "edge-desktop-wall-mounted-grooved-fdc-families-ar-hero.png",
+        "edge-desktop-wall-mounted-grooved-fdc-families-ar-details.png",
+        "edge-mobile-wall-mounted-grooved-fdc-families-en-hero.png",
+        "edge-mobile-wall-mounted-grooved-fdc-families-en-details.png",
+        "edge-mobile-wall-mounted-grooved-fdc-families-ar-hero.png",
+        "edge-mobile-wall-mounted-grooved-fdc-families-ar-details.png"
+      ]
+    }
+  ],
+  "languageSwitches": [
+    {
+      "scenario": "desktop/en: freestanding-above-ground-fdcs image/text category entries, reciprocal switch, refresh, single hero image zoom, three modal closes and footer returns",
+      "status": "PASS"
+    },
+    {
+      "scenario": "desktop/ar: freestanding-above-ground-fdcs image/text category entries, reciprocal switch, refresh, single hero image zoom, three modal closes and footer returns",
+      "status": "PASS"
+    },
+    {
+      "scenario": "mobile/en: freestanding-above-ground-fdcs image/text category entries, reciprocal switch, refresh, single hero image zoom, three modal closes and footer returns",
+      "status": "PASS"
+    },
+    {
+      "scenario": "mobile/ar: freestanding-above-ground-fdcs image/text category entries, reciprocal switch, refresh, single hero image zoom, three modal closes and footer returns",
+      "status": "PASS"
+    },
+    {
+      "scenario": "desktop/en: alternative-freestanding-fdc-configurations image/text category entries, reciprocal switch, refresh, single hero image zoom, three modal closes and footer returns",
+      "status": "PASS"
+    },
+    {
+      "scenario": "desktop/ar: alternative-freestanding-fdc-configurations image/text category entries, reciprocal switch, refresh, single hero image zoom, three modal closes and footer returns",
+      "status": "PASS"
+    },
+    {
+      "scenario": "mobile/en: alternative-freestanding-fdc-configurations image/text category entries, reciprocal switch, refresh, single hero image zoom, three modal closes and footer returns",
+      "status": "PASS"
+    },
+    {
+      "scenario": "mobile/ar: alternative-freestanding-fdc-configurations image/text category entries, reciprocal switch, refresh, single hero image zoom, three modal closes and footer returns",
+      "status": "PASS"
+    },
+    {
+      "scenario": "desktop/en: underground-fdc-assemblies image/text category entries, reciprocal switch, refresh, single hero image zoom, three modal closes and footer returns",
+      "status": "PASS"
+    },
+    {
+      "scenario": "desktop/ar: underground-fdc-assemblies image/text category entries, reciprocal switch, refresh, single hero image zoom, three modal closes and footer returns",
+      "status": "PASS"
+    },
+    {
+      "scenario": "mobile/en: underground-fdc-assemblies image/text category entries, reciprocal switch, refresh, single hero image zoom, three modal closes and footer returns",
+      "status": "PASS"
+    },
+    {
+      "scenario": "mobile/ar: underground-fdc-assemblies image/text category entries, reciprocal switch, refresh, single hero image zoom, three modal closes and footer returns",
+      "status": "PASS"
+    },
+    {
+      "scenario": "desktop/en: wall-mounted-grooved-fdc-families image/text category entries, reciprocal switch, refresh, single hero image zoom, three modal closes and footer returns",
+      "status": "PASS"
+    },
+    {
+      "scenario": "desktop/ar: wall-mounted-grooved-fdc-families image/text category entries, reciprocal switch, refresh, single hero image zoom, three modal closes and footer returns",
+      "status": "PASS"
+    },
+    {
+      "scenario": "mobile/en: wall-mounted-grooved-fdc-families image/text category entries, reciprocal switch, refresh, single hero image zoom, three modal closes and footer returns",
+      "status": "PASS"
+    },
+    {
+      "scenario": "mobile/ar: wall-mounted-grooved-fdc-families image/text category entries, reciprocal switch, refresh, single hero image zoom, three modal closes and footer returns",
+      "status": "PASS"
+    }
+  ],
+  "screenshots": [
+    "edge-desktop-freestanding-above-ground-fdcs-en-hero.png",
+    "edge-desktop-freestanding-above-ground-fdcs-en-details.png",
+    "edge-desktop-freestanding-above-ground-fdcs-ar-hero.png",
+    "edge-desktop-freestanding-above-ground-fdcs-ar-details.png",
+    "edge-mobile-freestanding-above-ground-fdcs-en-hero.png",
+    "edge-mobile-freestanding-above-ground-fdcs-en-details.png",
+    "edge-mobile-freestanding-above-ground-fdcs-ar-hero.png",
+    "edge-mobile-freestanding-above-ground-fdcs-ar-details.png",
+    "edge-desktop-alternative-freestanding-fdc-configurations-en-hero.png",
+    "edge-desktop-alternative-freestanding-fdc-configurations-en-details.png",
+    "edge-desktop-alternative-freestanding-fdc-configurations-ar-hero.png",
+    "edge-desktop-alternative-freestanding-fdc-configurations-ar-details.png",
+    "edge-mobile-alternative-freestanding-fdc-configurations-en-hero.png",
+    "edge-mobile-alternative-freestanding-fdc-configurations-en-details.png",
+    "edge-mobile-alternative-freestanding-fdc-configurations-ar-hero.png",
+    "edge-mobile-alternative-freestanding-fdc-configurations-ar-details.png",
+    "edge-desktop-underground-fdc-assemblies-en-hero.png",
+    "edge-desktop-underground-fdc-assemblies-en-details.png",
+    "edge-desktop-underground-fdc-assemblies-ar-hero.png",
+    "edge-desktop-underground-fdc-assemblies-ar-details.png",
+    "edge-mobile-underground-fdc-assemblies-en-hero.png",
+    "edge-mobile-underground-fdc-assemblies-en-details.png",
+    "edge-mobile-underground-fdc-assemblies-ar-hero.png",
+    "edge-mobile-underground-fdc-assemblies-ar-details.png",
+    "edge-desktop-wall-mounted-grooved-fdc-families-en-hero.png",
+    "edge-desktop-wall-mounted-grooved-fdc-families-en-details.png",
+    "edge-desktop-wall-mounted-grooved-fdc-families-ar-hero.png",
+    "edge-desktop-wall-mounted-grooved-fdc-families-ar-details.png",
+    "edge-mobile-wall-mounted-grooved-fdc-families-en-hero.png",
+    "edge-mobile-wall-mounted-grooved-fdc-families-en-details.png",
+    "edge-mobile-wall-mounted-grooved-fdc-families-ar-hero.png",
+    "edge-mobile-wall-mounted-grooved-fdc-families-ar-details.png"
+  ]
+}

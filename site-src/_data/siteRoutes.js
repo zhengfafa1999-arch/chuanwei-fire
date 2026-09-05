@@ -67,7 +67,11 @@ export const SITE_ROUTES = {
   "product:layflat-fire-hoses": { kind: "product", category: "category:hoses-nozzles-couplings", locales: { en: published("products/消防水枪/layflat-fire-hoses.html"), ar: published("ar/products/layflat-fire-hoses/index.html") } },
   "product:kd-hose-couplings": { kind: "product", category: "category:hoses-nozzles-couplings", locales: { en: published("products/消防水枪/kd-hose-couplings.html"), ar: published("ar/products/kd-hose-couplings/index.html") } },
   "product:kn-threaded-adapters": { kind: "product", category: "category:hoses-nozzles-couplings", locales: { en: published("products/消防水枪/kn-threaded-adapters.html"), ar: published("ar/products/kn-threaded-adapters/index.html") } },
-  "product:matched-hose-assemblies": { kind: "product", category: "category:hoses-nozzles-couplings", locales: { en: published("products/消防水枪/matched-hose-assemblies.html"), ar: published("ar/products/matched-hose-assemblies/index.html") } }
+  "product:matched-hose-assemblies": { kind: "product", category: "category:hoses-nozzles-couplings", locales: { en: published("products/消防水枪/matched-hose-assemblies.html"), ar: published("ar/products/matched-hose-assemblies/index.html") } },
+  "product:freestanding-above-ground-fdcs": { kind: "product", category: "category:fire-department-connections", locales: { en: published("products/消防水泵接合器/freestanding-above-ground-fdcs.html"), ar: published("ar/products/freestanding-above-ground-fdcs/index.html") } },
+  "product:alternative-freestanding-fdc-configurations": { kind: "product", category: "category:fire-department-connections", locales: { en: published("products/消防水泵接合器/alternative-freestanding-fdc-configurations.html"), ar: published("ar/products/alternative-freestanding-fdc-configurations/index.html") } },
+  "product:underground-fdc-assemblies": { kind: "product", category: "category:fire-department-connections", locales: { en: published("products/消防水泵接合器/underground-fdc-assemblies.html"), ar: published("ar/products/underground-fdc-assemblies/index.html") } },
+  "product:wall-mounted-grooved-fdc-families": { kind: "product", category: "category:fire-department-connections", locales: { en: published("products/消防水泵接合器/wall-mounted-grooved-fdc-families.html"), ar: published("ar/products/wall-mounted-grooved-fdc-families/index.html") } }
 };
 
 function canonicalFor(outputPath) {

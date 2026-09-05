@@ -17,8 +17,10 @@ function escaped(value) {
   return value.replaceAll("&", "&amp;").replaceAll("<", "&lt;").replaceAll(">", "&gt;");
 }
 
-const family = PRODUCT_FAMILIES.find(item => item.routeId === "category:hoses-nozzles-couplings");
 for (const product of products) {
+  const familyRouteId = SITE_ROUTES[product.routeId]?.category;
+  const family = PRODUCT_FAMILIES.find(item => item.routeId === familyRouteId);
+  assert(family, `${product.id}: missing registered product family`);
   const listing = family.products.find(item => item.routeId === product.routeId);
   assert(listing, `${product.id}: missing category entry`);
   assert(SITE_ROUTES[product.routeId]?.category === family.routeId, `${product.id}: wrong route category`);

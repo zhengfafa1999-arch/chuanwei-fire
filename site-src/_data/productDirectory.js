@@ -163,10 +163,10 @@ export const PRODUCT_FAMILIES = [
     description: text("Fire-service water inlet assemblies organized by installation arrangement and system-side connection.", "مجموعات إدخال مياه خدمة الإطفاء مرتبة حسب طريقة التركيب والتوصيل من جهة النظام."),
     image: "products/消防水泵接合器/消防水泵接合器主图.jpg",
     products: [
-      [null, "Freestanding Above-Ground FDCs", "وصلات FDC أرضية فوق سطح الأرض", "products/消防水泵接合器/消防水泵接合器主图.jpg"],
-      [null, "Alternative Freestanding Configurations", "تكوينات أرضية بديلة", "products/消防水泵接合器/DSC_5714.jpg"],
-      [null, "Underground FDC Assemblies", "مجموعات FDC تحت الأرض", "products/消防水泵接合器/DSC_5705.jpg"],
-      [null, "Wall-Mounted & Grooved Families", "فئات جدارية ومحززة", "products/消防水泵接合器/DSC_5709.jpg"]
+      ["product:freestanding-above-ground-fdcs", "Freestanding Above-Ground FDCs", "وصلات FDC أرضية فوق سطح الأرض", "products/消防水泵接合器/消防水泵接合器主图.jpg"],
+      ["product:alternative-freestanding-fdc-configurations", "Alternative Freestanding Configurations", "تكوينات أرضية بديلة", "products/消防水泵接合器/DSC_5714.jpg"],
+      ["product:underground-fdc-assemblies", "Underground FDC Assemblies", "مجموعات FDC تحت الأرض", "products/消防水泵接合器/DSC_5705.jpg"],
+      ["product:wall-mounted-grooved-fdc-families", "Wall-Mounted & Grooved Families", "فئات جدارية ومحززة", "products/消防水泵接合器/DSC_5709.jpg"]
     ]
   }
 ].map((family) => ({

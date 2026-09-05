@@ -282,6 +282,30 @@ for (const locale of SUPPORTED_LOCALES) {
 }
 console.log("Hose/nozzle/coupling category validation passed: five families, ten localized cards and twenty matching entries.");
 
+// MIG-802: all four current fire department connection families are localized.
+const fdcIds = [
+  "product:freestanding-above-ground-fdcs", "product:alternative-freestanding-fdc-configurations",
+  "product:underground-fdc-assemblies", "product:wall-mounted-grooved-fdc-families"
+];
+const fdcFamily = PRODUCT_FAMILIES.find(family => family.routeId === "category:fire-department-connections");
+assert(JSON.stringify(fdcFamily.products.map(product => product.routeId)) === JSON.stringify(fdcIds),
+  "FDC category must retain its four current families and their order.");
+for (const locale of SUPPORTED_LOCALES) {
+  const { html, route } = validateListingShell(fdcFamily.routeId, locale);
+  const cards = [...html.matchAll(/<article class="product-card">([\s\S]*?)<\/article>/g)].map(match => match[1]);
+  assert(cards.length === fdcIds.length, "FDC category card count changed.");
+  fdcIds.forEach((routeId, index) => {
+    assert(SITE_ROUTES[routeId].locales[locale].status === "published", `${routeId}/${locale} must not fall back.`);
+    assert(SITE_ROUTES[routeId].category === fdcFamily.routeId, `${routeId}: wrong parent category.`);
+    const href = resolveSiteRoute(routeId, locale, route.outputPath).href;
+    const links = [...cards[index].matchAll(/<a\b[^>]*href="([^"]+)"/g)].map(match => match[1]);
+    assert(links.length === 2 && links.every(link => link === href), `${routeId}/${locale}: mismatched image/text entry.`);
+    assert(cards[index].includes("product-card__badge--localized") && !cards[index].includes("product-card__badge--english"),
+      `${routeId}/${locale}: stale fallback badge.`);
+  });
+}
+console.log("FDC category validation passed: four families, eight localized cards and sixteen matching entries.");
+
 assert(sitemap.includes("GENERATED FILE"), "Sitemap is not generated from the shared route registry.");
 for (const [routeId, route] of Object.entries(SITE_ROUTES)) {
   for (const locale of SUPPORTED_LOCALES) {
