@@ -2,7 +2,7 @@ import fs from "node:fs";
 import path from "node:path";
 import { SITE_ROUTES } from "../site-src/_data/siteRoutes.js";
 
-export async function validateStandardResponse({client, origin, viewports, evaluate, navigate, waitForLocation, inspectPage, assert, evidenceDirectory, routeId = "product:standard-response-fire-sprinkler", slug = "standard-response", imageCount = 4, neutralCaptions = {}, modelTableRows}) {
+export async function validateStandardResponse({client, origin, viewports, evaluate, navigate, waitForLocation, inspectPage, assert, evidenceDirectory, routeId = "product:standard-response-fire-sprinkler", slug = "standard-response", imageCount = 4, neutralCaptions = {}, modelTableRows, anchors}) {
   const routePath = (id, locale) => `/${SITE_ROUTES[id].locales[locale].outputPath}`;
   const results = [], screenshots = [];
   for (const viewport of viewports) {
@@ -99,7 +99,7 @@ export async function validateStandardResponse({client, origin, viewports, evalu
         fs.writeFileSync(path.join(evidenceDirectory, name), Buffer.from(shot.data,"base64"));
         screenshots.push(name);
       }
-      for (const anchor of imageCount > 0 ? ["gallery", "models"] : ["models"]) {
+      for (const anchor of anchors ?? (imageCount > 0 ? ["gallery", "models"] : ["models"])) {
         // Exercise the real anchor link while disabling animation in the test page.
         // File URLs can defer long smooth scrolls even after location.hash changes.
         await evaluate(client, `(() => {

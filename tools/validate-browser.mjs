@@ -315,13 +315,17 @@ async function run() {
 
     if (focusedProduct) {
       const focusedGallery = focusedProduct.gallery ?? [];
-      const focusedModelRows = focusedProduct.modelGroups?.map(group => group.length)
-        ?? (focusedProduct.models ? [focusedProduct.models.length] : undefined);
+      const focusedModelRows = focusedProduct.showModels === false ? undefined
+        : focusedProduct.modelGroups?.map(group => group.length)
+          ?? (focusedProduct.models ? [focusedProduct.models.length] : undefined);
+      const focusedAnchors = focusedProduct.showModels === false
+        ? (focusedGallery.length ? ['gallery', 'specifications'] : ['specifications'])
+        : undefined;
       const result = await validateStandardResponse({
         client, origin, viewports, evaluate, navigate, waitForLocation, inspectPage, assert, evidenceDirectory,
         routeId: focusedProduct.routeId, slug: focusedSlug, imageCount: focusedGallery.length,
         neutralCaptions: Object.fromEntries(focusedGallery.flatMap((item, index) => Object.hasOwn(focusedProduct.shared, item.caption) ? [[index, focusedProduct.shared[item.caption]]] : [])),
-        modelTableRows: focusedModelRows
+        modelTableRows: focusedModelRows, anchors: focusedAnchors
       });
       const evidence = {
         scope: 'single-product', product: focusedSlug,

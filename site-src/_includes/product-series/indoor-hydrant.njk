@@ -1,4 +1,4 @@
-<nav class="pdp-section-navigation" aria-label="{{ entry.text.onThisPage }}"><div class="pdp-section-navigation__links"><a href="#gallery">{{ entry.text.productViews }}</a><a href="#specifications">{{ entry.text.specifications }}</a><a href="#models">{{ entry.text.availableModels }}</a><a href="#oem">{{ entry.text.oEMODM }}</a></div></nav>
+<nav class="pdp-section-navigation" aria-label="{{ entry.text.onThisPage }}"><div class="pdp-section-navigation__links">{% for link in entry.product.sectionLinks %}<a href="#{{ link[0] }}">{{ entry.text[link[1]] }}</a>{% endfor %}</div></nav>
 
 <main>
     <section class="pdp-hero">
@@ -8,7 +8,7 @@
           <h1>{{ entry.text[entry.product.textKeys.title] }}</h1>
           <p class="pdp-lead">{{ entry.text[entry.product.textKeys.lead] }}</p>
           <div class="pdp-chips">{% for chip in entry.product.chips %}<span>{{ entry.text[chip] }}</span>{% endfor %}</div>
-          <div class="pdp-actions"><a class="pdp-btn" href="{{ entry.product.inquiry.whatsapp }}" target="_blank" rel="noopener">{{ entry.text.askOnWhatsApp }}</a><a class="pdp-btn pdp-btn--ghost" href="#models">{{ entry.text.viewAvailableModels }}</a></div>
+          <div class="pdp-actions"><a class="pdp-btn" href="{{ entry.product.inquiry.whatsapp }}" target="_blank" rel="noopener">{{ entry.text.askOnWhatsApp }}</a><a class="pdp-btn pdp-btn--ghost" href="#{{ entry.product.secondaryAction.anchor }}">{{ entry.text[entry.product.secondaryAction.label] }}</a></div>
           <p class="pdp-note">{{ entry.text[entry.product.textKeys.note] }}</p>
         </div>
         <button class="pdp-hero__image" type="button" data-lightbox="{{ entry.media.hero }}" aria-label="{{ entry.text[entry.product.textKeys.imageAria] }}"><img src="{{ entry.media.hero }}" alt="{{ entry.text[entry.product.textKeys.imageAlt] }}" width="{{ entry.product.hero.width }}" height="{{ entry.product.hero.height }}"></button>
@@ -45,7 +45,7 @@
       </div>
     </section>
 
-    <section class="pdp-section pdp-section--soft" id="models">
+    {%- if entry.product.showModels %}<section class="pdp-section pdp-section--soft" id="models">
       <div class="pdp-container">
         <div class="pdp-heading"><div><p class="pdp-eyebrow">{{ entry.text.availableModels }}</p><h2>{{ entry.text[entry.product.textKeys.modelTitle] }}</h2></div><p>{{ entry.text[entry.product.textKeys.modelIntro] }}</p></div>
         <div class="pdp-table-wrap"><table class="pdp-table"><thead><tr>{% for header in entry.product.modelHeaders %}<th>{{ entry.text[header] }}</th>{% endfor %}</tr></thead><tbody>
@@ -53,7 +53,7 @@
         </tbody></table></div>
         <p class="pdp-options-note">{{ entry.text[entry.product.textKeys.optionsNote] }}</p>
       </div>
-    </section>
+    </section>{% endif -%}
 
     <section class="pdp-section" id="oem">
       <div class="pdp-container pdp-oem">

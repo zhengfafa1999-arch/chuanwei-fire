@@ -1,0 +1,51 @@
+{
+  "scope": "single-product",
+  "product": "export-slanted-hydrant-valve",
+  "previewMode": "http",
+  "generatedAt": "2026-09-05T18:53:52.440Z",
+  "browser": "Edg/152.0.4191.62",
+  "viewports": [
+    {
+      "id": "desktop",
+      "width": 1440,
+      "height": 900,
+      "deviceScaleFactor": 1,
+      "mobile": false
+    },
+    {
+      "id": "mobile",
+      "width": 390,
+      "height": 844,
+      "deviceScaleFactor": 1,
+      "mobile": true
+    }
+  ],
+  "languageSwitches": [
+    {
+      "scenario": "desktop/en: export-slanted-hydrant-valve image/text category entries, reciprocal switch, refresh, 2-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+      "status": "PASS"
+    },
+    {
+      "scenario": "desktop/ar: export-slanted-hydrant-valve image/text category entries, reciprocal switch, refresh, 2-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+      "status": "PASS"
+    },
+    {
+      "scenario": "mobile/en: export-slanted-hydrant-valve image/text category entries, reciprocal switch, refresh, 2-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+      "status": "PASS"
+    },
+    {
+      "scenario": "mobile/ar: export-slanted-hydrant-valve image/text category entries, reciprocal switch, refresh, 2-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+      "status": "PASS"
+    }
+  ],
+  "screenshots": [
+    "edge-desktop-export-slanted-hydrant-valve-en-gallery.png",
+    "edge-desktop-export-slanted-hydrant-valve-en-specifications.png",
+    "edge-desktop-export-slanted-hydrant-valve-ar-gallery.png",
+    "edge-desktop-export-slanted-hydrant-valve-ar-specifications.png",
+    "edge-mobile-export-slanted-hydrant-valve-en-gallery.png",
+    "edge-mobile-export-slanted-hydrant-valve-en-specifications.png",
+    "edge-mobile-export-slanted-hydrant-valve-ar-gallery.png",
+    "edge-mobile-export-slanted-hydrant-valve-ar-specifications.png"
+  ]
+}

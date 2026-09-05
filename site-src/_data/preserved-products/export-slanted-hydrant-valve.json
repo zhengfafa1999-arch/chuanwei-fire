@@ -1,0 +1,524 @@
+{
+  "id": "export-slanted-hydrant-valve",
+  "routeId": "product:export-slanted-hydrant-valve",
+  "template": "product-series/indoor-hydrant.njk",
+  "source": {
+    "path": "products/室内消防栓/export-slanted-hydrant-valve.html",
+    "revision": "73a3a5b",
+    "status": "preserved-existing-content-not-reaudited"
+  },
+  "media": {
+    "hero": "products/室内消防栓/export-slanted-hydrant-valve/export-slanted-front.jpg",
+    "image1": "products/室内消防栓/export-slanted-hydrant-valve/export-slanted-front.jpg",
+    "image2": "products/室内消防栓/export-slanted-hydrant-valve/export-slanted-threequarter.jpg"
+  },
+  "hero": {
+    "width": 1254,
+    "height": 1254
+  },
+  "sectionLinks": [
+    [
+      "gallery",
+      "productViews"
+    ],
+    [
+      "specifications",
+      "specifications"
+    ],
+    [
+      "oem",
+      "oEMODM"
+    ]
+  ],
+  "secondaryAction": {
+    "anchor": "specifications",
+    "label": "viewSpecifications"
+  },
+  "showModels": false,
+  "textKeys": {
+    "eyebrow": "exportFireHydrantValve",
+    "title": "exportSlantedSingleOutletHydrantValve",
+    "lead": "slantedHydrantLead",
+    "note": "outletCouplingDestinationStandard",
+    "imageAria": "enlargeSlantedHydrantValveImage",
+    "imageAlt": "slanted45HydrantBS336",
+    "galleryTitle": "frontAndThreeQuarterViews",
+    "galleryIntro": "photographsShowSlantedOutlet",
+    "sideTitle": "selectionAndConnection",
+    "manufacturingNote": "manufacturingOptionsConfirmedAgainstBuyerSchedule",
+    "ctaTitle": "sendYourHydrantValveSchedule",
+    "ctaText": "includeOutletCouplingQuantityDestination",
+    "modalAlt": "enlargedSlantedHydrantValve"
+  },
+  "chips": [
+    "dN65TwoHalfIn",
+    "outlet45",
+    "pressure16",
+    "bS336Coupling"
+  ],
+  "gallery": [
+    {
+      "media": "image1",
+      "alt": "slantedHydrantValveFrontView",
+      "caption": "frontView",
+      "thumbAlt": "frontViewThumbnail",
+      "label": "front"
+    },
+    {
+      "media": "image2",
+      "alt": "slantedHydrantValveThreeQuarterView",
+      "caption": "threeQuarterView",
+      "thumbAlt": "threeQuarterViewThumbnail",
+      "label": "threeQuarterLabel"
+    }
+  ],
+  "specifications": [
+    [
+      "productType",
+      "exportSlantedSingleOutletHydrantValve"
+    ],
+    [
+      "commonName",
+      "slantedAngleHydrantValve"
+    ],
+    [
+      "nominalSize",
+      "dN65TwoHalfIn"
+    ],
+    [
+      "inlet",
+      "bspMaleBottom"
+    ],
+    [
+      "outlet",
+      "bS336QuickOtherCouplings"
+    ],
+    [
+      "outletAngle",
+      "degree45"
+    ],
+    [
+      "workingPressure",
+      "pressureFull"
+    ],
+    [
+      "strengthTestPressure",
+      "strength24"
+    ],
+    [
+      "sealTestPressure",
+      "seal176"
+    ],
+    [
+      "bodyCover",
+      "ductileIronQT"
+    ],
+    [
+      "stem",
+      "leadBrass"
+    ],
+    [
+      "handwheel",
+      "castIron"
+    ],
+    [
+      "seal",
+      "nBR"
+    ],
+    [
+      "dimensions",
+      "dimensionsValue"
+    ],
+    [
+      "installation",
+      "verticalBottomIndoor"
+    ]
+  ],
+  "disclaimers": [
+    [
+      "outletCoupling",
+      "bS336StandardAlternatives"
+    ],
+    [
+      "application",
+      "indoorCabinetNotOutdoor"
+    ],
+    [
+      "installationData",
+      "installedVerticallyBottomInlet"
+    ]
+  ],
+  "modelHeaders": [],
+  "models": [],
+  "oemCards": [
+    [
+      "outletCoupling",
+      "couplingsProducedToConfirmedDrawing"
+    ],
+    [
+      "brandPresentation",
+      "customProductMarkingNameplateColor"
+    ],
+    [
+      "connectionReview",
+      "inletThreadOutletCouplingReviewed"
+    ],
+    [
+      "exportPacking",
+      "cartonOrWoodenCasePacking"
+    ]
+  ],
+  "inquiry": {
+    "whatsapp": "https://wa.me/8617326528368?text=Hello%2C%20I%20need%20a%20quotation%20for%20a%20Slanted%20Single-Outlet%20Hydrant%20Valve%20(SNW65-III).%20Outlet%20coupling%3A%20%5BBS336%2Fother%5D%2C%20quantity%3A%20%5Bpcs%5D%2C%20destination%3A%20%5Bcountry%5D.",
+    "email": "mailto:zhengcolin1@gmail.com?subject=Slanted%20Hydrant%20Valve%20Inquiry"
+  },
+  "copy": {
+    "specifications": {
+      "text": "Specifications",
+      "numbers": []
+    },
+    "oEMODM": {
+      "text": "OEM / ODM",
+      "numbers": []
+    },
+    "onThisPage": {
+      "text": "On this page",
+      "numbers": []
+    },
+    "productViews": {
+      "text": "Product views",
+      "numbers": []
+    },
+    "exportFireHydrantValve": {
+      "text": "Export Fire Hydrant Valve",
+      "numbers": []
+    },
+    "exportSlantedSingleOutletHydrantValve": {
+      "text": "Export Slanted Single-Outlet Hydrant Valve",
+      "numbers": []
+    },
+    "slantedHydrantLead": {
+      "text": "A {n0}° slanted single-outlet fire hydrant valve for building riser and hydrant-cabinet systems, with a BS{n1} outlet coupling for international fire-hose connection. Bottom BSP inlet connects to the fire-water riser.",
+      "numbers": [
+        "45",
+        "336"
+      ]
+    },
+    "askOnWhatsApp": {
+      "text": "Ask on WhatsApp",
+      "numbers": []
+    },
+    "viewSpecifications": {
+      "text": "View specifications",
+      "numbers": []
+    },
+    "outletCouplingDestinationStandard": {
+      "text": "Outlet coupling is produced to the confirmed standard for the destination market (BS{n0}, NH, Storz or other, per drawing).",
+      "numbers": [
+        "336"
+      ]
+    },
+    "enlargeSlantedHydrantValveImage": {
+      "text": "Enlarge slanted hydrant valve image",
+      "numbers": []
+    },
+    "slanted45HydrantBS336": {
+      "text": "{n0} degree slanted single-outlet fire hydrant valve with BS{n1} coupling",
+      "numbers": [
+        "45",
+        "336"
+      ]
+    },
+    "realProductViews": {
+      "text": "Real product views",
+      "numbers": []
+    },
+    "frontAndThreeQuarterViews": {
+      "text": "Front and three-quarter views",
+      "numbers": []
+    },
+    "photographsShowSlantedOutlet": {
+      "text": "Photographs show the {n0}° slanted outlet, black handwheel, red ductile-iron body and outlet coupling. The visible physical GUANYA / 冠亚 product markings are retained; CHUANWEI FIRE identifies the website and export-sales presentation.",
+      "numbers": [
+        "45"
+      ]
+    },
+    "enlargeSelectedProductImage": {
+      "text": "Enlarge selected product image",
+      "numbers": []
+    },
+    "previousProductImage": {
+      "text": "Previous product image",
+      "numbers": []
+    },
+    "nextProductImage": {
+      "text": "Next product image",
+      "numbers": []
+    },
+    "productImageThumbnails": {
+      "text": "Product image thumbnails",
+      "numbers": []
+    },
+    "slantedHydrantValveFrontView": {
+      "text": "Slanted hydrant valve front view",
+      "numbers": []
+    },
+    "frontView": {
+      "text": "Front view",
+      "numbers": []
+    },
+    "frontViewThumbnail": {
+      "text": "Front view thumbnail",
+      "numbers": []
+    },
+    "front": {
+      "text": "Front",
+      "numbers": []
+    },
+    "slantedHydrantValveThreeQuarterView": {
+      "text": "Slanted hydrant valve three-quarter view",
+      "numbers": []
+    },
+    "threeQuarterView": {
+      "text": "Three-quarter view",
+      "numbers": []
+    },
+    "threeQuarterViewThumbnail": {
+      "text": "Three-quarter view thumbnail",
+      "numbers": []
+    },
+    "threeQuarterLabel": {
+      "text": "¾ View",
+      "numbers": []
+    },
+    "seriesSpecifications": {
+      "text": "Series specifications",
+      "numbers": []
+    },
+    "productType": {
+      "text": "Product type",
+      "numbers": []
+    },
+    "commonName": {
+      "text": "Common name",
+      "numbers": []
+    },
+    "slantedAngleHydrantValve": {
+      "text": "Slanted hydrant valve / angle hydrant valve",
+      "numbers": []
+    },
+    "nominalSize": {
+      "text": "Nominal size",
+      "numbers": []
+    },
+    "inlet": {
+      "text": "Inlet",
+      "numbers": []
+    },
+    "outlet": {
+      "text": "Outlet",
+      "numbers": []
+    },
+    "bS336QuickOtherCouplings": {
+      "text": "BS{n0} quick coupling — confirmed; other couplings per market",
+      "numbers": [
+        "336"
+      ]
+    },
+    "outletAngle": {
+      "text": "Outlet angle",
+      "numbers": []
+    },
+    "workingPressure": {
+      "text": "Working pressure",
+      "numbers": []
+    },
+    "strengthTestPressure": {
+      "text": "Strength test pressure",
+      "numbers": []
+    },
+    "sealTestPressure": {
+      "text": "Seal test pressure",
+      "numbers": []
+    },
+    "bodyCover": {
+      "text": "Body & cover",
+      "numbers": []
+    },
+    "stem": {
+      "text": "Stem",
+      "numbers": []
+    },
+    "handwheel": {
+      "text": "Handwheel",
+      "numbers": []
+    },
+    "castIron": {
+      "text": "Cast iron",
+      "numbers": []
+    },
+    "seal": {
+      "text": "Seal",
+      "numbers": []
+    },
+    "nBR": {
+      "text": "NBR (nitrile rubber)",
+      "numbers": []
+    },
+    "dimensions": {
+      "text": "Dimensions",
+      "numbers": []
+    },
+    "installation": {
+      "text": "Installation",
+      "numbers": []
+    },
+    "verticalBottomIndoor": {
+      "text": "Vertical, bottom connection to building riser; indoor application",
+      "numbers": []
+    },
+    "selectionAndConnection": {
+      "text": "Selection & connection",
+      "numbers": []
+    },
+    "outletCoupling": {
+      "text": "Outlet coupling",
+      "numbers": []
+    },
+    "bS336StandardAlternatives": {
+      "text": "BS{n0} is supplied as standard; NH, Storz or other couplings are produced to the confirmed requirement for the destination market.",
+      "numbers": [
+        "336"
+      ]
+    },
+    "application": {
+      "text": "Application",
+      "numbers": []
+    },
+    "indoorCabinetNotOutdoor": {
+      "text": "For indoor hydrant cabinets and building fire-water risers; not recommended for outdoor exposure.",
+      "numbers": []
+    },
+    "installationData": {
+      "text": "Installation data",
+      "numbers": []
+    },
+    "installedVerticallyBottomInlet": {
+      "text": "Installed vertically with the bottom inlet connected to the fire-water riser, per the approved design.",
+      "numbers": []
+    },
+    "oEMODMCapability": {
+      "text": "OEM / ODM capability",
+      "numbers": []
+    },
+    "configuredToTheApprovedDrawingOrSample": {
+      "text": "Configured to the approved drawing or sample",
+      "numbers": []
+    },
+    "manufacturingOptionsConfirmedAgainstBuyerSchedule": {
+      "text": "Manufacturing options are confirmed against the buyer's technical schedule. Connection-standard names describe available machining patterns and do not imply third-party product approval.",
+      "numbers": []
+    },
+    "couplingsProducedToConfirmedDrawing": {
+      "text": "BS{n0}, NH, Storz or other couplings produced to the confirmed standard or drawing.",
+      "numbers": [
+        "336"
+      ]
+    },
+    "brandPresentation": {
+      "text": "Brand presentation",
+      "numbers": []
+    },
+    "customProductMarkingNameplateColor": {
+      "text": "Custom product marking, nameplate and coating color.",
+      "numbers": []
+    },
+    "connectionReview": {
+      "text": "Connection review",
+      "numbers": []
+    },
+    "inletThreadOutletCouplingReviewed": {
+      "text": "Inlet thread and outlet coupling details reviewed before manufacturing.",
+      "numbers": []
+    },
+    "exportPacking": {
+      "text": "Export packing",
+      "numbers": []
+    },
+    "cartonOrWoodenCasePacking": {
+      "text": "Carton or wooden-case packing prepared according to the order.",
+      "numbers": []
+    },
+    "sendYourHydrantValveSchedule": {
+      "text": "Send your hydrant valve schedule",
+      "numbers": []
+    },
+    "includeOutletCouplingQuantityDestination": {
+      "text": "Include outlet coupling, quantity and destination country.",
+      "numbers": []
+    },
+    "whatsAppInquiry": {
+      "text": "WhatsApp inquiry",
+      "numbers": []
+    },
+    "emailSales": {
+      "text": "Email sales",
+      "numbers": []
+    },
+    "productImagePreview": {
+      "text": "Product image preview",
+      "numbers": []
+    },
+    "closeImagePreview": {
+      "text": "Close image preview",
+      "numbers": []
+    },
+    "enlargedSlantedHydrantValve": {
+      "text": "Enlarged slanted hydrant valve",
+      "numbers": []
+    },
+    "whatsAppChat": {
+      "text": "WhatsApp Chat",
+      "numbers": []
+    },
+    "facebookPage": {
+      "text": "Facebook Page",
+      "numbers": []
+    },
+    "linkedInProfile": {
+      "text": "LinkedIn Profile",
+      "numbers": []
+    },
+    "seoTitle": {
+      "text": "Export Slanted Single-Outlet Hydrant Valve | DN{n0}, SNW{n1}-III | CHUANWEI FIRE",
+      "numbers": [
+        "65",
+        "65"
+      ]
+    },
+    "seoDescription": {
+      "text": "Export slanted single-outlet fire hydrant valve (SNW{n0}-III), DN{n1}, {n2}° outlet with BS{n3} coupling, {n4} MPa, ductile iron body. OEM/ODM support.",
+      "numbers": [
+        "65",
+        "65",
+        "45",
+        "336",
+        "1.6"
+      ]
+    }
+  },
+  "shared": {
+    "dN65TwoHalfIn": "DN65 / 2½ in",
+    "outlet45": "45° outlet",
+    "pressure16": "1.6 MPa / 16 bar",
+    "bS336Coupling": "BS336 coupling",
+    "bspMaleBottom": "2½ in BSP male (bottom)",
+    "degree45": "45°",
+    "pressureFull": "1.6 MPa / 16 bar / approx. 232 psi",
+    "strength24": "2.4 MPa",
+    "seal176": "1.76 MPa",
+    "ductileIronQT": "Ductile iron QT450-10",
+    "leadBrass": "HPb59-1 lead brass",
+    "dimensionsValue": "Height ≈ 170 mm; length ≈ 250 mm; width ≈ 200 mm"
+  }
+}

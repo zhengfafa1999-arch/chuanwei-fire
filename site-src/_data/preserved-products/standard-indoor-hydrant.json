@@ -21,6 +21,14 @@
     "width": 1254,
     "height": 1254
   },
+  "sectionLinks": [
+    ["gallery", "productViews"],
+    ["specifications", "specifications"],
+    ["models", "availableModels"],
+    ["oem", "oEMODM"]
+  ],
+  "secondaryAction": {"anchor": "models", "label": "viewAvailableModels"},
+  "showModels": true,
   "textKeys": {
     "eyebrow": "indoorFireWaterOutlet",
     "title": "standardIndoorFireHydrant",
