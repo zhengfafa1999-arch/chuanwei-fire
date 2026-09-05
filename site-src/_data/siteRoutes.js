@@ -50,7 +50,7 @@ export const SITE_ROUTES = {
   "product:wafer-supervisory-butterfly-valves": { kind: "product", category: "category:butterfly-valves", locales: { en: published("products/消防蝶阀/wafer-supervisory-butterfly-valves.html"), ar: published("ar/products/wafer-supervisory-butterfly-valves/index.html") } },
 
   "product:flanged-supervisory-gate-valves": { kind: "product", category: "category:gate-valves", locales: { en: published("products/消防阀门/flanged-supervisory-gate-valves.html"), ar: published("ar/products/flanged-supervisory-gate-valves/index.html") } },
-  "product:grooved-supervisory-gate-valves": { kind: "product", category: "category:gate-valves", locales: { en: published("products/消防阀门/grooved-supervisory-gate-valves.html"), ar: fallback("ar/products/gate-valves/index.html") } },
+  "product:grooved-supervisory-gate-valves": { kind: "product", category: "category:gate-valves", locales: { en: published("products/消防阀门/grooved-supervisory-gate-valves.html"), ar: published("ar/products/grooved-supervisory-gate-valves/index.html") } },
   "product:nrs-gate-valves": { kind: "product", category: "category:gate-valves", locales: { en: published("products/消防阀门/nrs-gate-valves.html"), ar: fallback("ar/products/gate-valves/index.html") } },
   "product:osy-gate-valves": { kind: "product", category: "category:gate-valves", locales: { en: published("products/消防阀门/osy-gate-valves.html"), ar: fallback("ar/products/gate-valves/index.html") } },
 
