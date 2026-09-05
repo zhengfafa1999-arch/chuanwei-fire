@@ -1,0 +1,159 @@
+{
+  "scope": "single-category",
+  "category": "gate-valves",
+  "previewMode": "http",
+  "generatedAt": "2026-09-05T18:18:24.823Z",
+  "browser": "Edg/152.0.4191.62",
+  "viewports": [
+    {
+      "id": "desktop",
+      "width": 1440,
+      "height": 900,
+      "deviceScaleFactor": 1,
+      "mobile": false
+    },
+    {
+      "id": "mobile",
+      "width": 390,
+      "height": 844,
+      "deviceScaleFactor": 1,
+      "mobile": true
+    }
+  ],
+  "languageSwitches": [
+    {
+      "scenario": "desktop/en: home and directory entries, category reciprocal switch and refresh",
+      "status": "PASS"
+    },
+    {
+      "scenario": "desktop/en: product:flanged-supervisory-gate-valves image/text entries, back, reciprocal switch, refresh and three footer returns",
+      "status": "PASS",
+      "viewport": "desktop",
+      "locale": "en",
+      "routeId": "product:flanged-supervisory-gate-valves"
+    },
+    {
+      "scenario": "desktop/en: product:grooved-supervisory-gate-valves image/text entries, back, reciprocal switch, refresh and three footer returns",
+      "status": "PASS",
+      "viewport": "desktop",
+      "locale": "en",
+      "routeId": "product:grooved-supervisory-gate-valves"
+    },
+    {
+      "scenario": "desktop/en: product:nrs-gate-valves image/text entries, back, reciprocal switch, refresh and three footer returns",
+      "status": "PASS",
+      "viewport": "desktop",
+      "locale": "en",
+      "routeId": "product:nrs-gate-valves"
+    },
+    {
+      "scenario": "desktop/en: product:osy-gate-valves image/text entries, back, reciprocal switch, refresh and three footer returns",
+      "status": "PASS",
+      "viewport": "desktop",
+      "locale": "en",
+      "routeId": "product:osy-gate-valves"
+    },
+    {
+      "scenario": "desktop/ar: home and directory entries, category reciprocal switch and refresh",
+      "status": "PASS"
+    },
+    {
+      "scenario": "desktop/ar: product:flanged-supervisory-gate-valves image/text entries, back, reciprocal switch, refresh and three footer returns",
+      "status": "PASS",
+      "viewport": "desktop",
+      "locale": "ar",
+      "routeId": "product:flanged-supervisory-gate-valves"
+    },
+    {
+      "scenario": "desktop/ar: product:grooved-supervisory-gate-valves image/text entries, back, reciprocal switch, refresh and three footer returns",
+      "status": "PASS",
+      "viewport": "desktop",
+      "locale": "ar",
+      "routeId": "product:grooved-supervisory-gate-valves"
+    },
+    {
+      "scenario": "desktop/ar: product:nrs-gate-valves image/text entries, back, reciprocal switch, refresh and three footer returns",
+      "status": "PASS",
+      "viewport": "desktop",
+      "locale": "ar",
+      "routeId": "product:nrs-gate-valves"
+    },
+    {
+      "scenario": "desktop/ar: product:osy-gate-valves image/text entries, back, reciprocal switch, refresh and three footer returns",
+      "status": "PASS",
+      "viewport": "desktop",
+      "locale": "ar",
+      "routeId": "product:osy-gate-valves"
+    },
+    {
+      "scenario": "mobile/en: home and directory entries, category reciprocal switch and refresh",
+      "status": "PASS"
+    },
+    {
+      "scenario": "mobile/en: product:flanged-supervisory-gate-valves image/text entries, back, reciprocal switch, refresh and three footer returns",
+      "status": "PASS",
+      "viewport": "mobile",
+      "locale": "en",
+      "routeId": "product:flanged-supervisory-gate-valves"
+    },
+    {
+      "scenario": "mobile/en: product:grooved-supervisory-gate-valves image/text entries, back, reciprocal switch, refresh and three footer returns",
+      "status": "PASS",
+      "viewport": "mobile",
+      "locale": "en",
+      "routeId": "product:grooved-supervisory-gate-valves"
+    },
+    {
+      "scenario": "mobile/en: product:nrs-gate-valves image/text entries, back, reciprocal switch, refresh and three footer returns",
+      "status": "PASS",
+      "viewport": "mobile",
+      "locale": "en",
+      "routeId": "product:nrs-gate-valves"
+    },
+    {
+      "scenario": "mobile/en: product:osy-gate-valves image/text entries, back, reciprocal switch, refresh and three footer returns",
+      "status": "PASS",
+      "viewport": "mobile",
+      "locale": "en",
+      "routeId": "product:osy-gate-valves"
+    },
+    {
+      "scenario": "mobile/ar: home and directory entries, category reciprocal switch and refresh",
+      "status": "PASS"
+    },
+    {
+      "scenario": "mobile/ar: product:flanged-supervisory-gate-valves image/text entries, back, reciprocal switch, refresh and three footer returns",
+      "status": "PASS",
+      "viewport": "mobile",
+      "locale": "ar",
+      "routeId": "product:flanged-supervisory-gate-valves"
+    },
+    {
+      "scenario": "mobile/ar: product:grooved-supervisory-gate-valves image/text entries, back, reciprocal switch, refresh and three footer returns",
+      "status": "PASS",
+      "viewport": "mobile",
+      "locale": "ar",
+      "routeId": "product:grooved-supervisory-gate-valves"
+    },
+    {
+      "scenario": "mobile/ar: product:nrs-gate-valves image/text entries, back, reciprocal switch, refresh and three footer returns",
+      "status": "PASS",
+      "viewport": "mobile",
+      "locale": "ar",
+      "routeId": "product:nrs-gate-valves"
+    },
+    {
+      "scenario": "mobile/ar: product:osy-gate-valves image/text entries, back, reciprocal switch, refresh and three footer returns",
+      "status": "PASS",
+      "viewport": "mobile",
+      "locale": "ar",
+      "routeId": "product:osy-gate-valves"
+    }
+  ],
+  "screenshots": [
+    "edge-desktop-gate-valves-en.png",
+    "edge-desktop-gate-valves-ar.png",
+    "edge-mobile-gate-valves-en.png",
+    "edge-mobile-gate-valves-ar.png"
+  ]
+}

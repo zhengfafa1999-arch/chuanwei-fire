@@ -90,7 +90,7 @@
 - [x] **MIG-502 沟槽信号闸阀**：保留英文原文、6 行型号、单张主图和原版式；复用闸阀共享模板生成英阿详情，文件/HTTP 单款语言、分类、主图放大和手机布局验收通过。报告：`docs/execution/2026-09-06_grooved-supervisory-gate-valve-language-migration.md`。
 - [x] **MIG-503 暗杆闸阀（NRS）**：保留英文原文、12 行型号、单张主图和原版式；扩展闸阀模板的数据化标题/表头并生成英阿详情，文件/HTTP 单款语言、分类、主图放大和手机布局验收通过。报告：`docs/execution/2026-09-06_nrs-gate-valve-language-migration.md`。
 - [x] **MIG-504 明杆闸阀（OS&Y）**：保留英文原文、5 行型号、单张主图和原版式；复用闸阀共享模板生成英阿详情，文件/HTTP 单款语言、分类、主图放大和手机布局验收通过。报告：`docs/execution/2026-09-06_osy-gate-valve-language-migration.md`。
-- [ ] **MIG-505 消防闸阀分类页**：迁移 `products/消防阀门.html`。
+- [x] **MIG-505 消防闸阀分类页**：四款闸阀的英阿图片/文字入口、语言互切、刷新、返回和桌面/手机布局均通过文件与 HTTP 分类定向验收，无英文回退。报告：`docs/execution/2026-09-06_gate-valve-category-language-closeout.md`。
 
 ## 第七阶段：室内消火栓
 
