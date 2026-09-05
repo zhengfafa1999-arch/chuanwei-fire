@@ -320,7 +320,7 @@ async function run() {
           ?? (focusedProduct.models ? [focusedProduct.models.length] : undefined);
       const focusedModelSection = focusedProduct.template === 'product-series/outdoor-hydrant.njk' ? 'configuration' : 'models';
       const focusedAnchors = focusedProduct.template === 'product-series/outdoor-hydrant.njk'
-        ? ['gallery', 'configuration']
+        ? ['gallery', 'configuration', ...(focusedProduct.layout === 'options' ? ['options'] : [])]
         : focusedProduct.showModels === false
         ? (focusedGallery.length ? ['gallery', 'specifications'] : ['specifications'])
         : undefined;

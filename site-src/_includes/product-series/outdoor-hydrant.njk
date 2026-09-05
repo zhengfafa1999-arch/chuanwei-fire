@@ -32,7 +32,29 @@
       </div>
     </section>
 
-    <section class="pdp-section pdp-section--soft" id="specifications">
+{% if entry.product.layout == "options" %}    <section class="pdp-section pdp-section--soft" id="configuration">
+      <div class="pdp-container">
+        <div class="pdp-heading"><div><p class="pdp-eyebrow">{{ entry.text.configuration }}</p><h2>{{ entry.text[entry.product.textKeys.configurationTitle] }}</h2></div><p>{{ entry.text[entry.product.textKeys.configurationIntro] }}</p></div>
+        <div class="pdp-table-wrap"><table class="pdp-table"><thead><tr>{% for header in entry.product.configurationHeaders %}<th>{{ entry.text[header] }}</th>{% endfor %}</tr></thead><tbody>
+          {% for row in entry.product.models %}<tr>{% for cell in row %}<td{% if entry.lang == 'ar' %} dir="auto"{% endif %}>{{ entry.text[cell] }}</td>{% endfor %}</tr>{% endfor %}
+        </tbody></table></div>
+      </div>
+    </section>
+
+    <section class="pdp-section" id="options">
+      <div class="pdp-container">
+        <div class="pdp-heading"><div><p class="pdp-eyebrow">{{ entry.text.availableOptions }}</p><h2>{{ entry.text[entry.product.textKeys.optionsTitle] }}</h2></div><p>{{ entry.text[entry.product.textKeys.optionsIntro] }}</p></div>
+        <div class="pdp-spec-layout">
+          <div class="pdp-panel"><h3>{{ entry.text.selectableOptions }}</h3><dl class="pdp-specs">
+            {% for item in entry.product.specifications %}<div><dt>{{ entry.text[item[0]] }}</dt><dd>{{ entry.text[item[1]] }}</dd></div>{% endfor %}
+          </dl></div>
+          <aside class="pdp-panel"><h3>{{ entry.text[entry.product.textKeys.sideTitle] }}</h3>
+            {% for item in entry.product.disclaimers %}<div class="pdp-disclaimer"><strong>{{ entry.text[item[0]] }}</strong>{{ entry.text[item[1]] }}</div>{% endfor %}
+          </aside>
+        </div>
+      </div>
+    </section>
+{% else %}    <section class="pdp-section pdp-section--soft" id="specifications">
       <div class="pdp-container">
         <div class="pdp-spec-layout">
           <div class="pdp-panel"><h3>{{ entry.text.seriesSpecifications }}</h3><dl class="pdp-specs">
@@ -52,7 +74,7 @@
           {% for row in entry.product.models %}<tr>{% for cell in row %}<td{% if entry.lang == 'ar' %} dir="auto"{% endif %}>{{ entry.text[cell] }}</td>{% endfor %}</tr>{% endfor %}
         </tbody></table></div>
       </div>
-    </section>
+    </section>{% endif %}
 
     <section class="pdp-cta" id="inquiry"><div class="pdp-container pdp-cta__in"><div><h2>{{ entry.text[entry.product.textKeys.ctaTitle] }}</h2><p>{{ entry.text[entry.product.textKeys.ctaText] }}</p></div><div class="pdp-actions"><a class="pdp-btn" href="{{ entry.product.inquiry.whatsapp }}" target="_blank" rel="noopener">{{ entry.text.whatsAppInquiry }}</a><a class="pdp-btn pdp-btn--ghost" href="{{ entry.product.inquiry.email }}">{{ entry.text.emailSales }}</a></div></div></section>
   </main>

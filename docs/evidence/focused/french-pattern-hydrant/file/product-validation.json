@@ -1,0 +1,55 @@
+{
+  "scope": "single-product",
+  "product": "french-pattern-hydrant",
+  "previewMode": "file",
+  "generatedAt": "2026-09-05T20:23:43.489Z",
+  "browser": "Edg/152.0.4191.62",
+  "viewports": [
+    {
+      "id": "desktop",
+      "width": 1440,
+      "height": 900,
+      "deviceScaleFactor": 1,
+      "mobile": false
+    },
+    {
+      "id": "mobile",
+      "width": 390,
+      "height": 844,
+      "deviceScaleFactor": 1,
+      "mobile": true
+    }
+  ],
+  "languageSwitches": [
+    {
+      "scenario": "desktop/en: french-pattern-hydrant image/text category entries, reciprocal switch, refresh, 2-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+      "status": "PASS"
+    },
+    {
+      "scenario": "desktop/ar: french-pattern-hydrant image/text category entries, reciprocal switch, refresh, 2-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+      "status": "PASS"
+    },
+    {
+      "scenario": "mobile/en: french-pattern-hydrant image/text category entries, reciprocal switch, refresh, 2-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+      "status": "PASS"
+    },
+    {
+      "scenario": "mobile/ar: french-pattern-hydrant image/text category entries, reciprocal switch, refresh, 2-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+      "status": "PASS"
+    }
+  ],
+  "screenshots": [
+    "edge-desktop-french-pattern-hydrant-en-gallery.png",
+    "edge-desktop-french-pattern-hydrant-en-configuration.png",
+    "edge-desktop-french-pattern-hydrant-en-options.png",
+    "edge-desktop-french-pattern-hydrant-ar-gallery.png",
+    "edge-desktop-french-pattern-hydrant-ar-configuration.png",
+    "edge-desktop-french-pattern-hydrant-ar-options.png",
+    "edge-mobile-french-pattern-hydrant-en-gallery.png",
+    "edge-mobile-french-pattern-hydrant-en-configuration.png",
+    "edge-mobile-french-pattern-hydrant-en-options.png",
+    "edge-mobile-french-pattern-hydrant-ar-gallery.png",
+    "edge-mobile-french-pattern-hydrant-ar-configuration.png",
+    "edge-mobile-french-pattern-hydrant-ar-options.png"
+  ]
+}

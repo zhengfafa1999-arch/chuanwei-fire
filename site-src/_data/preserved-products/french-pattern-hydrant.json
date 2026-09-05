@@ -1,0 +1,91 @@
+{
+  "id": "french-pattern-hydrant",
+  "routeId": "product:french-pattern-hydrant",
+  "template": "product-series/outdoor-hydrant.njk",
+  "layout": "options",
+  "source": { "path": "products/室外消防栓/french-pattern-hydrant.html", "revision": "66e7306", "status": "preserved-existing-content-not-reaudited" },
+  "media": {
+    "hero": "products/室外消防栓/global-series/french-dry-barrel-hydrant.jpg",
+    "front": "products/室外消防栓/global-series/french-dry-barrel-hydrant.jpg",
+    "rear": "products/室外消防栓/global-series/french-dry-barrel-rear.jpg"
+  },
+  "hero": { "width": 1179, "height": 1184 },
+  "sectionLinks": [["gallery", "productViews"], ["configuration", "configuration"], ["options", "options"], ["inquiry", "inquiry"]],
+  "secondaryAction": { "anchor": "configuration", "label": "viewConfiguration" },
+  "textKeys": {
+    "eyebrow": "dryBarrelPillarFireHydrant", "title": "frenchPatternDryBarrelHydrant", "lead": "dryBarrelLead",
+    "note": "exactConnectionsConfirmed", "imageAria": "enlargeFrenchHydrantImage", "imageAlt": "frenchPatternDryBarrelPillar",
+    "galleryTitle": "frontAndRearAngle", "galleryIntro": "photographsShowFrenchArrangement",
+    "configurationTitle": "dryBarrelColdClimateArrangement", "configurationIntro": "dryBarrelConfigurationIntro",
+    "optionsTitle": "configureHydrantToMarket", "optionsIntro": "optionsReviewedAgainstDrawing", "sideTitle": "customization",
+    "ctaTitle": "sendYourHydrantSpecification", "ctaText": "includeQuotationPressure", "modalAlt": "enlargedFrenchHydrant"
+  },
+  "chips": ["dryBarrel", "en14384Basis", "frenchInterfaces"],
+  "gallery": [
+    { "media": "front", "alt": "frenchFrontView", "caption": "frontView", "thumbAlt": "frontViewThumbnail", "label": "front" },
+    { "media": "rear", "alt": "frenchRearView", "caption": "rearView", "thumbAlt": "rearViewThumbnail", "label": "rear" }
+  ],
+  "configurationHeaders": ["field", "value"],
+  "models": [
+    ["quotationReference", "cwFrDb3"], ["barrel", "dryBarrelDescription"], ["outlets", "twoSideOneFront"],
+    ["inletConnection", "lowerFlangedElbow"], ["marketBasis", "en14384FrenchInterfaces"]
+  ],
+  "specifications": [
+    ["outletInterface", "frenchSymmetricOrCustom"], ["inletConnection", "lowerElbowVerticalOrProjectFlange"],
+    ["operation", "frenchOperationPerDrawing"], ["appearanceMarking", "colorLetteringNameplateLogo"]
+  ],
+  "disclaimers": [["drawingBasedReview", "interfacesConfirmedFromDrawing"], ["standardsNote", "standardsAreReferences"]],
+  "inquiry": {
+    "whatsapp": "https://wa.me/8617326528368?text=Hello%2C%20I%20need%20a%20quotation%20for%20a%20French-Pattern%20Dry-Barrel%20Hydrant.%20Quotation%20ref%3A%20CW-FR-DB-3%2C%20inlet%2Foutlet%3A%20%5Bdetails%5D%2C%20quantity%3A%20%5Bpcs%5D%2C%20destination%3A%20%5Bcountry%5D.",
+    "email": "mailto:zhengcolin1@gmail.com?subject=French%20Hydrant%20Inquiry"
+  },
+  "copy": {
+    "onThisPage":{"text":"On this page","numbers":[]}, "productViews":{"text":"Product views","numbers":[]},
+    "configuration":{"text":"Configuration","numbers":[]}, "options":{"text":"Options","numbers":[]}, "inquiry":{"text":"Inquiry","numbers":[]},
+    "dryBarrelPillarFireHydrant":{"text":"Dry-Barrel Pillar Fire Hydrant","numbers":[]},
+    "frenchPatternDryBarrelHydrant":{"text":"French-Pattern Dry-Barrel Hydrant","numbers":[]},
+    "dryBarrelLead":{"text":"A dry-barrel pillar configuration with the main valve below the frost line and a drainable upper barrel, for freezing climates. French operating and symmetric-coupling details require drawing confirmation.","numbers":[]},
+    "dryBarrel":{"text":"Dry barrel","numbers":[]}, "frenchInterfaces":{"text":"French interfaces","numbers":[]},
+    "askOnWhatsApp":{"text":"Ask on WhatsApp","numbers":[]}, "viewConfiguration":{"text":"View configuration","numbers":[]},
+    "exactConnectionsConfirmed":{"text":"Exact inlet, outlets, pressure, flange drilling and operating key are confirmed from the approved buyer drawing before quotation.","numbers":[]},
+    "enlargeFrenchHydrantImage":{"text":"Enlarge French dry barrel hydrant image","numbers":[]},
+    "frenchPatternDryBarrelPillar":{"text":"French-pattern dry barrel pillar fire hydrant","numbers":[]},
+    "frontAndRearAngle":{"text":"Front and rear angle","numbers":[]},
+    "photographsShowFrenchArrangement":{"text":"Photographs show the dry-barrel pillar and French outlet arrangement. The visible physical GUANYA / 冠亚 product markings are retained; CHUANWEI FIRE identifies the website and export-sales presentation.","numbers":[]},
+    "enlargeSelectedProductImage":{"text":"Enlarge selected product image","numbers":[]}, "previousProductImage":{"text":"Previous product image","numbers":[]},
+    "nextProductImage":{"text":"Next product image","numbers":[]}, "productImageThumbnails":{"text":"Product image thumbnails","numbers":[]},
+    "frenchFrontView":{"text":"French dry barrel hydrant front view","numbers":[]}, "frontView":{"text":"Front view","numbers":[]},
+    "frontViewThumbnail":{"text":"Front view thumbnail","numbers":[]}, "front":{"text":"Front","numbers":[]},
+    "frenchRearView":{"text":"French dry barrel hydrant rear view","numbers":[]}, "rearView":{"text":"Rear view","numbers":[]},
+    "rearViewThumbnail":{"text":"Rear view thumbnail","numbers":[]}, "rear":{"text":"Rear","numbers":[]},
+    "dryBarrelColdClimateArrangement":{"text":"Dry-barrel cold-climate arrangement","numbers":[]},
+    "dryBarrelConfigurationIntro":{"text":"Dry-barrel hydrants keep the water column below the frost line and drain the upper barrel. The reference below identifies this photographed configuration for quotation.","numbers":[]},
+    "field":{"text":"Field","numbers":[]}, "value":{"text":"Value","numbers":[]}, "quotationReference":{"text":"Quotation reference","numbers":[]},
+    "barrel":{"text":"Barrel","numbers":[]}, "dryBarrelDescription":{"text":"Dry barrel (main valve below frost line, drainable upper barrel)","numbers":[]},
+    "outlets":{"text":"Outlets","numbers":[]}, "twoSideOneFront":{"text":"Two side outlets + one front outlet","numbers":[]},
+    "inletConnection":{"text":"Inlet connection","numbers":[]}, "lowerFlangedElbow":{"text":"Lower flanged elbow","numbers":[]},
+    "marketBasis":{"text":"Market basis","numbers":[]},
+    "availableOptions":{"text":"Available options","numbers":[]}, "configureHydrantToMarket":{"text":"Configure the hydrant to your market","numbers":[]},
+    "optionsReviewedAgainstDrawing":{"text":"Options are reviewed against the approved drawing or order schedule. Standards named here are specification references for project review, not certification claims.","numbers":[]},
+    "selectableOptions":{"text":"Selectable options","numbers":[]}, "outletInterface":{"text":"Outlet interface","numbers":[]},
+    "frenchSymmetricOrCustom":{"text":"French symmetric coupling pattern, or approved custom coupling per drawing","numbers":[]},
+    "lowerElbowVerticalOrProjectFlange":{"text":"Lower flanged elbow, vertical flanged base, or project mating flange","numbers":[]},
+    "operation":{"text":"Operation","numbers":[]}, "frenchOperationPerDrawing":{"text":"French operating arrangement per drawing","numbers":[]},
+    "appearanceMarking":{"text":"Appearance & marking","numbers":[]}, "colorLetteringNameplateLogo":{"text":"Coating color, cast lettering, nameplate language, customer logo","numbers":[]},
+    "customization":{"text":"Customization","numbers":[]}, "drawingBasedReview":{"text":"Drawing-based review","numbers":[]},
+    "interfacesConfirmedFromDrawing":{"text":"Inlet and outlet interfaces, flange drilling, pressure class and operating key are confirmed from the approved drawing.","numbers":[]},
+    "standardsNote":{"text":"Standards note","numbers":[]}, "standardsAreReferences":{"text":"Standards named on this page are specification references for project review, not certification claims.","numbers":[]},
+    "sendYourHydrantSpecification":{"text":"Send your hydrant specification","numbers":[]},
+    "includeQuotationPressure":{"text":"Include quotation reference, inlet/outlet sizes, pressure class, flange or coupling drawing, quantity and destination.","numbers":[]},
+    "whatsAppInquiry":{"text":"WhatsApp inquiry","numbers":[]}, "emailSales":{"text":"Email sales","numbers":[]},
+    "productImagePreview":{"text":"Product image preview","numbers":[]}, "closeImagePreview":{"text":"Close image preview","numbers":[]},
+    "enlargedFrenchHydrant":{"text":"Enlarged French dry barrel hydrant","numbers":[]}, "whatsAppChat":{"text":"WhatsApp Chat","numbers":[]},
+    "facebookPage":{"text":"Facebook Page","numbers":[]}, "linkedInProfile":{"text":"LinkedIn Profile","numbers":[]},
+    "seoTitle":{"text":"French-Pattern Dry-Barrel Hydrant | CHUANWEI FIRE","numbers":[]},
+    "seoDescription":{"text":"French-pattern dry-barrel pillar fire hydrant for freezing climates, with French symmetric-coupling and operating details configured to the approved drawing.","numbers":[]}
+  },
+  "shared": {
+    "en14384Basis":"EN 14384 basis", "cwFrDb3":"CW-FR-DB-3",
+    "en14384FrenchInterfaces":"EN 14384 basis, French operating and coupling interfaces"
+  }
+}
