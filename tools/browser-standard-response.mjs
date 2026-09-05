@@ -2,8 +2,7 @@ import fs from "node:fs";
 import path from "node:path";
 import { SITE_ROUTES } from "../site-src/_data/siteRoutes.js";
 
-export async function validateStandardResponse({client, origin, viewports, evaluate, navigate, waitForLocation, inspectPage, assert, evidenceDirectory}) {
-  const routeId = "product:standard-response-fire-sprinkler";
+export async function validateStandardResponse({client, origin, viewports, evaluate, navigate, waitForLocation, inspectPage, assert, evidenceDirectory, routeId = "product:standard-response-fire-sprinkler", slug = "standard-response", imageCount = 4}) {
   const routePath = (id, locale) => `/${SITE_ROUTES[id].locales[locale].outputPath}`;
   const results = [], screenshots = [];
   for (const viewport of viewports) {
@@ -37,12 +36,12 @@ export async function validateStandardResponse({client, origin, viewports, evalu
         const thumbs = [...document.querySelectorAll('.pdp-gallery__thumb')], image = document.getElementById('galleryMain');
         const modal = document.getElementById('productModal');
         const initialHeight = image.getBoundingClientRect().height;
-        const checks = [thumbs.length === 4];
+        const checks = [thumbs.length === ${imageCount}];
         const check = index => {
           const thumb = thumbs[index];
           checks.push(image.src === thumb.querySelector('img').src && image.alt === thumb.dataset.galleryAlt &&
             document.getElementById('galleryCaption').textContent === thumb.dataset.galleryTitle &&
-            document.getElementById('galleryCount').textContent.replace(/[\u2066\u2069]/g,'') === (index+1)+' / 4' &&
+            document.getElementById('galleryCount').textContent.replace(/[\u2066\u2069]/g,'') === (index+1)+' / ${imageCount}' &&
             thumbs.filter(t=>t.classList.contains('active')).length === 1 && thumb.classList.contains('active'));
           if (document.dir === 'rtl') checks.push(/[\u0600-\u06ff]/.test(image.alt), /[\u0600-\u06ff]/.test(thumb.dataset.galleryTitle));
         };
@@ -53,10 +52,10 @@ export async function validateStandardResponse({client, origin, viewports, evalu
           checks.push(!modal.classList.contains('open'));
         });
         document.querySelector('.pdp-gallery__arrow--next').click(); check(0);
-        document.querySelector('.pdp-gallery__arrow--prev').click(); check(3);
+        document.querySelector('.pdp-gallery__arrow--prev').click(); check(${imageCount - 1});
         const touch = (name,x)=>{const event=new Event(name);Object.defineProperty(event,'changedTouches',{value:[{clientX:x}]});image.dispatchEvent(event)};
         touch('touchstart',200);touch('touchend',document.dir==='rtl'?300:100);check(0);
-        touch('touchstart',200);touch('touchend',document.dir==='rtl'?100:300);check(3);
+        touch('touchstart',200);touch('touchend',document.dir==='rtl'?100:300);check(${imageCount - 1});
         image.click();modal.querySelector('button').click();checks.push(!modal.classList.contains('open'));
         image.click();modal.click();checks.push(!modal.classList.contains('open'));
         document.querySelector('[data-lightbox]').click();
@@ -83,7 +82,7 @@ export async function validateStandardResponse({client, origin, viewports, evalu
         const state = await inspectPage(client);
         assert(state.brokenImageCount === 0 && state.horizontalOverflow <= 1, "Standard-response layout/image failure");
         const shot = await client.send("Page.captureScreenshot", {format:"png",captureBeyondViewport:false});
-        const name = `edge-${viewport.id}-standard-response-${locale}-${anchor}.png`;
+        const name = `edge-${viewport.id}-${slug}-${locale}-${anchor}.png`;
         fs.writeFileSync(path.join(evidenceDirectory, name), Buffer.from(shot.data,"base64"));
         screenshots.push(name);
       }
@@ -94,7 +93,7 @@ export async function validateStandardResponse({client, origin, viewports, evalu
         await evaluate(client, "history.back()");
         await waitForLocation(client, productPath);
       }
-      results.push({scenario:`${viewport.id}/${locale}: standard-response image/text category entries, reciprocal switch, refresh, four-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns`,status:"PASS"});
+      results.push({scenario:`${viewport.id}/${locale}: ${slug} image/text category entries, reciprocal switch, refresh, ${imageCount}-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns`,status:"PASS"});
     }
   }
   return {results, screenshots};

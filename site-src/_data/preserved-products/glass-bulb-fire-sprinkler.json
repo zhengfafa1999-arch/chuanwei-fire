@@ -1,0 +1,644 @@
+{
+  "id": "glass-bulb-fire-sprinkler",
+  "routeId": "product:glass-bulb-fire-sprinkler",
+  "template": "product-series/quick-response.njk",
+  "styles": [
+    "css/common.css",
+    "css/sprinkler-product.css",
+    "css/sprinkler-product-gallery.css",
+    "css/site-navigation.css"
+  ],
+  "source": {
+    "path": "products/消防喷头/glass-bulb-fire-sprinkler.html",
+    "revision": "34f3267",
+    "status": "preserved-existing-content-not-reaudited"
+  },
+  "media": {
+    "hero": "products/消防喷头/glass-bulb-sprinkler/quick-response-pendent.jpg",
+    "upright": "products/消防喷头/glass-bulb-sprinkler/quick-response-upright.jpg",
+    "sidewall": "products/消防喷头/glass-bulb-sprinkler/quick-response-horizontal-sidewall.jpg",
+    "temperature": "products/消防喷头/glass-bulb-sprinkler/quick-response-temperature-chart-en.jpg",
+    "packing": "products/消防喷头/glass-bulb-sprinkler/quick-response-real-packing.jpg"
+  },
+  "copy": {
+    "productImages": {
+      "text": "Product images",
+      "numbers": []
+    },
+    "specifications": {
+      "text": "Specifications",
+      "numbers": []
+    },
+    "availableModels": {
+      "text": "Available models",
+      "numbers": []
+    },
+    "oEMODM": {
+      "text": "OEM / ODM",
+      "numbers": []
+    },
+    "quickResponseStandardSpray": {
+      "text": "Quick Response · Standard Spray",
+      "numbers": []
+    },
+    "glassBulbFireSprinkler": {
+      "text": "Glass Bulb Fire Sprinkler",
+      "numbers": []
+    },
+    "aQuickResponseSprinklerFamilyForWetPipe": {
+      "text": "A quick-response sprinkler family for wet-pipe automatic sprinkler systems, available in pendent, upright and horizontal sidewall configurations. Select the size, temperature rating, thread and marking required for your market.",
+      "numbers": []
+    },
+    "value3MmGlassBulb": {
+      "text": "{n0} mm Glass Bulb",
+      "numbers": [
+        "3"
+      ]
+    },
+    "value3InstallationStyles": {
+      "text": "{n0} Installation Styles",
+      "numbers": [
+        "3"
+      ]
+    },
+    "askOnWhatsApp": {
+      "text": "Ask on WhatsApp",
+      "numbers": []
+    },
+    "viewAvailableModels": {
+      "text": "View available models",
+      "numbers": []
+    },
+    "factoryReferencesAreShownForOrderMatchingThread": {
+      "text": "Factory references are shown for order matching. Thread form, product marking and documentation are confirmed against the destination market and approved sample.",
+      "numbers": []
+    },
+    "productPresentation": {
+      "text": "Product presentation",
+      "numbers": []
+    },
+    "threeInstallationStylesClearlyShown": {
+      "text": "Three installation styles, clearly shown.",
+      "numbers": []
+    },
+    "useTheArrowsOrThumbnailsToReviewThe": {
+      "text": "Use the arrows or thumbnails to review the pendent, upright and horizontal sidewall configurations, the confirmed temperature-color options and a real packing photo.",
+      "numbers": []
+    },
+    "pendentSprinkler": {
+      "text": "Pendent Sprinkler",
+      "numbers": []
+    },
+    "uprightSprinkler": {
+      "text": "Upright Sprinkler",
+      "numbers": []
+    },
+    "horizontalSidewall": {
+      "text": "Horizontal Sidewall",
+      "numbers": []
+    },
+    "temperatureOptions": {
+      "text": "Temperature Options",
+      "numbers": []
+    },
+    "realPacking": {
+      "text": "Real Packing",
+      "numbers": []
+    },
+    "technicalOverview": {
+      "text": "Technical overview",
+      "numbers": []
+    },
+    "buyerReadySpecifications": {
+      "text": "Buyer-ready specifications",
+      "numbers": []
+    },
+    "internationalNamesAndInchEquivalentsArePresentedFirst": {
+      "text": "International names and inch equivalents are presented first. Domestic factory references remain available only for production and order matching.",
+      "numbers": []
+    },
+    "productSpecifications": {
+      "text": "Product specifications",
+      "numbers": []
+    },
+    "productType": {
+      "text": "Product type",
+      "numbers": []
+    },
+    "quickResponseStandardSpraySprinkler": {
+      "text": "Quick Response Standard Spray Sprinkler",
+      "numbers": []
+    },
+    "installation": {
+      "text": "Installation",
+      "numbers": []
+    },
+    "pendentOrUpright": {
+      "text": "Pendent or Upright",
+      "numbers": []
+    },
+    "nominalSize": {
+      "text": "Nominal size",
+      "numbers": []
+    },
+    "kFactor": {
+      "text": "K-factor",
+      "numbers": []
+    },
+    "k56USK80MetricNominal": {
+      "text": "K{n0} US / K{n1} metric (nominal)",
+      "numbers": [
+        "5.6",
+        "80"
+      ]
+    },
+    "thermalElement": {
+      "text": "Thermal element",
+      "numbers": []
+    },
+    "value3MmGlassBulbText": {
+      "text": "{n0} mm glass bulb",
+      "numbers": [
+        "3"
+      ]
+    },
+    "temperature": {
+      "text": "Temperature",
+      "numbers": []
+    },
+    "systemApplication": {
+      "text": "System application",
+      "numbers": []
+    },
+    "wetPipeAutomaticSprinklerSystems": {
+      "text": "Wet-pipe automatic sprinkler systems",
+      "numbers": []
+    },
+    "frameMaterial": {
+      "text": "Frame material",
+      "numbers": []
+    },
+    "copper": {
+      "text": "Copper",
+      "numbers": []
+    },
+    "surfaceFinish": {
+      "text": "Surface finish",
+      "numbers": []
+    },
+    "chromePlatedOrNaturalCopperFinish": {
+      "text": "Chrome-plated or natural copper finish",
+      "numbers": []
+    },
+    "threadForm": {
+      "text": "Thread form",
+      "numbers": []
+    },
+    "manufacturedToTheConfirmedCustomerDrawingOrApproved": {
+      "text": "Manufactured to the confirmed customer drawing or approved sample",
+      "numbers": []
+    },
+    "maxWorkingPressure": {
+      "text": "Max. working pressure",
+      "numbers": []
+    },
+    "value12MPa12BarApprox175Psi": {
+      "text": "{n0} MPa / {n1} bar / approx. {n2} psi",
+      "numbers": [
+        "1.2",
+        "12",
+        "175"
+      ]
+    },
+    "unitWeight": {
+      "text": "Unit weight",
+      "numbers": []
+    },
+    "approx4580GDependingOnSizeAnd": {
+      "text": "Approx. {n0}–{n1} g, depending on size and configuration",
+      "numbers": [
+        "45",
+        "80"
+      ]
+    },
+    "standardPacking": {
+      "text": "Standard packing",
+      "numbers": []
+    },
+    "value100PcsPerExportCarton": {
+      "text": "{n0} pcs per export carton",
+      "numbers": [
+        "100"
+      ]
+    },
+    "compliance": {
+      "text": "Compliance",
+      "numbers": []
+    },
+    "documentationReviewedAccordingToTheDestinationMarketNo": {
+      "text": "Documentation reviewed according to the destination market; no foreign approval is implied",
+      "numbers": []
+    },
+    "beforeQuotation": {
+      "text": "Before quotation",
+      "numbers": []
+    },
+    "pleaseSpecifyTheseFiveItems": {
+      "text": "Please specify these five items:",
+      "numbers": []
+    },
+    "installationOrientationTemperatureRatingThreadFormRequiredProduct": {
+      "text": "Installation orientation, temperature rating, thread form, required product marking and order quantity.",
+      "numbers": []
+    },
+    "importantEngineeringNote": {
+      "text": "Important engineering note",
+      "numbers": []
+    },
+    "finalSprinklerSelectionSpacingPressureAndInstallationMust": {
+      "text": "Final sprinkler selection, spacing, pressure and installation must follow the approved project design and the technical data for the exact supplied model.",
+      "numbers": []
+    },
+    "availableConfigurations": {
+      "text": "Available configurations",
+      "numbers": []
+    },
+    "modelsYouCanOrder": {
+      "text": "Models you can order",
+      "numbers": []
+    },
+    "theTableDescribesTheBuyerFacingChoicesFactory": {
+      "text": "The table describes the buyer-facing choices. Factory references are retained in the last column so samples, production and repeat orders can be matched accurately.",
+      "numbers": []
+    },
+    "configuration": {
+      "text": "Configuration",
+      "numbers": []
+    },
+    "temperatureOptionsText": {
+      "text": "Temperature options",
+      "numbers": []
+    },
+    "factoryReference": {
+      "text": "Factory reference",
+      "numbers": []
+    },
+    "pendentQuickResponse": {
+      "text": "Pendent, Quick Response",
+      "numbers": []
+    },
+    "deflectorFacingDownward": {
+      "text": "Deflector facing downward",
+      "numbers": []
+    },
+    "k56USK80Metric": {
+      "text": "K{n0} US / K{n1} metric",
+      "numbers": [
+        "5.6",
+        "80"
+      ]
+    },
+    "kZSTX80Series": {
+      "text": "K-ZSTX{n0} series",
+      "numbers": [
+        "80"
+      ]
+    },
+    "uprightQuickResponse": {
+      "text": "Upright, Quick Response",
+      "numbers": []
+    },
+    "deflectorFacingUpward": {
+      "text": "Deflector facing upward",
+      "numbers": []
+    },
+    "kZSTZ80KZSTU80Series": {
+      "text": "K-ZSTZ{n0} / K-ZSTU{n1} series",
+      "numbers": [
+        "80",
+        "80"
+      ]
+    },
+    "horizontalSidewallQuickResponse": {
+      "text": "Horizontal Sidewall, Quick Response",
+      "numbers": []
+    },
+    "sidewallInstallation": {
+      "text": "Sidewall installation",
+      "numbers": []
+    },
+    "kZSTBS80Series": {
+      "text": "K-ZSTBS{n0} series",
+      "numbers": [
+        "80"
+      ]
+    },
+    "k80USK115Metric": {
+      "text": "K{n0} US / K{n1} metric",
+      "numbers": [
+        "8.0",
+        "115"
+      ]
+    },
+    "kZSTX115Series": {
+      "text": "K-ZSTX{n0} series",
+      "numbers": [
+        "115"
+      ]
+    },
+    "kZSTZ115KZSTU115Series": {
+      "text": "K-ZSTZ{n0} / K-ZSTU{n1} series",
+      "numbers": [
+        "115",
+        "115"
+      ]
+    },
+    "kZSTBS115Series": {
+      "text": "K-ZSTBS{n0} series",
+      "numbers": [
+        "115"
+      ]
+    },
+    "colorMarkingsShownInTheGalleryAreA": {
+      "text": "Color markings shown in the gallery are a selection reference. Confirm the exact response type, temperature, marking and document package before placing an order.",
+      "numbers": []
+    },
+    "oEMODMSupport": {
+      "text": "OEM / ODM support",
+      "numbers": []
+    },
+    "configuredForYourBrandAndMarket": {
+      "text": "Configured for your brand and market.",
+      "numbers": []
+    },
+    "weCanReviewProductMarkingSurfaceFinishThread": {
+      "text": "We can review product marking, surface finish, thread form and export packaging after the required model and destination are confirmed.",
+      "numbers": []
+    },
+    "productMarking": {
+      "text": "Product marking",
+      "numbers": []
+    },
+    "brandAndModelMarkingReviewedAgainstAvailableMarking": {
+      "text": "Brand and model marking reviewed against available marking space.",
+      "numbers": []
+    },
+    "chromePlatedAndNaturalCopperFinishOptions": {
+      "text": "Chrome-plated and natural copper finish options.",
+      "numbers": []
+    },
+    "connection": {
+      "text": "Connection",
+      "numbers": []
+    },
+    "threadFormProducedToTheConfirmedDrawingOr": {
+      "text": "Thread form produced to the confirmed drawing or sample.",
+      "numbers": []
+    },
+    "exportPackaging": {
+      "text": "Export packaging",
+      "numbers": []
+    },
+    "privateLabelCartonsLabelsAndShippingMarksAvailable": {
+      "text": "Private-label cartons, labels and shipping marks available for review.",
+      "numbers": []
+    },
+    "sendUsYourSprinklerRequirement": {
+      "text": "Send us your sprinkler requirement.",
+      "numbers": []
+    },
+    "includeCountryOrientationTemperatureThreadFormQuantityAnd": {
+      "text": "Include country, orientation, temperature, thread form, quantity and OEM request.",
+      "numbers": []
+    },
+    "whatsAppInquiry": {
+      "text": "WhatsApp inquiry",
+      "numbers": []
+    },
+    "emailSales": {
+      "text": "Email sales",
+      "numbers": []
+    },
+    "onThisPage": {
+      "text": "On this page",
+      "numbers": []
+    },
+    "enlargeQuickResponsePendentSprinklerImage": {
+      "text": "Enlarge quick response pendent sprinkler image",
+      "numbers": []
+    },
+    "quickResponsePendentFireSprinklerWith3Mm": {
+      "text": "Quick response pendent fire sprinkler with {n0} mm red glass bulb",
+      "numbers": [
+        "3"
+      ]
+    },
+    "quickResponseSprinklerImageGallery": {
+      "text": "Quick response sprinkler image gallery",
+      "numbers": []
+    },
+    "previousProductImage": {
+      "text": "Previous product image",
+      "numbers": []
+    },
+    "quickResponsePendentSprinkler": {
+      "text": "Quick response pendent sprinkler",
+      "numbers": []
+    },
+    "nextProductImage": {
+      "text": "Next product image",
+      "numbers": []
+    },
+    "selectProductImage": {
+      "text": "Select product image",
+      "numbers": []
+    },
+    "pendentSprinklerThumbnail": {
+      "text": "Pendent sprinkler thumbnail",
+      "numbers": []
+    },
+    "uprightSprinklerThumbnail": {
+      "text": "Upright sprinkler thumbnail",
+      "numbers": []
+    },
+    "horizontalSidewallSprinklerThumbnail": {
+      "text": "Horizontal sidewall sprinkler thumbnail",
+      "numbers": []
+    },
+    "temperatureColorChartThumbnail": {
+      "text": "Temperature color chart thumbnail",
+      "numbers": []
+    },
+    "realProductPackingThumbnail": {
+      "text": "Real product packing thumbnail",
+      "numbers": []
+    },
+    "productImagePreview": {
+      "text": "Product image preview",
+      "numbers": []
+    },
+    "closeImagePreview": {
+      "text": "Close image preview",
+      "numbers": []
+    },
+    "enlargedProductImage": {
+      "text": "Enlarged product image",
+      "numbers": []
+    },
+    "whatsAppChat": {
+      "text": "WhatsApp Chat",
+      "numbers": []
+    },
+    "facebookPage": {
+      "text": "Facebook Page",
+      "numbers": []
+    },
+    "linkedInProfile": {
+      "text": "LinkedIn Profile",
+      "numbers": []
+    },
+    "quickResponseUprightSprinkler": {
+      "text": "Quick response upright sprinkler",
+      "numbers": []
+    },
+    "quickResponseHorizontalSidewallSprinkler": {
+      "text": "Quick response horizontal sidewall sprinkler",
+      "numbers": []
+    },
+    "horizontalSidewallSprinkler": {
+      "text": "Horizontal Sidewall Sprinkler",
+      "numbers": []
+    },
+    "quickResponseSprinklerTemperatureAndGlassBulbColor": {
+      "text": "Quick response sprinkler temperature and glass bulb color chart",
+      "numbers": []
+    },
+    "temperatureBulbColorOptions": {
+      "text": "Temperature & Bulb Color Options",
+      "numbers": []
+    },
+    "quickResponseFireSprinklersInProtectiveFoamTrays": {
+      "text": "Quick response fire sprinklers in protective foam trays",
+      "numbers": []
+    },
+    "realProductPacking": {
+      "text": "Real Product Packing",
+      "numbers": []
+    },
+    "seoTitle": {
+      "text": "Quick Response Glass Bulb Fire Sprinkler | K{n0}, DN{n1} | CHUANWEI FIRE",
+      "numbers": [
+        "5.6",
+        "15"
+      ]
+    },
+    "seoDescription": {
+      "text": "Quick response glass bulb fire sprinkler in pendent and upright configurations. K{n0} (K{n1} metric), DN{n2} / {n3}/{n4} inch, multiple temperature options and OEM/ODM support.",
+      "numbers": [
+        "5.6",
+        "80",
+        "15",
+        "1",
+        "2"
+      ]
+    }
+  },
+  "shared": {
+    "k56K80US": "K5.6 / K8.0 US",
+    "dN15InDN20In": "DN15 / ½ in · DN20 / ¾ in",
+    "value15": "1 / 5",
+    "dN15In": "DN15 / ½ in",
+    "value57C135F68C155F": "57°C / 135°F, 68°C / 155°F, 79°C / 175°F, 93°C / 200°F, 141°C / 286°F",
+    "value57687993141C": "57, 68, 79, 93, 141°C",
+    "dN20In": "DN20 / ¾ in"
+  },
+  "models": [
+    [
+      {
+        "text": "pendentQuickResponse",
+        "note": "deflectorFacingDownward"
+      },
+      "dN15In",
+      "k56USK80Metric",
+      "value57687993141C",
+      "kZSTX80Series"
+    ],
+    [
+      {
+        "text": "uprightQuickResponse",
+        "note": "deflectorFacingUpward"
+      },
+      "dN15In",
+      "k56USK80Metric",
+      "value57687993141C",
+      "kZSTZ80KZSTU80Series"
+    ],
+    [
+      {
+        "text": "horizontalSidewallQuickResponse",
+        "note": "sidewallInstallation"
+      },
+      "dN15In",
+      "k56USK80Metric",
+      "value57687993141C",
+      "kZSTBS80Series"
+    ],
+    [
+      {
+        "text": "pendentQuickResponse",
+        "note": "deflectorFacingDownward"
+      },
+      "dN20In",
+      "k80USK115Metric",
+      "value57687993141C",
+      "kZSTX115Series"
+    ],
+    [
+      {
+        "text": "uprightQuickResponse",
+        "note": "deflectorFacingUpward"
+      },
+      "dN20In",
+      "k80USK115Metric",
+      "value57687993141C",
+      "kZSTZ115KZSTU115Series"
+    ],
+    [
+      {
+        "text": "horizontalSidewallQuickResponse",
+        "note": "sidewallInstallation"
+      },
+      "dN20In",
+      "k80USK115Metric",
+      "value57687993141C",
+      "kZSTBS115Series"
+    ]
+  ],
+  "gallery": [
+    {
+      "media": "hero",
+      "alt": "quickResponsePendentSprinkler",
+      "caption": "pendentSprinkler"
+    },
+    {
+      "media": "upright",
+      "alt": "quickResponseUprightSprinkler",
+      "caption": "uprightSprinkler"
+    },
+    {
+      "media": "sidewall",
+      "alt": "quickResponseHorizontalSidewallSprinkler",
+      "caption": "horizontalSidewallSprinkler"
+    },
+    {
+      "media": "temperature",
+      "alt": "quickResponseSprinklerTemperatureAndGlassBulbColor",
+      "caption": "temperatureBulbColorOptions"
+    },
+    {
+      "media": "packing",
+      "alt": "quickResponseFireSprinklersInProtectiveFoamTrays",
+      "caption": "realProductPacking"
+    }
+  ]
+}

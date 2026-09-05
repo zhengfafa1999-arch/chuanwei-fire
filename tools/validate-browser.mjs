@@ -9,9 +9,14 @@ import { validateSystemValveNavigation } from "./browser-system-valves.mjs";
 import { validateStandardResponse } from "./browser-standard-response.mjs";
 
 const root = process.cwd();
+const productArgument = process.argv.find(argument => argument.startsWith('--product='));
+const focusedSlug = productArgument?.slice('--product='.length);
+if (productArgument) assert(/^[a-z0-9-]+$/.test(focusedSlug), 'Provide a valid product slug with --product=<slug>.');
 const evidenceDirectory = process.env.SITE_BROWSER_EVIDENCE_DIR
   ? path.resolve(root, process.env.SITE_BROWSER_EVIDENCE_DIR)
-  : path.join(root, "docs", "evidence", "responsive-rtl", "2026-09-05");
+  : focusedSlug
+    ? path.join(root, "docs", "evidence", "focused", focusedSlug, process.argv.includes('--file-preview') ? 'file' : 'http')
+    : path.join(root, "docs", "evidence", "responsive-rtl", "2026-09-05");
 const edgeCandidates = [
   process.env.EDGE_PATH,
   "C:/Program Files (x86)/Microsoft/Edge/Application/msedge.exe",
@@ -202,6 +207,8 @@ async function inspectPage(client) {
 }
 
 const pages = [
+  { id: "quick-response-en", path: "/products/消防喷头/glass-bulb-fire-sprinkler.html", lang: "en", dir: "ltr", marker: "Glass Bulb" },
+  { id: "quick-response-ar", path: "/ar/products/glass-bulb-fire-sprinkler/index.html", lang: "ar", dir: "rtl", marker: "زجاجي" },
   { id: "standard-response-en", path: "/products/消防喷头/standard-response-fire-sprinkler.html", lang: "en", dir: "ltr", marker: "Standard Response" },
   { id: "standard-response-ar", path: "/ar/products/standard-response-fire-sprinkler/index.html", lang: "ar", dir: "rtl", marker: "الاستجابة القياسية" },
   { id: "home-en", path: "/index.html?lang=en", lang: "en", dir: "ltr", marker: "Fire Protection Equipment" },
@@ -256,10 +263,17 @@ const responsiveScreenshotTargets = new Set([
   "home:ar",
   "category:sprinklers:ar",
   "product:wet-alarm-check-valve:ar",
-  "product:glass-bulb-fire-sprinkler:en"
+  "product:concealed-pendent-fire-sprinkler:en"
 ]);
 
 async function run() {
+  let focusedProduct;
+  if (focusedSlug) {
+    const source = path.join(root, 'site-src', '_data', 'preserved-products', `${focusedSlug}.json`);
+    assert(fs.existsSync(source), `No shared product source for ${focusedSlug}; add a targeted test adapter before testing this product.`);
+    focusedProduct = JSON.parse(fs.readFileSync(source, 'utf8'));
+    assert(['product-series/quick-response.njk', 'product-series/standard-response.njk'].includes(focusedProduct.template), 'This template needs its own targeted interaction adapter; do not silently skip its checks.');
+  }
   assert(edgePath, "Microsoft Edge was not found. Set EDGE_PATH to a Chromium-compatible Edge executable.");
   fs.mkdirSync(evidenceDirectory, { recursive: true });
   const server = createStaticServer();
@@ -288,6 +302,22 @@ async function run() {
       ? pathToFileURL(root).href
       : `http://127.0.0.1:${sitePort}`;
     const matrix = [];
+
+    if (focusedProduct) {
+      const result = await validateStandardResponse({
+        client, origin, viewports, evaluate, navigate, waitForLocation, inspectPage, assert, evidenceDirectory,
+        routeId: focusedProduct.routeId, slug: focusedSlug, imageCount: focusedProduct.gallery.length
+      });
+      const evidence = {
+        scope: 'single-product', product: focusedSlug,
+        previewMode: process.argv.includes('--file-preview') ? 'file' : 'http',
+        generatedAt: new Date().toISOString(), browser: version.Browser, viewports,
+        languageSwitches: result.results, screenshots: result.screenshots
+      };
+      fs.writeFileSync(path.join(evidenceDirectory, 'product-validation.json'), `${JSON.stringify(evidence, null, 2)}\n`);
+      console.log(`Focused browser validation passed: ${focusedSlug}, ${result.results.length} desktop/mobile × EN/AR scenarios. Full-site browser audit intentionally not run.`);
+      return;
+    }
 
     for (const viewport of viewports) {
       await client.send("Emulation.setDeviceMetricsOverride", {
@@ -427,8 +457,8 @@ async function run() {
     }
 
     await navigate(client, `${origin}/ar/products/sprinklers/index.html`, "/ar/products/sprinklers/index.html");
-    await evaluate(client, `document.querySelector('a[href*="glass-bulb-fire-sprinkler.html"]').click()`);
-    await waitForLocation(client, "/products/消防喷头/glass-bulb-fire-sprinkler.html");
+    await evaluate(client, `document.querySelector('a[href*="concealed-pendent-fire-sprinkler.html"]').click()`);
+    await waitForLocation(client, "/products/消防喷头/concealed-pendent-fire-sprinkler.html");
     const englishFallback = await inspectPage(client);
     assert(englishFallback.lang === "en", "An untranslated product opened from Arabic must remain available in English.");
     languageSwitches.push({ scenario: "AR category opens untranslated EN product without redirect loop", status: "PASS", finalUrl: englishFallback.url, lang: englishFallback.lang, dir: englishFallback.dir });
@@ -574,6 +604,11 @@ async function run() {
       client, origin, viewports, evaluate, navigate, waitForLocation, inspectPage, assert, evidenceDirectory
     });
     languageSwitches.push(...standardResponse.results);
+    const quickResponse = await validateStandardResponse({
+      client, origin, viewports, evaluate, navigate, waitForLocation, inspectPage, assert, evidenceDirectory,
+      routeId: "product:glass-bulb-fire-sprinkler", slug: "quick-response", imageCount: 5
+    });
+    languageSwitches.push(...quickResponse.results);
     const evidence = {
       previewMode: process.argv.includes("--file-preview") ? "file" : "http",
       generatedAt: new Date().toISOString(),
@@ -589,7 +624,8 @@ async function run() {
         ...viewports.flatMap((viewport) => ["home-en", "home-zh", "home-ar", "category-en", "category-ar", "about-en", "about-ar", "downloads-en", "downloads-ar", "contact-en", "contact-ar", "deluge-en", "deluge-ar", "preaction-en", "preaction-ar", "dry-pipe-en", "dry-pipe-ar"].map((page) => `edge-${viewport.id}-${page}.png`)),
         ...responsiveScreenshots,
         ...singlePhotoScreenshots,
-        ...standardResponse.screenshots
+        ...standardResponse.screenshots,
+        ...quickResponse.screenshots
       ]
     };
     fs.writeFileSync(path.join(evidenceDirectory, "browser-validation.json"), `${JSON.stringify(evidence, null, 2)}\n`);
@@ -609,6 +645,7 @@ async function run() {
       "",
       "## 覆盖范围",
       "",
+      "玻璃球快速响应喷头：双语入口、同商品互切、刷新及返回；五张图库（含温度色标和包装图）的动态说明、缩略图、循环、滑动、放大/关闭和型号锚点。",
       "标准响应消防喷头：双语分类图片/文字入口、同商品双向切换与刷新、四张图库及阿文动态说明、箭头循环、左右滑动、放大及三种关闭方式、三个页脚同语言返回入口。",
       `英文/中文/阿文首页、产品总目录、公共页面、分类页和双语详情；逐一打开全部 ${navigationPages.length} 个正式页面，在 1440、768、390 和 320 像素四档宽度检查 LTR/RTL、页面溢出、页头边界、图片加载、控件和菜单；验证语言切换与返回，检查雨淋阀图库，以及预作用阀组、干式报警阀单图放大、三种关闭方式和型号锚点；逐一验证报警阀分类四类产品的图片/文字入口、双向语言切换、刷新、浏览器返回及三个页脚返回入口。`,
       "",
