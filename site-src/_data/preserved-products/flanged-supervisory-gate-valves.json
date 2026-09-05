@@ -21,9 +21,11 @@
     "note": "flangeDrillingSwitchSpecificationAndMarking",
     "imageAria": "enlargeFlangedSupervisoryGateValveImage",
     "imageAlt": "flangedSupervisoryFireGateValveWithHandwheel",
+    "technicalTitle": "confirmedConstructionAndOperatingData",
     "technicalIntro": "criticalProductDataNationalRequirement",
     "sideTitle": "supervisorySwitch",
     "modelIntro": "internationalSizeAndConnectionZSXZF4Q",
+    "modelTitle": "configurationsForQuotation",
     "optionsNote": "forQuotationSpecifyDNSizeFlangeDrilling",
     "manufacturingNote": "manufacturingOptionsConfirmedAgainstBuyerSchedule",
     "ctaTitle": "sendYourSupervisoryGateValveSchedule",
@@ -36,6 +38,12 @@
     "flanged",
     "pressureChip",
     "supervisorySwitch"
+  ],
+  "modelHeaders": [
+    "internationalConfiguration",
+    "nominalSize",
+    "workingPressure",
+    "factoryReference"
   ],
   "specifications": [
     [

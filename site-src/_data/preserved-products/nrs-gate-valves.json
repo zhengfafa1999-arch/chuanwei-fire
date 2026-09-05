@@ -1,0 +1,535 @@
+{
+  "id": "nrs-gate-valves",
+  "routeId": "product:nrs-gate-valves",
+  "template": "product-series/gate-valve.njk",
+  "source": {
+    "path": "products/消防阀门/nrs-gate-valves.html",
+    "revision": "40ac774",
+    "status": "preserved-existing-content-not-reaudited"
+  },
+  "media": {
+    "hero": "products/消防阀门/nrs-gate-valves/nrs-gate-valve.jpg"
+  },
+  "hero": {
+    "width": 1983,
+    "height": 3417
+  },
+  "textKeys": {
+    "eyebrow": "fireGateValve",
+    "title": "nRSGateValve",
+    "lead": "nonRisingStemGateValveCompact",
+    "note": "detailedSpecificationsConfirmedAgainstOrder",
+    "imageAria": "enlargeNRSGateValveImage",
+    "imageAlt": "nonRisingStemFireGateValveWithHandwheel",
+    "technicalTitle": "specificationsConfirmedOnRequest",
+    "technicalIntro": "seriesPresentedForRangeReference",
+    "sideTitle": "stemDesign",
+    "modelTitle": "factoryReferencesForOrderMatching",
+    "modelIntro": "factoryReferencesShownForQuotation",
+    "optionsNote": "factoryReferencesRetainedForOrderMatching",
+    "manufacturingNote": "manufacturingOptionsConfirmedAgainstBuyerSchedule",
+    "ctaTitle": "sendYourNRSGateValveSchedule",
+    "ctaText": "includeSizeConnectionPressureQuantity",
+    "modalAlt": "enlargedNRSGateValve"
+  },
+  "chips": [
+    "nRS",
+    "nonRisingStem",
+    "groovedFlanged",
+    "handwheel"
+  ],
+  "modelHeaders": [
+    "internationalConfiguration",
+    "nominalSize",
+    "connection",
+    "factoryReference"
+  ],
+  "specifications": [
+    [
+      "productType",
+      "nRSNonRisingStemGateValve"
+    ],
+    [
+      "connectionOptions",
+      "groovedOrFlanged"
+    ],
+    [
+      "operation",
+      "handwheel"
+    ],
+    [
+      "workingPressure",
+      "availableOnRequest"
+    ],
+    [
+      "bodyDiscMaterial",
+      "availableOnRequest"
+    ],
+    [
+      "seatSealMaterial",
+      "availableOnRequest"
+    ],
+    [
+      "coating",
+      "availableOnRequest"
+    ],
+    [
+      "standardApproval",
+      "toBeConfirmed"
+    ]
+  ],
+  "operationCards": [
+    [
+      "stemType",
+      "nonRising",
+      "nRS"
+    ],
+    [
+      "operation",
+      "handwheel",
+      "manual"
+    ],
+    [
+      "connection",
+      "groovedFlanged",
+      "onRequest"
+    ],
+    [
+      "application",
+      "compactHeight",
+      "firePiping"
+    ]
+  ],
+  "disclaimers": [
+    [
+      "configurationNote",
+      "nonRisingStemDesignKeepsHeightCompact"
+    ],
+    [
+      "installationData",
+      "installationOrientationAndFlowConfirmed"
+    ]
+  ],
+  "models": [
+    [
+      "nRSGateValve",
+      "dN502In",
+      "grooved",
+      "zSZF8Q5016AG"
+    ],
+    [
+      "nRSGateValve",
+      "dN652HalfIn",
+      "grooved",
+      "zSZF8Q6516AG"
+    ],
+    [
+      "nRSGateValve",
+      "dN803In",
+      "grooved",
+      "zSZF8Q8016AG"
+    ],
+    [
+      "nRSGateValve",
+      "dN1004In",
+      "grooved",
+      "zSZF8Q10016AG"
+    ],
+    [
+      "nRSGateValve",
+      "dN1506In",
+      "grooved",
+      "zSZF8Q15016AG"
+    ],
+    [
+      "nRSGateValve",
+      "dN2008In",
+      "grooved",
+      "zSZF8Q20016AG"
+    ],
+    [
+      "nRSGateValve",
+      "dN502In",
+      "flanged",
+      "zSZF4Q5016AG"
+    ],
+    [
+      "nRSGateValve",
+      "dN652HalfIn",
+      "flanged",
+      "zSZF4Q6516AG"
+    ],
+    [
+      "nRSGateValve",
+      "dN803In",
+      "flanged",
+      "zSZF4Q8016AG"
+    ],
+    [
+      "nRSGateValve",
+      "dN1004In",
+      "flanged",
+      "zSZF4Q10016AG"
+    ],
+    [
+      "nRSGateValve",
+      "dN1506In",
+      "flanged",
+      "zSZF4Q15016AG"
+    ],
+    [
+      "nRSGateValve",
+      "dN2008In",
+      "flanged",
+      "zSZF4Q20016AG"
+    ]
+  ],
+  "oemCards": [
+    [
+      "connectionMachining",
+      "groovedOrFlangedPatternsProduced"
+    ],
+    [
+      "brandPresentation",
+      "customNameplateLogoCoatingColor"
+    ],
+    [
+      "drawingOrSampleProduction",
+      "valveConnectionAndStemDetailsReviewed"
+    ],
+    [
+      "exportPacking",
+      "cartonOrWoodenCasePacking"
+    ]
+  ],
+  "inquiry": {
+    "whatsapp": "https://wa.me/8617326528368?text=Hello%2C%20I%20need%20a%20quotation%20for%20NRS%20Gate%20Valves.%20Size%3A%20%5BDN%2Finch%5D%2C%20connection%3A%20%5Bgrooved%2Fflanged%5D%2C%20quantity%3A%20%5Bpcs%5D%2C%20destination%3A%20%5Bcountry%5D.",
+    "email": "mailto:zhengcolin1@gmail.com?subject=NRS%20Gate%20Valve%20Inquiry"
+  },
+  "copy": {
+    "specifications": {
+      "text": "Specifications",
+      "numbers": []
+    },
+    "availableModels": {
+      "text": "Available models",
+      "numbers": []
+    },
+    "oEMODM": {
+      "text": "OEM / ODM",
+      "numbers": []
+    },
+    "fireGateValve": {
+      "text": "Fire Gate Valve",
+      "numbers": []
+    },
+    "nRSGateValve": {
+      "text": "NRS Gate Valve",
+      "numbers": []
+    },
+    "nonRisingStemGateValveCompact": {
+      "text": "A non-rising stem (NRS) gate valve for fire protection installations where a compact operating height is preferred. Grooved and flanged connection options are available.",
+      "numbers": []
+    },
+    "nRS": {
+      "text": "NRS",
+      "numbers": []
+    },
+    "nonRisingStem": {
+      "text": "Non-rising stem",
+      "numbers": []
+    },
+    "groovedFlanged": {
+      "text": "Grooved / Flanged",
+      "numbers": []
+    },
+    "handwheel": {
+      "text": "Handwheel",
+      "numbers": []
+    },
+    "askOnWhatsApp": {
+      "text": "Ask on WhatsApp",
+      "numbers": []
+    },
+    "viewAvailableModels": {
+      "text": "View available models",
+      "numbers": []
+    },
+    "detailedSpecificationsConfirmedAgainstOrder": {
+      "text": "Detailed specifications are confirmed against the order schedule, drawing or sample before production.",
+      "numbers": []
+    },
+    "technicalOverview": {
+      "text": "Technical overview",
+      "numbers": []
+    },
+    "specificationsConfirmedOnRequest": {
+      "text": "Specifications confirmed on request",
+      "numbers": []
+    },
+    "seriesPresentedForRangeReference": {
+      "text": "This series is presented for range reference. Working pressure, materials, dimensions, standards and approvals are confirmed per order against the technical schedule.",
+      "numbers": []
+    },
+    "seriesSpecifications": {
+      "text": "Series overview",
+      "numbers": []
+    },
+    "productType": {
+      "text": "Product type",
+      "numbers": []
+    },
+    "nRSNonRisingStemGateValve": {
+      "text": "NRS (Non-Rising Stem) Gate Valve",
+      "numbers": []
+    },
+    "connectionOptions": {
+      "text": "Connection options",
+      "numbers": []
+    },
+    "groovedOrFlanged": {
+      "text": "Grooved or flanged",
+      "numbers": []
+    },
+    "operation": {
+      "text": "Operation",
+      "numbers": []
+    },
+    "workingPressure": {
+      "text": "Working pressure",
+      "numbers": []
+    },
+    "availableOnRequest": {
+      "text": "Available on request",
+      "numbers": []
+    },
+    "bodyDiscMaterial": {
+      "text": "Body & disc material",
+      "numbers": []
+    },
+    "seatSealMaterial": {
+      "text": "Seat / seal material",
+      "numbers": []
+    },
+    "coating": {
+      "text": "Coating",
+      "numbers": []
+    },
+    "standardApproval": {
+      "text": "Standard / approval",
+      "numbers": []
+    },
+    "toBeConfirmed": {
+      "text": "To be confirmed",
+      "numbers": []
+    },
+    "stemDesign": {
+      "text": "Stem design",
+      "numbers": []
+    },
+    "stemType": {
+      "text": "Stem type",
+      "numbers": []
+    },
+    "nonRising": {
+      "text": "Non-rising",
+      "numbers": []
+    },
+    "manual": {
+      "text": "manual",
+      "numbers": []
+    },
+    "connection": {
+      "text": "Connection",
+      "numbers": []
+    },
+    "onRequest": {
+      "text": "on request",
+      "numbers": []
+    },
+    "application": {
+      "text": "Application",
+      "numbers": []
+    },
+    "compactHeight": {
+      "text": "Compact height",
+      "numbers": []
+    },
+    "firePiping": {
+      "text": "fire piping",
+      "numbers": []
+    },
+    "configurationNote": {
+      "text": "Configuration note",
+      "numbers": []
+    },
+    "nonRisingStemDesignKeepsHeightCompact": {
+      "text": "The non-rising stem design keeps the operating height compact; the stem does not rise during operation.",
+      "numbers": []
+    },
+    "installationData": {
+      "text": "Installation data",
+      "numbers": []
+    },
+    "installationOrientationAndFlowConfirmed": {
+      "text": "Installation orientation and flow direction are confirmed from the approved product documentation.",
+      "numbers": []
+    },
+    "factoryReferencesForOrderMatching": {
+      "text": "Factory references for order matching",
+      "numbers": []
+    },
+    "factoryReferencesShownForQuotation": {
+      "text": "Factory references are shown for quotation matching only. Technical specifications are confirmed separately per order.",
+      "numbers": []
+    },
+    "internationalConfiguration": {
+      "text": "International configuration",
+      "numbers": []
+    },
+    "nominalSize": {
+      "text": "Nominal size",
+      "numbers": []
+    },
+    "grooved": {
+      "text": "Grooved",
+      "numbers": []
+    },
+    "flanged": {
+      "text": "Flanged",
+      "numbers": []
+    },
+    "factoryReference": {
+      "text": "Factory reference",
+      "numbers": []
+    },
+    "factoryReferencesRetainedForOrderMatching": {
+      "text": "Factory references are retained for order matching. Confirm working pressure, materials, groove profile, flange drilling and approvals before ordering.",
+      "numbers": []
+    },
+    "oEMODMCapability": {
+      "text": "OEM / ODM capability",
+      "numbers": []
+    },
+    "configuredToTheApprovedDrawingOrSample": {
+      "text": "Configured to the approved drawing or sample",
+      "numbers": []
+    },
+    "manufacturingOptionsConfirmedAgainstBuyerSchedule": {
+      "text": "Manufacturing options are confirmed against the buyer's technical schedule. Connection-standard names describe available machining patterns and do not imply third-party product approval.",
+      "numbers": []
+    },
+    "connectionMachining": {
+      "text": "Connection machining",
+      "numbers": []
+    },
+    "groovedOrFlangedPatternsProduced": {
+      "text": "Grooved or flanged patterns produced to the approved drawing or standard.",
+      "numbers": []
+    },
+    "brandPresentation": {
+      "text": "Brand presentation",
+      "numbers": []
+    },
+    "customNameplateLogoCoatingColor": {
+      "text": "Custom nameplate, logo and coating color.",
+      "numbers": []
+    },
+    "drawingOrSampleProduction": {
+      "text": "Drawing or sample production",
+      "numbers": []
+    },
+    "valveConnectionAndStemDetailsReviewed": {
+      "text": "Valve connection and stem details reviewed before manufacturing.",
+      "numbers": []
+    },
+    "exportPacking": {
+      "text": "Export packing",
+      "numbers": []
+    },
+    "cartonOrWoodenCasePacking": {
+      "text": "Carton or wooden-case packing prepared according to the order.",
+      "numbers": []
+    },
+    "sendYourNRSGateValveSchedule": {
+      "text": "Send your NRS gate valve schedule",
+      "numbers": []
+    },
+    "includeSizeConnectionPressureQuantity": {
+      "text": "Include size, connection, pressure and quantity.",
+      "numbers": []
+    },
+    "whatsAppInquiry": {
+      "text": "WhatsApp inquiry",
+      "numbers": []
+    },
+    "emailSales": {
+      "text": "Email sales",
+      "numbers": []
+    },
+    "onThisPage": {
+      "text": "On this page",
+      "numbers": []
+    },
+    "enlargeNRSGateValveImage": {
+      "text": "Enlarge NRS gate valve image",
+      "numbers": []
+    },
+    "nonRisingStemFireGateValveWithHandwheel": {
+      "text": "Non-rising stem fire gate valve with handwheel",
+      "numbers": []
+    },
+    "productImagePreview": {
+      "text": "Product image preview",
+      "numbers": []
+    },
+    "closeImagePreview": {
+      "text": "Close image preview",
+      "numbers": []
+    },
+    "enlargedNRSGateValve": {
+      "text": "Enlarged NRS gate valve",
+      "numbers": []
+    },
+    "whatsAppChat": {
+      "text": "WhatsApp Chat",
+      "numbers": []
+    },
+    "facebookPage": {
+      "text": "Facebook Page",
+      "numbers": []
+    },
+    "linkedInProfile": {
+      "text": "LinkedIn Profile",
+      "numbers": []
+    },
+    "seoTitle": {
+      "text": "NRS Fire Gate Valve | Grooved or Flanged | CHUANWEI FIRE",
+      "numbers": []
+    },
+    "seoDescription": {
+      "text": "Non-rising stem fire gate valves with grooved or flanged connections and handwheel operation. Sizes, pressure, materials and standards are confirmed per order.",
+      "numbers": []
+    }
+  },
+  "shared": {
+    "dN502In": "DN50 / 2 in",
+    "dN652HalfIn": "DN65 / 2½ in",
+    "dN803In": "DN80 / 3 in",
+    "dN1004In": "DN100 / 4 in",
+    "dN1506In": "DN150 / 6 in",
+    "dN2008In": "DN200 / 8 in",
+    "zSZF8Q5016AG": "ZSZF8-Q-50-16-AG",
+    "zSZF8Q6516AG": "ZSZF8-Q-65-16-AG",
+    "zSZF8Q8016AG": "ZSZF8-Q-80-16-AG",
+    "zSZF8Q10016AG": "ZSZF8-Q-100-16-AG",
+    "zSZF8Q15016AG": "ZSZF8-Q-150-16-AG",
+    "zSZF8Q20016AG": "ZSZF8-Q-200-16-AG",
+    "zSZF4Q5016AG": "ZSZF4-Q-50-16-AG",
+    "zSZF4Q6516AG": "ZSZF4-Q-65-16-AG",
+    "zSZF4Q8016AG": "ZSZF4-Q-80-16-AG",
+    "zSZF4Q10016AG": "ZSZF4-Q-100-16-AG",
+    "zSZF4Q15016AG": "ZSZF4-Q-150-16-AG",
+    "zSZF4Q20016AG": "ZSZF4-Q-200-16-AG"
+  }
+}
