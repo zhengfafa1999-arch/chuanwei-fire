@@ -1,0 +1,88 @@
+{
+  "id": "russian-pattern-hydrant",
+  "routeId": "product:russian-pattern-hydrant",
+  "template": "product-series/outdoor-hydrant.njk",
+  "layout": "options",
+  "source": { "path": "products/室外消防栓/russian-pattern-hydrant.html", "revision": "f3e7fda", "status": "preserved-existing-content-not-reaudited" },
+  "media": {
+    "hero": "products/室外消防栓/global-series/russian-pattern-hydrant.jpg",
+    "front": "products/室外消防栓/global-series/russian-pattern-hydrant.jpg",
+    "detail": "products/室外消防栓/global-series/russian-pattern-hydrant-detail.jpg"
+  },
+  "hero": { "width": 1179, "height": 1180 },
+  "sectionLinks": [["gallery", "productViews"], ["configuration", "configuration"], ["options", "options"], ["inquiry", "inquiry"]],
+  "secondaryAction": { "anchor": "configuration", "label": "viewConfiguration" },
+  "textKeys": {
+    "eyebrow": "aboveGroundFireHydrant", "title": "russianPatternAboveGroundHydrant", "lead": "russianPatternLead",
+    "note": "exactConnectionsConfirmed", "imageAria": "enlargeRussianHydrantImage", "imageAlt": "russianAboveGroundTwinOutlets",
+    "galleryTitle": "frontAndOperatingDetail", "galleryIntro": "photographsShowTwinValves",
+    "configurationTitle": "twinValveColdClimateArrangement", "configurationIntro": "russianConfigurationIntro",
+    "optionsTitle": "configureHydrantToMarket", "optionsIntro": "optionsReviewedAgainstDrawing", "sideTitle": "customization",
+    "ctaTitle": "sendYourHydrantSpecification", "ctaText": "includeQuotationPressure", "modalAlt": "enlargedRussianHydrant"
+  },
+  "chips": ["russiaCisPattern", "independentValves", "coldClimateReview"],
+  "gallery": [
+    { "media": "front", "alt": "russianFrontView", "caption": "frontView", "thumbAlt": "frontViewThumbnail", "label": "front" },
+    { "media": "detail", "alt": "russianOperatingDetail", "caption": "operatingDetail", "thumbAlt": "operatingDetailThumbnail", "label": "detail" }
+  ],
+  "configurationHeaders": ["field", "value"],
+  "models": [
+    ["quotationReference", "cwRuAg2v"], ["type", "aboveGroundTwinValveType"], ["outlets", "twinIndependentHandwheelOutlets"],
+    ["inletConnection", "perProjectDrawing"], ["marketBasis", "russiaCisColdClimateReview"]
+  ],
+  "specifications": [
+    ["outletInterface", "russiaCisOrCustom"], ["inletConnection", "perApprovedDrawing"],
+    ["operation", "independentHandwheelsRemovableHandle"], ["appearanceMarking", "colorLetteringNameplateLogo"]
+  ],
+  "disclaimers": [["drawingBasedReview", "interfacesConfirmedFromDrawing"], ["standardsNote", "standardsAreReferences"]],
+  "inquiry": {
+    "whatsapp": "https://wa.me/8617326528368?text=Hello%2C%20I%20need%20a%20quotation%20for%20a%20Russian-Pattern%20Above-Ground%20Hydrant.%20Quotation%20ref%3A%20CW-RU-AG-2V%2C%20inlet%2Foutlet%3A%20%5Bdetails%5D%2C%20quantity%3A%20%5Bpcs%5D%2C%20destination%3A%20%5Bcountry%5D.",
+    "email": "mailto:zhengcolin1@gmail.com?subject=Russian%20Hydrant%20Inquiry"
+  },
+  "copy": {
+    "onThisPage":{"text":"On this page","numbers":[]}, "productViews":{"text":"Product views","numbers":[]},
+    "configuration":{"text":"Configuration","numbers":[]}, "options":{"text":"Options","numbers":[]}, "inquiry":{"text":"Inquiry","numbers":[]},
+    "aboveGroundFireHydrant":{"text":"Above-Ground Fire Hydrant","numbers":[]},
+    "russianPatternAboveGroundHydrant":{"text":"Russian-Pattern Above-Ground Hydrant","numbers":[]},
+    "russianPatternLead":{"text":"A twin-valve arrangement with independent handwheel control and removable operating handle, for the Russia / CIS market. Outlet heads, inlet, pressure and cold-climate drainage follow the project drawing.","numbers":[]},
+    "russiaCisPattern":{"text":"Russia / CIS pattern","numbers":[]}, "independentValves":{"text":"Independent valves","numbers":[]}, "coldClimateReview":{"text":"Cold-climate review","numbers":[]},
+    "askOnWhatsApp":{"text":"Ask on WhatsApp","numbers":[]}, "viewConfiguration":{"text":"View configuration","numbers":[]},
+    "exactConnectionsConfirmed":{"text":"Exact inlet, outlets, pressure, flange drilling and operating key are confirmed from the approved buyer drawing before quotation.","numbers":[]},
+    "enlargeRussianHydrantImage":{"text":"Enlarge Russian pattern hydrant image","numbers":[]},
+    "russianAboveGroundTwinOutlets":{"text":"Russian-pattern above-ground fire hydrant with twin outlets","numbers":[]},
+    "frontAndOperatingDetail":{"text":"Front and operating detail","numbers":[]},
+    "photographsShowTwinValves":{"text":"Photographs show the twin outlets, two independent handwheel valves and removable operating handle. The visible physical GUANYA / 冠亚 product markings are retained; CHUANWEI FIRE identifies the website and export-sales presentation.","numbers":[]},
+    "enlargeSelectedProductImage":{"text":"Enlarge selected product image","numbers":[]}, "previousProductImage":{"text":"Previous product image","numbers":[]},
+    "nextProductImage":{"text":"Next product image","numbers":[]}, "productImageThumbnails":{"text":"Product image thumbnails","numbers":[]},
+    "russianFrontView":{"text":"Russian hydrant front view","numbers":[]}, "frontView":{"text":"Front view","numbers":[]},
+    "frontViewThumbnail":{"text":"Front view thumbnail","numbers":[]}, "front":{"text":"Front","numbers":[]},
+    "russianOperatingDetail":{"text":"Russian hydrant operating detail","numbers":[]}, "operatingDetail":{"text":"Operating detail","numbers":[]},
+    "operatingDetailThumbnail":{"text":"Operating detail thumbnail","numbers":[]}, "detail":{"text":"Detail","numbers":[]},
+    "twinValveColdClimateArrangement":{"text":"Twin-valve cold-climate arrangement","numbers":[]},
+    "russianConfigurationIntro":{"text":"The reference below identifies this photographed configuration for quotation.","numbers":[]},
+    "field":{"text":"Field","numbers":[]}, "value":{"text":"Value","numbers":[]}, "quotationReference":{"text":"Quotation reference","numbers":[]},
+    "type":{"text":"Type","numbers":[]}, "aboveGroundTwinValveType":{"text":"Above-ground fire hydrant (twin-valve type)","numbers":[]},
+    "outlets":{"text":"Outlets","numbers":[]}, "twinIndependentHandwheelOutlets":{"text":"Twin outlets · two independent handwheel valves · removable operating handle","numbers":[]},
+    "inletConnection":{"text":"Inlet connection","numbers":[]}, "perProjectDrawing":{"text":"Per project drawing","numbers":[]},
+    "marketBasis":{"text":"Market basis","numbers":[]}, "russiaCisColdClimateReview":{"text":"Russia / CIS pattern, cold-climate drainage review","numbers":[]},
+    "availableOptions":{"text":"Available options","numbers":[]}, "configureHydrantToMarket":{"text":"Configure the hydrant to your market","numbers":[]},
+    "optionsReviewedAgainstDrawing":{"text":"Options are reviewed against the approved drawing or order schedule. Standards named here are specification references for project review, not certification claims.","numbers":[]},
+    "selectableOptions":{"text":"Selectable options","numbers":[]}, "outletInterface":{"text":"Outlet interface","numbers":[]},
+    "russiaCisOrCustom":{"text":"Russia / CIS pattern, or approved custom coupling per drawing","numbers":[]},
+    "perApprovedDrawing":{"text":"Per approved drawing","numbers":[]}, "operation":{"text":"Operation","numbers":[]},
+    "independentHandwheelsRemovableHandle":{"text":"Independent handwheels and removable operating handle per the photographed configuration","numbers":[]},
+    "appearanceMarking":{"text":"Appearance & marking","numbers":[]}, "colorLetteringNameplateLogo":{"text":"Coating color, cast lettering, nameplate language, customer logo","numbers":[]},
+    "customization":{"text":"Customization","numbers":[]}, "drawingBasedReview":{"text":"Drawing-based review","numbers":[]},
+    "interfacesConfirmedFromDrawing":{"text":"Inlet and outlet interfaces, flange drilling, pressure class and operating key are confirmed from the approved drawing.","numbers":[]},
+    "standardsNote":{"text":"Standards note","numbers":[]}, "standardsAreReferences":{"text":"Standards named on this page are specification references for project review, not certification claims.","numbers":[]},
+    "sendYourHydrantSpecification":{"text":"Send your hydrant specification","numbers":[]},
+    "includeQuotationPressure":{"text":"Include quotation reference, inlet/outlet sizes, pressure class, flange or coupling drawing, quantity and destination.","numbers":[]},
+    "whatsAppInquiry":{"text":"WhatsApp inquiry","numbers":[]}, "emailSales":{"text":"Email sales","numbers":[]},
+    "productImagePreview":{"text":"Product image preview","numbers":[]}, "closeImagePreview":{"text":"Close image preview","numbers":[]},
+    "enlargedRussianHydrant":{"text":"Enlarged Russian pattern hydrant","numbers":[]}, "whatsAppChat":{"text":"WhatsApp Chat","numbers":[]},
+    "facebookPage":{"text":"Facebook Page","numbers":[]}, "linkedInProfile":{"text":"LinkedIn Profile","numbers":[]},
+    "seoTitle":{"text":"Russian-Pattern Above-Ground Hydrant | CHUANWEI FIRE","numbers":[]},
+    "seoDescription":{"text":"Russian/CIS-pattern above-ground fire hydrant. Twin outlets, two independent handwheel valves and removable operating handle. Configured to the project drawing.","numbers":[]}
+  },
+  "shared": { "cwRuAg2v":"CW-RU-AG-2V" }
+}

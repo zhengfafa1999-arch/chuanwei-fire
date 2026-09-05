@@ -1,0 +1,55 @@
+{
+  "scope": "single-product",
+  "product": "russian-pattern-hydrant",
+  "previewMode": "http",
+  "generatedAt": "2026-09-05T20:51:17.810Z",
+  "browser": "Edg/152.0.4191.62",
+  "viewports": [
+    {
+      "id": "desktop",
+      "width": 1440,
+      "height": 900,
+      "deviceScaleFactor": 1,
+      "mobile": false
+    },
+    {
+      "id": "mobile",
+      "width": 390,
+      "height": 844,
+      "deviceScaleFactor": 1,
+      "mobile": true
+    }
+  ],
+  "languageSwitches": [
+    {
+      "scenario": "desktop/en: russian-pattern-hydrant image/text category entries, reciprocal switch, refresh, 2-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+      "status": "PASS"
+    },
+    {
+      "scenario": "desktop/ar: russian-pattern-hydrant image/text category entries, reciprocal switch, refresh, 2-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+      "status": "PASS"
+    },
+    {
+      "scenario": "mobile/en: russian-pattern-hydrant image/text category entries, reciprocal switch, refresh, 2-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+      "status": "PASS"
+    },
+    {
+      "scenario": "mobile/ar: russian-pattern-hydrant image/text category entries, reciprocal switch, refresh, 2-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+      "status": "PASS"
+    }
+  ],
+  "screenshots": [
+    "edge-desktop-russian-pattern-hydrant-en-gallery.png",
+    "edge-desktop-russian-pattern-hydrant-en-configuration.png",
+    "edge-desktop-russian-pattern-hydrant-en-options.png",
+    "edge-desktop-russian-pattern-hydrant-ar-gallery.png",
+    "edge-desktop-russian-pattern-hydrant-ar-configuration.png",
+    "edge-desktop-russian-pattern-hydrant-ar-options.png",
+    "edge-mobile-russian-pattern-hydrant-en-gallery.png",
+    "edge-mobile-russian-pattern-hydrant-en-configuration.png",
+    "edge-mobile-russian-pattern-hydrant-en-options.png",
+    "edge-mobile-russian-pattern-hydrant-ar-gallery.png",
+    "edge-mobile-russian-pattern-hydrant-ar-configuration.png",
+    "edge-mobile-russian-pattern-hydrant-ar-options.png"
+  ]
+}
