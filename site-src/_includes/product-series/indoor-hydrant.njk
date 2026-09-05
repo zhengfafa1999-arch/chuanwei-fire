@@ -15,7 +15,7 @@
       </div>
     </section>
 
-    {% if entry.product.showGallery %}<section class="pdp-section" id="gallery">
+{% if entry.product.showGallery %}    <section class="pdp-section" id="gallery">
       <div class="pdp-container">
         <div class="pdp-heading"><div><p class="pdp-eyebrow">{{ entry.text.realProductViews }}</p><h2>{{ entry.text[entry.product.textKeys.galleryTitle] }}</h2></div><p>{{ entry.text[entry.product.textKeys.galleryIntro] }}</p></div>
         <div class="wav-gallery" data-gallery>
@@ -34,6 +34,7 @@
 
     <section class="pdp-section pdp-section--soft" id="specifications">
       <div class="pdp-container">
+{% if entry.product.showSpecificationHeading %}        <div class="pdp-heading"><div><p class="pdp-eyebrow">{{ entry.text[entry.product.textKeys.specificationEyebrow] }}</p><h2>{{ entry.text[entry.product.textKeys.specificationTitle] }}</h2></div><p>{{ entry.text[entry.product.textKeys.specificationIntro] }}</p></div>{% endif %}
         <div class="pdp-spec-layout">
           <div class="pdp-panel"><h3>{{ entry.text.seriesSpecifications }}</h3><dl class="pdp-specs">
             {% for item in entry.product.specifications %}<div><dt>{{ entry.text[item[0]] }}</dt><dd>{{ entry.text[item[1]] }}</dd></div>{% endfor %}

@@ -57,7 +57,7 @@ export const SITE_ROUTES = {
   "product:standard-indoor-hydrant": { kind: "product", category: "category:indoor-hydrants", locales: { en: published("products/室内消防栓/standard-indoor-hydrant.html"), ar: published("ar/products/standard-indoor-hydrant/index.html") } },
   "product:export-slanted-hydrant-valve": { kind: "product", category: "category:indoor-hydrants", locales: { en: published("products/室内消防栓/export-slanted-hydrant-valve.html"), ar: published("ar/products/export-slanted-hydrant-valve/index.html") } },
   "product:double-outlet-hydrant": { kind: "product", category: "category:indoor-hydrants", locales: { en: published("products/室内消防栓/double-outlet-hydrant.html"), ar: published("ar/products/double-outlet-hydrant/index.html") } },
-  "product:rotating-pressure-regulating-hydrant": { kind: "product", category: "category:indoor-hydrants", locales: { en: published("products/室内消防栓/rotating-pressure-regulating-hydrant.html"), ar: fallback("ar/products/indoor-hydrants/index.html") } },
+  "product:rotating-pressure-regulating-hydrant": { kind: "product", category: "category:indoor-hydrants", locales: { en: published("products/室内消防栓/rotating-pressure-regulating-hydrant.html"), ar: published("ar/products/rotating-pressure-regulating-hydrant/index.html") } },
 
   "product:bs750-pillar-hydrant": { kind: "product", category: "category:outdoor-hydrants", locales: { en: published("products/室外消防栓/bs750-pillar-hydrant.html"), ar: fallback("ar/products/outdoor-hydrants/index.html") } },
   "product:french-pattern-hydrant": { kind: "product", category: "category:outdoor-hydrants", locales: { en: published("products/室外消防栓/french-pattern-hydrant.html"), ar: fallback("ar/products/outdoor-hydrants/index.html") } },

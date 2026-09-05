@@ -1,0 +1,51 @@
+{
+  "scope": "single-product",
+  "product": "rotating-pressure-regulating-hydrant",
+  "previewMode": "http",
+  "generatedAt": "2026-09-05T19:32:27.680Z",
+  "browser": "Edg/152.0.4191.62",
+  "viewports": [
+    {
+      "id": "desktop",
+      "width": 1440,
+      "height": 900,
+      "deviceScaleFactor": 1,
+      "mobile": false
+    },
+    {
+      "id": "mobile",
+      "width": 390,
+      "height": 844,
+      "deviceScaleFactor": 1,
+      "mobile": true
+    }
+  ],
+  "languageSwitches": [
+    {
+      "scenario": "desktop/en: rotating-pressure-regulating-hydrant image/text category entries, reciprocal switch, refresh, single hero image zoom, three modal closes and footer returns",
+      "status": "PASS"
+    },
+    {
+      "scenario": "desktop/ar: rotating-pressure-regulating-hydrant image/text category entries, reciprocal switch, refresh, single hero image zoom, three modal closes and footer returns",
+      "status": "PASS"
+    },
+    {
+      "scenario": "mobile/en: rotating-pressure-regulating-hydrant image/text category entries, reciprocal switch, refresh, single hero image zoom, three modal closes and footer returns",
+      "status": "PASS"
+    },
+    {
+      "scenario": "mobile/ar: rotating-pressure-regulating-hydrant image/text category entries, reciprocal switch, refresh, single hero image zoom, three modal closes and footer returns",
+      "status": "PASS"
+    }
+  ],
+  "screenshots": [
+    "edge-desktop-rotating-pressure-regulating-hydrant-en-hero.png",
+    "edge-desktop-rotating-pressure-regulating-hydrant-en-models.png",
+    "edge-desktop-rotating-pressure-regulating-hydrant-ar-hero.png",
+    "edge-desktop-rotating-pressure-regulating-hydrant-ar-models.png",
+    "edge-mobile-rotating-pressure-regulating-hydrant-en-hero.png",
+    "edge-mobile-rotating-pressure-regulating-hydrant-en-models.png",
+    "edge-mobile-rotating-pressure-regulating-hydrant-ar-hero.png",
+    "edge-mobile-rotating-pressure-regulating-hydrant-ar-models.png"
+  ]
+}
