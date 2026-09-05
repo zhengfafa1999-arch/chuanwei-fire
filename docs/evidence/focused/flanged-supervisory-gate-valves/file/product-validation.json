@@ -1,0 +1,51 @@
+{
+  "scope": "single-product",
+  "product": "flanged-supervisory-gate-valves",
+  "previewMode": "file",
+  "generatedAt": "2026-09-05T17:26:50.940Z",
+  "browser": "Edg/152.0.4191.62",
+  "viewports": [
+    {
+      "id": "desktop",
+      "width": 1440,
+      "height": 900,
+      "deviceScaleFactor": 1,
+      "mobile": false
+    },
+    {
+      "id": "mobile",
+      "width": 390,
+      "height": 844,
+      "deviceScaleFactor": 1,
+      "mobile": true
+    }
+  ],
+  "languageSwitches": [
+    {
+      "scenario": "desktop/en: flanged-supervisory-gate-valves image/text category entries, reciprocal switch, refresh, single hero image zoom, three modal closes and footer returns",
+      "status": "PASS"
+    },
+    {
+      "scenario": "desktop/ar: flanged-supervisory-gate-valves image/text category entries, reciprocal switch, refresh, single hero image zoom, three modal closes and footer returns",
+      "status": "PASS"
+    },
+    {
+      "scenario": "mobile/en: flanged-supervisory-gate-valves image/text category entries, reciprocal switch, refresh, single hero image zoom, three modal closes and footer returns",
+      "status": "PASS"
+    },
+    {
+      "scenario": "mobile/ar: flanged-supervisory-gate-valves image/text category entries, reciprocal switch, refresh, single hero image zoom, three modal closes and footer returns",
+      "status": "PASS"
+    }
+  ],
+  "screenshots": [
+    "edge-desktop-flanged-supervisory-gate-valves-en-hero.png",
+    "edge-desktop-flanged-supervisory-gate-valves-en-models.png",
+    "edge-desktop-flanged-supervisory-gate-valves-ar-hero.png",
+    "edge-desktop-flanged-supervisory-gate-valves-ar-models.png",
+    "edge-mobile-flanged-supervisory-gate-valves-en-hero.png",
+    "edge-mobile-flanged-supervisory-gate-valves-en-models.png",
+    "edge-mobile-flanged-supervisory-gate-valves-ar-hero.png",
+    "edge-mobile-flanged-supervisory-gate-valves-ar-models.png"
+  ]
+}

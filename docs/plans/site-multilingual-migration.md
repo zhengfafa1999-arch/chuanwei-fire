@@ -8,9 +8,9 @@
 
 ## 当前基线
 
-- 正式站点 HTML：81 个
-- 已由共享模板生成：69 个
-- 待迁移手写页面：12 个，均为英文产品详情页。
+- 正式站点 HTML：82 个
+- 已由共享模板生成：71 个
+- 待迁移手写页面：11 个，均为英文产品详情页。
 - 已完成：首页、产品总目录、关于我们、下载中心、联系页面、九个产品分类页、湿式报警阀、隔膜式雨淋阀、预作用阀组、干式报警阀、水幕喷头、水雾喷头、标准响应消防喷头及其英文/阿拉伯文输出。
 - 当前路由注册表：46 个逻辑路由，注册并覆盖全部 78 个正式 HTML；中文首页使用独立 `/zh/` 地址，旧 `/?lang=zh` 自动跳转兼容。
 - MIG-204 已完成玻璃球快速响应喷头迁移；文件与 HTTP 单款检查均通过，保留 6 行型号和 5 张原图。报告：`docs/execution/2026-09-05_quick-response-language-migration.md`。
@@ -86,7 +86,7 @@
 
 ## 第六阶段：消防闸阀
 
-- [ ] **MIG-501 法兰信号闸阀**：`flanged-supervisory-gate-valves.html`。
+- [x] **MIG-501 法兰信号闸阀**：保留英文原文、6 行型号、单张主图和原版式；建立闸阀共享模板并生成英阿详情，文件/HTTP 单款语言、分类、主图放大和手机布局验收通过。报告：`docs/execution/2026-09-06_flanged-supervisory-gate-valve-language-migration.md`。
 - [ ] **MIG-502 沟槽信号闸阀**：`grooved-supervisory-gate-valves.html`。
 - [ ] **MIG-503 暗杆闸阀（NRS）**：`nrs-gate-valves.html`。
 - [ ] **MIG-504 明杆闸阀（OS&Y）**：`osy-gate-valves.html`。

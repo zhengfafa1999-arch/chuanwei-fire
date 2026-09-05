@@ -279,7 +279,7 @@ async function run() {
     const source = path.join(root, 'site-src', '_data', 'preserved-products', `${focusedSlug}.json`);
     assert(fs.existsSync(source), `No shared product source for ${focusedSlug}; add a targeted test adapter before testing this product.`);
     focusedProduct = JSON.parse(fs.readFileSync(source, 'utf8'));
-    assert(['product-series/quick-response.njk', 'product-series/standard-response.njk', 'product-series/concealed-pendent.njk', 'product-series/dry-pendent.njk', 'product-series/extended-coverage.njk', 'product-series/large-k-esfr.njk', 'product-series/ria25-hose-reel.njk', 'product-series/straight-stream-hose-reel.njk', 'product-series/jet-spray-hose-reel.njk', 'product-series/heavy-duty-hose-reel.njk', 'product-series/butterfly-valve.njk'].includes(focusedProduct.template), 'This template needs its own targeted interaction adapter; do not silently skip its checks.');
+    assert(['product-series/quick-response.njk', 'product-series/standard-response.njk', 'product-series/concealed-pendent.njk', 'product-series/dry-pendent.njk', 'product-series/extended-coverage.njk', 'product-series/large-k-esfr.njk', 'product-series/ria25-hose-reel.njk', 'product-series/straight-stream-hose-reel.njk', 'product-series/jet-spray-hose-reel.njk', 'product-series/heavy-duty-hose-reel.njk', 'product-series/butterfly-valve.njk', 'product-series/gate-valve.njk'].includes(focusedProduct.template), 'This template needs its own targeted interaction adapter; do not silently skip its checks.');
   }
   if (focusedCategoryId) {
     assert(SITE_ROUTES[focusedCategoryId]?.kind === 'category', `No registered category route for ${focusedCategorySlug}.`);

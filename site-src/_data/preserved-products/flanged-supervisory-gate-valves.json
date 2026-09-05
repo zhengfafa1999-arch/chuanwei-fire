@@ -1,0 +1,599 @@
+{
+  "id": "flanged-supervisory-gate-valves",
+  "routeId": "product:flanged-supervisory-gate-valves",
+  "template": "product-series/gate-valve.njk",
+  "source": {
+    "path": "products/消防阀门/flanged-supervisory-gate-valves.html",
+    "revision": "17115ec",
+    "status": "preserved-existing-content-not-reaudited"
+  },
+  "media": {
+    "hero": "products/消防阀门/flanged-supervisory-gate-valves/flanged-supervisory-gate-valve.jpg"
+  },
+  "hero": {
+    "width": 2329,
+    "height": 3637
+  },
+  "textKeys": {
+    "eyebrow": "supervisoryFireGateValve",
+    "title": "flangedSupervisoryGateValve",
+    "lead": "flangedEndGateValveWithSupervisorySwitch",
+    "note": "flangeDrillingSwitchSpecificationAndMarking",
+    "imageAria": "enlargeFlangedSupervisoryGateValveImage",
+    "imageAlt": "flangedSupervisoryFireGateValveWithHandwheel",
+    "technicalIntro": "criticalProductDataNationalRequirement",
+    "sideTitle": "supervisorySwitch",
+    "modelIntro": "internationalSizeAndConnectionZSXZF4Q",
+    "optionsNote": "forQuotationSpecifyDNSizeFlangeDrilling",
+    "manufacturingNote": "manufacturingOptionsConfirmedAgainstBuyerSchedule",
+    "ctaTitle": "sendYourSupervisoryGateValveSchedule",
+    "ctaText": "includeSizeSwitchSpecificationQuantityDestination",
+    "modalAlt": "enlargedFlangedSupervisoryGateValve"
+  },
+  "chips": [
+    "sizeRangeChip",
+    "inchRangeChip",
+    "flanged",
+    "pressureChip",
+    "supervisorySwitch"
+  ],
+  "specifications": [
+    [
+      "productType",
+      "flangedSupervisoryGateValve"
+    ],
+    [
+      "availableSizes",
+      "availableSizeRange"
+    ],
+    [
+      "connection",
+      "flanged"
+    ],
+    [
+      "workingPressure",
+      "workingPressureValue"
+    ],
+    [
+      "strengthTestPressure",
+      "strengthTestPressureValue"
+    ],
+    [
+      "sealTestPressure",
+      "sealTestPressureValue"
+    ],
+    [
+      "bodyCover",
+      "ductileIronQT45010RedEpoxy"
+    ],
+    [
+      "disc",
+      "ductileIronCoreEPDMNBR"
+    ],
+    [
+      "stem",
+      "stemMaterial"
+    ],
+    [
+      "stemNut",
+      "tinBronze"
+    ],
+    [
+      "seal",
+      "sealMaterial"
+    ],
+    [
+      "installation",
+      "installationSummary"
+    ]
+  ],
+  "operationCards": [
+    [
+      "signalContact",
+      "signalContactValue",
+      "dryContact"
+    ],
+    [
+      "wiring",
+      "wiringValue",
+      "wireColors"
+    ],
+    [
+      "signalLogic",
+      "fullOpenNoSignal",
+      "alarmBelowTravel"
+    ],
+    [
+      "inputModule",
+      "polarityFree",
+      "inputCable"
+    ]
+  ],
+  "disclaimers": [
+    [
+      "configurationNote",
+      "switchMakeContactFormCableEntry"
+    ],
+    [
+      "installationData",
+      "installationDetailed"
+    ]
+  ],
+  "models": [
+    [
+      "flangedSupervisoryGateValve",
+      "dN502In",
+      "pressure16MPa",
+      "zSXZF4Q5016"
+    ],
+    [
+      "flangedSupervisoryGateValve",
+      "dN652HalfIn",
+      "pressure16MPa",
+      "zSXZF4Q6516"
+    ],
+    [
+      "flangedSupervisoryGateValve",
+      "dN803In",
+      "pressure16MPa",
+      "zSXZF4Q8016"
+    ],
+    [
+      "flangedSupervisoryGateValve",
+      "dN1004In",
+      "pressure16MPa",
+      "zSXZF4Q10016"
+    ],
+    [
+      "flangedSupervisoryGateValve",
+      "dN1506In",
+      "pressure16MPa",
+      "zSXZF4Q15016"
+    ],
+    [
+      "flangedSupervisoryGateValve",
+      "dN2008In",
+      "pressure16MPa",
+      "zSXZF4Q20016"
+    ]
+  ],
+  "oemCards": [
+    [
+      "flangeMachining",
+      "flangeDrillingProducedToApprovedDrawing"
+    ],
+    [
+      "switchConfiguration",
+      "microSwitchReviewedBeforeManufacturing"
+    ],
+    [
+      "brandPresentation",
+      "customNameplateLogoCoatingColor"
+    ],
+    [
+      "exportPacking",
+      "cartonOrWoodenCasePacking"
+    ]
+  ],
+  "inquiry": {
+    "whatsapp": "https://wa.me/8617326528368?text=Hello%2C%20I%20need%20a%20quotation%20for%20Flanged%20Supervisory%20Gate%20Valves.%20Size%3A%20%5BDN%2Finch%5D%2C%20switch%20requirement%3A%20%5Bdetails%5D%2C%20quantity%3A%20%5Bpcs%5D%2C%20destination%3A%20%5Bcountry%5D.",
+    "email": "mailto:zhengcolin1@gmail.com?subject=Flanged%20Supervisory%20Gate%20Valve%20Inquiry"
+  },
+  "copy": {
+    "specifications": {
+      "text": "Specifications",
+      "numbers": []
+    },
+    "availableModels": {
+      "text": "Available models",
+      "numbers": []
+    },
+    "oEMODM": {
+      "text": "OEM / ODM",
+      "numbers": []
+    },
+    "supervisoryFireGateValve": {
+      "text": "Supervisory Fire Gate Valve",
+      "numbers": []
+    },
+    "flangedSupervisoryGateValve": {
+      "text": "Flanged Supervisory Gate Valve",
+      "numbers": []
+    },
+    "flangedEndGateValveWithSupervisorySwitch": {
+      "text": "A flanged-end gate valve with a supervisory switch arrangement for electrical monitoring of open/closed position. The switch signals valve position to a fire alarm or monitoring panel.",
+      "numbers": []
+    },
+    "sizeRangeChip": {
+      "text": "DN{n0}–DN{n1}",
+      "numbers": [
+        "50",
+        "200"
+      ]
+    },
+    "inchRangeChip": {
+      "text": "{n0}–{n1} in",
+      "numbers": [
+        "2",
+        "8"
+      ]
+    },
+    "flanged": {
+      "text": "Flanged",
+      "numbers": []
+    },
+    "pressureChip": {
+      "text": "{n0} MPa / {n1} bar",
+      "numbers": [
+        "1.6",
+        "16"
+      ]
+    },
+    "supervisorySwitch": {
+      "text": "Supervisory switch",
+      "numbers": []
+    },
+    "askOnWhatsApp": {
+      "text": "Ask on WhatsApp",
+      "numbers": []
+    },
+    "viewAvailableModels": {
+      "text": "View available models",
+      "numbers": []
+    },
+    "flangeDrillingSwitchSpecificationAndMarking": {
+      "text": "Flange drilling, switch specification and marking are confirmed against the approved drawing, sample or order schedule before production.",
+      "numbers": []
+    },
+    "technicalOverview": {
+      "text": "Technical overview",
+      "numbers": []
+    },
+    "confirmedConstructionAndOperatingData": {
+      "text": "Confirmed construction and operating data",
+      "numbers": []
+    },
+    "criticalProductDataNationalRequirement": {
+      "text": "Critical product data is presented in HTML for clear international sourcing. The valve is type-tested to a national requirement; no foreign approval is claimed on this page.",
+      "numbers": []
+    },
+    "seriesSpecifications": {
+      "text": "Series specifications",
+      "numbers": []
+    },
+    "productType": {
+      "text": "Product type",
+      "numbers": []
+    },
+    "availableSizes": {
+      "text": "Available sizes",
+      "numbers": []
+    },
+    "availableSizeRange": {
+      "text": "DN{n0} / {n1} in to DN{n2} / {n3} in",
+      "numbers": [
+        "50",
+        "2",
+        "200",
+        "8"
+      ]
+    },
+    "connection": {
+      "text": "Connection",
+      "numbers": []
+    },
+    "workingPressure": {
+      "text": "Working pressure",
+      "numbers": []
+    },
+    "workingPressureValue": {
+      "text": "{n0} MPa / {n1} bar / approx. {n2} psi",
+      "numbers": [
+        "1.6",
+        "16",
+        "232"
+      ]
+    },
+    "strengthTestPressure": {
+      "text": "Strength test pressure",
+      "numbers": []
+    },
+    "strengthTestPressureValue": {
+      "text": "{n0} MPa",
+      "numbers": [
+        "2.4"
+      ]
+    },
+    "sealTestPressure": {
+      "text": "Seal test pressure",
+      "numbers": []
+    },
+    "sealTestPressureValue": {
+      "text": "{n0} MPa",
+      "numbers": [
+        "1.76"
+      ]
+    },
+    "bodyCover": {
+      "text": "Body & cover",
+      "numbers": []
+    },
+    "ductileIronQT45010RedEpoxy": {
+      "text": "Ductile iron QT{n0}-{n1}, red epoxy coating",
+      "numbers": [
+        "450",
+        "10"
+      ]
+    },
+    "disc": {
+      "text": "Disc",
+      "numbers": []
+    },
+    "ductileIronCoreEPDMNBR": {
+      "text": "Ductile iron core, EPDM/NBR encapsulated",
+      "numbers": []
+    },
+    "stem": {
+      "text": "Stem",
+      "numbers": []
+    },
+    "stemMaterial": {
+      "text": "{n0}Cr{n1} / {n2} stainless steel",
+      "numbers": [
+        "20",
+        "13",
+        "304"
+      ]
+    },
+    "stemNut": {
+      "text": "Stem nut",
+      "numbers": []
+    },
+    "tinBronze": {
+      "text": "Tin bronze",
+      "numbers": []
+    },
+    "seal": {
+      "text": "Seal",
+      "numbers": []
+    },
+    "sealMaterial": {
+      "text": "EPDM or NBR, three O-rings",
+      "numbers": []
+    },
+    "installation": {
+      "text": "Installation",
+      "numbers": []
+    },
+    "installationSummary": {
+      "text": "Bidirectional flow; vertical install with handwheel up; not inverted",
+      "numbers": []
+    },
+    "signalContact": {
+      "text": "Signal contact",
+      "numbers": []
+    },
+    "signalContactValue": {
+      "text": "DC {n0} V / AC {n1} V",
+      "numbers": [
+        "24",
+        "220"
+      ]
+    },
+    "dryContact": {
+      "text": "{n0} A, dry contact",
+      "numbers": [
+        "3"
+      ]
+    },
+    "wiring": {
+      "text": "Wiring",
+      "numbers": []
+    },
+    "wiringValue": {
+      "text": "COM / NO / NC",
+      "numbers": []
+    },
+    "wireColors": {
+      "text": "red / yellow / green",
+      "numbers": []
+    },
+    "signalLogic": {
+      "text": "Signal logic",
+      "numbers": []
+    },
+    "fullOpenNoSignal": {
+      "text": "Full open = no signal",
+      "numbers": []
+    },
+    "alarmBelowTravel": {
+      "text": "alarm below {n0}% travel",
+      "numbers": [
+        "80"
+      ]
+    },
+    "inputModule": {
+      "text": "Input module",
+      "numbers": []
+    },
+    "polarityFree": {
+      "text": "Polarity-free",
+      "numbers": []
+    },
+    "inputCable": {
+      "text": "NH-RVS {n0}×{n1} mm²",
+      "numbers": [
+        "2",
+        "1.5"
+      ]
+    },
+    "configurationNote": {
+      "text": "Configuration note",
+      "numbers": []
+    },
+    "switchMakeContactFormCableEntry": {
+      "text": "Switch make, contact form and cable entry are supplied according to the confirmed order configuration.",
+      "numbers": []
+    },
+    "installationData": {
+      "text": "Installation data",
+      "numbers": []
+    },
+    "installationDetailed": {
+      "text": "Bidirectional flow; vertical installation with handwheel upward; inverted installation is not permitted.",
+      "numbers": []
+    },
+    "configurationsForQuotation": {
+      "text": "Configurations for quotation",
+      "numbers": []
+    },
+    "internationalSizeAndConnectionZSXZF4Q": {
+      "text": "International size and connection are the primary selection fields. ZSXZF{n0}-Q codes are retained only as factory references.",
+      "numbers": [
+        "4"
+      ]
+    },
+    "internationalConfiguration": {
+      "text": "International configuration",
+      "numbers": []
+    },
+    "nominalSize": {
+      "text": "Nominal size",
+      "numbers": []
+    },
+    "factoryReference": {
+      "text": "Factory reference",
+      "numbers": []
+    },
+    "forQuotationSpecifyDNSizeFlangeDrilling": {
+      "text": "For quotation, specify DN size, flange drilling requirement, switch specification and quantity. Flange drilling and groove dimension tables are available on request.",
+      "numbers": []
+    },
+    "oEMODMCapability": {
+      "text": "OEM / ODM capability",
+      "numbers": []
+    },
+    "configuredToTheApprovedDrawingOrSample": {
+      "text": "Configured to the approved drawing or sample",
+      "numbers": []
+    },
+    "manufacturingOptionsConfirmedAgainstBuyerSchedule": {
+      "text": "Manufacturing options are confirmed against the buyer's technical schedule. Connection-standard names describe available machining patterns and do not imply third-party product approval.",
+      "numbers": []
+    },
+    "flangeMachining": {
+      "text": "Flange machining",
+      "numbers": []
+    },
+    "flangeDrillingProducedToApprovedDrawing": {
+      "text": "Flange drilling produced to the approved drawing or flange standard.",
+      "numbers": []
+    },
+    "switchConfiguration": {
+      "text": "Switch configuration",
+      "numbers": []
+    },
+    "microSwitchReviewedBeforeManufacturing": {
+      "text": "Micro-switch make, contact form and enclosure reviewed before manufacturing.",
+      "numbers": []
+    },
+    "brandPresentation": {
+      "text": "Brand presentation",
+      "numbers": []
+    },
+    "customNameplateLogoCoatingColor": {
+      "text": "Custom nameplate, logo and coating color.",
+      "numbers": []
+    },
+    "exportPacking": {
+      "text": "Export packing",
+      "numbers": []
+    },
+    "cartonOrWoodenCasePacking": {
+      "text": "Carton or wooden-case packing prepared according to the order.",
+      "numbers": []
+    },
+    "sendYourSupervisoryGateValveSchedule": {
+      "text": "Send your supervisory gate valve schedule",
+      "numbers": []
+    },
+    "includeSizeSwitchSpecificationQuantityDestination": {
+      "text": "Include size, switch specification, quantity and destination country.",
+      "numbers": []
+    },
+    "whatsAppInquiry": {
+      "text": "WhatsApp inquiry",
+      "numbers": []
+    },
+    "emailSales": {
+      "text": "Email sales",
+      "numbers": []
+    },
+    "onThisPage": {
+      "text": "On this page",
+      "numbers": []
+    },
+    "enlargeFlangedSupervisoryGateValveImage": {
+      "text": "Enlarge flanged supervisory gate valve image",
+      "numbers": []
+    },
+    "flangedSupervisoryFireGateValveWithHandwheel": {
+      "text": "Flanged supervisory fire gate valve with handwheel, switch enclosure and product label",
+      "numbers": []
+    },
+    "productImagePreview": {
+      "text": "Product image preview",
+      "numbers": []
+    },
+    "closeImagePreview": {
+      "text": "Close image preview",
+      "numbers": []
+    },
+    "enlargedFlangedSupervisoryGateValve": {
+      "text": "Enlarged flanged supervisory gate valve",
+      "numbers": []
+    },
+    "whatsAppChat": {
+      "text": "WhatsApp Chat",
+      "numbers": []
+    },
+    "facebookPage": {
+      "text": "Facebook Page",
+      "numbers": []
+    },
+    "linkedInProfile": {
+      "text": "LinkedIn Profile",
+      "numbers": []
+    },
+    "seoTitle": {
+      "text": "Flanged Supervisory Gate Valve | DN{n0}–DN{n1} | CHUANWEI FIRE",
+      "numbers": [
+        "50",
+        "200"
+      ]
+    },
+    "seoDescription": {
+      "text": "Flanged supervisory fire gate valves with position switch in DN{n0} to DN{n1}, {n2} MPa, ductile iron body with EPDM/NBR encapsulated disc and OEM/ODM support.",
+      "numbers": [
+        "50",
+        "200",
+        "1.6"
+      ]
+    }
+  },
+  "shared": {
+    "dN502In": "DN50 / 2 in",
+    "dN652HalfIn": "DN65 / 2½ in",
+    "dN803In": "DN80 / 3 in",
+    "dN1004In": "DN100 / 4 in",
+    "dN1506In": "DN150 / 6 in",
+    "dN2008In": "DN200 / 8 in",
+    "pressure16MPa": "1.6 MPa",
+    "zSXZF4Q5016": "ZSXZF4-Q-50-16",
+    "zSXZF4Q6516": "ZSXZF4-Q-65-16",
+    "zSXZF4Q8016": "ZSXZF4-Q-80-16",
+    "zSXZF4Q10016": "ZSXZF4-Q-100-16",
+    "zSXZF4Q15016": "ZSXZF4-Q-150-16",
+    "zSXZF4Q20016": "ZSXZF4-Q-200-16"
+  }
+}
