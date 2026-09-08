@@ -50,7 +50,8 @@ for (const entry of catalog) {
   for (const relative of Object.values(entry.media)) {
     assert(fs.existsSync(path.resolve(path.dirname(output), relative)), `${product.id}/${lang}: broken generated image path ${relative}`);
   }
-  for (const required of ["ZSTZ.X 80-72°C Y", "ZSTZ.X 80-204°C Y", "K5.6 US / K80 metric", "½ in nominal connection class"]) {
+  assert(Array.isArray(product.validation?.requiredTechnicalValues), `${product.id}: required technical validation values are missing`);
+  for (const required of product.validation.requiredTechnicalValues) {
     assert(html.includes(required), `${product.id}/${lang}: confirmed technical value missing: ${required}`);
   }
 }

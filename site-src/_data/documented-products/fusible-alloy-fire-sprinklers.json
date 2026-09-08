@@ -71,7 +71,15 @@
     { "label": "operatingRequirement", "body": "operatingRequirementBody" },
     { "label": "orderInformation", "body": "orderInformationBody" }
   ],
-  "validation": { "anchors": ["gallery", "specifications", "models", "quotation"] },
+  "validation": {
+    "anchors": ["gallery", "specifications", "models", "quotation"],
+    "requiredTechnicalValues": [
+      "ZSTZ.X 80-72°C Y",
+      "ZSTZ.X 80-204°C Y",
+      "K5.6 US / K80 metric",
+      "½ in nominal connection class"
+    ]
+  },
   "inquiry": {
     "whatsapp": "https://wa.me/8617326528368?text=Hello%2C%20I%20need%20a%20quotation%20for%20Fusible-Alloy%20Fire%20Sprinklers.%20Orientation%3A%20%5Bupright%2Fpendent%5D%2C%20temperature%3A%20%5Brating%5D%2C%20thread%3A%20%5Brequirement%5D%2C%20quantity%3A%20%5Bpcs%5D%2C%20destination%3A%20%5Bcountry%5D.",
     "email": "mailto:zhengcolin1@gmail.com?subject=Fusible-Alloy%20Fire%20Sprinkler%20Inquiry"
