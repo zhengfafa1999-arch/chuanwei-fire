@@ -171,7 +171,8 @@ export const PRODUCT_FAMILIES = [
       ["product:alternative-freestanding-fdc-configurations", "Alternative Freestanding Configurations", "تكوينات أرضية بديلة", "products/消防水泵接合器/DSC_5714.jpg"],
       ["product:underground-fdc-assemblies", "Underground FDC Assemblies", "مجموعات FDC تحت الأرض", "products/消防水泵接合器/DSC_5705.jpg"],
       ["product:wall-mounted-grooved-fdc-families", "Wall-Mounted & Grooved Families", "فئات جدارية ومحززة", "products/消防水泵接合器/DSC_5709.jpg"],
-      ["product:breeching-inlets", "Breeching Inlets", "مداخل تغذية أنظمة الحريق", "products/消防水泵接合器/breeching-inlets/two-way-breeching-inlet.jpg"]
+      ["product:breeching-inlets", "Breeching Inlets", "مداخل تغذية أنظمة الحريق", "products/消防水泵接合器/breeching-inlets/two-way-breeching-inlet.jpg"],
+      ["product:russian-pattern-fire-department-connection", "Russian-Pattern Fire Department Connection", "وصلة تغذية حريق بالنمط الروسي", "products/消防水泵接合器/russian-pattern-fire-department-connection/65-16k-65-front.png"]
     ]
   }
 ].map((family) => ({

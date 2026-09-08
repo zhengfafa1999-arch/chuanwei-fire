@@ -289,11 +289,11 @@ console.log("Hose/nozzle/coupling category validation passed: five families, ten
 const fdcIds = [
   "product:freestanding-above-ground-fdcs", "product:alternative-freestanding-fdc-configurations",
   "product:underground-fdc-assemblies", "product:wall-mounted-grooved-fdc-families",
-  "product:breeching-inlets"
+  "product:breeching-inlets", "product:russian-pattern-fire-department-connection"
 ];
 const fdcFamily = PRODUCT_FAMILIES.find(family => family.routeId === "category:fire-department-connections");
 assert(JSON.stringify(fdcFamily.products.map(product => product.routeId)) === JSON.stringify(fdcIds),
-  "FDC category must retain its existing families and append the breeching-inlet family.");
+  "FDC category must retain its existing families and append the confirmed new connection families.");
 for (const locale of SUPPORTED_LOCALES) {
   const { html, route } = validateListingShell(fdcFamily.routeId, locale);
   const cards = [...html.matchAll(/<article class="product-card">([\s\S]*?)<\/article>/g)].map(match => match[1]);

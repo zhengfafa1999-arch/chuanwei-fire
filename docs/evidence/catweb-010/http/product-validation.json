@@ -1,0 +1,102 @@
+{
+  "scope": "single-product",
+  "products": [
+    "russian-pattern-fire-department-connection"
+  ],
+  "previewMode": "http",
+  "generatedAt": "2026-09-08T17:22:39.505Z",
+  "browser": "Edg/152.0.4191.66",
+  "viewports": [
+    {
+      "id": "desktop",
+      "width": 1440,
+      "height": 900,
+      "deviceScaleFactor": 1,
+      "mobile": false
+    },
+    {
+      "id": "mobile",
+      "width": 390,
+      "height": 844,
+      "deviceScaleFactor": 1,
+      "mobile": true
+    }
+  ],
+  "validations": [
+    {
+      "slug": "russian-pattern-fire-department-connection",
+      "languageSwitches": [
+        {
+          "scenario": "desktop/en: russian-pattern-fire-department-connection image/text category entries, reciprocal switch, refresh, 1-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+          "status": "PASS"
+        },
+        {
+          "scenario": "desktop/ar: russian-pattern-fire-department-connection image/text category entries, reciprocal switch, refresh, 1-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+          "status": "PASS"
+        },
+        {
+          "scenario": "mobile/en: russian-pattern-fire-department-connection image/text category entries, reciprocal switch, refresh, 1-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+          "status": "PASS"
+        },
+        {
+          "scenario": "mobile/ar: russian-pattern-fire-department-connection image/text category entries, reciprocal switch, refresh, 1-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+          "status": "PASS"
+        }
+      ],
+      "screenshots": [
+        "edge-desktop-russian-pattern-fire-department-connection-en-gallery.png",
+        "edge-desktop-russian-pattern-fire-department-connection-en-specifications.png",
+        "edge-desktop-russian-pattern-fire-department-connection-en-models.png",
+        "edge-desktop-russian-pattern-fire-department-connection-en-quotation.png",
+        "edge-desktop-russian-pattern-fire-department-connection-ar-gallery.png",
+        "edge-desktop-russian-pattern-fire-department-connection-ar-specifications.png",
+        "edge-desktop-russian-pattern-fire-department-connection-ar-models.png",
+        "edge-desktop-russian-pattern-fire-department-connection-ar-quotation.png",
+        "edge-mobile-russian-pattern-fire-department-connection-en-gallery.png",
+        "edge-mobile-russian-pattern-fire-department-connection-en-specifications.png",
+        "edge-mobile-russian-pattern-fire-department-connection-en-models.png",
+        "edge-mobile-russian-pattern-fire-department-connection-en-quotation.png",
+        "edge-mobile-russian-pattern-fire-department-connection-ar-gallery.png",
+        "edge-mobile-russian-pattern-fire-department-connection-ar-specifications.png",
+        "edge-mobile-russian-pattern-fire-department-connection-ar-models.png",
+        "edge-mobile-russian-pattern-fire-department-connection-ar-quotation.png"
+      ]
+    }
+  ],
+  "languageSwitches": [
+    {
+      "scenario": "desktop/en: russian-pattern-fire-department-connection image/text category entries, reciprocal switch, refresh, 1-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+      "status": "PASS"
+    },
+    {
+      "scenario": "desktop/ar: russian-pattern-fire-department-connection image/text category entries, reciprocal switch, refresh, 1-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+      "status": "PASS"
+    },
+    {
+      "scenario": "mobile/en: russian-pattern-fire-department-connection image/text category entries, reciprocal switch, refresh, 1-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+      "status": "PASS"
+    },
+    {
+      "scenario": "mobile/ar: russian-pattern-fire-department-connection image/text category entries, reciprocal switch, refresh, 1-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+      "status": "PASS"
+    }
+  ],
+  "screenshots": [
+    "edge-desktop-russian-pattern-fire-department-connection-en-gallery.png",
+    "edge-desktop-russian-pattern-fire-department-connection-en-specifications.png",
+    "edge-desktop-russian-pattern-fire-department-connection-en-models.png",
+    "edge-desktop-russian-pattern-fire-department-connection-en-quotation.png",
+    "edge-desktop-russian-pattern-fire-department-connection-ar-gallery.png",
+    "edge-desktop-russian-pattern-fire-department-connection-ar-specifications.png",
+    "edge-desktop-russian-pattern-fire-department-connection-ar-models.png",
+    "edge-desktop-russian-pattern-fire-department-connection-ar-quotation.png",
+    "edge-mobile-russian-pattern-fire-department-connection-en-gallery.png",
+    "edge-mobile-russian-pattern-fire-department-connection-en-specifications.png",
+    "edge-mobile-russian-pattern-fire-department-connection-en-models.png",
+    "edge-mobile-russian-pattern-fire-department-connection-en-quotation.png",
+    "edge-mobile-russian-pattern-fire-department-connection-ar-gallery.png",
+    "edge-mobile-russian-pattern-fire-department-connection-ar-specifications.png",
+    "edge-mobile-russian-pattern-fire-department-connection-ar-models.png",
+    "edge-mobile-russian-pattern-fire-department-connection-ar-quotation.png"
+  ]
+}
