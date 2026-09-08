@@ -1,0 +1,102 @@
+{
+  "scope": "single-product",
+  "products": [
+    "horizontal-handwheel-landing-valves"
+  ],
+  "previewMode": "http",
+  "generatedAt": "2026-09-08T16:38:46.353Z",
+  "browser": "Edg/152.0.4191.66",
+  "viewports": [
+    {
+      "id": "desktop",
+      "width": 1440,
+      "height": 900,
+      "deviceScaleFactor": 1,
+      "mobile": false
+    },
+    {
+      "id": "mobile",
+      "width": 390,
+      "height": 844,
+      "deviceScaleFactor": 1,
+      "mobile": true
+    }
+  ],
+  "validations": [
+    {
+      "slug": "horizontal-handwheel-landing-valves",
+      "languageSwitches": [
+        {
+          "scenario": "desktop/en: horizontal-handwheel-landing-valves image/text category entries, reciprocal switch, refresh, 2-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+          "status": "PASS"
+        },
+        {
+          "scenario": "desktop/ar: horizontal-handwheel-landing-valves image/text category entries, reciprocal switch, refresh, 2-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+          "status": "PASS"
+        },
+        {
+          "scenario": "mobile/en: horizontal-handwheel-landing-valves image/text category entries, reciprocal switch, refresh, 2-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+          "status": "PASS"
+        },
+        {
+          "scenario": "mobile/ar: horizontal-handwheel-landing-valves image/text category entries, reciprocal switch, refresh, 2-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+          "status": "PASS"
+        }
+      ],
+      "screenshots": [
+        "edge-desktop-horizontal-handwheel-landing-valves-en-gallery.png",
+        "edge-desktop-horizontal-handwheel-landing-valves-en-specifications.png",
+        "edge-desktop-horizontal-handwheel-landing-valves-en-models.png",
+        "edge-desktop-horizontal-handwheel-landing-valves-en-quotation.png",
+        "edge-desktop-horizontal-handwheel-landing-valves-ar-gallery.png",
+        "edge-desktop-horizontal-handwheel-landing-valves-ar-specifications.png",
+        "edge-desktop-horizontal-handwheel-landing-valves-ar-models.png",
+        "edge-desktop-horizontal-handwheel-landing-valves-ar-quotation.png",
+        "edge-mobile-horizontal-handwheel-landing-valves-en-gallery.png",
+        "edge-mobile-horizontal-handwheel-landing-valves-en-specifications.png",
+        "edge-mobile-horizontal-handwheel-landing-valves-en-models.png",
+        "edge-mobile-horizontal-handwheel-landing-valves-en-quotation.png",
+        "edge-mobile-horizontal-handwheel-landing-valves-ar-gallery.png",
+        "edge-mobile-horizontal-handwheel-landing-valves-ar-specifications.png",
+        "edge-mobile-horizontal-handwheel-landing-valves-ar-models.png",
+        "edge-mobile-horizontal-handwheel-landing-valves-ar-quotation.png"
+      ]
+    }
+  ],
+  "languageSwitches": [
+    {
+      "scenario": "desktop/en: horizontal-handwheel-landing-valves image/text category entries, reciprocal switch, refresh, 2-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+      "status": "PASS"
+    },
+    {
+      "scenario": "desktop/ar: horizontal-handwheel-landing-valves image/text category entries, reciprocal switch, refresh, 2-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+      "status": "PASS"
+    },
+    {
+      "scenario": "mobile/en: horizontal-handwheel-landing-valves image/text category entries, reciprocal switch, refresh, 2-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+      "status": "PASS"
+    },
+    {
+      "scenario": "mobile/ar: horizontal-handwheel-landing-valves image/text category entries, reciprocal switch, refresh, 2-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+      "status": "PASS"
+    }
+  ],
+  "screenshots": [
+    "edge-desktop-horizontal-handwheel-landing-valves-en-gallery.png",
+    "edge-desktop-horizontal-handwheel-landing-valves-en-specifications.png",
+    "edge-desktop-horizontal-handwheel-landing-valves-en-models.png",
+    "edge-desktop-horizontal-handwheel-landing-valves-en-quotation.png",
+    "edge-desktop-horizontal-handwheel-landing-valves-ar-gallery.png",
+    "edge-desktop-horizontal-handwheel-landing-valves-ar-specifications.png",
+    "edge-desktop-horizontal-handwheel-landing-valves-ar-models.png",
+    "edge-desktop-horizontal-handwheel-landing-valves-ar-quotation.png",
+    "edge-mobile-horizontal-handwheel-landing-valves-en-gallery.png",
+    "edge-mobile-horizontal-handwheel-landing-valves-en-specifications.png",
+    "edge-mobile-horizontal-handwheel-landing-valves-en-models.png",
+    "edge-mobile-horizontal-handwheel-landing-valves-en-quotation.png",
+    "edge-mobile-horizontal-handwheel-landing-valves-ar-gallery.png",
+    "edge-mobile-horizontal-handwheel-landing-valves-ar-specifications.png",
+    "edge-mobile-horizontal-handwheel-landing-valves-ar-models.png",
+    "edge-mobile-horizontal-handwheel-landing-valves-ar-quotation.png"
+  ]
+}

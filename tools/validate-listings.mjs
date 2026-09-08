@@ -215,11 +215,11 @@ console.log("Gate-valve category validation passed: four families, eight localiz
 const indoorHydrantIds = [
   "product:standard-indoor-hydrant", "product:export-slanted-hydrant-valve",
   "product:double-outlet-hydrant", "product:rotating-pressure-regulating-hydrant",
-  "product:straight-through-oblique-landing-valves"
+  "product:straight-through-oblique-landing-valves", "product:horizontal-handwheel-landing-valves"
 ];
 const indoorHydrantFamily = PRODUCT_FAMILIES.find(family => family.routeId === "category:indoor-hydrants");
 assert(JSON.stringify(indoorHydrantFamily.products.map(product => product.routeId)) === JSON.stringify(indoorHydrantIds),
-  "Indoor hydrant category must retain its existing families and the straight-through/oblique series in the approved order.");
+  "Indoor hydrant category must retain its existing families and the added landing-valve series in the approved order.");
 for (const locale of SUPPORTED_LOCALES) {
   const { html, route } = validateListingShell(indoorHydrantFamily.routeId, locale);
   const cards = [...html.matchAll(/<article class="product-card">([\s\S]*?)<\/article>/g)].map(match => match[1]);

@@ -61,6 +61,7 @@ export const SITE_ROUTES = {
   "product:double-outlet-hydrant": { kind: "product", category: "category:indoor-hydrants", locales: { en: published("products/室内消防栓/double-outlet-hydrant.html"), ar: published("ar/products/double-outlet-hydrant/index.html") } },
   "product:rotating-pressure-regulating-hydrant": { kind: "product", category: "category:indoor-hydrants", locales: { en: published("products/室内消防栓/rotating-pressure-regulating-hydrant.html"), ar: published("ar/products/rotating-pressure-regulating-hydrant/index.html") } },
   "product:straight-through-oblique-landing-valves": { kind: "product", category: "category:indoor-hydrants", locales: { en: published("products/室内消防栓/straight-through-oblique-landing-valves.html"), ar: published("ar/products/straight-through-oblique-landing-valves/index.html") } },
+  "product:horizontal-handwheel-landing-valves": { kind: "product", category: "category:indoor-hydrants", locales: { en: published("products/室内消防栓/horizontal-handwheel-landing-valves.html"), ar: published("ar/products/horizontal-handwheel-landing-valves/index.html") } },
 
   "product:bs750-pillar-hydrant": { kind: "product", category: "category:outdoor-hydrants", locales: { en: published("products/室外消防栓/bs750-pillar-hydrant.html"), ar: published("ar/products/bs750-pillar-hydrant/index.html") } },
   "product:french-pattern-hydrant": { kind: "product", category: "category:outdoor-hydrants", locales: { en: published("products/室外消防栓/french-pattern-hydrant.html"), ar: published("ar/products/french-pattern-hydrant/index.html") } },

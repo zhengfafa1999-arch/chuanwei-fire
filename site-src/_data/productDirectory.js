@@ -145,7 +145,8 @@ export const PRODUCT_FAMILIES = [
       ["product:export-slanted-hydrant-valve", "Export Slanted Hydrant Valves", "محابس حريق مائلة للتصدير", "products/室内消防栓/export-slanted-hydrant-valve/export-slanted-front.jpg"],
       ["product:double-outlet-hydrant", "Double-Outlet Indoor Hydrants", "محابس حريق داخلية مزدوجة المخرج", "products/室内消防栓/double-outlet-hydrant/double-outlet-hydrant.jpg"],
       ["product:rotating-pressure-regulating-hydrant", "Rotating Pressure-Regulating Hydrants", "محابس دوارة منظمة للضغط", "products/室内消防栓/rotating-pressure-regulating-hydrant/rotating-hydrant.jpg"],
-      ["product:straight-through-oblique-landing-valves", "Straight-Through and Oblique Landing Valves", "صمامات هبوط مستقيمة ومائلة", "products/室内消防栓/straight-through-oblique-landing-valves/straight-through-catalog-display.jpeg"]
+      ["product:straight-through-oblique-landing-valves", "Straight-Through and Oblique Landing Valves", "صمامات هبوط مستقيمة ومائلة", "products/室内消防栓/straight-through-oblique-landing-valves/straight-through-catalog-display.jpeg"],
+      ["product:horizontal-handwheel-landing-valves", "Horizontal-Handwheel Landing Valves", "صمامات هبوط بعجلة تشغيل أفقية", "products/室内消防栓/horizontal-handwheel-landing-valves/threaded-inlet-catalog-display.jpeg"]
     ]
   },
   {
