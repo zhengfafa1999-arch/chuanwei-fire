@@ -90,11 +90,12 @@ const sitemap = readOutput("sitemap.xml");
 // English fallback or let a correct image link conceal an incorrect text link.
 const alarmRouteIds = [
   "product:wet-alarm-check-valve", "product:diaphragm-deluge-valves",
-  "product:preaction-valve-assemblies", "product:dry-pipe-alarm-valves"
+  "product:preaction-valve-assemblies", "product:dry-pipe-alarm-valves",
+  "product:saddle-type-waterflow-switches"
 ];
 const alarmFamily = PRODUCT_FAMILIES.find(family => family.routeId === "category:system-valves");
 assert(JSON.stringify(alarmFamily.products.map(product => product.routeId)) === JSON.stringify(alarmRouteIds),
-  "Alarm category must retain its four existing product families.");
+  "Alarm category must retain its existing families and the saddle-type waterflow switch in the approved order.");
 for (const locale of SUPPORTED_LOCALES) {
   const { html, route } = validateListingShell(alarmFamily.routeId, locale);
   const cards = [...html.matchAll(/<article class="product-card">([\s\S]*?)<\/article>/g)].map(match => match[1]);
@@ -109,7 +110,7 @@ for (const locale of SUPPORTED_LOCALES) {
       `${routeId}/${locale} has a stale fallback badge.`);
   });
 }
-console.log("Alarm-category validation passed: four families, eight localized cards and sixteen matching image/text entries.");
+console.log(`Alarm-category validation passed: ${alarmRouteIds.length} families, ${alarmRouteIds.length * SUPPORTED_LOCALES.length} localized cards and ${alarmRouteIds.length * SUPPORTED_LOCALES.length * 2} matching image/text entries.`);
 
 // CATWEB-003: the eight migrated families plus the documented fusible-alloy
 // sample must stay in their locale and preserve the approved directory order.

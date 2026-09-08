@@ -2,7 +2,7 @@
 
 **任务编号：** CATWEB-001
 **建立日期：** 2026-09-08
-**当前状态：** CATWEB-001 至 CATWEB-005 已完成；正在按分类逐款对齐，页面保持本地草稿，等待图片官网使用许可确认
+**当前状态：** CATWEB-001 至 CATWEB-006 已完成；正在按分类优先补充缺少的产品，页面保持本地草稿，等待图片官网使用许可确认
 **图册基线：** CHUANWEI FIRE Product Catalog 2026 Customer v11（47页）
 
 ## 目标与边界
@@ -23,8 +23,8 @@
 | 现有路由——更新 | 29 | 只合并 v11 已确认字段，保留同一路由和共享英阿结构 |
 | 现有路由——保持 | 9 | v11 未覆盖不代表停产，不删除、不改参数 |
 | 现有路由——暂缓 | 3 | 出口图册范围排除不等于官网删除授权 |
-| 新增产品候选 | 9 | 可先制作本地内容草稿，正式使用图片前再次确认许可 |
-| 新增产品暂缓 | 7 | 等待工厂原图或官网图片使用权确认 |
+| 新增产品候选 | 8 | 可先制作本地内容草稿，正式使用图片前再次确认许可 |
+| 新增产品暂缓 | 8 | 等待用户恢复、工厂原图或官网图片使用权确认 |
 | 技术参考 | 1 | 温度/玻璃球颜色参考，合并到喷头内容，不建立商品页 |
 
 ## 现有官网产品映射
@@ -87,12 +87,11 @@
 
 ## 新增产品候选
 
-以下 9 个产品有用户提供或归档图片，并有可用于本地草稿的确认字段。正式公开前仍需确认图片可用于官网。
+以下 8 个产品有用户提供或归档图片，并有可用于本地草稿的确认字段。正式公开前仍需确认图片可用于官网。
 
 | 图册页 | 国际名称 | 建议分类 | Factory Model / 系列 | 图片来源 | 仍需询盘确认 |
 |---:|---|---|---|---|---|
 | 12 | Fusible-Alloy Fire Sprinklers | 消防喷头 | `ZSTZ.X 80-[T]°C Y` | `catalog-sprinkler-preview-20260906/source-v2/fusible-alloy-a.jpg`、`fusible-alloy-b.jpg` | 精确螺纹形式、安装方向 |
-| 24 | Combination Air Valve | 报警阀及系统装置 | CARX，DN25 / 1 in | `catalog-module-air-valve/source/CARX.png` | 螺纹形式和连接兼容性 |
 | 25 | Saddle-Type Waterflow Switches | 报警阀及系统装置 | `ZSJZ-M-1.2` | `catalog-module-waterflow/source/ZSJZ.png` | 管外径、安装尺寸、触点容量、报警流量、复位时间 |
 | 29 | Straight-Through and Oblique Landing Valves | 室内消火栓 | Factory Model 未确认 | 交接包 `image57–59.jpeg` | 型号、材质、压力和精确接口 |
 | 30 | Horizontal-Handwheel Landing Valves | 室内消火栓 | Factory Model 未确认 | 交接包 `image60–61.jpeg` | 型号、材质、压力和精确接口 |
@@ -109,6 +108,7 @@
 
 | 图册页 | 产品 | 暂缓原因 |
 |---:|---|---|
+| 24 | Combination Air Valve (CARX) | 用户明确要求目前不上架 |
 | 32 | Oblique Outlet Fire Hose Valves | 图片为供应商目录或重建展示图，缺少官网使用权与工厂原图 |
 | 33 | Right-Angle Fire Hose Valves | 图片为供应商目录或重建展示图，缺少官网使用权与工厂原图 |
 | 34 | Horizontal Landing Valves | 图片为供应商目录或重建展示图，缺少官网使用权与工厂原图 |
@@ -119,7 +119,7 @@
 
 ## 冲突处理规则
 
-1. CARX 使用最新确认的下口 DN25 / 1 in、上口 1½ in；旧说明书接口不发布，也不猜测修正后的螺纹制式。
+1. CARX 当前不上架；如用户以后恢复，再使用最新确认的下口 DN25 / 1 in、上口 1½ in，旧说明书接口不发布，也不猜测修正后的螺纹制式。
 2. 图册 p32–p34 阀体材质按用户确认记录为球墨铸铁，但铜色展示图不能作为材质证据，正式页面等待工厂原图。
 3. p9 K202 普通喷头与 p10 ESFR 分开，不因 K 系数相同认定为 ESFR。
 4. 蝶阀旧资料中的 S/W 后缀冲突未解决，官网按连接方式和尺寸表达。
@@ -133,12 +133,14 @@
 3. [x] 样板只检查英阿互切、分类入口、图库、放大、桌面/手机布局和快速构建。
 4. [x] **CATWEB-004**：标准响应消防喷头按 p6 的 v11 正式型号表完成英阿共享数据对齐。
 5. [x] **CATWEB-005**：快速响应玻璃球喷头迁移到共享英阿数据源，并按现有确认资料收敛规格与图库。
-6. [ ] 按分类继续逐款升级；每个分类独立提交。
-7. [ ] 最终只做一次全站构建与浏览器回归。
+6. [x] **CATWEB-006**：新增 ZSJZ-M-1.2 马鞍式水流指示器共享英阿详情页和报警阀分类入口。
+7. [ ] 按分类继续逐款补充缺少的产品；每个分类独立提交。
+8. [ ] 最终只做一次全站构建与浏览器回归。
 
 CATWEB-003 的实施与验收记录见 `docs/execution/2026-09-08_fusible-alloy-fire-sprinkler-sample.md`。
 CATWEB-004 的实施与验收记录见 `docs/execution/2026-09-08_standard-response-v11-alignment.md`。
 CATWEB-005 的实施与验收记录见 `docs/execution/2026-09-08_quick-response-v11-alignment.md`。
+CATWEB-006 的实施与验收记录见 `docs/execution/2026-09-08_saddle-waterflow-switches-addition.md`。
 
 ## 来源
 

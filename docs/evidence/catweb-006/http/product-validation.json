@@ -1,0 +1,102 @@
+{
+  "scope": "single-product",
+  "products": [
+    "saddle-type-waterflow-switches"
+  ],
+  "previewMode": "http",
+  "generatedAt": "2026-09-08T15:13:52.898Z",
+  "browser": "Edg/152.0.4191.66",
+  "viewports": [
+    {
+      "id": "desktop",
+      "width": 1440,
+      "height": 900,
+      "deviceScaleFactor": 1,
+      "mobile": false
+    },
+    {
+      "id": "mobile",
+      "width": 390,
+      "height": 844,
+      "deviceScaleFactor": 1,
+      "mobile": true
+    }
+  ],
+  "validations": [
+    {
+      "slug": "saddle-type-waterflow-switches",
+      "languageSwitches": [
+        {
+          "scenario": "desktop/en: saddle-type-waterflow-switches image/text category entries, reciprocal switch, refresh, 1-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+          "status": "PASS"
+        },
+        {
+          "scenario": "desktop/ar: saddle-type-waterflow-switches image/text category entries, reciprocal switch, refresh, 1-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+          "status": "PASS"
+        },
+        {
+          "scenario": "mobile/en: saddle-type-waterflow-switches image/text category entries, reciprocal switch, refresh, 1-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+          "status": "PASS"
+        },
+        {
+          "scenario": "mobile/ar: saddle-type-waterflow-switches image/text category entries, reciprocal switch, refresh, 1-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+          "status": "PASS"
+        }
+      ],
+      "screenshots": [
+        "edge-desktop-saddle-type-waterflow-switches-en-gallery.png",
+        "edge-desktop-saddle-type-waterflow-switches-en-specifications.png",
+        "edge-desktop-saddle-type-waterflow-switches-en-models.png",
+        "edge-desktop-saddle-type-waterflow-switches-en-quotation.png",
+        "edge-desktop-saddle-type-waterflow-switches-ar-gallery.png",
+        "edge-desktop-saddle-type-waterflow-switches-ar-specifications.png",
+        "edge-desktop-saddle-type-waterflow-switches-ar-models.png",
+        "edge-desktop-saddle-type-waterflow-switches-ar-quotation.png",
+        "edge-mobile-saddle-type-waterflow-switches-en-gallery.png",
+        "edge-mobile-saddle-type-waterflow-switches-en-specifications.png",
+        "edge-mobile-saddle-type-waterflow-switches-en-models.png",
+        "edge-mobile-saddle-type-waterflow-switches-en-quotation.png",
+        "edge-mobile-saddle-type-waterflow-switches-ar-gallery.png",
+        "edge-mobile-saddle-type-waterflow-switches-ar-specifications.png",
+        "edge-mobile-saddle-type-waterflow-switches-ar-models.png",
+        "edge-mobile-saddle-type-waterflow-switches-ar-quotation.png"
+      ]
+    }
+  ],
+  "languageSwitches": [
+    {
+      "scenario": "desktop/en: saddle-type-waterflow-switches image/text category entries, reciprocal switch, refresh, 1-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+      "status": "PASS"
+    },
+    {
+      "scenario": "desktop/ar: saddle-type-waterflow-switches image/text category entries, reciprocal switch, refresh, 1-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+      "status": "PASS"
+    },
+    {
+      "scenario": "mobile/en: saddle-type-waterflow-switches image/text category entries, reciprocal switch, refresh, 1-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+      "status": "PASS"
+    },
+    {
+      "scenario": "mobile/ar: saddle-type-waterflow-switches image/text category entries, reciprocal switch, refresh, 1-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+      "status": "PASS"
+    }
+  ],
+  "screenshots": [
+    "edge-desktop-saddle-type-waterflow-switches-en-gallery.png",
+    "edge-desktop-saddle-type-waterflow-switches-en-specifications.png",
+    "edge-desktop-saddle-type-waterflow-switches-en-models.png",
+    "edge-desktop-saddle-type-waterflow-switches-en-quotation.png",
+    "edge-desktop-saddle-type-waterflow-switches-ar-gallery.png",
+    "edge-desktop-saddle-type-waterflow-switches-ar-specifications.png",
+    "edge-desktop-saddle-type-waterflow-switches-ar-models.png",
+    "edge-desktop-saddle-type-waterflow-switches-ar-quotation.png",
+    "edge-mobile-saddle-type-waterflow-switches-en-gallery.png",
+    "edge-mobile-saddle-type-waterflow-switches-en-specifications.png",
+    "edge-mobile-saddle-type-waterflow-switches-en-models.png",
+    "edge-mobile-saddle-type-waterflow-switches-en-quotation.png",
+    "edge-mobile-saddle-type-waterflow-switches-ar-gallery.png",
+    "edge-mobile-saddle-type-waterflow-switches-ar-specifications.png",
+    "edge-mobile-saddle-type-waterflow-switches-ar-models.png",
+    "edge-mobile-saddle-type-waterflow-switches-ar-quotation.png"
+  ]
+}

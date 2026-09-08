@@ -82,7 +82,8 @@ export const PRODUCT_FAMILIES = [
       ["product:wet-alarm-check-valve", "Wet Alarm Check Valve Assemblies", "مجموعات صمام الإنذار الرطب", "products/消防阀/wet-alarm-check-valve-assemblies/dn150-flanged-wet-alarm-assembly-en.jpg"],
       ["product:diaphragm-deluge-valves", "Diaphragm Deluge Valves", "صمامات غمر غشائية", "products/消防阀/diaphragm-deluge-valves/deluge-valve-flanged.jpg"],
       ["product:preaction-valve-assemblies", "Preaction Valve Assemblies", "مجموعات صمامات الإجراء المسبق", "products/消防阀/preaction-valve-assembly.jpg"],
-      ["product:dry-pipe-alarm-valves", "Dry Pipe Alarm Valves", "صمامات إنذار الأنابيب الجافة", "products/消防阀/dry-pipe-alarm-valves/dry-pipe-alarm-valve-flanged.jpg"]
+      ["product:dry-pipe-alarm-valves", "Dry Pipe Alarm Valves", "صمامات إنذار الأنابيب الجافة", "products/消防阀/dry-pipe-alarm-valves/dry-pipe-alarm-valve-flanged.jpg"],
+      ["product:saddle-type-waterflow-switches", "Saddle-Type Waterflow Switches", "مفاتيح تدفق المياه من النوع السرجي", "products/消防阀/saddle-type-waterflow-switches/zsjz-dn100-reference.png"]
     ]
   },
   {

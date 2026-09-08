@@ -29,6 +29,7 @@ export const SITE_ROUTES = {
   "product:diaphragm-deluge-valves": { kind: "product", category: "category:system-valves", locales: { en: published("products/消防阀/diaphragm-deluge-valves.html"), ar: published("ar/products/diaphragm-deluge-valves/index.html") } },
   "product:preaction-valve-assemblies": { kind: "product", category: "category:system-valves", locales: { en: published("products/消防阀/preaction-valve-assemblies.html"), ar: published("ar/products/preaction-valve-assemblies/index.html") } },
   "product:dry-pipe-alarm-valves": { kind: "product", category: "category:system-valves", locales: { en: published("products/消防阀/dry-pipe-alarm-valves.html"), ar: published("ar/products/dry-pipe-alarm-valves/index.html") } },
+  "product:saddle-type-waterflow-switches": { kind: "product", category: "category:system-valves", locales: { en: published("products/消防阀/saddle-type-waterflow-switches.html"), ar: published("ar/products/saddle-type-waterflow-switches/index.html") } },
 
   "product:water-curtain-nozzles": { kind: "product", category: "category:sprinklers", locales: { en: published("products/消防喷头/water-curtain-nozzles.html"), ar: published("ar/products/water-curtain-nozzles/index.html") } },
   "product:water-mist-nozzles": { kind: "product", category: "category:sprinklers", locales: { en: published("products/消防喷头/water-mist-nozzles.html"), ar: published("ar/products/water-mist-nozzles/index.html") } },
