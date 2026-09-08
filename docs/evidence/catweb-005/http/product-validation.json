@@ -1,0 +1,102 @@
+{
+  "scope": "single-product",
+  "products": [
+    "glass-bulb-fire-sprinkler"
+  ],
+  "previewMode": "http",
+  "generatedAt": "2026-09-08T06:27:29.339Z",
+  "browser": "Edg/152.0.4191.66",
+  "viewports": [
+    {
+      "id": "desktop",
+      "width": 1440,
+      "height": 900,
+      "deviceScaleFactor": 1,
+      "mobile": false
+    },
+    {
+      "id": "mobile",
+      "width": 390,
+      "height": 844,
+      "deviceScaleFactor": 1,
+      "mobile": true
+    }
+  ],
+  "validations": [
+    {
+      "slug": "glass-bulb-fire-sprinkler",
+      "languageSwitches": [
+        {
+          "scenario": "desktop/en: glass-bulb-fire-sprinkler image/text category entries, reciprocal switch, refresh, 3-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+          "status": "PASS"
+        },
+        {
+          "scenario": "desktop/ar: glass-bulb-fire-sprinkler image/text category entries, reciprocal switch, refresh, 3-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+          "status": "PASS"
+        },
+        {
+          "scenario": "mobile/en: glass-bulb-fire-sprinkler image/text category entries, reciprocal switch, refresh, 3-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+          "status": "PASS"
+        },
+        {
+          "scenario": "mobile/ar: glass-bulb-fire-sprinkler image/text category entries, reciprocal switch, refresh, 3-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+          "status": "PASS"
+        }
+      ],
+      "screenshots": [
+        "edge-desktop-glass-bulb-fire-sprinkler-en-gallery.png",
+        "edge-desktop-glass-bulb-fire-sprinkler-en-specifications.png",
+        "edge-desktop-glass-bulb-fire-sprinkler-en-models.png",
+        "edge-desktop-glass-bulb-fire-sprinkler-en-quotation.png",
+        "edge-desktop-glass-bulb-fire-sprinkler-ar-gallery.png",
+        "edge-desktop-glass-bulb-fire-sprinkler-ar-specifications.png",
+        "edge-desktop-glass-bulb-fire-sprinkler-ar-models.png",
+        "edge-desktop-glass-bulb-fire-sprinkler-ar-quotation.png",
+        "edge-mobile-glass-bulb-fire-sprinkler-en-gallery.png",
+        "edge-mobile-glass-bulb-fire-sprinkler-en-specifications.png",
+        "edge-mobile-glass-bulb-fire-sprinkler-en-models.png",
+        "edge-mobile-glass-bulb-fire-sprinkler-en-quotation.png",
+        "edge-mobile-glass-bulb-fire-sprinkler-ar-gallery.png",
+        "edge-mobile-glass-bulb-fire-sprinkler-ar-specifications.png",
+        "edge-mobile-glass-bulb-fire-sprinkler-ar-models.png",
+        "edge-mobile-glass-bulb-fire-sprinkler-ar-quotation.png"
+      ]
+    }
+  ],
+  "languageSwitches": [
+    {
+      "scenario": "desktop/en: glass-bulb-fire-sprinkler image/text category entries, reciprocal switch, refresh, 3-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+      "status": "PASS"
+    },
+    {
+      "scenario": "desktop/ar: glass-bulb-fire-sprinkler image/text category entries, reciprocal switch, refresh, 3-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+      "status": "PASS"
+    },
+    {
+      "scenario": "mobile/en: glass-bulb-fire-sprinkler image/text category entries, reciprocal switch, refresh, 3-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+      "status": "PASS"
+    },
+    {
+      "scenario": "mobile/ar: glass-bulb-fire-sprinkler image/text category entries, reciprocal switch, refresh, 3-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+      "status": "PASS"
+    }
+  ],
+  "screenshots": [
+    "edge-desktop-glass-bulb-fire-sprinkler-en-gallery.png",
+    "edge-desktop-glass-bulb-fire-sprinkler-en-specifications.png",
+    "edge-desktop-glass-bulb-fire-sprinkler-en-models.png",
+    "edge-desktop-glass-bulb-fire-sprinkler-en-quotation.png",
+    "edge-desktop-glass-bulb-fire-sprinkler-ar-gallery.png",
+    "edge-desktop-glass-bulb-fire-sprinkler-ar-specifications.png",
+    "edge-desktop-glass-bulb-fire-sprinkler-ar-models.png",
+    "edge-desktop-glass-bulb-fire-sprinkler-ar-quotation.png",
+    "edge-mobile-glass-bulb-fire-sprinkler-en-gallery.png",
+    "edge-mobile-glass-bulb-fire-sprinkler-en-specifications.png",
+    "edge-mobile-glass-bulb-fire-sprinkler-en-models.png",
+    "edge-mobile-glass-bulb-fire-sprinkler-en-quotation.png",
+    "edge-mobile-glass-bulb-fire-sprinkler-ar-gallery.png",
+    "edge-mobile-glass-bulb-fire-sprinkler-ar-specifications.png",
+    "edge-mobile-glass-bulb-fire-sprinkler-ar-models.png",
+    "edge-mobile-glass-bulb-fire-sprinkler-ar-quotation.png"
+  ]
+}
