@@ -111,16 +111,17 @@ for (const locale of SUPPORTED_LOCALES) {
 }
 console.log("Alarm-category validation passed: four families, eight localized cards and sixteen matching image/text entries.");
 
-// MIG-209: all eight published sprinkler families must stay in their locale.
+// CATWEB-003: the eight migrated families plus the documented fusible-alloy
+// sample must stay in their locale and preserve the approved directory order.
 const sprinklerIds = [
-  "standard-response-fire-sprinkler", "glass-bulb-fire-sprinkler",
+  "standard-response-fire-sprinkler", "fusible-alloy-fire-sprinklers", "glass-bulb-fire-sprinkler",
   "extended-coverage-quick-response-fire-sprinkler", "concealed-pendent-fire-sprinkler",
   "large-k-factor-esfr-sprinklers", "dry-pendent-fire-sprinklers",
   "water-mist-nozzles", "water-curtain-nozzles"
 ].map(id => `product:${id}`);
 const sprinklerFamily = PRODUCT_FAMILIES.find(family => family.routeId === "category:sprinklers");
 assert(JSON.stringify(sprinklerFamily.products.map(product => product.routeId)) === JSON.stringify(sprinklerIds),
-  "Sprinkler category must retain its eight existing families and their order.");
+  "Sprinkler category must retain its existing families plus the fusible-alloy sample in the approved order.");
 for (const locale of SUPPORTED_LOCALES) {
   const { html, route } = validateListingShell(sprinklerFamily.routeId, locale);
   const cards = [...html.matchAll(/<article class="product-card">([\s\S]*?)<\/article>/g)].map(match => match[1]);
@@ -135,7 +136,7 @@ for (const locale of SUPPORTED_LOCALES) {
       `${id}/${locale}: stale fallback badge.`);
   });
 }
-console.log("Sprinkler-category validation passed: eight families, sixteen localized cards and thirty-two matching entries.");
+console.log("Sprinkler-category validation passed: nine families, eighteen localized cards and thirty-six matching entries.");
 
 // MIG-305: all four hose reel families are now published in both languages.
 const hoseReelIds = [

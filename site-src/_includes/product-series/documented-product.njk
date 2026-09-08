@@ -1,0 +1,93 @@
+<nav class="pdp-section-navigation" aria-label="{{ entry.text.onThisPage }}">
+  <div class="pdp-section-navigation__links">
+    <a href="#gallery">{{ entry.text.gallery }}</a>
+    <a href="#specifications">{{ entry.text.specifications }}</a>
+    <a href="#models">{{ entry.text.availableModels }}</a>
+    <a href="#quotation">{{ entry.text.quotation }}</a>
+  </div>
+</nav>
+
+<main>
+  <section class="pdp-hero">
+    <div class="pdp-container pdp-hero__grid">
+      <div>
+        <p class="pdp-eyebrow">{{ entry.text.eyebrow }}</p>
+        <h1>{{ entry.text.title }}</h1>
+        <p class="pdp-lead">{{ entry.text.lead }}</p>
+        <div class="pdp-chips">
+{% for fact in entry.product.heroFacts %}          <span><bdi dir="ltr">{{ entry.text[fact] }}</bdi></span>
+{% endfor %}        </div>
+        <div class="pdp-actions">
+          <a class="pdp-btn" href="{{ entry.product.inquiry.whatsapp }}" target="_blank" rel="noopener">{{ entry.text.askOnWhatsApp }}</a>
+          <a class="pdp-btn pdp-btn--ghost" href="#models">{{ entry.text.availableModels }}</a>
+        </div>
+        <p class="pdp-note">{{ entry.text.note }}</p>
+      </div>
+      <button class="pdp-hero__image" type="button" data-lightbox="{{ entry.media.hero }}" aria-label="{{ entry.text[entry.product.gallery[0].alt] }}">
+        <img src="{{ entry.media.hero }}" alt="{{ entry.text[entry.product.gallery[0].alt] }}" width="{{ entry.product.imageDimensions.hero.width }}" height="{{ entry.product.imageDimensions.hero.height }}">
+      </button>
+    </div>
+  </section>
+
+  <section class="pdp-section" id="gallery">
+    <div class="pdp-container">
+      <div class="pdp-heading"><div><p class="pdp-eyebrow">{{ entry.text.gallery }}</p><h2>{{ entry.text.galleryTitle }}</h2></div><p>{{ entry.text.galleryBody }}</p></div>
+      <div class="pdp-gallery" aria-label="{{ entry.text.galleryTitle }}">
+        <div class="pdp-gallery__stage">
+          <button class="pdp-gallery__arrow pdp-gallery__arrow--prev" type="button" aria-label="{{ entry.text.previousProductImage }}">‹</button>
+          <img id="galleryMain" src="{{ entry.media[entry.product.gallery[0].media] }}" alt="{{ entry.text[entry.product.gallery[0].alt] }}">
+          <button class="pdp-gallery__arrow pdp-gallery__arrow--next" type="button" aria-label="{{ entry.text.nextProductImage }}">›</button>
+          <div class="pdp-gallery__caption"><strong id="galleryCaption">{{ entry.text[entry.product.gallery[0].caption] }}</strong><span id="galleryCount" dir="ltr">1 / {{ entry.product.gallery | length }}</span></div>
+        </div>
+        <div class="pdp-gallery__thumbs" aria-label="{{ entry.text.selectProductImage }}">
+{% for item in entry.product.gallery %}          <button class="pdp-gallery__thumb{% if loop.first %} active{% endif %}" type="button" data-index="{{ loop.index0 }}" data-gallery-alt="{{ entry.text[item.alt] }}" data-gallery-title="{{ entry.text[item.caption] }}">
+            <img src="{{ entry.media[item.media] }}" alt="{{ entry.text[item.thumbnailAlt] }}"><span>{{ entry.text[item.caption] }}</span>
+          </button>
+{% endfor %}        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="pdp-section pdp-section--soft" id="specifications">
+    <div class="pdp-container">
+      <div class="pdp-heading"><div><p class="pdp-eyebrow">{{ entry.text.specifications }}</p><h2>{{ entry.text.specificationsTitle }}</h2></div><p>{{ entry.text.specificationsBody }}</p></div>
+      <div class="pdp-panel">
+        <dl class="pdp-specs">
+{% for item in entry.product.specifications %}          <div><dt>{{ entry.text[item.label] }}</dt><dd{% if item.technical %} dir="ltr"{% endif %}>{{ entry.text[item.value] }}</dd></div>
+{% endfor %}        </dl>
+      </div>
+    </div>
+  </section>
+
+  <section class="pdp-section" id="models">
+    <div class="pdp-container">
+      <div class="pdp-heading"><div><p class="pdp-eyebrow">{{ entry.text.availableModels }}</p><h2>{{ entry.text.modelsTitle }}</h2></div><p>{{ entry.text.modelsBody }}</p></div>
+      <div class="pdp-table-wrap">
+        <table class="pdp-table">
+          <thead><tr>{% for column in entry.product.modelColumns %}<th>{{ entry.text[column.label] }}</th>{% endfor %}</tr></thead>
+          <tbody>
+{% for row in entry.product.models %}            <tr>{% for column in entry.product.modelColumns %}<td{% if column.technical %} dir="ltr"{% endif %}>{% if column.localized %}{{ entry.text[row[column.field]] }}{% else %}{{ row[column.field] }}{% endif %}</td>{% endfor %}</tr>
+{% endfor %}          </tbody>
+        </table>
+      </div>
+      <p class="pdp-options-note">{{ entry.text.modelsNote }}</p>
+    </div>
+  </section>
+
+  <section class="pdp-section pdp-section--soft" id="quotation">
+    <div class="pdp-container pdp-oem">
+      <div><p class="pdp-eyebrow">{{ entry.text.quotation }}</p><h2>{{ entry.text.quotationTitle }}</h2><p>{{ entry.text.quotationBody }}</p></div>
+      <div class="pdp-oem__grid">
+{% for item in entry.product.confirmationItems %}        <div><strong>{{ entry.text[item.label] }}</strong><span>{{ entry.text[item.body] }}</span></div>
+{% endfor %}      </div>
+    </div>
+  </section>
+
+  <section class="pdp-cta" id="inquiry">
+    <div class="pdp-container pdp-cta__in"><div><h2>{{ entry.text.inquiryTitle }}</h2><p>{{ entry.text.inquiryBody }}</p></div><div class="pdp-actions"><a class="pdp-btn" href="{{ entry.product.inquiry.whatsapp }}" target="_blank" rel="noopener">{{ entry.text.askOnWhatsApp }}</a><a class="pdp-btn pdp-btn--ghost" href="{{ entry.product.inquiry.email }}">{{ entry.text.emailSales }}</a></div></div>
+  </section>
+</main>
+
+{% include "product-footer.njk" %}
+
+<div class="pdp-modal" id="productModal" role="dialog" aria-modal="true" aria-label="{{ entry.text.productImagePreview }}"><button type="button" aria-label="{{ entry.text.closeImagePreview }}">×</button><img src="{{ entry.media.hero }}" alt="{{ entry.text.enlargedImage }}"></div>

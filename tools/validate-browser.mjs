@@ -280,12 +280,13 @@ const responsiveScreenshotTargets = new Set([
 async function run() {
   const focusedProducts = focusedSlugs.map(slug => {
     const preservedSource = path.join(root, 'site-src', '_data', 'preserved-products', `${slug}.json`);
+    const documentedSource = path.join(root, 'site-src', '_data', 'documented-products', `${slug}.json`);
     const catalogSource = path.join(root, 'site-src', '_data', 'catalog-products', `${slug}.json`);
-    const source = fs.existsSync(preservedSource) ? preservedSource : catalogSource;
+    const source = fs.existsSync(preservedSource) ? preservedSource : fs.existsSync(documentedSource) ? documentedSource : catalogSource;
     assert(fs.existsSync(source), `No shared product source for ${slug}; add a targeted test adapter before testing this product.`);
     const focusedProduct = JSON.parse(fs.readFileSync(source, 'utf8'));
     focusedProduct.catalogOnly = source === catalogSource;
-    assert(focusedProduct.catalogOnly || ['product-series/quick-response.njk', 'product-series/standard-response.njk', 'product-series/concealed-pendent.njk', 'product-series/dry-pendent.njk', 'product-series/extended-coverage.njk', 'product-series/large-k-esfr.njk', 'product-series/ria25-hose-reel.njk', 'product-series/straight-stream-hose-reel.njk', 'product-series/jet-spray-hose-reel.njk', 'product-series/heavy-duty-hose-reel.njk', 'product-series/butterfly-valve.njk', 'product-series/gate-valve.njk', 'product-series/indoor-hydrant.njk', 'product-series/outdoor-hydrant.njk'].includes(focusedProduct.template), 'This template needs its own targeted interaction adapter; do not silently skip its checks.');
+    assert(focusedProduct.catalogOnly || ['product-series/documented-product.njk', 'product-series/quick-response.njk', 'product-series/standard-response.njk', 'product-series/concealed-pendent.njk', 'product-series/dry-pendent.njk', 'product-series/extended-coverage.njk', 'product-series/large-k-esfr.njk', 'product-series/ria25-hose-reel.njk', 'product-series/straight-stream-hose-reel.njk', 'product-series/jet-spray-hose-reel.njk', 'product-series/heavy-duty-hose-reel.njk', 'product-series/butterfly-valve.njk', 'product-series/gate-valve.njk', 'product-series/indoor-hydrant.njk', 'product-series/outdoor-hydrant.njk'].includes(focusedProduct.template), 'This template needs its own targeted interaction adapter; do not silently skip its checks.');
     return { slug, product: focusedProduct };
   });
   if (focusedCategoryId) {
@@ -328,13 +329,13 @@ async function run() {
           : focusedProduct.modelGroups?.map(group => group.length)
             ?? (focusedProduct.models ? [focusedProduct.models.length] : undefined);
         const focusedModelSection = focusedProduct.template === 'product-series/outdoor-hydrant.njk' ? 'configuration' : 'models';
-        const focusedAnchors = focusedProduct.catalogOnly
+        const focusedAnchors = focusedProduct.validation?.anchors ?? (focusedProduct.catalogOnly
           ? ['details']
           : focusedProduct.template === 'product-series/outdoor-hydrant.njk'
           ? ['gallery', 'configuration', ...(focusedProduct.layout === 'options' ? ['options'] : [])]
           : focusedProduct.showModels === false
           ? (focusedGallery.length ? ['gallery', 'specifications'] : ['specifications'])
-          : undefined;
+          : undefined);
         const result = await validateStandardResponse({
           client, origin, viewports, evaluate, navigate, waitForLocation, inspectPage, assert, evidenceDirectory,
           routeId: focusedProduct.routeId, slug, imageCount: focusedGallery.length,

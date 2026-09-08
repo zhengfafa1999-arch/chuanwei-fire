@@ -104,6 +104,9 @@ export async function validateStandardResponse({client, origin, viewports, evalu
         // File URLs can defer long smooth scrolls even after location.hash changes.
         await evaluate(client, `(() => {
           document.documentElement.style.scrollBehavior = 'auto';
+          if (location.hash === '#${anchor}') {
+            history.replaceState(null, '', location.pathname + location.search);
+          }
           document.querySelector('.pdp-section-navigation a[href="#${anchor}"]').click();
         })()`);
         // Observe completion, not an assumed animation duration, before screenshots.

@@ -63,6 +63,7 @@ export const PRODUCT_FAMILIES = [
     image: "products/消防喷头/categories/standard-response-upright.jpg",
     products: [
       ["product:standard-response-fire-sprinkler", "Standard Response Fire Sprinklers", "رشاشات الحريق ذات الاستجابة القياسية", "products/消防喷头/standard-response-sprinkler/standard-response-three-styles.jpg"],
+      ["product:fusible-alloy-fire-sprinklers", "Fusible-Alloy Fire Sprinklers", "رشاشات حريق بعنصر حراري قابل للانصهار", "products/消防喷头/fusible-alloy-fire-sprinklers/fusible-alloy-configuration-a.jpg"],
       ["product:glass-bulb-fire-sprinkler", "Quick Response Glass Bulb Sprinklers", "رشاشات زجاجية سريعة الاستجابة", "products/消防喷头/glass-bulb-sprinkler/quick-response-pendent.jpg"],
       ["product:extended-coverage-quick-response-fire-sprinkler", "Extended Coverage Quick Response Sprinklers", "رشاشات سريعة الاستجابة ذات تغطية موسعة", "products/消防喷头/categories/extended-coverage-quick-response.jpg"],
       ["product:concealed-pendent-fire-sprinkler", "Concealed Pendent Sprinklers", "رشاشات معلقة مخفية", "products/消防喷头/categories/concealed-pendent.jpg"],

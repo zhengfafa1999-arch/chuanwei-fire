@@ -1,0 +1,102 @@
+{
+  "scope": "single-product",
+  "products": [
+    "fusible-alloy-fire-sprinklers"
+  ],
+  "previewMode": "http",
+  "generatedAt": "2026-09-08T05:06:10.011Z",
+  "browser": "Edg/152.0.4191.66",
+  "viewports": [
+    {
+      "id": "desktop",
+      "width": 1440,
+      "height": 900,
+      "deviceScaleFactor": 1,
+      "mobile": false
+    },
+    {
+      "id": "mobile",
+      "width": 390,
+      "height": 844,
+      "deviceScaleFactor": 1,
+      "mobile": true
+    }
+  ],
+  "validations": [
+    {
+      "slug": "fusible-alloy-fire-sprinklers",
+      "languageSwitches": [
+        {
+          "scenario": "desktop/en: fusible-alloy-fire-sprinklers image/text category entries, reciprocal switch, refresh, 2-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+          "status": "PASS"
+        },
+        {
+          "scenario": "desktop/ar: fusible-alloy-fire-sprinklers image/text category entries, reciprocal switch, refresh, 2-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+          "status": "PASS"
+        },
+        {
+          "scenario": "mobile/en: fusible-alloy-fire-sprinklers image/text category entries, reciprocal switch, refresh, 2-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+          "status": "PASS"
+        },
+        {
+          "scenario": "mobile/ar: fusible-alloy-fire-sprinklers image/text category entries, reciprocal switch, refresh, 2-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+          "status": "PASS"
+        }
+      ],
+      "screenshots": [
+        "edge-desktop-fusible-alloy-fire-sprinklers-en-gallery.png",
+        "edge-desktop-fusible-alloy-fire-sprinklers-en-specifications.png",
+        "edge-desktop-fusible-alloy-fire-sprinklers-en-models.png",
+        "edge-desktop-fusible-alloy-fire-sprinklers-en-quotation.png",
+        "edge-desktop-fusible-alloy-fire-sprinklers-ar-gallery.png",
+        "edge-desktop-fusible-alloy-fire-sprinklers-ar-specifications.png",
+        "edge-desktop-fusible-alloy-fire-sprinklers-ar-models.png",
+        "edge-desktop-fusible-alloy-fire-sprinklers-ar-quotation.png",
+        "edge-mobile-fusible-alloy-fire-sprinklers-en-gallery.png",
+        "edge-mobile-fusible-alloy-fire-sprinklers-en-specifications.png",
+        "edge-mobile-fusible-alloy-fire-sprinklers-en-models.png",
+        "edge-mobile-fusible-alloy-fire-sprinklers-en-quotation.png",
+        "edge-mobile-fusible-alloy-fire-sprinklers-ar-gallery.png",
+        "edge-mobile-fusible-alloy-fire-sprinklers-ar-specifications.png",
+        "edge-mobile-fusible-alloy-fire-sprinklers-ar-models.png",
+        "edge-mobile-fusible-alloy-fire-sprinklers-ar-quotation.png"
+      ]
+    }
+  ],
+  "languageSwitches": [
+    {
+      "scenario": "desktop/en: fusible-alloy-fire-sprinklers image/text category entries, reciprocal switch, refresh, 2-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+      "status": "PASS"
+    },
+    {
+      "scenario": "desktop/ar: fusible-alloy-fire-sprinklers image/text category entries, reciprocal switch, refresh, 2-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+      "status": "PASS"
+    },
+    {
+      "scenario": "mobile/en: fusible-alloy-fire-sprinklers image/text category entries, reciprocal switch, refresh, 2-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+      "status": "PASS"
+    },
+    {
+      "scenario": "mobile/ar: fusible-alloy-fire-sprinklers image/text category entries, reciprocal switch, refresh, 2-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+      "status": "PASS"
+    }
+  ],
+  "screenshots": [
+    "edge-desktop-fusible-alloy-fire-sprinklers-en-gallery.png",
+    "edge-desktop-fusible-alloy-fire-sprinklers-en-specifications.png",
+    "edge-desktop-fusible-alloy-fire-sprinklers-en-models.png",
+    "edge-desktop-fusible-alloy-fire-sprinklers-en-quotation.png",
+    "edge-desktop-fusible-alloy-fire-sprinklers-ar-gallery.png",
+    "edge-desktop-fusible-alloy-fire-sprinklers-ar-specifications.png",
+    "edge-desktop-fusible-alloy-fire-sprinklers-ar-models.png",
+    "edge-desktop-fusible-alloy-fire-sprinklers-ar-quotation.png",
+    "edge-mobile-fusible-alloy-fire-sprinklers-en-gallery.png",
+    "edge-mobile-fusible-alloy-fire-sprinklers-en-specifications.png",
+    "edge-mobile-fusible-alloy-fire-sprinklers-en-models.png",
+    "edge-mobile-fusible-alloy-fire-sprinklers-en-quotation.png",
+    "edge-mobile-fusible-alloy-fire-sprinklers-ar-gallery.png",
+    "edge-mobile-fusible-alloy-fire-sprinklers-ar-specifications.png",
+    "edge-mobile-fusible-alloy-fire-sprinklers-ar-models.png",
+    "edge-mobile-fusible-alloy-fire-sprinklers-ar-quotation.png"
+  ]
+}
