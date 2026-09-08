@@ -214,11 +214,12 @@ console.log("Gate-valve category validation passed: four families, eight localiz
 // MIG-605: all four indoor hydrant families are now published in both languages.
 const indoorHydrantIds = [
   "product:standard-indoor-hydrant", "product:export-slanted-hydrant-valve",
-  "product:double-outlet-hydrant", "product:rotating-pressure-regulating-hydrant"
+  "product:double-outlet-hydrant", "product:rotating-pressure-regulating-hydrant",
+  "product:straight-through-oblique-landing-valves"
 ];
 const indoorHydrantFamily = PRODUCT_FAMILIES.find(family => family.routeId === "category:indoor-hydrants");
 assert(JSON.stringify(indoorHydrantFamily.products.map(product => product.routeId)) === JSON.stringify(indoorHydrantIds),
-  "Indoor hydrant category must retain its four existing families and their order.");
+  "Indoor hydrant category must retain its existing families and the straight-through/oblique series in the approved order.");
 for (const locale of SUPPORTED_LOCALES) {
   const { html, route } = validateListingShell(indoorHydrantFamily.routeId, locale);
   const cards = [...html.matchAll(/<article class="product-card">([\s\S]*?)<\/article>/g)].map(match => match[1]);
@@ -233,7 +234,7 @@ for (const locale of SUPPORTED_LOCALES) {
       `${routeId}/${locale}: stale fallback badge.`);
   });
 }
-console.log("Indoor-hydrant category validation passed: four families, eight localized cards and sixteen matching entries.");
+console.log(`Indoor-hydrant category validation passed: ${indoorHydrantIds.length} families, ${indoorHydrantIds.length * SUPPORTED_LOCALES.length} localized cards and ${indoorHydrantIds.length * SUPPORTED_LOCALES.length * 2} matching entries.`);
 
 // MIG-705: all four outdoor hydrant families are now published in both languages.
 const outdoorHydrantIds = [

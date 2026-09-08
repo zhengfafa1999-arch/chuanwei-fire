@@ -1,0 +1,102 @@
+{
+  "scope": "single-product",
+  "products": [
+    "straight-through-oblique-landing-valves"
+  ],
+  "previewMode": "file",
+  "generatedAt": "2026-09-08T15:59:54.774Z",
+  "browser": "Edg/152.0.4191.66",
+  "viewports": [
+    {
+      "id": "desktop",
+      "width": 1440,
+      "height": 900,
+      "deviceScaleFactor": 1,
+      "mobile": false
+    },
+    {
+      "id": "mobile",
+      "width": 390,
+      "height": 844,
+      "deviceScaleFactor": 1,
+      "mobile": true
+    }
+  ],
+  "validations": [
+    {
+      "slug": "straight-through-oblique-landing-valves",
+      "languageSwitches": [
+        {
+          "scenario": "desktop/en: straight-through-oblique-landing-valves image/text category entries, reciprocal switch, refresh, 3-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+          "status": "PASS"
+        },
+        {
+          "scenario": "desktop/ar: straight-through-oblique-landing-valves image/text category entries, reciprocal switch, refresh, 3-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+          "status": "PASS"
+        },
+        {
+          "scenario": "mobile/en: straight-through-oblique-landing-valves image/text category entries, reciprocal switch, refresh, 3-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+          "status": "PASS"
+        },
+        {
+          "scenario": "mobile/ar: straight-through-oblique-landing-valves image/text category entries, reciprocal switch, refresh, 3-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+          "status": "PASS"
+        }
+      ],
+      "screenshots": [
+        "edge-desktop-straight-through-oblique-landing-valves-en-gallery.png",
+        "edge-desktop-straight-through-oblique-landing-valves-en-specifications.png",
+        "edge-desktop-straight-through-oblique-landing-valves-en-models.png",
+        "edge-desktop-straight-through-oblique-landing-valves-en-quotation.png",
+        "edge-desktop-straight-through-oblique-landing-valves-ar-gallery.png",
+        "edge-desktop-straight-through-oblique-landing-valves-ar-specifications.png",
+        "edge-desktop-straight-through-oblique-landing-valves-ar-models.png",
+        "edge-desktop-straight-through-oblique-landing-valves-ar-quotation.png",
+        "edge-mobile-straight-through-oblique-landing-valves-en-gallery.png",
+        "edge-mobile-straight-through-oblique-landing-valves-en-specifications.png",
+        "edge-mobile-straight-through-oblique-landing-valves-en-models.png",
+        "edge-mobile-straight-through-oblique-landing-valves-en-quotation.png",
+        "edge-mobile-straight-through-oblique-landing-valves-ar-gallery.png",
+        "edge-mobile-straight-through-oblique-landing-valves-ar-specifications.png",
+        "edge-mobile-straight-through-oblique-landing-valves-ar-models.png",
+        "edge-mobile-straight-through-oblique-landing-valves-ar-quotation.png"
+      ]
+    }
+  ],
+  "languageSwitches": [
+    {
+      "scenario": "desktop/en: straight-through-oblique-landing-valves image/text category entries, reciprocal switch, refresh, 3-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+      "status": "PASS"
+    },
+    {
+      "scenario": "desktop/ar: straight-through-oblique-landing-valves image/text category entries, reciprocal switch, refresh, 3-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+      "status": "PASS"
+    },
+    {
+      "scenario": "mobile/en: straight-through-oblique-landing-valves image/text category entries, reciprocal switch, refresh, 3-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+      "status": "PASS"
+    },
+    {
+      "scenario": "mobile/ar: straight-through-oblique-landing-valves image/text category entries, reciprocal switch, refresh, 3-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+      "status": "PASS"
+    }
+  ],
+  "screenshots": [
+    "edge-desktop-straight-through-oblique-landing-valves-en-gallery.png",
+    "edge-desktop-straight-through-oblique-landing-valves-en-specifications.png",
+    "edge-desktop-straight-through-oblique-landing-valves-en-models.png",
+    "edge-desktop-straight-through-oblique-landing-valves-en-quotation.png",
+    "edge-desktop-straight-through-oblique-landing-valves-ar-gallery.png",
+    "edge-desktop-straight-through-oblique-landing-valves-ar-specifications.png",
+    "edge-desktop-straight-through-oblique-landing-valves-ar-models.png",
+    "edge-desktop-straight-through-oblique-landing-valves-ar-quotation.png",
+    "edge-mobile-straight-through-oblique-landing-valves-en-gallery.png",
+    "edge-mobile-straight-through-oblique-landing-valves-en-specifications.png",
+    "edge-mobile-straight-through-oblique-landing-valves-en-models.png",
+    "edge-mobile-straight-through-oblique-landing-valves-en-quotation.png",
+    "edge-mobile-straight-through-oblique-landing-valves-ar-gallery.png",
+    "edge-mobile-straight-through-oblique-landing-valves-ar-specifications.png",
+    "edge-mobile-straight-through-oblique-landing-valves-ar-models.png",
+    "edge-mobile-straight-through-oblique-landing-valves-ar-quotation.png"
+  ]
+}

@@ -2,7 +2,7 @@
 
 **任务编号：** CATWEB-001
 **建立日期：** 2026-09-08
-**当前状态：** CATWEB-001 至 CATWEB-006 已完成；正在按分类优先补充缺少的产品，页面保持本地草稿，等待图片官网使用许可确认
+**当前状态：** CATWEB-001 至 CATWEB-007 已完成；正在按分类优先补充缺少的产品，页面保持本地草稿，等待图片官网使用许可确认
 **图册基线：** CHUANWEI FIRE Product Catalog 2026 Customer v11（47页）
 
 ## 目标与边界
@@ -134,13 +134,15 @@
 4. [x] **CATWEB-004**：标准响应消防喷头按 p6 的 v11 正式型号表完成英阿共享数据对齐。
 5. [x] **CATWEB-005**：快速响应玻璃球喷头迁移到共享英阿数据源，并按现有确认资料收敛规格与图库。
 6. [x] **CATWEB-006**：新增 ZSJZ-M-1.2 马鞍式水流指示器共享英阿详情页和报警阀分类入口。
-7. [ ] 按分类继续逐款补充缺少的产品；每个分类独立提交。
-8. [ ] 最终只做一次全站构建与浏览器回归。
+7. [x] **CATWEB-007**：新增直通式与斜式室内栓阀共享英阿详情页和室内消火栓分类入口。
+8. [ ] 按分类继续逐款补充缺少的产品；每个分类独立提交。
+9. [ ] 最终只做一次全站构建与浏览器回归。
 
 CATWEB-003 的实施与验收记录见 `docs/execution/2026-09-08_fusible-alloy-fire-sprinkler-sample.md`。
 CATWEB-004 的实施与验收记录见 `docs/execution/2026-09-08_standard-response-v11-alignment.md`。
 CATWEB-005 的实施与验收记录见 `docs/execution/2026-09-08_quick-response-v11-alignment.md`。
 CATWEB-006 的实施与验收记录见 `docs/execution/2026-09-08_saddle-waterflow-switches-addition.md`。
+CATWEB-007 的实施与验收记录见 `docs/execution/2026-09-09_straight-through-oblique-landing-valves-addition.md`。
 
 ## 来源
 
