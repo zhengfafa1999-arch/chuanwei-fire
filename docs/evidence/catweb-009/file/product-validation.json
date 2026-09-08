@@ -1,0 +1,102 @@
+{
+  "scope": "single-product",
+  "products": [
+    "breeching-inlets"
+  ],
+  "previewMode": "file",
+  "generatedAt": "2026-09-08T17:05:25.983Z",
+  "browser": "Edg/152.0.4191.66",
+  "viewports": [
+    {
+      "id": "desktop",
+      "width": 1440,
+      "height": 900,
+      "deviceScaleFactor": 1,
+      "mobile": false
+    },
+    {
+      "id": "mobile",
+      "width": 390,
+      "height": 844,
+      "deviceScaleFactor": 1,
+      "mobile": true
+    }
+  ],
+  "validations": [
+    {
+      "slug": "breeching-inlets",
+      "languageSwitches": [
+        {
+          "scenario": "desktop/en: breeching-inlets image/text category entries, reciprocal switch, refresh, 2-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+          "status": "PASS"
+        },
+        {
+          "scenario": "desktop/ar: breeching-inlets image/text category entries, reciprocal switch, refresh, 2-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+          "status": "PASS"
+        },
+        {
+          "scenario": "mobile/en: breeching-inlets image/text category entries, reciprocal switch, refresh, 2-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+          "status": "PASS"
+        },
+        {
+          "scenario": "mobile/ar: breeching-inlets image/text category entries, reciprocal switch, refresh, 2-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+          "status": "PASS"
+        }
+      ],
+      "screenshots": [
+        "edge-desktop-breeching-inlets-en-gallery.png",
+        "edge-desktop-breeching-inlets-en-specifications.png",
+        "edge-desktop-breeching-inlets-en-models.png",
+        "edge-desktop-breeching-inlets-en-quotation.png",
+        "edge-desktop-breeching-inlets-ar-gallery.png",
+        "edge-desktop-breeching-inlets-ar-specifications.png",
+        "edge-desktop-breeching-inlets-ar-models.png",
+        "edge-desktop-breeching-inlets-ar-quotation.png",
+        "edge-mobile-breeching-inlets-en-gallery.png",
+        "edge-mobile-breeching-inlets-en-specifications.png",
+        "edge-mobile-breeching-inlets-en-models.png",
+        "edge-mobile-breeching-inlets-en-quotation.png",
+        "edge-mobile-breeching-inlets-ar-gallery.png",
+        "edge-mobile-breeching-inlets-ar-specifications.png",
+        "edge-mobile-breeching-inlets-ar-models.png",
+        "edge-mobile-breeching-inlets-ar-quotation.png"
+      ]
+    }
+  ],
+  "languageSwitches": [
+    {
+      "scenario": "desktop/en: breeching-inlets image/text category entries, reciprocal switch, refresh, 2-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+      "status": "PASS"
+    },
+    {
+      "scenario": "desktop/ar: breeching-inlets image/text category entries, reciprocal switch, refresh, 2-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+      "status": "PASS"
+    },
+    {
+      "scenario": "mobile/en: breeching-inlets image/text category entries, reciprocal switch, refresh, 2-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+      "status": "PASS"
+    },
+    {
+      "scenario": "mobile/ar: breeching-inlets image/text category entries, reciprocal switch, refresh, 2-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+      "status": "PASS"
+    }
+  ],
+  "screenshots": [
+    "edge-desktop-breeching-inlets-en-gallery.png",
+    "edge-desktop-breeching-inlets-en-specifications.png",
+    "edge-desktop-breeching-inlets-en-models.png",
+    "edge-desktop-breeching-inlets-en-quotation.png",
+    "edge-desktop-breeching-inlets-ar-gallery.png",
+    "edge-desktop-breeching-inlets-ar-specifications.png",
+    "edge-desktop-breeching-inlets-ar-models.png",
+    "edge-desktop-breeching-inlets-ar-quotation.png",
+    "edge-mobile-breeching-inlets-en-gallery.png",
+    "edge-mobile-breeching-inlets-en-specifications.png",
+    "edge-mobile-breeching-inlets-en-models.png",
+    "edge-mobile-breeching-inlets-en-quotation.png",
+    "edge-mobile-breeching-inlets-ar-gallery.png",
+    "edge-mobile-breeching-inlets-ar-specifications.png",
+    "edge-mobile-breeching-inlets-ar-models.png",
+    "edge-mobile-breeching-inlets-ar-quotation.png"
+  ]
+}

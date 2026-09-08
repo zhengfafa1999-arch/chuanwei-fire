@@ -170,7 +170,8 @@ export const PRODUCT_FAMILIES = [
       ["product:freestanding-above-ground-fdcs", "Freestanding Above-Ground FDCs", "وصلات FDC أرضية فوق سطح الأرض", "products/消防水泵接合器/消防水泵接合器主图.jpg"],
       ["product:alternative-freestanding-fdc-configurations", "Alternative Freestanding Configurations", "تكوينات أرضية بديلة", "products/消防水泵接合器/DSC_5714.jpg"],
       ["product:underground-fdc-assemblies", "Underground FDC Assemblies", "مجموعات FDC تحت الأرض", "products/消防水泵接合器/DSC_5705.jpg"],
-      ["product:wall-mounted-grooved-fdc-families", "Wall-Mounted & Grooved Families", "فئات جدارية ومحززة", "products/消防水泵接合器/DSC_5709.jpg"]
+      ["product:wall-mounted-grooved-fdc-families", "Wall-Mounted & Grooved Families", "فئات جدارية ومحززة", "products/消防水泵接合器/DSC_5709.jpg"],
+      ["product:breeching-inlets", "Breeching Inlets", "مداخل تغذية أنظمة الحريق", "products/消防水泵接合器/breeching-inlets/two-way-breeching-inlet.jpg"]
     ]
   }
 ].map((family) => ({

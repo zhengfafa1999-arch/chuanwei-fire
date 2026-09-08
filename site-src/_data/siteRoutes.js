@@ -75,7 +75,8 @@ export const SITE_ROUTES = {
   "product:freestanding-above-ground-fdcs": { kind: "product", category: "category:fire-department-connections", locales: { en: published("products/消防水泵接合器/freestanding-above-ground-fdcs.html"), ar: published("ar/products/freestanding-above-ground-fdcs/index.html") } },
   "product:alternative-freestanding-fdc-configurations": { kind: "product", category: "category:fire-department-connections", locales: { en: published("products/消防水泵接合器/alternative-freestanding-fdc-configurations.html"), ar: published("ar/products/alternative-freestanding-fdc-configurations/index.html") } },
   "product:underground-fdc-assemblies": { kind: "product", category: "category:fire-department-connections", locales: { en: published("products/消防水泵接合器/underground-fdc-assemblies.html"), ar: published("ar/products/underground-fdc-assemblies/index.html") } },
-  "product:wall-mounted-grooved-fdc-families": { kind: "product", category: "category:fire-department-connections", locales: { en: published("products/消防水泵接合器/wall-mounted-grooved-fdc-families.html"), ar: published("ar/products/wall-mounted-grooved-fdc-families/index.html") } }
+  "product:wall-mounted-grooved-fdc-families": { kind: "product", category: "category:fire-department-connections", locales: { en: published("products/消防水泵接合器/wall-mounted-grooved-fdc-families.html"), ar: published("ar/products/wall-mounted-grooved-fdc-families/index.html") } },
+  "product:breeching-inlets": { kind: "product", category: "category:fire-department-connections", locales: { en: published("products/消防水泵接合器/breeching-inlets.html"), ar: published("ar/products/breeching-inlets/index.html") } }
 };
 
 function canonicalFor(outputPath) {

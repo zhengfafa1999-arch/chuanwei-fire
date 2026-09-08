@@ -285,14 +285,15 @@ for (const locale of SUPPORTED_LOCALES) {
 }
 console.log("Hose/nozzle/coupling category validation passed: five families, ten localized cards and twenty matching entries.");
 
-// MIG-802: all four current fire department connection families are localized.
+// CATWEB-009: the existing FDC families remain in order and the breeching-inlet family is appended.
 const fdcIds = [
   "product:freestanding-above-ground-fdcs", "product:alternative-freestanding-fdc-configurations",
-  "product:underground-fdc-assemblies", "product:wall-mounted-grooved-fdc-families"
+  "product:underground-fdc-assemblies", "product:wall-mounted-grooved-fdc-families",
+  "product:breeching-inlets"
 ];
 const fdcFamily = PRODUCT_FAMILIES.find(family => family.routeId === "category:fire-department-connections");
 assert(JSON.stringify(fdcFamily.products.map(product => product.routeId)) === JSON.stringify(fdcIds),
-  "FDC category must retain its four current families and their order.");
+  "FDC category must retain its existing families and append the breeching-inlet family.");
 for (const locale of SUPPORTED_LOCALES) {
   const { html, route } = validateListingShell(fdcFamily.routeId, locale);
   const cards = [...html.matchAll(/<article class="product-card">([\s\S]*?)<\/article>/g)].map(match => match[1]);
@@ -307,7 +308,7 @@ for (const locale of SUPPORTED_LOCALES) {
       `${routeId}/${locale}: stale fallback badge.`);
   });
 }
-console.log("FDC category validation passed: four families, eight localized cards and sixteen matching entries.");
+console.log(`FDC category validation passed: ${fdcIds.length} families, ${fdcIds.length * SUPPORTED_LOCALES.length} localized cards and ${fdcIds.length * SUPPORTED_LOCALES.length * 2} matching entries.`);
 
 assert(sitemap.includes("GENERATED FILE"), "Sitemap is not generated from the shared route registry.");
 for (const [routeId, route] of Object.entries(SITE_ROUTES)) {
