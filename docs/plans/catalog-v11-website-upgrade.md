@@ -2,14 +2,14 @@
 
 **任务编号：** CATWEB-001
 **建立日期：** 2026-09-08
-**当前状态：** CATWEB-001 至 CATWEB-012 已完成；8 个允许制作本地草稿的新增候选已补齐，下一步核对新增批次完整性并做最终回归。页面保持本地草稿，等待图片官网使用许可确认；现有产品的其余图册更新不计为已完成
+**当前状态：** CATWEB-001 至 CATWEB-013 已完成；8 个新增候选的本地草稿、完整性核对与最终全站回归已完成。页面保持本地草稿，等待图片官网使用许可确认；现有产品的其余图册更新不计为已完成
 **图册基线：** CHUANWEI FIRE Product Catalog 2026 Customer v11（47页）
 
 ## 目标与边界
 
 本计划把 v11 图册与当前官网的 41 个产品路由进行映射，先区分新增、更新、保持和暂缓，再通过共享产品数据与模板同步英文和阿拉伯文。
 
-- 本阶段没有修改产品页面、分类页或公开内容。
+- CATWEB-001 为只读规划；后续本地页面改动与验收分别记录于 CATWEB-002 至 CATWEB-013。本批没有公开发布。
 - 原 v10 第47页 `Fire Valves & Accessories` 已删除，不恢复其中带压力表阀、手轮闸阀和侧孔球阀。
 - 只采用交接包中的 `confirmed_specifications`、当前图册表格和最新用户确认。
 - `historical_source_notes` 和 `all_visible_catalog_text` 仅用于追溯，不直接进入官网。
@@ -141,7 +141,7 @@
 11. [x] **CATWEB-011**：新增直流水枪 QZ / 俄式构型共享英阿详情页和分类入口；保留两种口径选项与铝合金材质，不恢复已删除的型号、压力和流量字段。
 12. [x] **CATWEB-012**：新增 p41 手柄式消防水枪共享英阿详情页；A/B 构型和五行选型参考按图册对应，不推断接口标准或性能。
 13. [x] 本批 8 个允许制作本地草稿的新增候选已逐款补齐并独立保存；暂缓候选继续保留，不自动恢复。
-14. [ ] 最终只做一次全站构建与浏览器回归。
+14. [x] **CATWEB-013**：最终构建与全站浏览器回归通过；127 页 × 4 档宽度共 508 项响应式/方向检查，另有 58 项代表页面检查与 348 项语言/返回检查。首轮旧清单断言修正后完整重跑通过。
 
 CATWEB-003 的实施与验收记录见 `docs/execution/2026-09-08_fusible-alloy-fire-sprinkler-sample.md`。
 CATWEB-004 的实施与验收记录见 `docs/execution/2026-09-08_standard-response-v11-alignment.md`。
@@ -153,6 +153,7 @@ CATWEB-009 的实施与验收记录见 `docs/execution/2026-09-09_breeching-inle
 CATWEB-010 的实施与验收记录见 `docs/execution/2026-09-09_russian-pattern-fdc-addition.md`。
 CATWEB-011 的实施与验收记录见 `docs/execution/2026-09-09_straight-stream-nozzles-addition.md`。
 CATWEB-012 的实施与验收记录见 `docs/execution/2026-09-09_lever-operated-nozzles-addition.md`。
+CATWEB-013 的实施与验收记录见 `docs/execution/2026-09-09_catalog-additions-final-regression.md`。
 
 ## 来源
 

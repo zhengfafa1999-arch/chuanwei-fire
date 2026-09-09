@@ -5,6 +5,7 @@ import path from "node:path";
 import { pathToFileURL } from "node:url";
 import { spawn } from "node:child_process";
 import { SITE_ROUTES } from "../site-src/_data/siteRoutes.js";
+import { PRODUCT_FAMILIES } from "../site-src/_data/productDirectory.js";
 import { validateSystemValveNavigation } from "./browser-system-valves.mjs";
 import { validateStandardResponse } from "./browser-standard-response.mjs";
 
@@ -675,30 +676,27 @@ async function run() {
         languageSwitches.push({scenario:`${viewport.id}: ${product.id} AR category, same-product EN/AR switch, refresh, model anchor and AR category return`,status:"PASS"});
       }
     }
-    languageSwitches.push(...await validateSystemValveNavigation({
-      client, origin, viewports, evaluate, navigate, waitForLocation, inspectPage, assert
-    }));
-    languageSwitches.push(...await validateSystemValveNavigation({
-      client, origin, viewports, evaluate, navigate, waitForLocation, inspectPage, assert,
-      categoryId: "category:sprinklers", expectedProducts: 8
-    }));
-    languageSwitches.push(...await validateSystemValveNavigation({
-      client, origin, viewports, evaluate, navigate, waitForLocation, inspectPage, assert,
-      categoryId: "category:hose-reels", expectedProducts: 4
-    }));
-    languageSwitches.push(...await validateSystemValveNavigation({
-      client, origin, viewports, evaluate, navigate, waitForLocation, inspectPage, assert,
-      categoryId: "category:butterfly-valves", expectedProducts: 4
-    }));
-    const standardResponse = await validateStandardResponse({
-      client, origin, viewports, evaluate, navigate, waitForLocation, inspectPage, assert, evidenceDirectory
-    });
-    languageSwitches.push(...standardResponse.results);
-    const quickResponse = await validateStandardResponse({
-      client, origin, viewports, evaluate, navigate, waitForLocation, inspectPage, assert, evidenceDirectory,
-      routeId: "product:glass-bulb-fire-sprinkler", slug: "quick-response", imageCount: 5
-    });
-    languageSwitches.push(...quickResponse.results);
+    for (const family of PRODUCT_FAMILIES) {
+      languageSwitches.push(...await validateSystemValveNavigation({
+        client, origin, viewports, evaluate, navigate, waitForLocation, inspectPage, assert,
+        categoryId: family.routeId, expectedProducts: family.products.length
+      }));
+    }
+    const documentedScreenshots = [];
+    const documentedDirectory = path.join(root, 'site-src/_data/documented-products');
+    const documentedProducts = fs.readdirSync(documentedDirectory).filter(file => file.endsWith('.json'))
+      .map(file => JSON.parse(fs.readFileSync(path.join(documentedDirectory, file), 'utf8')));
+    for (const product of documentedProducts) {
+      assert(product.template === 'product-series/documented-product.njk', `${product.id}: unsupported documented-product test template`);
+      const result = await validateStandardResponse({
+        client, origin, viewports, evaluate, navigate, waitForLocation, inspectPage, assert, evidenceDirectory,
+        routeId: product.routeId, slug: product.id, imageCount: product.gallery.length,
+        modelTableRows: [product.models.length], anchors: product.validation.anchors,
+        neutralCaptions: Object.fromEntries(product.gallery.flatMap((item, index) => Object.hasOwn(product.shared ?? {}, item.caption) ? [[index, product.shared[item.caption]]] : []))
+      });
+      languageSwitches.push(...result.results);
+      documentedScreenshots.push(...result.screenshots);
+    }
     const concealedProduct = JSON.parse(fs.readFileSync(path.join(root, 'site-src/_data/preserved-products/concealed-pendent-fire-sprinkler.json'), 'utf8'));
     const concealedResponse = await validateStandardResponse({
       client, origin, viewports, evaluate, navigate, waitForLocation, inspectPage, assert, evidenceDirectory,
@@ -776,8 +774,7 @@ async function run() {
         ...viewports.flatMap((viewport) => ["home-en", "home-zh", "home-ar", "category-en", "category-ar", "about-en", "about-ar", "downloads-en", "downloads-ar", "contact-en", "contact-ar", "deluge-en", "deluge-ar", "preaction-en", "preaction-ar", "dry-pipe-en", "dry-pipe-ar"].map((page) => `edge-${viewport.id}-${page}.png`)),
         ...responsiveScreenshots,
         ...singlePhotoScreenshots,
-        ...standardResponse.screenshots,
-        ...quickResponse.screenshots,
+        ...documentedScreenshots,
         ...concealedResponse.screenshots,
         ...dryPendentResponse.screenshots,
         ...extendedResponse.screenshots,
@@ -809,9 +806,8 @@ async function run() {
       "",
       "## 覆盖范围",
       "",
-      "玻璃球快速响应喷头：双语入口、同商品互切、刷新及返回；五张图库（含温度色标和包装图）的动态说明、缩略图、循环、滑动、放大/关闭和型号锚点。",
-      "标准响应消防喷头：双语分类图片/文字入口、同商品双向切换与刷新、四张图库及阿文动态说明、箭头循环、左右滑动、放大及三种关闭方式、三个页脚同语言返回入口。",
-      `英文/中文/阿文首页、产品总目录、公共页面、分类页和双语详情；逐一打开全部 ${navigationPages.length} 个正式页面，在 1440、768、390 和 320 像素四档宽度检查 LTR/RTL、页面溢出、页头边界、图片加载、控件和菜单；验证语言切换与返回，检查雨淋阀图库，以及预作用阀组、干式报警阀单图放大、三种关闭方式和型号锚点；逐一验证报警阀分类四类产品的图片/文字入口、双向语言切换、刷新、浏览器返回及三个页脚返回入口。`,
+      `全部 ${documentedProducts.length} 个 documented-products 产品（包括本批 8 个新增产品及标准/快速响应喷头）：按当前共享数据核对图库数量和表格行数，验证分类入口、英阿互切、刷新、图库、放大、锚点与返回。`,
+      `英文/中文/阿文首页、产品总目录、公共页面、分类页和双语详情；逐一打开全部 ${navigationPages.length} 个本地页面，在 1440、768、390 和 320 像素四档宽度检查 LTR/RTL、页面溢出、页头边界、图片加载、控件和菜单；验证语言切换与返回、雨淋阀图库、预作用阀组和干式报警阀放大与锚点；逐一验证全部 ${PRODUCT_FAMILIES.length} 个分类的图片/文字入口、英阿切换、刷新、浏览器返回及页脚入口。测试通过不表示本地草稿获准公开发布。`,
       "",
       "## 可复核产物",
       "",
