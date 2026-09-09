@@ -23,6 +23,21 @@ for (const entry of catalog) {
   assert(!/\{\{|\{%|\{n\d+\}/.test(output), `${entry.lang}: unresolved template or numeric placeholder`);
   const baselineFile = `tools/fixtures/${entry.product.id === "diaphragm-deluge-valves" ? "diaphragm-deluge" : entry.product.id}-en-baseline.txt`;
   let baseline = main(read(baselineFile));
+  // CATWEB-014: retain the immutable legacy fixture and allow only the reviewed
+  // model labels and conservative pressure wording; all other content stays exact.
+  if (entry.product.id === 'extended-coverage-quick-response-fire-sprinkler') {
+    const replacements = [
+      ['>Factory reference<', '>Factory Model<'],
+      ['>EC-ZSTX115-68°C series<', '>EC-ZSTX 115-68°C Q3A<'],
+      ['>EC-ZSTZ115-68°C series<', '>EC-ZSTZ 115-68°C Q3A<'],
+      ['>EC-ZSTBS115-68°C series<', '>EC-ZSTBS 115-68°C Q3A<'],
+      ['>1.2 MPa / 12 bar / approx. 175 psi<', '>To be confirmed with the quotation<']
+    ];
+    for (const [before, after] of replacements) {
+      assert.equal(baseline.split(before).length - 1, 1, `CATWEB-014: missing or repeated baseline field ${before}`);
+      baseline = baseline.replace(before, after);
+    }
+  }
   // This legacy page assigns its actual initial labels in inline JavaScript.
   // Preserve the displayed values, while keeping the original fixture immutable.
   if (entry.product.id === "concealed-pendent-fire-sprinkler") {
@@ -86,4 +101,4 @@ for (const entry of catalog) {
     }
   }
 }
-console.log(`Preserved-product validation passed: ${catalog.length} language outputs retain original sections, images, model count and shared numeric facts; English text matches the pre-migration fixture.`);
+console.log(`Preserved-product validation passed: ${catalog.length} language outputs retain original structure and media; English content matches immutable fixtures with explicitly reviewed CATWEB-014 field substitutions.`);

@@ -11,7 +11,16 @@
   "source": {
     "path": "products/消防喷头/extended-coverage-quick-response-fire-sprinkler.html",
     "revision": "9d4ac44",
-    "status": "preserved-existing-content-not-reaudited"
+    "status": "preserved-existing-content-not-reaudited",
+    "contentReview": {
+      "task": "CATWEB-014",
+      "catalogVersion": "v11",
+      "catalogPage": 8,
+      "handoffRecord": "catalog-p08",
+      "scope": "Factory model labels and conservative treatment of conflicting pressure only; other legacy specifications are not re-confirmed.",
+      "pressure": "Legacy 1.2 MPa conflicts with unresolved pressure in the v11 handoff. Local draft uses quotation confirmation pending user clarification.",
+      "retained": "Three existing images, row order, shared template, inquiry links and unrelated content."
+    }
   },
   "media": {
     "hero": "products/消防喷头/extended-coverage-quick-response-sprinkler/temporary-reference-pendent.jpg",
@@ -204,12 +213,8 @@
       "numbers": []
     },
     "value12MPa12BarApprox175Psi": {
-      "text": "{n0} MPa / {n1} bar / approx. {n2} psi",
-      "numbers": [
-        "1.2",
-        "12",
-        "175"
-      ]
+      "text": "To be confirmed with the quotation",
+      "numbers": []
     },
     "standardPacking": {
       "text": "Standard packing",
@@ -286,7 +291,7 @@
       "numbers": []
     },
     "factoryReference": {
-      "text": "Factory reference",
+      "text": "Factory Model",
       "numbers": []
     },
     "pendentECQuickResponse": {
@@ -298,10 +303,11 @@
       "numbers": []
     },
     "eCZSTX11568CSeries": {
-      "text": "EC-ZSTX{n0}-{n1}°C series",
+      "text": "EC-ZSTX {n0}-{n1}°C Q{n2}A",
       "numbers": [
         "115",
-        "68"
+        "68",
+        "3"
       ]
     },
     "uprightECQuickResponse": {
@@ -313,10 +319,11 @@
       "numbers": []
     },
     "eCZSTZ11568CSeries": {
-      "text": "EC-ZSTZ{n0}-{n1}°C series",
+      "text": "EC-ZSTZ {n0}-{n1}°C Q{n2}A",
       "numbers": [
         "115",
-        "68"
+        "68",
+        "3"
       ]
     },
     "horizontalSidewallECQuickResponse": {
@@ -328,10 +335,11 @@
       "numbers": []
     },
     "eCZSTBS11568CSeries": {
-      "text": "EC-ZSTBS{n0}-{n1}°C series",
+      "text": "EC-ZSTBS {n0}-{n1}°C Q{n2}A",
       "numbers": [
         "115",
-        "68"
+        "68",
+        "3"
       ]
     },
     "forQuotationSpecifyOrientationDestinationCountryThreadRequirement": {

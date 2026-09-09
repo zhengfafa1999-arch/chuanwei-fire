@@ -2,7 +2,7 @@
 
 **任务编号：** CATWEB-001
 **建立日期：** 2026-09-08
-**当前状态：** CATWEB-001 至 CATWEB-013 已完成；8 个新增候选的本地草稿、完整性核对与最终全站回归已完成。页面保持本地草稿，等待图片官网使用许可确认；现有产品的其余图册更新不计为已完成
+**当前状态：** CATWEB-001 至 CATWEB-014 已完成；8 个新增候选已验收，扩大覆盖快速响应喷头的正式型号已对齐，冲突压力暂按报价确认。下一项核对隐蔽式下垂喷头。页面保持本地草稿；现有产品的其余图册更新不计为已完成
 **图册基线：** CHUANWEI FIRE Product Catalog 2026 Customer v11（47页）
 
 ## 目标与边界
@@ -142,6 +142,8 @@
 12. [x] **CATWEB-012**：新增 p41 手柄式消防水枪共享英阿详情页；A/B 构型和五行选型参考按图册对应，不推断接口标准或性能。
 13. [x] 本批 8 个允许制作本地草稿的新增候选已逐款补齐并独立保存；暂缓候选继续保留，不自动恢复。
 14. [x] **CATWEB-013**：最终构建与全站浏览器回归通过；127 页 × 4 档宽度共 508 项响应式/方向检查，另有 58 项代表页面检查与 348 项语言/返回检查。首轮旧清单断言修正后完整重跑通过。
+15. [x] **CATWEB-014**：扩大覆盖快速响应喷头的三行正式型号补齐 Q3A，压力冲突保守改为报价确认；其他旧规格本次不重新背书。
+16. [ ] **CATWEB-015**：核对隐蔽式下垂喷头 p7 确认表、现有型号和喷头/盖板配套表达，只修改有明确依据的差异。
 
 CATWEB-003 的实施与验收记录见 `docs/execution/2026-09-08_fusible-alloy-fire-sprinkler-sample.md`。
 CATWEB-004 的实施与验收记录见 `docs/execution/2026-09-08_standard-response-v11-alignment.md`。
@@ -154,6 +156,7 @@ CATWEB-010 的实施与验收记录见 `docs/execution/2026-09-09_russian-patter
 CATWEB-011 的实施与验收记录见 `docs/execution/2026-09-09_straight-stream-nozzles-addition.md`。
 CATWEB-012 的实施与验收记录见 `docs/execution/2026-09-09_lever-operated-nozzles-addition.md`。
 CATWEB-013 的实施与验收记录见 `docs/execution/2026-09-09_catalog-additions-final-regression.md`。
+CATWEB-014 的实施与验收记录见 `docs/execution/2026-09-09_extended-coverage-model-alignment.md`。
 
 ## 来源
 
