@@ -1,0 +1,291 @@
+{
+  "id": "straight-stream-fire-hose-nozzles",
+  "routeId": "product:straight-stream-fire-hose-nozzles",
+  "template": "product-series/documented-product.njk",
+  "styles": [
+    "css/common.css",
+    "css/sprinkler-product.css",
+    "css/sprinkler-product-gallery.css",
+    "css/documented-product.css",
+    "css/site-navigation.css"
+  ],
+  "source": {
+    "catalogVersion": "v11",
+    "catalogPage": 40,
+    "handoffRecord": "catalog-p40",
+    "evidence": "A-user: both aluminium alloy; QZ DN50/DN65; Russian 2/2½ in. B-derived-approved-catalog: straight-stream jet. D-visual: representative embedded catalog images.",
+    "omittedFields": [
+      "factory model",
+      "pressure",
+      "flow"
+    ],
+    "imageSources": [
+      "D:/work/codex/yunying/outputs/catalog-consolidated-20260907/website-handoff/embedded-display-assets/m01_m01_image82.png",
+      "D:/work/codex/yunying/outputs/catalog-consolidated-20260907/website-handoff/embedded-display-assets/m01_m01_image83.png"
+    ]
+  },
+  "publication": {
+    "status": "local-draft",
+    "externalRelease": false,
+    "imageRights": "pending-website-use-confirmation"
+  },
+  "media": {
+    "hero": "products/消防水枪/straight-stream-fire-hose-nozzles/qz-catalog-display.png",
+    "russian": "products/消防水枪/straight-stream-fire-hose-nozzles/russian-pattern-catalog-display.png"
+  },
+  "imageDimensions": {
+    "hero": {
+      "width": 903,
+      "height": 2746
+    },
+    "russian": {
+      "width": 449,
+      "height": 1127
+    }
+  },
+  "heroFacts": [
+    "materialValue",
+    "qzSizeValue",
+    "russianSizeValue"
+  ],
+  "shared": {
+    "qzSizeValue": "DN50 / DN65 · 2 in / 2½ in",
+    "russianSizeValue": "2 in / 2½ in"
+  },
+  "gallery": [
+    {
+      "media": "hero",
+      "alt": "qzAlt",
+      "caption": "qz",
+      "thumbnailAlt": "qzThumbnail"
+    },
+    {
+      "media": "russian",
+      "alt": "russianAlt",
+      "caption": "russian",
+      "thumbnailAlt": "russianThumbnail"
+    }
+  ],
+  "specifications": [
+    {
+      "label": "productType",
+      "value": "productTypeValue"
+    },
+    {
+      "label": "material",
+      "value": "materialValue"
+    },
+    {
+      "label": "jet",
+      "value": "jetValue"
+    },
+    {
+      "label": "qzSize",
+      "value": "qzSizeValue",
+      "technical": true
+    },
+    {
+      "label": "russianSize",
+      "value": "russianSizeValue",
+      "technical": true
+    },
+    {
+      "label": "coupling",
+      "value": "confirmWithQuotation"
+    }
+  ],
+  "modelColumns": [
+    {
+      "label": "configuration",
+      "field": "configuration",
+      "localized": true
+    },
+    {
+      "label": "nominalSize",
+      "field": "size",
+      "technical": true
+    },
+    {
+      "label": "material",
+      "field": "material",
+      "localized": true
+    },
+    {
+      "label": "jet",
+      "field": "jet",
+      "localized": true
+    }
+  ],
+  "models": [
+    {
+      "configuration": "qz",
+      "size": "DN50 / DN65 · 2 in / 2½ in",
+      "material": "materialValue",
+      "jet": "jetValue"
+    },
+    {
+      "configuration": "russian",
+      "size": "2 in / 2½ in",
+      "material": "materialValue",
+      "jet": "jetValue"
+    }
+  ],
+  "confirmationItems": [
+    {
+      "label": "selection",
+      "body": "selectionBody"
+    },
+    {
+      "label": "connection",
+      "body": "connectionBody"
+    },
+    {
+      "label": "order",
+      "body": "orderBody"
+    },
+    {
+      "label": "packing",
+      "body": "packingBody"
+    }
+  ],
+  "validation": {
+    "anchors": [
+      "gallery",
+      "specifications",
+      "models",
+      "quotation"
+    ],
+    "requiredTechnicalValues": [
+      "DN50 / DN65",
+      "2 in / 2½ in"
+    ]
+  },
+  "inquiry": {
+    "whatsapp": "https://wa.me/8617326528368?text=Hello%2C%20I%20need%20a%20quotation%20for%20Straight-Stream%20Fire%20Hose%20Nozzles.%20Configuration%3A%20%5BQZ%2FRussian%20pattern%5D%2C%20nominal%20size%3A%20%5Bsize%5D%2C%20coupling%20specification%3A%20%5Bdetails%5D%2C%20quantity%3A%20%5Bpcs%5D%2C%20destination%3A%20%5Bcountry%5D.",
+    "email": "mailto:zhengcolin1@gmail.com?subject=Straight-Stream%20Fire%20Hose%20Nozzle%20Inquiry"
+  },
+  "copy": {
+    "en": {
+      "onThisPage": "On this page",
+      "title": "Straight-Stream Fire Hose Nozzles",
+      "eyebrow": "QZ and Russian-pattern configurations",
+      "lead": "Aluminium-alloy fire hose nozzles with a straight-stream jet. Choose a QZ configuration in DN50 or DN65, or a Russian-pattern configuration in 2 in or 2½ in.",
+      "note": "Nominal sizes identify the available selections. Confirm the exact inlet coupling and mating component before ordering.",
+      "gallery": "Product images",
+      "galleryTitle": "Two straight-stream configurations",
+      "galleryBody": "Catalog display images identify each configuration. They are representative views, not dimensional drawings or proof of exact coupling compatibility.",
+      "qz": "QZ configuration",
+      "qzAlt": "Catalog display view of the QZ straight-stream nozzle with a stepped body and inlet coupling",
+      "qzThumbnail": "QZ configuration thumbnail",
+      "russian": "Russian-pattern configuration",
+      "russianAlt": "Catalog display view of the Russian-pattern straight-stream nozzle with a tapered body and lugged inlet coupling",
+      "russianThumbnail": "Russian-pattern configuration thumbnail",
+      "specifications": "Specifications",
+      "specificationsTitle": "Available configurations and sizes",
+      "specificationsBody": "Both configurations have an aluminium-alloy body and a straight-stream jet. Confirm the final coupling specification with the quotation.",
+      "productType": "Product family",
+      "productTypeValue": "Straight-stream fire hose nozzles",
+      "material": "Body material",
+      "materialValue": "Aluminium alloy",
+      "jet": "Jet pattern",
+      "jetValue": "Straight stream",
+      "qzSize": "QZ nominal sizes",
+      "russianSize": "Russian-pattern nominal sizes",
+      "coupling": "Exact inlet coupling",
+      "confirmWithQuotation": "To be confirmed with the quotation",
+      "availableModels": "Available configurations",
+      "modelsTitle": "Configuration and size selection",
+      "modelsBody": "Each configuration is offered in two nominal sizes. Select the required configuration and size for your inquiry.",
+      "configuration": "Configuration",
+      "nominalSize": "Nominal size options",
+      "modelsNote": "QZ is a configuration label. Nominal size alone does not establish compatibility with a hose coupling; confirm the mating interface against the required specification or sample.",
+      "quotation": "Quotation confirmation",
+      "quotationTitle": "Specify the configuration and coupling",
+      "quotationBody": "Send your required configuration, nominal size and mating-coupling details so the quotation can identify the supplied version.",
+      "selection": "Configuration and size",
+      "selectionBody": "Choose QZ DN50 / DN65 or Russian pattern 2 in / 2½ in.",
+      "connection": "Mating interface",
+      "connectionBody": "Provide the coupling specification, drawing or a clear photo of the mating component for compatibility review.",
+      "order": "Quantity and destination",
+      "orderBody": "Include the required quantity and destination country.",
+      "packing": "Packing and final specification",
+      "packingBody": "Confirm packing requirements and the final specification in the quotation and order documents.",
+      "inquiryTitle": "Send your straight-stream nozzle requirement",
+      "inquiryBody": "Include configuration, nominal size, exact coupling specification, quantity and destination.",
+      "askOnWhatsApp": "Ask on WhatsApp",
+      "emailSales": "Email sales",
+      "productImagePreview": "Product image preview",
+      "closeImagePreview": "Close image preview",
+      "enlargedImage": "Enlarged straight-stream nozzle catalog display image",
+      "previousProductImage": "Previous product image",
+      "nextProductImage": "Next product image",
+      "selectProductImage": "Select product image",
+      "seoTitle": "Straight-Stream Fire Hose Nozzles | CHUANWEI FIRE",
+      "seoDescription": "Aluminium-alloy straight-stream fire hose nozzles: QZ DN50 / DN65 and Russian-pattern 2 in / 2½ in configurations. Confirm inlet coupling for quotation.",
+      "factoryModel": "Factory Model",
+      "temperature": "Temperature",
+      "thermalElement": "Operating element"
+    },
+    "ar": {
+      "onThisPage": "في هذه الصفحة",
+      "title": "فوهات خراطيم حريق ذات نفث مستقيم",
+      "eyebrow": "تكوين QZ وتكوين بالنمط الروسي",
+      "lead": "فوهات خراطيم حريق من سبيكة الألومنيوم ذات نفث مستقيم. اختر تكوين QZ بمقاس DN50 أو DN65، أو التكوين بالنمط الروسي بمقاس 2 in أو 2½ in.",
+      "note": "تحدد المقاسات الاسمية الخيارات المتاحة. أكد وصلة المدخل الدقيقة والجزء المقابل قبل الطلب.",
+      "gallery": "صور المنتج",
+      "galleryTitle": "تكوينان للنفث المستقيم",
+      "galleryBody": "توضح صور عرض الكتالوج كل تكوين. وهي صور تمثيلية وليست رسومات أبعاد أو دليلاً على التوافق الدقيق للوصلات.",
+      "qz": "تكوين QZ",
+      "qzAlt": "صورة عرض من الكتالوج لفوهة QZ ذات نفث مستقيم بجسم متدرج ووصلة مدخل",
+      "qzThumbnail": "صورة مصغرة لتكوين QZ",
+      "russian": "تكوين بالنمط الروسي",
+      "russianAlt": "صورة عرض من الكتالوج لفوهة ذات نفث مستقيم بالنمط الروسي بجسم مخروطي ووصلة مدخل ذات عروات",
+      "russianThumbnail": "صورة مصغرة للتكوين بالنمط الروسي",
+      "specifications": "المواصفات",
+      "specificationsTitle": "التكوينات والمقاسات المتاحة",
+      "specificationsBody": "كلا التكوينين له جسم من سبيكة الألومنيوم ونفث مستقيم. أكد مواصفات الوصلة النهائية مع عرض السعر.",
+      "productType": "عائلة المنتج",
+      "productTypeValue": "فوهات خراطيم حريق ذات نفث مستقيم",
+      "material": "مادة الجسم",
+      "materialValue": "سبيكة الألومنيوم",
+      "jet": "نمط النفث",
+      "jetValue": "نفث مستقيم",
+      "qzSize": "المقاسات الاسمية لتكوين QZ",
+      "russianSize": "المقاسات الاسمية للنمط الروسي",
+      "coupling": "وصلة المدخل الدقيقة",
+      "confirmWithQuotation": "يُؤكد مع عرض السعر",
+      "availableModels": "التكوينات المتاحة",
+      "modelsTitle": "اختيار التكوين والمقاس",
+      "modelsBody": "يتوفر كل تكوين بمقاسين اسميين. حدد التكوين والمقاس المطلوبين عند الاستفسار.",
+      "configuration": "التكوين",
+      "nominalSize": "خيارات المقاس الاسمي",
+      "modelsNote": "QZ تسمية للتكوين. لا يثبت المقاس الاسمي وحده التوافق مع وصلة الخرطوم؛ أكد واجهة الاقتران وفق المواصفات أو العينة المطلوبة.",
+      "quotation": "تأكيد عرض السعر",
+      "quotationTitle": "حدد التكوين والوصلة",
+      "quotationBody": "أرسل التكوين والمقاس الاسمي وتفاصيل الوصلة المقابلة لتحديد النسخة الموردة في عرض السعر.",
+      "selection": "التكوين والمقاس",
+      "selectionBody": "اختر QZ بمقاس DN50 / DN65 أو النمط الروسي بمقاس 2 in / 2½ in.",
+      "connection": "واجهة الاقتران",
+      "connectionBody": "قدم مواصفات الوصلة أو رسمها أو صورة واضحة للجزء المقابل لمراجعة التوافق.",
+      "order": "الكمية والوجهة",
+      "orderBody": "أدرج الكمية المطلوبة وبلد الوجهة.",
+      "packing": "التغليف والمواصفات النهائية",
+      "packingBody": "أكد متطلبات التغليف والمواصفات النهائية في عرض السعر ومستندات الطلب.",
+      "inquiryTitle": "أرسل متطلبات فوهة النفث المستقيم",
+      "inquiryBody": "أدرج التكوين والمقاس الاسمي ومواصفات الوصلة الدقيقة والكمية والوجهة.",
+      "askOnWhatsApp": "استفسر عبر WhatsApp",
+      "emailSales": "راسل قسم المبيعات",
+      "productImagePreview": "معاينة صورة المنتج",
+      "closeImagePreview": "إغلاق معاينة الصورة",
+      "enlargedImage": "صورة عرض مكبرة من الكتالوج لفوهة نفث مستقيم",
+      "previousProductImage": "صورة المنتج السابقة",
+      "nextProductImage": "صورة المنتج التالية",
+      "selectProductImage": "اختر صورة المنتج",
+      "seoTitle": "فوهات خراطيم حريق ذات نفث مستقيم | CHUANWEI FIRE",
+      "seoDescription": "فوهات خراطيم حريق من سبيكة الألومنيوم ذات نفث مستقيم: QZ بمقاس DN50 / DN65 والنمط الروسي بمقاس 2 in / 2½ in. تُؤكد وصلة المدخل مع عرض السعر.",
+      "factoryModel": "موديل المصنع",
+      "temperature": "درجة الحرارة",
+      "thermalElement": "عنصر التشغيل"
+    }
+  }
+}

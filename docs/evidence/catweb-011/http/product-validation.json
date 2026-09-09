@@ -1,0 +1,102 @@
+{
+  "scope": "single-product",
+  "products": [
+    "straight-stream-fire-hose-nozzles"
+  ],
+  "previewMode": "http",
+  "generatedAt": "2026-09-09T03:53:43.675Z",
+  "browser": "Edg/152.0.4191.66",
+  "viewports": [
+    {
+      "id": "desktop",
+      "width": 1440,
+      "height": 900,
+      "deviceScaleFactor": 1,
+      "mobile": false
+    },
+    {
+      "id": "mobile",
+      "width": 390,
+      "height": 844,
+      "deviceScaleFactor": 1,
+      "mobile": true
+    }
+  ],
+  "validations": [
+    {
+      "slug": "straight-stream-fire-hose-nozzles",
+      "languageSwitches": [
+        {
+          "scenario": "desktop/en: straight-stream-fire-hose-nozzles image/text category entries, reciprocal switch, refresh, 2-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+          "status": "PASS"
+        },
+        {
+          "scenario": "desktop/ar: straight-stream-fire-hose-nozzles image/text category entries, reciprocal switch, refresh, 2-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+          "status": "PASS"
+        },
+        {
+          "scenario": "mobile/en: straight-stream-fire-hose-nozzles image/text category entries, reciprocal switch, refresh, 2-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+          "status": "PASS"
+        },
+        {
+          "scenario": "mobile/ar: straight-stream-fire-hose-nozzles image/text category entries, reciprocal switch, refresh, 2-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+          "status": "PASS"
+        }
+      ],
+      "screenshots": [
+        "edge-desktop-straight-stream-fire-hose-nozzles-en-gallery.png",
+        "edge-desktop-straight-stream-fire-hose-nozzles-en-specifications.png",
+        "edge-desktop-straight-stream-fire-hose-nozzles-en-models.png",
+        "edge-desktop-straight-stream-fire-hose-nozzles-en-quotation.png",
+        "edge-desktop-straight-stream-fire-hose-nozzles-ar-gallery.png",
+        "edge-desktop-straight-stream-fire-hose-nozzles-ar-specifications.png",
+        "edge-desktop-straight-stream-fire-hose-nozzles-ar-models.png",
+        "edge-desktop-straight-stream-fire-hose-nozzles-ar-quotation.png",
+        "edge-mobile-straight-stream-fire-hose-nozzles-en-gallery.png",
+        "edge-mobile-straight-stream-fire-hose-nozzles-en-specifications.png",
+        "edge-mobile-straight-stream-fire-hose-nozzles-en-models.png",
+        "edge-mobile-straight-stream-fire-hose-nozzles-en-quotation.png",
+        "edge-mobile-straight-stream-fire-hose-nozzles-ar-gallery.png",
+        "edge-mobile-straight-stream-fire-hose-nozzles-ar-specifications.png",
+        "edge-mobile-straight-stream-fire-hose-nozzles-ar-models.png",
+        "edge-mobile-straight-stream-fire-hose-nozzles-ar-quotation.png"
+      ]
+    }
+  ],
+  "languageSwitches": [
+    {
+      "scenario": "desktop/en: straight-stream-fire-hose-nozzles image/text category entries, reciprocal switch, refresh, 2-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+      "status": "PASS"
+    },
+    {
+      "scenario": "desktop/ar: straight-stream-fire-hose-nozzles image/text category entries, reciprocal switch, refresh, 2-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+      "status": "PASS"
+    },
+    {
+      "scenario": "mobile/en: straight-stream-fire-hose-nozzles image/text category entries, reciprocal switch, refresh, 2-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+      "status": "PASS"
+    },
+    {
+      "scenario": "mobile/ar: straight-stream-fire-hose-nozzles image/text category entries, reciprocal switch, refresh, 2-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+      "status": "PASS"
+    }
+  ],
+  "screenshots": [
+    "edge-desktop-straight-stream-fire-hose-nozzles-en-gallery.png",
+    "edge-desktop-straight-stream-fire-hose-nozzles-en-specifications.png",
+    "edge-desktop-straight-stream-fire-hose-nozzles-en-models.png",
+    "edge-desktop-straight-stream-fire-hose-nozzles-en-quotation.png",
+    "edge-desktop-straight-stream-fire-hose-nozzles-ar-gallery.png",
+    "edge-desktop-straight-stream-fire-hose-nozzles-ar-specifications.png",
+    "edge-desktop-straight-stream-fire-hose-nozzles-ar-models.png",
+    "edge-desktop-straight-stream-fire-hose-nozzles-ar-quotation.png",
+    "edge-mobile-straight-stream-fire-hose-nozzles-en-gallery.png",
+    "edge-mobile-straight-stream-fire-hose-nozzles-en-specifications.png",
+    "edge-mobile-straight-stream-fire-hose-nozzles-en-models.png",
+    "edge-mobile-straight-stream-fire-hose-nozzles-en-quotation.png",
+    "edge-mobile-straight-stream-fire-hose-nozzles-ar-gallery.png",
+    "edge-mobile-straight-stream-fire-hose-nozzles-ar-specifications.png",
+    "edge-mobile-straight-stream-fire-hose-nozzles-ar-models.png",
+    "edge-mobile-straight-stream-fire-hose-nozzles-ar-quotation.png"
+  ]
+}

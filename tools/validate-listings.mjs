@@ -260,15 +260,15 @@ for (const locale of SUPPORTED_LOCALES) {
 }
 console.log("Outdoor-hydrant category validation passed: four families, eight localized cards and sixteen matching entries.");
 
-// MIG-801: all five current hose, nozzle and coupling families are localized.
+// MIG-801 / CATWEB-011: preserve the original five families and append the new nozzle family.
 const hoseLineIds = [
   "product:combination-jet-fog-nozzles", "product:layflat-fire-hoses",
   "product:kd-hose-couplings", "product:kn-threaded-adapters",
-  "product:matched-hose-assemblies"
+  "product:matched-hose-assemblies", "product:straight-stream-fire-hose-nozzles"
 ];
 const hoseLineFamily = PRODUCT_FAMILIES.find(family => family.routeId === "category:hoses-nozzles-couplings");
 assert(JSON.stringify(hoseLineFamily.products.map(product => product.routeId)) === JSON.stringify(hoseLineIds),
-  "Hose/nozzle/coupling category must retain its five current families and their order.");
+  "Hose/nozzle/coupling category must retain its original families in order and append approved additions.");
 for (const locale of SUPPORTED_LOCALES) {
   const { html, route } = validateListingShell(hoseLineFamily.routeId, locale);
   const cards = [...html.matchAll(/<article class="product-card">([\s\S]*?)<\/article>/g)].map(match => match[1]);
@@ -283,7 +283,7 @@ for (const locale of SUPPORTED_LOCALES) {
       `${routeId}/${locale}: stale fallback badge.`);
   });
 }
-console.log("Hose/nozzle/coupling category validation passed: five families, ten localized cards and twenty matching entries.");
+console.log(`Hose/nozzle/coupling category validation passed: ${hoseLineIds.length} families, ${hoseLineIds.length * 2} localized cards and ${hoseLineIds.length * 4} matching entries.`);
 
 // CATWEB-009: the existing FDC families remain in order and the breeching-inlet family is appended.
 const fdcIds = [
