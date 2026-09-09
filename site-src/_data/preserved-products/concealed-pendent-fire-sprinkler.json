@@ -1,5 +1,6 @@
 {
   "id": "concealed-pendent-fire-sprinkler",
+  "validation": { "anchors": ["gallery", "specifications", "models"] },
   "routeId": "product:concealed-pendent-fire-sprinkler",
   "template": "product-series/concealed-pendent.njk",
   "styles": [
@@ -11,7 +12,16 @@
   "source": {
     "path": "products/消防喷头/concealed-pendent-fire-sprinkler.html",
     "revision": "c4b6dfa",
-    "status": "preserved-existing-content-not-reaudited"
+    "status": "preserved-existing-content-not-reaudited",
+    "contentReview": {
+      "task": "CATWEB-015",
+      "catalogVersion": "v11",
+      "catalogPage": 7,
+      "handoffRecord": "catalog-p07",
+      "scope": "K80 model patterns and confirmed 68°C sprinkler / 59°C cover pairing with 12.7 mm adjustment; not extended to K115 or other temperatures.",
+      "retained": "Four model rows and six original gallery images; existing K115 entries and other legacy specifications are not re-confirmed.",
+      "evidence": "v11 confirmed_specifications supplier_confirmed_updates and catalog_approved_tables. Gallery cover photo carries K115 marking and is not used as proof of the K80 pairing."
+    }
   },
   "media": {
     "hero": "products/消防喷头/concealed-pendent-sprinkler/concealed-sprinkler-68c-open.jpg",
@@ -289,8 +299,16 @@
       "numbers": []
     },
     "coverConfigurationAndFinishAreConfirmedWithThe": {
-      "text": "Cover configuration and finish are confirmed with the selected sprinkler and approved sample.",
-      "numbers": []
+      "text": "For the DN{n0} / K{n1} configuration, the {n2}°C sprinkler is paired with a {n3}°C cover plate; adjustment range: {n4} mm. Order the sprinkler and cover as a matched assembly. Other temperatures and DN{n5} / K{n6} pairings require separate confirmation.",
+      "numbers": [
+        "15",
+        "80",
+        "68",
+        "59",
+        "12.7",
+        "20",
+        "115"
+      ]
     },
     "engineeringNote": {
       "text": "Engineering note",
@@ -351,9 +369,10 @@
       ]
     },
     "the79COptionIsConfirmedInThe": {
-      "text": "The {n0}°C option is confirmed in the available model range even though a separate yellow-bulb sample photo is not included in this gallery.",
+      "text": "The {n0}°C option is confirmed in the available model range even though a separate yellow-bulb sample photo is not included in this gallery. In the K{n1} model patterns, [T] denotes the selected sprinkler temperature, not the cover-plate temperature.",
       "numbers": [
-        "79"
+        "79",
+        "80"
       ]
     },
     "oEMODMSupport": {
@@ -596,10 +615,10 @@
     "value57C135F68C155F": "57°C / 135°F, 68°C / 155°F, 79°C / 175°F, 93°C / 200°F, 141°C / 286°F",
     "dN15In": "DN15 / ½ in",
     "value57687993141C": "57, 68, 79, 93, 141°C",
-    "zSTDY80Q5A": "ZSTDY 80 / Q5A",
+    "zSTDY80Q5A": "ZSTDY 80-[T]°C Q5A",
     "dN20In": "DN20 / ¾ in",
     "zSTDY115Q5A": "ZSTDY 115 / Q5A",
-    "zSTDY80Q3A": "ZSTDY 80 / Q3A",
+    "zSTDY80Q3A": "ZSTDY 80-[T]°C Q3A",
     "zSTDY115Q3A": "ZSTDY 115 / Q3A",
     "dN15InK56K8068C": "DN15 / ½ in · K5.6 / K80 · 68°C"
   },

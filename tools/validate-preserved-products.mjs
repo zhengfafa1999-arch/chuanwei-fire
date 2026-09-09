@@ -41,6 +41,16 @@ for (const entry of catalog) {
   // This legacy page assigns its actual initial labels in inline JavaScript.
   // Preserve the displayed values, while keeping the original fixture immutable.
   if (entry.product.id === "concealed-pendent-fire-sprinkler") {
+    // CATWEB-015: explicit K80-only model and matched-cover updates.
+    for (const [before, after] of [
+      ['>ZSTDY 80 / Q5A<', '>ZSTDY 80-[T]°C Q5A<'],
+      ['>ZSTDY 80 / Q3A<', '>ZSTDY 80-[T]°C Q3A<'],
+      ['Cover configuration and finish are confirmed with the selected sprinkler and approved sample.', 'For the DN15 / K80 configuration, the 68°C sprinkler is paired with a 59°C cover plate; adjustment range: 12.7 mm. Order the sprinkler and cover as a matched assembly. Other temperatures and DN20 / K115 pairings require separate confirmation.'],
+      ['The 79°C option is confirmed in the available model range even though a separate yellow-bulb sample photo is not included in this gallery.', 'The 79°C option is confirmed in the available model range even though a separate yellow-bulb sample photo is not included in this gallery. In the K80 model patterns, [T] denotes the selected sprinkler temperature, not the cover-plate temperature.']
+    ]) {
+      assert.equal(baseline.split(before).length - 1, 1, `CATWEB-015: missing or repeated baseline field ${before}`);
+      baseline = baseline.replace(before, after);
+    }
     const original = read(baselineFile);
     for (const [before, after] of [["68°C Concealed Sprinkler", "DN20 / ¾ in · K8.0 / K115 · 68°C"], ["68°C Sprinkler", "DN20 · K115 · 68°C"], ["68°C Red Bulb", "DN15 · K80 · 68°C"]]) {
       assert(original.includes(`'${after}'`), "Original runtime label missing");
@@ -101,4 +111,4 @@ for (const entry of catalog) {
     }
   }
 }
-console.log(`Preserved-product validation passed: ${catalog.length} language outputs retain original structure and media; English content matches immutable fixtures with explicitly reviewed CATWEB-014 field substitutions.`);
+console.log(`Preserved-product validation passed: ${catalog.length} language outputs retain original structure and media; English content matches immutable fixtures with explicitly reviewed CATWEB-014/015 field substitutions.`);

@@ -2,7 +2,7 @@
 
 **任务编号：** CATWEB-001
 **建立日期：** 2026-09-08
-**当前状态：** CATWEB-001 至 CATWEB-014 已完成；8 个新增候选已验收，扩大覆盖快速响应喷头的正式型号已对齐，冲突压力暂按报价确认。下一项核对隐蔽式下垂喷头。页面保持本地草稿；现有产品的其余图册更新不计为已完成
+**当前状态：** CATWEB-001 至 CATWEB-015 已完成；8 个新增候选已验收，扩大覆盖喷头型号及隐蔽式喷头 K80 型号/盖板配套说明已对齐。下一项核对大 K 系数与 ESFR 喷头。页面保持本地草稿；现有产品其余更新及扩大覆盖喷头压力确认仍待处理
 **图册基线：** CHUANWEI FIRE Product Catalog 2026 Customer v11（47页）
 
 ## 目标与边界
@@ -143,7 +143,8 @@
 13. [x] 本批 8 个允许制作本地草稿的新增候选已逐款补齐并独立保存；暂缓候选继续保留，不自动恢复。
 14. [x] **CATWEB-013**：最终构建与全站浏览器回归通过；127 页 × 4 档宽度共 508 项响应式/方向检查，另有 58 项代表页面检查与 348 项语言/返回检查。首轮旧清单断言修正后完整重跑通过。
 15. [x] **CATWEB-014**：扩大覆盖快速响应喷头的三行正式型号补齐 Q3A，压力冲突保守改为报价确认；其他旧规格本次不重新背书。
-16. [ ] **CATWEB-015**：核对隐蔽式下垂喷头 p7 确认表、现有型号和喷头/盖板配套表达，只修改有明确依据的差异。
+16. [x] **CATWEB-015**：隐蔽式喷头 K80 型号格式对齐；补充 DN15/K80 的 68°C 喷头配 59°C 盖板和 12.7 mm 调节范围，不扩展至 K115 或其他温度。
+17. [ ] **CATWEB-016**：核对大 K 系数与 ESFR 喷头 p9/p10，保持普通 K202 与 ESFR 分类及参数边界。
 
 CATWEB-003 的实施与验收记录见 `docs/execution/2026-09-08_fusible-alloy-fire-sprinkler-sample.md`。
 CATWEB-004 的实施与验收记录见 `docs/execution/2026-09-08_standard-response-v11-alignment.md`。
@@ -157,6 +158,7 @@ CATWEB-011 的实施与验收记录见 `docs/execution/2026-09-09_straight-strea
 CATWEB-012 的实施与验收记录见 `docs/execution/2026-09-09_lever-operated-nozzles-addition.md`。
 CATWEB-013 的实施与验收记录见 `docs/execution/2026-09-09_catalog-additions-final-regression.md`。
 CATWEB-014 的实施与验收记录见 `docs/execution/2026-09-09_extended-coverage-model-alignment.md`。
+CATWEB-015 的实施与验收记录见 `docs/execution/2026-09-09_concealed-sprinkler-cover-alignment.md`。
 
 ## 来源
 
