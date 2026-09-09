@@ -133,7 +133,8 @@ export const PRODUCT_FAMILIES = [
       ["product:kd-hose-couplings", "KD Hose Couplings", "وصلات خراطيم KD", "products/消防水枪/categories/kd-hose-coupling.jpg"],
       ["product:kn-threaded-adapters", "KN Threaded Adapters", "محولات لولبية KN", "products/消防水枪/categories/kn-threaded-adapter.jpg"],
       ["product:matched-hose-assemblies", "Matched Hose Assemblies", "مجموعات خراطيم متوافقة", "products/消防水枪/categories/hose-assembly.jpg"],
-      ["product:straight-stream-fire-hose-nozzles", "Straight-Stream Fire Hose Nozzles", "فوهات خراطيم حريق ذات نفث مستقيم", "products/消防水枪/straight-stream-fire-hose-nozzles/qz-catalog-display.png"]
+      ["product:straight-stream-fire-hose-nozzles", "Straight-Stream Fire Hose Nozzles", "فوهات خراطيم حريق ذات نفث مستقيم", "products/消防水枪/straight-stream-fire-hose-nozzles/qz-catalog-display.png"],
+      ["product:lever-operated-fire-hose-nozzles", "Lever-Operated Fire Hose Nozzles", "فوهات خراطيم حريق تعمل بذراع", "products/消防水枪/lever-operated-fire-hose-nozzles/configuration-a-catalog-display.png"]
     ]
   },
   {

@@ -260,11 +260,12 @@ for (const locale of SUPPORTED_LOCALES) {
 }
 console.log("Outdoor-hydrant category validation passed: four families, eight localized cards and sixteen matching entries.");
 
-// MIG-801 / CATWEB-011: preserve the original five families and append the new nozzle family.
+// MIG-801 / CATWEB-011–012: preserve the original five families and append the new nozzle families.
 const hoseLineIds = [
   "product:combination-jet-fog-nozzles", "product:layflat-fire-hoses",
   "product:kd-hose-couplings", "product:kn-threaded-adapters",
-  "product:matched-hose-assemblies", "product:straight-stream-fire-hose-nozzles"
+  "product:matched-hose-assemblies", "product:straight-stream-fire-hose-nozzles",
+  "product:lever-operated-fire-hose-nozzles"
 ];
 const hoseLineFamily = PRODUCT_FAMILIES.find(family => family.routeId === "category:hoses-nozzles-couplings");
 assert(JSON.stringify(hoseLineFamily.products.map(product => product.routeId)) === JSON.stringify(hoseLineIds),

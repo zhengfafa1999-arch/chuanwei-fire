@@ -1,0 +1,306 @@
+{
+  "id": "lever-operated-fire-hose-nozzles",
+  "routeId": "product:lever-operated-fire-hose-nozzles",
+  "template": "product-series/documented-product.njk",
+  "styles": [
+    "css/common.css",
+    "css/sprinkler-product.css",
+    "css/sprinkler-product-gallery.css",
+    "css/documented-product.css",
+    "css/site-navigation.css"
+  ],
+  "source": {
+    "catalogVersion": "v11",
+    "catalogPage": 41,
+    "handoffRecord": "catalog-p41",
+    "evidence": "B-derived-approved-catalog: five selection-reference/inlet rows. D-visual: side lever, black grip and representative configurations; no material or performance inferred.",
+    "imageSources": [
+      "D:/work/codex/yunying/outputs/catalog-consolidated-20260907/website-handoff/embedded-display-assets/m01_m01_image84.png",
+      "D:/work/codex/yunying/outputs/catalog-consolidated-20260907/website-handoff/embedded-display-assets/m01_m01_image85.png"
+    ],
+    "mappingEvidence": "catalog-module-lever-nozzles/source/图1_编号口径来源.png: upper configuration A maps to image84; lower configuration B maps to image85."
+  },
+  "publication": {
+    "status": "local-draft",
+    "externalRelease": false,
+    "imageRights": "pending-website-use-confirmation"
+  },
+  "media": {
+    "hero": "products/消防水枪/lever-operated-fire-hose-nozzles/configuration-a-catalog-display.png",
+    "configurationB": "products/消防水枪/lever-operated-fire-hose-nozzles/configuration-b-catalog-display.png"
+  },
+  "imageDimensions": {
+    "hero": {
+      "width": 420,
+      "height": 1089
+    },
+    "configurationB": {
+      "width": 370,
+      "height": 1104
+    }
+  },
+  "heroFacts": [
+    "aSizes",
+    "bSizes"
+  ],
+  "shared": {
+    "aSizes": "1½ in / 2 in / 2½ in",
+    "bSizes": "2 in / 2½ in"
+  },
+  "gallery": [
+    {
+      "media": "hero",
+      "alt": "aAlt",
+      "caption": "configA",
+      "thumbnailAlt": "aThumbnail"
+    },
+    {
+      "media": "configurationB",
+      "alt": "bAlt",
+      "caption": "configB",
+      "thumbnailAlt": "bThumbnail"
+    }
+  ],
+  "specifications": [
+    {
+      "label": "productType",
+      "value": "productTypeValue"
+    },
+    {
+      "label": "appearance",
+      "value": "appearanceValue"
+    },
+    {
+      "label": "aSize",
+      "value": "aSizes",
+      "technical": true
+    },
+    {
+      "label": "bSize",
+      "value": "bSizes",
+      "technical": true
+    },
+    {
+      "label": "coupling",
+      "value": "confirmWithQuotation"
+    },
+    {
+      "label": "material",
+      "value": "confirmWithQuotation"
+    },
+    {
+      "label": "performance",
+      "value": "confirmWithQuotation"
+    }
+  ],
+  "modelColumns": [
+    {
+      "label": "configuration",
+      "field": "configuration",
+      "localized": true
+    },
+    {
+      "label": "reference",
+      "field": "reference",
+      "technical": true
+    },
+    {
+      "label": "inlet",
+      "field": "inlet",
+      "technical": true
+    }
+  ],
+  "models": [
+    {
+      "configuration": "configA",
+      "reference": "DN-010",
+      "inlet": "1½ in"
+    },
+    {
+      "configuration": "configA",
+      "reference": "DN-011",
+      "inlet": "2 in"
+    },
+    {
+      "configuration": "configA",
+      "reference": "DN-012",
+      "inlet": "2½ in"
+    },
+    {
+      "configuration": "configB",
+      "reference": "GN-020",
+      "inlet": "2 in"
+    },
+    {
+      "configuration": "configB",
+      "reference": "GN-021",
+      "inlet": "2½ in"
+    }
+  ],
+  "confirmationItems": [
+    {
+      "label": "selection",
+      "body": "selectionBody"
+    },
+    {
+      "label": "connection",
+      "body": "connectionBody"
+    },
+    {
+      "label": "technical",
+      "body": "technicalBody"
+    },
+    {
+      "label": "order",
+      "body": "orderBody"
+    }
+  ],
+  "validation": {
+    "anchors": [
+      "gallery",
+      "specifications",
+      "models",
+      "quotation"
+    ],
+    "requiredTechnicalValues": [
+      "DN-010",
+      "DN-011",
+      "DN-012",
+      "GN-020",
+      "GN-021",
+      "1½ in",
+      "2 in",
+      "2½ in"
+    ]
+  },
+  "inquiry": {
+    "whatsapp": "https://wa.me/8617326528368?text=Hello%2C%20I%20need%20a%20quotation%20for%20Lever-Operated%20Fire%20Hose%20Nozzles.%20Selection%20reference%3A%20%5Breference%5D%2C%20inlet%20size%3A%20%5Bsize%5D%2C%20mating%20coupling%3A%20%5Bdetails%5D%2C%20quantity%3A%20%5Bpcs%5D%2C%20destination%3A%20%5Bcountry%5D.",
+    "email": "mailto:zhengcolin1@gmail.com?subject=Lever-Operated%20Fire%20Hose%20Nozzle%20Inquiry"
+  },
+  "copy": {
+    "en": {
+      "onThisPage": "On this page",
+      "gallery": "Product images",
+      "specifications": "Specifications",
+      "availableModels": "Available selections",
+      "configuration": "Configuration",
+      "confirmWithQuotation": "To be confirmed with the quotation",
+      "quotation": "Quotation confirmation",
+      "askOnWhatsApp": "Ask on WhatsApp",
+      "emailSales": "Email sales",
+      "productImagePreview": "Product image preview",
+      "closeImagePreview": "Close image preview",
+      "previousProductImage": "Previous product image",
+      "nextProductImage": "Next product image",
+      "selectProductImage": "Select product image",
+      "factoryModel": "Factory Model",
+      "temperature": "Temperature",
+      "thermalElement": "Operating element",
+      "title": "Lever-Operated Fire Hose Nozzles",
+      "eyebrow": "Configuration A and configuration B",
+      "lead": "Fire hose nozzles with a side operating lever and black grip, available in two inlet configurations. Select the required reference and inlet size from the table below.",
+      "note": "DN and GN codes are selection references, not factory model numbers. Confirm the exact inlet coupling and matching component with your quotation.",
+      "galleryTitle": "Two inlet configurations",
+      "galleryBody": "Catalog display views identify configurations A and B. Each image represents a configuration family, not every individual size or exact mating interface.",
+      "configA": "Configuration A",
+      "configB": "Configuration B",
+      "aAlt": "Catalog display of configuration A nozzle with side operating lever, black grip and broad inlet base",
+      "aThumbnail": "Configuration A thumbnail",
+      "bAlt": "Catalog display of configuration B nozzle with side operating lever, black grip and narrower inlet base",
+      "bThumbnail": "Configuration B thumbnail",
+      "specificationsTitle": "Configuration and inlet selection",
+      "specificationsBody": "The available selections are listed below. Construction details and performance data remain subject to confirmation for the selected version.",
+      "productType": "Product family",
+      "productTypeValue": "Lever-operated fire hose nozzles",
+      "appearance": "Visible configuration",
+      "appearanceValue": "Side operating lever and black grip",
+      "aSize": "Configuration A inlet options",
+      "bSize": "Configuration B inlet options",
+      "coupling": "Exact inlet coupling",
+      "material": "Body material and finish",
+      "performance": "Pressure and flow data",
+      "modelsTitle": "Five selection references",
+      "modelsBody": "Use the selection reference and corresponding inlet size when requesting a quotation.",
+      "reference": "Selection reference",
+      "inlet": "Inlet size",
+      "modelsNote": "Selection references are retained for quotation matching. They do not identify confirmed factory models or establish coupling compatibility. Final specifications follow the agreed quotation and order documents.",
+      "quotationTitle": "Confirm the inlet and matching coupling",
+      "quotationBody": "Send the selection reference, inlet size and mating-coupling details to identify the required configuration.",
+      "selection": "Reference and inlet size",
+      "selectionBody": "Specify one of the five selection references with its listed inlet size.",
+      "connection": "Mating coupling",
+      "connectionBody": "Provide the coupling specification, drawing or a clear photo of the mating component. Nominal size alone does not establish compatibility.",
+      "technical": "Technical requirements",
+      "technicalBody": "Request confirmation of body material, finish, pressure, flow and operating requirements for the selected version.",
+      "order": "Order information",
+      "orderBody": "Include quantity, destination, packing and required documents.",
+      "inquiryTitle": "Send your lever-operated nozzle requirement",
+      "inquiryBody": "Include selection reference, inlet size, mating coupling, quantity and destination.",
+      "enlargedImage": "Enlarged lever-operated nozzle catalog display image",
+      "seoTitle": "Lever-Operated Fire Hose Nozzles | CHUANWEI FIRE",
+      "seoDescription": "Lever-operated fire hose nozzle configurations A and B with five selection references and inlet options of 1½ in, 2 in and 2½ in. Confirm mating coupling for quotation."
+    },
+    "ar": {
+      "onThisPage": "في هذه الصفحة",
+      "gallery": "صور المنتج",
+      "specifications": "المواصفات",
+      "availableModels": "الاختيارات المتاحة",
+      "configuration": "التكوين",
+      "confirmWithQuotation": "يُؤكد مع عرض السعر",
+      "quotation": "تأكيد عرض السعر",
+      "askOnWhatsApp": "استفسر عبر WhatsApp",
+      "emailSales": "راسل قسم المبيعات",
+      "productImagePreview": "معاينة صورة المنتج",
+      "closeImagePreview": "إغلاق معاينة الصورة",
+      "previousProductImage": "صورة المنتج السابقة",
+      "nextProductImage": "صورة المنتج التالية",
+      "selectProductImage": "اختر صورة المنتج",
+      "factoryModel": "موديل المصنع",
+      "temperature": "درجة الحرارة",
+      "thermalElement": "عنصر التشغيل",
+      "title": "فوهات خراطيم حريق تعمل بذراع",
+      "eyebrow": "التكوين A والتكوين B",
+      "lead": "فوهات خراطيم حريق بذراع تشغيل جانبي ومقبض أسود، متوفرة بتكوينين للمدخل. اختر مرجع الاختيار ومقاس المدخل المطلوبين من الجدول أدناه.",
+      "note": "رموز DN وGN هي مراجع للاختيار وليست أرقام موديلات المصنع. أكد وصلة المدخل الدقيقة والجزء المقابل مع عرض السعر.",
+      "galleryTitle": "تكوينان للمدخل",
+      "galleryBody": "توضح صور عرض الكتالوج التكوينين A وB. تمثل كل صورة عائلة تكوين، ولا تمثل كل مقاس منفرد أو واجهة اقتران دقيقة.",
+      "configA": "التكوين A",
+      "configB": "التكوين B",
+      "aAlt": "صورة عرض من الكتالوج لفوهة التكوين A بذراع تشغيل جانبي ومقبض أسود وقاعدة مدخل عريضة",
+      "aThumbnail": "صورة مصغرة للتكوين A",
+      "bAlt": "صورة عرض من الكتالوج لفوهة التكوين B بذراع تشغيل جانبي ومقبض أسود وقاعدة مدخل أضيق",
+      "bThumbnail": "صورة مصغرة للتكوين B",
+      "specificationsTitle": "اختيار التكوين والمدخل",
+      "specificationsBody": "ترد الخيارات المتاحة أدناه. تبقى تفاصيل البنية وبيانات الأداء خاضعة للتأكيد للنسخة المختارة.",
+      "productType": "عائلة المنتج",
+      "productTypeValue": "فوهات خراطيم حريق تعمل بذراع",
+      "appearance": "التكوين الظاهر",
+      "appearanceValue": "ذراع تشغيل جانبي ومقبض أسود",
+      "aSize": "خيارات مدخل التكوين A",
+      "bSize": "خيارات مدخل التكوين B",
+      "coupling": "وصلة المدخل الدقيقة",
+      "material": "مادة الجسم والتشطيب",
+      "performance": "بيانات الضغط والتدفق",
+      "modelsTitle": "خمسة مراجع للاختيار",
+      "modelsBody": "استخدم مرجع الاختيار ومقاس المدخل المقابل عند طلب عرض السعر.",
+      "reference": "مرجع الاختيار",
+      "inlet": "مقاس المدخل",
+      "modelsNote": "تُحفظ مراجع الاختيار لمطابقة طلب عرض السعر. وهي لا تحدد موديلات مصنع مؤكدة ولا تثبت توافق الوصلات. تتبع المواصفات النهائية عرض السعر ومستندات الطلب المتفق عليها.",
+      "quotationTitle": "أكد المدخل والوصلة المقابلة",
+      "quotationBody": "أرسل مرجع الاختيار ومقاس المدخل وتفاصيل الوصلة المقابلة لتحديد التكوين المطلوب.",
+      "selection": "المرجع ومقاس المدخل",
+      "selectionBody": "حدد أحد مراجع الاختيار الخمسة مع مقاس المدخل المدرج له.",
+      "connection": "الوصلة المقابلة",
+      "connectionBody": "قدم مواصفات الوصلة أو رسمها أو صورة واضحة للجزء المقابل. لا يثبت المقاس الاسمي وحده التوافق.",
+      "technical": "المتطلبات الفنية",
+      "technicalBody": "اطلب تأكيد مادة الجسم والتشطيب والضغط والتدفق ومتطلبات التشغيل للنسخة المختارة.",
+      "order": "معلومات الطلب",
+      "orderBody": "أدرج الكمية والوجهة والتغليف والوثائق المطلوبة.",
+      "inquiryTitle": "أرسل متطلبات الفوهة التي تعمل بذراع",
+      "inquiryBody": "أدرج مرجع الاختيار ومقاس المدخل والوصلة المقابلة والكمية والوجهة.",
+      "enlargedImage": "صورة عرض مكبرة من الكتالوج لفوهة تعمل بذراع",
+      "seoTitle": "فوهات خراطيم حريق تعمل بذراع | CHUANWEI FIRE",
+      "seoDescription": "تكوينان A وB لفوهات خراطيم حريق تعمل بذراع مع خمسة مراجع للاختيار وخيارات مدخل 1½ in و2 in و2½ in. تُؤكد الوصلة المقابلة مع عرض السعر."
+    }
+  }
+}
