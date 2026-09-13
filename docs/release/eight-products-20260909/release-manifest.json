@@ -1,0 +1,1022 @@
+{
+  "generatedAt": "2026-09-09T07:01:48.063Z",
+  "purpose": "review-only-not-a-deployable-package",
+  "localCommit": "def34e95236e05eea49aa8f3da3afa50e98cea25",
+  "remoteTrackingBaseline": "7c17f6d35cdcb80094886dbe1371218f836f4136",
+  "baselineCaveat": "Git baseline comparison, not a server filesystem audit.",
+  "scope": {
+    "products": 8,
+    "pages": 16,
+    "galleryImages": 15
+  },
+  "publication": "not-published",
+  "imageRights": "user-confirmed-website-use",
+  "dependencyScope": "Direct HTML href/src references only; linked-page dependencies are not recursively packaged.",
+  "files": [
+    {
+      "path": "about.html",
+      "roles": [
+        "linked-page"
+      ],
+      "usedBy": [
+        "fusible-alloy-fire-sprinklers",
+        "saddle-type-waterflow-switches",
+        "straight-through-oblique-landing-valves",
+        "horizontal-handwheel-landing-valves",
+        "breeching-inlets",
+        "russian-pattern-fire-department-connection",
+        "straight-stream-fire-hose-nozzles",
+        "lever-operated-fire-hose-nozzles"
+      ],
+      "existsLocally": true,
+      "sha256": "4c6dd4136b315126dd174ac2dedd2c03849ff8ff34ed62dba505257e37f19f78",
+      "baselineStatus": "absent"
+    },
+    {
+      "path": "apple-touch-icon.png",
+      "roles": [
+        "direct-asset"
+      ],
+      "usedBy": [
+        "fusible-alloy-fire-sprinklers",
+        "saddle-type-waterflow-switches",
+        "straight-through-oblique-landing-valves",
+        "horizontal-handwheel-landing-valves",
+        "breeching-inlets",
+        "russian-pattern-fire-department-connection",
+        "straight-stream-fire-hose-nozzles",
+        "lever-operated-fire-hose-nozzles"
+      ],
+      "existsLocally": true,
+      "sha256": "fd7857f711ce88709828735b11e6e6eb4a856f8781e8f96ad651981c12ebcc3d",
+      "baselineStatus": "unchanged"
+    },
+    {
+      "path": "ar/about.html",
+      "roles": [
+        "linked-page"
+      ],
+      "usedBy": [
+        "fusible-alloy-fire-sprinklers",
+        "saddle-type-waterflow-switches",
+        "straight-through-oblique-landing-valves",
+        "horizontal-handwheel-landing-valves",
+        "breeching-inlets",
+        "russian-pattern-fire-department-connection",
+        "straight-stream-fire-hose-nozzles",
+        "lever-operated-fire-hose-nozzles"
+      ],
+      "existsLocally": true,
+      "sha256": "1f31c78348d866a1b6ce95699c3921023eab7bc59cddb13c049f6bcc4bcea146",
+      "baselineStatus": "absent"
+    },
+    {
+      "path": "ar/contact.html",
+      "roles": [
+        "linked-page"
+      ],
+      "usedBy": [
+        "fusible-alloy-fire-sprinklers",
+        "saddle-type-waterflow-switches",
+        "straight-through-oblique-landing-valves",
+        "horizontal-handwheel-landing-valves",
+        "breeching-inlets",
+        "russian-pattern-fire-department-connection",
+        "straight-stream-fire-hose-nozzles",
+        "lever-operated-fire-hose-nozzles"
+      ],
+      "existsLocally": true,
+      "sha256": "7c438c224eb33e881cc5e3ee1bf18726c70e5c36b634e3b43e5e4ca2e01ddb7f",
+      "baselineStatus": "absent"
+    },
+    {
+      "path": "ar/downloads.html",
+      "roles": [
+        "linked-page"
+      ],
+      "usedBy": [
+        "fusible-alloy-fire-sprinklers",
+        "saddle-type-waterflow-switches",
+        "straight-through-oblique-landing-valves",
+        "horizontal-handwheel-landing-valves",
+        "breeching-inlets",
+        "russian-pattern-fire-department-connection",
+        "straight-stream-fire-hose-nozzles",
+        "lever-operated-fire-hose-nozzles"
+      ],
+      "existsLocally": true,
+      "sha256": "70e67db127ef484418515507e90be4d3512fa86d0d619de2eac836b5fbee49b4",
+      "baselineStatus": "absent"
+    },
+    {
+      "path": "ar/index.html",
+      "roles": [
+        "linked-page"
+      ],
+      "usedBy": [
+        "fusible-alloy-fire-sprinklers",
+        "saddle-type-waterflow-switches",
+        "straight-through-oblique-landing-valves",
+        "horizontal-handwheel-landing-valves",
+        "breeching-inlets",
+        "russian-pattern-fire-department-connection",
+        "straight-stream-fire-hose-nozzles",
+        "lever-operated-fire-hose-nozzles"
+      ],
+      "existsLocally": true,
+      "sha256": "93b4d904cb9c594f0c23ababe546d451dd111b467b7ce91aa6e5d9f47bbc0887",
+      "baselineStatus": "absent"
+    },
+    {
+      "path": "ar/products.html",
+      "roles": [
+        "linked-page"
+      ],
+      "usedBy": [
+        "fusible-alloy-fire-sprinklers",
+        "saddle-type-waterflow-switches",
+        "straight-through-oblique-landing-valves",
+        "horizontal-handwheel-landing-valves",
+        "breeching-inlets",
+        "russian-pattern-fire-department-connection",
+        "straight-stream-fire-hose-nozzles",
+        "lever-operated-fire-hose-nozzles"
+      ],
+      "existsLocally": true,
+      "sha256": "ddedfd99e79ddee92d7f8528b244d20f6d92b3af38bfca2a3159547b7a2ebdab",
+      "baselineStatus": "absent"
+    },
+    {
+      "path": "ar/products/breeching-inlets/index.html",
+      "roles": [
+        "linked-page",
+        "product-page"
+      ],
+      "usedBy": [
+        "breeching-inlets"
+      ],
+      "existsLocally": true,
+      "sha256": "48151f3f2c7c3f3fff595d9f85473694c3b892a6bb6b89a7dda5ae1c1bd9808a",
+      "baselineStatus": "absent"
+    },
+    {
+      "path": "ar/products/fire-department-connections/index.html",
+      "roles": [
+        "linked-page"
+      ],
+      "usedBy": [
+        "breeching-inlets",
+        "russian-pattern-fire-department-connection"
+      ],
+      "existsLocally": true,
+      "sha256": "fc5e148652d2fd81ec677fc6586aba567839c43f3af84003546c232f233592f7",
+      "baselineStatus": "absent"
+    },
+    {
+      "path": "ar/products/fusible-alloy-fire-sprinklers/index.html",
+      "roles": [
+        "linked-page",
+        "product-page"
+      ],
+      "usedBy": [
+        "fusible-alloy-fire-sprinklers"
+      ],
+      "existsLocally": true,
+      "sha256": "bc87f25fbb7b59b3d0d4c1c960a7bb3c67f14c65eaa1fcf87a72587104d41fa8",
+      "baselineStatus": "absent"
+    },
+    {
+      "path": "ar/products/horizontal-handwheel-landing-valves/index.html",
+      "roles": [
+        "linked-page",
+        "product-page"
+      ],
+      "usedBy": [
+        "horizontal-handwheel-landing-valves"
+      ],
+      "existsLocally": true,
+      "sha256": "d03b77bfb4df3f302486089ded068912077c357db55ae6977087b86eeaf04201",
+      "baselineStatus": "absent"
+    },
+    {
+      "path": "ar/products/hoses-nozzles-couplings/index.html",
+      "roles": [
+        "linked-page"
+      ],
+      "usedBy": [
+        "straight-stream-fire-hose-nozzles",
+        "lever-operated-fire-hose-nozzles"
+      ],
+      "existsLocally": true,
+      "sha256": "4d90f0ac7aefecfe9ed7e785ece307655c59cc0f08a4824a11c06894068b8dfa",
+      "baselineStatus": "absent"
+    },
+    {
+      "path": "ar/products/indoor-hydrants/index.html",
+      "roles": [
+        "linked-page"
+      ],
+      "usedBy": [
+        "straight-through-oblique-landing-valves",
+        "horizontal-handwheel-landing-valves"
+      ],
+      "existsLocally": true,
+      "sha256": "0f9b7a7dbee63d27b38d5be4a6e2d355247cf4d1f2ef2e5751af6fab72e55411",
+      "baselineStatus": "absent"
+    },
+    {
+      "path": "ar/products/lever-operated-fire-hose-nozzles/index.html",
+      "roles": [
+        "linked-page",
+        "product-page"
+      ],
+      "usedBy": [
+        "lever-operated-fire-hose-nozzles"
+      ],
+      "existsLocally": true,
+      "sha256": "b2c71cc001746f53a9940430a4e8c10596b66a478a37b469e880b2c6b8f933b7",
+      "baselineStatus": "absent"
+    },
+    {
+      "path": "ar/products/russian-pattern-fire-department-connection/index.html",
+      "roles": [
+        "linked-page",
+        "product-page"
+      ],
+      "usedBy": [
+        "russian-pattern-fire-department-connection"
+      ],
+      "existsLocally": true,
+      "sha256": "a617a8c7c40f02833492e084cc46f09ef890ab368e9197ccf03ee41f727e0c1e",
+      "baselineStatus": "absent"
+    },
+    {
+      "path": "ar/products/saddle-type-waterflow-switches/index.html",
+      "roles": [
+        "linked-page",
+        "product-page"
+      ],
+      "usedBy": [
+        "saddle-type-waterflow-switches"
+      ],
+      "existsLocally": true,
+      "sha256": "86c8384880d1420c828fa07e731dbdd2f967125c89a8e7e3d65e416f3e6531b6",
+      "baselineStatus": "absent"
+    },
+    {
+      "path": "ar/products/sprinklers/index.html",
+      "roles": [
+        "linked-page"
+      ],
+      "usedBy": [
+        "fusible-alloy-fire-sprinklers"
+      ],
+      "existsLocally": true,
+      "sha256": "c80a67351d8076a3e7c13a6daad6f9ec3a18d7ab743389808e00440278d98a40",
+      "baselineStatus": "absent"
+    },
+    {
+      "path": "ar/products/straight-stream-fire-hose-nozzles/index.html",
+      "roles": [
+        "linked-page",
+        "product-page"
+      ],
+      "usedBy": [
+        "straight-stream-fire-hose-nozzles"
+      ],
+      "existsLocally": true,
+      "sha256": "88e36b51e22780824b53683e5abe4d576dba44115145e77c4b2f5d8e0ae80d2f",
+      "baselineStatus": "absent"
+    },
+    {
+      "path": "ar/products/straight-through-oblique-landing-valves/index.html",
+      "roles": [
+        "linked-page",
+        "product-page"
+      ],
+      "usedBy": [
+        "straight-through-oblique-landing-valves"
+      ],
+      "existsLocally": true,
+      "sha256": "65fad155a14f0887813dc593e3f70668cf1426d2c1de957c370646c0de2c24f0",
+      "baselineStatus": "absent"
+    },
+    {
+      "path": "ar/products/system-valves/index.html",
+      "roles": [
+        "linked-page"
+      ],
+      "usedBy": [
+        "saddle-type-waterflow-switches"
+      ],
+      "existsLocally": true,
+      "sha256": "3f808681cb1b9a5bfdc2c18796b853420438d608535550beb07bfa69f7a4594e",
+      "baselineStatus": "absent"
+    },
+    {
+      "path": "assets/js/preserved-product-gallery.js",
+      "roles": [
+        "direct-asset"
+      ],
+      "usedBy": [
+        "fusible-alloy-fire-sprinklers",
+        "saddle-type-waterflow-switches",
+        "straight-through-oblique-landing-valves",
+        "horizontal-handwheel-landing-valves",
+        "breeching-inlets",
+        "russian-pattern-fire-department-connection",
+        "straight-stream-fire-hose-nozzles",
+        "lever-operated-fire-hose-nozzles"
+      ],
+      "existsLocally": true,
+      "sha256": "ebcd8a2c1fc010e23e41f3789431c4e742b95da48cf8598aa01162c95336ca04",
+      "baselineStatus": "absent"
+    },
+    {
+      "path": "assets/js/site-navigation.js",
+      "roles": [
+        "direct-asset"
+      ],
+      "usedBy": [
+        "fusible-alloy-fire-sprinklers",
+        "saddle-type-waterflow-switches",
+        "straight-through-oblique-landing-valves",
+        "horizontal-handwheel-landing-valves",
+        "breeching-inlets",
+        "russian-pattern-fire-department-connection",
+        "straight-stream-fire-hose-nozzles",
+        "lever-operated-fire-hose-nozzles"
+      ],
+      "existsLocally": true,
+      "sha256": "3b12817879dd452a7b44c65ebda965ff4353bbf4ac199995a0a72529ff364890",
+      "baselineStatus": "absent"
+    },
+    {
+      "path": "contact.html",
+      "roles": [
+        "linked-page"
+      ],
+      "usedBy": [
+        "fusible-alloy-fire-sprinklers",
+        "saddle-type-waterflow-switches",
+        "straight-through-oblique-landing-valves",
+        "horizontal-handwheel-landing-valves",
+        "breeching-inlets",
+        "russian-pattern-fire-department-connection",
+        "straight-stream-fire-hose-nozzles",
+        "lever-operated-fire-hose-nozzles"
+      ],
+      "existsLocally": true,
+      "sha256": "4f3db90bd0048af7bdc7ed4c86aaf1945c677d536901d122bdf1e1716836efcb",
+      "baselineStatus": "absent"
+    },
+    {
+      "path": "css/common.css",
+      "roles": [
+        "direct-asset"
+      ],
+      "usedBy": [
+        "fusible-alloy-fire-sprinklers",
+        "saddle-type-waterflow-switches",
+        "straight-through-oblique-landing-valves",
+        "horizontal-handwheel-landing-valves",
+        "breeching-inlets",
+        "russian-pattern-fire-department-connection",
+        "straight-stream-fire-hose-nozzles",
+        "lever-operated-fire-hose-nozzles"
+      ],
+      "existsLocally": true,
+      "sha256": "f66d9fb08eb52b64ead639efee5981f427d9ba6ba47494520b4619e230f14882",
+      "baselineStatus": "changed"
+    },
+    {
+      "path": "css/documented-product.css",
+      "roles": [
+        "direct-asset"
+      ],
+      "usedBy": [
+        "fusible-alloy-fire-sprinklers",
+        "saddle-type-waterflow-switches",
+        "straight-through-oblique-landing-valves",
+        "horizontal-handwheel-landing-valves",
+        "breeching-inlets",
+        "russian-pattern-fire-department-connection",
+        "straight-stream-fire-hose-nozzles",
+        "lever-operated-fire-hose-nozzles"
+      ],
+      "existsLocally": true,
+      "sha256": "c9f051342401e3e725cdf321b36704822ccd3e9ee91c865a250e5bbc8d66670f",
+      "baselineStatus": "absent"
+    },
+    {
+      "path": "css/multilingual-product.css",
+      "roles": [
+        "direct-asset"
+      ],
+      "usedBy": [
+        "fusible-alloy-fire-sprinklers",
+        "saddle-type-waterflow-switches",
+        "straight-through-oblique-landing-valves",
+        "horizontal-handwheel-landing-valves",
+        "breeching-inlets",
+        "russian-pattern-fire-department-connection",
+        "straight-stream-fire-hose-nozzles",
+        "lever-operated-fire-hose-nozzles"
+      ],
+      "existsLocally": true,
+      "sha256": "c7e4e825e45ccd85e0e628288fcdd55a1152ad5992b6562eefc28fdda519f23f",
+      "baselineStatus": "absent"
+    },
+    {
+      "path": "css/site-navigation.css",
+      "roles": [
+        "direct-asset"
+      ],
+      "usedBy": [
+        "fusible-alloy-fire-sprinklers",
+        "saddle-type-waterflow-switches",
+        "straight-through-oblique-landing-valves",
+        "horizontal-handwheel-landing-valves",
+        "breeching-inlets",
+        "russian-pattern-fire-department-connection",
+        "straight-stream-fire-hose-nozzles",
+        "lever-operated-fire-hose-nozzles"
+      ],
+      "existsLocally": true,
+      "sha256": "61b33273598e48533313684122bf5fd5bd1507608ae4ab33809e35f4706c59e0",
+      "baselineStatus": "absent"
+    },
+    {
+      "path": "css/sprinkler-product-gallery.css",
+      "roles": [
+        "direct-asset"
+      ],
+      "usedBy": [
+        "fusible-alloy-fire-sprinklers",
+        "saddle-type-waterflow-switches",
+        "straight-through-oblique-landing-valves",
+        "horizontal-handwheel-landing-valves",
+        "breeching-inlets",
+        "russian-pattern-fire-department-connection",
+        "straight-stream-fire-hose-nozzles",
+        "lever-operated-fire-hose-nozzles"
+      ],
+      "existsLocally": true,
+      "sha256": "97e09ddc3c80f9421159aa2d4ce9410cfb9009b1e8cf85127198cd782dea0d41",
+      "baselineStatus": "unchanged"
+    },
+    {
+      "path": "css/sprinkler-product.css",
+      "roles": [
+        "direct-asset"
+      ],
+      "usedBy": [
+        "fusible-alloy-fire-sprinklers",
+        "saddle-type-waterflow-switches",
+        "straight-through-oblique-landing-valves",
+        "horizontal-handwheel-landing-valves",
+        "breeching-inlets",
+        "russian-pattern-fire-department-connection",
+        "straight-stream-fire-hose-nozzles",
+        "lever-operated-fire-hose-nozzles"
+      ],
+      "existsLocally": true,
+      "sha256": "1ab40fc3ea2795eee3289f090618b0d246f27e9064a914b39eb657da4fea94db",
+      "baselineStatus": "unchanged"
+    },
+    {
+      "path": "downloads.html",
+      "roles": [
+        "linked-page"
+      ],
+      "usedBy": [
+        "fusible-alloy-fire-sprinklers",
+        "saddle-type-waterflow-switches",
+        "straight-through-oblique-landing-valves",
+        "horizontal-handwheel-landing-valves",
+        "breeching-inlets",
+        "russian-pattern-fire-department-connection",
+        "straight-stream-fire-hose-nozzles",
+        "lever-operated-fire-hose-nozzles"
+      ],
+      "existsLocally": true,
+      "sha256": "a907f3baa80aca3db0093c836d036ee4bc17cf20aa02e04eba8026bc36ba6562",
+      "baselineStatus": "absent"
+    },
+    {
+      "path": "favicon.ico",
+      "roles": [
+        "direct-asset"
+      ],
+      "usedBy": [
+        "fusible-alloy-fire-sprinklers",
+        "saddle-type-waterflow-switches",
+        "straight-through-oblique-landing-valves",
+        "horizontal-handwheel-landing-valves",
+        "breeching-inlets",
+        "russian-pattern-fire-department-connection",
+        "straight-stream-fire-hose-nozzles",
+        "lever-operated-fire-hose-nozzles"
+      ],
+      "existsLocally": true,
+      "sha256": "80aef1bcf48ae6e1b46d52d158b87849be68845e207bd6d0065c16f8f54da129",
+      "baselineStatus": "unchanged"
+    },
+    {
+      "path": "index.html",
+      "roles": [
+        "linked-page"
+      ],
+      "usedBy": [
+        "fusible-alloy-fire-sprinklers",
+        "saddle-type-waterflow-switches",
+        "straight-through-oblique-landing-valves",
+        "horizontal-handwheel-landing-valves",
+        "breeching-inlets",
+        "russian-pattern-fire-department-connection",
+        "straight-stream-fire-hose-nozzles",
+        "lever-operated-fire-hose-nozzles"
+      ],
+      "existsLocally": true,
+      "sha256": "ba528ffe96d75fa8618e807a77e998ae702dd59655056b98dac8fd7c2178202e",
+      "baselineStatus": "changed"
+    },
+    {
+      "path": "products.html",
+      "roles": [
+        "linked-page"
+      ],
+      "usedBy": [
+        "fusible-alloy-fire-sprinklers",
+        "saddle-type-waterflow-switches",
+        "straight-through-oblique-landing-valves",
+        "horizontal-handwheel-landing-valves",
+        "breeching-inlets",
+        "russian-pattern-fire-department-connection",
+        "straight-stream-fire-hose-nozzles",
+        "lever-operated-fire-hose-nozzles"
+      ],
+      "existsLocally": true,
+      "sha256": "085cd16bf23a67e241d737425e9db582c65e42ca82f0e8d56ef1b9fce6b277fd",
+      "baselineStatus": "absent"
+    },
+    {
+      "path": "products/室内消防栓/室内消防栓.html",
+      "roles": [
+        "linked-page"
+      ],
+      "usedBy": [
+        "straight-through-oblique-landing-valves",
+        "horizontal-handwheel-landing-valves"
+      ],
+      "existsLocally": true,
+      "sha256": "cceb01f051ff78d4de138beb618dbc0f735996e1b8b6adf0314c91c1e60a4936",
+      "baselineStatus": "changed"
+    },
+    {
+      "path": "products/室内消防栓/horizontal-handwheel-landing-valves.html",
+      "roles": [
+        "product-page",
+        "linked-page"
+      ],
+      "usedBy": [
+        "horizontal-handwheel-landing-valves"
+      ],
+      "existsLocally": true,
+      "sha256": "0c4b88761285508417676636166f425ab5ebf9cecf8966c31c88131fc5e55378",
+      "baselineStatus": "absent"
+    },
+    {
+      "path": "products/室内消防栓/horizontal-handwheel-landing-valves/flanged-inlet-catalog-display.jpeg",
+      "roles": [
+        "product-image",
+        "direct-asset"
+      ],
+      "usedBy": [
+        "horizontal-handwheel-landing-valves"
+      ],
+      "existsLocally": true,
+      "sha256": "f11603fd97ddccb83b95e810bbfc99656e16fcbc2eee1706d7a54c91f9bad66f",
+      "baselineStatus": "absent"
+    },
+    {
+      "path": "products/室内消防栓/horizontal-handwheel-landing-valves/threaded-inlet-catalog-display.jpeg",
+      "roles": [
+        "product-image",
+        "direct-asset"
+      ],
+      "usedBy": [
+        "horizontal-handwheel-landing-valves"
+      ],
+      "existsLocally": true,
+      "sha256": "4bf818633dff9a5034d1085bf5b674169fda75d99b913bd968fbb9845532a0f5",
+      "baselineStatus": "absent"
+    },
+    {
+      "path": "products/室内消防栓/straight-through-oblique-landing-valves.html",
+      "roles": [
+        "product-page",
+        "linked-page"
+      ],
+      "usedBy": [
+        "straight-through-oblique-landing-valves"
+      ],
+      "existsLocally": true,
+      "sha256": "a4bddd2cf5c2317e0703bf5cd24eeb6bc7e77db2c8608d395b8adcbd3addbc63",
+      "baselineStatus": "absent"
+    },
+    {
+      "path": "products/室内消防栓/straight-through-oblique-landing-valves/oblique-flanged-catalog-display.jpeg",
+      "roles": [
+        "product-image",
+        "direct-asset"
+      ],
+      "usedBy": [
+        "straight-through-oblique-landing-valves"
+      ],
+      "existsLocally": true,
+      "sha256": "1c2626d678eb2cab96b2050a50b138b45aa7bf2e0e865930e207294ad6cba6ba",
+      "baselineStatus": "absent"
+    },
+    {
+      "path": "products/室内消防栓/straight-through-oblique-landing-valves/oblique-threaded-catalog-display.jpeg",
+      "roles": [
+        "product-image",
+        "direct-asset"
+      ],
+      "usedBy": [
+        "straight-through-oblique-landing-valves"
+      ],
+      "existsLocally": true,
+      "sha256": "25ce994e56f9fe8a625459881f0a1f009ce264a7dd0cf32c01b3e0ac1215f5b0",
+      "baselineStatus": "absent"
+    },
+    {
+      "path": "products/室内消防栓/straight-through-oblique-landing-valves/straight-through-catalog-display.jpeg",
+      "roles": [
+        "product-image",
+        "direct-asset"
+      ],
+      "usedBy": [
+        "straight-through-oblique-landing-valves"
+      ],
+      "existsLocally": true,
+      "sha256": "b0bcb514b9df8be8f5c56fe038cb2df89b42ef449542164b3417bfc90dc7bff8",
+      "baselineStatus": "absent"
+    },
+    {
+      "path": "products/消防阀.html",
+      "roles": [
+        "linked-page"
+      ],
+      "usedBy": [
+        "saddle-type-waterflow-switches"
+      ],
+      "existsLocally": true,
+      "sha256": "b3ba5f158fe2ed3c607d318d09fb5e8f972fb3b53e2782e6facd83172fb0bfeb",
+      "baselineStatus": "changed"
+    },
+    {
+      "path": "products/消防阀/saddle-type-waterflow-switches.html",
+      "roles": [
+        "product-page",
+        "linked-page"
+      ],
+      "usedBy": [
+        "saddle-type-waterflow-switches"
+      ],
+      "existsLocally": true,
+      "sha256": "6fd98ad056dbd3e656edc40f0ea18b0d52bbf1cb10cf0544f60741f74fcd4d62",
+      "baselineStatus": "absent"
+    },
+    {
+      "path": "products/消防阀/saddle-type-waterflow-switches/zsjz-dn100-reference.png",
+      "roles": [
+        "product-image",
+        "direct-asset"
+      ],
+      "usedBy": [
+        "saddle-type-waterflow-switches"
+      ],
+      "existsLocally": true,
+      "sha256": "4f14420357055099e9a84244f2edb40c6ac1ac484dc0bc1fe5ecf0887f78444d",
+      "baselineStatus": "absent"
+    },
+    {
+      "path": "products/消防喷头.html",
+      "roles": [
+        "linked-page"
+      ],
+      "usedBy": [
+        "fusible-alloy-fire-sprinklers"
+      ],
+      "existsLocally": true,
+      "sha256": "eec5755ad0bbbf09de85d8473ba5cba67055d8bd885a5bba89196382d6f54b80",
+      "baselineStatus": "changed"
+    },
+    {
+      "path": "products/消防喷头/fusible-alloy-fire-sprinklers.html",
+      "roles": [
+        "product-page",
+        "linked-page"
+      ],
+      "usedBy": [
+        "fusible-alloy-fire-sprinklers"
+      ],
+      "existsLocally": true,
+      "sha256": "9d30baf037db16679b939eabeed71b3d152e144eb9bfd1d88b6cc285da0073ad",
+      "baselineStatus": "absent"
+    },
+    {
+      "path": "products/消防喷头/fusible-alloy-fire-sprinklers/fusible-alloy-configuration-a.jpg",
+      "roles": [
+        "product-image",
+        "direct-asset"
+      ],
+      "usedBy": [
+        "fusible-alloy-fire-sprinklers"
+      ],
+      "existsLocally": true,
+      "sha256": "14c455d9802168a02d01641e0c3f855acfa6feb9fa98867ee408ad2ceebaf9cb",
+      "baselineStatus": "absent"
+    },
+    {
+      "path": "products/消防喷头/fusible-alloy-fire-sprinklers/fusible-alloy-configuration-b.jpg",
+      "roles": [
+        "product-image",
+        "direct-asset"
+      ],
+      "usedBy": [
+        "fusible-alloy-fire-sprinklers"
+      ],
+      "existsLocally": true,
+      "sha256": "05d4db52822e1a747fb644aa3b587cb799a4e229e20d46a22006cdbe8fb67aba",
+      "baselineStatus": "absent"
+    },
+    {
+      "path": "products/消防水泵接合器.html",
+      "roles": [
+        "linked-page"
+      ],
+      "usedBy": [
+        "breeching-inlets",
+        "russian-pattern-fire-department-connection"
+      ],
+      "existsLocally": true,
+      "sha256": "b6eb37e6ce8535f2e212c1b97f8236fbb62cbdbf6bbd3070088389226d272d51",
+      "baselineStatus": "changed"
+    },
+    {
+      "path": "products/消防水泵接合器/breeching-inlets.html",
+      "roles": [
+        "product-page",
+        "linked-page"
+      ],
+      "usedBy": [
+        "breeching-inlets"
+      ],
+      "existsLocally": true,
+      "sha256": "8c490f530b9a3fdcfef4135c1c1b04b1de539feb808bb0164479cb1e535f4cc1",
+      "baselineStatus": "absent"
+    },
+    {
+      "path": "products/消防水泵接合器/breeching-inlets/four-way-breeching-inlet.jpg",
+      "roles": [
+        "product-image",
+        "direct-asset"
+      ],
+      "usedBy": [
+        "breeching-inlets"
+      ],
+      "existsLocally": true,
+      "sha256": "6a68f019c3b7d5da9a23d60be5102bdc9b5115aafb23503b1146488eda6ec1e4",
+      "baselineStatus": "absent"
+    },
+    {
+      "path": "products/消防水泵接合器/breeching-inlets/two-way-breeching-inlet.jpg",
+      "roles": [
+        "product-image",
+        "direct-asset"
+      ],
+      "usedBy": [
+        "breeching-inlets"
+      ],
+      "existsLocally": true,
+      "sha256": "2556c9847b36c79975e88b71940a7eae5ea1f94b6536f49daa0914f80f274a8d",
+      "baselineStatus": "absent"
+    },
+    {
+      "path": "products/消防水泵接合器/russian-pattern-fire-department-connection.html",
+      "roles": [
+        "product-page",
+        "linked-page"
+      ],
+      "usedBy": [
+        "russian-pattern-fire-department-connection"
+      ],
+      "existsLocally": true,
+      "sha256": "64ca35e29abd8407aee3511ef54d659bdeec379556bc8b114560605a2725e862",
+      "baselineStatus": "absent"
+    },
+    {
+      "path": "products/消防水泵接合器/russian-pattern-fire-department-connection/65-16k-65-front.png",
+      "roles": [
+        "product-image",
+        "direct-asset"
+      ],
+      "usedBy": [
+        "russian-pattern-fire-department-connection"
+      ],
+      "existsLocally": true,
+      "sha256": "394b6ce8f99c522b720d103fde90e247fe7748f9b98142eeb39f78a17b3cde75",
+      "baselineStatus": "absent"
+    },
+    {
+      "path": "products/消防水枪.html",
+      "roles": [
+        "linked-page"
+      ],
+      "usedBy": [
+        "straight-stream-fire-hose-nozzles",
+        "lever-operated-fire-hose-nozzles"
+      ],
+      "existsLocally": true,
+      "sha256": "6f6b80ea9f9c20b363435cfd89558ea8af73f4fbdf26a7cebc53685f0664cf7f",
+      "baselineStatus": "changed"
+    },
+    {
+      "path": "products/消防水枪/lever-operated-fire-hose-nozzles.html",
+      "roles": [
+        "product-page",
+        "linked-page"
+      ],
+      "usedBy": [
+        "lever-operated-fire-hose-nozzles"
+      ],
+      "existsLocally": true,
+      "sha256": "f770e37f2265162254ec1c153a920e868931d74d15d058d3a511e1732e5a8de2",
+      "baselineStatus": "absent"
+    },
+    {
+      "path": "products/消防水枪/lever-operated-fire-hose-nozzles/configuration-a-catalog-display.png",
+      "roles": [
+        "product-image",
+        "direct-asset"
+      ],
+      "usedBy": [
+        "lever-operated-fire-hose-nozzles"
+      ],
+      "existsLocally": true,
+      "sha256": "4023c4e1fac08a9be04e1708eae41fceed8f6b3ec443f424bc05961e30f2577d",
+      "baselineStatus": "absent"
+    },
+    {
+      "path": "products/消防水枪/lever-operated-fire-hose-nozzles/configuration-b-catalog-display.png",
+      "roles": [
+        "product-image",
+        "direct-asset"
+      ],
+      "usedBy": [
+        "lever-operated-fire-hose-nozzles"
+      ],
+      "existsLocally": true,
+      "sha256": "1dc9c4c800d3a71866d07918075389f9674882f2a36e7014653d0daf407f1ef3",
+      "baselineStatus": "absent"
+    },
+    {
+      "path": "products/消防水枪/straight-stream-fire-hose-nozzles.html",
+      "roles": [
+        "product-page",
+        "linked-page"
+      ],
+      "usedBy": [
+        "straight-stream-fire-hose-nozzles"
+      ],
+      "existsLocally": true,
+      "sha256": "3143b876b064670b36736a96bdaab62320925c808e7f5eec5fa7c4ab3c76e58f",
+      "baselineStatus": "absent"
+    },
+    {
+      "path": "products/消防水枪/straight-stream-fire-hose-nozzles/qz-catalog-display.png",
+      "roles": [
+        "product-image",
+        "direct-asset"
+      ],
+      "usedBy": [
+        "straight-stream-fire-hose-nozzles"
+      ],
+      "existsLocally": true,
+      "sha256": "1569091b7e30d701941a4b458715f808051df6f8019e1ff93bc581832bc3fb6d",
+      "baselineStatus": "absent"
+    },
+    {
+      "path": "products/消防水枪/straight-stream-fire-hose-nozzles/russian-pattern-catalog-display.png",
+      "roles": [
+        "product-image",
+        "direct-asset"
+      ],
+      "usedBy": [
+        "straight-stream-fire-hose-nozzles"
+      ],
+      "existsLocally": true,
+      "sha256": "5e303eebd88c04fd150d5e4b8280d9b57ff9b411138b9df294d92921684954b4",
+      "baselineStatus": "absent"
+    },
+    {
+      "path": "site-src/_data/documented-products/breeching-inlets.json",
+      "roles": [
+        "source-only"
+      ],
+      "usedBy": [
+        "breeching-inlets"
+      ],
+      "existsLocally": true,
+      "sha256": "98efdc53c43da0033d3d9553ad32b730c4db777e4a70d3b1fb4c1e33dfdb0999",
+      "baselineStatus": "absent"
+    },
+    {
+      "path": "site-src/_data/documented-products/fusible-alloy-fire-sprinklers.json",
+      "roles": [
+        "source-only"
+      ],
+      "usedBy": [
+        "fusible-alloy-fire-sprinklers"
+      ],
+      "existsLocally": true,
+      "sha256": "c801d780c67077f2911f97142b5418a60414f75d24a6fb8d566cf382a853cc76",
+      "baselineStatus": "absent"
+    },
+    {
+      "path": "site-src/_data/documented-products/horizontal-handwheel-landing-valves.json",
+      "roles": [
+        "source-only"
+      ],
+      "usedBy": [
+        "horizontal-handwheel-landing-valves"
+      ],
+      "existsLocally": true,
+      "sha256": "51bf71b00514173f7ab55d12bfa3b8d1e1609728f3e5a9cd9c6676806c935695",
+      "baselineStatus": "absent"
+    },
+    {
+      "path": "site-src/_data/documented-products/lever-operated-fire-hose-nozzles.json",
+      "roles": [
+        "source-only"
+      ],
+      "usedBy": [
+        "lever-operated-fire-hose-nozzles"
+      ],
+      "existsLocally": true,
+      "sha256": "3bb78b053d2227626bfbfb4ef408b7fbf7ca531a7538c8e5a479df235881e11d",
+      "baselineStatus": "absent"
+    },
+    {
+      "path": "site-src/_data/documented-products/russian-pattern-fire-department-connection.json",
+      "roles": [
+        "source-only"
+      ],
+      "usedBy": [
+        "russian-pattern-fire-department-connection"
+      ],
+      "existsLocally": true,
+      "sha256": "b0c918a0c36c810280dbb14685ef72690cf758b3b4017b61c9933d71f6ed9913",
+      "baselineStatus": "absent"
+    },
+    {
+      "path": "site-src/_data/documented-products/saddle-type-waterflow-switches.json",
+      "roles": [
+        "source-only"
+      ],
+      "usedBy": [
+        "saddle-type-waterflow-switches"
+      ],
+      "existsLocally": true,
+      "sha256": "24d5353a8dd75d32c9d2e32df85db4abbb27a9e01917ef974c25f3f528e8adb4",
+      "baselineStatus": "absent"
+    },
+    {
+      "path": "site-src/_data/documented-products/straight-stream-fire-hose-nozzles.json",
+      "roles": [
+        "source-only"
+      ],
+      "usedBy": [
+        "straight-stream-fire-hose-nozzles"
+      ],
+      "existsLocally": true,
+      "sha256": "3e4395301c41e249d0e240b78119ffb54e69119b6fea1537cd6e6517553e13e5",
+      "baselineStatus": "absent"
+    },
+    {
+      "path": "site-src/_data/documented-products/straight-through-oblique-landing-valves.json",
+      "roles": [
+        "source-only"
+      ],
+      "usedBy": [
+        "straight-through-oblique-landing-valves"
+      ],
+      "existsLocally": true,
+      "sha256": "d2ad0b81a73fe6bcd7dac216f6878e0b4f6eaedc201f10a246bfd6af5d47ec3d",
+      "baselineStatus": "absent"
+    }
+  ]
+}

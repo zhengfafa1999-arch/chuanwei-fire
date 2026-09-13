@@ -31,3 +31,10 @@ demo/
 # Static-site build dependencies and cache
 node_modules/
 .cache/
+.tmp-chrome-*/
+__pycache__/
+*.pyc
+.tmp-chrome-*/
+
+# Local originals retained before product-image watermarking
+.watermark-backups/

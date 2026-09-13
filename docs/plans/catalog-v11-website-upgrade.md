@@ -114,7 +114,7 @@
 | 34 | Horizontal Landing Valves | 图片为供应商目录或重建展示图，缺少官网使用权与工厂原图 |
 | 36 | Two-Way Fire Department Connections | 图片为供应商目录或重建展示图，缺少官网使用权与工厂原图 |
 | 44 | Two-Way Fire Hose Distributors | 图片为供应商目录或重建展示图，接口兼容性也需确认 |
-| 45 | Fire Equipment Cabinets | 图片权利、材质、板厚、安装方式和内部配置均未确认 |
+| 45 | Fire Equipment Cabinets | 已建立本地双语草稿：4 种柜体、6 个常规尺寸、碳钢或铝框＋铁板、板厚可定制；图片官网使用权、具体材料牌号、安装方式、内部配置和表面处理待确认 |
 | 46 | Hose & Extinguisher Cabinets | 图片权利、材质、板厚、安装方式和内部配置均未确认 |
 
 ## 冲突处理规则

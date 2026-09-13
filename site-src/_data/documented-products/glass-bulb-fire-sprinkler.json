@@ -17,9 +17,10 @@
     "evidence": "A-user for quick-response classification and confirmed product facts; B-derived-approved-catalog for route association only"
   },
   "publication": {
-    "status": "local-draft",
-    "externalRelease": false,
-    "imageRights": "pending-website-use-confirmation"
+    "status": "release-candidate",
+    "externalRelease": true,
+    "imageRights": "user-confirmed-website-use",
+    "imageRightsEvidence": "docs/release/three-products-20260913/image-rights-confirmation.json"
   },
   "media": {
     "hero": "products/消防喷头/glass-bulb-sprinkler/quick-response-pendent.jpg",

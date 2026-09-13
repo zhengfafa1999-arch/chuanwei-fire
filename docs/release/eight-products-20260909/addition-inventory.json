@@ -1,0 +1,321 @@
+{
+  "generatedAt": "2026-09-09T07:01:46.278Z",
+  "scope": "v11-eight-local-draft-additions",
+  "records": [
+    {
+      "id": "fusible-alloy-fire-sprinklers",
+      "catalogPage": 12,
+      "category": "sprinklers",
+      "galleryImages": 2,
+      "modelRows": 5,
+      "publication": {
+        "status": "local-draft",
+        "externalRelease": false,
+        "imageRights": "user-confirmed-website-use",
+        "imageRightsEvidence": "docs/release/eight-products-20260909/image-rights-confirmation.json"
+      },
+      "sourcePath": "site-src/_data/documented-products/fusible-alloy-fire-sprinklers.json",
+      "sourceSha256": "c801d780c67077f2911f97142b5418a60414f75d24a6fb8d566cf382a853cc76",
+      "outputs": [
+        {
+          "locale": "en",
+          "path": "products/消防喷头/fusible-alloy-fire-sprinklers.html",
+          "sha256": "9d30baf037db16679b939eabeed71b3d152e144eb9bfd1d88b6cc285da0073ad"
+        },
+        {
+          "locale": "ar",
+          "path": "ar/products/fusible-alloy-fire-sprinklers/index.html",
+          "sha256": "bc87f25fbb7b59b3d0d4c1c960a7bb3c67f14c65eaa1fcf87a72587104d41fa8"
+        }
+      ],
+      "images": [
+        {
+          "key": "hero",
+          "path": "products/消防喷头/fusible-alloy-fire-sprinklers/fusible-alloy-configuration-a.jpg",
+          "sha256": "14c455d9802168a02d01641e0c3f855acfa6feb9fa98867ee408ad2ceebaf9cb"
+        },
+        {
+          "key": "configurationB",
+          "path": "products/消防喷头/fusible-alloy-fire-sprinklers/fusible-alloy-configuration-b.jpg",
+          "sha256": "05d4db52822e1a747fb644aa3b587cb799a4e229e20d46a22006cdbe8fb67aba"
+        }
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "saddle-type-waterflow-switches",
+      "catalogPage": 25,
+      "category": "system-valves",
+      "galleryImages": 1,
+      "modelRows": 7,
+      "publication": {
+        "status": "local-draft",
+        "externalRelease": false,
+        "imageRights": "user-confirmed-website-use",
+        "imageRightsEvidence": "docs/release/eight-products-20260909/image-rights-confirmation.json"
+      },
+      "sourcePath": "site-src/_data/documented-products/saddle-type-waterflow-switches.json",
+      "sourceSha256": "24d5353a8dd75d32c9d2e32df85db4abbb27a9e01917ef974c25f3f528e8adb4",
+      "outputs": [
+        {
+          "locale": "en",
+          "path": "products/消防阀/saddle-type-waterflow-switches.html",
+          "sha256": "6fd98ad056dbd3e656edc40f0ea18b0d52bbf1cb10cf0544f60741f74fcd4d62"
+        },
+        {
+          "locale": "ar",
+          "path": "ar/products/saddle-type-waterflow-switches/index.html",
+          "sha256": "86c8384880d1420c828fa07e731dbdd2f967125c89a8e7e3d65e416f3e6531b6"
+        }
+      ],
+      "images": [
+        {
+          "key": "hero",
+          "path": "products/消防阀/saddle-type-waterflow-switches/zsjz-dn100-reference.png",
+          "sha256": "4f14420357055099e9a84244f2edb40c6ac1ac484dc0bc1fe5ecf0887f78444d"
+        }
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "straight-through-oblique-landing-valves",
+      "catalogPage": 29,
+      "category": "indoor-hydrants",
+      "galleryImages": 3,
+      "modelRows": 5,
+      "publication": {
+        "status": "local-draft",
+        "externalRelease": false,
+        "imageRights": "user-confirmed-website-use",
+        "imageRightsEvidence": "docs/release/eight-products-20260909/image-rights-confirmation.json"
+      },
+      "sourcePath": "site-src/_data/documented-products/straight-through-oblique-landing-valves.json",
+      "sourceSha256": "d2ad0b81a73fe6bcd7dac216f6878e0b4f6eaedc201f10a246bfd6af5d47ec3d",
+      "outputs": [
+        {
+          "locale": "en",
+          "path": "products/室内消防栓/straight-through-oblique-landing-valves.html",
+          "sha256": "a4bddd2cf5c2317e0703bf5cd24eeb6bc7e77db2c8608d395b8adcbd3addbc63"
+        },
+        {
+          "locale": "ar",
+          "path": "ar/products/straight-through-oblique-landing-valves/index.html",
+          "sha256": "65fad155a14f0887813dc593e3f70668cf1426d2c1de957c370646c0de2c24f0"
+        }
+      ],
+      "images": [
+        {
+          "key": "hero",
+          "path": "products/室内消防栓/straight-through-oblique-landing-valves/straight-through-catalog-display.jpeg",
+          "sha256": "b0bcb514b9df8be8f5c56fe038cb2df89b42ef449542164b3417bfc90dc7bff8"
+        },
+        {
+          "key": "obliqueThreaded",
+          "path": "products/室内消防栓/straight-through-oblique-landing-valves/oblique-threaded-catalog-display.jpeg",
+          "sha256": "25ce994e56f9fe8a625459881f0a1f009ce264a7dd0cf32c01b3e0ac1215f5b0"
+        },
+        {
+          "key": "obliqueFlanged",
+          "path": "products/室内消防栓/straight-through-oblique-landing-valves/oblique-flanged-catalog-display.jpeg",
+          "sha256": "1c2626d678eb2cab96b2050a50b138b45aa7bf2e0e865930e207294ad6cba6ba"
+        }
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "horizontal-handwheel-landing-valves",
+      "catalogPage": 30,
+      "category": "indoor-hydrants",
+      "galleryImages": 2,
+      "modelRows": 5,
+      "publication": {
+        "status": "local-draft",
+        "externalRelease": false,
+        "imageRights": "user-confirmed-website-use",
+        "imageRightsEvidence": "docs/release/eight-products-20260909/image-rights-confirmation.json"
+      },
+      "sourcePath": "site-src/_data/documented-products/horizontal-handwheel-landing-valves.json",
+      "sourceSha256": "51bf71b00514173f7ab55d12bfa3b8d1e1609728f3e5a9cd9c6676806c935695",
+      "outputs": [
+        {
+          "locale": "en",
+          "path": "products/室内消防栓/horizontal-handwheel-landing-valves.html",
+          "sha256": "0c4b88761285508417676636166f425ab5ebf9cecf8966c31c88131fc5e55378"
+        },
+        {
+          "locale": "ar",
+          "path": "ar/products/horizontal-handwheel-landing-valves/index.html",
+          "sha256": "d03b77bfb4df3f302486089ded068912077c357db55ae6977087b86eeaf04201"
+        }
+      ],
+      "images": [
+        {
+          "key": "hero",
+          "path": "products/室内消防栓/horizontal-handwheel-landing-valves/threaded-inlet-catalog-display.jpeg",
+          "sha256": "4bf818633dff9a5034d1085bf5b674169fda75d99b913bd968fbb9845532a0f5"
+        },
+        {
+          "key": "flanged",
+          "path": "products/室内消防栓/horizontal-handwheel-landing-valves/flanged-inlet-catalog-display.jpeg",
+          "sha256": "f11603fd97ddccb83b95e810bbfc99656e16fcbc2eee1706d7a54c91f9bad66f"
+        }
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "breeching-inlets",
+      "catalogPage": 35,
+      "category": "fire-department-connections",
+      "galleryImages": 2,
+      "modelRows": 2,
+      "publication": {
+        "status": "local-draft",
+        "externalRelease": false,
+        "imageRights": "user-confirmed-website-use",
+        "imageRightsEvidence": "docs/release/eight-products-20260909/image-rights-confirmation.json"
+      },
+      "sourcePath": "site-src/_data/documented-products/breeching-inlets.json",
+      "sourceSha256": "98efdc53c43da0033d3d9553ad32b730c4db777e4a70d3b1fb4c1e33dfdb0999",
+      "outputs": [
+        {
+          "locale": "en",
+          "path": "products/消防水泵接合器/breeching-inlets.html",
+          "sha256": "8c490f530b9a3fdcfef4135c1c1b04b1de539feb808bb0164479cb1e535f4cc1"
+        },
+        {
+          "locale": "ar",
+          "path": "ar/products/breeching-inlets/index.html",
+          "sha256": "48151f3f2c7c3f3fff595d9f85473694c3b892a6bb6b89a7dda5ae1c1bd9808a"
+        }
+      ],
+      "images": [
+        {
+          "key": "hero",
+          "path": "products/消防水泵接合器/breeching-inlets/two-way-breeching-inlet.jpg",
+          "sha256": "2556c9847b36c79975e88b71940a7eae5ea1f94b6536f49daa0914f80f274a8d"
+        },
+        {
+          "key": "fourWay",
+          "path": "products/消防水泵接合器/breeching-inlets/four-way-breeching-inlet.jpg",
+          "sha256": "6a68f019c3b7d5da9a23d60be5102bdc9b5115aafb23503b1146488eda6ec1e4"
+        }
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "russian-pattern-fire-department-connection",
+      "catalogPage": 37,
+      "category": "fire-department-connections",
+      "galleryImages": 1,
+      "modelRows": 1,
+      "publication": {
+        "status": "local-draft",
+        "externalRelease": false,
+        "imageRights": "user-confirmed-website-use",
+        "imageRightsEvidence": "docs/release/eight-products-20260909/image-rights-confirmation.json"
+      },
+      "sourcePath": "site-src/_data/documented-products/russian-pattern-fire-department-connection.json",
+      "sourceSha256": "b0c918a0c36c810280dbb14685ef72690cf758b3b4017b61c9933d71f6ed9913",
+      "outputs": [
+        {
+          "locale": "en",
+          "path": "products/消防水泵接合器/russian-pattern-fire-department-connection.html",
+          "sha256": "64ca35e29abd8407aee3511ef54d659bdeec379556bc8b114560605a2725e862"
+        },
+        {
+          "locale": "ar",
+          "path": "ar/products/russian-pattern-fire-department-connection/index.html",
+          "sha256": "a617a8c7c40f02833492e084cc46f09ef890ab368e9197ccf03ee41f727e0c1e"
+        }
+      ],
+      "images": [
+        {
+          "key": "hero",
+          "path": "products/消防水泵接合器/russian-pattern-fire-department-connection/65-16k-65-front.png",
+          "sha256": "394b6ce8f99c522b720d103fde90e247fe7748f9b98142eeb39f78a17b3cde75"
+        }
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "straight-stream-fire-hose-nozzles",
+      "catalogPage": 40,
+      "category": "hoses-nozzles-couplings",
+      "galleryImages": 2,
+      "modelRows": 2,
+      "publication": {
+        "status": "local-draft",
+        "externalRelease": false,
+        "imageRights": "user-confirmed-website-use",
+        "imageRightsEvidence": "docs/release/eight-products-20260909/image-rights-confirmation.json"
+      },
+      "sourcePath": "site-src/_data/documented-products/straight-stream-fire-hose-nozzles.json",
+      "sourceSha256": "3e4395301c41e249d0e240b78119ffb54e69119b6fea1537cd6e6517553e13e5",
+      "outputs": [
+        {
+          "locale": "en",
+          "path": "products/消防水枪/straight-stream-fire-hose-nozzles.html",
+          "sha256": "3143b876b064670b36736a96bdaab62320925c808e7f5eec5fa7c4ab3c76e58f"
+        },
+        {
+          "locale": "ar",
+          "path": "ar/products/straight-stream-fire-hose-nozzles/index.html",
+          "sha256": "88e36b51e22780824b53683e5abe4d576dba44115145e77c4b2f5d8e0ae80d2f"
+        }
+      ],
+      "images": [
+        {
+          "key": "hero",
+          "path": "products/消防水枪/straight-stream-fire-hose-nozzles/qz-catalog-display.png",
+          "sha256": "1569091b7e30d701941a4b458715f808051df6f8019e1ff93bc581832bc3fb6d"
+        },
+        {
+          "key": "russian",
+          "path": "products/消防水枪/straight-stream-fire-hose-nozzles/russian-pattern-catalog-display.png",
+          "sha256": "5e303eebd88c04fd150d5e4b8280d9b57ff9b411138b9df294d92921684954b4"
+        }
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "lever-operated-fire-hose-nozzles",
+      "catalogPage": 41,
+      "category": "hoses-nozzles-couplings",
+      "galleryImages": 2,
+      "modelRows": 5,
+      "publication": {
+        "status": "local-draft",
+        "externalRelease": false,
+        "imageRights": "user-confirmed-website-use",
+        "imageRightsEvidence": "docs/release/eight-products-20260909/image-rights-confirmation.json"
+      },
+      "sourcePath": "site-src/_data/documented-products/lever-operated-fire-hose-nozzles.json",
+      "sourceSha256": "3bb78b053d2227626bfbfb4ef408b7fbf7ca531a7538c8e5a479df235881e11d",
+      "outputs": [
+        {
+          "locale": "en",
+          "path": "products/消防水枪/lever-operated-fire-hose-nozzles.html",
+          "sha256": "f770e37f2265162254ec1c153a920e868931d74d15d058d3a511e1732e5a8de2"
+        },
+        {
+          "locale": "ar",
+          "path": "ar/products/lever-operated-fire-hose-nozzles/index.html",
+          "sha256": "b2c71cc001746f53a9940430a4e8c10596b66a478a37b469e880b2c6b8f933b7"
+        }
+      ],
+      "images": [
+        {
+          "key": "hero",
+          "path": "products/消防水枪/lever-operated-fire-hose-nozzles/configuration-a-catalog-display.png",
+          "sha256": "4023c4e1fac08a9be04e1708eae41fceed8f6b3ec443f424bc05961e30f2577d"
+        },
+        {
+          "key": "configurationB",
+          "path": "products/消防水枪/lever-operated-fire-hose-nozzles/configuration-b-catalog-display.png",
+          "sha256": "1dc9c4c800d3a71866d07918075389f9674882f2a36e7014653d0daf407f1ef3"
+        }
+      ],
+      "status": "PASS"
+    }
+  ]
+}

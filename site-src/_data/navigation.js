@@ -1,4 +1,5 @@
 import { SITE_ROUTES, assetPrefixFor, resolveSiteRoute } from "./siteRoutes.js";
+import { PRODUCT_FAMILIES, flatProducts, productSuffix } from './productDirectory.js';
 
 const PRIMARY_ROUTE_IDS = ["home", "products", "about", "downloads", "contact"];
 const LANGUAGE_ORDER = ["en", "zh", "ar"];
@@ -98,6 +99,13 @@ export function createSiteNavigation(routeId, locale, outputPath) {
     languageLabel: copy.languageLabel,
     quote: copy.quote,
     primaryItems,
+    productGroups: PRODUCT_FAMILIES.map(family => ({
+      name: family.name[locale] || family.name.en,
+      products: flatProducts(family).map(product => ({
+        name: product.name[locale] || product.name.en,
+        href: resolveSiteRoute(product.routeId, routeLocale(product.routeId, locale), outputPath).href + productSuffix(product)
+      }))
+    })),
     languageItems,
     homeHref: primaryItems.find((item) => item.id === "home").href,
     productsHref: primaryItems.find((item) => item.id === "products").href,
@@ -120,7 +128,12 @@ function escapeHtml(value) {
 }
 
 export function renderSiteHeader(navigation) {
-  const primaryItems = navigation.primaryItems.map((item) => `      <a href="${escapeHtml(item.href)}" data-site-nav-item="${item.id}"${item.current ? ' aria-current="page"' : ""}>${escapeHtml(item.label)}</a>`).join("\n");
+  const primaryItems = navigation.primaryItems.map((item) => {
+    const link = `<a href="${escapeHtml(item.href)}" data-site-nav-item="${item.id}"${item.current ? ' aria-current="page"' : ""}>${escapeHtml(item.label)}</a>`;
+    if (item.id !== 'products') return link;
+    const groups = navigation.productGroups.map(group => `<details class="global-product-group" open><summary>${escapeHtml(group.name)}</summary>${group.products.map(product => `<a href="${escapeHtml(product.href)}">${escapeHtml(product.name)}</a>`).join('')}</details>`).join('');
+    return `<div class="global-products">${link}<details class="global-product-menu"><summary aria-label="${escapeHtml(item.label)}">▾</summary><div class="global-product-panel"><a class="global-product-all" href="${escapeHtml(item.href)}">${escapeHtml(navigation.labels.productDirectory)} →</a><div class="global-product-groups">${groups}</div></div></details></div>`;
+  }).join("\n");
   const languageItems = navigation.languageItems.map((item) => `      <a href="${escapeHtml(item.href)}" lang="${item.lang}" dir="${item.dir}" data-site-language-choice="${item.language}" data-language-status="${item.status}" title="${escapeHtml(item.title)}"${item.current ? ' aria-current="true"' : ""}>${escapeHtml(item.label)}</a>`).join("\n");
   const quote = navigation.kind === "product" ? `\n    <a class="global-header__quote" href="#inquiry">${escapeHtml(navigation.quote)}</a>` : "";
   return `<header class="global-header" data-global-header>
@@ -141,4 +154,3 @@ export function renderProductFooter(navigation) {
   if (!navigation.categoryHref) throw new Error(`Product route '${navigation.routeId}' has no category return link.`);
   return `<footer class="pdp-footer" data-global-product-footer><div class="pdp-container pdp-footer__in"><span>© 2026 CHUANWEI FIRE</span><span><a href="${escapeHtml(navigation.categoryHref)}">${escapeHtml(navigation.labels.backToCategory)}</a> · <a href="${escapeHtml(navigation.productsHref)}">${escapeHtml(navigation.labels.productDirectory)}</a> · <a href="${escapeHtml(navigation.homeHref)}">${escapeHtml(navigation.labels.companyWebsite)}</a></span></div></footer>`;
 }
-

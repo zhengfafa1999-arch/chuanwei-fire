@@ -1,0 +1,2524 @@
+{
+  "version": 1,
+  "status": "release-candidate",
+  "externalRelease": true,
+  "source": "User-supplied Quanguan electronic catalog pages 07-31 and selected white-background reconstruction manifests",
+  "imageUse": "User instructed that these images be placed on the CHUANWEI FIRE official website on 2026-09-13",
+  "series": [
+    {
+      "page": 7,
+      "id": "catalog-brass-finish-hose-valves-page-07",
+      "routeId": "product:catalog-brass-finish-hose-valves-page-07",
+      "familyId": "indoor-hydrants",
+      "folder": "室内消防栓",
+      "title": {
+        "en": "Compact Brass-Finish Fire Hose Valves",
+        "ar": "صمامات خراطيم حريق مدمجة بتشطيب نحاسي"
+      },
+      "sourceCatalogPage": "D:/work/codex/yunying/yunzhan365_泉观消防电子画册/pages/page_07.webp",
+      "items": [
+        {
+          "key": "p07-01",
+          "sourceName": "黄铜斜出口消防阀",
+          "name": {
+            "en": "Brass-Finish Angled-Outlet Fire Hose Valve",
+            "ar": "صمام خرطوم حريق بتشطيب نحاسي بمخرج مائل"
+          },
+          "sourceReferences": "S-010",
+          "sourceOptions": [
+            "S-010: inlet 1 in BSP; outlet 1 in BSP"
+          ],
+          "image": "products/室内消防栓/catalog-brass-finish-hose-valves-page-07/p07-01.webp",
+          "imageDimensions": {
+            "width": 1000,
+            "height": 1000
+          },
+          "sourceImage": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_07/黄铜斜出口消防阀_页07_01_视觉展示图_待原图复核.png"
+        },
+        {
+          "key": "p07-02",
+          "sourceName": "黄铜直角消防阀",
+          "name": {
+            "en": "Brass-Finish Right-Angle Fire Hose Valve",
+            "ar": "صمام خرطوم حريق بتشطيب نحاسي بزاوية قائمة"
+          },
+          "sourceReferences": "S-011",
+          "sourceOptions": [
+            "S-011: inlet 1.5 in BSP; outlet 1 in BSP"
+          ],
+          "image": "products/室内消防栓/catalog-brass-finish-hose-valves-page-07/p07-02.webp",
+          "imageDimensions": {
+            "width": 1000,
+            "height": 1000
+          },
+          "sourceImage": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_07/黄铜直角消防阀_页07_02重试_视觉展示图_待原图复核.png"
+        },
+        {
+          "key": "p07-03",
+          "sourceName": "黄铜大斜出口消防阀",
+          "name": {
+            "en": "Brass-Finish Large Angled-Outlet Fire Hose Valve",
+            "ar": "صمام خرطوم حريق بتشطيب نحاسي بمخرج مائل كبير"
+          },
+          "sourceReferences": "S-012 / S-013",
+          "sourceOptions": [
+            "S-012: inlet 1.5 in BSP; outlet 1.5 in BSP",
+            "S-013: inlet 1.5 in BSP; outlet 1.5 in NH"
+          ],
+          "image": "products/室内消防栓/catalog-brass-finish-hose-valves-page-07/p07-03.webp",
+          "imageDimensions": {
+            "width": 1000,
+            "height": 1000
+          },
+          "sourceImage": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_07/黄铜大斜出口消防阀_页07_03重试_视觉展示图_待原图复核.png"
+        },
+        {
+          "key": "p07-04",
+          "sourceName": "黄铜小斜出口消防阀",
+          "name": {
+            "en": "Brass-Finish Compact Angled-Outlet Fire Hose Valve",
+            "ar": "صمام خرطوم حريق بتشطيب نحاسي بمخرج مائل مدمج"
+          },
+          "sourceReferences": "S-014",
+          "sourceOptions": [
+            "S-014: inlet 1.5 in BSP; outlet 1 in BSP"
+          ],
+          "image": "products/室内消防栓/catalog-brass-finish-hose-valves-page-07/p07-04.webp",
+          "imageDimensions": {
+            "width": 1000,
+            "height": 1000
+          },
+          "sourceImage": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_07/黄铜小斜出口消防阀_页07_04_视觉展示图_待原图复核.png"
+        },
+        {
+          "key": "p07-05",
+          "sourceName": "黄铜左出口消防阀",
+          "name": {
+            "en": "Brass-Finish Left-Outlet Fire Hose Valve",
+            "ar": "صمام خرطوم حريق بتشطيب نحاسي بمخرج أيسر"
+          },
+          "sourceReferences": "S-015 / S-016 / S-017",
+          "sourceOptions": [
+            "S-015: inlet 2 in BSP; outlet 2 in BSP",
+            "S-016: inlet 2 in BSP; outlet 2 in NH",
+            "S-017: inlet 2 in NPT; outlet 2 in NH"
+          ],
+          "image": "products/室内消防栓/catalog-brass-finish-hose-valves-page-07/p07-05.webp",
+          "imageDimensions": {
+            "width": 1000,
+            "height": 1000
+          },
+          "sourceImage": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_07/黄铜左出口消防阀_页07_05_视觉展示图_待原图复核.png"
+        }
+      ]
+    },
+    {
+      "page": 8,
+      "id": "catalog-brass-finish-hose-valves-page-08",
+      "routeId": "product:catalog-brass-finish-hose-valves-page-08",
+      "familyId": "indoor-hydrants",
+      "folder": "室内消防栓",
+      "title": {
+        "en": "Brass-Finish Fire Hose Valve Configurations",
+        "ar": "تكوينات صمامات خراطيم حريق بتشطيب نحاسي"
+      },
+      "sourceCatalogPage": "D:/work/codex/yunying/yunzhan365_泉观消防电子画册/pages/page_08.webp",
+      "items": [
+        {
+          "key": "p08-01",
+          "sourceName": "黄铜外螺纹底口消防阀",
+          "name": {
+            "en": "Brass-Finish Male-Threaded Bottom-Inlet Fire Hose Valve",
+            "ar": "صمام خرطوم حريق بتشطيب نحاسي بمدخل سفلي ملولب خارجي"
+          },
+          "sourceReferences": "S-018 / S-019 / S-020",
+          "sourceOptions": [
+            "S-018: inlet 2 in BSP; outlet 2 in BSP",
+            "S-019: inlet 2 in BSP; outlet 2 in NH",
+            "S-020: inlet 2 in NPT; outlet 2 in NH"
+          ],
+          "image": "products/室内消防栓/catalog-brass-finish-hose-valves-page-08/p08-01.webp",
+          "imageDimensions": {
+            "width": 1000,
+            "height": 1000
+          },
+          "sourceImage": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_08/黄铜外螺纹底口消防阀_页08_01_视觉展示图_待原图复核.png"
+        },
+        {
+          "key": "p08-02",
+          "sourceName": "黄铜内螺纹底口消防阀",
+          "name": {
+            "en": "Brass-Finish Female-Threaded Bottom-Inlet Fire Hose Valve",
+            "ar": "صمام خرطوم حريق بتشطيب نحاسي بمدخل سفلي ملولب داخلي"
+          },
+          "sourceReferences": "S-021 / S-022 / S-023",
+          "sourceOptions": [
+            "S-021: inlet 2.5 in BSP; outlet 2.5 in BSP",
+            "S-022: inlet 2.5 in BSP; outlet 2.5 in NH",
+            "S-023: inlet 2.5 in NPT; outlet 2.5 in NH"
+          ],
+          "image": "products/室内消防栓/catalog-brass-finish-hose-valves-page-08/p08-02.webp",
+          "imageDimensions": {
+            "width": 1000,
+            "height": 1000
+          },
+          "sourceImage": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_08/黄铜内螺纹底口消防阀_页08_02_视觉展示图_待原图复核.png"
+        },
+        {
+          "key": "p08-03",
+          "sourceName": "黄铜左斜出口消防阀",
+          "name": {
+            "en": "Brass-Finish Left Angled-Outlet Fire Hose Valve",
+            "ar": "صمام خرطوم حريق بتشطيب نحاسي بمخرج أيسر مائل"
+          },
+          "sourceReferences": "S-024 / S-025 / S-026",
+          "sourceOptions": [
+            "S-024: inlet 2.5 in BSP; outlet 2.5 in BSP",
+            "S-025: inlet 2.5 in BSP; outlet 2.5 in NH",
+            "S-026: inlet 2.5 in NPT; outlet 2.5 in NH"
+          ],
+          "image": "products/室内消防栓/catalog-brass-finish-hose-valves-page-08/p08-03.webp",
+          "imageDimensions": {
+            "width": 1000,
+            "height": 1000
+          },
+          "sourceImage": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_08/黄铜左斜出口消防阀_页08_03_视觉展示图_待原图复核.png"
+        },
+        {
+          "key": "p08-04",
+          "sourceName": "黄铜筒体外螺纹底口消防阀",
+          "name": {
+            "en": "Brass-Finish Barrel-Body Male-Threaded Bottom-Inlet Fire Hose Valve",
+            "ar": "صمام خرطوم حريق بتشطيب نحاسي بجسم أسطواني بمدخل سفلي ملولب خارجي"
+          },
+          "sourceReferences": "S-040 / S-041",
+          "sourceOptions": [
+            "S-040: inlet 1.5 in BSP; outlet 1.5 in BSP",
+            "S-041: inlet 1.5 in NPT; outlet 1.5 in BSP"
+          ],
+          "image": "products/室内消防栓/catalog-brass-finish-hose-valves-page-08/p08-04.webp",
+          "imageDimensions": {
+            "width": 1000,
+            "height": 1000
+          },
+          "sourceImage": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_08/黄铜筒体外螺纹底口消防阀_页08_04_视觉展示图_待原图复核.png"
+        },
+        {
+          "key": "p08-05",
+          "sourceName": "黄铜筒体内螺纹底口消防阀",
+          "name": {
+            "en": "Brass-Finish Barrel-Body Female-Threaded Bottom-Inlet Fire Hose Valve",
+            "ar": "صمام خرطوم حريق بتشطيب نحاسي بجسم أسطواني بمدخل سفلي ملولب داخلي"
+          },
+          "sourceReferences": "S-050 / S-051",
+          "sourceOptions": [
+            "S-050: inlet 1.5 in BSP; outlet 1.5 in BSP",
+            "S-051: inlet 1.5 in NPT; outlet 1.5 in BSP"
+          ],
+          "image": "products/室内消防栓/catalog-brass-finish-hose-valves-page-08/p08-05.webp",
+          "imageDimensions": {
+            "width": 1000,
+            "height": 1000
+          },
+          "sourceImage": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_08/黄铜筒体内螺纹底口消防阀_页08_05_视觉展示图_待原图复核.png"
+        }
+      ]
+    },
+    {
+      "page": 9,
+      "id": "catalog-hose-valves-page-09",
+      "routeId": "product:catalog-hose-valves-page-09",
+      "familyId": "indoor-hydrants",
+      "folder": "室内消防栓",
+      "title": {
+        "en": "Brass- and Silver-Finish Fire Hose Valves",
+        "ar": "صمامات خراطيم حريق بتشطيب نحاسي أو فضي"
+      },
+      "sourceCatalogPage": "D:/work/codex/yunying/yunzhan365_泉观消防电子画册/pages/page_09.webp",
+      "items": [
+        {
+          "key": "p09-01",
+          "sourceName": "黄铜水带接头消防阀",
+          "name": {
+            "en": "Brass-Finish Hose-Tail Fire Hose Valve",
+            "ar": "صمام خرطوم حريق بتشطيب نحاسي بنهاية خرطوم"
+          },
+          "sourceReferences": "S-052",
+          "sourceOptions": [
+            "S-052: inlet 1.5 in BSP; outlet Ø25 mm"
+          ],
+          "image": "products/室内消防栓/catalog-hose-valves-page-09/p09-01.webp",
+          "imageDimensions": {
+            "width": 1000,
+            "height": 1000
+          },
+          "sourceImage": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_09/黄铜水带接头消防阀_页09_01_视觉展示图_待原图复核.png"
+        },
+        {
+          "key": "p09-02",
+          "sourceName": "银色水带接头黄铜消防阀",
+          "name": {
+            "en": "Brass-Finish Fire Hose Valve with Silver-Finish Hose Tail",
+            "ar": "صمام خرطوم حريق بتشطيب نحاسي ونهاية خرطوم فضية"
+          },
+          "sourceReferences": "S-060",
+          "sourceOptions": [
+            "S-060: inlet 1.5 in BSP; outlet Ø45 mm"
+          ],
+          "image": "products/室内消防栓/catalog-hose-valves-page-09/p09-02.webp",
+          "imageDimensions": {
+            "width": 1000,
+            "height": 1000
+          },
+          "sourceImage": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_09/银色水带接头黄铜消防阀_页09_02_视觉展示图_待原图复核.png"
+        },
+        {
+          "key": "p09-03",
+          "sourceName": "黄铜圆体内螺纹消防阀",
+          "name": {
+            "en": "Brass-Finish Round-Body Female-Threaded Fire Hose Valve",
+            "ar": "صمام خرطوم حريق بتشطيب نحاسي بجسم دائري ملولب داخلياً"
+          },
+          "sourceReferences": "US-026 / US-027",
+          "sourceOptions": [
+            "US-026: inlet 1.5 in NPT; outlet 1.5 in NPT",
+            "US-027: inlet 1.5 in BSP; outlet 1.5 in BSP"
+          ],
+          "image": "products/室内消防栓/catalog-hose-valves-page-09/p09-03.webp",
+          "imageDimensions": {
+            "width": 1000,
+            "height": 1000
+          },
+          "sourceImage": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_09/黄铜圆体内螺纹消防阀_页09_03_视觉展示图_待原图复核.png"
+        },
+        {
+          "key": "p09-04",
+          "sourceName": "黄铜筒体右出口消防阀",
+          "name": {
+            "en": "Brass-Finish Barrel-Body Right-Outlet Fire Hose Valve",
+            "ar": "صمام خرطوم حريق بتشطيب نحاسي بجسم أسطواني بمخرج أيمن"
+          },
+          "sourceReferences": "US-030 / US-031",
+          "sourceOptions": [
+            "US-030: inlet 1.5 in NPT; outlet 1.5 in NPT",
+            "US-031: inlet 1.5 in NPT; outlet 1.5 in NH"
+          ],
+          "image": "products/室内消防栓/catalog-hose-valves-page-09/p09-04.webp",
+          "imageDimensions": {
+            "width": 1000,
+            "height": 1000
+          },
+          "sourceImage": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_09/黄铜筒体右出口消防阀_页09_04_视觉展示图_待原图复核.png"
+        },
+        {
+          "key": "p09-05",
+          "sourceName": "黄铜筒体左出口消防阀",
+          "name": {
+            "en": "Brass-Finish Barrel-Body Left-Outlet Fire Hose Valve",
+            "ar": "صمام خرطوم حريق بتشطيب نحاسي بجسم أسطواني بمخرج أيسر"
+          },
+          "sourceReferences": "US-032 / US-033",
+          "sourceOptions": [
+            "US-032: inlet 1.5 in NPT; outlet 1.5 in NH",
+            "US-033: inlet 2 in NPT; outlet 2 in NH"
+          ],
+          "image": "products/室内消防栓/catalog-hose-valves-page-09/p09-05.webp",
+          "imageDimensions": {
+            "width": 1000,
+            "height": 1000
+          },
+          "sourceImage": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_09/黄铜筒体左出口消防阀_页09_05_视觉展示图_待原图复核.png"
+        }
+      ]
+    },
+    {
+      "page": 10,
+      "id": "catalog-hose-valves-page-10",
+      "routeId": "product:catalog-hose-valves-page-10",
+      "familyId": "indoor-hydrants",
+      "folder": "室内消防栓",
+      "title": {
+        "en": "Regional-Connection Fire Hose Valves",
+        "ar": "صمامات خراطيم حريق بتوصيلات إقليمية"
+      },
+      "sourceCatalogPage": "D:/work/codex/yunying/yunzhan365_泉观消防电子画册/pages/page_10.webp",
+      "items": [
+        {
+          "key": "p10-01",
+          "sourceName": "红手轮黄铜内螺纹消防阀",
+          "name": {
+            "en": "Red-Handwheel Brass-Finish Female-Threaded Fire Hose Valve",
+            "ar": "صمام خرطوم حريق بعجلة تشغيل حمراء بتشطيب نحاسي ملولب داخلياً"
+          },
+          "sourceReferences": "US-040 / US-041 / US-042",
+          "sourceOptions": [
+            "US-040: inlet 1.5 in NPT; outlet 1.5 in NPT",
+            "US-041: inlet 2.5 in NPT; outlet 2.5 in NPT",
+            "US-042: inlet 2.5 in BSP; outlet 2.5 in NPT"
+          ],
+          "image": "products/室内消防栓/catalog-hose-valves-page-10/p10-01.webp",
+          "imageDimensions": {
+            "width": 1000,
+            "height": 1000
+          },
+          "sourceImage": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_10/红手轮黄铜内螺纹消防阀_页10_01_视觉展示图_待原图复核.png"
+        },
+        {
+          "key": "p10-02",
+          "sourceName": "红手轮黄铜带盖消防阀",
+          "name": {
+            "en": "Red-Handwheel Brass-Finish Capped Fire Hose Valve",
+            "ar": "صمام خرطوم حريق بعجلة تشغيل حمراء بتشطيب نحاسي مزود بغطاء"
+          },
+          "sourceReferences": "US-043 / US-044",
+          "sourceOptions": [
+            "US-043: inlet 1.5 in NPT; outlet 1.5 in NH",
+            "US-044: inlet 2.5 in NPT; outlet 2.5 in NH"
+          ],
+          "image": "products/室内消防栓/catalog-hose-valves-page-10/p10-02.webp",
+          "imageDimensions": {
+            "width": 1000,
+            "height": 1000
+          },
+          "sourceImage": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_10/红手轮黄铜带盖消防阀_页10_02_视觉展示图_待原图复核.png"
+        },
+        {
+          "key": "p10-03",
+          "sourceName": "黑手轮黄铜顶部锁扣消防阀",
+          "name": {
+            "en": "Black-Handwheel Brass-Finish Top-Latch Fire Hose Valve",
+            "ar": "صمام خرطوم حريق بعجلة تشغيل سوداء بتشطيب نحاسي بقفل علوي"
+          },
+          "sourceReferences": "S-031 / S-032 / S-033",
+          "sourceOptions": [
+            "S-031: inlet 2.5 in BSP; outlet 2.5 in BS336",
+            "S-032: inlet 3 in BSP; outlet 2.5 in BS336",
+            "S-033: inlet 2.5 in BS4504; outlet 2.5 in BS336"
+          ],
+          "image": "products/室内消防栓/catalog-hose-valves-page-10/p10-03.webp",
+          "imageDimensions": {
+            "width": 1000,
+            "height": 1000
+          },
+          "sourceImage": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_10/黑手轮黄铜顶部锁扣消防阀_页10_03_视觉展示图_待原图复核.png"
+        },
+        {
+          "key": "p10-04",
+          "sourceName": "黑手轮黄铜红端锁扣消防阀",
+          "name": {
+            "en": "Black-Handwheel Brass-Finish Red-End Latch Fire Hose Valve",
+            "ar": "صمام خرطوم حريق بعجلة تشغيل سوداء بتشطيب نحاسي بقفل طرفي أحمر"
+          },
+          "sourceReferences": "S-034 / S-035",
+          "sourceOptions": [
+            "S-034: inlet 2.5 in BSP; outlet 2.5 in BS336",
+            "S-035: inlet 3 in BSP; outlet 2.5 in BS336"
+          ],
+          "image": "products/室内消防栓/catalog-hose-valves-page-10/p10-04.webp",
+          "imageDimensions": {
+            "width": 1000,
+            "height": 1000
+          },
+          "sourceImage": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_10/黑手轮黄铜红端锁扣消防阀_页10_04_视觉展示图_待原图复核.png"
+        },
+        {
+          "key": "p10-05",
+          "sourceName": "黑手轮黄铜斜出口消防阀",
+          "name": {
+            "en": "Black-Handwheel Brass-Finish Angled-Outlet Fire Hose Valve",
+            "ar": "صمام خرطوم حريق بعجلة تشغيل سوداء بتشطيب نحاسي بمخرج مائل"
+          },
+          "sourceReferences": "S-070",
+          "sourceOptions": [
+            "S-070: inlet 2.5 in BSP; outlet 2.5 in BS336"
+          ],
+          "image": "products/室内消防栓/catalog-hose-valves-page-10/p10-05.webp",
+          "imageDimensions": {
+            "width": 1000,
+            "height": 1000
+          },
+          "sourceImage": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_10/黑手轮黄铜斜出口消防阀_页10_05_视觉展示图_待原图复核.png"
+        }
+      ]
+    },
+    {
+      "page": 11,
+      "id": "catalog-hose-valves-page-11",
+      "routeId": "product:catalog-hose-valves-page-11",
+      "familyId": "indoor-hydrants",
+      "folder": "室内消防栓",
+      "title": {
+        "en": "Flanged and Regional-Connection Fire Hose Valves",
+        "ar": "صمامات خراطيم حريق فلنجية وبتوصيلات إقليمية"
+      },
+      "sourceCatalogPage": "D:/work/codex/yunying/yunzhan365_泉观消防电子画册/pages/page_11.webp",
+      "items": [
+        {
+          "key": "p11-01",
+          "sourceName": "黑手轮黄铜法兰消防阀",
+          "name": {
+            "en": "Black-Handwheel Brass-Finish Flanged Fire Hose Valve",
+            "ar": "صمام خرطوم حريق بعجلة تشغيل سوداء بتشطيب نحاسي فلنجي"
+          },
+          "sourceReferences": "SF-031 / SF-032 / SF-033 / SF-034 / SF-035",
+          "sourceOptions": [
+            "SF-031: inlet 2.5 in BS4504; outlet 2.5 in BSP",
+            "SF-032: inlet 2.5 in BS4504; outlet 2.5 in Storz",
+            "SF-033: inlet 2.5 in BS4504; outlet 2.5 in BS336",
+            "SF-034: inlet 2.5 in JIS 10K; outlet 2.5 in Storz",
+            "SF-035: inlet 2.5 in JIS 10K; outlet 2.5 in BSP"
+          ],
+          "image": "products/室内消防栓/catalog-hose-valves-page-11/p11-01.webp",
+          "imageDimensions": {
+            "width": 1000,
+            "height": 1000
+          },
+          "sourceImage": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_11/黑手轮黄铜法兰消防阀_页11_01_视觉展示图_待原图复核.png"
+        },
+        {
+          "key": "p11-02",
+          "sourceName": "红手轮银色直口消防阀",
+          "name": {
+            "en": "Red-Handwheel Silver-Finish Straight-Outlet Fire Hose Valve",
+            "ar": "صمام خرطوم حريق بعجلة تشغيل حمراء بتشطيب فضي بمخرج مستقيم"
+          },
+          "sourceReferences": "MS-011 / MS-012 / MS-013 / MS-014",
+          "sourceOptions": [
+            "MS-011: inlet 1.5 in BSP; outlet 1.5 in JIS",
+            "MS-012: inlet 1.5 in NPT; outlet 1.5 in JIS",
+            "MS-013: inlet 2.5 in BSP; outlet 2.5 in JIS",
+            "MS-014: inlet 2.5 in NPT; outlet 2.5 in JIS"
+          ],
+          "image": "products/室内消防栓/catalog-hose-valves-page-11/p11-02.webp",
+          "imageDimensions": {
+            "width": 1000,
+            "height": 1000
+          },
+          "sourceImage": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_11/红手轮银色直口消防阀_页11_02_视觉展示图_待原图复核.png"
+        },
+        {
+          "key": "p11-03",
+          "sourceName": "红手轮银色卡扣消防阀",
+          "name": {
+            "en": "Red-Handwheel Silver-Finish Latch-Coupled Fire Hose Valve",
+            "ar": "صمام خرطوم حريق بعجلة تشغيل حمراء بتشطيب فضي بوصلة قفل"
+          },
+          "sourceReferences": "MS-020 / MS-021",
+          "sourceOptions": [
+            "MS-020: inlet 1.5 in BSP; outlet 1.5",
+            "MS-021: inlet 2.5 in BSP; outlet 2.5"
+          ],
+          "image": "products/室内消防栓/catalog-hose-valves-page-11/p11-03.webp",
+          "imageDimensions": {
+            "width": 1000,
+            "height": 1000
+          },
+          "sourceImage": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_11/红手轮银色卡扣消防阀_页11_03_视觉展示图_待原图复核.png"
+        },
+        {
+          "key": "p11-04",
+          "sourceName": "黄铜银色卡式接头消防阀",
+          "name": {
+            "en": "Brass-Finish Fire Hose Valve with Silver-Finish Claw Coupling",
+            "ar": "صمام خرطوم حريق بتشطيب نحاسي ووصلة مخلبية فضية"
+          },
+          "sourceReferences": "DS-040",
+          "sourceOptions": [
+            "DS-040: inlet 2 in BSP; outlet 2 in Storz"
+          ],
+          "image": "products/室内消防栓/catalog-hose-valves-page-11/p11-04.webp",
+          "imageDimensions": {
+            "width": 1000,
+            "height": 1000
+          },
+          "sourceImage": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_11/黄铜银色卡式接头消防阀_页11_04_视觉展示图_待原图复核.png"
+        },
+        {
+          "key": "p11-05",
+          "sourceName": "黄铜金色卡式接头消防阀",
+          "name": {
+            "en": "Brass-Finish Claw-Coupling Fire Hose Valve",
+            "ar": "صمام خرطوم حريق بوصلة مخلبية وتشطيب نحاسي"
+          },
+          "sourceReferences": "RS-010 / RS-011",
+          "sourceOptions": [
+            "RS-010: inlet 2 in BSP; outlet 2 in GOST",
+            "RS-011: inlet 2.5 in BSP; outlet 2.5 in GOST"
+          ],
+          "image": "products/室内消防栓/catalog-hose-valves-page-11/p11-05.webp",
+          "imageDimensions": {
+            "width": 1000,
+            "height": 1000
+          },
+          "sourceImage": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_11/黄铜金色卡式接头消防阀_页11_05_视觉展示图_待原图复核.png"
+        }
+      ]
+    },
+    {
+      "page": 12,
+      "id": "catalog-hose-valves-page-12",
+      "routeId": "product:catalog-hose-valves-page-12",
+      "familyId": "indoor-hydrants",
+      "folder": "室内消防栓",
+      "title": {
+        "en": "French-, NH- and Threaded-Connection Fire Hose Valves",
+        "ar": "صمامات خراطيم حريق بتوصيلات فرنسية وNH ولولبية"
+      },
+      "sourceCatalogPage": "D:/work/codex/yunying/yunzhan365_泉观消防电子画册/pages/page_12.webp",
+      "items": [
+        {
+          "key": "p12-01",
+          "sourceName": "黄铜法式卡口消防阀",
+          "name": {
+            "en": "Brass-Finish French-Connection Fire Hose Valve",
+            "ar": "صمام خرطوم حريق بتشطيب نحاسي بتوصيل فرنسي"
+          },
+          "sourceReferences": "FS-010 / FS-010",
+          "sourceOptions": [
+            "FS-010: inlet 1.5 in BSP; outlet 1.5 in French",
+            "FS-010: inlet 2.5 in BSP; outlet 2.5 in French"
+          ],
+          "image": "products/室内消防栓/catalog-hose-valves-page-12/p12-01.webp",
+          "imageDimensions": {
+            "width": 1000,
+            "height": 1000
+          },
+          "sourceImage": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_12/黄铜法式卡口消防阀_页12_01_视觉展示图_待原图复核.png"
+        },
+        {
+          "key": "p12-02",
+          "sourceName": "红色法式带盖消防阀",
+          "name": {
+            "en": "Red French-Pattern Capped Fire Hose Valve",
+            "ar": "صمام خرطوم حريق أحمر بالنمط الفرنسي مزود بغطاء"
+          },
+          "sourceReferences": "FS-020 / FS-021",
+          "sourceOptions": [
+            "FS-020: inlet 1.5 in BSP; outlet 1.5 in French",
+            "FS-021: inlet 2.5 in BSP; outlet 2.5 in French"
+          ],
+          "image": "products/室内消防栓/catalog-hose-valves-page-12/p12-02.webp",
+          "imageDimensions": {
+            "width": 1000,
+            "height": 1000
+          },
+          "sourceImage": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_12/红色法式带盖消防阀_页12_02_视觉展示图_待原图复核.png"
+        },
+        {
+          "key": "p12-03",
+          "sourceName": "黄铜活接消防阀",
+          "name": {
+            "en": "Brass-Finish Union Fire Hose Valve",
+            "ar": "صمام خرطوم حريق بتشطيب نحاسي بوصلة اتحاد"
+          },
+          "sourceReferences": "FS-033",
+          "sourceOptions": [
+            "FS-033: inlet DN33 in BSP; outlet DN33 in BSP"
+          ],
+          "image": "products/室内消防栓/catalog-hose-valves-page-12/p12-03.webp",
+          "imageDimensions": {
+            "width": 1000,
+            "height": 1000
+          },
+          "sourceImage": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_12/黄铜活接消防阀_页12_03_视觉展示图_待原图复核.png"
+        },
+        {
+          "key": "p12-04",
+          "sourceName": "红色斜出口消防阀",
+          "name": {
+            "en": "Red Angled-Outlet Fire Hose Valve",
+            "ar": "صمام خرطوم حريق أحمر بمخرج مائل"
+          },
+          "sourceReferences": "BS-010 / BS-011 / BS-012",
+          "sourceOptions": [
+            "BS-010: inlet Ø76 mm; outlet 2.5 in NH",
+            "BS-011: inlet Ø73 mm; outlet 2.5 in NH",
+            "BS-012: inlet 73Grooved; outlet 2.5 in NH"
+          ],
+          "image": "products/室内消防栓/catalog-hose-valves-page-12/p12-04.webp",
+          "imageDimensions": {
+            "width": 1000,
+            "height": 1000
+          },
+          "sourceImage": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_12/红色斜出口消防阀_页12_04重试_视觉展示图_待原图复核.png"
+        },
+        {
+          "key": "p12-05",
+          "sourceName": "黄铜带锁环带盖消防阀",
+          "name": {
+            "en": "Brass-Finish With Locking Ring Capped Fire Hose Valve",
+            "ar": "صمام خرطوم حريق بتشطيب نحاسي مع حلقة قفل مزود بغطاء"
+          },
+          "sourceReferences": "US-045 / US-046 / US-047 / US-048",
+          "sourceOptions": [
+            "US-045: inlet 1.5 in NPT; outlet 1.5 in NH",
+            "US-046: inlet 2.5 in NPT; outlet 2.5 in NH",
+            "US-047: inlet 2.5 in NPT; outlet 2.5 in BSP",
+            "US-048: inlet 2.5 in BSP; outlet 2.5 in BSP"
+          ],
+          "image": "products/室内消防栓/catalog-hose-valves-page-12/p12-05.webp",
+          "imageDimensions": {
+            "width": 1000,
+            "height": 1000
+          },
+          "sourceImage": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_12/黄铜带锁环带盖消防阀_页12_05_视觉展示图_待原图复核.png"
+        }
+      ]
+    },
+    {
+      "page": 13,
+      "id": "catalog-twin-outlet-fire-connections-page-13",
+      "routeId": "product:catalog-twin-outlet-fire-connections-page-13",
+      "familyId": "fire-department-connections",
+      "folder": "消防水泵接合器",
+      "title": {
+        "en": "Twin-Outlet Fire Service Connection Bodies",
+        "ar": "أجسام وصلات خدمة الحريق ثنائية المخرج"
+      },
+      "sourceCatalogPage": "D:/work/codex/yunying/yunzhan365_泉观消防电子画册/pages/page_13.webp",
+      "items": [
+        {
+          "key": "p13-01",
+          "sourceName": "黄铜双接口带盘消防接合器",
+          "name": {
+            "en": "Brass-Finish Twin-Connection Flanged-Base Fire Department Connection",
+            "ar": "وصلة تزويد نظام الحريق بالمياه بتشطيب نحاسي ثنائي التوصيل بقاعدة فلنجية"
+          },
+          "sourceReferences": "UF-020 / UF-022",
+          "sourceOptions": [
+            "UF-020: inlet 4 in NPT; outlet 2.5 in BS336",
+            "UF-022: inlet 4 in BSP; outlet 2.5 in BS336"
+          ],
+          "image": "products/消防水泵接合器/catalog-twin-outlet-fire-connections-page-13/p13-01.webp",
+          "imageDimensions": {
+            "width": 1000,
+            "height": 1000
+          },
+          "sourceImage": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_13/黄铜双接口带盘消防接合器_页13_01_视觉展示图_待原图复核.png"
+        },
+        {
+          "key": "p13-02",
+          "sourceName": "黄铜双盖厚底消防接合器",
+          "name": {
+            "en": "Brass-Finish Twin-Cap Heavy-Base Fire Department Connection",
+            "ar": "وصلة تزويد نظام الحريق بالمياه بتشطيب نحاسي بغطاءين بقاعدة سميكة"
+          },
+          "sourceReferences": "UF-023 / UF-024",
+          "sourceOptions": [
+            "UF-023: inlet 6 in NPT; outlet 2.5 in NH",
+            "UF-024: inlet 6 in BSP; outlet 2.5 in NH"
+          ],
+          "image": "products/消防水泵接合器/catalog-twin-outlet-fire-connections-page-13/p13-02.webp",
+          "imageDimensions": {
+            "width": 1000,
+            "height": 1000
+          },
+          "sourceImage": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_13/黄铜双盖厚底消防接合器_页13_02_视觉展示图_待原图复核.png"
+        },
+        {
+          "key": "p13-03",
+          "sourceName": "黄铜双盖带盘消防接合器",
+          "name": {
+            "en": "Brass-Finish Twin-Cap Flanged-Base Fire Department Connection",
+            "ar": "وصلة تزويد نظام الحريق بالمياه بتشطيب نحاسي بغطاءين بقاعدة فلنجية"
+          },
+          "sourceReferences": "UF-025 / UF-026",
+          "sourceOptions": [
+            "UF-025: inlet 4 in NPT; outlet 2.5 in NH",
+            "UF-026: inlet 4 in BSP; outlet 4 in BSP"
+          ],
+          "image": "products/消防水泵接合器/catalog-twin-outlet-fire-connections-page-13/p13-03.webp",
+          "imageDimensions": {
+            "width": 1000,
+            "height": 1000
+          },
+          "sourceImage": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_13/黄铜双盖带盘消防接合器_页13_03_视觉展示图_待原图复核.png"
+        },
+        {
+          "key": "p13-04",
+          "sourceName": "黄铜双外螺纹消防接合器",
+          "name": {
+            "en": "Brass-Finish Twin Male-Threaded Fire Department Connection",
+            "ar": "وصلة تزويد نظام الحريق بالمياه بتشطيب نحاسي بلولبين خارجيين"
+          },
+          "sourceReferences": "UF-030 / UF-031",
+          "sourceOptions": [
+            "UF-030: inlet 4 in BSP; outlet 2.5 in BSP",
+            "UF-031: inlet 4 in NPT; outlet 2.5 in NH"
+          ],
+          "image": "products/消防水泵接合器/catalog-twin-outlet-fire-connections-page-13/p13-04.webp",
+          "imageDimensions": {
+            "width": 1000,
+            "height": 1000
+          },
+          "sourceImage": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_13/黄铜双外螺纹消防接合器_页13_04_视觉展示图_待原图复核.png"
+        }
+      ]
+    },
+    {
+      "page": 14,
+      "id": "catalog-hydrant-auxiliary-valves-page-14",
+      "routeId": "product:catalog-hydrant-auxiliary-valves-page-14",
+      "familyId": "indoor-hydrants",
+      "folder": "室内消防栓",
+      "title": {
+        "en": "Hydrant Valves and Auxiliary Valves",
+        "ar": "صمامات محابس الحريق والصمامات المساعدة"
+      },
+      "sourceCatalogPage": "D:/work/codex/yunying/yunzhan365_泉观消防电子画册/pages/page_14.webp",
+      "items": [
+        {
+          "key": "p14-01",
+          "sourceName": "红色横向手轮黄铜黑盖消防阀",
+          "name": {
+            "en": "Red Horizontal-Handwheel Brass-Finish Black-Cap Fire Hose Valve",
+            "ar": "صمام خرطوم حريق أحمر بعجلة تشغيل أفقية بتشطيب نحاسي بغطاء أسود"
+          },
+          "sourceReferences": "GV-011 / GV-012",
+          "sourceOptions": [
+            "GV-011: inlet 2.5 in BSP; outlet 2.5 in BS336",
+            "GV-012: inlet 2.5 in BS4504; outlet 2.5 in BS336"
+          ],
+          "image": "products/室内消防栓/catalog-hydrant-auxiliary-valves-page-14/p14-01.webp",
+          "imageDimensions": {
+            "width": 1000,
+            "height": 1000
+          },
+          "sourceImage": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_14/红色横向手轮黄铜黑盖消防阀_页14_01_视觉展示图_待原图复核.png"
+        },
+        {
+          "key": "p14-02",
+          "sourceName": "红色横向手轮黄铜金盖消防阀",
+          "name": {
+            "en": "Red Horizontal-Handwheel Brass-Finish Brass-Finish Cap Fire Hose Valve",
+            "ar": "صمام خرطوم حريق أحمر بعجلة تشغيل أفقية بتشطيب نحاسي بغطاء نحاسي المظهر"
+          },
+          "sourceReferences": "GV-013",
+          "sourceOptions": [
+            "GV-013: inlet 2.5 in NPT; outlet 2.5 in NH"
+          ],
+          "image": "products/室内消防栓/catalog-hydrant-auxiliary-valves-page-14/p14-02.webp",
+          "imageDimensions": {
+            "width": 1000,
+            "height": 1000
+          },
+          "sourceImage": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_14/红色横向手轮黄铜金盖消防阀_页14_02_视觉展示图_待原图复核.png"
+        },
+        {
+          "key": "p14-03",
+          "sourceName": "黄铜带压力表阀门",
+          "name": {
+            "en": "Brass-Finish With Pressure Gauge Valve",
+            "ar": "صمام بتشطيب نحاسي مع مقياس ضغط"
+          },
+          "sourceReferences": "S-131 / S-131",
+          "sourceOptions": [
+            "S-131: inlet 1 in BSP; outlet 1 in BSP",
+            "S-131: inlet 1.5 in BSP; outlet 1.5 in BSP"
+          ],
+          "image": "products/室内消防栓/catalog-hydrant-auxiliary-valves-page-14/p14-03.webp",
+          "imageDimensions": {
+            "width": 1000,
+            "height": 1000
+          },
+          "sourceImage": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_14/黄铜带压力表阀门_页14_03_视觉展示图_待原图复核.png"
+        },
+        {
+          "key": "p14-04",
+          "sourceName": "白红手轮黄铜直通阀",
+          "name": {
+            "en": "White-and-Red-Handwheel Brass-Finish Straight-Through Valve",
+            "ar": "صمام مستقيم بعجلة تشغيل بيضاء وحمراء بتشطيب نحاسي"
+          },
+          "sourceReferences": "BV-014",
+          "sourceOptions": [
+            "BV-014: inlet 1 in -4 in BSP; outlet 1 in -4 in BSP; alternate 1 in -4 in NPT / 1 in -4 in NPT"
+          ],
+          "image": "products/室内消防栓/catalog-hydrant-auxiliary-valves-page-14/p14-04.webp",
+          "imageDimensions": {
+            "width": 1000,
+            "height": 1000
+          },
+          "sourceImage": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_14/白红手轮黄铜直通阀_页14_04_视觉展示图_待原图复核.png"
+        },
+        {
+          "key": "p14-05",
+          "sourceName": "长柄黄铜球阀",
+          "name": {
+            "en": "Long-Lever Brass-Finish Ball Valve",
+            "ar": "صمام كروي بذراع طويل بتشطيب نحاسي"
+          },
+          "sourceReferences": "BV-010 / BV-011 / BV-012 / BV-013",
+          "sourceOptions": [
+            "BV-010: inlet 1 in BSP; outlet 1 in BSP",
+            "BV-011: inlet 1.2 in BSP; outlet 1.2 in BSP",
+            "BV-012: inlet 1.5 in BSP; outlet 1.5 in BSP",
+            "BV-013: inlet 2 in BSP; outlet 2 in BSP"
+          ],
+          "image": "products/室内消防栓/catalog-hydrant-auxiliary-valves-page-14/p14-05.webp",
+          "imageDimensions": {
+            "width": 1000,
+            "height": 1000
+          },
+          "sourceImage": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_14/长柄黄铜球阀_页14_05_视觉展示图_待原图复核.png"
+        }
+      ]
+    },
+    {
+      "page": 15,
+      "id": "catalog-fire-connections-distributors-page-15",
+      "routeId": "product:catalog-fire-connections-distributors-page-15",
+      "familyId": "fire-department-connections",
+      "folder": "消防水泵接合器",
+      "title": {
+        "en": "Fire Service Connections and Two-Way Distributors",
+        "ar": "وصلات خدمة الحريق وموزعات ثنائية الاتجاه"
+      },
+      "sourceCatalogPage": "D:/work/codex/yunying/yunzhan365_泉观消防电子画册/pages/page_15.webp",
+      "items": [
+        {
+          "key": "p15-01",
+          "sourceName": "红色双口法兰消防接合器",
+          "name": {
+            "en": "Red Two-Way Flanged Fire Department Connection",
+            "ar": "وصلة تزويد نظام الحريق بالمياه أحمر ثنائي المداخل فلنجي"
+          },
+          "sourceReferences": "GS-010",
+          "sourceOptions": [
+            "GS-010: inlet 2.5 in BS336; outlet 4 in (100 mm)"
+          ],
+          "image": "products/消防水泵接合器/catalog-fire-connections-distributors-page-15/p15-01.webp",
+          "imageDimensions": {
+            "width": 1000,
+            "height": 1000
+          },
+          "sourceImage": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_15/红色双口法兰消防接合器_页15_01_视觉展示图_待原图复核.png"
+        },
+        {
+          "key": "p15-02",
+          "sourceName": "红色四口消防接合器",
+          "name": {
+            "en": "Red Four-Way Fire Department Connection",
+            "ar": "وصلة تزويد نظام الحريق بالمياه أحمر رباعي المداخل"
+          },
+          "sourceReferences": "MD-020",
+          "sourceOptions": [
+            "MD-020: inlet 2.5 in BS336; outlet 6 in (150 mm)"
+          ],
+          "image": "products/消防水泵接合器/catalog-fire-connections-distributors-page-15/p15-02.webp",
+          "imageDimensions": {
+            "width": 1000,
+            "height": 1000
+          },
+          "sourceImage": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_15/红色四口消防接合器_页15_02_视觉展示图_待原图复核.png"
+        },
+        {
+          "key": "p15-03",
+          "sourceName": "红色双柄消防分水器",
+          "name": {
+            "en": "Red Twin-Lever Two-Way Fire Hose Distributor",
+            "ar": "موزع خرطوم حريق ثنائي الاتجاه أحمر بذراعين"
+          },
+          "sourceReferences": "UF-043",
+          "sourceOptions": [
+            "UF-043: inlet 4 in NH; outlet 2.5 in NH"
+          ],
+          "image": "products/消防水泵接合器/catalog-fire-connections-distributors-page-15/p15-03.webp",
+          "imageDimensions": {
+            "width": 1000,
+            "height": 1000
+          },
+          "sourceImage": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_15/红色双柄消防分水器_页15_03_视觉展示图_待原图复核.png"
+        },
+        {
+          "key": "p15-04",
+          "sourceName": "红色双手轮法兰消防分水器",
+          "name": {
+            "en": "Red Twin-Handwheel Flanged Two-Way Fire Hose Distributor",
+            "ar": "موزع خرطوم حريق ثنائي الاتجاه أحمر بعجلتي تشغيل فلنجي"
+          },
+          "sourceReferences": "RHS-010",
+          "sourceOptions": [
+            "RHS-010: inlet 4 in (100 mm); outlet 4 in (100 mm)"
+          ],
+          "image": "products/消防水泵接合器/catalog-fire-connections-distributors-page-15/p15-04.webp",
+          "imageDimensions": {
+            "width": 1000,
+            "height": 1000
+          },
+          "sourceImage": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_15/红色双手轮法兰消防分水器_页15_04_视觉展示图_待原图复核.png"
+        },
+        {
+          "key": "p15-05",
+          "sourceName": "红铜双色双阀消防分水器",
+          "name": {
+            "en": "Red-and-Brass-Finish Twin-Valve Two-Way Fire Hose Distributor",
+            "ar": "موزع خرطوم حريق ثنائي الاتجاه أحمر وبتشطيب نحاسي بصمامين"
+          },
+          "sourceReferences": "SF-040 / SF-041",
+          "sourceOptions": [
+            "SF-040: inlet 2.5 in BSP; outlet 1.5 in French",
+            "SF-041: inlet 4 in BSP; outlet 2.5 in French"
+          ],
+          "image": "products/消防水泵接合器/catalog-fire-connections-distributors-page-15/p15-05.webp",
+          "imageDimensions": {
+            "width": 1000,
+            "height": 1000
+          },
+          "sourceImage": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_15/红铜双色双阀消防分水器_页15_05_视觉展示图_待原图复核.png"
+        }
+      ]
+    },
+    {
+      "page": 16,
+      "id": "catalog-long-straight-stream-nozzles-page-16",
+      "routeId": "product:catalog-long-straight-stream-nozzles-page-16",
+      "familyId": "hoses-nozzles-couplings",
+      "folder": "消防水枪",
+      "title": {
+        "en": "Long Straight-Stream Fire Hose Nozzles",
+        "ar": "فوهات خراطيم حريق طويلة ذات نفث مستقيم"
+      },
+      "sourceCatalogPage": "D:/work/codex/yunying/yunzhan365_泉观消防电子画册/pages/page_16.webp",
+      "items": [
+        {
+          "key": "p16-01",
+          "sourceName": "黄铜长直流水枪",
+          "name": {
+            "en": "Brass-Finish Long Straight-Stream Fire Hose Nozzle",
+            "ar": "فوهة خرطوم حريق ذات نفث مستقيم بتشطيب نحاسي طويل"
+          },
+          "sourceReferences": "UN-063 / UN-064",
+          "sourceOptions": [
+            "UN-063: inlet 1.5 in NH",
+            "UN-064: inlet 2.5 in NH"
+          ],
+          "image": "products/消防水枪/catalog-long-straight-stream-nozzles-page-16/p16-01.webp",
+          "imageDimensions": {
+            "width": 1000,
+            "height": 1000
+          },
+          "sourceImage": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_16/黄铜长直流水枪_页16_01_视觉展示图_待原图复核.png"
+        },
+        {
+          "key": "p16-02",
+          "sourceName": "黄铜锥形直流水枪",
+          "name": {
+            "en": "Brass-Finish Tapered Straight-Stream Fire Hose Nozzle",
+            "ar": "فوهة خرطوم حريق ذات نفث مستقيم بتشطيب نحاسي مخروطي"
+          },
+          "sourceReferences": "UN-064",
+          "sourceOptions": [
+            "UN-064: inlet 1.5 in NH"
+          ],
+          "image": "products/消防水枪/catalog-long-straight-stream-nozzles-page-16/p16-02.webp",
+          "imageDimensions": {
+            "width": 1000,
+            "height": 1000
+          },
+          "sourceImage": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_16/黄铜锥形直流水枪_页16_02_视觉展示图_待原图复核.png"
+        },
+        {
+          "key": "p16-03",
+          "sourceName": "银色长直流水枪",
+          "name": {
+            "en": "Silver-Finish Long Straight-Stream Fire Hose Nozzle",
+            "ar": "فوهة خرطوم حريق ذات نفث مستقيم بتشطيب فضي طويل"
+          },
+          "sourceReferences": "MN-010 / MN-011",
+          "sourceOptions": [
+            "MN-010: inlet 1.5 in",
+            "MN-011: inlet 2.5 in"
+          ],
+          "image": "products/消防水枪/catalog-long-straight-stream-nozzles-page-16/p16-03.webp",
+          "imageDimensions": {
+            "width": 1000,
+            "height": 1000
+          },
+          "sourceImage": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_16/银色长直流水枪_页16_03_视觉展示图_待原图复核.png"
+        },
+        {
+          "key": "p16-04",
+          "sourceName": "银头黄铜长直流水枪",
+          "name": {
+            "en": "Silver-Finish Head Brass-Finish Long Straight-Stream Fire Hose Nozzle",
+            "ar": "فوهة خرطوم حريق ذات نفث مستقيم برأس فضي بتشطيب نحاسي طويل"
+          },
+          "sourceReferences": "MN-011 / MN-012",
+          "sourceOptions": [
+            "MN-011: inlet 1.5 in",
+            "MN-012: inlet 2.5 in"
+          ],
+          "image": "products/消防水枪/catalog-long-straight-stream-nozzles-page-16/p16-04.webp",
+          "imageDimensions": {
+            "width": 1000,
+            "height": 1000
+          },
+          "sourceImage": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_16/银头黄铜长直流水枪_页16_04_视觉展示图_待原图复核.png"
+        }
+      ]
+    },
+    {
+      "page": 17,
+      "id": "catalog-compact-straight-stream-nozzles-page-17",
+      "routeId": "product:catalog-compact-straight-stream-nozzles-page-17",
+      "familyId": "hoses-nozzles-couplings",
+      "folder": "消防水枪",
+      "title": {
+        "en": "Compact Straight-Stream Fire Hose Nozzles",
+        "ar": "فوهات خراطيم حريق مدمجة ذات نفث مستقيم"
+      },
+      "sourceCatalogPage": "D:/work/codex/yunying/yunzhan365_泉观消防电子画册/pages/page_17.webp",
+      "items": [
+        {
+          "key": "p17-01",
+          "sourceName": "银色短款直流水枪",
+          "name": {
+            "en": "Silver-Finish Compact Straight-Stream Fire Hose Nozzle",
+            "ar": "فوهة خرطوم حريق ذات نفث مستقيم بتشطيب فضي مدمج"
+          },
+          "sourceReferences": "GN-010",
+          "sourceOptions": [
+            "GN-010: inlet 2.5 in BS336"
+          ],
+          "image": "products/消防水枪/catalog-compact-straight-stream-nozzles-page-17/p17-01.webp",
+          "imageDimensions": {
+            "width": 1000,
+            "height": 1000
+          },
+          "sourceImage": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_17/银色短款直流水枪_页17_01_视觉展示图_待原图复核.png"
+        },
+        {
+          "key": "p17-02",
+          "sourceName": "黄铜短款直流水枪",
+          "name": {
+            "en": "Brass-Finish Compact Straight-Stream Fire Hose Nozzle",
+            "ar": "فوهة خرطوم حريق ذات نفث مستقيم بتشطيب نحاسي مدمج"
+          },
+          "sourceReferences": "GN-020",
+          "sourceOptions": [
+            "GN-020: inlet 2.5 in BS336"
+          ],
+          "image": "products/消防水枪/catalog-compact-straight-stream-nozzles-page-17/p17-02.webp",
+          "imageDimensions": {
+            "width": 1000,
+            "height": 1000
+          },
+          "sourceImage": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_17/黄铜短款直流水枪_页17_02_视觉展示图_待原图复核.png"
+        },
+        {
+          "key": "p17-03",
+          "sourceName": "银色锥形卡口水枪",
+          "name": {
+            "en": "Silver-Finish Tapered Claw-Coupled Fire Hose Nozzle",
+            "ar": "فوهة خرطوم حريق بتشطيب فضي مخروطي بوصلة مخلبية"
+          },
+          "sourceReferences": "RN-010 / RN-011",
+          "sourceOptions": [
+            "RN-010: inlet 2 in",
+            "RN-011: inlet 2.5 in"
+          ],
+          "image": "products/消防水枪/catalog-compact-straight-stream-nozzles-page-17/p17-03.webp",
+          "imageDimensions": {
+            "width": 1000,
+            "height": 1000
+          },
+          "sourceImage": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_17/银色锥形卡口水枪_页17_03_视觉展示图_待原图复核.png"
+        },
+        {
+          "key": "p17-04",
+          "sourceName": "银色分段卡口水枪",
+          "name": {
+            "en": "Silver-Finish Segmented Claw-Coupled Fire Hose Nozzle",
+            "ar": "فوهة خرطوم حريق بتشطيب فضي مجزأ بوصلة مخلبية"
+          },
+          "sourceReferences": "RN-012 / RN-013",
+          "sourceOptions": [
+            "RN-012: inlet 2 in",
+            "RN-013: inlet 2.5 in"
+          ],
+          "image": "products/消防水枪/catalog-compact-straight-stream-nozzles-page-17/p17-04.webp",
+          "imageDimensions": {
+            "width": 1000,
+            "height": 1000
+          },
+          "sourceImage": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_17/银色分段卡口水枪_页17_04_视觉展示图_待原图复核.png"
+        },
+        {
+          "key": "p17-05",
+          "sourceName": "黄铜双耳直流水枪",
+          "name": {
+            "en": "Brass-Finish Double-Lug Straight-Stream Fire Hose Nozzle",
+            "ar": "فوهة خرطوم حريق ذات نفث مستقيم بتشطيب نحاسي مزدوج العروات"
+          },
+          "sourceReferences": "UN-061",
+          "sourceOptions": [
+            "UN-061: inlet 2.5 in NH"
+          ],
+          "image": "products/消防水枪/catalog-compact-straight-stream-nozzles-page-17/p17-05.webp",
+          "imageDimensions": {
+            "width": 1000,
+            "height": 1000
+          },
+          "sourceImage": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_17/黄铜双耳直流水枪_页17_05_视觉展示图_待原图复核.png"
+        }
+      ]
+    },
+    {
+      "page": 18,
+      "id": "catalog-coupled-lever-nozzles-page-18",
+      "routeId": "product:catalog-coupled-lever-nozzles-page-18",
+      "familyId": "hoses-nozzles-couplings",
+      "folder": "消防水枪",
+      "title": {
+        "en": "Coupled and Lever-Operated Fire Hose Nozzles",
+        "ar": "فوهات خراطيم حريق مزودة بوصلات أو أذرع تشغيل"
+      },
+      "sourceCatalogPage": "D:/work/codex/yunying/yunzhan365_泉观消防电子画册/pages/page_18.webp",
+      "items": [
+        {
+          "key": "p18-01",
+          "sourceName": "黄铜细长双耳水枪",
+          "name": {
+            "en": "Brass-Finish Slim Long Double-Lug Fire Hose Nozzle",
+            "ar": "فوهة خرطوم حريق بتشطيب نحاسي طويل ونحيف مزدوج العروات"
+          },
+          "sourceReferences": "UN-062",
+          "sourceOptions": [
+            "UN-062: inlet 1.5 in NH"
+          ],
+          "image": "products/消防水枪/catalog-coupled-lever-nozzles-page-18/p18-01.webp",
+          "imageDimensions": {
+            "width": 1000,
+            "height": 1000
+          },
+          "sourceImage": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_18/黄铜细长双耳水枪_页18_01_视觉展示图_待原图复核.png"
+        },
+        {
+          "key": "p18-02",
+          "sourceName": "黄铜分段卡口水枪",
+          "name": {
+            "en": "Brass-Finish Segmented Claw-Coupled Fire Hose Nozzle",
+            "ar": "فوهة خرطوم حريق بتشطيب نحاسي مجزأ بوصلة مخلبية"
+          },
+          "sourceReferences": "DN-030 / DN-031 / DN-032",
+          "sourceOptions": [
+            "DN-030: inlet 1.5 in",
+            "DN-031: inlet 2 in",
+            "DN-032: inlet 2.5 in"
+          ],
+          "image": "products/消防水枪/catalog-coupled-lever-nozzles-page-18/p18-02.webp",
+          "imageDimensions": {
+            "width": 1000,
+            "height": 1000
+          },
+          "sourceImage": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_18/黄铜分段卡口水枪_页18_02_视觉展示图_待原图复核.png"
+        },
+        {
+          "key": "p18-03",
+          "sourceName": "黑握把盘底开关水枪",
+          "name": {
+            "en": "Black-Grip Disc-Base Shutoff Fire Hose Nozzle",
+            "ar": "فوهة خرطوم حريق مزودة بصمام إغلاق بمقبض أسود بقاعدة قرصية"
+          },
+          "sourceReferences": "DN-010 / DN-011 / DN-012",
+          "sourceOptions": [
+            "DN-010: inlet 1.5 in",
+            "DN-011: inlet 2 in",
+            "DN-012: inlet 2.5 in"
+          ],
+          "image": "products/消防水枪/catalog-coupled-lever-nozzles-page-18/p18-03.webp",
+          "imageDimensions": {
+            "width": 1000,
+            "height": 1000
+          },
+          "sourceImage": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_18/黑握把盘底开关水枪_页18_03_视觉展示图_待原图复核.png"
+        },
+        {
+          "key": "p18-04",
+          "sourceName": "黑握把插口开关水枪",
+          "name": {
+            "en": "Black-Grip Plug-In Shutoff Fire Hose Nozzle",
+            "ar": "فوهة خرطوم حريق مزودة بصمام إغلاق بمقبض أسود بتوصيل إدخال"
+          },
+          "sourceReferences": "GN-020 / GN-021",
+          "sourceOptions": [
+            "GN-020: inlet 2 in",
+            "GN-021: inlet 2.5 in"
+          ],
+          "image": "products/消防水枪/catalog-coupled-lever-nozzles-page-18/p18-04.webp",
+          "imageDimensions": {
+            "width": 1000,
+            "height": 1000
+          },
+          "sourceImage": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_18/黑握把插口开关水枪_页18_04_视觉展示图_待原图复核.png"
+        },
+        {
+          "key": "p18-05",
+          "sourceName": "银色横柄小水枪",
+          "name": {
+            "en": "Silver-Finish Side-Handle Compact Fire Hose Nozzle",
+            "ar": "فوهة خرطوم حريق مدمجة بتشطيب فضي بمقبض جانبي"
+          },
+          "sourceReferences": "NP-033",
+          "sourceOptions": [
+            "NP-033: inlet Ø19 mm; outlet Ø6 mm; alternate 1 in / Ø8 mm"
+          ],
+          "image": "products/消防水枪/catalog-coupled-lever-nozzles-page-18/p18-05.webp",
+          "imageDimensions": {
+            "width": 1000,
+            "height": 1000
+          },
+          "sourceImage": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_18/银色横柄小水枪_页18_05_视觉展示图_待原图复核.png"
+        }
+      ]
+    },
+    {
+      "page": 19,
+      "id": "catalog-nozzles-inductors-connections-page-19",
+      "routeId": "product:catalog-nozzles-inductors-connections-page-19",
+      "familyId": "hoses-nozzles-couplings",
+      "folder": "消防水枪",
+      "title": {
+        "en": "Nozzles, Foam Inductors and Fire Service Connections",
+        "ar": "فوهات ومحاثات رغوة ووصلات خدمة الحريق"
+      },
+      "sourceCatalogPage": "D:/work/codex/yunying/yunzhan365_泉观消防电子画册/pages/page_19.webp",
+      "items": [
+        {
+          "key": "p19-01",
+          "sourceName": "黄铜手柄喷雾水枪",
+          "name": {
+            "en": "Brass-Finish Lever-Operated Spray Fire Hose Nozzle",
+            "ar": "فوهة رش لخرطوم الحريق بتشطيب نحاسي يعمل بذراع"
+          },
+          "sourceReferences": "NP-034 / NP-035",
+          "sourceOptions": [
+            "NP-034: inlet 1.5 in",
+            "NP-035: inlet 2.5 in"
+          ],
+          "image": "products/消防水枪/catalog-nozzles-inductors-connections-page-19/p19-01.webp",
+          "imageDimensions": {
+            "width": 1000,
+            "height": 1000
+          },
+          "sourceImage": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_19/黄铜手柄喷雾水枪_页19_01_视觉展示图_待原图复核.png"
+        },
+        {
+          "key": "p19-03",
+          "sourceName": "红色泡沫比例混合器组件",
+          "name": {
+            "en": "Red Foam Inductor Assembly",
+            "ar": "مجموعة محاث رغوة أحمر"
+          },
+          "sourceReferences": "HRP-081 / HRP-082 / HRP-083",
+          "sourceOptions": [
+            "HRP-081: inlet 2.5 in BSP; outlet 2.5 in BSP",
+            "HRP-082: inlet 2.5 in BS336; outlet 2.5 in BS336",
+            "HRP-083: inlet 2.5 in GOST; outlet 2.5 in GOST"
+          ],
+          "image": "products/消防水枪/catalog-nozzles-inductors-connections-page-19/p19-03.webp",
+          "imageDimensions": {
+            "width": 1000,
+            "height": 1000
+          },
+          "sourceImage": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_19/红色泡沫比例混合器组件_页19_03_视觉展示图_待原图复核.png"
+        },
+        {
+          "key": "p19-04",
+          "sourceName": "黄铜三接口消防接合器",
+          "name": {
+            "en": "Brass-Finish Three-Connection Fire Department Connection",
+            "ar": "وصلة تزويد نظام الحريق بالمياه بتشطيب نحاسي ثلاثي التوصيل"
+          },
+          "sourceReferences": "UF-033",
+          "sourceOptions": [
+            "UF-033: inlet 4 in NH; outlet 2.5 in NH"
+          ],
+          "image": "products/消防水枪/catalog-nozzles-inductors-connections-page-19/p19-04.webp",
+          "imageDimensions": {
+            "width": 1000,
+            "height": 1000
+          },
+          "sourceImage": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_19/黄铜三接口消防接合器_页19_04_视觉展示图_待原图复核.png"
+        },
+        {
+          "key": "p19-05",
+          "sourceName": "银色快接水枪接头",
+          "name": {
+            "en": "Silver-Finish Quick-Connect Nozzle Adapter",
+            "ar": "محول فوهة سريع التوصيل بتشطيب فضي"
+          },
+          "sourceReferences": "UF-033 / UF-034",
+          "sourceOptions": [
+            "UF-033: inlet 1 in; outlet 15.6 mm",
+            "UF-034: inlet 3/4; outlet 15.6 mm"
+          ],
+          "image": "products/消防水枪/catalog-nozzles-inductors-connections-page-19/p19-05.webp",
+          "imageDimensions": {
+            "width": 1000,
+            "height": 1000
+          },
+          "sourceImage": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_19/银色快接水枪接头_页19_05_视觉展示图_待原图复核.png"
+        }
+      ]
+    },
+    {
+      "page": 20,
+      "id": "catalog-fire-hose-couplings-page-20",
+      "routeId": "product:catalog-fire-hose-couplings-page-20",
+      "familyId": "hoses-nozzles-couplings",
+      "folder": "消防水枪",
+      "title": {
+        "en": "Fire Hose Couplings — NH, GOST, UNI and BS 336",
+        "ar": "وصلات خراطيم حريق بنظم NH وGOST وUNI وBS 336"
+      },
+      "sourceCatalogPage": "D:/work/codex/yunying/yunzhan365_泉观消防电子画册/pages/page_20.webp",
+      "items": [
+        {
+          "key": "p20-01",
+          "sourceName": "黄铜双耳水带接扣",
+          "name": {
+            "en": "Brass-Finish Double-Lug Fire Hose Coupling",
+            "ar": "وصلة خرطوم حريق بتشطيب نحاسي مزدوج العروات"
+          },
+          "sourceReferences": "UHC-010 / UHC-011 / UHC-012",
+          "sourceOptions": [
+            "UHC-010: inlet 1.5 in NH; outlet 38 mm",
+            "UHC-011: inlet 2 in NH; outlet 51 mm",
+            "UHC-012: inlet 2.5 in NH; outlet 63 mm"
+          ],
+          "image": "products/消防水枪/catalog-fire-hose-couplings-page-20/p20-01.webp",
+          "imageDimensions": {
+            "width": 1000,
+            "height": 1000
+          },
+          "sourceImage": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_20/黄铜双耳水带接扣_页20_01_视觉展示图_待原图复核.png"
+        },
+        {
+          "key": "p20-02",
+          "sourceName": "黄铜卡爪水带接扣",
+          "name": {
+            "en": "Brass-Finish Claw Fire Hose Coupling",
+            "ar": "وصلة خرطوم حريق بتشطيب نحاسي مخلبي"
+          },
+          "sourceReferences": "RHC-010 / RHC-011",
+          "sourceOptions": [
+            "RHC-010: inlet 2 in GOST; outlet 51 mm",
+            "RHC-011: inlet 2.5 in GOST; outlet 63 mm"
+          ],
+          "image": "products/消防水枪/catalog-fire-hose-couplings-page-20/p20-02.webp",
+          "imageDimensions": {
+            "width": 1000,
+            "height": 1000
+          },
+          "sourceImage": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_20/黄铜卡爪水带接扣_页20_02_视觉展示图_待原图复核.png"
+        },
+        {
+          "key": "p20-03",
+          "sourceName": "黄铜圆环水带接扣",
+          "name": {
+            "en": "Brass-Finish Ring-Type Fire Hose Coupling",
+            "ar": "وصلة خرطوم حريق بتشطيب نحاسي حلقي"
+          },
+          "sourceReferences": "IHC-011 / IHC-012",
+          "sourceOptions": [
+            "IHC-011: inlet UNI45; outlet 45 mm",
+            "IHC-012: inlet UNI70; outlet 70 mm"
+          ],
+          "image": "products/消防水枪/catalog-fire-hose-couplings-page-20/p20-03.webp",
+          "imageDimensions": {
+            "width": 1000,
+            "height": 1000
+          },
+          "sourceImage": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_20/黄铜圆环水带接扣_页20_03_视觉展示图_待原图复核.png"
+        },
+        {
+          "key": "p20-04",
+          "sourceName": "黄铜双锁扣水带接扣",
+          "name": {
+            "en": "Brass-Finish Double-Latch Fire Hose Coupling",
+            "ar": "وصلة خرطوم حريق بتشطيب نحاسي بقفلين"
+          },
+          "sourceReferences": "GHC-010 / GHC-011 / GHC-012 / GHC-013 / GHC-014",
+          "sourceOptions": [
+            "GHC-010: inlet 1.5 in BS336; outlet 38 mm",
+            "GHC-011: inlet 2 in BS336; outlet 51 mm",
+            "GHC-012: inlet 2.5 in BS336; outlet 38 mm",
+            "GHC-013: inlet 2.5 in BS336; outlet 51 mm",
+            "GHC-014: inlet 2.5 in BS336; outlet 63 mm"
+          ],
+          "image": "products/消防水枪/catalog-fire-hose-couplings-page-20/p20-04.webp",
+          "imageDimensions": {
+            "width": 1000,
+            "height": 1000
+          },
+          "sourceImage": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_20/黄铜双锁扣水带接扣_页20_04_视觉展示图_待原图复核.png"
+        },
+        {
+          "key": "p20-05",
+          "sourceName": "银色红圈水带接扣",
+          "name": {
+            "en": "Silver-Finish Red-Seal Fire Hose Coupling",
+            "ar": "وصلة خرطوم حريق بتشطيب فضي بحلقة حمراء"
+          },
+          "sourceReferences": "MHS-010 / MHS-011",
+          "sourceOptions": [
+            "MHS-010: inlet 1.5 in; outlet 38 mm",
+            "MHS-011: inlet 2.5 in; outlet 63 mm"
+          ],
+          "image": "products/消防水枪/catalog-fire-hose-couplings-page-20/p20-05.webp",
+          "imageDimensions": {
+            "width": 1000,
+            "height": 1000
+          },
+          "sourceImage": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_20/银色红圈水带接扣_页20_05_视觉展示图_待原图复核.png"
+        }
+      ]
+    },
+    {
+      "page": 21,
+      "id": "catalog-fire-hose-adapters-page-21",
+      "routeId": "product:catalog-fire-hose-adapters-page-21",
+      "familyId": "hoses-nozzles-couplings",
+      "folder": "消防水枪",
+      "title": {
+        "en": "Fire Hose Couplings and Adapters",
+        "ar": "وصلات ومحولات خراطيم الحريق"
+      },
+      "sourceCatalogPage": "D:/work/codex/yunying/yunzhan365_泉观消防电子画册/pages/page_21.webp",
+      "items": [
+        {
+          "key": "p21-01",
+          "sourceName": "黄铜黑圈水带接扣",
+          "name": {
+            "en": "Brass-Finish Black-Seal Fire Hose Coupling",
+            "ar": "وصلة خرطوم حريق بتشطيب نحاسي بحلقة سوداء"
+          },
+          "sourceReferences": "MHS-012 / MHS-013",
+          "sourceOptions": [
+            "MHS-012: inlet 1.5 in; outlet 38 mm",
+            "MHS-013: inlet 2.5 in; outlet 63 mm"
+          ],
+          "image": "products/消防水枪/catalog-fire-hose-adapters-page-21/p21-01.webp",
+          "imageDimensions": {
+            "width": 1000,
+            "height": 1000
+          },
+          "sourceImage": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_21/黄铜黑圈水带接扣_页21_01_视觉展示图_待原图复核.png"
+        },
+        {
+          "key": "p21-02",
+          "sourceName": "黄铜六角圆环接扣",
+          "name": {
+            "en": "Brass-Finish Hexagonal Ring-Type Fire Hose Coupling",
+            "ar": "وصلة خرطوم حريق بتشطيب نحاسي سداسي حلقي"
+          },
+          "sourceReferences": "SZ-012 / SZ-013 / SZ-014",
+          "sourceOptions": [
+            "SZ-012: inlet 1.5 in",
+            "SZ-013: inlet 2 in",
+            "SZ-014: inlet 2.5 in"
+          ],
+          "image": "products/消防水枪/catalog-fire-hose-adapters-page-21/p21-02.webp",
+          "imageDimensions": {
+            "width": 1000,
+            "height": 1000
+          },
+          "sourceImage": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_21/黄铜六角圆环接扣_页21_02_视觉展示图_待原图复核.png"
+        },
+        {
+          "key": "p21-03",
+          "sourceName": "黄铜短筒双耳转换接头",
+          "name": {
+            "en": "Brass-Finish Short-Barrel Double-Lug Fire Hose Adapter",
+            "ar": "محول خرطوم حريق بتشطيب نحاسي بجسم قصير مزدوج العروات"
+          },
+          "sourceReferences": "UHS-020 / UHS-021 / UHS-022",
+          "sourceOptions": [
+            "UHS-020: inlet 1.5 in NH; outlet 38 mm",
+            "UHS-021: inlet 2 in NH; outlet 51 mm",
+            "UHS-022: inlet 2.5 in NH; outlet 63 mm"
+          ],
+          "image": "products/消防水枪/catalog-fire-hose-adapters-page-21/p21-03.webp",
+          "imageDimensions": {
+            "width": 1000,
+            "height": 1000
+          },
+          "sourceImage": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_21/黄铜短筒双耳转换接头_页21_03_视觉展示图_待原图复核.png"
+        },
+        {
+          "key": "p21-04",
+          "sourceName": "银色双耳转换接头",
+          "name": {
+            "en": "Silver-Finish Double-Lug Fire Hose Adapter",
+            "ar": "محول خرطوم حريق بتشطيب فضي مزدوج العروات"
+          },
+          "sourceReferences": "UHS-030 / UHS-031 / UHS-032",
+          "sourceOptions": [
+            "UHS-030: inlet 1.5 in NH; outlet 38 mm",
+            "UHS-031: inlet 2 in NH; outlet 51 mm",
+            "UHS-032: inlet 2.5 in NH; outlet 63 mm"
+          ],
+          "image": "products/消防水枪/catalog-fire-hose-adapters-page-21/p21-04.webp",
+          "imageDimensions": {
+            "width": 1000,
+            "height": 1000
+          },
+          "sourceImage": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_21/银色双耳转换接头_页21_04_视觉展示图_待原图复核.png"
+        },
+        {
+          "key": "p21-05",
+          "sourceName": "金色双耳转换接头",
+          "name": {
+            "en": "Brass-Finish Double-Lug Fire Hose Adapter",
+            "ar": "محول خرطوم حريق بتشطيب نحاسي مزدوج العروات"
+          },
+          "sourceReferences": "UHC-012 / UHC-013 / UHC-014",
+          "sourceOptions": [
+            "UHC-012: inlet 1.5 in NH",
+            "UHC-013: inlet 2 in NH",
+            "UHC-014: inlet 2.5 in NH"
+          ],
+          "image": "products/消防水枪/catalog-fire-hose-adapters-page-21/p21-05.webp",
+          "imageDimensions": {
+            "width": 1000,
+            "height": 1000
+          },
+          "sourceImage": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_21/金色双耳转换接头_页21_05_视觉展示图_待原图复核.png"
+        }
+      ]
+    },
+    {
+      "page": 22,
+      "id": "catalog-compact-spray-nozzles-page-22",
+      "routeId": "product:catalog-compact-spray-nozzles-page-22",
+      "familyId": "hoses-nozzles-couplings",
+      "folder": "消防水枪",
+      "title": {
+        "en": "Compact Spray Nozzles and Coupling Adapters",
+        "ar": "فوهات رش مدمجة ومحولات وصلات"
+      },
+      "sourceCatalogPage": "D:/work/codex/yunying/yunzhan365_泉观消防电子画册/pages/page_22.webp",
+      "items": [
+        {
+          "key": "p22-01",
+          "sourceName": "黄铜双层耳转换接头",
+          "name": {
+            "en": "Brass-Finish Double-Lug Fire Hose Adapter",
+            "ar": "محول خرطوم حريق بتشطيب نحاسي مزدوج العروات"
+          },
+          "sourceReferences": "UHC-015 / UHC-016",
+          "sourceOptions": [
+            "UHC-015: inlet 1.5 in NH",
+            "UHC-016: inlet 2.5 in NH"
+          ],
+          "image": "products/消防水枪/catalog-compact-spray-nozzles-page-22/p22-01.webp",
+          "imageDimensions": {
+            "width": 1000,
+            "height": 1000
+          },
+          "sourceImage": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_22/黄铜双层耳转换接头_页22_01_视觉展示图_待原图复核.png"
+        },
+        {
+          "key": "p22-02",
+          "sourceName": "黄铜黑圈短喷雾水枪",
+          "name": {
+            "en": "Brass-Finish Black-Seal Compact Spray Fire Hose Nozzle",
+            "ar": "فوهة رش لخرطوم الحريق بتشطيب نحاسي بحلقة سوداء مدمج"
+          },
+          "sourceReferences": "UN-045 / UN-046 / UN-047 / UN-048",
+          "sourceOptions": [
+            "UN-045: inlet 1 in BSP; outlet 16 mm",
+            "UN-046: inlet 1 in NPT; outlet 16 mm",
+            "UN-047: inlet 1.5 in BSP; outlet 28.5 mm",
+            "UN-048: inlet 1.5 in NPT; outlet 28.5 mm"
+          ],
+          "image": "products/消防水枪/catalog-compact-spray-nozzles-page-22/p22-02.webp",
+          "imageDimensions": {
+            "width": 1000,
+            "height": 1000
+          },
+          "sourceImage": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_22/黄铜黑圈短喷雾水枪_页22_02_视觉展示图_待原图复核.png"
+        },
+        {
+          "key": "p22-03",
+          "sourceName": "黄铜双耳底喷雾水枪",
+          "name": {
+            "en": "Brass-Finish Double-Lug Base Spray Fire Hose Nozzle",
+            "ar": "فوهة رش لخرطوم الحريق بتشطيب نحاسي بقاعدة مزدوجة العروات"
+          },
+          "sourceReferences": "UN-048 / UN-049",
+          "sourceOptions": [
+            "UN-048: inlet 2.5 in BSP; outlet 29 mm",
+            "UN-049: inlet 2.5 in NH; outlet 29 mm"
+          ],
+          "image": "products/消防水枪/catalog-compact-spray-nozzles-page-22/p22-03.webp",
+          "imageDimensions": {
+            "width": 1000,
+            "height": 1000
+          },
+          "sourceImage": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_22/黄铜双耳底喷雾水枪_页22_03_视觉展示图_待原图复核.png"
+        },
+        {
+          "key": "p22-04",
+          "sourceName": "黑色宽头黄铜水枪",
+          "name": {
+            "en": "Black Wide-Head Brass-Finish Fire Hose Nozzle",
+            "ar": "فوهة خرطوم حريق أسود برأس عريض بتشطيب نحاسي"
+          },
+          "sourceReferences": "UN-050 / UN-051 / UN-052",
+          "sourceOptions": [
+            "UN-050: inlet 1.5 in BSP; outlet 20 mm",
+            "UN-051: inlet 2 in BSP; outlet 28 mm",
+            "UN-052: inlet 2.5 in BSP; outlet 33 mm"
+          ],
+          "image": "products/消防水枪/catalog-compact-spray-nozzles-page-22/p22-04.webp",
+          "imageDimensions": {
+            "width": 1000,
+            "height": 1000
+          },
+          "sourceImage": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_22/黑色宽头黄铜水枪_页22_04_视觉展示图_待原图复核.png"
+        },
+        {
+          "key": "p22-05",
+          "sourceName": "黄铜齿口黑圈水枪",
+          "name": {
+            "en": "Brass-Finish Serrated-Tip Black-Seal Fire Hose Nozzle",
+            "ar": "فوهة خرطوم حريق بتشطيب نحاسي بطرف مسنن بحلقة سوداء"
+          },
+          "sourceReferences": "UN-053",
+          "sourceOptions": [
+            "UN-053: inlet 1.5 in BSP; outlet 29 mm"
+          ],
+          "image": "products/消防水枪/catalog-compact-spray-nozzles-page-22/p22-05.webp",
+          "imageDimensions": {
+            "width": 1000,
+            "height": 1000
+          },
+          "sourceImage": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_22/黄铜齿口黑圈水枪_页22_05_视觉展示图_待原图复核.png"
+        }
+      ]
+    },
+    {
+      "page": 23,
+      "id": "catalog-red-grip-nozzles-page-23",
+      "routeId": "product:catalog-red-grip-nozzles-page-23",
+      "familyId": "hoses-nozzles-couplings",
+      "folder": "消防水枪",
+      "title": {
+        "en": "Red-Grip Fire Hose Nozzles",
+        "ar": "فوهات خراطيم حريق بمقبض أحمر"
+      },
+      "sourceCatalogPage": "D:/work/codex/yunying/yunzhan365_泉观消防电子画册/pages/page_23.webp",
+      "items": [
+        {
+          "key": "p23-01",
+          "sourceName": "红色黑头短水枪",
+          "name": {
+            "en": "Red Black Head Compact Fire Hose Nozzle",
+            "ar": "فوهة خرطوم حريق أحمر برأس أسود مدمج"
+          },
+          "sourceReferences": "NP-010 / NP-011 / NP-012",
+          "sourceOptions": [
+            "NP-010: inlet 1 in BSP",
+            "NP-011: inlet 1.5 in BSP",
+            "NP-012: inlet 2.5 in BSP"
+          ],
+          "image": "products/消防水枪/catalog-red-grip-nozzles-page-23/p23-01.webp",
+          "imageDimensions": {
+            "width": 1000,
+            "height": 1000
+          },
+          "sourceImage": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_23/红色黑头短水枪_页23_01_视觉展示图_待原图复核.png"
+        },
+        {
+          "key": "p23-02",
+          "sourceName": "红色铜尾短水枪",
+          "name": {
+            "en": "Red Brass-Finish Tail Compact Fire Hose Nozzle",
+            "ar": "فوهة خرطوم حريق أحمر بنهاية نحاسية المظهر مدمج"
+          },
+          "sourceReferences": "NP-020",
+          "sourceOptions": [
+            "NP-020: inlet 1 in"
+          ],
+          "image": "products/消防水枪/catalog-red-grip-nozzles-page-23/p23-02.webp",
+          "imageDimensions": {
+            "width": 1000,
+            "height": 1000
+          },
+          "sourceImage": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_23/红色铜尾短水枪_页23_02_视觉展示图_待原图复核.png"
+        },
+        {
+          "key": "p23-03",
+          "sourceName": "红握把盘底长水枪",
+          "name": {
+            "en": "Red-Grip Disc-Base Long Fire Hose Nozzle",
+            "ar": "فوهة خرطوم حريق بمقبض أحمر بقاعدة قرصية طويل"
+          },
+          "sourceReferences": "DN-040 / DN-041 / DN-042",
+          "sourceOptions": [
+            "DN-040: inlet 1.5 in",
+            "DN-041: inlet 2 in",
+            "DN-042: inlet 2.5 in"
+          ],
+          "image": "products/消防水枪/catalog-red-grip-nozzles-page-23/p23-03.webp",
+          "imageDimensions": {
+            "width": 1000,
+            "height": 1000
+          },
+          "sourceImage": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_23/红握把盘底长水枪_页23_03重试_视觉展示图_待原图复核.png"
+        },
+        {
+          "key": "p23-04",
+          "sourceName": "红握把平底长水枪",
+          "name": {
+            "en": "Red-Grip Flat-Base Long Fire Hose Nozzle",
+            "ar": "فوهة خرطوم حريق بمقبض أحمر بقاعدة مسطحة طويل"
+          },
+          "sourceReferences": "NP-030",
+          "sourceOptions": [
+            "NP-030: inlet 2.5 in BSP"
+          ],
+          "image": "products/消防水枪/catalog-red-grip-nozzles-page-23/p23-04.webp",
+          "imageDimensions": {
+            "width": 1000,
+            "height": 1000
+          },
+          "sourceImage": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_23/红握把平底长水枪_页23_04_视觉展示图_待原图复核.png"
+        },
+        {
+          "key": "p23-05",
+          "sourceName": "红握把卡口长水枪",
+          "name": {
+            "en": "Red-Grip Claw-Coupled Long Fire Hose Nozzle",
+            "ar": "فوهة خرطوم حريق بمقبض أحمر بوصلة مخلبية طويل"
+          },
+          "sourceReferences": "NP-031 / NP-032",
+          "sourceOptions": [
+            "NP-031: inlet 2 in GOST",
+            "NP-032: inlet 2.5 in GOST"
+          ],
+          "image": "products/消防水枪/catalog-red-grip-nozzles-page-23/p23-05.webp",
+          "imageDimensions": {
+            "width": 1000,
+            "height": 1000
+          },
+          "sourceImage": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_23/红握把卡口长水枪_页23_05重试_视觉展示图_待原图复核.png"
+        }
+      ]
+    },
+    {
+      "page": 24,
+      "id": "catalog-hose-tails-adapters-page-24",
+      "routeId": "product:catalog-hose-tails-adapters-page-24",
+      "familyId": "hoses-nozzles-couplings",
+      "folder": "消防水枪",
+      "title": {
+        "en": "Hose Tails and Threaded Adapters",
+        "ar": "نهايات خراطيم ومحولات لولبية"
+      },
+      "sourceCatalogPage": "D:/work/codex/yunying/yunzhan365_泉观消防电子画册/pages/page_24.webp",
+      "items": [
+        {
+          "key": "p24-01",
+          "sourceName": "黄铜六角水带尾接头",
+          "name": {
+            "en": "Brass-Finish Hexagonal Hose Tail Coupling",
+            "ar": "وصلة نهاية خرطوم بتشطيب نحاسي سداسي"
+          },
+          "sourceReferences": "NP-036",
+          "sourceOptions": [
+            "NP-036: inlet 1 in BSP"
+          ],
+          "image": "products/消防水枪/catalog-hose-tails-adapters-page-24/p24-01.webp",
+          "imageDimensions": {
+            "width": 1000,
+            "height": 1000
+          },
+          "sourceImage": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_24/黄铜六角水带尾接头_页24_01_视觉展示图_待原图复核.png"
+        },
+        {
+          "key": "p24-02",
+          "sourceName": "黄铜滚花水带尾接头",
+          "name": {
+            "en": "Brass-Finish Knurled Hose Tail Coupling",
+            "ar": "وصلة نهاية خرطوم بتشطيب نحاسي محزز"
+          },
+          "sourceReferences": "NP-036",
+          "sourceOptions": [
+            "NP-036: inlet 1 in BSP"
+          ],
+          "image": "products/消防水枪/catalog-hose-tails-adapters-page-24/p24-02.webp",
+          "imageDimensions": {
+            "width": 1000,
+            "height": 1000
+          },
+          "sourceImage": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_24/黄铜滚花水带尾接头_页24_02_视觉展示图_待原图复核.png"
+        },
+        {
+          "key": "p24-03",
+          "sourceName": "黄铜双耳尾接头",
+          "name": {
+            "en": "Brass-Finish Double-Lug Hose Tail Coupling",
+            "ar": "وصلة نهاية خرطوم بتشطيب نحاسي مزدوج العروات"
+          },
+          "sourceReferences": "SP-010",
+          "sourceOptions": [
+            "SP-010: inlet 1.5 in NH"
+          ],
+          "image": "products/消防水枪/catalog-hose-tails-adapters-page-24/p24-03.webp",
+          "imageDimensions": {
+            "width": 1000,
+            "height": 1000
+          },
+          "sourceImage": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_24/黄铜双耳尾接头_页24_03_视觉展示图_待原图复核.png"
+        },
+        {
+          "key": "p24-04",
+          "sourceName": "黄铜带黑盖转换接头",
+          "name": {
+            "en": "Brass-Finish With Black Cap Fire Hose Adapter",
+            "ar": "محول خرطوم حريق بتشطيب نحاسي مع غطاء أسود"
+          },
+          "sourceReferences": "GP-010 / GP-011 / GP-012 / GP-013",
+          "sourceOptions": [
+            "GP-010: inlet 1.5 in BSP; outlet 1.5 in BS336",
+            "GP-011: inlet 1.5 in BSP; outlet 2.5 in BS336",
+            "GP-012: inlet 2.5 in BSP; outlet 2.5 in BS336",
+            "GP-013: inlet 2.5 in NPT; outlet 2.5 in BS336"
+          ],
+          "image": "products/消防水枪/catalog-hose-tails-adapters-page-24/p24-04.webp",
+          "imageDimensions": {
+            "width": 1000,
+            "height": 1000
+          },
+          "sourceImage": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_24/黄铜带黑盖转换接头_页24_04_视觉展示图_待原图复核.png"
+        },
+        {
+          "key": "p24-05",
+          "sourceName": "银色内螺纹卡爪接头",
+          "name": {
+            "en": "Silver-Finish Female-Threaded Claw Coupling",
+            "ar": "وصلة بتشطيب فضي ملولب داخلياً مخلبي"
+          },
+          "sourceReferences": "SP-031",
+          "sourceOptions": [
+            "SP-031: inlet 1.5 in BSP"
+          ],
+          "image": "products/消防水枪/catalog-hose-tails-adapters-page-24/p24-05.webp",
+          "imageDimensions": {
+            "width": 1000,
+            "height": 1000
+          },
+          "sourceImage": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_24/银色内螺纹卡爪接头_页24_05_视觉展示图_待原图复核.png"
+        },
+        {
+          "key": "p24-06",
+          "sourceName": "黄铜内螺纹卡爪接头",
+          "name": {
+            "en": "Brass-Finish Female-Threaded Claw Coupling",
+            "ar": "وصلة بتشطيب نحاسي ملولب داخلياً مخلبي"
+          },
+          "sourceReferences": "SP-025 / SP-026",
+          "sourceOptions": [
+            "SP-025: inlet 2 in BSP; outlet 2 in GOST",
+            "SP-026: inlet 2.5 in BSP; outlet 2.5 in GOST"
+          ],
+          "image": "products/消防水枪/catalog-hose-tails-adapters-page-24/p24-06.webp",
+          "imageDimensions": {
+            "width": 1000,
+            "height": 1000
+          },
+          "sourceImage": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_24/黄铜内螺纹卡爪接头_页24_06_视觉展示图_待原图复核.png"
+        }
+      ]
+    },
+    {
+      "page": 25,
+      "id": "catalog-threaded-adapters-caps-page-25",
+      "routeId": "product:catalog-threaded-adapters-caps-page-25",
+      "familyId": "hoses-nozzles-couplings",
+      "folder": "消防水枪",
+      "title": {
+        "en": "Threaded Adapters and Blank Caps",
+        "ar": "محولات لولبية وأغطية عمياء"
+      },
+      "sourceCatalogPage": "D:/work/codex/yunying/yunzhan365_泉观消防电子画册/pages/page_25.webp",
+      "items": [
+        {
+          "key": "p25-01",
+          "sourceName": "黄铜内牙双爪接头",
+          "name": {
+            "en": "Brass-Finish Female-Threaded Twin-Claw Coupling",
+            "ar": "وصلة بتشطيب نحاسي ملولب داخلياً ثنائي المخالب"
+          },
+          "sourceReferences": "SP-027 / SP-028",
+          "sourceOptions": [
+            "SP-027: inlet 2 in BSP; outlet 2 in",
+            "SP-028: inlet 2.5 in BSP; outlet 2.5 in"
+          ],
+          "image": "products/消防水枪/catalog-threaded-adapters-caps-page-25/p25-01.webp",
+          "imageDimensions": {
+            "width": 1000,
+            "height": 1000
+          },
+          "sourceImage": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_25/黄铜内牙双爪接头_页25_01_视觉展示图_待原图复核.png"
+        },
+        {
+          "key": "p25-02",
+          "sourceName": "银色内牙双爪接头",
+          "name": {
+            "en": "Silver-Finish Female-Threaded Twin-Claw Coupling",
+            "ar": "وصلة بتشطيب فضي ملولب داخلياً ثنائي المخالب"
+          },
+          "sourceReferences": "SP-029 / SP-030",
+          "sourceOptions": [
+            "SP-029: inlet 2 in BSP; outlet 2 in GOST",
+            "SP-030: inlet 2.5 in BSP; outlet 2.5 in GOST"
+          ],
+          "image": "products/消防水枪/catalog-threaded-adapters-caps-page-25/p25-02.webp",
+          "imageDimensions": {
+            "width": 1000,
+            "height": 1000
+          },
+          "sourceImage": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_25/银色内牙双爪接头_页25_02_视觉展示图_待原图复核.png"
+        },
+        {
+          "key": "p25-03",
+          "sourceName": "黄铜内牙圆盘接头",
+          "name": {
+            "en": "Brass-Finish Female-Threaded Disc-Type Coupling",
+            "ar": "وصلة بتشطيب نحاسي ملولب داخلياً قرصي"
+          },
+          "sourceReferences": "SP-035 / SP-036",
+          "sourceOptions": [
+            "SP-035: inlet 2 in BSP; outlet 2 in Storz",
+            "SP-036: inlet 2.5 in BSP; outlet 2.5 in Storz"
+          ],
+          "image": "products/消防水枪/catalog-threaded-adapters-caps-page-25/p25-03.webp",
+          "imageDimensions": {
+            "width": 1000,
+            "height": 1000
+          },
+          "sourceImage": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_25/黄铜内牙圆盘接头_页25_03_视觉展示图_待原图复核.png"
+        },
+        {
+          "key": "p25-04",
+          "sourceName": "黄铜带链闷盖接头",
+          "name": {
+            "en": "Brass-Finish Chained Blank-Cap Coupling",
+            "ar": "وصلة غطاء أعمى بسلسلة بتشطيب نحاسي"
+          },
+          "sourceReferences": "SP-020 / SP-021",
+          "sourceOptions": [
+            "SP-020: inlet 1.5 in",
+            "SP-021: inlet 2.5 in"
+          ],
+          "image": "products/消防水枪/catalog-threaded-adapters-caps-page-25/p25-04.webp",
+          "imageDimensions": {
+            "width": 1000,
+            "height": 1000
+          },
+          "sourceImage": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_25/黄铜带链闷盖接头_页25_04_视觉展示图_待原图复核.png"
+        },
+        {
+          "key": "p25-05",
+          "sourceName": "银色带链闷盖接头",
+          "name": {
+            "en": "Silver-Finish Chained Blank-Cap Coupling",
+            "ar": "وصلة غطاء أعمى بسلسلة بتشطيب فضي"
+          },
+          "sourceReferences": "SP-022 / SP-023",
+          "sourceOptions": [
+            "SP-022: inlet 1.5 in",
+            "SP-023: inlet 2.5 in"
+          ],
+          "image": "products/消防水枪/catalog-threaded-adapters-caps-page-25/p25-05.webp",
+          "imageDimensions": {
+            "width": 1000,
+            "height": 1000
+          },
+          "sourceImage": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_25/银色带链闷盖接头_页25_05_视觉展示图_待原图复核.png"
+        }
+      ]
+    },
+    {
+      "page": 26,
+      "id": "catalog-blank-caps-plug-adapters-page-26",
+      "routeId": "product:catalog-blank-caps-plug-adapters-page-26",
+      "familyId": "hoses-nozzles-couplings",
+      "folder": "消防水枪",
+      "title": {
+        "en": "Blank Caps and Threaded Plug Adapters",
+        "ar": "أغطية عمياء ومحولات سدادة لولبية"
+      },
+      "sourceCatalogPage": "D:/work/codex/yunying/yunzhan365_泉观消防电子画册/pages/page_26.webp",
+      "items": [
+        {
+          "key": "p26-01",
+          "sourceName": "黄铜腰槽带链闷盖",
+          "name": {
+            "en": "Brass-Finish Waist-Grooved Chained Blank Cap",
+            "ar": "غطاء أعمى بتشطيب نحاسي بمجرى وسطي بسلسلة"
+          },
+          "sourceReferences": "SP-024",
+          "sourceOptions": [
+            "SP-024: inlet 1.5 in BS336"
+          ],
+          "image": "products/消防水枪/catalog-blank-caps-plug-adapters-page-26/p26-01.webp",
+          "imageDimensions": {
+            "width": 1000,
+            "height": 1000
+          },
+          "sourceImage": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_26/黄铜腰槽带链闷盖_页26_01_视觉展示图_待原图复核.png"
+        },
+        {
+          "key": "p26-02",
+          "sourceName": "黄铜双耳带链闷盖",
+          "name": {
+            "en": "Brass-Finish Double-Lug Chained Blank Cap",
+            "ar": "غطاء أعمى بتشطيب نحاسي مزدوج العروات بسلسلة"
+          },
+          "sourceReferences": "SP-032 / SP-033",
+          "sourceOptions": [
+            "SP-032: inlet 1.5 in NH",
+            "SP-033: inlet 2.5 in NH"
+          ],
+          "image": "products/消防水枪/catalog-blank-caps-plug-adapters-page-26/p26-02.webp",
+          "imageDimensions": {
+            "width": 1000,
+            "height": 1000
+          },
+          "sourceImage": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_26/黄铜双耳带链闷盖_页26_02_视觉展示图_待原图复核.png"
+        },
+        {
+          "key": "p26-03",
+          "sourceName": "黄铜双爪细链闷盖",
+          "name": {
+            "en": "Brass-Finish Twin-Claw Fine-Chain Blank Cap",
+            "ar": "غطاء أعمى بتشطيب نحاسي ثنائي المخالب بسلسلة دقيقة"
+          },
+          "sourceReferences": "SP-034",
+          "sourceOptions": [
+            "SP-034: inlet 2.5 in JIS"
+          ],
+          "image": "products/消防水枪/catalog-blank-caps-plug-adapters-page-26/p26-03.webp",
+          "imageDimensions": {
+            "width": 1000,
+            "height": 1000
+          },
+          "sourceImage": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_26/黄铜双爪细链闷盖_页26_03_视觉展示图_待原图复核.png"
+        },
+        {
+          "key": "p26-04",
+          "sourceName": "黄铜圆盘带链闷盖",
+          "name": {
+            "en": "Brass-Finish Disc-Type Chained Blank Cap",
+            "ar": "غطاء أعمى بتشطيب نحاسي قرصي بسلسلة"
+          },
+          "sourceReferences": "SP-037",
+          "sourceOptions": [
+            "SP-037: inlet 2.5 in"
+          ],
+          "image": "products/消防水枪/catalog-blank-caps-plug-adapters-page-26/p26-04.webp",
+          "imageDimensions": {
+            "width": 1000,
+            "height": 1000
+          },
+          "sourceImage": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_26/黄铜圆盘带链闷盖_页26_04_视觉展示图_待原图复核.png"
+        },
+        {
+          "key": "p26-05",
+          "sourceName": "黄铜外螺纹插口接头",
+          "name": {
+            "en": "Brass-Finish Male-Threaded Plug-In Coupling",
+            "ar": "وصلة بتشطيب نحاسي ملولب خارجياً بتوصيل إدخال"
+          },
+          "sourceReferences": "GP-020 / GP-021",
+          "sourceOptions": [
+            "GP-020: inlet 1.5 in BSP; outlet 1.5 in BS336",
+            "GP-021: inlet 2.5 in BSP; outlet 2.5 in BS336"
+          ],
+          "image": "products/消防水枪/catalog-blank-caps-plug-adapters-page-26/p26-05.webp",
+          "imageDimensions": {
+            "width": 1000,
+            "height": 1000
+          },
+          "sourceImage": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_26/黄铜外螺纹插口接头_页26_05_视觉展示图_待原图复核.png"
+        }
+      ]
+    },
+    {
+      "page": 27,
+      "id": "catalog-hose-reel-parts-page-27",
+      "routeId": "product:catalog-hose-reel-parts-page-27",
+      "familyId": "hose-reels",
+      "folder": "软管卷盘",
+      "title": {
+        "en": "Fire Hose Reel Swivel Joints and Supports",
+        "ar": "وصلات دوارة ودعامات لبكرات خراطيم الحريق"
+      },
+      "sourceCatalogPage": "D:/work/codex/yunying/yunzhan365_泉观消防电子画册/pages/page_27.webp",
+      "items": [
+        {
+          "key": "p27-01",
+          "sourceName": "银色铜端卷盘旋转接头",
+          "name": {
+            "en": "Silver-Finish Hose Reel Swivel Joint with Brass-Finish Ends",
+            "ar": "وصلة دوارة لبكرة الخرطوم بتشطيب فضي ونهايات نحاسية المظهر"
+          },
+          "sourceReferences": "FHR-010",
+          "sourceOptions": [
+            "FHR-010: inlet 1 in"
+          ],
+          "image": "products/软管卷盘/catalog-hose-reel-parts-page-27/p27-01.webp",
+          "imageDimensions": {
+            "width": 1000,
+            "height": 1000
+          },
+          "sourceImage": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_27/银色铜端卷盘旋转接头_页27_01_视觉展示图_待原图复核.png"
+        },
+        {
+          "key": "p27-02",
+          "sourceName": "银色卷盘旋转接头",
+          "name": {
+            "en": "Silver-Finish Hose Reel Swivel Joint",
+            "ar": "وصلة دوارة لبكرة الخرطوم بتشطيب فضي"
+          },
+          "sourceReferences": "FHR-011",
+          "sourceOptions": [
+            "FHR-011: inlet 1 in"
+          ],
+          "image": "products/软管卷盘/catalog-hose-reel-parts-page-27/p27-02.webp",
+          "imageDimensions": {
+            "width": 1000,
+            "height": 1000
+          },
+          "sourceImage": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_27/银色卷盘旋转接头_页27_02_视觉展示图_待原图复核.png"
+        },
+        {
+          "key": "p27-03",
+          "sourceName": "黄铜卷盘旋转接头",
+          "name": {
+            "en": "Brass-Finish Hose Reel Swivel Joint",
+            "ar": "وصلة دوارة لبكرة الخرطوم بتشطيب نحاسي"
+          },
+          "sourceReferences": "FHR-012",
+          "sourceOptions": [
+            "FHR-012: connection to be confirmed"
+          ],
+          "image": "products/软管卷盘/catalog-hose-reel-parts-page-27/p27-03.webp",
+          "imageDimensions": {
+            "width": 1000,
+            "height": 1000
+          },
+          "sourceImage": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_27/黄铜卷盘旋转接头_页27_03重试_视觉展示图_待原图复核.png"
+        },
+        {
+          "key": "p27-04",
+          "sourceName": "红色卷盘摆臂支架",
+          "name": {
+            "en": "Red Hose Reel Swing-Arm Bracket",
+            "ar": "حامل ذراع متأرجح لبكرة الخرطوم أحمر"
+          },
+          "sourceReferences": "BP-020",
+          "sourceOptions": [
+            "BP-020: connection to be confirmed"
+          ],
+          "image": "products/软管卷盘/catalog-hose-reel-parts-page-27/p27-04.webp",
+          "imageDimensions": {
+            "width": 1000,
+            "height": 1000
+          },
+          "sourceImage": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_27/红色卷盘摆臂支架_页27_04_视觉展示图_待原图复核.png"
+        },
+        {
+          "key": "p27-05",
+          "sourceName": "红色卷盘管架组件",
+          "name": {
+            "en": "Red Hose Reel Support Assembly",
+            "ar": "مجموعة دعم بكرة الخرطوم أحمر"
+          },
+          "sourceReferences": "HRP-040",
+          "sourceOptions": [
+            "HRP-040: inlet 1 in BSP; outlet 1 in"
+          ],
+          "image": "products/软管卷盘/catalog-hose-reel-parts-page-27/p27-05.webp",
+          "imageDimensions": {
+            "width": 1000,
+            "height": 1000
+          },
+          "sourceImage": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_27/红色卷盘管架组件_页27_05重试_视觉展示图_待原图复核.png"
+        }
+      ]
+    },
+    {
+      "page": 28,
+      "id": "catalog-hose-assemblies-reels-page-28",
+      "routeId": "product:catalog-hose-assemblies-reels-page-28",
+      "familyId": "hose-reels",
+      "folder": "软管卷盘",
+      "title": {
+        "en": "Fire Hose Assemblies and Hose Reels",
+        "ar": "مجموعات خراطيم وبكرات خراطيم الحريق"
+      },
+      "sourceCatalogPage": "D:/work/codex/yunying/yunzhan365_泉观消防电子画册/pages/page_28.webp",
+      "items": [
+        {
+          "key": "p28-01",
+          "sourceName": "黄铜插口白色消防水带",
+          "name": {
+            "en": "Brass-Finish Plug-In White Fire Hose Assembly",
+            "ar": "مجموعة خرطوم حريق بتشطيب نحاسي بتوصيل إدخال أبيض"
+          },
+          "sourceReferences": "GHC-020 / GHC-021 / GHC-022",
+          "sourceOptions": [
+            "GHC-020: inlet 1.5 in BS336",
+            "GHC-021: inlet 2 in BS336",
+            "GHC-022: inlet 2.5 in BS336"
+          ],
+          "image": "products/软管卷盘/catalog-hose-assemblies-reels-page-28/p28-01.webp",
+          "imageDimensions": {
+            "width": 1000,
+            "height": 1000
+          },
+          "sourceImage": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_28/黄铜插口白色消防水带_页28_01_视觉展示图_待原图复核.png"
+        },
+        {
+          "key": "p28-02",
+          "sourceName": "黄铜螺纹白色消防水带",
+          "name": {
+            "en": "Brass-Finish Threaded White Fire Hose Assembly",
+            "ar": "مجموعة خرطوم حريق بتشطيب نحاسي ملولب أبيض"
+          },
+          "sourceReferences": "UHC-023 / UHC-024",
+          "sourceOptions": [
+            "UHC-023: inlet 1.5 in NH",
+            "UHC-024: inlet 2.5 in NH"
+          ],
+          "image": "products/软管卷盘/catalog-hose-assemblies-reels-page-28/p28-02.webp",
+          "imageDimensions": {
+            "width": 1000,
+            "height": 1000
+          },
+          "sourceImage": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_28/黄铜螺纹白色消防水带_页28_02_视觉展示图_待原图复核.png"
+        },
+        {
+          "key": "p28-03",
+          "sourceName": "银色卡口条纹消防水带",
+          "name": {
+            "en": "Silver-Finish Claw-Coupled Striped Fire Hose Assembly",
+            "ar": "مجموعة خرطوم حريق بتشطيب فضي بوصلة مخلبية مخطط"
+          },
+          "sourceReferences": "RHC-020 / RHC-021",
+          "sourceOptions": [
+            "RHC-020: inlet 2 in GOST",
+            "RHC-021: inlet 2.5 in GOST"
+          ],
+          "image": "products/软管卷盘/catalog-hose-assemblies-reels-page-28/p28-03.webp",
+          "imageDimensions": {
+            "width": 1000,
+            "height": 1000
+          },
+          "sourceImage": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_28/银色卡口条纹消防水带_页28_03_视觉展示图_待原图复核.png"
+        },
+        {
+          "key": "p28-04",
+          "sourceName": "银色支架红色消防卷盘",
+          "name": {
+            "en": "Silver-Finish Bracket-Mounted Red Fire Hose Reel",
+            "ar": "بكرة خرطوم حريق بتشطيب فضي مثبت بحامل أحمر"
+          },
+          "sourceReferences": "HR-033",
+          "sourceOptions": [
+            "HR-033: inlet Ø32 mm; outlet 15.6 mm"
+          ],
+          "image": "products/软管卷盘/catalog-hose-assemblies-reels-page-28/p28-04.webp",
+          "imageDimensions": {
+            "width": 1000,
+            "height": 1000
+          },
+          "sourceImage": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_28/银色支架红色消防卷盘_页28_04_视觉展示图_待原图复核.png"
+        }
+      ]
+    },
+    {
+      "page": 30,
+      "id": "catalog-fire-cabinets-page-30",
+      "routeId": "product:catalog-fire-cabinets-page-30",
+      "familyId": "fire-equipment-cabinets",
+      "folder": "消防器材箱",
+      "title": {
+        "en": "Hose Reel, Extinguisher and Combined Cabinets",
+        "ar": "خزائن بكرات الخراطيم وطفايات الحريق والخزائن المدمجة"
+      },
+      "sourceCatalogPage": "D:/work/codex/yunying/yunzhan365_泉观消防电子画册/pages/page_30.webp",
+      "items": [
+        {
+          "key": "p30-01",
+          "sourceName": "红色窄窗卷盘箱",
+          "name": {
+            "en": "Red Narrow-Window Hose Reel Cabinet",
+            "ar": "خزانة بكرة خرطوم أحمر بنافذة ضيقة"
+          },
+          "sourceReferences": "BX-025",
+          "sourceOptions": [
+            "BX-025: dimension 750 × 750 × 250 mm"
+          ],
+          "image": "products/消防器材箱/catalog-fire-cabinets-page-30/p30-01.webp",
+          "imageDimensions": {
+            "width": 1000,
+            "height": 1000
+          },
+          "sourceImage": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_30/红色窄窗卷盘箱_页30_01_视觉展示图_待原图复核.png"
+        },
+        {
+          "key": "p30-02",
+          "sourceName": "红色单瓶灭火器箱",
+          "name": {
+            "en": "Red Single-Extinguisher Cabinet",
+            "ar": "خزانة حمراء لطفاية حريق واحدة"
+          },
+          "sourceReferences": "BX-026",
+          "sourceOptions": [
+            "BX-026: dimension 350 × 750 × 350 mm"
+          ],
+          "image": "products/消防器材箱/catalog-fire-cabinets-page-30/p30-02.webp",
+          "imageDimensions": {
+            "width": 1000,
+            "height": 1000
+          },
+          "sourceImage": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_30/红色单瓶灭火器箱_页30_02_视觉展示图_待原图复核.png"
+        },
+        {
+          "key": "p30-03",
+          "sourceName": "红色中窗消防箱",
+          "name": {
+            "en": "Red Center-Window Fire Equipment Cabinet",
+            "ar": "خزانة معدات حريق أحمر بنافذة وسطية"
+          },
+          "sourceReferences": "BX-027",
+          "sourceOptions": [
+            "BX-027: dimension 400 × 600 × 300 mm"
+          ],
+          "image": "products/消防器材箱/catalog-fire-cabinets-page-30/p30-03.webp",
+          "imageDimensions": {
+            "width": 1000,
+            "height": 1000
+          },
+          "sourceImage": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_30/红色中窗消防箱_页30_03_视觉展示图_待原图复核.png"
+        },
+        {
+          "key": "p30-04",
+          "sourceName": "红色上下实门消防箱",
+          "name": {
+            "en": "Red Stacked Solid-Door Fire Equipment Cabinet",
+            "ar": "خزانة معدات حريق أحمر بأبواب مصمتة متراصة"
+          },
+          "sourceReferences": "BX-028",
+          "sourceOptions": [
+            "BX-028: dimension 1700 × 800 × 300 mm"
+          ],
+          "image": "products/消防器材箱/catalog-fire-cabinets-page-30/p30-04.webp",
+          "imageDimensions": {
+            "width": 1000,
+            "height": 1000
+          },
+          "sourceImage": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_30/红色上下实门消防箱_页30_04_视觉展示图_待原图复核.png"
+        }
+      ]
+    },
+    {
+      "page": 31,
+      "id": "catalog-outdoor-hydrant-configurations-page-31",
+      "routeId": "product:catalog-outdoor-hydrant-configurations-page-31",
+      "familyId": "outdoor-hydrants",
+      "folder": "室外消防栓",
+      "title": {
+        "en": "Pillar and Standpipe Fire Hydrant Configurations",
+        "ar": "تكوينات صنابير الحريق العمودية وأنابيب الصعود"
+      },
+      "sourceCatalogPage": "D:/work/codex/yunying/yunzhan365_泉观消防电子画册/pages/page_31.webp",
+      "items": [
+        {
+          "key": "p31-01",
+          "sourceName": "红黑长管室外消火栓",
+          "name": {
+            "en": "Red-and-Black Long-Riser Outdoor Fire Hydrant",
+            "ar": "صنبور حريق خارجي أحمر وأسود بأنبوب صاعد طويل"
+          },
+          "sourceReferences": "USS-020 / USS-021",
+          "sourceOptions": [
+            "USS-020: inlet 4 in (100 mm); outlet 2.5 in NH",
+            "USS-021: inlet 6 in (150 mm); outlet 2.5 in NH"
+          ],
+          "image": "products/室外消防栓/catalog-outdoor-hydrant-configurations-page-31/p31-01.webp",
+          "imageDimensions": {
+            "width": 1000,
+            "height": 1000
+          },
+          "sourceImage": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_31/红黑长管室外消火栓_页31_01_视觉展示图_待原图复核.png"
+        },
+        {
+          "key": "p31-02",
+          "sourceName": "红黑双阀长管消火栓",
+          "name": {
+            "en": "Red-and-Black Twin-Valve Long-Riser Fire Hydrant",
+            "ar": "صنبور حريق أحمر وأسود بصمامين بأنبوب صاعد طويل"
+          },
+          "sourceReferences": "BS-031 / BS-032",
+          "sourceOptions": [
+            "BS-031: inlet 4 in (100 mm); outlet 2.5 in BS336",
+            "BS-032: inlet 6 in (150 mm); outlet 2.5 in BS336"
+          ],
+          "image": "products/室外消防栓/catalog-outdoor-hydrant-configurations-page-31/p31-02.webp",
+          "imageDimensions": {
+            "width": 1000,
+            "height": 1000
+          },
+          "sourceImage": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_31/红黑双阀长管消火栓_页31_02_视觉展示图_待原图复核.png"
+        },
+        {
+          "key": "p31-03",
+          "sourceName": "红色链盖立式消火栓",
+          "name": {
+            "en": "Red Chained-Cap Standpipe Fire Hydrant",
+            "ar": "صنبور حريق أحمر بغطاء ذي سلسلة بأنبوب قائم"
+          },
+          "sourceReferences": "USS-022 / USS-023",
+          "sourceOptions": [
+            "USS-022: inlet 4 in (100 mm); outlet 2.5 in NH",
+            "USS-023: inlet 6 in (150 mm); outlet 2.5 in NH"
+          ],
+          "image": "products/室外消防栓/catalog-outdoor-hydrant-configurations-page-31/p31-03.webp",
+          "imageDimensions": {
+            "width": 1000,
+            "height": 1000
+          },
+          "sourceImage": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_31/红色链盖立式消火栓_页31_03_视觉展示图_待原图复核.png"
+        },
+        {
+          "key": "p31-04",
+          "sourceName": "红色双手轮立式消火栓",
+          "name": {
+            "en": "Red Twin-Handwheel Standpipe Fire Hydrant",
+            "ar": "صنبور حريق أحمر بعجلتي تشغيل بأنبوب قائم"
+          },
+          "sourceReferences": "SS-010 / SS-011",
+          "sourceOptions": [
+            "SS-010: inlet Ø100 mm; outlet 2.5 in BS336",
+            "SS-011: inlet 6 in (150 mm); outlet 2.5 in BS336"
+          ],
+          "image": "products/室外消防栓/catalog-outdoor-hydrant-configurations-page-31/p31-04.webp",
+          "imageDimensions": {
+            "width": 1000,
+            "height": 1000
+          },
+          "sourceImage": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_31/红色双手轮立式消火栓_页31_04_视觉展示图_待原图复核.png"
+        }
+      ]
+    }
+  ]
+}

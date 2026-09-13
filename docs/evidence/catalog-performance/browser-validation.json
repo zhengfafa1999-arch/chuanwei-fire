@@ -1,0 +1,133 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "protocol": "file",
+      "file": "products.html",
+      "width": 1440,
+      "initial": {
+        "total": 12,
+        "loaded": 12,
+        "overflow": false
+      },
+      "filtered": {
+        "selected": "fire-department-connections",
+        "visible": 12,
+        "wrong": false
+      },
+      "status": "PASS"
+    },
+    {
+      "protocol": "file",
+      "file": "products.html",
+      "width": 390,
+      "initial": {
+        "total": 12,
+        "loaded": 12,
+        "overflow": false
+      },
+      "filtered": {
+        "selected": "fire-department-connections",
+        "visible": 12,
+        "wrong": false
+      },
+      "status": "PASS"
+    },
+    {
+      "protocol": "file",
+      "file": "ar/products.html",
+      "width": 1440,
+      "initial": {
+        "total": 12,
+        "loaded": 12,
+        "overflow": false
+      },
+      "filtered": {
+        "selected": "fire-department-connections",
+        "visible": 12,
+        "wrong": false
+      },
+      "status": "PASS"
+    },
+    {
+      "protocol": "file",
+      "file": "ar/products.html",
+      "width": 390,
+      "initial": {
+        "total": 12,
+        "loaded": 12,
+        "overflow": false
+      },
+      "filtered": {
+        "selected": "fire-department-connections",
+        "visible": 12,
+        "wrong": false
+      },
+      "status": "PASS"
+    },
+    {
+      "protocol": "http",
+      "file": "products.html",
+      "width": 1440,
+      "initial": {
+        "total": 12,
+        "loaded": 12,
+        "overflow": false
+      },
+      "filtered": {
+        "selected": "fire-department-connections",
+        "visible": 12,
+        "wrong": false
+      },
+      "status": "PASS"
+    },
+    {
+      "protocol": "http",
+      "file": "products.html",
+      "width": 390,
+      "initial": {
+        "total": 12,
+        "loaded": 12,
+        "overflow": false
+      },
+      "filtered": {
+        "selected": "fire-department-connections",
+        "visible": 12,
+        "wrong": false
+      },
+      "status": "PASS"
+    },
+    {
+      "protocol": "http",
+      "file": "ar/products.html",
+      "width": 1440,
+      "initial": {
+        "total": 12,
+        "loaded": 12,
+        "overflow": false
+      },
+      "filtered": {
+        "selected": "fire-department-connections",
+        "visible": 12,
+        "wrong": false
+      },
+      "status": "PASS"
+    },
+    {
+      "protocol": "http",
+      "file": "ar/products.html",
+      "width": 390,
+      "initial": {
+        "total": 12,
+        "loaded": 12,
+        "overflow": false
+      },
+      "filtered": {
+        "selected": "fire-department-connections",
+        "visible": 12,
+        "wrong": false
+      },
+      "status": "PASS"
+    }
+  ]
+}

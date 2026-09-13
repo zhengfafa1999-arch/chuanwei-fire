@@ -1,6 +1,47 @@
 (function () {
   "use strict";
 
+  // A catalog card can open the selected configuration directly within its detail page.
+  window.addEventListener('load', () => {
+    const selected = new URLSearchParams(location.search).get('view');
+    if (!selected) return;
+    const buttons = [...document.querySelectorAll('button')];
+    const button = buttons.find(button => {
+      if (!button.matches('[data-gallery-index], [data-index], .pdp-gallery__thumb') && !button.closest('[class*="thumbs"]')) return false;
+      const img = button.querySelector('img');
+      return img && decodeURIComponent(new URL(img.src).pathname).endsWith('/' + selected);
+    });
+    if (button) { button.click(); document.querySelector('#gallery')?.scrollIntoView(); }
+  });
+
+  const productMenu = document.querySelector('.global-product-menu');
+  if (productMenu) {
+    const compactMenu = window.matchMedia('(max-width:980px)');
+    const setGroups = () => productMenu.querySelectorAll('.global-product-group').forEach(group => { group.open = !compactMenu.matches; });
+    setGroups();
+    compactMenu.addEventListener('change', setGroups);
+    document.addEventListener('click', event => {
+      if (!productMenu.contains(event.target)) productMenu.open = false;
+    });
+    document.addEventListener('keydown', event => {
+      if (event.key === 'Escape' && productMenu.open) {
+        productMenu.open = false;
+        productMenu.querySelector('summary').focus();
+      }
+    });
+  }
+
+  document.querySelectorAll('.pdp-section-navigation a[href^="#"], .configuration-links a[href^="#"]').forEach((link) => {
+    link.addEventListener('click', (event) => {
+      const target = document.getElementById(link.hash.slice(1));
+      if (!target) return;
+      event.preventDefault();
+      history.pushState(null, '', link.hash);
+      const margin = Number.parseFloat(getComputedStyle(target).scrollMarginTop) || 0;
+      window.scrollTo({ top: window.scrollY + target.getBoundingClientRect().top - margin, behavior: 'instant' });
+    });
+  });
+
   const languageKey = "chuanwei-site-language";
   const currentLanguage = document.body.dataset.siteLanguage;
   const routeId = document.body.dataset.siteRouteId;
@@ -30,6 +71,7 @@
   if (toggle && navigation) {
     const close = () => {
       navigation.classList.remove("open");
+      if (productMenu) productMenu.open = false;
       toggle.setAttribute("aria-expanded", "false");
     };
     toggle.addEventListener("click", () => {

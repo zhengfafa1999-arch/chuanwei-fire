@@ -17,9 +17,10 @@
     "evidence": "A-user-confirmed specification boundary; B-derived-approved-catalog table; D-visual for the representative product image"
   },
   "publication": {
-    "status": "local-draft",
-    "externalRelease": false,
-    "imageRights": "pending-website-use-confirmation"
+    "status": "release-candidate",
+    "externalRelease": true,
+    "imageRights": "user-confirmed-website-use",
+    "imageRightsEvidence": "docs/release/eight-products-20260909/image-rights-confirmation.json"
   },
   "media": {
     "hero": "products/消防水泵接合器/russian-pattern-fire-department-connection/65-16k-65-front.png"

@@ -1,0 +1,174 @@
+{
+  "scope": "product-batch",
+  "products": [
+    "catalog-fire-hose-couplings-page-20",
+    "catalog-outdoor-hydrant-configurations-page-31"
+  ],
+  "previewMode": "http",
+  "generatedAt": "2026-09-13T09:11:26.473Z",
+  "browser": "Edg/153.0.4234.32",
+  "viewports": [
+    {
+      "id": "desktop",
+      "width": 1440,
+      "height": 900,
+      "deviceScaleFactor": 1,
+      "mobile": false
+    },
+    {
+      "id": "mobile",
+      "width": 390,
+      "height": 844,
+      "deviceScaleFactor": 1,
+      "mobile": true
+    }
+  ],
+  "validations": [
+    {
+      "slug": "catalog-fire-hose-couplings-page-20",
+      "languageSwitches": [
+        {
+          "scenario": "desktop/en: catalog-fire-hose-couplings-page-20 image/text category entries, reciprocal switch, refresh, 5-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+          "status": "PASS"
+        },
+        {
+          "scenario": "desktop/ar: catalog-fire-hose-couplings-page-20 image/text category entries, reciprocal switch, refresh, 5-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+          "status": "PASS"
+        },
+        {
+          "scenario": "mobile/en: catalog-fire-hose-couplings-page-20 image/text category entries, reciprocal switch, refresh, 5-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+          "status": "PASS"
+        },
+        {
+          "scenario": "mobile/ar: catalog-fire-hose-couplings-page-20 image/text category entries, reciprocal switch, refresh, 5-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+          "status": "PASS"
+        }
+      ],
+      "screenshots": [
+        "edge-desktop-catalog-fire-hose-couplings-page-20-en-gallery.png",
+        "edge-desktop-catalog-fire-hose-couplings-page-20-en-specifications.png",
+        "edge-desktop-catalog-fire-hose-couplings-page-20-en-models.png",
+        "edge-desktop-catalog-fire-hose-couplings-page-20-en-quotation.png",
+        "edge-desktop-catalog-fire-hose-couplings-page-20-ar-gallery.png",
+        "edge-desktop-catalog-fire-hose-couplings-page-20-ar-specifications.png",
+        "edge-desktop-catalog-fire-hose-couplings-page-20-ar-models.png",
+        "edge-desktop-catalog-fire-hose-couplings-page-20-ar-quotation.png",
+        "edge-mobile-catalog-fire-hose-couplings-page-20-en-gallery.png",
+        "edge-mobile-catalog-fire-hose-couplings-page-20-en-specifications.png",
+        "edge-mobile-catalog-fire-hose-couplings-page-20-en-models.png",
+        "edge-mobile-catalog-fire-hose-couplings-page-20-en-quotation.png",
+        "edge-mobile-catalog-fire-hose-couplings-page-20-ar-gallery.png",
+        "edge-mobile-catalog-fire-hose-couplings-page-20-ar-specifications.png",
+        "edge-mobile-catalog-fire-hose-couplings-page-20-ar-models.png",
+        "edge-mobile-catalog-fire-hose-couplings-page-20-ar-quotation.png"
+      ]
+    },
+    {
+      "slug": "catalog-outdoor-hydrant-configurations-page-31",
+      "languageSwitches": [
+        {
+          "scenario": "desktop/en: catalog-outdoor-hydrant-configurations-page-31 image/text category entries, reciprocal switch, refresh, 4-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+          "status": "PASS"
+        },
+        {
+          "scenario": "desktop/ar: catalog-outdoor-hydrant-configurations-page-31 image/text category entries, reciprocal switch, refresh, 4-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+          "status": "PASS"
+        },
+        {
+          "scenario": "mobile/en: catalog-outdoor-hydrant-configurations-page-31 image/text category entries, reciprocal switch, refresh, 4-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+          "status": "PASS"
+        },
+        {
+          "scenario": "mobile/ar: catalog-outdoor-hydrant-configurations-page-31 image/text category entries, reciprocal switch, refresh, 4-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+          "status": "PASS"
+        }
+      ],
+      "screenshots": [
+        "edge-desktop-catalog-outdoor-hydrant-configurations-page-31-en-gallery.png",
+        "edge-desktop-catalog-outdoor-hydrant-configurations-page-31-en-specifications.png",
+        "edge-desktop-catalog-outdoor-hydrant-configurations-page-31-en-models.png",
+        "edge-desktop-catalog-outdoor-hydrant-configurations-page-31-en-quotation.png",
+        "edge-desktop-catalog-outdoor-hydrant-configurations-page-31-ar-gallery.png",
+        "edge-desktop-catalog-outdoor-hydrant-configurations-page-31-ar-specifications.png",
+        "edge-desktop-catalog-outdoor-hydrant-configurations-page-31-ar-models.png",
+        "edge-desktop-catalog-outdoor-hydrant-configurations-page-31-ar-quotation.png",
+        "edge-mobile-catalog-outdoor-hydrant-configurations-page-31-en-gallery.png",
+        "edge-mobile-catalog-outdoor-hydrant-configurations-page-31-en-specifications.png",
+        "edge-mobile-catalog-outdoor-hydrant-configurations-page-31-en-models.png",
+        "edge-mobile-catalog-outdoor-hydrant-configurations-page-31-en-quotation.png",
+        "edge-mobile-catalog-outdoor-hydrant-configurations-page-31-ar-gallery.png",
+        "edge-mobile-catalog-outdoor-hydrant-configurations-page-31-ar-specifications.png",
+        "edge-mobile-catalog-outdoor-hydrant-configurations-page-31-ar-models.png",
+        "edge-mobile-catalog-outdoor-hydrant-configurations-page-31-ar-quotation.png"
+      ]
+    }
+  ],
+  "languageSwitches": [
+    {
+      "scenario": "desktop/en: catalog-fire-hose-couplings-page-20 image/text category entries, reciprocal switch, refresh, 5-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+      "status": "PASS"
+    },
+    {
+      "scenario": "desktop/ar: catalog-fire-hose-couplings-page-20 image/text category entries, reciprocal switch, refresh, 5-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+      "status": "PASS"
+    },
+    {
+      "scenario": "mobile/en: catalog-fire-hose-couplings-page-20 image/text category entries, reciprocal switch, refresh, 5-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+      "status": "PASS"
+    },
+    {
+      "scenario": "mobile/ar: catalog-fire-hose-couplings-page-20 image/text category entries, reciprocal switch, refresh, 5-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+      "status": "PASS"
+    },
+    {
+      "scenario": "desktop/en: catalog-outdoor-hydrant-configurations-page-31 image/text category entries, reciprocal switch, refresh, 4-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+      "status": "PASS"
+    },
+    {
+      "scenario": "desktop/ar: catalog-outdoor-hydrant-configurations-page-31 image/text category entries, reciprocal switch, refresh, 4-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+      "status": "PASS"
+    },
+    {
+      "scenario": "mobile/en: catalog-outdoor-hydrant-configurations-page-31 image/text category entries, reciprocal switch, refresh, 4-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+      "status": "PASS"
+    },
+    {
+      "scenario": "mobile/ar: catalog-outdoor-hydrant-configurations-page-31 image/text category entries, reciprocal switch, refresh, 4-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+      "status": "PASS"
+    }
+  ],
+  "screenshots": [
+    "edge-desktop-catalog-fire-hose-couplings-page-20-en-gallery.png",
+    "edge-desktop-catalog-fire-hose-couplings-page-20-en-specifications.png",
+    "edge-desktop-catalog-fire-hose-couplings-page-20-en-models.png",
+    "edge-desktop-catalog-fire-hose-couplings-page-20-en-quotation.png",
+    "edge-desktop-catalog-fire-hose-couplings-page-20-ar-gallery.png",
+    "edge-desktop-catalog-fire-hose-couplings-page-20-ar-specifications.png",
+    "edge-desktop-catalog-fire-hose-couplings-page-20-ar-models.png",
+    "edge-desktop-catalog-fire-hose-couplings-page-20-ar-quotation.png",
+    "edge-mobile-catalog-fire-hose-couplings-page-20-en-gallery.png",
+    "edge-mobile-catalog-fire-hose-couplings-page-20-en-specifications.png",
+    "edge-mobile-catalog-fire-hose-couplings-page-20-en-models.png",
+    "edge-mobile-catalog-fire-hose-couplings-page-20-en-quotation.png",
+    "edge-mobile-catalog-fire-hose-couplings-page-20-ar-gallery.png",
+    "edge-mobile-catalog-fire-hose-couplings-page-20-ar-specifications.png",
+    "edge-mobile-catalog-fire-hose-couplings-page-20-ar-models.png",
+    "edge-mobile-catalog-fire-hose-couplings-page-20-ar-quotation.png",
+    "edge-desktop-catalog-outdoor-hydrant-configurations-page-31-en-gallery.png",
+    "edge-desktop-catalog-outdoor-hydrant-configurations-page-31-en-specifications.png",
+    "edge-desktop-catalog-outdoor-hydrant-configurations-page-31-en-models.png",
+    "edge-desktop-catalog-outdoor-hydrant-configurations-page-31-en-quotation.png",
+    "edge-desktop-catalog-outdoor-hydrant-configurations-page-31-ar-gallery.png",
+    "edge-desktop-catalog-outdoor-hydrant-configurations-page-31-ar-specifications.png",
+    "edge-desktop-catalog-outdoor-hydrant-configurations-page-31-ar-models.png",
+    "edge-desktop-catalog-outdoor-hydrant-configurations-page-31-ar-quotation.png",
+    "edge-mobile-catalog-outdoor-hydrant-configurations-page-31-en-gallery.png",
+    "edge-mobile-catalog-outdoor-hydrant-configurations-page-31-en-specifications.png",
+    "edge-mobile-catalog-outdoor-hydrant-configurations-page-31-en-models.png",
+    "edge-mobile-catalog-outdoor-hydrant-configurations-page-31-en-quotation.png",
+    "edge-mobile-catalog-outdoor-hydrant-configurations-page-31-ar-gallery.png",
+    "edge-mobile-catalog-outdoor-hydrant-configurations-page-31-ar-specifications.png",
+    "edge-mobile-catalog-outdoor-hydrant-configurations-page-31-ar-models.png",
+    "edge-mobile-catalog-outdoor-hydrant-configurations-page-31-ar-quotation.png"
+  ]
+}

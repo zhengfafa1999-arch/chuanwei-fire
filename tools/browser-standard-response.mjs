@@ -79,9 +79,16 @@ export async function validateStandardResponse({client, origin, viewports, evalu
       })()`);
         const expectedChecks = locale === 'ar' ? 5 * imageCount + 18 : 3 * imageCount + 10;
         assert(galleryChecks.length === expectedChecks && galleryChecks.every(Boolean), `${slug} gallery failed: ${JSON.stringify(galleryChecks)}`);
-        // Image switching can still be decoding when a file-preview scroll starts.
-        // Observe asset readiness before asserting the final anchored position.
-        await evaluate(client, "Promise.all([...document.images].map(image => image.decode()))");
+        // The active gallery image can still be decoding when an anchor scroll starts.
+        // Off-screen thumbnails are intentionally lazy-loaded, so waiting for every
+        // document image would block until those thumbnails enter the viewport.
+        await evaluate(client, `(() => {
+          const gallery = document.querySelector('[data-gallery]');
+          const image = gallery
+            ? gallery.querySelector('.wav-gallery__main img')
+            : document.getElementById('galleryMain');
+          return image?.complete ? Promise.resolve() : image?.decode();
+        })()`);
       } else {
         const heroChecks = await evaluate(client, `(() => {
           const hero = document.querySelector('.pdp-hero__image');

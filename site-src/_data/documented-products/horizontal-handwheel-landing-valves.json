@@ -17,9 +17,10 @@
     "evidence": "B-derived-approved-catalog for the native selection table; D-visual for embedded catalog display images"
   },
   "publication": {
-    "status": "local-draft",
-    "externalRelease": false,
-    "imageRights": "pending-website-use-confirmation"
+    "status": "release-candidate",
+    "externalRelease": true,
+    "imageRights": "user-confirmed-website-use",
+    "imageRightsEvidence": "docs/release/eight-products-20260909/image-rights-confirmation.json"
   },
   "media": {
     "hero": "products/室内消防栓/horizontal-handwheel-landing-valves/threaded-inlet-catalog-display.jpeg",

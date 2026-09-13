@@ -1,0 +1,145 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "file": "products.html",
+      "width": 1440,
+      "status": "PASS"
+    },
+    {
+      "file": "products.html",
+      "width": 768,
+      "status": "PASS"
+    },
+    {
+      "file": "products.html",
+      "width": 390,
+      "status": "PASS"
+    },
+    {
+      "file": "products.html",
+      "width": 320,
+      "status": "PASS"
+    },
+    {
+      "file": "ar/products.html",
+      "width": 1440,
+      "status": "PASS"
+    },
+    {
+      "file": "ar/products.html",
+      "width": 768,
+      "status": "PASS"
+    },
+    {
+      "file": "ar/products.html",
+      "width": 390,
+      "status": "PASS"
+    },
+    {
+      "file": "ar/products.html",
+      "width": 320,
+      "status": "PASS"
+    },
+    {
+      "file": "index.html",
+      "width": 1440,
+      "status": "PASS"
+    },
+    {
+      "file": "index.html",
+      "width": 768,
+      "status": "PASS"
+    },
+    {
+      "file": "index.html",
+      "width": 390,
+      "status": "PASS"
+    },
+    {
+      "file": "index.html",
+      "width": 320,
+      "status": "PASS"
+    },
+    {
+      "file": "ar/index.html",
+      "width": 1440,
+      "status": "PASS"
+    },
+    {
+      "file": "ar/index.html",
+      "width": 768,
+      "status": "PASS"
+    },
+    {
+      "file": "ar/index.html",
+      "width": 390,
+      "status": "PASS"
+    },
+    {
+      "file": "ar/index.html",
+      "width": 320,
+      "status": "PASS"
+    },
+    {
+      "file": "zh/index.html",
+      "width": 1440,
+      "status": "PASS"
+    },
+    {
+      "file": "zh/index.html",
+      "width": 768,
+      "status": "PASS"
+    },
+    {
+      "file": "zh/index.html",
+      "width": 390,
+      "status": "PASS"
+    },
+    {
+      "file": "zh/index.html",
+      "width": 320,
+      "status": "PASS"
+    },
+    {
+      "file": "products/消防喷头/fusible-alloy-fire-sprinklers.html",
+      "width": 1440,
+      "status": "PASS"
+    },
+    {
+      "file": "products/消防喷头/fusible-alloy-fire-sprinklers.html",
+      "width": 768,
+      "status": "PASS"
+    },
+    {
+      "file": "products/消防喷头/fusible-alloy-fire-sprinklers.html",
+      "width": 390,
+      "status": "PASS"
+    },
+    {
+      "file": "products/消防喷头/fusible-alloy-fire-sprinklers.html",
+      "width": 320,
+      "status": "PASS"
+    },
+    {
+      "file": "ar/products/fusible-alloy-fire-sprinklers/index.html",
+      "width": 1440,
+      "status": "PASS"
+    },
+    {
+      "file": "ar/products/fusible-alloy-fire-sprinklers/index.html",
+      "width": 768,
+      "status": "PASS"
+    },
+    {
+      "file": "ar/products/fusible-alloy-fire-sprinklers/index.html",
+      "width": 390,
+      "status": "PASS"
+    },
+    {
+      "file": "ar/products/fusible-alloy-fire-sprinklers/index.html",
+      "width": 320,
+      "status": "PASS"
+    }
+  ]
+}

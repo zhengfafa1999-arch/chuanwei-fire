@@ -14,6 +14,7 @@
         <p class="pdp-eyebrow">{{ entry.text.eyebrow }}</p>
         <h1>{{ entry.text.title }}</h1>
         <p class="pdp-lead">{{ entry.text.lead }}</p>
+{% if entry.product.configurationCards %}        <nav class="configuration-links">{% for item in entry.product.gallery %}<a href="#configuration-{{ item.caption }}">{{ entry.text[item.caption] }} →</a>{% endfor %}</nav>{% endif %}
         <div class="pdp-chips">
 {% for fact in entry.product.heroFacts %}          <span><bdi dir="ltr">{{ entry.text[fact] }}</bdi></span>
 {% endfor %}        </div>
@@ -29,6 +30,18 @@
     </div>
   </section>
 
+{% if entry.product.configurationCards %}
+  <section class="pdp-section" aria-label="{{ entry.text.availableConfigurations }}"><div class="pdp-container">
+    <h2>{{ entry.text.availableConfigurations }}</h2>
+    <nav class="configuration-links">{% for item in entry.product.gallery %}<a href="#configuration-{{ item.caption }}">{{ entry.text[item.caption] }}</a>{% endfor %}</nav>
+    <div class="configuration-grid">{% for item in entry.product.gallery %}
+      <article class="configuration-card" id="configuration-{{ item.caption }}">
+        <h3>{{ entry.text[item.caption] }}</h3><img src="{{ entry.media[item.media] }}" alt="{{ entry.text[item.alt] }}" width="300" height="300" loading="lazy" decoding="async">
+        {% for row in entry.product.models %}{% if row.configuration == item.caption %}<p>{% for column in entry.product.modelColumns %}{% if column.field != "configuration" %}<strong>{{ entry.text[column.label] }}:</strong> {% if column.localized %}{{ entry.text[row[column.field]] }}{% elif column.technical %}<bdi dir="ltr">{{ row[column.field] }}</bdi>{% else %}{{ row[column.field] }}{% endif %}{% if not loop.last %}<br>{% endif %}{% endif %}{% endfor %}</p>{% endif %}{% endfor %}
+      </article>{% endfor %}</div>
+    <p>{{ entry.text.note }}</p>
+  </div></section>
+{% endif %}
   <section class="pdp-section" id="gallery">
     <div class="pdp-container">
       <div class="pdp-heading"><div><p class="pdp-eyebrow">{{ entry.text.gallery }}</p><h2>{{ entry.text.galleryTitle }}</h2></div><p>{{ entry.text.galleryBody }}</p></div>
@@ -41,7 +54,7 @@
         </div>
         <div class="pdp-gallery__thumbs" aria-label="{{ entry.text.selectProductImage }}">
 {% for item in entry.product.gallery %}          <button class="pdp-gallery__thumb{% if loop.first %} active{% endif %}" type="button" data-index="{{ loop.index0 }}" data-gallery-alt="{{ entry.text[item.alt] }}" data-gallery-title="{{ entry.text[item.caption] }}">
-            <img src="{{ entry.media[item.media] }}" alt="{{ entry.text[item.thumbnailAlt] }}"><span>{{ entry.text[item.caption] }}</span>
+            <img src="{{ entry.media[item.media] }}" alt="{{ entry.text[item.thumbnailAlt] }}" loading="lazy" decoding="async"><span>{{ entry.text[item.caption] }}</span>
           </button>
 {% endfor %}        </div>
       </div>
@@ -66,7 +79,7 @@
         <table class="pdp-table">
           <thead><tr>{% for column in entry.product.modelColumns %}<th>{{ entry.text[column.label] }}</th>{% endfor %}</tr></thead>
           <tbody>
-{% for row in entry.product.models %}            <tr>{% for column in entry.product.modelColumns %}<td{% if column.technical %} dir="ltr"{% endif %}>{% if column.localized %}{{ entry.text[row[column.field]] }}{% else %}{{ row[column.field] }}{% endif %}</td>{% endfor %}</tr>
+{% for row in entry.product.models %}            <tr>{% for column in entry.product.modelColumns %}<td data-label="{{ entry.text[column.label] }}"{% if column.technical %} dir="ltr"{% endif %}>{% if column.localized %}{{ entry.text[row[column.field]] }}{% else %}{{ row[column.field] }}{% endif %}</td>{% endfor %}</tr>
 {% endfor %}          </tbody>
         </table>
       </div>

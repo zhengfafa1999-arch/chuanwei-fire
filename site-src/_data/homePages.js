@@ -1,6 +1,7 @@
 import { createHomeRoute } from "./siteRoutes.js";
 import { createSeoMetadata } from "./seo.js";
 import { createSiteNavigation } from "./navigation.js";
+import { PRODUCT_FAMILIES, localizedText } from "./productDirectory.js";
 import chinese from "./homeChinese.js";
 
 const arabic = {
@@ -45,8 +46,8 @@ const arabic = {
   "Supervisory, NRS and OS&Y configurations in grooved or flanged styles.": "تكوينات مراقبة وساق غير صاعد أو ساق صاعد بتوصيل محزّز أو فلنجي.",
   "Fire Hose Reels": "بكرات خراطيم الحريق",
   "RIA 25 European-standard (EN 671-1) and JPS direct-stream and jet/spray reel configurations.": "تكوينات RIA 25 وفق EN 671-1 وبكرات JPS بالتدفق المباشر أو النفاث والرذاذ.",
-  "Hoses, Nozzles & Couplings": "الخراطيم والفوهات والوصلات",
-  "Components or matched hose-line assemblies for quotation.": "مكونات منفردة أو مجموعات خطوط خراطيم متطابقة لعرض السعر.",
+  "Fire Hose Nozzles, Couplings & Adapters": "فوهات خراطيم الحريق والوصلات والمهايئات",
+  "Fire hose nozzles, couplings, adapters and related components supplied for individual quotation.": "فوهات خراطيم الحريق والوصلات والمهايئات والمكونات المرتبطة بها متاحة لطلب عروض أسعار منفصلة.",
   "Indoor Fire Hydrants": "محابس الحريق الداخلية",
   "Indoor fire-water outlets and matching system components.": "مخارج مياه حريق داخلية ومكونات نظام متوافقة.",
   "Outdoor Fire Hydrants": "صنابير الحريق الخارجية",
@@ -106,15 +107,6 @@ const shared = {
   alternateLocale: "ar_AR",
   description: "Fire protection equipment manufacturing and OEM support for sprinklers, alarm valves, fire valves, hose reels, fire hoses, nozzles, couplings and hydrant-system components.",
   form: {
-    options: [
-      ["Fire Sprinklers", "Fire Sprinklers"],
-      ["Alarm & System Valves", "Alarm & System Valves"],
-      ["Fire Butterfly / Gate Valves", "Fire Butterfly / Gate Valves"],
-      ["Fire Hose Reels", "Fire Hose Reels"],
-      ["Hoses, Nozzles & Couplings", "Hoses, Nozzles & Couplings"],
-      ["Hydrants & Boxes", "Hydrants & Boxes"],
-      ["Other Fire-Water Components", "Other Fire-Water Components"]
-    ],
     quantityPlaceholder: "e.g. 500 pcs",
     detailsPlaceholder: "Tell us what needs to be confirmed..."
   }
@@ -155,15 +147,6 @@ const pages = [
     description: "面向贸易合作伙伴、经销商和自有品牌客户，提供消防设备制造、产品配置与 OEM 配套支持。",
     translations: chinese,
     form: {
-      options: [
-        ["Fire Sprinklers", "消防喷头"],
-        ["Alarm & System Valves", "报警阀与系统阀门"],
-        ["Fire Butterfly / Gate Valves", "消防蝶阀 / 闸阀"],
-        ["Fire Hose Reels", "消防软管卷盘"],
-        ["Hoses, Nozzles & Couplings", "消防水带、水枪与接口"],
-        ["Hydrants & Boxes", "消火栓与消防箱"],
-        ["Other Fire-Water Components", "其他消防给水组件"]
-      ],
       quantityPlaceholder: "例如：500件",
       detailsPlaceholder: "请填写需要确认的产品要求……"
     },
@@ -185,15 +168,6 @@ const pages = [
     description: "تصنيع وتوريد معدات مكافحة الحريق ودعم OEM لرشاشات الحريق والصمامات وبكرات الخراطيم ومكونات شبكات مياه الحريق.",
     translations: arabic,
     form: {
-      options: [
-        ["Fire Sprinklers", "رشاشات الحريق"],
-        ["Alarm & System Valves", "صمامات الإنذار وصمامات الأنظمة"],
-        ["Fire Butterfly / Gate Valves", "صمامات الفراشة والبوابة"],
-        ["Fire Hose Reels", "بكرات خراطيم الحريق"],
-        ["Hoses, Nozzles & Couplings", "الخراطيم والفوهات والوصلات"],
-        ["Hydrants & Boxes", "صنابير وصناديق الحريق"],
-        ["Other Fire-Water Components", "مكونات أخرى لأنظمة مياه الحريق"]
-      ],
       quantityPlaceholder: "مثال: 500 قطعة",
       detailsPlaceholder: "أخبرنا بما يجب تأكيده..."
     },
@@ -202,12 +176,29 @@ const pages = [
   }
 ];
 
-export default pages.map((page) => ({
-  ...page,
-  navigation: createSiteNavigation("home", page.languageCode, page.outputPath),
-  seo: createSeoMetadata("home", page.languageCode, {
-    title: page.title,
-    description: page.description,
-    image: "https://chuanweifire.com/og-image.jpg"
-  })
-}));
+export default pages.map((page) => {
+  const navigation = createSiteNavigation("home", page.languageCode, page.outputPath);
+  const families = PRODUCT_FAMILIES.map((family) => ({
+    id: family.id,
+    name: localizedText(family.name, page.languageCode),
+    englishName: family.name.en,
+    description: localizedText(family.description, page.languageCode),
+    image: `${page.assetPrefix}${family.image}`,
+    href: `${navigation.productsHref}?q=&category=${family.id}`
+  }));
+
+  return {
+    ...page,
+    families,
+    form: {
+      ...page.form,
+      options: families.map((family) => [family.englishName, family.name, family.id])
+    },
+    navigation,
+    seo: createSeoMetadata("home", page.languageCode, {
+      title: page.title,
+      description: page.description,
+      image: "https://chuanweifire.com/og-image.jpg"
+    })
+  };
+});

@@ -2,6 +2,7 @@
   "id": "straight-through-oblique-landing-valves",
   "routeId": "product:straight-through-oblique-landing-valves",
   "template": "product-series/documented-product.njk",
+  "configurationCards": true,
   "styles": [
     "css/common.css",
     "css/sprinkler-product.css",
@@ -17,9 +18,10 @@
     "evidence": "B-derived-approved-catalog for the native selection table; D-visual for embedded catalog display images"
   },
   "publication": {
-    "status": "local-draft",
-    "externalRelease": false,
-    "imageRights": "pending-website-use-confirmation"
+    "status": "release-candidate",
+    "externalRelease": true,
+    "imageRights": "user-confirmed-website-use",
+    "imageRightsEvidence": "docs/release/eight-products-20260909/image-rights-confirmation.json"
   },
   "media": {
     "hero": "products/室内消防栓/straight-through-oblique-landing-valves/straight-through-catalog-display.jpeg",

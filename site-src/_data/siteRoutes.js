@@ -1,4 +1,5 @@
 import path from "node:path";
+import { catalogExpansionRoutes } from "./catalogExpansion.js";
 
 export const SITE_ORIGIN = "https://chuanweifire.com";
 export const SUPPORTED_LOCALES = ["en", "ar"];
@@ -24,6 +25,7 @@ export const SITE_ROUTES = {
   "category:indoor-hydrants": { kind: "category", locales: { en: published("products/室内消防栓/室内消防栓.html"), ar: published("ar/products/indoor-hydrants/index.html") } },
   "category:outdoor-hydrants": { kind: "category", locales: { en: published("products/室外消防栓/室外消防栓.html"), ar: published("ar/products/outdoor-hydrants/index.html") } },
   "category:fire-department-connections": { kind: "category", locales: { en: published("products/消防水泵接合器.html"), ar: published("ar/products/fire-department-connections/index.html") } },
+  "category:fire-equipment-cabinets": { kind: "category", locales: { en: published("products/消防器材箱.html"), ar: published("ar/products/fire-equipment-cabinets/index.html") } },
 
   "product:wet-alarm-check-valve": { kind: "product", category: "category:system-valves", locales: { en: published("products/消防阀/wet-alarm-check-valve-assemblies.html"), ar: published("ar/products/wet-alarm-check-valve/index.html") } },
   "product:diaphragm-deluge-valves": { kind: "product", category: "category:system-valves", locales: { en: published("products/消防阀/diaphragm-deluge-valves.html"), ar: published("ar/products/diaphragm-deluge-valves/index.html") } },
@@ -70,16 +72,15 @@ export const SITE_ROUTES = {
   "product:lever-operated-fire-hose-nozzles": { kind: "product", category: "category:hoses-nozzles-couplings", locales: { en: published("products/消防水枪/lever-operated-fire-hose-nozzles.html"), ar: published("ar/products/lever-operated-fire-hose-nozzles/index.html") } },
   "product:straight-stream-fire-hose-nozzles": { kind: "product", category: "category:hoses-nozzles-couplings", locales: { en: published("products/消防水枪/straight-stream-fire-hose-nozzles.html"), ar: published("ar/products/straight-stream-fire-hose-nozzles/index.html") } },
   "product:combination-jet-fog-nozzles": { kind: "product", category: "category:hoses-nozzles-couplings", locales: { en: published("products/消防水枪/combination-jet-fog-nozzles.html"), ar: published("ar/products/combination-jet-fog-nozzles/index.html") } },
-  "product:layflat-fire-hoses": { kind: "product", category: "category:hoses-nozzles-couplings", locales: { en: published("products/消防水枪/layflat-fire-hoses.html"), ar: published("ar/products/layflat-fire-hoses/index.html") } },
   "product:kd-hose-couplings": { kind: "product", category: "category:hoses-nozzles-couplings", locales: { en: published("products/消防水枪/kd-hose-couplings.html"), ar: published("ar/products/kd-hose-couplings/index.html") } },
   "product:kn-threaded-adapters": { kind: "product", category: "category:hoses-nozzles-couplings", locales: { en: published("products/消防水枪/kn-threaded-adapters.html"), ar: published("ar/products/kn-threaded-adapters/index.html") } },
-  "product:matched-hose-assemblies": { kind: "product", category: "category:hoses-nozzles-couplings", locales: { en: published("products/消防水枪/matched-hose-assemblies.html"), ar: published("ar/products/matched-hose-assemblies/index.html") } },
-  "product:freestanding-above-ground-fdcs": { kind: "product", category: "category:fire-department-connections", locales: { en: published("products/消防水泵接合器/freestanding-above-ground-fdcs.html"), ar: published("ar/products/freestanding-above-ground-fdcs/index.html") } },
-  "product:alternative-freestanding-fdc-configurations": { kind: "product", category: "category:fire-department-connections", locales: { en: published("products/消防水泵接合器/alternative-freestanding-fdc-configurations.html"), ar: published("ar/products/alternative-freestanding-fdc-configurations/index.html") } },
-  "product:underground-fdc-assemblies": { kind: "product", category: "category:fire-department-connections", locales: { en: published("products/消防水泵接合器/underground-fdc-assemblies.html"), ar: published("ar/products/underground-fdc-assemblies/index.html") } },
-  "product:wall-mounted-grooved-fdc-families": { kind: "product", category: "category:fire-department-connections", locales: { en: published("products/消防水泵接合器/wall-mounted-grooved-fdc-families.html"), ar: published("ar/products/wall-mounted-grooved-fdc-families/index.html") } },
-  "product:breeching-inlets": { kind: "product", category: "category:fire-department-connections", locales: { en: published("products/消防水泵接合器/breeching-inlets.html"), ar: published("ar/products/breeching-inlets/index.html") } },
-  "product:russian-pattern-fire-department-connection": { kind: "product", category: "category:fire-department-connections", locales: { en: published("products/消防水泵接合器/russian-pattern-fire-department-connection.html"), ar: published("ar/products/russian-pattern-fire-department-connection/index.html") } }
+  "product:russian-pattern-fire-department-connection": { kind: "product", category: "category:fire-department-connections", locales: { en: published("products/消防水泵接合器/russian-pattern-fire-department-connection.html"), ar: published("ar/products/russian-pattern-fire-department-connection/index.html") } },
+  "product:fire-equipment-cabinets": { kind: "product", category: "category:fire-equipment-cabinets", locales: { en: published("products/消防器材箱/fire-equipment-cabinets.html"), ar: published("ar/products/fire-equipment-cabinet-series/index.html") } },
+  ...Object.fromEntries(Object.entries(catalogExpansionRoutes).map(([routeId, route]) => [routeId, {
+    kind: "product",
+    category: route.familyRouteId,
+    locales: { en: published(route.en), ar: published(route.ar) }
+  }]))
 };
 
 function canonicalFor(outputPath) {
@@ -134,7 +135,7 @@ export function createHomeRoute(locale) {
   const outputPath = current.outputPath;
   const rootBased = false;
   const destinationLocale = locale === "zh" ? "en" : locale;
-  const familyIds = ["sprinklers", "system-valves", "butterfly-valves", "gate-valves", "hose-reels", "hoses-nozzles-couplings", "indoor-hydrants", "outdoor-hydrants", "fire-department-connections"];
+  const familyIds = ["sprinklers", "system-valves", "butterfly-valves", "gate-valves", "hose-reels", "hoses-nozzles-couplings", "indoor-hydrants", "outdoor-hydrants", "fire-department-connections", "fire-equipment-cabinets"];
   return {
     outputPath,
     canonical: canonicalFor(outputPath),

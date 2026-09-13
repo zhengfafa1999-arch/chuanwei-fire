@@ -6,6 +6,7 @@ import { pathToFileURL } from "node:url";
 import { spawn } from "node:child_process";
 import { SITE_ROUTES } from "../site-src/_data/siteRoutes.js";
 import { PRODUCT_FAMILIES } from "../site-src/_data/productDirectory.js";
+import { catalogExpansionByRoute } from "../site-src/_data/catalogExpansion.js";
 import { validateSystemValveNavigation } from "./browser-system-valves.mjs";
 import { validateStandardResponse } from "./browser-standard-response.mjs";
 
@@ -283,9 +284,10 @@ async function run() {
     const preservedSource = path.join(root, 'site-src', '_data', 'preserved-products', `${slug}.json`);
     const documentedSource = path.join(root, 'site-src', '_data', 'documented-products', `${slug}.json`);
     const catalogSource = path.join(root, 'site-src', '_data', 'catalog-products', `${slug}.json`);
-    const source = fs.existsSync(preservedSource) ? preservedSource : fs.existsSync(documentedSource) ? documentedSource : catalogSource;
-    assert(fs.existsSync(source), `No shared product source for ${slug}; add a targeted test adapter before testing this product.`);
-    const focusedProduct = JSON.parse(fs.readFileSync(source, 'utf8'));
+    const expansionProduct = catalogExpansionByRoute.get(`product:${slug}`);
+    const source = fs.existsSync(preservedSource) ? preservedSource : fs.existsSync(documentedSource) ? documentedSource : fs.existsSync(catalogSource) ? catalogSource : null;
+    assert(source || expansionProduct, `No shared product source for ${slug}; add a targeted test adapter before testing this product.`);
+    const focusedProduct = expansionProduct || JSON.parse(fs.readFileSync(source, 'utf8'));
     focusedProduct.catalogOnly = source === catalogSource;
     assert(focusedProduct.catalogOnly || ['product-series/documented-product.njk', 'product-series/quick-response.njk', 'product-series/standard-response.njk', 'product-series/concealed-pendent.njk', 'product-series/dry-pendent.njk', 'product-series/extended-coverage.njk', 'product-series/large-k-esfr.njk', 'product-series/ria25-hose-reel.njk', 'product-series/straight-stream-hose-reel.njk', 'product-series/jet-spray-hose-reel.njk', 'product-series/heavy-duty-hose-reel.njk', 'product-series/butterfly-valve.njk', 'product-series/gate-valve.njk', 'product-series/indoor-hydrant.njk', 'product-series/outdoor-hydrant.njk'].includes(focusedProduct.template), 'This template needs its own targeted interaction adapter; do not silently skip its checks.');
     return { slug, product: focusedProduct };
@@ -568,8 +570,15 @@ async function run() {
       languageSwitches.push({ scenario: `${home}: shared styles/logo load and product section retains locale`, status: "PASS" });
     }
     await evaluate(client, "document.querySelector('.product').click()");
-    await waitForLocation(client, "/ar/products/sprinklers/index.html");
-    languageSwitches.push({ scenario: "AR homepage product card opens AR category", status: "PASS" });
+    await waitForLocation(client, "/ar/products.html");
+    await delay(100);
+    const homepageCategory = await evaluate(client, `({
+      category: new URLSearchParams(location.search).get('category'),
+      visibleFamilies: [...document.querySelectorAll('.finder-family:not([hidden])')].map(section => section.dataset.family)
+    })`);
+    assert(homepageCategory.category === "sprinklers", "AR homepage product card did not retain the sprinkler filter.");
+    assert(homepageCategory.visibleFamilies.length === 1 && homepageCategory.visibleFamilies[0] === "sprinklers", "AR homepage product card did not open the matching filtered products.");
+    languageSwitches.push({ scenario: "AR homepage product card opens the filtered AR directory", status: "PASS" });
     const productInteractions = [];
     for (const viewport of viewports) {
       await client.send("Emulation.setDeviceMetricsOverride", viewport);
@@ -807,7 +816,7 @@ async function run() {
       "## 覆盖范围",
       "",
       `全部 ${documentedProducts.length} 个 documented-products 产品（包括本批 8 个新增产品及标准/快速响应喷头）：按当前共享数据核对图库数量和表格行数，验证分类入口、英阿互切、刷新、图库、放大、锚点与返回。`,
-      `英文/中文/阿文首页、产品总目录、公共页面、分类页和双语详情；逐一打开全部 ${navigationPages.length} 个本地页面，在 1440、768、390 和 320 像素四档宽度检查 LTR/RTL、页面溢出、页头边界、图片加载、控件和菜单；验证语言切换与返回、雨淋阀图库、预作用阀组和干式报警阀放大与锚点；逐一验证全部 ${PRODUCT_FAMILIES.length} 个分类的图片/文字入口、英阿切换、刷新、浏览器返回及页脚入口。测试通过不表示本地草稿获准公开发布。`,
+      `英文/中文/阿文首页、产品总目录、公共页面、分类页和双语详情；逐一打开全部 ${navigationPages.length} 个本地页面，在 1440、768、390 和 320 像素四档宽度检查 LTR/RTL、页面溢出、页头边界、图片加载、控件和菜单；验证语言切换与返回、雨淋阀图库、预作用阀组和干式报警阀放大与锚点；逐一验证全部 ${PRODUCT_FAMILIES.length} 个分类的图片/文字入口、英阿切换、刷新、浏览器返回及页脚入口。测试通过表示本地发布候选页面可用，不表示已经部署到线上。`,
       "",
       "## 可复核产物",
       "",

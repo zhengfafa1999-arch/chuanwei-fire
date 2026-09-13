@@ -8,7 +8,7 @@
     "css/sprinkler-product-gallery.css",
     "css/site-navigation.css"
   ],
-  "inlineStyle": "\n    .wm-frame{position:relative;overflow:hidden}.wm-frame::before{content:\"CHUANWEI FIRE · chuanweifire.com\";position:absolute;right:16px;bottom:14px;z-index:4;color:rgba(28,44,61,.38);font:700 12px/1.2 Arial,sans-serif;letter-spacing:.04em;pointer-events:none}.wm-frame::after{content:\"CHUANWEI FIRE\";position:absolute;left:50%;top:48%;z-index:3;transform:translate(-50%,-50%) rotate(-24deg);color:rgba(28,44,61,.16);font:800 clamp(24px,4vw,54px)/1 Arial,sans-serif;letter-spacing:.12em;white-space:nowrap;pointer-events:none}.series-block{margin-top:28px}.series-block h3{font-size:1.35rem;margin:0 0 10px}.series-block>p{color:#647184;margin:0 0 16px}.pdp-table+.pdp-table{margin-top:24px}\n  ",
+  "inlineStyle": "",
   "source": {
     "path": "products/消防喷头/large-k-factor-esfr-sprinklers.html",
     "revision": "ada3095",

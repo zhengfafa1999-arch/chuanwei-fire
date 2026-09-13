@@ -4,6 +4,7 @@ import { fileURLToPath } from "node:url";
 import { createProductPageRoute, SITE_ORIGIN } from "./siteRoutes.js";
 import { createSiteNavigation } from "./navigation.js";
 import { createSeoMetadata } from "./seo.js";
+import { catalogExpansionProducts } from "./catalogExpansion.js";
 
 const directory = path.dirname(fileURLToPath(import.meta.url));
 const sourceDirectory = path.join(directory, "documented-products");
@@ -29,7 +30,8 @@ function requireCopy(product, locale) {
 
 const products = fs.readdirSync(sourceDirectory)
   .filter(file => file.endsWith(".json"))
-  .map(file => readJson(path.join(sourceDirectory, file)));
+  .map(file => readJson(path.join(sourceDirectory, file)))
+  .concat(catalogExpansionProducts);
 
 export default products.flatMap(product => ["en", "ar"].map(locale => {
   const route = createProductPageRoute(product.routeId, locale);

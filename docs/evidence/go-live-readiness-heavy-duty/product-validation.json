@@ -1,0 +1,86 @@
+{
+  "scope": "single-product",
+  "products": [
+    "heavy-duty-fire-hose-reel"
+  ],
+  "previewMode": "http",
+  "generatedAt": "2026-09-13T15:21:07.157Z",
+  "browser": "Edg/153.0.4234.32",
+  "viewports": [
+    {
+      "id": "desktop",
+      "width": 1440,
+      "height": 900,
+      "deviceScaleFactor": 1,
+      "mobile": false
+    },
+    {
+      "id": "mobile",
+      "width": 390,
+      "height": 844,
+      "deviceScaleFactor": 1,
+      "mobile": true
+    }
+  ],
+  "validations": [
+    {
+      "slug": "heavy-duty-fire-hose-reel",
+      "languageSwitches": [
+        {
+          "scenario": "desktop/en: heavy-duty-fire-hose-reel image/text category entries, reciprocal switch, refresh, single hero image zoom, three modal closes and footer returns",
+          "status": "PASS"
+        },
+        {
+          "scenario": "desktop/ar: heavy-duty-fire-hose-reel image/text category entries, reciprocal switch, refresh, single hero image zoom, three modal closes and footer returns",
+          "status": "PASS"
+        },
+        {
+          "scenario": "mobile/en: heavy-duty-fire-hose-reel image/text category entries, reciprocal switch, refresh, single hero image zoom, three modal closes and footer returns",
+          "status": "PASS"
+        },
+        {
+          "scenario": "mobile/ar: heavy-duty-fire-hose-reel image/text category entries, reciprocal switch, refresh, single hero image zoom, three modal closes and footer returns",
+          "status": "PASS"
+        }
+      ],
+      "screenshots": [
+        "edge-desktop-heavy-duty-fire-hose-reel-en-hero.png",
+        "edge-desktop-heavy-duty-fire-hose-reel-en-models.png",
+        "edge-desktop-heavy-duty-fire-hose-reel-ar-hero.png",
+        "edge-desktop-heavy-duty-fire-hose-reel-ar-models.png",
+        "edge-mobile-heavy-duty-fire-hose-reel-en-hero.png",
+        "edge-mobile-heavy-duty-fire-hose-reel-en-models.png",
+        "edge-mobile-heavy-duty-fire-hose-reel-ar-hero.png",
+        "edge-mobile-heavy-duty-fire-hose-reel-ar-models.png"
+      ]
+    }
+  ],
+  "languageSwitches": [
+    {
+      "scenario": "desktop/en: heavy-duty-fire-hose-reel image/text category entries, reciprocal switch, refresh, single hero image zoom, three modal closes and footer returns",
+      "status": "PASS"
+    },
+    {
+      "scenario": "desktop/ar: heavy-duty-fire-hose-reel image/text category entries, reciprocal switch, refresh, single hero image zoom, three modal closes and footer returns",
+      "status": "PASS"
+    },
+    {
+      "scenario": "mobile/en: heavy-duty-fire-hose-reel image/text category entries, reciprocal switch, refresh, single hero image zoom, three modal closes and footer returns",
+      "status": "PASS"
+    },
+    {
+      "scenario": "mobile/ar: heavy-duty-fire-hose-reel image/text category entries, reciprocal switch, refresh, single hero image zoom, three modal closes and footer returns",
+      "status": "PASS"
+    }
+  ],
+  "screenshots": [
+    "edge-desktop-heavy-duty-fire-hose-reel-en-hero.png",
+    "edge-desktop-heavy-duty-fire-hose-reel-en-models.png",
+    "edge-desktop-heavy-duty-fire-hose-reel-ar-hero.png",
+    "edge-desktop-heavy-duty-fire-hose-reel-ar-models.png",
+    "edge-mobile-heavy-duty-fire-hose-reel-en-hero.png",
+    "edge-mobile-heavy-duty-fire-hose-reel-en-models.png",
+    "edge-mobile-heavy-duty-fire-hose-reel-ar-hero.png",
+    "edge-mobile-heavy-duty-fire-hose-reel-ar-models.png"
+  ]
+}

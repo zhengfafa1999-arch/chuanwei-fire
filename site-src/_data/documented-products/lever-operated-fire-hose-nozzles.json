@@ -21,9 +21,10 @@
     "mappingEvidence": "catalog-module-lever-nozzles/source/图1_编号口径来源.png: upper configuration A maps to image84; lower configuration B maps to image85."
   },
   "publication": {
-    "status": "local-draft",
-    "externalRelease": false,
-    "imageRights": "pending-website-use-confirmation"
+    "status": "release-candidate",
+    "externalRelease": true,
+    "imageRights": "user-confirmed-website-use",
+    "imageRightsEvidence": "docs/release/eight-products-20260909/image-rights-confirmation.json"
   },
   "media": {
     "hero": "products/消防水枪/lever-operated-fire-hose-nozzles/configuration-a-catalog-display.png",

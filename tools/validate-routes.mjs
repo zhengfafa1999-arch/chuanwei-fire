@@ -19,6 +19,9 @@ function listFormalHtml(directory = root) {
   for (const entry of fs.readdirSync(directory, { withFileTypes: true })) {
     if (entry.name === "node_modules" || entry.name === "demo") continue;
     const absolutePath = path.join(directory, entry.name);
+    const relativePath = path.relative(root, absolutePath).split(path.sep).join('/');
+    // Local deployment candidates and review previews are not public site routes.
+    if (relativePath === 'outputs' || relativePath === 'docs/release') continue;
     if (entry.isDirectory()) results.push(...listFormalHtml(absolutePath));
     if (entry.isFile() && entry.name.endsWith(".html") && entry.name !== "guanya_original.html") {
       results.push(path.relative(root, absolutePath).split(path.sep).join("/"));

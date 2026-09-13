@@ -25,9 +25,10 @@
     ]
   },
   "publication": {
-    "status": "local-draft",
-    "externalRelease": false,
-    "imageRights": "pending-website-use-confirmation"
+    "status": "release-candidate",
+    "externalRelease": true,
+    "imageRights": "user-confirmed-website-use",
+    "imageRightsEvidence": "docs/release/eight-products-20260909/image-rights-confirmation.json"
   },
   "media": {
     "hero": "products/消防水枪/straight-stream-fire-hose-nozzles/qz-catalog-display.png",

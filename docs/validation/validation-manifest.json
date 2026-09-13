@@ -1,0 +1,35 @@
+{
+  "generatedAt": "2026-09-13T23:57:09+08:00",
+  "scope": "local website release readiness and public domain entry points",
+  "status": "FAIL",
+  "counts": {
+    "publishedPages": 165,
+    "routeIds": 82,
+    "catalogProducts": 184,
+    "draftProducts": 0,
+    "draftLocalizedPages": 0,
+    "releaseCandidateProducts": 34,
+    "releaseCandidateLocalizedPages": 68,
+    "pendingImageRightsProducts": 0,
+    "pendingImageRightsImages": 0,
+    "watermarkedProductImages": 388,
+    "catalogThumbnails": 184,
+    "staticImagesChecked": 1999,
+    "internalReferencesChecked": 38814,
+    "browserRepresentativeChecks": 58,
+    "browserResponsiveRtlChecks": 668,
+    "browserLanguageReturnChecks": 432,
+    "focusedCategoryChecksAfterRemoval": 16
+  },
+  "blockingFindings": [
+    "www HTTPS certificate does not match and www HTTP returns 404",
+    "the current working tree is not a fixed, traceable release version"
+  ],
+  "validationCommands": [
+    "npm run build",
+    "node tools/validate-browser.mjs",
+    "node tools/validate-catalog-performance.mjs",
+    "node tools/validate-catalog-pagination.mjs",
+    "npm run validate:static-release"
+  ]
+}

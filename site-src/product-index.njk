@@ -21,13 +21,28 @@ eleventyExcludeFromCollections: true
 {% include "site-header.njk" %}
   <main>
     <section class="catalog-hero"><div class="catalog-shell"><p class="catalog-eyebrow">{{ entry.copy.directoryEyebrow }}</p><h1>{{ entry.copy.directoryTitle }}</h1><p>{{ entry.copy.directoryLead }}</p></div></section>
-    <section class="catalog-section"><div class="catalog-shell"><div class="catalog-notice">{{ entry.copy.directoryNote }}</div><div class="family-grid">
-      {% for family in entry.families %}<a class="family-card" id="{{ family.id }}" href="{{ family.href }}"><div class="family-card__image"><img src="{{ family.image }}" alt="{{ family.name }}" loading="lazy"></div><div class="family-card__body"><span class="family-card__count">{{ family.productCount }} {% if entry.copy.lang == 'ar' %}أنواع{% else %}product types{% endif %}</span><h2>{{ family.name }}</h2><p>{{ family.description }}</p><strong>{{ entry.copy.browseCategory }} <span aria-hidden="true">→</span></strong></div></a>{% endfor %}
-    </div></div></section>
+    <section class="catalog-section" data-product-finder><div class="catalog-shell">
+      <div class="finder-controls" hidden>
+        <label for="product-search">{% if entry.locale == 'ar' %}البحث باسم المنتج{% else %}Search by product name{% endif %}</label>
+        <input id="product-search" type="search" autocomplete="off" aria-controls="product-results">
+        <label for="product-family">{% if entry.locale == 'ar' %}فئة المنتج{% else %}Product category{% endif %}</label>
+        <select id="product-family"><option value="">{% if entry.locale == 'ar' %}جميع المنتجات{% else %}All products{% endif %}</option>{% for family in entry.families %}<option value="{{ family.id }}">{{ family.name }}</option>{% endfor %}</select>
+        <button type="button" data-finder-reset>{% if entry.locale == 'ar' %}إعادة تعيين{% else %}Clear filters{% endif %}</button>
+        <p data-finder-count role="status" aria-live="polite"></p>
+      </div>
+      <nav class="finder-shortcuts" aria-label="{{ entry.copy.products }}">{% for family in entry.families %}<a href="#{{ family.id }}">{{ family.name }}</a>{% endfor %}</nav>
+      <nav class="finder-pagination" data-finder-pagination hidden aria-label="{% if entry.locale == 'ar' %}صفحات المنتجات{% else %}Product pages{% endif %}"><button type="button" data-page-prev>{% if entry.locale == 'ar' %}السابق{% else %}Previous{% endif %}</button><span data-page-label role="status" aria-live="polite"></span><button type="button" data-page-next>{% if entry.locale == 'ar' %}التالي{% else %}Next{% endif %}</button></nav>
+      <div id="product-results">{% for family in entry.families %}<section class="finder-family" id="{{ family.id }}" data-family="{{ family.id }}"><div class="catalog-section__heading"><h2>{{ family.name }}</h2></div><div class="product-grid">
+      {% for product in family.products %}<article class="product-card" data-search="{{ product.searchText }}"><a class="product-card__image" href="{{ product.href }}"><img class="finder-js-image" src="{{ product.image }}" alt="{{ product.name }}" width="480" height="480" loading="lazy" decoding="async"></a><div class="product-card__body"><h3><a href="{{ product.href }}">{{ product.name }}</a></h3>{% if product.configurations.length %}<nav class="configuration-links">{% for configuration in product.configurations %}<a href="{{ configuration.href }}">{{ configuration.name }} →</a>{% endfor %}</nav>{% endif %}<a class="product-card__link" href="{{ product.href }}">{{ entry.copy.localizedDetails }} →</a></div></article>{% endfor %}
+      </div></section>{% endfor %}</div>
+      <nav class="finder-pagination" data-finder-pagination hidden aria-label="{% if entry.locale == 'ar' %}صفحات المنتجات{% else %}Product pages{% endif %}"><button type="button" data-page-prev>{% if entry.locale == 'ar' %}السابق{% else %}Previous{% endif %}</button><span data-page-label role="status" aria-live="polite"></span><button type="button" data-page-next>{% if entry.locale == 'ar' %}التالي{% else %}Next{% endif %}</button></nav>
+      <p data-finder-empty hidden>{% if entry.locale == 'ar' %}لم يتم العثور على منتجات. جرّب اسماً آخر أو امسح عوامل التصفية.{% else %}No products found. Try another name or clear the filters.{% endif %}</p>
+    </div></section>
     <section class="catalog-selection"><div class="catalog-shell catalog-selection__grid"><div><p class="catalog-eyebrow">OEM / ODM</p><h2>{{ entry.copy.selectionTitle }}</h2><p>{{ entry.copy.selectionLead }}</p></div><ul>{% for item in entry.copy.selectionItems %}<li>{{ item }}</li>{% endfor %}</ul></div></section>
     <section class="catalog-cta"><div class="catalog-shell catalog-cta__in"><div><h2>{{ entry.copy.inquiryTitle }}</h2><p>{{ entry.copy.inquiryBody }}</p></div><a class="catalog-button" href="https://wa.me/8617326528368" target="_blank" rel="noopener">{{ entry.copy.whatsapp }}</a></div></section>
   </main>
   <footer class="catalog-footer"><div class="catalog-shell"><span>© 2026 CHUANWEI FIRE</span><a href="{{ entry.route.homeHref }}">{{ entry.copy.home }}</a></div></footer>
   <script src="{{ entry.route.assetPrefix }}assets/js/site-navigation.js"></script>
+  <script src="{{ entry.route.assetPrefix }}assets/js/product-finder.js?v=20260913-6"></script>
 </body>
 </html>

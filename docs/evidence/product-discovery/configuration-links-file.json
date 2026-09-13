@@ -1,0 +1,352 @@
+[
+  {
+    "file": "products/消防喷头/standard-response-fire-sprinkler.html",
+    "view": "products/消防喷头/standard-response-sprinkler/standard-response-pendent.jpg",
+    "status": "PASS"
+  },
+  {
+    "file": "ar/products/standard-response-fire-sprinkler/index.html",
+    "view": "products/消防喷头/standard-response-sprinkler/standard-response-pendent.jpg",
+    "status": "PASS"
+  },
+  {
+    "file": "products/消防喷头/standard-response-fire-sprinkler.html",
+    "view": "products/消防喷头/standard-response-sprinkler/standard-response-upright.jpg",
+    "status": "PASS"
+  },
+  {
+    "file": "ar/products/standard-response-fire-sprinkler/index.html",
+    "view": "products/消防喷头/standard-response-sprinkler/standard-response-upright.jpg",
+    "status": "PASS"
+  },
+  {
+    "file": "products/消防喷头/standard-response-fire-sprinkler.html",
+    "view": "products/消防喷头/standard-response-sprinkler/standard-response-horizontal-sidewall.jpg",
+    "status": "PASS"
+  },
+  {
+    "file": "ar/products/standard-response-fire-sprinkler/index.html",
+    "view": "products/消防喷头/standard-response-sprinkler/standard-response-horizontal-sidewall.jpg",
+    "status": "PASS"
+  },
+  {
+    "file": "products/消防喷头/fusible-alloy-fire-sprinklers.html",
+    "view": "products/消防喷头/fusible-alloy-fire-sprinklers/fusible-alloy-configuration-a.jpg",
+    "status": "PASS"
+  },
+  {
+    "file": "ar/products/fusible-alloy-fire-sprinklers/index.html",
+    "view": "products/消防喷头/fusible-alloy-fire-sprinklers/fusible-alloy-configuration-a.jpg",
+    "status": "PASS"
+  },
+  {
+    "file": "products/消防喷头/fusible-alloy-fire-sprinklers.html",
+    "view": "products/消防喷头/fusible-alloy-fire-sprinklers/fusible-alloy-configuration-b.jpg",
+    "status": "PASS"
+  },
+  {
+    "file": "ar/products/fusible-alloy-fire-sprinklers/index.html",
+    "view": "products/消防喷头/fusible-alloy-fire-sprinklers/fusible-alloy-configuration-b.jpg",
+    "status": "PASS"
+  },
+  {
+    "file": "products/消防喷头/glass-bulb-fire-sprinkler.html",
+    "view": "products/消防喷头/glass-bulb-sprinkler/quick-response-pendent.jpg",
+    "status": "PASS"
+  },
+  {
+    "file": "ar/products/glass-bulb-fire-sprinkler/index.html",
+    "view": "products/消防喷头/glass-bulb-sprinkler/quick-response-pendent.jpg",
+    "status": "PASS"
+  },
+  {
+    "file": "products/消防喷头/glass-bulb-fire-sprinkler.html",
+    "view": "products/消防喷头/glass-bulb-sprinkler/quick-response-upright.jpg",
+    "status": "PASS"
+  },
+  {
+    "file": "ar/products/glass-bulb-fire-sprinkler/index.html",
+    "view": "products/消防喷头/glass-bulb-sprinkler/quick-response-upright.jpg",
+    "status": "PASS"
+  },
+  {
+    "file": "products/消防喷头/extended-coverage-quick-response-fire-sprinkler.html",
+    "view": "products/消防喷头/extended-coverage-quick-response-sprinkler/temporary-reference-pendent.jpg",
+    "status": "PASS"
+  },
+  {
+    "file": "ar/products/extended-coverage-quick-response-fire-sprinkler/index.html",
+    "view": "products/消防喷头/extended-coverage-quick-response-sprinkler/temporary-reference-pendent.jpg",
+    "status": "PASS"
+  },
+  {
+    "file": "products/消防喷头/extended-coverage-quick-response-fire-sprinkler.html",
+    "view": "products/消防喷头/extended-coverage-quick-response-sprinkler/temporary-reference-upright.jpg",
+    "status": "PASS"
+  },
+  {
+    "file": "ar/products/extended-coverage-quick-response-fire-sprinkler/index.html",
+    "view": "products/消防喷头/extended-coverage-quick-response-sprinkler/temporary-reference-upright.jpg",
+    "status": "PASS"
+  },
+  {
+    "file": "products/消防喷头/extended-coverage-quick-response-fire-sprinkler.html",
+    "view": "products/消防喷头/extended-coverage-quick-response-sprinkler/temporary-reference-horizontal-sidewall.jpg",
+    "status": "PASS"
+  },
+  {
+    "file": "ar/products/extended-coverage-quick-response-fire-sprinkler/index.html",
+    "view": "products/消防喷头/extended-coverage-quick-response-sprinkler/temporary-reference-horizontal-sidewall.jpg",
+    "status": "PASS"
+  },
+  {
+    "file": "products/消防喷头/large-k-factor-esfr-sprinklers.html",
+    "view": "products/消防喷头/large-k-esfr-sprinkler/esfr-pendent-series.jpg",
+    "status": "PASS"
+  },
+  {
+    "file": "ar/products/large-k-factor-esfr-sprinklers/index.html",
+    "view": "products/消防喷头/large-k-esfr-sprinkler/esfr-pendent-series.jpg",
+    "status": "PASS"
+  },
+  {
+    "file": "products/消防喷头/large-k-factor-esfr-sprinklers.html",
+    "view": "products/消防喷头/large-k-esfr-sprinkler/esfr-upright-series.jpg",
+    "status": "PASS"
+  },
+  {
+    "file": "ar/products/large-k-factor-esfr-sprinklers/index.html",
+    "view": "products/消防喷头/large-k-esfr-sprinkler/esfr-upright-series.jpg",
+    "status": "PASS"
+  },
+  {
+    "file": "products/消防喷头/large-k-factor-esfr-sprinklers.html",
+    "view": "products/消防喷头/large-k-esfr-sprinkler/large-k202-pendent.jpg",
+    "status": "PASS"
+  },
+  {
+    "file": "ar/products/large-k-factor-esfr-sprinklers/index.html",
+    "view": "products/消防喷头/large-k-esfr-sprinkler/large-k202-pendent.jpg",
+    "status": "PASS"
+  },
+  {
+    "file": "products/消防喷头/large-k-factor-esfr-sprinklers.html",
+    "view": "products/消防喷头/large-k-esfr-sprinkler/large-k202-horizontal-sidewall.jpg",
+    "status": "PASS"
+  },
+  {
+    "file": "ar/products/large-k-factor-esfr-sprinklers/index.html",
+    "view": "products/消防喷头/large-k-esfr-sprinkler/large-k202-horizontal-sidewall.jpg",
+    "status": "PASS"
+  },
+  {
+    "file": "products/消防喷头/large-k-factor-esfr-sprinklers.html",
+    "view": "products/消防喷头/large-k-esfr-sprinkler/large-k202-upright.jpg",
+    "status": "PASS"
+  },
+  {
+    "file": "ar/products/large-k-factor-esfr-sprinklers/index.html",
+    "view": "products/消防喷头/large-k-esfr-sprinkler/large-k202-upright.jpg",
+    "status": "PASS"
+  },
+  {
+    "file": "products/消防喷头/water-mist-nozzles.html",
+    "view": "products/消防喷头/water-mist-nozzles/water-mist-nozzle-with-inlet-strainer.jpg",
+    "status": "PASS"
+  },
+  {
+    "file": "ar/products/water-mist-nozzles/index.html",
+    "view": "products/消防喷头/water-mist-nozzles/water-mist-nozzle-with-inlet-strainer.jpg",
+    "status": "PASS"
+  },
+  {
+    "file": "products/消防喷头/water-mist-nozzles.html",
+    "view": "products/消防喷头/water-mist-nozzles/water-mist-nozzle-body.jpg",
+    "status": "PASS"
+  },
+  {
+    "file": "ar/products/water-mist-nozzles/index.html",
+    "view": "products/消防喷头/water-mist-nozzles/water-mist-nozzle-body.jpg",
+    "status": "PASS"
+  },
+  {
+    "file": "products/消防喷头/water-mist-nozzles.html",
+    "view": "products/消防喷头/water-mist-nozzles/water-mist-nozzle-with-mesh-guard.jpg",
+    "status": "PASS"
+  },
+  {
+    "file": "ar/products/water-mist-nozzles/index.html",
+    "view": "products/消防喷头/water-mist-nozzles/water-mist-nozzle-with-mesh-guard.jpg",
+    "status": "PASS"
+  },
+  {
+    "file": "products/消防喷头/water-mist-nozzles.html",
+    "view": "products/消防喷头/water-mist-nozzles/impingement-water-mist-nozzle-with-inlet-strainer.jpg",
+    "status": "PASS"
+  },
+  {
+    "file": "ar/products/water-mist-nozzles/index.html",
+    "view": "products/消防喷头/water-mist-nozzles/impingement-water-mist-nozzle-with-inlet-strainer.jpg",
+    "status": "PASS"
+  },
+  {
+    "file": "products/消防喷头/water-mist-nozzles.html",
+    "view": "products/消防喷头/water-mist-nozzles/impingement-water-mist-nozzle-open-type.jpg",
+    "status": "PASS"
+  },
+  {
+    "file": "ar/products/water-mist-nozzles/index.html",
+    "view": "products/消防喷头/water-mist-nozzles/impingement-water-mist-nozzle-open-type.jpg",
+    "status": "PASS"
+  },
+  {
+    "file": "products/消防喷头/water-curtain-nozzles.html",
+    "view": "products/消防喷头/water-curtain-nozzles/horizontal-single-slot-water-curtain-nozzle.jpg",
+    "status": "PASS"
+  },
+  {
+    "file": "ar/products/water-curtain-nozzles/index.html",
+    "view": "products/消防喷头/water-curtain-nozzles/horizontal-single-slot-water-curtain-nozzle.jpg",
+    "status": "PASS"
+  },
+  {
+    "file": "products/消防喷头/water-curtain-nozzles.html",
+    "view": "products/消防喷头/water-curtain-nozzles/horizontal-double-slot-water-curtain-nozzle.jpg",
+    "status": "PASS"
+  },
+  {
+    "file": "ar/products/water-curtain-nozzles/index.html",
+    "view": "products/消防喷头/water-curtain-nozzles/horizontal-double-slot-water-curtain-nozzle.jpg",
+    "status": "PASS"
+  },
+  {
+    "file": "products/消防喷头/water-curtain-nozzles.html",
+    "view": "products/消防喷头/water-curtain-nozzles/pendent-water-curtain-nozzle.jpg",
+    "status": "PASS"
+  },
+  {
+    "file": "ar/products/water-curtain-nozzles/index.html",
+    "view": "products/消防喷头/water-curtain-nozzles/pendent-water-curtain-nozzle.jpg",
+    "status": "PASS"
+  },
+  {
+    "file": "products/消防阀/wet-alarm-check-valve-assemblies.html",
+    "view": "products/消防阀/wet-alarm-check-valve-assemblies/dn150-flanged-wet-alarm-assembly-en.jpg",
+    "status": "PASS"
+  },
+  {
+    "file": "ar/products/wet-alarm-check-valve/index.html",
+    "view": "products/消防阀/wet-alarm-check-valve-assemblies/dn150-flanged-wet-alarm-assembly-en.jpg",
+    "status": "PASS"
+  },
+  {
+    "file": "products/消防阀/wet-alarm-check-valve-assemblies.html",
+    "view": "products/消防阀/wet-alarm-check-valve-assemblies/dn150-grooved-wet-alarm-assembly-en.jpg",
+    "status": "PASS"
+  },
+  {
+    "file": "ar/products/wet-alarm-check-valve/index.html",
+    "view": "products/消防阀/wet-alarm-check-valve-assemblies/dn150-grooved-wet-alarm-assembly-en.jpg",
+    "status": "PASS"
+  },
+  {
+    "file": "products/消防阀/diaphragm-deluge-valves.html",
+    "view": "products/消防阀/diaphragm-deluge-valves/deluge-valve-flanged.jpg",
+    "status": "PASS"
+  },
+  {
+    "file": "ar/products/diaphragm-deluge-valves/index.html",
+    "view": "products/消防阀/diaphragm-deluge-valves/deluge-valve-flanged.jpg",
+    "status": "PASS"
+  },
+  {
+    "file": "products/消防阀/diaphragm-deluge-valves.html",
+    "view": "products/消防阀/diaphragm-deluge-valves/deluge-valve-grooved.jpg",
+    "status": "PASS"
+  },
+  {
+    "file": "ar/products/diaphragm-deluge-valves/index.html",
+    "view": "products/消防阀/diaphragm-deluge-valves/deluge-valve-grooved.jpg",
+    "status": "PASS"
+  },
+  {
+    "file": "products/消防水枪/straight-stream-fire-hose-nozzles.html",
+    "view": "products/消防水枪/straight-stream-fire-hose-nozzles/qz-catalog-display.png",
+    "status": "PASS"
+  },
+  {
+    "file": "ar/products/straight-stream-fire-hose-nozzles/index.html",
+    "view": "products/消防水枪/straight-stream-fire-hose-nozzles/qz-catalog-display.png",
+    "status": "PASS"
+  },
+  {
+    "file": "products/消防水枪/straight-stream-fire-hose-nozzles.html",
+    "view": "products/消防水枪/straight-stream-fire-hose-nozzles/russian-pattern-catalog-display.png",
+    "status": "PASS"
+  },
+  {
+    "file": "ar/products/straight-stream-fire-hose-nozzles/index.html",
+    "view": "products/消防水枪/straight-stream-fire-hose-nozzles/russian-pattern-catalog-display.png",
+    "status": "PASS"
+  },
+  {
+    "file": "products/消防水枪/lever-operated-fire-hose-nozzles.html",
+    "view": "products/消防水枪/lever-operated-fire-hose-nozzles/configuration-a-catalog-display.png",
+    "status": "PASS"
+  },
+  {
+    "file": "ar/products/lever-operated-fire-hose-nozzles/index.html",
+    "view": "products/消防水枪/lever-operated-fire-hose-nozzles/configuration-a-catalog-display.png",
+    "status": "PASS"
+  },
+  {
+    "file": "products/消防水枪/lever-operated-fire-hose-nozzles.html",
+    "view": "products/消防水枪/lever-operated-fire-hose-nozzles/configuration-b-catalog-display.png",
+    "status": "PASS"
+  },
+  {
+    "file": "ar/products/lever-operated-fire-hose-nozzles/index.html",
+    "view": "products/消防水枪/lever-operated-fire-hose-nozzles/configuration-b-catalog-display.png",
+    "status": "PASS"
+  },
+  {
+    "file": "products/室内消防栓/horizontal-handwheel-landing-valves.html",
+    "view": "products/室内消防栓/horizontal-handwheel-landing-valves/threaded-inlet-catalog-display.jpeg",
+    "status": "PASS"
+  },
+  {
+    "file": "ar/products/horizontal-handwheel-landing-valves/index.html",
+    "view": "products/室内消防栓/horizontal-handwheel-landing-valves/threaded-inlet-catalog-display.jpeg",
+    "status": "PASS"
+  },
+  {
+    "file": "products/室内消防栓/horizontal-handwheel-landing-valves.html",
+    "view": "products/室内消防栓/horizontal-handwheel-landing-valves/flanged-inlet-catalog-display.jpeg",
+    "status": "PASS"
+  },
+  {
+    "file": "ar/products/horizontal-handwheel-landing-valves/index.html",
+    "view": "products/室内消防栓/horizontal-handwheel-landing-valves/flanged-inlet-catalog-display.jpeg",
+    "status": "PASS"
+  },
+  {
+    "file": "products/消防水泵接合器/breeching-inlets.html",
+    "view": "products/消防水泵接合器/breeching-inlets/two-way-breeching-inlet.jpg",
+    "status": "PASS"
+  },
+  {
+    "file": "ar/products/breeching-inlets/index.html",
+    "view": "products/消防水泵接合器/breeching-inlets/two-way-breeching-inlet.jpg",
+    "status": "PASS"
+  },
+  {
+    "file": "products/消防水泵接合器/breeching-inlets.html",
+    "view": "products/消防水泵接合器/breeching-inlets/four-way-breeching-inlet.jpg",
+    "status": "PASS"
+  },
+  {
+    "file": "ar/products/breeching-inlets/index.html",
+    "view": "products/消防水泵接合器/breeching-inlets/four-way-breeching-inlet.jpg",
+    "status": "PASS"
+  }
+]

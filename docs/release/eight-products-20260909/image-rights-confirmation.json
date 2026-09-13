@@ -1,0 +1,122 @@
+{
+  "status": "confirmed",
+  "confirmedDate": "2026-09-09",
+  "scope": "CHUANWEI FIRE official website public display",
+  "authority": "User confirmation in this task",
+  "question": "预览里的这 15 张图片，你确认都可以用于川威官网公开展示吗？",
+  "response": "确认",
+  "excludes": "Other products, replacement images, and other publishing channels are outside this confirmation.",
+  "images": [
+    {
+      "productId": "fusible-alloy-fire-sprinklers",
+      "path": "products/消防喷头/fusible-alloy-fire-sprinklers/fusible-alloy-configuration-a.jpg",
+      "sha256": "2f5ed66af2518404e6743f636444dad0145ecd81cc4aaeaa45a79e926342f424",
+      "originalSha256": "14c455d9802168a02d01641e0c3f855acfa6feb9fa98867ee408ad2ceebaf9cb",
+      "publishedTransform": "CHUANWEI FIRE watermark"
+    },
+    {
+      "productId": "fusible-alloy-fire-sprinklers",
+      "path": "products/消防喷头/fusible-alloy-fire-sprinklers/fusible-alloy-configuration-b.jpg",
+      "sha256": "12229d83b83078c4ae7789ba1169e36a44ffea0d679ea3ad7de2590658067dec",
+      "originalSha256": "05d4db52822e1a747fb644aa3b587cb799a4e229e20d46a22006cdbe8fb67aba",
+      "publishedTransform": "CHUANWEI FIRE watermark"
+    },
+    {
+      "productId": "saddle-type-waterflow-switches",
+      "path": "products/消防阀/saddle-type-waterflow-switches/zsjz-dn100-reference.png",
+      "sha256": "ca32d10fa04b20fe7d81ae25a651dc0a120b4c27590b2c4f66349b1aba66be00",
+      "originalSha256": "4f14420357055099e9a84244f2edb40c6ac1ac484dc0bc1fe5ecf0887f78444d",
+      "publishedTransform": "CHUANWEI FIRE watermark"
+    },
+    {
+      "productId": "straight-through-oblique-landing-valves",
+      "path": "products/室内消防栓/straight-through-oblique-landing-valves/straight-through-catalog-display.jpeg",
+      "sha256": "2d58c169a373d20f0d40f7d695ca7faee06bf095f013f9c7c460574f1846383d",
+      "originalSha256": "b0bcb514b9df8be8f5c56fe038cb2df89b42ef449542164b3417bfc90dc7bff8",
+      "publishedTransform": "CHUANWEI FIRE watermark"
+    },
+    {
+      "productId": "straight-through-oblique-landing-valves",
+      "path": "products/室内消防栓/straight-through-oblique-landing-valves/oblique-threaded-catalog-display.jpeg",
+      "sha256": "e104f6b21616cb1297d59013090966ba876e5f1f5233c109a966f8ad9bfe130f",
+      "originalSha256": "25ce994e56f9fe8a625459881f0a1f009ce264a7dd0cf32c01b3e0ac1215f5b0",
+      "publishedTransform": "CHUANWEI FIRE watermark"
+    },
+    {
+      "productId": "straight-through-oblique-landing-valves",
+      "path": "products/室内消防栓/straight-through-oblique-landing-valves/oblique-flanged-catalog-display.jpeg",
+      "sha256": "faecf3439263d14cbc4c2ac2394b649878535c023710d25a49dbd85a9fe6ab00",
+      "originalSha256": "1c2626d678eb2cab96b2050a50b138b45aa7bf2e0e865930e207294ad6cba6ba",
+      "publishedTransform": "CHUANWEI FIRE watermark"
+    },
+    {
+      "productId": "horizontal-handwheel-landing-valves",
+      "path": "products/室内消防栓/horizontal-handwheel-landing-valves/threaded-inlet-catalog-display.jpeg",
+      "sha256": "5960b99b256577a91175f913e9455537334b6d1d052466ee03342392ba978712",
+      "originalSha256": "4bf818633dff9a5034d1085bf5b674169fda75d99b913bd968fbb9845532a0f5",
+      "publishedTransform": "CHUANWEI FIRE watermark"
+    },
+    {
+      "productId": "horizontal-handwheel-landing-valves",
+      "path": "products/室内消防栓/horizontal-handwheel-landing-valves/flanged-inlet-catalog-display.jpeg",
+      "sha256": "7d5b5fde1cf9e7a076d6b0f62f570fc2017b712a6fbf62f2ade10fdabea709a0",
+      "originalSha256": "f11603fd97ddccb83b95e810bbfc99656e16fcbc2eee1706d7a54c91f9bad66f",
+      "publishedTransform": "CHUANWEI FIRE watermark"
+    },
+    {
+      "productId": "breeching-inlets",
+      "path": "products/消防水泵接合器/breeching-inlets/two-way-breeching-inlet.jpg",
+      "sha256": "9bad85d4ea87cc9bdf7fa6e5174e9be716d4006d3e6cfb0fbe8a563d71cd973c",
+      "originalSha256": "2556c9847b36c79975e88b71940a7eae5ea1f94b6536f49daa0914f80f274a8d",
+      "publishedTransform": "CHUANWEI FIRE watermark"
+    },
+    {
+      "productId": "breeching-inlets",
+      "path": "products/消防水泵接合器/breeching-inlets/four-way-breeching-inlet.jpg",
+      "sha256": "642b8858dcf5ca295cc7426852bfe4c9cee42a687cda32bb40a000dceea75b40",
+      "originalSha256": "6a68f019c3b7d5da9a23d60be5102bdc9b5115aafb23503b1146488eda6ec1e4",
+      "publishedTransform": "CHUANWEI FIRE watermark"
+    },
+    {
+      "productId": "russian-pattern-fire-department-connection",
+      "path": "products/消防水泵接合器/russian-pattern-fire-department-connection/65-16k-65-front.png",
+      "sha256": "86d1fabd05300030feff351f9a406895fa6596e276a9b26fb0eb6d1080f0dbc2",
+      "originalSha256": "394b6ce8f99c522b720d103fde90e247fe7748f9b98142eeb39f78a17b3cde75",
+      "publishedTransform": "CHUANWEI FIRE watermark"
+    },
+    {
+      "productId": "straight-stream-fire-hose-nozzles",
+      "path": "products/消防水枪/straight-stream-fire-hose-nozzles/qz-catalog-display.png",
+      "sha256": "9f03f6abf702b3d1c68946cfacb9bb8d18857eedfa0f2ca42a5cdcbf9b304eff",
+      "originalSha256": "1569091b7e30d701941a4b458715f808051df6f8019e1ff93bc581832bc3fb6d",
+      "publishedTransform": "CHUANWEI FIRE watermark"
+    },
+    {
+      "productId": "straight-stream-fire-hose-nozzles",
+      "path": "products/消防水枪/straight-stream-fire-hose-nozzles/russian-pattern-catalog-display.png",
+      "sha256": "9efce1ff172273314e8a0219025d96537b09c724fa1b19bb7c4240c9cd7a363d",
+      "originalSha256": "5e303eebd88c04fd150d5e4b8280d9b57ff9b411138b9df294d92921684954b4",
+      "publishedTransform": "CHUANWEI FIRE watermark"
+    },
+    {
+      "productId": "lever-operated-fire-hose-nozzles",
+      "path": "products/消防水枪/lever-operated-fire-hose-nozzles/configuration-a-catalog-display.png",
+      "sha256": "560734c5fe1800fc4e2cb6269b802e3b702347bf24359b8c6e9b0f6fd5db827e",
+      "originalSha256": "4023c4e1fac08a9be04e1708eae41fceed8f6b3ec443f424bc05961e30f2577d",
+      "publishedTransform": "CHUANWEI FIRE watermark"
+    },
+    {
+      "productId": "lever-operated-fire-hose-nozzles",
+      "path": "products/消防水枪/lever-operated-fire-hose-nozzles/configuration-b-catalog-display.png",
+      "sha256": "580def04c6dfe3cb5b074a35114e3f34a9ec20c0b71eed5c47e543b2995d783b",
+      "originalSha256": "1dc9c4c800d3a71866d07918075389f9674882f2a36e7014653d0daf407f1ef3",
+      "publishedTransform": "CHUANWEI FIRE watermark"
+    }
+  ],
+  "publishedImageTransform": {
+    "type": "watermark",
+    "centerText": "CHUANWEI FIRE",
+    "cornerText": "CHUANWEI FIRE · chuanweifire.com",
+    "originalsRetainedLocally": true
+  }
+}

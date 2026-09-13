@@ -1,0 +1,1057 @@
+{
+  "status": "confirmed",
+  "scope": "CHUANWEI FIRE official website public display",
+  "confirmedAt": "2026-09-13",
+  "confirmation": "The user explicitly instructed Codex to place the images from catalog-white-background-extraction on the official website.",
+  "imageNature": "AI-reconstructed catalog marketing illustrations; not technical, dimensional, material, certification or exact-construction evidence.",
+  "images": [
+    {
+      "productId": "catalog-brass-finish-hose-valves-page-07",
+      "path": "products/室内消防栓/catalog-brass-finish-hose-valves-page-07/p07-01.webp",
+      "sha256": "5d1d1c17c87bece058888629c2c3bbebce5f008830b9e6a45dc1b48752601269",
+      "sourcePath": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_07/黄铜斜出口消防阀_页07_01_视觉展示图_待原图复核.png",
+      "usage": "Configuration illustration; exact technical details require confirmation.",
+      "originalSha256": "ac7b0b628007ec887accd5ba51322e4b223a197e6e8265254263d38a7f06d158",
+      "publishedTransform": "CHUANWEI FIRE watermark"
+    },
+    {
+      "productId": "catalog-brass-finish-hose-valves-page-07",
+      "path": "products/室内消防栓/catalog-brass-finish-hose-valves-page-07/p07-02.webp",
+      "sha256": "5b606628aeb827709a653dbb9483b406ca000f73e926338948726163916ac756",
+      "sourcePath": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_07/黄铜直角消防阀_页07_02重试_视觉展示图_待原图复核.png",
+      "usage": "Configuration illustration; exact technical details require confirmation.",
+      "originalSha256": "3c3ea20e622adb136cb2508e41b6144c1dc7e93ef234e89e21c3c3bf756fd808",
+      "publishedTransform": "CHUANWEI FIRE watermark"
+    },
+    {
+      "productId": "catalog-brass-finish-hose-valves-page-07",
+      "path": "products/室内消防栓/catalog-brass-finish-hose-valves-page-07/p07-03.webp",
+      "sha256": "76e9952c2eef6e4edd672007d10a98b14529d392f44a62189175244450158d48",
+      "sourcePath": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_07/黄铜大斜出口消防阀_页07_03重试_视觉展示图_待原图复核.png",
+      "usage": "Configuration illustration; exact technical details require confirmation.",
+      "originalSha256": "91c8cea580a62fa1c6f8f56ab27db63e9cdff426faffdf5f9b7eee1fa6ebac32",
+      "publishedTransform": "CHUANWEI FIRE watermark"
+    },
+    {
+      "productId": "catalog-brass-finish-hose-valves-page-07",
+      "path": "products/室内消防栓/catalog-brass-finish-hose-valves-page-07/p07-04.webp",
+      "sha256": "2ebc016eeb790cf6a1e2efeb78a38967ee59a4a6091a56ca19e4936b289653b3",
+      "sourcePath": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_07/黄铜小斜出口消防阀_页07_04_视觉展示图_待原图复核.png",
+      "usage": "Configuration illustration; exact technical details require confirmation.",
+      "originalSha256": "d26819a5f8bfa78144c0f951184ca4fa915d7bfa2f9de5a91c157849b470a07a",
+      "publishedTransform": "CHUANWEI FIRE watermark"
+    },
+    {
+      "productId": "catalog-brass-finish-hose-valves-page-07",
+      "path": "products/室内消防栓/catalog-brass-finish-hose-valves-page-07/p07-05.webp",
+      "sha256": "542f65b8a364d30804543cfc8df548b85c33e3fd0a10abcf934c1a28982afba0",
+      "sourcePath": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_07/黄铜左出口消防阀_页07_05_视觉展示图_待原图复核.png",
+      "usage": "Configuration illustration; exact technical details require confirmation.",
+      "originalSha256": "a745d020e84e8d29042400a6c13f89030f6e50e08808d33a4e6383ae3756f15f",
+      "publishedTransform": "CHUANWEI FIRE watermark"
+    },
+    {
+      "productId": "catalog-brass-finish-hose-valves-page-08",
+      "path": "products/室内消防栓/catalog-brass-finish-hose-valves-page-08/p08-01.webp",
+      "sha256": "f87dfc3f3e54f3a4f1786cf803ae332143fe8934fb09712cbb45ffd57564d2f7",
+      "sourcePath": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_08/黄铜外螺纹底口消防阀_页08_01_视觉展示图_待原图复核.png",
+      "usage": "Configuration illustration; exact technical details require confirmation.",
+      "originalSha256": "5ab7ef128bb25cd16279d68304ccef1f3d5672c5c62c9ece4ccbd94781f45da2",
+      "publishedTransform": "CHUANWEI FIRE watermark"
+    },
+    {
+      "productId": "catalog-brass-finish-hose-valves-page-08",
+      "path": "products/室内消防栓/catalog-brass-finish-hose-valves-page-08/p08-02.webp",
+      "sha256": "6e512ae728a20fa50ccdd6d9c2819adce4d4d1150f10cfaeb19ec4f978f9e7fe",
+      "sourcePath": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_08/黄铜内螺纹底口消防阀_页08_02_视觉展示图_待原图复核.png",
+      "usage": "Configuration illustration; exact technical details require confirmation.",
+      "originalSha256": "637121540798a2caac3f68e4890dc00f8a2bf9e56796c5f3a367392424880fd3",
+      "publishedTransform": "CHUANWEI FIRE watermark"
+    },
+    {
+      "productId": "catalog-brass-finish-hose-valves-page-08",
+      "path": "products/室内消防栓/catalog-brass-finish-hose-valves-page-08/p08-03.webp",
+      "sha256": "4f50a099dd457cd55d3f3c6fc5c23598dc9517c6b72039bb2f170a975c96c608",
+      "sourcePath": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_08/黄铜左斜出口消防阀_页08_03_视觉展示图_待原图复核.png",
+      "usage": "Configuration illustration; exact technical details require confirmation.",
+      "originalSha256": "e3ddb6d9d20bae27671f47c05d98de9a1cf7040faab555fbed2def1fc53a129d",
+      "publishedTransform": "CHUANWEI FIRE watermark"
+    },
+    {
+      "productId": "catalog-brass-finish-hose-valves-page-08",
+      "path": "products/室内消防栓/catalog-brass-finish-hose-valves-page-08/p08-04.webp",
+      "sha256": "db9936ff3c958b6267c4b9643cc7584df7bbef6eaa7acb33467574d8794093aa",
+      "sourcePath": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_08/黄铜筒体外螺纹底口消防阀_页08_04_视觉展示图_待原图复核.png",
+      "usage": "Configuration illustration; exact technical details require confirmation.",
+      "originalSha256": "ac873417159eca0683b285b8358f40234362fa0903231e38804e592a9456691e",
+      "publishedTransform": "CHUANWEI FIRE watermark"
+    },
+    {
+      "productId": "catalog-brass-finish-hose-valves-page-08",
+      "path": "products/室内消防栓/catalog-brass-finish-hose-valves-page-08/p08-05.webp",
+      "sha256": "2e9d5f4dac9ec2143eee96f8a3f873e77b183696cafdffbe62701523c0313c3d",
+      "sourcePath": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_08/黄铜筒体内螺纹底口消防阀_页08_05_视觉展示图_待原图复核.png",
+      "usage": "Configuration illustration; exact technical details require confirmation.",
+      "originalSha256": "c6214a8457fe9a58d65c9bf485f4e83c67455a0cdaf118baa5821b8c062c8e47",
+      "publishedTransform": "CHUANWEI FIRE watermark"
+    },
+    {
+      "productId": "catalog-hose-valves-page-09",
+      "path": "products/室内消防栓/catalog-hose-valves-page-09/p09-01.webp",
+      "sha256": "0505379287e8f99a32182153773f9351286bffa695f0873d72c35e969d09aae9",
+      "sourcePath": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_09/黄铜水带接头消防阀_页09_01_视觉展示图_待原图复核.png",
+      "usage": "Configuration illustration; exact technical details require confirmation.",
+      "originalSha256": "c8102772f5badf5fc2a56f0ae57388de37a5288469d57cc74f4dac46a4ccbc77",
+      "publishedTransform": "CHUANWEI FIRE watermark"
+    },
+    {
+      "productId": "catalog-hose-valves-page-09",
+      "path": "products/室内消防栓/catalog-hose-valves-page-09/p09-02.webp",
+      "sha256": "9e9a5ddce51d2d25216ed9683609c38c4ea004655137595aacbf799f9c2ecbb0",
+      "sourcePath": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_09/银色水带接头黄铜消防阀_页09_02_视觉展示图_待原图复核.png",
+      "usage": "Configuration illustration; exact technical details require confirmation.",
+      "originalSha256": "16b62f0d593178f84075c8d2dc9777139060b12b5932774b7fc9995abbb4d2ab",
+      "publishedTransform": "CHUANWEI FIRE watermark"
+    },
+    {
+      "productId": "catalog-hose-valves-page-09",
+      "path": "products/室内消防栓/catalog-hose-valves-page-09/p09-03.webp",
+      "sha256": "7d4bc51a04ef438baff9db8f6bb81755bf6ab2d45c0a397cba69b7245a7fbfe2",
+      "sourcePath": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_09/黄铜圆体内螺纹消防阀_页09_03_视觉展示图_待原图复核.png",
+      "usage": "Configuration illustration; exact technical details require confirmation.",
+      "originalSha256": "ae3984e5db662fcedd5919e65c0b77457900f4937fcff9bf046e50d3b899fda2",
+      "publishedTransform": "CHUANWEI FIRE watermark"
+    },
+    {
+      "productId": "catalog-hose-valves-page-09",
+      "path": "products/室内消防栓/catalog-hose-valves-page-09/p09-04.webp",
+      "sha256": "b1de503692302027a40b7952fbbd13ce4435190a8e5896a91fd689c6e9ec7ab2",
+      "sourcePath": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_09/黄铜筒体右出口消防阀_页09_04_视觉展示图_待原图复核.png",
+      "usage": "Configuration illustration; exact technical details require confirmation.",
+      "originalSha256": "8d194b6c392c456dda145923e0916ae36456a345a565dd5eb8d8af1a5e96d05c",
+      "publishedTransform": "CHUANWEI FIRE watermark"
+    },
+    {
+      "productId": "catalog-hose-valves-page-09",
+      "path": "products/室内消防栓/catalog-hose-valves-page-09/p09-05.webp",
+      "sha256": "1b35cdca29f1a801e6d79b19a0a0fca29b7127ce9dd5dd7601b0d16b6e01f73e",
+      "sourcePath": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_09/黄铜筒体左出口消防阀_页09_05_视觉展示图_待原图复核.png",
+      "usage": "Configuration illustration; exact technical details require confirmation.",
+      "originalSha256": "c1478ab1d47922fe7affdea320f35593d34ae5bc0a49fe90ffdefad63d5516cf",
+      "publishedTransform": "CHUANWEI FIRE watermark"
+    },
+    {
+      "productId": "catalog-hose-valves-page-10",
+      "path": "products/室内消防栓/catalog-hose-valves-page-10/p10-01.webp",
+      "sha256": "6f3e86282ea2305e494fa1d3a510337e4a12adfe34f7124ec40753da14201455",
+      "sourcePath": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_10/红手轮黄铜内螺纹消防阀_页10_01_视觉展示图_待原图复核.png",
+      "usage": "Configuration illustration; exact technical details require confirmation.",
+      "originalSha256": "ae9b2b52f0213f687861cad968784f5e7ba012d8b0009c23a80835737d48c9e5",
+      "publishedTransform": "CHUANWEI FIRE watermark"
+    },
+    {
+      "productId": "catalog-hose-valves-page-10",
+      "path": "products/室内消防栓/catalog-hose-valves-page-10/p10-02.webp",
+      "sha256": "28c3ab33da6169dea8759701efa043c6f6fd74030442cedb77c12c4facf5cf6f",
+      "sourcePath": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_10/红手轮黄铜带盖消防阀_页10_02_视觉展示图_待原图复核.png",
+      "usage": "Configuration illustration; exact technical details require confirmation.",
+      "originalSha256": "c0d36430a5323c81cbedf908591c921a5cda007e3c4c6a1e3fdbe4f069e85cbe",
+      "publishedTransform": "CHUANWEI FIRE watermark"
+    },
+    {
+      "productId": "catalog-hose-valves-page-10",
+      "path": "products/室内消防栓/catalog-hose-valves-page-10/p10-03.webp",
+      "sha256": "7efbfcc3f944c7650e6e96c33ad93326981f2e3b15eac7cf4b03e25989f1b3cf",
+      "sourcePath": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_10/黑手轮黄铜顶部锁扣消防阀_页10_03_视觉展示图_待原图复核.png",
+      "usage": "Configuration illustration; exact technical details require confirmation.",
+      "originalSha256": "4a1d50294fbd31394b65b0601769d6d205782f0107ce94e1a94c430bccb7e349",
+      "publishedTransform": "CHUANWEI FIRE watermark"
+    },
+    {
+      "productId": "catalog-hose-valves-page-10",
+      "path": "products/室内消防栓/catalog-hose-valves-page-10/p10-04.webp",
+      "sha256": "554788d5fdfcc5d837dd1083de529676ce9bfc11f480d1c9790a3eec73bda30c",
+      "sourcePath": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_10/黑手轮黄铜红端锁扣消防阀_页10_04_视觉展示图_待原图复核.png",
+      "usage": "Configuration illustration; exact technical details require confirmation.",
+      "originalSha256": "c8e2f12caa3a8058378e54c695fbf642fc829fcdffd89e7b18d593208709cd53",
+      "publishedTransform": "CHUANWEI FIRE watermark"
+    },
+    {
+      "productId": "catalog-hose-valves-page-10",
+      "path": "products/室内消防栓/catalog-hose-valves-page-10/p10-05.webp",
+      "sha256": "b0a1b161c5cd4b24d259acbdd336ff062082c136ba8adff7dcc36ff06f0123e2",
+      "sourcePath": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_10/黑手轮黄铜斜出口消防阀_页10_05_视觉展示图_待原图复核.png",
+      "usage": "Configuration illustration; exact technical details require confirmation.",
+      "originalSha256": "3024d5f77a618c61017b1392f38f86f01b2f56105a80cc699e4f349760ceb81a",
+      "publishedTransform": "CHUANWEI FIRE watermark"
+    },
+    {
+      "productId": "catalog-hose-valves-page-11",
+      "path": "products/室内消防栓/catalog-hose-valves-page-11/p11-01.webp",
+      "sha256": "d250fdb8b7f46e995e1cf4a7f8fecc1bf6545530d714bf955fa42e523e59879a",
+      "sourcePath": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_11/黑手轮黄铜法兰消防阀_页11_01_视觉展示图_待原图复核.png",
+      "usage": "Configuration illustration; exact technical details require confirmation.",
+      "originalSha256": "77f3bcf0f1813fc02a54d338b3fe27ec911ff8ed51dc3037e4584bc80a39ecc5",
+      "publishedTransform": "CHUANWEI FIRE watermark"
+    },
+    {
+      "productId": "catalog-hose-valves-page-11",
+      "path": "products/室内消防栓/catalog-hose-valves-page-11/p11-02.webp",
+      "sha256": "0dc148b7f5358dd4c20a4ce3202653a9b9fc6311cce9de0567693b44cb0f1867",
+      "sourcePath": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_11/红手轮银色直口消防阀_页11_02_视觉展示图_待原图复核.png",
+      "usage": "Configuration illustration; exact technical details require confirmation.",
+      "originalSha256": "0443b0a98b4ff841ebd804db48c89bb20536746f7952ea3b5364ee584dd4df45",
+      "publishedTransform": "CHUANWEI FIRE watermark"
+    },
+    {
+      "productId": "catalog-hose-valves-page-11",
+      "path": "products/室内消防栓/catalog-hose-valves-page-11/p11-03.webp",
+      "sha256": "5bd28ecd0daf215a1499c34bcbce1de2e5c2a1a05c3c1a6143c1d5a566ac37d7",
+      "sourcePath": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_11/红手轮银色卡扣消防阀_页11_03_视觉展示图_待原图复核.png",
+      "usage": "Configuration illustration; exact technical details require confirmation.",
+      "originalSha256": "22a8b45298c53ed4d14ccd4f68a10de6b3c643e74ca9fcb10bf233d0db1b0c80",
+      "publishedTransform": "CHUANWEI FIRE watermark"
+    },
+    {
+      "productId": "catalog-hose-valves-page-11",
+      "path": "products/室内消防栓/catalog-hose-valves-page-11/p11-04.webp",
+      "sha256": "a7ef9bfcc8ed26e23d84cdba4a41ec720b3e9c674477027284791120342e893b",
+      "sourcePath": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_11/黄铜银色卡式接头消防阀_页11_04_视觉展示图_待原图复核.png",
+      "usage": "Configuration illustration; exact technical details require confirmation.",
+      "originalSha256": "b1f3f3572ff61e17626f094ea43cd9dbd1a4a88f9c8b3b779914d4380e6d7e08",
+      "publishedTransform": "CHUANWEI FIRE watermark"
+    },
+    {
+      "productId": "catalog-hose-valves-page-11",
+      "path": "products/室内消防栓/catalog-hose-valves-page-11/p11-05.webp",
+      "sha256": "d21c5fb9edc8b39cd2c1c135eedb5c09060b550a9c7e6508961b2ec9d97eaec3",
+      "sourcePath": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_11/黄铜金色卡式接头消防阀_页11_05_视觉展示图_待原图复核.png",
+      "usage": "Configuration illustration; exact technical details require confirmation.",
+      "originalSha256": "be6cdbe39e307789a37e4eefa9a1449d0babafcd6b12fb718cf692d30e1aac69",
+      "publishedTransform": "CHUANWEI FIRE watermark"
+    },
+    {
+      "productId": "catalog-hose-valves-page-12",
+      "path": "products/室内消防栓/catalog-hose-valves-page-12/p12-01.webp",
+      "sha256": "2032761685f1a7972e83eebe829ea776870788b2d6421a3d8574458536de5157",
+      "sourcePath": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_12/黄铜法式卡口消防阀_页12_01_视觉展示图_待原图复核.png",
+      "usage": "Configuration illustration; exact technical details require confirmation.",
+      "originalSha256": "b10e892a1c30f5512af5af3c020eed3f2da1de3f0ef8326605bc2225ed06635e",
+      "publishedTransform": "CHUANWEI FIRE watermark"
+    },
+    {
+      "productId": "catalog-hose-valves-page-12",
+      "path": "products/室内消防栓/catalog-hose-valves-page-12/p12-02.webp",
+      "sha256": "d5f1a8af4016ea576201ae654d8b8a60144ddaf6d33b124db5304cd7f01446c5",
+      "sourcePath": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_12/红色法式带盖消防阀_页12_02_视觉展示图_待原图复核.png",
+      "usage": "Configuration illustration; exact technical details require confirmation.",
+      "originalSha256": "d8859cccca9f118a2c8700f10b16d6fc2ff8d9f3da1541e3bb8f1f0a6a4667b8",
+      "publishedTransform": "CHUANWEI FIRE watermark"
+    },
+    {
+      "productId": "catalog-hose-valves-page-12",
+      "path": "products/室内消防栓/catalog-hose-valves-page-12/p12-03.webp",
+      "sha256": "a81bf5757900ceade75ed420dae7d0ee4a3335cca7743d7b73e33a08681ae165",
+      "sourcePath": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_12/黄铜活接消防阀_页12_03_视觉展示图_待原图复核.png",
+      "usage": "Configuration illustration; exact technical details require confirmation.",
+      "originalSha256": "62c0e89c961abd5f2fb07212c8b574c0897f147842fc4b375c1dff85877ba798",
+      "publishedTransform": "CHUANWEI FIRE watermark"
+    },
+    {
+      "productId": "catalog-hose-valves-page-12",
+      "path": "products/室内消防栓/catalog-hose-valves-page-12/p12-04.webp",
+      "sha256": "65d9d76eca5854ad0c3929cc5d8f929c83f2292f66ee6cd4bfe740683d9185a3",
+      "sourcePath": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_12/红色斜出口消防阀_页12_04重试_视觉展示图_待原图复核.png",
+      "usage": "Configuration illustration; exact technical details require confirmation.",
+      "originalSha256": "6da30e043aff4701befa2d63bd24dcace09554eb2b6941183d13d653432d9b21",
+      "publishedTransform": "CHUANWEI FIRE watermark"
+    },
+    {
+      "productId": "catalog-hose-valves-page-12",
+      "path": "products/室内消防栓/catalog-hose-valves-page-12/p12-05.webp",
+      "sha256": "e42d04dbde2177c23f10967c8d7b28da4bb3cee83299376e9b574bf11e35334b",
+      "sourcePath": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_12/黄铜带锁环带盖消防阀_页12_05_视觉展示图_待原图复核.png",
+      "usage": "Configuration illustration; exact technical details require confirmation.",
+      "originalSha256": "4c3de89f58d4d2c7c740ca9ebc962e81015aa0aadeb79e6575c230a3c413366f",
+      "publishedTransform": "CHUANWEI FIRE watermark"
+    },
+    {
+      "productId": "catalog-twin-outlet-fire-connections-page-13",
+      "path": "products/消防水泵接合器/catalog-twin-outlet-fire-connections-page-13/p13-01.webp",
+      "sha256": "210ae58549e5df1b3ee547a24e791d583ca166815616462e616212a93a6aad78",
+      "sourcePath": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_13/黄铜双接口带盘消防接合器_页13_01_视觉展示图_待原图复核.png",
+      "usage": "Configuration illustration; exact technical details require confirmation.",
+      "originalSha256": "14b1443de3b191725b1e9aaeef98db0906d4213c5636fa8de4cb1a77b3c884e6",
+      "publishedTransform": "CHUANWEI FIRE watermark"
+    },
+    {
+      "productId": "catalog-twin-outlet-fire-connections-page-13",
+      "path": "products/消防水泵接合器/catalog-twin-outlet-fire-connections-page-13/p13-02.webp",
+      "sha256": "3112707bb4ea814f24e873b3d541f8a4a7ef872e36dca41c4bd86f27c3f0ba27",
+      "sourcePath": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_13/黄铜双盖厚底消防接合器_页13_02_视觉展示图_待原图复核.png",
+      "usage": "Configuration illustration; exact technical details require confirmation.",
+      "originalSha256": "84f157ed4e72f52c05a007383b3467719d5fd209306f34ee504459cc0b7635c2",
+      "publishedTransform": "CHUANWEI FIRE watermark"
+    },
+    {
+      "productId": "catalog-twin-outlet-fire-connections-page-13",
+      "path": "products/消防水泵接合器/catalog-twin-outlet-fire-connections-page-13/p13-03.webp",
+      "sha256": "5d69afc56df952b507d26e520fde442f4e764321129aff5a236cfd20b1778519",
+      "sourcePath": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_13/黄铜双盖带盘消防接合器_页13_03_视觉展示图_待原图复核.png",
+      "usage": "Configuration illustration; exact technical details require confirmation.",
+      "originalSha256": "416071c934abfeff50277186686d345e822424626c0f309c110424a4bd6f2558",
+      "publishedTransform": "CHUANWEI FIRE watermark"
+    },
+    {
+      "productId": "catalog-twin-outlet-fire-connections-page-13",
+      "path": "products/消防水泵接合器/catalog-twin-outlet-fire-connections-page-13/p13-04.webp",
+      "sha256": "ec9cc6dc0c290cface18edb7e269b6266de5212603b67d63baec8b35bb3b0337",
+      "sourcePath": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_13/黄铜双外螺纹消防接合器_页13_04_视觉展示图_待原图复核.png",
+      "usage": "Configuration illustration; exact technical details require confirmation.",
+      "originalSha256": "8bd0b6901e465b0b035537d83019e1608d5d835eb8eb4f3ade16b03ab60586d7",
+      "publishedTransform": "CHUANWEI FIRE watermark"
+    },
+    {
+      "productId": "catalog-hydrant-auxiliary-valves-page-14",
+      "path": "products/室内消防栓/catalog-hydrant-auxiliary-valves-page-14/p14-01.webp",
+      "sha256": "0d7e1633cba863a5f6f756d32f6a519d39f8bb89c2c8b44c6f4de37741fed93f",
+      "sourcePath": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_14/红色横向手轮黄铜黑盖消防阀_页14_01_视觉展示图_待原图复核.png",
+      "usage": "Configuration illustration; exact technical details require confirmation.",
+      "originalSha256": "736cb9c7e83d4ec837f4633acb46b38a2bac064c3dc2f961200aecba413931da",
+      "publishedTransform": "CHUANWEI FIRE watermark"
+    },
+    {
+      "productId": "catalog-hydrant-auxiliary-valves-page-14",
+      "path": "products/室内消防栓/catalog-hydrant-auxiliary-valves-page-14/p14-02.webp",
+      "sha256": "18913f6cc5976e7370625fe1adb602d24fd24301739ee55df7d2613435615543",
+      "sourcePath": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_14/红色横向手轮黄铜金盖消防阀_页14_02_视觉展示图_待原图复核.png",
+      "usage": "Configuration illustration; exact technical details require confirmation.",
+      "originalSha256": "044c93b0751feeb4df0ecfcf59449d38833238ef69acb122999019df18f05309",
+      "publishedTransform": "CHUANWEI FIRE watermark"
+    },
+    {
+      "productId": "catalog-hydrant-auxiliary-valves-page-14",
+      "path": "products/室内消防栓/catalog-hydrant-auxiliary-valves-page-14/p14-03.webp",
+      "sha256": "00089165902a69625b79bbdd55d43ff2906292398c5895a130c7fc9c37c52516",
+      "sourcePath": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_14/黄铜带压力表阀门_页14_03_视觉展示图_待原图复核.png",
+      "usage": "Configuration illustration; exact technical details require confirmation.",
+      "originalSha256": "844ec95893cd9eca1a6c246a381a260c6e06602a1241d7e4f8e72dfc9906c7f3",
+      "publishedTransform": "CHUANWEI FIRE watermark"
+    },
+    {
+      "productId": "catalog-hydrant-auxiliary-valves-page-14",
+      "path": "products/室内消防栓/catalog-hydrant-auxiliary-valves-page-14/p14-04.webp",
+      "sha256": "caf033854c96e93889d88e1477462e4c4a172246545350f8b26d7b285ecba0eb",
+      "sourcePath": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_14/白红手轮黄铜直通阀_页14_04_视觉展示图_待原图复核.png",
+      "usage": "Configuration illustration; exact technical details require confirmation.",
+      "originalSha256": "e21079be2b1b581f0e85feb6ea9bc0cf003398e9a0d71eb7e422c3db3bb091d0",
+      "publishedTransform": "CHUANWEI FIRE watermark"
+    },
+    {
+      "productId": "catalog-hydrant-auxiliary-valves-page-14",
+      "path": "products/室内消防栓/catalog-hydrant-auxiliary-valves-page-14/p14-05.webp",
+      "sha256": "4f2edc26b7aa30510d9fe8f24a2b43d4cfb9fd4af4c707c2dc522808b5668aa4",
+      "sourcePath": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_14/长柄黄铜球阀_页14_05_视觉展示图_待原图复核.png",
+      "usage": "Configuration illustration; exact technical details require confirmation.",
+      "originalSha256": "0007c261196035713c41e5c70f021ce3cd17c2c24117cd61905e97a31d8c430d",
+      "publishedTransform": "CHUANWEI FIRE watermark"
+    },
+    {
+      "productId": "catalog-fire-connections-distributors-page-15",
+      "path": "products/消防水泵接合器/catalog-fire-connections-distributors-page-15/p15-01.webp",
+      "sha256": "cdc6888d2649d4a8f20007b78da9fd38bec983642bef5196d448d4fcd9414837",
+      "sourcePath": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_15/红色双口法兰消防接合器_页15_01_视觉展示图_待原图复核.png",
+      "usage": "Configuration illustration; exact technical details require confirmation.",
+      "originalSha256": "1bffb17a0e339d9ad67882802b5fd174a49e3d1429c346797f1e5ba209a4d30c",
+      "publishedTransform": "CHUANWEI FIRE watermark"
+    },
+    {
+      "productId": "catalog-fire-connections-distributors-page-15",
+      "path": "products/消防水泵接合器/catalog-fire-connections-distributors-page-15/p15-02.webp",
+      "sha256": "1d1f5f0fc86dcbc96d5c999a92e78ff0c2f28216c6a79a88304deb3a1ef64a5f",
+      "sourcePath": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_15/红色四口消防接合器_页15_02_视觉展示图_待原图复核.png",
+      "usage": "Configuration illustration; exact technical details require confirmation.",
+      "originalSha256": "b1a0a0cb5b81d1c6866097e28e45e1c0b3a2eb78ec6da33870cdaa9e1355bf36",
+      "publishedTransform": "CHUANWEI FIRE watermark"
+    },
+    {
+      "productId": "catalog-fire-connections-distributors-page-15",
+      "path": "products/消防水泵接合器/catalog-fire-connections-distributors-page-15/p15-03.webp",
+      "sha256": "2d7a712a3d6e1d4fafb595715a04ca7e0027ba2a82ac62f8a4261b78f28e48ac",
+      "sourcePath": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_15/红色双柄消防分水器_页15_03_视觉展示图_待原图复核.png",
+      "usage": "Configuration illustration; exact technical details require confirmation.",
+      "originalSha256": "818231b04212d5418a386ff588ff264980631c82871a08b08700894761ebbd44",
+      "publishedTransform": "CHUANWEI FIRE watermark"
+    },
+    {
+      "productId": "catalog-fire-connections-distributors-page-15",
+      "path": "products/消防水泵接合器/catalog-fire-connections-distributors-page-15/p15-04.webp",
+      "sha256": "1035368f22a4d8195ae8d0796747dd10de060581a05c60a8614c2646d834461e",
+      "sourcePath": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_15/红色双手轮法兰消防分水器_页15_04_视觉展示图_待原图复核.png",
+      "usage": "Configuration illustration; exact technical details require confirmation.",
+      "originalSha256": "2862979a2c599bd4803fbee5958a5ce9bc37dfa054df7a521982befcc4697b6b",
+      "publishedTransform": "CHUANWEI FIRE watermark"
+    },
+    {
+      "productId": "catalog-fire-connections-distributors-page-15",
+      "path": "products/消防水泵接合器/catalog-fire-connections-distributors-page-15/p15-05.webp",
+      "sha256": "5b0315c3b00d6f20b60f913d3cd87c0d45ef1ea48e8f4aadec0db23604e3ead4",
+      "sourcePath": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_15/红铜双色双阀消防分水器_页15_05_视觉展示图_待原图复核.png",
+      "usage": "Configuration illustration; exact technical details require confirmation.",
+      "originalSha256": "0c1d879d8c0c03c8f07f0112ad32e36cceadf84e2b1046357bb8e43c91e99b35",
+      "publishedTransform": "CHUANWEI FIRE watermark"
+    },
+    {
+      "productId": "catalog-long-straight-stream-nozzles-page-16",
+      "path": "products/消防水枪/catalog-long-straight-stream-nozzles-page-16/p16-01.webp",
+      "sha256": "f13bedc98af52e13760e117421799fc49787d0e8dfe74783d5ed0714a275673a",
+      "sourcePath": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_16/黄铜长直流水枪_页16_01_视觉展示图_待原图复核.png",
+      "usage": "Configuration illustration; exact technical details require confirmation.",
+      "originalSha256": "4f55f916a381dd670c671fa116bee6502f7a1d506af97693a23e7caf262fd3e9",
+      "publishedTransform": "CHUANWEI FIRE watermark"
+    },
+    {
+      "productId": "catalog-long-straight-stream-nozzles-page-16",
+      "path": "products/消防水枪/catalog-long-straight-stream-nozzles-page-16/p16-02.webp",
+      "sha256": "59ad01e5a0c607759629a88237120e8a5c894e6a33f68c6d36d7145ba579e0e1",
+      "sourcePath": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_16/黄铜锥形直流水枪_页16_02_视觉展示图_待原图复核.png",
+      "usage": "Configuration illustration; exact technical details require confirmation.",
+      "originalSha256": "ec3860eca156908472d55e1649cf4bdf163f551858adce4ff663edc04b72edc1",
+      "publishedTransform": "CHUANWEI FIRE watermark"
+    },
+    {
+      "productId": "catalog-long-straight-stream-nozzles-page-16",
+      "path": "products/消防水枪/catalog-long-straight-stream-nozzles-page-16/p16-03.webp",
+      "sha256": "315591f034abe858e5c3caeb2b6d1ba4de645d7aa6c1507e3888d6cb23beb58e",
+      "sourcePath": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_16/银色长直流水枪_页16_03_视觉展示图_待原图复核.png",
+      "usage": "Configuration illustration; exact technical details require confirmation.",
+      "originalSha256": "4a9b57294933c3f321669deacaea30f36766c9f281b0b9fcfe3ac1e393a45728",
+      "publishedTransform": "CHUANWEI FIRE watermark"
+    },
+    {
+      "productId": "catalog-long-straight-stream-nozzles-page-16",
+      "path": "products/消防水枪/catalog-long-straight-stream-nozzles-page-16/p16-04.webp",
+      "sha256": "106a1c2cce119315fd4bb966edd2fcd42705e99bb4179b7dcb2fdb5d88413500",
+      "sourcePath": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_16/银头黄铜长直流水枪_页16_04_视觉展示图_待原图复核.png",
+      "usage": "Configuration illustration; exact technical details require confirmation.",
+      "originalSha256": "907b4b363242fa9dd04ca233246ddf85abb94337cb974c4dccb2cb859f57bbb4",
+      "publishedTransform": "CHUANWEI FIRE watermark"
+    },
+    {
+      "productId": "catalog-compact-straight-stream-nozzles-page-17",
+      "path": "products/消防水枪/catalog-compact-straight-stream-nozzles-page-17/p17-01.webp",
+      "sha256": "01d17b2f550bc68e52a6954a391849213a6bb495093ee27f923a62ee65623689",
+      "sourcePath": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_17/银色短款直流水枪_页17_01_视觉展示图_待原图复核.png",
+      "usage": "Configuration illustration; exact technical details require confirmation.",
+      "originalSha256": "f0287d78dc3139ae94262f9f29a9151d28a21fe175d0588167be0c77bcbbae76",
+      "publishedTransform": "CHUANWEI FIRE watermark"
+    },
+    {
+      "productId": "catalog-compact-straight-stream-nozzles-page-17",
+      "path": "products/消防水枪/catalog-compact-straight-stream-nozzles-page-17/p17-02.webp",
+      "sha256": "4467612c0ad538197fd10fd811dc7cf915d06702897f442d8a844c66ddb0aa49",
+      "sourcePath": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_17/黄铜短款直流水枪_页17_02_视觉展示图_待原图复核.png",
+      "usage": "Configuration illustration; exact technical details require confirmation.",
+      "originalSha256": "ff22b2953ee3aaff70f27d4994848c2af0f295b53b0cb7c57d6bedcd16d8c5b2",
+      "publishedTransform": "CHUANWEI FIRE watermark"
+    },
+    {
+      "productId": "catalog-compact-straight-stream-nozzles-page-17",
+      "path": "products/消防水枪/catalog-compact-straight-stream-nozzles-page-17/p17-03.webp",
+      "sha256": "56823180ee41945e1f548bceeb44456c4679aa974a5d61b747eb871dcefbb7dc",
+      "sourcePath": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_17/银色锥形卡口水枪_页17_03_视觉展示图_待原图复核.png",
+      "usage": "Configuration illustration; exact technical details require confirmation.",
+      "originalSha256": "b32affb558ff9f6cda96fcc3f8a77389a9086f14f2e71d77cc4a59bb80f1355c",
+      "publishedTransform": "CHUANWEI FIRE watermark"
+    },
+    {
+      "productId": "catalog-compact-straight-stream-nozzles-page-17",
+      "path": "products/消防水枪/catalog-compact-straight-stream-nozzles-page-17/p17-04.webp",
+      "sha256": "96383408d5fc0961b05adb2314ead431958258084315d48319aa04789552a65c",
+      "sourcePath": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_17/银色分段卡口水枪_页17_04_视觉展示图_待原图复核.png",
+      "usage": "Configuration illustration; exact technical details require confirmation.",
+      "originalSha256": "4ec187a20d61818208737fa24f02bb9bba00352bb121c9125b74a5cb3761ac98",
+      "publishedTransform": "CHUANWEI FIRE watermark"
+    },
+    {
+      "productId": "catalog-compact-straight-stream-nozzles-page-17",
+      "path": "products/消防水枪/catalog-compact-straight-stream-nozzles-page-17/p17-05.webp",
+      "sha256": "fcc6a2583436c8e58b070ac38dc51530b41e25b693d282783b4143fd4d73b422",
+      "sourcePath": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_17/黄铜双耳直流水枪_页17_05_视觉展示图_待原图复核.png",
+      "usage": "Configuration illustration; exact technical details require confirmation.",
+      "originalSha256": "bc2dc0d13c027092bf56b39233141081cfebc353dba80f97347e859836662968",
+      "publishedTransform": "CHUANWEI FIRE watermark"
+    },
+    {
+      "productId": "catalog-coupled-lever-nozzles-page-18",
+      "path": "products/消防水枪/catalog-coupled-lever-nozzles-page-18/p18-01.webp",
+      "sha256": "c434388f4f4292d84bef9a7cc6c861795eb25322189d788727d7db6129c4a620",
+      "sourcePath": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_18/黄铜细长双耳水枪_页18_01_视觉展示图_待原图复核.png",
+      "usage": "Configuration illustration; exact technical details require confirmation.",
+      "originalSha256": "079ced5b9e93fc80cd4f0986ac8fdc762bd8d6baa245f0e726652faad2ebd1b9",
+      "publishedTransform": "CHUANWEI FIRE watermark"
+    },
+    {
+      "productId": "catalog-coupled-lever-nozzles-page-18",
+      "path": "products/消防水枪/catalog-coupled-lever-nozzles-page-18/p18-02.webp",
+      "sha256": "449b70883686c1d68b0f85d172b9c301eae691f4087f67eaf7abeea12d29e5cd",
+      "sourcePath": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_18/黄铜分段卡口水枪_页18_02_视觉展示图_待原图复核.png",
+      "usage": "Configuration illustration; exact technical details require confirmation.",
+      "originalSha256": "47414e8a8b163b1bc40bc3c3224aec3aac8c5ca8a72f75deac31db12416156e1",
+      "publishedTransform": "CHUANWEI FIRE watermark"
+    },
+    {
+      "productId": "catalog-coupled-lever-nozzles-page-18",
+      "path": "products/消防水枪/catalog-coupled-lever-nozzles-page-18/p18-03.webp",
+      "sha256": "b47977d166324d181cae49cf4b928a6cd20c62202d9197bc189b965b4c71ad73",
+      "sourcePath": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_18/黑握把盘底开关水枪_页18_03_视觉展示图_待原图复核.png",
+      "usage": "Configuration illustration; exact technical details require confirmation.",
+      "originalSha256": "1977ed4a239b822bf39e68de35c0022c80ab55dc138bb89a4b9d64dcf26f08b2",
+      "publishedTransform": "CHUANWEI FIRE watermark"
+    },
+    {
+      "productId": "catalog-coupled-lever-nozzles-page-18",
+      "path": "products/消防水枪/catalog-coupled-lever-nozzles-page-18/p18-04.webp",
+      "sha256": "fc42b1ab74a7700ac6b0719ad7cdd62535039d859c88f4fc95361b35b29c19f4",
+      "sourcePath": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_18/黑握把插口开关水枪_页18_04_视觉展示图_待原图复核.png",
+      "usage": "Configuration illustration; exact technical details require confirmation.",
+      "originalSha256": "8f81f133a263d3952a7fe227be00ec8e8f84e691ce3622316f53efd72917169a",
+      "publishedTransform": "CHUANWEI FIRE watermark"
+    },
+    {
+      "productId": "catalog-coupled-lever-nozzles-page-18",
+      "path": "products/消防水枪/catalog-coupled-lever-nozzles-page-18/p18-05.webp",
+      "sha256": "67f06712a3c477955c5e8fe72cf6ebe3d5f3486c50508811d5bb5dcefa98e82e",
+      "sourcePath": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_18/银色横柄小水枪_页18_05_视觉展示图_待原图复核.png",
+      "usage": "Configuration illustration; exact technical details require confirmation.",
+      "originalSha256": "5834d19183ff3287832ba37ba3c18c5c828aca86414c947eff808711037b4970",
+      "publishedTransform": "CHUANWEI FIRE watermark"
+    },
+    {
+      "productId": "catalog-nozzles-inductors-connections-page-19",
+      "path": "products/消防水枪/catalog-nozzles-inductors-connections-page-19/p19-01.webp",
+      "sha256": "50129077d1ea709e6c7c0b302fb7ac8a7afb3c9274ea6ed75d55adb85c34d6b8",
+      "sourcePath": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_19/黄铜手柄喷雾水枪_页19_01_视觉展示图_待原图复核.png",
+      "usage": "Configuration illustration; exact technical details require confirmation.",
+      "originalSha256": "e8895b379dc7207dd9d3496f7b80c30487f9b522271ad59e310f0216a7f24a57",
+      "publishedTransform": "CHUANWEI FIRE watermark"
+    },
+    {
+      "productId": "catalog-nozzles-inductors-connections-page-19",
+      "path": "products/消防水枪/catalog-nozzles-inductors-connections-page-19/p19-03.webp",
+      "sha256": "9a2a1759f002fa72a32d29c79118ec9ef64a9569e03b45bbcac58ad50d0ee81e",
+      "sourcePath": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_19/红色泡沫比例混合器组件_页19_03_视觉展示图_待原图复核.png",
+      "usage": "Configuration illustration; exact technical details require confirmation.",
+      "originalSha256": "7e0dd6f1ea019d0edcbf3047f802929f2879afdc1a1221e8f74b506d5361db69",
+      "publishedTransform": "CHUANWEI FIRE watermark"
+    },
+    {
+      "productId": "catalog-nozzles-inductors-connections-page-19",
+      "path": "products/消防水枪/catalog-nozzles-inductors-connections-page-19/p19-04.webp",
+      "sha256": "0c75de837b7437f5f9b9a38ac70f00e2df2d9c206506673a75e20c3b7e6fa57a",
+      "sourcePath": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_19/黄铜三接口消防接合器_页19_04_视觉展示图_待原图复核.png",
+      "usage": "Configuration illustration; exact technical details require confirmation.",
+      "originalSha256": "9b910b57568057ae1dea62e91452e6cbe208e8ff43f5b01fc6dfa0da0ca725fb",
+      "publishedTransform": "CHUANWEI FIRE watermark"
+    },
+    {
+      "productId": "catalog-nozzles-inductors-connections-page-19",
+      "path": "products/消防水枪/catalog-nozzles-inductors-connections-page-19/p19-05.webp",
+      "sha256": "dd29b1b94ead0fa0890128e1b49ab3ac893edaa76a7bcc1fbab23c85b36f247b",
+      "sourcePath": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_19/银色快接水枪接头_页19_05_视觉展示图_待原图复核.png",
+      "usage": "Configuration illustration; exact technical details require confirmation.",
+      "originalSha256": "c07d4e1303fc40bd78252c0d2d5767b2dc5623897562f6a7066195f8b34fbe1d",
+      "publishedTransform": "CHUANWEI FIRE watermark"
+    },
+    {
+      "productId": "catalog-fire-hose-couplings-page-20",
+      "path": "products/消防水枪/catalog-fire-hose-couplings-page-20/p20-01.webp",
+      "sha256": "a972ef074c0637b868f5b0101fddcd684e54d32725e0577db38935afe5de3772",
+      "sourcePath": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_20/黄铜双耳水带接扣_页20_01_视觉展示图_待原图复核.png",
+      "usage": "Configuration illustration; exact technical details require confirmation.",
+      "originalSha256": "62b0ca1128b4397e8b1bde20b367ec0212e09dfe10aa44f3a347255637aa9800",
+      "publishedTransform": "CHUANWEI FIRE watermark"
+    },
+    {
+      "productId": "catalog-fire-hose-couplings-page-20",
+      "path": "products/消防水枪/catalog-fire-hose-couplings-page-20/p20-02.webp",
+      "sha256": "a61d626d4e718a90aaf8b6627debb8d7d2078083004b38b9609ab44bf206b924",
+      "sourcePath": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_20/黄铜卡爪水带接扣_页20_02_视觉展示图_待原图复核.png",
+      "usage": "Configuration illustration; exact technical details require confirmation.",
+      "originalSha256": "4a0bcf70ff4c76e30d96f69d040a5f2df0599f76c9dfc6bcfeacaf717ea86222",
+      "publishedTransform": "CHUANWEI FIRE watermark"
+    },
+    {
+      "productId": "catalog-fire-hose-couplings-page-20",
+      "path": "products/消防水枪/catalog-fire-hose-couplings-page-20/p20-03.webp",
+      "sha256": "87376af04ae03a766620078e060059310685459426ca1f0c349c77d85c0c3e18",
+      "sourcePath": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_20/黄铜圆环水带接扣_页20_03_视觉展示图_待原图复核.png",
+      "usage": "Configuration illustration; exact technical details require confirmation.",
+      "originalSha256": "1b116cd7f1a6ba67dea069a7cae10f4b000b01b3991657493942d0590b6ac28c",
+      "publishedTransform": "CHUANWEI FIRE watermark"
+    },
+    {
+      "productId": "catalog-fire-hose-couplings-page-20",
+      "path": "products/消防水枪/catalog-fire-hose-couplings-page-20/p20-04.webp",
+      "sha256": "30f8eda00e39d996b898f6f2a5bd4f63f22910e8c29be3e88b176273f824ed14",
+      "sourcePath": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_20/黄铜双锁扣水带接扣_页20_04_视觉展示图_待原图复核.png",
+      "usage": "Configuration illustration; exact technical details require confirmation.",
+      "originalSha256": "534c28bdeda0bde7ac83f78b20179b45ad000f429427aa0ecab6d2b995362634",
+      "publishedTransform": "CHUANWEI FIRE watermark"
+    },
+    {
+      "productId": "catalog-fire-hose-couplings-page-20",
+      "path": "products/消防水枪/catalog-fire-hose-couplings-page-20/p20-05.webp",
+      "sha256": "7e65db2777cb814c40efb6f8c3ebb18146c5a44f577242aaa8557b67b16b608e",
+      "sourcePath": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_20/银色红圈水带接扣_页20_05_视觉展示图_待原图复核.png",
+      "usage": "Configuration illustration; exact technical details require confirmation.",
+      "originalSha256": "9260632d07c8d974e301ebefbe5ff53678d449fceee868c8dd0840da57d03bf1",
+      "publishedTransform": "CHUANWEI FIRE watermark"
+    },
+    {
+      "productId": "catalog-fire-hose-adapters-page-21",
+      "path": "products/消防水枪/catalog-fire-hose-adapters-page-21/p21-01.webp",
+      "sha256": "de0abec1c78226de35b10640f782e60fe88c26b045f44eca5db37875db5ba1eb",
+      "sourcePath": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_21/黄铜黑圈水带接扣_页21_01_视觉展示图_待原图复核.png",
+      "usage": "Configuration illustration; exact technical details require confirmation.",
+      "originalSha256": "5e2c692a301112620dc266b52f72f22570063d9a8ea5704735eff5ca305cc5df",
+      "publishedTransform": "CHUANWEI FIRE watermark"
+    },
+    {
+      "productId": "catalog-fire-hose-adapters-page-21",
+      "path": "products/消防水枪/catalog-fire-hose-adapters-page-21/p21-02.webp",
+      "sha256": "05f6c2514eacecae7b43922d789e8fb00e999a6a9ca50aad0fa1ab8ca0abb917",
+      "sourcePath": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_21/黄铜六角圆环接扣_页21_02_视觉展示图_待原图复核.png",
+      "usage": "Configuration illustration; exact technical details require confirmation.",
+      "originalSha256": "9751421a65b9a18931125935e1d4ea04966faae64be2d023a30e67f8bb05402b",
+      "publishedTransform": "CHUANWEI FIRE watermark"
+    },
+    {
+      "productId": "catalog-fire-hose-adapters-page-21",
+      "path": "products/消防水枪/catalog-fire-hose-adapters-page-21/p21-03.webp",
+      "sha256": "16a192c98c46eececd7d70626df3245cfbceccb1b7c983027a62b5c904856c80",
+      "sourcePath": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_21/黄铜短筒双耳转换接头_页21_03_视觉展示图_待原图复核.png",
+      "usage": "Configuration illustration; exact technical details require confirmation.",
+      "originalSha256": "8d469125297a58eba4dec095912b58e546ec5b9e0b840840c229a4fa1da6eba3",
+      "publishedTransform": "CHUANWEI FIRE watermark"
+    },
+    {
+      "productId": "catalog-fire-hose-adapters-page-21",
+      "path": "products/消防水枪/catalog-fire-hose-adapters-page-21/p21-04.webp",
+      "sha256": "6ce4824b75c656a6eb897203a6d67acb6577e6f7f5c226b3d133bc412091e718",
+      "sourcePath": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_21/银色双耳转换接头_页21_04_视觉展示图_待原图复核.png",
+      "usage": "Configuration illustration; exact technical details require confirmation.",
+      "originalSha256": "a573bddf69cf356133858e6939e3f0392f9d4dc4ea997ce8b110045b79b31e0e",
+      "publishedTransform": "CHUANWEI FIRE watermark"
+    },
+    {
+      "productId": "catalog-fire-hose-adapters-page-21",
+      "path": "products/消防水枪/catalog-fire-hose-adapters-page-21/p21-05.webp",
+      "sha256": "02291b974b023faa9327277e89fc41699eb746d32b7cd5ba063b5b3006331e2a",
+      "sourcePath": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_21/金色双耳转换接头_页21_05_视觉展示图_待原图复核.png",
+      "usage": "Configuration illustration; exact technical details require confirmation.",
+      "originalSha256": "9e1e7761878ee221627ed5fd4c5d9c6b06fd59f225d65de2bf3d86ed961e1c86",
+      "publishedTransform": "CHUANWEI FIRE watermark"
+    },
+    {
+      "productId": "catalog-compact-spray-nozzles-page-22",
+      "path": "products/消防水枪/catalog-compact-spray-nozzles-page-22/p22-01.webp",
+      "sha256": "9160a0397ca73b6e02b0a75db5bb723902adfd355251cce2858e7030ba20fad5",
+      "sourcePath": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_22/黄铜双层耳转换接头_页22_01_视觉展示图_待原图复核.png",
+      "usage": "Configuration illustration; exact technical details require confirmation.",
+      "originalSha256": "30ed23cb8d0969a77910f821ed65ce2f8edc9e97115331c0971ddc047bfaecca",
+      "publishedTransform": "CHUANWEI FIRE watermark"
+    },
+    {
+      "productId": "catalog-compact-spray-nozzles-page-22",
+      "path": "products/消防水枪/catalog-compact-spray-nozzles-page-22/p22-02.webp",
+      "sha256": "87963c9e19c577b4d10d541187b7fd384d3a09fe6ab701975a77ddedef969e71",
+      "sourcePath": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_22/黄铜黑圈短喷雾水枪_页22_02_视觉展示图_待原图复核.png",
+      "usage": "Configuration illustration; exact technical details require confirmation.",
+      "originalSha256": "7cbc9f32e190ccd2edf1cd3bbd10ce1a59266e3d5ad8f2ed53ca9e6350d48748",
+      "publishedTransform": "CHUANWEI FIRE watermark"
+    },
+    {
+      "productId": "catalog-compact-spray-nozzles-page-22",
+      "path": "products/消防水枪/catalog-compact-spray-nozzles-page-22/p22-03.webp",
+      "sha256": "f50b5a61c6c0f11999bf158e78b2a72748814950607ea21a8c7c197f34e2be18",
+      "sourcePath": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_22/黄铜双耳底喷雾水枪_页22_03_视觉展示图_待原图复核.png",
+      "usage": "Configuration illustration; exact technical details require confirmation.",
+      "originalSha256": "09272ea02ed4eb11d29fc41c096e4d5de3f35ebc179108ee30d336d3abafe515",
+      "publishedTransform": "CHUANWEI FIRE watermark"
+    },
+    {
+      "productId": "catalog-compact-spray-nozzles-page-22",
+      "path": "products/消防水枪/catalog-compact-spray-nozzles-page-22/p22-04.webp",
+      "sha256": "1ed88bb09599d7deb910ccc2f67b218a569868ed69c4437e1dfd4cda27ff9fdc",
+      "sourcePath": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_22/黑色宽头黄铜水枪_页22_04_视觉展示图_待原图复核.png",
+      "usage": "Configuration illustration; exact technical details require confirmation.",
+      "originalSha256": "0dcf3e9e74bf4b27d2fcce0c17cafd3fc837d4c35b66d66445b52379281f2ade",
+      "publishedTransform": "CHUANWEI FIRE watermark"
+    },
+    {
+      "productId": "catalog-compact-spray-nozzles-page-22",
+      "path": "products/消防水枪/catalog-compact-spray-nozzles-page-22/p22-05.webp",
+      "sha256": "b1cdb58f8557dde2600ee9f98f6b51a392434b90cdada009fdcf16cb75203e90",
+      "sourcePath": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_22/黄铜齿口黑圈水枪_页22_05_视觉展示图_待原图复核.png",
+      "usage": "Configuration illustration; exact technical details require confirmation.",
+      "originalSha256": "272ee371a902500af26a8663f3ce7cb90cc2fc58fa6e6ab9b01bc32fd039a970",
+      "publishedTransform": "CHUANWEI FIRE watermark"
+    },
+    {
+      "productId": "catalog-red-grip-nozzles-page-23",
+      "path": "products/消防水枪/catalog-red-grip-nozzles-page-23/p23-01.webp",
+      "sha256": "45fcac6d99c4dd9cf642cbe4736909717e2fe0c8f563a3e11ea5cede9a376852",
+      "sourcePath": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_23/红色黑头短水枪_页23_01_视觉展示图_待原图复核.png",
+      "usage": "Configuration illustration; exact technical details require confirmation.",
+      "originalSha256": "bb577b083607caf761215cc706895844077f1743189ca7e3df2628e07834e408",
+      "publishedTransform": "CHUANWEI FIRE watermark"
+    },
+    {
+      "productId": "catalog-red-grip-nozzles-page-23",
+      "path": "products/消防水枪/catalog-red-grip-nozzles-page-23/p23-02.webp",
+      "sha256": "1f45eb663a1cde6625f6bbab3976d465fdd083a9c187a80576dfc3c2156dcf7c",
+      "sourcePath": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_23/红色铜尾短水枪_页23_02_视觉展示图_待原图复核.png",
+      "usage": "Configuration illustration; exact technical details require confirmation.",
+      "originalSha256": "afee117751176476417ae965198677b0d717fb942204015d039719952b823006",
+      "publishedTransform": "CHUANWEI FIRE watermark"
+    },
+    {
+      "productId": "catalog-red-grip-nozzles-page-23",
+      "path": "products/消防水枪/catalog-red-grip-nozzles-page-23/p23-03.webp",
+      "sha256": "0818d591cadf4bb86d9b6a439d4724beac356d23d93bd5e7990498c2e432a604",
+      "sourcePath": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_23/红握把盘底长水枪_页23_03重试_视觉展示图_待原图复核.png",
+      "usage": "Configuration illustration; exact technical details require confirmation.",
+      "originalSha256": "b3ff3c5e8075d7ea6571324f3e66db0d9f2e8fad9684b9d80299776b62b25129",
+      "publishedTransform": "CHUANWEI FIRE watermark"
+    },
+    {
+      "productId": "catalog-red-grip-nozzles-page-23",
+      "path": "products/消防水枪/catalog-red-grip-nozzles-page-23/p23-04.webp",
+      "sha256": "62b30186bcbb240d1dc463ac58cdb675034c88db4d598c159ae32cfbbe9ef194",
+      "sourcePath": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_23/红握把平底长水枪_页23_04_视觉展示图_待原图复核.png",
+      "usage": "Configuration illustration; exact technical details require confirmation.",
+      "originalSha256": "619249247c2f90fb064580033f3044b319ef7e163ec423f862bd016dcaca1a8a",
+      "publishedTransform": "CHUANWEI FIRE watermark"
+    },
+    {
+      "productId": "catalog-red-grip-nozzles-page-23",
+      "path": "products/消防水枪/catalog-red-grip-nozzles-page-23/p23-05.webp",
+      "sha256": "ea798ed74b01d5287a9adb59dd65496de9e6e5fd81ccd9061087264f6e68cf7b",
+      "sourcePath": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_23/红握把卡口长水枪_页23_05重试_视觉展示图_待原图复核.png",
+      "usage": "Configuration illustration; exact technical details require confirmation.",
+      "originalSha256": "0de31f227a1d0f3e84b3964daa0d467cbb0dd0906f7b30dac36030598dbd4717",
+      "publishedTransform": "CHUANWEI FIRE watermark"
+    },
+    {
+      "productId": "catalog-hose-tails-adapters-page-24",
+      "path": "products/消防水枪/catalog-hose-tails-adapters-page-24/p24-01.webp",
+      "sha256": "9c25040052edc8052428c38834a950f525105176a32b0196d10d02f2bd3ef5ca",
+      "sourcePath": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_24/黄铜六角水带尾接头_页24_01_视觉展示图_待原图复核.png",
+      "usage": "Configuration illustration; exact technical details require confirmation.",
+      "originalSha256": "ab030005d351b2d50f6fae264d38fe25a0da358ec260d1ac7e94cd27c6892a16",
+      "publishedTransform": "CHUANWEI FIRE watermark"
+    },
+    {
+      "productId": "catalog-hose-tails-adapters-page-24",
+      "path": "products/消防水枪/catalog-hose-tails-adapters-page-24/p24-02.webp",
+      "sha256": "8805c39ec0320c7b8b67a35071eb6024f9881a826ddcea4ae78f5f3593e14059",
+      "sourcePath": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_24/黄铜滚花水带尾接头_页24_02_视觉展示图_待原图复核.png",
+      "usage": "Configuration illustration; exact technical details require confirmation.",
+      "originalSha256": "fea0d7cce98803044b85e6317736d24610ee730578075f17627dd7d3375bc38f",
+      "publishedTransform": "CHUANWEI FIRE watermark"
+    },
+    {
+      "productId": "catalog-hose-tails-adapters-page-24",
+      "path": "products/消防水枪/catalog-hose-tails-adapters-page-24/p24-03.webp",
+      "sha256": "efc948307a3e90e1df413cf42bb602cd448d65e8d02673133f2f17bfa89756a6",
+      "sourcePath": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_24/黄铜双耳尾接头_页24_03_视觉展示图_待原图复核.png",
+      "usage": "Configuration illustration; exact technical details require confirmation.",
+      "originalSha256": "60f9d936d8af089d7c9a2be5b9c9320b55736f6411f7183c4e0be3e3b39f208e",
+      "publishedTransform": "CHUANWEI FIRE watermark"
+    },
+    {
+      "productId": "catalog-hose-tails-adapters-page-24",
+      "path": "products/消防水枪/catalog-hose-tails-adapters-page-24/p24-04.webp",
+      "sha256": "a31e0d7aa76b1c8c6527ce2f8d3804bfc6c18acdd057a21707b8a00814145a29",
+      "sourcePath": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_24/黄铜带黑盖转换接头_页24_04_视觉展示图_待原图复核.png",
+      "usage": "Configuration illustration; exact technical details require confirmation.",
+      "originalSha256": "4fb9e860d1c583afe671306048b5a52503eb9c7a9b234c2925ebe4e4fbcf33ad",
+      "publishedTransform": "CHUANWEI FIRE watermark"
+    },
+    {
+      "productId": "catalog-hose-tails-adapters-page-24",
+      "path": "products/消防水枪/catalog-hose-tails-adapters-page-24/p24-05.webp",
+      "sha256": "0cc22d23818008ea209d3471351d436293d288ecf53ec6fa9d4227d22a6d37f1",
+      "sourcePath": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_24/银色内螺纹卡爪接头_页24_05_视觉展示图_待原图复核.png",
+      "usage": "Configuration illustration; exact technical details require confirmation.",
+      "originalSha256": "42731685c2ba99e0c682a64f5d2e0cdfc23f78b23ca09e08b0008fd354cb64f7",
+      "publishedTransform": "CHUANWEI FIRE watermark"
+    },
+    {
+      "productId": "catalog-hose-tails-adapters-page-24",
+      "path": "products/消防水枪/catalog-hose-tails-adapters-page-24/p24-06.webp",
+      "sha256": "e77a22f9fb5feee7a6eb6e01e1db1bf6388b5483a853c55c814b16224b864b7f",
+      "sourcePath": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_24/黄铜内螺纹卡爪接头_页24_06_视觉展示图_待原图复核.png",
+      "usage": "Configuration illustration; exact technical details require confirmation.",
+      "originalSha256": "27ab0e37fc0dc8929f39be4f796a596af46b2b708669bda3b6c0e6429188b2e7",
+      "publishedTransform": "CHUANWEI FIRE watermark"
+    },
+    {
+      "productId": "catalog-threaded-adapters-caps-page-25",
+      "path": "products/消防水枪/catalog-threaded-adapters-caps-page-25/p25-01.webp",
+      "sha256": "37b7c623d5eebec0b61d3a59bb7d0eefc73ad5b6d8131de8f9abd53b44decfed",
+      "sourcePath": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_25/黄铜内牙双爪接头_页25_01_视觉展示图_待原图复核.png",
+      "usage": "Configuration illustration; exact technical details require confirmation.",
+      "originalSha256": "e02e876c61f2508fad8495b40b78bc9caeb11e114732f0660ac9e7a112598b1f",
+      "publishedTransform": "CHUANWEI FIRE watermark"
+    },
+    {
+      "productId": "catalog-threaded-adapters-caps-page-25",
+      "path": "products/消防水枪/catalog-threaded-adapters-caps-page-25/p25-02.webp",
+      "sha256": "182ed5af979bdc6a024aac507025d3357a1a8708cedaec0b3a621e5df89bda48",
+      "sourcePath": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_25/银色内牙双爪接头_页25_02_视觉展示图_待原图复核.png",
+      "usage": "Configuration illustration; exact technical details require confirmation.",
+      "originalSha256": "6404faf64fcfcba889d4c0fcd5704a80dd7c2088eb911b15ec147d0001e1b052",
+      "publishedTransform": "CHUANWEI FIRE watermark"
+    },
+    {
+      "productId": "catalog-threaded-adapters-caps-page-25",
+      "path": "products/消防水枪/catalog-threaded-adapters-caps-page-25/p25-03.webp",
+      "sha256": "3ce68230f87b4a82e496ed4658493353a2149a145a45c27e7f0fcd7cc7021696",
+      "sourcePath": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_25/黄铜内牙圆盘接头_页25_03_视觉展示图_待原图复核.png",
+      "usage": "Configuration illustration; exact technical details require confirmation.",
+      "originalSha256": "24faf8beafbf0f70551ddf18dd43b79622d2cef089e55a281519ce36090e5515",
+      "publishedTransform": "CHUANWEI FIRE watermark"
+    },
+    {
+      "productId": "catalog-threaded-adapters-caps-page-25",
+      "path": "products/消防水枪/catalog-threaded-adapters-caps-page-25/p25-04.webp",
+      "sha256": "cc61c409d860e430466619a5380b47cfeacaabebfbfb86f85d8847835eea748d",
+      "sourcePath": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_25/黄铜带链闷盖接头_页25_04_视觉展示图_待原图复核.png",
+      "usage": "Configuration illustration; exact technical details require confirmation.",
+      "originalSha256": "749d7af3dfca85b4404710167855c64b4247bf2df2c1f4f9177e7a3179d9ad57",
+      "publishedTransform": "CHUANWEI FIRE watermark"
+    },
+    {
+      "productId": "catalog-threaded-adapters-caps-page-25",
+      "path": "products/消防水枪/catalog-threaded-adapters-caps-page-25/p25-05.webp",
+      "sha256": "85d6a0a3085a5a4a74cda6f259dd24e9eb4591b9ae5bf8eaf5f3ec2fd425f61c",
+      "sourcePath": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_25/银色带链闷盖接头_页25_05_视觉展示图_待原图复核.png",
+      "usage": "Configuration illustration; exact technical details require confirmation.",
+      "originalSha256": "f976d46e45c524d7a970d72b694e677b6420ba4b76d48b0278db2b5233f9d4ce",
+      "publishedTransform": "CHUANWEI FIRE watermark"
+    },
+    {
+      "productId": "catalog-blank-caps-plug-adapters-page-26",
+      "path": "products/消防水枪/catalog-blank-caps-plug-adapters-page-26/p26-01.webp",
+      "sha256": "533423470070333c85b9f9cd16d594b723f0bf1e4f8a6eb82377e7115d6370ae",
+      "sourcePath": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_26/黄铜腰槽带链闷盖_页26_01_视觉展示图_待原图复核.png",
+      "usage": "Configuration illustration; exact technical details require confirmation.",
+      "originalSha256": "f0b0c9bb8c51e7a5396115e689616408f892686ca1f97a00a789de5fcfed7141",
+      "publishedTransform": "CHUANWEI FIRE watermark"
+    },
+    {
+      "productId": "catalog-blank-caps-plug-adapters-page-26",
+      "path": "products/消防水枪/catalog-blank-caps-plug-adapters-page-26/p26-02.webp",
+      "sha256": "af4519c68f970be56a534da67606f0303fc80368ba6cf1fc1a5e5c8abbb70840",
+      "sourcePath": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_26/黄铜双耳带链闷盖_页26_02_视觉展示图_待原图复核.png",
+      "usage": "Configuration illustration; exact technical details require confirmation.",
+      "originalSha256": "50de0d01f802b843773fbf8bfb02a5099b44dca4955a5ee97fe4c293536b4361",
+      "publishedTransform": "CHUANWEI FIRE watermark"
+    },
+    {
+      "productId": "catalog-blank-caps-plug-adapters-page-26",
+      "path": "products/消防水枪/catalog-blank-caps-plug-adapters-page-26/p26-03.webp",
+      "sha256": "8c274bd4b53b84959523d3be171c3161b256b6d5f7d799957f97aa911bc7292e",
+      "sourcePath": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_26/黄铜双爪细链闷盖_页26_03_视觉展示图_待原图复核.png",
+      "usage": "Configuration illustration; exact technical details require confirmation.",
+      "originalSha256": "39e0e0269fbd2b55f554786cb99466c0f7923b92ed912d0aa3944688adea3ca5",
+      "publishedTransform": "CHUANWEI FIRE watermark"
+    },
+    {
+      "productId": "catalog-blank-caps-plug-adapters-page-26",
+      "path": "products/消防水枪/catalog-blank-caps-plug-adapters-page-26/p26-04.webp",
+      "sha256": "caca96d2f6de40fcf1e6d18b4a8d8ff1e0cfe824cda0d03ca08d323f4f478015",
+      "sourcePath": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_26/黄铜圆盘带链闷盖_页26_04_视觉展示图_待原图复核.png",
+      "usage": "Configuration illustration; exact technical details require confirmation.",
+      "originalSha256": "fbe1f39a34e19bd07aa915e24e7a7983a65022c69293f0a49589da1147bea53e",
+      "publishedTransform": "CHUANWEI FIRE watermark"
+    },
+    {
+      "productId": "catalog-blank-caps-plug-adapters-page-26",
+      "path": "products/消防水枪/catalog-blank-caps-plug-adapters-page-26/p26-05.webp",
+      "sha256": "13b461a57fab347588a8d61488ab21f80cb5fa9c81c3c62a3543731d7d1667f1",
+      "sourcePath": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_26/黄铜外螺纹插口接头_页26_05_视觉展示图_待原图复核.png",
+      "usage": "Configuration illustration; exact technical details require confirmation.",
+      "originalSha256": "8db502468c50e6a951a7e083c257fce3c3d63d30c4995bb16f76ff16941bff40",
+      "publishedTransform": "CHUANWEI FIRE watermark"
+    },
+    {
+      "productId": "catalog-hose-reel-parts-page-27",
+      "path": "products/软管卷盘/catalog-hose-reel-parts-page-27/p27-01.webp",
+      "sha256": "1e49ec720d7a1531a945c26ab36e156b2a2db09d913e533da64cb4f5e35d3339",
+      "sourcePath": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_27/银色铜端卷盘旋转接头_页27_01_视觉展示图_待原图复核.png",
+      "usage": "Configuration illustration; exact technical details require confirmation.",
+      "originalSha256": "2d04a2759429f31c1e69712ce16582fdd07260441d8b88e0fc7725f16116f42f",
+      "publishedTransform": "CHUANWEI FIRE watermark"
+    },
+    {
+      "productId": "catalog-hose-reel-parts-page-27",
+      "path": "products/软管卷盘/catalog-hose-reel-parts-page-27/p27-02.webp",
+      "sha256": "0baf0339be8e08b81fd91b9188e9ebbe95a4cd83b411cf9da5208f947d51de3d",
+      "sourcePath": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_27/银色卷盘旋转接头_页27_02_视觉展示图_待原图复核.png",
+      "usage": "Configuration illustration; exact technical details require confirmation.",
+      "originalSha256": "38275364ce85b8e2719a8c0469a87c6164772f48df2d77d82dd654491da84102",
+      "publishedTransform": "CHUANWEI FIRE watermark"
+    },
+    {
+      "productId": "catalog-hose-reel-parts-page-27",
+      "path": "products/软管卷盘/catalog-hose-reel-parts-page-27/p27-03.webp",
+      "sha256": "0bd52204eb46a5520e95c851e62f8c5a0b05694ed87831659ac47a512b645736",
+      "sourcePath": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_27/黄铜卷盘旋转接头_页27_03重试_视觉展示图_待原图复核.png",
+      "usage": "Configuration illustration; exact technical details require confirmation.",
+      "originalSha256": "9055c3f000fcb76ce65c01f34da1152216b31e053d6616ee8dcdabd091dbf6b5",
+      "publishedTransform": "CHUANWEI FIRE watermark"
+    },
+    {
+      "productId": "catalog-hose-reel-parts-page-27",
+      "path": "products/软管卷盘/catalog-hose-reel-parts-page-27/p27-04.webp",
+      "sha256": "d3b7d82aecc6bd4ba8d8ac3b55479d623aaca1bc8ae93de831dca112ef316117",
+      "sourcePath": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_27/红色卷盘摆臂支架_页27_04_视觉展示图_待原图复核.png",
+      "usage": "Configuration illustration; exact technical details require confirmation.",
+      "originalSha256": "738ea9505edd584f52478ec0664ba3c08a04053f653e5a8be4224b3ab4e7635b",
+      "publishedTransform": "CHUANWEI FIRE watermark"
+    },
+    {
+      "productId": "catalog-hose-reel-parts-page-27",
+      "path": "products/软管卷盘/catalog-hose-reel-parts-page-27/p27-05.webp",
+      "sha256": "d99735cdfb16ec2baad248972444cb1742e6e8959be331e1198e8a7915d96c8e",
+      "sourcePath": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_27/红色卷盘管架组件_页27_05重试_视觉展示图_待原图复核.png",
+      "usage": "Configuration illustration; exact technical details require confirmation.",
+      "originalSha256": "839d173432843f4e77dfe9126790f781a01e80a56683798c5111b9164e894e94",
+      "publishedTransform": "CHUANWEI FIRE watermark"
+    },
+    {
+      "productId": "catalog-hose-assemblies-reels-page-28",
+      "path": "products/软管卷盘/catalog-hose-assemblies-reels-page-28/p28-01.webp",
+      "sha256": "da923352b5f0b78eb0b35007303cdfe2befa8e40ea73103ddf9a3654f72f5057",
+      "sourcePath": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_28/黄铜插口白色消防水带_页28_01_视觉展示图_待原图复核.png",
+      "usage": "Configuration illustration; exact technical details require confirmation.",
+      "originalSha256": "4136e30da24eee22c47a9ba005909ef8e416bfd25095cfb7e4bf728e50a55150",
+      "publishedTransform": "CHUANWEI FIRE watermark"
+    },
+    {
+      "productId": "catalog-hose-assemblies-reels-page-28",
+      "path": "products/软管卷盘/catalog-hose-assemblies-reels-page-28/p28-02.webp",
+      "sha256": "206e3d1b4dedaa2ee94ea60a26815004c9af1c6b9375d1c6df693291f09586ea",
+      "sourcePath": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_28/黄铜螺纹白色消防水带_页28_02_视觉展示图_待原图复核.png",
+      "usage": "Configuration illustration; exact technical details require confirmation.",
+      "originalSha256": "17672c93a656672a99cb304004e549e4fe6feb38103722eafc2d4d3396eefde0",
+      "publishedTransform": "CHUANWEI FIRE watermark"
+    },
+    {
+      "productId": "catalog-hose-assemblies-reels-page-28",
+      "path": "products/软管卷盘/catalog-hose-assemblies-reels-page-28/p28-03.webp",
+      "sha256": "6c5ee55b9311c1545d3bcd28738623616b567a28392911d947c02569caa807f1",
+      "sourcePath": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_28/银色卡口条纹消防水带_页28_03_视觉展示图_待原图复核.png",
+      "usage": "Configuration illustration; exact technical details require confirmation.",
+      "originalSha256": "b85a33e209b4013d8324ac6ed4b3ced27ff294e02f3012d0b00a23b54f3b37cd",
+      "publishedTransform": "CHUANWEI FIRE watermark"
+    },
+    {
+      "productId": "catalog-hose-assemblies-reels-page-28",
+      "path": "products/软管卷盘/catalog-hose-assemblies-reels-page-28/p28-04.webp",
+      "sha256": "114658eabf9e81f8bb693bb4f416652edae816d64f7fa3152c62edaab90ead30",
+      "sourcePath": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_28/银色支架红色消防卷盘_页28_04_视觉展示图_待原图复核.png",
+      "usage": "Configuration illustration; exact technical details require confirmation.",
+      "originalSha256": "28bbc89167d83435300f5d78ccdbf037ee7e6f4270c26226dfc7a3ba9316efdd",
+      "publishedTransform": "CHUANWEI FIRE watermark"
+    },
+    {
+      "productId": "catalog-hose-assemblies-reels-page-28",
+      "path": "products/软管卷盘/catalog-hose-assemblies-reels-page-28/p28-05.webp",
+      "sha256": "21db7a251f9cc5f65ae6819022a7b9ff3e134dd6b284f74a1a4a841f625b7043",
+      "sourcePath": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_28/红色摆臂消防卷盘_页28_05_视觉展示图_待原图复核.png",
+      "usage": "Configuration illustration; exact technical details require confirmation."
+    },
+    {
+      "productId": "catalog-fire-cabinets-page-30",
+      "path": "products/消防器材箱/catalog-fire-cabinets-page-30/p30-01.webp",
+      "sha256": "b6a5988203fa1e5361ee774f2dc1230416f40eed4ca5d03b4b5d4a01485c9821",
+      "sourcePath": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_30/红色窄窗卷盘箱_页30_01_视觉展示图_待原图复核.png",
+      "usage": "Configuration illustration; exact technical details require confirmation.",
+      "originalSha256": "37432eb2f6c06a9c91dddf3b5cfd14e361abcb87c3140ca2a9c790d9f4520ea0",
+      "publishedTransform": "CHUANWEI FIRE watermark"
+    },
+    {
+      "productId": "catalog-fire-cabinets-page-30",
+      "path": "products/消防器材箱/catalog-fire-cabinets-page-30/p30-02.webp",
+      "sha256": "0abb7ce7d706826bf51348ce738217a4dce6bbef0feea7c0252f42324dd2ff15",
+      "sourcePath": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_30/红色单瓶灭火器箱_页30_02_视觉展示图_待原图复核.png",
+      "usage": "Configuration illustration; exact technical details require confirmation.",
+      "originalSha256": "2c3a72ca44b32a58074cdb424be468806a20cea9dd0e7a2acb8a517343a86c14",
+      "publishedTransform": "CHUANWEI FIRE watermark"
+    },
+    {
+      "productId": "catalog-fire-cabinets-page-30",
+      "path": "products/消防器材箱/catalog-fire-cabinets-page-30/p30-03.webp",
+      "sha256": "d812aa2d23933b071e85e746dd86550b1547d5c5ef0243750d444fb7d11861fa",
+      "sourcePath": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_30/红色中窗消防箱_页30_03_视觉展示图_待原图复核.png",
+      "usage": "Configuration illustration; exact technical details require confirmation.",
+      "originalSha256": "b9a04aa93ba476f0c73fab3e88ac793bda327f9477348726fba4b2bc86eee41f",
+      "publishedTransform": "CHUANWEI FIRE watermark"
+    },
+    {
+      "productId": "catalog-fire-cabinets-page-30",
+      "path": "products/消防器材箱/catalog-fire-cabinets-page-30/p30-04.webp",
+      "sha256": "42829e615310df03a489cdb78c4f9717dc454edc19d3aa0ab9978ff922416f28",
+      "sourcePath": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_30/红色上下实门消防箱_页30_04_视觉展示图_待原图复核.png",
+      "usage": "Configuration illustration; exact technical details require confirmation.",
+      "originalSha256": "97606801c57fed60b8d7d1c5355a305a32b9de3c572936371b4c9e2b3610fb81",
+      "publishedTransform": "CHUANWEI FIRE watermark"
+    },
+    {
+      "productId": "catalog-outdoor-hydrant-configurations-page-31",
+      "path": "products/室外消防栓/catalog-outdoor-hydrant-configurations-page-31/p31-01.webp",
+      "sha256": "eb3d104129e4debf032a00c3d9dcef9b6aaa8e8dc19708e1c5a2d74841f017e4",
+      "sourcePath": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_31/红黑长管室外消火栓_页31_01_视觉展示图_待原图复核.png",
+      "usage": "Configuration illustration; exact technical details require confirmation.",
+      "originalSha256": "36e450ac5e9081212232f3d1a7527198b76d011d859cd2ad1e1582cb4df89db6",
+      "publishedTransform": "CHUANWEI FIRE watermark"
+    },
+    {
+      "productId": "catalog-outdoor-hydrant-configurations-page-31",
+      "path": "products/室外消防栓/catalog-outdoor-hydrant-configurations-page-31/p31-02.webp",
+      "sha256": "a4dfeab99235fccb83002a9d209e50ee6fa9d08467bb29df9968f3434e8b583b",
+      "sourcePath": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_31/红黑双阀长管消火栓_页31_02_视觉展示图_待原图复核.png",
+      "usage": "Configuration illustration; exact technical details require confirmation.",
+      "originalSha256": "116716f0ae634f441241e05eb06bfd39a672fba27bd1adb3300a2d780f6ab219",
+      "publishedTransform": "CHUANWEI FIRE watermark"
+    },
+    {
+      "productId": "catalog-outdoor-hydrant-configurations-page-31",
+      "path": "products/室外消防栓/catalog-outdoor-hydrant-configurations-page-31/p31-03.webp",
+      "sha256": "a2377f2d62c358a616eac91322ae00363a9fa92b5a9df6b30b77a9b38ee5598f",
+      "sourcePath": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_31/红色链盖立式消火栓_页31_03_视觉展示图_待原图复核.png",
+      "usage": "Configuration illustration; exact technical details require confirmation.",
+      "originalSha256": "c5806d5cda321b979c5ed0bc2eb45150ffd48200dccb1deb39b4521778ec7520",
+      "publishedTransform": "CHUANWEI FIRE watermark"
+    },
+    {
+      "productId": "catalog-outdoor-hydrant-configurations-page-31",
+      "path": "products/室外消防栓/catalog-outdoor-hydrant-configurations-page-31/p31-04.webp",
+      "sha256": "da48c4e95c825f29932ef400592aca2d82d0beaff42479f72e4482e17d2ea366",
+      "sourcePath": "D:/work/codex/yunying/outputs/catalog-white-background-extraction/batch-pages-07-end/page_31/红色双手轮立式消火栓_页31_04_视觉展示图_待原图复核.png",
+      "usage": "Configuration illustration; exact technical details require confirmation.",
+      "originalSha256": "fa6ca9d86989978562ca14a07fdd0417f1600b98bb4ba50c832c52933b04bb72",
+      "publishedTransform": "CHUANWEI FIRE watermark"
+    }
+  ],
+  "publishedImageTransform": {
+    "type": "watermark",
+    "centerText": "CHUANWEI FIRE",
+    "cornerText": "CHUANWEI FIRE · chuanweifire.com",
+    "originalsRetainedLocally": true
+  }
+}

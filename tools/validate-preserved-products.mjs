@@ -71,7 +71,9 @@ for (const entry of catalog) {
   if (entry.lang === "en") {
     const styles = html => [...html.matchAll(/<link\b[^>]*rel="stylesheet"[^>]*href="([^"]+)"/g)].map(([, href]) => href);
     assert.deepEqual(styles(output), styles(read(baselineFile)), "English stylesheets changed during language-only migration");
-    const body = html => html.match(/<body\b[^>]*>([\s\S]*?)<\/body>/i)?.[1].replace(/<script\b[^>]*>[\s\S]*?<\/script>/gi, "") || "";
+    // Shared navigation now includes the approved product menu. Product sections,
+    // footer and social order remain covered; navigation has its own validator.
+    const body = html => html.match(/<body\b[^>]*>([\s\S]*?)<\/body>/i)?.[1].replace(/<script\b[^>]*>[\s\S]*?<\/script>/gi, "").replace(/<header\b[^>]*data-global-header[^>]*>[\s\S]*?<\/header>/i, '') || "";
     assert.deepEqual(structure(body(output)), structure(body(read(baselineFile))), "English page structure/footer/social order changed");
     assert.equal(visibleText(content), visibleText(baseline), "English visible product content changed during language-only migration");
     if (entry.product.gallery?.length) {

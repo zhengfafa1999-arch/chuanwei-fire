@@ -1,0 +1,94 @@
+{
+  "status": "confirmed",
+  "confirmedDate": "2026-09-13",
+  "scope": "CHUANWEI FIRE official website public display",
+  "authority": "User confirmation in this task",
+  "question": "上述消防器材箱、Glass Bulb Fire Sprinkler、Standard Response Fire Sprinkler 的 11 张图片允许用于川威官网公开展示",
+  "response": "允许用于川威官网公开展示",
+  "excludes": "Replacement images and other publishing channels are outside this confirmation.",
+  "images": [
+    {
+      "productId": "fire-equipment-cabinets",
+      "path": "products/消防器材箱/fire-equipment-cabinets/solid-door-cabinet-reference.png",
+      "sha256": "20d15539f13b56f0e8540c66a778a23d4b4aa8b449838bfba3d74fe5c33c50f3",
+      "originalSha256": "fb4c24554489d9070796e8c9902bff1a1dcbf2f6f2e3116132ab2a49d099a848",
+      "publishedTransform": "CHUANWEI FIRE watermark"
+    },
+    {
+      "productId": "fire-equipment-cabinets",
+      "path": "products/消防器材箱/fire-equipment-cabinets/double-windowed-door-cabinet-reference.png",
+      "sha256": "587ebab2dd11cf14b33b84d7dcc4c41fd8979a74d377ae75c73d44f6be06d272",
+      "originalSha256": "3f83c946a4f41b872593da74b4c3bd113bccfded80cdb67c50678eebde45c724",
+      "publishedTransform": "CHUANWEI FIRE watermark"
+    },
+    {
+      "productId": "fire-equipment-cabinets",
+      "path": "products/消防器材箱/fire-equipment-cabinets/single-windowed-door-cabinet-reference.png",
+      "sha256": "b69253ff0f1d1043ae4950074e669fe580468373e360554c54e97097983d1385",
+      "originalSha256": "6336ae774293d0c85e0c82be8529daaebb122b33dea69439a691a6889275aa07",
+      "publishedTransform": "CHUANWEI FIRE watermark"
+    },
+    {
+      "productId": "fire-equipment-cabinets",
+      "path": "products/消防器材箱/fire-equipment-cabinets/stacked-windowed-door-cabinet-reference.png",
+      "sha256": "d81fd4fb59737987c8f1fb2897fd2163c214ab2becb34ee0535cb689c71381d0",
+      "originalSha256": "995d8f456901f618ea784f2fb81e69397dd260410d8f2bd38077b72488300663",
+      "publishedTransform": "CHUANWEI FIRE watermark"
+    },
+    {
+      "productId": "glass-bulb-fire-sprinkler",
+      "path": "products/消防喷头/glass-bulb-sprinkler/quick-response-pendent.jpg",
+      "sha256": "e199033370e85243e6134fae754c283ef7a724984802a5fce96087cc19a54425",
+      "originalSha256": "d9beffde8bf0b453c69c923bde6d06ae4c7dccbd7f525862f815bd25c5abdd87",
+      "publishedTransform": "CHUANWEI FIRE watermark"
+    },
+    {
+      "productId": "glass-bulb-fire-sprinkler",
+      "path": "products/消防喷头/glass-bulb-sprinkler/quick-response-upright.jpg",
+      "sha256": "b284ec898d4ba3c45036474172eb8903e5cdd99b7338b78db3b101860a89f7df",
+      "originalSha256": "9f94baeb2978959aa207f03e50d9277279dc58411d7b32d8e91852356fd12687",
+      "publishedTransform": "CHUANWEI FIRE watermark"
+    },
+    {
+      "productId": "glass-bulb-fire-sprinkler",
+      "path": "products/消防喷头/glass-bulb-sprinkler/quick-response-real-packing.jpg",
+      "sha256": "c0527a883b3bc8d76cffdb53e91faa4edd227728ac9bc9853fd45120bfd771c3",
+      "originalSha256": "15a820a4b3eb78c1132cc68a25f657a7d2ab24b4f9b79280f2c563ddd32651f0",
+      "publishedTransform": "CHUANWEI FIRE watermark"
+    },
+    {
+      "productId": "standard-response-fire-sprinkler",
+      "path": "products/消防喷头/standard-response-sprinkler/standard-response-three-styles.jpg",
+      "sha256": "ab41c5d1d04187950e24afb11075944a4bacc1a33e135f1f7c4e9b69908b020f",
+      "originalSha256": "9096a5ab238093c96e63abc63904c388db354075db7863217aa027c51c8cc6b8",
+      "publishedTransform": "CHUANWEI FIRE watermark"
+    },
+    {
+      "productId": "standard-response-fire-sprinkler",
+      "path": "products/消防喷头/standard-response-sprinkler/standard-response-pendent.jpg",
+      "sha256": "6dc0118d007e75abf35c19717f82acf5c7c066f3f62f861860e90c09943dc645",
+      "originalSha256": "8ea9ed72dcc04707c48de1b5a4dd417ad7a6ae94fe41fb8b6153f4302764a3de",
+      "publishedTransform": "CHUANWEI FIRE watermark"
+    },
+    {
+      "productId": "standard-response-fire-sprinkler",
+      "path": "products/消防喷头/standard-response-sprinkler/standard-response-upright.jpg",
+      "sha256": "45324a5e915d9cc01b509744ecc5f837158349be4eedf797acb515448942453e",
+      "originalSha256": "459cb5649daef679cc68b5cd157a121421a21b678a411eec763613c51e60f22e",
+      "publishedTransform": "CHUANWEI FIRE watermark"
+    },
+    {
+      "productId": "standard-response-fire-sprinkler",
+      "path": "products/消防喷头/standard-response-sprinkler/standard-response-horizontal-sidewall.jpg",
+      "sha256": "56a389a6aa864f9ef11730dce3cd2fe8cc02f2225bf59db7de2c04556ae727b1",
+      "originalSha256": "819da46305ebb0c44dc07883ba636fbff2f3ef7e071aa253511b011aa96f1e3d",
+      "publishedTransform": "CHUANWEI FIRE watermark"
+    }
+  ],
+  "publishedImageTransform": {
+    "type": "watermark",
+    "centerText": "CHUANWEI FIRE",
+    "cornerText": "CHUANWEI FIRE · chuanweifire.com",
+    "originalsRetainedLocally": true
+  }
+}

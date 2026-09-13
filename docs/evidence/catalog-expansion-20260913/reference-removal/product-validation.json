@@ -1,0 +1,102 @@
+{
+  "scope": "single-product",
+  "products": [
+    "catalog-brass-finish-hose-valves-page-07"
+  ],
+  "previewMode": "http",
+  "generatedAt": "2026-09-13T09:52:21.230Z",
+  "browser": "Edg/153.0.4234.32",
+  "viewports": [
+    {
+      "id": "desktop",
+      "width": 1440,
+      "height": 900,
+      "deviceScaleFactor": 1,
+      "mobile": false
+    },
+    {
+      "id": "mobile",
+      "width": 390,
+      "height": 844,
+      "deviceScaleFactor": 1,
+      "mobile": true
+    }
+  ],
+  "validations": [
+    {
+      "slug": "catalog-brass-finish-hose-valves-page-07",
+      "languageSwitches": [
+        {
+          "scenario": "desktop/en: catalog-brass-finish-hose-valves-page-07 image/text category entries, reciprocal switch, refresh, 5-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+          "status": "PASS"
+        },
+        {
+          "scenario": "desktop/ar: catalog-brass-finish-hose-valves-page-07 image/text category entries, reciprocal switch, refresh, 5-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+          "status": "PASS"
+        },
+        {
+          "scenario": "mobile/en: catalog-brass-finish-hose-valves-page-07 image/text category entries, reciprocal switch, refresh, 5-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+          "status": "PASS"
+        },
+        {
+          "scenario": "mobile/ar: catalog-brass-finish-hose-valves-page-07 image/text category entries, reciprocal switch, refresh, 5-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+          "status": "PASS"
+        }
+      ],
+      "screenshots": [
+        "edge-desktop-catalog-brass-finish-hose-valves-page-07-en-gallery.png",
+        "edge-desktop-catalog-brass-finish-hose-valves-page-07-en-specifications.png",
+        "edge-desktop-catalog-brass-finish-hose-valves-page-07-en-models.png",
+        "edge-desktop-catalog-brass-finish-hose-valves-page-07-en-quotation.png",
+        "edge-desktop-catalog-brass-finish-hose-valves-page-07-ar-gallery.png",
+        "edge-desktop-catalog-brass-finish-hose-valves-page-07-ar-specifications.png",
+        "edge-desktop-catalog-brass-finish-hose-valves-page-07-ar-models.png",
+        "edge-desktop-catalog-brass-finish-hose-valves-page-07-ar-quotation.png",
+        "edge-mobile-catalog-brass-finish-hose-valves-page-07-en-gallery.png",
+        "edge-mobile-catalog-brass-finish-hose-valves-page-07-en-specifications.png",
+        "edge-mobile-catalog-brass-finish-hose-valves-page-07-en-models.png",
+        "edge-mobile-catalog-brass-finish-hose-valves-page-07-en-quotation.png",
+        "edge-mobile-catalog-brass-finish-hose-valves-page-07-ar-gallery.png",
+        "edge-mobile-catalog-brass-finish-hose-valves-page-07-ar-specifications.png",
+        "edge-mobile-catalog-brass-finish-hose-valves-page-07-ar-models.png",
+        "edge-mobile-catalog-brass-finish-hose-valves-page-07-ar-quotation.png"
+      ]
+    }
+  ],
+  "languageSwitches": [
+    {
+      "scenario": "desktop/en: catalog-brass-finish-hose-valves-page-07 image/text category entries, reciprocal switch, refresh, 5-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+      "status": "PASS"
+    },
+    {
+      "scenario": "desktop/ar: catalog-brass-finish-hose-valves-page-07 image/text category entries, reciprocal switch, refresh, 5-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+      "status": "PASS"
+    },
+    {
+      "scenario": "mobile/en: catalog-brass-finish-hose-valves-page-07 image/text category entries, reciprocal switch, refresh, 5-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+      "status": "PASS"
+    },
+    {
+      "scenario": "mobile/ar: catalog-brass-finish-hose-valves-page-07 image/text category entries, reciprocal switch, refresh, 5-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+      "status": "PASS"
+    }
+  ],
+  "screenshots": [
+    "edge-desktop-catalog-brass-finish-hose-valves-page-07-en-gallery.png",
+    "edge-desktop-catalog-brass-finish-hose-valves-page-07-en-specifications.png",
+    "edge-desktop-catalog-brass-finish-hose-valves-page-07-en-models.png",
+    "edge-desktop-catalog-brass-finish-hose-valves-page-07-en-quotation.png",
+    "edge-desktop-catalog-brass-finish-hose-valves-page-07-ar-gallery.png",
+    "edge-desktop-catalog-brass-finish-hose-valves-page-07-ar-specifications.png",
+    "edge-desktop-catalog-brass-finish-hose-valves-page-07-ar-models.png",
+    "edge-desktop-catalog-brass-finish-hose-valves-page-07-ar-quotation.png",
+    "edge-mobile-catalog-brass-finish-hose-valves-page-07-en-gallery.png",
+    "edge-mobile-catalog-brass-finish-hose-valves-page-07-en-specifications.png",
+    "edge-mobile-catalog-brass-finish-hose-valves-page-07-en-models.png",
+    "edge-mobile-catalog-brass-finish-hose-valves-page-07-en-quotation.png",
+    "edge-mobile-catalog-brass-finish-hose-valves-page-07-ar-gallery.png",
+    "edge-mobile-catalog-brass-finish-hose-valves-page-07-ar-specifications.png",
+    "edge-mobile-catalog-brass-finish-hose-valves-page-07-ar-models.png",
+    "edge-mobile-catalog-brass-finish-hose-valves-page-07-ar-quotation.png"
+  ]
+}

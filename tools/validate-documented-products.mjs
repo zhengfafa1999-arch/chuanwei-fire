@@ -1,4 +1,5 @@
 import fs from "node:fs";
+import { validateImageRights } from './lib/validate-image-rights.mjs';
 import path from "node:path";
 import catalog from "../site-src/_data/documentedProductPages.js";
 import { PRODUCT_FAMILIES, localizedText } from "../site-src/_data/productDirectory.js";
@@ -24,8 +25,8 @@ for (const entry of catalog) {
   assert(family && listing, `${product.id}: missing category registration`);
   assert(localizedText(listing.name, lang) === text.title, `${product.id}/${lang}: category and detail titles differ`);
   assert(listing.image === product.media.hero, `${product.id}: category and detail hero images differ`);
-  assert(product.publication.status === "local-draft" && product.publication.externalRelease === false, `${product.id}: sample must remain a local draft`);
-  assert(product.publication.imageRights === "pending-website-use-confirmation", `${product.id}: image-rights gate is missing`);
+  assert(product.publication.status === "release-candidate" && product.publication.externalRelease === true, `${product.id}: product is not approved as a release candidate`);
+  validateImageRights(product);
   assert(Array.isArray(product.modelColumns) && product.modelColumns.length >= 2, `${product.id}: model columns are missing`);
   for (const column of product.modelColumns) {
     assert(column.label && column.field, `${product.id}: invalid model column definition`);
@@ -38,7 +39,7 @@ for (const entry of catalog) {
   assert(html.includes("GENERATED FILE"), `${product.id}/${lang}: shared-template marker missing`);
   assert(html.includes(`<html lang="${lang}" dir="${lang === "ar" ? "rtl" : "ltr"}">`), `${product.id}/${lang}: wrong language direction`);
   assert(html.includes(`data-site-route-id="${product.routeId}"`), `${product.id}/${lang}: wrong route marker`);
-  assert(html.includes(`data-content-status="local-draft"`), `${product.id}/${lang}: draft marker missing`);
+  assert(html.includes(`data-content-status="release-candidate"`), `${product.id}/${lang}: release-candidate marker missing`);
   assert(html.includes(`<h1>${escaped(text.title)}</h1>`), `${product.id}/${lang}: title missing`);
   assert(html.includes(`<link rel="canonical" href="${route.canonical}">`), `${product.id}/${lang}: canonical missing`);
   assert(html.includes(`href="${route.alternate}"`), `${product.id}/${lang}: language alternate missing`);
@@ -57,4 +58,4 @@ for (const entry of catalog) {
 }
 
 assert(products.size * 2 === catalog.length, "Each documented product must generate English and Arabic pages");
-console.log(`Documented-product validation passed: ${products.size} shared source(s), ${catalog.length} localized outputs, image-rights release gate retained.`);
+console.log(`Documented-product validation passed: ${products.size} release candidates, ${catalog.length} localized outputs, image-rights release gate retained.`);

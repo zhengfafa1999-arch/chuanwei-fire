@@ -1,0 +1,77 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "protocol": "file",
+      "file": "products.html",
+      "width": 1440,
+      "pages": 16,
+      "uniqueProducts": 184,
+      "backAndReload": "PASS",
+      "filterAndSearch": "PASS"
+    },
+    {
+      "protocol": "file",
+      "file": "products.html",
+      "width": 390,
+      "pages": 16,
+      "uniqueProducts": 184,
+      "backAndReload": "PASS",
+      "filterAndSearch": "PASS"
+    },
+    {
+      "protocol": "file",
+      "file": "ar/products.html",
+      "width": 1440,
+      "pages": 16,
+      "uniqueProducts": 184,
+      "backAndReload": "PASS",
+      "filterAndSearch": "PASS"
+    },
+    {
+      "protocol": "file",
+      "file": "ar/products.html",
+      "width": 390,
+      "pages": 16,
+      "uniqueProducts": 184,
+      "backAndReload": "PASS",
+      "filterAndSearch": "PASS"
+    },
+    {
+      "protocol": "http",
+      "file": "products.html",
+      "width": 1440,
+      "pages": 16,
+      "uniqueProducts": 184,
+      "backAndReload": "PASS",
+      "filterAndSearch": "PASS"
+    },
+    {
+      "protocol": "http",
+      "file": "products.html",
+      "width": 390,
+      "pages": 16,
+      "uniqueProducts": 184,
+      "backAndReload": "PASS",
+      "filterAndSearch": "PASS"
+    },
+    {
+      "protocol": "http",
+      "file": "ar/products.html",
+      "width": 1440,
+      "pages": 16,
+      "uniqueProducts": 184,
+      "backAndReload": "PASS",
+      "filterAndSearch": "PASS"
+    },
+    {
+      "protocol": "http",
+      "file": "ar/products.html",
+      "width": 390,
+      "pages": 16,
+      "uniqueProducts": 184,
+      "backAndReload": "PASS",
+      "filterAndSearch": "PASS"
+    }
+  ]
+}

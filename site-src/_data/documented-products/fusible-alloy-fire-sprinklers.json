@@ -16,9 +16,10 @@
     "evidence": "A-user for confirmed overrides; B-derived-approved-catalog for visible selection table"
   },
   "publication": {
-    "status": "local-draft",
-    "externalRelease": false,
-    "imageRights": "pending-website-use-confirmation"
+    "status": "release-candidate",
+    "externalRelease": true,
+    "imageRights": "user-confirmed-website-use",
+    "imageRightsEvidence": "docs/release/eight-products-20260909/image-rights-confirmation.json"
   },
   "media": {
     "hero": "products/消防喷头/fusible-alloy-fire-sprinklers/fusible-alloy-configuration-a.jpg",

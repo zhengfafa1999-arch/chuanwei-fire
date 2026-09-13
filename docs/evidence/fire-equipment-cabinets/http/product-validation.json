@@ -1,0 +1,102 @@
+{
+  "scope": "single-product",
+  "products": [
+    "fire-equipment-cabinets"
+  ],
+  "previewMode": "http",
+  "generatedAt": "2026-09-13T08:14:51.930Z",
+  "browser": "Edg/153.0.4234.32",
+  "viewports": [
+    {
+      "id": "desktop",
+      "width": 1440,
+      "height": 900,
+      "deviceScaleFactor": 1,
+      "mobile": false
+    },
+    {
+      "id": "mobile",
+      "width": 390,
+      "height": 844,
+      "deviceScaleFactor": 1,
+      "mobile": true
+    }
+  ],
+  "validations": [
+    {
+      "slug": "fire-equipment-cabinets",
+      "languageSwitches": [
+        {
+          "scenario": "desktop/en: fire-equipment-cabinets image/text category entries, reciprocal switch, refresh, 4-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+          "status": "PASS"
+        },
+        {
+          "scenario": "desktop/ar: fire-equipment-cabinets image/text category entries, reciprocal switch, refresh, 4-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+          "status": "PASS"
+        },
+        {
+          "scenario": "mobile/en: fire-equipment-cabinets image/text category entries, reciprocal switch, refresh, 4-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+          "status": "PASS"
+        },
+        {
+          "scenario": "mobile/ar: fire-equipment-cabinets image/text category entries, reciprocal switch, refresh, 4-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+          "status": "PASS"
+        }
+      ],
+      "screenshots": [
+        "edge-desktop-fire-equipment-cabinets-en-gallery.png",
+        "edge-desktop-fire-equipment-cabinets-en-specifications.png",
+        "edge-desktop-fire-equipment-cabinets-en-models.png",
+        "edge-desktop-fire-equipment-cabinets-en-quotation.png",
+        "edge-desktop-fire-equipment-cabinets-ar-gallery.png",
+        "edge-desktop-fire-equipment-cabinets-ar-specifications.png",
+        "edge-desktop-fire-equipment-cabinets-ar-models.png",
+        "edge-desktop-fire-equipment-cabinets-ar-quotation.png",
+        "edge-mobile-fire-equipment-cabinets-en-gallery.png",
+        "edge-mobile-fire-equipment-cabinets-en-specifications.png",
+        "edge-mobile-fire-equipment-cabinets-en-models.png",
+        "edge-mobile-fire-equipment-cabinets-en-quotation.png",
+        "edge-mobile-fire-equipment-cabinets-ar-gallery.png",
+        "edge-mobile-fire-equipment-cabinets-ar-specifications.png",
+        "edge-mobile-fire-equipment-cabinets-ar-models.png",
+        "edge-mobile-fire-equipment-cabinets-ar-quotation.png"
+      ]
+    }
+  ],
+  "languageSwitches": [
+    {
+      "scenario": "desktop/en: fire-equipment-cabinets image/text category entries, reciprocal switch, refresh, 4-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+      "status": "PASS"
+    },
+    {
+      "scenario": "desktop/ar: fire-equipment-cabinets image/text category entries, reciprocal switch, refresh, 4-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+      "status": "PASS"
+    },
+    {
+      "scenario": "mobile/en: fire-equipment-cabinets image/text category entries, reciprocal switch, refresh, 4-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+      "status": "PASS"
+    },
+    {
+      "scenario": "mobile/ar: fire-equipment-cabinets image/text category entries, reciprocal switch, refresh, 4-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+      "status": "PASS"
+    }
+  ],
+  "screenshots": [
+    "edge-desktop-fire-equipment-cabinets-en-gallery.png",
+    "edge-desktop-fire-equipment-cabinets-en-specifications.png",
+    "edge-desktop-fire-equipment-cabinets-en-models.png",
+    "edge-desktop-fire-equipment-cabinets-en-quotation.png",
+    "edge-desktop-fire-equipment-cabinets-ar-gallery.png",
+    "edge-desktop-fire-equipment-cabinets-ar-specifications.png",
+    "edge-desktop-fire-equipment-cabinets-ar-models.png",
+    "edge-desktop-fire-equipment-cabinets-ar-quotation.png",
+    "edge-mobile-fire-equipment-cabinets-en-gallery.png",
+    "edge-mobile-fire-equipment-cabinets-en-specifications.png",
+    "edge-mobile-fire-equipment-cabinets-en-models.png",
+    "edge-mobile-fire-equipment-cabinets-en-quotation.png",
+    "edge-mobile-fire-equipment-cabinets-ar-gallery.png",
+    "edge-mobile-fire-equipment-cabinets-ar-specifications.png",
+    "edge-mobile-fire-equipment-cabinets-ar-models.png",
+    "edge-mobile-fire-equipment-cabinets-ar-quotation.png"
+  ]
+}

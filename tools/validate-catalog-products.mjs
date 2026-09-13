@@ -38,7 +38,7 @@ for (const product of products) {
     assert(html.includes(`<link rel="canonical" href="${route.canonical}">`), `${product.id}/${locale}: canonical missing`);
     assert(html.includes(`href="${route.alternate}"`), `${product.id}/${locale}: alternate canonical missing`);
     assert(html.includes(`data-site-language-choice="${locale === "ar" ? "en" : "ar"}"`), `${product.id}/${locale}: reciprocal language switch missing`);
-    assert(!/\b(?:MPa|DN\d+|UL|FM|CE)\b/.test(html), `${product.id}/${locale}: unsupported technical claim was introduced`);
+    assert(!/\b(?:MPa|DN\d+|UL|FM|CE)\b/.test(html.replace(/<header\b[^>]*data-global-header[\s\S]*?<\/header>/i, "")), `${product.id}/${locale}: unsupported technical claim was introduced`);
     const imageTarget = path.resolve(path.dirname(output), decodeURIComponent(route.assetPrefix + product.image));
     assert(fs.existsSync(imageTarget), `${product.id}/${locale}: product image is missing`);
   }

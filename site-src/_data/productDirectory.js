@@ -1,11 +1,15 @@
+import fs from 'node:fs';
+import { productViews } from './productViews.js';
+import { catalogExpansionByRoute, catalogExpansionListings } from './catalogExpansion.js';
+
 export const DIRECTORY_COPY = {
   en: {
     lang: "en", dir: "ltr", locale: "en_US",
     brandTagline: "Fire protection equipment manufacturing and supply",
     home: "Home", products: "Products", about: "About", downloads: "Downloads", contact: "Contact", english: "English", arabic: "العربية",
     directoryEyebrow: "Product directory",
-    directoryTitle: "Fire-water-system products organized by family.",
-    directoryLead: "Start with a product family, then confirm the model, nominal size, connection, quantity, destination and required documentation with our team.",
+    directoryTitle: "Find your fire protection product.",
+    directoryLead: "Browse all product types below and open the details directly. Filter by category or search by product name.",
     directoryNote: "Only confirmed product families and existing pages are linked. Technical specifications remain product- and order-specific.",
     browseCategory: "Browse category",
     categoryEyebrow: "Product family",
@@ -30,8 +34,8 @@ export const DIRECTORY_COPY = {
     brandTagline: "تصنيع وتوريد معدات مكافحة الحريق",
     home: "الرئيسية", products: "المنتجات", about: "عن الشركة", downloads: "الملفات", contact: "تواصل معنا", english: "English", arabic: "العربية",
     directoryEyebrow: "دليل المنتجات",
-    directoryTitle: "منتجات أنظمة مياه مكافحة الحريق مرتبة حسب الفئة.",
-    directoryLead: "ابدأ باختيار فئة المنتج، ثم أكد الموديل والمقاس الاسمي والتوصيل والكمية والوجهة والوثائق المطلوبة مع فريقنا.",
+    directoryTitle: "اعثر على منتج مكافحة الحريق المطلوب.",
+    directoryLead: "تصفح جميع أنواع المنتجات وافتح التفاصيل مباشرة. اختر الفئة أو ابحث باسم المنتج.",
     directoryNote: "تُعرض فقط الفئات المؤكدة والصفحات الموجودة. تبقى المواصفات الفنية مرتبطة بالمنتج والطلب المحدد.",
     browseCategory: "عرض الفئة",
     categoryEyebrow: "فئة المنتج",
@@ -53,13 +57,13 @@ export const DIRECTORY_COPY = {
   }
 };
 
-const text = (en, ar) => ({ en, ar });
+const text = (en, ar, zh) => ({ en, ar, ...(zh ? { zh } : {}) });
 
 export const PRODUCT_FAMILIES = [
   {
     id: "sprinklers", routeId: "category:sprinklers",
-    name: text("Fire Sprinklers", "رشاشات الحريق"),
-    description: text("Standard, quick-response, concealed, dry and special-purpose sprinkler and open-nozzle families.", "رشاشات قياسية وسريعة الاستجابة ومخفية وجافة، إضافة إلى فئات الرشاشات والفوهات المفتوحة للأغراض الخاصة."),
+    name: text("Fire Sprinklers", "رشاشات الحريق", "消防喷头"),
+    description: text("Standard, quick-response, concealed, dry and special-purpose sprinkler and open-nozzle families.", "رشاشات قياسية وسريعة الاستجابة ومخفية وجافة، إضافة إلى فئات الرشاشات والفوهات المفتوحة للأغراض الخاصة.", "标准、快速响应、隐蔽式、干式及特殊用途消防喷头和开式喷头系列。"),
     image: "products/消防喷头/categories/standard-response-upright.jpg",
     products: [
       ["product:standard-response-fire-sprinkler", "Standard Response Fire Sprinklers", "رشاشات الحريق ذات الاستجابة القياسية", "products/消防喷头/standard-response-sprinkler/standard-response-three-styles.jpg"],
@@ -75,8 +79,8 @@ export const PRODUCT_FAMILIES = [
   },
   {
     id: "system-valves", routeId: "category:system-valves",
-    name: text("Alarm & System Valves", "صمامات الإنذار وصمامات الأنظمة"),
-    description: text("Wet alarm, deluge, preaction and dry-pipe valve assemblies for fire-water systems.", "مجموعات صمامات الإنذار الرطب والغمر والإجراء المسبق والأنابيب الجافة لأنظمة مياه مكافحة الحريق."),
+    name: text("Alarm & System Valves", "صمامات الإنذار وصمامات الأنظمة", "报警阀及系统阀门"),
+    description: text("Wet alarm, deluge, preaction and dry-pipe valve assemblies for fire-water systems.", "مجموعات صمامات الإنذار الرطب والغمر والإجراء المسبق والأنابيب الجافة لأنظمة مياه مكافحة الحريق.", "消防给水系统使用的湿式报警阀、雨淋阀、预作用阀和干式阀组。"),
     image: "products/消防阀/消防阀主图.jpg",
     products: [
       ["product:wet-alarm-check-valve", "Wet Alarm Check Valve Assemblies", "مجموعات صمام الإنذار الرطب", "products/消防阀/wet-alarm-check-valve-assemblies/dn150-flanged-wet-alarm-assembly-en.jpg"],
@@ -88,8 +92,8 @@ export const PRODUCT_FAMILIES = [
   },
   {
     id: "butterfly-valves", routeId: "category:butterfly-valves",
-    name: text("Fire Butterfly Valves", "صمامات فراشة لمكافحة الحريق"),
-    description: text("Lever-operated and supervisory butterfly valve families with grooved or wafer connections.", "فئات صمامات الفراشة اليدوية والمراقبة بتوصيلات محززة أو رقاقة."),
+    name: text("Fire Butterfly Valves", "صمامات فراشة لمكافحة الحريق", "消防蝶阀"),
+    description: text("Lever-operated and supervisory butterfly valve families with grooved or wafer connections.", "فئات صمامات الفراشة اليدوية والمراقبة بتوصيلات محززة أو رقاقة.", "提供沟槽式或对夹式连接的手柄蝶阀和信号蝶阀系列。"),
     image: "products/消防阀门/DSC_5671.jpg",
     products: [
       ["product:lever-operated-grooved-butterfly-valves", "Lever-Operated Grooved Butterfly Valves", "صمامات فراشة محززة يدوية", "products/消防蝶阀/lever-operated-grooved-butterfly-valves/lever-operated-grooved-butterfly-valve.jpg"],
@@ -100,8 +104,8 @@ export const PRODUCT_FAMILIES = [
   },
   {
     id: "gate-valves", routeId: "category:gate-valves",
-    name: text("Fire Gate Valves", "صمامات بوابة لمكافحة الحريق"),
-    description: text("Supervisory, non-rising-stem and OS&Y gate valve families for fire-water networks.", "فئات صمامات البوابة المراقبة وذات الساق غير الصاعد وOS&Y لشبكات مياه مكافحة الحريق."),
+    name: text("Fire Gate Valves", "صمامات بوابة لمكافحة الحريق", "消防闸阀"),
+    description: text("Supervisory, non-rising-stem and OS&Y gate valve families for fire-water networks.", "فئات صمامات البوابة المراقبة وذات الساق غير الصاعد وOS&Y لشبكات مياه مكافحة الحريق.", "消防给水管网使用的信号闸阀、暗杆闸阀和明杆闸阀系列。"),
     image: "products/消防阀门/消防阀门主图.jpg",
     products: [
       ["product:flanged-supervisory-gate-valves", "Flanged Supervisory Gate Valves", "صمامات بوابة فلنجية بإشارة مراقبة", "products/消防阀门/flanged-supervisory-gate-valves/flanged-supervisory-gate-valve.jpg"],
@@ -112,35 +116,35 @@ export const PRODUCT_FAMILIES = [
   },
   {
     id: "hose-reels", routeId: "category:hose-reels",
-    name: text("Fire Hose Reels", "بكرات خراطيم الحريق"),
-    description: text("Wall-mounted hose reel families with straight-stream, jet/spray and heavy-duty configurations.", "فئات بكرات خراطيم مثبتة على الحائط بتكوينات تدفق مباشر ونفاث/رذاذ وخدمة شاقة."),
+    name: text("Fire Hose Reels", "بكرات خراطيم الحريق", "消防软管卷盘"),
+    description: text("Wall-mounted hose reel families with straight-stream, jet/spray and heavy-duty configurations.", "فئات بكرات خراطيم مثبتة على الحائط بتكوينات تدفق مباشر ونفاث/رذاذ وخدمة شاقة.", "壁挂式消防软管卷盘，提供直流、直流/喷雾和重型配置。"),
     image: "products/软管卷盘/ria25-fire-hose-reel/ria25-fire-hose-reel.jpg",
     products: [
       ["product:ria25-fire-hose-reel", "RIA 25 Fire Hose Reel", "بكرة خرطوم حريق RIA 25", "products/软管卷盘/ria25-fire-hose-reel/ria25-fire-hose-reel.jpg"],
       ["product:straight-stream-fire-hose-reel", "Straight-Stream Fire Hose Reel", "بكرة خرطوم حريق بتدفق مباشر", "products/软管卷盘/straight-stream-fire-hose-reel/straight-stream-fire-hose-reel.jpg"],
       ["product:jet-spray-fire-hose-reel", "Jet/Spray Fire Hose Reel", "بكرة خرطوم حريق نفاث/رذاذ", "products/软管卷盘/jet-spray-fire-hose-reel/jet-spray-fire-hose-reel.jpg"],
-      ["product:heavy-duty-fire-hose-reel", "Heavy-Duty Fire Hose Reel", "بكرة خرطوم حريق للخدمة الشاقة", "products/软管卷盘/heavy-duty-fire-hose-reel/heavy-duty-reel.jpg"]
+      ["product:heavy-duty-fire-hose-reel", "Heavy-Duty Fire Hose Reel", "بكرة خرطوم حريق للخدمة الشاقة", "products/软管卷盘/heavy-duty-fire-hose-reel/heavy-duty-reel.jpg"],
+      ...catalogExpansionListings("hose-reels")
     ]
   },
   {
     id: "hoses-nozzles-couplings", routeId: "category:hoses-nozzles-couplings",
-    name: text("Hoses, Nozzles & Couplings", "الخراطيم والفوهات والوصلات"),
-    description: text("Fire hose-line components supplied individually or reviewed as a matched assembly.", "مكونات خطوط خراطيم الحريق للتوريد المنفرد أو للمراجعة كمجموعة متوافقة."),
+    name: text("Fire Hose Nozzles, Couplings & Adapters", "فوهات خراطيم الحريق والوصلات والمهايئات", "消防水枪、接口及转接件"),
+    description: text("Fire hose nozzles, couplings, adapters and related components supplied for individual quotation.", "فوهات خراطيم الحريق والوصلات والمهايئات والمكونات المرتبطة بها متاحة لطلب عروض أسعار منفصلة.", "消防水枪、接口、转接件及相关组件，可按单品询价。"),
     image: "products/消防水枪/消防水枪主图.jpg",
     products: [
       ["product:combination-jet-fog-nozzles", "Combination Jet/Fog Nozzles", "فوهات نفاثة/ضبابية مركبة", "products/消防水枪/categories/combination-jet-fog-nozzle.jpg"],
-      ["product:layflat-fire-hoses", "Layflat Fire Hoses", "خراطيم حريق مسطحة", "products/消防水枪/categories/layflat-fire-hose.jpg"],
       ["product:kd-hose-couplings", "KD Hose Couplings", "وصلات خراطيم KD", "products/消防水枪/categories/kd-hose-coupling.jpg"],
       ["product:kn-threaded-adapters", "KN Threaded Adapters", "محولات لولبية KN", "products/消防水枪/categories/kn-threaded-adapter.jpg"],
-      ["product:matched-hose-assemblies", "Matched Hose Assemblies", "مجموعات خراطيم متوافقة", "products/消防水枪/categories/hose-assembly.jpg"],
       ["product:straight-stream-fire-hose-nozzles", "Straight-Stream Fire Hose Nozzles", "فوهات خراطيم حريق ذات نفث مستقيم", "products/消防水枪/straight-stream-fire-hose-nozzles/qz-catalog-display.png"],
-      ["product:lever-operated-fire-hose-nozzles", "Lever-Operated Fire Hose Nozzles", "فوهات خراطيم حريق تعمل بذراع", "products/消防水枪/lever-operated-fire-hose-nozzles/configuration-a-catalog-display.png"]
+      ["product:lever-operated-fire-hose-nozzles", "Lever-Operated Fire Hose Nozzles", "فوهات خراطيم حريق تعمل بذراع", "products/消防水枪/lever-operated-fire-hose-nozzles/configuration-a-catalog-display.png"],
+      ...catalogExpansionListings("hoses-nozzles-couplings")
     ]
   },
   {
     id: "indoor-hydrants", routeId: "category:indoor-hydrants",
-    name: text("Indoor Fire Hydrants", "محابس الحريق الداخلية"),
-    description: text("Indoor fire-water outlet valves in standard, slanted, double-outlet and pressure-regulating configurations.", "محابس مخارج مياه الحريق الداخلية بتكوينات قياسية ومائلة ومزدوجة المخرج ومنظمة للضغط."),
+    name: text("Indoor Fire Hydrants", "محابس الحريق الداخلية", "室内消火栓"),
+    description: text("Indoor fire-water outlet valves in standard, slanted, double-outlet and pressure-regulating configurations.", "محابس مخارج مياه الحريق الداخلية بتكوينات قياسية ومائلة ومزدوجة المخرج ومنظمة للضغط.", "标准、斜式、双出口和减压稳压配置的室内消火栓。"),
     image: "products/室内消防栓/export-slanted-hydrant-valve/export-slanted-front.jpg",
     products: [
       ["product:standard-indoor-hydrant", "Standard Indoor Fire Hydrants", "محابس حريق داخلية قياسية", "products/室内消防栓/standard-indoor-hydrant/standard-indoor-hydrant.jpg"],
@@ -148,42 +152,72 @@ export const PRODUCT_FAMILIES = [
       ["product:double-outlet-hydrant", "Double-Outlet Indoor Hydrants", "محابس حريق داخلية مزدوجة المخرج", "products/室内消防栓/double-outlet-hydrant/double-outlet-hydrant.jpg"],
       ["product:rotating-pressure-regulating-hydrant", "Rotating Pressure-Regulating Hydrants", "محابس دوارة منظمة للضغط", "products/室内消防栓/rotating-pressure-regulating-hydrant/rotating-hydrant.jpg"],
       ["product:straight-through-oblique-landing-valves", "Straight-Through and Oblique Landing Valves", "صمامات هبوط مستقيمة ومائلة", "products/室内消防栓/straight-through-oblique-landing-valves/straight-through-catalog-display.jpeg"],
-      ["product:horizontal-handwheel-landing-valves", "Horizontal-Handwheel Landing Valves", "صمامات هبوط بعجلة تشغيل أفقية", "products/室内消防栓/horizontal-handwheel-landing-valves/threaded-inlet-catalog-display.jpeg"]
+      ["product:horizontal-handwheel-landing-valves", "Horizontal-Handwheel Landing Valves", "صمامات هبوط بعجلة تشغيل أفقية", "products/室内消防栓/horizontal-handwheel-landing-valves/threaded-inlet-catalog-display.jpeg"],
+      ...catalogExpansionListings("indoor-hydrants")
     ]
   },
   {
     id: "outdoor-hydrants", routeId: "category:outdoor-hydrants",
-    name: text("Outdoor Fire Hydrants", "صنابير الحريق الخارجية"),
-    description: text("Above-ground hydrant configurations organized by destination-market pattern.", "تكوينات صنابير حريق فوق سطح الأرض مرتبة حسب نمط السوق المستهدف."),
+    name: text("Outdoor Fire Hydrants", "صنابير الحريق الخارجية", "室外消火栓"),
+    description: text("Above-ground hydrant configurations organized by destination-market pattern.", "تكوينات صنابير حريق فوق سطح الأرض مرتبة حسب نمط السوق المستهدف.", "按目标市场型式分类的地上式室外消火栓。"),
     image: "products/室外消防栓/bs750-pillar-hydrant/bs750-front.jpg",
     products: [
       ["product:bs750-pillar-hydrant", "BS 750 Pattern Pillar Hydrants", "صنابير عمودية بنمط BS 750", "products/室外消防栓/bs750-pillar-hydrant/bs750-front.jpg"],
       ["product:french-pattern-hydrant", "French-Pattern Hydrants", "صنابير حريق بالنمط الفرنسي", "products/室外消防栓/global-series/french-dry-barrel-hydrant.jpg"],
       ["product:indonesian-pattern-hydrant", "Indonesian-Pattern Hydrants", "صنابير حريق بالنمط الإندونيسي", "products/室外消防栓/global-series/indonesia-wet-barrel-hydrant.jpg"],
-      ["product:russian-pattern-hydrant", "Russian-Pattern Hydrants", "صنابير حريق بالنمط الروسي", "products/室外消防栓/global-series/russian-pattern-hydrant.jpg"]
+      ["product:russian-pattern-hydrant", "Russian-Pattern Hydrants", "صنابير حريق بالنمط الروسي", "products/室外消防栓/global-series/russian-pattern-hydrant.jpg"],
+      ...catalogExpansionListings("outdoor-hydrants")
     ]
   },
   {
     id: "fire-department-connections", routeId: "category:fire-department-connections",
-    name: text("Fire Department Connections", "وصلات تزويد أنظمة الحريق بالمياه"),
-    description: text("Fire-service water inlet assemblies organized by installation arrangement and system-side connection.", "مجموعات إدخال مياه خدمة الإطفاء مرتبة حسب طريقة التركيب والتوصيل من جهة النظام."),
-    image: "products/消防水泵接合器/消防水泵接合器主图.jpg",
+    name: text("Fire Department Connections", "وصلات تزويد أنظمة الحريق بالمياه", "消防水泵接合器"),
+    description: text("Fire-service water inlet assemblies organized by installation arrangement and system-side connection.", "مجموعات إدخال مياه خدمة الإطفاء مرتبة حسب طريقة التركيب والتوصيل من جهة النظام.", "按安装方式和系统侧连接分类的消防水泵接合器。"),
+    image: "products/消防水泵接合器/russian-pattern-fire-department-connection/65-16k-65-front.png",
     products: [
-      ["product:freestanding-above-ground-fdcs", "Freestanding Above-Ground FDCs", "وصلات FDC أرضية فوق سطح الأرض", "products/消防水泵接合器/消防水泵接合器主图.jpg"],
-      ["product:alternative-freestanding-fdc-configurations", "Alternative Freestanding Configurations", "تكوينات أرضية بديلة", "products/消防水泵接合器/DSC_5714.jpg"],
-      ["product:underground-fdc-assemblies", "Underground FDC Assemblies", "مجموعات FDC تحت الأرض", "products/消防水泵接合器/DSC_5705.jpg"],
-      ["product:wall-mounted-grooved-fdc-families", "Wall-Mounted & Grooved Families", "فئات جدارية ومحززة", "products/消防水泵接合器/DSC_5709.jpg"],
-      ["product:breeching-inlets", "Breeching Inlets", "مداخل تغذية أنظمة الحريق", "products/消防水泵接合器/breeching-inlets/two-way-breeching-inlet.jpg"],
-      ["product:russian-pattern-fire-department-connection", "Russian-Pattern Fire Department Connection", "وصلة تغذية حريق بالنمط الروسي", "products/消防水泵接合器/russian-pattern-fire-department-connection/65-16k-65-front.png"]
+      ["product:russian-pattern-fire-department-connection", "Russian-Pattern Fire Department Connection", "وصلة تغذية حريق بالنمط الروسي", "products/消防水泵接合器/russian-pattern-fire-department-connection/65-16k-65-front.png"],
+      ...catalogExpansionListings("fire-department-connections")
+    ]
+  },
+  {
+    id: "fire-equipment-cabinets", routeId: "category:fire-equipment-cabinets",
+    name: text("Fire Equipment Cabinets", "خزائن معدات مكافحة الحريق", "消防器材箱"),
+    description: text("Solid-door and windowed fire equipment cabinets with selectable standard dimensions and order-specific construction.", "خزائن معدات مكافحة الحريق بأبواب مصمتة أو مزودة بنوافذ، مع أبعاد قياسية مختارة وتصنيع حسب متطلبات الطلب.", "实门及玻璃门消防器材箱，提供常规尺寸，也可按订单要求定制结构。"),
+    image: "products/消防器材箱/fire-equipment-cabinets/solid-door-cabinet-reference.png",
+    products: [
+      ["product:fire-equipment-cabinets", "Fire Equipment Cabinets", "خزائن معدات مكافحة الحريق", "products/消防器材箱/fire-equipment-cabinets/solid-door-cabinet-reference.png"],
+      ...catalogExpansionListings("fire-equipment-cabinets")
     ]
   }
 ].map((family) => ({
   ...family,
-  products: family.products.map(([routeId, en, ar, image]) => ({ routeId, name: text(en, ar), image }))
+  products: family.products.map(([routeId, en, ar, image]) => {
+    const file = new URL(`./documented-products/${routeId.replace('product:', '')}.json`, import.meta.url);
+    const data = fs.existsSync(file) ? JSON.parse(fs.readFileSync(file, 'utf8')) : catalogExpansionByRoute.get(routeId) || null;
+    const configurations = data?.configurationCards ? data.gallery.map(item => ({
+      anchor: `configuration-${item.caption}`,
+      image: data.media[item.media],
+      name: text(data.copy.en[item.caption], data.copy.ar[item.caption])
+    })) : [];
+    return { routeId, name: text(en, ar), image, configurations, configurationCardFullNames: Boolean(data?.configurationCardFullNames), views: productViews(routeId.replace('product:','')) };
+  })
 }));
 
 export function localizedText(value, locale) {
-  return value[locale];
+  return value[locale] ?? value.en;
+}
+
+// Configurations with their own identified images appear alongside other products.
+export function flatProducts(family) {
+  return family.products.flatMap(product => product.configurations.length ? product.configurations.map(item => ({
+    ...product, image: item.image, anchor: item.anchor,
+    name: product.configurationCardFullNames ? item.name : text(`${item.name.en} Landing Valve`, `${product.name.ar} — ${item.name.ar}`),
+    configurations: []
+  })) : product.views.length ? product.views.map(item => ({...product, image:item.image, view:item.image, name:text(`${product.name.en} — ${item.name.en}`, `${product.name.ar} — ${item.name.ar}`)})) : [product]);
+}
+
+export function productSuffix(product) {
+  return product.anchor ? '#' + product.anchor : product.view ? '?view=' + encodeURIComponent(product.view) + '#gallery' : '';
 }
 
 export default PRODUCT_FAMILIES;

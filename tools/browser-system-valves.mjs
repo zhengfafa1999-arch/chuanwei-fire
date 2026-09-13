@@ -23,15 +23,16 @@ export async function validateSystemValveNavigation({
       state.route === routeId && state.active === locale,
       `Wrong language or route: ${JSON.stringify(state)}, expected ${routeId}/${locale}`);
   };
-  const clickDestination = async targetPath => {
+  const clickDestination = async (targetPath, targetSearch = null) => {
     const clicked = await evaluate(client, `(() => {
       const link = [...document.querySelectorAll('a[href]')].find(link =>
-        decodeURIComponent(new URL(link.href).pathname).endsWith(${JSON.stringify(targetPath)}));
+        decodeURIComponent(new URL(link.href).pathname).endsWith(${JSON.stringify(targetPath)}) &&
+        (${JSON.stringify(targetSearch)} === null || new URL(link.href).search === ${JSON.stringify(targetSearch)}));
       if (!link) return false;
       link.click(); return true;
     })()`);
-    assert(clicked, `Missing entry to ${targetPath}`);
-    await waitForLocation(client, targetPath);
+    assert(clicked, `Missing entry to ${targetPath}${targetSearch || ''}`);
+    await waitForLocation(client, targetPath, targetSearch);
   };
 
   for (const viewport of viewports) {
@@ -40,14 +41,20 @@ export async function validateSystemValveNavigation({
       const categoryPath = routePath(categoryId, locale);
       const homePath = routePath("home", locale);
       const directoryPath = routePath("products", locale);
+      const familySlug = categoryId.replace(/^category:/, "");
+      const filteredDirectorySearch = `?q=&category=${familySlug}`;
       const opposite = locale === "en" ? "ar" : "en";
       await navigate(client, `${origin}${homePath}`, homePath);
-      await clickDestination(categoryPath);
+      await clickDestination(directoryPath, filteredDirectorySearch);
+      await expectLocale(locale, "products");
+      const selectedFamily = await evaluate(client, "document.querySelector('#product-family')?.value");
+      assert(selectedFamily === familySlug, `${categoryId}: home entry did not retain its product filter.`);
+      await navigate(client, `${origin}${encodeURI(categoryPath)}`, categoryPath);
       await expectLocale(locale, categoryId);
       await evaluate(client, "document.querySelector('.catalog-footer a').click()");
       await waitForLocation(client, directoryPath);
       await expectLocale(locale, "products");
-      await clickDestination(categoryPath);
+      await navigate(client, `${origin}${encodeURI(categoryPath)}`, categoryPath);
       await expectLocale(locale, categoryId);
       await evaluate(client, `document.querySelector('[data-site-language-choice="${opposite}"]').click()`);
       await waitForLocation(client, routePath(categoryId, opposite));

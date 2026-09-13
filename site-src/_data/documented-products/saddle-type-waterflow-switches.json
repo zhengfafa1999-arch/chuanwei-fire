@@ -17,9 +17,10 @@
     "evidence": "B-derived-approved-catalog for the series table and visible selection facts; archived DN100 product image is representative only"
   },
   "publication": {
-    "status": "local-draft",
-    "externalRelease": false,
-    "imageRights": "pending-website-use-confirmation"
+    "status": "release-candidate",
+    "externalRelease": true,
+    "imageRights": "user-confirmed-website-use",
+    "imageRightsEvidence": "docs/release/eight-products-20260909/image-rights-confirmation.json"
   },
   "media": {
     "hero": "products/消防阀/saddle-type-waterflow-switches/zsjz-dn100-reference.png"

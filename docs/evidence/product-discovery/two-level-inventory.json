@@ -1,0 +1,498 @@
+{
+  "series": 49,
+  "entries": 73,
+  "families": [
+    {
+      "id": "sprinklers",
+      "series": 9,
+      "entries": [
+        {
+          "route": "product:standard-response-fire-sprinkler",
+          "name": "Standard Response Fire Sprinklers — Upright sprinkler",
+          "image": "products/消防喷头/standard-response-sprinkler/standard-response-pendent.jpg",
+          "suffix": "?view=products%2F%E6%B6%88%E9%98%B2%E5%96%B7%E5%A4%B4%2Fstandard-response-sprinkler%2Fstandard-response-pendent.jpg#gallery"
+        },
+        {
+          "route": "product:standard-response-fire-sprinkler",
+          "name": "Standard Response Fire Sprinklers — Pendent sprinkler",
+          "image": "products/消防喷头/standard-response-sprinkler/standard-response-upright.jpg",
+          "suffix": "?view=products%2F%E6%B6%88%E9%98%B2%E5%96%B7%E5%A4%B4%2Fstandard-response-sprinkler%2Fstandard-response-upright.jpg#gallery"
+        },
+        {
+          "route": "product:standard-response-fire-sprinkler",
+          "name": "Standard Response Fire Sprinklers — Horizontal sidewall sprinkler",
+          "image": "products/消防喷头/standard-response-sprinkler/standard-response-horizontal-sidewall.jpg",
+          "suffix": "?view=products%2F%E6%B6%88%E9%98%B2%E5%96%B7%E5%A4%B4%2Fstandard-response-sprinkler%2Fstandard-response-horizontal-sidewall.jpg#gallery"
+        },
+        {
+          "route": "product:fusible-alloy-fire-sprinklers",
+          "name": "Fusible-Alloy Fire Sprinklers — Fusible element configuration A",
+          "image": "products/消防喷头/fusible-alloy-fire-sprinklers/fusible-alloy-configuration-a.jpg",
+          "suffix": "?view=products%2F%E6%B6%88%E9%98%B2%E5%96%B7%E5%A4%B4%2Ffusible-alloy-fire-sprinklers%2Ffusible-alloy-configuration-a.jpg#gallery"
+        },
+        {
+          "route": "product:fusible-alloy-fire-sprinklers",
+          "name": "Fusible-Alloy Fire Sprinklers — Fusible element configuration B",
+          "image": "products/消防喷头/fusible-alloy-fire-sprinklers/fusible-alloy-configuration-b.jpg",
+          "suffix": "?view=products%2F%E6%B6%88%E9%98%B2%E5%96%B7%E5%A4%B4%2Ffusible-alloy-fire-sprinklers%2Ffusible-alloy-configuration-b.jpg#gallery"
+        },
+        {
+          "route": "product:glass-bulb-fire-sprinkler",
+          "name": "Quick Response Glass Bulb Sprinklers — Pendent sprinkler",
+          "image": "products/消防喷头/glass-bulb-sprinkler/quick-response-pendent.jpg",
+          "suffix": "?view=products%2F%E6%B6%88%E9%98%B2%E5%96%B7%E5%A4%B4%2Fglass-bulb-sprinkler%2Fquick-response-pendent.jpg#gallery"
+        },
+        {
+          "route": "product:glass-bulb-fire-sprinkler",
+          "name": "Quick Response Glass Bulb Sprinklers — Upright sprinkler",
+          "image": "products/消防喷头/glass-bulb-sprinkler/quick-response-upright.jpg",
+          "suffix": "?view=products%2F%E6%B6%88%E9%98%B2%E5%96%B7%E5%A4%B4%2Fglass-bulb-sprinkler%2Fquick-response-upright.jpg#gallery"
+        },
+        {
+          "route": "product:extended-coverage-quick-response-fire-sprinkler",
+          "name": "Extended Coverage Quick Response Sprinklers — Pendent Sprinkler",
+          "image": "products/消防喷头/extended-coverage-quick-response-sprinkler/temporary-reference-pendent.jpg",
+          "suffix": "?view=products%2F%E6%B6%88%E9%98%B2%E5%96%B7%E5%A4%B4%2Fextended-coverage-quick-response-sprinkler%2Ftemporary-reference-pendent.jpg#gallery"
+        },
+        {
+          "route": "product:extended-coverage-quick-response-fire-sprinkler",
+          "name": "Extended Coverage Quick Response Sprinklers — Upright Sprinkler",
+          "image": "products/消防喷头/extended-coverage-quick-response-sprinkler/temporary-reference-upright.jpg",
+          "suffix": "?view=products%2F%E6%B6%88%E9%98%B2%E5%96%B7%E5%A4%B4%2Fextended-coverage-quick-response-sprinkler%2Ftemporary-reference-upright.jpg#gallery"
+        },
+        {
+          "route": "product:extended-coverage-quick-response-fire-sprinkler",
+          "name": "Extended Coverage Quick Response Sprinklers — Horizontal Sidewall Sprinkler",
+          "image": "products/消防喷头/extended-coverage-quick-response-sprinkler/temporary-reference-horizontal-sidewall.jpg",
+          "suffix": "?view=products%2F%E6%B6%88%E9%98%B2%E5%96%B7%E5%A4%B4%2Fextended-coverage-quick-response-sprinkler%2Ftemporary-reference-horizontal-sidewall.jpg#gallery"
+        },
+        {
+          "route": "product:concealed-pendent-fire-sprinkler",
+          "name": "Concealed Pendent Sprinklers",
+          "image": "products/消防喷头/categories/concealed-pendent.jpg",
+          "suffix": ""
+        },
+        {
+          "route": "product:large-k-factor-esfr-sprinklers",
+          "name": "Large K-Factor & ESFR Sprinklers — ESFR Pendent Series",
+          "image": "products/消防喷头/large-k-esfr-sprinkler/esfr-pendent-series.jpg",
+          "suffix": "?view=products%2F%E6%B6%88%E9%98%B2%E5%96%B7%E5%A4%B4%2Flarge-k-esfr-sprinkler%2Fesfr-pendent-series.jpg#gallery"
+        },
+        {
+          "route": "product:large-k-factor-esfr-sprinklers",
+          "name": "Large K-Factor & ESFR Sprinklers — ESFR Upright Series",
+          "image": "products/消防喷头/large-k-esfr-sprinkler/esfr-upright-series.jpg",
+          "suffix": "?view=products%2F%E6%B6%88%E9%98%B2%E5%96%B7%E5%A4%B4%2Flarge-k-esfr-sprinkler%2Fesfr-upright-series.jpg#gallery"
+        },
+        {
+          "route": "product:large-k-factor-esfr-sprinklers",
+          "name": "Large K-Factor & ESFR Sprinklers — Large K202 Pendent",
+          "image": "products/消防喷头/large-k-esfr-sprinkler/large-k202-pendent.jpg",
+          "suffix": "?view=products%2F%E6%B6%88%E9%98%B2%E5%96%B7%E5%A4%B4%2Flarge-k-esfr-sprinkler%2Flarge-k202-pendent.jpg#gallery"
+        },
+        {
+          "route": "product:large-k-factor-esfr-sprinklers",
+          "name": "Large K-Factor & ESFR Sprinklers — Large K202 Horizontal Sidewall",
+          "image": "products/消防喷头/large-k-esfr-sprinkler/large-k202-horizontal-sidewall.jpg",
+          "suffix": "?view=products%2F%E6%B6%88%E9%98%B2%E5%96%B7%E5%A4%B4%2Flarge-k-esfr-sprinkler%2Flarge-k202-horizontal-sidewall.jpg#gallery"
+        },
+        {
+          "route": "product:large-k-factor-esfr-sprinklers",
+          "name": "Large K-Factor & ESFR Sprinklers — Large K202 Upright",
+          "image": "products/消防喷头/large-k-esfr-sprinkler/large-k202-upright.jpg",
+          "suffix": "?view=products%2F%E6%B6%88%E9%98%B2%E5%96%B7%E5%A4%B4%2Flarge-k-esfr-sprinkler%2Flarge-k202-upright.jpg#gallery"
+        },
+        {
+          "route": "product:dry-pendent-fire-sprinklers",
+          "name": "Dry Pendent Fire Sprinklers",
+          "image": "products/消防喷头/categories/dry-sprinkler.jpg",
+          "suffix": ""
+        },
+        {
+          "route": "product:water-mist-nozzles",
+          "name": "Water Mist Nozzles — Standard Type with Inlet Strainer",
+          "image": "products/消防喷头/water-mist-nozzles/water-mist-nozzle-with-inlet-strainer.jpg",
+          "suffix": "?view=products%2F%E6%B6%88%E9%98%B2%E5%96%B7%E5%A4%B4%2Fwater-mist-nozzles%2Fwater-mist-nozzle-with-inlet-strainer.jpg#gallery"
+        },
+        {
+          "route": "product:water-mist-nozzles",
+          "name": "Water Mist Nozzles — Standard Water Mist Nozzle Body",
+          "image": "products/消防喷头/water-mist-nozzles/water-mist-nozzle-body.jpg",
+          "suffix": "?view=products%2F%E6%B6%88%E9%98%B2%E5%96%B7%E5%A4%B4%2Fwater-mist-nozzles%2Fwater-mist-nozzle-body.jpg#gallery"
+        },
+        {
+          "route": "product:water-mist-nozzles",
+          "name": "Water Mist Nozzles — Standard Type with Mesh Guard",
+          "image": "products/消防喷头/water-mist-nozzles/water-mist-nozzle-with-mesh-guard.jpg",
+          "suffix": "?view=products%2F%E6%B6%88%E9%98%B2%E5%96%B7%E5%A4%B4%2Fwater-mist-nozzles%2Fwater-mist-nozzle-with-mesh-guard.jpg#gallery"
+        },
+        {
+          "route": "product:water-mist-nozzles",
+          "name": "Water Mist Nozzles — Impingement Type with Inlet Strainer",
+          "image": "products/消防喷头/water-mist-nozzles/impingement-water-mist-nozzle-with-inlet-strainer.jpg",
+          "suffix": "?view=products%2F%E6%B6%88%E9%98%B2%E5%96%B7%E5%A4%B4%2Fwater-mist-nozzles%2Fimpingement-water-mist-nozzle-with-inlet-strainer.jpg#gallery"
+        },
+        {
+          "route": "product:water-mist-nozzles",
+          "name": "Water Mist Nozzles — Open Impingement Type",
+          "image": "products/消防喷头/water-mist-nozzles/impingement-water-mist-nozzle-open-type.jpg",
+          "suffix": "?view=products%2F%E6%B6%88%E9%98%B2%E5%96%B7%E5%A4%B4%2Fwater-mist-nozzles%2Fimpingement-water-mist-nozzle-open-type.jpg#gallery"
+        },
+        {
+          "route": "product:water-curtain-nozzles",
+          "name": "Water Curtain Nozzles — Horizontal Single-Slot Type",
+          "image": "products/消防喷头/water-curtain-nozzles/horizontal-single-slot-water-curtain-nozzle.jpg",
+          "suffix": "?view=products%2F%E6%B6%88%E9%98%B2%E5%96%B7%E5%A4%B4%2Fwater-curtain-nozzles%2Fhorizontal-single-slot-water-curtain-nozzle.jpg#gallery"
+        },
+        {
+          "route": "product:water-curtain-nozzles",
+          "name": "Water Curtain Nozzles — Horizontal Double-Slot Type",
+          "image": "products/消防喷头/water-curtain-nozzles/horizontal-double-slot-water-curtain-nozzle.jpg",
+          "suffix": "?view=products%2F%E6%B6%88%E9%98%B2%E5%96%B7%E5%A4%B4%2Fwater-curtain-nozzles%2Fhorizontal-double-slot-water-curtain-nozzle.jpg#gallery"
+        },
+        {
+          "route": "product:water-curtain-nozzles",
+          "name": "Water Curtain Nozzles — Pendent Water Curtain Type",
+          "image": "products/消防喷头/water-curtain-nozzles/pendent-water-curtain-nozzle.jpg",
+          "suffix": "?view=products%2F%E6%B6%88%E9%98%B2%E5%96%B7%E5%A4%B4%2Fwater-curtain-nozzles%2Fpendent-water-curtain-nozzle.jpg#gallery"
+        }
+      ]
+    },
+    {
+      "id": "system-valves",
+      "series": 5,
+      "entries": [
+        {
+          "route": "product:wet-alarm-check-valve",
+          "name": "Wet Alarm Check Valve Assemblies — DN150 Flanged Complete Assembly",
+          "image": "products/消防阀/wet-alarm-check-valve-assemblies/dn150-flanged-wet-alarm-assembly-en.jpg",
+          "suffix": "?view=products%2F%E6%B6%88%E9%98%B2%E9%98%80%2Fwet-alarm-check-valve-assemblies%2Fdn150-flanged-wet-alarm-assembly-en.jpg#gallery"
+        },
+        {
+          "route": "product:wet-alarm-check-valve",
+          "name": "Wet Alarm Check Valve Assemblies — DN150 Grooved Complete Assembly",
+          "image": "products/消防阀/wet-alarm-check-valve-assemblies/dn150-grooved-wet-alarm-assembly-en.jpg",
+          "suffix": "?view=products%2F%E6%B6%88%E9%98%B2%E9%98%80%2Fwet-alarm-check-valve-assemblies%2Fdn150-grooved-wet-alarm-assembly-en.jpg#gallery"
+        },
+        {
+          "route": "product:diaphragm-deluge-valves",
+          "name": "Diaphragm Deluge Valves — Flanged",
+          "image": "products/消防阀/diaphragm-deluge-valves/deluge-valve-flanged.jpg",
+          "suffix": "?view=products%2F%E6%B6%88%E9%98%B2%E9%98%80%2Fdiaphragm-deluge-valves%2Fdeluge-valve-flanged.jpg#gallery"
+        },
+        {
+          "route": "product:diaphragm-deluge-valves",
+          "name": "Diaphragm Deluge Valves — Grooved",
+          "image": "products/消防阀/diaphragm-deluge-valves/deluge-valve-grooved.jpg",
+          "suffix": "?view=products%2F%E6%B6%88%E9%98%B2%E9%98%80%2Fdiaphragm-deluge-valves%2Fdeluge-valve-grooved.jpg#gallery"
+        },
+        {
+          "route": "product:preaction-valve-assemblies",
+          "name": "Preaction Valve Assemblies",
+          "image": "products/消防阀/preaction-valve-assembly.jpg",
+          "suffix": ""
+        },
+        {
+          "route": "product:dry-pipe-alarm-valves",
+          "name": "Dry Pipe Alarm Valves",
+          "image": "products/消防阀/dry-pipe-alarm-valves/dry-pipe-alarm-valve-flanged.jpg",
+          "suffix": ""
+        },
+        {
+          "route": "product:saddle-type-waterflow-switches",
+          "name": "Saddle-Type Waterflow Switches",
+          "image": "products/消防阀/saddle-type-waterflow-switches/zsjz-dn100-reference.png",
+          "suffix": ""
+        }
+      ]
+    },
+    {
+      "id": "butterfly-valves",
+      "series": 4,
+      "entries": [
+        {
+          "route": "product:lever-operated-grooved-butterfly-valves",
+          "name": "Lever-Operated Grooved Butterfly Valves",
+          "image": "products/消防蝶阀/lever-operated-grooved-butterfly-valves/lever-operated-grooved-butterfly-valve.jpg",
+          "suffix": ""
+        },
+        {
+          "route": "product:lever-operated-wafer-butterfly-valves",
+          "name": "Lever-Operated Wafer Butterfly Valves",
+          "image": "products/消防蝶阀/lever-operated-wafer-butterfly-valves/lever-operated-wafer-butterfly-valve.jpg",
+          "suffix": ""
+        },
+        {
+          "route": "product:grooved-supervisory-butterfly-valves",
+          "name": "Grooved Supervisory Butterfly Valves",
+          "image": "products/消防蝶阀/grooved-supervisory-butterfly-valves/grooved-supervisory-butterfly-valve.jpg",
+          "suffix": ""
+        },
+        {
+          "route": "product:wafer-supervisory-butterfly-valves",
+          "name": "Wafer Supervisory Butterfly Valves",
+          "image": "products/消防蝶阀/wafer-supervisory-butterfly-valves/wafer-supervisory-butterfly-valve.jpg",
+          "suffix": ""
+        }
+      ]
+    },
+    {
+      "id": "gate-valves",
+      "series": 4,
+      "entries": [
+        {
+          "route": "product:flanged-supervisory-gate-valves",
+          "name": "Flanged Supervisory Gate Valves",
+          "image": "products/消防阀门/flanged-supervisory-gate-valves/flanged-supervisory-gate-valve.jpg",
+          "suffix": ""
+        },
+        {
+          "route": "product:grooved-supervisory-gate-valves",
+          "name": "Grooved Supervisory Gate Valves",
+          "image": "products/消防阀门/grooved-supervisory-gate-valves/grooved-supervisory-gate-valve.jpg",
+          "suffix": ""
+        },
+        {
+          "route": "product:nrs-gate-valves",
+          "name": "NRS Gate Valves",
+          "image": "products/消防阀门/nrs-gate-valves/nrs-gate-valve.jpg",
+          "suffix": ""
+        },
+        {
+          "route": "product:osy-gate-valves",
+          "name": "OS&Y Gate Valves",
+          "image": "products/消防阀门/osy-gate-valves/osy-gate-valve.jpg",
+          "suffix": ""
+        }
+      ]
+    },
+    {
+      "id": "hose-reels",
+      "series": 4,
+      "entries": [
+        {
+          "route": "product:ria25-fire-hose-reel",
+          "name": "RIA 25 Fire Hose Reel",
+          "image": "products/软管卷盘/ria25-fire-hose-reel/ria25-fire-hose-reel.jpg",
+          "suffix": ""
+        },
+        {
+          "route": "product:straight-stream-fire-hose-reel",
+          "name": "Straight-Stream Fire Hose Reel",
+          "image": "products/软管卷盘/straight-stream-fire-hose-reel/straight-stream-fire-hose-reel.jpg",
+          "suffix": ""
+        },
+        {
+          "route": "product:jet-spray-fire-hose-reel",
+          "name": "Jet/Spray Fire Hose Reel",
+          "image": "products/软管卷盘/jet-spray-fire-hose-reel/jet-spray-fire-hose-reel.jpg",
+          "suffix": ""
+        },
+        {
+          "route": "product:heavy-duty-fire-hose-reel",
+          "name": "Heavy-Duty Fire Hose Reel",
+          "image": "products/软管卷盘/heavy-duty-fire-hose-reel/heavy-duty-reel.jpg",
+          "suffix": ""
+        }
+      ]
+    },
+    {
+      "id": "hoses-nozzles-couplings",
+      "series": 7,
+      "entries": [
+        {
+          "route": "product:combination-jet-fog-nozzles",
+          "name": "Combination Jet/Fog Nozzles",
+          "image": "products/消防水枪/categories/combination-jet-fog-nozzle.jpg",
+          "suffix": ""
+        },
+        {
+          "route": "product:layflat-fire-hoses",
+          "name": "Layflat Fire Hoses",
+          "image": "products/消防水枪/categories/layflat-fire-hose.jpg",
+          "suffix": ""
+        },
+        {
+          "route": "product:kd-hose-couplings",
+          "name": "KD Hose Couplings",
+          "image": "products/消防水枪/categories/kd-hose-coupling.jpg",
+          "suffix": ""
+        },
+        {
+          "route": "product:kn-threaded-adapters",
+          "name": "KN Threaded Adapters",
+          "image": "products/消防水枪/categories/kn-threaded-adapter.jpg",
+          "suffix": ""
+        },
+        {
+          "route": "product:matched-hose-assemblies",
+          "name": "Matched Hose Assemblies",
+          "image": "products/消防水枪/categories/hose-assembly.jpg",
+          "suffix": ""
+        },
+        {
+          "route": "product:straight-stream-fire-hose-nozzles",
+          "name": "Straight-Stream Fire Hose Nozzles — QZ configuration",
+          "image": "products/消防水枪/straight-stream-fire-hose-nozzles/qz-catalog-display.png",
+          "suffix": "?view=products%2F%E6%B6%88%E9%98%B2%E6%B0%B4%E6%9E%AA%2Fstraight-stream-fire-hose-nozzles%2Fqz-catalog-display.png#gallery"
+        },
+        {
+          "route": "product:straight-stream-fire-hose-nozzles",
+          "name": "Straight-Stream Fire Hose Nozzles — Russian-pattern configuration",
+          "image": "products/消防水枪/straight-stream-fire-hose-nozzles/russian-pattern-catalog-display.png",
+          "suffix": "?view=products%2F%E6%B6%88%E9%98%B2%E6%B0%B4%E6%9E%AA%2Fstraight-stream-fire-hose-nozzles%2Frussian-pattern-catalog-display.png#gallery"
+        },
+        {
+          "route": "product:lever-operated-fire-hose-nozzles",
+          "name": "Lever-Operated Fire Hose Nozzles — Configuration A",
+          "image": "products/消防水枪/lever-operated-fire-hose-nozzles/configuration-a-catalog-display.png",
+          "suffix": "?view=products%2F%E6%B6%88%E9%98%B2%E6%B0%B4%E6%9E%AA%2Flever-operated-fire-hose-nozzles%2Fconfiguration-a-catalog-display.png#gallery"
+        },
+        {
+          "route": "product:lever-operated-fire-hose-nozzles",
+          "name": "Lever-Operated Fire Hose Nozzles — Configuration B",
+          "image": "products/消防水枪/lever-operated-fire-hose-nozzles/configuration-b-catalog-display.png",
+          "suffix": "?view=products%2F%E6%B6%88%E9%98%B2%E6%B0%B4%E6%9E%AA%2Flever-operated-fire-hose-nozzles%2Fconfiguration-b-catalog-display.png#gallery"
+        }
+      ]
+    },
+    {
+      "id": "indoor-hydrants",
+      "series": 6,
+      "entries": [
+        {
+          "route": "product:standard-indoor-hydrant",
+          "name": "Standard Indoor Fire Hydrants",
+          "image": "products/室内消防栓/standard-indoor-hydrant/standard-indoor-hydrant.jpg",
+          "suffix": ""
+        },
+        {
+          "route": "product:export-slanted-hydrant-valve",
+          "name": "Export Slanted Hydrant Valves",
+          "image": "products/室内消防栓/export-slanted-hydrant-valve/export-slanted-front.jpg",
+          "suffix": ""
+        },
+        {
+          "route": "product:double-outlet-hydrant",
+          "name": "Double-Outlet Indoor Hydrants",
+          "image": "products/室内消防栓/double-outlet-hydrant/double-outlet-hydrant.jpg",
+          "suffix": ""
+        },
+        {
+          "route": "product:rotating-pressure-regulating-hydrant",
+          "name": "Rotating Pressure-Regulating Hydrants",
+          "image": "products/室内消防栓/rotating-pressure-regulating-hydrant/rotating-hydrant.jpg",
+          "suffix": ""
+        },
+        {
+          "route": "product:straight-through-oblique-landing-valves",
+          "name": "Straight-through Landing Valve",
+          "image": "products/室内消防栓/straight-through-oblique-landing-valves/straight-through-catalog-display.jpeg",
+          "suffix": "#configuration-straightThrough"
+        },
+        {
+          "route": "product:straight-through-oblique-landing-valves",
+          "name": "Oblique threaded Landing Valve",
+          "image": "products/室内消防栓/straight-through-oblique-landing-valves/oblique-threaded-catalog-display.jpeg",
+          "suffix": "#configuration-obliqueThreaded"
+        },
+        {
+          "route": "product:straight-through-oblique-landing-valves",
+          "name": "Oblique flanged Landing Valve",
+          "image": "products/室内消防栓/straight-through-oblique-landing-valves/oblique-flanged-catalog-display.jpeg",
+          "suffix": "#configuration-obliqueFlanged"
+        },
+        {
+          "route": "product:horizontal-handwheel-landing-valves",
+          "name": "Horizontal-Handwheel Landing Valves — Threaded inlet",
+          "image": "products/室内消防栓/horizontal-handwheel-landing-valves/threaded-inlet-catalog-display.jpeg",
+          "suffix": "?view=products%2F%E5%AE%A4%E5%86%85%E6%B6%88%E9%98%B2%E6%A0%93%2Fhorizontal-handwheel-landing-valves%2Fthreaded-inlet-catalog-display.jpeg#gallery"
+        },
+        {
+          "route": "product:horizontal-handwheel-landing-valves",
+          "name": "Horizontal-Handwheel Landing Valves — Flanged inlet",
+          "image": "products/室内消防栓/horizontal-handwheel-landing-valves/flanged-inlet-catalog-display.jpeg",
+          "suffix": "?view=products%2F%E5%AE%A4%E5%86%85%E6%B6%88%E9%98%B2%E6%A0%93%2Fhorizontal-handwheel-landing-valves%2Fflanged-inlet-catalog-display.jpeg#gallery"
+        }
+      ]
+    },
+    {
+      "id": "outdoor-hydrants",
+      "series": 4,
+      "entries": [
+        {
+          "route": "product:bs750-pillar-hydrant",
+          "name": "BS 750 Pattern Pillar Hydrants",
+          "image": "products/室外消防栓/bs750-pillar-hydrant/bs750-front.jpg",
+          "suffix": ""
+        },
+        {
+          "route": "product:french-pattern-hydrant",
+          "name": "French-Pattern Hydrants",
+          "image": "products/室外消防栓/global-series/french-dry-barrel-hydrant.jpg",
+          "suffix": ""
+        },
+        {
+          "route": "product:indonesian-pattern-hydrant",
+          "name": "Indonesian-Pattern Hydrants",
+          "image": "products/室外消防栓/global-series/indonesia-wet-barrel-hydrant.jpg",
+          "suffix": ""
+        },
+        {
+          "route": "product:russian-pattern-hydrant",
+          "name": "Russian-Pattern Hydrants",
+          "image": "products/室外消防栓/global-series/russian-pattern-hydrant.jpg",
+          "suffix": ""
+        }
+      ]
+    },
+    {
+      "id": "fire-department-connections",
+      "series": 6,
+      "entries": [
+        {
+          "route": "product:freestanding-above-ground-fdcs",
+          "name": "Freestanding Above-Ground FDCs",
+          "image": "products/消防水泵接合器/消防水泵接合器主图.jpg",
+          "suffix": ""
+        },
+        {
+          "route": "product:alternative-freestanding-fdc-configurations",
+          "name": "Alternative Freestanding Configurations",
+          "image": "products/消防水泵接合器/DSC_5714.jpg",
+          "suffix": ""
+        },
+        {
+          "route": "product:underground-fdc-assemblies",
+          "name": "Underground FDC Assemblies",
+          "image": "products/消防水泵接合器/DSC_5705.jpg",
+          "suffix": ""
+        },
+        {
+          "route": "product:wall-mounted-grooved-fdc-families",
+          "name": "Wall-Mounted & Grooved Families",
+          "image": "products/消防水泵接合器/DSC_5709.jpg",
+          "suffix": ""
+        },
+        {
+          "route": "product:breeching-inlets",
+          "name": "Breeching Inlets — 2-way breeching inlet",
+          "image": "products/消防水泵接合器/breeching-inlets/two-way-breeching-inlet.jpg",
+          "suffix": "?view=products%2F%E6%B6%88%E9%98%B2%E6%B0%B4%E6%B3%B5%E6%8E%A5%E5%90%88%E5%99%A8%2Fbreeching-inlets%2Ftwo-way-breeching-inlet.jpg#gallery"
+        },
+        {
+          "route": "product:breeching-inlets",
+          "name": "Breeching Inlets — 4-way breeching inlet",
+          "image": "products/消防水泵接合器/breeching-inlets/four-way-breeching-inlet.jpg",
+          "suffix": "?view=products%2F%E6%B6%88%E9%98%B2%E6%B0%B4%E6%B3%B5%E6%8E%A5%E5%90%88%E5%99%A8%2Fbreeching-inlets%2Ffour-way-breeching-inlet.jpg#gallery"
+        },
+        {
+          "route": "product:russian-pattern-fire-department-connection",
+          "name": "Russian-Pattern Fire Department Connection",
+          "image": "products/消防水泵接合器/russian-pattern-fire-department-connection/65-16k-65-front.png",
+          "suffix": ""
+        }
+      ]
+    }
+  ]
+}

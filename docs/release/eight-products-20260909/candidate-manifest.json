@@ -1,0 +1,302 @@
+{
+  "generatedAt": "2026-09-09T06:58:10.351Z",
+  "state": "local-release-candidate-not-deployed",
+  "baseline": "7c17f6d35cdcb80094886dbe1371218f836f4136",
+  "products": 8,
+  "localizedProductPages": 16,
+  "images": 15,
+  "existingPagesChanged": [
+    "index.html",
+    "products/消防喷头.html",
+    "products/消防阀.html",
+    "products/室内消防栓/室内消防栓.html",
+    "products/消防水泵接合器.html",
+    "products/消防水枪.html"
+  ],
+  "linksChecked": 524,
+  "missingLinks": [],
+  "files": [
+    {
+      "path": "products/消防喷头/fusible-alloy-fire-sprinklers/fusible-alloy-configuration-a.jpg",
+      "reason": "approved product image",
+      "sha256": "14c455d9802168a02d01641e0c3f855acfa6feb9fa98867ee408ad2ceebaf9cb",
+      "baselineSha256": null
+    },
+    {
+      "path": "products/消防喷头/fusible-alloy-fire-sprinklers/fusible-alloy-configuration-b.jpg",
+      "reason": "approved product image",
+      "sha256": "05d4db52822e1a747fb644aa3b587cb799a4e229e20d46a22006cdbe8fb67aba",
+      "baselineSha256": null
+    },
+    {
+      "path": "assets/new-products-20260909/css/common.css",
+      "reason": "isolated product style/script",
+      "sha256": "f66d9fb08eb52b64ead639efee5981f427d9ba6ba47494520b4619e230f14882",
+      "baselineSha256": null
+    },
+    {
+      "path": "assets/new-products-20260909/css/sprinkler-product.css",
+      "reason": "isolated product style/script",
+      "sha256": "1ab40fc3ea2795eee3289f090618b0d246f27e9064a914b39eb657da4fea94db",
+      "baselineSha256": null
+    },
+    {
+      "path": "assets/new-products-20260909/css/sprinkler-product-gallery.css",
+      "reason": "isolated product style/script",
+      "sha256": "97e09ddc3c80f9421159aa2d4ce9410cfb9009b1e8cf85127198cd782dea0d41",
+      "baselineSha256": null
+    },
+    {
+      "path": "assets/new-products-20260909/css/documented-product.css",
+      "reason": "isolated product style/script",
+      "sha256": "c9f051342401e3e725cdf321b36704822ccd3e9ee91c865a250e5bbc8d66670f",
+      "baselineSha256": null
+    },
+    {
+      "path": "assets/new-products-20260909/css/site-navigation.css",
+      "reason": "isolated product style/script",
+      "sha256": "61b33273598e48533313684122bf5fd5bd1507608ae4ab33809e35f4706c59e0",
+      "baselineSha256": null
+    },
+    {
+      "path": "assets/new-products-20260909/assets/js/preserved-product-gallery.js",
+      "reason": "isolated product style/script",
+      "sha256": "ebcd8a2c1fc010e23e41f3789431c4e742b95da48cf8598aa01162c95336ca04",
+      "baselineSha256": null
+    },
+    {
+      "path": "assets/new-products-20260909/assets/js/site-navigation.js",
+      "reason": "isolated product style/script",
+      "sha256": "3b12817879dd452a7b44c65ebda965ff4353bbf4ac199995a0a72529ff364890",
+      "baselineSha256": null
+    },
+    {
+      "path": "products/消防喷头/fusible-alloy-fire-sprinklers.html",
+      "reason": "new localized product page; compatible navigation",
+      "sha256": "d4e71328fd4726c3eb0a2d52d2d1c94aea5dc193e38800e4d2f6430e442220d9",
+      "baselineSha256": null
+    },
+    {
+      "path": "assets/new-products-20260909/css/multilingual-product.css",
+      "reason": "isolated product style/script",
+      "sha256": "c7e4e825e45ccd85e0e628288fcdd55a1152ad5992b6562eefc28fdda519f23f",
+      "baselineSha256": null
+    },
+    {
+      "path": "ar/products/fusible-alloy-fire-sprinklers/index.html",
+      "reason": "new localized product page; compatible navigation",
+      "sha256": "1f8c9757ba3a7e8597bdde3a594f5b5662c3c124dc5c2fc615f5f4f31f6b948c",
+      "baselineSha256": null
+    },
+    {
+      "path": "products/消防阀/saddle-type-waterflow-switches/zsjz-dn100-reference.png",
+      "reason": "approved product image",
+      "sha256": "4f14420357055099e9a84244f2edb40c6ac1ac484dc0bc1fe5ecf0887f78444d",
+      "baselineSha256": null
+    },
+    {
+      "path": "products/消防阀/saddle-type-waterflow-switches.html",
+      "reason": "new localized product page; compatible navigation",
+      "sha256": "4d36734b2345dd69e04c53065fb3dc069f906645530e470f30a23602fac68ac9",
+      "baselineSha256": null
+    },
+    {
+      "path": "ar/products/saddle-type-waterflow-switches/index.html",
+      "reason": "new localized product page; compatible navigation",
+      "sha256": "234accef7048023674e1f0d9b951aae6e84d4e788aa7fd7652aabc3d70b9e4b9",
+      "baselineSha256": null
+    },
+    {
+      "path": "products/室内消防栓/straight-through-oblique-landing-valves/straight-through-catalog-display.jpeg",
+      "reason": "approved product image",
+      "sha256": "b0bcb514b9df8be8f5c56fe038cb2df89b42ef449542164b3417bfc90dc7bff8",
+      "baselineSha256": null
+    },
+    {
+      "path": "products/室内消防栓/straight-through-oblique-landing-valves/oblique-threaded-catalog-display.jpeg",
+      "reason": "approved product image",
+      "sha256": "25ce994e56f9fe8a625459881f0a1f009ce264a7dd0cf32c01b3e0ac1215f5b0",
+      "baselineSha256": null
+    },
+    {
+      "path": "products/室内消防栓/straight-through-oblique-landing-valves/oblique-flanged-catalog-display.jpeg",
+      "reason": "approved product image",
+      "sha256": "1c2626d678eb2cab96b2050a50b138b45aa7bf2e0e865930e207294ad6cba6ba",
+      "baselineSha256": null
+    },
+    {
+      "path": "products/室内消防栓/straight-through-oblique-landing-valves.html",
+      "reason": "new localized product page; compatible navigation",
+      "sha256": "5a09460500d3b29fc77a6f3a785214539c2484c888e6a24054c94454286f247e",
+      "baselineSha256": null
+    },
+    {
+      "path": "ar/products/straight-through-oblique-landing-valves/index.html",
+      "reason": "new localized product page; compatible navigation",
+      "sha256": "d146d1507b733f4297101bb77be088a2be94244a86675c7f3aee2889734e6579",
+      "baselineSha256": null
+    },
+    {
+      "path": "products/室内消防栓/horizontal-handwheel-landing-valves/threaded-inlet-catalog-display.jpeg",
+      "reason": "approved product image",
+      "sha256": "4bf818633dff9a5034d1085bf5b674169fda75d99b913bd968fbb9845532a0f5",
+      "baselineSha256": null
+    },
+    {
+      "path": "products/室内消防栓/horizontal-handwheel-landing-valves/flanged-inlet-catalog-display.jpeg",
+      "reason": "approved product image",
+      "sha256": "f11603fd97ddccb83b95e810bbfc99656e16fcbc2eee1706d7a54c91f9bad66f",
+      "baselineSha256": null
+    },
+    {
+      "path": "products/室内消防栓/horizontal-handwheel-landing-valves.html",
+      "reason": "new localized product page; compatible navigation",
+      "sha256": "5696fc1fb3c99df6d087c4111f62112a88bb6bcd9b423d2f3bb27eb5f7da35b6",
+      "baselineSha256": null
+    },
+    {
+      "path": "ar/products/horizontal-handwheel-landing-valves/index.html",
+      "reason": "new localized product page; compatible navigation",
+      "sha256": "2358d7321fd20c37ccb249af03313379602cfcac906dd210e5673eb7b37dcb7a",
+      "baselineSha256": null
+    },
+    {
+      "path": "products/消防水泵接合器/breeching-inlets/two-way-breeching-inlet.jpg",
+      "reason": "approved product image",
+      "sha256": "2556c9847b36c79975e88b71940a7eae5ea1f94b6536f49daa0914f80f274a8d",
+      "baselineSha256": null
+    },
+    {
+      "path": "products/消防水泵接合器/breeching-inlets/four-way-breeching-inlet.jpg",
+      "reason": "approved product image",
+      "sha256": "6a68f019c3b7d5da9a23d60be5102bdc9b5115aafb23503b1146488eda6ec1e4",
+      "baselineSha256": null
+    },
+    {
+      "path": "products/消防水泵接合器/breeching-inlets.html",
+      "reason": "new localized product page; compatible navigation",
+      "sha256": "4278d303c82d564679dcba576d8eb0bda7810a4ebdef6d7cb20865edacba22f9",
+      "baselineSha256": null
+    },
+    {
+      "path": "ar/products/breeching-inlets/index.html",
+      "reason": "new localized product page; compatible navigation",
+      "sha256": "9f9eabb2764b97d1672a401942bdb3c37a70eabcfad67ce0c5c0485a99cee736",
+      "baselineSha256": null
+    },
+    {
+      "path": "products/消防水泵接合器/russian-pattern-fire-department-connection/65-16k-65-front.png",
+      "reason": "approved product image",
+      "sha256": "394b6ce8f99c522b720d103fde90e247fe7748f9b98142eeb39f78a17b3cde75",
+      "baselineSha256": null
+    },
+    {
+      "path": "products/消防水泵接合器/russian-pattern-fire-department-connection.html",
+      "reason": "new localized product page; compatible navigation",
+      "sha256": "4f7f30ca7077b771d70b0026c13aec8806f0a2b915ffd035aaa94897b39b7639",
+      "baselineSha256": null
+    },
+    {
+      "path": "ar/products/russian-pattern-fire-department-connection/index.html",
+      "reason": "new localized product page; compatible navigation",
+      "sha256": "d71dc5e300a758a3b0397e1585e8d47d619dbc7231a5ad432ad8f17f1469295d",
+      "baselineSha256": null
+    },
+    {
+      "path": "products/消防水枪/straight-stream-fire-hose-nozzles/qz-catalog-display.png",
+      "reason": "approved product image",
+      "sha256": "1569091b7e30d701941a4b458715f808051df6f8019e1ff93bc581832bc3fb6d",
+      "baselineSha256": null
+    },
+    {
+      "path": "products/消防水枪/straight-stream-fire-hose-nozzles/russian-pattern-catalog-display.png",
+      "reason": "approved product image",
+      "sha256": "5e303eebd88c04fd150d5e4b8280d9b57ff9b411138b9df294d92921684954b4",
+      "baselineSha256": null
+    },
+    {
+      "path": "products/消防水枪/straight-stream-fire-hose-nozzles.html",
+      "reason": "new localized product page; compatible navigation",
+      "sha256": "3adfcec15d88a8a8b7a911598c36b68c942657ab8933cdafd888bea7ef470428",
+      "baselineSha256": null
+    },
+    {
+      "path": "ar/products/straight-stream-fire-hose-nozzles/index.html",
+      "reason": "new localized product page; compatible navigation",
+      "sha256": "1f31ba99e7d5f86b6a122ce1d4ae600a18401feb25cfbc5b0c31cd6631c8ea5c",
+      "baselineSha256": null
+    },
+    {
+      "path": "products/消防水枪/lever-operated-fire-hose-nozzles/configuration-a-catalog-display.png",
+      "reason": "approved product image",
+      "sha256": "4023c4e1fac08a9be04e1708eae41fceed8f6b3ec443f424bc05961e30f2577d",
+      "baselineSha256": null
+    },
+    {
+      "path": "products/消防水枪/lever-operated-fire-hose-nozzles/configuration-b-catalog-display.png",
+      "reason": "approved product image",
+      "sha256": "1dc9c4c800d3a71866d07918075389f9674882f2a36e7014653d0daf407f1ef3",
+      "baselineSha256": null
+    },
+    {
+      "path": "products/消防水枪/lever-operated-fire-hose-nozzles.html",
+      "reason": "new localized product page; compatible navigation",
+      "sha256": "f36021019fa87b735dbdde1f664e5b94c7f59f945036cc56ea6a69f52560a73b",
+      "baselineSha256": null
+    },
+    {
+      "path": "ar/products/lever-operated-fire-hose-nozzles/index.html",
+      "reason": "new localized product page; compatible navigation",
+      "sha256": "2d3f01c57c0ab6ee2f090152785bb2ffe0f5b1f37f29148ea91233d12ddb6d1f",
+      "baselineSha256": null
+    },
+    {
+      "path": "new-products.html",
+      "reason": "new bilingual product collection",
+      "sha256": "1ee2507a53edd884f38feb316b203df0bc758297ace8051fd96cd3268f7777ee",
+      "baselineSha256": null
+    },
+    {
+      "path": "ar/new-products.html",
+      "reason": "new bilingual product collection",
+      "sha256": "caeecadab2c8f42e8cc27cc173fca8320995d28a89b83f00fffed77678216ff8",
+      "baselineSha256": null
+    },
+    {
+      "path": "index.html",
+      "reason": "existing publication page: additive new-product entry only",
+      "sha256": "151d01514d10d618abf1a6d304fa36a8049fdbfa9448fdc437c43de1b267a9c1",
+      "baselineSha256": "11dc09e834836d9971daa86508b5618c729585f7c5f9af31a91237aede997884"
+    },
+    {
+      "path": "products/消防喷头.html",
+      "reason": "existing publication page: additive new-product entry only",
+      "sha256": "86cff408498f10ba8e1553cb0e4b9562a65f827aa7f9f088a993e596bebc87a4",
+      "baselineSha256": "7ee06afe8972f2ee4c02ab528d462a6ac76e1245af3c33e526ad265958fc6a9b"
+    },
+    {
+      "path": "products/消防阀.html",
+      "reason": "existing publication page: additive new-product entry only",
+      "sha256": "747f71bb2f3c6ebed8b3c41a34f90947cc83a5e164194aafac4238ca68511446",
+      "baselineSha256": "806c4e8e9190901b55d87a12e75d72ccf46ae0a311623cb68b94e78682b6de06"
+    },
+    {
+      "path": "products/室内消防栓/室内消防栓.html",
+      "reason": "existing publication page: additive new-product entry only",
+      "sha256": "db4576b5a581922079fee93ef71bfec32a1428c7d0d810e8d9d9ca57b4f0115c",
+      "baselineSha256": "72696b111f8aeb963062d97264d05be4d525d7aaaf3a982604e4a412b0bcda5d"
+    },
+    {
+      "path": "products/消防水泵接合器.html",
+      "reason": "existing publication page: additive new-product entry only",
+      "sha256": "293643b246b33e7626dddffa7703e5d68356e1aea48179ae4e5e730238c92879",
+      "baselineSha256": "f9fd16de9cf3a8da69ed089155067f0cab5ad85596ec5df70c7817f70c77b08c"
+    },
+    {
+      "path": "products/消防水枪.html",
+      "reason": "existing publication page: additive new-product entry only",
+      "sha256": "e895afce2020079958e01fc82771e5dc3b4877c80530accf766e1c9f445f3015",
+      "baselineSha256": "077644164143778c4422e03a238bdd51e9e3c4e00be45ba6fe1b81ebe4736a4e"
+    }
+  ]
+}

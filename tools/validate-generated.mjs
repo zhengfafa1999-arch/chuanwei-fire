@@ -1,5 +1,6 @@
 import fs from "node:fs";
 import path from "node:path";
+import { PRODUCT_FAMILIES } from "../site-src/_data/productDirectory.js";
 
 const root = process.cwd();
 const pages = [
@@ -113,8 +114,8 @@ for (const page of pages) {
 }
 
 const arabicCategory = fs.readFileSync(path.join(root, "ar/products.html"), "utf8");
-assert(arabicCategory.includes('href="products/system-valves/index.html"'), "Arabic product index does not link to the system-valve category.");
-assert(arabicCategory.includes('href="products/sprinklers/index.html"'), "Arabic product index does not link to the sprinkler category.");
+assert(arabicCategory.includes('href="#system-valves"'), "Arabic product index does not link to the system-valve category.");
+assert(arabicCategory.includes('href="#sprinklers"'), "Arabic product index does not link to the sprinkler category.");
 
 const homePage = fs.readFileSync(path.join(root, "index.html"), "utf8");
 assert(homePage.includes('href="ar/index.html"'), "Homepage Arabic switch must point to an explicit file for local preview.");
@@ -137,9 +138,18 @@ const arabicHomePage = fs.readFileSync(path.join(root, "ar/index.html"), "utf8")
 assert(arabicHomePage.includes("GENERATED FILE"), "Arabic homepage must be generated from the shared homepage template.");
 assert(arabicHomePage.includes('data-site-language="ar" data-site-route-id="home"'), "Arabic homepage is missing its shared navigation markers.");
 assert(!/<base\b/i.test(arabicHomePage), "Arabic homepage must not rebase navigation or fragment links.");
-assert(arabicHomePage.includes('href="products/system-valves/index.html"'), "Arabic homepage must route alarm-valve visitors to the Arabic category page.");
+assert(arabicHomePage.includes('href="products.html?q=&amp;category=system-valves"'), "Arabic homepage must open the filtered product directory directly.");
 assert(arabicHomePage.includes("تصنيع معدات مكافحة الحريق"), "Arabic homepage is missing its localized content data.");
 assert(arabicHomePage.includes('hreflang="zh-CN" href="https://chuanweifire.com/zh/"'), "Arabic homepage is missing its Chinese hreflang.");
+
+const expectedHomeFamilies = PRODUCT_FAMILIES.map((family) => family.id);
+for (const [relativePath, html] of [["index.html", homePage], ["zh/index.html", chineseHomePage], ["ar/index.html", arabicHomePage]]) {
+  const cardFamilies = [...html.matchAll(/data-home-family="([^"]+)"/g)].map((match) => match[1]);
+  const formFamilies = [...html.matchAll(/data-home-family-option="([^"]+)"/g)].map((match) => match[1]);
+  assert(JSON.stringify(cardFamilies) === JSON.stringify(expectedHomeFamilies), `${relativePath} product cards must match the shared product-directory categories and order.`);
+  assert(JSON.stringify(formFamilies) === JSON.stringify(expectedHomeFamilies), `${relativePath} inquiry options must match the shared product-directory categories and order.`);
+}
+assert(chineseHomePage.includes("消防器材箱"), "Chinese homepage is missing the fire-equipment-cabinet category.");
 
 const detailScript = fs.readFileSync(path.join(root, "assets/js/product-detail.js"), "utf8");
 assert(!detailScript.includes("location.replace"), "Product detail behavior must not redirect an explicitly opened language URL.");

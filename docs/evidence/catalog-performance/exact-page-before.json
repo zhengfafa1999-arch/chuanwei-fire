@@ -1,0 +1,50 @@
+[
+  {
+    "width": 1440,
+    "timing": {
+      "nav": [
+        {
+          "dom": 431.69999999552965,
+          "load": 432.59999999403954
+        }
+      ],
+      "paints": [
+        {
+          "name": "first-paint",
+          "ms": 444
+        },
+        {
+          "name": "first-contentful-paint",
+          "ms": 444
+        }
+      ],
+      "requests": [],
+      "ready": true,
+      "height": 9088
+    }
+  },
+  {
+    "width": 390,
+    "timing": {
+      "nav": [
+        {
+          "dom": 70.70000000298023,
+          "load": 86.39999999850988
+        }
+      ],
+      "paints": [
+        {
+          "name": "first-paint",
+          "ms": 108
+        },
+        {
+          "name": "first-contentful-paint",
+          "ms": 108
+        }
+      ],
+      "requests": [],
+      "ready": true,
+      "height": 25364
+    }
+  }
+]

@@ -1,6 +1,7 @@
+import {thumbnailFor} from '../site-src/_data/catalogThumbnails.js';
 import fs from "node:fs";
 import path from "node:path";
-import { PRODUCT_FAMILIES, localizedText } from "../site-src/_data/productDirectory.js";
+import { PRODUCT_FAMILIES, flatProducts, productSuffix, localizedText } from "../site-src/_data/productDirectory.js";
 import {
   SITE_ROUTES,
   SUPPORTED_LOCALES,
@@ -60,257 +61,35 @@ for (const route of Object.values(SITE_ROUTES)) {
 }
 
 for (const locale of SUPPORTED_LOCALES) {
-  const { html, route } = validateListingShell("products", locale);
+  const directory = validateListingShell('products', locale);
+  assert(directory.html.includes('assets/js/product-finder.js'), 'Product finder missing');
+  assert((directory.html.match(/data-search=/g)||[]).length === PRODUCT_FAMILIES.reduce((n,f)=>n+flatProducts(f).length,0), 'Flat directory count mismatch');
   for (const family of PRODUCT_FAMILIES) {
-    const name = localizedText(family.name, locale);
-    const href = resolveSiteRoute(family.routeId, locale, route.outputPath).href;
-    assert(containsRenderedText(html, name), `${route.outputPath} is missing product family: ${name}`);
-    assert(html.includes(`href="${href}"`), `${route.outputPath} has no link to ${family.routeId}.`);
+    const category = validateListingShell(family.routeId, locale);
+    const cards=[...category.html.matchAll(/<article class="product-card">([\s\S]*?)<\/article>/g)].map(m=>m[1]);
+    const products=flatProducts(family);
+    assert(cards.length === products.length, `${family.id}: flat category count mismatch`);
+    assert(directory.html.includes(`href="#${family.id}"`), 'Category must be an in-page filter/shortcut');
+    products.forEach((product,index)=>{
+      assert(SITE_ROUTES[product.routeId].kind === 'product', 'Directory must link directly to detail routes');
+      assert(SITE_ROUTES[product.routeId].category === family.routeId, 'Product parent changed');
+      assert(SITE_ROUTES[product.routeId].locales[locale].status === 'published', 'Unexpected language fallback');
+      for (const [html,route] of [[directory.html,directory.route],[cards[index],category.route]]) {
+        const href=resolveSiteRoute(product.routeId,locale,route.outputPath).href+productSuffix(product);
+        assert(html.includes(`class="product-card__image" href="${href}"`), `Missing direct image link: ${product.routeId}`);
+        assert(containsRenderedText(html,localizedText(product.name,locale)), `Missing configuration name: ${product.routeId}`);
+        assert(html.includes(`src="${route.assetPrefix}${thumbnailFor(product.image)}"`),'Wrong configuration image');
+      }
+      const href=resolveSiteRoute(product.routeId,locale,category.route.outputPath).href+productSuffix(product);
+      const links=[...cards[index].matchAll(/<a\b[^>]*href="([^"]+)"/g)].map(m=>m[1]);
+      assert(links.length===2&&links.every(link=>link===href),'Image/text destinations must match');
+      const detail=readOutput(SITE_ROUTES[product.routeId].locales[locale].outputPath);
+      if(product.anchor)assert(detail.includes(`id="${product.anchor}"`),'Configuration anchor missing');
+      if(product.view){assert(detail.includes('id="gallery"'),'Gallery target missing');assert(detail.includes(path.basename(product.image)),'Selected view missing from detail');}
+    });
   }
 }
-
-for (const family of PRODUCT_FAMILIES) {
-  for (const locale of SUPPORTED_LOCALES) {
-    const { html, route } = validateListingShell(family.routeId, locale);
-    assert(containsRenderedText(html, localizedText(family.name, locale)), `${route.outputPath} is missing its category name.`);
-    for (const product of family.products) {
-      const name = localizedText(product.name, locale);
-      assert(containsRenderedText(html, name), `${route.outputPath} is missing product type: ${name}`);
-      if (!product.routeId) continue;
-      const localizedTarget = SITE_ROUTES[product.routeId].locales[locale];
-      const targetLocale = localizedTarget.status === "published" ? locale : "en";
-      const resolvedHref = resolveSiteRoute(product.routeId, targetLocale, route.outputPath).href;
-      assert(html.includes(`href="${resolvedHref}"`), `${route.outputPath} has an incorrect link for ${product.routeId}.`);
-    }
-  }
-}
-
-const sitemap = readOutput("sitemap.xml");
-// MIG-105: this category is fully translated; do not silently reintroduce an
-// English fallback or let a correct image link conceal an incorrect text link.
-const alarmRouteIds = [
-  "product:wet-alarm-check-valve", "product:diaphragm-deluge-valves",
-  "product:preaction-valve-assemblies", "product:dry-pipe-alarm-valves",
-  "product:saddle-type-waterflow-switches"
-];
-const alarmFamily = PRODUCT_FAMILIES.find(family => family.routeId === "category:system-valves");
-assert(JSON.stringify(alarmFamily.products.map(product => product.routeId)) === JSON.stringify(alarmRouteIds),
-  "Alarm category must retain its existing families and the saddle-type waterflow switch in the approved order.");
-for (const locale of SUPPORTED_LOCALES) {
-  const { html, route } = validateListingShell(alarmFamily.routeId, locale);
-  const cards = [...html.matchAll(/<article class="product-card">([\s\S]*?)<\/article>/g)].map(match => match[1]);
-  assert(cards.length === alarmRouteIds.length, "Alarm category card count changed.");
-  alarmRouteIds.forEach((routeId, index) => {
-    assert(SITE_ROUTES[routeId].locales[locale].status === "published", `${routeId}/${locale} must not fall back.`);
-    assert(SITE_ROUTES[routeId].category === alarmFamily.routeId, `${routeId} has the wrong parent category.`);
-    const href = resolveSiteRoute(routeId, locale, route.outputPath).href;
-    const links = [...cards[index].matchAll(/<a\b[^>]*href="([^"]+)"/g)].map(match => match[1]);
-    assert(links.length === 2 && links.every(link => link === href), `${routeId}/${locale}: image and text links must match the localized product.`);
-    assert(cards[index].includes("product-card__badge--localized") && !cards[index].includes("product-card__badge--english"),
-      `${routeId}/${locale} has a stale fallback badge.`);
-  });
-}
-console.log(`Alarm-category validation passed: ${alarmRouteIds.length} families, ${alarmRouteIds.length * SUPPORTED_LOCALES.length} localized cards and ${alarmRouteIds.length * SUPPORTED_LOCALES.length * 2} matching image/text entries.`);
-
-// CATWEB-003: the eight migrated families plus the documented fusible-alloy
-// sample must stay in their locale and preserve the approved directory order.
-const sprinklerIds = [
-  "standard-response-fire-sprinkler", "fusible-alloy-fire-sprinklers", "glass-bulb-fire-sprinkler",
-  "extended-coverage-quick-response-fire-sprinkler", "concealed-pendent-fire-sprinkler",
-  "large-k-factor-esfr-sprinklers", "dry-pendent-fire-sprinklers",
-  "water-mist-nozzles", "water-curtain-nozzles"
-].map(id => `product:${id}`);
-const sprinklerFamily = PRODUCT_FAMILIES.find(family => family.routeId === "category:sprinklers");
-assert(JSON.stringify(sprinklerFamily.products.map(product => product.routeId)) === JSON.stringify(sprinklerIds),
-  "Sprinkler category must retain its existing families plus the fusible-alloy sample in the approved order.");
-for (const locale of SUPPORTED_LOCALES) {
-  const { html, route } = validateListingShell(sprinklerFamily.routeId, locale);
-  const cards = [...html.matchAll(/<article class="product-card">([\s\S]*?)<\/article>/g)].map(match => match[1]);
-  assert(cards.length === sprinklerIds.length, "Sprinkler category card count changed.");
-  sprinklerIds.forEach((id, index) => {
-    assert(SITE_ROUTES[id].locales[locale].status === "published", `${id}/${locale} must not fall back.`);
-    assert(SITE_ROUTES[id].category === sprinklerFamily.routeId, `${id}: wrong parent category.`);
-    const href = resolveSiteRoute(id, locale, route.outputPath).href;
-    const links = [...cards[index].matchAll(/<a\b[^>]*href="([^"]+)"/g)].map(match => match[1]);
-    assert(links.length === 2 && links.every(link => link === href), `${id}/${locale}: mismatched image/text entry.`);
-    assert(cards[index].includes("product-card__badge--localized") && !cards[index].includes("product-card__badge--english"),
-      `${id}/${locale}: stale fallback badge.`);
-  });
-}
-console.log("Sprinkler-category validation passed: nine families, eighteen localized cards and thirty-six matching entries.");
-
-// MIG-305: all four hose reel families are now published in both languages.
-const hoseReelIds = [
-  "product:ria25-fire-hose-reel", "product:straight-stream-fire-hose-reel",
-  "product:jet-spray-fire-hose-reel", "product:heavy-duty-fire-hose-reel"
-];
-const hoseReelFamily = PRODUCT_FAMILIES.find(family => family.routeId === "category:hose-reels");
-assert(JSON.stringify(hoseReelFamily.products.map(product => product.routeId)) === JSON.stringify(hoseReelIds),
-  "Hose reel category must retain its four existing families and their order.");
-for (const locale of SUPPORTED_LOCALES) {
-  const { html, route } = validateListingShell(hoseReelFamily.routeId, locale);
-  const cards = [...html.matchAll(/<article class="product-card">([\s\S]*?)<\/article>/g)].map(match => match[1]);
-  assert(cards.length === hoseReelIds.length, "Hose reel category card count changed.");
-  hoseReelIds.forEach((routeId, index) => {
-    assert(SITE_ROUTES[routeId].locales[locale].status === "published", `${routeId}/${locale} must not fall back.`);
-    assert(SITE_ROUTES[routeId].category === hoseReelFamily.routeId, `${routeId}: wrong parent category.`);
-    const href = resolveSiteRoute(routeId, locale, route.outputPath).href;
-    const links = [...cards[index].matchAll(/<a\b[^>]*href="([^"]+)"/g)].map(match => match[1]);
-    assert(links.length === 2 && links.every(link => link === href), `${routeId}/${locale}: mismatched image/text entry.`);
-    assert(cards[index].includes("product-card__badge--localized") && !cards[index].includes("product-card__badge--english"),
-      `${routeId}/${locale}: stale fallback badge.`);
-  });
-}
-console.log("Hose-reel category validation passed: four families, eight localized cards and sixteen matching entries.");
-
-// MIG-405: all four butterfly valve families are now published in both languages.
-const butterflyValveIds = [
-  "product:lever-operated-grooved-butterfly-valves", "product:lever-operated-wafer-butterfly-valves",
-  "product:grooved-supervisory-butterfly-valves", "product:wafer-supervisory-butterfly-valves"
-];
-const butterflyValveFamily = PRODUCT_FAMILIES.find(family => family.routeId === "category:butterfly-valves");
-assert(JSON.stringify(butterflyValveFamily.products.map(product => product.routeId)) === JSON.stringify(butterflyValveIds),
-  "Butterfly valve category must retain its four existing families and their order.");
-for (const locale of SUPPORTED_LOCALES) {
-  const { html, route } = validateListingShell(butterflyValveFamily.routeId, locale);
-  const cards = [...html.matchAll(/<article class="product-card">([\s\S]*?)<\/article>/g)].map(match => match[1]);
-  assert(cards.length === butterflyValveIds.length, "Butterfly valve category card count changed.");
-  butterflyValveIds.forEach((routeId, index) => {
-    assert(SITE_ROUTES[routeId].locales[locale].status === "published", `${routeId}/${locale} must not fall back.`);
-    assert(SITE_ROUTES[routeId].category === butterflyValveFamily.routeId, `${routeId}: wrong parent category.`);
-    const href = resolveSiteRoute(routeId, locale, route.outputPath).href;
-    const links = [...cards[index].matchAll(/<a\b[^>]*href="([^"]+)"/g)].map(match => match[1]);
-    assert(links.length === 2 && links.every(link => link === href), `${routeId}/${locale}: mismatched image/text entry.`);
-    assert(cards[index].includes("product-card__badge--localized") && !cards[index].includes("product-card__badge--english"),
-      `${routeId}/${locale}: stale fallback badge.`);
-  });
-}
-console.log("Butterfly-valve category validation passed: four families, eight localized cards and sixteen matching entries.");
-
-// MIG-505: all four gate valve families are now published in both languages.
-const gateValveIds = [
-  "product:flanged-supervisory-gate-valves", "product:grooved-supervisory-gate-valves",
-  "product:nrs-gate-valves", "product:osy-gate-valves"
-];
-const gateValveFamily = PRODUCT_FAMILIES.find(family => family.routeId === "category:gate-valves");
-assert(JSON.stringify(gateValveFamily.products.map(product => product.routeId)) === JSON.stringify(gateValveIds),
-  "Gate valve category must retain its four existing families and their order.");
-for (const locale of SUPPORTED_LOCALES) {
-  const { html, route } = validateListingShell(gateValveFamily.routeId, locale);
-  const cards = [...html.matchAll(/<article class="product-card">([\s\S]*?)<\/article>/g)].map(match => match[1]);
-  assert(cards.length === gateValveIds.length, "Gate valve category card count changed.");
-  gateValveIds.forEach((routeId, index) => {
-    assert(SITE_ROUTES[routeId].locales[locale].status === "published", `${routeId}/${locale} must not fall back.`);
-    assert(SITE_ROUTES[routeId].category === gateValveFamily.routeId, `${routeId}: wrong parent category.`);
-    const href = resolveSiteRoute(routeId, locale, route.outputPath).href;
-    const links = [...cards[index].matchAll(/<a\b[^>]*href="([^"]+)"/g)].map(match => match[1]);
-    assert(links.length === 2 && links.every(link => link === href), `${routeId}/${locale}: mismatched image/text entry.`);
-    assert(cards[index].includes("product-card__badge--localized") && !cards[index].includes("product-card__badge--english"),
-      `${routeId}/${locale}: stale fallback badge.`);
-  });
-}
-console.log("Gate-valve category validation passed: four families, eight localized cards and sixteen matching entries.");
-
-// MIG-605: all four indoor hydrant families are now published in both languages.
-const indoorHydrantIds = [
-  "product:standard-indoor-hydrant", "product:export-slanted-hydrant-valve",
-  "product:double-outlet-hydrant", "product:rotating-pressure-regulating-hydrant",
-  "product:straight-through-oblique-landing-valves", "product:horizontal-handwheel-landing-valves"
-];
-const indoorHydrantFamily = PRODUCT_FAMILIES.find(family => family.routeId === "category:indoor-hydrants");
-assert(JSON.stringify(indoorHydrantFamily.products.map(product => product.routeId)) === JSON.stringify(indoorHydrantIds),
-  "Indoor hydrant category must retain its existing families and the added landing-valve series in the approved order.");
-for (const locale of SUPPORTED_LOCALES) {
-  const { html, route } = validateListingShell(indoorHydrantFamily.routeId, locale);
-  const cards = [...html.matchAll(/<article class="product-card">([\s\S]*?)<\/article>/g)].map(match => match[1]);
-  assert(cards.length === indoorHydrantIds.length, "Indoor hydrant category card count changed.");
-  indoorHydrantIds.forEach((routeId, index) => {
-    assert(SITE_ROUTES[routeId].locales[locale].status === "published", `${routeId}/${locale} must not fall back.`);
-    assert(SITE_ROUTES[routeId].category === indoorHydrantFamily.routeId, `${routeId}: wrong parent category.`);
-    const href = resolveSiteRoute(routeId, locale, route.outputPath).href;
-    const links = [...cards[index].matchAll(/<a\b[^>]*href="([^"]+)"/g)].map(match => match[1]);
-    assert(links.length === 2 && links.every(link => link === href), `${routeId}/${locale}: mismatched image/text entry.`);
-    assert(cards[index].includes("product-card__badge--localized") && !cards[index].includes("product-card__badge--english"),
-      `${routeId}/${locale}: stale fallback badge.`);
-  });
-}
-console.log(`Indoor-hydrant category validation passed: ${indoorHydrantIds.length} families, ${indoorHydrantIds.length * SUPPORTED_LOCALES.length} localized cards and ${indoorHydrantIds.length * SUPPORTED_LOCALES.length * 2} matching entries.`);
-
-// MIG-705: all four outdoor hydrant families are now published in both languages.
-const outdoorHydrantIds = [
-  "product:bs750-pillar-hydrant", "product:french-pattern-hydrant",
-  "product:indonesian-pattern-hydrant", "product:russian-pattern-hydrant"
-];
-const outdoorHydrantFamily = PRODUCT_FAMILIES.find(family => family.routeId === "category:outdoor-hydrants");
-assert(JSON.stringify(outdoorHydrantFamily.products.map(product => product.routeId)) === JSON.stringify(outdoorHydrantIds),
-  "Outdoor hydrant category must retain its four existing families and their order.");
-for (const locale of SUPPORTED_LOCALES) {
-  const { html, route } = validateListingShell(outdoorHydrantFamily.routeId, locale);
-  const cards = [...html.matchAll(/<article class="product-card">([\s\S]*?)<\/article>/g)].map(match => match[1]);
-  assert(cards.length === outdoorHydrantIds.length, "Outdoor hydrant category card count changed.");
-  outdoorHydrantIds.forEach((routeId, index) => {
-    assert(SITE_ROUTES[routeId].locales[locale].status === "published", `${routeId}/${locale} must not fall back.`);
-    assert(SITE_ROUTES[routeId].category === outdoorHydrantFamily.routeId, `${routeId}: wrong parent category.`);
-    const href = resolveSiteRoute(routeId, locale, route.outputPath).href;
-    const links = [...cards[index].matchAll(/<a\b[^>]*href="([^"]+)"/g)].map(match => match[1]);
-    assert(links.length === 2 && links.every(link => link === href), `${routeId}/${locale}: mismatched image/text entry.`);
-    assert(cards[index].includes("product-card__badge--localized") && !cards[index].includes("product-card__badge--english"),
-      `${routeId}/${locale}: stale fallback badge.`);
-  });
-}
-console.log("Outdoor-hydrant category validation passed: four families, eight localized cards and sixteen matching entries.");
-
-// MIG-801 / CATWEB-011–012: preserve the original five families and append the new nozzle families.
-const hoseLineIds = [
-  "product:combination-jet-fog-nozzles", "product:layflat-fire-hoses",
-  "product:kd-hose-couplings", "product:kn-threaded-adapters",
-  "product:matched-hose-assemblies", "product:straight-stream-fire-hose-nozzles",
-  "product:lever-operated-fire-hose-nozzles"
-];
-const hoseLineFamily = PRODUCT_FAMILIES.find(family => family.routeId === "category:hoses-nozzles-couplings");
-assert(JSON.stringify(hoseLineFamily.products.map(product => product.routeId)) === JSON.stringify(hoseLineIds),
-  "Hose/nozzle/coupling category must retain its original families in order and append approved additions.");
-for (const locale of SUPPORTED_LOCALES) {
-  const { html, route } = validateListingShell(hoseLineFamily.routeId, locale);
-  const cards = [...html.matchAll(/<article class="product-card">([\s\S]*?)<\/article>/g)].map(match => match[1]);
-  assert(cards.length === hoseLineIds.length, "Hose/nozzle/coupling category card count changed.");
-  hoseLineIds.forEach((routeId, index) => {
-    assert(SITE_ROUTES[routeId].locales[locale].status === "published", `${routeId}/${locale} must not fall back.`);
-    assert(SITE_ROUTES[routeId].category === hoseLineFamily.routeId, `${routeId}: wrong parent category.`);
-    const href = resolveSiteRoute(routeId, locale, route.outputPath).href;
-    const links = [...cards[index].matchAll(/<a\b[^>]*href="([^"]+)"/g)].map(match => match[1]);
-    assert(links.length === 2 && links.every(link => link === href), `${routeId}/${locale}: mismatched image/text entry.`);
-    assert(cards[index].includes("product-card__badge--localized") && !cards[index].includes("product-card__badge--english"),
-      `${routeId}/${locale}: stale fallback badge.`);
-  });
-}
-console.log(`Hose/nozzle/coupling category validation passed: ${hoseLineIds.length} families, ${hoseLineIds.length * 2} localized cards and ${hoseLineIds.length * 4} matching entries.`);
-
-// CATWEB-009: the existing FDC families remain in order and the breeching-inlet family is appended.
-const fdcIds = [
-  "product:freestanding-above-ground-fdcs", "product:alternative-freestanding-fdc-configurations",
-  "product:underground-fdc-assemblies", "product:wall-mounted-grooved-fdc-families",
-  "product:breeching-inlets", "product:russian-pattern-fire-department-connection"
-];
-const fdcFamily = PRODUCT_FAMILIES.find(family => family.routeId === "category:fire-department-connections");
-assert(JSON.stringify(fdcFamily.products.map(product => product.routeId)) === JSON.stringify(fdcIds),
-  "FDC category must retain its existing families and append the confirmed new connection families.");
-for (const locale of SUPPORTED_LOCALES) {
-  const { html, route } = validateListingShell(fdcFamily.routeId, locale);
-  const cards = [...html.matchAll(/<article class="product-card">([\s\S]*?)<\/article>/g)].map(match => match[1]);
-  assert(cards.length === fdcIds.length, "FDC category card count changed.");
-  fdcIds.forEach((routeId, index) => {
-    assert(SITE_ROUTES[routeId].locales[locale].status === "published", `${routeId}/${locale} must not fall back.`);
-    assert(SITE_ROUTES[routeId].category === fdcFamily.routeId, `${routeId}: wrong parent category.`);
-    const href = resolveSiteRoute(routeId, locale, route.outputPath).href;
-    const links = [...cards[index].matchAll(/<a\b[^>]*href="([^"]+)"/g)].map(match => match[1]);
-    assert(links.length === 2 && links.every(link => link === href), `${routeId}/${locale}: mismatched image/text entry.`);
-    assert(cards[index].includes("product-card__badge--localized") && !cards[index].includes("product-card__badge--english"),
-      `${routeId}/${locale}: stale fallback badge.`);
-  });
-}
-console.log(`FDC category validation passed: ${fdcIds.length} families, ${fdcIds.length * SUPPORTED_LOCALES.length} localized cards and ${fdcIds.length * SUPPORTED_LOCALES.length * 2} matching entries.`);
-
+const sitemap = readOutput('sitemap.xml');
 assert(sitemap.includes("GENERATED FILE"), "Sitemap is not generated from the shared route registry.");
 for (const [routeId, route] of Object.entries(SITE_ROUTES)) {
   for (const locale of SUPPORTED_LOCALES) {
