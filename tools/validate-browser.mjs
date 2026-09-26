@@ -11,6 +11,7 @@ import { validateSystemValveNavigation } from "./browser-system-valves.mjs";
 import { validateStandardResponse } from "./browser-standard-response.mjs";
 
 const root = process.cwd();
+const analyticsOnly = process.argv.includes("--analytics");
 const productArgument = process.argv.find(argument => argument.startsWith('--product='));
 const productsArgument = process.argv.find(argument => argument.startsWith('--products='));
 const focusedSlugs = productArgument
@@ -61,7 +62,11 @@ function createStaticServer() {
       return;
     }
     response.writeHead(200, { "content-type": contentType(candidate), "cache-control": "no-store" });
-    fs.createReadStream(candidate).pipe(response);
+    if (analyticsOnly && path.extname(candidate).toLowerCase() === ".html") {
+      response.end(fs.readFileSync(candidate, "utf8").replace('data-ga4-id=""', 'data-ga4-id="G-ANALYTICSTEST"'));
+    } else {
+      fs.createReadStream(candidate).pipe(response);
+    }
   });
 }
 
@@ -219,6 +224,71 @@ async function inspectPage(client) {
   })()`);
 }
 
+async function validateAnalyticsConsent(client, origin) {
+  await client.send("Network.enable");
+  await client.send("Network.setBlockedURLs", { urls: ["*googletagmanager.com/*", "*google-analytics.com/*"] });
+  await navigate(client, `${origin}/index.html`, "/index.html");
+  let state = await evaluate(client, `({panel:!document.querySelector('.analytics-consent').hidden, tag:!!document.querySelector('[data-ga4-tag]'), choice:localStorage.getItem('chuanweifire.analytics-consent.v1')})`);
+  assert(state.panel && !state.tag && state.choice === null, `Initial analytics consent state is wrong: ${JSON.stringify(state)}`);
+
+  await evaluate(client, `document.querySelector('.analytics-consent__reject').click()`);
+  state = await evaluate(client, `({panel:!document.querySelector('.analytics-consent').hidden, tag:!!document.querySelector('[data-ga4-tag]'), choice:localStorage.getItem('chuanweifire.analytics-consent.v1')})`);
+  assert(!state.panel && !state.tag && state.choice === "rejected", `Rejected analytics state is wrong: ${JSON.stringify(state)}`);
+
+  await evaluate(client, `document.querySelector('.analytics-settings').click();document.querySelector('.analytics-consent__accept').click()`);
+  state = await evaluate(client, `({panel:!document.querySelector('.analytics-consent').hidden, tag:!!document.querySelector('[data-ga4-tag]'), choice:localStorage.getItem('chuanweifire.analytics-consent.v1'), config:dataLayer.find(item=>item[0]==='config')?.[2]})`);
+  assert(!state.panel && state.tag && state.choice === "accepted" && state.config.page_location === `${origin}/index.html`, `Accepted analytics state is wrong: ${JSON.stringify(state)}`);
+
+  const events = await evaluate(client, `(() => {
+    for (const href of ['https://wa.me/', 'mailto:']) {
+      const link=[...document.querySelectorAll('a[href]')].find(a=>a.href.startsWith(href));
+      if (!link) throw new Error('Missing test link: '+href);
+      link.addEventListener('click', event=>event.preventDefault(), {once:true});link.click();
+    }
+    const form=document.querySelector('#homeInquiry');
+    form.elements.name.value='Private Name';form.elements.details.value='Private Requirement';
+    window.open=()=>null;
+    form.dispatchEvent(new Event('submit',{bubbles:true,cancelable:true}));
+    return dataLayer.filter(item=>item[0]==='event').map(item=>({name:item[1],parameters:item[2]}));
+  })()`);
+  assert(JSON.stringify(events.map(item=>item.name)) === JSON.stringify(["whatsapp_click", "email_click", "inquiry_form_to_whatsapp"]), `Inquiry event names are wrong: ${JSON.stringify(events)}`);
+  assert(events.every(item=>!JSON.stringify(item).includes("Private")), "An analytics event contains inquiry form information.");
+  assert(events[2].parameters.product_family === "category:sprinklers", `Home inquiry lost its selected product family: ${JSON.stringify(events[2])}`);
+
+  await navigate(client, `${origin}/contact.html`, "/contact.html");
+  const contactEvent = await evaluate(client, `(() => {
+    const form=document.querySelector('[data-inquiry-form]');
+    form.elements.product.value='Fire Hose Reels';form.elements.name.value='Private Name';form.elements.details.value='Private Requirement';
+    window.open=()=>null;
+    form.dispatchEvent(new Event('submit',{bubbles:true,cancelable:true}));
+    return dataLayer.filter(item=>item[0]==='event').map(item=>({name:item[1],parameters:item[2]}));
+  })()`);
+  assert(contactEvent.length === 1 && contactEvent[0].name === "inquiry_form_to_whatsapp" && contactEvent[0].parameters.product_family === "category:hose-reels" && !JSON.stringify(contactEvent).includes("Private"), `Contact inquiry analytics data is wrong: ${JSON.stringify(contactEvent)}`);
+
+  await navigate(client, `${origin}/downloads.html`, "/downloads.html");
+  const catalog = await evaluate(client, `(() => {const link=document.querySelector('[data-catalog-request]');link.addEventListener('click',event=>event.preventDefault(),{once:true});link.click();return dataLayer.filter(item=>item[0]==='event').map(item=>item[1]);})()`);
+  assert(JSON.stringify(catalog) === JSON.stringify(["catalog_request_click"]), `Catalog event names are wrong: ${JSON.stringify(catalog)}`);
+
+  await navigate(client, `${origin}/products/%E6%B6%88%E9%98%B2%E5%96%B7%E5%A4%B4/standard-response-fire-sprinkler.html?private=secret`, "/products/消防喷头/standard-response-fire-sprinkler.html");
+  state = await evaluate(client, `({config:dataLayer.find(item=>item[0]==='config')?.[2],family:document.querySelector('script[data-ga4-id]').dataset.productFamily})`);
+  assert(state.family === "category:sprinklers" && !JSON.stringify(state.config).includes("secret"), `Product analytics metadata is wrong: ${JSON.stringify(state)}`);
+
+  await evaluate(client, `document.querySelector('.analytics-settings').click();document.querySelector('.analytics-consent__reject').click()`);
+  for (let attempt = 0; attempt < 100; attempt += 1) {
+    state = await evaluate(client, `({ready:document.readyState,choice:localStorage.getItem('chuanweifire.analytics-consent.v1'),tag:!!document.querySelector('[data-ga4-tag]')})`);
+    if (state.ready === "complete" && state.choice === "rejected" && !state.tag) break;
+    await delay(50);
+  }
+  assert(state.ready === "complete" && state.choice === "rejected" && !state.tag, `Withdrawn consent did not stop analytics: ${JSON.stringify(state)}`);
+
+  await client.send("Emulation.setDeviceMetricsOverride", {width:390,height:844,deviceScaleFactor:1,mobile:true});
+  await evaluate(client, `localStorage.removeItem('chuanweifire.analytics-consent.v1')`);
+  await navigate(client, `${origin}/ar/index.html`, "/ar/index.html");
+  state = await evaluate(client, `({dir:document.querySelector('.analytics-consent').dir,panel:!document.querySelector('.analytics-consent').hidden,overflow:document.documentElement.scrollWidth-document.documentElement.clientWidth})`);
+  assert(state.dir === "rtl" && state.panel && state.overflow <= 1, `Arabic mobile analytics consent is wrong: ${JSON.stringify(state)}`);
+  console.log("Analytics browser validation passed: reject, accept, four sanitized events, withdrawal and Arabic mobile layout.");
+}
+
 const pages = [
   { id: "quick-response-en", path: "/products/消防喷头/glass-bulb-fire-sprinkler.html", lang: "en", dir: "ltr", marker: "Glass Bulb" },
   { id: "quick-response-ar", path: "/ar/products/glass-bulb-fire-sprinkler/index.html", lang: "ar", dir: "rtl", marker: "زجاجي" },
@@ -322,6 +392,10 @@ async function run() {
     const origin = process.argv.includes("--file-preview")
       ? pathToFileURL(root).href
       : `http://127.0.0.1:${sitePort}`;
+    if (analyticsOnly) {
+      await validateAnalyticsConsent(client, origin);
+      return;
+    }
     const matrix = [];
 
     if (focusedProducts.length) {

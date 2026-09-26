@@ -9,8 +9,7 @@ eleventyExcludeFromCollections: true
     <loc>{{ entry.canonical }}</loc>
 {% for lang, href in entry.alternates %}    <xhtml:link rel="alternate" hreflang="{{ lang }}" href="{{ href }}" />
 {% endfor %}{% if entry.xDefault %}    <xhtml:link rel="alternate" hreflang="x-default" href="{{ entry.xDefault }}" />
-{% endif %}    <lastmod>2026-09-04</lastmod>
-    <changefreq>monthly</changefreq>
+{% endif %}
     <priority>{{ entry.priority }}</priority>
   </url>
 {% endfor %}</urlset>

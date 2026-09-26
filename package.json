@@ -5,9 +5,10 @@
   "type": "module",
   "scripts": {
     "validate": "node tools/validate-routes.mjs && node tools/validate-catalog.mjs",
-    "build": "npm run validate && node tools/run-eleventy.mjs && node tools/normalize-legacy-seo.mjs && node tools/normalize-legacy-navigation.mjs && npm run validate:seo && npm run validate:navigation && node tools/validate-generated.mjs && node tools/validate-preserved-products.mjs && node tools/validate-catalog-products.mjs && node tools/validate-documented-products.mjs && node tools/validate-listings.mjs && node tools/validate-public-pages.mjs && npm run validate:static-release",
+    "build": "npm run validate && node tools/run-eleventy.mjs && node tools/normalize-legacy-seo.mjs && node tools/normalize-legacy-navigation.mjs && node tools/normalize-analytics.mjs && npm run validate:seo && npm run validate:analytics && npm run validate:navigation && node tools/validate-generated.mjs && node tools/validate-preserved-products.mjs && node tools/validate-catalog-products.mjs && node tools/validate-documented-products.mjs && node tools/validate-listings.mjs && node tools/validate-public-pages.mjs && npm run validate:static-release",
     "validate:preserved": "node tools/validate-preserved-products.mjs",
     "validate:seo": "node tools/validate-seo.mjs",
+    "validate:analytics": "node tools/validate-analytics.mjs",
     "validate:navigation": "node tools/validate-navigation.mjs",
     "validate:browser": "node tools/validate-browser.mjs",
     "validate:static-release": "node tools/validate-static-release.mjs",

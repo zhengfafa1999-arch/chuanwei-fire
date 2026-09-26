@@ -69,7 +69,9 @@ for (const entry of catalog) {
     assert.deepEqual(bodies.map(([, rows]) => (rows.match(/<tr>/g) || []).length), entry.product.modelGroups.map(group => group.length), 'Model group row counts changed');
   }
   if (entry.lang === "en") {
-    const styles = html => [...html.matchAll(/<link\b[^>]*rel="stylesheet"[^>]*href="([^"]+)"/g)].map(([, href]) => href);
+    const styles = html => [...html.matchAll(/<link\b[^>]*rel="stylesheet"[^>]*href="([^"]+)"/g)]
+      .map(([, href]) => href)
+      .filter((href) => !href.endsWith("/css/analytics-consent.css"));
     assert.deepEqual(styles(output), styles(read(baselineFile)), "English stylesheets changed during language-only migration");
     // Shared navigation now includes the approved product menu. Product sections,
     // footer and social order remain covered; navigation has its own validator.

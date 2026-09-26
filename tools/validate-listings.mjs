@@ -2,6 +2,7 @@ import {thumbnailFor} from '../site-src/_data/catalogThumbnails.js';
 import fs from "node:fs";
 import path from "node:path";
 import { PRODUCT_FAMILIES, flatProducts, productSuffix, localizedText } from "../site-src/_data/productDirectory.js";
+import { CATEGORY_SEO_FOCUS } from "../site-src/_data/categorySeoFocus.js";
 import {
   SITE_ROUTES,
   SUPPORTED_LOCALES,
@@ -66,6 +67,14 @@ for (const locale of SUPPORTED_LOCALES) {
   assert((directory.html.match(/data-search=/g)||[]).length === PRODUCT_FAMILIES.reduce((n,f)=>n+flatProducts(f).length,0), 'Flat directory count mismatch');
   for (const family of PRODUCT_FAMILIES) {
     const category = validateListingShell(family.routeId, locale);
+    const focus = CATEGORY_SEO_FOCUS[family.routeId]?.[locale];
+    if (focus) {
+      const focusHref = resolveSiteRoute(CATEGORY_SEO_FOCUS[family.routeId].focusProduct, locale, category.route.outputPath).href;
+      assert(category.html.includes('class="catalog-section catalog-focus"'), `${family.id}: buyer guide is missing`);
+      assert(containsRenderedText(category.html, focus.title) && containsRenderedText(category.html, focus.guideTitle), `${family.id}: focused SEO copy is missing`);
+      for (const item of focus.guideItems) assert(containsRenderedText(category.html, item), `${family.id}: buyer guidance is missing`);
+      assert(category.html.includes(`href="${focusHref}"`), `${family.id}: focused product link is missing`);
+    }
     const cards=[...category.html.matchAll(/<article class="product-card">([\s\S]*?)<\/article>/g)].map(m=>m[1]);
     const products=flatProducts(family);
     assert(cards.length === products.length, `${family.id}: flat category count mismatch`);
