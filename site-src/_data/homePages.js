@@ -2,9 +2,24 @@ import { createHomeRoute } from "./siteRoutes.js";
 import { createSeoMetadata } from "./seo.js";
 import { createSiteNavigation } from "./navigation.js";
 import { PRODUCT_FAMILIES, localizedText } from "./productDirectory.js";
+import { versionedProductImage } from '../lib/public-asset-versions.js';
 import chinese from "./homeChinese.js";
+import { qualificationDocuments } from '../lib/qualification-documents.js';
+import { projectReferences } from '../lib/project-references.js';
 
 const arabic = {
+  "Fire Sprinklers & System Components": "رشاشات الحريق ومكونات الأنظمة",
+  "Sprinklers, valves and fire-water-system components for distributors, trading partners and private-label orders.": "رشاشات وصمامات ومكونات أنظمة مياه مكافحة الحريق للموزعين والشركاء التجاريين وطلبات العلامة الخاصة.",
+  "Request a Quote": "اطلب عرض سعر",
+  "Catalog & Data Sheets": "الكتالوج وأوراق البيانات",
+  "Start with fire sprinklers, or browse valves, hose reels and hydrant-system components.": "ابدأ برشاشات الحريق أو استعرض الصمامات وبكرات الخراطيم ومكونات أنظمة صنابير الحريق.",
+  "Send a drawing, sample or technical schedule to review the required thread, flange or grooved connection.": "أرسل رسماً أو عينة أو جدولاً فنياً لمراجعة التوصيل الملولب أو الفلنجي أو المحزّز المطلوب.",
+  "See our machining, production and order preparation.": "اطّلع على التشغيل والإنتاج وتجهيز الطلبات.",
+  "Start with your name or company and the product you need. Add sizes, quantities, destination or drawings when available.": "ابدأ باسمك أو شركتك والمنتج المطلوب. أضف المقاسات والكميات والوجهة أو الرسومات عند توفرها.",
+  "Select a product": "اختر منتجاً",
+  "Open Email Draft": "فتح مسودة بريد إلكتروني",
+  "Review and send your message in WhatsApp or your email app. If an app does not open, copy the inquiry text below and email zhengcolin1@gmail.com.": "راجع الرسالة وأرسلها في WhatsApp أو تطبيق البريد. إذا لم يفتح التطبيق، انسخ نص الاستفسار أدناه وأرسله إلى zhengcolin1@gmail.com.",
+
   "Fire protection equipment": "تصنيع معدات مكافحة الحريق",
   "Products": "المنتجات",
   "About": "من نحن",
@@ -68,7 +83,7 @@ const arabic = {
   "Manufacturing Base": "قاعدة التصنيع",
   "Fire-protection equipment production in Nan'an, Quanzhou, Fujian, China.": "إنتاج معدات مكافحة الحريق في نانآن، تشيوانتشو، فوجيان، الصين.",
   "Configuration first. Production after confirmation.": "نؤكد التكوين أولاً، ثم نبدأ الإنتاج.",
-  "We can review product marking, nameplates, carton artwork, selected finishes and component combinations. Thread, flange and grooved requirements are confirmed from drawings, samples or technical schedules—not assumed from machine capability.": "يمكننا مراجعة وسم المنتج ولوحة البيانات وتصميم العبوة والتشطيبات المختارة وتركيبات المكونات. تُؤكد متطلبات اللولب والفلنجة والمجرى من الرسم أو العينة أو الجدول الفني.",
+  "We can review product marking, nameplates, carton artwork, selected finishes and component combinations. Share your drawing, sample or technical schedule for thread, flange and grooved connection requirements.": "يمكننا مراجعة وسم المنتج ولوحة البيانات وتصميم العبوة والتشطيبات المختارة وتركيبات المكونات. تُؤكد متطلبات اللولب والفلنجة والمجرى من الرسم أو العينة أو الجدول الفني.",
   "Product marking & nameplate": "وسم المنتج ولوحة البيانات",
   "Carton artwork & labels": "تصميم الكرتون والملصقات",
   "Component matching": "مطابقة المكونات",
@@ -78,10 +93,8 @@ const arabic = {
   "Custom carton — illustrative option": "كرتون مخصص — خيار توضيحي",
   "Wooden case — illustrative option": "صندوق خشبي — خيار توضيحي",
   "Packaging visuals show possible formats only. Final packaging is confirmed by product, order and transport requirement.": "تعرض صور التعبئة أشكالاً محتملة فقط، وتُؤكد التعبئة النهائية حسب المنتج والطلب ومتطلبات النقل.",
-  "Verified management systems": "أنظمة إدارة موثقة",
-  "Certificate details shown with holder and scope.": "تفاصيل الشهادات مع حامل الشهادة ونطاقها.",
-  "These are management-system certificates, not UL, FM, CE or overseas product approvals. Product-specific domestic reports and certificate applicability are confirmed separately.": "هذه شهادات أنظمة إدارة وليست اعتمادات منتجات UL أو FM أو CE. تُؤكد تقارير المنتجات المحلية ونطاق تطبيق الشهادة بشكل منفصل.",
-  "Certificate holder shown on the documents: GUANYA FIRE-PROTECTION EQUIPMENT CO., LTD. Scope shown on the documents covers production of fire hydrants, sprinkler tips, fire hose reels and fire pump adapters, plus sales of fire hose.": "حامل الشهادة الظاهر في الوثائق هو GUANYA FIRE-PROTECTION EQUIPMENT CO., LTD. ويشمل النطاق إنتاج صنابير الحريق ورؤوس الرش وبكرات الخراطيم ووصلات مضخات الحريق وبيع خراطيم الحريق.",
+  "Management-system certificates": "شهادات أنظمة الإدارة",
+  "Click a certificate to view the full document.": "اضغط على الشهادة لعرض الوثيقة كاملة.",
   "Certificate no.": "رقم الشهادة",
   "Recertification": "إعادة الاعتماد",
   "Initial issuance": "الإصدار الأول",
@@ -90,7 +103,7 @@ const arabic = {
   "Environmental management system. Click to view the supplied certificate.": "نظام الإدارة البيئية. انقر لعرض الشهادة المقدمة.",
   "Occupational health and safety management system. Click to view the supplied certificate.": "نظام إدارة الصحة والسلامة المهنية. انقر لعرض الشهادة المقدمة.",
   "Technical & commercial inquiry": "استفسار فني وتجاري",
-  "Send the product, size and target requirement.": "أرسل المنتج والمقاس والمتطلبات المستهدفة.",
+  "Start with the product you need.": "ابدأ بالمنتج الذي تحتاجه.",
   "For a useful review, include product family, quantity, destination, required connection or drawing, packaging request and any approval requirement.": "لإجراء مراجعة مفيدة، أرسل فئة المنتج والكمية والوجهة والتوصيل أو الرسم المطلوب ومتطلبات التعبئة وأي متطلبات اعتماد.",
   "Nan'an, Quanzhou, Fujian, China": "نانآن، تشيوانتشو، فوجيان، الصين",
   "Name / company": "الاسم / الشركة",
@@ -183,12 +196,14 @@ export default pages.map((page) => {
     name: localizedText(family.name, page.languageCode),
     englishName: family.name.en,
     description: localizedText(family.description, page.languageCode),
-    image: `${page.assetPrefix}${family.image}`,
+    image: versionedProductImage(family.image, `${page.assetPrefix}${family.image}`),
     href: `${navigation.productsHref}?q=&category=${family.id}`
   }));
 
   return {
     ...page,
+    projects: projectReferences(page.languageCode, page.assetPrefix, page.outputPath),
+    patents: qualificationDocuments(page.languageCode, page.assetPrefix, { featured: true, allHref: `${navigation.primaryItems.find(item => item.id === 'downloads').href}#patents` }),
     families,
     form: {
       ...page.form,

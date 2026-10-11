@@ -1,0 +1,188 @@
+{
+  "date": "2026-10-10",
+  "authorization": "这几个加到隐蔽所的图片里面，底部的图片",
+  "placement": "Append to existing two photographs in bottom Product photographs section; primary gallery and technical tables unchanged",
+  "ratingScope": "Marked temperature is the sprinkler rating, not the cover release temperature; no cover temperature pairing asserted",
+  "photos": [
+    {
+      "routeId": "product:concealed-pendent-fire-sprinkler",
+      "sourceFile": "concealed-k80-93c-exposed.jpg",
+      "sourcePath": "D:\\code\\ai-code\\docs\\release\\concealed-photos-20261010\\source\\concealed-k80-93c-exposed.jpg",
+      "caption": {
+        "en": "Concealed K80 / 93°C sprinkler — exposed mechanism",
+        "ar": "رشاش مخفي K80 / 93°C — الآلية دون الغطاء"
+      },
+      "matchEvidence": "User supplied attachment 1 and explicitly requested addition to the concealed-sprinkler bottom photograph section on 2026-10-10. Visible ZSTDY80-93°C Q5A marking identifies the sprinkler sample within the existing K80/K115 and temperature selection range. Temperature describes the sprinkler rating, not cover release temperature; no matched cover activation rating, exact thread, pressure or foreign approval inferred.",
+      "sourceSha256": "1b788825423026d9dc531b9bd75c13ef132984b217af5abb80ed0ce563d3fc06",
+      "sourceBytes": 433951,
+      "sourceWidth": 861,
+      "sourceHeight": 1274,
+      "display": {
+        "path": "assets/products/guanya-2026/concealed-pendent-fire-sprinkler-concealed-k80-93c-exposed-640.webp",
+        "width": 433,
+        "height": 640,
+        "bytes": 36924,
+        "sha256": "f6583ffb665b2c46fb3b43e155eea582958098061dc66280844e1d7c41866541",
+        "quality": 85
+      },
+      "detail": {
+        "path": "assets/products/guanya-2026/concealed-pendent-fire-sprinkler-concealed-k80-93c-exposed-1600.webp",
+        "width": 861,
+        "height": 1274,
+        "bytes": 94542,
+        "sha256": "8338fccbdfd5b9ae97d731acdf99cbed9377d12a2795d34938a5d5f20b643c68",
+        "quality": 85
+      }
+    },
+    {
+      "routeId": "product:concealed-pendent-fire-sprinkler",
+      "sourceFile": "concealed-k80-93c-covered.jpg",
+      "sourcePath": "D:\\code\\ai-code\\docs\\release\\concealed-photos-20261010\\source\\concealed-k80-93c-covered.jpg",
+      "caption": {
+        "en": "Concealed K80 / 93°C sprinkler — cover fitted",
+        "ar": "رشاش مخفي K80 / 93°C — الغطاء مركب"
+      },
+      "matchEvidence": "User supplied attachment 2 and explicitly requested addition to the concealed-sprinkler bottom photograph section on 2026-10-10. Visible ZSTDY80-93°C Q5A marking identifies the sprinkler sample within the existing K80/K115 and temperature selection range. Temperature describes the sprinkler rating, not cover release temperature; no matched cover activation rating, exact thread, pressure or foreign approval inferred.",
+      "sourceSha256": "e2dd07e56e9f3e69e578a36d040be7777e6859c3d23c430e0a4d352b5a5d991d",
+      "sourceBytes": 696908,
+      "sourceWidth": 1737,
+      "sourceHeight": 1493,
+      "display": {
+        "path": "assets/products/guanya-2026/concealed-pendent-fire-sprinkler-concealed-k80-93c-covered-640.webp",
+        "width": 640,
+        "height": 550,
+        "bytes": 21514,
+        "sha256": "0c5bc7efcbc8978173feb356909450d63e5eb69f9d770b2dcfe8db0928a0327a",
+        "quality": 85
+      },
+      "detail": {
+        "path": "assets/products/guanya-2026/concealed-pendent-fire-sprinkler-concealed-k80-93c-covered-1600.webp",
+        "width": 1600,
+        "height": 1375,
+        "bytes": 69008,
+        "sha256": "c68147ea6e9b8437f0c6d16bb2535eb6ae354a9bef17ec63d7e8d36fdfb9e090",
+        "quality": 85
+      }
+    },
+    {
+      "routeId": "product:concealed-pendent-fire-sprinkler",
+      "sourceFile": "concealed-k115-57c-exposed.jpg",
+      "sourcePath": "D:\\code\\ai-code\\docs\\release\\concealed-photos-20261010\\source\\concealed-k115-57c-exposed.jpg",
+      "caption": {
+        "en": "Concealed K115 / 57°C sprinkler — exposed mechanism",
+        "ar": "رشاش مخفي K115 / 57°C — الآلية دون الغطاء"
+      },
+      "matchEvidence": "User supplied attachment 3 and explicitly requested addition to the concealed-sprinkler bottom photograph section on 2026-10-10. Visible ZSTDY115-57°C Q5A marking identifies the sprinkler sample within the existing K80/K115 and temperature selection range. Temperature describes the sprinkler rating, not cover release temperature; no matched cover activation rating, exact thread, pressure or foreign approval inferred.",
+      "sourceSha256": "2a01994d537c053af9eedf804016875269861d573b9d15705e625fab899f70ed",
+      "sourceBytes": 571144,
+      "sourceWidth": 945,
+      "sourceHeight": 1375,
+      "display": {
+        "path": "assets/products/guanya-2026/concealed-pendent-fire-sprinkler-concealed-k115-57c-exposed-640.webp",
+        "width": 440,
+        "height": 640,
+        "bytes": 45878,
+        "sha256": "05ee935ae0244c6eb7a0a9a49eb7e89d76e9048beba03e52e80cbec4e0b37e37",
+        "quality": 85
+      },
+      "detail": {
+        "path": "assets/products/guanya-2026/concealed-pendent-fire-sprinkler-concealed-k115-57c-exposed-1600.webp",
+        "width": 945,
+        "height": 1375,
+        "bytes": 138130,
+        "sha256": "f2455aa7035fffe8ef5a06ede1e82873d532cc31fa2773f8b52252f61df8e38f",
+        "quality": 85
+      }
+    },
+    {
+      "routeId": "product:concealed-pendent-fire-sprinkler",
+      "sourceFile": "concealed-k115-57c-covered.jpg",
+      "sourcePath": "D:\\code\\ai-code\\docs\\release\\concealed-photos-20261010\\source\\concealed-k115-57c-covered.jpg",
+      "caption": {
+        "en": "Concealed K115 / 57°C sprinkler — cover fitted",
+        "ar": "رشاش مخفي K115 / 57°C — الغطاء مركب"
+      },
+      "matchEvidence": "User supplied attachment 4 and explicitly requested addition to the concealed-sprinkler bottom photograph section on 2026-10-10. Visible ZSTDY115-57°C Q5A marking identifies the sprinkler sample within the existing K80/K115 and temperature selection range. Temperature describes the sprinkler rating, not cover release temperature; no matched cover activation rating, exact thread, pressure or foreign approval inferred.",
+      "sourceSha256": "fe999ccfbfd90e3be877b912e0980eea3441c15e944a54b04b4e226c3c7ea614",
+      "sourceBytes": 707888,
+      "sourceWidth": 1721,
+      "sourceHeight": 1426,
+      "display": {
+        "path": "assets/products/guanya-2026/concealed-pendent-fire-sprinkler-concealed-k115-57c-covered-640.webp",
+        "width": 640,
+        "height": 530,
+        "bytes": 22502,
+        "sha256": "ea92d0c33ed7163113b1c5d191154d56ed0aa7d2f61d89d103855c4908c38c71",
+        "quality": 85
+      },
+      "detail": {
+        "path": "assets/products/guanya-2026/concealed-pendent-fire-sprinkler-concealed-k115-57c-covered-1600.webp",
+        "width": 1600,
+        "height": 1326,
+        "bytes": 70128,
+        "sha256": "26d955693e380544312feacdbbcb0c1774fdef73c3a4ceadafb6f9cd3fcbc1d7",
+        "quality": 85
+      }
+    },
+    {
+      "routeId": "product:concealed-pendent-fire-sprinkler",
+      "sourceFile": "concealed-k80-141c-exposed.jpg",
+      "sourcePath": "D:\\code\\ai-code\\docs\\release\\concealed-photos-20261010\\source\\concealed-k80-141c-exposed.jpg",
+      "caption": {
+        "en": "Concealed K80 / 141°C sprinkler — exposed mechanism",
+        "ar": "رشاش مخفي K80 / 141°C — الآلية دون الغطاء"
+      },
+      "matchEvidence": "User supplied attachment 6 and explicitly requested addition to the concealed-sprinkler bottom photograph section on 2026-10-10. Visible ZSTDY80-141°C Q5A marking identifies the sprinkler sample within the existing K80/K115 and temperature selection range. Temperature describes the sprinkler rating, not cover release temperature; no matched cover activation rating, exact thread, pressure or foreign approval inferred.",
+      "sourceSha256": "09d0d9635259d127792f745a756e5429d76263c073502a231f8fc1a030b6b950",
+      "sourceBytes": 472832,
+      "sourceWidth": 861,
+      "sourceHeight": 1274,
+      "display": {
+        "path": "assets/products/guanya-2026/concealed-pendent-fire-sprinkler-concealed-k80-141c-exposed-640.webp",
+        "width": 433,
+        "height": 640,
+        "bytes": 41026,
+        "sha256": "08f6acdfe7a5778543c8328bc783e9135a5ef426506021d9b128fd406f16d81e",
+        "quality": 85
+      },
+      "detail": {
+        "path": "assets/products/guanya-2026/concealed-pendent-fire-sprinkler-concealed-k80-141c-exposed-1600.webp",
+        "width": 861,
+        "height": 1274,
+        "bytes": 108288,
+        "sha256": "f31b27efe6482413dd14b64197fd2056402e8fbcd1c87c545f6a8860997e5303",
+        "quality": 85
+      }
+    },
+    {
+      "routeId": "product:concealed-pendent-fire-sprinkler",
+      "sourceFile": "concealed-k80-141c-covered.jpg",
+      "sourcePath": "D:\\code\\ai-code\\docs\\release\\concealed-photos-20261010\\source\\concealed-k80-141c-covered.jpg",
+      "caption": {
+        "en": "Concealed K80 / 141°C sprinkler — cover fitted",
+        "ar": "رشاش مخفي K80 / 141°C — الغطاء مركب"
+      },
+      "matchEvidence": "User supplied attachment 5 and explicitly requested addition to the concealed-sprinkler bottom photograph section on 2026-10-10. Visible ZSTDY80-141°C Q5A marking identifies the sprinkler sample within the existing K80/K115 and temperature selection range. Temperature describes the sprinkler rating, not cover release temperature; no matched cover activation rating, exact thread, pressure or foreign approval inferred.",
+      "sourceSha256": "33c58774b26d585f4db8eeb6809bdffd94b61b729838234184bcd91b2ba8617b",
+      "sourceBytes": 693282,
+      "sourceWidth": 1721,
+      "sourceHeight": 1392,
+      "display": {
+        "path": "assets/products/guanya-2026/concealed-pendent-fire-sprinkler-concealed-k80-141c-covered-640.webp",
+        "width": 640,
+        "height": 518,
+        "bytes": 23160,
+        "sha256": "9c967b34086653f5fcbefae673978a10ab317193c1b93cdead19c0d08404fab1",
+        "quality": 85
+      },
+      "detail": {
+        "path": "assets/products/guanya-2026/concealed-pendent-fire-sprinkler-concealed-k80-141c-covered-1600.webp",
+        "width": 1600,
+        "height": 1294,
+        "bytes": 72622,
+        "sha256": "003d3946fa652cd1067e6426e2cc3b95f4b838584272ae0a76a056694204b88c",
+        "quality": 85
+      }
+    }
+  ]
+}

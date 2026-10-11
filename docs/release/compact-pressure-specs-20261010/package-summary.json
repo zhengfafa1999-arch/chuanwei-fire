@@ -1,0 +1,10 @@
+{
+  "date": "2026-10-10",
+  "status": "local-review-candidate-not-deployed",
+  "archive": ".tmp/releases/compact-pressure-specs-20261010-web.zip",
+  "bytes": 44133225,
+  "sha256": "d3302a38ea92fe3ca7943fd8ca3582b8a2d33baa21a35e892ccda55b9a97eb2a",
+  "files": 722,
+  "pages": 185,
+  "validation": "All ZIP entries verified against static-manifest sizes and SHA256; CRC check passed. Server rollback backup must be created before publication."
+}

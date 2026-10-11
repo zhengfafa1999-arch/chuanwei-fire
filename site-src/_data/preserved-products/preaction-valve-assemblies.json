@@ -10,7 +10,12 @@
   "source": {
     "path": "products/消防阀/preaction-valve-assemblies.html",
     "revision": "7f6fbce",
-    "status": "preserved-existing-content-not-reaudited"
+    "status": "preserved-existing-content-not-reaudited",
+    "buyerCopyReview": {
+      "date": "2026-10-09",
+      "record": "docs/reviews/remaining-series-20261009/reviewed-changes.json",
+      "scope": "Buyer terminology and inquiry guidance; exact models, primary photographs and technical values retained except removal of unconfirmed carton quantities."
+    }
   },
   "media": {
     "flanged": "products/消防阀/preaction-valve-assemblies/preaction-valve-assembly-watermarked.jpg"
@@ -76,11 +81,11 @@
       "numbers": []
     },
     "clearProjectDataWithoutUnsupportedClaims": {
-      "text": "Clear project data without unsupported claims.",
+      "text": "Materials and nominal pressure",
       "numbers": []
     },
     "thePhotographShowsOneAssembledFlangedConfigurationFinal": {
-      "text": "The photograph shows one assembled flanged configuration. Final components and dimensions depend on the selected model and approved project schedule.",
+      "text": "The standard materials, solenoid voltage and nominal pressure below apply to all listed flanged and grooved models, including standard and current designs. Final assembly dimensions depend on the selected model.",
       "numbers": []
     },
     "confirmedSeriesInformation": {
@@ -134,20 +139,8 @@
       "text": "To be specified for the project",
       "numbers": []
     },
-    "workingPressure": {
-      "text": "Working pressure",
-      "numbers": []
-    },
-    "toBeConfirmedForTheSelectedModel": {
-      "text": "To be confirmed for the selected model",
-      "numbers": []
-    },
     "valveAndTrimMaterials": {
       "text": "Valve and trim materials",
-      "numbers": []
-    },
-    "availableOnRequestConfirmedAgainstTheApprovedOrder": {
-      "text": "Available on request; confirmed against the approved order",
       "numbers": []
     },
     "approvalExecutionStandard": {
@@ -203,7 +196,7 @@
       "numbers": []
     },
     "domesticZSFYCodesAreRetainedOnlyAsFactory": {
-      "text": "Domestic ZSFY codes are retained only as factory references. Heights are approximate factory records and must be reconfirmed before order approval.",
+      "text": "Use the ZSFY model references to identify the required assembly. Confirm overall height and trim layout for the selected configuration before ordering.",
       "numbers": []
     },
     "internationalConfiguration": {
@@ -223,7 +216,7 @@
       "numbers": []
     },
     "factoryReference": {
-      "text": "Factory reference",
+      "text": "Model",
       "numbers": []
     },
     "flanged": {
@@ -290,8 +283,10 @@
       "numbers": []
     },
     "voltageAndComponentRequirementsConfirmedBeforeProduction": {
-      "text": "Voltage and component requirements confirmed before production.",
-      "numbers": []
+      "text": "DC {n0} V solenoid; control interfaces and additional components are specified for the project.",
+      "numbers": [
+        "24"
+      ]
     },
     "oEMODMSupport": {
       "text": "OEM / ODM support",
@@ -342,7 +337,7 @@
       "numbers": []
     },
     "includeDNSizeConnectionWorkingPressureReleaseMethod": {
-      "text": "Include DN size, connection, working pressure, release method, trim scope, voltage, quantity and destination country.",
+      "text": "Start with DN size, flanged or grooved connection, and quantity. Add system working pressure, release method, trim scope, control requirements and destination when available.",
       "numbers": []
     },
     "whatsAppInquiry": {
@@ -401,6 +396,22 @@
       "numbers": [
         "100",
         "250"
+      ]
+    },
+    "nominalPressure": {
+      "text": "Nominal pressure",
+      "numbers": []
+    },
+    "nominalPressure16MPa": {
+      "text": "{n0} MPa",
+      "numbers": [
+        "1.6"
+      ]
+    },
+    "standardMaterialsAndSolenoid": {
+      "text": "Ductile iron body; NBR seals; galvanized steel trim piping; brass valve components; epoxy coating; DC {n0} V solenoid",
+      "numbers": [
+        "24"
       ]
     }
   },

@@ -19,7 +19,10 @@
 
     document.addEventListener("click", (event) => {
       const target = event.target.closest("[data-lightbox]");
-      if (target) openModal(target.dataset.lightbox, target.querySelector("img")?.alt);
+      if (target) {
+        event.preventDefault();
+        openModal(target.dataset.lightbox, target.dataset.lightboxAlt || target.querySelector("img")?.alt);
+      }
     });
     closeButton.addEventListener("click", closeModal);
     modal.addEventListener("click", (event) => {

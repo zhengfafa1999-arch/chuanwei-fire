@@ -1,0 +1,9 @@
+{
+  "status": "confirmed",
+  "date": "2026-10-09",
+  "scope": "CHUANWEI FIRE official website EN/AR product display",
+  "authorization": "User supplied photograph and explicitly requested adding the grooved preaction assembly image.",
+  "sourceFile": "preaction-grooved-assembly.jpg",
+  "sourceSha256": "580032aba08c30e2616d5ff49d0cd8de01edfa48dd5b349f5b815691ab446c94",
+  "processing": "Proportional resize and WebP compression only; preserve physical markings."
+}

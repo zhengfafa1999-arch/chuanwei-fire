@@ -1,0 +1,10 @@
+{
+  "date": "2026-10-10",
+  "status": "local-review-candidate-not-deployed",
+  "archive": ".tmp/releases/esfr-gallery-20261010-web.zip",
+  "bytes": 42426423,
+  "sha256": "363e1e1fe3f69c4af89e38b7d1d4967d92924f6c71f78c673609342b63a50e83",
+  "files": 684,
+  "pages": 175,
+  "validation": "All ZIP entries verified against static-manifest sizes and SHA256; CRC check passed. Server rollback backup must be created before publication."
+}

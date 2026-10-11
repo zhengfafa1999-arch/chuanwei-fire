@@ -1,0 +1,11 @@
+{
+  "date": "2026-10-09",
+  "status": "historical-candidate-superseded-not-deployed",
+  "archive": ".tmp/releases/customer-content-audit-20261009-web.zip",
+  "bytes": 47847016,
+  "sha256": "e23e0f1a13470159f6c433e13aebd52bd7d7fa145507f8b6844ff7767afb94a7",
+  "files": 714,
+  "pages": 175,
+  "validation": "All ZIP entries verified against static-manifest sizes and SHA256; CRC check passed. Server rollback backup must be created before publication.",
+  "supersededBy": "docs/release/parameter-gap-research-20261009/package-summary.json"
+}

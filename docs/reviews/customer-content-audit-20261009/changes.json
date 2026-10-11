@@ -1,0 +1,835 @@
+[
+  {
+    "file": "site-src\\_data\\documented-products\\fire-equipment-cabinets.json",
+    "operation": "remove-placeholder-specification-rows",
+    "rows": [
+      {
+        "label": "factoryModel",
+        "value": "confirmWithQuotation"
+      },
+      {
+        "label": "imageScope",
+        "value": "imageScopeValue"
+      }
+    ],
+    "reason": "Missing details remain in the quotation section; no confirmed specification removed."
+  },
+  {
+    "file": "site-src\\_data\\documented-products\\fire-equipment-cabinets.json",
+    "operation": "buyer-copy",
+    "locale": "en",
+    "key": "specificationsTitle",
+    "before": "Confirmed selection scope",
+    "after": "Product selection details"
+  },
+  {
+    "file": "site-src\\_data\\documented-products\\fire-equipment-cabinets.json",
+    "operation": "buyer-copy",
+    "locale": "ar",
+    "key": "specificationsTitle",
+    "before": "نطاق الاختيار المؤكد",
+    "after": "معلومات اختيار المنتج"
+  },
+  {
+    "file": "site-src\\_data\\documented-products\\fire-equipment-cabinets.json",
+    "operation": "buyer-copy",
+    "locale": "en",
+    "key": "specificationsBody",
+    "before": "The cabinet arrangements, six listed dimensions, material information supplied by the user and customizable sheet thickness are shown below. All construction details remain subject to the order drawing.",
+    "after": "Compare cabinet arrangements, regular dimensions, material options and customizable sheet thickness. Final construction follows your order drawing."
+  },
+  {
+    "file": "site-src\\_data\\documented-products\\fire-equipment-cabinets.json",
+    "operation": "buyer-copy",
+    "locale": "ar",
+    "key": "specificationsBody",
+    "before": "تُعرض أدناه ترتيبات الخزانة والأبعاد الستة المدرجة ومعلومات المواد التي قدمها العميل وسماكة الصاج القابلة للتخصيص. تبقى جميع تفاصيل البناء خاضعة لرسم الطلب.",
+    "after": "قارن تكوينات الخزائن والأبعاد المعتادة وخيارات المواد وسماكة الصاج القابلة للتخصيص. يتبع البناء النهائي رسم الطلب."
+  },
+  {
+    "file": "site-src\\_data\\documented-products\\fusible-alloy-fire-sprinklers.json",
+    "operation": "remove-placeholder-specification-rows",
+    "rows": [
+      {
+        "label": "threadForm",
+        "value": "confirmWithQuotation"
+      },
+      {
+        "label": "workingPressure",
+        "value": "confirmWithQuotation"
+      },
+      {
+        "label": "finish",
+        "value": "confirmWithQuotation"
+      }
+    ],
+    "reason": "Missing details remain in the quotation section; no confirmed specification removed."
+  },
+  {
+    "file": "site-src\\_data\\documented-products\\fusible-alloy-fire-sprinklers.json",
+    "operation": "buyer-copy",
+    "locale": "en",
+    "key": "specificationsTitle",
+    "before": "Confirmed series overview",
+    "after": "Product specifications"
+  },
+  {
+    "file": "site-src\\_data\\documented-products\\fusible-alloy-fire-sprinklers.json",
+    "operation": "buyer-copy",
+    "locale": "ar",
+    "key": "specificationsTitle",
+    "before": "نظرة عامة مؤكدة على السلسلة",
+    "after": "مواصفات المنتج"
+  },
+  {
+    "file": "site-src\\_data\\documented-products\\glass-bulb-fire-sprinkler.json",
+    "operation": "remove-placeholder-specification-rows",
+    "rows": [
+      {
+        "label": "documents",
+        "value": "confirmWithQuotation"
+      }
+    ],
+    "reason": "Missing details remain in the quotation section; no confirmed specification removed."
+  },
+  {
+    "file": "site-src\\_data\\documented-products\\horizontal-handwheel-landing-valves.json",
+    "operation": "remove-placeholder-specification-rows",
+    "rows": [
+      {
+        "label": "factoryModel",
+        "value": "confirmWithQuotation"
+      },
+      {
+        "label": "materialAndFinish",
+        "value": "confirmWithQuotation"
+      },
+      {
+        "label": "workingAndTestPressure",
+        "value": "confirmWithQuotation"
+      },
+      {
+        "label": "interfaceCompatibility",
+        "value": "confirmWithQuotation"
+      },
+      {
+        "label": "dimensionsAndAccessories",
+        "value": "confirmWithQuotation"
+      },
+      {
+        "label": "packing",
+        "value": "confirmWithQuotation"
+      },
+      {
+        "label": "imageScope",
+        "value": "imageScopeValue"
+      }
+    ],
+    "reason": "Missing details remain in the quotation section; no confirmed specification removed."
+  },
+  {
+    "file": "site-src\\_data\\documented-products\\horizontal-handwheel-landing-valves.json",
+    "operation": "buyer-copy",
+    "locale": "en",
+    "key": "note",
+    "before": "These products are not pressure-reducing or pressure-stabilizing valves. HSW references and interface descriptions are catalog selection aids, not confirmed CHUANWEI factory models or certification claims. Confirm material, pressure, exact compatibility and the approved sample before production.",
+    "after": "These are manually operated outlet valves; pressure reduction or stabilization is not included. HSW codes are selection references. Match the connections and working pressure with your quotation."
+  },
+  {
+    "file": "site-src\\_data\\documented-products\\horizontal-handwheel-landing-valves.json",
+    "operation": "buyer-copy",
+    "locale": "ar",
+    "key": "note",
+    "before": "هذه المنتجات ليست صمامات خفض ضغط أو تثبيت ضغط. رموز HSW وأوصاف الواجهات هي مراجع اختيار في الكتالوج، وليست موديلات مصنع مؤكدة من CHUANWEI ولا ادعاءات اعتماد. يجب تأكيد المادة والضغط والتوافق الدقيق والعينة المعتمدة قبل الإنتاج.",
+    "after": "هذه صمامات مخارج تعمل يدوياً ولا تشمل خفض الضغط أو تثبيته. رموز HSW مراجع للاختيار. حدد التوصيلات وضغط التشغيل مع طلب عرض السعر."
+  },
+  {
+    "file": "site-src\\_data\\documented-products\\horizontal-handwheel-landing-valves.json",
+    "operation": "buyer-copy",
+    "locale": "en",
+    "key": "galleryTitle",
+    "before": "Two catalog display configurations",
+    "after": "Two configuration illustrations"
+  },
+  {
+    "file": "site-src\\_data\\documented-products\\horizontal-handwheel-landing-valves.json",
+    "operation": "buyer-copy",
+    "locale": "ar",
+    "key": "galleryTitle",
+    "before": "تكوينان للعرض في الكتالوج",
+    "after": "صورتان توضيحيتان للتكوينات"
+  },
+  {
+    "file": "site-src\\_data\\documented-products\\horizontal-handwheel-landing-valves.json",
+    "operation": "buyer-copy",
+    "locale": "en",
+    "key": "galleryBody",
+    "before": "Use these catalog display renditions to distinguish the threaded-inlet and flanged-inlet arrangements. They are not precision evidence for dimensions, mating interfaces or internal construction.",
+    "after": "Illustrations of threaded-inlet and flanged-inlet configurations. Request the product photo and connection drawing for your selected version."
+  },
+  {
+    "file": "site-src\\_data\\documented-products\\horizontal-handwheel-landing-valves.json",
+    "operation": "buyer-copy",
+    "locale": "ar",
+    "key": "galleryBody",
+    "before": "استخدم صور العرض هذه للتمييز بين ترتيب المدخل الملولب والمدخل ذي الشفة. وهي ليست دليلاً دقيقاً على الأبعاد أو توافق الأجزاء أو البنية الداخلية.",
+    "after": "صور توضيحية للتكوين ذي المدخل الملولب والمدخل ذي الفلنجة. اطلب صورة المنتج ورسم التوصيل للنسخة المطلوبة."
+  },
+  {
+    "file": "site-src\\_data\\documented-products\\horizontal-handwheel-landing-valves.json",
+    "operation": "buyer-copy",
+    "locale": "en",
+    "key": "specificationsTitle",
+    "before": "Confirmed selection scope",
+    "after": "Product selection details"
+  },
+  {
+    "file": "site-src\\_data\\documented-products\\horizontal-handwheel-landing-valves.json",
+    "operation": "buyer-copy",
+    "locale": "ar",
+    "key": "specificationsTitle",
+    "before": "نطاق الاختيار المؤكد",
+    "after": "معلومات اختيار المنتج"
+  },
+  {
+    "file": "site-src\\_data\\documented-products\\horizontal-handwheel-landing-valves.json",
+    "operation": "buyer-copy",
+    "locale": "en",
+    "key": "modelsTitle",
+    "before": "Catalog selection-reference table",
+    "after": "Configurations and connection options"
+  },
+  {
+    "file": "site-src\\_data\\documented-products\\horizontal-handwheel-landing-valves.json",
+    "operation": "buyer-copy",
+    "locale": "ar",
+    "key": "modelsTitle",
+    "before": "جدول مراجع الاختيار في الكتالوج",
+    "after": "التكوينات وخيارات التوصيل"
+  },
+  {
+    "file": "site-src\\_data\\documented-products\\horizontal-handwheel-landing-valves.json",
+    "operation": "buyer-copy",
+    "locale": "en",
+    "key": "modelsBody",
+    "before": "Choose the required inlet first. Every listed selection uses the catalog's common 2.5 in BS336 outlet description; mating compatibility still requires order confirmation.",
+    "after": "Choose the inlet connection. The listed outlet connection is 2.5 in BS336; confirm the mating coupling for your order."
+  },
+  {
+    "file": "site-src\\_data\\documented-products\\horizontal-handwheel-landing-valves.json",
+    "operation": "buyer-copy",
+    "locale": "ar",
+    "key": "modelsBody",
+    "before": "اختر المدخل المطلوب أولاً. تستخدم جميع الاختيارات وصف المخرج المشترك 2.5 in BS336 في الكتالوج، ويظل توافق الأجزاء المقابلة بحاجة إلى تأكيد الطلب.",
+    "after": "اختر توصيل المدخل. التوصيل المدرج للمخرج هو 2.5 in BS336؛ أكد الوصلة المقابلة لطلبك."
+  },
+  {
+    "file": "site-src\\_data\\documented-products\\horizontal-handwheel-landing-valves.json",
+    "operation": "buyer-copy",
+    "locale": "en",
+    "key": "modelsNote",
+    "before": "HSW references are retained only for selection matching. They are not presented as CHUANWEI factory model numbers or evidence of approval to a named standard.",
+    "after": "HSW codes identify selections for quotation and are not factory model numbers. Confirm the mating connection using your drawing or sample."
+  },
+  {
+    "file": "site-src\\_data\\documented-products\\horizontal-handwheel-landing-valves.json",
+    "operation": "buyer-copy",
+    "locale": "ar",
+    "key": "modelsNote",
+    "before": "يتم الاحتفاظ برموز HSW لمطابقة الاختيار فقط. ولا تُعرض كموديلات مصنع CHUANWEI أو كدليل اعتماد وفق معيار مسمى.",
+    "after": "تحدد رموز HSW خيارات طلب عرض السعر وليست أرقام موديلات المصنع. أكد التوصيل المقابل باستخدام الرسم أو العينة."
+  },
+  {
+    "file": "site-src\\_data\\documented-products\\lever-operated-fire-hose-nozzles.json",
+    "operation": "remove-placeholder-specification-rows",
+    "rows": [
+      {
+        "label": "coupling",
+        "value": "confirmWithQuotation"
+      },
+      {
+        "label": "material",
+        "value": "confirmWithQuotation"
+      },
+      {
+        "label": "performance",
+        "value": "confirmWithQuotation"
+      }
+    ],
+    "reason": "Missing details remain in the quotation section; no confirmed specification removed."
+  },
+  {
+    "file": "site-src\\_data\\documented-products\\lever-operated-fire-hose-nozzles.json",
+    "operation": "buyer-copy",
+    "locale": "en",
+    "key": "galleryBody",
+    "before": "Catalog display views identify configurations A and B. Each image represents a configuration family, not every individual size or exact mating interface.",
+    "after": "Representative display images for configurations A and B. Request the product photo and mating-coupling details for the selected size."
+  },
+  {
+    "file": "site-src\\_data\\documented-products\\lever-operated-fire-hose-nozzles.json",
+    "operation": "buyer-copy",
+    "locale": "ar",
+    "key": "galleryBody",
+    "before": "توضح صور عرض الكتالوج التكوينين A وB. تمثل كل صورة عائلة تكوين، ولا تمثل كل مقاس منفرد أو واجهة اقتران دقيقة.",
+    "after": "صور عرض تمثيلية للتكوينين A وB. اطلب صورة المنتج وتفاصيل الوصلة المقابلة للمقاس المطلوب."
+  },
+  {
+    "file": "site-src\\_data\\documented-products\\lever-operated-fire-hose-nozzles.json",
+    "operation": "buyer-copy",
+    "locale": "en",
+    "key": "modelsNote",
+    "before": "Selection references are retained for quotation matching. They do not identify confirmed factory models or establish coupling compatibility. Final specifications follow the agreed quotation and order documents.",
+    "after": "DN and GN codes are selection references. Confirm the mating coupling, construction and performance for the selected version with your quotation."
+  },
+  {
+    "file": "site-src\\_data\\documented-products\\lever-operated-fire-hose-nozzles.json",
+    "operation": "buyer-copy",
+    "locale": "ar",
+    "key": "modelsNote",
+    "before": "تُحفظ مراجع الاختيار لمطابقة طلب عرض السعر. وهي لا تحدد موديلات مصنع مؤكدة ولا تثبت توافق الوصلات. تتبع المواصفات النهائية عرض السعر ومستندات الطلب المتفق عليها.",
+    "after": "رموز DN وGN مراجع للاختيار. أكد الوصلة المقابلة والبناء والأداء للنسخة المطلوبة مع عرض السعر."
+  },
+  {
+    "file": "site-src\\_data\\documented-products\\russian-pattern-fire-department-connection.json",
+    "operation": "remove-placeholder-specification-rows",
+    "rows": [
+      {
+        "label": "materialAndFinish",
+        "value": "confirmWithQuotation"
+      },
+      {
+        "label": "internalConstruction",
+        "value": "confirmWithQuotation"
+      },
+      {
+        "label": "interfaceCompatibility",
+        "value": "confirmWithQuotation"
+      },
+      {
+        "label": "flangeDimensions",
+        "value": "confirmWithQuotation"
+      },
+      {
+        "label": "installationRequirements",
+        "value": "confirmWithQuotation"
+      },
+      {
+        "label": "packing",
+        "value": "confirmWithQuotation"
+      },
+      {
+        "label": "imageScope",
+        "value": "imageScopeValue"
+      }
+    ],
+    "reason": "Missing details remain in the quotation section; no confirmed specification removed."
+  },
+  {
+    "file": "site-src\\_data\\documented-products\\russian-pattern-fire-department-connection.json",
+    "operation": "buyer-copy",
+    "locale": "en",
+    "key": "note",
+    "before": "The model, connections and pressure values are user-confirmed selection data. Material, internal check-valve construction, exact coupling compatibility, flange dimensions, installation requirements and certification are not asserted.",
+    "after": "Match the DN100 flange and DN65 / KY66 inlets to your installation. Request material, coupling and installation details for your order."
+  },
+  {
+    "file": "site-src\\_data\\documented-products\\russian-pattern-fire-department-connection.json",
+    "operation": "buyer-copy",
+    "locale": "ar",
+    "key": "note",
+    "before": "الموديل والوصلات وقيم الضغط هي بيانات اختيار أكدها المستخدم. لا يتم تأكيد المادة أو بنية صمام عدم الرجوع الداخلية أو توافق الاقتران الدقيق أو أبعاد الشفة أو متطلبات التركيب أو الاعتماد.",
+    "after": "طابق فلنجة DN100 ومداخل DN65 / KY66 مع متطلبات التركيب. اطلب تفاصيل المواد والوصلات والتركيب الخاصة بطلبك."
+  },
+  {
+    "file": "site-src\\_data\\documented-products\\russian-pattern-fire-department-connection.json",
+    "operation": "buyer-copy",
+    "locale": "en",
+    "key": "galleryBody",
+    "before": "The user-supplied image identifies the product family and visible twin-inlet arrangement. Confirm the exact ordered flange, mating coupling and internal construction separately.",
+    "after": "Front view of the twin-inlet configuration. Flange drilling and mating-coupling fit are confirmed for the selected order."
+  },
+  {
+    "file": "site-src\\_data\\documented-products\\russian-pattern-fire-department-connection.json",
+    "operation": "buyer-copy",
+    "locale": "ar",
+    "key": "galleryBody",
+    "before": "تحدد الصورة التي قدمها المستخدم عائلة المنتج وترتيب المدخلين الظاهر. يجب تأكيد الشفة والاقتران المقابل والبنية الداخلية للطلب بشكل منفصل.",
+    "after": "منظر أمامي للتكوين ذي المدخلين. تُؤكد ثقوب الفلنجة وتوافق الوصلة المقابلة حسب الطلب."
+  },
+  {
+    "file": "site-src\\_data\\documented-products\\russian-pattern-fire-department-connection.json",
+    "operation": "buyer-copy",
+    "locale": "en",
+    "key": "specificationsTitle",
+    "before": "Confirmed selection data",
+    "after": "Product specifications"
+  },
+  {
+    "file": "site-src\\_data\\documented-products\\russian-pattern-fire-department-connection.json",
+    "operation": "buyer-copy",
+    "locale": "ar",
+    "key": "specificationsTitle",
+    "before": "بيانات الاختيار المؤكدة",
+    "after": "مواصفات المنتج"
+  },
+  {
+    "file": "site-src\\_data\\documented-products\\russian-pattern-fire-department-connection.json",
+    "operation": "buyer-copy",
+    "locale": "en",
+    "key": "specificationsBody",
+    "before": "Working pressure and strength test pressure are kept as separate fields. Unconfirmed construction and installation details remain quotation-specific.",
+    "after": "Compare the connections, working pressure, strength test pressure and accessories below. Request construction and installation details with your inquiry."
+  },
+  {
+    "file": "site-src\\_data\\documented-products\\russian-pattern-fire-department-connection.json",
+    "operation": "buyer-copy",
+    "locale": "ar",
+    "key": "specificationsBody",
+    "before": "يبقى ضغط التشغيل وضغط اختبار المتانة حقلين منفصلين. تظل تفاصيل البنية والتركيب غير المؤكدة خاصة بعرض السعر.",
+    "after": "قارن التوصيلات وضغط التشغيل وضغط اختبار المتانة والملحقات أدناه. اطلب تفاصيل البناء والتركيب عند الاستفسار."
+  },
+  {
+    "file": "site-src\\_data\\documented-products\\russian-pattern-fire-department-connection.json",
+    "operation": "buyer-copy",
+    "locale": "en",
+    "key": "modelsTitle",
+    "before": "Confirmed factory-model row",
+    "after": "Model and connections"
+  },
+  {
+    "file": "site-src\\_data\\documented-products\\russian-pattern-fire-department-connection.json",
+    "operation": "buyer-copy",
+    "locale": "ar",
+    "key": "modelsTitle",
+    "before": "صف موديل المصنع المؤكد",
+    "after": "الموديل والتوصيلات"
+  },
+  {
+    "file": "site-src\\_data\\documented-products\\russian-pattern-fire-department-connection.json",
+    "operation": "buyer-copy",
+    "locale": "en",
+    "key": "modelsBody",
+    "before": "The table preserves the single confirmed factory-model configuration without creating unverified variants.",
+    "after": "Use the model and connection details below when requesting a quotation."
+  },
+  {
+    "file": "site-src\\_data\\documented-products\\russian-pattern-fire-department-connection.json",
+    "operation": "buyer-copy",
+    "locale": "ar",
+    "key": "modelsBody",
+    "before": "يحافظ الجدول على تكوين موديل المصنع الوحيد المؤكد من دون إنشاء متغيرات غير موثقة.",
+    "after": "استخدم الموديل وتفاصيل التوصيل أدناه عند طلب عرض السعر."
+  },
+  {
+    "file": "site-src\\_data\\documented-products\\russian-pattern-fire-department-connection.json",
+    "operation": "buyer-copy",
+    "locale": "en",
+    "key": "modelsNote",
+    "before": "KY66 is retained as confirmed interface text; it does not establish certification or compatibility with every mating component.",
+    "after": "Confirm the mating coupling for the KY66 inlet before ordering."
+  },
+  {
+    "file": "site-src\\_data\\documented-products\\russian-pattern-fire-department-connection.json",
+    "operation": "buyer-copy",
+    "locale": "ar",
+    "key": "modelsNote",
+    "before": "يُحتفظ بالرمز KY66 كنص واجهة مؤكد، ولا يثبت اعتماداً أو توافقاً مع كل جزء مقابل.",
+    "after": "أكد الوصلة المقابلة لمدخل KY66 قبل الطلب."
+  },
+  {
+    "file": "site-src\\_data\\documented-products\\saddle-type-waterflow-switches.json",
+    "operation": "remove-placeholder-specification-rows",
+    "rows": [
+      {
+        "label": "pipeFitAndDimensions",
+        "value": "confirmWithQuotation"
+      },
+      {
+        "label": "contactRating",
+        "value": "confirmWithQuotation"
+      },
+      {
+        "label": "alarmFlowAndReset",
+        "value": "confirmWithQuotation"
+      },
+      {
+        "label": "temperatureAndProtection",
+        "value": "confirmWithQuotation"
+      },
+      {
+        "label": "packing",
+        "value": "confirmWithQuotation"
+      }
+    ],
+    "reason": "Missing details remain in the quotation section; no confirmed specification removed."
+  },
+  {
+    "file": "site-src\\_data\\documented-products\\saddle-type-waterflow-switches.json",
+    "operation": "buyer-copy",
+    "locale": "en",
+    "key": "galleryBody",
+    "before": "This archived white-background image identifies the saddle body, U-bolt and sensing paddle of the DN100 sample. It is not proof of the dimensions of every listed size.",
+    "after": "DN100 example showing the saddle body, U-bolt and sensing paddle. Dimensions vary by pipe size; request the installation drawing for your selected model."
+  },
+  {
+    "file": "site-src\\_data\\documented-products\\saddle-type-waterflow-switches.json",
+    "operation": "buyer-copy",
+    "locale": "ar",
+    "key": "galleryBody",
+    "before": "توضح صورة الخلفية البيضاء المؤرشفة جسم السرج ومشبك U وريشة الاستشعار لعينة DN100. ولا تثبت أبعاد كل المقاسات المدرجة.",
+    "after": "مثال DN100 يوضح الجسم المشبكي والمسمار على شكل U وريشة الاستشعار. تختلف الأبعاد حسب مقاس الأنبوب؛ اطلب رسم التركيب للموديل المطلوب."
+  },
+  {
+    "file": "site-src\\_data\\documented-products\\saddle-type-waterflow-switches.json",
+    "operation": "buyer-copy",
+    "locale": "en",
+    "key": "specificationsTitle",
+    "before": "Confirmed series scope",
+    "after": "Product specifications"
+  },
+  {
+    "file": "site-src\\_data\\documented-products\\saddle-type-waterflow-switches.json",
+    "operation": "buyer-copy",
+    "locale": "ar",
+    "key": "specificationsTitle",
+    "before": "نطاق السلسلة المؤكد",
+    "after": "مواصفات المنتج"
+  },
+  {
+    "file": "site-src\\_data\\documented-products\\standard-response-fire-sprinkler.json",
+    "operation": "remove-placeholder-specification-rows",
+    "rows": [
+      {
+        "label": "documents",
+        "value": "confirmWithQuotation"
+      }
+    ],
+    "reason": "Missing details remain in the quotation section; no confirmed specification removed."
+  },
+  {
+    "file": "site-src\\_data\\documented-products\\straight-stream-fire-hose-nozzles.json",
+    "operation": "remove-placeholder-specification-rows",
+    "rows": [
+      {
+        "label": "coupling",
+        "value": "confirmWithQuotation"
+      }
+    ],
+    "reason": "Missing details remain in the quotation section; no confirmed specification removed."
+  },
+  {
+    "file": "site-src\\_data\\documented-products\\straight-through-oblique-landing-valves.json",
+    "operation": "remove-placeholder-specification-rows",
+    "rows": [
+      {
+        "label": "factoryModel",
+        "value": "confirmWithQuotation"
+      },
+      {
+        "label": "materialAndFinish",
+        "value": "confirmWithQuotation"
+      },
+      {
+        "label": "workingAndTestPressure",
+        "value": "confirmWithQuotation"
+      },
+      {
+        "label": "interfaceCompatibility",
+        "value": "confirmWithQuotation"
+      },
+      {
+        "label": "dimensionsAndAccessories",
+        "value": "confirmWithQuotation"
+      },
+      {
+        "label": "packing",
+        "value": "confirmWithQuotation"
+      },
+      {
+        "label": "imageScope",
+        "value": "imageScopeValue"
+      }
+    ],
+    "reason": "Missing details remain in the quotation section; no confirmed specification removed."
+  },
+  {
+    "file": "site-src\\_data\\documented-products\\straight-through-oblique-landing-valves.json",
+    "operation": "buyer-copy",
+    "locale": "en",
+    "key": "note",
+    "before": "The HS references and interface descriptions are catalog selection aids, not confirmed CHUANWEI factory models or certification claims. Confirm material, pressure, exact interfaces and the approved sample before production.",
+    "after": "HS codes are selection references. Match the inlet, outlet and required working pressure with your quotation."
+  },
+  {
+    "file": "site-src\\_data\\documented-products\\straight-through-oblique-landing-valves.json",
+    "operation": "buyer-copy",
+    "locale": "ar",
+    "key": "note",
+    "before": "رموز HS وأوصاف الواجهات هي مراجع اختيار في الكتالوج، وليست موديلات مصنع مؤكدة من CHUANWEI ولا ادعاءات اعتماد. يجب تأكيد المادة والضغط والواجهات الدقيقة والعينة المعتمدة قبل الإنتاج.",
+    "after": "رموز HS مراجع للاختيار. حدد المدخل والمخرج وضغط التشغيل المطلوب مع طلب عرض السعر."
+  },
+  {
+    "file": "site-src\\_data\\documented-products\\straight-through-oblique-landing-valves.json",
+    "operation": "buyer-copy",
+    "locale": "en",
+    "key": "galleryTitle",
+    "before": "Three catalog display configurations",
+    "after": "Three configuration illustrations"
+  },
+  {
+    "file": "site-src\\_data\\documented-products\\straight-through-oblique-landing-valves.json",
+    "operation": "buyer-copy",
+    "locale": "ar",
+    "key": "galleryTitle",
+    "before": "ثلاثة تكوينات للعرض في الكتالوج",
+    "after": "ثلاث صور توضيحية للتكوينات"
+  },
+  {
+    "file": "site-src\\_data\\documented-products\\straight-through-oblique-landing-valves.json",
+    "operation": "buyer-copy",
+    "locale": "en",
+    "key": "galleryBody",
+    "before": "Use these display renditions to distinguish the straight-through, oblique threaded and oblique flanged arrangements. They are not precision evidence for dimensions, threads or internal construction.",
+    "after": "Illustrations of straight-through, oblique threaded and oblique flanged configurations. Request the product photo and connection drawing for your selected version."
+  },
+  {
+    "file": "site-src\\_data\\documented-products\\straight-through-oblique-landing-valves.json",
+    "operation": "buyer-copy",
+    "locale": "ar",
+    "key": "galleryBody",
+    "before": "استخدم صور العرض هذه للتمييز بين التكوين المستقيم والمائل الملولب والمائل ذي الشفة. وهي ليست دليلاً دقيقاً على الأبعاد أو القلاوظ أو البنية الداخلية.",
+    "after": "صور توضيحية للتكوين المستقيم والمائل الملولب والمائل ذي الفلنجة. اطلب صورة المنتج ورسم التوصيل للنسخة المطلوبة."
+  },
+  {
+    "file": "site-src\\_data\\documented-products\\straight-through-oblique-landing-valves.json",
+    "operation": "buyer-copy",
+    "locale": "en",
+    "key": "specificationsTitle",
+    "before": "Confirmed selection scope",
+    "after": "Product selection details"
+  },
+  {
+    "file": "site-src\\_data\\documented-products\\straight-through-oblique-landing-valves.json",
+    "operation": "buyer-copy",
+    "locale": "ar",
+    "key": "specificationsTitle",
+    "before": "نطاق الاختيار المؤكد",
+    "after": "معلومات اختيار المنتج"
+  },
+  {
+    "file": "site-src\\_data\\documented-products\\straight-through-oblique-landing-valves.json",
+    "operation": "buyer-copy",
+    "locale": "en",
+    "key": "modelsTitle",
+    "before": "Catalog selection-reference table",
+    "after": "Configurations and connection options"
+  },
+  {
+    "file": "site-src\\_data\\documented-products\\straight-through-oblique-landing-valves.json",
+    "operation": "buyer-copy",
+    "locale": "ar",
+    "key": "modelsTitle",
+    "before": "جدول مراجع الاختيار في الكتالوج",
+    "after": "التكوينات وخيارات التوصيل"
+  },
+  {
+    "file": "site-src\\_data\\documented-products\\straight-through-oblique-landing-valves.json",
+    "operation": "buyer-copy",
+    "locale": "en",
+    "key": "modelsBody",
+    "before": "Choose the body arrangement and inlet first. Every listed selection uses the catalog's common 2.5 in BS336 outlet description; mating compatibility still requires order confirmation.",
+    "after": "Choose the body arrangement and inlet. The listed outlet connection is 2.5 in BS336; confirm the mating coupling for your order."
+  },
+  {
+    "file": "site-src\\_data\\documented-products\\straight-through-oblique-landing-valves.json",
+    "operation": "buyer-copy",
+    "locale": "ar",
+    "key": "modelsBody",
+    "before": "اختر ترتيب الجسم والمدخل أولاً. تستخدم جميع الاختيارات وصف المخرج المشترك 2.5 in BS336 في الكتالوج، ويظل توافق الأجزاء المقابلة بحاجة إلى تأكيد الطلب.",
+    "after": "اختر شكل الجسم والمدخل. التوصيل المدرج للمخرج هو 2.5 in BS336؛ أكد الوصلة المقابلة لطلبك."
+  },
+  {
+    "file": "site-src\\_data\\documented-products\\straight-through-oblique-landing-valves.json",
+    "operation": "buyer-copy",
+    "locale": "en",
+    "key": "modelsNote",
+    "before": "HS references are retained only for selection matching. They are not presented as CHUANWEI factory model numbers or evidence of approval to a named standard.",
+    "after": "HS codes identify selections for quotation and are not factory model numbers. Confirm the mating connection using your drawing or sample."
+  },
+  {
+    "file": "site-src\\_data\\documented-products\\straight-through-oblique-landing-valves.json",
+    "operation": "buyer-copy",
+    "locale": "ar",
+    "key": "modelsNote",
+    "before": "يتم الاحتفاظ برموز HS لمطابقة الاختيار فقط. ولا تُعرض كموديلات مصنع CHUANWEI أو كدليل اعتماد وفق معيار مسمى.",
+    "after": "تحدد رموز HS خيارات طلب عرض السعر وليست أرقام موديلات المصنع. أكد التوصيل المقابل باستخدام الرسم أو العينة."
+  },
+  {
+    "file": "site-src\\_data\\publicPages.js",
+    "operation": "buyer-copy",
+    "before": "Company-provided information states establishment in 2017 and 5,000 m² of production space. CNC capability supports component machining; it is not presented as proof of compliance with any specific standard or approval.",
+    "after": "Company-provided information states establishment in 2017 and 5,000 m² of production space, with CNC capability for component machining."
+  },
+  {
+    "file": "site-src\\_data\\publicPages.js",
+    "operation": "buyer-copy",
+    "before": "تذكر بيانات الشركة أنها تأسست في 2017 وأن مساحة الإنتاج تبلغ 5,000 m². تدعم إمكانات CNC تشغيل المكونات، لكنها لا تُعد دليلاً على المطابقة لمعيار أو اعتماد محدد.",
+    "after": "تذكر بيانات الشركة أنها تأسست في 2017 وأن مساحة الإنتاج تبلغ 5,000 m²، مع إمكانات CNC لتشغيل المكونات."
+  },
+  {
+    "file": "site-src\\_data\\publicPages.js",
+    "operation": "buyer-copy",
+    "before": "Provided by requested model, size and connection. No general file is represented as applying automatically to every product.",
+    "after": "Request the data sheet for your selected model, size and connection."
+  },
+  {
+    "file": "site-src\\_data\\publicPages.js",
+    "operation": "buyer-copy",
+    "before": "تُقدم حسب الموديل والمقاس والتوصيل المطلوب. لا نعرض ملفاً عاماً على أنه ينطبق تلقائياً على جميع المنتجات.",
+    "after": "اطلب ورقة البيانات للموديل والمقاس والتوصيل المطلوب."
+  },
+  {
+    "file": "site-src\\_data\\publicPages.js",
+    "operation": "buyer-copy",
+    "before": "Wooden-case packing example with straps and a pallet base",
+    "after": "Illustrative wooden-case packing option with straps and a pallet base"
+  },
+  {
+    "file": "site-src\\_data\\publicPages.js",
+    "operation": "buyer-copy",
+    "before": "مثال تعبئة بصندوق خشبي مع أربطة وقاعدة منصة",
+    "after": "خيار تعبئة توضيحي بصندوق خشبي مع أربطة وقاعدة منصة"
+  },
+  {
+    "file": "site-src\\_data\\documented-products\\fire-equipment-cabinets.json",
+    "operation": "buyer-copy",
+    "locale": "en",
+    "key": "imageScope",
+    "before": "Image evidence scope",
+    "after": "Image type"
+  },
+  {
+    "file": "site-src\\_data\\documented-products\\fire-equipment-cabinets.json",
+    "operation": "buyer-copy",
+    "locale": "ar",
+    "key": "imageScope",
+    "before": "نطاق دليل الصورة",
+    "after": "نوع الصورة"
+  },
+  {
+    "file": "site-src\\_data\\documented-products\\horizontal-handwheel-landing-valves.json",
+    "operation": "buyer-copy",
+    "locale": "en",
+    "key": "imageScope",
+    "before": "Image evidence scope",
+    "after": "Image type"
+  },
+  {
+    "file": "site-src\\_data\\documented-products\\horizontal-handwheel-landing-valves.json",
+    "operation": "buyer-copy",
+    "locale": "ar",
+    "key": "imageScope",
+    "before": "نطاق دليل الصورة",
+    "after": "نوع الصورة"
+  },
+  {
+    "file": "site-src\\_data\\documented-products\\russian-pattern-fire-department-connection.json",
+    "operation": "buyer-copy",
+    "locale": "en",
+    "key": "imageScope",
+    "before": "Image evidence scope",
+    "after": "Image type"
+  },
+  {
+    "file": "site-src\\_data\\documented-products\\russian-pattern-fire-department-connection.json",
+    "operation": "buyer-copy",
+    "locale": "ar",
+    "key": "imageScope",
+    "before": "نطاق دليل الصورة",
+    "after": "نوع الصورة"
+  },
+  {
+    "file": "site-src\\_data\\documented-products\\straight-through-oblique-landing-valves.json",
+    "operation": "buyer-copy",
+    "locale": "en",
+    "key": "imageScope",
+    "before": "Image evidence scope",
+    "after": "Image type"
+  },
+  {
+    "file": "site-src\\_data\\documented-products\\straight-through-oblique-landing-valves.json",
+    "operation": "buyer-copy",
+    "locale": "ar",
+    "key": "imageScope",
+    "before": "نطاق دليل الصورة",
+    "after": "نوع الصورة"
+  },
+  {
+    "file": "site-src\\_data\\documented-products\\fire-equipment-cabinets.json",
+    "operation": "remove-placeholder-specification-rows",
+    "rows": [
+      {
+        "label": "mounting",
+        "value": "mountingValue"
+      },
+      {
+        "label": "internalEquipment",
+        "value": "internalEquipmentValue"
+      },
+      {
+        "label": "finishAndColor",
+        "value": "finishValue"
+      }
+    ],
+    "reason": "Mounting, included equipment and finish remain in the quotation section."
+  },
+  {
+    "file": "site-src\\_data\\documented-products\\fire-equipment-cabinets.json",
+    "operation": "buyer-copy",
+    "locale": "en",
+    "key": "certificationStatus",
+    "before": "Certification / rating status",
+    "after": "Fire-resistance rating"
+  },
+  {
+    "file": "site-src\\_data\\documented-products\\fire-equipment-cabinets.json",
+    "operation": "buyer-copy",
+    "locale": "ar",
+    "key": "certificationStatus",
+    "before": "حالة الاعتماد / التصنيف",
+    "after": "تصنيف مقاومة الحريق"
+  },
+  {
+    "file": "site-src\\_data\\documented-products\\fire-equipment-cabinets.json",
+    "operation": "buyer-copy",
+    "locale": "en",
+    "key": "certificationValue",
+    "before": "No certification or fire-resistance rating established from the available evidence",
+    "after": "No certification or fire-resistance rating is claimed for these cabinet configurations."
+  },
+  {
+    "file": "site-src\\_data\\documented-products\\fire-equipment-cabinets.json",
+    "operation": "buyer-copy",
+    "locale": "ar",
+    "key": "certificationValue",
+    "before": "لا يتوفر في الأدلة الحالية اعتماد مؤكد أو تصنيف مقاومة حريق",
+    "after": "لا يُدّعى اعتماد أو تصنيف لمقاومة الحريق لهذه التكوينات من الخزائن."
+  },
+  {
+    "file": "site-src\\_data\\documented-products\\fire-equipment-cabinets.json",
+    "operation": "buyer-copy",
+    "locale": "en",
+    "key": "modelsNote",
+    "before": "No factory model number is assigned to these catalog selections. Final dimensions, tolerances, material grade, thickness and openings must follow the approved production drawing.",
+    "after": "Select the cabinet configuration and dimensions for your quotation. Final dimensions, tolerances, material grade, thickness and openings follow the agreed production drawing."
+  },
+  {
+    "file": "site-src\\_data\\documented-products\\fire-equipment-cabinets.json",
+    "operation": "buyer-copy",
+    "locale": "ar",
+    "key": "modelsNote",
+    "before": "لم يُعيّن رقم موديل مصنع لهذه الاختيارات من الكتالوج. يجب أن تتبع الأبعاد النهائية والسماحات ودرجة المادة والسماكة والفتحات رسم الإنتاج المعتمد.",
+    "after": "حدد تكوين الخزانة والأبعاد لطلب عرض السعر. تتبع الأبعاد النهائية والتفاوتات ودرجة المادة والسماكة والفتحات رسم الإنتاج المتفق عليه."
+  }
+]

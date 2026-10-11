@@ -1,0 +1,12 @@
+{
+  "date": "2026-10-10",
+  "status": "local-review-candidate-not-deployed",
+  "archive": ".tmp/releases/project-applications-20261010-web.zip",
+  "bytes": 48586959,
+  "sha256": "19142cdd35eb2255713df48b1084898b127a048ac82fcbb468a86b6424e88b37",
+  "files": 755,
+  "pages": 185,
+  "validation": "Build and static checks passed; ZIP CRC, complete entry set and all file hashes verified. Browser/mobile rendering not verified.",
+  "previousCandidate": ".tmp/releases/project-cards-20261010-web.zip",
+  "rollback": "Preserve the previous local candidate; record and back up the actual server version before deployment."
+}

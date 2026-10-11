@@ -1,0 +1,16 @@
+{% if entry.photos %}
+  <section class="pdp-section pdp-product-photos" id="product-photographs" data-product-photos>
+    <script type="application/json" data-product-photo-bindings>{{ entry.photos.viewAliases | safe }}</script>
+    <div class="pdp-container">
+      <div class="pdp-heading"><div><h2>{{ entry.photos.title }}</h2></div><p>{{ entry.photos.lead }}</p></div>
+      <div class="pdp-product-photos__grid">
+{% for image in entry.photos.images %}
+        <figure class="pdp-product-photos__item" id="{{ image.id }}" data-product-photo style="scroll-margin-top:100px">
+          <a href="{{ image.detail }}" data-lightbox="{{ image.detail }}" data-lightbox-alt="{{ image.caption }}" target="_blank" rel="noopener" aria-label="{{ image.caption }} — {{ entry.photos.enlarge }}"><img src="{{ image.src }}" srcset="{{ image.srcset }}" sizes="(max-width: 600px) calc(100vw - 48px), (max-width: 1000px) 44vw, 360px" width="{{ image.width }}" height="{{ image.height }}" alt="{{ image.caption }}" loading="lazy" decoding="async"></a>
+          <figcaption>{{ image.caption }}<a href="{{ image.detail }}" data-lightbox="{{ image.detail }}" data-lightbox-alt="{{ image.caption }}" target="_blank" rel="noopener">{{ entry.photos.enlarge }} →</a></figcaption>
+        </figure>
+{% endfor %}
+      </div>
+    </div>
+  </section>
+{% endif %}

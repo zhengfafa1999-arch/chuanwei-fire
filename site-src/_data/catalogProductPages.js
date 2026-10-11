@@ -1,3 +1,7 @@
+import { versionedProductImage } from '../lib/public-asset-versions.js';
+import { productPhotos } from '../lib/product-photos.js';
+import { withInquiryDrafts } from "../lib/inquiry.js";
+import { productSupplement } from "../lib/product-supplements.js";
 import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
@@ -28,9 +32,11 @@ const products = fs.readdirSync(sourceDirectory)
 export default products.flatMap(product => ["en", "ar"].map(locale => {
   const route = createProductPageRoute(product.routeId, locale);
   const text = requireLocaleCopy(product, locale);
-  const hero = path.posix.relative(path.posix.dirname(route.outputPath), product.image);
+  const hero = versionedProductImage(product.image, path.posix.relative(path.posix.dirname(route.outputPath), product.image));
   return {
-    product,
+    photos: productPhotos(product.routeId, locale, route.assetPrefix),
+    supplement: productSupplement(product.routeId, locale, route.assetPrefix),
+    product: withInquiryDrafts(product, text.title, route.canonical, locale),
     route,
     text,
     media: { hero },
@@ -40,7 +46,7 @@ export default products.flatMap(product => ["en", "ar"].map(locale => {
     seo: createSeoMetadata(product.routeId, locale, {
       title: text.seoTitle,
       description: text.seoDescription,
-      image: new URL(product.image, `${SITE_ORIGIN}/`).href
+      image: new URL(versionedProductImage(product.image), `${SITE_ORIGIN}/`).href
     })
   };
 }));

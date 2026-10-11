@@ -1,0 +1,246 @@
+{
+  "id": "closed-rotating-fire-sprinkler",
+  "routeId": "product:closed-rotating-fire-sprinkler",
+  "template": "product-series/documented-product.njk",
+  "styles": [
+    "css/common.css",
+    "css/sprinkler-product.css",
+    "css/sprinkler-product-gallery.css",
+    "css/documented-product.css",
+    "css/site-navigation.css"
+  ],
+  "source": {
+    "reviewedDate": "2026-10-09",
+    "package": "B-DSXC-202-闭式旋转雨淋喷头",
+    "archiveRoot": "D:\\work\\codex\\阿里国际站运营\\outputs\\alibaba-detail-image-studio\\B-DSXC-202-闭式旋转雨淋喷头",
+    "evidence": "Existing exact-product Alibaba package, confirmed-fact ledger and matching user-supplied photographs.",
+    "scope": "Confirmed fields only; no product certifications, inferred response class, rated flow or coverage claims."
+  },
+  "publication": {
+    "status": "release-candidate",
+    "externalRelease": true,
+    "imageRights": "user-confirmed-website-use",
+    "imageRightsEvidence": "docs/release/special-sprinklers-20261009/image-rights-confirmation.json"
+  },
+  "media": {
+    "hero": "assets/products/special-sprinklers/closed-rotating-fire-sprinkler-1-1600.webp"
+  },
+  "imageDimensions": {
+    "hero": {
+      "width": 1441,
+      "height": 1600
+    }
+  },
+  "heroFacts": [
+    "fact0",
+    "fact1"
+  ],
+  "shared": {
+    "fact0": "B-DSXC-202",
+    "fact1": "K202 metric"
+  },
+  "gallery": [
+    {
+      "media": "hero",
+      "caption": "heroCaption",
+      "alt": "heroAlt",
+      "thumbnailAlt": "heroThumbnail"
+    }
+  ],
+  "specifications": [
+    {
+      "label": "factoryModel",
+      "value": "fact0",
+      "technical": true
+    },
+    {
+      "label": "kFactor",
+      "value": "fact1",
+      "technical": true
+    },
+    {
+      "label": "threadForm",
+      "value": "fact2",
+      "technical": false
+    },
+    {
+      "label": "configuration",
+      "value": "fact3",
+      "technical": false
+    },
+    {
+      "label": "material",
+      "value": "fact4",
+      "technical": false
+    },
+    {
+      "label": "thermalElement",
+      "value": "fact5",
+      "technical": false
+    }
+  ],
+  "modelColumns": [
+    {
+      "label": "factoryModel",
+      "field": "factoryModel",
+      "technical": true
+    },
+    {
+      "label": "kFactor",
+      "field": "kFactor",
+      "technical": true
+    },
+    {
+      "label": "threadForm",
+      "field": "thread",
+      "technical": true
+    }
+  ],
+  "models": [
+    {
+      "factoryModel": "B-DSXC-202",
+      "kFactor": "K202",
+      "thread": "R1 BSPT"
+    }
+  ],
+  "confirmationItems": [
+    {
+      "label": "connection",
+      "body": "connectionBody"
+    },
+    {
+      "label": "operatingRequirement",
+      "body": "operatingRequirementBody"
+    },
+    {
+      "label": "orderInformation",
+      "body": "orderInformationBody"
+    }
+  ],
+  "validation": {
+    "anchors": [
+      "gallery",
+      "specifications",
+      "models",
+      "quotation"
+    ],
+    "requiredTechnicalValues": [
+      "B-DSXC-202",
+      "K202 metric"
+    ]
+  },
+  "inquiry": {
+    "whatsapp": "https://wa.me/8617326528368?text=Hello%2C%20I%20need%20a%20quotation%20for%20Closed-Type%20Rotating%20Fire%20Sprinkler.%20Reference%3A%20%5Bmodel%5D%2C%20connection%3A%20%5Bthread%5D%2C%20operating%20requirements%3A%20%5Bdetails%5D%2C%20quantity%3A%20%5Bpcs%5D%2C%20destination%3A%20%5Bcountry%5D.",
+    "email": "mailto:zhengcolin1@gmail.com?subject=Closed-Type%20Rotating%20Fire%20Sprinkler%20Inquiry"
+  },
+  "copy": {
+    "en": {
+      "onThisPage": "On this page",
+      "gallery": "Product images",
+      "galleryTitle": "Real product photographs",
+      "galleryBody": "Compare the visible construction and product markings. Photographs identify the shown samples; they do not represent every size or supplied configuration.",
+      "specifications": "Specifications",
+      "specificationsTitle": "Product selection details",
+      "specificationsBody": "Use the confirmed details below to match your requirement. Request exact-model technical documents for the selected configuration.",
+      "availableModels": "Available configurations",
+      "modelsTitle": "Configurations for quotation",
+      "modelsBody": "Match the factory reference and connection requirement with your order.",
+      "factoryModel": "Factory reference",
+      "temperature": "Operating temperature",
+      "thermalElement": "Operating element",
+      "modelsNote": "Confirm the exact supplied configuration and required documentation before ordering.",
+      "quotation": "Quotation details",
+      "quotationTitle": "Details to send with your inquiry",
+      "quotationBody": "Send the connection, operating conditions, quantity and destination so we can review the required configuration.",
+      "connection": "Connection",
+      "connectionBody": "Specify the required thread and mating connection.",
+      "operatingRequirement": "Operating conditions",
+      "operatingRequirementBody": "Provide the project pressure and any temperature or discharge requirements.",
+      "orderInformation": "Order information",
+      "orderInformationBody": "Include quantity, destination and the exact technical documents required.",
+      "inquiryTitle": "Request product details and a quotation",
+      "inquiryBody": "Include the product reference, connection, quantity and destination. Send the project specification when available.",
+      "askOnWhatsApp": "Ask on WhatsApp",
+      "emailSales": "Email sales",
+      "productImagePreview": "Product image preview",
+      "closeImagePreview": "Close image preview",
+      "enlargedImage": "Enlarged product photograph",
+      "previousProductImage": "Previous product image",
+      "nextProductImage": "Next product image",
+      "selectProductImage": "Select product image",
+      "kFactor": "Nominal metric K-factor",
+      "threadForm": "Connection",
+      "configuration": "Configuration",
+      "workingPressure": "Working pressure",
+      "material": "Frame material",
+      "unconfirmed": "Details available on request",
+      "title": "Closed-Type Rotating Fire Sprinkler",
+      "eyebrow": "Special fire-protection sprinklers and nozzles",
+      "lead": "A closed-type pendent sprinkler with a glass-bulb operating element, rotating distribution structure and metric K202 coefficient. The confirmed connection is R1 BSPT male thread.",
+      "note": "Operating temperature, working pressure, response classification and spray coverage are available on request for the exact supplied model.",
+      "seoTitle": "Closed-Type Rotating Fire Sprinkler | CHUANWEI FIRE",
+      "seoDescription": "A closed-type pendent sprinkler with a glass-bulb operating element, rotating distribution structure and metric K202 coefficient. The confirmed connection is R1 BSPT male thread.",
+      "heroCaption": "B-DSXC-202 rotating sprinkler sample",
+      "heroAlt": "B-DSXC-202 rotating sprinkler sample",
+      "heroThumbnail": "B-DSXC-202 rotating sprinkler sample",
+      "fact2": "R1 BSPT male thread",
+      "fact3": "Closed type / Pendent / Rotating",
+      "fact4": "Copper frame",
+      "fact5": "Glass bulb"
+    },
+    "ar": {
+      "onThisPage": "في هذه الصفحة",
+      "gallery": "صور المنتج",
+      "galleryTitle": "صور حقيقية للمنتج",
+      "galleryBody": "قارن البنية الظاهرة وعلامات المنتج. تحدد الصور العينات المعروضة ولا تمثل جميع المقاسات أو تكوينات التوريد.",
+      "specifications": "المواصفات",
+      "specificationsTitle": "تفاصيل اختيار المنتج",
+      "specificationsBody": "استخدم التفاصيل المؤكدة أدناه لمطابقة متطلباتك. اطلب الوثائق الفنية للموديل والتكوين المختار.",
+      "availableModels": "التكوينات المتاحة",
+      "modelsTitle": "التكوينات لطلب عرض السعر",
+      "modelsBody": "طابق مرجع المصنع ومتطلبات التوصيل مع طلبك.",
+      "factoryModel": "مرجع المصنع",
+      "temperature": "درجة حرارة التشغيل",
+      "thermalElement": "عنصر التشغيل",
+      "modelsNote": "أكد تكوين التوريد الدقيق والوثائق المطلوبة قبل الطلب.",
+      "quotation": "تفاصيل عرض السعر",
+      "quotationTitle": "التفاصيل المطلوبة مع استفسارك",
+      "quotationBody": "أرسل التوصيل وظروف التشغيل والكمية والوجهة لمراجعة التكوين المطلوب.",
+      "connection": "التوصيل",
+      "connectionBody": "حدد السن اللولبي والتوصيل المقابل المطلوب.",
+      "operatingRequirement": "ظروف التشغيل",
+      "operatingRequirementBody": "حدد ضغط المشروع وأي متطلبات لدرجة الحرارة أو التصريف.",
+      "orderInformation": "معلومات الطلب",
+      "orderInformationBody": "اذكر الكمية والوجهة والوثائق الفنية الدقيقة المطلوبة.",
+      "inquiryTitle": "اطلب تفاصيل المنتج وعرض السعر",
+      "inquiryBody": "اذكر مرجع المنتج والتوصيل والكمية والوجهة. أرسل مواصفات المشروع إن توفرت.",
+      "askOnWhatsApp": "استفسر عبر WhatsApp",
+      "emailSales": "راسل قسم المبيعات",
+      "productImagePreview": "معاينة صورة المنتج",
+      "closeImagePreview": "إغلاق معاينة الصورة",
+      "enlargedImage": "صورة مكبرة للمنتج",
+      "previousProductImage": "صورة المنتج السابقة",
+      "nextProductImage": "صورة المنتج التالية",
+      "selectProductImage": "اختر صورة المنتج",
+      "kFactor": "معامل K المتري الاسمي",
+      "threadForm": "التوصيل",
+      "configuration": "التكوين",
+      "workingPressure": "ضغط التشغيل",
+      "material": "مادة الإطار",
+      "unconfirmed": "التفاصيل متاحة عند الطلب",
+      "title": "رشاش حريق دوار مغلق",
+      "eyebrow": "رشاشات وفوهات خاصة لمكافحة الحريق",
+      "lead": "رشاش معلق مغلق بعنصر تشغيل زجاجي وبنية توزيع دوارة ومعامل K202 متري. التوصيل المؤكد سن خارجي R1 BSPT.",
+      "note": "تتوفر درجة حرارة التشغيل وضغط التشغيل وتصنيف الاستجابة وتغطية الرش عند الطلب للموديل المورّد المحدد.",
+      "seoTitle": "رشاش حريق دوار مغلق | CHUANWEI FIRE",
+      "seoDescription": "رشاش معلق مغلق بعنصر تشغيل زجاجي وبنية توزيع دوارة ومعامل K202 متري. التوصيل المؤكد سن خارجي R1 BSPT.",
+      "heroCaption": "عينة رشاش دوار B-DSXC-202",
+      "heroAlt": "عينة رشاش دوار B-DSXC-202",
+      "heroThumbnail": "عينة رشاش دوار B-DSXC-202",
+      "fact2": "سن خارجي R1 BSPT",
+      "fact3": "مغلق / معلق / دوار",
+      "fact4": "إطار من النحاس",
+      "fact5": "بصيلة زجاجية"
+    }
+  }
+}

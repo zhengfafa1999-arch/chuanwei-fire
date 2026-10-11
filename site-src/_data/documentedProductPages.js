@@ -1,3 +1,8 @@
+import { versionedProductImage } from '../lib/public-asset-versions.js';
+import { productPhotos } from '../lib/product-photos.js';
+import { withReviewedProductMedia } from '../lib/reviewed-product-media.js';
+import { withInquiryDrafts } from "../lib/inquiry.js";
+import { productSupplement } from "../lib/product-supplements.js";
 import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
@@ -30,7 +35,7 @@ function requireCopy(product, locale) {
 
 const products = fs.readdirSync(sourceDirectory)
   .filter(file => file.endsWith(".json"))
-  .map(file => readJson(path.join(sourceDirectory, file)))
+  .map(file => withReviewedProductMedia(readJson(path.join(sourceDirectory, file))))
   .concat(catalogExpansionProducts);
 
 export default products.flatMap(product => ["en", "ar"].map(locale => {
@@ -38,20 +43,28 @@ export default products.flatMap(product => ["en", "ar"].map(locale => {
   const text = { ...product.shared, ...requireCopy(product, locale) };
   const media = Object.fromEntries(Object.entries(product.media).map(([key, source]) => [
     key,
-    path.posix.relative(path.posix.dirname(route.outputPath), source)
+    versionedProductImage(source, path.posix.relative(path.posix.dirname(route.outputPath), source))
   ]));
   return {
-    product,
+    photos: productPhotos(product.routeId, locale, route.assetPrefix),
+    supplement: productSupplement(product.routeId, locale, route.assetPrefix),
+    product: withInquiryDrafts(product, text.title, route.canonical, locale),
     route,
     text,
     media,
+    downloads: (product.downloads || []).map(download => {
+      const bytes = fs.statSync(path.resolve(directory, "../..", download.path)).size;
+      const size = `${Math.ceil(bytes / 1024)} KB`;
+      const version = download.version || "2026-10-08";
+      return { ...download, href: path.posix.relative(path.posix.dirname(route.outputPath), download.path), metadata: locale === "ar" ? `نسخة ${version} · الإنجليزية · ${size}` : `Version ${version} · English · ${size}` };
+    }),
     lang: locale,
     dir: locale === "ar" ? "rtl" : "ltr",
     navigation: createSiteNavigation(product.routeId, locale, route.outputPath),
     seo: createSeoMetadata(product.routeId, locale, {
       title: text.seoTitle,
       description: text.seoDescription,
-      image: new URL(product.media.hero, `${SITE_ORIGIN}/`).href
+      image: new URL(versionedProductImage(product.media.hero), `${SITE_ORIGIN}/`).href
     })
   };
 }));

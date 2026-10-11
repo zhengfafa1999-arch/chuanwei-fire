@@ -1,0 +1,1088 @@
+[
+  {
+    "id": "06-01",
+    "title": "快速响应喷头",
+    "status": "现有可用资料本地核对；资料缺项另列，非全部技术参数重新认证",
+    "note": "BSPT/NPT、镀铬、每盒100个及上部不锈钢/螺纹体铜已按用户确认；本轮保留准确范围。",
+    "archivePackages": [
+      "K-ZST-series-68C-快速响应洒水喷头",
+      "K-ZST-series-93C-快速响应洒水喷头",
+      "K-ZST80系列-93℃Q3A快速响应洒水喷头"
+    ],
+    "products": [
+      {
+        "id": "glass-bulb-fire-sprinkler",
+        "source": "site-src/_data/documented-products/glass-bulb-fire-sprinkler.json",
+        "modelRows": 2,
+        "primaryMediaFiles": 3,
+        "reviewedCopyFields": 0,
+        "supplementConfigurations": 1,
+        "supplementFields": 3,
+        "routes": [
+          {
+            "lang": "en",
+            "output": "products/消防喷头/glass-bulb-fire-sprinkler.html"
+          },
+          {
+            "lang": "ar",
+            "output": "ar/products/glass-bulb-fire-sprinkler/index.html"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "06-02",
+    "title": "扩大覆盖喷头",
+    "status": "现有可用资料本地核对；资料缺项另列，非全部技术参数重新认证",
+    "note": "EC三方向、1.2 MPa、BSPT/NPT、镀铬已确认；K-ZST照片独立标记，不套用EC性能。",
+    "archivePackages": [
+      "EC-ZST系列-115-68℃-扩大覆盖洒水喷头"
+    ],
+    "products": [
+      {
+        "id": "extended-coverage-quick-response-fire-sprinkler",
+        "source": "site-src/_data/preserved-products/extended-coverage-quick-response-fire-sprinkler.json",
+        "modelRows": 3,
+        "primaryMediaFiles": 3,
+        "reviewedCopyFields": 1,
+        "supplementConfigurations": 1,
+        "supplementFields": 1,
+        "routes": [
+          {
+            "lang": "en",
+            "output": "products/消防喷头/extended-coverage-quick-response-fire-sprinkler.html"
+          },
+          {
+            "lang": "ar",
+            "output": "ar/products/extended-coverage-quick-response-fire-sprinkler/index.html"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "06-03",
+    "title": "隐蔽式喷头",
+    "status": "现有可用资料本地核对；资料缺项另列，非全部技术参数重新认证",
+    "note": "新增ZSTDY115-57°C Q5A八字段。该型号1.2 MPa为工作压力，不声明全系列最大压力；其他型号压力、NPT与盖板配对待资料。",
+    "archivePackages": [
+      "ZSTDY115-57C-Q5A-隐蔽式洒水喷头",
+      "ZSTDY115-79C-Q5A-隐蔽式洒水喷头",
+      "ZSTDY115-93C-Q5A-隐蔽式洒水喷头",
+      "ZSTDY80-141C-Q3A-隐蔽式洒水喷头",
+      "ZSTDY80-141C-Q5A-隐蔽式洒水喷头",
+      "ZSTDY80-57C-Q5A-隐蔽式洒水喷头",
+      "ZSTDY80-68℃-Q5A-隐蔽式消防洒水喷头",
+      "ZSTDY80-79C-Q5A-隐蔽式洒水喷头",
+      "ZSTDY80-93C-Q3A-隐蔽式洒水喷头",
+      "ZSTDY80-93℃-Q5A-隐蔽式消防洒水喷头",
+      "ZSTDY80系列-隐蔽式消防洒水喷头"
+    ],
+    "products": [
+      {
+        "id": "concealed-pendent-fire-sprinkler",
+        "source": "site-src/_data/preserved-products/concealed-pendent-fire-sprinkler.json",
+        "modelRows": 4,
+        "primaryMediaFiles": 6,
+        "reviewedCopyFields": 7,
+        "supplementConfigurations": 1,
+        "supplementFields": 8,
+        "routes": [
+          {
+            "lang": "en",
+            "output": "products/消防喷头/concealed-pendent-fire-sprinkler.html"
+          },
+          {
+            "lang": "ar",
+            "output": "ar/products/concealed-pendent-fire-sprinkler/index.html"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "06-04",
+    "title": "易熔合金喷头",
+    "status": "现有可用资料本地核对；资料缺项另列，非全部技术参数重新认证",
+    "note": "保留五档型号/温级与实拍；不套用玻璃球温级。连接、工作压力、表面处理及包装按具体订单核对。",
+    "archivePackages": [],
+    "products": [
+      {
+        "id": "fusible-alloy-fire-sprinklers",
+        "source": "site-src/_data/documented-products/fusible-alloy-fire-sprinklers.json",
+        "modelRows": 5,
+        "primaryMediaFiles": 2,
+        "reviewedCopyFields": 0,
+        "supplementConfigurations": 0,
+        "supplementFields": 0,
+        "routes": [
+          {
+            "lang": "en",
+            "output": "products/消防喷头/fusible-alloy-fire-sprinklers.html"
+          },
+          {
+            "lang": "ar",
+            "output": "ar/products/fusible-alloy-fire-sprinklers/index.html"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "06-05",
+    "title": "大K / ESFR喷头",
+    "status": "现有可用资料本地核对；资料缺项另列，非全部技术参数重新认证",
+    "note": "12行原型号保留；74°C易熔式/NPT与68°C K202/BSPT分开，删除无依据外箱100个。未匹配到精确K242/K363新实拍。",
+    "archivePackages": [
+      "ESFR-K202-68C-早期抑制快速响应喷头",
+      "ESFR系列-早期抑制快速响应洒水喷头",
+      "K-ZST161-68-Q3-161快速响应洒水喷头",
+      "K-ZST161-68-Q3-161快速响应消防喷头",
+      "K-ZST161系列-68℃Q3快速响应消防喷头",
+      "T-ZST161系列-68℃消防洒水喷头",
+      "ZST-K202-68C-Q5-1IN-3WAY-消防洒水喷头"
+    ],
+    "products": [
+      {
+        "id": "large-k-factor-esfr-sprinklers",
+        "source": "site-src/_data/preserved-products/large-k-factor-esfr-sprinklers.json",
+        "modelRows": 12,
+        "primaryMediaFiles": 7,
+        "reviewedCopyFields": 5,
+        "supplementConfigurations": 1,
+        "supplementFields": 4,
+        "routes": [
+          {
+            "lang": "en",
+            "output": "products/消防喷头/large-k-factor-esfr-sprinklers.html"
+          },
+          {
+            "lang": "ar",
+            "output": "ar/products/large-k-factor-esfr-sprinklers/index.html"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "06-06",
+    "title": "干式喷头",
+    "status": "现有可用资料本地核对；资料缺项另列，非全部技术参数重新认证",
+    "note": "R1/2 BSPT与100/145/300 mm已有精确型号补充；铜框架与不锈钢档案冲突，主规格改为按型号确认；材料冲突等待用户回复。",
+    "archivePackages": [
+      "T-ZSTGX80-K-ZSTGX80-干式喷头"
+    ],
+    "products": [
+      {
+        "id": "dry-pendent-fire-sprinklers",
+        "source": "site-src/_data/preserved-products/dry-pendent-fire-sprinklers.json",
+        "modelRows": 4,
+        "primaryMediaFiles": 4,
+        "reviewedCopyFields": 6,
+        "supplementConfigurations": 1,
+        "supplementFields": 3,
+        "routes": [
+          {
+            "lang": "en",
+            "output": "products/消防喷头/dry-pendent-fire-sprinklers.html"
+          },
+          {
+            "lang": "ar",
+            "output": "ar/products/dry-pendent-fire-sprinklers/index.html"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "06-07",
+    "title": "水雾喷头",
+    "status": "现有可用资料本地核对；资料缺项另列，非全部技术参数重新认证",
+    "note": "铜主体与不锈钢ZSTWB16/34/68-120°独立选型，连接/K值不交叉；铜型1.2 MPa不套用到不锈钢。",
+    "archivePackages": [
+      "mist-nozzle-4f-6f-20260922-离心式水雾喷头",
+      "ZSTM-B-SS304-304不锈钢单口水幕喷头",
+      "ZSTMB系列-不锈钢水幕喷头",
+      "ZSTM系列-双缝水幕喷头",
+      "ZSTWB-BSPT-不锈钢高速水雾喷头",
+      "ZSTWB系列-不锈钢水雾喷头",
+      "ZSTWC系列-不锈钢中速水雾喷头",
+      "ZSTWC系列-撞击式水雾喷头"
+    ],
+    "products": [
+      {
+        "id": "water-mist-nozzles",
+        "source": "site-src/_data/products/water-mist-nozzles.json",
+        "modelRows": 6,
+        "primaryMediaFiles": 5,
+        "reviewedCopyFields": 0,
+        "supplementConfigurations": 3,
+        "supplementFields": 15,
+        "routes": [
+          {
+            "lang": "en",
+            "output": "products/消防喷头/water-mist-nozzles.html"
+          },
+          {
+            "lang": "ar",
+            "output": "ar/products/water-mist-nozzles/index.html"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "06-08",
+    "title": "水幕喷头",
+    "status": "现有可用资料本地核对；资料缺项另列，非全部技术参数重新认证",
+    "note": "铜、304单槽和ZSTMB各自保留K值、压力、连接；安装间距及系统计算须按具体型号文件。",
+    "archivePackages": [
+      "mist-nozzle-4f-6f-20260922-离心式水雾喷头",
+      "ZSTM-B-SS304-304不锈钢单口水幕喷头",
+      "ZSTMB系列-不锈钢水幕喷头",
+      "ZSTM系列-双缝水幕喷头",
+      "ZSTWB-BSPT-不锈钢高速水雾喷头",
+      "ZSTWB系列-不锈钢水雾喷头",
+      "ZSTWC系列-不锈钢中速水雾喷头",
+      "ZSTWC系列-撞击式水雾喷头"
+    ],
+    "products": [
+      {
+        "id": "water-curtain-nozzles",
+        "source": "site-src/_data/products/water-curtain-nozzles.json",
+        "modelRows": 6,
+        "primaryMediaFiles": 3,
+        "reviewedCopyFields": 0,
+        "supplementConfigurations": 6,
+        "supplementFields": 36,
+        "routes": [
+          {
+            "lang": "en",
+            "output": "products/消防喷头/water-curtain-nozzles.html"
+          },
+          {
+            "lang": "ar",
+            "output": "ar/products/water-curtain-nozzles/index.html"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "06-09",
+    "title": "湿式报警阀",
+    "status": "现有可用资料本地核对；资料缺项另列，非全部技术参数重新认证",
+    "note": "七行口径/连接与1.6 MPa、QT450-10、EPDM等已确认项保留；新沟槽档案未映射压力不替换旧型号。安装方向及流向待型号文件。",
+    "archivePackages": [
+      "ZSFZ-G-沟槽式湿式报警阀",
+      "zsfz100-flanged-wet-alarm-valve"
+    ],
+    "products": [
+      {
+        "id": "wet-alarm-check-valve",
+        "source": "site-src/_data/products/wet-alarm-check-valve.json",
+        "modelRows": 7,
+        "primaryMediaFiles": 2,
+        "reviewedCopyFields": 0,
+        "supplementConfigurations": 0,
+        "supplementFields": 0,
+        "routes": [
+          {
+            "lang": "en",
+            "output": "products/消防阀/wet-alarm-check-valve-assemblies.html"
+          },
+          {
+            "lang": "ar",
+            "output": "ar/products/wet-alarm-check-valve/index.html"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "06-10",
+    "title": "雨淋阀",
+    "status": "现有可用资料本地核对；资料缺项另列，非全部技术参数重新认证",
+    "note": "11行型号、两组DN200参考高度和各型配管范围保留；不新增ASTM自动等同。",
+    "archivePackages": [
+      "DN150-不锈钢雨淋报警阀",
+      "DN200-雨淋报警阀",
+      "DN300-雨淋报警阀",
+      "ZSFM系列-沟槽型雨淋报警阀",
+      "ZSFM系列-法兰型雨淋报警阀",
+      "ZSFM系列-雨淋报警阀"
+    ],
+    "products": [
+      {
+        "id": "diaphragm-deluge-valves",
+        "source": "site-src/_data/preserved-products/diaphragm-deluge-valves.json",
+        "modelRows": 11,
+        "primaryMediaFiles": 2,
+        "reviewedCopyFields": 3,
+        "supplementConfigurations": 0,
+        "supplementFields": 0,
+        "routes": [
+          {
+            "lang": "en",
+            "output": "products/消防阀/diaphragm-deluge-valves.html"
+          },
+          {
+            "lang": "ar",
+            "output": "ar/products/diaphragm-deluge-valves/index.html"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "06-11",
+    "title": "预作用装置",
+    "status": "现有可用资料本地核对；资料缺项另列，非全部技术参数重新认证",
+    "note": "九行型号；用户确认全型号共用七项材料/电压/公称压力；公称1.6 MPa不写成最大工作或试验压力。法兰/沟槽图都保留。",
+    "archivePackages": [
+      "DN150-新款预作用装置",
+      "ZSFY100G-ZSFY150G-ZSFY200G-沟槽式预作用装置",
+      "ZSFY200G-预作用装置",
+      "ZSFY系列-法兰式预作用装置"
+    ],
+    "products": [
+      {
+        "id": "preaction-valve-assemblies",
+        "source": "site-src/_data/preserved-products/preaction-valve-assemblies.json",
+        "modelRows": 9,
+        "primaryMediaFiles": 1,
+        "reviewedCopyFields": 3,
+        "supplementConfigurations": 1,
+        "supplementFields": 7,
+        "routes": [
+          {
+            "lang": "en",
+            "output": "products/消防阀/preaction-valve-assemblies.html"
+          },
+          {
+            "lang": "ar",
+            "output": "ar/products/preaction-valve-assemblies/index.html"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "06-12",
+    "title": "干式报警阀",
+    "status": "现有可用资料本地核对；资料缺项另列，非全部技术参数重新认证",
+    "note": "三行型号；已有不锈钢阀内件及对应压力范围保留，ZSFC200压力与报告范围未确认不套用。",
+    "archivePackages": [
+      "ZSFC系列-干式报警阀"
+    ],
+    "products": [
+      {
+        "id": "dry-pipe-alarm-valves",
+        "source": "site-src/_data/preserved-products/dry-pipe-alarm-valves.json",
+        "modelRows": 3,
+        "primaryMediaFiles": 1,
+        "reviewedCopyFields": 3,
+        "supplementConfigurations": 1,
+        "supplementFields": 4,
+        "routes": [
+          {
+            "lang": "en",
+            "output": "products/消防阀/dry-pipe-alarm-valves.html"
+          },
+          {
+            "lang": "ar",
+            "output": "ar/products/dry-pipe-alarm-valves/index.html"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "06-13",
+    "title": "水流指示器",
+    "status": "现有可用资料本地核对；资料缺项另列，非全部技术参数重新认证",
+    "note": "已有ZSJZ型号、外径及电气选型保留；新50/65档案范围未匹配不替换现有压力或材料。",
+    "archivePackages": [
+      "a61-rp-一体式测试排水阀带观察窗",
+      "zsjz-50-65-流水指示器",
+      "ZSPM系列-末端试水装置"
+    ],
+    "products": [
+      {
+        "id": "saddle-type-waterflow-switches",
+        "source": "site-src/_data/documented-products/saddle-type-waterflow-switches.json",
+        "modelRows": 7,
+        "primaryMediaFiles": 1,
+        "reviewedCopyFields": 0,
+        "supplementConfigurations": 0,
+        "supplementFields": 0,
+        "routes": [
+          {
+            "lang": "en",
+            "output": "products/消防阀/saddle-type-waterflow-switches.html"
+          },
+          {
+            "lang": "ar",
+            "output": "ar/products/saddle-type-waterflow-switches/index.html"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "06-14",
+    "title": "消防蝶阀",
+    "status": "现有可用资料本地核对；资料缺项另列，非全部技术参数重新认证",
+    "note": "沟槽、对夹、信号、手柄分别核对；DN250目录误放DN150资料不用于DN250。",
+    "archivePackages": [
+      "ZSDF-沟槽式消防信号蝶阀",
+      "ZSDF7-Q系列-对夹式消防蝶阀",
+      "ZSXDF7-Q-DN150-对夹式消防信号蝶阀",
+      "ZSXDF7-Q-DN250-对夹式消防信号蝶阀",
+      "ZSXDF7-Q系列-对夹式消防信号蝶阀",
+      "ZSXDF8-Q系列-沟槽式消防信号蝶阀"
+    ],
+    "products": [
+      {
+        "id": "grooved-supervisory-butterfly-valves",
+        "source": "site-src/_data/preserved-products/grooved-supervisory-butterfly-valves.json",
+        "modelRows": 3,
+        "primaryMediaFiles": 1,
+        "reviewedCopyFields": 1,
+        "supplementConfigurations": 0,
+        "supplementFields": 0,
+        "routes": [
+          {
+            "lang": "en",
+            "output": "products/消防蝶阀/grooved-supervisory-butterfly-valves.html"
+          },
+          {
+            "lang": "ar",
+            "output": "ar/products/grooved-supervisory-butterfly-valves/index.html"
+          }
+        ]
+      },
+      {
+        "id": "wafer-supervisory-butterfly-valves",
+        "source": "site-src/_data/preserved-products/wafer-supervisory-butterfly-valves.json",
+        "modelRows": 3,
+        "primaryMediaFiles": 1,
+        "reviewedCopyFields": 1,
+        "supplementConfigurations": 1,
+        "supplementFields": 3,
+        "routes": [
+          {
+            "lang": "en",
+            "output": "products/消防蝶阀/wafer-supervisory-butterfly-valves.html"
+          },
+          {
+            "lang": "ar",
+            "output": "ar/products/wafer-supervisory-butterfly-valves/index.html"
+          }
+        ]
+      },
+      {
+        "id": "lever-operated-grooved-butterfly-valves",
+        "source": "site-src/_data/preserved-products/lever-operated-grooved-butterfly-valves.json",
+        "modelRows": 7,
+        "primaryMediaFiles": 1,
+        "reviewedCopyFields": 1,
+        "supplementConfigurations": 0,
+        "supplementFields": 0,
+        "routes": [
+          {
+            "lang": "en",
+            "output": "products/消防蝶阀/lever-operated-grooved-butterfly-valves.html"
+          },
+          {
+            "lang": "ar",
+            "output": "ar/products/lever-operated-grooved-butterfly-valves/index.html"
+          }
+        ]
+      },
+      {
+        "id": "lever-operated-wafer-butterfly-valves",
+        "source": "site-src/_data/preserved-products/lever-operated-wafer-butterfly-valves.json",
+        "modelRows": 7,
+        "primaryMediaFiles": 1,
+        "reviewedCopyFields": 1,
+        "supplementConfigurations": 0,
+        "supplementFields": 0,
+        "routes": [
+          {
+            "lang": "en",
+            "output": "products/消防蝶阀/lever-operated-wafer-butterfly-valves.html"
+          },
+          {
+            "lang": "ar",
+            "output": "ar/products/lever-operated-wafer-butterfly-valves/index.html"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "06-15",
+    "title": "消防闸阀",
+    "status": "现有可用资料本地核对；资料缺项另列，非全部技术参数重新认证",
+    "note": "NRS/OS&Y/法兰信号/沟槽信号原尺寸、材质、压力与照片分开；已有资料不重复生成配置卡片。",
+    "archivePackages": [
+      "FHGV25-BS336-300PSI-CU-消防水带闸阀",
+      "ZSXZF4系列-法兰式消防信号闸阀",
+      "ZSXZF8系列-沟槽式消防信号闸阀",
+      "ZSZF4-Q系列-消防法兰明杆闸阀",
+      "ZSZF4-Q系列-蓝色消防法兰暗杆闸阀"
+    ],
+    "products": [
+      {
+        "id": "nrs-gate-valves",
+        "source": "site-src/_data/preserved-products/nrs-gate-valves.json",
+        "modelRows": 12,
+        "primaryMediaFiles": 1,
+        "reviewedCopyFields": 0,
+        "supplementConfigurations": 0,
+        "supplementFields": 0,
+        "routes": [
+          {
+            "lang": "en",
+            "output": "products/消防阀门/nrs-gate-valves.html"
+          },
+          {
+            "lang": "ar",
+            "output": "ar/products/nrs-gate-valves/index.html"
+          }
+        ]
+      },
+      {
+        "id": "osy-gate-valves",
+        "source": "site-src/_data/preserved-products/osy-gate-valves.json",
+        "modelRows": 5,
+        "primaryMediaFiles": 1,
+        "reviewedCopyFields": 0,
+        "supplementConfigurations": 0,
+        "supplementFields": 0,
+        "routes": [
+          {
+            "lang": "en",
+            "output": "products/消防阀门/osy-gate-valves.html"
+          },
+          {
+            "lang": "ar",
+            "output": "ar/products/osy-gate-valves/index.html"
+          }
+        ]
+      },
+      {
+        "id": "flanged-supervisory-gate-valves",
+        "source": "site-src/_data/preserved-products/flanged-supervisory-gate-valves.json",
+        "modelRows": 6,
+        "primaryMediaFiles": 1,
+        "reviewedCopyFields": 0,
+        "supplementConfigurations": 0,
+        "supplementFields": 0,
+        "routes": [
+          {
+            "lang": "en",
+            "output": "products/消防阀门/flanged-supervisory-gate-valves.html"
+          },
+          {
+            "lang": "ar",
+            "output": "ar/products/flanged-supervisory-gate-valves/index.html"
+          }
+        ]
+      },
+      {
+        "id": "grooved-supervisory-gate-valves",
+        "source": "site-src/_data/preserved-products/grooved-supervisory-gate-valves.json",
+        "modelRows": 6,
+        "primaryMediaFiles": 1,
+        "reviewedCopyFields": 0,
+        "supplementConfigurations": 0,
+        "supplementFields": 0,
+        "routes": [
+          {
+            "lang": "en",
+            "output": "products/消防阀门/grooved-supervisory-gate-valves.html"
+          },
+          {
+            "lang": "ar",
+            "output": "ar/products/grooved-supervisory-gate-valves/index.html"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "06-16",
+    "title": "消防卷盘",
+    "status": "现有可用资料本地核对；资料缺项另列，非全部技术参数重新认证",
+    "note": "压力、长度、不同卷盘板厚及RIA25连接分别保留；认证版本、轴材质、安装孔等有资料缺项时按订单核对。",
+    "archivePackages": [
+      "JPS0.8-19-D系列-直流喷雾消防软管卷盘",
+      "JPS0.8-19系列-消防软管卷盘",
+      "JPS1.0-19-E系列-直流喷雾消防软管卷盘",
+      "JPS1.0-19系列-消防软管卷盘",
+      "JPS1.6-19-F系列-直流喷雾消防软管卷盘",
+      "JPS1.6-19系列-消防软管卷盘",
+      "RIA25-20M-消防软管卷盘",
+      "RIA25-25M-消防软管卷盘",
+      "RIA25-30M-消防软管卷盘",
+      "SN65-Y-SNZ65-Y系列-卷盘消火栓"
+    ],
+    "products": [
+      {
+        "id": "straight-stream-fire-hose-reel",
+        "source": "site-src/_data/preserved-products/straight-stream-fire-hose-reel.json",
+        "modelRows": 9,
+        "primaryMediaFiles": 3,
+        "reviewedCopyFields": 1,
+        "supplementConfigurations": 0,
+        "supplementFields": 0,
+        "routes": [
+          {
+            "lang": "en",
+            "output": "products/软管卷盘/straight-stream-fire-hose-reel.html"
+          },
+          {
+            "lang": "ar",
+            "output": "ar/products/straight-stream-fire-hose-reel/index.html"
+          }
+        ]
+      },
+      {
+        "id": "jet-spray-fire-hose-reel",
+        "source": "site-src/_data/preserved-products/jet-spray-fire-hose-reel.json",
+        "modelRows": 9,
+        "primaryMediaFiles": 2,
+        "reviewedCopyFields": 1,
+        "supplementConfigurations": 0,
+        "supplementFields": 0,
+        "routes": [
+          {
+            "lang": "en",
+            "output": "products/软管卷盘/jet-spray-fire-hose-reel.html"
+          },
+          {
+            "lang": "ar",
+            "output": "ar/products/jet-spray-fire-hose-reel/index.html"
+          }
+        ]
+      },
+      {
+        "id": "heavy-duty-fire-hose-reel",
+        "source": "site-src/_data/preserved-products/heavy-duty-fire-hose-reel.json",
+        "modelRows": 6,
+        "primaryMediaFiles": 1,
+        "reviewedCopyFields": 1,
+        "supplementConfigurations": 0,
+        "supplementFields": 0,
+        "routes": [
+          {
+            "lang": "en",
+            "output": "products/软管卷盘/heavy-duty-fire-hose-reel.html"
+          },
+          {
+            "lang": "ar",
+            "output": "ar/products/heavy-duty-fire-hose-reel/index.html"
+          }
+        ]
+      },
+      {
+        "id": "ria25-fire-hose-reel",
+        "source": "site-src/_data/preserved-products/ria25-fire-hose-reel.json",
+        "modelRows": 3,
+        "primaryMediaFiles": 4,
+        "reviewedCopyFields": 1,
+        "supplementConfigurations": 0,
+        "supplementFields": 0,
+        "routes": [
+          {
+            "lang": "en",
+            "output": "products/软管卷盘/ria25-fire-hose-reel.html"
+          },
+          {
+            "lang": "ar",
+            "output": "ar/products/ria25-fire-hose-reel/index.html"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "06-17",
+    "title": "消防水枪",
+    "status": "现有可用资料本地核对；资料缺项另列，非全部技术参数重新认证",
+    "note": "QZ/俄式/英式分别保留压力、额定喷射压力和流量条件；BS336、NH/NST、BSPP不当作通用接口。",
+    "archivePackages": [
+      "2IN-2.5IN系列-杠杆式消防水枪",
+      "2P5-BSP-直流喷雾水枪",
+      "51-66系列-俄式直流水枪",
+      "51-66系列-水磨俄式直流水枪",
+      "51-66系列-涂层俄式直流水枪",
+      "DN50-2IN-长型直流消防水枪",
+      "GOST-2in-2.5in-直流喷雾消防水枪",
+      "NH15-旋转可调式直流喷雾消防水枪头",
+      "QLD6.0-6.5-I-直流喷雾水枪",
+      "QZ3.5-7.5-直流水枪",
+      "STORZ-JET-SPRAY-FULL-德式黄铜直流喷雾消防水枪",
+      "SUNPOOL-1.5-BSPP-16-黄铜旋转可调消防喷雾水枪"
+    ],
+    "products": [
+      {
+        "id": "straight-stream-fire-hose-nozzles",
+        "source": "site-src/_data/documented-products/straight-stream-fire-hose-nozzles.json",
+        "modelRows": 2,
+        "primaryMediaFiles": 2,
+        "reviewedCopyFields": 0,
+        "supplementConfigurations": 3,
+        "supplementFields": 19,
+        "routes": [
+          {
+            "lang": "en",
+            "output": "products/消防水枪/straight-stream-fire-hose-nozzles.html"
+          },
+          {
+            "lang": "ar",
+            "output": "ar/products/straight-stream-fire-hose-nozzles/index.html"
+          }
+        ]
+      },
+      {
+        "id": "lever-operated-fire-hose-nozzles",
+        "source": "site-src/_data/documented-products/lever-operated-fire-hose-nozzles.json",
+        "modelRows": 5,
+        "primaryMediaFiles": 2,
+        "reviewedCopyFields": 0,
+        "supplementConfigurations": 2,
+        "supplementFields": 8,
+        "routes": [
+          {
+            "lang": "en",
+            "output": "products/消防水枪/lever-operated-fire-hose-nozzles.html"
+          },
+          {
+            "lang": "ar",
+            "output": "ar/products/lever-operated-fire-hose-nozzles/index.html"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "06-18",
+    "title": "消防接口",
+    "status": "现有可用资料本地核对；资料缺项另列，非全部技术参数重新认证",
+    "note": "KD50/KD65、英式瞬时、NH/NST各自补充；尾径、公称口径和连接轮廓不混用，缺实拍时标示代表图片。",
+    "archivePackages": [
+      "2.5NH-消防水带接头",
+      "8-65-25-有衬里消防水带",
+      "BS336-JM-series-英式瞬时消防水带接口",
+      "KD50-KD65-内扣式消防接口",
+      "KD66-俄式消防接口",
+      "NH-NST-25-2.5英寸NH-NST黄铜消防水带内胀接头",
+      "QG-MS-BP系列-自动消防水带插针架"
+    ],
+    "products": [
+      {
+        "id": "kd-hose-couplings",
+        "source": "catalogExpansion.js",
+        "status": "已有目录扩展页与独立配置补充，未新增产品事实"
+      },
+      {
+        "id": "catalog-fire-hose-couplings-page-20",
+        "source": "catalogExpansion.js",
+        "status": "已有目录扩展页与独立配置补充，未新增产品事实"
+      }
+    ]
+  },
+  {
+    "id": "06-19",
+    "title": "室内栓及出口消防阀",
+    "status": "现有可用资料本地核对；资料缺项另列，非全部技术参数重新认证",
+    "note": "SN65/SNZW及出口HS/HSW接口和各自压力范围保留；型号搜索及实际接口图片对应。",
+    "archivePackages": [
+      "16K50-16K65-室内消火栓阀",
+      "1IN-PN16-黄铜角式消防栓阀",
+      "65-16K-65-双阀双出口室内消火栓",
+      "A155Y005-2½英寸黄铜消防压力限制角阀",
+      "DN65-BS336-PN16-黄铜斜式螺纹消防栓阀",
+      "QG-MS-HSW-011-横向手轮螺纹式消防栓阀",
+      "SN65-室内消火栓",
+      "SNW65-III-外贸型单出口斜式消防栓阀",
+      "SNW65系列-减压稳压室内消火栓",
+      "SNZW65系列-旋转减压稳压室内消火栓",
+      "无展示型号-法兰式直角消防栓阀"
+    ],
+    "products": [
+      {
+        "id": "standard-indoor-hydrant",
+        "source": "site-src/_data/preserved-products/standard-indoor-hydrant.json",
+        "modelRows": 1,
+        "primaryMediaFiles": 7,
+        "reviewedCopyFields": 0,
+        "supplementConfigurations": 0,
+        "supplementFields": 0,
+        "routes": [
+          {
+            "lang": "en",
+            "output": "products/室内消防栓/standard-indoor-hydrant.html"
+          },
+          {
+            "lang": "ar",
+            "output": "ar/products/standard-indoor-hydrant/index.html"
+          }
+        ]
+      },
+      {
+        "id": "rotating-pressure-regulating-hydrant",
+        "source": "site-src/_data/preserved-products/rotating-pressure-regulating-hydrant.json",
+        "modelRows": 6,
+        "primaryMediaFiles": 1,
+        "reviewedCopyFields": 0,
+        "supplementConfigurations": 1,
+        "supplementFields": 1,
+        "routes": [
+          {
+            "lang": "en",
+            "output": "products/室内消防栓/rotating-pressure-regulating-hydrant.html"
+          },
+          {
+            "lang": "ar",
+            "output": "ar/products/rotating-pressure-regulating-hydrant/index.html"
+          }
+        ]
+      },
+      {
+        "id": "double-outlet-hydrant",
+        "source": "site-src/_data/preserved-products/double-outlet-hydrant.json",
+        "modelRows": 0,
+        "primaryMediaFiles": 1,
+        "reviewedCopyFields": 0,
+        "supplementConfigurations": 0,
+        "supplementFields": 0,
+        "routes": [
+          {
+            "lang": "en",
+            "output": "products/室内消防栓/double-outlet-hydrant.html"
+          },
+          {
+            "lang": "ar",
+            "output": "ar/products/double-outlet-hydrant/index.html"
+          }
+        ]
+      },
+      {
+        "id": "export-slanted-hydrant-valve",
+        "source": "site-src/_data/preserved-products/export-slanted-hydrant-valve.json",
+        "modelRows": 0,
+        "primaryMediaFiles": 2,
+        "reviewedCopyFields": 0,
+        "supplementConfigurations": 0,
+        "supplementFields": 0,
+        "routes": [
+          {
+            "lang": "en",
+            "output": "products/室内消防栓/export-slanted-hydrant-valve.html"
+          },
+          {
+            "lang": "ar",
+            "output": "ar/products/export-slanted-hydrant-valve/index.html"
+          }
+        ]
+      },
+      {
+        "id": "horizontal-handwheel-landing-valves",
+        "source": "site-src/_data/documented-products/horizontal-handwheel-landing-valves.json",
+        "modelRows": 5,
+        "primaryMediaFiles": 2,
+        "reviewedCopyFields": 0,
+        "supplementConfigurations": 0,
+        "supplementFields": 0,
+        "routes": [
+          {
+            "lang": "en",
+            "output": "products/室内消防栓/horizontal-handwheel-landing-valves.html"
+          },
+          {
+            "lang": "ar",
+            "output": "ar/products/horizontal-handwheel-landing-valves/index.html"
+          }
+        ]
+      },
+      {
+        "id": "straight-through-oblique-landing-valves",
+        "source": "site-src/_data/documented-products/straight-through-oblique-landing-valves.json",
+        "modelRows": 5,
+        "primaryMediaFiles": 3,
+        "reviewedCopyFields": 0,
+        "supplementConfigurations": 0,
+        "supplementFields": 0,
+        "routes": [
+          {
+            "lang": "en",
+            "output": "products/室内消防栓/straight-through-oblique-landing-valves.html"
+          },
+          {
+            "lang": "ar",
+            "output": "ar/products/straight-through-oblique-landing-valves/index.html"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "06-20",
+    "title": "室外消火栓",
+    "status": "现有可用资料本地核对；资料缺项另列，非全部技术参数重新认证",
+    "note": "各国样式分列；BS750档案20/32 kg冲突暂不新增重量，不从名称推定国外认证。",
+    "archivePackages": [
+      "BS-750-英式室外消火栓",
+      "UNI-DN100-意大利标准湿式消火栓"
+    ],
+    "products": [
+      {
+        "id": "bs750-pillar-hydrant",
+        "source": "site-src/_data/preserved-products/bs750-pillar-hydrant.json",
+        "modelRows": 5,
+        "primaryMediaFiles": 2,
+        "reviewedCopyFields": 0,
+        "supplementConfigurations": 0,
+        "supplementFields": 0,
+        "routes": [
+          {
+            "lang": "en",
+            "output": "products/室外消防栓/bs750-pillar-hydrant.html"
+          },
+          {
+            "lang": "ar",
+            "output": "ar/products/bs750-pillar-hydrant/index.html"
+          }
+        ]
+      },
+      {
+        "id": "french-pattern-hydrant",
+        "source": "site-src/_data/preserved-products/french-pattern-hydrant.json",
+        "modelRows": 5,
+        "primaryMediaFiles": 2,
+        "reviewedCopyFields": 0,
+        "supplementConfigurations": 0,
+        "supplementFields": 0,
+        "routes": [
+          {
+            "lang": "en",
+            "output": "products/室外消防栓/french-pattern-hydrant.html"
+          },
+          {
+            "lang": "ar",
+            "output": "ar/products/french-pattern-hydrant/index.html"
+          }
+        ]
+      },
+      {
+        "id": "indonesian-pattern-hydrant",
+        "source": "site-src/_data/preserved-products/indonesian-pattern-hydrant.json",
+        "modelRows": 5,
+        "primaryMediaFiles": 2,
+        "reviewedCopyFields": 0,
+        "supplementConfigurations": 0,
+        "supplementFields": 0,
+        "routes": [
+          {
+            "lang": "en",
+            "output": "products/室外消防栓/indonesian-pattern-hydrant.html"
+          },
+          {
+            "lang": "ar",
+            "output": "ar/products/indonesian-pattern-hydrant/index.html"
+          }
+        ]
+      },
+      {
+        "id": "russian-pattern-hydrant",
+        "source": "site-src/_data/preserved-products/russian-pattern-hydrant.json",
+        "modelRows": 5,
+        "primaryMediaFiles": 2,
+        "reviewedCopyFields": 0,
+        "supplementConfigurations": 0,
+        "supplementFields": 0,
+        "routes": [
+          {
+            "lang": "en",
+            "output": "products/室外消防栓/russian-pattern-hydrant.html"
+          },
+          {
+            "lang": "ar",
+            "output": "ar/products/russian-pattern-hydrant/index.html"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "06-21",
+    "title": "水泵接合器及FDC",
+    "status": "现有可用资料本地核对；资料缺项另列，非全部技术参数重新认证",
+    "note": "俄式和NH/NST双口进水口保持各自连接要求；不拿国内SQD/SQS照片补出口配置。",
+    "archivePackages": [
+      "65-16K-65-俄式消防水泵接合器",
+      "FDC-2W-美式双口消防队进水口",
+      "QG-MS-GS-010-英式双口消防队进水口",
+      "型号待确认-双口消防进水接合器"
+    ],
+    "products": [
+      {
+        "id": "russian-pattern-fire-department-connection",
+        "source": "site-src/_data/documented-products/russian-pattern-fire-department-connection.json",
+        "modelRows": 1,
+        "primaryMediaFiles": 1,
+        "reviewedCopyFields": 0,
+        "supplementConfigurations": 0,
+        "supplementFields": 0,
+        "routes": [
+          {
+            "lang": "en",
+            "output": "products/消防水泵接合器/russian-pattern-fire-department-connection.html"
+          },
+          {
+            "lang": "ar",
+            "output": "ar/products/russian-pattern-fire-department-connection/index.html"
+          }
+        ]
+      },
+      {
+        "id": "catalog-twin-outlet-fire-connections-page-13",
+        "source": "catalogExpansion.js",
+        "status": "已有目录扩展页与独立配置补充，未新增产品事实"
+      }
+    ]
+  },
+  {
+    "id": "06-22",
+    "title": "消防器材箱",
+    "status": "现有可用资料本地核对；资料缺项另列，非全部技术参数重新认证",
+    "note": "四配置及六组尺寸保留H×W×D(mm)，配置图标示为示意；未确认钢板厚度、内装及耐火等级不补造。",
+    "archivePackages": [],
+    "products": [
+      {
+        "id": "fire-equipment-cabinets",
+        "source": "site-src/_data/documented-products/fire-equipment-cabinets.json",
+        "modelRows": 6,
+        "primaryMediaFiles": 4,
+        "reviewedCopyFields": 0,
+        "supplementConfigurations": 0,
+        "supplementFields": 0,
+        "routes": [
+          {
+            "lang": "en",
+            "output": "products/消防器材箱/fire-equipment-cabinets.html"
+          },
+          {
+            "lang": "ar",
+            "output": "ar/products/fire-equipment-cabinet-series/index.html"
+          }
+        ]
+      }
+    ]
+  }
+]

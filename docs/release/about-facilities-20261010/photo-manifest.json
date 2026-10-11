@@ -1,0 +1,215 @@
+{
+  "date": "2026-10-10",
+  "authorization": "User supplied eight real facility photographs, identified categories, and requested photo optimization and About integration.",
+  "processing": "Original photographs; proportional resize and WebP encoding only. No crop, retouch, generated detail or embedded watermark. CSS brightness(1.06) and HTML brand overlay apply only to page display.",
+  "photos": [
+    {
+      "id": "showroom-hydrants",
+      "userImage": 1,
+      "category": "展厅",
+      "source": "docs/release/about-facilities-20261010/source/showroom-hydrants.jpg",
+      "width": 1702,
+      "height": 1276,
+      "bytes": 227039,
+      "sha256": "59af156543775d819a50404fbc296a3c3c38167b17faf0db853b5bf60be83d3e",
+      "variants": [
+        {
+          "path": "assets/about/facilities-20261010/showroom-hydrants-640.webp",
+          "width": 640,
+          "height": 480,
+          "bytes": 38104,
+          "sha256": "2b0cd23054830e983b22ced213b6f9373ee5022e3099b74a73a4ed5a79e5ffd0"
+        },
+        {
+          "path": "assets/about/facilities-20261010/showroom-hydrants-1600.webp",
+          "width": 1600,
+          "height": 1200,
+          "bytes": 157008,
+          "sha256": "af15eea3f32531551070f18655b1ae336e274602434d74d70e111c78142793f1"
+        }
+      ]
+    },
+    {
+      "id": "showroom-range",
+      "userImage": 2,
+      "category": "展厅",
+      "source": "docs/release/about-facilities-20261010/source/showroom-range.jpg",
+      "width": 1702,
+      "height": 1276,
+      "bytes": 219635,
+      "sha256": "5583a472ae5b25f39f735f8e34aafa16c2d446e54c694d5d35ea0a2fbf8bbc49",
+      "variants": [
+        {
+          "path": "assets/about/facilities-20261010/showroom-range-640.webp",
+          "width": 640,
+          "height": 480,
+          "bytes": 35608,
+          "sha256": "d4acd6785601ffc53b50f8452798381e108d4c702c707f1ffb4322fe39f50699"
+        },
+        {
+          "path": "assets/about/facilities-20261010/showroom-range-1600.webp",
+          "width": 1600,
+          "height": 1200,
+          "bytes": 151996,
+          "sha256": "eef02d1caeca38b6e24f75af1f229fb640207a489c5189fbac09abfe7da6e92d"
+        }
+      ]
+    },
+    {
+      "id": "office",
+      "userImage": 3,
+      "category": "办公室",
+      "source": "docs/release/about-facilities-20261010/source/office.jpg",
+      "width": 1702,
+      "height": 1276,
+      "bytes": 291245,
+      "sha256": "65713128664308f6b82a22e100814fbce79c0999b0889961c2c11670e88c5992",
+      "variants": [
+        {
+          "path": "assets/about/facilities-20261010/office-640.webp",
+          "width": 640,
+          "height": 480,
+          "bytes": 44182,
+          "sha256": "90bc3effda77f5bf74cd042f75783f33a19ee8bb14b1c8a346d31e6894092dd4"
+        },
+        {
+          "path": "assets/about/facilities-20261010/office-1600.webp",
+          "width": 1600,
+          "height": 1200,
+          "bytes": 211732,
+          "sha256": "559cf0ac08c6720db6b55600d8533a9a9531ca7b443a4ed772d6dc40f2e31b5f"
+        }
+      ]
+    },
+    {
+      "id": "warehouse-crates",
+      "userImage": 4,
+      "category": "仓库",
+      "source": "docs/release/about-facilities-20261010/source/warehouse-crates.jpg",
+      "width": 1702,
+      "height": 1276,
+      "bytes": 383144,
+      "sha256": "903a3031cca9e9ce64e41c86307b42b349185871a94223f46f7a68a0213993b8",
+      "variants": [
+        {
+          "path": "assets/about/facilities-20261010/warehouse-crates-640.webp",
+          "width": 640,
+          "height": 480,
+          "bytes": 68002,
+          "sha256": "b3b4c620238850393705eaa1b0638cf6733d802402f4f4de22a8db833d1133de"
+        },
+        {
+          "path": "assets/about/facilities-20261010/warehouse-crates-1600.webp",
+          "width": 1600,
+          "height": 1200,
+          "bytes": 313308,
+          "sha256": "a633acbc98c4158f248abb89faa2e55e9d17f5d9d721ff4f8b425affd9127d71"
+        }
+      ]
+    },
+    {
+      "id": "workshop-overview",
+      "userImage": 5,
+      "category": "生产加工车间",
+      "source": "docs/release/about-facilities-20261010/source/workshop-overview.jpg",
+      "width": 1702,
+      "height": 1276,
+      "bytes": 506453,
+      "sha256": "6aef4e6ec1a3e53bb8a4c15c6b7873c74fb24853b69a8b01c29392b0c2558bf6",
+      "variants": [
+        {
+          "path": "assets/about/facilities-20261010/workshop-overview-640.webp",
+          "width": 640,
+          "height": 480,
+          "bytes": 86204,
+          "sha256": "3bcc9882d60c822d951f431edb6c947c84f359f562aff4f0eb37ec531a8896b7"
+        },
+        {
+          "path": "assets/about/facilities-20261010/workshop-overview-1600.webp",
+          "width": 1600,
+          "height": 1200,
+          "bytes": 458600,
+          "sha256": "8524906a4598085a2aa9bfe7ab001e48882ab3d319884450d694ebe917921a8d"
+        }
+      ]
+    },
+    {
+      "id": "workshop-components",
+      "userImage": 6,
+      "category": "生产加工车间",
+      "source": "docs/release/about-facilities-20261010/source/workshop-components.jpg",
+      "width": 1702,
+      "height": 1276,
+      "bytes": 527672,
+      "sha256": "89e9c3b6f90244d4eb624c8a52237d3497fb3293e06287034e242b5460974d0d",
+      "variants": [
+        {
+          "path": "assets/about/facilities-20261010/workshop-components-640.webp",
+          "width": 640,
+          "height": 480,
+          "bytes": 91082,
+          "sha256": "4bacd9c22c318ccc84bc81be0f7f3aec3de03a30270bed193beb8082f4c2ddee"
+        },
+        {
+          "path": "assets/about/facilities-20261010/workshop-components-1600.webp",
+          "width": 1600,
+          "height": 1200,
+          "bytes": 481928,
+          "sha256": "c3a661de1724330f2177af0020af26da0554ade847040702ea29fc1c2630e0bc"
+        }
+      ]
+    },
+    {
+      "id": "workshop-production",
+      "userImage": 7,
+      "category": "生产加工车间",
+      "source": "docs/release/about-facilities-20261010/source/workshop-production.jpg",
+      "width": 1702,
+      "height": 1276,
+      "bytes": 554636,
+      "sha256": "46fa9c01e5f72bc5f8e1903197dddf7706c6700b7d88e075c6e947531d4807c6",
+      "variants": [
+        {
+          "path": "assets/about/facilities-20261010/workshop-production-640.webp",
+          "width": 640,
+          "height": 480,
+          "bytes": 96512,
+          "sha256": "6beae707be8092ccceedacd3453fb832e681206b2f04581f108e2964b2965cb1"
+        },
+        {
+          "path": "assets/about/facilities-20261010/workshop-production-1600.webp",
+          "width": 1600,
+          "height": 1200,
+          "bytes": 495990,
+          "sha256": "379e28ccbe348e31e60d68096160e9c6c6155803197f29566caaafbd59870c53"
+        }
+      ]
+    },
+    {
+      "id": "warehouse-products",
+      "userImage": 8,
+      "category": "仓库",
+      "source": "docs/release/about-facilities-20261010/source/warehouse-products.jpg",
+      "width": 1702,
+      "height": 1276,
+      "bytes": 257463,
+      "sha256": "60eaf85e64e7205bddd90a8f42a3ccefd68f992da048360a04bf99da83a2caf1",
+      "variants": [
+        {
+          "path": "assets/about/facilities-20261010/warehouse-products-640.webp",
+          "width": 640,
+          "height": 480,
+          "bytes": 47890,
+          "sha256": "a7b9882caeb29db94b8a86a71e45a42e74d0eb481d99c644201d92cf67827606"
+        },
+        {
+          "path": "assets/about/facilities-20261010/warehouse-products-1600.webp",
+          "width": 1600,
+          "height": 1200,
+          "bytes": 169240,
+          "sha256": "6c676fa3df490668dfd2c4b9b223698fe7358e8d7fee623f892b4b5a957b00cb"
+        }
+      ]
+    }
+  ]
+}

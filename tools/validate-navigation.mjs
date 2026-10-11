@@ -2,6 +2,7 @@ import fs from "node:fs";
 import path from "node:path";
 import { SITE_ROUTES } from "../site-src/_data/siteRoutes.js";
 import { createSiteNavigation } from "../site-src/_data/navigation.js";
+import { versionedPublicAsset } from '../site-src/lib/public-asset-versions.js';
 
 const root = process.cwd();
 
@@ -48,8 +49,15 @@ for (const [routeId, definition] of Object.entries(SITE_ROUTES)) {
     assert((html.match(/data-global-header(?:\s|>)/g) ?? []).length === 1, `${target.outputPath} must contain exactly one shared global header.`);
     assert(html.includes(`data-site-language="${locale}"`), `${target.outputPath} has an incorrect page language marker.`);
     assert(html.includes(`data-site-route-id="${routeId}"`), `${target.outputPath} has an incorrect route marker.`);
-    assert(html.includes(`href="${navigation.assetPrefix}css/site-navigation.css"`), `${target.outputPath} is missing shared navigation styles.`);
-    assert(html.includes(`src="${navigation.assetPrefix}assets/js/site-navigation.js"`), `${target.outputPath} is missing shared navigation behavior.`);
+    assert(html.includes(`href="${versionedPublicAsset('css/site-navigation.css', navigation.assetPrefix)}"`), `${target.outputPath} is missing current shared navigation styles.`);
+    assert(html.includes(`src="${versionedPublicAsset('assets/js/site-navigation.js', navigation.assetPrefix)}"`), `${target.outputPath} is missing current shared navigation behavior.`);
+    if (html.includes('data-product-finder')) assert(html.includes(`src="${versionedPublicAsset('assets/js/product-finder.js', navigation.assetPrefix)}"`), `${target.outputPath} is missing the current product search behavior.`);
+    const categoryGroups = tags(html, 'details').filter(tag => readAttribute(tag, 'class') === 'global-product-group');
+    assert(categoryGroups.length === navigation.productGroups.length, `${target.outputPath} lost a product category.`);
+    assert(categoryGroups.every(tag => !/\sopen(?:\s|=|>)/i.test(tag)), `${target.outputPath} product categories must start collapsed.`);
+    const categoryLinks = tags(html, 'a').filter(tag => readAttribute(tag, 'class') === 'global-product-category');
+    assert(categoryLinks.length === navigation.productGroups.length, `${target.outputPath} must link directly to every category.`);
+    for (const group of navigation.productGroups) assert(categoryLinks.some(tag => readAttribute(tag, 'href') === group.href), `${target.outputPath} lost its category target ${group.href}.`);
 
     let currentPrimaryCount = 0;
     for (const item of navigation.primaryItems) {

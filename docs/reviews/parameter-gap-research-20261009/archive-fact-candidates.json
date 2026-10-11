@@ -1,0 +1,600 @@
+[
+  {
+    "package": "BS-750-英式室外消火栓",
+    "root": "D:\\work\\codex\\阿里国际站运营\\outputs\\alibaba-detail-image-studio\\BS-750-英式室外消火栓",
+    "facts": {
+      "model": "BS-750",
+      "blocked_assets": [
+        "Certification/approval image — no exact-SKU evidence",
+        "Packaging image — no factory-owned packaging evidence",
+        "Full engineering dimension image — incomplete approved drawing",
+        "Weight claim — archive conflict between approx. 20 kg and approx. 32 kg"
+      ]
+    }
+  },
+  {
+    "package": "T-ZSTGX80-K-ZSTGX80-干式喷头",
+    "root": "D:\\work\\codex\\阿里国际站运营\\outputs\\alibaba-detail-image-studio\\T-ZSTGX80-K-ZSTGX80-干式喷头",
+    "facts": {
+      "confirmed_facts": {
+        "standard_response_model": "T-ZSTGX80-68°C Q5",
+        "quick_response_model": "K-ZSTGX80-68°C Q3",
+        "nominal_flow_coefficient": "80",
+        "operating_temperature": "68°C",
+        "inlet_thread": "R1/2",
+        "overall_lengths": [
+          "10 cm",
+          "14.5 cm",
+          "30 cm"
+        ],
+        "materials": {
+          "sprinkler_frame": "Stainless steel",
+          "deflector": "Stainless steel",
+          "red_extension_tube": "Stainless steel"
+        },
+        "escutcheon": "Optional large round type",
+        "application": "Cold storage, refrigerated warehouses and indoor areas subject to freezing"
+      },
+      "blocked_assets": [
+        {
+          "asset_type_zh": "尺寸连接图",
+          "reason": "No exact-model dimensioned drawing or unchanged measurement record beyond overall length and R1/2 thread"
+        },
+        {
+          "asset_type_zh": "安装说明图",
+          "reason": "No confirmed connection arrangement, engagement depth, fixing method or clearance"
+        },
+        {
+          "asset_type_zh": "认证文件图",
+          "reason": "No current exact-export-SKU certificate or report with target-market scope"
+        },
+        {
+          "asset_type_zh": "包装装箱图",
+          "reason": "No real model-matched packaging photography or confirmed packaging data"
+        }
+      ]
+    }
+  },
+  {
+    "package": "ZSTDY115-57C-Q5A-隐蔽式洒水喷头",
+    "root": "D:\\work\\codex\\阿里国际站运营\\outputs\\alibaba-detail-image-studio\\ZSTDY115-57C-Q5A-隐蔽式洒水喷头",
+    "facts": {
+      "factory_model": "ZSTDY115-57°C Q5A",
+      "fact_rows": [
+        {
+          "field": "product_name",
+          "value": "Concealed Fire Sprinkler",
+          "source": [
+            "user original product description",
+            "source/01-带盖白底原图.jpg",
+            "source/04-罩筒与喷头实拍原图.jpg"
+          ],
+          "grade": "A"
+        },
+        {
+          "field": "factory_model",
+          "value": "ZSTDY115-57°C Q5A",
+          "source_value": "ZSTDY115-57℃ Q5A",
+          "source": [
+            "source/01-带盖白底原图.jpg",
+            "source/03-溅水盘俯视原图.jpg",
+            "source/04-罩筒与喷头实拍原图.jpg"
+          ],
+          "grade": "A"
+        },
+        {
+          "field": "sprinkler_temperature",
+          "value": "57°C",
+          "source_value": "57℃",
+          "source": [
+            "same-SKU physical label and deflector"
+          ],
+          "grade": "A",
+          "note_zh": "仅喷头温级，不证明盖板脱落温度"
+        },
+        {
+          "field": "frame_material",
+          "value": "Copper",
+          "source_value": "铜材质框架喷头",
+          "source": [
+            "userMessage 01a10552-8542-70f2-9801-a765d64464c6"
+          ],
+          "grade": "A",
+          "note_zh": "优先逐SKU原文；不扩大为整机全铜、纯铜、黄铜合金或镀层"
+        },
+        {
+          "field": "glass_bulb_diameter",
+          "value": "5 mm",
+          "source_value": "5mm玻璃球",
+          "source": [
+            "userMessage 01a10552-8542-70f2-9801-a765d64464c6",
+            "source/02-喷头本体白底原图.jpg: CYΦ5",
+            "copy/用户补充参数确认.json: repeated confirmation"
+          ],
+          "grade": "A"
+        },
+        {
+          "field": "connection",
+          "value": "3/4 inch BSPT",
+          "source_value": "是6分（3/4英寸）BSPT",
+          "source": [
+            "userMessage 01a10555-639f-7cc1-bd55-aa09db7acb15"
+          ],
+          "grade": "A",
+          "note_zh": "直接采用用户尺寸与螺纹确认；无DN换算、NPT替换或ISO7代码推断"
+        },
+        {
+          "field": "working_pressure",
+          "value": "1.2 MPa",
+          "source_value": "我们产品的工作压力为 **1.2MPa** ，生成图片内容",
+          "source": [
+            "userMessage 01a10581-23f2-70c2-a011-68aec995df38",
+            "copy/用户补充参数确认.json: repeated confirmation"
+          ],
+          "grade": "A",
+          "note_zh": "不用最大压力、≤、水压试验或其他厂商参数"
+        },
+        {
+          "field": "cover_color",
+          "value": "White",
+          "source": [
+            "source/01-带盖白底原图.jpg"
+          ],
+          "grade": "A"
+        },
+        {
+          "field": "cover_shape",
+          "value": "Round",
+          "source": [
+            "source/01-带盖白底原图.jpg"
+          ],
+          "grade": "A"
+        },
+        {
+          "field": "physical_brand",
+          "value": "冠亚 / GUANYA FIRE-FIGHTING",
+          "source": [
+            "same-SKU original labels and frame",
+            "skill standing user same-company confirmation"
+          ],
+          "grade": "A",
+          "note_zh": "原实物身份保留；营销页角使用CHUANWEI FIRE"
+        },
+        {
+          "field": "physical_standard_marking",
+          "value": "GB5135.1-2019",
+          "source": [
+            "source/01-带盖白底原图.jpg",
+            "source/04-罩筒与喷头实拍原图.jpg"
+          ],
+          "grade": "A/direct_visible",
+          "note_zh": "仅保留照片内原铭牌，无额外标准宣传，也不证明国际认证"
+        },
+        {
+          "field": "k_factor_metric",
+          "value": "115 L/min/√bar",
+          "source_value": "K系数115 + 公制：L/min/√bar",
+          "source": [
+            "copy/用户补充参数确认.json"
+          ],
+          "grade": "A/user_confirmed",
+          "note_zh": "本SKU用户直接确认，不从型号推断，不换算美制K"
+        },
+        {
+          "field": "nominal_size",
+          "value": "DN20",
+          "source_value": "螺纹是dn20",
+          "source": [
+            "copy/用户补充参数确认.json"
+          ],
+          "grade": "A/user_confirmed",
+          "note_zh": "DN是公称尺寸；螺纹接口沿用此前直接确认3/4英寸BSPT，两者单列"
+        }
+      ]
+    }
+  },
+  {
+    "package": "ZSTDY115-79C-Q5A-隐蔽式洒水喷头",
+    "root": "D:\\work\\codex\\阿里国际站运营\\outputs\\alibaba-detail-image-studio\\ZSTDY115-79C-Q5A-隐蔽式洒水喷头",
+    "facts": {
+      "factory_model": "ZSTDY 115-79°C Q5A",
+      "fact_rows": [
+        {
+          "field": "product_name",
+          "source_value": "隐蔽式洒水喷头",
+          "target_value": "Concealed Fire Sprinkler",
+          "evidence_grade": "A",
+          "source": "原始用户产品照片和源SKU记录",
+          "publishable": true
+        },
+        {
+          "field": "factory_model",
+          "source_value": "ZSTDY 115-79℃ Q5A",
+          "target_value": "ZSTDY 115-79°C Q5A",
+          "evidence_grade": "A",
+          "source": "source/04-罩筒与本体原始实拍.jpg 标签及 source/03-溅水盘原始实拍.jpg 刻字",
+          "publishable": true,
+          "notes": "115仅保留作工厂型号部分，不推断K值或温度。"
+        },
+        {
+          "field": "sprinkler_temperature",
+          "source_value": "79℃",
+          "target_value": "79°C Sprinkler Temperature",
+          "evidence_grade": "A",
+          "source": "原始实拍型号标识79℃",
+          "publishable": true,
+          "notes": "不等于罩盖脱落温度；无单位数值换算，仅℃排印为°C。"
+        },
+        {
+          "field": "body_material",
+          "source_value": "铜材质框架",
+          "target_value": "Copper Body",
+          "evidence_grade": "A",
+          "source": "原始用户首条消息铜材质框架；技能长期确认默认",
+          "publishable": true,
+          "notes": "Copper Body按技能用户确认措辞，不声称全部组件铜、不声称纯铜/黄铜/牌号/镀层/耐腐蚀。"
+        },
+        {
+          "field": "glass_bulb",
+          "source_value": "5mm玻璃球",
+          "target_value": "5 mm Glass Bulb",
+          "evidence_grade": "A",
+          "source": "原始用户首条消息5mm玻璃球及技能长期确认",
+          "publishable": true
+        },
+        {
+          "field": "thread_family",
+          "source_value": "BSPT",
+          "target_value": "BSPT Thread / Thread Family: BSPT",
+          "evidence_grade": "A",
+          "source": "alibaba-detail-image-studio/SKILL.md standing sprinkler defaults 用户长期确认",
+          "publishable": true,
+          "notes": "仅家族名称，不给尺寸、ISO具体标记、NPT映射、牙距或兼容性结论。"
+        },
+        {
+          "field": "source_working_pressure",
+          "source_value": "1.2 MPa",
+          "target_value": null,
+          "evidence_grade": "A",
+          "source": "原始用户消息01a10785-e408-78e0-8d4b-9410996e9e49: 1.2mpa",
+          "publishable": false,
+          "notes": "中国源款工作压力已确认；出口配置对应未核实，本套图省略，不作为试验压力或压力等级。"
+        },
+        {
+          "field": "source_connection_size",
+          "source_value": "6分",
+          "target_value": null,
+          "evidence_grade": "A",
+          "source": "原始用户消息01a10785-e3db-7703-b797-8322a0544f92: 6分，工作压力1，2",
+          "publishable": false,
+          "notes": "国际螺纹尺寸与精确接口定义未核实；不换算成3/4、DN或NPT。"
+        },
+        {
+          "field": "standard_label",
+          "source_value": "GB5135.1-2019（实物标签原文）",
+          "target_value": null,
+          "evidence_grade": "A for visible marking only",
+          "source": "source/04-罩筒与本体原始实拍.jpg",
+          "publishable": false,
+          "notes": "实拍照片保留标签原貌，未在英文文案中新增合规声明，不等价于国外认证。"
+        }
+      ]
+    }
+  },
+  {
+    "package": "ZSTDY115-93C-Q5A-隐蔽式洒水喷头",
+    "root": "D:\\work\\codex\\阿里国际站运营\\outputs\\alibaba-detail-image-studio\\ZSTDY115-93C-Q5A-隐蔽式洒水喷头",
+    "facts": {
+      "factory_model": "ZSTDY115-93°C Q5A"
+    }
+  },
+  {
+    "package": "ZSTDY80-141C-Q3A-隐蔽式洒水喷头",
+    "root": "D:\\work\\codex\\阿里国际站运营\\outputs\\alibaba-detail-image-studio\\ZSTDY80-141C-Q3A-隐蔽式洒水喷头",
+    "facts": {
+      "fact_rows": [
+        {
+          "grade": "A",
+          "source_value": "隐蔽式洒水喷头",
+          "target_value": "Concealed Fire Sprinkler",
+          "evidence": [
+            "current user delegation",
+            "source/原图01-带盖.jpg"
+          ]
+        },
+        {
+          "grade": "A",
+          "source_value": "ZSTDY80-141℃ Q3A",
+          "target_value": "Factory Model: ZSTDY80-141°C Q3A",
+          "evidence": [
+            "source/原图01-带盖.jpg",
+            "source/原图02-裸喷头.jpg",
+            "source/原图03-溅水盘.jpg"
+          ]
+        },
+        {
+          "grade": "A",
+          "source_value": "铜（框架）",
+          "target_value": "Copper Frame",
+          "evidence": [
+            "current user confirmation",
+            "source/产品事实与待补资料.md",
+            "source/1688-source-manifest.json"
+          ]
+        },
+        {
+          "evidence": [
+            "current user confirmation",
+            "source/产品事实与待补资料.md"
+          ],
+          "grade": "A",
+          "target_value": "3 mm Glass Bulb",
+          "source_value": "3mm"
+        },
+        {
+          "evidence": [
+            "current user confirmation",
+            "source/原图01-带盖.jpg",
+            "source/原图03-溅水盘.jpg"
+          ],
+          "grade": "A",
+          "target_value": "141°C",
+          "source_value": "141℃"
+        },
+        {
+          "grade": "A-visible",
+          "source_value": "白色",
+          "target_value": "White Cover Plate",
+          "evidence": [
+            "source/原图01-带盖.jpg"
+          ]
+        },
+        {
+          "grade": "A-visible",
+          "source_value": "visible plate/frame/blue bulb/two pins",
+          "evidence": [
+            "source/原图01-带盖.jpg",
+            "source/原图02-裸喷头.jpg",
+            "source/原图03-溅水盘.jpg"
+          ]
+        },
+        {
+          "grade": "A-visible",
+          "source_value": "visible threaded base",
+          "target_value": "Threaded Connection / Original Thread View",
+          "evidence": [
+            "source/原图02-裸喷头.jpg"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "package": "ZSTDY80-141C-Q5A-隐蔽式洒水喷头",
+    "root": "D:\\work\\codex\\阿里国际站运营\\outputs\\alibaba-detail-image-studio\\ZSTDY80-141C-Q5A-隐蔽式洒水喷头",
+    "facts": {}
+  },
+  {
+    "package": "ZSTDY80-57C-Q5A-隐蔽式洒水喷头",
+    "root": "D:\\work\\codex\\阿里国际站运营\\outputs\\alibaba-detail-image-studio\\ZSTDY80-57C-Q5A-隐蔽式洒水喷头",
+    "facts": {
+      "factory_model": "ZSTDY 80-57°C Q5A",
+      "fact_rows": [
+        {
+          "field": "model",
+          "target_value": "ZSTDY 80-57°C Q5A",
+          "evidence_grade": "A",
+          "evidence": "physical labels source/03 and04"
+        },
+        {
+          "field": "nominal_operating_temperature",
+          "target_value": "57°C",
+          "evidence_grade": "A",
+          "evidence": "exact photographed SKU model marking"
+        },
+        {
+          "field": "nominal_size",
+          "target_value": "DN15",
+          "evidence_grade": "A",
+          "evidence": "user message01a10554-f3ad-7802-8b01-864f2ac5391e"
+        },
+        {
+          "field": "frame_material",
+          "target_value": "Copper",
+          "evidence_grade": "A",
+          "evidence": "user message01a10551-b550-7b22-a528-bf28bd6f797a"
+        },
+        {
+          "field": "glass_bulb_diameter",
+          "target_value": "5 mm",
+          "evidence_grade": "A",
+          "evidence": "same user message"
+        },
+        {
+          "field": "thread_family",
+          "target_value": "BSPT",
+          "evidence_grade": "A",
+          "evidence": "standing user-confirmed sprinkler default in alibaba-detail-image-studio skill; no exact-SKU conflict"
+        },
+        {
+          "field": "working_pressure",
+          "target_value": "1.2 MPa",
+          "evidence_grade": "A",
+          "evidence": "user message01a10580-a9be-75a0-9047-4740b99edfa2"
+        },
+        {
+          "field": "cover_color",
+          "target_value": "White",
+          "evidence_grade": "A",
+          "evidence": "exact source/01 photo"
+        },
+        {
+          "field": "surface_finish",
+          "evidence": "source/补充确认-产品组成与电镀.json",
+          "target_value": "Electroplated Surface",
+          "evidence_grade": "A"
+        }
+      ]
+    }
+  },
+  {
+    "package": "ZSTDY80-68℃-Q5A-隐蔽式消防洒水喷头",
+    "root": "D:\\work\\codex\\阿里国际站运营\\outputs\\alibaba-detail-image-studio\\ZSTDY80-68℃-Q5A-隐蔽式消防洒水喷头",
+    "facts": {}
+  },
+  {
+    "package": "ZSTDY80-79C-Q5A-隐蔽式洒水喷头",
+    "root": "D:\\work\\codex\\阿里国际站运营\\outputs\\alibaba-detail-image-studio\\ZSTDY80-79C-Q5A-隐蔽式洒水喷头",
+    "facts": {}
+  },
+  {
+    "package": "ZSTDY80-93C-Q3A-隐蔽式洒水喷头",
+    "root": "D:\\work\\codex\\阿里国际站运营\\outputs\\alibaba-detail-image-studio\\ZSTDY80-93C-Q3A-隐蔽式洒水喷头",
+    "facts": {
+      "factory_model": "ZSTDY 80-93°C Q3A",
+      "fact_rows": [
+        {
+          "field": "product_name",
+          "target_value": "Concealed Fire Sprinkler",
+          "source_value": "隐蔽式洒水喷头",
+          "evidence_grade": "A",
+          "source": "原图01-带盖.jpg；用户任务",
+          "publishable": true
+        },
+        {
+          "field": "factory_model",
+          "target_value": "ZSTDY 80-93°C Q3A",
+          "source_value": "ZSTDY 80-93℃ Q3A",
+          "evidence_grade": "A",
+          "source": "source/原图01-带盖.jpg、原图02-裸喷头.jpg、原图03-溅水盘.jpg、原图04-结构.jpg",
+          "publishable": true
+        },
+        {
+          "field": "sprinkler_temperature",
+          "target_value": "93°C",
+          "source_value": "93℃",
+          "evidence_grade": "A",
+          "source": "原图01标签及原图02/03刻字；只指喷头温级",
+          "publishable": true
+        },
+        {
+          "field": "frame_material",
+          "target_value": "Copper",
+          "source_value": "铜材质框架",
+          "evidence_grade": "A",
+          "source": "copy/最新用户确认摘录.json；exact-SKU user confirmation overrides general Copper Body default",
+          "publishable": true
+        },
+        {
+          "field": "glass_bulb_diameter",
+          "target_value": "3 mm",
+          "source_value": "3mm玻璃球",
+          "evidence_grade": "A",
+          "source": "copy/最新用户确认摘录.json",
+          "publishable": true
+        },
+        {
+          "field": "nominal_size",
+          "target_value": "DN15",
+          "source_value": "dn15口径",
+          "evidence_grade": "A",
+          "source": "copy/最新用户确认摘录.json",
+          "publishable": true
+        },
+        {
+          "field": "thread_family",
+          "target_value": "BSPT",
+          "source_value": "BSPT",
+          "evidence_grade": "A",
+          "source": "alibaba-detail-image-studio/SKILL.md standing user confirmation",
+          "publishable": true
+        },
+        {
+          "field": "connection_form",
+          "target_value": "External threaded connection",
+          "source_value": "外螺纹",
+          "evidence_grade": "A",
+          "source": "source/原图01-带盖.jpg及原图02-裸喷头.jpg",
+          "publishable": true
+        },
+        {
+          "field": "cover_color",
+          "target_value": "White",
+          "source_value": "白色",
+          "evidence_grade": "A",
+          "source": "source/原图01-带盖.jpg visible color",
+          "publishable": true
+        },
+        {
+          "field": "bulb_color",
+          "target_value": "Green",
+          "source_value": "绿色",
+          "evidence_grade": "A",
+          "source": "source/原图02-裸喷头.jpg及原图04-结构.jpg",
+          "publishable": true
+        },
+        {
+          "field": "label_standard",
+          "target_value": null,
+          "source_value": "GB5135.1-2019",
+          "evidence_grade": "A-visible-marking",
+          "source": "source/原图01-带盖.jpg及原图04-结构.jpg；仅原实物标签保留，无符合标准声明",
+          "publishable": false
+        },
+        {
+          "field": "factory_k_factor",
+          "target_value": "80",
+          "source_value": "k系数是80",
+          "evidence_grade": "A",
+          "source": "用户2026-10-05本对话确认：压力1.2mpa、dn15、3mm玻璃球；随后明确更正：k系数是80。K115已被后续确认替代。",
+          "publishable": true
+        },
+        {
+          "field": "pressure",
+          "target_value": "1.2 MPa (12 bar)",
+          "source_value": "压力1.2mpa",
+          "evidence_grade": "A",
+          "source": "用户2026-10-05本对话确认：压力1.2mpa、dn15、3mm玻璃球；随后明确更正：k系数是80。K115已被后续确认替代。",
+          "publishable": true
+        }
+      ]
+    }
+  },
+  {
+    "package": "ZSTDY80-93℃-Q5A-隐蔽式消防洒水喷头",
+    "root": "D:\\work\\codex\\阿里国际站运营\\outputs\\alibaba-detail-image-studio\\ZSTDY80-93℃-Q5A-隐蔽式消防洒水喷头",
+    "facts": {}
+  },
+  {
+    "package": "ZSTDY80系列-隐蔽式消防洒水喷头",
+    "root": "D:\\work\\codex\\阿里国际站运营\\outputs\\alibaba-detail-image-studio\\ZSTDY80系列-隐蔽式消防洒水喷头",
+    "facts": {
+      "blocked_assets": [
+        {
+          "asset_type": "exact_connection_thread",
+          "reason": "No exact export-SKU thread designation or standard"
+        },
+        {
+          "asset_type": "working_pressure",
+          "reason": "No exact export-SKU pressure record"
+        },
+        {
+          "asset_type": "technical_installation_drawing",
+          "reason": "No verified opening, depth, clearance, branch connection or instruction sheet"
+        },
+        {
+          "asset_type": "international_certification",
+          "reason": "No exact-model certificate/listing supplied"
+        },
+        {
+          "asset_type": "packaging_delivery",
+          "reason": "No real packaging evidence or parameters"
+        },
+        {
+          "asset_type": "q3a_product_view",
+          "reason": "No real Q3A product photograph"
+        }
+      ]
+    }
+  }
+]

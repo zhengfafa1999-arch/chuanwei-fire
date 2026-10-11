@@ -12,7 +12,12 @@
   "source": {
     "path": "products/消防喷头/large-k-factor-esfr-sprinklers.html",
     "revision": "ada3095",
-    "status": "preserved-existing-content-not-reaudited"
+    "status": "preserved-existing-content-not-reaudited",
+    "buyerCopyReview": {
+      "date": "2026-10-09",
+      "record": "docs/reviews/remaining-series-20261009/reviewed-changes.json",
+      "scope": "Buyer terminology and inquiry guidance; exact models, primary photographs and technical values retained except removal of unconfirmed carton quantities."
+    }
   },
   "media": {
     "hero": "products/消防喷头/large-k-esfr-sprinkler/esfr-pendent-series.jpg",
@@ -49,7 +54,7 @@
       "numbers": []
     },
     "twoRelatedButDistinctProductGroupsLargeK": {
-      "text": "Two related but distinct product groups: large K-factor spray sprinklers for higher discharge capacity, and fusible-link ESFR sprinklers for storage-protection applications. Each group is identified separately for accurate sourcing.",
+      "text": "Two related but distinct product groups: large K-factor spray sprinklers for higher discharge capacity, and ESFR sprinklers for storage-protection applications. Match the exact model and operating element before ordering.",
       "numbers": []
     },
     "askOnWhatsApp": {
@@ -73,7 +78,7 @@
       "numbers": []
     },
     "theGallerySeparatesChromePlatedLargeKFactor": {
-      "text": "The gallery separates chrome-plated large K-factor glass-bulb sprinklers from natural-copper ESFR fusible-link sprinklers. Similar-looking ESFR models are presented as series views unless the exact K-factor is visible or otherwise confirmed.",
+      "text": "Compare large K-factor spray sprinklers, fusible-link ESFR samples and the separate glass-bulb ESFR samples. The listed fusible-link specifications do not apply to the glass-bulb photographs; request model-specific data for those samples.",
       "numbers": []
     },
     "eSFRPendentSeries": {
@@ -107,13 +112,13 @@
       ]
     },
     "eSFRDetail01": {
-      "text": "ESFR Detail {n0}",
+      "text": "Glass-Bulb ESFR {n0}",
       "numbers": [
         "01"
       ]
     },
     "eSFRDetail02": {
-      "text": "ESFR Detail {n0}",
+      "text": "Glass-Bulb ESFR {n0}",
       "numbers": [
         "02"
       ]
@@ -127,7 +132,7 @@
       "numbers": []
     },
     "internationalKFactorValuesArePairedWithThe": {
-      "text": "International K-factor values are paired with the metric values used in factory records. Pricing and domestic quotation-sheet language are omitted.",
+      "text": "Compare the US and metric K-factor values below to select the required sprinkler group.",
       "numbers": []
     },
     "largeKFactorSpraySprinklers": {
@@ -210,13 +215,11 @@
       "numbers": []
     },
     "value100PcsPerExportCarton": {
-      "text": "{n0} pcs per export carton",
-      "numbers": [
-        "100"
-      ]
+      "text": "Packing requirements confirmed with the order",
+      "numbers": []
     },
     "eSFRStorageSprinklers": {
-      "text": "ESFR Storage Sprinklers",
+      "text": "Fusible-Link ESFR Sprinklers",
       "numbers": []
     },
     "k140USK202MetricK168US": {
@@ -278,7 +281,7 @@
       "numbers": []
     },
     "factoryReferencesAreShownForProductionMatchingOverseas": {
-      "text": "Factory references are shown for production matching. Overseas buyers can select by product group, response type, K-factor, orientation, connection and temperature.",
+      "text": "Select the product group first: large K-factor spray sprinkler or ESFR. Compare response type, K-factor, orientation, connection and temperature within that group.",
       "numbers": []
     },
     "productConfiguration": {
@@ -298,7 +301,7 @@
       "numbers": []
     },
     "factoryReference": {
-      "text": "Factory reference",
+      "text": "Model",
       "numbers": []
     },
     "standardResponseUpright": {
@@ -346,8 +349,12 @@
       ]
     },
     "nPTIsTheStandardListedConnectionOtherThread": {
-      "text": "NPT is the standard listed connection. Other thread forms can be manufactured against a confirmed customer drawing or approved sample.",
-      "numbers": []
+      "text": "NPT connections apply to the model table above, including the {n0}°C fusible-link ESFR models. The separate {n1}°C K{n2} BSPT option is detailed below. Specify the exact model and connection before ordering.",
+      "numbers": [
+        "74",
+        "68",
+        "202"
+      ]
     },
     "oEMODMSupport": {
       "text": "OEM / ODM support",
@@ -394,7 +401,7 @@
       "numbers": []
     },
     "includeDestinationCountryProductGroupKFactorOrientation": {
-      "text": "Include destination country, product group, K-factor, orientation, connection, quantity and required hydraulic documentation.",
+      "text": "Start with the product group, K-factor, orientation and quantity. Add connection, destination and required hydraulic documents when available.",
       "numbers": []
     },
     "whatsAppInquiry": {
@@ -464,7 +471,7 @@
       ]
     },
     "eSFRFusibleLinkDetailThumbnail": {
-      "text": "ESFR fusible link detail thumbnail",
+      "text": "ESFR glass-bulb sprinkler thumbnail",
       "numbers": []
     },
     "productImagePreview": {
@@ -539,19 +546,19 @@
       ]
     },
     "eSFRNaturalCopperFrameAndFusibleLinkDetail": {
-      "text": "ESFR natural copper frame and fusible link detail",
+      "text": "ESFR glass-bulb sprinkler with slotted deflector",
       "numbers": []
     },
     "eSFRFusibleLinkDetail": {
-      "text": "ESFR Fusible-Link Detail",
+      "text": "ESFR Glass-Bulb — Slotted Deflector",
       "numbers": []
     },
     "eSFRNaturalCopperSprinklerDetail": {
-      "text": "ESFR natural copper sprinkler detail",
+      "text": "ESFR glass-bulb sprinkler with domed deflector",
       "numbers": []
     },
     "eSFRSeriesDetail": {
-      "text": "ESFR Series Detail",
+      "text": "ESFR Glass-Bulb — Domed Deflector",
       "numbers": []
     },
     "seoTitle": {

@@ -56,7 +56,9 @@
       </div>
     </section>{% endif -%}
 
-    <section class="pdp-section" id="oem">
+{% include "product-photos.njk" %}
+{% include "product-supplement.njk" %}
+  <section class="pdp-section" id="oem">
       <div class="pdp-container pdp-oem">
         <div><p class="pdp-eyebrow">{{ entry.text.oEMODMCapability }}</p><h2>{{ entry.text.configuredToTheApprovedDrawingOrSample }}</h2><p>{{ entry.text[entry.product.textKeys.manufacturingNote] }}</p></div>
         <div class="pdp-oem__grid">

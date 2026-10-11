@@ -1,0 +1,161 @@
+{
+  "status": "confirmed",
+  "confirmedDate": "2026-10-09",
+  "scope": "CHUANWEI FIRE official website public display",
+  "authority": "Existing image permissions retained; user-supplied folder authorization and requested website photo optimization cover only the listed reviewed photographs.",
+  "originalEvidenceFiles": [
+    "docs/release/eight-products-20260909/image-rights-confirmation.json",
+    "docs/release/three-products-20260913/image-rights-confirmation.json"
+  ],
+  "newPhotographEvidence": "site-src/_data/guanya-photo-selection.json",
+  "excludes": "Unlisted replacements, unmatched product configurations and other publication channels.",
+  "images": [
+    {
+      "productId": "standard-response-fire-sprinkler",
+      "path": "products/消防喷头/standard-response-sprinkler/standard-response-three-styles.jpg",
+      "sha256": "ab41c5d1d04187950e24afb11075944a4bacc1a33e135f1f7c4e9b69908b020f",
+      "originalSha256": "9096a5ab238093c96e63abc63904c388db354075db7863217aa027c51c8cc6b8",
+      "publishedTransform": "CHUANWEI FIRE watermark"
+    },
+    {
+      "productId": "standard-response-fire-sprinkler",
+      "path": "products/消防喷头/standard-response-sprinkler/standard-response-pendent.jpg",
+      "sha256": "6dc0118d007e75abf35c19717f82acf5c7c066f3f62f861860e90c09943dc645",
+      "originalSha256": "8ea9ed72dcc04707c48de1b5a4dd417ad7a6ae94fe41fb8b6153f4302764a3de",
+      "publishedTransform": "CHUANWEI FIRE watermark"
+    },
+    {
+      "productId": "standard-response-fire-sprinkler",
+      "path": "products/消防喷头/standard-response-sprinkler/standard-response-upright.jpg",
+      "sha256": "45324a5e915d9cc01b509744ecc5f837158349be4eedf797acb515448942453e",
+      "originalSha256": "459cb5649daef679cc68b5cd157a121421a21b678a411eec763613c51e60f22e",
+      "publishedTransform": "CHUANWEI FIRE watermark"
+    },
+    {
+      "productId": "standard-response-fire-sprinkler",
+      "path": "products/消防喷头/standard-response-sprinkler/standard-response-horizontal-sidewall.jpg",
+      "sha256": "56a389a6aa864f9ef11730dce3cd2fe8cc02f2225bf59db7de2c04556ae727b1",
+      "originalSha256": "819da46305ebb0c44dc07883ba636fbff2f3ef7e071aa253511b011aa96f1e3d",
+      "publishedTransform": "CHUANWEI FIRE watermark"
+    },
+    {
+      "productId": "standard-response-fire-sprinkler",
+      "path": "assets/products/guanya-2026/standard-response-fire-sprinkler-dsc_5869-1600.webp",
+      "sha256": "6040baa2a61ad776ecb3105bf5b2334f5c2e28577adaa5fcf3a5f67a2015d6cc",
+      "originalSha256": "8ea9ed72dcc04707c48de1b5a4dd417ad7a6ae94fe41fb8b6153f4302764a3de",
+      "publishedTransform": "CHUANWEI FIRE text watermark in clear whitespace",
+      "authority": "User supplied the folder and requested suitable existing export-product photos be added to the official website on 2026-10-09; preserve physical marks and original files.",
+      "sourceManifest": "site-src/_data/guanya-photos.json",
+      "replaces": "products/消防喷头/standard-response-sprinkler/standard-response-pendent.jpg",
+      "unwatermarkedSha256": "a67f7e1a1878725ac3ade93db2ee991a8719341e9efd4fc684b48b8bbb2cf0e9",
+      "watermarkRecord": "site-src/_data/product-watermarks.json"
+    },
+    {
+      "productId": "standard-response-fire-sprinkler",
+      "path": "assets/products/guanya-2026/standard-response-fire-sprinkler-dsc_5868-1600.webp",
+      "sha256": "622a95619c9bbb0e14d0ce169e7ea0c9f11faba69dc8b0adbc624208faa019fc",
+      "originalSha256": "459cb5649daef679cc68b5cd157a121421a21b678a411eec763613c51e60f22e",
+      "publishedTransform": "CHUANWEI FIRE text watermark in clear whitespace",
+      "authority": "User supplied the folder and requested suitable existing export-product photos be added to the official website on 2026-10-09; preserve physical marks and original files.",
+      "sourceManifest": "site-src/_data/guanya-photos.json",
+      "replaces": "products/消防喷头/standard-response-sprinkler/standard-response-upright.jpg",
+      "unwatermarkedSha256": "3848d0b8f27371554f7223f69cef30a8bf1a872d9fb8f3e5c4eb75b332b8497b",
+      "watermarkRecord": "site-src/_data/product-watermarks.json"
+    },
+    {
+      "productId": "standard-response-fire-sprinkler",
+      "path": "assets/products/guanya-2026/standard-response-fire-sprinkler-dsc_5870-1600.webp",
+      "sha256": "04cf2b855cb1fb26755c67842d71a55e26594c55d28adb092f536d7204f5d02f",
+      "originalSha256": "819da46305ebb0c44dc07883ba636fbff2f3ef7e071aa253511b011aa96f1e3d",
+      "publishedTransform": "CHUANWEI FIRE text watermark in clear whitespace",
+      "authority": "User supplied the folder and requested suitable existing export-product photos be added to the official website on 2026-10-09; preserve physical marks and original files.",
+      "sourceManifest": "site-src/_data/guanya-photos.json",
+      "replaces": "products/消防喷头/standard-response-sprinkler/standard-response-horizontal-sidewall.jpg",
+      "unwatermarkedSha256": "eb0de7b9274f8c5729625021e6e5b51ee8d4fce81409407f25eaae5114caad5e",
+      "watermarkRecord": "site-src/_data/product-watermarks.json"
+    },
+    {
+      "productId": "glass-bulb-fire-sprinkler",
+      "path": "products/消防喷头/glass-bulb-sprinkler/quick-response-pendent.jpg",
+      "sha256": "e199033370e85243e6134fae754c283ef7a724984802a5fce96087cc19a54425",
+      "originalSha256": "d9beffde8bf0b453c69c923bde6d06ae4c7dccbd7f525862f815bd25c5abdd87",
+      "publishedTransform": "CHUANWEI FIRE watermark"
+    },
+    {
+      "productId": "glass-bulb-fire-sprinkler",
+      "path": "products/消防喷头/glass-bulb-sprinkler/quick-response-upright.jpg",
+      "sha256": "b284ec898d4ba3c45036474172eb8903e5cdd99b7338b78db3b101860a89f7df",
+      "originalSha256": "9f94baeb2978959aa207f03e50d9277279dc58411d7b32d8e91852356fd12687",
+      "publishedTransform": "CHUANWEI FIRE watermark"
+    },
+    {
+      "productId": "glass-bulb-fire-sprinkler",
+      "path": "products/消防喷头/glass-bulb-sprinkler/quick-response-real-packing.jpg",
+      "sha256": "c0527a883b3bc8d76cffdb53e91faa4edd227728ac9bc9853fd45120bfd771c3",
+      "originalSha256": "15a820a4b3eb78c1132cc68a25f657a7d2ab24b4f9b79280f2c563ddd32651f0",
+      "publishedTransform": "CHUANWEI FIRE watermark"
+    },
+    {
+      "productId": "glass-bulb-fire-sprinkler",
+      "path": "assets/products/guanya-2026/glass-bulb-fire-sprinkler-dsc_5839-1600.webp",
+      "sha256": "c997fd36ed5b659f2c9bc3a916b3020d6afda79663f8c46bfd57d92c7377a810",
+      "originalSha256": "242d8c6baef6af5badb01591945dbdc93cf1f7b4cd26d97bf494463a1c427ee3",
+      "publishedTransform": "CHUANWEI FIRE text watermark in clear whitespace",
+      "authority": "User supplied the folder and requested suitable existing export-product photos be added to the official website on 2026-10-09; preserve physical marks and original files.",
+      "sourceManifest": "site-src/_data/guanya-photos.json",
+      "replaces": "products/消防喷头/glass-bulb-sprinkler/quick-response-pendent.jpg",
+      "unwatermarkedSha256": "adafe18fff640dfad2cb38ae247bf8175422bcda9d3fd71e8daf80a3b5bb5cfb",
+      "watermarkRecord": "site-src/_data/product-watermarks.json"
+    },
+    {
+      "productId": "glass-bulb-fire-sprinkler",
+      "path": "assets/products/guanya-2026/glass-bulb-fire-sprinkler-dsc_5840-1600.webp",
+      "sha256": "fcb346028dfe08202120de5920789900870db232758560181177606a14653a93",
+      "originalSha256": "0c2ba9e56551b45beb6467ae2cbd1bc6b74275779fb940ba07592f84dc4e668b",
+      "publishedTransform": "CHUANWEI FIRE text watermark in clear whitespace",
+      "authority": "User supplied the folder and requested suitable existing export-product photos be added to the official website on 2026-10-09; preserve physical marks and original files.",
+      "sourceManifest": "site-src/_data/guanya-photos.json",
+      "replaces": "products/消防喷头/glass-bulb-sprinkler/quick-response-upright.jpg",
+      "unwatermarkedSha256": "06cc25c79469cd991e217d645c57dbb776e22be400b92409b0ae5c649fc94c23",
+      "watermarkRecord": "site-src/_data/product-watermarks.json"
+    },
+    {
+      "productId": "fusible-alloy-fire-sprinklers",
+      "path": "products/消防喷头/fusible-alloy-fire-sprinklers/fusible-alloy-configuration-a.jpg",
+      "sha256": "2f5ed66af2518404e6743f636444dad0145ecd81cc4aaeaa45a79e926342f424",
+      "originalSha256": "14c455d9802168a02d01641e0c3f855acfa6feb9fa98867ee408ad2ceebaf9cb",
+      "publishedTransform": "CHUANWEI FIRE watermark"
+    },
+    {
+      "productId": "fusible-alloy-fire-sprinklers",
+      "path": "products/消防喷头/fusible-alloy-fire-sprinklers/fusible-alloy-configuration-b.jpg",
+      "sha256": "12229d83b83078c4ae7789ba1169e36a44ffea0d679ea3ad7de2590658067dec",
+      "originalSha256": "05d4db52822e1a747fb644aa3b587cb799a4e229e20d46a22006cdbe8fb67aba",
+      "publishedTransform": "CHUANWEI FIRE watermark"
+    },
+    {
+      "productId": "fusible-alloy-fire-sprinklers",
+      "path": "assets/products/guanya-2026/fusible-alloy-fire-sprinklers-dsc_5823-1600.webp",
+      "sha256": "1e43801e3e5cee83d86411b67031dac87e6d1dc5f222bbf438455be09172c955",
+      "originalSha256": "14c455d9802168a02d01641e0c3f855acfa6feb9fa98867ee408ad2ceebaf9cb",
+      "publishedTransform": "CHUANWEI FIRE text watermark in clear whitespace",
+      "authority": "User supplied the folder and requested suitable existing export-product photos be added to the official website on 2026-10-09; preserve physical marks and original files.",
+      "sourceManifest": "site-src/_data/guanya-photos.json",
+      "replaces": "products/消防喷头/fusible-alloy-fire-sprinklers/fusible-alloy-configuration-a.jpg",
+      "unwatermarkedSha256": "667b8d7a5ad91483331fa8089c49cdb7a301990b1c130124c77d9e4ba4b0f72d",
+      "watermarkRecord": "site-src/_data/product-watermarks.json"
+    },
+    {
+      "productId": "fusible-alloy-fire-sprinklers",
+      "path": "assets/products/guanya-2026/fusible-alloy-fire-sprinklers-dsc_5822-1600.webp",
+      "sha256": "e4466d2da0a848208ec0babd8028f56b9cfabbad33d8f1cccced982595516120",
+      "originalSha256": "05d4db52822e1a747fb644aa3b587cb799a4e229e20d46a22006cdbe8fb67aba",
+      "publishedTransform": "CHUANWEI FIRE text watermark in clear whitespace",
+      "authority": "User supplied the folder and requested suitable existing export-product photos be added to the official website on 2026-10-09; preserve physical marks and original files.",
+      "sourceManifest": "site-src/_data/guanya-photos.json",
+      "replaces": "products/消防喷头/fusible-alloy-fire-sprinklers/fusible-alloy-configuration-b.jpg",
+      "unwatermarkedSha256": "e3142910e2719048dabd9bf487e1bbf82d82c4e64b980f64da358385a6c330e2",
+      "watermarkRecord": "site-src/_data/product-watermarks.json"
+    }
+  ]
+}

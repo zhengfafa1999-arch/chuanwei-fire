@@ -1,0 +1,69 @@
+{
+  "date": "2026-10-09",
+  "scope": "Latest local source and prior validation reviewed; current product directory inspected in browser; public homepage checked. No deployment or new full-site validation performed in this review.",
+  "navigation": {
+    "menuLinks": 188,
+    "categories": 11,
+    "defaultOpenCategories": 11,
+    "recommendation": "Use category-first navigation, progressively disclose product configurations; preserve existing URLs, filters and model search."
+  },
+  "priorities": [
+    {
+      "priority": 1,
+      "task": "Shorten buyer-facing product names and simplify product menu",
+      "dependencies": "Existing confirmed product-type and connection records; unknown standards must not be inferred from shape.",
+      "status": "local-complete"
+    },
+    {
+      "priority": 2,
+      "task": "Replace remaining configuration illustrations with matching real product photographs",
+      "dependencies": "Photos of exact HS/HSW, nozzle, coupling and cabinet configurations.",
+      "status": "Existing verified primary photographs applied; exact overseas configuration photographs await materials"
+    },
+    {
+      "priority": 3,
+      "task": "Complete selection-critical data and drawings",
+      "dependencies": "Exact-model pressure/thread data for fusible-alloy sprinklers; foam-nozzle temperature/K/pressure; HS/HSW material and drawings; actual waterflow microswitch rating."
+    },
+    {
+      "priority": 4,
+      "task": "Add concise commercial FAQ and complete manufacturer identity",
+      "dependencies": "OEM conditions and order-specific delivery arrangements; registered Chinese company name is not requested for public display.",
+      "status": "partially-complete-awaiting-materials"
+    },
+    {
+      "priority": 5,
+      "task": "Publish accepted local scope and verify live pages",
+      "dependencies": "Confirm release scope; server rollback backup and existing deployment process."
+    }
+  ],
+  "resolvedDoNotReopen": [
+    "Dry stainless-steel material confirmed",
+    "HS/HSW 1.6/2.5 MPa working-pressure options added",
+    "Waterflow DC24V 0.5A published as user-selected quotation reference; exact switch rating remains unverified"
+  ],
+  "pdfWork": "paused-by-user",
+  "liveHomepage": "https://chuanweifire.com/",
+  "liveState": "Retrieved homepage still shows earlier hero copy, management-system label and WhatsApp-only form; latest local improvements not verified live.",
+  "followupImplementation": {
+    "date": "2026-10-09",
+    "navigationAndBuyerNames": "local-complete",
+    "defaultOpenCategoriesNow": 0,
+    "buyerNameConfigurations": 115,
+    "commercialFAQ": "Paid samples and product-specific MOQ added EN/AR; OEM and delivery await materials",
+    "publicCompanyName": "Do not add registered Chinese factory name at user request",
+    "aboutRelationship": "Export-brand relationship removed EN/AR at explicit user request",
+    "photosAndSelectionData": "Exact configuration materials still needed",
+    "validation": "docs/reviews/primary-product-photos-20261009/validation-summary.json",
+    "latestCandidate": "docs/release/site-final-review-20261010/package-summary.json",
+    "primaryPhotoUpdate": "19 series, 30 media slots reused 28 verified photographs; 76 layouts and 34 legacy view links passed",
+    "missingPhotos": "User confirmed no additional HS/HSW, overseas nozzle/coupling or cabinet photographs; await materials",
+    "finalCustomerReview": {
+      "date": "2026-10-10",
+      "status": "local-review",
+      "scope": "24 directory/category bilingual pages now have contextual email and WhatsApp drafts; first-inquiry guidance, no-result contact link, water mist/water curtain wording, NRS product-document wording and hose-reel-part connection requests cleaned. All remaining unsupported facts stay in internal gap records.",
+      "review": "docs/reviews/site-final-review-20261010/README.md",
+      "latestCandidate": "docs/release/site-final-review-20261010/package-summary.json"
+    }
+  }
+}

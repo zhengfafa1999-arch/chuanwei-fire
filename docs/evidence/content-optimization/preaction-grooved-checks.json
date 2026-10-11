@@ -1,0 +1,55 @@
+{
+  "checks": [
+    {
+      "images": [
+        {
+          "alt": "Flanged preaction assembly — sample layout",
+          "loaded": true
+        },
+        {
+          "alt": "Grooved preaction valve assembly — product sample",
+          "loaded": true
+        }
+      ],
+      "language": "en",
+      "modalClosed": true,
+      "scrollWidth": 1265,
+      "width": 1280
+    },
+    {
+      "images": [
+        {
+          "alt": "Flanged preaction assembly — sample layout",
+          "loaded": true
+        },
+        {
+          "alt": "Grooved preaction valve assembly — product sample",
+          "loaded": true
+        }
+      ],
+      "language": "en",
+      "scrollWidth": 375,
+      "width": 390
+    },
+    {
+      "images": [
+        {
+          "alt": "مجموعة ما قبل التشغيل الفلنجية — ترتيب العينة",
+          "loaded": true
+        },
+        {
+          "alt": "مجموعة صمام الإجراء المسبق بوصلة محززة — عينة المنتج",
+          "loaded": true
+        }
+      ],
+      "language": "ar",
+      "scrollWidth": 305,
+      "width": 320
+    }
+  ],
+  "enlarge": {
+    "opened": true,
+    "loaded": true,
+    "closed": true
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "date": "2026-10-09",
+  "build": "npm --ignore-scripts run build",
+  "checks": [
+    "Route validation passed: 87 route IDs register 175 published outputs and cover all 175 files currently on disk.",
+    "Catalog validation passed: three confirmed products and six localized outputs are ready.",
+    "Buyer-copy validation passed: 11240 public copy values; technical scope, image mapping and internal evidence retained.",
+    "Product search validation passed: 81 assertions across English and Arabic indexes.",
+    "Inquiry tests passed: EN/AR/ZH drafts preserve fields, reserved characters and newlines; email/WhatsApp retain identical bodies; product drafts use canonical URLs and manual-copy fallback. No messages sent.",
+    "Product supplement validation passed: 22 routes, 44 configurations, 236 fields, 0 localized outputs checked.",
+    "Product photo validation passed: 46 photographs, 24 existing series, 92 optimized assets, 0 bilingual outputs.",
+    "Legacy SEO normalization passed: 0 hand-maintained product pages updated.",
+    "Legacy navigation normalization passed: 0 hand-maintained product pages updated.",
+    "Analytics normalization passed: 175 published pages; GA4 disabled and no consent UI emitted.",
+    "SEO validation passed: 175 published pages have unique titles, descriptions and canonicals plus equivalent hreflang, Open Graph, Twitter and indexation metadata.",
+    "Analytics validation passed: 175 published pages contain no GA4 loader or consent UI.",
+    "Navigation validation passed: 175 published pages, 142 product return paths and 0 explicit language fallbacks are consistent.",
+    "Generated-page validation passed: six English and Arabic product outputs are linked and complete.",
+    "Preserved-product validation passed: 54 language outputs retain original structure and media; English content matches immutable fixtures with explicitly reviewed CATWEB-014/015 field substitutions.",
+    "Catalog-product validation passed: 3 shared product source(s), 6 localized outputs.",
+    "Documented-product validation passed: 38 release candidates, 76 localized outputs, image-rights release gate retained.",
+    "Product supplement validation passed: 22 routes, 44 configurations, 236 fields, 44 localized outputs checked.",
+    "Product photo validation passed: 46 photographs, 24 existing series, 92 optimized assets, 48 bilingual outputs.",
+    "Listing validation passed: 2 product-directory pages and 22 category pages use shared data and templates.",
+    "Public-page validation passed: six English/Arabic outputs share one template with confirmed facts, SEO alternates and valid local files.",
+    "Rendered buyer-copy validation passed: 175 public pages.",
+    "Buyer-copy validation passed: 11240 public copy values; technical scope, image mapping and internal evidence retained.",
+    "Static release audit passed: 175 pages, 2164 images with alt attributes, 42170 internal references and 724 new-window links checked."
+  ],
+  "newConfigurations": 6,
+  "newFields": 44,
+  "responsive": [
+    {
+      "brokenImages": 0,
+      "configurations": 7,
+      "language": "en",
+      "overflowValues": 0,
+      "rows": 52,
+      "scrollWidth": 305,
+      "width": 320
+    },
+    {
+      "brokenImages": 0,
+      "configurations": 7,
+      "language": "en",
+      "overflowValues": 0,
+      "rows": 52,
+      "scrollWidth": 375,
+      "width": 390
+    },
+    {
+      "brokenImages": 0,
+      "configurations": 7,
+      "language": "en",
+      "overflowValues": 0,
+      "rows": 52,
+      "scrollWidth": 1265,
+      "width": 1280
+    },
+    {
+      "brokenImages": 0,
+      "configurations": 7,
+      "language": "ar",
+      "overflowValues": 0,
+      "rows": 52,
+      "scrollWidth": 305,
+      "width": 320
+    },
+    {
+      "brokenImages": 0,
+      "configurations": 7,
+      "language": "ar",
+      "overflowValues": 0,
+      "rows": 52,
+      "scrollWidth": 375,
+      "width": 390
+    },
+    {
+      "brokenImages": 0,
+      "configurations": 7,
+      "language": "ar",
+      "overflowValues": 0,
+      "rows": 52,
+      "scrollWidth": 1265,
+      "width": 1280
+    }
+  ],
+  "searchUI": {
+    "query": "ZSTDY115-93°C Q5A",
+    "resultCount": 1,
+    "target": "configuration-zstdy115-93-q5a",
+    "headingTop": 99.75,
+    "headerBottom": 76.66667175292969
+  },
+  "numericModelTables": {
+    "productPairs": 71,
+    "rows": 334,
+    "mismatches": []
+  },
+  "pdfSha256": "4726e11252e8776a359b726a3d610937bd21913f3f68b13ae679b02a764146c8",
+  "pdfChanged": false,
+  "gitDiffCheck": "passed",
+  "deployment": "not-performed"
+}

@@ -1,0 +1,26 @@
+{
+  "date": "2026-10-09",
+  "source": "Human user in this website optimization conversation",
+  "question_scope": "HS-031/011/012/013/020 and HSW-010 through 014: rated working pressure, with test pressure optional.",
+  "quote": "1.6和2.5压力都有",
+  "products": [
+    "straight-through-oblique-landing-valves",
+    "horizontal-handwheel-landing-valves"
+  ],
+  "working_pressure_options_MPa": [
+    1.6,
+    2.5
+  ],
+  "working_pressure_options_bar": [
+    16,
+    25
+  ],
+  "conversion": "bar = MPa × 10",
+  "scope": "Available working-pressure options at series level. No assertion that every model/connection is available in both options.",
+  "not_confirmed": [
+    "Exact model-to-pressure mapping",
+    "Test pressure",
+    "Flange drilling/class compatibility",
+    "Material or overseas approval"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-10",
+  "verbatim": "加上防爆流水指示器，尺寸和图片流水指示器一样，",
+  "confirmed": {
+    "productType": "Explosion-proof waterflow switch",
+    "nominalSizes": [
+      "DN50",
+      "DN65",
+      "DN80",
+      "DN100",
+      "DN125",
+      "DN150",
+      "DN200"
+    ],
+    "samplePhoto": "DN100"
+  },
+  "scope": "Reuse the existing ordinary-series nominal pipe sizes only; no new outline dimensions, factory model suffix, pressure, material grades, electrical rating or explosion-protection certification inferred.",
+  "terminologyReference": "https://www.pottersignal.com/explosion-proof/sprinkler-monitoring/explosion-proof-waterflow-switch",
+  "referenceScope": "English product terminology only; no third-party product specifications applied"
+}

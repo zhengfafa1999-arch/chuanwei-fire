@@ -1,0 +1,265 @@
+{
+  "id": "explosion-proof-pressure-switch",
+  "routeId": "product:explosion-proof-pressure-switch",
+  "template": "product-series/documented-product.njk",
+  "styles": [
+    "css/common.css",
+    "css/sprinkler-product.css",
+    "css/sprinkler-product-gallery.css",
+    "css/documented-product.css",
+    "css/site-navigation.css"
+  ],
+  "source": {
+    "evidence": "Actual user photograph and direct user-confirmed standalone product specifications; Ex marking and exact model not confirmed",
+    "photoRecord": "docs/reviews/explosion-control-components-20261010/photo-records.json",
+    "researchRecord": "docs/reviews/explosion-control-components-20261010/parameter-review.md",
+    "confirmationRecord": "docs/reviews/explosion-control-components-20261010/user-confirmation.json"
+  },
+  "publication": {
+    "status": "release-candidate",
+    "externalRelease": true,
+    "imageRights": "user-confirmed-website-use",
+    "imageRightsEvidence": "docs/release/explosion-control-components-20261010/image-rights-confirmation.json"
+  },
+  "media": {
+    "hero": "assets/products/explosion-proof-pressure-switch/sample-1600.webp"
+  },
+  "imageDimensions": {
+    "hero": {
+      "width": 1600,
+      "height": 1157
+    }
+  },
+  "heroFacts": [
+    "threadValue",
+    "pressureValue",
+    "contactValue"
+  ],
+  "shared": {
+    "threadValue": "R1/2",
+    "pressureValue": "1.6 MPa / 16 bar",
+    "actuationValue": "0.035–0.05 MPa / 0.35–0.5 bar",
+    "contactValue": "DC24V / 1A"
+  },
+  "gallery": [
+    {
+      "media": "hero",
+      "alt": "sampleAlt",
+      "caption": "sampleCaption",
+      "thumbnailAlt": "sampleThumbnail"
+    }
+  ],
+  "specifications": [
+    {
+      "label": "productType",
+      "value": "title"
+    },
+    {
+      "label": "function",
+      "value": "functionValue"
+    },
+    {
+      "label": "connection",
+      "value": "connectionValue"
+    },
+    {
+      "label": "ratedPressure",
+      "value": "pressureValue",
+      "technical": true
+    },
+    {
+      "label": "actuation",
+      "value": "actuationValue",
+      "technical": true
+    },
+    {
+      "label": "contact",
+      "value": "contactValue",
+      "technical": true
+    },
+    {
+      "label": "construction",
+      "value": "constructionValue"
+    }
+  ],
+  "modelColumns": [
+    {
+      "label": "connection",
+      "field": "connection",
+      "localized": true
+    },
+    {
+      "label": "ratedPressure",
+      "field": "pressure",
+      "technical": true
+    },
+    {
+      "label": "actuation",
+      "field": "actuation",
+      "technical": true
+    },
+    {
+      "label": "contact",
+      "field": "contact",
+      "technical": true
+    }
+  ],
+  "models": [
+    {
+      "connection": "connectionValue",
+      "pressure": "1.6 MPa / 16 bar",
+      "actuation": "0.035–0.05 MPa / 0.35–0.5 bar",
+      "contact": "DC24V / 1A"
+    }
+  ],
+  "confirmationItems": [
+    {
+      "label": "selection",
+      "body": "selectionBody"
+    },
+    {
+      "label": "electrical",
+      "body": "electricalBody"
+    },
+    {
+      "label": "explosionProtection",
+      "body": "explosionProtectionBody"
+    },
+    {
+      "label": "orderInformation",
+      "body": "orderInformationBody"
+    }
+  ],
+  "validation": {
+    "anchors": [
+      "gallery",
+      "specifications",
+      "models",
+      "quotation"
+    ],
+    "requiredTechnicalValues": [
+      "R1/2",
+      "1.6 MPa / 16 bar",
+      "0.035–0.05 MPa / 0.35–0.5 bar",
+      "DC24V / 1A"
+    ]
+  },
+  "inquiry": {
+    "whatsapp": "https://wa.me/8617326528368?text=Hello%2C+I+need+a+quotation+for+Explosion-Proof+Pressure+Switch.+Quantity%3A+%5Bpcs%5D%2C+destination%3A+%5Bcountry%5D%2C+connection%3A+%5Bdetails%5D.+Please+send+matching+technical+data%2C+wiring+information+and+explosion-protection+documents.",
+    "email": "mailto:zhengcolin1@gmail.com?subject=Explosion-Proof+Pressure+Switch+Inquiry"
+  },
+  "copy": {
+    "en": {
+      "onThisPage": "On this page",
+      "specifications": "Specifications",
+      "factoryModel": "Factory Model",
+      "temperature": "Temperature",
+      "thermalElement": "Sensing element",
+      "quotation": "Quotation confirmation",
+      "askOnWhatsApp": "Ask on WhatsApp",
+      "emailSales": "Email sales",
+      "productImagePreview": "Product image preview",
+      "closeImagePreview": "Close image preview",
+      "previousProductImage": "Previous product image",
+      "nextProductImage": "Next product image",
+      "selectProductImage": "Select product image",
+      "eyebrow": "R1/2 · 1.6 MPa · pressure signalling",
+      "lead": "Explosion-proof pressure switch with an R1/2 male connection, rated working pressure of 1.6 MPa and an actuation pressure range of 0.035–0.05 MPa. Contact capacity is DC24V / 1A.",
+      "note": "Request the selected model’s technical data, wiring diagram and explosion-protection documents with your quotation.",
+      "galleryTitle": "Pressure switch sample",
+      "galleryBody": "The supplied photograph shows a red bolted enclosure, bottom male-threaded connection and side cable entry. Open the image to inspect the configuration and visible markings.",
+      "sampleCaption": "Explosion-proof pressure switch — supplied sample",
+      "sampleAlt": "Explosion-proof pressure switch with red bolted enclosure, male-threaded bottom connection and two white leads",
+      "sampleThumbnail": "Pressure switch sample thumbnail",
+      "connectionValue": "R1/2 male thread",
+      "constructionValue": "Red bolted enclosure · side cable entry",
+      "functionValue": "Pressure signal converted to electrical switching output",
+      "specificationsBody": "Working pressure and actuation pressure are listed separately. DC24V / 1A is the electrical contact rating for the connected signal circuit.",
+      "modelsBody": "Compare the confirmed connection, rated working pressure, actuation pressure and contact capacity below. Request the matching factory model and drawing with your quotation.",
+      "modelsNote": "The contact capacity is an electrical switching rating. Request the contact arrangement and wiring diagram for the selected product.",
+      "selectionBody": "R1/2 male connection; rated working pressure 1.6 MPa; actuation pressure range 0.035–0.05 MPa. Provide the required actuation point.",
+      "electricalBody": "Contact capacity DC24V / 1A. Request the contact arrangement and wiring diagram for your signal circuit.",
+      "quotationBody": "Start with the product and quantity. Add the pressure connection, actuation point and signal-circuit requirements when available.",
+      "inquiryBody": "Include quantity, destination and your pressure and electrical contact requirements.",
+      "seoDescription": "Explosion-proof pressure switch with R1/2 male thread, 1.6 MPa rated pressure, 0.035–0.05 MPa actuation range and DC24V / 1A contacts. View the actual sample.",
+      "title": "Explosion-Proof Pressure Switch",
+      "seoTitle": "Explosion-Proof Pressure Switch | CHUANWEI FIRE",
+      "gallery": "Product image",
+      "availableModels": "Product configuration",
+      "enlargedImage": "Enlarged explosion-proof pressure switch",
+      "specificationsTitle": "Product overview",
+      "productType": "Product type",
+      "function": "Function",
+      "connection": "Connection shown",
+      "construction": "Photographed construction",
+      "modelsTitle": "Photographed configuration",
+      "quotationTitle": "Request a matched configuration",
+      "selection": "Pressure and connection",
+      "electrical": "Electrical requirements",
+      "explosionProtection": "Explosion-protection requirements",
+      "explosionProtectionBody": "Specify destination and the required protection classification. Request the exact product marking and matching supporting documents.",
+      "orderInformation": "Order information",
+      "orderInformationBody": "Provide quantity, destination and packaging requirements.",
+      "inquiryTitle": "Request an explosion-proof pressure switch",
+      "ratedPressure": "Rated working pressure",
+      "actuation": "Actuation pressure range",
+      "contact": "Electrical contact capacity"
+    },
+    "ar": {
+      "onThisPage": "في هذه الصفحة",
+      "specifications": "المواصفات",
+      "factoryModel": "موديل المصنع",
+      "temperature": "درجة الحرارة",
+      "thermalElement": "عنصر الاستشعار",
+      "quotation": "تأكيد عرض السعر",
+      "askOnWhatsApp": "استفسر عبر WhatsApp",
+      "emailSales": "راسل قسم المبيعات",
+      "productImagePreview": "معاينة صورة المنتج",
+      "closeImagePreview": "إغلاق معاينة الصورة",
+      "previousProductImage": "صورة المنتج السابقة",
+      "nextProductImage": "صورة المنتج التالية",
+      "selectProductImage": "اختر صورة المنتج",
+      "eyebrow": "R1/2 · 1.6 MPa · إشارات الضغط",
+      "lead": "مفتاح ضغط مقاوم للانفجار بتوصيل R1/2 بسن خارجي وضغط تشغيل مقنن 1.6 MPa ونطاق ضغط تشغيل للمفتاح 0.035–0.05 MPa. قدرة نقاط التلامس DC24V / 1A.",
+      "note": "اطلب البيانات الفنية ومخطط التوصيل الكهربائي ووثائق الحماية من الانفجار للموديل المختار مع عرض السعر.",
+      "galleryTitle": "عينة مفتاح الضغط",
+      "galleryBody": "تُظهر الصورة المقدمة علبة حمراء مثبتة بمسامير وتوصيلاً سفلياً بسن خارجي ومدخل كابل جانبياً. افتح الصورة لفحص التكوين والعلامات الظاهرة.",
+      "sampleCaption": "مفتاح ضغط مقاوم للانفجار — العينة المقدمة",
+      "sampleAlt": "مفتاح ضغط مقاوم للانفجار بعلبة حمراء مثبتة بمسامير وتوصيل سفلي بسن خارجي وسلكين أبيضين",
+      "sampleThumbnail": "صورة مصغرة لعينة مفتاح الضغط",
+      "connectionValue": "R1/2 بسن خارجي",
+      "constructionValue": "علبة حمراء مثبتة بمسامير · مدخل كابل جانبي",
+      "functionValue": "تحويل إشارة الضغط إلى خرج تبديل كهربائي",
+      "specificationsBody": "يُعرض ضغط العمل وضغط تشغيل المفتاح بشكل منفصل. تشير DC24V / 1A إلى قدرة نقاط التلامس الكهربائية لدائرة الإشارة المتصلة.",
+      "modelsBody": "قارن التوصيل وضغط التشغيل المقنن وضغط تشغيل المفتاح وقدرة نقاط التلامس المؤكدة أدناه. اطلب موديل المصنع والرسم المطابقين مع عرض السعر.",
+      "modelsNote": "قدرة نقاط التلامس هي قيمة مقننة للتبديل الكهربائي. اطلب ترتيب نقاط التلامس ومخطط التوصيل للمنتج المختار.",
+      "selectionBody": "توصيل R1/2 بسن خارجي؛ ضغط تشغيل مقنن 1.6 MPa؛ نطاق ضغط تشغيل المفتاح 0.035–0.05 MPa. أرسل نقطة التشغيل المطلوبة.",
+      "electricalBody": "قدرة نقاط التلامس DC24V / 1A. اطلب ترتيب نقاط التلامس ومخطط التوصيل لدائرة الإشارة.",
+      "quotationBody": "ابدأ بالمنتج والكمية. أضف توصيل الضغط ونقطة التشغيل ومتطلبات دائرة الإشارة عند توفرها.",
+      "inquiryBody": "أضف الكمية والوجهة ومتطلبات الضغط ونقاط التلامس الكهربائية.",
+      "seoDescription": "مفتاح ضغط مقاوم للانفجار بسن خارجي R1/2 وضغط مقنن 1.6 MPa ونطاق تشغيل 0.035–0.05 MPa ونقاط تلامس DC24V / 1A. شاهد العينة الفعلية.",
+      "title": "مفتاح ضغط مقاوم للانفجار",
+      "seoTitle": "مفتاح ضغط مقاوم للانفجار | CHUANWEI FIRE",
+      "gallery": "صورة المنتج",
+      "availableModels": "تكوين المنتج",
+      "enlargedImage": "صورة مكبرة: مفتاح ضغط مقاوم للانفجار",
+      "specificationsTitle": "نظرة عامة على المنتج",
+      "productType": "نوع المنتج",
+      "function": "الوظيفة",
+      "connection": "التوصيل الظاهر",
+      "construction": "البنية المعروضة في الصورة",
+      "modelsTitle": "التكوين المعروض في الصورة",
+      "quotationTitle": "اطلب تكويناً مطابقاً",
+      "selection": "الضغط والتوصيل",
+      "electrical": "المتطلبات الكهربائية",
+      "explosionProtection": "متطلبات الحماية من الانفجار",
+      "explosionProtectionBody": "حدد بلد الوجهة وتصنيف الحماية المطلوب. اطلب علامات المنتج الدقيقة والوثائق الداعمة المطابقة.",
+      "orderInformation": "معلومات الطلب",
+      "orderInformationBody": "أرسل الكمية والوجهة ومتطلبات التغليف.",
+      "inquiryTitle": "اطلب مفتاح ضغط مقاوم للانفجار",
+      "ratedPressure": "ضغط التشغيل المقنن",
+      "actuation": "نطاق ضغط تشغيل المفتاح",
+      "contact": "قدرة نقاط التلامس الكهربائية"
+    }
+  }
+}

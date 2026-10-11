@@ -16,6 +16,7 @@ export const SITE_ROUTES = {
   downloads: { kind: "core", locales: { en: published("downloads.html"), ar: published("ar/downloads.html") } },
   contact: { kind: "core", locales: { en: published("contact.html"), ar: published("ar/contact.html") } },
 
+  "category:foam-nozzles": { kind: "category", locales: { en: published("products/foam-nozzles.html"), ar: published("ar/products/foam-nozzles/index.html") } },
   "category:sprinklers": { kind: "category", locales: { en: published("products/消防喷头.html"), ar: published("ar/products/sprinklers/index.html") } },
   "category:system-valves": { kind: "category", locales: { en: published("products/消防阀.html"), ar: published("ar/products/system-valves/index.html") } },
   "category:butterfly-valves": { kind: "category", locales: { en: published("products/消防蝶阀.html"), ar: published("ar/products/butterfly-valves/index.html") } },
@@ -32,7 +33,25 @@ export const SITE_ROUTES = {
   "product:preaction-valve-assemblies": { kind: "product", category: "category:system-valves", locales: { en: published("products/消防阀/preaction-valve-assemblies.html"), ar: published("ar/products/preaction-valve-assemblies/index.html") } },
   "product:dry-pipe-alarm-valves": { kind: "product", category: "category:system-valves", locales: { en: published("products/消防阀/dry-pipe-alarm-valves.html"), ar: published("ar/products/dry-pipe-alarm-valves/index.html") } },
   "product:saddle-type-waterflow-switches": { kind: "product", category: "category:system-valves", locales: { en: published("products/消防阀/saddle-type-waterflow-switches.html"), ar: published("ar/products/saddle-type-waterflow-switches/index.html") } },
+  "product:explosion-proof-waterflow-switches": { kind: "product", category: "category:system-valves", locales: { en: published("products/消防阀/explosion-proof-waterflow-switches.html"), ar: published("ar/products/explosion-proof-waterflow-switches/index.html") } },
 
+  "product:fire-pressure-switch": {
+    kind: "product",
+    category: "category:system-valves",
+    locales: {
+      en: published("products/消防阀/fire-pressure-switch.html"),
+      ar: published("ar/products/fire-pressure-switch/index.html")
+    }
+  },
+  "product:explosion-proof-pressure-switch": { kind: "product", category: "category:system-valves", locales: { en: published("products/消防阀/explosion-proof-pressure-switch.html"), ar: published("ar/products/explosion-proof-pressure-switch/index.html") } },
+  "product:explosion-proof-solenoid-valve": { kind: "product", category: "category:system-valves", locales: { en: published("products/消防阀/explosion-proof-solenoid-valve.html"), ar: published("ar/products/explosion-proof-solenoid-valve/index.html") } },
+
+  "product:sprinkler-escutcheons-decorative-covers": { kind: "product", category: "category:sprinklers", locales: { en: published("products/消防喷头/sprinkler-escutcheons-decorative-covers.html"), ar: published("ar/products/sprinkler-escutcheons-decorative-covers/index.html") } },
+
+  "product:closed-rotating-fire-sprinkler": { kind: "product", category: "category:sprinklers", locales: { en: published("products/closed-rotating-fire-sprinkler.html"), ar: published("ar/products/closed-rotating-fire-sprinkler/index.html") } },
+  "product:closed-centrifugal-fire-sprinklers": { kind: "product", category: "category:sprinklers", locales: { en: published("products/closed-centrifugal-fire-sprinklers.html"), ar: published("ar/products/closed-centrifugal-fire-sprinklers/index.html") } },
+  "product:tubular-foam-water-nozzles": { kind: "product", category: "category:foam-nozzles", locales: { en: published("products/tubular-foam-water-nozzles.html"), ar: published("ar/products/tubular-foam-water-nozzles/index.html") } },
+  "product:closed-air-aspirating-foam-water-sprinkler": { kind: "product", category: "category:foam-nozzles", locales: { en: published("products/closed-air-aspirating-foam-water-sprinkler.html"), ar: published("ar/products/closed-air-aspirating-foam-water-sprinkler/index.html") } },
   "product:water-curtain-nozzles": { kind: "product", category: "category:sprinklers", locales: { en: published("products/消防喷头/water-curtain-nozzles.html"), ar: published("ar/products/water-curtain-nozzles/index.html") } },
   "product:water-mist-nozzles": { kind: "product", category: "category:sprinklers", locales: { en: published("products/消防喷头/water-mist-nozzles.html"), ar: published("ar/products/water-mist-nozzles/index.html") } },
   "product:standard-response-fire-sprinkler": { kind: "product", category: "category:sprinklers", locales: { en: published("products/消防喷头/standard-response-fire-sprinkler.html"), ar: published("ar/products/standard-response-fire-sprinkler/index.html") } },

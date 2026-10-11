@@ -1,0 +1,10 @@
+{
+  "date": "2026-10-10",
+  "status": "local-review-candidate-not-deployed",
+  "archive": ".tmp/releases/explosion-proof-waterflow-20261010-web.zip",
+  "bytes": 43524838,
+  "sha256": "f927674476b7e8942a4c865fd500b4329c426fac3e7ff3f5782714585622eef6",
+  "files": 704,
+  "pages": 177,
+  "validation": "All ZIP entries verified against static-manifest sizes and SHA256; CRC check passed. Server rollback backup must be created before publication."
+}

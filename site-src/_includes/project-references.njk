@@ -1,0 +1,36 @@
+<section class="section soft" id="projects" aria-labelledby="project-references-title">
+  <div class="container">
+    <div class="heading">
+      <div><h2 id="project-references-title">{{ entry.projects.title }}</h2></div>
+      <p>{{ entry.projects.lead }}</p>
+    </div>
+    <div class="project-reference-grid">
+{% for project in entry.projects.items %}
+      <article class="project-reference-card" data-project-reference="{{ project.id }}">
+        <div class="project-reference-image">
+          <img src="{{ project.image }}" alt="{{ project.name }}" width="{{ project.width }}" height="{{ project.height }}" loading="lazy" decoding="async">
+        </div>
+        <div class="project-reference-body">
+          <p class="project-reference-type">{{ project.type }}</p>
+          <h3>{{ project.name }}</h3>
+          <p class="project-reference-description">{{ project.description }}</p>
+          <p class="project-reference-products-label">{{ entry.projects.relatedLabel }}</p>
+          <ul class="project-reference-products">
+{% for product in project.related %}
+            <li><a href="{{ product.href }}" data-project-product="{{ product.id }}">{{ product.name }}</a></li>
+{% endfor %}
+          </ul>
+          <p class="project-reference-products-label">{{ entry.projects.optionalLabel }}</p>
+          <ul class="project-reference-products">
+{% for product in project.optional %}
+            <li><a href="{{ product.href }}" data-project-product="{{ product.id }}">{{ product.name }}</a></li>
+{% endfor %}
+          </ul>
+        </div>
+      </article>
+{% endfor %}
+    </div>
+    <p class="project-reference-note">{{ entry.projects.note }}</p>
+    <p class="project-reference-action"><a class="btn navy" href="#contact">{{ entry.projects.action }}</a></p>
+  </div>
+</section>

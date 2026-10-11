@@ -78,7 +78,8 @@
       </div>
     </section>
 
-    <section class="pdp-cta" id="inquiry"><div class="pdp-container pdp-cta__in"><div><h2>{{ entry.text.sendYourHoseReelSchedule }}</h2><p>{{ entry.text.includePressureHoseLengthInletConnectionAndQuantity }}</p></div><div class="pdp-actions"><a class="pdp-btn" href="https://wa.me/8617326528368?text=Hello%2C%20I%20need%20a%20quotation%20for%20the%20JPS%20Jet%2FSpray%20Fire%20Hose%20Reel.%20Pressure%3A%20%5B0.8%2F1.0%2F1.6%20MPa%5D%2C%20length%3A%20%5B20%2F25%2F30m%5D%2C%20quantity%3A%20%5Bsets%5D%2C%20destination%3A%20%5Bcountry%5D." target="_blank" rel="noopener">{{ entry.text.whatsAppInquiry }}</a><a class="pdp-btn pdp-btn--ghost" href="mailto:zhengcolin1@gmail.com?subject=Jet%20Spray%20Fire%20Hose%20Reel%20Inquiry">{{ entry.text.emailSales }}</a></div></div></section>
+{% include "product-photos.njk" %}
+  <section class="pdp-cta" id="inquiry"><div class="pdp-container pdp-cta__in"><div><h2>{{ entry.text.sendYourHoseReelSchedule }}</h2><p>{{ entry.text.includePressureHoseLengthInletConnectionAndQuantity }}</p></div><div class="pdp-actions"><a class="pdp-btn" href="https://wa.me/8617326528368?text=Hello%2C%20I%20need%20a%20quotation%20for%20the%20JPS%20Jet%2FSpray%20Fire%20Hose%20Reel.%20Pressure%3A%20%5B0.8%2F1.0%2F1.6%20MPa%5D%2C%20length%3A%20%5B20%2F25%2F30m%5D%2C%20quantity%3A%20%5Bsets%5D%2C%20destination%3A%20%5Bcountry%5D." target="_blank" rel="noopener">{{ entry.text.whatsAppInquiry }}</a><a class="pdp-btn pdp-btn--ghost" href="{{ entry.emailHref }}">{{ entry.text.emailSales }}</a></div></div></section>
   </main>
 {% include "product-footer.njk" %}
 <div class="pdp-modal" id="productModal" role="dialog" aria-modal="true" aria-label="{{ entry.text.productImagePreview }}"><button type="button" aria-label="{{ entry.text.closeImagePreview }}">×</button><div><img src="{{ entry.media.hero }}" alt="{{ entry.text.enlargedJetSprayFireHoseReel }}"></div></div>

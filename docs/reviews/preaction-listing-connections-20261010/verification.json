@@ -1,0 +1,16 @@
+{
+  "scope": "Add flanged and grooved preaction cards to English and Arabic product directories, category pages and navigation. Existing wet-alarm and deluge connection cards retained.",
+  "systemValvesPage1": "12 cards, both preaction connection cards included",
+  "groovedCardImage": "assets/products/guanya-2026/preaction-valve-assemblies-preaction-grooved-assembly-1600.webp",
+  "groovedLink": "#product-photograph-2",
+  "flangedLink": "#product-photograph-1",
+  "modelTablesUnchanged": true,
+  "technicalSpecificationListsUnchanged": true,
+  "modelScope": "DN100/150/200 grooved; DN100/150/200/250 flanged; shared user-confirmed material, DC 24 V and nominal pressure retained on both cards",
+  "buildExitCode": 0,
+  "publishedPages": 185,
+  "searchAssertions": 163,
+  "browserValidation": "Browser inventory request failed while loading browser request-header policy. No desktop/390px browser screenshots or click execution claimed; generated links, anchors and static checks passed.",
+  "pdfUnchanged": true,
+  "status": "local-review-candidate-not-deployed"
+}

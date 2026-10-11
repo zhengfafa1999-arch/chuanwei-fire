@@ -18,12 +18,14 @@ eleventyExcludeFromCollections: true
 {% endfor %}{% if entry.lang == 'ar' %}  <link rel="stylesheet" href="{{ entry.route.assetPrefix }}css/multilingual-product.css">
 {% endif %}
 {% if entry.product.inlineStyle %}<style>{{ entry.product.inlineStyle | safe }}</style>
-{% endif %}{% seoTags entry.seo %}
+{% endif %}{% if entry.supplement or entry.photos %}<link rel="stylesheet" href="{{ entry.route.assetPrefix }}css/product-supplement.css">{% endif %}
+{% seoTags entry.seo %}
 </head>
 <body data-site-language="{{ entry.lang }}" data-site-route-id="{{ entry.product.routeId }}">
 {% include "site-header.njk" %}
 {% include entry.product.template %}
-  <script src="{{ entry.route.assetPrefix }}assets/js/preserved-product-gallery.js"></script>
+  <script src="{{ entry.route.assetPrefix }}assets/js/preserved-product-gallery.js?v=20261009-2"></script>
   <script src="{{ entry.route.assetPrefix }}assets/js/site-navigation.js"></script>
+  <script src="{{ entry.route.assetPrefix }}assets/js/inquiry.js"></script>
 </body>
 </html>

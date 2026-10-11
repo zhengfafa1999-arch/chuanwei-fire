@@ -1,0 +1,42 @@
+{
+  "checks": [
+    {
+      "headingTop": 185.20834350585935,
+      "models": [
+        "Pendent, EC Quick Response\nDeflector facing downward when installed\n\tDN20 / ¾ in\tK8.0 US / K115 metric\t68°C / 155°F\tEC-ZSTX 115-68°C Q3A",
+        "Upright, EC Quick Response\nDeflector facing upward when installed\n\tDN20 / ¾ in\tK8.0 US / K115 metric\t68°C / 155°F\tEC-ZSTZ 115-68°C Q3A",
+        "Horizontal Sidewall, EC Quick Response\nHorizontal sidewall installation\n\tDN20 / ¾ in\tK8.0 US / K115 metric\t68°C / 155°F\tEC-ZSTBS 115-68°C Q3A"
+      ],
+      "scrollWidth": 1265,
+      "spec": "TECHNICAL OVERVIEW\n\nTechnical specifications\n\nCompare the pictured configurations and specify the installation orientation and connection required for your order.\n\nProduct specifications\nProduct type\nExtended Coverage Quick Response Sprinkler\nInstallation\nPendent, Upright or Horizontal Sidewall\nNominal size\nDN20 / ¾ in\nK-factor\nK8.0 US / K115 metric\nThermal element\n3 mm quick-response glass bulb\nTemperature rating\n68°C / 155°F, red glass bulb\nBody / deflector materials\nCopper body; stainless steel deflector\nSurface finish\nChrome-plated finish\nThread form\nBSPT (default) / NPT (optional); exact thread designation matched to your order\nMax. working pressure\n1.2 MPa / 12 bar / approx. 174 psi\nPacking\nContact sales for packing and label requirements\nOEM / ODM\nMarking, finish, connection and packaging reviewed against the approved requirement\nHydraulic selection\nCoverage area\nAvailable on request for the exact supplied model.\nMaximum spacing\nAvailable on request for project review.\nMinimum operating pressure\nAvailable on request with the matching hydraulic data.\nFlow and pressure curve\nAvailable on request.\nDesign note\nResponse classification and extended-coverage classification are separate properties. Final spacing, pressure and installation must follow the approved system design and exact product data.",
+      "url": "http://127.0.0.1:8766/products/%E6%B6%88%E9%98%B2%E5%96%B7%E5%A4%B4/extended-coverage-quick-response-fire-sprinkler.html#specifications",
+      "width": 1280
+    },
+    {
+      "modelRows": 3,
+      "scrollWidth": 375,
+      "tableScrollable": true,
+      "url": "http://127.0.0.1:8766/products/%E6%B6%88%E9%98%B2%E5%96%B7%E5%A4%B4/extended-coverage-quick-response-fire-sprinkler.html#models",
+      "width": 390
+    },
+    {
+      "headingTop": 169.1875,
+      "modelRows": 3,
+      "scrollWidth": 305,
+      "spec": "نظرة عامة فنية\n\nالمواصفات الفنية\n\nقارن التكوينات المصورة وحدد اتجاه التركيب والتوصيل المطلوبين لطلبك.\n\nمواصفات المنتج\nنوع المنتج\nرشاش ذو تغطية موسعة واستجابة سريعة\nالتركيب\nمتدلٍ أو قائم أو جانبي أفقي\nالمقاس الاسمي\n⁦DN20 / ¾ in⁩\nمعامل ⁦K⁩\n⁦K8.0 US / K115⁩ متري\nالعنصر الحراري\nبصيلة زجاجية سريعة الاستجابة ⁦3 mm⁩\nدرجة حرارة التشغيل\n⁦68°C / 155°F⁩، بصيلة زجاجية حمراء\nمواد الجسم / موزع المياه\nجسم نحاسي؛ موزع مياه من الفولاذ المقاوم للصدأ\nتشطيب السطح\nتشطيب مطلي بالكروم\nنوع السن اللولبي\n⁦BSPT⁩ (افتراضي) / ⁦NPT⁩ (اختياري)؛ تطابق تسمية السن الدقيقة مع طلبك\nأقصى ضغط تشغيل\n⁦1.2 MPa / 12 bar⁩ / نحو ⁦174 psi⁩\nالتغليف\nتواصل مع المبيعات لمتطلبات التغليف والملصقات\n⁦OEM / ODM⁩\nتُراجع العلامات والتشطيب والوصلة والتغليف وفق المتطلبات المعتمدة\nالاختيار الهيدروليكي\nمساحة التغطية\nمتوفرة عند الطلب للطراز المورّد المحدد.\nأقصى تباعد\nمتوفر عند الطلب لمراجعة المشروع.\nالحد الأدنى لضغط التشغيل\nمتوفر عند الطلب مع البيانات الهيدروليكية المطابقة.\nمنحنى التدفق والضغط\nمتوفر عند الطلب.\nملاحظة تصميمية\nتصنيف الاستجابة وتصنيف التغطية الموسعة خاصيتان منفصلتان. يجب أن يتبع التباعد والضغط والتركيب النهائي تصميم النظام المعتمد وبيانات المنتج المحددة.",
+      "url": "http://127.0.0.1:8766/ar/products/extended-coverage-quick-response-fire-sprinkler/index.html#specifications",
+      "width": 320
+    }
+  ],
+  "gallery": {
+    "uprightLoaded": true,
+    "sidewallLoaded": true,
+    "enlargeLoaded": true,
+    "escapeClosed": true
+  },
+  "packingAnchor": {
+    "en390": true,
+    "ar320": true
+  },
+  "pdfChanged": false
+}

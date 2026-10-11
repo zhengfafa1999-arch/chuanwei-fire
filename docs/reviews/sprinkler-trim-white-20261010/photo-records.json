@@ -1,0 +1,95 @@
+[
+  {
+    "key": "hero",
+    "source": "D:\\work\\codex\\阿里国际站运营\\outputs\\alibaba-detail-image-studio\\sprinkler-accessories-消防喷淋配件系列\\source\\金属色双层带孔装饰盘-1688-01-white-白底图-zh.png",
+    "same1688Source": "D:\\work\\codex\\yunying\\outputs\\chuanwei-fire-commerce\\20260907-112444-1688\\source\\金属色双层带孔装饰盘-1688-01-white-白底图-zh.png",
+    "backup": "docs/release/sprinkler-trim-white-20261010/source/double-layer-escutcheon-white.png",
+    "sourceSha256": "5ddde0097a5eb11060bf0af014c9b9293be262fdb4dedbf5c036993055d1aee2",
+    "sourceSize": [
+      1254,
+      1254
+    ],
+    "originalPhotograph": "D:\\work\\codex\\yunying\\outputs\\chuanwei-fire-commerce\\20260907-112444-1688\\source\\原始实拍\\原图1.jpg",
+    "provenance": "Existing white-background marketplace visual prepared from user-supplied photograph; not an untouched original photograph",
+    "visualReview": "Matches original accessory silhouette, center opening or cover, layers and visible surface marks; no dimensions or material inferred",
+    "transformThisTurn": "Proportional resize and WebP compression only; no new generation, retouching or upscaling",
+    "derivatives": [
+      {
+        "path": "assets/products/sprinkler-trim/double-layer-escutcheon-white-640.webp",
+        "width": 640,
+        "height": 640,
+        "bytes": 38052,
+        "sha256": "f3cd377ceb57a212ed95c501e91346b07dd51a431af99694773b6a1ca509fa88"
+      },
+      {
+        "path": "assets/products/sprinkler-trim/double-layer-escutcheon-white-1254.webp",
+        "width": 1254,
+        "height": 1254,
+        "bytes": 112372,
+        "sha256": "87e07c58f1f1d17cc30907d8662214a7ba02bab13eb712430dd9f8fcd90ecb9e"
+      }
+    ]
+  },
+  {
+    "key": "flat",
+    "source": "D:\\work\\codex\\阿里国际站运营\\outputs\\alibaba-detail-image-studio\\sprinkler-accessories-消防喷淋配件系列\\source\\金属色单层带孔装饰盘-1688-03-white-白底图-zh.png",
+    "same1688Source": "D:\\work\\codex\\yunying\\outputs\\chuanwei-fire-commerce\\20260907-112444-1688\\source\\金属色单层带孔装饰盘-1688-03-white-白底图-zh.png",
+    "backup": "docs/release/sprinkler-trim-white-20261010/source/single-layer-escutcheon-white.png",
+    "sourceSha256": "6930b8a780f1e10d9281a2c52189e5d41c5f4066ce545b7e888b170878c50ba4",
+    "sourceSize": [
+      1254,
+      1254
+    ],
+    "originalPhotograph": "D:\\work\\codex\\yunying\\outputs\\chuanwei-fire-commerce\\20260907-112444-1688\\source\\原始实拍\\原图3.jpg",
+    "provenance": "Existing white-background marketplace visual prepared from user-supplied photograph; not an untouched original photograph",
+    "visualReview": "Matches original accessory silhouette, center opening or cover, layers and visible surface marks; no dimensions or material inferred",
+    "transformThisTurn": "Proportional resize and WebP compression only; no new generation, retouching or upscaling",
+    "derivatives": [
+      {
+        "path": "assets/products/sprinkler-trim/single-layer-escutcheon-white-640.webp",
+        "width": 640,
+        "height": 640,
+        "bytes": 18832,
+        "sha256": "25adeb7cf8e1d47f6a83ffe107e287fda839ec923b7f16c3491efc22b3dea1bf"
+      },
+      {
+        "path": "assets/products/sprinkler-trim/single-layer-escutcheon-white-1254.webp",
+        "width": 1254,
+        "height": 1254,
+        "bytes": 71866,
+        "sha256": "5d0b9cab42525cd336698e222f820e11f43b984aaa83a0746d7adbb09dc675bf"
+      }
+    ]
+  },
+  {
+    "key": "white",
+    "source": "D:\\work\\codex\\阿里国际站运营\\outputs\\alibaba-detail-image-studio\\sprinkler-accessories-消防喷淋配件系列\\source\\白色圆盖装饰盘组件-1688-04-white-白底图-zh.png",
+    "same1688Source": "D:\\work\\codex\\yunying\\outputs\\chuanwei-fire-commerce\\20260907-112444-1688\\source\\白色圆盖装饰盘组件-1688-04-white-白底图-zh.png",
+    "backup": "docs/release/sprinkler-trim-white-20261010/source/white-round-cover-assembly-white.png",
+    "sourceSha256": "5b7bbff4edd9cb4186dc569b246ea2f8183d8e56721753a432e9e90610bd4289",
+    "sourceSize": [
+      1254,
+      1254
+    ],
+    "originalPhotograph": "D:\\work\\codex\\yunying\\outputs\\chuanwei-fire-commerce\\20260907-112444-1688\\source\\原始实拍\\原图4.jpg",
+    "provenance": "Existing white-background marketplace visual prepared from user-supplied photograph; not an untouched original photograph",
+    "visualReview": "Matches original accessory silhouette, center opening or cover, layers and visible surface marks; no dimensions or material inferred",
+    "transformThisTurn": "Proportional resize and WebP compression only; no new generation, retouching or upscaling",
+    "derivatives": [
+      {
+        "path": "assets/products/sprinkler-trim/white-round-cover-assembly-white-640.webp",
+        "width": 640,
+        "height": 640,
+        "bytes": 8648,
+        "sha256": "09ec75bcf9adee21d0cbd18044c611d91a2f7fd26e5966cc82b7fa95a5113251"
+      },
+      {
+        "path": "assets/products/sprinkler-trim/white-round-cover-assembly-white-1254.webp",
+        "width": 1254,
+        "height": 1254,
+        "bytes": 23110,
+        "sha256": "34e441bd155d5c4f6889bcb9c29c5ae8eac80092c862adeb4c43cab6171b4fd8"
+      }
+    ]
+  }
+]

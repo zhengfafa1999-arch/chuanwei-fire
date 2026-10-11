@@ -7,15 +7,38 @@
   const groups = [...finder.querySelectorAll('[data-family]')];
   const pageSize = 12;
   let page = 1, pageCount = 1;
-  const normalize = value => value.normalize('NFKD').replace(/[\u0300-\u036f\u064b-\u065f\u0670]/g, '').toLowerCase().replace(/[-–—]/g, ' ');
+  const normalize = value => value.normalize('NFKD').replace(/[\u0300-\u036f\u064b-\u065f\u0670\u2066-\u2069]/g, '').toLowerCase().replace(/\b([a-z][a-z0-9]*)[-–—](?=\d)/g, '$1').replace(/[-–—]/g, ' ').replace(/\bdn\s+(?=\d)/g, 'dn');
+  // SEARCH MATCHER START
+  const matchEntry = (item, tokens) => {
+    const contains = text => {
+      const normalized = normalize(text);
+      return tokens.every(token => {
+        // A model prefix must start at a word boundary: HS-020 cannot
+        // match UHS-020. Keep prefix searches and ordinary name searches.
+        if (/^[a-z]+\d/.test(token)) {
+          const escaped = token.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+          return new RegExp(`(?:^|[^a-z0-9])${escaped}`).test(normalized);
+        }
+        return normalized.includes(token);
+      });
+    };
+    if (contains(item.searchText)) return { item, related: null };
+    const related = (item.relatedConfigurations || []).find(model => contains(model.searchText));
+    return related ? { item, related } : null;
+  };
+  // SEARCH MATCHER END
   const groupTemplates = new Map(groups.map(group => [group.dataset.family, {
     shell: group.cloneNode(false),
     heading: group.querySelector('.catalog-section__heading').cloneNode(true)
   }]));
-  const catalog = groups.flatMap(group => [...group.querySelectorAll('[data-search]')].map(card => ({
+  const catalog = groups.flatMap(group => [...group.querySelectorAll('.product-card[data-search]')].map(card => ({
     family: group.dataset.family,
     card: card.cloneNode(true),
-    text: normalize(card.dataset.search)
+    searchText: card.dataset.search,
+    relatedConfigurations: [...card.querySelectorAll('[data-related-model]')].map(link => ({
+      name: link.dataset.modelName, href: link.getAttribute('href'), image: link.dataset.modelImage, imageCaption:link.dataset.modelImageCaption,
+      searchText: link.dataset.relatedSearch
+    }))
   })));
   const loadImage = (img, priority = 'auto') => {
     const source = img.getAttribute('src');
@@ -39,7 +62,7 @@
   const render = items => {
     const fragment = document.createDocumentFragment();
     const renderedGroups = new Map();
-    items.forEach((item, index) => {
+    items.forEach(({item, related}, index) => {
       let rendered = renderedGroups.get(item.family);
       if (!rendered) {
         const template = groupTemplates.get(item.family);
@@ -53,6 +76,29 @@
       }
       const card = item.card.cloneNode(true);
       card.hidden = false;
+      if (related) {
+        const title = card.querySelector('h3 a');
+        const image = card.querySelector('img.finder-js-image');
+        const picturedName = title.textContent;
+        title.textContent = related.name;
+        card.querySelectorAll('.product-card__image, h3 a, .product-card__link').forEach(link => link.setAttribute('href', related.href));
+        if (related.image && image) {
+          image.src = related.image;
+          image.alt = related.name;
+          if (related.imageCaption) {
+            const caption = document.createElement('p');
+            caption.className = 'product-card__reference';
+            caption.textContent = related.imageCaption;
+            card.querySelector('.product-card__body').prepend(caption);
+          }
+        } else {
+          // A related model without its own photo must identify the illustration.
+          const caption = document.createElement('p');
+          caption.className = 'product-card__reference';
+          caption.textContent = (document.documentElement.lang === 'ar' ? 'تُظهر الصورة: ' : 'Photo shows: ') + picturedName;
+          card.querySelector('.product-card__body').prepend(caption);
+        }
+      }
       card.querySelectorAll('img.finder-js-image').forEach(img => loadImage(img, index < 4 ? 'high' : 'auto'));
       rendered.grid.append(card);
     });
@@ -84,7 +130,7 @@
   };
   const update = () => {
     const tokens = normalize(search.value).trim().split(/\s+/).filter(Boolean);
-    const matches = catalog.filter(item => (!category.value || category.value === item.family) && tokens.every(token => item.text.includes(token)));
+    const matches = catalog.filter(item => !category.value || category.value === item.family).map(item => matchEntry(item, tokens)).filter(Boolean);
     const count = matches.length;
     pageCount = Math.max(1, Math.ceil(count / pageSize));
     page = Math.min(page, pageCount);

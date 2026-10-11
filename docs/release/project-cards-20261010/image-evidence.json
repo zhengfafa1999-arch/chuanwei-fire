@@ -1,0 +1,39 @@
+{
+  "date": "2026-10-10",
+  "identitySource": "User-confirmed names and image mapping",
+  "processing": "Unchanged original files; responsive CSS limits enlargement. Generative restoration rejected because it altered details.",
+  "files": [
+    {
+      "id": "country-garden",
+      "source": "docs/reviews/project-cards-20261010/source/country-garden.png",
+      "image": "assets/projects/country-garden-reference-20261010.png",
+      "width": 278,
+      "height": 185,
+      "sha256": "997f0f1fb92d008a71ad051856da41b5ab363849d2a5ee78f52644a1a6d75e4b"
+    },
+    {
+      "id": "gulei-petrochemical",
+      "source": "docs/reviews/project-cards-20261010/source/gulei-petrochemical.png",
+      "image": "assets/projects/gulei-petrochemical-reference-20261010.png",
+      "width": 300,
+      "height": 180,
+      "sha256": "30bbd49a810f06153ec2876f22bbfc5d9bd086e2a4ba19e70569b90f18e4934b"
+    },
+    {
+      "id": "sanming-first-hospital",
+      "source": "docs/reviews/project-cards-20261010/source/sanming-first-hospital.png",
+      "image": "assets/projects/sanming-first-hospital-reference-20261010.png",
+      "width": 302,
+      "height": 180,
+      "sha256": "5f3668d5d0c4b27abbbb9ce73b1c490c276d7c33b786827e824c68dde608c4e6"
+    },
+    {
+      "id": "wanda-plaza",
+      "source": "docs/reviews/project-cards-20261010/source/wanda-plaza.png",
+      "image": "assets/projects/wanda-plaza-reference-20261010.png",
+      "width": 383,
+      "height": 181,
+      "sha256": "bc4f1aa262616d415f8f94df1f3eda10cba50ea7514da898a473a0b0d964355d"
+    }
+  ]
+}

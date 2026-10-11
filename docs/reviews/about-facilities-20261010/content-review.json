@@ -1,0 +1,760 @@
+[
+  {
+    "path": "about.html",
+    "copy": {
+      "lang": "en",
+      "dir": "ltr",
+      "locale": "en_US",
+      "alternateLocale": "ar_AR",
+      "brandTagline": "Fire protection equipment manufacturing and supply",
+      "nav": {
+        "home": "Home",
+        "products": "Products",
+        "about": "About",
+        "downloads": "Catalog & Files",
+        "contact": "Contact"
+      },
+      "languages": {
+        "en": "English",
+        "ar": "العربية"
+      },
+      "skip": "Skip to content",
+      "menu": "Open menu",
+      "productOptions": [
+        [
+          "Fire Sprinklers",
+          "Fire Sprinklers"
+        ],
+        [
+          "Alarm & System Valves",
+          "Alarm & System Valves"
+        ],
+        [
+          "Fire Butterfly / Gate Valves",
+          "Fire Butterfly / Gate Valves"
+        ],
+        [
+          "Fire Hose Reels",
+          "Fire Hose Reels"
+        ],
+        [
+          "Hoses, Nozzles & Couplings",
+          "Hoses, Nozzles & Couplings"
+        ],
+        [
+          "Hydrants & Connections",
+          "Hydrants & Connections"
+        ],
+        [
+          "Other",
+          "Other"
+        ]
+      ],
+      "footerSummary": "Manufacturing and supply of fire-water-system components with private-label project support.",
+      "footerDisclaimer": "Website information indicates product scope. Final specifications, connection standards, test documents and certificate applicability are confirmed by model and order before supply.",
+      "title": "About the Manufacturer | CHUANWEI FIRE",
+      "description": "Learn about CHUANWEI FIRE manufacturing and supply support for fire-water-system components, OEM review and private-label projects in Nan'an, Quanzhou, China.",
+      "eyebrow": "CHUANWEI FIRE",
+      "heroTitle": "A manufacturing source for fire-water-system components",
+      "heroLead": "Fire-water-system products for distributors, trading companies and private-label buyers. Explore our product range, working environment and OEM options.",
+      "introTitle": "Fire protection products, from selection to order preparation.",
+      "intro": [
+        "Based in Nan'an, Quanzhou, Fujian, China, we manufacture and supply sprinklers, valves, hose reels and hydrant-system components for distributors, trading companies and private-label buyers.",
+        "Our production facilities were established in 2017 and cover 5,000 m², with CNC equipment for component machining."
+      ],
+      "features": [
+        [
+          "Product review",
+          "By product family, model and destination market"
+        ],
+        [
+          "Production coordination",
+          "After technical and commercial requirements are fixed"
+        ],
+        [
+          "Private label",
+          "Review of marking, nameplate and packaging"
+        ],
+        [
+          "Drawing and sample support",
+          "For requested connections and dimensions"
+        ]
+      ],
+      "capabilitiesTitle": "Manufacturing and order preparation",
+      "capabilitiesLead": "Machining, batch production and storage support the selected product configuration.",
+      "capabilities": [
+        [
+          "Component machining",
+          "CNC and workshop processes support production of agreed product components."
+        ],
+        [
+          "Batch production",
+          "Organized production of hydrants, valves and fire-water-system components."
+        ],
+        [
+          "Storage and packing",
+          "Product sorting, packing and shipment coordination according to order and transport requirements."
+        ]
+      ],
+      "oemTitle": "OEM options for your product range",
+      "oemBody": "Discuss product markings, nameplates, packaging labels, finishes and accessory combinations. For thread, flange or grooved connections, send a drawing, sample or technical schedule so we can check the required fit.",
+      "oemItems": [
+        [
+          "Marking and nameplate",
+          "Using customer-confirmed content"
+        ],
+        [
+          "Packaging artwork and labels",
+          "Reviewed by product and order"
+        ],
+        [
+          "Accessory combinations",
+          "According to the agreed configuration list"
+        ],
+        [
+          "Colors and finishes",
+          "Feasibility confirmed for each product"
+        ]
+      ],
+      "certificateNote": "View our management-system certificates and Chinese patent certificate scans. Product approvals and document applicability are reviewed by model and destination market.",
+      "downloadCta": "View certificates and documents",
+      "productsTitle": "Our product range",
+      "productsLead": "Browse the family you need to compare models, connections and specifications.",
+      "galleryTitle": "Inside our facilities",
+      "galleryLead": "Product showrooms, office, production workshops and storage areas.",
+      "groups": [
+        "Product showrooms",
+        "Office",
+        "Production workshops",
+        "Warehouses"
+      ],
+      "groupDescriptions": [
+        "Hydrants, valves, sprinklers and hose-reel samples on display.",
+        "Office space for day-to-day product and order coordination.",
+        "Workshop views showing components, work areas and products in production.",
+        "Storage areas showing wooden crates and wrapped products. Packing is selected by product and order."
+      ],
+      "captions": [
+        "Hydrant and valve display",
+        "Sprinkler, valve and hose-reel display",
+        "Office working area",
+        "Wooden-crate storage area",
+        "Production workshop overview",
+        "Component processing area",
+        "Workshop with products in production",
+        "Wrapped-product storage area"
+      ],
+      "openPhoto": "Open full photograph",
+      "workflowTitle": "Working with us",
+      "workflowLead": "Start with the product you need. Specifications, sample arrangements and order terms are agreed for each enquiry.",
+      "workflow": [
+        [
+          "Send your requirements",
+          "Share the product, model or photo. Add size, connection, quantity and destination when available."
+        ],
+        [
+          "Compare options and quotation",
+          "Review the required configuration, available documents, price and any sample arrangements. Samples are supplied for a fee."
+        ],
+        [
+          "Confirm the order",
+          "Agree the specification, quantity, marking, packaging and delivery schedule before production."
+        ],
+        [
+          "Production and shipment",
+          "Production and packing follow the agreed order. Shipment details are coordinated with the buyer."
+        ]
+      ],
+      "inquiryTitle": "Tell us which products you need",
+      "inquiryBody": "Send a product name, model, photo or drawing to start the conversation.",
+      "whatsappLabel": "Discuss on WhatsApp",
+      "emailLabel": "Open email draft",
+      "inquiryNote": "Review and send your message in WhatsApp or your email app.",
+      "certificatesTitle": "Product documents and certificates",
+      "factoryImageAlt": "Worker and metalworking equipment in a workshop",
+      "packingImageAlt": "Illustrative wooden-case packing option with straps and a pallet base",
+      "packingCaption": "Illustrative packing option. Final packing is confirmed by product, order and transport requirements.",
+      "purchaseFaqTitle": "Samples and minimum order quantities",
+      "purchaseFaq": [
+        [
+          "Are samples free?",
+          "Samples are supplied for a fee. Contact us for the price of your selected sample."
+        ],
+        [
+          "What is the minimum order quantity?",
+          "Minimum order quantity varies by product. Send the product name or model so we can confirm the required quantity."
+        ]
+      ]
+    },
+    "facilities": {
+      "copy": {
+        "heroLead": "Fire-water-system products for distributors, trading companies and private-label buyers. Explore our product range, working environment and OEM options.",
+        "introTitle": "Fire protection products, from selection to order preparation.",
+        "intro": [
+          "Based in Nan'an, Quanzhou, Fujian, China, we manufacture and supply sprinklers, valves, hose reels and hydrant-system components for distributors, trading companies and private-label buyers.",
+          "Our production facilities were established in 2017 and cover 5,000 m², with CNC equipment for component machining."
+        ],
+        "productsTitle": "Our product range",
+        "productsLead": "Browse the family you need to compare models, connections and specifications.",
+        "galleryTitle": "Inside our facilities",
+        "galleryLead": "Product showrooms, office, production workshops and storage areas.",
+        "groups": [
+          "Product showrooms",
+          "Office",
+          "Production workshops",
+          "Warehouses"
+        ],
+        "groupDescriptions": [
+          "Hydrants, valves, sprinklers and hose-reel samples on display.",
+          "Office space for day-to-day product and order coordination.",
+          "Workshop views showing components, work areas and products in production.",
+          "Storage areas showing wooden crates and wrapped products. Packing is selected by product and order."
+        ],
+        "captions": [
+          "Hydrant and valve display",
+          "Sprinkler, valve and hose-reel display",
+          "Office working area",
+          "Wooden-crate storage area",
+          "Production workshop overview",
+          "Component processing area",
+          "Workshop with products in production",
+          "Wrapped-product storage area"
+        ],
+        "openPhoto": "Open full photograph",
+        "capabilitiesTitle": "Manufacturing and order preparation",
+        "capabilitiesLead": "Machining, batch production and storage support the selected product configuration.",
+        "oemTitle": "OEM options for your product range",
+        "oemBody": "Discuss product markings, nameplates, packaging labels, finishes and accessory combinations. For thread, flange or grooved connections, send a drawing, sample or technical schedule so we can check the required fit.",
+        "workflowTitle": "Working with us",
+        "workflowLead": "Start with the product you need. Specifications, sample arrangements and order terms are agreed for each enquiry.",
+        "workflow": [
+          [
+            "Send your requirements",
+            "Share the product, model or photo. Add size, connection, quantity and destination when available."
+          ],
+          [
+            "Compare options and quotation",
+            "Review the required configuration, available documents, price and any sample arrangements. Samples are supplied for a fee."
+          ],
+          [
+            "Confirm the order",
+            "Agree the specification, quantity, marking, packaging and delivery schedule before production."
+          ],
+          [
+            "Production and shipment",
+            "Production and packing follow the agreed order. Shipment details are coordinated with the buyer."
+          ]
+        ],
+        "inquiryTitle": "Tell us which products you need",
+        "inquiryBody": "Send a product name, model, photo or drawing to start the conversation.",
+        "whatsappLabel": "Discuss on WhatsApp",
+        "emailLabel": "Open email draft",
+        "inquiryNote": "Review and send your message in WhatsApp or your email app.",
+        "certificateNote": "View our management-system certificates and Chinese patent certificate scans. Product approvals and document applicability are reviewed by model and destination market.",
+        "downloadCta": "View certificates and documents"
+      },
+      "families": [
+        {
+          "id": "category:sprinklers",
+          "name": "Fire sprinklers",
+          "href": "products/消防喷头.html"
+        },
+        {
+          "id": "category:system-valves",
+          "name": "Alarm and system valves",
+          "href": "products/消防阀.html"
+        },
+        {
+          "id": "category:butterfly-valves",
+          "name": "Fire butterfly valves",
+          "href": "products/消防蝶阀.html"
+        },
+        {
+          "id": "category:gate-valves",
+          "name": "Fire gate valves",
+          "href": "products/消防阀门.html"
+        },
+        {
+          "id": "category:hose-reels",
+          "name": "Fire hose reels",
+          "href": "products/软管卷盘.html"
+        },
+        {
+          "id": "category:hoses-nozzles-couplings",
+          "name": "Hose nozzles and couplings",
+          "href": "products/消防水枪.html"
+        },
+        {
+          "id": "category:indoor-hydrants",
+          "name": "Indoor hydrants",
+          "href": "products/室内消防栓/室内消防栓.html"
+        },
+        {
+          "id": "category:outdoor-hydrants",
+          "name": "Outdoor hydrants",
+          "href": "products/室外消防栓/室外消防栓.html"
+        },
+        {
+          "id": "category:fire-department-connections",
+          "name": "Fire department connections",
+          "href": "products/消防水泵接合器.html"
+        }
+      ],
+      "groups": [
+        {
+          "title": "Product showrooms",
+          "description": "Hydrants, valves, sprinklers and hose-reel samples on display.",
+          "photos": [
+            {
+              "id": "showroom-hydrants",
+              "caption": "Hydrant and valve display",
+              "image": "assets/about/facilities-20261010/showroom-hydrants-640.webp",
+              "full": "assets/about/facilities-20261010/showroom-hydrants-1600.webp"
+            },
+            {
+              "id": "showroom-range",
+              "caption": "Sprinkler, valve and hose-reel display",
+              "image": "assets/about/facilities-20261010/showroom-range-640.webp",
+              "full": "assets/about/facilities-20261010/showroom-range-1600.webp"
+            }
+          ]
+        },
+        {
+          "title": "Office",
+          "description": "Office space for day-to-day product and order coordination.",
+          "photos": [
+            {
+              "id": "office",
+              "caption": "Office working area",
+              "image": "assets/about/facilities-20261010/office-640.webp",
+              "full": "assets/about/facilities-20261010/office-1600.webp"
+            }
+          ]
+        },
+        {
+          "title": "Production workshops",
+          "description": "Workshop views showing components, work areas and products in production.",
+          "photos": [
+            {
+              "id": "workshop-overview",
+              "caption": "Production workshop overview",
+              "image": "assets/about/facilities-20261010/workshop-overview-640.webp",
+              "full": "assets/about/facilities-20261010/workshop-overview-1600.webp"
+            },
+            {
+              "id": "workshop-components",
+              "caption": "Component processing area",
+              "image": "assets/about/facilities-20261010/workshop-components-640.webp",
+              "full": "assets/about/facilities-20261010/workshop-components-1600.webp"
+            },
+            {
+              "id": "workshop-production",
+              "caption": "Workshop with products in production",
+              "image": "assets/about/facilities-20261010/workshop-production-640.webp",
+              "full": "assets/about/facilities-20261010/workshop-production-1600.webp"
+            }
+          ]
+        },
+        {
+          "title": "Warehouses",
+          "description": "Storage areas showing wooden crates and wrapped products. Packing is selected by product and order.",
+          "photos": [
+            {
+              "id": "warehouse-crates",
+              "caption": "Wooden-crate storage area",
+              "image": "assets/about/facilities-20261010/warehouse-crates-640.webp",
+              "full": "assets/about/facilities-20261010/warehouse-crates-1600.webp"
+            },
+            {
+              "id": "warehouse-products",
+              "caption": "Wrapped-product storage area",
+              "image": "assets/about/facilities-20261010/warehouse-products-640.webp",
+              "full": "assets/about/facilities-20261010/warehouse-products-1600.webp"
+            }
+          ]
+        }
+      ],
+      "whatsappHref": "https://wa.me/8617326528368?text=Hello%2C%20I%20would%20like%20to%20enquire%20about%20your%20fire%20protection%20products.%0AProduct%20%2F%20model%3A%0AQuantity%3A%0ADestination%3A",
+      "emailHref": "mailto:zhengcolin1@gmail.com?subject=Fire%20protection%20product%20enquiry&body=Hello%2C%20I%20would%20like%20to%20enquire%20about%20your%20fire%20protection%20products.%0AProduct%20%2F%20model%3A%0AQuantity%3A%0ADestination%3A"
+    }
+  },
+  {
+    "path": "ar/about.html",
+    "copy": {
+      "lang": "ar",
+      "dir": "rtl",
+      "locale": "ar_AR",
+      "alternateLocale": "en_US",
+      "brandTagline": "تصنيع وتوريد معدات مكافحة الحريق",
+      "nav": {
+        "home": "الرئيسية",
+        "products": "المنتجات",
+        "about": "عن الشركة",
+        "downloads": "الكتالوج والملفات",
+        "contact": "تواصل معنا"
+      },
+      "languages": {
+        "en": "English",
+        "ar": "العربية"
+      },
+      "skip": "انتقل إلى المحتوى",
+      "menu": "فتح القائمة",
+      "productOptions": [
+        [
+          "Fire Sprinklers",
+          "رشاشات الحريق"
+        ],
+        [
+          "Alarm & System Valves",
+          "صمامات الإنذار وصمامات الأنظمة"
+        ],
+        [
+          "Fire Butterfly / Gate Valves",
+          "صمامات الفراشة والبوابة"
+        ],
+        [
+          "Fire Hose Reels",
+          "بكرات خراطيم الحريق"
+        ],
+        [
+          "Hoses, Nozzles & Couplings",
+          "الخراطيم والفوهات والوصلات"
+        ],
+        [
+          "Hydrants & Connections",
+          "صنابير الحريق والوصلات"
+        ],
+        [
+          "Other",
+          "أخرى"
+        ]
+      ],
+      "footerSummary": "تصنيع وتوريد مكونات أنظمة مياه مكافحة الحريق ودعم مشاريع العلامة الخاصة.",
+      "footerDisclaimer": "معلومات الموقع مرجع لنطاق المنتجات. تُؤكد المواصفات النهائية ومعايير التوصيل ووثائق الاختبار وانطباق الشهادات حسب الموديل والطلب قبل التوريد.",
+      "title": "عن الشركة | CHUANWEI FIRE",
+      "description": "تعرف على CHUANWEI FIRE وإمكانات تصنيع وتوريد مكونات أنظمة مياه مكافحة الحريق ودعم OEM والعلامة الخاصة في نانآن، تشيوانتشو، الصين.",
+      "eyebrow": "CHUANWEI FIRE",
+      "heroTitle": "جهة تصنيع لمكونات أنظمة مياه مكافحة الحريق",
+      "heroLead": "منتجات أنظمة مياه مكافحة الحريق للموزعين والشركات التجارية وعملاء العلامة الخاصة. استعرض المنتجات وبيئة العمل وخيارات OEM.",
+      "introTitle": "منتجات مكافحة الحريق، من الاختيار إلى تجهيز الطلب.",
+      "intro": [
+        "نعمل من نانآن، تشيوانتشو، فوجيان في الصين، ونصنّع ونورّد الرشاشات والصمامات وبكرات الخراطيم ومكونات أنظمة صنابير الحريق للموزعين والشركات التجارية وعملاء العلامة الخاصة.",
+        "أُنشئت مرافق الإنتاج في 2017 وتبلغ مساحتها 5,000 m²، مع معدات CNC لتشغيل المكونات."
+      ],
+      "features": [
+        [
+          "مراجعة المنتج",
+          "حسب فئة المنتج والموديل والسوق المستهدف"
+        ],
+        [
+          "تنسيق الإنتاج",
+          "بعد تثبيت المتطلبات الفنية والتجارية"
+        ],
+        [
+          "العلامة الخاصة",
+          "مراجعة الوسم ولوحة البيانات والعبوة"
+        ],
+        [
+          "دعم الرسومات والعينات",
+          "لمراجعة التوصيلات والأبعاد المطلوبة"
+        ]
+      ],
+      "capabilitiesTitle": "التصنيع وتجهيز الطلبات",
+      "capabilitiesLead": "يدعم التشغيل والإنتاج المجمع والتخزين تكوين المنتج المطلوب.",
+      "capabilities": [
+        [
+          "تشغيل المكونات",
+          "عمليات الورشة وتشغيل CNC لدعم إنتاج مكونات المنتجات المتفق عليها."
+        ],
+        [
+          "الإنتاج المجمع",
+          "تنظيم إنتاج صنابير الحريق والصمامات ومكونات شبكات مياه الحريق."
+        ],
+        [
+          "التخزين والتعبئة",
+          "فرز المنتجات وتجهيز العبوات وتنسيق الشحن حسب الطلب ومتطلبات النقل."
+        ]
+      ],
+      "oemTitle": "خيارات OEM لمجموعة منتجاتك",
+      "oemBody": "ناقش وسم المنتجات ولوحات البيانات وملصقات العبوات والتشطيبات وتركيبات الملحقات. أرسل رسماً أو عينة أو جدولاً فنياً لمراجعة متطلبات اللولب أو الفلنجة أو الطرف المحزّز والتوافق المطلوب.",
+      "oemItems": [
+        [
+          "الوسم ولوحة البيانات",
+          "وفق المحتوى الذي يؤكده العميل"
+        ],
+        [
+          "تصميم العبوة والملصق",
+          "يُراجع حسب المنتج والطلب"
+        ],
+        [
+          "تركيب الملحقات",
+          "حسب قائمة التكوين المتفق عليها"
+        ],
+        [
+          "الألوان والتشطيبات",
+          "تُؤكد إمكانيتها لكل منتج"
+        ]
+      ],
+      "certificateNote": "استعرض شهادات أنظمة الإدارة وصور شهادات براءات الاختراع الصينية. تُراجع اعتمادات المنتجات وانطباق الوثائق حسب الموديل والسوق المستهدف.",
+      "downloadCta": "عرض الشهادات والوثائق",
+      "productsTitle": "مجموعة منتجاتنا",
+      "productsLead": "استعرض الفئة المطلوبة لمقارنة الموديلات والتوصيلات والمواصفات.",
+      "galleryTitle": "داخل مرافقنا",
+      "galleryLead": "معارض المنتجات والمكتب وورش الإنتاج ومناطق التخزين.",
+      "groups": [
+        "معارض المنتجات",
+        "المكتب",
+        "ورش الإنتاج",
+        "المستودعات"
+      ],
+      "groupDescriptions": [
+        "نماذج معروضة من صنابير الحريق والصمامات والرشاشات وبكرات الخراطيم.",
+        "مساحة المكتب لتنسيق المنتجات والطلبات اليومية.",
+        "صور للورش تُظهر المكونات ومناطق العمل والمنتجات أثناء الإنتاج.",
+        "مناطق تخزين الصناديق الخشبية والمنتجات المغلفة. تُحدد العبوة حسب المنتج والطلب."
+      ],
+      "captions": [
+        "عرض صنابير الحريق والصمامات",
+        "عرض الرشاشات والصمامات وبكرات الخراطيم",
+        "مساحة العمل بالمكتب",
+        "منطقة تخزين الصناديق الخشبية",
+        "منظر عام لورشة الإنتاج",
+        "منطقة تشغيل المكونات",
+        "ورشة ومنتجات أثناء الإنتاج",
+        "منطقة تخزين المنتجات المغلفة"
+      ],
+      "openPhoto": "فتح الصورة كاملة",
+      "workflowTitle": "خطوات التعاون معنا",
+      "workflowLead": "ابدأ بالمنتج المطلوب. تُتفق المواصفات وترتيبات العينات وشروط الطلب لكل استفسار.",
+      "workflow": [
+        [
+          "أرسل المتطلبات",
+          "شارك اسم المنتج أو الموديل أو صورة. أضف المقاس والتوصيل والكمية والوجهة عند توفرها."
+        ],
+        [
+          "راجع الخيارات وعرض السعر",
+          "راجع التكوين المطلوب والوثائق المتاحة والسعر وترتيبات العينات. العينات مدفوعة."
+        ],
+        [
+          "أكد الطلب",
+          "اتفق على المواصفات والكمية والوسم والتعبئة وجدول التسليم قبل الإنتاج."
+        ],
+        [
+          "الإنتاج والشحن",
+          "يُنفذ الإنتاج والتعبئة وفق الطلب المتفق عليه، وتُنسق تفاصيل الشحن مع المشتري."
+        ]
+      ],
+      "inquiryTitle": "أخبرنا بالمنتجات المطلوبة",
+      "inquiryBody": "أرسل اسم المنتج أو الموديل أو صورة أو رسماً لبدء التواصل.",
+      "whatsappLabel": "ناقش عبر WhatsApp",
+      "emailLabel": "فتح مسودة بريد إلكتروني",
+      "inquiryNote": "راجع الرسالة وأرسلها في WhatsApp أو تطبيق البريد.",
+      "certificatesTitle": "وثائق المنتجات والشهادات",
+      "factoryImageAlt": "عامل ومعدات تشغيل المعادن في ورشة",
+      "packingImageAlt": "خيار تعبئة توضيحي بصندوق خشبي مع أربطة وقاعدة منصة",
+      "packingCaption": "خيار تعبئة توضيحي. تُؤكد العبوة النهائية حسب المنتج والطلب ومتطلبات النقل.",
+      "purchaseFaqTitle": "العينات والحد الأدنى لكمية الطلب",
+      "purchaseFaq": [
+        [
+          "هل العينات مجانية؟",
+          "العينات مدفوعة. تواصل معنا لمعرفة سعر العينة المطلوبة."
+        ],
+        [
+          "ما الحد الأدنى لكمية الطلب؟",
+          "يُحدد الحد الأدنى لكمية الطلب بحسب المنتج. أرسل اسم المنتج أو الموديل لمعرفة الكمية المطلوبة."
+        ]
+      ]
+    },
+    "facilities": {
+      "copy": {
+        "heroLead": "منتجات أنظمة مياه مكافحة الحريق للموزعين والشركات التجارية وعملاء العلامة الخاصة. استعرض المنتجات وبيئة العمل وخيارات OEM.",
+        "introTitle": "منتجات مكافحة الحريق، من الاختيار إلى تجهيز الطلب.",
+        "intro": [
+          "نعمل من نانآن، تشيوانتشو، فوجيان في الصين، ونصنّع ونورّد الرشاشات والصمامات وبكرات الخراطيم ومكونات أنظمة صنابير الحريق للموزعين والشركات التجارية وعملاء العلامة الخاصة.",
+          "أُنشئت مرافق الإنتاج في 2017 وتبلغ مساحتها 5,000 m²، مع معدات CNC لتشغيل المكونات."
+        ],
+        "productsTitle": "مجموعة منتجاتنا",
+        "productsLead": "استعرض الفئة المطلوبة لمقارنة الموديلات والتوصيلات والمواصفات.",
+        "galleryTitle": "داخل مرافقنا",
+        "galleryLead": "معارض المنتجات والمكتب وورش الإنتاج ومناطق التخزين.",
+        "groups": [
+          "معارض المنتجات",
+          "المكتب",
+          "ورش الإنتاج",
+          "المستودعات"
+        ],
+        "groupDescriptions": [
+          "نماذج معروضة من صنابير الحريق والصمامات والرشاشات وبكرات الخراطيم.",
+          "مساحة المكتب لتنسيق المنتجات والطلبات اليومية.",
+          "صور للورش تُظهر المكونات ومناطق العمل والمنتجات أثناء الإنتاج.",
+          "مناطق تخزين الصناديق الخشبية والمنتجات المغلفة. تُحدد العبوة حسب المنتج والطلب."
+        ],
+        "captions": [
+          "عرض صنابير الحريق والصمامات",
+          "عرض الرشاشات والصمامات وبكرات الخراطيم",
+          "مساحة العمل بالمكتب",
+          "منطقة تخزين الصناديق الخشبية",
+          "منظر عام لورشة الإنتاج",
+          "منطقة تشغيل المكونات",
+          "ورشة ومنتجات أثناء الإنتاج",
+          "منطقة تخزين المنتجات المغلفة"
+        ],
+        "openPhoto": "فتح الصورة كاملة",
+        "capabilitiesTitle": "التصنيع وتجهيز الطلبات",
+        "capabilitiesLead": "يدعم التشغيل والإنتاج المجمع والتخزين تكوين المنتج المطلوب.",
+        "oemTitle": "خيارات OEM لمجموعة منتجاتك",
+        "oemBody": "ناقش وسم المنتجات ولوحات البيانات وملصقات العبوات والتشطيبات وتركيبات الملحقات. أرسل رسماً أو عينة أو جدولاً فنياً لمراجعة متطلبات اللولب أو الفلنجة أو الطرف المحزّز والتوافق المطلوب.",
+        "workflowTitle": "خطوات التعاون معنا",
+        "workflowLead": "ابدأ بالمنتج المطلوب. تُتفق المواصفات وترتيبات العينات وشروط الطلب لكل استفسار.",
+        "workflow": [
+          [
+            "أرسل المتطلبات",
+            "شارك اسم المنتج أو الموديل أو صورة. أضف المقاس والتوصيل والكمية والوجهة عند توفرها."
+          ],
+          [
+            "راجع الخيارات وعرض السعر",
+            "راجع التكوين المطلوب والوثائق المتاحة والسعر وترتيبات العينات. العينات مدفوعة."
+          ],
+          [
+            "أكد الطلب",
+            "اتفق على المواصفات والكمية والوسم والتعبئة وجدول التسليم قبل الإنتاج."
+          ],
+          [
+            "الإنتاج والشحن",
+            "يُنفذ الإنتاج والتعبئة وفق الطلب المتفق عليه، وتُنسق تفاصيل الشحن مع المشتري."
+          ]
+        ],
+        "inquiryTitle": "أخبرنا بالمنتجات المطلوبة",
+        "inquiryBody": "أرسل اسم المنتج أو الموديل أو صورة أو رسماً لبدء التواصل.",
+        "whatsappLabel": "ناقش عبر WhatsApp",
+        "emailLabel": "فتح مسودة بريد إلكتروني",
+        "inquiryNote": "راجع الرسالة وأرسلها في WhatsApp أو تطبيق البريد.",
+        "certificateNote": "استعرض شهادات أنظمة الإدارة وصور شهادات براءات الاختراع الصينية. تُراجع اعتمادات المنتجات وانطباق الوثائق حسب الموديل والسوق المستهدف.",
+        "downloadCta": "عرض الشهادات والوثائق"
+      },
+      "families": [
+        {
+          "id": "category:sprinklers",
+          "name": "رشاشات الحريق",
+          "href": "products/sprinklers/index.html"
+        },
+        {
+          "id": "category:system-valves",
+          "name": "صمامات الإنذار والأنظمة",
+          "href": "products/system-valves/index.html"
+        },
+        {
+          "id": "category:butterfly-valves",
+          "name": "صمامات فراشة للحريق",
+          "href": "products/butterfly-valves/index.html"
+        },
+        {
+          "id": "category:gate-valves",
+          "name": "صمامات بوابة للحريق",
+          "href": "products/gate-valves/index.html"
+        },
+        {
+          "id": "category:hose-reels",
+          "name": "بكرات خراطيم الحريق",
+          "href": "products/hose-reels/index.html"
+        },
+        {
+          "id": "category:hoses-nozzles-couplings",
+          "name": "فوهات الخراطيم والوصلات",
+          "href": "products/hoses-nozzles-couplings/index.html"
+        },
+        {
+          "id": "category:indoor-hydrants",
+          "name": "محابس الحريق الداخلية",
+          "href": "products/indoor-hydrants/index.html"
+        },
+        {
+          "id": "category:outdoor-hydrants",
+          "name": "صنابير الحريق الخارجية",
+          "href": "products/outdoor-hydrants/index.html"
+        },
+        {
+          "id": "category:fire-department-connections",
+          "name": "وصلات تزويد أنظمة الحريق",
+          "href": "products/fire-department-connections/index.html"
+        }
+      ],
+      "groups": [
+        {
+          "title": "معارض المنتجات",
+          "description": "نماذج معروضة من صنابير الحريق والصمامات والرشاشات وبكرات الخراطيم.",
+          "photos": [
+            {
+              "id": "showroom-hydrants",
+              "caption": "عرض صنابير الحريق والصمامات",
+              "image": "../assets/about/facilities-20261010/showroom-hydrants-640.webp",
+              "full": "../assets/about/facilities-20261010/showroom-hydrants-1600.webp"
+            },
+            {
+              "id": "showroom-range",
+              "caption": "عرض الرشاشات والصمامات وبكرات الخراطيم",
+              "image": "../assets/about/facilities-20261010/showroom-range-640.webp",
+              "full": "../assets/about/facilities-20261010/showroom-range-1600.webp"
+            }
+          ]
+        },
+        {
+          "title": "المكتب",
+          "description": "مساحة المكتب لتنسيق المنتجات والطلبات اليومية.",
+          "photos": [
+            {
+              "id": "office",
+              "caption": "مساحة العمل بالمكتب",
+              "image": "../assets/about/facilities-20261010/office-640.webp",
+              "full": "../assets/about/facilities-20261010/office-1600.webp"
+            }
+          ]
+        },
+        {
+          "title": "ورش الإنتاج",
+          "description": "صور للورش تُظهر المكونات ومناطق العمل والمنتجات أثناء الإنتاج.",
+          "photos": [
+            {
+              "id": "workshop-overview",
+              "caption": "منظر عام لورشة الإنتاج",
+              "image": "../assets/about/facilities-20261010/workshop-overview-640.webp",
+              "full": "../assets/about/facilities-20261010/workshop-overview-1600.webp"
+            },
+            {
+              "id": "workshop-components",
+              "caption": "منطقة تشغيل المكونات",
+              "image": "../assets/about/facilities-20261010/workshop-components-640.webp",
+              "full": "../assets/about/facilities-20261010/workshop-components-1600.webp"
+            },
+            {
+              "id": "workshop-production",
+              "caption": "ورشة ومنتجات أثناء الإنتاج",
+              "image": "../assets/about/facilities-20261010/workshop-production-640.webp",
+              "full": "../assets/about/facilities-20261010/workshop-production-1600.webp"
+            }
+          ]
+        },
+        {
+          "title": "المستودعات",
+          "description": "مناطق تخزين الصناديق الخشبية والمنتجات المغلفة. تُحدد العبوة حسب المنتج والطلب.",
+          "photos": [
+            {
+              "id": "warehouse-crates",
+              "caption": "منطقة تخزين الصناديق الخشبية",
+              "image": "../assets/about/facilities-20261010/warehouse-crates-640.webp",
+              "full": "../assets/about/facilities-20261010/warehouse-crates-1600.webp"
+            },
+            {
+              "id": "warehouse-products",
+              "caption": "منطقة تخزين المنتجات المغلفة",
+              "image": "../assets/about/facilities-20261010/warehouse-products-640.webp",
+              "full": "../assets/about/facilities-20261010/warehouse-products-1600.webp"
+            }
+          ]
+        }
+      ],
+      "whatsappHref": "https://wa.me/8617326528368?text=%D9%85%D8%B1%D8%AD%D8%A8%D8%A7%D9%8B%D8%8C%20%D8%A3%D9%88%D8%AF%20%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1%20%D8%B9%D9%86%20%D9%85%D9%86%D8%AA%D8%AC%D8%A7%D8%AA%20%D9%85%D9%83%D8%A7%D9%81%D8%AD%D8%A9%20%D8%A7%D9%84%D8%AD%D8%B1%D9%8A%D9%82.%0A%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%20%2F%20%D8%A7%D9%84%D9%85%D9%88%D8%AF%D9%8A%D9%84%3A%0A%D8%A7%D9%84%D9%83%D9%85%D9%8A%D8%A9%3A%0A%D8%A7%D9%84%D9%88%D8%AC%D9%87%D8%A9%3A",
+      "emailHref": "mailto:zhengcolin1@gmail.com?subject=%D8%A7%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1%20%D8%B9%D9%86%20%D9%85%D9%86%D8%AA%D8%AC%D8%A7%D8%AA%20%D9%85%D9%83%D8%A7%D9%81%D8%AD%D8%A9%20%D8%A7%D9%84%D8%AD%D8%B1%D9%8A%D9%82&body=%D9%85%D8%B1%D8%AD%D8%A8%D8%A7%D9%8B%D8%8C%20%D8%A3%D9%88%D8%AF%20%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1%20%D8%B9%D9%86%20%D9%85%D9%86%D8%AA%D8%AC%D8%A7%D8%AA%20%D9%85%D9%83%D8%A7%D9%81%D8%AD%D8%A9%20%D8%A7%D9%84%D8%AD%D8%B1%D9%8A%D9%82.%0A%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%20%2F%20%D8%A7%D9%84%D9%85%D9%88%D8%AF%D9%8A%D9%84%3A%0A%D8%A7%D9%84%D9%83%D9%85%D9%8A%D8%A9%3A%0A%D8%A7%D9%84%D9%88%D8%AC%D9%87%D8%A9%3A"
+    }
+  }
+]

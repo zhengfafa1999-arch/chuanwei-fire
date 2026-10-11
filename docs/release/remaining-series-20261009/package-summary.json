@@ -1,0 +1,12 @@
+{
+  "date": "2026-10-09",
+  "status": "historical-candidate-superseded-not-deployed",
+  "archive": ".tmp/releases/content-optimization-20261009-web.zip",
+  "bytes": 47853271,
+  "sha256": "7498e9af413d2867b0f6b9c6b2c215cc6620907524488dd2d35088843c301857",
+  "files": 714,
+  "pages": 175,
+  "validation": "All ZIP entries verified against static-manifest sizes and SHA256; CRC check passed. Server rollback backup must be created before publication.",
+  "supersededBy": "docs/release/customer-content-audit-20261009/package-summary.json",
+  "note": "This historical archive does not include the subsequent customer-content audit corrections."
+}

@@ -1,0 +1,37 @@
+{
+  "date": "2026-10-09",
+  "status": "local-review-candidate-not-deployed",
+  "buildCommand": "npm --ignore-scripts run build",
+  "buildPassed": true,
+  "publishedPages": 175,
+  "eleventyOutputs": 176,
+  "searchAssertions": 73,
+  "staticReferences": 42390,
+  "imagesWithAlt": 2164,
+  "newWindowLinks": 724,
+  "coreSeries": 44,
+  "responsiveChecks": 176,
+  "modelLanguagePagesComparedByCell": 88,
+  "responsiveFailures": 0,
+  "modelNumericMismatches": 0,
+  "aboutResponsiveChecks": 4,
+  "supplementRoutes": 22,
+  "supplementConfigurations": 38,
+  "supplementFields": 192,
+  "supplementLanguageOutputs": 44,
+  "pdfGeneratedOrModified": false,
+  "pdfSha256": "4726e11252e8776a359b726a3d610937bd21913f3f68b13ae679b02a764146c8",
+  "gitDiffCheckPassed": true,
+  "messagesSent": false,
+  "limitations": [
+    "Existing-data review does not establish missing technical specifications or foreign certifications.",
+    "Dry-sprinkler component-material mapping and other model-specific technical gaps remain pending.",
+    "New manufacturing evidence and registered Chinese manufacturer name were not supplied.",
+    "Publication scope and server rollback baseline remain to be confirmed before deployment."
+  ],
+  "browserEvidence": [
+    "docs/evidence/content-optimization/remaining-series-responsive-checks.json",
+    "docs/evidence/content-optimization/remaining-series-interactions.json",
+    "docs/evidence/content-optimization/about-brand-checks.json"
+  ]
+}

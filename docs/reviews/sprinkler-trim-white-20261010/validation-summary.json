@@ -1,0 +1,19 @@
+{
+  "date": "2026-10-10",
+  "status": "local-build-passed-browser-visual-review-pending-not-deployed",
+  "publishedPages": 179,
+  "searchAssertions": 107,
+  "documentedLocalizedOutputs": 80,
+  "imagesWithAlt": 2212,
+  "internalReferences": 45489,
+  "newWindowLinks": 764,
+  "replacedAccessoryImages": 3,
+  "whiteImagePixels": "1254x1254",
+  "sourceVisualComparison": "completed against original photographs",
+  "whiteSourceProvenance": "Previously prepared marketplace white-background visuals, not untouched originals",
+  "derivativeIntegrity": "passed",
+  "oldPublicImagePaths": "retained",
+  "pdfSha256Unchanged": "4726e11252e8776a359b726a3d610937bd21913f3f68b13ae679b02a764146c8",
+  "browserVisualReview": "Not completed; prior browser previews timed out",
+  "deployed": false
+}

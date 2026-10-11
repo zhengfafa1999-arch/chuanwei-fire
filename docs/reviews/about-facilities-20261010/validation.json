@@ -1,0 +1,52 @@
+{
+  "date": "2026-10-10",
+  "status": "passed-static-checks",
+  "sourcePhotos": 8,
+  "publicVariants": 16,
+  "sourceBytes": 2967287,
+  "displayBytes": 507584,
+  "fullBytes": 2439802,
+  "pages": [
+    {
+      "path": "about.html",
+      "language": "en",
+      "photos": 8,
+      "galleryPhotos": 8,
+      "introPhotos": 0,
+      "uniquePhotographs": 8,
+      "groups": 4,
+      "productLinks": 9,
+      "cooperationSteps": 4,
+      "manualInquiryDraft": true
+    },
+    {
+      "path": "ar/about.html",
+      "language": "ar",
+      "photos": 8,
+      "galleryPhotos": 8,
+      "introPhotos": 0,
+      "uniquePhotographs": 8,
+      "groups": 4,
+      "productLinks": 9,
+      "cooperationSteps": 4,
+      "manualInquiryDraft": true
+    }
+  ],
+  "changedExistingPublicFiles": [
+    "about.html",
+    "ar/about.html",
+    "ar/contact.html",
+    "ar/downloads.html",
+    "contact.html",
+    "downloads.html"
+  ],
+  "sharedTemplateWhitespaceOnly": [
+    "ar/contact.html",
+    "ar/downloads.html",
+    "contact.html",
+    "downloads.html"
+  ],
+  "build": "Complete npm --ignore-scripts run build passed: 185 published pages, 2317 images with alt, 47946 internal references, 880 new-window links.",
+  "browserRendering": "not-verified",
+  "generatedEnhancement": "Rejected; private review only; public photographs derived directly from original sources."
+}

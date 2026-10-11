@@ -1,0 +1,47 @@
+{
+  "date": "2026-10-10",
+  "newProductChecks": [
+    {
+      "product": "explosion-proof-pressure-switch",
+      "locale": "en",
+      "path": "products/消防阀/explosion-proof-pressure-switch.html",
+      "confirmedValuesPresent": true,
+      "unconfirmedClaimsAbsent": true,
+      "localImagesExist": true,
+      "inquiryNameAndUrlCorrect": true,
+      "sectionAnchorsExist": true
+    },
+    {
+      "product": "explosion-proof-pressure-switch",
+      "locale": "ar",
+      "path": "ar/products/explosion-proof-pressure-switch/index.html",
+      "confirmedValuesPresent": true,
+      "unconfirmedClaimsAbsent": true,
+      "localImagesExist": true,
+      "inquiryNameAndUrlCorrect": true,
+      "sectionAnchorsExist": true
+    },
+    {
+      "product": "explosion-proof-solenoid-valve",
+      "locale": "en",
+      "path": "products/消防阀/explosion-proof-solenoid-valve.html",
+      "confirmedValuesPresent": true,
+      "unconfirmedClaimsAbsent": true,
+      "localImagesExist": true,
+      "inquiryNameAndUrlCorrect": true,
+      "sectionAnchorsExist": true
+    },
+    {
+      "product": "explosion-proof-solenoid-valve",
+      "locale": "ar",
+      "path": "ar/products/explosion-proof-solenoid-valve/index.html",
+      "confirmedValuesPresent": true,
+      "unconfirmedClaimsAbsent": true,
+      "localImagesExist": true,
+      "inquiryNameAndUrlCorrect": true,
+      "sectionAnchorsExist": true
+    }
+  ],
+  "unchangedPdfSha256": "4726e11252e8776a359b726a3d610937bd21913f3f68b13ae679b02a764146c8",
+  "browserVisualValidation": "Not completed in this turn; prior supported preview attempts timed out. Static checks and source photograph review do not verify rendered mobile/gallery interaction."
+}

@@ -1,0 +1,226 @@
+{
+  "id": "closed-air-aspirating-foam-water-sprinkler",
+  "routeId": "product:closed-air-aspirating-foam-water-sprinkler",
+  "template": "product-series/documented-product.njk",
+  "styles": [
+    "css/common.css",
+    "css/sprinkler-product.css",
+    "css/sprinkler-product-gallery.css",
+    "css/documented-product.css",
+    "css/site-navigation.css"
+  ],
+  "source": {
+    "reviewedDate": "2026-10-09",
+    "package": "BSPT系列-闭式吸气型泡沫水喷头",
+    "archiveRoot": "D:\\work\\codex\\阿里国际站运营\\outputs\\alibaba-detail-image-studio\\BSPT系列-闭式吸气型泡沫水喷头",
+    "evidence": "Existing exact-product Alibaba package, confirmed-fact ledger and matching user-supplied photographs.",
+    "scope": "Confirmed fields only; no product certifications, inferred response class, rated flow or coverage claims."
+  },
+  "publication": {
+    "status": "release-candidate",
+    "externalRelease": true,
+    "imageRights": "user-confirmed-website-use",
+    "imageRightsEvidence": "docs/release/special-sprinklers-20261009/image-rights-confirmation.json"
+  },
+  "media": {
+    "hero": "assets/products/special-sprinklers/closed-air-aspirating-foam-water-sprinkler-5-1600.webp"
+  },
+  "imageDimensions": {
+    "hero": {
+      "width": 1472,
+      "height": 1600
+    }
+  },
+  "heroFacts": [
+    "fact1",
+    "fact3"
+  ],
+  "shared": {
+    "fact1": "BSPT",
+    "fact3": "5 mm"
+  },
+  "gallery": [
+    {
+      "media": "hero",
+      "caption": "heroCaption",
+      "alt": "heroAlt",
+      "thumbnailAlt": "heroThumbnail"
+    }
+  ],
+  "specifications": [
+    {
+      "label": "configuration",
+      "value": "fact0",
+      "technical": false
+    },
+    {
+      "label": "threadForm",
+      "value": "fact1",
+      "technical": true
+    },
+    {
+      "label": "material",
+      "value": "fact2",
+      "technical": false
+    },
+    {
+      "label": "thermalElement",
+      "value": "fact3",
+      "technical": true
+    }
+  ],
+  "modelColumns": [
+    {
+      "label": "configuration",
+      "field": "configuration",
+      "localized": true
+    },
+    {
+      "label": "threadForm",
+      "field": "thread",
+      "technical": true
+    }
+  ],
+  "models": [
+    {
+      "configuration": "fact0",
+      "thread": "BSPT"
+    }
+  ],
+  "confirmationItems": [
+    {
+      "label": "connection",
+      "body": "connectionBody"
+    },
+    {
+      "label": "operatingRequirement",
+      "body": "operatingRequirementBody"
+    },
+    {
+      "label": "orderInformation",
+      "body": "orderInformationBody"
+    }
+  ],
+  "validation": {
+    "anchors": [
+      "gallery",
+      "specifications",
+      "models",
+      "quotation"
+    ],
+    "requiredTechnicalValues": [
+      "BSPT",
+      "5 mm"
+    ]
+  },
+  "inquiry": {
+    "whatsapp": "https://wa.me/8617326528368?text=Hello%2C%20I%20need%20a%20quotation%20for%20Closed-Type%20Air-Aspirating%20Foam-Water%20Sprinkler.%20Reference%3A%20%5Bmodel%5D%2C%20connection%3A%20%5Bthread%5D%2C%20operating%20requirements%3A%20%5Bdetails%5D%2C%20quantity%3A%20%5Bpcs%5D%2C%20destination%3A%20%5Bcountry%5D.",
+    "email": "mailto:zhengcolin1@gmail.com?subject=Closed-Type%20Air-Aspirating%20Foam-Water%20Sprinkler%20Inquiry"
+  },
+  "copy": {
+    "en": {
+      "onThisPage": "On this page",
+      "gallery": "Product images",
+      "galleryTitle": "Real product photographs",
+      "galleryBody": "Compare the visible construction and product markings. Photographs identify the shown samples; they do not represent every size or supplied configuration.",
+      "specifications": "Specifications",
+      "specificationsTitle": "Product selection details",
+      "specificationsBody": "Use the confirmed details below to match your requirement. Request exact-model technical documents for the selected configuration.",
+      "availableModels": "Available configurations",
+      "modelsTitle": "Configurations for quotation",
+      "modelsBody": "Match the factory reference and connection requirement with your order.",
+      "factoryModel": "Factory reference",
+      "temperature": "Operating temperature",
+      "thermalElement": "Glass bulb diameter",
+      "modelsNote": "Confirm the exact supplied configuration and required documentation before ordering.",
+      "quotation": "Quotation details",
+      "quotationTitle": "Details to send with your inquiry",
+      "quotationBody": "Send the connection, operating conditions, quantity and destination so we can review the required configuration.",
+      "connection": "Connection",
+      "connectionBody": "Specify the required thread and mating connection.",
+      "operatingRequirement": "Operating conditions",
+      "operatingRequirementBody": "Provide the project pressure and any temperature or discharge requirements.",
+      "orderInformation": "Order information",
+      "orderInformationBody": "Include quantity, destination and the exact technical documents required.",
+      "inquiryTitle": "Request product details and a quotation",
+      "inquiryBody": "Include the product reference, connection, quantity and destination. Send the project specification when available.",
+      "askOnWhatsApp": "Ask on WhatsApp",
+      "emailSales": "Email sales",
+      "productImagePreview": "Product image preview",
+      "closeImagePreview": "Close image preview",
+      "enlargedImage": "Enlarged product photograph",
+      "previousProductImage": "Previous product image",
+      "nextProductImage": "Next product image",
+      "selectProductImage": "Select product image",
+      "kFactor": "K-factor",
+      "threadForm": "Thread family",
+      "configuration": "Configuration",
+      "workingPressure": "Working pressure",
+      "material": "Material scope",
+      "unconfirmed": "Details available on request",
+      "title": "Closed-Type Air-Aspirating Foam-Water Sprinkler",
+      "eyebrow": "Special fire-protection sprinklers and nozzles",
+      "lead": "A closed-type foam-water sprinkler with a woven metal mesh, air inlet openings and a glass-bulb operating element. Copper frame and connection body, with BSPT threads.",
+      "note": "BSPT identifies the thread family, not a factory model. Exact sizes, temperature rating, response classification, K-factor and pressure data are available on request. Confirm the foam concentrate and nozzle compatibility for the project.",
+      "seoTitle": "Closed-Type Air-Aspirating Foam-Water Sprinkler | CHUANWEI FIRE",
+      "seoDescription": "A closed-type foam-water sprinkler with a woven metal mesh, air inlet openings and a glass-bulb operating element. Copper frame and connection body, with BSPT threads.",
+      "heroCaption": "Closed air-aspirating foam-water sprinkler — mesh and air openings",
+      "heroAlt": "Closed air-aspirating foam-water sprinkler — mesh and air openings",
+      "heroThumbnail": "Closed air-aspirating foam-water sprinkler — mesh and air openings",
+      "fact0": "Closed-type air-aspirating foam-water sprinkler",
+      "fact2": "Copper frame and connection body; mesh material grade not specified"
+    },
+    "ar": {
+      "onThisPage": "في هذه الصفحة",
+      "gallery": "صور المنتج",
+      "galleryTitle": "صور حقيقية للمنتج",
+      "galleryBody": "قارن البنية الظاهرة وعلامات المنتج. تحدد الصور العينات المعروضة ولا تمثل جميع المقاسات أو تكوينات التوريد.",
+      "specifications": "المواصفات",
+      "specificationsTitle": "تفاصيل اختيار المنتج",
+      "specificationsBody": "استخدم التفاصيل المؤكدة أدناه لمطابقة متطلباتك. اطلب الوثائق الفنية للموديل والتكوين المختار.",
+      "availableModels": "التكوينات المتاحة",
+      "modelsTitle": "التكوينات لطلب عرض السعر",
+      "modelsBody": "طابق مرجع المصنع ومتطلبات التوصيل مع طلبك.",
+      "factoryModel": "مرجع المصنع",
+      "temperature": "درجة حرارة التشغيل",
+      "thermalElement": "قطر البصيلة الزجاجية",
+      "modelsNote": "أكد تكوين التوريد الدقيق والوثائق المطلوبة قبل الطلب.",
+      "quotation": "تفاصيل عرض السعر",
+      "quotationTitle": "التفاصيل المطلوبة مع استفسارك",
+      "quotationBody": "أرسل التوصيل وظروف التشغيل والكمية والوجهة لمراجعة التكوين المطلوب.",
+      "connection": "التوصيل",
+      "connectionBody": "حدد السن اللولبي والتوصيل المقابل المطلوب.",
+      "operatingRequirement": "ظروف التشغيل",
+      "operatingRequirementBody": "حدد ضغط المشروع وأي متطلبات لدرجة الحرارة أو التصريف.",
+      "orderInformation": "معلومات الطلب",
+      "orderInformationBody": "اذكر الكمية والوجهة والوثائق الفنية الدقيقة المطلوبة.",
+      "inquiryTitle": "اطلب تفاصيل المنتج وعرض السعر",
+      "inquiryBody": "اذكر مرجع المنتج والتوصيل والكمية والوجهة. أرسل مواصفات المشروع إن توفرت.",
+      "askOnWhatsApp": "استفسر عبر WhatsApp",
+      "emailSales": "راسل قسم المبيعات",
+      "productImagePreview": "معاينة صورة المنتج",
+      "closeImagePreview": "إغلاق معاينة الصورة",
+      "enlargedImage": "صورة مكبرة للمنتج",
+      "previousProductImage": "صورة المنتج السابقة",
+      "nextProductImage": "صورة المنتج التالية",
+      "selectProductImage": "اختر صورة المنتج",
+      "kFactor": "معامل K",
+      "threadForm": "عائلة السن اللولبي",
+      "configuration": "التكوين",
+      "workingPressure": "ضغط التشغيل",
+      "material": "نطاق المواد",
+      "unconfirmed": "التفاصيل متاحة عند الطلب",
+      "title": "رشاش ماء ورغوة مغلق يسحب الهواء",
+      "eyebrow": "رشاشات وفوهات خاصة لمكافحة الحريق",
+      "lead": "رشاش ماء ورغوة مغلق بشبكة معدنية منسوجة وفتحات سحب هواء وعنصر تشغيل زجاجي. إطار وجسم توصيل من النحاس مع أسنان BSPT.",
+      "note": "يشير BSPT إلى عائلة السن اللولبي وليس إلى موديل مصنع. تتوفر المقاسات الدقيقة ودرجة حرارة التشغيل وتصنيف الاستجابة ومعامل K وبيانات الضغط عند الطلب. أكد توافق مركز الرغوة والرشاش للمشروع.",
+      "seoTitle": "رشاش ماء ورغوة مغلق يسحب الهواء | CHUANWEI FIRE",
+      "seoDescription": "رشاش ماء ورغوة مغلق بشبكة معدنية منسوجة وفتحات سحب هواء وعنصر تشغيل زجاجي. إطار وجسم توصيل من النحاس مع أسنان BSPT.",
+      "heroCaption": "رشاش ماء ورغوة مغلق يسحب الهواء — الشبكة وفتحات الهواء",
+      "heroAlt": "رشاش ماء ورغوة مغلق يسحب الهواء — الشبكة وفتحات الهواء",
+      "heroThumbnail": "رشاش ماء ورغوة مغلق يسحب الهواء — الشبكة وفتحات الهواء",
+      "fact0": "رشاش ماء ورغوة مغلق يسحب الهواء",
+      "fact2": "إطار وجسم توصيل من النحاس؛ درجة مادة الشبكة غير محددة"
+    }
+  }
+}

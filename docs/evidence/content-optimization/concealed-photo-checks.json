@@ -1,0 +1,34 @@
+[
+  {
+    "count": 2,
+    "images": [
+      {
+        "alt": "Concealed pendent sprinkler — yellow-bulb mechanism sample",
+        "loaded": true
+      },
+      {
+        "alt": "Concealed sprinkler with cover fitted — K115 / 79°C sprinkler sample",
+        "loaded": true
+      }
+    ],
+    "language": "en",
+    "overflow": false,
+    "width": 1440
+  },
+  {
+    "count": 2,
+    "images": [
+      {
+        "alt": "رشاش معلق مخفي — عينة الآلية ببصيلة صفراء",
+        "loaded": true
+      },
+      {
+        "alt": "رشاش مخفي مع الغطاء — عينة رشاش ⁦K115 / 79°C⁩",
+        "loaded": true
+      }
+    ],
+    "language": "ar",
+    "overflow": false,
+    "width": 320
+  }
+]

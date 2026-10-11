@@ -1,0 +1,42 @@
+{
+  "date": "2026-10-10",
+  "sourcePath": "D:\\code\\ai-code\\docs\\release\\explosion-proof-waterflow-20261010\\source\\dn100-explosion-proof-waterflow-switch.jpg",
+  "sourceSha256": "0be08bd4897860a9a61b49fde35cc1975ba6815d86be9d2216f219735f2ddc52",
+  "sourceWidth": 1376,
+  "sourceHeight": 1882,
+  "sourceBytes": 689114,
+  "derivatives": {
+    "display": {
+      "path": "assets/products/explosion-proof-waterflow-switches/dn100-sample-640.webp",
+      "width": 468,
+      "height": 640,
+      "bytes": 20412,
+      "sha256": "721af7fcb0ac40ce101555da2885526fc633710afc34327d20806e5649bfd8d5",
+      "quality": 85
+    },
+    "detail": {
+      "path": "assets/products/explosion-proof-waterflow-switches/dn100-sample-1600.webp",
+      "width": 1170,
+      "height": 1600,
+      "bytes": 62596,
+      "sha256": "506346f094adb5c137e921fbdc94ec81d300e931e09218936ce7d201fe30cf27",
+      "quality": 85
+    }
+  },
+  "visibleFacts": [
+    "Black enclosure, red saddle, U-bolt and white vane",
+    "DN100 paddle marking"
+  ],
+  "userConfirmedFacts": [
+    "Explosion-proof waterflow-indicator product type",
+    "Same size options as the ordinary waterflow-indicator series"
+  ],
+  "unresolved": [
+    "Exact factory model",
+    "Explosion protection marking and applicable documents",
+    "Pressure and material grades",
+    "Electrical contact rating for this variant",
+    "Overall and installation dimensions in mm"
+  ],
+  "transformation": "Proportional WebP resize only; no crop, upscale, recolor, retouch or mark removal"
+}

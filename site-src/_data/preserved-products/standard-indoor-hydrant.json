@@ -22,12 +22,27 @@
     "height": 1254
   },
   "sectionLinks": [
-    ["gallery", "productViews"],
-    ["specifications", "specifications"],
-    ["models", "availableModels"],
-    ["oem", "oEMODM"]
+    [
+      "gallery",
+      "productViews"
+    ],
+    [
+      "specifications",
+      "specifications"
+    ],
+    [
+      "models",
+      "availableModels"
+    ],
+    [
+      "oem",
+      "oEMODM"
+    ]
   ],
-  "secondaryAction": {"anchor": "models", "label": "viewAvailableModels"},
+  "secondaryAction": {
+    "anchor": "models",
+    "label": "viewAvailableModels"
+  },
   "showModels": true,
   "showGallery": true,
   "textKeys": {
@@ -263,7 +278,7 @@
       "numbers": []
     },
     "photographsShowStandardSingleOutlet": {
-      "text": "Photographs show the standard single-outlet indoor hydrant from multiple angles. The visible physical GUANYA / 冠亚 product markings are retained; CHUANWEI FIRE identifies the website and export-sales presentation.",
+      "text": "Photographs show the standard single-outlet indoor hydrant from multiple angles.",
       "numbers": []
     },
     "enlargeSelectedProductImage": {

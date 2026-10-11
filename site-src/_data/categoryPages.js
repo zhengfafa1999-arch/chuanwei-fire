@@ -1,9 +1,11 @@
+import { versionedProductImage } from '../lib/public-asset-versions.js';
 import {thumbnailFor} from './catalogThumbnails.js';
 import { DIRECTORY_COPY, PRODUCT_FAMILIES, flatProducts, productSuffix, localizedText } from "./productDirectory.js";
 import { SITE_ORIGIN, SITE_ROUTES, SUPPORTED_LOCALES, createListingPageRoute, resolveSiteRoute } from "./siteRoutes.js";
 import { createSeoMetadata } from "./seo.js";
 import { createSiteNavigation } from "./navigation.js";
 import { CATEGORY_SEO_FOCUS } from "./categorySeoFocus.js";
+import { listingInquiryDrafts } from "../lib/inquiry.js";
 
 function productCard(product, locale, pageRoute) {
   if (!product.routeId) {
@@ -20,9 +22,10 @@ function productCard(product, locale, pageRoute) {
   const resolvedHref = resolveSiteRoute(product.routeId, targetLocale, pageRoute.outputPath).href;
   return {
     name: localizedText(product.name, locale),
-    image: `${pageRoute.assetPrefix}${thumbnailFor(product.image)}`,
+    image: product.image ? `${pageRoute.assetPrefix}${thumbnailFor(product.image)}` : null,
     href: resolvedHref + productSuffix(product),
     configurations: product.configurations.map(item => ({name: localizedText(item.name, locale), href: resolvedHref + '#' + item.anchor})),
+    relatedConfigurations: (product.relatedConfigurations || []).map(item => ({name: localizedText(item.name, locale), href: resolvedHref + '#' + item.anchor})),
     linkType: targetLocale === locale ? "localized" : "english"
   };
 }
@@ -35,7 +38,7 @@ export default PRODUCT_FAMILIES.flatMap((family) => SUPPORTED_LOCALES.map((local
   const localizedFocus = focus?.[locale];
   const seoTitle = localizedFocus?.title ?? `${familyName} | CHUANWEI FIRE`;
   const seoDescription = localizedFocus?.description ?? localizedText(family.description, locale);
-  const ogImage = new URL(`/${family.image}`, SITE_ORIGIN).href;
+  const ogImage = new URL(versionedProductImage(family.image, `/${family.image}`), SITE_ORIGIN).href;
   return {
     locale,
     copy,
@@ -47,10 +50,10 @@ export default PRODUCT_FAMILIES.flatMap((family) => SUPPORTED_LOCALES.map((local
     guide: localizedFocus ? { ...localizedFocus, href: resolveSiteRoute(focus.focusProduct, locale, route.outputPath).href } : null,
     seoTitle,
     seoDescription,
-    heroImage: `${route.assetPrefix}${family.image}`,
+    heroImage: versionedProductImage(family.image, `${route.assetPrefix}${family.image}`),
     ogImage,
     seo: createSeoMetadata(family.routeId, locale, { title: seoTitle, description: seoDescription, image: ogImage }),
     products: flatProducts(family).map((product) => productCard(product, locale, route)),
-    whatsappHref: `https://wa.me/8617326528368?text=${encodeURIComponent(locale === "ar" ? `مرحباً، أحتاج إلى عرض سعر لفئة ${familyName}. سأرسل المقاس والتوصيل والكمية والوجهة.` : `Hello, I need a quotation for ${familyName}. I will provide the size, connection, quantity and destination.`)}`
+    ...listingInquiryDrafts(familyName, route.canonical, locale)
   };
 }));

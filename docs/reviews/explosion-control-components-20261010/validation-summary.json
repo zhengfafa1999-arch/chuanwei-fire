@@ -1,0 +1,72 @@
+{
+  "date": "2026-10-10",
+  "buildCommand": "npm --ignore-scripts run build",
+  "buildExitCode": 0,
+  "pages": 183,
+  "searchAssertions": 133,
+  "documentedProducts": 42,
+  "documentedLanguageOutputs": 84,
+  "languageProductPairs": 75,
+  "languageModelRows": 347,
+  "languageNumericMismatches": 0,
+  "staticRelease": {
+    "imagesWithAlt": 2240,
+    "internalReferences": 46821,
+    "newWindowLinks": 772
+  },
+  "newPages": [
+    {
+      "product": "explosion-proof-pressure-switch",
+      "locale": "en",
+      "path": "products/消防阀/explosion-proof-pressure-switch.html",
+      "confirmedValuesPresent": true,
+      "unconfirmedClaimsAbsent": true,
+      "localImagesExist": true,
+      "inquiryNameAndUrlCorrect": true,
+      "sectionAnchorsExist": true
+    },
+    {
+      "product": "explosion-proof-pressure-switch",
+      "locale": "ar",
+      "path": "ar/products/explosion-proof-pressure-switch/index.html",
+      "confirmedValuesPresent": true,
+      "unconfirmedClaimsAbsent": true,
+      "localImagesExist": true,
+      "inquiryNameAndUrlCorrect": true,
+      "sectionAnchorsExist": true
+    },
+    {
+      "product": "explosion-proof-solenoid-valve",
+      "locale": "en",
+      "path": "products/消防阀/explosion-proof-solenoid-valve.html",
+      "confirmedValuesPresent": true,
+      "unconfirmedClaimsAbsent": true,
+      "localImagesExist": true,
+      "inquiryNameAndUrlCorrect": true,
+      "sectionAnchorsExist": true
+    },
+    {
+      "product": "explosion-proof-solenoid-valve",
+      "locale": "ar",
+      "path": "ar/products/explosion-proof-solenoid-valve/index.html",
+      "confirmedValuesPresent": true,
+      "unconfirmedClaimsAbsent": true,
+      "localImagesExist": true,
+      "inquiryNameAndUrlCorrect": true,
+      "sectionAnchorsExist": true
+    }
+  ],
+  "pdfSha256": "4726e11252e8776a359b726a3d610937bd21913f3f68b13ae679b02a764146c8",
+  "browserVisualValidation": "Not completed in this turn; prior supported preview attempts timed out. Static checks and source photograph review do not verify rendered mobile/gallery interaction.",
+  "package": {
+    "date": "2026-10-10",
+    "status": "local-review-candidate-not-deployed",
+    "archive": ".tmp/releases/explosion-control-components-20261010-web.zip",
+    "bytes": 44010996,
+    "sha256": "3cb3f5a0b9d18ce02fd2bf63d8684e719c8a3405dfdc495466b975fe8fa1296e",
+    "files": 718,
+    "pages": 183,
+    "validation": "All ZIP entries verified against static-manifest sizes and SHA256; CRC check passed. Server rollback backup must be created before publication."
+  },
+  "notDeployed": true
+}

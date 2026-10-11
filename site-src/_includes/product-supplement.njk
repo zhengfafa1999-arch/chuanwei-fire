@@ -1,0 +1,24 @@
+{% if entry.supplement %}
+  <section class="pdp-section pdp-section--soft pdp-supplement" id="configuration-details" data-product-supplement>
+    <div class="pdp-container">
+      <div class="pdp-heading"><div><h2>{{ entry.supplement.title }}</h2></div><p>{{ entry.supplement.lead }}</p></div>
+      <div class="pdp-supplement__grid">
+{% for config in entry.supplement.configs %}
+        <article class="pdp-panel" id="configuration-{{ config.id }}" data-supply-configuration="{{ config.id }}">
+          <h3>{{ config.title }}</h3>
+          <p class="pdp-supplement__scope">{{ config.scope }}</p>
+{% if config.image %}
+          <figure class="pdp-supplement__image"><a href="{{ config.image.src }}" target="_blank" rel="noopener"><img src="{{ config.image.src }}" alt="{{ config.image.caption }}" loading="lazy"></a><figcaption>{{ config.image.caption }}</figcaption></figure>
+{% endif %}
+          <dl class="pdp-specs">
+{% for row in config.rows %}
+            <div><dt>{{ row.label }}</dt><dd><bdi dir="auto">{{ row.value }}</bdi></dd></div>
+{% endfor %}
+          </dl>
+{% if config.note %}<p class="pdp-supplement__scope">{{ config.note }}</p>{% endif %}
+        </article>
+{% endfor %}
+      </div>
+    </div>
+  </section>
+{% endif %}

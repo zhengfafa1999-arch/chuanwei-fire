@@ -1,0 +1,67 @@
+{
+  "date": "2026-10-10",
+  "confirmation": "这个两个是161系数的",
+  "classification": "Large K-factor spray sprinklers; supplementary photograph grid before K202 samples. Existing ESFR gallery and numeric specifications unchanged.",
+  "photos": [
+    {
+      "sourceFile": "k161-flat-deflector.jpg",
+      "caption": {
+        "en": "K161 metric / K11.2 US — flat-deflector sprinkler sample",
+        "ar": "K161 متري / K11.2 أمريكي — عينة رشاش بصفيحة توزيع مسطحة"
+      },
+      "matchEvidence": "User supplied this actual photograph and confirmed K161 on 2026-10-10. Metric K161 / US K11.2 convention is already used in this product series. Flat deflector and glass-bulb construction visible. No exact factory model, response type, orientation, temperature, thread or certification assigned to this photograph.",
+      "routeId": "product:large-k-factor-esfr-sprinklers",
+      "sourcePath": "D:\\code\\ai-code\\docs\\release\\k161-photos-20261010\\source\\k161-flat-deflector.jpg",
+      "sourceSha256": "069efa361ad5e61ef59b059967058cce93eabc50d0593aa71919fc6fcc536134",
+      "sourceBytes": 438428,
+      "sourceWidth": 861,
+      "sourceHeight": 1325,
+      "display": {
+        "path": "assets/products/guanya-2026/large-k-factor-esfr-sprinklers-k161-flat-deflector-640.webp",
+        "width": 416,
+        "height": 640,
+        "bytes": 34360,
+        "sha256": "0120ce6ef3fbcf65d7c6d766caea3b67b68d567a29822bdcd53d16d63aed1f5c",
+        "quality": 85
+      },
+      "detail": {
+        "path": "assets/products/guanya-2026/large-k-factor-esfr-sprinklers-k161-flat-deflector-1600.webp",
+        "width": 861,
+        "height": 1325,
+        "bytes": 98930,
+        "sha256": "c22b7ad4507123c000b250e6862b2e08cc985bb58a061ad50c74cf48377bc498",
+        "quality": 85
+      }
+    },
+    {
+      "sourceFile": "k161-upright-68c.jpg",
+      "caption": {
+        "en": "K161 metric / K11.2 US — upright sprinkler, 68°C",
+        "ar": "K161 متري / K11.2 أمريكي — رشاش قائم، 68°C"
+      },
+      "matchEvidence": "User supplied this actual photograph and confirmed K161 on 2026-10-10. Visible K-ZSTZ161-68°C marking matches the existing K161 upright / 68°C model family. User previously confirmed Z=upright. Exact full model suffix, connection, response-class test or certification not established from this photograph.",
+      "routeId": "product:large-k-factor-esfr-sprinklers",
+      "sourcePath": "D:\\code\\ai-code\\docs\\release\\k161-photos-20261010\\source\\k161-upright-68c.jpg",
+      "sourceSha256": "9e3bfb03ffb02e00257726a26a586efbc66bcd28a4b17448f6392efcec5ac3db",
+      "sourceBytes": 458849,
+      "sourceWidth": 1046,
+      "sourceHeight": 1240,
+      "display": {
+        "path": "assets/products/guanya-2026/large-k-factor-esfr-sprinklers-k161-upright-68c-640.webp",
+        "width": 540,
+        "height": 640,
+        "bytes": 36150,
+        "sha256": "c839b7e7905d03a061c8760d019fd159302d6e4788c1eaa4fef00c6343b96aeb",
+        "quality": 85
+      },
+      "detail": {
+        "path": "assets/products/guanya-2026/large-k-factor-esfr-sprinklers-k161-upright-68c-1600.webp",
+        "width": 1046,
+        "height": 1240,
+        "bytes": 90626,
+        "sha256": "f004b861ceb88f4554a0bd88a20e379126ea676d24bc6b98defff6bac02e1dd2",
+        "quality": 85
+      }
+    }
+  ]
+}

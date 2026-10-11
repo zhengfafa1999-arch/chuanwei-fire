@@ -1,0 +1,114 @@
+[
+  {
+    "locale": "en",
+    "query": "ZSTWB34/120",
+    "cards": [
+      {
+        "caption": "Stainless-steel ZSTWB series sample; representative of the configuration, not a size drawing.",
+        "href": "http://127.0.0.1:8766/products/%E6%B6%88%E9%98%B2%E5%96%B7%E5%A4%B4/water-mist-nozzles.html#configuration-ss-1",
+        "image": "http://127.0.0.1:8766/assets/catalog-thumbnails/c5fb511443bcebd97d4f060e-480.webp",
+        "name": "Stainless-steel nozzle — ZSTWB34/120"
+      }
+    ],
+    "pageWidth": 1425,
+    "width": 1440
+  },
+  {
+    "locale": "en",
+    "query": "QZ3.5/7.5",
+    "cards": [
+      {
+        "caption": "QZ3.5/7.5 real product sample.",
+        "href": "http://127.0.0.1:8766/products/%E6%B6%88%E9%98%B2%E6%B0%B4%E6%9E%AA/straight-stream-fire-hose-nozzles.html#configuration-qz65",
+        "image": "http://127.0.0.1:8766/assets/catalog-thumbnails/8f1e9cbe28ecf5fb8c7d22ad-480.webp",
+        "name": "DN65 straight-stream nozzle — QZ3.5/7.5"
+      }
+    ],
+    "pageWidth": 1425,
+    "width": 1440
+  },
+  {
+    "locale": "en",
+    "query": "ZSPM-115/1.2-S",
+    "cards": [
+      {
+        "caption": "Photo shows: Red Horizontal-Handwheel Brass-Finish Black-Cap Fire Hose Valve",
+        "href": "http://127.0.0.1:8766/products/%E5%AE%A4%E5%86%85%E6%B6%88%E9%98%B2%E6%A0%93/catalog-hydrant-auxiliary-valves-page-14.html#configuration-end-test",
+        "image": "http://127.0.0.1:8766/assets/catalog-thumbnails/0d7e1633cba863a5f6f756d3-480.webp",
+        "name": "End-of-line sprinkler test assembly"
+      }
+    ],
+    "pageWidth": 1425,
+    "width": 1440
+  },
+  {
+    "locale": "en",
+    "query": "BSPP 200 psig",
+    "cards": [
+      {
+        "caption": "Photo shows: Brass-Finish Lever-Operated Spray Fire Hose Nozzle",
+        "href": "http://127.0.0.1:8766/products/%E6%B6%88%E9%98%B2%E6%B0%B4%E6%9E%AA/catalog-nozzles-inductors-connections-page-19.html#configuration-brass-bspp-adjustable",
+        "image": "http://127.0.0.1:8766/assets/catalog-thumbnails/50129077d1ea709e6c7c0b30-480.webp",
+        "name": "Brass adjustable nozzle — 1½ in BSPP"
+      }
+    ],
+    "pageWidth": 1425,
+    "width": 1440
+  },
+  {
+    "locale": "ar",
+    "query": "ZSTWB34/120",
+    "cards": [
+      {
+        "caption": "عينة من سلسلة ZSTWB المقاومة للصدأ؛ تمثل التكوين وليست رسماً للأبعاد.",
+        "href": "http://127.0.0.1:8766/ar/products/water-mist-nozzles/index.html#configuration-ss-1",
+        "image": "http://127.0.0.1:8766/assets/catalog-thumbnails/c5fb511443bcebd97d4f060e-480.webp",
+        "name": "فوهة مقاومة للصدأ — ZSTWB34/120"
+      }
+    ],
+    "pageWidth": 305,
+    "width": 320
+  },
+  {
+    "locale": "ar",
+    "query": "QZ3.5/7.5",
+    "cards": [
+      {
+        "caption": "عينة حقيقية للمنتج QZ3.5/7.5.",
+        "href": "http://127.0.0.1:8766/ar/products/straight-stream-fire-hose-nozzles/index.html#configuration-qz65",
+        "image": "http://127.0.0.1:8766/assets/catalog-thumbnails/8f1e9cbe28ecf5fb8c7d22ad-480.webp",
+        "name": "فوهة تيار مستقيم DN65 — QZ3.5/7.5"
+      }
+    ],
+    "pageWidth": 305,
+    "width": 320
+  },
+  {
+    "locale": "ar",
+    "query": "ZSPM-115/1.2-S",
+    "cards": [
+      {
+        "caption": "تُظهر الصورة: صمام خرطوم حريق أحمر بعجلة تشغيل أفقية بتشطيب نحاسي بغطاء أسود",
+        "href": "http://127.0.0.1:8766/ar/products/catalog-hydrant-auxiliary-valves-page-14/index.html#configuration-end-test",
+        "image": "http://127.0.0.1:8766/assets/catalog-thumbnails/0d7e1633cba863a5f6f756d3-480.webp",
+        "name": "مجموعة اختبار نهاية خط الرشاشات"
+      }
+    ],
+    "pageWidth": 305,
+    "width": 320
+  },
+  {
+    "locale": "ar",
+    "query": "BSPP 200 psig",
+    "cards": [
+      {
+        "caption": "تُظهر الصورة: فوهة رش لخرطوم الحريق بتشطيب نحاسي يعمل بذراع",
+        "href": "http://127.0.0.1:8766/ar/products/catalog-nozzles-inductors-connections-page-19/index.html#configuration-brass-bspp-adjustable",
+        "image": "http://127.0.0.1:8766/assets/catalog-thumbnails/50129077d1ea709e6c7c0b30-480.webp",
+        "name": "فوهة قابلة للضبط من النحاس الأصفر — 1½ in BSPP"
+      }
+    ],
+    "pageWidth": 305,
+    "width": 320
+  }
+]

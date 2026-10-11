@@ -58,7 +58,7 @@
   "internationalSizeAndConnectionAreThePrimarySelection": "المقاس الدولي ونوع التوصيل هما حقلا الاختيار الأساسيان. تُحتفظ بأكواد ZSDF{n0}-Q كمراجع للمصنع فقط.",
   "internationalConfiguration": "التكوين الدولي",
   "nominalSize": "المقاس الاسمي",
-  "factoryReference": "مرجع المصنع",
+  "factoryReference": "الموديل",
   "forQuotationSpecifyDNSizeGrooveProfileRequirement": "لطلب عرض السعر، حدد مقاس DN ومتطلبات شكل الأخدود واتجاه الذراع والكمية. يتم تأكيد نوع مشغل DN{n0}، ذراع أو ترس دودي، عند الطلب.",
   "oEMODMCapability": "إمكانات OEM / ODM",
   "configuredToTheApprovedDrawingOrSample": "تكوين حسب الرسم المعتمد أو العينة",

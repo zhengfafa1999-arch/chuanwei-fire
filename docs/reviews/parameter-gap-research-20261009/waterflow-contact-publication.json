@@ -1,0 +1,13 @@
+{
+  "date": "2026-10-09",
+  "product": "saddle-type-waterflow-switches",
+  "userInstruction": "你也写这个**DC24V、0.5A 触点容量**",
+  "publishedValue": "DC 24 V, 0.5 A",
+  "evidenceStatus": "user-selected-quotation-reference-not-exact-model-confirmation",
+  "referenceSource": "https://www.lessobh.com/product/Automatic-Sprinkler-System/466.html",
+  "scope": "Contact capacity only. No AC rating, load classification, NO/NC arrangement or supply-voltage requirement inferred.",
+  "publicQualifier": "Contact capacity (quotation reference); selected switch rating, contact form and load type to be confirmed with quotation.",
+  "outstandingEvidence": "GUANYA microswitch nameplate or exact-model electrical specification",
+  "pdfChanged": false,
+  "deployed": false
+}

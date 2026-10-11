@@ -1,6 +1,9 @@
 import fs from 'node:fs';
+import { reviewedPhotoPath } from '../lib/reviewed-product-media.js';
 import { productViews } from './productViews.js';
 import { catalogExpansionByRoute, catalogExpansionListings } from './catalogExpansion.js';
+import { productSearchTerms } from './productSearchData.js';
+import { relatedSupplementConfigurations } from '../lib/product-supplements.js';
 
 export const DIRECTORY_COPY = {
   en: {
@@ -9,8 +12,8 @@ export const DIRECTORY_COPY = {
     home: "Home", products: "Products", about: "About", downloads: "Downloads", contact: "Contact", english: "English", arabic: "العربية",
     directoryEyebrow: "Product directory",
     directoryTitle: "Find your fire protection product.",
-    directoryLead: "Browse all product types below and open the details directly. Filter by category or search by product name.",
-    directoryNote: "Only confirmed product families and existing pages are linked. Technical specifications remain product- and order-specific.",
+    directoryLead: "Browse product details, filter by category, or search by name, model, nominal size or connection.",
+    directoryNote: "Select a product to view its models, specifications and available configurations.",
     browseCategory: "Browse category",
     categoryEyebrow: "Product family",
     availableProducts: "Available product types",
@@ -18,12 +21,16 @@ export const DIRECTORY_COPY = {
     localizedDetails: "View product details",
     englishDetails: "View English technical page",
     requestDetails: "Request product details",
-    selectionTitle: "Information needed for an accurate quotation",
-    selectionLead: "Send the product type and the details below. A drawing or mating sample is recommended when the connection is market-specific.",
+    selectionEyebrow: "Product selection",
+    selectionTitle: "Details that help us prepare your quotation",
+    selectionLead: "Start with your name or company and the product you need. Add the details below when available. For market-specific connections, a drawing or mating sample helps us check compatibility.",
     selectionItems: ["Nominal size and connection", "Working pressure and medium", "Quantity and destination", "Drawing, sample or required standard"],
     inquiryTitle: "Send your product requirement",
-    inquiryBody: "Include the product family, model or reference photo, size, connection, quantity and destination country.",
+    inquiryBody: "Tell us your name or company and the product you need. You can add the model, size, quantity and destination later.",
     whatsapp: "Discuss on WhatsApp",
+    emailDraft: "Open email draft",
+    inquiryNote: "Review and send the draft in WhatsApp or your email app. You can attach photos and drawings there. If the app does not open, use our contact page.",
+    contactDetails: "Contact details",
     backToDirectory: "Back to product directory",
     fallbackBadge: "English page",
     localizedBadge: "Localized page",
@@ -35,8 +42,8 @@ export const DIRECTORY_COPY = {
     home: "الرئيسية", products: "المنتجات", about: "عن الشركة", downloads: "الملفات", contact: "تواصل معنا", english: "English", arabic: "العربية",
     directoryEyebrow: "دليل المنتجات",
     directoryTitle: "اعثر على منتج مكافحة الحريق المطلوب.",
-    directoryLead: "تصفح جميع أنواع المنتجات وافتح التفاصيل مباشرة. اختر الفئة أو ابحث باسم المنتج.",
-    directoryNote: "تُعرض فقط الفئات المؤكدة والصفحات الموجودة. تبقى المواصفات الفنية مرتبطة بالمنتج والطلب المحدد.",
+    directoryLead: "تصفح تفاصيل المنتجات واختر الفئة أو ابحث بالاسم أو الموديل أو المقاس الاسمي أو نوع التوصيل.",
+    directoryNote: "اختر منتجاً للاطلاع على الموديلات والمواصفات والتكوينات المتاحة.",
     browseCategory: "عرض الفئة",
     categoryEyebrow: "فئة المنتج",
     availableProducts: "أنواع المنتجات المتاحة",
@@ -44,12 +51,16 @@ export const DIRECTORY_COPY = {
     localizedDetails: "عرض تفاصيل المنتج",
     englishDetails: "عرض الصفحة الفنية بالإنجليزية",
     requestDetails: "اطلب تفاصيل المنتج",
-    selectionTitle: "المعلومات المطلوبة لعرض سعر دقيق",
-    selectionLead: "أرسل نوع المنتج والتفاصيل أدناه. يوصى بإرسال رسم أو عينة مطابقة عندما يكون التوصيل خاصاً بالسوق.",
+    selectionEyebrow: "اختيار المنتج",
+    selectionTitle: "بيانات تساعدنا على إعداد عرض السعر",
+    selectionLead: "ابدأ باسمك أو شركتك والمنتج المطلوب. أضف البيانات أدناه عند توفرها. يساعد الرسم أو العينة المطابقة على مراجعة توافق التوصيلات الخاصة بالسوق.",
     selectionItems: ["المقاس الاسمي ونوع التوصيل", "ضغط التشغيل والوسط", "الكمية وبلد الوجهة", "الرسم أو العينة أو المعيار المطلوب"],
     inquiryTitle: "أرسل متطلبات المنتج",
-    inquiryBody: "أدرج فئة المنتج والموديل أو الصورة المرجعية والمقاس والتوصيل والكمية وبلد الوجهة.",
+    inquiryBody: "أرسل اسمك أو شركتك والمنتج المطلوب. يمكنك إضافة الموديل والمقاس والكمية والوجهة لاحقاً.",
     whatsapp: "تواصل عبر WhatsApp",
+    emailDraft: "فتح مسودة بريد إلكتروني",
+    inquiryNote: "راجع المسودة وأرسلها في WhatsApp أو تطبيق البريد. يمكنك إرفاق الصور والرسومات هناك. إذا لم يفتح التطبيق، استخدم صفحة التواصل.",
+    contactDetails: "بيانات التواصل",
     backToDirectory: "العودة إلى دليل المنتجات",
     fallbackBadge: "صفحة إنجليزية",
     localizedBadge: "صفحة مترجمة",
@@ -70,24 +81,41 @@ export const PRODUCT_FAMILIES = [
       ["product:fusible-alloy-fire-sprinklers", "Fusible-Alloy Fire Sprinklers", "رشاشات حريق بعنصر حراري قابل للانصهار", "products/消防喷头/fusible-alloy-fire-sprinklers/fusible-alloy-configuration-a.jpg"],
       ["product:glass-bulb-fire-sprinkler", "Quick Response Glass Bulb Sprinklers", "رشاشات زجاجية سريعة الاستجابة", "products/消防喷头/glass-bulb-sprinkler/quick-response-pendent.jpg"],
       ["product:extended-coverage-quick-response-fire-sprinkler", "Extended Coverage Quick Response Sprinklers", "رشاشات سريعة الاستجابة ذات تغطية موسعة", "products/消防喷头/categories/extended-coverage-quick-response.jpg"],
-      ["product:concealed-pendent-fire-sprinkler", "Concealed Pendent Sprinklers", "رشاشات معلقة مخفية", "products/消防喷头/categories/concealed-pendent.jpg"],
+      ["product:concealed-pendent-fire-sprinkler", "Concealed Sprinklers — Standard / Quick Response, K80 / K115", "رشاشات مخفية — استجابة قياسية / سريعة، K80 / K115", "assets/products/concealed-listing-red-label/listing-1600.webp"],
       ["product:large-k-factor-esfr-sprinklers", "Large K-Factor & ESFR Sprinklers", "رشاشات بمعامل K كبير وESFR", "products/消防喷头/categories/large-k-esfr-sprinkler.jpg"],
       ["product:dry-pendent-fire-sprinklers", "Dry Pendent Fire Sprinklers", "رشاشات حريق جافة معلقة", "products/消防喷头/categories/dry-sprinkler.jpg"],
       ["product:water-mist-nozzles", "Water Mist Nozzles", "فوهات ضباب الماء", "products/消防喷头/water-mist-nozzles/standard-water-mist-nozzle-view-1.jpg"],
-      ["product:water-curtain-nozzles", "Water Curtain Nozzles", "فوهات الستارة المائية", "products/消防喷头/water-curtain-nozzles/horizontal-single-slot-water-curtain-nozzle.jpg"]
+      ["product:closed-rotating-fire-sprinkler", "Closed-Type Rotating Fire Sprinkler", "رشاش حريق دوار مغلق", "assets/products/special-sprinklers/closed-rotating-fire-sprinkler-1-1600.webp"],
+      ["product:closed-centrifugal-fire-sprinklers", "Closed-Type Centrifugal Fire Sprinklers", "رشاشات حريق مغلقة بالطرد المركزي", "assets/products/special-sprinklers/closed-centrifugal-fire-sprinklers-2-1600.webp"],
+      ["product:water-curtain-nozzles", "Water Curtain Nozzles", "فوهات الستارة المائية", "products/消防喷头/water-curtain-nozzles/horizontal-single-slot-water-curtain-nozzle.jpg"],
+      ["product:sprinkler-escutcheons-decorative-covers", "Fire Sprinkler Accessories", "ملحقات رشاشات الحريق", "assets/products/sprinkler-trim/double-layer-escutcheon-white-1254.webp"]
+    ]
+  },
+  {
+    id: "foam-nozzles", routeId: "category:foam-nozzles",
+    name: text("Foam-Water Nozzles", "فوهات الماء والرغوة", "泡沫喷头"),
+    description: text("Tubular foam-water nozzles and closed-type air-aspirating sprinklers. Match the nozzle, foam concentrate and system requirements before ordering.", "فوهات أنبوبية للماء والرغوة ورشاشات مغلقة تسحب الهواء. طابق الفوهة ومركز الرغوة ومتطلبات النظام قبل الطلب.", "筒式水／泡沫两用喷头及闭式吸气型泡沫水喷头，按喷头、泡沫液和系统要求核对选型。"),
+    image: "assets/products/special-sprinklers/tubular-foam-water-nozzles-3-1600.webp",
+    products: [
+      ["product:tubular-foam-water-nozzles", "Tubular Foam-Water Nozzles", "فوهات أنبوبية للماء والرغوة", "assets/products/special-sprinklers/tubular-foam-water-nozzles-3-1600.webp"],
+      ["product:closed-air-aspirating-foam-water-sprinkler", "Closed-Type Air-Aspirating Foam-Water Sprinkler", "رشاش ماء ورغوة مغلق يسحب الهواء", "assets/products/special-sprinklers/closed-air-aspirating-foam-water-sprinkler-5-1600.webp"],
     ]
   },
   {
     id: "system-valves", routeId: "category:system-valves",
     name: text("Alarm & System Valves", "صمامات الإنذار وصمامات الأنظمة", "报警阀及系统阀门"),
-    description: text("Wet alarm, deluge, preaction and dry-pipe valve assemblies for fire-water systems.", "مجموعات صمامات الإنذار الرطب والغمر والإجراء المسبق والأنابيب الجافة لأنظمة مياه مكافحة الحريق.", "消防给水系统使用的湿式报警阀、雨淋阀、预作用阀和干式阀组。"),
+    description: text("Alarm and system valve assemblies, waterflow switches, pressure switches and solenoid valves.", "مجموعات صمامات الإنذار والأنظمة ومفاتيح تدفق المياه ومفاتيح الضغط والصمامات الكهرومغناطيسية.", "报警阀及系统阀组、水流指示器、压力开关和电磁阀。"),
     image: "products/消防阀/消防阀主图.jpg",
     products: [
       ["product:wet-alarm-check-valve", "Wet Alarm Check Valve Assemblies", "مجموعات صمام الإنذار الرطب", "products/消防阀/wet-alarm-check-valve-assemblies/dn150-flanged-wet-alarm-assembly-en.jpg"],
       ["product:diaphragm-deluge-valves", "Diaphragm Deluge Valves", "صمامات غمر غشائية", "products/消防阀/diaphragm-deluge-valves/deluge-valve-flanged.jpg"],
       ["product:preaction-valve-assemblies", "Preaction Valve Assemblies", "مجموعات صمامات الإجراء المسبق", "products/消防阀/preaction-valve-assembly.jpg"],
       ["product:dry-pipe-alarm-valves", "Dry Pipe Alarm Valves", "صمامات إنذار الأنابيب الجافة", "products/消防阀/dry-pipe-alarm-valves/dry-pipe-alarm-valve-flanged.jpg"],
-      ["product:saddle-type-waterflow-switches", "Saddle-Type Waterflow Switches", "مفاتيح تدفق المياه من النوع السرجي", "products/消防阀/saddle-type-waterflow-switches/zsjz-dn100-reference.png"]
+      ["product:saddle-type-waterflow-switches", "Saddle-Type Waterflow Switches", "مفاتيح تدفق المياه من النوع السرجي", "products/消防阀/saddle-type-waterflow-switches/zsjz-dn100-reference.png"],
+      ["product:explosion-proof-waterflow-switches", "Explosion-Proof Waterflow Switches", "مفاتيح تدفق المياه المقاومة للانفجار", "assets/products/explosion-proof-waterflow-switches/dn100-sample-1600.webp"],
+      ["product:fire-pressure-switch", "Fire Pressure Switch", "مفتاح ضغط لنظام مكافحة الحريق", "assets/products/fire-pressure-switch/sample-1052.webp"],
+      ["product:explosion-proof-pressure-switch", "Explosion-Proof Pressure Switch", "مفتاح ضغط مقاوم للانفجار", "assets/products/explosion-proof-pressure-switch/sample-1600.webp"],
+      ["product:explosion-proof-solenoid-valve", "Explosion-Proof Solenoid Valve", "صمام كهرومغناطيسي مقاوم للانفجار", "assets/products/explosion-proof-solenoid-valve/sample-1600.webp"]
     ]
   },
   {
@@ -199,7 +227,7 @@ export const PRODUCT_FAMILIES = [
       image: data.media[item.media],
       name: text(data.copy.en[item.caption], data.copy.ar[item.caption])
     })) : [];
-    return { routeId, name: text(en, ar), image, configurations, configurationCardFullNames: Boolean(data?.configurationCardFullNames), views: productViews(routeId.replace('product:','')) };
+    return { routeId, name: text(en, ar), image: reviewedPhotoPath(routeId,image), configurations, configurationCardFullNames: Boolean(data?.configurationCardFullNames), views: productViews(routeId.replace('product:','')) };
   })
 }));
 
@@ -209,11 +237,21 @@ export function localizedText(value, locale) {
 
 // Configurations with their own identified images appear alongside other products.
 export function flatProducts(family) {
-  return family.products.flatMap(product => product.configurations.length ? product.configurations.map(item => ({
+  return family.products.flatMap(product => {
+    const cards = product.configurations.length ? product.configurations.map(item => ({
     ...product, image: item.image, anchor: item.anchor,
     name: product.configurationCardFullNames ? item.name : text(`${item.name.en} Landing Valve`, `${product.name.ar} — ${item.name.ar}`),
-    configurations: []
-  })) : product.views.length ? product.views.map(item => ({...product, image:item.image, view:item.image, name:text(`${product.name.en} — ${item.name.en}`, `${product.name.ar} — ${item.name.ar}`)})) : [product]);
+    configurations: [], searchTerms: productSearchTerms(product.routeId, { image: item.image, anchor: item.anchor })
+  })) : product.views.length ? product.views.map(item => ({...product, image:item.image, anchor:item.anchor, view:item.anchor ? undefined : item.view ?? item.image, name:text(`${product.name.en} — ${item.name.en}`, `${product.name.ar} — ${item.name.ar}`), searchTerms: productSearchTerms(product.routeId, { image: item.searchImage ?? item.view ?? item.image, anchor:item.anchor })})) : [{ ...product, searchTerms: productSearchTerms(product.routeId, { includeSupplements: false }) }];
+    if (cards.length) {
+      // Additional models are links within one existing card, never empty cards.
+      // Keep their search records separate from the pictured model's facts.
+      cards[0].relatedConfigurations = relatedSupplementConfigurations(product.routeId).map(item => ({
+        ...item, searchTerms: [product.name.en, product.name.ar, item.searchTerms].join(' ')
+      }));
+    }
+    return cards;
+  });
 }
 
 export function productSuffix(product) {

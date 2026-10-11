@@ -1,0 +1,116 @@
+[
+  {
+    "language": "en",
+    "width": 1280,
+    "initial": {
+      "categoryLinks": 11,
+      "groups": 11,
+      "open": 0,
+      "overflow": false,
+      "touchHeight": 44
+    },
+    "exclusive": [
+      "Foam-Water Nozzles"
+    ],
+    "closed": {
+      "focusProducts": true,
+      "focusToggle": false,
+      "menuClosed": true
+    }
+  },
+  {
+    "language": "en",
+    "width": 390,
+    "initial": {
+      "categoryLinks": 11,
+      "groups": 11,
+      "open": 0,
+      "overflow": false,
+      "touchHeight": 44
+    },
+    "exclusive": [
+      "Foam-Water Nozzles"
+    ],
+    "closed": {
+      "focusProducts": false,
+      "focusToggle": true,
+      "menuClosed": true
+    }
+  },
+  {
+    "language": "en",
+    "width": 320,
+    "initial": {
+      "categoryLinks": 11,
+      "groups": 11,
+      "open": 0,
+      "overflow": false,
+      "touchHeight": 44
+    },
+    "exclusive": [
+      "Foam-Water Nozzles"
+    ],
+    "closed": {
+      "focusProducts": false,
+      "focusToggle": true,
+      "menuClosed": true
+    }
+  },
+  {
+    "language": "ar",
+    "width": 1280,
+    "initial": {
+      "categoryLinks": 11,
+      "groups": 11,
+      "open": 0,
+      "overflow": false,
+      "touchHeight": 44
+    },
+    "exclusive": [
+      "فوهات الماء والرغوة"
+    ],
+    "closed": {
+      "focusProducts": true,
+      "focusToggle": false,
+      "menuClosed": true
+    }
+  },
+  {
+    "language": "ar",
+    "width": 390,
+    "initial": {
+      "categoryLinks": 11,
+      "groups": 11,
+      "open": 0,
+      "overflow": false,
+      "touchHeight": 44
+    },
+    "exclusive": [
+      "فوهات الماء والرغوة"
+    ],
+    "closed": {
+      "focusProducts": false,
+      "focusToggle": true,
+      "menuClosed": true
+    }
+  },
+  {
+    "language": "ar",
+    "width": 320,
+    "initial": {
+      "categoryLinks": 11,
+      "groups": 11,
+      "open": 0,
+      "overflow": false,
+      "touchHeight": 44
+    },
+    "exclusive": [
+      "فوهات الماء والرغوة"
+    ],
+    "closed": {
+      "focusProducts": false,
+      "focusToggle": true,
+      "menuClosed": true
+    }
+  }
+]

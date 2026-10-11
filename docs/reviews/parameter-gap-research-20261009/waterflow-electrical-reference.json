@@ -1,0 +1,25 @@
+{
+  "date": "2026-10-09",
+  "userRequest": "水流指示器电气参数你给一个常规的，一般是24v吧",
+  "state": "Reference only; not a confirmed GUANYA product specification",
+  "example": {
+    "manufacturer": "LESSO",
+    "models": [
+      "ZSJZ100",
+      "CSJZ150",
+      "ZSJZ200"
+    ],
+    "contactRating": "DC24V 0.5A",
+    "output": "One normally-open and one normally-closed contact pair",
+    "source": "https://www.lessobh.com/product/Automatic-Sprinkler-System/466.html"
+  },
+  "distinction": "Contact voltage/current rating is not the supply-voltage specification. A mechanical waterflow switch actuates contacts; electrically powered/addressable variants have separate requirements.",
+  "manufacturerCrosscheck": {
+    "manufacturer": "Potter",
+    "model": "VSR-S (EU)",
+    "contactRating": "2.0A at 30VDC resistive; 10mA minimum at 24VDC",
+    "source": "https://www.pottersignal.com/product/datasheet/5401208_VSR-S_EU.pdf"
+  },
+  "noWebsiteElectricalRatingAdded": true,
+  "requiredEvidence": "Exact micro-switch marking or model-matched specification/wiring diagram."
+}

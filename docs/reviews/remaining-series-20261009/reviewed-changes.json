@@ -1,0 +1,253 @@
+{
+  "date": "2026-10-09",
+  "reason": "Remove unconfirmed shipping-carton counts; clarify connection scope and model selection; simplify first inquiry. No new approvals or cross-series specifications.",
+  "products": {
+    "concealed-pendent-fire-sprinkler": [
+      {
+        "key": "value100PcsPerExportCarton",
+        "before": ">100 pcs per export carton<",
+        "after": ">Packing requirements confirmed with the order<",
+        "occurrences": 1
+      },
+      {
+        "key": "standardPackingIs100PcsPerCartonLabels",
+        "before": ">Standard packing is 100 pcs per carton; labels and shipping marks can be customized.<",
+        "after": ">Specify packing, labels and shipping marks with your order.<",
+        "occurrences": 1
+      },
+      {
+        "key": "factoryReferencesAreShownOnlyForProductionAnd",
+        "before": ">Factory references are shown only for production and repeat-order matching. Cover configuration, thread, marking and documentation are confirmed against the approved order.<",
+        "after": ">Use the model references to identify repeat orders. Specify the matched cover assembly, connection and marking required.<",
+        "occurrences": 1
+      },
+      {
+        "key": "includeResponseTypeSizeTemperatureThreadFinishCover",
+        "before": ">Include standard or quick response, metric K80 or K115, size, temperature, thread, finish, cover requirement, quantity and destination country.<",
+        "after": ">Start with standard or quick response, metric K80 or K115, and quantity. Add temperature, connection, finish, matched-cover requirements and destination when available.<",
+        "occurrences": 1
+      },
+      {
+        "key": "factoryReference",
+        "before": ">Factory reference<",
+        "after": ">Model<",
+        "occurrences": 1
+      },
+      {
+        "key": "maxWorkingPressure",
+        "before": ">Max. working pressure<",
+        "after": ">Working pressure<",
+        "occurrences": 1
+      },
+      {
+        "key": "value12MPa12BarApprox175Psi",
+        "before": ">1.2 MPa / 12 bar / approx. 175 psi<",
+        "after": ">Confirm for the selected model; see the specific configuration below<",
+        "occurrences": 1
+      }
+    ],
+    "diaphragm-deluge-valves": [
+      {
+        "key": "internationalSizeAndConnectionAreThePrimarySelection",
+        "before": ">International size and connection are the primary selection fields. ZSFM codes are retained only as factory references. Reference height may vary with the approved trim arrangement.<",
+        "after": ">Select the DN size and flanged or grooved connection. Use the ZSFM model reference to identify the configuration; assembly height depends on the selected trim.<",
+        "occurrences": 1
+      },
+      {
+        "key": "includeSizeConnectionFlangeOrGrooveRequirementTrim",
+        "before": ">Include size, connection, flange or groove requirement, trim configuration, quantity and destination country.<",
+        "after": ">Start with size, flanged or grooved connection, and quantity. Add connection dimensions, trim requirements and destination when available.<",
+        "occurrences": 1
+      },
+      {
+        "key": "factoryReference",
+        "before": ">Factory reference<",
+        "after": ">Model<",
+        "occurrences": 1
+      }
+    ],
+    "dry-pendent-fire-sprinklers": [
+      {
+        "key": "internationalBuyerSpecifications",
+        "before": ">International buyer specifications<",
+        "after": ">Technical specifications<",
+        "occurrences": 1
+      },
+      {
+        "key": "confirmedProductSpecifications",
+        "before": ">Confirmed product specifications<",
+        "after": ">Product specifications<",
+        "occurrences": 1
+      },
+      {
+        "key": "theSeriesIsPresentedByResponseTypeAnd",
+        "before": ">The series is presented by response type and overall length. Domestic model codes are retained only for factory production and repeat-order matching.<",
+        "after": ">Select the response type and required overall length, then specify the connection and escutcheon. Overall length refers to the complete assembly.<",
+        "occurrences": 1
+      },
+      {
+        "key": "includeDestinationCountryResponseTypeOverallLengthThread",
+        "before": ">Include destination country, response type, overall length, thread, escutcheon, quantity and OEM request.<",
+        "after": ">Start with response type, overall length and quantity. Add connection, escutcheon, destination and marking requirements when available.<",
+        "occurrences": 1
+      },
+      {
+        "key": "factoryReference",
+        "before": ">Factory reference<",
+        "after": ">Model<",
+        "occurrences": 1
+      },
+      {
+        "key": "copper",
+        "before": ">Copper<",
+        "after": ">Stainless steel<",
+        "occurrences": 1,
+        "evidence": "docs/reviews/parameter-gap-research-20261009/dry-material-confirmation.json"
+      }
+    ],
+    "dry-pipe-alarm-valves": [
+      {
+        "key": "internationalSizeAndConnectionAreThePrimarySelection",
+        "before": ">International size and connection are the primary selection fields. ZSFC codes are retained only as factory references. Reference height may vary with the approved trim arrangement.<",
+        "after": ">Select the DN size and flanged connection. Use the ZSFC model reference to identify the configuration; assembly height depends on the selected trim.<",
+        "occurrences": 1
+      },
+      {
+        "key": "includeSizeAirSupplyPressureTrimConfigurationQuantity",
+        "before": ">Include size, air-supply pressure, trim configuration, quantity and destination country.<",
+        "after": ">Start with size and quantity. Add system air-supply pressure, flange dimensions, trim requirements and destination when available.<",
+        "occurrences": 1
+      },
+      {
+        "key": "factoryReference",
+        "before": ">Factory reference<",
+        "after": ">Model<",
+        "occurrences": 1
+      }
+    ],
+    "extended-coverage-quick-response-fire-sprinkler": [
+      {
+        "key": "factoryReference",
+        "before": ">Factory Model<",
+        "after": ">Model<",
+        "occurrences": 1
+      }
+    ],
+    "grooved-supervisory-butterfly-valves": [
+      {
+        "key": "factoryReference",
+        "before": ">Factory reference<",
+        "after": ">Model<",
+        "occurrences": 1
+      }
+    ],
+    "heavy-duty-fire-hose-reel": [
+      {
+        "key": "factoryReference",
+        "before": ">Factory reference<",
+        "after": ">Model<",
+        "occurrences": 1
+      }
+    ],
+    "jet-spray-fire-hose-reel": [
+      {
+        "key": "factoryReference",
+        "before": ">Factory reference<",
+        "after": ">Model<",
+        "occurrences": 1
+      }
+    ],
+    "large-k-factor-esfr-sprinklers": [
+      {
+        "key": "value100PcsPerExportCarton",
+        "before": ">100 pcs per export carton<",
+        "after": ">Packing requirements confirmed with the order<",
+        "occurrences": 2
+      },
+      {
+        "key": "nPTIsTheStandardListedConnectionOtherThread",
+        "before": ">NPT is the standard listed connection. Other thread forms can be manufactured against a confirmed customer drawing or approved sample.<",
+        "after": ">NPT connections apply to the model table above, including the 74°C fusible-link ESFR models. The separate 68°C K202 BSPT option is detailed below. Specify the exact model and connection before ordering.<",
+        "occurrences": 1
+      },
+      {
+        "key": "factoryReferencesAreShownForProductionMatchingOverseas",
+        "before": ">Factory references are shown for production matching. Overseas buyers can select by product group, response type, K-factor, orientation, connection and temperature.<",
+        "after": ">Select the product group first: large K-factor spray sprinkler or ESFR. Compare response type, K-factor, orientation, connection and temperature within that group.<",
+        "occurrences": 1
+      },
+      {
+        "key": "includeDestinationCountryProductGroupKFactorOrientation",
+        "before": ">Include destination country, product group, K-factor, orientation, connection, quantity and required hydraulic documentation.<",
+        "after": ">Start with the product group, K-factor, orientation and quantity. Add connection, destination and required hydraulic documents when available.<",
+        "occurrences": 1
+      },
+      {
+        "key": "factoryReference",
+        "before": ">Factory reference<",
+        "after": ">Model<",
+        "occurrences": 2
+      }
+    ],
+    "lever-operated-grooved-butterfly-valves": [
+      {
+        "key": "factoryReference",
+        "before": ">Factory reference<",
+        "after": ">Model<",
+        "occurrences": 1
+      }
+    ],
+    "lever-operated-wafer-butterfly-valves": [
+      {
+        "key": "factoryReference",
+        "before": ">Factory reference<",
+        "after": ">Model<",
+        "occurrences": 1
+      }
+    ],
+    "preaction-valve-assemblies": [
+      {
+        "key": "domesticZSFYCodesAreRetainedOnlyAsFactory",
+        "before": ">Domestic ZSFY codes are retained only as factory references. Heights are approximate factory records and must be reconfirmed before order approval.<",
+        "after": ">Use the ZSFY model references to identify the required assembly. Confirm overall height and trim layout for the selected configuration before ordering.<",
+        "occurrences": 1
+      },
+      {
+        "key": "includeDNSizeConnectionWorkingPressureReleaseMethod",
+        "before": ">Include DN size, connection, working pressure, release method, trim scope, voltage, quantity and destination country.<",
+        "after": ">Start with DN size, flanged or grooved connection, and quantity. Add system working pressure, release method, trim scope, control requirements and destination when available.<",
+        "occurrences": 1
+      },
+      {
+        "key": "factoryReference",
+        "before": ">Factory reference<",
+        "after": ">Model<",
+        "occurrences": 1
+      }
+    ],
+    "ria25-fire-hose-reel": [
+      {
+        "key": "factoryReference",
+        "before": ">Factory reference<",
+        "after": ">Model<",
+        "occurrences": 1
+      }
+    ],
+    "straight-stream-fire-hose-reel": [
+      {
+        "key": "factoryReference",
+        "before": ">Factory reference<",
+        "after": ">Model<",
+        "occurrences": 1
+      }
+    ],
+    "wafer-supervisory-butterfly-valves": [
+      {
+        "key": "factoryReference",
+        "before": ">Factory reference<",
+        "after": ">Model<",
+        "occurrences": 1
+      }
+    ]
+  }
+}

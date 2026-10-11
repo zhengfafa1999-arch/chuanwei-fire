@@ -26,10 +26,21 @@
     "configurationB": "products/消防喷头/fusible-alloy-fire-sprinklers/fusible-alloy-configuration-b.jpg"
   },
   "imageDimensions": {
-    "hero": { "width": 793, "height": 1325 },
-    "configurationB": { "width": 827, "height": 1392 }
+    "hero": {
+      "width": 793,
+      "height": 1325
+    },
+    "configurationB": {
+      "width": 827,
+      "height": 1392
+    }
   },
-  "heroFacts": ["kFactorValue", "connectionClassValue", "installationValue", "temperatureCountValue"],
+  "heroFacts": [
+    "kFactorValue",
+    "connectionClassValue",
+    "installationValue",
+    "temperatureCountValue"
+  ],
   "shared": {
     "kFactorValue": "K5.6 US / K80 metric",
     "connectionClassValue": "½ in nominal connection class",
@@ -40,40 +51,118 @@
     "factorySeriesValue": "ZSTZ.X 80-[T]°C Y"
   },
   "gallery": [
-    { "media": "hero", "alt": "configurationAAlt", "caption": "configurationA", "thumbnailAlt": "configurationAThumbnail" },
-    { "media": "configurationB", "alt": "configurationBAlt", "caption": "configurationB", "thumbnailAlt": "configurationBThumbnail" }
+    {
+      "media": "hero",
+      "alt": "configurationAAlt",
+      "caption": "configurationA",
+      "thumbnailAlt": "configurationAThumbnail"
+    },
+    {
+      "media": "configurationB",
+      "alt": "configurationBAlt",
+      "caption": "configurationB",
+      "thumbnailAlt": "configurationBThumbnail"
+    }
   ],
   "specifications": [
-    { "label": "productType", "value": "productTypeValue" },
-    { "label": "installation", "value": "installationValue", "technical": true },
-    { "label": "nominalConnection", "value": "connectionClassValue", "technical": true },
-    { "label": "kFactor", "value": "kFactorValue", "technical": true },
-    { "label": "thermalElement", "value": "fusibleAlloy" },
-    { "label": "temperatureOptions", "value": "temperatureOptionsValue", "technical": true },
-    { "label": "factorySeries", "value": "factorySeriesValue", "technical": true },
-    { "label": "threadForm", "value": "confirmWithQuotation" },
-    { "label": "workingPressure", "value": "confirmWithQuotation" },
-    { "label": "finish", "value": "confirmWithQuotation" }
+    {
+      "label": "productType",
+      "value": "productTypeValue"
+    },
+    {
+      "label": "installation",
+      "value": "installationValue",
+      "technical": true
+    },
+    {
+      "label": "nominalConnection",
+      "value": "connectionClassValue",
+      "technical": true
+    },
+    {
+      "label": "kFactor",
+      "value": "kFactorValue",
+      "technical": true
+    },
+    {
+      "label": "thermalElement",
+      "value": "fusibleAlloy"
+    },
+    {
+      "label": "temperatureOptions",
+      "value": "temperatureOptionsValue",
+      "technical": true
+    },
+    {
+      "label": "factorySeries",
+      "value": "factorySeriesValue",
+      "technical": true
+    }
   ],
   "modelColumns": [
-    { "label": "factoryModel", "field": "factoryModel", "technical": true },
-    { "label": "temperature", "field": "temperature", "technical": true }
+    {
+      "label": "factoryModel",
+      "field": "factoryModel",
+      "technical": true
+    },
+    {
+      "label": "temperature",
+      "field": "temperature",
+      "technical": true
+    }
   ],
   "models": [
-    { "factoryModel": "ZSTZ.X 80-72°C Y", "temperature": "72°C / 162°F", "thermalElement": "fusibleAlloy" },
-    { "factoryModel": "ZSTZ.X 80-74°C Y", "temperature": "74°C / 165°F", "thermalElement": "fusibleAlloy" },
-    { "factoryModel": "ZSTZ.X 80-140°C Y", "temperature": "140°C / 284°F", "thermalElement": "fusibleAlloy" },
-    { "factoryModel": "ZSTZ.X 80-180°C Y", "temperature": "180°C / 356°F", "thermalElement": "fusibleAlloy" },
-    { "factoryModel": "ZSTZ.X 80-204°C Y", "temperature": "204°C / 399°F", "thermalElement": "fusibleAlloy" }
+    {
+      "factoryModel": "ZSTZ.X 80-72°C Y",
+      "temperature": "72°C / 162°F",
+      "thermalElement": "fusibleAlloy"
+    },
+    {
+      "factoryModel": "ZSTZ.X 80-74°C Y",
+      "temperature": "74°C / 165°F",
+      "thermalElement": "fusibleAlloy"
+    },
+    {
+      "factoryModel": "ZSTZ.X 80-140°C Y",
+      "temperature": "140°C / 284°F",
+      "thermalElement": "fusibleAlloy"
+    },
+    {
+      "factoryModel": "ZSTZ.X 80-180°C Y",
+      "temperature": "180°C / 356°F",
+      "thermalElement": "fusibleAlloy"
+    },
+    {
+      "factoryModel": "ZSTZ.X 80-204°C Y",
+      "temperature": "204°C / 399°F",
+      "thermalElement": "fusibleAlloy"
+    }
   ],
   "confirmationItems": [
-    { "label": "orientation", "body": "orientationBody" },
-    { "label": "connection", "body": "connectionBody" },
-    { "label": "operatingRequirement", "body": "operatingRequirementBody" },
-    { "label": "orderInformation", "body": "orderInformationBody" }
+    {
+      "label": "orientation",
+      "body": "orientationBody"
+    },
+    {
+      "label": "connection",
+      "body": "connectionBody"
+    },
+    {
+      "label": "operatingRequirement",
+      "body": "operatingRequirementBody"
+    },
+    {
+      "label": "orderInformation",
+      "body": "orderInformationBody"
+    }
   ],
   "validation": {
-    "anchors": ["gallery", "specifications", "models", "quotation"],
+    "anchors": [
+      "gallery",
+      "specifications",
+      "models",
+      "quotation"
+    ],
     "requiredTechnicalValues": [
       "ZSTZ.X 80-72°C Y",
       "ZSTZ.X 80-204°C Y",
@@ -102,8 +191,8 @@
       "configurationAThumbnail": "Configuration A thumbnail",
       "configurationBThumbnail": "Configuration B thumbnail",
       "specifications": "Specifications",
-      "specificationsTitle": "Confirmed series overview",
-      "specificationsBody": "Only fields confirmed in the approved v11 catalog are shown. Unresolved order details remain marked for quotation confirmation.",
+      "specificationsTitle": "Product specifications",
+      "specificationsBody": "Compare the listed connection size, K-factor and temperature options. Thread form, working pressure and finish are confirmed with the quotation.",
       "productType": "Product type",
       "installation": "Installation options",
       "nominalConnection": "Nominal connection class",
@@ -121,7 +210,7 @@
       "modelsBody": "Select the required temperature and confirm the installation orientation when requesting a quotation.",
       "factoryModel": "Factory Model",
       "temperature": "Temperature",
-      "modelsNote": "This approved selection table does not imply certification coverage. Final specifications follow the agreed quotation and order documents.",
+      "modelsNote": "The model table does not establish certification coverage. Final specifications follow the agreed quotation and order documents.",
       "quotation": "Quotation confirmation",
       "quotationTitle": "Details required before production",
       "quotationBody": "Send the exact order requirements so the supplied sprinkler matches the approved quotation and sample.",
@@ -134,7 +223,7 @@
       "orderInformation": "Order information",
       "orderInformationBody": "Provide quantity, destination and required documents.",
       "inquiryTitle": "Send your fusible-alloy sprinkler requirement",
-      "inquiryBody": "Include orientation, temperature, thread requirement, quantity, destination and any marking or documentation request.",
+      "inquiryBody": "Start with orientation, temperature and quantity. Add connection, destination and marking or document requirements when available.",
       "askOnWhatsApp": "Ask on WhatsApp",
       "emailSales": "Email sales",
       "productImagePreview": "Product image preview",
@@ -162,8 +251,8 @@
       "configurationAThumbnail": "صورة مصغرة للتكوين أ",
       "configurationBThumbnail": "صورة مصغرة للتكوين ب",
       "specifications": "المواصفات",
-      "specificationsTitle": "نظرة عامة مؤكدة على السلسلة",
-      "specificationsBody": "تُعرض فقط الحقول المؤكدة في كتالوج الإصدار المعتمد. تبقى تفاصيل الطلب غير المحسومة محددة للتأكيد عند عرض السعر.",
+      "specificationsTitle": "مواصفات المنتج",
+      "specificationsBody": "قارن مقاس التوصيل ومعامل K وخيارات درجة الحرارة المدرجة. يُؤكد نوع السن اللولبي وضغط التشغيل والتشطيب مع عرض السعر.",
       "productType": "نوع المنتج",
       "installation": "خيارات التركيب",
       "nominalConnection": "فئة التوصيل الاسمية",
@@ -181,7 +270,7 @@
       "modelsBody": "اختر درجة الحرارة المطلوبة وأكد اتجاه التركيب عند طلب عرض السعر.",
       "factoryModel": "موديل المصنع",
       "temperature": "درجة الحرارة",
-      "modelsNote": "لا يعني جدول الاختيار المعتمد هذا تغطية أي اعتماد. تتبع المواصفات النهائية عرض السعر ووثائق الطلب المتفق عليها.",
+      "modelsNote": "لا يثبت جدول الموديلات نطاق أي اعتماد. تتبع المواصفات النهائية عرض السعر ووثائق الطلب المتفق عليها.",
       "quotation": "تأكيد عرض السعر",
       "quotationTitle": "التفاصيل المطلوبة قبل الإنتاج",
       "quotationBody": "أرسل متطلبات الطلب الدقيقة حتى يتطابق الرشاش المورّد مع عرض السعر والعينة المعتمدين.",
@@ -194,7 +283,7 @@
       "orderInformation": "معلومات الطلب",
       "orderInformationBody": "حدد الكمية والوجهة والوثائق المطلوبة.",
       "inquiryTitle": "أرسل متطلبات رشاش العنصر القابل للانصهار",
-      "inquiryBody": "أدرج اتجاه التركيب ودرجة الحرارة ومتطلبات السن اللولبي والكمية والوجهة وأي طلب للعلامات أو الوثائق.",
+      "inquiryBody": "ابدأ بالاتجاه ودرجة الحرارة والكمية. أضف التوصيل والوجهة ومتطلبات الوسم أو الوثائق عند توفرها.",
       "askOnWhatsApp": "استفسر عبر WhatsApp",
       "emailSales": "راسل قسم المبيعات",
       "productImagePreview": "معاينة صورة المنتج",

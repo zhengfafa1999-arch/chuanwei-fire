@@ -1,0 +1,287 @@
+{
+  "id": "explosion-proof-solenoid-valve",
+  "routeId": "product:explosion-proof-solenoid-valve",
+  "template": "product-series/documented-product.njk",
+  "styles": [
+    "css/common.css",
+    "css/sprinkler-product.css",
+    "css/sprinkler-product-gallery.css",
+    "css/documented-product.css",
+    "css/site-navigation.css"
+  ],
+  "source": {
+    "evidence": "Actual user photograph and direct user-confirmed standalone product specifications; Ex marking and exact model not confirmed",
+    "photoRecord": "docs/reviews/explosion-control-components-20261010/photo-records.json",
+    "researchRecord": "docs/reviews/explosion-control-components-20261010/parameter-review.md",
+    "confirmationRecord": "docs/reviews/explosion-control-components-20261010/user-confirmation.json"
+  },
+  "publication": {
+    "status": "release-candidate",
+    "externalRelease": true,
+    "imageRights": "user-confirmed-website-use",
+    "imageRightsEvidence": "docs/release/explosion-control-components-20261010/image-rights-confirmation.json"
+  },
+  "media": {
+    "hero": "assets/products/explosion-proof-solenoid-valve/sample-1600.webp"
+  },
+  "imageDimensions": {
+    "hero": {
+      "width": 1536,
+      "height": 1528
+    }
+  },
+  "heroFacts": [
+    "sizeValue",
+    "coilValue",
+    "stateValue"
+  ],
+  "shared": {
+    "sizeValue": "DN15 / 1/2 in",
+    "threadValue": "G1/2",
+    "coilValue": "DC24V",
+    "pressureValue": "0.04–1.6 MPa / 0.4–16 bar"
+  },
+  "gallery": [
+    {
+      "media": "hero",
+      "alt": "sampleAlt",
+      "caption": "sampleCaption",
+      "thumbnailAlt": "sampleThumbnail"
+    }
+  ],
+  "specifications": [
+    {
+      "label": "productType",
+      "value": "title"
+    },
+    {
+      "label": "nominalSize",
+      "value": "sizeValue",
+      "technical": true
+    },
+    {
+      "label": "connection",
+      "value": "connectionValue"
+    },
+    {
+      "label": "coil",
+      "value": "coilValue",
+      "technical": true
+    },
+    {
+      "label": "body",
+      "value": "bodyValue"
+    },
+    {
+      "label": "state",
+      "value": "stateValue"
+    },
+    {
+      "label": "operation",
+      "value": "operationValue"
+    },
+    {
+      "label": "workingPressure",
+      "value": "pressureValue",
+      "technical": true
+    }
+  ],
+  "modelColumns": [
+    {
+      "label": "nominalSize",
+      "field": "size",
+      "technical": true
+    },
+    {
+      "label": "connection",
+      "field": "connection",
+      "localized": true
+    },
+    {
+      "label": "coil",
+      "field": "coil",
+      "technical": true
+    },
+    {
+      "label": "state",
+      "field": "state",
+      "localized": true
+    },
+    {
+      "label": "workingPressure",
+      "field": "pressure",
+      "technical": true
+    }
+  ],
+  "models": [
+    {
+      "size": "DN15 / 1/2 in",
+      "connection": "connectionValue",
+      "coil": "DC24V",
+      "state": "stateValue",
+      "pressure": "0.04–1.6 MPa / 0.4–16 bar"
+    }
+  ],
+  "confirmationItems": [
+    {
+      "label": "selection",
+      "body": "selectionBody"
+    },
+    {
+      "label": "electrical",
+      "body": "electricalBody"
+    },
+    {
+      "label": "explosionProtection",
+      "body": "explosionProtectionBody"
+    },
+    {
+      "label": "orderInformation",
+      "body": "orderInformationBody"
+    }
+  ],
+  "validation": {
+    "anchors": [
+      "gallery",
+      "specifications",
+      "models",
+      "quotation"
+    ],
+    "requiredTechnicalValues": [
+      "DN15 / 1/2 in",
+      "G1/2",
+      "DC24V",
+      "0.04–1.6 MPa / 0.4–16 bar"
+    ]
+  },
+  "inquiry": {
+    "whatsapp": "https://wa.me/8617326528368?text=Hello%2C+I+need+a+quotation+for+Explosion-Proof+Solenoid+Valve.+Quantity%3A+%5Bpcs%5D%2C+destination%3A+%5Bcountry%5D%2C+connection%3A+%5Bdetails%5D.+Please+send+matching+technical+data%2C+wiring+information+and+explosion-protection+documents.",
+    "email": "mailto:zhengcolin1@gmail.com?subject=Explosion-Proof+Solenoid+Valve+Inquiry"
+  },
+  "copy": {
+    "en": {
+      "onThisPage": "On this page",
+      "specifications": "Specifications",
+      "factoryModel": "Factory Model",
+      "temperature": "Temperature",
+      "thermalElement": "Sensing element",
+      "quotation": "Quotation confirmation",
+      "askOnWhatsApp": "Ask on WhatsApp",
+      "emailSales": "Email sales",
+      "productImagePreview": "Product image preview",
+      "closeImagePreview": "Close image preview",
+      "previousProductImage": "Previous product image",
+      "nextProductImage": "Next product image",
+      "selectProductImage": "Select product image",
+      "eyebrow": "DN15 · DC24V · normally closed",
+      "lead": "Explosion-proof solenoid valve with a DN15 connection, G1/2 female thread and brass body. The DC24V normally closed configuration opens when energised and closes when de-energised. Working pressure is 0.04–1.6 MPa.",
+      "note": "Request the selected model’s technical data, operating sequence and explosion-protection documents with your quotation.",
+      "galleryTitle": "Solenoid valve sample",
+      "galleryBody": "The supplied photograph shows a red bolted enclosure, side cable entry and a female-threaded valve port. Open the image to inspect the configuration and visible markings.",
+      "sampleCaption": "Explosion-proof solenoid valve — supplied sample",
+      "sampleAlt": "Explosion-proof solenoid valve with red bolted enclosure, side cable entry and a visible female-threaded valve port",
+      "sampleThumbnail": "Solenoid valve sample thumbnail",
+      "connectionValue": "G1/2 female thread",
+      "constructionValue": "Red bolted enclosure · side cable entry",
+      "functionValue": "Electrical control of fluid flow",
+      "specificationsBody": "The confirmed configuration is DN15, G1/2 female thread, DC24V, brass and normally closed, with a working pressure range of 0.04–1.6 MPa.",
+      "modelsBody": "Compare the confirmed connection, coil voltage, valve state and working pressure below. Request the matching factory model and drawing with your quotation.",
+      "modelsNote": "Normally closed: the valve opens when energised and closes when de-energised. Request the wiring diagram, coil power and fluid compatibility details for the selected product.",
+      "selectionBody": "DN15, G1/2 female thread, brass body; working pressure 0.04–1.6 MPa. Provide the fluid and installation requirements.",
+      "electricalBody": "DC24V coil, normally closed. Energised opens; de-energised closes. Request coil power and the wiring diagram.",
+      "quotationBody": "Start with the product and quantity. Add the connection, fluid, pressure and control-circuit requirements when available.",
+      "inquiryBody": "Include quantity, destination and your fluid, pressure, voltage and valve-state requirements.",
+      "seoDescription": "DN15 explosion-proof solenoid valve with G1/2 female thread, DC24V coil, brass body and normally closed operation. Working pressure 0.04–1.6 MPa. View the actual sample.",
+      "title": "Explosion-Proof Solenoid Valve",
+      "seoTitle": "Explosion-Proof Solenoid Valve | CHUANWEI FIRE",
+      "gallery": "Product image",
+      "availableModels": "Product configuration",
+      "enlargedImage": "Enlarged explosion-proof solenoid valve",
+      "specificationsTitle": "Product overview",
+      "productType": "Product type",
+      "function": "Function",
+      "connection": "Connection shown",
+      "construction": "Photographed construction",
+      "modelsTitle": "Photographed configuration",
+      "quotationTitle": "Request a matched configuration",
+      "selection": "Pressure and connection",
+      "electrical": "Electrical requirements",
+      "explosionProtection": "Explosion-protection requirements",
+      "explosionProtectionBody": "Specify destination and the required protection classification. Request the exact product marking and matching supporting documents.",
+      "orderInformation": "Order information",
+      "orderInformationBody": "Provide quantity, destination and packaging requirements.",
+      "inquiryTitle": "Request an explosion-proof solenoid valve",
+      "nominalSize": "Nominal size",
+      "coil": "Coil voltage",
+      "body": "Valve body material",
+      "bodyValue": "Brass",
+      "state": "Valve state",
+      "stateValue": "Normally closed",
+      "operation": "Operation",
+      "operationValue": "Energised: open · de-energised: closed",
+      "workingPressure": "Working pressure range"
+    },
+    "ar": {
+      "onThisPage": "في هذه الصفحة",
+      "specifications": "المواصفات",
+      "factoryModel": "موديل المصنع",
+      "temperature": "درجة الحرارة",
+      "thermalElement": "عنصر الاستشعار",
+      "quotation": "تأكيد عرض السعر",
+      "askOnWhatsApp": "استفسر عبر WhatsApp",
+      "emailSales": "راسل قسم المبيعات",
+      "productImagePreview": "معاينة صورة المنتج",
+      "closeImagePreview": "إغلاق معاينة الصورة",
+      "previousProductImage": "صورة المنتج السابقة",
+      "nextProductImage": "صورة المنتج التالية",
+      "selectProductImage": "اختر صورة المنتج",
+      "eyebrow": "DN15 · DC24V · مغلق عادةً",
+      "lead": "صمام كهرومغناطيسي مقاوم للانفجار بمقاس DN15 وتوصيل G1/2 بسن داخلي وجسم من النحاس الأصفر. يعمل بتكوين DC24V مغلق عادةً؛ يفتح عند توصيل الكهرباء ويغلق عند فصلها. ضغط التشغيل 0.04–1.6 MPa.",
+      "note": "اطلب البيانات الفنية وتسلسل التشغيل ووثائق الحماية من الانفجار للموديل المختار مع عرض السعر.",
+      "galleryTitle": "عينة الصمام الكهرومغناطيسي",
+      "galleryBody": "تُظهر الصورة المقدمة علبة حمراء مثبتة بمسامير ومدخل كابل جانبياً ومنفذ صمام بسن داخلي. افتح الصورة لفحص التكوين والعلامات الظاهرة.",
+      "sampleCaption": "صمام كهرومغناطيسي مقاوم للانفجار — العينة المقدمة",
+      "sampleAlt": "صمام كهرومغناطيسي مقاوم للانفجار بعلبة حمراء مثبتة بمسامير ومدخل كابل جانبي ومنفذ صمام ظاهر بسن داخلي",
+      "sampleThumbnail": "صورة مصغرة لعينة الصمام الكهرومغناطيسي",
+      "connectionValue": "G1/2 بسن داخلي",
+      "constructionValue": "علبة حمراء مثبتة بمسامير · مدخل كابل جانبي",
+      "functionValue": "التحكم الكهربائي في تدفق المائع",
+      "specificationsBody": "التكوين المؤكد هو DN15 وG1/2 بسن داخلي وDC24V وجسم من النحاس الأصفر وحالة مغلقة عادةً، بنطاق ضغط تشغيل 0.04–1.6 MPa.",
+      "modelsBody": "قارن التوصيل وجهد الملف وحالة الصمام وضغط التشغيل المؤكدة أدناه. اطلب موديل المصنع والرسم المطابقين مع عرض السعر.",
+      "modelsNote": "مغلق عادةً: يفتح الصمام عند توصيل الكهرباء ويغلق عند فصلها. اطلب مخطط التوصيل وقدرة الملف وتفاصيل توافق المائع للمنتج المختار.",
+      "selectionBody": "DN15 وG1/2 بسن داخلي وجسم من النحاس الأصفر؛ ضغط تشغيل 0.04–1.6 MPa. أرسل المائع ومتطلبات التركيب.",
+      "electricalBody": "ملف DC24V وحالة مغلقة عادةً. توصيل الكهرباء يفتح الصمام وفصلها يغلقه. اطلب قدرة الملف ومخطط التوصيل.",
+      "quotationBody": "ابدأ بالمنتج والكمية. أضف التوصيل والمائع والضغط ومتطلبات دائرة التحكم عند توفرها.",
+      "inquiryBody": "أضف الكمية والوجهة ومتطلبات المائع والضغط والجهد وحالة الصمام.",
+      "seoDescription": "صمام كهرومغناطيسي مقاوم للانفجار DN15 بسن داخلي G1/2 وملف DC24V وجسم من النحاس الأصفر وحالة مغلقة عادةً. ضغط التشغيل 0.04–1.6 MPa. شاهد العينة الفعلية.",
+      "title": "صمام كهرومغناطيسي مقاوم للانفجار",
+      "seoTitle": "صمام كهرومغناطيسي مقاوم للانفجار | CHUANWEI FIRE",
+      "gallery": "صورة المنتج",
+      "availableModels": "تكوين المنتج",
+      "enlargedImage": "صورة مكبرة: صمام كهرومغناطيسي مقاوم للانفجار",
+      "specificationsTitle": "نظرة عامة على المنتج",
+      "productType": "نوع المنتج",
+      "function": "الوظيفة",
+      "connection": "التوصيل الظاهر",
+      "construction": "البنية المعروضة في الصورة",
+      "modelsTitle": "التكوين المعروض في الصورة",
+      "quotationTitle": "اطلب تكويناً مطابقاً",
+      "selection": "الضغط والتوصيل",
+      "electrical": "المتطلبات الكهربائية",
+      "explosionProtection": "متطلبات الحماية من الانفجار",
+      "explosionProtectionBody": "حدد بلد الوجهة وتصنيف الحماية المطلوب. اطلب علامات المنتج الدقيقة والوثائق الداعمة المطابقة.",
+      "orderInformation": "معلومات الطلب",
+      "orderInformationBody": "أرسل الكمية والوجهة ومتطلبات التغليف.",
+      "inquiryTitle": "اطلب صمام كهرومغناطيسي مقاوم للانفجار",
+      "nominalSize": "المقاس الاسمي",
+      "coil": "جهد الملف",
+      "body": "مادة جسم الصمام",
+      "bodyValue": "النحاس الأصفر",
+      "state": "حالة الصمام",
+      "stateValue": "مغلق عادةً",
+      "operation": "التشغيل",
+      "operationValue": "توصيل الكهرباء: مفتوح · فصل الكهرباء: مغلق",
+      "workingPressure": "نطاق ضغط التشغيل"
+    }
+  }
+}

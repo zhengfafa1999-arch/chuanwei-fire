@@ -1,0 +1,36 @@
+{
+  "status": "confirmed",
+  "confirmedDate": "2026-10-10",
+  "scope": "CHUANWEI FIRE official website public display",
+  "authority": "Direct user follow-up asking for the existing Alibaba/1688 white-background images on this product page",
+  "response": "这个没有白底图吗，你找找，我记得阿里国际站还是1688的图片是有的",
+  "images": [
+    {
+      "productId": "sprinkler-escutcheons-decorative-covers",
+      "path": "assets/products/sprinkler-trim/double-layer-escutcheon-white-1254.webp",
+      "sha256": "a6542299f4e8101ffb41f6cc390153381b7f6b33a91052e7c3dc8d51860bcb0d",
+      "originalSha256": "5ddde0097a5eb11060bf0af014c9b9293be262fdb4dedbf5c036993055d1aee2",
+      "publishedTransform": "CHUANWEI FIRE text watermark in clear whitespace",
+      "unwatermarkedSha256": "87e07c58f1f1d17cc30907d8662214a7ba02bab13eb712430dd9f8fcd90ecb9e",
+      "watermarkRecord": "site-src/_data/product-watermarks.json"
+    },
+    {
+      "productId": "sprinkler-escutcheons-decorative-covers",
+      "path": "assets/products/sprinkler-trim/single-layer-escutcheon-white-1254.webp",
+      "sha256": "b97bd4f0cdb50fea555062becdb90a7f018044726bc17713bc53e24733bcd669",
+      "originalSha256": "6930b8a780f1e10d9281a2c52189e5d41c5f4066ce545b7e888b170878c50ba4",
+      "publishedTransform": "CHUANWEI FIRE text watermark in clear whitespace",
+      "unwatermarkedSha256": "5d0b9cab42525cd336698e222f820e11f43b984aaa83a0746d7adbb09dc675bf",
+      "watermarkRecord": "site-src/_data/product-watermarks.json"
+    },
+    {
+      "productId": "sprinkler-escutcheons-decorative-covers",
+      "path": "assets/products/sprinkler-trim/white-round-cover-assembly-white-1254.webp",
+      "sha256": "47d6d5fa96d53d135b4a603065f7d75981d21218343e7be958c03865d4244795",
+      "originalSha256": "5b7bbff4edd9cb4186dc569b246ea2f8183d8e56721753a432e9e90610bd4289",
+      "publishedTransform": "CHUANWEI FIRE text watermark in clear whitespace",
+      "unwatermarkedSha256": "34e441bd155d5c4f6889bcb9c29c5ae8eac80092c862adeb4c43cab6171b4fd8",
+      "watermarkRecord": "site-src/_data/product-watermarks.json"
+    }
+  ]
+}

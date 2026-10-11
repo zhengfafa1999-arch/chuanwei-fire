@@ -1,0 +1,27 @@
+参数核验与国际标准边界｜内部使用
+日期：2026-09-28；用户选择：先做英文通用版。
+
+已出图：产品身份、Copper Frame & Connection Body、BSPT Thread、5 mm Glass Bulb、可见网罩及吸气孔。
+依据：用户提供的产品身份和照片，加上用户长期确认的产品材质、BSPT螺纹族及5mm玻璃球配置。旧1688图文只作辅助线索。
+
+未出图及原因：
+压力、K系数和流量：旧资料是同类其他厂家参考，不是本SKU测试依据。
+68℃：旧记录部分依据红色玻璃球推断，缺少清晰标识或正式技术文件，本套省略。
+螺纹尺寸：旧档案记载4分/6分/1寸与R1/2/R3/4/R1，出口配置及照片位置映射缺进一步依据，本套只写BSPT。
+RTI/响应等级：玻璃球直径不等于该产品获得某响应等级测试结论。
+发泡倍数、析液时间：标准最低要求不等于本SKU实测值。
+尺寸、安装、包装、工厂和认证图：无对应图纸、说明、实拍和证书，不伪造。
+
+官方资料只作标准研究背景，不构成本SKU符合性证据：
+ISO 7-1:1994：官方目录显示2026年确认现行，涉及管螺纹尺寸、公差和代号。
+https://committee.iso.org/standard/20819.html?browse=ics
+
+BS EN 13565-1:2019+A1:2025：BSI目录列为现行泡沫灭火系统部件要求和试验方法标准。当前准确产品适用性及符合性仍需单独验证。
+https://knowledge.bsigroup.com/products/fixed-firefighting-systems-foam-systems-requirements-and-test-methods-for-components-1
+
+UL 162：官方目录显示Active；目录修订日期2026-06-26。检索到标准不等于本产品获得UL认证。
+https://www.shopulstandards.com/ProductDetail.aspx?productId=UL162
+
+后续补充技术图所需资料：正式型号/出口配置、厂家规格表、各口径测试报告、尺寸图及覆盖对应型号的有效证书。
+单位换算不构成标准等效或接口兼容证明。
+

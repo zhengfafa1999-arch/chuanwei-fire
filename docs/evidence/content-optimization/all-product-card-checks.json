@@ -1,0 +1,442 @@
+[
+  {
+    "url": "http://127.0.0.1:8766/products.html",
+    "locale": "en",
+    "cards": 12,
+    "mobile": false,
+    "empty": 0,
+    "pageWidth": 1425,
+    "width": 1440,
+    "expected": 12
+  },
+  {
+    "url": "http://127.0.0.1:8766/ar/products.html",
+    "locale": "ar",
+    "cards": 12,
+    "mobile": false,
+    "empty": 0,
+    "pageWidth": 1425,
+    "width": 1440,
+    "expected": 12
+  },
+  {
+    "url": "http://127.0.0.1:8766/products/消防喷头.html",
+    "locale": "en",
+    "cards": 25,
+    "mobile": false,
+    "empty": 0,
+    "pageWidth": 1425,
+    "width": 1440,
+    "expected": 25
+  },
+  {
+    "url": "http://127.0.0.1:8766/ar/products/sprinklers/index.html",
+    "locale": "ar",
+    "cards": 25,
+    "mobile": false,
+    "empty": 0,
+    "pageWidth": 1425,
+    "width": 1440,
+    "expected": 25
+  },
+  {
+    "url": "http://127.0.0.1:8766/products/消防阀.html",
+    "locale": "en",
+    "cards": 7,
+    "mobile": false,
+    "empty": 0,
+    "pageWidth": 1425,
+    "width": 1440,
+    "expected": 7
+  },
+  {
+    "url": "http://127.0.0.1:8766/ar/products/system-valves/index.html",
+    "locale": "ar",
+    "cards": 7,
+    "mobile": false,
+    "empty": 0,
+    "pageWidth": 1425,
+    "width": 1440,
+    "expected": 7
+  },
+  {
+    "url": "http://127.0.0.1:8766/products/消防蝶阀.html",
+    "locale": "en",
+    "cards": 4,
+    "mobile": false,
+    "empty": 0,
+    "pageWidth": 1425,
+    "width": 1440,
+    "expected": 4
+  },
+  {
+    "url": "http://127.0.0.1:8766/ar/products/butterfly-valves/index.html",
+    "locale": "ar",
+    "cards": 4,
+    "mobile": false,
+    "empty": 0,
+    "pageWidth": 1425,
+    "width": 1440,
+    "expected": 4
+  },
+  {
+    "url": "http://127.0.0.1:8766/products/消防阀门.html",
+    "locale": "en",
+    "cards": 4,
+    "mobile": false,
+    "empty": 0,
+    "pageWidth": 1425,
+    "width": 1440,
+    "expected": 4
+  },
+  {
+    "url": "http://127.0.0.1:8766/ar/products/gate-valves/index.html",
+    "locale": "ar",
+    "cards": 4,
+    "mobile": false,
+    "empty": 0,
+    "pageWidth": 1425,
+    "width": 1440,
+    "expected": 4
+  },
+  {
+    "url": "http://127.0.0.1:8766/products/软管卷盘.html",
+    "locale": "en",
+    "cards": 13,
+    "mobile": false,
+    "empty": 0,
+    "pageWidth": 1425,
+    "width": 1440,
+    "expected": 13
+  },
+  {
+    "url": "http://127.0.0.1:8766/ar/products/hose-reels/index.html",
+    "locale": "ar",
+    "cards": 13,
+    "mobile": false,
+    "empty": 0,
+    "pageWidth": 1425,
+    "width": 1440,
+    "expected": 13
+  },
+  {
+    "url": "http://127.0.0.1:8766/products/消防水枪.html",
+    "locale": "en",
+    "cards": 61,
+    "mobile": false,
+    "empty": 0,
+    "pageWidth": 1425,
+    "width": 1440,
+    "expected": 61
+  },
+  {
+    "url": "http://127.0.0.1:8766/ar/products/hoses-nozzles-couplings/index.html",
+    "locale": "ar",
+    "cards": 61,
+    "mobile": false,
+    "empty": 0,
+    "pageWidth": 1425,
+    "width": 1440,
+    "expected": 61
+  },
+  {
+    "url": "http://127.0.0.1:8766/products/室内消防栓/室内消防栓.html",
+    "locale": "en",
+    "cards": 44,
+    "mobile": false,
+    "empty": 0,
+    "pageWidth": 1425,
+    "width": 1440,
+    "expected": 44
+  },
+  {
+    "url": "http://127.0.0.1:8766/ar/products/indoor-hydrants/index.html",
+    "locale": "ar",
+    "cards": 44,
+    "mobile": false,
+    "empty": 0,
+    "pageWidth": 1425,
+    "width": 1440,
+    "expected": 44
+  },
+  {
+    "url": "http://127.0.0.1:8766/products/室外消防栓/室外消防栓.html",
+    "locale": "en",
+    "cards": 8,
+    "mobile": false,
+    "empty": 0,
+    "pageWidth": 1425,
+    "width": 1440,
+    "expected": 8
+  },
+  {
+    "url": "http://127.0.0.1:8766/ar/products/outdoor-hydrants/index.html",
+    "locale": "ar",
+    "cards": 8,
+    "mobile": false,
+    "empty": 0,
+    "pageWidth": 1425,
+    "width": 1440,
+    "expected": 8
+  },
+  {
+    "url": "http://127.0.0.1:8766/products/消防水泵接合器.html",
+    "locale": "en",
+    "cards": 10,
+    "mobile": false,
+    "empty": 0,
+    "pageWidth": 1425,
+    "width": 1440,
+    "expected": 10
+  },
+  {
+    "url": "http://127.0.0.1:8766/ar/products/fire-department-connections/index.html",
+    "locale": "ar",
+    "cards": 10,
+    "mobile": false,
+    "empty": 0,
+    "pageWidth": 1425,
+    "width": 1440,
+    "expected": 10
+  },
+  {
+    "url": "http://127.0.0.1:8766/products/消防器材箱.html",
+    "locale": "en",
+    "cards": 8,
+    "mobile": false,
+    "empty": 0,
+    "pageWidth": 1425,
+    "width": 1440,
+    "expected": 8
+  },
+  {
+    "url": "http://127.0.0.1:8766/ar/products/fire-equipment-cabinets/index.html",
+    "locale": "ar",
+    "cards": 8,
+    "mobile": false,
+    "empty": 0,
+    "pageWidth": 1425,
+    "width": 1440,
+    "expected": 8
+  },
+  {
+    "url": "http://127.0.0.1:8766/products.html",
+    "locale": "en",
+    "cards": 12,
+    "mobile": true,
+    "empty": 0,
+    "pageWidth": 375,
+    "width": 390,
+    "expected": 12
+  },
+  {
+    "url": "http://127.0.0.1:8766/ar/products.html",
+    "locale": "ar",
+    "cards": 12,
+    "mobile": true,
+    "empty": 0,
+    "pageWidth": 305,
+    "width": 320,
+    "expected": 12
+  },
+  {
+    "url": "http://127.0.0.1:8766/products/消防喷头.html",
+    "locale": "en",
+    "cards": 25,
+    "mobile": true,
+    "empty": 0,
+    "pageWidth": 375,
+    "width": 390,
+    "expected": 25
+  },
+  {
+    "url": "http://127.0.0.1:8766/ar/products/sprinklers/index.html",
+    "locale": "ar",
+    "cards": 25,
+    "mobile": true,
+    "empty": 0,
+    "pageWidth": 305,
+    "width": 320,
+    "expected": 25
+  },
+  {
+    "url": "http://127.0.0.1:8766/products/消防阀.html",
+    "locale": "en",
+    "cards": 7,
+    "mobile": true,
+    "empty": 0,
+    "pageWidth": 375,
+    "width": 390,
+    "expected": 7
+  },
+  {
+    "url": "http://127.0.0.1:8766/ar/products/system-valves/index.html",
+    "locale": "ar",
+    "cards": 7,
+    "mobile": true,
+    "empty": 0,
+    "pageWidth": 305,
+    "width": 320,
+    "expected": 7
+  },
+  {
+    "url": "http://127.0.0.1:8766/products/消防蝶阀.html",
+    "locale": "en",
+    "cards": 4,
+    "mobile": true,
+    "empty": 0,
+    "pageWidth": 375,
+    "width": 390,
+    "expected": 4
+  },
+  {
+    "url": "http://127.0.0.1:8766/ar/products/butterfly-valves/index.html",
+    "locale": "ar",
+    "cards": 4,
+    "mobile": true,
+    "empty": 0,
+    "pageWidth": 305,
+    "width": 320,
+    "expected": 4
+  },
+  {
+    "url": "http://127.0.0.1:8766/products/消防阀门.html",
+    "locale": "en",
+    "cards": 4,
+    "mobile": true,
+    "empty": 0,
+    "pageWidth": 375,
+    "width": 390,
+    "expected": 4
+  },
+  {
+    "url": "http://127.0.0.1:8766/ar/products/gate-valves/index.html",
+    "locale": "ar",
+    "cards": 4,
+    "mobile": true,
+    "empty": 0,
+    "pageWidth": 305,
+    "width": 320,
+    "expected": 4
+  },
+  {
+    "url": "http://127.0.0.1:8766/products/软管卷盘.html",
+    "locale": "en",
+    "cards": 13,
+    "mobile": true,
+    "empty": 0,
+    "pageWidth": 375,
+    "width": 390,
+    "expected": 13
+  },
+  {
+    "url": "http://127.0.0.1:8766/ar/products/hose-reels/index.html",
+    "locale": "ar",
+    "cards": 13,
+    "mobile": true,
+    "empty": 0,
+    "pageWidth": 305,
+    "width": 320,
+    "expected": 13
+  },
+  {
+    "url": "http://127.0.0.1:8766/products/消防水枪.html",
+    "locale": "en",
+    "cards": 61,
+    "mobile": true,
+    "empty": 0,
+    "pageWidth": 375,
+    "width": 390,
+    "expected": 61
+  },
+  {
+    "url": "http://127.0.0.1:8766/ar/products/hoses-nozzles-couplings/index.html",
+    "locale": "ar",
+    "cards": 61,
+    "mobile": true,
+    "empty": 0,
+    "pageWidth": 305,
+    "width": 320,
+    "expected": 61
+  },
+  {
+    "url": "http://127.0.0.1:8766/products/室内消防栓/室内消防栓.html",
+    "locale": "en",
+    "cards": 44,
+    "mobile": true,
+    "empty": 0,
+    "pageWidth": 375,
+    "width": 390,
+    "expected": 44
+  },
+  {
+    "url": "http://127.0.0.1:8766/ar/products/indoor-hydrants/index.html",
+    "locale": "ar",
+    "cards": 44,
+    "mobile": true,
+    "empty": 0,
+    "pageWidth": 305,
+    "width": 320,
+    "expected": 44
+  },
+  {
+    "url": "http://127.0.0.1:8766/products/室外消防栓/室外消防栓.html",
+    "locale": "en",
+    "cards": 8,
+    "mobile": true,
+    "empty": 0,
+    "pageWidth": 375,
+    "width": 390,
+    "expected": 8
+  },
+  {
+    "url": "http://127.0.0.1:8766/ar/products/outdoor-hydrants/index.html",
+    "locale": "ar",
+    "cards": 8,
+    "mobile": true,
+    "empty": 0,
+    "pageWidth": 305,
+    "width": 320,
+    "expected": 8
+  },
+  {
+    "url": "http://127.0.0.1:8766/products/消防水泵接合器.html",
+    "locale": "en",
+    "cards": 10,
+    "mobile": true,
+    "empty": 0,
+    "pageWidth": 375,
+    "width": 390,
+    "expected": 10
+  },
+  {
+    "url": "http://127.0.0.1:8766/ar/products/fire-department-connections/index.html",
+    "locale": "ar",
+    "cards": 10,
+    "mobile": true,
+    "empty": 0,
+    "pageWidth": 305,
+    "width": 320,
+    "expected": 10
+  },
+  {
+    "url": "http://127.0.0.1:8766/products/消防器材箱.html",
+    "locale": "en",
+    "cards": 8,
+    "mobile": true,
+    "empty": 0,
+    "pageWidth": 375,
+    "width": 390,
+    "expected": 8
+  },
+  {
+    "url": "http://127.0.0.1:8766/ar/products/fire-equipment-cabinets/index.html",
+    "locale": "ar",
+    "cards": 8,
+    "mobile": true,
+    "empty": 0,
+    "pageWidth": 305,
+    "width": 320,
+    "expected": 8
+  }
+]

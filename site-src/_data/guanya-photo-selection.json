@@ -1,0 +1,540 @@
+{
+  "sourceDirectory": "D:/temp/冠亚2026产品图",
+  "authorization": "User supplied the folder and requested suitable existing export-product photos be added to the official website on 2026-10-09; preserve physical marks and original files.",
+  "photos": [
+    {
+      "routeId": "product:standard-response-fire-sprinkler",
+      "sourceFile": "DSC_5869.jpg",
+      "caption": {
+        "en": "Upright standard-response sprinkler — 68°C",
+        "ar": "رشاش ذو استجابة قياسية قائم — 68°C"
+      },
+      "matchEvidence": "Confirmed standard-response K80 series; visible Q5 bulb and deflector/temperature markings; user-confirmed temperatures and Z=upright / X=pendent."
+    },
+    {
+      "routeId": "product:standard-response-fire-sprinkler",
+      "sourceFile": "DSC_5868.jpg",
+      "caption": {
+        "en": "Pendent standard-response sprinkler — 68°C",
+        "ar": "رشاش ذو استجابة قياسية معلق — 68°C"
+      },
+      "matchEvidence": "Confirmed standard-response K80 series; visible Q5 bulb and deflector/temperature markings; user-confirmed temperatures and Z=upright / X=pendent."
+    },
+    {
+      "routeId": "product:standard-response-fire-sprinkler",
+      "sourceFile": "DSC_5870.jpg",
+      "caption": {
+        "en": "Horizontal sidewall standard-response sprinkler — 68°C",
+        "ar": "رشاش ذو استجابة قياسية جانبي أفقي — 68°C"
+      },
+      "matchEvidence": "Confirmed standard-response K80 series; visible Q5 bulb and deflector/temperature markings; user-confirmed temperatures and Z=upright / X=pendent."
+    },
+    {
+      "routeId": "product:standard-response-fire-sprinkler",
+      "sourceFile": "DSC_5863.jpg",
+      "caption": {
+        "en": "Upright standard-response sprinkler — 57°C",
+        "ar": "رشاش ذو استجابة قياسية قائم — 57°C"
+      },
+      "matchEvidence": "Confirmed standard-response K80 series; visible Q5 bulb and deflector/temperature markings; user-confirmed temperatures and Z=upright / X=pendent."
+    },
+    {
+      "routeId": "product:standard-response-fire-sprinkler",
+      "sourceFile": "DSC_5837.jpg",
+      "caption": {
+        "en": "Upright standard-response sprinkler — 79°C",
+        "ar": "رشاش ذو استجابة قياسية قائم — 79°C"
+      },
+      "matchEvidence": "Confirmed standard-response K80 series; visible Q5 bulb and deflector/temperature markings; user-confirmed temperatures and Z=upright / X=pendent."
+    },
+    {
+      "routeId": "product:standard-response-fire-sprinkler",
+      "sourceFile": "DSC_5866.jpg",
+      "caption": {
+        "en": "Upright standard-response sprinkler — 93°C",
+        "ar": "رشاش ذو استجابة قياسية قائم — 93°C"
+      },
+      "matchEvidence": "Confirmed standard-response K80 series; visible Q5 bulb and deflector/temperature markings; user-confirmed temperatures and Z=upright / X=pendent."
+    },
+    {
+      "routeId": "product:standard-response-fire-sprinkler",
+      "sourceFile": "DSC_5827.jpg",
+      "caption": {
+        "en": "Upright standard-response sprinkler — 141°C",
+        "ar": "رشاش ذو استجابة قياسية قائم — 141°C"
+      },
+      "matchEvidence": "Confirmed standard-response K80 series; visible Q5 bulb and deflector/temperature markings; user-confirmed temperatures and Z=upright / X=pendent."
+    },
+    {
+      "routeId": "product:standard-response-fire-sprinkler",
+      "sourceFile": "DSC_5832.jpg",
+      "caption": {
+        "en": "Horizontal sidewall standard-response sprinkler — 182°C",
+        "ar": "رشاش ذو استجابة قياسية جانبي أفقي — 182°C"
+      },
+      "matchEvidence": "Confirmed standard-response K80 series; visible Q5 bulb and deflector/temperature markings; user-confirmed temperatures and Z=upright / X=pendent."
+    },
+    {
+      "routeId": "product:standard-response-fire-sprinkler",
+      "sourceFile": "DSC_5834.jpg",
+      "caption": {
+        "en": "Upright standard-response sprinkler — 260°C",
+        "ar": "رشاش ذو استجابة قياسية قائم — 260°C"
+      },
+      "matchEvidence": "Confirmed standard-response K80 series; visible Q5 bulb and deflector/temperature markings; user-confirmed temperatures and Z=upright / X=pendent."
+    },
+    {
+      "routeId": "product:glass-bulb-fire-sprinkler",
+      "sourceFile": "DSC_5840.jpg",
+      "caption": {
+        "en": "Upright quick-response sprinkler — 68°C",
+        "ar": "رشاش سريع الاستجابة قائم — 68°C"
+      },
+      "matchEvidence": "Visible K-ZST / Q3 / 68°C markings match the existing quick-response range; orientation identified from deflector."
+    },
+    {
+      "routeId": "product:glass-bulb-fire-sprinkler",
+      "sourceFile": "DSC_5839.jpg",
+      "caption": {
+        "en": "Pendent quick-response sprinkler — 68°C",
+        "ar": "رشاش سريع الاستجابة معلق — 68°C"
+      },
+      "matchEvidence": "Visible K-ZST / Q3 / 68°C markings match the existing quick-response range; orientation identified from deflector."
+    },
+    {
+      "routeId": "product:glass-bulb-fire-sprinkler",
+      "sourceFile": "DSC_5841.jpg",
+      "caption": {
+        "en": "Horizontal sidewall quick-response sprinkler — 68°C",
+        "ar": "رشاش سريع الاستجابة جانبي أفقي — 68°C"
+      },
+      "matchEvidence": "Visible K-ZST / Q3 / 68°C markings match the existing quick-response range; orientation identified from deflector."
+    },
+    {
+      "routeId": "product:extended-coverage-quick-response-fire-sprinkler",
+      "sourceFile": "DSC_5888.jpg",
+      "caption": {
+        "en": "Upright K115 / 68°C sample — marked K-ZSTZ",
+        "ar": "عينة قائم K115 / 68°C — تحمل علامة K-ZSTZ"
+      },
+      "matchEvidence": "Visible K-ZST model marking, K115 / 68°C and installation geometry. Additional sample photograph only; equivalence to EC-ZST factory models is not confirmed. Original pixels and derivatives retained."
+    },
+    {
+      "routeId": "product:extended-coverage-quick-response-fire-sprinkler",
+      "sourceFile": "DSC_5887.jpg",
+      "caption": {
+        "en": "Pendent K115 / 68°C sample — marked K-ZSTX",
+        "ar": "عينة معلق K115 / 68°C — تحمل علامة K-ZSTX"
+      },
+      "matchEvidence": "Visible K-ZST model marking, K115 / 68°C and installation geometry. Additional sample photograph only; equivalence to EC-ZST factory models is not confirmed. Original pixels and derivatives retained."
+    },
+    {
+      "routeId": "product:extended-coverage-quick-response-fire-sprinkler",
+      "sourceFile": "DSC_5889.jpg",
+      "caption": {
+        "en": "Horizontal sidewall K115 / 68°C sample — marked K-ZSTBS",
+        "ar": "عينة جانبي أفقي K115 / 68°C — تحمل علامة K-ZSTBS"
+      },
+      "matchEvidence": "Visible K-ZST model marking, K115 / 68°C and installation geometry. Additional sample photograph only; equivalence to EC-ZST factory models is not confirmed. Original pixels and derivatives retained."
+    },
+    {
+      "routeId": "product:large-k-factor-esfr-sprinklers",
+      "sourceFile": "k161-flat-deflector.jpg",
+      "caption": {
+        "en": "K161 metric / K11.2 US — flat-deflector sprinkler sample",
+        "ar": "K161 متري / K11.2 أمريكي — عينة رشاش بصفيحة توزيع مسطحة"
+      },
+      "matchEvidence": "User supplied this actual photograph and confirmed K161 on 2026-10-10. Metric K161 / US K11.2 convention is already used in this product series. Flat deflector and glass-bulb construction visible. No exact factory model, response type, orientation, temperature, thread or certification assigned to this photograph.",
+      "sourcePath": "docs/release/k161-photos-20261010/source/k161-flat-deflector.jpg"
+    },
+    {
+      "routeId": "product:large-k-factor-esfr-sprinklers",
+      "sourceFile": "k161-upright-68c.jpg",
+      "caption": {
+        "en": "K161 metric / K11.2 US — upright sprinkler, 68°C",
+        "ar": "K161 متري / K11.2 أمريكي — رشاش قائم، 68°C"
+      },
+      "matchEvidence": "User supplied this actual photograph and confirmed K161 on 2026-10-10. Visible K-ZSTZ161-68°C marking matches the existing K161 upright / 68°C model family. User previously confirmed Z=upright. Exact full model suffix, connection, response-class test or certification not established from this photograph.",
+      "sourcePath": "docs/release/k161-photos-20261010/source/k161-upright-68c.jpg"
+    },
+    {
+      "routeId": "product:large-k-factor-esfr-sprinklers",
+      "sourceFile": "DSC_5816.jpg",
+      "caption": {
+        "en": "Upright glass-bulb sprinkler — K202 / 68°C",
+        "ar": "رشاش ببصيلة زجاجية قائم — K202 / 68°C"
+      },
+      "matchEvidence": "Matches the existing large-K202 glass-bulb views, kept separate from ESFR fusible-link performance claims."
+    },
+    {
+      "routeId": "product:large-k-factor-esfr-sprinklers",
+      "sourceFile": "DSC_5814.jpg",
+      "caption": {
+        "en": "Pendent glass-bulb sprinkler — K202 / 68°C",
+        "ar": "رشاش ببصيلة زجاجية معلق — K202 / 68°C"
+      },
+      "matchEvidence": "Matches the existing large-K202 glass-bulb views, kept separate from ESFR fusible-link performance claims."
+    },
+    {
+      "routeId": "product:large-k-factor-esfr-sprinklers",
+      "sourceFile": "DSC_5813.jpg",
+      "caption": {
+        "en": "Horizontal sidewall glass-bulb sprinkler — K202 / 68°C",
+        "ar": "رشاش ببصيلة زجاجية جانبي أفقي — K202 / 68°C"
+      },
+      "matchEvidence": "Matches the existing large-K202 glass-bulb views, kept separate from ESFR fusible-link performance claims."
+    },
+    {
+      "routeId": "product:fusible-alloy-fire-sprinklers",
+      "sourceFile": "DSC_5823.jpg",
+      "caption": {
+        "en": "Upright fusible-element sample",
+        "ar": "عينة قائمة بعنصر قابل للانصهار"
+      },
+      "matchEvidence": "Matches an existing website product configuration by visible construction; photograph is not pressure, material-grade or certification evidence."
+    },
+    {
+      "routeId": "product:fusible-alloy-fire-sprinklers",
+      "sourceFile": "DSC_5822.jpg",
+      "caption": {
+        "en": "Pendent fusible-element sample",
+        "ar": "عينة معلقة بعنصر قابل للانصهار"
+      },
+      "matchEvidence": "Matches an existing website product configuration by visible construction; photograph is not pressure, material-grade or certification evidence."
+    },
+    {
+      "routeId": "product:dry-pendent-fire-sprinklers",
+      "sourceFile": "DSC_5774.jpg",
+      "caption": {
+        "en": "Dry pendent sprinkler with escutcheon — sample view",
+        "ar": "رشاش جاف معلق مع غطاء تشطيب — عينة"
+      },
+      "matchEvidence": "Matches an existing website product configuration by visible construction; photograph is not pressure, material-grade or certification evidence."
+    },
+    {
+      "routeId": "product:dry-pendent-fire-sprinklers",
+      "sourceFile": "DSC_5779.jpg",
+      "caption": {
+        "en": "Dry pendent sprinkler — sample assembly",
+        "ar": "رشاش جاف معلق — عينة المجموعة"
+      },
+      "matchEvidence": "Matches an existing website product configuration by visible construction; photograph is not pressure, material-grade or certification evidence."
+    },
+    {
+      "routeId": "product:water-mist-nozzles",
+      "sourceFile": "DSC_5798.jpg",
+      "caption": {
+        "en": "ZSTWB nozzle — alternate series view",
+        "ar": "فوهة ZSTWB — منظر آخر للسلسلة"
+      },
+      "matchEvidence": "Same nozzle geometry and GY markings as the archived real ZSTWB photograph; no exact size assigned."
+    },
+    {
+      "routeId": "product:water-curtain-nozzles",
+      "sourceFile": "DSC_5788.jpg",
+      "caption": {
+        "en": "Single-slot water-curtain nozzle — alternate view",
+        "ar": "فوهة ستارة مائية أحادية الشق — منظر آخر"
+      },
+      "matchEvidence": "Same source basename DSC_5788 and geometry as Alibaba ZSTM-B-SS304/source/DSC_5788.jpg; series sample, no size assignment."
+    },
+    {
+      "routeId": "product:water-curtain-nozzles",
+      "sourceFile": "DSC_5784.jpg",
+      "caption": {
+        "en": "Double-slot water-curtain nozzle — sample view",
+        "ar": "فوهة ستارة مائية مزدوجة الشق — عينة"
+      },
+      "matchEvidence": "Matches an existing website product configuration by visible construction; photograph is not pressure, material-grade or certification evidence."
+    },
+    {
+      "routeId": "product:wet-alarm-check-valve",
+      "sourceFile": "DSC_5719.jpg",
+      "caption": {
+        "en": "Flanged wet-alarm assembly — sample layout",
+        "ar": "مجموعة إنذار رطب فلنجية — ترتيب العينة"
+      },
+      "matchEvidence": "Matches an existing website product configuration by visible construction; photograph is not pressure, material-grade or certification evidence."
+    },
+    {
+      "routeId": "product:wet-alarm-check-valve",
+      "sourceFile": "DSC_5726.jpg",
+      "caption": {
+        "en": "Grooved wet-alarm assembly — sample layout",
+        "ar": "مجموعة إنذار رطب محززة — ترتيب العينة"
+      },
+      "matchEvidence": "Matches an existing website product configuration by visible construction; photograph is not pressure, material-grade or certification evidence."
+    },
+    {
+      "routeId": "product:diaphragm-deluge-valves",
+      "sourceFile": "DSC_5728.jpg",
+      "caption": {
+        "en": "Flanged diaphragm-deluge assembly — sample layout",
+        "ar": "مجموعة غمر غشائية فلنجية — ترتيب العينة"
+      },
+      "matchEvidence": "Matches an existing website product configuration by visible construction; photograph is not pressure, material-grade or certification evidence."
+    },
+    {
+      "routeId": "product:preaction-valve-assemblies",
+      "sourceFile": "DSC_5732.jpg",
+      "caption": {
+        "en": "Flanged preaction assembly — sample layout",
+        "ar": "مجموعة ما قبل التشغيل الفلنجية — ترتيب العينة"
+      },
+      "matchEvidence": "Matches an existing website product configuration by visible construction; photograph is not pressure, material-grade or certification evidence."
+    },
+    {
+      "routeId": "product:dry-pipe-alarm-valves",
+      "sourceFile": "DSC_5734.jpg",
+      "caption": {
+        "en": "ZSFC dry-pipe valve — front view",
+        "ar": "صمام أنابيب جافة ZSFC — منظر أمامي"
+      },
+      "matchEvidence": "Matches an existing website product configuration by visible construction; photograph is not pressure, material-grade or certification evidence."
+    },
+    {
+      "routeId": "product:dry-pipe-alarm-valves",
+      "sourceFile": "DSC_5735.jpg",
+      "caption": {
+        "en": "ZSFC dry-pipe valve — alternate view",
+        "ar": "صمام أنابيب جافة ZSFC — منظر آخر"
+      },
+      "matchEvidence": "Matches an existing website product configuration by visible construction; photograph is not pressure, material-grade or certification evidence."
+    },
+    {
+      "routeId": "product:saddle-type-waterflow-switches",
+      "sourceFile": "DSC_5649.jpg",
+      "caption": {
+        "en": "Saddle waterflow switch — paddle and mounting view",
+        "ar": "مفتاح تدفق سرجي — منظر الريشة والتثبيت"
+      },
+      "matchEvidence": "Matches an existing website product configuration by visible construction; photograph is not pressure, material-grade or certification evidence."
+    },
+    {
+      "routeId": "product:saddle-type-waterflow-switches",
+      "sourceFile": "DSC_5653.jpg",
+      "caption": {
+        "en": "Saddle waterflow switch — alternate mounting view",
+        "ar": "مفتاح تدفق سرجي — منظر آخر للتثبيت"
+      },
+      "matchEvidence": "Matches an existing website product configuration by visible construction; photograph is not pressure, material-grade or certification evidence."
+    },
+    {
+      "routeId": "product:lever-operated-grooved-butterfly-valves",
+      "sourceFile": "DSC_5672.jpg",
+      "caption": {
+        "en": "Grooved lever butterfly valve — open-disc view",
+        "ar": "صمام فراشة محزز بذراع — منظر القرص المفتوح"
+      },
+      "matchEvidence": "Matches an existing website product configuration by visible construction; photograph is not pressure, material-grade or certification evidence."
+    },
+    {
+      "routeId": "product:lever-operated-wafer-butterfly-valves",
+      "sourceFile": "DSC_5673.jpg",
+      "caption": {
+        "en": "Wafer lever butterfly valve — open-disc view",
+        "ar": "صمام فراشة بين الفلنجتين بذراع — منظر القرص المفتوح"
+      },
+      "matchEvidence": "Matches an existing website product configuration by visible construction; photograph is not pressure, material-grade or certification evidence."
+    },
+    {
+      "routeId": "product:wafer-supervisory-butterfly-valves",
+      "sourceFile": "DSC_5674.jpg",
+      "caption": {
+        "en": "Wafer supervisory butterfly valve — open-disc view",
+        "ar": "صمام فراشة مراقب بين الفلنجتين — منظر القرص المفتوح"
+      },
+      "matchEvidence": "Matches an existing website product configuration by visible construction; photograph is not pressure, material-grade or certification evidence."
+    },
+    {
+      "routeId": "product:grooved-supervisory-butterfly-valves",
+      "sourceFile": "DSC_5671.jpg",
+      "caption": {
+        "en": "Grooved supervisory butterfly valve — sample view",
+        "ar": "صمام فراشة مراقب محزز — عينة"
+      },
+      "matchEvidence": "Matches an existing website product configuration by visible construction; photograph is not pressure, material-grade or certification evidence."
+    },
+    {
+      "routeId": "product:nrs-gate-valves",
+      "sourceFile": "DSC_5679.jpg",
+      "caption": {
+        "en": "NRS grooved gate valve — sample view",
+        "ar": "صمام بوابة محزز بساق غير صاعدة — عينة"
+      },
+      "matchEvidence": "Matches an existing website product configuration by visible construction; photograph is not pressure, material-grade or certification evidence."
+    },
+    {
+      "routeId": "product:osy-gate-valves",
+      "sourceFile": "DSC_5686.jpg",
+      "caption": {
+        "en": "OS&Y flanged gate valve — sample view",
+        "ar": "صمام بوابة فلنجي بساق صاعدة — عينة"
+      },
+      "matchEvidence": "Matches an existing website product configuration by visible construction; photograph is not pressure, material-grade or certification evidence."
+    },
+    {
+      "routeId": "product:grooved-supervisory-gate-valves",
+      "sourceFile": "DSC_5681.jpg",
+      "caption": {
+        "en": "Grooved supervisory gate valve — sample view",
+        "ar": "صمام بوابة مراقب محزز — عينة"
+      },
+      "matchEvidence": "Matches an existing website product configuration by visible construction; photograph is not pressure, material-grade or certification evidence."
+    },
+    {
+      "routeId": "product:flanged-supervisory-gate-valves",
+      "sourceFile": "DSC_5683.jpg",
+      "caption": {
+        "en": "Flanged supervisory gate valve — sample view",
+        "ar": "صمام بوابة مراقب فلنجي — عينة"
+      },
+      "matchEvidence": "Matches an existing website product configuration by visible construction; photograph is not pressure, material-grade or certification evidence."
+    },
+    {
+      "routeId": "product:straight-stream-fire-hose-reel",
+      "sourceFile": "DSC_5596.jpg",
+      "caption": {
+        "en": "Straight-stream hose reel — front assembly view",
+        "ar": "بكرة خرطوم بنفث مستقيم — منظر أمامي للمجموعة"
+      },
+      "matchEvidence": "Matches an existing website product configuration by visible construction; photograph is not pressure, material-grade or certification evidence."
+    },
+    {
+      "routeId": "product:jet-spray-fire-hose-reel",
+      "sourceFile": "DSC_5593.jpg",
+      "caption": {
+        "en": "Jet/spray hose reel — assembly view",
+        "ar": "بكرة خرطوم بنفث ورش — منظر المجموعة"
+      },
+      "matchEvidence": "Matches an existing website product configuration by visible construction; photograph is not pressure, material-grade or certification evidence."
+    },
+    {
+      "routeId": "product:concealed-pendent-fire-sprinkler",
+      "sourceFile": "DSC_5943.jpg",
+      "caption": {
+        "en": "Concealed pendent sprinkler — yellow-bulb mechanism sample",
+        "ar": "رشاش معلق مخفي — عينة الآلية ببصيلة صفراء"
+      },
+      "matchEvidence": "Visible concealed-frame construction, sliding deflector and yellow bulb match the existing concealed sprinkler family. No exact size or cover-temperature pairing inferred from this exposed-mechanism image."
+    },
+    {
+      "routeId": "product:concealed-pendent-fire-sprinkler",
+      "sourceFile": "DSC_5944.jpg",
+      "caption": {
+        "en": "Concealed sprinkler with cover fitted — K115 / 79°C sprinkler sample",
+        "ar": "رشاش مخفي مع الغطاء — عينة رشاش K115 / 79°C"
+      },
+      "matchEvidence": "Visible ZSTDY115-79°C Q3A marking matches the existing K115 quick-response model row and confirmed 79°C range. The sprinkler marking is not the cover-plate activation temperature; no cover-temperature pairing or certification inferred."
+    },
+    {
+      "routeId": "product:concealed-pendent-fire-sprinkler",
+      "sourceFile": "concealed-k80-93c-exposed.jpg",
+      "caption": {
+        "en": "Concealed K80 / 93°C sprinkler — exposed mechanism",
+        "ar": "رشاش مخفي K80 / 93°C — الآلية دون الغطاء"
+      },
+      "matchEvidence": "User supplied attachment 1 and explicitly requested addition to the concealed-sprinkler bottom photograph section on 2026-10-10. Visible ZSTDY80-93°C Q5A marking identifies the sprinkler sample within the existing K80/K115 and temperature selection range. Temperature describes the sprinkler rating, not cover release temperature; no matched cover activation rating, exact thread, pressure or foreign approval inferred.",
+      "sourcePath": "docs/release/concealed-photos-20261010/source/concealed-k80-93c-exposed.jpg"
+    },
+    {
+      "routeId": "product:concealed-pendent-fire-sprinkler",
+      "sourceFile": "concealed-k80-93c-covered.jpg",
+      "caption": {
+        "en": "Concealed K80 / 93°C sprinkler — cover fitted",
+        "ar": "رشاش مخفي K80 / 93°C — الغطاء مركب"
+      },
+      "matchEvidence": "User supplied attachment 2 and explicitly requested addition to the concealed-sprinkler bottom photograph section on 2026-10-10. Visible ZSTDY80-93°C Q5A marking identifies the sprinkler sample within the existing K80/K115 and temperature selection range. Temperature describes the sprinkler rating, not cover release temperature; no matched cover activation rating, exact thread, pressure or foreign approval inferred.",
+      "sourcePath": "docs/release/concealed-photos-20261010/source/concealed-k80-93c-covered.jpg"
+    },
+    {
+      "routeId": "product:concealed-pendent-fire-sprinkler",
+      "sourceFile": "concealed-k115-57c-exposed.jpg",
+      "caption": {
+        "en": "Concealed K115 / 57°C sprinkler — exposed mechanism",
+        "ar": "رشاش مخفي K115 / 57°C — الآلية دون الغطاء"
+      },
+      "matchEvidence": "User supplied attachment 3 and explicitly requested addition to the concealed-sprinkler bottom photograph section on 2026-10-10. Visible ZSTDY115-57°C Q5A marking identifies the sprinkler sample within the existing K80/K115 and temperature selection range. Temperature describes the sprinkler rating, not cover release temperature; no matched cover activation rating, exact thread, pressure or foreign approval inferred.",
+      "sourcePath": "docs/release/concealed-photos-20261010/source/concealed-k115-57c-exposed.jpg"
+    },
+    {
+      "routeId": "product:concealed-pendent-fire-sprinkler",
+      "sourceFile": "concealed-k115-57c-covered.jpg",
+      "caption": {
+        "en": "Concealed K115 / 57°C sprinkler — cover fitted",
+        "ar": "رشاش مخفي K115 / 57°C — الغطاء مركب"
+      },
+      "matchEvidence": "User supplied attachment 4 and explicitly requested addition to the concealed-sprinkler bottom photograph section on 2026-10-10. Visible ZSTDY115-57°C Q5A marking identifies the sprinkler sample within the existing K80/K115 and temperature selection range. Temperature describes the sprinkler rating, not cover release temperature; no matched cover activation rating, exact thread, pressure or foreign approval inferred.",
+      "sourcePath": "docs/release/concealed-photos-20261010/source/concealed-k115-57c-covered.jpg"
+    },
+    {
+      "routeId": "product:concealed-pendent-fire-sprinkler",
+      "sourceFile": "concealed-k80-141c-exposed.jpg",
+      "caption": {
+        "en": "Concealed K80 / 141°C sprinkler — exposed mechanism",
+        "ar": "رشاش مخفي K80 / 141°C — الآلية دون الغطاء"
+      },
+      "matchEvidence": "User supplied attachment 6 and explicitly requested addition to the concealed-sprinkler bottom photograph section on 2026-10-10. Visible ZSTDY80-141°C Q5A marking identifies the sprinkler sample within the existing K80/K115 and temperature selection range. Temperature describes the sprinkler rating, not cover release temperature; no matched cover activation rating, exact thread, pressure or foreign approval inferred.",
+      "sourcePath": "docs/release/concealed-photos-20261010/source/concealed-k80-141c-exposed.jpg"
+    },
+    {
+      "routeId": "product:concealed-pendent-fire-sprinkler",
+      "sourceFile": "concealed-k80-141c-covered.jpg",
+      "caption": {
+        "en": "Concealed K80 / 141°C sprinkler — cover fitted",
+        "ar": "رشاش مخفي K80 / 141°C — الغطاء مركب"
+      },
+      "matchEvidence": "User supplied attachment 5 and explicitly requested addition to the concealed-sprinkler bottom photograph section on 2026-10-10. Visible ZSTDY80-141°C Q5A marking identifies the sprinkler sample within the existing K80/K115 and temperature selection range. Temperature describes the sprinkler rating, not cover release temperature; no matched cover activation rating, exact thread, pressure or foreign approval inferred.",
+      "sourcePath": "docs/release/concealed-photos-20261010/source/concealed-k80-141c-covered.jpg"
+    },
+    {
+      "routeId": "product:preaction-valve-assemblies",
+      "sourceFile": "preaction-grooved-assembly.jpg",
+      "sourcePath": "docs/release/preaction-grooved-20261009/preaction-grooved-assembly.jpg",
+      "caption": {
+        "en": "Grooved preaction valve assembly — product sample",
+        "ar": "مجموعة صمام الإجراء المسبق بوصلة محززة — عينة المنتج"
+      },
+      "matchEvidence": "User identified this attachment as the grooved preaction valve assembly and explicitly requested public website use on 2026-10-09. Grooved ends, coupling and preaction nameplate are visible. Sample trim only; no additional model, size, pressure, material or certification claims inferred."
+    },
+    {
+      "routeId": "product:large-k-factor-esfr-sprinklers",
+      "sourceFile": "esfr-glass-bulb-slotted.jpg",
+      "sourcePath": "docs/release/esfr-gallery-20261010/source/esfr-glass-bulb-slotted.jpg",
+      "galleryOnly": true,
+      "caption": {
+        "en": "ESFR glass-bulb sprinkler — slotted deflector",
+        "ar": "رشاش ESFR بعنصر زجاجي — صفيحة توزيع مشقوقة"
+      },
+      "matchEvidence": "User supplied this photograph and explicitly requested replacement of the corresponding ESFR detail gallery slot on 2026-10-10. ESFR body marking, glass-bulb assembly and deflector shape are visible; no exact model, K-factor, temperature, pressure, response class or certification inferred."
+    },
+    {
+      "routeId": "product:large-k-factor-esfr-sprinklers",
+      "sourceFile": "esfr-glass-bulb-domed.jpg",
+      "sourcePath": "docs/release/esfr-gallery-20261010/source/esfr-glass-bulb-domed.jpg",
+      "galleryOnly": true,
+      "caption": {
+        "en": "ESFR glass-bulb sprinkler — domed deflector",
+        "ar": "رشاش ESFR بعنصر زجاجي — صفيحة توزيع مقببة"
+      },
+      "matchEvidence": "User supplied this photograph and explicitly requested replacement of the corresponding ESFR detail gallery slot on 2026-10-10. ESFR body marking, glass-bulb assembly and deflector shape are visible; no exact model, K-factor, temperature, pressure, response class or certification inferred."
+    }
+  ],
+  "additionalAuthorization": {
+    "date": "2026-10-10",
+    "verbatim": "这两个detail图片不要重复了，替换成后两张图片可以吗",
+    "record": "docs/reviews/esfr-gallery-20261010/photo-records.json"
+  },
+  "subsequentAuthorizations": [
+    {
+      "date": "2026-10-10",
+      "verbatim": "这个两个是161系数的",
+      "record": "docs/reviews/k161-photos-20261010/photo-records.json"
+    },
+    {
+      "date": "2026-10-10",
+      "verbatim": "这几个加到隐蔽所的图片里面，底部的图片",
+      "record": "docs/reviews/concealed-photos-20261010/photo-records.json"
+    }
+  ]
+}

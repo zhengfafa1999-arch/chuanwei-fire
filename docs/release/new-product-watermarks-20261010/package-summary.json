@@ -1,0 +1,10 @@
+{
+  "date": "2026-10-10",
+  "status": "local-review-candidate-not-deployed",
+  "archive": ".tmp/releases/new-product-watermarks-20261010-web.zip",
+  "bytes": 43569920,
+  "sha256": "50f4ff7191062ac00667ddf8473160d10f0e02e2de95044e840d7301393c41a5",
+  "files": 722,
+  "pages": 185,
+  "validation": "All ZIP entries verified against static-manifest sizes and SHA256; CRC check passed. Server rollback backup must be created before publication."
+}

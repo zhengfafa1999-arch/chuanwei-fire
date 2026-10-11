@@ -1,0 +1,14 @@
+{
+  "date": "2026-10-09",
+  "status": "passed-local-not-deployed",
+  "buildCommand": "npm --ignore-scripts run build",
+  "pages": 175,
+  "responsiveCases": 4,
+  "responsiveWidths": [
+    1280,
+    390
+  ],
+  "result": "Both languages show DC 24 V, 0.5 A as a quotation reference; no document or specification-cell overflow; no broken loaded images.",
+  "pdfSha256": "4726e11252e8776a359b726a3d610937bd21913f3f68b13ae679b02a764146c8",
+  "exactModelRatingVerified": false
+}

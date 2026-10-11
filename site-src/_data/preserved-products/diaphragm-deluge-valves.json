@@ -5,7 +5,27 @@
   "source": {
     "path": "products/消防阀/diaphragm-deluge-valves.html",
     "revision": "69f59bd",
-    "status": "preserved-existing-content-not-reaudited"
+    "status": "preserved-existing-content-not-reaudited",
+    "materialCopyCorrection": {
+      "date": "2026-10-09",
+      "oldCopy": {
+        "text": "Ductile iron QT{n0}-{n1} / ASTM A{n2} {n3}-{n4}-{n5}",
+        "numbers": [
+          "450",
+          "10",
+          "536",
+          "65",
+          "45",
+          "12"
+        ]
+      },
+      "reason": "Preserve manufacturer-confirmed QT450-10; no exact-SKU ASTM equivalence evidence in reused manufacturer materials. Do not publish an automatic ASTM grade equivalence."
+    },
+    "buyerCopyReview": {
+      "date": "2026-10-09",
+      "record": "docs/reviews/remaining-series-20261009/reviewed-changes.json",
+      "scope": "Buyer terminology and inquiry guidance; exact models, primary photographs and technical values retained except removal of unconfirmed carton quantities."
+    }
   },
   "media": {
     "flanged": "products/消防阀/diaphragm-deluge-valves/deluge-valve-flanged.jpg",
@@ -73,7 +93,7 @@
       "numbers": []
     },
     "bothPhotographsShowCompleteDelugeValveAssembliesThe": {
-      "text": "Both photographs show complete deluge valve assemblies. The visible physical GUANYA / 冠亚 product markings are retained; CHUANWEI FIRE identifies the website and export-sales presentation.",
+      "text": "Both photographs show complete deluge valve assemblies.",
       "numbers": []
     },
     "flangedDiaphragmDelugeValve": {
@@ -166,14 +186,10 @@
       "numbers": []
     },
     "ductileIronQT45010ASTMA5366545": {
-      "text": "Ductile iron QT{n0}-{n1} / ASTM A{n2} {n3}-{n4}-{n5}",
+      "text": "Ductile iron QT{n0}-{n1}",
       "numbers": [
         "450",
-        "10",
-        "536",
-        "65",
-        "45",
-        "12"
+        "10"
       ]
     },
     "diaphragm": {
@@ -342,7 +358,7 @@
       "numbers": []
     },
     "internationalSizeAndConnectionAreThePrimarySelection": {
-      "text": "International size and connection are the primary selection fields. ZSFM codes are retained only as factory references. Reference height may vary with the approved trim arrangement.",
+      "text": "Select the DN size and flanged or grooved connection. Use the ZSFM model reference to identify the configuration; assembly height depends on the selected trim.",
       "numbers": []
     },
     "internationalConfiguration": {
@@ -362,7 +378,7 @@
       "numbers": []
     },
     "factoryReference": {
-      "text": "Factory reference",
+      "text": "Model",
       "numbers": []
     },
     "availableOnRequest": {
@@ -446,7 +462,7 @@
       "numbers": []
     },
     "includeSizeConnectionFlangeOrGrooveRequirementTrim": {
-      "text": "Include size, connection, flange or groove requirement, trim configuration, quantity and destination country.",
+      "text": "Start with size, flanged or grooved connection, and quantity. Add connection dimensions, trim requirements and destination when available.",
       "numbers": []
     },
     "whatsAppInquiry": {

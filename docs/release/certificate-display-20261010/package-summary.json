@@ -1,0 +1,10 @@
+{
+  "date": "2026-10-10",
+  "status": "local-review-candidate-not-deployed",
+  "archive": ".tmp/releases/certificate-display-20261010-web.zip",
+  "bytes": 43604942,
+  "sha256": "2a630d1406269c26d21e0c7f4ef4409255623b60cb3c0c331c71698439746b49",
+  "files": 723,
+  "pages": 185,
+  "validation": "All ZIP entries verified against static-manifest sizes and SHA256; CRC check passed. Server rollback backup must be created before publication."
+}

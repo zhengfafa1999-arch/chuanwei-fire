@@ -15,7 +15,13 @@
     "catalogPage": 29,
     "handoffRecord": "catalog-p29",
     "supplementalRecord": "catalog-module-hydrants/第06页室内消防栓分类分析.md",
-    "evidence": "B-derived-approved-catalog for the native selection table; D-visual for embedded catalog display images"
+    "evidence": "B-derived-approved-catalog for the native selection table; D-visual for embedded catalog display images",
+    "workingPressureConfirmation": {
+      "date": "2026-10-09",
+      "quote": "1.6和2.5压力都有",
+      "record": "docs/reviews/parameter-gap-research-20261009/landing-valve-pressure-confirmation.json",
+      "scope": "Available working-pressure options at series level. No assertion that every model/connection is available in both options."
+    }
   },
   "publication": {
     "status": "release-candidate",
@@ -29,11 +35,25 @@
     "obliqueFlanged": "products/室内消防栓/straight-through-oblique-landing-valves/oblique-flanged-catalog-display.jpeg"
   },
   "imageDimensions": {
-    "hero": { "width": 1200, "height": 1200 },
-    "obliqueThreaded": { "width": 1200, "height": 1200 },
-    "obliqueFlanged": { "width": 1200, "height": 1200 }
+    "hero": {
+      "width": 1200,
+      "height": 1200
+    },
+    "obliqueThreaded": {
+      "width": 1200,
+      "height": 1200
+    },
+    "obliqueFlanged": {
+      "width": 1200,
+      "height": 1200
+    }
   },
-  "heroFacts": ["configurationValue", "inletOptionsValue", "commonOutletValue", "quotationStatusValue"],
+  "heroFacts": [
+    "configurationValue",
+    "inletOptionsValue",
+    "commonOutletValue",
+    "quotationStatusValue"
+  ],
   "shared": {
     "configurationValue": "Straight-through · oblique threaded · oblique flanged",
     "inletOptionsValue": "2.5 in NPT / BSP / BSPT / BS4504",
@@ -42,50 +62,152 @@
     "productTypeValue": "Indoor fire-hose landing-valve configurations",
     "selectionReferencesValue": "HS-031 · HS-011 · HS-012 · HS-013 · HS-020",
     "customConnectionValue": "BSP and BSPT options available; custom connections on request",
-    "imageScopeValue": "Catalog display renditions for configuration identification only"
+    "imageScopeValue": "Catalog display renditions for configuration identification only",
+    "workingPressureOptionsValue": "1.6 MPa / 16 bar; 2.5 MPa / 25 bar"
   },
   "gallery": [
-    { "media": "hero", "alt": "straightThroughAlt", "caption": "straightThrough", "thumbnailAlt": "straightThroughThumbnail" },
-    { "media": "obliqueThreaded", "alt": "obliqueThreadedAlt", "caption": "obliqueThreaded", "thumbnailAlt": "obliqueThreadedThumbnail" },
-    { "media": "obliqueFlanged", "alt": "obliqueFlangedAlt", "caption": "obliqueFlanged", "thumbnailAlt": "obliqueFlangedThumbnail" }
+    {
+      "media": "hero",
+      "alt": "straightThroughAlt",
+      "caption": "straightThrough",
+      "thumbnailAlt": "straightThroughThumbnail"
+    },
+    {
+      "media": "obliqueThreaded",
+      "alt": "obliqueThreadedAlt",
+      "caption": "obliqueThreaded",
+      "thumbnailAlt": "obliqueThreadedThumbnail"
+    },
+    {
+      "media": "obliqueFlanged",
+      "alt": "obliqueFlangedAlt",
+      "caption": "obliqueFlanged",
+      "thumbnailAlt": "obliqueFlangedThumbnail"
+    }
   ],
   "specifications": [
-    { "label": "productType", "value": "productTypeValue" },
-    { "label": "availableConfigurations", "value": "configurationValue" },
-    { "label": "inletOptions", "value": "inletOptionsValue", "technical": true },
-    { "label": "commonOutlet", "value": "commonOutletValue", "technical": true },
-    { "label": "selectionReferences", "value": "selectionReferencesValue", "technical": true },
-    { "label": "customConnections", "value": "customConnectionValue" },
-    { "label": "factoryModel", "value": "confirmWithQuotation" },
-    { "label": "materialAndFinish", "value": "confirmWithQuotation" },
-    { "label": "workingAndTestPressure", "value": "confirmWithQuotation" },
-    { "label": "interfaceCompatibility", "value": "confirmWithQuotation" },
-    { "label": "dimensionsAndAccessories", "value": "confirmWithQuotation" },
-    { "label": "packing", "value": "confirmWithQuotation" },
-    { "label": "imageScope", "value": "imageScopeValue" }
+    {
+      "label": "productType",
+      "value": "productTypeValue"
+    },
+    {
+      "label": "availableConfigurations",
+      "value": "configurationValue"
+    },
+    {
+      "label": "inletOptions",
+      "value": "inletOptionsValue",
+      "technical": true
+    },
+    {
+      "label": "commonOutlet",
+      "value": "commonOutletValue",
+      "technical": true
+    },
+    {
+      "label": "selectionReferences",
+      "value": "selectionReferencesValue",
+      "technical": true
+    },
+    {
+      "label": "customConnections",
+      "value": "customConnectionValue"
+    },
+    {
+      "label": "workingPressureOptions",
+      "value": "workingPressureOptionsValue",
+      "technical": true
+    }
   ],
   "modelColumns": [
-    { "label": "configuration", "field": "configuration", "localized": true },
-    { "label": "selectionReference", "field": "selectionReference", "technical": true },
-    { "label": "inlet", "field": "inlet", "technical": true },
-    { "label": "outlet", "field": "outlet", "technical": true }
+    {
+      "label": "configuration",
+      "field": "configuration",
+      "localized": true
+    },
+    {
+      "label": "selectionReference",
+      "field": "selectionReference",
+      "technical": true
+    },
+    {
+      "label": "inlet",
+      "field": "inlet",
+      "technical": true
+    },
+    {
+      "label": "outlet",
+      "field": "outlet",
+      "technical": true
+    }
   ],
   "models": [
-    { "configuration": "straightThrough", "selectionReference": "HS-031", "inlet": "2.5 in NPT", "outlet": "2.5 in BS336" },
-    { "configuration": "obliqueThreaded", "selectionReference": "HS-011", "inlet": "2.5 in BSP", "outlet": "2.5 in BS336" },
-    { "configuration": "obliqueThreaded", "selectionReference": "HS-012", "inlet": "2.5 in BSP / BSPT", "outlet": "2.5 in BS336" },
-    { "configuration": "obliqueThreaded", "selectionReference": "HS-013", "inlet": "2.5 in NPT", "outlet": "2.5 in BS336" },
-    { "configuration": "obliqueFlanged", "selectionReference": "HS-020", "inlet": "2.5 in BS4504", "outlet": "2.5 in BS336" }
+    {
+      "configuration": "straightThrough",
+      "selectionReference": "HS-031",
+      "inlet": "2.5 in NPT",
+      "outlet": "2.5 in BS336"
+    },
+    {
+      "configuration": "obliqueThreaded",
+      "selectionReference": "HS-011",
+      "inlet": "2.5 in BSP",
+      "outlet": "2.5 in BS336"
+    },
+    {
+      "configuration": "obliqueThreaded",
+      "selectionReference": "HS-012",
+      "inlet": "2.5 in BSP / BSPT",
+      "outlet": "2.5 in BS336"
+    },
+    {
+      "configuration": "obliqueThreaded",
+      "selectionReference": "HS-013",
+      "inlet": "2.5 in NPT",
+      "outlet": "2.5 in BS336"
+    },
+    {
+      "configuration": "obliqueFlanged",
+      "selectionReference": "HS-020",
+      "inlet": "2.5 in BS4504",
+      "outlet": "2.5 in BS336"
+    }
   ],
   "confirmationItems": [
-    { "label": "configurationAndConnection", "body": "configurationAndConnectionBody" },
-    { "label": "pressureAndMaterial", "body": "pressureAndMaterialBody" },
-    { "label": "matingComponents", "body": "matingComponentsBody" },
-    { "label": "orderInformation", "body": "orderInformationBody" }
+    {
+      "label": "configurationAndConnection",
+      "body": "configurationAndConnectionBody"
+    },
+    {
+      "label": "pressureAndMaterial",
+      "body": "pressureAndMaterialBody"
+    },
+    {
+      "label": "matingComponents",
+      "body": "matingComponentsBody"
+    },
+    {
+      "label": "orderInformation",
+      "body": "orderInformationBody"
+    }
   ],
   "validation": {
-    "anchors": ["gallery", "specifications", "models", "quotation"],
-    "requiredTechnicalValues": ["HS-031", "HS-020", "2.5 in NPT", "2.5 in BS336"]
+    "anchors": [
+      "gallery",
+      "specifications",
+      "models",
+      "quotation"
+    ],
+    "requiredTechnicalValues": [
+      "HS-031",
+      "HS-020",
+      "2.5 in NPT",
+      "2.5 in BS336",
+      "1.6 MPa",
+      "16 bar",
+      "2.5 MPa",
+      "25 bar"
+    ]
   },
   "inquiry": {
     "whatsapp": "https://wa.me/8617326528368?text=Hello%2C%20I%20need%20a%20quotation%20for%20Straight-Through%20and%20Oblique%20Landing%20Valves.%20Configuration%3A%20%5Btype%5D%2C%20inlet%3A%20%5Bsize%2Fstandard%5D%2C%20outlet%3A%20%5Bsize%2Fstandard%5D%2C%20pressure%3A%20%5Brequirement%5D%2C%20quantity%3A%20%5Bpcs%5D%2C%20destination%3A%20%5Bcountry%5D.",
@@ -97,10 +219,10 @@
       "title": "Straight-Through and Oblique Landing Valves",
       "eyebrow": "Three body and inlet configurations",
       "lead": "Straight-through, oblique threaded and oblique flanged landing-valve configurations for indoor fire-hose outlet selection.",
-      "note": "The HS references and interface descriptions are catalog selection aids, not confirmed CHUANWEI factory models or certification claims. Confirm material, pressure, exact interfaces and the approved sample before production.",
+      "note": "HS codes are selection references. Match the inlet, outlet and required working pressure with your quotation.",
       "gallery": "Configuration images",
-      "galleryTitle": "Three catalog display configurations",
-      "galleryBody": "Use these display renditions to distinguish the straight-through, oblique threaded and oblique flanged arrangements. They are not precision evidence for dimensions, threads or internal construction.",
+      "galleryTitle": "Three configuration illustrations",
+      "galleryBody": "Illustrations of straight-through, oblique threaded and oblique flanged configurations. Request the product photo and connection drawing for your selected version.",
       "straightThrough": "Straight-through",
       "straightThroughAlt": "Catalog display of a red straight-through landing valve with vertical handwheel and capped outlet",
       "straightThroughThumbnail": "Straight-through landing-valve thumbnail",
@@ -111,8 +233,8 @@
       "obliqueFlangedAlt": "Catalog display of a red oblique landing valve with flanged inlet, vertical handwheel and chained outlet cap",
       "obliqueFlangedThumbnail": "Oblique flanged landing-valve thumbnail",
       "specifications": "Specifications",
-      "specificationsTitle": "Confirmed selection scope",
-      "specificationsBody": "Only the approved v11 configuration and interface table is stated as selection data. Factory construction and performance remain quotation-specific.",
+      "specificationsTitle": "Product selection details",
+      "specificationsBody": "Compare the body configurations and connection references below. Construction and performance details are confirmed for your selected configuration with the quotation.",
       "productType": "Product family",
       "availableConfigurations": "Available configurations",
       "inletOptions": "Catalog inlet options",
@@ -125,31 +247,31 @@
       "interfaceCompatibility": "Interface compatibility",
       "dimensionsAndAccessories": "Dimensions and accessories",
       "packing": "Packing",
-      "imageScope": "Image evidence scope",
+      "imageScope": "Image type",
       "confirmWithQuotation": "To be confirmed with the quotation",
       "availableModels": "Available selections",
-      "modelsTitle": "Catalog selection-reference table",
-      "modelsBody": "Choose the body arrangement and inlet first. Every listed selection uses the catalog's common 2.5 in BS336 outlet description; mating compatibility still requires order confirmation.",
+      "modelsTitle": "Configurations and connection options",
+      "modelsBody": "Choose the body arrangement and inlet. The listed outlet connection is 2.5 in BS336; confirm the mating coupling for your order.",
       "configuration": "Configuration",
       "selectionReference": "Selection reference",
       "inlet": "Inlet",
       "outlet": "Outlet",
       "temperature": "Temperature",
       "thermalElement": "Operating element",
-      "modelsNote": "HS references are retained only for selection matching. They are not presented as CHUANWEI factory model numbers or evidence of approval to a named standard.",
+      "modelsNote": "HS codes identify selections for quotation and are not factory model numbers. Confirm the mating connection using your drawing or sample.",
       "quotation": "Quotation confirmation",
       "quotationTitle": "Lock the exact ordered configuration",
       "quotationBody": "Send the selected arrangement and interface requirement so the quotation can confirm the factory model, materials, pressure class, mating components and accessories.",
       "configurationAndConnection": "Configuration and connection",
       "configurationAndConnectionBody": "Specify straight-through, oblique threaded or oblique flanged, plus the required inlet and outlet interfaces.",
       "pressureAndMaterial": "Pressure and material",
-      "pressureAndMaterialBody": "Provide the required working/test pressure, body material and finish.",
+      "pressureAndMaterialBody": "Specify the required working-pressure option: 1.6 MPa / 16 bar or 2.5 MPa / 25 bar. Confirm availability for the selected model, connection, material and finish. Test-pressure details are supplied separately for the exact configuration.",
       "matingComponents": "Mating components",
       "matingComponentsBody": "Confirm the destination-market coupling, flange drilling, cap, chain and accessory requirements.",
       "orderInformation": "Order information",
       "orderInformationBody": "Provide quantity, destination, packing and required documents.",
       "inquiryTitle": "Send your landing-valve requirement",
-      "inquiryBody": "Include configuration, inlet and outlet interface, pressure requirement, quantity and destination.",
+      "inquiryBody": "Start with the straight-through or oblique configuration and quantity. Add inlet and outlet interfaces, system pressure and destination when available.",
       "askOnWhatsApp": "Ask on WhatsApp",
       "emailSales": "Email sales",
       "productImagePreview": "Product image preview",
@@ -159,7 +281,8 @@
       "nextProductImage": "Next product image",
       "selectProductImage": "Select product image",
       "seoTitle": "Straight-Through and Oblique Landing Valves | CHUANWEI FIRE",
-      "seoDescription": "Straight-through, oblique threaded and oblique flanged landing-valve selections with NPT, BSP, BSPT and BS4504 inlet references and a 2.5 in BS336 outlet reference."
+      "seoDescription": "Straight-through, oblique threaded and oblique flanged landing-valve selections with NPT, BSP, BSPT and BS4504 inlet references and a 2.5 in BS336 outlet reference.",
+      "workingPressureOptions": "Working pressure options"
     },
     "ar": {
       "onThisPage": "في هذه الصفحة",
@@ -171,10 +294,10 @@
       "imageScopeValue": "صور عرض من الكتالوج لتعريف التكوين فقط",
       "eyebrow": "ثلاثة تكوينات للجسم والمدخل",
       "lead": "تكوينات مستقيمة ومائلة بمدخل ملولب أو ذي شفة لاختيار صمام مخرج خرطوم الحريق الداخلي.",
-      "note": "رموز HS وأوصاف الواجهات هي مراجع اختيار في الكتالوج، وليست موديلات مصنع مؤكدة من CHUANWEI ولا ادعاءات اعتماد. يجب تأكيد المادة والضغط والواجهات الدقيقة والعينة المعتمدة قبل الإنتاج.",
+      "note": "رموز HS مراجع للاختيار. حدد المدخل والمخرج وضغط التشغيل المطلوب مع طلب عرض السعر.",
       "gallery": "صور التكوينات",
-      "galleryTitle": "ثلاثة تكوينات للعرض في الكتالوج",
-      "galleryBody": "استخدم صور العرض هذه للتمييز بين التكوين المستقيم والمائل الملولب والمائل ذي الشفة. وهي ليست دليلاً دقيقاً على الأبعاد أو القلاوظ أو البنية الداخلية.",
+      "galleryTitle": "ثلاث صور توضيحية للتكوينات",
+      "galleryBody": "صور توضيحية للتكوين المستقيم والمائل الملولب والمائل ذي الفلنجة. اطلب صورة المنتج ورسم التوصيل للنسخة المطلوبة.",
       "straightThrough": "مستقيم",
       "straightThroughAlt": "صورة عرض لصمام هبوط أحمر مستقيم بعجلة تشغيل رأسية ومخرج مغطى",
       "straightThroughThumbnail": "صورة مصغرة لصمام هبوط مستقيم",
@@ -185,8 +308,8 @@
       "obliqueFlangedAlt": "صورة عرض لصمام هبوط أحمر مائل بمدخل ذي شفة وعجلة رأسية وغطاء مخرج بسلسلة",
       "obliqueFlangedThumbnail": "صورة مصغرة لصمام هبوط مائل ذي شفة",
       "specifications": "المواصفات",
-      "specificationsTitle": "نطاق الاختيار المؤكد",
-      "specificationsBody": "تُعرض فقط تكوينات وجدول واجهات v11 المعتمد كبيانات اختيار. تبقى بنية المصنع والأداء خاصين بعرض السعر.",
+      "specificationsTitle": "معلومات اختيار المنتج",
+      "specificationsBody": "قارن تكوينات الجسم ومراجع التوصيل أدناه. تُؤكد تفاصيل البنية والأداء للتكوين المختار مع عرض السعر.",
       "productType": "عائلة المنتج",
       "availableConfigurations": "التكوينات المتاحة",
       "inletOptions": "خيارات المدخل في الكتالوج",
@@ -199,31 +322,31 @@
       "interfaceCompatibility": "توافق الواجهات",
       "dimensionsAndAccessories": "الأبعاد والملحقات",
       "packing": "التغليف",
-      "imageScope": "نطاق دليل الصورة",
+      "imageScope": "نوع الصورة",
       "confirmWithQuotation": "يُؤكد مع عرض السعر",
       "availableModels": "الاختيارات المتاحة",
-      "modelsTitle": "جدول مراجع الاختيار في الكتالوج",
-      "modelsBody": "اختر ترتيب الجسم والمدخل أولاً. تستخدم جميع الاختيارات وصف المخرج المشترك 2.5 in BS336 في الكتالوج، ويظل توافق الأجزاء المقابلة بحاجة إلى تأكيد الطلب.",
+      "modelsTitle": "التكوينات وخيارات التوصيل",
+      "modelsBody": "اختر شكل الجسم والمدخل. التوصيل المدرج للمخرج هو 2.5 in BS336؛ أكد الوصلة المقابلة لطلبك.",
       "configuration": "التكوين",
       "selectionReference": "مرجع الاختيار",
       "inlet": "المدخل",
       "outlet": "المخرج",
       "temperature": "درجة الحرارة",
       "thermalElement": "عنصر التشغيل",
-      "modelsNote": "يتم الاحتفاظ برموز HS لمطابقة الاختيار فقط. ولا تُعرض كموديلات مصنع CHUANWEI أو كدليل اعتماد وفق معيار مسمى.",
+      "modelsNote": "تحدد رموز HS خيارات طلب عرض السعر وليست أرقام موديلات المصنع. أكد التوصيل المقابل باستخدام الرسم أو العينة.",
       "quotation": "تأكيد عرض السعر",
       "quotationTitle": "تثبيت التكوين المطلوب بدقة",
       "quotationBody": "أرسل الترتيب المختار ومتطلبات الواجهة حتى يؤكد عرض السعر موديل المصنع والمواد وفئة الضغط والأجزاء المقابلة والملحقات.",
       "configurationAndConnection": "التكوين والوصلة",
       "configurationAndConnectionBody": "حدد مستقيماً أو مائلاً بمدخل ملولب أو مائلاً بمدخل ذي شفة، مع واجهتي المدخل والمخرج المطلوبتين.",
       "pressureAndMaterial": "الضغط والمادة",
-      "pressureAndMaterialBody": "حدد ضغط التشغيل والاختبار المطلوبين ومادة الجسم والتشطيب.",
+      "pressureAndMaterialBody": "حدد خيار ضغط التشغيل المطلوب: 1.6 MPa / 16 bar أو 2.5 MPa / 25 bar. أكد توفره للموديل والتوصيل والمادة والتشطيب المختار. تقدم تفاصيل ضغط الاختبار بشكل منفصل للتكوين الدقيق.",
       "matingComponents": "الأجزاء المقابلة",
       "matingComponentsBody": "أكد نظام الاقتران وحفر الشفة والغطاء والسلسلة والملحقات المطلوبة لسوق الوجهة.",
       "orderInformation": "معلومات الطلب",
       "orderInformationBody": "حدد الكمية والوجهة والتغليف والوثائق المطلوبة.",
       "inquiryTitle": "أرسل متطلبات صمام الهبوط",
-      "inquiryBody": "أدرج التكوين وواجهة المدخل والمخرج ومتطلبات الضغط والكمية والوجهة.",
+      "inquiryBody": "ابدأ بالتكوين المستقيم أو المائل والكمية. أضف وصلتي المدخل والمخرج وضغط النظام والوجهة عند توفرها.",
       "askOnWhatsApp": "استفسر عبر WhatsApp",
       "emailSales": "راسل قسم المبيعات",
       "productImagePreview": "معاينة صورة المنتج",
@@ -233,7 +356,8 @@
       "nextProductImage": "صورة المنتج التالية",
       "selectProductImage": "اختر صورة المنتج",
       "seoTitle": "صمامات هبوط مستقيمة ومائلة | CHUANWEI FIRE",
-      "seoDescription": "اختيارات لصمامات هبوط مستقيمة ومائلة بمدخل ملولب أو ذي شفة، مع مراجع مداخل NPT وBSP وBSPT وBS4504 ومرجع مخرج 2.5 in BS336."
+      "seoDescription": "اختيارات لصمامات هبوط مستقيمة ومائلة بمدخل ملولب أو ذي شفة، مع مراجع مداخل NPT وBSP وBSPT وBS4504 ومرجع مخرج 2.5 in BS336.",
+      "workingPressureOptions": "خيارات ضغط التشغيل"
     }
   }
 }

@@ -1,0 +1,31 @@
+[
+  {
+    "cards": [
+      "Wet Alarm Check Valve Assemblies — DN150 Flanged Complete Assembly",
+      "Wet Alarm Check Valve Assemblies — DN150 Grooved Complete Assembly",
+      "Diaphragm Deluge Valves — Flanged",
+      "Diaphragm Deluge Valves — Grooved",
+      "Preaction Valve Assemblies",
+      "Dry Pipe Alarm Valves",
+      "Saddle-Type Waterflow Switches"
+    ],
+    "category": "system-valves",
+    "count": "7 products",
+    "query": "DN 100",
+    "stage": "DN100 + system valves",
+    "url": "http://127.0.0.1:8766/products.html?q=DN%20100&category=system-valves&page=1"
+  },
+  {
+    "category": "system-valves",
+    "count": "7 products",
+    "query": "DN 100",
+    "stage": "refresh",
+    "url": "http://127.0.0.1:8766/products.html?q=DN%20100&category=system-valves&page=1"
+  },
+  {
+    "count": 12,
+    "label": "Page 2 of 16",
+    "stage": "second page",
+    "url": "http://127.0.0.1:8766/products.html?q=&category=&page=2"
+  }
+]

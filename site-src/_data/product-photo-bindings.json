@@ -1,0 +1,492 @@
+{
+  "date": "2026-10-09",
+  "authorization": "User requested continued website photo optimization; original files and existing URLs preserved. Previously reviewed product photographs only.",
+  "scope": "Exact configuration media slots only. No K202 photo substituted for ESFR, no 79C cover substituted for a 68C assembly, no inferred overseas hose/landing-valve/cabinet photo.",
+  "bindings": [
+    {
+      "routeId": "product:standard-response-fire-sprinkler",
+      "mediaKey": "upright",
+      "originalPath": "products/消防喷头/standard-response-sprinkler/standard-response-pendent.jpg",
+      "photoSourceFile": "DSC_5869.jpg",
+      "detailPath": "assets/products/guanya-2026/standard-response-fire-sprinkler-dsc_5869-1600.webp",
+      "displayPath": "assets/products/guanya-2026/standard-response-fire-sprinkler-dsc_5869-640.webp",
+      "width": 759,
+      "height": 1257,
+      "matchEvidence": "Confirmed standard-response K80 series; visible Q5 bulb and deflector/temperature markings; user-confirmed temperatures and Z=upright / X=pendent.",
+      "caption": {
+        "en": "Upright standard-response sprinkler — 68°C",
+        "ar": "رشاش ذو استجابة قياسية قائم — 68°C"
+      }
+    },
+    {
+      "routeId": "product:standard-response-fire-sprinkler",
+      "mediaKey": "pendent",
+      "originalPath": "products/消防喷头/standard-response-sprinkler/standard-response-upright.jpg",
+      "photoSourceFile": "DSC_5868.jpg",
+      "detailPath": "assets/products/guanya-2026/standard-response-fire-sprinkler-dsc_5868-1600.webp",
+      "displayPath": "assets/products/guanya-2026/standard-response-fire-sprinkler-dsc_5868-640.webp",
+      "width": 776,
+      "height": 1223,
+      "matchEvidence": "Confirmed standard-response K80 series; visible Q5 bulb and deflector/temperature markings; user-confirmed temperatures and Z=upright / X=pendent.",
+      "caption": {
+        "en": "Pendent standard-response sprinkler — 68°C",
+        "ar": "رشاش ذو استجابة قياسية معلق — 68°C"
+      }
+    },
+    {
+      "routeId": "product:standard-response-fire-sprinkler",
+      "mediaKey": "sidewall",
+      "originalPath": "products/消防喷头/standard-response-sprinkler/standard-response-horizontal-sidewall.jpg",
+      "photoSourceFile": "DSC_5870.jpg",
+      "detailPath": "assets/products/guanya-2026/standard-response-fire-sprinkler-dsc_5870-1600.webp",
+      "displayPath": "assets/products/guanya-2026/standard-response-fire-sprinkler-dsc_5870-640.webp",
+      "width": 928,
+      "height": 1392,
+      "matchEvidence": "Confirmed standard-response K80 series; visible Q5 bulb and deflector/temperature markings; user-confirmed temperatures and Z=upright / X=pendent.",
+      "caption": {
+        "en": "Horizontal sidewall standard-response sprinkler — 68°C",
+        "ar": "رشاش ذو استجابة قياسية جانبي أفقي — 68°C"
+      }
+    },
+    {
+      "routeId": "product:glass-bulb-fire-sprinkler",
+      "mediaKey": "hero",
+      "originalPath": "products/消防喷头/glass-bulb-sprinkler/quick-response-pendent.jpg",
+      "photoSourceFile": "DSC_5839.jpg",
+      "detailPath": "assets/products/guanya-2026/glass-bulb-fire-sprinkler-dsc_5839-1600.webp",
+      "displayPath": "assets/products/guanya-2026/glass-bulb-fire-sprinkler-dsc_5839-640.webp",
+      "width": 894,
+      "height": 1240,
+      "matchEvidence": "Visible K-ZST / Q3 / 68°C markings match the existing quick-response range; orientation identified from deflector.",
+      "caption": {
+        "en": "Pendent quick-response sprinkler — 68°C",
+        "ar": "رشاش سريع الاستجابة معلق — 68°C"
+      }
+    },
+    {
+      "routeId": "product:glass-bulb-fire-sprinkler",
+      "mediaKey": "upright",
+      "originalPath": "products/消防喷头/glass-bulb-sprinkler/quick-response-upright.jpg",
+      "photoSourceFile": "DSC_5840.jpg",
+      "detailPath": "assets/products/guanya-2026/glass-bulb-fire-sprinkler-dsc_5840-1600.webp",
+      "displayPath": "assets/products/guanya-2026/glass-bulb-fire-sprinkler-dsc_5840-640.webp",
+      "width": 793,
+      "height": 1325,
+      "matchEvidence": "Visible K-ZST / Q3 / 68°C markings match the existing quick-response range; orientation identified from deflector.",
+      "caption": {
+        "en": "Upright quick-response sprinkler — 68°C",
+        "ar": "رشاش سريع الاستجابة قائم — 68°C"
+      }
+    },
+    {
+      "routeId": "product:fusible-alloy-fire-sprinklers",
+      "mediaKey": "hero",
+      "originalPath": "products/消防喷头/fusible-alloy-fire-sprinklers/fusible-alloy-configuration-a.jpg",
+      "photoSourceFile": "DSC_5823.jpg",
+      "detailPath": "assets/products/guanya-2026/fusible-alloy-fire-sprinklers-dsc_5823-1600.webp",
+      "displayPath": "assets/products/guanya-2026/fusible-alloy-fire-sprinklers-dsc_5823-640.webp",
+      "width": 793,
+      "height": 1325,
+      "matchEvidence": "Matches an existing website product configuration by visible construction; photograph is not pressure, material-grade or certification evidence.",
+      "caption": {
+        "en": "Upright fusible-element sample",
+        "ar": "عينة قائمة بعنصر قابل للانصهار"
+      }
+    },
+    {
+      "routeId": "product:fusible-alloy-fire-sprinklers",
+      "mediaKey": "configurationB",
+      "originalPath": "products/消防喷头/fusible-alloy-fire-sprinklers/fusible-alloy-configuration-b.jpg",
+      "photoSourceFile": "DSC_5822.jpg",
+      "detailPath": "assets/products/guanya-2026/fusible-alloy-fire-sprinklers-dsc_5822-1600.webp",
+      "displayPath": "assets/products/guanya-2026/fusible-alloy-fire-sprinklers-dsc_5822-640.webp",
+      "width": 827,
+      "height": 1392,
+      "matchEvidence": "Matches an existing website product configuration by visible construction; photograph is not pressure, material-grade or certification evidence.",
+      "caption": {
+        "en": "Pendent fusible-element sample",
+        "ar": "عينة معلقة بعنصر قابل للانصهار"
+      }
+    },
+    {
+      "routeId": "product:extended-coverage-quick-response-fire-sprinkler",
+      "mediaKey": "hero",
+      "originalPath": "products/消防喷头/extended-coverage-quick-response-sprinkler/temporary-reference-pendent.jpg",
+      "photoSourceFile": "DSC_5887.jpg",
+      "detailPath": "assets/products/guanya-2026/extended-coverage-quick-response-fire-sprinkler-dsc_5887-1600.webp",
+      "displayPath": "assets/products/guanya-2026/extended-coverage-quick-response-fire-sprinkler-dsc_5887-640.webp",
+      "width": 877,
+      "height": 1223,
+      "matchEvidence": "Visible K-ZST model marking, K115 / 68°C and installation geometry. Additional sample photograph only; equivalence to EC-ZST factory models is not confirmed. Original pixels and derivatives retained.",
+      "caption": {
+        "en": "Pendent K115 / 68°C sample — marked K-ZSTX",
+        "ar": "عينة معلق K115 / 68°C — تحمل علامة K-ZSTX"
+      }
+    },
+    {
+      "routeId": "product:extended-coverage-quick-response-fire-sprinkler",
+      "mediaKey": "image1",
+      "originalPath": "products/消防喷头/extended-coverage-quick-response-sprinkler/temporary-reference-upright.jpg",
+      "photoSourceFile": "DSC_5888.jpg",
+      "detailPath": "assets/products/guanya-2026/extended-coverage-quick-response-fire-sprinkler-dsc_5888-1600.webp",
+      "displayPath": "assets/products/guanya-2026/extended-coverage-quick-response-fire-sprinkler-dsc_5888-640.webp",
+      "width": 860,
+      "height": 1256,
+      "matchEvidence": "Visible K-ZST model marking, K115 / 68°C and installation geometry. Additional sample photograph only; equivalence to EC-ZST factory models is not confirmed. Original pixels and derivatives retained.",
+      "caption": {
+        "en": "Upright K115 / 68°C sample — marked K-ZSTZ",
+        "ar": "عينة قائم K115 / 68°C — تحمل علامة K-ZSTZ"
+      }
+    },
+    {
+      "routeId": "product:extended-coverage-quick-response-fire-sprinkler",
+      "mediaKey": "image2",
+      "originalPath": "products/消防喷头/extended-coverage-quick-response-sprinkler/temporary-reference-horizontal-sidewall.jpg",
+      "photoSourceFile": "DSC_5889.jpg",
+      "detailPath": "assets/products/guanya-2026/extended-coverage-quick-response-fire-sprinkler-dsc_5889-1600.webp",
+      "displayPath": "assets/products/guanya-2026/extended-coverage-quick-response-fire-sprinkler-dsc_5889-640.webp",
+      "width": 979,
+      "height": 1342,
+      "matchEvidence": "Visible K-ZST model marking, K115 / 68°C and installation geometry. Additional sample photograph only; equivalence to EC-ZST factory models is not confirmed. Original pixels and derivatives retained.",
+      "caption": {
+        "en": "Horizontal sidewall K115 / 68°C sample — marked K-ZSTBS",
+        "ar": "عينة جانبي أفقي K115 / 68°C — تحمل علامة K-ZSTBS"
+      }
+    },
+    {
+      "routeId": "product:large-k-factor-esfr-sprinklers",
+      "mediaKey": "image2",
+      "originalPath": "products/消防喷头/large-k-esfr-sprinkler/large-k202-pendent.jpg",
+      "photoSourceFile": "DSC_5814.jpg",
+      "detailPath": "assets/products/guanya-2026/large-k-factor-esfr-sprinklers-dsc_5814-1600.webp",
+      "displayPath": "assets/products/guanya-2026/large-k-factor-esfr-sprinklers-dsc_5814-640.webp",
+      "width": 861,
+      "height": 1291,
+      "matchEvidence": "Matches the existing large-K202 glass-bulb views, kept separate from ESFR fusible-link performance claims.",
+      "caption": {
+        "en": "Pendent glass-bulb sprinkler — K202 / 68°C",
+        "ar": "رشاش ببصيلة زجاجية معلق — K202 / 68°C"
+      }
+    },
+    {
+      "routeId": "product:large-k-factor-esfr-sprinklers",
+      "mediaKey": "image3",
+      "originalPath": "products/消防喷头/large-k-esfr-sprinkler/large-k202-horizontal-sidewall.jpg",
+      "photoSourceFile": "DSC_5813.jpg",
+      "detailPath": "assets/products/guanya-2026/large-k-factor-esfr-sprinklers-dsc_5813-1600.webp",
+      "displayPath": "assets/products/guanya-2026/large-k-factor-esfr-sprinklers-dsc_5813-640.webp",
+      "width": 1063,
+      "height": 1493,
+      "matchEvidence": "Matches the existing large-K202 glass-bulb views, kept separate from ESFR fusible-link performance claims.",
+      "caption": {
+        "en": "Horizontal sidewall glass-bulb sprinkler — K202 / 68°C",
+        "ar": "رشاش ببصيلة زجاجية جانبي أفقي — K202 / 68°C"
+      }
+    },
+    {
+      "routeId": "product:large-k-factor-esfr-sprinklers",
+      "mediaKey": "image4",
+      "originalPath": "products/消防喷头/large-k-esfr-sprinkler/large-k202-upright.jpg",
+      "photoSourceFile": "DSC_5816.jpg",
+      "detailPath": "assets/products/guanya-2026/large-k-factor-esfr-sprinklers-dsc_5816-1600.webp",
+      "displayPath": "assets/products/guanya-2026/large-k-factor-esfr-sprinklers-dsc_5816-640.webp",
+      "width": 827,
+      "height": 1325,
+      "matchEvidence": "Matches the existing large-K202 glass-bulb views, kept separate from ESFR fusible-link performance claims.",
+      "caption": {
+        "en": "Upright glass-bulb sprinkler — K202 / 68°C",
+        "ar": "رشاش ببصيلة زجاجية قائم — K202 / 68°C"
+      }
+    },
+    {
+      "routeId": "product:lever-operated-grooved-butterfly-valves",
+      "mediaKey": "hero",
+      "originalPath": "products/消防蝶阀/lever-operated-grooved-butterfly-valves/lever-operated-grooved-butterfly-valve.jpg",
+      "photoSourceFile": "DSC_5672.jpg",
+      "detailPath": "assets/products/guanya-2026/lever-operated-grooved-butterfly-valves-dsc_5672-1600.webp",
+      "displayPath": "assets/products/guanya-2026/lever-operated-grooved-butterfly-valves-dsc_5672-640.webp",
+      "width": 1600,
+      "height": 1528,
+      "matchEvidence": "Matches an existing website product configuration by visible construction; photograph is not pressure, material-grade or certification evidence.",
+      "caption": {
+        "en": "Grooved lever butterfly valve — open-disc view",
+        "ar": "صمام فراشة محزز بذراع — منظر القرص المفتوح"
+      }
+    },
+    {
+      "routeId": "product:lever-operated-wafer-butterfly-valves",
+      "mediaKey": "hero",
+      "originalPath": "products/消防蝶阀/lever-operated-wafer-butterfly-valves/lever-operated-wafer-butterfly-valve.jpg",
+      "photoSourceFile": "DSC_5673.jpg",
+      "detailPath": "assets/products/guanya-2026/lever-operated-wafer-butterfly-valves-dsc_5673-1600.webp",
+      "displayPath": "assets/products/guanya-2026/lever-operated-wafer-butterfly-valves-dsc_5673-640.webp",
+      "width": 1394,
+      "height": 1600,
+      "matchEvidence": "Matches an existing website product configuration by visible construction; photograph is not pressure, material-grade or certification evidence.",
+      "caption": {
+        "en": "Wafer lever butterfly valve — open-disc view",
+        "ar": "صمام فراشة بين الفلنجتين بذراع — منظر القرص المفتوح"
+      }
+    },
+    {
+      "routeId": "product:wafer-supervisory-butterfly-valves",
+      "mediaKey": "hero",
+      "originalPath": "products/消防蝶阀/wafer-supervisory-butterfly-valves/wafer-supervisory-butterfly-valve.jpg",
+      "photoSourceFile": "DSC_5674.jpg",
+      "detailPath": "assets/products/guanya-2026/wafer-supervisory-butterfly-valves-dsc_5674-1600.webp",
+      "displayPath": "assets/products/guanya-2026/wafer-supervisory-butterfly-valves-dsc_5674-640.webp",
+      "width": 845,
+      "height": 1600,
+      "matchEvidence": "Matches an existing website product configuration by visible construction; photograph is not pressure, material-grade or certification evidence.",
+      "caption": {
+        "en": "Wafer supervisory butterfly valve — open-disc view",
+        "ar": "صمام فراشة مراقب بين الفلنجتين — منظر القرص المفتوح"
+      }
+    },
+    {
+      "routeId": "product:grooved-supervisory-butterfly-valves",
+      "mediaKey": "hero",
+      "originalPath": "products/消防蝶阀/grooved-supervisory-butterfly-valves/grooved-supervisory-butterfly-valve.jpg",
+      "photoSourceFile": "DSC_5671.jpg",
+      "detailPath": "assets/products/guanya-2026/grooved-supervisory-butterfly-valves-dsc_5671-1600.webp",
+      "displayPath": "assets/products/guanya-2026/grooved-supervisory-butterfly-valves-dsc_5671-640.webp",
+      "width": 1199,
+      "height": 1600,
+      "matchEvidence": "Matches an existing website product configuration by visible construction; photograph is not pressure, material-grade or certification evidence.",
+      "caption": {
+        "en": "Grooved supervisory butterfly valve — sample view",
+        "ar": "صمام فراشة مراقب محزز — عينة"
+      }
+    },
+    {
+      "routeId": "product:nrs-gate-valves",
+      "mediaKey": "hero",
+      "originalPath": "products/消防阀门/nrs-gate-valves/nrs-gate-valve.jpg",
+      "photoSourceFile": "DSC_5679.jpg",
+      "detailPath": "assets/products/guanya-2026/nrs-gate-valves-dsc_5679-1600.webp",
+      "displayPath": "assets/products/guanya-2026/nrs-gate-valves-dsc_5679-640.webp",
+      "width": 990,
+      "height": 1600,
+      "matchEvidence": "Matches an existing website product configuration by visible construction; photograph is not pressure, material-grade or certification evidence.",
+      "caption": {
+        "en": "NRS grooved gate valve — sample view",
+        "ar": "صمام بوابة محزز بساق غير صاعدة — عينة"
+      }
+    },
+    {
+      "routeId": "product:osy-gate-valves",
+      "mediaKey": "hero",
+      "originalPath": "products/消防阀门/osy-gate-valves/osy-gate-valve.jpg",
+      "photoSourceFile": "DSC_5686.jpg",
+      "detailPath": "assets/products/guanya-2026/osy-gate-valves-dsc_5686-1600.webp",
+      "displayPath": "assets/products/guanya-2026/osy-gate-valves-dsc_5686-640.webp",
+      "width": 875,
+      "height": 1600,
+      "matchEvidence": "Matches an existing website product configuration by visible construction; photograph is not pressure, material-grade or certification evidence.",
+      "caption": {
+        "en": "OS&Y flanged gate valve — sample view",
+        "ar": "صمام بوابة فلنجي بساق صاعدة — عينة"
+      }
+    },
+    {
+      "routeId": "product:grooved-supervisory-gate-valves",
+      "mediaKey": "hero",
+      "originalPath": "products/消防阀门/grooved-supervisory-gate-valves/grooved-supervisory-gate-valve.jpg",
+      "photoSourceFile": "DSC_5681.jpg",
+      "detailPath": "assets/products/guanya-2026/grooved-supervisory-gate-valves-dsc_5681-1600.webp",
+      "displayPath": "assets/products/guanya-2026/grooved-supervisory-gate-valves-dsc_5681-640.webp",
+      "width": 929,
+      "height": 1600,
+      "matchEvidence": "Matches an existing website product configuration by visible construction; photograph is not pressure, material-grade or certification evidence.",
+      "caption": {
+        "en": "Grooved supervisory gate valve — sample view",
+        "ar": "صمام بوابة مراقب محزز — عينة"
+      }
+    },
+    {
+      "routeId": "product:flanged-supervisory-gate-valves",
+      "mediaKey": "hero",
+      "originalPath": "products/消防阀门/flanged-supervisory-gate-valves/flanged-supervisory-gate-valve.jpg",
+      "photoSourceFile": "DSC_5683.jpg",
+      "detailPath": "assets/products/guanya-2026/flanged-supervisory-gate-valves-dsc_5683-1600.webp",
+      "displayPath": "assets/products/guanya-2026/flanged-supervisory-gate-valves-dsc_5683-640.webp",
+      "width": 1044,
+      "height": 1600,
+      "matchEvidence": "Matches an existing website product configuration by visible construction; photograph is not pressure, material-grade or certification evidence.",
+      "caption": {
+        "en": "Flanged supervisory gate valve — sample view",
+        "ar": "صمام بوابة مراقب فلنجي — عينة"
+      }
+    },
+    {
+      "routeId": "product:preaction-valve-assemblies",
+      "mediaKey": "flanged",
+      "originalPath": "products/消防阀/preaction-valve-assemblies/preaction-valve-assembly-watermarked.jpg",
+      "photoSourceFile": "DSC_5732.jpg",
+      "detailPath": "assets/products/guanya-2026/preaction-valve-assemblies-dsc_5732-1600.webp",
+      "displayPath": "assets/products/guanya-2026/preaction-valve-assemblies-dsc_5732-640.webp",
+      "width": 1477,
+      "height": 1600,
+      "matchEvidence": "Matches an existing website product configuration by visible construction; photograph is not pressure, material-grade or certification evidence.",
+      "caption": {
+        "en": "Flanged preaction assembly — sample layout",
+        "ar": "مجموعة ما قبل التشغيل الفلنجية — ترتيب العينة"
+      }
+    },
+    {
+      "routeId": "product:diaphragm-deluge-valves",
+      "mediaKey": "flanged",
+      "originalPath": "products/消防阀/diaphragm-deluge-valves/deluge-valve-flanged.jpg",
+      "photoSourceFile": "DSC_5728.jpg",
+      "detailPath": "assets/products/guanya-2026/diaphragm-deluge-valves-dsc_5728-1600.webp",
+      "displayPath": "assets/products/guanya-2026/diaphragm-deluge-valves-dsc_5728-640.webp",
+      "width": 1600,
+      "height": 1600,
+      "matchEvidence": "Matches an existing website product configuration by visible construction; photograph is not pressure, material-grade or certification evidence.",
+      "caption": {
+        "en": "Flanged diaphragm-deluge assembly — sample layout",
+        "ar": "مجموعة غمر غشائية فلنجية — ترتيب العينة"
+      }
+    },
+    {
+      "routeId": "product:dry-pipe-alarm-valves",
+      "mediaKey": "flanged",
+      "originalPath": "products/消防阀/dry-pipe-alarm-valves/dry-pipe-alarm-valve-flanged.jpg",
+      "photoSourceFile": "DSC_5734.jpg",
+      "detailPath": "assets/products/guanya-2026/dry-pipe-alarm-valves-dsc_5734-1600.webp",
+      "displayPath": "assets/products/guanya-2026/dry-pipe-alarm-valves-dsc_5734-640.webp",
+      "width": 1487,
+      "height": 1600,
+      "matchEvidence": "Matches an existing website product configuration by visible construction; photograph is not pressure, material-grade or certification evidence.",
+      "caption": {
+        "en": "ZSFC dry-pipe valve — front view",
+        "ar": "صمام أنابيب جافة ZSFC — منظر أمامي"
+      }
+    },
+    {
+      "routeId": "product:straight-stream-fire-hose-reel",
+      "mediaKey": "hero",
+      "originalPath": "products/软管卷盘/straight-stream-fire-hose-reel/straight-stream-fire-hose-reel.jpg",
+      "photoSourceFile": "DSC_5596.jpg",
+      "detailPath": "assets/products/guanya-2026/straight-stream-fire-hose-reel-dsc_5596-1600.webp",
+      "displayPath": "assets/products/guanya-2026/straight-stream-fire-hose-reel-dsc_5596-640.webp",
+      "width": 1600,
+      "height": 1491,
+      "matchEvidence": "Matches an existing website product configuration by visible construction; photograph is not pressure, material-grade or certification evidence.",
+      "caption": {
+        "en": "Straight-stream hose reel — front assembly view",
+        "ar": "بكرة خرطوم بنفث مستقيم — منظر أمامي للمجموعة"
+      }
+    },
+    {
+      "routeId": "product:straight-stream-fire-hose-reel",
+      "mediaKey": "image1",
+      "originalPath": "products/软管卷盘/straight-stream-fire-hose-reel/reel-original.jpg",
+      "photoSourceFile": "DSC_5596.jpg",
+      "detailPath": "assets/products/guanya-2026/straight-stream-fire-hose-reel-dsc_5596-1600.webp",
+      "displayPath": "assets/products/guanya-2026/straight-stream-fire-hose-reel-dsc_5596-640.webp",
+      "width": 1600,
+      "height": 1491,
+      "matchEvidence": "Matches an existing website product configuration by visible construction; photograph is not pressure, material-grade or certification evidence.",
+      "caption": {
+        "en": "Straight-stream hose reel — front assembly view",
+        "ar": "بكرة خرطوم بنفث مستقيم — منظر أمامي للمجموعة"
+      }
+    },
+    {
+      "routeId": "product:jet-spray-fire-hose-reel",
+      "mediaKey": "hero",
+      "originalPath": "products/软管卷盘/jet-spray-fire-hose-reel/jet-spray-fire-hose-reel.jpg",
+      "photoSourceFile": "DSC_5593.jpg",
+      "detailPath": "assets/products/guanya-2026/jet-spray-fire-hose-reel-dsc_5593-1600.webp",
+      "displayPath": "assets/products/guanya-2026/jet-spray-fire-hose-reel-dsc_5593-640.webp",
+      "width": 1600,
+      "height": 1413,
+      "matchEvidence": "Matches an existing website product configuration by visible construction; photograph is not pressure, material-grade or certification evidence.",
+      "caption": {
+        "en": "Jet/spray hose reel — assembly view",
+        "ar": "بكرة خرطوم بنفث ورش — منظر المجموعة"
+      }
+    },
+    {
+      "routeId": "product:jet-spray-fire-hose-reel",
+      "mediaKey": "image1",
+      "originalPath": "products/软管卷盘/jet-spray-fire-hose-reel/reel-original.jpg",
+      "photoSourceFile": "DSC_5593.jpg",
+      "detailPath": "assets/products/guanya-2026/jet-spray-fire-hose-reel-dsc_5593-1600.webp",
+      "displayPath": "assets/products/guanya-2026/jet-spray-fire-hose-reel-dsc_5593-640.webp",
+      "width": 1600,
+      "height": 1413,
+      "matchEvidence": "Matches an existing website product configuration by visible construction; photograph is not pressure, material-grade or certification evidence.",
+      "caption": {
+        "en": "Jet/spray hose reel — assembly view",
+        "ar": "بكرة خرطوم بنفث ورش — منظر المجموعة"
+      }
+    },
+    {
+      "routeId": "product:dry-pendent-fire-sprinklers",
+      "mediaKey": "hero",
+      "originalPath": "products/消防喷头/dry-pendent-sprinkler/dry-pendent-full-view.jpg",
+      "photoSourceFile": "DSC_5779.jpg",
+      "detailPath": "assets/products/guanya-2026/dry-pendent-fire-sprinklers-dsc_5779-1600.webp",
+      "displayPath": "assets/products/guanya-2026/dry-pendent-fire-sprinklers-dsc_5779-640.webp",
+      "width": 508,
+      "height": 1600,
+      "matchEvidence": "Matches an existing website product configuration by visible construction; photograph is not pressure, material-grade or certification evidence.",
+      "caption": {
+        "en": "Dry pendent sprinkler — sample assembly",
+        "ar": "رشاش جاف معلق — عينة المجموعة"
+      }
+    },
+    {
+      "routeId": "product:dry-pendent-fire-sprinklers",
+      "mediaKey": "image2",
+      "originalPath": "products/消防喷头/dry-pendent-sprinkler/dry-pendent-with-escutcheon.jpg",
+      "photoSourceFile": "DSC_5774.jpg",
+      "detailPath": "assets/products/guanya-2026/dry-pendent-fire-sprinklers-dsc_5774-1600.webp",
+      "displayPath": "assets/products/guanya-2026/dry-pendent-fire-sprinklers-dsc_5774-640.webp",
+      "width": 574,
+      "height": 1600,
+      "matchEvidence": "Matches an existing website product configuration by visible construction; photograph is not pressure, material-grade or certification evidence.",
+      "caption": {
+        "en": "Dry pendent sprinkler with escutcheon — sample view",
+        "ar": "رشاش جاف معلق مع غطاء تشطيب — عينة"
+      }
+    },
+    {
+      "routeId": "product:large-k-factor-esfr-sprinklers",
+      "mediaKey": "image5",
+      "originalPath": "products/消防喷头/large-k-esfr-sprinkler/esfr-fusible-link-detail-1.jpg",
+      "photoSourceFile": "esfr-glass-bulb-slotted.jpg",
+      "detailPath": "assets/products/guanya-2026/large-k-factor-esfr-sprinklers-esfr-glass-bulb-slotted-1600.webp",
+      "displayPath": "assets/products/guanya-2026/large-k-factor-esfr-sprinklers-esfr-glass-bulb-slotted-640.webp",
+      "width": 1057,
+      "height": 1600,
+      "matchEvidence": "User supplied this photograph and explicitly requested replacement of the corresponding ESFR detail gallery slot on 2026-10-10. ESFR body marking, glass-bulb assembly and deflector shape are visible; no exact model, K-factor, temperature, pressure, response class or certification inferred.",
+      "caption": {
+        "en": "ESFR glass-bulb sprinkler — slotted deflector",
+        "ar": "رشاش ESFR بعنصر زجاجي — صفيحة توزيع مشقوقة"
+      }
+    },
+    {
+      "routeId": "product:large-k-factor-esfr-sprinklers",
+      "mediaKey": "image6",
+      "originalPath": "products/消防喷头/large-k-esfr-sprinkler/esfr-fusible-link-detail-2.jpg",
+      "photoSourceFile": "esfr-glass-bulb-domed.jpg",
+      "detailPath": "assets/products/guanya-2026/large-k-factor-esfr-sprinklers-esfr-glass-bulb-domed-1600.webp",
+      "displayPath": "assets/products/guanya-2026/large-k-factor-esfr-sprinklers-esfr-glass-bulb-domed-640.webp",
+      "width": 1366,
+      "height": 1600,
+      "matchEvidence": "User supplied this photograph and explicitly requested replacement of the corresponding ESFR detail gallery slot on 2026-10-10. ESFR body marking, glass-bulb assembly and deflector shape are visible; no exact model, K-factor, temperature, pressure, response class or certification inferred.",
+      "caption": {
+        "en": "ESFR glass-bulb sprinkler — domed deflector",
+        "ar": "رشاش ESFR بعنصر زجاجي — صفيحة توزيع مقببة"
+      }
+    }
+  ],
+  "additionalAuthorization": {
+    "date": "2026-10-10",
+    "verbatim": "这两个detail图片不要重复了，替换成后两张图片可以吗",
+    "record": "docs/reviews/esfr-gallery-20261010/photo-records.json"
+  }
+}

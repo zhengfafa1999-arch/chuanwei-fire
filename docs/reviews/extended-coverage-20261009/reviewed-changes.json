@@ -1,0 +1,109 @@
+{
+  "date": "2026-10-09",
+  "status": "local-verified; awaiting user page review",
+  "source": "D:/work/codex/阿里国际站运营/outputs/alibaba-detail-image-studio/EC-ZST系列-115-68℃-扩大覆盖洒水喷头/copy/出口参数与证据台账.md",
+  "confirmedArchiveFacts": [
+    "Three EC-ZST factory models at 68°C / metric K115",
+    "3 mm glass bulb",
+    "Copper body; stainless steel deflector",
+    "Electroplated exterior",
+    "BSPT thread family"
+  ],
+  "unresolved": [
+    "Exact nominal thread designation",
+    "Pieces per box not answered; no public quantity claim",
+    "Coverage, spacing and minimum operating pressure",
+    "K-ZST photo / EC-ZST model equivalence"
+  ],
+  "reviewedEnglishCopyChanges": [
+    [
+      "Buyer-facing specifications",
+      "Technical specifications"
+    ],
+    [
+      "International product names and unit equivalents are shown first. Factory codes are retained only for production and repeat-order matching.",
+      "Compare the pictured configurations and specify the installation orientation and connection required for your order."
+    ],
+    [
+      "Confirmed product specifications",
+      "Product specifications"
+    ],
+    [
+      "Frame material",
+      "Body / deflector materials"
+    ],
+    [
+      "Copper",
+      "Copper body; stainless steel deflector"
+    ],
+    [
+      "Manufactured to the confirmed customer drawing or approved sample",
+      "BSPT (default) / NPT (optional); exact thread designation matched to your order"
+    ],
+    [
+      "Chrome-plated or natural copper finish",
+      "Chrome-plated finish"
+    ],
+    [
+      "Chrome-plated and natural copper finish options.",
+      "Chrome-plated finish; specify any additional finish requirement with your order."
+    ],
+    [
+      "Standard packing",
+      "Packing"
+    ],
+    [
+      "100 pcs per export carton",
+      "Contact sales for packing and label requirements"
+    ],
+    [
+      "Engineering data status",
+      "Hydraulic selection"
+    ],
+    [
+      "Review the pendent, upright and horizontal sidewall configurations. Product markings are retained for configuration and factory-reference identification.",
+      "Compare the three EC-ZST models in the main gallery. Additional K115 / 68°C photographs below show K-ZST-marked samples; confirm the required factory marking with your order."
+    ],
+    [
+      "The current factory range is organized by installation orientation. All listed versions share the confirmed nominal size, K-factor and temperature rating.",
+      "Compare the three 68°C models below. They share DN20 and metric K115; select the installation orientation first, then specify the connection and finish."
+    ],
+    [
+      "For quotation, specify orientation, destination country, thread requirement, finish, quantity, marking and required technical documentation.",
+      "Start with the factory model or installation orientation and quantity. Add destination, connection, finish and project data requirements if available."
+    ],
+    [
+      "Include country, orientation, thread, finish, quantity, OEM request and required hydraulic documentation.",
+      "Send your model or installation orientation and quantity. Add destination, thread, finish and hydraulic selection requirements if available."
+    ],
+    [
+      "To be confirmed with the quotation",
+      "1.2 MPa / 12 bar / approx. 174 psi"
+    ],
+    [
+      "Thread form manufactured to a confirmed drawing or approved sample.",
+      "BSPT is the default thread; NPT is available. Exact thread designation is matched to your order."
+    ]
+  ],
+  "userConfirmation": {
+    "date": "2026-10-09",
+    "questionScope": "EC-ZSTX / EC-ZSTZ / EC-ZSTBS 115-68°C Q3A; maximum working pressure, thread and finish",
+    "verbatim": "1.2mpa，也默认BSPT、可选NPT、镀铬、不用提供外箱数量",
+    "maximumWorkingPressureMPa": 1.2,
+    "threadDefault": "BSPT",
+    "threadOptional": "NPT",
+    "finish": "Chrome-plated",
+    "shippingCartonQuantity": "Not requested; user deferred",
+    "piecesPerBox": null
+  },
+  "verification": {
+    "build": "passed",
+    "searchAssertions": 67,
+    "desktopWidth": 1280,
+    "englishMobileWidth": 390,
+    "arabicMobileWidth": 320,
+    "gallery": "arrows, enlargement and Escape passed",
+    "pdf": "unchanged SHA256 4726e11252e8776a359b726a3d610937bd21913f3f68b13ae679b02a764146c8",
+    "deployed": false
+  }
+}

@@ -131,7 +131,7 @@ assert(chineseHomePage.includes("GENERATED FILE"), "Chinese homepage must be gen
 assert(chineseHomePage.includes('data-site-language="zh" data-site-route-id="home"'), "Chinese homepage is missing its shared navigation markers.");
 assert(chineseHomePage.includes('<html lang="zh-CN" dir="ltr">'), "Chinese homepage has incorrect language metadata.");
 assert(chineseHomePage.includes('<link rel="canonical" href="https://chuanweifire.com/zh/">'), "Chinese homepage has an incorrect canonical URL.");
-assert(chineseHomePage.includes("消防设备制造与OEM配套支持"), "Chinese homepage is missing build-time localized copy.");
+assert(chineseHomePage.includes("消防喷头与系统组件"), "Chinese homepage is missing build-time localized copy.");
 assert(!chineseHomePage.includes('data-zh='), "Chinese homepage copy must come from the dedicated language data source.");
 
 const arabicHomePage = fs.readFileSync(path.join(root, "ar/index.html"), "utf8");

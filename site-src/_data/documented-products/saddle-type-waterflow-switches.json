@@ -14,7 +14,13 @@
     "catalogPage": 25,
     "handoffRecord": "catalog-p25",
     "supplementalRecord": "chuanwei-fire-commerce/马鞍式水流指示器-ZSJZ系列",
-    "evidence": "B-derived-approved-catalog for the series table and visible selection facts; archived DN100 product image is representative only"
+    "evidence": "B-derived-approved-catalog for the series table and visible selection facts; archived DN100 product image is representative only",
+    "contactCapacityPublication": {
+      "date": "2026-10-09",
+      "userInstruction": "你也写这个**DC24V、0.5A 触点容量**",
+      "record": "docs/reviews/parameter-gap-research-20261009/waterflow-contact-publication.json",
+      "scope": "User-selected quotation reference; exact GUANYA microswitch rating remains unverified. Not a supply-voltage specification."
+    }
   },
   "publication": {
     "status": "release-candidate",
@@ -26,9 +32,17 @@
     "hero": "products/消防阀/saddle-type-waterflow-switches/zsjz-dn100-reference.png"
   },
   "imageDimensions": {
-    "hero": { "width": 1023, "height": 1537 }
+    "hero": {
+      "width": 1023,
+      "height": 1537
+    }
   },
-  "heroFacts": ["factorySeriesValue", "sizeRangeValue", "constructionValue", "workingPressureValue"],
+  "heroFacts": [
+    "factorySeriesValue",
+    "sizeRangeValue",
+    "constructionValue",
+    "workingPressureValue"
+  ],
   "shared": {
     "factorySeriesValue": "ZSJZ-M-1.2",
     "sizeRangeValue": "DN50–DN200 / 2–8 in",
@@ -39,54 +53,140 @@
     "materialsValue": "ADC12 / A380 aluminum enclosure; QT450-10 ductile-iron saddle; Q235B hot-dip galvanized U-bolt; PE paddle; EPDM gasket",
     "applicationValue": "Waterflow monitoring on horizontal piping in wet-pipe automatic sprinkler systems",
     "installationValue": "Horizontal pipe; enclosure upward or sideward; U-bolt clamped from below",
-    "technicalReferenceValue": "GB 5135.7-2018 manufacturing reference"
+    "technicalReferenceValue": "GB 5135.7-2018 manufacturing reference",
+    "contactCapacityValue": "DC 24 V, 0.5 A"
   },
   "gallery": [
-    { "media": "hero", "alt": "dn100Alt", "caption": "dn100Reference", "thumbnailAlt": "dn100Thumbnail" }
+    {
+      "media": "hero",
+      "alt": "dn100Alt",
+      "caption": "dn100Reference",
+      "thumbnailAlt": "dn100Thumbnail"
+    }
   ],
   "specifications": [
-    { "label": "productType", "value": "productTypeValue" },
-    { "label": "factorySeries", "value": "factorySeriesValue", "technical": true },
-    { "label": "nominalSizeRange", "value": "sizeRangeValue", "technical": true },
-    { "label": "construction", "value": "constructionValue" },
-    { "label": "ratedWorkingPressure", "value": "workingPressureValue", "technical": true },
-    { "label": "application", "value": "applicationValue" },
-    { "label": "installation", "value": "installationValue" },
-    { "label": "materials", "value": "materialsValue" },
-    { "label": "technicalReference", "value": "technicalReferenceValue" },
-    { "label": "imageScope", "value": "sampleScopeValue" },
-    { "label": "pipeFitAndDimensions", "value": "confirmWithQuotation" },
-    { "label": "contactRating", "value": "confirmWithQuotation" },
-    { "label": "alarmFlowAndReset", "value": "confirmWithQuotation" },
-    { "label": "temperatureAndProtection", "value": "confirmWithQuotation" },
-    { "label": "packing", "value": "confirmWithQuotation" }
+    {
+      "label": "productType",
+      "value": "productTypeValue"
+    },
+    {
+      "label": "factorySeries",
+      "value": "factorySeriesValue",
+      "technical": true
+    },
+    {
+      "label": "nominalSizeRange",
+      "value": "sizeRangeValue",
+      "technical": true
+    },
+    {
+      "label": "construction",
+      "value": "constructionValue"
+    },
+    {
+      "label": "ratedWorkingPressure",
+      "value": "workingPressureValue",
+      "technical": true
+    },
+    {
+      "label": "contactCapacity",
+      "value": "contactCapacityValue",
+      "technical": true
+    },
+    {
+      "label": "application",
+      "value": "applicationValue"
+    },
+    {
+      "label": "installation",
+      "value": "installationValue"
+    },
+    {
+      "label": "materials",
+      "value": "materialsValue"
+    },
+    {
+      "label": "technicalReference",
+      "value": "technicalReferenceValue"
+    },
+    {
+      "label": "imageScope",
+      "value": "sampleScopeValue"
+    }
   ],
   "modelColumns": [
-    { "label": "nominalPipeSize", "field": "nominalPipeSize", "technical": true },
-    { "label": "factoryModel", "field": "factoryModel", "technical": true }
+    {
+      "label": "nominalPipeSize",
+      "field": "nominalPipeSize",
+      "technical": true
+    },
+    {
+      "label": "factoryModel",
+      "field": "factoryModel",
+      "technical": true
+    }
   ],
   "models": [
-    { "nominalPipeSize": "DN50 / 2 in", "factoryModel": "ZSJZ50-M-1.2" },
-    { "nominalPipeSize": "DN65 / 2½ in", "factoryModel": "ZSJZ65-M-1.2" },
-    { "nominalPipeSize": "DN80 / 3 in", "factoryModel": "ZSJZ80-M-1.2" },
-    { "nominalPipeSize": "DN100 / 4 in", "factoryModel": "ZSJZ100-M-1.2" },
-    { "nominalPipeSize": "DN125 / 5 in", "factoryModel": "ZSJZ125-M-1.2" },
-    { "nominalPipeSize": "DN150 / 6 in", "factoryModel": "ZSJZ150-M-1.2" },
-    { "nominalPipeSize": "DN200 / 8 in", "factoryModel": "ZSJZ200-M-1.2" }
+    {
+      "nominalPipeSize": "DN50 / 2 in",
+      "factoryModel": "ZSJZ50-M-1.2"
+    },
+    {
+      "nominalPipeSize": "DN65 / 2½ in",
+      "factoryModel": "ZSJZ65-M-1.2"
+    },
+    {
+      "nominalPipeSize": "DN80 / 3 in",
+      "factoryModel": "ZSJZ80-M-1.2"
+    },
+    {
+      "nominalPipeSize": "DN100 / 4 in",
+      "factoryModel": "ZSJZ100-M-1.2"
+    },
+    {
+      "nominalPipeSize": "DN125 / 5 in",
+      "factoryModel": "ZSJZ125-M-1.2"
+    },
+    {
+      "nominalPipeSize": "DN150 / 6 in",
+      "factoryModel": "ZSJZ150-M-1.2"
+    },
+    {
+      "nominalPipeSize": "DN200 / 8 in",
+      "factoryModel": "ZSJZ200-M-1.2"
+    }
   ],
   "confirmationItems": [
-    { "label": "pipeSelection", "body": "pipeSelectionBody" },
-    { "label": "electricalRequirement", "body": "electricalRequirementBody" },
-    { "label": "alarmRequirement", "body": "alarmRequirementBody" },
-    { "label": "orderInformation", "body": "orderInformationBody" }
+    {
+      "label": "pipeSelection",
+      "body": "pipeSelectionBody"
+    },
+    {
+      "label": "electricalRequirement",
+      "body": "electricalRequirementBody"
+    },
+    {
+      "label": "alarmRequirement",
+      "body": "alarmRequirementBody"
+    },
+    {
+      "label": "orderInformation",
+      "body": "orderInformationBody"
+    }
   ],
   "validation": {
-    "anchors": ["gallery", "specifications", "models", "quotation"],
+    "anchors": [
+      "gallery",
+      "specifications",
+      "models",
+      "quotation"
+    ],
     "requiredTechnicalValues": [
       "ZSJZ50-M-1.2",
       "ZSJZ100-M-1.2",
       "ZSJZ200-M-1.2",
-      "1.2 MPa / 12 bar"
+      "1.2 MPa / 12 bar",
+      "DC 24 V, 0.5 A"
     ]
   },
   "inquiry": {
@@ -102,13 +202,13 @@
       "note": "The product photograph shows a DN100 series reference. Confirm the pipe outside diameter, installation dimensions, electrical contact requirements, alarm flow and reset requirement before quotation.",
       "gallery": "Product image",
       "galleryTitle": "DN100 representative series sample",
-      "galleryBody": "This archived white-background image identifies the saddle body, U-bolt and sensing paddle of the DN100 sample. It is not proof of the dimensions of every listed size.",
+      "galleryBody": "DN100 example showing the saddle body, U-bolt and sensing paddle. Dimensions vary by pipe size; request the installation drawing for your selected model.",
       "dn100Reference": "DN100 representative waterflow switch",
       "dn100Alt": "DN100 saddle-type waterflow switch with red enclosure, ductile-iron saddle, U-bolt and white sensing paddle",
       "dn100Thumbnail": "DN100 waterflow switch thumbnail",
       "specifications": "Specifications",
-      "specificationsTitle": "Confirmed series scope",
-      "specificationsBody": "The series, model range, rated pressure, construction, materials and intended application follow the approved v11 record. Unresolved electrical and installation data remain quotation items.",
+      "specificationsTitle": "Product specifications",
+      "specificationsBody": "Compare the model range, rated pressure, construction, materials and intended application below. Electrical and installation details are confirmed with the quotation.",
       "productType": "Product type",
       "factorySeries": "Factory series",
       "nominalSizeRange": "Nominal pipe-size range",
@@ -126,26 +226,26 @@
       "packing": "Packing",
       "confirmWithQuotation": "To be confirmed with the quotation",
       "availableModels": "Available models",
-      "modelsTitle": "Approved factory model table",
+      "modelsTitle": "Available factory models",
       "modelsBody": "Select the nominal pipe size first. The DN100 photograph is the series reference; pipe outside diameter and installation dimensions must be confirmed for the selected model.",
       "nominalPipeSize": "Nominal pipe size",
       "factoryModel": "Factory Model",
       "temperature": "Temperature",
       "thermalElement": "Sensing element",
-      "modelsNote": "The model table records the approved factory selection range. It does not establish electrical ratings, dimensions or certification coverage.",
+      "modelsNote": "The model table is for order selection. Electrical ratings, dimensions and certification requirements need separate confirmation.",
       "quotation": "Quotation confirmation",
       "quotationTitle": "Details required before production",
       "quotationBody": "Send the selected model and matching pipe information so the supplied saddle, paddle and signaling configuration follow the approved quotation.",
       "pipeSelection": "Pipe selection",
       "pipeSelectionBody": "Provide nominal size, actual pipe outside diameter and available installation space.",
       "electricalRequirement": "Electrical requirement",
-      "electricalRequirementBody": "Confirm the required contact form, AC/DC voltage, current and load type.",
+      "electricalRequirementBody": "Reference contact capacity: DC 24 V, 0.5 A. Confirm the rating, contact form and load type for the selected switch with the quotation. This is a contact rating, not a power-supply requirement.",
       "alarmRequirement": "Alarm requirement",
       "alarmRequirementBody": "Confirm the required alarm-flow and reset criteria for the project.",
       "orderInformation": "Order information",
       "orderInformationBody": "Provide quantity, destination, packing and required documents.",
       "inquiryTitle": "Send your ZSJZ waterflow-switch requirement",
-      "inquiryBody": "Include factory model, nominal pipe size, pipe outside diameter, electrical requirement, quantity and destination.",
+      "inquiryBody": "Start with the model or nominal pipe size and quantity. Add pipe outside diameter, electrical requirements and destination when available.",
       "askOnWhatsApp": "Ask on WhatsApp",
       "emailSales": "Email sales",
       "productImagePreview": "Product image preview",
@@ -155,7 +255,8 @@
       "nextProductImage": "Next product image",
       "selectProductImage": "Select product image",
       "seoTitle": "Saddle-Type Waterflow Switches | ZSJZ-M-1.2 | CHUANWEI FIRE",
-      "seoDescription": "ZSJZ-M-1.2 non-retard saddle-type waterflow switches for DN50 to DN200 wet-pipe sprinkler-system piping, rated at 1.2 MPa."
+      "seoDescription": "ZSJZ-M-1.2 non-retard saddle-type waterflow switches for DN50 to DN200 wet-pipe sprinkler-system piping, rated at 1.2 MPa.",
+      "contactCapacity": "Contact capacity (quotation reference)"
     },
     "ar": {
       "onThisPage": "في هذه الصفحة",
@@ -172,13 +273,13 @@
       "note": "تعرض صورة المنتج عينة DN100 كمرجع للسلسلة. يجب تأكيد القطر الخارجي للأنبوب وأبعاد التركيب ومتطلبات نقاط التلامس الكهربائية وتدفق الإنذار ومتطلبات إعادة الضبط قبل عرض السعر.",
       "gallery": "صورة المنتج",
       "galleryTitle": "عينة DN100 تمثيلية للسلسلة",
-      "galleryBody": "توضح صورة الخلفية البيضاء المؤرشفة جسم السرج ومشبك U وريشة الاستشعار لعينة DN100. ولا تثبت أبعاد كل المقاسات المدرجة.",
+      "galleryBody": "مثال DN100 يوضح الجسم المشبكي والمسمار على شكل U وريشة الاستشعار. تختلف الأبعاد حسب مقاس الأنبوب؛ اطلب رسم التركيب للموديل المطلوب.",
       "dn100Reference": "مفتاح تدفق مياه DN100 تمثيلي",
       "dn100Alt": "مفتاح تدفق مياه سرجي DN100 بعلبة حمراء وسرج من الحديد الدكتايل ومشبك U وريشة استشعار بيضاء",
       "dn100Thumbnail": "صورة مصغرة لمفتاح تدفق المياه DN100",
       "specifications": "المواصفات",
-      "specificationsTitle": "نطاق السلسلة المؤكد",
-      "specificationsBody": "تتبع السلسلة ونطاق الموديلات والضغط المقنن والبنية والمواد والاستخدام المقصود سجل v11 المعتمد. تبقى البيانات الكهربائية وبيانات التركيب غير المحسومة ضمن عناصر عرض السعر.",
+      "specificationsTitle": "مواصفات المنتج",
+      "specificationsBody": "قارن نطاق الموديلات والضغط المقنن والبنية والمواد والاستخدام المقصود أدناه. تُؤكد التفاصيل الكهربائية وتفاصيل التركيب مع عرض السعر.",
       "productType": "نوع المنتج",
       "factorySeries": "سلسلة المصنع",
       "nominalSizeRange": "نطاق مقاسات الأنابيب الاسمية",
@@ -196,26 +297,26 @@
       "packing": "التغليف",
       "confirmWithQuotation": "يُؤكد مع عرض السعر",
       "availableModels": "الموديلات المتاحة",
-      "modelsTitle": "جدول موديلات المصنع المعتمد",
+      "modelsTitle": "موديلات المصنع المتاحة",
       "modelsBody": "اختر مقاس الأنبوب الاسمي أولاً. صورة DN100 مرجع للسلسلة، ويجب تأكيد القطر الخارجي للأنبوب وأبعاد التركيب للموديل المختار.",
       "nominalPipeSize": "مقاس الأنبوب الاسمي",
       "factoryModel": "موديل المصنع",
       "temperature": "درجة الحرارة",
       "thermalElement": "عنصر الاستشعار",
-      "modelsNote": "يسجل جدول الموديلات نطاق اختيار المصنع المعتمد، ولا يثبت القيم الكهربائية أو الأبعاد أو نطاق أي اعتماد.",
+      "modelsNote": "جدول الموديلات مخصص لاختيار الطلب. تحتاج القيم الكهربائية والأبعاد ومتطلبات الاعتماد إلى تأكيد منفصل.",
       "quotation": "تأكيد عرض السعر",
       "quotationTitle": "التفاصيل المطلوبة قبل الإنتاج",
       "quotationBody": "أرسل الموديل المختار ومعلومات الأنبوب المطابقة حتى يتبع السرج والريشة وتكوين الإشارة عرض السعر المعتمد.",
       "pipeSelection": "اختيار الأنبوب",
       "pipeSelectionBody": "حدد المقاس الاسمي والقطر الخارجي الفعلي للأنبوب ومساحة التركيب المتاحة.",
       "electricalRequirement": "المتطلبات الكهربائية",
-      "electricalRequirementBody": "أكد نوع نقاط التلامس وجهد AC/DC والتيار ونوع الحمل المطلوب.",
+      "electricalRequirementBody": "قدرة نقاط التلامس المرجعية: DC 24 V, 0.5 A. أكد القيمة المقننة ونوع نقاط التلامس ونوع الحمل للمفتاح المختار مع عرض السعر. هذه قيمة مقننة لنقاط التلامس وليست متطلباً للتغذية الكهربائية.",
       "alarmRequirement": "متطلبات الإنذار",
       "alarmRequirementBody": "أكد معايير تدفق الإنذار وإعادة الضبط المطلوبة للمشروع.",
       "orderInformation": "معلومات الطلب",
       "orderInformationBody": "حدد الكمية والوجهة والتغليف والوثائق المطلوبة.",
       "inquiryTitle": "أرسل متطلبات مفتاح تدفق المياه ZSJZ",
-      "inquiryBody": "أدرج موديل المصنع ومقاس الأنبوب الاسمي والقطر الخارجي للأنبوب والمتطلبات الكهربائية والكمية والوجهة.",
+      "inquiryBody": "ابدأ بالموديل أو مقاس الأنبوب الاسمي والكمية. أضف القطر الخارجي للأنبوب والمتطلبات الكهربائية والوجهة عند توفرها.",
       "askOnWhatsApp": "استفسر عبر WhatsApp",
       "emailSales": "راسل قسم المبيعات",
       "productImagePreview": "معاينة صورة المنتج",
@@ -225,7 +326,8 @@
       "nextProductImage": "صورة المنتج التالية",
       "selectProductImage": "اختر صورة المنتج",
       "seoTitle": "مفاتيح تدفق مياه سرجية ZSJZ-M-1.2 | CHUANWEI FIRE",
-      "seoDescription": "مفاتيح تدفق مياه سرجية بدون مؤخر زمني من سلسلة ZSJZ-M-1.2 لأنابيب أنظمة الرش الرطب من DN50 إلى DN200 وبضغط مقنن 1.2 MPa."
+      "seoDescription": "مفاتيح تدفق مياه سرجية بدون مؤخر زمني من سلسلة ZSJZ-M-1.2 لأنابيب أنظمة الرش الرطب من DN50 إلى DN200 وبضغط مقنن 1.2 MPa.",
+      "contactCapacity": "قدرة نقاط التلامس (مرجع لعرض السعر)"
     }
   }
 }

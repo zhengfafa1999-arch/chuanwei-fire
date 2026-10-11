@@ -1,0 +1,21 @@
+{
+  "date": "2026-10-10",
+  "authority": "Direct user reply in this conversation",
+  "models": [
+    "ZSJZ 50-M-1.2EX",
+    "ZSJZ 65-M-1.2EX",
+    "ZSJZ 80-M-1.2EX",
+    "ZSJZ 100-M-1.2EX",
+    "ZSJZ 125-M-1.2EX",
+    "ZSJZ 150-M-1.2EX",
+    "ZSJZ 200-M-1.2EX",
+    "ZSJZ 250-M-1.2EX"
+  ],
+  "confirmed": "Eight factory references and matching nominal sizes including DN250",
+  "omitted": "User-provided unit prices remain private and are not published",
+  "notInferred": [
+    "1.2 MPa rating from model suffix",
+    "Explosion-protection grade from EX suffix",
+    "Contact rating from ordinary waterflow series"
+  ]
+}

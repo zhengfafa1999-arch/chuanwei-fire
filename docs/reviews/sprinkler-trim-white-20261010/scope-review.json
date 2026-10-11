@@ -1,0 +1,25 @@
+{
+  "unchanged": [
+    "Model/style table",
+    "Specifications",
+    "Inquiry text",
+    "Existing raw photograph assets and source backups",
+    "All other product image bindings",
+    "PDF"
+  ],
+  "changed": [
+    "Three accessory main/gallery images",
+    "Directory thumbnail",
+    "English/Arabic alt text and image-description copy"
+  ],
+  "before": {
+    "hero": "assets/products/sprinkler-trim/double-layer-escutcheon-1600.webp",
+    "flat": "assets/products/sprinkler-trim/single-layer-escutcheon-1600.webp",
+    "white": "assets/products/sprinkler-trim/white-round-cover-assembly-1600.webp"
+  },
+  "after": {
+    "hero": "assets/products/sprinkler-trim/double-layer-escutcheon-white-1254.webp",
+    "flat": "assets/products/sprinkler-trim/single-layer-escutcheon-white-1254.webp",
+    "white": "assets/products/sprinkler-trim/white-round-cover-assembly-white-1254.webp"
+  }
+}

@@ -1,0 +1,248 @@
+[
+  {
+    "configuration": "zstdy115-79-q5a",
+    "model": "ZSTDY115-79°C Q5A",
+    "rows": [
+      {
+        "label": "Factory reference",
+        "value": "ZSTDY115-79°C Q5A"
+      },
+      {
+        "label": "Connection",
+        "value": "BSPT"
+      },
+      {
+        "label": "Glass bulb diameter",
+        "value": "5 mm"
+      },
+      {
+        "label": "Sprinkler temperature",
+        "value": "79°C"
+      },
+      {
+        "label": "Material",
+        "value": "Copper frame"
+      },
+      {
+        "label": "Working pressure",
+        "value": "1.2 MPa / 12 bar"
+      }
+    ],
+    "documents": [
+      "ZSTDY115-79C-Q5A-隐蔽式洒水喷头/source/1688原始确认参数.json",
+      "ZSTDY115-79C-Q5A-隐蔽式洒水喷头/source/原始用户确认记录.json"
+    ],
+    "interpretation": "原始用户确认铜框架、5 mm、BSPT家族及1.2 MPa。6分保留内部原值，不推导国际螺纹尺寸。旧交叉表的出口映射阻塞不影响同一实物的制造事实，但不据此声明海外合规。"
+  },
+  {
+    "configuration": "zstdy115-93-q5a",
+    "model": "ZSTDY115-93°C Q5A",
+    "rows": [
+      {
+        "label": "Factory reference",
+        "value": "ZSTDY115-93°C Q5A"
+      },
+      {
+        "label": "Nominal size",
+        "value": "DN20"
+      },
+      {
+        "label": "Connection",
+        "value": "BSPT"
+      },
+      {
+        "label": "K-factor designation",
+        "value": "115 L/min/√bar"
+      },
+      {
+        "label": "Glass bulb diameter",
+        "value": "5 mm"
+      },
+      {
+        "label": "Sprinkler temperature",
+        "value": "93°C"
+      },
+      {
+        "label": "Material",
+        "value": "Copper frame"
+      },
+      {
+        "label": "Working pressure",
+        "value": "1.2 MPa / 12 bar"
+      }
+    ],
+    "documents": [
+      "ZSTDY115-93C-Q5A-隐蔽式洒水喷头/copy/本款新增参数用户确认.json",
+      "ZSTDY115-93C-Q5A-隐蔽式洒水喷头/manifest.json",
+      "ZSTDY115-93C-Q5A-隐蔽式洒水喷头/copy/事实来源与用户确认.json"
+    ],
+    "interpretation": "新增用户确认DN20、1.2 MPa、5 mm和公制K115；框架与BSPT由本型号原档案佐证。DN20不推出3/4 in。"
+  },
+  {
+    "configuration": "zstdy80-57-q5a",
+    "model": "ZSTDY80-57°C Q5A",
+    "rows": [
+      {
+        "label": "Factory reference",
+        "value": "ZSTDY80-57°C Q5A"
+      },
+      {
+        "label": "Nominal size",
+        "value": "DN15"
+      },
+      {
+        "label": "Connection",
+        "value": "BSPT"
+      },
+      {
+        "label": "Glass bulb diameter",
+        "value": "5 mm"
+      },
+      {
+        "label": "Sprinkler temperature",
+        "value": "57°C"
+      },
+      {
+        "label": "Material",
+        "value": "Copper frame"
+      },
+      {
+        "label": "Finish",
+        "value": "Electroplated"
+      },
+      {
+        "label": "Working pressure",
+        "value": "1.2 MPa / 12 bar"
+      }
+    ],
+    "documents": [
+      "ZSTDY80-57C-Q5A-隐蔽式洒水喷头/source/用户确认摘录.json",
+      "ZSTDY80-57C-Q5A-隐蔽式洒水喷头/manifest.json",
+      "ZSTDY80-57C-Q5A-隐蔽式洒水喷头/source/补充确认-产品组成与电镀.json"
+    ],
+    "interpretation": "原始用户确认DN15、铜框架、5 mm及1.2 MPa；另有电镀工艺确认，镀层金属未确认，不套用标准喷头镀铬。"
+  },
+  {
+    "configuration": "zstdy80-79-q5a",
+    "model": "ZSTDY80-79°C Q5A",
+    "rows": [
+      {
+        "label": "Factory reference",
+        "value": "ZSTDY80-79°C Q5A"
+      },
+      {
+        "label": "Nominal size",
+        "value": "DN15"
+      },
+      {
+        "label": "Connection",
+        "value": "BSPT"
+      },
+      {
+        "label": "Glass bulb diameter",
+        "value": "5 mm"
+      },
+      {
+        "label": "Sprinkler temperature",
+        "value": "79°C"
+      },
+      {
+        "label": "Working pressure",
+        "value": "≤1.2 MPa / ≤12 bar"
+      }
+    ],
+    "documents": [
+      "ZSTDY80-79C-Q5A-隐蔽式洒水喷头/copy/国际站首款试做-压力与DN15确认.json",
+      "ZSTDY80-79C-Q5A-隐蔽式洒水喷头/manifest.json",
+      "ZSTDY80-79C-Q5A-隐蔽式洒水喷头/copy/参数依据与国际表达核验.json"
+    ],
+    "interpretation": "原话为1.2 MPa以内，保留≤1.2 MPa / ≤12 bar；本型号5 mm与BSPT由原档案佐证。不添加响应类别或K单位。"
+  },
+  {
+    "configuration": "zstdy80-93-q3a",
+    "model": "ZSTDY80-93°C Q3A",
+    "rows": [
+      {
+        "label": "Factory reference",
+        "value": "ZSTDY80-93°C Q3A"
+      },
+      {
+        "label": "Nominal size",
+        "value": "DN15"
+      },
+      {
+        "label": "Connection",
+        "value": "BSPT"
+      },
+      {
+        "label": "K-factor designation",
+        "value": "K80"
+      },
+      {
+        "label": "Glass bulb diameter",
+        "value": "3 mm"
+      },
+      {
+        "label": "Sprinkler temperature",
+        "value": "93°C"
+      },
+      {
+        "label": "Material",
+        "value": "Copper frame"
+      },
+      {
+        "label": "Working pressure",
+        "value": "1.2 MPa / 12 bar"
+      }
+    ],
+    "documents": [
+      "ZSTDY80-93C-Q3A-隐蔽式洒水喷头/copy/最新用户确认摘录.json",
+      "ZSTDY80-93C-Q3A-隐蔽式洒水喷头/manifest.json"
+    ],
+    "interpretation": "原始K=115已被下一条用户K=80更正覆盖；仅显示K80代号，不补造本型号K单位。DN15不推出1/2 in。"
+  },
+  {
+    "configuration": "zstdy80-141-q5a",
+    "model": "ZSTDY80-141°C Q5A",
+    "rows": [
+      {
+        "label": "Factory reference",
+        "value": "ZSTDY80-141°C Q5A"
+      },
+      {
+        "label": "Nominal size",
+        "value": "DN15"
+      },
+      {
+        "label": "Connection",
+        "value": "BSPT"
+      },
+      {
+        "label": "K-factor designation",
+        "value": "80 L/min/√bar"
+      },
+      {
+        "label": "Glass bulb diameter",
+        "value": "5 mm"
+      },
+      {
+        "label": "Sprinkler temperature",
+        "value": "141°C"
+      },
+      {
+        "label": "Material",
+        "value": "Copper frame"
+      },
+      {
+        "label": "Working pressure",
+        "value": "1.2 MPa / 12 bar"
+      }
+    ],
+    "documents": [
+      "ZSTDY80-141C-Q5A-隐蔽式洒水喷头/copy/最新用户参数确认.json",
+      "ZSTDY80-141C-Q5A-隐蔽式洒水喷头/manifest.json",
+      "ZSTDY80-141C-Q5A-隐蔽式洒水喷头/copy/事实来源与出口核验.json"
+    ],
+    "interpretation": "最新用户直接确认标准响应、DN15、1.2 MPa、公制K80；旧同型号资料确认铜框架、5 mm和BSPT。压力不扩大为全系列或试验压力。"
+  }
+]

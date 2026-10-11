@@ -1,0 +1,927 @@
+[
+  {
+    "id": "home",
+    "locale": "en",
+    "path": "index.html"
+  },
+  {
+    "id": "home",
+    "locale": "zh",
+    "path": "zh/index.html"
+  },
+  {
+    "id": "home",
+    "locale": "ar",
+    "path": "ar/index.html"
+  },
+  {
+    "id": "products",
+    "locale": "en",
+    "path": "products.html"
+  },
+  {
+    "id": "products",
+    "locale": "ar",
+    "path": "ar/products.html"
+  },
+  {
+    "id": "about",
+    "locale": "en",
+    "path": "about.html"
+  },
+  {
+    "id": "about",
+    "locale": "ar",
+    "path": "ar/about.html"
+  },
+  {
+    "id": "downloads",
+    "locale": "en",
+    "path": "downloads.html"
+  },
+  {
+    "id": "downloads",
+    "locale": "ar",
+    "path": "ar/downloads.html"
+  },
+  {
+    "id": "contact",
+    "locale": "en",
+    "path": "contact.html"
+  },
+  {
+    "id": "contact",
+    "locale": "ar",
+    "path": "ar/contact.html"
+  },
+  {
+    "id": "category:foam-nozzles",
+    "locale": "en",
+    "path": "products/foam-nozzles.html"
+  },
+  {
+    "id": "category:foam-nozzles",
+    "locale": "ar",
+    "path": "ar/products/foam-nozzles/index.html"
+  },
+  {
+    "id": "category:sprinklers",
+    "locale": "en",
+    "path": "products/消防喷头.html"
+  },
+  {
+    "id": "category:sprinklers",
+    "locale": "ar",
+    "path": "ar/products/sprinklers/index.html"
+  },
+  {
+    "id": "category:system-valves",
+    "locale": "en",
+    "path": "products/消防阀.html"
+  },
+  {
+    "id": "category:system-valves",
+    "locale": "ar",
+    "path": "ar/products/system-valves/index.html"
+  },
+  {
+    "id": "category:butterfly-valves",
+    "locale": "en",
+    "path": "products/消防蝶阀.html"
+  },
+  {
+    "id": "category:butterfly-valves",
+    "locale": "ar",
+    "path": "ar/products/butterfly-valves/index.html"
+  },
+  {
+    "id": "category:gate-valves",
+    "locale": "en",
+    "path": "products/消防阀门.html"
+  },
+  {
+    "id": "category:gate-valves",
+    "locale": "ar",
+    "path": "ar/products/gate-valves/index.html"
+  },
+  {
+    "id": "category:hose-reels",
+    "locale": "en",
+    "path": "products/软管卷盘.html"
+  },
+  {
+    "id": "category:hose-reels",
+    "locale": "ar",
+    "path": "ar/products/hose-reels/index.html"
+  },
+  {
+    "id": "category:hoses-nozzles-couplings",
+    "locale": "en",
+    "path": "products/消防水枪.html"
+  },
+  {
+    "id": "category:hoses-nozzles-couplings",
+    "locale": "ar",
+    "path": "ar/products/hoses-nozzles-couplings/index.html"
+  },
+  {
+    "id": "category:indoor-hydrants",
+    "locale": "en",
+    "path": "products/室内消防栓/室内消防栓.html"
+  },
+  {
+    "id": "category:indoor-hydrants",
+    "locale": "ar",
+    "path": "ar/products/indoor-hydrants/index.html"
+  },
+  {
+    "id": "category:outdoor-hydrants",
+    "locale": "en",
+    "path": "products/室外消防栓/室外消防栓.html"
+  },
+  {
+    "id": "category:outdoor-hydrants",
+    "locale": "ar",
+    "path": "ar/products/outdoor-hydrants/index.html"
+  },
+  {
+    "id": "category:fire-department-connections",
+    "locale": "en",
+    "path": "products/消防水泵接合器.html"
+  },
+  {
+    "id": "category:fire-department-connections",
+    "locale": "ar",
+    "path": "ar/products/fire-department-connections/index.html"
+  },
+  {
+    "id": "category:fire-equipment-cabinets",
+    "locale": "en",
+    "path": "products/消防器材箱.html"
+  },
+  {
+    "id": "category:fire-equipment-cabinets",
+    "locale": "ar",
+    "path": "ar/products/fire-equipment-cabinets/index.html"
+  },
+  {
+    "id": "product:wet-alarm-check-valve",
+    "locale": "en",
+    "path": "products/消防阀/wet-alarm-check-valve-assemblies.html"
+  },
+  {
+    "id": "product:wet-alarm-check-valve",
+    "locale": "ar",
+    "path": "ar/products/wet-alarm-check-valve/index.html"
+  },
+  {
+    "id": "product:diaphragm-deluge-valves",
+    "locale": "en",
+    "path": "products/消防阀/diaphragm-deluge-valves.html"
+  },
+  {
+    "id": "product:diaphragm-deluge-valves",
+    "locale": "ar",
+    "path": "ar/products/diaphragm-deluge-valves/index.html"
+  },
+  {
+    "id": "product:preaction-valve-assemblies",
+    "locale": "en",
+    "path": "products/消防阀/preaction-valve-assemblies.html"
+  },
+  {
+    "id": "product:preaction-valve-assemblies",
+    "locale": "ar",
+    "path": "ar/products/preaction-valve-assemblies/index.html"
+  },
+  {
+    "id": "product:dry-pipe-alarm-valves",
+    "locale": "en",
+    "path": "products/消防阀/dry-pipe-alarm-valves.html"
+  },
+  {
+    "id": "product:dry-pipe-alarm-valves",
+    "locale": "ar",
+    "path": "ar/products/dry-pipe-alarm-valves/index.html"
+  },
+  {
+    "id": "product:saddle-type-waterflow-switches",
+    "locale": "en",
+    "path": "products/消防阀/saddle-type-waterflow-switches.html"
+  },
+  {
+    "id": "product:saddle-type-waterflow-switches",
+    "locale": "ar",
+    "path": "ar/products/saddle-type-waterflow-switches/index.html"
+  },
+  {
+    "id": "product:explosion-proof-waterflow-switches",
+    "locale": "en",
+    "path": "products/消防阀/explosion-proof-waterflow-switches.html"
+  },
+  {
+    "id": "product:explosion-proof-waterflow-switches",
+    "locale": "ar",
+    "path": "ar/products/explosion-proof-waterflow-switches/index.html"
+  },
+  {
+    "id": "product:fire-pressure-switch",
+    "locale": "en",
+    "path": "products/消防阀/fire-pressure-switch.html"
+  },
+  {
+    "id": "product:fire-pressure-switch",
+    "locale": "ar",
+    "path": "ar/products/fire-pressure-switch/index.html"
+  },
+  {
+    "id": "product:explosion-proof-pressure-switch",
+    "locale": "en",
+    "path": "products/消防阀/explosion-proof-pressure-switch.html"
+  },
+  {
+    "id": "product:explosion-proof-pressure-switch",
+    "locale": "ar",
+    "path": "ar/products/explosion-proof-pressure-switch/index.html"
+  },
+  {
+    "id": "product:explosion-proof-solenoid-valve",
+    "locale": "en",
+    "path": "products/消防阀/explosion-proof-solenoid-valve.html"
+  },
+  {
+    "id": "product:explosion-proof-solenoid-valve",
+    "locale": "ar",
+    "path": "ar/products/explosion-proof-solenoid-valve/index.html"
+  },
+  {
+    "id": "product:sprinkler-escutcheons-decorative-covers",
+    "locale": "en",
+    "path": "products/消防喷头/sprinkler-escutcheons-decorative-covers.html"
+  },
+  {
+    "id": "product:sprinkler-escutcheons-decorative-covers",
+    "locale": "ar",
+    "path": "ar/products/sprinkler-escutcheons-decorative-covers/index.html"
+  },
+  {
+    "id": "product:closed-rotating-fire-sprinkler",
+    "locale": "en",
+    "path": "products/closed-rotating-fire-sprinkler.html"
+  },
+  {
+    "id": "product:closed-rotating-fire-sprinkler",
+    "locale": "ar",
+    "path": "ar/products/closed-rotating-fire-sprinkler/index.html"
+  },
+  {
+    "id": "product:closed-centrifugal-fire-sprinklers",
+    "locale": "en",
+    "path": "products/closed-centrifugal-fire-sprinklers.html"
+  },
+  {
+    "id": "product:closed-centrifugal-fire-sprinklers",
+    "locale": "ar",
+    "path": "ar/products/closed-centrifugal-fire-sprinklers/index.html"
+  },
+  {
+    "id": "product:tubular-foam-water-nozzles",
+    "locale": "en",
+    "path": "products/tubular-foam-water-nozzles.html"
+  },
+  {
+    "id": "product:tubular-foam-water-nozzles",
+    "locale": "ar",
+    "path": "ar/products/tubular-foam-water-nozzles/index.html"
+  },
+  {
+    "id": "product:closed-air-aspirating-foam-water-sprinkler",
+    "locale": "en",
+    "path": "products/closed-air-aspirating-foam-water-sprinkler.html"
+  },
+  {
+    "id": "product:closed-air-aspirating-foam-water-sprinkler",
+    "locale": "ar",
+    "path": "ar/products/closed-air-aspirating-foam-water-sprinkler/index.html"
+  },
+  {
+    "id": "product:water-curtain-nozzles",
+    "locale": "en",
+    "path": "products/消防喷头/water-curtain-nozzles.html"
+  },
+  {
+    "id": "product:water-curtain-nozzles",
+    "locale": "ar",
+    "path": "ar/products/water-curtain-nozzles/index.html"
+  },
+  {
+    "id": "product:water-mist-nozzles",
+    "locale": "en",
+    "path": "products/消防喷头/water-mist-nozzles.html"
+  },
+  {
+    "id": "product:water-mist-nozzles",
+    "locale": "ar",
+    "path": "ar/products/water-mist-nozzles/index.html"
+  },
+  {
+    "id": "product:standard-response-fire-sprinkler",
+    "locale": "en",
+    "path": "products/消防喷头/standard-response-fire-sprinkler.html"
+  },
+  {
+    "id": "product:standard-response-fire-sprinkler",
+    "locale": "ar",
+    "path": "ar/products/standard-response-fire-sprinkler/index.html"
+  },
+  {
+    "id": "product:fusible-alloy-fire-sprinklers",
+    "locale": "en",
+    "path": "products/消防喷头/fusible-alloy-fire-sprinklers.html"
+  },
+  {
+    "id": "product:fusible-alloy-fire-sprinklers",
+    "locale": "ar",
+    "path": "ar/products/fusible-alloy-fire-sprinklers/index.html"
+  },
+  {
+    "id": "product:glass-bulb-fire-sprinkler",
+    "locale": "en",
+    "path": "products/消防喷头/glass-bulb-fire-sprinkler.html"
+  },
+  {
+    "id": "product:glass-bulb-fire-sprinkler",
+    "locale": "ar",
+    "path": "ar/products/glass-bulb-fire-sprinkler/index.html"
+  },
+  {
+    "id": "product:concealed-pendent-fire-sprinkler",
+    "locale": "en",
+    "path": "products/消防喷头/concealed-pendent-fire-sprinkler.html"
+  },
+  {
+    "id": "product:concealed-pendent-fire-sprinkler",
+    "locale": "ar",
+    "path": "ar/products/concealed-pendent-fire-sprinkler/index.html"
+  },
+  {
+    "id": "product:dry-pendent-fire-sprinklers",
+    "locale": "en",
+    "path": "products/消防喷头/dry-pendent-fire-sprinklers.html"
+  },
+  {
+    "id": "product:dry-pendent-fire-sprinklers",
+    "locale": "ar",
+    "path": "ar/products/dry-pendent-fire-sprinklers/index.html"
+  },
+  {
+    "id": "product:extended-coverage-quick-response-fire-sprinkler",
+    "locale": "en",
+    "path": "products/消防喷头/extended-coverage-quick-response-fire-sprinkler.html"
+  },
+  {
+    "id": "product:extended-coverage-quick-response-fire-sprinkler",
+    "locale": "ar",
+    "path": "ar/products/extended-coverage-quick-response-fire-sprinkler/index.html"
+  },
+  {
+    "id": "product:large-k-factor-esfr-sprinklers",
+    "locale": "en",
+    "path": "products/消防喷头/large-k-factor-esfr-sprinklers.html"
+  },
+  {
+    "id": "product:large-k-factor-esfr-sprinklers",
+    "locale": "ar",
+    "path": "ar/products/large-k-factor-esfr-sprinklers/index.html"
+  },
+  {
+    "id": "product:ria25-fire-hose-reel",
+    "locale": "en",
+    "path": "products/软管卷盘/ria25-fire-hose-reel.html"
+  },
+  {
+    "id": "product:ria25-fire-hose-reel",
+    "locale": "ar",
+    "path": "ar/products/ria25-fire-hose-reel/index.html"
+  },
+  {
+    "id": "product:straight-stream-fire-hose-reel",
+    "locale": "en",
+    "path": "products/软管卷盘/straight-stream-fire-hose-reel.html"
+  },
+  {
+    "id": "product:straight-stream-fire-hose-reel",
+    "locale": "ar",
+    "path": "ar/products/straight-stream-fire-hose-reel/index.html"
+  },
+  {
+    "id": "product:jet-spray-fire-hose-reel",
+    "locale": "en",
+    "path": "products/软管卷盘/jet-spray-fire-hose-reel.html"
+  },
+  {
+    "id": "product:jet-spray-fire-hose-reel",
+    "locale": "ar",
+    "path": "ar/products/jet-spray-fire-hose-reel/index.html"
+  },
+  {
+    "id": "product:heavy-duty-fire-hose-reel",
+    "locale": "en",
+    "path": "products/软管卷盘/heavy-duty-fire-hose-reel.html"
+  },
+  {
+    "id": "product:heavy-duty-fire-hose-reel",
+    "locale": "ar",
+    "path": "ar/products/heavy-duty-fire-hose-reel/index.html"
+  },
+  {
+    "id": "product:lever-operated-grooved-butterfly-valves",
+    "locale": "en",
+    "path": "products/消防蝶阀/lever-operated-grooved-butterfly-valves.html"
+  },
+  {
+    "id": "product:lever-operated-grooved-butterfly-valves",
+    "locale": "ar",
+    "path": "ar/products/lever-operated-grooved-butterfly-valves/index.html"
+  },
+  {
+    "id": "product:lever-operated-wafer-butterfly-valves",
+    "locale": "en",
+    "path": "products/消防蝶阀/lever-operated-wafer-butterfly-valves.html"
+  },
+  {
+    "id": "product:lever-operated-wafer-butterfly-valves",
+    "locale": "ar",
+    "path": "ar/products/lever-operated-wafer-butterfly-valves/index.html"
+  },
+  {
+    "id": "product:grooved-supervisory-butterfly-valves",
+    "locale": "en",
+    "path": "products/消防蝶阀/grooved-supervisory-butterfly-valves.html"
+  },
+  {
+    "id": "product:grooved-supervisory-butterfly-valves",
+    "locale": "ar",
+    "path": "ar/products/grooved-supervisory-butterfly-valves/index.html"
+  },
+  {
+    "id": "product:wafer-supervisory-butterfly-valves",
+    "locale": "en",
+    "path": "products/消防蝶阀/wafer-supervisory-butterfly-valves.html"
+  },
+  {
+    "id": "product:wafer-supervisory-butterfly-valves",
+    "locale": "ar",
+    "path": "ar/products/wafer-supervisory-butterfly-valves/index.html"
+  },
+  {
+    "id": "product:flanged-supervisory-gate-valves",
+    "locale": "en",
+    "path": "products/消防阀门/flanged-supervisory-gate-valves.html"
+  },
+  {
+    "id": "product:flanged-supervisory-gate-valves",
+    "locale": "ar",
+    "path": "ar/products/flanged-supervisory-gate-valves/index.html"
+  },
+  {
+    "id": "product:grooved-supervisory-gate-valves",
+    "locale": "en",
+    "path": "products/消防阀门/grooved-supervisory-gate-valves.html"
+  },
+  {
+    "id": "product:grooved-supervisory-gate-valves",
+    "locale": "ar",
+    "path": "ar/products/grooved-supervisory-gate-valves/index.html"
+  },
+  {
+    "id": "product:nrs-gate-valves",
+    "locale": "en",
+    "path": "products/消防阀门/nrs-gate-valves.html"
+  },
+  {
+    "id": "product:nrs-gate-valves",
+    "locale": "ar",
+    "path": "ar/products/nrs-gate-valves/index.html"
+  },
+  {
+    "id": "product:osy-gate-valves",
+    "locale": "en",
+    "path": "products/消防阀门/osy-gate-valves.html"
+  },
+  {
+    "id": "product:osy-gate-valves",
+    "locale": "ar",
+    "path": "ar/products/osy-gate-valves/index.html"
+  },
+  {
+    "id": "product:standard-indoor-hydrant",
+    "locale": "en",
+    "path": "products/室内消防栓/standard-indoor-hydrant.html"
+  },
+  {
+    "id": "product:standard-indoor-hydrant",
+    "locale": "ar",
+    "path": "ar/products/standard-indoor-hydrant/index.html"
+  },
+  {
+    "id": "product:export-slanted-hydrant-valve",
+    "locale": "en",
+    "path": "products/室内消防栓/export-slanted-hydrant-valve.html"
+  },
+  {
+    "id": "product:export-slanted-hydrant-valve",
+    "locale": "ar",
+    "path": "ar/products/export-slanted-hydrant-valve/index.html"
+  },
+  {
+    "id": "product:double-outlet-hydrant",
+    "locale": "en",
+    "path": "products/室内消防栓/double-outlet-hydrant.html"
+  },
+  {
+    "id": "product:double-outlet-hydrant",
+    "locale": "ar",
+    "path": "ar/products/double-outlet-hydrant/index.html"
+  },
+  {
+    "id": "product:rotating-pressure-regulating-hydrant",
+    "locale": "en",
+    "path": "products/室内消防栓/rotating-pressure-regulating-hydrant.html"
+  },
+  {
+    "id": "product:rotating-pressure-regulating-hydrant",
+    "locale": "ar",
+    "path": "ar/products/rotating-pressure-regulating-hydrant/index.html"
+  },
+  {
+    "id": "product:straight-through-oblique-landing-valves",
+    "locale": "en",
+    "path": "products/室内消防栓/straight-through-oblique-landing-valves.html"
+  },
+  {
+    "id": "product:straight-through-oblique-landing-valves",
+    "locale": "ar",
+    "path": "ar/products/straight-through-oblique-landing-valves/index.html"
+  },
+  {
+    "id": "product:horizontal-handwheel-landing-valves",
+    "locale": "en",
+    "path": "products/室内消防栓/horizontal-handwheel-landing-valves.html"
+  },
+  {
+    "id": "product:horizontal-handwheel-landing-valves",
+    "locale": "ar",
+    "path": "ar/products/horizontal-handwheel-landing-valves/index.html"
+  },
+  {
+    "id": "product:bs750-pillar-hydrant",
+    "locale": "en",
+    "path": "products/室外消防栓/bs750-pillar-hydrant.html"
+  },
+  {
+    "id": "product:bs750-pillar-hydrant",
+    "locale": "ar",
+    "path": "ar/products/bs750-pillar-hydrant/index.html"
+  },
+  {
+    "id": "product:french-pattern-hydrant",
+    "locale": "en",
+    "path": "products/室外消防栓/french-pattern-hydrant.html"
+  },
+  {
+    "id": "product:french-pattern-hydrant",
+    "locale": "ar",
+    "path": "ar/products/french-pattern-hydrant/index.html"
+  },
+  {
+    "id": "product:indonesian-pattern-hydrant",
+    "locale": "en",
+    "path": "products/室外消防栓/indonesian-pattern-hydrant.html"
+  },
+  {
+    "id": "product:indonesian-pattern-hydrant",
+    "locale": "ar",
+    "path": "ar/products/indonesian-pattern-hydrant/index.html"
+  },
+  {
+    "id": "product:russian-pattern-hydrant",
+    "locale": "en",
+    "path": "products/室外消防栓/russian-pattern-hydrant.html"
+  },
+  {
+    "id": "product:russian-pattern-hydrant",
+    "locale": "ar",
+    "path": "ar/products/russian-pattern-hydrant/index.html"
+  },
+  {
+    "id": "product:lever-operated-fire-hose-nozzles",
+    "locale": "en",
+    "path": "products/消防水枪/lever-operated-fire-hose-nozzles.html"
+  },
+  {
+    "id": "product:lever-operated-fire-hose-nozzles",
+    "locale": "ar",
+    "path": "ar/products/lever-operated-fire-hose-nozzles/index.html"
+  },
+  {
+    "id": "product:straight-stream-fire-hose-nozzles",
+    "locale": "en",
+    "path": "products/消防水枪/straight-stream-fire-hose-nozzles.html"
+  },
+  {
+    "id": "product:straight-stream-fire-hose-nozzles",
+    "locale": "ar",
+    "path": "ar/products/straight-stream-fire-hose-nozzles/index.html"
+  },
+  {
+    "id": "product:combination-jet-fog-nozzles",
+    "locale": "en",
+    "path": "products/消防水枪/combination-jet-fog-nozzles.html"
+  },
+  {
+    "id": "product:combination-jet-fog-nozzles",
+    "locale": "ar",
+    "path": "ar/products/combination-jet-fog-nozzles/index.html"
+  },
+  {
+    "id": "product:kd-hose-couplings",
+    "locale": "en",
+    "path": "products/消防水枪/kd-hose-couplings.html"
+  },
+  {
+    "id": "product:kd-hose-couplings",
+    "locale": "ar",
+    "path": "ar/products/kd-hose-couplings/index.html"
+  },
+  {
+    "id": "product:kn-threaded-adapters",
+    "locale": "en",
+    "path": "products/消防水枪/kn-threaded-adapters.html"
+  },
+  {
+    "id": "product:kn-threaded-adapters",
+    "locale": "ar",
+    "path": "ar/products/kn-threaded-adapters/index.html"
+  },
+  {
+    "id": "product:russian-pattern-fire-department-connection",
+    "locale": "en",
+    "path": "products/消防水泵接合器/russian-pattern-fire-department-connection.html"
+  },
+  {
+    "id": "product:russian-pattern-fire-department-connection",
+    "locale": "ar",
+    "path": "ar/products/russian-pattern-fire-department-connection/index.html"
+  },
+  {
+    "id": "product:fire-equipment-cabinets",
+    "locale": "en",
+    "path": "products/消防器材箱/fire-equipment-cabinets.html"
+  },
+  {
+    "id": "product:fire-equipment-cabinets",
+    "locale": "ar",
+    "path": "ar/products/fire-equipment-cabinet-series/index.html"
+  },
+  {
+    "id": "product:catalog-brass-finish-hose-valves-page-07",
+    "locale": "en",
+    "path": "products/室内消防栓/catalog-brass-finish-hose-valves-page-07.html"
+  },
+  {
+    "id": "product:catalog-brass-finish-hose-valves-page-07",
+    "locale": "ar",
+    "path": "ar/products/catalog-brass-finish-hose-valves-page-07/index.html"
+  },
+  {
+    "id": "product:catalog-brass-finish-hose-valves-page-08",
+    "locale": "en",
+    "path": "products/室内消防栓/catalog-brass-finish-hose-valves-page-08.html"
+  },
+  {
+    "id": "product:catalog-brass-finish-hose-valves-page-08",
+    "locale": "ar",
+    "path": "ar/products/catalog-brass-finish-hose-valves-page-08/index.html"
+  },
+  {
+    "id": "product:catalog-hose-valves-page-09",
+    "locale": "en",
+    "path": "products/室内消防栓/catalog-hose-valves-page-09.html"
+  },
+  {
+    "id": "product:catalog-hose-valves-page-09",
+    "locale": "ar",
+    "path": "ar/products/catalog-hose-valves-page-09/index.html"
+  },
+  {
+    "id": "product:catalog-hose-valves-page-10",
+    "locale": "en",
+    "path": "products/室内消防栓/catalog-hose-valves-page-10.html"
+  },
+  {
+    "id": "product:catalog-hose-valves-page-10",
+    "locale": "ar",
+    "path": "ar/products/catalog-hose-valves-page-10/index.html"
+  },
+  {
+    "id": "product:catalog-hose-valves-page-11",
+    "locale": "en",
+    "path": "products/室内消防栓/catalog-hose-valves-page-11.html"
+  },
+  {
+    "id": "product:catalog-hose-valves-page-11",
+    "locale": "ar",
+    "path": "ar/products/catalog-hose-valves-page-11/index.html"
+  },
+  {
+    "id": "product:catalog-hose-valves-page-12",
+    "locale": "en",
+    "path": "products/室内消防栓/catalog-hose-valves-page-12.html"
+  },
+  {
+    "id": "product:catalog-hose-valves-page-12",
+    "locale": "ar",
+    "path": "ar/products/catalog-hose-valves-page-12/index.html"
+  },
+  {
+    "id": "product:catalog-twin-outlet-fire-connections-page-13",
+    "locale": "en",
+    "path": "products/消防水泵接合器/catalog-twin-outlet-fire-connections-page-13.html"
+  },
+  {
+    "id": "product:catalog-twin-outlet-fire-connections-page-13",
+    "locale": "ar",
+    "path": "ar/products/catalog-twin-outlet-fire-connections-page-13/index.html"
+  },
+  {
+    "id": "product:catalog-hydrant-auxiliary-valves-page-14",
+    "locale": "en",
+    "path": "products/室内消防栓/catalog-hydrant-auxiliary-valves-page-14.html"
+  },
+  {
+    "id": "product:catalog-hydrant-auxiliary-valves-page-14",
+    "locale": "ar",
+    "path": "ar/products/catalog-hydrant-auxiliary-valves-page-14/index.html"
+  },
+  {
+    "id": "product:catalog-fire-connections-distributors-page-15",
+    "locale": "en",
+    "path": "products/消防水泵接合器/catalog-fire-connections-distributors-page-15.html"
+  },
+  {
+    "id": "product:catalog-fire-connections-distributors-page-15",
+    "locale": "ar",
+    "path": "ar/products/catalog-fire-connections-distributors-page-15/index.html"
+  },
+  {
+    "id": "product:catalog-long-straight-stream-nozzles-page-16",
+    "locale": "en",
+    "path": "products/消防水枪/catalog-long-straight-stream-nozzles-page-16.html"
+  },
+  {
+    "id": "product:catalog-long-straight-stream-nozzles-page-16",
+    "locale": "ar",
+    "path": "ar/products/catalog-long-straight-stream-nozzles-page-16/index.html"
+  },
+  {
+    "id": "product:catalog-compact-straight-stream-nozzles-page-17",
+    "locale": "en",
+    "path": "products/消防水枪/catalog-compact-straight-stream-nozzles-page-17.html"
+  },
+  {
+    "id": "product:catalog-compact-straight-stream-nozzles-page-17",
+    "locale": "ar",
+    "path": "ar/products/catalog-compact-straight-stream-nozzles-page-17/index.html"
+  },
+  {
+    "id": "product:catalog-coupled-lever-nozzles-page-18",
+    "locale": "en",
+    "path": "products/消防水枪/catalog-coupled-lever-nozzles-page-18.html"
+  },
+  {
+    "id": "product:catalog-coupled-lever-nozzles-page-18",
+    "locale": "ar",
+    "path": "ar/products/catalog-coupled-lever-nozzles-page-18/index.html"
+  },
+  {
+    "id": "product:catalog-nozzles-inductors-connections-page-19",
+    "locale": "en",
+    "path": "products/消防水枪/catalog-nozzles-inductors-connections-page-19.html"
+  },
+  {
+    "id": "product:catalog-nozzles-inductors-connections-page-19",
+    "locale": "ar",
+    "path": "ar/products/catalog-nozzles-inductors-connections-page-19/index.html"
+  },
+  {
+    "id": "product:catalog-fire-hose-couplings-page-20",
+    "locale": "en",
+    "path": "products/消防水枪/catalog-fire-hose-couplings-page-20.html"
+  },
+  {
+    "id": "product:catalog-fire-hose-couplings-page-20",
+    "locale": "ar",
+    "path": "ar/products/catalog-fire-hose-couplings-page-20/index.html"
+  },
+  {
+    "id": "product:catalog-fire-hose-adapters-page-21",
+    "locale": "en",
+    "path": "products/消防水枪/catalog-fire-hose-adapters-page-21.html"
+  },
+  {
+    "id": "product:catalog-fire-hose-adapters-page-21",
+    "locale": "ar",
+    "path": "ar/products/catalog-fire-hose-adapters-page-21/index.html"
+  },
+  {
+    "id": "product:catalog-compact-spray-nozzles-page-22",
+    "locale": "en",
+    "path": "products/消防水枪/catalog-compact-spray-nozzles-page-22.html"
+  },
+  {
+    "id": "product:catalog-compact-spray-nozzles-page-22",
+    "locale": "ar",
+    "path": "ar/products/catalog-compact-spray-nozzles-page-22/index.html"
+  },
+  {
+    "id": "product:catalog-red-grip-nozzles-page-23",
+    "locale": "en",
+    "path": "products/消防水枪/catalog-red-grip-nozzles-page-23.html"
+  },
+  {
+    "id": "product:catalog-red-grip-nozzles-page-23",
+    "locale": "ar",
+    "path": "ar/products/catalog-red-grip-nozzles-page-23/index.html"
+  },
+  {
+    "id": "product:catalog-hose-tails-adapters-page-24",
+    "locale": "en",
+    "path": "products/消防水枪/catalog-hose-tails-adapters-page-24.html"
+  },
+  {
+    "id": "product:catalog-hose-tails-adapters-page-24",
+    "locale": "ar",
+    "path": "ar/products/catalog-hose-tails-adapters-page-24/index.html"
+  },
+  {
+    "id": "product:catalog-threaded-adapters-caps-page-25",
+    "locale": "en",
+    "path": "products/消防水枪/catalog-threaded-adapters-caps-page-25.html"
+  },
+  {
+    "id": "product:catalog-threaded-adapters-caps-page-25",
+    "locale": "ar",
+    "path": "ar/products/catalog-threaded-adapters-caps-page-25/index.html"
+  },
+  {
+    "id": "product:catalog-blank-caps-plug-adapters-page-26",
+    "locale": "en",
+    "path": "products/消防水枪/catalog-blank-caps-plug-adapters-page-26.html"
+  },
+  {
+    "id": "product:catalog-blank-caps-plug-adapters-page-26",
+    "locale": "ar",
+    "path": "ar/products/catalog-blank-caps-plug-adapters-page-26/index.html"
+  },
+  {
+    "id": "product:catalog-hose-reel-parts-page-27",
+    "locale": "en",
+    "path": "products/软管卷盘/catalog-hose-reel-parts-page-27.html"
+  },
+  {
+    "id": "product:catalog-hose-reel-parts-page-27",
+    "locale": "ar",
+    "path": "ar/products/catalog-hose-reel-parts-page-27/index.html"
+  },
+  {
+    "id": "product:catalog-hose-assemblies-reels-page-28",
+    "locale": "en",
+    "path": "products/软管卷盘/catalog-hose-assemblies-reels-page-28.html"
+  },
+  {
+    "id": "product:catalog-hose-assemblies-reels-page-28",
+    "locale": "ar",
+    "path": "ar/products/catalog-hose-assemblies-reels-page-28/index.html"
+  },
+  {
+    "id": "product:catalog-fire-cabinets-page-30",
+    "locale": "en",
+    "path": "products/消防器材箱/catalog-fire-cabinets-page-30.html"
+  },
+  {
+    "id": "product:catalog-fire-cabinets-page-30",
+    "locale": "ar",
+    "path": "ar/products/catalog-fire-cabinets-page-30/index.html"
+  },
+  {
+    "id": "product:catalog-outdoor-hydrant-configurations-page-31",
+    "locale": "en",
+    "path": "products/室外消防栓/catalog-outdoor-hydrant-configurations-page-31.html"
+  },
+  {
+    "id": "product:catalog-outdoor-hydrant-configurations-page-31",
+    "locale": "ar",
+    "path": "ar/products/catalog-outdoor-hydrant-configurations-page-31/index.html"
+  }
+]

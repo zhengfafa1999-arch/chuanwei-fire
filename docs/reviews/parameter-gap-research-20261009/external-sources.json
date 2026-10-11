@@ -1,0 +1,32 @@
+{
+  "date": "2026-10-09",
+  "liveAlibabaAccess": "workctl 0.1.58; auth status requires accio-id; interactive alibaba login failed with cli_unclassified_error. No seller writes.",
+  "public1688": "Exact model searches did not yield usable owned listings. This does not establish that no listing exists.",
+  "sources": [
+    {
+      "url": "https://www.alibaba.com/product-detail/Dn20-Chrome-Finished-Fire-Sprinkler-K5_1601667485144.html",
+      "owner": "Shandong Taikong Fire Technology Co., Ltd.",
+      "outcome": "不同厂家，属性区不锈钢/黄铜本身混杂；不可用作冠亚干式型号材质证据。"
+    },
+    {
+      "url": "https://zh-cn.jinyuanfire.com/product/standard-response-sprinkler",
+      "owner": "Jinyuan manufacturer",
+      "outcome": "包含T/K-ZSTGX干式型号，但接口为1 in NPT等，厂商及配置不同，不移植其参数。"
+    },
+    {
+      "url": "https://www.lessobh.com/product/Automatic-Sprinkler-System/466.html",
+      "owner": "LESSO 联塑官方产品页",
+      "outcome": "ZSJZ本厂触点和报警流量可见，但不是冠亚当前型号，不填入官网。"
+    },
+    {
+      "url": "https://www.guanya119.com/pd.jsp?id=137",
+      "owner": "冠亚消防原厂网站",
+      "outcome": "搜索可索引喷头标题，直接读取超时，无新增匹配技术参数。"
+    },
+    {
+      "url": "https://www.guanya119.com/pd.jsp?id=349",
+      "owner": "冠亚消防原厂网站",
+      "outcome": "搜索可索引ZSXZF4-Q-100-16标题；未检索到待补阀、干式或隐蔽型号的完整参数。"
+    }
+  ]
+}

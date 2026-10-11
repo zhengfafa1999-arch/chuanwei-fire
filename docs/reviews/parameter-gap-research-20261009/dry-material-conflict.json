@@ -1,0 +1,59 @@
+{
+  "state": "resolved-by-current-user",
+  "records": [
+    {
+      "path": "D:\\work\\codex\\yunying\\outputs\\chuanwei-fire-commerce\\t-zstgx80-k-zstgx80-干式喷头\\copy\\product-content.md",
+      "sha256": "cc8f5ebaf776861a32dbe716cde7c943288814f8a562c99cb8db60a544a8cb63",
+      "text": "# 干式喷头产品内容表\n\n## 用户确认信息\n\n- 产品名称：干式喷头、干式快速响应喷头\n- 特殊响应型号：T-ZSTGX80-68°C Q5\n- 快速响应型号：K-ZSTGX80-68°C Q3\n- 公称流量系数：80\n- 公称动作温度：68°C\n- 已确认实物长度：全长10 cm、14.5 cm、30 cm\n- 接口螺纹：R1/2（4分）\n- 喷头框架：不锈钢\n- 溅水盘：不锈钢\n- 红色延长管：不锈钢\n- 大圆形装饰盘：选配\n- 适用环境：冷库、冷藏库等可能冻结的室内区域\n\n## 已核对的型号释义\n\n- `ZST`：自动喷水灭火系统洒水喷头\n- `GX`：干式下垂型\n- `K-`：快速响应代号\n- `T-`：特殊响应代号\n- `80`：公称流量系数\n- `68°C`：公称动作温度\n- `Q3 / Q5`：玻璃球规格代号\n\n型号释义依据为现行 GB 5135.1-2019 的通用编制规则；是否在商品图展示执行标准，仍需匹配本批产品证书或检验资料。\n\n## 图片策略\n\n- 客户图以产品选择为核心，不展示任何价格或加价规则。\n- 材质、接口、长度和应用环境按用户于2026-08-24确认的信息发布。\n- 未确认的工作压力和认证信息不进入发布图。\n"
+    },
+    {
+      "path": "site-src\\_data\\preserved-products\\dry-pendent-fire-sprinklers.json",
+      "sha256": "862b3c2bceb27a592991ae2097e10a7dd0fd86922f98b60554c62d9e2cb68c2c",
+      "source": {
+        "path": "products/消防喷头/dry-pendent-fire-sprinklers.html",
+        "revision": "afff8a0",
+        "status": "preserved-existing-content-not-reaudited",
+        "buyerCopyReview": {
+          "date": "2026-10-09",
+          "record": "docs/reviews/remaining-series-20261009/reviewed-changes.json",
+          "scope": "Buyer terminology and inquiry guidance; exact models, primary photographs and technical values retained except removal of unconfirmed carton quantities."
+        }
+      },
+      "materialCopy": {
+        "reviewTheCompleteSprinklerChromePlatedFrameVisible": {
+          "text": "Review the complete sprinkler, chrome-plated frame, visible red barrel exterior and escutcheon configurations. Image captions do not assign a response type or exact length unless confirmed by the model marking.",
+          "numbers": []
+        },
+        "frameBulbDetail": {
+          "text": "Frame & Bulb Detail",
+          "numbers": []
+        },
+        "frameMaterial": {
+          "text": "Frame material",
+          "numbers": []
+        },
+        "copper": {
+          "text": "Confirm the frame material for the selected model",
+          "numbers": []
+        },
+        "frameFinish": {
+          "text": "Frame finish",
+          "numbers": []
+        },
+        "drySprinklerFrameDetailThumbnail": {
+          "text": "Dry sprinkler frame detail thumbnail",
+          "numbers": []
+        },
+        "dryPendentSprinklerFrameAndBulbDetail": {
+          "text": "Dry pendent sprinkler frame and bulb detail",
+          "numbers": []
+        }
+      }
+    }
+  ],
+  "resolution": {
+    "date": "2026-10-09",
+    "record": "docs/reviews/parameter-gap-research-20261009/dry-material-confirmation.json",
+    "material": "Stainless steel"
+  }
+}

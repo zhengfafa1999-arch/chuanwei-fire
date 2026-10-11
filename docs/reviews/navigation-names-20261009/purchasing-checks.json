@@ -1,0 +1,104 @@
+[
+  {
+    "language": "en",
+    "width": 1280,
+    "cards": [
+      {
+        "left": 42.33333587646485,
+        "right": 625.8333358764648
+      },
+      {
+        "left": 638.8333740234375,
+        "right": 1222.3333740234375
+      }
+    ],
+    "faq": "Samples and minimum order quantities\nAre samples free?\n\nSamples are supplied for a fee. Contact us for the price of your selected sample.\n\nWhat is the minimum order quantity?\n\nMinimum order quantity varies by product. Send the product name or model so we can confirm the required quantity.",
+    "overflow": false,
+    "relationRemoved": true
+  },
+  {
+    "language": "en",
+    "width": 390,
+    "cards": [
+      {
+        "left": 13,
+        "right": 361.6666870117187
+      },
+      {
+        "left": 13,
+        "right": 361.6666870117187
+      }
+    ],
+    "faq": "Samples and minimum order quantities\nAre samples free?\n\nSamples are supplied for a fee. Contact us for the price of your selected sample.\n\nWhat is the minimum order quantity?\n\nMinimum order quantity varies by product. Send the product name or model so we can confirm the required quantity.",
+    "overflow": false,
+    "relationRemoved": true
+  },
+  {
+    "language": "en",
+    "width": 320,
+    "cards": [
+      {
+        "left": 13,
+        "right": 291.66668701171875
+      },
+      {
+        "left": 13,
+        "right": 291.66668701171875
+      }
+    ],
+    "faq": "Samples and minimum order quantities\nAre samples free?\n\nSamples are supplied for a fee. Contact us for the price of your selected sample.\n\nWhat is the minimum order quantity?\n\nMinimum order quantity varies by product. Send the product name or model so we can confirm the required quantity.",
+    "overflow": false,
+    "relationRemoved": true
+  },
+  {
+    "language": "ar",
+    "width": 1280,
+    "cards": [
+      {
+        "left": 638.8333740234375,
+        "right": 1222.3333740234375
+      },
+      {
+        "left": 42.33333587646485,
+        "right": 625.8333358764648
+      }
+    ],
+    "faq": "العينات والحد الأدنى لكمية الطلب\nهل العينات مجانية؟\n\nالعينات مدفوعة. تواصل معنا لمعرفة سعر العينة المطلوبة.\n\nما الحد الأدنى لكمية الطلب؟\n\nيُحدد الحد الأدنى لكمية الطلب بحسب المنتج. أرسل اسم المنتج أو الموديل لمعرفة الكمية المطلوبة.",
+    "overflow": false,
+    "relationRemoved": true
+  },
+  {
+    "language": "ar",
+    "width": 390,
+    "cards": [
+      {
+        "left": 13,
+        "right": 361.6666870117187
+      },
+      {
+        "left": 13,
+        "right": 361.6666870117187
+      }
+    ],
+    "faq": "العينات والحد الأدنى لكمية الطلب\nهل العينات مجانية؟\n\nالعينات مدفوعة. تواصل معنا لمعرفة سعر العينة المطلوبة.\n\nما الحد الأدنى لكمية الطلب؟\n\nيُحدد الحد الأدنى لكمية الطلب بحسب المنتج. أرسل اسم المنتج أو الموديل لمعرفة الكمية المطلوبة.",
+    "overflow": false,
+    "relationRemoved": true
+  },
+  {
+    "language": "ar",
+    "width": 320,
+    "cards": [
+      {
+        "left": 13,
+        "right": 291.66668701171875
+      },
+      {
+        "left": 13,
+        "right": 291.66668701171875
+      }
+    ],
+    "faq": "العينات والحد الأدنى لكمية الطلب\nهل العينات مجانية؟\n\nالعينات مدفوعة. تواصل معنا لمعرفة سعر العينة المطلوبة.\n\nما الحد الأدنى لكمية الطلب؟\n\nيُحدد الحد الأدنى لكمية الطلب بحسب المنتج. أرسل اسم المنتج أو الموديل لمعرفة الكمية المطلوبة.",
+    "overflow": false,
+    "relationRemoved": true
+  }
+]

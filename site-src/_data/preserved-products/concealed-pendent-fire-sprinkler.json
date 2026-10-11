@@ -1,6 +1,12 @@
 {
   "id": "concealed-pendent-fire-sprinkler",
-  "validation": { "anchors": ["gallery", "specifications", "models"] },
+  "validation": {
+    "anchors": [
+      "gallery",
+      "specifications",
+      "models"
+    ]
+  },
   "routeId": "product:concealed-pendent-fire-sprinkler",
   "template": "product-series/concealed-pendent.njk",
   "styles": [
@@ -21,6 +27,27 @@
       "scope": "K80 model patterns and confirmed 68°C sprinkler / 59°C cover pairing with 12.7 mm adjustment; not extended to K115 or other temperatures.",
       "retained": "Four model rows and six original gallery images; existing K115 entries and other legacy specifications are not re-confirmed.",
       "evidence": "v11 confirmed_specifications supplier_confirmed_updates and catalog_approved_tables. Gallery cover photo carries K115 marking and is not used as proof of the K80 pairing."
+    },
+    "userConfirmation": {
+      "date": "2026-10-09",
+      "responseTypes": [
+        "standard",
+        "quick"
+      ],
+      "metricKFactors": [
+        80,
+        115
+      ],
+      "verbatim": [
+        "这个隐蔽所还有分快速喝标准响应的，你补充一下内容",
+        "有k80 和k115流量"
+      ],
+      "scope": "Response types and metric K-factor options confirmed by user; original four size/model rows retained. No new temperature, pressure, cover rating or approval inferred."
+    },
+    "buyerCopyReview": {
+      "date": "2026-10-09",
+      "record": "docs/reviews/remaining-series-20261009/reviewed-changes.json",
+      "scope": "Buyer terminology and inquiry guidance; exact models, primary photographs and technical values retained except removal of unconfirmed carton quantities."
     }
   },
   "media": {
@@ -57,8 +84,11 @@
       "numbers": []
     },
     "aFlushFinishPendentSprinklerFamilyForCeiling": {
-      "text": "A flush-finish pendent sprinkler family for ceiling installations, available in standard response and quick response versions. Select the response type, nominal size, K-factor and temperature required for the project.",
-      "numbers": []
+      "text": "Concealed pendent fire sprinklers for ceiling installations, available in standard response and quick response versions. Both response types offer metric K{n0} and K{n1} options. Select the response type and K-factor, then specify the temperature and matched cover assembly.",
+      "numbers": [
+        "80",
+        "115"
+      ]
     },
     "standardQuickResponse": {
       "text": "Standard / Quick Response",
@@ -80,7 +110,7 @@
       "numbers": []
     },
     "factoryReferencesAreShownOnlyForProductionAnd": {
-      "text": "Factory references are shown only for production and repeat-order matching. Cover configuration, thread, marking and documentation are confirmed against the approved order.",
+      "text": "Use the model references to identify repeat orders. Specify the matched cover assembly, connection and marking required.",
       "numbers": []
     },
     "productPresentation": {
@@ -122,7 +152,7 @@
       "numbers": []
     },
     "twoResponseOptionsInOneFamily": {
-      "text": "Two response options in one family.",
+      "text": "Standard & quick response options.",
       "numbers": []
     },
     "theStandardResponseVersionUsesA5Mm": {
@@ -174,7 +204,7 @@
       "numbers": []
     },
     "k56USK80MetricK80US": {
-      "text": "K{n0} US / K{n1} metric; K{n2} US / K{n3} metric",
+      "text": "K{n1} metric / K{n0} US; K{n3} metric / K{n2} US",
       "numbers": [
         "5.6",
         "80",
@@ -211,26 +241,20 @@
       "numbers": []
     },
     "maxWorkingPressure": {
-      "text": "Max. working pressure",
+      "text": "Working pressure",
       "numbers": []
     },
     "value12MPa12BarApprox175Psi": {
-      "text": "{n0} MPa / {n1} bar / approx. {n2} psi",
-      "numbers": [
-        "1.2",
-        "12",
-        "175"
-      ]
+      "text": "Confirm for the selected model; see the specific configuration below",
+      "numbers": []
     },
     "standardPacking": {
       "text": "Standard packing",
       "numbers": []
     },
     "value100PcsPerExportCarton": {
-      "text": "{n0} pcs per export carton",
-      "numbers": [
-        "100"
-      ]
+      "text": "Packing requirements confirmed with the order",
+      "numbers": []
     },
     "systemApplication": {
       "text": "System application",
@@ -257,13 +281,15 @@
       "numbers": []
     },
     "value5MmGlassBulbAvailableInDN15K5": {
-      "text": "{n0} mm glass bulb. Available in DN{n1} / K{n2} and DN{n3} / K{n4}.",
+      "text": "{n0} mm glass bulb. DN{n1}: K{n5} metric / K{n2} US; DN{n3}: K{n6} metric / K{n4} US.",
       "numbers": [
         "5",
         "15",
         "5.6",
         "20",
-        "8.0"
+        "8.0",
+        "80",
+        "115"
       ]
     },
     "quickResponse": {
@@ -271,13 +297,15 @@
       "numbers": []
     },
     "value3MmGlassBulbAvailableInDN15K5": {
-      "text": "{n0} mm glass bulb. Available in DN{n1} / K{n2} and DN{n3} / K{n4}.",
+      "text": "{n0} mm glass bulb. DN{n1}: K{n5} metric / K{n2} US; DN{n3}: K{n6} metric / K{n4} US.",
       "numbers": [
         "3",
         "15",
         "5.6",
         "20",
-        "8.0"
+        "8.0",
+        "80",
+        "115"
       ]
     },
     "availableTemperatures": {
@@ -327,8 +355,13 @@
       "numbers": []
     },
     "chooseTheResponseTypeAndNominalSizeFirst": {
-      "text": "Choose the response type and nominal size first, then specify temperature, finish, thread and marking. Factory references remain secondary production identifiers.",
-      "numbers": []
+      "text": "Compare the four configurations below: standard or quick response, each with either metric K{n0} / DN{n1} or metric K{n2} / DN{n3}. Then specify temperature, thread, finish and the matched cover assembly.",
+      "numbers": [
+        "80",
+        "15",
+        "115",
+        "20"
+      ]
     },
     "responseType": {
       "text": "Response type",
@@ -339,7 +372,7 @@
       "numbers": []
     },
     "factoryReference": {
-      "text": "Factory reference",
+      "text": "Model",
       "numbers": []
     },
     "value5MmGlassBulb": {
@@ -349,14 +382,14 @@
       ]
     },
     "k56USK80Metric": {
-      "text": "K{n0} US / K{n1} metric",
+      "text": "K{n1} metric / K{n0} US",
       "numbers": [
         "5.6",
         "80"
       ]
     },
     "k80USK115Metric": {
-      "text": "K{n0} US / K{n1} metric",
+      "text": "K{n1} metric / K{n0} US",
       "numbers": [
         "8.0",
         "115"
@@ -369,7 +402,7 @@
       ]
     },
     "the79COptionIsConfirmedInThe": {
-      "text": "The {n0}°C option is confirmed in the available model range even though a separate yellow-bulb sample photo is not included in this gallery. In the K{n1} model patterns, [T] denotes the selected sprinkler temperature, not the cover-plate temperature.",
+      "text": "The {n0}°C option is confirmed in the available model range; a yellow-bulb mechanism sample is shown in Product photographs below. In the K{n1} model patterns, [T] denotes the selected sprinkler temperature, not the cover-plate temperature.",
       "numbers": [
         "79",
         "80"
@@ -416,18 +449,19 @@
       "numbers": []
     },
     "standardPackingIs100PcsPerCartonLabels": {
-      "text": "Standard packing is {n0} pcs per carton; labels and shipping marks can be customized.",
-      "numbers": [
-        "100"
-      ]
+      "text": "Specify packing, labels and shipping marks with your order.",
+      "numbers": []
     },
     "sendUsYourConcealedSprinklerRequirement": {
       "text": "Send us your concealed sprinkler requirement.",
       "numbers": []
     },
     "includeResponseTypeSizeTemperatureThreadFinishCover": {
-      "text": "Include response type, size, temperature, thread, finish, cover requirement, quantity and destination country.",
-      "numbers": []
+      "text": "Start with standard or quick response, metric K{n0} or K{n1}, and quantity. Add temperature, connection, finish, matched-cover requirements and destination when available.",
+      "numbers": [
+        "80",
+        "115"
+      ]
     },
     "whatsAppInquiry": {
       "text": "WhatsApp inquiry",
@@ -605,7 +639,7 @@
     }
   },
   "shared": {
-    "k56K80US": "K5.6 / K8.0 US",
+    "k56K80US": "K80 / K115 metric · K5.6 / K8.0 US",
     "dN15InDN20In": "DN15 / ½ in · DN20 / ¾ in",
     "dN20InK80K11568C": "DN20 / ¾ in · K8.0 / K115 · 68°C",
     "value16": "1 / 6",

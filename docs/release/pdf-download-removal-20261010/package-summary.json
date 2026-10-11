@@ -1,0 +1,12 @@
+{
+  "date": "2026-10-10",
+  "status": "local-review-candidate-not-deployed",
+  "archive": ".tmp/releases/pdf-download-removal-20261010-web.zip",
+  "bytes": 48323202,
+  "sha256": "fb626985c8036f5959cb0a3098efe3a7e9a4c2aa151aed26bcd4754f1432872e",
+  "files": 754,
+  "pages": 185,
+  "validation": "Build and static checks passed; ZIP CRC, complete entry set and all file hashes verified. Browser/mobile rendering not verified.",
+  "previousCandidate": ".tmp/releases/project-applications-20261010-web.zip",
+  "rollback": "Preserve the previous local candidate; record and back up the actual server version before deployment."
+}

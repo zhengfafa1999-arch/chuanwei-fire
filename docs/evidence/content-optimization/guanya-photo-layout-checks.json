@@ -1,0 +1,522 @@
+[
+  {
+    "id": "product:standard-response-fire-sprinkler",
+    "lang": "en",
+    "path": "products/消防喷头/standard-response-fire-sprinkler.html",
+    "count": 9,
+    "viewport": 1440,
+    "columns": "377.333px 377.333px 377.333px",
+    "overflow": false,
+    "visiblePhotos": [
+      {
+        "alt": "Upright standard-response sprinkler — 68°C",
+        "loaded": true,
+        "src": "http://127.0.0.1:8766/assets/products/guanya-2026/standard-response-fire-sprinkler-dsc_5869-640.webp",
+        "width": 344
+      },
+      {
+        "alt": "Pendent standard-response sprinkler — 68°C",
+        "loaded": true,
+        "src": "http://127.0.0.1:8766/assets/products/guanya-2026/standard-response-fire-sprinkler-dsc_5868-640.webp",
+        "width": 344
+      },
+      {
+        "alt": "Horizontal sidewall standard-response sprinkler — 68°C",
+        "loaded": true,
+        "src": "http://127.0.0.1:8766/assets/products/guanya-2026/standard-response-fire-sprinkler-dsc_5870-640.webp",
+        "width": 344
+      },
+      {
+        "alt": "Upright standard-response sprinkler — 57°C",
+        "loaded": true,
+        "src": "http://127.0.0.1:8766/assets/products/guanya-2026/standard-response-fire-sprinkler-dsc_5863-640.webp",
+        "width": 344
+      },
+      {
+        "alt": "Upright standard-response sprinkler — 79°C",
+        "loaded": true,
+        "src": "http://127.0.0.1:8766/assets/products/guanya-2026/standard-response-fire-sprinkler-dsc_5837-640.webp",
+        "width": 344
+      },
+      {
+        "alt": "Upright standard-response sprinkler — 93°C",
+        "loaded": true,
+        "src": "http://127.0.0.1:8766/assets/products/guanya-2026/standard-response-fire-sprinkler-dsc_5866-640.webp",
+        "width": 344
+      }
+    ]
+  },
+  {
+    "id": "product:glass-bulb-fire-sprinkler",
+    "lang": "en",
+    "path": "products/消防喷头/glass-bulb-fire-sprinkler.html",
+    "count": 3,
+    "viewport": 1440,
+    "columns": "377.333px 377.333px 377.333px",
+    "overflow": false,
+    "visiblePhotos": []
+  },
+  {
+    "id": "product:extended-coverage-quick-response-fire-sprinkler",
+    "lang": "en",
+    "path": "products/消防喷头/extended-coverage-quick-response-fire-sprinkler.html",
+    "count": 3,
+    "viewport": 1440,
+    "columns": "377.333px 377.333px 377.333px",
+    "overflow": false,
+    "visiblePhotos": []
+  },
+  {
+    "id": "product:large-k-factor-esfr-sprinklers",
+    "lang": "en",
+    "path": "products/消防喷头/large-k-factor-esfr-sprinklers.html",
+    "count": 3,
+    "viewport": 1440,
+    "columns": "377.333px 377.333px 377.333px",
+    "overflow": false,
+    "visiblePhotos": []
+  },
+  {
+    "id": "product:fusible-alloy-fire-sprinklers",
+    "lang": "en",
+    "path": "products/消防喷头/fusible-alloy-fire-sprinklers.html",
+    "count": 2,
+    "viewport": 1440,
+    "columns": "377.333px 377.333px 377.333px",
+    "overflow": false,
+    "visiblePhotos": []
+  },
+  {
+    "id": "product:dry-pendent-fire-sprinklers",
+    "lang": "en",
+    "path": "products/消防喷头/dry-pendent-fire-sprinklers.html",
+    "count": 2,
+    "viewport": 1440,
+    "columns": "377.333px 377.333px 377.333px",
+    "overflow": false,
+    "visiblePhotos": []
+  },
+  {
+    "id": "product:water-mist-nozzles",
+    "lang": "en",
+    "path": "products/消防喷头/water-mist-nozzles.html",
+    "count": 1,
+    "viewport": 1440,
+    "columns": "377.333px 377.333px 377.333px",
+    "overflow": false,
+    "visiblePhotos": []
+  },
+  {
+    "id": "product:water-curtain-nozzles",
+    "lang": "en",
+    "path": "products/消防喷头/water-curtain-nozzles.html",
+    "count": 2,
+    "viewport": 1440,
+    "columns": "377.333px 377.333px 377.333px",
+    "overflow": false,
+    "visiblePhotos": []
+  },
+  {
+    "id": "product:wet-alarm-check-valve",
+    "lang": "en",
+    "path": "products/消防阀/wet-alarm-check-valve-assemblies.html",
+    "count": 2,
+    "expected": 2,
+    "viewport": 1440,
+    "columns": "377.333px 377.333px 377.333px",
+    "overflow": false
+  },
+  {
+    "id": "product:diaphragm-deluge-valves",
+    "lang": "en",
+    "path": "products/消防阀/diaphragm-deluge-valves.html",
+    "count": 1,
+    "expected": 1,
+    "viewport": 1440,
+    "columns": "377.333px 377.333px 377.333px",
+    "overflow": false
+  },
+  {
+    "id": "product:preaction-valve-assemblies",
+    "lang": "en",
+    "path": "products/消防阀/preaction-valve-assemblies.html",
+    "count": 1,
+    "expected": 1,
+    "viewport": 1440,
+    "columns": "377.333px 377.333px 377.333px",
+    "overflow": false
+  },
+  {
+    "id": "product:dry-pipe-alarm-valves",
+    "lang": "en",
+    "path": "products/消防阀/dry-pipe-alarm-valves.html",
+    "count": 2,
+    "expected": 2,
+    "viewport": 1440,
+    "columns": "377.333px 377.333px 377.333px",
+    "overflow": false
+  },
+  {
+    "id": "product:saddle-type-waterflow-switches",
+    "lang": "en",
+    "path": "products/消防阀/saddle-type-waterflow-switches.html",
+    "count": 2,
+    "expected": 2,
+    "viewport": 1440,
+    "columns": "377.333px 377.333px 377.333px",
+    "overflow": false
+  },
+  {
+    "id": "product:lever-operated-grooved-butterfly-valves",
+    "lang": "en",
+    "path": "products/消防蝶阀/lever-operated-grooved-butterfly-valves.html",
+    "count": 1,
+    "expected": 1,
+    "viewport": 1440,
+    "columns": "377.333px 377.333px 377.333px",
+    "overflow": false
+  },
+  {
+    "id": "product:lever-operated-wafer-butterfly-valves",
+    "lang": "en",
+    "path": "products/消防蝶阀/lever-operated-wafer-butterfly-valves.html",
+    "count": 1,
+    "expected": 1,
+    "viewport": 1440,
+    "columns": "377.333px 377.333px 377.333px",
+    "overflow": false
+  },
+  {
+    "id": "product:wafer-supervisory-butterfly-valves",
+    "lang": "en",
+    "path": "products/消防蝶阀/wafer-supervisory-butterfly-valves.html",
+    "count": 1,
+    "expected": 1,
+    "viewport": 1440,
+    "columns": "377.333px 377.333px 377.333px",
+    "overflow": false
+  },
+  {
+    "id": "product:grooved-supervisory-butterfly-valves",
+    "lang": "en",
+    "path": "products/消防蝶阀/grooved-supervisory-butterfly-valves.html",
+    "count": 1,
+    "expected": 1,
+    "viewport": 1440,
+    "columns": "377.333px 377.333px 377.333px",
+    "overflow": false
+  },
+  {
+    "id": "product:nrs-gate-valves",
+    "lang": "en",
+    "path": "products/消防阀门/nrs-gate-valves.html",
+    "count": 1,
+    "expected": 1,
+    "viewport": 1440,
+    "columns": "377.333px 377.333px 377.333px",
+    "overflow": false
+  },
+  {
+    "id": "product:osy-gate-valves",
+    "lang": "en",
+    "path": "products/消防阀门/osy-gate-valves.html",
+    "count": 1,
+    "expected": 1,
+    "viewport": 1440,
+    "columns": "377.333px 377.333px 377.333px",
+    "overflow": false
+  },
+  {
+    "id": "product:grooved-supervisory-gate-valves",
+    "lang": "en",
+    "path": "products/消防阀门/grooved-supervisory-gate-valves.html",
+    "count": 1,
+    "expected": 1,
+    "viewport": 1440,
+    "columns": "377.333px 377.333px 377.333px",
+    "overflow": false
+  },
+  {
+    "id": "product:flanged-supervisory-gate-valves",
+    "lang": "en",
+    "path": "products/消防阀门/flanged-supervisory-gate-valves.html",
+    "count": 1,
+    "expected": 1,
+    "viewport": 1440,
+    "columns": "377.333px 377.333px 377.333px",
+    "overflow": false
+  },
+  {
+    "id": "product:straight-stream-fire-hose-reel",
+    "lang": "en",
+    "path": "products/软管卷盘/straight-stream-fire-hose-reel.html",
+    "count": 1,
+    "expected": 1,
+    "viewport": 1440,
+    "columns": "377.333px 377.333px 377.333px",
+    "overflow": false
+  },
+  {
+    "id": "product:jet-spray-fire-hose-reel",
+    "lang": "en",
+    "path": "products/软管卷盘/jet-spray-fire-hose-reel.html",
+    "count": 1,
+    "expected": 1,
+    "viewport": 1440,
+    "columns": "377.333px 377.333px 377.333px",
+    "overflow": false
+  },
+  {
+    "id": "product:standard-response-fire-sprinkler",
+    "lang": "ar",
+    "path": "ar/products/standard-response-fire-sprinkler/index.html",
+    "count": 9,
+    "expected": 9,
+    "viewport": 320,
+    "columns": "280.667px",
+    "dir": "rtl",
+    "overflow": false
+  },
+  {
+    "id": "product:glass-bulb-fire-sprinkler",
+    "lang": "ar",
+    "path": "ar/products/glass-bulb-fire-sprinkler/index.html",
+    "count": 3,
+    "expected": 3,
+    "viewport": 320,
+    "columns": "280.667px",
+    "dir": "rtl",
+    "overflow": false
+  },
+  {
+    "id": "product:extended-coverage-quick-response-fire-sprinkler",
+    "lang": "ar",
+    "path": "ar/products/extended-coverage-quick-response-fire-sprinkler/index.html",
+    "count": 3,
+    "expected": 3,
+    "viewport": 320,
+    "columns": "280.667px",
+    "dir": "rtl",
+    "overflow": false
+  },
+  {
+    "id": "product:large-k-factor-esfr-sprinklers",
+    "lang": "ar",
+    "path": "ar/products/large-k-factor-esfr-sprinklers/index.html",
+    "count": 3,
+    "expected": 3,
+    "viewport": 320,
+    "columns": "280.667px",
+    "dir": "rtl",
+    "overflow": false
+  },
+  {
+    "id": "product:fusible-alloy-fire-sprinklers",
+    "lang": "ar",
+    "path": "ar/products/fusible-alloy-fire-sprinklers/index.html",
+    "count": 2,
+    "expected": 2,
+    "viewport": 320,
+    "columns": "280.667px",
+    "dir": "rtl",
+    "overflow": false
+  },
+  {
+    "id": "product:dry-pendent-fire-sprinklers",
+    "lang": "ar",
+    "path": "ar/products/dry-pendent-fire-sprinklers/index.html",
+    "count": 2,
+    "expected": 2,
+    "viewport": 320,
+    "columns": "280.667px",
+    "dir": "rtl",
+    "overflow": false
+  },
+  {
+    "id": "product:water-mist-nozzles",
+    "lang": "ar",
+    "path": "ar/products/water-mist-nozzles/index.html",
+    "count": 1,
+    "expected": 1,
+    "viewport": 320,
+    "columns": "280.667px",
+    "dir": "rtl",
+    "overflow": false
+  },
+  {
+    "id": "product:water-curtain-nozzles",
+    "lang": "ar",
+    "path": "ar/products/water-curtain-nozzles/index.html",
+    "count": 2,
+    "expected": 2,
+    "viewport": 320,
+    "columns": "280.667px",
+    "dir": "rtl",
+    "overflow": false
+  },
+  {
+    "id": "product:wet-alarm-check-valve",
+    "lang": "ar",
+    "path": "ar/products/wet-alarm-check-valve/index.html",
+    "count": 2,
+    "expected": 2,
+    "viewport": 320,
+    "columns": "280.667px",
+    "dir": "rtl",
+    "overflow": false
+  },
+  {
+    "id": "product:diaphragm-deluge-valves",
+    "lang": "ar",
+    "path": "ar/products/diaphragm-deluge-valves/index.html",
+    "count": 1,
+    "expected": 1,
+    "viewport": 320,
+    "columns": "280.667px",
+    "dir": "rtl",
+    "overflow": false
+  },
+  {
+    "id": "product:preaction-valve-assemblies",
+    "lang": "ar",
+    "path": "ar/products/preaction-valve-assemblies/index.html",
+    "count": 1,
+    "expected": 1,
+    "viewport": 320,
+    "columns": "280.667px",
+    "dir": "rtl",
+    "overflow": false
+  },
+  {
+    "id": "product:dry-pipe-alarm-valves",
+    "lang": "ar",
+    "path": "ar/products/dry-pipe-alarm-valves/index.html",
+    "count": 2,
+    "expected": 2,
+    "viewport": 320,
+    "columns": "280.667px",
+    "dir": "rtl",
+    "overflow": false
+  },
+  {
+    "id": "product:saddle-type-waterflow-switches",
+    "lang": "ar",
+    "path": "ar/products/saddle-type-waterflow-switches/index.html",
+    "count": 2,
+    "expected": 2,
+    "viewport": 320,
+    "columns": "280.667px",
+    "dir": "rtl",
+    "overflow": false
+  },
+  {
+    "id": "product:lever-operated-grooved-butterfly-valves",
+    "lang": "ar",
+    "path": "ar/products/lever-operated-grooved-butterfly-valves/index.html",
+    "count": 1,
+    "expected": 1,
+    "viewport": 320,
+    "columns": "280.667px",
+    "dir": "rtl",
+    "overflow": false
+  },
+  {
+    "id": "product:lever-operated-wafer-butterfly-valves",
+    "lang": "ar",
+    "path": "ar/products/lever-operated-wafer-butterfly-valves/index.html",
+    "count": 1,
+    "expected": 1,
+    "viewport": 320,
+    "columns": "280.667px",
+    "dir": "rtl",
+    "overflow": false
+  },
+  {
+    "id": "product:wafer-supervisory-butterfly-valves",
+    "lang": "ar",
+    "path": "ar/products/wafer-supervisory-butterfly-valves/index.html",
+    "count": 1,
+    "expected": 1,
+    "viewport": 320,
+    "columns": "280.667px",
+    "dir": "rtl",
+    "overflow": false
+  },
+  {
+    "id": "product:grooved-supervisory-butterfly-valves",
+    "lang": "ar",
+    "path": "ar/products/grooved-supervisory-butterfly-valves/index.html",
+    "count": 1,
+    "expected": 1,
+    "viewport": 320,
+    "columns": "280.667px",
+    "dir": "rtl",
+    "overflow": false
+  },
+  {
+    "id": "product:nrs-gate-valves",
+    "lang": "ar",
+    "path": "ar/products/nrs-gate-valves/index.html",
+    "count": 1,
+    "expected": 1,
+    "viewport": 320,
+    "columns": "280.667px",
+    "dir": "rtl",
+    "overflow": false
+  },
+  {
+    "id": "product:osy-gate-valves",
+    "lang": "ar",
+    "path": "ar/products/osy-gate-valves/index.html",
+    "count": 1,
+    "expected": 1,
+    "viewport": 320,
+    "columns": "280.667px",
+    "dir": "rtl",
+    "overflow": false
+  },
+  {
+    "id": "product:grooved-supervisory-gate-valves",
+    "lang": "ar",
+    "path": "ar/products/grooved-supervisory-gate-valves/index.html",
+    "count": 1,
+    "expected": 1,
+    "viewport": 320,
+    "columns": "280.667px",
+    "dir": "rtl",
+    "overflow": false
+  },
+  {
+    "id": "product:flanged-supervisory-gate-valves",
+    "lang": "ar",
+    "path": "ar/products/flanged-supervisory-gate-valves/index.html",
+    "count": 1,
+    "expected": 1,
+    "viewport": 320,
+    "columns": "280.667px",
+    "dir": "rtl",
+    "overflow": false
+  },
+  {
+    "id": "product:straight-stream-fire-hose-reel",
+    "lang": "ar",
+    "path": "ar/products/straight-stream-fire-hose-reel/index.html",
+    "count": 1,
+    "expected": 1,
+    "viewport": 320,
+    "columns": "280.667px",
+    "dir": "rtl",
+    "overflow": false
+  },
+  {
+    "id": "product:jet-spray-fire-hose-reel",
+    "lang": "ar",
+    "path": "ar/products/jet-spray-fire-hose-reel/index.html",
+    "count": 1,
+    "expected": 1,
+    "viewport": 320,
+    "columns": "280.667px",
+    "dir": "rtl",
+    "overflow": false
+  }
+]

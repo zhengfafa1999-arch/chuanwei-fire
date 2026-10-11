@@ -3,6 +3,9 @@
     <a href="#gallery">{{ entry.text.gallery }}</a>
     <a href="#specifications">{{ entry.text.specifications }}</a>
     <a href="#models">{{ entry.text.availableModels }}</a>
+{% if entry.product.packaging %}    <a href="#packaging">{{ entry.text.packaging }}</a>
+{% endif %}{% if entry.downloads | length %}    <a href="#downloads">{{ entry.text.downloads }}</a>
+{% endif %}
     <a href="#quotation">{{ entry.text.quotation }}</a>
   </div>
 </nav>
@@ -33,13 +36,11 @@
 {% if entry.product.configurationCards %}
   <section class="pdp-section" aria-label="{{ entry.text.availableConfigurations }}"><div class="pdp-container">
     <h2>{{ entry.text.availableConfigurations }}</h2>
-    <nav class="configuration-links">{% for item in entry.product.gallery %}<a href="#configuration-{{ item.caption }}">{{ entry.text[item.caption] }}</a>{% endfor %}</nav>
     <div class="configuration-grid">{% for item in entry.product.gallery %}
       <article class="configuration-card" id="configuration-{{ item.caption }}">
         <h3>{{ entry.text[item.caption] }}</h3><img src="{{ entry.media[item.media] }}" alt="{{ entry.text[item.alt] }}" width="300" height="300" loading="lazy" decoding="async">
-        {% for row in entry.product.models %}{% if row.configuration == item.caption %}<p>{% for column in entry.product.modelColumns %}{% if column.field != "configuration" %}<strong>{{ entry.text[column.label] }}:</strong> {% if column.localized %}{{ entry.text[row[column.field]] }}{% elif column.technical %}<bdi dir="ltr">{{ row[column.field] }}</bdi>{% else %}{{ row[column.field] }}{% endif %}{% if not loop.last %}<br>{% endif %}{% endif %}{% endfor %}</p>{% endif %}{% endfor %}
+        {% for row in entry.product.models %}{% if row.configuration == item.caption %}<p>{% for column in entry.product.modelColumns %}{% if column.field != "configuration" %}<strong>{{ entry.text[column.label] }}:</strong> {% if column.localized %}{{ entry.text[row[column.field]] }}{% elif column.technical %}{% if row[column.field] == "requestConnectionDetails" %}{{ entry.text.requestConnectionDetails }}{% else %}<bdi dir="ltr">{{ row[column.field] }}</bdi>{% endif %}{% else %}{{ row[column.field] }}{% endif %}{% if not loop.last %}<br>{% endif %}{% endif %}{% endfor %}</p>{% endif %}{% endfor %}
       </article>{% endfor %}</div>
-    <p>{{ entry.text.note }}</p>
   </div></section>
 {% endif %}
   <section class="pdp-section" id="gallery">
@@ -79,7 +80,7 @@
         <table class="pdp-table">
           <thead><tr>{% for column in entry.product.modelColumns %}<th>{{ entry.text[column.label] }}</th>{% endfor %}</tr></thead>
           <tbody>
-{% for row in entry.product.models %}            <tr>{% for column in entry.product.modelColumns %}<td data-label="{{ entry.text[column.label] }}"{% if column.technical %} dir="ltr"{% endif %}>{% if column.localized %}{{ entry.text[row[column.field]] }}{% else %}{{ row[column.field] }}{% endif %}</td>{% endfor %}</tr>
+{% for row in entry.product.models %}            <tr>{% for column in entry.product.modelColumns %}<td data-label="{{ entry.text[column.label] }}"{% if column.technical and row[column.field] != "requestConnectionDetails" %} dir="ltr"{% endif %}>{% if column.localized %}{{ entry.text[row[column.field]] }}{% elif row[column.field] == "requestConnectionDetails" %}{{ entry.text.requestConnectionDetails }}{% else %}{{ row[column.field] }}{% endif %}</td>{% endfor %}</tr>
 {% endfor %}          </tbody>
         </table>
       </div>
@@ -87,6 +88,24 @@
     </div>
   </section>
 
+{% if entry.product.packaging %}
+  <section class="pdp-section pdp-section--soft" id="packaging">
+    <div class="pdp-container">
+      <div class="pdp-heading"><div><p class="pdp-eyebrow">{{ entry.text.packaging }}</p><h2>{{ entry.text.packagingTitle }}</h2></div><p>{{ entry.text.packagingBody }}</p></div>
+    </div>
+  </section>
+{% endif %}
+{% if entry.downloads | length %}
+  <section class="pdp-section" id="downloads">
+    <div class="pdp-container">
+      <div class="pdp-heading"><div><p class="pdp-eyebrow">{{ entry.text.downloads }}</p><h2>{{ entry.text.downloadsTitle }}</h2></div><p>{{ entry.text.downloadsBody }}</p></div>
+{% for download in entry.downloads %}      <div class="pdp-panel"><a class="pdp-btn" href="{{ download.href }}" download>{{ entry.text[download.label] }}</a><p class="pdp-note"><bdi>{{ download.metadata }}</bdi></p></div>
+{% endfor %}    </div>
+  </section>
+{% endif %}
+
+{% include "product-photos.njk" %}
+{% include "product-supplement.njk" %}
   <section class="pdp-section pdp-section--soft" id="quotation">
     <div class="pdp-container pdp-oem">
       <div><p class="pdp-eyebrow">{{ entry.text.quotation }}</p><h2>{{ entry.text.quotationTitle }}</h2><p>{{ entry.text.quotationBody }}</p></div>

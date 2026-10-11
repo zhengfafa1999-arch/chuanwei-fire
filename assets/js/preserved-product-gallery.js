@@ -1,7 +1,7 @@
 (()=>{
       const modal=document.getElementById('productModal'),modalImage=modal.querySelector('img'),closeModal=()=>{modal.classList.remove('open');document.body.style.overflow=''};
       const openModal=(src,alt)=>{modalImage.src=src;modalImage.alt=alt||modalImage.alt;modal.classList.add('open');document.body.style.overflow='hidden';modal.querySelector('button').focus()};
-      document.addEventListener('click',event=>{const target=event.target.closest('[data-lightbox]');if(target)openModal(target.dataset.lightbox,target.querySelector('img')?.alt)});
+      document.addEventListener('click',event=>{const target=event.target.closest('[data-lightbox]');if(target){event.preventDefault();openModal(target.dataset.lightbox,target.dataset.lightboxAlt||target.querySelector('img')?.alt)}});
       modal.querySelector('button').addEventListener('click',closeModal);modal.addEventListener('click',event=>{if(event.target===modal)closeModal()});document.addEventListener('keydown',event=>{if(event.key==='Escape')closeModal()});
       const sprinklerGallery=document.querySelector('.pdp-gallery');
       if(sprinklerGallery){

@@ -1,0 +1,1799 @@
+[
+  {
+    "id": "home",
+    "kind": "core",
+    "locale": "en",
+    "path": "index.html",
+    "testWidth": 320,
+    "badImages": [],
+    "drafts": [],
+    "h1": "Fire Sprinklers & System Components",
+    "overflowButtons": [],
+    "viewport": 320,
+    "width": 305
+  },
+  {
+    "id": "home",
+    "kind": "core",
+    "locale": "zh",
+    "path": "zh/index.html",
+    "testWidth": 320,
+    "badImages": [],
+    "drafts": [],
+    "h1": "消防喷头与系统组件",
+    "overflowButtons": [],
+    "viewport": 320,
+    "width": 305
+  },
+  {
+    "id": "home",
+    "kind": "core",
+    "locale": "ar",
+    "path": "ar/index.html",
+    "testWidth": 320,
+    "badImages": [],
+    "drafts": [],
+    "h1": "رشاشات الحريق ومكونات الأنظمة",
+    "overflowButtons": [],
+    "viewport": 320,
+    "width": 305
+  },
+  {
+    "id": "products",
+    "kind": "core",
+    "locale": "en",
+    "path": "products.html",
+    "testWidth": 320,
+    "badImages": [],
+    "drafts": [
+      "https://wa.me/8617326528368?text=Hello%2C%20I%20would%20like%20to%20inquire%20about%20these%20products.%0A%0AName%20%2F%20company%3A%0AProduct%20category%3A%20Product%20directory%0APage%3A%20https%3A%2F%2Fchuanweifire.com%2Fproducts.html%0A%0AModel%20%2F%20size%20%2F%20connection%20%2F%20quantity%20%2F%20destination%20(when%20available)%3A",
+      "mailto:zhengcolin1@gmail.com?subject=Product%20inquiry%3A%20Product%20directory&body=Hello%2C%20I%20would%20like%20to%20inquire%20about%20these%20products.%0A%0AName%20%2F%20company%3A%0AProduct%20category%3A%20Product%20directory%0APage%3A%20https%3A%2F%2Fchuanweifire.com%2Fproducts.html%0A%0AModel%20%2F%20size%20%2F%20connection%20%2F%20quantity%20%2F%20destination%20(when%20available)%3A",
+      "contact.html"
+    ],
+    "h1": "Find your fire protection product.",
+    "listingCss": "css/catalog-pages.css?v=5adeda95b229",
+    "overflowButtons": [],
+    "viewport": 320,
+    "width": 305
+  },
+  {
+    "id": "products",
+    "kind": "core",
+    "locale": "ar",
+    "path": "ar/products.html",
+    "testWidth": 320,
+    "badImages": [],
+    "drafts": [
+      "https://wa.me/8617326528368?text=%D9%85%D8%B1%D8%AD%D8%A8%D8%A7%D9%8B%D8%8C%20%D8%A3%D9%88%D8%AF%20%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1%20%D8%B9%D9%86%20%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%D8%A7%D8%AA%20%D8%A7%D9%84%D8%AA%D8%A7%D9%84%D9%8A%D8%A9.%0A%0A%D8%A7%D9%84%D8%A7%D8%B3%D9%85%20%2F%20%D8%A7%D9%84%D8%B4%D8%B1%D9%83%D8%A9%3A%0A%D9%81%D8%A6%D8%A9%20%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%3A%20%D8%AF%D9%84%D9%8A%D9%84%20%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%D8%A7%D8%AA%0A%D8%A7%D9%84%D8%B5%D9%81%D8%AD%D8%A9%3A%20https%3A%2F%2Fchuanweifire.com%2Far%2Fproducts.html%0A%0A%D8%A7%D9%84%D9%85%D9%88%D8%AF%D9%8A%D9%84%20%2F%20%D8%A7%D9%84%D9%85%D9%82%D8%A7%D8%B3%20%2F%20%D8%A7%D9%84%D8%AA%D9%88%D8%B5%D9%8A%D9%84%20%2F%20%D8%A7%D9%84%D9%83%D9%85%D9%8A%D8%A9%20%2F%20%D8%A7%D9%84%D9%88%D8%AC%D9%87%D8%A9%20(%D8%B9%D9%86%D8%AF%20%D8%AA%D9%88%D9%81%D8%B1%D9%87%D8%A7)%3A",
+      "mailto:zhengcolin1@gmail.com?subject=%D8%A7%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1%20%D8%B9%D9%86%20%D8%AF%D9%84%D9%8A%D9%84%20%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%D8%A7%D8%AA&body=%D9%85%D8%B1%D8%AD%D8%A8%D8%A7%D9%8B%D8%8C%20%D8%A3%D9%88%D8%AF%20%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1%20%D8%B9%D9%86%20%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%D8%A7%D8%AA%20%D8%A7%D9%84%D8%AA%D8%A7%D9%84%D9%8A%D8%A9.%0A%0A%D8%A7%D9%84%D8%A7%D8%B3%D9%85%20%2F%20%D8%A7%D9%84%D8%B4%D8%B1%D9%83%D8%A9%3A%0A%D9%81%D8%A6%D8%A9%20%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%3A%20%D8%AF%D9%84%D9%8A%D9%84%20%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%D8%A7%D8%AA%0A%D8%A7%D9%84%D8%B5%D9%81%D8%AD%D8%A9%3A%20https%3A%2F%2Fchuanweifire.com%2Far%2Fproducts.html%0A%0A%D8%A7%D9%84%D9%85%D9%88%D8%AF%D9%8A%D9%84%20%2F%20%D8%A7%D9%84%D9%85%D9%82%D8%A7%D8%B3%20%2F%20%D8%A7%D9%84%D8%AA%D9%88%D8%B5%D9%8A%D9%84%20%2F%20%D8%A7%D9%84%D9%83%D9%85%D9%8A%D8%A9%20%2F%20%D8%A7%D9%84%D9%88%D8%AC%D9%87%D8%A9%20(%D8%B9%D9%86%D8%AF%20%D8%AA%D9%88%D9%81%D8%B1%D9%87%D8%A7)%3A",
+      "contact.html"
+    ],
+    "h1": "اعثر على منتج مكافحة الحريق المطلوب.",
+    "listingCss": "../css/catalog-pages.css?v=5adeda95b229",
+    "overflowButtons": [],
+    "viewport": 320,
+    "width": 305
+  },
+  {
+    "id": "category:foam-nozzles",
+    "kind": "category",
+    "locale": "en",
+    "path": "products/foam-nozzles.html",
+    "testWidth": 320,
+    "badImages": [],
+    "drafts": [
+      "https://wa.me/8617326528368?text=Hello%2C%20I%20would%20like%20to%20inquire%20about%20these%20products.%0A%0AName%20%2F%20company%3A%0AProduct%20category%3A%20Foam-Water%20Nozzles%0APage%3A%20https%3A%2F%2Fchuanweifire.com%2Fproducts%2Ffoam-nozzles.html%0A%0AModel%20%2F%20size%20%2F%20connection%20%2F%20quantity%20%2F%20destination%20(when%20available)%3A",
+      "mailto:zhengcolin1@gmail.com?subject=Product%20inquiry%3A%20Foam-Water%20Nozzles&body=Hello%2C%20I%20would%20like%20to%20inquire%20about%20these%20products.%0A%0AName%20%2F%20company%3A%0AProduct%20category%3A%20Foam-Water%20Nozzles%0APage%3A%20https%3A%2F%2Fchuanweifire.com%2Fproducts%2Ffoam-nozzles.html%0A%0AModel%20%2F%20size%20%2F%20connection%20%2F%20quantity%20%2F%20destination%20(when%20available)%3A",
+      "../contact.html"
+    ],
+    "h1": "Foam-Water Nozzles",
+    "listingCss": "../css/catalog-pages.css?v=5adeda95b229",
+    "overflowButtons": [],
+    "viewport": 320,
+    "width": 305
+  },
+  {
+    "id": "category:foam-nozzles",
+    "kind": "category",
+    "locale": "ar",
+    "path": "ar/products/foam-nozzles/index.html",
+    "testWidth": 320,
+    "badImages": [],
+    "drafts": [
+      "https://wa.me/8617326528368?text=%D9%85%D8%B1%D8%AD%D8%A8%D8%A7%D9%8B%D8%8C%20%D8%A3%D9%88%D8%AF%20%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1%20%D8%B9%D9%86%20%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%D8%A7%D8%AA%20%D8%A7%D9%84%D8%AA%D8%A7%D9%84%D9%8A%D8%A9.%0A%0A%D8%A7%D9%84%D8%A7%D8%B3%D9%85%20%2F%20%D8%A7%D9%84%D8%B4%D8%B1%D9%83%D8%A9%3A%0A%D9%81%D8%A6%D8%A9%20%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%3A%20%D9%81%D9%88%D9%87%D8%A7%D8%AA%20%D8%A7%D9%84%D9%85%D8%A7%D8%A1%20%D9%88%D8%A7%D9%84%D8%B1%D8%BA%D9%88%D8%A9%0A%D8%A7%D9%84%D8%B5%D9%81%D8%AD%D8%A9%3A%20https%3A%2F%2Fchuanweifire.com%2Far%2Fproducts%2Ffoam-nozzles%2F%0A%0A%D8%A7%D9%84%D9%85%D9%88%D8%AF%D9%8A%D9%84%20%2F%20%D8%A7%D9%84%D9%85%D9%82%D8%A7%D8%B3%20%2F%20%D8%A7%D9%84%D8%AA%D9%88%D8%B5%D9%8A%D9%84%20%2F%20%D8%A7%D9%84%D9%83%D9%85%D9%8A%D8%A9%20%2F%20%D8%A7%D9%84%D9%88%D8%AC%D9%87%D8%A9%20(%D8%B9%D9%86%D8%AF%20%D8%AA%D9%88%D9%81%D8%B1%D9%87%D8%A7)%3A",
+      "mailto:zhengcolin1@gmail.com?subject=%D8%A7%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1%20%D8%B9%D9%86%20%D9%81%D9%88%D9%87%D8%A7%D8%AA%20%D8%A7%D9%84%D9%85%D8%A7%D8%A1%20%D9%88%D8%A7%D9%84%D8%B1%D8%BA%D9%88%D8%A9&body=%D9%85%D8%B1%D8%AD%D8%A8%D8%A7%D9%8B%D8%8C%20%D8%A3%D9%88%D8%AF%20%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1%20%D8%B9%D9%86%20%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%D8%A7%D8%AA%20%D8%A7%D9%84%D8%AA%D8%A7%D9%84%D9%8A%D8%A9.%0A%0A%D8%A7%D9%84%D8%A7%D8%B3%D9%85%20%2F%20%D8%A7%D9%84%D8%B4%D8%B1%D9%83%D8%A9%3A%0A%D9%81%D8%A6%D8%A9%20%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%3A%20%D9%81%D9%88%D9%87%D8%A7%D8%AA%20%D8%A7%D9%84%D9%85%D8%A7%D8%A1%20%D9%88%D8%A7%D9%84%D8%B1%D8%BA%D9%88%D8%A9%0A%D8%A7%D9%84%D8%B5%D9%81%D8%AD%D8%A9%3A%20https%3A%2F%2Fchuanweifire.com%2Far%2Fproducts%2Ffoam-nozzles%2F%0A%0A%D8%A7%D9%84%D9%85%D9%88%D8%AF%D9%8A%D9%84%20%2F%20%D8%A7%D9%84%D9%85%D9%82%D8%A7%D8%B3%20%2F%20%D8%A7%D9%84%D8%AA%D9%88%D8%B5%D9%8A%D9%84%20%2F%20%D8%A7%D9%84%D9%83%D9%85%D9%8A%D8%A9%20%2F%20%D8%A7%D9%84%D9%88%D8%AC%D9%87%D8%A9%20(%D8%B9%D9%86%D8%AF%20%D8%AA%D9%88%D9%81%D8%B1%D9%87%D8%A7)%3A",
+      "../../contact.html"
+    ],
+    "h1": "فوهات الماء والرغوة",
+    "listingCss": "../../../css/catalog-pages.css?v=5adeda95b229",
+    "overflowButtons": [],
+    "viewport": 320,
+    "width": 305
+  },
+  {
+    "id": "category:sprinklers",
+    "kind": "category",
+    "locale": "en",
+    "path": "products/消防喷头.html",
+    "testWidth": 320,
+    "badImages": [],
+    "drafts": [
+      "https://wa.me/8617326528368?text=Hello%2C%20I%20would%20like%20to%20inquire%20about%20these%20products.%0A%0AName%20%2F%20company%3A%0AProduct%20category%3A%20Fire%20Sprinklers%0APage%3A%20https%3A%2F%2Fchuanweifire.com%2Fproducts%2F%25E6%25B6%2588%25E9%2598%25B2%25E5%2596%25B7%25E5%25A4%25B4.html%0A%0AModel%20%2F%20size%20%2F%20connection%20%2F%20quantity%20%2F%20destination%20(when%20available)%3A",
+      "mailto:zhengcolin1@gmail.com?subject=Product%20inquiry%3A%20Fire%20Sprinklers&body=Hello%2C%20I%20would%20like%20to%20inquire%20about%20these%20products.%0A%0AName%20%2F%20company%3A%0AProduct%20category%3A%20Fire%20Sprinklers%0APage%3A%20https%3A%2F%2Fchuanweifire.com%2Fproducts%2F%25E6%25B6%2588%25E9%2598%25B2%25E5%2596%25B7%25E5%25A4%25B4.html%0A%0AModel%20%2F%20size%20%2F%20connection%20%2F%20quantity%20%2F%20destination%20(when%20available)%3A",
+      "../contact.html"
+    ],
+    "h1": "Fire Sprinklers",
+    "listingCss": "../css/catalog-pages.css?v=5adeda95b229",
+    "overflowButtons": [],
+    "viewport": 320,
+    "width": 305
+  },
+  {
+    "id": "category:sprinklers",
+    "kind": "category",
+    "locale": "ar",
+    "path": "ar/products/sprinklers/index.html",
+    "testWidth": 320,
+    "badImages": [],
+    "drafts": [
+      "https://wa.me/8617326528368?text=%D9%85%D8%B1%D8%AD%D8%A8%D8%A7%D9%8B%D8%8C%20%D8%A3%D9%88%D8%AF%20%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1%20%D8%B9%D9%86%20%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%D8%A7%D8%AA%20%D8%A7%D9%84%D8%AA%D8%A7%D9%84%D9%8A%D8%A9.%0A%0A%D8%A7%D9%84%D8%A7%D8%B3%D9%85%20%2F%20%D8%A7%D9%84%D8%B4%D8%B1%D9%83%D8%A9%3A%0A%D9%81%D8%A6%D8%A9%20%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%3A%20%D8%B1%D8%B4%D8%A7%D8%B4%D8%A7%D8%AA%20%D8%A7%D9%84%D8%AD%D8%B1%D9%8A%D9%82%0A%D8%A7%D9%84%D8%B5%D9%81%D8%AD%D8%A9%3A%20https%3A%2F%2Fchuanweifire.com%2Far%2Fproducts%2Fsprinklers%2F%0A%0A%D8%A7%D9%84%D9%85%D9%88%D8%AF%D9%8A%D9%84%20%2F%20%D8%A7%D9%84%D9%85%D9%82%D8%A7%D8%B3%20%2F%20%D8%A7%D9%84%D8%AA%D9%88%D8%B5%D9%8A%D9%84%20%2F%20%D8%A7%D9%84%D9%83%D9%85%D9%8A%D8%A9%20%2F%20%D8%A7%D9%84%D9%88%D8%AC%D9%87%D8%A9%20(%D8%B9%D9%86%D8%AF%20%D8%AA%D9%88%D9%81%D8%B1%D9%87%D8%A7)%3A",
+      "mailto:zhengcolin1@gmail.com?subject=%D8%A7%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1%20%D8%B9%D9%86%20%D8%B1%D8%B4%D8%A7%D8%B4%D8%A7%D8%AA%20%D8%A7%D9%84%D8%AD%D8%B1%D9%8A%D9%82&body=%D9%85%D8%B1%D8%AD%D8%A8%D8%A7%D9%8B%D8%8C%20%D8%A3%D9%88%D8%AF%20%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1%20%D8%B9%D9%86%20%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%D8%A7%D8%AA%20%D8%A7%D9%84%D8%AA%D8%A7%D9%84%D9%8A%D8%A9.%0A%0A%D8%A7%D9%84%D8%A7%D8%B3%D9%85%20%2F%20%D8%A7%D9%84%D8%B4%D8%B1%D9%83%D8%A9%3A%0A%D9%81%D8%A6%D8%A9%20%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%3A%20%D8%B1%D8%B4%D8%A7%D8%B4%D8%A7%D8%AA%20%D8%A7%D9%84%D8%AD%D8%B1%D9%8A%D9%82%0A%D8%A7%D9%84%D8%B5%D9%81%D8%AD%D8%A9%3A%20https%3A%2F%2Fchuanweifire.com%2Far%2Fproducts%2Fsprinklers%2F%0A%0A%D8%A7%D9%84%D9%85%D9%88%D8%AF%D9%8A%D9%84%20%2F%20%D8%A7%D9%84%D9%85%D9%82%D8%A7%D8%B3%20%2F%20%D8%A7%D9%84%D8%AA%D9%88%D8%B5%D9%8A%D9%84%20%2F%20%D8%A7%D9%84%D9%83%D9%85%D9%8A%D8%A9%20%2F%20%D8%A7%D9%84%D9%88%D8%AC%D9%87%D8%A9%20(%D8%B9%D9%86%D8%AF%20%D8%AA%D9%88%D9%81%D8%B1%D9%87%D8%A7)%3A",
+      "../../contact.html"
+    ],
+    "h1": "رشاشات الحريق",
+    "listingCss": "../../../css/catalog-pages.css?v=5adeda95b229",
+    "overflowButtons": [],
+    "viewport": 320,
+    "width": 305
+  },
+  {
+    "id": "category:system-valves",
+    "kind": "category",
+    "locale": "en",
+    "path": "products/消防阀.html",
+    "testWidth": 320,
+    "badImages": [],
+    "drafts": [
+      "https://wa.me/8617326528368?text=Hello%2C%20I%20would%20like%20to%20inquire%20about%20these%20products.%0A%0AName%20%2F%20company%3A%0AProduct%20category%3A%20Alarm%20%26%20System%20Valves%0APage%3A%20https%3A%2F%2Fchuanweifire.com%2Fproducts%2F%25E6%25B6%2588%25E9%2598%25B2%25E9%2598%2580.html%0A%0AModel%20%2F%20size%20%2F%20connection%20%2F%20quantity%20%2F%20destination%20(when%20available)%3A",
+      "mailto:zhengcolin1@gmail.com?subject=Product%20inquiry%3A%20Alarm%20%26%20System%20Valves&body=Hello%2C%20I%20would%20like%20to%20inquire%20about%20these%20products.%0A%0AName%20%2F%20company%3A%0AProduct%20category%3A%20Alarm%20%26%20System%20Valves%0APage%3A%20https%3A%2F%2Fchuanweifire.com%2Fproducts%2F%25E6%25B6%2588%25E9%2598%25B2%25E9%2598%2580.html%0A%0AModel%20%2F%20size%20%2F%20connection%20%2F%20quantity%20%2F%20destination%20(when%20available)%3A",
+      "../contact.html"
+    ],
+    "h1": "Alarm & System Valves",
+    "listingCss": "../css/catalog-pages.css?v=5adeda95b229",
+    "overflowButtons": [],
+    "viewport": 320,
+    "width": 305
+  },
+  {
+    "id": "category:system-valves",
+    "kind": "category",
+    "locale": "ar",
+    "path": "ar/products/system-valves/index.html",
+    "testWidth": 320,
+    "badImages": [],
+    "drafts": [
+      "https://wa.me/8617326528368?text=%D9%85%D8%B1%D8%AD%D8%A8%D8%A7%D9%8B%D8%8C%20%D8%A3%D9%88%D8%AF%20%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1%20%D8%B9%D9%86%20%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%D8%A7%D8%AA%20%D8%A7%D9%84%D8%AA%D8%A7%D9%84%D9%8A%D8%A9.%0A%0A%D8%A7%D9%84%D8%A7%D8%B3%D9%85%20%2F%20%D8%A7%D9%84%D8%B4%D8%B1%D9%83%D8%A9%3A%0A%D9%81%D8%A6%D8%A9%20%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%3A%20%D8%B5%D9%85%D8%A7%D9%85%D8%A7%D8%AA%20%D8%A7%D9%84%D8%A5%D9%86%D8%B0%D8%A7%D8%B1%20%D9%88%D8%B5%D9%85%D8%A7%D9%85%D8%A7%D8%AA%20%D8%A7%D9%84%D8%A3%D9%86%D8%B8%D9%85%D8%A9%0A%D8%A7%D9%84%D8%B5%D9%81%D8%AD%D8%A9%3A%20https%3A%2F%2Fchuanweifire.com%2Far%2Fproducts%2Fsystem-valves%2F%0A%0A%D8%A7%D9%84%D9%85%D9%88%D8%AF%D9%8A%D9%84%20%2F%20%D8%A7%D9%84%D9%85%D9%82%D8%A7%D8%B3%20%2F%20%D8%A7%D9%84%D8%AA%D9%88%D8%B5%D9%8A%D9%84%20%2F%20%D8%A7%D9%84%D9%83%D9%85%D9%8A%D8%A9%20%2F%20%D8%A7%D9%84%D9%88%D8%AC%D9%87%D8%A9%20(%D8%B9%D9%86%D8%AF%20%D8%AA%D9%88%D9%81%D8%B1%D9%87%D8%A7)%3A",
+      "mailto:zhengcolin1@gmail.com?subject=%D8%A7%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1%20%D8%B9%D9%86%20%D8%B5%D9%85%D8%A7%D9%85%D8%A7%D8%AA%20%D8%A7%D9%84%D8%A5%D9%86%D8%B0%D8%A7%D8%B1%20%D9%88%D8%B5%D9%85%D8%A7%D9%85%D8%A7%D8%AA%20%D8%A7%D9%84%D8%A3%D9%86%D8%B8%D9%85%D8%A9&body=%D9%85%D8%B1%D8%AD%D8%A8%D8%A7%D9%8B%D8%8C%20%D8%A3%D9%88%D8%AF%20%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1%20%D8%B9%D9%86%20%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%D8%A7%D8%AA%20%D8%A7%D9%84%D8%AA%D8%A7%D9%84%D9%8A%D8%A9.%0A%0A%D8%A7%D9%84%D8%A7%D8%B3%D9%85%20%2F%20%D8%A7%D9%84%D8%B4%D8%B1%D9%83%D8%A9%3A%0A%D9%81%D8%A6%D8%A9%20%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%3A%20%D8%B5%D9%85%D8%A7%D9%85%D8%A7%D8%AA%20%D8%A7%D9%84%D8%A5%D9%86%D8%B0%D8%A7%D8%B1%20%D9%88%D8%B5%D9%85%D8%A7%D9%85%D8%A7%D8%AA%20%D8%A7%D9%84%D8%A3%D9%86%D8%B8%D9%85%D8%A9%0A%D8%A7%D9%84%D8%B5%D9%81%D8%AD%D8%A9%3A%20https%3A%2F%2Fchuanweifire.com%2Far%2Fproducts%2Fsystem-valves%2F%0A%0A%D8%A7%D9%84%D9%85%D9%88%D8%AF%D9%8A%D9%84%20%2F%20%D8%A7%D9%84%D9%85%D9%82%D8%A7%D8%B3%20%2F%20%D8%A7%D9%84%D8%AA%D9%88%D8%B5%D9%8A%D9%84%20%2F%20%D8%A7%D9%84%D9%83%D9%85%D9%8A%D8%A9%20%2F%20%D8%A7%D9%84%D9%88%D8%AC%D9%87%D8%A9%20(%D8%B9%D9%86%D8%AF%20%D8%AA%D9%88%D9%81%D8%B1%D9%87%D8%A7)%3A",
+      "../../contact.html"
+    ],
+    "h1": "صمامات الإنذار وصمامات الأنظمة",
+    "listingCss": "../../../css/catalog-pages.css?v=5adeda95b229",
+    "overflowButtons": [],
+    "viewport": 320,
+    "width": 305
+  },
+  {
+    "id": "category:butterfly-valves",
+    "kind": "category",
+    "locale": "en",
+    "path": "products/消防蝶阀.html",
+    "testWidth": 320,
+    "badImages": [],
+    "drafts": [
+      "https://wa.me/8617326528368?text=Hello%2C%20I%20would%20like%20to%20inquire%20about%20these%20products.%0A%0AName%20%2F%20company%3A%0AProduct%20category%3A%20Fire%20Butterfly%20Valves%0APage%3A%20https%3A%2F%2Fchuanweifire.com%2Fproducts%2F%25E6%25B6%2588%25E9%2598%25B2%25E8%259D%25B6%25E9%2598%2580.html%0A%0AModel%20%2F%20size%20%2F%20connection%20%2F%20quantity%20%2F%20destination%20(when%20available)%3A",
+      "mailto:zhengcolin1@gmail.com?subject=Product%20inquiry%3A%20Fire%20Butterfly%20Valves&body=Hello%2C%20I%20would%20like%20to%20inquire%20about%20these%20products.%0A%0AName%20%2F%20company%3A%0AProduct%20category%3A%20Fire%20Butterfly%20Valves%0APage%3A%20https%3A%2F%2Fchuanweifire.com%2Fproducts%2F%25E6%25B6%2588%25E9%2598%25B2%25E8%259D%25B6%25E9%2598%2580.html%0A%0AModel%20%2F%20size%20%2F%20connection%20%2F%20quantity%20%2F%20destination%20(when%20available)%3A",
+      "../contact.html"
+    ],
+    "h1": "Fire Butterfly Valves",
+    "listingCss": "../css/catalog-pages.css?v=5adeda95b229",
+    "overflowButtons": [],
+    "viewport": 320,
+    "width": 305
+  },
+  {
+    "id": "category:butterfly-valves",
+    "kind": "category",
+    "locale": "ar",
+    "path": "ar/products/butterfly-valves/index.html",
+    "testWidth": 320,
+    "badImages": [],
+    "drafts": [
+      "https://wa.me/8617326528368?text=%D9%85%D8%B1%D8%AD%D8%A8%D8%A7%D9%8B%D8%8C%20%D8%A3%D9%88%D8%AF%20%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1%20%D8%B9%D9%86%20%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%D8%A7%D8%AA%20%D8%A7%D9%84%D8%AA%D8%A7%D9%84%D9%8A%D8%A9.%0A%0A%D8%A7%D9%84%D8%A7%D8%B3%D9%85%20%2F%20%D8%A7%D9%84%D8%B4%D8%B1%D9%83%D8%A9%3A%0A%D9%81%D8%A6%D8%A9%20%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%3A%20%D8%B5%D9%85%D8%A7%D9%85%D8%A7%D8%AA%20%D9%81%D8%B1%D8%A7%D8%B4%D8%A9%20%D9%84%D9%85%D9%83%D8%A7%D9%81%D8%AD%D8%A9%20%D8%A7%D9%84%D8%AD%D8%B1%D9%8A%D9%82%0A%D8%A7%D9%84%D8%B5%D9%81%D8%AD%D8%A9%3A%20https%3A%2F%2Fchuanweifire.com%2Far%2Fproducts%2Fbutterfly-valves%2F%0A%0A%D8%A7%D9%84%D9%85%D9%88%D8%AF%D9%8A%D9%84%20%2F%20%D8%A7%D9%84%D9%85%D9%82%D8%A7%D8%B3%20%2F%20%D8%A7%D9%84%D8%AA%D9%88%D8%B5%D9%8A%D9%84%20%2F%20%D8%A7%D9%84%D9%83%D9%85%D9%8A%D8%A9%20%2F%20%D8%A7%D9%84%D9%88%D8%AC%D9%87%D8%A9%20(%D8%B9%D9%86%D8%AF%20%D8%AA%D9%88%D9%81%D8%B1%D9%87%D8%A7)%3A",
+      "mailto:zhengcolin1@gmail.com?subject=%D8%A7%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1%20%D8%B9%D9%86%20%D8%B5%D9%85%D8%A7%D9%85%D8%A7%D8%AA%20%D9%81%D8%B1%D8%A7%D8%B4%D8%A9%20%D9%84%D9%85%D9%83%D8%A7%D9%81%D8%AD%D8%A9%20%D8%A7%D9%84%D8%AD%D8%B1%D9%8A%D9%82&body=%D9%85%D8%B1%D8%AD%D8%A8%D8%A7%D9%8B%D8%8C%20%D8%A3%D9%88%D8%AF%20%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1%20%D8%B9%D9%86%20%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%D8%A7%D8%AA%20%D8%A7%D9%84%D8%AA%D8%A7%D9%84%D9%8A%D8%A9.%0A%0A%D8%A7%D9%84%D8%A7%D8%B3%D9%85%20%2F%20%D8%A7%D9%84%D8%B4%D8%B1%D9%83%D8%A9%3A%0A%D9%81%D8%A6%D8%A9%20%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%3A%20%D8%B5%D9%85%D8%A7%D9%85%D8%A7%D8%AA%20%D9%81%D8%B1%D8%A7%D8%B4%D8%A9%20%D9%84%D9%85%D9%83%D8%A7%D9%81%D8%AD%D8%A9%20%D8%A7%D9%84%D8%AD%D8%B1%D9%8A%D9%82%0A%D8%A7%D9%84%D8%B5%D9%81%D8%AD%D8%A9%3A%20https%3A%2F%2Fchuanweifire.com%2Far%2Fproducts%2Fbutterfly-valves%2F%0A%0A%D8%A7%D9%84%D9%85%D9%88%D8%AF%D9%8A%D9%84%20%2F%20%D8%A7%D9%84%D9%85%D9%82%D8%A7%D8%B3%20%2F%20%D8%A7%D9%84%D8%AA%D9%88%D8%B5%D9%8A%D9%84%20%2F%20%D8%A7%D9%84%D9%83%D9%85%D9%8A%D8%A9%20%2F%20%D8%A7%D9%84%D9%88%D8%AC%D9%87%D8%A9%20(%D8%B9%D9%86%D8%AF%20%D8%AA%D9%88%D9%81%D8%B1%D9%87%D8%A7)%3A",
+      "../../contact.html"
+    ],
+    "h1": "صمامات فراشة لمكافحة الحريق",
+    "listingCss": "../../../css/catalog-pages.css?v=5adeda95b229",
+    "overflowButtons": [],
+    "viewport": 320,
+    "width": 305
+  },
+  {
+    "id": "category:gate-valves",
+    "kind": "category",
+    "locale": "en",
+    "path": "products/消防阀门.html",
+    "testWidth": 320,
+    "badImages": [],
+    "drafts": [
+      "https://wa.me/8617326528368?text=Hello%2C%20I%20would%20like%20to%20inquire%20about%20these%20products.%0A%0AName%20%2F%20company%3A%0AProduct%20category%3A%20Fire%20Gate%20Valves%0APage%3A%20https%3A%2F%2Fchuanweifire.com%2Fproducts%2F%25E6%25B6%2588%25E9%2598%25B2%25E9%2598%2580%25E9%2597%25A8.html%0A%0AModel%20%2F%20size%20%2F%20connection%20%2F%20quantity%20%2F%20destination%20(when%20available)%3A",
+      "mailto:zhengcolin1@gmail.com?subject=Product%20inquiry%3A%20Fire%20Gate%20Valves&body=Hello%2C%20I%20would%20like%20to%20inquire%20about%20these%20products.%0A%0AName%20%2F%20company%3A%0AProduct%20category%3A%20Fire%20Gate%20Valves%0APage%3A%20https%3A%2F%2Fchuanweifire.com%2Fproducts%2F%25E6%25B6%2588%25E9%2598%25B2%25E9%2598%2580%25E9%2597%25A8.html%0A%0AModel%20%2F%20size%20%2F%20connection%20%2F%20quantity%20%2F%20destination%20(when%20available)%3A",
+      "../contact.html"
+    ],
+    "h1": "Fire Gate Valves",
+    "listingCss": "../css/catalog-pages.css?v=5adeda95b229",
+    "overflowButtons": [],
+    "viewport": 320,
+    "width": 305
+  },
+  {
+    "id": "category:gate-valves",
+    "kind": "category",
+    "locale": "ar",
+    "path": "ar/products/gate-valves/index.html",
+    "testWidth": 320,
+    "badImages": [],
+    "drafts": [
+      "https://wa.me/8617326528368?text=%D9%85%D8%B1%D8%AD%D8%A8%D8%A7%D9%8B%D8%8C%20%D8%A3%D9%88%D8%AF%20%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1%20%D8%B9%D9%86%20%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%D8%A7%D8%AA%20%D8%A7%D9%84%D8%AA%D8%A7%D9%84%D9%8A%D8%A9.%0A%0A%D8%A7%D9%84%D8%A7%D8%B3%D9%85%20%2F%20%D8%A7%D9%84%D8%B4%D8%B1%D9%83%D8%A9%3A%0A%D9%81%D8%A6%D8%A9%20%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%3A%20%D8%B5%D9%85%D8%A7%D9%85%D8%A7%D8%AA%20%D8%A8%D9%88%D8%A7%D8%A8%D8%A9%20%D9%84%D9%85%D9%83%D8%A7%D9%81%D8%AD%D8%A9%20%D8%A7%D9%84%D8%AD%D8%B1%D9%8A%D9%82%0A%D8%A7%D9%84%D8%B5%D9%81%D8%AD%D8%A9%3A%20https%3A%2F%2Fchuanweifire.com%2Far%2Fproducts%2Fgate-valves%2F%0A%0A%D8%A7%D9%84%D9%85%D9%88%D8%AF%D9%8A%D9%84%20%2F%20%D8%A7%D9%84%D9%85%D9%82%D8%A7%D8%B3%20%2F%20%D8%A7%D9%84%D8%AA%D9%88%D8%B5%D9%8A%D9%84%20%2F%20%D8%A7%D9%84%D9%83%D9%85%D9%8A%D8%A9%20%2F%20%D8%A7%D9%84%D9%88%D8%AC%D9%87%D8%A9%20(%D8%B9%D9%86%D8%AF%20%D8%AA%D9%88%D9%81%D8%B1%D9%87%D8%A7)%3A",
+      "mailto:zhengcolin1@gmail.com?subject=%D8%A7%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1%20%D8%B9%D9%86%20%D8%B5%D9%85%D8%A7%D9%85%D8%A7%D8%AA%20%D8%A8%D9%88%D8%A7%D8%A8%D8%A9%20%D9%84%D9%85%D9%83%D8%A7%D9%81%D8%AD%D8%A9%20%D8%A7%D9%84%D8%AD%D8%B1%D9%8A%D9%82&body=%D9%85%D8%B1%D8%AD%D8%A8%D8%A7%D9%8B%D8%8C%20%D8%A3%D9%88%D8%AF%20%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1%20%D8%B9%D9%86%20%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%D8%A7%D8%AA%20%D8%A7%D9%84%D8%AA%D8%A7%D9%84%D9%8A%D8%A9.%0A%0A%D8%A7%D9%84%D8%A7%D8%B3%D9%85%20%2F%20%D8%A7%D9%84%D8%B4%D8%B1%D9%83%D8%A9%3A%0A%D9%81%D8%A6%D8%A9%20%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%3A%20%D8%B5%D9%85%D8%A7%D9%85%D8%A7%D8%AA%20%D8%A8%D9%88%D8%A7%D8%A8%D8%A9%20%D9%84%D9%85%D9%83%D8%A7%D9%81%D8%AD%D8%A9%20%D8%A7%D9%84%D8%AD%D8%B1%D9%8A%D9%82%0A%D8%A7%D9%84%D8%B5%D9%81%D8%AD%D8%A9%3A%20https%3A%2F%2Fchuanweifire.com%2Far%2Fproducts%2Fgate-valves%2F%0A%0A%D8%A7%D9%84%D9%85%D9%88%D8%AF%D9%8A%D9%84%20%2F%20%D8%A7%D9%84%D9%85%D9%82%D8%A7%D8%B3%20%2F%20%D8%A7%D9%84%D8%AA%D9%88%D8%B5%D9%8A%D9%84%20%2F%20%D8%A7%D9%84%D9%83%D9%85%D9%8A%D8%A9%20%2F%20%D8%A7%D9%84%D9%88%D8%AC%D9%87%D8%A9%20(%D8%B9%D9%86%D8%AF%20%D8%AA%D9%88%D9%81%D8%B1%D9%87%D8%A7)%3A",
+      "../../contact.html"
+    ],
+    "h1": "صمامات بوابة لمكافحة الحريق",
+    "listingCss": "../../../css/catalog-pages.css?v=5adeda95b229",
+    "overflowButtons": [],
+    "viewport": 320,
+    "width": 305
+  },
+  {
+    "id": "category:hose-reels",
+    "kind": "category",
+    "locale": "en",
+    "path": "products/软管卷盘.html",
+    "testWidth": 320,
+    "badImages": [],
+    "drafts": [
+      "https://wa.me/8617326528368?text=Hello%2C%20I%20would%20like%20to%20inquire%20about%20these%20products.%0A%0AName%20%2F%20company%3A%0AProduct%20category%3A%20Fire%20Hose%20Reels%0APage%3A%20https%3A%2F%2Fchuanweifire.com%2Fproducts%2F%25E8%25BD%25AF%25E7%25AE%25A1%25E5%258D%25B7%25E7%259B%2598.html%0A%0AModel%20%2F%20size%20%2F%20connection%20%2F%20quantity%20%2F%20destination%20(when%20available)%3A",
+      "mailto:zhengcolin1@gmail.com?subject=Product%20inquiry%3A%20Fire%20Hose%20Reels&body=Hello%2C%20I%20would%20like%20to%20inquire%20about%20these%20products.%0A%0AName%20%2F%20company%3A%0AProduct%20category%3A%20Fire%20Hose%20Reels%0APage%3A%20https%3A%2F%2Fchuanweifire.com%2Fproducts%2F%25E8%25BD%25AF%25E7%25AE%25A1%25E5%258D%25B7%25E7%259B%2598.html%0A%0AModel%20%2F%20size%20%2F%20connection%20%2F%20quantity%20%2F%20destination%20(when%20available)%3A",
+      "../contact.html"
+    ],
+    "h1": "Fire Hose Reels",
+    "listingCss": "../css/catalog-pages.css?v=5adeda95b229",
+    "overflowButtons": [],
+    "viewport": 320,
+    "width": 305
+  },
+  {
+    "id": "category:hose-reels",
+    "kind": "category",
+    "locale": "ar",
+    "path": "ar/products/hose-reels/index.html",
+    "testWidth": 320,
+    "badImages": [],
+    "drafts": [
+      "https://wa.me/8617326528368?text=%D9%85%D8%B1%D8%AD%D8%A8%D8%A7%D9%8B%D8%8C%20%D8%A3%D9%88%D8%AF%20%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1%20%D8%B9%D9%86%20%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%D8%A7%D8%AA%20%D8%A7%D9%84%D8%AA%D8%A7%D9%84%D9%8A%D8%A9.%0A%0A%D8%A7%D9%84%D8%A7%D8%B3%D9%85%20%2F%20%D8%A7%D9%84%D8%B4%D8%B1%D9%83%D8%A9%3A%0A%D9%81%D8%A6%D8%A9%20%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%3A%20%D8%A8%D9%83%D8%B1%D8%A7%D8%AA%20%D8%AE%D8%B1%D8%A7%D8%B7%D9%8A%D9%85%20%D8%A7%D9%84%D8%AD%D8%B1%D9%8A%D9%82%0A%D8%A7%D9%84%D8%B5%D9%81%D8%AD%D8%A9%3A%20https%3A%2F%2Fchuanweifire.com%2Far%2Fproducts%2Fhose-reels%2F%0A%0A%D8%A7%D9%84%D9%85%D9%88%D8%AF%D9%8A%D9%84%20%2F%20%D8%A7%D9%84%D9%85%D9%82%D8%A7%D8%B3%20%2F%20%D8%A7%D9%84%D8%AA%D9%88%D8%B5%D9%8A%D9%84%20%2F%20%D8%A7%D9%84%D9%83%D9%85%D9%8A%D8%A9%20%2F%20%D8%A7%D9%84%D9%88%D8%AC%D9%87%D8%A9%20(%D8%B9%D9%86%D8%AF%20%D8%AA%D9%88%D9%81%D8%B1%D9%87%D8%A7)%3A",
+      "mailto:zhengcolin1@gmail.com?subject=%D8%A7%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1%20%D8%B9%D9%86%20%D8%A8%D9%83%D8%B1%D8%A7%D8%AA%20%D8%AE%D8%B1%D8%A7%D8%B7%D9%8A%D9%85%20%D8%A7%D9%84%D8%AD%D8%B1%D9%8A%D9%82&body=%D9%85%D8%B1%D8%AD%D8%A8%D8%A7%D9%8B%D8%8C%20%D8%A3%D9%88%D8%AF%20%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1%20%D8%B9%D9%86%20%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%D8%A7%D8%AA%20%D8%A7%D9%84%D8%AA%D8%A7%D9%84%D9%8A%D8%A9.%0A%0A%D8%A7%D9%84%D8%A7%D8%B3%D9%85%20%2F%20%D8%A7%D9%84%D8%B4%D8%B1%D9%83%D8%A9%3A%0A%D9%81%D8%A6%D8%A9%20%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%3A%20%D8%A8%D9%83%D8%B1%D8%A7%D8%AA%20%D8%AE%D8%B1%D8%A7%D8%B7%D9%8A%D9%85%20%D8%A7%D9%84%D8%AD%D8%B1%D9%8A%D9%82%0A%D8%A7%D9%84%D8%B5%D9%81%D8%AD%D8%A9%3A%20https%3A%2F%2Fchuanweifire.com%2Far%2Fproducts%2Fhose-reels%2F%0A%0A%D8%A7%D9%84%D9%85%D9%88%D8%AF%D9%8A%D9%84%20%2F%20%D8%A7%D9%84%D9%85%D9%82%D8%A7%D8%B3%20%2F%20%D8%A7%D9%84%D8%AA%D9%88%D8%B5%D9%8A%D9%84%20%2F%20%D8%A7%D9%84%D9%83%D9%85%D9%8A%D8%A9%20%2F%20%D8%A7%D9%84%D9%88%D8%AC%D9%87%D8%A9%20(%D8%B9%D9%86%D8%AF%20%D8%AA%D9%88%D9%81%D8%B1%D9%87%D8%A7)%3A",
+      "../../contact.html"
+    ],
+    "h1": "بكرات خراطيم الحريق",
+    "listingCss": "../../../css/catalog-pages.css?v=5adeda95b229",
+    "overflowButtons": [],
+    "viewport": 320,
+    "width": 305
+  },
+  {
+    "id": "category:hoses-nozzles-couplings",
+    "kind": "category",
+    "locale": "en",
+    "path": "products/消防水枪.html",
+    "testWidth": 320,
+    "badImages": [],
+    "drafts": [
+      "https://wa.me/8617326528368?text=Hello%2C%20I%20would%20like%20to%20inquire%20about%20these%20products.%0A%0AName%20%2F%20company%3A%0AProduct%20category%3A%20Fire%20Hose%20Nozzles%2C%20Couplings%20%26%20Adapters%0APage%3A%20https%3A%2F%2Fchuanweifire.com%2Fproducts%2F%25E6%25B6%2588%25E9%2598%25B2%25E6%25B0%25B4%25E6%259E%25AA.html%0A%0AModel%20%2F%20size%20%2F%20connection%20%2F%20quantity%20%2F%20destination%20(when%20available)%3A",
+      "mailto:zhengcolin1@gmail.com?subject=Product%20inquiry%3A%20Fire%20Hose%20Nozzles%2C%20Couplings%20%26%20Adapters&body=Hello%2C%20I%20would%20like%20to%20inquire%20about%20these%20products.%0A%0AName%20%2F%20company%3A%0AProduct%20category%3A%20Fire%20Hose%20Nozzles%2C%20Couplings%20%26%20Adapters%0APage%3A%20https%3A%2F%2Fchuanweifire.com%2Fproducts%2F%25E6%25B6%2588%25E9%2598%25B2%25E6%25B0%25B4%25E6%259E%25AA.html%0A%0AModel%20%2F%20size%20%2F%20connection%20%2F%20quantity%20%2F%20destination%20(when%20available)%3A",
+      "../contact.html"
+    ],
+    "h1": "Fire Hose Nozzles, Couplings & Adapters",
+    "listingCss": "../css/catalog-pages.css?v=5adeda95b229",
+    "overflowButtons": [],
+    "viewport": 320,
+    "width": 305
+  },
+  {
+    "id": "category:hoses-nozzles-couplings",
+    "kind": "category",
+    "locale": "ar",
+    "path": "ar/products/hoses-nozzles-couplings/index.html",
+    "testWidth": 320,
+    "badImages": [],
+    "drafts": [
+      "https://wa.me/8617326528368?text=%D9%85%D8%B1%D8%AD%D8%A8%D8%A7%D9%8B%D8%8C%20%D8%A3%D9%88%D8%AF%20%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1%20%D8%B9%D9%86%20%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%D8%A7%D8%AA%20%D8%A7%D9%84%D8%AA%D8%A7%D9%84%D9%8A%D8%A9.%0A%0A%D8%A7%D9%84%D8%A7%D8%B3%D9%85%20%2F%20%D8%A7%D9%84%D8%B4%D8%B1%D9%83%D8%A9%3A%0A%D9%81%D8%A6%D8%A9%20%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%3A%20%D9%81%D9%88%D9%87%D8%A7%D8%AA%20%D8%AE%D8%B1%D8%A7%D8%B7%D9%8A%D9%85%20%D8%A7%D9%84%D8%AD%D8%B1%D9%8A%D9%82%20%D9%88%D8%A7%D9%84%D9%88%D8%B5%D9%84%D8%A7%D8%AA%20%D9%88%D8%A7%D9%84%D9%85%D9%87%D8%A7%D9%8A%D8%A6%D8%A7%D8%AA%0A%D8%A7%D9%84%D8%B5%D9%81%D8%AD%D8%A9%3A%20https%3A%2F%2Fchuanweifire.com%2Far%2Fproducts%2Fhoses-nozzles-couplings%2F%0A%0A%D8%A7%D9%84%D9%85%D9%88%D8%AF%D9%8A%D9%84%20%2F%20%D8%A7%D9%84%D9%85%D9%82%D8%A7%D8%B3%20%2F%20%D8%A7%D9%84%D8%AA%D9%88%D8%B5%D9%8A%D9%84%20%2F%20%D8%A7%D9%84%D9%83%D9%85%D9%8A%D8%A9%20%2F%20%D8%A7%D9%84%D9%88%D8%AC%D9%87%D8%A9%20(%D8%B9%D9%86%D8%AF%20%D8%AA%D9%88%D9%81%D8%B1%D9%87%D8%A7)%3A",
+      "mailto:zhengcolin1@gmail.com?subject=%D8%A7%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1%20%D8%B9%D9%86%20%D9%81%D9%88%D9%87%D8%A7%D8%AA%20%D8%AE%D8%B1%D8%A7%D8%B7%D9%8A%D9%85%20%D8%A7%D9%84%D8%AD%D8%B1%D9%8A%D9%82%20%D9%88%D8%A7%D9%84%D9%88%D8%B5%D9%84%D8%A7%D8%AA%20%D9%88%D8%A7%D9%84%D9%85%D9%87%D8%A7%D9%8A%D8%A6%D8%A7%D8%AA&body=%D9%85%D8%B1%D8%AD%D8%A8%D8%A7%D9%8B%D8%8C%20%D8%A3%D9%88%D8%AF%20%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1%20%D8%B9%D9%86%20%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%D8%A7%D8%AA%20%D8%A7%D9%84%D8%AA%D8%A7%D9%84%D9%8A%D8%A9.%0A%0A%D8%A7%D9%84%D8%A7%D8%B3%D9%85%20%2F%20%D8%A7%D9%84%D8%B4%D8%B1%D9%83%D8%A9%3A%0A%D9%81%D8%A6%D8%A9%20%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%3A%20%D9%81%D9%88%D9%87%D8%A7%D8%AA%20%D8%AE%D8%B1%D8%A7%D8%B7%D9%8A%D9%85%20%D8%A7%D9%84%D8%AD%D8%B1%D9%8A%D9%82%20%D9%88%D8%A7%D9%84%D9%88%D8%B5%D9%84%D8%A7%D8%AA%20%D9%88%D8%A7%D9%84%D9%85%D9%87%D8%A7%D9%8A%D8%A6%D8%A7%D8%AA%0A%D8%A7%D9%84%D8%B5%D9%81%D8%AD%D8%A9%3A%20https%3A%2F%2Fchuanweifire.com%2Far%2Fproducts%2Fhoses-nozzles-couplings%2F%0A%0A%D8%A7%D9%84%D9%85%D9%88%D8%AF%D9%8A%D9%84%20%2F%20%D8%A7%D9%84%D9%85%D9%82%D8%A7%D8%B3%20%2F%20%D8%A7%D9%84%D8%AA%D9%88%D8%B5%D9%8A%D9%84%20%2F%20%D8%A7%D9%84%D9%83%D9%85%D9%8A%D8%A9%20%2F%20%D8%A7%D9%84%D9%88%D8%AC%D9%87%D8%A9%20(%D8%B9%D9%86%D8%AF%20%D8%AA%D9%88%D9%81%D8%B1%D9%87%D8%A7)%3A",
+      "../../contact.html"
+    ],
+    "h1": "فوهات خراطيم الحريق والوصلات والمهايئات",
+    "listingCss": "../../../css/catalog-pages.css?v=5adeda95b229",
+    "overflowButtons": [],
+    "viewport": 320,
+    "width": 305
+  },
+  {
+    "id": "category:indoor-hydrants",
+    "kind": "category",
+    "locale": "en",
+    "path": "products/室内消防栓/室内消防栓.html",
+    "testWidth": 320,
+    "badImages": [],
+    "drafts": [
+      "https://wa.me/8617326528368?text=Hello%2C%20I%20would%20like%20to%20inquire%20about%20these%20products.%0A%0AName%20%2F%20company%3A%0AProduct%20category%3A%20Indoor%20Fire%20Hydrants%0APage%3A%20https%3A%2F%2Fchuanweifire.com%2Fproducts%2F%25E5%25AE%25A4%25E5%2586%2585%25E6%25B6%2588%25E9%2598%25B2%25E6%25A0%2593%2F%25E5%25AE%25A4%25E5%2586%2585%25E6%25B6%2588%25E9%2598%25B2%25E6%25A0%2593.html%0A%0AModel%20%2F%20size%20%2F%20connection%20%2F%20quantity%20%2F%20destination%20(when%20available)%3A",
+      "mailto:zhengcolin1@gmail.com?subject=Product%20inquiry%3A%20Indoor%20Fire%20Hydrants&body=Hello%2C%20I%20would%20like%20to%20inquire%20about%20these%20products.%0A%0AName%20%2F%20company%3A%0AProduct%20category%3A%20Indoor%20Fire%20Hydrants%0APage%3A%20https%3A%2F%2Fchuanweifire.com%2Fproducts%2F%25E5%25AE%25A4%25E5%2586%2585%25E6%25B6%2588%25E9%2598%25B2%25E6%25A0%2593%2F%25E5%25AE%25A4%25E5%2586%2585%25E6%25B6%2588%25E9%2598%25B2%25E6%25A0%2593.html%0A%0AModel%20%2F%20size%20%2F%20connection%20%2F%20quantity%20%2F%20destination%20(when%20available)%3A",
+      "../../contact.html"
+    ],
+    "h1": "Indoor Fire Hydrants",
+    "listingCss": "../../css/catalog-pages.css?v=5adeda95b229",
+    "overflowButtons": [],
+    "viewport": 320,
+    "width": 305
+  },
+  {
+    "id": "category:indoor-hydrants",
+    "kind": "category",
+    "locale": "ar",
+    "path": "ar/products/indoor-hydrants/index.html",
+    "testWidth": 320,
+    "badImages": [],
+    "drafts": [
+      "https://wa.me/8617326528368?text=%D9%85%D8%B1%D8%AD%D8%A8%D8%A7%D9%8B%D8%8C%20%D8%A3%D9%88%D8%AF%20%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1%20%D8%B9%D9%86%20%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%D8%A7%D8%AA%20%D8%A7%D9%84%D8%AA%D8%A7%D9%84%D9%8A%D8%A9.%0A%0A%D8%A7%D9%84%D8%A7%D8%B3%D9%85%20%2F%20%D8%A7%D9%84%D8%B4%D8%B1%D9%83%D8%A9%3A%0A%D9%81%D8%A6%D8%A9%20%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%3A%20%D9%85%D8%AD%D8%A7%D8%A8%D8%B3%20%D8%A7%D9%84%D8%AD%D8%B1%D9%8A%D9%82%20%D8%A7%D9%84%D8%AF%D8%A7%D8%AE%D9%84%D9%8A%D8%A9%0A%D8%A7%D9%84%D8%B5%D9%81%D8%AD%D8%A9%3A%20https%3A%2F%2Fchuanweifire.com%2Far%2Fproducts%2Findoor-hydrants%2F%0A%0A%D8%A7%D9%84%D9%85%D9%88%D8%AF%D9%8A%D9%84%20%2F%20%D8%A7%D9%84%D9%85%D9%82%D8%A7%D8%B3%20%2F%20%D8%A7%D9%84%D8%AA%D9%88%D8%B5%D9%8A%D9%84%20%2F%20%D8%A7%D9%84%D9%83%D9%85%D9%8A%D8%A9%20%2F%20%D8%A7%D9%84%D9%88%D8%AC%D9%87%D8%A9%20(%D8%B9%D9%86%D8%AF%20%D8%AA%D9%88%D9%81%D8%B1%D9%87%D8%A7)%3A",
+      "mailto:zhengcolin1@gmail.com?subject=%D8%A7%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1%20%D8%B9%D9%86%20%D9%85%D8%AD%D8%A7%D8%A8%D8%B3%20%D8%A7%D9%84%D8%AD%D8%B1%D9%8A%D9%82%20%D8%A7%D9%84%D8%AF%D8%A7%D8%AE%D9%84%D9%8A%D8%A9&body=%D9%85%D8%B1%D8%AD%D8%A8%D8%A7%D9%8B%D8%8C%20%D8%A3%D9%88%D8%AF%20%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1%20%D8%B9%D9%86%20%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%D8%A7%D8%AA%20%D8%A7%D9%84%D8%AA%D8%A7%D9%84%D9%8A%D8%A9.%0A%0A%D8%A7%D9%84%D8%A7%D8%B3%D9%85%20%2F%20%D8%A7%D9%84%D8%B4%D8%B1%D9%83%D8%A9%3A%0A%D9%81%D8%A6%D8%A9%20%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%3A%20%D9%85%D8%AD%D8%A7%D8%A8%D8%B3%20%D8%A7%D9%84%D8%AD%D8%B1%D9%8A%D9%82%20%D8%A7%D9%84%D8%AF%D8%A7%D8%AE%D9%84%D9%8A%D8%A9%0A%D8%A7%D9%84%D8%B5%D9%81%D8%AD%D8%A9%3A%20https%3A%2F%2Fchuanweifire.com%2Far%2Fproducts%2Findoor-hydrants%2F%0A%0A%D8%A7%D9%84%D9%85%D9%88%D8%AF%D9%8A%D9%84%20%2F%20%D8%A7%D9%84%D9%85%D9%82%D8%A7%D8%B3%20%2F%20%D8%A7%D9%84%D8%AA%D9%88%D8%B5%D9%8A%D9%84%20%2F%20%D8%A7%D9%84%D9%83%D9%85%D9%8A%D8%A9%20%2F%20%D8%A7%D9%84%D9%88%D8%AC%D9%87%D8%A9%20(%D8%B9%D9%86%D8%AF%20%D8%AA%D9%88%D9%81%D8%B1%D9%87%D8%A7)%3A",
+      "../../contact.html"
+    ],
+    "h1": "محابس الحريق الداخلية",
+    "listingCss": "../../../css/catalog-pages.css?v=5adeda95b229",
+    "overflowButtons": [],
+    "viewport": 320,
+    "width": 305
+  },
+  {
+    "id": "category:outdoor-hydrants",
+    "kind": "category",
+    "locale": "en",
+    "path": "products/室外消防栓/室外消防栓.html",
+    "testWidth": 320,
+    "badImages": [],
+    "drafts": [
+      "https://wa.me/8617326528368?text=Hello%2C%20I%20would%20like%20to%20inquire%20about%20these%20products.%0A%0AName%20%2F%20company%3A%0AProduct%20category%3A%20Outdoor%20Fire%20Hydrants%0APage%3A%20https%3A%2F%2Fchuanweifire.com%2Fproducts%2F%25E5%25AE%25A4%25E5%25A4%2596%25E6%25B6%2588%25E9%2598%25B2%25E6%25A0%2593%2F%25E5%25AE%25A4%25E5%25A4%2596%25E6%25B6%2588%25E9%2598%25B2%25E6%25A0%2593.html%0A%0AModel%20%2F%20size%20%2F%20connection%20%2F%20quantity%20%2F%20destination%20(when%20available)%3A",
+      "mailto:zhengcolin1@gmail.com?subject=Product%20inquiry%3A%20Outdoor%20Fire%20Hydrants&body=Hello%2C%20I%20would%20like%20to%20inquire%20about%20these%20products.%0A%0AName%20%2F%20company%3A%0AProduct%20category%3A%20Outdoor%20Fire%20Hydrants%0APage%3A%20https%3A%2F%2Fchuanweifire.com%2Fproducts%2F%25E5%25AE%25A4%25E5%25A4%2596%25E6%25B6%2588%25E9%2598%25B2%25E6%25A0%2593%2F%25E5%25AE%25A4%25E5%25A4%2596%25E6%25B6%2588%25E9%2598%25B2%25E6%25A0%2593.html%0A%0AModel%20%2F%20size%20%2F%20connection%20%2F%20quantity%20%2F%20destination%20(when%20available)%3A",
+      "../../contact.html"
+    ],
+    "h1": "Outdoor Fire Hydrants",
+    "listingCss": "../../css/catalog-pages.css?v=5adeda95b229",
+    "overflowButtons": [],
+    "viewport": 320,
+    "width": 305
+  },
+  {
+    "id": "category:outdoor-hydrants",
+    "kind": "category",
+    "locale": "ar",
+    "path": "ar/products/outdoor-hydrants/index.html",
+    "testWidth": 320,
+    "badImages": [],
+    "drafts": [
+      "https://wa.me/8617326528368?text=%D9%85%D8%B1%D8%AD%D8%A8%D8%A7%D9%8B%D8%8C%20%D8%A3%D9%88%D8%AF%20%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1%20%D8%B9%D9%86%20%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%D8%A7%D8%AA%20%D8%A7%D9%84%D8%AA%D8%A7%D9%84%D9%8A%D8%A9.%0A%0A%D8%A7%D9%84%D8%A7%D8%B3%D9%85%20%2F%20%D8%A7%D9%84%D8%B4%D8%B1%D9%83%D8%A9%3A%0A%D9%81%D8%A6%D8%A9%20%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%3A%20%D8%B5%D9%86%D8%A7%D8%A8%D9%8A%D8%B1%20%D8%A7%D9%84%D8%AD%D8%B1%D9%8A%D9%82%20%D8%A7%D9%84%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A9%0A%D8%A7%D9%84%D8%B5%D9%81%D8%AD%D8%A9%3A%20https%3A%2F%2Fchuanweifire.com%2Far%2Fproducts%2Foutdoor-hydrants%2F%0A%0A%D8%A7%D9%84%D9%85%D9%88%D8%AF%D9%8A%D9%84%20%2F%20%D8%A7%D9%84%D9%85%D9%82%D8%A7%D8%B3%20%2F%20%D8%A7%D9%84%D8%AA%D9%88%D8%B5%D9%8A%D9%84%20%2F%20%D8%A7%D9%84%D9%83%D9%85%D9%8A%D8%A9%20%2F%20%D8%A7%D9%84%D9%88%D8%AC%D9%87%D8%A9%20(%D8%B9%D9%86%D8%AF%20%D8%AA%D9%88%D9%81%D8%B1%D9%87%D8%A7)%3A",
+      "mailto:zhengcolin1@gmail.com?subject=%D8%A7%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1%20%D8%B9%D9%86%20%D8%B5%D9%86%D8%A7%D8%A8%D9%8A%D8%B1%20%D8%A7%D9%84%D8%AD%D8%B1%D9%8A%D9%82%20%D8%A7%D9%84%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A9&body=%D9%85%D8%B1%D8%AD%D8%A8%D8%A7%D9%8B%D8%8C%20%D8%A3%D9%88%D8%AF%20%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1%20%D8%B9%D9%86%20%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%D8%A7%D8%AA%20%D8%A7%D9%84%D8%AA%D8%A7%D9%84%D9%8A%D8%A9.%0A%0A%D8%A7%D9%84%D8%A7%D8%B3%D9%85%20%2F%20%D8%A7%D9%84%D8%B4%D8%B1%D9%83%D8%A9%3A%0A%D9%81%D8%A6%D8%A9%20%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%3A%20%D8%B5%D9%86%D8%A7%D8%A8%D9%8A%D8%B1%20%D8%A7%D9%84%D8%AD%D8%B1%D9%8A%D9%82%20%D8%A7%D9%84%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A9%0A%D8%A7%D9%84%D8%B5%D9%81%D8%AD%D8%A9%3A%20https%3A%2F%2Fchuanweifire.com%2Far%2Fproducts%2Foutdoor-hydrants%2F%0A%0A%D8%A7%D9%84%D9%85%D9%88%D8%AF%D9%8A%D9%84%20%2F%20%D8%A7%D9%84%D9%85%D9%82%D8%A7%D8%B3%20%2F%20%D8%A7%D9%84%D8%AA%D9%88%D8%B5%D9%8A%D9%84%20%2F%20%D8%A7%D9%84%D9%83%D9%85%D9%8A%D8%A9%20%2F%20%D8%A7%D9%84%D9%88%D8%AC%D9%87%D8%A9%20(%D8%B9%D9%86%D8%AF%20%D8%AA%D9%88%D9%81%D8%B1%D9%87%D8%A7)%3A",
+      "../../contact.html"
+    ],
+    "h1": "صنابير الحريق الخارجية",
+    "listingCss": "../../../css/catalog-pages.css?v=5adeda95b229",
+    "overflowButtons": [],
+    "viewport": 320,
+    "width": 305
+  },
+  {
+    "id": "category:fire-department-connections",
+    "kind": "category",
+    "locale": "en",
+    "path": "products/消防水泵接合器.html",
+    "testWidth": 320,
+    "badImages": [],
+    "drafts": [
+      "https://wa.me/8617326528368?text=Hello%2C%20I%20would%20like%20to%20inquire%20about%20these%20products.%0A%0AName%20%2F%20company%3A%0AProduct%20category%3A%20Fire%20Department%20Connections%0APage%3A%20https%3A%2F%2Fchuanweifire.com%2Fproducts%2F%25E6%25B6%2588%25E9%2598%25B2%25E6%25B0%25B4%25E6%25B3%25B5%25E6%258E%25A5%25E5%2590%2588%25E5%2599%25A8.html%0A%0AModel%20%2F%20size%20%2F%20connection%20%2F%20quantity%20%2F%20destination%20(when%20available)%3A",
+      "mailto:zhengcolin1@gmail.com?subject=Product%20inquiry%3A%20Fire%20Department%20Connections&body=Hello%2C%20I%20would%20like%20to%20inquire%20about%20these%20products.%0A%0AName%20%2F%20company%3A%0AProduct%20category%3A%20Fire%20Department%20Connections%0APage%3A%20https%3A%2F%2Fchuanweifire.com%2Fproducts%2F%25E6%25B6%2588%25E9%2598%25B2%25E6%25B0%25B4%25E6%25B3%25B5%25E6%258E%25A5%25E5%2590%2588%25E5%2599%25A8.html%0A%0AModel%20%2F%20size%20%2F%20connection%20%2F%20quantity%20%2F%20destination%20(when%20available)%3A",
+      "../contact.html"
+    ],
+    "h1": "Fire Department Connections",
+    "listingCss": "../css/catalog-pages.css?v=5adeda95b229",
+    "overflowButtons": [],
+    "viewport": 320,
+    "width": 305
+  },
+  {
+    "id": "category:fire-department-connections",
+    "kind": "category",
+    "locale": "ar",
+    "path": "ar/products/fire-department-connections/index.html",
+    "testWidth": 320,
+    "badImages": [],
+    "drafts": [
+      "https://wa.me/8617326528368?text=%D9%85%D8%B1%D8%AD%D8%A8%D8%A7%D9%8B%D8%8C%20%D8%A3%D9%88%D8%AF%20%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1%20%D8%B9%D9%86%20%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%D8%A7%D8%AA%20%D8%A7%D9%84%D8%AA%D8%A7%D9%84%D9%8A%D8%A9.%0A%0A%D8%A7%D9%84%D8%A7%D8%B3%D9%85%20%2F%20%D8%A7%D9%84%D8%B4%D8%B1%D9%83%D8%A9%3A%0A%D9%81%D8%A6%D8%A9%20%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%3A%20%D9%88%D8%B5%D9%84%D8%A7%D8%AA%20%D8%AA%D8%B2%D9%88%D9%8A%D8%AF%20%D8%A3%D9%86%D8%B8%D9%85%D8%A9%20%D8%A7%D9%84%D8%AD%D8%B1%D9%8A%D9%82%20%D8%A8%D8%A7%D9%84%D9%85%D9%8A%D8%A7%D9%87%0A%D8%A7%D9%84%D8%B5%D9%81%D8%AD%D8%A9%3A%20https%3A%2F%2Fchuanweifire.com%2Far%2Fproducts%2Ffire-department-connections%2F%0A%0A%D8%A7%D9%84%D9%85%D9%88%D8%AF%D9%8A%D9%84%20%2F%20%D8%A7%D9%84%D9%85%D9%82%D8%A7%D8%B3%20%2F%20%D8%A7%D9%84%D8%AA%D9%88%D8%B5%D9%8A%D9%84%20%2F%20%D8%A7%D9%84%D9%83%D9%85%D9%8A%D8%A9%20%2F%20%D8%A7%D9%84%D9%88%D8%AC%D9%87%D8%A9%20(%D8%B9%D9%86%D8%AF%20%D8%AA%D9%88%D9%81%D8%B1%D9%87%D8%A7)%3A",
+      "mailto:zhengcolin1@gmail.com?subject=%D8%A7%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1%20%D8%B9%D9%86%20%D9%88%D8%B5%D9%84%D8%A7%D8%AA%20%D8%AA%D8%B2%D9%88%D9%8A%D8%AF%20%D8%A3%D9%86%D8%B8%D9%85%D8%A9%20%D8%A7%D9%84%D8%AD%D8%B1%D9%8A%D9%82%20%D8%A8%D8%A7%D9%84%D9%85%D9%8A%D8%A7%D9%87&body=%D9%85%D8%B1%D8%AD%D8%A8%D8%A7%D9%8B%D8%8C%20%D8%A3%D9%88%D8%AF%20%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1%20%D8%B9%D9%86%20%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%D8%A7%D8%AA%20%D8%A7%D9%84%D8%AA%D8%A7%D9%84%D9%8A%D8%A9.%0A%0A%D8%A7%D9%84%D8%A7%D8%B3%D9%85%20%2F%20%D8%A7%D9%84%D8%B4%D8%B1%D9%83%D8%A9%3A%0A%D9%81%D8%A6%D8%A9%20%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%3A%20%D9%88%D8%B5%D9%84%D8%A7%D8%AA%20%D8%AA%D8%B2%D9%88%D9%8A%D8%AF%20%D8%A3%D9%86%D8%B8%D9%85%D8%A9%20%D8%A7%D9%84%D8%AD%D8%B1%D9%8A%D9%82%20%D8%A8%D8%A7%D9%84%D9%85%D9%8A%D8%A7%D9%87%0A%D8%A7%D9%84%D8%B5%D9%81%D8%AD%D8%A9%3A%20https%3A%2F%2Fchuanweifire.com%2Far%2Fproducts%2Ffire-department-connections%2F%0A%0A%D8%A7%D9%84%D9%85%D9%88%D8%AF%D9%8A%D9%84%20%2F%20%D8%A7%D9%84%D9%85%D9%82%D8%A7%D8%B3%20%2F%20%D8%A7%D9%84%D8%AA%D9%88%D8%B5%D9%8A%D9%84%20%2F%20%D8%A7%D9%84%D9%83%D9%85%D9%8A%D8%A9%20%2F%20%D8%A7%D9%84%D9%88%D8%AC%D9%87%D8%A9%20(%D8%B9%D9%86%D8%AF%20%D8%AA%D9%88%D9%81%D8%B1%D9%87%D8%A7)%3A",
+      "../../contact.html"
+    ],
+    "h1": "وصلات تزويد أنظمة الحريق بالمياه",
+    "listingCss": "../../../css/catalog-pages.css?v=5adeda95b229",
+    "overflowButtons": [],
+    "viewport": 320,
+    "width": 305
+  },
+  {
+    "id": "category:fire-equipment-cabinets",
+    "kind": "category",
+    "locale": "en",
+    "path": "products/消防器材箱.html",
+    "testWidth": 320,
+    "badImages": [],
+    "drafts": [
+      "https://wa.me/8617326528368?text=Hello%2C%20I%20would%20like%20to%20inquire%20about%20these%20products.%0A%0AName%20%2F%20company%3A%0AProduct%20category%3A%20Fire%20Equipment%20Cabinets%0APage%3A%20https%3A%2F%2Fchuanweifire.com%2Fproducts%2F%25E6%25B6%2588%25E9%2598%25B2%25E5%2599%25A8%25E6%259D%2590%25E7%25AE%25B1.html%0A%0AModel%20%2F%20size%20%2F%20connection%20%2F%20quantity%20%2F%20destination%20(when%20available)%3A",
+      "mailto:zhengcolin1@gmail.com?subject=Product%20inquiry%3A%20Fire%20Equipment%20Cabinets&body=Hello%2C%20I%20would%20like%20to%20inquire%20about%20these%20products.%0A%0AName%20%2F%20company%3A%0AProduct%20category%3A%20Fire%20Equipment%20Cabinets%0APage%3A%20https%3A%2F%2Fchuanweifire.com%2Fproducts%2F%25E6%25B6%2588%25E9%2598%25B2%25E5%2599%25A8%25E6%259D%2590%25E7%25AE%25B1.html%0A%0AModel%20%2F%20size%20%2F%20connection%20%2F%20quantity%20%2F%20destination%20(when%20available)%3A",
+      "../contact.html"
+    ],
+    "h1": "Fire Equipment Cabinets",
+    "listingCss": "../css/catalog-pages.css?v=5adeda95b229",
+    "overflowButtons": [],
+    "viewport": 320,
+    "width": 305
+  },
+  {
+    "id": "category:fire-equipment-cabinets",
+    "kind": "category",
+    "locale": "ar",
+    "path": "ar/products/fire-equipment-cabinets/index.html",
+    "testWidth": 320,
+    "badImages": [],
+    "drafts": [
+      "https://wa.me/8617326528368?text=%D9%85%D8%B1%D8%AD%D8%A8%D8%A7%D9%8B%D8%8C%20%D8%A3%D9%88%D8%AF%20%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1%20%D8%B9%D9%86%20%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%D8%A7%D8%AA%20%D8%A7%D9%84%D8%AA%D8%A7%D9%84%D9%8A%D8%A9.%0A%0A%D8%A7%D9%84%D8%A7%D8%B3%D9%85%20%2F%20%D8%A7%D9%84%D8%B4%D8%B1%D9%83%D8%A9%3A%0A%D9%81%D8%A6%D8%A9%20%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%3A%20%D8%AE%D8%B2%D8%A7%D8%A6%D9%86%20%D9%85%D8%B9%D8%AF%D8%A7%D8%AA%20%D9%85%D9%83%D8%A7%D9%81%D8%AD%D8%A9%20%D8%A7%D9%84%D8%AD%D8%B1%D9%8A%D9%82%0A%D8%A7%D9%84%D8%B5%D9%81%D8%AD%D8%A9%3A%20https%3A%2F%2Fchuanweifire.com%2Far%2Fproducts%2Ffire-equipment-cabinets%2F%0A%0A%D8%A7%D9%84%D9%85%D9%88%D8%AF%D9%8A%D9%84%20%2F%20%D8%A7%D9%84%D9%85%D9%82%D8%A7%D8%B3%20%2F%20%D8%A7%D9%84%D8%AA%D9%88%D8%B5%D9%8A%D9%84%20%2F%20%D8%A7%D9%84%D9%83%D9%85%D9%8A%D8%A9%20%2F%20%D8%A7%D9%84%D9%88%D8%AC%D9%87%D8%A9%20(%D8%B9%D9%86%D8%AF%20%D8%AA%D9%88%D9%81%D8%B1%D9%87%D8%A7)%3A",
+      "mailto:zhengcolin1@gmail.com?subject=%D8%A7%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1%20%D8%B9%D9%86%20%D8%AE%D8%B2%D8%A7%D8%A6%D9%86%20%D9%85%D8%B9%D8%AF%D8%A7%D8%AA%20%D9%85%D9%83%D8%A7%D9%81%D8%AD%D8%A9%20%D8%A7%D9%84%D8%AD%D8%B1%D9%8A%D9%82&body=%D9%85%D8%B1%D8%AD%D8%A8%D8%A7%D9%8B%D8%8C%20%D8%A3%D9%88%D8%AF%20%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1%20%D8%B9%D9%86%20%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%D8%A7%D8%AA%20%D8%A7%D9%84%D8%AA%D8%A7%D9%84%D9%8A%D8%A9.%0A%0A%D8%A7%D9%84%D8%A7%D8%B3%D9%85%20%2F%20%D8%A7%D9%84%D8%B4%D8%B1%D9%83%D8%A9%3A%0A%D9%81%D8%A6%D8%A9%20%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%3A%20%D8%AE%D8%B2%D8%A7%D8%A6%D9%86%20%D9%85%D8%B9%D8%AF%D8%A7%D8%AA%20%D9%85%D9%83%D8%A7%D9%81%D8%AD%D8%A9%20%D8%A7%D9%84%D8%AD%D8%B1%D9%8A%D9%82%0A%D8%A7%D9%84%D8%B5%D9%81%D8%AD%D8%A9%3A%20https%3A%2F%2Fchuanweifire.com%2Far%2Fproducts%2Ffire-equipment-cabinets%2F%0A%0A%D8%A7%D9%84%D9%85%D9%88%D8%AF%D9%8A%D9%84%20%2F%20%D8%A7%D9%84%D9%85%D9%82%D8%A7%D8%B3%20%2F%20%D8%A7%D9%84%D8%AA%D9%88%D8%B5%D9%8A%D9%84%20%2F%20%D8%A7%D9%84%D9%83%D9%85%D9%8A%D8%A9%20%2F%20%D8%A7%D9%84%D9%88%D8%AC%D9%87%D8%A9%20(%D8%B9%D9%86%D8%AF%20%D8%AA%D9%88%D9%81%D8%B1%D9%87%D8%A7)%3A",
+      "../../contact.html"
+    ],
+    "h1": "خزائن معدات مكافحة الحريق",
+    "listingCss": "../../../css/catalog-pages.css?v=5adeda95b229",
+    "overflowButtons": [],
+    "viewport": 320,
+    "width": 305
+  },
+  {
+    "id": "product:water-curtain-nozzles",
+    "kind": "product",
+    "locale": "en",
+    "path": "products/消防喷头/water-curtain-nozzles.html",
+    "testWidth": 320,
+    "badImages": [],
+    "drafts": [
+      "https://wa.me/8617326528368?text=Hello%2C%20I%20need%20a%20quotation%20for%20Water%20Curtain%20Nozzles.%20Type%3A%20%5Bpendent%2Fhorizontal%5D%2C%20size%3A%20%5BDN%2Finch%5D%2C%20slot%3A%20%5Bsingle%2Fdouble%5D%2C%20thread%3A%20%5Brequirement%5D%2C%20hydraulic%20requirement%3A%20%5Bdetails%5D%2C%20quantity%3A%20%5Bpcs%5D%2C%20destination%3A%20%5Bcountry%5D.",
+      "mailto:zhengcolin1@gmail.com?subject=Product%20inquiry%3A%20Water%20Curtain%20Nozzles&body=Hello%2C%20I%20would%20like%20to%20discuss%20a%20fire-protection%20product%20requirement.%0A%0AProduct%3A%20Water%20Curtain%20Nozzles%0AProduct%20page%3A%20https%3A%2F%2Fchuanweifire.com%2Fproducts%2F%25E6%25B6%2588%25E9%2598%25B2%25E5%2596%25B7%25E5%25A4%25B4%2Fwater-curtain-nozzles.html%0A%0ARequirements%3A"
+    ],
+    "h1": "Water Curtain Nozzles",
+    "overflowButtons": [],
+    "viewport": 320,
+    "width": 305
+  },
+  {
+    "id": "product:water-curtain-nozzles",
+    "kind": "product",
+    "locale": "ar",
+    "path": "ar/products/water-curtain-nozzles/index.html",
+    "testWidth": 320,
+    "badImages": [],
+    "drafts": [
+      "https://wa.me/8617326528368?text=%D9%85%D8%B1%D8%AD%D8%A8%D8%A7%D9%8B%D8%8C%20%D8%A3%D8%AD%D8%AA%D8%A7%D8%AC%20%D8%A5%D9%84%D9%89%20%D8%B9%D8%B1%D8%B6%20%D8%B3%D8%B9%D8%B1%20%D9%84%D9%81%D9%88%D9%87%D8%A7%D8%AA%20%D8%B3%D8%AA%D8%A7%D8%B1%D8%A9%20%D9%85%D8%A7%D8%A6%D9%8A%D8%A9.%20%D8%A7%D9%84%D9%86%D9%88%D8%B9%3A%20%5B%D9%85%D8%AA%D8%AF%D9%84%D9%8D%2F%D8%A3%D9%81%D9%82%D9%8A%5D%D8%8C%20%D8%A7%D9%84%D9%85%D9%82%D8%A7%D8%B3%3A%20%5BDN%2Finch%5D%D8%8C%20%D8%A7%D9%84%D8%B4%D9%82%3A%20%5B%D9%88%D8%A7%D8%AD%D8%AF%2F%D8%B4%D9%82%D8%A7%D9%86%5D%D8%8C%20%D9%85%D8%AA%D8%B7%D9%84%D8%A8%D8%A7%D8%AA%20%D8%A7%D9%84%D9%84%D9%88%D9%84%D8%A8%3A%20%5B%D8%A7%D9%84%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84%5D%D8%8C%20%D8%A7%D9%84%D9%85%D8%AA%D8%B7%D9%84%D8%A8%D8%A7%D8%AA%20%D8%A7%D9%84%D9%87%D9%8A%D8%AF%D8%B1%D9%88%D9%84%D9%8A%D9%83%D9%8A%D8%A9%3A%20%5B%D8%A7%D9%84%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84%5D%D8%8C%20%D8%A7%D9%84%D9%83%D9%85%D9%8A%D8%A9%3A%20%5B%D9%82%D8%B7%D8%B9%D8%A9%5D%D8%8C%20%D8%A7%D9%84%D9%88%D8%AC%D9%87%D8%A9%3A%20%5B%D8%A7%D9%84%D8%AF%D9%88%D9%84%D8%A9%5D.",
+      "mailto:zhengcolin1@gmail.com?subject=%D8%A7%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1%20%D8%B9%D9%86%20%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%3A%20%D9%81%D9%88%D9%87%D8%A7%D8%AA%20%D8%B3%D8%AA%D8%A7%D8%B1%D8%A9%20%D9%85%D8%A7%D8%A6%D9%8A%D8%A9&body=%D9%85%D8%B1%D8%AD%D8%A8%D8%A7%D9%8B%D8%8C%20%D8%A3%D9%88%D8%AF%20%D9%85%D9%86%D8%A7%D9%82%D8%B4%D8%A9%20%D8%B7%D9%84%D8%A8%20%D9%84%D9%85%D8%B9%D8%AF%D8%A7%D8%AA%20%D9%85%D9%83%D8%A7%D9%81%D8%AD%D8%A9%20%D8%A7%D9%84%D8%AD%D8%B1%D9%8A%D9%82.%0A%0A%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%3A%20%D9%81%D9%88%D9%87%D8%A7%D8%AA%20%D8%B3%D8%AA%D8%A7%D8%B1%D8%A9%20%D9%85%D8%A7%D8%A6%D9%8A%D8%A9%0A%D8%B5%D9%81%D8%AD%D8%A9%20%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%3A%20https%3A%2F%2Fchuanweifire.com%2Far%2Fproducts%2Fwater-curtain-nozzles%2F%0A%0A%D8%A7%D9%84%D9%85%D8%AA%D8%B7%D9%84%D8%A8%D8%A7%D8%AA%3A"
+    ],
+    "h1": "فوهات ستارة مائية",
+    "overflowButtons": [],
+    "viewport": 320,
+    "width": 305
+  },
+  {
+    "id": "product:water-mist-nozzles",
+    "kind": "product",
+    "locale": "en",
+    "path": "products/消防喷头/water-mist-nozzles.html",
+    "testWidth": 320,
+    "badImages": [],
+    "drafts": [
+      "https://wa.me/8617326528368?text=Hello%2C%20I%20need%20a%20quotation%20for%20Water%20Mist%20Nozzles.%20Type%3A%20%5Bstandard%2Fimpingement%5D%2C%20size%3A%20%5BDN%2Finch%5D%2C%20thread%3A%20%5Brequirement%5D%2C%20strainer%3A%20%5Byes%2Fno%5D%2C%20target%20spray%20data%3A%20%5Bdetails%5D%2C%20quantity%3A%20%5Bpcs%5D%2C%20destination%3A%20%5Bcountry%5D.",
+      "mailto:zhengcolin1@gmail.com?subject=Product%20inquiry%3A%20Water%20Mist%20Nozzles&body=Hello%2C%20I%20would%20like%20to%20discuss%20a%20fire-protection%20product%20requirement.%0A%0AProduct%3A%20Water%20Mist%20Nozzles%0AProduct%20page%3A%20https%3A%2F%2Fchuanweifire.com%2Fproducts%2F%25E6%25B6%2588%25E9%2598%25B2%25E5%2596%25B7%25E5%25A4%25B4%2Fwater-mist-nozzles.html%0A%0ARequirements%3A"
+    ],
+    "h1": "Water Mist Nozzles",
+    "overflowButtons": [],
+    "viewport": 320,
+    "width": 305
+  },
+  {
+    "id": "product:water-mist-nozzles",
+    "kind": "product",
+    "locale": "ar",
+    "path": "ar/products/water-mist-nozzles/index.html",
+    "testWidth": 320,
+    "badImages": [],
+    "drafts": [
+      "https://wa.me/8617326528368?text=%D9%85%D8%B1%D8%AD%D8%A8%D8%A7%D9%8B%D8%8C%20%D8%A3%D8%AD%D8%AA%D8%A7%D8%AC%20%D8%A5%D9%84%D9%89%20%D8%B9%D8%B1%D8%B6%20%D8%B3%D8%B9%D8%B1%20%D9%84%D9%81%D9%88%D9%87%D8%A7%D8%AA%20%D8%B6%D8%A8%D8%A7%D8%A8%20%D8%A7%D9%84%D9%85%D8%A7%D8%A1.%20%D8%A7%D9%84%D9%86%D9%88%D8%B9%3A%20%5B%D9%82%D9%8A%D8%A7%D8%B3%D9%8A%2F%D8%AA%D8%B5%D8%A7%D8%AF%D9%85%D9%8A%5D%D8%8C%20%D8%A7%D9%84%D9%85%D9%82%D8%A7%D8%B3%3A%20%5BDN%2Finch%5D%D8%8C%20%D8%A7%D9%84%D9%84%D9%88%D9%84%D8%A8%3A%20%5B%D8%A7%D9%84%D9%85%D8%AA%D8%B7%D9%84%D8%A8%D8%A7%D8%AA%5D%D8%8C%20%D8%A7%D9%84%D9%85%D8%B5%D9%81%D8%A7%D8%A9%3A%20%5B%D9%86%D8%B9%D9%85%2F%D9%84%D8%A7%5D%D8%8C%20%D8%A8%D9%8A%D8%A7%D9%86%D8%A7%D8%AA%20%D8%A7%D9%84%D8%B1%D8%B4%20%D8%A7%D9%84%D9%85%D8%B3%D8%AA%D9%87%D8%AF%D9%81%D8%A9%3A%20%5B%D8%A7%D9%84%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84%5D%D8%8C%20%D8%A7%D9%84%D9%83%D9%85%D9%8A%D8%A9%3A%20%5B%D9%82%D8%B7%D8%B9%D8%A9%5D%D8%8C%20%D8%A7%D9%84%D9%88%D8%AC%D9%87%D8%A9%3A%20%5B%D8%A7%D9%84%D8%AF%D9%88%D9%84%D8%A9%5D.",
+      "mailto:zhengcolin1@gmail.com?subject=%D8%A7%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1%20%D8%B9%D9%86%20%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%3A%20%D9%81%D9%88%D9%87%D8%A7%D8%AA%20%D8%B6%D8%A8%D8%A7%D8%A8%20%D8%A7%D9%84%D9%85%D8%A7%D8%A1&body=%D9%85%D8%B1%D8%AD%D8%A8%D8%A7%D9%8B%D8%8C%20%D8%A3%D9%88%D8%AF%20%D9%85%D9%86%D8%A7%D9%82%D8%B4%D8%A9%20%D8%B7%D9%84%D8%A8%20%D9%84%D9%85%D8%B9%D8%AF%D8%A7%D8%AA%20%D9%85%D9%83%D8%A7%D9%81%D8%AD%D8%A9%20%D8%A7%D9%84%D8%AD%D8%B1%D9%8A%D9%82.%0A%0A%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%3A%20%D9%81%D9%88%D9%87%D8%A7%D8%AA%20%D8%B6%D8%A8%D8%A7%D8%A8%20%D8%A7%D9%84%D9%85%D8%A7%D8%A1%0A%D8%B5%D9%81%D8%AD%D8%A9%20%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%3A%20https%3A%2F%2Fchuanweifire.com%2Far%2Fproducts%2Fwater-mist-nozzles%2F%0A%0A%D8%A7%D9%84%D9%85%D8%AA%D8%B7%D9%84%D8%A8%D8%A7%D8%AA%3A"
+    ],
+    "h1": "فوهات ضباب الماء",
+    "overflowButtons": [],
+    "viewport": 320,
+    "width": 305
+  },
+  {
+    "id": "product:nrs-gate-valves",
+    "kind": "product",
+    "locale": "en",
+    "path": "products/消防阀门/nrs-gate-valves.html",
+    "testWidth": 320,
+    "badImages": [],
+    "drafts": [
+      "https://wa.me/8617326528368?text=Hello%2C%20I%20need%20a%20quotation%20for%20NRS%20Gate%20Valves.%20Size%3A%20%5BDN%2Finch%5D%2C%20connection%3A%20%5Bgrooved%2Fflanged%5D%2C%20quantity%3A%20%5Bpcs%5D%2C%20destination%3A%20%5Bcountry%5D.",
+      "mailto:zhengcolin1@gmail.com?subject=Product%20inquiry%3A%20NRS%20Gate%20Valve&body=Hello%2C%20I%20would%20like%20to%20discuss%20a%20fire-protection%20product%20requirement.%0A%0AProduct%3A%20NRS%20Gate%20Valve%0AProduct%20page%3A%20https%3A%2F%2Fchuanweifire.com%2Fproducts%2F%25E6%25B6%2588%25E9%2598%25B2%25E9%2598%2580%25E9%2597%25A8%2Fnrs-gate-valves.html%0A%0ARequirements%3A"
+    ],
+    "h1": "NRS Gate Valve",
+    "overflowButtons": [],
+    "viewport": 320,
+    "width": 305
+  },
+  {
+    "id": "product:nrs-gate-valves",
+    "kind": "product",
+    "locale": "ar",
+    "path": "ar/products/nrs-gate-valves/index.html",
+    "testWidth": 320,
+    "badImages": [],
+    "drafts": [
+      "https://wa.me/8617326528368?text=Hello%2C%20I%20need%20a%20quotation%20for%20NRS%20Gate%20Valves.%20Size%3A%20%5BDN%2Finch%5D%2C%20connection%3A%20%5Bgrooved%2Fflanged%5D%2C%20quantity%3A%20%5Bpcs%5D%2C%20destination%3A%20%5Bcountry%5D.",
+      "mailto:zhengcolin1@gmail.com?subject=%D8%A7%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1%20%D8%B9%D9%86%20%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%3A%20%D8%B5%D9%85%D8%A7%D9%85%20%D8%A8%D9%88%D8%A7%D8%A8%D8%A9%20%D8%A8%D8%B3%D8%A7%D9%82%20%D8%BA%D9%8A%D8%B1%20%D8%B5%D8%A7%D8%B9%D8%AF&body=%D9%85%D8%B1%D8%AD%D8%A8%D8%A7%D9%8B%D8%8C%20%D8%A3%D9%88%D8%AF%20%D9%85%D9%86%D8%A7%D9%82%D8%B4%D8%A9%20%D8%B7%D9%84%D8%A8%20%D9%84%D9%85%D8%B9%D8%AF%D8%A7%D8%AA%20%D9%85%D9%83%D8%A7%D9%81%D8%AD%D8%A9%20%D8%A7%D9%84%D8%AD%D8%B1%D9%8A%D9%82.%0A%0A%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%3A%20%D8%B5%D9%85%D8%A7%D9%85%20%D8%A8%D9%88%D8%A7%D8%A8%D8%A9%20%D8%A8%D8%B3%D8%A7%D9%82%20%D8%BA%D9%8A%D8%B1%20%D8%B5%D8%A7%D8%B9%D8%AF%0A%D8%B5%D9%81%D8%AD%D8%A9%20%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%3A%20https%3A%2F%2Fchuanweifire.com%2Far%2Fproducts%2Fnrs-gate-valves%2F%0A%0A%D8%A7%D9%84%D9%85%D8%AA%D8%B7%D9%84%D8%A8%D8%A7%D8%AA%3A"
+    ],
+    "h1": "صمام بوابة بساق غير صاعد",
+    "overflowButtons": [],
+    "viewport": 320,
+    "width": 305
+  },
+  {
+    "id": "product:catalog-hose-reel-parts-page-27",
+    "kind": "product",
+    "locale": "en",
+    "path": "products/软管卷盘/catalog-hose-reel-parts-page-27.html",
+    "testWidth": 320,
+    "badImages": [],
+    "drafts": [
+      "https://wa.me/8617326528368?text=Hello%2C+I+need+a+quotation+for+Fire+Hose+Reel+Swivel+Joints+and+Supports.+Configuration%3A+%5Bdetails%5D%2C+size%2Fconnection%3A+%5Bdetails%5D%2C+material%3A+%5Bmaterial%5D%2C+working+pressure%3A+%5Bpressure%5D%2C+quantity%3A+%5Bquantity%5D%2C+destination%3A+%5Bcountry%5D.",
+      "mailto:zhengcolin1@gmail.com?subject=Product%20inquiry%3A%20Fire%20Hose%20Reel%20Swivel%20Joints%20and%20Supports&body=Hello%2C%20I%20would%20like%20to%20discuss%20a%20fire-protection%20product%20requirement.%0A%0AProduct%3A%20Fire%20Hose%20Reel%20Swivel%20Joints%20and%20Supports%0AProduct%20page%3A%20https%3A%2F%2Fchuanweifire.com%2Fproducts%2F%25E8%25BD%25AF%25E7%25AE%25A1%25E5%258D%25B7%25E7%259B%2598%2Fcatalog-hose-reel-parts-page-27.html%0A%0ARequirements%3A"
+    ],
+    "h1": "Fire Hose Reel Swivel Joints and Supports",
+    "overflowButtons": [],
+    "viewport": 320,
+    "width": 305
+  },
+  {
+    "id": "product:catalog-hose-reel-parts-page-27",
+    "kind": "product",
+    "locale": "ar",
+    "path": "ar/products/catalog-hose-reel-parts-page-27/index.html",
+    "testWidth": 320,
+    "badImages": [],
+    "drafts": [
+      "https://wa.me/8617326528368?text=Hello%2C+I+need+a+quotation+for+Fire+Hose+Reel+Swivel+Joints+and+Supports.+Configuration%3A+%5Bdetails%5D%2C+size%2Fconnection%3A+%5Bdetails%5D%2C+material%3A+%5Bmaterial%5D%2C+working+pressure%3A+%5Bpressure%5D%2C+quantity%3A+%5Bquantity%5D%2C+destination%3A+%5Bcountry%5D.",
+      "mailto:zhengcolin1@gmail.com?subject=%D8%A7%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1%20%D8%B9%D9%86%20%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%3A%20%D9%88%D8%B5%D9%84%D8%A7%D8%AA%20%D8%AF%D9%88%D8%A7%D8%B1%D8%A9%20%D9%88%D8%AF%D8%B9%D8%A7%D9%85%D8%A7%D8%AA%20%D9%84%D8%A8%D9%83%D8%B1%D8%A7%D8%AA%20%D8%AE%D8%B1%D8%A7%D8%B7%D9%8A%D9%85%20%D8%A7%D9%84%D8%AD%D8%B1%D9%8A%D9%82&body=%D9%85%D8%B1%D8%AD%D8%A8%D8%A7%D9%8B%D8%8C%20%D8%A3%D9%88%D8%AF%20%D9%85%D9%86%D8%A7%D9%82%D8%B4%D8%A9%20%D8%B7%D9%84%D8%A8%20%D9%84%D9%85%D8%B9%D8%AF%D8%A7%D8%AA%20%D9%85%D9%83%D8%A7%D9%81%D8%AD%D8%A9%20%D8%A7%D9%84%D8%AD%D8%B1%D9%8A%D9%82.%0A%0A%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%3A%20%D9%88%D8%B5%D9%84%D8%A7%D8%AA%20%D8%AF%D9%88%D8%A7%D8%B1%D8%A9%20%D9%88%D8%AF%D8%B9%D8%A7%D9%85%D8%A7%D8%AA%20%D9%84%D8%A8%D9%83%D8%B1%D8%A7%D8%AA%20%D8%AE%D8%B1%D8%A7%D8%B7%D9%8A%D9%85%20%D8%A7%D9%84%D8%AD%D8%B1%D9%8A%D9%82%0A%D8%B5%D9%81%D8%AD%D8%A9%20%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%3A%20https%3A%2F%2Fchuanweifire.com%2Far%2Fproducts%2Fcatalog-hose-reel-parts-page-27%2F%0A%0A%D8%A7%D9%84%D9%85%D8%AA%D8%B7%D9%84%D8%A8%D8%A7%D8%AA%3A"
+    ],
+    "h1": "وصلات دوارة ودعامات لبكرات خراطيم الحريق",
+    "overflowButtons": [],
+    "viewport": 320,
+    "width": 305
+  },
+  {
+    "id": "home",
+    "kind": "core",
+    "locale": "en",
+    "path": "index.html",
+    "testWidth": 390,
+    "badImages": [],
+    "drafts": [],
+    "h1": "Fire Sprinklers & System Components",
+    "overflowButtons": [],
+    "viewport": 390,
+    "width": 375
+  },
+  {
+    "id": "home",
+    "kind": "core",
+    "locale": "zh",
+    "path": "zh/index.html",
+    "testWidth": 390,
+    "badImages": [],
+    "drafts": [],
+    "h1": "消防喷头与系统组件",
+    "overflowButtons": [],
+    "viewport": 390,
+    "width": 375
+  },
+  {
+    "id": "home",
+    "kind": "core",
+    "locale": "ar",
+    "path": "ar/index.html",
+    "testWidth": 390,
+    "badImages": [],
+    "drafts": [],
+    "h1": "رشاشات الحريق ومكونات الأنظمة",
+    "overflowButtons": [],
+    "viewport": 390,
+    "width": 375
+  },
+  {
+    "id": "products",
+    "kind": "core",
+    "locale": "en",
+    "path": "products.html",
+    "testWidth": 390,
+    "badImages": [],
+    "drafts": [
+      "https://wa.me/8617326528368?text=Hello%2C%20I%20would%20like%20to%20inquire%20about%20these%20products.%0A%0AName%20%2F%20company%3A%0AProduct%20category%3A%20Product%20directory%0APage%3A%20https%3A%2F%2Fchuanweifire.com%2Fproducts.html%0A%0AModel%20%2F%20size%20%2F%20connection%20%2F%20quantity%20%2F%20destination%20(when%20available)%3A",
+      "mailto:zhengcolin1@gmail.com?subject=Product%20inquiry%3A%20Product%20directory&body=Hello%2C%20I%20would%20like%20to%20inquire%20about%20these%20products.%0A%0AName%20%2F%20company%3A%0AProduct%20category%3A%20Product%20directory%0APage%3A%20https%3A%2F%2Fchuanweifire.com%2Fproducts.html%0A%0AModel%20%2F%20size%20%2F%20connection%20%2F%20quantity%20%2F%20destination%20(when%20available)%3A",
+      "contact.html"
+    ],
+    "h1": "Find your fire protection product.",
+    "listingCss": "css/catalog-pages.css?v=5adeda95b229",
+    "overflowButtons": [],
+    "viewport": 390,
+    "width": 375
+  },
+  {
+    "id": "products",
+    "kind": "core",
+    "locale": "ar",
+    "path": "ar/products.html",
+    "testWidth": 390,
+    "badImages": [],
+    "drafts": [
+      "https://wa.me/8617326528368?text=%D9%85%D8%B1%D8%AD%D8%A8%D8%A7%D9%8B%D8%8C%20%D8%A3%D9%88%D8%AF%20%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1%20%D8%B9%D9%86%20%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%D8%A7%D8%AA%20%D8%A7%D9%84%D8%AA%D8%A7%D9%84%D9%8A%D8%A9.%0A%0A%D8%A7%D9%84%D8%A7%D8%B3%D9%85%20%2F%20%D8%A7%D9%84%D8%B4%D8%B1%D9%83%D8%A9%3A%0A%D9%81%D8%A6%D8%A9%20%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%3A%20%D8%AF%D9%84%D9%8A%D9%84%20%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%D8%A7%D8%AA%0A%D8%A7%D9%84%D8%B5%D9%81%D8%AD%D8%A9%3A%20https%3A%2F%2Fchuanweifire.com%2Far%2Fproducts.html%0A%0A%D8%A7%D9%84%D9%85%D9%88%D8%AF%D9%8A%D9%84%20%2F%20%D8%A7%D9%84%D9%85%D9%82%D8%A7%D8%B3%20%2F%20%D8%A7%D9%84%D8%AA%D9%88%D8%B5%D9%8A%D9%84%20%2F%20%D8%A7%D9%84%D9%83%D9%85%D9%8A%D8%A9%20%2F%20%D8%A7%D9%84%D9%88%D8%AC%D9%87%D8%A9%20(%D8%B9%D9%86%D8%AF%20%D8%AA%D9%88%D9%81%D8%B1%D9%87%D8%A7)%3A",
+      "mailto:zhengcolin1@gmail.com?subject=%D8%A7%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1%20%D8%B9%D9%86%20%D8%AF%D9%84%D9%8A%D9%84%20%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%D8%A7%D8%AA&body=%D9%85%D8%B1%D8%AD%D8%A8%D8%A7%D9%8B%D8%8C%20%D8%A3%D9%88%D8%AF%20%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1%20%D8%B9%D9%86%20%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%D8%A7%D8%AA%20%D8%A7%D9%84%D8%AA%D8%A7%D9%84%D9%8A%D8%A9.%0A%0A%D8%A7%D9%84%D8%A7%D8%B3%D9%85%20%2F%20%D8%A7%D9%84%D8%B4%D8%B1%D9%83%D8%A9%3A%0A%D9%81%D8%A6%D8%A9%20%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%3A%20%D8%AF%D9%84%D9%8A%D9%84%20%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%D8%A7%D8%AA%0A%D8%A7%D9%84%D8%B5%D9%81%D8%AD%D8%A9%3A%20https%3A%2F%2Fchuanweifire.com%2Far%2Fproducts.html%0A%0A%D8%A7%D9%84%D9%85%D9%88%D8%AF%D9%8A%D9%84%20%2F%20%D8%A7%D9%84%D9%85%D9%82%D8%A7%D8%B3%20%2F%20%D8%A7%D9%84%D8%AA%D9%88%D8%B5%D9%8A%D9%84%20%2F%20%D8%A7%D9%84%D9%83%D9%85%D9%8A%D8%A9%20%2F%20%D8%A7%D9%84%D9%88%D8%AC%D9%87%D8%A9%20(%D8%B9%D9%86%D8%AF%20%D8%AA%D9%88%D9%81%D8%B1%D9%87%D8%A7)%3A",
+      "contact.html"
+    ],
+    "h1": "اعثر على منتج مكافحة الحريق المطلوب.",
+    "listingCss": "../css/catalog-pages.css?v=5adeda95b229",
+    "overflowButtons": [],
+    "viewport": 390,
+    "width": 375
+  },
+  {
+    "id": "category:foam-nozzles",
+    "kind": "category",
+    "locale": "en",
+    "path": "products/foam-nozzles.html",
+    "testWidth": 390,
+    "badImages": [],
+    "drafts": [
+      "https://wa.me/8617326528368?text=Hello%2C%20I%20would%20like%20to%20inquire%20about%20these%20products.%0A%0AName%20%2F%20company%3A%0AProduct%20category%3A%20Foam-Water%20Nozzles%0APage%3A%20https%3A%2F%2Fchuanweifire.com%2Fproducts%2Ffoam-nozzles.html%0A%0AModel%20%2F%20size%20%2F%20connection%20%2F%20quantity%20%2F%20destination%20(when%20available)%3A",
+      "mailto:zhengcolin1@gmail.com?subject=Product%20inquiry%3A%20Foam-Water%20Nozzles&body=Hello%2C%20I%20would%20like%20to%20inquire%20about%20these%20products.%0A%0AName%20%2F%20company%3A%0AProduct%20category%3A%20Foam-Water%20Nozzles%0APage%3A%20https%3A%2F%2Fchuanweifire.com%2Fproducts%2Ffoam-nozzles.html%0A%0AModel%20%2F%20size%20%2F%20connection%20%2F%20quantity%20%2F%20destination%20(when%20available)%3A",
+      "../contact.html"
+    ],
+    "h1": "Foam-Water Nozzles",
+    "listingCss": "../css/catalog-pages.css?v=5adeda95b229",
+    "overflowButtons": [],
+    "viewport": 390,
+    "width": 375
+  },
+  {
+    "id": "category:foam-nozzles",
+    "kind": "category",
+    "locale": "ar",
+    "path": "ar/products/foam-nozzles/index.html",
+    "testWidth": 390,
+    "badImages": [],
+    "drafts": [
+      "https://wa.me/8617326528368?text=%D9%85%D8%B1%D8%AD%D8%A8%D8%A7%D9%8B%D8%8C%20%D8%A3%D9%88%D8%AF%20%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1%20%D8%B9%D9%86%20%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%D8%A7%D8%AA%20%D8%A7%D9%84%D8%AA%D8%A7%D9%84%D9%8A%D8%A9.%0A%0A%D8%A7%D9%84%D8%A7%D8%B3%D9%85%20%2F%20%D8%A7%D9%84%D8%B4%D8%B1%D9%83%D8%A9%3A%0A%D9%81%D8%A6%D8%A9%20%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%3A%20%D9%81%D9%88%D9%87%D8%A7%D8%AA%20%D8%A7%D9%84%D9%85%D8%A7%D8%A1%20%D9%88%D8%A7%D9%84%D8%B1%D8%BA%D9%88%D8%A9%0A%D8%A7%D9%84%D8%B5%D9%81%D8%AD%D8%A9%3A%20https%3A%2F%2Fchuanweifire.com%2Far%2Fproducts%2Ffoam-nozzles%2F%0A%0A%D8%A7%D9%84%D9%85%D9%88%D8%AF%D9%8A%D9%84%20%2F%20%D8%A7%D9%84%D9%85%D9%82%D8%A7%D8%B3%20%2F%20%D8%A7%D9%84%D8%AA%D9%88%D8%B5%D9%8A%D9%84%20%2F%20%D8%A7%D9%84%D9%83%D9%85%D9%8A%D8%A9%20%2F%20%D8%A7%D9%84%D9%88%D8%AC%D9%87%D8%A9%20(%D8%B9%D9%86%D8%AF%20%D8%AA%D9%88%D9%81%D8%B1%D9%87%D8%A7)%3A",
+      "mailto:zhengcolin1@gmail.com?subject=%D8%A7%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1%20%D8%B9%D9%86%20%D9%81%D9%88%D9%87%D8%A7%D8%AA%20%D8%A7%D9%84%D9%85%D8%A7%D8%A1%20%D9%88%D8%A7%D9%84%D8%B1%D8%BA%D9%88%D8%A9&body=%D9%85%D8%B1%D8%AD%D8%A8%D8%A7%D9%8B%D8%8C%20%D8%A3%D9%88%D8%AF%20%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1%20%D8%B9%D9%86%20%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%D8%A7%D8%AA%20%D8%A7%D9%84%D8%AA%D8%A7%D9%84%D9%8A%D8%A9.%0A%0A%D8%A7%D9%84%D8%A7%D8%B3%D9%85%20%2F%20%D8%A7%D9%84%D8%B4%D8%B1%D9%83%D8%A9%3A%0A%D9%81%D8%A6%D8%A9%20%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%3A%20%D9%81%D9%88%D9%87%D8%A7%D8%AA%20%D8%A7%D9%84%D9%85%D8%A7%D8%A1%20%D9%88%D8%A7%D9%84%D8%B1%D8%BA%D9%88%D8%A9%0A%D8%A7%D9%84%D8%B5%D9%81%D8%AD%D8%A9%3A%20https%3A%2F%2Fchuanweifire.com%2Far%2Fproducts%2Ffoam-nozzles%2F%0A%0A%D8%A7%D9%84%D9%85%D9%88%D8%AF%D9%8A%D9%84%20%2F%20%D8%A7%D9%84%D9%85%D9%82%D8%A7%D8%B3%20%2F%20%D8%A7%D9%84%D8%AA%D9%88%D8%B5%D9%8A%D9%84%20%2F%20%D8%A7%D9%84%D9%83%D9%85%D9%8A%D8%A9%20%2F%20%D8%A7%D9%84%D9%88%D8%AC%D9%87%D8%A9%20(%D8%B9%D9%86%D8%AF%20%D8%AA%D9%88%D9%81%D8%B1%D9%87%D8%A7)%3A",
+      "../../contact.html"
+    ],
+    "h1": "فوهات الماء والرغوة",
+    "listingCss": "../../../css/catalog-pages.css?v=5adeda95b229",
+    "overflowButtons": [],
+    "viewport": 390,
+    "width": 375
+  },
+  {
+    "id": "category:sprinklers",
+    "kind": "category",
+    "locale": "en",
+    "path": "products/消防喷头.html",
+    "testWidth": 390,
+    "badImages": [],
+    "drafts": [
+      "https://wa.me/8617326528368?text=Hello%2C%20I%20would%20like%20to%20inquire%20about%20these%20products.%0A%0AName%20%2F%20company%3A%0AProduct%20category%3A%20Fire%20Sprinklers%0APage%3A%20https%3A%2F%2Fchuanweifire.com%2Fproducts%2F%25E6%25B6%2588%25E9%2598%25B2%25E5%2596%25B7%25E5%25A4%25B4.html%0A%0AModel%20%2F%20size%20%2F%20connection%20%2F%20quantity%20%2F%20destination%20(when%20available)%3A",
+      "mailto:zhengcolin1@gmail.com?subject=Product%20inquiry%3A%20Fire%20Sprinklers&body=Hello%2C%20I%20would%20like%20to%20inquire%20about%20these%20products.%0A%0AName%20%2F%20company%3A%0AProduct%20category%3A%20Fire%20Sprinklers%0APage%3A%20https%3A%2F%2Fchuanweifire.com%2Fproducts%2F%25E6%25B6%2588%25E9%2598%25B2%25E5%2596%25B7%25E5%25A4%25B4.html%0A%0AModel%20%2F%20size%20%2F%20connection%20%2F%20quantity%20%2F%20destination%20(when%20available)%3A",
+      "../contact.html"
+    ],
+    "h1": "Fire Sprinklers",
+    "listingCss": "../css/catalog-pages.css?v=5adeda95b229",
+    "overflowButtons": [],
+    "viewport": 390,
+    "width": 375
+  },
+  {
+    "id": "category:sprinklers",
+    "kind": "category",
+    "locale": "ar",
+    "path": "ar/products/sprinklers/index.html",
+    "testWidth": 390,
+    "badImages": [],
+    "drafts": [
+      "https://wa.me/8617326528368?text=%D9%85%D8%B1%D8%AD%D8%A8%D8%A7%D9%8B%D8%8C%20%D8%A3%D9%88%D8%AF%20%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1%20%D8%B9%D9%86%20%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%D8%A7%D8%AA%20%D8%A7%D9%84%D8%AA%D8%A7%D9%84%D9%8A%D8%A9.%0A%0A%D8%A7%D9%84%D8%A7%D8%B3%D9%85%20%2F%20%D8%A7%D9%84%D8%B4%D8%B1%D9%83%D8%A9%3A%0A%D9%81%D8%A6%D8%A9%20%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%3A%20%D8%B1%D8%B4%D8%A7%D8%B4%D8%A7%D8%AA%20%D8%A7%D9%84%D8%AD%D8%B1%D9%8A%D9%82%0A%D8%A7%D9%84%D8%B5%D9%81%D8%AD%D8%A9%3A%20https%3A%2F%2Fchuanweifire.com%2Far%2Fproducts%2Fsprinklers%2F%0A%0A%D8%A7%D9%84%D9%85%D9%88%D8%AF%D9%8A%D9%84%20%2F%20%D8%A7%D9%84%D9%85%D9%82%D8%A7%D8%B3%20%2F%20%D8%A7%D9%84%D8%AA%D9%88%D8%B5%D9%8A%D9%84%20%2F%20%D8%A7%D9%84%D9%83%D9%85%D9%8A%D8%A9%20%2F%20%D8%A7%D9%84%D9%88%D8%AC%D9%87%D8%A9%20(%D8%B9%D9%86%D8%AF%20%D8%AA%D9%88%D9%81%D8%B1%D9%87%D8%A7)%3A",
+      "mailto:zhengcolin1@gmail.com?subject=%D8%A7%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1%20%D8%B9%D9%86%20%D8%B1%D8%B4%D8%A7%D8%B4%D8%A7%D8%AA%20%D8%A7%D9%84%D8%AD%D8%B1%D9%8A%D9%82&body=%D9%85%D8%B1%D8%AD%D8%A8%D8%A7%D9%8B%D8%8C%20%D8%A3%D9%88%D8%AF%20%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1%20%D8%B9%D9%86%20%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%D8%A7%D8%AA%20%D8%A7%D9%84%D8%AA%D8%A7%D9%84%D9%8A%D8%A9.%0A%0A%D8%A7%D9%84%D8%A7%D8%B3%D9%85%20%2F%20%D8%A7%D9%84%D8%B4%D8%B1%D9%83%D8%A9%3A%0A%D9%81%D8%A6%D8%A9%20%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%3A%20%D8%B1%D8%B4%D8%A7%D8%B4%D8%A7%D8%AA%20%D8%A7%D9%84%D8%AD%D8%B1%D9%8A%D9%82%0A%D8%A7%D9%84%D8%B5%D9%81%D8%AD%D8%A9%3A%20https%3A%2F%2Fchuanweifire.com%2Far%2Fproducts%2Fsprinklers%2F%0A%0A%D8%A7%D9%84%D9%85%D9%88%D8%AF%D9%8A%D9%84%20%2F%20%D8%A7%D9%84%D9%85%D9%82%D8%A7%D8%B3%20%2F%20%D8%A7%D9%84%D8%AA%D9%88%D8%B5%D9%8A%D9%84%20%2F%20%D8%A7%D9%84%D9%83%D9%85%D9%8A%D8%A9%20%2F%20%D8%A7%D9%84%D9%88%D8%AC%D9%87%D8%A9%20(%D8%B9%D9%86%D8%AF%20%D8%AA%D9%88%D9%81%D8%B1%D9%87%D8%A7)%3A",
+      "../../contact.html"
+    ],
+    "h1": "رشاشات الحريق",
+    "listingCss": "../../../css/catalog-pages.css?v=5adeda95b229",
+    "overflowButtons": [],
+    "viewport": 390,
+    "width": 375
+  },
+  {
+    "id": "category:system-valves",
+    "kind": "category",
+    "locale": "en",
+    "path": "products/消防阀.html",
+    "testWidth": 390,
+    "badImages": [],
+    "drafts": [
+      "https://wa.me/8617326528368?text=Hello%2C%20I%20would%20like%20to%20inquire%20about%20these%20products.%0A%0AName%20%2F%20company%3A%0AProduct%20category%3A%20Alarm%20%26%20System%20Valves%0APage%3A%20https%3A%2F%2Fchuanweifire.com%2Fproducts%2F%25E6%25B6%2588%25E9%2598%25B2%25E9%2598%2580.html%0A%0AModel%20%2F%20size%20%2F%20connection%20%2F%20quantity%20%2F%20destination%20(when%20available)%3A",
+      "mailto:zhengcolin1@gmail.com?subject=Product%20inquiry%3A%20Alarm%20%26%20System%20Valves&body=Hello%2C%20I%20would%20like%20to%20inquire%20about%20these%20products.%0A%0AName%20%2F%20company%3A%0AProduct%20category%3A%20Alarm%20%26%20System%20Valves%0APage%3A%20https%3A%2F%2Fchuanweifire.com%2Fproducts%2F%25E6%25B6%2588%25E9%2598%25B2%25E9%2598%2580.html%0A%0AModel%20%2F%20size%20%2F%20connection%20%2F%20quantity%20%2F%20destination%20(when%20available)%3A",
+      "../contact.html"
+    ],
+    "h1": "Alarm & System Valves",
+    "listingCss": "../css/catalog-pages.css?v=5adeda95b229",
+    "overflowButtons": [],
+    "viewport": 390,
+    "width": 375
+  },
+  {
+    "id": "category:system-valves",
+    "kind": "category",
+    "locale": "ar",
+    "path": "ar/products/system-valves/index.html",
+    "testWidth": 390,
+    "badImages": [],
+    "drafts": [
+      "https://wa.me/8617326528368?text=%D9%85%D8%B1%D8%AD%D8%A8%D8%A7%D9%8B%D8%8C%20%D8%A3%D9%88%D8%AF%20%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1%20%D8%B9%D9%86%20%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%D8%A7%D8%AA%20%D8%A7%D9%84%D8%AA%D8%A7%D9%84%D9%8A%D8%A9.%0A%0A%D8%A7%D9%84%D8%A7%D8%B3%D9%85%20%2F%20%D8%A7%D9%84%D8%B4%D8%B1%D9%83%D8%A9%3A%0A%D9%81%D8%A6%D8%A9%20%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%3A%20%D8%B5%D9%85%D8%A7%D9%85%D8%A7%D8%AA%20%D8%A7%D9%84%D8%A5%D9%86%D8%B0%D8%A7%D8%B1%20%D9%88%D8%B5%D9%85%D8%A7%D9%85%D8%A7%D8%AA%20%D8%A7%D9%84%D8%A3%D9%86%D8%B8%D9%85%D8%A9%0A%D8%A7%D9%84%D8%B5%D9%81%D8%AD%D8%A9%3A%20https%3A%2F%2Fchuanweifire.com%2Far%2Fproducts%2Fsystem-valves%2F%0A%0A%D8%A7%D9%84%D9%85%D9%88%D8%AF%D9%8A%D9%84%20%2F%20%D8%A7%D9%84%D9%85%D9%82%D8%A7%D8%B3%20%2F%20%D8%A7%D9%84%D8%AA%D9%88%D8%B5%D9%8A%D9%84%20%2F%20%D8%A7%D9%84%D9%83%D9%85%D9%8A%D8%A9%20%2F%20%D8%A7%D9%84%D9%88%D8%AC%D9%87%D8%A9%20(%D8%B9%D9%86%D8%AF%20%D8%AA%D9%88%D9%81%D8%B1%D9%87%D8%A7)%3A",
+      "mailto:zhengcolin1@gmail.com?subject=%D8%A7%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1%20%D8%B9%D9%86%20%D8%B5%D9%85%D8%A7%D9%85%D8%A7%D8%AA%20%D8%A7%D9%84%D8%A5%D9%86%D8%B0%D8%A7%D8%B1%20%D9%88%D8%B5%D9%85%D8%A7%D9%85%D8%A7%D8%AA%20%D8%A7%D9%84%D8%A3%D9%86%D8%B8%D9%85%D8%A9&body=%D9%85%D8%B1%D8%AD%D8%A8%D8%A7%D9%8B%D8%8C%20%D8%A3%D9%88%D8%AF%20%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1%20%D8%B9%D9%86%20%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%D8%A7%D8%AA%20%D8%A7%D9%84%D8%AA%D8%A7%D9%84%D9%8A%D8%A9.%0A%0A%D8%A7%D9%84%D8%A7%D8%B3%D9%85%20%2F%20%D8%A7%D9%84%D8%B4%D8%B1%D9%83%D8%A9%3A%0A%D9%81%D8%A6%D8%A9%20%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%3A%20%D8%B5%D9%85%D8%A7%D9%85%D8%A7%D8%AA%20%D8%A7%D9%84%D8%A5%D9%86%D8%B0%D8%A7%D8%B1%20%D9%88%D8%B5%D9%85%D8%A7%D9%85%D8%A7%D8%AA%20%D8%A7%D9%84%D8%A3%D9%86%D8%B8%D9%85%D8%A9%0A%D8%A7%D9%84%D8%B5%D9%81%D8%AD%D8%A9%3A%20https%3A%2F%2Fchuanweifire.com%2Far%2Fproducts%2Fsystem-valves%2F%0A%0A%D8%A7%D9%84%D9%85%D9%88%D8%AF%D9%8A%D9%84%20%2F%20%D8%A7%D9%84%D9%85%D9%82%D8%A7%D8%B3%20%2F%20%D8%A7%D9%84%D8%AA%D9%88%D8%B5%D9%8A%D9%84%20%2F%20%D8%A7%D9%84%D9%83%D9%85%D9%8A%D8%A9%20%2F%20%D8%A7%D9%84%D9%88%D8%AC%D9%87%D8%A9%20(%D8%B9%D9%86%D8%AF%20%D8%AA%D9%88%D9%81%D8%B1%D9%87%D8%A7)%3A",
+      "../../contact.html"
+    ],
+    "h1": "صمامات الإنذار وصمامات الأنظمة",
+    "listingCss": "../../../css/catalog-pages.css?v=5adeda95b229",
+    "overflowButtons": [],
+    "viewport": 390,
+    "width": 375
+  },
+  {
+    "id": "category:butterfly-valves",
+    "kind": "category",
+    "locale": "en",
+    "path": "products/消防蝶阀.html",
+    "testWidth": 390,
+    "badImages": [],
+    "drafts": [
+      "https://wa.me/8617326528368?text=Hello%2C%20I%20would%20like%20to%20inquire%20about%20these%20products.%0A%0AName%20%2F%20company%3A%0AProduct%20category%3A%20Fire%20Butterfly%20Valves%0APage%3A%20https%3A%2F%2Fchuanweifire.com%2Fproducts%2F%25E6%25B6%2588%25E9%2598%25B2%25E8%259D%25B6%25E9%2598%2580.html%0A%0AModel%20%2F%20size%20%2F%20connection%20%2F%20quantity%20%2F%20destination%20(when%20available)%3A",
+      "mailto:zhengcolin1@gmail.com?subject=Product%20inquiry%3A%20Fire%20Butterfly%20Valves&body=Hello%2C%20I%20would%20like%20to%20inquire%20about%20these%20products.%0A%0AName%20%2F%20company%3A%0AProduct%20category%3A%20Fire%20Butterfly%20Valves%0APage%3A%20https%3A%2F%2Fchuanweifire.com%2Fproducts%2F%25E6%25B6%2588%25E9%2598%25B2%25E8%259D%25B6%25E9%2598%2580.html%0A%0AModel%20%2F%20size%20%2F%20connection%20%2F%20quantity%20%2F%20destination%20(when%20available)%3A",
+      "../contact.html"
+    ],
+    "h1": "Fire Butterfly Valves",
+    "listingCss": "../css/catalog-pages.css?v=5adeda95b229",
+    "overflowButtons": [],
+    "viewport": 390,
+    "width": 375
+  },
+  {
+    "id": "category:butterfly-valves",
+    "kind": "category",
+    "locale": "ar",
+    "path": "ar/products/butterfly-valves/index.html",
+    "testWidth": 390,
+    "badImages": [],
+    "drafts": [
+      "https://wa.me/8617326528368?text=%D9%85%D8%B1%D8%AD%D8%A8%D8%A7%D9%8B%D8%8C%20%D8%A3%D9%88%D8%AF%20%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1%20%D8%B9%D9%86%20%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%D8%A7%D8%AA%20%D8%A7%D9%84%D8%AA%D8%A7%D9%84%D9%8A%D8%A9.%0A%0A%D8%A7%D9%84%D8%A7%D8%B3%D9%85%20%2F%20%D8%A7%D9%84%D8%B4%D8%B1%D9%83%D8%A9%3A%0A%D9%81%D8%A6%D8%A9%20%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%3A%20%D8%B5%D9%85%D8%A7%D9%85%D8%A7%D8%AA%20%D9%81%D8%B1%D8%A7%D8%B4%D8%A9%20%D9%84%D9%85%D9%83%D8%A7%D9%81%D8%AD%D8%A9%20%D8%A7%D9%84%D8%AD%D8%B1%D9%8A%D9%82%0A%D8%A7%D9%84%D8%B5%D9%81%D8%AD%D8%A9%3A%20https%3A%2F%2Fchuanweifire.com%2Far%2Fproducts%2Fbutterfly-valves%2F%0A%0A%D8%A7%D9%84%D9%85%D9%88%D8%AF%D9%8A%D9%84%20%2F%20%D8%A7%D9%84%D9%85%D9%82%D8%A7%D8%B3%20%2F%20%D8%A7%D9%84%D8%AA%D9%88%D8%B5%D9%8A%D9%84%20%2F%20%D8%A7%D9%84%D9%83%D9%85%D9%8A%D8%A9%20%2F%20%D8%A7%D9%84%D9%88%D8%AC%D9%87%D8%A9%20(%D8%B9%D9%86%D8%AF%20%D8%AA%D9%88%D9%81%D8%B1%D9%87%D8%A7)%3A",
+      "mailto:zhengcolin1@gmail.com?subject=%D8%A7%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1%20%D8%B9%D9%86%20%D8%B5%D9%85%D8%A7%D9%85%D8%A7%D8%AA%20%D9%81%D8%B1%D8%A7%D8%B4%D8%A9%20%D9%84%D9%85%D9%83%D8%A7%D9%81%D8%AD%D8%A9%20%D8%A7%D9%84%D8%AD%D8%B1%D9%8A%D9%82&body=%D9%85%D8%B1%D8%AD%D8%A8%D8%A7%D9%8B%D8%8C%20%D8%A3%D9%88%D8%AF%20%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1%20%D8%B9%D9%86%20%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%D8%A7%D8%AA%20%D8%A7%D9%84%D8%AA%D8%A7%D9%84%D9%8A%D8%A9.%0A%0A%D8%A7%D9%84%D8%A7%D8%B3%D9%85%20%2F%20%D8%A7%D9%84%D8%B4%D8%B1%D9%83%D8%A9%3A%0A%D9%81%D8%A6%D8%A9%20%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%3A%20%D8%B5%D9%85%D8%A7%D9%85%D8%A7%D8%AA%20%D9%81%D8%B1%D8%A7%D8%B4%D8%A9%20%D9%84%D9%85%D9%83%D8%A7%D9%81%D8%AD%D8%A9%20%D8%A7%D9%84%D8%AD%D8%B1%D9%8A%D9%82%0A%D8%A7%D9%84%D8%B5%D9%81%D8%AD%D8%A9%3A%20https%3A%2F%2Fchuanweifire.com%2Far%2Fproducts%2Fbutterfly-valves%2F%0A%0A%D8%A7%D9%84%D9%85%D9%88%D8%AF%D9%8A%D9%84%20%2F%20%D8%A7%D9%84%D9%85%D9%82%D8%A7%D8%B3%20%2F%20%D8%A7%D9%84%D8%AA%D9%88%D8%B5%D9%8A%D9%84%20%2F%20%D8%A7%D9%84%D9%83%D9%85%D9%8A%D8%A9%20%2F%20%D8%A7%D9%84%D9%88%D8%AC%D9%87%D8%A9%20(%D8%B9%D9%86%D8%AF%20%D8%AA%D9%88%D9%81%D8%B1%D9%87%D8%A7)%3A",
+      "../../contact.html"
+    ],
+    "h1": "صمامات فراشة لمكافحة الحريق",
+    "listingCss": "../../../css/catalog-pages.css?v=5adeda95b229",
+    "overflowButtons": [],
+    "viewport": 390,
+    "width": 375
+  },
+  {
+    "id": "category:gate-valves",
+    "kind": "category",
+    "locale": "en",
+    "path": "products/消防阀门.html",
+    "testWidth": 390,
+    "badImages": [],
+    "drafts": [
+      "https://wa.me/8617326528368?text=Hello%2C%20I%20would%20like%20to%20inquire%20about%20these%20products.%0A%0AName%20%2F%20company%3A%0AProduct%20category%3A%20Fire%20Gate%20Valves%0APage%3A%20https%3A%2F%2Fchuanweifire.com%2Fproducts%2F%25E6%25B6%2588%25E9%2598%25B2%25E9%2598%2580%25E9%2597%25A8.html%0A%0AModel%20%2F%20size%20%2F%20connection%20%2F%20quantity%20%2F%20destination%20(when%20available)%3A",
+      "mailto:zhengcolin1@gmail.com?subject=Product%20inquiry%3A%20Fire%20Gate%20Valves&body=Hello%2C%20I%20would%20like%20to%20inquire%20about%20these%20products.%0A%0AName%20%2F%20company%3A%0AProduct%20category%3A%20Fire%20Gate%20Valves%0APage%3A%20https%3A%2F%2Fchuanweifire.com%2Fproducts%2F%25E6%25B6%2588%25E9%2598%25B2%25E9%2598%2580%25E9%2597%25A8.html%0A%0AModel%20%2F%20size%20%2F%20connection%20%2F%20quantity%20%2F%20destination%20(when%20available)%3A",
+      "../contact.html"
+    ],
+    "h1": "Fire Gate Valves",
+    "listingCss": "../css/catalog-pages.css?v=5adeda95b229",
+    "overflowButtons": [],
+    "viewport": 390,
+    "width": 375
+  },
+  {
+    "id": "category:gate-valves",
+    "kind": "category",
+    "locale": "ar",
+    "path": "ar/products/gate-valves/index.html",
+    "testWidth": 390,
+    "badImages": [],
+    "drafts": [
+      "https://wa.me/8617326528368?text=%D9%85%D8%B1%D8%AD%D8%A8%D8%A7%D9%8B%D8%8C%20%D8%A3%D9%88%D8%AF%20%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1%20%D8%B9%D9%86%20%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%D8%A7%D8%AA%20%D8%A7%D9%84%D8%AA%D8%A7%D9%84%D9%8A%D8%A9.%0A%0A%D8%A7%D9%84%D8%A7%D8%B3%D9%85%20%2F%20%D8%A7%D9%84%D8%B4%D8%B1%D9%83%D8%A9%3A%0A%D9%81%D8%A6%D8%A9%20%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%3A%20%D8%B5%D9%85%D8%A7%D9%85%D8%A7%D8%AA%20%D8%A8%D9%88%D8%A7%D8%A8%D8%A9%20%D9%84%D9%85%D9%83%D8%A7%D9%81%D8%AD%D8%A9%20%D8%A7%D9%84%D8%AD%D8%B1%D9%8A%D9%82%0A%D8%A7%D9%84%D8%B5%D9%81%D8%AD%D8%A9%3A%20https%3A%2F%2Fchuanweifire.com%2Far%2Fproducts%2Fgate-valves%2F%0A%0A%D8%A7%D9%84%D9%85%D9%88%D8%AF%D9%8A%D9%84%20%2F%20%D8%A7%D9%84%D9%85%D9%82%D8%A7%D8%B3%20%2F%20%D8%A7%D9%84%D8%AA%D9%88%D8%B5%D9%8A%D9%84%20%2F%20%D8%A7%D9%84%D9%83%D9%85%D9%8A%D8%A9%20%2F%20%D8%A7%D9%84%D9%88%D8%AC%D9%87%D8%A9%20(%D8%B9%D9%86%D8%AF%20%D8%AA%D9%88%D9%81%D8%B1%D9%87%D8%A7)%3A",
+      "mailto:zhengcolin1@gmail.com?subject=%D8%A7%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1%20%D8%B9%D9%86%20%D8%B5%D9%85%D8%A7%D9%85%D8%A7%D8%AA%20%D8%A8%D9%88%D8%A7%D8%A8%D8%A9%20%D9%84%D9%85%D9%83%D8%A7%D9%81%D8%AD%D8%A9%20%D8%A7%D9%84%D8%AD%D8%B1%D9%8A%D9%82&body=%D9%85%D8%B1%D8%AD%D8%A8%D8%A7%D9%8B%D8%8C%20%D8%A3%D9%88%D8%AF%20%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1%20%D8%B9%D9%86%20%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%D8%A7%D8%AA%20%D8%A7%D9%84%D8%AA%D8%A7%D9%84%D9%8A%D8%A9.%0A%0A%D8%A7%D9%84%D8%A7%D8%B3%D9%85%20%2F%20%D8%A7%D9%84%D8%B4%D8%B1%D9%83%D8%A9%3A%0A%D9%81%D8%A6%D8%A9%20%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%3A%20%D8%B5%D9%85%D8%A7%D9%85%D8%A7%D8%AA%20%D8%A8%D9%88%D8%A7%D8%A8%D8%A9%20%D9%84%D9%85%D9%83%D8%A7%D9%81%D8%AD%D8%A9%20%D8%A7%D9%84%D8%AD%D8%B1%D9%8A%D9%82%0A%D8%A7%D9%84%D8%B5%D9%81%D8%AD%D8%A9%3A%20https%3A%2F%2Fchuanweifire.com%2Far%2Fproducts%2Fgate-valves%2F%0A%0A%D8%A7%D9%84%D9%85%D9%88%D8%AF%D9%8A%D9%84%20%2F%20%D8%A7%D9%84%D9%85%D9%82%D8%A7%D8%B3%20%2F%20%D8%A7%D9%84%D8%AA%D9%88%D8%B5%D9%8A%D9%84%20%2F%20%D8%A7%D9%84%D9%83%D9%85%D9%8A%D8%A9%20%2F%20%D8%A7%D9%84%D9%88%D8%AC%D9%87%D8%A9%20(%D8%B9%D9%86%D8%AF%20%D8%AA%D9%88%D9%81%D8%B1%D9%87%D8%A7)%3A",
+      "../../contact.html"
+    ],
+    "h1": "صمامات بوابة لمكافحة الحريق",
+    "listingCss": "../../../css/catalog-pages.css?v=5adeda95b229",
+    "overflowButtons": [],
+    "viewport": 390,
+    "width": 375
+  },
+  {
+    "id": "category:hose-reels",
+    "kind": "category",
+    "locale": "en",
+    "path": "products/软管卷盘.html",
+    "testWidth": 390,
+    "badImages": [],
+    "drafts": [
+      "https://wa.me/8617326528368?text=Hello%2C%20I%20would%20like%20to%20inquire%20about%20these%20products.%0A%0AName%20%2F%20company%3A%0AProduct%20category%3A%20Fire%20Hose%20Reels%0APage%3A%20https%3A%2F%2Fchuanweifire.com%2Fproducts%2F%25E8%25BD%25AF%25E7%25AE%25A1%25E5%258D%25B7%25E7%259B%2598.html%0A%0AModel%20%2F%20size%20%2F%20connection%20%2F%20quantity%20%2F%20destination%20(when%20available)%3A",
+      "mailto:zhengcolin1@gmail.com?subject=Product%20inquiry%3A%20Fire%20Hose%20Reels&body=Hello%2C%20I%20would%20like%20to%20inquire%20about%20these%20products.%0A%0AName%20%2F%20company%3A%0AProduct%20category%3A%20Fire%20Hose%20Reels%0APage%3A%20https%3A%2F%2Fchuanweifire.com%2Fproducts%2F%25E8%25BD%25AF%25E7%25AE%25A1%25E5%258D%25B7%25E7%259B%2598.html%0A%0AModel%20%2F%20size%20%2F%20connection%20%2F%20quantity%20%2F%20destination%20(when%20available)%3A",
+      "../contact.html"
+    ],
+    "h1": "Fire Hose Reels",
+    "listingCss": "../css/catalog-pages.css?v=5adeda95b229",
+    "overflowButtons": [],
+    "viewport": 390,
+    "width": 375
+  },
+  {
+    "id": "category:hose-reels",
+    "kind": "category",
+    "locale": "ar",
+    "path": "ar/products/hose-reels/index.html",
+    "testWidth": 390,
+    "badImages": [],
+    "drafts": [
+      "https://wa.me/8617326528368?text=%D9%85%D8%B1%D8%AD%D8%A8%D8%A7%D9%8B%D8%8C%20%D8%A3%D9%88%D8%AF%20%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1%20%D8%B9%D9%86%20%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%D8%A7%D8%AA%20%D8%A7%D9%84%D8%AA%D8%A7%D9%84%D9%8A%D8%A9.%0A%0A%D8%A7%D9%84%D8%A7%D8%B3%D9%85%20%2F%20%D8%A7%D9%84%D8%B4%D8%B1%D9%83%D8%A9%3A%0A%D9%81%D8%A6%D8%A9%20%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%3A%20%D8%A8%D9%83%D8%B1%D8%A7%D8%AA%20%D8%AE%D8%B1%D8%A7%D8%B7%D9%8A%D9%85%20%D8%A7%D9%84%D8%AD%D8%B1%D9%8A%D9%82%0A%D8%A7%D9%84%D8%B5%D9%81%D8%AD%D8%A9%3A%20https%3A%2F%2Fchuanweifire.com%2Far%2Fproducts%2Fhose-reels%2F%0A%0A%D8%A7%D9%84%D9%85%D9%88%D8%AF%D9%8A%D9%84%20%2F%20%D8%A7%D9%84%D9%85%D9%82%D8%A7%D8%B3%20%2F%20%D8%A7%D9%84%D8%AA%D9%88%D8%B5%D9%8A%D9%84%20%2F%20%D8%A7%D9%84%D9%83%D9%85%D9%8A%D8%A9%20%2F%20%D8%A7%D9%84%D9%88%D8%AC%D9%87%D8%A9%20(%D8%B9%D9%86%D8%AF%20%D8%AA%D9%88%D9%81%D8%B1%D9%87%D8%A7)%3A",
+      "mailto:zhengcolin1@gmail.com?subject=%D8%A7%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1%20%D8%B9%D9%86%20%D8%A8%D9%83%D8%B1%D8%A7%D8%AA%20%D8%AE%D8%B1%D8%A7%D8%B7%D9%8A%D9%85%20%D8%A7%D9%84%D8%AD%D8%B1%D9%8A%D9%82&body=%D9%85%D8%B1%D8%AD%D8%A8%D8%A7%D9%8B%D8%8C%20%D8%A3%D9%88%D8%AF%20%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1%20%D8%B9%D9%86%20%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%D8%A7%D8%AA%20%D8%A7%D9%84%D8%AA%D8%A7%D9%84%D9%8A%D8%A9.%0A%0A%D8%A7%D9%84%D8%A7%D8%B3%D9%85%20%2F%20%D8%A7%D9%84%D8%B4%D8%B1%D9%83%D8%A9%3A%0A%D9%81%D8%A6%D8%A9%20%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%3A%20%D8%A8%D9%83%D8%B1%D8%A7%D8%AA%20%D8%AE%D8%B1%D8%A7%D8%B7%D9%8A%D9%85%20%D8%A7%D9%84%D8%AD%D8%B1%D9%8A%D9%82%0A%D8%A7%D9%84%D8%B5%D9%81%D8%AD%D8%A9%3A%20https%3A%2F%2Fchuanweifire.com%2Far%2Fproducts%2Fhose-reels%2F%0A%0A%D8%A7%D9%84%D9%85%D9%88%D8%AF%D9%8A%D9%84%20%2F%20%D8%A7%D9%84%D9%85%D9%82%D8%A7%D8%B3%20%2F%20%D8%A7%D9%84%D8%AA%D9%88%D8%B5%D9%8A%D9%84%20%2F%20%D8%A7%D9%84%D9%83%D9%85%D9%8A%D8%A9%20%2F%20%D8%A7%D9%84%D9%88%D8%AC%D9%87%D8%A9%20(%D8%B9%D9%86%D8%AF%20%D8%AA%D9%88%D9%81%D8%B1%D9%87%D8%A7)%3A",
+      "../../contact.html"
+    ],
+    "h1": "بكرات خراطيم الحريق",
+    "listingCss": "../../../css/catalog-pages.css?v=5adeda95b229",
+    "overflowButtons": [],
+    "viewport": 390,
+    "width": 375
+  },
+  {
+    "id": "category:hoses-nozzles-couplings",
+    "kind": "category",
+    "locale": "en",
+    "path": "products/消防水枪.html",
+    "testWidth": 390,
+    "badImages": [],
+    "drafts": [
+      "https://wa.me/8617326528368?text=Hello%2C%20I%20would%20like%20to%20inquire%20about%20these%20products.%0A%0AName%20%2F%20company%3A%0AProduct%20category%3A%20Fire%20Hose%20Nozzles%2C%20Couplings%20%26%20Adapters%0APage%3A%20https%3A%2F%2Fchuanweifire.com%2Fproducts%2F%25E6%25B6%2588%25E9%2598%25B2%25E6%25B0%25B4%25E6%259E%25AA.html%0A%0AModel%20%2F%20size%20%2F%20connection%20%2F%20quantity%20%2F%20destination%20(when%20available)%3A",
+      "mailto:zhengcolin1@gmail.com?subject=Product%20inquiry%3A%20Fire%20Hose%20Nozzles%2C%20Couplings%20%26%20Adapters&body=Hello%2C%20I%20would%20like%20to%20inquire%20about%20these%20products.%0A%0AName%20%2F%20company%3A%0AProduct%20category%3A%20Fire%20Hose%20Nozzles%2C%20Couplings%20%26%20Adapters%0APage%3A%20https%3A%2F%2Fchuanweifire.com%2Fproducts%2F%25E6%25B6%2588%25E9%2598%25B2%25E6%25B0%25B4%25E6%259E%25AA.html%0A%0AModel%20%2F%20size%20%2F%20connection%20%2F%20quantity%20%2F%20destination%20(when%20available)%3A",
+      "../contact.html"
+    ],
+    "h1": "Fire Hose Nozzles, Couplings & Adapters",
+    "listingCss": "../css/catalog-pages.css?v=5adeda95b229",
+    "overflowButtons": [],
+    "viewport": 390,
+    "width": 375
+  },
+  {
+    "id": "category:hoses-nozzles-couplings",
+    "kind": "category",
+    "locale": "ar",
+    "path": "ar/products/hoses-nozzles-couplings/index.html",
+    "testWidth": 390,
+    "badImages": [],
+    "drafts": [
+      "https://wa.me/8617326528368?text=%D9%85%D8%B1%D8%AD%D8%A8%D8%A7%D9%8B%D8%8C%20%D8%A3%D9%88%D8%AF%20%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1%20%D8%B9%D9%86%20%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%D8%A7%D8%AA%20%D8%A7%D9%84%D8%AA%D8%A7%D9%84%D9%8A%D8%A9.%0A%0A%D8%A7%D9%84%D8%A7%D8%B3%D9%85%20%2F%20%D8%A7%D9%84%D8%B4%D8%B1%D9%83%D8%A9%3A%0A%D9%81%D8%A6%D8%A9%20%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%3A%20%D9%81%D9%88%D9%87%D8%A7%D8%AA%20%D8%AE%D8%B1%D8%A7%D8%B7%D9%8A%D9%85%20%D8%A7%D9%84%D8%AD%D8%B1%D9%8A%D9%82%20%D9%88%D8%A7%D9%84%D9%88%D8%B5%D9%84%D8%A7%D8%AA%20%D9%88%D8%A7%D9%84%D9%85%D9%87%D8%A7%D9%8A%D8%A6%D8%A7%D8%AA%0A%D8%A7%D9%84%D8%B5%D9%81%D8%AD%D8%A9%3A%20https%3A%2F%2Fchuanweifire.com%2Far%2Fproducts%2Fhoses-nozzles-couplings%2F%0A%0A%D8%A7%D9%84%D9%85%D9%88%D8%AF%D9%8A%D9%84%20%2F%20%D8%A7%D9%84%D9%85%D9%82%D8%A7%D8%B3%20%2F%20%D8%A7%D9%84%D8%AA%D9%88%D8%B5%D9%8A%D9%84%20%2F%20%D8%A7%D9%84%D9%83%D9%85%D9%8A%D8%A9%20%2F%20%D8%A7%D9%84%D9%88%D8%AC%D9%87%D8%A9%20(%D8%B9%D9%86%D8%AF%20%D8%AA%D9%88%D9%81%D8%B1%D9%87%D8%A7)%3A",
+      "mailto:zhengcolin1@gmail.com?subject=%D8%A7%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1%20%D8%B9%D9%86%20%D9%81%D9%88%D9%87%D8%A7%D8%AA%20%D8%AE%D8%B1%D8%A7%D8%B7%D9%8A%D9%85%20%D8%A7%D9%84%D8%AD%D8%B1%D9%8A%D9%82%20%D9%88%D8%A7%D9%84%D9%88%D8%B5%D9%84%D8%A7%D8%AA%20%D9%88%D8%A7%D9%84%D9%85%D9%87%D8%A7%D9%8A%D8%A6%D8%A7%D8%AA&body=%D9%85%D8%B1%D8%AD%D8%A8%D8%A7%D9%8B%D8%8C%20%D8%A3%D9%88%D8%AF%20%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1%20%D8%B9%D9%86%20%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%D8%A7%D8%AA%20%D8%A7%D9%84%D8%AA%D8%A7%D9%84%D9%8A%D8%A9.%0A%0A%D8%A7%D9%84%D8%A7%D8%B3%D9%85%20%2F%20%D8%A7%D9%84%D8%B4%D8%B1%D9%83%D8%A9%3A%0A%D9%81%D8%A6%D8%A9%20%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%3A%20%D9%81%D9%88%D9%87%D8%A7%D8%AA%20%D8%AE%D8%B1%D8%A7%D8%B7%D9%8A%D9%85%20%D8%A7%D9%84%D8%AD%D8%B1%D9%8A%D9%82%20%D9%88%D8%A7%D9%84%D9%88%D8%B5%D9%84%D8%A7%D8%AA%20%D9%88%D8%A7%D9%84%D9%85%D9%87%D8%A7%D9%8A%D8%A6%D8%A7%D8%AA%0A%D8%A7%D9%84%D8%B5%D9%81%D8%AD%D8%A9%3A%20https%3A%2F%2Fchuanweifire.com%2Far%2Fproducts%2Fhoses-nozzles-couplings%2F%0A%0A%D8%A7%D9%84%D9%85%D9%88%D8%AF%D9%8A%D9%84%20%2F%20%D8%A7%D9%84%D9%85%D9%82%D8%A7%D8%B3%20%2F%20%D8%A7%D9%84%D8%AA%D9%88%D8%B5%D9%8A%D9%84%20%2F%20%D8%A7%D9%84%D9%83%D9%85%D9%8A%D8%A9%20%2F%20%D8%A7%D9%84%D9%88%D8%AC%D9%87%D8%A9%20(%D8%B9%D9%86%D8%AF%20%D8%AA%D9%88%D9%81%D8%B1%D9%87%D8%A7)%3A",
+      "../../contact.html"
+    ],
+    "h1": "فوهات خراطيم الحريق والوصلات والمهايئات",
+    "listingCss": "../../../css/catalog-pages.css?v=5adeda95b229",
+    "overflowButtons": [],
+    "viewport": 390,
+    "width": 375
+  },
+  {
+    "id": "category:indoor-hydrants",
+    "kind": "category",
+    "locale": "en",
+    "path": "products/室内消防栓/室内消防栓.html",
+    "testWidth": 390,
+    "badImages": [],
+    "drafts": [
+      "https://wa.me/8617326528368?text=Hello%2C%20I%20would%20like%20to%20inquire%20about%20these%20products.%0A%0AName%20%2F%20company%3A%0AProduct%20category%3A%20Indoor%20Fire%20Hydrants%0APage%3A%20https%3A%2F%2Fchuanweifire.com%2Fproducts%2F%25E5%25AE%25A4%25E5%2586%2585%25E6%25B6%2588%25E9%2598%25B2%25E6%25A0%2593%2F%25E5%25AE%25A4%25E5%2586%2585%25E6%25B6%2588%25E9%2598%25B2%25E6%25A0%2593.html%0A%0AModel%20%2F%20size%20%2F%20connection%20%2F%20quantity%20%2F%20destination%20(when%20available)%3A",
+      "mailto:zhengcolin1@gmail.com?subject=Product%20inquiry%3A%20Indoor%20Fire%20Hydrants&body=Hello%2C%20I%20would%20like%20to%20inquire%20about%20these%20products.%0A%0AName%20%2F%20company%3A%0AProduct%20category%3A%20Indoor%20Fire%20Hydrants%0APage%3A%20https%3A%2F%2Fchuanweifire.com%2Fproducts%2F%25E5%25AE%25A4%25E5%2586%2585%25E6%25B6%2588%25E9%2598%25B2%25E6%25A0%2593%2F%25E5%25AE%25A4%25E5%2586%2585%25E6%25B6%2588%25E9%2598%25B2%25E6%25A0%2593.html%0A%0AModel%20%2F%20size%20%2F%20connection%20%2F%20quantity%20%2F%20destination%20(when%20available)%3A",
+      "../../contact.html"
+    ],
+    "h1": "Indoor Fire Hydrants",
+    "listingCss": "../../css/catalog-pages.css?v=5adeda95b229",
+    "overflowButtons": [],
+    "viewport": 390,
+    "width": 375
+  },
+  {
+    "id": "category:indoor-hydrants",
+    "kind": "category",
+    "locale": "ar",
+    "path": "ar/products/indoor-hydrants/index.html",
+    "testWidth": 390,
+    "badImages": [],
+    "drafts": [
+      "https://wa.me/8617326528368?text=%D9%85%D8%B1%D8%AD%D8%A8%D8%A7%D9%8B%D8%8C%20%D8%A3%D9%88%D8%AF%20%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1%20%D8%B9%D9%86%20%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%D8%A7%D8%AA%20%D8%A7%D9%84%D8%AA%D8%A7%D9%84%D9%8A%D8%A9.%0A%0A%D8%A7%D9%84%D8%A7%D8%B3%D9%85%20%2F%20%D8%A7%D9%84%D8%B4%D8%B1%D9%83%D8%A9%3A%0A%D9%81%D8%A6%D8%A9%20%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%3A%20%D9%85%D8%AD%D8%A7%D8%A8%D8%B3%20%D8%A7%D9%84%D8%AD%D8%B1%D9%8A%D9%82%20%D8%A7%D9%84%D8%AF%D8%A7%D8%AE%D9%84%D9%8A%D8%A9%0A%D8%A7%D9%84%D8%B5%D9%81%D8%AD%D8%A9%3A%20https%3A%2F%2Fchuanweifire.com%2Far%2Fproducts%2Findoor-hydrants%2F%0A%0A%D8%A7%D9%84%D9%85%D9%88%D8%AF%D9%8A%D9%84%20%2F%20%D8%A7%D9%84%D9%85%D9%82%D8%A7%D8%B3%20%2F%20%D8%A7%D9%84%D8%AA%D9%88%D8%B5%D9%8A%D9%84%20%2F%20%D8%A7%D9%84%D9%83%D9%85%D9%8A%D8%A9%20%2F%20%D8%A7%D9%84%D9%88%D8%AC%D9%87%D8%A9%20(%D8%B9%D9%86%D8%AF%20%D8%AA%D9%88%D9%81%D8%B1%D9%87%D8%A7)%3A",
+      "mailto:zhengcolin1@gmail.com?subject=%D8%A7%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1%20%D8%B9%D9%86%20%D9%85%D8%AD%D8%A7%D8%A8%D8%B3%20%D8%A7%D9%84%D8%AD%D8%B1%D9%8A%D9%82%20%D8%A7%D9%84%D8%AF%D8%A7%D8%AE%D9%84%D9%8A%D8%A9&body=%D9%85%D8%B1%D8%AD%D8%A8%D8%A7%D9%8B%D8%8C%20%D8%A3%D9%88%D8%AF%20%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1%20%D8%B9%D9%86%20%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%D8%A7%D8%AA%20%D8%A7%D9%84%D8%AA%D8%A7%D9%84%D9%8A%D8%A9.%0A%0A%D8%A7%D9%84%D8%A7%D8%B3%D9%85%20%2F%20%D8%A7%D9%84%D8%B4%D8%B1%D9%83%D8%A9%3A%0A%D9%81%D8%A6%D8%A9%20%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%3A%20%D9%85%D8%AD%D8%A7%D8%A8%D8%B3%20%D8%A7%D9%84%D8%AD%D8%B1%D9%8A%D9%82%20%D8%A7%D9%84%D8%AF%D8%A7%D8%AE%D9%84%D9%8A%D8%A9%0A%D8%A7%D9%84%D8%B5%D9%81%D8%AD%D8%A9%3A%20https%3A%2F%2Fchuanweifire.com%2Far%2Fproducts%2Findoor-hydrants%2F%0A%0A%D8%A7%D9%84%D9%85%D9%88%D8%AF%D9%8A%D9%84%20%2F%20%D8%A7%D9%84%D9%85%D9%82%D8%A7%D8%B3%20%2F%20%D8%A7%D9%84%D8%AA%D9%88%D8%B5%D9%8A%D9%84%20%2F%20%D8%A7%D9%84%D9%83%D9%85%D9%8A%D8%A9%20%2F%20%D8%A7%D9%84%D9%88%D8%AC%D9%87%D8%A9%20(%D8%B9%D9%86%D8%AF%20%D8%AA%D9%88%D9%81%D8%B1%D9%87%D8%A7)%3A",
+      "../../contact.html"
+    ],
+    "h1": "محابس الحريق الداخلية",
+    "listingCss": "../../../css/catalog-pages.css?v=5adeda95b229",
+    "overflowButtons": [],
+    "viewport": 390,
+    "width": 375
+  },
+  {
+    "id": "category:outdoor-hydrants",
+    "kind": "category",
+    "locale": "en",
+    "path": "products/室外消防栓/室外消防栓.html",
+    "testWidth": 390,
+    "badImages": [],
+    "drafts": [
+      "https://wa.me/8617326528368?text=Hello%2C%20I%20would%20like%20to%20inquire%20about%20these%20products.%0A%0AName%20%2F%20company%3A%0AProduct%20category%3A%20Outdoor%20Fire%20Hydrants%0APage%3A%20https%3A%2F%2Fchuanweifire.com%2Fproducts%2F%25E5%25AE%25A4%25E5%25A4%2596%25E6%25B6%2588%25E9%2598%25B2%25E6%25A0%2593%2F%25E5%25AE%25A4%25E5%25A4%2596%25E6%25B6%2588%25E9%2598%25B2%25E6%25A0%2593.html%0A%0AModel%20%2F%20size%20%2F%20connection%20%2F%20quantity%20%2F%20destination%20(when%20available)%3A",
+      "mailto:zhengcolin1@gmail.com?subject=Product%20inquiry%3A%20Outdoor%20Fire%20Hydrants&body=Hello%2C%20I%20would%20like%20to%20inquire%20about%20these%20products.%0A%0AName%20%2F%20company%3A%0AProduct%20category%3A%20Outdoor%20Fire%20Hydrants%0APage%3A%20https%3A%2F%2Fchuanweifire.com%2Fproducts%2F%25E5%25AE%25A4%25E5%25A4%2596%25E6%25B6%2588%25E9%2598%25B2%25E6%25A0%2593%2F%25E5%25AE%25A4%25E5%25A4%2596%25E6%25B6%2588%25E9%2598%25B2%25E6%25A0%2593.html%0A%0AModel%20%2F%20size%20%2F%20connection%20%2F%20quantity%20%2F%20destination%20(when%20available)%3A",
+      "../../contact.html"
+    ],
+    "h1": "Outdoor Fire Hydrants",
+    "listingCss": "../../css/catalog-pages.css?v=5adeda95b229",
+    "overflowButtons": [],
+    "viewport": 390,
+    "width": 375
+  },
+  {
+    "id": "category:outdoor-hydrants",
+    "kind": "category",
+    "locale": "ar",
+    "path": "ar/products/outdoor-hydrants/index.html",
+    "testWidth": 390,
+    "badImages": [],
+    "drafts": [
+      "https://wa.me/8617326528368?text=%D9%85%D8%B1%D8%AD%D8%A8%D8%A7%D9%8B%D8%8C%20%D8%A3%D9%88%D8%AF%20%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1%20%D8%B9%D9%86%20%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%D8%A7%D8%AA%20%D8%A7%D9%84%D8%AA%D8%A7%D9%84%D9%8A%D8%A9.%0A%0A%D8%A7%D9%84%D8%A7%D8%B3%D9%85%20%2F%20%D8%A7%D9%84%D8%B4%D8%B1%D9%83%D8%A9%3A%0A%D9%81%D8%A6%D8%A9%20%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%3A%20%D8%B5%D9%86%D8%A7%D8%A8%D9%8A%D8%B1%20%D8%A7%D9%84%D8%AD%D8%B1%D9%8A%D9%82%20%D8%A7%D9%84%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A9%0A%D8%A7%D9%84%D8%B5%D9%81%D8%AD%D8%A9%3A%20https%3A%2F%2Fchuanweifire.com%2Far%2Fproducts%2Foutdoor-hydrants%2F%0A%0A%D8%A7%D9%84%D9%85%D9%88%D8%AF%D9%8A%D9%84%20%2F%20%D8%A7%D9%84%D9%85%D9%82%D8%A7%D8%B3%20%2F%20%D8%A7%D9%84%D8%AA%D9%88%D8%B5%D9%8A%D9%84%20%2F%20%D8%A7%D9%84%D9%83%D9%85%D9%8A%D8%A9%20%2F%20%D8%A7%D9%84%D9%88%D8%AC%D9%87%D8%A9%20(%D8%B9%D9%86%D8%AF%20%D8%AA%D9%88%D9%81%D8%B1%D9%87%D8%A7)%3A",
+      "mailto:zhengcolin1@gmail.com?subject=%D8%A7%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1%20%D8%B9%D9%86%20%D8%B5%D9%86%D8%A7%D8%A8%D9%8A%D8%B1%20%D8%A7%D9%84%D8%AD%D8%B1%D9%8A%D9%82%20%D8%A7%D9%84%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A9&body=%D9%85%D8%B1%D8%AD%D8%A8%D8%A7%D9%8B%D8%8C%20%D8%A3%D9%88%D8%AF%20%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1%20%D8%B9%D9%86%20%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%D8%A7%D8%AA%20%D8%A7%D9%84%D8%AA%D8%A7%D9%84%D9%8A%D8%A9.%0A%0A%D8%A7%D9%84%D8%A7%D8%B3%D9%85%20%2F%20%D8%A7%D9%84%D8%B4%D8%B1%D9%83%D8%A9%3A%0A%D9%81%D8%A6%D8%A9%20%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%3A%20%D8%B5%D9%86%D8%A7%D8%A8%D9%8A%D8%B1%20%D8%A7%D9%84%D8%AD%D8%B1%D9%8A%D9%82%20%D8%A7%D9%84%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A9%0A%D8%A7%D9%84%D8%B5%D9%81%D8%AD%D8%A9%3A%20https%3A%2F%2Fchuanweifire.com%2Far%2Fproducts%2Foutdoor-hydrants%2F%0A%0A%D8%A7%D9%84%D9%85%D9%88%D8%AF%D9%8A%D9%84%20%2F%20%D8%A7%D9%84%D9%85%D9%82%D8%A7%D8%B3%20%2F%20%D8%A7%D9%84%D8%AA%D9%88%D8%B5%D9%8A%D9%84%20%2F%20%D8%A7%D9%84%D9%83%D9%85%D9%8A%D8%A9%20%2F%20%D8%A7%D9%84%D9%88%D8%AC%D9%87%D8%A9%20(%D8%B9%D9%86%D8%AF%20%D8%AA%D9%88%D9%81%D8%B1%D9%87%D8%A7)%3A",
+      "../../contact.html"
+    ],
+    "h1": "صنابير الحريق الخارجية",
+    "listingCss": "../../../css/catalog-pages.css?v=5adeda95b229",
+    "overflowButtons": [],
+    "viewport": 390,
+    "width": 375
+  },
+  {
+    "id": "category:fire-department-connections",
+    "kind": "category",
+    "locale": "en",
+    "path": "products/消防水泵接合器.html",
+    "testWidth": 390,
+    "badImages": [],
+    "drafts": [
+      "https://wa.me/8617326528368?text=Hello%2C%20I%20would%20like%20to%20inquire%20about%20these%20products.%0A%0AName%20%2F%20company%3A%0AProduct%20category%3A%20Fire%20Department%20Connections%0APage%3A%20https%3A%2F%2Fchuanweifire.com%2Fproducts%2F%25E6%25B6%2588%25E9%2598%25B2%25E6%25B0%25B4%25E6%25B3%25B5%25E6%258E%25A5%25E5%2590%2588%25E5%2599%25A8.html%0A%0AModel%20%2F%20size%20%2F%20connection%20%2F%20quantity%20%2F%20destination%20(when%20available)%3A",
+      "mailto:zhengcolin1@gmail.com?subject=Product%20inquiry%3A%20Fire%20Department%20Connections&body=Hello%2C%20I%20would%20like%20to%20inquire%20about%20these%20products.%0A%0AName%20%2F%20company%3A%0AProduct%20category%3A%20Fire%20Department%20Connections%0APage%3A%20https%3A%2F%2Fchuanweifire.com%2Fproducts%2F%25E6%25B6%2588%25E9%2598%25B2%25E6%25B0%25B4%25E6%25B3%25B5%25E6%258E%25A5%25E5%2590%2588%25E5%2599%25A8.html%0A%0AModel%20%2F%20size%20%2F%20connection%20%2F%20quantity%20%2F%20destination%20(when%20available)%3A",
+      "../contact.html"
+    ],
+    "h1": "Fire Department Connections",
+    "listingCss": "../css/catalog-pages.css?v=5adeda95b229",
+    "overflowButtons": [],
+    "viewport": 390,
+    "width": 375
+  },
+  {
+    "id": "category:fire-department-connections",
+    "kind": "category",
+    "locale": "ar",
+    "path": "ar/products/fire-department-connections/index.html",
+    "testWidth": 390,
+    "badImages": [],
+    "drafts": [
+      "https://wa.me/8617326528368?text=%D9%85%D8%B1%D8%AD%D8%A8%D8%A7%D9%8B%D8%8C%20%D8%A3%D9%88%D8%AF%20%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1%20%D8%B9%D9%86%20%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%D8%A7%D8%AA%20%D8%A7%D9%84%D8%AA%D8%A7%D9%84%D9%8A%D8%A9.%0A%0A%D8%A7%D9%84%D8%A7%D8%B3%D9%85%20%2F%20%D8%A7%D9%84%D8%B4%D8%B1%D9%83%D8%A9%3A%0A%D9%81%D8%A6%D8%A9%20%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%3A%20%D9%88%D8%B5%D9%84%D8%A7%D8%AA%20%D8%AA%D8%B2%D9%88%D9%8A%D8%AF%20%D8%A3%D9%86%D8%B8%D9%85%D8%A9%20%D8%A7%D9%84%D8%AD%D8%B1%D9%8A%D9%82%20%D8%A8%D8%A7%D9%84%D9%85%D9%8A%D8%A7%D9%87%0A%D8%A7%D9%84%D8%B5%D9%81%D8%AD%D8%A9%3A%20https%3A%2F%2Fchuanweifire.com%2Far%2Fproducts%2Ffire-department-connections%2F%0A%0A%D8%A7%D9%84%D9%85%D9%88%D8%AF%D9%8A%D9%84%20%2F%20%D8%A7%D9%84%D9%85%D9%82%D8%A7%D8%B3%20%2F%20%D8%A7%D9%84%D8%AA%D9%88%D8%B5%D9%8A%D9%84%20%2F%20%D8%A7%D9%84%D9%83%D9%85%D9%8A%D8%A9%20%2F%20%D8%A7%D9%84%D9%88%D8%AC%D9%87%D8%A9%20(%D8%B9%D9%86%D8%AF%20%D8%AA%D9%88%D9%81%D8%B1%D9%87%D8%A7)%3A",
+      "mailto:zhengcolin1@gmail.com?subject=%D8%A7%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1%20%D8%B9%D9%86%20%D9%88%D8%B5%D9%84%D8%A7%D8%AA%20%D8%AA%D8%B2%D9%88%D9%8A%D8%AF%20%D8%A3%D9%86%D8%B8%D9%85%D8%A9%20%D8%A7%D9%84%D8%AD%D8%B1%D9%8A%D9%82%20%D8%A8%D8%A7%D9%84%D9%85%D9%8A%D8%A7%D9%87&body=%D9%85%D8%B1%D8%AD%D8%A8%D8%A7%D9%8B%D8%8C%20%D8%A3%D9%88%D8%AF%20%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1%20%D8%B9%D9%86%20%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%D8%A7%D8%AA%20%D8%A7%D9%84%D8%AA%D8%A7%D9%84%D9%8A%D8%A9.%0A%0A%D8%A7%D9%84%D8%A7%D8%B3%D9%85%20%2F%20%D8%A7%D9%84%D8%B4%D8%B1%D9%83%D8%A9%3A%0A%D9%81%D8%A6%D8%A9%20%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%3A%20%D9%88%D8%B5%D9%84%D8%A7%D8%AA%20%D8%AA%D8%B2%D9%88%D9%8A%D8%AF%20%D8%A3%D9%86%D8%B8%D9%85%D8%A9%20%D8%A7%D9%84%D8%AD%D8%B1%D9%8A%D9%82%20%D8%A8%D8%A7%D9%84%D9%85%D9%8A%D8%A7%D9%87%0A%D8%A7%D9%84%D8%B5%D9%81%D8%AD%D8%A9%3A%20https%3A%2F%2Fchuanweifire.com%2Far%2Fproducts%2Ffire-department-connections%2F%0A%0A%D8%A7%D9%84%D9%85%D9%88%D8%AF%D9%8A%D9%84%20%2F%20%D8%A7%D9%84%D9%85%D9%82%D8%A7%D8%B3%20%2F%20%D8%A7%D9%84%D8%AA%D9%88%D8%B5%D9%8A%D9%84%20%2F%20%D8%A7%D9%84%D9%83%D9%85%D9%8A%D8%A9%20%2F%20%D8%A7%D9%84%D9%88%D8%AC%D9%87%D8%A9%20(%D8%B9%D9%86%D8%AF%20%D8%AA%D9%88%D9%81%D8%B1%D9%87%D8%A7)%3A",
+      "../../contact.html"
+    ],
+    "h1": "وصلات تزويد أنظمة الحريق بالمياه",
+    "listingCss": "../../../css/catalog-pages.css?v=5adeda95b229",
+    "overflowButtons": [],
+    "viewport": 390,
+    "width": 375
+  },
+  {
+    "id": "category:fire-equipment-cabinets",
+    "kind": "category",
+    "locale": "en",
+    "path": "products/消防器材箱.html",
+    "testWidth": 390,
+    "badImages": [],
+    "drafts": [
+      "https://wa.me/8617326528368?text=Hello%2C%20I%20would%20like%20to%20inquire%20about%20these%20products.%0A%0AName%20%2F%20company%3A%0AProduct%20category%3A%20Fire%20Equipment%20Cabinets%0APage%3A%20https%3A%2F%2Fchuanweifire.com%2Fproducts%2F%25E6%25B6%2588%25E9%2598%25B2%25E5%2599%25A8%25E6%259D%2590%25E7%25AE%25B1.html%0A%0AModel%20%2F%20size%20%2F%20connection%20%2F%20quantity%20%2F%20destination%20(when%20available)%3A",
+      "mailto:zhengcolin1@gmail.com?subject=Product%20inquiry%3A%20Fire%20Equipment%20Cabinets&body=Hello%2C%20I%20would%20like%20to%20inquire%20about%20these%20products.%0A%0AName%20%2F%20company%3A%0AProduct%20category%3A%20Fire%20Equipment%20Cabinets%0APage%3A%20https%3A%2F%2Fchuanweifire.com%2Fproducts%2F%25E6%25B6%2588%25E9%2598%25B2%25E5%2599%25A8%25E6%259D%2590%25E7%25AE%25B1.html%0A%0AModel%20%2F%20size%20%2F%20connection%20%2F%20quantity%20%2F%20destination%20(when%20available)%3A",
+      "../contact.html"
+    ],
+    "h1": "Fire Equipment Cabinets",
+    "listingCss": "../css/catalog-pages.css?v=5adeda95b229",
+    "overflowButtons": [],
+    "viewport": 390,
+    "width": 375
+  },
+  {
+    "id": "category:fire-equipment-cabinets",
+    "kind": "category",
+    "locale": "ar",
+    "path": "ar/products/fire-equipment-cabinets/index.html",
+    "testWidth": 390,
+    "badImages": [],
+    "drafts": [
+      "https://wa.me/8617326528368?text=%D9%85%D8%B1%D8%AD%D8%A8%D8%A7%D9%8B%D8%8C%20%D8%A3%D9%88%D8%AF%20%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1%20%D8%B9%D9%86%20%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%D8%A7%D8%AA%20%D8%A7%D9%84%D8%AA%D8%A7%D9%84%D9%8A%D8%A9.%0A%0A%D8%A7%D9%84%D8%A7%D8%B3%D9%85%20%2F%20%D8%A7%D9%84%D8%B4%D8%B1%D9%83%D8%A9%3A%0A%D9%81%D8%A6%D8%A9%20%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%3A%20%D8%AE%D8%B2%D8%A7%D8%A6%D9%86%20%D9%85%D8%B9%D8%AF%D8%A7%D8%AA%20%D9%85%D9%83%D8%A7%D9%81%D8%AD%D8%A9%20%D8%A7%D9%84%D8%AD%D8%B1%D9%8A%D9%82%0A%D8%A7%D9%84%D8%B5%D9%81%D8%AD%D8%A9%3A%20https%3A%2F%2Fchuanweifire.com%2Far%2Fproducts%2Ffire-equipment-cabinets%2F%0A%0A%D8%A7%D9%84%D9%85%D9%88%D8%AF%D9%8A%D9%84%20%2F%20%D8%A7%D9%84%D9%85%D9%82%D8%A7%D8%B3%20%2F%20%D8%A7%D9%84%D8%AA%D9%88%D8%B5%D9%8A%D9%84%20%2F%20%D8%A7%D9%84%D9%83%D9%85%D9%8A%D8%A9%20%2F%20%D8%A7%D9%84%D9%88%D8%AC%D9%87%D8%A9%20(%D8%B9%D9%86%D8%AF%20%D8%AA%D9%88%D9%81%D8%B1%D9%87%D8%A7)%3A",
+      "mailto:zhengcolin1@gmail.com?subject=%D8%A7%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1%20%D8%B9%D9%86%20%D8%AE%D8%B2%D8%A7%D8%A6%D9%86%20%D9%85%D8%B9%D8%AF%D8%A7%D8%AA%20%D9%85%D9%83%D8%A7%D9%81%D8%AD%D8%A9%20%D8%A7%D9%84%D8%AD%D8%B1%D9%8A%D9%82&body=%D9%85%D8%B1%D8%AD%D8%A8%D8%A7%D9%8B%D8%8C%20%D8%A3%D9%88%D8%AF%20%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1%20%D8%B9%D9%86%20%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%D8%A7%D8%AA%20%D8%A7%D9%84%D8%AA%D8%A7%D9%84%D9%8A%D8%A9.%0A%0A%D8%A7%D9%84%D8%A7%D8%B3%D9%85%20%2F%20%D8%A7%D9%84%D8%B4%D8%B1%D9%83%D8%A9%3A%0A%D9%81%D8%A6%D8%A9%20%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%3A%20%D8%AE%D8%B2%D8%A7%D8%A6%D9%86%20%D9%85%D8%B9%D8%AF%D8%A7%D8%AA%20%D9%85%D9%83%D8%A7%D9%81%D8%AD%D8%A9%20%D8%A7%D9%84%D8%AD%D8%B1%D9%8A%D9%82%0A%D8%A7%D9%84%D8%B5%D9%81%D8%AD%D8%A9%3A%20https%3A%2F%2Fchuanweifire.com%2Far%2Fproducts%2Ffire-equipment-cabinets%2F%0A%0A%D8%A7%D9%84%D9%85%D9%88%D8%AF%D9%8A%D9%84%20%2F%20%D8%A7%D9%84%D9%85%D9%82%D8%A7%D8%B3%20%2F%20%D8%A7%D9%84%D8%AA%D9%88%D8%B5%D9%8A%D9%84%20%2F%20%D8%A7%D9%84%D9%83%D9%85%D9%8A%D8%A9%20%2F%20%D8%A7%D9%84%D9%88%D8%AC%D9%87%D8%A9%20(%D8%B9%D9%86%D8%AF%20%D8%AA%D9%88%D9%81%D8%B1%D9%87%D8%A7)%3A",
+      "../../contact.html"
+    ],
+    "h1": "خزائن معدات مكافحة الحريق",
+    "listingCss": "../../../css/catalog-pages.css?v=5adeda95b229",
+    "overflowButtons": [],
+    "viewport": 390,
+    "width": 375
+  },
+  {
+    "id": "product:water-curtain-nozzles",
+    "kind": "product",
+    "locale": "en",
+    "path": "products/消防喷头/water-curtain-nozzles.html",
+    "testWidth": 390,
+    "badImages": [],
+    "drafts": [
+      "https://wa.me/8617326528368?text=Hello%2C%20I%20need%20a%20quotation%20for%20Water%20Curtain%20Nozzles.%20Type%3A%20%5Bpendent%2Fhorizontal%5D%2C%20size%3A%20%5BDN%2Finch%5D%2C%20slot%3A%20%5Bsingle%2Fdouble%5D%2C%20thread%3A%20%5Brequirement%5D%2C%20hydraulic%20requirement%3A%20%5Bdetails%5D%2C%20quantity%3A%20%5Bpcs%5D%2C%20destination%3A%20%5Bcountry%5D.",
+      "mailto:zhengcolin1@gmail.com?subject=Product%20inquiry%3A%20Water%20Curtain%20Nozzles&body=Hello%2C%20I%20would%20like%20to%20discuss%20a%20fire-protection%20product%20requirement.%0A%0AProduct%3A%20Water%20Curtain%20Nozzles%0AProduct%20page%3A%20https%3A%2F%2Fchuanweifire.com%2Fproducts%2F%25E6%25B6%2588%25E9%2598%25B2%25E5%2596%25B7%25E5%25A4%25B4%2Fwater-curtain-nozzles.html%0A%0ARequirements%3A"
+    ],
+    "h1": "Water Curtain Nozzles",
+    "overflowButtons": [],
+    "viewport": 390,
+    "width": 375
+  },
+  {
+    "id": "product:water-curtain-nozzles",
+    "kind": "product",
+    "locale": "ar",
+    "path": "ar/products/water-curtain-nozzles/index.html",
+    "testWidth": 390,
+    "badImages": [],
+    "drafts": [
+      "https://wa.me/8617326528368?text=%D9%85%D8%B1%D8%AD%D8%A8%D8%A7%D9%8B%D8%8C%20%D8%A3%D8%AD%D8%AA%D8%A7%D8%AC%20%D8%A5%D9%84%D9%89%20%D8%B9%D8%B1%D8%B6%20%D8%B3%D8%B9%D8%B1%20%D9%84%D9%81%D9%88%D9%87%D8%A7%D8%AA%20%D8%B3%D8%AA%D8%A7%D8%B1%D8%A9%20%D9%85%D8%A7%D8%A6%D9%8A%D8%A9.%20%D8%A7%D9%84%D9%86%D9%88%D8%B9%3A%20%5B%D9%85%D8%AA%D8%AF%D9%84%D9%8D%2F%D8%A3%D9%81%D9%82%D9%8A%5D%D8%8C%20%D8%A7%D9%84%D9%85%D9%82%D8%A7%D8%B3%3A%20%5BDN%2Finch%5D%D8%8C%20%D8%A7%D9%84%D8%B4%D9%82%3A%20%5B%D9%88%D8%A7%D8%AD%D8%AF%2F%D8%B4%D9%82%D8%A7%D9%86%5D%D8%8C%20%D9%85%D8%AA%D8%B7%D9%84%D8%A8%D8%A7%D8%AA%20%D8%A7%D9%84%D9%84%D9%88%D9%84%D8%A8%3A%20%5B%D8%A7%D9%84%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84%5D%D8%8C%20%D8%A7%D9%84%D9%85%D8%AA%D8%B7%D9%84%D8%A8%D8%A7%D8%AA%20%D8%A7%D9%84%D9%87%D9%8A%D8%AF%D8%B1%D9%88%D9%84%D9%8A%D9%83%D9%8A%D8%A9%3A%20%5B%D8%A7%D9%84%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84%5D%D8%8C%20%D8%A7%D9%84%D9%83%D9%85%D9%8A%D8%A9%3A%20%5B%D9%82%D8%B7%D8%B9%D8%A9%5D%D8%8C%20%D8%A7%D9%84%D9%88%D8%AC%D9%87%D8%A9%3A%20%5B%D8%A7%D9%84%D8%AF%D9%88%D9%84%D8%A9%5D.",
+      "mailto:zhengcolin1@gmail.com?subject=%D8%A7%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1%20%D8%B9%D9%86%20%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%3A%20%D9%81%D9%88%D9%87%D8%A7%D8%AA%20%D8%B3%D8%AA%D8%A7%D8%B1%D8%A9%20%D9%85%D8%A7%D8%A6%D9%8A%D8%A9&body=%D9%85%D8%B1%D8%AD%D8%A8%D8%A7%D9%8B%D8%8C%20%D8%A3%D9%88%D8%AF%20%D9%85%D9%86%D8%A7%D9%82%D8%B4%D8%A9%20%D8%B7%D9%84%D8%A8%20%D9%84%D9%85%D8%B9%D8%AF%D8%A7%D8%AA%20%D9%85%D9%83%D8%A7%D9%81%D8%AD%D8%A9%20%D8%A7%D9%84%D8%AD%D8%B1%D9%8A%D9%82.%0A%0A%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%3A%20%D9%81%D9%88%D9%87%D8%A7%D8%AA%20%D8%B3%D8%AA%D8%A7%D8%B1%D8%A9%20%D9%85%D8%A7%D8%A6%D9%8A%D8%A9%0A%D8%B5%D9%81%D8%AD%D8%A9%20%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%3A%20https%3A%2F%2Fchuanweifire.com%2Far%2Fproducts%2Fwater-curtain-nozzles%2F%0A%0A%D8%A7%D9%84%D9%85%D8%AA%D8%B7%D9%84%D8%A8%D8%A7%D8%AA%3A"
+    ],
+    "h1": "فوهات ستارة مائية",
+    "overflowButtons": [],
+    "viewport": 390,
+    "width": 375
+  },
+  {
+    "id": "product:water-mist-nozzles",
+    "kind": "product",
+    "locale": "en",
+    "path": "products/消防喷头/water-mist-nozzles.html",
+    "testWidth": 390,
+    "badImages": [],
+    "drafts": [
+      "https://wa.me/8617326528368?text=Hello%2C%20I%20need%20a%20quotation%20for%20Water%20Mist%20Nozzles.%20Type%3A%20%5Bstandard%2Fimpingement%5D%2C%20size%3A%20%5BDN%2Finch%5D%2C%20thread%3A%20%5Brequirement%5D%2C%20strainer%3A%20%5Byes%2Fno%5D%2C%20target%20spray%20data%3A%20%5Bdetails%5D%2C%20quantity%3A%20%5Bpcs%5D%2C%20destination%3A%20%5Bcountry%5D.",
+      "mailto:zhengcolin1@gmail.com?subject=Product%20inquiry%3A%20Water%20Mist%20Nozzles&body=Hello%2C%20I%20would%20like%20to%20discuss%20a%20fire-protection%20product%20requirement.%0A%0AProduct%3A%20Water%20Mist%20Nozzles%0AProduct%20page%3A%20https%3A%2F%2Fchuanweifire.com%2Fproducts%2F%25E6%25B6%2588%25E9%2598%25B2%25E5%2596%25B7%25E5%25A4%25B4%2Fwater-mist-nozzles.html%0A%0ARequirements%3A"
+    ],
+    "h1": "Water Mist Nozzles",
+    "overflowButtons": [],
+    "viewport": 390,
+    "width": 375
+  },
+  {
+    "id": "product:water-mist-nozzles",
+    "kind": "product",
+    "locale": "ar",
+    "path": "ar/products/water-mist-nozzles/index.html",
+    "testWidth": 390,
+    "badImages": [],
+    "drafts": [
+      "https://wa.me/8617326528368?text=%D9%85%D8%B1%D8%AD%D8%A8%D8%A7%D9%8B%D8%8C%20%D8%A3%D8%AD%D8%AA%D8%A7%D8%AC%20%D8%A5%D9%84%D9%89%20%D8%B9%D8%B1%D8%B6%20%D8%B3%D8%B9%D8%B1%20%D9%84%D9%81%D9%88%D9%87%D8%A7%D8%AA%20%D8%B6%D8%A8%D8%A7%D8%A8%20%D8%A7%D9%84%D9%85%D8%A7%D8%A1.%20%D8%A7%D9%84%D9%86%D9%88%D8%B9%3A%20%5B%D9%82%D9%8A%D8%A7%D8%B3%D9%8A%2F%D8%AA%D8%B5%D8%A7%D8%AF%D9%85%D9%8A%5D%D8%8C%20%D8%A7%D9%84%D9%85%D9%82%D8%A7%D8%B3%3A%20%5BDN%2Finch%5D%D8%8C%20%D8%A7%D9%84%D9%84%D9%88%D9%84%D8%A8%3A%20%5B%D8%A7%D9%84%D9%85%D8%AA%D8%B7%D9%84%D8%A8%D8%A7%D8%AA%5D%D8%8C%20%D8%A7%D9%84%D9%85%D8%B5%D9%81%D8%A7%D8%A9%3A%20%5B%D9%86%D8%B9%D9%85%2F%D9%84%D8%A7%5D%D8%8C%20%D8%A8%D9%8A%D8%A7%D9%86%D8%A7%D8%AA%20%D8%A7%D9%84%D8%B1%D8%B4%20%D8%A7%D9%84%D9%85%D8%B3%D8%AA%D9%87%D8%AF%D9%81%D8%A9%3A%20%5B%D8%A7%D9%84%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84%5D%D8%8C%20%D8%A7%D9%84%D9%83%D9%85%D9%8A%D8%A9%3A%20%5B%D9%82%D8%B7%D8%B9%D8%A9%5D%D8%8C%20%D8%A7%D9%84%D9%88%D8%AC%D9%87%D8%A9%3A%20%5B%D8%A7%D9%84%D8%AF%D9%88%D9%84%D8%A9%5D.",
+      "mailto:zhengcolin1@gmail.com?subject=%D8%A7%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1%20%D8%B9%D9%86%20%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%3A%20%D9%81%D9%88%D9%87%D8%A7%D8%AA%20%D8%B6%D8%A8%D8%A7%D8%A8%20%D8%A7%D9%84%D9%85%D8%A7%D8%A1&body=%D9%85%D8%B1%D8%AD%D8%A8%D8%A7%D9%8B%D8%8C%20%D8%A3%D9%88%D8%AF%20%D9%85%D9%86%D8%A7%D9%82%D8%B4%D8%A9%20%D8%B7%D9%84%D8%A8%20%D9%84%D9%85%D8%B9%D8%AF%D8%A7%D8%AA%20%D9%85%D9%83%D8%A7%D9%81%D8%AD%D8%A9%20%D8%A7%D9%84%D8%AD%D8%B1%D9%8A%D9%82.%0A%0A%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%3A%20%D9%81%D9%88%D9%87%D8%A7%D8%AA%20%D8%B6%D8%A8%D8%A7%D8%A8%20%D8%A7%D9%84%D9%85%D8%A7%D8%A1%0A%D8%B5%D9%81%D8%AD%D8%A9%20%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%3A%20https%3A%2F%2Fchuanweifire.com%2Far%2Fproducts%2Fwater-mist-nozzles%2F%0A%0A%D8%A7%D9%84%D9%85%D8%AA%D8%B7%D9%84%D8%A8%D8%A7%D8%AA%3A"
+    ],
+    "h1": "فوهات ضباب الماء",
+    "overflowButtons": [],
+    "viewport": 390,
+    "width": 375
+  },
+  {
+    "id": "product:nrs-gate-valves",
+    "kind": "product",
+    "locale": "en",
+    "path": "products/消防阀门/nrs-gate-valves.html",
+    "testWidth": 390,
+    "badImages": [],
+    "drafts": [
+      "https://wa.me/8617326528368?text=Hello%2C%20I%20need%20a%20quotation%20for%20NRS%20Gate%20Valves.%20Size%3A%20%5BDN%2Finch%5D%2C%20connection%3A%20%5Bgrooved%2Fflanged%5D%2C%20quantity%3A%20%5Bpcs%5D%2C%20destination%3A%20%5Bcountry%5D.",
+      "mailto:zhengcolin1@gmail.com?subject=Product%20inquiry%3A%20NRS%20Gate%20Valve&body=Hello%2C%20I%20would%20like%20to%20discuss%20a%20fire-protection%20product%20requirement.%0A%0AProduct%3A%20NRS%20Gate%20Valve%0AProduct%20page%3A%20https%3A%2F%2Fchuanweifire.com%2Fproducts%2F%25E6%25B6%2588%25E9%2598%25B2%25E9%2598%2580%25E9%2597%25A8%2Fnrs-gate-valves.html%0A%0ARequirements%3A"
+    ],
+    "h1": "NRS Gate Valve",
+    "overflowButtons": [],
+    "viewport": 390,
+    "width": 375
+  },
+  {
+    "id": "product:nrs-gate-valves",
+    "kind": "product",
+    "locale": "ar",
+    "path": "ar/products/nrs-gate-valves/index.html",
+    "testWidth": 390,
+    "badImages": [],
+    "drafts": [
+      "https://wa.me/8617326528368?text=Hello%2C%20I%20need%20a%20quotation%20for%20NRS%20Gate%20Valves.%20Size%3A%20%5BDN%2Finch%5D%2C%20connection%3A%20%5Bgrooved%2Fflanged%5D%2C%20quantity%3A%20%5Bpcs%5D%2C%20destination%3A%20%5Bcountry%5D.",
+      "mailto:zhengcolin1@gmail.com?subject=%D8%A7%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1%20%D8%B9%D9%86%20%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%3A%20%D8%B5%D9%85%D8%A7%D9%85%20%D8%A8%D9%88%D8%A7%D8%A8%D8%A9%20%D8%A8%D8%B3%D8%A7%D9%82%20%D8%BA%D9%8A%D8%B1%20%D8%B5%D8%A7%D8%B9%D8%AF&body=%D9%85%D8%B1%D8%AD%D8%A8%D8%A7%D9%8B%D8%8C%20%D8%A3%D9%88%D8%AF%20%D9%85%D9%86%D8%A7%D9%82%D8%B4%D8%A9%20%D8%B7%D9%84%D8%A8%20%D9%84%D9%85%D8%B9%D8%AF%D8%A7%D8%AA%20%D9%85%D9%83%D8%A7%D9%81%D8%AD%D8%A9%20%D8%A7%D9%84%D8%AD%D8%B1%D9%8A%D9%82.%0A%0A%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%3A%20%D8%B5%D9%85%D8%A7%D9%85%20%D8%A8%D9%88%D8%A7%D8%A8%D8%A9%20%D8%A8%D8%B3%D8%A7%D9%82%20%D8%BA%D9%8A%D8%B1%20%D8%B5%D8%A7%D8%B9%D8%AF%0A%D8%B5%D9%81%D8%AD%D8%A9%20%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%3A%20https%3A%2F%2Fchuanweifire.com%2Far%2Fproducts%2Fnrs-gate-valves%2F%0A%0A%D8%A7%D9%84%D9%85%D8%AA%D8%B7%D9%84%D8%A8%D8%A7%D8%AA%3A"
+    ],
+    "h1": "صمام بوابة بساق غير صاعد",
+    "overflowButtons": [],
+    "viewport": 390,
+    "width": 375
+  },
+  {
+    "id": "product:catalog-hose-reel-parts-page-27",
+    "kind": "product",
+    "locale": "en",
+    "path": "products/软管卷盘/catalog-hose-reel-parts-page-27.html",
+    "testWidth": 390,
+    "badImages": [],
+    "drafts": [
+      "https://wa.me/8617326528368?text=Hello%2C+I+need+a+quotation+for+Fire+Hose+Reel+Swivel+Joints+and+Supports.+Configuration%3A+%5Bdetails%5D%2C+size%2Fconnection%3A+%5Bdetails%5D%2C+material%3A+%5Bmaterial%5D%2C+working+pressure%3A+%5Bpressure%5D%2C+quantity%3A+%5Bquantity%5D%2C+destination%3A+%5Bcountry%5D.",
+      "mailto:zhengcolin1@gmail.com?subject=Product%20inquiry%3A%20Fire%20Hose%20Reel%20Swivel%20Joints%20and%20Supports&body=Hello%2C%20I%20would%20like%20to%20discuss%20a%20fire-protection%20product%20requirement.%0A%0AProduct%3A%20Fire%20Hose%20Reel%20Swivel%20Joints%20and%20Supports%0AProduct%20page%3A%20https%3A%2F%2Fchuanweifire.com%2Fproducts%2F%25E8%25BD%25AF%25E7%25AE%25A1%25E5%258D%25B7%25E7%259B%2598%2Fcatalog-hose-reel-parts-page-27.html%0A%0ARequirements%3A"
+    ],
+    "h1": "Fire Hose Reel Swivel Joints and Supports",
+    "overflowButtons": [],
+    "viewport": 390,
+    "width": 375
+  },
+  {
+    "id": "product:catalog-hose-reel-parts-page-27",
+    "kind": "product",
+    "locale": "ar",
+    "path": "ar/products/catalog-hose-reel-parts-page-27/index.html",
+    "testWidth": 390,
+    "badImages": [],
+    "drafts": [
+      "https://wa.me/8617326528368?text=Hello%2C+I+need+a+quotation+for+Fire+Hose+Reel+Swivel+Joints+and+Supports.+Configuration%3A+%5Bdetails%5D%2C+size%2Fconnection%3A+%5Bdetails%5D%2C+material%3A+%5Bmaterial%5D%2C+working+pressure%3A+%5Bpressure%5D%2C+quantity%3A+%5Bquantity%5D%2C+destination%3A+%5Bcountry%5D.",
+      "mailto:zhengcolin1@gmail.com?subject=%D8%A7%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1%20%D8%B9%D9%86%20%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%3A%20%D9%88%D8%B5%D9%84%D8%A7%D8%AA%20%D8%AF%D9%88%D8%A7%D8%B1%D8%A9%20%D9%88%D8%AF%D8%B9%D8%A7%D9%85%D8%A7%D8%AA%20%D9%84%D8%A8%D9%83%D8%B1%D8%A7%D8%AA%20%D8%AE%D8%B1%D8%A7%D8%B7%D9%8A%D9%85%20%D8%A7%D9%84%D8%AD%D8%B1%D9%8A%D9%82&body=%D9%85%D8%B1%D8%AD%D8%A8%D8%A7%D9%8B%D8%8C%20%D8%A3%D9%88%D8%AF%20%D9%85%D9%86%D8%A7%D9%82%D8%B4%D8%A9%20%D8%B7%D9%84%D8%A8%20%D9%84%D9%85%D8%B9%D8%AF%D8%A7%D8%AA%20%D9%85%D9%83%D8%A7%D9%81%D8%AD%D8%A9%20%D8%A7%D9%84%D8%AD%D8%B1%D9%8A%D9%82.%0A%0A%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%3A%20%D9%88%D8%B5%D9%84%D8%A7%D8%AA%20%D8%AF%D9%88%D8%A7%D8%B1%D8%A9%20%D9%88%D8%AF%D8%B9%D8%A7%D9%85%D8%A7%D8%AA%20%D9%84%D8%A8%D9%83%D8%B1%D8%A7%D8%AA%20%D8%AE%D8%B1%D8%A7%D8%B7%D9%8A%D9%85%20%D8%A7%D9%84%D8%AD%D8%B1%D9%8A%D9%82%0A%D8%B5%D9%81%D8%AD%D8%A9%20%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%3A%20https%3A%2F%2Fchuanweifire.com%2Far%2Fproducts%2Fcatalog-hose-reel-parts-page-27%2F%0A%0A%D8%A7%D9%84%D9%85%D8%AA%D8%B7%D9%84%D8%A8%D8%A7%D8%AA%3A"
+    ],
+    "h1": "وصلات دوارة ودعامات لبكرات خراطيم الحريق",
+    "overflowButtons": [],
+    "viewport": 390,
+    "width": 375
+  },
+  {
+    "id": "home",
+    "kind": "core",
+    "locale": "en",
+    "path": "index.html",
+    "testWidth": 1280,
+    "badImages": [],
+    "drafts": [],
+    "h1": "Fire Sprinklers & System Components",
+    "overflowButtons": [],
+    "viewport": 1280,
+    "width": 1265
+  },
+  {
+    "id": "home",
+    "kind": "core",
+    "locale": "zh",
+    "path": "zh/index.html",
+    "testWidth": 1280,
+    "badImages": [],
+    "drafts": [],
+    "h1": "消防喷头与系统组件",
+    "overflowButtons": [],
+    "viewport": 1280,
+    "width": 1265
+  },
+  {
+    "id": "home",
+    "kind": "core",
+    "locale": "ar",
+    "path": "ar/index.html",
+    "testWidth": 1280,
+    "badImages": [],
+    "drafts": [],
+    "h1": "رشاشات الحريق ومكونات الأنظمة",
+    "overflowButtons": [],
+    "viewport": 1280,
+    "width": 1265
+  },
+  {
+    "id": "products",
+    "kind": "core",
+    "locale": "en",
+    "path": "products.html",
+    "testWidth": 1280,
+    "badImages": [],
+    "drafts": [
+      "https://wa.me/8617326528368?text=Hello%2C%20I%20would%20like%20to%20inquire%20about%20these%20products.%0A%0AName%20%2F%20company%3A%0AProduct%20category%3A%20Product%20directory%0APage%3A%20https%3A%2F%2Fchuanweifire.com%2Fproducts.html%0A%0AModel%20%2F%20size%20%2F%20connection%20%2F%20quantity%20%2F%20destination%20(when%20available)%3A",
+      "mailto:zhengcolin1@gmail.com?subject=Product%20inquiry%3A%20Product%20directory&body=Hello%2C%20I%20would%20like%20to%20inquire%20about%20these%20products.%0A%0AName%20%2F%20company%3A%0AProduct%20category%3A%20Product%20directory%0APage%3A%20https%3A%2F%2Fchuanweifire.com%2Fproducts.html%0A%0AModel%20%2F%20size%20%2F%20connection%20%2F%20quantity%20%2F%20destination%20(when%20available)%3A",
+      "contact.html"
+    ],
+    "h1": "Find your fire protection product.",
+    "listingCss": "css/catalog-pages.css?v=5adeda95b229",
+    "overflowButtons": [],
+    "viewport": 1280,
+    "width": 1265
+  },
+  {
+    "id": "products",
+    "kind": "core",
+    "locale": "ar",
+    "path": "ar/products.html",
+    "testWidth": 1280,
+    "badImages": [],
+    "drafts": [
+      "https://wa.me/8617326528368?text=%D9%85%D8%B1%D8%AD%D8%A8%D8%A7%D9%8B%D8%8C%20%D8%A3%D9%88%D8%AF%20%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1%20%D8%B9%D9%86%20%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%D8%A7%D8%AA%20%D8%A7%D9%84%D8%AA%D8%A7%D9%84%D9%8A%D8%A9.%0A%0A%D8%A7%D9%84%D8%A7%D8%B3%D9%85%20%2F%20%D8%A7%D9%84%D8%B4%D8%B1%D9%83%D8%A9%3A%0A%D9%81%D8%A6%D8%A9%20%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%3A%20%D8%AF%D9%84%D9%8A%D9%84%20%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%D8%A7%D8%AA%0A%D8%A7%D9%84%D8%B5%D9%81%D8%AD%D8%A9%3A%20https%3A%2F%2Fchuanweifire.com%2Far%2Fproducts.html%0A%0A%D8%A7%D9%84%D9%85%D9%88%D8%AF%D9%8A%D9%84%20%2F%20%D8%A7%D9%84%D9%85%D9%82%D8%A7%D8%B3%20%2F%20%D8%A7%D9%84%D8%AA%D9%88%D8%B5%D9%8A%D9%84%20%2F%20%D8%A7%D9%84%D9%83%D9%85%D9%8A%D8%A9%20%2F%20%D8%A7%D9%84%D9%88%D8%AC%D9%87%D8%A9%20(%D8%B9%D9%86%D8%AF%20%D8%AA%D9%88%D9%81%D8%B1%D9%87%D8%A7)%3A",
+      "mailto:zhengcolin1@gmail.com?subject=%D8%A7%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1%20%D8%B9%D9%86%20%D8%AF%D9%84%D9%8A%D9%84%20%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%D8%A7%D8%AA&body=%D9%85%D8%B1%D8%AD%D8%A8%D8%A7%D9%8B%D8%8C%20%D8%A3%D9%88%D8%AF%20%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1%20%D8%B9%D9%86%20%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%D8%A7%D8%AA%20%D8%A7%D9%84%D8%AA%D8%A7%D9%84%D9%8A%D8%A9.%0A%0A%D8%A7%D9%84%D8%A7%D8%B3%D9%85%20%2F%20%D8%A7%D9%84%D8%B4%D8%B1%D9%83%D8%A9%3A%0A%D9%81%D8%A6%D8%A9%20%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%3A%20%D8%AF%D9%84%D9%8A%D9%84%20%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%D8%A7%D8%AA%0A%D8%A7%D9%84%D8%B5%D9%81%D8%AD%D8%A9%3A%20https%3A%2F%2Fchuanweifire.com%2Far%2Fproducts.html%0A%0A%D8%A7%D9%84%D9%85%D9%88%D8%AF%D9%8A%D9%84%20%2F%20%D8%A7%D9%84%D9%85%D9%82%D8%A7%D8%B3%20%2F%20%D8%A7%D9%84%D8%AA%D9%88%D8%B5%D9%8A%D9%84%20%2F%20%D8%A7%D9%84%D9%83%D9%85%D9%8A%D8%A9%20%2F%20%D8%A7%D9%84%D9%88%D8%AC%D9%87%D8%A9%20(%D8%B9%D9%86%D8%AF%20%D8%AA%D9%88%D9%81%D8%B1%D9%87%D8%A7)%3A",
+      "contact.html"
+    ],
+    "h1": "اعثر على منتج مكافحة الحريق المطلوب.",
+    "listingCss": "../css/catalog-pages.css?v=5adeda95b229",
+    "overflowButtons": [],
+    "viewport": 1280,
+    "width": 1265
+  },
+  {
+    "id": "category:foam-nozzles",
+    "kind": "category",
+    "locale": "en",
+    "path": "products/foam-nozzles.html",
+    "testWidth": 1280,
+    "badImages": [],
+    "drafts": [
+      "https://wa.me/8617326528368?text=Hello%2C%20I%20would%20like%20to%20inquire%20about%20these%20products.%0A%0AName%20%2F%20company%3A%0AProduct%20category%3A%20Foam-Water%20Nozzles%0APage%3A%20https%3A%2F%2Fchuanweifire.com%2Fproducts%2Ffoam-nozzles.html%0A%0AModel%20%2F%20size%20%2F%20connection%20%2F%20quantity%20%2F%20destination%20(when%20available)%3A",
+      "mailto:zhengcolin1@gmail.com?subject=Product%20inquiry%3A%20Foam-Water%20Nozzles&body=Hello%2C%20I%20would%20like%20to%20inquire%20about%20these%20products.%0A%0AName%20%2F%20company%3A%0AProduct%20category%3A%20Foam-Water%20Nozzles%0APage%3A%20https%3A%2F%2Fchuanweifire.com%2Fproducts%2Ffoam-nozzles.html%0A%0AModel%20%2F%20size%20%2F%20connection%20%2F%20quantity%20%2F%20destination%20(when%20available)%3A",
+      "../contact.html"
+    ],
+    "h1": "Foam-Water Nozzles",
+    "listingCss": "../css/catalog-pages.css?v=5adeda95b229",
+    "overflowButtons": [],
+    "viewport": 1280,
+    "width": 1265
+  },
+  {
+    "id": "category:foam-nozzles",
+    "kind": "category",
+    "locale": "ar",
+    "path": "ar/products/foam-nozzles/index.html",
+    "testWidth": 1280,
+    "badImages": [],
+    "drafts": [
+      "https://wa.me/8617326528368?text=%D9%85%D8%B1%D8%AD%D8%A8%D8%A7%D9%8B%D8%8C%20%D8%A3%D9%88%D8%AF%20%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1%20%D8%B9%D9%86%20%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%D8%A7%D8%AA%20%D8%A7%D9%84%D8%AA%D8%A7%D9%84%D9%8A%D8%A9.%0A%0A%D8%A7%D9%84%D8%A7%D8%B3%D9%85%20%2F%20%D8%A7%D9%84%D8%B4%D8%B1%D9%83%D8%A9%3A%0A%D9%81%D8%A6%D8%A9%20%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%3A%20%D9%81%D9%88%D9%87%D8%A7%D8%AA%20%D8%A7%D9%84%D9%85%D8%A7%D8%A1%20%D9%88%D8%A7%D9%84%D8%B1%D8%BA%D9%88%D8%A9%0A%D8%A7%D9%84%D8%B5%D9%81%D8%AD%D8%A9%3A%20https%3A%2F%2Fchuanweifire.com%2Far%2Fproducts%2Ffoam-nozzles%2F%0A%0A%D8%A7%D9%84%D9%85%D9%88%D8%AF%D9%8A%D9%84%20%2F%20%D8%A7%D9%84%D9%85%D9%82%D8%A7%D8%B3%20%2F%20%D8%A7%D9%84%D8%AA%D9%88%D8%B5%D9%8A%D9%84%20%2F%20%D8%A7%D9%84%D9%83%D9%85%D9%8A%D8%A9%20%2F%20%D8%A7%D9%84%D9%88%D8%AC%D9%87%D8%A9%20(%D8%B9%D9%86%D8%AF%20%D8%AA%D9%88%D9%81%D8%B1%D9%87%D8%A7)%3A",
+      "mailto:zhengcolin1@gmail.com?subject=%D8%A7%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1%20%D8%B9%D9%86%20%D9%81%D9%88%D9%87%D8%A7%D8%AA%20%D8%A7%D9%84%D9%85%D8%A7%D8%A1%20%D9%88%D8%A7%D9%84%D8%B1%D8%BA%D9%88%D8%A9&body=%D9%85%D8%B1%D8%AD%D8%A8%D8%A7%D9%8B%D8%8C%20%D8%A3%D9%88%D8%AF%20%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1%20%D8%B9%D9%86%20%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%D8%A7%D8%AA%20%D8%A7%D9%84%D8%AA%D8%A7%D9%84%D9%8A%D8%A9.%0A%0A%D8%A7%D9%84%D8%A7%D8%B3%D9%85%20%2F%20%D8%A7%D9%84%D8%B4%D8%B1%D9%83%D8%A9%3A%0A%D9%81%D8%A6%D8%A9%20%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%3A%20%D9%81%D9%88%D9%87%D8%A7%D8%AA%20%D8%A7%D9%84%D9%85%D8%A7%D8%A1%20%D9%88%D8%A7%D9%84%D8%B1%D8%BA%D9%88%D8%A9%0A%D8%A7%D9%84%D8%B5%D9%81%D8%AD%D8%A9%3A%20https%3A%2F%2Fchuanweifire.com%2Far%2Fproducts%2Ffoam-nozzles%2F%0A%0A%D8%A7%D9%84%D9%85%D9%88%D8%AF%D9%8A%D9%84%20%2F%20%D8%A7%D9%84%D9%85%D9%82%D8%A7%D8%B3%20%2F%20%D8%A7%D9%84%D8%AA%D9%88%D8%B5%D9%8A%D9%84%20%2F%20%D8%A7%D9%84%D9%83%D9%85%D9%8A%D8%A9%20%2F%20%D8%A7%D9%84%D9%88%D8%AC%D9%87%D8%A9%20(%D8%B9%D9%86%D8%AF%20%D8%AA%D9%88%D9%81%D8%B1%D9%87%D8%A7)%3A",
+      "../../contact.html"
+    ],
+    "h1": "فوهات الماء والرغوة",
+    "listingCss": "../../../css/catalog-pages.css?v=5adeda95b229",
+    "overflowButtons": [],
+    "viewport": 1280,
+    "width": 1265
+  },
+  {
+    "id": "category:sprinklers",
+    "kind": "category",
+    "locale": "en",
+    "path": "products/消防喷头.html",
+    "testWidth": 1280,
+    "badImages": [],
+    "drafts": [
+      "https://wa.me/8617326528368?text=Hello%2C%20I%20would%20like%20to%20inquire%20about%20these%20products.%0A%0AName%20%2F%20company%3A%0AProduct%20category%3A%20Fire%20Sprinklers%0APage%3A%20https%3A%2F%2Fchuanweifire.com%2Fproducts%2F%25E6%25B6%2588%25E9%2598%25B2%25E5%2596%25B7%25E5%25A4%25B4.html%0A%0AModel%20%2F%20size%20%2F%20connection%20%2F%20quantity%20%2F%20destination%20(when%20available)%3A",
+      "mailto:zhengcolin1@gmail.com?subject=Product%20inquiry%3A%20Fire%20Sprinklers&body=Hello%2C%20I%20would%20like%20to%20inquire%20about%20these%20products.%0A%0AName%20%2F%20company%3A%0AProduct%20category%3A%20Fire%20Sprinklers%0APage%3A%20https%3A%2F%2Fchuanweifire.com%2Fproducts%2F%25E6%25B6%2588%25E9%2598%25B2%25E5%2596%25B7%25E5%25A4%25B4.html%0A%0AModel%20%2F%20size%20%2F%20connection%20%2F%20quantity%20%2F%20destination%20(when%20available)%3A",
+      "../contact.html"
+    ],
+    "h1": "Fire Sprinklers",
+    "listingCss": "../css/catalog-pages.css?v=5adeda95b229",
+    "overflowButtons": [],
+    "viewport": 1280,
+    "width": 1265
+  },
+  {
+    "id": "category:sprinklers",
+    "kind": "category",
+    "locale": "ar",
+    "path": "ar/products/sprinklers/index.html",
+    "testWidth": 1280,
+    "badImages": [],
+    "drafts": [
+      "https://wa.me/8617326528368?text=%D9%85%D8%B1%D8%AD%D8%A8%D8%A7%D9%8B%D8%8C%20%D8%A3%D9%88%D8%AF%20%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1%20%D8%B9%D9%86%20%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%D8%A7%D8%AA%20%D8%A7%D9%84%D8%AA%D8%A7%D9%84%D9%8A%D8%A9.%0A%0A%D8%A7%D9%84%D8%A7%D8%B3%D9%85%20%2F%20%D8%A7%D9%84%D8%B4%D8%B1%D9%83%D8%A9%3A%0A%D9%81%D8%A6%D8%A9%20%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%3A%20%D8%B1%D8%B4%D8%A7%D8%B4%D8%A7%D8%AA%20%D8%A7%D9%84%D8%AD%D8%B1%D9%8A%D9%82%0A%D8%A7%D9%84%D8%B5%D9%81%D8%AD%D8%A9%3A%20https%3A%2F%2Fchuanweifire.com%2Far%2Fproducts%2Fsprinklers%2F%0A%0A%D8%A7%D9%84%D9%85%D9%88%D8%AF%D9%8A%D9%84%20%2F%20%D8%A7%D9%84%D9%85%D9%82%D8%A7%D8%B3%20%2F%20%D8%A7%D9%84%D8%AA%D9%88%D8%B5%D9%8A%D9%84%20%2F%20%D8%A7%D9%84%D9%83%D9%85%D9%8A%D8%A9%20%2F%20%D8%A7%D9%84%D9%88%D8%AC%D9%87%D8%A9%20(%D8%B9%D9%86%D8%AF%20%D8%AA%D9%88%D9%81%D8%B1%D9%87%D8%A7)%3A",
+      "mailto:zhengcolin1@gmail.com?subject=%D8%A7%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1%20%D8%B9%D9%86%20%D8%B1%D8%B4%D8%A7%D8%B4%D8%A7%D8%AA%20%D8%A7%D9%84%D8%AD%D8%B1%D9%8A%D9%82&body=%D9%85%D8%B1%D8%AD%D8%A8%D8%A7%D9%8B%D8%8C%20%D8%A3%D9%88%D8%AF%20%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1%20%D8%B9%D9%86%20%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%D8%A7%D8%AA%20%D8%A7%D9%84%D8%AA%D8%A7%D9%84%D9%8A%D8%A9.%0A%0A%D8%A7%D9%84%D8%A7%D8%B3%D9%85%20%2F%20%D8%A7%D9%84%D8%B4%D8%B1%D9%83%D8%A9%3A%0A%D9%81%D8%A6%D8%A9%20%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%3A%20%D8%B1%D8%B4%D8%A7%D8%B4%D8%A7%D8%AA%20%D8%A7%D9%84%D8%AD%D8%B1%D9%8A%D9%82%0A%D8%A7%D9%84%D8%B5%D9%81%D8%AD%D8%A9%3A%20https%3A%2F%2Fchuanweifire.com%2Far%2Fproducts%2Fsprinklers%2F%0A%0A%D8%A7%D9%84%D9%85%D9%88%D8%AF%D9%8A%D9%84%20%2F%20%D8%A7%D9%84%D9%85%D9%82%D8%A7%D8%B3%20%2F%20%D8%A7%D9%84%D8%AA%D9%88%D8%B5%D9%8A%D9%84%20%2F%20%D8%A7%D9%84%D9%83%D9%85%D9%8A%D8%A9%20%2F%20%D8%A7%D9%84%D9%88%D8%AC%D9%87%D8%A9%20(%D8%B9%D9%86%D8%AF%20%D8%AA%D9%88%D9%81%D8%B1%D9%87%D8%A7)%3A",
+      "../../contact.html"
+    ],
+    "h1": "رشاشات الحريق",
+    "listingCss": "../../../css/catalog-pages.css?v=5adeda95b229",
+    "overflowButtons": [],
+    "viewport": 1280,
+    "width": 1265
+  },
+  {
+    "id": "category:system-valves",
+    "kind": "category",
+    "locale": "en",
+    "path": "products/消防阀.html",
+    "testWidth": 1280,
+    "badImages": [],
+    "drafts": [
+      "https://wa.me/8617326528368?text=Hello%2C%20I%20would%20like%20to%20inquire%20about%20these%20products.%0A%0AName%20%2F%20company%3A%0AProduct%20category%3A%20Alarm%20%26%20System%20Valves%0APage%3A%20https%3A%2F%2Fchuanweifire.com%2Fproducts%2F%25E6%25B6%2588%25E9%2598%25B2%25E9%2598%2580.html%0A%0AModel%20%2F%20size%20%2F%20connection%20%2F%20quantity%20%2F%20destination%20(when%20available)%3A",
+      "mailto:zhengcolin1@gmail.com?subject=Product%20inquiry%3A%20Alarm%20%26%20System%20Valves&body=Hello%2C%20I%20would%20like%20to%20inquire%20about%20these%20products.%0A%0AName%20%2F%20company%3A%0AProduct%20category%3A%20Alarm%20%26%20System%20Valves%0APage%3A%20https%3A%2F%2Fchuanweifire.com%2Fproducts%2F%25E6%25B6%2588%25E9%2598%25B2%25E9%2598%2580.html%0A%0AModel%20%2F%20size%20%2F%20connection%20%2F%20quantity%20%2F%20destination%20(when%20available)%3A",
+      "../contact.html"
+    ],
+    "h1": "Alarm & System Valves",
+    "listingCss": "../css/catalog-pages.css?v=5adeda95b229",
+    "overflowButtons": [],
+    "viewport": 1280,
+    "width": 1265
+  },
+  {
+    "id": "category:system-valves",
+    "kind": "category",
+    "locale": "ar",
+    "path": "ar/products/system-valves/index.html",
+    "testWidth": 1280,
+    "badImages": [],
+    "drafts": [
+      "https://wa.me/8617326528368?text=%D9%85%D8%B1%D8%AD%D8%A8%D8%A7%D9%8B%D8%8C%20%D8%A3%D9%88%D8%AF%20%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1%20%D8%B9%D9%86%20%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%D8%A7%D8%AA%20%D8%A7%D9%84%D8%AA%D8%A7%D9%84%D9%8A%D8%A9.%0A%0A%D8%A7%D9%84%D8%A7%D8%B3%D9%85%20%2F%20%D8%A7%D9%84%D8%B4%D8%B1%D9%83%D8%A9%3A%0A%D9%81%D8%A6%D8%A9%20%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%3A%20%D8%B5%D9%85%D8%A7%D9%85%D8%A7%D8%AA%20%D8%A7%D9%84%D8%A5%D9%86%D8%B0%D8%A7%D8%B1%20%D9%88%D8%B5%D9%85%D8%A7%D9%85%D8%A7%D8%AA%20%D8%A7%D9%84%D8%A3%D9%86%D8%B8%D9%85%D8%A9%0A%D8%A7%D9%84%D8%B5%D9%81%D8%AD%D8%A9%3A%20https%3A%2F%2Fchuanweifire.com%2Far%2Fproducts%2Fsystem-valves%2F%0A%0A%D8%A7%D9%84%D9%85%D9%88%D8%AF%D9%8A%D9%84%20%2F%20%D8%A7%D9%84%D9%85%D9%82%D8%A7%D8%B3%20%2F%20%D8%A7%D9%84%D8%AA%D9%88%D8%B5%D9%8A%D9%84%20%2F%20%D8%A7%D9%84%D9%83%D9%85%D9%8A%D8%A9%20%2F%20%D8%A7%D9%84%D9%88%D8%AC%D9%87%D8%A9%20(%D8%B9%D9%86%D8%AF%20%D8%AA%D9%88%D9%81%D8%B1%D9%87%D8%A7)%3A",
+      "mailto:zhengcolin1@gmail.com?subject=%D8%A7%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1%20%D8%B9%D9%86%20%D8%B5%D9%85%D8%A7%D9%85%D8%A7%D8%AA%20%D8%A7%D9%84%D8%A5%D9%86%D8%B0%D8%A7%D8%B1%20%D9%88%D8%B5%D9%85%D8%A7%D9%85%D8%A7%D8%AA%20%D8%A7%D9%84%D8%A3%D9%86%D8%B8%D9%85%D8%A9&body=%D9%85%D8%B1%D8%AD%D8%A8%D8%A7%D9%8B%D8%8C%20%D8%A3%D9%88%D8%AF%20%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1%20%D8%B9%D9%86%20%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%D8%A7%D8%AA%20%D8%A7%D9%84%D8%AA%D8%A7%D9%84%D9%8A%D8%A9.%0A%0A%D8%A7%D9%84%D8%A7%D8%B3%D9%85%20%2F%20%D8%A7%D9%84%D8%B4%D8%B1%D9%83%D8%A9%3A%0A%D9%81%D8%A6%D8%A9%20%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%3A%20%D8%B5%D9%85%D8%A7%D9%85%D8%A7%D8%AA%20%D8%A7%D9%84%D8%A5%D9%86%D8%B0%D8%A7%D8%B1%20%D9%88%D8%B5%D9%85%D8%A7%D9%85%D8%A7%D8%AA%20%D8%A7%D9%84%D8%A3%D9%86%D8%B8%D9%85%D8%A9%0A%D8%A7%D9%84%D8%B5%D9%81%D8%AD%D8%A9%3A%20https%3A%2F%2Fchuanweifire.com%2Far%2Fproducts%2Fsystem-valves%2F%0A%0A%D8%A7%D9%84%D9%85%D9%88%D8%AF%D9%8A%D9%84%20%2F%20%D8%A7%D9%84%D9%85%D9%82%D8%A7%D8%B3%20%2F%20%D8%A7%D9%84%D8%AA%D9%88%D8%B5%D9%8A%D9%84%20%2F%20%D8%A7%D9%84%D9%83%D9%85%D9%8A%D8%A9%20%2F%20%D8%A7%D9%84%D9%88%D8%AC%D9%87%D8%A9%20(%D8%B9%D9%86%D8%AF%20%D8%AA%D9%88%D9%81%D8%B1%D9%87%D8%A7)%3A",
+      "../../contact.html"
+    ],
+    "h1": "صمامات الإنذار وصمامات الأنظمة",
+    "listingCss": "../../../css/catalog-pages.css?v=5adeda95b229",
+    "overflowButtons": [],
+    "viewport": 1280,
+    "width": 1265
+  },
+  {
+    "id": "category:butterfly-valves",
+    "kind": "category",
+    "locale": "en",
+    "path": "products/消防蝶阀.html",
+    "testWidth": 1280,
+    "badImages": [],
+    "drafts": [
+      "https://wa.me/8617326528368?text=Hello%2C%20I%20would%20like%20to%20inquire%20about%20these%20products.%0A%0AName%20%2F%20company%3A%0AProduct%20category%3A%20Fire%20Butterfly%20Valves%0APage%3A%20https%3A%2F%2Fchuanweifire.com%2Fproducts%2F%25E6%25B6%2588%25E9%2598%25B2%25E8%259D%25B6%25E9%2598%2580.html%0A%0AModel%20%2F%20size%20%2F%20connection%20%2F%20quantity%20%2F%20destination%20(when%20available)%3A",
+      "mailto:zhengcolin1@gmail.com?subject=Product%20inquiry%3A%20Fire%20Butterfly%20Valves&body=Hello%2C%20I%20would%20like%20to%20inquire%20about%20these%20products.%0A%0AName%20%2F%20company%3A%0AProduct%20category%3A%20Fire%20Butterfly%20Valves%0APage%3A%20https%3A%2F%2Fchuanweifire.com%2Fproducts%2F%25E6%25B6%2588%25E9%2598%25B2%25E8%259D%25B6%25E9%2598%2580.html%0A%0AModel%20%2F%20size%20%2F%20connection%20%2F%20quantity%20%2F%20destination%20(when%20available)%3A",
+      "../contact.html"
+    ],
+    "h1": "Fire Butterfly Valves",
+    "listingCss": "../css/catalog-pages.css?v=5adeda95b229",
+    "overflowButtons": [],
+    "viewport": 1280,
+    "width": 1265
+  },
+  {
+    "id": "category:butterfly-valves",
+    "kind": "category",
+    "locale": "ar",
+    "path": "ar/products/butterfly-valves/index.html",
+    "testWidth": 1280,
+    "badImages": [],
+    "drafts": [
+      "https://wa.me/8617326528368?text=%D9%85%D8%B1%D8%AD%D8%A8%D8%A7%D9%8B%D8%8C%20%D8%A3%D9%88%D8%AF%20%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1%20%D8%B9%D9%86%20%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%D8%A7%D8%AA%20%D8%A7%D9%84%D8%AA%D8%A7%D9%84%D9%8A%D8%A9.%0A%0A%D8%A7%D9%84%D8%A7%D8%B3%D9%85%20%2F%20%D8%A7%D9%84%D8%B4%D8%B1%D9%83%D8%A9%3A%0A%D9%81%D8%A6%D8%A9%20%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%3A%20%D8%B5%D9%85%D8%A7%D9%85%D8%A7%D8%AA%20%D9%81%D8%B1%D8%A7%D8%B4%D8%A9%20%D9%84%D9%85%D9%83%D8%A7%D9%81%D8%AD%D8%A9%20%D8%A7%D9%84%D8%AD%D8%B1%D9%8A%D9%82%0A%D8%A7%D9%84%D8%B5%D9%81%D8%AD%D8%A9%3A%20https%3A%2F%2Fchuanweifire.com%2Far%2Fproducts%2Fbutterfly-valves%2F%0A%0A%D8%A7%D9%84%D9%85%D9%88%D8%AF%D9%8A%D9%84%20%2F%20%D8%A7%D9%84%D9%85%D9%82%D8%A7%D8%B3%20%2F%20%D8%A7%D9%84%D8%AA%D9%88%D8%B5%D9%8A%D9%84%20%2F%20%D8%A7%D9%84%D9%83%D9%85%D9%8A%D8%A9%20%2F%20%D8%A7%D9%84%D9%88%D8%AC%D9%87%D8%A9%20(%D8%B9%D9%86%D8%AF%20%D8%AA%D9%88%D9%81%D8%B1%D9%87%D8%A7)%3A",
+      "mailto:zhengcolin1@gmail.com?subject=%D8%A7%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1%20%D8%B9%D9%86%20%D8%B5%D9%85%D8%A7%D9%85%D8%A7%D8%AA%20%D9%81%D8%B1%D8%A7%D8%B4%D8%A9%20%D9%84%D9%85%D9%83%D8%A7%D9%81%D8%AD%D8%A9%20%D8%A7%D9%84%D8%AD%D8%B1%D9%8A%D9%82&body=%D9%85%D8%B1%D8%AD%D8%A8%D8%A7%D9%8B%D8%8C%20%D8%A3%D9%88%D8%AF%20%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1%20%D8%B9%D9%86%20%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%D8%A7%D8%AA%20%D8%A7%D9%84%D8%AA%D8%A7%D9%84%D9%8A%D8%A9.%0A%0A%D8%A7%D9%84%D8%A7%D8%B3%D9%85%20%2F%20%D8%A7%D9%84%D8%B4%D8%B1%D9%83%D8%A9%3A%0A%D9%81%D8%A6%D8%A9%20%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%3A%20%D8%B5%D9%85%D8%A7%D9%85%D8%A7%D8%AA%20%D9%81%D8%B1%D8%A7%D8%B4%D8%A9%20%D9%84%D9%85%D9%83%D8%A7%D9%81%D8%AD%D8%A9%20%D8%A7%D9%84%D8%AD%D8%B1%D9%8A%D9%82%0A%D8%A7%D9%84%D8%B5%D9%81%D8%AD%D8%A9%3A%20https%3A%2F%2Fchuanweifire.com%2Far%2Fproducts%2Fbutterfly-valves%2F%0A%0A%D8%A7%D9%84%D9%85%D9%88%D8%AF%D9%8A%D9%84%20%2F%20%D8%A7%D9%84%D9%85%D9%82%D8%A7%D8%B3%20%2F%20%D8%A7%D9%84%D8%AA%D9%88%D8%B5%D9%8A%D9%84%20%2F%20%D8%A7%D9%84%D9%83%D9%85%D9%8A%D8%A9%20%2F%20%D8%A7%D9%84%D9%88%D8%AC%D9%87%D8%A9%20(%D8%B9%D9%86%D8%AF%20%D8%AA%D9%88%D9%81%D8%B1%D9%87%D8%A7)%3A",
+      "../../contact.html"
+    ],
+    "h1": "صمامات فراشة لمكافحة الحريق",
+    "listingCss": "../../../css/catalog-pages.css?v=5adeda95b229",
+    "overflowButtons": [],
+    "viewport": 1280,
+    "width": 1265
+  },
+  {
+    "id": "category:gate-valves",
+    "kind": "category",
+    "locale": "en",
+    "path": "products/消防阀门.html",
+    "testWidth": 1280,
+    "badImages": [],
+    "drafts": [
+      "https://wa.me/8617326528368?text=Hello%2C%20I%20would%20like%20to%20inquire%20about%20these%20products.%0A%0AName%20%2F%20company%3A%0AProduct%20category%3A%20Fire%20Gate%20Valves%0APage%3A%20https%3A%2F%2Fchuanweifire.com%2Fproducts%2F%25E6%25B6%2588%25E9%2598%25B2%25E9%2598%2580%25E9%2597%25A8.html%0A%0AModel%20%2F%20size%20%2F%20connection%20%2F%20quantity%20%2F%20destination%20(when%20available)%3A",
+      "mailto:zhengcolin1@gmail.com?subject=Product%20inquiry%3A%20Fire%20Gate%20Valves&body=Hello%2C%20I%20would%20like%20to%20inquire%20about%20these%20products.%0A%0AName%20%2F%20company%3A%0AProduct%20category%3A%20Fire%20Gate%20Valves%0APage%3A%20https%3A%2F%2Fchuanweifire.com%2Fproducts%2F%25E6%25B6%2588%25E9%2598%25B2%25E9%2598%2580%25E9%2597%25A8.html%0A%0AModel%20%2F%20size%20%2F%20connection%20%2F%20quantity%20%2F%20destination%20(when%20available)%3A",
+      "../contact.html"
+    ],
+    "h1": "Fire Gate Valves",
+    "listingCss": "../css/catalog-pages.css?v=5adeda95b229",
+    "overflowButtons": [],
+    "viewport": 1280,
+    "width": 1265
+  },
+  {
+    "id": "category:gate-valves",
+    "kind": "category",
+    "locale": "ar",
+    "path": "ar/products/gate-valves/index.html",
+    "testWidth": 1280,
+    "badImages": [],
+    "drafts": [
+      "https://wa.me/8617326528368?text=%D9%85%D8%B1%D8%AD%D8%A8%D8%A7%D9%8B%D8%8C%20%D8%A3%D9%88%D8%AF%20%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1%20%D8%B9%D9%86%20%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%D8%A7%D8%AA%20%D8%A7%D9%84%D8%AA%D8%A7%D9%84%D9%8A%D8%A9.%0A%0A%D8%A7%D9%84%D8%A7%D8%B3%D9%85%20%2F%20%D8%A7%D9%84%D8%B4%D8%B1%D9%83%D8%A9%3A%0A%D9%81%D8%A6%D8%A9%20%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%3A%20%D8%B5%D9%85%D8%A7%D9%85%D8%A7%D8%AA%20%D8%A8%D9%88%D8%A7%D8%A8%D8%A9%20%D9%84%D9%85%D9%83%D8%A7%D9%81%D8%AD%D8%A9%20%D8%A7%D9%84%D8%AD%D8%B1%D9%8A%D9%82%0A%D8%A7%D9%84%D8%B5%D9%81%D8%AD%D8%A9%3A%20https%3A%2F%2Fchuanweifire.com%2Far%2Fproducts%2Fgate-valves%2F%0A%0A%D8%A7%D9%84%D9%85%D9%88%D8%AF%D9%8A%D9%84%20%2F%20%D8%A7%D9%84%D9%85%D9%82%D8%A7%D8%B3%20%2F%20%D8%A7%D9%84%D8%AA%D9%88%D8%B5%D9%8A%D9%84%20%2F%20%D8%A7%D9%84%D9%83%D9%85%D9%8A%D8%A9%20%2F%20%D8%A7%D9%84%D9%88%D8%AC%D9%87%D8%A9%20(%D8%B9%D9%86%D8%AF%20%D8%AA%D9%88%D9%81%D8%B1%D9%87%D8%A7)%3A",
+      "mailto:zhengcolin1@gmail.com?subject=%D8%A7%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1%20%D8%B9%D9%86%20%D8%B5%D9%85%D8%A7%D9%85%D8%A7%D8%AA%20%D8%A8%D9%88%D8%A7%D8%A8%D8%A9%20%D9%84%D9%85%D9%83%D8%A7%D9%81%D8%AD%D8%A9%20%D8%A7%D9%84%D8%AD%D8%B1%D9%8A%D9%82&body=%D9%85%D8%B1%D8%AD%D8%A8%D8%A7%D9%8B%D8%8C%20%D8%A3%D9%88%D8%AF%20%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1%20%D8%B9%D9%86%20%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%D8%A7%D8%AA%20%D8%A7%D9%84%D8%AA%D8%A7%D9%84%D9%8A%D8%A9.%0A%0A%D8%A7%D9%84%D8%A7%D8%B3%D9%85%20%2F%20%D8%A7%D9%84%D8%B4%D8%B1%D9%83%D8%A9%3A%0A%D9%81%D8%A6%D8%A9%20%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%3A%20%D8%B5%D9%85%D8%A7%D9%85%D8%A7%D8%AA%20%D8%A8%D9%88%D8%A7%D8%A8%D8%A9%20%D9%84%D9%85%D9%83%D8%A7%D9%81%D8%AD%D8%A9%20%D8%A7%D9%84%D8%AD%D8%B1%D9%8A%D9%82%0A%D8%A7%D9%84%D8%B5%D9%81%D8%AD%D8%A9%3A%20https%3A%2F%2Fchuanweifire.com%2Far%2Fproducts%2Fgate-valves%2F%0A%0A%D8%A7%D9%84%D9%85%D9%88%D8%AF%D9%8A%D9%84%20%2F%20%D8%A7%D9%84%D9%85%D9%82%D8%A7%D8%B3%20%2F%20%D8%A7%D9%84%D8%AA%D9%88%D8%B5%D9%8A%D9%84%20%2F%20%D8%A7%D9%84%D9%83%D9%85%D9%8A%D8%A9%20%2F%20%D8%A7%D9%84%D9%88%D8%AC%D9%87%D8%A9%20(%D8%B9%D9%86%D8%AF%20%D8%AA%D9%88%D9%81%D8%B1%D9%87%D8%A7)%3A",
+      "../../contact.html"
+    ],
+    "h1": "صمامات بوابة لمكافحة الحريق",
+    "listingCss": "../../../css/catalog-pages.css?v=5adeda95b229",
+    "overflowButtons": [],
+    "viewport": 1280,
+    "width": 1265
+  },
+  {
+    "id": "category:hose-reels",
+    "kind": "category",
+    "locale": "en",
+    "path": "products/软管卷盘.html",
+    "testWidth": 1280,
+    "badImages": [],
+    "drafts": [
+      "https://wa.me/8617326528368?text=Hello%2C%20I%20would%20like%20to%20inquire%20about%20these%20products.%0A%0AName%20%2F%20company%3A%0AProduct%20category%3A%20Fire%20Hose%20Reels%0APage%3A%20https%3A%2F%2Fchuanweifire.com%2Fproducts%2F%25E8%25BD%25AF%25E7%25AE%25A1%25E5%258D%25B7%25E7%259B%2598.html%0A%0AModel%20%2F%20size%20%2F%20connection%20%2F%20quantity%20%2F%20destination%20(when%20available)%3A",
+      "mailto:zhengcolin1@gmail.com?subject=Product%20inquiry%3A%20Fire%20Hose%20Reels&body=Hello%2C%20I%20would%20like%20to%20inquire%20about%20these%20products.%0A%0AName%20%2F%20company%3A%0AProduct%20category%3A%20Fire%20Hose%20Reels%0APage%3A%20https%3A%2F%2Fchuanweifire.com%2Fproducts%2F%25E8%25BD%25AF%25E7%25AE%25A1%25E5%258D%25B7%25E7%259B%2598.html%0A%0AModel%20%2F%20size%20%2F%20connection%20%2F%20quantity%20%2F%20destination%20(when%20available)%3A",
+      "../contact.html"
+    ],
+    "h1": "Fire Hose Reels",
+    "listingCss": "../css/catalog-pages.css?v=5adeda95b229",
+    "overflowButtons": [],
+    "viewport": 1280,
+    "width": 1265
+  },
+  {
+    "id": "category:hose-reels",
+    "kind": "category",
+    "locale": "ar",
+    "path": "ar/products/hose-reels/index.html",
+    "testWidth": 1280,
+    "badImages": [],
+    "drafts": [
+      "https://wa.me/8617326528368?text=%D9%85%D8%B1%D8%AD%D8%A8%D8%A7%D9%8B%D8%8C%20%D8%A3%D9%88%D8%AF%20%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1%20%D8%B9%D9%86%20%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%D8%A7%D8%AA%20%D8%A7%D9%84%D8%AA%D8%A7%D9%84%D9%8A%D8%A9.%0A%0A%D8%A7%D9%84%D8%A7%D8%B3%D9%85%20%2F%20%D8%A7%D9%84%D8%B4%D8%B1%D9%83%D8%A9%3A%0A%D9%81%D8%A6%D8%A9%20%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%3A%20%D8%A8%D9%83%D8%B1%D8%A7%D8%AA%20%D8%AE%D8%B1%D8%A7%D8%B7%D9%8A%D9%85%20%D8%A7%D9%84%D8%AD%D8%B1%D9%8A%D9%82%0A%D8%A7%D9%84%D8%B5%D9%81%D8%AD%D8%A9%3A%20https%3A%2F%2Fchuanweifire.com%2Far%2Fproducts%2Fhose-reels%2F%0A%0A%D8%A7%D9%84%D9%85%D9%88%D8%AF%D9%8A%D9%84%20%2F%20%D8%A7%D9%84%D9%85%D9%82%D8%A7%D8%B3%20%2F%20%D8%A7%D9%84%D8%AA%D9%88%D8%B5%D9%8A%D9%84%20%2F%20%D8%A7%D9%84%D9%83%D9%85%D9%8A%D8%A9%20%2F%20%D8%A7%D9%84%D9%88%D8%AC%D9%87%D8%A9%20(%D8%B9%D9%86%D8%AF%20%D8%AA%D9%88%D9%81%D8%B1%D9%87%D8%A7)%3A",
+      "mailto:zhengcolin1@gmail.com?subject=%D8%A7%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1%20%D8%B9%D9%86%20%D8%A8%D9%83%D8%B1%D8%A7%D8%AA%20%D8%AE%D8%B1%D8%A7%D8%B7%D9%8A%D9%85%20%D8%A7%D9%84%D8%AD%D8%B1%D9%8A%D9%82&body=%D9%85%D8%B1%D8%AD%D8%A8%D8%A7%D9%8B%D8%8C%20%D8%A3%D9%88%D8%AF%20%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1%20%D8%B9%D9%86%20%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%D8%A7%D8%AA%20%D8%A7%D9%84%D8%AA%D8%A7%D9%84%D9%8A%D8%A9.%0A%0A%D8%A7%D9%84%D8%A7%D8%B3%D9%85%20%2F%20%D8%A7%D9%84%D8%B4%D8%B1%D9%83%D8%A9%3A%0A%D9%81%D8%A6%D8%A9%20%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%3A%20%D8%A8%D9%83%D8%B1%D8%A7%D8%AA%20%D8%AE%D8%B1%D8%A7%D8%B7%D9%8A%D9%85%20%D8%A7%D9%84%D8%AD%D8%B1%D9%8A%D9%82%0A%D8%A7%D9%84%D8%B5%D9%81%D8%AD%D8%A9%3A%20https%3A%2F%2Fchuanweifire.com%2Far%2Fproducts%2Fhose-reels%2F%0A%0A%D8%A7%D9%84%D9%85%D9%88%D8%AF%D9%8A%D9%84%20%2F%20%D8%A7%D9%84%D9%85%D9%82%D8%A7%D8%B3%20%2F%20%D8%A7%D9%84%D8%AA%D9%88%D8%B5%D9%8A%D9%84%20%2F%20%D8%A7%D9%84%D9%83%D9%85%D9%8A%D8%A9%20%2F%20%D8%A7%D9%84%D9%88%D8%AC%D9%87%D8%A9%20(%D8%B9%D9%86%D8%AF%20%D8%AA%D9%88%D9%81%D8%B1%D9%87%D8%A7)%3A",
+      "../../contact.html"
+    ],
+    "h1": "بكرات خراطيم الحريق",
+    "listingCss": "../../../css/catalog-pages.css?v=5adeda95b229",
+    "overflowButtons": [],
+    "viewport": 1280,
+    "width": 1265
+  },
+  {
+    "id": "category:hoses-nozzles-couplings",
+    "kind": "category",
+    "locale": "en",
+    "path": "products/消防水枪.html",
+    "testWidth": 1280,
+    "badImages": [],
+    "drafts": [
+      "https://wa.me/8617326528368?text=Hello%2C%20I%20would%20like%20to%20inquire%20about%20these%20products.%0A%0AName%20%2F%20company%3A%0AProduct%20category%3A%20Fire%20Hose%20Nozzles%2C%20Couplings%20%26%20Adapters%0APage%3A%20https%3A%2F%2Fchuanweifire.com%2Fproducts%2F%25E6%25B6%2588%25E9%2598%25B2%25E6%25B0%25B4%25E6%259E%25AA.html%0A%0AModel%20%2F%20size%20%2F%20connection%20%2F%20quantity%20%2F%20destination%20(when%20available)%3A",
+      "mailto:zhengcolin1@gmail.com?subject=Product%20inquiry%3A%20Fire%20Hose%20Nozzles%2C%20Couplings%20%26%20Adapters&body=Hello%2C%20I%20would%20like%20to%20inquire%20about%20these%20products.%0A%0AName%20%2F%20company%3A%0AProduct%20category%3A%20Fire%20Hose%20Nozzles%2C%20Couplings%20%26%20Adapters%0APage%3A%20https%3A%2F%2Fchuanweifire.com%2Fproducts%2F%25E6%25B6%2588%25E9%2598%25B2%25E6%25B0%25B4%25E6%259E%25AA.html%0A%0AModel%20%2F%20size%20%2F%20connection%20%2F%20quantity%20%2F%20destination%20(when%20available)%3A",
+      "../contact.html"
+    ],
+    "h1": "Fire Hose Nozzles, Couplings & Adapters",
+    "listingCss": "../css/catalog-pages.css?v=5adeda95b229",
+    "overflowButtons": [],
+    "viewport": 1280,
+    "width": 1265
+  },
+  {
+    "id": "category:hoses-nozzles-couplings",
+    "kind": "category",
+    "locale": "ar",
+    "path": "ar/products/hoses-nozzles-couplings/index.html",
+    "testWidth": 1280,
+    "badImages": [],
+    "drafts": [
+      "https://wa.me/8617326528368?text=%D9%85%D8%B1%D8%AD%D8%A8%D8%A7%D9%8B%D8%8C%20%D8%A3%D9%88%D8%AF%20%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1%20%D8%B9%D9%86%20%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%D8%A7%D8%AA%20%D8%A7%D9%84%D8%AA%D8%A7%D9%84%D9%8A%D8%A9.%0A%0A%D8%A7%D9%84%D8%A7%D8%B3%D9%85%20%2F%20%D8%A7%D9%84%D8%B4%D8%B1%D9%83%D8%A9%3A%0A%D9%81%D8%A6%D8%A9%20%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%3A%20%D9%81%D9%88%D9%87%D8%A7%D8%AA%20%D8%AE%D8%B1%D8%A7%D8%B7%D9%8A%D9%85%20%D8%A7%D9%84%D8%AD%D8%B1%D9%8A%D9%82%20%D9%88%D8%A7%D9%84%D9%88%D8%B5%D9%84%D8%A7%D8%AA%20%D9%88%D8%A7%D9%84%D9%85%D9%87%D8%A7%D9%8A%D8%A6%D8%A7%D8%AA%0A%D8%A7%D9%84%D8%B5%D9%81%D8%AD%D8%A9%3A%20https%3A%2F%2Fchuanweifire.com%2Far%2Fproducts%2Fhoses-nozzles-couplings%2F%0A%0A%D8%A7%D9%84%D9%85%D9%88%D8%AF%D9%8A%D9%84%20%2F%20%D8%A7%D9%84%D9%85%D9%82%D8%A7%D8%B3%20%2F%20%D8%A7%D9%84%D8%AA%D9%88%D8%B5%D9%8A%D9%84%20%2F%20%D8%A7%D9%84%D9%83%D9%85%D9%8A%D8%A9%20%2F%20%D8%A7%D9%84%D9%88%D8%AC%D9%87%D8%A9%20(%D8%B9%D9%86%D8%AF%20%D8%AA%D9%88%D9%81%D8%B1%D9%87%D8%A7)%3A",
+      "mailto:zhengcolin1@gmail.com?subject=%D8%A7%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1%20%D8%B9%D9%86%20%D9%81%D9%88%D9%87%D8%A7%D8%AA%20%D8%AE%D8%B1%D8%A7%D8%B7%D9%8A%D9%85%20%D8%A7%D9%84%D8%AD%D8%B1%D9%8A%D9%82%20%D9%88%D8%A7%D9%84%D9%88%D8%B5%D9%84%D8%A7%D8%AA%20%D9%88%D8%A7%D9%84%D9%85%D9%87%D8%A7%D9%8A%D8%A6%D8%A7%D8%AA&body=%D9%85%D8%B1%D8%AD%D8%A8%D8%A7%D9%8B%D8%8C%20%D8%A3%D9%88%D8%AF%20%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1%20%D8%B9%D9%86%20%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%D8%A7%D8%AA%20%D8%A7%D9%84%D8%AA%D8%A7%D9%84%D9%8A%D8%A9.%0A%0A%D8%A7%D9%84%D8%A7%D8%B3%D9%85%20%2F%20%D8%A7%D9%84%D8%B4%D8%B1%D9%83%D8%A9%3A%0A%D9%81%D8%A6%D8%A9%20%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%3A%20%D9%81%D9%88%D9%87%D8%A7%D8%AA%20%D8%AE%D8%B1%D8%A7%D8%B7%D9%8A%D9%85%20%D8%A7%D9%84%D8%AD%D8%B1%D9%8A%D9%82%20%D9%88%D8%A7%D9%84%D9%88%D8%B5%D9%84%D8%A7%D8%AA%20%D9%88%D8%A7%D9%84%D9%85%D9%87%D8%A7%D9%8A%D8%A6%D8%A7%D8%AA%0A%D8%A7%D9%84%D8%B5%D9%81%D8%AD%D8%A9%3A%20https%3A%2F%2Fchuanweifire.com%2Far%2Fproducts%2Fhoses-nozzles-couplings%2F%0A%0A%D8%A7%D9%84%D9%85%D9%88%D8%AF%D9%8A%D9%84%20%2F%20%D8%A7%D9%84%D9%85%D9%82%D8%A7%D8%B3%20%2F%20%D8%A7%D9%84%D8%AA%D9%88%D8%B5%D9%8A%D9%84%20%2F%20%D8%A7%D9%84%D9%83%D9%85%D9%8A%D8%A9%20%2F%20%D8%A7%D9%84%D9%88%D8%AC%D9%87%D8%A9%20(%D8%B9%D9%86%D8%AF%20%D8%AA%D9%88%D9%81%D8%B1%D9%87%D8%A7)%3A",
+      "../../contact.html"
+    ],
+    "h1": "فوهات خراطيم الحريق والوصلات والمهايئات",
+    "listingCss": "../../../css/catalog-pages.css?v=5adeda95b229",
+    "overflowButtons": [],
+    "viewport": 1280,
+    "width": 1265
+  },
+  {
+    "id": "category:indoor-hydrants",
+    "kind": "category",
+    "locale": "en",
+    "path": "products/室内消防栓/室内消防栓.html",
+    "testWidth": 1280,
+    "badImages": [],
+    "drafts": [
+      "https://wa.me/8617326528368?text=Hello%2C%20I%20would%20like%20to%20inquire%20about%20these%20products.%0A%0AName%20%2F%20company%3A%0AProduct%20category%3A%20Indoor%20Fire%20Hydrants%0APage%3A%20https%3A%2F%2Fchuanweifire.com%2Fproducts%2F%25E5%25AE%25A4%25E5%2586%2585%25E6%25B6%2588%25E9%2598%25B2%25E6%25A0%2593%2F%25E5%25AE%25A4%25E5%2586%2585%25E6%25B6%2588%25E9%2598%25B2%25E6%25A0%2593.html%0A%0AModel%20%2F%20size%20%2F%20connection%20%2F%20quantity%20%2F%20destination%20(when%20available)%3A",
+      "mailto:zhengcolin1@gmail.com?subject=Product%20inquiry%3A%20Indoor%20Fire%20Hydrants&body=Hello%2C%20I%20would%20like%20to%20inquire%20about%20these%20products.%0A%0AName%20%2F%20company%3A%0AProduct%20category%3A%20Indoor%20Fire%20Hydrants%0APage%3A%20https%3A%2F%2Fchuanweifire.com%2Fproducts%2F%25E5%25AE%25A4%25E5%2586%2585%25E6%25B6%2588%25E9%2598%25B2%25E6%25A0%2593%2F%25E5%25AE%25A4%25E5%2586%2585%25E6%25B6%2588%25E9%2598%25B2%25E6%25A0%2593.html%0A%0AModel%20%2F%20size%20%2F%20connection%20%2F%20quantity%20%2F%20destination%20(when%20available)%3A",
+      "../../contact.html"
+    ],
+    "h1": "Indoor Fire Hydrants",
+    "listingCss": "../../css/catalog-pages.css?v=5adeda95b229",
+    "overflowButtons": [],
+    "viewport": 1280,
+    "width": 1265
+  },
+  {
+    "id": "category:indoor-hydrants",
+    "kind": "category",
+    "locale": "ar",
+    "path": "ar/products/indoor-hydrants/index.html",
+    "testWidth": 1280,
+    "badImages": [],
+    "drafts": [
+      "https://wa.me/8617326528368?text=%D9%85%D8%B1%D8%AD%D8%A8%D8%A7%D9%8B%D8%8C%20%D8%A3%D9%88%D8%AF%20%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1%20%D8%B9%D9%86%20%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%D8%A7%D8%AA%20%D8%A7%D9%84%D8%AA%D8%A7%D9%84%D9%8A%D8%A9.%0A%0A%D8%A7%D9%84%D8%A7%D8%B3%D9%85%20%2F%20%D8%A7%D9%84%D8%B4%D8%B1%D9%83%D8%A9%3A%0A%D9%81%D8%A6%D8%A9%20%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%3A%20%D9%85%D8%AD%D8%A7%D8%A8%D8%B3%20%D8%A7%D9%84%D8%AD%D8%B1%D9%8A%D9%82%20%D8%A7%D9%84%D8%AF%D8%A7%D8%AE%D9%84%D9%8A%D8%A9%0A%D8%A7%D9%84%D8%B5%D9%81%D8%AD%D8%A9%3A%20https%3A%2F%2Fchuanweifire.com%2Far%2Fproducts%2Findoor-hydrants%2F%0A%0A%D8%A7%D9%84%D9%85%D9%88%D8%AF%D9%8A%D9%84%20%2F%20%D8%A7%D9%84%D9%85%D9%82%D8%A7%D8%B3%20%2F%20%D8%A7%D9%84%D8%AA%D9%88%D8%B5%D9%8A%D9%84%20%2F%20%D8%A7%D9%84%D9%83%D9%85%D9%8A%D8%A9%20%2F%20%D8%A7%D9%84%D9%88%D8%AC%D9%87%D8%A9%20(%D8%B9%D9%86%D8%AF%20%D8%AA%D9%88%D9%81%D8%B1%D9%87%D8%A7)%3A",
+      "mailto:zhengcolin1@gmail.com?subject=%D8%A7%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1%20%D8%B9%D9%86%20%D9%85%D8%AD%D8%A7%D8%A8%D8%B3%20%D8%A7%D9%84%D8%AD%D8%B1%D9%8A%D9%82%20%D8%A7%D9%84%D8%AF%D8%A7%D8%AE%D9%84%D9%8A%D8%A9&body=%D9%85%D8%B1%D8%AD%D8%A8%D8%A7%D9%8B%D8%8C%20%D8%A3%D9%88%D8%AF%20%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1%20%D8%B9%D9%86%20%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%D8%A7%D8%AA%20%D8%A7%D9%84%D8%AA%D8%A7%D9%84%D9%8A%D8%A9.%0A%0A%D8%A7%D9%84%D8%A7%D8%B3%D9%85%20%2F%20%D8%A7%D9%84%D8%B4%D8%B1%D9%83%D8%A9%3A%0A%D9%81%D8%A6%D8%A9%20%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%3A%20%D9%85%D8%AD%D8%A7%D8%A8%D8%B3%20%D8%A7%D9%84%D8%AD%D8%B1%D9%8A%D9%82%20%D8%A7%D9%84%D8%AF%D8%A7%D8%AE%D9%84%D9%8A%D8%A9%0A%D8%A7%D9%84%D8%B5%D9%81%D8%AD%D8%A9%3A%20https%3A%2F%2Fchuanweifire.com%2Far%2Fproducts%2Findoor-hydrants%2F%0A%0A%D8%A7%D9%84%D9%85%D9%88%D8%AF%D9%8A%D9%84%20%2F%20%D8%A7%D9%84%D9%85%D9%82%D8%A7%D8%B3%20%2F%20%D8%A7%D9%84%D8%AA%D9%88%D8%B5%D9%8A%D9%84%20%2F%20%D8%A7%D9%84%D9%83%D9%85%D9%8A%D8%A9%20%2F%20%D8%A7%D9%84%D9%88%D8%AC%D9%87%D8%A9%20(%D8%B9%D9%86%D8%AF%20%D8%AA%D9%88%D9%81%D8%B1%D9%87%D8%A7)%3A",
+      "../../contact.html"
+    ],
+    "h1": "محابس الحريق الداخلية",
+    "listingCss": "../../../css/catalog-pages.css?v=5adeda95b229",
+    "overflowButtons": [],
+    "viewport": 1280,
+    "width": 1265
+  },
+  {
+    "id": "category:outdoor-hydrants",
+    "kind": "category",
+    "locale": "en",
+    "path": "products/室外消防栓/室外消防栓.html",
+    "testWidth": 1280,
+    "badImages": [],
+    "drafts": [
+      "https://wa.me/8617326528368?text=Hello%2C%20I%20would%20like%20to%20inquire%20about%20these%20products.%0A%0AName%20%2F%20company%3A%0AProduct%20category%3A%20Outdoor%20Fire%20Hydrants%0APage%3A%20https%3A%2F%2Fchuanweifire.com%2Fproducts%2F%25E5%25AE%25A4%25E5%25A4%2596%25E6%25B6%2588%25E9%2598%25B2%25E6%25A0%2593%2F%25E5%25AE%25A4%25E5%25A4%2596%25E6%25B6%2588%25E9%2598%25B2%25E6%25A0%2593.html%0A%0AModel%20%2F%20size%20%2F%20connection%20%2F%20quantity%20%2F%20destination%20(when%20available)%3A",
+      "mailto:zhengcolin1@gmail.com?subject=Product%20inquiry%3A%20Outdoor%20Fire%20Hydrants&body=Hello%2C%20I%20would%20like%20to%20inquire%20about%20these%20products.%0A%0AName%20%2F%20company%3A%0AProduct%20category%3A%20Outdoor%20Fire%20Hydrants%0APage%3A%20https%3A%2F%2Fchuanweifire.com%2Fproducts%2F%25E5%25AE%25A4%25E5%25A4%2596%25E6%25B6%2588%25E9%2598%25B2%25E6%25A0%2593%2F%25E5%25AE%25A4%25E5%25A4%2596%25E6%25B6%2588%25E9%2598%25B2%25E6%25A0%2593.html%0A%0AModel%20%2F%20size%20%2F%20connection%20%2F%20quantity%20%2F%20destination%20(when%20available)%3A",
+      "../../contact.html"
+    ],
+    "h1": "Outdoor Fire Hydrants",
+    "listingCss": "../../css/catalog-pages.css?v=5adeda95b229",
+    "overflowButtons": [],
+    "viewport": 1280,
+    "width": 1265
+  },
+  {
+    "id": "category:outdoor-hydrants",
+    "kind": "category",
+    "locale": "ar",
+    "path": "ar/products/outdoor-hydrants/index.html",
+    "testWidth": 1280,
+    "badImages": [],
+    "drafts": [
+      "https://wa.me/8617326528368?text=%D9%85%D8%B1%D8%AD%D8%A8%D8%A7%D9%8B%D8%8C%20%D8%A3%D9%88%D8%AF%20%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1%20%D8%B9%D9%86%20%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%D8%A7%D8%AA%20%D8%A7%D9%84%D8%AA%D8%A7%D9%84%D9%8A%D8%A9.%0A%0A%D8%A7%D9%84%D8%A7%D8%B3%D9%85%20%2F%20%D8%A7%D9%84%D8%B4%D8%B1%D9%83%D8%A9%3A%0A%D9%81%D8%A6%D8%A9%20%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%3A%20%D8%B5%D9%86%D8%A7%D8%A8%D9%8A%D8%B1%20%D8%A7%D9%84%D8%AD%D8%B1%D9%8A%D9%82%20%D8%A7%D9%84%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A9%0A%D8%A7%D9%84%D8%B5%D9%81%D8%AD%D8%A9%3A%20https%3A%2F%2Fchuanweifire.com%2Far%2Fproducts%2Foutdoor-hydrants%2F%0A%0A%D8%A7%D9%84%D9%85%D9%88%D8%AF%D9%8A%D9%84%20%2F%20%D8%A7%D9%84%D9%85%D9%82%D8%A7%D8%B3%20%2F%20%D8%A7%D9%84%D8%AA%D9%88%D8%B5%D9%8A%D9%84%20%2F%20%D8%A7%D9%84%D9%83%D9%85%D9%8A%D8%A9%20%2F%20%D8%A7%D9%84%D9%88%D8%AC%D9%87%D8%A9%20(%D8%B9%D9%86%D8%AF%20%D8%AA%D9%88%D9%81%D8%B1%D9%87%D8%A7)%3A",
+      "mailto:zhengcolin1@gmail.com?subject=%D8%A7%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1%20%D8%B9%D9%86%20%D8%B5%D9%86%D8%A7%D8%A8%D9%8A%D8%B1%20%D8%A7%D9%84%D8%AD%D8%B1%D9%8A%D9%82%20%D8%A7%D9%84%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A9&body=%D9%85%D8%B1%D8%AD%D8%A8%D8%A7%D9%8B%D8%8C%20%D8%A3%D9%88%D8%AF%20%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1%20%D8%B9%D9%86%20%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%D8%A7%D8%AA%20%D8%A7%D9%84%D8%AA%D8%A7%D9%84%D9%8A%D8%A9.%0A%0A%D8%A7%D9%84%D8%A7%D8%B3%D9%85%20%2F%20%D8%A7%D9%84%D8%B4%D8%B1%D9%83%D8%A9%3A%0A%D9%81%D8%A6%D8%A9%20%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%3A%20%D8%B5%D9%86%D8%A7%D8%A8%D9%8A%D8%B1%20%D8%A7%D9%84%D8%AD%D8%B1%D9%8A%D9%82%20%D8%A7%D9%84%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A9%0A%D8%A7%D9%84%D8%B5%D9%81%D8%AD%D8%A9%3A%20https%3A%2F%2Fchuanweifire.com%2Far%2Fproducts%2Foutdoor-hydrants%2F%0A%0A%D8%A7%D9%84%D9%85%D9%88%D8%AF%D9%8A%D9%84%20%2F%20%D8%A7%D9%84%D9%85%D9%82%D8%A7%D8%B3%20%2F%20%D8%A7%D9%84%D8%AA%D9%88%D8%B5%D9%8A%D9%84%20%2F%20%D8%A7%D9%84%D9%83%D9%85%D9%8A%D8%A9%20%2F%20%D8%A7%D9%84%D9%88%D8%AC%D9%87%D8%A9%20(%D8%B9%D9%86%D8%AF%20%D8%AA%D9%88%D9%81%D8%B1%D9%87%D8%A7)%3A",
+      "../../contact.html"
+    ],
+    "h1": "صنابير الحريق الخارجية",
+    "listingCss": "../../../css/catalog-pages.css?v=5adeda95b229",
+    "overflowButtons": [],
+    "viewport": 1280,
+    "width": 1265
+  },
+  {
+    "id": "category:fire-department-connections",
+    "kind": "category",
+    "locale": "en",
+    "path": "products/消防水泵接合器.html",
+    "testWidth": 1280,
+    "badImages": [],
+    "drafts": [
+      "https://wa.me/8617326528368?text=Hello%2C%20I%20would%20like%20to%20inquire%20about%20these%20products.%0A%0AName%20%2F%20company%3A%0AProduct%20category%3A%20Fire%20Department%20Connections%0APage%3A%20https%3A%2F%2Fchuanweifire.com%2Fproducts%2F%25E6%25B6%2588%25E9%2598%25B2%25E6%25B0%25B4%25E6%25B3%25B5%25E6%258E%25A5%25E5%2590%2588%25E5%2599%25A8.html%0A%0AModel%20%2F%20size%20%2F%20connection%20%2F%20quantity%20%2F%20destination%20(when%20available)%3A",
+      "mailto:zhengcolin1@gmail.com?subject=Product%20inquiry%3A%20Fire%20Department%20Connections&body=Hello%2C%20I%20would%20like%20to%20inquire%20about%20these%20products.%0A%0AName%20%2F%20company%3A%0AProduct%20category%3A%20Fire%20Department%20Connections%0APage%3A%20https%3A%2F%2Fchuanweifire.com%2Fproducts%2F%25E6%25B6%2588%25E9%2598%25B2%25E6%25B0%25B4%25E6%25B3%25B5%25E6%258E%25A5%25E5%2590%2588%25E5%2599%25A8.html%0A%0AModel%20%2F%20size%20%2F%20connection%20%2F%20quantity%20%2F%20destination%20(when%20available)%3A",
+      "../contact.html"
+    ],
+    "h1": "Fire Department Connections",
+    "listingCss": "../css/catalog-pages.css?v=5adeda95b229",
+    "overflowButtons": [],
+    "viewport": 1280,
+    "width": 1265
+  },
+  {
+    "id": "category:fire-department-connections",
+    "kind": "category",
+    "locale": "ar",
+    "path": "ar/products/fire-department-connections/index.html",
+    "testWidth": 1280,
+    "badImages": [],
+    "drafts": [
+      "https://wa.me/8617326528368?text=%D9%85%D8%B1%D8%AD%D8%A8%D8%A7%D9%8B%D8%8C%20%D8%A3%D9%88%D8%AF%20%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1%20%D8%B9%D9%86%20%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%D8%A7%D8%AA%20%D8%A7%D9%84%D8%AA%D8%A7%D9%84%D9%8A%D8%A9.%0A%0A%D8%A7%D9%84%D8%A7%D8%B3%D9%85%20%2F%20%D8%A7%D9%84%D8%B4%D8%B1%D9%83%D8%A9%3A%0A%D9%81%D8%A6%D8%A9%20%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%3A%20%D9%88%D8%B5%D9%84%D8%A7%D8%AA%20%D8%AA%D8%B2%D9%88%D9%8A%D8%AF%20%D8%A3%D9%86%D8%B8%D9%85%D8%A9%20%D8%A7%D9%84%D8%AD%D8%B1%D9%8A%D9%82%20%D8%A8%D8%A7%D9%84%D9%85%D9%8A%D8%A7%D9%87%0A%D8%A7%D9%84%D8%B5%D9%81%D8%AD%D8%A9%3A%20https%3A%2F%2Fchuanweifire.com%2Far%2Fproducts%2Ffire-department-connections%2F%0A%0A%D8%A7%D9%84%D9%85%D9%88%D8%AF%D9%8A%D9%84%20%2F%20%D8%A7%D9%84%D9%85%D9%82%D8%A7%D8%B3%20%2F%20%D8%A7%D9%84%D8%AA%D9%88%D8%B5%D9%8A%D9%84%20%2F%20%D8%A7%D9%84%D9%83%D9%85%D9%8A%D8%A9%20%2F%20%D8%A7%D9%84%D9%88%D8%AC%D9%87%D8%A9%20(%D8%B9%D9%86%D8%AF%20%D8%AA%D9%88%D9%81%D8%B1%D9%87%D8%A7)%3A",
+      "mailto:zhengcolin1@gmail.com?subject=%D8%A7%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1%20%D8%B9%D9%86%20%D9%88%D8%B5%D9%84%D8%A7%D8%AA%20%D8%AA%D8%B2%D9%88%D9%8A%D8%AF%20%D8%A3%D9%86%D8%B8%D9%85%D8%A9%20%D8%A7%D9%84%D8%AD%D8%B1%D9%8A%D9%82%20%D8%A8%D8%A7%D9%84%D9%85%D9%8A%D8%A7%D9%87&body=%D9%85%D8%B1%D8%AD%D8%A8%D8%A7%D9%8B%D8%8C%20%D8%A3%D9%88%D8%AF%20%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1%20%D8%B9%D9%86%20%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%D8%A7%D8%AA%20%D8%A7%D9%84%D8%AA%D8%A7%D9%84%D9%8A%D8%A9.%0A%0A%D8%A7%D9%84%D8%A7%D8%B3%D9%85%20%2F%20%D8%A7%D9%84%D8%B4%D8%B1%D9%83%D8%A9%3A%0A%D9%81%D8%A6%D8%A9%20%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%3A%20%D9%88%D8%B5%D9%84%D8%A7%D8%AA%20%D8%AA%D8%B2%D9%88%D9%8A%D8%AF%20%D8%A3%D9%86%D8%B8%D9%85%D8%A9%20%D8%A7%D9%84%D8%AD%D8%B1%D9%8A%D9%82%20%D8%A8%D8%A7%D9%84%D9%85%D9%8A%D8%A7%D9%87%0A%D8%A7%D9%84%D8%B5%D9%81%D8%AD%D8%A9%3A%20https%3A%2F%2Fchuanweifire.com%2Far%2Fproducts%2Ffire-department-connections%2F%0A%0A%D8%A7%D9%84%D9%85%D9%88%D8%AF%D9%8A%D9%84%20%2F%20%D8%A7%D9%84%D9%85%D9%82%D8%A7%D8%B3%20%2F%20%D8%A7%D9%84%D8%AA%D9%88%D8%B5%D9%8A%D9%84%20%2F%20%D8%A7%D9%84%D9%83%D9%85%D9%8A%D8%A9%20%2F%20%D8%A7%D9%84%D9%88%D8%AC%D9%87%D8%A9%20(%D8%B9%D9%86%D8%AF%20%D8%AA%D9%88%D9%81%D8%B1%D9%87%D8%A7)%3A",
+      "../../contact.html"
+    ],
+    "h1": "وصلات تزويد أنظمة الحريق بالمياه",
+    "listingCss": "../../../css/catalog-pages.css?v=5adeda95b229",
+    "overflowButtons": [],
+    "viewport": 1280,
+    "width": 1265
+  },
+  {
+    "id": "category:fire-equipment-cabinets",
+    "kind": "category",
+    "locale": "en",
+    "path": "products/消防器材箱.html",
+    "testWidth": 1280,
+    "badImages": [],
+    "drafts": [
+      "https://wa.me/8617326528368?text=Hello%2C%20I%20would%20like%20to%20inquire%20about%20these%20products.%0A%0AName%20%2F%20company%3A%0AProduct%20category%3A%20Fire%20Equipment%20Cabinets%0APage%3A%20https%3A%2F%2Fchuanweifire.com%2Fproducts%2F%25E6%25B6%2588%25E9%2598%25B2%25E5%2599%25A8%25E6%259D%2590%25E7%25AE%25B1.html%0A%0AModel%20%2F%20size%20%2F%20connection%20%2F%20quantity%20%2F%20destination%20(when%20available)%3A",
+      "mailto:zhengcolin1@gmail.com?subject=Product%20inquiry%3A%20Fire%20Equipment%20Cabinets&body=Hello%2C%20I%20would%20like%20to%20inquire%20about%20these%20products.%0A%0AName%20%2F%20company%3A%0AProduct%20category%3A%20Fire%20Equipment%20Cabinets%0APage%3A%20https%3A%2F%2Fchuanweifire.com%2Fproducts%2F%25E6%25B6%2588%25E9%2598%25B2%25E5%2599%25A8%25E6%259D%2590%25E7%25AE%25B1.html%0A%0AModel%20%2F%20size%20%2F%20connection%20%2F%20quantity%20%2F%20destination%20(when%20available)%3A",
+      "../contact.html"
+    ],
+    "h1": "Fire Equipment Cabinets",
+    "listingCss": "../css/catalog-pages.css?v=5adeda95b229",
+    "overflowButtons": [],
+    "viewport": 1280,
+    "width": 1265
+  },
+  {
+    "id": "category:fire-equipment-cabinets",
+    "kind": "category",
+    "locale": "ar",
+    "path": "ar/products/fire-equipment-cabinets/index.html",
+    "testWidth": 1280,
+    "badImages": [],
+    "drafts": [
+      "https://wa.me/8617326528368?text=%D9%85%D8%B1%D8%AD%D8%A8%D8%A7%D9%8B%D8%8C%20%D8%A3%D9%88%D8%AF%20%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1%20%D8%B9%D9%86%20%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%D8%A7%D8%AA%20%D8%A7%D9%84%D8%AA%D8%A7%D9%84%D9%8A%D8%A9.%0A%0A%D8%A7%D9%84%D8%A7%D8%B3%D9%85%20%2F%20%D8%A7%D9%84%D8%B4%D8%B1%D9%83%D8%A9%3A%0A%D9%81%D8%A6%D8%A9%20%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%3A%20%D8%AE%D8%B2%D8%A7%D8%A6%D9%86%20%D9%85%D8%B9%D8%AF%D8%A7%D8%AA%20%D9%85%D9%83%D8%A7%D9%81%D8%AD%D8%A9%20%D8%A7%D9%84%D8%AD%D8%B1%D9%8A%D9%82%0A%D8%A7%D9%84%D8%B5%D9%81%D8%AD%D8%A9%3A%20https%3A%2F%2Fchuanweifire.com%2Far%2Fproducts%2Ffire-equipment-cabinets%2F%0A%0A%D8%A7%D9%84%D9%85%D9%88%D8%AF%D9%8A%D9%84%20%2F%20%D8%A7%D9%84%D9%85%D9%82%D8%A7%D8%B3%20%2F%20%D8%A7%D9%84%D8%AA%D9%88%D8%B5%D9%8A%D9%84%20%2F%20%D8%A7%D9%84%D9%83%D9%85%D9%8A%D8%A9%20%2F%20%D8%A7%D9%84%D9%88%D8%AC%D9%87%D8%A9%20(%D8%B9%D9%86%D8%AF%20%D8%AA%D9%88%D9%81%D8%B1%D9%87%D8%A7)%3A",
+      "mailto:zhengcolin1@gmail.com?subject=%D8%A7%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1%20%D8%B9%D9%86%20%D8%AE%D8%B2%D8%A7%D8%A6%D9%86%20%D9%85%D8%B9%D8%AF%D8%A7%D8%AA%20%D9%85%D9%83%D8%A7%D9%81%D8%AD%D8%A9%20%D8%A7%D9%84%D8%AD%D8%B1%D9%8A%D9%82&body=%D9%85%D8%B1%D8%AD%D8%A8%D8%A7%D9%8B%D8%8C%20%D8%A3%D9%88%D8%AF%20%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1%20%D8%B9%D9%86%20%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%D8%A7%D8%AA%20%D8%A7%D9%84%D8%AA%D8%A7%D9%84%D9%8A%D8%A9.%0A%0A%D8%A7%D9%84%D8%A7%D8%B3%D9%85%20%2F%20%D8%A7%D9%84%D8%B4%D8%B1%D9%83%D8%A9%3A%0A%D9%81%D8%A6%D8%A9%20%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%3A%20%D8%AE%D8%B2%D8%A7%D8%A6%D9%86%20%D9%85%D8%B9%D8%AF%D8%A7%D8%AA%20%D9%85%D9%83%D8%A7%D9%81%D8%AD%D8%A9%20%D8%A7%D9%84%D8%AD%D8%B1%D9%8A%D9%82%0A%D8%A7%D9%84%D8%B5%D9%81%D8%AD%D8%A9%3A%20https%3A%2F%2Fchuanweifire.com%2Far%2Fproducts%2Ffire-equipment-cabinets%2F%0A%0A%D8%A7%D9%84%D9%85%D9%88%D8%AF%D9%8A%D9%84%20%2F%20%D8%A7%D9%84%D9%85%D9%82%D8%A7%D8%B3%20%2F%20%D8%A7%D9%84%D8%AA%D9%88%D8%B5%D9%8A%D9%84%20%2F%20%D8%A7%D9%84%D9%83%D9%85%D9%8A%D8%A9%20%2F%20%D8%A7%D9%84%D9%88%D8%AC%D9%87%D8%A9%20(%D8%B9%D9%86%D8%AF%20%D8%AA%D9%88%D9%81%D8%B1%D9%87%D8%A7)%3A",
+      "../../contact.html"
+    ],
+    "h1": "خزائن معدات مكافحة الحريق",
+    "listingCss": "../../../css/catalog-pages.css?v=5adeda95b229",
+    "overflowButtons": [],
+    "viewport": 1280,
+    "width": 1265
+  },
+  {
+    "id": "product:water-curtain-nozzles",
+    "kind": "product",
+    "locale": "en",
+    "path": "products/消防喷头/water-curtain-nozzles.html",
+    "testWidth": 1280,
+    "badImages": [],
+    "drafts": [
+      "https://wa.me/8617326528368?text=Hello%2C%20I%20need%20a%20quotation%20for%20Water%20Curtain%20Nozzles.%20Type%3A%20%5Bpendent%2Fhorizontal%5D%2C%20size%3A%20%5BDN%2Finch%5D%2C%20slot%3A%20%5Bsingle%2Fdouble%5D%2C%20thread%3A%20%5Brequirement%5D%2C%20hydraulic%20requirement%3A%20%5Bdetails%5D%2C%20quantity%3A%20%5Bpcs%5D%2C%20destination%3A%20%5Bcountry%5D.",
+      "mailto:zhengcolin1@gmail.com?subject=Product%20inquiry%3A%20Water%20Curtain%20Nozzles&body=Hello%2C%20I%20would%20like%20to%20discuss%20a%20fire-protection%20product%20requirement.%0A%0AProduct%3A%20Water%20Curtain%20Nozzles%0AProduct%20page%3A%20https%3A%2F%2Fchuanweifire.com%2Fproducts%2F%25E6%25B6%2588%25E9%2598%25B2%25E5%2596%25B7%25E5%25A4%25B4%2Fwater-curtain-nozzles.html%0A%0ARequirements%3A"
+    ],
+    "h1": "Water Curtain Nozzles",
+    "overflowButtons": [],
+    "viewport": 1280,
+    "width": 1265
+  },
+  {
+    "id": "product:water-curtain-nozzles",
+    "kind": "product",
+    "locale": "ar",
+    "path": "ar/products/water-curtain-nozzles/index.html",
+    "testWidth": 1280,
+    "badImages": [],
+    "drafts": [
+      "https://wa.me/8617326528368?text=%D9%85%D8%B1%D8%AD%D8%A8%D8%A7%D9%8B%D8%8C%20%D8%A3%D8%AD%D8%AA%D8%A7%D8%AC%20%D8%A5%D9%84%D9%89%20%D8%B9%D8%B1%D8%B6%20%D8%B3%D8%B9%D8%B1%20%D9%84%D9%81%D9%88%D9%87%D8%A7%D8%AA%20%D8%B3%D8%AA%D8%A7%D8%B1%D8%A9%20%D9%85%D8%A7%D8%A6%D9%8A%D8%A9.%20%D8%A7%D9%84%D9%86%D9%88%D8%B9%3A%20%5B%D9%85%D8%AA%D8%AF%D9%84%D9%8D%2F%D8%A3%D9%81%D9%82%D9%8A%5D%D8%8C%20%D8%A7%D9%84%D9%85%D9%82%D8%A7%D8%B3%3A%20%5BDN%2Finch%5D%D8%8C%20%D8%A7%D9%84%D8%B4%D9%82%3A%20%5B%D9%88%D8%A7%D8%AD%D8%AF%2F%D8%B4%D9%82%D8%A7%D9%86%5D%D8%8C%20%D9%85%D8%AA%D8%B7%D9%84%D8%A8%D8%A7%D8%AA%20%D8%A7%D9%84%D9%84%D9%88%D9%84%D8%A8%3A%20%5B%D8%A7%D9%84%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84%5D%D8%8C%20%D8%A7%D9%84%D9%85%D8%AA%D8%B7%D9%84%D8%A8%D8%A7%D8%AA%20%D8%A7%D9%84%D9%87%D9%8A%D8%AF%D8%B1%D9%88%D9%84%D9%8A%D9%83%D9%8A%D8%A9%3A%20%5B%D8%A7%D9%84%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84%5D%D8%8C%20%D8%A7%D9%84%D9%83%D9%85%D9%8A%D8%A9%3A%20%5B%D9%82%D8%B7%D8%B9%D8%A9%5D%D8%8C%20%D8%A7%D9%84%D9%88%D8%AC%D9%87%D8%A9%3A%20%5B%D8%A7%D9%84%D8%AF%D9%88%D9%84%D8%A9%5D.",
+      "mailto:zhengcolin1@gmail.com?subject=%D8%A7%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1%20%D8%B9%D9%86%20%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%3A%20%D9%81%D9%88%D9%87%D8%A7%D8%AA%20%D8%B3%D8%AA%D8%A7%D8%B1%D8%A9%20%D9%85%D8%A7%D8%A6%D9%8A%D8%A9&body=%D9%85%D8%B1%D8%AD%D8%A8%D8%A7%D9%8B%D8%8C%20%D8%A3%D9%88%D8%AF%20%D9%85%D9%86%D8%A7%D9%82%D8%B4%D8%A9%20%D8%B7%D9%84%D8%A8%20%D9%84%D9%85%D8%B9%D8%AF%D8%A7%D8%AA%20%D9%85%D9%83%D8%A7%D9%81%D8%AD%D8%A9%20%D8%A7%D9%84%D8%AD%D8%B1%D9%8A%D9%82.%0A%0A%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%3A%20%D9%81%D9%88%D9%87%D8%A7%D8%AA%20%D8%B3%D8%AA%D8%A7%D8%B1%D8%A9%20%D9%85%D8%A7%D8%A6%D9%8A%D8%A9%0A%D8%B5%D9%81%D8%AD%D8%A9%20%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%3A%20https%3A%2F%2Fchuanweifire.com%2Far%2Fproducts%2Fwater-curtain-nozzles%2F%0A%0A%D8%A7%D9%84%D9%85%D8%AA%D8%B7%D9%84%D8%A8%D8%A7%D8%AA%3A"
+    ],
+    "h1": "فوهات ستارة مائية",
+    "overflowButtons": [],
+    "viewport": 1280,
+    "width": 1265
+  },
+  {
+    "id": "product:water-mist-nozzles",
+    "kind": "product",
+    "locale": "en",
+    "path": "products/消防喷头/water-mist-nozzles.html",
+    "testWidth": 1280,
+    "badImages": [],
+    "drafts": [
+      "https://wa.me/8617326528368?text=Hello%2C%20I%20need%20a%20quotation%20for%20Water%20Mist%20Nozzles.%20Type%3A%20%5Bstandard%2Fimpingement%5D%2C%20size%3A%20%5BDN%2Finch%5D%2C%20thread%3A%20%5Brequirement%5D%2C%20strainer%3A%20%5Byes%2Fno%5D%2C%20target%20spray%20data%3A%20%5Bdetails%5D%2C%20quantity%3A%20%5Bpcs%5D%2C%20destination%3A%20%5Bcountry%5D.",
+      "mailto:zhengcolin1@gmail.com?subject=Product%20inquiry%3A%20Water%20Mist%20Nozzles&body=Hello%2C%20I%20would%20like%20to%20discuss%20a%20fire-protection%20product%20requirement.%0A%0AProduct%3A%20Water%20Mist%20Nozzles%0AProduct%20page%3A%20https%3A%2F%2Fchuanweifire.com%2Fproducts%2F%25E6%25B6%2588%25E9%2598%25B2%25E5%2596%25B7%25E5%25A4%25B4%2Fwater-mist-nozzles.html%0A%0ARequirements%3A"
+    ],
+    "h1": "Water Mist Nozzles",
+    "overflowButtons": [],
+    "viewport": 1280,
+    "width": 1265
+  },
+  {
+    "id": "product:water-mist-nozzles",
+    "kind": "product",
+    "locale": "ar",
+    "path": "ar/products/water-mist-nozzles/index.html",
+    "testWidth": 1280,
+    "badImages": [],
+    "drafts": [
+      "https://wa.me/8617326528368?text=%D9%85%D8%B1%D8%AD%D8%A8%D8%A7%D9%8B%D8%8C%20%D8%A3%D8%AD%D8%AA%D8%A7%D8%AC%20%D8%A5%D9%84%D9%89%20%D8%B9%D8%B1%D8%B6%20%D8%B3%D8%B9%D8%B1%20%D9%84%D9%81%D9%88%D9%87%D8%A7%D8%AA%20%D8%B6%D8%A8%D8%A7%D8%A8%20%D8%A7%D9%84%D9%85%D8%A7%D8%A1.%20%D8%A7%D9%84%D9%86%D9%88%D8%B9%3A%20%5B%D9%82%D9%8A%D8%A7%D8%B3%D9%8A%2F%D8%AA%D8%B5%D8%A7%D8%AF%D9%85%D9%8A%5D%D8%8C%20%D8%A7%D9%84%D9%85%D9%82%D8%A7%D8%B3%3A%20%5BDN%2Finch%5D%D8%8C%20%D8%A7%D9%84%D9%84%D9%88%D9%84%D8%A8%3A%20%5B%D8%A7%D9%84%D9%85%D8%AA%D8%B7%D9%84%D8%A8%D8%A7%D8%AA%5D%D8%8C%20%D8%A7%D9%84%D9%85%D8%B5%D9%81%D8%A7%D8%A9%3A%20%5B%D9%86%D8%B9%D9%85%2F%D9%84%D8%A7%5D%D8%8C%20%D8%A8%D9%8A%D8%A7%D9%86%D8%A7%D8%AA%20%D8%A7%D9%84%D8%B1%D8%B4%20%D8%A7%D9%84%D9%85%D8%B3%D8%AA%D9%87%D8%AF%D9%81%D8%A9%3A%20%5B%D8%A7%D9%84%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84%5D%D8%8C%20%D8%A7%D9%84%D9%83%D9%85%D9%8A%D8%A9%3A%20%5B%D9%82%D8%B7%D8%B9%D8%A9%5D%D8%8C%20%D8%A7%D9%84%D9%88%D8%AC%D9%87%D8%A9%3A%20%5B%D8%A7%D9%84%D8%AF%D9%88%D9%84%D8%A9%5D.",
+      "mailto:zhengcolin1@gmail.com?subject=%D8%A7%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1%20%D8%B9%D9%86%20%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%3A%20%D9%81%D9%88%D9%87%D8%A7%D8%AA%20%D8%B6%D8%A8%D8%A7%D8%A8%20%D8%A7%D9%84%D9%85%D8%A7%D8%A1&body=%D9%85%D8%B1%D8%AD%D8%A8%D8%A7%D9%8B%D8%8C%20%D8%A3%D9%88%D8%AF%20%D9%85%D9%86%D8%A7%D9%82%D8%B4%D8%A9%20%D8%B7%D9%84%D8%A8%20%D9%84%D9%85%D8%B9%D8%AF%D8%A7%D8%AA%20%D9%85%D9%83%D8%A7%D9%81%D8%AD%D8%A9%20%D8%A7%D9%84%D8%AD%D8%B1%D9%8A%D9%82.%0A%0A%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%3A%20%D9%81%D9%88%D9%87%D8%A7%D8%AA%20%D8%B6%D8%A8%D8%A7%D8%A8%20%D8%A7%D9%84%D9%85%D8%A7%D8%A1%0A%D8%B5%D9%81%D8%AD%D8%A9%20%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%3A%20https%3A%2F%2Fchuanweifire.com%2Far%2Fproducts%2Fwater-mist-nozzles%2F%0A%0A%D8%A7%D9%84%D9%85%D8%AA%D8%B7%D9%84%D8%A8%D8%A7%D8%AA%3A"
+    ],
+    "h1": "فوهات ضباب الماء",
+    "overflowButtons": [],
+    "viewport": 1280,
+    "width": 1265
+  },
+  {
+    "id": "product:nrs-gate-valves",
+    "kind": "product",
+    "locale": "en",
+    "path": "products/消防阀门/nrs-gate-valves.html",
+    "testWidth": 1280,
+    "badImages": [],
+    "drafts": [
+      "https://wa.me/8617326528368?text=Hello%2C%20I%20need%20a%20quotation%20for%20NRS%20Gate%20Valves.%20Size%3A%20%5BDN%2Finch%5D%2C%20connection%3A%20%5Bgrooved%2Fflanged%5D%2C%20quantity%3A%20%5Bpcs%5D%2C%20destination%3A%20%5Bcountry%5D.",
+      "mailto:zhengcolin1@gmail.com?subject=Product%20inquiry%3A%20NRS%20Gate%20Valve&body=Hello%2C%20I%20would%20like%20to%20discuss%20a%20fire-protection%20product%20requirement.%0A%0AProduct%3A%20NRS%20Gate%20Valve%0AProduct%20page%3A%20https%3A%2F%2Fchuanweifire.com%2Fproducts%2F%25E6%25B6%2588%25E9%2598%25B2%25E9%2598%2580%25E9%2597%25A8%2Fnrs-gate-valves.html%0A%0ARequirements%3A"
+    ],
+    "h1": "NRS Gate Valve",
+    "overflowButtons": [],
+    "viewport": 1280,
+    "width": 1265
+  },
+  {
+    "id": "product:nrs-gate-valves",
+    "kind": "product",
+    "locale": "ar",
+    "path": "ar/products/nrs-gate-valves/index.html",
+    "testWidth": 1280,
+    "badImages": [],
+    "drafts": [
+      "https://wa.me/8617326528368?text=Hello%2C%20I%20need%20a%20quotation%20for%20NRS%20Gate%20Valves.%20Size%3A%20%5BDN%2Finch%5D%2C%20connection%3A%20%5Bgrooved%2Fflanged%5D%2C%20quantity%3A%20%5Bpcs%5D%2C%20destination%3A%20%5Bcountry%5D.",
+      "mailto:zhengcolin1@gmail.com?subject=%D8%A7%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1%20%D8%B9%D9%86%20%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%3A%20%D8%B5%D9%85%D8%A7%D9%85%20%D8%A8%D9%88%D8%A7%D8%A8%D8%A9%20%D8%A8%D8%B3%D8%A7%D9%82%20%D8%BA%D9%8A%D8%B1%20%D8%B5%D8%A7%D8%B9%D8%AF&body=%D9%85%D8%B1%D8%AD%D8%A8%D8%A7%D9%8B%D8%8C%20%D8%A3%D9%88%D8%AF%20%D9%85%D9%86%D8%A7%D9%82%D8%B4%D8%A9%20%D8%B7%D9%84%D8%A8%20%D9%84%D9%85%D8%B9%D8%AF%D8%A7%D8%AA%20%D9%85%D9%83%D8%A7%D9%81%D8%AD%D8%A9%20%D8%A7%D9%84%D8%AD%D8%B1%D9%8A%D9%82.%0A%0A%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%3A%20%D8%B5%D9%85%D8%A7%D9%85%20%D8%A8%D9%88%D8%A7%D8%A8%D8%A9%20%D8%A8%D8%B3%D8%A7%D9%82%20%D8%BA%D9%8A%D8%B1%20%D8%B5%D8%A7%D8%B9%D8%AF%0A%D8%B5%D9%81%D8%AD%D8%A9%20%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%3A%20https%3A%2F%2Fchuanweifire.com%2Far%2Fproducts%2Fnrs-gate-valves%2F%0A%0A%D8%A7%D9%84%D9%85%D8%AA%D8%B7%D9%84%D8%A8%D8%A7%D8%AA%3A"
+    ],
+    "h1": "صمام بوابة بساق غير صاعد",
+    "overflowButtons": [],
+    "viewport": 1280,
+    "width": 1265
+  },
+  {
+    "id": "product:catalog-hose-reel-parts-page-27",
+    "kind": "product",
+    "locale": "en",
+    "path": "products/软管卷盘/catalog-hose-reel-parts-page-27.html",
+    "testWidth": 1280,
+    "badImages": [],
+    "drafts": [
+      "https://wa.me/8617326528368?text=Hello%2C+I+need+a+quotation+for+Fire+Hose+Reel+Swivel+Joints+and+Supports.+Configuration%3A+%5Bdetails%5D%2C+size%2Fconnection%3A+%5Bdetails%5D%2C+material%3A+%5Bmaterial%5D%2C+working+pressure%3A+%5Bpressure%5D%2C+quantity%3A+%5Bquantity%5D%2C+destination%3A+%5Bcountry%5D.",
+      "mailto:zhengcolin1@gmail.com?subject=Product%20inquiry%3A%20Fire%20Hose%20Reel%20Swivel%20Joints%20and%20Supports&body=Hello%2C%20I%20would%20like%20to%20discuss%20a%20fire-protection%20product%20requirement.%0A%0AProduct%3A%20Fire%20Hose%20Reel%20Swivel%20Joints%20and%20Supports%0AProduct%20page%3A%20https%3A%2F%2Fchuanweifire.com%2Fproducts%2F%25E8%25BD%25AF%25E7%25AE%25A1%25E5%258D%25B7%25E7%259B%2598%2Fcatalog-hose-reel-parts-page-27.html%0A%0ARequirements%3A"
+    ],
+    "h1": "Fire Hose Reel Swivel Joints and Supports",
+    "overflowButtons": [],
+    "viewport": 1280,
+    "width": 1265
+  },
+  {
+    "id": "product:catalog-hose-reel-parts-page-27",
+    "kind": "product",
+    "locale": "ar",
+    "path": "ar/products/catalog-hose-reel-parts-page-27/index.html",
+    "testWidth": 1280,
+    "badImages": [],
+    "drafts": [
+      "https://wa.me/8617326528368?text=Hello%2C+I+need+a+quotation+for+Fire+Hose+Reel+Swivel+Joints+and+Supports.+Configuration%3A+%5Bdetails%5D%2C+size%2Fconnection%3A+%5Bdetails%5D%2C+material%3A+%5Bmaterial%5D%2C+working+pressure%3A+%5Bpressure%5D%2C+quantity%3A+%5Bquantity%5D%2C+destination%3A+%5Bcountry%5D.",
+      "mailto:zhengcolin1@gmail.com?subject=%D8%A7%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1%20%D8%B9%D9%86%20%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%3A%20%D9%88%D8%B5%D9%84%D8%A7%D8%AA%20%D8%AF%D9%88%D8%A7%D8%B1%D8%A9%20%D9%88%D8%AF%D8%B9%D8%A7%D9%85%D8%A7%D8%AA%20%D9%84%D8%A8%D9%83%D8%B1%D8%A7%D8%AA%20%D8%AE%D8%B1%D8%A7%D8%B7%D9%8A%D9%85%20%D8%A7%D9%84%D8%AD%D8%B1%D9%8A%D9%82&body=%D9%85%D8%B1%D8%AD%D8%A8%D8%A7%D9%8B%D8%8C%20%D8%A3%D9%88%D8%AF%20%D9%85%D9%86%D8%A7%D9%82%D8%B4%D8%A9%20%D8%B7%D9%84%D8%A8%20%D9%84%D9%85%D8%B9%D8%AF%D8%A7%D8%AA%20%D9%85%D9%83%D8%A7%D9%81%D8%AD%D8%A9%20%D8%A7%D9%84%D8%AD%D8%B1%D9%8A%D9%82.%0A%0A%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%3A%20%D9%88%D8%B5%D9%84%D8%A7%D8%AA%20%D8%AF%D9%88%D8%A7%D8%B1%D8%A9%20%D9%88%D8%AF%D8%B9%D8%A7%D9%85%D8%A7%D8%AA%20%D9%84%D8%A8%D9%83%D8%B1%D8%A7%D8%AA%20%D8%AE%D8%B1%D8%A7%D8%B7%D9%8A%D9%85%20%D8%A7%D9%84%D8%AD%D8%B1%D9%8A%D9%82%0A%D8%B5%D9%81%D8%AD%D8%A9%20%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%3A%20https%3A%2F%2Fchuanweifire.com%2Far%2Fproducts%2Fcatalog-hose-reel-parts-page-27%2F%0A%0A%D8%A7%D9%84%D9%85%D8%AA%D8%B7%D9%84%D8%A8%D8%A7%D8%AA%3A"
+    ],
+    "h1": "وصلات دوارة ودعامات لبكرات خراطيم الحريق",
+    "overflowButtons": [],
+    "viewport": 1280,
+    "width": 1265
+  }
+]

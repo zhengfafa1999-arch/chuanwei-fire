@@ -49,11 +49,15 @@ for (const entry of catalog) {
     assert(fs.existsSync(path.join(root, source)), `${product.id}: missing source image ${source}`);
   }
   for (const relative of Object.values(entry.media)) {
-    assert(fs.existsSync(path.resolve(path.dirname(output), relative)), `${product.id}/${lang}: broken generated image path ${relative}`);
+    assert(fs.existsSync(path.resolve(path.dirname(output), relative.split(/[?#]/)[0])), `${product.id}/${lang}: broken generated image path ${relative}`);
   }
   assert(Array.isArray(product.validation?.requiredTechnicalValues), `${product.id}: required technical validation values are missing`);
   for (const required of product.validation.requiredTechnicalValues) {
     assert(html.includes(required), `${product.id}/${lang}: confirmed technical value missing: ${required}`);
+  }
+  if (product.models.some(row => row.catalogDetails === 'requestConnectionDetails')) {
+    assert(text.requestConnectionDetails && html.includes(text.requestConnectionDetails), `${product.id}/${lang}: missing localized request for connection details`);
+    assert(!/connection to be confirmed|>requestConnectionDetails</.test(html), `${product.id}/${lang}: internal connection status leaked into model table`);
   }
 }
 

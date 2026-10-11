@@ -1,0 +1,19 @@
+{
+  "date": "2026-10-11",
+  "pages": 185,
+  "aboutFamilies": 11,
+  "contactChoices": 12,
+  "uniqueAboutPhotos": 8,
+  "checks": [
+    "Removed editorial brand explanations",
+    "No PDF download links",
+    "RIA25 conformity no longer asserted",
+    "Two enquiry grammar fixes",
+    "Shared family coverage in About and Contact"
+  ],
+  "browser": {
+    "status": "not-verified",
+    "reason": "Browser request-header policy initially failed; in-app browser retry reached a localhost navigation timeout. No visual/mobile pass claimed."
+  },
+  "releaseStatus": "review-candidate-only; unresolved evidence listed in README.md"
+}

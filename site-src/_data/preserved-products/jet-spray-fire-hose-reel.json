@@ -5,7 +5,12 @@
   "source": {
     "path": "products/软管卷盘/jet-spray-fire-hose-reel.html",
     "revision": "3e2f239",
-    "status": "preserved-existing-content-not-reaudited"
+    "status": "preserved-existing-content-not-reaudited",
+    "buyerCopyReview": {
+      "date": "2026-10-09",
+      "record": "docs/reviews/remaining-series-20261009/reviewed-changes.json",
+      "scope": "Buyer terminology and inquiry guidance; exact models, primary photographs and technical values retained except removal of unconfirmed carton quantities."
+    }
   },
   "media": {
     "hero": "products/软管卷盘/jet-spray-fire-hose-reel/jet-spray-fire-hose-reel.jpg",
@@ -73,7 +78,7 @@
       "numbers": []
     },
     "photographShowsTheCompleteJPSJetSprayHose": {
-      "text": "Photograph shows the complete JPS jet/spray hose reel assembly. The visible physical GUANYA / 冠亚 product markings are retained; CHUANWEI FIRE identifies the website and export-sales presentation.",
+      "text": "Photograph shows the complete JPS jet/spray hose reel assembly.",
       "numbers": []
     },
     "completeReelAssembly": {
@@ -258,7 +263,7 @@
       "numbers": []
     },
     "factoryReference": {
-      "text": "Factory reference",
+      "text": "Model",
       "numbers": []
     },
     "onRequest": {

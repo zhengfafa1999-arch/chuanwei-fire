@@ -1,0 +1,10 @@
+{
+  "date": "2026-10-10",
+  "status": "local-review-candidate-not-deployed",
+  "archive": ".tmp/releases/explosion-control-components-20261010-web.zip",
+  "bytes": 44010996,
+  "sha256": "3cb3f5a0b9d18ce02fd2bf63d8684e719c8a3405dfdc495466b975fe8fa1296e",
+  "files": 718,
+  "pages": 183,
+  "validation": "All ZIP entries verified against static-manifest sizes and SHA256; CRC check passed. Server rollback backup must be created before publication."
+}

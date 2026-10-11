@@ -1,0 +1,428 @@
+{
+  "date": "2026-10-09",
+  "status": "local-audit-passed-not-deployed",
+  "publicPages": 175,
+  "changedPageText": 75,
+  "affectedPages": [
+    {
+      "id": "home",
+      "locale": "en",
+      "path": "index.html"
+    },
+    {
+      "id": "home",
+      "locale": "zh",
+      "path": "zh/index.html"
+    },
+    {
+      "id": "home",
+      "locale": "ar",
+      "path": "ar/index.html"
+    },
+    {
+      "id": "about",
+      "locale": "en",
+      "path": "about.html"
+    },
+    {
+      "id": "about",
+      "locale": "ar",
+      "path": "ar/about.html"
+    },
+    {
+      "id": "downloads",
+      "locale": "en",
+      "path": "downloads.html"
+    },
+    {
+      "id": "downloads",
+      "locale": "ar",
+      "path": "ar/downloads.html"
+    },
+    {
+      "id": "product:saddle-type-waterflow-switches",
+      "locale": "en",
+      "path": "products/消防阀/saddle-type-waterflow-switches.html"
+    },
+    {
+      "id": "product:saddle-type-waterflow-switches",
+      "locale": "ar",
+      "path": "ar/products/saddle-type-waterflow-switches/index.html"
+    },
+    {
+      "id": "product:standard-response-fire-sprinkler",
+      "locale": "en",
+      "path": "products/消防喷头/standard-response-fire-sprinkler.html"
+    },
+    {
+      "id": "product:standard-response-fire-sprinkler",
+      "locale": "ar",
+      "path": "ar/products/standard-response-fire-sprinkler/index.html"
+    },
+    {
+      "id": "product:fusible-alloy-fire-sprinklers",
+      "locale": "en",
+      "path": "products/消防喷头/fusible-alloy-fire-sprinklers.html"
+    },
+    {
+      "id": "product:fusible-alloy-fire-sprinklers",
+      "locale": "ar",
+      "path": "ar/products/fusible-alloy-fire-sprinklers/index.html"
+    },
+    {
+      "id": "product:glass-bulb-fire-sprinkler",
+      "locale": "en",
+      "path": "products/消防喷头/glass-bulb-fire-sprinkler.html"
+    },
+    {
+      "id": "product:glass-bulb-fire-sprinkler",
+      "locale": "ar",
+      "path": "ar/products/glass-bulb-fire-sprinkler/index.html"
+    },
+    {
+      "id": "product:straight-through-oblique-landing-valves",
+      "locale": "en",
+      "path": "products/室内消防栓/straight-through-oblique-landing-valves.html"
+    },
+    {
+      "id": "product:straight-through-oblique-landing-valves",
+      "locale": "ar",
+      "path": "ar/products/straight-through-oblique-landing-valves/index.html"
+    },
+    {
+      "id": "product:horizontal-handwheel-landing-valves",
+      "locale": "en",
+      "path": "products/室内消防栓/horizontal-handwheel-landing-valves.html"
+    },
+    {
+      "id": "product:horizontal-handwheel-landing-valves",
+      "locale": "ar",
+      "path": "ar/products/horizontal-handwheel-landing-valves/index.html"
+    },
+    {
+      "id": "product:lever-operated-fire-hose-nozzles",
+      "locale": "en",
+      "path": "products/消防水枪/lever-operated-fire-hose-nozzles.html"
+    },
+    {
+      "id": "product:lever-operated-fire-hose-nozzles",
+      "locale": "ar",
+      "path": "ar/products/lever-operated-fire-hose-nozzles/index.html"
+    },
+    {
+      "id": "product:straight-stream-fire-hose-nozzles",
+      "locale": "en",
+      "path": "products/消防水枪/straight-stream-fire-hose-nozzles.html"
+    },
+    {
+      "id": "product:straight-stream-fire-hose-nozzles",
+      "locale": "ar",
+      "path": "ar/products/straight-stream-fire-hose-nozzles/index.html"
+    },
+    {
+      "id": "product:russian-pattern-fire-department-connection",
+      "locale": "en",
+      "path": "products/消防水泵接合器/russian-pattern-fire-department-connection.html"
+    },
+    {
+      "id": "product:russian-pattern-fire-department-connection",
+      "locale": "ar",
+      "path": "ar/products/russian-pattern-fire-department-connection/index.html"
+    },
+    {
+      "id": "product:fire-equipment-cabinets",
+      "locale": "en",
+      "path": "products/消防器材箱/fire-equipment-cabinets.html"
+    },
+    {
+      "id": "product:fire-equipment-cabinets",
+      "locale": "ar",
+      "path": "ar/products/fire-equipment-cabinet-series/index.html"
+    },
+    {
+      "id": "product:catalog-brass-finish-hose-valves-page-07",
+      "locale": "en",
+      "path": "products/室内消防栓/catalog-brass-finish-hose-valves-page-07.html"
+    },
+    {
+      "id": "product:catalog-brass-finish-hose-valves-page-07",
+      "locale": "ar",
+      "path": "ar/products/catalog-brass-finish-hose-valves-page-07/index.html"
+    },
+    {
+      "id": "product:catalog-brass-finish-hose-valves-page-08",
+      "locale": "en",
+      "path": "products/室内消防栓/catalog-brass-finish-hose-valves-page-08.html"
+    },
+    {
+      "id": "product:catalog-brass-finish-hose-valves-page-08",
+      "locale": "ar",
+      "path": "ar/products/catalog-brass-finish-hose-valves-page-08/index.html"
+    },
+    {
+      "id": "product:catalog-hose-valves-page-09",
+      "locale": "en",
+      "path": "products/室内消防栓/catalog-hose-valves-page-09.html"
+    },
+    {
+      "id": "product:catalog-hose-valves-page-09",
+      "locale": "ar",
+      "path": "ar/products/catalog-hose-valves-page-09/index.html"
+    },
+    {
+      "id": "product:catalog-hose-valves-page-10",
+      "locale": "en",
+      "path": "products/室内消防栓/catalog-hose-valves-page-10.html"
+    },
+    {
+      "id": "product:catalog-hose-valves-page-10",
+      "locale": "ar",
+      "path": "ar/products/catalog-hose-valves-page-10/index.html"
+    },
+    {
+      "id": "product:catalog-hose-valves-page-11",
+      "locale": "en",
+      "path": "products/室内消防栓/catalog-hose-valves-page-11.html"
+    },
+    {
+      "id": "product:catalog-hose-valves-page-11",
+      "locale": "ar",
+      "path": "ar/products/catalog-hose-valves-page-11/index.html"
+    },
+    {
+      "id": "product:catalog-hose-valves-page-12",
+      "locale": "en",
+      "path": "products/室内消防栓/catalog-hose-valves-page-12.html"
+    },
+    {
+      "id": "product:catalog-hose-valves-page-12",
+      "locale": "ar",
+      "path": "ar/products/catalog-hose-valves-page-12/index.html"
+    },
+    {
+      "id": "product:catalog-twin-outlet-fire-connections-page-13",
+      "locale": "en",
+      "path": "products/消防水泵接合器/catalog-twin-outlet-fire-connections-page-13.html"
+    },
+    {
+      "id": "product:catalog-twin-outlet-fire-connections-page-13",
+      "locale": "ar",
+      "path": "ar/products/catalog-twin-outlet-fire-connections-page-13/index.html"
+    },
+    {
+      "id": "product:catalog-hydrant-auxiliary-valves-page-14",
+      "locale": "en",
+      "path": "products/室内消防栓/catalog-hydrant-auxiliary-valves-page-14.html"
+    },
+    {
+      "id": "product:catalog-hydrant-auxiliary-valves-page-14",
+      "locale": "ar",
+      "path": "ar/products/catalog-hydrant-auxiliary-valves-page-14/index.html"
+    },
+    {
+      "id": "product:catalog-fire-connections-distributors-page-15",
+      "locale": "en",
+      "path": "products/消防水泵接合器/catalog-fire-connections-distributors-page-15.html"
+    },
+    {
+      "id": "product:catalog-fire-connections-distributors-page-15",
+      "locale": "ar",
+      "path": "ar/products/catalog-fire-connections-distributors-page-15/index.html"
+    },
+    {
+      "id": "product:catalog-long-straight-stream-nozzles-page-16",
+      "locale": "en",
+      "path": "products/消防水枪/catalog-long-straight-stream-nozzles-page-16.html"
+    },
+    {
+      "id": "product:catalog-long-straight-stream-nozzles-page-16",
+      "locale": "ar",
+      "path": "ar/products/catalog-long-straight-stream-nozzles-page-16/index.html"
+    },
+    {
+      "id": "product:catalog-compact-straight-stream-nozzles-page-17",
+      "locale": "en",
+      "path": "products/消防水枪/catalog-compact-straight-stream-nozzles-page-17.html"
+    },
+    {
+      "id": "product:catalog-compact-straight-stream-nozzles-page-17",
+      "locale": "ar",
+      "path": "ar/products/catalog-compact-straight-stream-nozzles-page-17/index.html"
+    },
+    {
+      "id": "product:catalog-coupled-lever-nozzles-page-18",
+      "locale": "en",
+      "path": "products/消防水枪/catalog-coupled-lever-nozzles-page-18.html"
+    },
+    {
+      "id": "product:catalog-coupled-lever-nozzles-page-18",
+      "locale": "ar",
+      "path": "ar/products/catalog-coupled-lever-nozzles-page-18/index.html"
+    },
+    {
+      "id": "product:catalog-nozzles-inductors-connections-page-19",
+      "locale": "en",
+      "path": "products/消防水枪/catalog-nozzles-inductors-connections-page-19.html"
+    },
+    {
+      "id": "product:catalog-nozzles-inductors-connections-page-19",
+      "locale": "ar",
+      "path": "ar/products/catalog-nozzles-inductors-connections-page-19/index.html"
+    },
+    {
+      "id": "product:catalog-fire-hose-couplings-page-20",
+      "locale": "en",
+      "path": "products/消防水枪/catalog-fire-hose-couplings-page-20.html"
+    },
+    {
+      "id": "product:catalog-fire-hose-couplings-page-20",
+      "locale": "ar",
+      "path": "ar/products/catalog-fire-hose-couplings-page-20/index.html"
+    },
+    {
+      "id": "product:catalog-fire-hose-adapters-page-21",
+      "locale": "en",
+      "path": "products/消防水枪/catalog-fire-hose-adapters-page-21.html"
+    },
+    {
+      "id": "product:catalog-fire-hose-adapters-page-21",
+      "locale": "ar",
+      "path": "ar/products/catalog-fire-hose-adapters-page-21/index.html"
+    },
+    {
+      "id": "product:catalog-compact-spray-nozzles-page-22",
+      "locale": "en",
+      "path": "products/消防水枪/catalog-compact-spray-nozzles-page-22.html"
+    },
+    {
+      "id": "product:catalog-compact-spray-nozzles-page-22",
+      "locale": "ar",
+      "path": "ar/products/catalog-compact-spray-nozzles-page-22/index.html"
+    },
+    {
+      "id": "product:catalog-red-grip-nozzles-page-23",
+      "locale": "en",
+      "path": "products/消防水枪/catalog-red-grip-nozzles-page-23.html"
+    },
+    {
+      "id": "product:catalog-red-grip-nozzles-page-23",
+      "locale": "ar",
+      "path": "ar/products/catalog-red-grip-nozzles-page-23/index.html"
+    },
+    {
+      "id": "product:catalog-hose-tails-adapters-page-24",
+      "locale": "en",
+      "path": "products/消防水枪/catalog-hose-tails-adapters-page-24.html"
+    },
+    {
+      "id": "product:catalog-hose-tails-adapters-page-24",
+      "locale": "ar",
+      "path": "ar/products/catalog-hose-tails-adapters-page-24/index.html"
+    },
+    {
+      "id": "product:catalog-threaded-adapters-caps-page-25",
+      "locale": "en",
+      "path": "products/消防水枪/catalog-threaded-adapters-caps-page-25.html"
+    },
+    {
+      "id": "product:catalog-threaded-adapters-caps-page-25",
+      "locale": "ar",
+      "path": "ar/products/catalog-threaded-adapters-caps-page-25/index.html"
+    },
+    {
+      "id": "product:catalog-blank-caps-plug-adapters-page-26",
+      "locale": "en",
+      "path": "products/消防水枪/catalog-blank-caps-plug-adapters-page-26.html"
+    },
+    {
+      "id": "product:catalog-blank-caps-plug-adapters-page-26",
+      "locale": "ar",
+      "path": "ar/products/catalog-blank-caps-plug-adapters-page-26/index.html"
+    },
+    {
+      "id": "product:catalog-hose-reel-parts-page-27",
+      "locale": "en",
+      "path": "products/软管卷盘/catalog-hose-reel-parts-page-27.html"
+    },
+    {
+      "id": "product:catalog-hose-reel-parts-page-27",
+      "locale": "ar",
+      "path": "ar/products/catalog-hose-reel-parts-page-27/index.html"
+    },
+    {
+      "id": "product:catalog-hose-assemblies-reels-page-28",
+      "locale": "en",
+      "path": "products/软管卷盘/catalog-hose-assemblies-reels-page-28.html"
+    },
+    {
+      "id": "product:catalog-hose-assemblies-reels-page-28",
+      "locale": "ar",
+      "path": "ar/products/catalog-hose-assemblies-reels-page-28/index.html"
+    },
+    {
+      "id": "product:catalog-fire-cabinets-page-30",
+      "locale": "en",
+      "path": "products/消防器材箱/catalog-fire-cabinets-page-30.html"
+    },
+    {
+      "id": "product:catalog-fire-cabinets-page-30",
+      "locale": "ar",
+      "path": "ar/products/catalog-fire-cabinets-page-30/index.html"
+    },
+    {
+      "id": "product:catalog-outdoor-hydrant-configurations-page-31",
+      "locale": "en",
+      "path": "products/室外消防栓/catalog-outdoor-hydrant-configurations-page-31.html"
+    },
+    {
+      "id": "product:catalog-outdoor-hydrant-configurations-page-31",
+      "locale": "ar",
+      "path": "ar/products/catalog-outdoor-hydrant-configurations-page-31/index.html"
+    }
+  ],
+  "configurationSeries": 24,
+  "documentedSeries": 10,
+  "placeholderSpecificationRowsRemoved": 40,
+  "sourceBuyerCopy": "11240 public copy values pass",
+  "build": {
+    "command": "npm --ignore-scripts run build",
+    "result": "PASS",
+    "log": ".tmp/customer-content-build.log"
+  },
+  "modelTables": {
+    "productPairs": 71,
+    "rows": 334,
+    "numericCellsMatch": true
+  },
+  "staticRelease": {
+    "pages": 175,
+    "images": 2164,
+    "internalReferences": 42146,
+    "newWindowLinks": 724,
+    "result": "PASS"
+  },
+  "responsive": {
+    "checks": 525,
+    "widths": [
+      320,
+      390,
+      1280
+    ],
+    "overflow": 0,
+    "wrongLanguage": 0,
+    "evidence": "responsive-checks.json"
+  },
+  "searchAssertions": 73,
+  "inquiry": "EN/AR/ZH drafts checked; no real messages sent",
+  "pdf": {
+    "status": "paused-no-generation-no-edit",
+    "path": "assets\\downloads\\standard-response-fire-sprinklers-en.pdf",
+    "sha256": "4726e11252e8776a359b726a3d610937bd21913f3f68b13ae679b02a764146c8"
+  },
+  "package": "docs/release/customer-content-audit-20261009/package-summary.json",
+  "screenshot": "specifications-desktop.png",
+  "limitations": [
+    "Full audit applies to local source and outputs. Live homepage only sampled; no deployment done.",
+    "Model-level missing specifications and document validity require separate evidence."
+  ]
+}

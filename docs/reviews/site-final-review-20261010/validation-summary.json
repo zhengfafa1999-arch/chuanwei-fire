@@ -1,0 +1,28 @@
+{
+  "date": "2026-10-10",
+  "status": "local-review-complete-not-deployed",
+  "publishedPages": 175,
+  "staticReferences": 44121,
+  "imagesWithAlt": 2164,
+  "newWindowLinks": 724,
+  "searchAssertions": 89,
+  "numericModelTablePairs": 71,
+  "numericModelRows": 334,
+  "layoutChecks": 105,
+  "layoutPages": 35,
+  "viewportWidths": [
+    320,
+    390,
+    1280
+  ],
+  "contextualDraftChecks": 72,
+  "listingCssHashVersion": "5adeda95b229",
+  "changedPublicFilesSincePhotoBatch": 36,
+  "pdfSha256": "4726e11252e8776a359b726a3d610937bd21913f3f68b13ae679b02a764146c8",
+  "pdfChanged": false,
+  "messagesSent": false,
+  "sourceFixtureChanges": false,
+  "buildCommand": "npm --ignore-scripts run build",
+  "buildLog": ".tmp/site-final-review-build.log",
+  "candidate": "docs/release/site-final-review-20261010/package-summary.json"
+}

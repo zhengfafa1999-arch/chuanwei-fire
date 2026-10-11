@@ -1,0 +1,10 @@
+{
+  "date": "2026-10-10",
+  "status": "local-review-candidate-not-deployed",
+  "archive": ".tmp/releases/concealed-listing-red-label-20261010-web.zip",
+  "bytes": 43569511,
+  "sha256": "45721adc2ca3ace073fd5ac760df23482e371e72639456a0483a7e7c9f27e01f",
+  "files": 722,
+  "pages": 185,
+  "validation": "All ZIP entries verified against static-manifest sizes and SHA256; CRC check passed. Server rollback backup must be created before publication."
+}

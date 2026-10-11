@@ -1,0 +1,27 @@
+{
+  "productId": "fire-pressure-switch",
+  "source": "C:\\Users\\ZHENGF~1\\AppData\\Local\\Temp\\codex-clipboard-169a60c8-2fa7-4ea1-8a26-10dfdd0b621b.png",
+  "sourceSha256": "e4b02bbc46c99a47bc34614032da039507206698cd7a7eea12206dc59adbf3c5",
+  "backup": "docs/release/compact-pressure-switch-20261010/source/pressure-switch-original.png",
+  "sourceSize": [
+    1052,
+    986
+  ],
+  "transform": "Proportional resizing and WebP compression only. No retouching, no invented markings, no upscaling.",
+  "derivatives": [
+    {
+      "path": "assets/products/fire-pressure-switch/sample-640.webp",
+      "width": 640,
+      "height": 600,
+      "bytes": 42276,
+      "sha256": "4018241032fdbac17db8ce31b531c06a90070c339b3a8767bf8094836a30a872"
+    },
+    {
+      "path": "assets/products/fire-pressure-switch/sample-1052.webp",
+      "width": 1052,
+      "height": 986,
+      "bytes": 76172,
+      "sha256": "714abdde7b6a24c5b903c88128d2caf2963690028d1f457692dc0d3a17128572"
+    }
+  ]
+}

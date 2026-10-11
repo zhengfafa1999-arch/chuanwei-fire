@@ -1,0 +1,1959 @@
+{
+  "date": "2026-10-09",
+  "originalCatalogSha256": "28b88b7862421b23dfe1aa068a0492418e3e418510a3fca8cf4bfea0a8f50a0d",
+  "sourceCatalogUnchanged": true,
+  "series": 24,
+  "configurations": 115,
+  "policy": "Appearance-only finish/color labels removed from headings. Existing identifiers retained explicitly; standards used only when every exact configuration option names them. Original names remain scoped search aliases; photos, geometry, source references, source options, routes and anchors unchanged.",
+  "changes": [
+    {
+      "series": "catalog-brass-finish-hose-valves-page-07",
+      "key": "p07-01",
+      "before": {
+        "en": "Brass-Finish Angled-Outlet Fire Hose Valve",
+        "ar": "صمام خرطوم حريق بتشطيب نحاسي بمخرج مائل"
+      },
+      "after": {
+        "en": "Angled-Outlet Fire Hose Valve — S-010",
+        "ar": "صمام خرطوم حريق بمخرج مائل — S-010"
+      },
+      "references": "S-010",
+      "optionsUnchanged": [
+        "S-010: inlet 1 in BSP; outlet 1 in BSP"
+      ]
+    },
+    {
+      "series": "catalog-brass-finish-hose-valves-page-07",
+      "key": "p07-02",
+      "before": {
+        "en": "Brass-Finish Right-Angle Fire Hose Valve",
+        "ar": "صمام خرطوم حريق بتشطيب نحاسي بزاوية قائمة"
+      },
+      "after": {
+        "en": "Right-Angle Fire Hose Valve — S-011",
+        "ar": "صمام خرطوم حريق بزاوية قائمة — S-011"
+      },
+      "references": "S-011",
+      "optionsUnchanged": [
+        "S-011: inlet 1.5 in BSP; outlet 1 in BSP"
+      ]
+    },
+    {
+      "series": "catalog-brass-finish-hose-valves-page-07",
+      "key": "p07-03",
+      "before": {
+        "en": "Brass-Finish Large Angled-Outlet Fire Hose Valve",
+        "ar": "صمام خرطوم حريق بتشطيب نحاسي بمخرج مائل كبير"
+      },
+      "after": {
+        "en": "Large Angled-Outlet Fire Hose Valve — S-012 / S-013",
+        "ar": "صمام خرطوم حريق بمخرج مائل كبير — S-012 / S-013"
+      },
+      "references": "S-012 / S-013",
+      "optionsUnchanged": [
+        "S-012: inlet 1.5 in BSP; outlet 1.5 in BSP",
+        "S-013: inlet 1.5 in BSP; outlet 1.5 in NH"
+      ]
+    },
+    {
+      "series": "catalog-brass-finish-hose-valves-page-07",
+      "key": "p07-04",
+      "before": {
+        "en": "Brass-Finish Compact Angled-Outlet Fire Hose Valve",
+        "ar": "صمام خرطوم حريق بتشطيب نحاسي بمخرج مائل مدمج"
+      },
+      "after": {
+        "en": "Compact Angled-Outlet Fire Hose Valve — S-014",
+        "ar": "صمام خرطوم حريق بمخرج مائل مدمج — S-014"
+      },
+      "references": "S-014",
+      "optionsUnchanged": [
+        "S-014: inlet 1.5 in BSP; outlet 1 in BSP"
+      ]
+    },
+    {
+      "series": "catalog-brass-finish-hose-valves-page-07",
+      "key": "p07-05",
+      "before": {
+        "en": "Brass-Finish Left-Outlet Fire Hose Valve",
+        "ar": "صمام خرطوم حريق بتشطيب نحاسي بمخرج أيسر"
+      },
+      "after": {
+        "en": "Left-Outlet Fire Hose Valve — S-015 / S-016 / S-017",
+        "ar": "صمام خرطوم حريق بمخرج أيسر — S-015 / S-016 / S-017"
+      },
+      "references": "S-015 / S-016 / S-017",
+      "optionsUnchanged": [
+        "S-015: inlet 2 in BSP; outlet 2 in BSP",
+        "S-016: inlet 2 in BSP; outlet 2 in NH",
+        "S-017: inlet 2 in NPT; outlet 2 in NH"
+      ]
+    },
+    {
+      "series": "catalog-brass-finish-hose-valves-page-08",
+      "key": "p08-01",
+      "before": {
+        "en": "Brass-Finish Male-Threaded Bottom-Inlet Fire Hose Valve",
+        "ar": "صمام خرطوم حريق بتشطيب نحاسي بمدخل سفلي ملولب خارجي"
+      },
+      "after": {
+        "en": "Male-Threaded Bottom-Inlet Fire Hose Valve — S-018 / S-019 / S-020",
+        "ar": "صمام خرطوم حريق بمدخل سفلي ملولب خارجي — S-018 / S-019 / S-020"
+      },
+      "references": "S-018 / S-019 / S-020",
+      "optionsUnchanged": [
+        "S-018: inlet 2 in BSP; outlet 2 in BSP",
+        "S-019: inlet 2 in BSP; outlet 2 in NH",
+        "S-020: inlet 2 in NPT; outlet 2 in NH"
+      ]
+    },
+    {
+      "series": "catalog-brass-finish-hose-valves-page-08",
+      "key": "p08-02",
+      "before": {
+        "en": "Brass-Finish Female-Threaded Bottom-Inlet Fire Hose Valve",
+        "ar": "صمام خرطوم حريق بتشطيب نحاسي بمدخل سفلي ملولب داخلي"
+      },
+      "after": {
+        "en": "Female-Threaded Bottom-Inlet Fire Hose Valve — S-021 / S-022 / S-023",
+        "ar": "صمام خرطوم حريق بمدخل سفلي ملولب داخلي — S-021 / S-022 / S-023"
+      },
+      "references": "S-021 / S-022 / S-023",
+      "optionsUnchanged": [
+        "S-021: inlet 2.5 in BSP; outlet 2.5 in BSP",
+        "S-022: inlet 2.5 in BSP; outlet 2.5 in NH",
+        "S-023: inlet 2.5 in NPT; outlet 2.5 in NH"
+      ]
+    },
+    {
+      "series": "catalog-brass-finish-hose-valves-page-08",
+      "key": "p08-03",
+      "before": {
+        "en": "Brass-Finish Left Angled-Outlet Fire Hose Valve",
+        "ar": "صمام خرطوم حريق بتشطيب نحاسي بمخرج أيسر مائل"
+      },
+      "after": {
+        "en": "Left Angled-Outlet Fire Hose Valve — S-024 / S-025 / S-026",
+        "ar": "صمام خرطوم حريق بمخرج أيسر مائل — S-024 / S-025 / S-026"
+      },
+      "references": "S-024 / S-025 / S-026",
+      "optionsUnchanged": [
+        "S-024: inlet 2.5 in BSP; outlet 2.5 in BSP",
+        "S-025: inlet 2.5 in BSP; outlet 2.5 in NH",
+        "S-026: inlet 2.5 in NPT; outlet 2.5 in NH"
+      ]
+    },
+    {
+      "series": "catalog-brass-finish-hose-valves-page-08",
+      "key": "p08-04",
+      "before": {
+        "en": "Brass-Finish Barrel-Body Male-Threaded Bottom-Inlet Fire Hose Valve",
+        "ar": "صمام خرطوم حريق بتشطيب نحاسي بجسم أسطواني بمدخل سفلي ملولب خارجي"
+      },
+      "after": {
+        "en": "Male-Threaded Bottom-Inlet Fire Hose Valve — S-040 / S-041",
+        "ar": "صمام خرطوم حريق بمدخل سفلي وسن خارجي — S-040 / S-041"
+      },
+      "references": "S-040 / S-041",
+      "optionsUnchanged": [
+        "S-040: inlet 1.5 in BSP; outlet 1.5 in BSP",
+        "S-041: inlet 1.5 in NPT; outlet 1.5 in BSP"
+      ]
+    },
+    {
+      "series": "catalog-brass-finish-hose-valves-page-08",
+      "key": "p08-05",
+      "before": {
+        "en": "Brass-Finish Barrel-Body Female-Threaded Bottom-Inlet Fire Hose Valve",
+        "ar": "صمام خرطوم حريق بتشطيب نحاسي بجسم أسطواني بمدخل سفلي ملولب داخلي"
+      },
+      "after": {
+        "en": "Female-Threaded Bottom-Inlet Fire Hose Valve — S-050 / S-051",
+        "ar": "صمام خرطوم حريق بمدخل سفلي وسن داخلي — S-050 / S-051"
+      },
+      "references": "S-050 / S-051",
+      "optionsUnchanged": [
+        "S-050: inlet 1.5 in BSP; outlet 1.5 in BSP",
+        "S-051: inlet 1.5 in NPT; outlet 1.5 in BSP"
+      ]
+    },
+    {
+      "series": "catalog-hose-valves-page-09",
+      "key": "p09-01",
+      "before": {
+        "en": "Brass-Finish Hose-Tail Fire Hose Valve",
+        "ar": "صمام خرطوم حريق بتشطيب نحاسي بنهاية خرطوم"
+      },
+      "after": {
+        "en": "Hose-Tail Fire Hose Valve — S-052",
+        "ar": "صمام خرطوم حريق بنهاية خرطوم — S-052"
+      },
+      "references": "S-052",
+      "optionsUnchanged": [
+        "S-052: inlet 1.5 in BSP; outlet Ø25 mm"
+      ]
+    },
+    {
+      "series": "catalog-hose-valves-page-09",
+      "key": "p09-02",
+      "before": {
+        "en": "Brass-Finish Fire Hose Valve with Silver-Finish Hose Tail",
+        "ar": "صمام خرطوم حريق بتشطيب نحاسي ونهاية خرطوم فضية"
+      },
+      "after": {
+        "en": "Fire Hose Valve with Hose Tail — S-060",
+        "ar": "صمام خرطوم حريق بنهاية خرطوم — S-060"
+      },
+      "references": "S-060",
+      "optionsUnchanged": [
+        "S-060: inlet 1.5 in BSP; outlet Ø45 mm"
+      ]
+    },
+    {
+      "series": "catalog-hose-valves-page-09",
+      "key": "p09-03",
+      "before": {
+        "en": "Brass-Finish Round-Body Female-Threaded Fire Hose Valve",
+        "ar": "صمام خرطوم حريق بتشطيب نحاسي بجسم دائري ملولب داخلياً"
+      },
+      "after": {
+        "en": "Round-Body Female-Threaded Fire Hose Valve — US-026 / US-027",
+        "ar": "صمام خرطوم حريق بجسم دائري ملولب داخلياً — US-026 / US-027"
+      },
+      "references": "US-026 / US-027",
+      "optionsUnchanged": [
+        "US-026: inlet 1.5 in NPT; outlet 1.5 in NPT",
+        "US-027: inlet 1.5 in BSP; outlet 1.5 in BSP"
+      ]
+    },
+    {
+      "series": "catalog-hose-valves-page-09",
+      "key": "p09-04",
+      "before": {
+        "en": "Brass-Finish Barrel-Body Right-Outlet Fire Hose Valve",
+        "ar": "صمام خرطوم حريق بتشطيب نحاسي بجسم أسطواني بمخرج أيمن"
+      },
+      "after": {
+        "en": "Barrel-Body Right-Outlet Fire Hose Valve — US-030 / US-031",
+        "ar": "صمام خرطوم حريق بجسم أسطواني بمخرج أيمن — US-030 / US-031"
+      },
+      "references": "US-030 / US-031",
+      "optionsUnchanged": [
+        "US-030: inlet 1.5 in NPT; outlet 1.5 in NPT",
+        "US-031: inlet 1.5 in NPT; outlet 1.5 in NH"
+      ]
+    },
+    {
+      "series": "catalog-hose-valves-page-09",
+      "key": "p09-05",
+      "before": {
+        "en": "Brass-Finish Barrel-Body Left-Outlet Fire Hose Valve",
+        "ar": "صمام خرطوم حريق بتشطيب نحاسي بجسم أسطواني بمخرج أيسر"
+      },
+      "after": {
+        "en": "Barrel-Body Left-Outlet Fire Hose Valve — US-032 / US-033",
+        "ar": "صمام خرطوم حريق بجسم أسطواني بمخرج أيسر — US-032 / US-033"
+      },
+      "references": "US-032 / US-033",
+      "optionsUnchanged": [
+        "US-032: inlet 1.5 in NPT; outlet 1.5 in NH",
+        "US-033: inlet 2 in NPT; outlet 2 in NH"
+      ]
+    },
+    {
+      "series": "catalog-hose-valves-page-10",
+      "key": "p10-01",
+      "before": {
+        "en": "Red-Handwheel Brass-Finish Female-Threaded Fire Hose Valve",
+        "ar": "صمام خرطوم حريق بعجلة تشغيل حمراء بتشطيب نحاسي ملولب داخلياً"
+      },
+      "after": {
+        "en": "Female-Threaded Fire Hose Valve — US-040 / US-041 / US-042",
+        "ar": "صمام خرطوم حريق بسن داخلي — US-040 / US-041 / US-042"
+      },
+      "references": "US-040 / US-041 / US-042",
+      "optionsUnchanged": [
+        "US-040: inlet 1.5 in NPT; outlet 1.5 in NPT",
+        "US-041: inlet 2.5 in NPT; outlet 2.5 in NPT",
+        "US-042: inlet 2.5 in BSP; outlet 2.5 in NPT"
+      ]
+    },
+    {
+      "series": "catalog-hose-valves-page-10",
+      "key": "p10-02",
+      "before": {
+        "en": "Red-Handwheel Brass-Finish Capped Fire Hose Valve",
+        "ar": "صمام خرطوم حريق بعجلة تشغيل حمراء بتشطيب نحاسي مزود بغطاء"
+      },
+      "after": {
+        "en": "Capped Fire Hose Valve — US-043 / US-044",
+        "ar": "صمام خرطوم حريق بغطاء — US-043 / US-044"
+      },
+      "references": "US-043 / US-044",
+      "optionsUnchanged": [
+        "US-043: inlet 1.5 in NPT; outlet 1.5 in NH",
+        "US-044: inlet 2.5 in NPT; outlet 2.5 in NH"
+      ]
+    },
+    {
+      "series": "catalog-hose-valves-page-10",
+      "key": "p10-03",
+      "before": {
+        "en": "Black-Handwheel Brass-Finish Top-Latch Fire Hose Valve",
+        "ar": "صمام خرطوم حريق بعجلة تشغيل سوداء بتشطيب نحاسي بقفل علوي"
+      },
+      "after": {
+        "en": "Top-Latch BS336 Fire Hose Valve — S-031 / S-032 / S-033",
+        "ar": "صمام خرطوم حريق بقفل علوي ووصلة BS336 — S-031 / S-032 / S-033"
+      },
+      "references": "S-031 / S-032 / S-033",
+      "optionsUnchanged": [
+        "S-031: inlet 2.5 in BSP; outlet 2.5 in BS336",
+        "S-032: inlet 3 in BSP; outlet 2.5 in BS336",
+        "S-033: inlet 2.5 in BS4504; outlet 2.5 in BS336"
+      ]
+    },
+    {
+      "series": "catalog-hose-valves-page-10",
+      "key": "p10-04",
+      "before": {
+        "en": "Black-Handwheel Brass-Finish Red-End Latch Fire Hose Valve",
+        "ar": "صمام خرطوم حريق بعجلة تشغيل سوداء بتشطيب نحاسي بقفل طرفي أحمر"
+      },
+      "after": {
+        "en": "Latch-Outlet BS336 Fire Hose Valve — S-034 / S-035",
+        "ar": "صمام خرطوم حريق بمخرج قفل BS336 — S-034 / S-035"
+      },
+      "references": "S-034 / S-035",
+      "optionsUnchanged": [
+        "S-034: inlet 2.5 in BSP; outlet 2.5 in BS336",
+        "S-035: inlet 3 in BSP; outlet 2.5 in BS336"
+      ]
+    },
+    {
+      "series": "catalog-hose-valves-page-10",
+      "key": "p10-05",
+      "before": {
+        "en": "Black-Handwheel Brass-Finish Angled-Outlet Fire Hose Valve",
+        "ar": "صمام خرطوم حريق بعجلة تشغيل سوداء بتشطيب نحاسي بمخرج مائل"
+      },
+      "after": {
+        "en": "Angled-Outlet BS336 Fire Hose Valve — S-070",
+        "ar": "صمام خرطوم حريق بمخرج مائل BS336 — S-070"
+      },
+      "references": "S-070",
+      "optionsUnchanged": [
+        "S-070: inlet 2.5 in BSP; outlet 2.5 in BS336"
+      ]
+    },
+    {
+      "series": "catalog-hose-valves-page-11",
+      "key": "p11-01",
+      "before": {
+        "en": "Black-Handwheel Brass-Finish Flanged Fire Hose Valve",
+        "ar": "صمام خرطوم حريق بعجلة تشغيل سوداء بتشطيب نحاسي فلنجي"
+      },
+      "after": {
+        "en": "Flanged Fire Hose Valve — SF-031 / SF-032 / SF-033 / SF-034 / SF-035",
+        "ar": "صمام خرطوم حريق بمدخل فلنجي — SF-031 / SF-032 / SF-033 / SF-034 / SF-035"
+      },
+      "references": "SF-031 / SF-032 / SF-033 / SF-034 / SF-035",
+      "optionsUnchanged": [
+        "SF-031: inlet 2.5 in BS4504; outlet 2.5 in BSP",
+        "SF-032: inlet 2.5 in BS4504; outlet 2.5 in Storz",
+        "SF-033: inlet 2.5 in BS4504; outlet 2.5 in BS336",
+        "SF-034: inlet 2.5 in JIS 10K; outlet 2.5 in Storz",
+        "SF-035: inlet 2.5 in JIS 10K; outlet 2.5 in BSP"
+      ]
+    },
+    {
+      "series": "catalog-hose-valves-page-11",
+      "key": "p11-02",
+      "before": {
+        "en": "Red-Handwheel Silver-Finish Straight-Outlet Fire Hose Valve",
+        "ar": "صمام خرطوم حريق بعجلة تشغيل حمراء بتشطيب فضي بمخرج مستقيم"
+      },
+      "after": {
+        "en": "JIS Fire Hose Valve — MS-011 / MS-012 / MS-013 / MS-014",
+        "ar": "صمام خرطوم حريق بوصلة JIS — MS-011 / MS-012 / MS-013 / MS-014"
+      },
+      "references": "MS-011 / MS-012 / MS-013 / MS-014",
+      "optionsUnchanged": [
+        "MS-011: inlet 1.5 in BSP; outlet 1.5 in JIS",
+        "MS-012: inlet 1.5 in NPT; outlet 1.5 in JIS",
+        "MS-013: inlet 2.5 in BSP; outlet 2.5 in JIS",
+        "MS-014: inlet 2.5 in NPT; outlet 2.5 in JIS"
+      ]
+    },
+    {
+      "series": "catalog-hose-valves-page-11",
+      "key": "p11-03",
+      "before": {
+        "en": "Red-Handwheel Silver-Finish Latch-Coupled Fire Hose Valve",
+        "ar": "صمام خرطوم حريق بعجلة تشغيل حمراء بتشطيب فضي بوصلة قفل"
+      },
+      "after": {
+        "en": "Latch-Coupled Fire Hose Valve — MS-020 / MS-021",
+        "ar": "صمام خرطوم حريق بوصلة قفل — MS-020 / MS-021"
+      },
+      "references": "MS-020 / MS-021",
+      "optionsUnchanged": [
+        "MS-020: inlet 1.5 in BSP; outlet 1.5",
+        "MS-021: inlet 2.5 in BSP; outlet 2.5"
+      ]
+    },
+    {
+      "series": "catalog-hose-valves-page-11",
+      "key": "p11-04",
+      "before": {
+        "en": "Brass-Finish Fire Hose Valve with Silver-Finish Claw Coupling",
+        "ar": "صمام خرطوم حريق بتشطيب نحاسي ووصلة مخلبية فضية"
+      },
+      "after": {
+        "en": "Storz Fire Hose Valve — DS-040",
+        "ar": "صمام خرطوم حريق بوصلة Storz — DS-040"
+      },
+      "references": "DS-040",
+      "optionsUnchanged": [
+        "DS-040: inlet 2 in BSP; outlet 2 in Storz"
+      ]
+    },
+    {
+      "series": "catalog-hose-valves-page-11",
+      "key": "p11-05",
+      "before": {
+        "en": "Brass-Finish Claw-Coupling Fire Hose Valve",
+        "ar": "صمام خرطوم حريق بوصلة مخلبية وتشطيب نحاسي"
+      },
+      "after": {
+        "en": "GOST Fire Hose Valve — RS-010 / RS-011",
+        "ar": "صمام خرطوم حريق بوصلة GOST — RS-010 / RS-011"
+      },
+      "references": "RS-010 / RS-011",
+      "optionsUnchanged": [
+        "RS-010: inlet 2 in BSP; outlet 2 in GOST",
+        "RS-011: inlet 2.5 in BSP; outlet 2.5 in GOST"
+      ]
+    },
+    {
+      "series": "catalog-hose-valves-page-12",
+      "key": "p12-01",
+      "before": {
+        "en": "Brass-Finish French-Connection Fire Hose Valve",
+        "ar": "صمام خرطوم حريق بتشطيب نحاسي بتوصيل فرنسي"
+      },
+      "after": {
+        "en": "French-Connection Fire Hose Valve — FS-010",
+        "ar": "صمام خرطوم حريق بتوصيل فرنسي — FS-010"
+      },
+      "references": "FS-010",
+      "optionsUnchanged": [
+        "FS-010: inlet 1.5 in BSP; outlet 1.5 in French",
+        "FS-010: inlet 2.5 in BSP; outlet 2.5 in French"
+      ]
+    },
+    {
+      "series": "catalog-hose-valves-page-12",
+      "key": "p12-02",
+      "before": {
+        "en": "Red French-Pattern Capped Fire Hose Valve",
+        "ar": "صمام خرطوم حريق أحمر بالنمط الفرنسي مزود بغطاء"
+      },
+      "after": {
+        "en": "French-Pattern Capped Fire Hose Valve — FS-020 / FS-021",
+        "ar": "صمام خرطوم حريق بالنمط الفرنسي مزود بغطاء — FS-020 / FS-021"
+      },
+      "references": "FS-020 / FS-021",
+      "optionsUnchanged": [
+        "FS-020: inlet 1.5 in BSP; outlet 1.5 in French",
+        "FS-021: inlet 2.5 in BSP; outlet 2.5 in French"
+      ]
+    },
+    {
+      "series": "catalog-hose-valves-page-12",
+      "key": "p12-03",
+      "before": {
+        "en": "Brass-Finish Union Fire Hose Valve",
+        "ar": "صمام خرطوم حريق بتشطيب نحاسي بوصلة اتحاد"
+      },
+      "after": {
+        "en": "Union Fire Hose Valve — FS-033",
+        "ar": "صمام خرطوم حريق بوصلة اتحاد — FS-033"
+      },
+      "references": "FS-033",
+      "optionsUnchanged": [
+        "FS-033: inlet DN33 in BSP; outlet DN33 in BSP"
+      ]
+    },
+    {
+      "series": "catalog-hose-valves-page-12",
+      "key": "p12-04",
+      "before": {
+        "en": "Red Angled-Outlet Fire Hose Valve",
+        "ar": "صمام خرطوم حريق أحمر بمخرج مائل"
+      },
+      "after": {
+        "en": "NH Fire Hose Valve — BS-010 / BS-011 / BS-012",
+        "ar": "صمام خرطوم حريق بمخرج NH — BS-010 / BS-011 / BS-012"
+      },
+      "references": "BS-010 / BS-011 / BS-012",
+      "optionsUnchanged": [
+        "BS-010: inlet Ø76 mm; outlet 2.5 in NH",
+        "BS-011: inlet Ø73 mm; outlet 2.5 in NH",
+        "BS-012: inlet 73Grooved; outlet 2.5 in NH"
+      ]
+    },
+    {
+      "series": "catalog-hose-valves-page-12",
+      "key": "p12-05",
+      "before": {
+        "en": "Brass-Finish With Locking Ring Capped Fire Hose Valve",
+        "ar": "صمام خرطوم حريق بتشطيب نحاسي مع حلقة قفل مزود بغطاء"
+      },
+      "after": {
+        "en": "Capped Fire Hose Valve with Locking Ring — US-045 / US-046 / US-047 / US-048",
+        "ar": "صمام خرطوم حريق مع حلقة قفل مزود بغطاء — US-045 / US-046 / US-047 / US-048"
+      },
+      "references": "US-045 / US-046 / US-047 / US-048",
+      "optionsUnchanged": [
+        "US-045: inlet 1.5 in NPT; outlet 1.5 in NH",
+        "US-046: inlet 2.5 in NPT; outlet 2.5 in NH",
+        "US-047: inlet 2.5 in NPT; outlet 2.5 in BSP",
+        "US-048: inlet 2.5 in BSP; outlet 2.5 in BSP"
+      ]
+    },
+    {
+      "series": "catalog-twin-outlet-fire-connections-page-13",
+      "key": "p13-01",
+      "before": {
+        "en": "Brass-Finish Twin-Connection Flanged-Base Fire Department Connection",
+        "ar": "وصلة تزويد نظام الحريق بالمياه بتشطيب نحاسي ثنائي التوصيل بقاعدة فلنجية"
+      },
+      "after": {
+        "en": "Twin-Connection Flanged-Base Fire Department Connection — UF-020 / UF-022",
+        "ar": "وصلة تزويد نظام الحريق بالمياه ثنائي التوصيل بقاعدة فلنجية — UF-020 / UF-022"
+      },
+      "references": "UF-020 / UF-022",
+      "optionsUnchanged": [
+        "UF-020: inlet 4 in NPT; outlet 2.5 in BS336",
+        "UF-022: inlet 4 in BSP; outlet 2.5 in BS336"
+      ]
+    },
+    {
+      "series": "catalog-twin-outlet-fire-connections-page-13",
+      "key": "p13-02",
+      "before": {
+        "en": "Brass-Finish Twin-Cap Heavy-Base Fire Department Connection",
+        "ar": "وصلة تزويد نظام الحريق بالمياه بتشطيب نحاسي بغطاءين بقاعدة سميكة"
+      },
+      "after": {
+        "en": "Twin-Cap Heavy-Base Fire Department Connection — UF-023 / UF-024",
+        "ar": "وصلة تزويد نظام الحريق بالمياه بغطاءين بقاعدة سميكة — UF-023 / UF-024"
+      },
+      "references": "UF-023 / UF-024",
+      "optionsUnchanged": [
+        "UF-023: inlet 6 in NPT; outlet 2.5 in NH",
+        "UF-024: inlet 6 in BSP; outlet 2.5 in NH"
+      ]
+    },
+    {
+      "series": "catalog-twin-outlet-fire-connections-page-13",
+      "key": "p13-03",
+      "before": {
+        "en": "Brass-Finish Twin-Cap Flanged-Base Fire Department Connection",
+        "ar": "وصلة تزويد نظام الحريق بالمياه بتشطيب نحاسي بغطاءين بقاعدة فلنجية"
+      },
+      "after": {
+        "en": "Twin-Cap Flanged-Base Fire Department Connection — UF-025 / UF-026",
+        "ar": "وصلة تزويد نظام الحريق بالمياه بغطاءين بقاعدة فلنجية — UF-025 / UF-026"
+      },
+      "references": "UF-025 / UF-026",
+      "optionsUnchanged": [
+        "UF-025: inlet 4 in NPT; outlet 2.5 in NH",
+        "UF-026: inlet 4 in BSP; outlet 4 in BSP"
+      ]
+    },
+    {
+      "series": "catalog-twin-outlet-fire-connections-page-13",
+      "key": "p13-04",
+      "before": {
+        "en": "Brass-Finish Twin Male-Threaded Fire Department Connection",
+        "ar": "وصلة تزويد نظام الحريق بالمياه بتشطيب نحاسي بلولبين خارجيين"
+      },
+      "after": {
+        "en": "Twin Male-Threaded Fire Department Connection — UF-030 / UF-031",
+        "ar": "وصلة تزويد نظام الحريق بالمياه بلولبين خارجيين — UF-030 / UF-031"
+      },
+      "references": "UF-030 / UF-031",
+      "optionsUnchanged": [
+        "UF-030: inlet 4 in BSP; outlet 2.5 in BSP",
+        "UF-031: inlet 4 in NPT; outlet 2.5 in NH"
+      ]
+    },
+    {
+      "series": "catalog-hydrant-auxiliary-valves-page-14",
+      "key": "p14-01",
+      "before": {
+        "en": "Red Horizontal-Handwheel Brass-Finish Black-Cap Fire Hose Valve",
+        "ar": "صمام خرطوم حريق أحمر بعجلة تشغيل أفقية بتشطيب نحاسي بغطاء أسود"
+      },
+      "after": {
+        "en": "Horizontal-Handwheel Fire Hose Valve — GV-011 / GV-012",
+        "ar": "صمام خرطوم حريق بعجلة تشغيل أفقية — GV-011 / GV-012"
+      },
+      "references": "GV-011 / GV-012",
+      "optionsUnchanged": [
+        "GV-011: inlet 2.5 in BSP; outlet 2.5 in BS336",
+        "GV-012: inlet 2.5 in BS4504; outlet 2.5 in BS336"
+      ]
+    },
+    {
+      "series": "catalog-hydrant-auxiliary-valves-page-14",
+      "key": "p14-02",
+      "before": {
+        "en": "Red Horizontal-Handwheel Brass-Finish Brass-Finish Cap Fire Hose Valve",
+        "ar": "صمام خرطوم حريق أحمر بعجلة تشغيل أفقية بتشطيب نحاسي بغطاء نحاسي المظهر"
+      },
+      "after": {
+        "en": "Horizontal-Handwheel Fire Hose Valve — GV-013",
+        "ar": "صمام خرطوم حريق بعجلة تشغيل أفقية — GV-013"
+      },
+      "references": "GV-013",
+      "optionsUnchanged": [
+        "GV-013: inlet 2.5 in NPT; outlet 2.5 in NH"
+      ]
+    },
+    {
+      "series": "catalog-hydrant-auxiliary-valves-page-14",
+      "key": "p14-03",
+      "before": {
+        "en": "Brass-Finish With Pressure Gauge Valve",
+        "ar": "صمام بتشطيب نحاسي مع مقياس ضغط"
+      },
+      "after": {
+        "en": "Valve with Pressure Gauge — S-131",
+        "ar": "صمام مع مقياس ضغط — S-131"
+      },
+      "references": "S-131",
+      "optionsUnchanged": [
+        "S-131: inlet 1 in BSP; outlet 1 in BSP",
+        "S-131: inlet 1.5 in BSP; outlet 1.5 in BSP"
+      ]
+    },
+    {
+      "series": "catalog-hydrant-auxiliary-valves-page-14",
+      "key": "p14-04",
+      "before": {
+        "en": "White-and-Red-Handwheel Brass-Finish Straight-Through Valve",
+        "ar": "صمام مستقيم بعجلة تشغيل بيضاء وحمراء بتشطيب نحاسي"
+      },
+      "after": {
+        "en": "Straight-Through Handwheel Valve — BV-014",
+        "ar": "صمام مستقيم بعجلة تشغيل — BV-014"
+      },
+      "references": "BV-014",
+      "optionsUnchanged": [
+        "BV-014: inlet 1 in -4 in BSP; outlet 1 in -4 in BSP; alternate 1 in -4 in NPT / 1 in -4 in NPT"
+      ]
+    },
+    {
+      "series": "catalog-hydrant-auxiliary-valves-page-14",
+      "key": "p14-05",
+      "before": {
+        "en": "Long-Lever Brass-Finish Ball Valve",
+        "ar": "صمام كروي بذراع طويل بتشطيب نحاسي"
+      },
+      "after": {
+        "en": "Long-Lever Ball Valve — BV-010 / BV-011 / BV-012 / BV-013",
+        "ar": "صمام كروي بذراع طويل — BV-010 / BV-011 / BV-012 / BV-013"
+      },
+      "references": "BV-010 / BV-011 / BV-012 / BV-013",
+      "optionsUnchanged": [
+        "BV-010: inlet 1 in BSP; outlet 1 in BSP",
+        "BV-011: inlet 1.2 in BSP; outlet 1.2 in BSP",
+        "BV-012: inlet 1.5 in BSP; outlet 1.5 in BSP",
+        "BV-013: inlet 2 in BSP; outlet 2 in BSP"
+      ]
+    },
+    {
+      "series": "catalog-fire-connections-distributors-page-15",
+      "key": "p15-01",
+      "before": {
+        "en": "Red Two-Way Flanged Fire Department Connection",
+        "ar": "وصلة تزويد نظام الحريق بالمياه أحمر ثنائي المداخل فلنجي"
+      },
+      "after": {
+        "en": "Two-Way Flanged Fire Department Connection — GS-010",
+        "ar": "وصلة تزويد مياه الحريق بمدخلين وبقاعدة فلنجية — GS-010"
+      },
+      "references": "GS-010",
+      "optionsUnchanged": [
+        "GS-010: inlet 2.5 in BS336; outlet 4 in (100 mm)"
+      ]
+    },
+    {
+      "series": "catalog-fire-connections-distributors-page-15",
+      "key": "p15-02",
+      "before": {
+        "en": "Red Four-Way Fire Department Connection",
+        "ar": "وصلة تزويد نظام الحريق بالمياه أحمر رباعي المداخل"
+      },
+      "after": {
+        "en": "Four-Way Fire Department Connection — MD-020",
+        "ar": "وصلة تزويد مياه الحريق بأربعة مداخل — MD-020"
+      },
+      "references": "MD-020",
+      "optionsUnchanged": [
+        "MD-020: inlet 2.5 in BS336; outlet 6 in (150 mm)"
+      ]
+    },
+    {
+      "series": "catalog-fire-connections-distributors-page-15",
+      "key": "p15-03",
+      "before": {
+        "en": "Red Twin-Lever Two-Way Fire Hose Distributor",
+        "ar": "موزع خرطوم حريق ثنائي الاتجاه أحمر بذراعين"
+      },
+      "after": {
+        "en": "Twin-Lever Two-Way Fire Hose Distributor — UF-043",
+        "ar": "موزع خرطوم حريق ثنائي الاتجاه بذراعين — UF-043"
+      },
+      "references": "UF-043",
+      "optionsUnchanged": [
+        "UF-043: inlet 4 in NH; outlet 2.5 in NH"
+      ]
+    },
+    {
+      "series": "catalog-fire-connections-distributors-page-15",
+      "key": "p15-04",
+      "before": {
+        "en": "Red Twin-Handwheel Flanged Two-Way Fire Hose Distributor",
+        "ar": "موزع خرطوم حريق ثنائي الاتجاه أحمر بعجلتي تشغيل فلنجي"
+      },
+      "after": {
+        "en": "Twin-Handwheel Flanged Two-Way Fire Hose Distributor — RHS-010",
+        "ar": "موزع خرطوم حريق ثنائي الاتجاه بعجلتي تشغيل فلنجي — RHS-010"
+      },
+      "references": "RHS-010",
+      "optionsUnchanged": [
+        "RHS-010: inlet 4 in (100 mm); outlet 4 in (100 mm)"
+      ]
+    },
+    {
+      "series": "catalog-fire-connections-distributors-page-15",
+      "key": "p15-05",
+      "before": {
+        "en": "Red-and-Brass-Finish Twin-Valve Two-Way Fire Hose Distributor",
+        "ar": "موزع خرطوم حريق ثنائي الاتجاه أحمر وبتشطيب نحاسي بصمامين"
+      },
+      "after": {
+        "en": "Twin-Valve Two-Way Fire Hose Distributor — SF-040 / SF-041",
+        "ar": "موزع خرطوم حريق ثنائي الاتجاه بصمامين — SF-040 / SF-041"
+      },
+      "references": "SF-040 / SF-041",
+      "optionsUnchanged": [
+        "SF-040: inlet 2.5 in BSP; outlet 1.5 in French",
+        "SF-041: inlet 4 in BSP; outlet 2.5 in French"
+      ]
+    },
+    {
+      "series": "catalog-long-straight-stream-nozzles-page-16",
+      "key": "p16-01",
+      "before": {
+        "en": "Brass-Finish Long Straight-Stream Fire Hose Nozzle",
+        "ar": "فوهة خرطوم حريق ذات نفث مستقيم بتشطيب نحاسي طويل"
+      },
+      "after": {
+        "en": "Long Straight-Stream Fire Hose Nozzle — UN-063 / UN-064",
+        "ar": "فوهة خرطوم حريق ذات نفث مستقيم طويل — UN-063 / UN-064"
+      },
+      "references": "UN-063 / UN-064",
+      "optionsUnchanged": [
+        "UN-063: inlet 1.5 in NH",
+        "UN-064: inlet 2.5 in NH"
+      ]
+    },
+    {
+      "series": "catalog-long-straight-stream-nozzles-page-16",
+      "key": "p16-02",
+      "before": {
+        "en": "Brass-Finish Tapered Straight-Stream Fire Hose Nozzle",
+        "ar": "فوهة خرطوم حريق ذات نفث مستقيم بتشطيب نحاسي مخروطي"
+      },
+      "after": {
+        "en": "Tapered Straight-Stream Fire Hose Nozzle — UN-064",
+        "ar": "فوهة خرطوم حريق ذات نفث مستقيم مخروطي — UN-064"
+      },
+      "references": "UN-064",
+      "optionsUnchanged": [
+        "UN-064: inlet 1.5 in NH"
+      ]
+    },
+    {
+      "series": "catalog-long-straight-stream-nozzles-page-16",
+      "key": "p16-03",
+      "before": {
+        "en": "Silver-Finish Long Straight-Stream Fire Hose Nozzle",
+        "ar": "فوهة خرطوم حريق ذات نفث مستقيم بتشطيب فضي طويل"
+      },
+      "after": {
+        "en": "Long Straight-Stream Fire Hose Nozzle — MN-010 / MN-011",
+        "ar": "فوهة خرطوم حريق ذات نفث مستقيم طويل — MN-010 / MN-011"
+      },
+      "references": "MN-010 / MN-011",
+      "optionsUnchanged": [
+        "MN-010: inlet 1.5 in",
+        "MN-011: inlet 2.5 in"
+      ]
+    },
+    {
+      "series": "catalog-long-straight-stream-nozzles-page-16",
+      "key": "p16-04",
+      "before": {
+        "en": "Silver-Finish Head Brass-Finish Long Straight-Stream Fire Hose Nozzle",
+        "ar": "فوهة خرطوم حريق ذات نفث مستقيم برأس فضي بتشطيب نحاسي طويل"
+      },
+      "after": {
+        "en": "Long Straight-Stream Fire Hose Nozzle — MN-011 / MN-012",
+        "ar": "فوهة خرطوم حريق طويلة ذات نفث مستقيم — MN-011 / MN-012"
+      },
+      "references": "MN-011 / MN-012",
+      "optionsUnchanged": [
+        "MN-011: inlet 1.5 in",
+        "MN-012: inlet 2.5 in"
+      ]
+    },
+    {
+      "series": "catalog-compact-straight-stream-nozzles-page-17",
+      "key": "p17-01",
+      "before": {
+        "en": "Silver-Finish Compact Straight-Stream Fire Hose Nozzle",
+        "ar": "فوهة خرطوم حريق ذات نفث مستقيم بتشطيب فضي مدمج"
+      },
+      "after": {
+        "en": "Compact Straight-Stream Fire Hose Nozzle — GN-010",
+        "ar": "فوهة خرطوم حريق ذات نفث مستقيم مدمج — GN-010"
+      },
+      "references": "GN-010",
+      "optionsUnchanged": [
+        "GN-010: inlet 2.5 in BS336"
+      ]
+    },
+    {
+      "series": "catalog-compact-straight-stream-nozzles-page-17",
+      "key": "p17-02",
+      "before": {
+        "en": "Brass-Finish Compact Straight-Stream Fire Hose Nozzle",
+        "ar": "فوهة خرطوم حريق ذات نفث مستقيم بتشطيب نحاسي مدمج"
+      },
+      "after": {
+        "en": "Compact Straight-Stream Fire Hose Nozzle — GN-020",
+        "ar": "فوهة خرطوم حريق ذات نفث مستقيم مدمج — GN-020"
+      },
+      "references": "GN-020",
+      "optionsUnchanged": [
+        "GN-020: inlet 2.5 in BS336"
+      ]
+    },
+    {
+      "series": "catalog-compact-straight-stream-nozzles-page-17",
+      "key": "p17-03",
+      "before": {
+        "en": "Silver-Finish Tapered Claw-Coupled Fire Hose Nozzle",
+        "ar": "فوهة خرطوم حريق بتشطيب فضي مخروطي بوصلة مخلبية"
+      },
+      "after": {
+        "en": "Tapered Claw-Coupled Fire Hose Nozzle — RN-010 / RN-011",
+        "ar": "فوهة خرطوم حريق مخروطي بوصلة مخلبية — RN-010 / RN-011"
+      },
+      "references": "RN-010 / RN-011",
+      "optionsUnchanged": [
+        "RN-010: inlet 2 in",
+        "RN-011: inlet 2.5 in"
+      ]
+    },
+    {
+      "series": "catalog-compact-straight-stream-nozzles-page-17",
+      "key": "p17-04",
+      "before": {
+        "en": "Silver-Finish Segmented Claw-Coupled Fire Hose Nozzle",
+        "ar": "فوهة خرطوم حريق بتشطيب فضي مجزأ بوصلة مخلبية"
+      },
+      "after": {
+        "en": "Segmented Claw-Coupled Fire Hose Nozzle — RN-012 / RN-013",
+        "ar": "فوهة خرطوم حريق مجزأ بوصلة مخلبية — RN-012 / RN-013"
+      },
+      "references": "RN-012 / RN-013",
+      "optionsUnchanged": [
+        "RN-012: inlet 2 in",
+        "RN-013: inlet 2.5 in"
+      ]
+    },
+    {
+      "series": "catalog-compact-straight-stream-nozzles-page-17",
+      "key": "p17-05",
+      "before": {
+        "en": "Brass-Finish Double-Lug Straight-Stream Fire Hose Nozzle",
+        "ar": "فوهة خرطوم حريق ذات نفث مستقيم بتشطيب نحاسي مزدوج العروات"
+      },
+      "after": {
+        "en": "Double-Lug Straight-Stream Fire Hose Nozzle — UN-061",
+        "ar": "فوهة خرطوم حريق ذات نفث مستقيم مزدوج العروات — UN-061"
+      },
+      "references": "UN-061",
+      "optionsUnchanged": [
+        "UN-061: inlet 2.5 in NH"
+      ]
+    },
+    {
+      "series": "catalog-coupled-lever-nozzles-page-18",
+      "key": "p18-01",
+      "before": {
+        "en": "Brass-Finish Slim Long Double-Lug Fire Hose Nozzle",
+        "ar": "فوهة خرطوم حريق بتشطيب نحاسي طويل ونحيف مزدوج العروات"
+      },
+      "after": {
+        "en": "Slim Long Double-Lug Fire Hose Nozzle — UN-062",
+        "ar": "فوهة خرطوم حريق طويل ونحيف مزدوج العروات — UN-062"
+      },
+      "references": "UN-062",
+      "optionsUnchanged": [
+        "UN-062: inlet 1.5 in NH"
+      ]
+    },
+    {
+      "series": "catalog-coupled-lever-nozzles-page-18",
+      "key": "p18-02",
+      "before": {
+        "en": "Brass-Finish Segmented Claw-Coupled Fire Hose Nozzle",
+        "ar": "فوهة خرطوم حريق بتشطيب نحاسي مجزأ بوصلة مخلبية"
+      },
+      "after": {
+        "en": "Segmented Claw-Coupled Fire Hose Nozzle — DN-030 / DN-031 / DN-032",
+        "ar": "فوهة خرطوم حريق مجزأ بوصلة مخلبية — DN-030 / DN-031 / DN-032"
+      },
+      "references": "DN-030 / DN-031 / DN-032",
+      "optionsUnchanged": [
+        "DN-030: inlet 1.5 in",
+        "DN-031: inlet 2 in",
+        "DN-032: inlet 2.5 in"
+      ]
+    },
+    {
+      "series": "catalog-coupled-lever-nozzles-page-18",
+      "key": "p18-03",
+      "before": {
+        "en": "Black-Grip Disc-Base Shutoff Fire Hose Nozzle",
+        "ar": "فوهة خرطوم حريق مزودة بصمام إغلاق بمقبض أسود بقاعدة قرصية"
+      },
+      "after": {
+        "en": "Disc-Base Shutoff Fire Hose Nozzle — DN-010 / DN-011 / DN-012",
+        "ar": "فوهة خرطوم حريق بصمام إغلاق وقاعدة قرصية — DN-010 / DN-011 / DN-012"
+      },
+      "references": "DN-010 / DN-011 / DN-012",
+      "optionsUnchanged": [
+        "DN-010: inlet 1.5 in",
+        "DN-011: inlet 2 in",
+        "DN-012: inlet 2.5 in"
+      ]
+    },
+    {
+      "series": "catalog-coupled-lever-nozzles-page-18",
+      "key": "p18-04",
+      "before": {
+        "en": "Black-Grip Plug-In Shutoff Fire Hose Nozzle",
+        "ar": "فوهة خرطوم حريق مزودة بصمام إغلاق بمقبض أسود بتوصيل إدخال"
+      },
+      "after": {
+        "en": "Plug-In Shutoff Fire Hose Nozzle — GN-020 / GN-021",
+        "ar": "فوهة خرطوم حريق بصمام إغلاق ووصلة إدخال — GN-020 / GN-021"
+      },
+      "references": "GN-020 / GN-021",
+      "optionsUnchanged": [
+        "GN-020: inlet 2 in",
+        "GN-021: inlet 2.5 in"
+      ]
+    },
+    {
+      "series": "catalog-coupled-lever-nozzles-page-18",
+      "key": "p18-05",
+      "before": {
+        "en": "Silver-Finish Side-Handle Compact Fire Hose Nozzle",
+        "ar": "فوهة خرطوم حريق مدمجة بتشطيب فضي بمقبض جانبي"
+      },
+      "after": {
+        "en": "Side-Handle Compact Fire Hose Nozzle — NP-033",
+        "ar": "فوهة خرطوم حريق مدمجة بمقبض جانبي — NP-033"
+      },
+      "references": "NP-033",
+      "optionsUnchanged": [
+        "NP-033: inlet Ø19 mm; outlet Ø6 mm; alternate 1 in / Ø8 mm"
+      ]
+    },
+    {
+      "series": "catalog-nozzles-inductors-connections-page-19",
+      "key": "p19-01",
+      "before": {
+        "en": "Brass-Finish Lever-Operated Spray Fire Hose Nozzle",
+        "ar": "فوهة رش لخرطوم الحريق بتشطيب نحاسي يعمل بذراع"
+      },
+      "after": {
+        "en": "Lever-Operated Spray Fire Hose Nozzle — NP-034 / NP-035",
+        "ar": "فوهة رش لخرطوم الحريق تعمل بذراع — NP-034 / NP-035"
+      },
+      "references": "NP-034 / NP-035",
+      "optionsUnchanged": [
+        "NP-034: inlet 1.5 in",
+        "NP-035: inlet 2.5 in"
+      ]
+    },
+    {
+      "series": "catalog-nozzles-inductors-connections-page-19",
+      "key": "p19-03",
+      "before": {
+        "en": "Red Foam Inductor Assembly",
+        "ar": "مجموعة محاث رغوة أحمر"
+      },
+      "after": {
+        "en": "Foam Inductor Assembly — HRP-081 / HRP-082 / HRP-083",
+        "ar": "مجموعة محاث رغوة — HRP-081 / HRP-082 / HRP-083"
+      },
+      "references": "HRP-081 / HRP-082 / HRP-083",
+      "optionsUnchanged": [
+        "HRP-081: inlet 2.5 in BSP; outlet 2.5 in BSP",
+        "HRP-082: inlet 2.5 in BS336; outlet 2.5 in BS336",
+        "HRP-083: inlet 2.5 in GOST; outlet 2.5 in GOST"
+      ]
+    },
+    {
+      "series": "catalog-nozzles-inductors-connections-page-19",
+      "key": "p19-04",
+      "before": {
+        "en": "Brass-Finish Three-Connection Fire Department Connection",
+        "ar": "وصلة تزويد نظام الحريق بالمياه بتشطيب نحاسي ثلاثي التوصيل"
+      },
+      "after": {
+        "en": "Three-Connection Fire Department Connection — UF-033",
+        "ar": "وصلة تزويد نظام الحريق بالمياه ثلاثي التوصيل — UF-033"
+      },
+      "references": "UF-033",
+      "optionsUnchanged": [
+        "UF-033: inlet 4 in NH; outlet 2.5 in NH"
+      ]
+    },
+    {
+      "series": "catalog-nozzles-inductors-connections-page-19",
+      "key": "p19-05",
+      "before": {
+        "en": "Silver-Finish Quick-Connect Nozzle Adapter",
+        "ar": "محول فوهة سريع التوصيل بتشطيب فضي"
+      },
+      "after": {
+        "en": "Quick-Connect Nozzle Adapter — UF-033 / UF-034",
+        "ar": "محول فوهة سريع التوصيل — UF-033 / UF-034"
+      },
+      "references": "UF-033 / UF-034",
+      "optionsUnchanged": [
+        "UF-033: inlet 1 in; outlet 15.6 mm",
+        "UF-034: inlet 3/4; outlet 15.6 mm"
+      ]
+    },
+    {
+      "series": "catalog-fire-hose-couplings-page-20",
+      "key": "p20-01",
+      "before": {
+        "en": "Brass-Finish Double-Lug Fire Hose Coupling",
+        "ar": "وصلة خرطوم حريق بتشطيب نحاسي مزدوج العروات"
+      },
+      "after": {
+        "en": "NH Fire Hose Coupling — UHC-010 / UHC-011 / UHC-012",
+        "ar": "وصلة خرطوم حريق NH — UHC-010 / UHC-011 / UHC-012"
+      },
+      "references": "UHC-010 / UHC-011 / UHC-012",
+      "optionsUnchanged": [
+        "UHC-010: inlet 1.5 in NH; outlet 38 mm",
+        "UHC-011: inlet 2 in NH; outlet 51 mm",
+        "UHC-012: inlet 2.5 in NH; outlet 63 mm"
+      ]
+    },
+    {
+      "series": "catalog-fire-hose-couplings-page-20",
+      "key": "p20-02",
+      "before": {
+        "en": "Brass-Finish Claw Fire Hose Coupling",
+        "ar": "وصلة خرطوم حريق بتشطيب نحاسي مخلبي"
+      },
+      "after": {
+        "en": "GOST Fire Hose Coupling — RHC-010 / RHC-011",
+        "ar": "وصلة خرطوم حريق GOST — RHC-010 / RHC-011"
+      },
+      "references": "RHC-010 / RHC-011",
+      "optionsUnchanged": [
+        "RHC-010: inlet 2 in GOST; outlet 51 mm",
+        "RHC-011: inlet 2.5 in GOST; outlet 63 mm"
+      ]
+    },
+    {
+      "series": "catalog-fire-hose-couplings-page-20",
+      "key": "p20-03",
+      "before": {
+        "en": "Brass-Finish Ring-Type Fire Hose Coupling",
+        "ar": "وصلة خرطوم حريق بتشطيب نحاسي حلقي"
+      },
+      "after": {
+        "en": "UNI Fire Hose Coupling — IHC-011 / IHC-012",
+        "ar": "وصلة خرطوم حريق UNI — IHC-011 / IHC-012"
+      },
+      "references": "IHC-011 / IHC-012",
+      "optionsUnchanged": [
+        "IHC-011: inlet UNI45; outlet 45 mm",
+        "IHC-012: inlet UNI70; outlet 70 mm"
+      ]
+    },
+    {
+      "series": "catalog-fire-hose-couplings-page-20",
+      "key": "p20-04",
+      "before": {
+        "en": "Brass-Finish Double-Latch Fire Hose Coupling",
+        "ar": "وصلة خرطوم حريق بتشطيب نحاسي بقفلين"
+      },
+      "after": {
+        "en": "BS336 Fire Hose Coupling — GHC-010 / GHC-011 / GHC-012 / GHC-013 / GHC-014",
+        "ar": "وصلة خرطوم حريق BS336 — GHC-010 / GHC-011 / GHC-012 / GHC-013 / GHC-014"
+      },
+      "references": "GHC-010 / GHC-011 / GHC-012 / GHC-013 / GHC-014",
+      "optionsUnchanged": [
+        "GHC-010: inlet 1.5 in BS336; outlet 38 mm",
+        "GHC-011: inlet 2 in BS336; outlet 51 mm",
+        "GHC-012: inlet 2.5 in BS336; outlet 38 mm",
+        "GHC-013: inlet 2.5 in BS336; outlet 51 mm",
+        "GHC-014: inlet 2.5 in BS336; outlet 63 mm"
+      ]
+    },
+    {
+      "series": "catalog-fire-hose-couplings-page-20",
+      "key": "p20-05",
+      "before": {
+        "en": "Silver-Finish Red-Seal Fire Hose Coupling",
+        "ar": "وصلة خرطوم حريق بتشطيب فضي بحلقة حمراء"
+      },
+      "after": {
+        "en": "Sealed Fire Hose Coupling — MHS-010 / MHS-011",
+        "ar": "وصلة خرطوم حريق بحلقة — MHS-010 / MHS-011"
+      },
+      "references": "MHS-010 / MHS-011",
+      "optionsUnchanged": [
+        "MHS-010: inlet 1.5 in; outlet 38 mm",
+        "MHS-011: inlet 2.5 in; outlet 63 mm"
+      ]
+    },
+    {
+      "series": "catalog-fire-hose-adapters-page-21",
+      "key": "p21-01",
+      "before": {
+        "en": "Brass-Finish Black-Seal Fire Hose Coupling",
+        "ar": "وصلة خرطوم حريق بتشطيب نحاسي بحلقة سوداء"
+      },
+      "after": {
+        "en": "Sealed Fire Hose Coupling — MHS-012 / MHS-013",
+        "ar": "وصلة خرطوم حريق بحلقة — MHS-012 / MHS-013"
+      },
+      "references": "MHS-012 / MHS-013",
+      "optionsUnchanged": [
+        "MHS-012: inlet 1.5 in; outlet 38 mm",
+        "MHS-013: inlet 2.5 in; outlet 63 mm"
+      ]
+    },
+    {
+      "series": "catalog-fire-hose-adapters-page-21",
+      "key": "p21-02",
+      "before": {
+        "en": "Brass-Finish Hexagonal Ring-Type Fire Hose Coupling",
+        "ar": "وصلة خرطوم حريق بتشطيب نحاسي سداسي حلقي"
+      },
+      "after": {
+        "en": "Hexagonal Ring-Type Fire Hose Coupling — SZ-012 / SZ-013 / SZ-014",
+        "ar": "وصلة خرطوم حريق سداسي حلقي — SZ-012 / SZ-013 / SZ-014"
+      },
+      "references": "SZ-012 / SZ-013 / SZ-014",
+      "optionsUnchanged": [
+        "SZ-012: inlet 1.5 in",
+        "SZ-013: inlet 2 in",
+        "SZ-014: inlet 2.5 in"
+      ]
+    },
+    {
+      "series": "catalog-fire-hose-adapters-page-21",
+      "key": "p21-03",
+      "before": {
+        "en": "Brass-Finish Short-Barrel Double-Lug Fire Hose Adapter",
+        "ar": "محول خرطوم حريق بتشطيب نحاسي بجسم قصير مزدوج العروات"
+      },
+      "after": {
+        "en": "Short-Barrel Double-Lug Fire Hose Adapter — UHS-020 / UHS-021 / UHS-022",
+        "ar": "محول خرطوم حريق بجسم قصير مزدوج العروات — UHS-020 / UHS-021 / UHS-022"
+      },
+      "references": "UHS-020 / UHS-021 / UHS-022",
+      "optionsUnchanged": [
+        "UHS-020: inlet 1.5 in NH; outlet 38 mm",
+        "UHS-021: inlet 2 in NH; outlet 51 mm",
+        "UHS-022: inlet 2.5 in NH; outlet 63 mm"
+      ]
+    },
+    {
+      "series": "catalog-fire-hose-adapters-page-21",
+      "key": "p21-04",
+      "before": {
+        "en": "Silver-Finish Double-Lug Fire Hose Adapter",
+        "ar": "محول خرطوم حريق بتشطيب فضي مزدوج العروات"
+      },
+      "after": {
+        "en": "Double-Lug Fire Hose Adapter — UHS-030 / UHS-031 / UHS-032",
+        "ar": "محول خرطوم حريق مزدوج العروات — UHS-030 / UHS-031 / UHS-032"
+      },
+      "references": "UHS-030 / UHS-031 / UHS-032",
+      "optionsUnchanged": [
+        "UHS-030: inlet 1.5 in NH; outlet 38 mm",
+        "UHS-031: inlet 2 in NH; outlet 51 mm",
+        "UHS-032: inlet 2.5 in NH; outlet 63 mm"
+      ]
+    },
+    {
+      "series": "catalog-fire-hose-adapters-page-21",
+      "key": "p21-05",
+      "before": {
+        "en": "Brass-Finish Double-Lug Fire Hose Adapter",
+        "ar": "محول خرطوم حريق بتشطيب نحاسي مزدوج العروات"
+      },
+      "after": {
+        "en": "Double-Lug Fire Hose Adapter — UHC-012 / UHC-013 / UHC-014",
+        "ar": "محول خرطوم حريق مزدوج العروات — UHC-012 / UHC-013 / UHC-014"
+      },
+      "references": "UHC-012 / UHC-013 / UHC-014",
+      "optionsUnchanged": [
+        "UHC-012: inlet 1.5 in NH",
+        "UHC-013: inlet 2 in NH",
+        "UHC-014: inlet 2.5 in NH"
+      ]
+    },
+    {
+      "series": "catalog-compact-spray-nozzles-page-22",
+      "key": "p22-01",
+      "before": {
+        "en": "Brass-Finish Double-Lug Fire Hose Adapter",
+        "ar": "محول خرطوم حريق بتشطيب نحاسي مزدوج العروات"
+      },
+      "after": {
+        "en": "Double-Lug Fire Hose Adapter — UHC-015 / UHC-016",
+        "ar": "محول خرطوم حريق مزدوج العروات — UHC-015 / UHC-016"
+      },
+      "references": "UHC-015 / UHC-016",
+      "optionsUnchanged": [
+        "UHC-015: inlet 1.5 in NH",
+        "UHC-016: inlet 2.5 in NH"
+      ]
+    },
+    {
+      "series": "catalog-compact-spray-nozzles-page-22",
+      "key": "p22-02",
+      "before": {
+        "en": "Brass-Finish Black-Seal Compact Spray Fire Hose Nozzle",
+        "ar": "فوهة رش لخرطوم الحريق بتشطيب نحاسي بحلقة سوداء مدمج"
+      },
+      "after": {
+        "en": "Sealed Compact Spray Fire Hose Nozzle — UN-045 / UN-046 / UN-047 / UN-048",
+        "ar": "فوهة رش لخرطوم الحريق بحلقة مدمج — UN-045 / UN-046 / UN-047 / UN-048"
+      },
+      "references": "UN-045 / UN-046 / UN-047 / UN-048",
+      "optionsUnchanged": [
+        "UN-045: inlet 1 in BSP; outlet 16 mm",
+        "UN-046: inlet 1 in NPT; outlet 16 mm",
+        "UN-047: inlet 1.5 in BSP; outlet 28.5 mm",
+        "UN-048: inlet 1.5 in NPT; outlet 28.5 mm"
+      ]
+    },
+    {
+      "series": "catalog-compact-spray-nozzles-page-22",
+      "key": "p22-03",
+      "before": {
+        "en": "Brass-Finish Double-Lug Base Spray Fire Hose Nozzle",
+        "ar": "فوهة رش لخرطوم الحريق بتشطيب نحاسي بقاعدة مزدوجة العروات"
+      },
+      "after": {
+        "en": "Double-Lug Base Spray Fire Hose Nozzle — UN-048 / UN-049",
+        "ar": "فوهة رش لخرطوم الحريق بقاعدة مزدوجة العروات — UN-048 / UN-049"
+      },
+      "references": "UN-048 / UN-049",
+      "optionsUnchanged": [
+        "UN-048: inlet 2.5 in BSP; outlet 29 mm",
+        "UN-049: inlet 2.5 in NH; outlet 29 mm"
+      ]
+    },
+    {
+      "series": "catalog-compact-spray-nozzles-page-22",
+      "key": "p22-04",
+      "before": {
+        "en": "Black Wide-Head Brass-Finish Fire Hose Nozzle",
+        "ar": "فوهة خرطوم حريق أسود برأس عريض بتشطيب نحاسي"
+      },
+      "after": {
+        "en": "Wide-Head Fire Hose Nozzle — UN-050 / UN-051 / UN-052",
+        "ar": "فوهة خرطوم حريق برأس عريض — UN-050 / UN-051 / UN-052"
+      },
+      "references": "UN-050 / UN-051 / UN-052",
+      "optionsUnchanged": [
+        "UN-050: inlet 1.5 in BSP; outlet 20 mm",
+        "UN-051: inlet 2 in BSP; outlet 28 mm",
+        "UN-052: inlet 2.5 in BSP; outlet 33 mm"
+      ]
+    },
+    {
+      "series": "catalog-compact-spray-nozzles-page-22",
+      "key": "p22-05",
+      "before": {
+        "en": "Brass-Finish Serrated-Tip Black-Seal Fire Hose Nozzle",
+        "ar": "فوهة خرطوم حريق بتشطيب نحاسي بطرف مسنن بحلقة سوداء"
+      },
+      "after": {
+        "en": "Serrated-Tip Sealed Fire Hose Nozzle — UN-053",
+        "ar": "فوهة خرطوم حريق بطرف مسنن بحلقة — UN-053"
+      },
+      "references": "UN-053",
+      "optionsUnchanged": [
+        "UN-053: inlet 1.5 in BSP; outlet 29 mm"
+      ]
+    },
+    {
+      "series": "catalog-red-grip-nozzles-page-23",
+      "key": "p23-01",
+      "before": {
+        "en": "Red Black Head Compact Fire Hose Nozzle",
+        "ar": "فوهة خرطوم حريق أحمر برأس أسود مدمج"
+      },
+      "after": {
+        "en": "Compact Fire Hose Nozzle — NP-010 / NP-011 / NP-012",
+        "ar": "فوهة خرطوم حريق مدمجة — NP-010 / NP-011 / NP-012"
+      },
+      "references": "NP-010 / NP-011 / NP-012",
+      "optionsUnchanged": [
+        "NP-010: inlet 1 in BSP",
+        "NP-011: inlet 1.5 in BSP",
+        "NP-012: inlet 2.5 in BSP"
+      ]
+    },
+    {
+      "series": "catalog-red-grip-nozzles-page-23",
+      "key": "p23-02",
+      "before": {
+        "en": "Red Brass-Finish Tail Compact Fire Hose Nozzle",
+        "ar": "فوهة خرطوم حريق أحمر بنهاية نحاسية المظهر مدمج"
+      },
+      "after": {
+        "en": "Compact Fire Hose Nozzle — NP-020",
+        "ar": "فوهة خرطوم حريق مدمجة — NP-020"
+      },
+      "references": "NP-020",
+      "optionsUnchanged": [
+        "NP-020: inlet 1 in"
+      ]
+    },
+    {
+      "series": "catalog-red-grip-nozzles-page-23",
+      "key": "p23-03",
+      "before": {
+        "en": "Red-Grip Disc-Base Long Fire Hose Nozzle",
+        "ar": "فوهة خرطوم حريق بمقبض أحمر بقاعدة قرصية طويل"
+      },
+      "after": {
+        "en": "Disc-Base Long Fire Hose Nozzle — DN-040 / DN-041 / DN-042",
+        "ar": "فوهة خرطوم حريق طويلة بقاعدة قرصية — DN-040 / DN-041 / DN-042"
+      },
+      "references": "DN-040 / DN-041 / DN-042",
+      "optionsUnchanged": [
+        "DN-040: inlet 1.5 in",
+        "DN-041: inlet 2 in",
+        "DN-042: inlet 2.5 in"
+      ]
+    },
+    {
+      "series": "catalog-red-grip-nozzles-page-23",
+      "key": "p23-04",
+      "before": {
+        "en": "Red-Grip Flat-Base Long Fire Hose Nozzle",
+        "ar": "فوهة خرطوم حريق بمقبض أحمر بقاعدة مسطحة طويل"
+      },
+      "after": {
+        "en": "Flat-Base Long Fire Hose Nozzle — NP-030",
+        "ar": "فوهة خرطوم حريق طويلة بقاعدة مسطحة — NP-030"
+      },
+      "references": "NP-030",
+      "optionsUnchanged": [
+        "NP-030: inlet 2.5 in BSP"
+      ]
+    },
+    {
+      "series": "catalog-red-grip-nozzles-page-23",
+      "key": "p23-05",
+      "before": {
+        "en": "Red-Grip Claw-Coupled Long Fire Hose Nozzle",
+        "ar": "فوهة خرطوم حريق بمقبض أحمر بوصلة مخلبية طويل"
+      },
+      "after": {
+        "en": "GOST Long Fire Hose Nozzle — NP-031 / NP-032",
+        "ar": "فوهة خرطوم حريق طويلة بوصلة GOST — NP-031 / NP-032"
+      },
+      "references": "NP-031 / NP-032",
+      "optionsUnchanged": [
+        "NP-031: inlet 2 in GOST",
+        "NP-032: inlet 2.5 in GOST"
+      ]
+    },
+    {
+      "series": "catalog-hose-tails-adapters-page-24",
+      "key": "p24-01",
+      "before": {
+        "en": "Brass-Finish Hexagonal Hose Tail Coupling",
+        "ar": "وصلة نهاية خرطوم بتشطيب نحاسي سداسي"
+      },
+      "after": {
+        "en": "Hexagonal Hose Tail Coupling — NP-036",
+        "ar": "وصلة نهاية خرطوم سداسي — NP-036"
+      },
+      "references": "NP-036",
+      "optionsUnchanged": [
+        "NP-036: inlet 1 in BSP"
+      ]
+    },
+    {
+      "series": "catalog-hose-tails-adapters-page-24",
+      "key": "p24-02",
+      "before": {
+        "en": "Brass-Finish Knurled Hose Tail Coupling",
+        "ar": "وصلة نهاية خرطوم بتشطيب نحاسي محزز"
+      },
+      "after": {
+        "en": "Knurled Hose Tail Coupling — NP-036",
+        "ar": "وصلة نهاية خرطوم محزز — NP-036"
+      },
+      "references": "NP-036",
+      "optionsUnchanged": [
+        "NP-036: inlet 1 in BSP"
+      ]
+    },
+    {
+      "series": "catalog-hose-tails-adapters-page-24",
+      "key": "p24-03",
+      "before": {
+        "en": "Brass-Finish Double-Lug Hose Tail Coupling",
+        "ar": "وصلة نهاية خرطوم بتشطيب نحاسي مزدوج العروات"
+      },
+      "after": {
+        "en": "Double-Lug Hose Tail Coupling — SP-010",
+        "ar": "وصلة نهاية خرطوم مزدوج العروات — SP-010"
+      },
+      "references": "SP-010",
+      "optionsUnchanged": [
+        "SP-010: inlet 1.5 in NH"
+      ]
+    },
+    {
+      "series": "catalog-hose-tails-adapters-page-24",
+      "key": "p24-04",
+      "before": {
+        "en": "Brass-Finish With Black Cap Fire Hose Adapter",
+        "ar": "محول خرطوم حريق بتشطيب نحاسي مع غطاء أسود"
+      },
+      "after": {
+        "en": "Fire Hose Adapter — GP-010 / GP-011 / GP-012 / GP-013",
+        "ar": "محول خرطوم حريق — GP-010 / GP-011 / GP-012 / GP-013"
+      },
+      "references": "GP-010 / GP-011 / GP-012 / GP-013",
+      "optionsUnchanged": [
+        "GP-010: inlet 1.5 in BSP; outlet 1.5 in BS336",
+        "GP-011: inlet 1.5 in BSP; outlet 2.5 in BS336",
+        "GP-012: inlet 2.5 in BSP; outlet 2.5 in BS336",
+        "GP-013: inlet 2.5 in NPT; outlet 2.5 in BS336"
+      ]
+    },
+    {
+      "series": "catalog-hose-tails-adapters-page-24",
+      "key": "p24-05",
+      "before": {
+        "en": "Silver-Finish Female-Threaded Claw Coupling",
+        "ar": "وصلة بتشطيب فضي ملولب داخلياً مخلبي"
+      },
+      "after": {
+        "en": "Female-Threaded Claw Coupling — SP-031",
+        "ar": "وصلة مخلبية بسن داخلي — SP-031"
+      },
+      "references": "SP-031",
+      "optionsUnchanged": [
+        "SP-031: inlet 1.5 in BSP"
+      ]
+    },
+    {
+      "series": "catalog-hose-tails-adapters-page-24",
+      "key": "p24-06",
+      "before": {
+        "en": "Brass-Finish Female-Threaded Claw Coupling",
+        "ar": "وصلة بتشطيب نحاسي ملولب داخلياً مخلبي"
+      },
+      "after": {
+        "en": "Female-Threaded GOST Coupling — SP-025 / SP-026",
+        "ar": "وصلة GOST بسن داخلي — SP-025 / SP-026"
+      },
+      "references": "SP-025 / SP-026",
+      "optionsUnchanged": [
+        "SP-025: inlet 2 in BSP; outlet 2 in GOST",
+        "SP-026: inlet 2.5 in BSP; outlet 2.5 in GOST"
+      ]
+    },
+    {
+      "series": "catalog-threaded-adapters-caps-page-25",
+      "key": "p25-01",
+      "before": {
+        "en": "Brass-Finish Female-Threaded Twin-Claw Coupling",
+        "ar": "وصلة بتشطيب نحاسي ملولب داخلياً ثنائي المخالب"
+      },
+      "after": {
+        "en": "Female-Threaded Twin-Claw Coupling — SP-027 / SP-028",
+        "ar": "وصلة ثنائية المخالب بسن داخلي — SP-027 / SP-028"
+      },
+      "references": "SP-027 / SP-028",
+      "optionsUnchanged": [
+        "SP-027: inlet 2 in BSP; outlet 2 in",
+        "SP-028: inlet 2.5 in BSP; outlet 2.5 in"
+      ]
+    },
+    {
+      "series": "catalog-threaded-adapters-caps-page-25",
+      "key": "p25-02",
+      "before": {
+        "en": "Silver-Finish Female-Threaded Twin-Claw Coupling",
+        "ar": "وصلة بتشطيب فضي ملولب داخلياً ثنائي المخالب"
+      },
+      "after": {
+        "en": "Female-Threaded GOST Coupling — SP-029 / SP-030",
+        "ar": "وصلة GOST بسن داخلي — SP-029 / SP-030"
+      },
+      "references": "SP-029 / SP-030",
+      "optionsUnchanged": [
+        "SP-029: inlet 2 in BSP; outlet 2 in GOST",
+        "SP-030: inlet 2.5 in BSP; outlet 2.5 in GOST"
+      ]
+    },
+    {
+      "series": "catalog-threaded-adapters-caps-page-25",
+      "key": "p25-03",
+      "before": {
+        "en": "Brass-Finish Female-Threaded Disc-Type Coupling",
+        "ar": "وصلة بتشطيب نحاسي ملولب داخلياً قرصي"
+      },
+      "after": {
+        "en": "Female-Threaded Storz Coupling — SP-035 / SP-036",
+        "ar": "وصلة Storz بسن داخلي — SP-035 / SP-036"
+      },
+      "references": "SP-035 / SP-036",
+      "optionsUnchanged": [
+        "SP-035: inlet 2 in BSP; outlet 2 in Storz",
+        "SP-036: inlet 2.5 in BSP; outlet 2.5 in Storz"
+      ]
+    },
+    {
+      "series": "catalog-threaded-adapters-caps-page-25",
+      "key": "p25-04",
+      "before": {
+        "en": "Brass-Finish Chained Blank-Cap Coupling",
+        "ar": "وصلة غطاء أعمى بسلسلة بتشطيب نحاسي"
+      },
+      "after": {
+        "en": "Chained Blank-Cap Coupling — SP-020 / SP-021",
+        "ar": "وصلة غطاء أعمى بسلسلة — SP-020 / SP-021"
+      },
+      "references": "SP-020 / SP-021",
+      "optionsUnchanged": [
+        "SP-020: inlet 1.5 in",
+        "SP-021: inlet 2.5 in"
+      ]
+    },
+    {
+      "series": "catalog-threaded-adapters-caps-page-25",
+      "key": "p25-05",
+      "before": {
+        "en": "Silver-Finish Chained Blank-Cap Coupling",
+        "ar": "وصلة غطاء أعمى بسلسلة بتشطيب فضي"
+      },
+      "after": {
+        "en": "Chained Blank-Cap Coupling — SP-022 / SP-023",
+        "ar": "وصلة غطاء أعمى بسلسلة — SP-022 / SP-023"
+      },
+      "references": "SP-022 / SP-023",
+      "optionsUnchanged": [
+        "SP-022: inlet 1.5 in",
+        "SP-023: inlet 2.5 in"
+      ]
+    },
+    {
+      "series": "catalog-blank-caps-plug-adapters-page-26",
+      "key": "p26-01",
+      "before": {
+        "en": "Brass-Finish Waist-Grooved Chained Blank Cap",
+        "ar": "غطاء أعمى بتشطيب نحاسي بمجرى وسطي بسلسلة"
+      },
+      "after": {
+        "en": "BS336 Chained Blank Cap — SP-024",
+        "ar": "غطاء أعمى بسلسلة BS336 — SP-024"
+      },
+      "references": "SP-024",
+      "optionsUnchanged": [
+        "SP-024: inlet 1.5 in BS336"
+      ]
+    },
+    {
+      "series": "catalog-blank-caps-plug-adapters-page-26",
+      "key": "p26-02",
+      "before": {
+        "en": "Brass-Finish Double-Lug Chained Blank Cap",
+        "ar": "غطاء أعمى بتشطيب نحاسي مزدوج العروات بسلسلة"
+      },
+      "after": {
+        "en": "NH Chained Blank Cap — SP-032 / SP-033",
+        "ar": "غطاء أعمى بسلسلة NH — SP-032 / SP-033"
+      },
+      "references": "SP-032 / SP-033",
+      "optionsUnchanged": [
+        "SP-032: inlet 1.5 in NH",
+        "SP-033: inlet 2.5 in NH"
+      ]
+    },
+    {
+      "series": "catalog-blank-caps-plug-adapters-page-26",
+      "key": "p26-03",
+      "before": {
+        "en": "Brass-Finish Twin-Claw Fine-Chain Blank Cap",
+        "ar": "غطاء أعمى بتشطيب نحاسي ثنائي المخالب بسلسلة دقيقة"
+      },
+      "after": {
+        "en": "JIS Chained Blank Cap — SP-034",
+        "ar": "غطاء أعمى بسلسلة JIS — SP-034"
+      },
+      "references": "SP-034",
+      "optionsUnchanged": [
+        "SP-034: inlet 2.5 in JIS"
+      ]
+    },
+    {
+      "series": "catalog-blank-caps-plug-adapters-page-26",
+      "key": "p26-04",
+      "before": {
+        "en": "Brass-Finish Disc-Type Chained Blank Cap",
+        "ar": "غطاء أعمى بتشطيب نحاسي قرصي بسلسلة"
+      },
+      "after": {
+        "en": "Disc-Type Chained Blank Cap — SP-037",
+        "ar": "غطاء أعمى قرصي بسلسلة — SP-037"
+      },
+      "references": "SP-037",
+      "optionsUnchanged": [
+        "SP-037: inlet 2.5 in"
+      ]
+    },
+    {
+      "series": "catalog-blank-caps-plug-adapters-page-26",
+      "key": "p26-05",
+      "before": {
+        "en": "Brass-Finish Male-Threaded Plug-In Coupling",
+        "ar": "وصلة بتشطيب نحاسي ملولب خارجياً بتوصيل إدخال"
+      },
+      "after": {
+        "en": "Male-Threaded Plug-In Coupling — GP-020 / GP-021",
+        "ar": "وصلة إدخال بسن خارجي — GP-020 / GP-021"
+      },
+      "references": "GP-020 / GP-021",
+      "optionsUnchanged": [
+        "GP-020: inlet 1.5 in BSP; outlet 1.5 in BS336",
+        "GP-021: inlet 2.5 in BSP; outlet 2.5 in BS336"
+      ]
+    },
+    {
+      "series": "catalog-hose-reel-parts-page-27",
+      "key": "p27-01",
+      "before": {
+        "en": "Silver-Finish Hose Reel Swivel Joint with Brass-Finish Ends",
+        "ar": "وصلة دوارة لبكرة الخرطوم بتشطيب فضي ونهايات نحاسية المظهر"
+      },
+      "after": {
+        "en": "Hose Reel Swivel Joint — FHR-010",
+        "ar": "وصلة دوارة لبكرة الخرطوم — FHR-010"
+      },
+      "references": "FHR-010",
+      "optionsUnchanged": [
+        "FHR-010: inlet 1 in"
+      ]
+    },
+    {
+      "series": "catalog-hose-reel-parts-page-27",
+      "key": "p27-02",
+      "before": {
+        "en": "Silver-Finish Hose Reel Swivel Joint",
+        "ar": "وصلة دوارة لبكرة الخرطوم بتشطيب فضي"
+      },
+      "after": {
+        "en": "Hose Reel Swivel Joint — FHR-011",
+        "ar": "وصلة دوارة لبكرة الخرطوم — FHR-011"
+      },
+      "references": "FHR-011",
+      "optionsUnchanged": [
+        "FHR-011: inlet 1 in"
+      ]
+    },
+    {
+      "series": "catalog-hose-reel-parts-page-27",
+      "key": "p27-03",
+      "before": {
+        "en": "Brass-Finish Hose Reel Swivel Joint",
+        "ar": "وصلة دوارة لبكرة الخرطوم بتشطيب نحاسي"
+      },
+      "after": {
+        "en": "Hose Reel Swivel Joint — FHR-012",
+        "ar": "وصلة دوارة لبكرة الخرطوم — FHR-012"
+      },
+      "references": "FHR-012",
+      "optionsUnchanged": [
+        "FHR-012: connection to be confirmed"
+      ]
+    },
+    {
+      "series": "catalog-hose-reel-parts-page-27",
+      "key": "p27-04",
+      "before": {
+        "en": "Red Hose Reel Swing-Arm Bracket",
+        "ar": "حامل ذراع متأرجح لبكرة الخرطوم أحمر"
+      },
+      "after": {
+        "en": "Hose Reel Swing-Arm Bracket — BP-020",
+        "ar": "حامل ذراع متأرجح لبكرة الخرطوم — BP-020"
+      },
+      "references": "BP-020",
+      "optionsUnchanged": [
+        "BP-020: connection to be confirmed"
+      ]
+    },
+    {
+      "series": "catalog-hose-reel-parts-page-27",
+      "key": "p27-05",
+      "before": {
+        "en": "Red Hose Reel Support Assembly",
+        "ar": "مجموعة دعم بكرة الخرطوم أحمر"
+      },
+      "after": {
+        "en": "Hose Reel Support Assembly — HRP-040",
+        "ar": "مجموعة دعم بكرة الخرطوم — HRP-040"
+      },
+      "references": "HRP-040",
+      "optionsUnchanged": [
+        "HRP-040: inlet 1 in BSP; outlet 1 in"
+      ]
+    },
+    {
+      "series": "catalog-hose-assemblies-reels-page-28",
+      "key": "p28-01",
+      "before": {
+        "en": "Brass-Finish Plug-In White Fire Hose Assembly",
+        "ar": "مجموعة خرطوم حريق بتشطيب نحاسي بتوصيل إدخال أبيض"
+      },
+      "after": {
+        "en": "BS336 Fire Hose Assembly — GHC-020 / GHC-021 / GHC-022",
+        "ar": "مجموعة خرطوم حريق BS336 — GHC-020 / GHC-021 / GHC-022"
+      },
+      "references": "GHC-020 / GHC-021 / GHC-022",
+      "optionsUnchanged": [
+        "GHC-020: inlet 1.5 in BS336",
+        "GHC-021: inlet 2 in BS336",
+        "GHC-022: inlet 2.5 in BS336"
+      ]
+    },
+    {
+      "series": "catalog-hose-assemblies-reels-page-28",
+      "key": "p28-02",
+      "before": {
+        "en": "Brass-Finish Threaded White Fire Hose Assembly",
+        "ar": "مجموعة خرطوم حريق بتشطيب نحاسي ملولب أبيض"
+      },
+      "after": {
+        "en": "NH Fire Hose Assembly — UHC-023 / UHC-024",
+        "ar": "مجموعة خرطوم حريق NH — UHC-023 / UHC-024"
+      },
+      "references": "UHC-023 / UHC-024",
+      "optionsUnchanged": [
+        "UHC-023: inlet 1.5 in NH",
+        "UHC-024: inlet 2.5 in NH"
+      ]
+    },
+    {
+      "series": "catalog-hose-assemblies-reels-page-28",
+      "key": "p28-03",
+      "before": {
+        "en": "Silver-Finish Claw-Coupled Striped Fire Hose Assembly",
+        "ar": "مجموعة خرطوم حريق بتشطيب فضي بوصلة مخلبية مخطط"
+      },
+      "after": {
+        "en": "GOST Fire Hose Assembly — RHC-020 / RHC-021",
+        "ar": "مجموعة خرطوم حريق GOST — RHC-020 / RHC-021"
+      },
+      "references": "RHC-020 / RHC-021",
+      "optionsUnchanged": [
+        "RHC-020: inlet 2 in GOST",
+        "RHC-021: inlet 2.5 in GOST"
+      ]
+    },
+    {
+      "series": "catalog-hose-assemblies-reels-page-28",
+      "key": "p28-04",
+      "before": {
+        "en": "Silver-Finish Bracket-Mounted Red Fire Hose Reel",
+        "ar": "بكرة خرطوم حريق بتشطيب فضي مثبت بحامل أحمر"
+      },
+      "after": {
+        "en": "Bracket-Mounted Fire Hose Reel — HR-033",
+        "ar": "بكرة خرطوم حريق مثبت بحامل — HR-033"
+      },
+      "references": "HR-033",
+      "optionsUnchanged": [
+        "HR-033: inlet Ø32 mm; outlet 15.6 mm"
+      ]
+    },
+    {
+      "series": "catalog-fire-cabinets-page-30",
+      "key": "p30-01",
+      "before": {
+        "en": "Red Narrow-Window Hose Reel Cabinet",
+        "ar": "خزانة بكرة خرطوم أحمر بنافذة ضيقة"
+      },
+      "after": {
+        "en": "Narrow-Window Hose Reel Cabinet — BX-025",
+        "ar": "خزانة بكرة خرطوم بنافذة ضيقة — BX-025"
+      },
+      "references": "BX-025",
+      "optionsUnchanged": [
+        "BX-025: dimension 750 × 750 × 250 mm"
+      ]
+    },
+    {
+      "series": "catalog-fire-cabinets-page-30",
+      "key": "p30-02",
+      "before": {
+        "en": "Red Single-Extinguisher Cabinet",
+        "ar": "خزانة حمراء لطفاية حريق واحدة"
+      },
+      "after": {
+        "en": "Single-Extinguisher Cabinet — BX-026",
+        "ar": "خزانة لطفاية حريق واحدة — BX-026"
+      },
+      "references": "BX-026",
+      "optionsUnchanged": [
+        "BX-026: dimension 350 × 750 × 350 mm"
+      ]
+    },
+    {
+      "series": "catalog-fire-cabinets-page-30",
+      "key": "p30-03",
+      "before": {
+        "en": "Red Center-Window Fire Equipment Cabinet",
+        "ar": "خزانة معدات حريق أحمر بنافذة وسطية"
+      },
+      "after": {
+        "en": "Center-Window Fire Equipment Cabinet — BX-027",
+        "ar": "خزانة معدات حريق بنافذة وسطية — BX-027"
+      },
+      "references": "BX-027",
+      "optionsUnchanged": [
+        "BX-027: dimension 400 × 600 × 300 mm"
+      ]
+    },
+    {
+      "series": "catalog-fire-cabinets-page-30",
+      "key": "p30-04",
+      "before": {
+        "en": "Red Stacked Solid-Door Fire Equipment Cabinet",
+        "ar": "خزانة معدات حريق أحمر بأبواب مصمتة متراصة"
+      },
+      "after": {
+        "en": "Stacked Solid-Door Fire Equipment Cabinet — BX-028",
+        "ar": "خزانة معدات حريق بأبواب مصمتة متراصة — BX-028"
+      },
+      "references": "BX-028",
+      "optionsUnchanged": [
+        "BX-028: dimension 1700 × 800 × 300 mm"
+      ]
+    },
+    {
+      "series": "catalog-outdoor-hydrant-configurations-page-31",
+      "key": "p31-01",
+      "before": {
+        "en": "Red-and-Black Long-Riser Outdoor Fire Hydrant",
+        "ar": "صنبور حريق خارجي أحمر وأسود بأنبوب صاعد طويل"
+      },
+      "after": {
+        "en": "Outdoor Fire Hydrant — NH Outlet — USS-020 / USS-021",
+        "ar": "صنبور حريق خارجي بمخرج NH — USS-020 / USS-021"
+      },
+      "references": "USS-020 / USS-021",
+      "optionsUnchanged": [
+        "USS-020: inlet 4 in (100 mm); outlet 2.5 in NH",
+        "USS-021: inlet 6 in (150 mm); outlet 2.5 in NH"
+      ]
+    },
+    {
+      "series": "catalog-outdoor-hydrant-configurations-page-31",
+      "key": "p31-02",
+      "before": {
+        "en": "Red-and-Black Twin-Valve Long-Riser Fire Hydrant",
+        "ar": "صنبور حريق أحمر وأسود بصمامين بأنبوب صاعد طويل"
+      },
+      "after": {
+        "en": "Twin-Valve Fire Hydrant — BS336 Outlet — BS-031 / BS-032",
+        "ar": "صنبور حريق بصمامين ومخرج BS336 — BS-031 / BS-032"
+      },
+      "references": "BS-031 / BS-032",
+      "optionsUnchanged": [
+        "BS-031: inlet 4 in (100 mm); outlet 2.5 in BS336",
+        "BS-032: inlet 6 in (150 mm); outlet 2.5 in BS336"
+      ]
+    },
+    {
+      "series": "catalog-outdoor-hydrant-configurations-page-31",
+      "key": "p31-03",
+      "before": {
+        "en": "Red Chained-Cap Standpipe Fire Hydrant",
+        "ar": "صنبور حريق أحمر بغطاء ذي سلسلة بأنبوب قائم"
+      },
+      "after": {
+        "en": "Standpipe Fire Hydrant — NH Outlet — USS-022 / USS-023",
+        "ar": "صنبور حريق بأنبوب قائم ومخرج NH — USS-022 / USS-023"
+      },
+      "references": "USS-022 / USS-023",
+      "optionsUnchanged": [
+        "USS-022: inlet 4 in (100 mm); outlet 2.5 in NH",
+        "USS-023: inlet 6 in (150 mm); outlet 2.5 in NH"
+      ]
+    },
+    {
+      "series": "catalog-outdoor-hydrant-configurations-page-31",
+      "key": "p31-04",
+      "before": {
+        "en": "Red Twin-Handwheel Standpipe Fire Hydrant",
+        "ar": "صنبور حريق أحمر بعجلتي تشغيل بأنبوب قائم"
+      },
+      "after": {
+        "en": "Twin-Handwheel Fire Hydrant — BS336 Outlet — SS-010 / SS-011",
+        "ar": "صنبور حريق بعجلتي تشغيل ومخرج BS336 — SS-010 / SS-011"
+      },
+      "references": "SS-010 / SS-011",
+      "optionsUnchanged": [
+        "SS-010: inlet Ø100 mm; outlet 2.5 in BS336",
+        "SS-011: inlet 6 in (150 mm); outlet 2.5 in BS336"
+      ]
+    }
+  ]
+}

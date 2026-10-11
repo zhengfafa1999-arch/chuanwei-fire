@@ -1,0 +1,11 @@
+{
+  "date": "2026-10-09",
+  "status": "historical-local-candidate",
+  "archive": ".tmp/releases/waterflow-contact-20261009-web.zip",
+  "bytes": 47849050,
+  "sha256": "2bc97b7541fdcc9f7885384440733dc97ed8ae9c95106f7fc81e576cee2abf8d",
+  "files": 714,
+  "pages": 175,
+  "validation": "All ZIP entries verified against static-manifest sizes and SHA256; CRC check passed. Server rollback backup must be created before publication.",
+  "supersededBy": "docs/release/navigation-names-20261009/package-summary.json"
+}

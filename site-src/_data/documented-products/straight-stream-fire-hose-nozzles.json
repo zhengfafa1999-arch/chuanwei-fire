@@ -89,10 +89,6 @@
       "label": "russianSize",
       "value": "russianSizeValue",
       "technical": true
-    },
-    {
-      "label": "coupling",
-      "value": "confirmWithQuotation"
     }
   ],
   "modelColumns": [
@@ -212,7 +208,7 @@
       "packing": "Packing and final specification",
       "packingBody": "Confirm packing requirements and the final specification in the quotation and order documents.",
       "inquiryTitle": "Send your straight-stream nozzle requirement",
-      "inquiryBody": "Include configuration, nominal size, exact coupling specification, quantity and destination.",
+      "inquiryBody": "Start with nozzle configuration or nominal size and quantity. Add the mating coupling specification and destination when available.",
       "askOnWhatsApp": "Ask on WhatsApp",
       "emailSales": "Email sales",
       "productImagePreview": "Product image preview",
@@ -273,7 +269,7 @@
       "packing": "التغليف والمواصفات النهائية",
       "packingBody": "أكد متطلبات التغليف والمواصفات النهائية في عرض السعر ومستندات الطلب.",
       "inquiryTitle": "أرسل متطلبات فوهة النفث المستقيم",
-      "inquiryBody": "أدرج التكوين والمقاس الاسمي ومواصفات الوصلة الدقيقة والكمية والوجهة.",
+      "inquiryBody": "ابدأ بتكوين الفوهة أو المقاس الاسمي والكمية. أضف مواصفات الوصلة المطابقة والوجهة عند توفرها.",
       "askOnWhatsApp": "استفسر عبر WhatsApp",
       "emailSales": "راسل قسم المبيعات",
       "productImagePreview": "معاينة صورة المنتج",

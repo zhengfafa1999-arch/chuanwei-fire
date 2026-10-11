@@ -1,0 +1,33 @@
+{
+  "date": "2026-10-10",
+  "buildExitCode": 0,
+  "pages": 185,
+  "searchAssertions": 149,
+  "productPairs": 76,
+  "modelRows": 348,
+  "numericMismatches": 0,
+  "staticAudit": {
+    "imagesWithAlt": 2254,
+    "internalReferences": 47493,
+    "newWindowLinks": 776
+  },
+  "status": "local-review-candidate-not-deployed",
+  "confirmed": [
+    "R1/2 male",
+    "1.6 MPa rated working pressure",
+    "0.035–0.05 MPa actuation pressure",
+    "DC24V / 1A electrical contact capacity"
+  ],
+  "unresolved": [
+    "Exact model",
+    "Contact arrangement and wiring",
+    "Material and protection rating"
+  ],
+  "visualReview": "Previous supported browser localhost preview timed out; this update adds confirmed text and numerical data only.",
+  "pdfGeneration": "paused; existing SHA256 unchanged",
+  "checks": [
+    "scope-check.json",
+    "language-tables.json",
+    "user-confirmation.json"
+  ]
+}

@@ -1,0 +1,398 @@
+{
+  "id": "sprinkler-escutcheons-decorative-covers",
+  "routeId": "product:sprinkler-escutcheons-decorative-covers",
+  "template": "product-series/documented-product.njk",
+  "styles": [
+    "css/common.css",
+    "css/sprinkler-product.css",
+    "css/sprinkler-product-gallery.css",
+    "css/documented-product.css",
+    "css/site-navigation.css",
+    "css/sprinkler-accessories.css"
+  ],
+  "source": {
+    "evidence": "Existing Alibaba/1688 white-background product visuals traced to original user-supplied accessory photographs; only visible configuration facts released",
+    "packageManifest": "D:/work/codex/阿里国际站运营/outputs/alibaba-detail-image-studio/sprinkler-accessories-消防喷淋配件系列/manifest.json",
+    "photoRecord": "docs/reviews/sprinkler-trim-white-20261010/photo-records.json",
+    "factReview": "docs/reviews/sprinkler-trim-20261010/fact-review.json",
+    "accessoryConfirmation": "docs/release/sprinkler-accessories-20261011/image-rights-confirmation.json"
+  },
+  "publication": {
+    "status": "release-candidate",
+    "externalRelease": true,
+    "imageRights": "user-confirmed-website-use",
+    "imageRightsEvidence": "docs/release/sprinkler-accessories-20261011/image-rights-confirmation.json"
+  },
+  "media": {
+    "hero": "assets/products/sprinkler-trim/double-layer-escutcheon-white-1254.webp",
+    "flat": "assets/products/sprinkler-trim/single-layer-escutcheon-white-1254.webp",
+    "white": "assets/products/sprinkler-trim/white-round-cover-assembly-white-1254.webp",
+    "clamp": "products/消防喷头/sprinkler-accessories-20261011/clamp.jpg",
+    "concealedCover": "products/消防喷头/sprinkler-accessories-20261011/concealedCover.jpg",
+    "wireGuard": "products/消防喷头/sprinkler-accessories-20261011/wireGuard.jpg",
+    "redGuard": "products/消防喷头/sprinkler-accessories-20261011/redGuard.png"
+  },
+  "imageDimensions": {
+    "hero": {
+      "width": 1254,
+      "height": 1254
+    },
+    "flat": {
+      "width": 1254,
+      "height": 1254
+    },
+    "white": {
+      "width": 1254,
+      "height": 1254
+    },
+    "clamp": {
+      "width": 1599,
+      "height": 732
+    },
+    "concealedCover": {
+      "width": 800,
+      "height": 508
+    },
+    "wireGuard": {
+      "width": 1147,
+      "height": 1240
+    },
+    "redGuard": {
+      "width": 1254,
+      "height": 1254
+    }
+  },
+  "heroFacts": [
+    "escutcheonStylesValue",
+    "coverStyleValue",
+    "additionalStylesValue"
+  ],
+  "shared": {},
+  "gallery": [
+    {
+      "media": "hero",
+      "alt": "heroAlt",
+      "caption": "heroCaption",
+      "thumbnailAlt": "heroThumbnail"
+    },
+    {
+      "media": "flat",
+      "alt": "flatAlt",
+      "caption": "flatCaption",
+      "thumbnailAlt": "flatThumbnail"
+    },
+    {
+      "media": "white",
+      "alt": "whiteAlt",
+      "caption": "whiteCaption",
+      "thumbnailAlt": "whiteThumbnail"
+    },
+    {
+      "media": "clamp",
+      "alt": "clampAlt",
+      "caption": "clampCaption",
+      "thumbnailAlt": "clampThumbnail"
+    },
+    {
+      "media": "concealedCover",
+      "alt": "concealedCoverAlt",
+      "caption": "concealedCoverCaption",
+      "thumbnailAlt": "concealedCoverThumbnail"
+    },
+    {
+      "media": "wireGuard",
+      "alt": "wireGuardAlt",
+      "caption": "wireGuardCaption",
+      "thumbnailAlt": "wireGuardThumbnail"
+    },
+    {
+      "media": "redGuard",
+      "alt": "redGuardAlt",
+      "caption": "redGuardCaption",
+      "thumbnailAlt": "redGuardThumbnail"
+    }
+  ],
+  "specifications": [
+    {
+      "label": "productFamily",
+      "value": "productFamilyValue"
+    },
+    {
+      "label": "escutcheonStyles",
+      "value": "escutcheonStylesValue"
+    },
+    {
+      "label": "coverStyle",
+      "value": "coverStyleValue"
+    },
+    {
+      "label": "appearance",
+      "value": "appearanceValue"
+    },
+    {
+      "label": "additionalStyles",
+      "value": "additionalStylesValue"
+    }
+  ],
+  "modelColumns": [
+    {
+      "label": "accessoryStyle",
+      "field": "style",
+      "localized": true
+    },
+    {
+      "label": "visibleStructure",
+      "field": "structure",
+      "localized": true
+    },
+    {
+      "label": "appearance",
+      "field": "appearance",
+      "localized": true
+    }
+  ],
+  "models": [
+    {
+      "style": "heroCaption",
+      "structure": "doubleStructure",
+      "appearance": "metallicAppearance"
+    },
+    {
+      "style": "flatCaption",
+      "structure": "singleStructure",
+      "appearance": "metallicAppearance"
+    },
+    {
+      "style": "whiteCaption",
+      "structure": "whiteStructure",
+      "appearance": "whiteAppearance"
+    },
+    {
+      "style": "clampCaption",
+      "structure": "clampStructure",
+      "appearance": "metallicAppearance"
+    },
+    {
+      "style": "concealedCoverCaption",
+      "structure": "concealedCoverStructure",
+      "appearance": "coverAssemblyAppearance"
+    },
+    {
+      "style": "wireGuardCaption",
+      "structure": "wireGuardStructure",
+      "appearance": "metallicAppearance"
+    },
+    {
+      "style": "redGuardCaption",
+      "structure": "redGuardStructure",
+      "appearance": "redAppearance"
+    }
+  ],
+  "confirmationItems": [
+    {
+      "label": "sprinklerMatch",
+      "body": "sprinklerMatchBody"
+    },
+    {
+      "label": "requiredDimensions",
+      "body": "requiredDimensionsBody"
+    },
+    {
+      "label": "finishSelection",
+      "body": "finishSelectionBody"
+    },
+    {
+      "label": "orderInformation",
+      "body": "orderInformationBody"
+    }
+  ],
+  "validation": {
+    "anchors": [
+      "gallery",
+      "specifications",
+      "models",
+      "quotation"
+    ],
+    "requiredTechnicalValues": []
+  },
+  "inquiry": {
+    "whatsapp": "https://wa.me/8617326528368?text=Hello%2C%20I%20need%20a%20quotation%20for%20fire%20sprinkler%20accessories.%20Style%3A%20%5Bescutcheon%20%2F%20concealed%20cover%20%2F%20fixing%20ring%20%2F%20silver%20guard%20%2F%20red%20guard%5D%2C%20sprinkler%20model%3A%20%5Bmodel%5D%2C%20dimensions%3A%20%5Bdrawing%20or%20sample%5D%2C%20quantity%3A%20%5Bpcs%5D%2C%20destination%3A%20%5Bcountry%5D.",
+    "email": "mailto:zhengcolin1@gmail.com?subject=Fire%20Sprinkler%20Accessories%20Inquiry"
+  },
+  "copy": {
+    "en": {
+      "onThisPage": "On this page",
+      "specifications": "Specifications",
+      "quotation": "Quotation confirmation",
+      "askOnWhatsApp": "Ask on WhatsApp",
+      "emailSales": "Email sales",
+      "productImagePreview": "Product image preview",
+      "closeImagePreview": "Close image preview",
+      "previousProductImage": "Previous product image",
+      "nextProductImage": "Next product image",
+      "selectProductImage": "Select product image",
+      "factoryModel": "Factory Model",
+      "temperature": "Temperature",
+      "thermalElement": "Sensing element",
+      "title": "Fire Sprinkler Accessories",
+      "eyebrow": "Fire sprinkler accessories",
+      "lead": "Escutcheons, cover assemblies, fixing rings and sprinkler guards. Compare seven photographed styles and select the accessory that matches your sprinkler assembly.",
+      "note": "Match accessories to the exact sprinkler model. Confirm the cover assembly and its release temperature separately; guard and clamp dimensions must match the sprinkler and mounting arrangement.",
+      "gallery": "Product images",
+      "galleryTitle": "Escutcheons, covers, clamps and guards",
+      "galleryBody": "Browse the product photographs to compare plate profiles, cover assemblies, fixing rings and the two guard styles.",
+      "heroCaption": "Double-layer escutcheon",
+      "heroAlt": "Metallic double-layer sprinkler escutcheon with center opening on a white background",
+      "heroThumbnail": "Double-layer escutcheon thumbnail",
+      "flatCaption": "Single-layer escutcheon",
+      "flatAlt": "Metallic single-layer sprinkler escutcheon with center opening on a white background",
+      "flatThumbnail": "Single-layer escutcheon thumbnail",
+      "whiteCaption": "White round-cover assembly",
+      "whiteAlt": "White decorative assembly with a central round cover and surrounding plate on a white background",
+      "whiteThumbnail": "White round-cover assembly thumbnail",
+      "enlargedImage": "Enlarged fire sprinkler accessory photograph",
+      "specificationsTitle": "Available accessory configurations",
+      "specificationsBody": "The styles and appearances below correspond to the photographs. Request dimensions, material and surface-finish details for the selected configuration.",
+      "productFamily": "Product family",
+      "productFamilyValue": "Fire sprinkler accessories",
+      "escutcheonStyles": "Escutcheon styles",
+      "escutcheonStylesValue": "Double-layer and single-layer, with center opening",
+      "coverStyle": "Cover assemblies",
+      "coverStyleValue": "White round-cover assembly and concealed sprinkler cover assembly",
+      "appearance": "Appearance",
+      "appearanceValue": "Metallic escutcheons and clamp, white covers, silver-coloured and red guards",
+      "availableModels": "Available styles",
+      "modelsTitle": "Choose your accessory style",
+      "modelsBody": "Compare the seven photographed styles. Provide the sprinkler model and mounting dimensions to confirm the required configuration.",
+      "accessoryStyle": "Accessory style",
+      "visibleStructure": "Visible structure",
+      "doubleStructure": "Layered plates with a center opening",
+      "singleStructure": "Single plate with a center opening",
+      "whiteStructure": "Central round cover with surrounding plate",
+      "metallicAppearance": "Metallic appearance",
+      "whiteAppearance": "White appearance",
+      "modelsNote": "Accessories are matched by sprinkler model and assembly dimensions; the styles shown are not universally interchangeable.",
+      "quotationTitle": "Information for a matched quotation",
+      "quotationBody": "Send the accessory style and quantity first. Add the sprinkler model, drawing or measured dimensions when available.",
+      "sprinklerMatch": "Matching sprinkler",
+      "sprinklerMatchBody": "Provide the sprinkler manufacturer and exact model, plus a photo or assembly drawing. For concealed covers, also specify the required release temperature.",
+      "requiredDimensions": "Required dimensions",
+      "requiredDimensionsBody": "Provide the opening or cover diameter, height and mounting dimensions. For guards, include the sprinkler outline and required clearance; for clamps, include the fitting diameter.",
+      "finishSelection": "Material and appearance",
+      "finishSelectionBody": "Specify the required material and surface finish for the selected style.",
+      "orderInformation": "Order information",
+      "orderInformationBody": "Provide quantity, destination and packaging requirements.",
+      "inquiryTitle": "Request fire sprinkler accessories",
+      "inquiryBody": "Include the style, sprinkler model, dimensions, quantity and destination when available.",
+      "seoTitle": "Fire Sprinkler Accessories: Covers, Clamps & Guards | CHUANWEI",
+      "seoDescription": "View sprinkler escutcheons, concealed cover assemblies, fixing rings and silver-coloured or red guards. Compare seven styles and request matched accessory details.",
+      "clampCaption": "Sprinkler fixing ring / clamp",
+      "clampAlt": "Sprinkler fixing ring / clamp",
+      "clampThumbnail": "Sprinkler fixing ring / clamp",
+      "clampStructure": "Circular wire ring with screw fastening",
+      "concealedCoverCaption": "Concealed sprinkler cover assembly",
+      "concealedCoverAlt": "Concealed sprinkler cover assembly",
+      "concealedCoverThumbnail": "Concealed sprinkler cover assembly",
+      "concealedCoverStructure": "White cover plate with a separate ribbed cup",
+      "wireGuardCaption": "Silver-coloured sprinkler guard",
+      "wireGuardAlt": "Silver-coloured sprinkler guard",
+      "wireGuardThumbnail": "Silver-coloured sprinkler guard",
+      "wireGuardStructure": "Wire cage with mounting tabs",
+      "redGuardCaption": "Red sprinkler guard",
+      "redGuardAlt": "Red sprinkler guard",
+      "redGuardThumbnail": "Red sprinkler guard",
+      "redGuardStructure": "Red cage with a two-bolt fastening",
+      "additionalStyles": "Fixing rings and guards",
+      "additionalStylesValue": "Circular fixing ring / clamp; silver-coloured wire guard; red guard",
+      "coverAssemblyAppearance": "White plate with gold-coloured cup",
+      "redAppearance": "Red appearance"
+    },
+    "ar": {
+      "onThisPage": "في هذه الصفحة",
+      "specifications": "المواصفات",
+      "quotation": "تأكيد عرض السعر",
+      "askOnWhatsApp": "استفسر عبر WhatsApp",
+      "emailSales": "راسل قسم المبيعات",
+      "productImagePreview": "معاينة صورة المنتج",
+      "closeImagePreview": "إغلاق معاينة الصورة",
+      "previousProductImage": "صورة المنتج السابقة",
+      "nextProductImage": "صورة المنتج التالية",
+      "selectProductImage": "اختر صورة المنتج",
+      "factoryModel": "موديل المصنع",
+      "temperature": "درجة الحرارة",
+      "thermalElement": "عنصر الاستشعار",
+      "title": "ملحقات رشاشات الحريق",
+      "eyebrow": "ملحقات رشاشات الحريق",
+      "lead": "حلقات تغطية ومجموعات أغطية وحلقات تثبيت وواقيات للرشاشات. قارن سبعة أشكال مصورة واختر الملحق المطابق لمجموعة الرشاش.",
+      "note": "طابق الملحقات مع موديل الرشاش الدقيق. أكد مجموعة الغطاء ودرجة حرارة تحريره بشكل منفصل؛ ويجب أن تطابق أبعاد الواقي والمشبك الرشاش وطريقة التثبيت.",
+      "gallery": "صور المنتجات",
+      "galleryTitle": "حلقات تغطية وأغطية ومشابك وواقيات",
+      "galleryBody": "تصفح صور المنتجات لمقارنة أشكال الصفائح ومجموعات الأغطية وحلقات التثبيت وشكلي الواقيات.",
+      "heroCaption": "حلقة تغطية بطبقتين",
+      "heroAlt": "حلقة تغطية للرشاش بطبقتين ذات مظهر معدني وفتحة مركزية على خلفية بيضاء",
+      "heroThumbnail": "صورة مصغرة لحلقة التغطية بطبقتين",
+      "flatCaption": "حلقة تغطية بطبقة واحدة",
+      "flatAlt": "حلقة تغطية للرشاش بطبقة واحدة ذات مظهر معدني وفتحة مركزية على خلفية بيضاء",
+      "flatThumbnail": "صورة مصغرة لحلقة التغطية بطبقة واحدة",
+      "whiteCaption": "مجموعة غطاء دائري أبيض",
+      "whiteAlt": "مجموعة تزيينية بيضاء بغطاء دائري مركزي وصفيحة محيطة على خلفية بيضاء",
+      "whiteThumbnail": "صورة مصغرة لمجموعة الغطاء الدائري الأبيض",
+      "enlargedImage": "صورة مكبرة لملحق رشاش حريق",
+      "specificationsTitle": "تكوينات الملحقات المتاحة",
+      "specificationsBody": "تطابق الأشكال والمظاهر أدناه الصور المعروضة. اطلب تفاصيل الأبعاد والمواد وتشطيب السطح للتكوين المختار.",
+      "productFamily": "فئة المنتج",
+      "productFamilyValue": "ملحقات رشاشات الحريق",
+      "escutcheonStyles": "أشكال حلقات التغطية",
+      "escutcheonStylesValue": "بطبقتين وبطبقة واحدة، مع فتحة مركزية",
+      "coverStyle": "مجموعات الأغطية",
+      "coverStyleValue": "مجموعة غطاء دائري أبيض ومجموعة غطاء رشاش مخفي",
+      "appearance": "المظهر",
+      "appearanceValue": "حلقات تغطية ومشبك بمظهر معدني وأغطية بيضاء وواقيات بلون فضي وأحمر",
+      "availableModels": "الأشكال المتاحة",
+      "modelsTitle": "اختر شكل الملحق",
+      "modelsBody": "قارن الأشكال السبعة المصورة. أرسل موديل الرشاش وأبعاد التثبيت لتأكيد التكوين المطلوب.",
+      "accessoryStyle": "شكل الملحق",
+      "visibleStructure": "البنية الظاهرة",
+      "doubleStructure": "صفائح ذات طبقات مع فتحة مركزية",
+      "singleStructure": "صفيحة واحدة مع فتحة مركزية",
+      "whiteStructure": "غطاء دائري مركزي مع صفيحة محيطة",
+      "metallicAppearance": "مظهر معدني",
+      "whiteAppearance": "مظهر أبيض",
+      "modelsNote": "تُطابق الملحقات حسب موديل الرشاش وأبعاد المجموعة؛ والأشكال المعروضة ليست قابلة للتبادل بشكل عام.",
+      "quotationTitle": "معلومات لإعداد عرض سعر مطابق",
+      "quotationBody": "أرسل شكل الملحق والكمية أولاً. أضف موديل الرشاش والرسم أو الأبعاد المقاسة عند توفرها.",
+      "sprinklerMatch": "الرشاش المطابق",
+      "sprinklerMatchBody": "أرسل اسم مصنع الرشاش وموديله الدقيق مع صورة أو رسم تجميع. للأغطية المخفية، حدد أيضاً درجة حرارة التحرير المطلوبة.",
+      "requiredDimensions": "الأبعاد المطلوبة",
+      "requiredDimensionsBody": "أرسل قطر الفتحة أو الغطاء والارتفاع وأبعاد التثبيت. للواقيات، أضف أبعاد الرشاش والخلوص المطلوب؛ وللمشابك، أضف قطر موضع التثبيت.",
+      "finishSelection": "المواد والمظهر",
+      "finishSelectionBody": "حدد المادة وتشطيب السطح المطلوبين للشكل المختار.",
+      "orderInformation": "معلومات الطلب",
+      "orderInformationBody": "أرسل الكمية والوجهة ومتطلبات التغليف.",
+      "inquiryTitle": "اطلب ملحقات رشاشات الحريق",
+      "inquiryBody": "أضف الشكل وموديل الرشاش والأبعاد والكمية والوجهة عند توفرها.",
+      "seoTitle": "ملحقات رشاشات الحريق: أغطية ومشابك وواقيات | CHUANWEI FIRE",
+      "seoDescription": "شاهد حلقات تغطية الرشاشات ومجموعات الأغطية المخفية وحلقات التثبيت والواقيات الفضية والحمراء. قارن سبعة أشكال واطلب تفاصيل الملحق المطابق.",
+      "clampCaption": "حلقة تثبيت / مشبك للرشاش",
+      "clampAlt": "حلقة تثبيت / مشبك للرشاش",
+      "clampThumbnail": "حلقة تثبيت / مشبك للرشاش",
+      "clampStructure": "حلقة سلكية دائرية مع تثبيت بمسمار",
+      "concealedCoverCaption": "مجموعة غطاء رشاش مخفي",
+      "concealedCoverAlt": "مجموعة غطاء رشاش مخفي",
+      "concealedCoverThumbnail": "مجموعة غطاء رشاش مخفي",
+      "concealedCoverStructure": "صفيحة غطاء بيضاء مع كأس منفصل ذي أضلاع",
+      "wireGuardCaption": "واقي رشاش بلون فضي",
+      "wireGuardAlt": "واقي رشاش بلون فضي",
+      "wireGuardThumbnail": "واقي رشاش بلون فضي",
+      "wireGuardStructure": "قفص سلكي مع ألسنة تثبيت",
+      "redGuardCaption": "واقي رشاش أحمر",
+      "redGuardAlt": "واقي رشاش أحمر",
+      "redGuardThumbnail": "واقي رشاش أحمر",
+      "redGuardStructure": "قفص أحمر مع تثبيت بمسمارين",
+      "additionalStyles": "حلقات التثبيت والواقيات",
+      "additionalStylesValue": "حلقة تثبيت دائرية / مشبك؛ واقٍ سلكي بلون فضي؛ واقٍ أحمر",
+      "coverAssemblyAppearance": "صفيحة بيضاء مع كأس بلون ذهبي",
+      "redAppearance": "مظهر أحمر"
+    }
+  }
+}

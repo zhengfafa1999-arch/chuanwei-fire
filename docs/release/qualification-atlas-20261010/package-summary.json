@@ -1,0 +1,10 @@
+{
+  "date": "2026-10-10",
+  "status": "local-review-candidate-not-deployed",
+  "archive": ".tmp/releases/qualification-atlas-20261010-web.zip",
+  "bytes": 48151075,
+  "sha256": "5a71ca36a32497f97c9661e3636580ad1810e3b5a7258a14bec55f1935d94113",
+  "files": 750,
+  "pages": 185,
+  "validation": "All ZIP entries verified against static-manifest sizes and SHA256; CRC check passed. Server rollback backup must be created before publication."
+}

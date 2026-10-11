@@ -80,18 +80,6 @@
       "label": "bSize",
       "value": "bSizes",
       "technical": true
-    },
-    {
-      "label": "coupling",
-      "value": "confirmWithQuotation"
-    },
-    {
-      "label": "material",
-      "value": "confirmWithQuotation"
-    },
-    {
-      "label": "performance",
-      "value": "confirmWithQuotation"
     }
   ],
   "modelColumns": [
@@ -202,7 +190,7 @@
       "lead": "Fire hose nozzles with a side operating lever and black grip, available in two inlet configurations. Select the required reference and inlet size from the table below.",
       "note": "DN and GN codes are selection references, not factory model numbers. Confirm the exact inlet coupling and matching component with your quotation.",
       "galleryTitle": "Two inlet configurations",
-      "galleryBody": "Catalog display views identify configurations A and B. Each image represents a configuration family, not every individual size or exact mating interface.",
+      "galleryBody": "Representative display images for configurations A and B. Request the product photo and mating-coupling details for the selected size.",
       "configA": "Configuration A",
       "configB": "Configuration B",
       "aAlt": "Catalog display of configuration A nozzle with side operating lever, black grip and broad inlet base",
@@ -224,7 +212,7 @@
       "modelsBody": "Use the selection reference and corresponding inlet size when requesting a quotation.",
       "reference": "Selection reference",
       "inlet": "Inlet size",
-      "modelsNote": "Selection references are retained for quotation matching. They do not identify confirmed factory models or establish coupling compatibility. Final specifications follow the agreed quotation and order documents.",
+      "modelsNote": "DN and GN codes are selection references. Confirm the mating coupling, construction and performance for the selected version with your quotation.",
       "quotationTitle": "Confirm the inlet and matching coupling",
       "quotationBody": "Send the selection reference, inlet size and mating-coupling details to identify the required configuration.",
       "selection": "Reference and inlet size",
@@ -236,7 +224,7 @@
       "order": "Order information",
       "orderBody": "Include quantity, destination, packing and required documents.",
       "inquiryTitle": "Send your lever-operated nozzle requirement",
-      "inquiryBody": "Include selection reference, inlet size, mating coupling, quantity and destination.",
+      "inquiryBody": "Start with the selection reference or inlet size and quantity. Add the mating coupling and destination when available.",
       "enlargedImage": "Enlarged lever-operated nozzle catalog display image",
       "seoTitle": "Lever-Operated Fire Hose Nozzles | CHUANWEI FIRE",
       "seoDescription": "Lever-operated fire hose nozzle configurations A and B with five selection references and inlet options of 1½ in, 2 in and 2½ in. Confirm mating coupling for quotation."
@@ -264,7 +252,7 @@
       "lead": "فوهات خراطيم حريق بذراع تشغيل جانبي ومقبض أسود، متوفرة بتكوينين للمدخل. اختر مرجع الاختيار ومقاس المدخل المطلوبين من الجدول أدناه.",
       "note": "رموز DN وGN هي مراجع للاختيار وليست أرقام موديلات المصنع. أكد وصلة المدخل الدقيقة والجزء المقابل مع عرض السعر.",
       "galleryTitle": "تكوينان للمدخل",
-      "galleryBody": "توضح صور عرض الكتالوج التكوينين A وB. تمثل كل صورة عائلة تكوين، ولا تمثل كل مقاس منفرد أو واجهة اقتران دقيقة.",
+      "galleryBody": "صور عرض تمثيلية للتكوينين A وB. اطلب صورة المنتج وتفاصيل الوصلة المقابلة للمقاس المطلوب.",
       "configA": "التكوين A",
       "configB": "التكوين B",
       "aAlt": "صورة عرض من الكتالوج لفوهة التكوين A بذراع تشغيل جانبي ومقبض أسود وقاعدة مدخل عريضة",
@@ -286,7 +274,7 @@
       "modelsBody": "استخدم مرجع الاختيار ومقاس المدخل المقابل عند طلب عرض السعر.",
       "reference": "مرجع الاختيار",
       "inlet": "مقاس المدخل",
-      "modelsNote": "تُحفظ مراجع الاختيار لمطابقة طلب عرض السعر. وهي لا تحدد موديلات مصنع مؤكدة ولا تثبت توافق الوصلات. تتبع المواصفات النهائية عرض السعر ومستندات الطلب المتفق عليها.",
+      "modelsNote": "رموز DN وGN مراجع للاختيار. أكد الوصلة المقابلة والبناء والأداء للنسخة المطلوبة مع عرض السعر.",
       "quotationTitle": "أكد المدخل والوصلة المقابلة",
       "quotationBody": "أرسل مرجع الاختيار ومقاس المدخل وتفاصيل الوصلة المقابلة لتحديد التكوين المطلوب.",
       "selection": "المرجع ومقاس المدخل",
@@ -298,7 +286,7 @@
       "order": "معلومات الطلب",
       "orderBody": "أدرج الكمية والوجهة والتغليف والوثائق المطلوبة.",
       "inquiryTitle": "أرسل متطلبات الفوهة التي تعمل بذراع",
-      "inquiryBody": "أدرج مرجع الاختيار ومقاس المدخل والوصلة المقابلة والكمية والوجهة.",
+      "inquiryBody": "ابدأ بمرجع الاختيار أو مقاس المدخل والكمية. أضف الوصلة المطابقة والوجهة عند توفرها.",
       "enlargedImage": "صورة عرض مكبرة من الكتالوج لفوهة تعمل بذراع",
       "seoTitle": "فوهات خراطيم حريق تعمل بذراع | CHUANWEI FIRE",
       "seoDescription": "تكوينان A وB لفوهات خراطيم حريق تعمل بذراع مع خمسة مراجع للاختيار وخيارات مدخل 1½ in و2 in و2½ in. تُؤكد الوصلة المقابلة مع عرض السعر."

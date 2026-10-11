@@ -1,0 +1,78 @@
+{
+  "date": "2026-10-10",
+  "nrs-gate-valves": [
+    {
+      "key": "standardApproval",
+      "before": "Standard / approval",
+      "after": "Product approval documents",
+      "occurrences": 1
+    },
+    {
+      "key": "toBeConfirmed",
+      "before": "To be confirmed",
+      "after": "Request applicable documents for your selected model",
+      "occurrences": 1
+    }
+  ],
+  "localizedCopy": {
+    "water-mist-nozzles/en": [
+      {
+        "key": "galleryDescription",
+        "before": "The gallery uses the confirmed replacement photographs: three standard water mist views and two impingement-type views, with and without inlet strainer configurations.",
+        "after": "Compare standard and impingement-type water mist nozzles, including inlet-strainer and mesh-guard configurations."
+      },
+      {
+        "key": "technicalTitle",
+        "before": "Confirmed buyer-facing specifications",
+        "after": "Product specifications"
+      },
+      {
+        "key": "technicalDescription",
+        "before": "Construction, rated pressure and connection sizes are presented as confirmed data. Spray and strainer details are matched to the selected model during quotation.",
+        "after": "Compare construction, rated pressure and connection sizes below. Request spray performance and strainer details for your selected model."
+      }
+    ],
+    "water-mist-nozzles/ar": [
+      {
+        "key": "galleryDescription",
+        "before": "يستخدم المعرض صور الاستبدال المؤكدة: ثلاث صور للنوع القياسي وصورتان للنوع التصادمي، مع تكوينات بمدخل مصفاة وبدونه.",
+        "after": "قارن فوهات ضباب الماء القياسية والتصادمية، بما فيها تكوينات مصفاة المدخل والواقي الشبكي."
+      },
+      {
+        "key": "technicalTitle",
+        "before": "مواصفات مؤكدة للمشتري",
+        "after": "مواصفات المنتج"
+      },
+      {
+        "key": "technicalDescription",
+        "before": "تُعرض البنية والضغط المقنن ومقاسات الوصلات كبيانات مؤكدة، بينما تُطابق تفاصيل الرش والمصفاة مع الموديل المختار أثناء عرض السعر.",
+        "after": "قارن البنية والضغط المقنن ومقاسات التوصيل أدناه. اطلب بيانات أداء الرش وتفاصيل المصفاة للموديل المطلوب."
+      }
+    ],
+    "water-curtain-nozzles/en": [
+      {
+        "key": "technicalTitle",
+        "before": "Confirmed buyer-facing specifications",
+        "after": "Product specifications"
+      },
+      {
+        "key": "technicalDescription",
+        "before": "Confirmed construction and configuration data is separated from hydraulic values that must be matched to the selected model and project design.",
+        "after": "Compare nozzle construction and discharge configurations below. Request hydraulic performance data for your selected model and project design."
+      }
+    ],
+    "water-curtain-nozzles/ar": [
+      {
+        "key": "technicalTitle",
+        "before": "مواصفات مؤكدة للمشتري",
+        "after": "مواصفات المنتج"
+      },
+      {
+        "key": "technicalDescription",
+        "before": "تُعرض بيانات البنية والتكوين المؤكدة بصورة منفصلة عن القيم الهيدروليكية التي يجب مطابقتها مع الموديل المختار وتصميم المشروع.",
+        "after": "قارن بنية الفوهة وتكوينات التصريف أدناه. اطلب بيانات الأداء الهيدروليكي للموديل المطلوب وتصميم المشروع."
+      }
+    ]
+  },
+  "scope": "Public wording only. No changed numeric facts, model rows, media or source evidence."
+}

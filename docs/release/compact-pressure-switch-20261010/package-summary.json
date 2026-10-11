@@ -1,0 +1,10 @@
+{
+  "date": "2026-10-10",
+  "status": "local-review-candidate-not-deployed",
+  "archive": ".tmp/releases/compact-pressure-switch-20261010-web.zip",
+  "bytes": 44133035,
+  "sha256": "80393b3bc24508628150b899fb7ec9dbdf4effe8735d4ca37d619f04cce1ff49",
+  "files": 722,
+  "pages": 185,
+  "validation": "All ZIP entries verified against static-manifest sizes and SHA256; CRC check passed. Server rollback backup must be created before publication."
+}

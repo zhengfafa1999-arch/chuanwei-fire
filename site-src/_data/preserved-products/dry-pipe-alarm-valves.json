@@ -5,7 +5,27 @@
   "source": {
     "path": "products/消防阀/dry-pipe-alarm-valves.html",
     "revision": "1529479",
-    "status": "preserved-existing-content-not-reaudited"
+    "status": "preserved-existing-content-not-reaudited",
+    "materialCopyCorrection": {
+      "date": "2026-10-09",
+      "oldCopy": {
+        "text": "Ductile iron QT{n0}-{n1} / ASTM A{n2} {n3}-{n4}-{n5}",
+        "numbers": [
+          "450",
+          "10",
+          "536",
+          "65",
+          "45",
+          "12"
+        ]
+      },
+      "reason": "Preserve manufacturer-confirmed QT450-10; no exact-SKU ASTM equivalence evidence in reused manufacturer materials. Do not publish an automatic ASTM grade equivalence."
+    },
+    "buyerCopyReview": {
+      "date": "2026-10-09",
+      "record": "docs/reviews/remaining-series-20261009/reviewed-changes.json",
+      "scope": "Buyer terminology and inquiry guidance; exact models, primary photographs and technical values retained except removal of unconfirmed carton quantities."
+    }
   },
   "media": {
     "flanged": "products/消防阀/dry-pipe-alarm-valves/dry-pipe-alarm-valve-flanged.jpg"
@@ -150,14 +170,10 @@
       "numbers": []
     },
     "ductileIronQT45010ASTMA5366545": {
-      "text": "Ductile iron QT{n0}-{n1} / ASTM A{n2} {n3}-{n4}-{n5}",
+      "text": "Ductile iron QT{n0}-{n1}",
       "numbers": [
         "450",
-        "10",
-        "536",
-        "65",
-        "45",
-        "12"
+        "10"
       ]
     },
     "coating": {
@@ -314,7 +330,7 @@
       "numbers": []
     },
     "internationalSizeAndConnectionAreThePrimarySelection": {
-      "text": "International size and connection are the primary selection fields. ZSFC codes are retained only as factory references. Reference height may vary with the approved trim arrangement.",
+      "text": "Select the DN size and flanged connection. Use the ZSFC model reference to identify the configuration; assembly height depends on the selected trim.",
       "numbers": []
     },
     "internationalConfiguration": {
@@ -334,7 +350,7 @@
       "numbers": []
     },
     "factoryReference": {
-      "text": "Factory reference",
+      "text": "Model",
       "numbers": []
     },
     "flangedDryPipeAlarmValve": {
@@ -402,7 +418,7 @@
       "numbers": []
     },
     "includeSizeAirSupplyPressureTrimConfigurationQuantity": {
-      "text": "Include size, air-supply pressure, trim configuration, quantity and destination country.",
+      "text": "Start with size and quantity. Add system air-supply pressure, flange dimensions, trim requirements and destination when available.",
       "numbers": []
     },
     "whatsAppInquiry": {

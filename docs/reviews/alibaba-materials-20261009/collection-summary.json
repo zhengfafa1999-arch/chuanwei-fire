@@ -1,0 +1,144 @@
+{
+  "date": "2026-10-09",
+  "root": "D:\\work\\codex\\阿里国际站运营\\outputs\\alibaba-detail-image-studio",
+  "packages": 121,
+  "manifestMissing": [
+    "ZSTDY80-68℃-Q5A-隐蔽式消防洒水喷头",
+    "ZSTDY80-93℃-Q5A-隐蔽式消防洒水喷头"
+  ],
+  "indexedFiles": 3112,
+  "extensions": {
+    ".json": 389,
+    ".md": 448,
+    ".png": 1458,
+    ".jpg": 649,
+    ".csv": 31,
+    ".mp4": 21,
+    ".zip": 12,
+    ".txt": 82,
+    ".html": 3,
+    ".svg": 6,
+    ".jsonl": 2,
+    ".pdf": 6,
+    ".xlsx": 5
+  },
+  "collectedTextFiles": 966,
+  "families": {
+    "室内消火栓及栓阀": 11,
+    "消防水带及接口": 7,
+    "消防水枪": 12,
+    "水泵接合器及消防队进水口": 4,
+    "水流指示器及末端试水": 3,
+    "其他洒水喷头及配件": 14,
+    "室外消火栓": 2,
+    "泡沫喷头及配件": 3,
+    "雨淋阀": 6,
+    "预作用装置": 4,
+    "扩大覆盖喷头": 1,
+    "大K及ESFR喷头": 7,
+    "消防闸阀": 5,
+    "软管卷盘": 10,
+    "快速响应喷头": 3,
+    "水雾及水幕喷头": 8,
+    "干式喷头": 1,
+    "消防蝶阀": 6,
+    "干式报警阀": 1,
+    "湿式报警阀": 2,
+    "隐蔽式喷头": 11
+  },
+  "errors": [],
+  "pdfs": [
+    {
+      "path": "D:\\work\\codex\\阿里国际站运营\\outputs\\alibaba-detail-image-studio\\DN300-雨淋报警阀\\source\\300#雨淋阀.pdf",
+      "pages": 8,
+      "pagesWithoutExtractableText": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "limit": "Text extraction only. Scanned pages need visual review/OCR; no report scope or approval verified by this collector."
+    },
+    {
+      "path": "D:\\work\\codex\\阿里国际站运营\\outputs\\alibaba-detail-image-studio\\ESFR系列-早期抑制快速响应洒水喷头\\source\\早期-202_主体授权待核对.pdf",
+      "pages": 10,
+      "pagesWithoutExtractableText": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "limit": "Text extraction only. Scanned pages need visual review/OCR; no report scope or approval verified by this collector."
+    },
+    {
+      "path": "D:\\work\\codex\\阿里国际站运营\\outputs\\alibaba-detail-image-studio\\SN65-Y-SNZ65-Y系列-卷盘消火栓\\source\\SN65-Y-report.pdf",
+      "pages": 7,
+      "pagesWithoutExtractableText": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "limit": "Text extraction only. Scanned pages need visual review/OCR; no report scope or approval verified by this collector."
+    },
+    {
+      "path": "D:\\work\\codex\\阿里国际站运营\\outputs\\alibaba-detail-image-studio\\SN65-Y-SNZ65-Y系列-卷盘消火栓\\source\\SNZ65-Y-report.pdf",
+      "pages": 7,
+      "pagesWithoutExtractableText": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "limit": "Text extraction only. Scanned pages need visual review/OCR; no report scope or approval verified by this collector."
+    },
+    {
+      "path": "D:\\work\\codex\\阿里国际站运营\\outputs\\alibaba-detail-image-studio\\SNZW65系列-旋转减压稳压室内消火栓\\source\\SNZW65-III-检验报告.pdf",
+      "pages": 7,
+      "pagesWithoutExtractableText": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "limit": "Text extraction only. Scanned pages need visual review/OCR; no report scope or approval verified by this collector."
+    },
+    {
+      "path": "D:\\work\\codex\\阿里国际站运营\\outputs\\alibaba-detail-image-studio\\ZSFC系列-干式报警阀\\source\\100# 150#干式报警阀-检验报告.pdf",
+      "pages": 10,
+      "pagesWithoutExtractableText": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "limit": "Text extraction only. Scanned pages need visual review/OCR; no report scope or approval verified by this collector."
+    }
+  ],
+  "boundary": "All product packages indexed; software dependencies and executable scripts excluded. Artwork not OCRed wholesale. Collection does not establish publication eligibility."
+}

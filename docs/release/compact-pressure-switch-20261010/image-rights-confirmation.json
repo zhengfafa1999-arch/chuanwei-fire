@@ -1,0 +1,17 @@
+{
+  "status": "confirmed",
+  "confirmedDate": "2026-10-10",
+  "scope": "CHUANWEI FIRE official website public display",
+  "authority": "Direct user request with attached photograph",
+  "response": "这个也加到开关里面",
+  "images": [
+    {
+      "productId": "fire-pressure-switch",
+      "path": "assets/products/fire-pressure-switch/sample-1052.webp",
+      "sha256": "0bf0ff4f72a1270b21a8d39ac7dd9c2f0619370dc85130846ec2b6c7d7a05104",
+      "unwatermarkedSha256": "714abdde7b6a24c5b903c88128d2caf2963690028d1f457692dc0d3a17128572",
+      "publishedTransform": "CHUANWEI FIRE text watermark in clear whitespace",
+      "watermarkRecord": "site-src/_data/product-watermarks.json"
+    }
+  ]
+}

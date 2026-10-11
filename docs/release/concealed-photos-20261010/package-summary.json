@@ -1,0 +1,10 @@
+{
+  "date": "2026-10-10",
+  "status": "local-review-candidate-not-deployed",
+  "archive": ".tmp/releases/concealed-photos-20261010-web.zip",
+  "bytes": 43427095,
+  "sha256": "067cb5e798fa5c4a645b19f79f860a6798fef3a3855188b978db0212bfd73308",
+  "files": 700,
+  "pages": 175,
+  "validation": "All ZIP entries verified against static-manifest sizes and SHA256; CRC check passed. Server rollback backup must be created before publication."
+}

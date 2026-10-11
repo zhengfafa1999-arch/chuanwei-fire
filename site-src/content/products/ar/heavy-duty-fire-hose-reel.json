@@ -48,7 +48,7 @@
   "pressure": "الضغط",
   "hoseLength": "طول الخرطوم",
   "reelDiameter": "قطر البكرة",
-  "factoryReference": "مرجع المصنع",
+  "factoryReference": "الموديل",
   "highPressureFireHoseReel": "بكرة خرطوم حريق عالية الضغط",
   "onRequest": "عند الطلب",
   "forQuotationSpecifyPressureClassHoseLengthAnd": "لطلب عرض السعر، حدد فئة الضغط وطول الخرطوم والكمية. تستخدم نسخة الخدمة الشاقة {n0} MPa خرطومًا وأقراص بكرة وفوهة أكثر سماكة؛ وتستخدم نسخة {n1} MPa أقراص بكرة بسماكة {n2} mm.",

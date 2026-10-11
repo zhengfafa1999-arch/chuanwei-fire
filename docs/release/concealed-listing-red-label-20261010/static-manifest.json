@@ -1,0 +1,3621 @@
+{
+  "date": "2026-10-10",
+  "status": "local-review-candidate-not-deployed",
+  "scope": "Published static pages and referenced public assets only. PDF bytes are the existing unchanged dependency; no PDF generation performed.",
+  "pages": 185,
+  "files": 722,
+  "bytes": 52973569,
+  "archive": ".tmp/releases/concealed-listing-red-label-20261010-web.zip",
+  "items": [
+    {
+      "path": "about.html",
+      "bytes": 42477,
+      "sha256": "be9af5fd0af952b90e726fb9968b893c5f3c8f28a8b70ab569c40f0bdc264502"
+    },
+    {
+      "path": "apple-touch-icon.png",
+      "bytes": 3958,
+      "sha256": "fd7857f711ce88709828735b11e6e6eb4a856f8781e8f96ad651981c12ebcc3d"
+    },
+    {
+      "path": "ar/about.html",
+      "bytes": 47511,
+      "sha256": "4bf2709b3f4163582dcd33029c25f7e4e59e92d944cf215f20d432f037739123"
+    },
+    {
+      "path": "ar/contact.html",
+      "bytes": 46563,
+      "sha256": "49b6f762f0d27dc6f37bb096dbcfe31a5a60bb4537eca2217d158305c3711f41"
+    },
+    {
+      "path": "ar/downloads.html",
+      "bytes": 46423,
+      "sha256": "a525091f26332fa77d185c997316a2c4fa161d7abf1f6864ac30b1504f934aee"
+    },
+    {
+      "path": "ar/index.html",
+      "bytes": 80388,
+      "sha256": "580013d17a40d841723e34dd7a35bf69cade05df75e8821c0a170ce13365ca9c"
+    },
+    {
+      "path": "ar/products.html",
+      "bytes": 366786,
+      "sha256": "e42e7c96976dc986981523d0a4df3738fd10896df32afcd791724720788d1da6"
+    },
+    {
+      "path": "ar/products/bs750-pillar-hydrant/index.html",
+      "bytes": 54876,
+      "sha256": "c22eaef3272aa8604dc6d4f34376a43484f78018eb0bbfdb5445983d0a6f8b1c"
+    },
+    {
+      "path": "ar/products/butterfly-valves/index.html",
+      "bytes": 48964,
+      "sha256": "99fc035f3e0fccf9eb2b5e6ecffc595ae9af5d4b29ad23c09171619f8b46c7c1"
+    },
+    {
+      "path": "ar/products/catalog-blank-caps-plug-adapters-page-26/index.html",
+      "bytes": 57651,
+      "sha256": "729e21e555ecf98650c099b19424638ca0404612771d567f5ae90ca0d143d43f"
+    },
+    {
+      "path": "ar/products/catalog-brass-finish-hose-valves-page-07/index.html",
+      "bytes": 59836,
+      "sha256": "bdc1724c7680d4e30d07f5ffe007c9479b3cf82c23ef579bb4215a59e25edd82"
+    },
+    {
+      "path": "ar/products/catalog-brass-finish-hose-valves-page-08/index.html",
+      "bytes": 59869,
+      "sha256": "1eb68e5a1da4895d33c55e6db4ab727f7629d100ac514557da2d5d4e135e095e"
+    },
+    {
+      "path": "ar/products/catalog-compact-spray-nozzles-page-22/index.html",
+      "bytes": 61260,
+      "sha256": "ee129b11a7e2a5c092c2c9cba52dc1dc463621579e60936266820aaf5cbeb43f"
+    },
+    {
+      "path": "ar/products/catalog-compact-straight-stream-nozzles-page-17/index.html",
+      "bytes": 59212,
+      "sha256": "c226be79b7d7b72cddbd880df66e0ea82bdd7b73c5840b8d2edcdca3ad4bdf24"
+    },
+    {
+      "path": "ar/products/catalog-coupled-lever-nozzles-page-18/index.html",
+      "bytes": 59677,
+      "sha256": "c63cff3db990b79bad8423208fde2dfb69706b13c1e86ef4aa059c8a23d84d02"
+    },
+    {
+      "path": "ar/products/catalog-fire-cabinets-page-30/index.html",
+      "bytes": 57616,
+      "sha256": "3659890ef22f69d91871029f2c1ed46d3977173c736b4a3a00996440ab1c425d"
+    },
+    {
+      "path": "ar/products/catalog-fire-connections-distributors-page-15/index.html",
+      "bytes": 60120,
+      "sha256": "7a144ac2c73fb0c6d19ae1519fc14f2483ff0c356ff114aa4d300c500aa6c339"
+    },
+    {
+      "path": "ar/products/catalog-fire-hose-adapters-page-21/index.html",
+      "bytes": 59080,
+      "sha256": "bf36295d64a80a1b68f8b3667e26f031660687e9ad7196baecd4d9853291d34e"
+    },
+    {
+      "path": "ar/products/catalog-fire-hose-couplings-page-20/index.html",
+      "bytes": 61674,
+      "sha256": "9a46913e72f844fc6e58c2b641f1ec7245d225a7e53624e35f632e0279a67c23"
+    },
+    {
+      "path": "ar/products/catalog-hose-assemblies-reels-page-28/index.html",
+      "bytes": 56824,
+      "sha256": "5f788104088764b9266ee83bd84923b2de783c213c0871b05f12f5bb31ecb15e"
+    },
+    {
+      "path": "ar/products/catalog-hose-reel-parts-page-27/index.html",
+      "bytes": 58078,
+      "sha256": "28906d44f2ba412ca0b48e5d3c2e62996d6bf097d44a5591264d623dcdb9b38f"
+    },
+    {
+      "path": "ar/products/catalog-hose-tails-adapters-page-24/index.html",
+      "bytes": 59276,
+      "sha256": "795d71292fc9f168bc0456d97f61f64d5dd75d2349174857ddd3585ac7307068"
+    },
+    {
+      "path": "ar/products/catalog-hose-valves-page-09/index.html",
+      "bytes": 60282,
+      "sha256": "94418ac82a7116c36517057a3819115b61ba3bb5de2fdd5e2cdf39209418d8a9"
+    },
+    {
+      "path": "ar/products/catalog-hose-valves-page-10/index.html",
+      "bytes": 59049,
+      "sha256": "567df26e3789a9a3a644bf40a397e6ddd3bc6e42ebc3996ad0f93ec04ff5acb2"
+    },
+    {
+      "path": "ar/products/catalog-hose-valves-page-11/index.html",
+      "bytes": 59698,
+      "sha256": "63aec080d7157c3bfb2bceb4ef478f57941f0b7db658b97d5ed4c025d000cdb6"
+    },
+    {
+      "path": "ar/products/catalog-hose-valves-page-12/index.html",
+      "bytes": 59729,
+      "sha256": "99c63e91488b9d2a54e29baf8317c9f054ade4d3526ba5597acfd3328b64fa99"
+    },
+    {
+      "path": "ar/products/catalog-hydrant-auxiliary-valves-page-14/index.html",
+      "bytes": 65507,
+      "sha256": "39b1446ed6d8aa1843425b63c071cc5b9838c0db7de6da7b26f32a818175eb67"
+    },
+    {
+      "path": "ar/products/catalog-long-straight-stream-nozzles-page-16/index.html",
+      "bytes": 57689,
+      "sha256": "5af8b44c831c5bbb349e10e4e0ec73d3b7c6cc56ca510e24cbdc2ab006b76ef1"
+    },
+    {
+      "path": "ar/products/catalog-nozzles-inductors-connections-page-19/index.html",
+      "bytes": 59427,
+      "sha256": "204206f8a82840729f74f97f8df0e7b988b399699cb5261397c919697c77c89d"
+    },
+    {
+      "path": "ar/products/catalog-outdoor-hydrant-configurations-page-31/index.html",
+      "bytes": 58112,
+      "sha256": "8be52e737e2d27adb5506c877a9a56962d10cd3f96a99b59d1ec54015c207627"
+    },
+    {
+      "path": "ar/products/catalog-red-grip-nozzles-page-23/index.html",
+      "bytes": 58274,
+      "sha256": "b07b5944503b8cc6f0db41b778172d31059a6e37d4c9007186d149752df327b1"
+    },
+    {
+      "path": "ar/products/catalog-threaded-adapters-caps-page-25/index.html",
+      "bytes": 58080,
+      "sha256": "bd1f3457d27c1a3df6bbeb5899bfc48b11426f582acb03562071ad8803cef315"
+    },
+    {
+      "path": "ar/products/catalog-twin-outlet-fire-connections-page-13/index.html",
+      "bytes": 61906,
+      "sha256": "c94e5e969d013ff4771d5cd6edb478555a4f1e5e854d4727cd6d31780fb50cb7"
+    },
+    {
+      "path": "ar/products/closed-air-aspirating-foam-water-sprinkler/index.html",
+      "bytes": 51379,
+      "sha256": "54d6cd7f9ac421865af717f4b7d77d92d138e5e1f4746f59a7bf787d9f51e79f"
+    },
+    {
+      "path": "ar/products/closed-centrifugal-fire-sprinklers/index.html",
+      "bytes": 52080,
+      "sha256": "2d7b5e13079b7365127b26ad8b3665d753ec0f39b2a096c96f254a6bef6097fe"
+    },
+    {
+      "path": "ar/products/closed-rotating-fire-sprinkler/index.html",
+      "bytes": 50285,
+      "sha256": "eb6795098bf6a9eb83b23f56131364b9b15e98c509810b399b6be2f329982529"
+    },
+    {
+      "path": "ar/products/combination-jet-fog-nozzles/index.html",
+      "bytes": 46145,
+      "sha256": "a9a1dc6778dcda30eeb109b265f99f3942694bcf6bfd2154e472b0a283d3bbcb"
+    },
+    {
+      "path": "ar/products/concealed-pendent-fire-sprinkler/index.html",
+      "bytes": 84298,
+      "sha256": "55585fc60b4b366be1ebe73568db8218ce29ec0d019c6442a8743ee7148f49ee"
+    },
+    {
+      "path": "ar/products/diaphragm-deluge-valves/index.html",
+      "bytes": 65306,
+      "sha256": "1cf2108d6c1c1614a656399d8be0991bafba8918d51542686288c38cb5c9b043"
+    },
+    {
+      "path": "ar/products/double-outlet-hydrant/index.html",
+      "bytes": 51798,
+      "sha256": "e5b7093fa40ade2f7f9b423afdf4ac7d2c2c8862208162556032e97a5b2f8507"
+    },
+    {
+      "path": "ar/products/dry-pendent-fire-sprinklers/index.html",
+      "bytes": 62900,
+      "sha256": "d13185883f92f5bd904795dc6be0acf64ca9ca9b07cacea91114cf45eb9a3ddc"
+    },
+    {
+      "path": "ar/products/dry-pipe-alarm-valves/index.html",
+      "bytes": 62736,
+      "sha256": "f15ba0e59f3766b1f50793a06c587e23435e5aa25baee5f6c95040bdc916d867"
+    },
+    {
+      "path": "ar/products/explosion-proof-pressure-switch/index.html",
+      "bytes": 52488,
+      "sha256": "e06950336dbc0feb4d0594bf5d853d00966bf1cf75e52ae62a15d04e116afa54"
+    },
+    {
+      "path": "ar/products/explosion-proof-solenoid-valve/index.html",
+      "bytes": 53049,
+      "sha256": "f8ee28b5456c3f9100043dec97f22d0c26cb004e1612038e94517b277351b9f6"
+    },
+    {
+      "path": "ar/products/explosion-proof-waterflow-switches/index.html",
+      "bytes": 54711,
+      "sha256": "dca7e46743959fc0b4b5f0a1a6bea69d047ced916d89c35aac1f3b76c8e0815c"
+    },
+    {
+      "path": "ar/products/export-slanted-hydrant-valve/index.html",
+      "bytes": 55598,
+      "sha256": "849165a9751753398aaf0ce48c775f08a90491dcd292cbc4fd76fd1d417a4eb6"
+    },
+    {
+      "path": "ar/products/extended-coverage-quick-response-fire-sprinkler/index.html",
+      "bytes": 65775,
+      "sha256": "3c1eb71785dc61b561536757d34a94d3daa81ad2fb3f0b6cc8bd8e9fff84495b"
+    },
+    {
+      "path": "ar/products/fire-department-connections/index.html",
+      "bytes": 54692,
+      "sha256": "e50a928d2d5f319b2ce95780fa74716674087a2212e93bbe63723aaf0d51ce52"
+    },
+    {
+      "path": "ar/products/fire-equipment-cabinet-series/index.html",
+      "bytes": 63102,
+      "sha256": "f0273921d56047aa1c18a736d7d23f42f7f6b5bd7096b971fb8da520565aecd3"
+    },
+    {
+      "path": "ar/products/fire-equipment-cabinets/index.html",
+      "bytes": 51983,
+      "sha256": "2fdfde01c917040be6a7c88b4c552475a77efc2064414117e56962c86c7693ec"
+    },
+    {
+      "path": "ar/products/fire-pressure-switch/index.html",
+      "bytes": 52084,
+      "sha256": "738b92ab48db9c51ee0150e97e4d008756fcaac7df49bb8d1c71b1ed5d01d916"
+    },
+    {
+      "path": "ar/products/flanged-supervisory-gate-valves/index.html",
+      "bytes": 57842,
+      "sha256": "cafbda83cb62715f73a7ddaa51c154dccd9a199a2816a11f3d2e0a4b88ae3e47"
+    },
+    {
+      "path": "ar/products/foam-nozzles/index.html",
+      "bytes": 47517,
+      "sha256": "d1fccb97d0ef3fb5080a73ee6c7405c75f9a33bf338390b91b67cb17d6fe4e5a"
+    },
+    {
+      "path": "ar/products/french-pattern-hydrant/index.html",
+      "bytes": 54835,
+      "sha256": "e53eb5f9f20f864f3f962c350cfe267bd5acff5d0141553e5eb730e7b6adc7a6"
+    },
+    {
+      "path": "ar/products/fusible-alloy-fire-sprinklers/index.html",
+      "bytes": 56851,
+      "sha256": "f487f7094abc9101df8f209e10ebdb2882d29448523736caa42b55a148bc060b"
+    },
+    {
+      "path": "ar/products/gate-valves/index.html",
+      "bytes": 49893,
+      "sha256": "49361f4c6ee772808e759369b0dbbcd1831fa52b420376ccf577942fb3828e7a"
+    },
+    {
+      "path": "ar/products/glass-bulb-fire-sprinkler/index.html",
+      "bytes": 61281,
+      "sha256": "58adabe04a8b60cdb9af3b2458e52500090bfc6021f58501580ee84cd4eaea8b"
+    },
+    {
+      "path": "ar/products/grooved-supervisory-butterfly-valves/index.html",
+      "bytes": 57296,
+      "sha256": "ee6c5ba488dfae826bc5dddcf7417893c7e6cf16f1bdeb15e42b2edc2386ca97"
+    },
+    {
+      "path": "ar/products/grooved-supervisory-gate-valves/index.html",
+      "bytes": 57702,
+      "sha256": "77ee59b00faaa3184b17e227d841a6c092fde5b52bb37bcf5a74ddd15f046be7"
+    },
+    {
+      "path": "ar/products/heavy-duty-fire-hose-reel/index.html",
+      "bytes": 54909,
+      "sha256": "2ef89984516c4da7313c4085c5c3aec6c8fd791928c9245d9a900cd153d357fb"
+    },
+    {
+      "path": "ar/products/horizontal-handwheel-landing-valves/index.html",
+      "bytes": 54041,
+      "sha256": "e5c83b82ea9b3f0bdfda552c8307d9febe1a289fcb31b596e022379612833b58"
+    },
+    {
+      "path": "ar/products/hose-reels/index.html",
+      "bytes": 55442,
+      "sha256": "b060115338dcf6d51c9ffa4616a6ecf301be5be249334b3a278da4a6afa66eac"
+    },
+    {
+      "path": "ar/products/hoses-nozzles-couplings/index.html",
+      "bytes": 91260,
+      "sha256": "63a872c712b9c0d30a75ed756e67f78c69dc769777c07c56f9b5e2544617a8ef"
+    },
+    {
+      "path": "ar/products/indonesian-pattern-hydrant/index.html",
+      "bytes": 54770,
+      "sha256": "67400913eaeda3c7013463e5c76227dc724b4a1fa8db0038191c565927f7d998"
+    },
+    {
+      "path": "ar/products/indoor-hydrants/index.html",
+      "bytes": 77856,
+      "sha256": "9852725a2206503d5c0124ef2c1a85e6ab40829ee784e3121d1eaa649ede8226"
+    },
+    {
+      "path": "ar/products/jet-spray-fire-hose-reel/index.html",
+      "bytes": 60443,
+      "sha256": "684f88292c5e8d6381485d8a264e348a9dbe9ef54f4163b4ab399bdae4ead697"
+    },
+    {
+      "path": "ar/products/kd-hose-couplings/index.html",
+      "bytes": 48985,
+      "sha256": "0c7f9ae62f0060c00e99d170ad9e0daa08f897f50cd3bd951bb0241a21b24ffa"
+    },
+    {
+      "path": "ar/products/kn-threaded-adapters/index.html",
+      "bytes": 45669,
+      "sha256": "b5cfcaee044582502a7e1475feaab84d1c2d7bff18f7e79c950a636492e1139d"
+    },
+    {
+      "path": "ar/products/large-k-factor-esfr-sprinklers/index.html",
+      "bytes": 72965,
+      "sha256": "164c9feb3221fdce893d19d19326bfffb72da671aeefed684abc07610fcb1fde"
+    },
+    {
+      "path": "ar/products/lever-operated-fire-hose-nozzles/index.html",
+      "bytes": 55425,
+      "sha256": "e5155a2a076e31069feabfbd859f79457bb9e4839c62d977340ec52f22e7b2b8"
+    },
+    {
+      "path": "ar/products/lever-operated-grooved-butterfly-valves/index.html",
+      "bytes": 58074,
+      "sha256": "3f59f9c90a4725781c23a7daed90efc62a6eed0606b99ab694814edbdc84eb96"
+    },
+    {
+      "path": "ar/products/lever-operated-wafer-butterfly-valves/index.html",
+      "bytes": 58275,
+      "sha256": "1ef1b7beaf4020440dafecb47976e68f59cdc94dedf3e97dcfb55ae8b429d984"
+    },
+    {
+      "path": "ar/products/nrs-gate-valves/index.html",
+      "bytes": 57258,
+      "sha256": "400a2dc0415ffe0859cdec010c3787a0ba5846612e8343b7e9820fd7461ecafa"
+    },
+    {
+      "path": "ar/products/osy-gate-valves/index.html",
+      "bytes": 56314,
+      "sha256": "2d5fb07f39922d303f090b1833a241146bfc85526a1ca58de2b0af933a73b5fd"
+    },
+    {
+      "path": "ar/products/outdoor-hydrants/index.html",
+      "bytes": 51319,
+      "sha256": "d873d5b1f811d3939fb65e23d85776c28426c91a98879fc47dc7d6f8df8826e0"
+    },
+    {
+      "path": "ar/products/preaction-valve-assemblies/index.html",
+      "bytes": 65045,
+      "sha256": "e65ef7884fe780f6fd8ff9027d76ab6b0a63e5a5f2411cbcd43c9150f469dc82"
+    },
+    {
+      "path": "ar/products/ria25-fire-hose-reel/index.html",
+      "bytes": 58023,
+      "sha256": "5d37a098dd3e763c7611109aef66021a307ba6817ddabb646cb795f164b06283"
+    },
+    {
+      "path": "ar/products/rotating-pressure-regulating-hydrant/index.html",
+      "bytes": 55207,
+      "sha256": "79d0b1bfec2fac9f66342435232ff9afc24aa1c74ed1bf05b12887786d994495"
+    },
+    {
+      "path": "ar/products/russian-pattern-fire-department-connection/index.html",
+      "bytes": 52522,
+      "sha256": "094b51e4453174dd943a8694abe7cdd5b37eae3bfec4c162d1a4fb780b5ff563"
+    },
+    {
+      "path": "ar/products/russian-pattern-hydrant/index.html",
+      "bytes": 54747,
+      "sha256": "06bacce04952b2efcb9d27bdc73f768fb51c032e8b9c41f1a222947af6cb86dc"
+    },
+    {
+      "path": "ar/products/saddle-type-waterflow-switches/index.html",
+      "bytes": 58309,
+      "sha256": "430ce1e65f328bd191bb11f56d1cda2e02153c068ed0ae113257d26ba164279f"
+    },
+    {
+      "path": "ar/products/sprinkler-escutcheons-decorative-covers/index.html",
+      "bytes": 53875,
+      "sha256": "9be89399ca355a4ff026122a044dcc8d00752b5b6bc84c591646ebcdf5b64c8c"
+    },
+    {
+      "path": "ar/products/sprinklers/index.html",
+      "bytes": 74165,
+      "sha256": "717ce9e963ba5ab62fb4038bc4b3195e41726f9f909d90b89653e3ce44bf39ea"
+    },
+    {
+      "path": "ar/products/standard-indoor-hydrant/index.html",
+      "bytes": 57909,
+      "sha256": "d40dc7b8a5d52f5514c614513762e577f93824ee5693aa67eb06a3cc4b91b98c"
+    },
+    {
+      "path": "ar/products/standard-response-fire-sprinkler/index.html",
+      "bytes": 74186,
+      "sha256": "cd8f91a330f9cdd20be54d7605381d36d595204422c658803ea9ceb49dfa305c"
+    },
+    {
+      "path": "ar/products/straight-stream-fire-hose-nozzles/index.html",
+      "bytes": 57510,
+      "sha256": "606d62544315779984b7f791159410fc770f3c49e0391dfb1d4d11f9e62b1a36"
+    },
+    {
+      "path": "ar/products/straight-stream-fire-hose-reel/index.html",
+      "bytes": 61311,
+      "sha256": "0a459e834989ce7d0a43718f7e8e7bf3a15794a8d2f68bc55dbbc69b62e2bb7f"
+    },
+    {
+      "path": "ar/products/straight-through-oblique-landing-valves/index.html",
+      "bytes": 57802,
+      "sha256": "8fa8845ff18b7935e66f06a3045e1df33a539d27889c6fe740d63654995125a4"
+    },
+    {
+      "path": "ar/products/system-valves/index.html",
+      "bytes": 55909,
+      "sha256": "e602a5774b5f5f127f4f9f0981c4fb95aa84094556c9bdd5f27c891265c3abfb"
+    },
+    {
+      "path": "ar/products/tubular-foam-water-nozzles/index.html",
+      "bytes": 52465,
+      "sha256": "e726e9db2f13854208eb1da8d5e3cffc684c60abf142cc613e30785adc64f443"
+    },
+    {
+      "path": "ar/products/wafer-supervisory-butterfly-valves/index.html",
+      "bytes": 59154,
+      "sha256": "68db500d4a9708257f30c697338983307f5d838672d8da0ca25e7f8ec6a32a38"
+    },
+    {
+      "path": "ar/products/water-curtain-nozzles/index.html",
+      "bytes": 70795,
+      "sha256": "e215cc317ae09af066f919b958b687ff3487c5980bd3a7a6aa040aa26caf45c3"
+    },
+    {
+      "path": "ar/products/water-mist-nozzles/index.html",
+      "bytes": 66740,
+      "sha256": "3873a8c3fb64d5cb34ba714da8f77ce3422293b639789c45cb5af3212ed21491"
+    },
+    {
+      "path": "ar/products/wet-alarm-check-valve/index.html",
+      "bytes": 65695,
+      "sha256": "f3d3483650cc6e4c7b7488faeac6f77366ef75a49f854bdbb6bf8eef3eaad700"
+    },
+    {
+      "path": "assets/catalog-thumbnails/00089165902a69625b79bbdd-480.webp",
+      "bytes": 20404,
+      "sha256": "3d0228519873269c2e53e8b828d266007616bb0349cc308b79c9961c384f7b26"
+    },
+    {
+      "path": "assets/catalog-thumbnails/017c6bc1a13053f182f9eace-480.webp",
+      "bytes": 13718,
+      "sha256": "bea65e5604e7a139d2f57d3b74224361fb093766a38c9af371b6e22b83168f89"
+    },
+    {
+      "path": "assets/catalog-thumbnails/01d17b2f550bc68e52a6954a-480.webp",
+      "bytes": 7070,
+      "sha256": "a1f653dd4c847e4e7b8ff0e2319521e54bc3c51e2db0e539ab60d7b2dd1a8aa0"
+    },
+    {
+      "path": "assets/catalog-thumbnails/02291b974b023faa9327277e-480.webp",
+      "bytes": 9240,
+      "sha256": "5affd27c5741e85bce4abc6059204de0ba7d2fd452a6e5bf587a091501e5ed94"
+    },
+    {
+      "path": "assets/catalog-thumbnails/04cf2b855cb1fb26755c6784-480.webp",
+      "bytes": 14488,
+      "sha256": "b68d46b6d4fe12d084d441d331f4d617fdc26537135da9611857f86f7ea0ce92"
+    },
+    {
+      "path": "assets/catalog-thumbnails/0505379287e8f99a32182153-480.webp",
+      "bytes": 17484,
+      "sha256": "fdedd734c3b0141d004744c83a61aedde9376a466b72f4eaa305c3fc38dbd990"
+    },
+    {
+      "path": "assets/catalog-thumbnails/05a5fbee29732989fdda0dda-480.webp",
+      "bytes": 22960,
+      "sha256": "a8b1b8376e380867210a85de4601499861fc414b144acbf30a816808fd9c9824"
+    },
+    {
+      "path": "assets/catalog-thumbnails/05f6c2514eacecae7b43922d-480.webp",
+      "bytes": 12590,
+      "sha256": "588a5be846f92d30c5a6129244037542ee99e294064794792f08382d572cd7be"
+    },
+    {
+      "path": "assets/catalog-thumbnails/0818d591cadf4bb86d9b6a43-480.webp",
+      "bytes": 7782,
+      "sha256": "a5ea74ce333d6728e704cd48a3606336573355aba14c342205feab1cd51a4fab"
+    },
+    {
+      "path": "assets/catalog-thumbnails/0abb7ce7d706826bf51348ce-480.webp",
+      "bytes": 6732,
+      "sha256": "44902a798b7ed461ee71530ea07d6e0eaaf0b761ce5b4bf902d08844a929546f"
+    },
+    {
+      "path": "assets/catalog-thumbnails/0baf0339be8e08b81fd91b91-480.webp",
+      "bytes": 12156,
+      "sha256": "b72dfa071022a162854332952762a43c2f22579a94c7e7466f1c6fef1ed88ed3"
+    },
+    {
+      "path": "assets/catalog-thumbnails/0bd52204eb46a5520e95c851-480.webp",
+      "bytes": 7396,
+      "sha256": "dcb0fa5d0f8adc6eb5b87772912424065318b0d20fbee02784bc4e6b91f92317"
+    },
+    {
+      "path": "assets/catalog-thumbnails/0bf0ff4f72a1270b21a8d39a-480.webp",
+      "bytes": 27394,
+      "sha256": "3ca3a38e6759120310753d2f2c0c8398702ce9be9daba34abb5291b4be32978e"
+    },
+    {
+      "path": "assets/catalog-thumbnails/0c75de837b7437f5f9b9a38a-480.webp",
+      "bytes": 12380,
+      "sha256": "1a5a1e2992ee4cad8af71575a34c052566a93576966e38772ad2fa001573989f"
+    },
+    {
+      "path": "assets/catalog-thumbnails/0cc22d23818008ea209d3471-480.webp",
+      "bytes": 15716,
+      "sha256": "ab1030cc43c88861e1e2b604b4c89b4a24feacbaa65bd2f2876349f63d8125ac"
+    },
+    {
+      "path": "assets/catalog-thumbnails/0d7e1633cba863a5f6f756d3-480.webp",
+      "bytes": 14756,
+      "sha256": "1f4760cad758dc54643457eb39bed7070ac498b3d3497835e381c5212b1aae68"
+    },
+    {
+      "path": "assets/catalog-thumbnails/0dc148b7f5358dd4c20a4ce3-480.webp",
+      "bytes": 13418,
+      "sha256": "c163fc6d84f8cff4f70e1b8d5d319fbb3cc85ccca28e04a662d6201f271736ff"
+    },
+    {
+      "path": "assets/catalog-thumbnails/1035368f22a4d8195ae8d079-480.webp",
+      "bytes": 24264,
+      "sha256": "71f96d51376baefb66a2ddb9418a3761caff792ed6c62b3c030e32dd98f51aa2"
+    },
+    {
+      "path": "assets/catalog-thumbnails/1040d3b61b3e3bfc617bf5af-480.webp",
+      "bytes": 10074,
+      "sha256": "1f1d853eda75e4f5c9dea0a843ceafefd3fc5d1b8d14d333320e2b3e821dce57"
+    },
+    {
+      "path": "assets/catalog-thumbnails/106a1c2cce119315fd4bb966-480.webp",
+      "bytes": 5648,
+      "sha256": "73c68edf5d68242384c3fdd4a9f6768e24d1ea9685cafd8cee389341a5354098"
+    },
+    {
+      "path": "assets/catalog-thumbnails/114658eabf9e81f8bb693bb4-480.webp",
+      "bytes": 17276,
+      "sha256": "da3052ea2f21e17306176e1936c0d88cf6d391d404cc3bfa8bc79efba2e019b6"
+    },
+    {
+      "path": "assets/catalog-thumbnails/1260fd344a350ef94b7afda1-480.webp",
+      "bytes": 26100,
+      "sha256": "5cab76ee9581c0fbfa0870f41091e3905c890cc3a8fce2f3ea7038734f8d8fa4"
+    },
+    {
+      "path": "assets/catalog-thumbnails/13b461a57fab347588a8d614-480.webp",
+      "bytes": 19092,
+      "sha256": "b2be14d39ddad03f99174ae028118d50410de6dfb929a4a74a0e35cbcc4c4a42"
+    },
+    {
+      "path": "assets/catalog-thumbnails/16a192c98c46eececd7d7062-480.webp",
+      "bytes": 13374,
+      "sha256": "e9cd00584962d0f32068ccabfd43e95569a3e1e91140f3a7f9d68e5892c9708c"
+    },
+    {
+      "path": "assets/catalog-thumbnails/182ed5af979bdc6a024aac50-480.webp",
+      "bytes": 12736,
+      "sha256": "d431ce0a16963706e2316f3aab26db58081005f0adc0b5ddb3907a37ba7f5402"
+    },
+    {
+      "path": "assets/catalog-thumbnails/183e4de9f180c5c741d53da5-480.webp",
+      "bytes": 27830,
+      "sha256": "cad67835f4841462b5c88f0d8754aea65a9fc2a776f57dddeec672fc2bbfaa56"
+    },
+    {
+      "path": "assets/catalog-thumbnails/18913f6cc5976e7370625fe1-480.webp",
+      "bytes": 14240,
+      "sha256": "91dc910a1070038512b8494f1ced01d0ab85de3ed8a12e0f8b1acda7c3351891"
+    },
+    {
+      "path": "assets/catalog-thumbnails/1a206b47b113d59bc403d682-480.webp",
+      "bytes": 13152,
+      "sha256": "aacd4cb9feb5768f8f6da9caf303b2f25b6d65b7acc94b1bfa82685efe21df3c"
+    },
+    {
+      "path": "assets/catalog-thumbnails/1b35cdca29f1a801e6d79b19-480.webp",
+      "bytes": 12448,
+      "sha256": "f8a9da9791a2abec8f717a4a229cd8e1b7a4e118f44c43196170ec16d8d4f8ab"
+    },
+    {
+      "path": "assets/catalog-thumbnails/1d1f5f0fc86dcbc96d5c999a-480.webp",
+      "bytes": 21894,
+      "sha256": "1b2d621e607b7ccfa5afde91bdb5e7ad4ed47d2b55720dd2e39daa749413b015"
+    },
+    {
+      "path": "assets/catalog-thumbnails/1e43801e3e5cee83d86411b6-480.webp",
+      "bytes": 20288,
+      "sha256": "41ae2f26eca0b4931e5bcaf3376445d6d1993027f6a7e48f51eb75a6e4cf4c56"
+    },
+    {
+      "path": "assets/catalog-thumbnails/1e49ec720d7a1531a945c26a-480.webp",
+      "bytes": 11704,
+      "sha256": "f10e39527021fbfc4c530505b29a3a33bb03f27c0d129704330158809899989f"
+    },
+    {
+      "path": "assets/catalog-thumbnails/1ed88bb09599d7deb910ccc2-480.webp",
+      "bytes": 10218,
+      "sha256": "6f2b81ec404fe1942b9d4d31f206c438209157987bbc4a7d20df9038c140eb6b"
+    },
+    {
+      "path": "assets/catalog-thumbnails/1f45eb663a1cde6625f6bbab-480.webp",
+      "bytes": 9300,
+      "sha256": "2861cc2772767640f7f1fb931cb9eabf110a9cb64e5c999b1959e9d1862bb040"
+    },
+    {
+      "path": "assets/catalog-thumbnails/2032761685f1a7972e83eebe-480.webp",
+      "bytes": 14856,
+      "sha256": "376ba6f34467c8bb63ebb3a52c37e965a1e93594f6d16da7b964f73f7d955d30"
+    },
+    {
+      "path": "assets/catalog-thumbnails/206e3d1b4dedaa2ee94ea60a-480.webp",
+      "bytes": 21386,
+      "sha256": "46d3f2c407110bb49d329257f38cce19c631d61003f098e89a6d01a622ea944b"
+    },
+    {
+      "path": "assets/catalog-thumbnails/20d15539f13b56f0e8540c66-480.webp",
+      "bytes": 7108,
+      "sha256": "7e3be5763c097e3b485e1c65f835d2120d3b657ee7181671554d2cc36f6a0c87"
+    },
+    {
+      "path": "assets/catalog-thumbnails/210ae58549e5df1b3ee547a2-480.webp",
+      "bytes": 17670,
+      "sha256": "6d4c4766c35fbc5d8121aa42b5ca7ceb74c82ad805520fa6c7b7209dd4a6572d"
+    },
+    {
+      "path": "assets/catalog-thumbnails/264ab862972eb25d185e188f-480.webp",
+      "bytes": 7156,
+      "sha256": "a036796700815e5d38359078c18018ea5cdd68a6f872b09ef3f4fac6a05ac482"
+    },
+    {
+      "path": "assets/catalog-thumbnails/28c3ab33da6169dea8759701-480.webp",
+      "bytes": 12178,
+      "sha256": "886a897567ddcbb487643ab310ebd06f8c5f5723157ff34d2fc9b5e55b4030e9"
+    },
+    {
+      "path": "assets/catalog-thumbnails/2952407c65240004a617416c-480.webp",
+      "bytes": 13242,
+      "sha256": "1fc0a894cbd18f8a03dfc2c135a779c1de5d7806515ae0074edc230de92e81cf"
+    },
+    {
+      "path": "assets/catalog-thumbnails/29a5ff172851d89fcf726470-480.webp",
+      "bytes": 19188,
+      "sha256": "7b405d09731112807647fd69bf830ebe0b1f7d1dfc0f43e82fab7e52ff4a94f2"
+    },
+    {
+      "path": "assets/catalog-thumbnails/2d58c169a373d20f0d40f7d6-480.webp",
+      "bytes": 12646,
+      "sha256": "fe13864e3cc3b37441a75452bddff5031195d3b3983ab194b27244cb2eb41151"
+    },
+    {
+      "path": "assets/catalog-thumbnails/2d7a712a3d6e1d4fafb59571-480.webp",
+      "bytes": 14168,
+      "sha256": "44f35d80685c4af1d0e702e9c275c04ce259dd89970e941cb0b6fead823f1bd8"
+    },
+    {
+      "path": "assets/catalog-thumbnails/2e9d5f4dac9ec2143eee96f8-480.webp",
+      "bytes": 15424,
+      "sha256": "5085fbc321b7d1c5328a82b3b5d053c8686b251d4e0e699d50a0787fce5f0cfb"
+    },
+    {
+      "path": "assets/catalog-thumbnails/2ebc016eeb790cf6a1e2efeb-480.webp",
+      "bytes": 13690,
+      "sha256": "7f884698c5211522fc13e5668f2d7a045ac570a86942d2af0d24653b6b21735f"
+    },
+    {
+      "path": "assets/catalog-thumbnails/30f8eda00e39d996b898f6f2-480.webp",
+      "bytes": 10634,
+      "sha256": "607808dca505aa647e12825fb3492ec22fdf0b0c1c6955786108997d27865517"
+    },
+    {
+      "path": "assets/catalog-thumbnails/3112707bb4ea814f24e873b3-480.webp",
+      "bytes": 18454,
+      "sha256": "bfc384a6a63c8fb37b1d93f7edf6e820e1090de6eaa339d7a04a9393a7afdc37"
+    },
+    {
+      "path": "assets/catalog-thumbnails/315591f034abe858e5c3caeb-480.webp",
+      "bytes": 5178,
+      "sha256": "beb30f7c0a18ee3e41293e5807ed6ebd64c693caf3eaf9e25ae19b26f6661568"
+    },
+    {
+      "path": "assets/catalog-thumbnails/34c25e7d5c13d8edcf3ee62d-480.webp",
+      "bytes": 13462,
+      "sha256": "45cab5c8429a5f9b6089c1ae1fd2afcd0195dcef7c2e8f2fc101f3b972ebb093"
+    },
+    {
+      "path": "assets/catalog-thumbnails/35793cda421520a941078dbc-480.webp",
+      "bytes": 38438,
+      "sha256": "772d032c69f399a248822d89daa5352ef6719eee6d3fbcbce58a79e37c00e192"
+    },
+    {
+      "path": "assets/catalog-thumbnails/37b7c623d5eebec0b61d3a59-480.webp",
+      "bytes": 13588,
+      "sha256": "b24074dff56ace41a76b22f024967d7ad597b00b291dd1f94b22896685c6f14d"
+    },
+    {
+      "path": "assets/catalog-thumbnails/3b8f7c7e4c618404dc4cec6d-480.webp",
+      "bytes": 21560,
+      "sha256": "453601bebf3bcabb007c04818074599c8d2f7fc88ddfbd7ee092af31e4097727"
+    },
+    {
+      "path": "assets/catalog-thumbnails/3ce68230f87b4a82e496ed46-480.webp",
+      "bytes": 19534,
+      "sha256": "7839b172a9224e90bfde9900123837e45b0bb106c12ac4287c54ac82dc0879d6"
+    },
+    {
+      "path": "assets/catalog-thumbnails/42829e615310df03a489cdb7-480.webp",
+      "bytes": 6306,
+      "sha256": "fd39d46e36be32744b0de2f60206ae773fcd455bf3781918fa94a84df67e52a2"
+    },
+    {
+      "path": "assets/catalog-thumbnails/4467612c0ad538197fd10fd8-480.webp",
+      "bytes": 8286,
+      "sha256": "033b56988d3543d15cb867398a4a1947481afa5005f07c203045b5a7fe615a88"
+    },
+    {
+      "path": "assets/catalog-thumbnails/449b70883686c1d68b0f85d1-480.webp",
+      "bytes": 6576,
+      "sha256": "8d9368dbe5b6589ba797a2f9fc5dcf80f620912bdd8fc8a31f762566b4e1d8cd"
+    },
+    {
+      "path": "assets/catalog-thumbnails/45fcac6d99c4dd9cf642cbe4-480.webp",
+      "bytes": 12236,
+      "sha256": "ad88025840ccc25b9d13510a7bead849ed8918f212289fcd64076a7140543098"
+    },
+    {
+      "path": "assets/catalog-thumbnails/495bc0f2107963af4a7016f8-480.webp",
+      "bytes": 14110,
+      "sha256": "8a3b1a2bbd234f1205c4d57d6b1dd16ed62fec04b437d22f9d21a7dc604406e5"
+    },
+    {
+      "path": "assets/catalog-thumbnails/49f2cd496daf8939ff829006-480.webp",
+      "bytes": 20138,
+      "sha256": "0d0f2853a9f50db8a0db46a19a74284a1d9d52cdb98041a89a0a4d00fae45163"
+    },
+    {
+      "path": "assets/catalog-thumbnails/4f2edc26b7aa30510d9fe8f2-480.webp",
+      "bytes": 15164,
+      "sha256": "7fe1e52d7fecf05db64a41e64e53c9ab10f8be40a03361bd0fa62bba79fe7b85"
+    },
+    {
+      "path": "assets/catalog-thumbnails/4f50a099dd457cd55d3f3c6f-480.webp",
+      "bytes": 14620,
+      "sha256": "0105ae2e82913c4bee5030faf570278d329e2f06ee740bc80445a769c0f9bd29"
+    },
+    {
+      "path": "assets/catalog-thumbnails/4f8b986e98204d836a10d7f7-480.webp",
+      "bytes": 14596,
+      "sha256": "f99d9b70c2af4ef2af320f964f5b018429544e1e8faadb8c418d5c6f96510e34"
+    },
+    {
+      "path": "assets/catalog-thumbnails/50129077d1ea709e6c7c0b30-480.webp",
+      "bytes": 15962,
+      "sha256": "eee397918179f1fa9f6de3f07c7fed53626c02bfac103aed7ccb88ed375e5292"
+    },
+    {
+      "path": "assets/catalog-thumbnails/50b1e41d31c30610f1737d11-480.webp",
+      "bytes": 27118,
+      "sha256": "8298fd9530a8ca0205b3db666a90e1e6ab0e25884ce19c193dd432d124e6ec82"
+    },
+    {
+      "path": "assets/catalog-thumbnails/512609368dca5746e01e4343-480.webp",
+      "bytes": 24012,
+      "sha256": "19d31f72dc89ab9eb15eeaa9d4d2989ede80d7a715f8faef704de055a961e7c2"
+    },
+    {
+      "path": "assets/catalog-thumbnails/533423470070333c85b9f9cd-480.webp",
+      "bytes": 12074,
+      "sha256": "b7307963f552b4e4180e12e3439d1438a5d7dbf0b2045f73dfe732556948cfe4"
+    },
+    {
+      "path": "assets/catalog-thumbnails/542f65b8a364d30804543cfc-480.webp",
+      "bytes": 15722,
+      "sha256": "217098282b5f6787900d26d521cc616d8ce56c50bfcd172f707bcf46ca204cad"
+    },
+    {
+      "path": "assets/catalog-thumbnails/554788d5fdfcc5d837dd1083-480.webp",
+      "bytes": 15382,
+      "sha256": "0906e4c25671b999cb6c4678c859bec42c1309012f80910cb3bf0911bc708d90"
+    },
+    {
+      "path": "assets/catalog-thumbnails/560734c5fe1800fc4e2cb626-480.webp",
+      "bytes": 7308,
+      "sha256": "049f609c674a062b22e51d6bf6bf3cd68657b54e3baf267c51e8e1215ce37b73"
+    },
+    {
+      "path": "assets/catalog-thumbnails/56823180ee41945e1f548bce-480.webp",
+      "bytes": 6434,
+      "sha256": "ec07b14093c866842b55887cbcf9ddb597f5cef714574239642dd532d6e8896e"
+    },
+    {
+      "path": "assets/catalog-thumbnails/57dc85632430aa5b5a445923-480.webp",
+      "bytes": 19940,
+      "sha256": "713659eab7d9d1d13ca4ac213d6bceb2d45bde2a1cd1bf1849d16c4c58a8d78a"
+    },
+    {
+      "path": "assets/catalog-thumbnails/580def04c6dfe3cb5b074a35-480.webp",
+      "bytes": 7100,
+      "sha256": "f0686f3978c18e9000339ca8a62ceae38c173e1b4869e28cbf71db272612da33"
+    },
+    {
+      "path": "assets/catalog-thumbnails/587ebab2dd11cf14b33b84d7-480.webp",
+      "bytes": 9178,
+      "sha256": "35debc592da46e214d9ef3c492a76ea4b01d38433f4977e0db1c55253e8216d3"
+    },
+    {
+      "path": "assets/catalog-thumbnails/5960b99b256577a91175f913-480.webp",
+      "bytes": 10358,
+      "sha256": "d100f6d4e9accb8a22e92be058fbc86fe800da842a062c23762641dcb78ee690"
+    },
+    {
+      "path": "assets/catalog-thumbnails/59ad01e5a0c607759629a882-480.webp",
+      "bytes": 5774,
+      "sha256": "44a8e533b1d17143f10970a88fe05014e50e79541e35d03cf1c05522d01bf21f"
+    },
+    {
+      "path": "assets/catalog-thumbnails/5b0315c3b00d6f20b60f913d-480.webp",
+      "bytes": 18546,
+      "sha256": "69dfe42c22611ba283c69151fd1c3188c2f9f013e4e014f990ade9b5a45be4c7"
+    },
+    {
+      "path": "assets/catalog-thumbnails/5b606628aeb827709a653dbb-480.webp",
+      "bytes": 16472,
+      "sha256": "5f09698d80d8db56e29055629fe92993517f15693cfbeb2e71f9a5b8b93bfb67"
+    },
+    {
+      "path": "assets/catalog-thumbnails/5bd28ecd0daf215a1499c34b-480.webp",
+      "bytes": 13000,
+      "sha256": "c77ac60ede36b5909eeacfdf8f1a668c2cfeab2623fea90e0b85d9887ce1cb85"
+    },
+    {
+      "path": "assets/catalog-thumbnails/5d1d1c17c87bece058888629-480.webp",
+      "bytes": 18284,
+      "sha256": "da528cfbac8fcf48e00b434ed979049a4ebcfb9b097b8298ec5bd22747559c0a"
+    },
+    {
+      "path": "assets/catalog-thumbnails/5d69afc56df952b507d26e52-480.webp",
+      "bytes": 22698,
+      "sha256": "24c9d377100f1dfb4b7dbfdcb7256d1cacd9af201136dbf73f76642697e4ed68"
+    },
+    {
+      "path": "assets/catalog-thumbnails/6040baa2a61ad776ecb3105b-480.webp",
+      "bytes": 18600,
+      "sha256": "322cd0f0644378a1e073d36121503587d4ae2b457723cfa8a20c272db0365ff8"
+    },
+    {
+      "path": "assets/catalog-thumbnails/622a95619c9bbb0e14d0ce16-480.webp",
+      "bytes": 21244,
+      "sha256": "833a0e31e4f0b11f6d851fdc133303aeee462a47ed969e98f50d2d0d0a9ab029"
+    },
+    {
+      "path": "assets/catalog-thumbnails/62b30186bcbb240d1dc463ac-480.webp",
+      "bytes": 8338,
+      "sha256": "7ff04da9b64353e7f78a24e9cce66ad9abd9d49315cedd01258db968755fa14d"
+    },
+    {
+      "path": "assets/catalog-thumbnails/64b79b380c8be5cf82795618-480.webp",
+      "bytes": 13004,
+      "sha256": "82676d58989e279a30b163b73277f0f7a9be4f2cc4bb806d7f4c9a6eff64aca6"
+    },
+    {
+      "path": "assets/catalog-thumbnails/65d9d76eca5854ad0c3929cc-480.webp",
+      "bytes": 13920,
+      "sha256": "6775bcc40b7dfc7de4efe0ce38a4b6788ba0854907e3766f22e7471fa57abc5c"
+    },
+    {
+      "path": "assets/catalog-thumbnails/6664b692bdf177ae0362b3e8-480.webp",
+      "bytes": 10356,
+      "sha256": "1b38ca3e5a6ef1394f192688e7efa645d574f45e95626727ddc37e2aa46dfeb9"
+    },
+    {
+      "path": "assets/catalog-thumbnails/67300a281dbaef3ef8c95659-480.webp",
+      "bytes": 24890,
+      "sha256": "c66bf9494905d5e6e542de0f10471bef10c49ae3647f19e4637db770c93c7b77"
+    },
+    {
+      "path": "assets/catalog-thumbnails/67f06712a3c477955c5e8fe7-480.webp",
+      "bytes": 8386,
+      "sha256": "2e40cf276b200fcab79f1e6db55895443781d809122785e5429e1c1f3677c745"
+    },
+    {
+      "path": "assets/catalog-thumbnails/6af7eb8ee9a16c4498bd1f82-480.webp",
+      "bytes": 19726,
+      "sha256": "c93bac2e90ed68a8c28a113581de70a445ba265dad8fb4c2574e6fcb591c7cad"
+    },
+    {
+      "path": "assets/catalog-thumbnails/6c5ee55b9311c1545d3bcd28-480.webp",
+      "bytes": 32126,
+      "sha256": "98729e5d5fa9d69724532cb6e32aa4b7fd2e2dd7d3b64f4ea852352e8ea93049"
+    },
+    {
+      "path": "assets/catalog-thumbnails/6ce4824b75c656a6eb897203-480.webp",
+      "bytes": 9378,
+      "sha256": "2c2a636519716330c974146302926d0900c092ee41327cd2cb564bba450f23b7"
+    },
+    {
+      "path": "assets/catalog-thumbnails/6d15d4bccb4f6405a2cb7938-480.webp",
+      "bytes": 15950,
+      "sha256": "472f44342523e7014bb76a6f059778f579e7e612f8b0692bd743657d20ecc629"
+    },
+    {
+      "path": "assets/catalog-thumbnails/6e512ae728a20fa50ccdd6d9-480.webp",
+      "bytes": 15276,
+      "sha256": "41b1939f5c97fc76ba30b74434aaf2260cb2ac88ec4631e1110b7f040db21e8b"
+    },
+    {
+      "path": "assets/catalog-thumbnails/6f3e86282ea2305e494fa1d3-480.webp",
+      "bytes": 14182,
+      "sha256": "02585494ea0bbe06d299b5629a814eeee6648d7eac654b67fd720eaf9a88247f"
+    },
+    {
+      "path": "assets/catalog-thumbnails/76e9952c2eef6e4edd672007-480.webp",
+      "bytes": 15578,
+      "sha256": "4cb264a580b229660073bf82c4fa05fda9492b71584afb72558074869560cd80"
+    },
+    {
+      "path": "assets/catalog-thumbnails/7d4bc51a04ef438baff9db8f-480.webp",
+      "bytes": 15900,
+      "sha256": "3c29d21209c15e9f69fcd5920cc17d32a94a68c3c6e8cd6577762dab99b37eb7"
+    },
+    {
+      "path": "assets/catalog-thumbnails/7d5b5fde1cf9e7a076d6b0f6-480.webp",
+      "bytes": 11354,
+      "sha256": "6f6da75c54a08fd83788fbebcac00f93666be25ee986d2d39b4bee34654bfc15"
+    },
+    {
+      "path": "assets/catalog-thumbnails/7e65db2777cb814c40efb6f8-480.webp",
+      "bytes": 9400,
+      "sha256": "b7e74b4c19643d41e00977ef3fa7f396569f5d4a675b60e0508b45c666536e75"
+    },
+    {
+      "path": "assets/catalog-thumbnails/7efbfcc3f944c7650e6e96c3-480.webp",
+      "bytes": 16962,
+      "sha256": "571736de8ecd4cea3708a82c90408acb8f6f0bc262697c50a83a17c66d9dcb33"
+    },
+    {
+      "path": "assets/catalog-thumbnails/7f68b9cc34bf6dcb0b3db6b7-480.webp",
+      "bytes": 19262,
+      "sha256": "2b770058a6833733e93833a297f1ba1f266fbe871aa2763437ae382ee9dbd3e6"
+    },
+    {
+      "path": "assets/catalog-thumbnails/85a2a8e9302e405f9d9a0e68-480.webp",
+      "bytes": 27364,
+      "sha256": "eb1202fbafdac889628454af6ff2e374128a45006731159246eb451b3b6b2121"
+    },
+    {
+      "path": "assets/catalog-thumbnails/85d6a0a3085a5a4a74cda6f2-480.webp",
+      "bytes": 13590,
+      "sha256": "ee72e8334b08cd570eed5715c17d068c73c2b3b02cef917ef078a931bd0b7250"
+    },
+    {
+      "path": "assets/catalog-thumbnails/86d1fabd05300030feff351f-480.webp",
+      "bytes": 18216,
+      "sha256": "5e5a57991a362c7f230965412b3b5d1b3e09dfb54144d01b23e303bf93ed6ee5"
+    },
+    {
+      "path": "assets/catalog-thumbnails/87376af04ae03a766620078e-480.webp",
+      "bytes": 12298,
+      "sha256": "d99e9a35004ec760f14a4390ada6240e8e8b883d79665c8424ede6c0959eadec"
+    },
+    {
+      "path": "assets/catalog-thumbnails/876f8b3f96be58b3d1e6b9b7-480.webp",
+      "bytes": 13302,
+      "sha256": "47199e33f25fc4eebdd753885ae11ceca56d706eff907ede8861dec783ed847f"
+    },
+    {
+      "path": "assets/catalog-thumbnails/87963c9e19c577b4d10d5411-480.webp",
+      "bytes": 15268,
+      "sha256": "0a8d7bde535cf69167a901b03d521d4e90372e1f5f4721ebd4e9d24311aaa20c"
+    },
+    {
+      "path": "assets/catalog-thumbnails/8805c39ec0320c7b8b67a350-480.webp",
+      "bytes": 13830,
+      "sha256": "6f012356cfbe89619323eb57d64ae8187d2fd81cb7118f82955118e3d31b9602"
+    },
+    {
+      "path": "assets/catalog-thumbnails/8b622dfbbb80dd339f669e14-480.webp",
+      "bytes": 16360,
+      "sha256": "01c4eb8fb82d80aec2e15a05f23cd7f9e798e51c0443f44b77c98be7433ad656"
+    },
+    {
+      "path": "assets/catalog-thumbnails/8c274bd4b53b84959523d3be-480.webp",
+      "bytes": 12044,
+      "sha256": "cb57e402754661cfe53f5ff0e9a747086094d4b26ea651477075348718b1f570"
+    },
+    {
+      "path": "assets/catalog-thumbnails/9160a0397ca73b6e02b0a75d-480.webp",
+      "bytes": 15432,
+      "sha256": "2836546e9ee0e3c8545e19e243b0133458ae96a59df0b8fb5830a51234ddcb92"
+    },
+    {
+      "path": "assets/catalog-thumbnails/92153c961cc8c484e727f51e-480.webp",
+      "bytes": 16268,
+      "sha256": "aaad53430f756d3f696fc51a4eacb0aa41e887ecd7d82bf6c2e0a6c98290f5f7"
+    },
+    {
+      "path": "assets/catalog-thumbnails/96383408d5fc0961b05adb23-480.webp",
+      "bytes": 6392,
+      "sha256": "b51fdb4dee211c94dc3178c92e4043de5aad009f1ebf767913a9b9926e4453ee"
+    },
+    {
+      "path": "assets/catalog-thumbnails/989f95fe115a3906abb5f525-480.webp",
+      "bytes": 15812,
+      "sha256": "8eed9f0a4c91ef587416e173373cb4ba945ba8b7d9d15f70ea00c0442b384ff7"
+    },
+    {
+      "path": "assets/catalog-thumbnails/9a2a1759f002fa72a32d29c7-480.webp",
+      "bytes": 19356,
+      "sha256": "b2e970f08e62d173ad54f254def4da5b66024a6fed49a332b9197c5ba845823b"
+    },
+    {
+      "path": "assets/catalog-thumbnails/9b0b678d527bbb557619fbff-480.webp",
+      "bytes": 13716,
+      "sha256": "7ff823edf9d8b06ca413c3d80a210e292c92f372ede4e8d1230e3264adf71b00"
+    },
+    {
+      "path": "assets/catalog-thumbnails/9c25040052edc8052428c388-480.webp",
+      "bytes": 10448,
+      "sha256": "72a361aeb98a08792d7475f3f273017fee9616c20b5716c118c0b88964bad190"
+    },
+    {
+      "path": "assets/catalog-thumbnails/9e9a5ddce51d2d25216ed968-480.webp",
+      "bytes": 16428,
+      "sha256": "1ead996d1364c6b296463aac2430328ac1056537c465b8d393c0a16cece45249"
+    },
+    {
+      "path": "assets/catalog-thumbnails/9ee684f147e35dfed4c21609-480.webp",
+      "bytes": 16348,
+      "sha256": "04d78cf66910b8cb0154dc4f030c3dd3d511cb632b7434ff200a67e1f17efe83"
+    },
+    {
+      "path": "assets/catalog-thumbnails/9efce1ff172273314e8a0219-480.webp",
+      "bytes": 4618,
+      "sha256": "9a48d699bc65f788ac05541d7ab1001af7207c82980a2bee0b658fe3bb90847f"
+    },
+    {
+      "path": "assets/catalog-thumbnails/9f03f6abf702b3d1c68946cf-480.webp",
+      "bytes": 4964,
+      "sha256": "72365f284da4903e9b03402f155ee8ed87785f48eb0eb3e192c59e1f6eabd403"
+    },
+    {
+      "path": "assets/catalog-thumbnails/a2377f2d62c358a616eac913-480.webp",
+      "bytes": 12982,
+      "sha256": "433af8f937243e3e27e566b2a744367f8d7e5f425b62edc6da4eb1a0075aafbd"
+    },
+    {
+      "path": "assets/catalog-thumbnails/a31e0d7aa76b1c8c6527ce2f-480.webp",
+      "bytes": 18696,
+      "sha256": "b7f712967b92ee3ab429f846275eed368d5c150694a9210cfc57137f8ba61557"
+    },
+    {
+      "path": "assets/catalog-thumbnails/a4dfeab99235fccb83002a9d-480.webp",
+      "bytes": 9110,
+      "sha256": "fcc89629470ef94389f93e40b6d39fd339f7c3343d8b106aa1ba2243469b1767"
+    },
+    {
+      "path": "assets/catalog-thumbnails/a61d626d4e718a90aaf8b662-480.webp",
+      "bytes": 10690,
+      "sha256": "eb6cbe389d4277c667a2fd516c31fac2533a22a178e5f6862772ceff650040ce"
+    },
+    {
+      "path": "assets/catalog-thumbnails/a6542299f4e8101ffb41f6cc-480.webp",
+      "bytes": 21798,
+      "sha256": "b43a1696cb6641495f54c0fe453a527a5276c628dba791a93a528709fd268da2"
+    },
+    {
+      "path": "assets/catalog-thumbnails/a654d97192e45bf9872d296f-480.webp",
+      "bytes": 31806,
+      "sha256": "e8da0390524023a69da6c52ed81870d442912381a90968397344be36b19cfd09"
+    },
+    {
+      "path": "assets/catalog-thumbnails/a7ef9bfcc8ed26e23d84cdba-480.webp",
+      "bytes": 14636,
+      "sha256": "0ad2559fa059678b0f780b952e61d67e64bd7d8147894d4b79aeb1e2b4b0293a"
+    },
+    {
+      "path": "assets/catalog-thumbnails/a81bf5757900ceade75ed420-480.webp",
+      "bytes": 13412,
+      "sha256": "78b12bed58c664b2bb4b6087e4d6a30738cbc072425c4ea8d151683eab7967a6"
+    },
+    {
+      "path": "assets/catalog-thumbnails/a972ef074c0637b868f5b010-480.webp",
+      "bytes": 11712,
+      "sha256": "3d882b3a97a62590989fd62f41bb15124de827e768723f854a654155940d380c"
+    },
+    {
+      "path": "assets/catalog-thumbnails/ab174a00e2edb83fbc66436a-480.webp",
+      "bytes": 16086,
+      "sha256": "6d62a997359aa97b3bcdeb6206215e3852aeca0609b70b305f2d4cbfe9417b7a"
+    },
+    {
+      "path": "assets/catalog-thumbnails/af076b5aa068806127e5d278-480.webp",
+      "bytes": 21586,
+      "sha256": "8b0bea983462ae4e29245e9b6f8938ef5469a4446c6c6d7df2b5e2a663cb03d1"
+    },
+    {
+      "path": "assets/catalog-thumbnails/af4519c68f970be56a534da6-480.webp",
+      "bytes": 9886,
+      "sha256": "14a5a43bdadd31cb29b281349f2ddbe1a2e3e11594a0248f6a6fa7ccaafc8ae1"
+    },
+    {
+      "path": "assets/catalog-thumbnails/b0a1b161c5cd4b24d259acbd-480.webp",
+      "bytes": 17436,
+      "sha256": "c1890319a5dbeb7362a9e7759722cd79c2d65a1ccfd02cf4d77a34c2b4ea3ac9"
+    },
+    {
+      "path": "assets/catalog-thumbnails/b0d38f16e781c830dd0c8c43-480.webp",
+      "bytes": 24114,
+      "sha256": "c4314ffab33333ca8187b30bab87da67fbfb882565a052ecbb34a260b5305f02"
+    },
+    {
+      "path": "assets/catalog-thumbnails/b1cdb58f8557dde2600ee9f9-480.webp",
+      "bytes": 12462,
+      "sha256": "fd8b6040fc8d60284427b33144ab50b0cb5c7032f87bdce9e6623a0828a42af2"
+    },
+    {
+      "path": "assets/catalog-thumbnails/b1de503692302027a40b7952-480.webp",
+      "bytes": 14610,
+      "sha256": "e3de5d4e690cbbd18b5b884f84fbdf9cbae38bfce7f5834a07c9ea47daeb907c"
+    },
+    {
+      "path": "assets/catalog-thumbnails/b47977d166324d181cae49cf-480.webp",
+      "bytes": 8568,
+      "sha256": "1a44f31518cdea67a508b7801586649a83c990a2b6f4494612faf15322b38858"
+    },
+    {
+      "path": "assets/catalog-thumbnails/b56ae2c48992d37e1884dcdf-480.webp",
+      "bytes": 9660,
+      "sha256": "bbe3a6bf6aca40a2f1f0356dab3910cc996bd622e7eb9e2c6379129814efdc80"
+    },
+    {
+      "path": "assets/catalog-thumbnails/b69253ff0f1d1043ae495007-480.webp",
+      "bytes": 10698,
+      "sha256": "0a7654fbf7008b0730272c40bcc155799b74bbabd57739e4108677e549810dab"
+    },
+    {
+      "path": "assets/catalog-thumbnails/b6a5988203fa1e5361ee774f-480.webp",
+      "bytes": 9540,
+      "sha256": "7c6cf5999cccf3375e5ae6767c37325196958924c60b0d1af269d4f0307fb2ef"
+    },
+    {
+      "path": "assets/catalog-thumbnails/bd708ac2053696e7a8afbe1d-480.webp",
+      "bytes": 19508,
+      "sha256": "3eef54b9933491bbcb913472307df4b7812772f4f7f80dde58f4baa83835bca7"
+    },
+    {
+      "path": "assets/catalog-thumbnails/c26622cd7283c3efcfd2482c-480.webp",
+      "bytes": 14766,
+      "sha256": "d8f194104d2df7d7c4091800280bc5c5418345127b376816795970f14e8ea715"
+    },
+    {
+      "path": "assets/catalog-thumbnails/c3ff53d6d5e9c720dca61357-480.webp",
+      "bytes": 15748,
+      "sha256": "f501b1fd2d8f10cc95fa8d5080dfed0a746207ec178c58d4735c9199310ba0b5"
+    },
+    {
+      "path": "assets/catalog-thumbnails/c404c1c5c47e6b16f15f8803-480.webp",
+      "bytes": 17956,
+      "sha256": "26f791880c2b98f45d6ffcd90eb74dd2e6edb968a18d806fed20a273cbfc86b8"
+    },
+    {
+      "path": "assets/catalog-thumbnails/c434388f4f4292d84bef9a7c-480.webp",
+      "bytes": 6572,
+      "sha256": "70a52f736afdbcf4c949d3ed9a3f90416558405f20bc93ea2ea5cf7418d3c781"
+    },
+    {
+      "path": "assets/catalog-thumbnails/c59bbe2bf769a8b418c3cd20-480.webp",
+      "bytes": 22264,
+      "sha256": "2bc323979590c30383f453a76a4c53f5a5c84e6da7682038742286522a456425"
+    },
+    {
+      "path": "assets/catalog-thumbnails/c5bcff191446b8c1b368b311-480.webp",
+      "bytes": 22900,
+      "sha256": "4e53d03109ba56bf71122c5fa5c0bb08ad8986564470f5e4429b8faa8bfc78ed"
+    },
+    {
+      "path": "assets/catalog-thumbnails/c7a50cb5cb2d693e5d9fddcd-480.webp",
+      "bytes": 14178,
+      "sha256": "cd67e6f8ae5d07dcb0931aec3460e535183e504a4e16f261743d0406dce530d7"
+    },
+    {
+      "path": "assets/catalog-thumbnails/c997fd36ed5b659f2c9bc3a9-480.webp",
+      "bytes": 20332,
+      "sha256": "11a5d4ad1ea63ef3d48ba2f0cc3f5b198748e28ae56bc3265c70fe28f2435bfb"
+    },
+    {
+      "path": "assets/catalog-thumbnails/ca32d10fa04b20fe7d81ae25-480.webp",
+      "bytes": 11772,
+      "sha256": "724650a78eb2f9f8db628546e3ddcd9a767242974586b2450acfdc6879cc748f"
+    },
+    {
+      "path": "assets/catalog-thumbnails/ca5d4c9920cabce6d0b0e950-480.webp",
+      "bytes": 22124,
+      "sha256": "bc8146ba89cb0dea61cbd884d40b96127fbde403d40ddf6cae6b30e6fd1593e7"
+    },
+    {
+      "path": "assets/catalog-thumbnails/caca96d2f6de40fcf1e6d18b-480.webp",
+      "bytes": 13014,
+      "sha256": "000ddc0544dd63ca2203ef91a486170df116ff107e11e6a0b899c3ab4d4764d4"
+    },
+    {
+      "path": "assets/catalog-thumbnails/caf033854c96e93889d88e14-480.webp",
+      "bytes": 12652,
+      "sha256": "50ae89ead8524321e5869f4beba3bcb15910269f49aa830beef7b7de3773c3d7"
+    },
+    {
+      "path": "assets/catalog-thumbnails/cc61c409d860e430466619a5-480.webp",
+      "bytes": 15458,
+      "sha256": "8338575cb83b3afb62ebd087016e0e3138a35675a8cbfb48addd144827ad1d48"
+    },
+    {
+      "path": "assets/catalog-thumbnails/cdc6888d2649d4a8f20007b7-480.webp",
+      "bytes": 15584,
+      "sha256": "3ec1d11357abe3a9de804f11e6d8927923f452376208d3fe0bcab42f31ebbb22"
+    },
+    {
+      "path": "assets/catalog-thumbnails/d117ec67806d00d5bf01746b-480.webp",
+      "bytes": 17096,
+      "sha256": "c697a9ba3392b133a5121d2e9cacc3f11dfc1522423b441b6d48106a3743e411"
+    },
+    {
+      "path": "assets/catalog-thumbnails/d21c5fb9edc8b39cd2c1c135-480.webp",
+      "bytes": 17462,
+      "sha256": "6d1111debf9c768ef7c03e865ee97272a087308d1e39163148e4521a80cf8cb7"
+    },
+    {
+      "path": "assets/catalog-thumbnails/d250fdb8b7f46e995e1cf4a7-480.webp",
+      "bytes": 17504,
+      "sha256": "8a8c272b37a415fcc967a2185d7835d8f504c4ac2c2c300e0d15084eda6e1c5d"
+    },
+    {
+      "path": "assets/catalog-thumbnails/d3b7d82aecc6bd4ba8d8ac3b-480.webp",
+      "bytes": 9266,
+      "sha256": "0c89311cbe94b1a05c0b714e3a7ac1a0b725eab96adeb4a5fdc185fbd82689a6"
+    },
+    {
+      "path": "assets/catalog-thumbnails/d45a3afec09b2baceef6d6cd-480.webp",
+      "bytes": 25792,
+      "sha256": "0dc4ad6429e612f0187510d1b7aaab688f363a4ee9d2e94ba81523ee674eb397"
+    },
+    {
+      "path": "assets/catalog-thumbnails/d5f1a8af4016ea576201ae65-480.webp",
+      "bytes": 15006,
+      "sha256": "19563b437723b67b7c749d373dafccc2865759c8eb56de518521f711aea9600a"
+    },
+    {
+      "path": "assets/catalog-thumbnails/d812aa2d23933b071e85e746-480.webp",
+      "bytes": 8444,
+      "sha256": "314ed7c8336d05900fb8f80f49c99f3712a9b418400b3a1f6a56854f1eb9cb04"
+    },
+    {
+      "path": "assets/catalog-thumbnails/d81fd4fb59737987c8f1fb28-480.webp",
+      "bytes": 8790,
+      "sha256": "55807ca3275e015d6e4220580e7ce02de2f349914c1c6f21a582204e20431475"
+    },
+    {
+      "path": "assets/catalog-thumbnails/d99735cdfb16ec2baad24897-480.webp",
+      "bytes": 10322,
+      "sha256": "b9cae8bf0ae0bdbfc217ed3ecf8a8e9fdca70925d1e02da0164a5d1ae7791c12"
+    },
+    {
+      "path": "assets/catalog-thumbnails/da48c4e95c825f29932ef400-480.webp",
+      "bytes": 11836,
+      "sha256": "1aaedddd53b29156a93ae378e164f9e0b09b10123f4fe354fbbc37db67e63d8f"
+    },
+    {
+      "path": "assets/catalog-thumbnails/da923352b5f0b78eb0b35007-480.webp",
+      "bytes": 18990,
+      "sha256": "d7b337d8b84663dc74011561437332ac391210f7f22066e1482ddaca01fe3f34"
+    },
+    {
+      "path": "assets/catalog-thumbnails/db9936ff3c958b6267c4b964-480.webp",
+      "bytes": 15496,
+      "sha256": "5ad9090d42c9aa2ad6772344c67af7f44748c633166de285992d6c1580df0b99"
+    },
+    {
+      "path": "assets/catalog-thumbnails/dd29b1b94ead0fa0890128e1-480.webp",
+      "bytes": 13432,
+      "sha256": "a5a73e7fea3dae7e93fc9ec594f44cd12fb6222edacfb60325b20aecec27dfc6"
+    },
+    {
+      "path": "assets/catalog-thumbnails/de0abec1c78226de35b10640-480.webp",
+      "bytes": 13144,
+      "sha256": "e0eac0d343bb4d2403b0ed7bd610de49a70e12fbda5a8dd0cd989a4ed2a728f3"
+    },
+    {
+      "path": "assets/catalog-thumbnails/e104f6b21616cb1297d59013-480.webp",
+      "bytes": 14872,
+      "sha256": "7cc95df3cd85b7770cef4676c624f02172c948bdd58163b31843d9fdd7e07d04"
+    },
+    {
+      "path": "assets/catalog-thumbnails/e42d04dbde2177c23f10967c-480.webp",
+      "bytes": 15752,
+      "sha256": "3616853b08c1082bc06ff2b2976405df9f82189d6bd0360204d9a814dd35f7cd"
+    },
+    {
+      "path": "assets/catalog-thumbnails/e4466d2da0a848208ec0babd-480.webp",
+      "bytes": 19836,
+      "sha256": "abe08a2c774edbaf3a4e9de41cfccd47e09fd7f8ba0e4410ff3da9b3f73a43e7"
+    },
+    {
+      "path": "assets/catalog-thumbnails/e6a38d1a074867b2c4362fc9-480.webp",
+      "bytes": 14002,
+      "sha256": "56830f9703994493a3ccb23a8269d03b4dc92312b41d82d0a03238fced724bfe"
+    },
+    {
+      "path": "assets/catalog-thumbnails/e77a22f9fb5feee7a6eb6e01-480.webp",
+      "bytes": 17074,
+      "sha256": "12b8a2c822c736168576f18d21ed3d7abb033eb65cb4b7794d476ff5de8f6c92"
+    },
+    {
+      "path": "assets/catalog-thumbnails/e98453fd3f5e871d0fb60407-480.webp",
+      "bytes": 12554,
+      "sha256": "e485692c88b00c282069940114d8449d80c20376939f7d546d54bb15528989fa"
+    },
+    {
+      "path": "assets/catalog-thumbnails/ea798ed74b01d5287a9adb59-480.webp",
+      "bytes": 8940,
+      "sha256": "f39261fd6e4d36be25a1e2c7d6fac5f06026e72c65bff28f553c9ec43da56270"
+    },
+    {
+      "path": "assets/catalog-thumbnails/eb3d104129e4debf032a00c3-480.webp",
+      "bytes": 6772,
+      "sha256": "c91e99caea077f268134174ddd756cc3e034dcc7aa1338b9055243d234ae8e16"
+    },
+    {
+      "path": "assets/catalog-thumbnails/ec0bcd9a7310441e3b79a308-480.webp",
+      "bytes": 14872,
+      "sha256": "39019ee5d9d714acbe18fdbc02835cd9340771da8bb55165cb974bb5d003fec2"
+    },
+    {
+      "path": "assets/catalog-thumbnails/ec9cc6dc0c290cface18edb7-480.webp",
+      "bytes": 19538,
+      "sha256": "aa11bbbe9ec33a525560183133f4b950ba5eb429d0e5446f74df01b907d3b89e"
+    },
+    {
+      "path": "assets/catalog-thumbnails/efc948307a3e90e1df413cf4-480.webp",
+      "bytes": 12602,
+      "sha256": "236bd4f3771a27af51aa66ecc2c4a9b9696f9845ba866530a22a521724a295d0"
+    },
+    {
+      "path": "assets/catalog-thumbnails/f04a5e62bf719875c901674d-480.webp",
+      "bytes": 15840,
+      "sha256": "82dc85190898e278680cf8dc21701e1f27cd74a73cb8878592a99bba35f621d5"
+    },
+    {
+      "path": "assets/catalog-thumbnails/f13bedc98af52e13760e1174-480.webp",
+      "bytes": 5762,
+      "sha256": "183c65359e6a9ffedcc2792dfcdf9b8cc211316ae647c228b2874b089713606c"
+    },
+    {
+      "path": "assets/catalog-thumbnails/f50b5a61c6c0f11999bf158e-480.webp",
+      "bytes": 13692,
+      "sha256": "1d0ef1bfe554aa6765af610f633f748616521a9919efd26b72642f882c56dd28"
+    },
+    {
+      "path": "assets/catalog-thumbnails/f87dfc3f3e54f3a4f1786cf8-480.webp",
+      "bytes": 17442,
+      "sha256": "2bb5ae4e5a79304f569c13a4b2781545068498f5017aa6b68f34f75a99129da1"
+    },
+    {
+      "path": "assets/catalog-thumbnails/f9c620dd3c3e5ab52658d40e-480.webp",
+      "bytes": 17150,
+      "sha256": "0db0dc411580d4b51c92dc68a14405d3f0d35fb3693b902abb70d7ff18d5a402"
+    },
+    {
+      "path": "assets/catalog-thumbnails/faecf3439263d14cbc4c2ac2-480.webp",
+      "bytes": 14154,
+      "sha256": "626b823579a21f53fe401cd3323d7e8b1bddb8ac13e811e3505e54b7ac95f402"
+    },
+    {
+      "path": "assets/catalog-thumbnails/fbbf9f4a9385aaa9be1f3c30-480.webp",
+      "bytes": 11288,
+      "sha256": "f6b1e56b0e49d2e74b5cf72847a73b308449c7f68d592069e7e06a3be63572a4"
+    },
+    {
+      "path": "assets/catalog-thumbnails/fc42b1ab74a7700ac6b0719a-480.webp",
+      "bytes": 8378,
+      "sha256": "19e325610583cd1cababd5ead31f956c436f253019ff442e182ae835674009d4"
+    },
+    {
+      "path": "assets/catalog-thumbnails/fcb346028dfe08202120de59-480.webp",
+      "bytes": 18576,
+      "sha256": "3d9fd0e434e99bbcc353549434480e74455d1f39c9d7e24ea7b75c0bfaabe13d"
+    },
+    {
+      "path": "assets/catalog-thumbnails/fcc6a2583436c8e58b070ac3-480.webp",
+      "bytes": 7628,
+      "sha256": "b11d71e0d8e30180bd07bff51fb648dd702068a320c08e1e2dd27801175ccd69"
+    },
+    {
+      "path": "assets/catalog-thumbnails/fcdf17da7f89c04662e261e6-480.webp",
+      "bytes": 18960,
+      "sha256": "894626bd7f5e33c7c142af41f13b89321e0e2ac275d62ea60aacf6ddd36ba116"
+    },
+    {
+      "path": "assets/catalog-thumbnails/fdd5fa5e43fd8a80ea857bb4-480.webp",
+      "bytes": 20944,
+      "sha256": "33ba839870d0877e38ec8e43aa1b7ef978c09a1df692d71f398208c7fb3974b7"
+    },
+    {
+      "path": "assets/downloads/standard-response-fire-sprinklers-en.pdf",
+      "bytes": 316445,
+      "sha256": "4726e11252e8776a359b726a3d610937bd21913f3f68b13ae679b02a764146c8"
+    },
+    {
+      "path": "assets/home/certificates/iso-14001.png",
+      "bytes": 418128,
+      "sha256": "37366f30b19bdcbbac6a0794685a894a8ae590ca6bc56120698a825c9434e3f1"
+    },
+    {
+      "path": "assets/home/certificates/iso-45001.png",
+      "bytes": 421155,
+      "sha256": "0c1a54ac058446025606d72b358dae4d7bc5b7306a5bf56c9ef7056845a04085"
+    },
+    {
+      "path": "assets/home/certificates/iso-9001.png",
+      "bytes": 418272,
+      "sha256": "4b6faedcd446703a7f9538b115c065f8d378667a6d95e553f2717a79897f184b"
+    },
+    {
+      "path": "assets/home/factory/manufacturing-base-clean-hd.jpg",
+      "bytes": 402673,
+      "sha256": "958f6dce44f9c9f48ae332bd0e94f51fcfaf84db787cbba0a15d46518278ee53"
+    },
+    {
+      "path": "assets/home/factory/precision-manufacturing-hd.jpg",
+      "bytes": 246845,
+      "sha256": "e97a027101665fcd6e70a6edeb773a9c5b033c791f48d98fdb9b0deca8a6a44c"
+    },
+    {
+      "path": "assets/home/factory/production-capability-clean-hd.jpg",
+      "bytes": 367779,
+      "sha256": "d35ecdf4eebf6ef5f1f7f5a8a8cc687305804498a58a6e858a88454656c238f8"
+    },
+    {
+      "path": "assets/home/factory/warehousing-delivery-clean-hd.jpg",
+      "bytes": 323180,
+      "sha256": "4589ae8ca3c4e09a935d2fb5ba1f743ce9262693e6d6cfce2e0ce4128fe86264"
+    },
+    {
+      "path": "assets/home/packaging/custom-color-carton.jpg",
+      "bytes": 48984,
+      "sha256": "a5b2c5f73a17d4cd547f99367bdc75fcd9fe32242d3837f326167ed61a17f1da"
+    },
+    {
+      "path": "assets/home/packaging/kraft-carton.jpg",
+      "bytes": 78629,
+      "sha256": "4f81d7ff87e680d5d0436543b1702b27f40b218e080b6d8a5f9c0a457143a184"
+    },
+    {
+      "path": "assets/home/packaging/wooden-case.jpg",
+      "bytes": 116599,
+      "sha256": "34296ed12da10edcbe232d8d836260d36aed457baa9aebfa37732efdcaee33a8"
+    },
+    {
+      "path": "assets/js/inquiry.js",
+      "bytes": 5707,
+      "sha256": "c01b8f88b356ed0d5bfbdc04c08e895244ce56b0b019d859df3c6c4b199e8b50"
+    },
+    {
+      "path": "assets/js/preserved-product-gallery.js",
+      "bytes": 3841,
+      "sha256": "189ab4ba4abc24340672a373af4162ac2959d3ac24046063c9255dc5dc881134"
+    },
+    {
+      "path": "assets/js/product-detail.js",
+      "bytes": 2799,
+      "sha256": "40a92afa7346d17c064523c6a426f33466220c5b67fc7315aeb0652595520738"
+    },
+    {
+      "path": "assets/js/product-finder.js",
+      "bytes": 8879,
+      "sha256": "c4a39c3d0ff5b3db4f98075b7f05ec3fcde0a37091f031075847505a4e151c76"
+    },
+    {
+      "path": "assets/js/public-pages.js",
+      "bytes": 694,
+      "sha256": "a7643efb7830b24af948938e0314de6bb199d467f4ec1a8158a1741529f2c624"
+    },
+    {
+      "path": "assets/js/site-navigation.js",
+      "bytes": 5044,
+      "sha256": "3d4ec62db1f0a5ef23f6a2670d3f08db1fc670ab73968ce54a9e14cee3ce367d"
+    },
+    {
+      "path": "assets/products/explosion-proof-pressure-switch/sample-1600.webp",
+      "bytes": 63112,
+      "sha256": "fbbf9f4a9385aaa9be1f3c30a7b6587174c220fd8179294aa10cf4a8369665c3"
+    },
+    {
+      "path": "assets/products/explosion-proof-solenoid-valve/sample-1600.webp",
+      "bytes": 109242,
+      "sha256": "49f2cd496daf8939ff8290062a119d15e83c8263529b45418c3f2520a8fe99fd"
+    },
+    {
+      "path": "assets/products/explosion-proof-waterflow-switches/dn100-sample-1600.webp",
+      "bytes": 67716,
+      "sha256": "e6a38d1a074867b2c4362fc95306bd79c3681c67616cf7a35cdf81c472d3ed58"
+    },
+    {
+      "path": "assets/products/fire-pressure-switch/sample-1052.webp",
+      "bytes": 80208,
+      "sha256": "0bf0ff4f72a1270b21a8d39ac7dd9c2f0619370dc85130846ec2b6c7d7a05104"
+    },
+    {
+      "path": "assets/products/guanya-2026/concealed-pendent-fire-sprinkler-concealed-k115-57c-covered-1600.webp",
+      "bytes": 75644,
+      "sha256": "f1bc1f726704e741b29caa4a748f734260d61b6996f67b75ca47dc2652790aaf"
+    },
+    {
+      "path": "assets/products/guanya-2026/concealed-pendent-fire-sprinkler-concealed-k115-57c-covered-640.webp",
+      "bytes": 25108,
+      "sha256": "95d23a14b42e5ece3436dcf87d11a1a28c4436384b0532adfaee1309eb0058a0"
+    },
+    {
+      "path": "assets/products/guanya-2026/concealed-pendent-fire-sprinkler-concealed-k115-57c-exposed-1600.webp",
+      "bytes": 142528,
+      "sha256": "f26c2b898e97fe49308c60877b636c816f4779e5c5b7d185be6be0d2d95c6bd0"
+    },
+    {
+      "path": "assets/products/guanya-2026/concealed-pendent-fire-sprinkler-concealed-k115-57c-exposed-640.webp",
+      "bytes": 48374,
+      "sha256": "26e1301914f82177347d7574756da14990cac97fbb29279e19181e446114c530"
+    },
+    {
+      "path": "assets/products/guanya-2026/concealed-pendent-fire-sprinkler-concealed-k80-141c-covered-1600.webp",
+      "bytes": 79380,
+      "sha256": "d80215cc3e3f2193344b31803f33bb729f22c0c40072d8161c6da78597734aa5"
+    },
+    {
+      "path": "assets/products/guanya-2026/concealed-pendent-fire-sprinkler-concealed-k80-141c-covered-640.webp",
+      "bytes": 25894,
+      "sha256": "4f8b7972d15c570b6b54b5b5f98ea83274d56f4d9d7e520408e9a18e64bddfb1"
+    },
+    {
+      "path": "assets/products/guanya-2026/concealed-pendent-fire-sprinkler-concealed-k80-141c-exposed-1600.webp",
+      "bytes": 113086,
+      "sha256": "15c13f96320f38e1d740e2212c0f9785ea27f5968d601ed2bb3f8bac8b6420b6"
+    },
+    {
+      "path": "assets/products/guanya-2026/concealed-pendent-fire-sprinkler-concealed-k80-141c-exposed-640.webp",
+      "bytes": 43802,
+      "sha256": "15cd19a2344996fe043c7a354f9ece773a418ce492ada325cdbf7c812aae6fac"
+    },
+    {
+      "path": "assets/products/guanya-2026/concealed-pendent-fire-sprinkler-concealed-k80-93c-covered-1600.webp",
+      "bytes": 75120,
+      "sha256": "6128c7e9e3c0fdf0aa48d4228f443f4d4a27eef88321e01d1ee2dc9e0a2d0e47"
+    },
+    {
+      "path": "assets/products/guanya-2026/concealed-pendent-fire-sprinkler-concealed-k80-93c-covered-640.webp",
+      "bytes": 24324,
+      "sha256": "ed30980f22e8ca7963a2a2b02b288b64261f1d6869a373b8cb31ee1affe0b2bc"
+    },
+    {
+      "path": "assets/products/guanya-2026/concealed-pendent-fire-sprinkler-concealed-k80-93c-exposed-1600.webp",
+      "bytes": 100072,
+      "sha256": "e6ce9d3e550404b8d73d35e7e90b79ab67110899e5dfd482fb34bc5bbef76731"
+    },
+    {
+      "path": "assets/products/guanya-2026/concealed-pendent-fire-sprinkler-concealed-k80-93c-exposed-640.webp",
+      "bytes": 40168,
+      "sha256": "202480b00409ceb06604afcef103c522bb9b131c98dd3574744820a9f81ad881"
+    },
+    {
+      "path": "assets/products/guanya-2026/concealed-pendent-fire-sprinkler-dsc_5943-1600.webp",
+      "bytes": 142948,
+      "sha256": "ac399b0f1fc486c55b2541b1b91adcd719143c4b823205e951397eacbdae7b22"
+    },
+    {
+      "path": "assets/products/guanya-2026/concealed-pendent-fire-sprinkler-dsc_5943-640.webp",
+      "bytes": 51008,
+      "sha256": "6ed55aa3e5a65f89abe84b295437b855ec64a770216db3fa34ae85e53faa774a"
+    },
+    {
+      "path": "assets/products/guanya-2026/concealed-pendent-fire-sprinkler-dsc_5944-1600.webp",
+      "bytes": 84536,
+      "sha256": "20b3d17e8cfa4eb3a8d327d1a21b52690d8b4005c26c1c41018689d704741397"
+    },
+    {
+      "path": "assets/products/guanya-2026/concealed-pendent-fire-sprinkler-dsc_5944-640.webp",
+      "bytes": 27082,
+      "sha256": "5ec384d4f4ca28361a8bfa9927344306ed69113682e2b4d4845a52629a4f8c2e"
+    },
+    {
+      "path": "assets/products/guanya-2026/diaphragm-deluge-valves-dsc_5728-1600.webp",
+      "bytes": 166362,
+      "sha256": "85a2a8e9302e405f9d9a0e6885489af939bd4f6a3515f1d3efd793c00b34c867"
+    },
+    {
+      "path": "assets/products/guanya-2026/diaphragm-deluge-valves-dsc_5728-640.webp",
+      "bytes": 45452,
+      "sha256": "15a59c4f76ddbcc9870f2a43e40b1d46bb7e637d3fbb626c7db176bb93281bcd"
+    },
+    {
+      "path": "assets/products/guanya-2026/dry-pendent-fire-sprinklers-dsc_5774-1600.webp",
+      "bytes": 48662,
+      "sha256": "612b3bcf63770e5c3e36cac97e6fd4df89902f90ba48fec0ada2126235b0b47a"
+    },
+    {
+      "path": "assets/products/guanya-2026/dry-pendent-fire-sprinklers-dsc_5774-640.webp",
+      "bytes": 10666,
+      "sha256": "1ec771b7f3ae21b3b7c3216f7d7a46fc10a54f787c684ebc256fb0abd36cc11c"
+    },
+    {
+      "path": "assets/products/guanya-2026/dry-pendent-fire-sprinklers-dsc_5779-1600.webp",
+      "bytes": 30806,
+      "sha256": "de133134f36bebb80f6d7072959c4de3df2163be3200a2d5f52d33555e22ee84"
+    },
+    {
+      "path": "assets/products/guanya-2026/dry-pendent-fire-sprinklers-dsc_5779-640.webp",
+      "bytes": 7420,
+      "sha256": "6b5daeee1016e8539395294a1e464cc67e1758197fb9bbf50f9e065fde118120"
+    },
+    {
+      "path": "assets/products/guanya-2026/dry-pipe-alarm-valves-dsc_5734-1600.webp",
+      "bytes": 159598,
+      "sha256": "67300a281dbaef3ef8c956593423d0fc3aa0a2c755eca33d52ffe968afd3eaad"
+    },
+    {
+      "path": "assets/products/guanya-2026/dry-pipe-alarm-valves-dsc_5734-640.webp",
+      "bytes": 42000,
+      "sha256": "dde15a1b52f2a2e9c1eaa8e48103cdea5e88b0f36022a9fbfd8dd7fd86d3deae"
+    },
+    {
+      "path": "assets/products/guanya-2026/dry-pipe-alarm-valves-dsc_5735-1600.webp",
+      "bytes": 112986,
+      "sha256": "16b1686e9c2d150241964a54123aca8f9484412a6246d65ec182a7fc0b59396d"
+    },
+    {
+      "path": "assets/products/guanya-2026/dry-pipe-alarm-valves-dsc_5735-640.webp",
+      "bytes": 32300,
+      "sha256": "d7417114accdb500515262a5343ac25cd6dea230ce24fbab52ccbf6bb3e1f529"
+    },
+    {
+      "path": "assets/products/guanya-2026/extended-coverage-quick-response-fire-sprinkler-dsc_5887-1600.webp",
+      "bytes": 71030,
+      "sha256": "29a5ff172851d89fcf726470b5cbeaec434bd3d79f9c59a28b9bcb373ba4d63e"
+    },
+    {
+      "path": "assets/products/guanya-2026/extended-coverage-quick-response-fire-sprinkler-dsc_5887-640.webp",
+      "bytes": 32346,
+      "sha256": "723ea634177d1d9114c3799927ec467e66421adf580438a355c364a72e550b38"
+    },
+    {
+      "path": "assets/products/guanya-2026/extended-coverage-quick-response-fire-sprinkler-dsc_5888-1600.webp",
+      "bytes": 77948,
+      "sha256": "fcdf17da7f89c04662e261e61dd3536a7924be2a3fad1e7cd6d3e6a2742cd406"
+    },
+    {
+      "path": "assets/products/guanya-2026/extended-coverage-quick-response-fire-sprinkler-dsc_5888-640.webp",
+      "bytes": 33270,
+      "sha256": "2420cc1fb553599a16ff59126c3b66376ce711114b90845d8248a7d4dcb95c7f"
+    },
+    {
+      "path": "assets/products/guanya-2026/extended-coverage-quick-response-fire-sprinkler-dsc_5889-1600.webp",
+      "bytes": 56588,
+      "sha256": "9b0b678d527bbb557619fbfffcce8a9e81a25020ae5e50da1098393da5346b70"
+    },
+    {
+      "path": "assets/products/guanya-2026/extended-coverage-quick-response-fire-sprinkler-dsc_5889-640.webp",
+      "bytes": 23000,
+      "sha256": "1ca5a86e257bddd842678acaa200a69b2e2dec6af1cfcd5047b188f4b0899ce9"
+    },
+    {
+      "path": "assets/products/guanya-2026/flanged-supervisory-gate-valves-dsc_5683-1600.webp",
+      "bytes": 78220,
+      "sha256": "c3ff53d6d5e9c720dca61357b1ec2c04f6d8e6d25aa131b10f276042e437a1f8"
+    },
+    {
+      "path": "assets/products/guanya-2026/flanged-supervisory-gate-valves-dsc_5683-640.webp",
+      "bytes": 25494,
+      "sha256": "50e011d91fe7af80f24883d90344b1a26382a32474f990dfbfc7990afeecfca2"
+    },
+    {
+      "path": "assets/products/guanya-2026/fusible-alloy-fire-sprinklers-dsc_5822-1600.webp",
+      "bytes": 91216,
+      "sha256": "e4466d2da0a848208ec0babd8028f56b9cfabbad33d8f1cccced982595516120"
+    },
+    {
+      "path": "assets/products/guanya-2026/fusible-alloy-fire-sprinklers-dsc_5822-640.webp",
+      "bytes": 34400,
+      "sha256": "4eed7e1e6fb6c5e9d41724da5f58d5b32ffeff53458dfd2248d511c23bdada6b"
+    },
+    {
+      "path": "assets/products/guanya-2026/fusible-alloy-fire-sprinklers-dsc_5823-1600.webp",
+      "bytes": 94178,
+      "sha256": "1e43801e3e5cee83d86411b67031dac87e6d1dc5f222bbf438455be09172c955"
+    },
+    {
+      "path": "assets/products/guanya-2026/fusible-alloy-fire-sprinklers-dsc_5823-640.webp",
+      "bytes": 36440,
+      "sha256": "06d0437738e39ae8ed36ddac477ea70ce8f23503a580d1d0f30eef9f016f88e8"
+    },
+    {
+      "path": "assets/products/guanya-2026/glass-bulb-fire-sprinkler-dsc_5839-1600.webp",
+      "bytes": 79568,
+      "sha256": "c997fd36ed5b659f2c9bc3a916b3020d6afda79663f8c46bfd57d92c7377a810"
+    },
+    {
+      "path": "assets/products/guanya-2026/glass-bulb-fire-sprinkler-dsc_5839-640.webp",
+      "bytes": 35100,
+      "sha256": "be078f2b2e8d646bacb8f1edd94c691a34affe30372f2a63447b9c0d49414107"
+    },
+    {
+      "path": "assets/products/guanya-2026/glass-bulb-fire-sprinkler-dsc_5840-1600.webp",
+      "bytes": 90344,
+      "sha256": "fcb346028dfe08202120de5920789900870db232758560181177606a14653a93"
+    },
+    {
+      "path": "assets/products/guanya-2026/glass-bulb-fire-sprinkler-dsc_5840-640.webp",
+      "bytes": 33520,
+      "sha256": "fbd1b5d0f9e2c4b1ab7ae3444917882d8450d947ed7c96d6786a0cc41184d312"
+    },
+    {
+      "path": "assets/products/guanya-2026/glass-bulb-fire-sprinkler-dsc_5841-1600.webp",
+      "bytes": 90898,
+      "sha256": "2849ca8c3fc5325e1e7f3b2a5fdf899aef821f602a9ab85b66f3b5b5f3cd7df0"
+    },
+    {
+      "path": "assets/products/guanya-2026/glass-bulb-fire-sprinkler-dsc_5841-640.webp",
+      "bytes": 27802,
+      "sha256": "c90a83ba1f356919fd6a627af5b63c6e96449cc7449181739b439cfce5a9d0ca"
+    },
+    {
+      "path": "assets/products/guanya-2026/grooved-supervisory-butterfly-valves-dsc_5671-1600.webp",
+      "bytes": 83822,
+      "sha256": "9ee684f147e35dfed4c21609b7db2786363f65d96437475165133428bb3e77a0"
+    },
+    {
+      "path": "assets/products/guanya-2026/grooved-supervisory-butterfly-valves-dsc_5671-640.webp",
+      "bytes": 26762,
+      "sha256": "08f0484ee0f5207ebbb4d6efaa4855fcbdf56554b2142bcd51af4075cf3ff749"
+    },
+    {
+      "path": "assets/products/guanya-2026/grooved-supervisory-gate-valves-dsc_5681-1600.webp",
+      "bytes": 72308,
+      "sha256": "64b79b380c8be5cf8279561845b8d2b9aa395405efafec3939397e0f70632567"
+    },
+    {
+      "path": "assets/products/guanya-2026/grooved-supervisory-gate-valves-dsc_5681-640.webp",
+      "bytes": 21080,
+      "sha256": "4be54497c94e55e606f28ea78235a0359e92b8c45047f0688ebbc2a7b903e109"
+    },
+    {
+      "path": "assets/products/guanya-2026/jet-spray-fire-hose-reel-dsc_5593-1600.webp",
+      "bytes": 128268,
+      "sha256": "ca5d4c9920cabce6d0b0e9502fa00a57926b69aa6929ddbdd9a641ebf7357e6a"
+    },
+    {
+      "path": "assets/products/guanya-2026/jet-spray-fire-hose-reel-dsc_5593-640.webp",
+      "bytes": 36644,
+      "sha256": "f9b5aac5669e5d40332f5e282f2313587ae1440889832fd033b5e5e8c8c73d0a"
+    },
+    {
+      "path": "assets/products/guanya-2026/large-k-factor-esfr-sprinklers-dsc_5813-1600.webp",
+      "bytes": 90798,
+      "sha256": "92153c961cc8c484e727f51ebe9be9d34de2ed3c90e3d96f0d9fc0c8501d32f3"
+    },
+    {
+      "path": "assets/products/guanya-2026/large-k-factor-esfr-sprinklers-dsc_5813-640.webp",
+      "bytes": 29782,
+      "sha256": "5c55fbb548dcbdbca546bc98a23e3cdaf592ef9b23315a7299fd4ecba6c3c3ec"
+    },
+    {
+      "path": "assets/products/guanya-2026/large-k-factor-esfr-sprinklers-dsc_5814-1600.webp",
+      "bytes": 103016,
+      "sha256": "05a5fbee29732989fdda0ddade1997d3fd4d8878f46d4c605c1bfdb2db6a508d"
+    },
+    {
+      "path": "assets/products/guanya-2026/large-k-factor-esfr-sprinklers-dsc_5814-640.webp",
+      "bytes": 40814,
+      "sha256": "8bf9f7f8a39908270c2dcecb2dbab9d219c2e86a8f34a433814443c999271f3b"
+    },
+    {
+      "path": "assets/products/guanya-2026/large-k-factor-esfr-sprinklers-dsc_5816-1600.webp",
+      "bytes": 112660,
+      "sha256": "c59bbe2bf769a8b418c3cd200d8cf8e557ac668d4948514b7c38f45274c9ef17"
+    },
+    {
+      "path": "assets/products/guanya-2026/large-k-factor-esfr-sprinklers-dsc_5816-640.webp",
+      "bytes": 41142,
+      "sha256": "fdcb0b76a93a36101a03f0d9a142823376a043a0ffb8a00cb38517ca6282577c"
+    },
+    {
+      "path": "assets/products/guanya-2026/large-k-factor-esfr-sprinklers-esfr-glass-bulb-domed-1600.webp",
+      "bytes": 150524,
+      "sha256": "36d22d409fe5ffac2a3a1c31ef3e2358e6ad220c63e81974bcc1bff7ab8f873a"
+    },
+    {
+      "path": "assets/products/guanya-2026/large-k-factor-esfr-sprinklers-esfr-glass-bulb-slotted-1600.webp",
+      "bytes": 141058,
+      "sha256": "dac8afd4b0e0790c96be63244e259e5f8be632f5d18fc04e985726d52952eb7c"
+    },
+    {
+      "path": "assets/products/guanya-2026/large-k-factor-esfr-sprinklers-k161-flat-deflector-1600.webp",
+      "bytes": 102708,
+      "sha256": "1f6a77ed1f766ef2207f94126b77e30404e79ce03b6365387e51d3e182d01608"
+    },
+    {
+      "path": "assets/products/guanya-2026/large-k-factor-esfr-sprinklers-k161-flat-deflector-640.webp",
+      "bytes": 36288,
+      "sha256": "8446f24848f4d25ec6bbe604e2b67d5ba190b6efa757f6a18059b48751585a59"
+    },
+    {
+      "path": "assets/products/guanya-2026/large-k-factor-esfr-sprinklers-k161-upright-68c-1600.webp",
+      "bytes": 95918,
+      "sha256": "5696a1b904982c5b228e9194d49cd2e672cee4dc5bbe0a993ae57a1c299d2af7"
+    },
+    {
+      "path": "assets/products/guanya-2026/large-k-factor-esfr-sprinklers-k161-upright-68c-640.webp",
+      "bytes": 38744,
+      "sha256": "7ee220f3af2f136d318732e98cac4f1fd2c439fc9111291f13ccb822c74d15da"
+    },
+    {
+      "path": "assets/products/guanya-2026/lever-operated-grooved-butterfly-valves-dsc_5672-1600.webp",
+      "bytes": 81402,
+      "sha256": "8b622dfbbb80dd339f669e14e76c4555855e6528c0bb96f19d86d7510b2ec036"
+    },
+    {
+      "path": "assets/products/guanya-2026/lever-operated-grooved-butterfly-valves-dsc_5672-640.webp",
+      "bytes": 24916,
+      "sha256": "3fa61c537a71d1dcb7c5ecdc2f1fcab3e9f63ec8f81986ac6514f683780d70a2"
+    },
+    {
+      "path": "assets/products/guanya-2026/lever-operated-wafer-butterfly-valves-dsc_5673-1600.webp",
+      "bytes": 90458,
+      "sha256": "c404c1c5c47e6b16f15f8803c542ec29279578d98648d4ae344adf34af8b86c7"
+    },
+    {
+      "path": "assets/products/guanya-2026/lever-operated-wafer-butterfly-valves-dsc_5673-640.webp",
+      "bytes": 28442,
+      "sha256": "40f9a9df321df8613c425566d9cebaeacff785cd9387987763858cc94b2b0721"
+    },
+    {
+      "path": "assets/products/guanya-2026/nrs-gate-valves-dsc_5679-1600.webp",
+      "bytes": 79716,
+      "sha256": "4f8b986e98204d836a10d7f77c9caabc8601b81c04ac095604b4c2483b7fcb93"
+    },
+    {
+      "path": "assets/products/guanya-2026/nrs-gate-valves-dsc_5679-640.webp",
+      "bytes": 23626,
+      "sha256": "c50844ad921463c58e2e617dc3a2275dd054388f3033400f0b2a0752a267035c"
+    },
+    {
+      "path": "assets/products/guanya-2026/osy-gate-valves-dsc_5686-1600.webp",
+      "bytes": 82860,
+      "sha256": "c7a50cb5cb2d693e5d9fddcd1b5bb8802da7b858ce1ea5f8906ea11adaf7292c"
+    },
+    {
+      "path": "assets/products/guanya-2026/osy-gate-valves-dsc_5686-640.webp",
+      "bytes": 23282,
+      "sha256": "b43791edee287d62d4b6d73a6cff8c77508efabbfe1c261a54c2f4634d578e70"
+    },
+    {
+      "path": "assets/products/guanya-2026/preaction-valve-assemblies-dsc_5732-1600.webp",
+      "bytes": 198188,
+      "sha256": "e0e2b4d307a9cc076fab318d57632f536effff82df7089ab628c96e188a3b744"
+    },
+    {
+      "path": "assets/products/guanya-2026/preaction-valve-assemblies-dsc_5732-640.webp",
+      "bytes": 53496,
+      "sha256": "bd0d725e1278aad3027e1768aff88d2fd11b8437d80de46df785971d29f428a6"
+    },
+    {
+      "path": "assets/products/guanya-2026/preaction-valve-assemblies-preaction-grooved-assembly-1600.webp",
+      "bytes": 195106,
+      "sha256": "eb828f2d379488cf7a0d8195cc620f3ab70e72751dd1109b4d17886f2a4b18e9"
+    },
+    {
+      "path": "assets/products/guanya-2026/preaction-valve-assemblies-preaction-grooved-assembly-640.webp",
+      "bytes": 51074,
+      "sha256": "caeca6011fced7b0da48f58279cd272f2965b01c9f685c72d4f1a0b69e67c4fc"
+    },
+    {
+      "path": "assets/products/guanya-2026/saddle-type-waterflow-switches-dsc_5649-1600.webp",
+      "bytes": 59700,
+      "sha256": "269d1830d172ff66765dbbbd5ed9f4e214ca71e70264bf9cd1f7cb23d0ce0aff"
+    },
+    {
+      "path": "assets/products/guanya-2026/saddle-type-waterflow-switches-dsc_5649-640.webp",
+      "bytes": 19398,
+      "sha256": "bc5ee7ffc56d34a71e85f99002eb0501d5020cd3250aab70e3a8024692d45db5"
+    },
+    {
+      "path": "assets/products/guanya-2026/saddle-type-waterflow-switches-dsc_5653-1600.webp",
+      "bytes": 65226,
+      "sha256": "46e0c5238cb60a33cb661c2428f5dbcad7aaa49ae250146da8c9c47f56ab2908"
+    },
+    {
+      "path": "assets/products/guanya-2026/saddle-type-waterflow-switches-dsc_5653-640.webp",
+      "bytes": 19830,
+      "sha256": "3acbfda70f9d111c719202b73095d1966a8a200de6f79e4c1d2bd33cede37bd4"
+    },
+    {
+      "path": "assets/products/guanya-2026/standard-response-fire-sprinkler-dsc_5827-1600.webp",
+      "bytes": 95112,
+      "sha256": "dc7085699d91606d3089669ed3a0df9c0c2de464014e7bd9c68b9b11a1cb88d1"
+    },
+    {
+      "path": "assets/products/guanya-2026/standard-response-fire-sprinkler-dsc_5827-640.webp",
+      "bytes": 34736,
+      "sha256": "9d89282a9d232ccacba9bc7b297f13dcdee29ec64723bcd7fc8726fbe1f66326"
+    },
+    {
+      "path": "assets/products/guanya-2026/standard-response-fire-sprinkler-dsc_5832-1600.webp",
+      "bytes": 68924,
+      "sha256": "4b94834dc5546c9fb1c40aaa4de9450a3c24a7a165913dcf0e3ba72d7f342c02"
+    },
+    {
+      "path": "assets/products/guanya-2026/standard-response-fire-sprinkler-dsc_5832-640.webp",
+      "bytes": 26260,
+      "sha256": "ad8627474170425f2a4114d7982b6e9b7ea3af18f704413241ee2bc77102ef16"
+    },
+    {
+      "path": "assets/products/guanya-2026/standard-response-fire-sprinkler-dsc_5834-1600.webp",
+      "bytes": 83602,
+      "sha256": "354bdd2d3b38fffb0e016b7e5af471f7211708cf749713cbc6580d250a179ce0"
+    },
+    {
+      "path": "assets/products/guanya-2026/standard-response-fire-sprinkler-dsc_5834-640.webp",
+      "bytes": 31938,
+      "sha256": "59ac90a96506635482ef43829cd90ebb9d23c521bed1dbcc0b56b54e7dc6ba19"
+    },
+    {
+      "path": "assets/products/guanya-2026/standard-response-fire-sprinkler-dsc_5837-1600.webp",
+      "bytes": 91420,
+      "sha256": "8916b40e090b96d25cfb9ab645f0247465be1a9d4b67fffe8d00f04a55840421"
+    },
+    {
+      "path": "assets/products/guanya-2026/standard-response-fire-sprinkler-dsc_5837-640.webp",
+      "bytes": 33816,
+      "sha256": "dfc37b05797db24a019c1079aa091d9f8a1cd6a53d333446096ed72df5b75957"
+    },
+    {
+      "path": "assets/products/guanya-2026/standard-response-fire-sprinkler-dsc_5863-1600.webp",
+      "bytes": 86470,
+      "sha256": "9e467ddd8450e211fa6817529a69bf0a7b20d13ee6a9d25e42fc230d79f3963f"
+    },
+    {
+      "path": "assets/products/guanya-2026/standard-response-fire-sprinkler-dsc_5863-640.webp",
+      "bytes": 36178,
+      "sha256": "a85605e320fdb99ae0292b4cba9300ee79234c24b673317d95d3863a112a63ad"
+    },
+    {
+      "path": "assets/products/guanya-2026/standard-response-fire-sprinkler-dsc_5866-1600.webp",
+      "bytes": 78818,
+      "sha256": "a5f8f82ac83411ca92512d6dbec8ef2826b9793955941e6abedcebb30c6db7ef"
+    },
+    {
+      "path": "assets/products/guanya-2026/standard-response-fire-sprinkler-dsc_5866-640.webp",
+      "bytes": 32926,
+      "sha256": "ed28e4e975cf11022ae088a10235ae8743f61dad3929db9967dad05fd3a9cfc7"
+    },
+    {
+      "path": "assets/products/guanya-2026/standard-response-fire-sprinkler-dsc_5868-1600.webp",
+      "bytes": 87098,
+      "sha256": "622a95619c9bbb0e14d0ce169e7ea0c9f11faba69dc8b0adbc624208faa019fc"
+    },
+    {
+      "path": "assets/products/guanya-2026/standard-response-fire-sprinkler-dsc_5868-640.webp",
+      "bytes": 37104,
+      "sha256": "72dbeb6f21f60479bf566272e3d1f65dd792ebe931fe223daf0e966cd65dab30"
+    },
+    {
+      "path": "assets/products/guanya-2026/standard-response-fire-sprinkler-dsc_5869-1600.webp",
+      "bytes": 81376,
+      "sha256": "6040baa2a61ad776ecb3105bf5b2334f5c2e28577adaa5fcf3a5f67a2015d6cc"
+    },
+    {
+      "path": "assets/products/guanya-2026/standard-response-fire-sprinkler-dsc_5869-640.webp",
+      "bytes": 33092,
+      "sha256": "5a42358220136dc2d00960f7019b3930c2fa563f4eb219990824d8354e2f061b"
+    },
+    {
+      "path": "assets/products/guanya-2026/standard-response-fire-sprinkler-dsc_5870-1600.webp",
+      "bytes": 69732,
+      "sha256": "04cf2b855cb1fb26755c67842d71a55e26594c55d28adb092f536d7204f5d02f"
+    },
+    {
+      "path": "assets/products/guanya-2026/standard-response-fire-sprinkler-dsc_5870-640.webp",
+      "bytes": 25614,
+      "sha256": "3d42339229239c77bea31faa99691f5e73174039a8ffacb8f159bb81f3b9bafe"
+    },
+    {
+      "path": "assets/products/guanya-2026/straight-stream-fire-hose-reel-dsc_5596-1600.webp",
+      "bytes": 112796,
+      "sha256": "3b8f7c7e4c618404dc4cec6d9ae860daceb26adf04a06255d146be24b89ddb29"
+    },
+    {
+      "path": "assets/products/guanya-2026/straight-stream-fire-hose-reel-dsc_5596-640.webp",
+      "bytes": 34694,
+      "sha256": "eb445f555e96c80a21bd19b4448c6b605af713d633535595d3b2967eb5788623"
+    },
+    {
+      "path": "assets/products/guanya-2026/wafer-supervisory-butterfly-valves-dsc_5674-1600.webp",
+      "bytes": 132384,
+      "sha256": "d117ec67806d00d5bf01746b541a135ad28730518c839892cd4507890386b54e"
+    },
+    {
+      "path": "assets/products/guanya-2026/wafer-supervisory-butterfly-valves-dsc_5674-640.webp",
+      "bytes": 29818,
+      "sha256": "e19eb7fd737d108bed379691ccd28e51747cb73bdc10e271e70a348b145360ba"
+    },
+    {
+      "path": "assets/products/guanya-2026/water-curtain-nozzles-dsc_5784-1600.webp",
+      "bytes": 70570,
+      "sha256": "a47eabb9ab67de583caff673cde5ea0045859d43b36e7cb771b5098459f29f5d"
+    },
+    {
+      "path": "assets/products/guanya-2026/water-curtain-nozzles-dsc_5784-640.webp",
+      "bytes": 30814,
+      "sha256": "48c377fdff018734d7638b2e546231c2508acdc4dd21dba7aac0355926df0b8c"
+    },
+    {
+      "path": "assets/products/guanya-2026/water-curtain-nozzles-dsc_5788-1600.webp",
+      "bytes": 62702,
+      "sha256": "0810983b6dc3ce57280cdc669613bfd618ead1eaac58567baf899a1b7fc8b5c9"
+    },
+    {
+      "path": "assets/products/guanya-2026/water-curtain-nozzles-dsc_5788-640.webp",
+      "bytes": 33024,
+      "sha256": "63a0a96b18e749b4a25a8f50b28268f390f94ee0195840a11d1562948bd55c22"
+    },
+    {
+      "path": "assets/products/guanya-2026/water-mist-nozzles-dsc_5798-1600.webp",
+      "bytes": 66450,
+      "sha256": "c4d9246fcaa05644ea6a1a967f7e887ed06dfaecf0e56457e1417d55949053f4"
+    },
+    {
+      "path": "assets/products/guanya-2026/water-mist-nozzles-dsc_5798-640.webp",
+      "bytes": 28154,
+      "sha256": "80d3c0ff419802457b2a82448ef658e052d87711867086c04f2c71605925075a"
+    },
+    {
+      "path": "assets/products/guanya-2026/wet-alarm-check-valve-dsc_5719-1600.webp",
+      "bytes": 94200,
+      "sha256": "243168ceca8ec92087f254e6558093df5891e30d81cff4d388e946ac519db5f8"
+    },
+    {
+      "path": "assets/products/guanya-2026/wet-alarm-check-valve-dsc_5719-640.webp",
+      "bytes": 25626,
+      "sha256": "572f3ff078bd966633d8bdc230c879f171e26344992ce71cce4683e553467f17"
+    },
+    {
+      "path": "assets/products/guanya-2026/wet-alarm-check-valve-dsc_5726-1600.webp",
+      "bytes": 92320,
+      "sha256": "e9b09986afdf2fc3cc68107cc7046b1adad44608186309da053b512fd7b97c53"
+    },
+    {
+      "path": "assets/products/guanya-2026/wet-alarm-check-valve-dsc_5726-640.webp",
+      "bytes": 24548,
+      "sha256": "25d87cea41be23b9eca17ed1da7fa33d48f1c1081df26f5902d394552a3f2995"
+    },
+    {
+      "path": "assets/products/special-sprinklers/closed-air-aspirating-foam-water-sprinkler-5-1600.webp",
+      "bytes": 159802,
+      "sha256": "183e4de9f180c5c741d53da5fa5b7513483f851f9734ec0c5b94274ebceb45ed"
+    },
+    {
+      "path": "assets/products/special-sprinklers/closed-centrifugal-fire-sprinklers-2-1600.webp",
+      "bytes": 87572,
+      "sha256": "1a206b47b113d59bc403d68294962df41f52b21c8c1444a6fa817856b0376885"
+    },
+    {
+      "path": "assets/products/special-sprinklers/closed-rotating-fire-sprinkler-1-1600.webp",
+      "bytes": 144026,
+      "sha256": "512609368dca5746e01e4343d9d1b92331186283519d9bc8ed06d57ceefe0921"
+    },
+    {
+      "path": "assets/products/special-sprinklers/tubular-foam-water-nozzles-3-1600.webp",
+      "bytes": 168272,
+      "sha256": "495bc0f2107963af4a7016f8fe99704ff9c97f9a68ac9884a57a189d67ebfebe"
+    },
+    {
+      "path": "assets/products/special-sprinklers/tubular-foam-water-nozzles-4-1600.webp",
+      "bytes": 189956,
+      "sha256": "7f0ecf1446897272bf72fa5e0e9deb4ca079afc777a127bbda6dd37e0d442962"
+    },
+    {
+      "path": "assets/products/sprinkler-trim/double-layer-escutcheon-white-1254.webp",
+      "bytes": 119354,
+      "sha256": "a6542299f4e8101ffb41f6cc390153381b7f6b33a91052e7c3dc8d51860bcb0d"
+    },
+    {
+      "path": "assets/products/sprinkler-trim/single-layer-escutcheon-white-1254.webp",
+      "bytes": 77368,
+      "sha256": "b97bd4f0cdb50fea555062becdb90a7f018044726bc17713bc53e24733bcd669"
+    },
+    {
+      "path": "assets/products/sprinkler-trim/white-round-cover-assembly-white-1254.webp",
+      "bytes": 29444,
+      "sha256": "47d6d5fa96d53d135b4a603065f7d75981d21218343e7be958c03865d4244795"
+    },
+    {
+      "path": "assets/products/verified-configurations/kd65.jpg",
+      "bytes": 128888,
+      "sha256": "9f7db2041e362d6595b12c0cb4f62cdbf1b307d05ef2700099574475f526eb5c"
+    },
+    {
+      "path": "assets/products/verified-configurations/qz35-75.jpg",
+      "bytes": 201601,
+      "sha256": "d665f9520869ec16501c8619d8ca5f4a3cde08487617651aab42eddffad4586d"
+    },
+    {
+      "path": "assets/products/verified-configurations/zstm-b-304.jpg",
+      "bytes": 62982,
+      "sha256": "991dda7c9f1cc6a3f128e940b5fdf7d2a9691d14bb2e80b5776949fffa77d162"
+    },
+    {
+      "path": "assets/products/verified-configurations/zstwb-stainless.jpg",
+      "bytes": 84876,
+      "sha256": "e931059a29d1748f779ec3ffc756979cd487f6340981a054041eae93f887d542"
+    },
+    {
+      "path": "contact.html",
+      "bytes": 41608,
+      "sha256": "9a59a1744b1bbf44ddc0724bcbd8497b31a2e7dba62a437f3267148e1b2606dd"
+    },
+    {
+      "path": "css/catalog-pages.css",
+      "bytes": 10159,
+      "sha256": "5adeda95b2298f9dbe721ae5316cab65c83401e1b3dadf89b990bdc515b88e20"
+    },
+    {
+      "path": "css/catalog-product.css",
+      "bytes": 244,
+      "sha256": "70c795211b21267cb8a217901ea75635ff735039e0f976eb2522599b7d496e74"
+    },
+    {
+      "path": "css/common.css",
+      "bytes": 6534,
+      "sha256": "0ad54bb5371b67e853e9591990ad6c07c330e6a92a8ab891901262000103cab2"
+    },
+    {
+      "path": "css/documented-product.css",
+      "bytes": 1687,
+      "sha256": "66cf252e26e89022a61e96657a6a4b6f8ce3baeb731175cca72eda7b0d9e24da"
+    },
+    {
+      "path": "css/multilingual-product.css",
+      "bytes": 1743,
+      "sha256": "4f632c0226e181038f93354db497506322913a8b12a2e35f2bbe513feb4e4654"
+    },
+    {
+      "path": "css/product-supplement.css",
+      "bytes": 2008,
+      "sha256": "38cb203ed7f8c49f931bb2be219d1d4f67e4f208d5f05b183e9e1ec7da06c7c0"
+    },
+    {
+      "path": "css/public-pages.css",
+      "bytes": 6503,
+      "sha256": "12af9555d09e16431334649f92ecd007fb07abe40ebbcec8c74f385db682516b"
+    },
+    {
+      "path": "css/site-navigation.css",
+      "bytes": 5969,
+      "sha256": "36b694e337bd65fb2195f125cad7719614a7e7f7d728fc53ea4b97e1bc25202e"
+    },
+    {
+      "path": "css/sprinkler-product-gallery.css",
+      "bytes": 2512,
+      "sha256": "97e09ddc3c80f9421159aa2d4ce9410cfb9009b1e8cf85127198cd782dea0d41"
+    },
+    {
+      "path": "css/sprinkler-product.css",
+      "bytes": 6210,
+      "sha256": "a2f2afee4037147fa1e9767a2466d359da00bcbe5ebd2c4f111ed20d265a98b8"
+    },
+    {
+      "path": "css/wet-alarm-valve-product.css",
+      "bytes": 3173,
+      "sha256": "d3519147ed9e2f69b5ce64c524ef4bd50f166790eacec640ed1cf9a9be9b927b"
+    },
+    {
+      "path": "downloads.html",
+      "bytes": 41723,
+      "sha256": "14848a1a1e25af834d7a853dfbe28d1defcd6199dc375ae64845347f72e5ae48"
+    },
+    {
+      "path": "favicon.ico",
+      "bytes": 668,
+      "sha256": "80aef1bcf48ae6e1b46d52d158b87849be68845e207bd6d0065c16f8f54da129"
+    },
+    {
+      "path": "index.html",
+      "bytes": 73339,
+      "sha256": "092ab8095b6e8d83f127d94cd1022d203d7ebd3bf773ea31fe72b9eb39c61b57"
+    },
+    {
+      "path": "products.html",
+      "bytes": 351339,
+      "sha256": "ad0b2a953208fc5e1675646b57368ec55b22df69932775a49796c77487c2aeb7"
+    },
+    {
+      "path": "products/closed-air-aspirating-foam-water-sprinkler.html",
+      "bytes": 45192,
+      "sha256": "3923394dbab7768c2235396021841bb66eac4d40ceeebccdd8e2cd50a47d9680"
+    },
+    {
+      "path": "products/closed-centrifugal-fire-sprinklers.html",
+      "bytes": 45580,
+      "sha256": "9f4b317b0fdf1331f5f792f79460f76b6224dceed8b8d13cc3d9ac3c7b7ce983"
+    },
+    {
+      "path": "products/closed-rotating-fire-sprinkler.html",
+      "bytes": 44741,
+      "sha256": "859acb81f5cff10fda08a087fecf2c559aa49311bb9fcb970d1c7acad6463cc0"
+    },
+    {
+      "path": "products/foam-nozzles.html",
+      "bytes": 40495,
+      "sha256": "78311d6652cd55921aa6a465c10fe3b62c7b1a3cd764697a752d466a017bb109"
+    },
+    {
+      "path": "products/tubular-foam-water-nozzles.html",
+      "bytes": 45778,
+      "sha256": "ad13236cd6d77aa47fc5161ca250f79399100c6766f17cff21ee82b6a0527a47"
+    },
+    {
+      "path": "products/室内消防栓/catalog-brass-finish-hose-valves-page-07.html",
+      "bytes": 52258,
+      "sha256": "90e436b578011b519906736359932cf8e48c237796713fdd1e49341af7241b74"
+    },
+    {
+      "path": "products/室内消防栓/catalog-brass-finish-hose-valves-page-07/p07-01.webp",
+      "bytes": 92372,
+      "sha256": "5d1d1c17c87bece058888629c2c3bbebce5f008830b9e6a45dc1b48752601269"
+    },
+    {
+      "path": "products/室内消防栓/catalog-brass-finish-hose-valves-page-07/p07-02.webp",
+      "bytes": 85056,
+      "sha256": "5b606628aeb827709a653dbb9483b406ca000f73e926338948726163916ac756"
+    },
+    {
+      "path": "products/室内消防栓/catalog-brass-finish-hose-valves-page-07/p07-03.webp",
+      "bytes": 74382,
+      "sha256": "76e9952c2eef6e4edd672007d10a98b14529d392f44a62189175244450158d48"
+    },
+    {
+      "path": "products/室内消防栓/catalog-brass-finish-hose-valves-page-07/p07-04.webp",
+      "bytes": 67834,
+      "sha256": "2ebc016eeb790cf6a1e2efeb78a38967ee59a4a6091a56ca19e4936b289653b3"
+    },
+    {
+      "path": "products/室内消防栓/catalog-brass-finish-hose-valves-page-07/p07-05.webp",
+      "bytes": 77134,
+      "sha256": "542f65b8a364d30804543cfc8df548b85c33e3fd0a10abcf934c1a28982afba0"
+    },
+    {
+      "path": "products/室内消防栓/catalog-brass-finish-hose-valves-page-08.html",
+      "bytes": 52311,
+      "sha256": "078a1247b40e1d059d50b5128f2a0a1d6a44e1955edabe817c864e50548b5d89"
+    },
+    {
+      "path": "products/室内消防栓/catalog-brass-finish-hose-valves-page-08/p08-01.webp",
+      "bytes": 89226,
+      "sha256": "f87dfc3f3e54f3a4f1786cf803ae332143fe8934fb09712cbb45ffd57564d2f7"
+    },
+    {
+      "path": "products/室内消防栓/catalog-brass-finish-hose-valves-page-08/p08-02.webp",
+      "bytes": 75574,
+      "sha256": "6e512ae728a20fa50ccdd6d9c2819adce4d4d1150f10cfaeb19ec4f978f9e7fe"
+    },
+    {
+      "path": "products/室内消防栓/catalog-brass-finish-hose-valves-page-08/p08-03.webp",
+      "bytes": 68632,
+      "sha256": "4f50a099dd457cd55d3f3c6fc5c23598dc9517c6b72039bb2f170a975c96c608"
+    },
+    {
+      "path": "products/室内消防栓/catalog-brass-finish-hose-valves-page-08/p08-04.webp",
+      "bytes": 76888,
+      "sha256": "db9936ff3c958b6267c4b9643cc7584df7bbef6eaa7acb33467574d8794093aa"
+    },
+    {
+      "path": "products/室内消防栓/catalog-brass-finish-hose-valves-page-08/p08-05.webp",
+      "bytes": 84532,
+      "sha256": "2e9d5f4dac9ec2143eee96f8a3f873e77b183696cafdffbe62701523c0313c3d"
+    },
+    {
+      "path": "products/室内消防栓/catalog-hose-valves-page-09.html",
+      "bytes": 52246,
+      "sha256": "2b387361d84c9432f36b351ae5e2252bbc3cee54855c047ae442f8ded1ce83e6"
+    },
+    {
+      "path": "products/室内消防栓/catalog-hose-valves-page-09/p09-01.webp",
+      "bytes": 84290,
+      "sha256": "0505379287e8f99a32182153773f9351286bffa695f0873d72c35e969d09aae9"
+    },
+    {
+      "path": "products/室内消防栓/catalog-hose-valves-page-09/p09-02.webp",
+      "bytes": 81382,
+      "sha256": "9e9a5ddce51d2d25216ed9683609c38c4ea004655137595aacbf799f9c2ecbb0"
+    },
+    {
+      "path": "products/室内消防栓/catalog-hose-valves-page-09/p09-03.webp",
+      "bytes": 75528,
+      "sha256": "7d4bc51a04ef438baff9db8f6bb81755bf6ab2d45c0a397cba69b7245a7fbfe2"
+    },
+    {
+      "path": "products/室内消防栓/catalog-hose-valves-page-09/p09-04.webp",
+      "bytes": 76066,
+      "sha256": "b1de503692302027a40b7952fbbd13ce4435190a8e5896a91fd689c6e9ec7ab2"
+    },
+    {
+      "path": "products/室内消防栓/catalog-hose-valves-page-09/p09-05.webp",
+      "bytes": 57338,
+      "sha256": "1b35cdca29f1a801e6d79b19a0a0fca29b7127ce9dd5dd7601b0d16b6e01f73e"
+    },
+    {
+      "path": "products/室内消防栓/catalog-hose-valves-page-10.html",
+      "bytes": 51430,
+      "sha256": "e30036a019f2c37006765bac71fc20a3eaa9e52b67df8f2c6cec7fb6fefb55e0"
+    },
+    {
+      "path": "products/室内消防栓/catalog-hose-valves-page-10/p10-01.webp",
+      "bytes": 74124,
+      "sha256": "6f3e86282ea2305e494fa1d3a510337e4a12adfe34f7124ec40753da14201455"
+    },
+    {
+      "path": "products/室内消防栓/catalog-hose-valves-page-10/p10-02.webp",
+      "bytes": 65298,
+      "sha256": "28c3ab33da6169dea8759701efa043c6f6fd74030442cedb77c12c4facf5cf6f"
+    },
+    {
+      "path": "products/室内消防栓/catalog-hose-valves-page-10/p10-03.webp",
+      "bytes": 77268,
+      "sha256": "7efbfcc3f944c7650e6e96c33ad93326981f2e3b15eac7cf4b03e25989f1b3cf"
+    },
+    {
+      "path": "products/室内消防栓/catalog-hose-valves-page-10/p10-04.webp",
+      "bytes": 66630,
+      "sha256": "554788d5fdfcc5d837dd1083de529676ce9bfc11f480d1c9790a3eec73bda30c"
+    },
+    {
+      "path": "products/室内消防栓/catalog-hose-valves-page-10/p10-05.webp",
+      "bytes": 79914,
+      "sha256": "b0a1b161c5cd4b24d259acbdd336ff062082c136ba8adff7dcc36ff06f0123e2"
+    },
+    {
+      "path": "products/室内消防栓/catalog-hose-valves-page-11.html",
+      "bytes": 51820,
+      "sha256": "f3c5c2cba9e6d5f7d099b1450bbf23ab0d5b778d4891eb90a5a8b364ec090d1b"
+    },
+    {
+      "path": "products/室内消防栓/catalog-hose-valves-page-11/p11-01.webp",
+      "bytes": 94222,
+      "sha256": "d250fdb8b7f46e995e1cf4a7f8fecc1bf6545530d714bf955fa42e523e59879a"
+    },
+    {
+      "path": "products/室内消防栓/catalog-hose-valves-page-11/p11-02.webp",
+      "bytes": 69636,
+      "sha256": "0dc148b7f5358dd4c20a4ce3202653a9b9fc6311cce9de0567693b44cb0f1867"
+    },
+    {
+      "path": "products/室内消防栓/catalog-hose-valves-page-11/p11-03.webp",
+      "bytes": 64436,
+      "sha256": "5bd28ecd0daf215a1499c34bcbce1de2e5c2a1a05c3c1a6143c1d5a566ac37d7"
+    },
+    {
+      "path": "products/室内消防栓/catalog-hose-valves-page-11/p11-04.webp",
+      "bytes": 65484,
+      "sha256": "a7ef9bfcc8ed26e23d84cdba4a41ec720b3e9c674477027284791120342e893b"
+    },
+    {
+      "path": "products/室内消防栓/catalog-hose-valves-page-11/p11-05.webp",
+      "bytes": 85974,
+      "sha256": "d21c5fb9edc8b39cd2c1c135eedb5c09060b550a9c7e6508961b2ec9d97eaec3"
+    },
+    {
+      "path": "products/室内消防栓/catalog-hose-valves-page-12.html",
+      "bytes": 51721,
+      "sha256": "4025f377ce5cd0112a1a487988e4c5747013f56199f745c697bbfee8a6117c4d"
+    },
+    {
+      "path": "products/室内消防栓/catalog-hose-valves-page-12/p12-01.webp",
+      "bytes": 71374,
+      "sha256": "2032761685f1a7972e83eebe829ea776870788b2d6421a3d8574458536de5157"
+    },
+    {
+      "path": "products/室内消防栓/catalog-hose-valves-page-12/p12-02.webp",
+      "bytes": 65174,
+      "sha256": "d5f1a8af4016ea576201ae654d8b8a60144ddaf6d33b124db5304cd7f01446c5"
+    },
+    {
+      "path": "products/室内消防栓/catalog-hose-valves-page-12/p12-03.webp",
+      "bytes": 56240,
+      "sha256": "a81bf5757900ceade75ed420dae7d0ee4a3335cca7743d7b73e33a08681ae165"
+    },
+    {
+      "path": "products/室内消防栓/catalog-hose-valves-page-12/p12-04.webp",
+      "bytes": 61706,
+      "sha256": "65d9d76eca5854ad0c3929cc5d8f929c83f2292f66ee6cd4bfe740683d9185a3"
+    },
+    {
+      "path": "products/室内消防栓/catalog-hose-valves-page-12/p12-05.webp",
+      "bytes": 83026,
+      "sha256": "e42d04dbde2177c23f10967c8d7b28da4bb3cee83299376e9b574bf11e35334b"
+    },
+    {
+      "path": "products/室内消防栓/catalog-hydrant-auxiliary-valves-page-14.html",
+      "bytes": 56986,
+      "sha256": "b93c23420bfb6bf567ed90a246fc203695e40fa1864d31ce3f1b8714f0efb566"
+    },
+    {
+      "path": "products/室内消防栓/catalog-hydrant-auxiliary-valves-page-14/p14-01.webp",
+      "bytes": 81668,
+      "sha256": "0d7e1633cba863a5f6f756d32f6a519d39f8bb89c2c8b44c6f4de37741fed93f"
+    },
+    {
+      "path": "products/室内消防栓/catalog-hydrant-auxiliary-valves-page-14/p14-02.webp",
+      "bytes": 68842,
+      "sha256": "18913f6cc5976e7370625fe1adb602d24fd24301739ee55df7d2613435615543"
+    },
+    {
+      "path": "products/室内消防栓/catalog-hydrant-auxiliary-valves-page-14/p14-03.webp",
+      "bytes": 100708,
+      "sha256": "00089165902a69625b79bbdd55d43ff2906292398c5895a130c7fc9c37c52516"
+    },
+    {
+      "path": "products/室内消防栓/catalog-hydrant-auxiliary-valves-page-14/p14-04.webp",
+      "bytes": 70730,
+      "sha256": "caf033854c96e93889d88e1477462e4c4a172246545350f8b26d7b285ecba0eb"
+    },
+    {
+      "path": "products/室内消防栓/catalog-hydrant-auxiliary-valves-page-14/p14-05.webp",
+      "bytes": 74202,
+      "sha256": "4f2edc26b7aa30510d9fe8f24a2b43d4cfb9fd4af4c707c2dc522808b5668aa4"
+    },
+    {
+      "path": "products/室内消防栓/double-outlet-hydrant.html",
+      "bytes": 45140,
+      "sha256": "d0e97dc1f70094100ba531b320ffa8d1ccdfdb4b5cb27df2525fadb3402a4923"
+    },
+    {
+      "path": "products/室内消防栓/double-outlet-hydrant/double-outlet-hydrant.jpg",
+      "bytes": 131895,
+      "sha256": "6af7eb8ee9a16c4498bd1f822cc5c3ced488311b5454e13fcc037020d7d2ecc8"
+    },
+    {
+      "path": "products/室内消防栓/export-slanted-hydrant-valve.html",
+      "bytes": 47936,
+      "sha256": "eca02ef22ab94bc61a1d236728f586eb6125ff00b1e4c5a4340cc677c56a723f"
+    },
+    {
+      "path": "products/室内消防栓/export-slanted-hydrant-valve/export-slanted-front.jpg",
+      "bytes": 150723,
+      "sha256": "017c6bc1a13053f182f9eace6728107c4be1c2f89ed339778bdca0f7b73117cb"
+    },
+    {
+      "path": "products/室内消防栓/export-slanted-hydrant-valve/export-slanted-threequarter.jpg",
+      "bytes": 186129,
+      "sha256": "9f7492612ca6321e0028734838dcb674b51e1fbddbe50952984be524824fbcad"
+    },
+    {
+      "path": "products/室内消防栓/horizontal-handwheel-landing-valves.html",
+      "bytes": 47358,
+      "sha256": "19cb2353dad60009b73d4d9dac48faed5df2fd25d8e297fbfde7a2138e24bd33"
+    },
+    {
+      "path": "products/室内消防栓/horizontal-handwheel-landing-valves/flanged-inlet-catalog-display.jpeg",
+      "bytes": 97643,
+      "sha256": "7d5b5fde1cf9e7a076d6b0f62f570fc2017b712a6fbf62f2ade10fdabea709a0"
+    },
+    {
+      "path": "products/室内消防栓/horizontal-handwheel-landing-valves/threaded-inlet-catalog-display.jpeg",
+      "bytes": 101206,
+      "sha256": "5960b99b256577a91175f913e9455537334b6d1d052466ee03342392ba978712"
+    },
+    {
+      "path": "products/室内消防栓/rotating-pressure-regulating-hydrant.html",
+      "bytes": 48059,
+      "sha256": "d11fee845c03dec0d186a447a03c2997104f5bbf3e61eb9248c38e35a542b93b"
+    },
+    {
+      "path": "products/室内消防栓/rotating-pressure-regulating-hydrant/rotating-hydrant.jpg",
+      "bytes": 168747,
+      "sha256": "7f68b9cc34bf6dcb0b3db6b74ae8d3ea5ed1b43c0874d262ebd421a7154e7977"
+    },
+    {
+      "path": "products/室内消防栓/standard-indoor-hydrant.html",
+      "bytes": 49743,
+      "sha256": "31ca4f6af73ed568766e5a3a9d42f46be10796be1185ec098cb23d6c5e688400"
+    },
+    {
+      "path": "products/室内消防栓/standard-indoor-hydrant/real-ref.jpg",
+      "bytes": 283491,
+      "sha256": "9702e64fcd6305d79a93db7ae8dd74befa3a9ac5d051fe622e7a8a3efe499a24"
+    },
+    {
+      "path": "products/室内消防栓/standard-indoor-hydrant/standard-indoor-hydrant.jpg",
+      "bytes": 163039,
+      "sha256": "ab174a00e2edb83fbc66436a72e5d23ebc49c0ca76a1d6b68a3b629c6ef5c650"
+    },
+    {
+      "path": "products/室内消防栓/standard-indoor-hydrant/view-2.jpg",
+      "bytes": 131035,
+      "sha256": "1cc6d0e1aeb790ce8d9a38767b9ddec7dfc48c505a772a29fba9b50b948a6d52"
+    },
+    {
+      "path": "products/室内消防栓/standard-indoor-hydrant/view-3.jpg",
+      "bytes": 124656,
+      "sha256": "59e1fbf2f4e6ee15496e253eca1a4767da3566e3f875433a6685053981875eb5"
+    },
+    {
+      "path": "products/室内消防栓/standard-indoor-hydrant/view-4.jpg",
+      "bytes": 137021,
+      "sha256": "b22a276ed6925457e0b7fae52d16a9c25b48b2fc2401f8ed64b0426e448bc832"
+    },
+    {
+      "path": "products/室内消防栓/standard-indoor-hydrant/view-5.jpg",
+      "bytes": 122135,
+      "sha256": "f4b293c9575fcc894aa72191f1e725d06788f7377354fa6edb18d05cf3a107c8"
+    },
+    {
+      "path": "products/室内消防栓/standard-indoor-hydrant/view-6.jpg",
+      "bytes": 131547,
+      "sha256": "7c03735fd937ba08b5e870a4ef2e11448763d4f8b2e0355bb6d30f15b2d08382"
+    },
+    {
+      "path": "products/室内消防栓/straight-through-oblique-landing-valves.html",
+      "bytes": 50861,
+      "sha256": "d4df8961aab65fe801aee829eedd034908f7e7c6fca1b269168aaba5c1c33509"
+    },
+    {
+      "path": "products/室内消防栓/straight-through-oblique-landing-valves/oblique-flanged-catalog-display.jpeg",
+      "bytes": 118624,
+      "sha256": "faecf3439263d14cbc4c2ac2394b649878535c023710d25a49dbd85a9fe6ab00"
+    },
+    {
+      "path": "products/室内消防栓/straight-through-oblique-landing-valves/oblique-threaded-catalog-display.jpeg",
+      "bytes": 119894,
+      "sha256": "e104f6b21616cb1297d59013090966ba876e5f1f5233c109a966f8ad9bfe130f"
+    },
+    {
+      "path": "products/室内消防栓/straight-through-oblique-landing-valves/straight-through-catalog-display.jpeg",
+      "bytes": 118618,
+      "sha256": "2d58c169a373d20f0d40f7d695ca7faee06bf095f013f9c7c460574f1846383d"
+    },
+    {
+      "path": "products/室内消防栓/室内消防栓.html",
+      "bytes": 67436,
+      "sha256": "4be2775cb8ce4103e2f4a68dfb5013b153fe94c6a1ae0a7d9115d73892220b81"
+    },
+    {
+      "path": "products/室外消防栓/bs750-pillar-hydrant.html",
+      "bytes": 47927,
+      "sha256": "82f11813d89d3f3fc26f538c430552b3e6b5cdf27e97a5728392d62bda697af6"
+    },
+    {
+      "path": "products/室外消防栓/bs750-pillar-hydrant/bs750-front.jpg",
+      "bytes": 151883,
+      "sha256": "34c25e7d5c13d8edcf3ee62de8829d6412c2b4b400242622d1b33fa4e8a063b5"
+    },
+    {
+      "path": "products/室外消防栓/bs750-pillar-hydrant/bs750-multi-angle.jpg",
+      "bytes": 192257,
+      "sha256": "de14c9e4fbf4c1b2f5b5c3532224142e7b63251f8f002baa1a891c2d4c87a20e"
+    },
+    {
+      "path": "products/室外消防栓/catalog-outdoor-hydrant-configurations-page-31.html",
+      "bytes": 51560,
+      "sha256": "39d93127add4c705dcf71ee9cd74f6585a53e604e1fa423a743620ae0666f580"
+    },
+    {
+      "path": "products/室外消防栓/catalog-outdoor-hydrant-configurations-page-31/p31-01.webp",
+      "bytes": 25588,
+      "sha256": "eb3d104129e4debf032a00c3d9dcef9b6aaa8e8dc19708e1c5a2d74841f017e4"
+    },
+    {
+      "path": "products/室外消防栓/catalog-outdoor-hydrant-configurations-page-31/p31-02.webp",
+      "bytes": 35244,
+      "sha256": "a4dfeab99235fccb83002a9d209e50ee6fa9d08467bb29df9968f3434e8b583b"
+    },
+    {
+      "path": "products/室外消防栓/catalog-outdoor-hydrant-configurations-page-31/p31-03.webp",
+      "bytes": 49350,
+      "sha256": "a2377f2d62c358a616eac91322ae00363a9fa92b5a9df6b30b77a9b38ee5598f"
+    },
+    {
+      "path": "products/室外消防栓/catalog-outdoor-hydrant-configurations-page-31/p31-04.webp",
+      "bytes": 45892,
+      "sha256": "da48c4e95c825f29932ef400592aca2d82d0beaff42479f72e4482e17d2ea366"
+    },
+    {
+      "path": "products/室外消防栓/french-pattern-hydrant.html",
+      "bytes": 47810,
+      "sha256": "0ae14dcc50135e0db3781cbe54e0ea976cdac9a239a607088e16de205c2ba321"
+    },
+    {
+      "path": "products/室外消防栓/global-series/french-dry-barrel-hydrant.jpg",
+      "bytes": 98975,
+      "sha256": "2952407c65240004a617416ca68a58bb92e63ce17f9f496df2b5e65b78a2a454"
+    },
+    {
+      "path": "products/室外消防栓/global-series/french-dry-barrel-rear.jpg",
+      "bytes": 88631,
+      "sha256": "90be64f37a5e32de193884221e10a26ca79ab8f1e069482d6d349b93f90e8914"
+    },
+    {
+      "path": "products/室外消防栓/global-series/indonesia-wet-barrel-detail.jpg",
+      "bytes": 94482,
+      "sha256": "c73c51fa5ae9ddf5bbdcf4db590d0869564e6e3dea128eeb75a0bad83c7f57e7"
+    },
+    {
+      "path": "products/室外消防栓/global-series/indonesia-wet-barrel-hydrant.jpg",
+      "bytes": 124043,
+      "sha256": "876f8b3f96be58b3d1e6b9b7aff3872f20d6f304373b1a185d1066d899378f76"
+    },
+    {
+      "path": "products/室外消防栓/global-series/russian-pattern-hydrant-detail.jpg",
+      "bytes": 118327,
+      "sha256": "d361a134c19e4349f9317cab665e2956d14bd794ecc1d30d248f0aeaeaaccd0a"
+    },
+    {
+      "path": "products/室外消防栓/global-series/russian-pattern-hydrant.jpg",
+      "bytes": 95428,
+      "sha256": "b56ae2c48992d37e1884dcdfaf37b374c8213d93a34709a5e84cc203d3d7b0a3"
+    },
+    {
+      "path": "products/室外消防栓/indonesian-pattern-hydrant.html",
+      "bytes": 47841,
+      "sha256": "87fa4047088e51f1d4d41eaa022076925bea87eadd63c7dc8dab23471e048633"
+    },
+    {
+      "path": "products/室外消防栓/russian-pattern-hydrant.html",
+      "bytes": 47818,
+      "sha256": "ddedebcd6f29edb87743041299a9a5c4f6b260f67819ec76507f8b2b3314edd3"
+    },
+    {
+      "path": "products/室外消防栓/室外消防栓.html",
+      "bytes": 44897,
+      "sha256": "c1178e3398d5d5c2f369e4747990f9a88dcd4eee525fe90b291c46e0328a1174"
+    },
+    {
+      "path": "products/消防喷头.html",
+      "bytes": 65333,
+      "sha256": "53665129ac5896500fb89f8b6fc559e4be859a4f508f6d164d5e07a0a679baf5"
+    },
+    {
+      "path": "products/消防喷头/categories/standard-response-upright.jpg",
+      "bytes": 138749,
+      "sha256": "6e0aaa969bfc23c0f70b65272e73a18d38609ddf81cc442a92fa0f09d12a2f07"
+    },
+    {
+      "path": "products/消防喷头/concealed-pendent-fire-sprinkler.html",
+      "bytes": 73372,
+      "sha256": "f6f6381665f866a6af2976f2c2d04e70cf207662c5b331fecdf33ac63734387f"
+    },
+    {
+      "path": "products/消防喷头/concealed-pendent-sprinkler/concealed-sprinkler-68c-open.jpg",
+      "bytes": 209515,
+      "sha256": "85e9f50247b57bc4df18cf1c3e50b64fecab28db8561f800982ecfb622240d9b"
+    },
+    {
+      "path": "products/消防喷头/concealed-pendent-sprinkler/concealed-sprinkler-blue-bulb.jpg",
+      "bytes": 202023,
+      "sha256": "a693b53cfa862b0145f1aaab6ff8f1998897404016dff1a3739f33f487f9f46b"
+    },
+    {
+      "path": "products/消防喷头/concealed-pendent-sprinkler/concealed-sprinkler-cover-plate.jpg",
+      "bytes": 188675,
+      "sha256": "1af161d972404cb3b0af178f3c77c57002092bae388ced8114025fe38636ae7e"
+    },
+    {
+      "path": "products/消防喷头/concealed-pendent-sprinkler/concealed-sprinkler-green-bulb.jpg",
+      "bytes": 196180,
+      "sha256": "ea89abc7e2b31b8c63d0aaba414aa24474f0be06afe496a181323b37430f6419"
+    },
+    {
+      "path": "products/消防喷头/concealed-pendent-sprinkler/concealed-sprinkler-orange-bulb.jpg",
+      "bytes": 198819,
+      "sha256": "4d926ad6343a57af0191c5d1a8571cb944829621b5f378213d1bc3168c32e609"
+    },
+    {
+      "path": "products/消防喷头/concealed-pendent-sprinkler/concealed-sprinkler-red-bulb.jpg",
+      "bytes": 202787,
+      "sha256": "e9a5d4822ed8bfaf1c2d9077072df3b3be3c195f0e1591c60163b2519dc785d4"
+    },
+    {
+      "path": "products/消防喷头/dry-pendent-fire-sprinklers.html",
+      "bytes": 55081,
+      "sha256": "2cc4231c4b703994eceddfd08e92af7b5eb98a876ecb0f23fa0c64f751421ed2"
+    },
+    {
+      "path": "products/消防喷头/dry-pendent-sprinkler/dry-pendent-escutcheon-detail.jpg",
+      "bytes": 139033,
+      "sha256": "d1c8965e803fb4cd1c5f748fc062df104281b8938c10a48298e14fd8cbd019c0"
+    },
+    {
+      "path": "products/消防喷头/dry-pendent-sprinkler/dry-pendent-front.jpg",
+      "bytes": 122077,
+      "sha256": "ccc6db2c53e840e26b07fd328ffcd88bbd5a982dc522ae94753b74b8d24a17f0"
+    },
+    {
+      "path": "products/消防喷头/extended-coverage-quick-response-fire-sprinkler.html",
+      "bytes": 57739,
+      "sha256": "fc031f7183aa9c370004cbe0445d11e394f31b8a69f21ddf8525b1a83a958c2a"
+    },
+    {
+      "path": "products/消防喷头/fusible-alloy-fire-sprinklers.html",
+      "bytes": 50060,
+      "sha256": "31064d64dea1860f53f9e9c0862358b070be62ce062aae110d759310a753713c"
+    },
+    {
+      "path": "products/消防喷头/glass-bulb-fire-sprinkler.html",
+      "bytes": 54242,
+      "sha256": "6e811d8f33390d77e68cc56c98f4739e6b0141054ee1a15f36633442f13028c1"
+    },
+    {
+      "path": "products/消防喷头/glass-bulb-sprinkler/quick-response-real-packing.jpg",
+      "bytes": 531529,
+      "sha256": "c0527a883b3bc8d76cffdb53e91faa4edd227728ac9bc9853fd45120bfd771c3"
+    },
+    {
+      "path": "products/消防喷头/large-k-esfr-sprinkler/esfr-pendent-series.jpg",
+      "bytes": 254411,
+      "sha256": "57dc85632430aa5b5a445923fa7fbe8c28fe8f1eab109ef2391a2038dddee779"
+    },
+    {
+      "path": "products/消防喷头/large-k-esfr-sprinkler/esfr-upright-series.jpg",
+      "bytes": 265086,
+      "sha256": "fdd5fa5e43fd8a80ea857bb44da293d1e6afed470c331ac013b0de8a76b611e6"
+    },
+    {
+      "path": "products/消防喷头/large-k-factor-esfr-sprinklers.html",
+      "bytes": 62842,
+      "sha256": "eff148af47609975a1dbc99dbfd68a8fd007c283e699f0ddf8dbd452359c6420"
+    },
+    {
+      "path": "products/消防喷头/sprinkler-escutcheons-decorative-covers.html",
+      "bytes": 47319,
+      "sha256": "bf8f0bacce0246f8bb6a20ddb856f32d0500493844a270aad72d0cd6eba52b46"
+    },
+    {
+      "path": "products/消防喷头/standard-response-fire-sprinkler.html",
+      "bytes": 65350,
+      "sha256": "bbf26685cbebf20217530f4c63c0b5aeca822b33ffe2d5d13b38e78cc18f1d9e"
+    },
+    {
+      "path": "products/消防喷头/standard-response-sprinkler/standard-response-three-styles.jpg",
+      "bytes": 195499,
+      "sha256": "ab41c5d1d04187950e24afb11075944a4bacc1a33e135f1f7c4e9b69908b020f"
+    },
+    {
+      "path": "products/消防喷头/water-curtain-nozzles.html",
+      "bytes": 60470,
+      "sha256": "cbaf5f9dc4e63f28e08e637d706d3d2315c7783cd07c93d325e2f917291a931a"
+    },
+    {
+      "path": "products/消防喷头/water-curtain-nozzles/horizontal-double-slot-water-curtain-nozzle.jpg",
+      "bytes": 129444,
+      "sha256": "6d15d4bccb4f6405a2cb79382082c34da0e9404992fee21558a140ed867887c4"
+    },
+    {
+      "path": "products/消防喷头/water-curtain-nozzles/horizontal-single-slot-water-curtain-nozzle.jpg",
+      "bytes": 112437,
+      "sha256": "c26622cd7283c3efcfd2482c9dcc2337b6d65b940118ea2b861e5762c4f4a0fc"
+    },
+    {
+      "path": "products/消防喷头/water-curtain-nozzles/pendent-water-curtain-nozzle.jpg",
+      "bytes": 90639,
+      "sha256": "f9c620dd3c3e5ab52658d40e4c009a7f2cd1a6119d6682aac5408fffb56df67d"
+    },
+    {
+      "path": "products/消防喷头/water-mist-nozzles.html",
+      "bytes": 56899,
+      "sha256": "10342794f28993178282895271c2fcf376fa7eca3c84702461889d6aa7e453ce"
+    },
+    {
+      "path": "products/消防喷头/water-mist-nozzles/impingement-water-mist-nozzle-open-type.jpg",
+      "bytes": 180117,
+      "sha256": "b0d38f16e781c830dd0c8c4311146a3abe9bdfa19c09dfae9b4dcdc026dee2c3"
+    },
+    {
+      "path": "products/消防喷头/water-mist-nozzles/impingement-water-mist-nozzle-with-inlet-strainer.jpg",
+      "bytes": 176126,
+      "sha256": "bd708ac2053696e7a8afbe1d748826d8a67124b730e49345d0cf455355833b8f"
+    },
+    {
+      "path": "products/消防喷头/water-mist-nozzles/water-mist-nozzle-body.jpg",
+      "bytes": 72748,
+      "sha256": "e98453fd3f5e871d0fb60407cd89e964d0b1e29786e663c7120dce63d582fb23"
+    },
+    {
+      "path": "products/消防喷头/water-mist-nozzles/water-mist-nozzle-with-inlet-strainer.jpg",
+      "bytes": 142373,
+      "sha256": "ec0bcd9a7310441e3b79a30834e811987ec55d11db5ca458127968e1d5d86e8f"
+    },
+    {
+      "path": "products/消防喷头/water-mist-nozzles/water-mist-nozzle-with-mesh-guard.jpg",
+      "bytes": 347849,
+      "sha256": "35793cda421520a941078dbc08f8f1b41b6c9921d0da95510d22bf274fb615a8"
+    },
+    {
+      "path": "products/消防器材箱.html",
+      "bytes": 44605,
+      "sha256": "6d06663c05013bf51708935b22193fea2647a64680ee45a232858feca39990e8"
+    },
+    {
+      "path": "products/消防器材箱/catalog-fire-cabinets-page-30.html",
+      "bytes": 50408,
+      "sha256": "7852f4c297533611cb906b121da9257efd0f7c95d6ae270cedac9a9f5e504382"
+    },
+    {
+      "path": "products/消防器材箱/catalog-fire-cabinets-page-30/p30-01.webp",
+      "bytes": 36760,
+      "sha256": "b6a5988203fa1e5361ee774f2dc1230416f40eed4ca5d03b4b5d4a01485c9821"
+    },
+    {
+      "path": "products/消防器材箱/catalog-fire-cabinets-page-30/p30-02.webp",
+      "bytes": 30148,
+      "sha256": "0abb7ce7d706826bf51348ce738217a4dce6bbef0feea7c0252f42324dd2ff15"
+    },
+    {
+      "path": "products/消防器材箱/catalog-fire-cabinets-page-30/p30-03.webp",
+      "bytes": 35624,
+      "sha256": "d812aa2d23933b071e85e746dd86550b1547d5c5ef0243750d444fb7d11861fa"
+    },
+    {
+      "path": "products/消防器材箱/catalog-fire-cabinets-page-30/p30-04.webp",
+      "bytes": 25086,
+      "sha256": "42829e615310df03a489cdb78c4f9717dc454edc19d3aa0ab9978ff922416f28"
+    },
+    {
+      "path": "products/消防器材箱/fire-equipment-cabinets.html",
+      "bytes": 53735,
+      "sha256": "74b31bbe57610419d303db308c99b772711eb175dc4faf5033928d73d48e5a29"
+    },
+    {
+      "path": "products/消防器材箱/fire-equipment-cabinets/double-windowed-door-cabinet-reference.png",
+      "bytes": 928595,
+      "sha256": "587ebab2dd11cf14b33b84d7dcc4c41fd8979a74d377ae75c73d44f6be06d272"
+    },
+    {
+      "path": "products/消防器材箱/fire-equipment-cabinets/single-windowed-door-cabinet-reference.png",
+      "bytes": 959084,
+      "sha256": "b69253ff0f1d1043ae4950074e669fe580468373e360554c54e97097983d1385"
+    },
+    {
+      "path": "products/消防器材箱/fire-equipment-cabinets/solid-door-cabinet-reference.png",
+      "bytes": 1188596,
+      "sha256": "20d15539f13b56f0e8540c66a778a23d4b4aa8b449838bfba3d74fe5c33c50f3"
+    },
+    {
+      "path": "products/消防器材箱/fire-equipment-cabinets/stacked-windowed-door-cabinet-reference.png",
+      "bytes": 924473,
+      "sha256": "d81fd4fb59737987c8f1fb2897fd2163c214ab2becb34ee0535cb689c71381d0"
+    },
+    {
+      "path": "products/消防水枪.html",
+      "bytes": 80763,
+      "sha256": "674da38886a6ec8ca53bda0bd0191d0f3d4d168162ecbf9a3da91ad8487599c4"
+    },
+    {
+      "path": "products/消防水枪/catalog-blank-caps-plug-adapters-page-26.html",
+      "bytes": 50468,
+      "sha256": "706c90ac7aace5338e20ad1ecb252669e50d342db17483ef5b60a3267c622698"
+    },
+    {
+      "path": "products/消防水枪/catalog-blank-caps-plug-adapters-page-26/p26-01.webp",
+      "bytes": 49928,
+      "sha256": "533423470070333c85b9f9cd16d594b723f0bf1e4f8a6eb82377e7115d6370ae"
+    },
+    {
+      "path": "products/消防水枪/catalog-blank-caps-plug-adapters-page-26/p26-02.webp",
+      "bytes": 41422,
+      "sha256": "af4519c68f970be56a534da67606f0303fc80368ba6cf1fc1a5e5c8abbb70840"
+    },
+    {
+      "path": "products/消防水枪/catalog-blank-caps-plug-adapters-page-26/p26-03.webp",
+      "bytes": 54676,
+      "sha256": "8c274bd4b53b84959523d3be171c3161b256b6d5f7d799957f97aa911bc7292e"
+    },
+    {
+      "path": "products/消防水枪/catalog-blank-caps-plug-adapters-page-26/p26-04.webp",
+      "bytes": 60578,
+      "sha256": "caca96d2f6de40fcf1e6d18b4a8d8ff1e0cfe824cda0d03ca08d323f4f478015"
+    },
+    {
+      "path": "products/消防水枪/catalog-blank-caps-plug-adapters-page-26/p26-05.webp",
+      "bytes": 101890,
+      "sha256": "13b461a57fab347588a8d61488ab21f80cb5fa9c81c3c62a3543731d7d1667f1"
+    },
+    {
+      "path": "products/消防水枪/catalog-compact-spray-nozzles-page-22.html",
+      "bytes": 53314,
+      "sha256": "b0ea7a733f9518203e97a7e04715a5b04682a28f36523e702647c07c0686623c"
+    },
+    {
+      "path": "products/消防水枪/catalog-compact-spray-nozzles-page-22/p22-01.webp",
+      "bytes": 101506,
+      "sha256": "9160a0397ca73b6e02b0a75db5bb723902adfd355251cce2858e7030ba20fad5"
+    },
+    {
+      "path": "products/消防水枪/catalog-compact-spray-nozzles-page-22/p22-02.webp",
+      "bytes": 70182,
+      "sha256": "87963c9e19c577b4d10d541187b7fd384d3a09fe6ab701975a77ddedef969e71"
+    },
+    {
+      "path": "products/消防水枪/catalog-compact-spray-nozzles-page-22/p22-03.webp",
+      "bytes": 60552,
+      "sha256": "f50b5a61c6c0f11999bf158e78b2a72748814950607ea21a8c7c197f34e2be18"
+    },
+    {
+      "path": "products/消防水枪/catalog-compact-spray-nozzles-page-22/p22-04.webp",
+      "bytes": 40988,
+      "sha256": "1ed88bb09599d7deb910ccc2f67b218a569868ed69c4437e1dfd4cda27ff9fdc"
+    },
+    {
+      "path": "products/消防水枪/catalog-compact-spray-nozzles-page-22/p22-05.webp",
+      "bytes": 56730,
+      "sha256": "b1cdb58f8557dde2600ee9f98f6b51a392434b90cdada009fdcf16cb75203e90"
+    },
+    {
+      "path": "products/消防水枪/catalog-compact-straight-stream-nozzles-page-17.html",
+      "bytes": 51281,
+      "sha256": "2d17ba3de4a6fb1bab3e23828000d370ab5425c869932dffda98bb85348e1601"
+    },
+    {
+      "path": "products/消防水枪/catalog-compact-straight-stream-nozzles-page-17/p17-01.webp",
+      "bytes": 26414,
+      "sha256": "01d17b2f550bc68e52a6954a391849213a6bb495093ee27f923a62ee65623689"
+    },
+    {
+      "path": "products/消防水枪/catalog-compact-straight-stream-nozzles-page-17/p17-02.webp",
+      "bytes": 31232,
+      "sha256": "4467612c0ad538197fd10fd811dc7cf915d06702897f442d8a844c66ddb0aa49"
+    },
+    {
+      "path": "products/消防水枪/catalog-compact-straight-stream-nozzles-page-17/p17-03.webp",
+      "bytes": 25764,
+      "sha256": "56823180ee41945e1f548bceeb44456c4679aa974a5d61b747eb871dcefbb7dc"
+    },
+    {
+      "path": "products/消防水枪/catalog-compact-straight-stream-nozzles-page-17/p17-04.webp",
+      "bytes": 26688,
+      "sha256": "96383408d5fc0961b05adb2314ead431958258084315d48319aa04789552a65c"
+    },
+    {
+      "path": "products/消防水枪/catalog-compact-straight-stream-nozzles-page-17/p17-05.webp",
+      "bytes": 29836,
+      "sha256": "fcc6a2583436c8e58b070ac38dc51530b41e25b693d282783b4143fd4d73b422"
+    },
+    {
+      "path": "products/消防水枪/catalog-coupled-lever-nozzles-page-18.html",
+      "bytes": 51266,
+      "sha256": "870165003355bbbd8ec173aefbb4b6b9718000104c75c9dfe44424963ce1e4e6"
+    },
+    {
+      "path": "products/消防水枪/catalog-coupled-lever-nozzles-page-18/p18-01.webp",
+      "bytes": 24014,
+      "sha256": "c434388f4f4292d84bef9a7cc6c861795eb25322189d788727d7db6129c4a620"
+    },
+    {
+      "path": "products/消防水枪/catalog-coupled-lever-nozzles-page-18/p18-02.webp",
+      "bytes": 28974,
+      "sha256": "449b70883686c1d68b0f85d172b9c301eae691f4087f67eaf7abeea12d29e5cd"
+    },
+    {
+      "path": "products/消防水枪/catalog-coupled-lever-nozzles-page-18/p18-03.webp",
+      "bytes": 34014,
+      "sha256": "b47977d166324d181cae49cf4b928a6cd20c62202d9197bc189b965b4c71ad73"
+    },
+    {
+      "path": "products/消防水枪/catalog-coupled-lever-nozzles-page-18/p18-04.webp",
+      "bytes": 32466,
+      "sha256": "fc42b1ab74a7700ac6b0719ad7cdd62535039d859c88f4fc95361b35b29c19f4"
+    },
+    {
+      "path": "products/消防水枪/catalog-coupled-lever-nozzles-page-18/p18-05.webp",
+      "bytes": 32410,
+      "sha256": "67f06712a3c477955c5e8fe72cf6ebe3d5f3486c50508811d5bb5dcefa98e82e"
+    },
+    {
+      "path": "products/消防水枪/catalog-fire-hose-adapters-page-21.html",
+      "bytes": 51549,
+      "sha256": "b20071caffaca8d3d7d49b6cdad65db13153ede43a7fc0408570d1fb343bc188"
+    },
+    {
+      "path": "products/消防水枪/catalog-fire-hose-adapters-page-21/p21-01.webp",
+      "bytes": 63244,
+      "sha256": "de0abec1c78226de35b10640f782e60fe88c26b045f44eca5db37875db5ba1eb"
+    },
+    {
+      "path": "products/消防水枪/catalog-fire-hose-adapters-page-21/p21-02.webp",
+      "bytes": 72200,
+      "sha256": "05f6c2514eacecae7b43922d789e8fb00e999a6a9ca50aad0fa1ab8ca0abb917"
+    },
+    {
+      "path": "products/消防水枪/catalog-fire-hose-adapters-page-21/p21-03.webp",
+      "bytes": 72386,
+      "sha256": "16a192c98c46eececd7d70626df3245cfbceccb1b7c983027a62b5c904856c80"
+    },
+    {
+      "path": "products/消防水枪/catalog-fire-hose-adapters-page-21/p21-04.webp",
+      "bytes": 41464,
+      "sha256": "6ce4824b75c656a6eb897203a6d67acb6577e6f7f5c226b3d133bc412091e718"
+    },
+    {
+      "path": "products/消防水枪/catalog-fire-hose-adapters-page-21/p21-05.webp",
+      "bytes": 39736,
+      "sha256": "02291b974b023faa9327277e89fc41699eb746d32b7cd5ba063b5b3006331e2a"
+    },
+    {
+      "path": "products/消防水枪/catalog-fire-hose-couplings-page-20.html",
+      "bytes": 54215,
+      "sha256": "06f379ea7f409a6aaa381fe62a1533014202c574179e18a1513447f413fdb055"
+    },
+    {
+      "path": "products/消防水枪/catalog-fire-hose-couplings-page-20/p20-01.webp",
+      "bytes": 67850,
+      "sha256": "a972ef074c0637b868f5b0101fddcd684e54d32725e0577db38935afe5de3772"
+    },
+    {
+      "path": "products/消防水枪/catalog-fire-hose-couplings-page-20/p20-02.webp",
+      "bytes": 48002,
+      "sha256": "a61d626d4e718a90aaf8b6627debb8d7d2078083004b38b9609ab44bf206b924"
+    },
+    {
+      "path": "products/消防水枪/catalog-fire-hose-couplings-page-20/p20-03.webp",
+      "bytes": 65402,
+      "sha256": "87376af04ae03a766620078e060059310685459426ca1f0c349c77d85c0c3e18"
+    },
+    {
+      "path": "products/消防水枪/catalog-fire-hose-couplings-page-20/p20-04.webp",
+      "bytes": 49388,
+      "sha256": "30f8eda00e39d996b898f6f2a5bd4f63f22910e8c29be3e88b176273f824ed14"
+    },
+    {
+      "path": "products/消防水枪/catalog-fire-hose-couplings-page-20/p20-05.webp",
+      "bytes": 37226,
+      "sha256": "7e65db2777cb814c40efb6f8c3ebb18146c5a44f577242aaa8557b67b16b608e"
+    },
+    {
+      "path": "products/消防水枪/catalog-hose-tails-adapters-page-24.html",
+      "bytes": 51915,
+      "sha256": "43b9fb6fe924e8de2aa7cfeb55ae9c979db04cc52721ab4570be87bfda3d2087"
+    },
+    {
+      "path": "products/消防水枪/catalog-hose-tails-adapters-page-24/p24-01.webp",
+      "bytes": 53910,
+      "sha256": "9c25040052edc8052428c38834a950f525105176a32b0196d10d02f2bd3ef5ca"
+    },
+    {
+      "path": "products/消防水枪/catalog-hose-tails-adapters-page-24/p24-02.webp",
+      "bytes": 73638,
+      "sha256": "8805c39ec0320c7b8b67a35071eb6024f9881a826ddcea4ae78f5f3593e14059"
+    },
+    {
+      "path": "products/消防水枪/catalog-hose-tails-adapters-page-24/p24-03.webp",
+      "bytes": 71094,
+      "sha256": "efc948307a3e90e1df413cf42bb602cd448d65e8d02673133f2f17bfa89756a6"
+    },
+    {
+      "path": "products/消防水枪/catalog-hose-tails-adapters-page-24/p24-04.webp",
+      "bytes": 101558,
+      "sha256": "a31e0d7aa76b1c8c6527ce2f8d3804bfc6c18acdd057a21707b8a00814145a29"
+    },
+    {
+      "path": "products/消防水枪/catalog-hose-tails-adapters-page-24/p24-05.webp",
+      "bytes": 93858,
+      "sha256": "0cc22d23818008ea209d3471351d436293d288ecf53ec6fa9d4227d22a6d37f1"
+    },
+    {
+      "path": "products/消防水枪/catalog-hose-tails-adapters-page-24/p24-06.webp",
+      "bytes": 89648,
+      "sha256": "e77a22f9fb5feee7a6eb6e01e1db1bf6388b5483a853c55c814b16224b864b7f"
+    },
+    {
+      "path": "products/消防水枪/catalog-long-straight-stream-nozzles-page-16.html",
+      "bytes": 49934,
+      "sha256": "b16de95b39b1f9d8f3370993c54113efb45191fbe2ad48b0cfe8b7756872fa60"
+    },
+    {
+      "path": "products/消防水枪/catalog-long-straight-stream-nozzles-page-16/p16-01.webp",
+      "bytes": 22150,
+      "sha256": "f13bedc98af52e13760e117421799fc49787d0e8dfe74783d5ed0714a275673a"
+    },
+    {
+      "path": "products/消防水枪/catalog-long-straight-stream-nozzles-page-16/p16-02.webp",
+      "bytes": 22812,
+      "sha256": "59ad01e5a0c607759629a88237120e8a5c894e6a33f68c6d36d7145ba579e0e1"
+    },
+    {
+      "path": "products/消防水枪/catalog-long-straight-stream-nozzles-page-16/p16-03.webp",
+      "bytes": 19298,
+      "sha256": "315591f034abe858e5c3caeb2b6d1ba4de645d7aa6c1507e3888d6cb23beb58e"
+    },
+    {
+      "path": "products/消防水枪/catalog-long-straight-stream-nozzles-page-16/p16-04.webp",
+      "bytes": 21556,
+      "sha256": "106a1c2cce119315fd4bb966edd2fcd42705e99bb4179b7dcb2fdb5d88413500"
+    },
+    {
+      "path": "products/消防水枪/catalog-nozzles-inductors-connections-page-19.html",
+      "bytes": 51888,
+      "sha256": "8773a96eda433eb11a258c0c66c2dc768366bcc4b71117fc35325421798a8637"
+    },
+    {
+      "path": "products/消防水枪/catalog-nozzles-inductors-connections-page-19/p19-01.webp",
+      "bytes": 72580,
+      "sha256": "50129077d1ea709e6c7c0b302fb7ac8a7afb3c9274ea6ed75d55adb85c34d6b8"
+    },
+    {
+      "path": "products/消防水枪/catalog-nozzles-inductors-connections-page-19/p19-03.webp",
+      "bytes": 83022,
+      "sha256": "9a2a1759f002fa72a32d29c79118ec9ef64a9569e03b45bbcac58ad50d0ee81e"
+    },
+    {
+      "path": "products/消防水枪/catalog-nozzles-inductors-connections-page-19/p19-04.webp",
+      "bytes": 70964,
+      "sha256": "0c75de837b7437f5f9b9a38ac70f00e2df2d9c206506673a75e20c3b7e6fa57a"
+    },
+    {
+      "path": "products/消防水枪/catalog-nozzles-inductors-connections-page-19/p19-05.webp",
+      "bytes": 55242,
+      "sha256": "dd29b1b94ead0fa0890128e1b49ab3ac893edaa76a7bcc1fbab23c85b36f247b"
+    },
+    {
+      "path": "products/消防水枪/catalog-red-grip-nozzles-page-23.html",
+      "bytes": 50582,
+      "sha256": "3a01d5f987f2deb89ea87edec3262d5b46b3c2f550864acc8e881d53279c0101"
+    },
+    {
+      "path": "products/消防水枪/catalog-red-grip-nozzles-page-23/p23-01.webp",
+      "bytes": 52122,
+      "sha256": "45fcac6d99c4dd9cf642cbe4736909717e2fe0c8f563a3e11ea5cede9a376852"
+    },
+    {
+      "path": "products/消防水枪/catalog-red-grip-nozzles-page-23/p23-02.webp",
+      "bytes": 37588,
+      "sha256": "1f45eb663a1cde6625f6bbab3976d465fdd083a9c187a80576dfc3c2156dcf7c"
+    },
+    {
+      "path": "products/消防水枪/catalog-red-grip-nozzles-page-23/p23-03.webp",
+      "bytes": 28846,
+      "sha256": "0818d591cadf4bb86d9b6a439d4724beac356d23d93bd5e7990498c2e432a604"
+    },
+    {
+      "path": "products/消防水枪/catalog-red-grip-nozzles-page-23/p23-04.webp",
+      "bytes": 31890,
+      "sha256": "62b30186bcbb240d1dc463ac58cdb675034c88db4d598c159ae32cfbbe9ef194"
+    },
+    {
+      "path": "products/消防水枪/catalog-red-grip-nozzles-page-23/p23-05.webp",
+      "bytes": 34068,
+      "sha256": "ea798ed74b01d5287a9adb59dd65496de9e6e5fd81ccd9061087264f6e68cf7b"
+    },
+    {
+      "path": "products/消防水枪/catalog-threaded-adapters-caps-page-25.html",
+      "bytes": 51039,
+      "sha256": "afb4f041974693c115096abf95a6db7340aa8f9c425300e7a060d3f5c778b1b3"
+    },
+    {
+      "path": "products/消防水枪/catalog-threaded-adapters-caps-page-25/p25-01.webp",
+      "bytes": 58934,
+      "sha256": "37b7c623d5eebec0b61d3a59bb7d0eefc73ad5b6d8131de8f9abd53b44decfed"
+    },
+    {
+      "path": "products/消防水枪/catalog-threaded-adapters-caps-page-25/p25-02.webp",
+      "bytes": 66128,
+      "sha256": "182ed5af979bdc6a024aac507025d3357a1a8708cedaec0b3a621e5df89bda48"
+    },
+    {
+      "path": "products/消防水枪/catalog-threaded-adapters-caps-page-25/p25-03.webp",
+      "bytes": 104606,
+      "sha256": "3ce68230f87b4a82e496ed4658493353a2149a145a45c27e7f0fcd7cc7021696"
+    },
+    {
+      "path": "products/消防水枪/catalog-threaded-adapters-caps-page-25/p25-04.webp",
+      "bytes": 70182,
+      "sha256": "cc61c409d860e430466619a5380b47cfeacaabebfbfb86f85d8847835eea748d"
+    },
+    {
+      "path": "products/消防水枪/catalog-threaded-adapters-caps-page-25/p25-05.webp",
+      "bytes": 72544,
+      "sha256": "85d6a0a3085a5a4a74cda6f259dd24e9eb4591b9ae5bf8eaf5f3ec2fd425f61c"
+    },
+    {
+      "path": "products/消防水枪/categories/combination-jet-fog-nozzle.jpg",
+      "bytes": 100822,
+      "sha256": "264ab862972eb25d185e188fed12cc4dec8d2739efd48bd758c5b7e8d0452cbe"
+    },
+    {
+      "path": "products/消防水枪/categories/kd-hose-coupling.jpg",
+      "bytes": 151632,
+      "sha256": "6664b692bdf177ae0362b3e8f369e3978209388a0be65de9b88aa5363e98a01a"
+    },
+    {
+      "path": "products/消防水枪/categories/kn-threaded-adapter.jpg",
+      "bytes": 162969,
+      "sha256": "1040d3b61b3e3bfc617bf5af886e2e0ca9e1493adb4295121b28ff6d67d55e4b"
+    },
+    {
+      "path": "products/消防水枪/combination-jet-fog-nozzles.html",
+      "bytes": 40159,
+      "sha256": "1a564d262b687517e3ce9d234c3cc59a53b8e93c85d6b2089fa717c40beed9fb"
+    },
+    {
+      "path": "products/消防水枪/kd-hose-couplings.html",
+      "bytes": 42773,
+      "sha256": "8308d668685e96241dab851271c96af30c474eb41e7527740f4e3276d6038452"
+    },
+    {
+      "path": "products/消防水枪/kn-threaded-adapters.html",
+      "bytes": 39862,
+      "sha256": "799213956397492d1524b6a80a55d97b22046801ced7f3e607354a8fe42a5189"
+    },
+    {
+      "path": "products/消防水枪/lever-operated-fire-hose-nozzles.html",
+      "bytes": 48286,
+      "sha256": "fef5aedfd285b3d5cb11cd6cb5370973e2b3c3d2bbe76ae14f37670797ee5ea3"
+    },
+    {
+      "path": "products/消防水枪/lever-operated-fire-hose-nozzles/configuration-a-catalog-display.png",
+      "bytes": 408894,
+      "sha256": "560734c5fe1800fc4e2cb6269b802e3b702347bf24359b8c6e9b0f6fd5db827e"
+    },
+    {
+      "path": "products/消防水枪/lever-operated-fire-hose-nozzles/configuration-b-catalog-display.png",
+      "bytes": 363782,
+      "sha256": "580def04c6dfe3cb5b074a35114e3f34a9ec20c0b71eed5c47e543b2995d783b"
+    },
+    {
+      "path": "products/消防水枪/straight-stream-fire-hose-nozzles.html",
+      "bytes": 50001,
+      "sha256": "a0ef25c41cae8911990b40de1b1b8745535d6fa848f2ddcaa4de4ea9d714c2b0"
+    },
+    {
+      "path": "products/消防水枪/straight-stream-fire-hose-nozzles/qz-catalog-display.png",
+      "bytes": 1563736,
+      "sha256": "9f03f6abf702b3d1c68946cfacb9bb8d18857eedfa0f2ca42a5cdcbf9b304eff"
+    },
+    {
+      "path": "products/消防水枪/straight-stream-fire-hose-nozzles/russian-pattern-catalog-display.png",
+      "bytes": 442805,
+      "sha256": "9efce1ff172273314e8a0219025d96537b09c724fa1b19bb7c4240c9cd7a363d"
+    },
+    {
+      "path": "products/消防水枪/消防水枪主图.jpg",
+      "bytes": 53120,
+      "sha256": "905e447a89973acf54fe22353ea8cf9cc39221753feba16081c61417087e5632"
+    },
+    {
+      "path": "products/消防水泵接合器.html",
+      "bytes": 47150,
+      "sha256": "bc2e42df66b7e6b9ec68d9f41845b29ffbf7be4a79e5e817935d605108d45ea0"
+    },
+    {
+      "path": "products/消防水泵接合器/catalog-fire-connections-distributors-page-15.html",
+      "bytes": 52575,
+      "sha256": "793b806e1a78ddf46985b1e5571d9f9413d493a046298999e3195ddf1c65eb3c"
+    },
+    {
+      "path": "products/消防水泵接合器/catalog-fire-connections-distributors-page-15/p15-01.webp",
+      "bytes": 63322,
+      "sha256": "cdc6888d2649d4a8f20007b78da9fd38bec983642bef5196d448d4fcd9414837"
+    },
+    {
+      "path": "products/消防水泵接合器/catalog-fire-connections-distributors-page-15/p15-02.webp",
+      "bytes": 85090,
+      "sha256": "1d1f5f0fc86dcbc96d5c999a92e78ff0c2f28216c6a79a88304deb3a1ef64a5f"
+    },
+    {
+      "path": "products/消防水泵接合器/catalog-fire-connections-distributors-page-15/p15-03.webp",
+      "bytes": 59046,
+      "sha256": "2d7a712a3d6e1d4fafb595715a04ca7e0027ba2a82ac62f8a4261b78f28e48ac"
+    },
+    {
+      "path": "products/消防水泵接合器/catalog-fire-connections-distributors-page-15/p15-04.webp",
+      "bytes": 107094,
+      "sha256": "1035368f22a4d8195ae8d0796747dd10de060581a05c60a8614c2646d834461e"
+    },
+    {
+      "path": "products/消防水泵接合器/catalog-fire-connections-distributors-page-15/p15-05.webp",
+      "bytes": 81574,
+      "sha256": "5b0315c3b00d6f20b60f913d3cd87c0d45ef1ea48e8f4aadec0db23604e3ead4"
+    },
+    {
+      "path": "products/消防水泵接合器/catalog-twin-outlet-fire-connections-page-13.html",
+      "bytes": 53849,
+      "sha256": "3f518defbaedeedbb75b02afe1105d09d0bb1fcf3608fa672d2191e19074611b"
+    },
+    {
+      "path": "products/消防水泵接合器/catalog-twin-outlet-fire-connections-page-13/p13-01.webp",
+      "bytes": 80750,
+      "sha256": "210ae58549e5df1b3ee547a24e791d583ca166815616462e616212a93a6aad78"
+    },
+    {
+      "path": "products/消防水泵接合器/catalog-twin-outlet-fire-connections-page-13/p13-02.webp",
+      "bytes": 89186,
+      "sha256": "3112707bb4ea814f24e873b3d541f8a4a7ef872e36dca41c4bd86f27c3f0ba27"
+    },
+    {
+      "path": "products/消防水泵接合器/catalog-twin-outlet-fire-connections-page-13/p13-03.webp",
+      "bytes": 128728,
+      "sha256": "5d69afc56df952b507d26e520fde442f4e764321129aff5a236cfd20b1778519"
+    },
+    {
+      "path": "products/消防水泵接合器/catalog-twin-outlet-fire-connections-page-13/p13-04.webp",
+      "bytes": 122908,
+      "sha256": "ec9cc6dc0c290cface18edb7e269b6266de5212603b67d63baec8b35bb3b0337"
+    },
+    {
+      "path": "products/消防水泵接合器/russian-pattern-fire-department-connection.html",
+      "bytes": 46637,
+      "sha256": "3954d0e99a0b915b5f61e787561641c6fe8e7215c0677e38b7223c250fbfd98a"
+    },
+    {
+      "path": "products/消防水泵接合器/russian-pattern-fire-department-connection/65-16k-65-front.png",
+      "bytes": 1455395,
+      "sha256": "86d1fabd05300030feff351f9a406895fa6596e276a9b26fb0eb6d1080f0dbc2"
+    },
+    {
+      "path": "products/消防蝶阀.html",
+      "bytes": 41906,
+      "sha256": "4a3fb30109fbc186c54f0e7674495378989a121ea9afb9e50b6d25e3b82047d3"
+    },
+    {
+      "path": "products/消防蝶阀/grooved-supervisory-butterfly-valves.html",
+      "bytes": 50818,
+      "sha256": "6ebc32ef61a2f29ce314c22b9c5605d96ef037c7cb8d4e849fd1877b355a7b66"
+    },
+    {
+      "path": "products/消防蝶阀/lever-operated-grooved-butterfly-valves.html",
+      "bytes": 51133,
+      "sha256": "d104a14e692a223f1539bcfb62d27b0f6bf2a1de545c08a64a8377635f270d00"
+    },
+    {
+      "path": "products/消防蝶阀/lever-operated-wafer-butterfly-valves.html",
+      "bytes": 51097,
+      "sha256": "250ff4a76a7499c2a1a38ad339b81c39a006f3e63a03a15b6b5ac170164306fd"
+    },
+    {
+      "path": "products/消防蝶阀/wafer-supervisory-butterfly-valves.html",
+      "bytes": 52090,
+      "sha256": "094bb03da6367025d77911959a4ba18b878942814a5bde2e03953384d39ffbe6"
+    },
+    {
+      "path": "products/消防阀.html",
+      "bytes": 47781,
+      "sha256": "98e599189600071184984594e12c2480f96ca2292d5416ea042fe13bb13fee6b"
+    },
+    {
+      "path": "products/消防阀/diaphragm-deluge-valves.html",
+      "bytes": 56409,
+      "sha256": "e7c93a54d2950abae67af71a0156a9fc9162b9c7797029eaf9852efcc83e8963"
+    },
+    {
+      "path": "products/消防阀/diaphragm-deluge-valves/deluge-valve-grooved.jpg",
+      "bytes": 192438,
+      "sha256": "1260fd344a350ef94b7afda1a8dc3004583bedd25779e26ee16f413ad360d87f"
+    },
+    {
+      "path": "products/消防阀/dry-pipe-alarm-valves.html",
+      "bytes": 54511,
+      "sha256": "5b2b410ca1bfbc30e1e7311a8d9d0de32d1a375e6cd51b1c4885f5c6dce06a0e"
+    },
+    {
+      "path": "products/消防阀/explosion-proof-pressure-switch.html",
+      "bytes": 46454,
+      "sha256": "535d83b13abeb86920c33f5339eb71c4f88b0900deb636d138cf4dc4678d30de"
+    },
+    {
+      "path": "products/消防阀/explosion-proof-solenoid-valve.html",
+      "bytes": 46499,
+      "sha256": "57ba1ba9bdc1cff62f151523a68f481890e9b544ce6f07a30639cf33d6af7a21"
+    },
+    {
+      "path": "products/消防阀/explosion-proof-waterflow-switches.html",
+      "bytes": 47942,
+      "sha256": "65fd5c0ce894dbbfd041e3babba011b45e269184b65d0c1a5d241e842b2d421a"
+    },
+    {
+      "path": "products/消防阀/fire-pressure-switch.html",
+      "bytes": 45787,
+      "sha256": "f9ba5d58f3169524056782b387833e14fd3bea80cba107fb3daf3aa5883f94d6"
+    },
+    {
+      "path": "products/消防阀/preaction-valve-assemblies.html",
+      "bytes": 55765,
+      "sha256": "24578b467b34e84a5f4b8a7355c7e9ddcbf6afba5153bf46f18f164d15663dec"
+    },
+    {
+      "path": "products/消防阀/saddle-type-waterflow-switches.html",
+      "bytes": 51150,
+      "sha256": "c8aab4cb15639fe87b52031276dfa98c3b440dc6c0985898a9fa009e53cc1732"
+    },
+    {
+      "path": "products/消防阀/saddle-type-waterflow-switches/zsjz-dn100-reference.png",
+      "bytes": 1270057,
+      "sha256": "ca32d10fa04b20fe7d81ae25a651dc0a120b4c27590b2c4f66349b1aba66be00"
+    },
+    {
+      "path": "products/消防阀/wet-alarm-check-valve-assemblies.html",
+      "bytes": 56311,
+      "sha256": "2baaf439d79801a451d05ba13efc6adb51c3a87fb332381c5783d482470754fb"
+    },
+    {
+      "path": "products/消防阀/wet-alarm-check-valve-assemblies/dn150-flanged-wet-alarm-assembly-en.jpg",
+      "bytes": 264479,
+      "sha256": "d45a3afec09b2baceef6d6cd5771a8f367449445f0b6cf454e0965ba044dae67"
+    },
+    {
+      "path": "products/消防阀/wet-alarm-check-valve-assemblies/dn150-grooved-wet-alarm-assembly-en.jpg",
+      "bytes": 240673,
+      "sha256": "af076b5aa068806127e5d2781db991edee2bc97e48cab07af2cb205fb515ba50"
+    },
+    {
+      "path": "products/消防阀/消防阀主图.jpg",
+      "bytes": 117014,
+      "sha256": "0748792237a8cb1a6e80762512ec734328e705a2daf821117c8d22a18364c38e"
+    },
+    {
+      "path": "products/消防阀门.html",
+      "bytes": 42514,
+      "sha256": "8c2d71043bea27f207cb0bf528b6b695bb896d3fa1fb639fd5ec889e7ad05951"
+    },
+    {
+      "path": "products/消防阀门/DSC_5671.jpg",
+      "bytes": 102457,
+      "sha256": "02184f1d2387b98115919f1944676b4872771c945f2f09eafccd29332ae03f00"
+    },
+    {
+      "path": "products/消防阀门/flanged-supervisory-gate-valves.html",
+      "bytes": 50815,
+      "sha256": "90031b562a0ca90db98833d7e86ec95b479a5657969b83fba38b3c468244bd85"
+    },
+    {
+      "path": "products/消防阀门/grooved-supervisory-gate-valves.html",
+      "bytes": 50831,
+      "sha256": "2796f72618d6c69b1d014a980857b433c33b060848f991781cb017bd8ad32270"
+    },
+    {
+      "path": "products/消防阀门/nrs-gate-valves.html",
+      "bytes": 50168,
+      "sha256": "5b56a5da7771312fac66f8d4133453c46feadc60bf068ea8c2f1bebeb0cd04b8"
+    },
+    {
+      "path": "products/消防阀门/osy-gate-valves.html",
+      "bytes": 49678,
+      "sha256": "baa310ad926789bf39cad9e70f1623e060eae55deea26a43891d800b3f2b514b"
+    },
+    {
+      "path": "products/消防阀门/消防阀门主图.jpg",
+      "bytes": 97796,
+      "sha256": "b1ee22518a474fbd763a3161cce56d9bffa32e320803ad20732898f295e9f765"
+    },
+    {
+      "path": "products/软管卷盘.html",
+      "bytes": 47910,
+      "sha256": "eb904449e67de6f02b27c9013750b7c7d0961cc0d6505a51a934aa0194e146a6"
+    },
+    {
+      "path": "products/软管卷盘/catalog-hose-assemblies-reels-page-28.html",
+      "bytes": 50308,
+      "sha256": "f508faef7079b7e5173b0ffa1b4e8308b9c51ba581a259b4355b2c9ac212fee3"
+    },
+    {
+      "path": "products/软管卷盘/catalog-hose-assemblies-reels-page-28/p28-01.webp",
+      "bytes": 107928,
+      "sha256": "da923352b5f0b78eb0b35007303cdfe2befa8e40ea73103ddf9a3654f72f5057"
+    },
+    {
+      "path": "products/软管卷盘/catalog-hose-assemblies-reels-page-28/p28-02.webp",
+      "bytes": 113504,
+      "sha256": "206e3d1b4dedaa2ee94ea60a26815004c9af1c6b9375d1c6df693291f09586ea"
+    },
+    {
+      "path": "products/软管卷盘/catalog-hose-assemblies-reels-page-28/p28-03.webp",
+      "bytes": 150000,
+      "sha256": "6c5ee55b9311c1545d3bcd28738623616b567a28392911d947c02569caa807f1"
+    },
+    {
+      "path": "products/软管卷盘/catalog-hose-assemblies-reels-page-28/p28-04.webp",
+      "bytes": 62832,
+      "sha256": "114658eabf9e81f8bb693bb4f416652edae816d64f7fa3152c62edaab90ead30"
+    },
+    {
+      "path": "products/软管卷盘/catalog-hose-reel-parts-page-27.html",
+      "bytes": 50895,
+      "sha256": "39112931916f5675884458205a95b03341907f89b7e779b7bd97212e2e7c5337"
+    },
+    {
+      "path": "products/软管卷盘/catalog-hose-reel-parts-page-27/p27-01.webp",
+      "bytes": 45260,
+      "sha256": "1e49ec720d7a1531a945c26ab36e156b2a2db09d913e533da64cb4f5e35d3339"
+    },
+    {
+      "path": "products/软管卷盘/catalog-hose-reel-parts-page-27/p27-02.webp",
+      "bytes": 49616,
+      "sha256": "0baf0339be8e08b81fd91b9188e9ebbe95a4cd83b411cf9da5208f947d51de3d"
+    },
+    {
+      "path": "products/软管卷盘/catalog-hose-reel-parts-page-27/p27-03.webp",
+      "bytes": 28408,
+      "sha256": "0bd52204eb46a5520e95c851e62f8c5a0b05694ed87831659ac47a512b645736"
+    },
+    {
+      "path": "products/软管卷盘/catalog-hose-reel-parts-page-27/p27-04.webp",
+      "bytes": 34548,
+      "sha256": "d3b7d82aecc6bd4ba8d8ac3b55479d623aaca1bc8ae93de831dca112ef316117"
+    },
+    {
+      "path": "products/软管卷盘/catalog-hose-reel-parts-page-27/p27-05.webp",
+      "bytes": 37952,
+      "sha256": "d99735cdfb16ec2baad248972444cb1742e6e8959be331e1198e8a7915d96c8e"
+    },
+    {
+      "path": "products/软管卷盘/heavy-duty-fire-hose-reel.html",
+      "bytes": 47824,
+      "sha256": "fb849423e0703c5f7338ed2832c3a3ea59d960d5299c037b077e325cff5e2b9e"
+    },
+    {
+      "path": "products/软管卷盘/heavy-duty-fire-hose-reel/heavy-duty-reel.jpg",
+      "bytes": 178778,
+      "sha256": "50b1e41d31c30610f1737d116d65c68c6d12c9fe0c939b82199cc7d299f80108"
+    },
+    {
+      "path": "products/软管卷盘/jet-spray-fire-hose-reel.html",
+      "bytes": 52888,
+      "sha256": "683487a78174faa21e4e8399e355e468711b5f372fa89afc2a3b7a38a5f692c5"
+    },
+    {
+      "path": "products/软管卷盘/ria25-fire-hose-reel.html",
+      "bytes": 50460,
+      "sha256": "dd444d51b46baa16544fdf9a3bc44c3637ff613d5017d8617d2cd1e15364ddbf"
+    },
+    {
+      "path": "products/软管卷盘/ria25-fire-hose-reel/ria25-back.jpg",
+      "bytes": 298197,
+      "sha256": "35caea6891aab13eedefcdf299602934404e0b1e067aec0e81db6b02948282c8"
+    },
+    {
+      "path": "products/软管卷盘/ria25-fire-hose-reel/ria25-fire-hose-reel.jpg",
+      "bytes": 222646,
+      "sha256": "c5bcff191446b8c1b368b3110fa4ff35e039dc6a204de3e923f3d44be9a47ccc"
+    },
+    {
+      "path": "products/软管卷盘/ria25-fire-hose-reel/ria25-front.jpg",
+      "bytes": 337455,
+      "sha256": "bdb2ef9fb825ec299385f810f2a5daf4f75ae51b259a56e56bc097aac951ccfc"
+    },
+    {
+      "path": "products/软管卷盘/ria25-fire-hose-reel/ria25-inlet-outlet.jpg",
+      "bytes": 294177,
+      "sha256": "f11cd5551d39b8b35a5106f2511af0c4bb67d0e4aab6744f041ada4cfe9cf499"
+    },
+    {
+      "path": "products/软管卷盘/straight-stream-fire-hose-reel.html",
+      "bytes": 53542,
+      "sha256": "dbef5a1b7216a51395fed18872d3b71a55495d7ddab74584201402d12382d204"
+    },
+    {
+      "path": "products/软管卷盘/straight-stream-fire-hose-reel/brass-nozzle-detail.jpg",
+      "bytes": 188921,
+      "sha256": "8133b465ade3a328aae6c7317a43e2e25763cc1dd771792608923b73ff9083bb"
+    },
+    {
+      "path": "robots.txt",
+      "bytes": 74,
+      "sha256": "f3849e7b936e8c57b04df0516a7c3fc230ee1584d929caa287a0ca7286f5128f"
+    },
+    {
+      "path": "sitemap.xml",
+      "bytes": 111028,
+      "sha256": "e07539505c627b8cab154259f08b65894b649d4197c02972683253f86c6a43f3"
+    },
+    {
+      "path": "zh/index.html",
+      "bytes": 72703,
+      "sha256": "73eefe9605aabcd1f7eb2cff41d14548a3072a2fca0307d82a0fea34c413ba2e"
+    }
+  ]
+}

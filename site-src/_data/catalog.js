@@ -1,3 +1,7 @@
+import { versionedProductImage } from '../lib/public-asset-versions.js';
+import { productPhotos } from '../lib/product-photos.js';
+import { productEmailDraft } from "../lib/inquiry.js";
+import { productSupplement } from "../lib/product-supplements.js";
 import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
@@ -33,11 +37,12 @@ function createBasePage(product, routeId, localeCode) {
   const route = createProductPageRoute(routeId, localeCode);
   const gallery = product.media.map((media) => ({
     ...media,
-    src: `${route.assetPrefix}${media.src}`,
+    src: versionedProductImage(media.src, `${route.assetPrefix}${media.src}`),
     ...copy.media[media.configuration]
   }));
 
   return {
+    photos: productPhotos(routeId, localeCode, route.assetPrefix),
     routeId,
     locale,
     copy,
@@ -47,7 +52,7 @@ function createBasePage(product, routeId, localeCode) {
     gallery,
     heroImage: gallery[0],
     whatsAppHref: `https://wa.me/8617326528368?text=${encodeURIComponent(copy.whatsAppMessage)}`,
-    emailHref: `mailto:zhengcolin1@gmail.com?subject=${encodeURIComponent(copy.emailSubject)}`
+    emailHref: productEmailDraft(copy.name, route.canonical, localeCode)
   };
 }
 
@@ -188,6 +193,7 @@ const pages = [
 
 export default pages.map((page) => ({
   ...page,
+  supplement: productSupplement(page.routeId, page.locale.lang, page.route.assetPrefix),
   navigation: createSiteNavigation(page.routeId, page.locale.lang, page.route.outputPath),
   seo: createSeoMetadata(page.routeId, page.locale.lang, {
     title: page.copy.seoTitle,

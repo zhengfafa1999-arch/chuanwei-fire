@@ -26,9 +26,17 @@
     "hero": "products/消防水泵接合器/russian-pattern-fire-department-connection/65-16k-65-front.png"
   },
   "imageDimensions": {
-    "hero": { "width": 1254, "height": 1254 }
+    "hero": {
+      "width": 1254,
+      "height": 1254
+    }
   },
-  "heroFacts": ["factoryModelValue", "systemConnectionValue", "fireServiceInletsValue", "workingPressureValue"],
+  "heroFacts": [
+    "factoryModelValue",
+    "systemConnectionValue",
+    "fireServiceInletsValue",
+    "workingPressureValue"
+  ],
   "shared": {
     "factoryModelValue": "65-16K-65",
     "systemConnectionValue": "DN100 bottom flange",
@@ -40,44 +48,122 @@
     "imageScopeValue": "User-supplied representative front image; not exact flange, mating or internal-structure proof"
   },
   "gallery": [
-    { "media": "hero", "alt": "frontAlt", "caption": "front", "thumbnailAlt": "frontThumbnail" }
+    {
+      "media": "hero",
+      "alt": "frontAlt",
+      "caption": "front",
+      "thumbnailAlt": "frontThumbnail"
+    }
   ],
   "specifications": [
-    { "label": "productType", "value": "productTypeValue" },
-    { "label": "factoryModel", "value": "factoryModelValue", "technical": true },
-    { "label": "systemConnection", "value": "systemConnectionValue", "technical": true },
-    { "label": "fireServiceInlets", "value": "fireServiceInletsValue", "technical": true },
-    { "label": "workingPressure", "value": "workingPressureValue", "technical": true },
-    { "label": "strengthTestPressure", "value": "strengthTestPressureValue", "technical": true },
-    { "label": "accessories", "value": "accessoriesValue" },
-    { "label": "materialAndFinish", "value": "confirmWithQuotation" },
-    { "label": "internalConstruction", "value": "confirmWithQuotation" },
-    { "label": "interfaceCompatibility", "value": "confirmWithQuotation" },
-    { "label": "flangeDimensions", "value": "confirmWithQuotation" },
-    { "label": "installationRequirements", "value": "confirmWithQuotation" },
-    { "label": "packing", "value": "confirmWithQuotation" },
-    { "label": "imageScope", "value": "imageScopeValue" }
+    {
+      "label": "productType",
+      "value": "productTypeValue"
+    },
+    {
+      "label": "factoryModel",
+      "value": "factoryModelValue",
+      "technical": true
+    },
+    {
+      "label": "systemConnection",
+      "value": "systemConnectionValue",
+      "technical": true
+    },
+    {
+      "label": "fireServiceInlets",
+      "value": "fireServiceInletsValue",
+      "technical": true
+    },
+    {
+      "label": "workingPressure",
+      "value": "workingPressureValue",
+      "technical": true
+    },
+    {
+      "label": "strengthTestPressure",
+      "value": "strengthTestPressureValue",
+      "technical": true
+    },
+    {
+      "label": "accessories",
+      "value": "accessoriesValue"
+    }
   ],
   "modelColumns": [
-    { "label": "factoryModel", "field": "factoryModel", "technical": true },
-    { "label": "systemConnection", "field": "systemConnection", "technical": true },
-    { "label": "fireServiceInlets", "field": "fireServiceInlets", "technical": true },
-    { "label": "workingPressure", "field": "workingPressure", "technical": true },
-    { "label": "strengthTestPressure", "field": "strengthTestPressure", "technical": true },
-    { "label": "accessories", "field": "accessories", "localized": true }
+    {
+      "label": "factoryModel",
+      "field": "factoryModel",
+      "technical": true
+    },
+    {
+      "label": "systemConnection",
+      "field": "systemConnection",
+      "technical": true
+    },
+    {
+      "label": "fireServiceInlets",
+      "field": "fireServiceInlets",
+      "technical": true
+    },
+    {
+      "label": "workingPressure",
+      "field": "workingPressure",
+      "technical": true
+    },
+    {
+      "label": "strengthTestPressure",
+      "field": "strengthTestPressure",
+      "technical": true
+    },
+    {
+      "label": "accessories",
+      "field": "accessories",
+      "localized": true
+    }
   ],
   "models": [
-    { "factoryModel": "65-16K-65", "systemConnection": "DN100 bottom flange", "fireServiceInlets": "2 × DN65 / KY66", "workingPressure": "1.6 MPa / 16 bar", "strengthTestPressure": "2.4 MPa / 24 bar", "accessories": "twoCaps" }
+    {
+      "factoryModel": "65-16K-65",
+      "systemConnection": "DN100 bottom flange",
+      "fireServiceInlets": "2 × DN65 / KY66",
+      "workingPressure": "1.6 MPa / 16 bar",
+      "strengthTestPressure": "2.4 MPa / 24 bar",
+      "accessories": "twoCaps"
+    }
   ],
   "confirmationItems": [
-    { "label": "flangeAndMating", "body": "flangeAndMatingBody" },
-    { "label": "construction", "body": "constructionBody" },
-    { "label": "installation", "body": "installationBody" },
-    { "label": "orderInformation", "body": "orderInformationBody" }
+    {
+      "label": "flangeAndMating",
+      "body": "flangeAndMatingBody"
+    },
+    {
+      "label": "construction",
+      "body": "constructionBody"
+    },
+    {
+      "label": "installation",
+      "body": "installationBody"
+    },
+    {
+      "label": "orderInformation",
+      "body": "orderInformationBody"
+    }
   ],
   "validation": {
-    "anchors": ["gallery", "specifications", "models", "quotation"],
-    "requiredTechnicalValues": ["65-16K-65", "DN100 bottom flange", "2 × DN65 / KY66", "1.6 MPa / 16 bar", "2.4 MPa / 24 bar"]
+    "anchors": [
+      "gallery",
+      "specifications",
+      "models",
+      "quotation"
+    ],
+    "requiredTechnicalValues": [
+      "65-16K-65",
+      "DN100 bottom flange",
+      "2 × DN65 / KY66",
+      "1.6 MPa / 16 bar",
+      "2.4 MPa / 24 bar"
+    ]
   },
   "inquiry": {
     "whatsapp": "https://wa.me/8617326528368?text=Hello%2C%20I%20need%20a%20quotation%20for%20the%2065-16K-65%20Russian-pattern%20fire%20department%20connection.%20Flange%3A%20%5Bdimensions%5D%2C%20mating%20coupling%3A%20%5Brequirement%5D%2C%20quantity%3A%20%5Bpcs%5D%2C%20destination%3A%20%5Bcountry%5D.",
@@ -89,16 +175,16 @@
       "title": "Russian-Pattern Fire Department Connection",
       "eyebrow": "Factory model 65-16K-65",
       "lead": "A two-inlet fire department connection with a DN100 bottom flange and two DN65 / KY66 fire-service inlets.",
-      "note": "The model, connections and pressure values are user-confirmed selection data. Material, internal check-valve construction, exact coupling compatibility, flange dimensions, installation requirements and certification are not asserted.",
+      "note": "Match the DN100 flange and DN65 / KY66 inlets to your installation. Request material, coupling and installation details for your order.",
       "gallery": "Product image",
       "galleryTitle": "Representative front view",
-      "galleryBody": "The user-supplied image identifies the product family and visible twin-inlet arrangement. Confirm the exact ordered flange, mating coupling and internal construction separately.",
+      "galleryBody": "Front view of the twin-inlet configuration. Flange drilling and mating-coupling fit are confirmed for the selected order.",
       "front": "65-16K-65 front view",
       "frontAlt": "User-supplied front image of a red Russian-pattern fire department connection with two capped inlets and retaining chains",
       "frontThumbnail": "65-16K-65 front-view thumbnail",
       "specifications": "Specifications",
-      "specificationsTitle": "Confirmed selection data",
-      "specificationsBody": "Working pressure and strength test pressure are kept as separate fields. Unconfirmed construction and installation details remain quotation-specific.",
+      "specificationsTitle": "Product specifications",
+      "specificationsBody": "Compare the connections, working pressure, strength test pressure and accessories below. Request construction and installation details with your inquiry.",
       "productType": "Product family",
       "factoryModel": "Factory Model",
       "systemConnection": "System connection",
@@ -112,15 +198,15 @@
       "flangeDimensions": "Flange dimensions",
       "installationRequirements": "Installation requirements",
       "packing": "Packing",
-      "imageScope": "Image evidence scope",
+      "imageScope": "Image type",
       "confirmWithQuotation": "To be confirmed with the quotation",
       "availableModels": "Available selection",
-      "modelsTitle": "Confirmed factory-model row",
-      "modelsBody": "The table preserves the single confirmed factory-model configuration without creating unverified variants.",
+      "modelsTitle": "Model and connections",
+      "modelsBody": "Use the model and connection details below when requesting a quotation.",
       "temperature": "Temperature",
       "thermalElement": "Operating element",
       "twoCaps": "Two caps with retaining chains",
-      "modelsNote": "KY66 is retained as confirmed interface text; it does not establish certification or compatibility with every mating component.",
+      "modelsNote": "Confirm the mating coupling for the KY66 inlet before ordering.",
       "quotation": "Quotation confirmation",
       "quotationTitle": "Confirm the flange and mating coupling",
       "quotationBody": "Send the flange dimensions, mating-coupling requirement and installation details so the supplied configuration can be locked in the quotation.",
@@ -133,7 +219,7 @@
       "orderInformation": "Order information",
       "orderInformationBody": "Provide quantity, destination, packing and required documents.",
       "inquiryTitle": "Send your 65-16K-65 requirement",
-      "inquiryBody": "Include flange dimensions, mating coupling, installation requirement, quantity and destination.",
+      "inquiryBody": "Start with the product reference and quantity. Add flange dimensions, mating coupling, installation requirements and destination when available.",
       "askOnWhatsApp": "Ask on WhatsApp",
       "emailSales": "Email sales",
       "productImagePreview": "Product image preview",
@@ -155,16 +241,16 @@
       "imageScopeValue": "صورة أمامية تمثيلية قدمها المستخدم؛ ليست دليلاً على الشفة أو التوافق أو البنية الداخلية الدقيقة",
       "eyebrow": "موديل المصنع 65-16K-65",
       "lead": "وصلة تغذية حريق بمدخلين، مع شفة سفلية DN100 ومدخلين لخدمة الإطفاء DN65 / KY66.",
-      "note": "الموديل والوصلات وقيم الضغط هي بيانات اختيار أكدها المستخدم. لا يتم تأكيد المادة أو بنية صمام عدم الرجوع الداخلية أو توافق الاقتران الدقيق أو أبعاد الشفة أو متطلبات التركيب أو الاعتماد.",
+      "note": "طابق فلنجة DN100 ومداخل DN65 / KY66 مع متطلبات التركيب. اطلب تفاصيل المواد والوصلات والتركيب الخاصة بطلبك.",
       "gallery": "صورة المنتج",
       "galleryTitle": "منظر أمامي تمثيلي",
-      "galleryBody": "تحدد الصورة التي قدمها المستخدم عائلة المنتج وترتيب المدخلين الظاهر. يجب تأكيد الشفة والاقتران المقابل والبنية الداخلية للطلب بشكل منفصل.",
+      "galleryBody": "منظر أمامي للتكوين ذي المدخلين. تُؤكد ثقوب الفلنجة وتوافق الوصلة المقابلة حسب الطلب.",
       "front": "منظر أمامي للموديل 65-16K-65",
       "frontAlt": "صورة أمامية قدمها المستخدم لوصلة تغذية حريق حمراء بالنمط الروسي بمدخلين مغطّيين وسلسلتي تثبيت",
       "frontThumbnail": "صورة مصغرة للمنظر الأمامي 65-16K-65",
       "specifications": "المواصفات",
-      "specificationsTitle": "بيانات الاختيار المؤكدة",
-      "specificationsBody": "يبقى ضغط التشغيل وضغط اختبار المتانة حقلين منفصلين. تظل تفاصيل البنية والتركيب غير المؤكدة خاصة بعرض السعر.",
+      "specificationsTitle": "مواصفات المنتج",
+      "specificationsBody": "قارن التوصيلات وضغط التشغيل وضغط اختبار المتانة والملحقات أدناه. اطلب تفاصيل البناء والتركيب عند الاستفسار.",
       "productType": "عائلة المنتج",
       "factoryModel": "موديل المصنع",
       "systemConnection": "وصلة النظام",
@@ -178,15 +264,15 @@
       "flangeDimensions": "أبعاد الشفة",
       "installationRequirements": "متطلبات التركيب",
       "packing": "التغليف",
-      "imageScope": "نطاق دليل الصورة",
+      "imageScope": "نوع الصورة",
       "confirmWithQuotation": "يُؤكد مع عرض السعر",
       "availableModels": "الاختيار المتاح",
-      "modelsTitle": "صف موديل المصنع المؤكد",
-      "modelsBody": "يحافظ الجدول على تكوين موديل المصنع الوحيد المؤكد من دون إنشاء متغيرات غير موثقة.",
+      "modelsTitle": "الموديل والتوصيلات",
+      "modelsBody": "استخدم الموديل وتفاصيل التوصيل أدناه عند طلب عرض السعر.",
       "temperature": "درجة الحرارة",
       "thermalElement": "عنصر التشغيل",
       "twoCaps": "غطاءان مع سلسلتي تثبيت",
-      "modelsNote": "يُحتفظ بالرمز KY66 كنص واجهة مؤكد، ولا يثبت اعتماداً أو توافقاً مع كل جزء مقابل.",
+      "modelsNote": "أكد الوصلة المقابلة لمدخل KY66 قبل الطلب.",
       "quotation": "تأكيد عرض السعر",
       "quotationTitle": "تأكيد الشفة والاقتران المقابل",
       "quotationBody": "أرسل أبعاد الشفة ومتطلبات الاقتران المقابل وتفاصيل التركيب حتى يثبت عرض السعر التكوين المطلوب.",
@@ -199,7 +285,7 @@
       "orderInformation": "معلومات الطلب",
       "orderInformationBody": "حدد الكمية والوجهة والتغليف والوثائق المطلوبة.",
       "inquiryTitle": "أرسل متطلبات الموديل 65-16K-65",
-      "inquiryBody": "أدرج أبعاد الشفة والاقتران المقابل ومتطلبات التركيب والكمية والوجهة.",
+      "inquiryBody": "ابدأ بمرجع المنتج والكمية. أضف أبعاد الفلنجة والوصلة المطابقة ومتطلبات التركيب والوجهة عند توفرها.",
       "askOnWhatsApp": "استفسر عبر WhatsApp",
       "emailSales": "راسل قسم المبيعات",
       "productImagePreview": "معاينة صورة المنتج",

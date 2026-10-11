@@ -61,7 +61,9 @@
       </div>
     </section>
 
-    <section class="pdp-section" id="oem">
+{% include "product-photos.njk" %}
+{% include "product-supplement.njk" %}
+  <section class="pdp-section" id="oem">
       <div class="pdp-container pdp-oem">
         <div><p class="pdp-eyebrow">{{ entry.text.oEMODMCapability }}</p><h2>{{ entry.text.configuredToTheApprovedDrawingOrSample }}</h2><p>{{ entry.text.manufacturingAndAssemblyOptionsAreConfirmedAgainstThe }}</p></div>
         <div class="pdp-oem__grid">
@@ -74,7 +76,7 @@
       </div>
     </section>
 
-    <section class="pdp-cta" id="inquiry"><div class="pdp-container pdp-cta__in"><div><h2>{{ entry.text.sendYourDryPipeValveSchedule }}</h2><p>{{ entry.text.includeSizeAirSupplyPressureTrimConfigurationQuantity }}</p></div><div class="pdp-actions"><a class="pdp-btn" href="https://wa.me/8617326528368?text=Hello%2C%20I%20need%20a%20quotation%20for%20Dry%20Pipe%20Alarm%20Valves.%20Size%3A%20%5BDN%2Finch%5D%2C%20air%20supply%20requirement%3A%20%5Bdetails%5D%2C%20trim%20requirements%3A%20%5Bdetails%5D%2C%20quantity%3A%20%5Bsets%5D%2C%20destination%3A%20%5Bcountry%5D." target="_blank" rel="noopener">{{ entry.text.whatsAppInquiry }}</a><a class="pdp-btn pdp-btn--ghost" href="mailto:zhengcolin1@gmail.com?subject=Dry%20Pipe%20Alarm%20Valve%20Inquiry">{{ entry.text.emailSales }}</a></div></div></section>
+    <section class="pdp-cta" id="inquiry"><div class="pdp-container pdp-cta__in"><div><h2>{{ entry.text.sendYourDryPipeValveSchedule }}</h2><p>{{ entry.text.includeSizeAirSupplyPressureTrimConfigurationQuantity }}</p></div><div class="pdp-actions"><a class="pdp-btn" href="https://wa.me/8617326528368?text=Hello%2C%20I%20need%20a%20quotation%20for%20Dry%20Pipe%20Alarm%20Valves.%20Size%3A%20%5BDN%2Finch%5D%2C%20air%20supply%20requirement%3A%20%5Bdetails%5D%2C%20trim%20requirements%3A%20%5Bdetails%5D%2C%20quantity%3A%20%5Bsets%5D%2C%20destination%3A%20%5Bcountry%5D." target="_blank" rel="noopener">{{ entry.text.whatsAppInquiry }}</a><a class="pdp-btn pdp-btn--ghost" href="{{ entry.emailHref }}">{{ entry.text.emailSales }}</a></div></div></section>
   </main>
 
 {% include "product-footer.njk" %}

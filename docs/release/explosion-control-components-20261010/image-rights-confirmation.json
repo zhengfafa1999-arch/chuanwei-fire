@@ -1,0 +1,27 @@
+{
+  "status": "confirmed",
+  "confirmedDate": "2026-10-10",
+  "scope": "CHUANWEI FIRE official website public display",
+  "authority": "Direct user request with two attached photographs",
+  "response": "这两个产品也加进官网",
+  "images": [
+    {
+      "productId": "explosion-proof-pressure-switch",
+      "path": "assets/products/explosion-proof-pressure-switch/sample-1600.webp",
+      "sha256": "fbbf9f4a9385aaa9be1f3c30a7b6587174c220fd8179294aa10cf4a8369665c3",
+      "originalSha256": "f3a7e86c03ecbdf9e9edaf5aa23be33b1236430cca3c981eb9cac7db0591f206",
+      "unwatermarkedSha256": "4ba663e6aead50733eda29d5eb0296409cfca82b8e3a499b50950f1db0d1e3b7",
+      "publishedTransform": "CHUANWEI FIRE text watermark in clear whitespace",
+      "watermarkRecord": "site-src/_data/product-watermarks.json"
+    },
+    {
+      "productId": "explosion-proof-solenoid-valve",
+      "path": "assets/products/explosion-proof-solenoid-valve/sample-1600.webp",
+      "sha256": "49f2cd496daf8939ff8290062a119d15e83c8263529b45418c3f2520a8fe99fd",
+      "originalSha256": "c795fac6937bed71b272888b59c85d3c9cac0185ed1753a5c8e45c73b3c35500",
+      "unwatermarkedSha256": "f84bd0acd976308f8f80326943bfa36d2b94dc0297487ad88856b782fe3ae36f",
+      "publishedTransform": "CHUANWEI FIRE text watermark in clear whitespace",
+      "watermarkRecord": "site-src/_data/product-watermarks.json"
+    }
+  ]
+}

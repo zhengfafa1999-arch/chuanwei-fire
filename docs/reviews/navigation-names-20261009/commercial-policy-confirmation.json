@@ -1,0 +1,24 @@
+{
+  "date": "2026-10-09",
+  "source": "Direct user replies in this conversation",
+  "samplePolicy": {
+    "status": "confirmed",
+    "value": "Samples are charged"
+  },
+  "minimumOrderQuantity": {
+    "status": "confirmed",
+    "value": "Determined by product"
+  },
+  "oemConditions": {
+    "status": "awaiting-materials"
+  },
+  "deliveryArrangements": {
+    "status": "awaiting-materials"
+  },
+  "publicManufacturerIdentity": {
+    "status": "user-requested-removal",
+    "instruction": "同时删除 About 的出口品牌关系说明",
+    "scope": "Remove the About export-brand relationship paragraph and heading in English and Arabic. Do not add the registered Chinese company name. Preserve original certificate files and physical product markings."
+  },
+  "originalUserReply": "冠亚工厂 内容不显示，样品收费，起订量是按产品确定  ，待确认"
+}

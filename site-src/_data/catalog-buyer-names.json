@@ -1,0 +1,654 @@
+{
+  "catalog-brass-finish-hose-valves-page-07": {
+    "title": {
+      "en": "Compact Fire Hose Valves",
+      "ar": "صمامات خراطيم حريق مدمجة"
+    },
+    "items": {
+      "p07-01": {
+        "en": "Angled-Outlet Fire Hose Valve — S-010",
+        "ar": "صمام خرطوم حريق بمخرج مائل — S-010"
+      },
+      "p07-02": {
+        "en": "Right-Angle Fire Hose Valve — S-011",
+        "ar": "صمام خرطوم حريق بزاوية قائمة — S-011"
+      },
+      "p07-03": {
+        "en": "Large Angled-Outlet Fire Hose Valve — S-012 / S-013",
+        "ar": "صمام خرطوم حريق بمخرج مائل كبير — S-012 / S-013"
+      },
+      "p07-04": {
+        "en": "Compact Angled-Outlet Fire Hose Valve — S-014",
+        "ar": "صمام خرطوم حريق بمخرج مائل مدمج — S-014"
+      },
+      "p07-05": {
+        "en": "Left-Outlet Fire Hose Valve — S-015 / S-016 / S-017",
+        "ar": "صمام خرطوم حريق بمخرج أيسر — S-015 / S-016 / S-017"
+      }
+    }
+  },
+  "catalog-brass-finish-hose-valves-page-08": {
+    "title": {
+      "en": "Fire Hose Valve Configurations",
+      "ar": "تكوينات صمامات خراطيم حريق"
+    },
+    "items": {
+      "p08-01": {
+        "en": "Male-Threaded Bottom-Inlet Fire Hose Valve — S-018 / S-019 / S-020",
+        "ar": "صمام خرطوم حريق بمدخل سفلي ملولب خارجي — S-018 / S-019 / S-020"
+      },
+      "p08-02": {
+        "en": "Female-Threaded Bottom-Inlet Fire Hose Valve — S-021 / S-022 / S-023",
+        "ar": "صمام خرطوم حريق بمدخل سفلي ملولب داخلي — S-021 / S-022 / S-023"
+      },
+      "p08-03": {
+        "en": "Left Angled-Outlet Fire Hose Valve — S-024 / S-025 / S-026",
+        "ar": "صمام خرطوم حريق بمخرج أيسر مائل — S-024 / S-025 / S-026"
+      },
+      "p08-04": {
+        "en": "Male-Threaded Bottom-Inlet Fire Hose Valve — S-040 / S-041",
+        "ar": "صمام خرطوم حريق بمدخل سفلي وسن خارجي — S-040 / S-041"
+      },
+      "p08-05": {
+        "en": "Female-Threaded Bottom-Inlet Fire Hose Valve — S-050 / S-051",
+        "ar": "صمام خرطوم حريق بمدخل سفلي وسن داخلي — S-050 / S-051"
+      }
+    }
+  },
+  "catalog-hose-valves-page-09": {
+    "title": {
+      "en": "Threaded Fire Hose Valves",
+      "ar": "صمامات خراطيم حريق ملولبة"
+    },
+    "items": {
+      "p09-01": {
+        "en": "Hose-Tail Fire Hose Valve — S-052",
+        "ar": "صمام خرطوم حريق بنهاية خرطوم — S-052"
+      },
+      "p09-02": {
+        "en": "Fire Hose Valve with Hose Tail — S-060",
+        "ar": "صمام خرطوم حريق بنهاية خرطوم — S-060"
+      },
+      "p09-03": {
+        "en": "Round-Body Female-Threaded Fire Hose Valve — US-026 / US-027",
+        "ar": "صمام خرطوم حريق بجسم دائري ملولب داخلياً — US-026 / US-027"
+      },
+      "p09-04": {
+        "en": "Barrel-Body Right-Outlet Fire Hose Valve — US-030 / US-031",
+        "ar": "صمام خرطوم حريق بجسم أسطواني بمخرج أيمن — US-030 / US-031"
+      },
+      "p09-05": {
+        "en": "Barrel-Body Left-Outlet Fire Hose Valve — US-032 / US-033",
+        "ar": "صمام خرطوم حريق بجسم أسطواني بمخرج أيسر — US-032 / US-033"
+      }
+    }
+  },
+  "catalog-hose-valves-page-10": {
+    "title": {
+      "en": "Regional-Connection Fire Hose Valves",
+      "ar": "صمامات خراطيم حريق بتوصيلات إقليمية"
+    },
+    "items": {
+      "p10-01": {
+        "en": "Female-Threaded Fire Hose Valve — US-040 / US-041 / US-042",
+        "ar": "صمام خرطوم حريق بسن داخلي — US-040 / US-041 / US-042"
+      },
+      "p10-02": {
+        "en": "Capped Fire Hose Valve — US-043 / US-044",
+        "ar": "صمام خرطوم حريق بغطاء — US-043 / US-044"
+      },
+      "p10-03": {
+        "en": "Top-Latch BS336 Fire Hose Valve — S-031 / S-032 / S-033",
+        "ar": "صمام خرطوم حريق بقفل علوي ووصلة BS336 — S-031 / S-032 / S-033"
+      },
+      "p10-04": {
+        "en": "Latch-Outlet BS336 Fire Hose Valve — S-034 / S-035",
+        "ar": "صمام خرطوم حريق بمخرج قفل BS336 — S-034 / S-035"
+      },
+      "p10-05": {
+        "en": "Angled-Outlet BS336 Fire Hose Valve — S-070",
+        "ar": "صمام خرطوم حريق بمخرج مائل BS336 — S-070"
+      }
+    }
+  },
+  "catalog-hose-valves-page-11": {
+    "title": {
+      "en": "Flanged and Regional-Connection Fire Hose Valves",
+      "ar": "صمامات خراطيم حريق فلنجية وبتوصيلات إقليمية"
+    },
+    "items": {
+      "p11-01": {
+        "en": "Flanged Fire Hose Valve — SF-031 / SF-032 / SF-033 / SF-034 / SF-035",
+        "ar": "صمام خرطوم حريق بمدخل فلنجي — SF-031 / SF-032 / SF-033 / SF-034 / SF-035"
+      },
+      "p11-02": {
+        "en": "JIS Fire Hose Valve — MS-011 / MS-012 / MS-013 / MS-014",
+        "ar": "صمام خرطوم حريق بوصلة JIS — MS-011 / MS-012 / MS-013 / MS-014"
+      },
+      "p11-03": {
+        "en": "Latch-Coupled Fire Hose Valve — MS-020 / MS-021",
+        "ar": "صمام خرطوم حريق بوصلة قفل — MS-020 / MS-021"
+      },
+      "p11-04": {
+        "en": "Storz Fire Hose Valve — DS-040",
+        "ar": "صمام خرطوم حريق بوصلة Storz — DS-040"
+      },
+      "p11-05": {
+        "en": "GOST Fire Hose Valve — RS-010 / RS-011",
+        "ar": "صمام خرطوم حريق بوصلة GOST — RS-010 / RS-011"
+      }
+    }
+  },
+  "catalog-hose-valves-page-12": {
+    "title": {
+      "en": "French-, NH- and Threaded-Connection Fire Hose Valves",
+      "ar": "صمامات خراطيم حريق بتوصيلات فرنسية وNH ولولبية"
+    },
+    "items": {
+      "p12-01": {
+        "en": "French-Connection Fire Hose Valve — FS-010",
+        "ar": "صمام خرطوم حريق بتوصيل فرنسي — FS-010"
+      },
+      "p12-02": {
+        "en": "French-Pattern Capped Fire Hose Valve — FS-020 / FS-021",
+        "ar": "صمام خرطوم حريق بالنمط الفرنسي مزود بغطاء — FS-020 / FS-021"
+      },
+      "p12-03": {
+        "en": "Union Fire Hose Valve — FS-033",
+        "ar": "صمام خرطوم حريق بوصلة اتحاد — FS-033"
+      },
+      "p12-04": {
+        "en": "NH Fire Hose Valve — BS-010 / BS-011 / BS-012",
+        "ar": "صمام خرطوم حريق بمخرج NH — BS-010 / BS-011 / BS-012"
+      },
+      "p12-05": {
+        "en": "Capped Fire Hose Valve with Locking Ring — US-045 / US-046 / US-047 / US-048",
+        "ar": "صمام خرطوم حريق مع حلقة قفل مزود بغطاء — US-045 / US-046 / US-047 / US-048"
+      }
+    }
+  },
+  "catalog-twin-outlet-fire-connections-page-13": {
+    "title": {
+      "en": "Twin-Outlet Fire Service Connection Bodies",
+      "ar": "أجسام وصلات خدمة الحريق ثنائية المخرج"
+    },
+    "items": {
+      "p13-01": {
+        "en": "Twin-Connection Flanged-Base Fire Department Connection — UF-020 / UF-022",
+        "ar": "وصلة تزويد نظام الحريق بالمياه ثنائي التوصيل بقاعدة فلنجية — UF-020 / UF-022"
+      },
+      "p13-02": {
+        "en": "Twin-Cap Heavy-Base Fire Department Connection — UF-023 / UF-024",
+        "ar": "وصلة تزويد نظام الحريق بالمياه بغطاءين بقاعدة سميكة — UF-023 / UF-024"
+      },
+      "p13-03": {
+        "en": "Twin-Cap Flanged-Base Fire Department Connection — UF-025 / UF-026",
+        "ar": "وصلة تزويد نظام الحريق بالمياه بغطاءين بقاعدة فلنجية — UF-025 / UF-026"
+      },
+      "p13-04": {
+        "en": "Twin Male-Threaded Fire Department Connection — UF-030 / UF-031",
+        "ar": "وصلة تزويد نظام الحريق بالمياه بلولبين خارجيين — UF-030 / UF-031"
+      }
+    }
+  },
+  "catalog-hydrant-auxiliary-valves-page-14": {
+    "title": {
+      "en": "Hydrant Valves and Auxiliary Valves",
+      "ar": "صمامات محابس الحريق والصمامات المساعدة"
+    },
+    "items": {
+      "p14-01": {
+        "en": "Horizontal-Handwheel Fire Hose Valve — GV-011 / GV-012",
+        "ar": "صمام خرطوم حريق بعجلة تشغيل أفقية — GV-011 / GV-012"
+      },
+      "p14-02": {
+        "en": "Horizontal-Handwheel Fire Hose Valve — GV-013",
+        "ar": "صمام خرطوم حريق بعجلة تشغيل أفقية — GV-013"
+      },
+      "p14-03": {
+        "en": "Valve with Pressure Gauge — S-131",
+        "ar": "صمام مع مقياس ضغط — S-131"
+      },
+      "p14-04": {
+        "en": "Straight-Through Handwheel Valve — BV-014",
+        "ar": "صمام مستقيم بعجلة تشغيل — BV-014"
+      },
+      "p14-05": {
+        "en": "Long-Lever Ball Valve — BV-010 / BV-011 / BV-012 / BV-013",
+        "ar": "صمام كروي بذراع طويل — BV-010 / BV-011 / BV-012 / BV-013"
+      }
+    }
+  },
+  "catalog-fire-connections-distributors-page-15": {
+    "title": {
+      "en": "Fire Service Connections and Two-Way Distributors",
+      "ar": "وصلات خدمة الحريق وموزعات ثنائية الاتجاه"
+    },
+    "items": {
+      "p15-01": {
+        "en": "Two-Way Flanged Fire Department Connection — GS-010",
+        "ar": "وصلة تزويد مياه الحريق بمدخلين وبقاعدة فلنجية — GS-010"
+      },
+      "p15-02": {
+        "en": "Four-Way Fire Department Connection — MD-020",
+        "ar": "وصلة تزويد مياه الحريق بأربعة مداخل — MD-020"
+      },
+      "p15-03": {
+        "en": "Twin-Lever Two-Way Fire Hose Distributor — UF-043",
+        "ar": "موزع خرطوم حريق ثنائي الاتجاه بذراعين — UF-043"
+      },
+      "p15-04": {
+        "en": "Twin-Handwheel Flanged Two-Way Fire Hose Distributor — RHS-010",
+        "ar": "موزع خرطوم حريق ثنائي الاتجاه بعجلتي تشغيل فلنجي — RHS-010"
+      },
+      "p15-05": {
+        "en": "Twin-Valve Two-Way Fire Hose Distributor — SF-040 / SF-041",
+        "ar": "موزع خرطوم حريق ثنائي الاتجاه بصمامين — SF-040 / SF-041"
+      }
+    }
+  },
+  "catalog-long-straight-stream-nozzles-page-16": {
+    "title": {
+      "en": "Long Straight-Stream Fire Hose Nozzles",
+      "ar": "فوهات خراطيم حريق طويلة ذات نفث مستقيم"
+    },
+    "items": {
+      "p16-01": {
+        "en": "Long Straight-Stream Fire Hose Nozzle — UN-063 / UN-064",
+        "ar": "فوهة خرطوم حريق ذات نفث مستقيم طويل — UN-063 / UN-064"
+      },
+      "p16-02": {
+        "en": "Tapered Straight-Stream Fire Hose Nozzle — UN-064",
+        "ar": "فوهة خرطوم حريق ذات نفث مستقيم مخروطي — UN-064"
+      },
+      "p16-03": {
+        "en": "Long Straight-Stream Fire Hose Nozzle — MN-010 / MN-011",
+        "ar": "فوهة خرطوم حريق ذات نفث مستقيم طويل — MN-010 / MN-011"
+      },
+      "p16-04": {
+        "en": "Long Straight-Stream Fire Hose Nozzle — MN-011 / MN-012",
+        "ar": "فوهة خرطوم حريق طويلة ذات نفث مستقيم — MN-011 / MN-012"
+      }
+    }
+  },
+  "catalog-compact-straight-stream-nozzles-page-17": {
+    "title": {
+      "en": "Compact Straight-Stream Fire Hose Nozzles",
+      "ar": "فوهات خراطيم حريق مدمجة ذات نفث مستقيم"
+    },
+    "items": {
+      "p17-01": {
+        "en": "Compact Straight-Stream Fire Hose Nozzle — GN-010",
+        "ar": "فوهة خرطوم حريق ذات نفث مستقيم مدمج — GN-010"
+      },
+      "p17-02": {
+        "en": "Compact Straight-Stream Fire Hose Nozzle — GN-020",
+        "ar": "فوهة خرطوم حريق ذات نفث مستقيم مدمج — GN-020"
+      },
+      "p17-03": {
+        "en": "Tapered Claw-Coupled Fire Hose Nozzle — RN-010 / RN-011",
+        "ar": "فوهة خرطوم حريق مخروطي بوصلة مخلبية — RN-010 / RN-011"
+      },
+      "p17-04": {
+        "en": "Segmented Claw-Coupled Fire Hose Nozzle — RN-012 / RN-013",
+        "ar": "فوهة خرطوم حريق مجزأ بوصلة مخلبية — RN-012 / RN-013"
+      },
+      "p17-05": {
+        "en": "Double-Lug Straight-Stream Fire Hose Nozzle — UN-061",
+        "ar": "فوهة خرطوم حريق ذات نفث مستقيم مزدوج العروات — UN-061"
+      }
+    }
+  },
+  "catalog-coupled-lever-nozzles-page-18": {
+    "title": {
+      "en": "Coupled and Lever-Operated Fire Hose Nozzles",
+      "ar": "فوهات خراطيم حريق مزودة بوصلات أو أذرع تشغيل"
+    },
+    "items": {
+      "p18-01": {
+        "en": "Slim Long Double-Lug Fire Hose Nozzle — UN-062",
+        "ar": "فوهة خرطوم حريق طويل ونحيف مزدوج العروات — UN-062"
+      },
+      "p18-02": {
+        "en": "Segmented Claw-Coupled Fire Hose Nozzle — DN-030 / DN-031 / DN-032",
+        "ar": "فوهة خرطوم حريق مجزأ بوصلة مخلبية — DN-030 / DN-031 / DN-032"
+      },
+      "p18-03": {
+        "en": "Disc-Base Shutoff Fire Hose Nozzle — DN-010 / DN-011 / DN-012",
+        "ar": "فوهة خرطوم حريق بصمام إغلاق وقاعدة قرصية — DN-010 / DN-011 / DN-012"
+      },
+      "p18-04": {
+        "en": "Plug-In Shutoff Fire Hose Nozzle — GN-020 / GN-021",
+        "ar": "فوهة خرطوم حريق بصمام إغلاق ووصلة إدخال — GN-020 / GN-021"
+      },
+      "p18-05": {
+        "en": "Side-Handle Compact Fire Hose Nozzle — NP-033",
+        "ar": "فوهة خرطوم حريق مدمجة بمقبض جانبي — NP-033"
+      }
+    }
+  },
+  "catalog-nozzles-inductors-connections-page-19": {
+    "title": {
+      "en": "Nozzles, Foam Inductors and Fire Service Connections",
+      "ar": "فوهات ومحاثات رغوة ووصلات خدمة الحريق"
+    },
+    "items": {
+      "p19-01": {
+        "en": "Lever-Operated Spray Fire Hose Nozzle — NP-034 / NP-035",
+        "ar": "فوهة رش لخرطوم الحريق تعمل بذراع — NP-034 / NP-035"
+      },
+      "p19-03": {
+        "en": "Foam Inductor Assembly — HRP-081 / HRP-082 / HRP-083",
+        "ar": "مجموعة محاث رغوة — HRP-081 / HRP-082 / HRP-083"
+      },
+      "p19-04": {
+        "en": "Three-Connection Fire Department Connection — UF-033",
+        "ar": "وصلة تزويد نظام الحريق بالمياه ثلاثي التوصيل — UF-033"
+      },
+      "p19-05": {
+        "en": "Quick-Connect Nozzle Adapter — UF-033 / UF-034",
+        "ar": "محول فوهة سريع التوصيل — UF-033 / UF-034"
+      }
+    }
+  },
+  "catalog-fire-hose-couplings-page-20": {
+    "title": {
+      "en": "Fire Hose Couplings — NH, GOST, UNI and BS 336",
+      "ar": "وصلات خراطيم حريق بنظم NH وGOST وUNI وBS 336"
+    },
+    "items": {
+      "p20-01": {
+        "en": "NH Fire Hose Coupling — UHC-010 / UHC-011 / UHC-012",
+        "ar": "وصلة خرطوم حريق NH — UHC-010 / UHC-011 / UHC-012"
+      },
+      "p20-02": {
+        "en": "GOST Fire Hose Coupling — RHC-010 / RHC-011",
+        "ar": "وصلة خرطوم حريق GOST — RHC-010 / RHC-011"
+      },
+      "p20-03": {
+        "en": "UNI Fire Hose Coupling — IHC-011 / IHC-012",
+        "ar": "وصلة خرطوم حريق UNI — IHC-011 / IHC-012"
+      },
+      "p20-04": {
+        "en": "BS336 Fire Hose Coupling — GHC-010 / GHC-011 / GHC-012 / GHC-013 / GHC-014",
+        "ar": "وصلة خرطوم حريق BS336 — GHC-010 / GHC-011 / GHC-012 / GHC-013 / GHC-014"
+      },
+      "p20-05": {
+        "en": "Sealed Fire Hose Coupling — MHS-010 / MHS-011",
+        "ar": "وصلة خرطوم حريق بحلقة — MHS-010 / MHS-011"
+      }
+    }
+  },
+  "catalog-fire-hose-adapters-page-21": {
+    "title": {
+      "en": "Fire Hose Couplings and Adapters",
+      "ar": "وصلات ومحولات خراطيم الحريق"
+    },
+    "items": {
+      "p21-01": {
+        "en": "Sealed Fire Hose Coupling — MHS-012 / MHS-013",
+        "ar": "وصلة خرطوم حريق بحلقة — MHS-012 / MHS-013"
+      },
+      "p21-02": {
+        "en": "Hexagonal Ring-Type Fire Hose Coupling — SZ-012 / SZ-013 / SZ-014",
+        "ar": "وصلة خرطوم حريق سداسي حلقي — SZ-012 / SZ-013 / SZ-014"
+      },
+      "p21-03": {
+        "en": "Short-Barrel Double-Lug Fire Hose Adapter — UHS-020 / UHS-021 / UHS-022",
+        "ar": "محول خرطوم حريق بجسم قصير مزدوج العروات — UHS-020 / UHS-021 / UHS-022"
+      },
+      "p21-04": {
+        "en": "Double-Lug Fire Hose Adapter — UHS-030 / UHS-031 / UHS-032",
+        "ar": "محول خرطوم حريق مزدوج العروات — UHS-030 / UHS-031 / UHS-032"
+      },
+      "p21-05": {
+        "en": "Double-Lug Fire Hose Adapter — UHC-012 / UHC-013 / UHC-014",
+        "ar": "محول خرطوم حريق مزدوج العروات — UHC-012 / UHC-013 / UHC-014"
+      }
+    }
+  },
+  "catalog-compact-spray-nozzles-page-22": {
+    "title": {
+      "en": "Compact Spray Nozzles and Coupling Adapters",
+      "ar": "فوهات رش مدمجة ومحولات وصلات"
+    },
+    "items": {
+      "p22-01": {
+        "en": "Double-Lug Fire Hose Adapter — UHC-015 / UHC-016",
+        "ar": "محول خرطوم حريق مزدوج العروات — UHC-015 / UHC-016"
+      },
+      "p22-02": {
+        "en": "Sealed Compact Spray Fire Hose Nozzle — UN-045 / UN-046 / UN-047 / UN-048",
+        "ar": "فوهة رش لخرطوم الحريق بحلقة مدمج — UN-045 / UN-046 / UN-047 / UN-048"
+      },
+      "p22-03": {
+        "en": "Double-Lug Base Spray Fire Hose Nozzle — UN-048 / UN-049",
+        "ar": "فوهة رش لخرطوم الحريق بقاعدة مزدوجة العروات — UN-048 / UN-049"
+      },
+      "p22-04": {
+        "en": "Wide-Head Fire Hose Nozzle — UN-050 / UN-051 / UN-052",
+        "ar": "فوهة خرطوم حريق برأس عريض — UN-050 / UN-051 / UN-052"
+      },
+      "p22-05": {
+        "en": "Serrated-Tip Sealed Fire Hose Nozzle — UN-053",
+        "ar": "فوهة خرطوم حريق بطرف مسنن بحلقة — UN-053"
+      }
+    }
+  },
+  "catalog-red-grip-nozzles-page-23": {
+    "title": {
+      "en": "Fire Hose Nozzle Configurations",
+      "ar": "تكوينات فوهات خراطيم الحريق"
+    },
+    "items": {
+      "p23-01": {
+        "en": "Compact Fire Hose Nozzle — NP-010 / NP-011 / NP-012",
+        "ar": "فوهة خرطوم حريق مدمجة — NP-010 / NP-011 / NP-012"
+      },
+      "p23-02": {
+        "en": "Compact Fire Hose Nozzle — NP-020",
+        "ar": "فوهة خرطوم حريق مدمجة — NP-020"
+      },
+      "p23-03": {
+        "en": "Disc-Base Long Fire Hose Nozzle — DN-040 / DN-041 / DN-042",
+        "ar": "فوهة خرطوم حريق طويلة بقاعدة قرصية — DN-040 / DN-041 / DN-042"
+      },
+      "p23-04": {
+        "en": "Flat-Base Long Fire Hose Nozzle — NP-030",
+        "ar": "فوهة خرطوم حريق طويلة بقاعدة مسطحة — NP-030"
+      },
+      "p23-05": {
+        "en": "GOST Long Fire Hose Nozzle — NP-031 / NP-032",
+        "ar": "فوهة خرطوم حريق طويلة بوصلة GOST — NP-031 / NP-032"
+      }
+    }
+  },
+  "catalog-hose-tails-adapters-page-24": {
+    "title": {
+      "en": "Hose Tails and Threaded Adapters",
+      "ar": "نهايات خراطيم ومحولات لولبية"
+    },
+    "items": {
+      "p24-01": {
+        "en": "Hexagonal Hose Tail Coupling — NP-036",
+        "ar": "وصلة نهاية خرطوم سداسي — NP-036"
+      },
+      "p24-02": {
+        "en": "Knurled Hose Tail Coupling — NP-036",
+        "ar": "وصلة نهاية خرطوم محزز — NP-036"
+      },
+      "p24-03": {
+        "en": "Double-Lug Hose Tail Coupling — SP-010",
+        "ar": "وصلة نهاية خرطوم مزدوج العروات — SP-010"
+      },
+      "p24-04": {
+        "en": "Fire Hose Adapter — GP-010 / GP-011 / GP-012 / GP-013",
+        "ar": "محول خرطوم حريق — GP-010 / GP-011 / GP-012 / GP-013"
+      },
+      "p24-05": {
+        "en": "Female-Threaded Claw Coupling — SP-031",
+        "ar": "وصلة مخلبية بسن داخلي — SP-031"
+      },
+      "p24-06": {
+        "en": "Female-Threaded GOST Coupling — SP-025 / SP-026",
+        "ar": "وصلة GOST بسن داخلي — SP-025 / SP-026"
+      }
+    }
+  },
+  "catalog-threaded-adapters-caps-page-25": {
+    "title": {
+      "en": "Threaded Adapters and Blank Caps",
+      "ar": "محولات لولبية وأغطية عمياء"
+    },
+    "items": {
+      "p25-01": {
+        "en": "Female-Threaded Twin-Claw Coupling — SP-027 / SP-028",
+        "ar": "وصلة ثنائية المخالب بسن داخلي — SP-027 / SP-028"
+      },
+      "p25-02": {
+        "en": "Female-Threaded GOST Coupling — SP-029 / SP-030",
+        "ar": "وصلة GOST بسن داخلي — SP-029 / SP-030"
+      },
+      "p25-03": {
+        "en": "Female-Threaded Storz Coupling — SP-035 / SP-036",
+        "ar": "وصلة Storz بسن داخلي — SP-035 / SP-036"
+      },
+      "p25-04": {
+        "en": "Chained Blank-Cap Coupling — SP-020 / SP-021",
+        "ar": "وصلة غطاء أعمى بسلسلة — SP-020 / SP-021"
+      },
+      "p25-05": {
+        "en": "Chained Blank-Cap Coupling — SP-022 / SP-023",
+        "ar": "وصلة غطاء أعمى بسلسلة — SP-022 / SP-023"
+      }
+    }
+  },
+  "catalog-blank-caps-plug-adapters-page-26": {
+    "title": {
+      "en": "Blank Caps and Threaded Plug Adapters",
+      "ar": "أغطية عمياء ومحولات سدادة لولبية"
+    },
+    "items": {
+      "p26-01": {
+        "en": "BS336 Chained Blank Cap — SP-024",
+        "ar": "غطاء أعمى بسلسلة BS336 — SP-024"
+      },
+      "p26-02": {
+        "en": "NH Chained Blank Cap — SP-032 / SP-033",
+        "ar": "غطاء أعمى بسلسلة NH — SP-032 / SP-033"
+      },
+      "p26-03": {
+        "en": "JIS Chained Blank Cap — SP-034",
+        "ar": "غطاء أعمى بسلسلة JIS — SP-034"
+      },
+      "p26-04": {
+        "en": "Disc-Type Chained Blank Cap — SP-037",
+        "ar": "غطاء أعمى قرصي بسلسلة — SP-037"
+      },
+      "p26-05": {
+        "en": "Male-Threaded Plug-In Coupling — GP-020 / GP-021",
+        "ar": "وصلة إدخال بسن خارجي — GP-020 / GP-021"
+      }
+    }
+  },
+  "catalog-hose-reel-parts-page-27": {
+    "title": {
+      "en": "Fire Hose Reel Swivel Joints and Supports",
+      "ar": "وصلات دوارة ودعامات لبكرات خراطيم الحريق"
+    },
+    "items": {
+      "p27-01": {
+        "en": "Hose Reel Swivel Joint — FHR-010",
+        "ar": "وصلة دوارة لبكرة الخرطوم — FHR-010"
+      },
+      "p27-02": {
+        "en": "Hose Reel Swivel Joint — FHR-011",
+        "ar": "وصلة دوارة لبكرة الخرطوم — FHR-011"
+      },
+      "p27-03": {
+        "en": "Hose Reel Swivel Joint — FHR-012",
+        "ar": "وصلة دوارة لبكرة الخرطوم — FHR-012"
+      },
+      "p27-04": {
+        "en": "Hose Reel Swing-Arm Bracket — BP-020",
+        "ar": "حامل ذراع متأرجح لبكرة الخرطوم — BP-020"
+      },
+      "p27-05": {
+        "en": "Hose Reel Support Assembly — HRP-040",
+        "ar": "مجموعة دعم بكرة الخرطوم — HRP-040"
+      }
+    }
+  },
+  "catalog-hose-assemblies-reels-page-28": {
+    "title": {
+      "en": "Fire Hose Assemblies and Hose Reels",
+      "ar": "مجموعات خراطيم وبكرات خراطيم الحريق"
+    },
+    "items": {
+      "p28-01": {
+        "en": "BS336 Fire Hose Assembly — GHC-020 / GHC-021 / GHC-022",
+        "ar": "مجموعة خرطوم حريق BS336 — GHC-020 / GHC-021 / GHC-022"
+      },
+      "p28-02": {
+        "en": "NH Fire Hose Assembly — UHC-023 / UHC-024",
+        "ar": "مجموعة خرطوم حريق NH — UHC-023 / UHC-024"
+      },
+      "p28-03": {
+        "en": "GOST Fire Hose Assembly — RHC-020 / RHC-021",
+        "ar": "مجموعة خرطوم حريق GOST — RHC-020 / RHC-021"
+      },
+      "p28-04": {
+        "en": "Bracket-Mounted Fire Hose Reel — HR-033",
+        "ar": "بكرة خرطوم حريق مثبت بحامل — HR-033"
+      }
+    }
+  },
+  "catalog-fire-cabinets-page-30": {
+    "title": {
+      "en": "Hose Reel, Extinguisher and Combined Cabinets",
+      "ar": "خزائن بكرات الخراطيم وطفايات الحريق والخزائن المدمجة"
+    },
+    "items": {
+      "p30-01": {
+        "en": "Narrow-Window Hose Reel Cabinet — BX-025",
+        "ar": "خزانة بكرة خرطوم بنافذة ضيقة — BX-025"
+      },
+      "p30-02": {
+        "en": "Single-Extinguisher Cabinet — BX-026",
+        "ar": "خزانة لطفاية حريق واحدة — BX-026"
+      },
+      "p30-03": {
+        "en": "Center-Window Fire Equipment Cabinet — BX-027",
+        "ar": "خزانة معدات حريق بنافذة وسطية — BX-027"
+      },
+      "p30-04": {
+        "en": "Stacked Solid-Door Fire Equipment Cabinet — BX-028",
+        "ar": "خزانة معدات حريق بأبواب مصمتة متراصة — BX-028"
+      }
+    }
+  },
+  "catalog-outdoor-hydrant-configurations-page-31": {
+    "title": {
+      "en": "Pillar and Standpipe Fire Hydrant Configurations",
+      "ar": "تكوينات صنابير الحريق العمودية وأنابيب الصعود"
+    },
+    "items": {
+      "p31-01": {
+        "en": "Outdoor Fire Hydrant — NH Outlet — USS-020 / USS-021",
+        "ar": "صنبور حريق خارجي بمخرج NH — USS-020 / USS-021"
+      },
+      "p31-02": {
+        "en": "Twin-Valve Fire Hydrant — BS336 Outlet — BS-031 / BS-032",
+        "ar": "صنبور حريق بصمامين ومخرج BS336 — BS-031 / BS-032"
+      },
+      "p31-03": {
+        "en": "Standpipe Fire Hydrant — NH Outlet — USS-022 / USS-023",
+        "ar": "صنبور حريق بأنبوب قائم ومخرج NH — USS-022 / USS-023"
+      },
+      "p31-04": {
+        "en": "Twin-Handwheel Fire Hydrant — BS336 Outlet — SS-010 / SS-011",
+        "ar": "صنبور حريق بعجلتي تشغيل ومخرج BS336 — SS-010 / SS-011"
+      }
+    }
+  }
+}

@@ -21,6 +21,8 @@
       </div>
     </div>
   </section>
+{% include "product-photos.njk" %}
+{% include "product-supplement.njk" %}
   <section class="pdp-cta" id="inquiry"><div class="pdp-container pdp-cta__in"><div><h2>{{ entry.text.inquiryTitle }}</h2><p>{{ entry.text.inquiryBody }}</p></div><div class="pdp-actions"><a class="pdp-btn" href="{{ entry.product.inquiry.whatsapp }}" target="_blank" rel="noopener">{{ entry.text.askOnWhatsApp }}</a><a class="pdp-btn pdp-btn--ghost" href="{{ entry.product.inquiry.email }}">{{ entry.text.emailSales }}</a></div></div></section>
 </main>
 {% include "product-footer.njk" %}

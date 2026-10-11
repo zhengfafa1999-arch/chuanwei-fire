@@ -1,0 +1,13 @@
+{
+  "date": "2026-10-10",
+  "status": "local-review-candidate-not-deployed",
+  "archive": ".tmp/releases/about-facilities-20261010-web.zip",
+  "bytes": 51278585,
+  "sha256": "f0b4fc8c5ae28e56ce92823acad0383c30bf676233d42a5fbf6993474efb9ff2",
+  "files": 771,
+  "pages": 185,
+  "validation": "Build and static checks passed; ZIP CRC, complete entry set and all file hashes verified. Browser/mobile rendering not verified.",
+  "previousCandidate": ".tmp/releases/pdf-download-removal-20261010-web.zip",
+  "rollback": "Preserve previous local candidate; record and back up actual server version before deployment.",
+  "deploymentNote": "PDF removal remains effective; remove old assets/downloads/standard-response-fire-sprinklers-en.pdf from server when deploying. No deployment performed."
+}

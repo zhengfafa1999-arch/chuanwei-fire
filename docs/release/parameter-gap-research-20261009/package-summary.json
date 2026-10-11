@@ -1,0 +1,11 @@
+{
+  "date": "2026-10-09",
+  "status": "historical-local-candidate-not-deployed",
+  "archive": ".tmp/releases/parameter-gap-research-20261009-web.zip",
+  "bytes": 47848413,
+  "sha256": "dc8a898ddb0f2cfac6ade29878c0e014e586f1b5d378bd4e7a805ca58844ca48",
+  "files": 714,
+  "pages": 175,
+  "validation": "All ZIP entries verified against static-manifest sizes and SHA256; CRC check passed. Server rollback backup must be created before publication.",
+  "supersededBy": "docs/release/manufacturer-confirmations-20261009/package-summary.json"
+}

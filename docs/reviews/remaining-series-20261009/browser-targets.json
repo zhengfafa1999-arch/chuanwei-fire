@@ -1,0 +1,618 @@
+[
+  {
+    "id": "bs750-pillar-hydrant",
+    "modelRows": 5,
+    "routes": [
+      {
+        "lang": "en",
+        "path": "products/室外消防栓/bs750-pillar-hydrant.html"
+      },
+      {
+        "lang": "ar",
+        "path": "ar/products/bs750-pillar-hydrant/index.html"
+      }
+    ]
+  },
+  {
+    "id": "concealed-pendent-fire-sprinkler",
+    "modelRows": 4,
+    "routes": [
+      {
+        "lang": "en",
+        "path": "products/消防喷头/concealed-pendent-fire-sprinkler.html"
+      },
+      {
+        "lang": "ar",
+        "path": "ar/products/concealed-pendent-fire-sprinkler/index.html"
+      }
+    ]
+  },
+  {
+    "id": "diaphragm-deluge-valves",
+    "modelRows": 11,
+    "routes": [
+      {
+        "lang": "en",
+        "path": "products/消防阀/diaphragm-deluge-valves.html"
+      },
+      {
+        "lang": "ar",
+        "path": "ar/products/diaphragm-deluge-valves/index.html"
+      }
+    ]
+  },
+  {
+    "id": "double-outlet-hydrant",
+    "modelRows": 0,
+    "routes": [
+      {
+        "lang": "en",
+        "path": "products/室内消防栓/double-outlet-hydrant.html"
+      },
+      {
+        "lang": "ar",
+        "path": "ar/products/double-outlet-hydrant/index.html"
+      }
+    ]
+  },
+  {
+    "id": "dry-pendent-fire-sprinklers",
+    "modelRows": 4,
+    "routes": [
+      {
+        "lang": "en",
+        "path": "products/消防喷头/dry-pendent-fire-sprinklers.html"
+      },
+      {
+        "lang": "ar",
+        "path": "ar/products/dry-pendent-fire-sprinklers/index.html"
+      }
+    ]
+  },
+  {
+    "id": "dry-pipe-alarm-valves",
+    "modelRows": 3,
+    "routes": [
+      {
+        "lang": "en",
+        "path": "products/消防阀/dry-pipe-alarm-valves.html"
+      },
+      {
+        "lang": "ar",
+        "path": "ar/products/dry-pipe-alarm-valves/index.html"
+      }
+    ]
+  },
+  {
+    "id": "export-slanted-hydrant-valve",
+    "modelRows": 0,
+    "routes": [
+      {
+        "lang": "en",
+        "path": "products/室内消防栓/export-slanted-hydrant-valve.html"
+      },
+      {
+        "lang": "ar",
+        "path": "ar/products/export-slanted-hydrant-valve/index.html"
+      }
+    ]
+  },
+  {
+    "id": "extended-coverage-quick-response-fire-sprinkler",
+    "modelRows": 3,
+    "routes": [
+      {
+        "lang": "en",
+        "path": "products/消防喷头/extended-coverage-quick-response-fire-sprinkler.html"
+      },
+      {
+        "lang": "ar",
+        "path": "ar/products/extended-coverage-quick-response-fire-sprinkler/index.html"
+      }
+    ]
+  },
+  {
+    "id": "flanged-supervisory-gate-valves",
+    "modelRows": 6,
+    "routes": [
+      {
+        "lang": "en",
+        "path": "products/消防阀门/flanged-supervisory-gate-valves.html"
+      },
+      {
+        "lang": "ar",
+        "path": "ar/products/flanged-supervisory-gate-valves/index.html"
+      }
+    ]
+  },
+  {
+    "id": "french-pattern-hydrant",
+    "modelRows": 5,
+    "routes": [
+      {
+        "lang": "en",
+        "path": "products/室外消防栓/french-pattern-hydrant.html"
+      },
+      {
+        "lang": "ar",
+        "path": "ar/products/french-pattern-hydrant/index.html"
+      }
+    ]
+  },
+  {
+    "id": "grooved-supervisory-butterfly-valves",
+    "modelRows": 3,
+    "routes": [
+      {
+        "lang": "en",
+        "path": "products/消防蝶阀/grooved-supervisory-butterfly-valves.html"
+      },
+      {
+        "lang": "ar",
+        "path": "ar/products/grooved-supervisory-butterfly-valves/index.html"
+      }
+    ]
+  },
+  {
+    "id": "grooved-supervisory-gate-valves",
+    "modelRows": 6,
+    "routes": [
+      {
+        "lang": "en",
+        "path": "products/消防阀门/grooved-supervisory-gate-valves.html"
+      },
+      {
+        "lang": "ar",
+        "path": "ar/products/grooved-supervisory-gate-valves/index.html"
+      }
+    ]
+  },
+  {
+    "id": "heavy-duty-fire-hose-reel",
+    "modelRows": 6,
+    "routes": [
+      {
+        "lang": "en",
+        "path": "products/软管卷盘/heavy-duty-fire-hose-reel.html"
+      },
+      {
+        "lang": "ar",
+        "path": "ar/products/heavy-duty-fire-hose-reel/index.html"
+      }
+    ]
+  },
+  {
+    "id": "indonesian-pattern-hydrant",
+    "modelRows": 5,
+    "routes": [
+      {
+        "lang": "en",
+        "path": "products/室外消防栓/indonesian-pattern-hydrant.html"
+      },
+      {
+        "lang": "ar",
+        "path": "ar/products/indonesian-pattern-hydrant/index.html"
+      }
+    ]
+  },
+  {
+    "id": "jet-spray-fire-hose-reel",
+    "modelRows": 9,
+    "routes": [
+      {
+        "lang": "en",
+        "path": "products/软管卷盘/jet-spray-fire-hose-reel.html"
+      },
+      {
+        "lang": "ar",
+        "path": "ar/products/jet-spray-fire-hose-reel/index.html"
+      }
+    ]
+  },
+  {
+    "id": "large-k-factor-esfr-sprinklers",
+    "modelRows": 12,
+    "routes": [
+      {
+        "lang": "en",
+        "path": "products/消防喷头/large-k-factor-esfr-sprinklers.html"
+      },
+      {
+        "lang": "ar",
+        "path": "ar/products/large-k-factor-esfr-sprinklers/index.html"
+      }
+    ]
+  },
+  {
+    "id": "lever-operated-grooved-butterfly-valves",
+    "modelRows": 7,
+    "routes": [
+      {
+        "lang": "en",
+        "path": "products/消防蝶阀/lever-operated-grooved-butterfly-valves.html"
+      },
+      {
+        "lang": "ar",
+        "path": "ar/products/lever-operated-grooved-butterfly-valves/index.html"
+      }
+    ]
+  },
+  {
+    "id": "lever-operated-wafer-butterfly-valves",
+    "modelRows": 7,
+    "routes": [
+      {
+        "lang": "en",
+        "path": "products/消防蝶阀/lever-operated-wafer-butterfly-valves.html"
+      },
+      {
+        "lang": "ar",
+        "path": "ar/products/lever-operated-wafer-butterfly-valves/index.html"
+      }
+    ]
+  },
+  {
+    "id": "nrs-gate-valves",
+    "modelRows": 12,
+    "routes": [
+      {
+        "lang": "en",
+        "path": "products/消防阀门/nrs-gate-valves.html"
+      },
+      {
+        "lang": "ar",
+        "path": "ar/products/nrs-gate-valves/index.html"
+      }
+    ]
+  },
+  {
+    "id": "osy-gate-valves",
+    "modelRows": 5,
+    "routes": [
+      {
+        "lang": "en",
+        "path": "products/消防阀门/osy-gate-valves.html"
+      },
+      {
+        "lang": "ar",
+        "path": "ar/products/osy-gate-valves/index.html"
+      }
+    ]
+  },
+  {
+    "id": "preaction-valve-assemblies",
+    "modelRows": 9,
+    "routes": [
+      {
+        "lang": "en",
+        "path": "products/消防阀/preaction-valve-assemblies.html"
+      },
+      {
+        "lang": "ar",
+        "path": "ar/products/preaction-valve-assemblies/index.html"
+      }
+    ]
+  },
+  {
+    "id": "ria25-fire-hose-reel",
+    "modelRows": 3,
+    "routes": [
+      {
+        "lang": "en",
+        "path": "products/软管卷盘/ria25-fire-hose-reel.html"
+      },
+      {
+        "lang": "ar",
+        "path": "ar/products/ria25-fire-hose-reel/index.html"
+      }
+    ]
+  },
+  {
+    "id": "rotating-pressure-regulating-hydrant",
+    "modelRows": 6,
+    "routes": [
+      {
+        "lang": "en",
+        "path": "products/室内消防栓/rotating-pressure-regulating-hydrant.html"
+      },
+      {
+        "lang": "ar",
+        "path": "ar/products/rotating-pressure-regulating-hydrant/index.html"
+      }
+    ]
+  },
+  {
+    "id": "russian-pattern-hydrant",
+    "modelRows": 5,
+    "routes": [
+      {
+        "lang": "en",
+        "path": "products/室外消防栓/russian-pattern-hydrant.html"
+      },
+      {
+        "lang": "ar",
+        "path": "ar/products/russian-pattern-hydrant/index.html"
+      }
+    ]
+  },
+  {
+    "id": "standard-indoor-hydrant",
+    "modelRows": 1,
+    "routes": [
+      {
+        "lang": "en",
+        "path": "products/室内消防栓/standard-indoor-hydrant.html"
+      },
+      {
+        "lang": "ar",
+        "path": "ar/products/standard-indoor-hydrant/index.html"
+      }
+    ]
+  },
+  {
+    "id": "straight-stream-fire-hose-reel",
+    "modelRows": 9,
+    "routes": [
+      {
+        "lang": "en",
+        "path": "products/软管卷盘/straight-stream-fire-hose-reel.html"
+      },
+      {
+        "lang": "ar",
+        "path": "ar/products/straight-stream-fire-hose-reel/index.html"
+      }
+    ]
+  },
+  {
+    "id": "wafer-supervisory-butterfly-valves",
+    "modelRows": 3,
+    "routes": [
+      {
+        "lang": "en",
+        "path": "products/消防蝶阀/wafer-supervisory-butterfly-valves.html"
+      },
+      {
+        "lang": "ar",
+        "path": "ar/products/wafer-supervisory-butterfly-valves/index.html"
+      }
+    ]
+  },
+  {
+    "id": "closed-air-aspirating-foam-water-sprinkler",
+    "modelRows": 1,
+    "routes": [
+      {
+        "lang": "en",
+        "path": "products/closed-air-aspirating-foam-water-sprinkler.html"
+      },
+      {
+        "lang": "ar",
+        "path": "ar/products/closed-air-aspirating-foam-water-sprinkler/index.html"
+      }
+    ]
+  },
+  {
+    "id": "closed-centrifugal-fire-sprinklers",
+    "modelRows": 6,
+    "routes": [
+      {
+        "lang": "en",
+        "path": "products/closed-centrifugal-fire-sprinklers.html"
+      },
+      {
+        "lang": "ar",
+        "path": "ar/products/closed-centrifugal-fire-sprinklers/index.html"
+      }
+    ]
+  },
+  {
+    "id": "closed-rotating-fire-sprinkler",
+    "modelRows": 1,
+    "routes": [
+      {
+        "lang": "en",
+        "path": "products/closed-rotating-fire-sprinkler.html"
+      },
+      {
+        "lang": "ar",
+        "path": "ar/products/closed-rotating-fire-sprinkler/index.html"
+      }
+    ]
+  },
+  {
+    "id": "fire-equipment-cabinets",
+    "modelRows": 6,
+    "routes": [
+      {
+        "lang": "en",
+        "path": "products/消防器材箱/fire-equipment-cabinets.html"
+      },
+      {
+        "lang": "ar",
+        "path": "ar/products/fire-equipment-cabinet-series/index.html"
+      }
+    ]
+  },
+  {
+    "id": "fusible-alloy-fire-sprinklers",
+    "modelRows": 5,
+    "routes": [
+      {
+        "lang": "en",
+        "path": "products/消防喷头/fusible-alloy-fire-sprinklers.html"
+      },
+      {
+        "lang": "ar",
+        "path": "ar/products/fusible-alloy-fire-sprinklers/index.html"
+      }
+    ]
+  },
+  {
+    "id": "glass-bulb-fire-sprinkler",
+    "modelRows": 2,
+    "routes": [
+      {
+        "lang": "en",
+        "path": "products/消防喷头/glass-bulb-fire-sprinkler.html"
+      },
+      {
+        "lang": "ar",
+        "path": "ar/products/glass-bulb-fire-sprinkler/index.html"
+      }
+    ]
+  },
+  {
+    "id": "horizontal-handwheel-landing-valves",
+    "modelRows": 5,
+    "routes": [
+      {
+        "lang": "en",
+        "path": "products/室内消防栓/horizontal-handwheel-landing-valves.html"
+      },
+      {
+        "lang": "ar",
+        "path": "ar/products/horizontal-handwheel-landing-valves/index.html"
+      }
+    ]
+  },
+  {
+    "id": "lever-operated-fire-hose-nozzles",
+    "modelRows": 5,
+    "routes": [
+      {
+        "lang": "en",
+        "path": "products/消防水枪/lever-operated-fire-hose-nozzles.html"
+      },
+      {
+        "lang": "ar",
+        "path": "ar/products/lever-operated-fire-hose-nozzles/index.html"
+      }
+    ]
+  },
+  {
+    "id": "russian-pattern-fire-department-connection",
+    "modelRows": 1,
+    "routes": [
+      {
+        "lang": "en",
+        "path": "products/消防水泵接合器/russian-pattern-fire-department-connection.html"
+      },
+      {
+        "lang": "ar",
+        "path": "ar/products/russian-pattern-fire-department-connection/index.html"
+      }
+    ]
+  },
+  {
+    "id": "saddle-type-waterflow-switches",
+    "modelRows": 7,
+    "routes": [
+      {
+        "lang": "en",
+        "path": "products/消防阀/saddle-type-waterflow-switches.html"
+      },
+      {
+        "lang": "ar",
+        "path": "ar/products/saddle-type-waterflow-switches/index.html"
+      }
+    ]
+  },
+  {
+    "id": "standard-response-fire-sprinkler",
+    "modelRows": 3,
+    "routes": [
+      {
+        "lang": "en",
+        "path": "products/消防喷头/standard-response-fire-sprinkler.html"
+      },
+      {
+        "lang": "ar",
+        "path": "ar/products/standard-response-fire-sprinkler/index.html"
+      }
+    ]
+  },
+  {
+    "id": "straight-stream-fire-hose-nozzles",
+    "modelRows": 2,
+    "routes": [
+      {
+        "lang": "en",
+        "path": "products/消防水枪/straight-stream-fire-hose-nozzles.html"
+      },
+      {
+        "lang": "ar",
+        "path": "ar/products/straight-stream-fire-hose-nozzles/index.html"
+      }
+    ]
+  },
+  {
+    "id": "straight-through-oblique-landing-valves",
+    "modelRows": 5,
+    "routes": [
+      {
+        "lang": "en",
+        "path": "products/室内消防栓/straight-through-oblique-landing-valves.html"
+      },
+      {
+        "lang": "ar",
+        "path": "ar/products/straight-through-oblique-landing-valves/index.html"
+      }
+    ]
+  },
+  {
+    "id": "tubular-foam-water-nozzles",
+    "modelRows": 2,
+    "routes": [
+      {
+        "lang": "en",
+        "path": "products/tubular-foam-water-nozzles.html"
+      },
+      {
+        "lang": "ar",
+        "path": "ar/products/tubular-foam-water-nozzles/index.html"
+      }
+    ]
+  },
+  {
+    "id": "water-curtain-nozzles",
+    "modelRows": 6,
+    "routes": [
+      {
+        "lang": "en",
+        "path": "products/消防喷头/water-curtain-nozzles.html"
+      },
+      {
+        "lang": "ar",
+        "path": "ar/products/water-curtain-nozzles/index.html"
+      }
+    ]
+  },
+  {
+    "id": "water-mist-nozzles",
+    "modelRows": 6,
+    "routes": [
+      {
+        "lang": "en",
+        "path": "products/消防喷头/water-mist-nozzles.html"
+      },
+      {
+        "lang": "ar",
+        "path": "ar/products/water-mist-nozzles/index.html"
+      }
+    ]
+  },
+  {
+    "id": "wet-alarm-check-valve",
+    "modelRows": 7,
+    "routes": [
+      {
+        "lang": "en",
+        "path": "products/消防阀/wet-alarm-check-valve-assemblies.html"
+      },
+      {
+        "lang": "ar",
+        "path": "ar/products/wet-alarm-check-valve/index.html"
+      }
+    ]
+  }
+]

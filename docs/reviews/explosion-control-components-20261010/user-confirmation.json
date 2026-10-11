@@ -1,0 +1,38 @@
+{
+  "date": "2026-10-10",
+  "authority": "Direct user reply after reviewing explicitly labelled manufacturer reference candidates",
+  "pressureSwitch": {
+    "userReply": "R1/2 外螺纹、额定工作压力1.6MPa、动作压力0.035–0.05MPa、触点容量DC24V/1A ，按照这个",
+    "connection": "R1/2 male",
+    "ratedWorkingPressureMPa": 1.6,
+    "actuationPressureMPa": [
+      0.035,
+      0.05
+    ],
+    "contactVoltageVDC": 24,
+    "contactCurrentA": 1
+  },
+  "solenoidValve": {
+    "userReply": "DN15、G1/2、DC24V、黄铜、常闭（通电开／断电关）、工作压力0.04–1.6MPa",
+    "nominalSize": "DN15",
+    "connection": "G1/2 female (thread size confirmed by user, female port visible in photo)",
+    "coilVoltageVDC": 24,
+    "body": "Brass",
+    "state": "Normally closed; energised opens; de-energised closes",
+    "workingPressureMPa": [
+      0.04,
+      1.6
+    ]
+  },
+  "notConfirmed": [
+    "Exact factory models",
+    "Ex marking and certificate",
+    "Hazardous-location classification",
+    "IP rating",
+    "Coil power",
+    "Seal material",
+    "Dimensions",
+    "Pressure-switch contact arrangement"
+  ],
+  "scope": "User confirmation applies to these two standalone photographed product configurations only; no credentials transferred from referenced manufacturers."
+}

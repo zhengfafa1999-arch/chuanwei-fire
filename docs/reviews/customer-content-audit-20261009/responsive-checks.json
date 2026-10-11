@@ -1,0 +1,5077 @@
+[
+  {
+    "brokenVisibleImages": 0,
+    "h1": "Fire Sprinklers & System Components",
+    "lang": "en",
+    "path": "/index.html",
+    "placeholderSpecs": 0,
+    "scrollWidth": 375,
+    "width": 390,
+    "id": "home",
+    "expectedLang": "en"
+  },
+  {
+    "brokenVisibleImages": 0,
+    "h1": "消防喷头与系统组件",
+    "lang": "zh-CN",
+    "path": "/zh/index.html",
+    "placeholderSpecs": 0,
+    "scrollWidth": 375,
+    "width": 390,
+    "id": "home",
+    "expectedLang": "zh"
+  },
+  {
+    "brokenVisibleImages": 0,
+    "h1": "رشاشات الحريق ومكونات الأنظمة",
+    "lang": "ar",
+    "path": "/ar/index.html",
+    "placeholderSpecs": 0,
+    "scrollWidth": 375,
+    "width": 390,
+    "id": "home",
+    "expectedLang": "ar"
+  },
+  {
+    "brokenVisibleImages": 0,
+    "h1": "Find your fire protection product.",
+    "lang": "en",
+    "path": "/products.html",
+    "placeholderSpecs": 0,
+    "scrollWidth": 375,
+    "width": 390,
+    "id": "products",
+    "expectedLang": "en"
+  },
+  {
+    "brokenVisibleImages": 0,
+    "h1": "اعثر على منتج مكافحة الحريق المطلوب.",
+    "lang": "ar",
+    "path": "/ar/products.html",
+    "placeholderSpecs": 0,
+    "scrollWidth": 375,
+    "width": 390,
+    "id": "products",
+    "expectedLang": "ar"
+  },
+  {
+    "brokenVisibleImages": 0,
+    "h1": "A manufacturing source for fire-water-system components",
+    "lang": "en",
+    "path": "/about.html",
+    "placeholderSpecs": 0,
+    "scrollWidth": 375,
+    "width": 390,
+    "id": "about",
+    "expectedLang": "en"
+  },
+  {
+    "brokenVisibleImages": 0,
+    "h1": "جهة تصنيع لمكونات أنظمة مياه مكافحة الحريق",
+    "lang": "ar",
+    "path": "/ar/about.html",
+    "placeholderSpecs": 0,
+    "scrollWidth": 375,
+    "width": 390,
+    "id": "about",
+    "expectedLang": "ar"
+  },
+  {
+    "brokenVisibleImages": 0,
+    "h1": "Available catalog and documents",
+    "lang": "en",
+    "path": "/downloads.html",
+    "placeholderSpecs": 0,
+    "scrollWidth": 375,
+    "width": 390,
+    "id": "downloads",
+    "expectedLang": "en"
+  },
+  {
+    "brokenVisibleImages": 0,
+    "h1": "الكتالوج والوثائق المتاحة",
+    "lang": "ar",
+    "path": "/ar/downloads.html",
+    "placeholderSpecs": 0,
+    "scrollWidth": 375,
+    "width": 390,
+    "id": "downloads",
+    "expectedLang": "ar"
+  },
+  {
+    "brokenVisibleImages": 0,
+    "h1": "Send your product or project requirement",
+    "lang": "en",
+    "path": "/contact.html",
+    "placeholderSpecs": 0,
+    "scrollWidth": 375,
+    "width": 390,
+    "id": "contact",
+    "expectedLang": "en"
+  },
+  {
+    "brokenVisibleImages": 0,
+    "h1": "أرسل متطلبات المنتج أو المشروع",
+    "lang": "ar",
+    "path": "/ar/contact.html",
+    "placeholderSpecs": 0,
+    "scrollWidth": 375,
+    "width": 390,
+    "id": "contact",
+    "expectedLang": "ar"
+  },
+  {
+    "brokenVisibleImages": 0,
+    "h1": "Foam-Water Nozzles",
+    "lang": "en",
+    "path": "/products/foam-nozzles.html",
+    "placeholderSpecs": 0,
+    "scrollWidth": 375,
+    "width": 390,
+    "id": "category:foam-nozzles",
+    "expectedLang": "en"
+  },
+  {
+    "brokenVisibleImages": 0,
+    "h1": "فوهات الماء والرغوة",
+    "lang": "ar",
+    "path": "/ar/products/foam-nozzles/index.html",
+    "placeholderSpecs": 0,
+    "scrollWidth": 375,
+    "width": 390,
+    "id": "category:foam-nozzles",
+    "expectedLang": "ar"
+  },
+  {
+    "brokenVisibleImages": 0,
+    "h1": "Fire Sprinklers",
+    "lang": "en",
+    "path": "/products/%E6%B6%88%E9%98%B2%E5%96%B7%E5%A4%B4.html",
+    "placeholderSpecs": 0,
+    "scrollWidth": 375,
+    "width": 390,
+    "id": "category:sprinklers",
+    "expectedLang": "en"
+  },
+  {
+    "brokenVisibleImages": 0,
+    "h1": "رشاشات الحريق",
+    "lang": "ar",
+    "path": "/ar/products/sprinklers/index.html",
+    "placeholderSpecs": 0,
+    "scrollWidth": 375,
+    "width": 390,
+    "id": "category:sprinklers",
+    "expectedLang": "ar"
+  },
+  {
+    "brokenVisibleImages": 0,
+    "h1": "Alarm & System Valves",
+    "lang": "en",
+    "path": "/products/%E6%B6%88%E9%98%B2%E9%98%80.html",
+    "placeholderSpecs": 0,
+    "scrollWidth": 375,
+    "width": 390,
+    "id": "category:system-valves",
+    "expectedLang": "en"
+  },
+  {
+    "brokenVisibleImages": 0,
+    "h1": "صمامات الإنذار وصمامات الأنظمة",
+    "lang": "ar",
+    "path": "/ar/products/system-valves/index.html",
+    "placeholderSpecs": 0,
+    "scrollWidth": 375,
+    "width": 390,
+    "id": "category:system-valves",
+    "expectedLang": "ar"
+  },
+  {
+    "brokenVisibleImages": 0,
+    "h1": "Fire Butterfly Valves",
+    "lang": "en",
+    "path": "/products/%E6%B6%88%E9%98%B2%E8%9D%B6%E9%98%80.html",
+    "placeholderSpecs": 0,
+    "scrollWidth": 375,
+    "width": 390,
+    "id": "category:butterfly-valves",
+    "expectedLang": "en"
+  },
+  {
+    "brokenVisibleImages": 0,
+    "h1": "صمامات فراشة لمكافحة الحريق",
+    "lang": "ar",
+    "path": "/ar/products/butterfly-valves/index.html",
+    "placeholderSpecs": 0,
+    "scrollWidth": 375,
+    "width": 390,
+    "id": "category:butterfly-valves",
+    "expectedLang": "ar"
+  },
+  {
+    "brokenVisibleImages": 0,
+    "h1": "Fire Gate Valves",
+    "lang": "en",
+    "path": "/products/%E6%B6%88%E9%98%B2%E9%98%80%E9%97%A8.html",
+    "placeholderSpecs": 0,
+    "scrollWidth": 375,
+    "width": 390,
+    "id": "category:gate-valves",
+    "expectedLang": "en"
+  },
+  {
+    "brokenVisibleImages": 0,
+    "h1": "صمامات بوابة لمكافحة الحريق",
+    "lang": "ar",
+    "path": "/ar/products/gate-valves/index.html",
+    "placeholderSpecs": 0,
+    "scrollWidth": 375,
+    "width": 390,
+    "id": "category:gate-valves",
+    "expectedLang": "ar"
+  },
+  {
+    "brokenVisibleImages": 0,
+    "h1": "Fire Hose Reels",
+    "lang": "en",
+    "path": "/products/%E8%BD%AF%E7%AE%A1%E5%8D%B7%E7%9B%98.html",
+    "placeholderSpecs": 0,
+    "scrollWidth": 375,
+    "width": 390,
+    "id": "category:hose-reels",
+    "expectedLang": "en"
+  },
+  {
+    "brokenVisibleImages": 0,
+    "h1": "بكرات خراطيم الحريق",
+    "lang": "ar",
+    "path": "/ar/products/hose-reels/index.html",
+    "placeholderSpecs": 0,
+    "scrollWidth": 375,
+    "width": 390,
+    "id": "category:hose-reels",
+    "expectedLang": "ar"
+  },
+  {
+    "brokenVisibleImages": 0,
+    "h1": "Fire Hose Nozzles, Couplings & Adapters",
+    "lang": "en",
+    "path": "/products/%E6%B6%88%E9%98%B2%E6%B0%B4%E6%9E%AA.html",
+    "placeholderSpecs": 0,
+    "scrollWidth": 375,
+    "width": 390,
+    "id": "category:hoses-nozzles-couplings",
+    "expectedLang": "en"
+  },
+  {
+    "brokenVisibleImages": 0,
+    "h1": "فوهات خراطيم الحريق والوصلات والمهايئات",
+    "lang": "ar",
+    "path": "/ar/products/hoses-nozzles-couplings/index.html",
+    "placeholderSpecs": 0,
+    "scrollWidth": 375,
+    "width": 390,
+    "id": "category:hoses-nozzles-couplings",
+    "expectedLang": "ar"
+  },
+  {
+    "brokenVisibleImages": 0,
+    "h1": "Indoor Fire Hydrants",
+    "lang": "en",
+    "path": "/products/%E5%AE%A4%E5%86%85%E6%B6%88%E9%98%B2%E6%A0%93/%E5%AE%A4%E5%86%85%E6%B6%88%E9%98%B2%E6%A0%93.html",
+    "placeholderSpecs": 0,
+    "scrollWidth": 375,
+    "width": 390,
+    "id": "category:indoor-hydrants",
+    "expectedLang": "en"
+  },
+  {
+    "brokenVisibleImages": 0,
+    "h1": "محابس الحريق الداخلية",
+    "lang": "ar",
+    "path": "/ar/products/indoor-hydrants/index.html",
+    "placeholderSpecs": 0,
+    "scrollWidth": 375,
+    "width": 390,
+    "id": "category:indoor-hydrants",
+    "expectedLang": "ar"
+  },
+  {
+    "brokenVisibleImages": 0,
+    "h1": "Outdoor Fire Hydrants",
+    "lang": "en",
+    "path": "/products/%E5%AE%A4%E5%A4%96%E6%B6%88%E9%98%B2%E6%A0%93/%E5%AE%A4%E5%A4%96%E6%B6%88%E9%98%B2%E6%A0%93.html",
+    "placeholderSpecs": 0,
+    "scrollWidth": 375,
+    "width": 390,
+    "id": "category:outdoor-hydrants",
+    "expectedLang": "en"
+  },
+  {
+    "brokenVisibleImages": 0,
+    "h1": "صنابير الحريق الخارجية",
+    "lang": "ar",
+    "path": "/ar/products/outdoor-hydrants/index.html",
+    "placeholderSpecs": 0,
+    "scrollWidth": 375,
+    "width": 390,
+    "id": "category:outdoor-hydrants",
+    "expectedLang": "ar"
+  },
+  {
+    "brokenVisibleImages": 0,
+    "h1": "Fire Department Connections",
+    "lang": "en",
+    "path": "/products/%E6%B6%88%E9%98%B2%E6%B0%B4%E6%B3%B5%E6%8E%A5%E5%90%88%E5%99%A8.html",
+    "placeholderSpecs": 0,
+    "scrollWidth": 375,
+    "width": 390,
+    "id": "category:fire-department-connections",
+    "expectedLang": "en"
+  },
+  {
+    "brokenVisibleImages": 0,
+    "h1": "وصلات تزويد أنظمة الحريق بالمياه",
+    "lang": "ar",
+    "path": "/ar/products/fire-department-connections/index.html",
+    "placeholderSpecs": 0,
+    "scrollWidth": 375,
+    "width": 390,
+    "id": "category:fire-department-connections",
+    "expectedLang": "ar"
+  },
+  {
+    "brokenVisibleImages": 0,
+    "h1": "Fire Equipment Cabinets",
+    "lang": "en",
+    "path": "/products/%E6%B6%88%E9%98%B2%E5%99%A8%E6%9D%90%E7%AE%B1.html",
+    "placeholderSpecs": 0,
+    "scrollWidth": 375,
+    "width": 390,
+    "id": "category:fire-equipment-cabinets",
+    "expectedLang": "en"
+  },
+  {
+    "brokenVisibleImages": 0,
+    "h1": "خزائن معدات مكافحة الحريق",
+    "lang": "ar",
+    "path": "/ar/products/fire-equipment-cabinets/index.html",
+    "placeholderSpecs": 0,
+    "scrollWidth": 375,
+    "width": 390,
+    "id": "category:fire-equipment-cabinets",
+    "expectedLang": "ar"
+  },
+  {
+    "brokenVisibleImages": 0,
+    "h1": "Wet Alarm Check Valve Assemblies",
+    "lang": "en",
+    "path": "/products/%E6%B6%88%E9%98%B2%E9%98%80/wet-alarm-check-valve-assemblies.html",
+    "placeholderSpecs": 0,
+    "scrollWidth": 375,
+    "width": 390,
+    "id": "product:wet-alarm-check-valve",
+    "expectedLang": "en"
+  },
+  {
+    "brokenVisibleImages": 0,
+    "h1": "مجموعات صمام الإنذار الرطب",
+    "lang": "ar",
+    "path": "/ar/products/wet-alarm-check-valve/index.html",
+    "placeholderSpecs": 0,
+    "scrollWidth": 375,
+    "width": 390,
+    "id": "product:wet-alarm-check-valve",
+    "expectedLang": "ar"
+  },
+  {
+    "brokenVisibleImages": 0,
+    "h1": "Diaphragm Deluge Valve",
+    "lang": "en",
+    "path": "/products/%E6%B6%88%E9%98%B2%E9%98%80/diaphragm-deluge-valves.html",
+    "placeholderSpecs": 0,
+    "scrollWidth": 375,
+    "width": 390,
+    "id": "product:diaphragm-deluge-valves",
+    "expectedLang": "en"
+  },
+  {
+    "brokenVisibleImages": 0,
+    "h1": "صمام الغمر الغشائي",
+    "lang": "ar",
+    "path": "/ar/products/diaphragm-deluge-valves/index.html",
+    "placeholderSpecs": 0,
+    "scrollWidth": 375,
+    "width": 390,
+    "id": "product:diaphragm-deluge-valves",
+    "expectedLang": "ar"
+  },
+  {
+    "brokenVisibleImages": 0,
+    "h1": "Preaction Valve Assemblies",
+    "lang": "en",
+    "path": "/products/%E6%B6%88%E9%98%B2%E9%98%80/preaction-valve-assemblies.html",
+    "placeholderSpecs": 0,
+    "scrollWidth": 375,
+    "width": 390,
+    "id": "product:preaction-valve-assemblies",
+    "expectedLang": "en"
+  },
+  {
+    "brokenVisibleImages": 0,
+    "h1": "مجموعات صمامات الإجراء المسبق",
+    "lang": "ar",
+    "path": "/ar/products/preaction-valve-assemblies/index.html",
+    "placeholderSpecs": 0,
+    "scrollWidth": 375,
+    "width": 390,
+    "id": "product:preaction-valve-assemblies",
+    "expectedLang": "ar"
+  },
+  {
+    "brokenVisibleImages": 0,
+    "h1": "Dry Pipe Alarm Valve",
+    "lang": "en",
+    "path": "/products/%E6%B6%88%E9%98%B2%E9%98%80/dry-pipe-alarm-valves.html",
+    "placeholderSpecs": 0,
+    "scrollWidth": 375,
+    "width": 390,
+    "id": "product:dry-pipe-alarm-valves",
+    "expectedLang": "en"
+  },
+  {
+    "brokenVisibleImages": 0,
+    "h1": "صمام إنذار الأنابيب الجافة",
+    "lang": "ar",
+    "path": "/ar/products/dry-pipe-alarm-valves/index.html",
+    "placeholderSpecs": 0,
+    "scrollWidth": 375,
+    "width": 390,
+    "id": "product:dry-pipe-alarm-valves",
+    "expectedLang": "ar"
+  },
+  {
+    "brokenVisibleImages": 0,
+    "h1": "Saddle-Type Waterflow Switches",
+    "lang": "en",
+    "path": "/products/%E6%B6%88%E9%98%B2%E9%98%80/saddle-type-waterflow-switches.html",
+    "placeholderSpecs": 0,
+    "scrollWidth": 375,
+    "width": 390,
+    "id": "product:saddle-type-waterflow-switches",
+    "expectedLang": "en"
+  },
+  {
+    "brokenVisibleImages": 0,
+    "h1": "مفاتيح تدفق المياه من النوع السرجي",
+    "lang": "ar",
+    "path": "/ar/products/saddle-type-waterflow-switches/index.html",
+    "placeholderSpecs": 0,
+    "scrollWidth": 375,
+    "width": 390,
+    "id": "product:saddle-type-waterflow-switches",
+    "expectedLang": "ar"
+  },
+  {
+    "brokenVisibleImages": 0,
+    "h1": "Closed-Type Rotating Fire Sprinkler",
+    "lang": "en",
+    "path": "/products/closed-rotating-fire-sprinkler.html",
+    "placeholderSpecs": 0,
+    "scrollWidth": 375,
+    "width": 390,
+    "id": "product:closed-rotating-fire-sprinkler",
+    "expectedLang": "en"
+  },
+  {
+    "brokenVisibleImages": 0,
+    "h1": "رشاش حريق دوار مغلق",
+    "lang": "ar",
+    "path": "/ar/products/closed-rotating-fire-sprinkler/index.html",
+    "placeholderSpecs": 0,
+    "scrollWidth": 375,
+    "width": 390,
+    "id": "product:closed-rotating-fire-sprinkler",
+    "expectedLang": "ar"
+  },
+  {
+    "brokenVisibleImages": 0,
+    "h1": "Closed-Type Centrifugal Fire Sprinklers",
+    "lang": "en",
+    "path": "/products/closed-centrifugal-fire-sprinklers.html",
+    "placeholderSpecs": 0,
+    "scrollWidth": 375,
+    "width": 390,
+    "id": "product:closed-centrifugal-fire-sprinklers",
+    "expectedLang": "en"
+  },
+  {
+    "brokenVisibleImages": 0,
+    "h1": "رشاشات حريق مغلقة بالطرد المركزي",
+    "lang": "ar",
+    "path": "/ar/products/closed-centrifugal-fire-sprinklers/index.html",
+    "placeholderSpecs": 0,
+    "scrollWidth": 375,
+    "width": 390,
+    "id": "product:closed-centrifugal-fire-sprinklers",
+    "expectedLang": "ar"
+  },
+  {
+    "brokenVisibleImages": 0,
+    "h1": "Tubular Foam-Water Nozzles",
+    "lang": "en",
+    "path": "/products/tubular-foam-water-nozzles.html",
+    "placeholderSpecs": 0,
+    "scrollWidth": 375,
+    "width": 390,
+    "id": "product:tubular-foam-water-nozzles",
+    "expectedLang": "en"
+  },
+  {
+    "brokenVisibleImages": 0,
+    "h1": "فوهات أنبوبية للماء والرغوة",
+    "lang": "ar",
+    "path": "/ar/products/tubular-foam-water-nozzles/index.html",
+    "placeholderSpecs": 0,
+    "scrollWidth": 375,
+    "width": 390,
+    "id": "product:tubular-foam-water-nozzles",
+    "expectedLang": "ar"
+  },
+  {
+    "brokenVisibleImages": 0,
+    "h1": "Closed-Type Air-Aspirating Foam-Water Sprinkler",
+    "lang": "en",
+    "path": "/products/closed-air-aspirating-foam-water-sprinkler.html",
+    "placeholderSpecs": 0,
+    "scrollWidth": 375,
+    "width": 390,
+    "id": "product:closed-air-aspirating-foam-water-sprinkler",
+    "expectedLang": "en"
+  },
+  {
+    "brokenVisibleImages": 0,
+    "h1": "رشاش ماء ورغوة مغلق يسحب الهواء",
+    "lang": "ar",
+    "path": "/ar/products/closed-air-aspirating-foam-water-sprinkler/index.html",
+    "placeholderSpecs": 0,
+    "scrollWidth": 375,
+    "width": 390,
+    "id": "product:closed-air-aspirating-foam-water-sprinkler",
+    "expectedLang": "ar"
+  },
+  {
+    "brokenVisibleImages": 0,
+    "h1": "Water Curtain Nozzles",
+    "lang": "en",
+    "path": "/products/%E6%B6%88%E9%98%B2%E5%96%B7%E5%A4%B4/water-curtain-nozzles.html",
+    "placeholderSpecs": 0,
+    "scrollWidth": 375,
+    "width": 390,
+    "id": "product:water-curtain-nozzles",
+    "expectedLang": "en"
+  },
+  {
+    "brokenVisibleImages": 0,
+    "h1": "فوهات ستارة مائية",
+    "lang": "ar",
+    "path": "/ar/products/water-curtain-nozzles/index.html",
+    "placeholderSpecs": 0,
+    "scrollWidth": 375,
+    "width": 390,
+    "id": "product:water-curtain-nozzles",
+    "expectedLang": "ar"
+  },
+  {
+    "brokenVisibleImages": 0,
+    "h1": "Water Mist Nozzles",
+    "lang": "en",
+    "path": "/products/%E6%B6%88%E9%98%B2%E5%96%B7%E5%A4%B4/water-mist-nozzles.html",
+    "placeholderSpecs": 0,
+    "scrollWidth": 375,
+    "width": 390,
+    "id": "product:water-mist-nozzles",
+    "expectedLang": "en"
+  },
+  {
+    "brokenVisibleImages": 0,
+    "h1": "فوهات ضباب الماء",
+    "lang": "ar",
+    "path": "/ar/products/water-mist-nozzles/index.html",
+    "placeholderSpecs": 0,
+    "scrollWidth": 375,
+    "width": 390,
+    "id": "product:water-mist-nozzles",
+    "expectedLang": "ar"
+  },
+  {
+    "brokenVisibleImages": 0,
+    "h1": "Standard Response Fire Sprinklers",
+    "lang": "en",
+    "path": "/products/%E6%B6%88%E9%98%B2%E5%96%B7%E5%A4%B4/standard-response-fire-sprinkler.html",
+    "placeholderSpecs": 0,
+    "scrollWidth": 375,
+    "width": 390,
+    "id": "product:standard-response-fire-sprinkler",
+    "expectedLang": "en"
+  },
+  {
+    "brokenVisibleImages": 0,
+    "h1": "رشاشات الحريق ذات الاستجابة القياسية",
+    "lang": "ar",
+    "path": "/ar/products/standard-response-fire-sprinkler/index.html",
+    "placeholderSpecs": 0,
+    "scrollWidth": 375,
+    "width": 390,
+    "id": "product:standard-response-fire-sprinkler",
+    "expectedLang": "ar"
+  },
+  {
+    "brokenVisibleImages": 0,
+    "h1": "Fusible-Alloy Fire Sprinklers",
+    "lang": "en",
+    "path": "/products/%E6%B6%88%E9%98%B2%E5%96%B7%E5%A4%B4/fusible-alloy-fire-sprinklers.html",
+    "placeholderSpecs": 0,
+    "scrollWidth": 375,
+    "width": 390,
+    "id": "product:fusible-alloy-fire-sprinklers",
+    "expectedLang": "en"
+  },
+  {
+    "brokenVisibleImages": 0,
+    "h1": "رشاشات حريق بعنصر حراري قابل للانصهار",
+    "lang": "ar",
+    "path": "/ar/products/fusible-alloy-fire-sprinklers/index.html",
+    "placeholderSpecs": 0,
+    "scrollWidth": 375,
+    "width": 390,
+    "id": "product:fusible-alloy-fire-sprinklers",
+    "expectedLang": "ar"
+  },
+  {
+    "brokenVisibleImages": 0,
+    "h1": "Quick Response Glass Bulb Sprinklers",
+    "lang": "en",
+    "path": "/products/%E6%B6%88%E9%98%B2%E5%96%B7%E5%A4%B4/glass-bulb-fire-sprinkler.html",
+    "placeholderSpecs": 0,
+    "scrollWidth": 375,
+    "width": 390,
+    "id": "product:glass-bulb-fire-sprinkler",
+    "expectedLang": "en"
+  },
+  {
+    "brokenVisibleImages": 0,
+    "h1": "رشاشات زجاجية سريعة الاستجابة",
+    "lang": "ar",
+    "path": "/ar/products/glass-bulb-fire-sprinkler/index.html",
+    "placeholderSpecs": 0,
+    "scrollWidth": 375,
+    "width": 390,
+    "id": "product:glass-bulb-fire-sprinkler",
+    "expectedLang": "ar"
+  },
+  {
+    "brokenVisibleImages": 0,
+    "h1": "Concealed Pendent Fire Sprinklers",
+    "lang": "en",
+    "path": "/products/%E6%B6%88%E9%98%B2%E5%96%B7%E5%A4%B4/concealed-pendent-fire-sprinkler.html",
+    "placeholderSpecs": 0,
+    "scrollWidth": 375,
+    "width": 390,
+    "id": "product:concealed-pendent-fire-sprinkler",
+    "expectedLang": "en"
+  },
+  {
+    "brokenVisibleImages": 0,
+    "h1": "رشاشات حريق متدلية مخفية",
+    "lang": "ar",
+    "path": "/ar/products/concealed-pendent-fire-sprinkler/index.html",
+    "placeholderSpecs": 0,
+    "scrollWidth": 375,
+    "width": 390,
+    "id": "product:concealed-pendent-fire-sprinkler",
+    "expectedLang": "ar"
+  },
+  {
+    "brokenVisibleImages": 0,
+    "h1": "Dry Pendent Fire Sprinklers",
+    "lang": "en",
+    "path": "/products/%E6%B6%88%E9%98%B2%E5%96%B7%E5%A4%B4/dry-pendent-fire-sprinklers.html",
+    "placeholderSpecs": 0,
+    "scrollWidth": 375,
+    "width": 390,
+    "id": "product:dry-pendent-fire-sprinklers",
+    "expectedLang": "en"
+  },
+  {
+    "brokenVisibleImages": 0,
+    "h1": "رشاشات حريق جافة متدلية",
+    "lang": "ar",
+    "path": "/ar/products/dry-pendent-fire-sprinklers/index.html",
+    "placeholderSpecs": 0,
+    "scrollWidth": 375,
+    "width": 390,
+    "id": "product:dry-pendent-fire-sprinklers",
+    "expectedLang": "ar"
+  },
+  {
+    "brokenVisibleImages": 0,
+    "h1": "Extended Coverage Quick Response Sprinklers",
+    "lang": "en",
+    "path": "/products/%E6%B6%88%E9%98%B2%E5%96%B7%E5%A4%B4/extended-coverage-quick-response-fire-sprinkler.html",
+    "placeholderSpecs": 0,
+    "scrollWidth": 375,
+    "width": 390,
+    "id": "product:extended-coverage-quick-response-fire-sprinkler",
+    "expectedLang": "en"
+  },
+  {
+    "brokenVisibleImages": 0,
+    "h1": "رشاشات ذات تغطية موسعة واستجابة سريعة",
+    "lang": "ar",
+    "path": "/ar/products/extended-coverage-quick-response-fire-sprinkler/index.html",
+    "placeholderSpecs": 0,
+    "scrollWidth": 375,
+    "width": 390,
+    "id": "product:extended-coverage-quick-response-fire-sprinkler",
+    "expectedLang": "ar"
+  },
+  {
+    "brokenVisibleImages": 0,
+    "h1": "Large K-Factor & ESFR Sprinklers",
+    "lang": "en",
+    "path": "/products/%E6%B6%88%E9%98%B2%E5%96%B7%E5%A4%B4/large-k-factor-esfr-sprinklers.html",
+    "placeholderSpecs": 0,
+    "scrollWidth": 375,
+    "width": 390,
+    "id": "product:large-k-factor-esfr-sprinklers",
+    "expectedLang": "en"
+  },
+  {
+    "brokenVisibleImages": 0,
+    "h1": "رشاشات بمعامل ⁦K⁩ كبير ورشاشات ⁦ESFR⁩",
+    "lang": "ar",
+    "path": "/ar/products/large-k-factor-esfr-sprinklers/index.html",
+    "placeholderSpecs": 0,
+    "scrollWidth": 375,
+    "width": 390,
+    "id": "product:large-k-factor-esfr-sprinklers",
+    "expectedLang": "ar"
+  },
+  {
+    "brokenVisibleImages": 0,
+    "h1": "RIA 25 Fire Hose Reel",
+    "lang": "en",
+    "path": "/products/%E8%BD%AF%E7%AE%A1%E5%8D%B7%E7%9B%98/ria25-fire-hose-reel.html",
+    "placeholderSpecs": 0,
+    "scrollWidth": 375,
+    "width": 390,
+    "id": "product:ria25-fire-hose-reel",
+    "expectedLang": "en"
+  },
+  {
+    "brokenVisibleImages": 0,
+    "h1": "بكرة خرطوم الحريق ⁦RIA 25⁩",
+    "lang": "ar",
+    "path": "/ar/products/ria25-fire-hose-reel/index.html",
+    "placeholderSpecs": 0,
+    "scrollWidth": 375,
+    "width": 390,
+    "id": "product:ria25-fire-hose-reel",
+    "expectedLang": "ar"
+  },
+  {
+    "brokenVisibleImages": 0,
+    "h1": "Straight-Stream Fire Hose Reel",
+    "lang": "en",
+    "path": "/products/%E8%BD%AF%E7%AE%A1%E5%8D%B7%E7%9B%98/straight-stream-fire-hose-reel.html",
+    "placeholderSpecs": 0,
+    "scrollWidth": 375,
+    "width": 390,
+    "id": "product:straight-stream-fire-hose-reel",
+    "expectedLang": "en"
+  },
+  {
+    "brokenVisibleImages": 0,
+    "h1": "بكرة خرطوم حريق بنفث مستقيم",
+    "lang": "ar",
+    "path": "/ar/products/straight-stream-fire-hose-reel/index.html",
+    "placeholderSpecs": 0,
+    "scrollWidth": 375,
+    "width": 390,
+    "id": "product:straight-stream-fire-hose-reel",
+    "expectedLang": "ar"
+  },
+  {
+    "brokenVisibleImages": 0,
+    "h1": "Jet / Spray Fire Hose Reel",
+    "lang": "en",
+    "path": "/products/%E8%BD%AF%E7%AE%A1%E5%8D%B7%E7%9B%98/jet-spray-fire-hose-reel.html",
+    "placeholderSpecs": 0,
+    "scrollWidth": 375,
+    "width": 390,
+    "id": "product:jet-spray-fire-hose-reel",
+    "expectedLang": "en"
+  },
+  {
+    "brokenVisibleImages": 0,
+    "h1": "بكرة خرطوم حريق بنفث / رش",
+    "lang": "ar",
+    "path": "/ar/products/jet-spray-fire-hose-reel/index.html",
+    "placeholderSpecs": 0,
+    "scrollWidth": 375,
+    "width": 390,
+    "id": "product:jet-spray-fire-hose-reel",
+    "expectedLang": "ar"
+  },
+  {
+    "brokenVisibleImages": 0,
+    "h1": "Heavy-Duty Fire Hose Reel",
+    "lang": "en",
+    "path": "/products/%E8%BD%AF%E7%AE%A1%E5%8D%B7%E7%9B%98/heavy-duty-fire-hose-reel.html",
+    "placeholderSpecs": 0,
+    "scrollWidth": 375,
+    "width": 390,
+    "id": "product:heavy-duty-fire-hose-reel",
+    "expectedLang": "en"
+  },
+  {
+    "brokenVisibleImages": 0,
+    "h1": "بكرة خرطوم حريق للخدمة الشاقة",
+    "lang": "ar",
+    "path": "/ar/products/heavy-duty-fire-hose-reel/index.html",
+    "placeholderSpecs": 0,
+    "scrollWidth": 375,
+    "width": 390,
+    "id": "product:heavy-duty-fire-hose-reel",
+    "expectedLang": "ar"
+  },
+  {
+    "brokenVisibleImages": 0,
+    "h1": "Lever-Operated Grooved Butterfly Valve",
+    "lang": "en",
+    "path": "/products/%E6%B6%88%E9%98%B2%E8%9D%B6%E9%98%80/lever-operated-grooved-butterfly-valves.html",
+    "placeholderSpecs": 0,
+    "scrollWidth": 375,
+    "width": 390,
+    "id": "product:lever-operated-grooved-butterfly-valves",
+    "expectedLang": "en"
+  },
+  {
+    "brokenVisibleImages": 0,
+    "h1": "صمام فراشة محزز يعمل بذراع",
+    "lang": "ar",
+    "path": "/ar/products/lever-operated-grooved-butterfly-valves/index.html",
+    "placeholderSpecs": 0,
+    "scrollWidth": 375,
+    "width": 390,
+    "id": "product:lever-operated-grooved-butterfly-valves",
+    "expectedLang": "ar"
+  },
+  {
+    "brokenVisibleImages": 0,
+    "h1": "Lever-Operated Wafer Butterfly Valve",
+    "lang": "en",
+    "path": "/products/%E6%B6%88%E9%98%B2%E8%9D%B6%E9%98%80/lever-operated-wafer-butterfly-valves.html",
+    "placeholderSpecs": 0,
+    "scrollWidth": 375,
+    "width": 390,
+    "id": "product:lever-operated-wafer-butterfly-valves",
+    "expectedLang": "en"
+  },
+  {
+    "brokenVisibleImages": 0,
+    "h1": "صمام فراشة من نوع ويفر يعمل بذراع",
+    "lang": "ar",
+    "path": "/ar/products/lever-operated-wafer-butterfly-valves/index.html",
+    "placeholderSpecs": 0,
+    "scrollWidth": 375,
+    "width": 390,
+    "id": "product:lever-operated-wafer-butterfly-valves",
+    "expectedLang": "ar"
+  },
+  {
+    "brokenVisibleImages": 0,
+    "h1": "Grooved Supervisory Butterfly Valve",
+    "lang": "en",
+    "path": "/products/%E6%B6%88%E9%98%B2%E8%9D%B6%E9%98%80/grooved-supervisory-butterfly-valves.html",
+    "placeholderSpecs": 0,
+    "scrollWidth": 375,
+    "width": 390,
+    "id": "product:grooved-supervisory-butterfly-valves",
+    "expectedLang": "en"
+  },
+  {
+    "brokenVisibleImages": 0,
+    "h1": "صمام فراشة إشرافي مخدد",
+    "lang": "ar",
+    "path": "/ar/products/grooved-supervisory-butterfly-valves/index.html",
+    "placeholderSpecs": 0,
+    "scrollWidth": 375,
+    "width": 390,
+    "id": "product:grooved-supervisory-butterfly-valves",
+    "expectedLang": "ar"
+  },
+  {
+    "brokenVisibleImages": 0,
+    "h1": "Wafer Supervisory Butterfly Valve",
+    "lang": "en",
+    "path": "/products/%E6%B6%88%E9%98%B2%E8%9D%B6%E9%98%80/wafer-supervisory-butterfly-valves.html",
+    "placeholderSpecs": 0,
+    "scrollWidth": 375,
+    "width": 390,
+    "id": "product:wafer-supervisory-butterfly-valves",
+    "expectedLang": "en"
+  },
+  {
+    "brokenVisibleImages": 0,
+    "h1": "صمام فراشة إشرافي من نوع ويفر",
+    "lang": "ar",
+    "path": "/ar/products/wafer-supervisory-butterfly-valves/index.html",
+    "placeholderSpecs": 0,
+    "scrollWidth": 375,
+    "width": 390,
+    "id": "product:wafer-supervisory-butterfly-valves",
+    "expectedLang": "ar"
+  },
+  {
+    "brokenVisibleImages": 0,
+    "h1": "Flanged Supervisory Gate Valve",
+    "lang": "en",
+    "path": "/products/%E6%B6%88%E9%98%B2%E9%98%80%E9%97%A8/flanged-supervisory-gate-valves.html",
+    "placeholderSpecs": 0,
+    "scrollWidth": 375,
+    "width": 390,
+    "id": "product:flanged-supervisory-gate-valves",
+    "expectedLang": "en"
+  },
+  {
+    "brokenVisibleImages": 0,
+    "h1": "صمام بوابة إشرافي بفلنجات",
+    "lang": "ar",
+    "path": "/ar/products/flanged-supervisory-gate-valves/index.html",
+    "placeholderSpecs": 0,
+    "scrollWidth": 375,
+    "width": 390,
+    "id": "product:flanged-supervisory-gate-valves",
+    "expectedLang": "ar"
+  },
+  {
+    "brokenVisibleImages": 0,
+    "h1": "Grooved Supervisory Gate Valve",
+    "lang": "en",
+    "path": "/products/%E6%B6%88%E9%98%B2%E9%98%80%E9%97%A8/grooved-supervisory-gate-valves.html",
+    "placeholderSpecs": 0,
+    "scrollWidth": 375,
+    "width": 390,
+    "id": "product:grooved-supervisory-gate-valves",
+    "expectedLang": "en"
+  },
+  {
+    "brokenVisibleImages": 0,
+    "h1": "صمام بوابة إشرافي مخدد",
+    "lang": "ar",
+    "path": "/ar/products/grooved-supervisory-gate-valves/index.html",
+    "placeholderSpecs": 0,
+    "scrollWidth": 375,
+    "width": 390,
+    "id": "product:grooved-supervisory-gate-valves",
+    "expectedLang": "ar"
+  },
+  {
+    "brokenVisibleImages": 0,
+    "h1": "NRS Gate Valve",
+    "lang": "en",
+    "path": "/products/%E6%B6%88%E9%98%B2%E9%98%80%E9%97%A8/nrs-gate-valves.html",
+    "placeholderSpecs": 0,
+    "scrollWidth": 375,
+    "width": 390,
+    "id": "product:nrs-gate-valves",
+    "expectedLang": "en"
+  },
+  {
+    "brokenVisibleImages": 0,
+    "h1": "صمام بوابة بساق غير صاعد",
+    "lang": "ar",
+    "path": "/ar/products/nrs-gate-valves/index.html",
+    "placeholderSpecs": 0,
+    "scrollWidth": 375,
+    "width": 390,
+    "id": "product:nrs-gate-valves",
+    "expectedLang": "ar"
+  },
+  {
+    "brokenVisibleImages": 0,
+    "h1": "OS&Y Gate Valve",
+    "lang": "en",
+    "path": "/products/%E6%B6%88%E9%98%B2%E9%98%80%E9%97%A8/osy-gate-valves.html",
+    "placeholderSpecs": 0,
+    "scrollWidth": 375,
+    "width": 390,
+    "id": "product:osy-gate-valves",
+    "expectedLang": "en"
+  },
+  {
+    "brokenVisibleImages": 0,
+    "h1": "صمام بوابة ⁦OS⁩&⁦Y⁩",
+    "lang": "ar",
+    "path": "/ar/products/osy-gate-valves/index.html",
+    "placeholderSpecs": 0,
+    "scrollWidth": 375,
+    "width": 390,
+    "id": "product:osy-gate-valves",
+    "expectedLang": "ar"
+  },
+  {
+    "brokenVisibleImages": 0,
+    "h1": "Standard Indoor Fire Hydrant",
+    "lang": "en",
+    "path": "/products/%E5%AE%A4%E5%86%85%E6%B6%88%E9%98%B2%E6%A0%93/standard-indoor-hydrant.html",
+    "placeholderSpecs": 0,
+    "scrollWidth": 375,
+    "width": 390,
+    "id": "product:standard-indoor-hydrant",
+    "expectedLang": "en"
+  },
+  {
+    "brokenVisibleImages": 0,
+    "h1": "حنفية حريق داخلية قياسية",
+    "lang": "ar",
+    "path": "/ar/products/standard-indoor-hydrant/index.html",
+    "placeholderSpecs": 0,
+    "scrollWidth": 375,
+    "width": 390,
+    "id": "product:standard-indoor-hydrant",
+    "expectedLang": "ar"
+  },
+  {
+    "brokenVisibleImages": 0,
+    "h1": "Export Slanted Single-Outlet Hydrant Valve",
+    "lang": "en",
+    "path": "/products/%E5%AE%A4%E5%86%85%E6%B6%88%E9%98%B2%E6%A0%93/export-slanted-hydrant-valve.html",
+    "placeholderSpecs": 0,
+    "scrollWidth": 375,
+    "width": 390,
+    "id": "product:export-slanted-hydrant-valve",
+    "expectedLang": "en"
+  },
+  {
+    "brokenVisibleImages": 0,
+    "h1": "صمام حنفية حريق مائل بمخرج واحد للتصدير",
+    "lang": "ar",
+    "path": "/ar/products/export-slanted-hydrant-valve/index.html",
+    "placeholderSpecs": 0,
+    "scrollWidth": 375,
+    "width": 390,
+    "id": "product:export-slanted-hydrant-valve",
+    "expectedLang": "ar"
+  },
+  {
+    "brokenVisibleImages": 0,
+    "h1": "Double-Outlet Indoor Fire Hydrant",
+    "lang": "en",
+    "path": "/products/%E5%AE%A4%E5%86%85%E6%B6%88%E9%98%B2%E6%A0%93/double-outlet-hydrant.html",
+    "placeholderSpecs": 0,
+    "scrollWidth": 375,
+    "width": 390,
+    "id": "product:double-outlet-hydrant",
+    "expectedLang": "en"
+  },
+  {
+    "brokenVisibleImages": 0,
+    "h1": "حنفية حريق داخلية مزدوجة المخرج",
+    "lang": "ar",
+    "path": "/ar/products/double-outlet-hydrant/index.html",
+    "placeholderSpecs": 0,
+    "scrollWidth": 375,
+    "width": 390,
+    "id": "product:double-outlet-hydrant",
+    "expectedLang": "ar"
+  },
+  {
+    "brokenVisibleImages": 0,
+    "h1": "Rotating & Pressure-Regulating Indoor Fire Hydrant",
+    "lang": "en",
+    "path": "/products/%E5%AE%A4%E5%86%85%E6%B6%88%E9%98%B2%E6%A0%93/rotating-pressure-regulating-hydrant.html",
+    "placeholderSpecs": 0,
+    "scrollWidth": 375,
+    "width": 390,
+    "id": "product:rotating-pressure-regulating-hydrant",
+    "expectedLang": "en"
+  },
+  {
+    "brokenVisibleImages": 0,
+    "h1": "حنفية حريق داخلية دوارة ومنظمة للضغط",
+    "lang": "ar",
+    "path": "/ar/products/rotating-pressure-regulating-hydrant/index.html",
+    "placeholderSpecs": 0,
+    "scrollWidth": 375,
+    "width": 390,
+    "id": "product:rotating-pressure-regulating-hydrant",
+    "expectedLang": "ar"
+  },
+  {
+    "brokenVisibleImages": 0,
+    "h1": "Straight-Through and Oblique Landing Valves",
+    "lang": "en",
+    "path": "/products/%E5%AE%A4%E5%86%85%E6%B6%88%E9%98%B2%E6%A0%93/straight-through-oblique-landing-valves.html",
+    "placeholderSpecs": 0,
+    "scrollWidth": 375,
+    "width": 390,
+    "id": "product:straight-through-oblique-landing-valves",
+    "expectedLang": "en"
+  },
+  {
+    "brokenVisibleImages": 0,
+    "h1": "صمامات هبوط مستقيمة ومائلة",
+    "lang": "ar",
+    "path": "/ar/products/straight-through-oblique-landing-valves/index.html",
+    "placeholderSpecs": 0,
+    "scrollWidth": 375,
+    "width": 390,
+    "id": "product:straight-through-oblique-landing-valves",
+    "expectedLang": "ar"
+  },
+  {
+    "brokenVisibleImages": 0,
+    "h1": "Horizontal-Handwheel Landing Valves",
+    "lang": "en",
+    "path": "/products/%E5%AE%A4%E5%86%85%E6%B6%88%E9%98%B2%E6%A0%93/horizontal-handwheel-landing-valves.html",
+    "placeholderSpecs": 0,
+    "scrollWidth": 375,
+    "width": 390,
+    "id": "product:horizontal-handwheel-landing-valves",
+    "expectedLang": "en"
+  },
+  {
+    "brokenVisibleImages": 0,
+    "h1": "صمامات هبوط بعجلة تشغيل أفقية",
+    "lang": "ar",
+    "path": "/ar/products/horizontal-handwheel-landing-valves/index.html",
+    "placeholderSpecs": 0,
+    "scrollWidth": 375,
+    "width": 390,
+    "id": "product:horizontal-handwheel-landing-valves",
+    "expectedLang": "ar"
+  },
+  {
+    "brokenVisibleImages": 0,
+    "h1": "British-Type Pillar Fire Hydrant (BS-750)",
+    "lang": "en",
+    "path": "/products/%E5%AE%A4%E5%A4%96%E6%B6%88%E9%98%B2%E6%A0%93/bs750-pillar-hydrant.html",
+    "placeholderSpecs": 0,
+    "scrollWidth": 375,
+    "width": 390,
+    "id": "product:bs750-pillar-hydrant",
+    "expectedLang": "en"
+  },
+  {
+    "brokenVisibleImages": 0,
+    "h1": "صنبور حريق عمودي بالنمط البريطاني (⁦BS-750)⁩",
+    "lang": "ar",
+    "path": "/ar/products/bs750-pillar-hydrant/index.html",
+    "placeholderSpecs": 0,
+    "scrollWidth": 375,
+    "width": 390,
+    "id": "product:bs750-pillar-hydrant",
+    "expectedLang": "ar"
+  },
+  {
+    "brokenVisibleImages": 0,
+    "h1": "French-Pattern Dry-Barrel Hydrant",
+    "lang": "en",
+    "path": "/products/%E5%AE%A4%E5%A4%96%E6%B6%88%E9%98%B2%E6%A0%93/french-pattern-hydrant.html",
+    "placeholderSpecs": 0,
+    "scrollWidth": 375,
+    "width": 390,
+    "id": "product:french-pattern-hydrant",
+    "expectedLang": "en"
+  },
+  {
+    "brokenVisibleImages": 0,
+    "h1": "صنبور حريق بأسطوانة جافة بالنمط الفرنسي",
+    "lang": "ar",
+    "path": "/ar/products/french-pattern-hydrant/index.html",
+    "placeholderSpecs": 0,
+    "scrollWidth": 375,
+    "width": 390,
+    "id": "product:french-pattern-hydrant",
+    "expectedLang": "ar"
+  },
+  {
+    "brokenVisibleImages": 0,
+    "h1": "Indonesian-Pattern Wet-Barrel Hydrant",
+    "lang": "en",
+    "path": "/products/%E5%AE%A4%E5%A4%96%E6%B6%88%E9%98%B2%E6%A0%93/indonesian-pattern-hydrant.html",
+    "placeholderSpecs": 0,
+    "scrollWidth": 375,
+    "width": 390,
+    "id": "product:indonesian-pattern-hydrant",
+    "expectedLang": "en"
+  },
+  {
+    "brokenVisibleImages": 0,
+    "h1": "صنبور حريق بأسطوانة رطبة بالنمط الإندونيسي",
+    "lang": "ar",
+    "path": "/ar/products/indonesian-pattern-hydrant/index.html",
+    "placeholderSpecs": 0,
+    "scrollWidth": 375,
+    "width": 390,
+    "id": "product:indonesian-pattern-hydrant",
+    "expectedLang": "ar"
+  },
+  {
+    "brokenVisibleImages": 0,
+    "h1": "Russian-Pattern Above-Ground Hydrant",
+    "lang": "en",
+    "path": "/products/%E5%AE%A4%E5%A4%96%E6%B6%88%E9%98%B2%E6%A0%93/russian-pattern-hydrant.html",
+    "placeholderSpecs": 0,
+    "scrollWidth": 375,
+    "width": 390,
+    "id": "product:russian-pattern-hydrant",
+    "expectedLang": "en"
+  },
+  {
+    "brokenVisibleImages": 0,
+    "h1": "صنبور حريق فوق سطح الأرض بالنمط الروسي",
+    "lang": "ar",
+    "path": "/ar/products/russian-pattern-hydrant/index.html",
+    "placeholderSpecs": 0,
+    "scrollWidth": 375,
+    "width": 390,
+    "id": "product:russian-pattern-hydrant",
+    "expectedLang": "ar"
+  },
+  {
+    "brokenVisibleImages": 0,
+    "h1": "Lever-Operated Fire Hose Nozzles",
+    "lang": "en",
+    "path": "/products/%E6%B6%88%E9%98%B2%E6%B0%B4%E6%9E%AA/lever-operated-fire-hose-nozzles.html",
+    "placeholderSpecs": 0,
+    "scrollWidth": 375,
+    "width": 390,
+    "id": "product:lever-operated-fire-hose-nozzles",
+    "expectedLang": "en"
+  },
+  {
+    "brokenVisibleImages": 0,
+    "h1": "فوهات خراطيم حريق تعمل بذراع",
+    "lang": "ar",
+    "path": "/ar/products/lever-operated-fire-hose-nozzles/index.html",
+    "placeholderSpecs": 0,
+    "scrollWidth": 375,
+    "width": 390,
+    "id": "product:lever-operated-fire-hose-nozzles",
+    "expectedLang": "ar"
+  },
+  {
+    "brokenVisibleImages": 0,
+    "h1": "Straight-Stream Fire Hose Nozzles",
+    "lang": "en",
+    "path": "/products/%E6%B6%88%E9%98%B2%E6%B0%B4%E6%9E%AA/straight-stream-fire-hose-nozzles.html",
+    "placeholderSpecs": 0,
+    "scrollWidth": 375,
+    "width": 390,
+    "id": "product:straight-stream-fire-hose-nozzles",
+    "expectedLang": "en"
+  },
+  {
+    "brokenVisibleImages": 0,
+    "h1": "فوهات خراطيم حريق ذات نفث مستقيم",
+    "lang": "ar",
+    "path": "/ar/products/straight-stream-fire-hose-nozzles/index.html",
+    "placeholderSpecs": 0,
+    "scrollWidth": 375,
+    "width": 390,
+    "id": "product:straight-stream-fire-hose-nozzles",
+    "expectedLang": "ar"
+  },
+  {
+    "brokenVisibleImages": 0,
+    "h1": "Combination Jet/Fog Nozzles",
+    "lang": "en",
+    "path": "/products/%E6%B6%88%E9%98%B2%E6%B0%B4%E6%9E%AA/combination-jet-fog-nozzles.html",
+    "placeholderSpecs": 0,
+    "scrollWidth": 375,
+    "width": 390,
+    "id": "product:combination-jet-fog-nozzles",
+    "expectedLang": "en"
+  },
+  {
+    "brokenVisibleImages": 0,
+    "h1": "فوهات نفاثة/ضبابية مركبة",
+    "lang": "ar",
+    "path": "/ar/products/combination-jet-fog-nozzles/index.html",
+    "placeholderSpecs": 0,
+    "scrollWidth": 375,
+    "width": 390,
+    "id": "product:combination-jet-fog-nozzles",
+    "expectedLang": "ar"
+  },
+  {
+    "brokenVisibleImages": 0,
+    "h1": "KD Hose Couplings",
+    "lang": "en",
+    "path": "/products/%E6%B6%88%E9%98%B2%E6%B0%B4%E6%9E%AA/kd-hose-couplings.html",
+    "placeholderSpecs": 0,
+    "scrollWidth": 375,
+    "width": 390,
+    "id": "product:kd-hose-couplings",
+    "expectedLang": "en"
+  },
+  {
+    "brokenVisibleImages": 0,
+    "h1": "وصلات خراطيم KD",
+    "lang": "ar",
+    "path": "/ar/products/kd-hose-couplings/index.html",
+    "placeholderSpecs": 0,
+    "scrollWidth": 375,
+    "width": 390,
+    "id": "product:kd-hose-couplings",
+    "expectedLang": "ar"
+  },
+  {
+    "brokenVisibleImages": 0,
+    "h1": "KN Threaded Adapters",
+    "lang": "en",
+    "path": "/products/%E6%B6%88%E9%98%B2%E6%B0%B4%E6%9E%AA/kn-threaded-adapters.html",
+    "placeholderSpecs": 0,
+    "scrollWidth": 375,
+    "width": 390,
+    "id": "product:kn-threaded-adapters",
+    "expectedLang": "en"
+  },
+  {
+    "brokenVisibleImages": 0,
+    "h1": "محولات لولبية KN",
+    "lang": "ar",
+    "path": "/ar/products/kn-threaded-adapters/index.html",
+    "placeholderSpecs": 0,
+    "scrollWidth": 375,
+    "width": 390,
+    "id": "product:kn-threaded-adapters",
+    "expectedLang": "ar"
+  },
+  {
+    "brokenVisibleImages": 0,
+    "h1": "Russian-Pattern Fire Department Connection",
+    "lang": "en",
+    "path": "/products/%E6%B6%88%E9%98%B2%E6%B0%B4%E6%B3%B5%E6%8E%A5%E5%90%88%E5%99%A8/russian-pattern-fire-department-connection.html",
+    "placeholderSpecs": 0,
+    "scrollWidth": 375,
+    "width": 390,
+    "id": "product:russian-pattern-fire-department-connection",
+    "expectedLang": "en"
+  },
+  {
+    "brokenVisibleImages": 0,
+    "h1": "وصلة تغذية حريق بالنمط الروسي",
+    "lang": "ar",
+    "path": "/ar/products/russian-pattern-fire-department-connection/index.html",
+    "placeholderSpecs": 0,
+    "scrollWidth": 375,
+    "width": 390,
+    "id": "product:russian-pattern-fire-department-connection",
+    "expectedLang": "ar"
+  },
+  {
+    "brokenVisibleImages": 0,
+    "h1": "Fire Equipment Cabinets",
+    "lang": "en",
+    "path": "/products/%E6%B6%88%E9%98%B2%E5%99%A8%E6%9D%90%E7%AE%B1/fire-equipment-cabinets.html",
+    "placeholderSpecs": 0,
+    "scrollWidth": 375,
+    "width": 390,
+    "id": "product:fire-equipment-cabinets",
+    "expectedLang": "en"
+  },
+  {
+    "brokenVisibleImages": 0,
+    "h1": "خزائن معدات مكافحة الحريق",
+    "lang": "ar",
+    "path": "/ar/products/fire-equipment-cabinet-series/index.html",
+    "placeholderSpecs": 0,
+    "scrollWidth": 375,
+    "width": 390,
+    "id": "product:fire-equipment-cabinets",
+    "expectedLang": "ar"
+  },
+  {
+    "brokenVisibleImages": 0,
+    "h1": "Compact Brass-Finish Fire Hose Valves",
+    "lang": "en",
+    "path": "/products/%E5%AE%A4%E5%86%85%E6%B6%88%E9%98%B2%E6%A0%93/catalog-brass-finish-hose-valves-page-07.html",
+    "placeholderSpecs": 0,
+    "scrollWidth": 375,
+    "width": 390,
+    "id": "product:catalog-brass-finish-hose-valves-page-07",
+    "expectedLang": "en"
+  },
+  {
+    "brokenVisibleImages": 0,
+    "h1": "صمامات خراطيم حريق مدمجة بتشطيب نحاسي",
+    "lang": "ar",
+    "path": "/ar/products/catalog-brass-finish-hose-valves-page-07/index.html",
+    "placeholderSpecs": 0,
+    "scrollWidth": 375,
+    "width": 390,
+    "id": "product:catalog-brass-finish-hose-valves-page-07",
+    "expectedLang": "ar"
+  },
+  {
+    "brokenVisibleImages": 0,
+    "h1": "Brass-Finish Fire Hose Valve Configurations",
+    "lang": "en",
+    "path": "/products/%E5%AE%A4%E5%86%85%E6%B6%88%E9%98%B2%E6%A0%93/catalog-brass-finish-hose-valves-page-08.html",
+    "placeholderSpecs": 0,
+    "scrollWidth": 375,
+    "width": 390,
+    "id": "product:catalog-brass-finish-hose-valves-page-08",
+    "expectedLang": "en"
+  },
+  {
+    "brokenVisibleImages": 0,
+    "h1": "تكوينات صمامات خراطيم حريق بتشطيب نحاسي",
+    "lang": "ar",
+    "path": "/ar/products/catalog-brass-finish-hose-valves-page-08/index.html",
+    "placeholderSpecs": 0,
+    "scrollWidth": 375,
+    "width": 390,
+    "id": "product:catalog-brass-finish-hose-valves-page-08",
+    "expectedLang": "ar"
+  },
+  {
+    "brokenVisibleImages": 0,
+    "h1": "Brass- and Silver-Finish Fire Hose Valves",
+    "lang": "en",
+    "path": "/products/%E5%AE%A4%E5%86%85%E6%B6%88%E9%98%B2%E6%A0%93/catalog-hose-valves-page-09.html",
+    "placeholderSpecs": 0,
+    "scrollWidth": 375,
+    "width": 390,
+    "id": "product:catalog-hose-valves-page-09",
+    "expectedLang": "en"
+  },
+  {
+    "brokenVisibleImages": 0,
+    "h1": "صمامات خراطيم حريق بتشطيب نحاسي أو فضي",
+    "lang": "ar",
+    "path": "/ar/products/catalog-hose-valves-page-09/index.html",
+    "placeholderSpecs": 0,
+    "scrollWidth": 375,
+    "width": 390,
+    "id": "product:catalog-hose-valves-page-09",
+    "expectedLang": "ar"
+  },
+  {
+    "brokenVisibleImages": 0,
+    "h1": "Regional-Connection Fire Hose Valves",
+    "lang": "en",
+    "path": "/products/%E5%AE%A4%E5%86%85%E6%B6%88%E9%98%B2%E6%A0%93/catalog-hose-valves-page-10.html",
+    "placeholderSpecs": 0,
+    "scrollWidth": 375,
+    "width": 390,
+    "id": "product:catalog-hose-valves-page-10",
+    "expectedLang": "en"
+  },
+  {
+    "brokenVisibleImages": 0,
+    "h1": "صمامات خراطيم حريق بتوصيلات إقليمية",
+    "lang": "ar",
+    "path": "/ar/products/catalog-hose-valves-page-10/index.html",
+    "placeholderSpecs": 0,
+    "scrollWidth": 375,
+    "width": 390,
+    "id": "product:catalog-hose-valves-page-10",
+    "expectedLang": "ar"
+  },
+  {
+    "brokenVisibleImages": 0,
+    "h1": "Flanged and Regional-Connection Fire Hose Valves",
+    "lang": "en",
+    "path": "/products/%E5%AE%A4%E5%86%85%E6%B6%88%E9%98%B2%E6%A0%93/catalog-hose-valves-page-11.html",
+    "placeholderSpecs": 0,
+    "scrollWidth": 375,
+    "width": 390,
+    "id": "product:catalog-hose-valves-page-11",
+    "expectedLang": "en"
+  },
+  {
+    "brokenVisibleImages": 0,
+    "h1": "صمامات خراطيم حريق فلنجية وبتوصيلات إقليمية",
+    "lang": "ar",
+    "path": "/ar/products/catalog-hose-valves-page-11/index.html",
+    "placeholderSpecs": 0,
+    "scrollWidth": 375,
+    "width": 390,
+    "id": "product:catalog-hose-valves-page-11",
+    "expectedLang": "ar"
+  },
+  {
+    "brokenVisibleImages": 0,
+    "h1": "French-, NH- and Threaded-Connection Fire Hose Valves",
+    "lang": "en",
+    "path": "/products/%E5%AE%A4%E5%86%85%E6%B6%88%E9%98%B2%E6%A0%93/catalog-hose-valves-page-12.html",
+    "placeholderSpecs": 0,
+    "scrollWidth": 375,
+    "width": 390,
+    "id": "product:catalog-hose-valves-page-12",
+    "expectedLang": "en"
+  },
+  {
+    "brokenVisibleImages": 0,
+    "h1": "صمامات خراطيم حريق بتوصيلات فرنسية وNH ولولبية",
+    "lang": "ar",
+    "path": "/ar/products/catalog-hose-valves-page-12/index.html",
+    "placeholderSpecs": 0,
+    "scrollWidth": 375,
+    "width": 390,
+    "id": "product:catalog-hose-valves-page-12",
+    "expectedLang": "ar"
+  },
+  {
+    "brokenVisibleImages": 0,
+    "h1": "Twin-Outlet Fire Service Connection Bodies",
+    "lang": "en",
+    "path": "/products/%E6%B6%88%E9%98%B2%E6%B0%B4%E6%B3%B5%E6%8E%A5%E5%90%88%E5%99%A8/catalog-twin-outlet-fire-connections-page-13.html",
+    "placeholderSpecs": 0,
+    "scrollWidth": 375,
+    "width": 390,
+    "id": "product:catalog-twin-outlet-fire-connections-page-13",
+    "expectedLang": "en"
+  },
+  {
+    "brokenVisibleImages": 0,
+    "h1": "أجسام وصلات خدمة الحريق ثنائية المخرج",
+    "lang": "ar",
+    "path": "/ar/products/catalog-twin-outlet-fire-connections-page-13/index.html",
+    "placeholderSpecs": 0,
+    "scrollWidth": 375,
+    "width": 390,
+    "id": "product:catalog-twin-outlet-fire-connections-page-13",
+    "expectedLang": "ar"
+  },
+  {
+    "brokenVisibleImages": 0,
+    "h1": "Hydrant Valves and Auxiliary Valves",
+    "lang": "en",
+    "path": "/products/%E5%AE%A4%E5%86%85%E6%B6%88%E9%98%B2%E6%A0%93/catalog-hydrant-auxiliary-valves-page-14.html",
+    "placeholderSpecs": 0,
+    "scrollWidth": 375,
+    "width": 390,
+    "id": "product:catalog-hydrant-auxiliary-valves-page-14",
+    "expectedLang": "en"
+  },
+  {
+    "brokenVisibleImages": 0,
+    "h1": "صمامات محابس الحريق والصمامات المساعدة",
+    "lang": "ar",
+    "path": "/ar/products/catalog-hydrant-auxiliary-valves-page-14/index.html",
+    "placeholderSpecs": 0,
+    "scrollWidth": 375,
+    "width": 390,
+    "id": "product:catalog-hydrant-auxiliary-valves-page-14",
+    "expectedLang": "ar"
+  },
+  {
+    "brokenVisibleImages": 0,
+    "h1": "Fire Service Connections and Two-Way Distributors",
+    "lang": "en",
+    "path": "/products/%E6%B6%88%E9%98%B2%E6%B0%B4%E6%B3%B5%E6%8E%A5%E5%90%88%E5%99%A8/catalog-fire-connections-distributors-page-15.html",
+    "placeholderSpecs": 0,
+    "scrollWidth": 375,
+    "width": 390,
+    "id": "product:catalog-fire-connections-distributors-page-15",
+    "expectedLang": "en"
+  },
+  {
+    "brokenVisibleImages": 0,
+    "h1": "وصلات خدمة الحريق وموزعات ثنائية الاتجاه",
+    "lang": "ar",
+    "path": "/ar/products/catalog-fire-connections-distributors-page-15/index.html",
+    "placeholderSpecs": 0,
+    "scrollWidth": 375,
+    "width": 390,
+    "id": "product:catalog-fire-connections-distributors-page-15",
+    "expectedLang": "ar"
+  },
+  {
+    "brokenVisibleImages": 0,
+    "h1": "Long Straight-Stream Fire Hose Nozzles",
+    "lang": "en",
+    "path": "/products/%E6%B6%88%E9%98%B2%E6%B0%B4%E6%9E%AA/catalog-long-straight-stream-nozzles-page-16.html",
+    "placeholderSpecs": 0,
+    "scrollWidth": 375,
+    "width": 390,
+    "id": "product:catalog-long-straight-stream-nozzles-page-16",
+    "expectedLang": "en"
+  },
+  {
+    "brokenVisibleImages": 0,
+    "h1": "فوهات خراطيم حريق طويلة ذات نفث مستقيم",
+    "lang": "ar",
+    "path": "/ar/products/catalog-long-straight-stream-nozzles-page-16/index.html",
+    "placeholderSpecs": 0,
+    "scrollWidth": 375,
+    "width": 390,
+    "id": "product:catalog-long-straight-stream-nozzles-page-16",
+    "expectedLang": "ar"
+  },
+  {
+    "brokenVisibleImages": 0,
+    "h1": "Compact Straight-Stream Fire Hose Nozzles",
+    "lang": "en",
+    "path": "/products/%E6%B6%88%E9%98%B2%E6%B0%B4%E6%9E%AA/catalog-compact-straight-stream-nozzles-page-17.html",
+    "placeholderSpecs": 0,
+    "scrollWidth": 375,
+    "width": 390,
+    "id": "product:catalog-compact-straight-stream-nozzles-page-17",
+    "expectedLang": "en"
+  },
+  {
+    "brokenVisibleImages": 0,
+    "h1": "فوهات خراطيم حريق مدمجة ذات نفث مستقيم",
+    "lang": "ar",
+    "path": "/ar/products/catalog-compact-straight-stream-nozzles-page-17/index.html",
+    "placeholderSpecs": 0,
+    "scrollWidth": 375,
+    "width": 390,
+    "id": "product:catalog-compact-straight-stream-nozzles-page-17",
+    "expectedLang": "ar"
+  },
+  {
+    "brokenVisibleImages": 0,
+    "h1": "Coupled and Lever-Operated Fire Hose Nozzles",
+    "lang": "en",
+    "path": "/products/%E6%B6%88%E9%98%B2%E6%B0%B4%E6%9E%AA/catalog-coupled-lever-nozzles-page-18.html",
+    "placeholderSpecs": 0,
+    "scrollWidth": 375,
+    "width": 390,
+    "id": "product:catalog-coupled-lever-nozzles-page-18",
+    "expectedLang": "en"
+  },
+  {
+    "brokenVisibleImages": 0,
+    "h1": "فوهات خراطيم حريق مزودة بوصلات أو أذرع تشغيل",
+    "lang": "ar",
+    "path": "/ar/products/catalog-coupled-lever-nozzles-page-18/index.html",
+    "placeholderSpecs": 0,
+    "scrollWidth": 375,
+    "width": 390,
+    "id": "product:catalog-coupled-lever-nozzles-page-18",
+    "expectedLang": "ar"
+  },
+  {
+    "brokenVisibleImages": 0,
+    "h1": "Nozzles, Foam Inductors and Fire Service Connections",
+    "lang": "en",
+    "path": "/products/%E6%B6%88%E9%98%B2%E6%B0%B4%E6%9E%AA/catalog-nozzles-inductors-connections-page-19.html",
+    "placeholderSpecs": 0,
+    "scrollWidth": 375,
+    "width": 390,
+    "id": "product:catalog-nozzles-inductors-connections-page-19",
+    "expectedLang": "en"
+  },
+  {
+    "brokenVisibleImages": 0,
+    "h1": "فوهات ومحاثات رغوة ووصلات خدمة الحريق",
+    "lang": "ar",
+    "path": "/ar/products/catalog-nozzles-inductors-connections-page-19/index.html",
+    "placeholderSpecs": 0,
+    "scrollWidth": 375,
+    "width": 390,
+    "id": "product:catalog-nozzles-inductors-connections-page-19",
+    "expectedLang": "ar"
+  },
+  {
+    "brokenVisibleImages": 0,
+    "h1": "Fire Hose Couplings — NH, GOST, UNI and BS 336",
+    "lang": "en",
+    "path": "/products/%E6%B6%88%E9%98%B2%E6%B0%B4%E6%9E%AA/catalog-fire-hose-couplings-page-20.html",
+    "placeholderSpecs": 0,
+    "scrollWidth": 375,
+    "width": 390,
+    "id": "product:catalog-fire-hose-couplings-page-20",
+    "expectedLang": "en"
+  },
+  {
+    "brokenVisibleImages": 0,
+    "h1": "وصلات خراطيم حريق بنظم NH وGOST وUNI وBS 336",
+    "lang": "ar",
+    "path": "/ar/products/catalog-fire-hose-couplings-page-20/index.html",
+    "placeholderSpecs": 0,
+    "scrollWidth": 375,
+    "width": 390,
+    "id": "product:catalog-fire-hose-couplings-page-20",
+    "expectedLang": "ar"
+  },
+  {
+    "brokenVisibleImages": 0,
+    "h1": "Fire Hose Couplings and Adapters",
+    "lang": "en",
+    "path": "/products/%E6%B6%88%E9%98%B2%E6%B0%B4%E6%9E%AA/catalog-fire-hose-adapters-page-21.html",
+    "placeholderSpecs": 0,
+    "scrollWidth": 375,
+    "width": 390,
+    "id": "product:catalog-fire-hose-adapters-page-21",
+    "expectedLang": "en"
+  },
+  {
+    "brokenVisibleImages": 0,
+    "h1": "وصلات ومحولات خراطيم الحريق",
+    "lang": "ar",
+    "path": "/ar/products/catalog-fire-hose-adapters-page-21/index.html",
+    "placeholderSpecs": 0,
+    "scrollWidth": 375,
+    "width": 390,
+    "id": "product:catalog-fire-hose-adapters-page-21",
+    "expectedLang": "ar"
+  },
+  {
+    "brokenVisibleImages": 0,
+    "h1": "Compact Spray Nozzles and Coupling Adapters",
+    "lang": "en",
+    "path": "/products/%E6%B6%88%E9%98%B2%E6%B0%B4%E6%9E%AA/catalog-compact-spray-nozzles-page-22.html",
+    "placeholderSpecs": 0,
+    "scrollWidth": 375,
+    "width": 390,
+    "id": "product:catalog-compact-spray-nozzles-page-22",
+    "expectedLang": "en"
+  },
+  {
+    "brokenVisibleImages": 0,
+    "h1": "فوهات رش مدمجة ومحولات وصلات",
+    "lang": "ar",
+    "path": "/ar/products/catalog-compact-spray-nozzles-page-22/index.html",
+    "placeholderSpecs": 0,
+    "scrollWidth": 375,
+    "width": 390,
+    "id": "product:catalog-compact-spray-nozzles-page-22",
+    "expectedLang": "ar"
+  },
+  {
+    "brokenVisibleImages": 0,
+    "h1": "Red-Grip Fire Hose Nozzles",
+    "lang": "en",
+    "path": "/products/%E6%B6%88%E9%98%B2%E6%B0%B4%E6%9E%AA/catalog-red-grip-nozzles-page-23.html",
+    "placeholderSpecs": 0,
+    "scrollWidth": 375,
+    "width": 390,
+    "id": "product:catalog-red-grip-nozzles-page-23",
+    "expectedLang": "en"
+  },
+  {
+    "brokenVisibleImages": 0,
+    "h1": "فوهات خراطيم حريق بمقبض أحمر",
+    "lang": "ar",
+    "path": "/ar/products/catalog-red-grip-nozzles-page-23/index.html",
+    "placeholderSpecs": 0,
+    "scrollWidth": 375,
+    "width": 390,
+    "id": "product:catalog-red-grip-nozzles-page-23",
+    "expectedLang": "ar"
+  },
+  {
+    "brokenVisibleImages": 0,
+    "h1": "Hose Tails and Threaded Adapters",
+    "lang": "en",
+    "path": "/products/%E6%B6%88%E9%98%B2%E6%B0%B4%E6%9E%AA/catalog-hose-tails-adapters-page-24.html",
+    "placeholderSpecs": 0,
+    "scrollWidth": 375,
+    "width": 390,
+    "id": "product:catalog-hose-tails-adapters-page-24",
+    "expectedLang": "en"
+  },
+  {
+    "brokenVisibleImages": 0,
+    "h1": "نهايات خراطيم ومحولات لولبية",
+    "lang": "ar",
+    "path": "/ar/products/catalog-hose-tails-adapters-page-24/index.html",
+    "placeholderSpecs": 0,
+    "scrollWidth": 375,
+    "width": 390,
+    "id": "product:catalog-hose-tails-adapters-page-24",
+    "expectedLang": "ar"
+  },
+  {
+    "brokenVisibleImages": 0,
+    "h1": "Threaded Adapters and Blank Caps",
+    "lang": "en",
+    "path": "/products/%E6%B6%88%E9%98%B2%E6%B0%B4%E6%9E%AA/catalog-threaded-adapters-caps-page-25.html",
+    "placeholderSpecs": 0,
+    "scrollWidth": 375,
+    "width": 390,
+    "id": "product:catalog-threaded-adapters-caps-page-25",
+    "expectedLang": "en"
+  },
+  {
+    "brokenVisibleImages": 0,
+    "h1": "محولات لولبية وأغطية عمياء",
+    "lang": "ar",
+    "path": "/ar/products/catalog-threaded-adapters-caps-page-25/index.html",
+    "placeholderSpecs": 0,
+    "scrollWidth": 375,
+    "width": 390,
+    "id": "product:catalog-threaded-adapters-caps-page-25",
+    "expectedLang": "ar"
+  },
+  {
+    "brokenVisibleImages": 0,
+    "h1": "Blank Caps and Threaded Plug Adapters",
+    "lang": "en",
+    "path": "/products/%E6%B6%88%E9%98%B2%E6%B0%B4%E6%9E%AA/catalog-blank-caps-plug-adapters-page-26.html",
+    "placeholderSpecs": 0,
+    "scrollWidth": 375,
+    "width": 390,
+    "id": "product:catalog-blank-caps-plug-adapters-page-26",
+    "expectedLang": "en"
+  },
+  {
+    "brokenVisibleImages": 0,
+    "h1": "أغطية عمياء ومحولات سدادة لولبية",
+    "lang": "ar",
+    "path": "/ar/products/catalog-blank-caps-plug-adapters-page-26/index.html",
+    "placeholderSpecs": 0,
+    "scrollWidth": 375,
+    "width": 390,
+    "id": "product:catalog-blank-caps-plug-adapters-page-26",
+    "expectedLang": "ar"
+  },
+  {
+    "brokenVisibleImages": 0,
+    "h1": "Fire Hose Reel Swivel Joints and Supports",
+    "lang": "en",
+    "path": "/products/%E8%BD%AF%E7%AE%A1%E5%8D%B7%E7%9B%98/catalog-hose-reel-parts-page-27.html",
+    "placeholderSpecs": 0,
+    "scrollWidth": 375,
+    "width": 390,
+    "id": "product:catalog-hose-reel-parts-page-27",
+    "expectedLang": "en"
+  },
+  {
+    "brokenVisibleImages": 0,
+    "h1": "وصلات دوارة ودعامات لبكرات خراطيم الحريق",
+    "lang": "ar",
+    "path": "/ar/products/catalog-hose-reel-parts-page-27/index.html",
+    "placeholderSpecs": 0,
+    "scrollWidth": 375,
+    "width": 390,
+    "id": "product:catalog-hose-reel-parts-page-27",
+    "expectedLang": "ar"
+  },
+  {
+    "brokenVisibleImages": 0,
+    "h1": "Fire Hose Assemblies and Hose Reels",
+    "lang": "en",
+    "path": "/products/%E8%BD%AF%E7%AE%A1%E5%8D%B7%E7%9B%98/catalog-hose-assemblies-reels-page-28.html",
+    "placeholderSpecs": 0,
+    "scrollWidth": 375,
+    "width": 390,
+    "id": "product:catalog-hose-assemblies-reels-page-28",
+    "expectedLang": "en"
+  },
+  {
+    "brokenVisibleImages": 0,
+    "h1": "مجموعات خراطيم وبكرات خراطيم الحريق",
+    "lang": "ar",
+    "path": "/ar/products/catalog-hose-assemblies-reels-page-28/index.html",
+    "placeholderSpecs": 0,
+    "scrollWidth": 375,
+    "width": 390,
+    "id": "product:catalog-hose-assemblies-reels-page-28",
+    "expectedLang": "ar"
+  },
+  {
+    "brokenVisibleImages": 0,
+    "h1": "Hose Reel, Extinguisher and Combined Cabinets",
+    "lang": "en",
+    "path": "/products/%E6%B6%88%E9%98%B2%E5%99%A8%E6%9D%90%E7%AE%B1/catalog-fire-cabinets-page-30.html",
+    "placeholderSpecs": 0,
+    "scrollWidth": 375,
+    "width": 390,
+    "id": "product:catalog-fire-cabinets-page-30",
+    "expectedLang": "en"
+  },
+  {
+    "brokenVisibleImages": 0,
+    "h1": "خزائن بكرات الخراطيم وطفايات الحريق والخزائن المدمجة",
+    "lang": "ar",
+    "path": "/ar/products/catalog-fire-cabinets-page-30/index.html",
+    "placeholderSpecs": 0,
+    "scrollWidth": 375,
+    "width": 390,
+    "id": "product:catalog-fire-cabinets-page-30",
+    "expectedLang": "ar"
+  },
+  {
+    "brokenVisibleImages": 0,
+    "h1": "Pillar and Standpipe Fire Hydrant Configurations",
+    "lang": "en",
+    "path": "/products/%E5%AE%A4%E5%A4%96%E6%B6%88%E9%98%B2%E6%A0%93/catalog-outdoor-hydrant-configurations-page-31.html",
+    "placeholderSpecs": 0,
+    "scrollWidth": 375,
+    "width": 390,
+    "id": "product:catalog-outdoor-hydrant-configurations-page-31",
+    "expectedLang": "en"
+  },
+  {
+    "brokenVisibleImages": 0,
+    "h1": "تكوينات صنابير الحريق العمودية وأنابيب الصعود",
+    "lang": "ar",
+    "path": "/ar/products/catalog-outdoor-hydrant-configurations-page-31/index.html",
+    "placeholderSpecs": 0,
+    "scrollWidth": 375,
+    "width": 390,
+    "id": "product:catalog-outdoor-hydrant-configurations-page-31",
+    "expectedLang": "ar"
+  },
+  {
+    "h1": "Fire Sprinklers & System Components",
+    "lang": "en",
+    "path": "/index.html",
+    "scrollWidth": 305,
+    "width": 320,
+    "id": "home",
+    "expectedLang": "en"
+  },
+  {
+    "h1": "消防喷头与系统组件",
+    "lang": "zh-CN",
+    "path": "/zh/index.html",
+    "scrollWidth": 305,
+    "width": 320,
+    "id": "home",
+    "expectedLang": "zh"
+  },
+  {
+    "h1": "رشاشات الحريق ومكونات الأنظمة",
+    "lang": "ar",
+    "path": "/ar/index.html",
+    "scrollWidth": 305,
+    "width": 320,
+    "id": "home",
+    "expectedLang": "ar"
+  },
+  {
+    "h1": "Find your fire protection product.",
+    "lang": "en",
+    "path": "/products.html",
+    "scrollWidth": 305,
+    "width": 320,
+    "id": "products",
+    "expectedLang": "en"
+  },
+  {
+    "h1": "اعثر على منتج مكافحة الحريق المطلوب.",
+    "lang": "ar",
+    "path": "/ar/products.html",
+    "scrollWidth": 305,
+    "width": 320,
+    "id": "products",
+    "expectedLang": "ar"
+  },
+  {
+    "h1": "A manufacturing source for fire-water-system components",
+    "lang": "en",
+    "path": "/about.html",
+    "scrollWidth": 305,
+    "width": 320,
+    "id": "about",
+    "expectedLang": "en"
+  },
+  {
+    "h1": "جهة تصنيع لمكونات أنظمة مياه مكافحة الحريق",
+    "lang": "ar",
+    "path": "/ar/about.html",
+    "scrollWidth": 305,
+    "width": 320,
+    "id": "about",
+    "expectedLang": "ar"
+  },
+  {
+    "h1": "Available catalog and documents",
+    "lang": "en",
+    "path": "/downloads.html",
+    "scrollWidth": 305,
+    "width": 320,
+    "id": "downloads",
+    "expectedLang": "en"
+  },
+  {
+    "h1": "الكتالوج والوثائق المتاحة",
+    "lang": "ar",
+    "path": "/ar/downloads.html",
+    "scrollWidth": 305,
+    "width": 320,
+    "id": "downloads",
+    "expectedLang": "ar"
+  },
+  {
+    "h1": "Send your product or project requirement",
+    "lang": "en",
+    "path": "/contact.html",
+    "scrollWidth": 305,
+    "width": 320,
+    "id": "contact",
+    "expectedLang": "en"
+  },
+  {
+    "h1": "أرسل متطلبات المنتج أو المشروع",
+    "lang": "ar",
+    "path": "/ar/contact.html",
+    "scrollWidth": 305,
+    "width": 320,
+    "id": "contact",
+    "expectedLang": "ar"
+  },
+  {
+    "h1": "Foam-Water Nozzles",
+    "lang": "en",
+    "path": "/products/foam-nozzles.html",
+    "scrollWidth": 305,
+    "width": 320,
+    "id": "category:foam-nozzles",
+    "expectedLang": "en"
+  },
+  {
+    "h1": "فوهات الماء والرغوة",
+    "lang": "ar",
+    "path": "/ar/products/foam-nozzles/index.html",
+    "scrollWidth": 305,
+    "width": 320,
+    "id": "category:foam-nozzles",
+    "expectedLang": "ar"
+  },
+  {
+    "h1": "Fire Sprinklers",
+    "lang": "en",
+    "path": "/products/%E6%B6%88%E9%98%B2%E5%96%B7%E5%A4%B4.html",
+    "scrollWidth": 305,
+    "width": 320,
+    "id": "category:sprinklers",
+    "expectedLang": "en"
+  },
+  {
+    "h1": "رشاشات الحريق",
+    "lang": "ar",
+    "path": "/ar/products/sprinklers/index.html",
+    "scrollWidth": 305,
+    "width": 320,
+    "id": "category:sprinklers",
+    "expectedLang": "ar"
+  },
+  {
+    "h1": "Alarm & System Valves",
+    "lang": "en",
+    "path": "/products/%E6%B6%88%E9%98%B2%E9%98%80.html",
+    "scrollWidth": 305,
+    "width": 320,
+    "id": "category:system-valves",
+    "expectedLang": "en"
+  },
+  {
+    "h1": "صمامات الإنذار وصمامات الأنظمة",
+    "lang": "ar",
+    "path": "/ar/products/system-valves/index.html",
+    "scrollWidth": 305,
+    "width": 320,
+    "id": "category:system-valves",
+    "expectedLang": "ar"
+  },
+  {
+    "h1": "Fire Butterfly Valves",
+    "lang": "en",
+    "path": "/products/%E6%B6%88%E9%98%B2%E8%9D%B6%E9%98%80.html",
+    "scrollWidth": 305,
+    "width": 320,
+    "id": "category:butterfly-valves",
+    "expectedLang": "en"
+  },
+  {
+    "h1": "صمامات فراشة لمكافحة الحريق",
+    "lang": "ar",
+    "path": "/ar/products/butterfly-valves/index.html",
+    "scrollWidth": 305,
+    "width": 320,
+    "id": "category:butterfly-valves",
+    "expectedLang": "ar"
+  },
+  {
+    "h1": "Fire Gate Valves",
+    "lang": "en",
+    "path": "/products/%E6%B6%88%E9%98%B2%E9%98%80%E9%97%A8.html",
+    "scrollWidth": 305,
+    "width": 320,
+    "id": "category:gate-valves",
+    "expectedLang": "en"
+  },
+  {
+    "h1": "صمامات بوابة لمكافحة الحريق",
+    "lang": "ar",
+    "path": "/ar/products/gate-valves/index.html",
+    "scrollWidth": 305,
+    "width": 320,
+    "id": "category:gate-valves",
+    "expectedLang": "ar"
+  },
+  {
+    "h1": "Fire Hose Reels",
+    "lang": "en",
+    "path": "/products/%E8%BD%AF%E7%AE%A1%E5%8D%B7%E7%9B%98.html",
+    "scrollWidth": 305,
+    "width": 320,
+    "id": "category:hose-reels",
+    "expectedLang": "en"
+  },
+  {
+    "h1": "بكرات خراطيم الحريق",
+    "lang": "ar",
+    "path": "/ar/products/hose-reels/index.html",
+    "scrollWidth": 305,
+    "width": 320,
+    "id": "category:hose-reels",
+    "expectedLang": "ar"
+  },
+  {
+    "h1": "Fire Hose Nozzles, Couplings & Adapters",
+    "lang": "en",
+    "path": "/products/%E6%B6%88%E9%98%B2%E6%B0%B4%E6%9E%AA.html",
+    "scrollWidth": 305,
+    "width": 320,
+    "id": "category:hoses-nozzles-couplings",
+    "expectedLang": "en"
+  },
+  {
+    "h1": "فوهات خراطيم الحريق والوصلات والمهايئات",
+    "lang": "ar",
+    "path": "/ar/products/hoses-nozzles-couplings/index.html",
+    "scrollWidth": 305,
+    "width": 320,
+    "id": "category:hoses-nozzles-couplings",
+    "expectedLang": "ar"
+  },
+  {
+    "h1": "Indoor Fire Hydrants",
+    "lang": "en",
+    "path": "/products/%E5%AE%A4%E5%86%85%E6%B6%88%E9%98%B2%E6%A0%93/%E5%AE%A4%E5%86%85%E6%B6%88%E9%98%B2%E6%A0%93.html",
+    "scrollWidth": 305,
+    "width": 320,
+    "id": "category:indoor-hydrants",
+    "expectedLang": "en"
+  },
+  {
+    "h1": "محابس الحريق الداخلية",
+    "lang": "ar",
+    "path": "/ar/products/indoor-hydrants/index.html",
+    "scrollWidth": 305,
+    "width": 320,
+    "id": "category:indoor-hydrants",
+    "expectedLang": "ar"
+  },
+  {
+    "h1": "Outdoor Fire Hydrants",
+    "lang": "en",
+    "path": "/products/%E5%AE%A4%E5%A4%96%E6%B6%88%E9%98%B2%E6%A0%93/%E5%AE%A4%E5%A4%96%E6%B6%88%E9%98%B2%E6%A0%93.html",
+    "scrollWidth": 305,
+    "width": 320,
+    "id": "category:outdoor-hydrants",
+    "expectedLang": "en"
+  },
+  {
+    "h1": "صنابير الحريق الخارجية",
+    "lang": "ar",
+    "path": "/ar/products/outdoor-hydrants/index.html",
+    "scrollWidth": 305,
+    "width": 320,
+    "id": "category:outdoor-hydrants",
+    "expectedLang": "ar"
+  },
+  {
+    "h1": "Fire Department Connections",
+    "lang": "en",
+    "path": "/products/%E6%B6%88%E9%98%B2%E6%B0%B4%E6%B3%B5%E6%8E%A5%E5%90%88%E5%99%A8.html",
+    "scrollWidth": 305,
+    "width": 320,
+    "id": "category:fire-department-connections",
+    "expectedLang": "en"
+  },
+  {
+    "h1": "وصلات تزويد أنظمة الحريق بالمياه",
+    "lang": "ar",
+    "path": "/ar/products/fire-department-connections/index.html",
+    "scrollWidth": 305,
+    "width": 320,
+    "id": "category:fire-department-connections",
+    "expectedLang": "ar"
+  },
+  {
+    "h1": "Fire Equipment Cabinets",
+    "lang": "en",
+    "path": "/products/%E6%B6%88%E9%98%B2%E5%99%A8%E6%9D%90%E7%AE%B1.html",
+    "scrollWidth": 305,
+    "width": 320,
+    "id": "category:fire-equipment-cabinets",
+    "expectedLang": "en"
+  },
+  {
+    "h1": "خزائن معدات مكافحة الحريق",
+    "lang": "ar",
+    "path": "/ar/products/fire-equipment-cabinets/index.html",
+    "scrollWidth": 305,
+    "width": 320,
+    "id": "category:fire-equipment-cabinets",
+    "expectedLang": "ar"
+  },
+  {
+    "h1": "Wet Alarm Check Valve Assemblies",
+    "lang": "en",
+    "path": "/products/%E6%B6%88%E9%98%B2%E9%98%80/wet-alarm-check-valve-assemblies.html",
+    "scrollWidth": 305,
+    "width": 320,
+    "id": "product:wet-alarm-check-valve",
+    "expectedLang": "en"
+  },
+  {
+    "h1": "مجموعات صمام الإنذار الرطب",
+    "lang": "ar",
+    "path": "/ar/products/wet-alarm-check-valve/index.html",
+    "scrollWidth": 305,
+    "width": 320,
+    "id": "product:wet-alarm-check-valve",
+    "expectedLang": "ar"
+  },
+  {
+    "h1": "Diaphragm Deluge Valve",
+    "lang": "en",
+    "path": "/products/%E6%B6%88%E9%98%B2%E9%98%80/diaphragm-deluge-valves.html",
+    "scrollWidth": 305,
+    "width": 320,
+    "id": "product:diaphragm-deluge-valves",
+    "expectedLang": "en"
+  },
+  {
+    "h1": "صمام الغمر الغشائي",
+    "lang": "ar",
+    "path": "/ar/products/diaphragm-deluge-valves/index.html",
+    "scrollWidth": 305,
+    "width": 320,
+    "id": "product:diaphragm-deluge-valves",
+    "expectedLang": "ar"
+  },
+  {
+    "h1": "Preaction Valve Assemblies",
+    "lang": "en",
+    "path": "/products/%E6%B6%88%E9%98%B2%E9%98%80/preaction-valve-assemblies.html",
+    "scrollWidth": 305,
+    "width": 320,
+    "id": "product:preaction-valve-assemblies",
+    "expectedLang": "en"
+  },
+  {
+    "h1": "مجموعات صمامات الإجراء المسبق",
+    "lang": "ar",
+    "path": "/ar/products/preaction-valve-assemblies/index.html",
+    "scrollWidth": 305,
+    "width": 320,
+    "id": "product:preaction-valve-assemblies",
+    "expectedLang": "ar"
+  },
+  {
+    "h1": "Dry Pipe Alarm Valve",
+    "lang": "en",
+    "path": "/products/%E6%B6%88%E9%98%B2%E9%98%80/dry-pipe-alarm-valves.html",
+    "scrollWidth": 305,
+    "width": 320,
+    "id": "product:dry-pipe-alarm-valves",
+    "expectedLang": "en"
+  },
+  {
+    "h1": "صمام إنذار الأنابيب الجافة",
+    "lang": "ar",
+    "path": "/ar/products/dry-pipe-alarm-valves/index.html",
+    "scrollWidth": 305,
+    "width": 320,
+    "id": "product:dry-pipe-alarm-valves",
+    "expectedLang": "ar"
+  },
+  {
+    "h1": "Saddle-Type Waterflow Switches",
+    "lang": "en",
+    "path": "/products/%E6%B6%88%E9%98%B2%E9%98%80/saddle-type-waterflow-switches.html",
+    "scrollWidth": 305,
+    "width": 320,
+    "id": "product:saddle-type-waterflow-switches",
+    "expectedLang": "en"
+  },
+  {
+    "h1": "مفاتيح تدفق المياه من النوع السرجي",
+    "lang": "ar",
+    "path": "/ar/products/saddle-type-waterflow-switches/index.html",
+    "scrollWidth": 305,
+    "width": 320,
+    "id": "product:saddle-type-waterflow-switches",
+    "expectedLang": "ar"
+  },
+  {
+    "h1": "Closed-Type Rotating Fire Sprinkler",
+    "lang": "en",
+    "path": "/products/closed-rotating-fire-sprinkler.html",
+    "scrollWidth": 305,
+    "width": 320,
+    "id": "product:closed-rotating-fire-sprinkler",
+    "expectedLang": "en"
+  },
+  {
+    "h1": "رشاش حريق دوار مغلق",
+    "lang": "ar",
+    "path": "/ar/products/closed-rotating-fire-sprinkler/index.html",
+    "scrollWidth": 305,
+    "width": 320,
+    "id": "product:closed-rotating-fire-sprinkler",
+    "expectedLang": "ar"
+  },
+  {
+    "h1": "Closed-Type Centrifugal Fire Sprinklers",
+    "lang": "en",
+    "path": "/products/closed-centrifugal-fire-sprinklers.html",
+    "scrollWidth": 305,
+    "width": 320,
+    "id": "product:closed-centrifugal-fire-sprinklers",
+    "expectedLang": "en"
+  },
+  {
+    "h1": "رشاشات حريق مغلقة بالطرد المركزي",
+    "lang": "ar",
+    "path": "/ar/products/closed-centrifugal-fire-sprinklers/index.html",
+    "scrollWidth": 305,
+    "width": 320,
+    "id": "product:closed-centrifugal-fire-sprinklers",
+    "expectedLang": "ar"
+  },
+  {
+    "h1": "Tubular Foam-Water Nozzles",
+    "lang": "en",
+    "path": "/products/tubular-foam-water-nozzles.html",
+    "scrollWidth": 305,
+    "width": 320,
+    "id": "product:tubular-foam-water-nozzles",
+    "expectedLang": "en"
+  },
+  {
+    "h1": "فوهات أنبوبية للماء والرغوة",
+    "lang": "ar",
+    "path": "/ar/products/tubular-foam-water-nozzles/index.html",
+    "scrollWidth": 305,
+    "width": 320,
+    "id": "product:tubular-foam-water-nozzles",
+    "expectedLang": "ar"
+  },
+  {
+    "h1": "Closed-Type Air-Aspirating Foam-Water Sprinkler",
+    "lang": "en",
+    "path": "/products/closed-air-aspirating-foam-water-sprinkler.html",
+    "scrollWidth": 305,
+    "width": 320,
+    "id": "product:closed-air-aspirating-foam-water-sprinkler",
+    "expectedLang": "en"
+  },
+  {
+    "h1": "رشاش ماء ورغوة مغلق يسحب الهواء",
+    "lang": "ar",
+    "path": "/ar/products/closed-air-aspirating-foam-water-sprinkler/index.html",
+    "scrollWidth": 305,
+    "width": 320,
+    "id": "product:closed-air-aspirating-foam-water-sprinkler",
+    "expectedLang": "ar"
+  },
+  {
+    "h1": "Water Curtain Nozzles",
+    "lang": "en",
+    "path": "/products/%E6%B6%88%E9%98%B2%E5%96%B7%E5%A4%B4/water-curtain-nozzles.html",
+    "scrollWidth": 305,
+    "width": 320,
+    "id": "product:water-curtain-nozzles",
+    "expectedLang": "en"
+  },
+  {
+    "h1": "فوهات ستارة مائية",
+    "lang": "ar",
+    "path": "/ar/products/water-curtain-nozzles/index.html",
+    "scrollWidth": 305,
+    "width": 320,
+    "id": "product:water-curtain-nozzles",
+    "expectedLang": "ar"
+  },
+  {
+    "h1": "Water Mist Nozzles",
+    "lang": "en",
+    "path": "/products/%E6%B6%88%E9%98%B2%E5%96%B7%E5%A4%B4/water-mist-nozzles.html",
+    "scrollWidth": 305,
+    "width": 320,
+    "id": "product:water-mist-nozzles",
+    "expectedLang": "en"
+  },
+  {
+    "h1": "فوهات ضباب الماء",
+    "lang": "ar",
+    "path": "/ar/products/water-mist-nozzles/index.html",
+    "scrollWidth": 305,
+    "width": 320,
+    "id": "product:water-mist-nozzles",
+    "expectedLang": "ar"
+  },
+  {
+    "h1": "Standard Response Fire Sprinklers",
+    "lang": "en",
+    "path": "/products/%E6%B6%88%E9%98%B2%E5%96%B7%E5%A4%B4/standard-response-fire-sprinkler.html",
+    "scrollWidth": 305,
+    "width": 320,
+    "id": "product:standard-response-fire-sprinkler",
+    "expectedLang": "en"
+  },
+  {
+    "h1": "رشاشات الحريق ذات الاستجابة القياسية",
+    "lang": "ar",
+    "path": "/ar/products/standard-response-fire-sprinkler/index.html",
+    "scrollWidth": 305,
+    "width": 320,
+    "id": "product:standard-response-fire-sprinkler",
+    "expectedLang": "ar"
+  },
+  {
+    "h1": "Fusible-Alloy Fire Sprinklers",
+    "lang": "en",
+    "path": "/products/%E6%B6%88%E9%98%B2%E5%96%B7%E5%A4%B4/fusible-alloy-fire-sprinklers.html",
+    "scrollWidth": 305,
+    "width": 320,
+    "id": "product:fusible-alloy-fire-sprinklers",
+    "expectedLang": "en"
+  },
+  {
+    "h1": "رشاشات حريق بعنصر حراري قابل للانصهار",
+    "lang": "ar",
+    "path": "/ar/products/fusible-alloy-fire-sprinklers/index.html",
+    "scrollWidth": 305,
+    "width": 320,
+    "id": "product:fusible-alloy-fire-sprinklers",
+    "expectedLang": "ar"
+  },
+  {
+    "h1": "Quick Response Glass Bulb Sprinklers",
+    "lang": "en",
+    "path": "/products/%E6%B6%88%E9%98%B2%E5%96%B7%E5%A4%B4/glass-bulb-fire-sprinkler.html",
+    "scrollWidth": 305,
+    "width": 320,
+    "id": "product:glass-bulb-fire-sprinkler",
+    "expectedLang": "en"
+  },
+  {
+    "h1": "رشاشات زجاجية سريعة الاستجابة",
+    "lang": "ar",
+    "path": "/ar/products/glass-bulb-fire-sprinkler/index.html",
+    "scrollWidth": 305,
+    "width": 320,
+    "id": "product:glass-bulb-fire-sprinkler",
+    "expectedLang": "ar"
+  },
+  {
+    "h1": "Concealed Pendent Fire Sprinklers",
+    "lang": "en",
+    "path": "/products/%E6%B6%88%E9%98%B2%E5%96%B7%E5%A4%B4/concealed-pendent-fire-sprinkler.html",
+    "scrollWidth": 305,
+    "width": 320,
+    "id": "product:concealed-pendent-fire-sprinkler",
+    "expectedLang": "en"
+  },
+  {
+    "h1": "رشاشات حريق متدلية مخفية",
+    "lang": "ar",
+    "path": "/ar/products/concealed-pendent-fire-sprinkler/index.html",
+    "scrollWidth": 305,
+    "width": 320,
+    "id": "product:concealed-pendent-fire-sprinkler",
+    "expectedLang": "ar"
+  },
+  {
+    "h1": "Dry Pendent Fire Sprinklers",
+    "lang": "en",
+    "path": "/products/%E6%B6%88%E9%98%B2%E5%96%B7%E5%A4%B4/dry-pendent-fire-sprinklers.html",
+    "scrollWidth": 305,
+    "width": 320,
+    "id": "product:dry-pendent-fire-sprinklers",
+    "expectedLang": "en"
+  },
+  {
+    "h1": "رشاشات حريق جافة متدلية",
+    "lang": "ar",
+    "path": "/ar/products/dry-pendent-fire-sprinklers/index.html",
+    "scrollWidth": 305,
+    "width": 320,
+    "id": "product:dry-pendent-fire-sprinklers",
+    "expectedLang": "ar"
+  },
+  {
+    "h1": "Extended Coverage Quick Response Sprinklers",
+    "lang": "en",
+    "path": "/products/%E6%B6%88%E9%98%B2%E5%96%B7%E5%A4%B4/extended-coverage-quick-response-fire-sprinkler.html",
+    "scrollWidth": 305,
+    "width": 320,
+    "id": "product:extended-coverage-quick-response-fire-sprinkler",
+    "expectedLang": "en"
+  },
+  {
+    "h1": "رشاشات ذات تغطية موسعة واستجابة سريعة",
+    "lang": "ar",
+    "path": "/ar/products/extended-coverage-quick-response-fire-sprinkler/index.html",
+    "scrollWidth": 305,
+    "width": 320,
+    "id": "product:extended-coverage-quick-response-fire-sprinkler",
+    "expectedLang": "ar"
+  },
+  {
+    "h1": "Large K-Factor & ESFR Sprinklers",
+    "lang": "en",
+    "path": "/products/%E6%B6%88%E9%98%B2%E5%96%B7%E5%A4%B4/large-k-factor-esfr-sprinklers.html",
+    "scrollWidth": 305,
+    "width": 320,
+    "id": "product:large-k-factor-esfr-sprinklers",
+    "expectedLang": "en"
+  },
+  {
+    "h1": "رشاشات بمعامل ⁦K⁩ كبير ورشاشات ⁦ESFR⁩",
+    "lang": "ar",
+    "path": "/ar/products/large-k-factor-esfr-sprinklers/index.html",
+    "scrollWidth": 305,
+    "width": 320,
+    "id": "product:large-k-factor-esfr-sprinklers",
+    "expectedLang": "ar"
+  },
+  {
+    "h1": "RIA 25 Fire Hose Reel",
+    "lang": "en",
+    "path": "/products/%E8%BD%AF%E7%AE%A1%E5%8D%B7%E7%9B%98/ria25-fire-hose-reel.html",
+    "scrollWidth": 305,
+    "width": 320,
+    "id": "product:ria25-fire-hose-reel",
+    "expectedLang": "en"
+  },
+  {
+    "h1": "بكرة خرطوم الحريق ⁦RIA 25⁩",
+    "lang": "ar",
+    "path": "/ar/products/ria25-fire-hose-reel/index.html",
+    "scrollWidth": 305,
+    "width": 320,
+    "id": "product:ria25-fire-hose-reel",
+    "expectedLang": "ar"
+  },
+  {
+    "h1": "Straight-Stream Fire Hose Reel",
+    "lang": "en",
+    "path": "/products/%E8%BD%AF%E7%AE%A1%E5%8D%B7%E7%9B%98/straight-stream-fire-hose-reel.html",
+    "scrollWidth": 305,
+    "width": 320,
+    "id": "product:straight-stream-fire-hose-reel",
+    "expectedLang": "en"
+  },
+  {
+    "h1": "بكرة خرطوم حريق بنفث مستقيم",
+    "lang": "ar",
+    "path": "/ar/products/straight-stream-fire-hose-reel/index.html",
+    "scrollWidth": 305,
+    "width": 320,
+    "id": "product:straight-stream-fire-hose-reel",
+    "expectedLang": "ar"
+  },
+  {
+    "h1": "Jet / Spray Fire Hose Reel",
+    "lang": "en",
+    "path": "/products/%E8%BD%AF%E7%AE%A1%E5%8D%B7%E7%9B%98/jet-spray-fire-hose-reel.html",
+    "scrollWidth": 305,
+    "width": 320,
+    "id": "product:jet-spray-fire-hose-reel",
+    "expectedLang": "en"
+  },
+  {
+    "h1": "بكرة خرطوم حريق بنفث / رش",
+    "lang": "ar",
+    "path": "/ar/products/jet-spray-fire-hose-reel/index.html",
+    "scrollWidth": 305,
+    "width": 320,
+    "id": "product:jet-spray-fire-hose-reel",
+    "expectedLang": "ar"
+  },
+  {
+    "h1": "Heavy-Duty Fire Hose Reel",
+    "lang": "en",
+    "path": "/products/%E8%BD%AF%E7%AE%A1%E5%8D%B7%E7%9B%98/heavy-duty-fire-hose-reel.html",
+    "scrollWidth": 305,
+    "width": 320,
+    "id": "product:heavy-duty-fire-hose-reel",
+    "expectedLang": "en"
+  },
+  {
+    "h1": "بكرة خرطوم حريق للخدمة الشاقة",
+    "lang": "ar",
+    "path": "/ar/products/heavy-duty-fire-hose-reel/index.html",
+    "scrollWidth": 305,
+    "width": 320,
+    "id": "product:heavy-duty-fire-hose-reel",
+    "expectedLang": "ar"
+  },
+  {
+    "h1": "Lever-Operated Grooved Butterfly Valve",
+    "lang": "en",
+    "path": "/products/%E6%B6%88%E9%98%B2%E8%9D%B6%E9%98%80/lever-operated-grooved-butterfly-valves.html",
+    "scrollWidth": 305,
+    "width": 320,
+    "id": "product:lever-operated-grooved-butterfly-valves",
+    "expectedLang": "en"
+  },
+  {
+    "h1": "صمام فراشة محزز يعمل بذراع",
+    "lang": "ar",
+    "path": "/ar/products/lever-operated-grooved-butterfly-valves/index.html",
+    "scrollWidth": 305,
+    "width": 320,
+    "id": "product:lever-operated-grooved-butterfly-valves",
+    "expectedLang": "ar"
+  },
+  {
+    "h1": "Lever-Operated Wafer Butterfly Valve",
+    "lang": "en",
+    "path": "/products/%E6%B6%88%E9%98%B2%E8%9D%B6%E9%98%80/lever-operated-wafer-butterfly-valves.html",
+    "scrollWidth": 305,
+    "width": 320,
+    "id": "product:lever-operated-wafer-butterfly-valves",
+    "expectedLang": "en"
+  },
+  {
+    "h1": "صمام فراشة من نوع ويفر يعمل بذراع",
+    "lang": "ar",
+    "path": "/ar/products/lever-operated-wafer-butterfly-valves/index.html",
+    "scrollWidth": 305,
+    "width": 320,
+    "id": "product:lever-operated-wafer-butterfly-valves",
+    "expectedLang": "ar"
+  },
+  {
+    "h1": "Grooved Supervisory Butterfly Valve",
+    "lang": "en",
+    "path": "/products/%E6%B6%88%E9%98%B2%E8%9D%B6%E9%98%80/grooved-supervisory-butterfly-valves.html",
+    "scrollWidth": 305,
+    "width": 320,
+    "id": "product:grooved-supervisory-butterfly-valves",
+    "expectedLang": "en"
+  },
+  {
+    "h1": "صمام فراشة إشرافي مخدد",
+    "lang": "ar",
+    "path": "/ar/products/grooved-supervisory-butterfly-valves/index.html",
+    "scrollWidth": 305,
+    "width": 320,
+    "id": "product:grooved-supervisory-butterfly-valves",
+    "expectedLang": "ar"
+  },
+  {
+    "h1": "Wafer Supervisory Butterfly Valve",
+    "lang": "en",
+    "path": "/products/%E6%B6%88%E9%98%B2%E8%9D%B6%E9%98%80/wafer-supervisory-butterfly-valves.html",
+    "scrollWidth": 305,
+    "width": 320,
+    "id": "product:wafer-supervisory-butterfly-valves",
+    "expectedLang": "en"
+  },
+  {
+    "h1": "صمام فراشة إشرافي من نوع ويفر",
+    "lang": "ar",
+    "path": "/ar/products/wafer-supervisory-butterfly-valves/index.html",
+    "scrollWidth": 305,
+    "width": 320,
+    "id": "product:wafer-supervisory-butterfly-valves",
+    "expectedLang": "ar"
+  },
+  {
+    "h1": "Flanged Supervisory Gate Valve",
+    "lang": "en",
+    "path": "/products/%E6%B6%88%E9%98%B2%E9%98%80%E9%97%A8/flanged-supervisory-gate-valves.html",
+    "scrollWidth": 305,
+    "width": 320,
+    "id": "product:flanged-supervisory-gate-valves",
+    "expectedLang": "en"
+  },
+  {
+    "h1": "صمام بوابة إشرافي بفلنجات",
+    "lang": "ar",
+    "path": "/ar/products/flanged-supervisory-gate-valves/index.html",
+    "scrollWidth": 305,
+    "width": 320,
+    "id": "product:flanged-supervisory-gate-valves",
+    "expectedLang": "ar"
+  },
+  {
+    "h1": "Grooved Supervisory Gate Valve",
+    "lang": "en",
+    "path": "/products/%E6%B6%88%E9%98%B2%E9%98%80%E9%97%A8/grooved-supervisory-gate-valves.html",
+    "scrollWidth": 305,
+    "width": 320,
+    "id": "product:grooved-supervisory-gate-valves",
+    "expectedLang": "en"
+  },
+  {
+    "h1": "صمام بوابة إشرافي مخدد",
+    "lang": "ar",
+    "path": "/ar/products/grooved-supervisory-gate-valves/index.html",
+    "scrollWidth": 305,
+    "width": 320,
+    "id": "product:grooved-supervisory-gate-valves",
+    "expectedLang": "ar"
+  },
+  {
+    "h1": "NRS Gate Valve",
+    "lang": "en",
+    "path": "/products/%E6%B6%88%E9%98%B2%E9%98%80%E9%97%A8/nrs-gate-valves.html",
+    "scrollWidth": 305,
+    "width": 320,
+    "id": "product:nrs-gate-valves",
+    "expectedLang": "en"
+  },
+  {
+    "h1": "صمام بوابة بساق غير صاعد",
+    "lang": "ar",
+    "path": "/ar/products/nrs-gate-valves/index.html",
+    "scrollWidth": 305,
+    "width": 320,
+    "id": "product:nrs-gate-valves",
+    "expectedLang": "ar"
+  },
+  {
+    "h1": "OS&Y Gate Valve",
+    "lang": "en",
+    "path": "/products/%E6%B6%88%E9%98%B2%E9%98%80%E9%97%A8/osy-gate-valves.html",
+    "scrollWidth": 305,
+    "width": 320,
+    "id": "product:osy-gate-valves",
+    "expectedLang": "en"
+  },
+  {
+    "h1": "صمام بوابة ⁦OS⁩&⁦Y⁩",
+    "lang": "ar",
+    "path": "/ar/products/osy-gate-valves/index.html",
+    "scrollWidth": 305,
+    "width": 320,
+    "id": "product:osy-gate-valves",
+    "expectedLang": "ar"
+  },
+  {
+    "h1": "Standard Indoor Fire Hydrant",
+    "lang": "en",
+    "path": "/products/%E5%AE%A4%E5%86%85%E6%B6%88%E9%98%B2%E6%A0%93/standard-indoor-hydrant.html",
+    "scrollWidth": 305,
+    "width": 320,
+    "id": "product:standard-indoor-hydrant",
+    "expectedLang": "en"
+  },
+  {
+    "h1": "حنفية حريق داخلية قياسية",
+    "lang": "ar",
+    "path": "/ar/products/standard-indoor-hydrant/index.html",
+    "scrollWidth": 305,
+    "width": 320,
+    "id": "product:standard-indoor-hydrant",
+    "expectedLang": "ar"
+  },
+  {
+    "h1": "Export Slanted Single-Outlet Hydrant Valve",
+    "lang": "en",
+    "path": "/products/%E5%AE%A4%E5%86%85%E6%B6%88%E9%98%B2%E6%A0%93/export-slanted-hydrant-valve.html",
+    "scrollWidth": 305,
+    "width": 320,
+    "id": "product:export-slanted-hydrant-valve",
+    "expectedLang": "en"
+  },
+  {
+    "h1": "صمام حنفية حريق مائل بمخرج واحد للتصدير",
+    "lang": "ar",
+    "path": "/ar/products/export-slanted-hydrant-valve/index.html",
+    "scrollWidth": 305,
+    "width": 320,
+    "id": "product:export-slanted-hydrant-valve",
+    "expectedLang": "ar"
+  },
+  {
+    "h1": "Double-Outlet Indoor Fire Hydrant",
+    "lang": "en",
+    "path": "/products/%E5%AE%A4%E5%86%85%E6%B6%88%E9%98%B2%E6%A0%93/double-outlet-hydrant.html",
+    "scrollWidth": 305,
+    "width": 320,
+    "id": "product:double-outlet-hydrant",
+    "expectedLang": "en"
+  },
+  {
+    "h1": "حنفية حريق داخلية مزدوجة المخرج",
+    "lang": "ar",
+    "path": "/ar/products/double-outlet-hydrant/index.html",
+    "scrollWidth": 305,
+    "width": 320,
+    "id": "product:double-outlet-hydrant",
+    "expectedLang": "ar"
+  },
+  {
+    "h1": "Rotating & Pressure-Regulating Indoor Fire Hydrant",
+    "lang": "en",
+    "path": "/products/%E5%AE%A4%E5%86%85%E6%B6%88%E9%98%B2%E6%A0%93/rotating-pressure-regulating-hydrant.html",
+    "scrollWidth": 305,
+    "width": 320,
+    "id": "product:rotating-pressure-regulating-hydrant",
+    "expectedLang": "en"
+  },
+  {
+    "h1": "حنفية حريق داخلية دوارة ومنظمة للضغط",
+    "lang": "ar",
+    "path": "/ar/products/rotating-pressure-regulating-hydrant/index.html",
+    "scrollWidth": 305,
+    "width": 320,
+    "id": "product:rotating-pressure-regulating-hydrant",
+    "expectedLang": "ar"
+  },
+  {
+    "h1": "Straight-Through and Oblique Landing Valves",
+    "lang": "en",
+    "path": "/products/%E5%AE%A4%E5%86%85%E6%B6%88%E9%98%B2%E6%A0%93/straight-through-oblique-landing-valves.html",
+    "scrollWidth": 305,
+    "width": 320,
+    "id": "product:straight-through-oblique-landing-valves",
+    "expectedLang": "en"
+  },
+  {
+    "h1": "صمامات هبوط مستقيمة ومائلة",
+    "lang": "ar",
+    "path": "/ar/products/straight-through-oblique-landing-valves/index.html",
+    "scrollWidth": 305,
+    "width": 320,
+    "id": "product:straight-through-oblique-landing-valves",
+    "expectedLang": "ar"
+  },
+  {
+    "h1": "Horizontal-Handwheel Landing Valves",
+    "lang": "en",
+    "path": "/products/%E5%AE%A4%E5%86%85%E6%B6%88%E9%98%B2%E6%A0%93/horizontal-handwheel-landing-valves.html",
+    "scrollWidth": 305,
+    "width": 320,
+    "id": "product:horizontal-handwheel-landing-valves",
+    "expectedLang": "en"
+  },
+  {
+    "h1": "صمامات هبوط بعجلة تشغيل أفقية",
+    "lang": "ar",
+    "path": "/ar/products/horizontal-handwheel-landing-valves/index.html",
+    "scrollWidth": 305,
+    "width": 320,
+    "id": "product:horizontal-handwheel-landing-valves",
+    "expectedLang": "ar"
+  },
+  {
+    "h1": "British-Type Pillar Fire Hydrant (BS-750)",
+    "lang": "en",
+    "path": "/products/%E5%AE%A4%E5%A4%96%E6%B6%88%E9%98%B2%E6%A0%93/bs750-pillar-hydrant.html",
+    "scrollWidth": 305,
+    "width": 320,
+    "id": "product:bs750-pillar-hydrant",
+    "expectedLang": "en"
+  },
+  {
+    "h1": "صنبور حريق عمودي بالنمط البريطاني (⁦BS-750)⁩",
+    "lang": "ar",
+    "path": "/ar/products/bs750-pillar-hydrant/index.html",
+    "scrollWidth": 305,
+    "width": 320,
+    "id": "product:bs750-pillar-hydrant",
+    "expectedLang": "ar"
+  },
+  {
+    "h1": "French-Pattern Dry-Barrel Hydrant",
+    "lang": "en",
+    "path": "/products/%E5%AE%A4%E5%A4%96%E6%B6%88%E9%98%B2%E6%A0%93/french-pattern-hydrant.html",
+    "scrollWidth": 305,
+    "width": 320,
+    "id": "product:french-pattern-hydrant",
+    "expectedLang": "en"
+  },
+  {
+    "h1": "صنبور حريق بأسطوانة جافة بالنمط الفرنسي",
+    "lang": "ar",
+    "path": "/ar/products/french-pattern-hydrant/index.html",
+    "scrollWidth": 305,
+    "width": 320,
+    "id": "product:french-pattern-hydrant",
+    "expectedLang": "ar"
+  },
+  {
+    "h1": "Indonesian-Pattern Wet-Barrel Hydrant",
+    "lang": "en",
+    "path": "/products/%E5%AE%A4%E5%A4%96%E6%B6%88%E9%98%B2%E6%A0%93/indonesian-pattern-hydrant.html",
+    "scrollWidth": 305,
+    "width": 320,
+    "id": "product:indonesian-pattern-hydrant",
+    "expectedLang": "en"
+  },
+  {
+    "h1": "صنبور حريق بأسطوانة رطبة بالنمط الإندونيسي",
+    "lang": "ar",
+    "path": "/ar/products/indonesian-pattern-hydrant/index.html",
+    "scrollWidth": 305,
+    "width": 320,
+    "id": "product:indonesian-pattern-hydrant",
+    "expectedLang": "ar"
+  },
+  {
+    "h1": "Russian-Pattern Above-Ground Hydrant",
+    "lang": "en",
+    "path": "/products/%E5%AE%A4%E5%A4%96%E6%B6%88%E9%98%B2%E6%A0%93/russian-pattern-hydrant.html",
+    "scrollWidth": 305,
+    "width": 320,
+    "id": "product:russian-pattern-hydrant",
+    "expectedLang": "en"
+  },
+  {
+    "h1": "صنبور حريق فوق سطح الأرض بالنمط الروسي",
+    "lang": "ar",
+    "path": "/ar/products/russian-pattern-hydrant/index.html",
+    "scrollWidth": 305,
+    "width": 320,
+    "id": "product:russian-pattern-hydrant",
+    "expectedLang": "ar"
+  },
+  {
+    "h1": "Lever-Operated Fire Hose Nozzles",
+    "lang": "en",
+    "path": "/products/%E6%B6%88%E9%98%B2%E6%B0%B4%E6%9E%AA/lever-operated-fire-hose-nozzles.html",
+    "scrollWidth": 305,
+    "width": 320,
+    "id": "product:lever-operated-fire-hose-nozzles",
+    "expectedLang": "en"
+  },
+  {
+    "h1": "فوهات خراطيم حريق تعمل بذراع",
+    "lang": "ar",
+    "path": "/ar/products/lever-operated-fire-hose-nozzles/index.html",
+    "scrollWidth": 305,
+    "width": 320,
+    "id": "product:lever-operated-fire-hose-nozzles",
+    "expectedLang": "ar"
+  },
+  {
+    "h1": "Straight-Stream Fire Hose Nozzles",
+    "lang": "en",
+    "path": "/products/%E6%B6%88%E9%98%B2%E6%B0%B4%E6%9E%AA/straight-stream-fire-hose-nozzles.html",
+    "scrollWidth": 305,
+    "width": 320,
+    "id": "product:straight-stream-fire-hose-nozzles",
+    "expectedLang": "en"
+  },
+  {
+    "h1": "فوهات خراطيم حريق ذات نفث مستقيم",
+    "lang": "ar",
+    "path": "/ar/products/straight-stream-fire-hose-nozzles/index.html",
+    "scrollWidth": 305,
+    "width": 320,
+    "id": "product:straight-stream-fire-hose-nozzles",
+    "expectedLang": "ar"
+  },
+  {
+    "h1": "Combination Jet/Fog Nozzles",
+    "lang": "en",
+    "path": "/products/%E6%B6%88%E9%98%B2%E6%B0%B4%E6%9E%AA/combination-jet-fog-nozzles.html",
+    "scrollWidth": 305,
+    "width": 320,
+    "id": "product:combination-jet-fog-nozzles",
+    "expectedLang": "en"
+  },
+  {
+    "h1": "فوهات نفاثة/ضبابية مركبة",
+    "lang": "ar",
+    "path": "/ar/products/combination-jet-fog-nozzles/index.html",
+    "scrollWidth": 305,
+    "width": 320,
+    "id": "product:combination-jet-fog-nozzles",
+    "expectedLang": "ar"
+  },
+  {
+    "h1": "KD Hose Couplings",
+    "lang": "en",
+    "path": "/products/%E6%B6%88%E9%98%B2%E6%B0%B4%E6%9E%AA/kd-hose-couplings.html",
+    "scrollWidth": 305,
+    "width": 320,
+    "id": "product:kd-hose-couplings",
+    "expectedLang": "en"
+  },
+  {
+    "h1": "وصلات خراطيم KD",
+    "lang": "ar",
+    "path": "/ar/products/kd-hose-couplings/index.html",
+    "scrollWidth": 305,
+    "width": 320,
+    "id": "product:kd-hose-couplings",
+    "expectedLang": "ar"
+  },
+  {
+    "h1": "KN Threaded Adapters",
+    "lang": "en",
+    "path": "/products/%E6%B6%88%E9%98%B2%E6%B0%B4%E6%9E%AA/kn-threaded-adapters.html",
+    "scrollWidth": 305,
+    "width": 320,
+    "id": "product:kn-threaded-adapters",
+    "expectedLang": "en"
+  },
+  {
+    "h1": "محولات لولبية KN",
+    "lang": "ar",
+    "path": "/ar/products/kn-threaded-adapters/index.html",
+    "scrollWidth": 305,
+    "width": 320,
+    "id": "product:kn-threaded-adapters",
+    "expectedLang": "ar"
+  },
+  {
+    "h1": "Russian-Pattern Fire Department Connection",
+    "lang": "en",
+    "path": "/products/%E6%B6%88%E9%98%B2%E6%B0%B4%E6%B3%B5%E6%8E%A5%E5%90%88%E5%99%A8/russian-pattern-fire-department-connection.html",
+    "scrollWidth": 305,
+    "width": 320,
+    "id": "product:russian-pattern-fire-department-connection",
+    "expectedLang": "en"
+  },
+  {
+    "h1": "وصلة تغذية حريق بالنمط الروسي",
+    "lang": "ar",
+    "path": "/ar/products/russian-pattern-fire-department-connection/index.html",
+    "scrollWidth": 305,
+    "width": 320,
+    "id": "product:russian-pattern-fire-department-connection",
+    "expectedLang": "ar"
+  },
+  {
+    "h1": "Fire Equipment Cabinets",
+    "lang": "en",
+    "path": "/products/%E6%B6%88%E9%98%B2%E5%99%A8%E6%9D%90%E7%AE%B1/fire-equipment-cabinets.html",
+    "scrollWidth": 305,
+    "width": 320,
+    "id": "product:fire-equipment-cabinets",
+    "expectedLang": "en"
+  },
+  {
+    "h1": "خزائن معدات مكافحة الحريق",
+    "lang": "ar",
+    "path": "/ar/products/fire-equipment-cabinet-series/index.html",
+    "scrollWidth": 305,
+    "width": 320,
+    "id": "product:fire-equipment-cabinets",
+    "expectedLang": "ar"
+  },
+  {
+    "h1": "Compact Brass-Finish Fire Hose Valves",
+    "lang": "en",
+    "path": "/products/%E5%AE%A4%E5%86%85%E6%B6%88%E9%98%B2%E6%A0%93/catalog-brass-finish-hose-valves-page-07.html",
+    "scrollWidth": 305,
+    "width": 320,
+    "id": "product:catalog-brass-finish-hose-valves-page-07",
+    "expectedLang": "en"
+  },
+  {
+    "h1": "صمامات خراطيم حريق مدمجة بتشطيب نحاسي",
+    "lang": "ar",
+    "path": "/ar/products/catalog-brass-finish-hose-valves-page-07/index.html",
+    "scrollWidth": 305,
+    "width": 320,
+    "id": "product:catalog-brass-finish-hose-valves-page-07",
+    "expectedLang": "ar"
+  },
+  {
+    "h1": "Brass-Finish Fire Hose Valve Configurations",
+    "lang": "en",
+    "path": "/products/%E5%AE%A4%E5%86%85%E6%B6%88%E9%98%B2%E6%A0%93/catalog-brass-finish-hose-valves-page-08.html",
+    "scrollWidth": 305,
+    "width": 320,
+    "id": "product:catalog-brass-finish-hose-valves-page-08",
+    "expectedLang": "en"
+  },
+  {
+    "h1": "تكوينات صمامات خراطيم حريق بتشطيب نحاسي",
+    "lang": "ar",
+    "path": "/ar/products/catalog-brass-finish-hose-valves-page-08/index.html",
+    "scrollWidth": 305,
+    "width": 320,
+    "id": "product:catalog-brass-finish-hose-valves-page-08",
+    "expectedLang": "ar"
+  },
+  {
+    "h1": "Brass- and Silver-Finish Fire Hose Valves",
+    "lang": "en",
+    "path": "/products/%E5%AE%A4%E5%86%85%E6%B6%88%E9%98%B2%E6%A0%93/catalog-hose-valves-page-09.html",
+    "scrollWidth": 305,
+    "width": 320,
+    "id": "product:catalog-hose-valves-page-09",
+    "expectedLang": "en"
+  },
+  {
+    "h1": "صمامات خراطيم حريق بتشطيب نحاسي أو فضي",
+    "lang": "ar",
+    "path": "/ar/products/catalog-hose-valves-page-09/index.html",
+    "scrollWidth": 305,
+    "width": 320,
+    "id": "product:catalog-hose-valves-page-09",
+    "expectedLang": "ar"
+  },
+  {
+    "h1": "Regional-Connection Fire Hose Valves",
+    "lang": "en",
+    "path": "/products/%E5%AE%A4%E5%86%85%E6%B6%88%E9%98%B2%E6%A0%93/catalog-hose-valves-page-10.html",
+    "scrollWidth": 305,
+    "width": 320,
+    "id": "product:catalog-hose-valves-page-10",
+    "expectedLang": "en"
+  },
+  {
+    "h1": "صمامات خراطيم حريق بتوصيلات إقليمية",
+    "lang": "ar",
+    "path": "/ar/products/catalog-hose-valves-page-10/index.html",
+    "scrollWidth": 305,
+    "width": 320,
+    "id": "product:catalog-hose-valves-page-10",
+    "expectedLang": "ar"
+  },
+  {
+    "h1": "Flanged and Regional-Connection Fire Hose Valves",
+    "lang": "en",
+    "path": "/products/%E5%AE%A4%E5%86%85%E6%B6%88%E9%98%B2%E6%A0%93/catalog-hose-valves-page-11.html",
+    "scrollWidth": 305,
+    "width": 320,
+    "id": "product:catalog-hose-valves-page-11",
+    "expectedLang": "en"
+  },
+  {
+    "h1": "صمامات خراطيم حريق فلنجية وبتوصيلات إقليمية",
+    "lang": "ar",
+    "path": "/ar/products/catalog-hose-valves-page-11/index.html",
+    "scrollWidth": 305,
+    "width": 320,
+    "id": "product:catalog-hose-valves-page-11",
+    "expectedLang": "ar"
+  },
+  {
+    "h1": "French-, NH- and Threaded-Connection Fire Hose Valves",
+    "lang": "en",
+    "path": "/products/%E5%AE%A4%E5%86%85%E6%B6%88%E9%98%B2%E6%A0%93/catalog-hose-valves-page-12.html",
+    "scrollWidth": 305,
+    "width": 320,
+    "id": "product:catalog-hose-valves-page-12",
+    "expectedLang": "en"
+  },
+  {
+    "h1": "صمامات خراطيم حريق بتوصيلات فرنسية وNH ولولبية",
+    "lang": "ar",
+    "path": "/ar/products/catalog-hose-valves-page-12/index.html",
+    "scrollWidth": 305,
+    "width": 320,
+    "id": "product:catalog-hose-valves-page-12",
+    "expectedLang": "ar"
+  },
+  {
+    "h1": "Twin-Outlet Fire Service Connection Bodies",
+    "lang": "en",
+    "path": "/products/%E6%B6%88%E9%98%B2%E6%B0%B4%E6%B3%B5%E6%8E%A5%E5%90%88%E5%99%A8/catalog-twin-outlet-fire-connections-page-13.html",
+    "scrollWidth": 305,
+    "width": 320,
+    "id": "product:catalog-twin-outlet-fire-connections-page-13",
+    "expectedLang": "en"
+  },
+  {
+    "h1": "أجسام وصلات خدمة الحريق ثنائية المخرج",
+    "lang": "ar",
+    "path": "/ar/products/catalog-twin-outlet-fire-connections-page-13/index.html",
+    "scrollWidth": 305,
+    "width": 320,
+    "id": "product:catalog-twin-outlet-fire-connections-page-13",
+    "expectedLang": "ar"
+  },
+  {
+    "h1": "Hydrant Valves and Auxiliary Valves",
+    "lang": "en",
+    "path": "/products/%E5%AE%A4%E5%86%85%E6%B6%88%E9%98%B2%E6%A0%93/catalog-hydrant-auxiliary-valves-page-14.html",
+    "scrollWidth": 305,
+    "width": 320,
+    "id": "product:catalog-hydrant-auxiliary-valves-page-14",
+    "expectedLang": "en"
+  },
+  {
+    "h1": "صمامات محابس الحريق والصمامات المساعدة",
+    "lang": "ar",
+    "path": "/ar/products/catalog-hydrant-auxiliary-valves-page-14/index.html",
+    "scrollWidth": 305,
+    "width": 320,
+    "id": "product:catalog-hydrant-auxiliary-valves-page-14",
+    "expectedLang": "ar"
+  },
+  {
+    "h1": "Fire Service Connections and Two-Way Distributors",
+    "lang": "en",
+    "path": "/products/%E6%B6%88%E9%98%B2%E6%B0%B4%E6%B3%B5%E6%8E%A5%E5%90%88%E5%99%A8/catalog-fire-connections-distributors-page-15.html",
+    "scrollWidth": 305,
+    "width": 320,
+    "id": "product:catalog-fire-connections-distributors-page-15",
+    "expectedLang": "en"
+  },
+  {
+    "h1": "وصلات خدمة الحريق وموزعات ثنائية الاتجاه",
+    "lang": "ar",
+    "path": "/ar/products/catalog-fire-connections-distributors-page-15/index.html",
+    "scrollWidth": 305,
+    "width": 320,
+    "id": "product:catalog-fire-connections-distributors-page-15",
+    "expectedLang": "ar"
+  },
+  {
+    "h1": "Long Straight-Stream Fire Hose Nozzles",
+    "lang": "en",
+    "path": "/products/%E6%B6%88%E9%98%B2%E6%B0%B4%E6%9E%AA/catalog-long-straight-stream-nozzles-page-16.html",
+    "scrollWidth": 305,
+    "width": 320,
+    "id": "product:catalog-long-straight-stream-nozzles-page-16",
+    "expectedLang": "en"
+  },
+  {
+    "h1": "فوهات خراطيم حريق طويلة ذات نفث مستقيم",
+    "lang": "ar",
+    "path": "/ar/products/catalog-long-straight-stream-nozzles-page-16/index.html",
+    "scrollWidth": 305,
+    "width": 320,
+    "id": "product:catalog-long-straight-stream-nozzles-page-16",
+    "expectedLang": "ar"
+  },
+  {
+    "h1": "Compact Straight-Stream Fire Hose Nozzles",
+    "lang": "en",
+    "path": "/products/%E6%B6%88%E9%98%B2%E6%B0%B4%E6%9E%AA/catalog-compact-straight-stream-nozzles-page-17.html",
+    "scrollWidth": 305,
+    "width": 320,
+    "id": "product:catalog-compact-straight-stream-nozzles-page-17",
+    "expectedLang": "en"
+  },
+  {
+    "h1": "فوهات خراطيم حريق مدمجة ذات نفث مستقيم",
+    "lang": "ar",
+    "path": "/ar/products/catalog-compact-straight-stream-nozzles-page-17/index.html",
+    "scrollWidth": 305,
+    "width": 320,
+    "id": "product:catalog-compact-straight-stream-nozzles-page-17",
+    "expectedLang": "ar"
+  },
+  {
+    "h1": "Coupled and Lever-Operated Fire Hose Nozzles",
+    "lang": "en",
+    "path": "/products/%E6%B6%88%E9%98%B2%E6%B0%B4%E6%9E%AA/catalog-coupled-lever-nozzles-page-18.html",
+    "scrollWidth": 305,
+    "width": 320,
+    "id": "product:catalog-coupled-lever-nozzles-page-18",
+    "expectedLang": "en"
+  },
+  {
+    "h1": "فوهات خراطيم حريق مزودة بوصلات أو أذرع تشغيل",
+    "lang": "ar",
+    "path": "/ar/products/catalog-coupled-lever-nozzles-page-18/index.html",
+    "scrollWidth": 305,
+    "width": 320,
+    "id": "product:catalog-coupled-lever-nozzles-page-18",
+    "expectedLang": "ar"
+  },
+  {
+    "h1": "Nozzles, Foam Inductors and Fire Service Connections",
+    "lang": "en",
+    "path": "/products/%E6%B6%88%E9%98%B2%E6%B0%B4%E6%9E%AA/catalog-nozzles-inductors-connections-page-19.html",
+    "scrollWidth": 305,
+    "width": 320,
+    "id": "product:catalog-nozzles-inductors-connections-page-19",
+    "expectedLang": "en"
+  },
+  {
+    "h1": "فوهات ومحاثات رغوة ووصلات خدمة الحريق",
+    "lang": "ar",
+    "path": "/ar/products/catalog-nozzles-inductors-connections-page-19/index.html",
+    "scrollWidth": 305,
+    "width": 320,
+    "id": "product:catalog-nozzles-inductors-connections-page-19",
+    "expectedLang": "ar"
+  },
+  {
+    "h1": "Fire Hose Couplings — NH, GOST, UNI and BS 336",
+    "lang": "en",
+    "path": "/products/%E6%B6%88%E9%98%B2%E6%B0%B4%E6%9E%AA/catalog-fire-hose-couplings-page-20.html",
+    "scrollWidth": 305,
+    "width": 320,
+    "id": "product:catalog-fire-hose-couplings-page-20",
+    "expectedLang": "en"
+  },
+  {
+    "h1": "وصلات خراطيم حريق بنظم NH وGOST وUNI وBS 336",
+    "lang": "ar",
+    "path": "/ar/products/catalog-fire-hose-couplings-page-20/index.html",
+    "scrollWidth": 305,
+    "width": 320,
+    "id": "product:catalog-fire-hose-couplings-page-20",
+    "expectedLang": "ar"
+  },
+  {
+    "h1": "Fire Hose Couplings and Adapters",
+    "lang": "en",
+    "path": "/products/%E6%B6%88%E9%98%B2%E6%B0%B4%E6%9E%AA/catalog-fire-hose-adapters-page-21.html",
+    "scrollWidth": 305,
+    "width": 320,
+    "id": "product:catalog-fire-hose-adapters-page-21",
+    "expectedLang": "en"
+  },
+  {
+    "h1": "وصلات ومحولات خراطيم الحريق",
+    "lang": "ar",
+    "path": "/ar/products/catalog-fire-hose-adapters-page-21/index.html",
+    "scrollWidth": 305,
+    "width": 320,
+    "id": "product:catalog-fire-hose-adapters-page-21",
+    "expectedLang": "ar"
+  },
+  {
+    "h1": "Compact Spray Nozzles and Coupling Adapters",
+    "lang": "en",
+    "path": "/products/%E6%B6%88%E9%98%B2%E6%B0%B4%E6%9E%AA/catalog-compact-spray-nozzles-page-22.html",
+    "scrollWidth": 305,
+    "width": 320,
+    "id": "product:catalog-compact-spray-nozzles-page-22",
+    "expectedLang": "en"
+  },
+  {
+    "h1": "فوهات رش مدمجة ومحولات وصلات",
+    "lang": "ar",
+    "path": "/ar/products/catalog-compact-spray-nozzles-page-22/index.html",
+    "scrollWidth": 305,
+    "width": 320,
+    "id": "product:catalog-compact-spray-nozzles-page-22",
+    "expectedLang": "ar"
+  },
+  {
+    "h1": "Red-Grip Fire Hose Nozzles",
+    "lang": "en",
+    "path": "/products/%E6%B6%88%E9%98%B2%E6%B0%B4%E6%9E%AA/catalog-red-grip-nozzles-page-23.html",
+    "scrollWidth": 305,
+    "width": 320,
+    "id": "product:catalog-red-grip-nozzles-page-23",
+    "expectedLang": "en"
+  },
+  {
+    "h1": "فوهات خراطيم حريق بمقبض أحمر",
+    "lang": "ar",
+    "path": "/ar/products/catalog-red-grip-nozzles-page-23/index.html",
+    "scrollWidth": 305,
+    "width": 320,
+    "id": "product:catalog-red-grip-nozzles-page-23",
+    "expectedLang": "ar"
+  },
+  {
+    "h1": "Hose Tails and Threaded Adapters",
+    "lang": "en",
+    "path": "/products/%E6%B6%88%E9%98%B2%E6%B0%B4%E6%9E%AA/catalog-hose-tails-adapters-page-24.html",
+    "scrollWidth": 305,
+    "width": 320,
+    "id": "product:catalog-hose-tails-adapters-page-24",
+    "expectedLang": "en"
+  },
+  {
+    "h1": "نهايات خراطيم ومحولات لولبية",
+    "lang": "ar",
+    "path": "/ar/products/catalog-hose-tails-adapters-page-24/index.html",
+    "scrollWidth": 305,
+    "width": 320,
+    "id": "product:catalog-hose-tails-adapters-page-24",
+    "expectedLang": "ar"
+  },
+  {
+    "h1": "Threaded Adapters and Blank Caps",
+    "lang": "en",
+    "path": "/products/%E6%B6%88%E9%98%B2%E6%B0%B4%E6%9E%AA/catalog-threaded-adapters-caps-page-25.html",
+    "scrollWidth": 305,
+    "width": 320,
+    "id": "product:catalog-threaded-adapters-caps-page-25",
+    "expectedLang": "en"
+  },
+  {
+    "h1": "محولات لولبية وأغطية عمياء",
+    "lang": "ar",
+    "path": "/ar/products/catalog-threaded-adapters-caps-page-25/index.html",
+    "scrollWidth": 305,
+    "width": 320,
+    "id": "product:catalog-threaded-adapters-caps-page-25",
+    "expectedLang": "ar"
+  },
+  {
+    "h1": "Blank Caps and Threaded Plug Adapters",
+    "lang": "en",
+    "path": "/products/%E6%B6%88%E9%98%B2%E6%B0%B4%E6%9E%AA/catalog-blank-caps-plug-adapters-page-26.html",
+    "scrollWidth": 305,
+    "width": 320,
+    "id": "product:catalog-blank-caps-plug-adapters-page-26",
+    "expectedLang": "en"
+  },
+  {
+    "h1": "أغطية عمياء ومحولات سدادة لولبية",
+    "lang": "ar",
+    "path": "/ar/products/catalog-blank-caps-plug-adapters-page-26/index.html",
+    "scrollWidth": 305,
+    "width": 320,
+    "id": "product:catalog-blank-caps-plug-adapters-page-26",
+    "expectedLang": "ar"
+  },
+  {
+    "h1": "Fire Hose Reel Swivel Joints and Supports",
+    "lang": "en",
+    "path": "/products/%E8%BD%AF%E7%AE%A1%E5%8D%B7%E7%9B%98/catalog-hose-reel-parts-page-27.html",
+    "scrollWidth": 305,
+    "width": 320,
+    "id": "product:catalog-hose-reel-parts-page-27",
+    "expectedLang": "en"
+  },
+  {
+    "h1": "وصلات دوارة ودعامات لبكرات خراطيم الحريق",
+    "lang": "ar",
+    "path": "/ar/products/catalog-hose-reel-parts-page-27/index.html",
+    "scrollWidth": 305,
+    "width": 320,
+    "id": "product:catalog-hose-reel-parts-page-27",
+    "expectedLang": "ar"
+  },
+  {
+    "h1": "Fire Hose Assemblies and Hose Reels",
+    "lang": "en",
+    "path": "/products/%E8%BD%AF%E7%AE%A1%E5%8D%B7%E7%9B%98/catalog-hose-assemblies-reels-page-28.html",
+    "scrollWidth": 305,
+    "width": 320,
+    "id": "product:catalog-hose-assemblies-reels-page-28",
+    "expectedLang": "en"
+  },
+  {
+    "h1": "مجموعات خراطيم وبكرات خراطيم الحريق",
+    "lang": "ar",
+    "path": "/ar/products/catalog-hose-assemblies-reels-page-28/index.html",
+    "scrollWidth": 305,
+    "width": 320,
+    "id": "product:catalog-hose-assemblies-reels-page-28",
+    "expectedLang": "ar"
+  },
+  {
+    "h1": "Hose Reel, Extinguisher and Combined Cabinets",
+    "lang": "en",
+    "path": "/products/%E6%B6%88%E9%98%B2%E5%99%A8%E6%9D%90%E7%AE%B1/catalog-fire-cabinets-page-30.html",
+    "scrollWidth": 305,
+    "width": 320,
+    "id": "product:catalog-fire-cabinets-page-30",
+    "expectedLang": "en"
+  },
+  {
+    "h1": "خزائن بكرات الخراطيم وطفايات الحريق والخزائن المدمجة",
+    "lang": "ar",
+    "path": "/ar/products/catalog-fire-cabinets-page-30/index.html",
+    "scrollWidth": 305,
+    "width": 320,
+    "id": "product:catalog-fire-cabinets-page-30",
+    "expectedLang": "ar"
+  },
+  {
+    "h1": "Pillar and Standpipe Fire Hydrant Configurations",
+    "lang": "en",
+    "path": "/products/%E5%AE%A4%E5%A4%96%E6%B6%88%E9%98%B2%E6%A0%93/catalog-outdoor-hydrant-configurations-page-31.html",
+    "scrollWidth": 305,
+    "width": 320,
+    "id": "product:catalog-outdoor-hydrant-configurations-page-31",
+    "expectedLang": "en"
+  },
+  {
+    "h1": "تكوينات صنابير الحريق العمودية وأنابيب الصعود",
+    "lang": "ar",
+    "path": "/ar/products/catalog-outdoor-hydrant-configurations-page-31/index.html",
+    "scrollWidth": 305,
+    "width": 320,
+    "id": "product:catalog-outdoor-hydrant-configurations-page-31",
+    "expectedLang": "ar"
+  },
+  {
+    "h1": "Fire Sprinklers & System Components",
+    "lang": "en",
+    "path": "/index.html",
+    "scrollWidth": 1265,
+    "width": 1280,
+    "id": "home",
+    "expectedLang": "en"
+  },
+  {
+    "h1": "消防喷头与系统组件",
+    "lang": "zh-CN",
+    "path": "/zh/index.html",
+    "scrollWidth": 1265,
+    "width": 1280,
+    "id": "home",
+    "expectedLang": "zh"
+  },
+  {
+    "h1": "رشاشات الحريق ومكونات الأنظمة",
+    "lang": "ar",
+    "path": "/ar/index.html",
+    "scrollWidth": 1265,
+    "width": 1280,
+    "id": "home",
+    "expectedLang": "ar"
+  },
+  {
+    "h1": "Find your fire protection product.",
+    "lang": "en",
+    "path": "/products.html",
+    "scrollWidth": 1265,
+    "width": 1280,
+    "id": "products",
+    "expectedLang": "en"
+  },
+  {
+    "h1": "اعثر على منتج مكافحة الحريق المطلوب.",
+    "lang": "ar",
+    "path": "/ar/products.html",
+    "scrollWidth": 1265,
+    "width": 1280,
+    "id": "products",
+    "expectedLang": "ar"
+  },
+  {
+    "h1": "A manufacturing source for fire-water-system components",
+    "lang": "en",
+    "path": "/about.html",
+    "scrollWidth": 1265,
+    "width": 1280,
+    "id": "about",
+    "expectedLang": "en"
+  },
+  {
+    "h1": "جهة تصنيع لمكونات أنظمة مياه مكافحة الحريق",
+    "lang": "ar",
+    "path": "/ar/about.html",
+    "scrollWidth": 1265,
+    "width": 1280,
+    "id": "about",
+    "expectedLang": "ar"
+  },
+  {
+    "h1": "Available catalog and documents",
+    "lang": "en",
+    "path": "/downloads.html",
+    "scrollWidth": 1265,
+    "width": 1280,
+    "id": "downloads",
+    "expectedLang": "en"
+  },
+  {
+    "h1": "الكتالوج والوثائق المتاحة",
+    "lang": "ar",
+    "path": "/ar/downloads.html",
+    "scrollWidth": 1265,
+    "width": 1280,
+    "id": "downloads",
+    "expectedLang": "ar"
+  },
+  {
+    "h1": "Send your product or project requirement",
+    "lang": "en",
+    "path": "/contact.html",
+    "scrollWidth": 1265,
+    "width": 1280,
+    "id": "contact",
+    "expectedLang": "en"
+  },
+  {
+    "h1": "أرسل متطلبات المنتج أو المشروع",
+    "lang": "ar",
+    "path": "/ar/contact.html",
+    "scrollWidth": 1265,
+    "width": 1280,
+    "id": "contact",
+    "expectedLang": "ar"
+  },
+  {
+    "h1": "Foam-Water Nozzles",
+    "lang": "en",
+    "path": "/products/foam-nozzles.html",
+    "scrollWidth": 1265,
+    "width": 1280,
+    "id": "category:foam-nozzles",
+    "expectedLang": "en"
+  },
+  {
+    "h1": "فوهات الماء والرغوة",
+    "lang": "ar",
+    "path": "/ar/products/foam-nozzles/index.html",
+    "scrollWidth": 1265,
+    "width": 1280,
+    "id": "category:foam-nozzles",
+    "expectedLang": "ar"
+  },
+  {
+    "h1": "Fire Sprinklers",
+    "lang": "en",
+    "path": "/products/%E6%B6%88%E9%98%B2%E5%96%B7%E5%A4%B4.html",
+    "scrollWidth": 1265,
+    "width": 1280,
+    "id": "category:sprinklers",
+    "expectedLang": "en"
+  },
+  {
+    "h1": "رشاشات الحريق",
+    "lang": "ar",
+    "path": "/ar/products/sprinklers/index.html",
+    "scrollWidth": 1265,
+    "width": 1280,
+    "id": "category:sprinklers",
+    "expectedLang": "ar"
+  },
+  {
+    "h1": "Alarm & System Valves",
+    "lang": "en",
+    "path": "/products/%E6%B6%88%E9%98%B2%E9%98%80.html",
+    "scrollWidth": 1265,
+    "width": 1280,
+    "id": "category:system-valves",
+    "expectedLang": "en"
+  },
+  {
+    "h1": "صمامات الإنذار وصمامات الأنظمة",
+    "lang": "ar",
+    "path": "/ar/products/system-valves/index.html",
+    "scrollWidth": 1265,
+    "width": 1280,
+    "id": "category:system-valves",
+    "expectedLang": "ar"
+  },
+  {
+    "h1": "Fire Butterfly Valves",
+    "lang": "en",
+    "path": "/products/%E6%B6%88%E9%98%B2%E8%9D%B6%E9%98%80.html",
+    "scrollWidth": 1265,
+    "width": 1280,
+    "id": "category:butterfly-valves",
+    "expectedLang": "en"
+  },
+  {
+    "h1": "صمامات فراشة لمكافحة الحريق",
+    "lang": "ar",
+    "path": "/ar/products/butterfly-valves/index.html",
+    "scrollWidth": 1265,
+    "width": 1280,
+    "id": "category:butterfly-valves",
+    "expectedLang": "ar"
+  },
+  {
+    "h1": "Fire Gate Valves",
+    "lang": "en",
+    "path": "/products/%E6%B6%88%E9%98%B2%E9%98%80%E9%97%A8.html",
+    "scrollWidth": 1265,
+    "width": 1280,
+    "id": "category:gate-valves",
+    "expectedLang": "en"
+  },
+  {
+    "h1": "صمامات بوابة لمكافحة الحريق",
+    "lang": "ar",
+    "path": "/ar/products/gate-valves/index.html",
+    "scrollWidth": 1265,
+    "width": 1280,
+    "id": "category:gate-valves",
+    "expectedLang": "ar"
+  },
+  {
+    "h1": "Fire Hose Reels",
+    "lang": "en",
+    "path": "/products/%E8%BD%AF%E7%AE%A1%E5%8D%B7%E7%9B%98.html",
+    "scrollWidth": 1265,
+    "width": 1280,
+    "id": "category:hose-reels",
+    "expectedLang": "en"
+  },
+  {
+    "h1": "بكرات خراطيم الحريق",
+    "lang": "ar",
+    "path": "/ar/products/hose-reels/index.html",
+    "scrollWidth": 1265,
+    "width": 1280,
+    "id": "category:hose-reels",
+    "expectedLang": "ar"
+  },
+  {
+    "h1": "Fire Hose Nozzles, Couplings & Adapters",
+    "lang": "en",
+    "path": "/products/%E6%B6%88%E9%98%B2%E6%B0%B4%E6%9E%AA.html",
+    "scrollWidth": 1265,
+    "width": 1280,
+    "id": "category:hoses-nozzles-couplings",
+    "expectedLang": "en"
+  },
+  {
+    "h1": "فوهات خراطيم الحريق والوصلات والمهايئات",
+    "lang": "ar",
+    "path": "/ar/products/hoses-nozzles-couplings/index.html",
+    "scrollWidth": 1265,
+    "width": 1280,
+    "id": "category:hoses-nozzles-couplings",
+    "expectedLang": "ar"
+  },
+  {
+    "h1": "Indoor Fire Hydrants",
+    "lang": "en",
+    "path": "/products/%E5%AE%A4%E5%86%85%E6%B6%88%E9%98%B2%E6%A0%93/%E5%AE%A4%E5%86%85%E6%B6%88%E9%98%B2%E6%A0%93.html",
+    "scrollWidth": 1265,
+    "width": 1280,
+    "id": "category:indoor-hydrants",
+    "expectedLang": "en"
+  },
+  {
+    "h1": "محابس الحريق الداخلية",
+    "lang": "ar",
+    "path": "/ar/products/indoor-hydrants/index.html",
+    "scrollWidth": 1265,
+    "width": 1280,
+    "id": "category:indoor-hydrants",
+    "expectedLang": "ar"
+  },
+  {
+    "h1": "Outdoor Fire Hydrants",
+    "lang": "en",
+    "path": "/products/%E5%AE%A4%E5%A4%96%E6%B6%88%E9%98%B2%E6%A0%93/%E5%AE%A4%E5%A4%96%E6%B6%88%E9%98%B2%E6%A0%93.html",
+    "scrollWidth": 1265,
+    "width": 1280,
+    "id": "category:outdoor-hydrants",
+    "expectedLang": "en"
+  },
+  {
+    "h1": "صنابير الحريق الخارجية",
+    "lang": "ar",
+    "path": "/ar/products/outdoor-hydrants/index.html",
+    "scrollWidth": 1265,
+    "width": 1280,
+    "id": "category:outdoor-hydrants",
+    "expectedLang": "ar"
+  },
+  {
+    "h1": "Fire Department Connections",
+    "lang": "en",
+    "path": "/products/%E6%B6%88%E9%98%B2%E6%B0%B4%E6%B3%B5%E6%8E%A5%E5%90%88%E5%99%A8.html",
+    "scrollWidth": 1265,
+    "width": 1280,
+    "id": "category:fire-department-connections",
+    "expectedLang": "en"
+  },
+  {
+    "h1": "وصلات تزويد أنظمة الحريق بالمياه",
+    "lang": "ar",
+    "path": "/ar/products/fire-department-connections/index.html",
+    "scrollWidth": 1265,
+    "width": 1280,
+    "id": "category:fire-department-connections",
+    "expectedLang": "ar"
+  },
+  {
+    "h1": "Fire Equipment Cabinets",
+    "lang": "en",
+    "path": "/products/%E6%B6%88%E9%98%B2%E5%99%A8%E6%9D%90%E7%AE%B1.html",
+    "scrollWidth": 1265,
+    "width": 1280,
+    "id": "category:fire-equipment-cabinets",
+    "expectedLang": "en"
+  },
+  {
+    "h1": "خزائن معدات مكافحة الحريق",
+    "lang": "ar",
+    "path": "/ar/products/fire-equipment-cabinets/index.html",
+    "scrollWidth": 1265,
+    "width": 1280,
+    "id": "category:fire-equipment-cabinets",
+    "expectedLang": "ar"
+  },
+  {
+    "h1": "Wet Alarm Check Valve Assemblies",
+    "lang": "en",
+    "path": "/products/%E6%B6%88%E9%98%B2%E9%98%80/wet-alarm-check-valve-assemblies.html",
+    "scrollWidth": 1265,
+    "width": 1280,
+    "id": "product:wet-alarm-check-valve",
+    "expectedLang": "en"
+  },
+  {
+    "h1": "مجموعات صمام الإنذار الرطب",
+    "lang": "ar",
+    "path": "/ar/products/wet-alarm-check-valve/index.html",
+    "scrollWidth": 1265,
+    "width": 1280,
+    "id": "product:wet-alarm-check-valve",
+    "expectedLang": "ar"
+  },
+  {
+    "h1": "Diaphragm Deluge Valve",
+    "lang": "en",
+    "path": "/products/%E6%B6%88%E9%98%B2%E9%98%80/diaphragm-deluge-valves.html",
+    "scrollWidth": 1265,
+    "width": 1280,
+    "id": "product:diaphragm-deluge-valves",
+    "expectedLang": "en"
+  },
+  {
+    "h1": "صمام الغمر الغشائي",
+    "lang": "ar",
+    "path": "/ar/products/diaphragm-deluge-valves/index.html",
+    "scrollWidth": 1265,
+    "width": 1280,
+    "id": "product:diaphragm-deluge-valves",
+    "expectedLang": "ar"
+  },
+  {
+    "h1": "Preaction Valve Assemblies",
+    "lang": "en",
+    "path": "/products/%E6%B6%88%E9%98%B2%E9%98%80/preaction-valve-assemblies.html",
+    "scrollWidth": 1265,
+    "width": 1280,
+    "id": "product:preaction-valve-assemblies",
+    "expectedLang": "en"
+  },
+  {
+    "h1": "مجموعات صمامات الإجراء المسبق",
+    "lang": "ar",
+    "path": "/ar/products/preaction-valve-assemblies/index.html",
+    "scrollWidth": 1265,
+    "width": 1280,
+    "id": "product:preaction-valve-assemblies",
+    "expectedLang": "ar"
+  },
+  {
+    "h1": "Dry Pipe Alarm Valve",
+    "lang": "en",
+    "path": "/products/%E6%B6%88%E9%98%B2%E9%98%80/dry-pipe-alarm-valves.html",
+    "scrollWidth": 1265,
+    "width": 1280,
+    "id": "product:dry-pipe-alarm-valves",
+    "expectedLang": "en"
+  },
+  {
+    "h1": "صمام إنذار الأنابيب الجافة",
+    "lang": "ar",
+    "path": "/ar/products/dry-pipe-alarm-valves/index.html",
+    "scrollWidth": 1265,
+    "width": 1280,
+    "id": "product:dry-pipe-alarm-valves",
+    "expectedLang": "ar"
+  },
+  {
+    "h1": "Saddle-Type Waterflow Switches",
+    "lang": "en",
+    "path": "/products/%E6%B6%88%E9%98%B2%E9%98%80/saddle-type-waterflow-switches.html",
+    "scrollWidth": 1265,
+    "width": 1280,
+    "id": "product:saddle-type-waterflow-switches",
+    "expectedLang": "en"
+  },
+  {
+    "h1": "مفاتيح تدفق المياه من النوع السرجي",
+    "lang": "ar",
+    "path": "/ar/products/saddle-type-waterflow-switches/index.html",
+    "scrollWidth": 1265,
+    "width": 1280,
+    "id": "product:saddle-type-waterflow-switches",
+    "expectedLang": "ar"
+  },
+  {
+    "h1": "Closed-Type Rotating Fire Sprinkler",
+    "lang": "en",
+    "path": "/products/closed-rotating-fire-sprinkler.html",
+    "scrollWidth": 1265,
+    "width": 1280,
+    "id": "product:closed-rotating-fire-sprinkler",
+    "expectedLang": "en"
+  },
+  {
+    "h1": "رشاش حريق دوار مغلق",
+    "lang": "ar",
+    "path": "/ar/products/closed-rotating-fire-sprinkler/index.html",
+    "scrollWidth": 1265,
+    "width": 1280,
+    "id": "product:closed-rotating-fire-sprinkler",
+    "expectedLang": "ar"
+  },
+  {
+    "h1": "Closed-Type Centrifugal Fire Sprinklers",
+    "lang": "en",
+    "path": "/products/closed-centrifugal-fire-sprinklers.html",
+    "scrollWidth": 1265,
+    "width": 1280,
+    "id": "product:closed-centrifugal-fire-sprinklers",
+    "expectedLang": "en"
+  },
+  {
+    "h1": "رشاشات حريق مغلقة بالطرد المركزي",
+    "lang": "ar",
+    "path": "/ar/products/closed-centrifugal-fire-sprinklers/index.html",
+    "scrollWidth": 1265,
+    "width": 1280,
+    "id": "product:closed-centrifugal-fire-sprinklers",
+    "expectedLang": "ar"
+  },
+  {
+    "h1": "Tubular Foam-Water Nozzles",
+    "lang": "en",
+    "path": "/products/tubular-foam-water-nozzles.html",
+    "scrollWidth": 1265,
+    "width": 1280,
+    "id": "product:tubular-foam-water-nozzles",
+    "expectedLang": "en"
+  },
+  {
+    "h1": "فوهات أنبوبية للماء والرغوة",
+    "lang": "ar",
+    "path": "/ar/products/tubular-foam-water-nozzles/index.html",
+    "scrollWidth": 1265,
+    "width": 1280,
+    "id": "product:tubular-foam-water-nozzles",
+    "expectedLang": "ar"
+  },
+  {
+    "h1": "Closed-Type Air-Aspirating Foam-Water Sprinkler",
+    "lang": "en",
+    "path": "/products/closed-air-aspirating-foam-water-sprinkler.html",
+    "scrollWidth": 1265,
+    "width": 1280,
+    "id": "product:closed-air-aspirating-foam-water-sprinkler",
+    "expectedLang": "en"
+  },
+  {
+    "h1": "رشاش ماء ورغوة مغلق يسحب الهواء",
+    "lang": "ar",
+    "path": "/ar/products/closed-air-aspirating-foam-water-sprinkler/index.html",
+    "scrollWidth": 1265,
+    "width": 1280,
+    "id": "product:closed-air-aspirating-foam-water-sprinkler",
+    "expectedLang": "ar"
+  },
+  {
+    "h1": "Water Curtain Nozzles",
+    "lang": "en",
+    "path": "/products/%E6%B6%88%E9%98%B2%E5%96%B7%E5%A4%B4/water-curtain-nozzles.html",
+    "scrollWidth": 1265,
+    "width": 1280,
+    "id": "product:water-curtain-nozzles",
+    "expectedLang": "en"
+  },
+  {
+    "h1": "فوهات ستارة مائية",
+    "lang": "ar",
+    "path": "/ar/products/water-curtain-nozzles/index.html",
+    "scrollWidth": 1265,
+    "width": 1280,
+    "id": "product:water-curtain-nozzles",
+    "expectedLang": "ar"
+  },
+  {
+    "h1": "Water Mist Nozzles",
+    "lang": "en",
+    "path": "/products/%E6%B6%88%E9%98%B2%E5%96%B7%E5%A4%B4/water-mist-nozzles.html",
+    "scrollWidth": 1265,
+    "width": 1280,
+    "id": "product:water-mist-nozzles",
+    "expectedLang": "en"
+  },
+  {
+    "h1": "فوهات ضباب الماء",
+    "lang": "ar",
+    "path": "/ar/products/water-mist-nozzles/index.html",
+    "scrollWidth": 1265,
+    "width": 1280,
+    "id": "product:water-mist-nozzles",
+    "expectedLang": "ar"
+  },
+  {
+    "h1": "Standard Response Fire Sprinklers",
+    "lang": "en",
+    "path": "/products/%E6%B6%88%E9%98%B2%E5%96%B7%E5%A4%B4/standard-response-fire-sprinkler.html",
+    "scrollWidth": 1265,
+    "width": 1280,
+    "id": "product:standard-response-fire-sprinkler",
+    "expectedLang": "en"
+  },
+  {
+    "h1": "رشاشات الحريق ذات الاستجابة القياسية",
+    "lang": "ar",
+    "path": "/ar/products/standard-response-fire-sprinkler/index.html",
+    "scrollWidth": 1265,
+    "width": 1280,
+    "id": "product:standard-response-fire-sprinkler",
+    "expectedLang": "ar"
+  },
+  {
+    "h1": "Fusible-Alloy Fire Sprinklers",
+    "lang": "en",
+    "path": "/products/%E6%B6%88%E9%98%B2%E5%96%B7%E5%A4%B4/fusible-alloy-fire-sprinklers.html",
+    "scrollWidth": 1265,
+    "width": 1280,
+    "id": "product:fusible-alloy-fire-sprinklers",
+    "expectedLang": "en"
+  },
+  {
+    "h1": "رشاشات حريق بعنصر حراري قابل للانصهار",
+    "lang": "ar",
+    "path": "/ar/products/fusible-alloy-fire-sprinklers/index.html",
+    "scrollWidth": 1265,
+    "width": 1280,
+    "id": "product:fusible-alloy-fire-sprinklers",
+    "expectedLang": "ar"
+  },
+  {
+    "h1": "Quick Response Glass Bulb Sprinklers",
+    "lang": "en",
+    "path": "/products/%E6%B6%88%E9%98%B2%E5%96%B7%E5%A4%B4/glass-bulb-fire-sprinkler.html",
+    "scrollWidth": 1265,
+    "width": 1280,
+    "id": "product:glass-bulb-fire-sprinkler",
+    "expectedLang": "en"
+  },
+  {
+    "h1": "رشاشات زجاجية سريعة الاستجابة",
+    "lang": "ar",
+    "path": "/ar/products/glass-bulb-fire-sprinkler/index.html",
+    "scrollWidth": 1265,
+    "width": 1280,
+    "id": "product:glass-bulb-fire-sprinkler",
+    "expectedLang": "ar"
+  },
+  {
+    "h1": "Concealed Pendent Fire Sprinklers",
+    "lang": "en",
+    "path": "/products/%E6%B6%88%E9%98%B2%E5%96%B7%E5%A4%B4/concealed-pendent-fire-sprinkler.html",
+    "scrollWidth": 1265,
+    "width": 1280,
+    "id": "product:concealed-pendent-fire-sprinkler",
+    "expectedLang": "en"
+  },
+  {
+    "h1": "رشاشات حريق متدلية مخفية",
+    "lang": "ar",
+    "path": "/ar/products/concealed-pendent-fire-sprinkler/index.html",
+    "scrollWidth": 1265,
+    "width": 1280,
+    "id": "product:concealed-pendent-fire-sprinkler",
+    "expectedLang": "ar"
+  },
+  {
+    "h1": "Dry Pendent Fire Sprinklers",
+    "lang": "en",
+    "path": "/products/%E6%B6%88%E9%98%B2%E5%96%B7%E5%A4%B4/dry-pendent-fire-sprinklers.html",
+    "scrollWidth": 1265,
+    "width": 1280,
+    "id": "product:dry-pendent-fire-sprinklers",
+    "expectedLang": "en"
+  },
+  {
+    "h1": "رشاشات حريق جافة متدلية",
+    "lang": "ar",
+    "path": "/ar/products/dry-pendent-fire-sprinklers/index.html",
+    "scrollWidth": 1265,
+    "width": 1280,
+    "id": "product:dry-pendent-fire-sprinklers",
+    "expectedLang": "ar"
+  },
+  {
+    "h1": "Extended Coverage Quick Response Sprinklers",
+    "lang": "en",
+    "path": "/products/%E6%B6%88%E9%98%B2%E5%96%B7%E5%A4%B4/extended-coverage-quick-response-fire-sprinkler.html",
+    "scrollWidth": 1265,
+    "width": 1280,
+    "id": "product:extended-coverage-quick-response-fire-sprinkler",
+    "expectedLang": "en"
+  },
+  {
+    "h1": "رشاشات ذات تغطية موسعة واستجابة سريعة",
+    "lang": "ar",
+    "path": "/ar/products/extended-coverage-quick-response-fire-sprinkler/index.html",
+    "scrollWidth": 1265,
+    "width": 1280,
+    "id": "product:extended-coverage-quick-response-fire-sprinkler",
+    "expectedLang": "ar"
+  },
+  {
+    "h1": "Large K-Factor & ESFR Sprinklers",
+    "lang": "en",
+    "path": "/products/%E6%B6%88%E9%98%B2%E5%96%B7%E5%A4%B4/large-k-factor-esfr-sprinklers.html",
+    "scrollWidth": 1265,
+    "width": 1280,
+    "id": "product:large-k-factor-esfr-sprinklers",
+    "expectedLang": "en"
+  },
+  {
+    "h1": "رشاشات بمعامل ⁦K⁩ كبير ورشاشات ⁦ESFR⁩",
+    "lang": "ar",
+    "path": "/ar/products/large-k-factor-esfr-sprinklers/index.html",
+    "scrollWidth": 1265,
+    "width": 1280,
+    "id": "product:large-k-factor-esfr-sprinklers",
+    "expectedLang": "ar"
+  },
+  {
+    "h1": "RIA 25 Fire Hose Reel",
+    "lang": "en",
+    "path": "/products/%E8%BD%AF%E7%AE%A1%E5%8D%B7%E7%9B%98/ria25-fire-hose-reel.html",
+    "scrollWidth": 1265,
+    "width": 1280,
+    "id": "product:ria25-fire-hose-reel",
+    "expectedLang": "en"
+  },
+  {
+    "h1": "بكرة خرطوم الحريق ⁦RIA 25⁩",
+    "lang": "ar",
+    "path": "/ar/products/ria25-fire-hose-reel/index.html",
+    "scrollWidth": 1265,
+    "width": 1280,
+    "id": "product:ria25-fire-hose-reel",
+    "expectedLang": "ar"
+  },
+  {
+    "h1": "Straight-Stream Fire Hose Reel",
+    "lang": "en",
+    "path": "/products/%E8%BD%AF%E7%AE%A1%E5%8D%B7%E7%9B%98/straight-stream-fire-hose-reel.html",
+    "scrollWidth": 1265,
+    "width": 1280,
+    "id": "product:straight-stream-fire-hose-reel",
+    "expectedLang": "en"
+  },
+  {
+    "h1": "بكرة خرطوم حريق بنفث مستقيم",
+    "lang": "ar",
+    "path": "/ar/products/straight-stream-fire-hose-reel/index.html",
+    "scrollWidth": 1265,
+    "width": 1280,
+    "id": "product:straight-stream-fire-hose-reel",
+    "expectedLang": "ar"
+  },
+  {
+    "h1": "Jet / Spray Fire Hose Reel",
+    "lang": "en",
+    "path": "/products/%E8%BD%AF%E7%AE%A1%E5%8D%B7%E7%9B%98/jet-spray-fire-hose-reel.html",
+    "scrollWidth": 1265,
+    "width": 1280,
+    "id": "product:jet-spray-fire-hose-reel",
+    "expectedLang": "en"
+  },
+  {
+    "h1": "بكرة خرطوم حريق بنفث / رش",
+    "lang": "ar",
+    "path": "/ar/products/jet-spray-fire-hose-reel/index.html",
+    "scrollWidth": 1265,
+    "width": 1280,
+    "id": "product:jet-spray-fire-hose-reel",
+    "expectedLang": "ar"
+  },
+  {
+    "h1": "Heavy-Duty Fire Hose Reel",
+    "lang": "en",
+    "path": "/products/%E8%BD%AF%E7%AE%A1%E5%8D%B7%E7%9B%98/heavy-duty-fire-hose-reel.html",
+    "scrollWidth": 1265,
+    "width": 1280,
+    "id": "product:heavy-duty-fire-hose-reel",
+    "expectedLang": "en"
+  },
+  {
+    "h1": "بكرة خرطوم حريق للخدمة الشاقة",
+    "lang": "ar",
+    "path": "/ar/products/heavy-duty-fire-hose-reel/index.html",
+    "scrollWidth": 1265,
+    "width": 1280,
+    "id": "product:heavy-duty-fire-hose-reel",
+    "expectedLang": "ar"
+  },
+  {
+    "h1": "Lever-Operated Grooved Butterfly Valve",
+    "lang": "en",
+    "path": "/products/%E6%B6%88%E9%98%B2%E8%9D%B6%E9%98%80/lever-operated-grooved-butterfly-valves.html",
+    "scrollWidth": 1265,
+    "width": 1280,
+    "id": "product:lever-operated-grooved-butterfly-valves",
+    "expectedLang": "en"
+  },
+  {
+    "h1": "صمام فراشة محزز يعمل بذراع",
+    "lang": "ar",
+    "path": "/ar/products/lever-operated-grooved-butterfly-valves/index.html",
+    "scrollWidth": 1265,
+    "width": 1280,
+    "id": "product:lever-operated-grooved-butterfly-valves",
+    "expectedLang": "ar"
+  },
+  {
+    "h1": "Lever-Operated Wafer Butterfly Valve",
+    "lang": "en",
+    "path": "/products/%E6%B6%88%E9%98%B2%E8%9D%B6%E9%98%80/lever-operated-wafer-butterfly-valves.html",
+    "scrollWidth": 1265,
+    "width": 1280,
+    "id": "product:lever-operated-wafer-butterfly-valves",
+    "expectedLang": "en"
+  },
+  {
+    "h1": "صمام فراشة من نوع ويفر يعمل بذراع",
+    "lang": "ar",
+    "path": "/ar/products/lever-operated-wafer-butterfly-valves/index.html",
+    "scrollWidth": 1265,
+    "width": 1280,
+    "id": "product:lever-operated-wafer-butterfly-valves",
+    "expectedLang": "ar"
+  },
+  {
+    "h1": "Grooved Supervisory Butterfly Valve",
+    "lang": "en",
+    "path": "/products/%E6%B6%88%E9%98%B2%E8%9D%B6%E9%98%80/grooved-supervisory-butterfly-valves.html",
+    "scrollWidth": 1265,
+    "width": 1280,
+    "id": "product:grooved-supervisory-butterfly-valves",
+    "expectedLang": "en"
+  },
+  {
+    "h1": "صمام فراشة إشرافي مخدد",
+    "lang": "ar",
+    "path": "/ar/products/grooved-supervisory-butterfly-valves/index.html",
+    "scrollWidth": 1265,
+    "width": 1280,
+    "id": "product:grooved-supervisory-butterfly-valves",
+    "expectedLang": "ar"
+  },
+  {
+    "h1": "Wafer Supervisory Butterfly Valve",
+    "lang": "en",
+    "path": "/products/%E6%B6%88%E9%98%B2%E8%9D%B6%E9%98%80/wafer-supervisory-butterfly-valves.html",
+    "scrollWidth": 1265,
+    "width": 1280,
+    "id": "product:wafer-supervisory-butterfly-valves",
+    "expectedLang": "en"
+  },
+  {
+    "h1": "صمام فراشة إشرافي من نوع ويفر",
+    "lang": "ar",
+    "path": "/ar/products/wafer-supervisory-butterfly-valves/index.html",
+    "scrollWidth": 1265,
+    "width": 1280,
+    "id": "product:wafer-supervisory-butterfly-valves",
+    "expectedLang": "ar"
+  },
+  {
+    "h1": "Flanged Supervisory Gate Valve",
+    "lang": "en",
+    "path": "/products/%E6%B6%88%E9%98%B2%E9%98%80%E9%97%A8/flanged-supervisory-gate-valves.html",
+    "scrollWidth": 1265,
+    "width": 1280,
+    "id": "product:flanged-supervisory-gate-valves",
+    "expectedLang": "en"
+  },
+  {
+    "h1": "صمام بوابة إشرافي بفلنجات",
+    "lang": "ar",
+    "path": "/ar/products/flanged-supervisory-gate-valves/index.html",
+    "scrollWidth": 1265,
+    "width": 1280,
+    "id": "product:flanged-supervisory-gate-valves",
+    "expectedLang": "ar"
+  },
+  {
+    "h1": "Grooved Supervisory Gate Valve",
+    "lang": "en",
+    "path": "/products/%E6%B6%88%E9%98%B2%E9%98%80%E9%97%A8/grooved-supervisory-gate-valves.html",
+    "scrollWidth": 1265,
+    "width": 1280,
+    "id": "product:grooved-supervisory-gate-valves",
+    "expectedLang": "en"
+  },
+  {
+    "h1": "صمام بوابة إشرافي مخدد",
+    "lang": "ar",
+    "path": "/ar/products/grooved-supervisory-gate-valves/index.html",
+    "scrollWidth": 1265,
+    "width": 1280,
+    "id": "product:grooved-supervisory-gate-valves",
+    "expectedLang": "ar"
+  },
+  {
+    "h1": "NRS Gate Valve",
+    "lang": "en",
+    "path": "/products/%E6%B6%88%E9%98%B2%E9%98%80%E9%97%A8/nrs-gate-valves.html",
+    "scrollWidth": 1265,
+    "width": 1280,
+    "id": "product:nrs-gate-valves",
+    "expectedLang": "en"
+  },
+  {
+    "h1": "صمام بوابة بساق غير صاعد",
+    "lang": "ar",
+    "path": "/ar/products/nrs-gate-valves/index.html",
+    "scrollWidth": 1265,
+    "width": 1280,
+    "id": "product:nrs-gate-valves",
+    "expectedLang": "ar"
+  },
+  {
+    "h1": "OS&Y Gate Valve",
+    "lang": "en",
+    "path": "/products/%E6%B6%88%E9%98%B2%E9%98%80%E9%97%A8/osy-gate-valves.html",
+    "scrollWidth": 1265,
+    "width": 1280,
+    "id": "product:osy-gate-valves",
+    "expectedLang": "en"
+  },
+  {
+    "h1": "صمام بوابة ⁦OS⁩&⁦Y⁩",
+    "lang": "ar",
+    "path": "/ar/products/osy-gate-valves/index.html",
+    "scrollWidth": 1265,
+    "width": 1280,
+    "id": "product:osy-gate-valves",
+    "expectedLang": "ar"
+  },
+  {
+    "h1": "Standard Indoor Fire Hydrant",
+    "lang": "en",
+    "path": "/products/%E5%AE%A4%E5%86%85%E6%B6%88%E9%98%B2%E6%A0%93/standard-indoor-hydrant.html",
+    "scrollWidth": 1265,
+    "width": 1280,
+    "id": "product:standard-indoor-hydrant",
+    "expectedLang": "en"
+  },
+  {
+    "h1": "حنفية حريق داخلية قياسية",
+    "lang": "ar",
+    "path": "/ar/products/standard-indoor-hydrant/index.html",
+    "scrollWidth": 1265,
+    "width": 1280,
+    "id": "product:standard-indoor-hydrant",
+    "expectedLang": "ar"
+  },
+  {
+    "h1": "Export Slanted Single-Outlet Hydrant Valve",
+    "lang": "en",
+    "path": "/products/%E5%AE%A4%E5%86%85%E6%B6%88%E9%98%B2%E6%A0%93/export-slanted-hydrant-valve.html",
+    "scrollWidth": 1265,
+    "width": 1280,
+    "id": "product:export-slanted-hydrant-valve",
+    "expectedLang": "en"
+  },
+  {
+    "h1": "صمام حنفية حريق مائل بمخرج واحد للتصدير",
+    "lang": "ar",
+    "path": "/ar/products/export-slanted-hydrant-valve/index.html",
+    "scrollWidth": 1265,
+    "width": 1280,
+    "id": "product:export-slanted-hydrant-valve",
+    "expectedLang": "ar"
+  },
+  {
+    "h1": "Double-Outlet Indoor Fire Hydrant",
+    "lang": "en",
+    "path": "/products/%E5%AE%A4%E5%86%85%E6%B6%88%E9%98%B2%E6%A0%93/double-outlet-hydrant.html",
+    "scrollWidth": 1265,
+    "width": 1280,
+    "id": "product:double-outlet-hydrant",
+    "expectedLang": "en"
+  },
+  {
+    "h1": "حنفية حريق داخلية مزدوجة المخرج",
+    "lang": "ar",
+    "path": "/ar/products/double-outlet-hydrant/index.html",
+    "scrollWidth": 1265,
+    "width": 1280,
+    "id": "product:double-outlet-hydrant",
+    "expectedLang": "ar"
+  },
+  {
+    "h1": "Rotating & Pressure-Regulating Indoor Fire Hydrant",
+    "lang": "en",
+    "path": "/products/%E5%AE%A4%E5%86%85%E6%B6%88%E9%98%B2%E6%A0%93/rotating-pressure-regulating-hydrant.html",
+    "scrollWidth": 1265,
+    "width": 1280,
+    "id": "product:rotating-pressure-regulating-hydrant",
+    "expectedLang": "en"
+  },
+  {
+    "h1": "حنفية حريق داخلية دوارة ومنظمة للضغط",
+    "lang": "ar",
+    "path": "/ar/products/rotating-pressure-regulating-hydrant/index.html",
+    "scrollWidth": 1265,
+    "width": 1280,
+    "id": "product:rotating-pressure-regulating-hydrant",
+    "expectedLang": "ar"
+  },
+  {
+    "h1": "Straight-Through and Oblique Landing Valves",
+    "lang": "en",
+    "path": "/products/%E5%AE%A4%E5%86%85%E6%B6%88%E9%98%B2%E6%A0%93/straight-through-oblique-landing-valves.html",
+    "scrollWidth": 1265,
+    "width": 1280,
+    "id": "product:straight-through-oblique-landing-valves",
+    "expectedLang": "en"
+  },
+  {
+    "h1": "صمامات هبوط مستقيمة ومائلة",
+    "lang": "ar",
+    "path": "/ar/products/straight-through-oblique-landing-valves/index.html",
+    "scrollWidth": 1265,
+    "width": 1280,
+    "id": "product:straight-through-oblique-landing-valves",
+    "expectedLang": "ar"
+  },
+  {
+    "h1": "Horizontal-Handwheel Landing Valves",
+    "lang": "en",
+    "path": "/products/%E5%AE%A4%E5%86%85%E6%B6%88%E9%98%B2%E6%A0%93/horizontal-handwheel-landing-valves.html",
+    "scrollWidth": 1265,
+    "width": 1280,
+    "id": "product:horizontal-handwheel-landing-valves",
+    "expectedLang": "en"
+  },
+  {
+    "h1": "صمامات هبوط بعجلة تشغيل أفقية",
+    "lang": "ar",
+    "path": "/ar/products/horizontal-handwheel-landing-valves/index.html",
+    "scrollWidth": 1265,
+    "width": 1280,
+    "id": "product:horizontal-handwheel-landing-valves",
+    "expectedLang": "ar"
+  },
+  {
+    "h1": "British-Type Pillar Fire Hydrant (BS-750)",
+    "lang": "en",
+    "path": "/products/%E5%AE%A4%E5%A4%96%E6%B6%88%E9%98%B2%E6%A0%93/bs750-pillar-hydrant.html",
+    "scrollWidth": 1265,
+    "width": 1280,
+    "id": "product:bs750-pillar-hydrant",
+    "expectedLang": "en"
+  },
+  {
+    "h1": "صنبور حريق عمودي بالنمط البريطاني (⁦BS-750)⁩",
+    "lang": "ar",
+    "path": "/ar/products/bs750-pillar-hydrant/index.html",
+    "scrollWidth": 1265,
+    "width": 1280,
+    "id": "product:bs750-pillar-hydrant",
+    "expectedLang": "ar"
+  },
+  {
+    "h1": "French-Pattern Dry-Barrel Hydrant",
+    "lang": "en",
+    "path": "/products/%E5%AE%A4%E5%A4%96%E6%B6%88%E9%98%B2%E6%A0%93/french-pattern-hydrant.html",
+    "scrollWidth": 1265,
+    "width": 1280,
+    "id": "product:french-pattern-hydrant",
+    "expectedLang": "en"
+  },
+  {
+    "h1": "صنبور حريق بأسطوانة جافة بالنمط الفرنسي",
+    "lang": "ar",
+    "path": "/ar/products/french-pattern-hydrant/index.html",
+    "scrollWidth": 1265,
+    "width": 1280,
+    "id": "product:french-pattern-hydrant",
+    "expectedLang": "ar"
+  },
+  {
+    "h1": "Indonesian-Pattern Wet-Barrel Hydrant",
+    "lang": "en",
+    "path": "/products/%E5%AE%A4%E5%A4%96%E6%B6%88%E9%98%B2%E6%A0%93/indonesian-pattern-hydrant.html",
+    "scrollWidth": 1265,
+    "width": 1280,
+    "id": "product:indonesian-pattern-hydrant",
+    "expectedLang": "en"
+  },
+  {
+    "h1": "صنبور حريق بأسطوانة رطبة بالنمط الإندونيسي",
+    "lang": "ar",
+    "path": "/ar/products/indonesian-pattern-hydrant/index.html",
+    "scrollWidth": 1265,
+    "width": 1280,
+    "id": "product:indonesian-pattern-hydrant",
+    "expectedLang": "ar"
+  },
+  {
+    "h1": "Russian-Pattern Above-Ground Hydrant",
+    "lang": "en",
+    "path": "/products/%E5%AE%A4%E5%A4%96%E6%B6%88%E9%98%B2%E6%A0%93/russian-pattern-hydrant.html",
+    "scrollWidth": 1265,
+    "width": 1280,
+    "id": "product:russian-pattern-hydrant",
+    "expectedLang": "en"
+  },
+  {
+    "h1": "صنبور حريق فوق سطح الأرض بالنمط الروسي",
+    "lang": "ar",
+    "path": "/ar/products/russian-pattern-hydrant/index.html",
+    "scrollWidth": 1265,
+    "width": 1280,
+    "id": "product:russian-pattern-hydrant",
+    "expectedLang": "ar"
+  },
+  {
+    "h1": "Lever-Operated Fire Hose Nozzles",
+    "lang": "en",
+    "path": "/products/%E6%B6%88%E9%98%B2%E6%B0%B4%E6%9E%AA/lever-operated-fire-hose-nozzles.html",
+    "scrollWidth": 1265,
+    "width": 1280,
+    "id": "product:lever-operated-fire-hose-nozzles",
+    "expectedLang": "en"
+  },
+  {
+    "h1": "فوهات خراطيم حريق تعمل بذراع",
+    "lang": "ar",
+    "path": "/ar/products/lever-operated-fire-hose-nozzles/index.html",
+    "scrollWidth": 1265,
+    "width": 1280,
+    "id": "product:lever-operated-fire-hose-nozzles",
+    "expectedLang": "ar"
+  },
+  {
+    "h1": "Straight-Stream Fire Hose Nozzles",
+    "lang": "en",
+    "path": "/products/%E6%B6%88%E9%98%B2%E6%B0%B4%E6%9E%AA/straight-stream-fire-hose-nozzles.html",
+    "scrollWidth": 1265,
+    "width": 1280,
+    "id": "product:straight-stream-fire-hose-nozzles",
+    "expectedLang": "en"
+  },
+  {
+    "h1": "فوهات خراطيم حريق ذات نفث مستقيم",
+    "lang": "ar",
+    "path": "/ar/products/straight-stream-fire-hose-nozzles/index.html",
+    "scrollWidth": 1265,
+    "width": 1280,
+    "id": "product:straight-stream-fire-hose-nozzles",
+    "expectedLang": "ar"
+  },
+  {
+    "h1": "Combination Jet/Fog Nozzles",
+    "lang": "en",
+    "path": "/products/%E6%B6%88%E9%98%B2%E6%B0%B4%E6%9E%AA/combination-jet-fog-nozzles.html",
+    "scrollWidth": 1265,
+    "width": 1280,
+    "id": "product:combination-jet-fog-nozzles",
+    "expectedLang": "en"
+  },
+  {
+    "h1": "فوهات نفاثة/ضبابية مركبة",
+    "lang": "ar",
+    "path": "/ar/products/combination-jet-fog-nozzles/index.html",
+    "scrollWidth": 1265,
+    "width": 1280,
+    "id": "product:combination-jet-fog-nozzles",
+    "expectedLang": "ar"
+  },
+  {
+    "h1": "KD Hose Couplings",
+    "lang": "en",
+    "path": "/products/%E6%B6%88%E9%98%B2%E6%B0%B4%E6%9E%AA/kd-hose-couplings.html",
+    "scrollWidth": 1265,
+    "width": 1280,
+    "id": "product:kd-hose-couplings",
+    "expectedLang": "en"
+  },
+  {
+    "h1": "وصلات خراطيم KD",
+    "lang": "ar",
+    "path": "/ar/products/kd-hose-couplings/index.html",
+    "scrollWidth": 1265,
+    "width": 1280,
+    "id": "product:kd-hose-couplings",
+    "expectedLang": "ar"
+  },
+  {
+    "h1": "KN Threaded Adapters",
+    "lang": "en",
+    "path": "/products/%E6%B6%88%E9%98%B2%E6%B0%B4%E6%9E%AA/kn-threaded-adapters.html",
+    "scrollWidth": 1265,
+    "width": 1280,
+    "id": "product:kn-threaded-adapters",
+    "expectedLang": "en"
+  },
+  {
+    "h1": "محولات لولبية KN",
+    "lang": "ar",
+    "path": "/ar/products/kn-threaded-adapters/index.html",
+    "scrollWidth": 1265,
+    "width": 1280,
+    "id": "product:kn-threaded-adapters",
+    "expectedLang": "ar"
+  },
+  {
+    "h1": "Russian-Pattern Fire Department Connection",
+    "lang": "en",
+    "path": "/products/%E6%B6%88%E9%98%B2%E6%B0%B4%E6%B3%B5%E6%8E%A5%E5%90%88%E5%99%A8/russian-pattern-fire-department-connection.html",
+    "scrollWidth": 1265,
+    "width": 1280,
+    "id": "product:russian-pattern-fire-department-connection",
+    "expectedLang": "en"
+  },
+  {
+    "h1": "وصلة تغذية حريق بالنمط الروسي",
+    "lang": "ar",
+    "path": "/ar/products/russian-pattern-fire-department-connection/index.html",
+    "scrollWidth": 1265,
+    "width": 1280,
+    "id": "product:russian-pattern-fire-department-connection",
+    "expectedLang": "ar"
+  },
+  {
+    "h1": "Fire Equipment Cabinets",
+    "lang": "en",
+    "path": "/products/%E6%B6%88%E9%98%B2%E5%99%A8%E6%9D%90%E7%AE%B1/fire-equipment-cabinets.html",
+    "scrollWidth": 1265,
+    "width": 1280,
+    "id": "product:fire-equipment-cabinets",
+    "expectedLang": "en"
+  },
+  {
+    "h1": "خزائن معدات مكافحة الحريق",
+    "lang": "ar",
+    "path": "/ar/products/fire-equipment-cabinet-series/index.html",
+    "scrollWidth": 1265,
+    "width": 1280,
+    "id": "product:fire-equipment-cabinets",
+    "expectedLang": "ar"
+  },
+  {
+    "h1": "Compact Brass-Finish Fire Hose Valves",
+    "lang": "en",
+    "path": "/products/%E5%AE%A4%E5%86%85%E6%B6%88%E9%98%B2%E6%A0%93/catalog-brass-finish-hose-valves-page-07.html",
+    "scrollWidth": 1265,
+    "width": 1280,
+    "id": "product:catalog-brass-finish-hose-valves-page-07",
+    "expectedLang": "en"
+  },
+  {
+    "h1": "صمامات خراطيم حريق مدمجة بتشطيب نحاسي",
+    "lang": "ar",
+    "path": "/ar/products/catalog-brass-finish-hose-valves-page-07/index.html",
+    "scrollWidth": 1265,
+    "width": 1280,
+    "id": "product:catalog-brass-finish-hose-valves-page-07",
+    "expectedLang": "ar"
+  },
+  {
+    "h1": "Brass-Finish Fire Hose Valve Configurations",
+    "lang": "en",
+    "path": "/products/%E5%AE%A4%E5%86%85%E6%B6%88%E9%98%B2%E6%A0%93/catalog-brass-finish-hose-valves-page-08.html",
+    "scrollWidth": 1265,
+    "width": 1280,
+    "id": "product:catalog-brass-finish-hose-valves-page-08",
+    "expectedLang": "en"
+  },
+  {
+    "h1": "تكوينات صمامات خراطيم حريق بتشطيب نحاسي",
+    "lang": "ar",
+    "path": "/ar/products/catalog-brass-finish-hose-valves-page-08/index.html",
+    "scrollWidth": 1265,
+    "width": 1280,
+    "id": "product:catalog-brass-finish-hose-valves-page-08",
+    "expectedLang": "ar"
+  },
+  {
+    "h1": "Brass- and Silver-Finish Fire Hose Valves",
+    "lang": "en",
+    "path": "/products/%E5%AE%A4%E5%86%85%E6%B6%88%E9%98%B2%E6%A0%93/catalog-hose-valves-page-09.html",
+    "scrollWidth": 1265,
+    "width": 1280,
+    "id": "product:catalog-hose-valves-page-09",
+    "expectedLang": "en"
+  },
+  {
+    "h1": "صمامات خراطيم حريق بتشطيب نحاسي أو فضي",
+    "lang": "ar",
+    "path": "/ar/products/catalog-hose-valves-page-09/index.html",
+    "scrollWidth": 1265,
+    "width": 1280,
+    "id": "product:catalog-hose-valves-page-09",
+    "expectedLang": "ar"
+  },
+  {
+    "h1": "Regional-Connection Fire Hose Valves",
+    "lang": "en",
+    "path": "/products/%E5%AE%A4%E5%86%85%E6%B6%88%E9%98%B2%E6%A0%93/catalog-hose-valves-page-10.html",
+    "scrollWidth": 1265,
+    "width": 1280,
+    "id": "product:catalog-hose-valves-page-10",
+    "expectedLang": "en"
+  },
+  {
+    "h1": "صمامات خراطيم حريق بتوصيلات إقليمية",
+    "lang": "ar",
+    "path": "/ar/products/catalog-hose-valves-page-10/index.html",
+    "scrollWidth": 1265,
+    "width": 1280,
+    "id": "product:catalog-hose-valves-page-10",
+    "expectedLang": "ar"
+  },
+  {
+    "h1": "Flanged and Regional-Connection Fire Hose Valves",
+    "lang": "en",
+    "path": "/products/%E5%AE%A4%E5%86%85%E6%B6%88%E9%98%B2%E6%A0%93/catalog-hose-valves-page-11.html",
+    "scrollWidth": 1265,
+    "width": 1280,
+    "id": "product:catalog-hose-valves-page-11",
+    "expectedLang": "en"
+  },
+  {
+    "h1": "صمامات خراطيم حريق فلنجية وبتوصيلات إقليمية",
+    "lang": "ar",
+    "path": "/ar/products/catalog-hose-valves-page-11/index.html",
+    "scrollWidth": 1265,
+    "width": 1280,
+    "id": "product:catalog-hose-valves-page-11",
+    "expectedLang": "ar"
+  },
+  {
+    "h1": "French-, NH- and Threaded-Connection Fire Hose Valves",
+    "lang": "en",
+    "path": "/products/%E5%AE%A4%E5%86%85%E6%B6%88%E9%98%B2%E6%A0%93/catalog-hose-valves-page-12.html",
+    "scrollWidth": 1265,
+    "width": 1280,
+    "id": "product:catalog-hose-valves-page-12",
+    "expectedLang": "en"
+  },
+  {
+    "h1": "صمامات خراطيم حريق بتوصيلات فرنسية وNH ولولبية",
+    "lang": "ar",
+    "path": "/ar/products/catalog-hose-valves-page-12/index.html",
+    "scrollWidth": 1265,
+    "width": 1280,
+    "id": "product:catalog-hose-valves-page-12",
+    "expectedLang": "ar"
+  },
+  {
+    "h1": "Twin-Outlet Fire Service Connection Bodies",
+    "lang": "en",
+    "path": "/products/%E6%B6%88%E9%98%B2%E6%B0%B4%E6%B3%B5%E6%8E%A5%E5%90%88%E5%99%A8/catalog-twin-outlet-fire-connections-page-13.html",
+    "scrollWidth": 1265,
+    "width": 1280,
+    "id": "product:catalog-twin-outlet-fire-connections-page-13",
+    "expectedLang": "en"
+  },
+  {
+    "h1": "أجسام وصلات خدمة الحريق ثنائية المخرج",
+    "lang": "ar",
+    "path": "/ar/products/catalog-twin-outlet-fire-connections-page-13/index.html",
+    "scrollWidth": 1265,
+    "width": 1280,
+    "id": "product:catalog-twin-outlet-fire-connections-page-13",
+    "expectedLang": "ar"
+  },
+  {
+    "h1": "Hydrant Valves and Auxiliary Valves",
+    "lang": "en",
+    "path": "/products/%E5%AE%A4%E5%86%85%E6%B6%88%E9%98%B2%E6%A0%93/catalog-hydrant-auxiliary-valves-page-14.html",
+    "scrollWidth": 1265,
+    "width": 1280,
+    "id": "product:catalog-hydrant-auxiliary-valves-page-14",
+    "expectedLang": "en"
+  },
+  {
+    "h1": "صمامات محابس الحريق والصمامات المساعدة",
+    "lang": "ar",
+    "path": "/ar/products/catalog-hydrant-auxiliary-valves-page-14/index.html",
+    "scrollWidth": 1265,
+    "width": 1280,
+    "id": "product:catalog-hydrant-auxiliary-valves-page-14",
+    "expectedLang": "ar"
+  },
+  {
+    "h1": "Fire Service Connections and Two-Way Distributors",
+    "lang": "en",
+    "path": "/products/%E6%B6%88%E9%98%B2%E6%B0%B4%E6%B3%B5%E6%8E%A5%E5%90%88%E5%99%A8/catalog-fire-connections-distributors-page-15.html",
+    "scrollWidth": 1265,
+    "width": 1280,
+    "id": "product:catalog-fire-connections-distributors-page-15",
+    "expectedLang": "en"
+  },
+  {
+    "h1": "وصلات خدمة الحريق وموزعات ثنائية الاتجاه",
+    "lang": "ar",
+    "path": "/ar/products/catalog-fire-connections-distributors-page-15/index.html",
+    "scrollWidth": 1265,
+    "width": 1280,
+    "id": "product:catalog-fire-connections-distributors-page-15",
+    "expectedLang": "ar"
+  },
+  {
+    "h1": "Long Straight-Stream Fire Hose Nozzles",
+    "lang": "en",
+    "path": "/products/%E6%B6%88%E9%98%B2%E6%B0%B4%E6%9E%AA/catalog-long-straight-stream-nozzles-page-16.html",
+    "scrollWidth": 1265,
+    "width": 1280,
+    "id": "product:catalog-long-straight-stream-nozzles-page-16",
+    "expectedLang": "en"
+  },
+  {
+    "h1": "فوهات خراطيم حريق طويلة ذات نفث مستقيم",
+    "lang": "ar",
+    "path": "/ar/products/catalog-long-straight-stream-nozzles-page-16/index.html",
+    "scrollWidth": 1265,
+    "width": 1280,
+    "id": "product:catalog-long-straight-stream-nozzles-page-16",
+    "expectedLang": "ar"
+  },
+  {
+    "h1": "Compact Straight-Stream Fire Hose Nozzles",
+    "lang": "en",
+    "path": "/products/%E6%B6%88%E9%98%B2%E6%B0%B4%E6%9E%AA/catalog-compact-straight-stream-nozzles-page-17.html",
+    "scrollWidth": 1265,
+    "width": 1280,
+    "id": "product:catalog-compact-straight-stream-nozzles-page-17",
+    "expectedLang": "en"
+  },
+  {
+    "h1": "فوهات خراطيم حريق مدمجة ذات نفث مستقيم",
+    "lang": "ar",
+    "path": "/ar/products/catalog-compact-straight-stream-nozzles-page-17/index.html",
+    "scrollWidth": 1265,
+    "width": 1280,
+    "id": "product:catalog-compact-straight-stream-nozzles-page-17",
+    "expectedLang": "ar"
+  },
+  {
+    "h1": "Coupled and Lever-Operated Fire Hose Nozzles",
+    "lang": "en",
+    "path": "/products/%E6%B6%88%E9%98%B2%E6%B0%B4%E6%9E%AA/catalog-coupled-lever-nozzles-page-18.html",
+    "scrollWidth": 1265,
+    "width": 1280,
+    "id": "product:catalog-coupled-lever-nozzles-page-18",
+    "expectedLang": "en"
+  },
+  {
+    "h1": "فوهات خراطيم حريق مزودة بوصلات أو أذرع تشغيل",
+    "lang": "ar",
+    "path": "/ar/products/catalog-coupled-lever-nozzles-page-18/index.html",
+    "scrollWidth": 1265,
+    "width": 1280,
+    "id": "product:catalog-coupled-lever-nozzles-page-18",
+    "expectedLang": "ar"
+  },
+  {
+    "h1": "Nozzles, Foam Inductors and Fire Service Connections",
+    "lang": "en",
+    "path": "/products/%E6%B6%88%E9%98%B2%E6%B0%B4%E6%9E%AA/catalog-nozzles-inductors-connections-page-19.html",
+    "scrollWidth": 1265,
+    "width": 1280,
+    "id": "product:catalog-nozzles-inductors-connections-page-19",
+    "expectedLang": "en"
+  },
+  {
+    "h1": "فوهات ومحاثات رغوة ووصلات خدمة الحريق",
+    "lang": "ar",
+    "path": "/ar/products/catalog-nozzles-inductors-connections-page-19/index.html",
+    "scrollWidth": 1265,
+    "width": 1280,
+    "id": "product:catalog-nozzles-inductors-connections-page-19",
+    "expectedLang": "ar"
+  },
+  {
+    "h1": "Fire Hose Couplings — NH, GOST, UNI and BS 336",
+    "lang": "en",
+    "path": "/products/%E6%B6%88%E9%98%B2%E6%B0%B4%E6%9E%AA/catalog-fire-hose-couplings-page-20.html",
+    "scrollWidth": 1265,
+    "width": 1280,
+    "id": "product:catalog-fire-hose-couplings-page-20",
+    "expectedLang": "en"
+  },
+  {
+    "h1": "وصلات خراطيم حريق بنظم NH وGOST وUNI وBS 336",
+    "lang": "ar",
+    "path": "/ar/products/catalog-fire-hose-couplings-page-20/index.html",
+    "scrollWidth": 1265,
+    "width": 1280,
+    "id": "product:catalog-fire-hose-couplings-page-20",
+    "expectedLang": "ar"
+  },
+  {
+    "h1": "Fire Hose Couplings and Adapters",
+    "lang": "en",
+    "path": "/products/%E6%B6%88%E9%98%B2%E6%B0%B4%E6%9E%AA/catalog-fire-hose-adapters-page-21.html",
+    "scrollWidth": 1265,
+    "width": 1280,
+    "id": "product:catalog-fire-hose-adapters-page-21",
+    "expectedLang": "en"
+  },
+  {
+    "h1": "وصلات ومحولات خراطيم الحريق",
+    "lang": "ar",
+    "path": "/ar/products/catalog-fire-hose-adapters-page-21/index.html",
+    "scrollWidth": 1265,
+    "width": 1280,
+    "id": "product:catalog-fire-hose-adapters-page-21",
+    "expectedLang": "ar"
+  },
+  {
+    "h1": "Compact Spray Nozzles and Coupling Adapters",
+    "lang": "en",
+    "path": "/products/%E6%B6%88%E9%98%B2%E6%B0%B4%E6%9E%AA/catalog-compact-spray-nozzles-page-22.html",
+    "scrollWidth": 1265,
+    "width": 1280,
+    "id": "product:catalog-compact-spray-nozzles-page-22",
+    "expectedLang": "en"
+  },
+  {
+    "h1": "فوهات رش مدمجة ومحولات وصلات",
+    "lang": "ar",
+    "path": "/ar/products/catalog-compact-spray-nozzles-page-22/index.html",
+    "scrollWidth": 1265,
+    "width": 1280,
+    "id": "product:catalog-compact-spray-nozzles-page-22",
+    "expectedLang": "ar"
+  },
+  {
+    "h1": "Red-Grip Fire Hose Nozzles",
+    "lang": "en",
+    "path": "/products/%E6%B6%88%E9%98%B2%E6%B0%B4%E6%9E%AA/catalog-red-grip-nozzles-page-23.html",
+    "scrollWidth": 1265,
+    "width": 1280,
+    "id": "product:catalog-red-grip-nozzles-page-23",
+    "expectedLang": "en"
+  },
+  {
+    "h1": "فوهات خراطيم حريق بمقبض أحمر",
+    "lang": "ar",
+    "path": "/ar/products/catalog-red-grip-nozzles-page-23/index.html",
+    "scrollWidth": 1265,
+    "width": 1280,
+    "id": "product:catalog-red-grip-nozzles-page-23",
+    "expectedLang": "ar"
+  },
+  {
+    "h1": "Hose Tails and Threaded Adapters",
+    "lang": "en",
+    "path": "/products/%E6%B6%88%E9%98%B2%E6%B0%B4%E6%9E%AA/catalog-hose-tails-adapters-page-24.html",
+    "scrollWidth": 1265,
+    "width": 1280,
+    "id": "product:catalog-hose-tails-adapters-page-24",
+    "expectedLang": "en"
+  },
+  {
+    "h1": "نهايات خراطيم ومحولات لولبية",
+    "lang": "ar",
+    "path": "/ar/products/catalog-hose-tails-adapters-page-24/index.html",
+    "scrollWidth": 1265,
+    "width": 1280,
+    "id": "product:catalog-hose-tails-adapters-page-24",
+    "expectedLang": "ar"
+  },
+  {
+    "h1": "Threaded Adapters and Blank Caps",
+    "lang": "en",
+    "path": "/products/%E6%B6%88%E9%98%B2%E6%B0%B4%E6%9E%AA/catalog-threaded-adapters-caps-page-25.html",
+    "scrollWidth": 1265,
+    "width": 1280,
+    "id": "product:catalog-threaded-adapters-caps-page-25",
+    "expectedLang": "en"
+  },
+  {
+    "h1": "محولات لولبية وأغطية عمياء",
+    "lang": "ar",
+    "path": "/ar/products/catalog-threaded-adapters-caps-page-25/index.html",
+    "scrollWidth": 1265,
+    "width": 1280,
+    "id": "product:catalog-threaded-adapters-caps-page-25",
+    "expectedLang": "ar"
+  },
+  {
+    "h1": "Blank Caps and Threaded Plug Adapters",
+    "lang": "en",
+    "path": "/products/%E6%B6%88%E9%98%B2%E6%B0%B4%E6%9E%AA/catalog-blank-caps-plug-adapters-page-26.html",
+    "scrollWidth": 1265,
+    "width": 1280,
+    "id": "product:catalog-blank-caps-plug-adapters-page-26",
+    "expectedLang": "en"
+  },
+  {
+    "h1": "أغطية عمياء ومحولات سدادة لولبية",
+    "lang": "ar",
+    "path": "/ar/products/catalog-blank-caps-plug-adapters-page-26/index.html",
+    "scrollWidth": 1265,
+    "width": 1280,
+    "id": "product:catalog-blank-caps-plug-adapters-page-26",
+    "expectedLang": "ar"
+  },
+  {
+    "h1": "Fire Hose Reel Swivel Joints and Supports",
+    "lang": "en",
+    "path": "/products/%E8%BD%AF%E7%AE%A1%E5%8D%B7%E7%9B%98/catalog-hose-reel-parts-page-27.html",
+    "scrollWidth": 1265,
+    "width": 1280,
+    "id": "product:catalog-hose-reel-parts-page-27",
+    "expectedLang": "en"
+  },
+  {
+    "h1": "وصلات دوارة ودعامات لبكرات خراطيم الحريق",
+    "lang": "ar",
+    "path": "/ar/products/catalog-hose-reel-parts-page-27/index.html",
+    "scrollWidth": 1265,
+    "width": 1280,
+    "id": "product:catalog-hose-reel-parts-page-27",
+    "expectedLang": "ar"
+  },
+  {
+    "h1": "Fire Hose Assemblies and Hose Reels",
+    "lang": "en",
+    "path": "/products/%E8%BD%AF%E7%AE%A1%E5%8D%B7%E7%9B%98/catalog-hose-assemblies-reels-page-28.html",
+    "scrollWidth": 1265,
+    "width": 1280,
+    "id": "product:catalog-hose-assemblies-reels-page-28",
+    "expectedLang": "en"
+  },
+  {
+    "h1": "مجموعات خراطيم وبكرات خراطيم الحريق",
+    "lang": "ar",
+    "path": "/ar/products/catalog-hose-assemblies-reels-page-28/index.html",
+    "scrollWidth": 1265,
+    "width": 1280,
+    "id": "product:catalog-hose-assemblies-reels-page-28",
+    "expectedLang": "ar"
+  },
+  {
+    "h1": "Hose Reel, Extinguisher and Combined Cabinets",
+    "lang": "en",
+    "path": "/products/%E6%B6%88%E9%98%B2%E5%99%A8%E6%9D%90%E7%AE%B1/catalog-fire-cabinets-page-30.html",
+    "scrollWidth": 1265,
+    "width": 1280,
+    "id": "product:catalog-fire-cabinets-page-30",
+    "expectedLang": "en"
+  },
+  {
+    "h1": "خزائن بكرات الخراطيم وطفايات الحريق والخزائن المدمجة",
+    "lang": "ar",
+    "path": "/ar/products/catalog-fire-cabinets-page-30/index.html",
+    "scrollWidth": 1265,
+    "width": 1280,
+    "id": "product:catalog-fire-cabinets-page-30",
+    "expectedLang": "ar"
+  },
+  {
+    "h1": "Pillar and Standpipe Fire Hydrant Configurations",
+    "lang": "en",
+    "path": "/products/%E5%AE%A4%E5%A4%96%E6%B6%88%E9%98%B2%E6%A0%93/catalog-outdoor-hydrant-configurations-page-31.html",
+    "scrollWidth": 1265,
+    "width": 1280,
+    "id": "product:catalog-outdoor-hydrant-configurations-page-31",
+    "expectedLang": "en"
+  },
+  {
+    "h1": "تكوينات صنابير الحريق العمودية وأنابيب الصعود",
+    "lang": "ar",
+    "path": "/ar/products/catalog-outdoor-hydrant-configurations-page-31/index.html",
+    "scrollWidth": 1265,
+    "width": 1280,
+    "id": "product:catalog-outdoor-hydrant-configurations-page-31",
+    "expectedLang": "ar"
+  }
+]

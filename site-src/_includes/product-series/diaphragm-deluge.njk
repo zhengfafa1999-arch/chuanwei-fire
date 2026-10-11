@@ -98,7 +98,8 @@
       </div>
     </section>
 
-    <section class="pdp-cta" id="inquiry"><div class="pdp-container pdp-cta__in"><div><h2>{{ entry.text.sendYourDelugeValveSchedule }}</h2><p>{{ entry.text.includeSizeConnectionFlangeOrGrooveRequirementTrim }}</p></div><div class="pdp-actions"><a class="pdp-btn" href="https://wa.me/8617326528368?text=Hello%2C%20I%20need%20a%20quotation%20for%20Diaphragm%20Deluge%20Valves.%20Size%3A%20%5BDN%2Finch%5D%2C%20connection%3A%20%5Bflanged%2Fgrooved%5D%2C%20connection%20requirement%3A%20%5Bstandard%2Fdrawing%5D%2C%20trim%20requirements%3A%20%5Bdetails%5D%2C%20quantity%3A%20%5Bsets%5D%2C%20destination%3A%20%5Bcountry%5D." target="_blank" rel="noopener">{{ entry.text.whatsAppInquiry }}</a><a class="pdp-btn pdp-btn--ghost" href="mailto:zhengcolin1@gmail.com?subject=Diaphragm%20Deluge%20Valve%20Inquiry">{{ entry.text.emailSales }}</a></div></div></section>
+{% include "product-photos.njk" %}
+  <section class="pdp-cta" id="inquiry"><div class="pdp-container pdp-cta__in"><div><h2>{{ entry.text.sendYourDelugeValveSchedule }}</h2><p>{{ entry.text.includeSizeConnectionFlangeOrGrooveRequirementTrim }}</p></div><div class="pdp-actions"><a class="pdp-btn" href="https://wa.me/8617326528368?text=Hello%2C%20I%20need%20a%20quotation%20for%20Diaphragm%20Deluge%20Valves.%20Size%3A%20%5BDN%2Finch%5D%2C%20connection%3A%20%5Bflanged%2Fgrooved%5D%2C%20connection%20requirement%3A%20%5Bstandard%2Fdrawing%5D%2C%20trim%20requirements%3A%20%5Bdetails%5D%2C%20quantity%3A%20%5Bsets%5D%2C%20destination%3A%20%5Bcountry%5D." target="_blank" rel="noopener">{{ entry.text.whatsAppInquiry }}</a><a class="pdp-btn pdp-btn--ghost" href="{{ entry.emailHref }}">{{ entry.text.emailSales }}</a></div></div></section>
   </main>
 
 {% include "product-footer.njk" %}

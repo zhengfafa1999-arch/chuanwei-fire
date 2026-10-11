@@ -1,0 +1,30 @@
+{
+  "pages": [
+    {
+      "path": "products/消防阀/fire-pressure-switch.html",
+      "images": [
+        "assets/products/fire-pressure-switch/sample-1052.webp",
+        "assets/products/fire-pressure-switch/sample-1052.webp",
+        "assets/products/fire-pressure-switch/sample-1052.webp",
+        "assets/products/fire-pressure-switch/sample-1052.webp"
+      ],
+      "anchors": true,
+      "inquiry": true,
+      "unconfirmedRatingsAbsent": true
+    },
+    {
+      "path": "ar/products/fire-pressure-switch/index.html",
+      "images": [
+        "assets/products/fire-pressure-switch/sample-1052.webp",
+        "assets/products/fire-pressure-switch/sample-1052.webp",
+        "assets/products/fire-pressure-switch/sample-1052.webp",
+        "assets/products/fire-pressure-switch/sample-1052.webp"
+      ],
+      "anchors": true,
+      "inquiry": true,
+      "unconfirmedRatingsAbsent": true
+    }
+  ],
+  "existingPdfSha256": "4726e11252e8776a359b726a3d610937bd21913f3f68b13ae679b02a764146c8",
+  "browserVisualReview": "Attempted supported localhost browser preview; connection timed out. Desktop/mobile visual review remains pending."
+}

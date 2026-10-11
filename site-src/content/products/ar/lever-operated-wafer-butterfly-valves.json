@@ -51,7 +51,7 @@
   "internationalSizeAndConnectionAreThePrimarySelection": "المقاس الدولي ونوع التوصيل هما حقلا الاختيار الأساسيان. تُحتفظ بأكواد ZSDF{n0}-Q كمراجع للمصنع فقط.",
   "internationalConfiguration": "التكوين الدولي",
   "nominalSize": "المقاس الاسمي",
-  "factoryReference": "مرجع المصنع",
+  "factoryReference": "الموديل",
   "oEMODMCapability": "إمكانات OEM / ODM",
   "configuredToTheApprovedDrawingOrSample": "تكوين حسب الرسم المعتمد أو العينة",
   "manufacturingOptionsAreConfirmedAgainstTheBuyerS": "تُؤكد خيارات التصنيع وفق الجدول الفني للمشتري. تصف أسماء معايير التوصيل أنماط التشغيل المتاحة ولا تعني اعتماد المنتج من جهة خارجية.",

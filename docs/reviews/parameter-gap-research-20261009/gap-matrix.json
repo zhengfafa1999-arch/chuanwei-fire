@@ -1,0 +1,254 @@
+[
+  {
+    "product": "fire-equipment-cabinets",
+    "field": "factoryModel",
+    "status": "exact-order-data-needed",
+    "result": "已展示可供柜体尺寸和材料；型号、内装设备、安装、颜色及包装属于具体订单，不用网络他厂箱体配置代填。"
+  },
+  {
+    "product": "fire-equipment-cabinets",
+    "field": "imageScope",
+    "status": "exact-order-data-needed",
+    "result": "已展示可供柜体尺寸和材料；型号、内装设备、安装、颜色及包装属于具体订单，不用网络他厂箱体配置代填。"
+  },
+  {
+    "product": "fusible-alloy-fire-sprinklers",
+    "field": "threadForm",
+    "status": "no-exact-model-source-found",
+    "result": "121个阿里档案包没有匹配的易熔合金系列独立确认记录；不套用玻璃球喷头的压力、螺纹和镀层。"
+  },
+  {
+    "product": "fusible-alloy-fire-sprinklers",
+    "field": "workingPressure",
+    "status": "no-exact-model-source-found",
+    "result": "121个阿里档案包没有匹配的易熔合金系列独立确认记录；不套用玻璃球喷头的压力、螺纹和镀层。"
+  },
+  {
+    "product": "fusible-alloy-fire-sprinklers",
+    "field": "finish",
+    "status": "no-exact-model-source-found",
+    "result": "121个阿里档案包没有匹配的易熔合金系列独立确认记录；不套用玻璃球喷头的压力、螺纹和镀层。"
+  },
+  {
+    "product": "glass-bulb-fire-sprinkler",
+    "field": "documents",
+    "status": "document-coverage-needed",
+    "result": "已有快响尺寸与制造事实；缺项为同型号有效报告文件，其他厂家认证无法补充。"
+  },
+  {
+    "product": "horizontal-handwheel-landing-valves",
+    "field": "factoryModel",
+    "status": "partial-existing-confirmations",
+    "result": "HSW-011同型号档案支持2.5 in BSPT入口和2.5 in BS336出口，官网已展示。材质、压力及尺寸仍缺本型号依据；其他厂家水平阀仅参考。"
+  },
+  {
+    "product": "horizontal-handwheel-landing-valves",
+    "field": "materialAndFinish",
+    "status": "partial-existing-confirmations",
+    "result": "HSW-011同型号档案支持2.5 in BSPT入口和2.5 in BS336出口，官网已展示。材质、压力及尺寸仍缺本型号依据；其他厂家水平阀仅参考。"
+  },
+  {
+    "product": "horizontal-handwheel-landing-valves",
+    "field": "workingAndTestPressure",
+    "status": "working-options-confirmed-test-pressure-unconfirmed",
+    "result": "用户确认1.6/2.5 MPa两档工作压力，英阿主规格及询价提示同步。未建立型号与压力档位组合表，未推导试验压力。"
+  },
+  {
+    "product": "horizontal-handwheel-landing-valves",
+    "field": "interfaceCompatibility",
+    "status": "partial-existing-confirmations",
+    "result": "HSW-011同型号档案支持2.5 in BSPT入口和2.5 in BS336出口，官网已展示。材质、压力及尺寸仍缺本型号依据；其他厂家水平阀仅参考。"
+  },
+  {
+    "product": "horizontal-handwheel-landing-valves",
+    "field": "dimensionsAndAccessories",
+    "status": "partial-existing-confirmations",
+    "result": "HSW-011同型号档案支持2.5 in BSPT入口和2.5 in BS336出口，官网已展示。材质、压力及尺寸仍缺本型号依据；其他厂家水平阀仅参考。"
+  },
+  {
+    "product": "horizontal-handwheel-landing-valves",
+    "field": "packing",
+    "status": "partial-existing-confirmations",
+    "result": "HSW-011同型号档案支持2.5 in BSPT入口和2.5 in BS336出口，官网已展示。材质、压力及尺寸仍缺本型号依据；其他厂家水平阀仅参考。"
+  },
+  {
+    "product": "horizontal-handwheel-landing-valves",
+    "field": "imageScope",
+    "status": "partial-existing-confirmations",
+    "result": "HSW-011同型号档案支持2.5 in BSPT入口和2.5 in BS336出口，官网已展示。材质、压力及尺寸仍缺本型号依据；其他厂家水平阀仅参考。"
+  },
+  {
+    "product": "lever-operated-fire-hose-nozzles",
+    "field": "coupling",
+    "status": "already-in-configuration-details",
+    "result": "阿里2/2.5 in确认的铝合金、橡胶、BS336、0.7 MPa、200–250 L/min和9/12 mm已在独立配置中；不推广到未覆盖的1.5 in。"
+  },
+  {
+    "product": "lever-operated-fire-hose-nozzles",
+    "field": "material",
+    "status": "already-in-configuration-details",
+    "result": "阿里2/2.5 in确认的铝合金、橡胶、BS336、0.7 MPa、200–250 L/min和9/12 mm已在独立配置中；不推广到未覆盖的1.5 in。"
+  },
+  {
+    "product": "lever-operated-fire-hose-nozzles",
+    "field": "performance",
+    "status": "already-in-configuration-details",
+    "result": "阿里2/2.5 in确认的铝合金、橡胶、BS336、0.7 MPa、200–250 L/min和9/12 mm已在独立配置中；不推广到未覆盖的1.5 in。"
+  },
+  {
+    "product": "russian-pattern-fire-department-connection",
+    "field": "materialAndFinish",
+    "status": "conflicting-or-missing-exact-model-data",
+    "result": "65-16K-65同型号确认支持DN100底部法兰、2×DN65/KY66、1.6 MPa工作压力和2.4 MPa试验压力，官网已用；材质/涂层有冲突，缺法兰图纸与安装资料。"
+  },
+  {
+    "product": "russian-pattern-fire-department-connection",
+    "field": "internalConstruction",
+    "status": "conflicting-or-missing-exact-model-data",
+    "result": "65-16K-65同型号确认支持DN100底部法兰、2×DN65/KY66、1.6 MPa工作压力和2.4 MPa试验压力，官网已用；材质/涂层有冲突，缺法兰图纸与安装资料。"
+  },
+  {
+    "product": "russian-pattern-fire-department-connection",
+    "field": "interfaceCompatibility",
+    "status": "conflicting-or-missing-exact-model-data",
+    "result": "65-16K-65同型号确认支持DN100底部法兰、2×DN65/KY66、1.6 MPa工作压力和2.4 MPa试验压力，官网已用；材质/涂层有冲突，缺法兰图纸与安装资料。"
+  },
+  {
+    "product": "russian-pattern-fire-department-connection",
+    "field": "flangeDimensions",
+    "status": "conflicting-or-missing-exact-model-data",
+    "result": "65-16K-65同型号确认支持DN100底部法兰、2×DN65/KY66、1.6 MPa工作压力和2.4 MPa试验压力，官网已用；材质/涂层有冲突，缺法兰图纸与安装资料。"
+  },
+  {
+    "product": "russian-pattern-fire-department-connection",
+    "field": "installationRequirements",
+    "status": "conflicting-or-missing-exact-model-data",
+    "result": "65-16K-65同型号确认支持DN100底部法兰、2×DN65/KY66、1.6 MPa工作压力和2.4 MPa试验压力，官网已用；材质/涂层有冲突，缺法兰图纸与安装资料。"
+  },
+  {
+    "product": "russian-pattern-fire-department-connection",
+    "field": "packing",
+    "status": "conflicting-or-missing-exact-model-data",
+    "result": "65-16K-65同型号确认支持DN100底部法兰、2×DN65/KY66、1.6 MPa工作压力和2.4 MPa试验压力，官网已用；材质/涂层有冲突，缺法兰图纸与安装资料。"
+  },
+  {
+    "product": "russian-pattern-fire-department-connection",
+    "field": "imageScope",
+    "status": "conflicting-or-missing-exact-model-data",
+    "result": "65-16K-65同型号确认支持DN100底部法兰、2×DN65/KY66、1.6 MPa工作压力和2.4 MPa试验压力，官网已用；材质/涂层有冲突，缺法兰图纸与安装资料。"
+  },
+  {
+    "product": "saddle-type-waterflow-switches",
+    "field": "pipeFitAndDimensions",
+    "status": "no-matching-electrical-data",
+    "result": "zsjz-50-65档案已有口径等事实，但无本型号触点额定值、报警/复位流量、温度/IP范围。联塑ZSJZ同代号属于不同厂家，不导入其电气值。"
+  },
+  {
+    "product": "saddle-type-waterflow-switches",
+    "field": "contactRating",
+    "status": "user-selected-quotation-reference-exact-rating-unverified",
+    "result": "用户要求加入DC24V、0.5A触点容量，已作为询价参考同步英阿；本型号微动开关额定值仍需标识或规格核实。未作为供电电压，也未推导常开/常闭或AC参数。"
+  },
+  {
+    "product": "saddle-type-waterflow-switches",
+    "field": "alarmFlowAndReset",
+    "status": "no-matching-electrical-data",
+    "result": "zsjz-50-65档案已有口径等事实，但无本型号触点额定值、报警/复位流量、温度/IP范围。联塑ZSJZ同代号属于不同厂家，不导入其电气值。"
+  },
+  {
+    "product": "saddle-type-waterflow-switches",
+    "field": "temperatureAndProtection",
+    "status": "no-matching-electrical-data",
+    "result": "zsjz-50-65档案已有口径等事实，但无本型号触点额定值、报警/复位流量、温度/IP范围。联塑ZSJZ同代号属于不同厂家，不导入其电气值。"
+  },
+  {
+    "product": "saddle-type-waterflow-switches",
+    "field": "packing",
+    "status": "no-matching-electrical-data",
+    "result": "zsjz-50-65档案已有口径等事实，但无本型号触点额定值、报警/复位流量、温度/IP范围。联塑ZSJZ同代号属于不同厂家，不导入其电气值。"
+  },
+  {
+    "product": "standard-response-fire-sprinkler",
+    "field": "documents",
+    "status": "document-coverage-needed",
+    "result": "已展示已确认制造事实；缺项为有效报告文件，不用标准名称充当本型号认证。"
+  },
+  {
+    "product": "straight-stream-fire-hose-nozzles",
+    "field": "coupling",
+    "status": "already-in-configuration-details",
+    "result": "QZ3.5/7.5和俄式51/66的已确认规格已补官网；KD/KY等接口不能仅凭水枪照片推导兼容性。"
+  },
+  {
+    "product": "straight-through-oblique-landing-valves",
+    "field": "factoryModel",
+    "status": "partial-existing-confirmations",
+    "result": "DN65-BS336-PN16黄铜斜式配置已在官网的独立目录页。不能把它的PN16/材质推广到HS-010至HS-018全部选择。"
+  },
+  {
+    "product": "straight-through-oblique-landing-valves",
+    "field": "materialAndFinish",
+    "status": "partial-existing-confirmations",
+    "result": "DN65-BS336-PN16黄铜斜式配置已在官网的独立目录页。不能把它的PN16/材质推广到HS-010至HS-018全部选择。"
+  },
+  {
+    "product": "straight-through-oblique-landing-valves",
+    "field": "workingAndTestPressure",
+    "status": "working-options-confirmed-test-pressure-unconfirmed",
+    "result": "用户确认1.6/2.5 MPa两档工作压力，英阿主规格及询价提示同步。未建立型号与压力档位组合表，未推导试验压力。"
+  },
+  {
+    "product": "straight-through-oblique-landing-valves",
+    "field": "interfaceCompatibility",
+    "status": "partial-existing-confirmations",
+    "result": "DN65-BS336-PN16黄铜斜式配置已在官网的独立目录页。不能把它的PN16/材质推广到HS-010至HS-018全部选择。"
+  },
+  {
+    "product": "straight-through-oblique-landing-valves",
+    "field": "dimensionsAndAccessories",
+    "status": "partial-existing-confirmations",
+    "result": "DN65-BS336-PN16黄铜斜式配置已在官网的独立目录页。不能把它的PN16/材质推广到HS-010至HS-018全部选择。"
+  },
+  {
+    "product": "straight-through-oblique-landing-valves",
+    "field": "packing",
+    "status": "partial-existing-confirmations",
+    "result": "DN65-BS336-PN16黄铜斜式配置已在官网的独立目录页。不能把它的PN16/材质推广到HS-010至HS-018全部选择。"
+  },
+  {
+    "product": "straight-through-oblique-landing-valves",
+    "field": "imageScope",
+    "status": "partial-existing-confirmations",
+    "result": "DN65-BS336-PN16黄铜斜式配置已在官网的独立目录页。不能把它的PN16/材质推广到HS-010至HS-018全部选择。"
+  },
+  {
+    "product": "fire-equipment-cabinets",
+    "field": "mounting",
+    "status": "exact-order-data-needed",
+    "result": "已展示可供柜体尺寸和材料；型号、内装设备、安装、颜色及包装属于具体订单，不用网络他厂箱体配置代填。"
+  },
+  {
+    "product": "fire-equipment-cabinets",
+    "field": "internalEquipment",
+    "status": "exact-order-data-needed",
+    "result": "已展示可供柜体尺寸和材料；型号、内装设备、安装、颜色及包装属于具体订单，不用网络他厂箱体配置代填。"
+  },
+  {
+    "product": "fire-equipment-cabinets",
+    "field": "finishAndColor",
+    "status": "exact-order-data-needed",
+    "result": "已展示可供柜体尺寸和材料；型号、内装设备、安装、颜色及包装属于具体订单，不用网络他厂箱体配置代填。"
+  },
+  {
+    "product": "concealed-pendent-fire-sprinkler",
+    "field": "exact-model-pressure-size-bulb-material",
+    "status": "six-configurations-added",
+    "result": "ZSTDY115-79°C Q5A; ZSTDY115-93°C Q5A; ZSTDY80-57°C Q5A; ZSTDY80-79°C Q5A; ZSTDY80-93°C Q3A; ZSTDY80-141°C Q5A"
+  },
+  {
+    "product": "dry-pendent-fire-sprinklers",
+    "field": "frame-material",
+    "status": "resolved-by-current-user",
+    "result": "2026-10-09用户确认干式材质是不锈钢；主规格英阿同步为不锈钢，匹配档案的不锈钢框架、溅水盘和延长管补入本系列配置。"
+  }
+]

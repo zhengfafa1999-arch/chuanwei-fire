@@ -1,0 +1,21 @@
+{
+  "date": "2026-10-10",
+  "productId": "fire-pressure-switch",
+  "authority": "Direct user confirmation for compact photographed switch",
+  "response": "也采用 R1/2 外螺纹、额定工作压力1.6 MPa、动作压力0.035–0.05 MPa、触点容量DC24V/1A",
+  "confirmed": {
+    "threadValue": "R1/2",
+    "pressureValue": "1.6 MPa / 16 bar",
+    "actuationValue": "0.035–0.05 MPa / 0.35–0.5 bar",
+    "contactValue": "DC24V / 1A"
+  },
+  "safeConversions": {
+    "1.6 MPa": "16 bar",
+    "0.035–0.05 MPa": "0.35–0.5 bar"
+  },
+  "unresolved": [
+    "Exact model",
+    "Contact arrangement and wiring",
+    "Material and protection rating"
+  ]
+}

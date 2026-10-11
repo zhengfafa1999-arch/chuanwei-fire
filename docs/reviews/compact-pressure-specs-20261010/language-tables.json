@@ -1,0 +1,382 @@
+[
+  {
+    "id": "product:wet-alarm-check-valve",
+    "rows": 7,
+    "numericCellsMatch": true
+  },
+  {
+    "id": "product:diaphragm-deluge-valves",
+    "rows": 11,
+    "numericCellsMatch": true
+  },
+  {
+    "id": "product:preaction-valve-assemblies",
+    "rows": 9,
+    "numericCellsMatch": true
+  },
+  {
+    "id": "product:dry-pipe-alarm-valves",
+    "rows": 3,
+    "numericCellsMatch": true
+  },
+  {
+    "id": "product:saddle-type-waterflow-switches",
+    "rows": 7,
+    "numericCellsMatch": true
+  },
+  {
+    "id": "product:explosion-proof-waterflow-switches",
+    "rows": 8,
+    "numericCellsMatch": true
+  },
+  {
+    "id": "product:fire-pressure-switch",
+    "rows": 1,
+    "numericCellsMatch": true
+  },
+  {
+    "id": "product:explosion-proof-pressure-switch",
+    "rows": 1,
+    "numericCellsMatch": true
+  },
+  {
+    "id": "product:explosion-proof-solenoid-valve",
+    "rows": 1,
+    "numericCellsMatch": true
+  },
+  {
+    "id": "product:sprinkler-escutcheons-decorative-covers",
+    "rows": 3,
+    "numericCellsMatch": true
+  },
+  {
+    "id": "product:closed-rotating-fire-sprinkler",
+    "rows": 1,
+    "numericCellsMatch": true
+  },
+  {
+    "id": "product:closed-centrifugal-fire-sprinklers",
+    "rows": 6,
+    "numericCellsMatch": true
+  },
+  {
+    "id": "product:tubular-foam-water-nozzles",
+    "rows": 2,
+    "numericCellsMatch": true
+  },
+  {
+    "id": "product:closed-air-aspirating-foam-water-sprinkler",
+    "rows": 1,
+    "numericCellsMatch": true
+  },
+  {
+    "id": "product:water-curtain-nozzles",
+    "rows": 6,
+    "numericCellsMatch": true
+  },
+  {
+    "id": "product:water-mist-nozzles",
+    "rows": 6,
+    "numericCellsMatch": true
+  },
+  {
+    "id": "product:standard-response-fire-sprinkler",
+    "rows": 3,
+    "numericCellsMatch": true
+  },
+  {
+    "id": "product:fusible-alloy-fire-sprinklers",
+    "rows": 5,
+    "numericCellsMatch": true
+  },
+  {
+    "id": "product:glass-bulb-fire-sprinkler",
+    "rows": 2,
+    "numericCellsMatch": true
+  },
+  {
+    "id": "product:concealed-pendent-fire-sprinkler",
+    "rows": 4,
+    "numericCellsMatch": true
+  },
+  {
+    "id": "product:dry-pendent-fire-sprinklers",
+    "rows": 4,
+    "numericCellsMatch": true
+  },
+  {
+    "id": "product:extended-coverage-quick-response-fire-sprinkler",
+    "rows": 3,
+    "numericCellsMatch": true
+  },
+  {
+    "id": "product:large-k-factor-esfr-sprinklers",
+    "rows": 12,
+    "numericCellsMatch": true
+  },
+  {
+    "id": "product:ria25-fire-hose-reel",
+    "rows": 3,
+    "numericCellsMatch": true
+  },
+  {
+    "id": "product:straight-stream-fire-hose-reel",
+    "rows": 9,
+    "numericCellsMatch": true
+  },
+  {
+    "id": "product:jet-spray-fire-hose-reel",
+    "rows": 9,
+    "numericCellsMatch": true
+  },
+  {
+    "id": "product:heavy-duty-fire-hose-reel",
+    "rows": 6,
+    "numericCellsMatch": true
+  },
+  {
+    "id": "product:lever-operated-grooved-butterfly-valves",
+    "rows": 7,
+    "numericCellsMatch": true
+  },
+  {
+    "id": "product:lever-operated-wafer-butterfly-valves",
+    "rows": 7,
+    "numericCellsMatch": true
+  },
+  {
+    "id": "product:grooved-supervisory-butterfly-valves",
+    "rows": 3,
+    "numericCellsMatch": true
+  },
+  {
+    "id": "product:wafer-supervisory-butterfly-valves",
+    "rows": 3,
+    "numericCellsMatch": true
+  },
+  {
+    "id": "product:flanged-supervisory-gate-valves",
+    "rows": 6,
+    "numericCellsMatch": true
+  },
+  {
+    "id": "product:grooved-supervisory-gate-valves",
+    "rows": 6,
+    "numericCellsMatch": true
+  },
+  {
+    "id": "product:nrs-gate-valves",
+    "rows": 12,
+    "numericCellsMatch": true
+  },
+  {
+    "id": "product:osy-gate-valves",
+    "rows": 5,
+    "numericCellsMatch": true
+  },
+  {
+    "id": "product:standard-indoor-hydrant",
+    "rows": 1,
+    "numericCellsMatch": true
+  },
+  {
+    "id": "product:export-slanted-hydrant-valve",
+    "rows": 0,
+    "numericCellsMatch": true
+  },
+  {
+    "id": "product:double-outlet-hydrant",
+    "rows": 0,
+    "numericCellsMatch": true
+  },
+  {
+    "id": "product:rotating-pressure-regulating-hydrant",
+    "rows": 6,
+    "numericCellsMatch": true
+  },
+  {
+    "id": "product:straight-through-oblique-landing-valves",
+    "rows": 5,
+    "numericCellsMatch": true
+  },
+  {
+    "id": "product:horizontal-handwheel-landing-valves",
+    "rows": 5,
+    "numericCellsMatch": true
+  },
+  {
+    "id": "product:bs750-pillar-hydrant",
+    "rows": 5,
+    "numericCellsMatch": true
+  },
+  {
+    "id": "product:french-pattern-hydrant",
+    "rows": 5,
+    "numericCellsMatch": true
+  },
+  {
+    "id": "product:indonesian-pattern-hydrant",
+    "rows": 5,
+    "numericCellsMatch": true
+  },
+  {
+    "id": "product:russian-pattern-hydrant",
+    "rows": 5,
+    "numericCellsMatch": true
+  },
+  {
+    "id": "product:lever-operated-fire-hose-nozzles",
+    "rows": 5,
+    "numericCellsMatch": true
+  },
+  {
+    "id": "product:straight-stream-fire-hose-nozzles",
+    "rows": 2,
+    "numericCellsMatch": true
+  },
+  {
+    "id": "product:combination-jet-fog-nozzles",
+    "rows": 0,
+    "numericCellsMatch": true
+  },
+  {
+    "id": "product:kd-hose-couplings",
+    "rows": 0,
+    "numericCellsMatch": true
+  },
+  {
+    "id": "product:kn-threaded-adapters",
+    "rows": 0,
+    "numericCellsMatch": true
+  },
+  {
+    "id": "product:russian-pattern-fire-department-connection",
+    "rows": 1,
+    "numericCellsMatch": true
+  },
+  {
+    "id": "product:fire-equipment-cabinets",
+    "rows": 6,
+    "numericCellsMatch": true
+  },
+  {
+    "id": "product:catalog-brass-finish-hose-valves-page-07",
+    "rows": 5,
+    "numericCellsMatch": true
+  },
+  {
+    "id": "product:catalog-brass-finish-hose-valves-page-08",
+    "rows": 5,
+    "numericCellsMatch": true
+  },
+  {
+    "id": "product:catalog-hose-valves-page-09",
+    "rows": 5,
+    "numericCellsMatch": true
+  },
+  {
+    "id": "product:catalog-hose-valves-page-10",
+    "rows": 5,
+    "numericCellsMatch": true
+  },
+  {
+    "id": "product:catalog-hose-valves-page-11",
+    "rows": 5,
+    "numericCellsMatch": true
+  },
+  {
+    "id": "product:catalog-hose-valves-page-12",
+    "rows": 5,
+    "numericCellsMatch": true
+  },
+  {
+    "id": "product:catalog-twin-outlet-fire-connections-page-13",
+    "rows": 4,
+    "numericCellsMatch": true
+  },
+  {
+    "id": "product:catalog-hydrant-auxiliary-valves-page-14",
+    "rows": 5,
+    "numericCellsMatch": true
+  },
+  {
+    "id": "product:catalog-fire-connections-distributors-page-15",
+    "rows": 5,
+    "numericCellsMatch": true
+  },
+  {
+    "id": "product:catalog-long-straight-stream-nozzles-page-16",
+    "rows": 4,
+    "numericCellsMatch": true
+  },
+  {
+    "id": "product:catalog-compact-straight-stream-nozzles-page-17",
+    "rows": 5,
+    "numericCellsMatch": true
+  },
+  {
+    "id": "product:catalog-coupled-lever-nozzles-page-18",
+    "rows": 5,
+    "numericCellsMatch": true
+  },
+  {
+    "id": "product:catalog-nozzles-inductors-connections-page-19",
+    "rows": 4,
+    "numericCellsMatch": true
+  },
+  {
+    "id": "product:catalog-fire-hose-couplings-page-20",
+    "rows": 5,
+    "numericCellsMatch": true
+  },
+  {
+    "id": "product:catalog-fire-hose-adapters-page-21",
+    "rows": 5,
+    "numericCellsMatch": true
+  },
+  {
+    "id": "product:catalog-compact-spray-nozzles-page-22",
+    "rows": 5,
+    "numericCellsMatch": true
+  },
+  {
+    "id": "product:catalog-red-grip-nozzles-page-23",
+    "rows": 5,
+    "numericCellsMatch": true
+  },
+  {
+    "id": "product:catalog-hose-tails-adapters-page-24",
+    "rows": 6,
+    "numericCellsMatch": true
+  },
+  {
+    "id": "product:catalog-threaded-adapters-caps-page-25",
+    "rows": 5,
+    "numericCellsMatch": true
+  },
+  {
+    "id": "product:catalog-blank-caps-plug-adapters-page-26",
+    "rows": 5,
+    "numericCellsMatch": true
+  },
+  {
+    "id": "product:catalog-hose-reel-parts-page-27",
+    "rows": 5,
+    "numericCellsMatch": true
+  },
+  {
+    "id": "product:catalog-hose-assemblies-reels-page-28",
+    "rows": 4,
+    "numericCellsMatch": true
+  },
+  {
+    "id": "product:catalog-fire-cabinets-page-30",
+    "rows": 4,
+    "numericCellsMatch": true
+  },
+  {
+    "id": "product:catalog-outdoor-hydrant-configurations-page-31",
+    "rows": 4,
+    "numericCellsMatch": true
+  }
+]

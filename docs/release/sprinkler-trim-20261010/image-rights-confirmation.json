@@ -1,0 +1,30 @@
+{
+  "status": "confirmed",
+  "confirmedDate": "2026-10-10",
+  "scope": "CHUANWEI FIRE official website public display",
+  "authority": "Direct user request to reuse this Alibaba sprinkler decorative accessory package on the website",
+  "response": "阿里国际站有一个消防喷头的装饰配件，也一起放到官网上",
+  "images": [
+    {
+      "productId": "sprinkler-escutcheons-decorative-covers",
+      "path": "assets/products/sprinkler-trim/double-layer-escutcheon-1600.webp",
+      "sha256": "a876b9feb8af9ef9f98b081bcac78d6c9366d7717e97e47f318fba5c658d40ba",
+      "originalSha256": "a5133d9add60512d3735d0102abd2b7b1bad3ba9ae94df6ba9d20bd3851bd671",
+      "publishedTransform": "EXIF display orientation, proportional resize and WebP compression only; no crop, background replacement or retouching"
+    },
+    {
+      "productId": "sprinkler-escutcheons-decorative-covers",
+      "path": "assets/products/sprinkler-trim/single-layer-escutcheon-1600.webp",
+      "sha256": "db6d230aa96499f22d51b6f6fdb1c5251bd5f2a4191d8b0b5d61c9b38af1b6dd",
+      "originalSha256": "c508f3550153343475e3631bf74a52a6b361bcfb211e5ee3f968c957cfdae146",
+      "publishedTransform": "EXIF display orientation, proportional resize and WebP compression only; no crop, background replacement or retouching"
+    },
+    {
+      "productId": "sprinkler-escutcheons-decorative-covers",
+      "path": "assets/products/sprinkler-trim/white-round-cover-assembly-1600.webp",
+      "sha256": "cd838f6389be965d488652ffca3455d9e273c2a689408855266220a209a3e27c",
+      "originalSha256": "1b95a041ebced2c3ca0ef476409a8178fff83408941e093c000ef81084fae3bb",
+      "publishedTransform": "EXIF display orientation, proportional resize and WebP compression only; no crop, background replacement or retouching"
+    }
+  ]
+}

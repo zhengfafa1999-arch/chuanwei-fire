@@ -1,3 +1,8 @@
+import { versionedProductImage } from '../lib/public-asset-versions.js';
+import { productPhotos } from '../lib/product-photos.js';
+import { withReviewedProductMedia } from '../lib/reviewed-product-media.js';
+import { productEmailDraft, withInquiryDrafts } from "../lib/inquiry.js";
+import { productSupplement } from "../lib/product-supplements.js";
 import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
@@ -13,7 +18,7 @@ const readJson = file => JSON.parse(fs.readFileSync(file, "utf8"));
 function displayText(text, lang) {
   if (lang !== "ar") return text;
   return Object.fromEntries(Object.entries(text).map(([key, value]) => [key,
-    value.replace(/[A-Za-z0-9≥≤½¾][A-Za-z0-9 \t.:/(),≥≤–·+%°½¾-]*[A-Za-z0-9%½¾)]|[A-Za-z0-9½¾]/g, run => `\u2066${run}\u2069`)
+    /^(?:mailto:|https?:)/.test(value) ? value : value.replace(/[A-Za-z0-9≥≤½¾][A-Za-z0-9 \t.:/(),≥≤–·+%°½¾-]*[A-Za-z0-9%½¾)]|[A-Za-z0-9½¾]/g, run => `\u2066${run}\u2069`)
   ]));
 }
 
@@ -32,19 +37,23 @@ function resolveProductText(product, translations = {}, lang = "en") {
   return text;
 }
 
-const products = fs.readdirSync(productDirectory).filter(file => file.endsWith(".json")).map(file => readJson(path.join(productDirectory, file)));
+const products = fs.readdirSync(productDirectory).filter(file => file.endsWith(".json")).map(file => withReviewedProductMedia(readJson(path.join(productDirectory, file))));
 export default products.flatMap(product => ["en", "ar"].map(lang => {
   const route = createProductPageRoute(product.routeId, lang);
   const translations = lang === "en" ? {} : readJson(path.join(directory, "..", "content", "products", lang, `${product.id}.json`));
   const text = resolveProductText(product, translations, lang);
-  const media = Object.fromEntries(Object.entries(product.media).map(([key, source]) => [key, path.posix.relative(path.posix.dirname(route.outputPath), source)]));
+  const name = text.seoTitle.split(" | ")[0];
+  const media = Object.fromEntries(Object.entries(product.media).map(([key, source]) => [key, versionedProductImage(source, path.posix.relative(path.posix.dirname(route.outputPath), source))]));
   return {
-    product, route, text: displayText(text, lang), media, lang, dir: lang === "ar" ? "rtl" : "ltr",
+    photos: productPhotos(product.routeId, lang, route.assetPrefix),
+    supplement: productSupplement(product.routeId, lang, route.assetPrefix),
+    product: withInquiryDrafts(product, name, route.canonical, lang), route, text: displayText(withInquiryDrafts(text, name, route.canonical, lang), lang), media, lang, dir: lang === "ar" ? "rtl" : "ltr",
+    emailHref: productEmailDraft(name, route.canonical, lang),
     styles: product.styles || ["css/common.css", "css/sprinkler-product.css", "css/wet-alarm-valve-product.css", "css/site-navigation.css"],
     navigation: createSiteNavigation(product.routeId, lang, route.outputPath),
     seo: createSeoMetadata(product.routeId, lang, {
       title: text.seoTitle, description: text.seoDescription,
-      image: new URL(product.media.hero || product.media.flanged, `${SITE_ORIGIN}/`).href
+      image: new URL(versionedProductImage(product.media.hero || product.media.flanged), `${SITE_ORIGIN}/`).href
     })
   };
 }));

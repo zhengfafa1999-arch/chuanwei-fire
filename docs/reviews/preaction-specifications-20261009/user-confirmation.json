@@ -1,0 +1,43 @@
+{
+  "date": "2026-10-09",
+  "scope": "All preaction valve assembly models listed on the CHUANWEI FIRE website: flanged and grooved, standard and current designs.",
+  "userConfirmation": "都写进去，所有型号都是 有球墨铸铁、NBR 密封、镀锌管路、黄铜配件、环氧涂层、DC 24V，公称压力 1.6 MPa",
+  "confirmed": {
+    "body": "Ductile iron",
+    "seals": "NBR",
+    "externalTrimPiping": "Galvanized steel",
+    "valveComponents": "Brass",
+    "finish": "Epoxy coating",
+    "solenoidVoltage": "DC 24 V",
+    "nominalPressure": "1.6 MPa"
+  },
+  "pressureMeaning": "Nominal pressure only; not a new maximum working pressure, test pressure, or foreign pressure-class claim.",
+  "supersedes": "Earlier uncertainty and flanged-only scope for these seven specifications. Does not confirm interlock logic, groove dimensions, approval, packing, model-to-body mapping or undocumented dimensions.",
+  "reviewedEnglishCopyChanges": [
+    [
+      "Working pressure",
+      "Nominal pressure"
+    ],
+    [
+      "To be confirmed for the selected model",
+      "1.6 MPa"
+    ],
+    [
+      "Available on request; confirmed against the approved order",
+      "Ductile iron body; NBR seals; galvanized steel trim piping; brass valve components; epoxy coating; DC 24 V solenoid"
+    ],
+    [
+      "The photograph shows one assembled flanged configuration. Final components and dimensions depend on the selected model and approved project schedule.",
+      "The standard materials, solenoid voltage and nominal pressure below apply to all listed flanged and grooved models, including standard and current designs. Final assembly dimensions depend on the selected model."
+    ],
+    [
+      "Voltage and component requirements confirmed before production.",
+      "DC 24 V solenoid; control interfaces and additional components are specified for the project."
+    ],
+    [
+      "Clear project data without unsupported claims.",
+      "Materials and nominal pressure"
+    ]
+  ],
+  "editorialUpdate": "2026-10-09: buyer-facing specification heading; no technical value changes."
+}

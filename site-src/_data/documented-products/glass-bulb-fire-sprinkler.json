@@ -14,7 +14,19 @@
     "catalogPage": 6,
     "handoffRecord": "catalog-p06",
     "supplementalRecord": "chuanwei-fire-commerce/玻璃球洒水喷头-ZST-80-68℃",
-    "evidence": "A-user for quick-response classification and confirmed product facts; B-derived-approved-catalog for route association only"
+    "evidence": "A-user for quick-response classification and confirmed product facts; B-derived-approved-catalog for route association only",
+    "seriesReview": {
+      "date": "2026-10-09",
+      "status": "local-series-update-ready-for-review",
+      "bulbEvidence": "Standing user-confirmed quick-response 3 mm glass bulb, also retained in archived K-ZST website supplement.",
+      "conflict": "Main pictured configuration records upper stainless structure/copper threaded body; K-ZST archive records copper frame. No material reassignment until user clarifies same or distinct configurations.",
+      "unresolved": [
+        "Exact factory model mapping for the main photo configuration",
+        "Shipping-carton details deferred; not a completion blocker"
+      ],
+      "userConfirmation": "与标准响应系列相同  ，上部不锈钢、螺纹连接体为铜  这个内容不用修改",
+      "confirmedScope": "Default BSPT, optional NPT, chrome-plated finish and 100 pieces per box; retain existing upper-stainless/threaded-copper material description. Does not extend standard-response temperature options or model codes to quick-response configurations."
+    }
   },
   "publication": {
     "status": "release-candidate",
@@ -28,49 +40,143 @@
     "packing": "products/消防喷头/glass-bulb-sprinkler/quick-response-real-packing.jpg"
   },
   "imageDimensions": {
-    "hero": { "width": 865, "height": 1200 },
-    "upright": { "width": 718, "height": 1200 },
-    "packing": { "width": 1279, "height": 1706 }
+    "hero": {
+      "width": 865,
+      "height": 1200
+    },
+    "upright": {
+      "width": 718,
+      "height": 1200
+    },
+    "packing": {
+      "width": 1279,
+      "height": 1706
+    }
   },
-  "heroFacts": ["kFactorValue", "connectionValue", "installationValue", "temperatureValue"],
+  "heroFacts": [
+    "kFactorValue",
+    "connectionValue",
+    "installationValue",
+    "temperatureValue"
+  ],
   "shared": {
     "kFactorValue": "K80 ±4 metric / nominal K5.6 US",
     "connectionValue": "DN15 / ½ in nominal connection",
     "installationValue": "Pendent / Upright",
     "temperatureValue": "68°C / 155°F · red glass bulb",
     "productTypeValue": "Quick-response automatic fire sprinkler",
-    "thermalElementValue": "Red glass bulb",
+    "thermalElementValue": "3 mm red glass bulb",
     "workingPressureValue": "1.21 MPa / 12.1 bar / approx. 175 psi",
     "materialsValue": "Upper structure: stainless steel; threaded body: copper",
     "systemApplicationValue": "Wet-pipe automatic sprinkler systems",
-    "unitWeightValue": "Approx. 50 g"
+    "unitWeightValue": "Approx. 50 g",
+    "piecesPerBoxValue": "100 pcs / box"
   },
   "gallery": [
-    { "media": "hero", "alt": "pendentAlt", "caption": "pendent", "thumbnailAlt": "pendentThumbnail" },
-    { "media": "upright", "alt": "uprightAlt", "caption": "upright", "thumbnailAlt": "uprightThumbnail" },
-    { "media": "packing", "alt": "packingAlt", "caption": "representativePacking", "thumbnailAlt": "packingThumbnail" }
+    {
+      "media": "hero",
+      "alt": "pendentAlt",
+      "caption": "pendent",
+      "thumbnailAlt": "pendentThumbnail"
+    },
+    {
+      "media": "upright",
+      "alt": "uprightAlt",
+      "caption": "upright",
+      "thumbnailAlt": "uprightThumbnail"
+    },
+    {
+      "media": "packing",
+      "alt": "packingAlt",
+      "caption": "representativePacking",
+      "thumbnailAlt": "packingThumbnail"
+    }
   ],
   "specifications": [
-    { "label": "productType", "value": "productTypeValue" },
-    { "label": "installation", "value": "installationValue", "technical": true },
-    { "label": "nominalConnection", "value": "connectionValue", "technical": true },
-    { "label": "kFactor", "value": "kFactorValue", "technical": true },
-    { "label": "thermalElement", "value": "thermalElementValue" },
-    { "label": "temperature", "value": "temperatureValue", "technical": true },
-    { "label": "workingPressure", "value": "workingPressureValue", "technical": true },
-    { "label": "materials", "value": "materialsValue" },
-    { "label": "systemApplication", "value": "systemApplicationValue" },
-    { "label": "unitWeight", "value": "unitWeightValue" },
-    { "label": "threadForm", "value": "confirmWithQuotation" },
-    { "label": "finish", "value": "confirmWithQuotation" },
-    { "label": "documents", "value": "confirmWithQuotation" },
-    { "label": "packing", "value": "confirmWithQuotation" }
+    {
+      "label": "productType",
+      "value": "productTypeValue"
+    },
+    {
+      "label": "installation",
+      "value": "installationValue",
+      "technical": true
+    },
+    {
+      "label": "nominalConnection",
+      "value": "connectionValue",
+      "technical": true
+    },
+    {
+      "label": "kFactor",
+      "value": "kFactorValue",
+      "technical": true
+    },
+    {
+      "label": "thermalElement",
+      "value": "thermalElementValue"
+    },
+    {
+      "label": "temperature",
+      "value": "temperatureValue",
+      "technical": true
+    },
+    {
+      "label": "workingPressure",
+      "value": "workingPressureValue",
+      "technical": true
+    },
+    {
+      "label": "materials",
+      "value": "materialsValue"
+    },
+    {
+      "label": "systemApplication",
+      "value": "systemApplicationValue"
+    },
+    {
+      "label": "unitWeight",
+      "value": "unitWeightValue"
+    },
+    {
+      "label": "threadForm",
+      "value": "threadFormValue"
+    },
+    {
+      "label": "finish",
+      "value": "finishValue"
+    },
+    {
+      "label": "piecesPerBox",
+      "value": "piecesPerBoxValue",
+      "technical": true
+    },
+    {
+      "label": "packing",
+      "value": "packingValue"
+    }
   ],
   "modelColumns": [
-    { "label": "orientation", "field": "orientation", "localized": true },
-    { "label": "nominalConnection", "field": "nominalConnection", "technical": true },
-    { "label": "kFactor", "field": "kFactor", "technical": true },
-    { "label": "temperature", "field": "temperature", "technical": true }
+    {
+      "label": "orientation",
+      "field": "orientation",
+      "localized": true
+    },
+    {
+      "label": "nominalConnection",
+      "field": "nominalConnection",
+      "technical": true
+    },
+    {
+      "label": "kFactor",
+      "field": "kFactor",
+      "technical": true
+    },
+    {
+      "label": "temperature",
+      "field": "temperature",
+      "technical": true
+    }
   ],
   "models": [
     {
@@ -87,19 +193,41 @@
     }
   ],
   "confirmationItems": [
-    { "label": "orientation", "body": "orientationBody" },
-    { "label": "connection", "body": "connectionBody" },
-    { "label": "finishAndMarking", "body": "finishAndMarkingBody" },
-    { "label": "orderInformation", "body": "orderInformationBody" }
+    {
+      "label": "orientation",
+      "body": "orientationBody"
+    },
+    {
+      "label": "connection",
+      "body": "connectionBody"
+    },
+    {
+      "label": "finishAndMarking",
+      "body": "finishAndMarkingBody"
+    },
+    {
+      "label": "orderInformation",
+      "body": "orderInformationBody"
+    }
   ],
   "validation": {
-    "anchors": ["gallery", "specifications", "models", "quotation"],
+    "anchors": [
+      "gallery",
+      "specifications",
+      "models",
+      "packaging",
+      "quotation"
+    ],
     "requiredTechnicalValues": [
       "DN15 / ½ in",
       "K80 ±4",
       "K5.6 US",
       "68°C / 155°F",
-      "1.21 MPa / 12.1 bar"
+      "1.21 MPa / 12.1 bar",
+      "3 mm",
+      "BSPT",
+      "NPT",
+      "100 pcs / box"
     ]
   },
   "inquiry": {
@@ -112,10 +240,10 @@
       "title": "Quick Response Glass Bulb Sprinklers",
       "eyebrow": "DN15 · K80 Metric · 68°C",
       "lead": "Quick-response automatic fire sprinklers with a 68°C red glass bulb, available for pendent or upright installation in wet-pipe systems.",
-      "note": "The current confirmed scope covers DN15, K80 metric and 68°C pendent or upright configurations. Confirm the exact factory model, thread form, finish, packing and documents before quotation.",
+      "note": "BSPT is the default thread; NPT is available. Chrome-plated finish and 100 pieces per box follow the same supply options as the standard-response series.",
       "gallery": "Product images",
       "galleryTitle": "Pendent and upright configurations",
-      "galleryBody": "Use the gallery to compare the two confirmed installation configurations and view representative packing. The photographs do not establish certification or every ordered finish.",
+      "galleryBody": "Compare the pictured 68°C pendent and upright samples and protective packing trays. K-ZST upright, pendent and horizontal sidewall samples are shown in Product photographs below.",
       "pendent": "Pendent sprinkler",
       "upright": "Upright sprinkler",
       "representativePacking": "Representative product packing",
@@ -126,8 +254,8 @@
       "uprightThumbnail": "Upright sprinkler thumbnail",
       "packingThumbnail": "Representative packing thumbnail",
       "specifications": "Specifications",
-      "specificationsTitle": "Confirmed product scope",
-      "specificationsBody": "Only the currently confirmed size, K-factor, temperature, pressure and installation configurations are shown. Unresolved order details remain marked for quotation confirmation.",
+      "specificationsTitle": "Technical specifications",
+      "specificationsBody": "Specifications below describe the pictured DN15 / K80 / 68°C pendent and upright configurations. The K-ZST options have a separate selection section below.",
       "productType": "Product type",
       "installation": "Installation options",
       "nominalConnection": "Nominal connection",
@@ -135,7 +263,7 @@
       "thermalElement": "Thermal element",
       "temperature": "Operating temperature",
       "workingPressure": "Maximum working pressure",
-      "materials": "Confirmed materials",
+      "materials": "Materials",
       "systemApplication": "System application",
       "unitWeight": "Reference unit weight",
       "threadForm": "Thread form",
@@ -144,19 +272,19 @@
       "packing": "Packing",
       "confirmWithQuotation": "To be confirmed with the quotation",
       "availableModels": "Available configurations",
-      "modelsTitle": "Confirmed configuration table",
-      "modelsBody": "Choose pendent or upright installation. The exact factory model and thread designation must be matched to the approved quotation or sample.",
+      "modelsTitle": "Choose your installation orientation",
+      "modelsBody": "Compare the two pictured DN15 / K80 / 68°C configurations. Confirm the factory model and thread designation with your quotation.",
       "factoryModel": "Factory Model",
-      "modelsNote": "This configuration table does not establish certification coverage. Final specifications follow the agreed quotation and order documents.",
+      "modelsNote": "For K-ZST upright, pendent and horizontal sidewall options, see Configuration details below.",
       "quotation": "Quotation confirmation",
       "quotationTitle": "Details required before production",
       "quotationBody": "Send the exact order requirements so the supplied sprinkler matches the approved quotation and sample.",
       "orientation": "Orientation",
       "orientationBody": "Specify pendent or upright installation.",
       "connection": "Connection",
-      "connectionBody": "Confirm the required thread form and mating connection.",
+      "connectionBody": "Select BSPT or NPT and specify your mating connection.",
       "finishAndMarking": "Finish and marking",
-      "finishAndMarkingBody": "Confirm the finish, product marking and any private-label requirement.",
+      "finishAndMarkingBody": "Chrome-plated finish. Include any product marking or private-label requirements with your inquiry.",
       "orderInformation": "Order information",
       "orderInformationBody": "Provide quantity, destination, packing and required documents.",
       "inquiryTitle": "Send your quick-response sprinkler requirement",
@@ -170,7 +298,14 @@
       "nextProductImage": "Next product image",
       "selectProductImage": "Select product image",
       "seoTitle": "Quick Response Glass Bulb Sprinklers | DN15 · K80 · 68°C | CHUANWEI FIRE",
-      "seoDescription": "DN15 quick-response glass bulb fire sprinklers with K80 metric flow coefficient and a 68°C red bulb, available in pendent and upright configurations."
+      "seoDescription": "DN15 quick-response glass bulb fire sprinklers with K80 metric flow coefficient and a 68°C red bulb, available in pendent and upright configurations.",
+      "packingValue": "100 pieces per box; protective tray sample shown in the gallery",
+      "packaging": "Packing",
+      "packagingTitle": "Protective packing for your order",
+      "packagingBody": "100 pieces per box. The main gallery shows a real protective tray sample. Contact sales for shipping and label requirements.",
+      "threadFormValue": "BSPT (default) / NPT (optional)",
+      "finishValue": "Chrome-plated finish",
+      "piecesPerBox": "Pieces per box"
     },
     "ar": {
       "onThisPage": "في هذه الصفحة",
@@ -180,16 +315,16 @@
       "installationValue": "معلق / قائم",
       "temperatureValue": "68°C / 155°F · عنصر زجاجي أحمر",
       "productTypeValue": "رشاش حريق آلي سريع الاستجابة",
-      "thermalElementValue": "عنصر زجاجي أحمر",
+      "thermalElementValue": "عنصر زجاجي أحمر بقطر 3 mm",
       "materialsValue": "الهيكل العلوي: فولاذ مقاوم للصدأ؛ الجسم الملولب: نحاس",
       "systemApplicationValue": "أنظمة الرش الآلي ذات الأنابيب الرطبة",
       "unitWeightValue": "نحو 50 g",
       "eyebrow": "DN15 · K80 متري · 68°C",
       "lead": "رشاشات حريق آلية سريعة الاستجابة بعنصر زجاجي أحمر بدرجة 68°C، ومتاحة للتركيب المعلق أو القائم في الأنظمة ذات الأنابيب الرطبة.",
-      "note": "يشمل النطاق المؤكد حالياً DN15 ومعامل K80 المتري ودرجة 68°C بتكوين معلق أو قائم. يجب تأكيد موديل المصنع الدقيق ونوع السن اللولبي والتشطيب والتغليف والوثائق قبل عرض السعر.",
+      "note": "السن BSPT هو الخيار الافتراضي؛ ويتوفر NPT. يتبع التشطيب المطلي بالكروم وعدد 100 قطعة في العلبة خيارات التوريد نفسها لسلسلة الاستجابة القياسية.",
       "gallery": "صور المنتج",
       "galleryTitle": "تكوينان معلق وقائم",
-      "galleryBody": "استخدم المعرض لمقارنة تكويني التركيب المؤكدين ولعرض تغليف تمثيلي. الصور لا تثبت أي اعتماد أو كل تشطيب مطلوب.",
+      "galleryBody": "قارن العينات المصورة المعلقة والقائمة بدرجة 68°C وصواني التغليف الواقية. تعرض عينات K-ZST القائمة والمعلقة والجانبية الأفقية في صور المنتج الفعلية أدناه.",
       "pendent": "رشاش معلق",
       "upright": "رشاش قائم",
       "representativePacking": "تغليف تمثيلي للمنتج",
@@ -200,8 +335,8 @@
       "uprightThumbnail": "صورة مصغرة للرشاش القائم",
       "packingThumbnail": "صورة مصغرة للتغليف التمثيلي",
       "specifications": "المواصفات",
-      "specificationsTitle": "نطاق المنتج المؤكد",
-      "specificationsBody": "تُعرض فقط المقاسات ومعامل K ودرجة الحرارة والضغط وتكوينات التركيب المؤكدة حالياً. تبقى تفاصيل الطلب غير المحسومة محددة للتأكيد عند عرض السعر.",
+      "specificationsTitle": "المواصفات الفنية",
+      "specificationsBody": "تصف المواصفات أدناه التكوينات المعلقة والقائمة المصورة بمقاس DN15 ومعامل K80 ودرجة 68°C. توجد خيارات K-ZST في قسم اختيار منفصل أدناه.",
       "productType": "نوع المنتج",
       "installation": "خيارات التركيب",
       "nominalConnection": "التوصيل الاسمي",
@@ -209,7 +344,7 @@
       "thermalElement": "العنصر الحراري",
       "temperature": "درجة حرارة التشغيل",
       "workingPressure": "أقصى ضغط تشغيل",
-      "materials": "المواد المؤكدة",
+      "materials": "المواد",
       "systemApplication": "تطبيق النظام",
       "unitWeight": "الوزن المرجعي للقطعة",
       "threadForm": "نوع السن اللولبي",
@@ -218,19 +353,19 @@
       "packing": "التغليف",
       "confirmWithQuotation": "يُؤكد مع عرض السعر",
       "availableModels": "التكوينات المتاحة",
-      "modelsTitle": "جدول التكوينات المؤكدة",
-      "modelsBody": "اختر التركيب المعلق أو القائم. يجب مطابقة موديل المصنع الدقيق وتسمية السن اللولبي مع عرض السعر أو العينة المعتمدة.",
+      "modelsTitle": "اختر اتجاه التركيب",
+      "modelsBody": "قارن التكوينين المصورين بمقاس DN15 ومعامل K80 ودرجة 68°C. أكد موديل المصنع وتسمية السن اللولبي مع عرض السعر.",
       "factoryModel": "موديل المصنع",
-      "modelsNote": "لا يثبت جدول التكوينات هذا نطاق أي اعتماد. تتبع المواصفات النهائية عرض السعر ووثائق الطلب المتفق عليها.",
+      "modelsNote": "لخيارات K-ZST القائمة والمعلقة والجانبية الأفقية، راجع تفاصيل التكوينات أدناه.",
       "quotation": "تأكيد عرض السعر",
       "quotationTitle": "التفاصيل المطلوبة قبل الإنتاج",
       "quotationBody": "أرسل متطلبات الطلب الدقيقة حتى يتطابق الرشاش المورّد مع عرض السعر والعينة المعتمدين.",
       "orientation": "اتجاه التركيب",
       "orientationBody": "حدد التركيب المعلق أو القائم.",
       "connection": "التوصيل",
-      "connectionBody": "أكد نوع السن اللولبي والتوصيل المقابل المطلوب.",
+      "connectionBody": "اختر BSPT أو NPT وحدد الوصلة المقابلة المطلوبة.",
       "finishAndMarking": "التشطيب والعلامات",
-      "finishAndMarkingBody": "أكد التشطيب وعلامات المنتج وأي متطلبات للعلامة الخاصة.",
+      "finishAndMarkingBody": "تشطيب مطلي بالكروم. أدرج متطلبات علامات المنتج أو العلامة الخاصة عند الاستفسار.",
       "orderInformation": "معلومات الطلب",
       "orderInformationBody": "حدد الكمية والوجهة والتغليف والوثائق المطلوبة.",
       "inquiryTitle": "أرسل متطلبات رشاش الاستجابة السريعة",
@@ -244,7 +379,15 @@
       "nextProductImage": "صورة المنتج التالية",
       "selectProductImage": "اختر صورة المنتج",
       "seoTitle": "رشاشات زجاجية سريعة الاستجابة | CHUANWEI FIRE",
-      "seoDescription": "رشاشات حريق زجاجية سريعة الاستجابة بمقاس DN15 ومعامل K80 متري وعنصر أحمر بدرجة 68°C، ومتاحة بتكوين معلق أو قائم."
+      "seoDescription": "رشاشات حريق زجاجية سريعة الاستجابة بمقاس DN15 ومعامل K80 متري وعنصر أحمر بدرجة 68°C، ومتاحة بتكوين معلق أو قائم.",
+      "packingValue": "100 قطعة في كل علبة؛ تعرض عينة صينية واقية في المعرض",
+      "packaging": "التغليف",
+      "packagingTitle": "تغليف واقٍ لطلبك",
+      "packagingBody": "100 قطعة في كل علبة. يعرض المعرض الرئيسي عينة فعلية لصينية واقية. تواصل مع المبيعات لمتطلبات الشحن والملصقات.",
+      "threadFormValue": "BSPT (افتراضي) / NPT (اختياري)",
+      "finishValue": "تشطيب مطلي بالكروم",
+      "piecesPerBox": "عدد القطع في العلبة"
     }
-  }
+  },
+  "packaging": true
 }

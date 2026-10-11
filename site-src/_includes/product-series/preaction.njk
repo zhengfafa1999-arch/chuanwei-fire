@@ -26,8 +26,8 @@
             <div><dt>{{ entry.text.factoryReferences }}</dt><dd>{{ entry.text.zSFYSeries }}</dd></div>
             <div><dt>{{ entry.text.assemblyHeight }}</dt><dd>{{ entry.text.value5701000MmDependingOnSizeConnectionAnd }}</dd></div>
             <div><dt>{{ entry.text.releaseMethod }}</dt><dd>{{ entry.text.toBeSpecifiedForTheProject }}</dd></div>
-            <div><dt>{{ entry.text.workingPressure }}</dt><dd>{{ entry.text.toBeConfirmedForTheSelectedModel }}</dd></div>
-            <div><dt>{{ entry.text.valveAndTrimMaterials }}</dt><dd>{{ entry.text.availableOnRequestConfirmedAgainstTheApprovedOrder }}</dd></div>
+            <div><dt>{{ entry.text.nominalPressure }}</dt><dd>{{ entry.text.nominalPressure16MPa }}</dd></div>
+            <div><dt>{{ entry.text.valveAndTrimMaterials }}</dt><dd>{{ entry.text.standardMaterialsAndSolenoid }}</dd></div>
             <div><dt>{{ entry.text.approvalExecutionStandard }}</dt><dd>{{ entry.text.noForeignApprovalClaimedDocumentaryScopeAvailableOn }}</dd></div>
           </dl></div>
           <aside class="pdp-panel"><h3>{{ entry.text.photographedAssembly }}</h3>
@@ -62,7 +62,9 @@
       </div>
     </section>
 
-    <section class="pdp-section" id="oem">
+{% include "product-photos.njk" %}
+{% include "product-supplement.njk" %}
+  <section class="pdp-section" id="oem">
       <div class="pdp-container pdp-oem">
         <div><p class="pdp-eyebrow">{{ entry.text.oEMODMSupport }}</p><h2>{{ entry.text.preparedForYourDrawingAndMarketRequirements }}</h2><p>{{ entry.text.productMarkingNameplateConnectionArrangementTrimLayoutAnd }}</p></div>
         <div class="pdp-oem__grid">
@@ -74,7 +76,7 @@
       </div>
     </section>
 
-    <section class="pdp-cta" id="inquiry"><div class="pdp-container pdp-cta__in"><div><h2>{{ entry.text.sendYourPreactionValveSchedule }}</h2><p>{{ entry.text.includeDNSizeConnectionWorkingPressureReleaseMethod }}</p></div><div class="pdp-actions"><a class="pdp-btn" href="https://wa.me/8617326528368?text=Hello%2C%20I%20need%20a%20quotation%20for%20Preaction%20Valve%20Assemblies.%20Size%3A%20%5BDN%2Finch%5D%2C%20connection%3A%20%5Bflanged%2Fgrooved%5D%2C%20working%20pressure%3A%20%5Bvalue%5D%2C%20release%20method%3A%20%5Brequirement%5D%2C%20trim%20scope%3A%20%5Brequirement%5D%2C%20quantity%3A%20%5Bsets%5D." target="_blank" rel="noopener">{{ entry.text.whatsAppInquiry }}</a><a class="pdp-btn pdp-btn--ghost" href="mailto:zhengcolin1@gmail.com?subject=Preaction%20Valve%20Assembly%20Inquiry">{{ entry.text.emailSales }}</a></div></div></section>
+    <section class="pdp-cta" id="inquiry"><div class="pdp-container pdp-cta__in"><div><h2>{{ entry.text.sendYourPreactionValveSchedule }}</h2><p>{{ entry.text.includeDNSizeConnectionWorkingPressureReleaseMethod }}</p></div><div class="pdp-actions"><a class="pdp-btn" href="https://wa.me/8617326528368?text=Hello%2C%20I%20need%20a%20quotation%20for%20Preaction%20Valve%20Assemblies.%20Size%3A%20%5BDN%2Finch%5D%2C%20connection%3A%20%5Bflanged%2Fgrooved%5D%2C%20working%20pressure%3A%20%5Bvalue%5D%2C%20release%20method%3A%20%5Brequirement%5D%2C%20trim%20scope%3A%20%5Brequirement%5D%2C%20quantity%3A%20%5Bsets%5D." target="_blank" rel="noopener">{{ entry.text.whatsAppInquiry }}</a><a class="pdp-btn pdp-btn--ghost" href="{{ entry.emailHref }}">{{ entry.text.emailSales }}</a></div></div></section>
   </main>
 
 {% include "product-footer.njk" %}

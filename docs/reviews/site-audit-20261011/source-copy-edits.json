@@ -1,0 +1,420 @@
+[
+  {
+    "file": "site-src/_data/preserved-products/bs750-pillar-hydrant.json",
+    "key": "photographsShowWetPillar",
+    "before": {
+      "text": "Photographs show the wet pillar body, two side outlets with BS{n0} couplings, handwheels and outlet guard chain. The visible physical GUANYA / 冠亚 product markings are retained; CHUANWEI FIRE identifies the website and export-sales presentation.",
+      "numbers": [
+        "336"
+      ]
+    },
+    "after": {
+      "text": "Photographs show the wet pillar body, two side outlets with BS{n0} couplings, handwheels and outlet guard chain.",
+      "numbers": [
+        "336"
+      ]
+    }
+  },
+  {
+    "file": "site-src/content/products/ar/bs750-pillar-hydrant.json",
+    "key": "photographsShowWetPillar",
+    "before": "تُظهر الصور جسم العمود الرطب والمخرجين الجانبيين بوصلات BS{n0} وعجلات التشغيل وسلسلة حماية المخرج. تم الاحتفاظ بعلامات GUANYA / 冠亚 الظاهرة على المنتج الفعلي؛ وتشير CHUANWEI FIRE إلى الموقع وعرض مبيعات التصدير.",
+    "after": "تُظهر الصور جسم العمود الرطب والمخرجين الجانبيين بوصلات BS{n0} وعجلات التشغيل وسلسلة حماية المخرج."
+  },
+  {
+    "file": "site-src/_data/preserved-products/diaphragm-deluge-valves.json",
+    "key": "bothPhotographsShowCompleteDelugeValveAssembliesThe",
+    "before": {
+      "text": "Both photographs show complete deluge valve assemblies. The visible physical GUANYA / 冠亚 product markings are retained; CHUANWEI FIRE identifies the website and export-sales presentation.",
+      "numbers": []
+    },
+    "after": {
+      "text": "Both photographs show complete deluge valve assemblies.",
+      "numbers": []
+    }
+  },
+  {
+    "file": "site-src/content/products/ar/diaphragm-deluge-valves.json",
+    "key": "bothPhotographsShowCompleteDelugeValveAssembliesThe",
+    "before": "تُظهر الصورتان مجموعتي صمام غمر كاملتين. تُحفظ علامات GUANYA / 冠亚 الظاهرة على المنتج؛ وتشير CHUANWEI FIRE إلى الموقع وعرض مبيعات التصدير.",
+    "after": "تُظهر الصورتان مجموعتي صمام غمر كاملتين."
+  },
+  {
+    "file": "site-src/_data/preserved-products/export-slanted-hydrant-valve.json",
+    "key": "photographsShowSlantedOutlet",
+    "before": {
+      "text": "Photographs show the {n0}° slanted outlet, black handwheel, red ductile-iron body and outlet coupling. The visible physical GUANYA / 冠亚 product markings are retained; CHUANWEI FIRE identifies the website and export-sales presentation.",
+      "numbers": [
+        "45"
+      ]
+    },
+    "after": {
+      "text": "Photographs show the {n0}° slanted outlet, black handwheel, red ductile-iron body and outlet coupling.",
+      "numbers": [
+        "45"
+      ]
+    }
+  },
+  {
+    "file": "site-src/content/products/ar/export-slanted-hydrant-valve.json",
+    "key": "photographsShowSlantedOutlet",
+    "before": "تُظهر الصور المخرج المائل بزاوية {n0}° والعجلة اليدوية السوداء والجسم الأحمر المصنوع من الحديد المطيل ووصلة المخرج. تم الإبقاء على علامات المنتج المادية الظاهرة GUANYA / 冠亚؛ وتشير CHUANWEI FIRE إلى الموقع وعرض مبيعات التصدير.",
+    "after": "تُظهر الصور المخرج المائل بزاوية {n0}° والعجلة اليدوية السوداء والجسم الأحمر المصنوع من الحديد المطيل ووصلة المخرج."
+  },
+  {
+    "file": "site-src/_data/preserved-products/french-pattern-hydrant.json",
+    "key": "photographsShowFrenchArrangement",
+    "before": {
+      "text": "Photographs show the dry-barrel pillar and French outlet arrangement. The visible physical GUANYA / 冠亚 product markings are retained; CHUANWEI FIRE identifies the website and export-sales presentation.",
+      "numbers": []
+    },
+    "after": {
+      "text": "Photographs show the dry-barrel pillar and French outlet arrangement.",
+      "numbers": []
+    }
+  },
+  {
+    "file": "site-src/content/products/ar/french-pattern-hydrant.json",
+    "key": "photographsShowFrenchArrangement",
+    "before": "تُظهر الصور العمود ذا الأسطوانة الجافة وترتيب المخارج الفرنسي. تم الاحتفاظ بعلامات GUANYA / 冠亚 الظاهرة على المنتج الفعلي؛ وتشير CHUANWEI FIRE إلى الموقع وعرض مبيعات التصدير.",
+    "after": "تُظهر الصور العمود ذا الأسطوانة الجافة وترتيب المخارج الفرنسي."
+  },
+  {
+    "file": "site-src/_data/preserved-products/indonesian-pattern-hydrant.json",
+    "key": "photographsShowTwinOutlets",
+    "before": {
+      "text": "Photographs show the twin side outlets, independently operated outlet valves and flanged base. The visible physical GUANYA / 冠亚 product markings are retained; CHUANWEI FIRE identifies the website and export-sales presentation.",
+      "numbers": []
+    },
+    "after": {
+      "text": "Photographs show the twin side outlets, independently operated outlet valves and flanged base.",
+      "numbers": []
+    }
+  },
+  {
+    "file": "site-src/content/products/ar/indonesian-pattern-hydrant.json",
+    "key": "photographsShowTwinOutlets",
+    "before": "تُظهر الصور المخرجين الجانبيين وصمامات المخارج المستقلة وقاعدة الفلنجة. تم الاحتفاظ بعلامات GUANYA / 冠亚 الظاهرة على المنتج الفعلي؛ وتشير CHUANWEI FIRE إلى الموقع وعرض مبيعات التصدير.",
+    "after": "تُظهر الصور المخرجين الجانبيين وصمامات المخارج المستقلة وقاعدة الفلنجة."
+  },
+  {
+    "file": "site-src/_data/preserved-products/jet-spray-fire-hose-reel.json",
+    "key": "photographShowsTheCompleteJPSJetSprayHose",
+    "before": {
+      "text": "Photograph shows the complete JPS jet/spray hose reel assembly. The visible physical GUANYA / 冠亚 product markings are retained; CHUANWEI FIRE identifies the website and export-sales presentation.",
+      "numbers": []
+    },
+    "after": {
+      "text": "Photograph shows the complete JPS jet/spray hose reel assembly.",
+      "numbers": []
+    }
+  },
+  {
+    "file": "site-src/content/products/ar/jet-spray-fire-hose-reel.json",
+    "key": "photographShowsTheCompleteJPSJetSprayHose",
+    "before": "تعرض الصورة مجموعة بكرة خرطوم JPS بنفث/رش كاملة. تبقى علامات GUANYA / 冠亚 الظاهرة على المنتج كما هي؛ وتشير CHUANWEI FIRE إلى الموقع والعرض الخاص بمبيعات التصدير.",
+    "after": "تعرض الصورة مجموعة بكرة خرطوم JPS بنفث/رش كاملة."
+  },
+  {
+    "file": "site-src/_data/preserved-products/ria25-fire-hose-reel.json",
+    "key": "photographsShowTheCompleteRIA25HoseReel",
+    "before": {
+      "text": "Photographs show the complete RIA {n0} hose reel assembly. The visible physical GUANYA / 冠亚 product markings are retained; CHUANWEI FIRE identifies the website and export-sales presentation.",
+      "numbers": [
+        "25"
+      ]
+    },
+    "after": {
+      "text": "Photographs show the complete RIA {n0} hose reel assembly.",
+      "numbers": [
+        "25"
+      ]
+    }
+  },
+  {
+    "file": "site-src/content/products/ar/ria25-fire-hose-reel.json",
+    "key": "photographsShowTheCompleteRIA25HoseReel",
+    "before": "تعرض الصور مجموعة بكرة الخرطوم RIA {n0} كاملة. تبقى علامات GUANYA / 冠亚 الظاهرة على المنتج كما هي؛ وتشير CHUANWEI FIRE إلى الموقع والعرض الخاص بمبيعات التصدير.",
+    "after": "تعرض الصور مجموعة بكرة الخرطوم RIA {n0} كاملة."
+  },
+  {
+    "file": "site-src/_data/preserved-products/ria25-fire-hose-reel.json",
+    "key": "aWallMountedFireHoseReelBuiltTo",
+    "before": {
+      "text": "A wall-mounted fire hose reel built to the EN {n0}-{n1} semi-rigid hose standard, for first-aid firefighting in indoor hydrant and hose-line systems. Available in {n2}, {n3} and {n4} m hose lengths.",
+      "numbers": [
+        "671",
+        "1",
+        "20",
+        "25",
+        "30"
+      ]
+    },
+    "after": {
+      "text": "A wall-mounted fire hose reel with semi-rigid hose for first-aid firefighting in indoor hydrant and hose-line systems. Available in {n0}, {n1} and {n2} m hose lengths.",
+      "numbers": [
+        "20",
+        "25",
+        "30"
+      ]
+    }
+  },
+  {
+    "file": "site-src/content/products/ar/ria25-fire-hose-reel.json",
+    "key": "aWallMountedFireHoseReelBuiltTo",
+    "before": "بكرة خرطوم حريق مثبتة على الحائط ومصنّعة وفق معيار EN {n0}-{n1} للخراطيم شبه الصلبة، للإطفاء الأولي ضمن أنظمة صنابير الحريق والخراطيم الداخلية. تتوفر بأطوال خرطوم {n2} و{n3} و{n4} م.",
+    "after": "بكرة خرطوم حريق مثبتة على الحائط مع خرطوم شبه صلب للإطفاء الأولي ضمن أنظمة صنابير الحريق والخراطيم الداخلية. تتوفر بأطوال خرطوم {n0} و{n1} و{n2} م."
+  },
+  {
+    "file": "site-src/_data/preserved-products/ria25-fire-hose-reel.json",
+    "key": "criticalProductDataIsPresentedInHTMLFor",
+    "before": {
+      "text": "Critical product data is presented in HTML for clear international sourcing. The reel is built to the EN {n0}-{n1} semi-rigid hose standard.",
+      "numbers": [
+        "671",
+        "1"
+      ]
+    },
+    "after": {
+      "text": "Compare hose length, connection and pressure ratings for your order. If your project specifies EN {n0}-{n1}, request conformity documents matching the selected model before ordering.",
+      "numbers": [
+        "671",
+        "1"
+      ]
+    }
+  },
+  {
+    "file": "site-src/content/products/ar/ria25-fire-hose-reel.json",
+    "key": "criticalProductDataIsPresentedInHTMLFor",
+    "before": "تُعرض بيانات المنتج الأساسية بصيغة HTML لتسهيل التوريد الدولي. البكرة مصنّعة وفق معيار EN {n0}-{n1} للخراطيم شبه الصلبة.",
+    "after": "قارن طول الخرطوم والتوصيل وقيم الضغط لطلبك. إذا كان المشروع يشترط EN {n0}-{n1}، فاطلب وثائق المطابقة الخاصة بالموديل المختار قبل الطلب."
+  },
+  {
+    "file": "site-src/_data/preserved-products/ria25-fire-hose-reel.json",
+    "key": "standard",
+    "before": {
+      "text": "Standard",
+      "numbers": []
+    },
+    "after": {
+      "text": "Project standard requirements",
+      "numbers": []
+    }
+  },
+  {
+    "file": "site-src/content/products/ar/ria25-fire-hose-reel.json",
+    "key": "standard",
+    "before": "المعيار",
+    "after": "متطلبات معيار المشروع"
+  },
+  {
+    "file": "site-src/_data/preserved-products/ria25-fire-hose-reel.json",
+    "key": "eN6711SemiRigidHoseReels",
+    "before": {
+      "text": "EN {n0}-{n1} (semi-rigid hose reels)",
+      "numbers": [
+        "671",
+        "1"
+      ]
+    },
+    "after": {
+      "text": "EN {n0}-{n1}: model-specific conformity documentation requires verification",
+      "numbers": [
+        "671",
+        "1"
+      ]
+    }
+  },
+  {
+    "file": "site-src/content/products/ar/ria25-fire-hose-reel.json",
+    "key": "eN6711SemiRigidHoseReels",
+    "before": "EN {n0}-{n1} (بكرات الخراطيم شبه الصلبة)",
+    "after": "EN {n0}-{n1}: يلزم التحقق من وثائق المطابقة الخاصة بالموديل"
+  },
+  {
+    "file": "site-src/_data/preserved-products/ria25-fire-hose-reel.json",
+    "key": "theEN6711VersionYearIsConfirmed",
+    "before": {
+      "text": "The EN {n0}-{n1} version (year) is confirmed against the supplied product label and conformity documents before order.",
+      "numbers": [
+        "671",
+        "1"
+      ]
+    },
+    "after": {
+      "text": "An EN {n0}-{n1} requirement must be checked against the selected model and its conformity documents; this page does not establish compliance.",
+      "numbers": [
+        "671",
+        "1"
+      ]
+    }
+  },
+  {
+    "file": "site-src/content/products/ar/ria25-fire-hose-reel.json",
+    "key": "theEN6711VersionYearIsConfirmed",
+    "before": "تُؤكد نسخة معيار EN {n0}-{n1} (السنة) وفق ملصق المنتج المقدم ووثائق المطابقة قبل الطلب.",
+    "after": "يجب التحقق من متطلب EN {n0}-{n1} بمراجعة الموديل المختار ووثائق مطابقته؛ هذه الصفحة لا تثبت المطابقة."
+  },
+  {
+    "file": "site-src/_data/preserved-products/ria25-fire-hose-reel.json",
+    "key": "confirmedConstructionAndOperatingData",
+    "before": {
+      "text": "Confirmed construction and operating data",
+      "numbers": []
+    },
+    "after": {
+      "text": "Construction and operating data",
+      "numbers": []
+    }
+  },
+  {
+    "file": "site-src/content/products/ar/ria25-fire-hose-reel.json",
+    "key": "confirmedConstructionAndOperatingData",
+    "before": "بيانات البنية والتشغيل المؤكدة",
+    "after": "بيانات البنية والتشغيل"
+  },
+  {
+    "file": "site-src/_data/preserved-products/ria25-fire-hose-reel.json",
+    "key": "seoTitle",
+    "before": {
+      "text": "RIA {n0} Fire Hose Reel | EN {n1}-{n2}, {n3} mm Semi-Rigid Hose | CHUANWEI FIRE",
+      "numbers": [
+        "25",
+        "671",
+        "1",
+        "25"
+      ]
+    },
+    "after": {
+      "text": "RIA {n0} Fire Hose Reel | {n1} mm Semi-Rigid Hose | CHUANWEI FIRE",
+      "numbers": [
+        "25",
+        "25"
+      ]
+    }
+  },
+  {
+    "file": "site-src/content/products/ar/ria25-fire-hose-reel.json",
+    "key": "seoTitle",
+    "before": "بكرة خرطوم الحريق RIA {n0} | EN {n1}-{n2}، خرطوم شبه صلب {n3} mm | CHUANWEI FIRE",
+    "after": "بكرة خرطوم الحريق RIA {n0} | خرطوم شبه صلب {n1} mm | CHUANWEI FIRE"
+  },
+  {
+    "file": "site-src/_data/preserved-products/ria25-fire-hose-reel.json",
+    "key": "seoDescription",
+    "before": {
+      "text": "EN {n0}-{n1} fire hose reel with {n2} mm semi-rigid hose in {n3}, {n4} and {n5} m lengths, {n6} MPa working pressure, DN{n7}/G{n8} BSP inlet and wall-mounted swing arm. OEM/ODM support.",
+      "numbers": [
+        "671",
+        "1",
+        "25",
+        "20",
+        "25",
+        "30",
+        "1.2",
+        "25",
+        "1"
+      ]
+    },
+    "after": {
+      "text": "RIA {n0} wall-mounted fire hose reel with {n1} mm semi-rigid hose in {n2}, {n3} and {n4} m lengths. Compare connections and request documents for your selected configuration.",
+      "numbers": [
+        "25",
+        "25",
+        "20",
+        "25",
+        "30"
+      ]
+    }
+  },
+  {
+    "file": "site-src/content/products/ar/ria25-fire-hose-reel.json",
+    "key": "seoDescription",
+    "before": "بكرة خرطوم حريق وفق EN {n0}-{n1} مع خرطوم شبه صلب {n2} mm بأطوال {n3} و{n4} و{n5} m، وضغط تشغيل {n6} MPa، ومدخل DN{n7}/G{n8} BSP وذراع متأرجح مثبت على الحائط. دعم OEM/ODM.",
+    "after": "بكرة خرطوم الحريق RIA {n0} مثبتة على الحائط مع خرطوم شبه صلب {n1} mm بأطوال {n2} و{n3} و{n4} m. قارن التوصيلات واطلب وثائق التكوين المختار."
+  },
+  {
+    "file": "site-src/_data/preserved-products/ria25-fire-hose-reel.json",
+    "key": "shared.eN6711",
+    "before": "EN 671-1",
+    "after": "RIA 25"
+  },
+  {
+    "file": "site-src/_data/preserved-products/russian-pattern-hydrant.json",
+    "key": "photographsShowTwinValves",
+    "before": {
+      "text": "Photographs show the twin outlets, two independent handwheel valves and removable operating handle. The visible physical GUANYA / 冠亚 product markings are retained; CHUANWEI FIRE identifies the website and export-sales presentation.",
+      "numbers": []
+    },
+    "after": {
+      "text": "Photographs show the twin outlets, two independent handwheel valves and removable operating handle.",
+      "numbers": []
+    }
+  },
+  {
+    "file": "site-src/content/products/ar/russian-pattern-hydrant.json",
+    "key": "photographsShowTwinValves",
+    "before": "تُظهر الصور المخرجين وصمامي العجلة اليدوية المستقلين ومقبض التشغيل القابل للإزالة. تم الاحتفاظ بعلامات GUANYA / 冠亚 الظاهرة على المنتج الفعلي؛ وتشير CHUANWEI FIRE إلى الموقع وعرض مبيعات التصدير.",
+    "after": "تُظهر الصور المخرجين وصمامي العجلة اليدوية المستقلين ومقبض التشغيل القابل للإزالة."
+  },
+  {
+    "file": "site-src/_data/preserved-products/standard-indoor-hydrant.json",
+    "key": "photographsShowStandardSingleOutlet",
+    "before": {
+      "text": "Photographs show the standard single-outlet indoor hydrant from multiple angles. The visible physical GUANYA / 冠亚 product markings are retained; CHUANWEI FIRE identifies the website and export-sales presentation.",
+      "numbers": []
+    },
+    "after": {
+      "text": "Photographs show the standard single-outlet indoor hydrant from multiple angles.",
+      "numbers": []
+    }
+  },
+  {
+    "file": "site-src/content/products/ar/standard-indoor-hydrant.json",
+    "key": "photographsShowStandardSingleOutlet",
+    "before": "تعرض الصور حنفية الحريق الداخلية القياسية ذات المخرج الواحد من زوايا متعددة. تم الإبقاء على علامات المنتج المادية الظاهرة GUANYA / 冠亚؛ وتشير CHUANWEI FIRE إلى الموقع وعرض مبيعات التصدير.",
+    "after": "تعرض الصور حنفية الحريق الداخلية القياسية ذات المخرج الواحد من زوايا متعددة."
+  },
+  {
+    "file": "site-src/_data/preserved-products/straight-stream-fire-hose-reel.json",
+    "key": "photographsShowTheCompleteJPSHoseReelAssembly",
+    "before": {
+      "text": "Photographs show the complete JPS hose reel assembly and the copper nozzle. The visible physical GUANYA / 冠亚 product markings are retained; CHUANWEI FIRE identifies the website and export-sales presentation.",
+      "numbers": []
+    },
+    "after": {
+      "text": "Photographs show the complete JPS hose reel assembly and the copper nozzle.",
+      "numbers": []
+    }
+  },
+  {
+    "file": "site-src/content/products/ar/straight-stream-fire-hose-reel.json",
+    "key": "photographsShowTheCompleteJPSHoseReelAssembly",
+    "before": "تعرض الصور مجموعة بكرة الخرطوم JPS كاملة والفوهة النحاسية. تبقى علامات GUANYA / 冠亚 الظاهرة على المنتج كما هي؛ وتشير CHUANWEI FIRE إلى الموقع والعرض الخاص بمبيعات التصدير.",
+    "after": "تعرض الصور مجموعة بكرة الخرطوم JPS كاملة والفوهة النحاسية."
+  },
+  {
+    "file": "site-src/content/products/en/wet-alarm-check-valve.json",
+    "key": "galleryDescription",
+    "before": "Both photographs show DN150 complete assemblies. The visible physical GUANYA / 冠亚 product markings are retained; CHUANWEI FIRE identifies the website and export-sales presentation.",
+    "after": "Both photographs show DN150 complete assemblies."
+  },
+  {
+    "file": "site-src/content/products/ar/wet-alarm-check-valve.json",
+    "key": "galleryDescription",
+    "before": "تعرض الصورتان مجموعتين كاملتين بمقاس DN150. تم الحفاظ على علامات GUANYA / 冠亚 الظاهرة فعلياً على المنتج، بينما تمثل CHUANWEI FIRE علامة الموقع والتقديم لمبيعات التصدير.",
+    "after": "تعرض الصورتان مجموعتين كاملتين بمقاس DN150."
+  },
+  {
+    "file": "site-src/_data/documented-products/explosion-proof-pressure-switch.json",
+    "key": "inquiryTitle",
+    "before": "Request a explosion-proof",
+    "after": "Request an explosion-proof"
+  },
+  {
+    "file": "site-src/_data/documented-products/explosion-proof-solenoid-valve.json",
+    "key": "inquiryTitle",
+    "before": "Request a explosion-proof",
+    "after": "Request an explosion-proof"
+  }
+]

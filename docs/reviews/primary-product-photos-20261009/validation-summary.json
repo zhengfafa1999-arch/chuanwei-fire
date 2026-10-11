@@ -1,0 +1,59 @@
+{
+  "date": "2026-10-09",
+  "status": "local-validated-not-deployed",
+  "series": 19,
+  "mediaSlots": 30,
+  "uniquePhotographs": 28,
+  "existingPhotoManifest": "46 photographs / 24 series / 92 derivatives retained",
+  "mediaSlotOriginalBytes": 5462108,
+  "mediaSlotDerivativeBytes": 2768844,
+  "mediaSlotByteReductionPercent": 49.3,
+  "build": "npm --ignore-scripts run build passed",
+  "pages": 175,
+  "imagesWithAlt": 2164,
+  "internalReferences": 44095,
+  "newWindowLinks": 724,
+  "searchAssertions": 89,
+  "numericTableCheck": {
+    "productPairs": 71,
+    "rows": 334,
+    "mismatches": 0
+  },
+  "responsiveLayouts": {
+    "checks": 76,
+    "widths": [
+      1280,
+      390
+    ],
+    "horizontalOverflow": 0,
+    "failedVisibleImages": 0
+  },
+  "legacyConfigurationLinks": {
+    "checks": 34,
+    "width": 320,
+    "languages": [
+      "en",
+      "ar"
+    ],
+    "correctPhotographSelection": true,
+    "horizontalOverflow": 0
+  },
+  "galleryInteractions": "Standard EN390 and extended-coverage AR320 next/previous/zoom/Escape passed",
+  "sourceImageHandling": "Existing 640/1600 WebP derivatives reused; 480px thumbnails generated with stale files retained; source originals preserved",
+  "localizedPageBadge": "Removed from same-language category cards; fallback-language and inquiry hints retained",
+  "missingPhotographs": {
+    "userReply": "没有",
+    "scope": "HS/HSW landing valves, overseas nozzle/coupling and cabinet configurations",
+    "status": "awaiting-materials-no-substitution"
+  },
+  "oemConditions": "awaiting-materials",
+  "deliveryArrangements": "awaiting-materials",
+  "pdf": {
+    "work": "paused-by-user",
+    "unchanged": true,
+    "sha256": "4726e11252e8776a359b726a3d610937bd21913f3f68b13ae679b02a764146c8"
+  },
+  "latestCandidate": "docs/release/primary-product-photos-20261009/package-summary.json",
+  "deployed": false,
+  "messagesSent": false
+}

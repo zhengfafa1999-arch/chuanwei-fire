@@ -5,7 +5,12 @@
   "source": {
     "path": "products/软管卷盘/ria25-fire-hose-reel.html",
     "revision": "c090ae8",
-    "status": "preserved-existing-content-not-reaudited"
+    "status": "preserved-existing-content-not-reaudited",
+    "buyerCopyReview": {
+      "date": "2026-10-09",
+      "record": "docs/reviews/remaining-series-20261009/reviewed-changes.json",
+      "scope": "Buyer terminology and inquiry guidance; exact models, primary photographs and technical values retained except removal of unconfirmed carton quantities."
+    }
   },
   "media": {
     "hero": "products/软管卷盘/ria25-fire-hose-reel/ria25-fire-hose-reel.jpg",
@@ -41,10 +46,8 @@
       ]
     },
     "aWallMountedFireHoseReelBuiltTo": {
-      "text": "A wall-mounted fire hose reel built to the EN {n0}-{n1} semi-rigid hose standard, for first-aid firefighting in indoor hydrant and hose-line systems. Available in {n2}, {n3} and {n4} m hose lengths.",
+      "text": "A wall-mounted fire hose reel with semi-rigid hose for first-aid firefighting in indoor hydrant and hose-line systems. Available in {n0}, {n1} and {n2} m hose lengths.",
       "numbers": [
-        "671",
-        "1",
         "20",
         "25",
         "30"
@@ -82,7 +85,7 @@
       "numbers": []
     },
     "photographsShowTheCompleteRIA25HoseReel": {
-      "text": "Photographs show the complete RIA {n0} hose reel assembly. The visible physical GUANYA / 冠亚 product markings are retained; CHUANWEI FIRE identifies the website and export-sales presentation.",
+      "text": "Photographs show the complete RIA {n0} hose reel assembly.",
       "numbers": [
         "25"
       ]
@@ -108,11 +111,11 @@
       "numbers": []
     },
     "confirmedConstructionAndOperatingData": {
-      "text": "Confirmed construction and operating data",
+      "text": "Construction and operating data",
       "numbers": []
     },
     "criticalProductDataIsPresentedInHTMLFor": {
-      "text": "Critical product data is presented in HTML for clear international sourcing. The reel is built to the EN {n0}-{n1} semi-rigid hose standard.",
+      "text": "Compare hose length, connection and pressure ratings for your order. If your project specifies EN {n0}-{n1}, request conformity documents matching the selected model before ordering.",
       "numbers": [
         "671",
         "1"
@@ -133,11 +136,11 @@
       ]
     },
     "standard": {
-      "text": "Standard",
+      "text": "Project standard requirements",
       "numbers": []
     },
     "eN6711SemiRigidHoseReels": {
-      "text": "EN {n0}-{n1} (semi-rigid hose reels)",
+      "text": "EN {n0}-{n1}: model-specific conformity documentation requires verification",
       "numbers": [
         "671",
         "1"
@@ -276,7 +279,7 @@
       "numbers": []
     },
     "theEN6711VersionYearIsConfirmed": {
-      "text": "The EN {n0}-{n1} version (year) is confirmed against the supplied product label and conformity documents before order.",
+      "text": "An EN {n0}-{n1} requirement must be checked against the selected model and its conformity documents; this page does not establish compliance.",
       "numbers": [
         "671",
         "1"
@@ -302,7 +305,7 @@
       "numbers": []
     },
     "factoryReference": {
-      "text": "Factory reference",
+      "text": "Model",
       "numbers": []
     },
     "availableOnRequest": {
@@ -473,31 +476,25 @@
       "numbers": []
     },
     "seoTitle": {
-      "text": "RIA {n0} Fire Hose Reel | EN {n1}-{n2}, {n3} mm Semi-Rigid Hose | CHUANWEI FIRE",
+      "text": "RIA {n0} Fire Hose Reel | {n1} mm Semi-Rigid Hose | CHUANWEI FIRE",
       "numbers": [
         "25",
-        "671",
-        "1",
         "25"
       ]
     },
     "seoDescription": {
-      "text": "EN {n0}-{n1} fire hose reel with {n2} mm semi-rigid hose in {n3}, {n4} and {n5} m lengths, {n6} MPa working pressure, DN{n7}/G{n8} BSP inlet and wall-mounted swing arm. OEM/ODM support.",
+      "text": "RIA {n0} wall-mounted fire hose reel with {n1} mm semi-rigid hose in {n2}, {n3} and {n4} m lengths. Compare connections and request documents for your selected configuration.",
       "numbers": [
-        "671",
-        "1",
+        "25",
         "25",
         "20",
         "25",
-        "30",
-        "1.2",
-        "25",
-        "1"
+        "30"
       ]
     }
   },
   "shared": {
-    "eN6711": "EN 671-1",
+    "eN6711": "RIA 25",
     "value202530M": "20 / 25 / 30 m",
     "value12MPa12Bar": "1.2 MPa / 12 bar",
     "value13": "1 / 3",

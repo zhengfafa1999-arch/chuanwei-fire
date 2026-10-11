@@ -1,0 +1,12 @@
+{
+  "date": "2026-10-10",
+  "status": "local-review-candidate-not-deployed",
+  "archive": ".tmp/releases/project-cards-20261010-web.zip",
+  "bytes": 48585021,
+  "sha256": "af0342807b7a0145a3a031b6bbd043f3a6e7249a43d8d61791525de25a14f7b2",
+  "files": 755,
+  "pages": 185,
+  "validation": "Build and static checks passed; ZIP CRC, complete entry set and all file hashes verified. Browser/mobile rendering not verified.",
+  "previousCandidate": ".tmp/releases/qualification-atlas-20261010-web.zip",
+  "rollback": "Preserve the previous local candidate; record and back up the actual server version before deployment."
+}

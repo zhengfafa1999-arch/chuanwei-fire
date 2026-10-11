@@ -1,0 +1,27 @@
+{
+  "date": "2026-10-10",
+  "status": "local-build-passed-visual-review-pending-not-deployed",
+  "publishedPages": 179,
+  "documentedProductCandidates": 40,
+  "documentedLocalizedOutputs": 80,
+  "searchAssertions": 107,
+  "languagePairs": 73,
+  "modelRows": 345,
+  "numericMismatches": 0,
+  "imagesWithAlt": 2212,
+  "internalReferences": 45489,
+  "newWindowLinks": 764,
+  "accessoryStyles": 3,
+  "waterflowFactoryModels": 8,
+  "newMaximumNominalSize": "DN250 / 10 in",
+  "originalPhotoDerivativeIntegrity": "passed",
+  "publicWaterflowPrices": "omitted",
+  "unsupportedParameterInheritance": "none",
+  "pdfSha256Unchanged": "4726e11252e8776a359b726a3d610937bd21913f3f68b13ae679b02a764146c8",
+  "browserVisualReview": "not completed; browser preview timed out in preceding attempts",
+  "waiting": [
+    "Accessory dimensions, materials and exact sprinkler compatibility",
+    "Waterflow explosion-protection marking, exact-model technical data and certificates"
+  ],
+  "deployed": false
+}

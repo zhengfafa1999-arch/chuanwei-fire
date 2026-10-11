@@ -20,6 +20,28 @@
       "scope": "Factory model labels and conservative treatment of conflicting pressure only; other legacy specifications are not re-confirmed.",
       "pressure": "Legacy 1.2 MPa conflicts with unresolved pressure in the v11 handoff. Local draft uses quotation confirmation pending user clarification.",
       "retained": "Three existing images, row order, shared template, inquiry links and unrelated content."
+    },
+    "seriesReview": {
+      "date": "2026-10-09",
+      "status": "local-verified; awaiting user page review",
+      "reviewFile": "docs/reviews/extended-coverage-20261009/reviewed-changes.json",
+      "scope": "Exact-model archive facts and buyer selection copy; three existing model rows and primary gallery retained. Additional K-ZST photos labeled by visible markings without assuming EC equivalence.",
+      "userConfirmation": {
+        "date": "2026-10-09",
+        "questionScope": "EC-ZSTX / EC-ZSTZ / EC-ZSTBS 115-68°C Q3A; maximum working pressure, thread and finish",
+        "verbatim": "1.2mpa，也默认BSPT、可选NPT、镀铬、不用提供外箱数量",
+        "maximumWorkingPressureMPa": 1.2,
+        "threadDefault": "BSPT",
+        "threadOptional": "NPT",
+        "finish": "Chrome-plated",
+        "shippingCartonQuantity": "Not requested; user deferred",
+        "piecesPerBox": null
+      }
+    },
+    "buyerCopyReview": {
+      "date": "2026-10-09",
+      "record": "docs/reviews/remaining-series-20261009/reviewed-changes.json",
+      "scope": "Buyer terminology and inquiry guidance; exact models, primary photographs and technical values retained except removal of unconfirmed carton quantities."
     }
   },
   "media": {
@@ -97,8 +119,11 @@
       "numbers": []
     },
     "reviewThePendentUprightAndHorizontalSidewallConfigurations": {
-      "text": "Review the pendent, upright and horizontal sidewall configurations. Product markings are retained for configuration and factory-reference identification.",
-      "numbers": []
+      "text": "Compare the three EC-ZST models in the main gallery. Additional K{n0} / {n1}°C photographs below show K-ZST-marked samples; confirm the required factory marking with your order.",
+      "numbers": [
+        "115",
+        "68"
+      ]
     },
     "pendentSprinkler": {
       "text": "Pendent Sprinkler",
@@ -121,15 +146,15 @@
       "numbers": []
     },
     "buyerFacingSpecifications": {
-      "text": "Buyer-facing specifications",
+      "text": "Technical specifications",
       "numbers": []
     },
     "internationalProductNamesAndUnitEquivalentsAreShown": {
-      "text": "International product names and unit equivalents are shown first. Factory codes are retained only for production and repeat-order matching.",
+      "text": "Compare the pictured configurations and specify the installation orientation and connection required for your order.",
       "numbers": []
     },
     "confirmedProductSpecifications": {
-      "text": "Confirmed product specifications",
+      "text": "Product specifications",
       "numbers": []
     },
     "productType": {
@@ -185,11 +210,11 @@
       ]
     },
     "frameMaterial": {
-      "text": "Frame material",
+      "text": "Body / deflector materials",
       "numbers": []
     },
     "copper": {
-      "text": "Copper",
+      "text": "Copper body; stainless steel deflector",
       "numbers": []
     },
     "surfaceFinish": {
@@ -197,7 +222,7 @@
       "numbers": []
     },
     "chromePlatedOrNaturalCopperFinish": {
-      "text": "Chrome-plated or natural copper finish",
+      "text": "Chrome-plated finish",
       "numbers": []
     },
     "threadForm": {
@@ -205,7 +230,7 @@
       "numbers": []
     },
     "manufacturedToTheConfirmedCustomerDrawingOrApproved": {
-      "text": "Manufactured to the confirmed customer drawing or approved sample",
+      "text": "BSPT (default) / NPT (optional); exact thread designation matched to your order",
       "numbers": []
     },
     "maxWorkingPressure": {
@@ -213,25 +238,27 @@
       "numbers": []
     },
     "value12MPa12BarApprox175Psi": {
-      "text": "To be confirmed with the quotation",
-      "numbers": []
+      "text": "{n0} MPa / {n1} bar / approx. {n2} psi",
+      "numbers": [
+        "1.2",
+        "12",
+        "174"
+      ]
     },
     "standardPacking": {
-      "text": "Standard packing",
+      "text": "Packing",
       "numbers": []
     },
     "value100PcsPerExportCarton": {
-      "text": "{n0} pcs per export carton",
-      "numbers": [
-        "100"
-      ]
+      "text": "Contact sales for packing and label requirements",
+      "numbers": []
     },
     "markingFinishConnectionAndPackagingReviewedAgainstThe": {
       "text": "Marking, finish, connection and packaging reviewed against the approved requirement",
       "numbers": []
     },
     "engineeringDataStatus": {
-      "text": "Engineering data status",
+      "text": "Hydraulic selection",
       "numbers": []
     },
     "coverageArea": {
@@ -279,8 +306,12 @@
       "numbers": []
     },
     "theCurrentFactoryRangeIsOrganizedByInstallation": {
-      "text": "The current factory range is organized by installation orientation. All listed versions share the confirmed nominal size, K-factor and temperature rating.",
-      "numbers": []
+      "text": "Compare the three {n0}°C models below. They share DN{n1} and metric K{n2}; select the installation orientation first, then specify the connection and finish.",
+      "numbers": [
+        "68",
+        "20",
+        "115"
+      ]
     },
     "configuration": {
       "text": "Configuration",
@@ -291,7 +322,7 @@
       "numbers": []
     },
     "factoryReference": {
-      "text": "Factory Model",
+      "text": "Model",
       "numbers": []
     },
     "pendentECQuickResponse": {
@@ -343,7 +374,7 @@
       ]
     },
     "forQuotationSpecifyOrientationDestinationCountryThreadRequirement": {
-      "text": "For quotation, specify orientation, destination country, thread requirement, finish, quantity, marking and required technical documentation.",
+      "text": "Start with the factory model or installation orientation and quantity. Add destination, connection, finish and project data requirements if available.",
       "numbers": []
     },
     "oEMODMSupport": {
@@ -367,7 +398,7 @@
       "numbers": []
     },
     "chromePlatedAndNaturalCopperFinishOptions": {
-      "text": "Chrome-plated and natural copper finish options.",
+      "text": "Chrome-plated finish; specify any additional finish requirement with your order.",
       "numbers": []
     },
     "connection": {
@@ -375,7 +406,7 @@
       "numbers": []
     },
     "threadFormManufacturedToAConfirmedDrawingOr": {
-      "text": "Thread form manufactured to a confirmed drawing or approved sample.",
+      "text": "BSPT is the default thread; NPT is available. Exact thread designation is matched to your order.",
       "numbers": []
     },
     "exportPackaging": {
@@ -391,7 +422,7 @@
       "numbers": []
     },
     "includeCountryOrientationThreadFinishQuantityOEMRequest": {
-      "text": "Include country, orientation, thread, finish, quantity, OEM request and required hydraulic documentation.",
+      "text": "Send your model or installation orientation and quantity. Add destination, thread, finish and hydraulic selection requirements if available.",
       "numbers": []
     },
     "whatsAppInquiry": {
@@ -503,6 +534,18 @@
         "8.0",
         "68"
       ]
+    },
+    "packaging": {
+      "text": "Packaging",
+      "numbers": []
+    },
+    "packagingTitle": {
+      "text": "Packing and label requirements",
+      "numbers": []
+    },
+    "packagingBody": {
+      "text": "Contact sales for packing and label requirements. Specify any destination or shipping-mark requirements with your inquiry.",
+      "numbers": []
     }
   },
   "shared": {

@@ -44,58 +44,177 @@
     "stackedWindowedDoors": "products/消防器材箱/fire-equipment-cabinets/stacked-windowed-door-cabinet-reference.png"
   },
   "imageDimensions": {
-    "hero": { "width": 1200, "height": 1200 },
-    "doubleWindowedDoors": { "width": 1200, "height": 1200 },
-    "singleWindowedDoor": { "width": 1200, "height": 1200 },
-    "stackedWindowedDoors": { "width": 1200, "height": 1200 }
+    "hero": {
+      "width": 1200,
+      "height": 1200
+    },
+    "doubleWindowedDoors": {
+      "width": 1200,
+      "height": 1200
+    },
+    "singleWindowedDoor": {
+      "width": 1200,
+      "height": 1200
+    },
+    "stackedWindowedDoors": {
+      "width": 1200,
+      "height": 1200
+    }
   },
-  "heroFacts": ["materialOptionsValue", "thicknessValue", "sizeCountValue", "dimensionOrderValue"],
+  "heroFacts": [
+    "materialOptionsValue",
+    "thicknessValue",
+    "sizeCountValue",
+    "dimensionOrderValue"
+  ],
   "gallery": [
-    { "media": "hero", "alt": "solidDoorAlt", "caption": "solidDoor", "thumbnailAlt": "solidDoorThumbnail" },
-    { "media": "doubleWindowedDoors", "alt": "doubleWindowedDoorsAlt", "caption": "doubleWindowedDoors", "thumbnailAlt": "doubleWindowedDoorsThumbnail" },
-    { "media": "singleWindowedDoor", "alt": "singleWindowedDoorAlt", "caption": "singleWindowedDoor", "thumbnailAlt": "singleWindowedDoorThumbnail" },
-    { "media": "stackedWindowedDoors", "alt": "stackedWindowedDoorsAlt", "caption": "stackedWindowedDoors", "thumbnailAlt": "stackedWindowedDoorsThumbnail" }
+    {
+      "media": "hero",
+      "alt": "solidDoorAlt",
+      "caption": "solidDoor",
+      "thumbnailAlt": "solidDoorThumbnail"
+    },
+    {
+      "media": "doubleWindowedDoors",
+      "alt": "doubleWindowedDoorsAlt",
+      "caption": "doubleWindowedDoors",
+      "thumbnailAlt": "doubleWindowedDoorsThumbnail"
+    },
+    {
+      "media": "singleWindowedDoor",
+      "alt": "singleWindowedDoorAlt",
+      "caption": "singleWindowedDoor",
+      "thumbnailAlt": "singleWindowedDoorThumbnail"
+    },
+    {
+      "media": "stackedWindowedDoors",
+      "alt": "stackedWindowedDoorsAlt",
+      "caption": "stackedWindowedDoors",
+      "thumbnailAlt": "stackedWindowedDoorsThumbnail"
+    }
   ],
   "specifications": [
-    { "label": "productType", "value": "productTypeValue" },
-    { "label": "availableConfigurations", "value": "configurationValue" },
-    { "label": "materialOptions", "value": "materialOptionsValue" },
-    { "label": "sheetThickness", "value": "thicknessValue" },
-    { "label": "dimensionOrder", "value": "dimensionOrderValue", "technical": true },
-    { "label": "mounting", "value": "mountingValue" },
-    { "label": "internalEquipment", "value": "internalEquipmentValue" },
-    { "label": "finishAndColor", "value": "finishValue" },
-    { "label": "certificationStatus", "value": "certificationValue" },
-    { "label": "factoryModel", "value": "confirmWithQuotation" },
-    { "label": "imageScope", "value": "imageScopeValue" }
+    {
+      "label": "productType",
+      "value": "productTypeValue"
+    },
+    {
+      "label": "availableConfigurations",
+      "value": "configurationValue"
+    },
+    {
+      "label": "materialOptions",
+      "value": "materialOptionsValue"
+    },
+    {
+      "label": "sheetThickness",
+      "value": "thicknessValue"
+    },
+    {
+      "label": "dimensionOrder",
+      "value": "dimensionOrderValue",
+      "technical": true
+    },
+    {
+      "label": "certificationStatus",
+      "value": "certificationValue"
+    }
   ],
   "modelColumns": [
-    { "label": "configuration", "field": "configuration", "localized": true },
-    { "label": "dimensions", "field": "dimensions", "technical": true },
-    { "label": "material", "field": "material", "localized": true },
-    { "label": "sheetThickness", "field": "sheetThickness", "localized": true }
+    {
+      "label": "configuration",
+      "field": "configuration",
+      "localized": true
+    },
+    {
+      "label": "dimensions",
+      "field": "dimensions",
+      "technical": true
+    },
+    {
+      "label": "material",
+      "field": "material",
+      "localized": true
+    },
+    {
+      "label": "sheetThickness",
+      "field": "sheetThickness",
+      "localized": true
+    }
   ],
   "models": [
-    { "configuration": "solidDoor", "dimensions": "750 × 750 × 250 mm", "material": "listedMaterialOptions", "sheetThickness": "customizableThickness" },
-    { "configuration": "solidDoor", "dimensions": "800 × 800 × 280 mm", "material": "listedMaterialOptions", "sheetThickness": "customizableThickness" },
-    { "configuration": "doubleWindowedDoors", "dimensions": "800 × 1000 × 250 mm", "material": "listedMaterialOptions", "sheetThickness": "customizableThickness" },
-    { "configuration": "singleWindowedDoor", "dimensions": "1100 × 800 × 300 mm", "material": "listedMaterialOptions", "sheetThickness": "customizableThickness" },
-    { "configuration": "singleWindowedDoor", "dimensions": "1000 × 800 × 280 mm", "material": "listedMaterialOptions", "sheetThickness": "customizableThickness" },
-    { "configuration": "stackedWindowedDoors", "dimensions": "1700 × 800 × 300 mm", "material": "listedMaterialOptions", "sheetThickness": "customizableThickness" }
+    {
+      "configuration": "solidDoor",
+      "dimensions": "750 × 750 × 250 mm",
+      "material": "listedMaterialOptions",
+      "sheetThickness": "customizableThickness"
+    },
+    {
+      "configuration": "solidDoor",
+      "dimensions": "800 × 800 × 280 mm",
+      "material": "listedMaterialOptions",
+      "sheetThickness": "customizableThickness"
+    },
+    {
+      "configuration": "doubleWindowedDoors",
+      "dimensions": "800 × 1000 × 250 mm",
+      "material": "listedMaterialOptions",
+      "sheetThickness": "customizableThickness"
+    },
+    {
+      "configuration": "singleWindowedDoor",
+      "dimensions": "1100 × 800 × 300 mm",
+      "material": "listedMaterialOptions",
+      "sheetThickness": "customizableThickness"
+    },
+    {
+      "configuration": "singleWindowedDoor",
+      "dimensions": "1000 × 800 × 280 mm",
+      "material": "listedMaterialOptions",
+      "sheetThickness": "customizableThickness"
+    },
+    {
+      "configuration": "stackedWindowedDoors",
+      "dimensions": "1700 × 800 × 300 mm",
+      "material": "listedMaterialOptions",
+      "sheetThickness": "customizableThickness"
+    }
   ],
   "confirmationItems": [
-    { "label": "materialAndThickness", "body": "materialAndThicknessBody" },
-    { "label": "cabinetConfiguration", "body": "cabinetConfigurationBody" },
-    { "label": "mountingAndOpenings", "body": "mountingAndOpeningsBody" },
-    { "label": "equipmentAndFinish", "body": "equipmentAndFinishBody" }
+    {
+      "label": "materialAndThickness",
+      "body": "materialAndThicknessBody"
+    },
+    {
+      "label": "cabinetConfiguration",
+      "body": "cabinetConfigurationBody"
+    },
+    {
+      "label": "mountingAndOpenings",
+      "body": "mountingAndOpeningsBody"
+    },
+    {
+      "label": "equipmentAndFinish",
+      "body": "equipmentAndFinishBody"
+    }
   ],
   "inquiry": {
     "whatsapp": "https://wa.me/8617326528368?text=Hello%2C%20I%20need%20a%20quotation%20for%20Fire%20Equipment%20Cabinets.%20Cabinet%20type%3A%20%5Btype%5D%2C%20size%20H%20x%20W%20x%20D%3A%20%5Bmm%5D%2C%20material%3A%20%5Bmaterial%5D%2C%20sheet%20thickness%3A%20%5Bmm%5D%2C%20mounting%3A%20%5Bmethod%5D%2C%20internal%20equipment%3A%20%5Blist%5D%2C%20quantity%3A%20%5Bpcs%5D%2C%20destination%3A%20%5Bcountry%5D.",
     "email": "mailto:zhengcolin1@gmail.com?subject=Fire%20Equipment%20Cabinet%20Inquiry"
   },
   "validation": {
-    "anchors": ["gallery", "specifications", "models", "quotation"],
-    "requiredTechnicalValues": ["750 × 750 × 250 mm", "800 × 1000 × 250 mm", "1100 × 800 × 300 mm", "1700 × 800 × 300 mm"]
+    "anchors": [
+      "gallery",
+      "specifications",
+      "models",
+      "quotation"
+    ],
+    "requiredTechnicalValues": [
+      "750 × 750 × 250 mm",
+      "800 × 1000 × 250 mm",
+      "1100 × 800 × 300 mm",
+      "1700 × 800 × 300 mm"
+    ]
   },
   "copy": {
     "en": {
@@ -103,7 +222,7 @@
       "title": "Fire Equipment Cabinets",
       "eyebrow": "Four cabinet configurations and six standard size options",
       "lead": "Solid-door and windowed fire equipment cabinets available in carbon steel or with an aluminium frame and steel sheet panels, with sheet thickness customizable for the order.",
-      "note": "The listed dimensions are catalog selection sizes in H × W × D order. Confirm the material grade, sheet thickness, mounting, openings, internal equipment, finish and approved drawing before production. Images are configuration illustrations and require website-use confirmation before public release.",
+      "note": "The listed selection dimensions are in H × W × D order. Confirm the material grade, sheet thickness, mounting, openings, internal equipment, finish and approved drawing before production. Images are configuration illustrations.",
       "gallery": "Cabinet configuration images",
       "galleryTitle": "Four cabinet arrangements",
       "galleryBody": "Use these illustrations to select the door and window arrangement. They do not establish exact dimensions, construction details, material grade, sheet thickness or included equipment.",
@@ -120,8 +239,8 @@
       "stackedWindowedDoorsAlt": "Reference illustration of a tall red fire equipment cabinet with stacked windowed doors",
       "stackedWindowedDoorsThumbnail": "Stacked-windowed-door fire equipment cabinet thumbnail",
       "specifications": "Specifications",
-      "specificationsTitle": "Confirmed selection scope",
-      "specificationsBody": "The cabinet arrangements, six listed dimensions, material information supplied by the user and customizable sheet thickness are shown below. All construction details remain subject to the order drawing.",
+      "specificationsTitle": "Product selection details",
+      "specificationsBody": "Compare cabinet arrangements, regular dimensions, material options and customizable sheet thickness. Final construction follows your order drawing.",
       "productType": "Product family",
       "availableConfigurations": "Available configurations",
       "materialOptions": "Material options",
@@ -130,9 +249,9 @@
       "mounting": "Mounting method",
       "internalEquipment": "Internal equipment",
       "finishAndColor": "Finish and color",
-      "certificationStatus": "Certification / rating status",
+      "certificationStatus": "Fire-resistance rating",
       "factoryModel": "Factory model",
-      "imageScope": "Image evidence scope",
+      "imageScope": "Image type",
       "confirmWithQuotation": "To be confirmed with the quotation",
       "availableModels": "Standard size options",
       "modelsTitle": "Regular cabinet dimensions",
@@ -144,7 +263,7 @@
       "customizableThickness": "Customizable",
       "temperature": "Temperature",
       "thermalElement": "Operating element",
-      "modelsNote": "No factory model number is assigned to these catalog selections. Final dimensions, tolerances, material grade, thickness and openings must follow the approved production drawing.",
+      "modelsNote": "Select the cabinet configuration and dimensions for your quotation. Final dimensions, tolerances, material grade, thickness and openings follow the agreed production drawing.",
       "quotation": "Quotation confirmation",
       "quotationTitle": "Confirm the cabinet construction before production",
       "quotationBody": "Send the cabinet configuration, H × W × D, material, sheet thickness, mounting method, internal equipment list, finish, quantity and destination. The quotation and drawing will lock the production specification.",
@@ -157,7 +276,7 @@
       "equipmentAndFinish": "Internal equipment and finish",
       "equipmentAndFinishBody": "List the equipment, brackets and accessories to be installed, plus the finish, color, packing and required documents.",
       "inquiryTitle": "Send your fire equipment cabinet requirement",
-      "inquiryBody": "Include cabinet configuration, H × W × D, material, sheet thickness, mounting, internal equipment, quantity and destination.",
+      "inquiryBody": "Start with cabinet configuration, H × W × D and quantity. Add material, sheet thickness, mounting, internal equipment and destination when available.",
       "askOnWhatsApp": "Ask on WhatsApp",
       "emailSales": "Email sales",
       "productImagePreview": "Product image preview",
@@ -167,7 +286,8 @@
       "nextProductImage": "Next product image",
       "selectProductImage": "Select product image",
       "seoTitle": "Fire Equipment Cabinet Sizes & Options | CHUANWEI FIRE",
-      "seoDescription": "Fire equipment cabinets in four solid-door and windowed configurations with six regular H × W × D sizes, carbon steel or aluminium-frame and steel-sheet construction, and customizable sheet thickness."
+      "seoDescription": "Fire equipment cabinets in four solid-door and windowed configurations with six regular H × W × D sizes, carbon steel or aluminium-frame and steel-sheet construction, and customizable sheet thickness.",
+      "certificationValue": "No certification or fire-resistance rating is claimed for these cabinet configurations."
     },
     "ar": {
       "onThisPage": "في هذه الصفحة",
@@ -181,11 +301,11 @@
       "mountingValue": "يُؤكد مع عرض السعر",
       "internalEquipmentValue": "يُؤكد مع عرض السعر",
       "finishValue": "يُؤكد مع عرض السعر",
-      "certificationValue": "لا يتوفر في الأدلة الحالية اعتماد مؤكد أو تصنيف مقاومة حريق",
+      "certificationValue": "لا يُدّعى اعتماد أو تصنيف لمقاومة الحريق لهذه التكوينات من الخزائن.",
       "imageScopeValue": "صور توضيحية للتكوين فقط، وليست دليلاً على المقاس الدقيق أو البناء أو الملحقات",
       "eyebrow": "أربعة تكوينات للخزانة وستة خيارات من المقاسات القياسية",
       "lead": "خزائن معدات مكافحة الحريق بأبواب مصمتة أو مزودة بنوافذ، متاحة من الفولاذ الكربوني أو بإطار من الألومنيوم مع ألواح من الصلب، مع سماكة صاج قابلة للتخصيص حسب الطلب.",
-      "note": "الأبعاد المدرجة هي مقاسات اختيار من الكتالوج بترتيب الارتفاع × العرض × العمق. يجب تأكيد درجة المادة وسماكة الصاج وطريقة التركيب والفتحات والمعدات الداخلية والتشطيب والرسم المعتمد قبل الإنتاج. الصور توضيحية للتكوين وتتطلب تأكيد حق استخدامها في الموقع قبل النشر العام.",
+      "note": "الأبعاد المدرجة هي مقاسات اختيار بترتيب الارتفاع × العرض × العمق. يجب تأكيد درجة المادة وسماكة الصاج وطريقة التركيب والفتحات والمعدات الداخلية والتشطيب والرسم المعتمد قبل الإنتاج. الصور توضيحية للتكوين.",
       "gallery": "صور تكوينات الخزانة",
       "galleryTitle": "أربعة ترتيبات للخزانة",
       "galleryBody": "استخدم هذه الصور لاختيار ترتيب الأبواب والنوافذ. وهي لا تثبت الأبعاد الدقيقة أو تفاصيل البناء أو درجة المادة أو سماكة الصاج أو المعدات المرفقة.",
@@ -202,8 +322,8 @@
       "stackedWindowedDoorsAlt": "صورة توضيحية مرجعية لخزانة معدات حريق حمراء طويلة بأبواب ذات نوافذ مرتبة رأسياً",
       "stackedWindowedDoorsThumbnail": "صورة مصغرة لخزانة معدات حريق بأبواب ذات نوافذ مرتبة رأسياً",
       "specifications": "المواصفات",
-      "specificationsTitle": "نطاق الاختيار المؤكد",
-      "specificationsBody": "تُعرض أدناه ترتيبات الخزانة والأبعاد الستة المدرجة ومعلومات المواد التي قدمها العميل وسماكة الصاج القابلة للتخصيص. تبقى جميع تفاصيل البناء خاضعة لرسم الطلب.",
+      "specificationsTitle": "معلومات اختيار المنتج",
+      "specificationsBody": "قارن تكوينات الخزائن والأبعاد المعتادة وخيارات المواد وسماكة الصاج القابلة للتخصيص. يتبع البناء النهائي رسم الطلب.",
       "productType": "فئة المنتج",
       "availableConfigurations": "التكوينات المتاحة",
       "materialOptions": "خيارات المادة",
@@ -212,9 +332,9 @@
       "mounting": "طريقة التركيب",
       "internalEquipment": "المعدات الداخلية",
       "finishAndColor": "التشطيب واللون",
-      "certificationStatus": "حالة الاعتماد / التصنيف",
+      "certificationStatus": "تصنيف مقاومة الحريق",
       "factoryModel": "موديل المصنع",
-      "imageScope": "نطاق دليل الصورة",
+      "imageScope": "نوع الصورة",
       "confirmWithQuotation": "يُؤكد مع عرض السعر",
       "availableModels": "خيارات المقاسات القياسية",
       "modelsTitle": "الأبعاد المعتادة للخزانة",
@@ -226,7 +346,7 @@
       "customizableThickness": "قابلة للتخصيص",
       "temperature": "درجة الحرارة",
       "thermalElement": "عنصر التشغيل",
-      "modelsNote": "لم يُعيّن رقم موديل مصنع لهذه الاختيارات من الكتالوج. يجب أن تتبع الأبعاد النهائية والسماحات ودرجة المادة والسماكة والفتحات رسم الإنتاج المعتمد.",
+      "modelsNote": "حدد تكوين الخزانة والأبعاد لطلب عرض السعر. تتبع الأبعاد النهائية والتفاوتات ودرجة المادة والسماكة والفتحات رسم الإنتاج المتفق عليه.",
       "quotation": "تأكيد عرض السعر",
       "quotationTitle": "تأكيد بناء الخزانة قبل الإنتاج",
       "quotationBody": "أرسل تكوين الخزانة والأبعاد والمواد وسماكة الصاج وطريقة التركيب وقائمة المعدات الداخلية والتشطيب والكمية والوجهة. يثبت عرض السعر والرسم مواصفة الإنتاج.",
@@ -239,7 +359,7 @@
       "equipmentAndFinish": "المعدات الداخلية والتشطيب",
       "equipmentAndFinishBody": "حدد المعدات والحوامل والملحقات التي ستُركب، إضافة إلى التشطيب واللون والتغليف والوثائق المطلوبة.",
       "inquiryTitle": "أرسل متطلبات خزانة معدات مكافحة الحريق",
-      "inquiryBody": "أدرج تكوين الخزانة والأبعاد والمواد وسماكة الصاج والتركيب والمعدات الداخلية والكمية والوجهة.",
+      "inquiryBody": "ابدأ بتكوين الخزانة وأبعاد H × W × D والكمية. أضف المادة وسماكة اللوح وطريقة التثبيت والمعدات الداخلية والوجهة عند توفرها.",
       "askOnWhatsApp": "استفسر عبر WhatsApp",
       "emailSales": "راسل قسم المبيعات",
       "productImagePreview": "معاينة صورة المنتج",

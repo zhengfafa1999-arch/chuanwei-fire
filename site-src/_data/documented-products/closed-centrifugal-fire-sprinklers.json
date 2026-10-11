@@ -1,0 +1,252 @@
+{
+  "id": "closed-centrifugal-fire-sprinklers",
+  "routeId": "product:closed-centrifugal-fire-sprinklers",
+  "template": "product-series/documented-product.njk",
+  "styles": [
+    "css/common.css",
+    "css/sprinkler-product.css",
+    "css/sprinkler-product-gallery.css",
+    "css/documented-product.css",
+    "css/site-navigation.css"
+  ],
+  "source": {
+    "reviewedDate": "2026-10-09",
+    "package": "B-DSXC系列-雨淋喷头",
+    "archiveRoot": "D:\\work\\codex\\阿里国际站运营\\outputs\\alibaba-detail-image-studio\\B-DSXC系列-雨淋喷头",
+    "evidence": "Existing exact-product Alibaba package, confirmed-fact ledger and matching user-supplied photographs.",
+    "scope": "Confirmed fields only; no product certifications, inferred response class, rated flow or coverage claims."
+  },
+  "publication": {
+    "status": "release-candidate",
+    "externalRelease": true,
+    "imageRights": "user-confirmed-website-use",
+    "imageRightsEvidence": "docs/release/special-sprinklers-20261009/image-rights-confirmation.json"
+  },
+  "media": {
+    "hero": "assets/products/special-sprinklers/closed-centrifugal-fire-sprinklers-2-1600.webp"
+  },
+  "imageDimensions": {
+    "hero": {
+      "width": 1230,
+      "height": 1600
+    }
+  },
+  "heroFacts": [
+    "fact0"
+  ],
+  "shared": {
+    "fact0": "K90 / K115 / K145 / K155 / K175 / K200 metric",
+    "fact4": "5 mm"
+  },
+  "gallery": [
+    {
+      "media": "hero",
+      "caption": "heroCaption",
+      "alt": "heroAlt",
+      "thumbnailAlt": "heroThumbnail"
+    }
+  ],
+  "specifications": [
+    {
+      "label": "kFactor",
+      "value": "fact0",
+      "technical": true
+    },
+    {
+      "label": "threadForm",
+      "value": "fact1",
+      "technical": false
+    },
+    {
+      "label": "configuration",
+      "value": "fact2",
+      "technical": false
+    },
+    {
+      "label": "material",
+      "value": "fact3",
+      "technical": false
+    },
+    {
+      "label": "thermalElement",
+      "value": "fact4",
+      "technical": true
+    }
+  ],
+  "modelColumns": [
+    {
+      "label": "factoryModel",
+      "field": "factoryModel",
+      "technical": true
+    },
+    {
+      "label": "kFactor",
+      "field": "kFactor",
+      "technical": true
+    }
+  ],
+  "models": [
+    {
+      "factoryModel": "B-DSXC-90",
+      "kFactor": "K90"
+    },
+    {
+      "factoryModel": "B-DSXC-115",
+      "kFactor": "K115"
+    },
+    {
+      "factoryModel": "B-DSXC-145",
+      "kFactor": "K145"
+    },
+    {
+      "factoryModel": "B-DSXC-155",
+      "kFactor": "K155"
+    },
+    {
+      "factoryModel": "B-DSXC-175",
+      "kFactor": "K175"
+    },
+    {
+      "factoryModel": "B-DSXC-200",
+      "kFactor": "K200"
+    }
+  ],
+  "confirmationItems": [
+    {
+      "label": "connection",
+      "body": "connectionBody"
+    },
+    {
+      "label": "operatingRequirement",
+      "body": "operatingRequirementBody"
+    },
+    {
+      "label": "orderInformation",
+      "body": "orderInformationBody"
+    }
+  ],
+  "validation": {
+    "anchors": [
+      "gallery",
+      "specifications",
+      "models",
+      "quotation"
+    ],
+    "requiredTechnicalValues": [
+      "K90 / K115 / K145 / K155 / K175 / K200 metric",
+      "5 mm"
+    ]
+  },
+  "inquiry": {
+    "whatsapp": "https://wa.me/8617326528368?text=Hello%2C%20I%20need%20a%20quotation%20for%20Closed-Type%20Centrifugal%20Fire%20Sprinklers.%20Reference%3A%20%5Bmodel%5D%2C%20connection%3A%20%5Bthread%5D%2C%20operating%20requirements%3A%20%5Bdetails%5D%2C%20quantity%3A%20%5Bpcs%5D%2C%20destination%3A%20%5Bcountry%5D.",
+    "email": "mailto:zhengcolin1@gmail.com?subject=Closed-Type%20Centrifugal%20Fire%20Sprinklers%20Inquiry"
+  },
+  "copy": {
+    "en": {
+      "onThisPage": "On this page",
+      "gallery": "Product images",
+      "galleryTitle": "Real product photographs",
+      "galleryBody": "Compare the visible construction and product markings. Photographs identify the shown samples; they do not represent every size or supplied configuration.",
+      "specifications": "Specifications",
+      "specificationsTitle": "Product selection details",
+      "specificationsBody": "Use the confirmed details below to match your requirement. Request exact-model technical documents for the selected configuration.",
+      "availableModels": "Available configurations",
+      "modelsTitle": "Configurations for quotation",
+      "modelsBody": "Match the factory reference and connection requirement with your order.",
+      "factoryModel": "Factory reference",
+      "temperature": "Operating temperature",
+      "thermalElement": "Glass bulb diameter",
+      "modelsNote": "Confirm the exact supplied configuration and required documentation before ordering.",
+      "quotation": "Quotation details",
+      "quotationTitle": "Details to send with your inquiry",
+      "quotationBody": "Send the connection, operating conditions, quantity and destination so we can review the required configuration.",
+      "connection": "Connection",
+      "connectionBody": "Specify the required thread and mating connection.",
+      "operatingRequirement": "Operating conditions",
+      "operatingRequirementBody": "Provide the project pressure and any temperature or discharge requirements.",
+      "orderInformation": "Order information",
+      "orderInformationBody": "Include quantity, destination and the exact technical documents required.",
+      "inquiryTitle": "Request product details and a quotation",
+      "inquiryBody": "Include the product reference, connection, quantity and destination. Send the project specification when available.",
+      "askOnWhatsApp": "Ask on WhatsApp",
+      "emailSales": "Email sales",
+      "productImagePreview": "Product image preview",
+      "closeImagePreview": "Close image preview",
+      "enlargedImage": "Enlarged product photograph",
+      "previousProductImage": "Previous product image",
+      "nextProductImage": "Next product image",
+      "selectProductImage": "Select product image",
+      "kFactor": "Nominal metric K-factors",
+      "threadForm": "Thread family",
+      "configuration": "Configuration",
+      "workingPressure": "Working pressure",
+      "material": "Frame material",
+      "unconfirmed": "Details available on request",
+      "title": "Closed-Type Centrifugal Fire Sprinklers",
+      "eyebrow": "Special fire-protection sprinklers and nozzles",
+      "lead": "Closed-type pendent sprinklers with a 5 mm glass bulb and centrifugal distribution structure. The series offers six nominal metric K-factor options with BSPT male threads.",
+      "note": "The photograph identifies the series and is not assigned to a specific K-factor or inlet size. Request the operating temperature, pressure and coverage data for the selected model.",
+      "seoTitle": "Closed-Type Centrifugal Fire Sprinklers | CHUANWEI FIRE",
+      "seoDescription": "Closed-type pendent sprinklers with a 5 mm glass bulb and centrifugal distribution structure. The series offers six nominal metric K-factor options with BSPT male threads.",
+      "heroCaption": "B-DSXC centrifugal sprinkler — series sample",
+      "heroAlt": "B-DSXC centrifugal sprinkler — series sample",
+      "heroThumbnail": "B-DSXC centrifugal sprinkler — series sample",
+      "fact1": "BSPT male thread; exact size confirmed with the selected model",
+      "fact2": "Closed type / Pendent / Centrifugal",
+      "fact3": "Copper frame"
+    },
+    "ar": {
+      "onThisPage": "في هذه الصفحة",
+      "gallery": "صور المنتج",
+      "galleryTitle": "صور حقيقية للمنتج",
+      "galleryBody": "قارن البنية الظاهرة وعلامات المنتج. تحدد الصور العينات المعروضة ولا تمثل جميع المقاسات أو تكوينات التوريد.",
+      "specifications": "المواصفات",
+      "specificationsTitle": "تفاصيل اختيار المنتج",
+      "specificationsBody": "استخدم التفاصيل المؤكدة أدناه لمطابقة متطلباتك. اطلب الوثائق الفنية للموديل والتكوين المختار.",
+      "availableModels": "التكوينات المتاحة",
+      "modelsTitle": "التكوينات لطلب عرض السعر",
+      "modelsBody": "طابق مرجع المصنع ومتطلبات التوصيل مع طلبك.",
+      "factoryModel": "مرجع المصنع",
+      "temperature": "درجة حرارة التشغيل",
+      "thermalElement": "قطر البصيلة الزجاجية",
+      "modelsNote": "أكد تكوين التوريد الدقيق والوثائق المطلوبة قبل الطلب.",
+      "quotation": "تفاصيل عرض السعر",
+      "quotationTitle": "التفاصيل المطلوبة مع استفسارك",
+      "quotationBody": "أرسل التوصيل وظروف التشغيل والكمية والوجهة لمراجعة التكوين المطلوب.",
+      "connection": "التوصيل",
+      "connectionBody": "حدد السن اللولبي والتوصيل المقابل المطلوب.",
+      "operatingRequirement": "ظروف التشغيل",
+      "operatingRequirementBody": "حدد ضغط المشروع وأي متطلبات لدرجة الحرارة أو التصريف.",
+      "orderInformation": "معلومات الطلب",
+      "orderInformationBody": "اذكر الكمية والوجهة والوثائق الفنية الدقيقة المطلوبة.",
+      "inquiryTitle": "اطلب تفاصيل المنتج وعرض السعر",
+      "inquiryBody": "اذكر مرجع المنتج والتوصيل والكمية والوجهة. أرسل مواصفات المشروع إن توفرت.",
+      "askOnWhatsApp": "استفسر عبر WhatsApp",
+      "emailSales": "راسل قسم المبيعات",
+      "productImagePreview": "معاينة صورة المنتج",
+      "closeImagePreview": "إغلاق معاينة الصورة",
+      "enlargedImage": "صورة مكبرة للمنتج",
+      "previousProductImage": "صورة المنتج السابقة",
+      "nextProductImage": "صورة المنتج التالية",
+      "selectProductImage": "اختر صورة المنتج",
+      "kFactor": "معاملات K المترية الاسمية",
+      "threadForm": "عائلة السن اللولبي",
+      "configuration": "التكوين",
+      "workingPressure": "ضغط التشغيل",
+      "material": "مادة الإطار",
+      "unconfirmed": "التفاصيل متاحة عند الطلب",
+      "title": "رشاشات حريق مغلقة بالطرد المركزي",
+      "eyebrow": "رشاشات وفوهات خاصة لمكافحة الحريق",
+      "lead": "رشاشات معلقة مغلقة ببصيلة زجاجية 5 mm وبنية توزيع بالطرد المركزي. توفر السلسلة ستة خيارات لمعامل K المتري الاسمي مع أسنان خارجية BSPT.",
+      "note": "تحدد الصورة السلسلة ولا تنسب إلى معامل K أو مقاس مدخل معين. اطلب بيانات درجة حرارة التشغيل والضغط والتغطية للموديل المختار.",
+      "seoTitle": "رشاشات حريق مغلقة بالطرد المركزي | CHUANWEI FIRE",
+      "seoDescription": "رشاشات معلقة مغلقة ببصيلة زجاجية 5 mm وبنية توزيع بالطرد المركزي. توفر السلسلة ستة خيارات لمعامل K المتري الاسمي مع أسنان خارجية BSPT.",
+      "heroCaption": "رشاش بالطرد المركزي B-DSXC — عينة من السلسلة",
+      "heroAlt": "رشاش بالطرد المركزي B-DSXC — عينة من السلسلة",
+      "heroThumbnail": "رشاش بالطرد المركزي B-DSXC — عينة من السلسلة",
+      "fact1": "سن خارجي BSPT؛ يؤكد المقاس الدقيق مع الموديل المختار",
+      "fact2": "مغلق / معلق / طرد مركزي",
+      "fact3": "إطار من النحاس"
+    }
+  }
+}

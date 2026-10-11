@@ -1,0 +1,10 @@
+{
+  "date": "2026-10-10",
+  "status": "local-review-candidate-not-deployed",
+  "archive": ".tmp/releases/sprinkler-trim-20261010-web.zip",
+  "bytes": 44822102,
+  "sha256": "5d2bce5fb987360d92708b173a77a8a23315992908cb1962f96ccc0811aff096",
+  "files": 710,
+  "pages": 179,
+  "validation": "All ZIP entries verified against static-manifest sizes and SHA256; CRC check passed. Server rollback backup must be created before publication."
+}

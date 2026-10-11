@@ -1,0 +1,10 @@
+{
+  "date": "2026-10-09",
+  "status": "local-review-candidate-not-deployed",
+  "archive": ".tmp/releases/primary-product-photos-20261009-web.zip",
+  "bytes": 42604858,
+  "sha256": "39863ade4ec796242b01e153c854dd9134e6c85e819960f118b9df32c3fcbb1e",
+  "files": 684,
+  "pages": 175,
+  "validation": "All ZIP entries verified against static-manifest sizes and SHA256; CRC check passed. Server rollback backup must be created before publication."
+}

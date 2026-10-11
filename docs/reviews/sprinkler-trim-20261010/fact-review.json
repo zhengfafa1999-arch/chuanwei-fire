@@ -1,0 +1,20 @@
+{
+  "userRequest": "阿里国际站有一个消防喷头的装饰配件，也一起放到官网上",
+  "included": [
+    "Double-layer center-opening escutcheon",
+    "Single-layer center-opening escutcheon",
+    "White round-cover assembly"
+  ],
+  "confirmedScope": "Accessory type, original-photo geometry and appearance only",
+  "notIncluded": "Wire and band guards are different accessory types, outside this decorative accessory request",
+  "unresolved": [
+    "Exact factory SKU",
+    "Dimensions",
+    "Material and coating composition",
+    "Compatible exact sprinkler models",
+    "Whether white cover is part of a thermal-release assembly",
+    "Packing"
+  ],
+  "terminologyReference": "https://www.tyco-fire.com/products-and-solutions/sprinklers-nozzles-and-accessories/sprinkler-accessories/sprinkler_cover_plate_assemblies_escutcheons_guards_and_shields_fsp/sprinkler-cover-plate-assemblies-escutcheons-guards-and-shields",
+  "referenceScope": "International category terminology only; no third-party specifications, compatibility or approvals applied"
+}

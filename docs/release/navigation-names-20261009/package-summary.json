@@ -1,0 +1,11 @@
+{
+  "date": "2026-10-09",
+  "status": "historical-local-candidate",
+  "archive": ".tmp/releases/navigation-names-20261009-web.zip",
+  "bytes": 47982897,
+  "sha256": "f5bcc6f5669ec2ab4e29ed3dc1b30c0209285eeeae74af1c384ccfcc2df1c683",
+  "files": 714,
+  "pages": 175,
+  "validation": "All ZIP entries verified against static-manifest sizes and SHA256; CRC check passed. Server rollback backup must be created before publication.",
+  "supersededBy": "docs/release/primary-product-photos-20261009/package-summary.json"
+}

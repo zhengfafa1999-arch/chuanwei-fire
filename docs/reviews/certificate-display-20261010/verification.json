@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-10",
+  "status": "local-review-not-deployed",
+  "pagesChecked": [
+    "index.html",
+    "zh/index.html",
+    "ar/index.html",
+    "downloads.html",
+    "ar/downloads.html"
+  ],
+  "changedPublicFiles": [
+    "ar/downloads.html",
+    "ar/index.html",
+    "downloads.html",
+    "index.html",
+    "zh/index.html"
+  ],
+  "lineEndingOnlyChanges": [
+    "about.html",
+    "ar/about.html",
+    "ar/contact.html",
+    "contact.html"
+  ],
+  "originalCertificatesAndPdfUnchanged": {
+    "assets/home/certificates/iso-14001.png": "37366f30b19bdcbbac6a0794685a894a8ae590ca6bc56120698a825c9434e3f1",
+    "assets/home/certificates/iso-45001.png": "0c1a54ac058446025606d72b358dae4d7bc5b7306a5bf56c9ef7056845a04085",
+    "assets/home/certificates/iso-9001.png": "4b6faedcd446703a7f9538b115c065f8d378667a6d95e553f2717a79897f184b",
+    "assets/downloads/standard-response-fire-sprinklers-en.pdf": "4726e11252e8776a359b726a3d610937bd21913f3f68b13ae679b02a764146c8"
+  },
+  "browserVisualCheck": "Not performed; copy-only change with unchanged certificate images and controls."
+}

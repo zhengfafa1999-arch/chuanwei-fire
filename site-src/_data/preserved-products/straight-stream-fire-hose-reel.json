@@ -5,7 +5,12 @@
   "source": {
     "path": "products/软管卷盘/straight-stream-fire-hose-reel.html",
     "revision": "c1f8b6f",
-    "status": "preserved-existing-content-not-reaudited"
+    "status": "preserved-existing-content-not-reaudited",
+    "buyerCopyReview": {
+      "date": "2026-10-09",
+      "record": "docs/reviews/remaining-series-20261009/reviewed-changes.json",
+      "scope": "Buyer terminology and inquiry guidance; exact models, primary photographs and technical values retained except removal of unconfirmed carton quantities."
+    }
   },
   "media": {
     "hero": "products/软管卷盘/straight-stream-fire-hose-reel/straight-stream-fire-hose-reel.jpg",
@@ -77,7 +82,7 @@
       "numbers": []
     },
     "photographsShowTheCompleteJPSHoseReelAssembly": {
-      "text": "Photographs show the complete JPS hose reel assembly and the copper nozzle. The visible physical GUANYA / 冠亚 product markings are retained; CHUANWEI FIRE identifies the website and export-sales presentation.",
+      "text": "Photographs show the complete JPS hose reel assembly and the copper nozzle.",
       "numbers": []
     },
     "completeReelAssembly": {
@@ -253,7 +258,7 @@
       "numbers": []
     },
     "factoryReference": {
-      "text": "Factory reference",
+      "text": "Model",
       "numbers": []
     },
     "onRequest": {

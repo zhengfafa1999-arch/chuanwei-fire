@@ -17,6 +17,7 @@ const COPY = {
     fallback: "Product page not translated; opens the matching category",
     backToCategory: "Back to product category",
     productDirectory: "Product directory",
+    viewCategory: "View category",
     companyWebsite: "Company website"
   },
   zh: {
@@ -31,6 +32,7 @@ const COPY = {
     fallback: "该页面尚未翻译，将打开对应产品分类",
     backToCategory: "返回产品分类",
     productDirectory: "产品总目录",
+    viewCategory: "查看分类",
     companyWebsite: "公司网站"
   },
   ar: {
@@ -45,6 +47,7 @@ const COPY = {
     fallback: "صفحة المنتج غير مترجمة؛ يفتح قسم المنتجات المطابق",
     backToCategory: "العودة إلى فئة المنتج",
     productDirectory: "دليل المنتجات",
+    viewCategory: "عرض الفئة",
     companyWebsite: "موقع الشركة"
   }
 };
@@ -101,6 +104,7 @@ export function createSiteNavigation(routeId, locale, outputPath) {
     primaryItems,
     productGroups: PRODUCT_FAMILIES.map(family => ({
       name: family.name[locale] || family.name.en,
+      href: resolveSiteRoute(family.routeId, routeLocale(family.routeId, locale), outputPath).href,
       products: flatProducts(family).map(product => ({
         name: product.name[locale] || product.name.en,
         href: resolveSiteRoute(product.routeId, routeLocale(product.routeId, locale), outputPath).href + productSuffix(product)
@@ -113,6 +117,7 @@ export function createSiteNavigation(routeId, locale, outputPath) {
     labels: {
       backToCategory: copy.backToCategory,
       productDirectory: copy.productDirectory,
+      viewCategory: copy.viewCategory,
       companyWebsite: copy.companyWebsite
     }
   };
@@ -131,7 +136,7 @@ export function renderSiteHeader(navigation) {
   const primaryItems = navigation.primaryItems.map((item) => {
     const link = `<a href="${escapeHtml(item.href)}" data-site-nav-item="${item.id}"${item.current ? ' aria-current="page"' : ""}>${escapeHtml(item.label)}</a>`;
     if (item.id !== 'products') return link;
-    const groups = navigation.productGroups.map(group => `<details class="global-product-group" open><summary>${escapeHtml(group.name)}</summary>${group.products.map(product => `<a href="${escapeHtml(product.href)}">${escapeHtml(product.name)}</a>`).join('')}</details>`).join('');
+    const groups = navigation.productGroups.map(group => `<details class="global-product-group" name="product-categories"><summary>${escapeHtml(group.name)}</summary><a class="global-product-category" href="${escapeHtml(group.href)}">${escapeHtml(navigation.labels.viewCategory)} →</a>${group.products.map(product => `<a href="${escapeHtml(product.href)}">${escapeHtml(product.name)}</a>`).join('')}</details>`).join('');
     return `<div class="global-products">${link}<details class="global-product-menu"><summary aria-label="${escapeHtml(item.label)}">▾</summary><div class="global-product-panel"><a class="global-product-all" href="${escapeHtml(item.href)}">${escapeHtml(navigation.labels.productDirectory)} →</a><div class="global-product-groups">${groups}</div></div></details></div>`;
   }).join("\n");
   const languageItems = navigation.languageItems.map((item) => `      <a href="${escapeHtml(item.href)}" lang="${item.lang}" dir="${item.dir}" data-site-language-choice="${item.language}" data-language-status="${item.status}" title="${escapeHtml(item.title)}"${item.current ? ' aria-current="true"' : ""}>${escapeHtml(item.label)}</a>`).join("\n");

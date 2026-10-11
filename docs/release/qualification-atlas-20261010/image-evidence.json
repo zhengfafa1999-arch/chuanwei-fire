@@ -1,0 +1,155 @@
+{
+  "source": "docs/release/qualification-atlas-20261010/source/qualification-atlas.pdf",
+  "sourceSha256": "48951722851119b6d6a77df9c67a37b182b9244896a0bedca5d7b0f69f76b133",
+  "pages": 37,
+  "publicSourcePages": [
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33
+  ],
+  "method": "Whole-page Poppler rasterization at 2000px and 520px; no cropping, restamping, retouching or document changes.",
+  "authorization": "User request on 2026-10-10",
+  "status": "Patent grant scans, no current-register status or product-approval claim.",
+  "files": [
+    {
+      "path": "assets/certificates/patents/document-21.jpg",
+      "bytes": 342856,
+      "sha256": "939251fd601a6b0cfca927fd0953bd4da360291f4feba2b38b8af09115a7d726"
+    },
+    {
+      "path": "assets/certificates/patents/document-22.jpg",
+      "bytes": 340881,
+      "sha256": "39aa938725d1bc29632a7145ab9453fb11f11cd081b40f3a3f0b480b900cea7e"
+    },
+    {
+      "path": "assets/certificates/patents/document-23.jpg",
+      "bytes": 351283,
+      "sha256": "e42e21abc8c209381133c784c1f50145f5683c51c7b0e7b667a90b564ddb4264"
+    },
+    {
+      "path": "assets/certificates/patents/document-24.jpg",
+      "bytes": 352643,
+      "sha256": "3546ccef0273bd57483287b7f767231fd3fcb78df03f14e1d1be59ff6655650a"
+    },
+    {
+      "path": "assets/certificates/patents/document-25.jpg",
+      "bytes": 340380,
+      "sha256": "790c4fb6165dcbb5917d578ced8758d3ceaa8c5082101cab8cd87a6fdcec5842"
+    },
+    {
+      "path": "assets/certificates/patents/document-26.jpg",
+      "bytes": 354864,
+      "sha256": "4a7caa290c5433f05937f83a14ea6fdd6900c784e2741496d15847d1c235f46f"
+    },
+    {
+      "path": "assets/certificates/patents/document-27.jpg",
+      "bytes": 352928,
+      "sha256": "584a5996159d810864ae5fea08a53a513734ab9ebb47e097a383cf70e47c4591"
+    },
+    {
+      "path": "assets/certificates/patents/document-28.jpg",
+      "bytes": 356020,
+      "sha256": "a5eb278e20753bd55b4426be9de130058ac4bce00780224cfa0ef979e0b89d6a"
+    },
+    {
+      "path": "assets/certificates/patents/document-29.jpg",
+      "bytes": 341022,
+      "sha256": "2c2020b110425432dd7149e6836ddc48724506499910c73723f56b13a1a7cf37"
+    },
+    {
+      "path": "assets/certificates/patents/document-30.jpg",
+      "bytes": 343199,
+      "sha256": "b498562c62cb954a2218e25c2932339b4f592b6dc6b91e112707d24efd2acae2"
+    },
+    {
+      "path": "assets/certificates/patents/document-31.jpg",
+      "bytes": 352657,
+      "sha256": "a186d326d69ae61f46f7087883757a20aa4754a87ee8fef8be671ba87d1d4664"
+    },
+    {
+      "path": "assets/certificates/patents/document-32.jpg",
+      "bytes": 341669,
+      "sha256": "7a889ccc7bd87633be9e49cea413186bdcd06b01b959ca4c02a24389b2dd8522"
+    },
+    {
+      "path": "assets/certificates/patents/document-33.jpg",
+      "bytes": 351251,
+      "sha256": "d6c433b4502a84bb19842e77b18ec75cf6830e2435f78d880dea1dae501cf85d"
+    },
+    {
+      "path": "assets/certificates/patents/preview-21.jpg",
+      "bytes": 27566,
+      "sha256": "800d56ac0f06c703f684f84d207354fc7ac487968e24db4528225ac7b5360e2a"
+    },
+    {
+      "path": "assets/certificates/patents/preview-22.jpg",
+      "bytes": 27571,
+      "sha256": "1d45f0c7c0332f9ff873a7b362819d2ace24985fd0cc7f99d3da8b439dbedcde"
+    },
+    {
+      "path": "assets/certificates/patents/preview-23.jpg",
+      "bytes": 29217,
+      "sha256": "df2cc02a13fbcf245292779aae1ca9214724ceb7ff679be19bca172cede937ea"
+    },
+    {
+      "path": "assets/certificates/patents/preview-24.jpg",
+      "bytes": 29138,
+      "sha256": "a853acc317b70a99f357122edaef2bf21ecf37f8db2ab1dcd159ea623b57bc3e"
+    },
+    {
+      "path": "assets/certificates/patents/preview-25.jpg",
+      "bytes": 27569,
+      "sha256": "dcbb8e5ff8c6fb0a446edbe2561e44aa09b5a46e12e21c22fe656bd07a1273ee"
+    },
+    {
+      "path": "assets/certificates/patents/preview-26.jpg",
+      "bytes": 29414,
+      "sha256": "4ebc06669a2e4b0c719a8bf68549ed7ad09600078c370719e59a05ef0ad271a9"
+    },
+    {
+      "path": "assets/certificates/patents/preview-27.jpg",
+      "bytes": 29245,
+      "sha256": "e01e98c31e1112e554442e08db83032d99348363169504b3f6f7badc38736136"
+    },
+    {
+      "path": "assets/certificates/patents/preview-28.jpg",
+      "bytes": 29617,
+      "sha256": "74d5e005ca8d7054ad70eec11f6caf54dda959db4d309e6fd48c733ec23e59fe"
+    },
+    {
+      "path": "assets/certificates/patents/preview-29.jpg",
+      "bytes": 27541,
+      "sha256": "e9c514baa775d4827643fa6ded5ea2140b4b51723e3259e922f6670d36318a6d"
+    },
+    {
+      "path": "assets/certificates/patents/preview-30.jpg",
+      "bytes": 27620,
+      "sha256": "ed48290fcc64b1bc745ad50ee247de802841bc3fa2902460bace91ba8e26b0f7"
+    },
+    {
+      "path": "assets/certificates/patents/preview-31.jpg",
+      "bytes": 29248,
+      "sha256": "9d89aaa8b4999c8803c35604180d8eacf67d1655f0980089aa889bf1eba436b7"
+    },
+    {
+      "path": "assets/certificates/patents/preview-32.jpg",
+      "bytes": 27594,
+      "sha256": "bd30dfb7ff60af4a5ca8825327467da9b6080fcdb41cf3061c2a010b0a700658"
+    },
+    {
+      "path": "assets/certificates/patents/preview-33.jpg",
+      "bytes": 29142,
+      "sha256": "2f570256a380fdc09a8301ad9a0a4969e9971f80afe0c0fbd9226d4eb8b589a5"
+    }
+  ]
+}

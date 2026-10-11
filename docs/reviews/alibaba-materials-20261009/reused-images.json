@@ -1,0 +1,42 @@
+[
+  {
+    "source": "D:\\work\\codex\\阿里国际站运营\\outputs\\alibaba-detail-image-studio\\ZSTWB系列-不锈钢水雾喷头\\source\\ZSTWB-source-01-white-original.jpg",
+    "websitePath": "assets/products/verified-configurations/zstwb-stainless.jpg",
+    "sha256": "e931059a29d1748f779ec3ffc756979cd487f6340981a054041eae93f887d542",
+    "type": "archived-real-source-product-photo",
+    "rights": "User authorized reuse of usable Alibaba product materials on the official website on 2026-10-09; physical marks retained; no product geometry edited.",
+    "unwatermarkedSha256": "c5fb511443bcebd97d4f060e0ebffefa4015f372ff9bcb46ddf89bdd238d9e33",
+    "watermarkRecord": "site-src/_data/product-watermarks.json",
+    "publishedTransform": "CHUANWEI FIRE text watermark in clear whitespace"
+  },
+  {
+    "source": "D:\\work\\codex\\阿里国际站运营\\outputs\\alibaba-detail-image-studio\\ZSTM-B-SS304-304不锈钢单口水幕喷头\\source\\DSC_5786.jpg",
+    "websitePath": "assets/products/verified-configurations/zstm-b-304.jpg",
+    "sha256": "991dda7c9f1cc6a3f128e940b5fdf7d2a9691d14bb2e80b5776949fffa77d162",
+    "type": "archived-real-source-product-photo",
+    "rights": "User authorized reuse of usable Alibaba product materials on the official website on 2026-10-09; physical marks retained; no product geometry edited.",
+    "unwatermarkedSha256": "e1b9e409aded2cafe40e89f23d9c8e8f3c4f2d8f5ca0d2884a885241b7e7d24b",
+    "watermarkRecord": "site-src/_data/product-watermarks.json",
+    "publishedTransform": "CHUANWEI FIRE text watermark in clear whitespace"
+  },
+  {
+    "source": "D:\\work\\codex\\阿里国际站运营\\outputs\\alibaba-detail-image-studio\\QZ3.5-7.5-直流水枪\\source\\QZ3.5-7.5-source-01.jpg",
+    "websitePath": "assets/products/verified-configurations/qz35-75.jpg",
+    "sha256": "d665f9520869ec16501c8619d8ca5f4a3cde08487617651aab42eddffad4586d",
+    "type": "archived-real-source-product-photo",
+    "rights": "User authorized reuse of usable Alibaba product materials on the official website on 2026-10-09; physical marks retained; no product geometry edited.",
+    "unwatermarkedSha256": "8f1e9cbe28ecf5fb8c7d22ad47bfa8a431f7d39994cceacc08e3290addca447b",
+    "watermarkRecord": "site-src/_data/product-watermarks.json",
+    "publishedTransform": "CHUANWEI FIRE text watermark in clear whitespace"
+  },
+  {
+    "source": "D:\\work\\codex\\阿里国际站运营\\outputs\\alibaba-detail-image-studio\\KD50-KD65-内扣式消防接口\\source\\source-01-overall-coupled.jpg",
+    "websitePath": "assets/products/verified-configurations/kd65.jpg",
+    "sha256": "9f7db2041e362d6595b12c0cb4f62cdbf1b307d05ef2700099574475f526eb5c",
+    "type": "archived-real-source-product-photo",
+    "rights": "User authorized reuse of usable Alibaba product materials on the official website on 2026-10-09; physical marks retained; no product geometry edited.",
+    "unwatermarkedSha256": "7b31ff1fc3d807b03202b39bd456acba23f4c98789fc108f04d751af0ed2bda8",
+    "watermarkRecord": "site-src/_data/product-watermarks.json",
+    "publishedTransform": "CHUANWEI FIRE text watermark in clear whitespace"
+  }
+]

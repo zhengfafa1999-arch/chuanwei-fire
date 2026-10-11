@@ -1,0 +1,16 @@
+{
+  "date": "2026-10-09",
+  "status": "passed-local-not-deployed",
+  "build_command": "npm --ignore-scripts run build",
+  "public_pages": 175,
+  "supplement_configurations": 44,
+  "supplement_fields": 237,
+  "responsive_cases": 12,
+  "responsive_widths": [
+    390,
+    1280
+  ],
+  "responsive_results": "No document overflow or broken loaded images; updated material and pressure text present in both languages.",
+  "pdf_sha256": "4726e11252e8776a359b726a3d610937bd21913f3f68b13ae679b02a764146c8",
+  "waterflow_electrical_rating_published": false
+}

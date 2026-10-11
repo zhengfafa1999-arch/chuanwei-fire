@@ -1,0 +1,256 @@
+{
+  "id": "fire-pressure-switch",
+  "routeId": "product:fire-pressure-switch",
+  "template": "product-series/documented-product.njk",
+  "styles": [
+    "css/common.css",
+    "css/sprinkler-product.css",
+    "css/sprinkler-product-gallery.css",
+    "css/documented-product.css",
+    "css/site-navigation.css"
+  ],
+  "source": {
+    "evidence": "User-supplied photograph and direct user confirmation of this compact switch: R1/2 male, rated working pressure 1.6 MPa, actuation pressure 0.035–0.05 MPa, electrical contact capacity DC24V / 1A. Exact model and wiring remain unspecified.",
+    "photoRecord": "docs/reviews/compact-pressure-switch-20261010/photo-records.json",
+    "confirmationRecord": "docs/reviews/compact-pressure-specs-20261010/user-confirmation.json"
+  },
+  "publication": {
+    "status": "release-candidate",
+    "externalRelease": true,
+    "imageRights": "user-confirmed-website-use",
+    "imageRightsEvidence": "docs/release/compact-pressure-switch-20261010/image-rights-confirmation.json"
+  },
+  "media": {
+    "hero": "assets/products/fire-pressure-switch/sample-1052.webp"
+  },
+  "imageDimensions": {
+    "hero": {
+      "width": 1052,
+      "height": 986
+    }
+  },
+  "heroFacts": [
+    "threadValue",
+    "pressureValue",
+    "contactValue"
+  ],
+  "shared": {
+    "threadValue": "R1/2",
+    "pressureValue": "1.6 MPa / 16 bar",
+    "actuationValue": "0.035–0.05 MPa / 0.35–0.5 bar",
+    "contactValue": "DC24V / 1A"
+  },
+  "gallery": [
+    {
+      "media": "hero",
+      "alt": "sampleAlt",
+      "caption": "sampleCaption",
+      "thumbnailAlt": "sampleThumbnail"
+    }
+  ],
+  "specifications": [
+    {
+      "label": "productType",
+      "value": "title"
+    },
+    {
+      "label": "function",
+      "value": "functionValue"
+    },
+    {
+      "label": "connection",
+      "value": "connectionValue"
+    },
+    {
+      "label": "ratedPressure",
+      "value": "pressureValue",
+      "technical": true
+    },
+    {
+      "label": "actuation",
+      "value": "actuationValue",
+      "technical": true
+    },
+    {
+      "label": "contact",
+      "value": "contactValue",
+      "technical": true
+    },
+    {
+      "label": "construction",
+      "value": "constructionValue"
+    }
+  ],
+  "modelColumns": [
+    {
+      "label": "connection",
+      "field": "connection",
+      "localized": true
+    },
+    {
+      "label": "ratedPressure",
+      "field": "pressure",
+      "technical": true
+    },
+    {
+      "label": "actuation",
+      "field": "actuation",
+      "technical": true
+    },
+    {
+      "label": "contact",
+      "field": "contact",
+      "technical": true
+    }
+  ],
+  "models": [
+    {
+      "connection": "connectionValue",
+      "pressure": "1.6 MPa / 16 bar",
+      "actuation": "0.035–0.05 MPa / 0.35–0.5 bar",
+      "contact": "DC24V / 1A"
+    }
+  ],
+  "confirmationItems": [
+    {
+      "label": "selection",
+      "body": "selectionBody"
+    },
+    {
+      "label": "electrical",
+      "body": "electricalBody"
+    },
+    {
+      "label": "orderInformation",
+      "body": "orderInformationBody"
+    }
+  ],
+  "validation": {
+    "anchors": [
+      "gallery",
+      "specifications",
+      "models",
+      "quotation"
+    ],
+    "requiredTechnicalValues": [
+      "R1/2",
+      "1.6 MPa / 16 bar",
+      "0.035–0.05 MPa / 0.35–0.5 bar",
+      "DC24V / 1A"
+    ]
+  },
+  "inquiry": {
+    "whatsapp": "https://wa.me/8617326528368?text=Hello%2C+I+need+a+quotation+for+a+Fire+Pressure+Switch.+Quantity%3A+%5Bpcs%5D%2C+destination%3A+%5Bcountry%5D.+Please+send+matching+pressure+settings%2C+connection+details+and+a+wiring+diagram.",
+    "email": "mailto:zhengcolin1@gmail.com?subject=Fire+Pressure+Switch+Inquiry"
+  },
+  "copy": {
+    "en": {
+      "onThisPage": "On this page",
+      "specifications": "Specifications",
+      "factoryModel": "Factory Model",
+      "temperature": "Temperature",
+      "thermalElement": "Sensing element",
+      "quotation": "Quotation confirmation",
+      "askOnWhatsApp": "Ask on WhatsApp",
+      "emailSales": "Email sales",
+      "productImagePreview": "Product image preview",
+      "closeImagePreview": "Close image preview",
+      "previousProductImage": "Previous product image",
+      "nextProductImage": "Next product image",
+      "selectProductImage": "Select product image",
+      "productType": "Product type",
+      "function": "Function",
+      "connection": "Pressure connection",
+      "construction": "Photographed construction",
+      "specificationsTitle": "Product overview",
+      "availableModels": "Product configuration",
+      "quotationTitle": "Request a matched configuration",
+      "selection": "Pressure and connection",
+      "electrical": "Electrical requirements",
+      "orderInformation": "Order information",
+      "orderInformationBody": "Provide quantity, destination and packaging requirements.",
+      "title": "Fire Pressure Switch",
+      "seoTitle": "Fire Pressure Switch | CHUANWEI FIRE",
+      "seoDescription": "Compact fire pressure switch with R1/2 male thread, 1.6 MPa rated working pressure, 0.035–0.05 MPa actuation range and DC24V / 1A contact capacity. View the actual sample.",
+      "eyebrow": "R1/2 · 1.6 MPa · pressure signalling",
+      "lead": "Compact fire pressure switch with an R1/2 male connection, rated working pressure of 1.6 MPa and an actuation pressure range of 0.035–0.05 MPa. Electrical contact capacity is DC24V / 1A.",
+      "note": "Request the matching model and wiring diagram with your quotation.",
+      "gallery": "Product image",
+      "galleryTitle": "Compact pressure switch",
+      "galleryBody": "Open the photo to inspect the pressure connection, leads and visible product markings.",
+      "sampleCaption": "Fire pressure switch — compact cylindrical sample",
+      "sampleAlt": "Compact fire pressure switch with red cylindrical housing, bottom male-threaded connection, two red leads and two green leads",
+      "sampleThumbnail": "Compact fire pressure switch thumbnail",
+      "enlargedImage": "Enlarged fire pressure switch",
+      "connectionValue": "R1/2 male thread",
+      "constructionValue": "Red cylindrical housing · four leads",
+      "functionValue": "Pressure signal converted to electrical switching output",
+      "specificationsBody": "Rated working pressure and actuation pressure are listed separately. DC24V / 1A is the electrical contact rating for the connected signal circuit.",
+      "modelsTitle": "Product configuration",
+      "modelsBody": "Compare the connection, rated working pressure, actuation pressure and contact capacity for the compact cylindrical configuration below.",
+      "modelsNote": "Request the contact arrangement and wiring diagram; lead colours alone do not identify the terminals.",
+      "selectionBody": "R1/2 male connection; rated working pressure 1.6 MPa; actuation pressure range 0.035–0.05 MPa. Provide the required actuation point.",
+      "electricalBody": "Contact capacity DC24V / 1A. Request terminal identification, the contact arrangement and a wiring diagram for your signal circuit.",
+      "quotationBody": "Start with product and quantity. Add the required pressure connection, actuation point and signal-circuit requirements when available.",
+      "inquiryTitle": "Request a fire pressure switch",
+      "inquiryBody": "Include quantity, destination and your pressure and electrical contact requirements.",
+      "ratedPressure": "Rated working pressure",
+      "actuation": "Actuation pressure range",
+      "contact": "Electrical contact capacity"
+    },
+    "ar": {
+      "onThisPage": "في هذه الصفحة",
+      "specifications": "المواصفات",
+      "factoryModel": "موديل المصنع",
+      "temperature": "درجة الحرارة",
+      "thermalElement": "عنصر الاستشعار",
+      "quotation": "تأكيد عرض السعر",
+      "askOnWhatsApp": "استفسر عبر WhatsApp",
+      "emailSales": "راسل قسم المبيعات",
+      "productImagePreview": "معاينة صورة المنتج",
+      "closeImagePreview": "إغلاق معاينة الصورة",
+      "previousProductImage": "صورة المنتج السابقة",
+      "nextProductImage": "صورة المنتج التالية",
+      "selectProductImage": "اختر صورة المنتج",
+      "productType": "نوع المنتج",
+      "function": "الوظيفة",
+      "connection": "توصيل الضغط",
+      "construction": "البنية المعروضة في الصورة",
+      "specificationsTitle": "نظرة عامة على المنتج",
+      "availableModels": "تكوين المنتج",
+      "quotationTitle": "اطلب تكويناً مطابقاً",
+      "selection": "الضغط والتوصيل",
+      "electrical": "المتطلبات الكهربائية",
+      "orderInformation": "معلومات الطلب",
+      "orderInformationBody": "أرسل الكمية والوجهة ومتطلبات التغليف.",
+      "title": "مفتاح ضغط لنظام مكافحة الحريق",
+      "seoTitle": "مفتاح ضغط لنظام مكافحة الحريق | CHUANWEI FIRE",
+      "seoDescription": "مفتاح ضغط مدمج لنظام مكافحة الحريق بسن خارجي R1/2 وضغط عمل مقنن 1.6 MPa ونطاق تشغيل 0.035–0.05 MPa وقدرة نقاط تلامس DC24V / 1A. شاهد العينة الفعلية.",
+      "eyebrow": "R1/2 · 1.6 MPa · إشارات الضغط",
+      "lead": "مفتاح ضغط مدمج لنظام مكافحة الحريق بتوصيل R1/2 بسن خارجي وضغط تشغيل مقنن 1.6 MPa ونطاق ضغط تشغيل للمفتاح 0.035–0.05 MPa. قدرة نقاط التلامس الكهربائية DC24V / 1A.",
+      "note": "اطلب الموديل المطابق ومخطط التوصيل الكهربائي مع عرض السعر.",
+      "gallery": "صورة المنتج",
+      "galleryTitle": "مفتاح الضغط المدمج",
+      "galleryBody": "افتح الصورة لفحص توصيل الضغط والأسلاك والعلامات الظاهرة على المنتج.",
+      "sampleCaption": "مفتاح ضغط لنظام مكافحة الحريق — عينة أسطوانية مدمجة",
+      "sampleAlt": "مفتاح ضغط مدمج لنظام مكافحة الحريق بعلبة أسطوانية حمراء وتوصيل سفلي بسن خارجي وسلكين أحمرين وسلكين أخضرين",
+      "sampleThumbnail": "صورة مصغرة لمفتاح الضغط المدمج",
+      "enlargedImage": "صورة مكبرة لمفتاح الضغط",
+      "connectionValue": "R1/2 بسن خارجي",
+      "constructionValue": "علبة أسطوانية حمراء · أربعة أسلاك",
+      "functionValue": "تحويل إشارة الضغط إلى خرج تبديل كهربائي",
+      "specificationsBody": "يُعرض ضغط العمل المقنن وضغط تشغيل المفتاح بشكل منفصل. تشير DC24V / 1A إلى قدرة نقاط التلامس الكهربائية لدائرة الإشارة المتصلة.",
+      "modelsTitle": "تكوين المنتج",
+      "modelsBody": "قارن التوصيل وضغط العمل المقنن وضغط تشغيل المفتاح وقدرة نقاط التلامس للتكوين الأسطواني المدمج أدناه.",
+      "modelsNote": "اطلب ترتيب نقاط التلامس ومخطط التوصيل؛ لا تحدد ألوان الأسلاك وحدها أطراف التوصيل.",
+      "selectionBody": "توصيل R1/2 بسن خارجي؛ ضغط تشغيل مقنن 1.6 MPa؛ نطاق ضغط تشغيل المفتاح 0.035–0.05 MPa. أرسل نقطة التشغيل المطلوبة.",
+      "electricalBody": "قدرة نقاط التلامس DC24V / 1A. اطلب تحديد الأطراف وترتيب نقاط التلامس ومخطط التوصيل لدائرة الإشارة.",
+      "quotationBody": "ابدأ بالمنتج والكمية. أضف توصيل الضغط ونقطة التشغيل ومتطلبات دائرة الإشارة عند توفرها.",
+      "inquiryTitle": "اطلب مفتاح ضغط لنظام مكافحة الحريق",
+      "inquiryBody": "أضف الكمية والوجهة ومتطلبات الضغط ونقاط التلامس الكهربائية.",
+      "ratedPressure": "ضغط التشغيل المقنن",
+      "actuation": "نطاق ضغط تشغيل المفتاح",
+      "contact": "قدرة نقاط التلامس الكهربائية"
+    }
+  }
+}

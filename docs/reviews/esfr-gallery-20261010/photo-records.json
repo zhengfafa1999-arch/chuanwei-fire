@@ -1,0 +1,64 @@
+[
+  {
+    "routeId": "product:large-k-factor-esfr-sprinklers",
+    "sourceFile": "esfr-glass-bulb-slotted.jpg",
+    "sourcePath": "D:\\code\\ai-code\\docs\\release\\esfr-gallery-20261010\\source\\esfr-glass-bulb-slotted.jpg",
+    "galleryOnly": true,
+    "caption": {
+      "en": "ESFR glass-bulb sprinkler — slotted deflector",
+      "ar": "رشاش ESFR بعنصر زجاجي — صفيحة توزيع مشقوقة"
+    },
+    "matchEvidence": "User supplied this photograph and explicitly requested replacement of the corresponding ESFR detail gallery slot on 2026-10-10. ESFR body marking, glass-bulb assembly and deflector shape are visible; no exact model, K-factor, temperature, pressure, response class or certification inferred.",
+    "sourceSha256": "0c35c5d199a03389ae7c636548e06fdf51a69d51c60b270894330653806d9019",
+    "sourceBytes": 868772,
+    "sourceWidth": 1265,
+    "sourceHeight": 1915,
+    "display": {
+      "path": "assets/products/guanya-2026/large-k-factor-esfr-sprinklers-esfr-glass-bulb-slotted-640.webp",
+      "width": 423,
+      "height": 640,
+      "bytes": 37262,
+      "sha256": "57e3d647e2b384c7868a770515b8b27f2b213dd1de43c806aeb804019980ba0d",
+      "quality": 85
+    },
+    "detail": {
+      "path": "assets/products/guanya-2026/large-k-factor-esfr-sprinklers-esfr-glass-bulb-slotted-1600.webp",
+      "width": 1057,
+      "height": 1600,
+      "bytes": 136246,
+      "sha256": "1d9dbab6aef2815abb988ac59fadc2740d9601bc5ef1bac2b846efc829642f52",
+      "quality": 85
+    }
+  },
+  {
+    "routeId": "product:large-k-factor-esfr-sprinklers",
+    "sourceFile": "esfr-glass-bulb-domed.jpg",
+    "sourcePath": "D:\\code\\ai-code\\docs\\release\\esfr-gallery-20261010\\source\\esfr-glass-bulb-domed.jpg",
+    "galleryOnly": true,
+    "caption": {
+      "en": "ESFR glass-bulb sprinkler — domed deflector",
+      "ar": "رشاش ESFR بعنصر زجاجي — صفيحة توزيع مقببة"
+    },
+    "matchEvidence": "User supplied this photograph and explicitly requested replacement of the corresponding ESFR detail gallery slot on 2026-10-10. ESFR body marking, glass-bulb assembly and deflector shape are visible; no exact model, K-factor, temperature, pressure, response class or certification inferred.",
+    "sourceSha256": "1ec6c699930bcd83fe3d6d767767f3cd1cd220726b6886f6d6a827b9a07cc28b",
+    "sourceBytes": 1093556,
+    "sourceWidth": 1722,
+    "sourceHeight": 2017,
+    "display": {
+      "path": "assets/products/guanya-2026/large-k-factor-esfr-sprinklers-esfr-glass-bulb-domed-640.webp",
+      "width": 546,
+      "height": 640,
+      "bytes": 38968,
+      "sha256": "f82bef035193012373cef7b20968f98aa2dae86ec97a78e6e122acbe0aa235c0",
+      "quality": 85
+    },
+    "detail": {
+      "path": "assets/products/guanya-2026/large-k-factor-esfr-sprinklers-esfr-glass-bulb-domed-1600.webp",
+      "width": 1366,
+      "height": 1600,
+      "bytes": 146486,
+      "sha256": "0e9dea51398fbaaeec12c5c48b123886fa949b93fbbe915bded9e0e475ed87b1",
+      "quality": 85
+    }
+  }
+]

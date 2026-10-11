@@ -1,0 +1,18 @@
+<section class="section soft" id="product-range"><div class="container">
+  <div class="section-heading"><h2>{{ entry.copy.productsTitle }}</h2><p>{{ entry.copy.productsLead }}</p></div>
+  <ul class="about-product-links">
+{% for family in entry.facilities.families %}
+    <li><a href="{{ family.href }}">{{ family.name }} <span aria-hidden="true">→</span></a></li>
+{% endfor %}
+  </ul>
+</div></section>
+<section class="section" id="facilities"><div class="container">
+  <div class="section-heading"><h2>{{ entry.copy.galleryTitle }}</h2><p>{{ entry.copy.galleryLead }}</p></div>
+{% for group in entry.facilities.groups %}
+  <div class="facility-group"><h3>{{ group.title }}</h3><p>{{ group.description }}</p><div class="facility-photo-grid">
+{% for photo in group.photos %}
+    <figure data-facility-photo="{{ photo.id }}"><a class="facility-photo-link" href="{{ photo.full }}" target="_blank" rel="noopener" aria-label="{{ entry.copy.openPhoto }} — {{ photo.caption }}"><img class="facility-photograph" src="{{ photo.image }}" srcset="{{ photo.image }} 640w, {{ photo.full }} 1600w" sizes="(max-width: 780px) calc(100vw - 40px), 570px" width="1600" height="1200" alt="{{ photo.caption }}" loading="lazy" decoding="async"><span class="facility-photo-brand" aria-hidden="true" dir="ltr">CHUANWEI FIRE · chuanweifire.com</span></a><figcaption>{{ photo.caption }}<a class="more" href="{{ photo.full }}" target="_blank" rel="noopener">{{ entry.copy.openPhoto }} →</a></figcaption></figure>
+{% endfor %}
+  </div></div>
+{% endfor %}
+</div></section>

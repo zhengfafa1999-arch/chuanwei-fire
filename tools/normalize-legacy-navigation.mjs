@@ -2,6 +2,7 @@ import fs from "node:fs";
 import path from "node:path";
 import { SITE_ROUTES } from "../site-src/_data/siteRoutes.js";
 import { createSiteNavigation, renderProductFooter, renderSiteHeader } from "../site-src/_data/navigation.js";
+import { VERSIONED_PUBLIC_ASSETS, versionedPublicAsset } from '../site-src/lib/public-asset-versions.js';
 
 const root = process.cwd();
 const managedHeaderPattern = /\s*<!-- NAVIGATION:BEGIN -->[\s\S]*?<!-- NAVIGATION:END -->\s*/i;
@@ -81,6 +82,7 @@ for (const [routeId, definition] of Object.entries(SITE_ROUTES)) {
     updated = setBodyRoute(updated, routeId, locale);
     updated = ensureStylesheet(updated, `${navigation.assetPrefix}css/site-navigation.css`);
     updated = ensureScript(updated, `${navigation.assetPrefix}assets/js/site-navigation.js`);
+    updated = ensureScript(updated, `${navigation.assetPrefix}assets/js/inquiry.js`);
     if (updated === original) continue;
     fs.writeFileSync(absolutePath, updated, "utf8");
     normalizedCount += 1;
@@ -88,3 +90,20 @@ for (const [routeId, definition] of Object.entries(SITE_ROUTES)) {
 }
 
 console.log(`Legacy navigation normalization passed: ${normalizedCount} hand-maintained product pages updated.`);
+
+// Publish the menu styles and both interaction scripts together. Content hashes
+// prevent a cached older asset from accompanying the newly generated markup.
+let versionedCount = 0;
+for (const definition of Object.values(SITE_ROUTES)) for (const target of Object.values(definition.locales)) {
+  if (target.status !== 'published') continue;
+  const file = path.join(root, target.outputPath);
+  const original = fs.readFileSync(file, 'utf8');
+  const updated = original.replace(/\b(href|src)=(['"])([^'"]+?)\2/g, (match, attribute, quote, reference) => {
+    const withoutQuery = reference.split('?')[0];
+    const asset = VERSIONED_PUBLIC_ASSETS.find(value => withoutQuery.endsWith(value));
+    if (!asset) return match;
+    return `${attribute}=${quote}${versionedPublicAsset(asset, withoutQuery.slice(0, -asset.length))}${quote}`;
+  });
+  if (updated !== original) { fs.writeFileSync(file, updated, 'utf8'); versionedCount++; }
+}
+console.log(`Public asset versioning passed: ${versionedCount} pages refreshed for current navigation and search assets.`);

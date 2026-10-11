@@ -1,0 +1,10 @@
+{
+  "date": "2026-10-10",
+  "status": "local-review-candidate-not-deployed",
+  "archive": ".tmp/releases/preaction-listing-connections-20261010-web.zip",
+  "bytes": 43606152,
+  "sha256": "ca9d849bd9d5af8eb3575f6dbc8da1a49411d422a7336cd0605bffeec1188c2c",
+  "files": 723,
+  "pages": 185,
+  "validation": "All ZIP entries verified against static-manifest sizes and SHA256; CRC check passed. Server rollback backup must be created before publication."
+}

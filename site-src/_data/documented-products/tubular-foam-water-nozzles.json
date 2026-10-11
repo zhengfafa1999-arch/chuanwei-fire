@@ -1,0 +1,272 @@
+{
+  "id": "tubular-foam-water-nozzles",
+  "routeId": "product:tubular-foam-water-nozzles",
+  "template": "product-series/documented-product.njk",
+  "styles": [
+    "css/common.css",
+    "css/sprinkler-product.css",
+    "css/sprinkler-product-gallery.css",
+    "css/documented-product.css",
+    "css/site-navigation.css"
+  ],
+  "source": {
+    "reviewedDate": "2026-10-09",
+    "package": "ZSPTX-ZSPTZ系列-筒式水泡沫两用喷头",
+    "archiveRoot": "D:\\work\\codex\\阿里国际站运营\\outputs\\alibaba-detail-image-studio\\ZSPTX-ZSPTZ系列-筒式水泡沫两用喷头",
+    "evidence": "Existing exact-product Alibaba package, confirmed-fact ledger and matching user-supplied photographs.",
+    "scope": "Confirmed fields only; no product certifications, inferred response class, rated flow or coverage claims.",
+    "userConfirmation": {
+      "date": "2026-10-09",
+      "verbatim": "3是上，4是下喷， K80／K115 是为公制流量系数",
+      "photo3": "Upward",
+      "photo4": "Downward",
+      "metricKFactors": [
+        80,
+        115
+      ],
+      "exactPhotoToFactoryModel": "Not confirmed"
+    }
+  },
+  "publication": {
+    "status": "release-candidate",
+    "externalRelease": true,
+    "imageRights": "user-confirmed-website-use",
+    "imageRightsEvidence": "docs/release/special-sprinklers-20261009/image-rights-confirmation.json"
+  },
+  "media": {
+    "hero": "assets/products/special-sprinklers/tubular-foam-water-nozzles-3-1600.webp",
+    "sample1": "assets/products/special-sprinklers/tubular-foam-water-nozzles-4-1600.webp"
+  },
+  "imageDimensions": {
+    "hero": {
+      "width": 764,
+      "height": 1600
+    },
+    "sample1": {
+      "width": 716,
+      "height": 1600
+    }
+  },
+  "heroFacts": [
+    "fact0",
+    "fact2"
+  ],
+  "shared": {
+    "fact0": "ZSPTX / ZSPTZ",
+    "fact2": "K80 / K115 metric"
+  },
+  "gallery": [
+    {
+      "media": "hero",
+      "caption": "heroCaption",
+      "alt": "heroAlt",
+      "thumbnailAlt": "heroThumbnail"
+    },
+    {
+      "media": "sample1",
+      "caption": "sample1Caption",
+      "alt": "sample1Alt",
+      "thumbnailAlt": "sample1Thumbnail"
+    }
+  ],
+  "specifications": [
+    {
+      "label": "factoryModel",
+      "value": "fact0",
+      "technical": true
+    },
+    {
+      "label": "workingPressure",
+      "value": "fact1",
+      "technical": false
+    },
+    {
+      "label": "kFactor",
+      "value": "fact2",
+      "technical": true
+    },
+    {
+      "label": "threadForm",
+      "value": "fact3",
+      "technical": false
+    },
+    {
+      "label": "material",
+      "value": "fact4",
+      "technical": false
+    },
+    {
+      "label": "configuration",
+      "value": "fact5",
+      "technical": false
+    }
+  ],
+  "modelColumns": [
+    {
+      "label": "factoryModel",
+      "field": "factoryModel",
+      "technical": true
+    },
+    {
+      "label": "kFactor",
+      "field": "kFactor",
+      "technical": true
+    }
+  ],
+  "models": [
+    {
+      "factoryModel": "ZSPTX-80 / ZSPTZ-80",
+      "kFactor": "K80"
+    },
+    {
+      "factoryModel": "ZSPTX-115 / ZSPTZ-115",
+      "kFactor": "K115"
+    }
+  ],
+  "confirmationItems": [
+    {
+      "label": "connection",
+      "body": "connectionBody"
+    },
+    {
+      "label": "operatingRequirement",
+      "body": "operatingRequirementBody"
+    },
+    {
+      "label": "orderInformation",
+      "body": "orderInformationBody"
+    }
+  ],
+  "validation": {
+    "anchors": [
+      "gallery",
+      "specifications",
+      "models",
+      "quotation"
+    ],
+    "requiredTechnicalValues": [
+      "ZSPTX / ZSPTZ",
+      "K80 / K115 metric"
+    ]
+  },
+  "inquiry": {
+    "whatsapp": "https://wa.me/8617326528368?text=Hello%2C%20I%20need%20a%20quotation%20for%20Tubular%20Foam-Water%20Nozzles.%20Reference%3A%20%5Bmodel%5D%2C%20connection%3A%20%5Bthread%5D%2C%20operating%20requirements%3A%20%5Bdetails%5D%2C%20quantity%3A%20%5Bpcs%5D%2C%20destination%3A%20%5Bcountry%5D.",
+    "email": "mailto:zhengcolin1@gmail.com?subject=Tubular%20Foam-Water%20Nozzles%20Inquiry"
+  },
+  "copy": {
+    "en": {
+      "onThisPage": "On this page",
+      "gallery": "Product images",
+      "galleryTitle": "Real product photographs",
+      "galleryBody": "Compare the visible construction and product markings. Photographs identify the shown samples; they do not represent every size or supplied configuration.",
+      "specifications": "Specifications",
+      "specificationsTitle": "Product selection details",
+      "specificationsBody": "Use the confirmed details below to match your requirement. Request exact-model technical documents for the selected configuration.",
+      "availableModels": "Available configurations",
+      "modelsTitle": "Configurations for quotation",
+      "modelsBody": "Match the factory reference and connection requirement with your order.",
+      "factoryModel": "Factory series",
+      "temperature": "Operating temperature",
+      "thermalElement": "Operating element",
+      "modelsNote": "Confirm the exact supplied configuration and required documentation before ordering.",
+      "quotation": "Quotation details",
+      "quotationTitle": "Details to send with your inquiry",
+      "quotationBody": "Send the connection, operating conditions, quantity and destination so we can review the required configuration.",
+      "connection": "Connection",
+      "connectionBody": "Specify the required thread and mating connection.",
+      "operatingRequirement": "Operating conditions",
+      "operatingRequirementBody": "Provide the project pressure and any temperature or discharge requirements.",
+      "orderInformation": "Order information",
+      "orderInformationBody": "Include quantity, destination and the exact technical documents required.",
+      "inquiryTitle": "Request product details and a quotation",
+      "inquiryBody": "Include the product reference, connection, quantity and destination. Send the project specification when available.",
+      "askOnWhatsApp": "Ask on WhatsApp",
+      "emailSales": "Email sales",
+      "productImagePreview": "Product image preview",
+      "closeImagePreview": "Close image preview",
+      "enlargedImage": "Enlarged product photograph",
+      "previousProductImage": "Previous product image",
+      "nextProductImage": "Next product image",
+      "selectProductImage": "Select product image",
+      "kFactor": "Nominal metric K-factor",
+      "threadForm": "Thread family",
+      "configuration": "Discharge forms",
+      "workingPressure": "Working pressure",
+      "material": "Primary body material",
+      "unconfirmed": "Details available on request",
+      "title": "Tubular Foam-Water Nozzles",
+      "eyebrow": "Special fire-protection sprinklers and nozzles",
+      "lead": "Copper-body tubular nozzles for water and foam-water discharge, with BSPT male threads and metric K80 / K115 options. Upward and downward discharge forms are available. Working pressure: 0.4 MPa.",
+      "note": "Both photographs show the smaller connection sample: the curved deflector is the upward-discharge form and the flat deflector is the downward-discharge form. Confirm the exact factory model and foam-concentrate compatibility for the selected nozzle.",
+      "seoTitle": "Tubular Foam-Water Nozzles | CHUANWEI FIRE",
+      "seoDescription": "Copper-body tubular nozzles for water and foam-water discharge, with BSPT male threads and metric K80 / K115 options. Upward and downward discharge forms are available. Working pressure: 0.4 MPa.",
+      "heroCaption": "Upward-discharge tubular foam-water nozzle — small connection sample",
+      "heroAlt": "Upward-discharge tubular foam-water nozzle — small connection sample",
+      "heroThumbnail": "Upward-discharge tubular foam-water nozzle — small connection sample",
+      "sample1Caption": "Downward-discharge tubular foam-water nozzle — small connection sample",
+      "sample1Alt": "Downward-discharge tubular foam-water nozzle — small connection sample",
+      "sample1Thumbnail": "Downward-discharge tubular foam-water nozzle — small connection sample",
+      "fact1": "0.4 MPa / 4 bar / approx. 58 psi",
+      "fact3": "BSPT male thread; exact size mapping confirmed with quotation",
+      "fact4": "Copper",
+      "fact5": "Upward / Downward"
+    },
+    "ar": {
+      "onThisPage": "في هذه الصفحة",
+      "gallery": "صور المنتج",
+      "galleryTitle": "صور حقيقية للمنتج",
+      "galleryBody": "قارن البنية الظاهرة وعلامات المنتج. تحدد الصور العينات المعروضة ولا تمثل جميع المقاسات أو تكوينات التوريد.",
+      "specifications": "المواصفات",
+      "specificationsTitle": "تفاصيل اختيار المنتج",
+      "specificationsBody": "استخدم التفاصيل المؤكدة أدناه لمطابقة متطلباتك. اطلب الوثائق الفنية للموديل والتكوين المختار.",
+      "availableModels": "التكوينات المتاحة",
+      "modelsTitle": "التكوينات لطلب عرض السعر",
+      "modelsBody": "طابق مرجع المصنع ومتطلبات التوصيل مع طلبك.",
+      "factoryModel": "سلاسل المصنع",
+      "temperature": "درجة حرارة التشغيل",
+      "thermalElement": "عنصر التشغيل",
+      "modelsNote": "أكد تكوين التوريد الدقيق والوثائق المطلوبة قبل الطلب.",
+      "quotation": "تفاصيل عرض السعر",
+      "quotationTitle": "التفاصيل المطلوبة مع استفسارك",
+      "quotationBody": "أرسل التوصيل وظروف التشغيل والكمية والوجهة لمراجعة التكوين المطلوب.",
+      "connection": "التوصيل",
+      "connectionBody": "حدد السن اللولبي والتوصيل المقابل المطلوب.",
+      "operatingRequirement": "ظروف التشغيل",
+      "operatingRequirementBody": "حدد ضغط المشروع وأي متطلبات لدرجة الحرارة أو التصريف.",
+      "orderInformation": "معلومات الطلب",
+      "orderInformationBody": "اذكر الكمية والوجهة والوثائق الفنية الدقيقة المطلوبة.",
+      "inquiryTitle": "اطلب تفاصيل المنتج وعرض السعر",
+      "inquiryBody": "اذكر مرجع المنتج والتوصيل والكمية والوجهة. أرسل مواصفات المشروع إن توفرت.",
+      "askOnWhatsApp": "استفسر عبر WhatsApp",
+      "emailSales": "راسل قسم المبيعات",
+      "productImagePreview": "معاينة صورة المنتج",
+      "closeImagePreview": "إغلاق معاينة الصورة",
+      "enlargedImage": "صورة مكبرة للمنتج",
+      "previousProductImage": "صورة المنتج السابقة",
+      "nextProductImage": "صورة المنتج التالية",
+      "selectProductImage": "اختر صورة المنتج",
+      "kFactor": "معامل K المتري الاسمي",
+      "threadForm": "عائلة السن اللولبي",
+      "configuration": "أشكال التصريف",
+      "workingPressure": "ضغط التشغيل",
+      "material": "مادة الجسم الرئيسية",
+      "unconfirmed": "التفاصيل متاحة عند الطلب",
+      "title": "فوهات أنبوبية للماء والرغوة",
+      "eyebrow": "رشاشات وفوهات خاصة لمكافحة الحريق",
+      "lead": "فوهات أنبوبية بجسم من النحاس لتصريف الماء والماء والرغوة، بأسنان خارجية BSPT وخيارات K80 / K115 المترية. تتوفر بتصريف لأعلى ولأسفل. ضغط التشغيل: 0.4 MPa.",
+      "note": "تعرض الصورتان عينة التوصيل الأصغر: اللوحة المنحنية للتصريف لأعلى واللوحة المسطحة للتصريف لأسفل. أكد موديل المصنع الدقيق وتوافق مركز الرغوة مع الفوهة المختارة.",
+      "seoTitle": "فوهات أنبوبية للماء والرغوة | CHUANWEI FIRE",
+      "seoDescription": "فوهات أنبوبية بجسم من النحاس لتصريف الماء والماء والرغوة، بأسنان خارجية BSPT وخيارات K80 / K115 المترية. تتوفر بتصريف لأعلى ولأسفل. ضغط التشغيل: 0.4 MPa.",
+      "heroCaption": "فوهة أنبوبية للماء والرغوة بتصريف لأعلى — عينة التوصيل الصغير",
+      "heroAlt": "فوهة أنبوبية للماء والرغوة بتصريف لأعلى — عينة التوصيل الصغير",
+      "heroThumbnail": "فوهة أنبوبية للماء والرغوة بتصريف لأعلى — عينة التوصيل الصغير",
+      "sample1Caption": "فوهة أنبوبية للماء والرغوة بتصريف لأسفل — عينة التوصيل الصغير",
+      "sample1Alt": "فوهة أنبوبية للماء والرغوة بتصريف لأسفل — عينة التوصيل الصغير",
+      "sample1Thumbnail": "فوهة أنبوبية للماء والرغوة بتصريف لأسفل — عينة التوصيل الصغير",
+      "fact1": "0.4 MPa / 4 bar / نحو 58 psi",
+      "fact3": "سن خارجي BSPT؛ يؤكد تطابق المقاس الدقيق مع عرض السعر",
+      "fact4": "نحاس",
+      "fact5": "لأعلى / لأسفل"
+    }
+  }
+}

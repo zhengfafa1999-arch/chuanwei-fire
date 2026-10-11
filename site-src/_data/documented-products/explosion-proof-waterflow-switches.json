@@ -1,0 +1,280 @@
+{
+  "id": "explosion-proof-waterflow-switches",
+  "routeId": "product:explosion-proof-waterflow-switches",
+  "template": "product-series/documented-product.njk",
+  "styles": [
+    "css/common.css",
+    "css/sprinkler-product.css",
+    "css/sprinkler-product-gallery.css",
+    "css/documented-product.css",
+    "css/site-navigation.css"
+  ],
+  "source": {
+    "evidence": "User-confirmed product type and size options; actual DN100 photograph",
+    "confirmationRecord": "docs/reviews/explosion-proof-waterflow-20261010/user-confirmation.json",
+    "photoRecord": "docs/reviews/explosion-proof-waterflow-20261010/photo-records.json",
+    "modelConfirmationRecord": "docs/reviews/sprinkler-trim-20261010/waterflow-model-confirmation.json"
+  },
+  "publication": {
+    "status": "release-candidate",
+    "externalRelease": true,
+    "imageRights": "user-confirmed-website-use",
+    "imageRightsEvidence": "docs/release/explosion-proof-waterflow-20261010/image-rights-confirmation.json"
+  },
+  "media": {
+    "hero": "assets/products/explosion-proof-waterflow-switches/dn100-sample-1600.webp"
+  },
+  "imageDimensions": {
+    "hero": {
+      "width": 1170,
+      "height": 1600
+    }
+  },
+  "heroFacts": [
+    "sizeRangeValue",
+    "constructionValue",
+    "sampleScopeValue"
+  ],
+  "shared": {
+    "sizeRangeValue": "DN50–DN250 / 2–10 in"
+  },
+  "gallery": [
+    {
+      "media": "hero",
+      "alt": "dn100Alt",
+      "caption": "dn100Reference",
+      "thumbnailAlt": "dn100Thumbnail"
+    }
+  ],
+  "specifications": [
+    {
+      "label": "productType",
+      "value": "productTypeValue"
+    },
+    {
+      "label": "nominalSizeRange",
+      "value": "sizeRangeValue",
+      "technical": true
+    },
+    {
+      "label": "construction",
+      "value": "constructionValue"
+    },
+    {
+      "label": "imageScope",
+      "value": "sampleScopeValue",
+      "technical": true
+    }
+  ],
+  "modelColumns": [
+    {
+      "label": "factoryModel",
+      "field": "factoryModel",
+      "technical": true
+    },
+    {
+      "label": "nominalPipeSize",
+      "field": "nominalPipeSize",
+      "technical": true
+    },
+    {
+      "label": "productConfiguration",
+      "field": "configuration",
+      "localized": true
+    }
+  ],
+  "models": [
+    {
+      "factoryModel": "ZSJZ 50-M-1.2EX",
+      "nominalPipeSize": "DN50 / 2 in",
+      "configuration": "explosionProofConfiguration"
+    },
+    {
+      "factoryModel": "ZSJZ 65-M-1.2EX",
+      "nominalPipeSize": "DN65 / 2½ in",
+      "configuration": "explosionProofConfiguration"
+    },
+    {
+      "factoryModel": "ZSJZ 80-M-1.2EX",
+      "nominalPipeSize": "DN80 / 3 in",
+      "configuration": "explosionProofConfiguration"
+    },
+    {
+      "factoryModel": "ZSJZ 100-M-1.2EX",
+      "nominalPipeSize": "DN100 / 4 in",
+      "configuration": "explosionProofConfiguration"
+    },
+    {
+      "factoryModel": "ZSJZ 125-M-1.2EX",
+      "nominalPipeSize": "DN125 / 5 in",
+      "configuration": "explosionProofConfiguration"
+    },
+    {
+      "factoryModel": "ZSJZ 150-M-1.2EX",
+      "nominalPipeSize": "DN150 / 6 in",
+      "configuration": "explosionProofConfiguration"
+    },
+    {
+      "factoryModel": "ZSJZ 200-M-1.2EX",
+      "nominalPipeSize": "DN200 / 8 in",
+      "configuration": "explosionProofConfiguration"
+    },
+    {
+      "factoryModel": "ZSJZ 250-M-1.2EX",
+      "nominalPipeSize": "DN250 / 10 in",
+      "configuration": "explosionProofConfiguration"
+    }
+  ],
+  "confirmationItems": [
+    {
+      "label": "pipeSelection",
+      "body": "pipeSelectionBody"
+    },
+    {
+      "label": "explosionProtection",
+      "body": "explosionProtectionBody"
+    },
+    {
+      "label": "electricalRequirement",
+      "body": "electricalRequirementBody"
+    },
+    {
+      "label": "orderInformation",
+      "body": "orderInformationBody"
+    }
+  ],
+  "validation": {
+    "anchors": [
+      "gallery",
+      "specifications",
+      "models",
+      "quotation"
+    ],
+    "requiredTechnicalValues": [
+      "DN50 / 2 in",
+      "DN100 / 4 in",
+      "DN200 / 8 in",
+      "DN250 / 10 in",
+      "ZSJZ 50-M-1.2EX",
+      "ZSJZ 250-M-1.2EX"
+    ]
+  },
+  "inquiry": {
+    "whatsapp": "https://wa.me/8617326528368?text=Hello%2C+I+need+a+quotation+for+Explosion-Proof+Waterflow+Switches.+Pipe+size%3A+%5BDN%2Fin%5D%2C+quantity%3A+%5Bpcs%5D%2C+destination%3A+%5Bcountry%5D%2C+explosion-protection+requirement%3A+%5Bdetails%5D.+Please+send+matching+technical+documents+and+the+installation+drawing.",
+    "email": "mailto:zhengcolin1@gmail.com?subject=Explosion-Proof+Waterflow+Switch+Inquiry"
+  },
+  "copy": {
+    "en": {
+      "onThisPage": "On this page",
+      "gallery": "Product image",
+      "specifications": "Specifications",
+      "availableModels": "Available models",
+      "nominalPipeSize": "Nominal pipe size",
+      "factoryModel": "Factory Model",
+      "temperature": "Temperature",
+      "thermalElement": "Sensing element",
+      "quotation": "Quotation confirmation",
+      "askOnWhatsApp": "Ask on WhatsApp",
+      "emailSales": "Email sales",
+      "productImagePreview": "Product image preview",
+      "closeImagePreview": "Close image preview",
+      "previousProductImage": "Previous product image",
+      "nextProductImage": "Next product image",
+      "selectProductImage": "Select product image",
+      "title": "Explosion-Proof Waterflow Switches",
+      "eyebrow": "Explosion-proof type · DN50–DN250",
+      "lead": "Saddle-type vane waterflow switches in the ZSJZ EX series, with nominal pipe sizes from DN50 to DN250. The photograph shows the DN100 configuration.",
+      "note": "Specify the required explosion-protection classification and destination requirements. Request the exact product marking, applicable documents and installation drawing for the selected configuration.",
+      "galleryTitle": "DN100 explosion-proof sample",
+      "galleryBody": "Actual DN100 sample with a black enclosure, red saddle, U-bolt and white sensing vane. This photograph represents the DN100 configuration; other pipe sizes are selected from the table below.",
+      "dn100Reference": "Explosion-proof waterflow switch — DN100 sample",
+      "dn100Alt": "DN100 explosion-proof saddle-type waterflow switch with black enclosure, red saddle, U-bolt and white vane",
+      "dn100Thumbnail": "DN100 explosion-proof waterflow switch thumbnail",
+      "enlargedImage": "Enlarged DN100 explosion-proof waterflow switch",
+      "specificationsTitle": "Product configuration",
+      "specificationsBody": "Select the nominal pipe size below. Obtain configuration-specific electrical, pressure, material and explosion-protection information with the quotation.",
+      "productType": "Product type",
+      "nominalSizeRange": "Nominal pipe-size range",
+      "construction": "Construction",
+      "imageScope": "Photographed size",
+      "productTypeValue": "Explosion-proof vane waterflow switch",
+      "constructionValue": "Saddle type · U-bolt mounting",
+      "sampleScopeValue": "DN100 / 4 in sample",
+      "modelsTitle": "Factory models and pipe-size options",
+      "modelsBody": "Eight factory references are available: DN50, DN65, DN80, DN100, DN125, DN150, DN200 and DN250. The photograph shows DN100.",
+      "productConfiguration": "Product configuration",
+      "explosionProofConfiguration": "Explosion-proof saddle type",
+      "modelsNote": "Factory references are reproduced as supplied. Request the selected model’s pressure rating, electrical contact data, explosion-protection marking and installation drawing.",
+      "quotationTitle": "Select the configuration for your order",
+      "quotationBody": "Start with the pipe size and quantity. Add project requirements and destination to obtain the matching technical information.",
+      "pipeSelection": "Pipe fit and dimensions",
+      "pipeSelectionBody": "Provide nominal size, actual pipe outside diameter and available installation space; request the dimensioned drawing.",
+      "explosionProtection": "Explosion-protection requirements",
+      "explosionProtectionBody": "Specify the required protection classification and destination requirements. Request matching product marking and supporting documents.",
+      "electricalRequirement": "Electrical contact requirements",
+      "electricalRequirementBody": "Provide the signal circuit and load requirements; request the selected contact type and rating.",
+      "orderInformation": "Order information",
+      "orderInformationBody": "Provide quantity, destination and packaging requirements.",
+      "inquiryTitle": "Request an explosion-proof waterflow switch",
+      "inquiryBody": "Include pipe size, quantity, destination and required explosion-protection information when available.",
+      "seoTitle": "Explosion-Proof Waterflow Switches | DN50–DN250 | CHUANWEI FIRE",
+      "seoDescription": "ZSJZ EX explosion-proof saddle-type waterflow switches in DN50–DN250. Compare eight factory models, view the actual DN100 sample and request technical documents."
+    },
+    "ar": {
+      "onThisPage": "في هذه الصفحة",
+      "gallery": "صورة المنتج",
+      "specifications": "المواصفات",
+      "availableModels": "الموديلات المتاحة",
+      "nominalPipeSize": "مقاس الأنبوب الاسمي",
+      "factoryModel": "موديل المصنع",
+      "temperature": "درجة الحرارة",
+      "thermalElement": "عنصر الاستشعار",
+      "quotation": "تأكيد عرض السعر",
+      "askOnWhatsApp": "استفسر عبر WhatsApp",
+      "emailSales": "راسل قسم المبيعات",
+      "productImagePreview": "معاينة صورة المنتج",
+      "closeImagePreview": "إغلاق معاينة الصورة",
+      "previousProductImage": "صورة المنتج السابقة",
+      "nextProductImage": "صورة المنتج التالية",
+      "selectProductImage": "اختر صورة المنتج",
+      "title": "مفاتيح تدفق المياه المقاومة للانفجار",
+      "eyebrow": "نوع مقاوم للانفجار · DN50–DN250",
+      "lead": "مفاتيح تدفق مياه بريشة ومن النوع السرجي ضمن سلسلة ZSJZ EX، بمقاسات أنابيب اسمية من DN50 إلى DN250. تعرض الصورة تكوين DN100.",
+      "note": "حدد تصنيف الحماية من الانفجار المطلوب ومتطلبات بلد الوجهة. اطلب علامات المنتج الدقيقة والوثائق المنطبقة ورسم التركيب للتكوين المختار.",
+      "galleryTitle": "عينة مقاومة للانفجار بالمقاس DN100",
+      "galleryBody": "عينة فعلية بالمقاس DN100 بعلبة سوداء وسرج أحمر ومشبك U وريشة استشعار بيضاء. تمثل الصورة تكوين DN100؛ تُختار المقاسات الأخرى من الجدول أدناه.",
+      "dn100Reference": "مفتاح تدفق مياه مقاوم للانفجار — عينة DN100",
+      "dn100Alt": "مفتاح تدفق مياه سرجي مقاوم للانفجار بالمقاس DN100 بعلبة سوداء وسرج أحمر ومشبك U وريشة بيضاء",
+      "dn100Thumbnail": "صورة مصغرة لمفتاح تدفق مياه مقاوم للانفجار DN100",
+      "enlargedImage": "صورة مكبرة لمفتاح تدفق مياه مقاوم للانفجار DN100",
+      "specificationsTitle": "تكوين المنتج",
+      "specificationsBody": "اختر مقاس الأنبوب الاسمي أدناه. اطلب مع عرض السعر معلومات الكهرباء والضغط والمواد والحماية من الانفجار الخاصة بالتكوين المختار.",
+      "productType": "نوع المنتج",
+      "nominalSizeRange": "نطاق مقاسات الأنابيب الاسمية",
+      "construction": "البنية",
+      "imageScope": "المقاس المعروض في الصورة",
+      "productTypeValue": "مفتاح تدفق مياه بريشة مقاوم للانفجار",
+      "constructionValue": "نوع سرجي · تثبيت بمشبك U",
+      "sampleScopeValue": "عينة DN100 / 4 in",
+      "modelsTitle": "موديلات المصنع وخيارات مقاسات الأنابيب",
+      "modelsBody": "تتوفر ثمانية مراجع للمصنع: DN50 وDN65 وDN80 وDN100 وDN125 وDN150 وDN200 وDN250. تعرض الصورة المقاس DN100.",
+      "productConfiguration": "تكوين المنتج",
+      "explosionProofConfiguration": "نوع سرجي مقاوم للانفجار",
+      "modelsNote": "تُعرض مراجع المصنع كما وردت. اطلب ضغط التشغيل المقنن وبيانات نقاط التلامس الكهربائية وعلامات الحماية من الانفجار ورسم التركيب للموديل المختار.",
+      "quotationTitle": "اختر تكوين طلبك",
+      "quotationBody": "ابدأ بمقاس الأنبوب والكمية. أضف متطلبات المشروع وبلد الوجهة للحصول على المعلومات الفنية المطابقة.",
+      "pipeSelection": "مطابقة الأنبوب والأبعاد",
+      "pipeSelectionBody": "أرسل المقاس الاسمي والقطر الخارجي الفعلي للأنبوب ومساحة التركيب المتاحة، واطلب الرسم ذا الأبعاد.",
+      "explosionProtection": "متطلبات الحماية من الانفجار",
+      "explosionProtectionBody": "حدد تصنيف الحماية المطلوب ومتطلبات بلد الوجهة. اطلب علامات المنتج والوثائق الداعمة المطابقة.",
+      "electricalRequirement": "متطلبات نقاط التلامس الكهربائية",
+      "electricalRequirementBody": "أرسل متطلبات دائرة الإشارة والحمل، واطلب نوع نقاط التلامس المختارة وقدرتها المقننة.",
+      "orderInformation": "معلومات الطلب",
+      "orderInformationBody": "أرسل الكمية والوجهة ومتطلبات التغليف.",
+      "inquiryTitle": "اطلب مفتاح تدفق مياه مقاوم للانفجار",
+      "inquiryBody": "أضف مقاس الأنبوب والكمية والوجهة ومعلومات الحماية المطلوبة من الانفجار عند توفرها.",
+      "seoTitle": "مفاتيح تدفق مياه مقاومة للانفجار | DN50–DN250 | CHUANWEI FIRE",
+      "seoDescription": "مفاتيح تدفق مياه سرجية مقاومة للانفجار ZSJZ EX بالمقاسات DN50–DN250. قارن ثمانية موديلات للمصنع وشاهد عينة DN100 الفعلية واطلب الوثائق الفنية."
+    }
+  }
+}

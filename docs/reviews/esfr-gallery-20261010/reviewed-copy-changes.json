@@ -1,0 +1,76 @@
+{
+  "date": "2026-10-10",
+  "scope": "Two user-supplied photographs and gallery captions; distinguish glass-bulb photographs from the existing fusible-link specification table. Technical numeric values and model rows unchanged.",
+  "large-k-factor-esfr-sprinklers": [
+    {
+      "key": "twoRelatedButDistinctProductGroupsLargeK",
+      "before": "Two related but distinct product groups: large K-factor spray sprinklers for higher discharge capacity, and fusible-link ESFR sprinklers for storage-protection applications. Each group is identified separately for accurate sourcing.",
+      "after": "Two related but distinct product groups: large K-factor spray sprinklers for higher discharge capacity, and ESFR sprinklers for storage-protection applications. Match the exact model and operating element before ordering.",
+      "occurrences": 1,
+      "originalFixtureOccurrences": 1
+    },
+    {
+      "key": "theGallerySeparatesChromePlatedLargeKFactor",
+      "before": "The gallery separates chrome-plated large K-factor glass-bulb sprinklers from natural-copper ESFR fusible-link sprinklers. Similar-looking ESFR models are presented as series views unless the exact K-factor is visible or otherwise confirmed.",
+      "after": "Compare large K-factor spray sprinklers, fusible-link ESFR samples and the separate glass-bulb ESFR samples. The listed fusible-link specifications do not apply to the glass-bulb photographs; request model-specific data for those samples.",
+      "occurrences": 1,
+      "originalFixtureOccurrences": 1
+    },
+    {
+      "key": "eSFRDetail01",
+      "before": "ESFR Detail 01",
+      "after": "Glass-Bulb ESFR 01",
+      "occurrences": 1,
+      "originalFixtureOccurrences": 1
+    },
+    {
+      "key": "eSFRDetail02",
+      "before": "ESFR Detail 02",
+      "after": "Glass-Bulb ESFR 02",
+      "occurrences": 1,
+      "originalFixtureOccurrences": 1
+    },
+    {
+      "key": "eSFRFusibleLinkDetailThumbnail",
+      "before": "ESFR fusible link detail thumbnail",
+      "after": "ESFR glass-bulb sprinkler thumbnail",
+      "occurrences": 2,
+      "originalFixtureOccurrences": 2
+    },
+    {
+      "key": "eSFRNaturalCopperFrameAndFusibleLinkDetail",
+      "before": "ESFR natural copper frame and fusible link detail",
+      "after": "ESFR glass-bulb sprinkler with slotted deflector",
+      "occurrences": 0,
+      "originalFixtureOccurrences": 1
+    },
+    {
+      "key": "eSFRFusibleLinkDetail",
+      "before": "ESFR Fusible-Link Detail",
+      "after": "ESFR Glass-Bulb — Slotted Deflector",
+      "occurrences": 0,
+      "originalFixtureOccurrences": 1
+    },
+    {
+      "key": "eSFRNaturalCopperSprinklerDetail",
+      "before": "ESFR natural copper sprinkler detail",
+      "after": "ESFR glass-bulb sprinkler with domed deflector",
+      "occurrences": 0,
+      "originalFixtureOccurrences": 1
+    },
+    {
+      "key": "eSFRSeriesDetail",
+      "before": "ESFR Series Detail",
+      "after": "ESFR Glass-Bulb — Domed Deflector",
+      "occurrences": 0,
+      "originalFixtureOccurrences": 1
+    },
+    {
+      "key": "eSFRStorageSprinklers",
+      "before": "ESFR Storage Sprinklers",
+      "after": "Fusible-Link ESFR Sprinklers",
+      "occurrences": 2,
+      "originalFixtureOccurrences": 2
+    }
+  ]
+}

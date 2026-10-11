@@ -3,6 +3,8 @@ import fs from "node:fs";
 import path from "node:path";
 import { PRODUCT_FAMILIES, flatProducts, productSuffix, localizedText } from "../site-src/_data/productDirectory.js";
 import { CATEGORY_SEO_FOCUS } from "../site-src/_data/categorySeoFocus.js";
+import { listingInquiryDrafts } from "../site-src/lib/inquiry.js";
+import { versionedPublicAsset } from "../site-src/lib/public-asset-versions.js";
 import {
   SITE_ROUTES,
   SUPPORTED_LOCALES,
@@ -51,6 +53,12 @@ function validateListingShell(routeId, locale) {
   assert(html.includes(`href="${route.languageLinks.ar}" lang="ar"`), `${route.outputPath} has an incorrect Arabic switch.`);
   assert(!/[{][{%#]|[%#}][}]/.test(html), `${route.outputPath} contains an unrendered template marker.`);
   validateLocalReferences(html, route.outputPath);
+  assert(html.includes(`href="${versionedPublicAsset('css/catalog-pages.css', route.assetPrefix)}"`), `${route.outputPath}: missing current listing styles`);
+  const family = PRODUCT_FAMILIES.find(item => item.routeId === routeId);
+  const name = family ? localizedText(family.name, locale) : locale === 'ar' ? 'دليل المنتجات' : 'Product directory';
+  const drafts = listingInquiryDrafts(name, route.canonical, locale);
+  for (const href of Object.values(drafts)) assert(html.includes(`href="${href.replaceAll('&', '&amp;')}"`), `${route.outputPath}: missing contextual inquiry draft`);
+  assert(html.includes('id="inquiry"'), `${route.outputPath}: inquiry anchor missing`);
   return { html, route };
 }
 
@@ -64,7 +72,7 @@ for (const route of Object.values(SITE_ROUTES)) {
 for (const locale of SUPPORTED_LOCALES) {
   const directory = validateListingShell('products', locale);
   assert(directory.html.includes('assets/js/product-finder.js'), 'Product finder missing');
-  assert((directory.html.match(/data-search=/g)||[]).length === PRODUCT_FAMILIES.reduce((n,f)=>n+flatProducts(f).length,0), 'Flat directory count mismatch');
+  assert((directory.html.match(/<article class="product-card" data-search=/g)||[]).length === PRODUCT_FAMILIES.reduce((n,f)=>n+flatProducts(f).length,0), 'Flat directory count mismatch');
   for (const family of PRODUCT_FAMILIES) {
     const category = validateListingShell(family.routeId, locale);
     const focus = CATEGORY_SEO_FOCUS[family.routeId]?.[locale];
@@ -80,19 +88,24 @@ for (const locale of SUPPORTED_LOCALES) {
     assert(cards.length === products.length, `${family.id}: flat category count mismatch`);
     assert(directory.html.includes(`href="#${family.id}"`), 'Category must be an in-page filter/shortcut');
     products.forEach((product,index)=>{
+      assert(product.image && !/Configuration options|خيارات التكوين/.test(localizedText(product.name,locale)), 'Empty duplicate configuration card returned');
       assert(SITE_ROUTES[product.routeId].kind === 'product', 'Directory must link directly to detail routes');
       assert(SITE_ROUTES[product.routeId].category === family.routeId, 'Product parent changed');
       assert(SITE_ROUTES[product.routeId].locales[locale].status === 'published', 'Unexpected language fallback');
       for (const [html,route] of [[directory.html,directory.route],[cards[index],category.route]]) {
         const href=resolveSiteRoute(product.routeId,locale,route.outputPath).href+productSuffix(product);
-        assert(html.includes(`class="product-card__image" href="${href}"`), `Missing direct image link: ${product.routeId}`);
+        if (product.image) assert(html.includes(`class="product-card__image" href="${href}"`), `Missing direct image link: ${product.routeId}`);
+        else assert(html.includes(`class="product-card__link" href="${href}"`), `Missing configuration details link: ${product.routeId}`);
         assert(containsRenderedText(html,localizedText(product.name,locale)), `Missing configuration name: ${product.routeId}`);
-        assert(html.includes(`src="${route.assetPrefix}${thumbnailFor(product.image)}"`),'Wrong configuration image');
+        if (product.image) assert(html.includes(`src="${route.assetPrefix}${thumbnailFor(product.image)}"`),'Wrong configuration image');
       }
       const href=resolveSiteRoute(product.routeId,locale,category.route.outputPath).href+productSuffix(product);
       const links=[...cards[index].matchAll(/<a\b[^>]*href="([^"]+)"/g)].map(m=>m[1]);
-      assert(links.length===2&&links.every(link=>link===href),'Image/text destinations must match');
+      const relatedHrefs=(product.relatedConfigurations||[]).map(item=>resolveSiteRoute(product.routeId,locale,category.route.outputPath).href+'#'+item.anchor);
+      assert(links.filter(link=>link===href).length===2 && links.every(link=>link===href||relatedHrefs.includes(link)),'Image/text destinations must match; additional model links must be scoped');
+      if (!product.image) assert(!cards[index].includes('<img'), 'Text-only configuration entry inherited a legacy photo');
       const detail=readOutput(SITE_ROUTES[product.routeId].locales[locale].outputPath);
+      for(const item of product.relatedConfigurations||[])assert(detail.includes(`id="${item.anchor}"`),'Additional model anchor missing');
       if(product.anchor)assert(detail.includes(`id="${product.anchor}"`),'Configuration anchor missing');
       if(product.view){assert(detail.includes('id="gallery"'),'Gallery target missing');assert(detail.includes(path.basename(product.image)),'Selected view missing from detail');}
     });

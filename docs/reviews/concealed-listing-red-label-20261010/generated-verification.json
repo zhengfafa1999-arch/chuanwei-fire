@@ -1,0 +1,16 @@
+{
+  "directoryAndCategoryPages": [
+    "products.html",
+    "ar/products.html",
+    "products/消防喷头.html",
+    "ar/products/sprinklers/index.html"
+  ],
+  "thumbnail": "f04a5e62bf719875c901674d-480.webp",
+  "detailPagesUnchanged": true,
+  "pdfUnchanged": true,
+  "newThumbnailOnly": true,
+  "buildExitCode": 0,
+  "publishedPages": 185,
+  "searchAssertions": 149,
+  "status": "local-review-candidate-not-deployed"
+}

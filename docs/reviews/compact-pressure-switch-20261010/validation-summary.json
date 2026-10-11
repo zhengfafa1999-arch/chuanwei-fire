@@ -1,0 +1,21 @@
+{
+  "date": "2026-10-10",
+  "buildExitCode": 0,
+  "pages": 185,
+  "searchAssertions": 143,
+  "productPairs": 76,
+  "modelRows": 348,
+  "numericMismatches": 0,
+  "visualReview": "Supported browser localhost attempt timed out; pending desktop and mobile visual review.",
+  "status": "local-review-candidate-not-deployed",
+  "scopeChecks": "scope-check.json",
+  "imageRecord": "photo-records.json",
+  "unresolved": [
+    "Exact model",
+    "Thread designation and size",
+    "Rated working pressure",
+    "Actuation pressure",
+    "Contact capacity and wiring"
+  ],
+  "pdfGeneration": "paused; existing SHA256 unchanged"
+}

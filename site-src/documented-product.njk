@@ -16,12 +16,14 @@ eleventyExcludeFromCollections: true
   <link rel="apple-touch-icon" href="{{ entry.route.assetPrefix }}apple-touch-icon.png">
 {% for style in entry.product.styles %}  <link rel="stylesheet" href="{{ entry.route.assetPrefix }}{{ style }}">
 {% endfor %}{% if entry.lang == 'ar' %}  <link rel="stylesheet" href="{{ entry.route.assetPrefix }}css/multilingual-product.css">
-{% endif %}{% seoTags entry.seo %}
+{% endif %}{% if entry.supplement or entry.photos %}<link rel="stylesheet" href="{{ entry.route.assetPrefix }}css/product-supplement.css">{% endif %}
+{% seoTags entry.seo %}
 </head>
 <body data-site-language="{{ entry.lang }}" data-site-route-id="{{ entry.product.routeId }}" data-content-status="{{ entry.product.publication.status }}">
 {% include "site-header.njk" %}
 {% include "product-series/documented-product.njk" %}
-  <script src="{{ entry.route.assetPrefix }}assets/js/preserved-product-gallery.js"></script>
+  <script src="{{ entry.route.assetPrefix }}assets/js/preserved-product-gallery.js?v=20261009-2"></script>
+  <script src="{{ entry.route.assetPrefix }}assets/js/inquiry.js"></script>
   <script src="{{ entry.route.assetPrefix }}assets/js/site-navigation.js"></script>
 </body>
 </html>

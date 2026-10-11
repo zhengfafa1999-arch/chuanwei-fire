@@ -1,0 +1,99 @@
+{
+  "status": "confirmed",
+  "confirmedDate": "2026-10-09",
+  "scope": "CHUANWEI FIRE official website public display",
+  "authority": "User supplied five photographs and explicitly requested adding the corresponding products to the official website.",
+  "response": "这些产品有在里面吗，没有的话放进去，弄好分类，国际站应该有这些产品的资料",
+  "images": [
+    {
+      "productId": "closed-rotating-fire-sprinkler",
+      "path": "assets/products/special-sprinklers/closed-rotating-fire-sprinkler-1-1600.webp",
+      "sha256": "512609368dca5746e01e4343d9d1b92331186283519d9bc8ed06d57ceefe0921",
+      "originalPath": "docs/release/special-sprinklers-20261009/photo-1-original.jpg",
+      "originalSha256": "c866a9c6bdf7ed078c636c6519bfa536a054fc464e53939ba1010606fbfb6b71",
+      "sourceDimensions": [
+        1452,
+        1612
+      ],
+      "width": 1441,
+      "height": 1600,
+      "sourceBytes": 797827,
+      "bytes": 137326,
+      "publishedTransform": "CHUANWEI FIRE text watermark in clear whitespace",
+      "unwatermarkedSha256": "6d8a980044c049080f4603bfdfa1bea13a690e503810baf66cd41e844c6ff656",
+      "watermarkRecord": "site-src/_data/product-watermarks.json"
+    },
+    {
+      "productId": "closed-centrifugal-fire-sprinklers",
+      "path": "assets/products/special-sprinklers/closed-centrifugal-fire-sprinklers-2-1600.webp",
+      "sha256": "1a206b47b113d59bc403d68294962df41f52b21c8c1444a6fa817856b0376885",
+      "originalPath": "docs/release/special-sprinklers-20261009/photo-2-original.jpg",
+      "originalSha256": "2c44f7d671cfea248814ea0cfb6c0197b2335d1b5a2314a4cc16d8b243e1a977",
+      "sourceDimensions": [
+        1654,
+        2152
+      ],
+      "width": 1230,
+      "height": 1600,
+      "sourceBytes": 1017908,
+      "bytes": 86016,
+      "publishedTransform": "CHUANWEI FIRE text watermark in clear whitespace",
+      "unwatermarkedSha256": "488fca6497ecfdec09186b13437d1e6624dae2805189c18ace8a4d3af8dabd64",
+      "watermarkRecord": "site-src/_data/product-watermarks.json"
+    },
+    {
+      "productId": "tubular-foam-water-nozzles",
+      "path": "assets/products/special-sprinklers/tubular-foam-water-nozzles-3-1600.webp",
+      "sha256": "495bc0f2107963af4a7016f8fe99704ff9c97f9a68ac9884a57a189d67ebfebe",
+      "originalPath": "docs/release/special-sprinklers-20261009/photo-3-original.jpg",
+      "originalSha256": "e739ac501a62a88af2fe5c8132580d9c6557e3ff9dd2f87efb84824b84c401e6",
+      "sourceDimensions": [
+        1333,
+        2793
+      ],
+      "width": 764,
+      "height": 1600,
+      "sourceBytes": 1639521,
+      "bytes": 166866,
+      "publishedTransform": "CHUANWEI FIRE text watermark in clear whitespace",
+      "unwatermarkedSha256": "b25c352d88701d15d6c942a4b909f48267bf105e5406cc4ad0b559b290d17386",
+      "watermarkRecord": "site-src/_data/product-watermarks.json"
+    },
+    {
+      "productId": "tubular-foam-water-nozzles",
+      "path": "assets/products/special-sprinklers/tubular-foam-water-nozzles-4-1600.webp",
+      "sha256": "7f0ecf1446897272bf72fa5e0e9deb4ca079afc777a127bbda6dd37e0d442962",
+      "originalPath": "docs/release/special-sprinklers-20261009/photo-4-original.jpg",
+      "originalSha256": "aa7fcbb72068eb49ea6f9353b65bdc6431c431cad146b6014410835f50a61c53",
+      "sourceDimensions": [
+        1333,
+        2978
+      ],
+      "width": 716,
+      "height": 1600,
+      "sourceBytes": 1930918,
+      "bytes": 187826,
+      "publishedTransform": "CHUANWEI FIRE text watermark in clear whitespace",
+      "unwatermarkedSha256": "4c0c7491025f266cca73b3fc7c79a8236630e5aed647133b254690f2e3d42fce",
+      "watermarkRecord": "site-src/_data/product-watermarks.json"
+    },
+    {
+      "productId": "closed-air-aspirating-foam-water-sprinkler",
+      "path": "assets/products/special-sprinklers/closed-air-aspirating-foam-water-sprinkler-5-1600.webp",
+      "sha256": "183e4de9f180c5c741d53da5fa5b7513483f851f9734ec0c5b94274ebceb45ed",
+      "originalPath": "docs/release/special-sprinklers-20261009/photo-5-original.jpg",
+      "originalSha256": "611fcfa0283c6bb1ee5b70fecc2a3a63cfc25c8716ae64ac5954594e24e78f43",
+      "sourceDimensions": [
+        2042,
+        2219
+      ],
+      "width": 1472,
+      "height": 1600,
+      "sourceBytes": 1330408,
+      "bytes": 154198,
+      "publishedTransform": "CHUANWEI FIRE text watermark in clear whitespace",
+      "unwatermarkedSha256": "c6691abff2acca3703e022083efa431e1953fa92b2c24e3e95762c8d51dfb20c",
+      "watermarkRecord": "site-src/_data/product-watermarks.json"
+    }
+  ]
+}

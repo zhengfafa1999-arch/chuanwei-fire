@@ -12,7 +12,18 @@
   "source": {
     "path": "products/消防喷头/dry-pendent-fire-sprinklers.html",
     "revision": "afff8a0",
-    "status": "preserved-existing-content-not-reaudited"
+    "status": "preserved-existing-content-not-reaudited",
+    "buyerCopyReview": {
+      "date": "2026-10-09",
+      "record": "docs/reviews/remaining-series-20261009/reviewed-changes.json",
+      "scope": "Buyer terminology and inquiry guidance; exact models, primary photographs and technical values retained except removal of unconfirmed carton quantities."
+    },
+    "materialConfirmation": {
+      "date": "2026-10-09",
+      "quote": "干式材质是不锈钢",
+      "record": "docs/reviews/parameter-gap-research-20261009/dry-material-confirmation.json",
+      "supersedes": "Legacy copper-frame text; later quotation placeholder now replaced."
+    }
   },
   "media": {
     "hero": "products/消防喷头/dry-pendent-sprinkler/dry-pendent-full-view.jpg",
@@ -110,15 +121,15 @@
       "numbers": []
     },
     "internationalBuyerSpecifications": {
-      "text": "International buyer specifications",
+      "text": "Technical specifications",
       "numbers": []
     },
     "theSeriesIsPresentedByResponseTypeAnd": {
-      "text": "The series is presented by response type and overall length. Domestic model codes are retained only for factory production and repeat-order matching.",
+      "text": "Select the response type and required overall length, then specify the connection and escutcheon. Overall length refers to the complete assembly.",
       "numbers": []
     },
     "confirmedProductSpecifications": {
-      "text": "Confirmed product specifications",
+      "text": "Product specifications",
       "numbers": []
     },
     "productType": {
@@ -195,7 +206,7 @@
       "numbers": []
     },
     "copper": {
-      "text": "Copper",
+      "text": "Stainless steel",
       "numbers": []
     },
     "frameFinish": {
@@ -281,7 +292,7 @@
       "numbers": []
     },
     "factoryReference": {
-      "text": "Factory reference",
+      "text": "Model",
       "numbers": []
     },
     "standardResponseDryPendent": {
@@ -359,7 +370,7 @@
       "numbers": []
     },
     "includeDestinationCountryResponseTypeOverallLengthThread": {
-      "text": "Include destination country, response type, overall length, thread, escutcheon, quantity and OEM request.",
+      "text": "Start with response type, overall length and quantity. Add connection, escutcheon, destination and marking requirements when available.",
       "numbers": []
     },
     "whatsAppInquiry": {

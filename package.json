@@ -4,8 +4,8 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "validate": "node tools/validate-routes.mjs && node tools/validate-catalog.mjs",
-    "build": "npm run validate && node tools/run-eleventy.mjs && node tools/normalize-legacy-seo.mjs && node tools/normalize-legacy-navigation.mjs && node tools/normalize-analytics.mjs && npm run validate:seo && npm run validate:analytics && npm run validate:navigation && node tools/validate-generated.mjs && node tools/validate-preserved-products.mjs && node tools/validate-catalog-products.mjs && node tools/validate-documented-products.mjs && node tools/validate-listings.mjs && node tools/validate-public-pages.mjs && npm run validate:static-release",
+    "validate": "node tools/validate-routes.mjs && node tools/validate-catalog.mjs && node tools/validate-buyer-copy.mjs && node tools/validate-product-search.mjs && node tools/test-inquiry.mjs && node tools/validate-product-supplements.mjs && node tools/validate-product-photos.mjs && node tools/validate-product-watermarks.mjs",
+    "build": "npm run validate && node tools/run-eleventy.mjs && node tools/normalize-legacy-seo.mjs && node tools/normalize-legacy-navigation.mjs && node tools/normalize-analytics.mjs && npm run validate:seo && npm run validate:analytics && npm run validate:navigation && node tools/validate-generated.mjs && node tools/validate-preserved-products.mjs && node tools/validate-catalog-products.mjs && node tools/validate-documented-products.mjs && node tools/validate-product-supplements.mjs --generated && node tools/validate-product-photos.mjs --generated && node tools/validate-listings.mjs && node tools/validate-public-pages.mjs && node tools/validate-buyer-copy.mjs --generated && node tools/validate-product-watermarks.mjs --generated && npm run validate:static-release",
     "validate:preserved": "node tools/validate-preserved-products.mjs",
     "validate:seo": "node tools/validate-seo.mjs",
     "validate:analytics": "node tools/validate-analytics.mjs",

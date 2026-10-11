@@ -3,7 +3,7 @@ import path from 'node:path';
 import {spawnSync} from 'node:child_process';
 import {PRODUCT_FAMILIES,flatProducts} from '../site-src/_data/productDirectory.js';
 import {thumbnailFor} from '../site-src/_data/catalogThumbnails.js';
-const sources=[...new Set(PRODUCT_FAMILIES.flatMap(flatProducts).map(p=>p.image))];
+const sources=[...new Set(PRODUCT_FAMILIES.flatMap(flatProducts).flatMap(p=>[p.image,...(p.relatedConfigurations||[]).map(c=>c.image)]).filter(Boolean))];
 const jobs=sources.map(source=>({source,output:thumbnailFor(source)}));
 fs.mkdirSync('assets/catalog-thumbnails',{recursive:true});
 const expectedOutputs=new Set(jobs.map(job=>path.resolve(job.output).toLowerCase()));
@@ -12,7 +12,7 @@ for(const name of fs.readdirSync('assets/catalog-thumbnails')){
  if(!/^[a-f0-9]{24}-480\.webp$/i.test(name))continue;
  const file=`assets/catalog-thumbnails/${name}`;
  const comparable=path.resolve(file).toLowerCase();
- if(!expectedOutputs.has(comparable)){
+ if(!expectedOutputs.has(comparable) && !process.argv.includes('--keep-stale')){
   fs.rmSync(file);
   removed++;
  }

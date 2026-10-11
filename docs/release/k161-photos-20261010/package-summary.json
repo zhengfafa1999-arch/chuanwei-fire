@@ -1,0 +1,10 @@
+{
+  "date": "2026-10-10",
+  "status": "local-review-candidate-not-deployed",
+  "archive": ".tmp/releases/k161-photos-20261010-web.zip",
+  "bytes": 42686169,
+  "sha256": "a9d7474c052ed60409a08f23545888c9399f3cb9ea1ec13ef81a649956a27c4a",
+  "files": 688,
+  "pages": 175,
+  "validation": "All ZIP entries verified against static-manifest sizes and SHA256; CRC check passed. Server rollback backup must be created before publication."
+}

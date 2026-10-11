@@ -1,0 +1,30 @@
+[
+  {
+    "id": "standard-response-fire-sprinkler",
+    "language": "en",
+    "width": 390,
+    "originalSrc": "../../assets/products/guanya-2026/standard-response-fire-sprinkler-dsc_5870-1600.webp",
+    "zoom": {
+      "loaded": true,
+      "open": true,
+      "src": "http://127.0.0.1:8766/assets/products/guanya-2026/standard-response-fire-sprinkler-dsc_5870-1600.webp"
+    },
+    "closed": true,
+    "nextSrc": "standard-response-sprinkler/standard-response-three-styles.jpg",
+    "prevSrc": "../../assets/products/guanya-2026/standard-response-fire-sprinkler-dsc_5870-1600.webp"
+  },
+  {
+    "id": "extended-coverage-quick-response-fire-sprinkler",
+    "language": "ar",
+    "width": 320,
+    "originalSrc": "../../../assets/products/guanya-2026/extended-coverage-quick-response-fire-sprinkler-dsc_5889-1600.webp",
+    "zoom": {
+      "loaded": true,
+      "open": true,
+      "src": "http://127.0.0.1:8766/assets/products/guanya-2026/extended-coverage-quick-response-fire-sprinkler-dsc_5889-1600.webp"
+    },
+    "closed": true,
+    "nextSrc": "../../../assets/products/guanya-2026/extended-coverage-quick-response-fire-sprinkler-dsc_5887-1600.webp",
+    "prevSrc": "../../../assets/products/guanya-2026/extended-coverage-quick-response-fire-sprinkler-dsc_5889-1600.webp"
+  }
+]

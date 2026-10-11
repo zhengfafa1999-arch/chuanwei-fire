@@ -1,0 +1,25 @@
+{
+  "date": "2026-10-09",
+  "status": "user-confirmed-factory-photographs",
+  "question": "首页现有的机加工、批量生产、仓库和厂区这4张图片，是冠亚工厂实拍（可能经过修图），还是生成／示意图？",
+  "answer": "都是冠亚工厂实拍",
+  "scope": "Existing four factory images only; excludes packaging illustrations and product configuration illustrations.",
+  "files": [
+    {
+      "path": "assets\\home\\factory\\precision-manufacturing-hd.jpg",
+      "sha256": "e97a027101665fcd6e70a6edeb773a9c5b033c791f48d98fdb9b0deca8a6a44c"
+    },
+    {
+      "path": "assets\\home\\factory\\production-capability-clean-hd.jpg",
+      "sha256": "d35ecdf4eebf6ef5f1f7f5a8a8cc687305804498a58a6e858a88454656c238f8"
+    },
+    {
+      "path": "assets\\home\\factory\\warehousing-delivery-clean-hd.jpg",
+      "sha256": "4589ae8ca3c4e09a935d2fb5ba1f743ce9262693e6d6cfce2e0ce4128fe86264"
+    },
+    {
+      "path": "assets\\home\\factory\\manufacturing-base-clean-hd.jpg",
+      "sha256": "958f6dce44f9c9f48ae332bd0e94f51fcfaf84db787cbba0a15d46518278ee53"
+    }
+  ]
+}

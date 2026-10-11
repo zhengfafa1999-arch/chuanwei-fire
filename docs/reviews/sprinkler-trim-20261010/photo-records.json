@@ -1,0 +1,77 @@
+[
+  {
+    "key": "hero",
+    "source": "D:\\work\\codex\\yunying\\outputs\\chuanwei-fire-commerce\\20260907-112444-1688\\source\\原始实拍\\原图1.jpg",
+    "backup": "docs/release/sprinkler-trim-20261010/source/double-layer-escutcheon.jpg",
+    "sourceSha256": "a5133d9add60512d3735d0102abd2b7b1bad3ba9ae94df6ba9d20bd3851bd671",
+    "originalWidth": 1280,
+    "originalHeight": 1707,
+    "transform": "EXIF display orientation, proportional resize and WebP compression only; no crop, background replacement or retouching",
+    "derivatives": [
+      {
+        "path": "assets/products/sprinkler-trim/double-layer-escutcheon-640.webp",
+        "width": 480,
+        "height": 640,
+        "bytes": 98906,
+        "sha256": "aed7288caa72d8b24466b3be2b0d9c695eb7c9bac54582d8df3af7f527143ed3"
+      },
+      {
+        "path": "assets/products/sprinkler-trim/double-layer-escutcheon-1600.webp",
+        "width": 1200,
+        "height": 1600,
+        "bytes": 532346,
+        "sha256": "a876b9feb8af9ef9f98b081bcac78d6c9366d7717e97e47f318fba5c658d40ba"
+      }
+    ]
+  },
+  {
+    "key": "flat",
+    "source": "D:\\work\\codex\\yunying\\outputs\\chuanwei-fire-commerce\\20260907-112444-1688\\source\\原始实拍\\原图3.jpg",
+    "backup": "docs/release/sprinkler-trim-20261010/source/single-layer-escutcheon.jpg",
+    "sourceSha256": "c508f3550153343475e3631bf74a52a6b361bcfb211e5ee3f968c957cfdae146",
+    "originalWidth": 1280,
+    "originalHeight": 1707,
+    "transform": "EXIF display orientation, proportional resize and WebP compression only; no crop, background replacement or retouching",
+    "derivatives": [
+      {
+        "path": "assets/products/sprinkler-trim/single-layer-escutcheon-640.webp",
+        "width": 480,
+        "height": 640,
+        "bytes": 98422,
+        "sha256": "6eb99ca61f09df72a5b98180802c08b68768a30844ad11c4731053ac8ff32238"
+      },
+      {
+        "path": "assets/products/sprinkler-trim/single-layer-escutcheon-1600.webp",
+        "width": 1200,
+        "height": 1600,
+        "bytes": 477898,
+        "sha256": "db6d230aa96499f22d51b6f6fdb1c5251bd5f2a4191d8b0b5d61c9b38af1b6dd"
+      }
+    ]
+  },
+  {
+    "key": "white",
+    "source": "D:\\work\\codex\\yunying\\outputs\\chuanwei-fire-commerce\\20260907-112444-1688\\source\\原始实拍\\原图4.jpg",
+    "backup": "docs/release/sprinkler-trim-20261010/source/white-round-cover-assembly.jpg",
+    "sourceSha256": "1b95a041ebced2c3ca0ef476409a8178fff83408941e093c000ef81084fae3bb",
+    "originalWidth": 1280,
+    "originalHeight": 1707,
+    "transform": "EXIF display orientation, proportional resize and WebP compression only; no crop, background replacement or retouching",
+    "derivatives": [
+      {
+        "path": "assets/products/sprinkler-trim/white-round-cover-assembly-640.webp",
+        "width": 480,
+        "height": 640,
+        "bytes": 55840,
+        "sha256": "7c5c1a711374a5e35c06c563b2d90603b0fa5927bc79f91f6fd4308900533b99"
+      },
+      {
+        "path": "assets/products/sprinkler-trim/white-round-cover-assembly-1600.webp",
+        "width": 1200,
+        "height": 1600,
+        "bytes": 209794,
+        "sha256": "cd838f6389be965d488652ffca3455d9e273c2a689408855266220a209a3e27c"
+      }
+    ]
+  }
+]

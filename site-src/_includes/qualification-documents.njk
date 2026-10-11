@@ -1,0 +1,7 @@
+<section class="section soft qualification-documents" id="patents"><div class="container">
+  <div class="qualification-heading"><div><p class="eyebrow">{{ entry.patents.copy.eyebrow }}</p><h2>{{ entry.patents.copy.title }}</h2></div><p>{{ entry.patents.copy.lead }}</p></div>
+  <div class="qualification-grid">{% for document in entry.patents.items %}
+    <article class="qualification-card"><a class="qualification-image" href="{{ document.href }}" target="_blank" rel="noopener"><img src="{{ document.image }}" alt="{{ document.title }} — {{ document.type }}" loading="lazy" decoding="async" width="381" height="520"></a><div class="qualification-body"><p class="qualification-type">{{ document.type }}</p><h3>{{ document.title }}</h3><p class="qualification-number" dir="ltr">{{ document.patentNumber }}</p><p class="qualification-date">{{ entry.patents.copy.grant }}: <time datetime="{{ document.grantDate }}" dir="ltr">{{ document.grantDate }}</time></p><a class="qualification-view" href="{{ document.href }}" target="_blank" rel="noopener">{{ entry.patents.copy.view }} →</a></div></article>
+  {% endfor %}</div>
+  {% if entry.patents.allHref %}<p class="qualification-all"><a class="btn navy" href="{{ entry.patents.allHref }}">{{ entry.patents.copy.all }}</a></p>{% endif %}
+</div></section>

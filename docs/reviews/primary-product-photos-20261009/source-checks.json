@@ -1,0 +1,116 @@
+[
+  {
+    "productId": "diaphragm-deluge-valves",
+    "source": "site-src/_data/preserved-products/diaphragm-deluge-valves.json",
+    "sha256": "8d04e961bb888b387679b54ed293388440b1c6b5be3f528dd1555146de900104",
+    "scope": "Source media/model/specification/copy data unchanged; explicit photo projection used at render time."
+  },
+  {
+    "productId": "dry-pendent-fire-sprinklers",
+    "source": "site-src/_data/preserved-products/dry-pendent-fire-sprinklers.json",
+    "sha256": "9d3fec525a547e060db1515b73e42c1ec25cfdfc0cc13fde4b33b07b5089314c",
+    "scope": "Source media/model/specification/copy data unchanged; explicit photo projection used at render time."
+  },
+  {
+    "productId": "dry-pipe-alarm-valves",
+    "source": "site-src/_data/preserved-products/dry-pipe-alarm-valves.json",
+    "sha256": "2f732c891b38c08cf53bba99d3d9b015cf9c1325f22c94b1dcc960fb4af94ef8",
+    "scope": "Source media/model/specification/copy data unchanged; explicit photo projection used at render time."
+  },
+  {
+    "productId": "extended-coverage-quick-response-fire-sprinkler",
+    "source": "site-src/_data/preserved-products/extended-coverage-quick-response-fire-sprinkler.json",
+    "sha256": "38cf74d857ec425d2f5148db5cfb9e99443b8162151b4d1a34742218afda0033",
+    "scope": "Source media/model/specification/copy data unchanged; explicit photo projection used at render time."
+  },
+  {
+    "productId": "flanged-supervisory-gate-valves",
+    "source": "site-src/_data/preserved-products/flanged-supervisory-gate-valves.json",
+    "sha256": "d2c8e272c3d3d620aec6fd007e6f279f411a590b27ac7714e0a7539a51e7ce47",
+    "scope": "Source media/model/specification/copy data unchanged; explicit photo projection used at render time."
+  },
+  {
+    "productId": "fusible-alloy-fire-sprinklers",
+    "source": "site-src/_data/documented-products/fusible-alloy-fire-sprinklers.json",
+    "sha256": "1f6144ea5060c47752184eaa3843465004a08b559b052ad343e3aa0a3b81eeea",
+    "scope": "Source media/model/specification/copy data unchanged; explicit photo projection used at render time."
+  },
+  {
+    "productId": "glass-bulb-fire-sprinkler",
+    "source": "site-src/_data/documented-products/glass-bulb-fire-sprinkler.json",
+    "sha256": "93e09827c9e45e605b16cc05fad80aa32bdd0ca9dafc4472168e49533d6b58e8",
+    "scope": "Source media/model/specification/copy data unchanged; explicit photo projection used at render time."
+  },
+  {
+    "productId": "grooved-supervisory-butterfly-valves",
+    "source": "site-src/_data/preserved-products/grooved-supervisory-butterfly-valves.json",
+    "sha256": "53e3a469edc40c7b0b4f40124cec6515d79be741d8d28ef6edca9a4176e1ec64",
+    "scope": "Source media/model/specification/copy data unchanged; explicit photo projection used at render time."
+  },
+  {
+    "productId": "grooved-supervisory-gate-valves",
+    "source": "site-src/_data/preserved-products/grooved-supervisory-gate-valves.json",
+    "sha256": "4d83aa5cc8280d050668e16e617fe322d7ce84a6c1c107a518132dd5e07792a8",
+    "scope": "Source media/model/specification/copy data unchanged; explicit photo projection used at render time."
+  },
+  {
+    "productId": "jet-spray-fire-hose-reel",
+    "source": "site-src/_data/preserved-products/jet-spray-fire-hose-reel.json",
+    "sha256": "3dd905ae8e3f7364e7f2f36be485ecd0198f21977d6b473f31ddd73130cfbcf8",
+    "scope": "Source media/model/specification/copy data unchanged; explicit photo projection used at render time."
+  },
+  {
+    "productId": "large-k-factor-esfr-sprinklers",
+    "source": "site-src/_data/preserved-products/large-k-factor-esfr-sprinklers.json",
+    "sha256": "8b5a709c943f87de04c7106c9765dfbf46b75ca2cd041117adc325416a3c09de",
+    "scope": "Source media/model/specification/copy data unchanged; explicit photo projection used at render time."
+  },
+  {
+    "productId": "lever-operated-grooved-butterfly-valves",
+    "source": "site-src/_data/preserved-products/lever-operated-grooved-butterfly-valves.json",
+    "sha256": "adbf71612629cfe3bd82ad82b70e87726833d39f80234858b3300f1ba53d58ad",
+    "scope": "Source media/model/specification/copy data unchanged; explicit photo projection used at render time."
+  },
+  {
+    "productId": "lever-operated-wafer-butterfly-valves",
+    "source": "site-src/_data/preserved-products/lever-operated-wafer-butterfly-valves.json",
+    "sha256": "f7b522bf65c00e8716584c817ef2663051a21953dd3fbc82bf9b0c23a9c35e80",
+    "scope": "Source media/model/specification/copy data unchanged; explicit photo projection used at render time."
+  },
+  {
+    "productId": "nrs-gate-valves",
+    "source": "site-src/_data/preserved-products/nrs-gate-valves.json",
+    "sha256": "0d4b9a9254ade3d57fdc8bfd93d03de62e57cfb2e626c10b9079389737ed371d",
+    "scope": "Source media/model/specification/copy data unchanged; explicit photo projection used at render time."
+  },
+  {
+    "productId": "osy-gate-valves",
+    "source": "site-src/_data/preserved-products/osy-gate-valves.json",
+    "sha256": "fcfd7aa25509b204830b3f40156b2ca74e5882a2378be06fea2a8e75bd903c47",
+    "scope": "Source media/model/specification/copy data unchanged; explicit photo projection used at render time."
+  },
+  {
+    "productId": "preaction-valve-assemblies",
+    "source": "site-src/_data/preserved-products/preaction-valve-assemblies.json",
+    "sha256": "e163235318e3da2d3e938ea55123ac7ff6032441c9b46e70eba5f67104a79b17",
+    "scope": "Source media/model/specification/copy data unchanged; explicit photo projection used at render time."
+  },
+  {
+    "productId": "standard-response-fire-sprinkler",
+    "source": "site-src/_data/documented-products/standard-response-fire-sprinkler.json",
+    "sha256": "56a0988083a258f9601ca6d6d19bf2bc1cdc66f8d5f4d569879bf43e8318196c",
+    "scope": "Source media/model/specification/copy data unchanged; explicit photo projection used at render time."
+  },
+  {
+    "productId": "straight-stream-fire-hose-reel",
+    "source": "site-src/_data/preserved-products/straight-stream-fire-hose-reel.json",
+    "sha256": "4ec8e22dbf3ede90ce926fb0ef79bfc9debdcc23492facaf76c1ccec0fbd57f2",
+    "scope": "Source media/model/specification/copy data unchanged; explicit photo projection used at render time."
+  },
+  {
+    "productId": "wafer-supervisory-butterfly-valves",
+    "source": "site-src/_data/preserved-products/wafer-supervisory-butterfly-valves.json",
+    "sha256": "4fa75b2fad9765855a82b8d7de1340c941939eb430b156419921e7bc61391eaa",
+    "scope": "Source media/model/specification/copy data unchanged; explicit photo projection used at render time."
+  }
+]

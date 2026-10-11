@@ -1,0 +1,18 @@
+{
+  "status": "confirmed",
+  "confirmedDate": "2026-10-10",
+  "scope": "CHUANWEI FIRE official website public display",
+  "authority": "Direct user request in this conversation",
+  "response": "加上防爆流水指示器，尺寸和图片流水指示器一样，",
+  "images": [
+    {
+      "productId": "explosion-proof-waterflow-switches",
+      "path": "assets/products/explosion-proof-waterflow-switches/dn100-sample-1600.webp",
+      "sha256": "e6a38d1a074867b2c4362fc95306bd79c3681c67616cf7a35cdf81c472d3ed58",
+      "originalSha256": "0be08bd4897860a9a61b49fde35cc1975ba6815d86be9d2216f219735f2ddc52",
+      "publishedTransform": "CHUANWEI FIRE text watermark in clear whitespace",
+      "unwatermarkedSha256": "506346f094adb5c137e921fbdc94ec81d300e931e09218936ce7d201fe30cf27",
+      "watermarkRecord": "site-src/_data/product-watermarks.json"
+    }
+  ]
+}
