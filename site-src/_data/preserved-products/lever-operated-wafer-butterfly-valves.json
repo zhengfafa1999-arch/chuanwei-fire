@@ -84,10 +84,6 @@
       "workingTemperatureRange"
     ],
     [
-      "standard",
-      "standardValue"
-    ],
-    [
       "installation",
       "waferBetweenTwoFlangesHorizontalOrVerticalPiping"
     ]
@@ -249,7 +245,7 @@
       "numbers": []
     },
     "criticalProductDataIsPresentedInHTMLFor": {
-      "text": "Critical product data is presented in HTML for clear international sourcing. The valve is produced to a national standard; no foreign approval is claimed on this page.",
+      "text": "Critical product data is presented in HTML for clear international sourcing. No foreign approval is claimed on this page.",
       "numbers": []
     },
     "seriesSpecifications": {
@@ -348,17 +344,6 @@
     "standard": {
       "text": "Standard",
       "numbers": []
-    },
-    "standardValue": {
-      "text": "GB {n0}.{n1}-{n2} (national fire butterfly valve standard); GB/T {n3}.{n4}; GB/T {n5}",
-      "numbers": [
-        "5135",
-        "6",
-        "2018",
-        "17241",
-        "6",
-        "12221"
-      ]
     },
     "installation": {
       "text": "Installation",

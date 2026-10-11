@@ -88,7 +88,7 @@
       "numbers": []
     },
     "criticalProductDataIsPresentedInHTMLFor": {
-      "text": "Critical product data is presented in HTML for clear international sourcing. The valve is type-tested to a national standard; no foreign approval is claimed on this page.",
+      "text": "Critical product data is presented in HTML for clear international sourcing. No foreign approval is claimed on this page.",
       "numbers": []
     },
     "seriesSpecifications": {
@@ -196,12 +196,6 @@
       "text": "Type-test standard",
       "numbers": []
     },
-    "gB51354NationalDryPipeValveStandard": {
-      "text": "GB {n0} (national dry-pipe-valve standard); no foreign approval implied",
-      "numbers": [
-        "5135.4"
-      ]
-    },
     "packaging": {
       "text": "Packaging",
       "numbers": []
@@ -270,7 +264,7 @@
       "numbers": []
     },
     "verticalInstallationWithTheFlowArrowUpwardAnd": {
-      "text": "Vertical installation with the flow arrow upward and aligned with the water-flow direction, per the national installation standard.",
+      "text": "Vertical installation with the flow arrow upward and aligned with the water-flow direction.",
       "numbers": []
     },
     "completeSupplyScope": {
@@ -378,7 +372,7 @@
       "numbers": []
     },
     "gBANSIDINOrBSDimensionalPatternsSubject": {
-      "text": "GB, ANSI, DIN or BS dimensional patterns, subject to the approved drawing and pressure requirement.",
+      "text": "ANSI, DIN or BS dimensional patterns, subject to the approved drawing and pressure requirement.",
       "numbers": []
     },
     "trimConfiguration": {

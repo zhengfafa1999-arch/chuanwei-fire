@@ -84,10 +84,6 @@
       "workingTemperatureZeroTo80"
     ],
     [
-      "standard",
-      "supervisoryGroovedStandardValue"
-    ],
-    [
       "operation",
       "gearOperatorWithHandwheelAndPositionIndicator"
     ]
@@ -240,7 +236,7 @@
       "numbers": []
     },
     "criticalProductDataIsPresentedInHTMLFor": {
-      "text": "Critical product data is presented in HTML for clear international sourcing. The valve is produced to a national standard; no foreign approval is claimed on this page.",
+      "text": "Critical product data is presented in HTML for clear international sourcing. No foreign approval is claimed on this page.",
       "numbers": []
     },
     "seriesSpecifications": {
@@ -339,16 +335,6 @@
     "standard": {
       "text": "Standard",
       "numbers": []
-    },
-    "standardValue": {
-      "text": "GB {n0}.{n1}-{n2} (national fire butterfly valve standard); groove connection to GB {n3}.{n4}",
-      "numbers": [
-        "5135",
-        "6",
-        "2018",
-        "5135",
-        "11"
-      ]
     },
     "installation": {
       "text": "Installation",
@@ -588,7 +574,7 @@
       "numbers": []
     },
     "criticalProductDataNoULFM": {
-      "text": "Critical product data is presented in HTML for clear international sourcing. The valve is produced to a national standard; no UL, FM or other foreign approval is claimed on this page.",
+      "text": "Critical product data is presented in HTML for clear international sourcing. No UL, FM or other foreign approval is claimed on this page.",
       "numbers": []
     },
     "body": {
@@ -619,16 +605,6 @@
       "numbers": [
         "0",
         "80"
-      ]
-    },
-    "supervisoryGroovedStandardValue": {
-      "text": "GB {n0}.{n1}-{n2} (national fire butterfly valve standard); groove connection to GB {n3}.{n4}",
-      "numbers": [
-        "5135",
-        "6",
-        "2018",
-        "5135",
-        "11"
       ]
     },
     "gearOperatorWithHandwheelAndPositionIndicator": {
@@ -694,7 +670,7 @@
       "numbers": []
     },
     "signalConversionMechanicalStrengthCyclesInsulationAndResistance": {
-      "text": "Signal conversion, mechanical strength ({n0} N), {n1} operating cycles, insulation ≥ {n2} MΩ and contact resistance ≤ {n3} Ω per the national type-test report.",
+      "text": "Signal conversion, mechanical strength ({n0} N), {n1} operating cycles, insulation ≥ {n2} MΩ and contact resistance ≤ {n3} Ω per the type-test report.",
       "numbers": [
         "890",
         "5000",

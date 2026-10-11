@@ -84,10 +84,6 @@
       "workingTemperatureRange"
     ],
     [
-      "standard",
-      "standardValue"
-    ],
-    [
       "installation",
       "groovedCouplingsOnHorizontalOrVerticalFireWaterPiping"
     ]
@@ -265,7 +261,7 @@
       "numbers": []
     },
     "criticalProductDataIsPresentedInHTMLFor": {
-      "text": "Critical product data is presented in HTML for clear international sourcing. The valve is produced to a national standard; no foreign approval is claimed on this page.",
+      "text": "Critical product data is presented in HTML for clear international sourcing. No foreign approval is claimed on this page.",
       "numbers": []
     },
     "seriesSpecifications": {
@@ -364,16 +360,6 @@
     "standard": {
       "text": "Standard",
       "numbers": []
-    },
-    "standardValue": {
-      "text": "GB {n0}.{n1}-{n2} (national fire butterfly valve standard); groove connection to GB {n3}.{n4}",
-      "numbers": [
-        "5135",
-        "6",
-        "2018",
-        "5135",
-        "11"
-      ]
     },
     "installation": {
       "text": "Installation",

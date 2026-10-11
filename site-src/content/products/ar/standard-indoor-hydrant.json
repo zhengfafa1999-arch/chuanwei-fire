@@ -48,7 +48,6 @@
   "nominalSize": "المقاس الاسمي",
   "workingPressure": "ضغط التشغيل",
   "standard": "المعيار",
-  "gBStandardNoForeignApproval": "GB {n0}-{n1}، المعيار الوطني لحنفيات الحريق الداخلية؛ ولا يعني ذلك اعتماداً أجنبياً",
   "inlet": "المدخل",
   "outlet": "المخرج",
   "kN65CouplingsPerMarket": "وصلة سريعة KN{n0} مؤكدة؛ ويمكن توفير BS{n1} أو NH أو Storz أو وصلات أخرى حسب السوق",
@@ -90,5 +89,5 @@
   "facebookPage": "صفحة فيسبوك",
   "linkedInProfile": "ملف لينكدإن",
   "seoTitle": "حنفية حريق داخلية قياسية | DN{n0}، SN{n1} | CHUANWEI FIRE",
-  "seoDescription": "حنفية حريق داخلية قياسية بمخرج واحد SN{n0}، مقاس DN{n1} وضغط PN{n2} MPa، وفق GB {n3}-{n4}. تُحدد وصلة المخرج حسب السوق المستهدف مع دعم OEM/ODM."
+  "seoDescription": "حنفية حريق داخلية قياسية بمخرج واحد SN{n0}، مقاس DN{n1} وضغط PN{n2} MPa. تُحدد وصلة المخرج حسب السوق المستهدف مع دعم OEM/ODM."
 }

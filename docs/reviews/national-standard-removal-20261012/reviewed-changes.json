@@ -1,0 +1,171 @@
+{
+  "diaphragm-deluge-valves": [
+    {
+      "before": "<div><dt>Type-test standard</dt><dd>GB 5135.5 (national deluge-valve standard); no foreign approval implied</dd></div>",
+      "after": "",
+      "occurrences": 1
+    },
+    {
+      "before": "<span>GB, ANSI, DIN or BS dimensional patterns, subject to the approved drawing and pressure requirement.</span>",
+      "after": "<span>ANSI, DIN or BS dimensional patterns, subject to the approved drawing and pressure requirement.</span>",
+      "occurrences": 1
+    },
+    {
+      "before": "Critical product data is presented in HTML for clear international sourcing. The valve is type-tested to a national standard; no foreign approval is claimed on this page.",
+      "after": "Critical product data is presented in HTML for clear international sourcing. No foreign approval is claimed on this page.",
+      "occurrences": 1
+    }
+  ],
+  "dry-pipe-alarm-valves": [
+    {
+      "before": "<div><dt>Type-test standard</dt><dd>GB 5135.4 (national dry-pipe-valve standard); no foreign approval implied</dd></div>",
+      "after": "",
+      "occurrences": 1
+    },
+    {
+      "before": "<span>GB, ANSI, DIN or BS dimensional patterns, subject to the approved drawing and pressure requirement.</span>",
+      "after": "<span>ANSI, DIN or BS dimensional patterns, subject to the approved drawing and pressure requirement.</span>",
+      "occurrences": 1
+    },
+    {
+      "before": "Critical product data is presented in HTML for clear international sourcing. The valve is type-tested to a national standard; no foreign approval is claimed on this page.",
+      "after": "Critical product data is presented in HTML for clear international sourcing. No foreign approval is claimed on this page.",
+      "occurrences": 1
+    },
+    {
+      "before": "Vertical installation with the flow arrow upward and aligned with the water-flow direction, per the national installation standard.",
+      "after": "Vertical installation with the flow arrow upward and aligned with the water-flow direction.",
+      "occurrences": 1
+    }
+  ],
+  "grooved-supervisory-butterfly-valves": [
+    {
+      "before": "<div><dt>Standard</dt><dd>GB 5135.6-2018 (national fire butterfly valve standard); groove connection to GB 5135.11</dd></div>",
+      "after": "",
+      "occurrences": 1
+    },
+    {
+      "before": "Critical product data is presented in HTML for clear international sourcing. The valve is produced to a national standard; no UL, FM or other foreign approval is claimed on this page.",
+      "after": "Critical product data is presented in HTML for clear international sourcing. No UL, FM or other foreign approval is claimed on this page.",
+      "occurrences": 1
+    },
+    {
+      "before": "Signal conversion, mechanical strength (890 N), 5000 operating cycles, insulation ≥ 2 MΩ and contact resistance ≤ 0.01 Ω per the national type-test report.",
+      "after": "Signal conversion, mechanical strength (890 N), 5000 operating cycles, insulation ≥ 2 MΩ and contact resistance ≤ 0.01 Ω per the type-test report.",
+      "occurrences": 1
+    }
+  ],
+  "heavy-duty-fire-hose-reel": [
+    {
+      "before": "<div><dt>Standard</dt><dd>GB 15090 (national fire hose reel standard); no foreign approval implied</dd></div>",
+      "after": "",
+      "occurrences": 1
+    }
+  ],
+  "jet-spray-fire-hose-reel": [
+    {
+      "before": "<div><dt>Standard</dt><dd>GB 15090 (national fire hose reel standard); no foreign approval implied</dd></div>",
+      "after": "",
+      "occurrences": 1
+    },
+    {
+      "before": "Critical product data is presented in HTML for clear international sourcing. The reel is produced to a national standard; no foreign approval is claimed on this page.",
+      "after": "Critical product data is presented in HTML for clear international sourcing. No foreign approval is claimed on this page.",
+      "occurrences": 1
+    }
+  ],
+  "lever-operated-grooved-butterfly-valves": [
+    {
+      "before": "<div><dt>Standard</dt><dd>GB 5135.6-2018 (national fire butterfly valve standard); groove connection to GB 5135.11</dd></div>",
+      "after": "",
+      "occurrences": 1
+    },
+    {
+      "before": "Critical product data is presented in HTML for clear international sourcing. The valve is produced to a national standard; no foreign approval is claimed on this page.",
+      "after": "Critical product data is presented in HTML for clear international sourcing. No foreign approval is claimed on this page.",
+      "occurrences": 1
+    }
+  ],
+  "lever-operated-wafer-butterfly-valves": [
+    {
+      "before": "<div><dt>Standard</dt><dd>GB 5135.6-2018 (national fire butterfly valve standard); GB/T 17241.6; GB/T 12221</dd></div>",
+      "after": "",
+      "occurrences": 1
+    },
+    {
+      "before": "Critical product data is presented in HTML for clear international sourcing. The valve is produced to a national standard; no foreign approval is claimed on this page.",
+      "after": "Critical product data is presented in HTML for clear international sourcing. No foreign approval is claimed on this page.",
+      "occurrences": 1
+    }
+  ],
+  "osy-gate-valves": [
+    {
+      "before": "<small>GB/T 17241.6</small>",
+      "after": "",
+      "occurrences": 1
+    },
+    {
+      "before": "Critical product data is presented in HTML for clear international sourcing. The valve is produced to a national standard; no foreign approval is claimed on this page.",
+      "after": "Critical product data is presented in HTML for clear international sourcing. No foreign approval is claimed on this page.",
+      "occurrences": 1
+    },
+    {
+      "before": "Double flange, GB/T 17241.6",
+      "after": "Double flange",
+      "occurrences": 1
+    }
+  ],
+  "rotating-pressure-regulating-hydrant": [
+    {
+      "before": "<div><dt>Standard</dt><dd>GB 3445 (national indoor hydrant standard)</dd></div>",
+      "after": "",
+      "occurrences": 1
+    },
+    {
+      "before": "<span>GB 3445</span>",
+      "after": "",
+      "occurrences": 1
+    }
+  ],
+  "standard-indoor-hydrant": [
+    {
+      "before": "<div><dt>Standard</dt><dd>GB 3445-2018 (national indoor hydrant standard); no foreign approval implied</dd></div>",
+      "after": "",
+      "occurrences": 1
+    },
+    {
+      "before": "<span>GB 3445-2018</span>",
+      "after": "",
+      "occurrences": 1
+    }
+  ],
+  "straight-stream-fire-hose-reel": [
+    {
+      "before": "<div><dt>Standard</dt><dd>GB 15090 (national fire hose reel standard); no foreign approval implied</dd></div>",
+      "after": "",
+      "occurrences": 1
+    },
+    {
+      "before": "Critical product data is presented in HTML for clear international sourcing. The reel is produced to a national standard; no foreign approval is claimed on this page.",
+      "after": "Critical product data is presented in HTML for clear international sourcing. No foreign approval is claimed on this page.",
+      "occurrences": 1
+    }
+  ],
+  "wafer-supervisory-butterfly-valves": [
+    {
+      "before": "<div><dt>Standard</dt><dd>GB 5135.6-2018 (national fire butterfly valve standard); wafer compatibility to GB/T 17241.6</dd></div>",
+      "after": "",
+      "occurrences": 1
+    },
+    {
+      "before": "Critical product data is presented in HTML for clear international sourcing. The valve is produced to a national standard; no UL, FM or other foreign approval is claimed on this page.",
+      "after": "Critical product data is presented in HTML for clear international sourcing. No UL, FM or other foreign approval is claimed on this page.",
+      "occurrences": 1
+    },
+    {
+      "before": "Signal conversion, mechanical strength (890 N), 5000 operating cycles, insulation ≥ 2 MΩ and contact resistance ≤ 0.01 Ω per the national type-test report.",
+      "after": "Signal conversion, mechanical strength (890 N), 5000 operating cycles, insulation ≥ 2 MΩ and contact resistance ≤ 0.01 Ω per the type-test report.",
+      "occurrences": 1
+    }
+  ]
+}

@@ -288,10 +288,10 @@
     "thumbnailBytes": 17096
   },
   {
-    "source": "assets/products/guanya-2026/flanged-supervisory-gate-valves-dsc_5683-1600.webp",
-    "output": "assets/catalog-thumbnails/c3ff53d6d5e9c720dca61357-480.webp",
-    "sourceBytes": 78220,
-    "thumbnailBytes": 15748
+    "source": "products/消防阀门/flanged-supervisory-gate-valves/flanged-supervisory-gate-valve.jpg",
+    "output": "assets/catalog-thumbnails/00d41271c50ee4b68f5caa60-480.webp",
+    "sourceBytes": 184517,
+    "thumbnailBytes": 16988
   },
   {
     "source": "assets/products/guanya-2026/grooved-supervisory-gate-valves-dsc_5681-1600.webp",
@@ -304,6 +304,12 @@
     "output": "assets/catalog-thumbnails/4f8b986e98204d836a10d7f7-480.webp",
     "sourceBytes": 79716,
     "thumbnailBytes": 14596
+  },
+  {
+    "source": "products/消防阀门/grooved-osy-gate-valves/grooved-osy-dn150.jpg",
+    "output": "assets/catalog-thumbnails/ae99bfc60a76ad1a422a8bbc-480.webp",
+    "sourceBytes": 1468838,
+    "thumbnailBytes": 11222
   },
   {
     "source": "assets/products/guanya-2026/osy-gate-valves-dsc_5686-1600.webp",
@@ -768,28 +774,10 @@
     "thumbnailBytes": 19092
   },
   {
-    "source": "products/室内消防栓/standard-indoor-hydrant/standard-indoor-hydrant.jpg",
-    "output": "assets/catalog-thumbnails/ab174a00e2edb83fbc66436a-480.webp",
-    "sourceBytes": 163039,
-    "thumbnailBytes": 16086
-  },
-  {
     "source": "products/室内消防栓/export-slanted-hydrant-valve/export-slanted-front.jpg",
     "output": "assets/catalog-thumbnails/017c6bc1a13053f182f9eace-480.webp",
     "sourceBytes": 150723,
     "thumbnailBytes": 13718
-  },
-  {
-    "source": "products/室内消防栓/double-outlet-hydrant/double-outlet-hydrant.jpg",
-    "output": "assets/catalog-thumbnails/6af7eb8ee9a16c4498bd1f82-480.webp",
-    "sourceBytes": 131895,
-    "thumbnailBytes": 19726
-  },
-  {
-    "source": "products/室内消防栓/rotating-pressure-regulating-hydrant/rotating-hydrant.jpg",
-    "output": "assets/catalog-thumbnails/7f68b9cc34bf6dcb0b3db6b7-480.webp",
-    "sourceBytes": 168747,
-    "thumbnailBytes": 19262
   },
   {
     "source": "products/室内消防栓/straight-through-oblique-landing-valves/straight-through-catalog-display.jpeg",

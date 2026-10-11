@@ -6,6 +6,8 @@ import { productPhotoManifest } from '../lib/product-photos.js';
 const read = relative => JSON.parse(fs.readFileSync(new URL(relative, import.meta.url), 'utf8'));
 const sources = new Map();
 const aliases = {
+  "grooved-osy-gate-valves": ["grooved rising stem gate valve", "明杆沟槽式闸阀", "明干沟槽式", "沟槽明杆闸阀", "صمام بوابة محزز بساق صاعدة"],
+  "flanged-supervisory-gate-valves": ["flanged signal gate valve", "信号法兰式", "法兰信号闸阀", "صمام بوابة فلنجي بإشارة مراقبة"],
   "fire-pressure-switch": ["compact pressure switch", "fire pressure switch", "消防压力开关", "普通压力开关", "مفتاح ضغط لنظام مكافحة الحريق"],
   "explosion-proof-pressure-switch": ["Explosion Proof Pressure Switch", "防爆压力开关", "مفتاح ضغط مقاوم للانفجار"],
   "explosion-proof-solenoid-valve": ["Explosion Proof Solenoid Valve", "防爆电磁阀", "صمام كهرومغناطيسي مقاوم للانفجار"],

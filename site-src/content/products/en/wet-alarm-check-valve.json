@@ -58,7 +58,7 @@
   "oem": {
     "flangeMachining": {
       "title": "Flange machining",
-      "body": "GB, ANSI, DIN or BS dimensional patterns, subject to the approved drawing and pressure requirement."
+      "body": "ANSI, DIN or BS dimensional patterns, subject to the approved drawing and pressure requirement."
     },
     "groovedConnection": {
       "title": "Grooved connection",

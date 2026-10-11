@@ -66,7 +66,6 @@
   "chips": [
     "dN65TwoHalfIn",
     "pN16MPa",
-    "gB34452018",
     "singleOutlet"
   ],
   "gallery": [
@@ -132,10 +131,6 @@
     [
       "workingPressure",
       "pN16Full"
-    ],
-    [
-      "standard",
-      "gBStandardNoForeignApproval"
     ],
     [
       "inlet",
@@ -439,13 +434,6 @@
       "text": "Standard",
       "numbers": []
     },
-    "gBStandardNoForeignApproval": {
-      "text": "GB {n0}-{n1} (national indoor hydrant standard); no foreign approval implied",
-      "numbers": [
-        "3445",
-        "2018"
-      ]
-    },
     "inlet": {
       "text": "Inlet",
       "numbers": []
@@ -623,20 +611,17 @@
       ]
     },
     "seoDescription": {
-      "text": "Standard single-outlet indoor fire hydrant (SN{n0}), DN{n1}, PN{n2} MPa, to GB {n3}-{n4}. Outlet coupling confirmed per target market. OEM/ODM support.",
+      "text": "Standard single-outlet indoor fire hydrant (SN{n0}), DN{n1}, PN{n2} MPa. Outlet coupling confirmed per target market. OEM/ODM support.",
       "numbers": [
         "65",
         "65",
-        "1.6",
-        "3445",
-        "2018"
+        "1.6"
       ]
     }
   },
   "shared": {
     "dN65TwoHalfIn": "DN65 / 2½ in",
     "pN16MPa": "PN1.6 MPa",
-    "gB34452018": "GB 3445-2018",
     "dN65Full": "DN65 / 65 mm / 2½ in",
     "pN16Full": "PN1.6 MPa / 16 bar",
     "rpTwoHalfFemale": "Rp 2½ (female thread)",

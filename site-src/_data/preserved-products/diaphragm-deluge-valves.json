@@ -117,7 +117,7 @@
       "numbers": []
     },
     "criticalProductDataIsPresentedInHTMLFor": {
-      "text": "Critical product data is presented in HTML for clear international sourcing. The valve is type-tested to a national standard; no foreign approval is claimed on this page.",
+      "text": "Critical product data is presented in HTML for clear international sourcing. No foreign approval is claimed on this page.",
       "numbers": []
     },
     "seriesSpecifications": {
@@ -237,12 +237,6 @@
     "typeTestStandard": {
       "text": "Type-test standard",
       "numbers": []
-    },
-    "gB51355NationalDelugeValveStandardNo": {
-      "text": "GB {n0} (national deluge-valve standard); no foreign approval implied",
-      "numbers": [
-        "5135.5"
-      ]
     },
     "packaging": {
       "text": "Packaging",
@@ -414,7 +408,7 @@
       "numbers": []
     },
     "gBANSIDINOrBSDimensionalPatternsSubject": {
-      "text": "GB, ANSI, DIN or BS dimensional patterns, subject to the approved drawing and pressure requirement.",
+      "text": "ANSI, DIN or BS dimensional patterns, subject to the approved drawing and pressure requirement.",
       "numbers": []
     },
     "groovedConnection": {

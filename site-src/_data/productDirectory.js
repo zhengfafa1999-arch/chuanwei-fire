@@ -139,6 +139,7 @@ export const PRODUCT_FAMILIES = [
       ["product:flanged-supervisory-gate-valves", "Flanged Supervisory Gate Valves", "صمامات بوابة فلنجية بإشارة مراقبة", "products/消防阀门/flanged-supervisory-gate-valves/flanged-supervisory-gate-valve.jpg"],
       ["product:grooved-supervisory-gate-valves", "Grooved Supervisory Gate Valves", "صمامات بوابة محززة بإشارة مراقبة", "products/消防阀门/grooved-supervisory-gate-valves/grooved-supervisory-gate-valve.jpg"],
       ["product:nrs-gate-valves", "NRS Gate Valves", "صمامات بوابة بساق غير صاعد", "products/消防阀门/nrs-gate-valves/nrs-gate-valve.jpg"],
+      ["product:grooved-osy-gate-valves", "Grooved OS&Y Gate Valves", "صمامات بوابة محززة OS&Y", "products/消防阀门/grooved-osy-gate-valves/grooved-osy-dn150.jpg"],
       ["product:osy-gate-valves", "OS&Y Gate Valves", "صمامات بوابة OS&Y", "products/消防阀门/osy-gate-valves/osy-gate-valve.jpg"]
     ]
   },
@@ -175,10 +176,7 @@ export const PRODUCT_FAMILIES = [
     description: text("Indoor fire-water outlet valves in standard, slanted, double-outlet and pressure-regulating configurations.", "محابس مخارج مياه الحريق الداخلية بتكوينات قياسية ومائلة ومزدوجة المخرج ومنظمة للضغط.", "标准、斜式、双出口和减压稳压配置的室内消火栓。"),
     image: "products/室内消防栓/export-slanted-hydrant-valve/export-slanted-front.jpg",
     products: [
-      ["product:standard-indoor-hydrant", "Standard Indoor Fire Hydrants", "محابس حريق داخلية قياسية", "products/室内消防栓/standard-indoor-hydrant/standard-indoor-hydrant.jpg"],
       ["product:export-slanted-hydrant-valve", "Export Slanted Hydrant Valves", "محابس حريق مائلة للتصدير", "products/室内消防栓/export-slanted-hydrant-valve/export-slanted-front.jpg"],
-      ["product:double-outlet-hydrant", "Double-Outlet Indoor Hydrants", "محابس حريق داخلية مزدوجة المخرج", "products/室内消防栓/double-outlet-hydrant/double-outlet-hydrant.jpg"],
-      ["product:rotating-pressure-regulating-hydrant", "Rotating Pressure-Regulating Hydrants", "محابس دوارة منظمة للضغط", "products/室内消防栓/rotating-pressure-regulating-hydrant/rotating-hydrant.jpg"],
       ["product:straight-through-oblique-landing-valves", "Straight-Through and Oblique Landing Valves", "صمامات هبوط مستقيمة ومائلة", "products/室内消防栓/straight-through-oblique-landing-valves/straight-through-catalog-display.jpeg"],
       ["product:horizontal-handwheel-landing-valves", "Horizontal-Handwheel Landing Valves", "صمامات هبوط بعجلة تشغيل أفقية", "products/室内消防栓/horizontal-handwheel-landing-valves/threaded-inlet-catalog-display.jpeg"],
       ...catalogExpansionListings("indoor-hydrants")

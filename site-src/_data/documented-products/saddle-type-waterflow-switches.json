@@ -53,7 +53,6 @@
     "materialsValue": "ADC12 / A380 aluminum enclosure; QT450-10 ductile-iron saddle; Q235B hot-dip galvanized U-bolt; PE paddle; EPDM gasket",
     "applicationValue": "Waterflow monitoring on horizontal piping in wet-pipe automatic sprinkler systems",
     "installationValue": "Horizontal pipe; enclosure upward or sideward; U-bolt clamped from below",
-    "technicalReferenceValue": "GB 5135.7-2018 manufacturing reference",
     "contactCapacityValue": "DC 24 V, 0.5 A"
   },
   "gallery": [
@@ -104,10 +103,6 @@
     {
       "label": "materials",
       "value": "materialsValue"
-    },
-    {
-      "label": "technicalReference",
-      "value": "technicalReferenceValue"
     },
     {
       "label": "imageScope",
@@ -217,7 +212,6 @@
       "application": "Application",
       "installation": "Installation arrangement",
       "materials": "Confirmed materials",
-      "technicalReference": "Technical reference",
       "imageScope": "Image scope",
       "pipeFitAndDimensions": "Pipe fit and installation dimensions",
       "contactRating": "Contact form and rating",
@@ -267,7 +261,6 @@
       "materialsValue": "علبة توصيل من ألمنيوم ADC12 / A380؛ سرج من حديد دكتايل QT450-10؛ مشبك U من Q235B مجلفن بالغمس الساخن؛ ريشة PE؛ حشية EPDM",
       "applicationValue": "مراقبة تدفق المياه في الأنابيب الأفقية لأنظمة الرش الآلي ذات الأنابيب الرطبة",
       "installationValue": "أنبوب أفقي؛ العلبة إلى أعلى أو الجانب؛ يُثبت مشبك U من أسفل",
-      "technicalReferenceValue": "مرجع التصنيع GB 5135.7-2018",
       "eyebrow": "ZSJZ-M-1.2 · DN50–DN200",
       "lead": "مؤشرات تدفق مياه بريشة، من النوع السرجي وبدون مؤخر زمني، لمراقبة الأنابيب الأفقية في أنظمة الرش الآلي ذات الأنابيب الرطبة.",
       "note": "تعرض صورة المنتج عينة DN100 كمرجع للسلسلة. يجب تأكيد القطر الخارجي للأنبوب وأبعاد التركيب ومتطلبات نقاط التلامس الكهربائية وتدفق الإنذار ومتطلبات إعادة الضبط قبل عرض السعر.",
@@ -288,7 +281,6 @@
       "application": "الاستخدام",
       "installation": "ترتيب التركيب",
       "materials": "المواد المؤكدة",
-      "technicalReference": "المرجع الفني",
       "imageScope": "نطاق الصورة",
       "pipeFitAndDimensions": "مطابقة الأنبوب وأبعاد التركيب",
       "contactRating": "نوع نقاط التلامس وقدرتها",

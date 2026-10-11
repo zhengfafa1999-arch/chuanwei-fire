@@ -98,7 +98,7 @@
       "numbers": []
     },
     "criticalProductDataIsPresentedInHTMLFor": {
-      "text": "Critical product data is presented in HTML for clear international sourcing. The reel is produced to a national standard; no foreign approval is claimed on this page.",
+      "text": "Critical product data is presented in HTML for clear international sourcing. No foreign approval is claimed on this page.",
       "numbers": []
     },
     "seriesSpecifications": {
@@ -193,12 +193,6 @@
     "standard": {
       "text": "Standard",
       "numbers": []
-    },
-    "gB15090NationalFireHoseReelStandardNo": {
-      "text": "GB {n0} (national fire hose reel standard); no foreign approval implied",
-      "numbers": [
-        "15090"
-      ]
     },
     "commonSelectionFields": {
       "text": "Common selection fields",

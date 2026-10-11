@@ -304,21 +304,6 @@
       }
     },
     {
-      "routeId": "product:flanged-supervisory-gate-valves",
-      "mediaKey": "hero",
-      "originalPath": "products/消防阀门/flanged-supervisory-gate-valves/flanged-supervisory-gate-valve.jpg",
-      "photoSourceFile": "DSC_5683.jpg",
-      "detailPath": "assets/products/guanya-2026/flanged-supervisory-gate-valves-dsc_5683-1600.webp",
-      "displayPath": "assets/products/guanya-2026/flanged-supervisory-gate-valves-dsc_5683-640.webp",
-      "width": 1044,
-      "height": 1600,
-      "matchEvidence": "Matches an existing website product configuration by visible construction; photograph is not pressure, material-grade or certification evidence.",
-      "caption": {
-        "en": "Flanged supervisory gate valve — sample view",
-        "ar": "صمام بوابة مراقب فلنجي — عينة"
-      }
-    },
-    {
       "routeId": "product:preaction-valve-assemblies",
       "mediaKey": "flanged",
       "originalPath": "products/消防阀/preaction-valve-assemblies/preaction-valve-assembly-watermarked.jpg",

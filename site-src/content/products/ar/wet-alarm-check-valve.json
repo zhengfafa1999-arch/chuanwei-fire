@@ -58,7 +58,7 @@
   "oem": {
     "flangeMachining": {
       "title": "تشغيل الفلنجة",
-      "body": "أنماط أبعاد GB أو ANSI أو DIN أو BS وفق الرسم المعتمد ومتطلبات الضغط."
+      "body": "أنماط أبعاد ANSI أو DIN أو BS وفق الرسم المعتمد ومتطلبات الضغط."
     },
     "groovedConnection": {
       "title": "التوصيل المحزّز",

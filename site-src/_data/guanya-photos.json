@@ -1431,40 +1431,6 @@
       }
     },
     {
-      "routeId": "product:flanged-supervisory-gate-valves",
-      "sourceFile": "DSC_5683.jpg",
-      "caption": {
-        "en": "Flanged supervisory gate valve — sample view",
-        "ar": "صمام بوابة مراقب فلنجي — عينة"
-      },
-      "matchEvidence": "Matches an existing website product configuration by visible construction; photograph is not pressure, material-grade or certification evidence.",
-      "sourcePath": "D:\\temp\\冠亚2026产品图\\DSC_5683.jpg",
-      "sourceSha256": "5ba7bad9bd2e696c2f09c1c1de0ac837377376577b70b4f4e948b0d0a0ec7b1c",
-      "sourceBytes": 1749665,
-      "sourceWidth": 2329,
-      "sourceHeight": 3569,
-      "display": {
-        "path": "assets/products/guanya-2026/flanged-supervisory-gate-valves-dsc_5683-640.webp",
-        "width": 418,
-        "height": 640,
-        "bytes": 25494,
-        "sha256": "50e011d91fe7af80f24883d90344b1a26382a32474f990dfbfc7990afeecfca2",
-        "quality": 85,
-        "unwatermarkedSha256": "e14864d888a972278c4ffcc560fb61205851c6c9a3abc2a2fb80c24572bee596",
-        "watermarkRecord": "site-src/_data/product-watermarks.json"
-      },
-      "detail": {
-        "path": "assets/products/guanya-2026/flanged-supervisory-gate-valves-dsc_5683-1600.webp",
-        "width": 1044,
-        "height": 1600,
-        "bytes": 78220,
-        "sha256": "c3ff53d6d5e9c720dca61357b1ec2c04f6d8e6d25aa131b10f276042e437a1f8",
-        "quality": 85,
-        "unwatermarkedSha256": "fc9227e0d75a30c7cfd95189350b5a101c5efd642589e643660bb75312aead4c",
-        "watermarkRecord": "site-src/_data/product-watermarks.json"
-      }
-    },
-    {
       "routeId": "product:straight-stream-fire-hose-reel",
       "sourceFile": "DSC_5596.jpg",
       "caption": {

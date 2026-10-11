@@ -39,11 +39,10 @@
     "ctaText": "includeFunctionCouplingQuantityDestination",
     "modalAlt": "enlargedRotatingHydrant"
   },
-  "chips": ["rotatingOutlet", "pressureRegulating", "gB3445", "hoseReelCombination"],
+  "chips": ["rotatingOutlet", "pressureRegulating", "hoseReelCombination"],
   "gallery": [],
   "specifications": [
     ["productType", "rotatingPressureRegulatingIndoorHydrant"],
-    ["standard", "gB3445NationalStandard"],
     ["rotatingVariants", "rotatingOutletForFlexibleRouting"],
     ["pressureRegulatingVariants", "pressureStabilizingByModel"],
     ["hoseReelCombination", "yVariantsCombination"],
@@ -143,11 +142,9 @@
     "facebookPage": {"text": "Facebook Page", "numbers": []},
     "linkedInProfile": {"text": "LinkedIn Profile", "numbers": []},
     "seoTitle": {"text": "Rotating & Pressure-Regulating Indoor Hydrant | CHUANWEI FIRE", "numbers": []},
-    "seoDescription": {"text": "Rotating and pressure-regulating indoor fire hydrant families (SNZ/SNW/SNJ), to GB {n0}. Model references for order matching; specifications confirmed on request.", "numbers": ["3445"]}
+    "seoDescription": {"text":"Rotating and pressure-regulating indoor fire hydrant families (SNZ/SNW/SNJ). Model references for order matching; specifications confirmed on request.","numbers":[]}
   },
   "shared": {
-    "gB3445": "GB 3445",
-    "gB3445NationalStandard": "GB 3445 (national indoor hydrant standard)",
     "sNZ65Y": "SNZ65-Y",
     "sNW65IY": "SNW65-I-Y",
     "sNW65IIIY": "SNW65-III-Y",

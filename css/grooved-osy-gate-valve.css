@@ -1,0 +1,8 @@
+/* Page branding preserves the supplied original photograph. */
+.pdp-hero__image{position:relative}
+.pdp-hero__image::after,.pdp-gallery__stage::after,.pdp-modal.open::after{
+ content:"CHUANWEI FIRE · chuanweifire.com";position:absolute;
+ top:10px;inset-inline-start:12px;max-width:calc(100% - 80px);
+ padding:4px 8px;background:rgba(255,255,255,.92);color:#536b7c;
+ font:600 12px/1.5 Arial,sans-serif;direction:ltr;pointer-events:none;
+}

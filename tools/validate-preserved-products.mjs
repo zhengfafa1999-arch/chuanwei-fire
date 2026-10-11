@@ -21,6 +21,7 @@ const remainingSeriesReview = JSON.parse(read('docs/reviews/remaining-series-202
 const finalCopyReview = JSON.parse(read('docs/reviews/site-final-review-20261010/reviewed-copy-changes.json'));
 const esfrGalleryReview = JSON.parse(read('docs/reviews/esfr-gallery-20261010/reviewed-copy-changes.json'));
 const siteAuditReview = JSON.parse(read('docs/reviews/site-audit-20261011/reviewed-copy-changes.json'));
+const nationalStandardRemoval = JSON.parse(read('docs/reviews/national-standard-removal-20261012/reviewed-changes.json'));
 
 for (const entry of catalog) {
   const output = read(entry.route.outputPath);
@@ -178,6 +179,12 @@ for (const entry of catalog) {
     assert.equal(baseline.split(change.before).length - 1, change.occurrences, `Site audit: baseline occurrence count changed for ${entry.product.id}/${change.key}`);
     baseline = baseline.replaceAll(change.before, change.after);
   }
+  // User requested removal of domestic execution-standard copy site-wide.
+  // Keep immutable fixtures and allow only the exact reviewed text/row removals.
+  for (const change of nationalStandardRemoval[entry.product.id] || []) {
+    assert.equal(baseline.split(change.before).length - 1, change.occurrences, `National-standard removal: baseline count changed for ${entry.product.id}/${change.before}`);
+    baseline = baseline.replaceAll(change.before, change.after);
+  }
   assert.deepEqual(structure(content), structure(baseline), `${entry.lang}: original section/tag/class structure changed`);
   const expectedMedia = media(baseline, entry.product.source.path).map(file => path.resolve(reviewedPhotoPath(entry.product.routeId, path.relative(process.cwd(), file).split(path.sep).join('/'))));
   assert.deepEqual(media(content, entry.route.outputPath), expectedMedia, `${entry.lang}: product images differ from the explicitly reviewed photo bindings`);
@@ -198,7 +205,8 @@ for (const entry of catalog) {
     // footer and social order remain covered; navigation has its own validator.
     const body = html => html.match(/<body\b[^>]*>([\s\S]*?)<\/body>/i)?.[1].replace(/<script\b[^>]*>[\s\S]*?<\/script>/gi, "").replace(/<header\b[^>]*data-global-header[^>]*>[\s\S]*?<\/header>/i, '') || "";
     const protectedOutput = entry.product.id === 'extended-coverage-quick-response-fire-sprinkler' ? withoutSeriesUpdate(withoutSupplement(output)) : withoutSupplement(output);
-    assert.deepEqual(structure(body(protectedOutput)), structure(body(read(baselineFile))), "English page structure/footer/social order changed");
+    const reviewedPageBaseline = read(baselineFile).replace(/(<main\b[^>]*>)[\s\S]*?(<\/main>)/i, (_, open, close) => open + baseline + close);
+    assert.deepEqual(structure(body(protectedOutput)), structure(body(reviewedPageBaseline)), "English page structure/footer/social order changed");
     assert.equal(visibleText(content), visibleText(baseline), "English visible product content changed during language-only migration");
     if (entry.product.gallery?.length) {
       const original = read(baselineFile);

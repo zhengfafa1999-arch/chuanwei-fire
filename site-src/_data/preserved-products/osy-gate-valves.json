@@ -104,8 +104,7 @@
     ],
     [
       "connection",
-      "flanged",
-      "gBT172416"
+      "flanged"
     ],
     [
       "pressureClass",
@@ -252,7 +251,7 @@
       "numbers": []
     },
     "criticalProductDataNationalStandard": {
-      "text": "Critical product data is presented in HTML for clear international sourcing. The valve is produced to a national standard; no foreign approval is claimed on this page.",
+      "text": "Critical product data is presented in HTML for clear international sourcing. No foreign approval is claimed on this page.",
       "numbers": []
     },
     "seriesSpecifications": {
@@ -285,11 +284,8 @@
       "numbers": []
     },
     "doubleFlangeGBT": {
-      "text": "Double flange, GB/T {n0}.{n1}",
-      "numbers": [
-        "17241",
-        "6"
-      ]
+      "text": "Double flange",
+      "numbers": []
     },
     "workingPressure": {
       "text": "Working pressure",
@@ -389,13 +385,6 @@
     "exposedStem": {
       "text": "exposed stem",
       "numbers": []
-    },
-    "gBT172416": {
-      "text": "GB/T {n0}.{n1}",
-      "numbers": [
-        "17241",
-        "6"
-      ]
     },
     "pressureClass": {
       "text": "Pressure class",

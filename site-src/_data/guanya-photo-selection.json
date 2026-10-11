@@ -383,15 +383,6 @@
       "matchEvidence": "Matches an existing website product configuration by visible construction; photograph is not pressure, material-grade or certification evidence."
     },
     {
-      "routeId": "product:flanged-supervisory-gate-valves",
-      "sourceFile": "DSC_5683.jpg",
-      "caption": {
-        "en": "Flanged supervisory gate valve — sample view",
-        "ar": "صمام بوابة مراقب فلنجي — عينة"
-      },
-      "matchEvidence": "Matches an existing website product configuration by visible construction; photograph is not pressure, material-grade or certification evidence."
-    },
-    {
       "routeId": "product:straight-stream-fire-hose-reel",
       "sourceFile": "DSC_5596.jpg",
       "caption": {

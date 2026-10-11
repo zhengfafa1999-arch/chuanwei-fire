@@ -2,6 +2,22 @@
 <!-- GENERATED FILE. Edit site-src/sitemap.njk or site-src/_data/siteRoutes.js. -->
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://chuanweifire.com/products/%E6%B6%88%E9%98%B2%E9%98%80%E9%97%A8/grooved-osy-gate-valves.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://chuanweifire.com/products/%E6%B6%88%E9%98%B2%E9%98%80%E9%97%A8/grooved-osy-gate-valves.html" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://chuanweifire.com/ar/products/grooved-osy-gate-valves/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://chuanweifire.com/products/%E6%B6%88%E9%98%B2%E9%98%80%E9%97%A8/grooved-osy-gate-valves.html" />
+
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://chuanweifire.com/ar/products/grooved-osy-gate-valves/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://chuanweifire.com/products/%E6%B6%88%E9%98%B2%E9%98%80%E9%97%A8/grooved-osy-gate-valves.html" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://chuanweifire.com/ar/products/grooved-osy-gate-valves/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://chuanweifire.com/products/%E6%B6%88%E9%98%B2%E9%98%80%E9%97%A8/grooved-osy-gate-valves.html" />
+
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://chuanweifire.com/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://chuanweifire.com/" />
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://chuanweifire.com/zh/" />

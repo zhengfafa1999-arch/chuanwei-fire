@@ -1,0 +1,230 @@
+{
+  "id": "grooved-osy-gate-valves",
+  "routeId": "product:grooved-osy-gate-valves",
+  "template": "product-series/documented-product.njk",
+  "styles": [
+    "css/common.css",
+    "css/sprinkler-product.css",
+    "css/sprinkler-product-gallery.css",
+    "css/documented-product.css",
+    "css/site-navigation.css",
+    "css/grooved-osy-gate-valve.css"
+  ],
+  "source": {
+    "evidence": "User-supplied photograph and confirmed grooved rising-stem configuration; DN150 visible on sample. No full size range or pressure rating inferred."
+  },
+  "publication": {
+    "status": "release-candidate",
+    "externalRelease": true,
+    "imageRights": "user-confirmed-website-use",
+    "imageRightsEvidence": "docs/release/grooved-osy-gate-valves-20261012/image-rights-confirmation.json"
+  },
+  "media": {
+    "hero": "products/消防阀门/grooved-osy-gate-valves/grooved-osy-dn150.jpg"
+  },
+  "imageDimensions": {
+    "hero": {
+      "width": 1729,
+      "height": 3690
+    }
+  },
+  "heroFacts": [
+    "connectionValue",
+    "operationValue",
+    "sampleSizeValue"
+  ],
+  "shared": {},
+  "gallery": [
+    {
+      "media": "hero",
+      "alt": "sampleAlt",
+      "caption": "sampleCaption",
+      "thumbnailAlt": "sampleThumbnail"
+    }
+  ],
+  "specifications": [
+    {
+      "label": "productType",
+      "value": "title"
+    },
+    {
+      "label": "connection",
+      "value": "connectionValue"
+    },
+    {
+      "label": "operation",
+      "value": "operationValue"
+    },
+    {
+      "label": "sampleSize",
+      "value": "sampleSizeValue"
+    },
+    {
+      "label": "appearance",
+      "value": "appearanceValue"
+    }
+  ],
+  "modelColumns": [
+    {
+      "label": "configuration",
+      "field": "configuration",
+      "localized": true
+    },
+    {
+      "label": "connection",
+      "field": "connection",
+      "localized": true
+    },
+    {
+      "label": "sampleSize",
+      "field": "sampleSize",
+      "localized": true
+    }
+  ],
+  "models": [
+    {
+      "configuration": "title",
+      "connection": "connectionValue",
+      "sampleSize": "sampleSizeValue"
+    }
+  ],
+  "confirmationItems": [
+    {
+      "label": "connectionReview",
+      "body": "connectionReviewBody"
+    },
+    {
+      "label": "pressureReview",
+      "body": "pressureReviewBody"
+    },
+    {
+      "label": "clearanceReview",
+      "body": "clearanceReviewBody"
+    }
+  ],
+  "validation": {
+    "anchors": [
+      "gallery",
+      "specifications",
+      "models",
+      "quotation"
+    ],
+    "requiredTechnicalValues": [
+      "DN150"
+    ]
+  },
+  "inquiry": {
+    "whatsapp": "https://wa.me/8617326528368?text=Hello%2C%20I%20need%20grooved%20OS%26Y%20gate%20valves.%20Nominal%20size%3A%20%5BDN%5D%2C%20working%20pressure%3A%20%5Bpressure%5D%2C%20coupling%3A%20%5Bdetails%5D%2C%20quantity%3A%20%5Bpcs%5D%2C%20destination%3A%20%5Bcountry%5D.",
+    "email": "mailto:zhengcolin1@gmail.com?subject=Grooved%20OSY%20Gate%20Valve%20Inquiry"
+  },
+  "copy": {
+    "en": {
+      "onThisPage": "On this page",
+      "specifications": "Specifications",
+      "quotation": "Quotation confirmation",
+      "askOnWhatsApp": "Ask on WhatsApp",
+      "emailSales": "Email sales",
+      "productImagePreview": "Product image preview",
+      "closeImagePreview": "Close image preview",
+      "previousProductImage": "Previous product image",
+      "nextProductImage": "Next product image",
+      "selectProductImage": "Select product image",
+      "factoryModel": "Factory Model",
+      "temperature": "Temperature",
+      "thermalElement": "Sensing element",
+      "title": "Grooved OS&Y Gate Valves",
+      "eyebrow": "Fire gate valves",
+      "lead": "Handwheel-operated rising-stem gate valves with grooved ends. The DN150 sample shows the exposed stem, yoke and grooved pipe connections.",
+      "note": "Confirm the required size, working pressure, groove dimensions and installation clearance with the quotation.",
+      "gallery": "Product images",
+      "galleryTitle": "Grooved rising-stem configuration",
+      "galleryBody": "Supplied product photograph showing the handwheel, exposed threaded stem and grooved ends.",
+      "sampleCaption": "Grooved OS&Y gate valve — DN150 sample",
+      "sampleAlt": "Red DN150 rising-stem gate valve with an exposed threaded stem, yoke, handwheel and grooved ends",
+      "sampleThumbnail": "Grooved OS&Y gate valve sample",
+      "enlargedImage": "Enlarged grooved OS&Y gate valve photograph",
+      "specificationsTitle": "Product configuration",
+      "specificationsBody": "The configuration below describes the photographed sample. Request the size-specific drawing and technical data for your order.",
+      "productType": "Product type",
+      "connection": "Connection",
+      "connectionValue": "Grooved ends",
+      "operation": "Operation",
+      "operationValue": "Handwheel; OS&Y rising stem",
+      "sampleSize": "Photographed size",
+      "sampleSizeValue": "DN150 sample",
+      "appearance": "Appearance",
+      "appearanceValue": "Red body and handwheel",
+      "availableModels": "Available configuration",
+      "modelsTitle": "Configuration for quotation",
+      "modelsBody": "Use this configuration to identify the requested valve. Confirm the final size and pressure with the order.",
+      "configuration": "Configuration",
+      "modelsNote": "The photographed sample does not establish the full available size range or a single pressure rating for all sizes.",
+      "quotationTitle": "Information for your quotation",
+      "quotationBody": "Send the required nominal size, working pressure, quantity and destination.",
+      "connectionReview": "Grooved connection",
+      "connectionReviewBody": "Provide the coupling specification or mating drawing to confirm groove dimensions.",
+      "pressureReview": "Pressure and materials",
+      "pressureReviewBody": "Specify the working pressure and required body, stem and seal materials.",
+      "clearanceReview": "Installation clearance",
+      "clearanceReviewBody": "Request the size-specific drawing to check space for the rising stem and handwheel.",
+      "inquiryTitle": "Request grooved OS&Y gate valves",
+      "inquiryBody": "Include nominal size, working pressure, coupling details, quantity and destination.",
+      "seoTitle": "Grooved OS&Y Gate Valves | Rising Stem | CHUANWEI FIRE",
+      "seoDescription": "View a DN150 grooved OS&Y rising-stem gate valve with handwheel operation. Request size-specific dimensions, pressure and grooved connection details."
+    },
+    "ar": {
+      "onThisPage": "في هذه الصفحة",
+      "specifications": "المواصفات",
+      "quotation": "تأكيد عرض السعر",
+      "askOnWhatsApp": "استفسر عبر WhatsApp",
+      "emailSales": "راسل قسم المبيعات",
+      "productImagePreview": "معاينة صورة المنتج",
+      "closeImagePreview": "إغلاق معاينة الصورة",
+      "previousProductImage": "صورة المنتج السابقة",
+      "nextProductImage": "صورة المنتج التالية",
+      "selectProductImage": "اختر صورة المنتج",
+      "factoryModel": "موديل المصنع",
+      "temperature": "درجة الحرارة",
+      "thermalElement": "عنصر الاستشعار",
+      "title": "صمامات بوابة محززة OS&Y",
+      "eyebrow": "صمامات بوابة لمكافحة الحريق",
+      "lead": "صمامات بوابة بساق صاعدة وعجلة تشغيل ونهايات محززة. تُظهر عينة DN150 الساق المكشوفة والحامل وتوصيلات الأنابيب المحززة.",
+      "note": "أكد المقاس المطلوب وضغط التشغيل وأبعاد الحز والخلوص اللازم للتركيب مع عرض السعر.",
+      "gallery": "صور المنتجات",
+      "galleryTitle": "تكوين محزز بساق صاعدة",
+      "galleryBody": "صورة المنتج المقدمة توضح عجلة التشغيل والساق الملولبة المكشوفة والنهايات المحززة.",
+      "sampleCaption": "صمام بوابة محزز OS&Y — عينة DN150",
+      "sampleAlt": "صمام بوابة أحمر DN150 بساق ملولبة صاعدة مكشوفة وحامل وعجلة تشغيل ونهايات محززة",
+      "sampleThumbnail": "عينة صمام بوابة محزز OS&Y",
+      "enlargedImage": "صورة مكبرة لصمام بوابة محزز OS&Y",
+      "specificationsTitle": "تكوين المنتج",
+      "specificationsBody": "يصف التكوين أدناه العينة المصورة. اطلب الرسم والبيانات الفنية للمقاس المطلوب.",
+      "productType": "نوع المنتج",
+      "connection": "التوصيل",
+      "connectionValue": "نهايات محززة",
+      "operation": "التشغيل",
+      "operationValue": "عجلة تشغيل؛ ساق صاعدة OS&Y",
+      "sampleSize": "المقاس المصور",
+      "sampleSizeValue": "عينة DN150",
+      "appearance": "المظهر",
+      "appearanceValue": "جسم وعجلة تشغيل باللون الأحمر",
+      "availableModels": "التكوين المتاح",
+      "modelsTitle": "تكوين لطلب عرض سعر",
+      "modelsBody": "استخدم هذا التكوين لتحديد الصمام المطلوب. أكد المقاس والضغط النهائيين مع الطلب.",
+      "configuration": "التكوين",
+      "modelsNote": "لا تحدد العينة المصورة كامل نطاق المقاسات المتاحة أو تصنيف ضغط واحداً لجميع المقاسات.",
+      "quotationTitle": "معلومات لعرض السعر",
+      "quotationBody": "أرسل المقاس الاسمي المطلوب وضغط التشغيل والكمية والوجهة.",
+      "connectionReview": "التوصيل المحزز",
+      "connectionReviewBody": "أرسل مواصفات الوصلة أو الرسم المطابق لتأكيد أبعاد الحز.",
+      "pressureReview": "الضغط والمواد",
+      "pressureReviewBody": "حدد ضغط التشغيل ومواد الجسم والساق والختم المطلوبة.",
+      "clearanceReview": "الخلوص للتركيب",
+      "clearanceReviewBody": "اطلب رسم المقاس المحدد للتحقق من المساحة اللازمة للساق الصاعدة وعجلة التشغيل.",
+      "inquiryTitle": "اطلب صمامات بوابة محززة OS&Y",
+      "inquiryBody": "أضف المقاس الاسمي وضغط التشغيل وتفاصيل الوصلة والكمية والوجهة.",
+      "seoTitle": "صمامات بوابة محززة OS&Y بساق صاعدة | CHUANWEI FIRE",
+      "seoDescription": "شاهد صمام بوابة محزز OS&Y بعينة DN150 وساق صاعدة وعجلة تشغيل. اطلب الأبعاد والضغط وتفاصيل التوصيل للمقاس المحدد."
+    }
+  }
+}
