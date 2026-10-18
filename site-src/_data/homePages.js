@@ -1,7 +1,8 @@
 import { createHomeRoute } from "./siteRoutes.js";
 import { createSeoMetadata } from "./seo.js";
 import { createSiteNavigation } from "./navigation.js";
-import { PRODUCT_FAMILIES, localizedText } from "./productDirectory.js";
+import { localizedText } from "./productDirectory.js";
+import { PRODUCT_BROWSE_GROUPS } from './productBrowseGroups.js';
 import { versionedProductImage } from '../lib/public-asset-versions.js';
 import chinese from "./homeChinese.js";
 import { qualificationDocuments } from '../lib/qualification-documents.js';
@@ -191,7 +192,7 @@ const pages = [
 
 export default pages.map((page) => {
   const navigation = createSiteNavigation("home", page.languageCode, page.outputPath);
-  const families = PRODUCT_FAMILIES.map((family) => ({
+  const families = PRODUCT_BROWSE_GROUPS.map((family) => ({
     id: family.id,
     name: localizedText(family.name, page.languageCode),
     englishName: family.name.en,

@@ -1,0 +1,300 @@
+{
+  "id": "swing-check-valves",
+  "routeId": "product:swing-check-valves",
+  "template": "product-series/documented-product.njk",
+  "styles": [
+    "css/common.css",
+    "css/sprinkler-product.css",
+    "css/sprinkler-product-gallery.css",
+    "css/documented-product.css",
+    "css/site-navigation.css"
+  ],
+  "source": {
+    "evidence": "User-selected new-folder product archive; reviewed field-by-field for this product series.",
+    "review": "docs/reviews/material-batch-20261018/mechanical.json",
+    "sourceNames": [
+      "H44T-旋启式止回阀"
+    ],
+    "unresolved": [
+      "安装方向、内部材质、密封材料、温度与法兰钻孔需核实。"
+    ],
+    "notes": [
+      "实物DIN3202 F6/GGG50铸字保留在照片，不升级为全系列标准或材质等级宣称。"
+    ]
+  },
+  "publication": {
+    "status": "release-candidate",
+    "externalRelease": true,
+    "imageRights": "user-confirmed-website-use",
+    "imageRightsEvidence": "docs/release/website-products-20261018/image-rights-confirmation.json"
+  },
+  "media": {
+    "hero": "assets/products/website-20261018/product-674a5f5aa37f.webp"
+  },
+  "imageDimensions": {
+    "hero": {
+      "width": 1254,
+      "height": 1254
+    }
+  },
+  "shared": {},
+  "heroFacts": [
+    "spec0Value",
+    "spec1Value",
+    "spec2Value"
+  ],
+  "gallery": [
+    {
+      "media": "hero",
+      "alt": "image0Alt",
+      "caption": "image0Caption",
+      "thumbnailAlt": "image0Alt"
+    }
+  ],
+  "specifications": [
+    {
+      "label": "spec0Label",
+      "value": "spec0Value"
+    },
+    {
+      "label": "spec1Label",
+      "value": "spec1Value"
+    },
+    {
+      "label": "spec2Label",
+      "value": "spec2Value"
+    },
+    {
+      "label": "spec3Label",
+      "value": "spec3Value"
+    },
+    {
+      "label": "spec4Label",
+      "value": "spec4Value"
+    },
+    {
+      "label": "spec5Label",
+      "value": "spec5Value"
+    }
+  ],
+  "modelColumns": [
+    {
+      "label": "configuration",
+      "field": "configuration",
+      "localized": true
+    },
+    {
+      "label": "factoryModel",
+      "field": "factoryReference",
+      "localized": true
+    },
+    {
+      "label": "selectionDetails",
+      "field": "selection",
+      "localized": true
+    }
+  ],
+  "models": [
+    {
+      "configuration": "model0Name",
+      "factoryReference": "model0Reference",
+      "selection": "model0Selection"
+    },
+    {
+      "configuration": "model1Name",
+      "factoryReference": "model1Reference",
+      "selection": "model1Selection"
+    },
+    {
+      "configuration": "model2Name",
+      "factoryReference": "model2Reference",
+      "selection": "model2Selection"
+    },
+    {
+      "configuration": "model3Name",
+      "factoryReference": "model3Reference",
+      "selection": "model3Selection"
+    },
+    {
+      "configuration": "model4Name",
+      "factoryReference": "model4Reference",
+      "selection": "model4Selection"
+    },
+    {
+      "configuration": "model5Name",
+      "factoryReference": "model5Reference",
+      "selection": "model5Selection"
+    }
+  ],
+  "confirmationItems": [
+    {
+      "label": "selection0Label",
+      "body": "selection0Body"
+    },
+    {
+      "label": "selection1Label",
+      "body": "selection1Body"
+    }
+  ],
+  "inquiry": {
+    "whatsapp": "https://wa.me/8617326528368?text=Hello%2C%20I%20am%20interested%20in%20Swing%20Check%20Valves.%0AProduct%20page%3A%20https%3A//chuanweifire.com/products/pipeline-valves-strainers/swing-check-valves.html%0AQuantity%20/%20destination%20/%20requirements%3A",
+    "email": "mailto:zhengcolin1@gmail.com"
+  },
+  "validation": {
+    "anchors": [
+      "gallery",
+      "specifications",
+      "models",
+      "quotation"
+    ],
+    "requiredTechnicalValues": []
+  },
+  "copy": {
+    "en": {
+      "onThisPage": "On this page",
+      "gallery": "Product gallery",
+      "galleryTitle": "Product views",
+      "galleryBody": "Select an image to view the pictured product or configuration.",
+      "specifications": "Specifications",
+      "specificationsTitle": "Product specifications",
+      "specificationsBody": "Use the specifications together with the configuration table below.",
+      "availableModels": "Models & configurations",
+      "modelsTitle": "Models & configurations",
+      "modelsBody": "Match the product reference and selection details to your order.",
+      "modelsNote": "The photographs illustrate selected configurations. Specify the required model and quantity when requesting a quotation.",
+      "factoryModel": "Product reference",
+      "configuration": "Configuration",
+      "selectionDetails": "Selection details",
+      "temperature": "Temperature",
+      "thermalElement": "Thermal element",
+      "quotation": "Request a quotation",
+      "quotationTitle": "Select your configuration",
+      "quotationBody": "Include the product reference, quantity and delivery destination, together with the requirements below.",
+      "askOnWhatsApp": "Ask on WhatsApp",
+      "emailSales": "Email sales",
+      "productImagePreview": "Product image preview",
+      "closeImagePreview": "Close image preview",
+      "enlargedImage": "Enlarged product image",
+      "previousProductImage": "Previous product image",
+      "nextProductImage": "Next product image",
+      "selectProductImage": "Select product image",
+      "inquiryTitle": "Request product details and a quotation",
+      "inquiryBody": "Send your selected configuration, quantity and destination.",
+      "title": "Swing Check Valves",
+      "lead": "H44T swing check valves provide a flanged non-return connection with a ductile iron body. The documented range covers DN50 to DN200 at 1.6 MPa nominal pressure.",
+      "eyebrow": "Pipeline Valves & Strainers",
+      "seoTitle": "Swing Check Valves | CHUANWEI FIRE",
+      "seoDescription": "H44T swing check valves provide a flanged non-return connection with a ductile iron body. The documented range covers DN50 to DN200 at 1.6 MPa nominal pressure.",
+      "note": "Specify the nominal size and provide the mating flange drilling and installation dimensions.",
+      "image0Alt": "H44T swing check valve with flanged ends.",
+      "image0Caption": "H44T swing check valve with flanged ends.",
+      "spec0Label": "Model",
+      "spec0Value": "H44T",
+      "spec1Label": "Valve type",
+      "spec1Value": "Swing check valve",
+      "spec2Label": "Body material",
+      "spec2Value": "Ductile iron",
+      "spec3Label": "Nominal pressure",
+      "spec3Value": "1.6 MPa",
+      "spec4Label": "Nominal sizes",
+      "spec4Value": "DN50 / DN65 / DN80 / DN100 / DN150 / DN200",
+      "spec5Label": "Connection",
+      "spec5Value": "Flanged",
+      "model0Name": "DN50",
+      "model0Reference": "H44T",
+      "model0Selection": "H44T · DN50 · flanged connection",
+      "model1Name": "DN65",
+      "model1Reference": "H44T",
+      "model1Selection": "H44T · DN65 · flanged connection",
+      "model2Name": "DN80",
+      "model2Reference": "H44T",
+      "model2Selection": "H44T · DN80 · flanged connection",
+      "model3Name": "DN100",
+      "model3Reference": "H44T",
+      "model3Selection": "H44T · DN100 · flanged connection",
+      "model4Name": "DN150",
+      "model4Reference": "H44T",
+      "model4Selection": "H44T · DN150 · flanged connection",
+      "model5Name": "DN200",
+      "model5Reference": "H44T",
+      "model5Selection": "H44T · DN200 · flanged connection",
+      "selection0Label": "Size and mating flange",
+      "selection0Body": "Specify the nominal size and provide the mating flange drilling and installation dimensions.",
+      "selection1Label": "Service conditions",
+      "selection1Body": "State the working fluid, operating pressure and temperature for the exact supplied configuration."
+    },
+    "ar": {
+      "onThisPage": "في هذه الصفحة",
+      "gallery": "صور المنتج",
+      "galleryTitle": "عرض المنتج",
+      "galleryBody": "اختر صورة لعرض المنتج أو التكوين الظاهر فيها.",
+      "specifications": "المواصفات",
+      "specificationsTitle": "مواصفات المنتج",
+      "specificationsBody": "استخدم المواصفات مع جدول التكوينات أدناه.",
+      "availableModels": "الموديلات والتكوينات",
+      "modelsTitle": "الموديلات والتكوينات",
+      "modelsBody": "طابق مرجع المنتج وتفاصيل الاختيار مع طلبك.",
+      "modelsNote": "تعرض الصور تكوينات مختارة. حدد الموديل والكمية المطلوبة عند طلب عرض السعر.",
+      "factoryModel": "مرجع المنتج",
+      "configuration": "التكوين",
+      "selectionDetails": "تفاصيل الاختيار",
+      "temperature": "درجة الحرارة",
+      "thermalElement": "العنصر الحراري",
+      "quotation": "طلب عرض سعر",
+      "quotationTitle": "اختر التكوين المطلوب",
+      "quotationBody": "أرسل مرجع المنتج والكمية ووجهة التسليم والمتطلبات أدناه.",
+      "askOnWhatsApp": "استفسر عبر WhatsApp",
+      "emailSales": "راسل قسم المبيعات",
+      "productImagePreview": "معاينة صورة المنتج",
+      "closeImagePreview": "إغلاق معاينة الصورة",
+      "enlargedImage": "صورة مكبرة للمنتج",
+      "previousProductImage": "صورة المنتج السابقة",
+      "nextProductImage": "صورة المنتج التالية",
+      "selectProductImage": "اختر صورة المنتج",
+      "inquiryTitle": "اطلب تفاصيل المنتج وعرض سعر",
+      "inquiryBody": "أرسل التكوين المختار والكمية والوجهة.",
+      "title": "صمامات عدم رجوع متأرجحة",
+      "lead": "توفر صمامات عدم الرجوع المتأرجحة H44T توصيلًا بفلنجات وجسمًا من حديد الدكتايل. تشمل المقاسات الموثقة DN50 إلى DN200 بضغط اسمي 1.6 MPa.",
+      "eyebrow": "صمامات الأنابيب والمصافي",
+      "seoTitle": "صمامات عدم رجوع متأرجحة | CHUANWEI FIRE",
+      "seoDescription": "توفر صمامات عدم الرجوع المتأرجحة H44T توصيلًا بفلنجات وجسمًا من حديد الدكتايل. تشمل المقاسات الموثقة DN50 إلى DN200 بضغط اسمي 1.6 MPa.",
+      "note": "حدد المقاس الاسمي وقدم أبعاد ثقوب الفلنجة المقابلة وأبعاد التركيب.",
+      "image0Alt": "صمام عدم رجوع متأرجح H44T بنهايات ذات فلنجات.",
+      "image0Caption": "صمام عدم رجوع متأرجح H44T بنهايات ذات فلنجات.",
+      "spec0Label": "الموديل",
+      "spec0Value": "H44T",
+      "spec1Label": "نوع الصمام",
+      "spec1Value": "صمام عدم رجوع متأرجح",
+      "spec2Label": "مادة الجسم",
+      "spec2Value": "حديد دكتايل",
+      "spec3Label": "الضغط الاسمي",
+      "spec3Value": "1.6 MPa",
+      "spec4Label": "المقاسات الاسمية",
+      "spec4Value": "DN50 / DN65 / DN80 / DN100 / DN150 / DN200",
+      "spec5Label": "التوصيل",
+      "spec5Value": "بفلنجات",
+      "model0Name": "DN50",
+      "model0Reference": "H44T",
+      "model0Selection": "H44T · DN50 · توصيل بفلنجة",
+      "model1Name": "DN65",
+      "model1Reference": "H44T",
+      "model1Selection": "H44T · DN65 · توصيل بفلنجة",
+      "model2Name": "DN80",
+      "model2Reference": "H44T",
+      "model2Selection": "H44T · DN80 · توصيل بفلنجة",
+      "model3Name": "DN100",
+      "model3Reference": "H44T",
+      "model3Selection": "H44T · DN100 · توصيل بفلنجة",
+      "model4Name": "DN150",
+      "model4Reference": "H44T",
+      "model4Selection": "H44T · DN150 · توصيل بفلنجة",
+      "model5Name": "DN200",
+      "model5Reference": "H44T",
+      "model5Selection": "H44T · DN200 · توصيل بفلنجة",
+      "selection0Label": "المقاس والفلنجة المقابلة",
+      "selection0Body": "حدد المقاس الاسمي وقدم أبعاد ثقوب الفلنجة المقابلة وأبعاد التركيب.",
+      "selection1Label": "ظروف التشغيل",
+      "selection1Body": "حدد المائع وضغط التشغيل ودرجة الحرارة للتكوين المطلوب توريده."
+    }
+  }
+}

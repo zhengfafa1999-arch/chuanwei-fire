@@ -1,0 +1,534 @@
+{
+  "scope": "product-batch",
+  "products": [
+    "portable-dry-powder-fire-extinguishers",
+    "fire-extinguisher-balls",
+    "photoelectric-smoke-detectors",
+    "vertical-multistage-fire-pumps",
+    "grooved-pipe-elbows",
+    "pressure-vacuum-gauges",
+    "pistol-grip-combination-fire-nozzles"
+  ],
+  "previewMode": "http",
+  "generatedAt": "2026-10-18T02:54:27.645Z",
+  "browser": "Edg/155.0.4283.45",
+  "viewports": [
+    {
+      "id": "desktop",
+      "width": 1440,
+      "height": 900,
+      "deviceScaleFactor": 1,
+      "mobile": false
+    },
+    {
+      "id": "mobile",
+      "width": 390,
+      "height": 844,
+      "deviceScaleFactor": 1,
+      "mobile": true
+    }
+  ],
+  "validations": [
+    {
+      "slug": "portable-dry-powder-fire-extinguishers",
+      "languageSwitches": [
+        {
+          "scenario": "desktop/en: portable-dry-powder-fire-extinguishers image/text category entries, reciprocal switch, refresh, 3-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+          "status": "PASS"
+        },
+        {
+          "scenario": "desktop/ar: portable-dry-powder-fire-extinguishers image/text category entries, reciprocal switch, refresh, 3-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+          "status": "PASS"
+        },
+        {
+          "scenario": "mobile/en: portable-dry-powder-fire-extinguishers image/text category entries, reciprocal switch, refresh, 3-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+          "status": "PASS"
+        },
+        {
+          "scenario": "mobile/ar: portable-dry-powder-fire-extinguishers image/text category entries, reciprocal switch, refresh, 3-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+          "status": "PASS"
+        }
+      ],
+      "screenshots": [
+        "edge-desktop-portable-dry-powder-fire-extinguishers-en-gallery.png",
+        "edge-desktop-portable-dry-powder-fire-extinguishers-en-specifications.png",
+        "edge-desktop-portable-dry-powder-fire-extinguishers-en-models.png",
+        "edge-desktop-portable-dry-powder-fire-extinguishers-en-quotation.png",
+        "edge-desktop-portable-dry-powder-fire-extinguishers-ar-gallery.png",
+        "edge-desktop-portable-dry-powder-fire-extinguishers-ar-specifications.png",
+        "edge-desktop-portable-dry-powder-fire-extinguishers-ar-models.png",
+        "edge-desktop-portable-dry-powder-fire-extinguishers-ar-quotation.png",
+        "edge-mobile-portable-dry-powder-fire-extinguishers-en-gallery.png",
+        "edge-mobile-portable-dry-powder-fire-extinguishers-en-specifications.png",
+        "edge-mobile-portable-dry-powder-fire-extinguishers-en-models.png",
+        "edge-mobile-portable-dry-powder-fire-extinguishers-en-quotation.png",
+        "edge-mobile-portable-dry-powder-fire-extinguishers-ar-gallery.png",
+        "edge-mobile-portable-dry-powder-fire-extinguishers-ar-specifications.png",
+        "edge-mobile-portable-dry-powder-fire-extinguishers-ar-models.png",
+        "edge-mobile-portable-dry-powder-fire-extinguishers-ar-quotation.png"
+      ]
+    },
+    {
+      "slug": "fire-extinguisher-balls",
+      "languageSwitches": [
+        {
+          "scenario": "desktop/en: fire-extinguisher-balls image/text category entries, reciprocal switch, refresh, 2-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+          "status": "PASS"
+        },
+        {
+          "scenario": "desktop/ar: fire-extinguisher-balls image/text category entries, reciprocal switch, refresh, 2-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+          "status": "PASS"
+        },
+        {
+          "scenario": "mobile/en: fire-extinguisher-balls image/text category entries, reciprocal switch, refresh, 2-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+          "status": "PASS"
+        },
+        {
+          "scenario": "mobile/ar: fire-extinguisher-balls image/text category entries, reciprocal switch, refresh, 2-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+          "status": "PASS"
+        }
+      ],
+      "screenshots": [
+        "edge-desktop-fire-extinguisher-balls-en-gallery.png",
+        "edge-desktop-fire-extinguisher-balls-en-specifications.png",
+        "edge-desktop-fire-extinguisher-balls-en-models.png",
+        "edge-desktop-fire-extinguisher-balls-en-quotation.png",
+        "edge-desktop-fire-extinguisher-balls-ar-gallery.png",
+        "edge-desktop-fire-extinguisher-balls-ar-specifications.png",
+        "edge-desktop-fire-extinguisher-balls-ar-models.png",
+        "edge-desktop-fire-extinguisher-balls-ar-quotation.png",
+        "edge-mobile-fire-extinguisher-balls-en-gallery.png",
+        "edge-mobile-fire-extinguisher-balls-en-specifications.png",
+        "edge-mobile-fire-extinguisher-balls-en-models.png",
+        "edge-mobile-fire-extinguisher-balls-en-quotation.png",
+        "edge-mobile-fire-extinguisher-balls-ar-gallery.png",
+        "edge-mobile-fire-extinguisher-balls-ar-specifications.png",
+        "edge-mobile-fire-extinguisher-balls-ar-models.png",
+        "edge-mobile-fire-extinguisher-balls-ar-quotation.png"
+      ]
+    },
+    {
+      "slug": "photoelectric-smoke-detectors",
+      "languageSwitches": [
+        {
+          "scenario": "desktop/en: photoelectric-smoke-detectors image/text category entries, reciprocal switch, refresh, 2-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+          "status": "PASS"
+        },
+        {
+          "scenario": "desktop/ar: photoelectric-smoke-detectors image/text category entries, reciprocal switch, refresh, 2-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+          "status": "PASS"
+        },
+        {
+          "scenario": "mobile/en: photoelectric-smoke-detectors image/text category entries, reciprocal switch, refresh, 2-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+          "status": "PASS"
+        },
+        {
+          "scenario": "mobile/ar: photoelectric-smoke-detectors image/text category entries, reciprocal switch, refresh, 2-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+          "status": "PASS"
+        }
+      ],
+      "screenshots": [
+        "edge-desktop-photoelectric-smoke-detectors-en-gallery.png",
+        "edge-desktop-photoelectric-smoke-detectors-en-specifications.png",
+        "edge-desktop-photoelectric-smoke-detectors-en-models.png",
+        "edge-desktop-photoelectric-smoke-detectors-en-quotation.png",
+        "edge-desktop-photoelectric-smoke-detectors-ar-gallery.png",
+        "edge-desktop-photoelectric-smoke-detectors-ar-specifications.png",
+        "edge-desktop-photoelectric-smoke-detectors-ar-models.png",
+        "edge-desktop-photoelectric-smoke-detectors-ar-quotation.png",
+        "edge-mobile-photoelectric-smoke-detectors-en-gallery.png",
+        "edge-mobile-photoelectric-smoke-detectors-en-specifications.png",
+        "edge-mobile-photoelectric-smoke-detectors-en-models.png",
+        "edge-mobile-photoelectric-smoke-detectors-en-quotation.png",
+        "edge-mobile-photoelectric-smoke-detectors-ar-gallery.png",
+        "edge-mobile-photoelectric-smoke-detectors-ar-specifications.png",
+        "edge-mobile-photoelectric-smoke-detectors-ar-models.png",
+        "edge-mobile-photoelectric-smoke-detectors-ar-quotation.png"
+      ]
+    },
+    {
+      "slug": "vertical-multistage-fire-pumps",
+      "languageSwitches": [
+        {
+          "scenario": "desktop/en: vertical-multistage-fire-pumps image/text category entries, reciprocal switch, refresh, 1-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+          "status": "PASS"
+        },
+        {
+          "scenario": "desktop/ar: vertical-multistage-fire-pumps image/text category entries, reciprocal switch, refresh, 1-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+          "status": "PASS"
+        },
+        {
+          "scenario": "mobile/en: vertical-multistage-fire-pumps image/text category entries, reciprocal switch, refresh, 1-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+          "status": "PASS"
+        },
+        {
+          "scenario": "mobile/ar: vertical-multistage-fire-pumps image/text category entries, reciprocal switch, refresh, 1-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+          "status": "PASS"
+        }
+      ],
+      "screenshots": [
+        "edge-desktop-vertical-multistage-fire-pumps-en-gallery.png",
+        "edge-desktop-vertical-multistage-fire-pumps-en-specifications.png",
+        "edge-desktop-vertical-multistage-fire-pumps-en-models.png",
+        "edge-desktop-vertical-multistage-fire-pumps-en-quotation.png",
+        "edge-desktop-vertical-multistage-fire-pumps-ar-gallery.png",
+        "edge-desktop-vertical-multistage-fire-pumps-ar-specifications.png",
+        "edge-desktop-vertical-multistage-fire-pumps-ar-models.png",
+        "edge-desktop-vertical-multistage-fire-pumps-ar-quotation.png",
+        "edge-mobile-vertical-multistage-fire-pumps-en-gallery.png",
+        "edge-mobile-vertical-multistage-fire-pumps-en-specifications.png",
+        "edge-mobile-vertical-multistage-fire-pumps-en-models.png",
+        "edge-mobile-vertical-multistage-fire-pumps-en-quotation.png",
+        "edge-mobile-vertical-multistage-fire-pumps-ar-gallery.png",
+        "edge-mobile-vertical-multistage-fire-pumps-ar-specifications.png",
+        "edge-mobile-vertical-multistage-fire-pumps-ar-models.png",
+        "edge-mobile-vertical-multistage-fire-pumps-ar-quotation.png"
+      ]
+    },
+    {
+      "slug": "grooved-pipe-elbows",
+      "languageSwitches": [
+        {
+          "scenario": "desktop/en: grooved-pipe-elbows image/text category entries, reciprocal switch, refresh, 2-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+          "status": "PASS"
+        },
+        {
+          "scenario": "desktop/ar: grooved-pipe-elbows image/text category entries, reciprocal switch, refresh, 2-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+          "status": "PASS"
+        },
+        {
+          "scenario": "mobile/en: grooved-pipe-elbows image/text category entries, reciprocal switch, refresh, 2-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+          "status": "PASS"
+        },
+        {
+          "scenario": "mobile/ar: grooved-pipe-elbows image/text category entries, reciprocal switch, refresh, 2-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+          "status": "PASS"
+        }
+      ],
+      "screenshots": [
+        "edge-desktop-grooved-pipe-elbows-en-gallery.png",
+        "edge-desktop-grooved-pipe-elbows-en-specifications.png",
+        "edge-desktop-grooved-pipe-elbows-en-models.png",
+        "edge-desktop-grooved-pipe-elbows-en-quotation.png",
+        "edge-desktop-grooved-pipe-elbows-ar-gallery.png",
+        "edge-desktop-grooved-pipe-elbows-ar-specifications.png",
+        "edge-desktop-grooved-pipe-elbows-ar-models.png",
+        "edge-desktop-grooved-pipe-elbows-ar-quotation.png",
+        "edge-mobile-grooved-pipe-elbows-en-gallery.png",
+        "edge-mobile-grooved-pipe-elbows-en-specifications.png",
+        "edge-mobile-grooved-pipe-elbows-en-models.png",
+        "edge-mobile-grooved-pipe-elbows-en-quotation.png",
+        "edge-mobile-grooved-pipe-elbows-ar-gallery.png",
+        "edge-mobile-grooved-pipe-elbows-ar-specifications.png",
+        "edge-mobile-grooved-pipe-elbows-ar-models.png",
+        "edge-mobile-grooved-pipe-elbows-ar-quotation.png"
+      ]
+    },
+    {
+      "slug": "pressure-vacuum-gauges",
+      "languageSwitches": [
+        {
+          "scenario": "desktop/en: pressure-vacuum-gauges image/text category entries, reciprocal switch, refresh, 1-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+          "status": "PASS"
+        },
+        {
+          "scenario": "desktop/ar: pressure-vacuum-gauges image/text category entries, reciprocal switch, refresh, 1-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+          "status": "PASS"
+        },
+        {
+          "scenario": "mobile/en: pressure-vacuum-gauges image/text category entries, reciprocal switch, refresh, 1-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+          "status": "PASS"
+        },
+        {
+          "scenario": "mobile/ar: pressure-vacuum-gauges image/text category entries, reciprocal switch, refresh, 1-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+          "status": "PASS"
+        }
+      ],
+      "screenshots": [
+        "edge-desktop-pressure-vacuum-gauges-en-gallery.png",
+        "edge-desktop-pressure-vacuum-gauges-en-specifications.png",
+        "edge-desktop-pressure-vacuum-gauges-en-models.png",
+        "edge-desktop-pressure-vacuum-gauges-en-quotation.png",
+        "edge-desktop-pressure-vacuum-gauges-ar-gallery.png",
+        "edge-desktop-pressure-vacuum-gauges-ar-specifications.png",
+        "edge-desktop-pressure-vacuum-gauges-ar-models.png",
+        "edge-desktop-pressure-vacuum-gauges-ar-quotation.png",
+        "edge-mobile-pressure-vacuum-gauges-en-gallery.png",
+        "edge-mobile-pressure-vacuum-gauges-en-specifications.png",
+        "edge-mobile-pressure-vacuum-gauges-en-models.png",
+        "edge-mobile-pressure-vacuum-gauges-en-quotation.png",
+        "edge-mobile-pressure-vacuum-gauges-ar-gallery.png",
+        "edge-mobile-pressure-vacuum-gauges-ar-specifications.png",
+        "edge-mobile-pressure-vacuum-gauges-ar-models.png",
+        "edge-mobile-pressure-vacuum-gauges-ar-quotation.png"
+      ]
+    },
+    {
+      "slug": "pistol-grip-combination-fire-nozzles",
+      "languageSwitches": [
+        {
+          "scenario": "desktop/en: pistol-grip-combination-fire-nozzles image/text category entries, reciprocal switch, refresh, 1-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+          "status": "PASS"
+        },
+        {
+          "scenario": "desktop/ar: pistol-grip-combination-fire-nozzles image/text category entries, reciprocal switch, refresh, 1-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+          "status": "PASS"
+        },
+        {
+          "scenario": "mobile/en: pistol-grip-combination-fire-nozzles image/text category entries, reciprocal switch, refresh, 1-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+          "status": "PASS"
+        },
+        {
+          "scenario": "mobile/ar: pistol-grip-combination-fire-nozzles image/text category entries, reciprocal switch, refresh, 1-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+          "status": "PASS"
+        }
+      ],
+      "screenshots": [
+        "edge-desktop-pistol-grip-combination-fire-nozzles-en-gallery.png",
+        "edge-desktop-pistol-grip-combination-fire-nozzles-en-specifications.png",
+        "edge-desktop-pistol-grip-combination-fire-nozzles-en-models.png",
+        "edge-desktop-pistol-grip-combination-fire-nozzles-en-quotation.png",
+        "edge-desktop-pistol-grip-combination-fire-nozzles-ar-gallery.png",
+        "edge-desktop-pistol-grip-combination-fire-nozzles-ar-specifications.png",
+        "edge-desktop-pistol-grip-combination-fire-nozzles-ar-models.png",
+        "edge-desktop-pistol-grip-combination-fire-nozzles-ar-quotation.png",
+        "edge-mobile-pistol-grip-combination-fire-nozzles-en-gallery.png",
+        "edge-mobile-pistol-grip-combination-fire-nozzles-en-specifications.png",
+        "edge-mobile-pistol-grip-combination-fire-nozzles-en-models.png",
+        "edge-mobile-pistol-grip-combination-fire-nozzles-en-quotation.png",
+        "edge-mobile-pistol-grip-combination-fire-nozzles-ar-gallery.png",
+        "edge-mobile-pistol-grip-combination-fire-nozzles-ar-specifications.png",
+        "edge-mobile-pistol-grip-combination-fire-nozzles-ar-models.png",
+        "edge-mobile-pistol-grip-combination-fire-nozzles-ar-quotation.png"
+      ]
+    }
+  ],
+  "languageSwitches": [
+    {
+      "scenario": "desktop/en: portable-dry-powder-fire-extinguishers image/text category entries, reciprocal switch, refresh, 3-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+      "status": "PASS"
+    },
+    {
+      "scenario": "desktop/ar: portable-dry-powder-fire-extinguishers image/text category entries, reciprocal switch, refresh, 3-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+      "status": "PASS"
+    },
+    {
+      "scenario": "mobile/en: portable-dry-powder-fire-extinguishers image/text category entries, reciprocal switch, refresh, 3-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+      "status": "PASS"
+    },
+    {
+      "scenario": "mobile/ar: portable-dry-powder-fire-extinguishers image/text category entries, reciprocal switch, refresh, 3-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+      "status": "PASS"
+    },
+    {
+      "scenario": "desktop/en: fire-extinguisher-balls image/text category entries, reciprocal switch, refresh, 2-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+      "status": "PASS"
+    },
+    {
+      "scenario": "desktop/ar: fire-extinguisher-balls image/text category entries, reciprocal switch, refresh, 2-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+      "status": "PASS"
+    },
+    {
+      "scenario": "mobile/en: fire-extinguisher-balls image/text category entries, reciprocal switch, refresh, 2-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+      "status": "PASS"
+    },
+    {
+      "scenario": "mobile/ar: fire-extinguisher-balls image/text category entries, reciprocal switch, refresh, 2-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+      "status": "PASS"
+    },
+    {
+      "scenario": "desktop/en: photoelectric-smoke-detectors image/text category entries, reciprocal switch, refresh, 2-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+      "status": "PASS"
+    },
+    {
+      "scenario": "desktop/ar: photoelectric-smoke-detectors image/text category entries, reciprocal switch, refresh, 2-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+      "status": "PASS"
+    },
+    {
+      "scenario": "mobile/en: photoelectric-smoke-detectors image/text category entries, reciprocal switch, refresh, 2-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+      "status": "PASS"
+    },
+    {
+      "scenario": "mobile/ar: photoelectric-smoke-detectors image/text category entries, reciprocal switch, refresh, 2-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+      "status": "PASS"
+    },
+    {
+      "scenario": "desktop/en: vertical-multistage-fire-pumps image/text category entries, reciprocal switch, refresh, 1-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+      "status": "PASS"
+    },
+    {
+      "scenario": "desktop/ar: vertical-multistage-fire-pumps image/text category entries, reciprocal switch, refresh, 1-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+      "status": "PASS"
+    },
+    {
+      "scenario": "mobile/en: vertical-multistage-fire-pumps image/text category entries, reciprocal switch, refresh, 1-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+      "status": "PASS"
+    },
+    {
+      "scenario": "mobile/ar: vertical-multistage-fire-pumps image/text category entries, reciprocal switch, refresh, 1-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+      "status": "PASS"
+    },
+    {
+      "scenario": "desktop/en: grooved-pipe-elbows image/text category entries, reciprocal switch, refresh, 2-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+      "status": "PASS"
+    },
+    {
+      "scenario": "desktop/ar: grooved-pipe-elbows image/text category entries, reciprocal switch, refresh, 2-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+      "status": "PASS"
+    },
+    {
+      "scenario": "mobile/en: grooved-pipe-elbows image/text category entries, reciprocal switch, refresh, 2-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+      "status": "PASS"
+    },
+    {
+      "scenario": "mobile/ar: grooved-pipe-elbows image/text category entries, reciprocal switch, refresh, 2-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+      "status": "PASS"
+    },
+    {
+      "scenario": "desktop/en: pressure-vacuum-gauges image/text category entries, reciprocal switch, refresh, 1-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+      "status": "PASS"
+    },
+    {
+      "scenario": "desktop/ar: pressure-vacuum-gauges image/text category entries, reciprocal switch, refresh, 1-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+      "status": "PASS"
+    },
+    {
+      "scenario": "mobile/en: pressure-vacuum-gauges image/text category entries, reciprocal switch, refresh, 1-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+      "status": "PASS"
+    },
+    {
+      "scenario": "mobile/ar: pressure-vacuum-gauges image/text category entries, reciprocal switch, refresh, 1-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+      "status": "PASS"
+    },
+    {
+      "scenario": "desktop/en: pistol-grip-combination-fire-nozzles image/text category entries, reciprocal switch, refresh, 1-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+      "status": "PASS"
+    },
+    {
+      "scenario": "desktop/ar: pistol-grip-combination-fire-nozzles image/text category entries, reciprocal switch, refresh, 1-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+      "status": "PASS"
+    },
+    {
+      "scenario": "mobile/en: pistol-grip-combination-fire-nozzles image/text category entries, reciprocal switch, refresh, 1-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+      "status": "PASS"
+    },
+    {
+      "scenario": "mobile/ar: pistol-grip-combination-fire-nozzles image/text category entries, reciprocal switch, refresh, 1-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+      "status": "PASS"
+    }
+  ],
+  "screenshots": [
+    "edge-desktop-portable-dry-powder-fire-extinguishers-en-gallery.png",
+    "edge-desktop-portable-dry-powder-fire-extinguishers-en-specifications.png",
+    "edge-desktop-portable-dry-powder-fire-extinguishers-en-models.png",
+    "edge-desktop-portable-dry-powder-fire-extinguishers-en-quotation.png",
+    "edge-desktop-portable-dry-powder-fire-extinguishers-ar-gallery.png",
+    "edge-desktop-portable-dry-powder-fire-extinguishers-ar-specifications.png",
+    "edge-desktop-portable-dry-powder-fire-extinguishers-ar-models.png",
+    "edge-desktop-portable-dry-powder-fire-extinguishers-ar-quotation.png",
+    "edge-mobile-portable-dry-powder-fire-extinguishers-en-gallery.png",
+    "edge-mobile-portable-dry-powder-fire-extinguishers-en-specifications.png",
+    "edge-mobile-portable-dry-powder-fire-extinguishers-en-models.png",
+    "edge-mobile-portable-dry-powder-fire-extinguishers-en-quotation.png",
+    "edge-mobile-portable-dry-powder-fire-extinguishers-ar-gallery.png",
+    "edge-mobile-portable-dry-powder-fire-extinguishers-ar-specifications.png",
+    "edge-mobile-portable-dry-powder-fire-extinguishers-ar-models.png",
+    "edge-mobile-portable-dry-powder-fire-extinguishers-ar-quotation.png",
+    "edge-desktop-fire-extinguisher-balls-en-gallery.png",
+    "edge-desktop-fire-extinguisher-balls-en-specifications.png",
+    "edge-desktop-fire-extinguisher-balls-en-models.png",
+    "edge-desktop-fire-extinguisher-balls-en-quotation.png",
+    "edge-desktop-fire-extinguisher-balls-ar-gallery.png",
+    "edge-desktop-fire-extinguisher-balls-ar-specifications.png",
+    "edge-desktop-fire-extinguisher-balls-ar-models.png",
+    "edge-desktop-fire-extinguisher-balls-ar-quotation.png",
+    "edge-mobile-fire-extinguisher-balls-en-gallery.png",
+    "edge-mobile-fire-extinguisher-balls-en-specifications.png",
+    "edge-mobile-fire-extinguisher-balls-en-models.png",
+    "edge-mobile-fire-extinguisher-balls-en-quotation.png",
+    "edge-mobile-fire-extinguisher-balls-ar-gallery.png",
+    "edge-mobile-fire-extinguisher-balls-ar-specifications.png",
+    "edge-mobile-fire-extinguisher-balls-ar-models.png",
+    "edge-mobile-fire-extinguisher-balls-ar-quotation.png",
+    "edge-desktop-photoelectric-smoke-detectors-en-gallery.png",
+    "edge-desktop-photoelectric-smoke-detectors-en-specifications.png",
+    "edge-desktop-photoelectric-smoke-detectors-en-models.png",
+    "edge-desktop-photoelectric-smoke-detectors-en-quotation.png",
+    "edge-desktop-photoelectric-smoke-detectors-ar-gallery.png",
+    "edge-desktop-photoelectric-smoke-detectors-ar-specifications.png",
+    "edge-desktop-photoelectric-smoke-detectors-ar-models.png",
+    "edge-desktop-photoelectric-smoke-detectors-ar-quotation.png",
+    "edge-mobile-photoelectric-smoke-detectors-en-gallery.png",
+    "edge-mobile-photoelectric-smoke-detectors-en-specifications.png",
+    "edge-mobile-photoelectric-smoke-detectors-en-models.png",
+    "edge-mobile-photoelectric-smoke-detectors-en-quotation.png",
+    "edge-mobile-photoelectric-smoke-detectors-ar-gallery.png",
+    "edge-mobile-photoelectric-smoke-detectors-ar-specifications.png",
+    "edge-mobile-photoelectric-smoke-detectors-ar-models.png",
+    "edge-mobile-photoelectric-smoke-detectors-ar-quotation.png",
+    "edge-desktop-vertical-multistage-fire-pumps-en-gallery.png",
+    "edge-desktop-vertical-multistage-fire-pumps-en-specifications.png",
+    "edge-desktop-vertical-multistage-fire-pumps-en-models.png",
+    "edge-desktop-vertical-multistage-fire-pumps-en-quotation.png",
+    "edge-desktop-vertical-multistage-fire-pumps-ar-gallery.png",
+    "edge-desktop-vertical-multistage-fire-pumps-ar-specifications.png",
+    "edge-desktop-vertical-multistage-fire-pumps-ar-models.png",
+    "edge-desktop-vertical-multistage-fire-pumps-ar-quotation.png",
+    "edge-mobile-vertical-multistage-fire-pumps-en-gallery.png",
+    "edge-mobile-vertical-multistage-fire-pumps-en-specifications.png",
+    "edge-mobile-vertical-multistage-fire-pumps-en-models.png",
+    "edge-mobile-vertical-multistage-fire-pumps-en-quotation.png",
+    "edge-mobile-vertical-multistage-fire-pumps-ar-gallery.png",
+    "edge-mobile-vertical-multistage-fire-pumps-ar-specifications.png",
+    "edge-mobile-vertical-multistage-fire-pumps-ar-models.png",
+    "edge-mobile-vertical-multistage-fire-pumps-ar-quotation.png",
+    "edge-desktop-grooved-pipe-elbows-en-gallery.png",
+    "edge-desktop-grooved-pipe-elbows-en-specifications.png",
+    "edge-desktop-grooved-pipe-elbows-en-models.png",
+    "edge-desktop-grooved-pipe-elbows-en-quotation.png",
+    "edge-desktop-grooved-pipe-elbows-ar-gallery.png",
+    "edge-desktop-grooved-pipe-elbows-ar-specifications.png",
+    "edge-desktop-grooved-pipe-elbows-ar-models.png",
+    "edge-desktop-grooved-pipe-elbows-ar-quotation.png",
+    "edge-mobile-grooved-pipe-elbows-en-gallery.png",
+    "edge-mobile-grooved-pipe-elbows-en-specifications.png",
+    "edge-mobile-grooved-pipe-elbows-en-models.png",
+    "edge-mobile-grooved-pipe-elbows-en-quotation.png",
+    "edge-mobile-grooved-pipe-elbows-ar-gallery.png",
+    "edge-mobile-grooved-pipe-elbows-ar-specifications.png",
+    "edge-mobile-grooved-pipe-elbows-ar-models.png",
+    "edge-mobile-grooved-pipe-elbows-ar-quotation.png",
+    "edge-desktop-pressure-vacuum-gauges-en-gallery.png",
+    "edge-desktop-pressure-vacuum-gauges-en-specifications.png",
+    "edge-desktop-pressure-vacuum-gauges-en-models.png",
+    "edge-desktop-pressure-vacuum-gauges-en-quotation.png",
+    "edge-desktop-pressure-vacuum-gauges-ar-gallery.png",
+    "edge-desktop-pressure-vacuum-gauges-ar-specifications.png",
+    "edge-desktop-pressure-vacuum-gauges-ar-models.png",
+    "edge-desktop-pressure-vacuum-gauges-ar-quotation.png",
+    "edge-mobile-pressure-vacuum-gauges-en-gallery.png",
+    "edge-mobile-pressure-vacuum-gauges-en-specifications.png",
+    "edge-mobile-pressure-vacuum-gauges-en-models.png",
+    "edge-mobile-pressure-vacuum-gauges-en-quotation.png",
+    "edge-mobile-pressure-vacuum-gauges-ar-gallery.png",
+    "edge-mobile-pressure-vacuum-gauges-ar-specifications.png",
+    "edge-mobile-pressure-vacuum-gauges-ar-models.png",
+    "edge-mobile-pressure-vacuum-gauges-ar-quotation.png",
+    "edge-desktop-pistol-grip-combination-fire-nozzles-en-gallery.png",
+    "edge-desktop-pistol-grip-combination-fire-nozzles-en-specifications.png",
+    "edge-desktop-pistol-grip-combination-fire-nozzles-en-models.png",
+    "edge-desktop-pistol-grip-combination-fire-nozzles-en-quotation.png",
+    "edge-desktop-pistol-grip-combination-fire-nozzles-ar-gallery.png",
+    "edge-desktop-pistol-grip-combination-fire-nozzles-ar-specifications.png",
+    "edge-desktop-pistol-grip-combination-fire-nozzles-ar-models.png",
+    "edge-desktop-pistol-grip-combination-fire-nozzles-ar-quotation.png",
+    "edge-mobile-pistol-grip-combination-fire-nozzles-en-gallery.png",
+    "edge-mobile-pistol-grip-combination-fire-nozzles-en-specifications.png",
+    "edge-mobile-pistol-grip-combination-fire-nozzles-en-models.png",
+    "edge-mobile-pistol-grip-combination-fire-nozzles-en-quotation.png",
+    "edge-mobile-pistol-grip-combination-fire-nozzles-ar-gallery.png",
+    "edge-mobile-pistol-grip-combination-fire-nozzles-ar-specifications.png",
+    "edge-mobile-pistol-grip-combination-fire-nozzles-ar-models.png",
+    "edge-mobile-pistol-grip-combination-fire-nozzles-ar-quotation.png"
+  ]
+}

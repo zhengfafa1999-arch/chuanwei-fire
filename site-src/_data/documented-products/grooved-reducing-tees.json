@@ -1,0 +1,430 @@
+{
+  "id": "grooved-reducing-tees",
+  "routeId": "product:grooved-reducing-tees",
+  "template": "product-series/documented-product.njk",
+  "styles": [
+    "css/common.css",
+    "css/sprinkler-product.css",
+    "css/sprinkler-product-gallery.css",
+    "css/documented-product.css",
+    "css/site-navigation.css"
+  ],
+  "source": {
+    "evidence": "User-selected new-folder product archive; reviewed field-by-field for this product series.",
+    "review": "docs/reviews/material-batch-20261018/mechanical.json",
+    "sourceNames": [
+      "异径三通系列-沟槽异径三通"
+    ],
+    "unresolved": [
+      "沟槽尺寸、压力、壁厚与重量待核实。"
+    ],
+    "notes": [
+      "19个原始主管/支管组合单列；不采用网页通用“轴向型”或把样品铸字扩大到全系列。"
+    ]
+  },
+  "publication": {
+    "status": "release-candidate",
+    "externalRelease": true,
+    "imageRights": "user-confirmed-website-use",
+    "imageRightsEvidence": "docs/release/website-products-20261018/image-rights-confirmation.json"
+  },
+  "media": {
+    "hero": "assets/products/website-20261018/product-65ae6977caec.webp"
+  },
+  "imageDimensions": {
+    "hero": {
+      "width": 1254,
+      "height": 1254
+    }
+  },
+  "shared": {},
+  "heroFacts": [
+    "spec0Value",
+    "spec1Value",
+    "spec2Value"
+  ],
+  "gallery": [
+    {
+      "media": "hero",
+      "alt": "image0Alt",
+      "caption": "image0Caption",
+      "thumbnailAlt": "image0Alt"
+    }
+  ],
+  "specifications": [
+    {
+      "label": "spec0Label",
+      "value": "spec0Value"
+    },
+    {
+      "label": "spec1Label",
+      "value": "spec1Value"
+    },
+    {
+      "label": "spec2Label",
+      "value": "spec2Value"
+    },
+    {
+      "label": "spec3Label",
+      "value": "spec3Value"
+    },
+    {
+      "label": "spec4Label",
+      "value": "spec4Value"
+    }
+  ],
+  "modelColumns": [
+    {
+      "label": "configuration",
+      "field": "configuration",
+      "localized": true
+    },
+    {
+      "label": "selectionDetails",
+      "field": "selection",
+      "localized": true
+    }
+  ],
+  "models": [
+    {
+      "configuration": "model0Name",
+      "factoryReference": "model0Reference",
+      "selection": "model0Selection"
+    },
+    {
+      "configuration": "model1Name",
+      "factoryReference": "model1Reference",
+      "selection": "model1Selection"
+    },
+    {
+      "configuration": "model2Name",
+      "factoryReference": "model2Reference",
+      "selection": "model2Selection"
+    },
+    {
+      "configuration": "model3Name",
+      "factoryReference": "model3Reference",
+      "selection": "model3Selection"
+    },
+    {
+      "configuration": "model4Name",
+      "factoryReference": "model4Reference",
+      "selection": "model4Selection"
+    },
+    {
+      "configuration": "model5Name",
+      "factoryReference": "model5Reference",
+      "selection": "model5Selection"
+    },
+    {
+      "configuration": "model6Name",
+      "factoryReference": "model6Reference",
+      "selection": "model6Selection"
+    },
+    {
+      "configuration": "model7Name",
+      "factoryReference": "model7Reference",
+      "selection": "model7Selection"
+    },
+    {
+      "configuration": "model8Name",
+      "factoryReference": "model8Reference",
+      "selection": "model8Selection"
+    },
+    {
+      "configuration": "model9Name",
+      "factoryReference": "model9Reference",
+      "selection": "model9Selection"
+    },
+    {
+      "configuration": "model10Name",
+      "factoryReference": "model10Reference",
+      "selection": "model10Selection"
+    },
+    {
+      "configuration": "model11Name",
+      "factoryReference": "model11Reference",
+      "selection": "model11Selection"
+    },
+    {
+      "configuration": "model12Name",
+      "factoryReference": "model12Reference",
+      "selection": "model12Selection"
+    },
+    {
+      "configuration": "model13Name",
+      "factoryReference": "model13Reference",
+      "selection": "model13Selection"
+    },
+    {
+      "configuration": "model14Name",
+      "factoryReference": "model14Reference",
+      "selection": "model14Selection"
+    },
+    {
+      "configuration": "model15Name",
+      "factoryReference": "model15Reference",
+      "selection": "model15Selection"
+    },
+    {
+      "configuration": "model16Name",
+      "factoryReference": "model16Reference",
+      "selection": "model16Selection"
+    },
+    {
+      "configuration": "model17Name",
+      "factoryReference": "model17Reference",
+      "selection": "model17Selection"
+    },
+    {
+      "configuration": "model18Name",
+      "factoryReference": "model18Reference",
+      "selection": "model18Selection"
+    }
+  ],
+  "confirmationItems": [
+    {
+      "label": "selection0Label",
+      "body": "selection0Body"
+    },
+    {
+      "label": "selection1Label",
+      "body": "selection1Body"
+    }
+  ],
+  "inquiry": {
+    "whatsapp": "https://wa.me/8617326528368?text=Hello%2C%20I%20am%20interested%20in%20Grooved%20Reducing%20Tees.%0AProduct%20page%3A%20https%3A//chuanweifire.com/products/grooved-pipe-fittings/grooved-reducing-tees.html%0AQuantity%20/%20destination%20/%20requirements%3A",
+    "email": "mailto:zhengcolin1@gmail.com"
+  },
+  "validation": {
+    "anchors": [
+      "gallery",
+      "specifications",
+      "models",
+      "quotation"
+    ],
+    "requiredTechnicalValues": []
+  },
+  "copy": {
+    "en": {
+      "onThisPage": "On this page",
+      "gallery": "Product gallery",
+      "galleryTitle": "Product views",
+      "galleryBody": "Select an image to view the pictured product or configuration.",
+      "specifications": "Specifications",
+      "specificationsTitle": "Product specifications",
+      "specificationsBody": "Use the specifications together with the configuration table below.",
+      "availableModels": "Models & configurations",
+      "modelsTitle": "Models & configurations",
+      "modelsBody": "Match the product reference and selection details to your order.",
+      "modelsNote": "The photographs illustrate selected configurations. Specify the required model and quantity when requesting a quotation.",
+      "factoryModel": "Product reference",
+      "configuration": "Configuration",
+      "selectionDetails": "Selection details",
+      "temperature": "Temperature",
+      "thermalElement": "Thermal element",
+      "quotation": "Request a quotation",
+      "quotationTitle": "Select your configuration",
+      "quotationBody": "Include the product reference, quantity and delivery destination, together with the requirements below.",
+      "askOnWhatsApp": "Ask on WhatsApp",
+      "emailSales": "Email sales",
+      "productImagePreview": "Product image preview",
+      "closeImagePreview": "Close image preview",
+      "enlargedImage": "Enlarged product image",
+      "previousProductImage": "Previous product image",
+      "nextProductImage": "Next product image",
+      "selectProductImage": "Select product image",
+      "inquiryTitle": "Request product details and a quotation",
+      "inquiryBody": "Send your selected configuration, quantity and destination.",
+      "title": "Grooved Reducing Tees",
+      "lead": "Ductile iron reducing tees connect a smaller branch to a grooved pipe run. Each listed option preserves the main and branch nominal sizes together with their matching pipe outside diameters.",
+      "eyebrow": "Grooved Pipe Fittings",
+      "seoTitle": "Grooved Reducing Tees | CHUANWEI FIRE",
+      "seoDescription": "Ductile iron reducing tees connect a smaller branch to a grooved pipe run. Each listed option preserves the main and branch nominal sizes together with their matching pipe outside diameters.",
+      "note": "Specify both nominal DN and actual pipe outside diameter, with the mating groove profile or drawing.",
+      "image0Alt": "Grooved reducing tee with a smaller branch connection.",
+      "image0Caption": "Grooved reducing tee with a smaller branch connection.",
+      "spec0Label": "Material",
+      "spec0Value": "Ductile iron",
+      "spec1Label": "Configuration",
+      "spec1Value": "Reducing branch tee",
+      "spec2Label": "Connection",
+      "spec2Value": "Grooved",
+      "spec3Label": "Main nominal sizes",
+      "spec3Value": "DN80 / DN100 / DN125 / DN150 / DN200",
+      "spec4Label": "Listed combinations",
+      "spec4Value": "19 main/branch and pipe OD combinations",
+      "model0Name": "DN80 x DN50 · Pipe OD 89 x 60 mm",
+      "model0Reference": "Available on request",
+      "model0Selection": "Select the exact listed size and pipe OD combination; match the groove dimensions.",
+      "model1Name": "DN80 x DN65 · Pipe OD 89 x 76 mm",
+      "model1Reference": "Available on request",
+      "model1Selection": "Select the exact listed size and pipe OD combination; match the groove dimensions.",
+      "model2Name": "DN100 x DN50 · Pipe OD 114 x 60 mm",
+      "model2Reference": "Available on request",
+      "model2Selection": "Select the exact listed size and pipe OD combination; match the groove dimensions.",
+      "model3Name": "DN100 x DN65 · Pipe OD 114 x 76 mm",
+      "model3Reference": "Available on request",
+      "model3Selection": "Select the exact listed size and pipe OD combination; match the groove dimensions.",
+      "model4Name": "DN100 x DN80 · Pipe OD 114 x 89 mm",
+      "model4Reference": "Available on request",
+      "model4Selection": "Select the exact listed size and pipe OD combination; match the groove dimensions.",
+      "model5Name": "DN125 x DN50 · Pipe OD 140 x 60 mm",
+      "model5Reference": "Available on request",
+      "model5Selection": "Select the exact listed size and pipe OD combination; match the groove dimensions.",
+      "model6Name": "DN125 x DN65 · Pipe OD 140 x 76 mm",
+      "model6Reference": "Available on request",
+      "model6Selection": "Select the exact listed size and pipe OD combination; match the groove dimensions.",
+      "model7Name": "DN125 x DN80 · Pipe OD 140 x 89 mm",
+      "model7Reference": "Available on request",
+      "model7Selection": "Select the exact listed size and pipe OD combination; match the groove dimensions.",
+      "model8Name": "DN125 x DN100 · Pipe OD 140 x 114 mm",
+      "model8Reference": "Available on request",
+      "model8Selection": "Select the exact listed size and pipe OD combination; match the groove dimensions.",
+      "model9Name": "DN150 x DN50 · Pipe OD 165 x 60 mm",
+      "model9Reference": "Available on request",
+      "model9Selection": "Select the exact listed size and pipe OD combination; match the groove dimensions.",
+      "model10Name": "DN150 x DN65 · Pipe OD 165 x 76 mm",
+      "model10Reference": "Available on request",
+      "model10Selection": "Select the exact listed size and pipe OD combination; match the groove dimensions.",
+      "model11Name": "DN150 x DN80 · Pipe OD 165 x 89 mm",
+      "model11Reference": "Available on request",
+      "model11Selection": "Select the exact listed size and pipe OD combination; match the groove dimensions.",
+      "model12Name": "DN150 x DN100 · Pipe OD 165 x 114 mm",
+      "model12Reference": "Available on request",
+      "model12Selection": "Select the exact listed size and pipe OD combination; match the groove dimensions.",
+      "model13Name": "DN150 x DN125 · Pipe OD 165 x 140 mm",
+      "model13Reference": "Available on request",
+      "model13Selection": "Select the exact listed size and pipe OD combination; match the groove dimensions.",
+      "model14Name": "DN200 x DN65 · Pipe OD 219 x 76 mm",
+      "model14Reference": "Available on request",
+      "model14Selection": "Select the exact listed size and pipe OD combination; match the groove dimensions.",
+      "model15Name": "DN200 x DN80 · Pipe OD 219 x 89 mm",
+      "model15Reference": "Available on request",
+      "model15Selection": "Select the exact listed size and pipe OD combination; match the groove dimensions.",
+      "model16Name": "DN200 x DN100 · Pipe OD 219 x 114 mm",
+      "model16Reference": "Available on request",
+      "model16Selection": "Select the exact listed size and pipe OD combination; match the groove dimensions.",
+      "model17Name": "DN200 x DN125 · Pipe OD 219 x 140 mm",
+      "model17Reference": "Available on request",
+      "model17Selection": "Select the exact listed size and pipe OD combination; match the groove dimensions.",
+      "model18Name": "DN200 x DN150 · Pipe OD 219 x 165 mm",
+      "model18Reference": "Available on request",
+      "model18Selection": "Select the exact listed size and pipe OD combination; match the groove dimensions.",
+      "selection0Label": "Pipe and groove dimensions",
+      "selection0Body": "Specify both nominal DN and actual pipe outside diameter, with the mating groove profile or drawing.",
+      "selection1Label": "Branch arrangement",
+      "selection1Body": "Provide the main and branch sizes, required flow direction and operating pressure."
+    },
+    "ar": {
+      "onThisPage": "في هذه الصفحة",
+      "gallery": "صور المنتج",
+      "galleryTitle": "عرض المنتج",
+      "galleryBody": "اختر صورة لعرض المنتج أو التكوين الظاهر فيها.",
+      "specifications": "المواصفات",
+      "specificationsTitle": "مواصفات المنتج",
+      "specificationsBody": "استخدم المواصفات مع جدول التكوينات أدناه.",
+      "availableModels": "الموديلات والتكوينات",
+      "modelsTitle": "الموديلات والتكوينات",
+      "modelsBody": "طابق مرجع المنتج وتفاصيل الاختيار مع طلبك.",
+      "modelsNote": "تعرض الصور تكوينات مختارة. حدد الموديل والكمية المطلوبة عند طلب عرض السعر.",
+      "factoryModel": "مرجع المنتج",
+      "configuration": "التكوين",
+      "selectionDetails": "تفاصيل الاختيار",
+      "temperature": "درجة الحرارة",
+      "thermalElement": "العنصر الحراري",
+      "quotation": "طلب عرض سعر",
+      "quotationTitle": "اختر التكوين المطلوب",
+      "quotationBody": "أرسل مرجع المنتج والكمية ووجهة التسليم والمتطلبات أدناه.",
+      "askOnWhatsApp": "استفسر عبر WhatsApp",
+      "emailSales": "راسل قسم المبيعات",
+      "productImagePreview": "معاينة صورة المنتج",
+      "closeImagePreview": "إغلاق معاينة الصورة",
+      "enlargedImage": "صورة مكبرة للمنتج",
+      "previousProductImage": "صورة المنتج السابقة",
+      "nextProductImage": "صورة المنتج التالية",
+      "selectProductImage": "اختر صورة المنتج",
+      "inquiryTitle": "اطلب تفاصيل المنتج وعرض سعر",
+      "inquiryBody": "أرسل التكوين المختار والكمية والوجهة.",
+      "title": "وصلات T مخفضة ذات أخاديد",
+      "lead": "تربط وصلات T المخفضة من حديد الدكتايل فرعًا أصغر بخط أنابيب ذي أخاديد. يحافظ كل خيار مدرج على المقاسين الاسميين للخط والفرع مع القطرين الخارجيين الموافقين.",
+      "eyebrow": "وصلات الأنابيب المحززة",
+      "seoTitle": "وصلات T مخفضة ذات أخاديد | CHUANWEI FIRE",
+      "seoDescription": "تربط وصلات T المخفضة من حديد الدكتايل فرعًا أصغر بخط أنابيب ذي أخاديد. يحافظ كل خيار مدرج على المقاسين الاسميين للخط والفرع مع القطرين الخارجيين الموافقين.",
+      "note": "حدد كلًا من المقاس الاسمي DN والقطر الخارجي الفعلي للأنبوب، مع شكل الأخدود المقابل أو رسمه.",
+      "image0Alt": "وصلة T ذات أخاديد بفرع أصغر.",
+      "image0Caption": "وصلة T ذات أخاديد بفرع أصغر.",
+      "spec0Label": "المادة",
+      "spec0Value": "حديد دكتايل",
+      "spec1Label": "التكوين",
+      "spec1Value": "وصلة T بفرع مخفض",
+      "spec2Label": "التوصيل",
+      "spec2Value": "بأخاديد",
+      "spec3Label": "المقاسات الاسمية للخط الرئيسي",
+      "spec3Value": "DN80 / DN100 / DN125 / DN150 / DN200",
+      "spec4Label": "المجموعات المدرجة",
+      "spec4Value": "19 مجموعة لمقاسي الخط والفرع وقطري الأنبوب الخارجيين",
+      "model0Name": "DN80 x DN50 · القطر الخارجي للأنبوب 89 x 60 mm",
+      "model0Reference": "حسب طلب الاستفسار",
+      "model0Selection": "اختر مجموعة المقاس والقطر الخارجي المدرجة بدقة، وطابق أبعاد الأخدود.",
+      "model1Name": "DN80 x DN65 · القطر الخارجي للأنبوب 89 x 76 mm",
+      "model1Reference": "حسب طلب الاستفسار",
+      "model1Selection": "اختر مجموعة المقاس والقطر الخارجي المدرجة بدقة، وطابق أبعاد الأخدود.",
+      "model2Name": "DN100 x DN50 · القطر الخارجي للأنبوب 114 x 60 mm",
+      "model2Reference": "حسب طلب الاستفسار",
+      "model2Selection": "اختر مجموعة المقاس والقطر الخارجي المدرجة بدقة، وطابق أبعاد الأخدود.",
+      "model3Name": "DN100 x DN65 · القطر الخارجي للأنبوب 114 x 76 mm",
+      "model3Reference": "حسب طلب الاستفسار",
+      "model3Selection": "اختر مجموعة المقاس والقطر الخارجي المدرجة بدقة، وطابق أبعاد الأخدود.",
+      "model4Name": "DN100 x DN80 · القطر الخارجي للأنبوب 114 x 89 mm",
+      "model4Reference": "حسب طلب الاستفسار",
+      "model4Selection": "اختر مجموعة المقاس والقطر الخارجي المدرجة بدقة، وطابق أبعاد الأخدود.",
+      "model5Name": "DN125 x DN50 · القطر الخارجي للأنبوب 140 x 60 mm",
+      "model5Reference": "حسب طلب الاستفسار",
+      "model5Selection": "اختر مجموعة المقاس والقطر الخارجي المدرجة بدقة، وطابق أبعاد الأخدود.",
+      "model6Name": "DN125 x DN65 · القطر الخارجي للأنبوب 140 x 76 mm",
+      "model6Reference": "حسب طلب الاستفسار",
+      "model6Selection": "اختر مجموعة المقاس والقطر الخارجي المدرجة بدقة، وطابق أبعاد الأخدود.",
+      "model7Name": "DN125 x DN80 · القطر الخارجي للأنبوب 140 x 89 mm",
+      "model7Reference": "حسب طلب الاستفسار",
+      "model7Selection": "اختر مجموعة المقاس والقطر الخارجي المدرجة بدقة، وطابق أبعاد الأخدود.",
+      "model8Name": "DN125 x DN100 · القطر الخارجي للأنبوب 140 x 114 mm",
+      "model8Reference": "حسب طلب الاستفسار",
+      "model8Selection": "اختر مجموعة المقاس والقطر الخارجي المدرجة بدقة، وطابق أبعاد الأخدود.",
+      "model9Name": "DN150 x DN50 · القطر الخارجي للأنبوب 165 x 60 mm",
+      "model9Reference": "حسب طلب الاستفسار",
+      "model9Selection": "اختر مجموعة المقاس والقطر الخارجي المدرجة بدقة، وطابق أبعاد الأخدود.",
+      "model10Name": "DN150 x DN65 · القطر الخارجي للأنبوب 165 x 76 mm",
+      "model10Reference": "حسب طلب الاستفسار",
+      "model10Selection": "اختر مجموعة المقاس والقطر الخارجي المدرجة بدقة، وطابق أبعاد الأخدود.",
+      "model11Name": "DN150 x DN80 · القطر الخارجي للأنبوب 165 x 89 mm",
+      "model11Reference": "حسب طلب الاستفسار",
+      "model11Selection": "اختر مجموعة المقاس والقطر الخارجي المدرجة بدقة، وطابق أبعاد الأخدود.",
+      "model12Name": "DN150 x DN100 · القطر الخارجي للأنبوب 165 x 114 mm",
+      "model12Reference": "حسب طلب الاستفسار",
+      "model12Selection": "اختر مجموعة المقاس والقطر الخارجي المدرجة بدقة، وطابق أبعاد الأخدود.",
+      "model13Name": "DN150 x DN125 · القطر الخارجي للأنبوب 165 x 140 mm",
+      "model13Reference": "حسب طلب الاستفسار",
+      "model13Selection": "اختر مجموعة المقاس والقطر الخارجي المدرجة بدقة، وطابق أبعاد الأخدود.",
+      "model14Name": "DN200 x DN65 · القطر الخارجي للأنبوب 219 x 76 mm",
+      "model14Reference": "حسب طلب الاستفسار",
+      "model14Selection": "اختر مجموعة المقاس والقطر الخارجي المدرجة بدقة، وطابق أبعاد الأخدود.",
+      "model15Name": "DN200 x DN80 · القطر الخارجي للأنبوب 219 x 89 mm",
+      "model15Reference": "حسب طلب الاستفسار",
+      "model15Selection": "اختر مجموعة المقاس والقطر الخارجي المدرجة بدقة، وطابق أبعاد الأخدود.",
+      "model16Name": "DN200 x DN100 · القطر الخارجي للأنبوب 219 x 114 mm",
+      "model16Reference": "حسب طلب الاستفسار",
+      "model16Selection": "اختر مجموعة المقاس والقطر الخارجي المدرجة بدقة، وطابق أبعاد الأخدود.",
+      "model17Name": "DN200 x DN125 · القطر الخارجي للأنبوب 219 x 140 mm",
+      "model17Reference": "حسب طلب الاستفسار",
+      "model17Selection": "اختر مجموعة المقاس والقطر الخارجي المدرجة بدقة، وطابق أبعاد الأخدود.",
+      "model18Name": "DN200 x DN150 · القطر الخارجي للأنبوب 219 x 165 mm",
+      "model18Reference": "حسب طلب الاستفسار",
+      "model18Selection": "اختر مجموعة المقاس والقطر الخارجي المدرجة بدقة، وطابق أبعاد الأخدود.",
+      "selection0Label": "أبعاد الأنبوب والأخدود",
+      "selection0Body": "حدد كلًا من المقاس الاسمي DN والقطر الخارجي الفعلي للأنبوب، مع شكل الأخدود المقابل أو رسمه.",
+      "selection1Label": "ترتيب الفرع",
+      "selection1Body": "قدم مقاسي الخط الرئيسي والفرع واتجاه التدفق المطلوب وضغط التشغيل."
+    }
+  }
+}

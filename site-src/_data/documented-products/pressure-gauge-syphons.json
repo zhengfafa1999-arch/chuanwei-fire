@@ -1,0 +1,246 @@
+{
+  "id": "pressure-gauge-syphons",
+  "routeId": "product:pressure-gauge-syphons",
+  "template": "product-series/documented-product.njk",
+  "styles": [
+    "css/common.css",
+    "css/sprinkler-product.css",
+    "css/sprinkler-product-gallery.css",
+    "css/documented-product.css",
+    "css/site-navigation.css"
+  ],
+  "source": {
+    "evidence": "User-selected new-folder product archive; reviewed field-by-field for this product series.",
+    "review": "docs/reviews/material-batch-20261018/mechanical.json",
+    "sourceNames": [
+      "Y100配套系列-不锈钢压力表缓冲弯管"
+    ],
+    "unresolved": [
+      "尺寸、壁厚、额定压力、温度及各材质/接口/外形组合待确认。"
+    ],
+    "notes": [
+      "三材质与两螺纹不做全排列；Y100作为原资料配套字段，不冒充弯管准确工厂型号。"
+    ]
+  },
+  "publication": {
+    "status": "release-candidate",
+    "externalRelease": true,
+    "imageRights": "user-confirmed-website-use",
+    "imageRightsEvidence": "docs/release/website-products-20261018/image-rights-confirmation.json"
+  },
+  "media": {
+    "hero": "assets/products/website-20261018/product-07098132e9e5.webp"
+  },
+  "imageDimensions": {
+    "hero": {
+      "width": 1000,
+      "height": 1000
+    }
+  },
+  "shared": {},
+  "heroFacts": [
+    "spec0Value",
+    "spec1Value",
+    "spec2Value"
+  ],
+  "gallery": [
+    {
+      "media": "hero",
+      "alt": "image0Alt",
+      "caption": "image0Caption",
+      "thumbnailAlt": "image0Alt"
+    }
+  ],
+  "specifications": [
+    {
+      "label": "spec0Label",
+      "value": "spec0Value"
+    },
+    {
+      "label": "spec1Label",
+      "value": "spec1Value"
+    },
+    {
+      "label": "spec2Label",
+      "value": "spec2Value"
+    },
+    {
+      "label": "spec3Label",
+      "value": "spec3Value"
+    }
+  ],
+  "modelColumns": [
+    {
+      "label": "configuration",
+      "field": "configuration",
+      "localized": true
+    },
+    {
+      "label": "selectionDetails",
+      "field": "selection",
+      "localized": true
+    }
+  ],
+  "models": [
+    {
+      "configuration": "model0Name",
+      "factoryReference": "model0Reference",
+      "selection": "model0Selection"
+    },
+    {
+      "configuration": "model1Name",
+      "factoryReference": "model1Reference",
+      "selection": "model1Selection"
+    },
+    {
+      "configuration": "model2Name",
+      "factoryReference": "model2Reference",
+      "selection": "model2Selection"
+    }
+  ],
+  "confirmationItems": [
+    {
+      "label": "selection0Label",
+      "body": "selection0Body"
+    },
+    {
+      "label": "selection1Label",
+      "body": "selection1Body"
+    }
+  ],
+  "inquiry": {
+    "whatsapp": "https://wa.me/8617326528368?text=Hello%2C%20I%20am%20interested%20in%20Pressure%20Gauge%20Syphon%20Tubes.%0AProduct%20page%3A%20https%3A//chuanweifire.com/products/pressure-gauges-accessories/pressure-gauge-syphons.html%0AQuantity%20/%20destination%20/%20requirements%3A",
+    "email": "mailto:zhengcolin1@gmail.com"
+  },
+  "validation": {
+    "anchors": [
+      "gallery",
+      "specifications",
+      "models",
+      "quotation"
+    ],
+    "requiredTechnicalValues": []
+  },
+  "copy": {
+    "en": {
+      "onThisPage": "On this page",
+      "gallery": "Product gallery",
+      "galleryTitle": "Product views",
+      "galleryBody": "Select an image to view the pictured product or configuration.",
+      "specifications": "Specifications",
+      "specificationsTitle": "Product specifications",
+      "specificationsBody": "Use the specifications together with the configuration table below.",
+      "availableModels": "Models & configurations",
+      "modelsTitle": "Models & configurations",
+      "modelsBody": "Match the product reference and selection details to your order.",
+      "modelsNote": "The photographs illustrate selected configurations. Specify the required model and quantity when requesting a quotation.",
+      "factoryModel": "Product reference",
+      "configuration": "Configuration",
+      "selectionDetails": "Selection details",
+      "temperature": "Temperature",
+      "thermalElement": "Thermal element",
+      "quotation": "Request a quotation",
+      "quotationTitle": "Select your configuration",
+      "quotationBody": "Include the product reference, quantity and delivery destination, together with the requirements below.",
+      "askOnWhatsApp": "Ask on WhatsApp",
+      "emailSales": "Email sales",
+      "productImagePreview": "Product image preview",
+      "closeImagePreview": "Close image preview",
+      "enlargedImage": "Enlarged product image",
+      "previousProductImage": "Previous product image",
+      "nextProductImage": "Next product image",
+      "selectProductImage": "Select product image",
+      "inquiryTitle": "Request product details and a quotation",
+      "inquiryBody": "Send your selected configuration, quantity and destination.",
+      "title": "Pressure Gauge Syphon Tubes",
+      "lead": "Coiled stainless steel tube accessories for pressure gauge connection assemblies. The material options are 201, 304 and 316L; thread and coil configuration are specified with the order.",
+      "eyebrow": "Accessories",
+      "seoTitle": "Pressure Gauge Syphon Tubes | CHUANWEI FIRE",
+      "seoDescription": "Coiled stainless steel tube accessories for pressure gauge connection assemblies. The material options are 201, 304 and 316L; thread and coil configuration are specified with the order.",
+      "note": "Choose 201, 304 or 316L and supply the required thread and end arrangement drawing.",
+      "image0Alt": "Coiled syphon tube reference for pressure gauge connections.",
+      "image0Caption": "Coiled syphon tube reference for pressure gauge connections.",
+      "spec0Label": "Accessory type",
+      "spec0Value": "Coiled pressure gauge connection tube",
+      "spec1Label": "Material options",
+      "spec1Value": "201 / 304 / 316L stainless steel",
+      "spec2Label": "Listed thread options",
+      "spec2Value": "M14x1.5 / M20x1.5",
+      "spec3Label": "End arrangement shown",
+      "spec3Value": "Threaded fittings on coiled tube forms",
+      "model0Name": "201 stainless steel",
+      "model0Reference": "Available on request",
+      "model0Selection": "Specify the thread, coil form and end arrangement for this material option.",
+      "model1Name": "304 stainless steel",
+      "model1Reference": "Available on request",
+      "model1Selection": "Specify the thread, coil form and end arrangement for this material option.",
+      "model2Name": "316L stainless steel",
+      "model2Reference": "Available on request",
+      "model2Selection": "Specify the thread, coil form and end arrangement for this material option.",
+      "selection0Label": "Material and end connections",
+      "selection0Body": "Choose 201, 304 or 316L and supply the required thread and end arrangement drawing.",
+      "selection1Label": "Dimensions and service",
+      "selection1Body": "Specify installation space, coil dimensions, operating pressure and process temperature."
+    },
+    "ar": {
+      "onThisPage": "في هذه الصفحة",
+      "gallery": "صور المنتج",
+      "galleryTitle": "عرض المنتج",
+      "galleryBody": "اختر صورة لعرض المنتج أو التكوين الظاهر فيها.",
+      "specifications": "المواصفات",
+      "specificationsTitle": "مواصفات المنتج",
+      "specificationsBody": "استخدم المواصفات مع جدول التكوينات أدناه.",
+      "availableModels": "الموديلات والتكوينات",
+      "modelsTitle": "الموديلات والتكوينات",
+      "modelsBody": "طابق مرجع المنتج وتفاصيل الاختيار مع طلبك.",
+      "modelsNote": "تعرض الصور تكوينات مختارة. حدد الموديل والكمية المطلوبة عند طلب عرض السعر.",
+      "factoryModel": "مرجع المنتج",
+      "configuration": "التكوين",
+      "selectionDetails": "تفاصيل الاختيار",
+      "temperature": "درجة الحرارة",
+      "thermalElement": "العنصر الحراري",
+      "quotation": "طلب عرض سعر",
+      "quotationTitle": "اختر التكوين المطلوب",
+      "quotationBody": "أرسل مرجع المنتج والكمية ووجهة التسليم والمتطلبات أدناه.",
+      "askOnWhatsApp": "استفسر عبر WhatsApp",
+      "emailSales": "راسل قسم المبيعات",
+      "productImagePreview": "معاينة صورة المنتج",
+      "closeImagePreview": "إغلاق معاينة الصورة",
+      "enlargedImage": "صورة مكبرة للمنتج",
+      "previousProductImage": "صورة المنتج السابقة",
+      "nextProductImage": "صورة المنتج التالية",
+      "selectProductImage": "اختر صورة المنتج",
+      "inquiryTitle": "اطلب تفاصيل المنتج وعرض سعر",
+      "inquiryBody": "أرسل التكوين المختار والكمية والوجهة.",
+      "title": "أنابيب سيفون لمقاييس الضغط",
+      "lead": "ملحقات أنبوبية ملتفة من الستانلس ستيل لتجميعات توصيل مقاييس الضغط. خيارات المادة هي 201 و304 و316L؛ ويحدد السن اللولبي وشكل الالتفاف مع الطلب.",
+      "eyebrow": "الملحقات",
+      "seoTitle": "أنابيب سيفون لمقاييس الضغط | CHUANWEI FIRE",
+      "seoDescription": "ملحقات أنبوبية ملتفة من الستانلس ستيل لتجميعات توصيل مقاييس الضغط. خيارات المادة هي 201 و304 و316L؛ ويحدد السن اللولبي وشكل الالتفاف مع الطلب.",
+      "note": "اختر 201 أو 304 أو 316L وقدم رسم السن وترتيب النهايات المطلوب.",
+      "image0Alt": "أنبوب سيفون ملتف لتوصيلات مقاييس الضغط — صورة مرجعية.",
+      "image0Caption": "أنبوب سيفون ملتف لتوصيلات مقاييس الضغط — صورة مرجعية.",
+      "spec0Label": "نوع الملحق",
+      "spec0Value": "أنبوب توصيل ملتف لمقياس ضغط",
+      "spec1Label": "خيارات المادة",
+      "spec1Value": "ستانلس ستيل 201 / 304 / 316L",
+      "spec2Label": "خيارات السن المدرجة",
+      "spec2Value": "M14x1.5 / M20x1.5",
+      "spec3Label": "ترتيب النهايات الظاهر",
+      "spec3Value": "وصلات ملولبة على أنابيب ملتفة",
+      "model0Name": "ستانلس ستيل 201",
+      "model0Reference": "حسب طلب الاستفسار",
+      "model0Selection": "حدد السن وشكل الالتفاف وترتيب النهايات لخيار المادة هذا.",
+      "model1Name": "ستانلس ستيل 304",
+      "model1Reference": "حسب طلب الاستفسار",
+      "model1Selection": "حدد السن وشكل الالتفاف وترتيب النهايات لخيار المادة هذا.",
+      "model2Name": "ستانلس ستيل 316L",
+      "model2Reference": "حسب طلب الاستفسار",
+      "model2Selection": "حدد السن وشكل الالتفاف وترتيب النهايات لخيار المادة هذا.",
+      "selection0Label": "المادة وتوصيلات النهايات",
+      "selection0Body": "اختر 201 أو 304 أو 316L وقدم رسم السن وترتيب النهايات المطلوب.",
+      "selection1Label": "الأبعاد وظروف التشغيل",
+      "selection1Body": "حدد مساحة التركيب وأبعاد الالتفاف وضغط التشغيل ودرجة حرارة العملية."
+    }
+  }
+}

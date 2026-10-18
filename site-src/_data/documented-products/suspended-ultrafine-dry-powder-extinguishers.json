@@ -1,0 +1,307 @@
+{
+  "id": "suspended-ultrafine-dry-powder-extinguishers",
+  "routeId": "product:suspended-ultrafine-dry-powder-extinguishers",
+  "template": "product-series/documented-product.njk",
+  "styles": [
+    "css/common.css",
+    "css/sprinkler-product.css",
+    "css/sprinkler-product-gallery.css",
+    "css/documented-product.css",
+    "css/site-navigation.css"
+  ],
+  "source": {
+    "evidence": "User-selected new-folder product archive; reviewed field-by-field for this product series.",
+    "review": "docs/reviews/material-batch-20261018/extinguishers-alarms.json",
+    "sourceNames": [
+      "03B-悬挂式超细干粉灭火器"
+    ],
+    "unresolved": [
+      "罐体材质、精确动作温度、充装压力、喷射性能及保护范围待同厂同型号文件确认。",
+      "3、4、5、6、10、12 kg仅有规格选项，缺逐款型号、品牌、外观对应。",
+      "图示浙安广消样品制造商资料与笼统福建产地字段不一致，未对外发布省份。"
+    ],
+    "notes": [
+      "8 kg样品品牌浙安广消，制造商广东浙安消防科技有限公司；保留原标识，不当作CHUANWEI自产。",
+      "同名其他厂家FZX-ACT型号钢材、1.2 MPa、68°C等联网参考明确非本SKU，全部排除。",
+      "型号内1.2未拆解成已确认压力。"
+    ]
+  },
+  "publication": {
+    "status": "release-candidate",
+    "externalRelease": true,
+    "imageRights": "user-confirmed-website-use",
+    "imageRightsEvidence": "docs/release/website-products-20261018/image-rights-confirmation.json"
+  },
+  "media": {
+    "hero": "assets/products/website-20261018/product-f00c9fde955f.webp"
+  },
+  "imageDimensions": {
+    "hero": {
+      "width": 1000,
+      "height": 1000
+    }
+  },
+  "shared": {},
+  "heroFacts": [
+    "spec0Value",
+    "spec1Value",
+    "spec2Value"
+  ],
+  "gallery": [
+    {
+      "media": "hero",
+      "alt": "image0Alt",
+      "caption": "image0Caption",
+      "thumbnailAlt": "image0Alt"
+    }
+  ],
+  "specifications": [
+    {
+      "label": "spec0Label",
+      "value": "spec0Value"
+    },
+    {
+      "label": "spec1Label",
+      "value": "spec1Value"
+    },
+    {
+      "label": "spec2Label",
+      "value": "spec2Value"
+    },
+    {
+      "label": "spec3Label",
+      "value": "spec3Value"
+    },
+    {
+      "label": "spec4Label",
+      "value": "spec4Value"
+    }
+  ],
+  "modelColumns": [
+    {
+      "label": "configuration",
+      "field": "configuration",
+      "localized": true
+    },
+    {
+      "label": "factoryModel",
+      "field": "factoryReference",
+      "localized": true
+    },
+    {
+      "label": "selectionDetails",
+      "field": "selection",
+      "localized": true
+    }
+  ],
+  "models": [
+    {
+      "configuration": "model0Name",
+      "factoryReference": "model0Reference",
+      "selection": "model0Selection"
+    },
+    {
+      "configuration": "model1Name",
+      "factoryReference": "model1Reference",
+      "selection": "model1Selection"
+    },
+    {
+      "configuration": "model2Name",
+      "factoryReference": "model2Reference",
+      "selection": "model2Selection"
+    },
+    {
+      "configuration": "model3Name",
+      "factoryReference": "model3Reference",
+      "selection": "model3Selection"
+    },
+    {
+      "configuration": "model4Name",
+      "factoryReference": "model4Reference",
+      "selection": "model4Selection"
+    },
+    {
+      "configuration": "model5Name",
+      "factoryReference": "model5Reference",
+      "selection": "model5Selection"
+    },
+    {
+      "configuration": "model6Name",
+      "factoryReference": "model6Reference",
+      "selection": "model6Selection"
+    }
+  ],
+  "confirmationItems": [
+    {
+      "label": "selection0Label",
+      "body": "selection0Body"
+    },
+    {
+      "label": "selection1Label",
+      "body": "selection1Body"
+    }
+  ],
+  "inquiry": {
+    "whatsapp": "https://wa.me/8617326528368?text=Hello%2C%20I%20am%20interested%20in%20Suspended%20Ultrafine%20Dry%20Powder%20Fire%20Extinguishers.%0AProduct%20page%3A%20https%3A//chuanweifire.com/products/automatic-fire-suppression/suspended-ultrafine-dry-powder-extinguishers.html%0AQuantity%20/%20destination%20/%20requirements%3A",
+    "email": "mailto:zhengcolin1@gmail.com"
+  },
+  "validation": {
+    "anchors": [
+      "gallery",
+      "specifications",
+      "models",
+      "quotation"
+    ],
+    "requiredTechnicalValues": []
+  },
+  "copy": {
+    "en": {
+      "onThisPage": "On this page",
+      "gallery": "Product gallery",
+      "galleryTitle": "Product views",
+      "galleryBody": "Select an image to view the pictured product or configuration.",
+      "specifications": "Specifications",
+      "specificationsTitle": "Product specifications",
+      "specificationsBody": "Use the specifications together with the configuration table below.",
+      "availableModels": "Models & configurations",
+      "modelsTitle": "Models & configurations",
+      "modelsBody": "Match the product reference and selection details to your order.",
+      "modelsNote": "The photographs illustrate selected configurations. Specify the required model and quantity when requesting a quotation.",
+      "factoryModel": "Product reference",
+      "configuration": "Configuration",
+      "selectionDetails": "Selection details",
+      "temperature": "Temperature",
+      "thermalElement": "Thermal element",
+      "quotation": "Request a quotation",
+      "quotationTitle": "Select your configuration",
+      "quotationBody": "Include the product reference, quantity and delivery destination, together with the requirements below.",
+      "askOnWhatsApp": "Ask on WhatsApp",
+      "emailSales": "Email sales",
+      "productImagePreview": "Product image preview",
+      "closeImagePreview": "Close image preview",
+      "enlargedImage": "Enlarged product image",
+      "previousProductImage": "Previous product image",
+      "nextProductImage": "Next product image",
+      "selectProductImage": "Select product image",
+      "inquiryTitle": "Request product details and a quotation",
+      "inquiryBody": "Send your selected configuration, quantity and destination.",
+      "title": "Suspended Ultrafine Dry Powder Fire Extinguishers",
+      "lead": "Suspended automatic extinguishers using ultrafine dry powder. The pictured heat-activated unit has an 8 kg agent charge; additional documented charge options require their own model and appearance confirmation.",
+      "eyebrow": "Automatic Fire Suppression",
+      "seoTitle": "Suspended Ultrafine Dry Powder Fire Extinguishers | CHUANWEI FIRE",
+      "seoDescription": "Suspended automatic extinguishers using ultrafine dry powder. The pictured heat-activated unit has an 8 kg agent charge; additional documented charge options require their own model and appearance confirmation.",
+      "note": "Choose the agent charge and confirm the exact factory model, brand and matching product photo before ordering.",
+      "image0Alt": "Pictured 8 kg unit, factory reference FZX-ACT8/1.2; other charges require their own matching photos.",
+      "image0Caption": "Pictured 8 kg unit, factory reference FZX-ACT8/1.2; other charges require their own matching photos.",
+      "spec0Label": "Extinguishing agent",
+      "spec0Value": "Ultrafine dry powder",
+      "spec1Label": "Installation",
+      "spec1Value": "Suspended",
+      "spec2Label": "Pictured activation",
+      "spec2Value": "Heat-activated discharge head",
+      "spec3Label": "Pictured agent charge",
+      "spec3Value": "8 kg",
+      "spec4Label": "Documented charge options",
+      "spec4Value": "3 / 4 / 5 / 6 / 8 / 10 / 12 kg",
+      "model0Name": "3 kg ultrafine dry powder",
+      "model0Reference": "Available on request",
+      "model0Selection": "Listed charge option; exact model, brand and matching photo required.",
+      "model1Name": "4 kg ultrafine dry powder",
+      "model1Reference": "Available on request",
+      "model1Selection": "Listed charge option; exact model, brand and matching photo required.",
+      "model2Name": "5 kg ultrafine dry powder",
+      "model2Reference": "Available on request",
+      "model2Selection": "Listed charge option; exact model, brand and matching photo required.",
+      "model3Name": "6 kg ultrafine dry powder",
+      "model3Reference": "Available on request",
+      "model3Selection": "Listed charge option; exact model, brand and matching photo required.",
+      "model4Name": "8 kg ultrafine dry powder",
+      "model4Reference": "FZX-ACT8/1.2",
+      "model4Selection": "Pictured model; charge and factory reference documented.",
+      "model5Name": "10 kg ultrafine dry powder",
+      "model5Reference": "Available on request",
+      "model5Selection": "Listed charge option; exact model, brand and matching photo required.",
+      "model6Name": "12 kg ultrafine dry powder",
+      "model6Reference": "Available on request",
+      "model6Selection": "Listed charge option; exact model, brand and matching photo required.",
+      "selection0Label": "Charge and exact model",
+      "selection0Body": "Choose the agent charge and confirm the exact factory model, brand and matching product photo before ordering.",
+      "selection1Label": "Installation design",
+      "selection1Body": "Provide enclosure dimensions, protected hazard, ambient temperature and mounting layout for exact-model documentation review."
+    },
+    "ar": {
+      "onThisPage": "في هذه الصفحة",
+      "gallery": "صور المنتج",
+      "galleryTitle": "عرض المنتج",
+      "galleryBody": "اختر صورة لعرض المنتج أو التكوين الظاهر فيها.",
+      "specifications": "المواصفات",
+      "specificationsTitle": "مواصفات المنتج",
+      "specificationsBody": "استخدم المواصفات مع جدول التكوينات أدناه.",
+      "availableModels": "الموديلات والتكوينات",
+      "modelsTitle": "الموديلات والتكوينات",
+      "modelsBody": "طابق مرجع المنتج وتفاصيل الاختيار مع طلبك.",
+      "modelsNote": "تعرض الصور تكوينات مختارة. حدد الموديل والكمية المطلوبة عند طلب عرض السعر.",
+      "factoryModel": "مرجع المنتج",
+      "configuration": "التكوين",
+      "selectionDetails": "تفاصيل الاختيار",
+      "temperature": "درجة الحرارة",
+      "thermalElement": "العنصر الحراري",
+      "quotation": "طلب عرض سعر",
+      "quotationTitle": "اختر التكوين المطلوب",
+      "quotationBody": "أرسل مرجع المنتج والكمية ووجهة التسليم والمتطلبات أدناه.",
+      "askOnWhatsApp": "استفسر عبر WhatsApp",
+      "emailSales": "راسل قسم المبيعات",
+      "productImagePreview": "معاينة صورة المنتج",
+      "closeImagePreview": "إغلاق معاينة الصورة",
+      "enlargedImage": "صورة مكبرة للمنتج",
+      "previousProductImage": "صورة المنتج السابقة",
+      "nextProductImage": "صورة المنتج التالية",
+      "selectProductImage": "اختر صورة المنتج",
+      "inquiryTitle": "اطلب تفاصيل المنتج وعرض سعر",
+      "inquiryBody": "أرسل التكوين المختار والكمية والوجهة.",
+      "title": "طفايات حريق معلقة بالمسحوق الجاف فائق النعومة",
+      "lead": "طفايات آلية معلقة تستخدم مسحوقاً جافاً فائق النعومة. الوحدة المصورة ذات التفعيل الحراري تحتوي على 8 kg من مادة الإطفاء؛ أما السعات الإضافية الموثقة فتتطلب تأكيد الطراز والشكل الخاصين بها.",
+      "eyebrow": "أجهزة الإطفاء التلقائي",
+      "seoTitle": "طفايات حريق معلقة بالمسحوق الجاف فائق النعومة | CHUANWEI FIRE",
+      "seoDescription": "طفايات آلية معلقة تستخدم مسحوقاً جافاً فائق النعومة. الوحدة المصورة ذات التفعيل الحراري تحتوي على 8 kg من مادة الإطفاء؛ أما السعات الإضافية الموثقة فتتطلب تأكيد الطراز والشكل الخاصين بها.",
+      "note": "اختر سعة مادة الإطفاء وأكد الطراز المصنعي والعلامة والصورة المطابقة قبل الطلب.",
+      "image0Alt": "الوحدة المصورة بسعة 8 kg، المرجع المصنعي FZX-ACT8/1.2؛ تتطلب السعات الأخرى صوراً مطابقة خاصة بها.",
+      "image0Caption": "الوحدة المصورة بسعة 8 kg، المرجع المصنعي FZX-ACT8/1.2؛ تتطلب السعات الأخرى صوراً مطابقة خاصة بها.",
+      "spec0Label": "مادة الإطفاء",
+      "spec0Value": "مسحوق جاف فائق النعومة",
+      "spec1Label": "التركيب",
+      "spec1Value": "معلق",
+      "spec2Label": "تفعيل الوحدة المصورة",
+      "spec2Value": "رأس تفريغ يعمل بالحرارة",
+      "spec3Label": "كتلة مادة الإطفاء في الصورة",
+      "spec3Value": "8 kg",
+      "spec4Label": "خيارات السعة الموثقة",
+      "spec4Value": "3 / 4 / 5 / 6 / 8 / 10 / 12 kg",
+      "model0Name": "مسحوق جاف فائق النعومة بسعة 3 kg",
+      "model0Reference": "حسب طلب الاستفسار",
+      "model0Selection": "خيار سعة مدرج؛ يلزم تحديد الطراز والعلامة والصورة المطابقة.",
+      "model1Name": "مسحوق جاف فائق النعومة بسعة 4 kg",
+      "model1Reference": "حسب طلب الاستفسار",
+      "model1Selection": "خيار سعة مدرج؛ يلزم تحديد الطراز والعلامة والصورة المطابقة.",
+      "model2Name": "مسحوق جاف فائق النعومة بسعة 5 kg",
+      "model2Reference": "حسب طلب الاستفسار",
+      "model2Selection": "خيار سعة مدرج؛ يلزم تحديد الطراز والعلامة والصورة المطابقة.",
+      "model3Name": "مسحوق جاف فائق النعومة بسعة 6 kg",
+      "model3Reference": "حسب طلب الاستفسار",
+      "model3Selection": "خيار سعة مدرج؛ يلزم تحديد الطراز والعلامة والصورة المطابقة.",
+      "model4Name": "مسحوق جاف فائق النعومة بسعة 8 kg",
+      "model4Reference": "FZX-ACT8/1.2",
+      "model4Selection": "الطراز المصور؛ السعة والمرجع المصنعي موثقان.",
+      "model5Name": "مسحوق جاف فائق النعومة بسعة 10 kg",
+      "model5Reference": "حسب طلب الاستفسار",
+      "model5Selection": "خيار سعة مدرج؛ يلزم تحديد الطراز والعلامة والصورة المطابقة.",
+      "model6Name": "مسحوق جاف فائق النعومة بسعة 12 kg",
+      "model6Reference": "حسب طلب الاستفسار",
+      "model6Selection": "خيار سعة مدرج؛ يلزم تحديد الطراز والعلامة والصورة المطابقة.",
+      "selection0Label": "السعة والطراز المحدد",
+      "selection0Body": "اختر سعة مادة الإطفاء وأكد الطراز المصنعي والعلامة والصورة المطابقة قبل الطلب.",
+      "selection1Label": "تصميم التركيب",
+      "selection1Body": "قدم أبعاد الحيز وطبيعة الخطر ودرجة الحرارة المحيطة ومخطط التركيب لمراجعة وثائق الطراز المحدد."
+    }
+  }
+}

@@ -1,0 +1,228 @@
+{
+  "id": "cabinet-aerosol-fire-suppression",
+  "routeId": "product:cabinet-aerosol-fire-suppression",
+  "template": "product-series/documented-product.njk",
+  "styles": [
+    "css/common.css",
+    "css/sprinkler-product.css",
+    "css/sprinkler-product-gallery.css",
+    "css/documented-product.css",
+    "css/site-navigation.css"
+  ],
+  "source": {
+    "evidence": "User-selected new-folder product archive; reviewed field-by-field for this product series.",
+    "review": "docs/reviews/material-batch-20261018/extinguishers-alarms.json",
+    "sourceNames": [
+      "XDX系列-箱柜热气溶胶灭火装置"
+    ],
+    "unresolved": [
+      "精确可供型号、壳体材质、药剂量、动作条件、保护容积、安装间距待核实。",
+      "XDX10G/20G/30G/40G仅为照片候选，缺同型号说明书与供货确认，不列具体SKU。",
+      "原图保护范围m²与m³冲突，未采用。",
+      "资料标题称导轨式，但可见结构为胶贴，DIN导轨兼容性不承诺。"
+    ],
+    "notes": [
+      "不沿用旧QRR候选型号；未把照片上的海外认证文字作为证据。",
+      "未公布胶品牌或粘接强度；图像优化候选如改写标签不得替换原图。"
+    ]
+  },
+  "publication": {
+    "status": "release-candidate",
+    "externalRelease": true,
+    "imageRights": "user-confirmed-website-use",
+    "imageRightsEvidence": "docs/release/website-products-20261018/image-rights-confirmation.json"
+  },
+  "media": {
+    "hero": "assets/products/website-20261018/product-f1f59c837c7c.webp"
+  },
+  "imageDimensions": {
+    "hero": {
+      "width": 1000,
+      "height": 1000
+    }
+  },
+  "shared": {},
+  "heroFacts": [
+    "spec0Value",
+    "spec2Value",
+    "spec3Value"
+  ],
+  "gallery": [
+    {
+      "media": "hero",
+      "alt": "image0Alt",
+      "caption": "image0Caption",
+      "thumbnailAlt": "image0Alt"
+    }
+  ],
+  "specifications": [
+    {
+      "label": "spec0Label",
+      "value": "spec0Value"
+    },
+    {
+      "label": "spec1Label",
+      "value": "spec1Value"
+    },
+    {
+      "label": "spec2Label",
+      "value": "spec2Value"
+    },
+    {
+      "label": "spec3Label",
+      "value": "spec3Value"
+    }
+  ],
+  "modelColumns": [
+    {
+      "label": "configuration",
+      "field": "configuration",
+      "localized": true
+    },
+    {
+      "label": "selectionDetails",
+      "field": "selection",
+      "localized": true
+    }
+  ],
+  "models": [
+    {
+      "configuration": "model0Name",
+      "factoryReference": "model0Reference",
+      "selection": "model0Selection"
+    }
+  ],
+  "confirmationItems": [
+    {
+      "label": "selection0Label",
+      "body": "selection0Body"
+    },
+    {
+      "label": "selection1Label",
+      "body": "selection1Body"
+    }
+  ],
+  "inquiry": {
+    "whatsapp": "https://wa.me/8617326528368?text=Hello%2C%20I%20am%20interested%20in%20Cabinet%20Aerosol%20Fire%20Suppression%20Devices.%0AProduct%20page%3A%20https%3A//chuanweifire.com/products/automatic-fire-suppression/cabinet-aerosol-fire-suppression.html%0AQuantity%20/%20destination%20/%20requirements%3A",
+    "email": "mailto:zhengcolin1@gmail.com"
+  },
+  "validation": {
+    "anchors": [
+      "gallery",
+      "specifications",
+      "models",
+      "quotation"
+    ],
+    "requiredTechnicalValues": []
+  },
+  "copy": {
+    "en": {
+      "onThisPage": "On this page",
+      "gallery": "Product gallery",
+      "galleryTitle": "Product views",
+      "galleryBody": "Select an image to view the pictured product or configuration.",
+      "specifications": "Specifications",
+      "specificationsTitle": "Product specifications",
+      "specificationsBody": "Use the specifications together with the configuration table below.",
+      "availableModels": "Models & configurations",
+      "modelsTitle": "Models & configurations",
+      "modelsBody": "Match the product reference and selection details to your order.",
+      "modelsNote": "The photographs illustrate selected configurations. Specify the required model and quantity when requesting a quotation.",
+      "factoryModel": "Product reference",
+      "configuration": "Configuration",
+      "selectionDetails": "Selection details",
+      "temperature": "Temperature",
+      "thermalElement": "Thermal element",
+      "quotation": "Request a quotation",
+      "quotationTitle": "Select your configuration",
+      "quotationBody": "Include the product reference, quantity and delivery destination, together with the requirements below.",
+      "askOnWhatsApp": "Ask on WhatsApp",
+      "emailSales": "Email sales",
+      "productImagePreview": "Product image preview",
+      "closeImagePreview": "Close image preview",
+      "enlargedImage": "Enlarged product image",
+      "previousProductImage": "Previous product image",
+      "nextProductImage": "Next product image",
+      "selectProductImage": "Select product image",
+      "inquiryTitle": "Request product details and a quotation",
+      "inquiryBody": "Send your selected configuration, quantity and destination.",
+      "title": "Cabinet Aerosol Fire Suppression Devices",
+      "lead": "Compact aerosol fire suppression devices for enclosed electrical cabinets. The supplied configuration shows two thermal leads and a rear mounting surface; device selection depends on the enclosure and exact-model data.",
+      "eyebrow": "Automatic Fire Suppression",
+      "seoTitle": "Cabinet Aerosol Fire Suppression Devices | CHUANWEI FIRE",
+      "seoDescription": "Compact aerosol fire suppression devices for enclosed electrical cabinets. The supplied configuration shows two thermal leads and a rear mounting surface; device selection depends on the enclosure and exact-model data.",
+      "note": "Provide cabinet dimensions, internal equipment, ventilation openings and the protected hazard.",
+      "image0Alt": "Compact device with two thermal leads and a rear mounting surface.",
+      "image0Caption": "Compact device with two thermal leads and a rear mounting surface.",
+      "spec0Label": "Intended configuration",
+      "spec0Value": "Enclosed electrical cabinets",
+      "spec1Label": "Function",
+      "spec1Value": "Release an aerosol extinguishing agent when activated",
+      "spec2Label": "Product form",
+      "spec2Value": "Compact housing with two thermal leads",
+      "spec3Label": "Rear mounting surface",
+      "spec3Value": "Adhesive backing shown in the source photographs",
+      "model0Name": "Compact cabinet device",
+      "model0Reference": "Available on request",
+      "model0Selection": "Thermal-lead configuration; exact device model and charge to be selected for the enclosure.",
+      "selection0Label": "Enclosure details",
+      "selection0Body": "Provide cabinet dimensions, internal equipment, ventilation openings and the protected hazard.",
+      "selection1Label": "Device and installation data",
+      "selection1Body": "Confirm the exact model, agent quantity, activation conditions, installation clearances and mounting method against the product documentation."
+    },
+    "ar": {
+      "onThisPage": "في هذه الصفحة",
+      "gallery": "صور المنتج",
+      "galleryTitle": "عرض المنتج",
+      "galleryBody": "اختر صورة لعرض المنتج أو التكوين الظاهر فيها.",
+      "specifications": "المواصفات",
+      "specificationsTitle": "مواصفات المنتج",
+      "specificationsBody": "استخدم المواصفات مع جدول التكوينات أدناه.",
+      "availableModels": "الموديلات والتكوينات",
+      "modelsTitle": "الموديلات والتكوينات",
+      "modelsBody": "طابق مرجع المنتج وتفاصيل الاختيار مع طلبك.",
+      "modelsNote": "تعرض الصور تكوينات مختارة. حدد الموديل والكمية المطلوبة عند طلب عرض السعر.",
+      "factoryModel": "مرجع المنتج",
+      "configuration": "التكوين",
+      "selectionDetails": "تفاصيل الاختيار",
+      "temperature": "درجة الحرارة",
+      "thermalElement": "العنصر الحراري",
+      "quotation": "طلب عرض سعر",
+      "quotationTitle": "اختر التكوين المطلوب",
+      "quotationBody": "أرسل مرجع المنتج والكمية ووجهة التسليم والمتطلبات أدناه.",
+      "askOnWhatsApp": "استفسر عبر WhatsApp",
+      "emailSales": "راسل قسم المبيعات",
+      "productImagePreview": "معاينة صورة المنتج",
+      "closeImagePreview": "إغلاق معاينة الصورة",
+      "enlargedImage": "صورة مكبرة للمنتج",
+      "previousProductImage": "صورة المنتج السابقة",
+      "nextProductImage": "صورة المنتج التالية",
+      "selectProductImage": "اختر صورة المنتج",
+      "inquiryTitle": "اطلب تفاصيل المنتج وعرض سعر",
+      "inquiryBody": "أرسل التكوين المختار والكمية والوجهة.",
+      "title": "أجهزة إطفاء الحريق بالهباء الجوي للخزائن",
+      "lead": "أجهزة مدمجة لإطفاء الحريق بالهباء الجوي للخزائن الكهربائية المغلقة. يظهر التجهيز المقدم سلكي بدء حراري وسطح تثبيت خلفياً؛ ويعتمد الاختيار على الحيز وبيانات الطراز المحدد.",
+      "eyebrow": "أجهزة الإطفاء التلقائي",
+      "seoTitle": "أجهزة إطفاء الحريق بالهباء الجوي للخزائن | CHUANWEI FIRE",
+      "seoDescription": "أجهزة مدمجة لإطفاء الحريق بالهباء الجوي للخزائن الكهربائية المغلقة. يظهر التجهيز المقدم سلكي بدء حراري وسطح تثبيت خلفياً؛ ويعتمد الاختيار على الحيز وبيانات الطراز المحدد.",
+      "note": "قدم أبعاد الخزانة ومعداتها الداخلية وفتحات التهوية وطبيعة الخطر المطلوب حمايته.",
+      "image0Alt": "جهاز مدمج بسلكي بدء حراري وسطح تثبيت خلفي.",
+      "image0Caption": "جهاز مدمج بسلكي بدء حراري وسطح تثبيت خلفي.",
+      "spec0Label": "الاستخدام المقصود",
+      "spec0Value": "خزائن كهربائية مغلقة",
+      "spec1Label": "الوظيفة",
+      "spec1Value": "إطلاق عامل إطفاء بالهباء الجوي عند التفعيل",
+      "spec2Label": "شكل المنتج",
+      "spec2Value": "غلاف مدمج بسلكي بدء حراري",
+      "spec3Label": "سطح التثبيت الخلفي",
+      "spec3Value": "طبقة لاصقة خلفية ظاهرة في صور المصدر",
+      "model0Name": "جهاز مدمج للخزائن",
+      "model0Reference": "حسب طلب الاستفسار",
+      "model0Selection": "تجهيز بسلكي بدء حراري؛ يحدد الطراز والسعة وفقاً للحيز.",
+      "selection0Label": "تفاصيل الحيز",
+      "selection0Body": "قدم أبعاد الخزانة ومعداتها الداخلية وفتحات التهوية وطبيعة الخطر المطلوب حمايته.",
+      "selection1Label": "بيانات الجهاز والتركيب",
+      "selection1Body": "أكد الطراز وكمية مادة الإطفاء وظروف التفعيل ومسافات الخلوص وطريقة التثبيت وفق وثائق المنتج."
+    }
+  }
+}

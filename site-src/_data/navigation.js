@@ -1,5 +1,6 @@
 import { SITE_ROUTES, assetPrefixFor, resolveSiteRoute } from "./siteRoutes.js";
-import { PRODUCT_FAMILIES, flatProducts, productSuffix } from './productDirectory.js';
+import { flatProducts, productSuffix } from './productDirectory.js';
+import { PRODUCT_BROWSE_GROUPS } from './productBrowseGroups.js';
 
 const PRIMARY_ROUTE_IDS = ["home", "products", "about", "downloads", "contact"];
 const LANGUAGE_ORDER = ["en", "zh", "ar"];
@@ -102,14 +103,26 @@ export function createSiteNavigation(routeId, locale, outputPath) {
     languageLabel: copy.languageLabel,
     quote: copy.quote,
     primaryItems,
-    productGroups: PRODUCT_FAMILIES.map(family => ({
-      name: family.name[locale] || family.name.en,
-      href: resolveSiteRoute(family.routeId, routeLocale(family.routeId, locale), outputPath).href,
-      products: flatProducts(family).map(product => ({
-        name: product.name[locale] || product.name.en,
-        href: resolveSiteRoute(product.routeId, routeLocale(product.routeId, locale), outputPath).href + productSuffix(product)
-      }))
-    })),
+    productGroups: PRODUCT_BROWSE_GROUPS.map(group => {
+      const sections = group.families.map(family => ({
+        id: family.id,
+        name: family.name[locale] || family.name.en,
+        href: resolveSiteRoute(family.routeId, routeLocale(family.routeId, locale), outputPath).href,
+        products: flatProducts(family).map(product => ({
+          name: product.name[locale] || product.name.en,
+          href: resolveSiteRoute(product.routeId, routeLocale(product.routeId, locale), outputPath).href + productSuffix(product)
+        }))
+      }));
+      return {
+        id: group.id,
+        name: group.name[locale] || group.name.en,
+        href: sections.length > 1
+          ? `${resolveSiteRoute('products', routeLocale('products', locale), outputPath).href}?category=${group.id}`
+          : sections[0].href,
+        products: sections.flatMap(section => section.products),
+        sections: sections.length > 1 ? sections : []
+      };
+    }),
     languageItems,
     homeHref: primaryItems.find((item) => item.id === "home").href,
     productsHref: primaryItems.find((item) => item.id === "products").href,
@@ -136,7 +149,13 @@ export function renderSiteHeader(navigation) {
   const primaryItems = navigation.primaryItems.map((item) => {
     const link = `<a href="${escapeHtml(item.href)}" data-site-nav-item="${item.id}"${item.current ? ' aria-current="page"' : ""}>${escapeHtml(item.label)}</a>`;
     if (item.id !== 'products') return link;
-    const groups = navigation.productGroups.map(group => `<details class="global-product-group" name="product-categories"><summary>${escapeHtml(group.name)}</summary><a class="global-product-category" href="${escapeHtml(group.href)}">${escapeHtml(navigation.labels.viewCategory)} →</a>${group.products.map(product => `<a href="${escapeHtml(product.href)}">${escapeHtml(product.name)}</a>`).join('')}</details>`).join('');
+    const productLinks = products => products.map(product => `<a href="${escapeHtml(product.href)}">${escapeHtml(product.name)}</a>`).join('');
+    const groups = navigation.productGroups.map(group => {
+      const content = group.sections.length
+        ? group.sections.map(section => `<section class="global-product-subcategory" data-product-subcategory="${escapeHtml(section.id)}"><h3><a class="global-product-subcategory-link" href="${escapeHtml(section.href)}">${escapeHtml(section.name)} →</a></h3>${productLinks(section.products)}</section>`).join('')
+        : productLinks(group.products);
+      return `<details class="global-product-group" name="product-categories" data-product-browse-group="${escapeHtml(group.id)}"><summary>${escapeHtml(group.name)}</summary><a class="global-product-category" href="${escapeHtml(group.href)}">${escapeHtml(navigation.labels.viewCategory)} →</a>${content}</details>`;
+    }).join('');
     return `<div class="global-products">${link}<details class="global-product-menu"><summary aria-label="${escapeHtml(item.label)}">▾</summary><div class="global-product-panel"><a class="global-product-all" href="${escapeHtml(item.href)}">${escapeHtml(navigation.labels.productDirectory)} →</a><div class="global-product-groups">${groups}</div></div></details></div>`;
   }).join("\n");
   const languageItems = navigation.languageItems.map((item) => `      <a href="${escapeHtml(item.href)}" lang="${item.lang}" dir="${item.dir}" data-site-language-choice="${item.language}" data-language-status="${item.status}" title="${escapeHtml(item.title)}"${item.current ? ' aria-current="true"' : ""}>${escapeHtml(item.label)}</a>`).join("\n");

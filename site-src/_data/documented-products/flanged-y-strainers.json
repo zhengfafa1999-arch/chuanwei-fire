@@ -1,0 +1,297 @@
+{
+  "id": "flanged-y-strainers",
+  "routeId": "product:flanged-y-strainers",
+  "template": "product-series/documented-product.njk",
+  "styles": [
+    "css/common.css",
+    "css/sprinkler-product.css",
+    "css/sprinkler-product-gallery.css",
+    "css/documented-product.css",
+    "css/site-navigation.css"
+  ],
+  "source": {
+    "evidence": "User-selected new-folder product archive; reviewed field-by-field for this product series.",
+    "review": "docs/reviews/material-batch-20261018/mechanical.json",
+    "sourceNames": [
+      "GL41H-16Q-法兰Y型过滤器"
+    ],
+    "unresolved": [
+      "滤网材质和孔径、法兰钻孔及运行温度待确认。"
+    ],
+    "notes": [
+      "仅采用水用途，不沿用有冲突的蒸汽适用性；不映射Class150。"
+    ]
+  },
+  "publication": {
+    "status": "release-candidate",
+    "externalRelease": true,
+    "imageRights": "user-confirmed-website-use",
+    "imageRightsEvidence": "docs/release/website-products-20261018/image-rights-confirmation.json"
+  },
+  "media": {
+    "hero": "assets/products/website-20261018/product-a5b535d720fe.webp"
+  },
+  "imageDimensions": {
+    "hero": {
+      "width": 1254,
+      "height": 1254
+    }
+  },
+  "shared": {},
+  "heroFacts": [
+    "spec0Value",
+    "spec1Value",
+    "spec2Value"
+  ],
+  "gallery": [
+    {
+      "media": "hero",
+      "alt": "image0Alt",
+      "caption": "image0Caption",
+      "thumbnailAlt": "image0Alt"
+    }
+  ],
+  "specifications": [
+    {
+      "label": "spec0Label",
+      "value": "spec0Value"
+    },
+    {
+      "label": "spec1Label",
+      "value": "spec1Value"
+    },
+    {
+      "label": "spec2Label",
+      "value": "spec2Value"
+    },
+    {
+      "label": "spec3Label",
+      "value": "spec3Value"
+    },
+    {
+      "label": "spec4Label",
+      "value": "spec4Value"
+    },
+    {
+      "label": "spec5Label",
+      "value": "spec5Value"
+    },
+    {
+      "label": "spec6Label",
+      "value": "spec6Value"
+    }
+  ],
+  "modelColumns": [
+    {
+      "label": "configuration",
+      "field": "configuration",
+      "localized": true
+    },
+    {
+      "label": "factoryModel",
+      "field": "factoryReference",
+      "localized": true
+    },
+    {
+      "label": "selectionDetails",
+      "field": "selection",
+      "localized": true
+    }
+  ],
+  "models": [
+    {
+      "configuration": "model0Name",
+      "factoryReference": "model0Reference",
+      "selection": "model0Selection"
+    },
+    {
+      "configuration": "model1Name",
+      "factoryReference": "model1Reference",
+      "selection": "model1Selection"
+    },
+    {
+      "configuration": "model2Name",
+      "factoryReference": "model2Reference",
+      "selection": "model2Selection"
+    },
+    {
+      "configuration": "model3Name",
+      "factoryReference": "model3Reference",
+      "selection": "model3Selection"
+    },
+    {
+      "configuration": "model4Name",
+      "factoryReference": "model4Reference",
+      "selection": "model4Selection"
+    }
+  ],
+  "confirmationItems": [
+    {
+      "label": "selection0Label",
+      "body": "selection0Body"
+    },
+    {
+      "label": "selection1Label",
+      "body": "selection1Body"
+    }
+  ],
+  "inquiry": {
+    "whatsapp": "https://wa.me/8617326528368?text=Hello%2C%20I%20am%20interested%20in%20Flanged%20Y%20Strainers.%0AProduct%20page%3A%20https%3A//chuanweifire.com/products/pipeline-valves-strainers/flanged-y-strainers.html%0AQuantity%20/%20destination%20/%20requirements%3A",
+    "email": "mailto:zhengcolin1@gmail.com"
+  },
+  "validation": {
+    "anchors": [
+      "gallery",
+      "specifications",
+      "models",
+      "quotation"
+    ],
+    "requiredTechnicalValues": []
+  },
+  "copy": {
+    "en": {
+      "onThisPage": "On this page",
+      "gallery": "Product gallery",
+      "galleryTitle": "Product views",
+      "galleryBody": "Select an image to view the pictured product or configuration.",
+      "specifications": "Specifications",
+      "specificationsTitle": "Product specifications",
+      "specificationsBody": "Use the specifications together with the configuration table below.",
+      "availableModels": "Models & configurations",
+      "modelsTitle": "Models & configurations",
+      "modelsBody": "Match the product reference and selection details to your order.",
+      "modelsNote": "The photographs illustrate selected configurations. Specify the required model and quantity when requesting a quotation.",
+      "factoryModel": "Product reference",
+      "configuration": "Configuration",
+      "selectionDetails": "Selection details",
+      "temperature": "Temperature",
+      "thermalElement": "Thermal element",
+      "quotation": "Request a quotation",
+      "quotationTitle": "Select your configuration",
+      "quotationBody": "Include the product reference, quantity and delivery destination, together with the requirements below.",
+      "askOnWhatsApp": "Ask on WhatsApp",
+      "emailSales": "Email sales",
+      "productImagePreview": "Product image preview",
+      "closeImagePreview": "Close image preview",
+      "enlargedImage": "Enlarged product image",
+      "previousProductImage": "Previous product image",
+      "nextProductImage": "Next product image",
+      "selectProductImage": "Select product image",
+      "inquiryTitle": "Request product details and a quotation",
+      "inquiryBody": "Send your selected configuration, quantity and destination.",
+      "title": "Flanged Y Strainers",
+      "lead": "The GL41H-16Q Y strainer removes solid particles from water with a perforated screen in a ductile iron body. Five nominal sizes are listed at 1.6 MPa nominal pressure.",
+      "eyebrow": "Pipeline Valves & Strainers",
+      "seoTitle": "Flanged Y Strainers | CHUANWEI FIRE",
+      "seoDescription": "The GL41H-16Q Y strainer removes solid particles from water with a perforated screen in a ductile iron body. Five nominal sizes are listed at 1.6 MPa nominal pressure.",
+      "note": "Specify the nominal size and provide the mating flange drilling and installation dimensions.",
+      "image0Alt": "GL41H-16Q flanged Y strainer.",
+      "image0Caption": "GL41H-16Q flanged Y strainer.",
+      "spec0Label": "Model",
+      "spec0Value": "GL41H-16Q",
+      "spec1Label": "Body material",
+      "spec1Value": "Ductile iron",
+      "spec2Label": "Nominal pressure",
+      "spec2Value": "1.6 MPa",
+      "spec3Label": "Nominal sizes",
+      "spec3Value": "DN50 / DN65 / DN80 / DN100 / DN125",
+      "spec4Label": "Connection",
+      "spec4Value": "Flanged",
+      "spec5Label": "Seal material",
+      "spec5Value": "EPDM",
+      "spec6Label": "Screen and cover",
+      "spec6Value": "Perforated screen; bolted cover",
+      "model0Name": "DN50",
+      "model0Reference": "GL41H-16Q",
+      "model0Selection": "GL41H-16Q · DN50 · flanged connection",
+      "model1Name": "DN65",
+      "model1Reference": "GL41H-16Q",
+      "model1Selection": "GL41H-16Q · DN65 · flanged connection",
+      "model2Name": "DN80",
+      "model2Reference": "GL41H-16Q",
+      "model2Selection": "GL41H-16Q · DN80 · flanged connection",
+      "model3Name": "DN100",
+      "model3Reference": "GL41H-16Q",
+      "model3Selection": "GL41H-16Q · DN100 · flanged connection",
+      "model4Name": "DN125",
+      "model4Reference": "GL41H-16Q",
+      "model4Selection": "GL41H-16Q · DN125 · flanged connection",
+      "selection0Label": "Size and mating flange",
+      "selection0Body": "Specify the nominal size and provide the mating flange drilling and installation dimensions.",
+      "selection1Label": "Filtration duty",
+      "selection1Body": "Specify particle size or screen opening, required flow and water operating conditions."
+    },
+    "ar": {
+      "onThisPage": "في هذه الصفحة",
+      "gallery": "صور المنتج",
+      "galleryTitle": "عرض المنتج",
+      "galleryBody": "اختر صورة لعرض المنتج أو التكوين الظاهر فيها.",
+      "specifications": "المواصفات",
+      "specificationsTitle": "مواصفات المنتج",
+      "specificationsBody": "استخدم المواصفات مع جدول التكوينات أدناه.",
+      "availableModels": "الموديلات والتكوينات",
+      "modelsTitle": "الموديلات والتكوينات",
+      "modelsBody": "طابق مرجع المنتج وتفاصيل الاختيار مع طلبك.",
+      "modelsNote": "تعرض الصور تكوينات مختارة. حدد الموديل والكمية المطلوبة عند طلب عرض السعر.",
+      "factoryModel": "مرجع المنتج",
+      "configuration": "التكوين",
+      "selectionDetails": "تفاصيل الاختيار",
+      "temperature": "درجة الحرارة",
+      "thermalElement": "العنصر الحراري",
+      "quotation": "طلب عرض سعر",
+      "quotationTitle": "اختر التكوين المطلوب",
+      "quotationBody": "أرسل مرجع المنتج والكمية ووجهة التسليم والمتطلبات أدناه.",
+      "askOnWhatsApp": "استفسر عبر WhatsApp",
+      "emailSales": "راسل قسم المبيعات",
+      "productImagePreview": "معاينة صورة المنتج",
+      "closeImagePreview": "إغلاق معاينة الصورة",
+      "enlargedImage": "صورة مكبرة للمنتج",
+      "previousProductImage": "صورة المنتج السابقة",
+      "nextProductImage": "صورة المنتج التالية",
+      "selectProductImage": "اختر صورة المنتج",
+      "inquiryTitle": "اطلب تفاصيل المنتج وعرض سعر",
+      "inquiryBody": "أرسل التكوين المختار والكمية والوجهة.",
+      "title": "مصافٍ بفلنجات على شكل Y",
+      "lead": "تحجز المصفاة GL41H-16Q على شكل Y الجسيمات الصلبة من الماء بواسطة شبكة مثقبة داخل جسم من حديد الدكتايل. تتوفر خمسة مقاسات اسمية موثقة بضغط اسمي 1.6 MPa.",
+      "eyebrow": "صمامات الأنابيب والمصافي",
+      "seoTitle": "مصافٍ بفلنجات على شكل Y | CHUANWEI FIRE",
+      "seoDescription": "تحجز المصفاة GL41H-16Q على شكل Y الجسيمات الصلبة من الماء بواسطة شبكة مثقبة داخل جسم من حديد الدكتايل. تتوفر خمسة مقاسات اسمية موثقة بضغط اسمي 1.6 MPa.",
+      "note": "حدد المقاس الاسمي وقدم أبعاد ثقوب الفلنجة المقابلة وأبعاد التركيب.",
+      "image0Alt": "مصفاة GL41H-16Q بفلنجات على شكل Y.",
+      "image0Caption": "مصفاة GL41H-16Q بفلنجات على شكل Y.",
+      "spec0Label": "الموديل",
+      "spec0Value": "GL41H-16Q",
+      "spec1Label": "مادة الجسم",
+      "spec1Value": "حديد دكتايل",
+      "spec2Label": "الضغط الاسمي",
+      "spec2Value": "1.6 MPa",
+      "spec3Label": "المقاسات الاسمية",
+      "spec3Value": "DN50 / DN65 / DN80 / DN100 / DN125",
+      "spec4Label": "التوصيل",
+      "spec4Value": "بفلنجات",
+      "spec5Label": "مادة مانع التسرب",
+      "spec5Value": "EPDM",
+      "spec6Label": "الشبكة والغطاء",
+      "spec6Value": "شبكة مثقبة وغطاء مثبت بمسامير",
+      "model0Name": "DN50",
+      "model0Reference": "GL41H-16Q",
+      "model0Selection": "GL41H-16Q · DN50 · توصيل بفلنجة",
+      "model1Name": "DN65",
+      "model1Reference": "GL41H-16Q",
+      "model1Selection": "GL41H-16Q · DN65 · توصيل بفلنجة",
+      "model2Name": "DN80",
+      "model2Reference": "GL41H-16Q",
+      "model2Selection": "GL41H-16Q · DN80 · توصيل بفلنجة",
+      "model3Name": "DN100",
+      "model3Reference": "GL41H-16Q",
+      "model3Selection": "GL41H-16Q · DN100 · توصيل بفلنجة",
+      "model4Name": "DN125",
+      "model4Reference": "GL41H-16Q",
+      "model4Selection": "GL41H-16Q · DN125 · توصيل بفلنجة",
+      "selection0Label": "المقاس والفلنجة المقابلة",
+      "selection0Body": "حدد المقاس الاسمي وقدم أبعاد ثقوب الفلنجة المقابلة وأبعاد التركيب.",
+      "selection1Label": "متطلبات الترشيح",
+      "selection1Body": "حدد حجم الجسيمات أو فتحات الشبكة والتدفق المطلوب وظروف تشغيل الماء."
+    }
+  }
+}

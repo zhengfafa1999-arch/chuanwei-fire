@@ -53,11 +53,16 @@ for (const [routeId, definition] of Object.entries(SITE_ROUTES)) {
     assert(html.includes(`src="${versionedPublicAsset('assets/js/site-navigation.js', navigation.assetPrefix)}"`), `${target.outputPath} is missing current shared navigation behavior.`);
     if (html.includes('data-product-finder')) assert(html.includes(`src="${versionedPublicAsset('assets/js/product-finder.js', navigation.assetPrefix)}"`), `${target.outputPath} is missing the current product search behavior.`);
     const categoryGroups = tags(html, 'details').filter(tag => readAttribute(tag, 'class') === 'global-product-group');
-    assert(categoryGroups.length === navigation.productGroups.length, `${target.outputPath} lost a product category.`);
+    assert(categoryGroups.length === navigation.productGroups.length, `${target.outputPath} lost a product browsing group.`);
     assert(categoryGroups.every(tag => !/\sopen(?:\s|=|>)/i.test(tag)), `${target.outputPath} product categories must start collapsed.`);
+    assert(JSON.stringify(categoryGroups.map(tag => readAttribute(tag, 'data-product-browse-group'))) === JSON.stringify(navigation.productGroups.map(group => group.id)), `${target.outputPath} browsing groups differ from the shared group order.`);
     const categoryLinks = tags(html, 'a').filter(tag => readAttribute(tag, 'class') === 'global-product-category');
     assert(categoryLinks.length === navigation.productGroups.length, `${target.outputPath} must link directly to every category.`);
     for (const group of navigation.productGroups) assert(categoryLinks.some(tag => readAttribute(tag, 'href') === group.href), `${target.outputPath} lost its category target ${group.href}.`);
+    const subcategoryLinks = tags(html, 'a').filter(tag => readAttribute(tag, 'class') === 'global-product-subcategory-link');
+    const subcategories = navigation.productGroups.flatMap(group => group.sections);
+    assert(subcategoryLinks.length === subcategories.length, `${target.outputPath} lost a detailed category inside its browsing group.`);
+    for (const section of subcategories) assert(subcategoryLinks.some(tag => readAttribute(tag, 'href') === section.href), `${target.outputPath} lost the detailed category target ${section.href}.`);
 
     let currentPrimaryCount = 0;
     for (const item of navigation.primaryItems) {

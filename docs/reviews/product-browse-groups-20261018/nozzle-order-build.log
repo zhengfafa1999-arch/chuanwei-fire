@@ -1,0 +1,81 @@
+> node tools/validate-routes.mjs
+Route validation passed: 132 route IDs register 265 published outputs and cover all 265 files currently on disk.
+
+> node tools/validate-catalog.mjs
+Catalog validation passed: three confirmed products and six localized outputs are ready.
+
+> node tools/validate-buyer-copy.mjs
+Buyer-copy validation passed: 16603 public copy values; technical scope, image mapping and internal evidence retained.
+
+> node tools/validate-product-search.mjs
+Product search validation passed: 163 assertions across English and Arabic indexes.
+
+> node tools/test-inquiry.mjs
+Inquiry tests passed: EN/AR/ZH drafts preserve fields, reserved characters and newlines; email/WhatsApp retain identical bodies; product drafts use canonical URLs and manual-copy fallback. No messages sent.
+
+> node tools/validate-product-supplements.mjs
+Product supplement validation passed: 22 routes, 44 configurations, 237 fields, 0 localized outputs checked.
+
+> node tools/validate-product-photos.mjs
+Product photo validation passed: 55 photographs, 23 existing series, 110 optimized assets, 0 bilingual outputs.
+Reviewed image replacement validation passed: 31 media slots with exact photograph/configuration and legacy-view mappings.
+
+> node tools/validate-product-watermarks.mjs
+Product watermarks verified: 180 assets; 72 refreshed thumbnails.
+
+> node tools/run-eleventy.mjs
+[11ty] Wrote 266 files in 7.36 seconds (27.7ms each, v3.1.6)
+
+> node tools/normalize-legacy-seo.mjs
+Legacy SEO normalization passed: 0 hand-maintained product pages updated.
+
+> node tools/normalize-legacy-navigation.mjs
+Legacy navigation normalization passed: 0 hand-maintained product pages updated.
+Public asset versioning passed: 265 pages refreshed for current navigation and search assets.
+
+> node tools/normalize-analytics.mjs
+Analytics normalization passed: 265 published pages; GA4 disabled and no consent UI emitted.
+
+> node tools/validate-seo.mjs
+SEO validation passed: 265 published pages have unique titles, descriptions and canonicals plus equivalent hreflang, Open Graph, Twitter and indexation metadata.
+
+> node tools/validate-analytics.mjs
+Analytics validation passed: 265 published pages contain no GA4 loader or consent UI.
+
+> node tools/validate-navigation.mjs
+Navigation validation passed: 265 published pages, 218 product return paths and 0 explicit language fallbacks are consistent.
+
+> node tools/validate-generated.mjs
+Generated-page validation passed: six English and Arabic product outputs are linked and complete.
+
+> node tools/validate-preserved-products.mjs
+Preserved-product validation passed: 54 language outputs retain original structure and media; English content matches immutable fixtures with explicitly reviewed CATWEB-014/015 field substitutions.
+
+> node tools/validate-catalog-products.mjs
+Catalog-product validation passed: 3 shared product source(s), 6 localized outputs.
+
+> node tools/validate-documented-products.mjs
+Documented-product validation passed: 76 release candidates, 152 localized outputs, image-rights release gate retained.
+
+> node tools/validate-product-supplements.mjs --generated
+Product supplement validation passed: 22 routes, 44 configurations, 237 fields, 44 localized outputs checked.
+
+> node tools/validate-product-photos.mjs --generated
+Product photo validation passed: 55 photographs, 23 existing series, 110 optimized assets, 46 bilingual outputs.
+Reviewed image replacement validation passed: 31 media slots with exact photograph/configuration and legacy-view mappings.
+
+> node tools/validate-listings.mjs
+Listing validation passed: 2 product-directory pages and 36 category pages use shared data and templates.
+
+> node tools/validate-public-pages.mjs
+Public-page validation passed: six English/Arabic outputs share one template with confirmed facts, SEO alternates and valid local files.
+
+> node tools/validate-buyer-copy.mjs --generated
+Rendered buyer-copy validation passed: 265 public pages.
+Buyer-copy validation passed: 16603 public copy values; technical scope, image mapping and internal evidence retained.
+
+> node tools/validate-product-watermarks.mjs --generated
+Product watermarks verified: 180 assets; 72 refreshed thumbnails; 265 pages / 168 public image dependencies.
+
+> node tools/validate-static-release.mjs
+Static release audit passed: 265 pages, 2829 images with alt attributes, 77088 internal references and 1036 new-window links checked.

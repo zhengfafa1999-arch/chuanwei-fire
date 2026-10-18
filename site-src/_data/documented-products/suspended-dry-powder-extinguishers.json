@@ -1,0 +1,269 @@
+{
+  "id": "suspended-dry-powder-extinguishers",
+  "routeId": "product:suspended-dry-powder-extinguishers",
+  "template": "product-series/documented-product.njk",
+  "styles": [
+    "css/common.css",
+    "css/sprinkler-product.css",
+    "css/sprinkler-product-gallery.css",
+    "css/documented-product.css",
+    "css/site-navigation.css"
+  ],
+  "source": {
+    "evidence": "User-selected new-folder product archive; reviewed field-by-field for this product series.",
+    "review": "docs/reviews/material-batch-20261018/extinguishers-alarms.json",
+    "sourceNames": [
+      "悬挂式系列-自动干粉灭火器"
+    ],
+    "unresolved": [
+      "精确工厂型号、供货品牌、罐体与释放组件材质待确认。",
+      "保护体积、保护面积、安装高度、充装压力、喷射性能与目的地适用文件待确认。",
+      "93°C仅为询价配置，未建立药剂与装量的一一对应，未列为SKU。"
+    ],
+    "notes": [
+      "仅普通干粉，未把超细干粉或七氟丙烷的参数混入。",
+      "68°C来自普通干粉网页默认值，不推广到超细干粉产品。",
+      "源资料品牌可能随机供货，订单需锁定品牌型号。"
+    ]
+  },
+  "publication": {
+    "status": "release-candidate",
+    "externalRelease": true,
+    "imageRights": "user-confirmed-website-use",
+    "imageRightsEvidence": "docs/release/website-products-20261018/image-rights-confirmation.json"
+  },
+  "media": {
+    "hero": "assets/products/website-20261018/product-889c577fe357.webp"
+  },
+  "imageDimensions": {
+    "hero": {
+      "width": 1000,
+      "height": 1000
+    }
+  },
+  "shared": {},
+  "heroFacts": [
+    "spec0Value",
+    "spec1Value",
+    "spec2Value"
+  ],
+  "gallery": [
+    {
+      "media": "hero",
+      "alt": "image0Alt",
+      "caption": "image0Caption",
+      "thumbnailAlt": "image0Alt"
+    }
+  ],
+  "specifications": [
+    {
+      "label": "spec0Label",
+      "value": "spec0Value"
+    },
+    {
+      "label": "spec1Label",
+      "value": "spec1Value"
+    },
+    {
+      "label": "spec2Label",
+      "value": "spec2Value"
+    },
+    {
+      "label": "spec3Label",
+      "value": "spec3Value"
+    },
+    {
+      "label": "spec4Label",
+      "value": "spec4Value"
+    }
+  ],
+  "modelColumns": [
+    {
+      "label": "configuration",
+      "field": "configuration",
+      "localized": true
+    },
+    {
+      "label": "selectionDetails",
+      "field": "selection",
+      "localized": true
+    }
+  ],
+  "models": [
+    {
+      "configuration": "model0Name",
+      "factoryReference": "model0Reference",
+      "selection": "model0Selection"
+    },
+    {
+      "configuration": "model1Name",
+      "factoryReference": "model1Reference",
+      "selection": "model1Selection"
+    },
+    {
+      "configuration": "model2Name",
+      "factoryReference": "model2Reference",
+      "selection": "model2Selection"
+    },
+    {
+      "configuration": "model3Name",
+      "factoryReference": "model3Reference",
+      "selection": "model3Selection"
+    }
+  ],
+  "confirmationItems": [
+    {
+      "label": "selection0Label",
+      "body": "selection0Body"
+    },
+    {
+      "label": "selection1Label",
+      "body": "selection1Body"
+    }
+  ],
+  "inquiry": {
+    "whatsapp": "https://wa.me/8617326528368?text=Hello%2C%20I%20am%20interested%20in%20Suspended%20Dry%20Powder%20Fire%20Extinguishers.%0AProduct%20page%3A%20https%3A//chuanweifire.com/products/automatic-fire-suppression/suspended-dry-powder-extinguishers.html%0AQuantity%20/%20destination%20/%20requirements%3A",
+    "email": "mailto:zhengcolin1@gmail.com"
+  },
+  "validation": {
+    "anchors": [
+      "gallery",
+      "specifications",
+      "models",
+      "quotation"
+    ],
+    "requiredTechnicalValues": []
+  },
+  "copy": {
+    "en": {
+      "onThisPage": "On this page",
+      "gallery": "Product gallery",
+      "galleryTitle": "Product views",
+      "galleryBody": "Select an image to view the pictured product or configuration.",
+      "specifications": "Specifications",
+      "specificationsTitle": "Product specifications",
+      "specificationsBody": "Use the specifications together with the configuration table below.",
+      "availableModels": "Models & configurations",
+      "modelsTitle": "Models & configurations",
+      "modelsBody": "Match the product reference and selection details to your order.",
+      "modelsNote": "The photographs illustrate selected configurations. Specify the required model and quantity when requesting a quotation.",
+      "factoryModel": "Product reference",
+      "configuration": "Configuration",
+      "selectionDetails": "Selection details",
+      "temperature": "Temperature",
+      "thermalElement": "Thermal element",
+      "quotation": "Request a quotation",
+      "quotationTitle": "Select your configuration",
+      "quotationBody": "Include the product reference, quantity and delivery destination, together with the requirements below.",
+      "askOnWhatsApp": "Ask on WhatsApp",
+      "emailSales": "Email sales",
+      "productImagePreview": "Product image preview",
+      "closeImagePreview": "Close image preview",
+      "enlargedImage": "Enlarged product image",
+      "previousProductImage": "Previous product image",
+      "nextProductImage": "Next product image",
+      "selectProductImage": "Select product image",
+      "inquiryTitle": "Request product details and a quotation",
+      "inquiryBody": "Send your selected configuration, quantity and destination.",
+      "title": "Suspended Dry Powder Fire Extinguishers",
+      "lead": "Suspended dry powder extinguishers with a heat-activated glass-bulb release and top suspension ring. Listed ordinary dry powder charges are 4 kg, 6 kg, 8 kg and 10 kg.",
+      "eyebrow": "Automatic Fire Suppression",
+      "seoTitle": "Suspended Dry Powder Fire Extinguishers | CHUANWEI FIRE",
+      "seoDescription": "Suspended dry powder extinguishers with a heat-activated glass-bulb release and top suspension ring. Listed ordinary dry powder charges are 4 kg, 6 kg, 8 kg and 10 kg.",
+      "note": "Send the protected hazard, room layout and mounting height for model and discharge-coverage review.",
+      "image0Alt": "Ordinary dry powder unit with a suspension ring and thermal release.",
+      "image0Caption": "Ordinary dry powder unit with a suspension ring and thermal release.",
+      "spec0Label": "Extinguishing agent",
+      "spec0Value": "Ordinary dry powder",
+      "spec1Label": "Installation",
+      "spec1Value": "Suspended",
+      "spec2Label": "Activation",
+      "spec2Value": "Heat-activated glass-bulb release",
+      "spec3Label": "Nominal agent charges",
+      "spec3Value": "4 / 6 / 8 / 10 kg",
+      "spec4Label": "Nominal activation temperature",
+      "spec4Value": "68°C, stated default for the ordinary dry powder configuration",
+      "model0Name": "4 kg suspended dry powder",
+      "model0Reference": "Available on request",
+      "model0Selection": "Ordinary dry powder; exact supply model and brand to be specified in the quotation.",
+      "model1Name": "6 kg suspended dry powder",
+      "model1Reference": "Available on request",
+      "model1Selection": "Ordinary dry powder; exact supply model and brand to be specified in the quotation.",
+      "model2Name": "8 kg suspended dry powder",
+      "model2Reference": "Available on request",
+      "model2Selection": "Ordinary dry powder; exact supply model and brand to be specified in the quotation.",
+      "model3Name": "10 kg suspended dry powder",
+      "model3Reference": "Available on request",
+      "model3Selection": "Ordinary dry powder; exact supply model and brand to be specified in the quotation.",
+      "selection0Label": "Protected space",
+      "selection0Body": "Send the protected hazard, room layout and mounting height for model and discharge-coverage review.",
+      "selection1Label": "Charge and thermal release",
+      "selection1Body": "Specify the charge, ambient conditions and required activation temperature; confirm the exact supply model and brand."
+    },
+    "ar": {
+      "onThisPage": "في هذه الصفحة",
+      "gallery": "صور المنتج",
+      "galleryTitle": "عرض المنتج",
+      "galleryBody": "اختر صورة لعرض المنتج أو التكوين الظاهر فيها.",
+      "specifications": "المواصفات",
+      "specificationsTitle": "مواصفات المنتج",
+      "specificationsBody": "استخدم المواصفات مع جدول التكوينات أدناه.",
+      "availableModels": "الموديلات والتكوينات",
+      "modelsTitle": "الموديلات والتكوينات",
+      "modelsBody": "طابق مرجع المنتج وتفاصيل الاختيار مع طلبك.",
+      "modelsNote": "تعرض الصور تكوينات مختارة. حدد الموديل والكمية المطلوبة عند طلب عرض السعر.",
+      "factoryModel": "مرجع المنتج",
+      "configuration": "التكوين",
+      "selectionDetails": "تفاصيل الاختيار",
+      "temperature": "درجة الحرارة",
+      "thermalElement": "العنصر الحراري",
+      "quotation": "طلب عرض سعر",
+      "quotationTitle": "اختر التكوين المطلوب",
+      "quotationBody": "أرسل مرجع المنتج والكمية ووجهة التسليم والمتطلبات أدناه.",
+      "askOnWhatsApp": "استفسر عبر WhatsApp",
+      "emailSales": "راسل قسم المبيعات",
+      "productImagePreview": "معاينة صورة المنتج",
+      "closeImagePreview": "إغلاق معاينة الصورة",
+      "enlargedImage": "صورة مكبرة للمنتج",
+      "previousProductImage": "صورة المنتج السابقة",
+      "nextProductImage": "صورة المنتج التالية",
+      "selectProductImage": "اختر صورة المنتج",
+      "inquiryTitle": "اطلب تفاصيل المنتج وعرض سعر",
+      "inquiryBody": "أرسل التكوين المختار والكمية والوجهة.",
+      "title": "طفايات حريق معلقة بالمسحوق الجاف",
+      "lead": "طفايات معلقة بالمسحوق الجاف مزودة بآلية إطلاق حرارية ذات بصيلة زجاجية وحلقة تعليق علوية. سعات المسحوق الجاف العادي المدرجة هي 4 kg و6 kg و8 kg و10 kg.",
+      "eyebrow": "أجهزة الإطفاء التلقائي",
+      "seoTitle": "طفايات حريق معلقة بالمسحوق الجاف | CHUANWEI FIRE",
+      "seoDescription": "طفايات معلقة بالمسحوق الجاف مزودة بآلية إطلاق حرارية ذات بصيلة زجاجية وحلقة تعليق علوية. سعات المسحوق الجاف العادي المدرجة هي 4 kg و6 kg و8 kg و10 kg.",
+      "note": "أرسل طبيعة الخطر ومخطط الغرفة وارتفاع التركيب لمراجعة الطراز ونطاق التفريغ.",
+      "image0Alt": "وحدة مسحوق جاف عادي بحلقة تعليق وآلية إطلاق حرارية.",
+      "image0Caption": "وحدة مسحوق جاف عادي بحلقة تعليق وآلية إطلاق حرارية.",
+      "spec0Label": "مادة الإطفاء",
+      "spec0Value": "مسحوق جاف عادي",
+      "spec1Label": "التركيب",
+      "spec1Value": "معلق",
+      "spec2Label": "التفعيل",
+      "spec2Value": "آلية إطلاق حرارية ذات بصيلة زجاجية",
+      "spec3Label": "الكتل الاسمية لمادة الإطفاء",
+      "spec3Value": "4 / 6 / 8 / 10 kg",
+      "spec4Label": "درجة حرارة التفعيل الاسمية",
+      "spec4Value": "68°C، القيمة الافتراضية المذكورة لتجهيز المسحوق الجاف العادي",
+      "model0Name": "مسحوق جاف معلق بسعة 4 kg",
+      "model0Reference": "حسب طلب الاستفسار",
+      "model0Selection": "مسحوق جاف عادي؛ يحدد طراز التوريد والعلامة في عرض السعر.",
+      "model1Name": "مسحوق جاف معلق بسعة 6 kg",
+      "model1Reference": "حسب طلب الاستفسار",
+      "model1Selection": "مسحوق جاف عادي؛ يحدد طراز التوريد والعلامة في عرض السعر.",
+      "model2Name": "مسحوق جاف معلق بسعة 8 kg",
+      "model2Reference": "حسب طلب الاستفسار",
+      "model2Selection": "مسحوق جاف عادي؛ يحدد طراز التوريد والعلامة في عرض السعر.",
+      "model3Name": "مسحوق جاف معلق بسعة 10 kg",
+      "model3Reference": "حسب طلب الاستفسار",
+      "model3Selection": "مسحوق جاف عادي؛ يحدد طراز التوريد والعلامة في عرض السعر.",
+      "selection0Label": "الحيز المطلوب حمايته",
+      "selection0Body": "أرسل طبيعة الخطر ومخطط الغرفة وارتفاع التركيب لمراجعة الطراز ونطاق التفريغ.",
+      "selection1Label": "السعة وآلية الإطلاق الحرارية",
+      "selection1Body": "حدد السعة والظروف المحيطة ودرجة حرارة التفعيل المطلوبة، وأكد طراز التوريد والعلامة بدقة."
+    }
+  }
+}

@@ -1,0 +1,232 @@
+{
+  "id": "fire-pressure-maintenance-sets",
+  "routeId": "product:fire-pressure-maintenance-sets",
+  "template": "product-series/documented-product.njk",
+  "styles": [
+    "css/common.css",
+    "css/sprinkler-product.css",
+    "css/sprinkler-product-gallery.css",
+    "css/documented-product.css",
+    "css/site-navigation.css"
+  ],
+  "source": {
+    "evidence": "User-selected new-folder product archive; reviewed field-by-field for this product series.",
+    "review": "docs/reviews/material-batch-20261018/mechanical.json",
+    "sourceNames": [
+      "SQL系列-消防增压稳压设备"
+    ],
+    "unresolved": [
+      "完整SQL型号、罐容、材质、压力、流量、功率与接口资料缺失。"
+    ],
+    "notes": [
+      "只描述可见组装配置，不承诺一用一备、隔膜结构、自动控制逻辑或控制柜包含在内。"
+    ]
+  },
+  "publication": {
+    "status": "release-candidate",
+    "externalRelease": true,
+    "imageRights": "user-confirmed-website-use",
+    "imageRightsEvidence": "docs/release/website-products-20261018/image-rights-confirmation.json"
+  },
+  "media": {
+    "hero": "assets/products/website-20261018/product-55b4b564327d.webp"
+  },
+  "imageDimensions": {
+    "hero": {
+      "width": 1254,
+      "height": 1254
+    }
+  },
+  "shared": {},
+  "heroFacts": [
+    "spec0Value",
+    "spec1Value",
+    "spec2Value"
+  ],
+  "gallery": [
+    {
+      "media": "hero",
+      "alt": "image0Alt",
+      "caption": "image0Caption",
+      "thumbnailAlt": "image0Alt"
+    }
+  ],
+  "specifications": [
+    {
+      "label": "spec0Label",
+      "value": "spec0Value"
+    },
+    {
+      "label": "spec1Label",
+      "value": "spec1Value"
+    },
+    {
+      "label": "spec2Label",
+      "value": "spec2Value"
+    },
+    {
+      "label": "spec3Label",
+      "value": "spec3Value"
+    },
+    {
+      "label": "spec4Label",
+      "value": "spec4Value"
+    }
+  ],
+  "modelColumns": [
+    {
+      "label": "configuration",
+      "field": "configuration",
+      "localized": true
+    },
+    {
+      "label": "selectionDetails",
+      "field": "selection",
+      "localized": true
+    }
+  ],
+  "models": [
+    {
+      "configuration": "model0Name",
+      "factoryReference": "model0Reference",
+      "selection": "model0Selection"
+    }
+  ],
+  "confirmationItems": [
+    {
+      "label": "selection0Label",
+      "body": "selection0Body"
+    },
+    {
+      "label": "selection1Label",
+      "body": "selection1Body"
+    }
+  ],
+  "inquiry": {
+    "whatsapp": "https://wa.me/8617326528368?text=Hello%2C%20I%20am%20interested%20in%20Fire%20Pressure%20Maintenance%20Sets.%0AProduct%20page%3A%20https%3A//chuanweifire.com/products/fire-pumps-controllers/fire-pressure-maintenance-sets.html%0AQuantity%20/%20destination%20/%20requirements%3A",
+    "email": "mailto:zhengcolin1@gmail.com"
+  },
+  "validation": {
+    "anchors": [
+      "gallery",
+      "specifications",
+      "models",
+      "quotation"
+    ],
+    "requiredTechnicalValues": []
+  },
+  "copy": {
+    "en": {
+      "onThisPage": "On this page",
+      "gallery": "Product gallery",
+      "galleryTitle": "Product views",
+      "galleryBody": "Select an image to view the pictured product or configuration.",
+      "specifications": "Specifications",
+      "specificationsTitle": "Product specifications",
+      "specificationsBody": "Use the specifications together with the configuration table below.",
+      "availableModels": "Models & configurations",
+      "modelsTitle": "Models & configurations",
+      "modelsBody": "Match the product reference and selection details to your order.",
+      "modelsNote": "The photographs illustrate selected configurations. Specify the required model and quantity when requesting a quotation.",
+      "factoryModel": "Product reference",
+      "configuration": "Configuration",
+      "selectionDetails": "Selection details",
+      "temperature": "Temperature",
+      "thermalElement": "Thermal element",
+      "quotation": "Request a quotation",
+      "quotationTitle": "Select your configuration",
+      "quotationBody": "Include the product reference, quantity and delivery destination, together with the requirements below.",
+      "askOnWhatsApp": "Ask on WhatsApp",
+      "emailSales": "Email sales",
+      "productImagePreview": "Product image preview",
+      "closeImagePreview": "Close image preview",
+      "enlargedImage": "Enlarged product image",
+      "previousProductImage": "Previous product image",
+      "nextProductImage": "Next product image",
+      "selectProductImage": "Select product image",
+      "inquiryTitle": "Request product details and a quotation",
+      "inquiryBody": "Send your selected configuration, quantity and destination.",
+      "title": "Fire Pressure Maintenance Sets",
+      "lead": "The SQL series reference assembly combines a vertical pressure vessel and two pumps on a common skid for fire water pressure maintenance.",
+      "eyebrow": "Fire Pumps & Control Cabinets",
+      "seoTitle": "Fire Pressure Maintenance Sets | CHUANWEI FIRE",
+      "seoDescription": "The SQL series reference assembly combines a vertical pressure vessel and two pumps on a common skid for fire water pressure maintenance.",
+      "note": "Provide the required operating pressure, usable water volume and pressure-maintenance flow.",
+      "image0Alt": "SQL reference assembly with a vertical vessel and two pumps.",
+      "image0Caption": "SQL reference assembly with a vertical vessel and two pumps.",
+      "spec0Label": "Series",
+      "spec0Value": "SQL",
+      "spec1Label": "Duty",
+      "spec1Value": "Fire water pressure maintenance",
+      "spec2Label": "Vessel arrangement shown",
+      "spec2Value": "Vertical vessel",
+      "spec3Label": "Pump count shown",
+      "spec3Value": "Two pumps",
+      "spec4Label": "Assembly shown",
+      "spec4Value": "Vessel and pumps on a common skid",
+      "model0Name": "SQL series reference assembly",
+      "model0Reference": "Available on request",
+      "model0Selection": "Vertical vessel and two pumps; select the vessel and pump duty for the project.",
+      "selection0Label": "Pressure and vessel duty",
+      "selection0Body": "Provide the required operating pressure, usable water volume and pressure-maintenance flow.",
+      "selection1Label": "Assembly scope",
+      "selection1Body": "Specify pump configuration, power supply, control requirements and the equipment to include in the set."
+    },
+    "ar": {
+      "onThisPage": "في هذه الصفحة",
+      "gallery": "صور المنتج",
+      "galleryTitle": "عرض المنتج",
+      "galleryBody": "اختر صورة لعرض المنتج أو التكوين الظاهر فيها.",
+      "specifications": "المواصفات",
+      "specificationsTitle": "مواصفات المنتج",
+      "specificationsBody": "استخدم المواصفات مع جدول التكوينات أدناه.",
+      "availableModels": "الموديلات والتكوينات",
+      "modelsTitle": "الموديلات والتكوينات",
+      "modelsBody": "طابق مرجع المنتج وتفاصيل الاختيار مع طلبك.",
+      "modelsNote": "تعرض الصور تكوينات مختارة. حدد الموديل والكمية المطلوبة عند طلب عرض السعر.",
+      "factoryModel": "مرجع المنتج",
+      "configuration": "التكوين",
+      "selectionDetails": "تفاصيل الاختيار",
+      "temperature": "درجة الحرارة",
+      "thermalElement": "العنصر الحراري",
+      "quotation": "طلب عرض سعر",
+      "quotationTitle": "اختر التكوين المطلوب",
+      "quotationBody": "أرسل مرجع المنتج والكمية ووجهة التسليم والمتطلبات أدناه.",
+      "askOnWhatsApp": "استفسر عبر WhatsApp",
+      "emailSales": "راسل قسم المبيعات",
+      "productImagePreview": "معاينة صورة المنتج",
+      "closeImagePreview": "إغلاق معاينة الصورة",
+      "enlargedImage": "صورة مكبرة للمنتج",
+      "previousProductImage": "صورة المنتج السابقة",
+      "nextProductImage": "صورة المنتج التالية",
+      "selectProductImage": "اختر صورة المنتج",
+      "inquiryTitle": "اطلب تفاصيل المنتج وعرض سعر",
+      "inquiryBody": "أرسل التكوين المختار والكمية والوجهة.",
+      "title": "مجموعات تثبيت ضغط مياه الحريق",
+      "lead": "يجمع التكوين المرجعي من سلسلة SQL خزان ضغط رأسيًا ومضختين على قاعدة مشتركة لتثبيت ضغط مياه الحريق.",
+      "eyebrow": "مضخات الحريق وخزائن التحكم",
+      "seoTitle": "مجموعات تثبيت ضغط مياه الحريق | CHUANWEI FIRE",
+      "seoDescription": "يجمع التكوين المرجعي من سلسلة SQL خزان ضغط رأسيًا ومضختين على قاعدة مشتركة لتثبيت ضغط مياه الحريق.",
+      "note": "قدم ضغط التشغيل المطلوب وحجم الماء القابل للاستخدام وتدفق تثبيت الضغط.",
+      "image0Alt": "تكوين SQL المرجعي بخزان رأسي ومضختين.",
+      "image0Caption": "تكوين SQL المرجعي بخزان رأسي ومضختين.",
+      "spec0Label": "السلسلة",
+      "spec0Value": "SQL",
+      "spec1Label": "الوظيفة",
+      "spec1Value": "تثبيت ضغط مياه الحريق",
+      "spec2Label": "ترتيب الخزان الظاهر",
+      "spec2Value": "خزان رأسي",
+      "spec3Label": "عدد المضخات الظاهر",
+      "spec3Value": "مضختان",
+      "spec4Label": "التجميع الظاهر",
+      "spec4Value": "الخزان والمضختان على قاعدة مشتركة",
+      "model0Name": "التكوين المرجعي لسلسلة SQL",
+      "model0Reference": "حسب طلب الاستفسار",
+      "model0Selection": "خزان رأسي ومضختان؛ حدد مواصفات الخزان ونقطة تشغيل المضخات حسب المشروع.",
+      "selection0Label": "الضغط ومتطلبات الخزان",
+      "selection0Body": "قدم ضغط التشغيل المطلوب وحجم الماء القابل للاستخدام وتدفق تثبيت الضغط.",
+      "selection1Label": "نطاق التجميع",
+      "selection1Body": "حدد تكوين المضخات والتغذية الكهربائية ومتطلبات التحكم والمعدات المطلوب تضمينها في المجموعة."
+    }
+  }
+}

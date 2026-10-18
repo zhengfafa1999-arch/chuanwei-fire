@@ -1,0 +1,230 @@
+{
+  "id": "fire-alarm-input-output-modules",
+  "routeId": "product:fire-alarm-input-output-modules",
+  "template": "product-series/documented-product.njk",
+  "styles": [
+    "css/common.css",
+    "css/sprinkler-product.css",
+    "css/sprinkler-product-gallery.css",
+    "css/documented-product.css",
+    "css/site-navigation.css"
+  ],
+  "source": {
+    "evidence": "User-selected new-folder product archive; reviewed field-by-field for this product series.",
+    "review": "docs/reviews/material-batch-20261018/extinguishers-alarms.json",
+    "sourceNames": [
+      "TX3212-输入输出模块"
+    ],
+    "unresolved": [
+      "供电、输入方式、输出触点容量、通道数、协议、接线与尺寸未核实。"
+    ],
+    "notes": [
+      "包装86/33/86的cm字段不合理，未擅自改成mm。",
+      "不宣称直接驱动电机、泵或通用兼容；未编造接线图。"
+    ]
+  },
+  "publication": {
+    "status": "release-candidate",
+    "externalRelease": true,
+    "imageRights": "user-confirmed-website-use",
+    "imageRightsEvidence": "docs/release/website-products-20261018/image-rights-confirmation.json"
+  },
+  "media": {
+    "hero": "assets/products/website-20261018/product-dc92d71eabaf.webp"
+  },
+  "imageDimensions": {
+    "hero": {
+      "width": 1254,
+      "height": 1254
+    }
+  },
+  "shared": {},
+  "heroFacts": [
+    "spec0Value",
+    "spec1Value",
+    "spec2Value"
+  ],
+  "gallery": [
+    {
+      "media": "hero",
+      "alt": "image0Alt",
+      "caption": "image0Caption",
+      "thumbnailAlt": "image0Alt"
+    }
+  ],
+  "specifications": [
+    {
+      "label": "spec0Label",
+      "value": "spec0Value"
+    },
+    {
+      "label": "spec1Label",
+      "value": "spec1Value"
+    },
+    {
+      "label": "spec2Label",
+      "value": "spec2Value"
+    },
+    {
+      "label": "spec3Label",
+      "value": "spec3Value"
+    }
+  ],
+  "modelColumns": [
+    {
+      "label": "configuration",
+      "field": "configuration",
+      "localized": true
+    },
+    {
+      "label": "factoryModel",
+      "field": "factoryReference",
+      "localized": true
+    },
+    {
+      "label": "selectionDetails",
+      "field": "selection",
+      "localized": true
+    }
+  ],
+  "models": [
+    {
+      "configuration": "model0Name",
+      "factoryReference": "model0Reference",
+      "selection": "model0Selection"
+    }
+  ],
+  "confirmationItems": [
+    {
+      "label": "selection0Label",
+      "body": "selection0Body"
+    },
+    {
+      "label": "selection1Label",
+      "body": "selection1Body"
+    }
+  ],
+  "inquiry": {
+    "whatsapp": "https://wa.me/8617326528368?text=Hello%2C%20I%20am%20interested%20in%20Fire%20Alarm%20Input/Output%20Modules.%0AProduct%20page%3A%20https%3A//chuanweifire.com/products/fire-alarm-systems/fire-alarm-input-output-modules.html%0AQuantity%20/%20destination%20/%20requirements%3A",
+    "email": "mailto:zhengcolin1@gmail.com"
+  },
+  "validation": {
+    "anchors": [
+      "gallery",
+      "specifications",
+      "models",
+      "quotation"
+    ],
+    "requiredTechnicalValues": []
+  },
+  "copy": {
+    "en": {
+      "onThisPage": "On this page",
+      "gallery": "Product gallery",
+      "galleryTitle": "Product views",
+      "galleryBody": "Select an image to view the pictured product or configuration.",
+      "specifications": "Specifications",
+      "specificationsTitle": "Product specifications",
+      "specificationsBody": "Use the specifications together with the configuration table below.",
+      "availableModels": "Models & configurations",
+      "modelsTitle": "Models & configurations",
+      "modelsBody": "Match the product reference and selection details to your order.",
+      "modelsNote": "The photographs illustrate selected configurations. Specify the required model and quantity when requesting a quotation.",
+      "factoryModel": "Product reference",
+      "configuration": "Configuration",
+      "selectionDetails": "Selection details",
+      "temperature": "Temperature",
+      "thermalElement": "Thermal element",
+      "quotation": "Request a quotation",
+      "quotationTitle": "Select your configuration",
+      "quotationBody": "Include the product reference, quantity and delivery destination, together with the requirements below.",
+      "askOnWhatsApp": "Ask on WhatsApp",
+      "emailSales": "Email sales",
+      "productImagePreview": "Product image preview",
+      "closeImagePreview": "Close image preview",
+      "enlargedImage": "Enlarged product image",
+      "previousProductImage": "Previous product image",
+      "nextProductImage": "Next product image",
+      "selectProductImage": "Select product image",
+      "inquiryTitle": "Request product details and a quotation",
+      "inquiryBody": "Send your selected configuration, quantity and destination.",
+      "title": "Fire Alarm Input/Output Modules",
+      "lead": "Tanda input/output modules for compatible fire alarm control interfaces. The supplied TX3212 configuration uses a plug-in base; electrical interfaces must be matched to the connected equipment.",
+      "eyebrow": "Fire Alarm Equipment",
+      "seoTitle": "Fire Alarm Input/Output Modules | CHUANWEI FIRE",
+      "seoDescription": "Tanda input/output modules for compatible fire alarm control interfaces. The supplied TX3212 configuration uses a plug-in base; electrical interfaces must be matched to the connected equipment.",
+      "note": "Provide the control panel model, protocol and existing device references so compatibility can be checked before supply.",
+      "image0Alt": "TX3212 input/output module configuration.",
+      "image0Caption": "TX3212 input/output module configuration.",
+      "spec0Label": "Product brand",
+      "spec0Value": "Tanda",
+      "spec1Label": "Product type",
+      "spec1Value": "Fire alarm input/output module",
+      "spec2Label": "Interface functions",
+      "spec2Value": "Input and output",
+      "spec3Label": "Base arrangement",
+      "spec3Value": "Plug-in base",
+      "model0Name": "Input/output module",
+      "model0Reference": "TX3212",
+      "model0Selection": "Plug-in base configuration; specify control and feedback requirements.",
+      "selection0Label": "Control panel compatibility",
+      "selection0Body": "Provide the control panel model, protocol and existing device references so compatibility can be checked before supply.",
+      "selection1Label": "Controlled equipment and signals",
+      "selection1Body": "Provide the equipment wiring diagram, required input signal and output contact rating so the interface can be checked."
+    },
+    "ar": {
+      "onThisPage": "في هذه الصفحة",
+      "gallery": "صور المنتج",
+      "galleryTitle": "عرض المنتج",
+      "galleryBody": "اختر صورة لعرض المنتج أو التكوين الظاهر فيها.",
+      "specifications": "المواصفات",
+      "specificationsTitle": "مواصفات المنتج",
+      "specificationsBody": "استخدم المواصفات مع جدول التكوينات أدناه.",
+      "availableModels": "الموديلات والتكوينات",
+      "modelsTitle": "الموديلات والتكوينات",
+      "modelsBody": "طابق مرجع المنتج وتفاصيل الاختيار مع طلبك.",
+      "modelsNote": "تعرض الصور تكوينات مختارة. حدد الموديل والكمية المطلوبة عند طلب عرض السعر.",
+      "factoryModel": "مرجع المنتج",
+      "configuration": "التكوين",
+      "selectionDetails": "تفاصيل الاختيار",
+      "temperature": "درجة الحرارة",
+      "thermalElement": "العنصر الحراري",
+      "quotation": "طلب عرض سعر",
+      "quotationTitle": "اختر التكوين المطلوب",
+      "quotationBody": "أرسل مرجع المنتج والكمية ووجهة التسليم والمتطلبات أدناه.",
+      "askOnWhatsApp": "استفسر عبر WhatsApp",
+      "emailSales": "راسل قسم المبيعات",
+      "productImagePreview": "معاينة صورة المنتج",
+      "closeImagePreview": "إغلاق معاينة الصورة",
+      "enlargedImage": "صورة مكبرة للمنتج",
+      "previousProductImage": "صورة المنتج السابقة",
+      "nextProductImage": "صورة المنتج التالية",
+      "selectProductImage": "اختر صورة المنتج",
+      "inquiryTitle": "اطلب تفاصيل المنتج وعرض سعر",
+      "inquiryBody": "أرسل التكوين المختار والكمية والوجهة.",
+      "title": "وحدات إدخال وإخراج لإنذار الحريق",
+      "lead": "وحدات إدخال وإخراج من Tanda لواجهات التحكم المتوافقة مع إنذار الحريق. يستخدم تجهيز TX3212 المقدم قاعدة قابلة للتوصيل؛ ويجب مطابقة الواجهات الكهربائية مع المعدات المتصلة.",
+      "eyebrow": "معدات إنذار الحريق",
+      "seoTitle": "وحدات إدخال وإخراج لإنذار الحريق | CHUANWEI FIRE",
+      "seoDescription": "وحدات إدخال وإخراج من Tanda لواجهات التحكم المتوافقة مع إنذار الحريق. يستخدم تجهيز TX3212 المقدم قاعدة قابلة للتوصيل؛ ويجب مطابقة الواجهات الكهربائية مع المعدات المتصلة.",
+      "note": "قدم طراز لوحة التحكم والبروتوكول ومراجع الأجهزة الحالية للتحقق من التوافق قبل التوريد.",
+      "image0Alt": "تجهيز وحدة الإدخال والإخراج TX3212.",
+      "image0Caption": "تجهيز وحدة الإدخال والإخراج TX3212.",
+      "spec0Label": "العلامة التجارية للمنتج",
+      "spec0Value": "Tanda",
+      "spec1Label": "نوع المنتج",
+      "spec1Value": "وحدة إدخال وإخراج لإنذار الحريق",
+      "spec2Label": "وظائف الواجهة",
+      "spec2Value": "إدخال وإخراج",
+      "spec3Label": "تجهيز القاعدة",
+      "spec3Value": "قاعدة قابلة للتوصيل",
+      "model0Name": "وحدة إدخال وإخراج",
+      "model0Reference": "TX3212",
+      "model0Selection": "تجهيز بقاعدة قابلة للتوصيل؛ حدد متطلبات التحكم والتغذية الراجعة.",
+      "selection0Label": "توافق لوحة التحكم",
+      "selection0Body": "قدم طراز لوحة التحكم والبروتوكول ومراجع الأجهزة الحالية للتحقق من التوافق قبل التوريد.",
+      "selection1Label": "المعدات المتحكم بها والإشارات",
+      "selection1Body": "قدم مخطط توصيل المعدات وإشارة الإدخال المطلوبة وتصنيف نقاط خرج التلامس للتحقق من الواجهة."
+    }
+  }
+}

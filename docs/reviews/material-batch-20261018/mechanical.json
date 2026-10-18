@@ -1,0 +1,4845 @@
+{
+  "products": [
+    {
+      "id": "vertical-multistage-fire-pumps",
+      "familyId": "fire-pumps-controllers",
+      "name": {
+        "en": "Vertical Multistage Fire Pumps",
+        "ar": "مضخات حريق رأسية متعددة المراحل",
+        "zh": "立式多级消防泵"
+      },
+      "lead": {
+        "en": "The XBD4.0/1W-CDL is a vertical multistage fire pump with a documented duty of 3.6 m³/h at 40 m head and a 1.1 kW motor.",
+        "ar": "الموديل XBD4.0/1W-CDL مضخة حريق رأسية متعددة المراحل، بتدفق موثق يبلغ 3.6 m³/h ورفع 40 m ومحرك بقدرة 1.1 kW."
+      },
+      "sourceNames": [
+        "XBD4.0-1W-CDL-立式多级消防泵"
+      ],
+      "heroSourceName": "XBD4.0-1W-CDL-立式多级消防泵",
+      "specs": [
+        {
+          "label": {
+            "en": "Model",
+            "ar": "الموديل"
+          },
+          "value": {
+            "en": "XBD4.0/1W-CDL",
+            "ar": "XBD4.0/1W-CDL"
+          },
+          "sources": [
+            "02-产品资料/1601981411831_XBD4.0-1W-CDL-立式多级消防泵/原产品资料/source/来源与事实.json"
+          ],
+          "evidence": "Documented"
+        },
+        {
+          "label": {
+            "en": "Construction",
+            "ar": "التركيب"
+          },
+          "value": {
+            "en": "Vertical multistage",
+            "ar": "رأسي متعدد المراحل"
+          },
+          "sources": [
+            "02-产品资料/1601981411831_XBD4.0-1W-CDL-立式多级消防泵/原产品资料/source/来源与事实.json"
+          ],
+          "evidence": "Documented"
+        },
+        {
+          "label": {
+            "en": "Rated flow",
+            "ar": "التدفق المقنن"
+          },
+          "value": {
+            "en": "3.6 m³/h",
+            "ar": "3.6 m³/h"
+          },
+          "sources": [
+            "02-产品资料/1601981411831_XBD4.0-1W-CDL-立式多级消防泵/原产品资料/source/来源与事实.json"
+          ],
+          "evidence": "Documented"
+        },
+        {
+          "label": {
+            "en": "Rated head",
+            "ar": "الرفع المقنن"
+          },
+          "value": {
+            "en": "40 m",
+            "ar": "40 m"
+          },
+          "sources": [
+            "02-产品资料/1601981411831_XBD4.0-1W-CDL-立式多级消防泵/原产品资料/source/来源与事实.json"
+          ],
+          "evidence": "Documented"
+        },
+        {
+          "label": {
+            "en": "Rated power",
+            "ar": "القدرة المقننة"
+          },
+          "value": {
+            "en": "1.1 kW",
+            "ar": "1.1 kW"
+          },
+          "sources": [
+            "02-产品资料/1601981411831_XBD4.0-1W-CDL-立式多级消防泵/原产品资料/source/来源与事实.json"
+          ],
+          "evidence": "Documented"
+        },
+        {
+          "label": {
+            "en": "Supply voltage",
+            "ar": "جهد التغذية"
+          },
+          "value": {
+            "en": "380 V",
+            "ar": "380 V"
+          },
+          "sources": [
+            "02-产品资料/1601981411831_XBD4.0-1W-CDL-立式多级消防泵/原产品资料/source/来源与事实.json"
+          ],
+          "evidence": "Documented"
+        },
+        {
+          "label": {
+            "en": "Inlet",
+            "ar": "المدخل"
+          },
+          "value": {
+            "en": "DN32",
+            "ar": "DN32"
+          },
+          "sources": [
+            "02-产品资料/1601981411831_XBD4.0-1W-CDL-立式多级消防泵/原产品资料/source/来源与事实.json"
+          ],
+          "evidence": "Documented"
+        }
+      ],
+      "models": [
+        {
+          "name": {
+            "en": "XBD4.0/1W-CDL",
+            "ar": "XBD4.0/1W-CDL"
+          },
+          "factoryReference": "XBD4.0/1W-CDL",
+          "selection": {
+            "en": "3.6 m³/h · 40 m · 1.1 kW · 380 V · DN32 inlet",
+            "ar": "3.6 m³/h · 40 m · 1.1 kW · 380 V · مدخل DN32"
+          },
+          "sourceNames": [
+            "XBD4.0-1W-CDL-立式多级消防泵"
+          ],
+          "sources": [
+            "02-产品资料/1601981411831_XBD4.0-1W-CDL-立式多级消防泵/原产品资料/source/来源与事实.json"
+          ]
+        }
+      ],
+      "selectionPrompts": [
+        {
+          "label": {
+            "en": "Hydraulic duty",
+            "ar": "نقطة التشغيل الهيدروليكية"
+          },
+          "body": {
+            "en": "Send the required flow and head, the system duty and the proposed installation arrangement.",
+            "ar": "أرسل التدفق والرفع المطلوبين ووظيفة النظام وترتيب التركيب المقترح."
+          }
+        },
+        {
+          "label": {
+            "en": "Motor and connections",
+            "ar": "المحرك والتوصيلات"
+          },
+          "body": {
+            "en": "Specify the site voltage and frequency, motor requirements and mating pipe or flange drawings.",
+            "ar": "حدد جهد الموقع وتردده ومتطلبات المحرك ورسومات الأنابيب أو الفلنجات المقابلة."
+          }
+        }
+      ],
+      "imageCaptions": {
+        "XBD4.0-1W-CDL-立式多级消防泵": {
+          "en": "XBD4.0/1W-CDL vertical multistage pump.",
+          "ar": "مضخة رأسية متعددة المراحل XBD4.0/1W-CDL."
+        }
+      },
+      "unresolved": [
+        "电源频率、出口尺寸、曲线、接液件及筒体材质需核实。"
+      ],
+      "notes": [
+        "使用准确SKU XBD4.0/1W-CDL，不沿用网页标题GDL或无单位最大流量360/扬程210。"
+      ]
+    },
+    {
+      "id": "vertical-single-stage-fire-pumps",
+      "familyId": "fire-pumps-controllers",
+      "name": {
+        "en": "Vertical Single-stage Fire Pumps",
+        "ar": "مضخات حريق رأسية أحادية المرحلة",
+        "zh": "立式单级消防泵"
+      },
+      "lead": {
+        "en": "A vertical single-stage electric pump for hydrant and sprinkler water supply, with a cast iron pump body and opposed flanged ports.",
+        "ar": "مضخة كهربائية رأسية أحادية المرحلة لتغذية صنابير الحريق والرشاشات بالماء، بجسم من الحديد الزهر وفتحتي توصيل متقابلتين بفلنجات."
+      },
+      "sourceNames": [
+        "XBD立式系列-立式单级消防泵"
+      ],
+      "heroSourceName": "XBD立式系列-立式单级消防泵",
+      "specs": [
+        {
+          "label": {
+            "en": "Pump construction",
+            "ar": "تركيب المضخة"
+          },
+          "value": {
+            "en": "Vertical single stage",
+            "ar": "رأسية أحادية المرحلة"
+          },
+          "sources": [
+            "02-产品资料/1601980744625_XBD立式系列-立式单级消防泵/原产品资料/copy/技术参数证据表.json"
+          ],
+          "evidence": "Confirmed"
+        },
+        {
+          "label": {
+            "en": "Pump body",
+            "ar": "جسم المضخة"
+          },
+          "value": {
+            "en": "Cast iron",
+            "ar": "حديد زهر"
+          },
+          "sources": [
+            "02-产品资料/1601980744625_XBD立式系列-立式单级消防泵/原产品资料/copy/技术参数证据表.json"
+          ],
+          "evidence": "Confirmed"
+        },
+        {
+          "label": {
+            "en": "Drive",
+            "ar": "التشغيل"
+          },
+          "value": {
+            "en": "Electric motor",
+            "ar": "محرك كهربائي"
+          },
+          "sources": [
+            "02-产品资料/1601980744625_XBD立式系列-立式单级消防泵/原产品资料/copy/技术参数证据表.json"
+          ],
+          "evidence": "Confirmed"
+        },
+        {
+          "label": {
+            "en": "Connection arrangement",
+            "ar": "ترتيب التوصيلات"
+          },
+          "value": {
+            "en": "Opposed inline flanged ports",
+            "ar": "فتحتان متقابلتان على خط واحد بفلنجات"
+          },
+          "sources": [
+            "02-产品资料/1601980744625_XBD立式系列-立式单级消防泵/原产品资料/copy/技术参数证据表.json"
+          ],
+          "evidence": "Visible"
+        },
+        {
+          "label": {
+            "en": "Motor position",
+            "ar": "موضع المحرك"
+          },
+          "value": {
+            "en": "Above the pump casing",
+            "ar": "أعلى جسم المضخة"
+          },
+          "sources": [
+            "02-产品资料/1601980744625_XBD立式系列-立式单级消防泵/原产品资料/copy/技术参数证据表.json"
+          ],
+          "evidence": "Visible"
+        },
+        {
+          "label": {
+            "en": "Application",
+            "ar": "الاستخدام"
+          },
+          "value": {
+            "en": "Hydrant and sprinkler water supply",
+            "ar": "تغذية صنابير الحريق والرشاشات بالماء"
+          },
+          "sources": [
+            "02-产品资料/1601980744625_XBD立式系列-立式单级消防泵/原产品资料/copy/技术参数证据表.json"
+          ],
+          "evidence": "Confirmed"
+        }
+      ],
+      "models": [
+        {
+          "name": {
+            "en": "Vertical single-stage configuration",
+            "ar": "تكوين رأسي أحادي المرحلة"
+          },
+          "factoryReference": "Available on request",
+          "selection": {
+            "en": "Select the exact vertical model against the required duty point and motor data.",
+            "ar": "اختر الموديل الرأسي الدقيق وفق نقطة التشغيل المطلوبة وبيانات المحرك."
+          },
+          "sourceNames": [
+            "XBD立式系列-立式单级消防泵"
+          ],
+          "sources": [
+            "02-产品资料/1601980744625_XBD立式系列-立式单级消防泵/原产品资料/copy/listing-fields.json"
+          ]
+        }
+      ],
+      "selectionPrompts": [
+        {
+          "label": {
+            "en": "Hydraulic duty",
+            "ar": "نقطة التشغيل الهيدروليكية"
+          },
+          "body": {
+            "en": "Send the required flow and head, the system duty and the proposed installation arrangement.",
+            "ar": "أرسل التدفق والرفع المطلوبين ووظيفة النظام وترتيب التركيب المقترح."
+          }
+        },
+        {
+          "label": {
+            "en": "Motor and connections",
+            "ar": "المحرك والتوصيلات"
+          },
+          "body": {
+            "en": "Specify the site voltage and frequency, motor requirements and mating pipe or flange drawings.",
+            "ar": "حدد جهد الموقع وتردده ومتطلبات المحرك ورسومات الأنابيب أو الفلنجات المقابلة."
+          }
+        }
+      ],
+      "imageCaptions": {
+        "XBD立式系列-立式单级消防泵": {
+          "en": "Vertical single-stage pump with the motor above the casing.",
+          "ar": "مضخة رأسية أحادية المرحلة والمحرك أعلى الجسم."
+        }
+      },
+      "unresolved": [
+        "缺立式泵准确型号、性能曲线、电机铭牌和尺寸图。"
+      ],
+      "notes": [
+        "来源SKU原始值中的17个XBD...W-JXL型号为卧式，按listing-fields明确排除；不把其流量、扬程、功率、380 V或DN200移植到本立式款。"
+      ]
+    },
+    {
+      "id": "fire-pressure-maintenance-sets",
+      "familyId": "fire-pumps-controllers",
+      "name": {
+        "en": "Fire Pressure Maintenance Sets",
+        "ar": "مجموعات تثبيت ضغط مياه الحريق",
+        "zh": "消防增压稳压设备"
+      },
+      "lead": {
+        "en": "The SQL series reference assembly combines a vertical pressure vessel and two pumps on a common skid for fire water pressure maintenance.",
+        "ar": "يجمع التكوين المرجعي من سلسلة SQL خزان ضغط رأسيًا ومضختين على قاعدة مشتركة لتثبيت ضغط مياه الحريق."
+      },
+      "sourceNames": [
+        "SQL系列-消防增压稳压设备"
+      ],
+      "heroSourceName": "SQL系列-消防增压稳压设备",
+      "specs": [
+        {
+          "label": {
+            "en": "Series",
+            "ar": "السلسلة"
+          },
+          "value": {
+            "en": "SQL",
+            "ar": "SQL"
+          },
+          "sources": [
+            "02-产品资料/1601980769434_SQL系列-消防增压稳压设备/原产品资料/copy/技术参数证据表.json"
+          ],
+          "evidence": "Confirmed"
+        },
+        {
+          "label": {
+            "en": "Duty",
+            "ar": "الوظيفة"
+          },
+          "value": {
+            "en": "Fire water pressure maintenance",
+            "ar": "تثبيت ضغط مياه الحريق"
+          },
+          "sources": [
+            "02-产品资料/1601980769434_SQL系列-消防增压稳压设备/原产品资料/copy/技术参数证据表.json"
+          ],
+          "evidence": "Confirmed"
+        },
+        {
+          "label": {
+            "en": "Vessel arrangement shown",
+            "ar": "ترتيب الخزان الظاهر"
+          },
+          "value": {
+            "en": "Vertical vessel",
+            "ar": "خزان رأسي"
+          },
+          "sources": [
+            "02-产品资料/1601980769434_SQL系列-消防增压稳压设备/原产品资料/copy/技术参数证据表.json"
+          ],
+          "evidence": "Visible"
+        },
+        {
+          "label": {
+            "en": "Pump count shown",
+            "ar": "عدد المضخات الظاهر"
+          },
+          "value": {
+            "en": "Two pumps",
+            "ar": "مضختان"
+          },
+          "sources": [
+            "02-产品资料/1601980769434_SQL系列-消防增压稳压设备/原产品资料/copy/技术参数证据表.json"
+          ],
+          "evidence": "Visible"
+        },
+        {
+          "label": {
+            "en": "Assembly shown",
+            "ar": "التجميع الظاهر"
+          },
+          "value": {
+            "en": "Vessel and pumps on a common skid",
+            "ar": "الخزان والمضختان على قاعدة مشتركة"
+          },
+          "sources": [
+            "02-产品资料/1601980769434_SQL系列-消防增压稳压设备/原产品资料/copy/技术参数证据表.json"
+          ],
+          "evidence": "Visible"
+        }
+      ],
+      "models": [
+        {
+          "name": {
+            "en": "SQL series reference assembly",
+            "ar": "التكوين المرجعي لسلسلة SQL"
+          },
+          "factoryReference": "Available on request",
+          "selection": {
+            "en": "Vertical vessel and two pumps; select the vessel and pump duty for the project.",
+            "ar": "خزان رأسي ومضختان؛ حدد مواصفات الخزان ونقطة تشغيل المضخات حسب المشروع."
+          },
+          "sourceNames": [
+            "SQL系列-消防增压稳压设备"
+          ],
+          "sources": [
+            "02-产品资料/1601980769434_SQL系列-消防增压稳压设备/原产品资料/copy/listing-fields.json"
+          ]
+        }
+      ],
+      "selectionPrompts": [
+        {
+          "label": {
+            "en": "Pressure and vessel duty",
+            "ar": "الضغط ومتطلبات الخزان"
+          },
+          "body": {
+            "en": "Provide the required operating pressure, usable water volume and pressure-maintenance flow.",
+            "ar": "قدم ضغط التشغيل المطلوب وحجم الماء القابل للاستخدام وتدفق تثبيت الضغط."
+          }
+        },
+        {
+          "label": {
+            "en": "Assembly scope",
+            "ar": "نطاق التجميع"
+          },
+          "body": {
+            "en": "Specify pump configuration, power supply, control requirements and the equipment to include in the set.",
+            "ar": "حدد تكوين المضخات والتغذية الكهربائية ومتطلبات التحكم والمعدات المطلوب تضمينها في المجموعة."
+          }
+        }
+      ],
+      "imageCaptions": {
+        "SQL系列-消防增压稳压设备": {
+          "en": "SQL reference assembly with a vertical vessel and two pumps.",
+          "ar": "تكوين SQL المرجعي بخزان رأسي ومضختين."
+        }
+      },
+      "unresolved": [
+        "完整SQL型号、罐容、材质、压力、流量、功率与接口资料缺失。"
+      ],
+      "notes": [
+        "只描述可见组装配置，不承诺一用一备、隔膜结构、自动控制逻辑或控制柜包含在内。"
+      ]
+    },
+    {
+      "id": "automatic-transfer-control-cabinets",
+      "familyId": "fire-pumps-controllers",
+      "name": {
+        "en": "Dual Power Control Cabinets",
+        "ar": "خزائن تحكم بمصدرَي تغذية",
+        "zh": "双电源控制柜"
+      },
+      "lead": {
+        "en": "The JX-ATS-63A is a dual power control cabinet with a cold rolled steel enclosure and a documented 380 V supply.",
+        "ar": "JX-ATS-63A خزانة تحكم بمصدرَي تغذية، بهيكل من الفولاذ المدرفل على البارد وجهد تغذية موثق يبلغ 380 V."
+      },
+      "sourceNames": [
+        "JX-ATS-63A-双电源控制柜"
+      ],
+      "heroSourceName": "JX-ATS-63A-双电源控制柜",
+      "specs": [
+        {
+          "label": {
+            "en": "Model",
+            "ar": "الموديل"
+          },
+          "value": {
+            "en": "JX-ATS-63A",
+            "ar": "JX-ATS-63A"
+          },
+          "sources": [
+            "02-产品资料/1601981514334_JX-ATS-63A-双电源控制柜/原产品资料/source/来源与事实.json"
+          ],
+          "evidence": "Documented"
+        },
+        {
+          "label": {
+            "en": "Cabinet function",
+            "ar": "وظيفة الخزانة"
+          },
+          "value": {
+            "en": "Dual power supply control",
+            "ar": "التحكم بمصدرَي تغذية"
+          },
+          "sources": [
+            "02-产品资料/1601981514334_JX-ATS-63A-双电源控制柜/原产品资料/source/来源与事实.json"
+          ],
+          "evidence": "Documented"
+        },
+        {
+          "label": {
+            "en": "Supply voltage",
+            "ar": "جهد التغذية"
+          },
+          "value": {
+            "en": "380 V",
+            "ar": "380 V"
+          },
+          "sources": [
+            "02-产品资料/1601981514334_JX-ATS-63A-双电源控制柜/原产品资料/source/来源与事实.json"
+          ],
+          "evidence": "Documented"
+        },
+        {
+          "label": {
+            "en": "Enclosure",
+            "ar": "الهيكل"
+          },
+          "value": {
+            "en": "Cold rolled steel",
+            "ar": "فولاذ مدرفل على البارد"
+          },
+          "sources": [
+            "02-产品资料/1601981514334_JX-ATS-63A-双电源控制柜/原产品资料/source/来源与事实.json"
+          ],
+          "evidence": "Documented"
+        }
+      ],
+      "models": [
+        {
+          "name": {
+            "en": "JX-ATS-63A dual power cabinet",
+            "ar": "خزانة بمصدرَي تغذية JX-ATS-63A"
+          },
+          "factoryReference": "JX-ATS-63A",
+          "selection": {
+            "en": "380 V; electrical arrangement specified to the approved control schematic.",
+            "ar": "380 V؛ يحدد التكوين الكهربائي وفق مخطط التحكم المعتمد."
+          },
+          "sourceNames": [
+            "JX-ATS-63A-双电源控制柜"
+          ],
+          "sources": [
+            "02-产品资料/1601981514334_JX-ATS-63A-双电源控制柜/原产品资料/source/来源与事实.json"
+          ]
+        }
+      ],
+      "selectionPrompts": [
+        {
+          "label": {
+            "en": "Power arrangement",
+            "ar": "ترتيب التغذية"
+          },
+          "body": {
+            "en": "Send both supply specifications, connected load and the required changeover sequence.",
+            "ar": "أرسل مواصفات مصدرَي التغذية والحمل المتصل وتسلسل التحويل المطلوب."
+          }
+        },
+        {
+          "label": {
+            "en": "Cabinet configuration",
+            "ar": "تكوين الخزانة"
+          },
+          "body": {
+            "en": "Provide the control schematic, site frequency, installation dimensions and required enclosure protection.",
+            "ar": "قدم مخطط التحكم وتردد الموقع وأبعاد التركيب ودرجة حماية الهيكل المطلوبة."
+          }
+        }
+      ],
+      "imageCaptions": {
+        "JX-ATS-63A-双电源控制柜": {
+          "en": "JX-ATS-63A dual power control cabinet.",
+          "ar": "خزانة تحكم بمصدرَي تغذية JX-ATS-63A."
+        }
+      },
+      "unresolved": [
+        "额定电流、转换逻辑、频率、尺寸和防护等级按准确供货柜核实。"
+      ],
+      "notes": [
+        "型号中的63A不另行当作已核实额定电流；不采用异常尺寸140 mm、重量100 g、22/30 W或未经证实的IP55。",
+        "页面slug按现有规划保留automatic-transfer，但买家名称仅使用资料已确认的dual power control。"
+      ]
+    },
+    {
+      "id": "fire-pump-inspection-control-cabinets",
+      "familyId": "fire-pumps-controllers",
+      "name": {
+        "en": "Fire Pump Inspection & Control Cabinets",
+        "ar": "خزائن فحص وتحكم لمضخات الحريق",
+        "zh": "消防泵巡检控制柜"
+      },
+      "lead": {
+        "en": "Choose an inspection control cabinet or a dual power cabinet for the required fire pump electrical arrangement. The photographed configurations are identified separately in the selection table.",
+        "ar": "اختر خزانة فحص وتحكم أو خزانة بمصدرَي تغذية وفق الترتيب الكهربائي المطلوب لمضخات الحريق. تعرض التكوينات المصورة بشكل منفصل في جدول الاختيار."
+      },
+      "sourceNames": [
+        "JX-XFXJ与JX-ATS系列-消防泵控制柜",
+        "未标型号-消防泵巡检控制柜"
+      ],
+      "heroSourceName": "JX-XFXJ与JX-ATS系列-消防泵控制柜",
+      "specs": [
+        {
+          "label": {
+            "en": "Named cabinet models",
+            "ar": "موديلات الخزائن المسماة"
+          },
+          "value": {
+            "en": "JX-XFXJ-7.5 / JX-ATS-63A",
+            "ar": "JX-XFXJ-7.5 / JX-ATS-63A"
+          },
+          "sources": [
+            "02-产品资料/1601980705769_JX-XFXJ与JX-ATS系列-消防泵控制柜/原产品资料/copy/技术参数证据表.json"
+          ],
+          "evidence": "Confirmed"
+        },
+        {
+          "label": {
+            "en": "JX-XFXJ-7.5 function",
+            "ar": "وظيفة JX-XFXJ-7.5"
+          },
+          "value": {
+            "en": "Inspection control",
+            "ar": "الفحص والتحكم"
+          },
+          "sources": [
+            "02-产品资料/1601980705769_JX-XFXJ与JX-ATS系列-消防泵控制柜/原产品资料/copy/listing-fields.json"
+          ],
+          "evidence": "Confirmed"
+        },
+        {
+          "label": {
+            "en": "JX-ATS-63A function",
+            "ar": "وظيفة JX-ATS-63A"
+          },
+          "value": {
+            "en": "Dual power supply control",
+            "ar": "التحكم بمصدرَي تغذية"
+          },
+          "sources": [
+            "02-产品资料/1601980705769_JX-XFXJ与JX-ATS系列-消防泵控制柜/原产品资料/copy/listing-fields.json"
+          ],
+          "evidence": "Confirmed"
+        },
+        {
+          "label": {
+            "en": "Named cabinet supply",
+            "ar": "تغذية الخزائن المسماة"
+          },
+          "value": {
+            "en": "380 V",
+            "ar": "380 V"
+          },
+          "sources": [
+            "02-产品资料/1601980705769_JX-XFXJ与JX-ATS系列-消防泵控制柜/原产品资料/copy/技术参数证据表.json"
+          ],
+          "evidence": "Confirmed"
+        },
+        {
+          "label": {
+            "en": "Named cabinet dimensions",
+            "ar": "أبعاد الخزائن المسماة"
+          },
+          "value": {
+            "en": "1200 × 600 × 400 mm; supplier sequence",
+            "ar": "1200 × 600 × 400 mm؛ حسب ترتيب المورد"
+          },
+          "sources": [
+            "02-产品资料/1601980705769_JX-XFXJ与JX-ATS系列-消防泵控制柜/原产品资料/copy/技术参数证据表.json"
+          ],
+          "evidence": "Confirmed"
+        },
+        {
+          "label": {
+            "en": "Named cabinet enclosure",
+            "ar": "هيكل الخزائن المسماة"
+          },
+          "value": {
+            "en": "Cold rolled steel",
+            "ar": "فولاذ مدرفل على البارد"
+          },
+          "sources": [
+            "02-产品资料/1601980705769_JX-XFXJ与JX-ATS系列-消防泵控制柜/原产品资料/copy/技术参数证据表.json"
+          ],
+          "evidence": "Confirmed"
+        },
+        {
+          "label": {
+            "en": "Additional photographed cabinet supply",
+            "ar": "تغذية الخزانة الإضافية المصورة"
+          },
+          "value": {
+            "en": "380 V",
+            "ar": "380 V"
+          },
+          "sources": [
+            "02-产品资料/1601981440810_未标型号-消防泵巡检控制柜/原产品资料/source/来源与事实.json"
+          ],
+          "evidence": "Documented"
+        },
+        {
+          "label": {
+            "en": "Additional photographed cabinet enclosure",
+            "ar": "هيكل الخزانة الإضافية المصورة"
+          },
+          "value": {
+            "en": "Cold rolled steel",
+            "ar": "فولاذ مدرفل على البارد"
+          },
+          "sources": [
+            "02-产品资料/1601981440810_未标型号-消防泵巡检控制柜/原产品资料/source/来源与事实.json"
+          ],
+          "evidence": "Documented"
+        }
+      ],
+      "models": [
+        {
+          "name": {
+            "en": "JX-XFXJ-7.5 inspection cabinet",
+            "ar": "خزانة فحص JX-XFXJ-7.5"
+          },
+          "factoryReference": "JX-XFXJ-7.5",
+          "selection": {
+            "en": "Inspection control; 380 V; cabinet 1200 × 600 × 400 mm in supplier sequence.",
+            "ar": "فحص وتحكم؛ 380 V؛ أبعاد الخزانة 1200 × 600 × 400 mm حسب ترتيب المورد."
+          },
+          "sourceNames": [
+            "JX-XFXJ与JX-ATS系列-消防泵控制柜"
+          ],
+          "sources": [
+            "02-产品资料/1601980705769_JX-XFXJ与JX-ATS系列-消防泵控制柜/原产品资料/copy/listing-fields.json"
+          ]
+        },
+        {
+          "name": {
+            "en": "JX-ATS-63A dual power cabinet",
+            "ar": "خزانة بمصدرَي تغذية JX-ATS-63A"
+          },
+          "factoryReference": "JX-ATS-63A",
+          "selection": {
+            "en": "Dual power control; 380 V; cabinet 1200 × 600 × 400 mm in supplier sequence.",
+            "ar": "تحكم بمصدرَي تغذية؛ 380 V؛ أبعاد الخزانة 1200 × 600 × 400 mm حسب ترتيب المورد."
+          },
+          "sourceNames": [
+            "JX-XFXJ与JX-ATS系列-消防泵控制柜"
+          ],
+          "sources": [
+            "02-产品资料/1601980705769_JX-XFXJ与JX-ATS系列-消防泵控制柜/原产品资料/copy/listing-fields.json"
+          ]
+        },
+        {
+          "name": {
+            "en": "Additional inspection cabinet configuration",
+            "ar": "تكوين إضافي لخزانة فحص"
+          },
+          "factoryReference": "Available on request",
+          "selection": {
+            "en": "380 V, cold rolled steel enclosure; identify the exact cabinet from the reference image when enquiring.",
+            "ar": "380 V، هيكل من الفولاذ المدرفل على البارد؛ حدد الخزانة المطلوبة من الصورة المرجعية عند الاستفسار."
+          },
+          "sourceNames": [
+            "未标型号-消防泵巡检控制柜"
+          ],
+          "sources": [
+            "02-产品资料/1601981440810_未标型号-消防泵巡检控制柜/原产品资料/source/来源与事实.json"
+          ]
+        }
+      ],
+      "selectionPrompts": [
+        {
+          "label": {
+            "en": "Pump and control duty",
+            "ar": "متطلبات المضخات والتحكم"
+          },
+          "body": {
+            "en": "State the number of connected pumps, each motor rating and the inspection or power-control function required.",
+            "ar": "حدد عدد المضخات المتصلة وقدرة كل محرك ووظيفة الفحص أو التحكم بالتغذية المطلوبة."
+          }
+        },
+        {
+          "label": {
+            "en": "Schematic and installation",
+            "ar": "المخطط والتركيب"
+          },
+          "body": {
+            "en": "Send the approved control schematic, supply frequency and cabinet layout; identify the photographed configuration to be supplied.",
+            "ar": "أرسل مخطط التحكم المعتمد وتردد التغذية ومخطط الخزانة، وحدد التكوين المصور المطلوب توريده."
+          }
+        }
+      ],
+      "imageCaptions": {
+        "JX-XFXJ与JX-ATS系列-消防泵控制柜": {
+          "en": "JX-XFXJ series inspection cabinet reference.",
+          "ar": "صورة مرجعية لخزانة فحص من سلسلة JX-XFXJ."
+        },
+        "未标型号-消防泵巡检控制柜": {
+          "en": "Additional inspection cabinet; exact model selected by enquiry.",
+          "ar": "خزانة فحص إضافية؛ يحدد الموديل الدقيق عند الاستفسار."
+        }
+      },
+      "unresolved": [
+        "各柜电机负载适配、频率、内部器件、防护等级待确认；未标型号柜尺寸缺失。"
+      ],
+      "notes": [
+        "1200×600×400 mm仅适用于有对应证据的JX两款，不用于未标型号柜。",
+        "不把JX-XFXJ型号7.5转换成kW；原表功率W字段异常，排除。不同柜型功能分别描述。"
+      ]
+    },
+    {
+      "id": "flanged-y-strainers",
+      "familyId": "pipeline-valves-strainers",
+      "name": {
+        "en": "Flanged Y Strainers",
+        "ar": "مصافٍ بفلنجات على شكل Y",
+        "zh": "法兰Y型过滤器"
+      },
+      "lead": {
+        "en": "The GL41H-16Q Y strainer removes solid particles from water with a perforated screen in a ductile iron body. Five nominal sizes are listed at 1.6 MPa nominal pressure.",
+        "ar": "تحجز المصفاة GL41H-16Q على شكل Y الجسيمات الصلبة من الماء بواسطة شبكة مثقبة داخل جسم من حديد الدكتايل. تتوفر خمسة مقاسات اسمية موثقة بضغط اسمي 1.6 MPa."
+      },
+      "sourceNames": [
+        "GL41H-16Q-法兰Y型过滤器"
+      ],
+      "heroSourceName": "GL41H-16Q-法兰Y型过滤器",
+      "specs": [
+        {
+          "label": {
+            "en": "Model",
+            "ar": "الموديل"
+          },
+          "value": {
+            "en": "GL41H-16Q",
+            "ar": "GL41H-16Q"
+          },
+          "sources": [
+            "02-产品资料/1601980726558_GL41H-16Q-法兰Y型过滤器/原产品资料/copy/技术参数证据表.json"
+          ],
+          "evidence": "Confirmed"
+        },
+        {
+          "label": {
+            "en": "Body material",
+            "ar": "مادة الجسم"
+          },
+          "value": {
+            "en": "Ductile iron",
+            "ar": "حديد دكتايل"
+          },
+          "sources": [
+            "02-产品资料/1601980726558_GL41H-16Q-法兰Y型过滤器/原产品资料/copy/技术参数证据表.json"
+          ],
+          "evidence": "Confirmed"
+        },
+        {
+          "label": {
+            "en": "Nominal pressure",
+            "ar": "الضغط الاسمي"
+          },
+          "value": {
+            "en": "1.6 MPa",
+            "ar": "1.6 MPa"
+          },
+          "sources": [
+            "02-产品资料/1601980726558_GL41H-16Q-法兰Y型过滤器/原产品资料/copy/技术参数证据表.json"
+          ],
+          "evidence": "Confirmed"
+        },
+        {
+          "label": {
+            "en": "Nominal sizes",
+            "ar": "المقاسات الاسمية"
+          },
+          "value": {
+            "en": "DN50 / DN65 / DN80 / DN100 / DN125",
+            "ar": "DN50 / DN65 / DN80 / DN100 / DN125"
+          },
+          "sources": [
+            "02-产品资料/1601980726558_GL41H-16Q-法兰Y型过滤器/原产品资料/copy/技术参数证据表.json"
+          ],
+          "evidence": "Confirmed"
+        },
+        {
+          "label": {
+            "en": "Connection",
+            "ar": "التوصيل"
+          },
+          "value": {
+            "en": "Flanged",
+            "ar": "بفلنجات"
+          },
+          "sources": [
+            "02-产品资料/1601980726558_GL41H-16Q-法兰Y型过滤器/原产品资料/copy/技术参数证据表.json"
+          ],
+          "evidence": "Confirmed"
+        },
+        {
+          "label": {
+            "en": "Seal material",
+            "ar": "مادة مانع التسرب"
+          },
+          "value": {
+            "en": "EPDM",
+            "ar": "EPDM"
+          },
+          "sources": [
+            "02-产品资料/1601980726558_GL41H-16Q-法兰Y型过滤器/原产品资料/copy/技术参数证据表.json"
+          ],
+          "evidence": "Confirmed"
+        },
+        {
+          "label": {
+            "en": "Screen and cover",
+            "ar": "الشبكة والغطاء"
+          },
+          "value": {
+            "en": "Perforated screen; bolted cover",
+            "ar": "شبكة مثقبة وغطاء مثبت بمسامير"
+          },
+          "sources": [
+            "02-产品资料/1601980726558_GL41H-16Q-法兰Y型过滤器/原产品资料/copy/技术参数证据表.json"
+          ],
+          "evidence": "Visible"
+        }
+      ],
+      "models": [
+        {
+          "name": {
+            "en": "DN50",
+            "ar": "DN50"
+          },
+          "factoryReference": "GL41H-16Q",
+          "selection": {
+            "en": "GL41H-16Q · DN50 · flanged connection",
+            "ar": "GL41H-16Q · DN50 · توصيل بفلنجة"
+          },
+          "sourceNames": [
+            "GL41H-16Q-法兰Y型过滤器"
+          ],
+          "sources": [
+            "02-产品资料/1601980726558_GL41H-16Q-法兰Y型过滤器/原产品资料/copy/listing-fields.json"
+          ]
+        },
+        {
+          "name": {
+            "en": "DN65",
+            "ar": "DN65"
+          },
+          "factoryReference": "GL41H-16Q",
+          "selection": {
+            "en": "GL41H-16Q · DN65 · flanged connection",
+            "ar": "GL41H-16Q · DN65 · توصيل بفلنجة"
+          },
+          "sourceNames": [
+            "GL41H-16Q-法兰Y型过滤器"
+          ],
+          "sources": [
+            "02-产品资料/1601980726558_GL41H-16Q-法兰Y型过滤器/原产品资料/copy/listing-fields.json"
+          ]
+        },
+        {
+          "name": {
+            "en": "DN80",
+            "ar": "DN80"
+          },
+          "factoryReference": "GL41H-16Q",
+          "selection": {
+            "en": "GL41H-16Q · DN80 · flanged connection",
+            "ar": "GL41H-16Q · DN80 · توصيل بفلنجة"
+          },
+          "sourceNames": [
+            "GL41H-16Q-法兰Y型过滤器"
+          ],
+          "sources": [
+            "02-产品资料/1601980726558_GL41H-16Q-法兰Y型过滤器/原产品资料/copy/listing-fields.json"
+          ]
+        },
+        {
+          "name": {
+            "en": "DN100",
+            "ar": "DN100"
+          },
+          "factoryReference": "GL41H-16Q",
+          "selection": {
+            "en": "GL41H-16Q · DN100 · flanged connection",
+            "ar": "GL41H-16Q · DN100 · توصيل بفلنجة"
+          },
+          "sourceNames": [
+            "GL41H-16Q-法兰Y型过滤器"
+          ],
+          "sources": [
+            "02-产品资料/1601980726558_GL41H-16Q-法兰Y型过滤器/原产品资料/copy/listing-fields.json"
+          ]
+        },
+        {
+          "name": {
+            "en": "DN125",
+            "ar": "DN125"
+          },
+          "factoryReference": "GL41H-16Q",
+          "selection": {
+            "en": "GL41H-16Q · DN125 · flanged connection",
+            "ar": "GL41H-16Q · DN125 · توصيل بفلنجة"
+          },
+          "sourceNames": [
+            "GL41H-16Q-法兰Y型过滤器"
+          ],
+          "sources": [
+            "02-产品资料/1601980726558_GL41H-16Q-法兰Y型过滤器/原产品资料/copy/listing-fields.json"
+          ]
+        }
+      ],
+      "selectionPrompts": [
+        {
+          "label": {
+            "en": "Size and mating flange",
+            "ar": "المقاس والفلنجة المقابلة"
+          },
+          "body": {
+            "en": "Specify the nominal size and provide the mating flange drilling and installation dimensions.",
+            "ar": "حدد المقاس الاسمي وقدم أبعاد ثقوب الفلنجة المقابلة وأبعاد التركيب."
+          }
+        },
+        {
+          "label": {
+            "en": "Filtration duty",
+            "ar": "متطلبات الترشيح"
+          },
+          "body": {
+            "en": "Specify particle size or screen opening, required flow and water operating conditions.",
+            "ar": "حدد حجم الجسيمات أو فتحات الشبكة والتدفق المطلوب وظروف تشغيل الماء."
+          }
+        }
+      ],
+      "imageCaptions": {
+        "GL41H-16Q-法兰Y型过滤器": {
+          "en": "GL41H-16Q flanged Y strainer.",
+          "ar": "مصفاة GL41H-16Q بفلنجات على شكل Y."
+        }
+      },
+      "unresolved": [
+        "滤网材质和孔径、法兰钻孔及运行温度待确认。"
+      ],
+      "notes": [
+        "仅采用水用途，不沿用有冲突的蒸汽适用性；不映射Class150。"
+      ]
+    },
+    {
+      "id": "swing-check-valves",
+      "familyId": "pipeline-valves-strainers",
+      "name": {
+        "en": "Swing Check Valves",
+        "ar": "صمامات عدم رجوع متأرجحة",
+        "zh": "旋启式止回阀"
+      },
+      "lead": {
+        "en": "H44T swing check valves provide a flanged non-return connection with a ductile iron body. The documented range covers DN50 to DN200 at 1.6 MPa nominal pressure.",
+        "ar": "توفر صمامات عدم الرجوع المتأرجحة H44T توصيلًا بفلنجات وجسمًا من حديد الدكتايل. تشمل المقاسات الموثقة DN50 إلى DN200 بضغط اسمي 1.6 MPa."
+      },
+      "sourceNames": [
+        "H44T-旋启式止回阀"
+      ],
+      "heroSourceName": "H44T-旋启式止回阀",
+      "specs": [
+        {
+          "label": {
+            "en": "Model",
+            "ar": "الموديل"
+          },
+          "value": {
+            "en": "H44T",
+            "ar": "H44T"
+          },
+          "sources": [
+            "02-产品资料/1601978089153_H44T-旋启式止回阀/原产品资料/copy/parameter-crosswalk.json"
+          ],
+          "evidence": "Documented"
+        },
+        {
+          "label": {
+            "en": "Valve type",
+            "ar": "نوع الصمام"
+          },
+          "value": {
+            "en": "Swing check valve",
+            "ar": "صمام عدم رجوع متأرجح"
+          },
+          "sources": [
+            "02-产品资料/1601978089153_H44T-旋启式止回阀/原产品资料/copy/图中文字-中英对照.txt"
+          ],
+          "evidence": "Documented"
+        },
+        {
+          "label": {
+            "en": "Body material",
+            "ar": "مادة الجسم"
+          },
+          "value": {
+            "en": "Ductile iron",
+            "ar": "حديد دكتايل"
+          },
+          "sources": [
+            "02-产品资料/1601978089153_H44T-旋启式止回阀/原产品资料/copy/parameter-crosswalk.json"
+          ],
+          "evidence": "Confirmed"
+        },
+        {
+          "label": {
+            "en": "Nominal pressure",
+            "ar": "الضغط الاسمي"
+          },
+          "value": {
+            "en": "1.6 MPa",
+            "ar": "1.6 MPa"
+          },
+          "sources": [
+            "02-产品资料/1601978089153_H44T-旋启式止回阀/原产品资料/copy/parameter-crosswalk.json"
+          ],
+          "evidence": "Confirmed"
+        },
+        {
+          "label": {
+            "en": "Nominal sizes",
+            "ar": "المقاسات الاسمية"
+          },
+          "value": {
+            "en": "DN50 / DN65 / DN80 / DN100 / DN150 / DN200",
+            "ar": "DN50 / DN65 / DN80 / DN100 / DN150 / DN200"
+          },
+          "sources": [
+            "02-产品资料/1601978089153_H44T-旋启式止回阀/原产品资料/copy/parameter-crosswalk.json"
+          ],
+          "evidence": "Confirmed"
+        },
+        {
+          "label": {
+            "en": "Connection",
+            "ar": "التوصيل"
+          },
+          "value": {
+            "en": "Flanged",
+            "ar": "بفلنجات"
+          },
+          "sources": [
+            "02-产品资料/1601978089153_H44T-旋启式止回阀/原产品资料/copy/parameter-crosswalk.json"
+          ],
+          "evidence": "Visible"
+        }
+      ],
+      "models": [
+        {
+          "name": {
+            "en": "DN50",
+            "ar": "DN50"
+          },
+          "factoryReference": "H44T",
+          "selection": {
+            "en": "H44T · DN50 · flanged connection",
+            "ar": "H44T · DN50 · توصيل بفلنجة"
+          },
+          "sourceNames": [
+            "H44T-旋启式止回阀"
+          ],
+          "sources": [
+            "02-产品资料/1601978089153_H44T-旋启式止回阀/原产品资料/copy/parameter-crosswalk.json"
+          ]
+        },
+        {
+          "name": {
+            "en": "DN65",
+            "ar": "DN65"
+          },
+          "factoryReference": "H44T",
+          "selection": {
+            "en": "H44T · DN65 · flanged connection",
+            "ar": "H44T · DN65 · توصيل بفلنجة"
+          },
+          "sourceNames": [
+            "H44T-旋启式止回阀"
+          ],
+          "sources": [
+            "02-产品资料/1601978089153_H44T-旋启式止回阀/原产品资料/copy/parameter-crosswalk.json"
+          ]
+        },
+        {
+          "name": {
+            "en": "DN80",
+            "ar": "DN80"
+          },
+          "factoryReference": "H44T",
+          "selection": {
+            "en": "H44T · DN80 · flanged connection",
+            "ar": "H44T · DN80 · توصيل بفلنجة"
+          },
+          "sourceNames": [
+            "H44T-旋启式止回阀"
+          ],
+          "sources": [
+            "02-产品资料/1601978089153_H44T-旋启式止回阀/原产品资料/copy/parameter-crosswalk.json"
+          ]
+        },
+        {
+          "name": {
+            "en": "DN100",
+            "ar": "DN100"
+          },
+          "factoryReference": "H44T",
+          "selection": {
+            "en": "H44T · DN100 · flanged connection",
+            "ar": "H44T · DN100 · توصيل بفلنجة"
+          },
+          "sourceNames": [
+            "H44T-旋启式止回阀"
+          ],
+          "sources": [
+            "02-产品资料/1601978089153_H44T-旋启式止回阀/原产品资料/copy/parameter-crosswalk.json"
+          ]
+        },
+        {
+          "name": {
+            "en": "DN150",
+            "ar": "DN150"
+          },
+          "factoryReference": "H44T",
+          "selection": {
+            "en": "H44T · DN150 · flanged connection",
+            "ar": "H44T · DN150 · توصيل بفلنجة"
+          },
+          "sourceNames": [
+            "H44T-旋启式止回阀"
+          ],
+          "sources": [
+            "02-产品资料/1601978089153_H44T-旋启式止回阀/原产品资料/copy/parameter-crosswalk.json"
+          ]
+        },
+        {
+          "name": {
+            "en": "DN200",
+            "ar": "DN200"
+          },
+          "factoryReference": "H44T",
+          "selection": {
+            "en": "H44T · DN200 · flanged connection",
+            "ar": "H44T · DN200 · توصيل بفلنجة"
+          },
+          "sourceNames": [
+            "H44T-旋启式止回阀"
+          ],
+          "sources": [
+            "02-产品资料/1601978089153_H44T-旋启式止回阀/原产品资料/copy/parameter-crosswalk.json"
+          ]
+        }
+      ],
+      "selectionPrompts": [
+        {
+          "label": {
+            "en": "Size and mating flange",
+            "ar": "المقاس والفلنجة المقابلة"
+          },
+          "body": {
+            "en": "Specify the nominal size and provide the mating flange drilling and installation dimensions.",
+            "ar": "حدد المقاس الاسمي وقدم أبعاد ثقوب الفلنجة المقابلة وأبعاد التركيب."
+          }
+        },
+        {
+          "label": {
+            "en": "Service conditions",
+            "ar": "ظروف التشغيل"
+          },
+          "body": {
+            "en": "State the working fluid, operating pressure and temperature for the exact supplied configuration.",
+            "ar": "حدد المائع وضغط التشغيل ودرجة الحرارة للتكوين المطلوب توريده."
+          }
+        }
+      ],
+      "imageCaptions": {
+        "H44T-旋启式止回阀": {
+          "en": "H44T swing check valve with flanged ends.",
+          "ar": "صمام عدم رجوع متأرجح H44T بنهايات ذات فلنجات."
+        }
+      },
+      "unresolved": [
+        "安装方向、内部材质、密封材料、温度与法兰钻孔需核实。"
+      ],
+      "notes": [
+        "实物DIN3202 F6/GGG50铸字保留在照片，不升级为全系列标准或材质等级宣称。"
+      ]
+    },
+    {
+      "id": "flanged-globe-valves",
+      "familyId": "pipeline-valves-strainers",
+      "name": {
+        "en": "Flanged Globe Valves",
+        "ar": "صمامات غلوب بفلنجات",
+        "zh": "法兰截止阀"
+      },
+      "lead": {
+        "en": "The J41T globe valve provides manual flow shutoff in fire water supply pipelines, using a handwheel, ductile iron body and bolted bonnet.",
+        "ar": "يوفر صمام غلوب J41T إيقافًا يدويًا للتدفق في خطوط مياه الحريق، بعجلة تشغيل وجسم من حديد الدكتايل وغطاء مثبت بمسامير."
+      },
+      "sourceNames": [
+        "J41T-法兰截止阀"
+      ],
+      "heroSourceName": "J41T-法兰截止阀",
+      "specs": [
+        {
+          "label": {
+            "en": "Model",
+            "ar": "الموديل"
+          },
+          "value": {
+            "en": "J41T",
+            "ar": "J41T"
+          },
+          "sources": [
+            "02-产品资料/1601978171935_J41T-法兰截止阀/原产品资料/copy/listing-fields.json"
+          ],
+          "evidence": "Documented"
+        },
+        {
+          "label": {
+            "en": "Body material",
+            "ar": "مادة الجسم"
+          },
+          "value": {
+            "en": "Ductile iron",
+            "ar": "حديد دكتايل"
+          },
+          "sources": [
+            "02-产品资料/1601978171935_J41T-法兰截止阀/原产品资料/copy/listing-fields.json"
+          ],
+          "evidence": "Confirmed"
+        },
+        {
+          "label": {
+            "en": "Nominal pressure",
+            "ar": "الضغط الاسمي"
+          },
+          "value": {
+            "en": "PN16 / 1.6 MPa",
+            "ar": "PN16 / 1.6 MPa"
+          },
+          "sources": [
+            "02-产品资料/1601978171935_J41T-法兰截止阀/原产品资料/copy/listing-fields.json"
+          ],
+          "evidence": "Confirmed"
+        },
+        {
+          "label": {
+            "en": "Nominal sizes",
+            "ar": "المقاسات الاسمية"
+          },
+          "value": {
+            "en": "DN50 / DN80 / DN100 / DN150 / DN200",
+            "ar": "DN50 / DN80 / DN100 / DN150 / DN200"
+          },
+          "sources": [
+            "02-产品资料/1601978171935_J41T-法兰截止阀/原产品资料/copy/listing-fields.json"
+          ],
+          "evidence": "Confirmed"
+        },
+        {
+          "label": {
+            "en": "Connection",
+            "ar": "التوصيل"
+          },
+          "value": {
+            "en": "Flanged",
+            "ar": "بفلنجات"
+          },
+          "sources": [
+            "02-产品资料/1601978171935_J41T-法兰截止阀/原产品资料/copy/listing-fields.json"
+          ],
+          "evidence": "Visible"
+        },
+        {
+          "label": {
+            "en": "Operation",
+            "ar": "التشغيل"
+          },
+          "value": {
+            "en": "Manual handwheel",
+            "ar": "عجلة تشغيل يدوية"
+          },
+          "sources": [
+            "02-产品资料/1601978171935_J41T-法兰截止阀/原产品资料/copy/listing-fields.json"
+          ],
+          "evidence": "Visible"
+        },
+        {
+          "label": {
+            "en": "Bonnet",
+            "ar": "الغطاء"
+          },
+          "value": {
+            "en": "Bolted",
+            "ar": "مثبت بمسامير"
+          },
+          "sources": [
+            "02-产品资料/1601978171935_J41T-法兰截止阀/原产品资料/copy/listing-fields.json"
+          ],
+          "evidence": "Visible"
+        }
+      ],
+      "models": [
+        {
+          "name": {
+            "en": "DN50",
+            "ar": "DN50"
+          },
+          "factoryReference": "J41T",
+          "selection": {
+            "en": "J41T · DN50 · flanged connection",
+            "ar": "J41T · DN50 · توصيل بفلنجة"
+          },
+          "sourceNames": [
+            "J41T-法兰截止阀"
+          ],
+          "sources": [
+            "02-产品资料/1601978171935_J41T-法兰截止阀/原产品资料/copy/listing-fields.json"
+          ]
+        },
+        {
+          "name": {
+            "en": "DN80",
+            "ar": "DN80"
+          },
+          "factoryReference": "J41T",
+          "selection": {
+            "en": "J41T · DN80 · flanged connection",
+            "ar": "J41T · DN80 · توصيل بفلنجة"
+          },
+          "sourceNames": [
+            "J41T-法兰截止阀"
+          ],
+          "sources": [
+            "02-产品资料/1601978171935_J41T-法兰截止阀/原产品资料/copy/listing-fields.json"
+          ]
+        },
+        {
+          "name": {
+            "en": "DN100",
+            "ar": "DN100"
+          },
+          "factoryReference": "J41T",
+          "selection": {
+            "en": "J41T · DN100 · flanged connection",
+            "ar": "J41T · DN100 · توصيل بفلنجة"
+          },
+          "sourceNames": [
+            "J41T-法兰截止阀"
+          ],
+          "sources": [
+            "02-产品资料/1601978171935_J41T-法兰截止阀/原产品资料/copy/listing-fields.json"
+          ]
+        },
+        {
+          "name": {
+            "en": "DN150",
+            "ar": "DN150"
+          },
+          "factoryReference": "J41T",
+          "selection": {
+            "en": "J41T · DN150 · flanged connection",
+            "ar": "J41T · DN150 · توصيل بفلنجة"
+          },
+          "sourceNames": [
+            "J41T-法兰截止阀"
+          ],
+          "sources": [
+            "02-产品资料/1601978171935_J41T-法兰截止阀/原产品资料/copy/listing-fields.json"
+          ]
+        },
+        {
+          "name": {
+            "en": "DN200",
+            "ar": "DN200"
+          },
+          "factoryReference": "J41T",
+          "selection": {
+            "en": "J41T · DN200 · flanged connection",
+            "ar": "J41T · DN200 · توصيل بفلنجة"
+          },
+          "sourceNames": [
+            "J41T-法兰截止阀"
+          ],
+          "sources": [
+            "02-产品资料/1601978171935_J41T-法兰截止阀/原产品资料/copy/listing-fields.json"
+          ]
+        }
+      ],
+      "selectionPrompts": [
+        {
+          "label": {
+            "en": "Size and mating flange",
+            "ar": "المقاس والفلنجة المقابلة"
+          },
+          "body": {
+            "en": "Specify the nominal size and provide the mating flange drilling and installation dimensions.",
+            "ar": "حدد المقاس الاسمي وقدم أبعاد ثقوب الفلنجة المقابلة وأبعاد التركيب."
+          }
+        },
+        {
+          "label": {
+            "en": "Service conditions",
+            "ar": "ظروف التشغيل"
+          },
+          "body": {
+            "en": "State the working fluid, operating pressure and temperature for the exact supplied configuration.",
+            "ar": "حدد المائع وضغط التشغيل ودرجة الحرارة للتكوين المطلوب توريده."
+          }
+        }
+      ],
+      "imageCaptions": {
+        "J41T-法兰截止阀": {
+          "en": "J41T flanged globe valve with manual handwheel.",
+          "ar": "صمام غلوب J41T بفلنجات وعجلة تشغيل يدوية."
+        }
+      },
+      "unresolved": [
+        "阀内件、密封材料、允许温度、法兰钻孔和安装尺寸待核实。"
+      ],
+      "notes": [
+        "采用本款用户确认PN16和球墨铸铁，不借其他止回阀或过滤器参数。"
+      ]
+    },
+    {
+      "id": "two-piece-stainless-steel-ball-valves",
+      "familyId": "pipeline-valves-strainers",
+      "name": {
+        "en": "Two-piece Stainless Steel Ball Valves",
+        "ar": "صمامات كروية من الستانلس ستيل بجسم من قطعتين",
+        "zh": "两片式不锈钢球阀"
+      },
+      "lead": {
+        "en": "A 304 stainless steel two-piece ball valve with a manual lever and female threaded ends for pressure gauge connections. The source lists PT1/4 and PT1/2 connection options.",
+        "ar": "صمام كروي من الستانلس ستيل 304 بجسم من قطعتين وذراع يدوي ونهايات ملولبة داخليًا لتوصيلات مقاييس الضغط. تتضمن الخيارات الموثقة PT1/4 وPT1/2."
+      },
+      "sourceNames": [
+        "PT系列-304不锈钢两片式球阀"
+      ],
+      "heroSourceName": "PT系列-304不锈钢两片式球阀",
+      "specs": [
+        {
+          "label": {
+            "en": "Material",
+            "ar": "المادة"
+          },
+          "value": {
+            "en": "304 stainless steel",
+            "ar": "ستانلس ستيل 304"
+          },
+          "sources": [
+            "02-产品资料/1601982096615_PT系列-304不锈钢两片式球阀/原产品资料/copy/listing-fields.json"
+          ],
+          "evidence": "Confirmed"
+        },
+        {
+          "label": {
+            "en": "Body construction",
+            "ar": "تركيب الجسم"
+          },
+          "value": {
+            "en": "Two piece",
+            "ar": "من قطعتين"
+          },
+          "sources": [
+            "02-产品资料/1601982096615_PT系列-304不锈钢两片式球阀/原产品资料/copy/listing-fields.json"
+          ],
+          "evidence": "Confirmed"
+        },
+        {
+          "label": {
+            "en": "Connection",
+            "ar": "التوصيل"
+          },
+          "value": {
+            "en": "Female threaded ends",
+            "ar": "نهايات ملولبة داخليًا"
+          },
+          "sources": [
+            "02-产品资料/1601982096615_PT系列-304不锈钢两片式球阀/原产品资料/copy/listing-fields.json"
+          ],
+          "evidence": "Confirmed"
+        },
+        {
+          "label": {
+            "en": "Thread designations",
+            "ar": "رموز السن اللولبي"
+          },
+          "value": {
+            "en": "PT1/4 / PT1/2",
+            "ar": "PT1/4 / PT1/2"
+          },
+          "sources": [
+            "02-产品资料/1601982096615_PT系列-304不锈钢两片式球阀/原产品资料/copy/listing-fields.json"
+          ],
+          "evidence": "Confirmed"
+        },
+        {
+          "label": {
+            "en": "Operation",
+            "ar": "التشغيل"
+          },
+          "value": {
+            "en": "Manual lever",
+            "ar": "ذراع يدوي"
+          },
+          "sources": [
+            "02-产品资料/1601982096615_PT系列-304不锈钢两片式球阀/原产品资料/copy/listing-fields.json"
+          ],
+          "evidence": "Visible"
+        },
+        {
+          "label": {
+            "en": "Application",
+            "ar": "الاستخدام"
+          },
+          "value": {
+            "en": "Pressure gauge connections",
+            "ar": "توصيلات مقاييس الضغط"
+          },
+          "sources": [
+            "02-产品资料/1601982096615_PT系列-304不锈钢两片式球阀/原产品资料/copy/listing-fields.json"
+          ],
+          "evidence": "Confirmed"
+        }
+      ],
+      "models": [
+        {
+          "name": {
+            "en": "PT1/4 female × female",
+            "ar": "PT1/4 أنثى × أنثى"
+          },
+          "factoryReference": "Available on request",
+          "selection": {
+            "en": "Select this supplier thread designation against the mating connection drawing.",
+            "ar": "طابق رمز السن لدى المورد مع رسم التوصيل المقابل."
+          },
+          "sourceNames": [
+            "PT系列-304不锈钢两片式球阀"
+          ],
+          "sources": [
+            "02-产品资料/1601982096615_PT系列-304不锈钢两片式球阀/原产品资料/copy/listing-fields.json"
+          ]
+        },
+        {
+          "name": {
+            "en": "PT1/2 female × female",
+            "ar": "PT1/2 أنثى × أنثى"
+          },
+          "factoryReference": "Available on request",
+          "selection": {
+            "en": "Select this supplier thread designation against the mating connection drawing.",
+            "ar": "طابق رمز السن لدى المورد مع رسم التوصيل المقابل."
+          },
+          "sourceNames": [
+            "PT系列-304不锈钢两片式球阀"
+          ],
+          "sources": [
+            "02-产品资料/1601982096615_PT系列-304不锈钢两片式球阀/原产品资料/copy/listing-fields.json"
+          ]
+        }
+      ],
+      "selectionPrompts": [
+        {
+          "label": {
+            "en": "Thread match",
+            "ar": "مطابقة السن اللولبي"
+          },
+          "body": {
+            "en": "Choose PT1/4 or PT1/2 and provide the mating thread drawing for dimensional verification.",
+            "ar": "اختر PT1/4 أو PT1/2 وقدم رسم السن المقابل للتحقق من الأبعاد."
+          }
+        },
+        {
+          "label": {
+            "en": "Service conditions",
+            "ar": "ظروف التشغيل"
+          },
+          "body": {
+            "en": "State the working fluid, operating pressure and temperature for the exact supplied configuration.",
+            "ar": "حدد المائع وضغط التشغيل ودرجة الحرارة للتكوين المطلوب توريده."
+          }
+        }
+      ],
+      "imageCaptions": {
+        "PT系列-304不锈钢两片式球阀": {
+          "en": "Two-piece stainless steel ball valve with manual lever.",
+          "ar": "صمام كروي من الستانلس ستيل بجسم من قطعتين وذراع يدوي."
+        }
+      },
+      "unresolved": [
+        "精确螺纹标准、压力温度曲线、阀座和密封材质待确认。"
+      ],
+      "notes": [
+        "保留PT1/4与PT1/2，不转换NPT/BSP，不采用倒写PT4/1；照片1000WOG不单独作为额定压力。"
+      ]
+    },
+    {
+      "id": "grooved-pipe-elbows",
+      "familyId": "grooved-pipe-fittings",
+      "name": {
+        "en": "Grooved Pipe Elbows",
+        "ar": "أكواع أنابيب ذات أخاديد",
+        "zh": "沟槽弯头"
+      },
+      "lead": {
+        "en": "Ductile iron grooved elbows for changing the direction of fire protection piping. Select from the listed 90°, 45°, 22.5° and 11.25° angle and pipe outside-diameter combinations.",
+        "ar": "أكواع من حديد الدكتايل ذات أخاديد لتغيير اتجاه أنابيب مكافحة الحريق. اختر من مجموعات الزوايا 90° و45° و22.5° و11.25° وأقطار الأنابيب الخارجية المدرجة."
+      },
+      "sourceNames": [
+        "90度系列-沟槽90度弯头",
+        "多角度弯头系列-沟槽11.25度22.5度45度弯头"
+      ],
+      "heroSourceName": "90度系列-沟槽90度弯头",
+      "specs": [
+        {
+          "label": {
+            "en": "Material",
+            "ar": "المادة"
+          },
+          "value": {
+            "en": "Ductile iron",
+            "ar": "حديد دكتايل"
+          },
+          "sources": [
+            "02-产品资料/1601983287995_90度系列-沟槽90度弯头/原产品资料/copy/listing-fields.json"
+          ],
+          "evidence": "Documented"
+        },
+        {
+          "label": {
+            "en": "Connection",
+            "ar": "التوصيل"
+          },
+          "value": {
+            "en": "Grooved ends",
+            "ar": "نهايات ذات أخاديد"
+          },
+          "sources": [
+            "02-产品资料/1601983287995_90度系列-沟槽90度弯头/原产品资料/copy/listing-fields.json"
+          ],
+          "evidence": "Documented"
+        },
+        {
+          "label": {
+            "en": "90° nominal size options",
+            "ar": "خيارات المقاس الاسمي لزاوية 90°"
+          },
+          "value": {
+            "en": "DN50 / DN65 / DN80 / DN100 / DN125 / DN150 / DN200",
+            "ar": "DN50 / DN65 / DN80 / DN100 / DN125 / DN150 / DN200"
+          },
+          "sources": [
+            "02-产品资料/1601983287995_90度系列-沟槽90度弯头/原产品资料/copy/listing-fields.json"
+          ],
+          "evidence": "Documented"
+        },
+        {
+          "label": {
+            "en": "Additional bend angles",
+            "ar": "زوايا الانحناء الإضافية"
+          },
+          "value": {
+            "en": "11.25° / 22.5° / 45°",
+            "ar": "11.25° / 22.5° / 45°"
+          },
+          "sources": [
+            "02-产品资料/1601983354762_多角度弯头系列-沟槽11.25度22.5度45度弯头/原产品资料/copy/listing-fields.json"
+          ],
+          "evidence": "Documented"
+        },
+        {
+          "label": {
+            "en": "11.25° and 22.5° nominal sizes",
+            "ar": "المقاسات الاسمية لزاويتي 11.25° و22.5°"
+          },
+          "value": {
+            "en": "DN65 / DN80 / DN100 / DN125 / DN150 / DN200",
+            "ar": "DN65 / DN80 / DN100 / DN125 / DN150 / DN200"
+          },
+          "sources": [
+            "02-产品资料/1601983354762_多角度弯头系列-沟槽11.25度22.5度45度弯头/原产品资料/copy/listing-fields.json"
+          ],
+          "evidence": "Documented"
+        },
+        {
+          "label": {
+            "en": "Selection basis",
+            "ar": "أساس الاختيار"
+          },
+          "value": {
+            "en": "Angle + nominal DN + pipe outside diameter",
+            "ar": "الزاوية + المقاس الاسمي DN + القطر الخارجي للأنبوب"
+          },
+          "sources": [
+            "02-产品资料/1601983354762_多角度弯头系列-沟槽11.25度22.5度45度弯头/原产品资料/copy/listing-fields.json"
+          ],
+          "evidence": "Documented"
+        }
+      ],
+      "models": [
+        {
+          "name": {
+            "en": "90° · DN50 · Pipe OD 60 mm",
+            "ar": "90° · DN50 · القطر الخارجي للأنبوب 60 mm"
+          },
+          "factoryReference": "Available on request",
+          "selection": {
+            "en": "Select the exact listed size and pipe OD combination; match the groove dimensions.",
+            "ar": "اختر مجموعة المقاس والقطر الخارجي المدرجة بدقة، وطابق أبعاد الأخدود."
+          },
+          "sourceNames": [
+            "90度系列-沟槽90度弯头"
+          ],
+          "sources": [
+            "02-产品资料/1601983287995_90度系列-沟槽90度弯头/原产品资料/copy/listing-fields.json"
+          ]
+        },
+        {
+          "name": {
+            "en": "90° · DN65 · Pipe OD 76 mm",
+            "ar": "90° · DN65 · القطر الخارجي للأنبوب 76 mm"
+          },
+          "factoryReference": "Available on request",
+          "selection": {
+            "en": "Select the exact listed size and pipe OD combination; match the groove dimensions.",
+            "ar": "اختر مجموعة المقاس والقطر الخارجي المدرجة بدقة، وطابق أبعاد الأخدود."
+          },
+          "sourceNames": [
+            "90度系列-沟槽90度弯头"
+          ],
+          "sources": [
+            "02-产品资料/1601983287995_90度系列-沟槽90度弯头/原产品资料/copy/listing-fields.json"
+          ]
+        },
+        {
+          "name": {
+            "en": "90° · DN80 · Pipe OD 89 mm",
+            "ar": "90° · DN80 · القطر الخارجي للأنبوب 89 mm"
+          },
+          "factoryReference": "Available on request",
+          "selection": {
+            "en": "Select the exact listed size and pipe OD combination; match the groove dimensions.",
+            "ar": "اختر مجموعة المقاس والقطر الخارجي المدرجة بدقة، وطابق أبعاد الأخدود."
+          },
+          "sourceNames": [
+            "90度系列-沟槽90度弯头"
+          ],
+          "sources": [
+            "02-产品资料/1601983287995_90度系列-沟槽90度弯头/原产品资料/copy/listing-fields.json"
+          ]
+        },
+        {
+          "name": {
+            "en": "90° · DN100 · Pipe OD 108 mm",
+            "ar": "90° · DN100 · القطر الخارجي للأنبوب 108 mm"
+          },
+          "factoryReference": "Available on request",
+          "selection": {
+            "en": "Select the exact listed size and pipe OD combination; match the groove dimensions.",
+            "ar": "اختر مجموعة المقاس والقطر الخارجي المدرجة بدقة، وطابق أبعاد الأخدود."
+          },
+          "sourceNames": [
+            "90度系列-沟槽90度弯头"
+          ],
+          "sources": [
+            "02-产品资料/1601983287995_90度系列-沟槽90度弯头/原产品资料/copy/listing-fields.json"
+          ]
+        },
+        {
+          "name": {
+            "en": "90° · DN100 · Pipe OD 114 mm",
+            "ar": "90° · DN100 · القطر الخارجي للأنبوب 114 mm"
+          },
+          "factoryReference": "Available on request",
+          "selection": {
+            "en": "Select the exact listed size and pipe OD combination; match the groove dimensions.",
+            "ar": "اختر مجموعة المقاس والقطر الخارجي المدرجة بدقة، وطابق أبعاد الأخدود."
+          },
+          "sourceNames": [
+            "90度系列-沟槽90度弯头"
+          ],
+          "sources": [
+            "02-产品资料/1601983287995_90度系列-沟槽90度弯头/原产品资料/copy/listing-fields.json"
+          ]
+        },
+        {
+          "name": {
+            "en": "90° · DN125 · Pipe OD 133 mm",
+            "ar": "90° · DN125 · القطر الخارجي للأنبوب 133 mm"
+          },
+          "factoryReference": "Available on request",
+          "selection": {
+            "en": "Select the exact listed size and pipe OD combination; match the groove dimensions.",
+            "ar": "اختر مجموعة المقاس والقطر الخارجي المدرجة بدقة، وطابق أبعاد الأخدود."
+          },
+          "sourceNames": [
+            "90度系列-沟槽90度弯头"
+          ],
+          "sources": [
+            "02-产品资料/1601983287995_90度系列-沟槽90度弯头/原产品资料/copy/listing-fields.json"
+          ]
+        },
+        {
+          "name": {
+            "en": "90° · DN125 · Pipe OD 140 mm",
+            "ar": "90° · DN125 · القطر الخارجي للأنبوب 140 mm"
+          },
+          "factoryReference": "Available on request",
+          "selection": {
+            "en": "Select the exact listed size and pipe OD combination; match the groove dimensions.",
+            "ar": "اختر مجموعة المقاس والقطر الخارجي المدرجة بدقة، وطابق أبعاد الأخدود."
+          },
+          "sourceNames": [
+            "90度系列-沟槽90度弯头"
+          ],
+          "sources": [
+            "02-产品资料/1601983287995_90度系列-沟槽90度弯头/原产品资料/copy/listing-fields.json"
+          ]
+        },
+        {
+          "name": {
+            "en": "90° · DN150 · Pipe OD 159 mm",
+            "ar": "90° · DN150 · القطر الخارجي للأنبوب 159 mm"
+          },
+          "factoryReference": "Available on request",
+          "selection": {
+            "en": "Select the exact listed size and pipe OD combination; match the groove dimensions.",
+            "ar": "اختر مجموعة المقاس والقطر الخارجي المدرجة بدقة، وطابق أبعاد الأخدود."
+          },
+          "sourceNames": [
+            "90度系列-沟槽90度弯头"
+          ],
+          "sources": [
+            "02-产品资料/1601983287995_90度系列-沟槽90度弯头/原产品资料/copy/listing-fields.json"
+          ]
+        },
+        {
+          "name": {
+            "en": "90° · DN150 · Pipe OD 165 mm",
+            "ar": "90° · DN150 · القطر الخارجي للأنبوب 165 mm"
+          },
+          "factoryReference": "Available on request",
+          "selection": {
+            "en": "Select the exact listed size and pipe OD combination; match the groove dimensions.",
+            "ar": "اختر مجموعة المقاس والقطر الخارجي المدرجة بدقة، وطابق أبعاد الأخدود."
+          },
+          "sourceNames": [
+            "90度系列-沟槽90度弯头"
+          ],
+          "sources": [
+            "02-产品资料/1601983287995_90度系列-沟槽90度弯头/原产品资料/copy/listing-fields.json"
+          ]
+        },
+        {
+          "name": {
+            "en": "90° · DN200 · Pipe OD 219 mm",
+            "ar": "90° · DN200 · القطر الخارجي للأنبوب 219 mm"
+          },
+          "factoryReference": "Available on request",
+          "selection": {
+            "en": "Select the exact listed size and pipe OD combination; match the groove dimensions.",
+            "ar": "اختر مجموعة المقاس والقطر الخارجي المدرجة بدقة، وطابق أبعاد الأخدود."
+          },
+          "sourceNames": [
+            "90度系列-沟槽90度弯头"
+          ],
+          "sources": [
+            "02-产品资料/1601983287995_90度系列-沟槽90度弯头/原产品资料/copy/listing-fields.json"
+          ]
+        },
+        {
+          "name": {
+            "en": "11.25° · DN65 · Pipe OD 76 mm",
+            "ar": "11.25° · DN65 · القطر الخارجي للأنبوب 76 mm"
+          },
+          "factoryReference": "Available on request",
+          "selection": {
+            "en": "Select the exact listed size and pipe OD combination; match the groove dimensions.",
+            "ar": "اختر مجموعة المقاس والقطر الخارجي المدرجة بدقة، وطابق أبعاد الأخدود."
+          },
+          "sourceNames": [
+            "多角度弯头系列-沟槽11.25度22.5度45度弯头"
+          ],
+          "sources": [
+            "02-产品资料/1601983354762_多角度弯头系列-沟槽11.25度22.5度45度弯头/原产品资料/copy/listing-fields.json"
+          ]
+        },
+        {
+          "name": {
+            "en": "11.25° · DN80 · Pipe OD 89 mm",
+            "ar": "11.25° · DN80 · القطر الخارجي للأنبوب 89 mm"
+          },
+          "factoryReference": "Available on request",
+          "selection": {
+            "en": "Select the exact listed size and pipe OD combination; match the groove dimensions.",
+            "ar": "اختر مجموعة المقاس والقطر الخارجي المدرجة بدقة، وطابق أبعاد الأخدود."
+          },
+          "sourceNames": [
+            "多角度弯头系列-沟槽11.25度22.5度45度弯头"
+          ],
+          "sources": [
+            "02-产品资料/1601983354762_多角度弯头系列-沟槽11.25度22.5度45度弯头/原产品资料/copy/listing-fields.json"
+          ]
+        },
+        {
+          "name": {
+            "en": "11.25° · DN100 · Pipe OD 114 mm",
+            "ar": "11.25° · DN100 · القطر الخارجي للأنبوب 114 mm"
+          },
+          "factoryReference": "Available on request",
+          "selection": {
+            "en": "Select the exact listed size and pipe OD combination; match the groove dimensions.",
+            "ar": "اختر مجموعة المقاس والقطر الخارجي المدرجة بدقة، وطابق أبعاد الأخدود."
+          },
+          "sourceNames": [
+            "多角度弯头系列-沟槽11.25度22.5度45度弯头"
+          ],
+          "sources": [
+            "02-产品资料/1601983354762_多角度弯头系列-沟槽11.25度22.5度45度弯头/原产品资料/copy/listing-fields.json"
+          ]
+        },
+        {
+          "name": {
+            "en": "11.25° · DN125 · Pipe OD 140 mm",
+            "ar": "11.25° · DN125 · القطر الخارجي للأنبوب 140 mm"
+          },
+          "factoryReference": "Available on request",
+          "selection": {
+            "en": "Select the exact listed size and pipe OD combination; match the groove dimensions.",
+            "ar": "اختر مجموعة المقاس والقطر الخارجي المدرجة بدقة، وطابق أبعاد الأخدود."
+          },
+          "sourceNames": [
+            "多角度弯头系列-沟槽11.25度22.5度45度弯头"
+          ],
+          "sources": [
+            "02-产品资料/1601983354762_多角度弯头系列-沟槽11.25度22.5度45度弯头/原产品资料/copy/listing-fields.json"
+          ]
+        },
+        {
+          "name": {
+            "en": "11.25° · DN150 · Pipe OD 165 mm",
+            "ar": "11.25° · DN150 · القطر الخارجي للأنبوب 165 mm"
+          },
+          "factoryReference": "Available on request",
+          "selection": {
+            "en": "Select the exact listed size and pipe OD combination; match the groove dimensions.",
+            "ar": "اختر مجموعة المقاس والقطر الخارجي المدرجة بدقة، وطابق أبعاد الأخدود."
+          },
+          "sourceNames": [
+            "多角度弯头系列-沟槽11.25度22.5度45度弯头"
+          ],
+          "sources": [
+            "02-产品资料/1601983354762_多角度弯头系列-沟槽11.25度22.5度45度弯头/原产品资料/copy/listing-fields.json"
+          ]
+        },
+        {
+          "name": {
+            "en": "11.25° · DN200 · Pipe OD 219 mm",
+            "ar": "11.25° · DN200 · القطر الخارجي للأنبوب 219 mm"
+          },
+          "factoryReference": "Available on request",
+          "selection": {
+            "en": "Select the exact listed size and pipe OD combination; match the groove dimensions.",
+            "ar": "اختر مجموعة المقاس والقطر الخارجي المدرجة بدقة، وطابق أبعاد الأخدود."
+          },
+          "sourceNames": [
+            "多角度弯头系列-沟槽11.25度22.5度45度弯头"
+          ],
+          "sources": [
+            "02-产品资料/1601983354762_多角度弯头系列-沟槽11.25度22.5度45度弯头/原产品资料/copy/listing-fields.json"
+          ]
+        },
+        {
+          "name": {
+            "en": "22.5° · DN65 · Pipe OD 76 mm",
+            "ar": "22.5° · DN65 · القطر الخارجي للأنبوب 76 mm"
+          },
+          "factoryReference": "Available on request",
+          "selection": {
+            "en": "Select the exact listed size and pipe OD combination; match the groove dimensions.",
+            "ar": "اختر مجموعة المقاس والقطر الخارجي المدرجة بدقة، وطابق أبعاد الأخدود."
+          },
+          "sourceNames": [
+            "多角度弯头系列-沟槽11.25度22.5度45度弯头"
+          ],
+          "sources": [
+            "02-产品资料/1601983354762_多角度弯头系列-沟槽11.25度22.5度45度弯头/原产品资料/copy/listing-fields.json"
+          ]
+        },
+        {
+          "name": {
+            "en": "22.5° · DN80 · Pipe OD 89 mm",
+            "ar": "22.5° · DN80 · القطر الخارجي للأنبوب 89 mm"
+          },
+          "factoryReference": "Available on request",
+          "selection": {
+            "en": "Select the exact listed size and pipe OD combination; match the groove dimensions.",
+            "ar": "اختر مجموعة المقاس والقطر الخارجي المدرجة بدقة، وطابق أبعاد الأخدود."
+          },
+          "sourceNames": [
+            "多角度弯头系列-沟槽11.25度22.5度45度弯头"
+          ],
+          "sources": [
+            "02-产品资料/1601983354762_多角度弯头系列-沟槽11.25度22.5度45度弯头/原产品资料/copy/listing-fields.json"
+          ]
+        },
+        {
+          "name": {
+            "en": "22.5° · DN100 · Pipe OD 114 mm",
+            "ar": "22.5° · DN100 · القطر الخارجي للأنبوب 114 mm"
+          },
+          "factoryReference": "Available on request",
+          "selection": {
+            "en": "Select the exact listed size and pipe OD combination; match the groove dimensions.",
+            "ar": "اختر مجموعة المقاس والقطر الخارجي المدرجة بدقة، وطابق أبعاد الأخدود."
+          },
+          "sourceNames": [
+            "多角度弯头系列-沟槽11.25度22.5度45度弯头"
+          ],
+          "sources": [
+            "02-产品资料/1601983354762_多角度弯头系列-沟槽11.25度22.5度45度弯头/原产品资料/copy/listing-fields.json"
+          ]
+        },
+        {
+          "name": {
+            "en": "22.5° · DN125 · Pipe OD 140 mm",
+            "ar": "22.5° · DN125 · القطر الخارجي للأنبوب 140 mm"
+          },
+          "factoryReference": "Available on request",
+          "selection": {
+            "en": "Select the exact listed size and pipe OD combination; match the groove dimensions.",
+            "ar": "اختر مجموعة المقاس والقطر الخارجي المدرجة بدقة، وطابق أبعاد الأخدود."
+          },
+          "sourceNames": [
+            "多角度弯头系列-沟槽11.25度22.5度45度弯头"
+          ],
+          "sources": [
+            "02-产品资料/1601983354762_多角度弯头系列-沟槽11.25度22.5度45度弯头/原产品资料/copy/listing-fields.json"
+          ]
+        },
+        {
+          "name": {
+            "en": "22.5° · DN150 · Pipe OD 165 mm",
+            "ar": "22.5° · DN150 · القطر الخارجي للأنبوب 165 mm"
+          },
+          "factoryReference": "Available on request",
+          "selection": {
+            "en": "Select the exact listed size and pipe OD combination; match the groove dimensions.",
+            "ar": "اختر مجموعة المقاس والقطر الخارجي المدرجة بدقة، وطابق أبعاد الأخدود."
+          },
+          "sourceNames": [
+            "多角度弯头系列-沟槽11.25度22.5度45度弯头"
+          ],
+          "sources": [
+            "02-产品资料/1601983354762_多角度弯头系列-沟槽11.25度22.5度45度弯头/原产品资料/copy/listing-fields.json"
+          ]
+        },
+        {
+          "name": {
+            "en": "22.5° · DN200 · Pipe OD 219 mm",
+            "ar": "22.5° · DN200 · القطر الخارجي للأنبوب 219 mm"
+          },
+          "factoryReference": "Available on request",
+          "selection": {
+            "en": "Select the exact listed size and pipe OD combination; match the groove dimensions.",
+            "ar": "اختر مجموعة المقاس والقطر الخارجي المدرجة بدقة، وطابق أبعاد الأخدود."
+          },
+          "sourceNames": [
+            "多角度弯头系列-沟槽11.25度22.5度45度弯头"
+          ],
+          "sources": [
+            "02-产品资料/1601983354762_多角度弯头系列-沟槽11.25度22.5度45度弯头/原产品资料/copy/listing-fields.json"
+          ]
+        },
+        {
+          "name": {
+            "en": "45° · DN50 · Pipe OD 60 mm",
+            "ar": "45° · DN50 · القطر الخارجي للأنبوب 60 mm"
+          },
+          "factoryReference": "Available on request",
+          "selection": {
+            "en": "Select the exact listed size and pipe OD combination; match the groove dimensions.",
+            "ar": "اختر مجموعة المقاس والقطر الخارجي المدرجة بدقة، وطابق أبعاد الأخدود."
+          },
+          "sourceNames": [
+            "多角度弯头系列-沟槽11.25度22.5度45度弯头"
+          ],
+          "sources": [
+            "02-产品资料/1601983354762_多角度弯头系列-沟槽11.25度22.5度45度弯头/原产品资料/copy/listing-fields.json"
+          ]
+        },
+        {
+          "name": {
+            "en": "45° · DN65 · Pipe OD 76 mm",
+            "ar": "45° · DN65 · القطر الخارجي للأنبوب 76 mm"
+          },
+          "factoryReference": "Available on request",
+          "selection": {
+            "en": "Select the exact listed size and pipe OD combination; match the groove dimensions.",
+            "ar": "اختر مجموعة المقاس والقطر الخارجي المدرجة بدقة، وطابق أبعاد الأخدود."
+          },
+          "sourceNames": [
+            "多角度弯头系列-沟槽11.25度22.5度45度弯头"
+          ],
+          "sources": [
+            "02-产品资料/1601983354762_多角度弯头系列-沟槽11.25度22.5度45度弯头/原产品资料/copy/listing-fields.json"
+          ]
+        },
+        {
+          "name": {
+            "en": "45° · DN80 · Pipe OD 89 mm",
+            "ar": "45° · DN80 · القطر الخارجي للأنبوب 89 mm"
+          },
+          "factoryReference": "Available on request",
+          "selection": {
+            "en": "Select the exact listed size and pipe OD combination; match the groove dimensions.",
+            "ar": "اختر مجموعة المقاس والقطر الخارجي المدرجة بدقة، وطابق أبعاد الأخدود."
+          },
+          "sourceNames": [
+            "多角度弯头系列-沟槽11.25度22.5度45度弯头"
+          ],
+          "sources": [
+            "02-产品资料/1601983354762_多角度弯头系列-沟槽11.25度22.5度45度弯头/原产品资料/copy/listing-fields.json"
+          ]
+        },
+        {
+          "name": {
+            "en": "45° · DN100 · Pipe OD 108 mm",
+            "ar": "45° · DN100 · القطر الخارجي للأنبوب 108 mm"
+          },
+          "factoryReference": "Available on request",
+          "selection": {
+            "en": "Select the exact listed size and pipe OD combination; match the groove dimensions.",
+            "ar": "اختر مجموعة المقاس والقطر الخارجي المدرجة بدقة، وطابق أبعاد الأخدود."
+          },
+          "sourceNames": [
+            "多角度弯头系列-沟槽11.25度22.5度45度弯头"
+          ],
+          "sources": [
+            "02-产品资料/1601983354762_多角度弯头系列-沟槽11.25度22.5度45度弯头/原产品资料/copy/listing-fields.json"
+          ]
+        },
+        {
+          "name": {
+            "en": "45° · DN100 · Pipe OD 114 mm",
+            "ar": "45° · DN100 · القطر الخارجي للأنبوب 114 mm"
+          },
+          "factoryReference": "Available on request",
+          "selection": {
+            "en": "Select the exact listed size and pipe OD combination; match the groove dimensions.",
+            "ar": "اختر مجموعة المقاس والقطر الخارجي المدرجة بدقة، وطابق أبعاد الأخدود."
+          },
+          "sourceNames": [
+            "多角度弯头系列-沟槽11.25度22.5度45度弯头"
+          ],
+          "sources": [
+            "02-产品资料/1601983354762_多角度弯头系列-沟槽11.25度22.5度45度弯头/原产品资料/copy/listing-fields.json"
+          ]
+        },
+        {
+          "name": {
+            "en": "45° · DN125 · Pipe OD 133 mm",
+            "ar": "45° · DN125 · القطر الخارجي للأنبوب 133 mm"
+          },
+          "factoryReference": "Available on request",
+          "selection": {
+            "en": "Select the exact listed size and pipe OD combination; match the groove dimensions.",
+            "ar": "اختر مجموعة المقاس والقطر الخارجي المدرجة بدقة، وطابق أبعاد الأخدود."
+          },
+          "sourceNames": [
+            "多角度弯头系列-沟槽11.25度22.5度45度弯头"
+          ],
+          "sources": [
+            "02-产品资料/1601983354762_多角度弯头系列-沟槽11.25度22.5度45度弯头/原产品资料/copy/listing-fields.json"
+          ]
+        },
+        {
+          "name": {
+            "en": "45° · DN125 · Pipe OD 140 mm",
+            "ar": "45° · DN125 · القطر الخارجي للأنبوب 140 mm"
+          },
+          "factoryReference": "Available on request",
+          "selection": {
+            "en": "Select the exact listed size and pipe OD combination; match the groove dimensions.",
+            "ar": "اختر مجموعة المقاس والقطر الخارجي المدرجة بدقة، وطابق أبعاد الأخدود."
+          },
+          "sourceNames": [
+            "多角度弯头系列-沟槽11.25度22.5度45度弯头"
+          ],
+          "sources": [
+            "02-产品资料/1601983354762_多角度弯头系列-沟槽11.25度22.5度45度弯头/原产品资料/copy/listing-fields.json"
+          ]
+        },
+        {
+          "name": {
+            "en": "45° · DN150 · Pipe OD 159 mm",
+            "ar": "45° · DN150 · القطر الخارجي للأنبوب 159 mm"
+          },
+          "factoryReference": "Available on request",
+          "selection": {
+            "en": "Select the exact listed size and pipe OD combination; match the groove dimensions.",
+            "ar": "اختر مجموعة المقاس والقطر الخارجي المدرجة بدقة، وطابق أبعاد الأخدود."
+          },
+          "sourceNames": [
+            "多角度弯头系列-沟槽11.25度22.5度45度弯头"
+          ],
+          "sources": [
+            "02-产品资料/1601983354762_多角度弯头系列-沟槽11.25度22.5度45度弯头/原产品资料/copy/listing-fields.json"
+          ]
+        },
+        {
+          "name": {
+            "en": "45° · DN150 · Pipe OD 165 mm",
+            "ar": "45° · DN150 · القطر الخارجي للأنبوب 165 mm"
+          },
+          "factoryReference": "Available on request",
+          "selection": {
+            "en": "Select the exact listed size and pipe OD combination; match the groove dimensions.",
+            "ar": "اختر مجموعة المقاس والقطر الخارجي المدرجة بدقة، وطابق أبعاد الأخدود."
+          },
+          "sourceNames": [
+            "多角度弯头系列-沟槽11.25度22.5度45度弯头"
+          ],
+          "sources": [
+            "02-产品资料/1601983354762_多角度弯头系列-沟槽11.25度22.5度45度弯头/原产品资料/copy/listing-fields.json"
+          ]
+        },
+        {
+          "name": {
+            "en": "45° · DN200 · Pipe OD 219 mm",
+            "ar": "45° · DN200 · القطر الخارجي للأنبوب 219 mm"
+          },
+          "factoryReference": "Available on request",
+          "selection": {
+            "en": "Select the exact listed size and pipe OD combination; match the groove dimensions.",
+            "ar": "اختر مجموعة المقاس والقطر الخارجي المدرجة بدقة، وطابق أبعاد الأخدود."
+          },
+          "sourceNames": [
+            "多角度弯头系列-沟槽11.25度22.5度45度弯头"
+          ],
+          "sources": [
+            "02-产品资料/1601983354762_多角度弯头系列-沟槽11.25度22.5度45度弯头/原产品资料/copy/listing-fields.json"
+          ]
+        }
+      ],
+      "selectionPrompts": [
+        {
+          "label": {
+            "en": "Pipe and groove dimensions",
+            "ar": "أبعاد الأنبوب والأخدود"
+          },
+          "body": {
+            "en": "Specify both nominal DN and actual pipe outside diameter, with the mating groove profile or drawing.",
+            "ar": "حدد كلًا من المقاس الاسمي DN والقطر الخارجي الفعلي للأنبوب، مع شكل الأخدود المقابل أو رسمه."
+          }
+        },
+        {
+          "label": {
+            "en": "Joint duty",
+            "ar": "متطلبات الوصلة"
+          },
+          "body": {
+            "en": "Provide operating pressure, temperature and required gasket or coating details for the selected configuration.",
+            "ar": "قدم ضغط التشغيل ودرجة الحرارة وتفاصيل الحشية أو الطلاء المطلوبة للتكوين المختار."
+          }
+        }
+      ],
+      "imageCaptions": {
+        "90度系列-沟槽90度弯头": {
+          "en": "90° grooved elbow reference.",
+          "ar": "صورة مرجعية لكوع ذي أخاديد بزاوية 90°."
+        },
+        "多角度弯头系列-沟槽11.25度22.5度45度弯头": {
+          "en": "45° sample; 11.25° and 22.5° options are listed separately.",
+          "ar": "عينة بزاوية 45°؛ خيارات 11.25° و22.5° مدرجة بشكل منفصل."
+        }
+      },
+      "unresolved": [
+        "各尺寸沟槽、压力、壁厚、重量及11.25°/22.5°准确照片待核实。"
+      ],
+      "notes": [
+        "90°10组+多角度22组，保留原始配对，不生成角度与尺寸全排列。",
+        "45°照片不冒充11.25°或22.5°；不将2.5铸字作为全系列工作压力。"
+      ]
+    },
+    {
+      "id": "grooved-reducing-tees",
+      "familyId": "grooved-pipe-fittings",
+      "name": {
+        "en": "Grooved Reducing Tees",
+        "ar": "وصلات T مخفضة ذات أخاديد",
+        "zh": "沟槽异径三通"
+      },
+      "lead": {
+        "en": "Ductile iron reducing tees connect a smaller branch to a grooved pipe run. Each listed option preserves the main and branch nominal sizes together with their matching pipe outside diameters.",
+        "ar": "تربط وصلات T المخفضة من حديد الدكتايل فرعًا أصغر بخط أنابيب ذي أخاديد. يحافظ كل خيار مدرج على المقاسين الاسميين للخط والفرع مع القطرين الخارجيين الموافقين."
+      },
+      "sourceNames": [
+        "异径三通系列-沟槽异径三通"
+      ],
+      "heroSourceName": "异径三通系列-沟槽异径三通",
+      "specs": [
+        {
+          "label": {
+            "en": "Material",
+            "ar": "المادة"
+          },
+          "value": {
+            "en": "Ductile iron",
+            "ar": "حديد دكتايل"
+          },
+          "sources": [
+            "02-产品资料/1601983352738_异径三通系列-沟槽异径三通/原产品资料/copy/listing-fields.json"
+          ],
+          "evidence": "Documented"
+        },
+        {
+          "label": {
+            "en": "Configuration",
+            "ar": "التكوين"
+          },
+          "value": {
+            "en": "Reducing branch tee",
+            "ar": "وصلة T بفرع مخفض"
+          },
+          "sources": [
+            "02-产品资料/1601983352738_异径三通系列-沟槽异径三通/原产品资料/copy/listing-fields.json"
+          ],
+          "evidence": "Documented"
+        },
+        {
+          "label": {
+            "en": "Connection",
+            "ar": "التوصيل"
+          },
+          "value": {
+            "en": "Grooved",
+            "ar": "بأخاديد"
+          },
+          "sources": [
+            "02-产品资料/1601983352738_异径三通系列-沟槽异径三通/原产品资料/copy/listing-fields.json"
+          ],
+          "evidence": "Documented"
+        },
+        {
+          "label": {
+            "en": "Main nominal sizes",
+            "ar": "المقاسات الاسمية للخط الرئيسي"
+          },
+          "value": {
+            "en": "DN80 / DN100 / DN125 / DN150 / DN200",
+            "ar": "DN80 / DN100 / DN125 / DN150 / DN200"
+          },
+          "sources": [
+            "02-产品资料/1601983352738_异径三通系列-沟槽异径三通/原产品资料/copy/listing-fields.json"
+          ],
+          "evidence": "Documented"
+        },
+        {
+          "label": {
+            "en": "Listed combinations",
+            "ar": "المجموعات المدرجة"
+          },
+          "value": {
+            "en": "19 main/branch and pipe OD combinations",
+            "ar": "19 مجموعة لمقاسي الخط والفرع وقطري الأنبوب الخارجيين"
+          },
+          "sources": [
+            "02-产品资料/1601983352738_异径三通系列-沟槽异径三通/原产品资料/copy/listing-fields.json"
+          ],
+          "evidence": "Documented"
+        }
+      ],
+      "models": [
+        {
+          "name": {
+            "en": "DN80 x DN50 · Pipe OD 89 x 60 mm",
+            "ar": "DN80 x DN50 · القطر الخارجي للأنبوب 89 x 60 mm"
+          },
+          "factoryReference": "Available on request",
+          "selection": {
+            "en": "Select the exact listed size and pipe OD combination; match the groove dimensions.",
+            "ar": "اختر مجموعة المقاس والقطر الخارجي المدرجة بدقة، وطابق أبعاد الأخدود."
+          },
+          "sourceNames": [
+            "异径三通系列-沟槽异径三通"
+          ],
+          "sources": [
+            "02-产品资料/1601983352738_异径三通系列-沟槽异径三通/原产品资料/copy/listing-fields.json"
+          ]
+        },
+        {
+          "name": {
+            "en": "DN80 x DN65 · Pipe OD 89 x 76 mm",
+            "ar": "DN80 x DN65 · القطر الخارجي للأنبوب 89 x 76 mm"
+          },
+          "factoryReference": "Available on request",
+          "selection": {
+            "en": "Select the exact listed size and pipe OD combination; match the groove dimensions.",
+            "ar": "اختر مجموعة المقاس والقطر الخارجي المدرجة بدقة، وطابق أبعاد الأخدود."
+          },
+          "sourceNames": [
+            "异径三通系列-沟槽异径三通"
+          ],
+          "sources": [
+            "02-产品资料/1601983352738_异径三通系列-沟槽异径三通/原产品资料/copy/listing-fields.json"
+          ]
+        },
+        {
+          "name": {
+            "en": "DN100 x DN50 · Pipe OD 114 x 60 mm",
+            "ar": "DN100 x DN50 · القطر الخارجي للأنبوب 114 x 60 mm"
+          },
+          "factoryReference": "Available on request",
+          "selection": {
+            "en": "Select the exact listed size and pipe OD combination; match the groove dimensions.",
+            "ar": "اختر مجموعة المقاس والقطر الخارجي المدرجة بدقة، وطابق أبعاد الأخدود."
+          },
+          "sourceNames": [
+            "异径三通系列-沟槽异径三通"
+          ],
+          "sources": [
+            "02-产品资料/1601983352738_异径三通系列-沟槽异径三通/原产品资料/copy/listing-fields.json"
+          ]
+        },
+        {
+          "name": {
+            "en": "DN100 x DN65 · Pipe OD 114 x 76 mm",
+            "ar": "DN100 x DN65 · القطر الخارجي للأنبوب 114 x 76 mm"
+          },
+          "factoryReference": "Available on request",
+          "selection": {
+            "en": "Select the exact listed size and pipe OD combination; match the groove dimensions.",
+            "ar": "اختر مجموعة المقاس والقطر الخارجي المدرجة بدقة، وطابق أبعاد الأخدود."
+          },
+          "sourceNames": [
+            "异径三通系列-沟槽异径三通"
+          ],
+          "sources": [
+            "02-产品资料/1601983352738_异径三通系列-沟槽异径三通/原产品资料/copy/listing-fields.json"
+          ]
+        },
+        {
+          "name": {
+            "en": "DN100 x DN80 · Pipe OD 114 x 89 mm",
+            "ar": "DN100 x DN80 · القطر الخارجي للأنبوب 114 x 89 mm"
+          },
+          "factoryReference": "Available on request",
+          "selection": {
+            "en": "Select the exact listed size and pipe OD combination; match the groove dimensions.",
+            "ar": "اختر مجموعة المقاس والقطر الخارجي المدرجة بدقة، وطابق أبعاد الأخدود."
+          },
+          "sourceNames": [
+            "异径三通系列-沟槽异径三通"
+          ],
+          "sources": [
+            "02-产品资料/1601983352738_异径三通系列-沟槽异径三通/原产品资料/copy/listing-fields.json"
+          ]
+        },
+        {
+          "name": {
+            "en": "DN125 x DN50 · Pipe OD 140 x 60 mm",
+            "ar": "DN125 x DN50 · القطر الخارجي للأنبوب 140 x 60 mm"
+          },
+          "factoryReference": "Available on request",
+          "selection": {
+            "en": "Select the exact listed size and pipe OD combination; match the groove dimensions.",
+            "ar": "اختر مجموعة المقاس والقطر الخارجي المدرجة بدقة، وطابق أبعاد الأخدود."
+          },
+          "sourceNames": [
+            "异径三通系列-沟槽异径三通"
+          ],
+          "sources": [
+            "02-产品资料/1601983352738_异径三通系列-沟槽异径三通/原产品资料/copy/listing-fields.json"
+          ]
+        },
+        {
+          "name": {
+            "en": "DN125 x DN65 · Pipe OD 140 x 76 mm",
+            "ar": "DN125 x DN65 · القطر الخارجي للأنبوب 140 x 76 mm"
+          },
+          "factoryReference": "Available on request",
+          "selection": {
+            "en": "Select the exact listed size and pipe OD combination; match the groove dimensions.",
+            "ar": "اختر مجموعة المقاس والقطر الخارجي المدرجة بدقة، وطابق أبعاد الأخدود."
+          },
+          "sourceNames": [
+            "异径三通系列-沟槽异径三通"
+          ],
+          "sources": [
+            "02-产品资料/1601983352738_异径三通系列-沟槽异径三通/原产品资料/copy/listing-fields.json"
+          ]
+        },
+        {
+          "name": {
+            "en": "DN125 x DN80 · Pipe OD 140 x 89 mm",
+            "ar": "DN125 x DN80 · القطر الخارجي للأنبوب 140 x 89 mm"
+          },
+          "factoryReference": "Available on request",
+          "selection": {
+            "en": "Select the exact listed size and pipe OD combination; match the groove dimensions.",
+            "ar": "اختر مجموعة المقاس والقطر الخارجي المدرجة بدقة، وطابق أبعاد الأخدود."
+          },
+          "sourceNames": [
+            "异径三通系列-沟槽异径三通"
+          ],
+          "sources": [
+            "02-产品资料/1601983352738_异径三通系列-沟槽异径三通/原产品资料/copy/listing-fields.json"
+          ]
+        },
+        {
+          "name": {
+            "en": "DN125 x DN100 · Pipe OD 140 x 114 mm",
+            "ar": "DN125 x DN100 · القطر الخارجي للأنبوب 140 x 114 mm"
+          },
+          "factoryReference": "Available on request",
+          "selection": {
+            "en": "Select the exact listed size and pipe OD combination; match the groove dimensions.",
+            "ar": "اختر مجموعة المقاس والقطر الخارجي المدرجة بدقة، وطابق أبعاد الأخدود."
+          },
+          "sourceNames": [
+            "异径三通系列-沟槽异径三通"
+          ],
+          "sources": [
+            "02-产品资料/1601983352738_异径三通系列-沟槽异径三通/原产品资料/copy/listing-fields.json"
+          ]
+        },
+        {
+          "name": {
+            "en": "DN150 x DN50 · Pipe OD 165 x 60 mm",
+            "ar": "DN150 x DN50 · القطر الخارجي للأنبوب 165 x 60 mm"
+          },
+          "factoryReference": "Available on request",
+          "selection": {
+            "en": "Select the exact listed size and pipe OD combination; match the groove dimensions.",
+            "ar": "اختر مجموعة المقاس والقطر الخارجي المدرجة بدقة، وطابق أبعاد الأخدود."
+          },
+          "sourceNames": [
+            "异径三通系列-沟槽异径三通"
+          ],
+          "sources": [
+            "02-产品资料/1601983352738_异径三通系列-沟槽异径三通/原产品资料/copy/listing-fields.json"
+          ]
+        },
+        {
+          "name": {
+            "en": "DN150 x DN65 · Pipe OD 165 x 76 mm",
+            "ar": "DN150 x DN65 · القطر الخارجي للأنبوب 165 x 76 mm"
+          },
+          "factoryReference": "Available on request",
+          "selection": {
+            "en": "Select the exact listed size and pipe OD combination; match the groove dimensions.",
+            "ar": "اختر مجموعة المقاس والقطر الخارجي المدرجة بدقة، وطابق أبعاد الأخدود."
+          },
+          "sourceNames": [
+            "异径三通系列-沟槽异径三通"
+          ],
+          "sources": [
+            "02-产品资料/1601983352738_异径三通系列-沟槽异径三通/原产品资料/copy/listing-fields.json"
+          ]
+        },
+        {
+          "name": {
+            "en": "DN150 x DN80 · Pipe OD 165 x 89 mm",
+            "ar": "DN150 x DN80 · القطر الخارجي للأنبوب 165 x 89 mm"
+          },
+          "factoryReference": "Available on request",
+          "selection": {
+            "en": "Select the exact listed size and pipe OD combination; match the groove dimensions.",
+            "ar": "اختر مجموعة المقاس والقطر الخارجي المدرجة بدقة، وطابق أبعاد الأخدود."
+          },
+          "sourceNames": [
+            "异径三通系列-沟槽异径三通"
+          ],
+          "sources": [
+            "02-产品资料/1601983352738_异径三通系列-沟槽异径三通/原产品资料/copy/listing-fields.json"
+          ]
+        },
+        {
+          "name": {
+            "en": "DN150 x DN100 · Pipe OD 165 x 114 mm",
+            "ar": "DN150 x DN100 · القطر الخارجي للأنبوب 165 x 114 mm"
+          },
+          "factoryReference": "Available on request",
+          "selection": {
+            "en": "Select the exact listed size and pipe OD combination; match the groove dimensions.",
+            "ar": "اختر مجموعة المقاس والقطر الخارجي المدرجة بدقة، وطابق أبعاد الأخدود."
+          },
+          "sourceNames": [
+            "异径三通系列-沟槽异径三通"
+          ],
+          "sources": [
+            "02-产品资料/1601983352738_异径三通系列-沟槽异径三通/原产品资料/copy/listing-fields.json"
+          ]
+        },
+        {
+          "name": {
+            "en": "DN150 x DN125 · Pipe OD 165 x 140 mm",
+            "ar": "DN150 x DN125 · القطر الخارجي للأنبوب 165 x 140 mm"
+          },
+          "factoryReference": "Available on request",
+          "selection": {
+            "en": "Select the exact listed size and pipe OD combination; match the groove dimensions.",
+            "ar": "اختر مجموعة المقاس والقطر الخارجي المدرجة بدقة، وطابق أبعاد الأخدود."
+          },
+          "sourceNames": [
+            "异径三通系列-沟槽异径三通"
+          ],
+          "sources": [
+            "02-产品资料/1601983352738_异径三通系列-沟槽异径三通/原产品资料/copy/listing-fields.json"
+          ]
+        },
+        {
+          "name": {
+            "en": "DN200 x DN65 · Pipe OD 219 x 76 mm",
+            "ar": "DN200 x DN65 · القطر الخارجي للأنبوب 219 x 76 mm"
+          },
+          "factoryReference": "Available on request",
+          "selection": {
+            "en": "Select the exact listed size and pipe OD combination; match the groove dimensions.",
+            "ar": "اختر مجموعة المقاس والقطر الخارجي المدرجة بدقة، وطابق أبعاد الأخدود."
+          },
+          "sourceNames": [
+            "异径三通系列-沟槽异径三通"
+          ],
+          "sources": [
+            "02-产品资料/1601983352738_异径三通系列-沟槽异径三通/原产品资料/copy/listing-fields.json"
+          ]
+        },
+        {
+          "name": {
+            "en": "DN200 x DN80 · Pipe OD 219 x 89 mm",
+            "ar": "DN200 x DN80 · القطر الخارجي للأنبوب 219 x 89 mm"
+          },
+          "factoryReference": "Available on request",
+          "selection": {
+            "en": "Select the exact listed size and pipe OD combination; match the groove dimensions.",
+            "ar": "اختر مجموعة المقاس والقطر الخارجي المدرجة بدقة، وطابق أبعاد الأخدود."
+          },
+          "sourceNames": [
+            "异径三通系列-沟槽异径三通"
+          ],
+          "sources": [
+            "02-产品资料/1601983352738_异径三通系列-沟槽异径三通/原产品资料/copy/listing-fields.json"
+          ]
+        },
+        {
+          "name": {
+            "en": "DN200 x DN100 · Pipe OD 219 x 114 mm",
+            "ar": "DN200 x DN100 · القطر الخارجي للأنبوب 219 x 114 mm"
+          },
+          "factoryReference": "Available on request",
+          "selection": {
+            "en": "Select the exact listed size and pipe OD combination; match the groove dimensions.",
+            "ar": "اختر مجموعة المقاس والقطر الخارجي المدرجة بدقة، وطابق أبعاد الأخدود."
+          },
+          "sourceNames": [
+            "异径三通系列-沟槽异径三通"
+          ],
+          "sources": [
+            "02-产品资料/1601983352738_异径三通系列-沟槽异径三通/原产品资料/copy/listing-fields.json"
+          ]
+        },
+        {
+          "name": {
+            "en": "DN200 x DN125 · Pipe OD 219 x 140 mm",
+            "ar": "DN200 x DN125 · القطر الخارجي للأنبوب 219 x 140 mm"
+          },
+          "factoryReference": "Available on request",
+          "selection": {
+            "en": "Select the exact listed size and pipe OD combination; match the groove dimensions.",
+            "ar": "اختر مجموعة المقاس والقطر الخارجي المدرجة بدقة، وطابق أبعاد الأخدود."
+          },
+          "sourceNames": [
+            "异径三通系列-沟槽异径三通"
+          ],
+          "sources": [
+            "02-产品资料/1601983352738_异径三通系列-沟槽异径三通/原产品资料/copy/listing-fields.json"
+          ]
+        },
+        {
+          "name": {
+            "en": "DN200 x DN150 · Pipe OD 219 x 165 mm",
+            "ar": "DN200 x DN150 · القطر الخارجي للأنبوب 219 x 165 mm"
+          },
+          "factoryReference": "Available on request",
+          "selection": {
+            "en": "Select the exact listed size and pipe OD combination; match the groove dimensions.",
+            "ar": "اختر مجموعة المقاس والقطر الخارجي المدرجة بدقة، وطابق أبعاد الأخدود."
+          },
+          "sourceNames": [
+            "异径三通系列-沟槽异径三通"
+          ],
+          "sources": [
+            "02-产品资料/1601983352738_异径三通系列-沟槽异径三通/原产品资料/copy/listing-fields.json"
+          ]
+        }
+      ],
+      "selectionPrompts": [
+        {
+          "label": {
+            "en": "Pipe and groove dimensions",
+            "ar": "أبعاد الأنبوب والأخدود"
+          },
+          "body": {
+            "en": "Specify both nominal DN and actual pipe outside diameter, with the mating groove profile or drawing.",
+            "ar": "حدد كلًا من المقاس الاسمي DN والقطر الخارجي الفعلي للأنبوب، مع شكل الأخدود المقابل أو رسمه."
+          }
+        },
+        {
+          "label": {
+            "en": "Branch arrangement",
+            "ar": "ترتيب الفرع"
+          },
+          "body": {
+            "en": "Provide the main and branch sizes, required flow direction and operating pressure.",
+            "ar": "قدم مقاسي الخط الرئيسي والفرع واتجاه التدفق المطلوب وضغط التشغيل."
+          }
+        }
+      ],
+      "imageCaptions": {
+        "异径三通系列-沟槽异径三通": {
+          "en": "Grooved reducing tee with a smaller branch connection.",
+          "ar": "وصلة T ذات أخاديد بفرع أصغر."
+        }
+      },
+      "unresolved": [
+        "沟槽尺寸、压力、壁厚与重量待核实。"
+      ],
+      "notes": [
+        "19个原始主管/支管组合单列；不采用网页通用“轴向型”或把样品铸字扩大到全系列。"
+      ]
+    },
+    {
+      "id": "grooved-equal-crosses",
+      "familyId": "grooved-pipe-fittings",
+      "name": {
+        "en": "Grooved Equal Crosses",
+        "ar": "وصلات صليبية متساوية ذات أخاديد",
+        "zh": "沟槽等径正四通"
+      },
+      "lead": {
+        "en": "Ductile iron equal crosses provide four grooved connections of equal nominal size for fire protection pipe branching. Select the nominal size and pipe outside diameter together.",
+        "ar": "توفر الوصلات الصليبية المتساوية من حديد الدكتايل أربع نهايات ذات أخاديد بمقاس اسمي واحد لتفريع أنابيب مكافحة الحريق. اختر المقاس الاسمي والقطر الخارجي للأنبوب معًا."
+      },
+      "sourceNames": [
+        "正四通系列-沟槽等径正四通"
+      ],
+      "heroSourceName": "正四通系列-沟槽等径正四通",
+      "specs": [
+        {
+          "label": {
+            "en": "Material",
+            "ar": "المادة"
+          },
+          "value": {
+            "en": "Ductile iron",
+            "ar": "حديد دكتايل"
+          },
+          "sources": [
+            "02-产品资料/1601983322827_正四通系列-沟槽等径正四通/原产品资料/copy/listing-fields.json"
+          ],
+          "evidence": "Documented"
+        },
+        {
+          "label": {
+            "en": "Configuration",
+            "ar": "التكوين"
+          },
+          "value": {
+            "en": "Four equal nominal-size outlets",
+            "ar": "أربع فتحات متساوية المقاس الاسمي"
+          },
+          "sources": [
+            "02-产品资料/1601983322827_正四通系列-沟槽等径正四通/原产品资料/copy/listing-fields.json"
+          ],
+          "evidence": "Documented"
+        },
+        {
+          "label": {
+            "en": "Connection",
+            "ar": "التوصيل"
+          },
+          "value": {
+            "en": "Grooved ends",
+            "ar": "نهايات ذات أخاديد"
+          },
+          "sources": [
+            "02-产品资料/1601983322827_正四通系列-沟槽等径正四通/原产品资料/copy/listing-fields.json"
+          ],
+          "evidence": "Documented"
+        },
+        {
+          "label": {
+            "en": "Nominal size options",
+            "ar": "خيارات المقاس الاسمي"
+          },
+          "value": {
+            "en": "DN65 / DN80 / DN100 / DN125 / DN150 / DN200",
+            "ar": "DN65 / DN80 / DN100 / DN125 / DN150 / DN200"
+          },
+          "sources": [
+            "02-产品资料/1601983322827_正四通系列-沟槽等径正四通/原产品资料/copy/listing-fields.json"
+          ],
+          "evidence": "Documented"
+        },
+        {
+          "label": {
+            "en": "Listed size and OD combinations",
+            "ar": "مجموعات المقاس والقطر الخارجي المدرجة"
+          },
+          "value": {
+            "en": "9",
+            "ar": "9"
+          },
+          "sources": [
+            "02-产品资料/1601983322827_正四通系列-沟槽等径正四通/原产品资料/copy/listing-fields.json"
+          ],
+          "evidence": "Documented"
+        }
+      ],
+      "models": [
+        {
+          "name": {
+            "en": "DN65 · Pipe OD 76 mm",
+            "ar": "DN65 · القطر الخارجي للأنبوب 76 mm"
+          },
+          "factoryReference": "Available on request",
+          "selection": {
+            "en": "Select the exact listed size and pipe OD combination; match the groove dimensions.",
+            "ar": "اختر مجموعة المقاس والقطر الخارجي المدرجة بدقة، وطابق أبعاد الأخدود."
+          },
+          "sourceNames": [
+            "正四通系列-沟槽等径正四通"
+          ],
+          "sources": [
+            "02-产品资料/1601983322827_正四通系列-沟槽等径正四通/原产品资料/copy/listing-fields.json"
+          ]
+        },
+        {
+          "name": {
+            "en": "DN80 · Pipe OD 89 mm",
+            "ar": "DN80 · القطر الخارجي للأنبوب 89 mm"
+          },
+          "factoryReference": "Available on request",
+          "selection": {
+            "en": "Select the exact listed size and pipe OD combination; match the groove dimensions.",
+            "ar": "اختر مجموعة المقاس والقطر الخارجي المدرجة بدقة، وطابق أبعاد الأخدود."
+          },
+          "sourceNames": [
+            "正四通系列-沟槽等径正四通"
+          ],
+          "sources": [
+            "02-产品资料/1601983322827_正四通系列-沟槽等径正四通/原产品资料/copy/listing-fields.json"
+          ]
+        },
+        {
+          "name": {
+            "en": "DN100 · Pipe OD 108 mm",
+            "ar": "DN100 · القطر الخارجي للأنبوب 108 mm"
+          },
+          "factoryReference": "Available on request",
+          "selection": {
+            "en": "Select the exact listed size and pipe OD combination; match the groove dimensions.",
+            "ar": "اختر مجموعة المقاس والقطر الخارجي المدرجة بدقة، وطابق أبعاد الأخدود."
+          },
+          "sourceNames": [
+            "正四通系列-沟槽等径正四通"
+          ],
+          "sources": [
+            "02-产品资料/1601983322827_正四通系列-沟槽等径正四通/原产品资料/copy/listing-fields.json"
+          ]
+        },
+        {
+          "name": {
+            "en": "DN100 · Pipe OD 114 mm",
+            "ar": "DN100 · القطر الخارجي للأنبوب 114 mm"
+          },
+          "factoryReference": "Available on request",
+          "selection": {
+            "en": "Select the exact listed size and pipe OD combination; match the groove dimensions.",
+            "ar": "اختر مجموعة المقاس والقطر الخارجي المدرجة بدقة، وطابق أبعاد الأخدود."
+          },
+          "sourceNames": [
+            "正四通系列-沟槽等径正四通"
+          ],
+          "sources": [
+            "02-产品资料/1601983322827_正四通系列-沟槽等径正四通/原产品资料/copy/listing-fields.json"
+          ]
+        },
+        {
+          "name": {
+            "en": "DN125 · Pipe OD 133 mm",
+            "ar": "DN125 · القطر الخارجي للأنبوب 133 mm"
+          },
+          "factoryReference": "Available on request",
+          "selection": {
+            "en": "Select the exact listed size and pipe OD combination; match the groove dimensions.",
+            "ar": "اختر مجموعة المقاس والقطر الخارجي المدرجة بدقة، وطابق أبعاد الأخدود."
+          },
+          "sourceNames": [
+            "正四通系列-沟槽等径正四通"
+          ],
+          "sources": [
+            "02-产品资料/1601983322827_正四通系列-沟槽等径正四通/原产品资料/copy/listing-fields.json"
+          ]
+        },
+        {
+          "name": {
+            "en": "DN125 · Pipe OD 140 mm",
+            "ar": "DN125 · القطر الخارجي للأنبوب 140 mm"
+          },
+          "factoryReference": "Available on request",
+          "selection": {
+            "en": "Select the exact listed size and pipe OD combination; match the groove dimensions.",
+            "ar": "اختر مجموعة المقاس والقطر الخارجي المدرجة بدقة، وطابق أبعاد الأخدود."
+          },
+          "sourceNames": [
+            "正四通系列-沟槽等径正四通"
+          ],
+          "sources": [
+            "02-产品资料/1601983322827_正四通系列-沟槽等径正四通/原产品资料/copy/listing-fields.json"
+          ]
+        },
+        {
+          "name": {
+            "en": "DN150 · Pipe OD 159 mm",
+            "ar": "DN150 · القطر الخارجي للأنبوب 159 mm"
+          },
+          "factoryReference": "Available on request",
+          "selection": {
+            "en": "Select the exact listed size and pipe OD combination; match the groove dimensions.",
+            "ar": "اختر مجموعة المقاس والقطر الخارجي المدرجة بدقة، وطابق أبعاد الأخدود."
+          },
+          "sourceNames": [
+            "正四通系列-沟槽等径正四通"
+          ],
+          "sources": [
+            "02-产品资料/1601983322827_正四通系列-沟槽等径正四通/原产品资料/copy/listing-fields.json"
+          ]
+        },
+        {
+          "name": {
+            "en": "DN150 · Pipe OD 165 mm",
+            "ar": "DN150 · القطر الخارجي للأنبوب 165 mm"
+          },
+          "factoryReference": "Available on request",
+          "selection": {
+            "en": "Select the exact listed size and pipe OD combination; match the groove dimensions.",
+            "ar": "اختر مجموعة المقاس والقطر الخارجي المدرجة بدقة، وطابق أبعاد الأخدود."
+          },
+          "sourceNames": [
+            "正四通系列-沟槽等径正四通"
+          ],
+          "sources": [
+            "02-产品资料/1601983322827_正四通系列-沟槽等径正四通/原产品资料/copy/listing-fields.json"
+          ]
+        },
+        {
+          "name": {
+            "en": "DN200 · Pipe OD 219 mm",
+            "ar": "DN200 · القطر الخارجي للأنبوب 219 mm"
+          },
+          "factoryReference": "Available on request",
+          "selection": {
+            "en": "Select the exact listed size and pipe OD combination; match the groove dimensions.",
+            "ar": "اختر مجموعة المقاس والقطر الخارجي المدرجة بدقة، وطابق أبعاد الأخدود."
+          },
+          "sourceNames": [
+            "正四通系列-沟槽等径正四通"
+          ],
+          "sources": [
+            "02-产品资料/1601983322827_正四通系列-沟槽等径正四通/原产品资料/copy/listing-fields.json"
+          ]
+        }
+      ],
+      "selectionPrompts": [
+        {
+          "label": {
+            "en": "Pipe and groove dimensions",
+            "ar": "أبعاد الأنبوب والأخدود"
+          },
+          "body": {
+            "en": "Specify both nominal DN and actual pipe outside diameter, with the mating groove profile or drawing.",
+            "ar": "حدد كلًا من المقاس الاسمي DN والقطر الخارجي الفعلي للأنبوب، مع شكل الأخدود المقابل أو رسمه."
+          }
+        },
+        {
+          "label": {
+            "en": "Joint duty",
+            "ar": "متطلبات الوصلة"
+          },
+          "body": {
+            "en": "Provide operating pressure, temperature and required gasket or coating details for the selected configuration.",
+            "ar": "قدم ضغط التشغيل ودرجة الحرارة وتفاصيل الحشية أو الطلاء المطلوبة للتكوين المختار."
+          }
+        }
+      ],
+      "imageCaptions": {
+        "正四通系列-沟槽等径正四通": {
+          "en": "Equal cross with four grooved ends.",
+          "ar": "وصلة صليبية متساوية بأربع نهايات ذات أخاديد."
+        }
+      },
+      "unresolved": [
+        "压力、壁厚、重量、沟槽尺寸待核实。"
+      ],
+      "notes": [
+        "仅收等径正四通；原网页沟槽异径/丝接异径四通不并入本页，不使用错误DN150×65=65×76组合。"
+      ]
+    },
+    {
+      "id": "rigid-grooved-pipe-couplings",
+      "familyId": "grooved-pipe-fittings",
+      "name": {
+        "en": "Rigid Grooved Pipe Couplings",
+        "ar": "وصلات أنابيب صلبة ذات أخاديد",
+        "zh": "刚性沟槽卡箍"
+      },
+      "lead": {
+        "en": "Bolted rigid couplings join compatible grooved pipe ends. The XGQT range and the separate reference coupling are distinct configurations; the latter has a supplier-described EPDM gasket. Confirm the gasket material for your order.",
+        "ar": "تربط الوصلات الصلبة المثبتة بمسامير أطراف الأنابيب ذات الأخاديد المتوافقة. مجموعة XGQT والوصلة المرجعية المنفصلة تكوينان مختلفان؛ ويصف المورد حشية الوصلة الأخيرة بأنها EPDM، مع ضرورة تأكيد مادة دفعة التوريد."
+      },
+      "sourceNames": [
+        "XGQT系列-金顺刚性沟槽卡箍",
+        "刚性卡箍系列-螺栓式刚性沟槽卡箍"
+      ],
+      "heroSourceName": "XGQT系列-金顺刚性沟槽卡箍",
+      "specs": [
+        {
+          "label": {
+            "en": "XGQT housing material",
+            "ar": "مادة جسم XGQT"
+          },
+          "value": {
+            "en": "Ductile iron",
+            "ar": "حديد دكتايل"
+          },
+          "sources": [
+            "02-产品资料/1601983383605_XGQT系列-金顺刚性沟槽卡箍/原产品资料/copy/listing-fields.json"
+          ],
+          "evidence": "Documented"
+        },
+        {
+          "label": {
+            "en": "XGQT listed nominal sizes",
+            "ar": "المقاسات الاسمية المدرجة لـ XGQT"
+          },
+          "value": {
+            "en": "DN50 / DN65 / DN80 / DN100 / DN125 / DN150 / DN200",
+            "ar": "DN50 / DN65 / DN80 / DN100 / DN125 / DN150 / DN200"
+          },
+          "sources": [
+            "02-产品资料/1601983383605_XGQT系列-金顺刚性沟槽卡箍/原产品资料/copy/listing-fields.json"
+          ],
+          "evidence": "Documented"
+        },
+        {
+          "label": {
+            "en": "XGQT size and OD combinations",
+            "ar": "مجموعات المقاس والقطر الخارجي لـ XGQT"
+          },
+          "value": {
+            "en": "10",
+            "ar": "10"
+          },
+          "sources": [
+            "02-产品资料/1601983383605_XGQT系列-金顺刚性沟槽卡箍/原产品资料/copy/listing-fields.json"
+          ],
+          "evidence": "Documented"
+        },
+        {
+          "label": {
+            "en": "Separate coupling housing",
+            "ar": "جسم الوصلة المنفصلة"
+          },
+          "value": {
+            "en": "Ductile iron bolted split housing",
+            "ar": "جسم من حديد الدكتايل مقسوم ومثبت بمسامير"
+          },
+          "sources": [
+            "02-产品资料/1601983358621_刚性卡箍系列-螺栓式刚性沟槽卡箍/原产品资料/copy/listing-fields.json"
+          ],
+          "evidence": "Documented"
+        },
+        {
+          "label": {
+            "en": "Separate coupling gasket",
+            "ar": "حشية الوصلة المنفصلة"
+          },
+          "value": {
+            "en": "EPDM shown in its source material",
+            "ar": "EPDM وفق موادها المرجعية"
+          },
+          "sources": [
+            "02-产品资料/1601983358621_刚性卡箍系列-螺栓式刚性沟槽卡箍/原产品资料/copy/listing-fields.json"
+          ],
+          "evidence": "Documented"
+        },
+        {
+          "label": {
+            "en": "Connection function",
+            "ar": "وظيفة التوصيل"
+          },
+          "value": {
+            "en": "Join compatible grooved pipe ends",
+            "ar": "ربط أطراف الأنابيب ذات الأخاديد المتوافقة"
+          },
+          "sources": [
+            "02-产品资料/1601983383605_XGQT系列-金顺刚性沟槽卡箍/原产品资料/copy/listing-fields.json"
+          ],
+          "evidence": "Documented"
+        }
+      ],
+      "models": [
+        {
+          "name": {
+            "en": "XGQT · DN50 · Pipe OD 60 mm",
+            "ar": "XGQT · DN50 · القطر الخارجي للأنبوب 60 mm"
+          },
+          "factoryReference": "Available on request",
+          "selection": {
+            "en": "Select the exact listed size and pipe OD combination; match the groove dimensions.",
+            "ar": "اختر مجموعة المقاس والقطر الخارجي المدرجة بدقة، وطابق أبعاد الأخدود."
+          },
+          "sourceNames": [
+            "XGQT系列-金顺刚性沟槽卡箍"
+          ],
+          "sources": [
+            "02-产品资料/1601983383605_XGQT系列-金顺刚性沟槽卡箍/原产品资料/copy/listing-fields.json"
+          ]
+        },
+        {
+          "name": {
+            "en": "XGQT · DN65 · Pipe OD 76 mm",
+            "ar": "XGQT · DN65 · القطر الخارجي للأنبوب 76 mm"
+          },
+          "factoryReference": "Available on request",
+          "selection": {
+            "en": "Select the exact listed size and pipe OD combination; match the groove dimensions.",
+            "ar": "اختر مجموعة المقاس والقطر الخارجي المدرجة بدقة، وطابق أبعاد الأخدود."
+          },
+          "sourceNames": [
+            "XGQT系列-金顺刚性沟槽卡箍"
+          ],
+          "sources": [
+            "02-产品资料/1601983383605_XGQT系列-金顺刚性沟槽卡箍/原产品资料/copy/listing-fields.json"
+          ]
+        },
+        {
+          "name": {
+            "en": "XGQT · DN80 · Pipe OD 89 mm",
+            "ar": "XGQT · DN80 · القطر الخارجي للأنبوب 89 mm"
+          },
+          "factoryReference": "Available on request",
+          "selection": {
+            "en": "Select the exact listed size and pipe OD combination; match the groove dimensions.",
+            "ar": "اختر مجموعة المقاس والقطر الخارجي المدرجة بدقة، وطابق أبعاد الأخدود."
+          },
+          "sourceNames": [
+            "XGQT系列-金顺刚性沟槽卡箍"
+          ],
+          "sources": [
+            "02-产品资料/1601983383605_XGQT系列-金顺刚性沟槽卡箍/原产品资料/copy/listing-fields.json"
+          ]
+        },
+        {
+          "name": {
+            "en": "XGQT · DN100 · Pipe OD 108 mm",
+            "ar": "XGQT · DN100 · القطر الخارجي للأنبوب 108 mm"
+          },
+          "factoryReference": "Available on request",
+          "selection": {
+            "en": "Select the exact listed size and pipe OD combination; match the groove dimensions.",
+            "ar": "اختر مجموعة المقاس والقطر الخارجي المدرجة بدقة، وطابق أبعاد الأخدود."
+          },
+          "sourceNames": [
+            "XGQT系列-金顺刚性沟槽卡箍"
+          ],
+          "sources": [
+            "02-产品资料/1601983383605_XGQT系列-金顺刚性沟槽卡箍/原产品资料/copy/listing-fields.json"
+          ]
+        },
+        {
+          "name": {
+            "en": "XGQT · DN100 · Pipe OD 114 mm",
+            "ar": "XGQT · DN100 · القطر الخارجي للأنبوب 114 mm"
+          },
+          "factoryReference": "Available on request",
+          "selection": {
+            "en": "Select the exact listed size and pipe OD combination; match the groove dimensions.",
+            "ar": "اختر مجموعة المقاس والقطر الخارجي المدرجة بدقة، وطابق أبعاد الأخدود."
+          },
+          "sourceNames": [
+            "XGQT系列-金顺刚性沟槽卡箍"
+          ],
+          "sources": [
+            "02-产品资料/1601983383605_XGQT系列-金顺刚性沟槽卡箍/原产品资料/copy/listing-fields.json"
+          ]
+        },
+        {
+          "name": {
+            "en": "XGQT · DN125 · Pipe OD 133 mm",
+            "ar": "XGQT · DN125 · القطر الخارجي للأنبوب 133 mm"
+          },
+          "factoryReference": "Available on request",
+          "selection": {
+            "en": "Select the exact listed size and pipe OD combination; match the groove dimensions.",
+            "ar": "اختر مجموعة المقاس والقطر الخارجي المدرجة بدقة، وطابق أبعاد الأخدود."
+          },
+          "sourceNames": [
+            "XGQT系列-金顺刚性沟槽卡箍"
+          ],
+          "sources": [
+            "02-产品资料/1601983383605_XGQT系列-金顺刚性沟槽卡箍/原产品资料/copy/listing-fields.json"
+          ]
+        },
+        {
+          "name": {
+            "en": "XGQT · DN125 · Pipe OD 140 mm",
+            "ar": "XGQT · DN125 · القطر الخارجي للأنبوب 140 mm"
+          },
+          "factoryReference": "Available on request",
+          "selection": {
+            "en": "Select the exact listed size and pipe OD combination; match the groove dimensions.",
+            "ar": "اختر مجموعة المقاس والقطر الخارجي المدرجة بدقة، وطابق أبعاد الأخدود."
+          },
+          "sourceNames": [
+            "XGQT系列-金顺刚性沟槽卡箍"
+          ],
+          "sources": [
+            "02-产品资料/1601983383605_XGQT系列-金顺刚性沟槽卡箍/原产品资料/copy/listing-fields.json"
+          ]
+        },
+        {
+          "name": {
+            "en": "XGQT · DN150 · Pipe OD 159 mm",
+            "ar": "XGQT · DN150 · القطر الخارجي للأنبوب 159 mm"
+          },
+          "factoryReference": "Available on request",
+          "selection": {
+            "en": "Select the exact listed size and pipe OD combination; match the groove dimensions.",
+            "ar": "اختر مجموعة المقاس والقطر الخارجي المدرجة بدقة، وطابق أبعاد الأخدود."
+          },
+          "sourceNames": [
+            "XGQT系列-金顺刚性沟槽卡箍"
+          ],
+          "sources": [
+            "02-产品资料/1601983383605_XGQT系列-金顺刚性沟槽卡箍/原产品资料/copy/listing-fields.json"
+          ]
+        },
+        {
+          "name": {
+            "en": "XGQT · DN150 · Pipe OD 165 mm",
+            "ar": "XGQT · DN150 · القطر الخارجي للأنبوب 165 mm"
+          },
+          "factoryReference": "Available on request",
+          "selection": {
+            "en": "Select the exact listed size and pipe OD combination; match the groove dimensions.",
+            "ar": "اختر مجموعة المقاس والقطر الخارجي المدرجة بدقة، وطابق أبعاد الأخدود."
+          },
+          "sourceNames": [
+            "XGQT系列-金顺刚性沟槽卡箍"
+          ],
+          "sources": [
+            "02-产品资料/1601983383605_XGQT系列-金顺刚性沟槽卡箍/原产品资料/copy/listing-fields.json"
+          ]
+        },
+        {
+          "name": {
+            "en": "XGQT · DN200 · Pipe OD 219 mm",
+            "ar": "XGQT · DN200 · القطر الخارجي للأنبوب 219 mm"
+          },
+          "factoryReference": "Available on request",
+          "selection": {
+            "en": "Select the exact listed size and pipe OD combination; match the groove dimensions.",
+            "ar": "اختر مجموعة المقاس والقطر الخارجي المدرجة بدقة، وطابق أبعاد الأخدود."
+          },
+          "sourceNames": [
+            "XGQT系列-金顺刚性沟槽卡箍"
+          ],
+          "sources": [
+            "02-产品资料/1601983383605_XGQT系列-金顺刚性沟槽卡箍/原产品资料/copy/listing-fields.json"
+          ]
+        },
+        {
+          "name": {
+            "en": "Separate bolted coupling reference",
+            "ar": "وصلة منفصلة بمسامير — صورة مرجعية"
+          },
+          "factoryReference": "Available on request",
+          "selection": {
+            "en": "Ductile iron split housing; supplier-described EPDM gasket, confirm batch material. Specify the exact housing and connection dimensions.",
+            "ar": "جسم مقسوم من حديد الدكتايل؛ يصف المورد الحشية بأنها EPDM، ويجب تأكيد مادة دفعة التوريد. حدد الجسم وأبعاد التوصيل بدقة."
+          },
+          "sourceNames": [
+            "刚性卡箍系列-螺栓式刚性沟槽卡箍"
+          ],
+          "sources": [
+            "02-产品资料/1601983358621_刚性卡箍系列-螺栓式刚性沟槽卡箍/原产品资料/copy/listing-fields.json"
+          ]
+        }
+      ],
+      "selectionPrompts": [
+        {
+          "label": {
+            "en": "Pipe and groove dimensions",
+            "ar": "أبعاد الأنبوب والأخدود"
+          },
+          "body": {
+            "en": "Specify both nominal DN and actual pipe outside diameter, with the mating groove profile or drawing.",
+            "ar": "حدد كلًا من المقاس الاسمي DN والقطر الخارجي الفعلي للأنبوب، مع شكل الأخدود المقابل أو رسمه."
+          }
+        },
+        {
+          "label": {
+            "en": "Coupling and gasket configuration",
+            "ar": "تكوين الوصلة والحشية"
+          },
+          "body": {
+            "en": "Identify the XGQT range or the separate reference coupling and specify the gasket compound, pressure and required assembly details.",
+            "ar": "حدد مجموعة XGQT أو الوصلة المرجعية المنفصلة، واذكر مركب الحشية والضغط وتفاصيل التجميع المطلوبة."
+          }
+        }
+      ],
+      "imageCaptions": {
+        "XGQT系列-金顺刚性沟槽卡箍": {
+          "en": "XGQT reference coupling; listed DN and pipe OD options apply to this range.",
+          "ar": "وصلة XGQT مرجعية؛ تنطبق خيارات DN وقطر الأنبوب الخارجي المدرجة على هذه المجموعة."
+        },
+        "刚性卡箍系列-螺栓式刚性沟槽卡箍": {
+          "en": "Separate bolted coupling reference; supplier-described EPDM gasket, confirm batch material.",
+          "ar": "وصلة منفصلة بمسامير — صورة مرجعية؛ يصف المورد الحشية بأنها EPDM، ويجب تأكيد مادة دفعة التوريد."
+        }
+      },
+      "unresolved": [
+        "XGQT密封圈材质、两款沟槽图纸/压力/扭矩待确认；另一家卡箍准确型号和尺寸表缺失。",
+        "另一家卡箍的EPDM来自同组密封圈宣传，实际出货批次密封圈材质需核对。"
+      ],
+      "notes": [
+        "不把XGQT尺寸、品牌借给另一家卡箍，不把另一家EPDM或涂层借给XGQT。",
+        "另一家文件夹DN89、DN114不作为真实公称DN发布。"
+      ]
+    },
+    {
+      "id": "pressure-vacuum-gauges",
+      "familyId": "pressure-gauges-accessories",
+      "name": {
+        "en": "Pressure & Vacuum Gauges",
+        "ar": "مقاييس الضغط والفراغ",
+        "zh": "普通压力及真空复合表"
+      },
+      "lead": {
+        "en": "The Y100 analog gauge offers a 100 mm nominal dial and M20x1.5 bottom connection. Positive-pressure, vacuum and compound ranges are selected as individual gauge options.",
+        "ar": "يوفر مقياس Y100 التناظري قرصًا بقطر اسمي 100 mm وتوصيلًا سفليًا M20x1.5. تختار مجالات الضغط الموجب والفراغ والمجالات المركبة كخيارات مستقلة للمقياس."
+      },
+      "sourceNames": [
+        "Y100-普通压力及真空复合表"
+      ],
+      "heroSourceName": "Y100-普通压力及真空复合表",
+      "specs": [
+        {
+          "label": {
+            "en": "Model",
+            "ar": "الموديل"
+          },
+          "value": {
+            "en": "Y100",
+            "ar": "Y100"
+          },
+          "sources": [
+            "02-产品资料/1601982047952_Y100-普通压力及真空复合表/原产品资料/copy/listing-fields.json"
+          ],
+          "evidence": "Confirmed"
+        },
+        {
+          "label": {
+            "en": "Nominal dial diameter",
+            "ar": "قطر القرص الاسمي"
+          },
+          "value": {
+            "en": "100 mm",
+            "ar": "100 mm"
+          },
+          "sources": [
+            "02-产品资料/1601982047952_Y100-普通压力及真空复合表/原产品资料/copy/listing-fields.json"
+          ],
+          "evidence": "Confirmed"
+        },
+        {
+          "label": {
+            "en": "Connection",
+            "ar": "التوصيل"
+          },
+          "value": {
+            "en": "M20x1.5 bottom connection",
+            "ar": "توصيل سفلي M20x1.5"
+          },
+          "sources": [
+            "02-产品资料/1601982047952_Y100-普通压力及真空复合表/原产品资料/copy/listing-fields.json"
+          ],
+          "evidence": "Confirmed"
+        },
+        {
+          "label": {
+            "en": "Accuracy class",
+            "ar": "فئة الدقة"
+          },
+          "value": {
+            "en": "1.6",
+            "ar": "1.6"
+          },
+          "sources": [
+            "02-产品资料/1601982047952_Y100-普通压力及真空复合表/原产品资料/copy/listing-fields.json"
+          ],
+          "evidence": "Confirmed"
+        },
+        {
+          "label": {
+            "en": "Indication",
+            "ar": "طريقة البيان"
+          },
+          "value": {
+            "en": "Local analog dial",
+            "ar": "قرص تناظري للقراءة الموضعية"
+          },
+          "sources": [
+            "02-产品资料/1601982047952_Y100-普通压力及真空复合表/原产品资料/copy/listing-fields.json"
+          ],
+          "evidence": "Visible"
+        },
+        {
+          "label": {
+            "en": "Range types",
+            "ar": "أنواع مجالات القياس"
+          },
+          "value": {
+            "en": "Positive pressure / vacuum / compound",
+            "ar": "ضغط موجب / فراغ / مركب"
+          },
+          "sources": [
+            "02-产品资料/1601982047952_Y100-普通压力及真空复合表/原产品资料/copy/listing-fields.json"
+          ],
+          "evidence": "Confirmed"
+        }
+      ],
+      "models": [
+        {
+          "name": {
+            "en": "Y100 · 0…0.1 MPa",
+            "ar": "Y100 · 0…0.1 MPa"
+          },
+          "factoryReference": "Y100",
+          "selection": {
+            "en": "100 mm dial · M20x1.5 bottom connection · selected range 0…0.1 MPa",
+            "ar": "قرص 100 mm · توصيل سفلي M20x1.5 · المجال المختار 0…0.1 MPa"
+          },
+          "sourceNames": [
+            "Y100-普通压力及真空复合表"
+          ],
+          "sources": [
+            "02-产品资料/1601982047952_Y100-普通压力及真空复合表/原产品资料/copy/listing-fields.json"
+          ]
+        },
+        {
+          "name": {
+            "en": "Y100 · 0…0.16 MPa",
+            "ar": "Y100 · 0…0.16 MPa"
+          },
+          "factoryReference": "Y100",
+          "selection": {
+            "en": "100 mm dial · M20x1.5 bottom connection · selected range 0…0.16 MPa",
+            "ar": "قرص 100 mm · توصيل سفلي M20x1.5 · المجال المختار 0…0.16 MPa"
+          },
+          "sourceNames": [
+            "Y100-普通压力及真空复合表"
+          ],
+          "sources": [
+            "02-产品资料/1601982047952_Y100-普通压力及真空复合表/原产品资料/copy/listing-fields.json"
+          ]
+        },
+        {
+          "name": {
+            "en": "Y100 · 0…0.25 MPa",
+            "ar": "Y100 · 0…0.25 MPa"
+          },
+          "factoryReference": "Y100",
+          "selection": {
+            "en": "100 mm dial · M20x1.5 bottom connection · selected range 0…0.25 MPa",
+            "ar": "قرص 100 mm · توصيل سفلي M20x1.5 · المجال المختار 0…0.25 MPa"
+          },
+          "sourceNames": [
+            "Y100-普通压力及真空复合表"
+          ],
+          "sources": [
+            "02-产品资料/1601982047952_Y100-普通压力及真空复合表/原产品资料/copy/listing-fields.json"
+          ]
+        },
+        {
+          "name": {
+            "en": "Y100 · 0…0.4 MPa",
+            "ar": "Y100 · 0…0.4 MPa"
+          },
+          "factoryReference": "Y100",
+          "selection": {
+            "en": "100 mm dial · M20x1.5 bottom connection · selected range 0…0.4 MPa",
+            "ar": "قرص 100 mm · توصيل سفلي M20x1.5 · المجال المختار 0…0.4 MPa"
+          },
+          "sourceNames": [
+            "Y100-普通压力及真空复合表"
+          ],
+          "sources": [
+            "02-产品资料/1601982047952_Y100-普通压力及真空复合表/原产品资料/copy/listing-fields.json"
+          ]
+        },
+        {
+          "name": {
+            "en": "Y100 · 0…0.6 MPa",
+            "ar": "Y100 · 0…0.6 MPa"
+          },
+          "factoryReference": "Y100",
+          "selection": {
+            "en": "100 mm dial · M20x1.5 bottom connection · selected range 0…0.6 MPa",
+            "ar": "قرص 100 mm · توصيل سفلي M20x1.5 · المجال المختار 0…0.6 MPa"
+          },
+          "sourceNames": [
+            "Y100-普通压力及真空复合表"
+          ],
+          "sources": [
+            "02-产品资料/1601982047952_Y100-普通压力及真空复合表/原产品资料/copy/listing-fields.json"
+          ]
+        },
+        {
+          "name": {
+            "en": "Y100 · 0…1 MPa",
+            "ar": "Y100 · 0…1 MPa"
+          },
+          "factoryReference": "Y100",
+          "selection": {
+            "en": "100 mm dial · M20x1.5 bottom connection · selected range 0…1 MPa",
+            "ar": "قرص 100 mm · توصيل سفلي M20x1.5 · المجال المختار 0…1 MPa"
+          },
+          "sourceNames": [
+            "Y100-普通压力及真空复合表"
+          ],
+          "sources": [
+            "02-产品资料/1601982047952_Y100-普通压力及真空复合表/原产品资料/copy/listing-fields.json"
+          ]
+        },
+        {
+          "name": {
+            "en": "Y100 · 0…1.6 MPa",
+            "ar": "Y100 · 0…1.6 MPa"
+          },
+          "factoryReference": "Y100",
+          "selection": {
+            "en": "100 mm dial · M20x1.5 bottom connection · selected range 0…1.6 MPa",
+            "ar": "قرص 100 mm · توصيل سفلي M20x1.5 · المجال المختار 0…1.6 MPa"
+          },
+          "sourceNames": [
+            "Y100-普通压力及真空复合表"
+          ],
+          "sources": [
+            "02-产品资料/1601982047952_Y100-普通压力及真空复合表/原产品资料/copy/listing-fields.json"
+          ]
+        },
+        {
+          "name": {
+            "en": "Y100 · 0…2.5 MPa",
+            "ar": "Y100 · 0…2.5 MPa"
+          },
+          "factoryReference": "Y100",
+          "selection": {
+            "en": "100 mm dial · M20x1.5 bottom connection · selected range 0…2.5 MPa",
+            "ar": "قرص 100 mm · توصيل سفلي M20x1.5 · المجال المختار 0…2.5 MPa"
+          },
+          "sourceNames": [
+            "Y100-普通压力及真空复合表"
+          ],
+          "sources": [
+            "02-产品资料/1601982047952_Y100-普通压力及真空复合表/原产品资料/copy/listing-fields.json"
+          ]
+        },
+        {
+          "name": {
+            "en": "Y100 · 0…4 MPa",
+            "ar": "Y100 · 0…4 MPa"
+          },
+          "factoryReference": "Y100",
+          "selection": {
+            "en": "100 mm dial · M20x1.5 bottom connection · selected range 0…4 MPa",
+            "ar": "قرص 100 mm · توصيل سفلي M20x1.5 · المجال المختار 0…4 MPa"
+          },
+          "sourceNames": [
+            "Y100-普通压力及真空复合表"
+          ],
+          "sources": [
+            "02-产品资料/1601982047952_Y100-普通压力及真空复合表/原产品资料/copy/listing-fields.json"
+          ]
+        },
+        {
+          "name": {
+            "en": "Y100 · 0…6 MPa",
+            "ar": "Y100 · 0…6 MPa"
+          },
+          "factoryReference": "Y100",
+          "selection": {
+            "en": "100 mm dial · M20x1.5 bottom connection · selected range 0…6 MPa",
+            "ar": "قرص 100 mm · توصيل سفلي M20x1.5 · المجال المختار 0…6 MPa"
+          },
+          "sourceNames": [
+            "Y100-普通压力及真空复合表"
+          ],
+          "sources": [
+            "02-产品资料/1601982047952_Y100-普通压力及真空复合表/原产品资料/copy/listing-fields.json"
+          ]
+        },
+        {
+          "name": {
+            "en": "Y100 · 0…10 MPa",
+            "ar": "Y100 · 0…10 MPa"
+          },
+          "factoryReference": "Y100",
+          "selection": {
+            "en": "100 mm dial · M20x1.5 bottom connection · selected range 0…10 MPa",
+            "ar": "قرص 100 mm · توصيل سفلي M20x1.5 · المجال المختار 0…10 MPa"
+          },
+          "sourceNames": [
+            "Y100-普通压力及真空复合表"
+          ],
+          "sources": [
+            "02-产品资料/1601982047952_Y100-普通压力及真空复合表/原产品资料/copy/listing-fields.json"
+          ]
+        },
+        {
+          "name": {
+            "en": "Y100 · 0…16 MPa",
+            "ar": "Y100 · 0…16 MPa"
+          },
+          "factoryReference": "Y100",
+          "selection": {
+            "en": "100 mm dial · M20x1.5 bottom connection · selected range 0…16 MPa",
+            "ar": "قرص 100 mm · توصيل سفلي M20x1.5 · المجال المختار 0…16 MPa"
+          },
+          "sourceNames": [
+            "Y100-普通压力及真空复合表"
+          ],
+          "sources": [
+            "02-产品资料/1601982047952_Y100-普通压力及真空复合表/原产品资料/copy/listing-fields.json"
+          ]
+        },
+        {
+          "name": {
+            "en": "Y100 · 0…25 MPa",
+            "ar": "Y100 · 0…25 MPa"
+          },
+          "factoryReference": "Y100",
+          "selection": {
+            "en": "100 mm dial · M20x1.5 bottom connection · selected range 0…25 MPa",
+            "ar": "قرص 100 mm · توصيل سفلي M20x1.5 · المجال المختار 0…25 MPa"
+          },
+          "sourceNames": [
+            "Y100-普通压力及真空复合表"
+          ],
+          "sources": [
+            "02-产品资料/1601982047952_Y100-普通压力及真空复合表/原产品资料/copy/listing-fields.json"
+          ]
+        },
+        {
+          "name": {
+            "en": "Y100 · 0…40 MPa",
+            "ar": "Y100 · 0…40 MPa"
+          },
+          "factoryReference": "Y100",
+          "selection": {
+            "en": "100 mm dial · M20x1.5 bottom connection · selected range 0…40 MPa",
+            "ar": "قرص 100 mm · توصيل سفلي M20x1.5 · المجال المختار 0…40 MPa"
+          },
+          "sourceNames": [
+            "Y100-普通压力及真空复合表"
+          ],
+          "sources": [
+            "02-产品资料/1601982047952_Y100-普通压力及真空复合表/原产品资料/copy/listing-fields.json"
+          ]
+        },
+        {
+          "name": {
+            "en": "Y100 · 0…60 MPa",
+            "ar": "Y100 · 0…60 MPa"
+          },
+          "factoryReference": "Y100",
+          "selection": {
+            "en": "100 mm dial · M20x1.5 bottom connection · selected range 0…60 MPa",
+            "ar": "قرص 100 mm · توصيل سفلي M20x1.5 · المجال المختار 0…60 MPa"
+          },
+          "sourceNames": [
+            "Y100-普通压力及真空复合表"
+          ],
+          "sources": [
+            "02-产品资料/1601982047952_Y100-普通压力及真空复合表/原产品资料/copy/listing-fields.json"
+          ]
+        },
+        {
+          "name": {
+            "en": "Y100 · -0.1…0 MPa",
+            "ar": "Y100 · -0.1…0 MPa"
+          },
+          "factoryReference": "Y100",
+          "selection": {
+            "en": "100 mm dial · M20x1.5 bottom connection · selected range -0.1…0 MPa",
+            "ar": "قرص 100 mm · توصيل سفلي M20x1.5 · المجال المختار -0.1…0 MPa"
+          },
+          "sourceNames": [
+            "Y100-普通压力及真空复合表"
+          ],
+          "sources": [
+            "02-产品资料/1601982047952_Y100-普通压力及真空复合表/原产品资料/copy/listing-fields.json"
+          ]
+        },
+        {
+          "name": {
+            "en": "Y100 · -0.1…0.1 MPa",
+            "ar": "Y100 · -0.1…0.1 MPa"
+          },
+          "factoryReference": "Y100",
+          "selection": {
+            "en": "100 mm dial · M20x1.5 bottom connection · selected range -0.1…0.1 MPa",
+            "ar": "قرص 100 mm · توصيل سفلي M20x1.5 · المجال المختار -0.1…0.1 MPa"
+          },
+          "sourceNames": [
+            "Y100-普通压力及真空复合表"
+          ],
+          "sources": [
+            "02-产品资料/1601982047952_Y100-普通压力及真空复合表/原产品资料/copy/listing-fields.json"
+          ]
+        },
+        {
+          "name": {
+            "en": "Y100 · -0.1…0.15 MPa",
+            "ar": "Y100 · -0.1…0.15 MPa"
+          },
+          "factoryReference": "Y100",
+          "selection": {
+            "en": "100 mm dial · M20x1.5 bottom connection · selected range -0.1…0.15 MPa",
+            "ar": "قرص 100 mm · توصيل سفلي M20x1.5 · المجال المختار -0.1…0.15 MPa"
+          },
+          "sourceNames": [
+            "Y100-普通压力及真空复合表"
+          ],
+          "sources": [
+            "02-产品资料/1601982047952_Y100-普通压力及真空复合表/原产品资料/copy/listing-fields.json"
+          ]
+        },
+        {
+          "name": {
+            "en": "Y100 · -0.1…0.3 MPa",
+            "ar": "Y100 · -0.1…0.3 MPa"
+          },
+          "factoryReference": "Y100",
+          "selection": {
+            "en": "100 mm dial · M20x1.5 bottom connection · selected range -0.1…0.3 MPa",
+            "ar": "قرص 100 mm · توصيل سفلي M20x1.5 · المجال المختار -0.1…0.3 MPa"
+          },
+          "sourceNames": [
+            "Y100-普通压力及真空复合表"
+          ],
+          "sources": [
+            "02-产品资料/1601982047952_Y100-普通压力及真空复合表/原产品资料/copy/listing-fields.json"
+          ]
+        },
+        {
+          "name": {
+            "en": "Y100 · -0.1…0.5 MPa",
+            "ar": "Y100 · -0.1…0.5 MPa"
+          },
+          "factoryReference": "Y100",
+          "selection": {
+            "en": "100 mm dial · M20x1.5 bottom connection · selected range -0.1…0.5 MPa",
+            "ar": "قرص 100 mm · توصيل سفلي M20x1.5 · المجال المختار -0.1…0.5 MPa"
+          },
+          "sourceNames": [
+            "Y100-普通压力及真空复合表"
+          ],
+          "sources": [
+            "02-产品资料/1601982047952_Y100-普通压力及真空复合表/原产品资料/copy/listing-fields.json"
+          ]
+        },
+        {
+          "name": {
+            "en": "Y100 · -0.1…0.9 MPa",
+            "ar": "Y100 · -0.1…0.9 MPa"
+          },
+          "factoryReference": "Y100",
+          "selection": {
+            "en": "100 mm dial · M20x1.5 bottom connection · selected range -0.1…0.9 MPa",
+            "ar": "قرص 100 mm · توصيل سفلي M20x1.5 · المجال المختار -0.1…0.9 MPa"
+          },
+          "sourceNames": [
+            "Y100-普通压力及真空复合表"
+          ],
+          "sources": [
+            "02-产品资料/1601982047952_Y100-普通压力及真空复合表/原产品资料/copy/listing-fields.json"
+          ]
+        },
+        {
+          "name": {
+            "en": "Y100 · -0.1…1.5 MPa",
+            "ar": "Y100 · -0.1…1.5 MPa"
+          },
+          "factoryReference": "Y100",
+          "selection": {
+            "en": "100 mm dial · M20x1.5 bottom connection · selected range -0.1…1.5 MPa",
+            "ar": "قرص 100 mm · توصيل سفلي M20x1.5 · المجال المختار -0.1…1.5 MPa"
+          },
+          "sourceNames": [
+            "Y100-普通压力及真空复合表"
+          ],
+          "sources": [
+            "02-产品资料/1601982047952_Y100-普通压力及真空复合表/原产品资料/copy/listing-fields.json"
+          ]
+        },
+        {
+          "name": {
+            "en": "Y100 · -0.1…2.4 MPa",
+            "ar": "Y100 · -0.1…2.4 MPa"
+          },
+          "factoryReference": "Y100",
+          "selection": {
+            "en": "100 mm dial · M20x1.5 bottom connection · selected range -0.1…2.4 MPa",
+            "ar": "قرص 100 mm · توصيل سفلي M20x1.5 · المجال المختار -0.1…2.4 MPa"
+          },
+          "sourceNames": [
+            "Y100-普通压力及真空复合表"
+          ],
+          "sources": [
+            "02-产品资料/1601982047952_Y100-普通压力及真空复合表/原产品资料/copy/listing-fields.json"
+          ]
+        }
+      ],
+      "selectionPrompts": [
+        {
+          "label": {
+            "en": "Measuring range",
+            "ar": "مجال القياس"
+          },
+          "body": {
+            "en": "Specify the required scale range and normal and maximum working pressure; each listed range is a separate gauge option.",
+            "ar": "حدد مجال التدريج المطلوب وضغط التشغيل المعتاد والأقصى؛ كل مجال مدرج خيار مستقل للمقياس."
+          }
+        },
+        {
+          "label": {
+            "en": "Process connection and fluid",
+            "ar": "توصيل العملية والمائع"
+          },
+          "body": {
+            "en": "Provide the mating thread drawing, working fluid, temperature and required wetted-part material.",
+            "ar": "قدم رسم السن المقابل والمائع ودرجة الحرارة ومادة الأجزاء الملامسة للمائع المطلوبة."
+          }
+        }
+      ],
+      "imageCaptions": {
+        "Y100-普通压力及真空复合表": {
+          "en": "Y100 analog pressure gauge reference; scale selected by range.",
+          "ar": "صورة مرجعية لمقياس ضغط تناظري Y100؛ يختار التدريج حسب المجال."
+        }
+      },
+      "unresolved": [
+        "外壳及接液材质、环境温度和介质兼容性待核实。"
+      ],
+      "notes": [
+        "不沿用网页标题不锈钢到黑壳Y100；正压仅按实际SKU至60 MPa，不发布总范围100 MPa。"
+      ]
+    },
+    {
+      "id": "liquid-filled-pressure-gauges",
+      "familyId": "pressure-gauges-accessories",
+      "name": {
+        "en": "Liquid-filled Pressure Gauges",
+        "ar": "مقاييس ضغط مملوءة بالسائل",
+        "zh": "充液压力表"
+      },
+      "lead": {
+        "en": "The YN100BF is a liquid-filled analog gauge with a stainless steel case, a 100 mm nominal dial and M20x1.5 bottom connection. Choose the required measuring range from the individual options.",
+        "ar": "YN100BF مقياس تناظري مملوء بالسائل، بهيكل من الستانلس ستيل وقرص بقطر اسمي 100 mm وتوصيل سفلي M20x1.5. اختر مجال القياس المطلوب من الخيارات المستقلة."
+      },
+      "sourceNames": [
+        "YN100BF-充液压力表"
+      ],
+      "heroSourceName": "YN100BF-充液压力表",
+      "specs": [
+        {
+          "label": {
+            "en": "Model",
+            "ar": "الموديل"
+          },
+          "value": {
+            "en": "YN100BF",
+            "ar": "YN100BF"
+          },
+          "sources": [
+            "02-产品资料/1601982076726_YN100BF-充液压力表/原产品资料/copy/listing-fields.json"
+          ],
+          "evidence": "Confirmed"
+        },
+        {
+          "label": {
+            "en": "Type",
+            "ar": "النوع"
+          },
+          "value": {
+            "en": "Liquid-filled analog gauge",
+            "ar": "مقياس تناظري مملوء بالسائل"
+          },
+          "sources": [
+            "02-产品资料/1601982076726_YN100BF-充液压力表/原产品资料/copy/listing-fields.json"
+          ],
+          "evidence": "Confirmed"
+        },
+        {
+          "label": {
+            "en": "Case material",
+            "ar": "مادة الهيكل"
+          },
+          "value": {
+            "en": "Stainless steel",
+            "ar": "ستانلس ستيل"
+          },
+          "sources": [
+            "02-产品资料/1601982076726_YN100BF-充液压力表/原产品资料/copy/listing-fields.json"
+          ],
+          "evidence": "Confirmed"
+        },
+        {
+          "label": {
+            "en": "Nominal dial diameter",
+            "ar": "قطر القرص الاسمي"
+          },
+          "value": {
+            "en": "100 mm",
+            "ar": "100 mm"
+          },
+          "sources": [
+            "02-产品资料/1601982076726_YN100BF-充液压力表/原产品资料/copy/listing-fields.json"
+          ],
+          "evidence": "Confirmed"
+        },
+        {
+          "label": {
+            "en": "Connection",
+            "ar": "التوصيل"
+          },
+          "value": {
+            "en": "M20x1.5 bottom connection",
+            "ar": "توصيل سفلي M20x1.5"
+          },
+          "sources": [
+            "02-产品资料/1601982076726_YN100BF-充液压力表/原产品资料/copy/listing-fields.json"
+          ],
+          "evidence": "Confirmed"
+        },
+        {
+          "label": {
+            "en": "Accuracy class",
+            "ar": "فئة الدقة"
+          },
+          "value": {
+            "en": "1.6",
+            "ar": "1.6"
+          },
+          "sources": [
+            "02-产品资料/1601982076726_YN100BF-充液压力表/原产品资料/copy/listing-fields.json"
+          ],
+          "evidence": "Confirmed"
+        },
+        {
+          "label": {
+            "en": "Range types",
+            "ar": "أنواع مجالات القياس"
+          },
+          "value": {
+            "en": "Positive pressure / vacuum / compound",
+            "ar": "ضغط موجب / فراغ / مركب"
+          },
+          "sources": [
+            "02-产品资料/1601982076726_YN100BF-充液压力表/原产品资料/copy/listing-fields.json"
+          ],
+          "evidence": "Confirmed"
+        }
+      ],
+      "models": [
+        {
+          "name": {
+            "en": "YN100BF · 0…0.1 MPa",
+            "ar": "YN100BF · 0…0.1 MPa"
+          },
+          "factoryReference": "YN100BF",
+          "selection": {
+            "en": "100 mm dial · M20x1.5 bottom connection · selected range 0…0.1 MPa",
+            "ar": "قرص 100 mm · توصيل سفلي M20x1.5 · المجال المختار 0…0.1 MPa"
+          },
+          "sourceNames": [
+            "YN100BF-充液压力表"
+          ],
+          "sources": [
+            "02-产品资料/1601982076726_YN100BF-充液压力表/原产品资料/copy/listing-fields.json"
+          ]
+        },
+        {
+          "name": {
+            "en": "YN100BF · 0…0.16 MPa",
+            "ar": "YN100BF · 0…0.16 MPa"
+          },
+          "factoryReference": "YN100BF",
+          "selection": {
+            "en": "100 mm dial · M20x1.5 bottom connection · selected range 0…0.16 MPa",
+            "ar": "قرص 100 mm · توصيل سفلي M20x1.5 · المجال المختار 0…0.16 MPa"
+          },
+          "sourceNames": [
+            "YN100BF-充液压力表"
+          ],
+          "sources": [
+            "02-产品资料/1601982076726_YN100BF-充液压力表/原产品资料/copy/listing-fields.json"
+          ]
+        },
+        {
+          "name": {
+            "en": "YN100BF · 0…0.25 MPa",
+            "ar": "YN100BF · 0…0.25 MPa"
+          },
+          "factoryReference": "YN100BF",
+          "selection": {
+            "en": "100 mm dial · M20x1.5 bottom connection · selected range 0…0.25 MPa",
+            "ar": "قرص 100 mm · توصيل سفلي M20x1.5 · المجال المختار 0…0.25 MPa"
+          },
+          "sourceNames": [
+            "YN100BF-充液压力表"
+          ],
+          "sources": [
+            "02-产品资料/1601982076726_YN100BF-充液压力表/原产品资料/copy/listing-fields.json"
+          ]
+        },
+        {
+          "name": {
+            "en": "YN100BF · 0…0.4 MPa",
+            "ar": "YN100BF · 0…0.4 MPa"
+          },
+          "factoryReference": "YN100BF",
+          "selection": {
+            "en": "100 mm dial · M20x1.5 bottom connection · selected range 0…0.4 MPa",
+            "ar": "قرص 100 mm · توصيل سفلي M20x1.5 · المجال المختار 0…0.4 MPa"
+          },
+          "sourceNames": [
+            "YN100BF-充液压力表"
+          ],
+          "sources": [
+            "02-产品资料/1601982076726_YN100BF-充液压力表/原产品资料/copy/listing-fields.json"
+          ]
+        },
+        {
+          "name": {
+            "en": "YN100BF · 0…0.6 MPa",
+            "ar": "YN100BF · 0…0.6 MPa"
+          },
+          "factoryReference": "YN100BF",
+          "selection": {
+            "en": "100 mm dial · M20x1.5 bottom connection · selected range 0…0.6 MPa",
+            "ar": "قرص 100 mm · توصيل سفلي M20x1.5 · المجال المختار 0…0.6 MPa"
+          },
+          "sourceNames": [
+            "YN100BF-充液压力表"
+          ],
+          "sources": [
+            "02-产品资料/1601982076726_YN100BF-充液压力表/原产品资料/copy/listing-fields.json"
+          ]
+        },
+        {
+          "name": {
+            "en": "YN100BF · 0…1 MPa",
+            "ar": "YN100BF · 0…1 MPa"
+          },
+          "factoryReference": "YN100BF",
+          "selection": {
+            "en": "100 mm dial · M20x1.5 bottom connection · selected range 0…1 MPa",
+            "ar": "قرص 100 mm · توصيل سفلي M20x1.5 · المجال المختار 0…1 MPa"
+          },
+          "sourceNames": [
+            "YN100BF-充液压力表"
+          ],
+          "sources": [
+            "02-产品资料/1601982076726_YN100BF-充液压力表/原产品资料/copy/listing-fields.json"
+          ]
+        },
+        {
+          "name": {
+            "en": "YN100BF · 0…1.6 MPa",
+            "ar": "YN100BF · 0…1.6 MPa"
+          },
+          "factoryReference": "YN100BF",
+          "selection": {
+            "en": "100 mm dial · M20x1.5 bottom connection · selected range 0…1.6 MPa",
+            "ar": "قرص 100 mm · توصيل سفلي M20x1.5 · المجال المختار 0…1.6 MPa"
+          },
+          "sourceNames": [
+            "YN100BF-充液压力表"
+          ],
+          "sources": [
+            "02-产品资料/1601982076726_YN100BF-充液压力表/原产品资料/copy/listing-fields.json"
+          ]
+        },
+        {
+          "name": {
+            "en": "YN100BF · 0…2.5 MPa",
+            "ar": "YN100BF · 0…2.5 MPa"
+          },
+          "factoryReference": "YN100BF",
+          "selection": {
+            "en": "100 mm dial · M20x1.5 bottom connection · selected range 0…2.5 MPa",
+            "ar": "قرص 100 mm · توصيل سفلي M20x1.5 · المجال المختار 0…2.5 MPa"
+          },
+          "sourceNames": [
+            "YN100BF-充液压力表"
+          ],
+          "sources": [
+            "02-产品资料/1601982076726_YN100BF-充液压力表/原产品资料/copy/listing-fields.json"
+          ]
+        },
+        {
+          "name": {
+            "en": "YN100BF · 0…4 MPa",
+            "ar": "YN100BF · 0…4 MPa"
+          },
+          "factoryReference": "YN100BF",
+          "selection": {
+            "en": "100 mm dial · M20x1.5 bottom connection · selected range 0…4 MPa",
+            "ar": "قرص 100 mm · توصيل سفلي M20x1.5 · المجال المختار 0…4 MPa"
+          },
+          "sourceNames": [
+            "YN100BF-充液压力表"
+          ],
+          "sources": [
+            "02-产品资料/1601982076726_YN100BF-充液压力表/原产品资料/copy/listing-fields.json"
+          ]
+        },
+        {
+          "name": {
+            "en": "YN100BF · 0…6 MPa",
+            "ar": "YN100BF · 0…6 MPa"
+          },
+          "factoryReference": "YN100BF",
+          "selection": {
+            "en": "100 mm dial · M20x1.5 bottom connection · selected range 0…6 MPa",
+            "ar": "قرص 100 mm · توصيل سفلي M20x1.5 · المجال المختار 0…6 MPa"
+          },
+          "sourceNames": [
+            "YN100BF-充液压力表"
+          ],
+          "sources": [
+            "02-产品资料/1601982076726_YN100BF-充液压力表/原产品资料/copy/listing-fields.json"
+          ]
+        },
+        {
+          "name": {
+            "en": "YN100BF · 0…10 MPa",
+            "ar": "YN100BF · 0…10 MPa"
+          },
+          "factoryReference": "YN100BF",
+          "selection": {
+            "en": "100 mm dial · M20x1.5 bottom connection · selected range 0…10 MPa",
+            "ar": "قرص 100 mm · توصيل سفلي M20x1.5 · المجال المختار 0…10 MPa"
+          },
+          "sourceNames": [
+            "YN100BF-充液压力表"
+          ],
+          "sources": [
+            "02-产品资料/1601982076726_YN100BF-充液压力表/原产品资料/copy/listing-fields.json"
+          ]
+        },
+        {
+          "name": {
+            "en": "YN100BF · 0…16 MPa",
+            "ar": "YN100BF · 0…16 MPa"
+          },
+          "factoryReference": "YN100BF",
+          "selection": {
+            "en": "100 mm dial · M20x1.5 bottom connection · selected range 0…16 MPa",
+            "ar": "قرص 100 mm · توصيل سفلي M20x1.5 · المجال المختار 0…16 MPa"
+          },
+          "sourceNames": [
+            "YN100BF-充液压力表"
+          ],
+          "sources": [
+            "02-产品资料/1601982076726_YN100BF-充液压力表/原产品资料/copy/listing-fields.json"
+          ]
+        },
+        {
+          "name": {
+            "en": "YN100BF · 0…25 MPa",
+            "ar": "YN100BF · 0…25 MPa"
+          },
+          "factoryReference": "YN100BF",
+          "selection": {
+            "en": "100 mm dial · M20x1.5 bottom connection · selected range 0…25 MPa",
+            "ar": "قرص 100 mm · توصيل سفلي M20x1.5 · المجال المختار 0…25 MPa"
+          },
+          "sourceNames": [
+            "YN100BF-充液压力表"
+          ],
+          "sources": [
+            "02-产品资料/1601982076726_YN100BF-充液压力表/原产品资料/copy/listing-fields.json"
+          ]
+        },
+        {
+          "name": {
+            "en": "YN100BF · 0…40 MPa",
+            "ar": "YN100BF · 0…40 MPa"
+          },
+          "factoryReference": "YN100BF",
+          "selection": {
+            "en": "100 mm dial · M20x1.5 bottom connection · selected range 0…40 MPa",
+            "ar": "قرص 100 mm · توصيل سفلي M20x1.5 · المجال المختار 0…40 MPa"
+          },
+          "sourceNames": [
+            "YN100BF-充液压力表"
+          ],
+          "sources": [
+            "02-产品资料/1601982076726_YN100BF-充液压力表/原产品资料/copy/listing-fields.json"
+          ]
+        },
+        {
+          "name": {
+            "en": "YN100BF · 0…60 MPa",
+            "ar": "YN100BF · 0…60 MPa"
+          },
+          "factoryReference": "YN100BF",
+          "selection": {
+            "en": "100 mm dial · M20x1.5 bottom connection · selected range 0…60 MPa",
+            "ar": "قرص 100 mm · توصيل سفلي M20x1.5 · المجال المختار 0…60 MPa"
+          },
+          "sourceNames": [
+            "YN100BF-充液压力表"
+          ],
+          "sources": [
+            "02-产品资料/1601982076726_YN100BF-充液压力表/原产品资料/copy/listing-fields.json"
+          ]
+        },
+        {
+          "name": {
+            "en": "YN100BF · 0…100 MPa",
+            "ar": "YN100BF · 0…100 MPa"
+          },
+          "factoryReference": "YN100BF",
+          "selection": {
+            "en": "100 mm dial · M20x1.5 bottom connection · selected range 0…100 MPa",
+            "ar": "قرص 100 mm · توصيل سفلي M20x1.5 · المجال المختار 0…100 MPa"
+          },
+          "sourceNames": [
+            "YN100BF-充液压力表"
+          ],
+          "sources": [
+            "02-产品资料/1601982076726_YN100BF-充液压力表/原产品资料/copy/listing-fields.json"
+          ]
+        },
+        {
+          "name": {
+            "en": "YN100BF · -0.1…0 MPa",
+            "ar": "YN100BF · -0.1…0 MPa"
+          },
+          "factoryReference": "YN100BF",
+          "selection": {
+            "en": "100 mm dial · M20x1.5 bottom connection · selected range -0.1…0 MPa",
+            "ar": "قرص 100 mm · توصيل سفلي M20x1.5 · المجال المختار -0.1…0 MPa"
+          },
+          "sourceNames": [
+            "YN100BF-充液压力表"
+          ],
+          "sources": [
+            "02-产品资料/1601982076726_YN100BF-充液压力表/原产品资料/copy/listing-fields.json"
+          ]
+        },
+        {
+          "name": {
+            "en": "YN100BF · -0.1…0.1 MPa",
+            "ar": "YN100BF · -0.1…0.1 MPa"
+          },
+          "factoryReference": "YN100BF",
+          "selection": {
+            "en": "100 mm dial · M20x1.5 bottom connection · selected range -0.1…0.1 MPa",
+            "ar": "قرص 100 mm · توصيل سفلي M20x1.5 · المجال المختار -0.1…0.1 MPa"
+          },
+          "sourceNames": [
+            "YN100BF-充液压力表"
+          ],
+          "sources": [
+            "02-产品资料/1601982076726_YN100BF-充液压力表/原产品资料/copy/listing-fields.json"
+          ]
+        },
+        {
+          "name": {
+            "en": "YN100BF · -0.1…0.15 MPa",
+            "ar": "YN100BF · -0.1…0.15 MPa"
+          },
+          "factoryReference": "YN100BF",
+          "selection": {
+            "en": "100 mm dial · M20x1.5 bottom connection · selected range -0.1…0.15 MPa",
+            "ar": "قرص 100 mm · توصيل سفلي M20x1.5 · المجال المختار -0.1…0.15 MPa"
+          },
+          "sourceNames": [
+            "YN100BF-充液压力表"
+          ],
+          "sources": [
+            "02-产品资料/1601982076726_YN100BF-充液压力表/原产品资料/copy/listing-fields.json"
+          ]
+        },
+        {
+          "name": {
+            "en": "YN100BF · -0.1…0.3 MPa",
+            "ar": "YN100BF · -0.1…0.3 MPa"
+          },
+          "factoryReference": "YN100BF",
+          "selection": {
+            "en": "100 mm dial · M20x1.5 bottom connection · selected range -0.1…0.3 MPa",
+            "ar": "قرص 100 mm · توصيل سفلي M20x1.5 · المجال المختار -0.1…0.3 MPa"
+          },
+          "sourceNames": [
+            "YN100BF-充液压力表"
+          ],
+          "sources": [
+            "02-产品资料/1601982076726_YN100BF-充液压力表/原产品资料/copy/listing-fields.json"
+          ]
+        },
+        {
+          "name": {
+            "en": "YN100BF · -0.1…0.5 MPa",
+            "ar": "YN100BF · -0.1…0.5 MPa"
+          },
+          "factoryReference": "YN100BF",
+          "selection": {
+            "en": "100 mm dial · M20x1.5 bottom connection · selected range -0.1…0.5 MPa",
+            "ar": "قرص 100 mm · توصيل سفلي M20x1.5 · المجال المختار -0.1…0.5 MPa"
+          },
+          "sourceNames": [
+            "YN100BF-充液压力表"
+          ],
+          "sources": [
+            "02-产品资料/1601982076726_YN100BF-充液压力表/原产品资料/copy/listing-fields.json"
+          ]
+        },
+        {
+          "name": {
+            "en": "YN100BF · -0.1…0.9 MPa",
+            "ar": "YN100BF · -0.1…0.9 MPa"
+          },
+          "factoryReference": "YN100BF",
+          "selection": {
+            "en": "100 mm dial · M20x1.5 bottom connection · selected range -0.1…0.9 MPa",
+            "ar": "قرص 100 mm · توصيل سفلي M20x1.5 · المجال المختار -0.1…0.9 MPa"
+          },
+          "sourceNames": [
+            "YN100BF-充液压力表"
+          ],
+          "sources": [
+            "02-产品资料/1601982076726_YN100BF-充液压力表/原产品资料/copy/listing-fields.json"
+          ]
+        },
+        {
+          "name": {
+            "en": "YN100BF · -0.1…1.5 MPa",
+            "ar": "YN100BF · -0.1…1.5 MPa"
+          },
+          "factoryReference": "YN100BF",
+          "selection": {
+            "en": "100 mm dial · M20x1.5 bottom connection · selected range -0.1…1.5 MPa",
+            "ar": "قرص 100 mm · توصيل سفلي M20x1.5 · المجال المختار -0.1…1.5 MPa"
+          },
+          "sourceNames": [
+            "YN100BF-充液压力表"
+          ],
+          "sources": [
+            "02-产品资料/1601982076726_YN100BF-充液压力表/原产品资料/copy/listing-fields.json"
+          ]
+        },
+        {
+          "name": {
+            "en": "YN100BF · -0.1…2.4 MPa",
+            "ar": "YN100BF · -0.1…2.4 MPa"
+          },
+          "factoryReference": "YN100BF",
+          "selection": {
+            "en": "100 mm dial · M20x1.5 bottom connection · selected range -0.1…2.4 MPa",
+            "ar": "قرص 100 mm · توصيل سفلي M20x1.5 · المجال المختار -0.1…2.4 MPa"
+          },
+          "sourceNames": [
+            "YN100BF-充液压力表"
+          ],
+          "sources": [
+            "02-产品资料/1601982076726_YN100BF-充液压力表/原产品资料/copy/listing-fields.json"
+          ]
+        }
+      ],
+      "selectionPrompts": [
+        {
+          "label": {
+            "en": "Measuring range",
+            "ar": "مجال القياس"
+          },
+          "body": {
+            "en": "Specify the required scale range and normal and maximum working pressure; each listed range is a separate gauge option.",
+            "ar": "حدد مجال التدريج المطلوب وضغط التشغيل المعتاد والأقصى؛ كل مجال مدرج خيار مستقل للمقياس."
+          }
+        },
+        {
+          "label": {
+            "en": "Process connection and fluid",
+            "ar": "توصيل العملية والمائع"
+          },
+          "body": {
+            "en": "Provide the mating thread drawing, working fluid, temperature and required wetted-part material.",
+            "ar": "قدم رسم السن المقابل والمائع ودرجة الحرارة ومادة الأجزاء الملامسة للمائع المطلوبة."
+          }
+        }
+      ],
+      "imageCaptions": {
+        "YN100BF-充液压力表": {
+          "en": "YN100BF liquid-filled gauge with stainless steel case.",
+          "ar": "مقياس YN100BF مملوء بالسائل بهيكل من الستانلس ستيل."
+        }
+      },
+      "unresolved": [
+        "充液种类、接液件材料、温度限制与专用介质适用性待核实。"
+      ],
+      "notes": [
+        "不采用“威卡款”作为WIKA品牌或授权；不宣称未核验CE，不采用网页250MPa总量程，实际SKU最高正压100 MPa。"
+      ]
+    },
+    {
+      "id": "pressure-gauge-syphons",
+      "familyId": "pressure-gauges-accessories",
+      "name": {
+        "en": "Pressure Gauge Syphon Tubes",
+        "ar": "أنابيب سيفون لمقاييس الضغط",
+        "zh": "不锈钢压力表缓冲弯管"
+      },
+      "lead": {
+        "en": "Coiled stainless steel tube accessories for pressure gauge connection assemblies. The material options are 201, 304 and 316L; thread and coil configuration are specified with the order.",
+        "ar": "ملحقات أنبوبية ملتفة من الستانلس ستيل لتجميعات توصيل مقاييس الضغط. خيارات المادة هي 201 و304 و316L؛ ويحدد السن اللولبي وشكل الالتفاف مع الطلب."
+      },
+      "sourceNames": [
+        "Y100配套系列-不锈钢压力表缓冲弯管"
+      ],
+      "heroSourceName": "Y100配套系列-不锈钢压力表缓冲弯管",
+      "specs": [
+        {
+          "label": {
+            "en": "Accessory type",
+            "ar": "نوع الملحق"
+          },
+          "value": {
+            "en": "Coiled pressure gauge connection tube",
+            "ar": "أنبوب توصيل ملتف لمقياس ضغط"
+          },
+          "sources": [
+            "02-产品资料/1601982062829_Y100配套系列-不锈钢压力表缓冲弯管/原产品资料/copy/listing-fields.json"
+          ],
+          "evidence": "Confirmed"
+        },
+        {
+          "label": {
+            "en": "Material options",
+            "ar": "خيارات المادة"
+          },
+          "value": {
+            "en": "201 / 304 / 316L stainless steel",
+            "ar": "ستانلس ستيل 201 / 304 / 316L"
+          },
+          "sources": [
+            "02-产品资料/1601982062829_Y100配套系列-不锈钢压力表缓冲弯管/原产品资料/copy/listing-fields.json"
+          ],
+          "evidence": "Confirmed"
+        },
+        {
+          "label": {
+            "en": "Listed thread options",
+            "ar": "خيارات السن المدرجة"
+          },
+          "value": {
+            "en": "M14x1.5 / M20x1.5",
+            "ar": "M14x1.5 / M20x1.5"
+          },
+          "sources": [
+            "02-产品资料/1601982062829_Y100配套系列-不锈钢压力表缓冲弯管/原产品资料/copy/listing-fields.json"
+          ],
+          "evidence": "Confirmed"
+        },
+        {
+          "label": {
+            "en": "End arrangement shown",
+            "ar": "ترتيب النهايات الظاهر"
+          },
+          "value": {
+            "en": "Threaded fittings on coiled tube forms",
+            "ar": "وصلات ملولبة على أنابيب ملتفة"
+          },
+          "sources": [
+            "02-产品资料/1601982062829_Y100配套系列-不锈钢压力表缓冲弯管/原产品资料/copy/listing-fields.json"
+          ],
+          "evidence": "Visible"
+        }
+      ],
+      "models": [
+        {
+          "name": {
+            "en": "201 stainless steel",
+            "ar": "ستانلس ستيل 201"
+          },
+          "factoryReference": "Available on request",
+          "selection": {
+            "en": "Specify the thread, coil form and end arrangement for this material option.",
+            "ar": "حدد السن وشكل الالتفاف وترتيب النهايات لخيار المادة هذا."
+          },
+          "sourceNames": [
+            "Y100配套系列-不锈钢压力表缓冲弯管"
+          ],
+          "sources": [
+            "02-产品资料/1601982062829_Y100配套系列-不锈钢压力表缓冲弯管/原产品资料/copy/listing-fields.json"
+          ]
+        },
+        {
+          "name": {
+            "en": "304 stainless steel",
+            "ar": "ستانلس ستيل 304"
+          },
+          "factoryReference": "Available on request",
+          "selection": {
+            "en": "Specify the thread, coil form and end arrangement for this material option.",
+            "ar": "حدد السن وشكل الالتفاف وترتيب النهايات لخيار المادة هذا."
+          },
+          "sourceNames": [
+            "Y100配套系列-不锈钢压力表缓冲弯管"
+          ],
+          "sources": [
+            "02-产品资料/1601982062829_Y100配套系列-不锈钢压力表缓冲弯管/原产品资料/copy/listing-fields.json"
+          ]
+        },
+        {
+          "name": {
+            "en": "316L stainless steel",
+            "ar": "ستانلس ستيل 316L"
+          },
+          "factoryReference": "Available on request",
+          "selection": {
+            "en": "Specify the thread, coil form and end arrangement for this material option.",
+            "ar": "حدد السن وشكل الالتفاف وترتيب النهايات لخيار المادة هذا."
+          },
+          "sourceNames": [
+            "Y100配套系列-不锈钢压力表缓冲弯管"
+          ],
+          "sources": [
+            "02-产品资料/1601982062829_Y100配套系列-不锈钢压力表缓冲弯管/原产品资料/copy/listing-fields.json"
+          ]
+        }
+      ],
+      "selectionPrompts": [
+        {
+          "label": {
+            "en": "Material and end connections",
+            "ar": "المادة وتوصيلات النهايات"
+          },
+          "body": {
+            "en": "Choose 201, 304 or 316L and supply the required thread and end arrangement drawing.",
+            "ar": "اختر 201 أو 304 أو 316L وقدم رسم السن وترتيب النهايات المطلوب."
+          }
+        },
+        {
+          "label": {
+            "en": "Dimensions and service",
+            "ar": "الأبعاد وظروف التشغيل"
+          },
+          "body": {
+            "en": "Specify installation space, coil dimensions, operating pressure and process temperature.",
+            "ar": "حدد مساحة التركيب وأبعاد الالتفاف وضغط التشغيل ودرجة حرارة العملية."
+          }
+        }
+      ],
+      "imageCaptions": {
+        "Y100配套系列-不锈钢压力表缓冲弯管": {
+          "en": "Coiled syphon tube reference for pressure gauge connections.",
+          "ar": "أنبوب سيفون ملتف لتوصيلات مقاييس الضغط — صورة مرجعية."
+        }
+      },
+      "unresolved": [
+        "尺寸、壁厚、额定压力、温度及各材质/接口/外形组合待确认。"
+      ],
+      "notes": [
+        "三材质与两螺纹不做全排列；Y100作为原资料配套字段，不冒充弯管准确工厂型号。"
+      ]
+    },
+    {
+      "id": "pistol-grip-combination-fire-nozzles",
+      "familyId": "hoses-nozzles-couplings",
+      "name": {
+        "en": "Pistol-grip Combination Fire Nozzles",
+        "ar": "فوهات حريق متعددة الأنماط بقبضة مسدس",
+        "zh": "手持直流喷雾消防水枪"
+      },
+      "lead": {
+        "en": "A handheld fire nozzle with a pistol grip, bail handle and adjustable jet or fog pattern selection. Match the exact inlet and control arrangement to the required supply configuration.",
+        "ar": "فوهة حريق يدوية بقبضة مسدس ومقبض قوسي وإمكانية اختيار نمط نفاث أو ضبابي. طابق ترتيب المدخل والتحكم بدقة مع التكوين المطلوب توريده."
+      },
+      "sourceNames": [
+        "多功能水枪系列-手持直流喷雾消防水枪"
+      ],
+      "heroSourceName": "多功能水枪系列-手持直流喷雾消防水枪",
+      "specs": [
+        {
+          "label": {
+            "en": "Application",
+            "ar": "الاستخدام"
+          },
+          "value": {
+            "en": "Handheld firefighting water discharge",
+            "ar": "إطلاق مياه مكافحة الحريق يدويًا"
+          },
+          "sources": [
+            "02-产品资料/1601983341789_多功能水枪系列-手持直流喷雾消防水枪/原产品资料/copy/listing-fields.json"
+          ],
+          "evidence": "Documented"
+        },
+        {
+          "label": {
+            "en": "Discharge patterns",
+            "ar": "أنماط التدفق"
+          },
+          "value": {
+            "en": "Jet / fog",
+            "ar": "نفاث / ضبابي"
+          },
+          "sources": [
+            "02-产品资料/1601983341789_多功能水枪系列-手持直流喷雾消防水枪/原产品资料/copy/listing-fields.json"
+          ],
+          "evidence": "Documented"
+        },
+        {
+          "label": {
+            "en": "Grip",
+            "ar": "القبضة"
+          },
+          "value": {
+            "en": "Pistol grip",
+            "ar": "قبضة مسدس"
+          },
+          "sources": [
+            "02-产品资料/1601983341789_多功能水枪系列-手持直流喷雾消防水枪/原产品资料/copy/listing-fields.json"
+          ],
+          "evidence": "Documented"
+        },
+        {
+          "label": {
+            "en": "Control arrangement shown",
+            "ar": "ترتيب التحكم الظاهر"
+          },
+          "value": {
+            "en": "Bail handle and adjustable pattern selector",
+            "ar": "مقبض قوسي ومحدد نمط قابل للضبط"
+          },
+          "sources": [
+            "02-产品资料/1601983341789_多功能水枪系列-手持直流喷雾消防水枪/原产品资料/copy/listing-fields.json"
+          ],
+          "evidence": "Documented"
+        }
+      ],
+      "models": [
+        {
+          "name": {
+            "en": "Pistol-grip jet and fog configuration",
+            "ar": "تكوين نفاث وضبابي بقبضة مسدس"
+          },
+          "factoryReference": "Available on request",
+          "selection": {
+            "en": "Identify the inlet, handle and pattern-control arrangement from the reference configuration.",
+            "ar": "حدد ترتيب المدخل والمقبض والتحكم بالنمط من التكوين المرجعي."
+          },
+          "sourceNames": [
+            "多功能水枪系列-手持直流喷雾消防水枪"
+          ],
+          "sources": [
+            "02-产品资料/1601983341789_多功能水枪系列-手持直流喷雾消防水枪/原产品资料/copy/listing-fields.json"
+          ]
+        }
+      ],
+      "selectionPrompts": [
+        {
+          "label": {
+            "en": "Inlet connection",
+            "ar": "توصيل المدخل"
+          },
+          "body": {
+            "en": "Provide the mating hose coupling standard, exact dimensions and a connection drawing or photograph.",
+            "ar": "قدم معيار وصلة الخرطوم المقابلة وأبعادها الدقيقة ورسمًا أو صورة للتوصيل."
+          }
+        },
+        {
+          "label": {
+            "en": "Required performance",
+            "ar": "الأداء المطلوب"
+          },
+          "body": {
+            "en": "State flow, inlet pressure and required jet or fog duty; identify the exact nozzle configuration for a matching datasheet.",
+            "ar": "حدد التدفق وضغط المدخل ومتطلبات النمط النفاث أو الضبابي، وحدد تكوين الفوهة الدقيق للحصول على ورقة بيانات مطابقة."
+          }
+        }
+      ],
+      "imageCaptions": {
+        "多功能水枪系列-手持直流喷雾消防水枪": {
+          "en": "Pistol-grip jet and fog nozzle reference.",
+          "ar": "فوهة نفاثة وضبابية بقبضة مسدس — صورة مرجعية."
+        }
+      },
+      "unresolved": [
+        "准确型号、材质、接口标准、流量/压力/射程及重量需逐配置核实。"
+      ],
+      "notes": [
+        "不把多色手柄当作唯一SKU；不组合不同入口或流量图片参数，不继承既有银色直流水枪参数。",
+        "DN65及2.5寸文件夹标签不构成准确接口标准证据，暂不发布。"
+      ]
+    }
+  ]
+}

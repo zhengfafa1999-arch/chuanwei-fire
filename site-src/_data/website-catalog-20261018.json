@@ -1,0 +1,463 @@
+{
+  "categories": [
+    {
+      "id": "fire-extinguishers",
+      "routeId": "category:fire-extinguishers",
+      "name": {
+        "en": "Fire Extinguishers",
+        "ar": "طفايات الحريق",
+        "zh": "灭火器"
+      },
+      "description": {
+        "en": "Portable dry powder, water-based and carbon dioxide extinguishers, plus wheeled dry powder models.",
+        "ar": "طفايات محمولة بالمسحوق الجاف والماء وثاني أكسيد الكربون، وطفايات مسحوق جاف بعجلات.",
+        "zh": "手提式干粉、水基、二氧化碳及推车式干粉灭火器。"
+      },
+      "image": "assets/products/website-20261018/product-d1642dc7bcf9.webp"
+    },
+    {
+      "id": "automatic-fire-suppression",
+      "routeId": "category:automatic-fire-suppression",
+      "name": {
+        "en": "Automatic Fire Suppression",
+        "ar": "أجهزة الإطفاء التلقائي",
+        "zh": "自动灭火装置"
+      },
+      "description": {
+        "en": "Suspended powder extinguishers, automatic extinguisher balls and cabinet aerosol devices.",
+        "ar": "طفايات مسحوق معلقة وكرات إطفاء تلقائية وأجهزة إطفاء بالهباء الجوي للخزائن.",
+        "zh": "悬挂式干粉、自动灭火球及箱柜气溶胶灭火装置。"
+      },
+      "image": "assets/products/website-20261018/product-889c577fe357.webp"
+    },
+    {
+      "id": "fire-alarm-systems",
+      "routeId": "category:fire-alarm-systems",
+      "name": {
+        "en": "Fire Alarm Equipment",
+        "ar": "معدات إنذار الحريق",
+        "zh": "火灾报警设备"
+      },
+      "description": {
+        "en": "Control panels, detectors, manual call points, input/output modules and sounder beacons.",
+        "ar": "لوحات تحكم وكواشف ونقاط نداء يدوية ووحدات إدخال وإخراج ومنبهات صوتية ضوئية.",
+        "zh": "报警控制器、探测器、手动按钮、输入输出模块及声光警报器。"
+      },
+      "image": "assets/products/website-20261018/product-12332ccb456b.webp"
+    },
+    {
+      "id": "fire-pumps-controllers",
+      "routeId": "category:fire-pumps-controllers",
+      "name": {
+        "en": "Fire Pumps & Control Cabinets",
+        "ar": "مضخات الحريق وخزائن التحكم",
+        "zh": "消防泵与控制柜"
+      },
+      "description": {
+        "en": "Vertical fire pumps, pressure-maintenance equipment, transfer cabinets and pump inspection controls.",
+        "ar": "مضخات حريق رأسية ومعدات المحافظة على الضغط وخزائن تحويل التغذية والتحكم بفحص المضخات.",
+        "zh": "立式消防泵、稳压设备、双电源柜及消防泵巡检控制柜。"
+      },
+      "image": "assets/products/website-20261018/product-f30855ee4f4e.webp"
+    },
+    {
+      "id": "pipeline-valves-strainers",
+      "routeId": "category:pipeline-valves-strainers",
+      "name": {
+        "en": "Pipeline Valves & Strainers",
+        "ar": "صمامات الأنابيب والمصافي",
+        "zh": "管路阀门与过滤器"
+      },
+      "description": {
+        "en": "Y-strainers, swing check valves, globe valves and two-piece stainless steel ball valves.",
+        "ar": "مصافي على شكل Y وصمامات عدم رجوع متأرجحة وصمامات كروية الإغلاق وصمامات كروية من الفولاذ المقاوم للصدأ بقطعتين.",
+        "zh": "Y型过滤器、旋启式止回阀、截止阀及两片式不锈钢球阀。"
+      },
+      "image": "assets/products/website-20261018/product-a5b535d720fe.webp"
+    },
+    {
+      "id": "grooved-pipe-fittings",
+      "routeId": "category:grooved-pipe-fittings",
+      "name": {
+        "en": "Grooved Pipe Fittings",
+        "ar": "وصلات الأنابيب المحززة",
+        "zh": "沟槽管件"
+      },
+      "description": {
+        "en": "Grooved elbows, reducing tees, equal crosses and rigid pipe couplings with individual size selections.",
+        "ar": "أكواع محززة ووصلات ثلاثية مخفضة ووصلات رباعية متساوية وقارنات صلبة بمقاسات محددة لكل نوع.",
+        "zh": "沟槽弯头、异径三通、等径四通及刚性卡箍，按对应尺寸选型。"
+      },
+      "image": "assets/products/website-20261018/product-015b5d2c7458.webp"
+    },
+    {
+      "id": "pressure-gauges-accessories",
+      "routeId": "category:pressure-gauges-accessories",
+      "name": {
+        "en": "Accessories",
+        "ar": "الملحقات",
+        "zh": "配件"
+      },
+      "description": {
+        "en": "Pressure/vacuum gauges, liquid-filled gauges and matching gauge syphons.",
+        "ar": "مقاييس الضغط والتفريغ والمقاييس المملوءة بالسائل وأنابيب السيفون الخاصة بها.",
+        "zh": "压力真空表、充液耐震压力表及压力表弯管。"
+      },
+      "image": "assets/products/website-20261018/product-96f4cd20b07a.webp"
+    }
+  ],
+  "products": [
+    {
+      "id": "portable-dry-powder-fire-extinguishers",
+      "routeId": "product:portable-dry-powder-fire-extinguishers",
+      "familyId": "fire-extinguishers",
+      "name": {
+        "en": "Portable Dry Powder Fire Extinguishers",
+        "ar": "طفايات حريق محمولة بالمسحوق الجاف",
+        "zh": "手提式干粉灭火器"
+      },
+      "image": "assets/products/website-20261018/product-d1642dc7bcf9.webp"
+    },
+    {
+      "id": "portable-water-based-fire-extinguishers",
+      "routeId": "product:portable-water-based-fire-extinguishers",
+      "familyId": "fire-extinguishers",
+      "name": {
+        "en": "Portable Water-Based Fire Extinguishers",
+        "ar": "طفايات حريق محمولة بعامل إطفاء مائي",
+        "zh": "手提式水基灭火器"
+      },
+      "image": "assets/products/website-20261018/product-1b72519717a3.webp"
+    },
+    {
+      "id": "portable-co2-fire-extinguishers",
+      "routeId": "product:portable-co2-fire-extinguishers",
+      "familyId": "fire-extinguishers",
+      "name": {
+        "en": "Portable CO₂ Fire Extinguishers",
+        "ar": "طفايات حريق محمولة بثاني أكسيد الكربون",
+        "zh": "手提式二氧化碳灭火器"
+      },
+      "image": "assets/products/website-20261018/product-eb952af32a40.webp"
+    },
+    {
+      "id": "wheeled-dry-powder-fire-extinguishers",
+      "routeId": "product:wheeled-dry-powder-fire-extinguishers",
+      "familyId": "fire-extinguishers",
+      "name": {
+        "en": "Wheeled Dry Powder Fire Extinguishers",
+        "ar": "طفايات حريق بعجلات بالمسحوق الجاف",
+        "zh": "推车式干粉灭火器"
+      },
+      "image": "assets/products/website-20261018/product-a62ae4f0d6a0.webp"
+    },
+    {
+      "id": "suspended-dry-powder-extinguishers",
+      "routeId": "product:suspended-dry-powder-extinguishers",
+      "familyId": "automatic-fire-suppression",
+      "name": {
+        "en": "Suspended Dry Powder Fire Extinguishers",
+        "ar": "طفايات حريق معلقة بالمسحوق الجاف",
+        "zh": "悬挂式自动干粉灭火器"
+      },
+      "image": "assets/products/website-20261018/product-889c577fe357.webp"
+    },
+    {
+      "id": "suspended-ultrafine-dry-powder-extinguishers",
+      "routeId": "product:suspended-ultrafine-dry-powder-extinguishers",
+      "familyId": "automatic-fire-suppression",
+      "name": {
+        "en": "Suspended Ultrafine Dry Powder Fire Extinguishers",
+        "ar": "طفايات حريق معلقة بالمسحوق الجاف فائق النعومة",
+        "zh": "悬挂式超细干粉灭火器"
+      },
+      "image": "assets/products/website-20261018/product-f00c9fde955f.webp"
+    },
+    {
+      "id": "fire-extinguisher-balls",
+      "routeId": "product:fire-extinguisher-balls",
+      "familyId": "automatic-fire-suppression",
+      "name": {
+        "en": "Dry Powder Fire Extinguisher Balls",
+        "ar": "كرات إطفاء الحريق بالمسحوق الجاف",
+        "zh": "干粉灭火球"
+      },
+      "image": "assets/products/website-20261018/product-78df7d02e5e8.webp"
+    },
+    {
+      "id": "cabinet-aerosol-fire-suppression",
+      "routeId": "product:cabinet-aerosol-fire-suppression",
+      "familyId": "automatic-fire-suppression",
+      "name": {
+        "en": "Cabinet Aerosol Fire Suppression Devices",
+        "ar": "أجهزة إطفاء الحريق بالهباء الجوي للخزائن",
+        "zh": "箱柜热气溶胶灭火装置"
+      },
+      "image": "assets/products/website-20261018/product-f1f59c837c7c.webp"
+    },
+    {
+      "id": "fire-alarm-control-panels",
+      "routeId": "product:fire-alarm-control-panels",
+      "familyId": "fire-alarm-systems",
+      "name": {
+        "en": "Fire Alarm Control Panels",
+        "ar": "لوحات التحكم في إنذار الحريق",
+        "zh": "火灾报警控制器"
+      },
+      "image": "assets/products/website-20261018/product-12332ccb456b.webp"
+    },
+    {
+      "id": "combined-smoke-heat-detectors",
+      "routeId": "product:combined-smoke-heat-detectors",
+      "familyId": "fire-alarm-systems",
+      "name": {
+        "en": "Combined Smoke and Heat Detectors",
+        "ar": "كواشف الدخان والحرارة المدمجة",
+        "zh": "烟温复合探测器"
+      },
+      "image": "assets/products/website-20261018/product-e25dbafbc274.webp"
+    },
+    {
+      "id": "heat-detectors",
+      "routeId": "product:heat-detectors",
+      "familyId": "fire-alarm-systems",
+      "name": {
+        "en": "Heat Detectors",
+        "ar": "كواشف الحرارة",
+        "zh": "点型感温探测器"
+      },
+      "image": "assets/products/website-20261018/product-c66ef6e6553f.webp"
+    },
+    {
+      "id": "photoelectric-smoke-detectors",
+      "routeId": "product:photoelectric-smoke-detectors",
+      "familyId": "fire-alarm-systems",
+      "name": {
+        "en": "Photoelectric Smoke Detectors",
+        "ar": "كواشف الدخان الكهروضوئية",
+        "zh": "点型光电感烟探测器"
+      },
+      "image": "assets/products/website-20261018/product-968cfb2937e0.webp"
+    },
+    {
+      "id": "manual-fire-alarm-call-points",
+      "routeId": "product:manual-fire-alarm-call-points",
+      "familyId": "fire-alarm-systems",
+      "name": {
+        "en": "Manual Fire Alarm Call Points",
+        "ar": "نقاط نداء يدوية لإنذار الحريق",
+        "zh": "手动火灾报警按钮"
+      },
+      "image": "assets/products/website-20261018/product-c6750165048d.webp"
+    },
+    {
+      "id": "fire-alarm-input-output-modules",
+      "routeId": "product:fire-alarm-input-output-modules",
+      "familyId": "fire-alarm-systems",
+      "name": {
+        "en": "Fire Alarm Input/Output Modules",
+        "ar": "وحدات إدخال وإخراج لإنذار الحريق",
+        "zh": "火灾报警输入输出模块"
+      },
+      "image": "assets/products/website-20261018/product-dc92d71eabaf.webp"
+    },
+    {
+      "id": "fire-alarm-sounder-beacons",
+      "routeId": "product:fire-alarm-sounder-beacons",
+      "familyId": "fire-alarm-systems",
+      "name": {
+        "en": "Fire Alarm Sounder Beacons",
+        "ar": "أجهزة إنذار حريق صوتية وضوئية",
+        "zh": "火灾声光警报器"
+      },
+      "image": "assets/products/website-20261018/product-da2cb10347ab.webp"
+    },
+    {
+      "id": "vertical-multistage-fire-pumps",
+      "routeId": "product:vertical-multistage-fire-pumps",
+      "familyId": "fire-pumps-controllers",
+      "name": {
+        "en": "Vertical Multistage Fire Pumps",
+        "ar": "مضخات حريق رأسية متعددة المراحل",
+        "zh": "立式多级消防泵"
+      },
+      "image": "assets/products/website-20261018/product-f30855ee4f4e.webp"
+    },
+    {
+      "id": "vertical-single-stage-fire-pumps",
+      "routeId": "product:vertical-single-stage-fire-pumps",
+      "familyId": "fire-pumps-controllers",
+      "name": {
+        "en": "Vertical Single-stage Fire Pumps",
+        "ar": "مضخات حريق رأسية أحادية المرحلة",
+        "zh": "立式单级消防泵"
+      },
+      "image": "assets/products/website-20261018/product-449ae215bef9.webp"
+    },
+    {
+      "id": "fire-pressure-maintenance-sets",
+      "routeId": "product:fire-pressure-maintenance-sets",
+      "familyId": "fire-pumps-controllers",
+      "name": {
+        "en": "Fire Pressure Maintenance Sets",
+        "ar": "مجموعات تثبيت ضغط مياه الحريق",
+        "zh": "消防增压稳压设备"
+      },
+      "image": "assets/products/website-20261018/product-55b4b564327d.webp"
+    },
+    {
+      "id": "automatic-transfer-control-cabinets",
+      "routeId": "product:automatic-transfer-control-cabinets",
+      "familyId": "fire-pumps-controllers",
+      "name": {
+        "en": "Dual Power Control Cabinets",
+        "ar": "خزائن تحكم بمصدرَي تغذية",
+        "zh": "双电源控制柜"
+      },
+      "image": "assets/products/website-20261018/product-1dd050347ce2.webp"
+    },
+    {
+      "id": "fire-pump-inspection-control-cabinets",
+      "routeId": "product:fire-pump-inspection-control-cabinets",
+      "familyId": "fire-pumps-controllers",
+      "name": {
+        "en": "Fire Pump Inspection & Control Cabinets",
+        "ar": "خزائن فحص وتحكم لمضخات الحريق",
+        "zh": "消防泵巡检控制柜"
+      },
+      "image": "assets/products/website-20261018/product-eda264d6edb5.webp"
+    },
+    {
+      "id": "flanged-y-strainers",
+      "routeId": "product:flanged-y-strainers",
+      "familyId": "pipeline-valves-strainers",
+      "name": {
+        "en": "Flanged Y Strainers",
+        "ar": "مصافٍ بفلنجات على شكل Y",
+        "zh": "法兰Y型过滤器"
+      },
+      "image": "assets/products/website-20261018/product-a5b535d720fe.webp"
+    },
+    {
+      "id": "swing-check-valves",
+      "routeId": "product:swing-check-valves",
+      "familyId": "pipeline-valves-strainers",
+      "name": {
+        "en": "Swing Check Valves",
+        "ar": "صمامات عدم رجوع متأرجحة",
+        "zh": "旋启式止回阀"
+      },
+      "image": "assets/products/website-20261018/product-674a5f5aa37f.webp"
+    },
+    {
+      "id": "flanged-globe-valves",
+      "routeId": "product:flanged-globe-valves",
+      "familyId": "pipeline-valves-strainers",
+      "name": {
+        "en": "Flanged Globe Valves",
+        "ar": "صمامات غلوب بفلنجات",
+        "zh": "法兰截止阀"
+      },
+      "image": "assets/products/website-20261018/product-def53f1a9a8a.webp"
+    },
+    {
+      "id": "two-piece-stainless-steel-ball-valves",
+      "routeId": "product:two-piece-stainless-steel-ball-valves",
+      "familyId": "pipeline-valves-strainers",
+      "name": {
+        "en": "Two-piece Stainless Steel Ball Valves",
+        "ar": "صمامات كروية من الستانلس ستيل بجسم من قطعتين",
+        "zh": "两片式不锈钢球阀"
+      },
+      "image": "assets/products/website-20261018/product-4a77e55d98af.webp"
+    },
+    {
+      "id": "grooved-pipe-elbows",
+      "routeId": "product:grooved-pipe-elbows",
+      "familyId": "grooved-pipe-fittings",
+      "name": {
+        "en": "Grooved Pipe Elbows",
+        "ar": "أكواع أنابيب ذات أخاديد",
+        "zh": "沟槽弯头"
+      },
+      "image": "assets/products/website-20261018/product-015b5d2c7458.webp"
+    },
+    {
+      "id": "grooved-reducing-tees",
+      "routeId": "product:grooved-reducing-tees",
+      "familyId": "grooved-pipe-fittings",
+      "name": {
+        "en": "Grooved Reducing Tees",
+        "ar": "وصلات T مخفضة ذات أخاديد",
+        "zh": "沟槽异径三通"
+      },
+      "image": "assets/products/website-20261018/product-65ae6977caec.webp"
+    },
+    {
+      "id": "grooved-equal-crosses",
+      "routeId": "product:grooved-equal-crosses",
+      "familyId": "grooved-pipe-fittings",
+      "name": {
+        "en": "Grooved Equal Crosses",
+        "ar": "وصلات صليبية متساوية ذات أخاديد",
+        "zh": "沟槽等径正四通"
+      },
+      "image": "assets/products/website-20261018/product-98ed66ac4d13.webp"
+    },
+    {
+      "id": "rigid-grooved-pipe-couplings",
+      "routeId": "product:rigid-grooved-pipe-couplings",
+      "familyId": "grooved-pipe-fittings",
+      "name": {
+        "en": "Rigid Grooved Pipe Couplings",
+        "ar": "وصلات أنابيب صلبة ذات أخاديد",
+        "zh": "刚性沟槽卡箍"
+      },
+      "image": "assets/products/website-20261018/product-6cf3369acefb.webp"
+    },
+    {
+      "id": "pressure-vacuum-gauges",
+      "routeId": "product:pressure-vacuum-gauges",
+      "familyId": "pressure-gauges-accessories",
+      "name": {
+        "en": "Pressure & Vacuum Gauges",
+        "ar": "مقاييس الضغط والفراغ",
+        "zh": "普通压力及真空复合表"
+      },
+      "image": "assets/products/website-20261018/product-96f4cd20b07a.webp"
+    },
+    {
+      "id": "liquid-filled-pressure-gauges",
+      "routeId": "product:liquid-filled-pressure-gauges",
+      "familyId": "pressure-gauges-accessories",
+      "name": {
+        "en": "Liquid-filled Pressure Gauges",
+        "ar": "مقاييس ضغط مملوءة بالسائل",
+        "zh": "充液压力表"
+      },
+      "image": "assets/products/website-20261018/product-05d8e439da82.webp"
+    },
+    {
+      "id": "pressure-gauge-syphons",
+      "routeId": "product:pressure-gauge-syphons",
+      "familyId": "pressure-gauges-accessories",
+      "name": {
+        "en": "Pressure Gauge Syphon Tubes",
+        "ar": "أنابيب سيفون لمقاييس الضغط",
+        "zh": "不锈钢压力表缓冲弯管"
+      },
+      "image": "assets/products/website-20261018/product-07098132e9e5.webp"
+    },
+    {
+      "id": "pistol-grip-combination-fire-nozzles",
+      "routeId": "product:pistol-grip-combination-fire-nozzles",
+      "familyId": "hoses-nozzles-couplings",
+      "name": {
+        "en": "Pistol-grip Combination Fire Nozzles",
+        "ar": "فوهات حريق متعددة الأنماط بقبضة مسدس",
+        "zh": "手持直流喷雾消防水枪"
+      },
+      "image": "assets/products/website-20261018/product-49b0fe587649.webp"
+    }
+  ]
+}

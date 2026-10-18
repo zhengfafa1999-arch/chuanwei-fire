@@ -1,0 +1,225 @@
+{
+  "id": "pistol-grip-combination-fire-nozzles",
+  "routeId": "product:pistol-grip-combination-fire-nozzles",
+  "template": "product-series/documented-product.njk",
+  "styles": [
+    "css/common.css",
+    "css/sprinkler-product.css",
+    "css/sprinkler-product-gallery.css",
+    "css/documented-product.css",
+    "css/site-navigation.css"
+  ],
+  "source": {
+    "evidence": "User-selected new-folder product archive; reviewed field-by-field for this product series.",
+    "review": "docs/reviews/material-batch-20261018/mechanical.json",
+    "sourceNames": [
+      "多功能水枪系列-手持直流喷雾消防水枪"
+    ],
+    "unresolved": [
+      "准确型号、材质、接口标准、流量/压力/射程及重量需逐配置核实。"
+    ],
+    "notes": [
+      "不把多色手柄当作唯一SKU；不组合不同入口或流量图片参数，不继承既有银色直流水枪参数。",
+      "DN65及2.5寸文件夹标签不构成准确接口标准证据，暂不发布。"
+    ]
+  },
+  "publication": {
+    "status": "release-candidate",
+    "externalRelease": true,
+    "imageRights": "user-confirmed-website-use",
+    "imageRightsEvidence": "docs/release/website-products-20261018/image-rights-confirmation.json"
+  },
+  "media": {
+    "hero": "assets/products/website-20261018/product-49b0fe587649.webp"
+  },
+  "imageDimensions": {
+    "hero": {
+      "width": 1000,
+      "height": 1000
+    }
+  },
+  "shared": {},
+  "heroFacts": [
+    "spec0Value",
+    "spec1Value",
+    "spec2Value"
+  ],
+  "gallery": [
+    {
+      "media": "hero",
+      "alt": "image0Alt",
+      "caption": "image0Caption",
+      "thumbnailAlt": "image0Alt"
+    }
+  ],
+  "specifications": [
+    {
+      "label": "spec0Label",
+      "value": "spec0Value"
+    },
+    {
+      "label": "spec1Label",
+      "value": "spec1Value"
+    },
+    {
+      "label": "spec2Label",
+      "value": "spec2Value"
+    },
+    {
+      "label": "spec3Label",
+      "value": "spec3Value"
+    }
+  ],
+  "modelColumns": [
+    {
+      "label": "configuration",
+      "field": "configuration",
+      "localized": true
+    },
+    {
+      "label": "selectionDetails",
+      "field": "selection",
+      "localized": true
+    }
+  ],
+  "models": [
+    {
+      "configuration": "model0Name",
+      "factoryReference": "model0Reference",
+      "selection": "model0Selection"
+    }
+  ],
+  "confirmationItems": [
+    {
+      "label": "selection0Label",
+      "body": "selection0Body"
+    },
+    {
+      "label": "selection1Label",
+      "body": "selection1Body"
+    }
+  ],
+  "inquiry": {
+    "whatsapp": "https://wa.me/8617326528368?text=Hello%2C%20I%20am%20interested%20in%20Pistol-grip%20Combination%20Fire%20Nozzles.%0AProduct%20page%3A%20https%3A//chuanweifire.com/products/hoses-nozzles-couplings/pistol-grip-combination-fire-nozzles.html%0AQuantity%20/%20destination%20/%20requirements%3A",
+    "email": "mailto:zhengcolin1@gmail.com"
+  },
+  "validation": {
+    "anchors": [
+      "gallery",
+      "specifications",
+      "models",
+      "quotation"
+    ],
+    "requiredTechnicalValues": []
+  },
+  "copy": {
+    "en": {
+      "onThisPage": "On this page",
+      "gallery": "Product gallery",
+      "galleryTitle": "Product views",
+      "galleryBody": "Select an image to view the pictured product or configuration.",
+      "specifications": "Specifications",
+      "specificationsTitle": "Product specifications",
+      "specificationsBody": "Use the specifications together with the configuration table below.",
+      "availableModels": "Models & configurations",
+      "modelsTitle": "Models & configurations",
+      "modelsBody": "Match the product reference and selection details to your order.",
+      "modelsNote": "The photographs illustrate selected configurations. Specify the required model and quantity when requesting a quotation.",
+      "factoryModel": "Product reference",
+      "configuration": "Configuration",
+      "selectionDetails": "Selection details",
+      "temperature": "Temperature",
+      "thermalElement": "Thermal element",
+      "quotation": "Request a quotation",
+      "quotationTitle": "Select your configuration",
+      "quotationBody": "Include the product reference, quantity and delivery destination, together with the requirements below.",
+      "askOnWhatsApp": "Ask on WhatsApp",
+      "emailSales": "Email sales",
+      "productImagePreview": "Product image preview",
+      "closeImagePreview": "Close image preview",
+      "enlargedImage": "Enlarged product image",
+      "previousProductImage": "Previous product image",
+      "nextProductImage": "Next product image",
+      "selectProductImage": "Select product image",
+      "inquiryTitle": "Request product details and a quotation",
+      "inquiryBody": "Send your selected configuration, quantity and destination.",
+      "title": "Pistol-grip Combination Fire Nozzles",
+      "lead": "A handheld fire nozzle with a pistol grip, bail handle and adjustable jet or fog pattern selection. Match the exact inlet and control arrangement to the required supply configuration.",
+      "eyebrow": "Fire Hose Nozzles",
+      "seoTitle": "Pistol-grip Combination Fire Nozzles | CHUANWEI FIRE",
+      "seoDescription": "A handheld fire nozzle with a pistol grip, bail handle and adjustable jet or fog pattern selection. Match the exact inlet and control arrangement to the required supply configuration.",
+      "note": "Provide the mating hose coupling standard, exact dimensions and a connection drawing or photograph.",
+      "image0Alt": "Pistol-grip jet and fog nozzle reference.",
+      "image0Caption": "Pistol-grip jet and fog nozzle reference.",
+      "spec0Label": "Application",
+      "spec0Value": "Handheld firefighting water discharge",
+      "spec1Label": "Discharge patterns",
+      "spec1Value": "Jet / fog",
+      "spec2Label": "Grip",
+      "spec2Value": "Pistol grip",
+      "spec3Label": "Control arrangement shown",
+      "spec3Value": "Bail handle and adjustable pattern selector",
+      "model0Name": "Pistol-grip jet and fog configuration",
+      "model0Reference": "Available on request",
+      "model0Selection": "Identify the inlet, handle and pattern-control arrangement from the reference configuration.",
+      "selection0Label": "Inlet connection",
+      "selection0Body": "Provide the mating hose coupling standard, exact dimensions and a connection drawing or photograph.",
+      "selection1Label": "Required performance",
+      "selection1Body": "State flow, inlet pressure and required jet or fog duty; identify the exact nozzle configuration for a matching datasheet."
+    },
+    "ar": {
+      "onThisPage": "في هذه الصفحة",
+      "gallery": "صور المنتج",
+      "galleryTitle": "عرض المنتج",
+      "galleryBody": "اختر صورة لعرض المنتج أو التكوين الظاهر فيها.",
+      "specifications": "المواصفات",
+      "specificationsTitle": "مواصفات المنتج",
+      "specificationsBody": "استخدم المواصفات مع جدول التكوينات أدناه.",
+      "availableModels": "الموديلات والتكوينات",
+      "modelsTitle": "الموديلات والتكوينات",
+      "modelsBody": "طابق مرجع المنتج وتفاصيل الاختيار مع طلبك.",
+      "modelsNote": "تعرض الصور تكوينات مختارة. حدد الموديل والكمية المطلوبة عند طلب عرض السعر.",
+      "factoryModel": "مرجع المنتج",
+      "configuration": "التكوين",
+      "selectionDetails": "تفاصيل الاختيار",
+      "temperature": "درجة الحرارة",
+      "thermalElement": "العنصر الحراري",
+      "quotation": "طلب عرض سعر",
+      "quotationTitle": "اختر التكوين المطلوب",
+      "quotationBody": "أرسل مرجع المنتج والكمية ووجهة التسليم والمتطلبات أدناه.",
+      "askOnWhatsApp": "استفسر عبر WhatsApp",
+      "emailSales": "راسل قسم المبيعات",
+      "productImagePreview": "معاينة صورة المنتج",
+      "closeImagePreview": "إغلاق معاينة الصورة",
+      "enlargedImage": "صورة مكبرة للمنتج",
+      "previousProductImage": "صورة المنتج السابقة",
+      "nextProductImage": "صورة المنتج التالية",
+      "selectProductImage": "اختر صورة المنتج",
+      "inquiryTitle": "اطلب تفاصيل المنتج وعرض سعر",
+      "inquiryBody": "أرسل التكوين المختار والكمية والوجهة.",
+      "title": "فوهات حريق متعددة الأنماط بقبضة مسدس",
+      "lead": "فوهة حريق يدوية بقبضة مسدس ومقبض قوسي وإمكانية اختيار نمط نفاث أو ضبابي. طابق ترتيب المدخل والتحكم بدقة مع التكوين المطلوب توريده.",
+      "eyebrow": "فوهات خراطيم الحريق",
+      "seoTitle": "فوهات حريق متعددة الأنماط بقبضة مسدس | CHUANWEI FIRE",
+      "seoDescription": "فوهة حريق يدوية بقبضة مسدس ومقبض قوسي وإمكانية اختيار نمط نفاث أو ضبابي. طابق ترتيب المدخل والتحكم بدقة مع التكوين المطلوب توريده.",
+      "note": "قدم معيار وصلة الخرطوم المقابلة وأبعادها الدقيقة ورسمًا أو صورة للتوصيل.",
+      "image0Alt": "فوهة نفاثة وضبابية بقبضة مسدس — صورة مرجعية.",
+      "image0Caption": "فوهة نفاثة وضبابية بقبضة مسدس — صورة مرجعية.",
+      "spec0Label": "الاستخدام",
+      "spec0Value": "إطلاق مياه مكافحة الحريق يدويًا",
+      "spec1Label": "أنماط التدفق",
+      "spec1Value": "نفاث / ضبابي",
+      "spec2Label": "القبضة",
+      "spec2Value": "قبضة مسدس",
+      "spec3Label": "ترتيب التحكم الظاهر",
+      "spec3Value": "مقبض قوسي ومحدد نمط قابل للضبط",
+      "model0Name": "تكوين نفاث وضبابي بقبضة مسدس",
+      "model0Reference": "حسب طلب الاستفسار",
+      "model0Selection": "حدد ترتيب المدخل والمقبض والتحكم بالنمط من التكوين المرجعي.",
+      "selection0Label": "توصيل المدخل",
+      "selection0Body": "قدم معيار وصلة الخرطوم المقابلة وأبعادها الدقيقة ورسمًا أو صورة للتوصيل.",
+      "selection1Label": "الأداء المطلوب",
+      "selection1Body": "حدد التدفق وضغط المدخل ومتطلبات النمط النفاث أو الضبابي، وحدد تكوين الفوهة الدقيق للحصول على ورقة بيانات مطابقة."
+    }
+  }
+}

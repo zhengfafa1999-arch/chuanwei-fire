@@ -1,0 +1,332 @@
+{
+  "id": "portable-water-based-fire-extinguishers",
+  "routeId": "product:portable-water-based-fire-extinguishers",
+  "template": "product-series/documented-product.njk",
+  "styles": [
+    "css/common.css",
+    "css/sprinkler-product.css",
+    "css/sprinkler-product-gallery.css",
+    "css/documented-product.css",
+    "css/site-navigation.css"
+  ],
+  "source": {
+    "evidence": "User-selected new-folder product archive; reviewed field-by-field for this product series.",
+    "review": "docs/reviews/material-batch-20261018/extinguishers-alarms.json",
+    "sourceNames": [
+      "MS-ABEF系列-手提式水基灭火器",
+      "MS-ABEF2-3-手提式水基灭火器",
+      "MS-ABEF6-9-手提式水基灭火器"
+    ],
+    "unresolved": [
+      "精确型号灭火级别、充装压力、使用温度、喷射性能及目的地适用文件待核实。",
+      "整机净重、毛重、包装、交期及商务条件需按订单确认。",
+      "2 L、3 L、9 L瓶体材质需单独确认。",
+      "水基药剂配方、SDS、含氟状况及电气火灾适用性未确认。"
+    ],
+    "notes": [
+      "原系列证据明确仅6 L为碳钢，后拆分listing泛写碳钢但缺新增材质证据，保守保留6 L范围。",
+      "L为药剂体积，不当作瓶体容积或整机重量。",
+      "不把MS/ABEF型号字母作为国际通用火灾等级，不宣称无氟或适合带电设备。",
+      "保留实物TAIRUI标识；CHUANWEI FIRE为供货方。"
+    ]
+  },
+  "publication": {
+    "status": "release-candidate",
+    "externalRelease": true,
+    "imageRights": "user-confirmed-website-use",
+    "imageRightsEvidence": "docs/release/website-products-20261018/image-rights-confirmation.json"
+  },
+  "media": {
+    "hero": "assets/products/website-20261018/product-1b72519717a3.webp",
+    "image1": "assets/products/website-20261018/product-668ed276249b.webp",
+    "image2": "assets/products/website-20261018/product-030815c7460f.webp"
+  },
+  "imageDimensions": {
+    "hero": {
+      "width": 1000,
+      "height": 1000
+    },
+    "image1": {
+      "width": 1000,
+      "height": 1000
+    },
+    "image2": {
+      "width": 1000,
+      "height": 1000
+    }
+  },
+  "shared": {},
+  "heroFacts": [
+    "spec0Value",
+    "spec1Value",
+    "spec2Value"
+  ],
+  "gallery": [
+    {
+      "media": "hero",
+      "alt": "image0Alt",
+      "caption": "image0Caption",
+      "thumbnailAlt": "image0Alt"
+    },
+    {
+      "media": "image1",
+      "alt": "image1Alt",
+      "caption": "image1Caption",
+      "thumbnailAlt": "image1Alt"
+    },
+    {
+      "media": "image2",
+      "alt": "image2Alt",
+      "caption": "image2Caption",
+      "thumbnailAlt": "image2Alt"
+    }
+  ],
+  "specifications": [
+    {
+      "label": "spec0Label",
+      "value": "spec0Value"
+    },
+    {
+      "label": "spec1Label",
+      "value": "spec1Value"
+    },
+    {
+      "label": "spec2Label",
+      "value": "spec2Value"
+    },
+    {
+      "label": "spec3Label",
+      "value": "spec3Value"
+    },
+    {
+      "label": "spec4Label",
+      "value": "spec4Value"
+    },
+    {
+      "label": "spec5Label",
+      "value": "spec5Value"
+    },
+    {
+      "label": "spec6Label",
+      "value": "spec6Value"
+    }
+  ],
+  "modelColumns": [
+    {
+      "label": "configuration",
+      "field": "configuration",
+      "localized": true
+    },
+    {
+      "label": "factoryModel",
+      "field": "factoryReference",
+      "localized": true
+    },
+    {
+      "label": "selectionDetails",
+      "field": "selection",
+      "localized": true
+    }
+  ],
+  "models": [
+    {
+      "configuration": "model0Name",
+      "factoryReference": "model0Reference",
+      "selection": "model0Selection"
+    },
+    {
+      "configuration": "model1Name",
+      "factoryReference": "model1Reference",
+      "selection": "model1Selection"
+    },
+    {
+      "configuration": "model2Name",
+      "factoryReference": "model2Reference",
+      "selection": "model2Selection"
+    },
+    {
+      "configuration": "model3Name",
+      "factoryReference": "model3Reference",
+      "selection": "model3Selection"
+    }
+  ],
+  "confirmationItems": [
+    {
+      "label": "selection0Label",
+      "body": "selection0Body"
+    },
+    {
+      "label": "selection1Label",
+      "body": "selection1Body"
+    },
+    {
+      "label": "selection2Label",
+      "body": "selection2Body"
+    }
+  ],
+  "inquiry": {
+    "whatsapp": "https://wa.me/8617326528368?text=Hello%2C%20I%20am%20interested%20in%20Portable%20Water-Based%20Fire%20Extinguishers.%0AProduct%20page%3A%20https%3A//chuanweifire.com/products/fire-extinguishers/portable-water-based-fire-extinguishers.html%0AQuantity%20/%20destination%20/%20requirements%3A",
+    "email": "mailto:zhengcolin1@gmail.com"
+  },
+  "validation": {
+    "anchors": [
+      "gallery",
+      "specifications",
+      "models",
+      "quotation"
+    ],
+    "requiredTechnicalValues": []
+  },
+  "copy": {
+    "en": {
+      "onThisPage": "On this page",
+      "gallery": "Product gallery",
+      "galleryTitle": "Product views",
+      "galleryBody": "Select an image to view the pictured product or configuration.",
+      "specifications": "Specifications",
+      "specificationsTitle": "Product specifications",
+      "specificationsBody": "Use the specifications together with the configuration table below.",
+      "availableModels": "Models & configurations",
+      "modelsTitle": "Models & configurations",
+      "modelsBody": "Match the product reference and selection details to your order.",
+      "modelsNote": "The photographs illustrate selected configurations. Specify the required model and quantity when requesting a quotation.",
+      "factoryModel": "Product reference",
+      "configuration": "Configuration",
+      "selectionDetails": "Selection details",
+      "temperature": "Temperature",
+      "thermalElement": "Thermal element",
+      "quotation": "Request a quotation",
+      "quotationTitle": "Select your configuration",
+      "quotationBody": "Include the product reference, quantity and delivery destination, together with the requirements below.",
+      "askOnWhatsApp": "Ask on WhatsApp",
+      "emailSales": "Email sales",
+      "productImagePreview": "Product image preview",
+      "closeImagePreview": "Close image preview",
+      "enlargedImage": "Enlarged product image",
+      "previousProductImage": "Previous product image",
+      "nextProductImage": "Next product image",
+      "selectProductImage": "Select product image",
+      "inquiryTitle": "Request product details and a quotation",
+      "inquiryBody": "Send your selected configuration, quantity and destination.",
+      "title": "Portable Water-Based Fire Extinguishers",
+      "lead": "Portable water-based extinguishers with manual lever operation and 2 L, 3 L, 6 L and 9 L agent-volume options. The 2 L configuration uses a direct nozzle; larger listed sizes use a hose.",
+      "eyebrow": "Fire Extinguishers",
+      "seoTitle": "Portable Water-Based Fire Extinguishers | CHUANWEI FIRE",
+      "seoDescription": "Portable water-based extinguishers with manual lever operation and 2 L, 3 L, 6 L and 9 L agent-volume options. The 2 L configuration uses a direct nozzle; larger listed sizes use a hose.",
+      "note": "Specify the agent charge or volume and the quantity required for each model.",
+      "image0Alt": "Water-based extinguisher series overview.",
+      "image0Caption": "Water-based extinguisher series overview.",
+      "image1Alt": "Small-capacity configuration; pictured sample MS/ABEF2.",
+      "image1Caption": "Small-capacity configuration; pictured sample MS/ABEF2.",
+      "image2Alt": "Hose-equipped configuration; pictured sample MS/ABEF6.",
+      "image2Caption": "Hose-equipped configuration; pictured sample MS/ABEF6.",
+      "spec0Label": "Extinguishing agent",
+      "spec0Value": "Water-based agent",
+      "spec1Label": "Format",
+      "spec1Value": "Portable",
+      "spec2Label": "Operation",
+      "spec2Value": "Manual lever",
+      "spec3Label": "Agent volume options",
+      "spec3Value": "2 / 3 / 6 / 9 L",
+      "spec4Label": "Outlet configurations",
+      "spec4Value": "2 L: direct nozzle; 3 / 6 / 9 L: hose",
+      "spec5Label": "6 L cylinder material",
+      "spec5Value": "Carbon steel, documented for the 6 L model",
+      "spec6Label": "Pressure indicator",
+      "spec6Value": "Fitted",
+      "model0Name": "2 L water-based",
+      "model0Reference": "MS/ABEF2",
+      "model0Selection": "Direct nozzle; manual lever.",
+      "model1Name": "3 L water-based",
+      "model1Reference": "MS/ABEF3",
+      "model1Selection": "Hose configuration; manual lever.",
+      "model2Name": "6 L water-based",
+      "model2Reference": "MS/ABEF6",
+      "model2Selection": "Hose configuration; manual lever.",
+      "model3Name": "9 L water-based",
+      "model3Reference": "MS/ABEF9",
+      "model3Selection": "Hose configuration; manual lever.",
+      "selection0Label": "Capacity and quantity",
+      "selection0Body": "Specify the agent charge or volume and the quantity required for each model.",
+      "selection1Label": "Project requirements",
+      "selection1Body": "Send the installation location, required fire rating and destination market so the exact model documents can be checked.",
+      "selection2Label": "Agent formulation",
+      "selection2Body": "Provide any formulation or environmental requirements and request the matching safety data sheet for the proposed model."
+    },
+    "ar": {
+      "onThisPage": "في هذه الصفحة",
+      "gallery": "صور المنتج",
+      "galleryTitle": "عرض المنتج",
+      "galleryBody": "اختر صورة لعرض المنتج أو التكوين الظاهر فيها.",
+      "specifications": "المواصفات",
+      "specificationsTitle": "مواصفات المنتج",
+      "specificationsBody": "استخدم المواصفات مع جدول التكوينات أدناه.",
+      "availableModels": "الموديلات والتكوينات",
+      "modelsTitle": "الموديلات والتكوينات",
+      "modelsBody": "طابق مرجع المنتج وتفاصيل الاختيار مع طلبك.",
+      "modelsNote": "تعرض الصور تكوينات مختارة. حدد الموديل والكمية المطلوبة عند طلب عرض السعر.",
+      "factoryModel": "مرجع المنتج",
+      "configuration": "التكوين",
+      "selectionDetails": "تفاصيل الاختيار",
+      "temperature": "درجة الحرارة",
+      "thermalElement": "العنصر الحراري",
+      "quotation": "طلب عرض سعر",
+      "quotationTitle": "اختر التكوين المطلوب",
+      "quotationBody": "أرسل مرجع المنتج والكمية ووجهة التسليم والمتطلبات أدناه.",
+      "askOnWhatsApp": "استفسر عبر WhatsApp",
+      "emailSales": "راسل قسم المبيعات",
+      "productImagePreview": "معاينة صورة المنتج",
+      "closeImagePreview": "إغلاق معاينة الصورة",
+      "enlargedImage": "صورة مكبرة للمنتج",
+      "previousProductImage": "صورة المنتج السابقة",
+      "nextProductImage": "صورة المنتج التالية",
+      "selectProductImage": "اختر صورة المنتج",
+      "inquiryTitle": "اطلب تفاصيل المنتج وعرض سعر",
+      "inquiryBody": "أرسل التكوين المختار والكمية والوجهة.",
+      "title": "طفايات حريق محمولة بعامل إطفاء مائي",
+      "lead": "طفايات محمولة بعامل إطفاء مائي وتشغيل يدوي بالذراع، بخيارات حجم 2 L و3 L و6 L و9 L. يستخدم تجهيز 2 L فوهة مباشرة، بينما تستخدم الأحجام الأكبر المدرجة خرطوماً.",
+      "eyebrow": "طفايات الحريق",
+      "seoTitle": "طفايات حريق محمولة بعامل إطفاء مائي | CHUANWEI FIRE",
+      "seoDescription": "طفايات محمولة بعامل إطفاء مائي وتشغيل يدوي بالذراع، بخيارات حجم 2 L و3 L و6 L و9 L. يستخدم تجهيز 2 L فوهة مباشرة، بينما تستخدم الأحجام الأكبر المدرجة خرطوماً.",
+      "note": "حدد كتلة مادة الإطفاء أو حجمها والكمية المطلوبة من كل طراز.",
+      "image0Alt": "نظرة عامة على سلسلة الطفايات بعامل إطفاء مائي.",
+      "image0Caption": "نظرة عامة على سلسلة الطفايات بعامل إطفاء مائي.",
+      "image1Alt": "تجهيز السعة الصغيرة؛ العينة المصورة MS/ABEF2.",
+      "image1Caption": "تجهيز السعة الصغيرة؛ العينة المصورة MS/ABEF2.",
+      "image2Alt": "تجهيز مزود بخرطوم؛ العينة المصورة MS/ABEF6.",
+      "image2Caption": "تجهيز مزود بخرطوم؛ العينة المصورة MS/ABEF6.",
+      "spec0Label": "مادة الإطفاء",
+      "spec0Value": "عامل إطفاء مائي",
+      "spec1Label": "التصميم",
+      "spec1Value": "محمول",
+      "spec2Label": "التشغيل",
+      "spec2Value": "ذراع يدوي",
+      "spec3Label": "خيارات حجم مادة الإطفاء",
+      "spec3Value": "2 / 3 / 6 / 9 L",
+      "spec4Label": "تجهيزات المخرج",
+      "spec4Value": "2 L: فوهة مباشرة؛ 3 / 6 / 9 L: خرطوم",
+      "spec5Label": "مادة أسطوانة 6 L",
+      "spec5Value": "فولاذ كربوني، موثق لطراز 6 L",
+      "spec6Label": "مؤشر الضغط",
+      "spec6Value": "مزود بمؤشر ضغط",
+      "model0Name": "عامل إطفاء مائي بحجم 2 L",
+      "model0Reference": "MS/ABEF2",
+      "model0Selection": "فوهة مباشرة؛ ذراع يدوي.",
+      "model1Name": "عامل إطفاء مائي بحجم 3 L",
+      "model1Reference": "MS/ABEF3",
+      "model1Selection": "تجهيز بخرطوم؛ ذراع يدوي.",
+      "model2Name": "عامل إطفاء مائي بحجم 6 L",
+      "model2Reference": "MS/ABEF6",
+      "model2Selection": "تجهيز بخرطوم؛ ذراع يدوي.",
+      "model3Name": "عامل إطفاء مائي بحجم 9 L",
+      "model3Reference": "MS/ABEF9",
+      "model3Selection": "تجهيز بخرطوم؛ ذراع يدوي.",
+      "selection0Label": "السعة والكمية",
+      "selection0Body": "حدد كتلة مادة الإطفاء أو حجمها والكمية المطلوبة من كل طراز.",
+      "selection1Label": "متطلبات المشروع",
+      "selection1Body": "أرسل موقع الاستخدام وتصنيف الإطفاء المطلوب وبلد الوجهة للتحقق من وثائق الطراز المحدد.",
+      "selection2Label": "تركيبة مادة الإطفاء",
+      "selection2Body": "حدد متطلبات تركيبة مادة الإطفاء أو المتطلبات البيئية، واطلب صحيفة بيانات السلامة الخاصة بالطراز المقترح."
+    }
+  }
+}

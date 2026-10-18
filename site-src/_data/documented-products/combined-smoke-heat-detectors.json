@@ -1,0 +1,237 @@
+{
+  "id": "combined-smoke-heat-detectors",
+  "routeId": "product:combined-smoke-heat-detectors",
+  "template": "product-series/documented-product.njk",
+  "styles": [
+    "css/common.css",
+    "css/sprinkler-product.css",
+    "css/sprinkler-product-gallery.css",
+    "css/documented-product.css",
+    "css/site-navigation.css"
+  ],
+  "source": {
+    "evidence": "User-selected new-folder product archive; reviewed field-by-field for this product series.",
+    "review": "docs/reviews/material-batch-20261018/extinguishers-alarms.json",
+    "sourceNames": [
+      "JTF-GOM-TX3120A-烟温复合探测器"
+    ],
+    "unresolved": [
+      "精确探测算法、感温等级、环境范围、底座与控制器兼容需说明书确认。"
+    ],
+    "notes": [
+      "0.4 mA、0.7 mA按来源与事实中的明确单位使用；不宣称全覆盖、零盲区或量化误报改善。"
+    ]
+  },
+  "publication": {
+    "status": "release-candidate",
+    "externalRelease": true,
+    "imageRights": "user-confirmed-website-use",
+    "imageRightsEvidence": "docs/release/website-products-20261018/image-rights-confirmation.json"
+  },
+  "media": {
+    "hero": "assets/products/website-20261018/product-e25dbafbc274.webp"
+  },
+  "imageDimensions": {
+    "hero": {
+      "width": 1200,
+      "height": 1200
+    }
+  },
+  "shared": {},
+  "heroFacts": [
+    "spec0Value",
+    "spec1Value",
+    "spec2Value"
+  ],
+  "gallery": [
+    {
+      "media": "hero",
+      "alt": "image0Alt",
+      "caption": "image0Caption",
+      "thumbnailAlt": "image0Alt"
+    }
+  ],
+  "specifications": [
+    {
+      "label": "spec0Label",
+      "value": "spec0Value"
+    },
+    {
+      "label": "spec1Label",
+      "value": "spec1Value"
+    },
+    {
+      "label": "spec2Label",
+      "value": "spec2Value"
+    },
+    {
+      "label": "spec3Label",
+      "value": "spec3Value"
+    },
+    {
+      "label": "spec4Label",
+      "value": "spec4Value"
+    }
+  ],
+  "modelColumns": [
+    {
+      "label": "configuration",
+      "field": "configuration",
+      "localized": true
+    },
+    {
+      "label": "factoryModel",
+      "field": "factoryReference",
+      "localized": true
+    },
+    {
+      "label": "selectionDetails",
+      "field": "selection",
+      "localized": true
+    }
+  ],
+  "models": [
+    {
+      "configuration": "model0Name",
+      "factoryReference": "model0Reference",
+      "selection": "model0Selection"
+    }
+  ],
+  "confirmationItems": [
+    {
+      "label": "selection0Label",
+      "body": "selection0Body"
+    },
+    {
+      "label": "selection1Label",
+      "body": "selection1Body"
+    }
+  ],
+  "inquiry": {
+    "whatsapp": "https://wa.me/8617326528368?text=Hello%2C%20I%20am%20interested%20in%20Combined%20Smoke%20and%20Heat%20Detectors.%0AProduct%20page%3A%20https%3A//chuanweifire.com/products/fire-alarm-systems/combined-smoke-heat-detectors.html%0AQuantity%20/%20destination%20/%20requirements%3A",
+    "email": "mailto:zhengcolin1@gmail.com"
+  },
+  "validation": {
+    "anchors": [
+      "gallery",
+      "specifications",
+      "models",
+      "quotation"
+    ],
+    "requiredTechnicalValues": []
+  },
+  "copy": {
+    "en": {
+      "onThisPage": "On this page",
+      "gallery": "Product gallery",
+      "galleryTitle": "Product views",
+      "galleryBody": "Select an image to view the pictured product or configuration.",
+      "specifications": "Specifications",
+      "specificationsTitle": "Product specifications",
+      "specificationsBody": "Use the specifications together with the configuration table below.",
+      "availableModels": "Models & configurations",
+      "modelsTitle": "Models & configurations",
+      "modelsBody": "Match the product reference and selection details to your order.",
+      "modelsNote": "The photographs illustrate selected configurations. Specify the required model and quantity when requesting a quotation.",
+      "factoryModel": "Product reference",
+      "configuration": "Configuration",
+      "selectionDetails": "Selection details",
+      "temperature": "Temperature",
+      "thermalElement": "Thermal element",
+      "quotation": "Request a quotation",
+      "quotationTitle": "Select your configuration",
+      "quotationBody": "Include the product reference, quantity and delivery destination, together with the requirements below.",
+      "askOnWhatsApp": "Ask on WhatsApp",
+      "emailSales": "Email sales",
+      "productImagePreview": "Product image preview",
+      "closeImagePreview": "Close image preview",
+      "enlargedImage": "Enlarged product image",
+      "previousProductImage": "Previous product image",
+      "nextProductImage": "Next product image",
+      "selectProductImage": "Select product image",
+      "inquiryTitle": "Request product details and a quotation",
+      "inquiryBody": "Send your selected configuration, quantity and destination.",
+      "title": "Combined Smoke and Heat Detectors",
+      "lead": "Tanda combined smoke and heat detectors for compatible fire alarm systems. The supplied model record lists 24 V DC operation with separate standby and alarm current values.",
+      "eyebrow": "Fire Alarm Equipment",
+      "seoTitle": "Combined Smoke and Heat Detectors | CHUANWEI FIRE",
+      "seoDescription": "Tanda combined smoke and heat detectors for compatible fire alarm systems. The supplied model record lists 24 V DC operation with separate standby and alarm current values.",
+      "note": "Provide the control panel model, protocol and existing device references so compatibility can be checked before supply.",
+      "image0Alt": "Tanda combined smoke and heat detector.",
+      "image0Caption": "Tanda combined smoke and heat detector.",
+      "spec0Label": "Product brand",
+      "spec0Value": "Tanda",
+      "spec1Label": "Detection",
+      "spec1Value": "Combined smoke and heat",
+      "spec2Label": "Supply voltage",
+      "spec2Value": "24 V DC",
+      "spec3Label": "Standby current",
+      "spec3Value": "0.4 mA",
+      "spec4Label": "Alarm current",
+      "spec4Value": "0.7 mA",
+      "model0Name": "Combined smoke and heat detector",
+      "model0Reference": "JTF-GOM-TX3120A",
+      "model0Selection": "24 V DC; smoke and heat sensing in one detector.",
+      "selection0Label": "Control panel compatibility",
+      "selection0Body": "Provide the control panel model, protocol and existing device references so compatibility can be checked before supply.",
+      "selection1Label": "Base and installation",
+      "selection1Body": "Specify whether a matching base is required and provide installation conditions and quantity."
+    },
+    "ar": {
+      "onThisPage": "في هذه الصفحة",
+      "gallery": "صور المنتج",
+      "galleryTitle": "عرض المنتج",
+      "galleryBody": "اختر صورة لعرض المنتج أو التكوين الظاهر فيها.",
+      "specifications": "المواصفات",
+      "specificationsTitle": "مواصفات المنتج",
+      "specificationsBody": "استخدم المواصفات مع جدول التكوينات أدناه.",
+      "availableModels": "الموديلات والتكوينات",
+      "modelsTitle": "الموديلات والتكوينات",
+      "modelsBody": "طابق مرجع المنتج وتفاصيل الاختيار مع طلبك.",
+      "modelsNote": "تعرض الصور تكوينات مختارة. حدد الموديل والكمية المطلوبة عند طلب عرض السعر.",
+      "factoryModel": "مرجع المنتج",
+      "configuration": "التكوين",
+      "selectionDetails": "تفاصيل الاختيار",
+      "temperature": "درجة الحرارة",
+      "thermalElement": "العنصر الحراري",
+      "quotation": "طلب عرض سعر",
+      "quotationTitle": "اختر التكوين المطلوب",
+      "quotationBody": "أرسل مرجع المنتج والكمية ووجهة التسليم والمتطلبات أدناه.",
+      "askOnWhatsApp": "استفسر عبر WhatsApp",
+      "emailSales": "راسل قسم المبيعات",
+      "productImagePreview": "معاينة صورة المنتج",
+      "closeImagePreview": "إغلاق معاينة الصورة",
+      "enlargedImage": "صورة مكبرة للمنتج",
+      "previousProductImage": "صورة المنتج السابقة",
+      "nextProductImage": "صورة المنتج التالية",
+      "selectProductImage": "اختر صورة المنتج",
+      "inquiryTitle": "اطلب تفاصيل المنتج وعرض سعر",
+      "inquiryBody": "أرسل التكوين المختار والكمية والوجهة.",
+      "title": "كواشف الدخان والحرارة المدمجة",
+      "lead": "كواشف مدمجة للدخان والحرارة من Tanda لأنظمة إنذار الحريق المتوافقة. يورد سجل الطراز المقدم تشغيل 24 V DC وقيمتين منفصلتين لتيار الاستعداد وتيار الإنذار.",
+      "eyebrow": "معدات إنذار الحريق",
+      "seoTitle": "كواشف الدخان والحرارة المدمجة | CHUANWEI FIRE",
+      "seoDescription": "كواشف مدمجة للدخان والحرارة من Tanda لأنظمة إنذار الحريق المتوافقة. يورد سجل الطراز المقدم تشغيل 24 V DC وقيمتين منفصلتين لتيار الاستعداد وتيار الإنذار.",
+      "note": "قدم طراز لوحة التحكم والبروتوكول ومراجع الأجهزة الحالية للتحقق من التوافق قبل التوريد.",
+      "image0Alt": "كاشف مدمج للدخان والحرارة من Tanda.",
+      "image0Caption": "كاشف مدمج للدخان والحرارة من Tanda.",
+      "spec0Label": "العلامة التجارية للمنتج",
+      "spec0Value": "Tanda",
+      "spec1Label": "الكشف",
+      "spec1Value": "دخان وحرارة معاً",
+      "spec2Label": "جهد التغذية",
+      "spec2Value": "24 V DC",
+      "spec3Label": "تيار الاستعداد",
+      "spec3Value": "0.4 mA",
+      "spec4Label": "تيار الإنذار",
+      "spec4Value": "0.7 mA",
+      "model0Name": "كاشف مدمج للدخان والحرارة",
+      "model0Reference": "JTF-GOM-TX3120A",
+      "model0Selection": "24 V DC؛ كشف الدخان والحرارة في كاشف واحد.",
+      "selection0Label": "توافق لوحة التحكم",
+      "selection0Body": "قدم طراز لوحة التحكم والبروتوكول ومراجع الأجهزة الحالية للتحقق من التوافق قبل التوريد.",
+      "selection1Label": "القاعدة والتركيب",
+      "selection1Body": "حدد ما إذا كانت القاعدة المطابقة مطلوبة، وقدم ظروف التركيب والكمية."
+    }
+  }
+}

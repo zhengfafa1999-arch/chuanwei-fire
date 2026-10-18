@@ -1,5 +1,6 @@
 import path from "node:path";
 import { catalogExpansionRoutes } from "./catalogExpansion.js";
+import { websiteBatchRoutes } from "./websiteCatalogBatch.js";
 
 export const SITE_ORIGIN = "https://chuanweifire.com";
 export const SUPPORTED_LOCALES = ["en", "ar"];
@@ -10,6 +11,7 @@ const fallback = (outputPath, fragment = "") => ({ outputPath, fragment, status:
 // The single registry for language counterparts. Fallbacks point to a real
 // localized catalog section until a dedicated translated page is published.
 export const SITE_ROUTES = {
+  ...websiteBatchRoutes,
   "product:grooved-osy-gate-valves": { kind: "product", category: "category:gate-valves", locales: { en: published("products/消防阀门/grooved-osy-gate-valves.html"), ar: published("ar/products/grooved-osy-gate-valves/index.html") } },
   home: { kind: "core", locales: { en: published("index.html"), zh: published("zh/index.html"), ar: published("ar/index.html") } },
   products: { kind: "core", locales: { en: published("products.html"), ar: published("ar/products.html") } },

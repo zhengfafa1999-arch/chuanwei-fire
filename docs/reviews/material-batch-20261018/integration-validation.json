@@ -1,0 +1,31 @@
+{
+  "passed": true,
+  "series": 32,
+  "newCategories": 7,
+  "selectedImages": 44,
+  "localizedProductPages": 64,
+  "allSeriesHaveOneDirectoryCard": true,
+  "modelSearches": [
+    [
+      "TX3307A",
+      "fire-alarm-sounder-beacons"
+    ],
+    [
+      "TX3100D",
+      "photoelectric-smoke-detectors"
+    ],
+    [
+      "YN100BF",
+      "liquid-filled-pressure-gauges"
+    ],
+    [
+      "GL41H-16Q",
+      "flanged-y-strainers"
+    ],
+    [
+      "XBD4.0/1W-CDL",
+      "vertical-multistage-fire-pumps"
+    ]
+  ],
+  "excludedHorizontalPumpModels": true
+}

@@ -1,0 +1,240 @@
+{
+  "id": "vertical-single-stage-fire-pumps",
+  "routeId": "product:vertical-single-stage-fire-pumps",
+  "template": "product-series/documented-product.njk",
+  "styles": [
+    "css/common.css",
+    "css/sprinkler-product.css",
+    "css/sprinkler-product-gallery.css",
+    "css/documented-product.css",
+    "css/site-navigation.css"
+  ],
+  "source": {
+    "evidence": "User-selected new-folder product archive; reviewed field-by-field for this product series.",
+    "review": "docs/reviews/material-batch-20261018/mechanical.json",
+    "sourceNames": [
+      "XBD立式系列-立式单级消防泵"
+    ],
+    "unresolved": [
+      "缺立式泵准确型号、性能曲线、电机铭牌和尺寸图。"
+    ],
+    "notes": [
+      "来源SKU原始值中的17个XBD...W-JXL型号为卧式，按listing-fields明确排除；不把其流量、扬程、功率、380 V或DN200移植到本立式款。"
+    ]
+  },
+  "publication": {
+    "status": "release-candidate",
+    "externalRelease": true,
+    "imageRights": "user-confirmed-website-use",
+    "imageRightsEvidence": "docs/release/website-products-20261018/image-rights-confirmation.json"
+  },
+  "media": {
+    "hero": "assets/products/website-20261018/product-449ae215bef9.webp"
+  },
+  "imageDimensions": {
+    "hero": {
+      "width": 1254,
+      "height": 1254
+    }
+  },
+  "shared": {},
+  "heroFacts": [
+    "spec0Value",
+    "spec1Value",
+    "spec2Value"
+  ],
+  "gallery": [
+    {
+      "media": "hero",
+      "alt": "image0Alt",
+      "caption": "image0Caption",
+      "thumbnailAlt": "image0Alt"
+    }
+  ],
+  "specifications": [
+    {
+      "label": "spec0Label",
+      "value": "spec0Value"
+    },
+    {
+      "label": "spec1Label",
+      "value": "spec1Value"
+    },
+    {
+      "label": "spec2Label",
+      "value": "spec2Value"
+    },
+    {
+      "label": "spec3Label",
+      "value": "spec3Value"
+    },
+    {
+      "label": "spec4Label",
+      "value": "spec4Value"
+    },
+    {
+      "label": "spec5Label",
+      "value": "spec5Value"
+    }
+  ],
+  "modelColumns": [
+    {
+      "label": "configuration",
+      "field": "configuration",
+      "localized": true
+    },
+    {
+      "label": "selectionDetails",
+      "field": "selection",
+      "localized": true
+    }
+  ],
+  "models": [
+    {
+      "configuration": "model0Name",
+      "factoryReference": "model0Reference",
+      "selection": "model0Selection"
+    }
+  ],
+  "confirmationItems": [
+    {
+      "label": "selection0Label",
+      "body": "selection0Body"
+    },
+    {
+      "label": "selection1Label",
+      "body": "selection1Body"
+    }
+  ],
+  "inquiry": {
+    "whatsapp": "https://wa.me/8617326528368?text=Hello%2C%20I%20am%20interested%20in%20Vertical%20Single-stage%20Fire%20Pumps.%0AProduct%20page%3A%20https%3A//chuanweifire.com/products/fire-pumps-controllers/vertical-single-stage-fire-pumps.html%0AQuantity%20/%20destination%20/%20requirements%3A",
+    "email": "mailto:zhengcolin1@gmail.com"
+  },
+  "validation": {
+    "anchors": [
+      "gallery",
+      "specifications",
+      "models",
+      "quotation"
+    ],
+    "requiredTechnicalValues": []
+  },
+  "copy": {
+    "en": {
+      "onThisPage": "On this page",
+      "gallery": "Product gallery",
+      "galleryTitle": "Product views",
+      "galleryBody": "Select an image to view the pictured product or configuration.",
+      "specifications": "Specifications",
+      "specificationsTitle": "Product specifications",
+      "specificationsBody": "Use the specifications together with the configuration table below.",
+      "availableModels": "Models & configurations",
+      "modelsTitle": "Models & configurations",
+      "modelsBody": "Match the product reference and selection details to your order.",
+      "modelsNote": "The photographs illustrate selected configurations. Specify the required model and quantity when requesting a quotation.",
+      "factoryModel": "Product reference",
+      "configuration": "Configuration",
+      "selectionDetails": "Selection details",
+      "temperature": "Temperature",
+      "thermalElement": "Thermal element",
+      "quotation": "Request a quotation",
+      "quotationTitle": "Select your configuration",
+      "quotationBody": "Include the product reference, quantity and delivery destination, together with the requirements below.",
+      "askOnWhatsApp": "Ask on WhatsApp",
+      "emailSales": "Email sales",
+      "productImagePreview": "Product image preview",
+      "closeImagePreview": "Close image preview",
+      "enlargedImage": "Enlarged product image",
+      "previousProductImage": "Previous product image",
+      "nextProductImage": "Next product image",
+      "selectProductImage": "Select product image",
+      "inquiryTitle": "Request product details and a quotation",
+      "inquiryBody": "Send your selected configuration, quantity and destination.",
+      "title": "Vertical Single-stage Fire Pumps",
+      "lead": "A vertical single-stage electric pump for hydrant and sprinkler water supply, with a cast iron pump body and opposed flanged ports.",
+      "eyebrow": "Fire Pumps & Control Cabinets",
+      "seoTitle": "Vertical Single-stage Fire Pumps | CHUANWEI FIRE",
+      "seoDescription": "A vertical single-stage electric pump for hydrant and sprinkler water supply, with a cast iron pump body and opposed flanged ports.",
+      "note": "Send the required flow and head, the system duty and the proposed installation arrangement.",
+      "image0Alt": "Vertical single-stage pump with the motor above the casing.",
+      "image0Caption": "Vertical single-stage pump with the motor above the casing.",
+      "spec0Label": "Pump construction",
+      "spec0Value": "Vertical single stage",
+      "spec1Label": "Pump body",
+      "spec1Value": "Cast iron",
+      "spec2Label": "Drive",
+      "spec2Value": "Electric motor",
+      "spec3Label": "Connection arrangement",
+      "spec3Value": "Opposed inline flanged ports",
+      "spec4Label": "Motor position",
+      "spec4Value": "Above the pump casing",
+      "spec5Label": "Application",
+      "spec5Value": "Hydrant and sprinkler water supply",
+      "model0Name": "Vertical single-stage configuration",
+      "model0Reference": "Available on request",
+      "model0Selection": "Select the exact vertical model against the required duty point and motor data.",
+      "selection0Label": "Hydraulic duty",
+      "selection0Body": "Send the required flow and head, the system duty and the proposed installation arrangement.",
+      "selection1Label": "Motor and connections",
+      "selection1Body": "Specify the site voltage and frequency, motor requirements and mating pipe or flange drawings."
+    },
+    "ar": {
+      "onThisPage": "في هذه الصفحة",
+      "gallery": "صور المنتج",
+      "galleryTitle": "عرض المنتج",
+      "galleryBody": "اختر صورة لعرض المنتج أو التكوين الظاهر فيها.",
+      "specifications": "المواصفات",
+      "specificationsTitle": "مواصفات المنتج",
+      "specificationsBody": "استخدم المواصفات مع جدول التكوينات أدناه.",
+      "availableModels": "الموديلات والتكوينات",
+      "modelsTitle": "الموديلات والتكوينات",
+      "modelsBody": "طابق مرجع المنتج وتفاصيل الاختيار مع طلبك.",
+      "modelsNote": "تعرض الصور تكوينات مختارة. حدد الموديل والكمية المطلوبة عند طلب عرض السعر.",
+      "factoryModel": "مرجع المنتج",
+      "configuration": "التكوين",
+      "selectionDetails": "تفاصيل الاختيار",
+      "temperature": "درجة الحرارة",
+      "thermalElement": "العنصر الحراري",
+      "quotation": "طلب عرض سعر",
+      "quotationTitle": "اختر التكوين المطلوب",
+      "quotationBody": "أرسل مرجع المنتج والكمية ووجهة التسليم والمتطلبات أدناه.",
+      "askOnWhatsApp": "استفسر عبر WhatsApp",
+      "emailSales": "راسل قسم المبيعات",
+      "productImagePreview": "معاينة صورة المنتج",
+      "closeImagePreview": "إغلاق معاينة الصورة",
+      "enlargedImage": "صورة مكبرة للمنتج",
+      "previousProductImage": "صورة المنتج السابقة",
+      "nextProductImage": "صورة المنتج التالية",
+      "selectProductImage": "اختر صورة المنتج",
+      "inquiryTitle": "اطلب تفاصيل المنتج وعرض سعر",
+      "inquiryBody": "أرسل التكوين المختار والكمية والوجهة.",
+      "title": "مضخات حريق رأسية أحادية المرحلة",
+      "lead": "مضخة كهربائية رأسية أحادية المرحلة لتغذية صنابير الحريق والرشاشات بالماء، بجسم من الحديد الزهر وفتحتي توصيل متقابلتين بفلنجات.",
+      "eyebrow": "مضخات الحريق وخزائن التحكم",
+      "seoTitle": "مضخات حريق رأسية أحادية المرحلة | CHUANWEI FIRE",
+      "seoDescription": "مضخة كهربائية رأسية أحادية المرحلة لتغذية صنابير الحريق والرشاشات بالماء، بجسم من الحديد الزهر وفتحتي توصيل متقابلتين بفلنجات.",
+      "note": "أرسل التدفق والرفع المطلوبين ووظيفة النظام وترتيب التركيب المقترح.",
+      "image0Alt": "مضخة رأسية أحادية المرحلة والمحرك أعلى الجسم.",
+      "image0Caption": "مضخة رأسية أحادية المرحلة والمحرك أعلى الجسم.",
+      "spec0Label": "تركيب المضخة",
+      "spec0Value": "رأسية أحادية المرحلة",
+      "spec1Label": "جسم المضخة",
+      "spec1Value": "حديد زهر",
+      "spec2Label": "التشغيل",
+      "spec2Value": "محرك كهربائي",
+      "spec3Label": "ترتيب التوصيلات",
+      "spec3Value": "فتحتان متقابلتان على خط واحد بفلنجات",
+      "spec4Label": "موضع المحرك",
+      "spec4Value": "أعلى جسم المضخة",
+      "spec5Label": "الاستخدام",
+      "spec5Value": "تغذية صنابير الحريق والرشاشات بالماء",
+      "model0Name": "تكوين رأسي أحادي المرحلة",
+      "model0Reference": "حسب طلب الاستفسار",
+      "model0Selection": "اختر الموديل الرأسي الدقيق وفق نقطة التشغيل المطلوبة وبيانات المحرك.",
+      "selection0Label": "نقطة التشغيل الهيدروليكية",
+      "selection0Body": "أرسل التدفق والرفع المطلوبين ووظيفة النظام وترتيب التركيب المقترح.",
+      "selection1Label": "المحرك والتوصيلات",
+      "selection1Body": "حدد جهد الموقع وتردده ومتطلبات المحرك ورسومات الأنابيب أو الفلنجات المقابلة."
+    }
+  }
+}

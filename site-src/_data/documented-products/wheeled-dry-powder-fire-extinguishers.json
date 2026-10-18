@@ -1,0 +1,270 @@
+{
+  "id": "wheeled-dry-powder-fire-extinguishers",
+  "routeId": "product:wheeled-dry-powder-fire-extinguishers",
+  "template": "product-series/documented-product.njk",
+  "styles": [
+    "css/common.css",
+    "css/sprinkler-product.css",
+    "css/sprinkler-product-gallery.css",
+    "css/documented-product.css",
+    "css/site-navigation.css"
+  ],
+  "source": {
+    "evidence": "User-selected new-folder product archive; reviewed field-by-field for this product series.",
+    "review": "docs/reviews/material-batch-20261018/extinguishers-alarms.json",
+    "sourceNames": [
+      "MFT-ABCE系列-推车式干粉灭火器"
+    ],
+    "unresolved": [
+      "精确型号灭火级别、充装压力、使用温度、喷射性能及目的地适用文件待核实。",
+      "整机净重、毛重、包装、交期及商务条件需按订单确认。",
+      "软管长度、喷枪参数、尺寸和推车部件材质待核实。"
+    ],
+    "notes": [
+      "20、35、50 kg分别有碳钢参数图记录；未采用干粉90%浓度宣传。",
+      "推车式与手提式分别建页，未共用充装或喷枪参数。"
+    ]
+  },
+  "publication": {
+    "status": "release-candidate",
+    "externalRelease": true,
+    "imageRights": "user-confirmed-website-use",
+    "imageRightsEvidence": "docs/release/website-products-20261018/image-rights-confirmation.json"
+  },
+  "media": {
+    "hero": "assets/products/website-20261018/product-a62ae4f0d6a0.webp"
+  },
+  "imageDimensions": {
+    "hero": {
+      "width": 1000,
+      "height": 1000
+    }
+  },
+  "shared": {},
+  "heroFacts": [
+    "spec0Value",
+    "spec1Value",
+    "spec2Value"
+  ],
+  "gallery": [
+    {
+      "media": "hero",
+      "alt": "image0Alt",
+      "caption": "image0Caption",
+      "thumbnailAlt": "image0Alt"
+    }
+  ],
+  "specifications": [
+    {
+      "label": "spec0Label",
+      "value": "spec0Value"
+    },
+    {
+      "label": "spec1Label",
+      "value": "spec1Value"
+    },
+    {
+      "label": "spec2Label",
+      "value": "spec2Value"
+    },
+    {
+      "label": "spec3Label",
+      "value": "spec3Value"
+    },
+    {
+      "label": "spec4Label",
+      "value": "spec4Value"
+    }
+  ],
+  "modelColumns": [
+    {
+      "label": "configuration",
+      "field": "configuration",
+      "localized": true
+    },
+    {
+      "label": "factoryModel",
+      "field": "factoryReference",
+      "localized": true
+    },
+    {
+      "label": "selectionDetails",
+      "field": "selection",
+      "localized": true
+    }
+  ],
+  "models": [
+    {
+      "configuration": "model0Name",
+      "factoryReference": "model0Reference",
+      "selection": "model0Selection"
+    },
+    {
+      "configuration": "model1Name",
+      "factoryReference": "model1Reference",
+      "selection": "model1Selection"
+    },
+    {
+      "configuration": "model2Name",
+      "factoryReference": "model2Reference",
+      "selection": "model2Selection"
+    }
+  ],
+  "confirmationItems": [
+    {
+      "label": "selection0Label",
+      "body": "selection0Body"
+    },
+    {
+      "label": "selection1Label",
+      "body": "selection1Body"
+    },
+    {
+      "label": "selection2Label",
+      "body": "selection2Body"
+    }
+  ],
+  "inquiry": {
+    "whatsapp": "https://wa.me/8617326528368?text=Hello%2C%20I%20am%20interested%20in%20Wheeled%20Dry%20Powder%20Fire%20Extinguishers.%0AProduct%20page%3A%20https%3A//chuanweifire.com/products/fire-extinguishers/wheeled-dry-powder-fire-extinguishers.html%0AQuantity%20/%20destination%20/%20requirements%3A",
+    "email": "mailto:zhengcolin1@gmail.com"
+  },
+  "validation": {
+    "anchors": [
+      "gallery",
+      "specifications",
+      "models",
+      "quotation"
+    ],
+    "requiredTechnicalValues": []
+  },
+  "copy": {
+    "en": {
+      "onThisPage": "On this page",
+      "gallery": "Product gallery",
+      "galleryTitle": "Product views",
+      "galleryBody": "Select an image to view the pictured product or configuration.",
+      "specifications": "Specifications",
+      "specificationsTitle": "Product specifications",
+      "specificationsBody": "Use the specifications together with the configuration table below.",
+      "availableModels": "Models & configurations",
+      "modelsTitle": "Models & configurations",
+      "modelsBody": "Match the product reference and selection details to your order.",
+      "modelsNote": "The photographs illustrate selected configurations. Specify the required model and quantity when requesting a quotation.",
+      "factoryModel": "Product reference",
+      "configuration": "Configuration",
+      "selectionDetails": "Selection details",
+      "temperature": "Temperature",
+      "thermalElement": "Thermal element",
+      "quotation": "Request a quotation",
+      "quotationTitle": "Select your configuration",
+      "quotationBody": "Include the product reference, quantity and delivery destination, together with the requirements below.",
+      "askOnWhatsApp": "Ask on WhatsApp",
+      "emailSales": "Email sales",
+      "productImagePreview": "Product image preview",
+      "closeImagePreview": "Close image preview",
+      "enlargedImage": "Enlarged product image",
+      "previousProductImage": "Previous product image",
+      "nextProductImage": "Next product image",
+      "selectProductImage": "Select product image",
+      "inquiryTitle": "Request product details and a quotation",
+      "inquiryBody": "Send your selected configuration, quantity and destination.",
+      "title": "Wheeled Dry Powder Fire Extinguishers",
+      "lead": "Wheeled dry powder extinguishers with carbon steel cylinders and manual discharge equipment. The documented range covers 20 kg, 35 kg and 50 kg agent charges.",
+      "eyebrow": "Fire Extinguishers",
+      "seoTitle": "Wheeled Dry Powder Fire Extinguishers | CHUANWEI FIRE",
+      "seoDescription": "Wheeled dry powder extinguishers with carbon steel cylinders and manual discharge equipment. The documented range covers 20 kg, 35 kg and 50 kg agent charges.",
+      "note": "Specify the agent charge or volume and the quantity required for each model.",
+      "image0Alt": "Wheeled dry powder extinguisher configuration.",
+      "image0Caption": "Wheeled dry powder extinguisher configuration.",
+      "spec0Label": "Extinguishing agent",
+      "spec0Value": "Dry powder",
+      "spec1Label": "Cylinder material",
+      "spec1Value": "Carbon steel",
+      "spec2Label": "Format",
+      "spec2Value": "Wheeled",
+      "spec3Label": "Operation",
+      "spec3Value": "Manual discharge",
+      "spec4Label": "Agent charge options",
+      "spec4Value": "20 / 35 / 50 kg",
+      "model0Name": "20 kg wheeled dry powder",
+      "model0Reference": "MFT/ABCE20",
+      "model0Selection": "Wheeled cylinder configuration with manual discharge equipment.",
+      "model1Name": "35 kg wheeled dry powder",
+      "model1Reference": "MFT/ABCE35",
+      "model1Selection": "Wheeled cylinder configuration with manual discharge equipment.",
+      "model2Name": "50 kg wheeled dry powder",
+      "model2Reference": "MFT/ABCE50",
+      "model2Selection": "Wheeled cylinder configuration with manual discharge equipment.",
+      "selection0Label": "Capacity and quantity",
+      "selection0Body": "Specify the agent charge or volume and the quantity required for each model.",
+      "selection1Label": "Project requirements",
+      "selection1Body": "Send the installation location, required fire rating and destination market so the exact model documents can be checked.",
+      "selection2Label": "Handling and discharge equipment",
+      "selection2Body": "Specify access constraints and the required hose arrangement so overall dimensions and equipment can be checked."
+    },
+    "ar": {
+      "onThisPage": "في هذه الصفحة",
+      "gallery": "صور المنتج",
+      "galleryTitle": "عرض المنتج",
+      "galleryBody": "اختر صورة لعرض المنتج أو التكوين الظاهر فيها.",
+      "specifications": "المواصفات",
+      "specificationsTitle": "مواصفات المنتج",
+      "specificationsBody": "استخدم المواصفات مع جدول التكوينات أدناه.",
+      "availableModels": "الموديلات والتكوينات",
+      "modelsTitle": "الموديلات والتكوينات",
+      "modelsBody": "طابق مرجع المنتج وتفاصيل الاختيار مع طلبك.",
+      "modelsNote": "تعرض الصور تكوينات مختارة. حدد الموديل والكمية المطلوبة عند طلب عرض السعر.",
+      "factoryModel": "مرجع المنتج",
+      "configuration": "التكوين",
+      "selectionDetails": "تفاصيل الاختيار",
+      "temperature": "درجة الحرارة",
+      "thermalElement": "العنصر الحراري",
+      "quotation": "طلب عرض سعر",
+      "quotationTitle": "اختر التكوين المطلوب",
+      "quotationBody": "أرسل مرجع المنتج والكمية ووجهة التسليم والمتطلبات أدناه.",
+      "askOnWhatsApp": "استفسر عبر WhatsApp",
+      "emailSales": "راسل قسم المبيعات",
+      "productImagePreview": "معاينة صورة المنتج",
+      "closeImagePreview": "إغلاق معاينة الصورة",
+      "enlargedImage": "صورة مكبرة للمنتج",
+      "previousProductImage": "صورة المنتج السابقة",
+      "nextProductImage": "صورة المنتج التالية",
+      "selectProductImage": "اختر صورة المنتج",
+      "inquiryTitle": "اطلب تفاصيل المنتج وعرض سعر",
+      "inquiryBody": "أرسل التكوين المختار والكمية والوجهة.",
+      "title": "طفايات حريق بعجلات بالمسحوق الجاف",
+      "lead": "طفايات بالمسحوق الجاف مزودة بعجلات وأسطوانات من الفولاذ الكربوني وتجهيزات تفريغ يدوية. تشمل المجموعة الموثقة سعات مادة إطفاء 20 kg و35 kg و50 kg.",
+      "eyebrow": "طفايات الحريق",
+      "seoTitle": "طفايات حريق بعجلات بالمسحوق الجاف | CHUANWEI FIRE",
+      "seoDescription": "طفايات بالمسحوق الجاف مزودة بعجلات وأسطوانات من الفولاذ الكربوني وتجهيزات تفريغ يدوية. تشمل المجموعة الموثقة سعات مادة إطفاء 20 kg و35 kg و50 kg.",
+      "note": "حدد كتلة مادة الإطفاء أو حجمها والكمية المطلوبة من كل طراز.",
+      "image0Alt": "تجهيز طفاية بالمسحوق الجاف مزودة بعجلات.",
+      "image0Caption": "تجهيز طفاية بالمسحوق الجاف مزودة بعجلات.",
+      "spec0Label": "مادة الإطفاء",
+      "spec0Value": "مسحوق جاف",
+      "spec1Label": "مادة الأسطوانة",
+      "spec1Value": "فولاذ كربوني",
+      "spec2Label": "التصميم",
+      "spec2Value": "مزود بعجلات",
+      "spec3Label": "التشغيل",
+      "spec3Value": "تفريغ يدوي",
+      "spec4Label": "خيارات كتلة مادة الإطفاء",
+      "spec4Value": "20 / 35 / 50 kg",
+      "model0Name": "طفاية بعجلات ومسحوق جاف بسعة 20 kg",
+      "model0Reference": "MFT/ABCE20",
+      "model0Selection": "تجهيز أسطوانة بعجلات ومعدات تفريغ يدوية.",
+      "model1Name": "طفاية بعجلات ومسحوق جاف بسعة 35 kg",
+      "model1Reference": "MFT/ABCE35",
+      "model1Selection": "تجهيز أسطوانة بعجلات ومعدات تفريغ يدوية.",
+      "model2Name": "طفاية بعجلات ومسحوق جاف بسعة 50 kg",
+      "model2Reference": "MFT/ABCE50",
+      "model2Selection": "تجهيز أسطوانة بعجلات ومعدات تفريغ يدوية.",
+      "selection0Label": "السعة والكمية",
+      "selection0Body": "حدد كتلة مادة الإطفاء أو حجمها والكمية المطلوبة من كل طراز.",
+      "selection1Label": "متطلبات المشروع",
+      "selection1Body": "أرسل موقع الاستخدام وتصنيف الإطفاء المطلوب وبلد الوجهة للتحقق من وثائق الطراز المحدد.",
+      "selection2Label": "المناولة وتجهيزات التفريغ",
+      "selection2Body": "حدد قيود الوصول وتجهيز الخرطوم المطلوب للتحقق من الأبعاد الكلية والمعدات."
+    }
+  }
+}

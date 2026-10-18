@@ -1,0 +1,563 @@
+{
+  "sourceImages": 44,
+  "sourceProductNames": 43,
+  "productSeries": 32,
+  "localizedProductPages": 64,
+  "newCategories": 7,
+  "products": [
+    {
+      "id": "portable-dry-powder-fire-extinguishers",
+      "name": "手提式干粉灭火器",
+      "sourceNames": [
+        "MF-ABCE系列-手提式干粉灭火器",
+        "MF-ABCE1-3-手提式干粉灭火器",
+        "MF-ABCE4-8-手提式干粉灭火器"
+      ],
+      "images": [
+        "assets/products/website-20261018/product-d1642dc7bcf9.webp",
+        "assets/products/website-20261018/product-493bda4912f5.webp",
+        "assets/products/website-20261018/product-add1c6ebb22d.webp"
+      ],
+      "modelRows": 7,
+      "unresolved": [
+        "精确型号灭火级别、充装压力、使用温度、喷射性能及目的地适用文件待核实。",
+        "整机净重、毛重、包装、交期及商务条件需按订单确认。"
+      ],
+      "en": "products/fire-extinguishers/portable-dry-powder-fire-extinguishers.html",
+      "ar": "ar/products/portable-dry-powder-fire-extinguishers/index.html"
+    },
+    {
+      "id": "portable-water-based-fire-extinguishers",
+      "name": "手提式水基灭火器",
+      "sourceNames": [
+        "MS-ABEF系列-手提式水基灭火器",
+        "MS-ABEF2-3-手提式水基灭火器",
+        "MS-ABEF6-9-手提式水基灭火器"
+      ],
+      "images": [
+        "assets/products/website-20261018/product-1b72519717a3.webp",
+        "assets/products/website-20261018/product-668ed276249b.webp",
+        "assets/products/website-20261018/product-030815c7460f.webp"
+      ],
+      "modelRows": 4,
+      "unresolved": [
+        "精确型号灭火级别、充装压力、使用温度、喷射性能及目的地适用文件待核实。",
+        "整机净重、毛重、包装、交期及商务条件需按订单确认。",
+        "2 L、3 L、9 L瓶体材质需单独确认。",
+        "水基药剂配方、SDS、含氟状况及电气火灾适用性未确认。"
+      ],
+      "en": "products/fire-extinguishers/portable-water-based-fire-extinguishers.html",
+      "ar": "ar/products/portable-water-based-fire-extinguishers/index.html"
+    },
+    {
+      "id": "portable-co2-fire-extinguishers",
+      "name": "手提式二氧化碳灭火器",
+      "sourceNames": [
+        "MT-BE系列-手提式二氧化碳灭火器",
+        "MT-BE2-3-手提式二氧化碳灭火器",
+        "MT-BE5-7-手提式二氧化碳灭火器"
+      ],
+      "images": [
+        "assets/products/website-20261018/product-eb952af32a40.webp",
+        "assets/products/website-20261018/product-409226e37ca7.webp",
+        "assets/products/website-20261018/product-5ee14bf534aa.webp"
+      ],
+      "modelRows": 4,
+      "unresolved": [
+        "精确型号灭火级别、充装压力、使用温度、喷射性能及目的地适用文件待核实。",
+        "整机净重、毛重、包装、交期及商务条件需按订单确认。",
+        "钢材牌号及热处理资料待核实。"
+      ],
+      "en": "products/fire-extinguishers/portable-co2-fire-extinguishers.html",
+      "ar": "ar/products/portable-co2-fire-extinguishers/index.html"
+    },
+    {
+      "id": "wheeled-dry-powder-fire-extinguishers",
+      "name": "推车式干粉灭火器",
+      "sourceNames": [
+        "MFT-ABCE系列-推车式干粉灭火器"
+      ],
+      "images": [
+        "assets/products/website-20261018/product-a62ae4f0d6a0.webp"
+      ],
+      "modelRows": 3,
+      "unresolved": [
+        "精确型号灭火级别、充装压力、使用温度、喷射性能及目的地适用文件待核实。",
+        "整机净重、毛重、包装、交期及商务条件需按订单确认。",
+        "软管长度、喷枪参数、尺寸和推车部件材质待核实。"
+      ],
+      "en": "products/fire-extinguishers/wheeled-dry-powder-fire-extinguishers.html",
+      "ar": "ar/products/wheeled-dry-powder-fire-extinguishers/index.html"
+    },
+    {
+      "id": "suspended-dry-powder-extinguishers",
+      "name": "悬挂式自动干粉灭火器",
+      "sourceNames": [
+        "悬挂式系列-自动干粉灭火器"
+      ],
+      "images": [
+        "assets/products/website-20261018/product-889c577fe357.webp"
+      ],
+      "modelRows": 4,
+      "unresolved": [
+        "精确工厂型号、供货品牌、罐体与释放组件材质待确认。",
+        "保护体积、保护面积、安装高度、充装压力、喷射性能与目的地适用文件待确认。",
+        "93°C仅为询价配置，未建立药剂与装量的一一对应，未列为SKU。"
+      ],
+      "en": "products/automatic-fire-suppression/suspended-dry-powder-extinguishers.html",
+      "ar": "ar/products/suspended-dry-powder-extinguishers/index.html"
+    },
+    {
+      "id": "suspended-ultrafine-dry-powder-extinguishers",
+      "name": "悬挂式超细干粉灭火器",
+      "sourceNames": [
+        "03B-悬挂式超细干粉灭火器"
+      ],
+      "images": [
+        "assets/products/website-20261018/product-f00c9fde955f.webp"
+      ],
+      "modelRows": 7,
+      "unresolved": [
+        "罐体材质、精确动作温度、充装压力、喷射性能及保护范围待同厂同型号文件确认。",
+        "3、4、5、6、10、12 kg仅有规格选项，缺逐款型号、品牌、外观对应。",
+        "图示浙安广消样品制造商资料与笼统福建产地字段不一致，未对外发布省份。"
+      ],
+      "en": "products/automatic-fire-suppression/suspended-ultrafine-dry-powder-extinguishers.html",
+      "ar": "ar/products/suspended-ultrafine-dry-powder-extinguishers/index.html"
+    },
+    {
+      "id": "fire-extinguisher-balls",
+      "name": "干粉灭火球",
+      "sourceNames": [
+        "AFO系列-0.5kg自动灭火球"
+      ],
+      "images": [
+        "assets/products/website-20261018/product-78df7d02e5e8.webp",
+        "assets/products/website-20261018/product-a5ced4bb7e61.webp"
+      ],
+      "modelRows": 2,
+      "unresolved": [
+        "确切工厂型号、外壳材质、药剂净重、动作条件、保护范围与目的地适用文件待确认。",
+        "0.5 kg仅为产品声明重量，不能转写成0.5 kg药剂净重。"
+      ],
+      "en": "products/automatic-fire-suppression/fire-extinguisher-balls.html",
+      "ar": "ar/products/fire-extinguisher-balls/index.html"
+    },
+    {
+      "id": "cabinet-aerosol-fire-suppression",
+      "name": "箱柜热气溶胶灭火装置",
+      "sourceNames": [
+        "XDX系列-箱柜热气溶胶灭火装置"
+      ],
+      "images": [
+        "assets/products/website-20261018/product-f1f59c837c7c.webp"
+      ],
+      "modelRows": 1,
+      "unresolved": [
+        "精确可供型号、壳体材质、药剂量、动作条件、保护容积、安装间距待核实。",
+        "XDX10G/20G/30G/40G仅为照片候选，缺同型号说明书与供货确认，不列具体SKU。",
+        "原图保护范围m²与m³冲突，未采用。",
+        "资料标题称导轨式，但可见结构为胶贴，DIN导轨兼容性不承诺。"
+      ],
+      "en": "products/automatic-fire-suppression/cabinet-aerosol-fire-suppression.html",
+      "ar": "ar/products/cabinet-aerosol-fire-suppression/index.html"
+    },
+    {
+      "id": "fire-alarm-control-panels",
+      "name": "火灾报警控制器",
+      "sourceNames": [
+        "JB-TBL-TX3008NL-火灾报警控制器"
+      ],
+      "images": [
+        "assets/products/website-20261018/product-12332ccb456b.webp"
+      ],
+      "modelRows": 1,
+      "unresolved": [
+        "1936点宣传与1600点SKU冲突，未确定单环及总容量。",
+        "实际出货回路数、电源、蓄电池、接口、语言、协议、设备兼容及尺寸需按项目核实。"
+      ],
+      "en": "products/fire-alarm-systems/fire-alarm-control-panels.html",
+      "ar": "ar/products/fire-alarm-control-panels/index.html"
+    },
+    {
+      "id": "combined-smoke-heat-detectors",
+      "name": "烟温复合探测器",
+      "sourceNames": [
+        "JTF-GOM-TX3120A-烟温复合探测器"
+      ],
+      "images": [
+        "assets/products/website-20261018/product-e25dbafbc274.webp"
+      ],
+      "modelRows": 1,
+      "unresolved": [
+        "精确探测算法、感温等级、环境范围、底座与控制器兼容需说明书确认。"
+      ],
+      "en": "products/fire-alarm-systems/combined-smoke-heat-detectors.html",
+      "ar": "ar/products/combined-smoke-heat-detectors/index.html"
+    },
+    {
+      "id": "heat-detectors",
+      "name": "点型感温探测器",
+      "sourceNames": [
+        "JTW-ZDM-TX3110N-点型感温探测器"
+      ],
+      "images": [
+        "assets/products/website-20261018/product-c66ef6e6553f.webp"
+      ],
+      "modelRows": 1,
+      "unresolved": [
+        "原网页静态/报警电流与工作温度缺单位，未采用。",
+        "动作温度、探测等级、AC/DC电源性质、环境范围、底座兼容与防护等级待核实。"
+      ],
+      "en": "products/fire-alarm-systems/heat-detectors.html",
+      "ar": "ar/products/heat-detectors/index.html"
+    },
+    {
+      "id": "photoelectric-smoke-detectors",
+      "name": "点型光电感烟探测器",
+      "sourceNames": [
+        "JTY-GM-TX3100N-点型光电感烟探测器",
+        "JTY-GM-TX3100D-点型光电感烟探测器"
+      ],
+      "images": [
+        "assets/products/website-20261018/product-968cfb2937e0.webp",
+        "assets/products/website-20261018/product-0c01913d04c3.webp"
+      ],
+      "modelRows": 2,
+      "unresolved": [
+        "两型号的协议兼容、地址设定、灵敏度、环境条件及底座包含范围待精确型号文件确认。"
+      ],
+      "en": "products/fire-alarm-systems/photoelectric-smoke-detectors.html",
+      "ar": "ar/products/photoelectric-smoke-detectors/index.html"
+    },
+    {
+      "id": "manual-fire-alarm-call-points",
+      "name": "手动火灾报警按钮",
+      "sourceNames": [
+        "TX3142-手动火灾报警按钮"
+      ],
+      "images": [
+        "assets/products/website-20261018/product-c6750165048d.webp"
+      ],
+      "modelRows": 1,
+      "unresolved": [
+        "电源电压、尺寸、复位方式、接线、电话接口与底座匹配待确认。"
+      ],
+      "en": "products/fire-alarm-systems/manual-fire-alarm-call-points.html",
+      "ar": "ar/products/manual-fire-alarm-call-points/index.html"
+    },
+    {
+      "id": "fire-alarm-input-output-modules",
+      "name": "火灾报警输入输出模块",
+      "sourceNames": [
+        "TX3212-输入输出模块"
+      ],
+      "images": [
+        "assets/products/website-20261018/product-dc92d71eabaf.webp"
+      ],
+      "modelRows": 1,
+      "unresolved": [
+        "供电、输入方式、输出触点容量、通道数、协议、接线与尺寸未核实。"
+      ],
+      "en": "products/fire-alarm-systems/fire-alarm-input-output-modules.html",
+      "ar": "ar/products/fire-alarm-input-output-modules/index.html"
+    },
+    {
+      "id": "fire-alarm-sounder-beacons",
+      "name": "火灾声光警报器",
+      "sourceNames": [
+        "TX3307-火灾声光警报器",
+        "TX3307A-火灾声光警报器"
+      ],
+      "images": [
+        "assets/products/website-20261018/product-da2cb10347ab.webp",
+        "assets/products/website-20261018/product-679c20a98e99.webp"
+      ],
+      "modelRows": 2,
+      "unresolved": [
+        "各型号供电、工作电流、声压及测距条件、光输出、防护等级、编码与接线资料待核实。"
+      ],
+      "en": "products/fire-alarm-systems/fire-alarm-sounder-beacons.html",
+      "ar": "ar/products/fire-alarm-sounder-beacons/index.html"
+    },
+    {
+      "id": "vertical-multistage-fire-pumps",
+      "name": "立式多级消防泵",
+      "sourceNames": [
+        "XBD4.0-1W-CDL-立式多级消防泵"
+      ],
+      "images": [
+        "assets/products/website-20261018/product-f30855ee4f4e.webp"
+      ],
+      "modelRows": 1,
+      "unresolved": [
+        "电源频率、出口尺寸、曲线、接液件及筒体材质需核实。"
+      ],
+      "en": "products/fire-pumps-controllers/vertical-multistage-fire-pumps.html",
+      "ar": "ar/products/vertical-multistage-fire-pumps/index.html"
+    },
+    {
+      "id": "vertical-single-stage-fire-pumps",
+      "name": "立式单级消防泵",
+      "sourceNames": [
+        "XBD立式系列-立式单级消防泵"
+      ],
+      "images": [
+        "assets/products/website-20261018/product-449ae215bef9.webp"
+      ],
+      "modelRows": 1,
+      "unresolved": [
+        "缺立式泵准确型号、性能曲线、电机铭牌和尺寸图。"
+      ],
+      "en": "products/fire-pumps-controllers/vertical-single-stage-fire-pumps.html",
+      "ar": "ar/products/vertical-single-stage-fire-pumps/index.html"
+    },
+    {
+      "id": "fire-pressure-maintenance-sets",
+      "name": "消防增压稳压设备",
+      "sourceNames": [
+        "SQL系列-消防增压稳压设备"
+      ],
+      "images": [
+        "assets/products/website-20261018/product-55b4b564327d.webp"
+      ],
+      "modelRows": 1,
+      "unresolved": [
+        "完整SQL型号、罐容、材质、压力、流量、功率与接口资料缺失。"
+      ],
+      "en": "products/fire-pumps-controllers/fire-pressure-maintenance-sets.html",
+      "ar": "ar/products/fire-pressure-maintenance-sets/index.html"
+    },
+    {
+      "id": "automatic-transfer-control-cabinets",
+      "name": "双电源控制柜",
+      "sourceNames": [
+        "JX-ATS-63A-双电源控制柜"
+      ],
+      "images": [
+        "assets/products/website-20261018/product-1dd050347ce2.webp"
+      ],
+      "modelRows": 1,
+      "unresolved": [
+        "额定电流、转换逻辑、频率、尺寸和防护等级按准确供货柜核实。"
+      ],
+      "en": "products/fire-pumps-controllers/automatic-transfer-control-cabinets.html",
+      "ar": "ar/products/automatic-transfer-control-cabinets/index.html"
+    },
+    {
+      "id": "fire-pump-inspection-control-cabinets",
+      "name": "消防泵巡检控制柜",
+      "sourceNames": [
+        "JX-XFXJ与JX-ATS系列-消防泵控制柜",
+        "未标型号-消防泵巡检控制柜"
+      ],
+      "images": [
+        "assets/products/website-20261018/product-eda264d6edb5.webp",
+        "assets/products/website-20261018/product-f4d4f6e9c68d.webp"
+      ],
+      "modelRows": 3,
+      "unresolved": [
+        "各柜电机负载适配、频率、内部器件、防护等级待确认；未标型号柜尺寸缺失。"
+      ],
+      "en": "products/fire-pumps-controllers/fire-pump-inspection-control-cabinets.html",
+      "ar": "ar/products/fire-pump-inspection-control-cabinets/index.html"
+    },
+    {
+      "id": "flanged-y-strainers",
+      "name": "法兰Y型过滤器",
+      "sourceNames": [
+        "GL41H-16Q-法兰Y型过滤器"
+      ],
+      "images": [
+        "assets/products/website-20261018/product-a5b535d720fe.webp"
+      ],
+      "modelRows": 5,
+      "unresolved": [
+        "滤网材质和孔径、法兰钻孔及运行温度待确认。"
+      ],
+      "en": "products/pipeline-valves-strainers/flanged-y-strainers.html",
+      "ar": "ar/products/flanged-y-strainers/index.html"
+    },
+    {
+      "id": "swing-check-valves",
+      "name": "旋启式止回阀",
+      "sourceNames": [
+        "H44T-旋启式止回阀"
+      ],
+      "images": [
+        "assets/products/website-20261018/product-674a5f5aa37f.webp"
+      ],
+      "modelRows": 6,
+      "unresolved": [
+        "安装方向、内部材质、密封材料、温度与法兰钻孔需核实。"
+      ],
+      "en": "products/pipeline-valves-strainers/swing-check-valves.html",
+      "ar": "ar/products/swing-check-valves/index.html"
+    },
+    {
+      "id": "flanged-globe-valves",
+      "name": "法兰截止阀",
+      "sourceNames": [
+        "J41T-法兰截止阀"
+      ],
+      "images": [
+        "assets/products/website-20261018/product-def53f1a9a8a.webp"
+      ],
+      "modelRows": 5,
+      "unresolved": [
+        "阀内件、密封材料、允许温度、法兰钻孔和安装尺寸待核实。"
+      ],
+      "en": "products/pipeline-valves-strainers/flanged-globe-valves.html",
+      "ar": "ar/products/flanged-globe-valves/index.html"
+    },
+    {
+      "id": "two-piece-stainless-steel-ball-valves",
+      "name": "两片式不锈钢球阀",
+      "sourceNames": [
+        "PT系列-304不锈钢两片式球阀"
+      ],
+      "images": [
+        "assets/products/website-20261018/product-4a77e55d98af.webp"
+      ],
+      "modelRows": 2,
+      "unresolved": [
+        "精确螺纹标准、压力温度曲线、阀座和密封材质待确认。"
+      ],
+      "en": "products/pipeline-valves-strainers/two-piece-stainless-steel-ball-valves.html",
+      "ar": "ar/products/two-piece-stainless-steel-ball-valves/index.html"
+    },
+    {
+      "id": "grooved-pipe-elbows",
+      "name": "沟槽弯头",
+      "sourceNames": [
+        "90度系列-沟槽90度弯头",
+        "多角度弯头系列-沟槽11.25度22.5度45度弯头"
+      ],
+      "images": [
+        "assets/products/website-20261018/product-015b5d2c7458.webp",
+        "assets/products/website-20261018/product-e69ee16c6f88.webp"
+      ],
+      "modelRows": 32,
+      "unresolved": [
+        "各尺寸沟槽、压力、壁厚、重量及11.25°/22.5°准确照片待核实。"
+      ],
+      "en": "products/grooved-pipe-fittings/grooved-pipe-elbows.html",
+      "ar": "ar/products/grooved-pipe-elbows/index.html"
+    },
+    {
+      "id": "grooved-reducing-tees",
+      "name": "沟槽异径三通",
+      "sourceNames": [
+        "异径三通系列-沟槽异径三通"
+      ],
+      "images": [
+        "assets/products/website-20261018/product-65ae6977caec.webp"
+      ],
+      "modelRows": 19,
+      "unresolved": [
+        "沟槽尺寸、压力、壁厚与重量待核实。"
+      ],
+      "en": "products/grooved-pipe-fittings/grooved-reducing-tees.html",
+      "ar": "ar/products/grooved-reducing-tees/index.html"
+    },
+    {
+      "id": "grooved-equal-crosses",
+      "name": "沟槽等径正四通",
+      "sourceNames": [
+        "正四通系列-沟槽等径正四通"
+      ],
+      "images": [
+        "assets/products/website-20261018/product-98ed66ac4d13.webp"
+      ],
+      "modelRows": 9,
+      "unresolved": [
+        "压力、壁厚、重量、沟槽尺寸待核实。"
+      ],
+      "en": "products/grooved-pipe-fittings/grooved-equal-crosses.html",
+      "ar": "ar/products/grooved-equal-crosses/index.html"
+    },
+    {
+      "id": "rigid-grooved-pipe-couplings",
+      "name": "刚性沟槽卡箍",
+      "sourceNames": [
+        "XGQT系列-金顺刚性沟槽卡箍",
+        "刚性卡箍系列-螺栓式刚性沟槽卡箍"
+      ],
+      "images": [
+        "assets/products/website-20261018/product-6cf3369acefb.webp",
+        "assets/products/website-20261018/product-88573be06cf9.webp"
+      ],
+      "modelRows": 11,
+      "unresolved": [
+        "XGQT密封圈材质、两款沟槽图纸/压力/扭矩待确认；另一家卡箍准确型号和尺寸表缺失。",
+        "另一家卡箍的EPDM来自同组密封圈宣传，实际出货批次密封圈材质需核对。"
+      ],
+      "en": "products/grooved-pipe-fittings/rigid-grooved-pipe-couplings.html",
+      "ar": "ar/products/rigid-grooved-pipe-couplings/index.html"
+    },
+    {
+      "id": "pressure-vacuum-gauges",
+      "name": "普通压力及真空复合表",
+      "sourceNames": [
+        "Y100-普通压力及真空复合表"
+      ],
+      "images": [
+        "assets/products/website-20261018/product-96f4cd20b07a.webp"
+      ],
+      "modelRows": 23,
+      "unresolved": [
+        "外壳及接液材质、环境温度和介质兼容性待核实。"
+      ],
+      "en": "products/pressure-gauges-accessories/pressure-vacuum-gauges.html",
+      "ar": "ar/products/pressure-vacuum-gauges/index.html"
+    },
+    {
+      "id": "liquid-filled-pressure-gauges",
+      "name": "充液压力表",
+      "sourceNames": [
+        "YN100BF-充液压力表"
+      ],
+      "images": [
+        "assets/products/website-20261018/product-05d8e439da82.webp"
+      ],
+      "modelRows": 24,
+      "unresolved": [
+        "充液种类、接液件材料、温度限制与专用介质适用性待核实。"
+      ],
+      "en": "products/pressure-gauges-accessories/liquid-filled-pressure-gauges.html",
+      "ar": "ar/products/liquid-filled-pressure-gauges/index.html"
+    },
+    {
+      "id": "pressure-gauge-syphons",
+      "name": "不锈钢压力表缓冲弯管",
+      "sourceNames": [
+        "Y100配套系列-不锈钢压力表缓冲弯管"
+      ],
+      "images": [
+        "assets/products/website-20261018/product-07098132e9e5.webp"
+      ],
+      "modelRows": 3,
+      "unresolved": [
+        "尺寸、壁厚、额定压力、温度及各材质/接口/外形组合待确认。"
+      ],
+      "en": "products/pressure-gauges-accessories/pressure-gauge-syphons.html",
+      "ar": "ar/products/pressure-gauge-syphons/index.html"
+    },
+    {
+      "id": "pistol-grip-combination-fire-nozzles",
+      "name": "手持直流喷雾消防水枪",
+      "sourceNames": [
+        "多功能水枪系列-手持直流喷雾消防水枪"
+      ],
+      "images": [
+        "assets/products/website-20261018/product-49b0fe587649.webp"
+      ],
+      "modelRows": 1,
+      "unresolved": [
+        "准确型号、材质、接口标准、流量/压力/射程及重量需逐配置核实。"
+      ],
+      "en": "products/hoses-nozzles-couplings/pistol-grip-combination-fire-nozzles.html",
+      "ar": "ar/products/pistol-grip-combination-fire-nozzles/index.html"
+    }
+  ]
+}

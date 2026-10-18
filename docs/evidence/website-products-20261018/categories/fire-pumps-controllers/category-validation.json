@@ -1,0 +1,187 @@
+{
+  "scope": "single-category",
+  "category": "fire-pumps-controllers",
+  "previewMode": "http",
+  "generatedAt": "2026-10-18T02:58:43.515Z",
+  "browser": "Edg/155.0.4283.45",
+  "viewports": [
+    {
+      "id": "desktop",
+      "width": 1440,
+      "height": 900,
+      "deviceScaleFactor": 1,
+      "mobile": false
+    },
+    {
+      "id": "mobile",
+      "width": 390,
+      "height": 844,
+      "deviceScaleFactor": 1,
+      "mobile": true
+    }
+  ],
+  "languageSwitches": [
+    {
+      "scenario": "desktop/en: home and directory entries, category reciprocal switch and refresh",
+      "status": "PASS"
+    },
+    {
+      "scenario": "desktop/en: product:vertical-multistage-fire-pumps image/text entries, back, reciprocal switch, refresh and three footer returns",
+      "status": "PASS",
+      "viewport": "desktop",
+      "locale": "en",
+      "routeId": "product:vertical-multistage-fire-pumps"
+    },
+    {
+      "scenario": "desktop/en: product:vertical-single-stage-fire-pumps image/text entries, back, reciprocal switch, refresh and three footer returns",
+      "status": "PASS",
+      "viewport": "desktop",
+      "locale": "en",
+      "routeId": "product:vertical-single-stage-fire-pumps"
+    },
+    {
+      "scenario": "desktop/en: product:fire-pressure-maintenance-sets image/text entries, back, reciprocal switch, refresh and three footer returns",
+      "status": "PASS",
+      "viewport": "desktop",
+      "locale": "en",
+      "routeId": "product:fire-pressure-maintenance-sets"
+    },
+    {
+      "scenario": "desktop/en: product:automatic-transfer-control-cabinets image/text entries, back, reciprocal switch, refresh and three footer returns",
+      "status": "PASS",
+      "viewport": "desktop",
+      "locale": "en",
+      "routeId": "product:automatic-transfer-control-cabinets"
+    },
+    {
+      "scenario": "desktop/en: product:fire-pump-inspection-control-cabinets image/text entries, back, reciprocal switch, refresh and three footer returns",
+      "status": "PASS",
+      "viewport": "desktop",
+      "locale": "en",
+      "routeId": "product:fire-pump-inspection-control-cabinets"
+    },
+    {
+      "scenario": "desktop/ar: home and directory entries, category reciprocal switch and refresh",
+      "status": "PASS"
+    },
+    {
+      "scenario": "desktop/ar: product:vertical-multistage-fire-pumps image/text entries, back, reciprocal switch, refresh and three footer returns",
+      "status": "PASS",
+      "viewport": "desktop",
+      "locale": "ar",
+      "routeId": "product:vertical-multistage-fire-pumps"
+    },
+    {
+      "scenario": "desktop/ar: product:vertical-single-stage-fire-pumps image/text entries, back, reciprocal switch, refresh and three footer returns",
+      "status": "PASS",
+      "viewport": "desktop",
+      "locale": "ar",
+      "routeId": "product:vertical-single-stage-fire-pumps"
+    },
+    {
+      "scenario": "desktop/ar: product:fire-pressure-maintenance-sets image/text entries, back, reciprocal switch, refresh and three footer returns",
+      "status": "PASS",
+      "viewport": "desktop",
+      "locale": "ar",
+      "routeId": "product:fire-pressure-maintenance-sets"
+    },
+    {
+      "scenario": "desktop/ar: product:automatic-transfer-control-cabinets image/text entries, back, reciprocal switch, refresh and three footer returns",
+      "status": "PASS",
+      "viewport": "desktop",
+      "locale": "ar",
+      "routeId": "product:automatic-transfer-control-cabinets"
+    },
+    {
+      "scenario": "desktop/ar: product:fire-pump-inspection-control-cabinets image/text entries, back, reciprocal switch, refresh and three footer returns",
+      "status": "PASS",
+      "viewport": "desktop",
+      "locale": "ar",
+      "routeId": "product:fire-pump-inspection-control-cabinets"
+    },
+    {
+      "scenario": "mobile/en: home and directory entries, category reciprocal switch and refresh",
+      "status": "PASS"
+    },
+    {
+      "scenario": "mobile/en: product:vertical-multistage-fire-pumps image/text entries, back, reciprocal switch, refresh and three footer returns",
+      "status": "PASS",
+      "viewport": "mobile",
+      "locale": "en",
+      "routeId": "product:vertical-multistage-fire-pumps"
+    },
+    {
+      "scenario": "mobile/en: product:vertical-single-stage-fire-pumps image/text entries, back, reciprocal switch, refresh and three footer returns",
+      "status": "PASS",
+      "viewport": "mobile",
+      "locale": "en",
+      "routeId": "product:vertical-single-stage-fire-pumps"
+    },
+    {
+      "scenario": "mobile/en: product:fire-pressure-maintenance-sets image/text entries, back, reciprocal switch, refresh and three footer returns",
+      "status": "PASS",
+      "viewport": "mobile",
+      "locale": "en",
+      "routeId": "product:fire-pressure-maintenance-sets"
+    },
+    {
+      "scenario": "mobile/en: product:automatic-transfer-control-cabinets image/text entries, back, reciprocal switch, refresh and three footer returns",
+      "status": "PASS",
+      "viewport": "mobile",
+      "locale": "en",
+      "routeId": "product:automatic-transfer-control-cabinets"
+    },
+    {
+      "scenario": "mobile/en: product:fire-pump-inspection-control-cabinets image/text entries, back, reciprocal switch, refresh and three footer returns",
+      "status": "PASS",
+      "viewport": "mobile",
+      "locale": "en",
+      "routeId": "product:fire-pump-inspection-control-cabinets"
+    },
+    {
+      "scenario": "mobile/ar: home and directory entries, category reciprocal switch and refresh",
+      "status": "PASS"
+    },
+    {
+      "scenario": "mobile/ar: product:vertical-multistage-fire-pumps image/text entries, back, reciprocal switch, refresh and three footer returns",
+      "status": "PASS",
+      "viewport": "mobile",
+      "locale": "ar",
+      "routeId": "product:vertical-multistage-fire-pumps"
+    },
+    {
+      "scenario": "mobile/ar: product:vertical-single-stage-fire-pumps image/text entries, back, reciprocal switch, refresh and three footer returns",
+      "status": "PASS",
+      "viewport": "mobile",
+      "locale": "ar",
+      "routeId": "product:vertical-single-stage-fire-pumps"
+    },
+    {
+      "scenario": "mobile/ar: product:fire-pressure-maintenance-sets image/text entries, back, reciprocal switch, refresh and three footer returns",
+      "status": "PASS",
+      "viewport": "mobile",
+      "locale": "ar",
+      "routeId": "product:fire-pressure-maintenance-sets"
+    },
+    {
+      "scenario": "mobile/ar: product:automatic-transfer-control-cabinets image/text entries, back, reciprocal switch, refresh and three footer returns",
+      "status": "PASS",
+      "viewport": "mobile",
+      "locale": "ar",
+      "routeId": "product:automatic-transfer-control-cabinets"
+    },
+    {
+      "scenario": "mobile/ar: product:fire-pump-inspection-control-cabinets image/text entries, back, reciprocal switch, refresh and three footer returns",
+      "status": "PASS",
+      "viewport": "mobile",
+      "locale": "ar",
+      "routeId": "product:fire-pump-inspection-control-cabinets"
+    }
+  ],
+  "screenshots": [
+    "edge-desktop-fire-pumps-controllers-en.png",
+    "edge-desktop-fire-pumps-controllers-ar.png",
+    "edge-mobile-fire-pumps-controllers-en.png",
+    "edge-mobile-fire-pumps-controllers-ar.png"
+  ]
+}

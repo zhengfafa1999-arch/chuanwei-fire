@@ -1,0 +1,159 @@
+{
+  "scope": "single-category",
+  "category": "automatic-fire-suppression",
+  "previewMode": "http",
+  "generatedAt": "2026-10-18T02:56:18.241Z",
+  "browser": "Edg/155.0.4283.45",
+  "viewports": [
+    {
+      "id": "desktop",
+      "width": 1440,
+      "height": 900,
+      "deviceScaleFactor": 1,
+      "mobile": false
+    },
+    {
+      "id": "mobile",
+      "width": 390,
+      "height": 844,
+      "deviceScaleFactor": 1,
+      "mobile": true
+    }
+  ],
+  "languageSwitches": [
+    {
+      "scenario": "desktop/en: home and directory entries, category reciprocal switch and refresh",
+      "status": "PASS"
+    },
+    {
+      "scenario": "desktop/en: product:suspended-dry-powder-extinguishers image/text entries, back, reciprocal switch, refresh and three footer returns",
+      "status": "PASS",
+      "viewport": "desktop",
+      "locale": "en",
+      "routeId": "product:suspended-dry-powder-extinguishers"
+    },
+    {
+      "scenario": "desktop/en: product:suspended-ultrafine-dry-powder-extinguishers image/text entries, back, reciprocal switch, refresh and three footer returns",
+      "status": "PASS",
+      "viewport": "desktop",
+      "locale": "en",
+      "routeId": "product:suspended-ultrafine-dry-powder-extinguishers"
+    },
+    {
+      "scenario": "desktop/en: product:fire-extinguisher-balls image/text entries, back, reciprocal switch, refresh and three footer returns",
+      "status": "PASS",
+      "viewport": "desktop",
+      "locale": "en",
+      "routeId": "product:fire-extinguisher-balls"
+    },
+    {
+      "scenario": "desktop/en: product:cabinet-aerosol-fire-suppression image/text entries, back, reciprocal switch, refresh and three footer returns",
+      "status": "PASS",
+      "viewport": "desktop",
+      "locale": "en",
+      "routeId": "product:cabinet-aerosol-fire-suppression"
+    },
+    {
+      "scenario": "desktop/ar: home and directory entries, category reciprocal switch and refresh",
+      "status": "PASS"
+    },
+    {
+      "scenario": "desktop/ar: product:suspended-dry-powder-extinguishers image/text entries, back, reciprocal switch, refresh and three footer returns",
+      "status": "PASS",
+      "viewport": "desktop",
+      "locale": "ar",
+      "routeId": "product:suspended-dry-powder-extinguishers"
+    },
+    {
+      "scenario": "desktop/ar: product:suspended-ultrafine-dry-powder-extinguishers image/text entries, back, reciprocal switch, refresh and three footer returns",
+      "status": "PASS",
+      "viewport": "desktop",
+      "locale": "ar",
+      "routeId": "product:suspended-ultrafine-dry-powder-extinguishers"
+    },
+    {
+      "scenario": "desktop/ar: product:fire-extinguisher-balls image/text entries, back, reciprocal switch, refresh and three footer returns",
+      "status": "PASS",
+      "viewport": "desktop",
+      "locale": "ar",
+      "routeId": "product:fire-extinguisher-balls"
+    },
+    {
+      "scenario": "desktop/ar: product:cabinet-aerosol-fire-suppression image/text entries, back, reciprocal switch, refresh and three footer returns",
+      "status": "PASS",
+      "viewport": "desktop",
+      "locale": "ar",
+      "routeId": "product:cabinet-aerosol-fire-suppression"
+    },
+    {
+      "scenario": "mobile/en: home and directory entries, category reciprocal switch and refresh",
+      "status": "PASS"
+    },
+    {
+      "scenario": "mobile/en: product:suspended-dry-powder-extinguishers image/text entries, back, reciprocal switch, refresh and three footer returns",
+      "status": "PASS",
+      "viewport": "mobile",
+      "locale": "en",
+      "routeId": "product:suspended-dry-powder-extinguishers"
+    },
+    {
+      "scenario": "mobile/en: product:suspended-ultrafine-dry-powder-extinguishers image/text entries, back, reciprocal switch, refresh and three footer returns",
+      "status": "PASS",
+      "viewport": "mobile",
+      "locale": "en",
+      "routeId": "product:suspended-ultrafine-dry-powder-extinguishers"
+    },
+    {
+      "scenario": "mobile/en: product:fire-extinguisher-balls image/text entries, back, reciprocal switch, refresh and three footer returns",
+      "status": "PASS",
+      "viewport": "mobile",
+      "locale": "en",
+      "routeId": "product:fire-extinguisher-balls"
+    },
+    {
+      "scenario": "mobile/en: product:cabinet-aerosol-fire-suppression image/text entries, back, reciprocal switch, refresh and three footer returns",
+      "status": "PASS",
+      "viewport": "mobile",
+      "locale": "en",
+      "routeId": "product:cabinet-aerosol-fire-suppression"
+    },
+    {
+      "scenario": "mobile/ar: home and directory entries, category reciprocal switch and refresh",
+      "status": "PASS"
+    },
+    {
+      "scenario": "mobile/ar: product:suspended-dry-powder-extinguishers image/text entries, back, reciprocal switch, refresh and three footer returns",
+      "status": "PASS",
+      "viewport": "mobile",
+      "locale": "ar",
+      "routeId": "product:suspended-dry-powder-extinguishers"
+    },
+    {
+      "scenario": "mobile/ar: product:suspended-ultrafine-dry-powder-extinguishers image/text entries, back, reciprocal switch, refresh and three footer returns",
+      "status": "PASS",
+      "viewport": "mobile",
+      "locale": "ar",
+      "routeId": "product:suspended-ultrafine-dry-powder-extinguishers"
+    },
+    {
+      "scenario": "mobile/ar: product:fire-extinguisher-balls image/text entries, back, reciprocal switch, refresh and three footer returns",
+      "status": "PASS",
+      "viewport": "mobile",
+      "locale": "ar",
+      "routeId": "product:fire-extinguisher-balls"
+    },
+    {
+      "scenario": "mobile/ar: product:cabinet-aerosol-fire-suppression image/text entries, back, reciprocal switch, refresh and three footer returns",
+      "status": "PASS",
+      "viewport": "mobile",
+      "locale": "ar",
+      "routeId": "product:cabinet-aerosol-fire-suppression"
+    }
+  ],
+  "screenshots": [
+    "edge-desktop-automatic-fire-suppression-en.png",
+    "edge-desktop-automatic-fire-suppression-ar.png",
+    "edge-mobile-automatic-fire-suppression-en.png",
+    "edge-mobile-automatic-fire-suppression-ar.png"
+  ]
+}

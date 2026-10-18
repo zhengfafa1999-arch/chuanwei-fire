@@ -5280,12 +5280,1728 @@
         "verification": "visual-review-20261010",
         "note": "User supplied the image with diagonal and footer watermarks already present. Retained both marks; added no new text."
       }
+    },
+    {
+      "path": "assets/products/website-20261018/product-015b5d2c7458.webp",
+      "masterPath": ".watermark-backups/site-assets-original/website-20261018/product-015b5d2c7458.webp",
+      "originalSha256": "8e47d147f2b6aa3720bd1e38688639f49cbc2e0fd5902ef8fc802c61e491019c",
+      "watermarkedSha256": "ee508f7a7ba5d1987e7d3a84b6f9ebaeaa01aa6a7b020d8199d753e58fed03af",
+      "originalBytes": 76572,
+      "bytes": 72032,
+      "width": 1254,
+      "height": 1254,
+      "format": "WEBP",
+      "centerTone": "light",
+      "cornerTone": "dark",
+      "placements": [
+        {
+          "layer": "corner",
+          "box": [
+            636,
+            1202,
+            1231,
+            1231
+          ],
+          "fontSize": 34,
+          "alpha": 176
+        },
+        {
+          "layer": "diagonal",
+          "box": [
+            509,
+            841,
+            1231,
+            1231
+          ],
+          "fontSize": 94,
+          "alpha": 64
+        }
+      ],
+      "protectedProductPixelsOverlaid": 0,
+      "quality": 85
+    },
+    {
+      "path": "assets/products/website-20261018/product-030815c7460f.webp",
+      "masterPath": ".watermark-backups/site-assets-original/website-20261018/product-030815c7460f.webp",
+      "originalSha256": "30e5edbc29f382183ac918ef434428dc359b08b63552b3a691a67fa95f7108c5",
+      "watermarkedSha256": "5675f03965c3fce1dfa16b3efa1a6af02011cf4e297e48f061dd45963595488a",
+      "originalBytes": 45642,
+      "bytes": 46824,
+      "width": 1000,
+      "height": 1000,
+      "format": "WEBP",
+      "centerTone": "dark",
+      "cornerTone": "dark",
+      "placements": [
+        {
+          "layer": "corner",
+          "box": [
+            18,
+            958,
+            501,
+            982
+          ],
+          "fontSize": 27,
+          "alpha": 176
+        },
+        {
+          "layer": "diagonal",
+          "box": [
+            18,
+            18,
+            596,
+            330
+          ],
+          "fontSize": 75,
+          "alpha": 64
+        }
+      ],
+      "protectedProductPixelsOverlaid": 0,
+      "quality": 85
+    },
+    {
+      "path": "assets/products/website-20261018/product-05d8e439da82.webp",
+      "masterPath": ".watermark-backups/site-assets-original/website-20261018/product-05d8e439da82.webp",
+      "originalSha256": "993c96b148521f489055977c408e5e8337dcf0d0eee5bca1e522153b277745a7",
+      "watermarkedSha256": "afc337d49a5b39780ab8b57fda214d9659615147c95e26d565ed3f3c6bcbf37e",
+      "originalBytes": 53110,
+      "bytes": 54752,
+      "width": 1000,
+      "height": 1000,
+      "format": "WEBP",
+      "centerTone": "dark",
+      "cornerTone": "dark",
+      "placements": [
+        {
+          "layer": "corner",
+          "box": [
+            499,
+            958,
+            982,
+            982
+          ],
+          "fontSize": 27,
+          "alpha": 176
+        },
+        {
+          "layer": "diagonal",
+          "box": [
+            510,
+            718,
+            966,
+            966
+          ],
+          "fontSize": 59,
+          "alpha": 64
+        }
+      ],
+      "protectedProductPixelsOverlaid": 0,
+      "quality": 85
+    },
+    {
+      "path": "assets/products/website-20261018/product-07098132e9e5.webp",
+      "masterPath": ".watermark-backups/site-assets-original/website-20261018/product-07098132e9e5.webp",
+      "originalSha256": "8c4df64f2dd25fe04f9c7845126a911402233acc6994c759984aecf951a82348",
+      "watermarkedSha256": "086b144f6ba2702a7f1b7554521d420313b8204fac9b0dbfffc3545207a4f31f",
+      "originalBytes": 23156,
+      "bytes": 26834,
+      "width": 1000,
+      "height": 1000,
+      "format": "WEBP",
+      "centerTone": "dark",
+      "cornerTone": "dark",
+      "placements": [
+        {
+          "layer": "corner",
+          "box": [
+            499,
+            958,
+            982,
+            982
+          ],
+          "fontSize": 27,
+          "alpha": 176
+        },
+        {
+          "layer": "diagonal",
+          "box": [
+            305,
+            18,
+            761,
+            266
+          ],
+          "fontSize": 59,
+          "alpha": 64
+        }
+      ],
+      "protectedProductPixelsOverlaid": 0,
+      "quality": 85
+    },
+    {
+      "path": "assets/products/website-20261018/product-0c01913d04c3.webp",
+      "masterPath": ".watermark-backups/site-assets-original/website-20261018/product-0c01913d04c3.webp",
+      "originalSha256": "b6901abf68fb17cc2684d542c24a347139a275d1d0832aed61aeef75e509ba4c",
+      "watermarkedSha256": "56b845d57e30605fcab893340cb2ac65d121d135a91f545d81e07bc719ece428",
+      "originalBytes": 21342,
+      "bytes": 27524,
+      "width": 1254,
+      "height": 1254,
+      "format": "WEBP",
+      "centerTone": "dark",
+      "cornerTone": "dark",
+      "placements": [
+        {
+          "layer": "corner",
+          "box": [
+            636,
+            1202,
+            1231,
+            1231
+          ],
+          "fontSize": 34,
+          "alpha": 176
+        },
+        {
+          "layer": "diagonal",
+          "box": [
+            23,
+            23,
+            653,
+            364
+          ],
+          "fontSize": 82,
+          "alpha": 64
+        }
+      ],
+      "protectedProductPixelsOverlaid": 0,
+      "quality": 85
+    },
+    {
+      "path": "assets/products/website-20261018/product-12332ccb456b.webp",
+      "masterPath": ".watermark-backups/site-assets-original/website-20261018/product-12332ccb456b.webp",
+      "originalSha256": "05b73d3fb2e7831b37b47fbc39ce87620ee619b68958dca1e2ec46283bba6757",
+      "watermarkedSha256": "8df7503abb54db031d3e5b7478cd02b5846eb54a631e5c3dbc872a477a11ccc4",
+      "originalBytes": 189990,
+      "bytes": 172554,
+      "width": 1200,
+      "height": 1200,
+      "format": "WEBP",
+      "centerTone": "light",
+      "cornerTone": "light",
+      "placements": [
+        {
+          "layer": "corner",
+          "box": [
+            615,
+            1151,
+            1178,
+            1178
+          ],
+          "fontSize": 32,
+          "alpha": 176
+        },
+        {
+          "layer": "diagonal",
+          "box": [
+            22,
+            22,
+            179,
+            109
+          ],
+          "fontSize": 20,
+          "alpha": 64
+        }
+      ],
+      "protectedProductPixelsOverlaid": 0,
+      "quality": 85
+    },
+    {
+      "path": "assets/products/website-20261018/product-1b72519717a3.webp",
+      "masterPath": ".watermark-backups/site-assets-original/website-20261018/product-1b72519717a3.webp",
+      "originalSha256": "b1de5a3a0c160d65bc67d76d46785c5c6502cad2107bdd7a574581ba27ddb088",
+      "watermarkedSha256": "be335cb51553ffcbb0e2eac3d4034b362ac4713f514f223e8d7a3f5ed1f3f09f",
+      "originalBytes": 42178,
+      "bytes": 44188,
+      "width": 1000,
+      "height": 1000,
+      "format": "WEBP",
+      "centerTone": "dark",
+      "cornerTone": "dark",
+      "placements": [
+        {
+          "layer": "corner",
+          "box": [
+            499,
+            958,
+            982,
+            982
+          ],
+          "fontSize": 27,
+          "alpha": 176
+        },
+        {
+          "layer": "diagonal",
+          "box": [
+            18,
+            18,
+            596,
+            330
+          ],
+          "fontSize": 75,
+          "alpha": 64
+        }
+      ],
+      "protectedProductPixelsOverlaid": 0,
+      "quality": 85
+    },
+    {
+      "path": "assets/products/website-20261018/product-1dd050347ce2.webp",
+      "masterPath": ".watermark-backups/site-assets-original/website-20261018/product-1dd050347ce2.webp",
+      "originalSha256": "f0911c055f6e145d8d4636ec873df6f19f059ffc69fc83e30d266a4b5488beb9",
+      "watermarkedSha256": "2852b1e2baef1bebbf68d3a1ef87cc8a7c57d08f678be1d1917477996a5ae812",
+      "originalBytes": 24504,
+      "bytes": 27996,
+      "width": 1200,
+      "height": 1200,
+      "format": "WEBP",
+      "centerTone": "dark",
+      "cornerTone": "dark",
+      "placements": [
+        {
+          "layer": "corner",
+          "box": [
+            615,
+            1151,
+            1178,
+            1178
+          ],
+          "fontSize": 32,
+          "alpha": 176
+        },
+        {
+          "layer": "diagonal",
+          "box": [
+            22,
+            22,
+            545,
+            305
+          ],
+          "fontSize": 68,
+          "alpha": 64
+        }
+      ],
+      "protectedProductPixelsOverlaid": 0,
+      "quality": 85
+    },
+    {
+      "path": "assets/products/website-20261018/product-409226e37ca7.webp",
+      "masterPath": ".watermark-backups/site-assets-original/website-20261018/product-409226e37ca7.webp",
+      "originalSha256": "dc0d1a77736531eba1e8685e12635a93579e82848e7df237093a65d31b73b6fc",
+      "watermarkedSha256": "f77b87b6207d802642200a7eb6846c6e94b7ae9fd97a12ec4ad86471be254137",
+      "originalBytes": 42998,
+      "bytes": 42706,
+      "width": 1000,
+      "height": 1000,
+      "format": "WEBP",
+      "centerTone": "dark",
+      "cornerTone": "dark",
+      "placements": [
+        {
+          "layer": "corner",
+          "box": [
+            18,
+            18,
+            501,
+            42
+          ],
+          "fontSize": 27,
+          "alpha": 176
+        },
+        {
+          "layer": "diagonal",
+          "box": [
+            18,
+            53,
+            413,
+            268
+          ],
+          "fontSize": 51,
+          "alpha": 64
+        }
+      ],
+      "protectedProductPixelsOverlaid": 0,
+      "quality": 85
+    },
+    {
+      "path": "assets/products/website-20261018/product-449ae215bef9.webp",
+      "masterPath": ".watermark-backups/site-assets-original/website-20261018/product-449ae215bef9.webp",
+      "originalSha256": "f7a4eab0d34a359666c97460e14f43471e9be3e83da9049832741dd6cfd415cc",
+      "watermarkedSha256": "e82f395a90feeec53a5a85695799d651acc58b562927b8edfed9b8ba8dc0e081",
+      "originalBytes": 101276,
+      "bytes": 89980,
+      "width": 1254,
+      "height": 1254,
+      "format": "WEBP",
+      "centerTone": "dark",
+      "cornerTone": "dark",
+      "placements": [
+        {
+          "layer": "corner",
+          "box": [
+            23,
+            1202,
+            618,
+            1231
+          ],
+          "fontSize": 34,
+          "alpha": 176
+        },
+        {
+          "layer": "diagonal",
+          "box": [
+            23,
+            23,
+            486,
+            274
+          ],
+          "fontSize": 60,
+          "alpha": 64
+        }
+      ],
+      "protectedProductPixelsOverlaid": 0,
+      "quality": 85
+    },
+    {
+      "path": "assets/products/website-20261018/product-493bda4912f5.webp",
+      "masterPath": ".watermark-backups/site-assets-original/website-20261018/product-493bda4912f5.webp",
+      "originalSha256": "85dfadd05cfcf2536c48ee32afa99129e8a8c07816d806e604e9fa13a73e0bf4",
+      "watermarkedSha256": "d09a04d39410b185c933959decf2bf043554fd6c729791d9e853c10f8dfa4cc9",
+      "originalBytes": 46230,
+      "bytes": 46696,
+      "width": 1000,
+      "height": 1000,
+      "format": "WEBP",
+      "centerTone": "dark",
+      "cornerTone": "dark",
+      "placements": [
+        {
+          "layer": "corner",
+          "box": [
+            499,
+            18,
+            982,
+            42
+          ],
+          "fontSize": 27,
+          "alpha": 176
+        },
+        {
+          "layer": "diagonal",
+          "box": [
+            18,
+            18,
+            507,
+            283
+          ],
+          "fontSize": 63,
+          "alpha": 64
+        }
+      ],
+      "protectedProductPixelsOverlaid": 0,
+      "quality": 85
+    },
+    {
+      "path": "assets/products/website-20261018/product-49b0fe587649.webp",
+      "masterPath": ".watermark-backups/site-assets-original/website-20261018/product-49b0fe587649.webp",
+      "originalSha256": "5eb6ee8f933abb37b1fd66cb8aa91bf3228768cba58bda675e9f69a01362f378",
+      "watermarkedSha256": "fa33dd4828b1ddfb65e8d5db9008f3dd9a6ace983ea567496cb9ca02ceacb416",
+      "originalBytes": 47242,
+      "bytes": 50024,
+      "width": 1000,
+      "height": 1000,
+      "format": "WEBP",
+      "centerTone": "dark",
+      "cornerTone": "dark",
+      "placements": [
+        {
+          "layer": "corner",
+          "box": [
+            499,
+            958,
+            982,
+            982
+          ],
+          "fontSize": 27,
+          "alpha": 176
+        },
+        {
+          "layer": "diagonal",
+          "box": [
+            18,
+            18,
+            596,
+            330
+          ],
+          "fontSize": 75,
+          "alpha": 64
+        }
+      ],
+      "protectedProductPixelsOverlaid": 0,
+      "quality": 85
+    },
+    {
+      "path": "assets/products/website-20261018/product-4a77e55d98af.webp",
+      "masterPath": ".watermark-backups/site-assets-original/website-20261018/product-4a77e55d98af.webp",
+      "originalSha256": "d5601fae0096dfa87dac8931283eecd174537f67c0b733e2207cb8c1699c155c",
+      "watermarkedSha256": "0197b186ffcb920f49cf249c450f068226af203ef0605618050b0cfad3adb782",
+      "originalBytes": 33726,
+      "bytes": 37424,
+      "width": 1000,
+      "height": 1000,
+      "format": "WEBP",
+      "centerTone": "dark",
+      "cornerTone": "dark",
+      "placements": [
+        {
+          "layer": "corner",
+          "box": [
+            499,
+            958,
+            982,
+            982
+          ],
+          "fontSize": 27,
+          "alpha": 176
+        },
+        {
+          "layer": "diagonal",
+          "box": [
+            404,
+            670,
+            982,
+            982
+          ],
+          "fontSize": 75,
+          "alpha": 64
+        }
+      ],
+      "protectedProductPixelsOverlaid": 0,
+      "quality": 85
+    },
+    {
+      "path": "assets/products/website-20261018/product-55b4b564327d.webp",
+      "masterPath": ".watermark-backups/site-assets-original/website-20261018/product-55b4b564327d.webp",
+      "originalSha256": "c82455a5f1ab6db8796049254838c544679d6dbbde9a22ad7e7d3e2b34b63b6d",
+      "watermarkedSha256": "008efd87e95887e7d317a3b44dae3a5678d552c4a90b6f6d38a81ba77f75b68d",
+      "originalBytes": 77768,
+      "bytes": 72754,
+      "width": 1254,
+      "height": 1254,
+      "format": "WEBP",
+      "centerTone": "dark",
+      "cornerTone": "dark",
+      "placements": [
+        {
+          "layer": "corner",
+          "box": [
+            636,
+            1202,
+            1231,
+            1231
+          ],
+          "fontSize": 34,
+          "alpha": 176
+        },
+        {
+          "layer": "diagonal",
+          "box": [
+            23,
+            23,
+            608,
+            340
+          ],
+          "fontSize": 76,
+          "alpha": 64
+        }
+      ],
+      "protectedProductPixelsOverlaid": 0,
+      "quality": 85
+    },
+    {
+      "path": "assets/products/website-20261018/product-5ee14bf534aa.webp",
+      "masterPath": ".watermark-backups/site-assets-original/website-20261018/product-5ee14bf534aa.webp",
+      "originalSha256": "72f9d19cadd457522acaa052a88f866c95e18b74be5aee49eca6abaf32c00760",
+      "watermarkedSha256": "2b1a684a2e9e567d94b9fc4e2f48dcc6458df42cbb19c478e91c5fb5895373cf",
+      "originalBytes": 35596,
+      "bytes": 37212,
+      "width": 1000,
+      "height": 1000,
+      "format": "WEBP",
+      "centerTone": "dark",
+      "cornerTone": "dark",
+      "placements": [
+        {
+          "layer": "corner",
+          "box": [
+            18,
+            958,
+            501,
+            982
+          ],
+          "fontSize": 27,
+          "alpha": 176
+        },
+        {
+          "layer": "diagonal",
+          "box": [
+            18,
+            18,
+            519,
+            289
+          ],
+          "fontSize": 65,
+          "alpha": 64
+        }
+      ],
+      "protectedProductPixelsOverlaid": 0,
+      "quality": 85
+    },
+    {
+      "path": "assets/products/website-20261018/product-65ae6977caec.webp",
+      "masterPath": ".watermark-backups/site-assets-original/website-20261018/product-65ae6977caec.webp",
+      "originalSha256": "09bc35daf713aff4f5c51f49a4ef8da144d5701dd651f9117d5c077723c4e1e7",
+      "watermarkedSha256": "8595404a5647c95fded8b2a3ee38a3618e0655842ebb2c9fa3a9732fe0e8578d",
+      "originalBytes": 123744,
+      "bytes": 106534,
+      "width": 1254,
+      "height": 1254,
+      "format": "WEBP",
+      "centerTone": "light",
+      "cornerTone": "dark",
+      "placements": [
+        {
+          "layer": "corner",
+          "box": [
+            636,
+            1202,
+            1231,
+            1231
+          ],
+          "fontSize": 34,
+          "alpha": 176
+        },
+        {
+          "layer": "diagonal",
+          "box": [
+            23,
+            23,
+            608,
+            340
+          ],
+          "fontSize": 76,
+          "alpha": 64
+        }
+      ],
+      "protectedProductPixelsOverlaid": 0,
+      "quality": 85
+    },
+    {
+      "path": "assets/products/website-20261018/product-668ed276249b.webp",
+      "masterPath": ".watermark-backups/site-assets-original/website-20261018/product-668ed276249b.webp",
+      "originalSha256": "e8e290d37cb61d152373f8e1ef1a2cc73dc6b58324164e4d2d5d649d1e046442",
+      "watermarkedSha256": "01210b0a30116b9d1043c25f6477e03f4e53d8f40ab3c7c8f35627afbb82fb5d",
+      "originalBytes": 44136,
+      "bytes": 45194,
+      "width": 1000,
+      "height": 1000,
+      "format": "WEBP",
+      "centerTone": "dark",
+      "cornerTone": "dark",
+      "placements": [
+        {
+          "layer": "corner",
+          "box": [
+            499,
+            958,
+            982,
+            982
+          ],
+          "fontSize": 27,
+          "alpha": 176
+        },
+        {
+          "layer": "diagonal",
+          "box": [
+            18,
+            18,
+            582,
+            323
+          ],
+          "fontSize": 73,
+          "alpha": 64
+        }
+      ],
+      "protectedProductPixelsOverlaid": 0,
+      "quality": 85
+    },
+    {
+      "path": "assets/products/website-20261018/product-674a5f5aa37f.webp",
+      "masterPath": ".watermark-backups/site-assets-original/website-20261018/product-674a5f5aa37f.webp",
+      "originalSha256": "96a97eff238432725a43455a151b85489d0f8ed3fa06beb79310267975fd8b01",
+      "watermarkedSha256": "992cae3a95f25a7758c9ccd7017ae05fd5bb207ccc70b8473dfe546469b0c003",
+      "originalBytes": 73838,
+      "bytes": 68780,
+      "width": 1254,
+      "height": 1254,
+      "format": "WEBP",
+      "centerTone": "light",
+      "cornerTone": "dark",
+      "placements": [
+        {
+          "layer": "corner",
+          "box": [
+            636,
+            1202,
+            1231,
+            1231
+          ],
+          "fontSize": 34,
+          "alpha": 176
+        },
+        {
+          "layer": "diagonal",
+          "box": [
+            23,
+            23,
+            653,
+            364
+          ],
+          "fontSize": 82,
+          "alpha": 64
+        }
+      ],
+      "protectedProductPixelsOverlaid": 0,
+      "quality": 85
+    },
+    {
+      "path": "assets/products/website-20261018/product-679c20a98e99.webp",
+      "masterPath": ".watermark-backups/site-assets-original/website-20261018/product-679c20a98e99.webp",
+      "originalSha256": "897d0d9341d338aea22fe5f4366c8b21c779c98b1b18e53d0a28a72d4b3f71b0",
+      "watermarkedSha256": "28be5b8aab7671811c9c55dad30c8bcfb57697c3f031c26a355bbab3783d8ff1",
+      "originalBytes": 53816,
+      "bytes": 50762,
+      "width": 1254,
+      "height": 1254,
+      "format": "WEBP",
+      "centerTone": "light",
+      "cornerTone": "dark",
+      "placements": [
+        {
+          "layer": "corner",
+          "box": [
+            636,
+            1202,
+            1231,
+            1231
+          ],
+          "fontSize": 34,
+          "alpha": 176
+        },
+        {
+          "layer": "diagonal",
+          "box": [
+            751,
+            947,
+            1231,
+            1208
+          ],
+          "fontSize": 62,
+          "alpha": 64
+        }
+      ],
+      "protectedProductPixelsOverlaid": 0,
+      "quality": 85
+    },
+    {
+      "path": "assets/products/website-20261018/product-6cf3369acefb.webp",
+      "masterPath": ".watermark-backups/site-assets-original/website-20261018/product-6cf3369acefb.webp",
+      "originalSha256": "93d8e8aa1a13f18f05913ac3fcc4dce50493502e650d77fb0a8e390f5508de2c",
+      "watermarkedSha256": "f185d6a212829bce76c3b512d557aef4e8c2ad29b41fa9f5105436d3610073b5",
+      "originalBytes": 28502,
+      "bytes": 30754,
+      "width": 1000,
+      "height": 1000,
+      "format": "WEBP",
+      "centerTone": "dark",
+      "cornerTone": "dark",
+      "placements": [
+        {
+          "layer": "corner",
+          "box": [
+            499,
+            958,
+            982,
+            982
+          ],
+          "fontSize": 27,
+          "alpha": 176
+        },
+        {
+          "layer": "diagonal",
+          "box": [
+            404,
+            670,
+            982,
+            982
+          ],
+          "fontSize": 75,
+          "alpha": 64
+        }
+      ],
+      "protectedProductPixelsOverlaid": 0,
+      "quality": 85
+    },
+    {
+      "path": "assets/products/website-20261018/product-78df7d02e5e8.webp",
+      "masterPath": ".watermark-backups/site-assets-original/website-20261018/product-78df7d02e5e8.webp",
+      "originalSha256": "e503fc630421c173bf0b9f481b013f99a3795a8f403e58fd020fa3a2007bcd75",
+      "watermarkedSha256": "6a215a35884289e39c3cd5a150c2e5c3a38944ecfb6bfb447b551106a3eb15b5",
+      "originalBytes": 67076,
+      "bytes": 60452,
+      "width": 1000,
+      "height": 1000,
+      "format": "WEBP",
+      "centerTone": "light",
+      "cornerTone": "dark",
+      "placements": [
+        {
+          "layer": "corner",
+          "box": [
+            528,
+            18,
+            982,
+            41
+          ],
+          "fontSize": 26,
+          "alpha": 176
+        },
+        {
+          "layer": "diagonal",
+          "box": [
+            18,
+            18,
+            427,
+            240
+          ],
+          "fontSize": 53,
+          "alpha": 64
+        }
+      ],
+      "protectedProductPixelsOverlaid": 0,
+      "quality": 85
+    },
+    {
+      "path": "assets/products/website-20261018/product-88573be06cf9.webp",
+      "masterPath": ".watermark-backups/site-assets-original/website-20261018/product-88573be06cf9.webp",
+      "originalSha256": "6a4f92e77d33f6a5c217adf3113f41abac6ce27695e9fd4caebfa270a87d2b7b",
+      "watermarkedSha256": "344527eb936fec2722daca796c271d49f1b954761bb6e86a837945d57ff7ae1e",
+      "originalBytes": 50916,
+      "bytes": 49908,
+      "width": 1000,
+      "height": 1000,
+      "format": "WEBP",
+      "centerTone": "dark",
+      "cornerTone": "dark",
+      "placements": [
+        {
+          "layer": "corner",
+          "box": [
+            499,
+            958,
+            982,
+            982
+          ],
+          "fontSize": 27,
+          "alpha": 176
+        },
+        {
+          "layer": "diagonal",
+          "box": [
+            18,
+            18,
+            596,
+            330
+          ],
+          "fontSize": 75,
+          "alpha": 64
+        }
+      ],
+      "protectedProductPixelsOverlaid": 0,
+      "quality": 85
+    },
+    {
+      "path": "assets/products/website-20261018/product-889c577fe357.webp",
+      "masterPath": ".watermark-backups/site-assets-original/website-20261018/product-889c577fe357.webp",
+      "originalSha256": "b99a4516403e0e8be7a426c4c7e5f7acd05a31871c812b1200927e9c63798872",
+      "watermarkedSha256": "2f4fd0b759b99bddd633ab5009fa6f412592ebfd285cc157aea084bf687b2c66",
+      "originalBytes": 30292,
+      "bytes": 32170,
+      "width": 1000,
+      "height": 1000,
+      "format": "WEBP",
+      "centerTone": "light",
+      "cornerTone": "dark",
+      "placements": [
+        {
+          "layer": "corner",
+          "box": [
+            499,
+            958,
+            982,
+            982
+          ],
+          "fontSize": 27,
+          "alpha": 176
+        },
+        {
+          "layer": "diagonal",
+          "box": [
+            18,
+            18,
+            474,
+            266
+          ],
+          "fontSize": 59,
+          "alpha": 64
+        }
+      ],
+      "protectedProductPixelsOverlaid": 0,
+      "quality": 85
+    },
+    {
+      "path": "assets/products/website-20261018/product-968cfb2937e0.webp",
+      "masterPath": ".watermark-backups/site-assets-original/website-20261018/product-968cfb2937e0.webp",
+      "originalSha256": "f8dea567830c090e835df69470d075c57edda5d47d174fac030b76e1354841dc",
+      "watermarkedSha256": "3e5595c7b582a2fdd264147fc13472d420526a0f8c932ae9d6fae406c474ccf3",
+      "originalBytes": 23394,
+      "bytes": 29368,
+      "width": 1254,
+      "height": 1254,
+      "format": "WEBP",
+      "centerTone": "dark",
+      "cornerTone": "dark",
+      "placements": [
+        {
+          "layer": "corner",
+          "box": [
+            636,
+            1202,
+            1231,
+            1231
+          ],
+          "fontSize": 34,
+          "alpha": 176
+        },
+        {
+          "layer": "diagonal",
+          "box": [
+            23,
+            23,
+            577,
+            323
+          ],
+          "fontSize": 72,
+          "alpha": 64
+        }
+      ],
+      "protectedProductPixelsOverlaid": 0,
+      "quality": 85
+    },
+    {
+      "path": "assets/products/website-20261018/product-96f4cd20b07a.webp",
+      "masterPath": ".watermark-backups/site-assets-original/website-20261018/product-96f4cd20b07a.webp",
+      "originalSha256": "c0b39ddca3f3565cd260635c323742730e9f412680b4e2728128efee48dd5c9f",
+      "watermarkedSha256": "047a94dff6ce3ff6b13488c9a2c53a19a91b4d11729f3dd9f3d345d28a6fe1f5",
+      "originalBytes": 45672,
+      "bytes": 46994,
+      "width": 1000,
+      "height": 1000,
+      "format": "WEBP",
+      "centerTone": "dark",
+      "cornerTone": "dark",
+      "placements": [
+        {
+          "layer": "corner",
+          "box": [
+            499,
+            958,
+            982,
+            982
+          ],
+          "fontSize": 27,
+          "alpha": 176
+        },
+        {
+          "layer": "diagonal",
+          "box": [
+            404,
+            670,
+            982,
+            982
+          ],
+          "fontSize": 75,
+          "alpha": 64
+        }
+      ],
+      "protectedProductPixelsOverlaid": 0,
+      "quality": 85
+    },
+    {
+      "path": "assets/products/website-20261018/product-98ed66ac4d13.webp",
+      "masterPath": ".watermark-backups/site-assets-original/website-20261018/product-98ed66ac4d13.webp",
+      "originalSha256": "4703d942c825ac4b9b76232f3c3891c053b8f88394a4c2962296b56fcc9d1fc6",
+      "watermarkedSha256": "6e1105aa1d69c5cd6aa0dee729ce086f8bc2d108937ccb036f11877bca142d85",
+      "originalBytes": 38252,
+      "bytes": 36646,
+      "width": 1000,
+      "height": 1000,
+      "format": "WEBP",
+      "centerTone": "dark",
+      "cornerTone": "dark",
+      "placements": [
+        {
+          "layer": "corner",
+          "box": [
+            499,
+            958,
+            982,
+            982
+          ],
+          "fontSize": 27,
+          "alpha": 176
+        },
+        {
+          "layer": "diagonal",
+          "box": [
+            18,
+            18,
+            474,
+            266
+          ],
+          "fontSize": 59,
+          "alpha": 64
+        }
+      ],
+      "protectedProductPixelsOverlaid": 0,
+      "quality": 85
+    },
+    {
+      "path": "assets/products/website-20261018/product-a5b535d720fe.webp",
+      "masterPath": ".watermark-backups/site-assets-original/website-20261018/product-a5b535d720fe.webp",
+      "originalSha256": "c4bb90f68ee0ddebfd21e7aaf7e2f10edab4d88cdb13a61306eef0819f8f1b66",
+      "watermarkedSha256": "6e78d92e96c7c25d8ec9fecb563f6a9b7cad8fb0b50c72fb12908c2c9db9956c",
+      "originalBytes": 104798,
+      "bytes": 92970,
+      "width": 1254,
+      "height": 1254,
+      "format": "WEBP",
+      "centerTone": "light",
+      "cornerTone": "dark",
+      "placements": [
+        {
+          "layer": "corner",
+          "box": [
+            23,
+            1202,
+            618,
+            1231
+          ],
+          "fontSize": 34,
+          "alpha": 176
+        },
+        {
+          "layer": "diagonal",
+          "box": [
+            23,
+            199,
+            454,
+            433
+          ],
+          "fontSize": 56,
+          "alpha": 64
+        }
+      ],
+      "protectedProductPixelsOverlaid": 0,
+      "quality": 85
+    },
+    {
+      "path": "assets/products/website-20261018/product-a5ced4bb7e61.webp",
+      "masterPath": ".watermark-backups/site-assets-original/website-20261018/product-a5ced4bb7e61.webp",
+      "originalSha256": "b6a9dd54715704e9f27117b110b85bec6e1e2976b583df9bb2de77cc2d0c3b15",
+      "watermarkedSha256": "dd49a915117900954e39a2956bce884bfc3962971ba0ad5d65cdcf42a687d2d4",
+      "originalBytes": 63184,
+      "bytes": 58074,
+      "width": 1000,
+      "height": 1000,
+      "format": "WEBP",
+      "centerTone": "light",
+      "cornerTone": "dark",
+      "placements": [
+        {
+          "layer": "corner",
+          "box": [
+            499,
+            958,
+            982,
+            982
+          ],
+          "fontSize": 27,
+          "alpha": 176
+        },
+        {
+          "layer": "diagonal",
+          "box": [
+            18,
+            18,
+            445,
+            250
+          ],
+          "fontSize": 55,
+          "alpha": 64
+        }
+      ],
+      "protectedProductPixelsOverlaid": 0,
+      "quality": 85
+    },
+    {
+      "path": "assets/products/website-20261018/product-a62ae4f0d6a0.webp",
+      "masterPath": ".watermark-backups/site-assets-original/website-20261018/product-a62ae4f0d6a0.webp",
+      "originalSha256": "c52d8b99e6c7d20015d228dfd32f2d52c87c20da25baf6675d268a12eeafe90d",
+      "watermarkedSha256": "71d2b3f89fd86a24f93afc26a3028afb73aa72c3814d06191841ecb6a66ee7ef",
+      "originalBytes": 57354,
+      "bytes": 56454,
+      "width": 1000,
+      "height": 1000,
+      "format": "WEBP",
+      "centerTone": "dark",
+      "cornerTone": "dark",
+      "placements": [
+        {
+          "layer": "corner",
+          "box": [
+            499,
+            958,
+            982,
+            982
+          ],
+          "fontSize": 27,
+          "alpha": 176
+        },
+        {
+          "layer": "diagonal",
+          "box": [
+            618,
+            18,
+            982,
+            216
+          ],
+          "fontSize": 47,
+          "alpha": 64
+        }
+      ],
+      "protectedProductPixelsOverlaid": 0,
+      "quality": 85
+    },
+    {
+      "path": "assets/products/website-20261018/product-add1c6ebb22d.webp",
+      "masterPath": ".watermark-backups/site-assets-original/website-20261018/product-add1c6ebb22d.webp",
+      "originalSha256": "6d57bc66d4002f89b5ddb56d254cf175e02afc5ad675a57e14efd6924b63697d",
+      "watermarkedSha256": "9202e3cd29112a035ec060d95d3ffcbad04799977ec3507fde92887ba618b8ef",
+      "originalBytes": 45474,
+      "bytes": 46170,
+      "width": 1000,
+      "height": 1000,
+      "format": "WEBP",
+      "centerTone": "dark",
+      "cornerTone": "dark",
+      "placements": [
+        {
+          "layer": "corner",
+          "box": [
+            499,
+            958,
+            982,
+            982
+          ],
+          "fontSize": 27,
+          "alpha": 176
+        },
+        {
+          "layer": "diagonal",
+          "box": [
+            18,
+            18,
+            596,
+            330
+          ],
+          "fontSize": 75,
+          "alpha": 64
+        }
+      ],
+      "protectedProductPixelsOverlaid": 0,
+      "quality": 85
+    },
+    {
+      "path": "assets/products/website-20261018/product-c66ef6e6553f.webp",
+      "masterPath": ".watermark-backups/site-assets-original/website-20261018/product-c66ef6e6553f.webp",
+      "originalSha256": "17a55b6dfe3c734f623419cbb305ddae86f5395f35c300e6c9baa0c8586a1e83",
+      "watermarkedSha256": "2e4df3c0e489591ee94a65538570e8faf82db15b9cdba985ff1703960a2f8cfd",
+      "originalBytes": 30378,
+      "bytes": 32768,
+      "width": 1200,
+      "height": 1200,
+      "format": "WEBP",
+      "centerTone": "dark",
+      "cornerTone": "dark",
+      "placements": [
+        {
+          "layer": "corner",
+          "box": [
+            615,
+            1151,
+            1178,
+            1178
+          ],
+          "fontSize": 32,
+          "alpha": 176
+        },
+        {
+          "layer": "diagonal",
+          "box": [
+            22,
+            22,
+            564,
+            314
+          ],
+          "fontSize": 70,
+          "alpha": 64
+        }
+      ],
+      "protectedProductPixelsOverlaid": 0,
+      "quality": 85
+    },
+    {
+      "path": "assets/products/website-20261018/product-c6750165048d.webp",
+      "masterPath": ".watermark-backups/site-assets-original/website-20261018/product-c6750165048d.webp",
+      "originalSha256": "044b46c58f65e4947f186220ef4059c611107fa6ad89669a8c0ac7290846488a",
+      "watermarkedSha256": "a0ccf36572ab5eda23c617b4feaa7cae4aa3903d531283afdc3b2cd745001258",
+      "originalBytes": 44712,
+      "bytes": 42700,
+      "width": 1200,
+      "height": 1200,
+      "format": "WEBP",
+      "centerTone": "dark",
+      "cornerTone": "dark",
+      "placements": [
+        {
+          "layer": "corner",
+          "box": [
+            615,
+            1151,
+            1178,
+            1178
+          ],
+          "fontSize": 32,
+          "alpha": 176
+        },
+        {
+          "layer": "diagonal",
+          "box": [
+            22,
+            22,
+            348,
+            198
+          ],
+          "fontSize": 42,
+          "alpha": 64
+        }
+      ],
+      "protectedProductPixelsOverlaid": 0,
+      "quality": 85
+    },
+    {
+      "path": "assets/products/website-20261018/product-d1642dc7bcf9.webp",
+      "masterPath": ".watermark-backups/site-assets-original/website-20261018/product-d1642dc7bcf9.webp",
+      "originalSha256": "5e2c98472c5878180e0e85d9dc62cf8a5c2d4831bde68d59fe62666b2733039f",
+      "watermarkedSha256": "28be1491c054987ee67a7a2575fc8c350e87fd2755e1271be31d0ab5fa23b161",
+      "originalBytes": 44210,
+      "bytes": 45428,
+      "width": 1000,
+      "height": 1000,
+      "format": "WEBP",
+      "centerTone": "dark",
+      "cornerTone": "dark",
+      "placements": [
+        {
+          "layer": "corner",
+          "box": [
+            499,
+            958,
+            982,
+            982
+          ],
+          "fontSize": 27,
+          "alpha": 176
+        },
+        {
+          "layer": "diagonal",
+          "box": [
+            18,
+            18,
+            596,
+            330
+          ],
+          "fontSize": 75,
+          "alpha": 64
+        }
+      ],
+      "protectedProductPixelsOverlaid": 0,
+      "quality": 85
+    },
+    {
+      "path": "assets/products/website-20261018/product-da2cb10347ab.webp",
+      "masterPath": ".watermark-backups/site-assets-original/website-20261018/product-da2cb10347ab.webp",
+      "originalSha256": "348d1d53d69f86ea04b206e5b21e5c5802156b5e4cf0cfee551f60135e7b7dfa",
+      "watermarkedSha256": "76bf6a87011b32587ad521da6ec3f85036a40de8ec4c0120bf58b7e04d8daa70",
+      "originalBytes": 59028,
+      "bytes": 57594,
+      "width": 1254,
+      "height": 1254,
+      "format": "WEBP",
+      "centerTone": "light",
+      "cornerTone": "dark",
+      "placements": [
+        {
+          "layer": "corner",
+          "box": [
+            636,
+            1202,
+            1231,
+            1231
+          ],
+          "fontSize": 34,
+          "alpha": 176
+        },
+        {
+          "layer": "diagonal",
+          "box": [
+            751,
+            947,
+            1231,
+            1208
+          ],
+          "fontSize": 62,
+          "alpha": 64
+        }
+      ],
+      "protectedProductPixelsOverlaid": 0,
+      "quality": 85
+    },
+    {
+      "path": "assets/products/website-20261018/product-dc92d71eabaf.webp",
+      "masterPath": ".watermark-backups/site-assets-original/website-20261018/product-dc92d71eabaf.webp",
+      "originalSha256": "1f7d51e0b5545ab0d6f0a539cdeb9b5e698457a1affd62ba86475af03fb1afbd",
+      "watermarkedSha256": "5a70ae8cff3fba1ffcbcd3b8788b4c49ec64c54ae0d96725125109acd3634a94",
+      "originalBytes": 23934,
+      "bytes": 29204,
+      "width": 1254,
+      "height": 1254,
+      "format": "WEBP",
+      "centerTone": "dark",
+      "cornerTone": "dark",
+      "placements": [
+        {
+          "layer": "corner",
+          "box": [
+            636,
+            1202,
+            1231,
+            1231
+          ],
+          "fontSize": 34,
+          "alpha": 176
+        },
+        {
+          "layer": "diagonal",
+          "box": [
+            127,
+            331,
+            727,
+            655
+          ],
+          "fontSize": 78,
+          "alpha": 64
+        }
+      ],
+      "protectedProductPixelsOverlaid": 0,
+      "quality": 85
+    },
+    {
+      "path": "assets/products/website-20261018/product-def53f1a9a8a.webp",
+      "masterPath": ".watermark-backups/site-assets-original/website-20261018/product-def53f1a9a8a.webp",
+      "originalSha256": "7b862cc5f1b355a5e3dcf055882a2577a4471a4c2eb2adb5a1630aeba55548e0",
+      "watermarkedSha256": "3896fd40782418bd2bea154e319cf27a756b9ae8e5207cd8eda391d683c16c61",
+      "originalBytes": 93312,
+      "bytes": 88160,
+      "width": 1254,
+      "height": 1254,
+      "format": "WEBP",
+      "centerTone": "dark",
+      "cornerTone": "dark",
+      "placements": [
+        {
+          "layer": "corner",
+          "box": [
+            636,
+            1202,
+            1231,
+            1231
+          ],
+          "fontSize": 34,
+          "alpha": 176
+        },
+        {
+          "layer": "diagonal",
+          "box": [
+            23,
+            23,
+            670,
+            371
+          ],
+          "fontSize": 84,
+          "alpha": 64
+        }
+      ],
+      "protectedProductPixelsOverlaid": 0,
+      "quality": 85
+    },
+    {
+      "path": "assets/products/website-20261018/product-e25dbafbc274.webp",
+      "masterPath": ".watermark-backups/site-assets-original/website-20261018/product-e25dbafbc274.webp",
+      "originalSha256": "20797d3ece8cc274c947744c2932c86416425ae74a80a0b8950491dddc4e4278",
+      "watermarkedSha256": "a6dec433fd8e55443eeba03c29115ad0e2211f58bb6b47a4733cc973a067509f",
+      "originalBytes": 27698,
+      "bytes": 32526,
+      "width": 1200,
+      "height": 1200,
+      "format": "WEBP",
+      "centerTone": "dark",
+      "cornerTone": "dark",
+      "placements": [
+        {
+          "layer": "corner",
+          "box": [
+            615,
+            1151,
+            1178,
+            1178
+          ],
+          "fontSize": 32,
+          "alpha": 176
+        },
+        {
+          "layer": "diagonal",
+          "box": [
+            22,
+            22,
+            713,
+            395
+          ],
+          "fontSize": 90,
+          "alpha": 64
+        }
+      ],
+      "protectedProductPixelsOverlaid": 0,
+      "quality": 85
+    },
+    {
+      "path": "assets/products/website-20261018/product-e69ee16c6f88.webp",
+      "masterPath": ".watermark-backups/site-assets-original/website-20261018/product-e69ee16c6f88.webp",
+      "originalSha256": "565a2aa25decffb866ae309d712ace69161546ff10ca55e3a615036f1d91c48a",
+      "watermarkedSha256": "94b776672f273b0d2e57acbfd432fb243b822c8cbd7f81f48dd14f581bf3fa55",
+      "originalBytes": 74170,
+      "bytes": 66694,
+      "width": 1254,
+      "height": 1254,
+      "format": "WEBP",
+      "centerTone": "light",
+      "cornerTone": "dark",
+      "placements": [
+        {
+          "layer": "corner",
+          "box": [
+            636,
+            1202,
+            1231,
+            1231
+          ],
+          "fontSize": 34,
+          "alpha": 176
+        },
+        {
+          "layer": "diagonal",
+          "box": [
+            23,
+            23,
+            745,
+            413
+          ],
+          "fontSize": 94,
+          "alpha": 64
+        }
+      ],
+      "protectedProductPixelsOverlaid": 0,
+      "quality": 85
+    },
+    {
+      "path": "assets/products/website-20261018/product-eb952af32a40.webp",
+      "masterPath": ".watermark-backups/site-assets-original/website-20261018/product-eb952af32a40.webp",
+      "originalSha256": "39cf63ccaffd5ee30cf4e149df1fa81830acd652b3ece253024a8e2b4e127cfe",
+      "watermarkedSha256": "3b157c6fc87de32ff2a376eb94dc8988643582a23cf655de39c9e42d2b2deaa5",
+      "originalBytes": 39440,
+      "bytes": 39234,
+      "width": 1000,
+      "height": 1000,
+      "format": "WEBP",
+      "centerTone": "dark",
+      "cornerTone": "dark",
+      "placements": [
+        {
+          "layer": "corner",
+          "box": [
+            499,
+            958,
+            982,
+            982
+          ],
+          "fontSize": 27,
+          "alpha": 176
+        },
+        {
+          "layer": "diagonal",
+          "box": [
+            18,
+            18,
+            445,
+            250
+          ],
+          "fontSize": 55,
+          "alpha": 64
+        }
+      ],
+      "protectedProductPixelsOverlaid": 0,
+      "quality": 85
+    },
+    {
+      "path": "assets/products/website-20261018/product-eda264d6edb5.webp",
+      "masterPath": ".watermark-backups/site-assets-original/website-20261018/product-eda264d6edb5.webp",
+      "originalSha256": "dc62567374f374aac3b15fb32f626e1c887a294bd2a322e311113dec41bee0a5",
+      "watermarkedSha256": "a19246f02b82a412851cf44502c7e59a09e4548d9b14bb7a8ee1eb4576c540b6",
+      "originalBytes": 39814,
+      "bytes": 41370,
+      "width": 1254,
+      "height": 1254,
+      "format": "WEBP",
+      "centerTone": "dark",
+      "cornerTone": "dark",
+      "placements": [
+        {
+          "layer": "corner",
+          "box": [
+            636,
+            1202,
+            1231,
+            1231
+          ],
+          "fontSize": 34,
+          "alpha": 176
+        },
+        {
+          "layer": "diagonal",
+          "box": [
+            23,
+            815,
+            454,
+            1049
+          ],
+          "fontSize": 56,
+          "alpha": 64
+        }
+      ],
+      "protectedProductPixelsOverlaid": 0,
+      "quality": 85
+    },
+    {
+      "path": "assets/products/website-20261018/product-f00c9fde955f.webp",
+      "masterPath": ".watermark-backups/site-assets-original/website-20261018/product-f00c9fde955f.webp",
+      "originalSha256": "b6628e6762ee94a7e706d966f1163d83be9df37c1b0ac054c6e4757e651be406",
+      "watermarkedSha256": "075bb632380886fb1dffc93a169a11670f5705f7d9d28fb53b4578808a8ac142",
+      "originalBytes": 119858,
+      "bytes": 103628,
+      "width": 1000,
+      "height": 1000,
+      "format": "WEBP",
+      "centerTone": "light",
+      "cornerTone": "dark",
+      "placements": [
+        {
+          "layer": "corner",
+          "box": [
+            499,
+            958,
+            982,
+            982
+          ],
+          "fontSize": 27,
+          "alpha": 176
+        },
+        {
+          "layer": "diagonal",
+          "box": [
+            18,
+            18,
+            413,
+            233
+          ],
+          "fontSize": 51,
+          "alpha": 64
+        }
+      ],
+      "protectedProductPixelsOverlaid": 0,
+      "quality": 85
+    },
+    {
+      "path": "assets/products/website-20261018/product-f1f59c837c7c.webp",
+      "masterPath": ".watermark-backups/site-assets-original/website-20261018/product-f1f59c837c7c.webp",
+      "originalSha256": "e1a616df9c9d8822fb14dec80af9bd7792025099a93d8930b08bd43d9968f828",
+      "watermarkedSha256": "3e57b8b46de801e1405f7f1850e4d8c3ac5d578147fbe1955ad055f74ab31340",
+      "originalBytes": 30614,
+      "bytes": 32684,
+      "width": 1000,
+      "height": 1000,
+      "format": "WEBP",
+      "centerTone": "dark",
+      "cornerTone": "dark",
+      "placements": [
+        {
+          "layer": "corner",
+          "box": [
+            499,
+            958,
+            982,
+            982
+          ],
+          "fontSize": 27,
+          "alpha": 176
+        },
+        {
+          "layer": "diagonal",
+          "box": [
+            264,
+            18,
+            842,
+            330
+          ],
+          "fontSize": 75,
+          "alpha": 64
+        }
+      ],
+      "protectedProductPixelsOverlaid": 0,
+      "quality": 85
+    },
+    {
+      "path": "assets/products/website-20261018/product-f30855ee4f4e.webp",
+      "masterPath": ".watermark-backups/site-assets-original/website-20261018/product-f30855ee4f4e.webp",
+      "originalSha256": "d91c3fcfeec9db022f71733a246bb63c5b5e24c6a8d97d3d79dac20367798398",
+      "watermarkedSha256": "ef0ee8c9f8245e1a6c213eb9686748ca21e5d4ed1946056bc97bd926a1e7e512",
+      "originalBytes": 42432,
+      "bytes": 44368,
+      "width": 1200,
+      "height": 1200,
+      "format": "WEBP",
+      "centerTone": "dark",
+      "cornerTone": "dark",
+      "placements": [
+        {
+          "layer": "corner",
+          "box": [
+            615,
+            1151,
+            1178,
+            1178
+          ],
+          "fontSize": 32,
+          "alpha": 176
+        },
+        {
+          "layer": "diagonal",
+          "box": [
+            622,
+            862,
+            1176,
+            1162
+          ],
+          "fontSize": 72,
+          "alpha": 64
+        }
+      ],
+      "protectedProductPixelsOverlaid": 0,
+      "quality": 85
+    },
+    {
+      "path": "assets/products/website-20261018/product-f4d4f6e9c68d.webp",
+      "masterPath": ".watermark-backups/site-assets-original/website-20261018/product-f4d4f6e9c68d.webp",
+      "originalSha256": "b2305d0ada27691362387a6191a97dca8f379aa6072434810ed83f98a17c9f92",
+      "watermarkedSha256": "702bfa6a9cbed26fd0d14a4e811d7234226375ed9d3e2515fee9294210ff2d2e",
+      "originalBytes": 31720,
+      "bytes": 34104,
+      "width": 1200,
+      "height": 1200,
+      "format": "WEBP",
+      "centerTone": "dark",
+      "cornerTone": "dark",
+      "placements": [
+        {
+          "layer": "corner",
+          "box": [
+            615,
+            1151,
+            1178,
+            1178
+          ],
+          "fontSize": 32,
+          "alpha": 176
+        },
+        {
+          "layer": "diagonal",
+          "box": [
+            22,
+            22,
+            515,
+            290
+          ],
+          "fontSize": 64,
+          "alpha": 64
+        }
+      ],
+      "protectedProductPixelsOverlaid": 0,
+      "quality": 85
     }
   ],
   "centerText": "CHUANWEI FIRE",
   "cornerText": "CHUANWEI FIRE · chuanweifire.com",
   "authorization": "User requested all newly added website product images be checked and watermarked on 2026-10-10.",
-  "count": 136,
+  "count": 180,
   "excluded": [
     "assets/products/sprinkler-trim/double-layer-escutcheon-640.webp",
     "assets/products/sprinkler-trim/double-layer-escutcheon-1600.webp",

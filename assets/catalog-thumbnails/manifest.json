@@ -774,6 +774,12 @@
     "thumbnailBytes": 19092
   },
   {
+    "source": "assets/products/website-20261018/product-49b0fe587649.webp",
+    "output": "assets/catalog-thumbnails/fa33dd4828b1ddfb65e8d5db-480.webp",
+    "sourceBytes": 50024,
+    "thumbnailBytes": 15556
+  },
+  {
     "source": "products/室内消防栓/export-slanted-hydrant-valve/export-slanted-front.jpg",
     "output": "assets/catalog-thumbnails/017c6bc1a13053f182f9eace-480.webp",
     "sourceBytes": 150723,
@@ -1062,12 +1068,6 @@
     "thumbnailBytes": 12982
   },
   {
-    "source": "products/室外消防栓/catalog-outdoor-hydrant-configurations-page-31/p31-04.webp",
-    "output": "assets/catalog-thumbnails/da48c4e95c825f29932ef400-480.webp",
-    "sourceBytes": 45892,
-    "thumbnailBytes": 11836
-  },
-  {
     "source": "products/消防水泵接合器/russian-pattern-fire-department-connection/65-16k-65-front.png",
     "output": "assets/catalog-thumbnails/86d1fabd05300030feff351f-480.webp",
     "sourceBytes": 1455395,
@@ -1174,5 +1174,191 @@
     "output": "assets/catalog-thumbnails/42829e615310df03a489cdb7-480.webp",
     "sourceBytes": 25086,
     "thumbnailBytes": 6306
+  },
+  {
+    "source": "assets/products/website-20261018/product-d1642dc7bcf9.webp",
+    "output": "assets/catalog-thumbnails/28be1491c054987ee67a7a25-480.webp",
+    "sourceBytes": 45428,
+    "thumbnailBytes": 14968
+  },
+  {
+    "source": "assets/products/website-20261018/product-1b72519717a3.webp",
+    "output": "assets/catalog-thumbnails/be335cb51553ffcbb0e2eac3-480.webp",
+    "sourceBytes": 44188,
+    "thumbnailBytes": 14610
+  },
+  {
+    "source": "assets/products/website-20261018/product-eb952af32a40.webp",
+    "output": "assets/catalog-thumbnails/3b157c6fc87de32ff2a376eb-480.webp",
+    "sourceBytes": 39234,
+    "thumbnailBytes": 13468
+  },
+  {
+    "source": "assets/products/website-20261018/product-a62ae4f0d6a0.webp",
+    "output": "assets/catalog-thumbnails/71d2b3f89fd86a24f93afc26-480.webp",
+    "sourceBytes": 56454,
+    "thumbnailBytes": 17448
+  },
+  {
+    "source": "assets/products/website-20261018/product-889c577fe357.webp",
+    "output": "assets/catalog-thumbnails/2f4fd0b759b99bddd633ab50-480.webp",
+    "sourceBytes": 32170,
+    "thumbnailBytes": 11060
+  },
+  {
+    "source": "assets/products/website-20261018/product-f00c9fde955f.webp",
+    "output": "assets/catalog-thumbnails/075bb632380886fb1dffc93a-480.webp",
+    "sourceBytes": 103628,
+    "thumbnailBytes": 31300
+  },
+  {
+    "source": "assets/products/website-20261018/product-78df7d02e5e8.webp",
+    "output": "assets/catalog-thumbnails/6a215a35884289e39c3cd5a1-480.webp",
+    "sourceBytes": 60452,
+    "thumbnailBytes": 20678
+  },
+  {
+    "source": "assets/products/website-20261018/product-f1f59c837c7c.webp",
+    "output": "assets/catalog-thumbnails/3e57b8b46de801e1405f7f18-480.webp",
+    "sourceBytes": 32684,
+    "thumbnailBytes": 11546
+  },
+  {
+    "source": "assets/products/website-20261018/product-12332ccb456b.webp",
+    "output": "assets/catalog-thumbnails/8df7503abb54db031d3e5b74-480.webp",
+    "sourceBytes": 172554,
+    "thumbnailBytes": 35456
+  },
+  {
+    "source": "assets/products/website-20261018/product-e25dbafbc274.webp",
+    "output": "assets/catalog-thumbnails/a6dec433fd8e55443eeba03c-480.webp",
+    "sourceBytes": 32526,
+    "thumbnailBytes": 10216
+  },
+  {
+    "source": "assets/products/website-20261018/product-c66ef6e6553f.webp",
+    "output": "assets/catalog-thumbnails/2e4df3c0e489591ee94a6553-480.webp",
+    "sourceBytes": 32768,
+    "thumbnailBytes": 10110
+  },
+  {
+    "source": "assets/products/website-20261018/product-968cfb2937e0.webp",
+    "output": "assets/catalog-thumbnails/3e5595c7b582a2fdd264147f-480.webp",
+    "sourceBytes": 29368,
+    "thumbnailBytes": 7772
+  },
+  {
+    "source": "assets/products/website-20261018/product-c6750165048d.webp",
+    "output": "assets/catalog-thumbnails/a0ccf36572ab5eda23c617b4-480.webp",
+    "sourceBytes": 42700,
+    "thumbnailBytes": 13292
+  },
+  {
+    "source": "assets/products/website-20261018/product-dc92d71eabaf.webp",
+    "output": "assets/catalog-thumbnails/5a70ae8cff3fba1ffcbcd3b8-480.webp",
+    "sourceBytes": 29204,
+    "thumbnailBytes": 7528
+  },
+  {
+    "source": "assets/products/website-20261018/product-da2cb10347ab.webp",
+    "output": "assets/catalog-thumbnails/76bf6a87011b32587ad521da-480.webp",
+    "sourceBytes": 57594,
+    "thumbnailBytes": 15528
+  },
+  {
+    "source": "assets/products/website-20261018/product-f30855ee4f4e.webp",
+    "output": "assets/catalog-thumbnails/ef0ee8c9f8245e1a6c213eb9-480.webp",
+    "sourceBytes": 44368,
+    "thumbnailBytes": 11648
+  },
+  {
+    "source": "assets/products/website-20261018/product-449ae215bef9.webp",
+    "output": "assets/catalog-thumbnails/e82f395a90feeec53a5a8569-480.webp",
+    "sourceBytes": 89980,
+    "thumbnailBytes": 19558
+  },
+  {
+    "source": "assets/products/website-20261018/product-55b4b564327d.webp",
+    "output": "assets/catalog-thumbnails/008efd87e95887e7d317a3b4-480.webp",
+    "sourceBytes": 72754,
+    "thumbnailBytes": 18354
+  },
+  {
+    "source": "assets/products/website-20261018/product-1dd050347ce2.webp",
+    "output": "assets/catalog-thumbnails/2852b1e2baef1bebbf68d3a1-480.webp",
+    "sourceBytes": 27996,
+    "thumbnailBytes": 8294
+  },
+  {
+    "source": "assets/products/website-20261018/product-eda264d6edb5.webp",
+    "output": "assets/catalog-thumbnails/a19246f02b82a412851cf445-480.webp",
+    "sourceBytes": 41370,
+    "thumbnailBytes": 10582
+  },
+  {
+    "source": "assets/products/website-20261018/product-a5b535d720fe.webp",
+    "output": "assets/catalog-thumbnails/6e78d92e96c7c25d8ec9fecb-480.webp",
+    "sourceBytes": 92970,
+    "thumbnailBytes": 20986
+  },
+  {
+    "source": "assets/products/website-20261018/product-674a5f5aa37f.webp",
+    "output": "assets/catalog-thumbnails/992cae3a95f25a7758c9ccd7-480.webp",
+    "sourceBytes": 68780,
+    "thumbnailBytes": 17502
+  },
+  {
+    "source": "assets/products/website-20261018/product-def53f1a9a8a.webp",
+    "output": "assets/catalog-thumbnails/3896fd40782418bd2bea154e-480.webp",
+    "sourceBytes": 88160,
+    "thumbnailBytes": 20022
+  },
+  {
+    "source": "assets/products/website-20261018/product-4a77e55d98af.webp",
+    "output": "assets/catalog-thumbnails/0197b186ffcb920f49cf249c-480.webp",
+    "sourceBytes": 37424,
+    "thumbnailBytes": 11614
+  },
+  {
+    "source": "assets/products/website-20261018/product-015b5d2c7458.webp",
+    "output": "assets/catalog-thumbnails/ee508f7a7ba5d1987e7d3a84-480.webp",
+    "sourceBytes": 72032,
+    "thumbnailBytes": 16166
+  },
+  {
+    "source": "assets/products/website-20261018/product-65ae6977caec.webp",
+    "output": "assets/catalog-thumbnails/8595404a5647c95fded8b2a3-480.webp",
+    "sourceBytes": 106534,
+    "thumbnailBytes": 21680
+  },
+  {
+    "source": "assets/products/website-20261018/product-98ed66ac4d13.webp",
+    "output": "assets/catalog-thumbnails/6e1105aa1d69c5cd6aa0dee7-480.webp",
+    "sourceBytes": 36646,
+    "thumbnailBytes": 12596
+  },
+  {
+    "source": "assets/products/website-20261018/product-6cf3369acefb.webp",
+    "output": "assets/catalog-thumbnails/f185d6a212829bce76c3b512-480.webp",
+    "sourceBytes": 30754,
+    "thumbnailBytes": 11194
+  },
+  {
+    "source": "assets/products/website-20261018/product-96f4cd20b07a.webp",
+    "output": "assets/catalog-thumbnails/047a94dff6ce3ff6b13488c9-480.webp",
+    "sourceBytes": 46994,
+    "thumbnailBytes": 18258
+  },
+  {
+    "source": "assets/products/website-20261018/product-05d8e439da82.webp",
+    "output": "assets/catalog-thumbnails/afc337d49a5b39780ab8b57f-480.webp",
+    "sourceBytes": 54752,
+    "thumbnailBytes": 18998
+  },
+  {
+    "source": "assets/products/website-20261018/product-07098132e9e5.webp",
+    "output": "assets/catalog-thumbnails/086b144f6ba2702a7f1b7554-480.webp",
+    "sourceBytes": 26834,
+    "thumbnailBytes": 9094
   }
 ]

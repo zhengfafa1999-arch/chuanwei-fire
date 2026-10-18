@@ -130,7 +130,8 @@
   };
   const update = () => {
     const tokens = normalize(search.value).trim().split(/\s+/).filter(Boolean);
-    const matches = catalog.filter(item => !category.value || category.value === item.family).map(item => matchEntry(item, tokens)).filter(Boolean);
+    const selectedFamilies = new Set((category.selectedOptions[0]?.dataset.familyMembers || category.value).split(/\s+/).filter(Boolean));
+    const matches = catalog.filter(item => !category.value || selectedFamilies.has(item.family)).map(item => matchEntry(item, tokens)).filter(Boolean);
     const count = matches.length;
     pageCount = Math.max(1, Math.ceil(count / pageSize));
     page = Math.min(page, pageCount);

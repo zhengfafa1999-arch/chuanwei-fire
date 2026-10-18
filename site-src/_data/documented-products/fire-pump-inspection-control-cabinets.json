@@ -1,0 +1,300 @@
+{
+  "id": "fire-pump-inspection-control-cabinets",
+  "routeId": "product:fire-pump-inspection-control-cabinets",
+  "template": "product-series/documented-product.njk",
+  "styles": [
+    "css/common.css",
+    "css/sprinkler-product.css",
+    "css/sprinkler-product-gallery.css",
+    "css/documented-product.css",
+    "css/site-navigation.css"
+  ],
+  "source": {
+    "evidence": "User-selected new-folder product archive; reviewed field-by-field for this product series.",
+    "review": "docs/reviews/material-batch-20261018/mechanical.json",
+    "sourceNames": [
+      "JX-XFXJ与JX-ATS系列-消防泵控制柜",
+      "未标型号-消防泵巡检控制柜"
+    ],
+    "unresolved": [
+      "各柜电机负载适配、频率、内部器件、防护等级待确认；未标型号柜尺寸缺失。"
+    ],
+    "notes": [
+      "1200×600×400 mm仅适用于有对应证据的JX两款，不用于未标型号柜。",
+      "不把JX-XFXJ型号7.5转换成kW；原表功率W字段异常，排除。不同柜型功能分别描述。"
+    ]
+  },
+  "publication": {
+    "status": "release-candidate",
+    "externalRelease": true,
+    "imageRights": "user-confirmed-website-use",
+    "imageRightsEvidence": "docs/release/website-products-20261018/image-rights-confirmation.json"
+  },
+  "media": {
+    "hero": "assets/products/website-20261018/product-eda264d6edb5.webp",
+    "image1": "assets/products/website-20261018/product-f4d4f6e9c68d.webp"
+  },
+  "imageDimensions": {
+    "hero": {
+      "width": 1254,
+      "height": 1254
+    },
+    "image1": {
+      "width": 1200,
+      "height": 1200
+    }
+  },
+  "shared": {},
+  "heroFacts": [
+    "spec0Value",
+    "spec1Value",
+    "spec2Value"
+  ],
+  "gallery": [
+    {
+      "media": "hero",
+      "alt": "image0Alt",
+      "caption": "image0Caption",
+      "thumbnailAlt": "image0Alt"
+    },
+    {
+      "media": "image1",
+      "alt": "image1Alt",
+      "caption": "image1Caption",
+      "thumbnailAlt": "image1Alt"
+    }
+  ],
+  "specifications": [
+    {
+      "label": "spec0Label",
+      "value": "spec0Value"
+    },
+    {
+      "label": "spec1Label",
+      "value": "spec1Value"
+    },
+    {
+      "label": "spec2Label",
+      "value": "spec2Value"
+    },
+    {
+      "label": "spec3Label",
+      "value": "spec3Value"
+    },
+    {
+      "label": "spec4Label",
+      "value": "spec4Value"
+    },
+    {
+      "label": "spec5Label",
+      "value": "spec5Value"
+    },
+    {
+      "label": "spec6Label",
+      "value": "spec6Value"
+    },
+    {
+      "label": "spec7Label",
+      "value": "spec7Value"
+    }
+  ],
+  "modelColumns": [
+    {
+      "label": "configuration",
+      "field": "configuration",
+      "localized": true
+    },
+    {
+      "label": "factoryModel",
+      "field": "factoryReference",
+      "localized": true
+    },
+    {
+      "label": "selectionDetails",
+      "field": "selection",
+      "localized": true
+    }
+  ],
+  "models": [
+    {
+      "configuration": "model0Name",
+      "factoryReference": "model0Reference",
+      "selection": "model0Selection"
+    },
+    {
+      "configuration": "model1Name",
+      "factoryReference": "model1Reference",
+      "selection": "model1Selection"
+    },
+    {
+      "configuration": "model2Name",
+      "factoryReference": "model2Reference",
+      "selection": "model2Selection"
+    }
+  ],
+  "confirmationItems": [
+    {
+      "label": "selection0Label",
+      "body": "selection0Body"
+    },
+    {
+      "label": "selection1Label",
+      "body": "selection1Body"
+    }
+  ],
+  "inquiry": {
+    "whatsapp": "https://wa.me/8617326528368?text=Hello%2C%20I%20am%20interested%20in%20Fire%20Pump%20Inspection%20%26%20Control%20Cabinets.%0AProduct%20page%3A%20https%3A//chuanweifire.com/products/fire-pumps-controllers/fire-pump-inspection-control-cabinets.html%0AQuantity%20/%20destination%20/%20requirements%3A",
+    "email": "mailto:zhengcolin1@gmail.com"
+  },
+  "validation": {
+    "anchors": [
+      "gallery",
+      "specifications",
+      "models",
+      "quotation"
+    ],
+    "requiredTechnicalValues": []
+  },
+  "copy": {
+    "en": {
+      "onThisPage": "On this page",
+      "gallery": "Product gallery",
+      "galleryTitle": "Product views",
+      "galleryBody": "Select an image to view the pictured product or configuration.",
+      "specifications": "Specifications",
+      "specificationsTitle": "Product specifications",
+      "specificationsBody": "Use the specifications together with the configuration table below.",
+      "availableModels": "Models & configurations",
+      "modelsTitle": "Models & configurations",
+      "modelsBody": "Match the product reference and selection details to your order.",
+      "modelsNote": "The photographs illustrate selected configurations. Specify the required model and quantity when requesting a quotation.",
+      "factoryModel": "Product reference",
+      "configuration": "Configuration",
+      "selectionDetails": "Selection details",
+      "temperature": "Temperature",
+      "thermalElement": "Thermal element",
+      "quotation": "Request a quotation",
+      "quotationTitle": "Select your configuration",
+      "quotationBody": "Include the product reference, quantity and delivery destination, together with the requirements below.",
+      "askOnWhatsApp": "Ask on WhatsApp",
+      "emailSales": "Email sales",
+      "productImagePreview": "Product image preview",
+      "closeImagePreview": "Close image preview",
+      "enlargedImage": "Enlarged product image",
+      "previousProductImage": "Previous product image",
+      "nextProductImage": "Next product image",
+      "selectProductImage": "Select product image",
+      "inquiryTitle": "Request product details and a quotation",
+      "inquiryBody": "Send your selected configuration, quantity and destination.",
+      "title": "Fire Pump Inspection & Control Cabinets",
+      "lead": "Choose an inspection control cabinet or a dual power cabinet for the required fire pump electrical arrangement. The photographed configurations are identified separately in the selection table.",
+      "eyebrow": "Fire Pumps & Control Cabinets",
+      "seoTitle": "Fire Pump Inspection & Control Cabinets | CHUANWEI FIRE",
+      "seoDescription": "Choose an inspection control cabinet or a dual power cabinet for the required fire pump electrical arrangement. The photographed configurations are identified separately in the selection table.",
+      "note": "State the number of connected pumps, each motor rating and the inspection or power-control function required.",
+      "image0Alt": "JX-XFXJ series inspection cabinet reference.",
+      "image0Caption": "JX-XFXJ series inspection cabinet reference.",
+      "image1Alt": "Additional inspection cabinet; exact model selected by enquiry.",
+      "image1Caption": "Additional inspection cabinet; exact model selected by enquiry.",
+      "spec0Label": "Named cabinet models",
+      "spec0Value": "JX-XFXJ-7.5 / JX-ATS-63A",
+      "spec1Label": "JX-XFXJ-7.5 function",
+      "spec1Value": "Inspection control",
+      "spec2Label": "JX-ATS-63A function",
+      "spec2Value": "Dual power supply control",
+      "spec3Label": "Named cabinet supply",
+      "spec3Value": "380 V",
+      "spec4Label": "Named cabinet dimensions",
+      "spec4Value": "1200 × 600 × 400 mm; supplier sequence",
+      "spec5Label": "Named cabinet enclosure",
+      "spec5Value": "Cold rolled steel",
+      "spec6Label": "Additional photographed cabinet supply",
+      "spec6Value": "380 V",
+      "spec7Label": "Additional photographed cabinet enclosure",
+      "spec7Value": "Cold rolled steel",
+      "model0Name": "JX-XFXJ-7.5 inspection cabinet",
+      "model0Reference": "JX-XFXJ-7.5",
+      "model0Selection": "Inspection control; 380 V; cabinet 1200 × 600 × 400 mm in supplier sequence.",
+      "model1Name": "JX-ATS-63A dual power cabinet",
+      "model1Reference": "JX-ATS-63A",
+      "model1Selection": "Dual power control; 380 V; cabinet 1200 × 600 × 400 mm in supplier sequence.",
+      "model2Name": "Additional inspection cabinet configuration",
+      "model2Reference": "Available on request",
+      "model2Selection": "380 V, cold rolled steel enclosure; identify the exact cabinet from the reference image when enquiring.",
+      "selection0Label": "Pump and control duty",
+      "selection0Body": "State the number of connected pumps, each motor rating and the inspection or power-control function required.",
+      "selection1Label": "Schematic and installation",
+      "selection1Body": "Send the approved control schematic, supply frequency and cabinet layout; identify the photographed configuration to be supplied."
+    },
+    "ar": {
+      "onThisPage": "في هذه الصفحة",
+      "gallery": "صور المنتج",
+      "galleryTitle": "عرض المنتج",
+      "galleryBody": "اختر صورة لعرض المنتج أو التكوين الظاهر فيها.",
+      "specifications": "المواصفات",
+      "specificationsTitle": "مواصفات المنتج",
+      "specificationsBody": "استخدم المواصفات مع جدول التكوينات أدناه.",
+      "availableModels": "الموديلات والتكوينات",
+      "modelsTitle": "الموديلات والتكوينات",
+      "modelsBody": "طابق مرجع المنتج وتفاصيل الاختيار مع طلبك.",
+      "modelsNote": "تعرض الصور تكوينات مختارة. حدد الموديل والكمية المطلوبة عند طلب عرض السعر.",
+      "factoryModel": "مرجع المنتج",
+      "configuration": "التكوين",
+      "selectionDetails": "تفاصيل الاختيار",
+      "temperature": "درجة الحرارة",
+      "thermalElement": "العنصر الحراري",
+      "quotation": "طلب عرض سعر",
+      "quotationTitle": "اختر التكوين المطلوب",
+      "quotationBody": "أرسل مرجع المنتج والكمية ووجهة التسليم والمتطلبات أدناه.",
+      "askOnWhatsApp": "استفسر عبر WhatsApp",
+      "emailSales": "راسل قسم المبيعات",
+      "productImagePreview": "معاينة صورة المنتج",
+      "closeImagePreview": "إغلاق معاينة الصورة",
+      "enlargedImage": "صورة مكبرة للمنتج",
+      "previousProductImage": "صورة المنتج السابقة",
+      "nextProductImage": "صورة المنتج التالية",
+      "selectProductImage": "اختر صورة المنتج",
+      "inquiryTitle": "اطلب تفاصيل المنتج وعرض سعر",
+      "inquiryBody": "أرسل التكوين المختار والكمية والوجهة.",
+      "title": "خزائن فحص وتحكم لمضخات الحريق",
+      "lead": "اختر خزانة فحص وتحكم أو خزانة بمصدرَي تغذية وفق الترتيب الكهربائي المطلوب لمضخات الحريق. تعرض التكوينات المصورة بشكل منفصل في جدول الاختيار.",
+      "eyebrow": "مضخات الحريق وخزائن التحكم",
+      "seoTitle": "خزائن فحص وتحكم لمضخات الحريق | CHUANWEI FIRE",
+      "seoDescription": "اختر خزانة فحص وتحكم أو خزانة بمصدرَي تغذية وفق الترتيب الكهربائي المطلوب لمضخات الحريق. تعرض التكوينات المصورة بشكل منفصل في جدول الاختيار.",
+      "note": "حدد عدد المضخات المتصلة وقدرة كل محرك ووظيفة الفحص أو التحكم بالتغذية المطلوبة.",
+      "image0Alt": "صورة مرجعية لخزانة فحص من سلسلة JX-XFXJ.",
+      "image0Caption": "صورة مرجعية لخزانة فحص من سلسلة JX-XFXJ.",
+      "image1Alt": "خزانة فحص إضافية؛ يحدد الموديل الدقيق عند الاستفسار.",
+      "image1Caption": "خزانة فحص إضافية؛ يحدد الموديل الدقيق عند الاستفسار.",
+      "spec0Label": "موديلات الخزائن المسماة",
+      "spec0Value": "JX-XFXJ-7.5 / JX-ATS-63A",
+      "spec1Label": "وظيفة JX-XFXJ-7.5",
+      "spec1Value": "الفحص والتحكم",
+      "spec2Label": "وظيفة JX-ATS-63A",
+      "spec2Value": "التحكم بمصدرَي تغذية",
+      "spec3Label": "تغذية الخزائن المسماة",
+      "spec3Value": "380 V",
+      "spec4Label": "أبعاد الخزائن المسماة",
+      "spec4Value": "1200 × 600 × 400 mm؛ حسب ترتيب المورد",
+      "spec5Label": "هيكل الخزائن المسماة",
+      "spec5Value": "فولاذ مدرفل على البارد",
+      "spec6Label": "تغذية الخزانة الإضافية المصورة",
+      "spec6Value": "380 V",
+      "spec7Label": "هيكل الخزانة الإضافية المصورة",
+      "spec7Value": "فولاذ مدرفل على البارد",
+      "model0Name": "خزانة فحص JX-XFXJ-7.5",
+      "model0Reference": "JX-XFXJ-7.5",
+      "model0Selection": "فحص وتحكم؛ 380 V؛ أبعاد الخزانة 1200 × 600 × 400 mm حسب ترتيب المورد.",
+      "model1Name": "خزانة بمصدرَي تغذية JX-ATS-63A",
+      "model1Reference": "JX-ATS-63A",
+      "model1Selection": "تحكم بمصدرَي تغذية؛ 380 V؛ أبعاد الخزانة 1200 × 600 × 400 mm حسب ترتيب المورد.",
+      "model2Name": "تكوين إضافي لخزانة فحص",
+      "model2Reference": "حسب طلب الاستفسار",
+      "model2Selection": "380 V، هيكل من الفولاذ المدرفل على البارد؛ حدد الخزانة المطلوبة من الصورة المرجعية عند الاستفسار.",
+      "selection0Label": "متطلبات المضخات والتحكم",
+      "selection0Body": "حدد عدد المضخات المتصلة وقدرة كل محرك ووظيفة الفحص أو التحكم بالتغذية المطلوبة.",
+      "selection1Label": "المخطط والتركيب",
+      "selection1Body": "أرسل مخطط التحكم المعتمد وتردد التغذية ومخطط الخزانة، وحدد التكوين المصور المطلوب توريده."
+    }
+  }
+}

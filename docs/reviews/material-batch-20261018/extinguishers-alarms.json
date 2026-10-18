@@ -1,0 +1,2721 @@
+{
+  "products": [
+    {
+      "id": "portable-dry-powder-fire-extinguishers",
+      "familyId": "fire-extinguishers",
+      "name": {
+        "en": "Portable Dry Powder Fire Extinguishers",
+        "ar": "طفايات حريق محمولة بالمسحوق الجاف",
+        "zh": "手提式干粉灭火器"
+      },
+      "lead": {
+        "en": "Portable dry powder extinguishers with carbon steel cylinders and manual lever operation. Agent charges from 1 kg to 8 kg are listed, with direct-nozzle and hose configurations.",
+        "ar": "طفايات محمولة بالمسحوق الجاف بأسطوانات من الفولاذ الكربوني وتشغيل يدوي بالذراع. تتوفر سعات موثقة من 1 kg إلى 8 kg، بتجهيزات فوهة مباشرة أو خرطوم."
+      },
+      "sourceNames": [
+        "MF-ABCE系列-手提式干粉灭火器",
+        "MF-ABCE1-3-手提式干粉灭火器",
+        "MF-ABCE4-8-手提式干粉灭火器"
+      ],
+      "heroSourceName": "MF-ABCE系列-手提式干粉灭火器",
+      "specs": [
+        {
+          "label": {
+            "en": "Extinguishing agent",
+            "ar": "مادة الإطفاء"
+          },
+          "value": {
+            "en": "Dry powder",
+            "ar": "مسحوق جاف"
+          },
+          "sources": [
+            "02-产品资料/1601982074653_MF-ABCE系列-手提式干粉灭火器/原产品资料/copy/listing-fields.json"
+          ],
+          "evidence": "Documented"
+        },
+        {
+          "label": {
+            "en": "Cylinder material",
+            "ar": "مادة الأسطوانة"
+          },
+          "value": {
+            "en": "Carbon steel",
+            "ar": "فولاذ كربوني"
+          },
+          "sources": [
+            "02-产品资料/1601982074653_MF-ABCE系列-手提式干粉灭火器/原产品资料/copy/listing-fields.json"
+          ],
+          "evidence": "Documented"
+        },
+        {
+          "label": {
+            "en": "Format",
+            "ar": "التصميم"
+          },
+          "value": {
+            "en": "Portable",
+            "ar": "محمول"
+          },
+          "sources": [
+            "02-产品资料/1601982074653_MF-ABCE系列-手提式干粉灭火器/原产品资料/copy/listing-fields.json"
+          ],
+          "evidence": "Documented"
+        },
+        {
+          "label": {
+            "en": "Operation",
+            "ar": "التشغيل"
+          },
+          "value": {
+            "en": "Manual lever",
+            "ar": "ذراع يدوي"
+          },
+          "sources": [
+            "02-产品资料/1601982901931_MF-ABCE1-3-手提式干粉灭火器/原产品资料/copy/listing.json",
+            "02-产品资料/1601982946647_MF-ABCE4-8-手提式干粉灭火器/原产品资料/copy/listing.json"
+          ],
+          "evidence": "Documented"
+        },
+        {
+          "label": {
+            "en": "Agent charge options",
+            "ar": "خيارات كتلة مادة الإطفاء"
+          },
+          "value": {
+            "en": "1 / 2 / 3 / 4 / 5 / 6 / 8 kg",
+            "ar": "1 / 2 / 3 / 4 / 5 / 6 / 8 kg"
+          },
+          "sources": [
+            "02-产品资料/1601982074653_MF-ABCE系列-手提式干粉灭火器/原产品资料/copy/listing-fields.json"
+          ],
+          "evidence": "Documented"
+        },
+        {
+          "label": {
+            "en": "Outlet: 1–3 kg",
+            "ar": "المخرج: 1–3 kg"
+          },
+          "value": {
+            "en": "Direct nozzle",
+            "ar": "فوهة مباشرة"
+          },
+          "sources": [
+            "02-产品资料/1601982901931_MF-ABCE1-3-手提式干粉灭火器/原产品资料/copy/listing.json"
+          ],
+          "evidence": "Documented"
+        },
+        {
+          "label": {
+            "en": "Outlet: 4–8 kg",
+            "ar": "المخرج: 4–8 kg"
+          },
+          "value": {
+            "en": "Hose and nozzle",
+            "ar": "خرطوم وفوهة"
+          },
+          "sources": [
+            "02-产品资料/1601982946647_MF-ABCE4-8-手提式干粉灭火器/原产品资料/copy/listing.json"
+          ],
+          "evidence": "Documented"
+        },
+        {
+          "label": {
+            "en": "Pressure indicator",
+            "ar": "مؤشر الضغط"
+          },
+          "value": {
+            "en": "Fitted",
+            "ar": "مزود بمؤشر ضغط"
+          },
+          "sources": [
+            "02-产品资料/1601982074653_MF-ABCE系列-手提式干粉灭火器/原产品资料/copy/listing-fields.json"
+          ],
+          "evidence": "Documented"
+        }
+      ],
+      "models": [
+        {
+          "name": {
+            "en": "1 kg dry powder",
+            "ar": "مسحوق جاف بسعة 1 kg"
+          },
+          "factoryReference": "MF/ABCE1",
+          "selection": {
+            "en": "Direct nozzle; manual lever.",
+            "ar": "فوهة مباشرة؛ ذراع يدوي."
+          },
+          "sourceNames": [
+            "MF-ABCE系列-手提式干粉灭火器",
+            "MF-ABCE1-3-手提式干粉灭火器"
+          ],
+          "sources": [
+            "02-产品资料/1601982074653_MF-ABCE系列-手提式干粉灭火器/原产品资料/copy/listing-fields.json",
+            "02-产品资料/1601982901931_MF-ABCE1-3-手提式干粉灭火器/原产品资料/copy/listing.json"
+          ]
+        },
+        {
+          "name": {
+            "en": "2 kg dry powder",
+            "ar": "مسحوق جاف بسعة 2 kg"
+          },
+          "factoryReference": "MF/ABCE2",
+          "selection": {
+            "en": "Direct nozzle; manual lever.",
+            "ar": "فوهة مباشرة؛ ذراع يدوي."
+          },
+          "sourceNames": [
+            "MF-ABCE系列-手提式干粉灭火器",
+            "MF-ABCE1-3-手提式干粉灭火器"
+          ],
+          "sources": [
+            "02-产品资料/1601982074653_MF-ABCE系列-手提式干粉灭火器/原产品资料/copy/listing-fields.json",
+            "02-产品资料/1601982901931_MF-ABCE1-3-手提式干粉灭火器/原产品资料/copy/listing.json"
+          ]
+        },
+        {
+          "name": {
+            "en": "3 kg dry powder",
+            "ar": "مسحوق جاف بسعة 3 kg"
+          },
+          "factoryReference": "MF/ABCE3",
+          "selection": {
+            "en": "Direct nozzle; manual lever.",
+            "ar": "فوهة مباشرة؛ ذراع يدوي."
+          },
+          "sourceNames": [
+            "MF-ABCE系列-手提式干粉灭火器",
+            "MF-ABCE1-3-手提式干粉灭火器"
+          ],
+          "sources": [
+            "02-产品资料/1601982074653_MF-ABCE系列-手提式干粉灭火器/原产品资料/copy/listing-fields.json",
+            "02-产品资料/1601982901931_MF-ABCE1-3-手提式干粉灭火器/原产品资料/copy/listing.json"
+          ]
+        },
+        {
+          "name": {
+            "en": "4 kg dry powder",
+            "ar": "مسحوق جاف بسعة 4 kg"
+          },
+          "factoryReference": "MF/ABCE4",
+          "selection": {
+            "en": "Hose and nozzle; manual lever.",
+            "ar": "خرطوم وفوهة؛ ذراع يدوي."
+          },
+          "sourceNames": [
+            "MF-ABCE系列-手提式干粉灭火器",
+            "MF-ABCE4-8-手提式干粉灭火器"
+          ],
+          "sources": [
+            "02-产品资料/1601982074653_MF-ABCE系列-手提式干粉灭火器/原产品资料/copy/listing-fields.json",
+            "02-产品资料/1601982946647_MF-ABCE4-8-手提式干粉灭火器/原产品资料/copy/listing.json"
+          ]
+        },
+        {
+          "name": {
+            "en": "5 kg dry powder",
+            "ar": "مسحوق جاف بسعة 5 kg"
+          },
+          "factoryReference": "MF/ABCE5",
+          "selection": {
+            "en": "Hose and nozzle; manual lever.",
+            "ar": "خرطوم وفوهة؛ ذراع يدوي."
+          },
+          "sourceNames": [
+            "MF-ABCE系列-手提式干粉灭火器",
+            "MF-ABCE4-8-手提式干粉灭火器"
+          ],
+          "sources": [
+            "02-产品资料/1601982074653_MF-ABCE系列-手提式干粉灭火器/原产品资料/copy/listing-fields.json",
+            "02-产品资料/1601982946647_MF-ABCE4-8-手提式干粉灭火器/原产品资料/copy/listing.json"
+          ]
+        },
+        {
+          "name": {
+            "en": "6 kg dry powder",
+            "ar": "مسحوق جاف بسعة 6 kg"
+          },
+          "factoryReference": "MF/ABCE6",
+          "selection": {
+            "en": "Hose and nozzle; manual lever.",
+            "ar": "خرطوم وفوهة؛ ذراع يدوي."
+          },
+          "sourceNames": [
+            "MF-ABCE系列-手提式干粉灭火器",
+            "MF-ABCE4-8-手提式干粉灭火器"
+          ],
+          "sources": [
+            "02-产品资料/1601982074653_MF-ABCE系列-手提式干粉灭火器/原产品资料/copy/listing-fields.json",
+            "02-产品资料/1601982946647_MF-ABCE4-8-手提式干粉灭火器/原产品资料/copy/listing.json"
+          ]
+        },
+        {
+          "name": {
+            "en": "8 kg dry powder",
+            "ar": "مسحوق جاف بسعة 8 kg"
+          },
+          "factoryReference": "MF/ABCE8",
+          "selection": {
+            "en": "Hose and nozzle; manual lever.",
+            "ar": "خرطوم وفوهة؛ ذراع يدوي."
+          },
+          "sourceNames": [
+            "MF-ABCE系列-手提式干粉灭火器",
+            "MF-ABCE4-8-手提式干粉灭火器"
+          ],
+          "sources": [
+            "02-产品资料/1601982074653_MF-ABCE系列-手提式干粉灭火器/原产品资料/copy/listing-fields.json",
+            "02-产品资料/1601982946647_MF-ABCE4-8-手提式干粉灭火器/原产品资料/copy/listing.json"
+          ]
+        }
+      ],
+      "selectionPrompts": [
+        {
+          "label": {
+            "en": "Capacity and quantity",
+            "ar": "السعة والكمية"
+          },
+          "body": {
+            "en": "Specify the agent charge or volume and the quantity required for each model.",
+            "ar": "حدد كتلة مادة الإطفاء أو حجمها والكمية المطلوبة من كل طراز."
+          }
+        },
+        {
+          "label": {
+            "en": "Project requirements",
+            "ar": "متطلبات المشروع"
+          },
+          "body": {
+            "en": "Send the installation location, required fire rating and destination market so the exact model documents can be checked.",
+            "ar": "أرسل موقع الاستخدام وتصنيف الإطفاء المطلوب وبلد الوجهة للتحقق من وثائق الطراز المحدد."
+          }
+        }
+      ],
+      "imageCaptions": {
+        "MF-ABCE系列-手提式干粉灭火器": {
+          "en": "Portable dry powder series overview.",
+          "ar": "نظرة عامة على سلسلة الطفايات المحمولة بالمسحوق الجاف."
+        },
+        "MF-ABCE1-3-手提式干粉灭火器": {
+          "en": "Compact direct-nozzle configuration; pictured sample MF/ABCE2.",
+          "ar": "تجهيز مدمج بفوهة مباشرة؛ العينة المصورة MF/ABCE2."
+        },
+        "MF-ABCE4-8-手提式干粉灭火器": {
+          "en": "Hose-equipped configuration; pictured sample MF/ABCE4.",
+          "ar": "تجهيز مزود بخرطوم؛ العينة المصورة MF/ABCE4."
+        }
+      },
+      "unresolved": [
+        "精确型号灭火级别、充装压力、使用温度、喷射性能及目的地适用文件待核实。",
+        "整机净重、毛重、包装、交期及商务条件需按订单确认。"
+      ],
+      "notes": [
+        "合并系列与1–3 kg、4–8 kg拆分资料；所有容量按具体型号对应，未将一个标签参数推广全系列。",
+        "碳钢有1、2、3、4、5、6、8 kg逐张参数图核验记录。",
+        "MF/ABCE为工厂型号；不把字母直接转换为国际火灾等级或认证。",
+        "保留实物TAIRUI标识；CHUANWEI FIRE为供货方。"
+      ]
+    },
+    {
+      "id": "portable-water-based-fire-extinguishers",
+      "familyId": "fire-extinguishers",
+      "name": {
+        "en": "Portable Water-Based Fire Extinguishers",
+        "ar": "طفايات حريق محمولة بعامل إطفاء مائي",
+        "zh": "手提式水基灭火器"
+      },
+      "lead": {
+        "en": "Portable water-based extinguishers with manual lever operation and 2 L, 3 L, 6 L and 9 L agent-volume options. The 2 L configuration uses a direct nozzle; larger listed sizes use a hose.",
+        "ar": "طفايات محمولة بعامل إطفاء مائي وتشغيل يدوي بالذراع، بخيارات حجم 2 L و3 L و6 L و9 L. يستخدم تجهيز 2 L فوهة مباشرة، بينما تستخدم الأحجام الأكبر المدرجة خرطوماً."
+      },
+      "sourceNames": [
+        "MS-ABEF系列-手提式水基灭火器",
+        "MS-ABEF2-3-手提式水基灭火器",
+        "MS-ABEF6-9-手提式水基灭火器"
+      ],
+      "heroSourceName": "MS-ABEF系列-手提式水基灭火器",
+      "specs": [
+        {
+          "label": {
+            "en": "Extinguishing agent",
+            "ar": "مادة الإطفاء"
+          },
+          "value": {
+            "en": "Water-based agent",
+            "ar": "عامل إطفاء مائي"
+          },
+          "sources": [
+            "02-产品资料/1601982168047_MS-ABEF系列-手提式水基灭火器/原产品资料/copy/listing-fields.json"
+          ],
+          "evidence": "Documented"
+        },
+        {
+          "label": {
+            "en": "Format",
+            "ar": "التصميم"
+          },
+          "value": {
+            "en": "Portable",
+            "ar": "محمول"
+          },
+          "sources": [
+            "02-产品资料/1601982168047_MS-ABEF系列-手提式水基灭火器/原产品资料/copy/listing-fields.json"
+          ],
+          "evidence": "Documented"
+        },
+        {
+          "label": {
+            "en": "Operation",
+            "ar": "التشغيل"
+          },
+          "value": {
+            "en": "Manual lever",
+            "ar": "ذراع يدوي"
+          },
+          "sources": [
+            "02-产品资料/1601983061033_MS-ABEF2-3-手提式水基灭火器/原产品资料/copy/listing.json",
+            "02-产品资料/1601983004368_MS-ABEF6-9-手提式水基灭火器/原产品资料/copy/listing.json"
+          ],
+          "evidence": "Documented"
+        },
+        {
+          "label": {
+            "en": "Agent volume options",
+            "ar": "خيارات حجم مادة الإطفاء"
+          },
+          "value": {
+            "en": "2 / 3 / 6 / 9 L",
+            "ar": "2 / 3 / 6 / 9 L"
+          },
+          "sources": [
+            "02-产品资料/1601982168047_MS-ABEF系列-手提式水基灭火器/原产品资料/copy/listing-fields.json"
+          ],
+          "evidence": "Documented"
+        },
+        {
+          "label": {
+            "en": "Outlet configurations",
+            "ar": "تجهيزات المخرج"
+          },
+          "value": {
+            "en": "2 L: direct nozzle; 3 / 6 / 9 L: hose",
+            "ar": "2 L: فوهة مباشرة؛ 3 / 6 / 9 L: خرطوم"
+          },
+          "sources": [
+            "02-产品资料/1601983061033_MS-ABEF2-3-手提式水基灭火器/原产品资料/copy/listing.json",
+            "02-产品资料/1601983004368_MS-ABEF6-9-手提式水基灭火器/原产品资料/copy/listing.json"
+          ],
+          "evidence": "Documented"
+        },
+        {
+          "label": {
+            "en": "6 L cylinder material",
+            "ar": "مادة أسطوانة 6 L"
+          },
+          "value": {
+            "en": "Carbon steel, documented for the 6 L model",
+            "ar": "فولاذ كربوني، موثق لطراز 6 L"
+          },
+          "sources": [
+            "02-产品资料/1601982168047_MS-ABEF系列-手提式水基灭火器/原产品资料/copy/listing-fields.json"
+          ],
+          "evidence": "Documented"
+        },
+        {
+          "label": {
+            "en": "Pressure indicator",
+            "ar": "مؤشر الضغط"
+          },
+          "value": {
+            "en": "Fitted",
+            "ar": "مزود بمؤشر ضغط"
+          },
+          "sources": [
+            "02-产品资料/1601982168047_MS-ABEF系列-手提式水基灭火器/原产品资料/copy/listing-fields.json"
+          ],
+          "evidence": "Documented"
+        }
+      ],
+      "models": [
+        {
+          "name": {
+            "en": "2 L water-based",
+            "ar": "عامل إطفاء مائي بحجم 2 L"
+          },
+          "factoryReference": "MS/ABEF2",
+          "selection": {
+            "en": "Direct nozzle; manual lever.",
+            "ar": "فوهة مباشرة؛ ذراع يدوي."
+          },
+          "sourceNames": [
+            "MS-ABEF系列-手提式水基灭火器",
+            "MS-ABEF2-3-手提式水基灭火器"
+          ],
+          "sources": [
+            "02-产品资料/1601982168047_MS-ABEF系列-手提式水基灭火器/原产品资料/copy/listing-fields.json",
+            "02-产品资料/1601983061033_MS-ABEF2-3-手提式水基灭火器/原产品资料/copy/listing.json"
+          ]
+        },
+        {
+          "name": {
+            "en": "3 L water-based",
+            "ar": "عامل إطفاء مائي بحجم 3 L"
+          },
+          "factoryReference": "MS/ABEF3",
+          "selection": {
+            "en": "Hose configuration; manual lever.",
+            "ar": "تجهيز بخرطوم؛ ذراع يدوي."
+          },
+          "sourceNames": [
+            "MS-ABEF系列-手提式水基灭火器",
+            "MS-ABEF2-3-手提式水基灭火器"
+          ],
+          "sources": [
+            "02-产品资料/1601982168047_MS-ABEF系列-手提式水基灭火器/原产品资料/copy/listing-fields.json",
+            "02-产品资料/1601983061033_MS-ABEF2-3-手提式水基灭火器/原产品资料/copy/listing.json"
+          ]
+        },
+        {
+          "name": {
+            "en": "6 L water-based",
+            "ar": "عامل إطفاء مائي بحجم 6 L"
+          },
+          "factoryReference": "MS/ABEF6",
+          "selection": {
+            "en": "Hose configuration; manual lever.",
+            "ar": "تجهيز بخرطوم؛ ذراع يدوي."
+          },
+          "sourceNames": [
+            "MS-ABEF系列-手提式水基灭火器",
+            "MS-ABEF6-9-手提式水基灭火器"
+          ],
+          "sources": [
+            "02-产品资料/1601982168047_MS-ABEF系列-手提式水基灭火器/原产品资料/copy/listing-fields.json",
+            "02-产品资料/1601983004368_MS-ABEF6-9-手提式水基灭火器/原产品资料/copy/listing.json"
+          ]
+        },
+        {
+          "name": {
+            "en": "9 L water-based",
+            "ar": "عامل إطفاء مائي بحجم 9 L"
+          },
+          "factoryReference": "MS/ABEF9",
+          "selection": {
+            "en": "Hose configuration; manual lever.",
+            "ar": "تجهيز بخرطوم؛ ذراع يدوي."
+          },
+          "sourceNames": [
+            "MS-ABEF系列-手提式水基灭火器",
+            "MS-ABEF6-9-手提式水基灭火器"
+          ],
+          "sources": [
+            "02-产品资料/1601982168047_MS-ABEF系列-手提式水基灭火器/原产品资料/copy/listing-fields.json",
+            "02-产品资料/1601983004368_MS-ABEF6-9-手提式水基灭火器/原产品资料/copy/listing.json"
+          ]
+        }
+      ],
+      "selectionPrompts": [
+        {
+          "label": {
+            "en": "Capacity and quantity",
+            "ar": "السعة والكمية"
+          },
+          "body": {
+            "en": "Specify the agent charge or volume and the quantity required for each model.",
+            "ar": "حدد كتلة مادة الإطفاء أو حجمها والكمية المطلوبة من كل طراز."
+          }
+        },
+        {
+          "label": {
+            "en": "Project requirements",
+            "ar": "متطلبات المشروع"
+          },
+          "body": {
+            "en": "Send the installation location, required fire rating and destination market so the exact model documents can be checked.",
+            "ar": "أرسل موقع الاستخدام وتصنيف الإطفاء المطلوب وبلد الوجهة للتحقق من وثائق الطراز المحدد."
+          }
+        },
+        {
+          "label": {
+            "en": "Agent formulation",
+            "ar": "تركيبة مادة الإطفاء"
+          },
+          "body": {
+            "en": "Provide any formulation or environmental requirements and request the matching safety data sheet for the proposed model.",
+            "ar": "حدد متطلبات تركيبة مادة الإطفاء أو المتطلبات البيئية، واطلب صحيفة بيانات السلامة الخاصة بالطراز المقترح."
+          }
+        }
+      ],
+      "imageCaptions": {
+        "MS-ABEF系列-手提式水基灭火器": {
+          "en": "Water-based extinguisher series overview.",
+          "ar": "نظرة عامة على سلسلة الطفايات بعامل إطفاء مائي."
+        },
+        "MS-ABEF2-3-手提式水基灭火器": {
+          "en": "Small-capacity configuration; pictured sample MS/ABEF2.",
+          "ar": "تجهيز السعة الصغيرة؛ العينة المصورة MS/ABEF2."
+        },
+        "MS-ABEF6-9-手提式水基灭火器": {
+          "en": "Hose-equipped configuration; pictured sample MS/ABEF6.",
+          "ar": "تجهيز مزود بخرطوم؛ العينة المصورة MS/ABEF6."
+        }
+      },
+      "unresolved": [
+        "精确型号灭火级别、充装压力、使用温度、喷射性能及目的地适用文件待核实。",
+        "整机净重、毛重、包装、交期及商务条件需按订单确认。",
+        "2 L、3 L、9 L瓶体材质需单独确认。",
+        "水基药剂配方、SDS、含氟状况及电气火灾适用性未确认。"
+      ],
+      "notes": [
+        "原系列证据明确仅6 L为碳钢，后拆分listing泛写碳钢但缺新增材质证据，保守保留6 L范围。",
+        "L为药剂体积，不当作瓶体容积或整机重量。",
+        "不把MS/ABEF型号字母作为国际通用火灾等级，不宣称无氟或适合带电设备。",
+        "保留实物TAIRUI标识；CHUANWEI FIRE为供货方。"
+      ]
+    },
+    {
+      "id": "portable-co2-fire-extinguishers",
+      "familyId": "fire-extinguishers",
+      "name": {
+        "en": "Portable CO₂ Fire Extinguishers",
+        "ar": "طفايات حريق محمولة بثاني أكسيد الكربون",
+        "zh": "手提式二氧化碳灭火器"
+      },
+      "lead": {
+        "en": "Portable carbon dioxide extinguishers with steel cylinders and manual lever operation. The range includes 2 kg and 3 kg horn configurations and 5 kg and 7 kg hose-and-horn configurations.",
+        "ar": "طفايات محمولة بثاني أكسيد الكربون بأسطوانات فولاذية وتشغيل يدوي بالذراع. تشمل المجموعة طرازي 2 kg و3 kg ببوق تفريغ، وطرازي 5 kg و7 kg بخرطوم وبوق تفريغ."
+      },
+      "sourceNames": [
+        "MT-BE系列-手提式二氧化碳灭火器",
+        "MT-BE2-3-手提式二氧化碳灭火器",
+        "MT-BE5-7-手提式二氧化碳灭火器"
+      ],
+      "heroSourceName": "MT-BE系列-手提式二氧化碳灭火器",
+      "specs": [
+        {
+          "label": {
+            "en": "Extinguishing agent",
+            "ar": "مادة الإطفاء"
+          },
+          "value": {
+            "en": "Carbon dioxide (CO₂)",
+            "ar": "ثاني أكسيد الكربون (CO₂)"
+          },
+          "sources": [
+            "02-产品资料/1601982143148_MT-BE系列-手提式二氧化碳灭火器/原产品资料/copy/listing-fields.json"
+          ],
+          "evidence": "Documented"
+        },
+        {
+          "label": {
+            "en": "Cylinder material",
+            "ar": "مادة الأسطوانة"
+          },
+          "value": {
+            "en": "Steel",
+            "ar": "فولاذ"
+          },
+          "sources": [
+            "02-产品资料/1601982143148_MT-BE系列-手提式二氧化碳灭火器/原产品资料/copy/listing-fields.json"
+          ],
+          "evidence": "Documented"
+        },
+        {
+          "label": {
+            "en": "Format",
+            "ar": "التصميم"
+          },
+          "value": {
+            "en": "Portable",
+            "ar": "محمول"
+          },
+          "sources": [
+            "02-产品资料/1601982143148_MT-BE系列-手提式二氧化碳灭火器/原产品资料/copy/listing-fields.json"
+          ],
+          "evidence": "Documented"
+        },
+        {
+          "label": {
+            "en": "Operation",
+            "ar": "التشغيل"
+          },
+          "value": {
+            "en": "Manual lever",
+            "ar": "ذراع يدوي"
+          },
+          "sources": [
+            "02-产品资料/1601982916982_MT-BE2-3-手提式二氧化碳灭火器/原产品资料/copy/listing.json",
+            "02-产品资料/1601983024274_MT-BE5-7-手提式二氧化碳灭火器/原产品资料/copy/listing.json"
+          ],
+          "evidence": "Documented"
+        },
+        {
+          "label": {
+            "en": "Agent charge options",
+            "ar": "خيارات كتلة مادة الإطفاء"
+          },
+          "value": {
+            "en": "2 / 3 / 5 / 7 kg",
+            "ar": "2 / 3 / 5 / 7 kg"
+          },
+          "sources": [
+            "02-产品资料/1601982143148_MT-BE系列-手提式二氧化碳灭火器/原产品资料/copy/listing-fields.json"
+          ],
+          "evidence": "Documented"
+        },
+        {
+          "label": {
+            "en": "Outlet configurations",
+            "ar": "تجهيزات المخرج"
+          },
+          "value": {
+            "en": "2 / 3 kg: discharge horn; 5 / 7 kg: flexible hose and horn",
+            "ar": "2 / 3 kg: بوق تفريغ؛ 5 / 7 kg: خرطوم مرن وبوق تفريغ"
+          },
+          "sources": [
+            "02-产品资料/1601982916982_MT-BE2-3-手提式二氧化碳灭火器/原产品资料/copy/listing.json",
+            "02-产品资料/1601983024274_MT-BE5-7-手提式二氧化碳灭火器/原产品资料/copy/listing.json"
+          ],
+          "evidence": "Documented"
+        }
+      ],
+      "models": [
+        {
+          "name": {
+            "en": "2 kg CO₂",
+            "ar": "ثاني أكسيد الكربون بسعة 2 kg"
+          },
+          "factoryReference": "MT/BE2",
+          "selection": {
+            "en": "Discharge horn; manual lever.",
+            "ar": "بوق تفريغ؛ ذراع يدوي."
+          },
+          "sourceNames": [
+            "MT-BE系列-手提式二氧化碳灭火器",
+            "MT-BE2-3-手提式二氧化碳灭火器"
+          ],
+          "sources": [
+            "02-产品资料/1601982143148_MT-BE系列-手提式二氧化碳灭火器/原产品资料/copy/listing-fields.json",
+            "02-产品资料/1601982916982_MT-BE2-3-手提式二氧化碳灭火器/原产品资料/copy/listing.json"
+          ]
+        },
+        {
+          "name": {
+            "en": "3 kg CO₂",
+            "ar": "ثاني أكسيد الكربون بسعة 3 kg"
+          },
+          "factoryReference": "MT/BE3",
+          "selection": {
+            "en": "Discharge horn; manual lever.",
+            "ar": "بوق تفريغ؛ ذراع يدوي."
+          },
+          "sourceNames": [
+            "MT-BE系列-手提式二氧化碳灭火器",
+            "MT-BE2-3-手提式二氧化碳灭火器"
+          ],
+          "sources": [
+            "02-产品资料/1601982143148_MT-BE系列-手提式二氧化碳灭火器/原产品资料/copy/listing-fields.json",
+            "02-产品资料/1601982916982_MT-BE2-3-手提式二氧化碳灭火器/原产品资料/copy/listing.json"
+          ]
+        },
+        {
+          "name": {
+            "en": "5 kg CO₂",
+            "ar": "ثاني أكسيد الكربون بسعة 5 kg"
+          },
+          "factoryReference": "MT/BE5",
+          "selection": {
+            "en": "Flexible hose and horn; manual lever.",
+            "ar": "خرطوم مرن وبوق تفريغ؛ ذراع يدوي."
+          },
+          "sourceNames": [
+            "MT-BE系列-手提式二氧化碳灭火器",
+            "MT-BE5-7-手提式二氧化碳灭火器"
+          ],
+          "sources": [
+            "02-产品资料/1601982143148_MT-BE系列-手提式二氧化碳灭火器/原产品资料/copy/listing-fields.json",
+            "02-产品资料/1601983024274_MT-BE5-7-手提式二氧化碳灭火器/原产品资料/copy/listing.json"
+          ]
+        },
+        {
+          "name": {
+            "en": "7 kg CO₂",
+            "ar": "ثاني أكسيد الكربون بسعة 7 kg"
+          },
+          "factoryReference": "MT/BE7",
+          "selection": {
+            "en": "Flexible hose and horn; manual lever.",
+            "ar": "خرطوم مرن وبوق تفريغ؛ ذراع يدوي."
+          },
+          "sourceNames": [
+            "MT-BE系列-手提式二氧化碳灭火器",
+            "MT-BE5-7-手提式二氧化碳灭火器"
+          ],
+          "sources": [
+            "02-产品资料/1601982143148_MT-BE系列-手提式二氧化碳灭火器/原产品资料/copy/listing-fields.json",
+            "02-产品资料/1601983024274_MT-BE5-7-手提式二氧化碳灭火器/原产品资料/copy/listing.json"
+          ]
+        }
+      ],
+      "selectionPrompts": [
+        {
+          "label": {
+            "en": "Capacity and quantity",
+            "ar": "السعة والكمية"
+          },
+          "body": {
+            "en": "Specify the agent charge or volume and the quantity required for each model.",
+            "ar": "حدد كتلة مادة الإطفاء أو حجمها والكمية المطلوبة من كل طراز."
+          }
+        },
+        {
+          "label": {
+            "en": "Project requirements",
+            "ar": "متطلبات المشروع"
+          },
+          "body": {
+            "en": "Send the installation location, required fire rating and destination market so the exact model documents can be checked.",
+            "ar": "أرسل موقع الاستخدام وتصنيف الإطفاء المطلوب وبلد الوجهة للتحقق من وثائق الطراز المحدد."
+          }
+        }
+      ],
+      "imageCaptions": {
+        "MT-BE系列-手提式二氧化碳灭火器": {
+          "en": "Portable carbon dioxide extinguisher series.",
+          "ar": "سلسلة الطفايات المحمولة بثاني أكسيد الكربون."
+        },
+        "MT-BE2-3-手提式二氧化碳灭火器": {
+          "en": "Discharge-horn configuration; pictured sample MT/BE3.",
+          "ar": "تجهيز ببوق تفريغ؛ العينة المصورة MT/BE3."
+        },
+        "MT-BE5-7-手提式二氧化碳灭火器": {
+          "en": "Flexible hose and horn; pictured sample MT/BE5.",
+          "ar": "خرطوم مرن وبوق تفريغ؛ العينة المصورة MT/BE5."
+        }
+      },
+      "unresolved": [
+        "精确型号灭火级别、充装压力、使用温度、喷射性能及目的地适用文件待核实。",
+        "整机净重、毛重、包装、交期及商务条件需按订单确认。",
+        "钢材牌号及热处理资料待核实。"
+      ],
+      "notes": [
+        "原网页合金钢与图片碳钢冲突，取共同可证实事实钢制，不指定钢种。",
+        "仅2、3、5、7 kg手提式范围，不将30 kg推车式扩入。",
+        "保留实物TAIRUI标识；型号后缀BE不转换为国际火灾等级。"
+      ]
+    },
+    {
+      "id": "wheeled-dry-powder-fire-extinguishers",
+      "familyId": "fire-extinguishers",
+      "name": {
+        "en": "Wheeled Dry Powder Fire Extinguishers",
+        "ar": "طفايات حريق بعجلات بالمسحوق الجاف",
+        "zh": "推车式干粉灭火器"
+      },
+      "lead": {
+        "en": "Wheeled dry powder extinguishers with carbon steel cylinders and manual discharge equipment. The documented range covers 20 kg, 35 kg and 50 kg agent charges.",
+        "ar": "طفايات بالمسحوق الجاف مزودة بعجلات وأسطوانات من الفولاذ الكربوني وتجهيزات تفريغ يدوية. تشمل المجموعة الموثقة سعات مادة إطفاء 20 kg و35 kg و50 kg."
+      },
+      "sourceNames": [
+        "MFT-ABCE系列-推车式干粉灭火器"
+      ],
+      "heroSourceName": "MFT-ABCE系列-推车式干粉灭火器",
+      "specs": [
+        {
+          "label": {
+            "en": "Extinguishing agent",
+            "ar": "مادة الإطفاء"
+          },
+          "value": {
+            "en": "Dry powder",
+            "ar": "مسحوق جاف"
+          },
+          "sources": [
+            "02-产品资料/1601982128286_MFT-ABCE系列-推车式干粉灭火器/原产品资料/copy/listing-fields.json"
+          ],
+          "evidence": "Documented"
+        },
+        {
+          "label": {
+            "en": "Cylinder material",
+            "ar": "مادة الأسطوانة"
+          },
+          "value": {
+            "en": "Carbon steel",
+            "ar": "فولاذ كربوني"
+          },
+          "sources": [
+            "02-产品资料/1601982128286_MFT-ABCE系列-推车式干粉灭火器/原产品资料/copy/listing-fields.json"
+          ],
+          "evidence": "Documented"
+        },
+        {
+          "label": {
+            "en": "Format",
+            "ar": "التصميم"
+          },
+          "value": {
+            "en": "Wheeled",
+            "ar": "مزود بعجلات"
+          },
+          "sources": [
+            "02-产品资料/1601982128286_MFT-ABCE系列-推车式干粉灭火器/原产品资料/copy/listing-fields.json"
+          ],
+          "evidence": "Documented"
+        },
+        {
+          "label": {
+            "en": "Operation",
+            "ar": "التشغيل"
+          },
+          "value": {
+            "en": "Manual discharge",
+            "ar": "تفريغ يدوي"
+          },
+          "sources": [
+            "02-产品资料/1601982128286_MFT-ABCE系列-推车式干粉灭火器/原产品资料/copy/listing-fields.json"
+          ],
+          "evidence": "Documented"
+        },
+        {
+          "label": {
+            "en": "Agent charge options",
+            "ar": "خيارات كتلة مادة الإطفاء"
+          },
+          "value": {
+            "en": "20 / 35 / 50 kg",
+            "ar": "20 / 35 / 50 kg"
+          },
+          "sources": [
+            "02-产品资料/1601982128286_MFT-ABCE系列-推车式干粉灭火器/原产品资料/copy/listing-fields.json"
+          ],
+          "evidence": "Documented"
+        }
+      ],
+      "models": [
+        {
+          "name": {
+            "en": "20 kg wheeled dry powder",
+            "ar": "طفاية بعجلات ومسحوق جاف بسعة 20 kg"
+          },
+          "factoryReference": "MFT/ABCE20",
+          "selection": {
+            "en": "Wheeled cylinder configuration with manual discharge equipment.",
+            "ar": "تجهيز أسطوانة بعجلات ومعدات تفريغ يدوية."
+          },
+          "sourceNames": [
+            "MFT-ABCE系列-推车式干粉灭火器"
+          ],
+          "sources": [
+            "02-产品资料/1601982128286_MFT-ABCE系列-推车式干粉灭火器/原产品资料/copy/listing-fields.json"
+          ]
+        },
+        {
+          "name": {
+            "en": "35 kg wheeled dry powder",
+            "ar": "طفاية بعجلات ومسحوق جاف بسعة 35 kg"
+          },
+          "factoryReference": "MFT/ABCE35",
+          "selection": {
+            "en": "Wheeled cylinder configuration with manual discharge equipment.",
+            "ar": "تجهيز أسطوانة بعجلات ومعدات تفريغ يدوية."
+          },
+          "sourceNames": [
+            "MFT-ABCE系列-推车式干粉灭火器"
+          ],
+          "sources": [
+            "02-产品资料/1601982128286_MFT-ABCE系列-推车式干粉灭火器/原产品资料/copy/listing-fields.json"
+          ]
+        },
+        {
+          "name": {
+            "en": "50 kg wheeled dry powder",
+            "ar": "طفاية بعجلات ومسحوق جاف بسعة 50 kg"
+          },
+          "factoryReference": "MFT/ABCE50",
+          "selection": {
+            "en": "Wheeled cylinder configuration with manual discharge equipment.",
+            "ar": "تجهيز أسطوانة بعجلات ومعدات تفريغ يدوية."
+          },
+          "sourceNames": [
+            "MFT-ABCE系列-推车式干粉灭火器"
+          ],
+          "sources": [
+            "02-产品资料/1601982128286_MFT-ABCE系列-推车式干粉灭火器/原产品资料/copy/listing-fields.json"
+          ]
+        }
+      ],
+      "selectionPrompts": [
+        {
+          "label": {
+            "en": "Capacity and quantity",
+            "ar": "السعة والكمية"
+          },
+          "body": {
+            "en": "Specify the agent charge or volume and the quantity required for each model.",
+            "ar": "حدد كتلة مادة الإطفاء أو حجمها والكمية المطلوبة من كل طراز."
+          }
+        },
+        {
+          "label": {
+            "en": "Project requirements",
+            "ar": "متطلبات المشروع"
+          },
+          "body": {
+            "en": "Send the installation location, required fire rating and destination market so the exact model documents can be checked.",
+            "ar": "أرسل موقع الاستخدام وتصنيف الإطفاء المطلوب وبلد الوجهة للتحقق من وثائق الطراز المحدد."
+          }
+        },
+        {
+          "label": {
+            "en": "Handling and discharge equipment",
+            "ar": "المناولة وتجهيزات التفريغ"
+          },
+          "body": {
+            "en": "Specify access constraints and the required hose arrangement so overall dimensions and equipment can be checked.",
+            "ar": "حدد قيود الوصول وتجهيز الخرطوم المطلوب للتحقق من الأبعاد الكلية والمعدات."
+          }
+        }
+      ],
+      "imageCaptions": {
+        "MFT-ABCE系列-推车式干粉灭火器": {
+          "en": "Wheeled dry powder extinguisher configuration.",
+          "ar": "تجهيز طفاية بالمسحوق الجاف مزودة بعجلات."
+        }
+      },
+      "unresolved": [
+        "精确型号灭火级别、充装压力、使用温度、喷射性能及目的地适用文件待核实。",
+        "整机净重、毛重、包装、交期及商务条件需按订单确认。",
+        "软管长度、喷枪参数、尺寸和推车部件材质待核实。"
+      ],
+      "notes": [
+        "20、35、50 kg分别有碳钢参数图记录；未采用干粉90%浓度宣传。",
+        "推车式与手提式分别建页，未共用充装或喷枪参数。"
+      ]
+    },
+    {
+      "id": "suspended-dry-powder-extinguishers",
+      "familyId": "automatic-fire-suppression",
+      "name": {
+        "en": "Suspended Dry Powder Fire Extinguishers",
+        "ar": "طفايات حريق معلقة بالمسحوق الجاف",
+        "zh": "悬挂式自动干粉灭火器"
+      },
+      "lead": {
+        "en": "Suspended dry powder extinguishers with a heat-activated glass-bulb release and top suspension ring. Listed ordinary dry powder charges are 4 kg, 6 kg, 8 kg and 10 kg.",
+        "ar": "طفايات معلقة بالمسحوق الجاف مزودة بآلية إطلاق حرارية ذات بصيلة زجاجية وحلقة تعليق علوية. سعات المسحوق الجاف العادي المدرجة هي 4 kg و6 kg و8 kg و10 kg."
+      },
+      "sourceNames": [
+        "悬挂式系列-自动干粉灭火器"
+      ],
+      "heroSourceName": "悬挂式系列-自动干粉灭火器",
+      "specs": [
+        {
+          "label": {
+            "en": "Extinguishing agent",
+            "ar": "مادة الإطفاء"
+          },
+          "value": {
+            "en": "Ordinary dry powder",
+            "ar": "مسحوق جاف عادي"
+          },
+          "sources": [
+            "02-产品资料/1601982160053_悬挂式系列-自动干粉灭火器/原产品资料/copy/listing-fields.json"
+          ],
+          "evidence": "Documented"
+        },
+        {
+          "label": {
+            "en": "Installation",
+            "ar": "التركيب"
+          },
+          "value": {
+            "en": "Suspended",
+            "ar": "معلق"
+          },
+          "sources": [
+            "02-产品资料/1601982160053_悬挂式系列-自动干粉灭火器/原产品资料/copy/listing-fields.json"
+          ],
+          "evidence": "Documented"
+        },
+        {
+          "label": {
+            "en": "Activation",
+            "ar": "التفعيل"
+          },
+          "value": {
+            "en": "Heat-activated glass-bulb release",
+            "ar": "آلية إطلاق حرارية ذات بصيلة زجاجية"
+          },
+          "sources": [
+            "02-产品资料/1601982160053_悬挂式系列-自动干粉灭火器/原产品资料/copy/listing-fields.json"
+          ],
+          "evidence": "Documented"
+        },
+        {
+          "label": {
+            "en": "Nominal agent charges",
+            "ar": "الكتل الاسمية لمادة الإطفاء"
+          },
+          "value": {
+            "en": "4 / 6 / 8 / 10 kg",
+            "ar": "4 / 6 / 8 / 10 kg"
+          },
+          "sources": [
+            "02-产品资料/1601982160053_悬挂式系列-自动干粉灭火器/原产品资料/copy/listing-fields.json"
+          ],
+          "evidence": "Documented"
+        },
+        {
+          "label": {
+            "en": "Nominal activation temperature",
+            "ar": "درجة حرارة التفعيل الاسمية"
+          },
+          "value": {
+            "en": "68°C, stated default for the ordinary dry powder configuration",
+            "ar": "68°C، القيمة الافتراضية المذكورة لتجهيز المسحوق الجاف العادي"
+          },
+          "sources": [
+            "02-产品资料/1601982160053_悬挂式系列-自动干粉灭火器/原产品资料/copy/listing-fields.json"
+          ],
+          "evidence": "Documented"
+        }
+      ],
+      "models": [
+        {
+          "name": {
+            "en": "4 kg suspended dry powder",
+            "ar": "مسحوق جاف معلق بسعة 4 kg"
+          },
+          "factoryReference": "Available on request",
+          "selection": {
+            "en": "Ordinary dry powder; exact supply model and brand to be specified in the quotation.",
+            "ar": "مسحوق جاف عادي؛ يحدد طراز التوريد والعلامة في عرض السعر."
+          },
+          "sourceNames": [
+            "悬挂式系列-自动干粉灭火器"
+          ],
+          "sources": [
+            "02-产品资料/1601982160053_悬挂式系列-自动干粉灭火器/原产品资料/copy/listing-fields.json"
+          ]
+        },
+        {
+          "name": {
+            "en": "6 kg suspended dry powder",
+            "ar": "مسحوق جاف معلق بسعة 6 kg"
+          },
+          "factoryReference": "Available on request",
+          "selection": {
+            "en": "Ordinary dry powder; exact supply model and brand to be specified in the quotation.",
+            "ar": "مسحوق جاف عادي؛ يحدد طراز التوريد والعلامة في عرض السعر."
+          },
+          "sourceNames": [
+            "悬挂式系列-自动干粉灭火器"
+          ],
+          "sources": [
+            "02-产品资料/1601982160053_悬挂式系列-自动干粉灭火器/原产品资料/copy/listing-fields.json"
+          ]
+        },
+        {
+          "name": {
+            "en": "8 kg suspended dry powder",
+            "ar": "مسحوق جاف معلق بسعة 8 kg"
+          },
+          "factoryReference": "Available on request",
+          "selection": {
+            "en": "Ordinary dry powder; exact supply model and brand to be specified in the quotation.",
+            "ar": "مسحوق جاف عادي؛ يحدد طراز التوريد والعلامة في عرض السعر."
+          },
+          "sourceNames": [
+            "悬挂式系列-自动干粉灭火器"
+          ],
+          "sources": [
+            "02-产品资料/1601982160053_悬挂式系列-自动干粉灭火器/原产品资料/copy/listing-fields.json"
+          ]
+        },
+        {
+          "name": {
+            "en": "10 kg suspended dry powder",
+            "ar": "مسحوق جاف معلق بسعة 10 kg"
+          },
+          "factoryReference": "Available on request",
+          "selection": {
+            "en": "Ordinary dry powder; exact supply model and brand to be specified in the quotation.",
+            "ar": "مسحوق جاف عادي؛ يحدد طراز التوريد والعلامة في عرض السعر."
+          },
+          "sourceNames": [
+            "悬挂式系列-自动干粉灭火器"
+          ],
+          "sources": [
+            "02-产品资料/1601982160053_悬挂式系列-自动干粉灭火器/原产品资料/copy/listing-fields.json"
+          ]
+        }
+      ],
+      "selectionPrompts": [
+        {
+          "label": {
+            "en": "Protected space",
+            "ar": "الحيز المطلوب حمايته"
+          },
+          "body": {
+            "en": "Send the protected hazard, room layout and mounting height for model and discharge-coverage review.",
+            "ar": "أرسل طبيعة الخطر ومخطط الغرفة وارتفاع التركيب لمراجعة الطراز ونطاق التفريغ."
+          }
+        },
+        {
+          "label": {
+            "en": "Charge and thermal release",
+            "ar": "السعة وآلية الإطلاق الحرارية"
+          },
+          "body": {
+            "en": "Specify the charge, ambient conditions and required activation temperature; confirm the exact supply model and brand.",
+            "ar": "حدد السعة والظروف المحيطة ودرجة حرارة التفعيل المطلوبة، وأكد طراز التوريد والعلامة بدقة."
+          }
+        }
+      ],
+      "imageCaptions": {
+        "悬挂式系列-自动干粉灭火器": {
+          "en": "Ordinary dry powder unit with a suspension ring and thermal release.",
+          "ar": "وحدة مسحوق جاف عادي بحلقة تعليق وآلية إطلاق حرارية."
+        }
+      },
+      "unresolved": [
+        "精确工厂型号、供货品牌、罐体与释放组件材质待确认。",
+        "保护体积、保护面积、安装高度、充装压力、喷射性能与目的地适用文件待确认。",
+        "93°C仅为询价配置，未建立药剂与装量的一一对应，未列为SKU。"
+      ],
+      "notes": [
+        "仅普通干粉，未把超细干粉或七氟丙烷的参数混入。",
+        "68°C来自普通干粉网页默认值，不推广到超细干粉产品。",
+        "源资料品牌可能随机供货，订单需锁定品牌型号。"
+      ]
+    },
+    {
+      "id": "suspended-ultrafine-dry-powder-extinguishers",
+      "familyId": "automatic-fire-suppression",
+      "name": {
+        "en": "Suspended Ultrafine Dry Powder Fire Extinguishers",
+        "ar": "طفايات حريق معلقة بالمسحوق الجاف فائق النعومة",
+        "zh": "悬挂式超细干粉灭火器"
+      },
+      "lead": {
+        "en": "Suspended automatic extinguishers using ultrafine dry powder. The pictured heat-activated unit has an 8 kg agent charge; additional documented charge options require their own model and appearance confirmation.",
+        "ar": "طفايات آلية معلقة تستخدم مسحوقاً جافاً فائق النعومة. الوحدة المصورة ذات التفعيل الحراري تحتوي على 8 kg من مادة الإطفاء؛ أما السعات الإضافية الموثقة فتتطلب تأكيد الطراز والشكل الخاصين بها."
+      },
+      "sourceNames": [
+        "03B-悬挂式超细干粉灭火器"
+      ],
+      "heroSourceName": "03B-悬挂式超细干粉灭火器",
+      "specs": [
+        {
+          "label": {
+            "en": "Extinguishing agent",
+            "ar": "مادة الإطفاء"
+          },
+          "value": {
+            "en": "Ultrafine dry powder",
+            "ar": "مسحوق جاف فائق النعومة"
+          },
+          "sources": [
+            "02-产品资料/1601982051961_03B-悬挂式超细干粉灭火器/原产品资料/copy/listing-fields.json"
+          ],
+          "evidence": "Documented"
+        },
+        {
+          "label": {
+            "en": "Installation",
+            "ar": "التركيب"
+          },
+          "value": {
+            "en": "Suspended",
+            "ar": "معلق"
+          },
+          "sources": [
+            "02-产品资料/1601982051961_03B-悬挂式超细干粉灭火器/原产品资料/copy/listing-fields.json"
+          ],
+          "evidence": "Documented"
+        },
+        {
+          "label": {
+            "en": "Pictured activation",
+            "ar": "تفعيل الوحدة المصورة"
+          },
+          "value": {
+            "en": "Heat-activated discharge head",
+            "ar": "رأس تفريغ يعمل بالحرارة"
+          },
+          "sources": [
+            "02-产品资料/1601982051961_03B-悬挂式超细干粉灭火器/原产品资料/copy/listing-fields.json"
+          ],
+          "evidence": "Documented"
+        },
+        {
+          "label": {
+            "en": "Pictured agent charge",
+            "ar": "كتلة مادة الإطفاء في الصورة"
+          },
+          "value": {
+            "en": "8 kg",
+            "ar": "8 kg"
+          },
+          "sources": [
+            "02-产品资料/1601982051961_03B-悬挂式超细干粉灭火器/原产品资料/copy/listing-fields.json"
+          ],
+          "evidence": "Documented"
+        },
+        {
+          "label": {
+            "en": "Documented charge options",
+            "ar": "خيارات السعة الموثقة"
+          },
+          "value": {
+            "en": "3 / 4 / 5 / 6 / 8 / 10 / 12 kg",
+            "ar": "3 / 4 / 5 / 6 / 8 / 10 / 12 kg"
+          },
+          "sources": [
+            "02-产品资料/1601982051961_03B-悬挂式超细干粉灭火器/原产品资料/copy/listing-fields.json"
+          ],
+          "evidence": "Documented"
+        }
+      ],
+      "models": [
+        {
+          "name": {
+            "en": "3 kg ultrafine dry powder",
+            "ar": "مسحوق جاف فائق النعومة بسعة 3 kg"
+          },
+          "factoryReference": "Available on request",
+          "selection": {
+            "en": "Listed charge option; exact model, brand and matching photo required.",
+            "ar": "خيار سعة مدرج؛ يلزم تحديد الطراز والعلامة والصورة المطابقة."
+          },
+          "sourceNames": [
+            "03B-悬挂式超细干粉灭火器"
+          ],
+          "sources": [
+            "02-产品资料/1601982051961_03B-悬挂式超细干粉灭火器/原产品资料/copy/listing-fields.json"
+          ]
+        },
+        {
+          "name": {
+            "en": "4 kg ultrafine dry powder",
+            "ar": "مسحوق جاف فائق النعومة بسعة 4 kg"
+          },
+          "factoryReference": "Available on request",
+          "selection": {
+            "en": "Listed charge option; exact model, brand and matching photo required.",
+            "ar": "خيار سعة مدرج؛ يلزم تحديد الطراز والعلامة والصورة المطابقة."
+          },
+          "sourceNames": [
+            "03B-悬挂式超细干粉灭火器"
+          ],
+          "sources": [
+            "02-产品资料/1601982051961_03B-悬挂式超细干粉灭火器/原产品资料/copy/listing-fields.json"
+          ]
+        },
+        {
+          "name": {
+            "en": "5 kg ultrafine dry powder",
+            "ar": "مسحوق جاف فائق النعومة بسعة 5 kg"
+          },
+          "factoryReference": "Available on request",
+          "selection": {
+            "en": "Listed charge option; exact model, brand and matching photo required.",
+            "ar": "خيار سعة مدرج؛ يلزم تحديد الطراز والعلامة والصورة المطابقة."
+          },
+          "sourceNames": [
+            "03B-悬挂式超细干粉灭火器"
+          ],
+          "sources": [
+            "02-产品资料/1601982051961_03B-悬挂式超细干粉灭火器/原产品资料/copy/listing-fields.json"
+          ]
+        },
+        {
+          "name": {
+            "en": "6 kg ultrafine dry powder",
+            "ar": "مسحوق جاف فائق النعومة بسعة 6 kg"
+          },
+          "factoryReference": "Available on request",
+          "selection": {
+            "en": "Listed charge option; exact model, brand and matching photo required.",
+            "ar": "خيار سعة مدرج؛ يلزم تحديد الطراز والعلامة والصورة المطابقة."
+          },
+          "sourceNames": [
+            "03B-悬挂式超细干粉灭火器"
+          ],
+          "sources": [
+            "02-产品资料/1601982051961_03B-悬挂式超细干粉灭火器/原产品资料/copy/listing-fields.json"
+          ]
+        },
+        {
+          "name": {
+            "en": "8 kg ultrafine dry powder",
+            "ar": "مسحوق جاف فائق النعومة بسعة 8 kg"
+          },
+          "factoryReference": "FZX-ACT8/1.2",
+          "selection": {
+            "en": "Pictured model; charge and factory reference documented.",
+            "ar": "الطراز المصور؛ السعة والمرجع المصنعي موثقان."
+          },
+          "sourceNames": [
+            "03B-悬挂式超细干粉灭火器"
+          ],
+          "sources": [
+            "02-产品资料/1601982051961_03B-悬挂式超细干粉灭火器/原产品资料/copy/listing-fields.json"
+          ]
+        },
+        {
+          "name": {
+            "en": "10 kg ultrafine dry powder",
+            "ar": "مسحوق جاف فائق النعومة بسعة 10 kg"
+          },
+          "factoryReference": "Available on request",
+          "selection": {
+            "en": "Listed charge option; exact model, brand and matching photo required.",
+            "ar": "خيار سعة مدرج؛ يلزم تحديد الطراز والعلامة والصورة المطابقة."
+          },
+          "sourceNames": [
+            "03B-悬挂式超细干粉灭火器"
+          ],
+          "sources": [
+            "02-产品资料/1601982051961_03B-悬挂式超细干粉灭火器/原产品资料/copy/listing-fields.json"
+          ]
+        },
+        {
+          "name": {
+            "en": "12 kg ultrafine dry powder",
+            "ar": "مسحوق جاف فائق النعومة بسعة 12 kg"
+          },
+          "factoryReference": "Available on request",
+          "selection": {
+            "en": "Listed charge option; exact model, brand and matching photo required.",
+            "ar": "خيار سعة مدرج؛ يلزم تحديد الطراز والعلامة والصورة المطابقة."
+          },
+          "sourceNames": [
+            "03B-悬挂式超细干粉灭火器"
+          ],
+          "sources": [
+            "02-产品资料/1601982051961_03B-悬挂式超细干粉灭火器/原产品资料/copy/listing-fields.json"
+          ]
+        }
+      ],
+      "selectionPrompts": [
+        {
+          "label": {
+            "en": "Charge and exact model",
+            "ar": "السعة والطراز المحدد"
+          },
+          "body": {
+            "en": "Choose the agent charge and confirm the exact factory model, brand and matching product photo before ordering.",
+            "ar": "اختر سعة مادة الإطفاء وأكد الطراز المصنعي والعلامة والصورة المطابقة قبل الطلب."
+          }
+        },
+        {
+          "label": {
+            "en": "Installation design",
+            "ar": "تصميم التركيب"
+          },
+          "body": {
+            "en": "Provide enclosure dimensions, protected hazard, ambient temperature and mounting layout for exact-model documentation review.",
+            "ar": "قدم أبعاد الحيز وطبيعة الخطر ودرجة الحرارة المحيطة ومخطط التركيب لمراجعة وثائق الطراز المحدد."
+          }
+        }
+      ],
+      "imageCaptions": {
+        "03B-悬挂式超细干粉灭火器": {
+          "en": "Pictured 8 kg unit, factory reference FZX-ACT8/1.2; other charges require their own matching photos.",
+          "ar": "الوحدة المصورة بسعة 8 kg، المرجع المصنعي FZX-ACT8/1.2؛ تتطلب السعات الأخرى صوراً مطابقة خاصة بها."
+        }
+      },
+      "unresolved": [
+        "罐体材质、精确动作温度、充装压力、喷射性能及保护范围待同厂同型号文件确认。",
+        "3、4、5、6、10、12 kg仅有规格选项，缺逐款型号、品牌、外观对应。",
+        "图示浙安广消样品制造商资料与笼统福建产地字段不一致，未对外发布省份。"
+      ],
+      "notes": [
+        "8 kg样品品牌浙安广消，制造商广东浙安消防科技有限公司；保留原标识，不当作CHUANWEI自产。",
+        "同名其他厂家FZX-ACT型号钢材、1.2 MPa、68°C等联网参考明确非本SKU，全部排除。",
+        "型号内1.2未拆解成已确认压力。"
+      ]
+    },
+    {
+      "id": "fire-extinguisher-balls",
+      "familyId": "automatic-fire-suppression",
+      "name": {
+        "en": "Dry Powder Fire Extinguisher Balls",
+        "ar": "كرات إطفاء الحريق بالمسحوق الجاف",
+        "zh": "干粉灭火球"
+      },
+      "lead": {
+        "en": "Dry powder fire extinguisher balls in the documented 0.5 kg product-weight size with a 110 mm ball body. Stand and loop-handle styles are available as alternative configurations.",
+        "ar": "كرات إطفاء بالمسحوق الجاف بمقاس موثق يبلغ وزن المنتج فيه 0.5 kg وقطر جسم الكرة 110 mm. تتوفر بتجهيز حامل أو بتجهيز حلقة تعليق كخيارين بديلين."
+      },
+      "sourceNames": [
+        "AFO系列-0.5kg自动灭火球"
+      ],
+      "heroSourceName": "AFO系列-0.5kg自动灭火球",
+      "specs": [
+        {
+          "label": {
+            "en": "Agent description",
+            "ar": "وصف مادة الإطفاء"
+          },
+          "value": {
+            "en": "ABC dry powder, as described in the supplier record",
+            "ar": "مسحوق جاف ABC وفق وصف سجل المورد"
+          },
+          "sources": [
+            "02-产品资料/1601982900885_AFO系列-0.5kg自动灭火球/原产品资料/copy/listing-fields.json"
+          ],
+          "evidence": "Documented"
+        },
+        {
+          "label": {
+            "en": "Declared product weight",
+            "ar": "وزن المنتج المعلن"
+          },
+          "value": {
+            "en": "0.5 kg; agent net mass is separate",
+            "ar": "0.5 kg؛ الكتلة الصافية لمادة الإطفاء قيمة منفصلة"
+          },
+          "sources": [
+            "02-产品资料/1601982900885_AFO系列-0.5kg自动灭火球/原产品资料/copy/listing-fields.json"
+          ],
+          "evidence": "Documented"
+        },
+        {
+          "label": {
+            "en": "Ball body diameter",
+            "ar": "قطر جسم الكرة"
+          },
+          "value": {
+            "en": "110 mm",
+            "ar": "110 mm"
+          },
+          "sources": [
+            "02-产品资料/1601982900885_AFO系列-0.5kg自动灭火球/原产品资料/copy/listing-fields.json"
+          ],
+          "evidence": "Documented"
+        },
+        {
+          "label": {
+            "en": "Exterior configurations",
+            "ar": "التجهيزات الخارجية"
+          },
+          "value": {
+            "en": "Stand style or loop-handle style",
+            "ar": "تجهيز بحامل أو بحلقة تعليق"
+          },
+          "sources": [
+            "02-产品资料/1601982900885_AFO系列-0.5kg自动灭火球/原产品资料/copy/listing-fields.json"
+          ],
+          "evidence": "Documented"
+        }
+      ],
+      "models": [
+        {
+          "name": {
+            "en": "0.5 kg stand style",
+            "ar": "تجهيز بحامل بوزن منتج 0.5 kg"
+          },
+          "factoryReference": "Available on request",
+          "selection": {
+            "en": "110 mm ball body; 0.5 kg refers to declared product weight.",
+            "ar": "قطر جسم الكرة 110 mm؛ تشير 0.5 kg إلى وزن المنتج المعلن."
+          },
+          "sourceNames": [
+            "AFO系列-0.5kg自动灭火球"
+          ],
+          "sources": [
+            "02-产品资料/1601982900885_AFO系列-0.5kg自动灭火球/原产品资料/copy/listing-fields.json"
+          ]
+        },
+        {
+          "name": {
+            "en": "0.5 kg loop-handle style",
+            "ar": "تجهيز بحلقة تعليق بوزن منتج 0.5 kg"
+          },
+          "factoryReference": "Available on request",
+          "selection": {
+            "en": "110 mm ball body; alternative loop-handle configuration.",
+            "ar": "قطر جسم الكرة 110 mm؛ تجهيز بديل بحلقة تعليق."
+          },
+          "sourceNames": [
+            "AFO系列-0.5kg自动灭火球"
+          ],
+          "sources": [
+            "02-产品资料/1601982900885_AFO系列-0.5kg自动灭火球/原产品资料/copy/listing-fields.json"
+          ]
+        }
+      ],
+      "selectionPrompts": [
+        {
+          "label": {
+            "en": "Exterior style",
+            "ar": "التجهيز الخارجي"
+          },
+          "body": {
+            "en": "Choose the stand or loop-handle configuration and specify the required quantity and packing.",
+            "ar": "اختر تجهيز الحامل أو حلقة التعليق وحدد الكمية والتعبئة المطلوبتين."
+          }
+        },
+        {
+          "label": {
+            "en": "Application and technical documents",
+            "ar": "الاستخدام والوثائق الفنية"
+          },
+          "body": {
+            "en": "Send the intended location and hazard so the exact model, activation information and product documents can be checked.",
+            "ar": "أرسل موقع الاستخدام وطبيعة الخطر للتحقق من الطراز المحدد ومعلومات التفعيل ووثائق المنتج."
+          }
+        }
+      ],
+      "imageCaptions": {
+        "AFO系列-0.5kg自动灭火球": {
+          "en": "0.5 kg product-weight size: stand and loop-handle alternatives; ball body diameter 110 mm.",
+          "ar": "مقاس بوزن منتج 0.5 kg: بديل بحامل وآخر بحلقة تعليق؛ قطر جسم الكرة 110 mm."
+        }
+      },
+      "unresolved": [
+        "确切工厂型号、外壳材质、药剂净重、动作条件、保护范围与目的地适用文件待确认。",
+        "0.5 kg仅为产品声明重量，不能转写成0.5 kg药剂净重。"
+      ],
+      "notes": [
+        "仅纳入用户文件夹内0.5 kg两张图，未扩入其他重量。",
+        "110 mm来自原AFO出口PPT记录；2026-10-17用户确认支架及吊环两款均可供。",
+        "ABC保留为供应商药剂名称，不当作已核实目的地火灾等级或认证。"
+      ]
+    },
+    {
+      "id": "cabinet-aerosol-fire-suppression",
+      "familyId": "automatic-fire-suppression",
+      "name": {
+        "en": "Cabinet Aerosol Fire Suppression Devices",
+        "ar": "أجهزة إطفاء الحريق بالهباء الجوي للخزائن",
+        "zh": "箱柜热气溶胶灭火装置"
+      },
+      "lead": {
+        "en": "Compact aerosol fire suppression devices for enclosed electrical cabinets. The supplied configuration shows two thermal leads and a rear mounting surface; device selection depends on the enclosure and exact-model data.",
+        "ar": "أجهزة مدمجة لإطفاء الحريق بالهباء الجوي للخزائن الكهربائية المغلقة. يظهر التجهيز المقدم سلكي بدء حراري وسطح تثبيت خلفياً؛ ويعتمد الاختيار على الحيز وبيانات الطراز المحدد."
+      },
+      "sourceNames": [
+        "XDX系列-箱柜热气溶胶灭火装置"
+      ],
+      "heroSourceName": "XDX系列-箱柜热气溶胶灭火装置",
+      "specs": [
+        {
+          "label": {
+            "en": "Intended configuration",
+            "ar": "الاستخدام المقصود"
+          },
+          "value": {
+            "en": "Enclosed electrical cabinets",
+            "ar": "خزائن كهربائية مغلقة"
+          },
+          "sources": [
+            "02-产品资料/1601983333915_XDX系列-箱柜热气溶胶灭火装置/原产品资料/copy/listing-fields.json"
+          ],
+          "evidence": "Documented"
+        },
+        {
+          "label": {
+            "en": "Function",
+            "ar": "الوظيفة"
+          },
+          "value": {
+            "en": "Release an aerosol extinguishing agent when activated",
+            "ar": "إطلاق عامل إطفاء بالهباء الجوي عند التفعيل"
+          },
+          "sources": [
+            "02-产品资料/1601983333915_XDX系列-箱柜热气溶胶灭火装置/原产品资料/copy/listing-fields.json"
+          ],
+          "evidence": "Documented"
+        },
+        {
+          "label": {
+            "en": "Product form",
+            "ar": "شكل المنتج"
+          },
+          "value": {
+            "en": "Compact housing with two thermal leads",
+            "ar": "غلاف مدمج بسلكي بدء حراري"
+          },
+          "sources": [
+            "02-产品资料/1601983333915_XDX系列-箱柜热气溶胶灭火装置/原产品资料/copy/listing-fields.json"
+          ],
+          "evidence": "Documented"
+        },
+        {
+          "label": {
+            "en": "Rear mounting surface",
+            "ar": "سطح التثبيت الخلفي"
+          },
+          "value": {
+            "en": "Adhesive backing shown in the source photographs",
+            "ar": "طبقة لاصقة خلفية ظاهرة في صور المصدر"
+          },
+          "sources": [
+            "02-产品资料/1601983333915_XDX系列-箱柜热气溶胶灭火装置/原产品资料/copy/listing-fields.json"
+          ],
+          "evidence": "Documented"
+        }
+      ],
+      "models": [
+        {
+          "name": {
+            "en": "Compact cabinet device",
+            "ar": "جهاز مدمج للخزائن"
+          },
+          "factoryReference": "Available on request",
+          "selection": {
+            "en": "Thermal-lead configuration; exact device model and charge to be selected for the enclosure.",
+            "ar": "تجهيز بسلكي بدء حراري؛ يحدد الطراز والسعة وفقاً للحيز."
+          },
+          "sourceNames": [
+            "XDX系列-箱柜热气溶胶灭火装置"
+          ],
+          "sources": [
+            "02-产品资料/1601983333915_XDX系列-箱柜热气溶胶灭火装置/原产品资料/copy/listing-fields.json"
+          ]
+        }
+      ],
+      "selectionPrompts": [
+        {
+          "label": {
+            "en": "Enclosure details",
+            "ar": "تفاصيل الحيز"
+          },
+          "body": {
+            "en": "Provide cabinet dimensions, internal equipment, ventilation openings and the protected hazard.",
+            "ar": "قدم أبعاد الخزانة ومعداتها الداخلية وفتحات التهوية وطبيعة الخطر المطلوب حمايته."
+          }
+        },
+        {
+          "label": {
+            "en": "Device and installation data",
+            "ar": "بيانات الجهاز والتركيب"
+          },
+          "body": {
+            "en": "Confirm the exact model, agent quantity, activation conditions, installation clearances and mounting method against the product documentation.",
+            "ar": "أكد الطراز وكمية مادة الإطفاء وظروف التفعيل ومسافات الخلوص وطريقة التثبيت وفق وثائق المنتج."
+          }
+        }
+      ],
+      "imageCaptions": {
+        "XDX系列-箱柜热气溶胶灭火装置": {
+          "en": "Compact device with two thermal leads and a rear mounting surface.",
+          "ar": "جهاز مدمج بسلكي بدء حراري وسطح تثبيت خلفي."
+        }
+      },
+      "unresolved": [
+        "精确可供型号、壳体材质、药剂量、动作条件、保护容积、安装间距待核实。",
+        "XDX10G/20G/30G/40G仅为照片候选，缺同型号说明书与供货确认，不列具体SKU。",
+        "原图保护范围m²与m³冲突，未采用。",
+        "资料标题称导轨式，但可见结构为胶贴，DIN导轨兼容性不承诺。"
+      ],
+      "notes": [
+        "不沿用旧QRR候选型号；未把照片上的海外认证文字作为证据。",
+        "未公布胶品牌或粘接强度；图像优化候选如改写标签不得替换原图。"
+      ]
+    },
+    {
+      "id": "fire-alarm-control-panels",
+      "familyId": "fire-alarm-systems",
+      "name": {
+        "en": "Fire Alarm Control Panels",
+        "ar": "لوحات التحكم في إنذار الحريق",
+        "zh": "火灾报警控制器"
+      },
+      "lead": {
+        "en": "Wall-mounted Tanda fire alarm control panels with a 7-inch touchscreen and configurations of up to 8 loops. Final loop loading and device compatibility are specified for the project.",
+        "ar": "لوحات تحكم في إنذار الحريق من Tanda للتركيب الجداري، بشاشة لمس 7 بوصات وتجهيزات تصل إلى 8 حلقات. تحدد سعة تحميل الحلقات وتوافق الأجهزة وفق المشروع."
+      },
+      "sourceNames": [
+        "JB-TBL-TX3008NL-火灾报警控制器"
+      ],
+      "heroSourceName": "JB-TBL-TX3008NL-火灾报警控制器",
+      "specs": [
+        {
+          "label": {
+            "en": "Product brand",
+            "ar": "العلامة التجارية للمنتج"
+          },
+          "value": {
+            "en": "Tanda",
+            "ar": "Tanda"
+          },
+          "sources": [
+            "02-产品资料/1601981498224_JB-TBL-TX3008NL-火灾报警控制器/原产品资料/source/来源与事实.json"
+          ],
+          "evidence": "Documented"
+        },
+        {
+          "label": {
+            "en": "Display",
+            "ar": "الشاشة"
+          },
+          "value": {
+            "en": "7-inch touchscreen",
+            "ar": "شاشة لمس 7 بوصات"
+          },
+          "sources": [
+            "02-产品资料/1601981498224_JB-TBL-TX3008NL-火灾报警控制器/原产品资料/source/来源与事实.json"
+          ],
+          "evidence": "Documented"
+        },
+        {
+          "label": {
+            "en": "Loop configuration",
+            "ar": "تجهيز الحلقات"
+          },
+          "value": {
+            "en": "Up to 8 loops",
+            "ar": "حتى 8 حلقات"
+          },
+          "sources": [
+            "02-产品资料/1601981498224_JB-TBL-TX3008NL-火灾报警控制器/原产品资料/source/来源与事实.json"
+          ],
+          "evidence": "Documented"
+        },
+        {
+          "label": {
+            "en": "Mounting",
+            "ar": "التركيب"
+          },
+          "value": {
+            "en": "Wall mounted",
+            "ar": "جداري"
+          },
+          "sources": [
+            "02-产品资料/1601981498224_JB-TBL-TX3008NL-火灾报警控制器/原产品资料/source/来源与事实.json"
+          ],
+          "evidence": "Documented"
+        }
+      ],
+      "models": [
+        {
+          "name": {
+            "en": "Wall-mounted touchscreen panel",
+            "ar": "لوحة جدارية بشاشة لمس"
+          },
+          "factoryReference": "JB-TBL-TX3008NL",
+          "selection": {
+            "en": "Up to 8 loops; installed loop count and device loading to match the project schedule.",
+            "ar": "حتى 8 حلقات؛ يحدد عدد الحلقات المركبة وتحميل الأجهزة وفق جدول المشروع."
+          },
+          "sourceNames": [
+            "JB-TBL-TX3008NL-火灾报警控制器"
+          ],
+          "sources": [
+            "02-产品资料/1601981498224_JB-TBL-TX3008NL-火灾报警控制器/原产品资料/source/来源与事实.json"
+          ]
+        }
+      ],
+      "selectionPrompts": [
+        {
+          "label": {
+            "en": "System schedule",
+            "ar": "جدول النظام"
+          },
+          "body": {
+            "en": "Provide the required loop count, detector and module quantities, and the project device schedule.",
+            "ar": "قدم عدد الحلقات المطلوب وكميات الكواشف والوحدات وجدول أجهزة المشروع."
+          }
+        },
+        {
+          "label": {
+            "en": "Panel configuration",
+            "ar": "تجهيز لوحة التحكم"
+          },
+          "body": {
+            "en": "Specify power supply, backup battery, interface and language requirements, and identify the devices to be connected.",
+            "ar": "حدد متطلبات التغذية والبطارية الاحتياطية والواجهات واللغة، مع تحديد الأجهزة المطلوب توصيلها."
+          }
+        }
+      ],
+      "imageCaptions": {
+        "JB-TBL-TX3008NL-火灾报警控制器": {
+          "en": "Tanda wall-mounted fire alarm control panel with touchscreen.",
+          "ar": "لوحة تحكم جدارية في إنذار الحريق من Tanda بشاشة لمس."
+        }
+      },
+      "unresolved": [
+        "1936点宣传与1600点SKU冲突，未确定单环及总容量。",
+        "实际出货回路数、电源、蓄电池、接口、语言、协议、设备兼容及尺寸需按项目核实。"
+      ],
+      "notes": [
+        "只发布最高8回路及7英寸屏，不写固定总点数。",
+        "包装尺寸字段cm与尺寸图mm冲突；页面未采用包装尺寸。",
+        "未把附属SKU另建虚构产品；Tanda实物品牌保留。"
+      ]
+    },
+    {
+      "id": "combined-smoke-heat-detectors",
+      "familyId": "fire-alarm-systems",
+      "name": {
+        "en": "Combined Smoke and Heat Detectors",
+        "ar": "كواشف الدخان والحرارة المدمجة",
+        "zh": "烟温复合探测器"
+      },
+      "lead": {
+        "en": "Tanda combined smoke and heat detectors for compatible fire alarm systems. The supplied model record lists 24 V DC operation with separate standby and alarm current values.",
+        "ar": "كواشف مدمجة للدخان والحرارة من Tanda لأنظمة إنذار الحريق المتوافقة. يورد سجل الطراز المقدم تشغيل 24 V DC وقيمتين منفصلتين لتيار الاستعداد وتيار الإنذار."
+      },
+      "sourceNames": [
+        "JTF-GOM-TX3120A-烟温复合探测器"
+      ],
+      "heroSourceName": "JTF-GOM-TX3120A-烟温复合探测器",
+      "specs": [
+        {
+          "label": {
+            "en": "Product brand",
+            "ar": "العلامة التجارية للمنتج"
+          },
+          "value": {
+            "en": "Tanda",
+            "ar": "Tanda"
+          },
+          "sources": [
+            "02-产品资料/1601981448680_JTF-GOM-TX3120A-烟温复合探测器/原产品资料/source/来源与事实.json"
+          ],
+          "evidence": "Documented"
+        },
+        {
+          "label": {
+            "en": "Detection",
+            "ar": "الكشف"
+          },
+          "value": {
+            "en": "Combined smoke and heat",
+            "ar": "دخان وحرارة معاً"
+          },
+          "sources": [
+            "02-产品资料/1601981448680_JTF-GOM-TX3120A-烟温复合探测器/原产品资料/source/来源与事实.json"
+          ],
+          "evidence": "Documented"
+        },
+        {
+          "label": {
+            "en": "Supply voltage",
+            "ar": "جهد التغذية"
+          },
+          "value": {
+            "en": "24 V DC",
+            "ar": "24 V DC"
+          },
+          "sources": [
+            "02-产品资料/1601981448680_JTF-GOM-TX3120A-烟温复合探测器/原产品资料/source/来源与事实.json"
+          ],
+          "evidence": "Documented"
+        },
+        {
+          "label": {
+            "en": "Standby current",
+            "ar": "تيار الاستعداد"
+          },
+          "value": {
+            "en": "0.4 mA",
+            "ar": "0.4 mA"
+          },
+          "sources": [
+            "02-产品资料/1601981448680_JTF-GOM-TX3120A-烟温复合探测器/原产品资料/source/来源与事实.json"
+          ],
+          "evidence": "Documented"
+        },
+        {
+          "label": {
+            "en": "Alarm current",
+            "ar": "تيار الإنذار"
+          },
+          "value": {
+            "en": "0.7 mA",
+            "ar": "0.7 mA"
+          },
+          "sources": [
+            "02-产品资料/1601981448680_JTF-GOM-TX3120A-烟温复合探测器/原产品资料/source/来源与事实.json"
+          ],
+          "evidence": "Documented"
+        }
+      ],
+      "models": [
+        {
+          "name": {
+            "en": "Combined smoke and heat detector",
+            "ar": "كاشف مدمج للدخان والحرارة"
+          },
+          "factoryReference": "JTF-GOM-TX3120A",
+          "selection": {
+            "en": "24 V DC; smoke and heat sensing in one detector.",
+            "ar": "24 V DC؛ كشف الدخان والحرارة في كاشف واحد."
+          },
+          "sourceNames": [
+            "JTF-GOM-TX3120A-烟温复合探测器"
+          ],
+          "sources": [
+            "02-产品资料/1601981448680_JTF-GOM-TX3120A-烟温复合探测器/原产品资料/source/来源与事实.json"
+          ]
+        }
+      ],
+      "selectionPrompts": [
+        {
+          "label": {
+            "en": "Control panel compatibility",
+            "ar": "توافق لوحة التحكم"
+          },
+          "body": {
+            "en": "Provide the control panel model, protocol and existing device references so compatibility can be checked before supply.",
+            "ar": "قدم طراز لوحة التحكم والبروتوكول ومراجع الأجهزة الحالية للتحقق من التوافق قبل التوريد."
+          }
+        },
+        {
+          "label": {
+            "en": "Base and installation",
+            "ar": "القاعدة والتركيب"
+          },
+          "body": {
+            "en": "Specify whether a matching base is required and provide installation conditions and quantity.",
+            "ar": "حدد ما إذا كانت القاعدة المطابقة مطلوبة، وقدم ظروف التركيب والكمية."
+          }
+        }
+      ],
+      "imageCaptions": {
+        "JTF-GOM-TX3120A-烟温复合探测器": {
+          "en": "Tanda combined smoke and heat detector.",
+          "ar": "كاشف مدمج للدخان والحرارة من Tanda."
+        }
+      },
+      "unresolved": [
+        "精确探测算法、感温等级、环境范围、底座与控制器兼容需说明书确认。"
+      ],
+      "notes": [
+        "0.4 mA、0.7 mA按来源与事实中的明确单位使用；不宣称全覆盖、零盲区或量化误报改善。"
+      ]
+    },
+    {
+      "id": "heat-detectors",
+      "familyId": "fire-alarm-systems",
+      "name": {
+        "en": "Heat Detectors",
+        "ar": "كواشف الحرارة",
+        "zh": "点型感温探测器"
+      },
+      "lead": {
+        "en": "Ceiling-mounted Tanda point-type heat detectors. The documented configuration has a 100 mm diameter, 49 mm height and a listed 24 V supply.",
+        "ar": "كواشف حرارة نقطية من Tanda للتركيب السقفي. يبلغ قطر التجهيز الموثق 100 mm وارتفاعه 49 mm، مع جهد تغذية مدرج 24 V."
+      },
+      "sourceNames": [
+        "JTW-ZDM-TX3110N-点型感温探测器"
+      ],
+      "heroSourceName": "JTW-ZDM-TX3110N-点型感温探测器",
+      "specs": [
+        {
+          "label": {
+            "en": "Product brand",
+            "ar": "العلامة التجارية للمنتج"
+          },
+          "value": {
+            "en": "Tanda",
+            "ar": "Tanda"
+          },
+          "sources": [
+            "02-产品资料/1601981488375_JTW-ZDM-TX3110N-点型感温探测器/原产品资料/source/来源与事实.json"
+          ],
+          "evidence": "Documented"
+        },
+        {
+          "label": {
+            "en": "Detection",
+            "ar": "الكشف"
+          },
+          "value": {
+            "en": "Point-type heat detection",
+            "ar": "كشف حراري نقطي"
+          },
+          "sources": [
+            "02-产品资料/1601981488375_JTW-ZDM-TX3110N-点型感温探测器/原产品资料/source/来源与事实.json"
+          ],
+          "evidence": "Documented"
+        },
+        {
+          "label": {
+            "en": "Supply voltage",
+            "ar": "جهد التغذية"
+          },
+          "value": {
+            "en": "24 V",
+            "ar": "24 V"
+          },
+          "sources": [
+            "02-产品资料/1601981488375_JTW-ZDM-TX3110N-点型感温探测器/原产品资料/source/来源与事实.json"
+          ],
+          "evidence": "Documented"
+        },
+        {
+          "label": {
+            "en": "Mounting",
+            "ar": "التركيب"
+          },
+          "value": {
+            "en": "Ceiling mounted",
+            "ar": "سقفي"
+          },
+          "sources": [
+            "02-产品资料/1601981488375_JTW-ZDM-TX3110N-点型感温探测器/原产品资料/source/来源与事实.json"
+          ],
+          "evidence": "Documented"
+        },
+        {
+          "label": {
+            "en": "Diameter",
+            "ar": "القطر"
+          },
+          "value": {
+            "en": "100 mm",
+            "ar": "100 mm"
+          },
+          "sources": [
+            "02-产品资料/1601981488375_JTW-ZDM-TX3110N-点型感温探测器/原产品资料/source/来源与事实.json"
+          ],
+          "evidence": "Documented"
+        },
+        {
+          "label": {
+            "en": "Height",
+            "ar": "الارتفاع"
+          },
+          "value": {
+            "en": "49 mm",
+            "ar": "49 mm"
+          },
+          "sources": [
+            "02-产品资料/1601981488375_JTW-ZDM-TX3110N-点型感温探测器/原产品资料/source/来源与事实.json"
+          ],
+          "evidence": "Documented"
+        }
+      ],
+      "models": [
+        {
+          "name": {
+            "en": "Ceiling-mounted heat detector",
+            "ar": "كاشف حرارة سقفي"
+          },
+          "factoryReference": "JTW-ZDM-TX3110N",
+          "selection": {
+            "en": "100 mm diameter × 49 mm height; listed supply 24 V.",
+            "ar": "قطر 100 mm × ارتفاع 49 mm؛ جهد التغذية المدرج 24 V."
+          },
+          "sourceNames": [
+            "JTW-ZDM-TX3110N-点型感温探测器"
+          ],
+          "sources": [
+            "02-产品资料/1601981488375_JTW-ZDM-TX3110N-点型感温探测器/原产品资料/source/来源与事实.json"
+          ]
+        }
+      ],
+      "selectionPrompts": [
+        {
+          "label": {
+            "en": "Control panel compatibility",
+            "ar": "توافق لوحة التحكم"
+          },
+          "body": {
+            "en": "Provide the control panel model, protocol and existing device references so compatibility can be checked before supply.",
+            "ar": "قدم طراز لوحة التحكم والبروتوكول ومراجع الأجهزة الحالية للتحقق من التوافق قبل التوريد."
+          }
+        },
+        {
+          "label": {
+            "en": "Thermal conditions",
+            "ar": "الظروف الحرارية"
+          },
+          "body": {
+            "en": "Provide normal and maximum ambient temperatures and the required detector response class for model review.",
+            "ar": "قدم درجتي الحرارة المحيطة الاعتيادية والقصوى وفئة استجابة الكاشف المطلوبة لمراجعة الطراز."
+          }
+        }
+      ],
+      "imageCaptions": {
+        "JTW-ZDM-TX3110N-点型感温探测器": {
+          "en": "Tanda ceiling-mounted point-type heat detector.",
+          "ar": "كاشف حرارة نقطي سقفي من Tanda."
+        }
+      },
+      "unresolved": [
+        "原网页静态/报警电流与工作温度缺单位，未采用。",
+        "动作温度、探测等级、AC/DC电源性质、环境范围、底座兼容与防护等级待核实。"
+      ],
+      "notes": [
+        "不将来源24 V擅自扩写为24 V DC。",
+        "不采用未核验IP43或高温耐受营销声明。"
+      ]
+    },
+    {
+      "id": "photoelectric-smoke-detectors",
+      "familyId": "fire-alarm-systems",
+      "name": {
+        "en": "Photoelectric Smoke Detectors",
+        "ar": "كواشف الدخان الكهروضوئية",
+        "zh": "点型光电感烟探测器"
+      },
+      "lead": {
+        "en": "Ceiling-mounted Tanda photoelectric smoke detectors with 24 V DC supply. TX3100N and TX3100D are listed separately so the exact device and matching base can be specified.",
+        "ar": "كواشف دخان كهروضوئية من Tanda للتركيب السقفي وبجهد تغذية 24 V DC. يدرج TX3100N وTX3100D بشكل منفصل لتحديد الجهاز الدقيق والقاعدة المطابقة."
+      },
+      "sourceNames": [
+        "JTY-GM-TX3100N-点型光电感烟探测器",
+        "JTY-GM-TX3100D-点型光电感烟探测器"
+      ],
+      "heroSourceName": "JTY-GM-TX3100N-点型光电感烟探测器",
+      "specs": [
+        {
+          "label": {
+            "en": "Product brand",
+            "ar": "العلامة التجارية للمنتج"
+          },
+          "value": {
+            "en": "Tanda",
+            "ar": "Tanda"
+          },
+          "sources": [
+            "02-产品资料/1601981394982_JTY-GM-TX3100N-点型光电感烟探测器/原产品资料/source/来源与事实.json",
+            "02-产品资料/1601981437810_JTY-GM-TX3100D-点型光电感烟探测器/原产品资料/source/来源与事实.json"
+          ],
+          "evidence": "Documented"
+        },
+        {
+          "label": {
+            "en": "Detection",
+            "ar": "الكشف"
+          },
+          "value": {
+            "en": "Photoelectric smoke detection",
+            "ar": "كشف دخان كهروضوئي"
+          },
+          "sources": [
+            "02-产品资料/1601981394982_JTY-GM-TX3100N-点型光电感烟探测器/原产品资料/source/来源与事实.json",
+            "02-产品资料/1601981437810_JTY-GM-TX3100D-点型光电感烟探测器/原产品资料/source/来源与事实.json"
+          ],
+          "evidence": "Documented"
+        },
+        {
+          "label": {
+            "en": "Supply voltage",
+            "ar": "جهد التغذية"
+          },
+          "value": {
+            "en": "24 V DC",
+            "ar": "24 V DC"
+          },
+          "sources": [
+            "02-产品资料/1601981394982_JTY-GM-TX3100N-点型光电感烟探测器/原产品资料/source/来源与事实.json",
+            "02-产品资料/1601981437810_JTY-GM-TX3100D-点型光电感烟探测器/原产品资料/source/来源与事实.json"
+          ],
+          "evidence": "Documented"
+        },
+        {
+          "label": {
+            "en": "Mounting",
+            "ar": "التركيب"
+          },
+          "value": {
+            "en": "Ceiling mounted",
+            "ar": "سقفي"
+          },
+          "sources": [
+            "02-产品资料/1601981394982_JTY-GM-TX3100N-点型光电感烟探测器/原产品资料/source/来源与事实.json",
+            "02-产品资料/1601981437810_JTY-GM-TX3100D-点型光电感烟探测器/原产品资料/source/来源与事实.json"
+          ],
+          "evidence": "Documented"
+        }
+      ],
+      "models": [
+        {
+          "name": {
+            "en": "Photoelectric smoke detector — N model",
+            "ar": "كاشف دخان كهروضوئي — الطراز N"
+          },
+          "factoryReference": "JTY-GM-TX3100N",
+          "selection": {
+            "en": "24 V DC; specify the matching base and control panel.",
+            "ar": "24 V DC؛ حدد القاعدة ولوحة التحكم المتوافقتين."
+          },
+          "sourceNames": [
+            "JTY-GM-TX3100N-点型光电感烟探测器"
+          ],
+          "sources": [
+            "02-产品资料/1601981394982_JTY-GM-TX3100N-点型光电感烟探测器/原产品资料/source/来源与事实.json"
+          ]
+        },
+        {
+          "name": {
+            "en": "Photoelectric smoke detector — D model",
+            "ar": "كاشف دخان كهروضوئي — الطراز D"
+          },
+          "factoryReference": "JTY-GM-TX3100D",
+          "selection": {
+            "en": "24 V DC; base-included and detector-only order scopes must be specified.",
+            "ar": "24 V DC؛ يجب تحديد الطلب مع القاعدة أو للكاشف فقط."
+          },
+          "sourceNames": [
+            "JTY-GM-TX3100D-点型光电感烟探测器"
+          ],
+          "sources": [
+            "02-产品资料/1601981437810_JTY-GM-TX3100D-点型光电感烟探测器/原产品资料/source/来源与事实.json"
+          ]
+        }
+      ],
+      "selectionPrompts": [
+        {
+          "label": {
+            "en": "Control panel compatibility",
+            "ar": "توافق لوحة التحكم"
+          },
+          "body": {
+            "en": "Provide the control panel model, protocol and existing device references so compatibility can be checked before supply.",
+            "ar": "قدم طراز لوحة التحكم والبروتوكول ومراجع الأجهزة الحالية للتحقق من التوافق قبل التوريد."
+          }
+        },
+        {
+          "label": {
+            "en": "Base and installation",
+            "ar": "القاعدة والتركيب"
+          },
+          "body": {
+            "en": "Specify whether a matching base is required and provide installation conditions and quantity.",
+            "ar": "حدد ما إذا كانت القاعدة المطابقة مطلوبة، وقدم ظروف التركيب والكمية."
+          }
+        }
+      ],
+      "imageCaptions": {
+        "JTY-GM-TX3100N-点型光电感烟探测器": {
+          "en": "JTY-GM-TX3100N photoelectric smoke detector.",
+          "ar": "كاشف الدخان الكهروضوئي JTY-GM-TX3100N."
+        },
+        "JTY-GM-TX3100D-点型光电感烟探测器": {
+          "en": "JTY-GM-TX3100D photoelectric smoke detector.",
+          "ar": "كاشف الدخان الكهروضوئي JTY-GM-TX3100D."
+        }
+      },
+      "unresolved": [
+        "两型号的协议兼容、地址设定、灵敏度、环境条件及底座包含范围待精确型号文件确认。"
+      ],
+      "notes": [
+        "TX3100N资料缺网页正文，型号与24 V来自实物底标核验记录；未借用其他型号参数。",
+        "TX3100D有含底座/不含底座条目，图片不能证明每笔订单均含底座。"
+      ]
+    },
+    {
+      "id": "manual-fire-alarm-call-points",
+      "familyId": "fire-alarm-systems",
+      "name": {
+        "en": "Manual Fire Alarm Call Points",
+        "ar": "نقاط نداء يدوية لإنذار الحريق",
+        "zh": "手动火灾报警按钮"
+      },
+      "lead": {
+        "en": "Tanda manual fire alarm call points with a telephone socket. The supplied TX3142 configuration provides a manual alarm activation point for a compatible fire alarm system.",
+        "ar": "نقاط نداء يدوية لإنذار الحريق من Tanda مزودة بمقبس هاتف. يوفر تجهيز TX3142 المقدم نقطة تفعيل يدوي للإنذار ضمن نظام متوافق."
+      },
+      "sourceNames": [
+        "TX3142-手动火灾报警按钮"
+      ],
+      "heroSourceName": "TX3142-手动火灾报警按钮",
+      "specs": [
+        {
+          "label": {
+            "en": "Product brand",
+            "ar": "العلامة التجارية للمنتج"
+          },
+          "value": {
+            "en": "Tanda",
+            "ar": "Tanda"
+          },
+          "sources": [
+            "02-产品资料/1601981496341_TX3142-手动火灾报警按钮/原产品资料/source/来源与事实.json"
+          ],
+          "evidence": "Documented"
+        },
+        {
+          "label": {
+            "en": "Product type",
+            "ar": "نوع المنتج"
+          },
+          "value": {
+            "en": "Manual fire alarm call point",
+            "ar": "نقطة نداء يدوية لإنذار الحريق"
+          },
+          "sources": [
+            "02-产品资料/1601981496341_TX3142-手动火灾报警按钮/原产品资料/source/来源与事实.json"
+          ],
+          "evidence": "Documented"
+        },
+        {
+          "label": {
+            "en": "Alarm activation",
+            "ar": "تفعيل الإنذار"
+          },
+          "value": {
+            "en": "Manual",
+            "ar": "يدوي"
+          },
+          "sources": [
+            "02-产品资料/1601981496341_TX3142-手动火灾报警按钮/原产品资料/source/来源与事实.json"
+          ],
+          "evidence": "Documented"
+        },
+        {
+          "label": {
+            "en": "Additional feature",
+            "ar": "ميزة إضافية"
+          },
+          "value": {
+            "en": "Telephone socket",
+            "ar": "مقبس هاتف"
+          },
+          "sources": [
+            "02-产品资料/1601981496341_TX3142-手动火灾报警按钮/原产品资料/source/来源与事实.json"
+          ],
+          "evidence": "Documented"
+        }
+      ],
+      "models": [
+        {
+          "name": {
+            "en": "Manual call point with telephone socket",
+            "ar": "نقطة نداء يدوية بمقبس هاتف"
+          },
+          "factoryReference": "TX3142",
+          "selection": {
+            "en": "Specify the matching base and telephone-system connection requirements.",
+            "ar": "حدد القاعدة المطابقة ومتطلبات اتصال نظام الهاتف."
+          },
+          "sourceNames": [
+            "TX3142-手动火灾报警按钮"
+          ],
+          "sources": [
+            "02-产品资料/1601981496341_TX3142-手动火灾报警按钮/原产品资料/source/来源与事实.json"
+          ]
+        }
+      ],
+      "selectionPrompts": [
+        {
+          "label": {
+            "en": "Control panel compatibility",
+            "ar": "توافق لوحة التحكم"
+          },
+          "body": {
+            "en": "Provide the control panel model, protocol and existing device references so compatibility can be checked before supply.",
+            "ar": "قدم طراز لوحة التحكم والبروتوكول ومراجع الأجهزة الحالية للتحقق من التوافق قبل التوريد."
+          }
+        },
+        {
+          "label": {
+            "en": "Telephone and mounting requirements",
+            "ar": "متطلبات الهاتف والتركيب"
+          },
+          "body": {
+            "en": "Specify the telephone-system interface, base requirement and mounting arrangement.",
+            "ar": "حدد واجهة نظام الهاتف والحاجة إلى القاعدة وطريقة التركيب."
+          }
+        }
+      ],
+      "imageCaptions": {
+        "TX3142-手动火灾报警按钮": {
+          "en": "TX3142 manual call point with telephone socket.",
+          "ar": "نقطة نداء يدوية TX3142 مزودة بمقبس هاتف."
+        }
+      },
+      "unresolved": [
+        "电源电压、尺寸、复位方式、接线、电话接口与底座匹配待确认。"
+      ],
+      "notes": [
+        "仅TX3142，不使用TX3142N照片或参数。",
+        "不宣称未核实的电压、尺寸或认证适用性。"
+      ]
+    },
+    {
+      "id": "fire-alarm-input-output-modules",
+      "familyId": "fire-alarm-systems",
+      "name": {
+        "en": "Fire Alarm Input/Output Modules",
+        "ar": "وحدات إدخال وإخراج لإنذار الحريق",
+        "zh": "火灾报警输入输出模块"
+      },
+      "lead": {
+        "en": "Tanda input/output modules for compatible fire alarm control interfaces. The supplied TX3212 configuration uses a plug-in base; electrical interfaces must be matched to the connected equipment.",
+        "ar": "وحدات إدخال وإخراج من Tanda لواجهات التحكم المتوافقة مع إنذار الحريق. يستخدم تجهيز TX3212 المقدم قاعدة قابلة للتوصيل؛ ويجب مطابقة الواجهات الكهربائية مع المعدات المتصلة."
+      },
+      "sourceNames": [
+        "TX3212-输入输出模块"
+      ],
+      "heroSourceName": "TX3212-输入输出模块",
+      "specs": [
+        {
+          "label": {
+            "en": "Product brand",
+            "ar": "العلامة التجارية للمنتج"
+          },
+          "value": {
+            "en": "Tanda",
+            "ar": "Tanda"
+          },
+          "sources": [
+            "02-产品资料/1601981513312_TX3212-输入输出模块/原产品资料/source/来源与事实.json"
+          ],
+          "evidence": "Documented"
+        },
+        {
+          "label": {
+            "en": "Product type",
+            "ar": "نوع المنتج"
+          },
+          "value": {
+            "en": "Fire alarm input/output module",
+            "ar": "وحدة إدخال وإخراج لإنذار الحريق"
+          },
+          "sources": [
+            "02-产品资料/1601981513312_TX3212-输入输出模块/原产品资料/source/来源与事实.json"
+          ],
+          "evidence": "Documented"
+        },
+        {
+          "label": {
+            "en": "Interface functions",
+            "ar": "وظائف الواجهة"
+          },
+          "value": {
+            "en": "Input and output",
+            "ar": "إدخال وإخراج"
+          },
+          "sources": [
+            "02-产品资料/1601981513312_TX3212-输入输出模块/原产品资料/source/来源与事实.json"
+          ],
+          "evidence": "Documented"
+        },
+        {
+          "label": {
+            "en": "Base arrangement",
+            "ar": "تجهيز القاعدة"
+          },
+          "value": {
+            "en": "Plug-in base",
+            "ar": "قاعدة قابلة للتوصيل"
+          },
+          "sources": [
+            "02-产品资料/1601981513312_TX3212-输入输出模块/原产品资料/source/来源与事实.json"
+          ],
+          "evidence": "Documented"
+        }
+      ],
+      "models": [
+        {
+          "name": {
+            "en": "Input/output module",
+            "ar": "وحدة إدخال وإخراج"
+          },
+          "factoryReference": "TX3212",
+          "selection": {
+            "en": "Plug-in base configuration; specify control and feedback requirements.",
+            "ar": "تجهيز بقاعدة قابلة للتوصيل؛ حدد متطلبات التحكم والتغذية الراجعة."
+          },
+          "sourceNames": [
+            "TX3212-输入输出模块"
+          ],
+          "sources": [
+            "02-产品资料/1601981513312_TX3212-输入输出模块/原产品资料/source/来源与事实.json"
+          ]
+        }
+      ],
+      "selectionPrompts": [
+        {
+          "label": {
+            "en": "Control panel compatibility",
+            "ar": "توافق لوحة التحكم"
+          },
+          "body": {
+            "en": "Provide the control panel model, protocol and existing device references so compatibility can be checked before supply.",
+            "ar": "قدم طراز لوحة التحكم والبروتوكول ومراجع الأجهزة الحالية للتحقق من التوافق قبل التوريد."
+          }
+        },
+        {
+          "label": {
+            "en": "Controlled equipment and signals",
+            "ar": "المعدات المتحكم بها والإشارات"
+          },
+          "body": {
+            "en": "Provide the equipment wiring diagram, required input signal and output contact rating so the interface can be checked.",
+            "ar": "قدم مخطط توصيل المعدات وإشارة الإدخال المطلوبة وتصنيف نقاط خرج التلامس للتحقق من الواجهة."
+          }
+        }
+      ],
+      "imageCaptions": {
+        "TX3212-输入输出模块": {
+          "en": "TX3212 input/output module configuration.",
+          "ar": "تجهيز وحدة الإدخال والإخراج TX3212."
+        }
+      },
+      "unresolved": [
+        "供电、输入方式、输出触点容量、通道数、协议、接线与尺寸未核实。"
+      ],
+      "notes": [
+        "包装86/33/86的cm字段不合理，未擅自改成mm。",
+        "不宣称直接驱动电机、泵或通用兼容；未编造接线图。"
+      ]
+    },
+    {
+      "id": "fire-alarm-sounder-beacons",
+      "familyId": "fire-alarm-systems",
+      "name": {
+        "en": "Fire Alarm Sounder Beacons",
+        "ar": "أجهزة إنذار حريق صوتية وضوئية",
+        "zh": "火灾声光警报器"
+      },
+      "lead": {
+        "en": "Tanda sounder beacons provide audible and visual fire alarm indication. TX3307 and TX3307A are separate model options with red housings; each requires its own base and wiring confirmation.",
+        "ar": "توفر أجهزة الإنذار الصوتية والضوئية من Tanda إشارات حريق مسموعة ومرئية. يتوفر TX3307 وTX3307A كطرازين منفصلين بغلاف أحمر، ويتطلب كل منهما تأكيد القاعدة والتوصيلات الخاصة به."
+      },
+      "sourceNames": [
+        "TX3307-火灾声光警报器",
+        "TX3307A-火灾声光警报器"
+      ],
+      "heroSourceName": "TX3307A-火灾声光警报器",
+      "specs": [
+        {
+          "label": {
+            "en": "Product brand",
+            "ar": "العلامة التجارية للمنتج"
+          },
+          "value": {
+            "en": "Tanda",
+            "ar": "Tanda"
+          },
+          "sources": [
+            "02-产品资料/1601981410904_TX3307-火灾声光警报器/原产品资料/source/来源与事实.json",
+            "02-产品资料/1601981383950_TX3307A-火灾声光警报器/原产品资料/source/来源与事实.json"
+          ],
+          "evidence": "Documented"
+        },
+        {
+          "label": {
+            "en": "Alarm indication",
+            "ar": "إشارة الإنذار"
+          },
+          "value": {
+            "en": "Audible and visual",
+            "ar": "صوتية وضوئية"
+          },
+          "sources": [
+            "02-产品资料/1601981410904_TX3307-火灾声光警报器/原产品资料/source/来源与事实.json",
+            "02-产品资料/1601981383950_TX3307A-火灾声光警报器/原产品资料/source/来源与事实.json"
+          ],
+          "evidence": "Documented"
+        },
+        {
+          "label": {
+            "en": "Housing appearance",
+            "ar": "مظهر الغلاف"
+          },
+          "value": {
+            "en": "Red housing",
+            "ar": "غلاف أحمر"
+          },
+          "sources": [
+            "02-产品资料/1601981410904_TX3307-火灾声光警报器/原产品资料/source/来源与事实.json",
+            "02-产品资料/1601981383950_TX3307A-火灾声光警报器/原产品资料/source/来源与事实.json"
+          ],
+          "evidence": "Documented"
+        },
+        {
+          "label": {
+            "en": "Model options",
+            "ar": "خيارات الطراز"
+          },
+          "value": {
+            "en": "TX3307 / TX3307A",
+            "ar": "TX3307 / TX3307A"
+          },
+          "sources": [
+            "02-产品资料/1601981410904_TX3307-火灾声光警报器/原产品资料/source/来源与事实.json",
+            "02-产品资料/1601981383950_TX3307A-火灾声光警报器/原产品资料/source/来源与事实.json"
+          ],
+          "evidence": "Documented"
+        }
+      ],
+      "models": [
+        {
+          "name": {
+            "en": "Sounder beacon — TX3307",
+            "ar": "جهاز إنذار صوتي وضوئي — TX3307"
+          },
+          "factoryReference": "TX3307",
+          "selection": {
+            "en": "Confirm the TX3307-specific base, wiring and panel compatibility.",
+            "ar": "أكد القاعدة والتوصيلات وتوافق اللوحة الخاصة بطراز TX3307."
+          },
+          "sourceNames": [
+            "TX3307-火灾声光警报器"
+          ],
+          "sources": [
+            "02-产品资料/1601981410904_TX3307-火灾声光警报器/原产品资料/source/来源与事实.json"
+          ]
+        },
+        {
+          "name": {
+            "en": "Sounder beacon — TX3307A",
+            "ar": "جهاز إنذار صوتي وضوئي — TX3307A"
+          },
+          "factoryReference": "TX3307A",
+          "selection": {
+            "en": "Confirm the TX3307A-specific base, wiring and panel compatibility.",
+            "ar": "أكد القاعدة والتوصيلات وتوافق اللوحة الخاصة بطراز TX3307A."
+          },
+          "sourceNames": [
+            "TX3307A-火灾声光警报器"
+          ],
+          "sources": [
+            "02-产品资料/1601981383950_TX3307A-火灾声光警报器/原产品资料/source/来源与事实.json"
+          ]
+        }
+      ],
+      "selectionPrompts": [
+        {
+          "label": {
+            "en": "Control panel compatibility",
+            "ar": "توافق لوحة التحكم"
+          },
+          "body": {
+            "en": "Provide the control panel model, protocol and existing device references so compatibility can be checked before supply.",
+            "ar": "قدم طراز لوحة التحكم والبروتوكول ومراجع الأجهزة الحالية للتحقق من التوافق قبل التوريد."
+          }
+        },
+        {
+          "label": {
+            "en": "Notification design",
+            "ar": "تصميم التنبيه"
+          },
+          "body": {
+            "en": "Specify the exact model, installation environment and required sound and visual performance for documentation review.",
+            "ar": "حدد الطراز الدقيق وبيئة التركيب والأداء الصوتي والضوئي المطلوب لمراجعة الوثائق."
+          }
+        }
+      ],
+      "imageCaptions": {
+        "TX3307-火灾声光警报器": {
+          "en": "TX3307 sounder beacon; use its model-specific base and wiring.",
+          "ar": "جهاز إنذار صوتي وضوئي TX3307؛ تستخدم القاعدة والتوصيلات الخاصة بطرازه."
+        },
+        "TX3307A-火灾声光警报器": {
+          "en": "TX3307A sounder beacon; confirm its own base and wiring.",
+          "ar": "جهاز إنذار صوتي وضوئي TX3307A؛ يجب تأكيد القاعدة والتوصيلات الخاصة به."
+        }
+      },
+      "unresolved": [
+        "各型号供电、工作电流、声压及测距条件、光输出、防护等级、编码与接线资料待核实。"
+      ],
+      "notes": [
+        "同系列页仅作并列型号选择，未把TX3307与TX3307A当作互换件。",
+        "TX3307源页混入A型照片，来源记录已排除；不交叉使用底座接线。",
+        "未将二总线当作无线；未采用缺测距条件的75–105 dB。"
+      ]
+    }
+  ]
+}

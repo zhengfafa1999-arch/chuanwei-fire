@@ -1,0 +1,253 @@
+{
+  "id": "vertical-multistage-fire-pumps",
+  "routeId": "product:vertical-multistage-fire-pumps",
+  "template": "product-series/documented-product.njk",
+  "styles": [
+    "css/common.css",
+    "css/sprinkler-product.css",
+    "css/sprinkler-product-gallery.css",
+    "css/documented-product.css",
+    "css/site-navigation.css"
+  ],
+  "source": {
+    "evidence": "User-selected new-folder product archive; reviewed field-by-field for this product series.",
+    "review": "docs/reviews/material-batch-20261018/mechanical.json",
+    "sourceNames": [
+      "XBD4.0-1W-CDL-立式多级消防泵"
+    ],
+    "unresolved": [
+      "电源频率、出口尺寸、曲线、接液件及筒体材质需核实。"
+    ],
+    "notes": [
+      "使用准确SKU XBD4.0/1W-CDL，不沿用网页标题GDL或无单位最大流量360/扬程210。"
+    ]
+  },
+  "publication": {
+    "status": "release-candidate",
+    "externalRelease": true,
+    "imageRights": "user-confirmed-website-use",
+    "imageRightsEvidence": "docs/release/website-products-20261018/image-rights-confirmation.json"
+  },
+  "media": {
+    "hero": "assets/products/website-20261018/product-f30855ee4f4e.webp"
+  },
+  "imageDimensions": {
+    "hero": {
+      "width": 1200,
+      "height": 1200
+    }
+  },
+  "shared": {},
+  "heroFacts": [
+    "spec0Value",
+    "spec1Value",
+    "spec2Value"
+  ],
+  "gallery": [
+    {
+      "media": "hero",
+      "alt": "image0Alt",
+      "caption": "image0Caption",
+      "thumbnailAlt": "image0Alt"
+    }
+  ],
+  "specifications": [
+    {
+      "label": "spec0Label",
+      "value": "spec0Value"
+    },
+    {
+      "label": "spec1Label",
+      "value": "spec1Value"
+    },
+    {
+      "label": "spec2Label",
+      "value": "spec2Value"
+    },
+    {
+      "label": "spec3Label",
+      "value": "spec3Value"
+    },
+    {
+      "label": "spec4Label",
+      "value": "spec4Value"
+    },
+    {
+      "label": "spec5Label",
+      "value": "spec5Value"
+    },
+    {
+      "label": "spec6Label",
+      "value": "spec6Value"
+    }
+  ],
+  "modelColumns": [
+    {
+      "label": "configuration",
+      "field": "configuration",
+      "localized": true
+    },
+    {
+      "label": "factoryModel",
+      "field": "factoryReference",
+      "localized": true
+    },
+    {
+      "label": "selectionDetails",
+      "field": "selection",
+      "localized": true
+    }
+  ],
+  "models": [
+    {
+      "configuration": "model0Name",
+      "factoryReference": "model0Reference",
+      "selection": "model0Selection"
+    }
+  ],
+  "confirmationItems": [
+    {
+      "label": "selection0Label",
+      "body": "selection0Body"
+    },
+    {
+      "label": "selection1Label",
+      "body": "selection1Body"
+    }
+  ],
+  "inquiry": {
+    "whatsapp": "https://wa.me/8617326528368?text=Hello%2C%20I%20am%20interested%20in%20Vertical%20Multistage%20Fire%20Pumps.%0AProduct%20page%3A%20https%3A//chuanweifire.com/products/fire-pumps-controllers/vertical-multistage-fire-pumps.html%0AQuantity%20/%20destination%20/%20requirements%3A",
+    "email": "mailto:zhengcolin1@gmail.com"
+  },
+  "validation": {
+    "anchors": [
+      "gallery",
+      "specifications",
+      "models",
+      "quotation"
+    ],
+    "requiredTechnicalValues": []
+  },
+  "copy": {
+    "en": {
+      "onThisPage": "On this page",
+      "gallery": "Product gallery",
+      "galleryTitle": "Product views",
+      "galleryBody": "Select an image to view the pictured product or configuration.",
+      "specifications": "Specifications",
+      "specificationsTitle": "Product specifications",
+      "specificationsBody": "Use the specifications together with the configuration table below.",
+      "availableModels": "Models & configurations",
+      "modelsTitle": "Models & configurations",
+      "modelsBody": "Match the product reference and selection details to your order.",
+      "modelsNote": "The photographs illustrate selected configurations. Specify the required model and quantity when requesting a quotation.",
+      "factoryModel": "Product reference",
+      "configuration": "Configuration",
+      "selectionDetails": "Selection details",
+      "temperature": "Temperature",
+      "thermalElement": "Thermal element",
+      "quotation": "Request a quotation",
+      "quotationTitle": "Select your configuration",
+      "quotationBody": "Include the product reference, quantity and delivery destination, together with the requirements below.",
+      "askOnWhatsApp": "Ask on WhatsApp",
+      "emailSales": "Email sales",
+      "productImagePreview": "Product image preview",
+      "closeImagePreview": "Close image preview",
+      "enlargedImage": "Enlarged product image",
+      "previousProductImage": "Previous product image",
+      "nextProductImage": "Next product image",
+      "selectProductImage": "Select product image",
+      "inquiryTitle": "Request product details and a quotation",
+      "inquiryBody": "Send your selected configuration, quantity and destination.",
+      "title": "Vertical Multistage Fire Pumps",
+      "lead": "The XBD4.0/1W-CDL is a vertical multistage fire pump with a documented duty of 3.6 m³/h at 40 m head and a 1.1 kW motor.",
+      "eyebrow": "Fire Pumps & Control Cabinets",
+      "seoTitle": "Vertical Multistage Fire Pumps | CHUANWEI FIRE",
+      "seoDescription": "The XBD4.0/1W-CDL is a vertical multistage fire pump with a documented duty of 3.6 m³/h at 40 m head and a 1.1 kW motor.",
+      "note": "Send the required flow and head, the system duty and the proposed installation arrangement.",
+      "image0Alt": "XBD4.0/1W-CDL vertical multistage pump.",
+      "image0Caption": "XBD4.0/1W-CDL vertical multistage pump.",
+      "spec0Label": "Model",
+      "spec0Value": "XBD4.0/1W-CDL",
+      "spec1Label": "Construction",
+      "spec1Value": "Vertical multistage",
+      "spec2Label": "Rated flow",
+      "spec2Value": "3.6 m³/h",
+      "spec3Label": "Rated head",
+      "spec3Value": "40 m",
+      "spec4Label": "Rated power",
+      "spec4Value": "1.1 kW",
+      "spec5Label": "Supply voltage",
+      "spec5Value": "380 V",
+      "spec6Label": "Inlet",
+      "spec6Value": "DN32",
+      "model0Name": "XBD4.0/1W-CDL",
+      "model0Reference": "XBD4.0/1W-CDL",
+      "model0Selection": "3.6 m³/h · 40 m · 1.1 kW · 380 V · DN32 inlet",
+      "selection0Label": "Hydraulic duty",
+      "selection0Body": "Send the required flow and head, the system duty and the proposed installation arrangement.",
+      "selection1Label": "Motor and connections",
+      "selection1Body": "Specify the site voltage and frequency, motor requirements and mating pipe or flange drawings."
+    },
+    "ar": {
+      "onThisPage": "في هذه الصفحة",
+      "gallery": "صور المنتج",
+      "galleryTitle": "عرض المنتج",
+      "galleryBody": "اختر صورة لعرض المنتج أو التكوين الظاهر فيها.",
+      "specifications": "المواصفات",
+      "specificationsTitle": "مواصفات المنتج",
+      "specificationsBody": "استخدم المواصفات مع جدول التكوينات أدناه.",
+      "availableModels": "الموديلات والتكوينات",
+      "modelsTitle": "الموديلات والتكوينات",
+      "modelsBody": "طابق مرجع المنتج وتفاصيل الاختيار مع طلبك.",
+      "modelsNote": "تعرض الصور تكوينات مختارة. حدد الموديل والكمية المطلوبة عند طلب عرض السعر.",
+      "factoryModel": "مرجع المنتج",
+      "configuration": "التكوين",
+      "selectionDetails": "تفاصيل الاختيار",
+      "temperature": "درجة الحرارة",
+      "thermalElement": "العنصر الحراري",
+      "quotation": "طلب عرض سعر",
+      "quotationTitle": "اختر التكوين المطلوب",
+      "quotationBody": "أرسل مرجع المنتج والكمية ووجهة التسليم والمتطلبات أدناه.",
+      "askOnWhatsApp": "استفسر عبر WhatsApp",
+      "emailSales": "راسل قسم المبيعات",
+      "productImagePreview": "معاينة صورة المنتج",
+      "closeImagePreview": "إغلاق معاينة الصورة",
+      "enlargedImage": "صورة مكبرة للمنتج",
+      "previousProductImage": "صورة المنتج السابقة",
+      "nextProductImage": "صورة المنتج التالية",
+      "selectProductImage": "اختر صورة المنتج",
+      "inquiryTitle": "اطلب تفاصيل المنتج وعرض سعر",
+      "inquiryBody": "أرسل التكوين المختار والكمية والوجهة.",
+      "title": "مضخات حريق رأسية متعددة المراحل",
+      "lead": "الموديل XBD4.0/1W-CDL مضخة حريق رأسية متعددة المراحل، بتدفق موثق يبلغ 3.6 m³/h ورفع 40 m ومحرك بقدرة 1.1 kW.",
+      "eyebrow": "مضخات الحريق وخزائن التحكم",
+      "seoTitle": "مضخات حريق رأسية متعددة المراحل | CHUANWEI FIRE",
+      "seoDescription": "الموديل XBD4.0/1W-CDL مضخة حريق رأسية متعددة المراحل، بتدفق موثق يبلغ 3.6 m³/h ورفع 40 m ومحرك بقدرة 1.1 kW.",
+      "note": "أرسل التدفق والرفع المطلوبين ووظيفة النظام وترتيب التركيب المقترح.",
+      "image0Alt": "مضخة رأسية متعددة المراحل XBD4.0/1W-CDL.",
+      "image0Caption": "مضخة رأسية متعددة المراحل XBD4.0/1W-CDL.",
+      "spec0Label": "الموديل",
+      "spec0Value": "XBD4.0/1W-CDL",
+      "spec1Label": "التركيب",
+      "spec1Value": "رأسي متعدد المراحل",
+      "spec2Label": "التدفق المقنن",
+      "spec2Value": "3.6 m³/h",
+      "spec3Label": "الرفع المقنن",
+      "spec3Value": "40 m",
+      "spec4Label": "القدرة المقننة",
+      "spec4Value": "1.1 kW",
+      "spec5Label": "جهد التغذية",
+      "spec5Value": "380 V",
+      "spec6Label": "المدخل",
+      "spec6Value": "DN32",
+      "model0Name": "XBD4.0/1W-CDL",
+      "model0Reference": "XBD4.0/1W-CDL",
+      "model0Selection": "3.6 m³/h · 40 m · 1.1 kW · 380 V · مدخل DN32",
+      "selection0Label": "نقطة التشغيل الهيدروليكية",
+      "selection0Body": "أرسل التدفق والرفع المطلوبين ووظيفة النظام وترتيب التركيب المقترح.",
+      "selection1Label": "المحرك والتوصيلات",
+      "selection1Body": "حدد جهد الموقع وتردده ومتطلبات المحرك ورسومات الأنابيب أو الفلنجات المقابلة."
+    }
+  }
+}

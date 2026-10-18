@@ -1,0 +1,297 @@
+{
+  "id": "flanged-globe-valves",
+  "routeId": "product:flanged-globe-valves",
+  "template": "product-series/documented-product.njk",
+  "styles": [
+    "css/common.css",
+    "css/sprinkler-product.css",
+    "css/sprinkler-product-gallery.css",
+    "css/documented-product.css",
+    "css/site-navigation.css"
+  ],
+  "source": {
+    "evidence": "User-selected new-folder product archive; reviewed field-by-field for this product series.",
+    "review": "docs/reviews/material-batch-20261018/mechanical.json",
+    "sourceNames": [
+      "J41T-法兰截止阀"
+    ],
+    "unresolved": [
+      "阀内件、密封材料、允许温度、法兰钻孔和安装尺寸待核实。"
+    ],
+    "notes": [
+      "采用本款用户确认PN16和球墨铸铁，不借其他止回阀或过滤器参数。"
+    ]
+  },
+  "publication": {
+    "status": "release-candidate",
+    "externalRelease": true,
+    "imageRights": "user-confirmed-website-use",
+    "imageRightsEvidence": "docs/release/website-products-20261018/image-rights-confirmation.json"
+  },
+  "media": {
+    "hero": "assets/products/website-20261018/product-def53f1a9a8a.webp"
+  },
+  "imageDimensions": {
+    "hero": {
+      "width": 1254,
+      "height": 1254
+    }
+  },
+  "shared": {},
+  "heroFacts": [
+    "spec0Value",
+    "spec1Value",
+    "spec2Value"
+  ],
+  "gallery": [
+    {
+      "media": "hero",
+      "alt": "image0Alt",
+      "caption": "image0Caption",
+      "thumbnailAlt": "image0Alt"
+    }
+  ],
+  "specifications": [
+    {
+      "label": "spec0Label",
+      "value": "spec0Value"
+    },
+    {
+      "label": "spec1Label",
+      "value": "spec1Value"
+    },
+    {
+      "label": "spec2Label",
+      "value": "spec2Value"
+    },
+    {
+      "label": "spec3Label",
+      "value": "spec3Value"
+    },
+    {
+      "label": "spec4Label",
+      "value": "spec4Value"
+    },
+    {
+      "label": "spec5Label",
+      "value": "spec5Value"
+    },
+    {
+      "label": "spec6Label",
+      "value": "spec6Value"
+    }
+  ],
+  "modelColumns": [
+    {
+      "label": "configuration",
+      "field": "configuration",
+      "localized": true
+    },
+    {
+      "label": "factoryModel",
+      "field": "factoryReference",
+      "localized": true
+    },
+    {
+      "label": "selectionDetails",
+      "field": "selection",
+      "localized": true
+    }
+  ],
+  "models": [
+    {
+      "configuration": "model0Name",
+      "factoryReference": "model0Reference",
+      "selection": "model0Selection"
+    },
+    {
+      "configuration": "model1Name",
+      "factoryReference": "model1Reference",
+      "selection": "model1Selection"
+    },
+    {
+      "configuration": "model2Name",
+      "factoryReference": "model2Reference",
+      "selection": "model2Selection"
+    },
+    {
+      "configuration": "model3Name",
+      "factoryReference": "model3Reference",
+      "selection": "model3Selection"
+    },
+    {
+      "configuration": "model4Name",
+      "factoryReference": "model4Reference",
+      "selection": "model4Selection"
+    }
+  ],
+  "confirmationItems": [
+    {
+      "label": "selection0Label",
+      "body": "selection0Body"
+    },
+    {
+      "label": "selection1Label",
+      "body": "selection1Body"
+    }
+  ],
+  "inquiry": {
+    "whatsapp": "https://wa.me/8617326528368?text=Hello%2C%20I%20am%20interested%20in%20Flanged%20Globe%20Valves.%0AProduct%20page%3A%20https%3A//chuanweifire.com/products/pipeline-valves-strainers/flanged-globe-valves.html%0AQuantity%20/%20destination%20/%20requirements%3A",
+    "email": "mailto:zhengcolin1@gmail.com"
+  },
+  "validation": {
+    "anchors": [
+      "gallery",
+      "specifications",
+      "models",
+      "quotation"
+    ],
+    "requiredTechnicalValues": []
+  },
+  "copy": {
+    "en": {
+      "onThisPage": "On this page",
+      "gallery": "Product gallery",
+      "galleryTitle": "Product views",
+      "galleryBody": "Select an image to view the pictured product or configuration.",
+      "specifications": "Specifications",
+      "specificationsTitle": "Product specifications",
+      "specificationsBody": "Use the specifications together with the configuration table below.",
+      "availableModels": "Models & configurations",
+      "modelsTitle": "Models & configurations",
+      "modelsBody": "Match the product reference and selection details to your order.",
+      "modelsNote": "The photographs illustrate selected configurations. Specify the required model and quantity when requesting a quotation.",
+      "factoryModel": "Product reference",
+      "configuration": "Configuration",
+      "selectionDetails": "Selection details",
+      "temperature": "Temperature",
+      "thermalElement": "Thermal element",
+      "quotation": "Request a quotation",
+      "quotationTitle": "Select your configuration",
+      "quotationBody": "Include the product reference, quantity and delivery destination, together with the requirements below.",
+      "askOnWhatsApp": "Ask on WhatsApp",
+      "emailSales": "Email sales",
+      "productImagePreview": "Product image preview",
+      "closeImagePreview": "Close image preview",
+      "enlargedImage": "Enlarged product image",
+      "previousProductImage": "Previous product image",
+      "nextProductImage": "Next product image",
+      "selectProductImage": "Select product image",
+      "inquiryTitle": "Request product details and a quotation",
+      "inquiryBody": "Send your selected configuration, quantity and destination.",
+      "title": "Flanged Globe Valves",
+      "lead": "The J41T globe valve provides manual flow shutoff in fire water supply pipelines, using a handwheel, ductile iron body and bolted bonnet.",
+      "eyebrow": "Pipeline Valves & Strainers",
+      "seoTitle": "Flanged Globe Valves | CHUANWEI FIRE",
+      "seoDescription": "The J41T globe valve provides manual flow shutoff in fire water supply pipelines, using a handwheel, ductile iron body and bolted bonnet.",
+      "note": "Specify the nominal size and provide the mating flange drilling and installation dimensions.",
+      "image0Alt": "J41T flanged globe valve with manual handwheel.",
+      "image0Caption": "J41T flanged globe valve with manual handwheel.",
+      "spec0Label": "Model",
+      "spec0Value": "J41T",
+      "spec1Label": "Body material",
+      "spec1Value": "Ductile iron",
+      "spec2Label": "Nominal pressure",
+      "spec2Value": "PN16 / 1.6 MPa",
+      "spec3Label": "Nominal sizes",
+      "spec3Value": "DN50 / DN80 / DN100 / DN150 / DN200",
+      "spec4Label": "Connection",
+      "spec4Value": "Flanged",
+      "spec5Label": "Operation",
+      "spec5Value": "Manual handwheel",
+      "spec6Label": "Bonnet",
+      "spec6Value": "Bolted",
+      "model0Name": "DN50",
+      "model0Reference": "J41T",
+      "model0Selection": "J41T · DN50 · flanged connection",
+      "model1Name": "DN80",
+      "model1Reference": "J41T",
+      "model1Selection": "J41T · DN80 · flanged connection",
+      "model2Name": "DN100",
+      "model2Reference": "J41T",
+      "model2Selection": "J41T · DN100 · flanged connection",
+      "model3Name": "DN150",
+      "model3Reference": "J41T",
+      "model3Selection": "J41T · DN150 · flanged connection",
+      "model4Name": "DN200",
+      "model4Reference": "J41T",
+      "model4Selection": "J41T · DN200 · flanged connection",
+      "selection0Label": "Size and mating flange",
+      "selection0Body": "Specify the nominal size and provide the mating flange drilling and installation dimensions.",
+      "selection1Label": "Service conditions",
+      "selection1Body": "State the working fluid, operating pressure and temperature for the exact supplied configuration."
+    },
+    "ar": {
+      "onThisPage": "في هذه الصفحة",
+      "gallery": "صور المنتج",
+      "galleryTitle": "عرض المنتج",
+      "galleryBody": "اختر صورة لعرض المنتج أو التكوين الظاهر فيها.",
+      "specifications": "المواصفات",
+      "specificationsTitle": "مواصفات المنتج",
+      "specificationsBody": "استخدم المواصفات مع جدول التكوينات أدناه.",
+      "availableModels": "الموديلات والتكوينات",
+      "modelsTitle": "الموديلات والتكوينات",
+      "modelsBody": "طابق مرجع المنتج وتفاصيل الاختيار مع طلبك.",
+      "modelsNote": "تعرض الصور تكوينات مختارة. حدد الموديل والكمية المطلوبة عند طلب عرض السعر.",
+      "factoryModel": "مرجع المنتج",
+      "configuration": "التكوين",
+      "selectionDetails": "تفاصيل الاختيار",
+      "temperature": "درجة الحرارة",
+      "thermalElement": "العنصر الحراري",
+      "quotation": "طلب عرض سعر",
+      "quotationTitle": "اختر التكوين المطلوب",
+      "quotationBody": "أرسل مرجع المنتج والكمية ووجهة التسليم والمتطلبات أدناه.",
+      "askOnWhatsApp": "استفسر عبر WhatsApp",
+      "emailSales": "راسل قسم المبيعات",
+      "productImagePreview": "معاينة صورة المنتج",
+      "closeImagePreview": "إغلاق معاينة الصورة",
+      "enlargedImage": "صورة مكبرة للمنتج",
+      "previousProductImage": "صورة المنتج السابقة",
+      "nextProductImage": "صورة المنتج التالية",
+      "selectProductImage": "اختر صورة المنتج",
+      "inquiryTitle": "اطلب تفاصيل المنتج وعرض سعر",
+      "inquiryBody": "أرسل التكوين المختار والكمية والوجهة.",
+      "title": "صمامات غلوب بفلنجات",
+      "lead": "يوفر صمام غلوب J41T إيقافًا يدويًا للتدفق في خطوط مياه الحريق، بعجلة تشغيل وجسم من حديد الدكتايل وغطاء مثبت بمسامير.",
+      "eyebrow": "صمامات الأنابيب والمصافي",
+      "seoTitle": "صمامات غلوب بفلنجات | CHUANWEI FIRE",
+      "seoDescription": "يوفر صمام غلوب J41T إيقافًا يدويًا للتدفق في خطوط مياه الحريق، بعجلة تشغيل وجسم من حديد الدكتايل وغطاء مثبت بمسامير.",
+      "note": "حدد المقاس الاسمي وقدم أبعاد ثقوب الفلنجة المقابلة وأبعاد التركيب.",
+      "image0Alt": "صمام غلوب J41T بفلنجات وعجلة تشغيل يدوية.",
+      "image0Caption": "صمام غلوب J41T بفلنجات وعجلة تشغيل يدوية.",
+      "spec0Label": "الموديل",
+      "spec0Value": "J41T",
+      "spec1Label": "مادة الجسم",
+      "spec1Value": "حديد دكتايل",
+      "spec2Label": "الضغط الاسمي",
+      "spec2Value": "PN16 / 1.6 MPa",
+      "spec3Label": "المقاسات الاسمية",
+      "spec3Value": "DN50 / DN80 / DN100 / DN150 / DN200",
+      "spec4Label": "التوصيل",
+      "spec4Value": "بفلنجات",
+      "spec5Label": "التشغيل",
+      "spec5Value": "عجلة تشغيل يدوية",
+      "spec6Label": "الغطاء",
+      "spec6Value": "مثبت بمسامير",
+      "model0Name": "DN50",
+      "model0Reference": "J41T",
+      "model0Selection": "J41T · DN50 · توصيل بفلنجة",
+      "model1Name": "DN80",
+      "model1Reference": "J41T",
+      "model1Selection": "J41T · DN80 · توصيل بفلنجة",
+      "model2Name": "DN100",
+      "model2Reference": "J41T",
+      "model2Selection": "J41T · DN100 · توصيل بفلنجة",
+      "model3Name": "DN150",
+      "model3Reference": "J41T",
+      "model3Selection": "J41T · DN150 · توصيل بفلنجة",
+      "model4Name": "DN200",
+      "model4Reference": "J41T",
+      "model4Selection": "J41T · DN200 · توصيل بفلنجة",
+      "selection0Label": "المقاس والفلنجة المقابلة",
+      "selection0Body": "حدد المقاس الاسمي وقدم أبعاد ثقوب الفلنجة المقابلة وأبعاد التركيب.",
+      "selection1Label": "ظروف التشغيل",
+      "selection1Body": "حدد المائع وضغط التشغيل ودرجة الحرارة للتكوين المطلوب توريده."
+    }
+  }
+}

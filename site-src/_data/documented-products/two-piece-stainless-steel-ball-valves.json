@@ -1,0 +1,251 @@
+{
+  "id": "two-piece-stainless-steel-ball-valves",
+  "routeId": "product:two-piece-stainless-steel-ball-valves",
+  "template": "product-series/documented-product.njk",
+  "styles": [
+    "css/common.css",
+    "css/sprinkler-product.css",
+    "css/sprinkler-product-gallery.css",
+    "css/documented-product.css",
+    "css/site-navigation.css"
+  ],
+  "source": {
+    "evidence": "User-selected new-folder product archive; reviewed field-by-field for this product series.",
+    "review": "docs/reviews/material-batch-20261018/mechanical.json",
+    "sourceNames": [
+      "PT系列-304不锈钢两片式球阀"
+    ],
+    "unresolved": [
+      "精确螺纹标准、压力温度曲线、阀座和密封材质待确认。"
+    ],
+    "notes": [
+      "保留PT1/4与PT1/2，不转换NPT/BSP，不采用倒写PT4/1；照片1000WOG不单独作为额定压力。"
+    ]
+  },
+  "publication": {
+    "status": "release-candidate",
+    "externalRelease": true,
+    "imageRights": "user-confirmed-website-use",
+    "imageRightsEvidence": "docs/release/website-products-20261018/image-rights-confirmation.json"
+  },
+  "media": {
+    "hero": "assets/products/website-20261018/product-4a77e55d98af.webp"
+  },
+  "imageDimensions": {
+    "hero": {
+      "width": 1000,
+      "height": 1000
+    }
+  },
+  "shared": {},
+  "heroFacts": [
+    "spec0Value",
+    "spec1Value",
+    "spec2Value"
+  ],
+  "gallery": [
+    {
+      "media": "hero",
+      "alt": "image0Alt",
+      "caption": "image0Caption",
+      "thumbnailAlt": "image0Alt"
+    }
+  ],
+  "specifications": [
+    {
+      "label": "spec0Label",
+      "value": "spec0Value"
+    },
+    {
+      "label": "spec1Label",
+      "value": "spec1Value"
+    },
+    {
+      "label": "spec2Label",
+      "value": "spec2Value"
+    },
+    {
+      "label": "spec3Label",
+      "value": "spec3Value"
+    },
+    {
+      "label": "spec4Label",
+      "value": "spec4Value"
+    },
+    {
+      "label": "spec5Label",
+      "value": "spec5Value"
+    }
+  ],
+  "modelColumns": [
+    {
+      "label": "configuration",
+      "field": "configuration",
+      "localized": true
+    },
+    {
+      "label": "selectionDetails",
+      "field": "selection",
+      "localized": true
+    }
+  ],
+  "models": [
+    {
+      "configuration": "model0Name",
+      "factoryReference": "model0Reference",
+      "selection": "model0Selection"
+    },
+    {
+      "configuration": "model1Name",
+      "factoryReference": "model1Reference",
+      "selection": "model1Selection"
+    }
+  ],
+  "confirmationItems": [
+    {
+      "label": "selection0Label",
+      "body": "selection0Body"
+    },
+    {
+      "label": "selection1Label",
+      "body": "selection1Body"
+    }
+  ],
+  "inquiry": {
+    "whatsapp": "https://wa.me/8617326528368?text=Hello%2C%20I%20am%20interested%20in%20Two-piece%20Stainless%20Steel%20Ball%20Valves.%0AProduct%20page%3A%20https%3A//chuanweifire.com/products/pipeline-valves-strainers/two-piece-stainless-steel-ball-valves.html%0AQuantity%20/%20destination%20/%20requirements%3A",
+    "email": "mailto:zhengcolin1@gmail.com"
+  },
+  "validation": {
+    "anchors": [
+      "gallery",
+      "specifications",
+      "models",
+      "quotation"
+    ],
+    "requiredTechnicalValues": []
+  },
+  "copy": {
+    "en": {
+      "onThisPage": "On this page",
+      "gallery": "Product gallery",
+      "galleryTitle": "Product views",
+      "galleryBody": "Select an image to view the pictured product or configuration.",
+      "specifications": "Specifications",
+      "specificationsTitle": "Product specifications",
+      "specificationsBody": "Use the specifications together with the configuration table below.",
+      "availableModels": "Models & configurations",
+      "modelsTitle": "Models & configurations",
+      "modelsBody": "Match the product reference and selection details to your order.",
+      "modelsNote": "The photographs illustrate selected configurations. Specify the required model and quantity when requesting a quotation.",
+      "factoryModel": "Product reference",
+      "configuration": "Configuration",
+      "selectionDetails": "Selection details",
+      "temperature": "Temperature",
+      "thermalElement": "Thermal element",
+      "quotation": "Request a quotation",
+      "quotationTitle": "Select your configuration",
+      "quotationBody": "Include the product reference, quantity and delivery destination, together with the requirements below.",
+      "askOnWhatsApp": "Ask on WhatsApp",
+      "emailSales": "Email sales",
+      "productImagePreview": "Product image preview",
+      "closeImagePreview": "Close image preview",
+      "enlargedImage": "Enlarged product image",
+      "previousProductImage": "Previous product image",
+      "nextProductImage": "Next product image",
+      "selectProductImage": "Select product image",
+      "inquiryTitle": "Request product details and a quotation",
+      "inquiryBody": "Send your selected configuration, quantity and destination.",
+      "title": "Two-piece Stainless Steel Ball Valves",
+      "lead": "A 304 stainless steel two-piece ball valve with a manual lever and female threaded ends for pressure gauge connections. The source lists PT1/4 and PT1/2 connection options.",
+      "eyebrow": "Pipeline Valves & Strainers",
+      "seoTitle": "Two-piece Stainless Steel Ball Valves | CHUANWEI FIRE",
+      "seoDescription": "A 304 stainless steel two-piece ball valve with a manual lever and female threaded ends for pressure gauge connections. The source lists PT1/4 and PT1/2 connection options.",
+      "note": "Choose PT1/4 or PT1/2 and provide the mating thread drawing for dimensional verification.",
+      "image0Alt": "Two-piece stainless steel ball valve with manual lever.",
+      "image0Caption": "Two-piece stainless steel ball valve with manual lever.",
+      "spec0Label": "Material",
+      "spec0Value": "304 stainless steel",
+      "spec1Label": "Body construction",
+      "spec1Value": "Two piece",
+      "spec2Label": "Connection",
+      "spec2Value": "Female threaded ends",
+      "spec3Label": "Thread designations",
+      "spec3Value": "PT1/4 / PT1/2",
+      "spec4Label": "Operation",
+      "spec4Value": "Manual lever",
+      "spec5Label": "Application",
+      "spec5Value": "Pressure gauge connections",
+      "model0Name": "PT1/4 female × female",
+      "model0Reference": "Available on request",
+      "model0Selection": "Select this supplier thread designation against the mating connection drawing.",
+      "model1Name": "PT1/2 female × female",
+      "model1Reference": "Available on request",
+      "model1Selection": "Select this supplier thread designation against the mating connection drawing.",
+      "selection0Label": "Thread match",
+      "selection0Body": "Choose PT1/4 or PT1/2 and provide the mating thread drawing for dimensional verification.",
+      "selection1Label": "Service conditions",
+      "selection1Body": "State the working fluid, operating pressure and temperature for the exact supplied configuration."
+    },
+    "ar": {
+      "onThisPage": "في هذه الصفحة",
+      "gallery": "صور المنتج",
+      "galleryTitle": "عرض المنتج",
+      "galleryBody": "اختر صورة لعرض المنتج أو التكوين الظاهر فيها.",
+      "specifications": "المواصفات",
+      "specificationsTitle": "مواصفات المنتج",
+      "specificationsBody": "استخدم المواصفات مع جدول التكوينات أدناه.",
+      "availableModels": "الموديلات والتكوينات",
+      "modelsTitle": "الموديلات والتكوينات",
+      "modelsBody": "طابق مرجع المنتج وتفاصيل الاختيار مع طلبك.",
+      "modelsNote": "تعرض الصور تكوينات مختارة. حدد الموديل والكمية المطلوبة عند طلب عرض السعر.",
+      "factoryModel": "مرجع المنتج",
+      "configuration": "التكوين",
+      "selectionDetails": "تفاصيل الاختيار",
+      "temperature": "درجة الحرارة",
+      "thermalElement": "العنصر الحراري",
+      "quotation": "طلب عرض سعر",
+      "quotationTitle": "اختر التكوين المطلوب",
+      "quotationBody": "أرسل مرجع المنتج والكمية ووجهة التسليم والمتطلبات أدناه.",
+      "askOnWhatsApp": "استفسر عبر WhatsApp",
+      "emailSales": "راسل قسم المبيعات",
+      "productImagePreview": "معاينة صورة المنتج",
+      "closeImagePreview": "إغلاق معاينة الصورة",
+      "enlargedImage": "صورة مكبرة للمنتج",
+      "previousProductImage": "صورة المنتج السابقة",
+      "nextProductImage": "صورة المنتج التالية",
+      "selectProductImage": "اختر صورة المنتج",
+      "inquiryTitle": "اطلب تفاصيل المنتج وعرض سعر",
+      "inquiryBody": "أرسل التكوين المختار والكمية والوجهة.",
+      "title": "صمامات كروية من الستانلس ستيل بجسم من قطعتين",
+      "lead": "صمام كروي من الستانلس ستيل 304 بجسم من قطعتين وذراع يدوي ونهايات ملولبة داخليًا لتوصيلات مقاييس الضغط. تتضمن الخيارات الموثقة PT1/4 وPT1/2.",
+      "eyebrow": "صمامات الأنابيب والمصافي",
+      "seoTitle": "صمامات كروية من الستانلس ستيل بجسم من قطعتين | CHUANWEI FIRE",
+      "seoDescription": "صمام كروي من الستانلس ستيل 304 بجسم من قطعتين وذراع يدوي ونهايات ملولبة داخليًا لتوصيلات مقاييس الضغط. تتضمن الخيارات الموثقة PT1/4 وPT1/2.",
+      "note": "اختر PT1/4 أو PT1/2 وقدم رسم السن المقابل للتحقق من الأبعاد.",
+      "image0Alt": "صمام كروي من الستانلس ستيل بجسم من قطعتين وذراع يدوي.",
+      "image0Caption": "صمام كروي من الستانلس ستيل بجسم من قطعتين وذراع يدوي.",
+      "spec0Label": "المادة",
+      "spec0Value": "ستانلس ستيل 304",
+      "spec1Label": "تركيب الجسم",
+      "spec1Value": "من قطعتين",
+      "spec2Label": "التوصيل",
+      "spec2Value": "نهايات ملولبة داخليًا",
+      "spec3Label": "رموز السن اللولبي",
+      "spec3Value": "PT1/4 / PT1/2",
+      "spec4Label": "التشغيل",
+      "spec4Value": "ذراع يدوي",
+      "spec5Label": "الاستخدام",
+      "spec5Value": "توصيلات مقاييس الضغط",
+      "model0Name": "PT1/4 أنثى × أنثى",
+      "model0Reference": "حسب طلب الاستفسار",
+      "model0Selection": "طابق رمز السن لدى المورد مع رسم التوصيل المقابل.",
+      "model1Name": "PT1/2 أنثى × أنثى",
+      "model1Reference": "حسب طلب الاستفسار",
+      "model1Selection": "طابق رمز السن لدى المورد مع رسم التوصيل المقابل.",
+      "selection0Label": "مطابقة السن اللولبي",
+      "selection0Body": "اختر PT1/4 أو PT1/2 وقدم رسم السن المقابل للتحقق من الأبعاد.",
+      "selection1Label": "ظروف التشغيل",
+      "selection1Body": "حدد المائع وضغط التشغيل ودرجة الحرارة للتكوين المطلوب توريده."
+    }
+  }
+}

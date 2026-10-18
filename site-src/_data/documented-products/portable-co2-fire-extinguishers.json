@@ -1,0 +1,314 @@
+{
+  "id": "portable-co2-fire-extinguishers",
+  "routeId": "product:portable-co2-fire-extinguishers",
+  "template": "product-series/documented-product.njk",
+  "styles": [
+    "css/common.css",
+    "css/sprinkler-product.css",
+    "css/sprinkler-product-gallery.css",
+    "css/documented-product.css",
+    "css/site-navigation.css"
+  ],
+  "source": {
+    "evidence": "User-selected new-folder product archive; reviewed field-by-field for this product series.",
+    "review": "docs/reviews/material-batch-20261018/extinguishers-alarms.json",
+    "sourceNames": [
+      "MT-BE系列-手提式二氧化碳灭火器",
+      "MT-BE2-3-手提式二氧化碳灭火器",
+      "MT-BE5-7-手提式二氧化碳灭火器"
+    ],
+    "unresolved": [
+      "精确型号灭火级别、充装压力、使用温度、喷射性能及目的地适用文件待核实。",
+      "整机净重、毛重、包装、交期及商务条件需按订单确认。",
+      "钢材牌号及热处理资料待核实。"
+    ],
+    "notes": [
+      "原网页合金钢与图片碳钢冲突，取共同可证实事实钢制，不指定钢种。",
+      "仅2、3、5、7 kg手提式范围，不将30 kg推车式扩入。",
+      "保留实物TAIRUI标识；型号后缀BE不转换为国际火灾等级。"
+    ]
+  },
+  "publication": {
+    "status": "release-candidate",
+    "externalRelease": true,
+    "imageRights": "user-confirmed-website-use",
+    "imageRightsEvidence": "docs/release/website-products-20261018/image-rights-confirmation.json"
+  },
+  "media": {
+    "hero": "assets/products/website-20261018/product-eb952af32a40.webp",
+    "image1": "assets/products/website-20261018/product-409226e37ca7.webp",
+    "image2": "assets/products/website-20261018/product-5ee14bf534aa.webp"
+  },
+  "imageDimensions": {
+    "hero": {
+      "width": 1000,
+      "height": 1000
+    },
+    "image1": {
+      "width": 1000,
+      "height": 1000
+    },
+    "image2": {
+      "width": 1000,
+      "height": 1000
+    }
+  },
+  "shared": {},
+  "heroFacts": [
+    "spec0Value",
+    "spec1Value",
+    "spec2Value"
+  ],
+  "gallery": [
+    {
+      "media": "hero",
+      "alt": "image0Alt",
+      "caption": "image0Caption",
+      "thumbnailAlt": "image0Alt"
+    },
+    {
+      "media": "image1",
+      "alt": "image1Alt",
+      "caption": "image1Caption",
+      "thumbnailAlt": "image1Alt"
+    },
+    {
+      "media": "image2",
+      "alt": "image2Alt",
+      "caption": "image2Caption",
+      "thumbnailAlt": "image2Alt"
+    }
+  ],
+  "specifications": [
+    {
+      "label": "spec0Label",
+      "value": "spec0Value"
+    },
+    {
+      "label": "spec1Label",
+      "value": "spec1Value"
+    },
+    {
+      "label": "spec2Label",
+      "value": "spec2Value"
+    },
+    {
+      "label": "spec3Label",
+      "value": "spec3Value"
+    },
+    {
+      "label": "spec4Label",
+      "value": "spec4Value"
+    },
+    {
+      "label": "spec5Label",
+      "value": "spec5Value"
+    }
+  ],
+  "modelColumns": [
+    {
+      "label": "configuration",
+      "field": "configuration",
+      "localized": true
+    },
+    {
+      "label": "factoryModel",
+      "field": "factoryReference",
+      "localized": true
+    },
+    {
+      "label": "selectionDetails",
+      "field": "selection",
+      "localized": true
+    }
+  ],
+  "models": [
+    {
+      "configuration": "model0Name",
+      "factoryReference": "model0Reference",
+      "selection": "model0Selection"
+    },
+    {
+      "configuration": "model1Name",
+      "factoryReference": "model1Reference",
+      "selection": "model1Selection"
+    },
+    {
+      "configuration": "model2Name",
+      "factoryReference": "model2Reference",
+      "selection": "model2Selection"
+    },
+    {
+      "configuration": "model3Name",
+      "factoryReference": "model3Reference",
+      "selection": "model3Selection"
+    }
+  ],
+  "confirmationItems": [
+    {
+      "label": "selection0Label",
+      "body": "selection0Body"
+    },
+    {
+      "label": "selection1Label",
+      "body": "selection1Body"
+    }
+  ],
+  "inquiry": {
+    "whatsapp": "https://wa.me/8617326528368?text=Hello%2C%20I%20am%20interested%20in%20Portable%20CO%E2%82%82%20Fire%20Extinguishers.%0AProduct%20page%3A%20https%3A//chuanweifire.com/products/fire-extinguishers/portable-co2-fire-extinguishers.html%0AQuantity%20/%20destination%20/%20requirements%3A",
+    "email": "mailto:zhengcolin1@gmail.com"
+  },
+  "validation": {
+    "anchors": [
+      "gallery",
+      "specifications",
+      "models",
+      "quotation"
+    ],
+    "requiredTechnicalValues": []
+  },
+  "copy": {
+    "en": {
+      "onThisPage": "On this page",
+      "gallery": "Product gallery",
+      "galleryTitle": "Product views",
+      "galleryBody": "Select an image to view the pictured product or configuration.",
+      "specifications": "Specifications",
+      "specificationsTitle": "Product specifications",
+      "specificationsBody": "Use the specifications together with the configuration table below.",
+      "availableModels": "Models & configurations",
+      "modelsTitle": "Models & configurations",
+      "modelsBody": "Match the product reference and selection details to your order.",
+      "modelsNote": "The photographs illustrate selected configurations. Specify the required model and quantity when requesting a quotation.",
+      "factoryModel": "Product reference",
+      "configuration": "Configuration",
+      "selectionDetails": "Selection details",
+      "temperature": "Temperature",
+      "thermalElement": "Thermal element",
+      "quotation": "Request a quotation",
+      "quotationTitle": "Select your configuration",
+      "quotationBody": "Include the product reference, quantity and delivery destination, together with the requirements below.",
+      "askOnWhatsApp": "Ask on WhatsApp",
+      "emailSales": "Email sales",
+      "productImagePreview": "Product image preview",
+      "closeImagePreview": "Close image preview",
+      "enlargedImage": "Enlarged product image",
+      "previousProductImage": "Previous product image",
+      "nextProductImage": "Next product image",
+      "selectProductImage": "Select product image",
+      "inquiryTitle": "Request product details and a quotation",
+      "inquiryBody": "Send your selected configuration, quantity and destination.",
+      "title": "Portable CO₂ Fire Extinguishers",
+      "lead": "Portable carbon dioxide extinguishers with steel cylinders and manual lever operation. The range includes 2 kg and 3 kg horn configurations and 5 kg and 7 kg hose-and-horn configurations.",
+      "eyebrow": "Fire Extinguishers",
+      "seoTitle": "Portable CO₂ Fire Extinguishers | CHUANWEI FIRE",
+      "seoDescription": "Portable carbon dioxide extinguishers with steel cylinders and manual lever operation. The range includes 2 kg and 3 kg horn configurations and 5 kg and 7 kg hose-and-horn configurations.",
+      "note": "Specify the agent charge or volume and the quantity required for each model.",
+      "image0Alt": "Portable carbon dioxide extinguisher series.",
+      "image0Caption": "Portable carbon dioxide extinguisher series.",
+      "image1Alt": "Discharge-horn configuration; pictured sample MT/BE3.",
+      "image1Caption": "Discharge-horn configuration; pictured sample MT/BE3.",
+      "image2Alt": "Flexible hose and horn; pictured sample MT/BE5.",
+      "image2Caption": "Flexible hose and horn; pictured sample MT/BE5.",
+      "spec0Label": "Extinguishing agent",
+      "spec0Value": "Carbon dioxide (CO₂)",
+      "spec1Label": "Cylinder material",
+      "spec1Value": "Steel",
+      "spec2Label": "Format",
+      "spec2Value": "Portable",
+      "spec3Label": "Operation",
+      "spec3Value": "Manual lever",
+      "spec4Label": "Agent charge options",
+      "spec4Value": "2 / 3 / 5 / 7 kg",
+      "spec5Label": "Outlet configurations",
+      "spec5Value": "2 / 3 kg: discharge horn; 5 / 7 kg: flexible hose and horn",
+      "model0Name": "2 kg CO₂",
+      "model0Reference": "MT/BE2",
+      "model0Selection": "Discharge horn; manual lever.",
+      "model1Name": "3 kg CO₂",
+      "model1Reference": "MT/BE3",
+      "model1Selection": "Discharge horn; manual lever.",
+      "model2Name": "5 kg CO₂",
+      "model2Reference": "MT/BE5",
+      "model2Selection": "Flexible hose and horn; manual lever.",
+      "model3Name": "7 kg CO₂",
+      "model3Reference": "MT/BE7",
+      "model3Selection": "Flexible hose and horn; manual lever.",
+      "selection0Label": "Capacity and quantity",
+      "selection0Body": "Specify the agent charge or volume and the quantity required for each model.",
+      "selection1Label": "Project requirements",
+      "selection1Body": "Send the installation location, required fire rating and destination market so the exact model documents can be checked."
+    },
+    "ar": {
+      "onThisPage": "في هذه الصفحة",
+      "gallery": "صور المنتج",
+      "galleryTitle": "عرض المنتج",
+      "galleryBody": "اختر صورة لعرض المنتج أو التكوين الظاهر فيها.",
+      "specifications": "المواصفات",
+      "specificationsTitle": "مواصفات المنتج",
+      "specificationsBody": "استخدم المواصفات مع جدول التكوينات أدناه.",
+      "availableModels": "الموديلات والتكوينات",
+      "modelsTitle": "الموديلات والتكوينات",
+      "modelsBody": "طابق مرجع المنتج وتفاصيل الاختيار مع طلبك.",
+      "modelsNote": "تعرض الصور تكوينات مختارة. حدد الموديل والكمية المطلوبة عند طلب عرض السعر.",
+      "factoryModel": "مرجع المنتج",
+      "configuration": "التكوين",
+      "selectionDetails": "تفاصيل الاختيار",
+      "temperature": "درجة الحرارة",
+      "thermalElement": "العنصر الحراري",
+      "quotation": "طلب عرض سعر",
+      "quotationTitle": "اختر التكوين المطلوب",
+      "quotationBody": "أرسل مرجع المنتج والكمية ووجهة التسليم والمتطلبات أدناه.",
+      "askOnWhatsApp": "استفسر عبر WhatsApp",
+      "emailSales": "راسل قسم المبيعات",
+      "productImagePreview": "معاينة صورة المنتج",
+      "closeImagePreview": "إغلاق معاينة الصورة",
+      "enlargedImage": "صورة مكبرة للمنتج",
+      "previousProductImage": "صورة المنتج السابقة",
+      "nextProductImage": "صورة المنتج التالية",
+      "selectProductImage": "اختر صورة المنتج",
+      "inquiryTitle": "اطلب تفاصيل المنتج وعرض سعر",
+      "inquiryBody": "أرسل التكوين المختار والكمية والوجهة.",
+      "title": "طفايات حريق محمولة بثاني أكسيد الكربون",
+      "lead": "طفايات محمولة بثاني أكسيد الكربون بأسطوانات فولاذية وتشغيل يدوي بالذراع. تشمل المجموعة طرازي 2 kg و3 kg ببوق تفريغ، وطرازي 5 kg و7 kg بخرطوم وبوق تفريغ.",
+      "eyebrow": "طفايات الحريق",
+      "seoTitle": "طفايات حريق محمولة بثاني أكسيد الكربون | CHUANWEI FIRE",
+      "seoDescription": "طفايات محمولة بثاني أكسيد الكربون بأسطوانات فولاذية وتشغيل يدوي بالذراع. تشمل المجموعة طرازي 2 kg و3 kg ببوق تفريغ، وطرازي 5 kg و7 kg بخرطوم وبوق تفريغ.",
+      "note": "حدد كتلة مادة الإطفاء أو حجمها والكمية المطلوبة من كل طراز.",
+      "image0Alt": "سلسلة الطفايات المحمولة بثاني أكسيد الكربون.",
+      "image0Caption": "سلسلة الطفايات المحمولة بثاني أكسيد الكربون.",
+      "image1Alt": "تجهيز ببوق تفريغ؛ العينة المصورة MT/BE3.",
+      "image1Caption": "تجهيز ببوق تفريغ؛ العينة المصورة MT/BE3.",
+      "image2Alt": "خرطوم مرن وبوق تفريغ؛ العينة المصورة MT/BE5.",
+      "image2Caption": "خرطوم مرن وبوق تفريغ؛ العينة المصورة MT/BE5.",
+      "spec0Label": "مادة الإطفاء",
+      "spec0Value": "ثاني أكسيد الكربون (CO₂)",
+      "spec1Label": "مادة الأسطوانة",
+      "spec1Value": "فولاذ",
+      "spec2Label": "التصميم",
+      "spec2Value": "محمول",
+      "spec3Label": "التشغيل",
+      "spec3Value": "ذراع يدوي",
+      "spec4Label": "خيارات كتلة مادة الإطفاء",
+      "spec4Value": "2 / 3 / 5 / 7 kg",
+      "spec5Label": "تجهيزات المخرج",
+      "spec5Value": "2 / 3 kg: بوق تفريغ؛ 5 / 7 kg: خرطوم مرن وبوق تفريغ",
+      "model0Name": "ثاني أكسيد الكربون بسعة 2 kg",
+      "model0Reference": "MT/BE2",
+      "model0Selection": "بوق تفريغ؛ ذراع يدوي.",
+      "model1Name": "ثاني أكسيد الكربون بسعة 3 kg",
+      "model1Reference": "MT/BE3",
+      "model1Selection": "بوق تفريغ؛ ذراع يدوي.",
+      "model2Name": "ثاني أكسيد الكربون بسعة 5 kg",
+      "model2Reference": "MT/BE5",
+      "model2Selection": "خرطوم مرن وبوق تفريغ؛ ذراع يدوي.",
+      "model3Name": "ثاني أكسيد الكربون بسعة 7 kg",
+      "model3Reference": "MT/BE7",
+      "model3Selection": "خرطوم مرن وبوق تفريغ؛ ذراع يدوي.",
+      "selection0Label": "السعة والكمية",
+      "selection0Body": "حدد كتلة مادة الإطفاء أو حجمها والكمية المطلوبة من كل طراز.",
+      "selection1Label": "متطلبات المشروع",
+      "selection1Body": "أرسل موقع الاستخدام وتصنيف الإطفاء المطلوب وبلد الوجهة للتحقق من وثائق الطراز المحدد."
+    }
+  }
+}

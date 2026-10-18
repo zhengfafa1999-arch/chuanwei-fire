@@ -1,0 +1,230 @@
+{
+  "id": "automatic-transfer-control-cabinets",
+  "routeId": "product:automatic-transfer-control-cabinets",
+  "template": "product-series/documented-product.njk",
+  "styles": [
+    "css/common.css",
+    "css/sprinkler-product.css",
+    "css/sprinkler-product-gallery.css",
+    "css/documented-product.css",
+    "css/site-navigation.css"
+  ],
+  "source": {
+    "evidence": "User-selected new-folder product archive; reviewed field-by-field for this product series.",
+    "review": "docs/reviews/material-batch-20261018/mechanical.json",
+    "sourceNames": [
+      "JX-ATS-63A-双电源控制柜"
+    ],
+    "unresolved": [
+      "额定电流、转换逻辑、频率、尺寸和防护等级按准确供货柜核实。"
+    ],
+    "notes": [
+      "型号中的63A不另行当作已核实额定电流；不采用异常尺寸140 mm、重量100 g、22/30 W或未经证实的IP55。",
+      "页面slug按现有规划保留automatic-transfer，但买家名称仅使用资料已确认的dual power control。"
+    ]
+  },
+  "publication": {
+    "status": "release-candidate",
+    "externalRelease": true,
+    "imageRights": "user-confirmed-website-use",
+    "imageRightsEvidence": "docs/release/website-products-20261018/image-rights-confirmation.json"
+  },
+  "media": {
+    "hero": "assets/products/website-20261018/product-1dd050347ce2.webp"
+  },
+  "imageDimensions": {
+    "hero": {
+      "width": 1200,
+      "height": 1200
+    }
+  },
+  "shared": {},
+  "heroFacts": [
+    "spec0Value",
+    "spec1Value",
+    "spec2Value"
+  ],
+  "gallery": [
+    {
+      "media": "hero",
+      "alt": "image0Alt",
+      "caption": "image0Caption",
+      "thumbnailAlt": "image0Alt"
+    }
+  ],
+  "specifications": [
+    {
+      "label": "spec0Label",
+      "value": "spec0Value"
+    },
+    {
+      "label": "spec1Label",
+      "value": "spec1Value"
+    },
+    {
+      "label": "spec2Label",
+      "value": "spec2Value"
+    },
+    {
+      "label": "spec3Label",
+      "value": "spec3Value"
+    }
+  ],
+  "modelColumns": [
+    {
+      "label": "configuration",
+      "field": "configuration",
+      "localized": true
+    },
+    {
+      "label": "factoryModel",
+      "field": "factoryReference",
+      "localized": true
+    },
+    {
+      "label": "selectionDetails",
+      "field": "selection",
+      "localized": true
+    }
+  ],
+  "models": [
+    {
+      "configuration": "model0Name",
+      "factoryReference": "model0Reference",
+      "selection": "model0Selection"
+    }
+  ],
+  "confirmationItems": [
+    {
+      "label": "selection0Label",
+      "body": "selection0Body"
+    },
+    {
+      "label": "selection1Label",
+      "body": "selection1Body"
+    }
+  ],
+  "inquiry": {
+    "whatsapp": "https://wa.me/8617326528368?text=Hello%2C%20I%20am%20interested%20in%20Dual%20Power%20Control%20Cabinets.%0AProduct%20page%3A%20https%3A//chuanweifire.com/products/fire-pumps-controllers/automatic-transfer-control-cabinets.html%0AQuantity%20/%20destination%20/%20requirements%3A",
+    "email": "mailto:zhengcolin1@gmail.com"
+  },
+  "validation": {
+    "anchors": [
+      "gallery",
+      "specifications",
+      "models",
+      "quotation"
+    ],
+    "requiredTechnicalValues": []
+  },
+  "copy": {
+    "en": {
+      "onThisPage": "On this page",
+      "gallery": "Product gallery",
+      "galleryTitle": "Product views",
+      "galleryBody": "Select an image to view the pictured product or configuration.",
+      "specifications": "Specifications",
+      "specificationsTitle": "Product specifications",
+      "specificationsBody": "Use the specifications together with the configuration table below.",
+      "availableModels": "Models & configurations",
+      "modelsTitle": "Models & configurations",
+      "modelsBody": "Match the product reference and selection details to your order.",
+      "modelsNote": "The photographs illustrate selected configurations. Specify the required model and quantity when requesting a quotation.",
+      "factoryModel": "Product reference",
+      "configuration": "Configuration",
+      "selectionDetails": "Selection details",
+      "temperature": "Temperature",
+      "thermalElement": "Thermal element",
+      "quotation": "Request a quotation",
+      "quotationTitle": "Select your configuration",
+      "quotationBody": "Include the product reference, quantity and delivery destination, together with the requirements below.",
+      "askOnWhatsApp": "Ask on WhatsApp",
+      "emailSales": "Email sales",
+      "productImagePreview": "Product image preview",
+      "closeImagePreview": "Close image preview",
+      "enlargedImage": "Enlarged product image",
+      "previousProductImage": "Previous product image",
+      "nextProductImage": "Next product image",
+      "selectProductImage": "Select product image",
+      "inquiryTitle": "Request product details and a quotation",
+      "inquiryBody": "Send your selected configuration, quantity and destination.",
+      "title": "Dual Power Control Cabinets",
+      "lead": "The JX-ATS-63A is a dual power control cabinet with a cold rolled steel enclosure and a documented 380 V supply.",
+      "eyebrow": "Fire Pumps & Control Cabinets",
+      "seoTitle": "Dual Power Control Cabinets | CHUANWEI FIRE",
+      "seoDescription": "The JX-ATS-63A is a dual power control cabinet with a cold rolled steel enclosure and a documented 380 V supply.",
+      "note": "Send both supply specifications, connected load and the required changeover sequence.",
+      "image0Alt": "JX-ATS-63A dual power control cabinet.",
+      "image0Caption": "JX-ATS-63A dual power control cabinet.",
+      "spec0Label": "Model",
+      "spec0Value": "JX-ATS-63A",
+      "spec1Label": "Cabinet function",
+      "spec1Value": "Dual power supply control",
+      "spec2Label": "Supply voltage",
+      "spec2Value": "380 V",
+      "spec3Label": "Enclosure",
+      "spec3Value": "Cold rolled steel",
+      "model0Name": "JX-ATS-63A dual power cabinet",
+      "model0Reference": "JX-ATS-63A",
+      "model0Selection": "380 V; electrical arrangement specified to the approved control schematic.",
+      "selection0Label": "Power arrangement",
+      "selection0Body": "Send both supply specifications, connected load and the required changeover sequence.",
+      "selection1Label": "Cabinet configuration",
+      "selection1Body": "Provide the control schematic, site frequency, installation dimensions and required enclosure protection."
+    },
+    "ar": {
+      "onThisPage": "في هذه الصفحة",
+      "gallery": "صور المنتج",
+      "galleryTitle": "عرض المنتج",
+      "galleryBody": "اختر صورة لعرض المنتج أو التكوين الظاهر فيها.",
+      "specifications": "المواصفات",
+      "specificationsTitle": "مواصفات المنتج",
+      "specificationsBody": "استخدم المواصفات مع جدول التكوينات أدناه.",
+      "availableModels": "الموديلات والتكوينات",
+      "modelsTitle": "الموديلات والتكوينات",
+      "modelsBody": "طابق مرجع المنتج وتفاصيل الاختيار مع طلبك.",
+      "modelsNote": "تعرض الصور تكوينات مختارة. حدد الموديل والكمية المطلوبة عند طلب عرض السعر.",
+      "factoryModel": "مرجع المنتج",
+      "configuration": "التكوين",
+      "selectionDetails": "تفاصيل الاختيار",
+      "temperature": "درجة الحرارة",
+      "thermalElement": "العنصر الحراري",
+      "quotation": "طلب عرض سعر",
+      "quotationTitle": "اختر التكوين المطلوب",
+      "quotationBody": "أرسل مرجع المنتج والكمية ووجهة التسليم والمتطلبات أدناه.",
+      "askOnWhatsApp": "استفسر عبر WhatsApp",
+      "emailSales": "راسل قسم المبيعات",
+      "productImagePreview": "معاينة صورة المنتج",
+      "closeImagePreview": "إغلاق معاينة الصورة",
+      "enlargedImage": "صورة مكبرة للمنتج",
+      "previousProductImage": "صورة المنتج السابقة",
+      "nextProductImage": "صورة المنتج التالية",
+      "selectProductImage": "اختر صورة المنتج",
+      "inquiryTitle": "اطلب تفاصيل المنتج وعرض سعر",
+      "inquiryBody": "أرسل التكوين المختار والكمية والوجهة.",
+      "title": "خزائن تحكم بمصدرَي تغذية",
+      "lead": "JX-ATS-63A خزانة تحكم بمصدرَي تغذية، بهيكل من الفولاذ المدرفل على البارد وجهد تغذية موثق يبلغ 380 V.",
+      "eyebrow": "مضخات الحريق وخزائن التحكم",
+      "seoTitle": "خزائن تحكم بمصدرَي تغذية | CHUANWEI FIRE",
+      "seoDescription": "JX-ATS-63A خزانة تحكم بمصدرَي تغذية، بهيكل من الفولاذ المدرفل على البارد وجهد تغذية موثق يبلغ 380 V.",
+      "note": "أرسل مواصفات مصدرَي التغذية والحمل المتصل وتسلسل التحويل المطلوب.",
+      "image0Alt": "خزانة تحكم بمصدرَي تغذية JX-ATS-63A.",
+      "image0Caption": "خزانة تحكم بمصدرَي تغذية JX-ATS-63A.",
+      "spec0Label": "الموديل",
+      "spec0Value": "JX-ATS-63A",
+      "spec1Label": "وظيفة الخزانة",
+      "spec1Value": "التحكم بمصدرَي تغذية",
+      "spec2Label": "جهد التغذية",
+      "spec2Value": "380 V",
+      "spec3Label": "الهيكل",
+      "spec3Value": "فولاذ مدرفل على البارد",
+      "model0Name": "خزانة بمصدرَي تغذية JX-ATS-63A",
+      "model0Reference": "JX-ATS-63A",
+      "model0Selection": "380 V؛ يحدد التكوين الكهربائي وفق مخطط التحكم المعتمد.",
+      "selection0Label": "ترتيب التغذية",
+      "selection0Body": "أرسل مواصفات مصدرَي التغذية والحمل المتصل وتسلسل التحويل المطلوب.",
+      "selection1Label": "تكوين الخزانة",
+      "selection1Body": "قدم مخطط التحكم وتردد الموقع وأبعاد التركيب ودرجة حماية الهيكل المطلوبة."
+    }
+  }
+}

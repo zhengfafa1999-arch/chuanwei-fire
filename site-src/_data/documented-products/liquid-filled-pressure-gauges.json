@@ -1,0 +1,506 @@
+{
+  "id": "liquid-filled-pressure-gauges",
+  "routeId": "product:liquid-filled-pressure-gauges",
+  "template": "product-series/documented-product.njk",
+  "styles": [
+    "css/common.css",
+    "css/sprinkler-product.css",
+    "css/sprinkler-product-gallery.css",
+    "css/documented-product.css",
+    "css/site-navigation.css"
+  ],
+  "source": {
+    "evidence": "User-selected new-folder product archive; reviewed field-by-field for this product series.",
+    "review": "docs/reviews/material-batch-20261018/mechanical.json",
+    "sourceNames": [
+      "YN100BF-充液压力表"
+    ],
+    "unresolved": [
+      "充液种类、接液件材料、温度限制与专用介质适用性待核实。"
+    ],
+    "notes": [
+      "不采用“威卡款”作为WIKA品牌或授权；不宣称未核验CE，不采用网页250MPa总量程，实际SKU最高正压100 MPa。"
+    ]
+  },
+  "publication": {
+    "status": "release-candidate",
+    "externalRelease": true,
+    "imageRights": "user-confirmed-website-use",
+    "imageRightsEvidence": "docs/release/website-products-20261018/image-rights-confirmation.json"
+  },
+  "media": {
+    "hero": "assets/products/website-20261018/product-05d8e439da82.webp"
+  },
+  "imageDimensions": {
+    "hero": {
+      "width": 1000,
+      "height": 1000
+    }
+  },
+  "shared": {},
+  "heroFacts": [
+    "spec0Value",
+    "spec1Value",
+    "spec2Value"
+  ],
+  "gallery": [
+    {
+      "media": "hero",
+      "alt": "image0Alt",
+      "caption": "image0Caption",
+      "thumbnailAlt": "image0Alt"
+    }
+  ],
+  "specifications": [
+    {
+      "label": "spec0Label",
+      "value": "spec0Value"
+    },
+    {
+      "label": "spec1Label",
+      "value": "spec1Value"
+    },
+    {
+      "label": "spec2Label",
+      "value": "spec2Value"
+    },
+    {
+      "label": "spec3Label",
+      "value": "spec3Value"
+    },
+    {
+      "label": "spec4Label",
+      "value": "spec4Value"
+    },
+    {
+      "label": "spec5Label",
+      "value": "spec5Value"
+    },
+    {
+      "label": "spec6Label",
+      "value": "spec6Value"
+    }
+  ],
+  "modelColumns": [
+    {
+      "label": "configuration",
+      "field": "configuration",
+      "localized": true
+    },
+    {
+      "label": "factoryModel",
+      "field": "factoryReference",
+      "localized": true
+    },
+    {
+      "label": "selectionDetails",
+      "field": "selection",
+      "localized": true
+    }
+  ],
+  "models": [
+    {
+      "configuration": "model0Name",
+      "factoryReference": "model0Reference",
+      "selection": "model0Selection"
+    },
+    {
+      "configuration": "model1Name",
+      "factoryReference": "model1Reference",
+      "selection": "model1Selection"
+    },
+    {
+      "configuration": "model2Name",
+      "factoryReference": "model2Reference",
+      "selection": "model2Selection"
+    },
+    {
+      "configuration": "model3Name",
+      "factoryReference": "model3Reference",
+      "selection": "model3Selection"
+    },
+    {
+      "configuration": "model4Name",
+      "factoryReference": "model4Reference",
+      "selection": "model4Selection"
+    },
+    {
+      "configuration": "model5Name",
+      "factoryReference": "model5Reference",
+      "selection": "model5Selection"
+    },
+    {
+      "configuration": "model6Name",
+      "factoryReference": "model6Reference",
+      "selection": "model6Selection"
+    },
+    {
+      "configuration": "model7Name",
+      "factoryReference": "model7Reference",
+      "selection": "model7Selection"
+    },
+    {
+      "configuration": "model8Name",
+      "factoryReference": "model8Reference",
+      "selection": "model8Selection"
+    },
+    {
+      "configuration": "model9Name",
+      "factoryReference": "model9Reference",
+      "selection": "model9Selection"
+    },
+    {
+      "configuration": "model10Name",
+      "factoryReference": "model10Reference",
+      "selection": "model10Selection"
+    },
+    {
+      "configuration": "model11Name",
+      "factoryReference": "model11Reference",
+      "selection": "model11Selection"
+    },
+    {
+      "configuration": "model12Name",
+      "factoryReference": "model12Reference",
+      "selection": "model12Selection"
+    },
+    {
+      "configuration": "model13Name",
+      "factoryReference": "model13Reference",
+      "selection": "model13Selection"
+    },
+    {
+      "configuration": "model14Name",
+      "factoryReference": "model14Reference",
+      "selection": "model14Selection"
+    },
+    {
+      "configuration": "model15Name",
+      "factoryReference": "model15Reference",
+      "selection": "model15Selection"
+    },
+    {
+      "configuration": "model16Name",
+      "factoryReference": "model16Reference",
+      "selection": "model16Selection"
+    },
+    {
+      "configuration": "model17Name",
+      "factoryReference": "model17Reference",
+      "selection": "model17Selection"
+    },
+    {
+      "configuration": "model18Name",
+      "factoryReference": "model18Reference",
+      "selection": "model18Selection"
+    },
+    {
+      "configuration": "model19Name",
+      "factoryReference": "model19Reference",
+      "selection": "model19Selection"
+    },
+    {
+      "configuration": "model20Name",
+      "factoryReference": "model20Reference",
+      "selection": "model20Selection"
+    },
+    {
+      "configuration": "model21Name",
+      "factoryReference": "model21Reference",
+      "selection": "model21Selection"
+    },
+    {
+      "configuration": "model22Name",
+      "factoryReference": "model22Reference",
+      "selection": "model22Selection"
+    },
+    {
+      "configuration": "model23Name",
+      "factoryReference": "model23Reference",
+      "selection": "model23Selection"
+    }
+  ],
+  "confirmationItems": [
+    {
+      "label": "selection0Label",
+      "body": "selection0Body"
+    },
+    {
+      "label": "selection1Label",
+      "body": "selection1Body"
+    }
+  ],
+  "inquiry": {
+    "whatsapp": "https://wa.me/8617326528368?text=Hello%2C%20I%20am%20interested%20in%20Liquid-filled%20Pressure%20Gauges.%0AProduct%20page%3A%20https%3A//chuanweifire.com/products/pressure-gauges-accessories/liquid-filled-pressure-gauges.html%0AQuantity%20/%20destination%20/%20requirements%3A",
+    "email": "mailto:zhengcolin1@gmail.com"
+  },
+  "validation": {
+    "anchors": [
+      "gallery",
+      "specifications",
+      "models",
+      "quotation"
+    ],
+    "requiredTechnicalValues": []
+  },
+  "copy": {
+    "en": {
+      "onThisPage": "On this page",
+      "gallery": "Product gallery",
+      "galleryTitle": "Product views",
+      "galleryBody": "Select an image to view the pictured product or configuration.",
+      "specifications": "Specifications",
+      "specificationsTitle": "Product specifications",
+      "specificationsBody": "Use the specifications together with the configuration table below.",
+      "availableModels": "Models & configurations",
+      "modelsTitle": "Models & configurations",
+      "modelsBody": "Match the product reference and selection details to your order.",
+      "modelsNote": "The photographs illustrate selected configurations. Specify the required model and quantity when requesting a quotation.",
+      "factoryModel": "Product reference",
+      "configuration": "Configuration",
+      "selectionDetails": "Selection details",
+      "temperature": "Temperature",
+      "thermalElement": "Thermal element",
+      "quotation": "Request a quotation",
+      "quotationTitle": "Select your configuration",
+      "quotationBody": "Include the product reference, quantity and delivery destination, together with the requirements below.",
+      "askOnWhatsApp": "Ask on WhatsApp",
+      "emailSales": "Email sales",
+      "productImagePreview": "Product image preview",
+      "closeImagePreview": "Close image preview",
+      "enlargedImage": "Enlarged product image",
+      "previousProductImage": "Previous product image",
+      "nextProductImage": "Next product image",
+      "selectProductImage": "Select product image",
+      "inquiryTitle": "Request product details and a quotation",
+      "inquiryBody": "Send your selected configuration, quantity and destination.",
+      "title": "Liquid-filled Pressure Gauges",
+      "lead": "The YN100BF is a liquid-filled analog gauge with a stainless steel case, a 100 mm nominal dial and M20x1.5 bottom connection. Choose the required measuring range from the individual options.",
+      "eyebrow": "Accessories",
+      "seoTitle": "Liquid-filled Pressure Gauges | CHUANWEI FIRE",
+      "seoDescription": "The YN100BF is a liquid-filled analog gauge with a stainless steel case, a 100 mm nominal dial and M20x1.5 bottom connection. Choose the required measuring range from the individual options.",
+      "note": "Specify the required scale range and normal and maximum working pressure; each listed range is a separate gauge option.",
+      "image0Alt": "YN100BF liquid-filled gauge with stainless steel case.",
+      "image0Caption": "YN100BF liquid-filled gauge with stainless steel case.",
+      "spec0Label": "Model",
+      "spec0Value": "YN100BF",
+      "spec1Label": "Type",
+      "spec1Value": "Liquid-filled analog gauge",
+      "spec2Label": "Case material",
+      "spec2Value": "Stainless steel",
+      "spec3Label": "Nominal dial diameter",
+      "spec3Value": "100 mm",
+      "spec4Label": "Connection",
+      "spec4Value": "M20x1.5 bottom connection",
+      "spec5Label": "Accuracy class",
+      "spec5Value": "1.6",
+      "spec6Label": "Range types",
+      "spec6Value": "Positive pressure / vacuum / compound",
+      "model0Name": "YN100BF · 0…0.1 MPa",
+      "model0Reference": "YN100BF",
+      "model0Selection": "100 mm dial · M20x1.5 bottom connection · selected range 0…0.1 MPa",
+      "model1Name": "YN100BF · 0…0.16 MPa",
+      "model1Reference": "YN100BF",
+      "model1Selection": "100 mm dial · M20x1.5 bottom connection · selected range 0…0.16 MPa",
+      "model2Name": "YN100BF · 0…0.25 MPa",
+      "model2Reference": "YN100BF",
+      "model2Selection": "100 mm dial · M20x1.5 bottom connection · selected range 0…0.25 MPa",
+      "model3Name": "YN100BF · 0…0.4 MPa",
+      "model3Reference": "YN100BF",
+      "model3Selection": "100 mm dial · M20x1.5 bottom connection · selected range 0…0.4 MPa",
+      "model4Name": "YN100BF · 0…0.6 MPa",
+      "model4Reference": "YN100BF",
+      "model4Selection": "100 mm dial · M20x1.5 bottom connection · selected range 0…0.6 MPa",
+      "model5Name": "YN100BF · 0…1 MPa",
+      "model5Reference": "YN100BF",
+      "model5Selection": "100 mm dial · M20x1.5 bottom connection · selected range 0…1 MPa",
+      "model6Name": "YN100BF · 0…1.6 MPa",
+      "model6Reference": "YN100BF",
+      "model6Selection": "100 mm dial · M20x1.5 bottom connection · selected range 0…1.6 MPa",
+      "model7Name": "YN100BF · 0…2.5 MPa",
+      "model7Reference": "YN100BF",
+      "model7Selection": "100 mm dial · M20x1.5 bottom connection · selected range 0…2.5 MPa",
+      "model8Name": "YN100BF · 0…4 MPa",
+      "model8Reference": "YN100BF",
+      "model8Selection": "100 mm dial · M20x1.5 bottom connection · selected range 0…4 MPa",
+      "model9Name": "YN100BF · 0…6 MPa",
+      "model9Reference": "YN100BF",
+      "model9Selection": "100 mm dial · M20x1.5 bottom connection · selected range 0…6 MPa",
+      "model10Name": "YN100BF · 0…10 MPa",
+      "model10Reference": "YN100BF",
+      "model10Selection": "100 mm dial · M20x1.5 bottom connection · selected range 0…10 MPa",
+      "model11Name": "YN100BF · 0…16 MPa",
+      "model11Reference": "YN100BF",
+      "model11Selection": "100 mm dial · M20x1.5 bottom connection · selected range 0…16 MPa",
+      "model12Name": "YN100BF · 0…25 MPa",
+      "model12Reference": "YN100BF",
+      "model12Selection": "100 mm dial · M20x1.5 bottom connection · selected range 0…25 MPa",
+      "model13Name": "YN100BF · 0…40 MPa",
+      "model13Reference": "YN100BF",
+      "model13Selection": "100 mm dial · M20x1.5 bottom connection · selected range 0…40 MPa",
+      "model14Name": "YN100BF · 0…60 MPa",
+      "model14Reference": "YN100BF",
+      "model14Selection": "100 mm dial · M20x1.5 bottom connection · selected range 0…60 MPa",
+      "model15Name": "YN100BF · 0…100 MPa",
+      "model15Reference": "YN100BF",
+      "model15Selection": "100 mm dial · M20x1.5 bottom connection · selected range 0…100 MPa",
+      "model16Name": "YN100BF · -0.1…0 MPa",
+      "model16Reference": "YN100BF",
+      "model16Selection": "100 mm dial · M20x1.5 bottom connection · selected range -0.1…0 MPa",
+      "model17Name": "YN100BF · -0.1…0.1 MPa",
+      "model17Reference": "YN100BF",
+      "model17Selection": "100 mm dial · M20x1.5 bottom connection · selected range -0.1…0.1 MPa",
+      "model18Name": "YN100BF · -0.1…0.15 MPa",
+      "model18Reference": "YN100BF",
+      "model18Selection": "100 mm dial · M20x1.5 bottom connection · selected range -0.1…0.15 MPa",
+      "model19Name": "YN100BF · -0.1…0.3 MPa",
+      "model19Reference": "YN100BF",
+      "model19Selection": "100 mm dial · M20x1.5 bottom connection · selected range -0.1…0.3 MPa",
+      "model20Name": "YN100BF · -0.1…0.5 MPa",
+      "model20Reference": "YN100BF",
+      "model20Selection": "100 mm dial · M20x1.5 bottom connection · selected range -0.1…0.5 MPa",
+      "model21Name": "YN100BF · -0.1…0.9 MPa",
+      "model21Reference": "YN100BF",
+      "model21Selection": "100 mm dial · M20x1.5 bottom connection · selected range -0.1…0.9 MPa",
+      "model22Name": "YN100BF · -0.1…1.5 MPa",
+      "model22Reference": "YN100BF",
+      "model22Selection": "100 mm dial · M20x1.5 bottom connection · selected range -0.1…1.5 MPa",
+      "model23Name": "YN100BF · -0.1…2.4 MPa",
+      "model23Reference": "YN100BF",
+      "model23Selection": "100 mm dial · M20x1.5 bottom connection · selected range -0.1…2.4 MPa",
+      "selection0Label": "Measuring range",
+      "selection0Body": "Specify the required scale range and normal and maximum working pressure; each listed range is a separate gauge option.",
+      "selection1Label": "Process connection and fluid",
+      "selection1Body": "Provide the mating thread drawing, working fluid, temperature and required wetted-part material."
+    },
+    "ar": {
+      "onThisPage": "في هذه الصفحة",
+      "gallery": "صور المنتج",
+      "galleryTitle": "عرض المنتج",
+      "galleryBody": "اختر صورة لعرض المنتج أو التكوين الظاهر فيها.",
+      "specifications": "المواصفات",
+      "specificationsTitle": "مواصفات المنتج",
+      "specificationsBody": "استخدم المواصفات مع جدول التكوينات أدناه.",
+      "availableModels": "الموديلات والتكوينات",
+      "modelsTitle": "الموديلات والتكوينات",
+      "modelsBody": "طابق مرجع المنتج وتفاصيل الاختيار مع طلبك.",
+      "modelsNote": "تعرض الصور تكوينات مختارة. حدد الموديل والكمية المطلوبة عند طلب عرض السعر.",
+      "factoryModel": "مرجع المنتج",
+      "configuration": "التكوين",
+      "selectionDetails": "تفاصيل الاختيار",
+      "temperature": "درجة الحرارة",
+      "thermalElement": "العنصر الحراري",
+      "quotation": "طلب عرض سعر",
+      "quotationTitle": "اختر التكوين المطلوب",
+      "quotationBody": "أرسل مرجع المنتج والكمية ووجهة التسليم والمتطلبات أدناه.",
+      "askOnWhatsApp": "استفسر عبر WhatsApp",
+      "emailSales": "راسل قسم المبيعات",
+      "productImagePreview": "معاينة صورة المنتج",
+      "closeImagePreview": "إغلاق معاينة الصورة",
+      "enlargedImage": "صورة مكبرة للمنتج",
+      "previousProductImage": "صورة المنتج السابقة",
+      "nextProductImage": "صورة المنتج التالية",
+      "selectProductImage": "اختر صورة المنتج",
+      "inquiryTitle": "اطلب تفاصيل المنتج وعرض سعر",
+      "inquiryBody": "أرسل التكوين المختار والكمية والوجهة.",
+      "title": "مقاييس ضغط مملوءة بالسائل",
+      "lead": "YN100BF مقياس تناظري مملوء بالسائل، بهيكل من الستانلس ستيل وقرص بقطر اسمي 100 mm وتوصيل سفلي M20x1.5. اختر مجال القياس المطلوب من الخيارات المستقلة.",
+      "eyebrow": "الملحقات",
+      "seoTitle": "مقاييس ضغط مملوءة بالسائل | CHUANWEI FIRE",
+      "seoDescription": "YN100BF مقياس تناظري مملوء بالسائل، بهيكل من الستانلس ستيل وقرص بقطر اسمي 100 mm وتوصيل سفلي M20x1.5. اختر مجال القياس المطلوب من الخيارات المستقلة.",
+      "note": "حدد مجال التدريج المطلوب وضغط التشغيل المعتاد والأقصى؛ كل مجال مدرج خيار مستقل للمقياس.",
+      "image0Alt": "مقياس YN100BF مملوء بالسائل بهيكل من الستانلس ستيل.",
+      "image0Caption": "مقياس YN100BF مملوء بالسائل بهيكل من الستانلس ستيل.",
+      "spec0Label": "الموديل",
+      "spec0Value": "YN100BF",
+      "spec1Label": "النوع",
+      "spec1Value": "مقياس تناظري مملوء بالسائل",
+      "spec2Label": "مادة الهيكل",
+      "spec2Value": "ستانلس ستيل",
+      "spec3Label": "قطر القرص الاسمي",
+      "spec3Value": "100 mm",
+      "spec4Label": "التوصيل",
+      "spec4Value": "توصيل سفلي M20x1.5",
+      "spec5Label": "فئة الدقة",
+      "spec5Value": "1.6",
+      "spec6Label": "أنواع مجالات القياس",
+      "spec6Value": "ضغط موجب / فراغ / مركب",
+      "model0Name": "YN100BF · 0…0.1 MPa",
+      "model0Reference": "YN100BF",
+      "model0Selection": "قرص 100 mm · توصيل سفلي M20x1.5 · المجال المختار 0…0.1 MPa",
+      "model1Name": "YN100BF · 0…0.16 MPa",
+      "model1Reference": "YN100BF",
+      "model1Selection": "قرص 100 mm · توصيل سفلي M20x1.5 · المجال المختار 0…0.16 MPa",
+      "model2Name": "YN100BF · 0…0.25 MPa",
+      "model2Reference": "YN100BF",
+      "model2Selection": "قرص 100 mm · توصيل سفلي M20x1.5 · المجال المختار 0…0.25 MPa",
+      "model3Name": "YN100BF · 0…0.4 MPa",
+      "model3Reference": "YN100BF",
+      "model3Selection": "قرص 100 mm · توصيل سفلي M20x1.5 · المجال المختار 0…0.4 MPa",
+      "model4Name": "YN100BF · 0…0.6 MPa",
+      "model4Reference": "YN100BF",
+      "model4Selection": "قرص 100 mm · توصيل سفلي M20x1.5 · المجال المختار 0…0.6 MPa",
+      "model5Name": "YN100BF · 0…1 MPa",
+      "model5Reference": "YN100BF",
+      "model5Selection": "قرص 100 mm · توصيل سفلي M20x1.5 · المجال المختار 0…1 MPa",
+      "model6Name": "YN100BF · 0…1.6 MPa",
+      "model6Reference": "YN100BF",
+      "model6Selection": "قرص 100 mm · توصيل سفلي M20x1.5 · المجال المختار 0…1.6 MPa",
+      "model7Name": "YN100BF · 0…2.5 MPa",
+      "model7Reference": "YN100BF",
+      "model7Selection": "قرص 100 mm · توصيل سفلي M20x1.5 · المجال المختار 0…2.5 MPa",
+      "model8Name": "YN100BF · 0…4 MPa",
+      "model8Reference": "YN100BF",
+      "model8Selection": "قرص 100 mm · توصيل سفلي M20x1.5 · المجال المختار 0…4 MPa",
+      "model9Name": "YN100BF · 0…6 MPa",
+      "model9Reference": "YN100BF",
+      "model9Selection": "قرص 100 mm · توصيل سفلي M20x1.5 · المجال المختار 0…6 MPa",
+      "model10Name": "YN100BF · 0…10 MPa",
+      "model10Reference": "YN100BF",
+      "model10Selection": "قرص 100 mm · توصيل سفلي M20x1.5 · المجال المختار 0…10 MPa",
+      "model11Name": "YN100BF · 0…16 MPa",
+      "model11Reference": "YN100BF",
+      "model11Selection": "قرص 100 mm · توصيل سفلي M20x1.5 · المجال المختار 0…16 MPa",
+      "model12Name": "YN100BF · 0…25 MPa",
+      "model12Reference": "YN100BF",
+      "model12Selection": "قرص 100 mm · توصيل سفلي M20x1.5 · المجال المختار 0…25 MPa",
+      "model13Name": "YN100BF · 0…40 MPa",
+      "model13Reference": "YN100BF",
+      "model13Selection": "قرص 100 mm · توصيل سفلي M20x1.5 · المجال المختار 0…40 MPa",
+      "model14Name": "YN100BF · 0…60 MPa",
+      "model14Reference": "YN100BF",
+      "model14Selection": "قرص 100 mm · توصيل سفلي M20x1.5 · المجال المختار 0…60 MPa",
+      "model15Name": "YN100BF · 0…100 MPa",
+      "model15Reference": "YN100BF",
+      "model15Selection": "قرص 100 mm · توصيل سفلي M20x1.5 · المجال المختار 0…100 MPa",
+      "model16Name": "YN100BF · -0.1…0 MPa",
+      "model16Reference": "YN100BF",
+      "model16Selection": "قرص 100 mm · توصيل سفلي M20x1.5 · المجال المختار -0.1…0 MPa",
+      "model17Name": "YN100BF · -0.1…0.1 MPa",
+      "model17Reference": "YN100BF",
+      "model17Selection": "قرص 100 mm · توصيل سفلي M20x1.5 · المجال المختار -0.1…0.1 MPa",
+      "model18Name": "YN100BF · -0.1…0.15 MPa",
+      "model18Reference": "YN100BF",
+      "model18Selection": "قرص 100 mm · توصيل سفلي M20x1.5 · المجال المختار -0.1…0.15 MPa",
+      "model19Name": "YN100BF · -0.1…0.3 MPa",
+      "model19Reference": "YN100BF",
+      "model19Selection": "قرص 100 mm · توصيل سفلي M20x1.5 · المجال المختار -0.1…0.3 MPa",
+      "model20Name": "YN100BF · -0.1…0.5 MPa",
+      "model20Reference": "YN100BF",
+      "model20Selection": "قرص 100 mm · توصيل سفلي M20x1.5 · المجال المختار -0.1…0.5 MPa",
+      "model21Name": "YN100BF · -0.1…0.9 MPa",
+      "model21Reference": "YN100BF",
+      "model21Selection": "قرص 100 mm · توصيل سفلي M20x1.5 · المجال المختار -0.1…0.9 MPa",
+      "model22Name": "YN100BF · -0.1…1.5 MPa",
+      "model22Reference": "YN100BF",
+      "model22Selection": "قرص 100 mm · توصيل سفلي M20x1.5 · المجال المختار -0.1…1.5 MPa",
+      "model23Name": "YN100BF · -0.1…2.4 MPa",
+      "model23Reference": "YN100BF",
+      "model23Selection": "قرص 100 mm · توصيل سفلي M20x1.5 · المجال المختار -0.1…2.4 MPa",
+      "selection0Label": "مجال القياس",
+      "selection0Body": "حدد مجال التدريج المطلوب وضغط التشغيل المعتاد والأقصى؛ كل مجال مدرج خيار مستقل للمقياس.",
+      "selection1Label": "توصيل العملية والمائع",
+      "selection1Body": "قدم رسم السن المقابل والمائع ودرجة الحرارة ومادة الأجزاء الملامسة للمائع المطلوبة."
+    }
+  }
+}

@@ -1,0 +1,230 @@
+{
+  "id": "manual-fire-alarm-call-points",
+  "routeId": "product:manual-fire-alarm-call-points",
+  "template": "product-series/documented-product.njk",
+  "styles": [
+    "css/common.css",
+    "css/sprinkler-product.css",
+    "css/sprinkler-product-gallery.css",
+    "css/documented-product.css",
+    "css/site-navigation.css"
+  ],
+  "source": {
+    "evidence": "User-selected new-folder product archive; reviewed field-by-field for this product series.",
+    "review": "docs/reviews/material-batch-20261018/extinguishers-alarms.json",
+    "sourceNames": [
+      "TX3142-手动火灾报警按钮"
+    ],
+    "unresolved": [
+      "电源电压、尺寸、复位方式、接线、电话接口与底座匹配待确认。"
+    ],
+    "notes": [
+      "仅TX3142，不使用TX3142N照片或参数。",
+      "不宣称未核实的电压、尺寸或认证适用性。"
+    ]
+  },
+  "publication": {
+    "status": "release-candidate",
+    "externalRelease": true,
+    "imageRights": "user-confirmed-website-use",
+    "imageRightsEvidence": "docs/release/website-products-20261018/image-rights-confirmation.json"
+  },
+  "media": {
+    "hero": "assets/products/website-20261018/product-c6750165048d.webp"
+  },
+  "imageDimensions": {
+    "hero": {
+      "width": 1200,
+      "height": 1200
+    }
+  },
+  "shared": {},
+  "heroFacts": [
+    "spec0Value",
+    "spec1Value",
+    "spec2Value"
+  ],
+  "gallery": [
+    {
+      "media": "hero",
+      "alt": "image0Alt",
+      "caption": "image0Caption",
+      "thumbnailAlt": "image0Alt"
+    }
+  ],
+  "specifications": [
+    {
+      "label": "spec0Label",
+      "value": "spec0Value"
+    },
+    {
+      "label": "spec1Label",
+      "value": "spec1Value"
+    },
+    {
+      "label": "spec2Label",
+      "value": "spec2Value"
+    },
+    {
+      "label": "spec3Label",
+      "value": "spec3Value"
+    }
+  ],
+  "modelColumns": [
+    {
+      "label": "configuration",
+      "field": "configuration",
+      "localized": true
+    },
+    {
+      "label": "factoryModel",
+      "field": "factoryReference",
+      "localized": true
+    },
+    {
+      "label": "selectionDetails",
+      "field": "selection",
+      "localized": true
+    }
+  ],
+  "models": [
+    {
+      "configuration": "model0Name",
+      "factoryReference": "model0Reference",
+      "selection": "model0Selection"
+    }
+  ],
+  "confirmationItems": [
+    {
+      "label": "selection0Label",
+      "body": "selection0Body"
+    },
+    {
+      "label": "selection1Label",
+      "body": "selection1Body"
+    }
+  ],
+  "inquiry": {
+    "whatsapp": "https://wa.me/8617326528368?text=Hello%2C%20I%20am%20interested%20in%20Manual%20Fire%20Alarm%20Call%20Points.%0AProduct%20page%3A%20https%3A//chuanweifire.com/products/fire-alarm-systems/manual-fire-alarm-call-points.html%0AQuantity%20/%20destination%20/%20requirements%3A",
+    "email": "mailto:zhengcolin1@gmail.com"
+  },
+  "validation": {
+    "anchors": [
+      "gallery",
+      "specifications",
+      "models",
+      "quotation"
+    ],
+    "requiredTechnicalValues": []
+  },
+  "copy": {
+    "en": {
+      "onThisPage": "On this page",
+      "gallery": "Product gallery",
+      "galleryTitle": "Product views",
+      "galleryBody": "Select an image to view the pictured product or configuration.",
+      "specifications": "Specifications",
+      "specificationsTitle": "Product specifications",
+      "specificationsBody": "Use the specifications together with the configuration table below.",
+      "availableModels": "Models & configurations",
+      "modelsTitle": "Models & configurations",
+      "modelsBody": "Match the product reference and selection details to your order.",
+      "modelsNote": "The photographs illustrate selected configurations. Specify the required model and quantity when requesting a quotation.",
+      "factoryModel": "Product reference",
+      "configuration": "Configuration",
+      "selectionDetails": "Selection details",
+      "temperature": "Temperature",
+      "thermalElement": "Thermal element",
+      "quotation": "Request a quotation",
+      "quotationTitle": "Select your configuration",
+      "quotationBody": "Include the product reference, quantity and delivery destination, together with the requirements below.",
+      "askOnWhatsApp": "Ask on WhatsApp",
+      "emailSales": "Email sales",
+      "productImagePreview": "Product image preview",
+      "closeImagePreview": "Close image preview",
+      "enlargedImage": "Enlarged product image",
+      "previousProductImage": "Previous product image",
+      "nextProductImage": "Next product image",
+      "selectProductImage": "Select product image",
+      "inquiryTitle": "Request product details and a quotation",
+      "inquiryBody": "Send your selected configuration, quantity and destination.",
+      "title": "Manual Fire Alarm Call Points",
+      "lead": "Tanda manual fire alarm call points with a telephone socket. The supplied TX3142 configuration provides a manual alarm activation point for a compatible fire alarm system.",
+      "eyebrow": "Fire Alarm Equipment",
+      "seoTitle": "Manual Fire Alarm Call Points | CHUANWEI FIRE",
+      "seoDescription": "Tanda manual fire alarm call points with a telephone socket. The supplied TX3142 configuration provides a manual alarm activation point for a compatible fire alarm system.",
+      "note": "Provide the control panel model, protocol and existing device references so compatibility can be checked before supply.",
+      "image0Alt": "TX3142 manual call point with telephone socket.",
+      "image0Caption": "TX3142 manual call point with telephone socket.",
+      "spec0Label": "Product brand",
+      "spec0Value": "Tanda",
+      "spec1Label": "Product type",
+      "spec1Value": "Manual fire alarm call point",
+      "spec2Label": "Alarm activation",
+      "spec2Value": "Manual",
+      "spec3Label": "Additional feature",
+      "spec3Value": "Telephone socket",
+      "model0Name": "Manual call point with telephone socket",
+      "model0Reference": "TX3142",
+      "model0Selection": "Specify the matching base and telephone-system connection requirements.",
+      "selection0Label": "Control panel compatibility",
+      "selection0Body": "Provide the control panel model, protocol and existing device references so compatibility can be checked before supply.",
+      "selection1Label": "Telephone and mounting requirements",
+      "selection1Body": "Specify the telephone-system interface, base requirement and mounting arrangement."
+    },
+    "ar": {
+      "onThisPage": "في هذه الصفحة",
+      "gallery": "صور المنتج",
+      "galleryTitle": "عرض المنتج",
+      "galleryBody": "اختر صورة لعرض المنتج أو التكوين الظاهر فيها.",
+      "specifications": "المواصفات",
+      "specificationsTitle": "مواصفات المنتج",
+      "specificationsBody": "استخدم المواصفات مع جدول التكوينات أدناه.",
+      "availableModels": "الموديلات والتكوينات",
+      "modelsTitle": "الموديلات والتكوينات",
+      "modelsBody": "طابق مرجع المنتج وتفاصيل الاختيار مع طلبك.",
+      "modelsNote": "تعرض الصور تكوينات مختارة. حدد الموديل والكمية المطلوبة عند طلب عرض السعر.",
+      "factoryModel": "مرجع المنتج",
+      "configuration": "التكوين",
+      "selectionDetails": "تفاصيل الاختيار",
+      "temperature": "درجة الحرارة",
+      "thermalElement": "العنصر الحراري",
+      "quotation": "طلب عرض سعر",
+      "quotationTitle": "اختر التكوين المطلوب",
+      "quotationBody": "أرسل مرجع المنتج والكمية ووجهة التسليم والمتطلبات أدناه.",
+      "askOnWhatsApp": "استفسر عبر WhatsApp",
+      "emailSales": "راسل قسم المبيعات",
+      "productImagePreview": "معاينة صورة المنتج",
+      "closeImagePreview": "إغلاق معاينة الصورة",
+      "enlargedImage": "صورة مكبرة للمنتج",
+      "previousProductImage": "صورة المنتج السابقة",
+      "nextProductImage": "صورة المنتج التالية",
+      "selectProductImage": "اختر صورة المنتج",
+      "inquiryTitle": "اطلب تفاصيل المنتج وعرض سعر",
+      "inquiryBody": "أرسل التكوين المختار والكمية والوجهة.",
+      "title": "نقاط نداء يدوية لإنذار الحريق",
+      "lead": "نقاط نداء يدوية لإنذار الحريق من Tanda مزودة بمقبس هاتف. يوفر تجهيز TX3142 المقدم نقطة تفعيل يدوي للإنذار ضمن نظام متوافق.",
+      "eyebrow": "معدات إنذار الحريق",
+      "seoTitle": "نقاط نداء يدوية لإنذار الحريق | CHUANWEI FIRE",
+      "seoDescription": "نقاط نداء يدوية لإنذار الحريق من Tanda مزودة بمقبس هاتف. يوفر تجهيز TX3142 المقدم نقطة تفعيل يدوي للإنذار ضمن نظام متوافق.",
+      "note": "قدم طراز لوحة التحكم والبروتوكول ومراجع الأجهزة الحالية للتحقق من التوافق قبل التوريد.",
+      "image0Alt": "نقطة نداء يدوية TX3142 مزودة بمقبس هاتف.",
+      "image0Caption": "نقطة نداء يدوية TX3142 مزودة بمقبس هاتف.",
+      "spec0Label": "العلامة التجارية للمنتج",
+      "spec0Value": "Tanda",
+      "spec1Label": "نوع المنتج",
+      "spec1Value": "نقطة نداء يدوية لإنذار الحريق",
+      "spec2Label": "تفعيل الإنذار",
+      "spec2Value": "يدوي",
+      "spec3Label": "ميزة إضافية",
+      "spec3Value": "مقبس هاتف",
+      "model0Name": "نقطة نداء يدوية بمقبس هاتف",
+      "model0Reference": "TX3142",
+      "model0Selection": "حدد القاعدة المطابقة ومتطلبات اتصال نظام الهاتف.",
+      "selection0Label": "توافق لوحة التحكم",
+      "selection0Body": "قدم طراز لوحة التحكم والبروتوكول ومراجع الأجهزة الحالية للتحقق من التوافق قبل التوريد.",
+      "selection1Label": "متطلبات الهاتف والتركيب",
+      "selection1Body": "حدد واجهة نظام الهاتف والحاجة إلى القاعدة وطريقة التركيب."
+    }
+  }
+}

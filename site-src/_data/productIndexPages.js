@@ -5,6 +5,7 @@ import { SITE_ORIGIN, SUPPORTED_LOCALES, createListingPageRoute, resolveSiteRout
 import { createSeoMetadata } from "./seo.js";
 import { createSiteNavigation } from "./navigation.js";
 import { listingInquiryDrafts } from "../lib/inquiry.js";
+import { PRODUCT_BROWSE_GROUPS } from './productBrowseGroups.js';
 
 export default SUPPORTED_LOCALES.map((locale) => {
   const copy = DIRECTORY_COPY[locale];
@@ -22,6 +23,12 @@ export default SUPPORTED_LOCALES.map((locale) => {
     seoDescription,
     ogImage,
     seo: createSeoMetadata("products", locale, { title: seoTitle, description: seoDescription, image: ogImage }),
+    browseGroups: PRODUCT_BROWSE_GROUPS.map(group => ({
+      id: group.id,
+      name: localizedText(group.name, locale),
+      members: group.families.map(family => family.id).join(' '),
+      families: group.families.map(family => ({id: family.id, name: localizedText(family.name, locale)}))
+    })),
     families: PRODUCT_FAMILIES.map((family) => ({
       id: family.id,
       name: localizedText(family.name, locale),

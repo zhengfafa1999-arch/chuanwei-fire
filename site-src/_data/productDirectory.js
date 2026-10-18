@@ -4,6 +4,7 @@ import { productViews } from './productViews.js';
 import { catalogExpansionByRoute, catalogExpansionListings } from './catalogExpansion.js';
 import { productSearchTerms } from './productSearchData.js';
 import { relatedSupplementConfigurations } from '../lib/product-supplements.js';
+import { websiteBatchFamilies, websiteBatchListings } from './websiteCatalogBatch.js';
 
 export const DIRECTORY_COPY = {
   en: {
@@ -162,6 +163,7 @@ export const PRODUCT_FAMILIES = [
     description: text("Fire hose nozzles, couplings, adapters and related components supplied for individual quotation.", "فوهات خراطيم الحريق والوصلات والمهايئات والمكونات المرتبطة بها متاحة لطلب عروض أسعار منفصلة.", "消防水枪、接口、转接件及相关组件，可按单品询价。"),
     image: "products/消防水枪/消防水枪主图.jpg",
     products: [
+      ...websiteBatchListings("hoses-nozzles-couplings"),
       ["product:combination-jet-fog-nozzles", "Combination Jet/Fog Nozzles", "فوهات نفاثة/ضبابية مركبة", "products/消防水枪/categories/combination-jet-fog-nozzle.jpg"],
       ["product:kd-hose-couplings", "KD Hose Couplings", "وصلات خراطيم KD", "products/消防水枪/categories/kd-hose-coupling.jpg"],
       ["product:kn-threaded-adapters", "KN Threaded Adapters", "محولات لولبية KN", "products/消防水枪/categories/kn-threaded-adapter.jpg"],
@@ -215,7 +217,7 @@ export const PRODUCT_FAMILIES = [
       ...catalogExpansionListings("fire-equipment-cabinets")
     ]
   }
-].map((family) => ({
+].concat(websiteBatchFamilies).map((family) => ({
   ...family,
   products: family.products.map(([routeId, en, ar, image]) => {
     const file = new URL(`./documented-products/${routeId.replace('product:', '')}.json`, import.meta.url);

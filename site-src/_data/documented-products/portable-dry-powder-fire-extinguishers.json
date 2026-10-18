@@ -1,0 +1,363 @@
+{
+  "id": "portable-dry-powder-fire-extinguishers",
+  "routeId": "product:portable-dry-powder-fire-extinguishers",
+  "template": "product-series/documented-product.njk",
+  "styles": [
+    "css/common.css",
+    "css/sprinkler-product.css",
+    "css/sprinkler-product-gallery.css",
+    "css/documented-product.css",
+    "css/site-navigation.css"
+  ],
+  "source": {
+    "evidence": "User-selected new-folder product archive; reviewed field-by-field for this product series.",
+    "review": "docs/reviews/material-batch-20261018/extinguishers-alarms.json",
+    "sourceNames": [
+      "MF-ABCE系列-手提式干粉灭火器",
+      "MF-ABCE1-3-手提式干粉灭火器",
+      "MF-ABCE4-8-手提式干粉灭火器"
+    ],
+    "unresolved": [
+      "精确型号灭火级别、充装压力、使用温度、喷射性能及目的地适用文件待核实。",
+      "整机净重、毛重、包装、交期及商务条件需按订单确认。"
+    ],
+    "notes": [
+      "合并系列与1–3 kg、4–8 kg拆分资料；所有容量按具体型号对应，未将一个标签参数推广全系列。",
+      "碳钢有1、2、3、4、5、6、8 kg逐张参数图核验记录。",
+      "MF/ABCE为工厂型号；不把字母直接转换为国际火灾等级或认证。",
+      "保留实物TAIRUI标识；CHUANWEI FIRE为供货方。"
+    ]
+  },
+  "publication": {
+    "status": "release-candidate",
+    "externalRelease": true,
+    "imageRights": "user-confirmed-website-use",
+    "imageRightsEvidence": "docs/release/website-products-20261018/image-rights-confirmation.json"
+  },
+  "media": {
+    "hero": "assets/products/website-20261018/product-d1642dc7bcf9.webp",
+    "image1": "assets/products/website-20261018/product-493bda4912f5.webp",
+    "image2": "assets/products/website-20261018/product-add1c6ebb22d.webp"
+  },
+  "imageDimensions": {
+    "hero": {
+      "width": 1000,
+      "height": 1000
+    },
+    "image1": {
+      "width": 1000,
+      "height": 1000
+    },
+    "image2": {
+      "width": 1000,
+      "height": 1000
+    }
+  },
+  "shared": {},
+  "heroFacts": [
+    "spec0Value",
+    "spec1Value",
+    "spec2Value"
+  ],
+  "gallery": [
+    {
+      "media": "hero",
+      "alt": "image0Alt",
+      "caption": "image0Caption",
+      "thumbnailAlt": "image0Alt"
+    },
+    {
+      "media": "image1",
+      "alt": "image1Alt",
+      "caption": "image1Caption",
+      "thumbnailAlt": "image1Alt"
+    },
+    {
+      "media": "image2",
+      "alt": "image2Alt",
+      "caption": "image2Caption",
+      "thumbnailAlt": "image2Alt"
+    }
+  ],
+  "specifications": [
+    {
+      "label": "spec0Label",
+      "value": "spec0Value"
+    },
+    {
+      "label": "spec1Label",
+      "value": "spec1Value"
+    },
+    {
+      "label": "spec2Label",
+      "value": "spec2Value"
+    },
+    {
+      "label": "spec3Label",
+      "value": "spec3Value"
+    },
+    {
+      "label": "spec4Label",
+      "value": "spec4Value"
+    },
+    {
+      "label": "spec5Label",
+      "value": "spec5Value"
+    },
+    {
+      "label": "spec6Label",
+      "value": "spec6Value"
+    },
+    {
+      "label": "spec7Label",
+      "value": "spec7Value"
+    }
+  ],
+  "modelColumns": [
+    {
+      "label": "configuration",
+      "field": "configuration",
+      "localized": true
+    },
+    {
+      "label": "factoryModel",
+      "field": "factoryReference",
+      "localized": true
+    },
+    {
+      "label": "selectionDetails",
+      "field": "selection",
+      "localized": true
+    }
+  ],
+  "models": [
+    {
+      "configuration": "model0Name",
+      "factoryReference": "model0Reference",
+      "selection": "model0Selection"
+    },
+    {
+      "configuration": "model1Name",
+      "factoryReference": "model1Reference",
+      "selection": "model1Selection"
+    },
+    {
+      "configuration": "model2Name",
+      "factoryReference": "model2Reference",
+      "selection": "model2Selection"
+    },
+    {
+      "configuration": "model3Name",
+      "factoryReference": "model3Reference",
+      "selection": "model3Selection"
+    },
+    {
+      "configuration": "model4Name",
+      "factoryReference": "model4Reference",
+      "selection": "model4Selection"
+    },
+    {
+      "configuration": "model5Name",
+      "factoryReference": "model5Reference",
+      "selection": "model5Selection"
+    },
+    {
+      "configuration": "model6Name",
+      "factoryReference": "model6Reference",
+      "selection": "model6Selection"
+    }
+  ],
+  "confirmationItems": [
+    {
+      "label": "selection0Label",
+      "body": "selection0Body"
+    },
+    {
+      "label": "selection1Label",
+      "body": "selection1Body"
+    }
+  ],
+  "inquiry": {
+    "whatsapp": "https://wa.me/8617326528368?text=Hello%2C%20I%20am%20interested%20in%20Portable%20Dry%20Powder%20Fire%20Extinguishers.%0AProduct%20page%3A%20https%3A//chuanweifire.com/products/fire-extinguishers/portable-dry-powder-fire-extinguishers.html%0AQuantity%20/%20destination%20/%20requirements%3A",
+    "email": "mailto:zhengcolin1@gmail.com"
+  },
+  "validation": {
+    "anchors": [
+      "gallery",
+      "specifications",
+      "models",
+      "quotation"
+    ],
+    "requiredTechnicalValues": []
+  },
+  "copy": {
+    "en": {
+      "onThisPage": "On this page",
+      "gallery": "Product gallery",
+      "galleryTitle": "Product views",
+      "galleryBody": "Select an image to view the pictured product or configuration.",
+      "specifications": "Specifications",
+      "specificationsTitle": "Product specifications",
+      "specificationsBody": "Use the specifications together with the configuration table below.",
+      "availableModels": "Models & configurations",
+      "modelsTitle": "Models & configurations",
+      "modelsBody": "Match the product reference and selection details to your order.",
+      "modelsNote": "The photographs illustrate selected configurations. Specify the required model and quantity when requesting a quotation.",
+      "factoryModel": "Product reference",
+      "configuration": "Configuration",
+      "selectionDetails": "Selection details",
+      "temperature": "Temperature",
+      "thermalElement": "Thermal element",
+      "quotation": "Request a quotation",
+      "quotationTitle": "Select your configuration",
+      "quotationBody": "Include the product reference, quantity and delivery destination, together with the requirements below.",
+      "askOnWhatsApp": "Ask on WhatsApp",
+      "emailSales": "Email sales",
+      "productImagePreview": "Product image preview",
+      "closeImagePreview": "Close image preview",
+      "enlargedImage": "Enlarged product image",
+      "previousProductImage": "Previous product image",
+      "nextProductImage": "Next product image",
+      "selectProductImage": "Select product image",
+      "inquiryTitle": "Request product details and a quotation",
+      "inquiryBody": "Send your selected configuration, quantity and destination.",
+      "title": "Portable Dry Powder Fire Extinguishers",
+      "lead": "Portable dry powder extinguishers with carbon steel cylinders and manual lever operation. Agent charges from 1 kg to 8 kg are listed, with direct-nozzle and hose configurations.",
+      "eyebrow": "Fire Extinguishers",
+      "seoTitle": "Portable Dry Powder Fire Extinguishers | CHUANWEI FIRE",
+      "seoDescription": "Portable dry powder extinguishers with carbon steel cylinders and manual lever operation. Agent charges from 1 kg to 8 kg are listed, with direct-nozzle and hose configurations.",
+      "note": "Specify the agent charge or volume and the quantity required for each model.",
+      "image0Alt": "Portable dry powder series overview.",
+      "image0Caption": "Portable dry powder series overview.",
+      "image1Alt": "Compact direct-nozzle configuration; pictured sample MF/ABCE2.",
+      "image1Caption": "Compact direct-nozzle configuration; pictured sample MF/ABCE2.",
+      "image2Alt": "Hose-equipped configuration; pictured sample MF/ABCE4.",
+      "image2Caption": "Hose-equipped configuration; pictured sample MF/ABCE4.",
+      "spec0Label": "Extinguishing agent",
+      "spec0Value": "Dry powder",
+      "spec1Label": "Cylinder material",
+      "spec1Value": "Carbon steel",
+      "spec2Label": "Format",
+      "spec2Value": "Portable",
+      "spec3Label": "Operation",
+      "spec3Value": "Manual lever",
+      "spec4Label": "Agent charge options",
+      "spec4Value": "1 / 2 / 3 / 4 / 5 / 6 / 8 kg",
+      "spec5Label": "Outlet: 1–3 kg",
+      "spec5Value": "Direct nozzle",
+      "spec6Label": "Outlet: 4–8 kg",
+      "spec6Value": "Hose and nozzle",
+      "spec7Label": "Pressure indicator",
+      "spec7Value": "Fitted",
+      "model0Name": "1 kg dry powder",
+      "model0Reference": "MF/ABCE1",
+      "model0Selection": "Direct nozzle; manual lever.",
+      "model1Name": "2 kg dry powder",
+      "model1Reference": "MF/ABCE2",
+      "model1Selection": "Direct nozzle; manual lever.",
+      "model2Name": "3 kg dry powder",
+      "model2Reference": "MF/ABCE3",
+      "model2Selection": "Direct nozzle; manual lever.",
+      "model3Name": "4 kg dry powder",
+      "model3Reference": "MF/ABCE4",
+      "model3Selection": "Hose and nozzle; manual lever.",
+      "model4Name": "5 kg dry powder",
+      "model4Reference": "MF/ABCE5",
+      "model4Selection": "Hose and nozzle; manual lever.",
+      "model5Name": "6 kg dry powder",
+      "model5Reference": "MF/ABCE6",
+      "model5Selection": "Hose and nozzle; manual lever.",
+      "model6Name": "8 kg dry powder",
+      "model6Reference": "MF/ABCE8",
+      "model6Selection": "Hose and nozzle; manual lever.",
+      "selection0Label": "Capacity and quantity",
+      "selection0Body": "Specify the agent charge or volume and the quantity required for each model.",
+      "selection1Label": "Project requirements",
+      "selection1Body": "Send the installation location, required fire rating and destination market so the exact model documents can be checked."
+    },
+    "ar": {
+      "onThisPage": "في هذه الصفحة",
+      "gallery": "صور المنتج",
+      "galleryTitle": "عرض المنتج",
+      "galleryBody": "اختر صورة لعرض المنتج أو التكوين الظاهر فيها.",
+      "specifications": "المواصفات",
+      "specificationsTitle": "مواصفات المنتج",
+      "specificationsBody": "استخدم المواصفات مع جدول التكوينات أدناه.",
+      "availableModels": "الموديلات والتكوينات",
+      "modelsTitle": "الموديلات والتكوينات",
+      "modelsBody": "طابق مرجع المنتج وتفاصيل الاختيار مع طلبك.",
+      "modelsNote": "تعرض الصور تكوينات مختارة. حدد الموديل والكمية المطلوبة عند طلب عرض السعر.",
+      "factoryModel": "مرجع المنتج",
+      "configuration": "التكوين",
+      "selectionDetails": "تفاصيل الاختيار",
+      "temperature": "درجة الحرارة",
+      "thermalElement": "العنصر الحراري",
+      "quotation": "طلب عرض سعر",
+      "quotationTitle": "اختر التكوين المطلوب",
+      "quotationBody": "أرسل مرجع المنتج والكمية ووجهة التسليم والمتطلبات أدناه.",
+      "askOnWhatsApp": "استفسر عبر WhatsApp",
+      "emailSales": "راسل قسم المبيعات",
+      "productImagePreview": "معاينة صورة المنتج",
+      "closeImagePreview": "إغلاق معاينة الصورة",
+      "enlargedImage": "صورة مكبرة للمنتج",
+      "previousProductImage": "صورة المنتج السابقة",
+      "nextProductImage": "صورة المنتج التالية",
+      "selectProductImage": "اختر صورة المنتج",
+      "inquiryTitle": "اطلب تفاصيل المنتج وعرض سعر",
+      "inquiryBody": "أرسل التكوين المختار والكمية والوجهة.",
+      "title": "طفايات حريق محمولة بالمسحوق الجاف",
+      "lead": "طفايات محمولة بالمسحوق الجاف بأسطوانات من الفولاذ الكربوني وتشغيل يدوي بالذراع. تتوفر سعات موثقة من 1 kg إلى 8 kg، بتجهيزات فوهة مباشرة أو خرطوم.",
+      "eyebrow": "طفايات الحريق",
+      "seoTitle": "طفايات حريق محمولة بالمسحوق الجاف | CHUANWEI FIRE",
+      "seoDescription": "طفايات محمولة بالمسحوق الجاف بأسطوانات من الفولاذ الكربوني وتشغيل يدوي بالذراع. تتوفر سعات موثقة من 1 kg إلى 8 kg، بتجهيزات فوهة مباشرة أو خرطوم.",
+      "note": "حدد كتلة مادة الإطفاء أو حجمها والكمية المطلوبة من كل طراز.",
+      "image0Alt": "نظرة عامة على سلسلة الطفايات المحمولة بالمسحوق الجاف.",
+      "image0Caption": "نظرة عامة على سلسلة الطفايات المحمولة بالمسحوق الجاف.",
+      "image1Alt": "تجهيز مدمج بفوهة مباشرة؛ العينة المصورة MF/ABCE2.",
+      "image1Caption": "تجهيز مدمج بفوهة مباشرة؛ العينة المصورة MF/ABCE2.",
+      "image2Alt": "تجهيز مزود بخرطوم؛ العينة المصورة MF/ABCE4.",
+      "image2Caption": "تجهيز مزود بخرطوم؛ العينة المصورة MF/ABCE4.",
+      "spec0Label": "مادة الإطفاء",
+      "spec0Value": "مسحوق جاف",
+      "spec1Label": "مادة الأسطوانة",
+      "spec1Value": "فولاذ كربوني",
+      "spec2Label": "التصميم",
+      "spec2Value": "محمول",
+      "spec3Label": "التشغيل",
+      "spec3Value": "ذراع يدوي",
+      "spec4Label": "خيارات كتلة مادة الإطفاء",
+      "spec4Value": "1 / 2 / 3 / 4 / 5 / 6 / 8 kg",
+      "spec5Label": "المخرج: 1–3 kg",
+      "spec5Value": "فوهة مباشرة",
+      "spec6Label": "المخرج: 4–8 kg",
+      "spec6Value": "خرطوم وفوهة",
+      "spec7Label": "مؤشر الضغط",
+      "spec7Value": "مزود بمؤشر ضغط",
+      "model0Name": "مسحوق جاف بسعة 1 kg",
+      "model0Reference": "MF/ABCE1",
+      "model0Selection": "فوهة مباشرة؛ ذراع يدوي.",
+      "model1Name": "مسحوق جاف بسعة 2 kg",
+      "model1Reference": "MF/ABCE2",
+      "model1Selection": "فوهة مباشرة؛ ذراع يدوي.",
+      "model2Name": "مسحوق جاف بسعة 3 kg",
+      "model2Reference": "MF/ABCE3",
+      "model2Selection": "فوهة مباشرة؛ ذراع يدوي.",
+      "model3Name": "مسحوق جاف بسعة 4 kg",
+      "model3Reference": "MF/ABCE4",
+      "model3Selection": "خرطوم وفوهة؛ ذراع يدوي.",
+      "model4Name": "مسحوق جاف بسعة 5 kg",
+      "model4Reference": "MF/ABCE5",
+      "model4Selection": "خرطوم وفوهة؛ ذراع يدوي.",
+      "model5Name": "مسحوق جاف بسعة 6 kg",
+      "model5Reference": "MF/ABCE6",
+      "model5Selection": "خرطوم وفوهة؛ ذراع يدوي.",
+      "model6Name": "مسحوق جاف بسعة 8 kg",
+      "model6Reference": "MF/ABCE8",
+      "model6Selection": "خرطوم وفوهة؛ ذراع يدوي.",
+      "selection0Label": "السعة والكمية",
+      "selection0Body": "حدد كتلة مادة الإطفاء أو حجمها والكمية المطلوبة من كل طراز.",
+      "selection1Label": "متطلبات المشروع",
+      "selection1Body": "أرسل موقع الاستخدام وتصنيف الإطفاء المطلوب وبلد الوجهة للتحقق من وثائق الطراز المحدد."
+    }
+  }
+}

@@ -1,0 +1,243 @@
+{
+  "scope": "single-category",
+  "category": "fire-alarm-systems",
+  "previewMode": "http",
+  "generatedAt": "2026-10-18T02:57:44.466Z",
+  "browser": "Edg/155.0.4283.45",
+  "viewports": [
+    {
+      "id": "desktop",
+      "width": 1440,
+      "height": 900,
+      "deviceScaleFactor": 1,
+      "mobile": false
+    },
+    {
+      "id": "mobile",
+      "width": 390,
+      "height": 844,
+      "deviceScaleFactor": 1,
+      "mobile": true
+    }
+  ],
+  "languageSwitches": [
+    {
+      "scenario": "desktop/en: home and directory entries, category reciprocal switch and refresh",
+      "status": "PASS"
+    },
+    {
+      "scenario": "desktop/en: product:fire-alarm-control-panels image/text entries, back, reciprocal switch, refresh and three footer returns",
+      "status": "PASS",
+      "viewport": "desktop",
+      "locale": "en",
+      "routeId": "product:fire-alarm-control-panels"
+    },
+    {
+      "scenario": "desktop/en: product:combined-smoke-heat-detectors image/text entries, back, reciprocal switch, refresh and three footer returns",
+      "status": "PASS",
+      "viewport": "desktop",
+      "locale": "en",
+      "routeId": "product:combined-smoke-heat-detectors"
+    },
+    {
+      "scenario": "desktop/en: product:heat-detectors image/text entries, back, reciprocal switch, refresh and three footer returns",
+      "status": "PASS",
+      "viewport": "desktop",
+      "locale": "en",
+      "routeId": "product:heat-detectors"
+    },
+    {
+      "scenario": "desktop/en: product:photoelectric-smoke-detectors image/text entries, back, reciprocal switch, refresh and three footer returns",
+      "status": "PASS",
+      "viewport": "desktop",
+      "locale": "en",
+      "routeId": "product:photoelectric-smoke-detectors"
+    },
+    {
+      "scenario": "desktop/en: product:manual-fire-alarm-call-points image/text entries, back, reciprocal switch, refresh and three footer returns",
+      "status": "PASS",
+      "viewport": "desktop",
+      "locale": "en",
+      "routeId": "product:manual-fire-alarm-call-points"
+    },
+    {
+      "scenario": "desktop/en: product:fire-alarm-input-output-modules image/text entries, back, reciprocal switch, refresh and three footer returns",
+      "status": "PASS",
+      "viewport": "desktop",
+      "locale": "en",
+      "routeId": "product:fire-alarm-input-output-modules"
+    },
+    {
+      "scenario": "desktop/en: product:fire-alarm-sounder-beacons image/text entries, back, reciprocal switch, refresh and three footer returns",
+      "status": "PASS",
+      "viewport": "desktop",
+      "locale": "en",
+      "routeId": "product:fire-alarm-sounder-beacons"
+    },
+    {
+      "scenario": "desktop/ar: home and directory entries, category reciprocal switch and refresh",
+      "status": "PASS"
+    },
+    {
+      "scenario": "desktop/ar: product:fire-alarm-control-panels image/text entries, back, reciprocal switch, refresh and three footer returns",
+      "status": "PASS",
+      "viewport": "desktop",
+      "locale": "ar",
+      "routeId": "product:fire-alarm-control-panels"
+    },
+    {
+      "scenario": "desktop/ar: product:combined-smoke-heat-detectors image/text entries, back, reciprocal switch, refresh and three footer returns",
+      "status": "PASS",
+      "viewport": "desktop",
+      "locale": "ar",
+      "routeId": "product:combined-smoke-heat-detectors"
+    },
+    {
+      "scenario": "desktop/ar: product:heat-detectors image/text entries, back, reciprocal switch, refresh and three footer returns",
+      "status": "PASS",
+      "viewport": "desktop",
+      "locale": "ar",
+      "routeId": "product:heat-detectors"
+    },
+    {
+      "scenario": "desktop/ar: product:photoelectric-smoke-detectors image/text entries, back, reciprocal switch, refresh and three footer returns",
+      "status": "PASS",
+      "viewport": "desktop",
+      "locale": "ar",
+      "routeId": "product:photoelectric-smoke-detectors"
+    },
+    {
+      "scenario": "desktop/ar: product:manual-fire-alarm-call-points image/text entries, back, reciprocal switch, refresh and three footer returns",
+      "status": "PASS",
+      "viewport": "desktop",
+      "locale": "ar",
+      "routeId": "product:manual-fire-alarm-call-points"
+    },
+    {
+      "scenario": "desktop/ar: product:fire-alarm-input-output-modules image/text entries, back, reciprocal switch, refresh and three footer returns",
+      "status": "PASS",
+      "viewport": "desktop",
+      "locale": "ar",
+      "routeId": "product:fire-alarm-input-output-modules"
+    },
+    {
+      "scenario": "desktop/ar: product:fire-alarm-sounder-beacons image/text entries, back, reciprocal switch, refresh and three footer returns",
+      "status": "PASS",
+      "viewport": "desktop",
+      "locale": "ar",
+      "routeId": "product:fire-alarm-sounder-beacons"
+    },
+    {
+      "scenario": "mobile/en: home and directory entries, category reciprocal switch and refresh",
+      "status": "PASS"
+    },
+    {
+      "scenario": "mobile/en: product:fire-alarm-control-panels image/text entries, back, reciprocal switch, refresh and three footer returns",
+      "status": "PASS",
+      "viewport": "mobile",
+      "locale": "en",
+      "routeId": "product:fire-alarm-control-panels"
+    },
+    {
+      "scenario": "mobile/en: product:combined-smoke-heat-detectors image/text entries, back, reciprocal switch, refresh and three footer returns",
+      "status": "PASS",
+      "viewport": "mobile",
+      "locale": "en",
+      "routeId": "product:combined-smoke-heat-detectors"
+    },
+    {
+      "scenario": "mobile/en: product:heat-detectors image/text entries, back, reciprocal switch, refresh and three footer returns",
+      "status": "PASS",
+      "viewport": "mobile",
+      "locale": "en",
+      "routeId": "product:heat-detectors"
+    },
+    {
+      "scenario": "mobile/en: product:photoelectric-smoke-detectors image/text entries, back, reciprocal switch, refresh and three footer returns",
+      "status": "PASS",
+      "viewport": "mobile",
+      "locale": "en",
+      "routeId": "product:photoelectric-smoke-detectors"
+    },
+    {
+      "scenario": "mobile/en: product:manual-fire-alarm-call-points image/text entries, back, reciprocal switch, refresh and three footer returns",
+      "status": "PASS",
+      "viewport": "mobile",
+      "locale": "en",
+      "routeId": "product:manual-fire-alarm-call-points"
+    },
+    {
+      "scenario": "mobile/en: product:fire-alarm-input-output-modules image/text entries, back, reciprocal switch, refresh and three footer returns",
+      "status": "PASS",
+      "viewport": "mobile",
+      "locale": "en",
+      "routeId": "product:fire-alarm-input-output-modules"
+    },
+    {
+      "scenario": "mobile/en: product:fire-alarm-sounder-beacons image/text entries, back, reciprocal switch, refresh and three footer returns",
+      "status": "PASS",
+      "viewport": "mobile",
+      "locale": "en",
+      "routeId": "product:fire-alarm-sounder-beacons"
+    },
+    {
+      "scenario": "mobile/ar: home and directory entries, category reciprocal switch and refresh",
+      "status": "PASS"
+    },
+    {
+      "scenario": "mobile/ar: product:fire-alarm-control-panels image/text entries, back, reciprocal switch, refresh and three footer returns",
+      "status": "PASS",
+      "viewport": "mobile",
+      "locale": "ar",
+      "routeId": "product:fire-alarm-control-panels"
+    },
+    {
+      "scenario": "mobile/ar: product:combined-smoke-heat-detectors image/text entries, back, reciprocal switch, refresh and three footer returns",
+      "status": "PASS",
+      "viewport": "mobile",
+      "locale": "ar",
+      "routeId": "product:combined-smoke-heat-detectors"
+    },
+    {
+      "scenario": "mobile/ar: product:heat-detectors image/text entries, back, reciprocal switch, refresh and three footer returns",
+      "status": "PASS",
+      "viewport": "mobile",
+      "locale": "ar",
+      "routeId": "product:heat-detectors"
+    },
+    {
+      "scenario": "mobile/ar: product:photoelectric-smoke-detectors image/text entries, back, reciprocal switch, refresh and three footer returns",
+      "status": "PASS",
+      "viewport": "mobile",
+      "locale": "ar",
+      "routeId": "product:photoelectric-smoke-detectors"
+    },
+    {
+      "scenario": "mobile/ar: product:manual-fire-alarm-call-points image/text entries, back, reciprocal switch, refresh and three footer returns",
+      "status": "PASS",
+      "viewport": "mobile",
+      "locale": "ar",
+      "routeId": "product:manual-fire-alarm-call-points"
+    },
+    {
+      "scenario": "mobile/ar: product:fire-alarm-input-output-modules image/text entries, back, reciprocal switch, refresh and three footer returns",
+      "status": "PASS",
+      "viewport": "mobile",
+      "locale": "ar",
+      "routeId": "product:fire-alarm-input-output-modules"
+    },
+    {
+      "scenario": "mobile/ar: product:fire-alarm-sounder-beacons image/text entries, back, reciprocal switch, refresh and three footer returns",
+      "status": "PASS",
+      "viewport": "mobile",
+      "locale": "ar",
+      "routeId": "product:fire-alarm-sounder-beacons"
+    }
+  ],
+  "screenshots": [
+    "edge-desktop-fire-alarm-systems-en.png",
+    "edge-desktop-fire-alarm-systems-ar.png",
+    "edge-mobile-fire-alarm-systems-en.png",
+    "edge-mobile-fire-alarm-systems-ar.png"
+  ]
+}

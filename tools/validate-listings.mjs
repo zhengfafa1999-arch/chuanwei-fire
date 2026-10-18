@@ -5,6 +5,7 @@ import { PRODUCT_FAMILIES, flatProducts, productSuffix, localizedText } from "..
 import { CATEGORY_SEO_FOCUS } from "../site-src/_data/categorySeoFocus.js";
 import { listingInquiryDrafts } from "../site-src/lib/inquiry.js";
 import { versionedPublicAsset } from "../site-src/lib/public-asset-versions.js";
+import { PRODUCT_BROWSE_GROUPS } from '../site-src/_data/productBrowseGroups.js';
 import {
   SITE_ROUTES,
   SUPPORTED_LOCALES,
@@ -72,6 +73,10 @@ for (const route of Object.values(SITE_ROUTES)) {
 for (const locale of SUPPORTED_LOCALES) {
   const directory = validateListingShell('products', locale);
   assert(directory.html.includes('assets/js/product-finder.js'), 'Product finder missing');
+  for (const group of PRODUCT_BROWSE_GROUPS) {
+    assert(directory.html.includes(`href="#${group.id}"`), `${group.id}: missing browse-group shortcut`);
+    assert(directory.html.includes(`value="${group.id}" data-family-members="${group.families.map(family => family.id).join(' ')}"`), `${group.id}: incorrect filter membership`);
+  }
   assert((directory.html.match(/<article class="product-card" data-search=/g)||[]).length === PRODUCT_FAMILIES.reduce((n,f)=>n+flatProducts(f).length,0), 'Flat directory count mismatch');
   for (const family of PRODUCT_FAMILIES) {
     const category = validateListingShell(family.routeId, locale);
@@ -86,7 +91,7 @@ for (const locale of SUPPORTED_LOCALES) {
     const cards=[...category.html.matchAll(/<article class="product-card">([\s\S]*?)<\/article>/g)].map(m=>m[1]);
     const products=flatProducts(family);
     assert(cards.length === products.length, `${family.id}: flat category count mismatch`);
-    assert(directory.html.includes(`href="#${family.id}"`), 'Category must be an in-page filter/shortcut');
+    assert(directory.html.includes(`value="${family.id}" data-family-members="${family.id}"`), `${family.id}: existing category must retain exact filtering`);
     products.forEach((product,index)=>{
       assert(product.image && !/Configuration options|خيارات التكوين/.test(localizedText(product.name,locale)), 'Empty duplicate configuration card returned');
       assert(SITE_ROUTES[product.routeId].kind === 'product', 'Directory must link directly to detail routes');

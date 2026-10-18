@@ -1,0 +1,37 @@
+{
+  "status": "complete-local-user-deploys",
+  "date": "2026-10-18",
+  "scope": {
+    "sourceImages": 44,
+    "sourceProductNames": 43,
+    "productSeries": 32,
+    "productPages": 64,
+    "categoryPages": 14,
+    "optimizedImages": 8,
+    "originalImages": 36
+  },
+  "build": "all package build steps passed",
+  "staticAudit": {
+    "pages": 265,
+    "imagesWithAlt": 2829,
+    "internalReferences": 77088
+  },
+  "browser": {
+    "representativeProductScenarios": 28,
+    "finalUiScenarios": 8,
+    "newCategoryScenarios": 152,
+    "allPassed": true,
+    "browseGroupScenarios": 4,
+    "homepageLocales": 3,
+    "browseGroupEvidence": "docs/evidence/product-browse-groups-20261018/browser-validation.json"
+  },
+  "release": {
+    "files": 344,
+    "archive": "docs/release/website-products-20261018/website-products-20261018-public-delta.zip",
+    "currentFileByteComparisonPassed": true,
+    "archiveSha256": "ae287403b1cee0b936a04c2a303809bd92f1605f34b030995e3070f19328423b"
+  },
+  "deployment": "User explicitly chose to deploy personally; no server upload or remote Git push performed.",
+  "task": "WEBSITE-PRODUCTS-20261018",
+  "buildLog": "docs/reviews/product-browse-groups-20261018/nozzle-order-build.log"
+}

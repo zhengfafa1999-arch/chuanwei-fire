@@ -1,0 +1,174 @@
+{
+  "scope": "product-batch",
+  "products": [
+    "fire-extinguisher-balls",
+    "grooved-pipe-elbows"
+  ],
+  "previewMode": "http",
+  "generatedAt": "2026-10-18T02:57:45.653Z",
+  "browser": "Edg/155.0.4283.45",
+  "viewports": [
+    {
+      "id": "desktop",
+      "width": 1440,
+      "height": 900,
+      "deviceScaleFactor": 1,
+      "mobile": false
+    },
+    {
+      "id": "mobile",
+      "width": 390,
+      "height": 844,
+      "deviceScaleFactor": 1,
+      "mobile": true
+    }
+  ],
+  "validations": [
+    {
+      "slug": "fire-extinguisher-balls",
+      "languageSwitches": [
+        {
+          "scenario": "desktop/en: fire-extinguisher-balls image/text category entries, reciprocal switch, refresh, 2-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+          "status": "PASS"
+        },
+        {
+          "scenario": "desktop/ar: fire-extinguisher-balls image/text category entries, reciprocal switch, refresh, 2-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+          "status": "PASS"
+        },
+        {
+          "scenario": "mobile/en: fire-extinguisher-balls image/text category entries, reciprocal switch, refresh, 2-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+          "status": "PASS"
+        },
+        {
+          "scenario": "mobile/ar: fire-extinguisher-balls image/text category entries, reciprocal switch, refresh, 2-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+          "status": "PASS"
+        }
+      ],
+      "screenshots": [
+        "edge-desktop-fire-extinguisher-balls-en-gallery.png",
+        "edge-desktop-fire-extinguisher-balls-en-specifications.png",
+        "edge-desktop-fire-extinguisher-balls-en-models.png",
+        "edge-desktop-fire-extinguisher-balls-en-quotation.png",
+        "edge-desktop-fire-extinguisher-balls-ar-gallery.png",
+        "edge-desktop-fire-extinguisher-balls-ar-specifications.png",
+        "edge-desktop-fire-extinguisher-balls-ar-models.png",
+        "edge-desktop-fire-extinguisher-balls-ar-quotation.png",
+        "edge-mobile-fire-extinguisher-balls-en-gallery.png",
+        "edge-mobile-fire-extinguisher-balls-en-specifications.png",
+        "edge-mobile-fire-extinguisher-balls-en-models.png",
+        "edge-mobile-fire-extinguisher-balls-en-quotation.png",
+        "edge-mobile-fire-extinguisher-balls-ar-gallery.png",
+        "edge-mobile-fire-extinguisher-balls-ar-specifications.png",
+        "edge-mobile-fire-extinguisher-balls-ar-models.png",
+        "edge-mobile-fire-extinguisher-balls-ar-quotation.png"
+      ]
+    },
+    {
+      "slug": "grooved-pipe-elbows",
+      "languageSwitches": [
+        {
+          "scenario": "desktop/en: grooved-pipe-elbows image/text category entries, reciprocal switch, refresh, 2-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+          "status": "PASS"
+        },
+        {
+          "scenario": "desktop/ar: grooved-pipe-elbows image/text category entries, reciprocal switch, refresh, 2-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+          "status": "PASS"
+        },
+        {
+          "scenario": "mobile/en: grooved-pipe-elbows image/text category entries, reciprocal switch, refresh, 2-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+          "status": "PASS"
+        },
+        {
+          "scenario": "mobile/ar: grooved-pipe-elbows image/text category entries, reciprocal switch, refresh, 2-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+          "status": "PASS"
+        }
+      ],
+      "screenshots": [
+        "edge-desktop-grooved-pipe-elbows-en-gallery.png",
+        "edge-desktop-grooved-pipe-elbows-en-specifications.png",
+        "edge-desktop-grooved-pipe-elbows-en-models.png",
+        "edge-desktop-grooved-pipe-elbows-en-quotation.png",
+        "edge-desktop-grooved-pipe-elbows-ar-gallery.png",
+        "edge-desktop-grooved-pipe-elbows-ar-specifications.png",
+        "edge-desktop-grooved-pipe-elbows-ar-models.png",
+        "edge-desktop-grooved-pipe-elbows-ar-quotation.png",
+        "edge-mobile-grooved-pipe-elbows-en-gallery.png",
+        "edge-mobile-grooved-pipe-elbows-en-specifications.png",
+        "edge-mobile-grooved-pipe-elbows-en-models.png",
+        "edge-mobile-grooved-pipe-elbows-en-quotation.png",
+        "edge-mobile-grooved-pipe-elbows-ar-gallery.png",
+        "edge-mobile-grooved-pipe-elbows-ar-specifications.png",
+        "edge-mobile-grooved-pipe-elbows-ar-models.png",
+        "edge-mobile-grooved-pipe-elbows-ar-quotation.png"
+      ]
+    }
+  ],
+  "languageSwitches": [
+    {
+      "scenario": "desktop/en: fire-extinguisher-balls image/text category entries, reciprocal switch, refresh, 2-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+      "status": "PASS"
+    },
+    {
+      "scenario": "desktop/ar: fire-extinguisher-balls image/text category entries, reciprocal switch, refresh, 2-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+      "status": "PASS"
+    },
+    {
+      "scenario": "mobile/en: fire-extinguisher-balls image/text category entries, reciprocal switch, refresh, 2-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+      "status": "PASS"
+    },
+    {
+      "scenario": "mobile/ar: fire-extinguisher-balls image/text category entries, reciprocal switch, refresh, 2-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+      "status": "PASS"
+    },
+    {
+      "scenario": "desktop/en: grooved-pipe-elbows image/text category entries, reciprocal switch, refresh, 2-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+      "status": "PASS"
+    },
+    {
+      "scenario": "desktop/ar: grooved-pipe-elbows image/text category entries, reciprocal switch, refresh, 2-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+      "status": "PASS"
+    },
+    {
+      "scenario": "mobile/en: grooved-pipe-elbows image/text category entries, reciprocal switch, refresh, 2-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+      "status": "PASS"
+    },
+    {
+      "scenario": "mobile/ar: grooved-pipe-elbows image/text category entries, reciprocal switch, refresh, 2-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+      "status": "PASS"
+    }
+  ],
+  "screenshots": [
+    "edge-desktop-fire-extinguisher-balls-en-gallery.png",
+    "edge-desktop-fire-extinguisher-balls-en-specifications.png",
+    "edge-desktop-fire-extinguisher-balls-en-models.png",
+    "edge-desktop-fire-extinguisher-balls-en-quotation.png",
+    "edge-desktop-fire-extinguisher-balls-ar-gallery.png",
+    "edge-desktop-fire-extinguisher-balls-ar-specifications.png",
+    "edge-desktop-fire-extinguisher-balls-ar-models.png",
+    "edge-desktop-fire-extinguisher-balls-ar-quotation.png",
+    "edge-mobile-fire-extinguisher-balls-en-gallery.png",
+    "edge-mobile-fire-extinguisher-balls-en-specifications.png",
+    "edge-mobile-fire-extinguisher-balls-en-models.png",
+    "edge-mobile-fire-extinguisher-balls-en-quotation.png",
+    "edge-mobile-fire-extinguisher-balls-ar-gallery.png",
+    "edge-mobile-fire-extinguisher-balls-ar-specifications.png",
+    "edge-mobile-fire-extinguisher-balls-ar-models.png",
+    "edge-mobile-fire-extinguisher-balls-ar-quotation.png",
+    "edge-desktop-grooved-pipe-elbows-en-gallery.png",
+    "edge-desktop-grooved-pipe-elbows-en-specifications.png",
+    "edge-desktop-grooved-pipe-elbows-en-models.png",
+    "edge-desktop-grooved-pipe-elbows-en-quotation.png",
+    "edge-desktop-grooved-pipe-elbows-ar-gallery.png",
+    "edge-desktop-grooved-pipe-elbows-ar-specifications.png",
+    "edge-desktop-grooved-pipe-elbows-ar-models.png",
+    "edge-desktop-grooved-pipe-elbows-ar-quotation.png",
+    "edge-mobile-grooved-pipe-elbows-en-gallery.png",
+    "edge-mobile-grooved-pipe-elbows-en-specifications.png",
+    "edge-mobile-grooved-pipe-elbows-en-models.png",
+    "edge-mobile-grooved-pipe-elbows-en-quotation.png",
+    "edge-mobile-grooved-pipe-elbows-ar-gallery.png",
+    "edge-mobile-grooved-pipe-elbows-ar-specifications.png",
+    "edge-mobile-grooved-pipe-elbows-ar-models.png",
+    "edge-mobile-grooved-pipe-elbows-ar-quotation.png"
+  ]
+}

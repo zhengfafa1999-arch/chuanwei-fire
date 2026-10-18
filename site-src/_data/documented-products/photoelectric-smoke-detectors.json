@@ -1,0 +1,257 @@
+{
+  "id": "photoelectric-smoke-detectors",
+  "routeId": "product:photoelectric-smoke-detectors",
+  "template": "product-series/documented-product.njk",
+  "styles": [
+    "css/common.css",
+    "css/sprinkler-product.css",
+    "css/sprinkler-product-gallery.css",
+    "css/documented-product.css",
+    "css/site-navigation.css"
+  ],
+  "source": {
+    "evidence": "User-selected new-folder product archive; reviewed field-by-field for this product series.",
+    "review": "docs/reviews/material-batch-20261018/extinguishers-alarms.json",
+    "sourceNames": [
+      "JTY-GM-TX3100N-点型光电感烟探测器",
+      "JTY-GM-TX3100D-点型光电感烟探测器"
+    ],
+    "unresolved": [
+      "两型号的协议兼容、地址设定、灵敏度、环境条件及底座包含范围待精确型号文件确认。"
+    ],
+    "notes": [
+      "TX3100N资料缺网页正文，型号与24 V来自实物底标核验记录；未借用其他型号参数。",
+      "TX3100D有含底座/不含底座条目，图片不能证明每笔订单均含底座。"
+    ]
+  },
+  "publication": {
+    "status": "release-candidate",
+    "externalRelease": true,
+    "imageRights": "user-confirmed-website-use",
+    "imageRightsEvidence": "docs/release/website-products-20261018/image-rights-confirmation.json"
+  },
+  "media": {
+    "hero": "assets/products/website-20261018/product-968cfb2937e0.webp",
+    "image1": "assets/products/website-20261018/product-0c01913d04c3.webp"
+  },
+  "imageDimensions": {
+    "hero": {
+      "width": 1254,
+      "height": 1254
+    },
+    "image1": {
+      "width": 1254,
+      "height": 1254
+    }
+  },
+  "shared": {},
+  "heroFacts": [
+    "spec0Value",
+    "spec1Value",
+    "spec2Value"
+  ],
+  "gallery": [
+    {
+      "media": "hero",
+      "alt": "image0Alt",
+      "caption": "image0Caption",
+      "thumbnailAlt": "image0Alt"
+    },
+    {
+      "media": "image1",
+      "alt": "image1Alt",
+      "caption": "image1Caption",
+      "thumbnailAlt": "image1Alt"
+    }
+  ],
+  "specifications": [
+    {
+      "label": "spec0Label",
+      "value": "spec0Value"
+    },
+    {
+      "label": "spec1Label",
+      "value": "spec1Value"
+    },
+    {
+      "label": "spec2Label",
+      "value": "spec2Value"
+    },
+    {
+      "label": "spec3Label",
+      "value": "spec3Value"
+    }
+  ],
+  "modelColumns": [
+    {
+      "label": "configuration",
+      "field": "configuration",
+      "localized": true
+    },
+    {
+      "label": "factoryModel",
+      "field": "factoryReference",
+      "localized": true
+    },
+    {
+      "label": "selectionDetails",
+      "field": "selection",
+      "localized": true
+    }
+  ],
+  "models": [
+    {
+      "configuration": "model0Name",
+      "factoryReference": "model0Reference",
+      "selection": "model0Selection"
+    },
+    {
+      "configuration": "model1Name",
+      "factoryReference": "model1Reference",
+      "selection": "model1Selection"
+    }
+  ],
+  "confirmationItems": [
+    {
+      "label": "selection0Label",
+      "body": "selection0Body"
+    },
+    {
+      "label": "selection1Label",
+      "body": "selection1Body"
+    }
+  ],
+  "inquiry": {
+    "whatsapp": "https://wa.me/8617326528368?text=Hello%2C%20I%20am%20interested%20in%20Photoelectric%20Smoke%20Detectors.%0AProduct%20page%3A%20https%3A//chuanweifire.com/products/fire-alarm-systems/photoelectric-smoke-detectors.html%0AQuantity%20/%20destination%20/%20requirements%3A",
+    "email": "mailto:zhengcolin1@gmail.com"
+  },
+  "validation": {
+    "anchors": [
+      "gallery",
+      "specifications",
+      "models",
+      "quotation"
+    ],
+    "requiredTechnicalValues": []
+  },
+  "copy": {
+    "en": {
+      "onThisPage": "On this page",
+      "gallery": "Product gallery",
+      "galleryTitle": "Product views",
+      "galleryBody": "Select an image to view the pictured product or configuration.",
+      "specifications": "Specifications",
+      "specificationsTitle": "Product specifications",
+      "specificationsBody": "Use the specifications together with the configuration table below.",
+      "availableModels": "Models & configurations",
+      "modelsTitle": "Models & configurations",
+      "modelsBody": "Match the product reference and selection details to your order.",
+      "modelsNote": "The photographs illustrate selected configurations. Specify the required model and quantity when requesting a quotation.",
+      "factoryModel": "Product reference",
+      "configuration": "Configuration",
+      "selectionDetails": "Selection details",
+      "temperature": "Temperature",
+      "thermalElement": "Thermal element",
+      "quotation": "Request a quotation",
+      "quotationTitle": "Select your configuration",
+      "quotationBody": "Include the product reference, quantity and delivery destination, together with the requirements below.",
+      "askOnWhatsApp": "Ask on WhatsApp",
+      "emailSales": "Email sales",
+      "productImagePreview": "Product image preview",
+      "closeImagePreview": "Close image preview",
+      "enlargedImage": "Enlarged product image",
+      "previousProductImage": "Previous product image",
+      "nextProductImage": "Next product image",
+      "selectProductImage": "Select product image",
+      "inquiryTitle": "Request product details and a quotation",
+      "inquiryBody": "Send your selected configuration, quantity and destination.",
+      "title": "Photoelectric Smoke Detectors",
+      "lead": "Ceiling-mounted Tanda photoelectric smoke detectors with 24 V DC supply. TX3100N and TX3100D are listed separately so the exact device and matching base can be specified.",
+      "eyebrow": "Fire Alarm Equipment",
+      "seoTitle": "Photoelectric Smoke Detectors | CHUANWEI FIRE",
+      "seoDescription": "Ceiling-mounted Tanda photoelectric smoke detectors with 24 V DC supply. TX3100N and TX3100D are listed separately so the exact device and matching base can be specified.",
+      "note": "Provide the control panel model, protocol and existing device references so compatibility can be checked before supply.",
+      "image0Alt": "JTY-GM-TX3100N photoelectric smoke detector.",
+      "image0Caption": "JTY-GM-TX3100N photoelectric smoke detector.",
+      "image1Alt": "JTY-GM-TX3100D photoelectric smoke detector.",
+      "image1Caption": "JTY-GM-TX3100D photoelectric smoke detector.",
+      "spec0Label": "Product brand",
+      "spec0Value": "Tanda",
+      "spec1Label": "Detection",
+      "spec1Value": "Photoelectric smoke detection",
+      "spec2Label": "Supply voltage",
+      "spec2Value": "24 V DC",
+      "spec3Label": "Mounting",
+      "spec3Value": "Ceiling mounted",
+      "model0Name": "Photoelectric smoke detector — N model",
+      "model0Reference": "JTY-GM-TX3100N",
+      "model0Selection": "24 V DC; specify the matching base and control panel.",
+      "model1Name": "Photoelectric smoke detector — D model",
+      "model1Reference": "JTY-GM-TX3100D",
+      "model1Selection": "24 V DC; base-included and detector-only order scopes must be specified.",
+      "selection0Label": "Control panel compatibility",
+      "selection0Body": "Provide the control panel model, protocol and existing device references so compatibility can be checked before supply.",
+      "selection1Label": "Base and installation",
+      "selection1Body": "Specify whether a matching base is required and provide installation conditions and quantity."
+    },
+    "ar": {
+      "onThisPage": "في هذه الصفحة",
+      "gallery": "صور المنتج",
+      "galleryTitle": "عرض المنتج",
+      "galleryBody": "اختر صورة لعرض المنتج أو التكوين الظاهر فيها.",
+      "specifications": "المواصفات",
+      "specificationsTitle": "مواصفات المنتج",
+      "specificationsBody": "استخدم المواصفات مع جدول التكوينات أدناه.",
+      "availableModels": "الموديلات والتكوينات",
+      "modelsTitle": "الموديلات والتكوينات",
+      "modelsBody": "طابق مرجع المنتج وتفاصيل الاختيار مع طلبك.",
+      "modelsNote": "تعرض الصور تكوينات مختارة. حدد الموديل والكمية المطلوبة عند طلب عرض السعر.",
+      "factoryModel": "مرجع المنتج",
+      "configuration": "التكوين",
+      "selectionDetails": "تفاصيل الاختيار",
+      "temperature": "درجة الحرارة",
+      "thermalElement": "العنصر الحراري",
+      "quotation": "طلب عرض سعر",
+      "quotationTitle": "اختر التكوين المطلوب",
+      "quotationBody": "أرسل مرجع المنتج والكمية ووجهة التسليم والمتطلبات أدناه.",
+      "askOnWhatsApp": "استفسر عبر WhatsApp",
+      "emailSales": "راسل قسم المبيعات",
+      "productImagePreview": "معاينة صورة المنتج",
+      "closeImagePreview": "إغلاق معاينة الصورة",
+      "enlargedImage": "صورة مكبرة للمنتج",
+      "previousProductImage": "صورة المنتج السابقة",
+      "nextProductImage": "صورة المنتج التالية",
+      "selectProductImage": "اختر صورة المنتج",
+      "inquiryTitle": "اطلب تفاصيل المنتج وعرض سعر",
+      "inquiryBody": "أرسل التكوين المختار والكمية والوجهة.",
+      "title": "كواشف الدخان الكهروضوئية",
+      "lead": "كواشف دخان كهروضوئية من Tanda للتركيب السقفي وبجهد تغذية 24 V DC. يدرج TX3100N وTX3100D بشكل منفصل لتحديد الجهاز الدقيق والقاعدة المطابقة.",
+      "eyebrow": "معدات إنذار الحريق",
+      "seoTitle": "كواشف الدخان الكهروضوئية | CHUANWEI FIRE",
+      "seoDescription": "كواشف دخان كهروضوئية من Tanda للتركيب السقفي وبجهد تغذية 24 V DC. يدرج TX3100N وTX3100D بشكل منفصل لتحديد الجهاز الدقيق والقاعدة المطابقة.",
+      "note": "قدم طراز لوحة التحكم والبروتوكول ومراجع الأجهزة الحالية للتحقق من التوافق قبل التوريد.",
+      "image0Alt": "كاشف الدخان الكهروضوئي JTY-GM-TX3100N.",
+      "image0Caption": "كاشف الدخان الكهروضوئي JTY-GM-TX3100N.",
+      "image1Alt": "كاشف الدخان الكهروضوئي JTY-GM-TX3100D.",
+      "image1Caption": "كاشف الدخان الكهروضوئي JTY-GM-TX3100D.",
+      "spec0Label": "العلامة التجارية للمنتج",
+      "spec0Value": "Tanda",
+      "spec1Label": "الكشف",
+      "spec1Value": "كشف دخان كهروضوئي",
+      "spec2Label": "جهد التغذية",
+      "spec2Value": "24 V DC",
+      "spec3Label": "التركيب",
+      "spec3Value": "سقفي",
+      "model0Name": "كاشف دخان كهروضوئي — الطراز N",
+      "model0Reference": "JTY-GM-TX3100N",
+      "model0Selection": "24 V DC؛ حدد القاعدة ولوحة التحكم المتوافقتين.",
+      "model1Name": "كاشف دخان كهروضوئي — الطراز D",
+      "model1Reference": "JTY-GM-TX3100D",
+      "model1Selection": "24 V DC؛ يجب تحديد الطلب مع القاعدة أو للكاشف فقط.",
+      "selection0Label": "توافق لوحة التحكم",
+      "selection0Body": "قدم طراز لوحة التحكم والبروتوكول ومراجع الأجهزة الحالية للتحقق من التوافق قبل التوريد.",
+      "selection1Label": "القاعدة والتركيب",
+      "selection1Body": "حدد ما إذا كانت القاعدة المطابقة مطلوبة، وقدم ظروف التركيب والكمية."
+    }
+  }
+}

@@ -1,0 +1,131 @@
+{
+  "scope": "single-category",
+  "category": "pressure-gauges-accessories",
+  "previewMode": "http",
+  "generatedAt": "2026-10-18T02:55:31.803Z",
+  "browser": "Edg/155.0.4283.45",
+  "viewports": [
+    {
+      "id": "desktop",
+      "width": 1440,
+      "height": 900,
+      "deviceScaleFactor": 1,
+      "mobile": false
+    },
+    {
+      "id": "mobile",
+      "width": 390,
+      "height": 844,
+      "deviceScaleFactor": 1,
+      "mobile": true
+    }
+  ],
+  "languageSwitches": [
+    {
+      "scenario": "desktop/en: home and directory entries, category reciprocal switch and refresh",
+      "status": "PASS"
+    },
+    {
+      "scenario": "desktop/en: product:pressure-vacuum-gauges image/text entries, back, reciprocal switch, refresh and three footer returns",
+      "status": "PASS",
+      "viewport": "desktop",
+      "locale": "en",
+      "routeId": "product:pressure-vacuum-gauges"
+    },
+    {
+      "scenario": "desktop/en: product:liquid-filled-pressure-gauges image/text entries, back, reciprocal switch, refresh and three footer returns",
+      "status": "PASS",
+      "viewport": "desktop",
+      "locale": "en",
+      "routeId": "product:liquid-filled-pressure-gauges"
+    },
+    {
+      "scenario": "desktop/en: product:pressure-gauge-syphons image/text entries, back, reciprocal switch, refresh and three footer returns",
+      "status": "PASS",
+      "viewport": "desktop",
+      "locale": "en",
+      "routeId": "product:pressure-gauge-syphons"
+    },
+    {
+      "scenario": "desktop/ar: home and directory entries, category reciprocal switch and refresh",
+      "status": "PASS"
+    },
+    {
+      "scenario": "desktop/ar: product:pressure-vacuum-gauges image/text entries, back, reciprocal switch, refresh and three footer returns",
+      "status": "PASS",
+      "viewport": "desktop",
+      "locale": "ar",
+      "routeId": "product:pressure-vacuum-gauges"
+    },
+    {
+      "scenario": "desktop/ar: product:liquid-filled-pressure-gauges image/text entries, back, reciprocal switch, refresh and three footer returns",
+      "status": "PASS",
+      "viewport": "desktop",
+      "locale": "ar",
+      "routeId": "product:liquid-filled-pressure-gauges"
+    },
+    {
+      "scenario": "desktop/ar: product:pressure-gauge-syphons image/text entries, back, reciprocal switch, refresh and three footer returns",
+      "status": "PASS",
+      "viewport": "desktop",
+      "locale": "ar",
+      "routeId": "product:pressure-gauge-syphons"
+    },
+    {
+      "scenario": "mobile/en: home and directory entries, category reciprocal switch and refresh",
+      "status": "PASS"
+    },
+    {
+      "scenario": "mobile/en: product:pressure-vacuum-gauges image/text entries, back, reciprocal switch, refresh and three footer returns",
+      "status": "PASS",
+      "viewport": "mobile",
+      "locale": "en",
+      "routeId": "product:pressure-vacuum-gauges"
+    },
+    {
+      "scenario": "mobile/en: product:liquid-filled-pressure-gauges image/text entries, back, reciprocal switch, refresh and three footer returns",
+      "status": "PASS",
+      "viewport": "mobile",
+      "locale": "en",
+      "routeId": "product:liquid-filled-pressure-gauges"
+    },
+    {
+      "scenario": "mobile/en: product:pressure-gauge-syphons image/text entries, back, reciprocal switch, refresh and three footer returns",
+      "status": "PASS",
+      "viewport": "mobile",
+      "locale": "en",
+      "routeId": "product:pressure-gauge-syphons"
+    },
+    {
+      "scenario": "mobile/ar: home and directory entries, category reciprocal switch and refresh",
+      "status": "PASS"
+    },
+    {
+      "scenario": "mobile/ar: product:pressure-vacuum-gauges image/text entries, back, reciprocal switch, refresh and three footer returns",
+      "status": "PASS",
+      "viewport": "mobile",
+      "locale": "ar",
+      "routeId": "product:pressure-vacuum-gauges"
+    },
+    {
+      "scenario": "mobile/ar: product:liquid-filled-pressure-gauges image/text entries, back, reciprocal switch, refresh and three footer returns",
+      "status": "PASS",
+      "viewport": "mobile",
+      "locale": "ar",
+      "routeId": "product:liquid-filled-pressure-gauges"
+    },
+    {
+      "scenario": "mobile/ar: product:pressure-gauge-syphons image/text entries, back, reciprocal switch, refresh and three footer returns",
+      "status": "PASS",
+      "viewport": "mobile",
+      "locale": "ar",
+      "routeId": "product:pressure-gauge-syphons"
+    }
+  ],
+  "screenshots": [
+    "edge-desktop-pressure-gauges-accessories-en.png",
+    "edge-desktop-pressure-gauges-accessories-ar.png",
+    "edge-mobile-pressure-gauges-accessories-en.png",
+    "edge-mobile-pressure-gauges-accessories-ar.png"
+  ]
+}
