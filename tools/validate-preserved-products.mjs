@@ -42,6 +42,19 @@ for (const entry of catalog) {
   assert(!/\{\{|\{%|\{n\d+\}/.test(output), `${entry.lang}: unresolved template or numeric placeholder`);
   const baselineFile = `tools/fixtures/${entry.product.id === "diaphragm-deluge-valves" ? "diaphragm-deluge" : entry.product.id}-en-baseline.txt`;
   let baseline = main(read(baselineFile));
+  // User corrected this unit weight on 2026-10-20. Keep the original fixture
+  // immutable and permit only this exact specification-field replacement.
+  if (entry.product.id === 'bs750-pillar-hydrant') {
+    const confirmation = JSON.parse(read('docs/reviews/bs750-weight-20261020/user-confirmation.json'));
+    const weight = `${confirmation.confirmed.unitWeightKg} kg`;
+    assert.equal(entry.product.shared.weight35kg, weight, 'BS750: shared weight differs from user confirmation');
+    for (const [before, after] of confirmation.reviewedEnglishCopyChanges) {
+      assert.equal(baseline.split(before).length - 1, 1, 'BS750: expected one original unit-weight field');
+      baseline = baseline.replace(before, after);
+    }
+    assert.equal(entry.text.weight35kg.replace(/[\u2066\u2069]/g, ''), weight, 'BS750: localized weight differs');
+    assert(content.includes(`<dt>${entry.text.unitWeight}</dt><dd>${entry.text.weight35kg}</dd>`), 'BS750: rendered unit weight differs');
+  }
   // Alibaba material evidence confirms the manufacturer's QT450-10 grade but
   // does not substantiate a foreign-grade equivalence. Only that unsupported
   // suffix is removed; original fixture and manufacturer grade are retained.

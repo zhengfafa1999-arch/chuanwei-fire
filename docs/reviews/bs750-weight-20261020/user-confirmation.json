@@ -1,0 +1,13 @@
+{
+  "date": "2026-10-20",
+  "productId": "bs750-pillar-hydrant",
+  "source": "Direct user correction in this conversation",
+  "userRequest": "这个页面的产品重量不对，应该是35kg",
+  "confirmed": {
+    "unitWeightKg": 35
+  },
+  "reviewedEnglishCopyChanges": [
+    ["<dt>Unit weight</dt><dd>Approx. 20 kg</dd>", "<dt>Unit weight</dt><dd>35 kg</dd>"]
+  ],
+  "scope": "Correct the shared unit-weight specification and its English/Arabic page output. Other product facts and original historical fixtures remain unchanged."
+}

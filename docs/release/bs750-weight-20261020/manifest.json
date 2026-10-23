@@ -1,0 +1,40 @@
+{
+  "date": "2026-10-20",
+  "status": "local-patch-user-deploys-not-deployed",
+  "productId": "bs750-pillar-hydrant",
+  "unitWeightKg": 35,
+  "confirmation": "docs/reviews/bs750-weight-20261020/user-confirmation.json",
+  "change": "Replace the previous approximate 20 kg value with user-confirmed 35 kg; both localized product pages and directory search data updated.",
+  "validation": [
+    "Preserved-product validation passed for 54 localized outputs.",
+    "Buyer-copy validation passed for 265 public pages.",
+    "Product search validation passed: 163 assertions.",
+    "All four public pages differ from the previous Git commit only by this single weight replacement.",
+    "ZIP paths and bytes match the four current public files."
+  ],
+  "files": [
+    {
+      "path": "products/室外消防栓/bs750-pillar-hydrant.html",
+      "bytes": 53357,
+      "sha256": "9e28b0d1928e2474b374350b94c11616a02105ada9d61965814eec002316c090"
+    },
+    {
+      "path": "ar/products/bs750-pillar-hydrant/index.html",
+      "bytes": 60640,
+      "sha256": "1e22a82349e985404226c59bb48946ab8df9e4bc489f56f6cb340c1c4a8fb78e"
+    },
+    {
+      "path": "products.html",
+      "bytes": 414692,
+      "sha256": "9ecc2abc94f9dc3c1676076dde7716e832df5e619a7ad2cc4121038818236ca6"
+    },
+    {
+      "path": "ar/products.html",
+      "bytes": 431120,
+      "sha256": "e4860ad8820053d11d975b7436698359517d249f293c322170304f25b2ad14fe"
+    }
+  ],
+  "archive": "bs750-weight-35kg-public-patch.zip",
+  "archiveBytes": 129755,
+  "archiveSha256": "3d4f5c1b5ebdf91dc98de8ef569ec5bfb2127371d83d0a329c980e39db08b468"
+}

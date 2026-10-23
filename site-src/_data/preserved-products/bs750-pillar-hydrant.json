@@ -131,7 +131,7 @@
     ],
     [
       "unitWeight",
-      "approx20kg"
+      "weight35kg"
     ]
   ],
   "disclaimers": [
@@ -522,7 +522,7 @@
     "pressure24Mpa24Bar": "2.4 MPa / 24 bar",
     "pressure176Mpa176Bar": "1.76 MPa / 17.6 bar",
     "approx830mm": "Approx. 830 mm",
-    "approx20kg": "Approx. 20 kg",
+    "weight35kg": "35 kg",
     "dn100FourInBS4504Flange": "DN100 / 4 in, BS4504 flange"
   }
 }
