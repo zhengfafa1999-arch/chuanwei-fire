@@ -1,0 +1,73 @@
+{
+  "status": "PASS",
+  "generatedAt": "2026-10-25T11:23:32.747Z",
+  "browser": "Edg/156.0.4314.42",
+  "checks": [
+    {
+      "scenario": "desktop/products/消防阀/diaphragm-deluge-valves.html",
+      "status": "PASS",
+      "layout": {
+        "overflow": -15,
+        "broken": [],
+        "lang": "en",
+        "dir": "ltr"
+      },
+      "content": {
+        "h1": "Diaphragm Deluge Valve",
+        "main": 5690,
+        "internal": false
+      }
+    },
+    {
+      "scenario": "desktop/ar/products/diaphragm-deluge-valves/index.html",
+      "status": "PASS",
+      "layout": {
+        "overflow": -15,
+        "broken": [],
+        "lang": "ar",
+        "dir": "rtl"
+      },
+      "content": {
+        "h1": "صمام الغمر الغشائي",
+        "main": 5096,
+        "internal": false
+      }
+    },
+    {
+      "scenario": "mobile/products/消防阀/diaphragm-deluge-valves.html",
+      "status": "PASS",
+      "layout": {
+        "overflow": 0,
+        "broken": [],
+        "lang": "en",
+        "dir": "ltr"
+      },
+      "content": {
+        "h1": "Diaphragm Deluge Valve",
+        "main": 5744,
+        "internal": false
+      }
+    },
+    {
+      "scenario": "mobile/ar/products/diaphragm-deluge-valves/index.html",
+      "status": "PASS",
+      "layout": {
+        "overflow": 0,
+        "broken": [],
+        "lang": "ar",
+        "dir": "rtl"
+      },
+      "content": {
+        "h1": "صمام الغمر الغشائي",
+        "main": 5138,
+        "internal": false
+      }
+    }
+  ],
+  "screenshots": [
+    "deluge-flanged-en-desktop.png",
+    "deluge-flanged-ar-desktop.png",
+    "deluge-flanged-en-mobile.png",
+    "deluge-flanged-ar-mobile.png"
+  ]
+}

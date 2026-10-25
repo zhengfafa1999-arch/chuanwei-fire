@@ -1,0 +1,23 @@
+{
+  "releaseDate": "2026-10-24",
+  "generatedAt": "2026-10-25T09:10:15.821Z",
+  "generatedAtChina": "2026-10-25 17:10:15 Asia/Shanghai",
+  "status": "local-package-user-deploys-not-deployed",
+  "baseline": "18002712ff71c32d43fc1f80df1b1a2c7a88283e",
+  "sprinklerSeries": 17,
+  "inquiryOnlySeries": 0,
+  "allRegisteredPages": 281,
+  "files": 403,
+  "bytes": 23647252,
+  "added": 134,
+  "changed": 269,
+  "unchangedRequired": 0,
+  "unchangedBaselineDependencies": 666,
+  "localReferencesChecked": 80701,
+  "relatedImageReferencesChecked": 132,
+  "relatedImageDependencies": 29,
+  "archive": "sprinkler-groups-20261024-public-delta.zip",
+  "archiveBytes": 10119088,
+  "archiveSha256": "4c018e373dd413c3071508b50b775341a66f77ec26151d2475468e49257b5abf",
+  "deletes": []
+}

@@ -1,0 +1,975 @@
+{
+  "status": "PASS",
+  "generatedAt": "2026-10-25T09:35:53.692Z",
+  "browser": "Edg/155.0.4283.62",
+  "checks": [
+    {
+      "scenario": "grooved-concentric-reducers-en-desktop",
+      "status": "PASS",
+      "file": "products/grooved-pipe-fittings/grooved-concentric-reducers.html",
+      "layout": {
+        "overflow": -15,
+        "broken": [],
+        "lang": "en",
+        "dir": "ltr"
+      },
+      "state": {
+        "title": "Grooved Concentric Reducers",
+        "rows": 1,
+        "thumbs": 2,
+        "supplement": false,
+        "extraPhotos": 0,
+        "alternate": "https://chuanweifire.com/ar/products/grooved-concentric-reducers/"
+      },
+      "gallery": [
+        {
+          "main": "assets/products/alibaba-20261023/grooved-concentric-reducers/hero.webp",
+          "modal": "assets/products/alibaba-20261023/grooved-concentric-reducers/hero.webp",
+          "open": true,
+          "caption": "Red concentric reducer — actual product photograph",
+          "count": "1 / 2",
+          "closed": true
+        },
+        {
+          "main": "assets/products/alibaba-20261023/grooved-concentric-reducers/features.webp",
+          "modal": "assets/products/alibaba-20261023/grooved-concentric-reducers/features.webp",
+          "open": true,
+          "caption": "Product feature illustration (English)",
+          "count": "2 / 2",
+          "closed": true
+        }
+      ]
+    },
+    {
+      "scenario": "threaded-mechanical-tees-en-desktop",
+      "status": "PASS",
+      "file": "products/grooved-pipe-fittings/threaded-mechanical-tees.html",
+      "layout": {
+        "overflow": -15,
+        "broken": [],
+        "lang": "en",
+        "dir": "ltr"
+      },
+      "state": {
+        "title": "Threaded Mechanical Tees",
+        "rows": 1,
+        "thumbs": 2,
+        "supplement": false,
+        "extraPhotos": 0,
+        "alternate": "https://chuanweifire.com/ar/products/threaded-mechanical-tees/"
+      },
+      "gallery": [
+        {
+          "main": "assets/products/alibaba-20261023/threaded-mechanical-tees/hero.webp",
+          "modal": "assets/products/alibaba-20261023/threaded-mechanical-tees/hero.webp",
+          "open": true,
+          "caption": "Threaded mechanical tee — actual product photograph",
+          "count": "1 / 2",
+          "closed": true
+        },
+        {
+          "main": "assets/products/alibaba-20261023/threaded-mechanical-tees/features.webp",
+          "modal": "assets/products/alibaba-20261023/threaded-mechanical-tees/features.webp",
+          "open": true,
+          "caption": "Product feature illustration (English)",
+          "count": "2 / 2",
+          "closed": true
+        }
+      ]
+    },
+    {
+      "scenario": "grooved-equal-tees-en-desktop",
+      "status": "PASS",
+      "file": "products/grooved-pipe-fittings/grooved-equal-tees.html",
+      "layout": {
+        "overflow": -15,
+        "broken": [],
+        "lang": "en",
+        "dir": "ltr"
+      },
+      "state": {
+        "title": "Grooved Equal Tees",
+        "rows": 1,
+        "thumbs": 2,
+        "supplement": false,
+        "extraPhotos": 0,
+        "alternate": "https://chuanweifire.com/ar/products/grooved-equal-tees/"
+      },
+      "gallery": [
+        {
+          "main": "assets/products/alibaba-20261023/grooved-equal-tees/hero.webp",
+          "modal": "assets/products/alibaba-20261023/grooved-equal-tees/hero.webp",
+          "open": true,
+          "caption": "Grooved equal tee — actual product photograph",
+          "count": "1 / 2",
+          "closed": true
+        },
+        {
+          "main": "assets/products/alibaba-20261023/grooved-equal-tees/features.webp",
+          "modal": "assets/products/alibaba-20261023/grooved-equal-tees/features.webp",
+          "open": true,
+          "caption": "Product feature illustration (English)",
+          "count": "2 / 2",
+          "closed": true
+        }
+      ]
+    },
+    {
+      "scenario": "grooved-flange-adapters-en-desktop",
+      "status": "PASS",
+      "file": "products/grooved-pipe-fittings/grooved-flange-adapters.html",
+      "layout": {
+        "overflow": -15,
+        "broken": [],
+        "lang": "en",
+        "dir": "ltr"
+      },
+      "state": {
+        "title": "Grooved Flange Adapters",
+        "rows": 1,
+        "thumbs": 2,
+        "supplement": false,
+        "extraPhotos": 0,
+        "alternate": "https://chuanweifire.com/ar/products/grooved-flange-adapters/"
+      },
+      "gallery": [
+        {
+          "main": "assets/products/alibaba-20261023/grooved-flange-adapters/hero.webp",
+          "modal": "assets/products/alibaba-20261023/grooved-flange-adapters/hero.webp",
+          "open": true,
+          "caption": "Grooved flange adapter range — actual product photograph",
+          "count": "1 / 2",
+          "closed": true
+        },
+        {
+          "main": "assets/products/alibaba-20261023/grooved-flange-adapters/features.webp",
+          "modal": "assets/products/alibaba-20261023/grooved-flange-adapters/features.webp",
+          "open": true,
+          "caption": "Product feature illustration (English)",
+          "count": "2 / 2",
+          "closed": true
+        }
+      ]
+    },
+    {
+      "scenario": "horizontal-single-stage-fire-pumps-en-desktop",
+      "status": "PASS",
+      "file": "products/fire-pumps-controllers/horizontal-single-stage-fire-pumps.html",
+      "layout": {
+        "overflow": -15,
+        "broken": [],
+        "lang": "en",
+        "dir": "ltr"
+      },
+      "state": {
+        "title": "Horizontal Single-Stage Fire Pumps",
+        "rows": 1,
+        "thumbs": 2,
+        "supplement": false,
+        "extraPhotos": 0,
+        "alternate": "https://chuanweifire.com/ar/products/horizontal-single-stage-fire-pumps/"
+      },
+      "gallery": [
+        {
+          "main": "assets/products/alibaba-20261023/horizontal-single-stage-fire-pumps/hero.webp",
+          "modal": "assets/products/alibaba-20261023/horizontal-single-stage-fire-pumps/hero.webp",
+          "open": true,
+          "caption": "Horizontal pump and motor on a common baseplate — actual product photograph",
+          "count": "1 / 2",
+          "closed": true
+        },
+        {
+          "main": "assets/products/alibaba-20261023/horizontal-single-stage-fire-pumps/features.webp",
+          "modal": "assets/products/alibaba-20261023/horizontal-single-stage-fire-pumps/features.webp",
+          "open": true,
+          "caption": "Product feature illustration (English)",
+          "count": "2 / 2",
+          "closed": true
+        }
+      ]
+    },
+    {
+      "scenario": "grooved-concentric-reducers-ar-desktop",
+      "status": "PASS",
+      "file": "ar/products/grooved-concentric-reducers/index.html",
+      "layout": {
+        "overflow": -15,
+        "broken": [],
+        "lang": "ar",
+        "dir": "rtl"
+      },
+      "state": {
+        "title": "مخفضات متحدة المركز ذات أخاديد",
+        "rows": 1,
+        "thumbs": 2,
+        "supplement": false,
+        "extraPhotos": 0,
+        "alternate": "https://chuanweifire.com/products/grooved-pipe-fittings/grooved-concentric-reducers.html"
+      },
+      "gallery": [
+        {
+          "main": "assets/products/alibaba-20261023/grooved-concentric-reducers/hero.webp",
+          "modal": "assets/products/alibaba-20261023/grooved-concentric-reducers/hero.webp",
+          "open": true,
+          "caption": "مخفض أحمر متحد المركز — صورة فعلية للمنتج",
+          "count": "1 / 2",
+          "closed": true
+        },
+        {
+          "main": "assets/products/alibaba-20261023/grooved-concentric-reducers/features.webp",
+          "modal": "assets/products/alibaba-20261023/grooved-concentric-reducers/features.webp",
+          "open": true,
+          "caption": "رسم توضيحي لخصائص المنتج (بالإنجليزية)",
+          "count": "2 / 2",
+          "closed": true
+        }
+      ]
+    },
+    {
+      "scenario": "threaded-mechanical-tees-ar-desktop",
+      "status": "PASS",
+      "file": "ar/products/threaded-mechanical-tees/index.html",
+      "layout": {
+        "overflow": -15,
+        "broken": [],
+        "lang": "ar",
+        "dir": "rtl"
+      },
+      "state": {
+        "title": "وصلات T ميكانيكية بمخرج ملولب",
+        "rows": 1,
+        "thumbs": 2,
+        "supplement": false,
+        "extraPhotos": 0,
+        "alternate": "https://chuanweifire.com/products/grooved-pipe-fittings/threaded-mechanical-tees.html"
+      },
+      "gallery": [
+        {
+          "main": "assets/products/alibaba-20261023/threaded-mechanical-tees/hero.webp",
+          "modal": "assets/products/alibaba-20261023/threaded-mechanical-tees/hero.webp",
+          "open": true,
+          "caption": "وصلة T ميكانيكية ملولبة — صورة فعلية للمنتج",
+          "count": "1 / 2",
+          "closed": true
+        },
+        {
+          "main": "assets/products/alibaba-20261023/threaded-mechanical-tees/features.webp",
+          "modal": "assets/products/alibaba-20261023/threaded-mechanical-tees/features.webp",
+          "open": true,
+          "caption": "رسم توضيحي لخصائص المنتج (بالإنجليزية)",
+          "count": "2 / 2",
+          "closed": true
+        }
+      ]
+    },
+    {
+      "scenario": "grooved-equal-tees-ar-desktop",
+      "status": "PASS",
+      "file": "ar/products/grooved-equal-tees/index.html",
+      "layout": {
+        "overflow": -15,
+        "broken": [],
+        "lang": "ar",
+        "dir": "rtl"
+      },
+      "state": {
+        "title": "وصلات T متساوية ذات أخاديد",
+        "rows": 1,
+        "thumbs": 2,
+        "supplement": false,
+        "extraPhotos": 0,
+        "alternate": "https://chuanweifire.com/products/grooved-pipe-fittings/grooved-equal-tees.html"
+      },
+      "gallery": [
+        {
+          "main": "assets/products/alibaba-20261023/grooved-equal-tees/hero.webp",
+          "modal": "assets/products/alibaba-20261023/grooved-equal-tees/hero.webp",
+          "open": true,
+          "caption": "وصلة T متساوية محززة — صورة فعلية للمنتج",
+          "count": "1 / 2",
+          "closed": true
+        },
+        {
+          "main": "assets/products/alibaba-20261023/grooved-equal-tees/features.webp",
+          "modal": "assets/products/alibaba-20261023/grooved-equal-tees/features.webp",
+          "open": true,
+          "caption": "رسم توضيحي لخصائص المنتج (بالإنجليزية)",
+          "count": "2 / 2",
+          "closed": true
+        }
+      ]
+    },
+    {
+      "scenario": "grooved-flange-adapters-ar-desktop",
+      "status": "PASS",
+      "file": "ar/products/grooved-flange-adapters/index.html",
+      "layout": {
+        "overflow": -15,
+        "broken": [],
+        "lang": "ar",
+        "dir": "rtl"
+      },
+      "state": {
+        "title": "محولات فلنجية ذات أخاديد",
+        "rows": 1,
+        "thumbs": 2,
+        "supplement": false,
+        "extraPhotos": 0,
+        "alternate": "https://chuanweifire.com/products/grooved-pipe-fittings/grooved-flange-adapters.html"
+      },
+      "gallery": [
+        {
+          "main": "assets/products/alibaba-20261023/grooved-flange-adapters/hero.webp",
+          "modal": "assets/products/alibaba-20261023/grooved-flange-adapters/hero.webp",
+          "open": true,
+          "caption": "مجموعة محولات فلنجية محززة — صورة فعلية للمنتج",
+          "count": "1 / 2",
+          "closed": true
+        },
+        {
+          "main": "assets/products/alibaba-20261023/grooved-flange-adapters/features.webp",
+          "modal": "assets/products/alibaba-20261023/grooved-flange-adapters/features.webp",
+          "open": true,
+          "caption": "رسم توضيحي لخصائص المنتج (بالإنجليزية)",
+          "count": "2 / 2",
+          "closed": true
+        }
+      ]
+    },
+    {
+      "scenario": "horizontal-single-stage-fire-pumps-ar-desktop",
+      "status": "PASS",
+      "file": "ar/products/horizontal-single-stage-fire-pumps/index.html",
+      "layout": {
+        "overflow": -15,
+        "broken": [],
+        "lang": "ar",
+        "dir": "rtl"
+      },
+      "state": {
+        "title": "مضخات حريق أفقية أحادية المرحلة",
+        "rows": 1,
+        "thumbs": 2,
+        "supplement": false,
+        "extraPhotos": 0,
+        "alternate": "https://chuanweifire.com/products/fire-pumps-controllers/horizontal-single-stage-fire-pumps.html"
+      },
+      "gallery": [
+        {
+          "main": "assets/products/alibaba-20261023/horizontal-single-stage-fire-pumps/hero.webp",
+          "modal": "assets/products/alibaba-20261023/horizontal-single-stage-fire-pumps/hero.webp",
+          "open": true,
+          "caption": "مضخة أفقية ومحرك على قاعدة مشتركة — صورة فعلية للمنتج",
+          "count": "1 / 2",
+          "closed": true
+        },
+        {
+          "main": "assets/products/alibaba-20261023/horizontal-single-stage-fire-pumps/features.webp",
+          "modal": "assets/products/alibaba-20261023/horizontal-single-stage-fire-pumps/features.webp",
+          "open": true,
+          "caption": "رسم توضيحي لخصائص المنتج (بالإنجليزية)",
+          "count": "2 / 2",
+          "closed": true
+        }
+      ]
+    },
+    {
+      "scenario": "grooved-concentric-reducers-en-mobile",
+      "status": "PASS",
+      "file": "products/grooved-pipe-fittings/grooved-concentric-reducers.html",
+      "layout": {
+        "overflow": 0,
+        "broken": [],
+        "lang": "en",
+        "dir": "ltr"
+      },
+      "state": {
+        "title": "Grooved Concentric Reducers",
+        "rows": 1,
+        "thumbs": 2,
+        "supplement": false,
+        "extraPhotos": 0,
+        "alternate": "https://chuanweifire.com/ar/products/grooved-concentric-reducers/"
+      },
+      "gallery": [
+        {
+          "main": "assets/products/alibaba-20261023/grooved-concentric-reducers/hero.webp",
+          "modal": "assets/products/alibaba-20261023/grooved-concentric-reducers/hero.webp",
+          "open": true,
+          "caption": "Red concentric reducer — actual product photograph",
+          "count": "1 / 2",
+          "closed": true
+        },
+        {
+          "main": "assets/products/alibaba-20261023/grooved-concentric-reducers/features.webp",
+          "modal": "assets/products/alibaba-20261023/grooved-concentric-reducers/features.webp",
+          "open": true,
+          "caption": "Product feature illustration (English)",
+          "count": "2 / 2",
+          "closed": true
+        }
+      ]
+    },
+    {
+      "scenario": "threaded-mechanical-tees-en-mobile",
+      "status": "PASS",
+      "file": "products/grooved-pipe-fittings/threaded-mechanical-tees.html",
+      "layout": {
+        "overflow": 0,
+        "broken": [],
+        "lang": "en",
+        "dir": "ltr"
+      },
+      "state": {
+        "title": "Threaded Mechanical Tees",
+        "rows": 1,
+        "thumbs": 2,
+        "supplement": false,
+        "extraPhotos": 0,
+        "alternate": "https://chuanweifire.com/ar/products/threaded-mechanical-tees/"
+      },
+      "gallery": [
+        {
+          "main": "assets/products/alibaba-20261023/threaded-mechanical-tees/hero.webp",
+          "modal": "assets/products/alibaba-20261023/threaded-mechanical-tees/hero.webp",
+          "open": true,
+          "caption": "Threaded mechanical tee — actual product photograph",
+          "count": "1 / 2",
+          "closed": true
+        },
+        {
+          "main": "assets/products/alibaba-20261023/threaded-mechanical-tees/features.webp",
+          "modal": "assets/products/alibaba-20261023/threaded-mechanical-tees/features.webp",
+          "open": true,
+          "caption": "Product feature illustration (English)",
+          "count": "2 / 2",
+          "closed": true
+        }
+      ]
+    },
+    {
+      "scenario": "grooved-equal-tees-en-mobile",
+      "status": "PASS",
+      "file": "products/grooved-pipe-fittings/grooved-equal-tees.html",
+      "layout": {
+        "overflow": 0,
+        "broken": [],
+        "lang": "en",
+        "dir": "ltr"
+      },
+      "state": {
+        "title": "Grooved Equal Tees",
+        "rows": 1,
+        "thumbs": 2,
+        "supplement": false,
+        "extraPhotos": 0,
+        "alternate": "https://chuanweifire.com/ar/products/grooved-equal-tees/"
+      },
+      "gallery": [
+        {
+          "main": "assets/products/alibaba-20261023/grooved-equal-tees/hero.webp",
+          "modal": "assets/products/alibaba-20261023/grooved-equal-tees/hero.webp",
+          "open": true,
+          "caption": "Grooved equal tee — actual product photograph",
+          "count": "1 / 2",
+          "closed": true
+        },
+        {
+          "main": "assets/products/alibaba-20261023/grooved-equal-tees/features.webp",
+          "modal": "assets/products/alibaba-20261023/grooved-equal-tees/features.webp",
+          "open": true,
+          "caption": "Product feature illustration (English)",
+          "count": "2 / 2",
+          "closed": true
+        }
+      ]
+    },
+    {
+      "scenario": "grooved-flange-adapters-en-mobile",
+      "status": "PASS",
+      "file": "products/grooved-pipe-fittings/grooved-flange-adapters.html",
+      "layout": {
+        "overflow": 0,
+        "broken": [],
+        "lang": "en",
+        "dir": "ltr"
+      },
+      "state": {
+        "title": "Grooved Flange Adapters",
+        "rows": 1,
+        "thumbs": 2,
+        "supplement": false,
+        "extraPhotos": 0,
+        "alternate": "https://chuanweifire.com/ar/products/grooved-flange-adapters/"
+      },
+      "gallery": [
+        {
+          "main": "assets/products/alibaba-20261023/grooved-flange-adapters/hero.webp",
+          "modal": "assets/products/alibaba-20261023/grooved-flange-adapters/hero.webp",
+          "open": true,
+          "caption": "Grooved flange adapter range — actual product photograph",
+          "count": "1 / 2",
+          "closed": true
+        },
+        {
+          "main": "assets/products/alibaba-20261023/grooved-flange-adapters/features.webp",
+          "modal": "assets/products/alibaba-20261023/grooved-flange-adapters/features.webp",
+          "open": true,
+          "caption": "Product feature illustration (English)",
+          "count": "2 / 2",
+          "closed": true
+        }
+      ]
+    },
+    {
+      "scenario": "horizontal-single-stage-fire-pumps-en-mobile",
+      "status": "PASS",
+      "file": "products/fire-pumps-controllers/horizontal-single-stage-fire-pumps.html",
+      "layout": {
+        "overflow": 0,
+        "broken": [],
+        "lang": "en",
+        "dir": "ltr"
+      },
+      "state": {
+        "title": "Horizontal Single-Stage Fire Pumps",
+        "rows": 1,
+        "thumbs": 2,
+        "supplement": false,
+        "extraPhotos": 0,
+        "alternate": "https://chuanweifire.com/ar/products/horizontal-single-stage-fire-pumps/"
+      },
+      "gallery": [
+        {
+          "main": "assets/products/alibaba-20261023/horizontal-single-stage-fire-pumps/hero.webp",
+          "modal": "assets/products/alibaba-20261023/horizontal-single-stage-fire-pumps/hero.webp",
+          "open": true,
+          "caption": "Horizontal pump and motor on a common baseplate — actual product photograph",
+          "count": "1 / 2",
+          "closed": true
+        },
+        {
+          "main": "assets/products/alibaba-20261023/horizontal-single-stage-fire-pumps/features.webp",
+          "modal": "assets/products/alibaba-20261023/horizontal-single-stage-fire-pumps/features.webp",
+          "open": true,
+          "caption": "Product feature illustration (English)",
+          "count": "2 / 2",
+          "closed": true
+        }
+      ]
+    },
+    {
+      "scenario": "grooved-concentric-reducers-ar-mobile",
+      "status": "PASS",
+      "file": "ar/products/grooved-concentric-reducers/index.html",
+      "layout": {
+        "overflow": 0,
+        "broken": [],
+        "lang": "ar",
+        "dir": "rtl"
+      },
+      "state": {
+        "title": "مخفضات متحدة المركز ذات أخاديد",
+        "rows": 1,
+        "thumbs": 2,
+        "supplement": false,
+        "extraPhotos": 0,
+        "alternate": "https://chuanweifire.com/products/grooved-pipe-fittings/grooved-concentric-reducers.html"
+      },
+      "gallery": [
+        {
+          "main": "assets/products/alibaba-20261023/grooved-concentric-reducers/hero.webp",
+          "modal": "assets/products/alibaba-20261023/grooved-concentric-reducers/hero.webp",
+          "open": true,
+          "caption": "مخفض أحمر متحد المركز — صورة فعلية للمنتج",
+          "count": "1 / 2",
+          "closed": true
+        },
+        {
+          "main": "assets/products/alibaba-20261023/grooved-concentric-reducers/features.webp",
+          "modal": "assets/products/alibaba-20261023/grooved-concentric-reducers/features.webp",
+          "open": true,
+          "caption": "رسم توضيحي لخصائص المنتج (بالإنجليزية)",
+          "count": "2 / 2",
+          "closed": true
+        }
+      ]
+    },
+    {
+      "scenario": "threaded-mechanical-tees-ar-mobile",
+      "status": "PASS",
+      "file": "ar/products/threaded-mechanical-tees/index.html",
+      "layout": {
+        "overflow": 0,
+        "broken": [],
+        "lang": "ar",
+        "dir": "rtl"
+      },
+      "state": {
+        "title": "وصلات T ميكانيكية بمخرج ملولب",
+        "rows": 1,
+        "thumbs": 2,
+        "supplement": false,
+        "extraPhotos": 0,
+        "alternate": "https://chuanweifire.com/products/grooved-pipe-fittings/threaded-mechanical-tees.html"
+      },
+      "gallery": [
+        {
+          "main": "assets/products/alibaba-20261023/threaded-mechanical-tees/hero.webp",
+          "modal": "assets/products/alibaba-20261023/threaded-mechanical-tees/hero.webp",
+          "open": true,
+          "caption": "وصلة T ميكانيكية ملولبة — صورة فعلية للمنتج",
+          "count": "1 / 2",
+          "closed": true
+        },
+        {
+          "main": "assets/products/alibaba-20261023/threaded-mechanical-tees/features.webp",
+          "modal": "assets/products/alibaba-20261023/threaded-mechanical-tees/features.webp",
+          "open": true,
+          "caption": "رسم توضيحي لخصائص المنتج (بالإنجليزية)",
+          "count": "2 / 2",
+          "closed": true
+        }
+      ]
+    },
+    {
+      "scenario": "grooved-equal-tees-ar-mobile",
+      "status": "PASS",
+      "file": "ar/products/grooved-equal-tees/index.html",
+      "layout": {
+        "overflow": 0,
+        "broken": [],
+        "lang": "ar",
+        "dir": "rtl"
+      },
+      "state": {
+        "title": "وصلات T متساوية ذات أخاديد",
+        "rows": 1,
+        "thumbs": 2,
+        "supplement": false,
+        "extraPhotos": 0,
+        "alternate": "https://chuanweifire.com/products/grooved-pipe-fittings/grooved-equal-tees.html"
+      },
+      "gallery": [
+        {
+          "main": "assets/products/alibaba-20261023/grooved-equal-tees/hero.webp",
+          "modal": "assets/products/alibaba-20261023/grooved-equal-tees/hero.webp",
+          "open": true,
+          "caption": "وصلة T متساوية محززة — صورة فعلية للمنتج",
+          "count": "1 / 2",
+          "closed": true
+        },
+        {
+          "main": "assets/products/alibaba-20261023/grooved-equal-tees/features.webp",
+          "modal": "assets/products/alibaba-20261023/grooved-equal-tees/features.webp",
+          "open": true,
+          "caption": "رسم توضيحي لخصائص المنتج (بالإنجليزية)",
+          "count": "2 / 2",
+          "closed": true
+        }
+      ]
+    },
+    {
+      "scenario": "grooved-flange-adapters-ar-mobile",
+      "status": "PASS",
+      "file": "ar/products/grooved-flange-adapters/index.html",
+      "layout": {
+        "overflow": 0,
+        "broken": [],
+        "lang": "ar",
+        "dir": "rtl"
+      },
+      "state": {
+        "title": "محولات فلنجية ذات أخاديد",
+        "rows": 1,
+        "thumbs": 2,
+        "supplement": false,
+        "extraPhotos": 0,
+        "alternate": "https://chuanweifire.com/products/grooved-pipe-fittings/grooved-flange-adapters.html"
+      },
+      "gallery": [
+        {
+          "main": "assets/products/alibaba-20261023/grooved-flange-adapters/hero.webp",
+          "modal": "assets/products/alibaba-20261023/grooved-flange-adapters/hero.webp",
+          "open": true,
+          "caption": "مجموعة محولات فلنجية محززة — صورة فعلية للمنتج",
+          "count": "1 / 2",
+          "closed": true
+        },
+        {
+          "main": "assets/products/alibaba-20261023/grooved-flange-adapters/features.webp",
+          "modal": "assets/products/alibaba-20261023/grooved-flange-adapters/features.webp",
+          "open": true,
+          "caption": "رسم توضيحي لخصائص المنتج (بالإنجليزية)",
+          "count": "2 / 2",
+          "closed": true
+        }
+      ]
+    },
+    {
+      "scenario": "horizontal-single-stage-fire-pumps-ar-mobile",
+      "status": "PASS",
+      "file": "ar/products/horizontal-single-stage-fire-pumps/index.html",
+      "layout": {
+        "overflow": 0,
+        "broken": [],
+        "lang": "ar",
+        "dir": "rtl"
+      },
+      "state": {
+        "title": "مضخات حريق أفقية أحادية المرحلة",
+        "rows": 1,
+        "thumbs": 2,
+        "supplement": false,
+        "extraPhotos": 0,
+        "alternate": "https://chuanweifire.com/products/fire-pumps-controllers/horizontal-single-stage-fire-pumps.html"
+      },
+      "gallery": [
+        {
+          "main": "assets/products/alibaba-20261023/horizontal-single-stage-fire-pumps/hero.webp",
+          "modal": "assets/products/alibaba-20261023/horizontal-single-stage-fire-pumps/hero.webp",
+          "open": true,
+          "caption": "مضخة أفقية ومحرك على قاعدة مشتركة — صورة فعلية للمنتج",
+          "count": "1 / 2",
+          "closed": true
+        },
+        {
+          "main": "assets/products/alibaba-20261023/horizontal-single-stage-fire-pumps/features.webp",
+          "modal": "assets/products/alibaba-20261023/horizontal-single-stage-fire-pumps/features.webp",
+          "open": true,
+          "caption": "رسم توضيحي لخصائص المنتج (بالإنجليزية)",
+          "count": "2 / 2",
+          "closed": true
+        }
+      ]
+    }
+  ],
+  "listingChecks": [
+    {
+      "scenario": "directory-en-desktop",
+      "status": "PASS",
+      "searches": [
+        {
+          "id": "grooved-concentric-reducers",
+          "matchingResults": 1,
+          "title": "Grooved Concentric Reducers",
+          "href": "http://127.0.0.1:58946/products/grooved-pipe-fittings/grooved-concentric-reducers.html"
+        },
+        {
+          "id": "threaded-mechanical-tees",
+          "matchingResults": 1,
+          "title": "Threaded Mechanical Tees",
+          "href": "http://127.0.0.1:58946/products/grooved-pipe-fittings/threaded-mechanical-tees.html"
+        },
+        {
+          "id": "grooved-equal-tees",
+          "matchingResults": 1,
+          "title": "Grooved Equal Tees",
+          "href": "http://127.0.0.1:58946/products/grooved-pipe-fittings/grooved-equal-tees.html"
+        },
+        {
+          "id": "grooved-flange-adapters",
+          "matchingResults": 1,
+          "title": "Grooved Flange Adapters",
+          "href": "http://127.0.0.1:58946/products/grooved-pipe-fittings/grooved-flange-adapters.html"
+        },
+        {
+          "id": "horizontal-single-stage-fire-pumps",
+          "matchingResults": 1,
+          "title": "Horizontal Single-Stage Fire Pumps",
+          "href": "http://127.0.0.1:58946/products/fire-pumps-controllers/horizontal-single-stage-fire-pumps.html"
+        }
+      ]
+    },
+    {
+      "scenario": "category-grooved-pipe-fittings-en-desktop",
+      "status": "PASS",
+      "searches": []
+    },
+    {
+      "scenario": "category-fire-pumps-controllers-en-desktop",
+      "status": "PASS",
+      "searches": []
+    },
+    {
+      "scenario": "directory-ar-desktop",
+      "status": "PASS",
+      "searches": [
+        {
+          "id": "grooved-concentric-reducers",
+          "matchingResults": 1,
+          "title": "مخفضات متحدة المركز ذات أخاديد",
+          "href": "http://127.0.0.1:58946/ar/products/grooved-concentric-reducers/index.html"
+        },
+        {
+          "id": "threaded-mechanical-tees",
+          "matchingResults": 1,
+          "title": "وصلات T ميكانيكية بمخرج ملولب",
+          "href": "http://127.0.0.1:58946/ar/products/threaded-mechanical-tees/index.html"
+        },
+        {
+          "id": "grooved-equal-tees",
+          "matchingResults": 2,
+          "title": "وصلات T متساوية ذات أخاديد",
+          "href": "http://127.0.0.1:58946/ar/products/grooved-equal-tees/index.html"
+        },
+        {
+          "id": "grooved-flange-adapters",
+          "matchingResults": 1,
+          "title": "محولات فلنجية ذات أخاديد",
+          "href": "http://127.0.0.1:58946/ar/products/grooved-flange-adapters/index.html"
+        },
+        {
+          "id": "horizontal-single-stage-fire-pumps",
+          "matchingResults": 1,
+          "title": "مضخات حريق أفقية أحادية المرحلة",
+          "href": "http://127.0.0.1:58946/ar/products/horizontal-single-stage-fire-pumps/index.html"
+        }
+      ]
+    },
+    {
+      "scenario": "category-grooved-pipe-fittings-ar-desktop",
+      "status": "PASS",
+      "searches": []
+    },
+    {
+      "scenario": "category-fire-pumps-controllers-ar-desktop",
+      "status": "PASS",
+      "searches": []
+    },
+    {
+      "scenario": "directory-en-mobile",
+      "status": "PASS",
+      "searches": [
+        {
+          "id": "grooved-concentric-reducers",
+          "matchingResults": 1,
+          "title": "Grooved Concentric Reducers",
+          "href": "http://127.0.0.1:58946/products/grooved-pipe-fittings/grooved-concentric-reducers.html"
+        },
+        {
+          "id": "threaded-mechanical-tees",
+          "matchingResults": 1,
+          "title": "Threaded Mechanical Tees",
+          "href": "http://127.0.0.1:58946/products/grooved-pipe-fittings/threaded-mechanical-tees.html"
+        },
+        {
+          "id": "grooved-equal-tees",
+          "matchingResults": 1,
+          "title": "Grooved Equal Tees",
+          "href": "http://127.0.0.1:58946/products/grooved-pipe-fittings/grooved-equal-tees.html"
+        },
+        {
+          "id": "grooved-flange-adapters",
+          "matchingResults": 1,
+          "title": "Grooved Flange Adapters",
+          "href": "http://127.0.0.1:58946/products/grooved-pipe-fittings/grooved-flange-adapters.html"
+        },
+        {
+          "id": "horizontal-single-stage-fire-pumps",
+          "matchingResults": 1,
+          "title": "Horizontal Single-Stage Fire Pumps",
+          "href": "http://127.0.0.1:58946/products/fire-pumps-controllers/horizontal-single-stage-fire-pumps.html"
+        }
+      ]
+    },
+    {
+      "scenario": "category-grooved-pipe-fittings-en-mobile",
+      "status": "PASS",
+      "searches": []
+    },
+    {
+      "scenario": "category-fire-pumps-controllers-en-mobile",
+      "status": "PASS",
+      "searches": []
+    },
+    {
+      "scenario": "directory-ar-mobile",
+      "status": "PASS",
+      "searches": [
+        {
+          "id": "grooved-concentric-reducers",
+          "matchingResults": 1,
+          "title": "مخفضات متحدة المركز ذات أخاديد",
+          "href": "http://127.0.0.1:58946/ar/products/grooved-concentric-reducers/index.html"
+        },
+        {
+          "id": "threaded-mechanical-tees",
+          "matchingResults": 1,
+          "title": "وصلات T ميكانيكية بمخرج ملولب",
+          "href": "http://127.0.0.1:58946/ar/products/threaded-mechanical-tees/index.html"
+        },
+        {
+          "id": "grooved-equal-tees",
+          "matchingResults": 2,
+          "title": "وصلات T متساوية ذات أخاديد",
+          "href": "http://127.0.0.1:58946/ar/products/grooved-equal-tees/index.html"
+        },
+        {
+          "id": "grooved-flange-adapters",
+          "matchingResults": 1,
+          "title": "محولات فلنجية ذات أخاديد",
+          "href": "http://127.0.0.1:58946/ar/products/grooved-flange-adapters/index.html"
+        },
+        {
+          "id": "horizontal-single-stage-fire-pumps",
+          "matchingResults": 1,
+          "title": "مضخات حريق أفقية أحادية المرحلة",
+          "href": "http://127.0.0.1:58946/ar/products/horizontal-single-stage-fire-pumps/index.html"
+        }
+      ]
+    },
+    {
+      "scenario": "category-grooved-pipe-fittings-ar-mobile",
+      "status": "PASS",
+      "searches": []
+    },
+    {
+      "scenario": "category-fire-pumps-controllers-ar-mobile",
+      "status": "PASS",
+      "searches": []
+    }
+  ],
+  "screenshots": [
+    "grooved-concentric-reducers-en-desktop-gallery.png",
+    "grooved-concentric-reducers-en-desktop-models.png",
+    "threaded-mechanical-tees-en-desktop-gallery.png",
+    "threaded-mechanical-tees-en-desktop-models.png",
+    "grooved-equal-tees-en-desktop-gallery.png",
+    "grooved-equal-tees-en-desktop-models.png",
+    "grooved-flange-adapters-en-desktop-gallery.png",
+    "grooved-flange-adapters-en-desktop-models.png",
+    "horizontal-single-stage-fire-pumps-en-desktop-gallery.png",
+    "horizontal-single-stage-fire-pumps-en-desktop-models.png",
+    "grooved-concentric-reducers-ar-desktop-gallery.png",
+    "grooved-concentric-reducers-ar-desktop-models.png",
+    "threaded-mechanical-tees-ar-desktop-gallery.png",
+    "threaded-mechanical-tees-ar-desktop-models.png",
+    "grooved-equal-tees-ar-desktop-gallery.png",
+    "grooved-equal-tees-ar-desktop-models.png",
+    "grooved-flange-adapters-ar-desktop-gallery.png",
+    "grooved-flange-adapters-ar-desktop-models.png",
+    "horizontal-single-stage-fire-pumps-ar-desktop-gallery.png",
+    "horizontal-single-stage-fire-pumps-ar-desktop-models.png",
+    "grooved-concentric-reducers-en-mobile-gallery.png",
+    "grooved-concentric-reducers-en-mobile-models.png",
+    "threaded-mechanical-tees-en-mobile-gallery.png",
+    "threaded-mechanical-tees-en-mobile-models.png",
+    "grooved-equal-tees-en-mobile-gallery.png",
+    "grooved-equal-tees-en-mobile-models.png",
+    "grooved-flange-adapters-en-mobile-gallery.png",
+    "grooved-flange-adapters-en-mobile-models.png",
+    "horizontal-single-stage-fire-pumps-en-mobile-gallery.png",
+    "horizontal-single-stage-fire-pumps-en-mobile-models.png",
+    "grooved-concentric-reducers-ar-mobile-gallery.png",
+    "grooved-concentric-reducers-ar-mobile-models.png",
+    "threaded-mechanical-tees-ar-mobile-gallery.png",
+    "threaded-mechanical-tees-ar-mobile-models.png",
+    "grooved-equal-tees-ar-mobile-gallery.png",
+    "grooved-equal-tees-ar-mobile-models.png",
+    "grooved-flange-adapters-ar-mobile-gallery.png",
+    "grooved-flange-adapters-ar-mobile-models.png",
+    "horizontal-single-stage-fire-pumps-ar-mobile-gallery.png",
+    "horizontal-single-stage-fire-pumps-ar-mobile-models.png"
+  ]
+}

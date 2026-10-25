@@ -1,5 +1,11 @@
 [
   {
+    "source": "products/消防喷头/standard-response-sprinkler/standard-response-three-styles.jpg",
+    "output": "assets/catalog-thumbnails/ab41c5d1d04187950e24afb1-480.webp",
+    "sourceBytes": 195499,
+    "thumbnailBytes": 16804
+  },
+  {
     "source": "assets/products/guanya-2026/standard-response-fire-sprinkler-dsc_5869-1600.webp",
     "output": "assets/catalog-thumbnails/6040baa2a61ad776ecb3105b-480.webp",
     "sourceBytes": 81376,
@@ -18,18 +24,6 @@
     "thumbnailBytes": 14488
   },
   {
-    "source": "assets/products/guanya-2026/fusible-alloy-fire-sprinklers-dsc_5823-1600.webp",
-    "output": "assets/catalog-thumbnails/1e43801e3e5cee83d86411b6-480.webp",
-    "sourceBytes": 94178,
-    "thumbnailBytes": 20288
-  },
-  {
-    "source": "assets/products/guanya-2026/fusible-alloy-fire-sprinklers-dsc_5822-1600.webp",
-    "output": "assets/catalog-thumbnails/e4466d2da0a848208ec0babd-480.webp",
-    "sourceBytes": 91216,
-    "thumbnailBytes": 19836
-  },
-  {
     "source": "assets/products/guanya-2026/glass-bulb-fire-sprinkler-dsc_5839-1600.webp",
     "output": "assets/catalog-thumbnails/c997fd36ed5b659f2c9bc3a9-480.webp",
     "sourceBytes": 79568,
@@ -40,6 +34,12 @@
     "output": "assets/catalog-thumbnails/fcb346028dfe08202120de59-480.webp",
     "sourceBytes": 90344,
     "thumbnailBytes": 18576
+  },
+  {
+    "source": "assets/products/guanya-2026/glass-bulb-fire-sprinkler-dsc_5841-1600.webp",
+    "output": "assets/catalog-thumbnails/2849ca8c3fc5325e1e7f3b2a-480.webp",
+    "sourceBytes": 90898,
+    "thumbnailBytes": 15492
   },
   {
     "source": "assets/products/guanya-2026/extended-coverage-quick-response-fire-sprinkler-dsc_5887-1600.webp",
@@ -60,40 +60,46 @@
     "thumbnailBytes": 13716
   },
   {
-    "source": "assets/products/concealed-listing-red-label/listing-1600.webp",
-    "output": "assets/catalog-thumbnails/f04a5e62bf719875c901674d-480.webp",
-    "sourceBytes": 93032,
-    "thumbnailBytes": 15840
+    "source": "assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5904-1600.webp",
+    "output": "assets/catalog-thumbnails/ae585181158ec4b85366121a-480.webp",
+    "sourceBytes": 70958,
+    "thumbnailBytes": 19280
   },
   {
-    "source": "products/消防喷头/large-k-esfr-sprinkler/esfr-pendent-series.jpg",
-    "output": "assets/catalog-thumbnails/57dc85632430aa5b5a445923-480.webp",
-    "sourceBytes": 254411,
-    "thumbnailBytes": 19940
+    "source": "assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5905-1600.webp",
+    "output": "assets/catalog-thumbnails/e17b2c34ad8f59c24e92d785-480.webp",
+    "sourceBytes": 67284,
+    "thumbnailBytes": 17192
   },
   {
-    "source": "products/消防喷头/large-k-esfr-sprinkler/esfr-upright-series.jpg",
-    "output": "assets/catalog-thumbnails/fdd5fa5e43fd8a80ea857bb4-480.webp",
-    "sourceBytes": 265086,
-    "thumbnailBytes": 20944
+    "source": "assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5906-1600.webp",
+    "output": "assets/catalog-thumbnails/e248d99d3403499aede73cee-480.webp",
+    "sourceBytes": 68838,
+    "thumbnailBytes": 13996
   },
   {
-    "source": "assets/products/guanya-2026/large-k-factor-esfr-sprinklers-dsc_5814-1600.webp",
-    "output": "assets/catalog-thumbnails/05a5fbee29732989fdda0dda-480.webp",
-    "sourceBytes": 103016,
-    "thumbnailBytes": 22960
+    "source": "assets/products/concealed-series/k80-standard-concealed-covered-and-exposed.webp",
+    "output": "assets/catalog-thumbnails/74a0e50122b8670c3b188051-480.webp",
+    "sourceBytes": 128942,
+    "thumbnailBytes": 26604
   },
   {
-    "source": "assets/products/guanya-2026/large-k-factor-esfr-sprinklers-dsc_5813-1600.webp",
-    "output": "assets/catalog-thumbnails/92153c961cc8c484e727f51e-480.webp",
-    "sourceBytes": 90798,
-    "thumbnailBytes": 16268
+    "source": "assets/products/concealed-series/k80-quick-concealed-covered-and-exposed.webp",
+    "output": "assets/catalog-thumbnails/d1dca2a9588ffd54bf5fa80a-480.webp",
+    "sourceBytes": 123204,
+    "thumbnailBytes": 24706
   },
   {
-    "source": "assets/products/guanya-2026/large-k-factor-esfr-sprinklers-dsc_5816-1600.webp",
-    "output": "assets/catalog-thumbnails/c59bbe2bf769a8b418c3cd20-480.webp",
-    "sourceBytes": 112660,
-    "thumbnailBytes": 22264
+    "source": "assets/products/concealed-series/k115-standard-concealed-covered-and-exposed.webp",
+    "output": "assets/catalog-thumbnails/fdb52efccef2600c64945d79-480.webp",
+    "sourceBytes": 149210,
+    "thumbnailBytes": 28500
+  },
+  {
+    "source": "assets/products/concealed-series/k115-quick-concealed-covered-and-exposed.webp",
+    "output": "assets/catalog-thumbnails/334260eb72c532721a208fc7-480.webp",
+    "sourceBytes": 120130,
+    "thumbnailBytes": 24412
   },
   {
     "source": "products/消防喷头/categories/dry-sprinkler.jpg",
@@ -102,16 +108,70 @@
     "thumbnailBytes": 15812
   },
   {
+    "source": "assets/products/guanya-2026/large-k-factor-esfr-sprinklers-k161-flat-deflector-1600.webp",
+    "output": "assets/catalog-thumbnails/1f6a77ed1f766ef2207f9412-480.webp",
+    "sourceBytes": 102708,
+    "thumbnailBytes": 19834
+  },
+  {
+    "source": "products/消防喷头/categories/extended-coverage-quick-response.jpg",
+    "output": "assets/catalog-thumbnails/35b1dfcb317ab914ba5cc804-480.webp",
+    "sourceBytes": 223000,
+    "thumbnailBytes": 23794
+  },
+  {
+    "source": "products/消防喷头/extended-coverage-quick-response-sprinkler/temporary-reference-pendent.jpg",
+    "output": "assets/catalog-thumbnails/5e43b0511ea0a4517844c745-480.webp",
+    "sourceBytes": 204508,
+    "thumbnailBytes": 23694
+  },
+  {
+    "source": "products/消防喷头/extended-coverage-quick-response-sprinkler/temporary-reference-upright.jpg",
+    "output": "assets/catalog-thumbnails/35b1dfcb317ab914ba5cc804-480.webp",
+    "sourceBytes": 223000,
+    "thumbnailBytes": 23794
+  },
+  {
+    "source": "products/消防喷头/extended-coverage-quick-response-sprinkler/temporary-reference-horizontal-sidewall.jpg",
+    "output": "assets/catalog-thumbnails/6ff81d0ebace1113ea2fb468-480.webp",
+    "sourceBytes": 207395,
+    "thumbnailBytes": 16288
+  },
+  {
+    "source": "products/消防喷头/large-k-esfr-sprinkler/esfr-pendent-series.jpg",
+    "output": "assets/catalog-thumbnails/57dc85632430aa5b5a445923-480.webp",
+    "sourceBytes": 254411,
+    "thumbnailBytes": 19940
+  },
+  {
+    "source": "assets/products/guanya-2026/fusible-alloy-fire-sprinklers-dsc_5823-1600.webp",
+    "output": "assets/catalog-thumbnails/1e43801e3e5cee83d86411b6-480.webp",
+    "sourceBytes": 94178,
+    "thumbnailBytes": 20288
+  },
+  {
+    "source": "assets/products/guanya-2026/fusible-alloy-fire-sprinklers-dsc_5822-1600.webp",
+    "output": "assets/catalog-thumbnails/e4466d2da0a848208ec0babd-480.webp",
+    "sourceBytes": 91216,
+    "thumbnailBytes": 19836
+  },
+  {
+    "source": "assets/products/special-sprinklers/closed-rotating-fire-sprinkler-1-1600.webp",
+    "output": "assets/catalog-thumbnails/512609368dca5746e01e4343-480.webp",
+    "sourceBytes": 144026,
+    "thumbnailBytes": 24012
+  },
+  {
+    "source": "assets/products/special-sprinklers/closed-centrifugal-fire-sprinklers-2-1600.webp",
+    "output": "assets/catalog-thumbnails/1a206b47b113d59bc403d682-480.webp",
+    "sourceBytes": 87572,
+    "thumbnailBytes": 13152
+  },
+  {
     "source": "products/消防喷头/water-mist-nozzles/water-mist-nozzle-with-inlet-strainer.jpg",
     "output": "assets/catalog-thumbnails/ec0bcd9a7310441e3b79a308-480.webp",
     "sourceBytes": 142373,
     "thumbnailBytes": 14872
-  },
-  {
-    "source": "assets/products/verified-configurations/zstwb-stainless.jpg",
-    "output": "assets/catalog-thumbnails/e931059a29d1748f779ec3ff-480.webp",
-    "sourceBytes": 84876,
-    "thumbnailBytes": 17240
   },
   {
     "source": "products/消防喷头/water-mist-nozzles/water-mist-nozzle-body.jpg",
@@ -138,28 +198,16 @@
     "thumbnailBytes": 24114
   },
   {
-    "source": "assets/products/special-sprinklers/closed-rotating-fire-sprinkler-1-1600.webp",
-    "output": "assets/catalog-thumbnails/512609368dca5746e01e4343-480.webp",
-    "sourceBytes": 144026,
-    "thumbnailBytes": 24012
-  },
-  {
-    "source": "assets/products/special-sprinklers/closed-centrifugal-fire-sprinklers-2-1600.webp",
-    "output": "assets/catalog-thumbnails/1a206b47b113d59bc403d682-480.webp",
-    "sourceBytes": 87572,
-    "thumbnailBytes": 13152
+    "source": "assets/products/verified-configurations/zstwb-stainless.jpg",
+    "output": "assets/catalog-thumbnails/e931059a29d1748f779ec3ff-480.webp",
+    "sourceBytes": 84876,
+    "thumbnailBytes": 17240
   },
   {
     "source": "products/消防喷头/water-curtain-nozzles/horizontal-single-slot-water-curtain-nozzle.jpg",
     "output": "assets/catalog-thumbnails/c26622cd7283c3efcfd2482c-480.webp",
     "sourceBytes": 112437,
     "thumbnailBytes": 14766
-  },
-  {
-    "source": "assets/products/verified-configurations/zstm-b-304.jpg",
-    "output": "assets/catalog-thumbnails/991dda7c9f1cc6a3f128e940-480.webp",
-    "sourceBytes": 62982,
-    "thumbnailBytes": 14690
   },
   {
     "source": "products/消防喷头/water-curtain-nozzles/horizontal-double-slot-water-curtain-nozzle.jpg",
@@ -174,10 +222,10 @@
     "thumbnailBytes": 17150
   },
   {
-    "source": "assets/products/sprinkler-trim/double-layer-escutcheon-white-1254.webp",
-    "output": "assets/catalog-thumbnails/a6542299f4e8101ffb41f6cc-480.webp",
-    "sourceBytes": 119354,
-    "thumbnailBytes": 21798
+    "source": "assets/products/verified-configurations/zstm-b-304.jpg",
+    "output": "assets/catalog-thumbnails/991dda7c9f1cc6a3f128e940-480.webp",
+    "sourceBytes": 62982,
+    "thumbnailBytes": 14690
   },
   {
     "source": "assets/products/special-sprinklers/tubular-foam-water-nozzles-3-1600.webp",
@@ -204,10 +252,10 @@
     "thumbnailBytes": 21586
   },
   {
-    "source": "assets/products/guanya-2026/diaphragm-deluge-valves-dsc_5728-1600.webp",
-    "output": "assets/catalog-thumbnails/85a2a8e9302e405f9d9a0e68-480.webp",
-    "sourceBytes": 166362,
-    "thumbnailBytes": 27364
+    "source": "assets/products/guanya-2026/diaphragm-deluge-valves-deluge-flanged-user-20261025-1600.webp",
+    "output": "assets/catalog-thumbnails/15359b45653d1c31874aa7e3-480.webp",
+    "sourceBytes": 190430,
+    "thumbnailBytes": 30914
   },
   {
     "source": "products/消防阀/diaphragm-deluge-valves/deluge-valve-grooved.jpg",
@@ -394,6 +442,12 @@
     "output": "assets/catalog-thumbnails/114658eabf9e81f8bb693bb4-480.webp",
     "sourceBytes": 62832,
     "thumbnailBytes": 17276
+  },
+  {
+    "source": "assets/products/website-20261018/product-49b0fe587649.webp",
+    "output": "assets/catalog-thumbnails/fa33dd4828b1ddfb65e8d5db-480.webp",
+    "sourceBytes": 50024,
+    "thumbnailBytes": 15556
   },
   {
     "source": "products/消防水枪/categories/combination-jet-fog-nozzle.jpg",
@@ -772,12 +826,6 @@
     "output": "assets/catalog-thumbnails/13b461a57fab347588a8d614-480.webp",
     "sourceBytes": 101890,
     "thumbnailBytes": 19092
-  },
-  {
-    "source": "assets/products/website-20261018/product-49b0fe587649.webp",
-    "output": "assets/catalog-thumbnails/fa33dd4828b1ddfb65e8d5db-480.webp",
-    "sourceBytes": 50024,
-    "thumbnailBytes": 15556
   },
   {
     "source": "products/室内消防栓/export-slanted-hydrant-valve/export-slanted-front.jpg",
@@ -1296,6 +1344,12 @@
     "thumbnailBytes": 10582
   },
   {
+    "source": "assets/products/alibaba-20261023/horizontal-single-stage-fire-pumps/hero.webp",
+    "output": "assets/catalog-thumbnails/b7c5934007db42cb459eabb4-480.webp",
+    "sourceBytes": 49344,
+    "thumbnailBytes": 20652
+  },
+  {
     "source": "assets/products/website-20261018/product-a5b535d720fe.webp",
     "output": "assets/catalog-thumbnails/6e78d92e96c7c25d8ec9fecb-480.webp",
     "sourceBytes": 92970,
@@ -1344,6 +1398,30 @@
     "thumbnailBytes": 11194
   },
   {
+    "source": "assets/products/alibaba-20261023/grooved-concentric-reducers/hero.webp",
+    "output": "assets/catalog-thumbnails/86b8877358538f25b7727afe-480.webp",
+    "sourceBytes": 20008,
+    "thumbnailBytes": 8516
+  },
+  {
+    "source": "assets/products/alibaba-20261023/threaded-mechanical-tees/hero.webp",
+    "output": "assets/catalog-thumbnails/f2b195c2888ffa09ea859888-480.webp",
+    "sourceBytes": 22032,
+    "thumbnailBytes": 9606
+  },
+  {
+    "source": "assets/products/alibaba-20261023/grooved-equal-tees/hero.webp",
+    "output": "assets/catalog-thumbnails/a04d52ca98445e74a6309598-480.webp",
+    "sourceBytes": 25638,
+    "thumbnailBytes": 10854
+  },
+  {
+    "source": "assets/products/alibaba-20261023/grooved-flange-adapters/hero.webp",
+    "output": "assets/catalog-thumbnails/5077f5e8b71249b7f674482f-480.webp",
+    "sourceBytes": 24142,
+    "thumbnailBytes": 11442
+  },
+  {
     "source": "assets/products/website-20261018/product-96f4cd20b07a.webp",
     "output": "assets/catalog-thumbnails/047a94dff6ce3ff6b13488c9-480.webp",
     "sourceBytes": 46994,
@@ -1360,5 +1438,11 @@
     "output": "assets/catalog-thumbnails/086b144f6ba2702a7f1b7554-480.webp",
     "sourceBytes": 26834,
     "thumbnailBytes": 9094
+  },
+  {
+    "source": "assets/products/sprinkler-trim/double-layer-escutcheon-white-1254.webp",
+    "output": "assets/catalog-thumbnails/a6542299f4e8101ffb41f6cc-480.webp",
+    "sourceBytes": 119354,
+    "thumbnailBytes": 21798
   }
 ]

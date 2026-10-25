@@ -109,51 +109,6 @@
       }
     },
     {
-      "routeId": "product:extended-coverage-quick-response-fire-sprinkler",
-      "mediaKey": "hero",
-      "originalPath": "products/消防喷头/extended-coverage-quick-response-sprinkler/temporary-reference-pendent.jpg",
-      "photoSourceFile": "DSC_5887.jpg",
-      "detailPath": "assets/products/guanya-2026/extended-coverage-quick-response-fire-sprinkler-dsc_5887-1600.webp",
-      "displayPath": "assets/products/guanya-2026/extended-coverage-quick-response-fire-sprinkler-dsc_5887-640.webp",
-      "width": 877,
-      "height": 1223,
-      "matchEvidence": "Visible K-ZST model marking, K115 / 68°C and installation geometry. Additional sample photograph only; equivalence to EC-ZST factory models is not confirmed. Original pixels and derivatives retained.",
-      "caption": {
-        "en": "Pendent K115 / 68°C sample — marked K-ZSTX",
-        "ar": "عينة معلق K115 / 68°C — تحمل علامة K-ZSTX"
-      }
-    },
-    {
-      "routeId": "product:extended-coverage-quick-response-fire-sprinkler",
-      "mediaKey": "image1",
-      "originalPath": "products/消防喷头/extended-coverage-quick-response-sprinkler/temporary-reference-upright.jpg",
-      "photoSourceFile": "DSC_5888.jpg",
-      "detailPath": "assets/products/guanya-2026/extended-coverage-quick-response-fire-sprinkler-dsc_5888-1600.webp",
-      "displayPath": "assets/products/guanya-2026/extended-coverage-quick-response-fire-sprinkler-dsc_5888-640.webp",
-      "width": 860,
-      "height": 1256,
-      "matchEvidence": "Visible K-ZST model marking, K115 / 68°C and installation geometry. Additional sample photograph only; equivalence to EC-ZST factory models is not confirmed. Original pixels and derivatives retained.",
-      "caption": {
-        "en": "Upright K115 / 68°C sample — marked K-ZSTZ",
-        "ar": "عينة قائم K115 / 68°C — تحمل علامة K-ZSTZ"
-      }
-    },
-    {
-      "routeId": "product:extended-coverage-quick-response-fire-sprinkler",
-      "mediaKey": "image2",
-      "originalPath": "products/消防喷头/extended-coverage-quick-response-sprinkler/temporary-reference-horizontal-sidewall.jpg",
-      "photoSourceFile": "DSC_5889.jpg",
-      "detailPath": "assets/products/guanya-2026/extended-coverage-quick-response-fire-sprinkler-dsc_5889-1600.webp",
-      "displayPath": "assets/products/guanya-2026/extended-coverage-quick-response-fire-sprinkler-dsc_5889-640.webp",
-      "width": 979,
-      "height": 1342,
-      "matchEvidence": "Visible K-ZST model marking, K115 / 68°C and installation geometry. Additional sample photograph only; equivalence to EC-ZST factory models is not confirmed. Original pixels and derivatives retained.",
-      "caption": {
-        "en": "Horizontal sidewall K115 / 68°C sample — marked K-ZSTBS",
-        "ar": "عينة جانبي أفقي K115 / 68°C — تحمل علامة K-ZSTBS"
-      }
-    },
-    {
       "routeId": "product:large-k-factor-esfr-sprinklers",
       "mediaKey": "image2",
       "originalPath": "products/消防喷头/large-k-esfr-sprinkler/large-k202-pendent.jpg",
@@ -322,12 +277,12 @@
       "routeId": "product:diaphragm-deluge-valves",
       "mediaKey": "flanged",
       "originalPath": "products/消防阀/diaphragm-deluge-valves/deluge-valve-flanged.jpg",
-      "photoSourceFile": "DSC_5728.jpg",
-      "detailPath": "assets/products/guanya-2026/diaphragm-deluge-valves-dsc_5728-1600.webp",
-      "displayPath": "assets/products/guanya-2026/diaphragm-deluge-valves-dsc_5728-640.webp",
+      "photoSourceFile": "deluge-flanged-user-20261025.jpg",
+      "detailPath": "assets/products/guanya-2026/diaphragm-deluge-valves-deluge-flanged-user-20261025-1600.webp",
+      "displayPath": "assets/products/guanya-2026/diaphragm-deluge-valves-deluge-flanged-user-20261025-640.webp",
       "width": 1600,
-      "height": 1600,
-      "matchEvidence": "Matches an existing website product configuration by visible construction; photograph is not pressure, material-grade or certification evidence.",
+      "height": 1591,
+      "matchEvidence": "User supplied and explicitly identified this photograph as the flanged deluge valve on 2026-10-25; both connection flanges are visible. Photograph is not pressure, material-grade or certification evidence.",
       "caption": {
         "en": "Flanged diaphragm-deluge assembly — sample layout",
         "ar": "مجموعة غمر غشائية فلنجية — ترتيب العينة"
@@ -467,11 +422,33 @@
         "en": "ESFR glass-bulb sprinkler — domed deflector",
         "ar": "رشاش ESFR بعنصر زجاجي — صفيحة توزيع مقببة"
       }
+    },
+    {
+      "routeId": "product:diaphragm-deluge-valves",
+      "mediaKey": "grooved",
+      "originalPath": "products/消防阀/diaphragm-deluge-valves/deluge-valve-grooved.jpg",
+      "photoSourceFile": "DSC_5728.jpg",
+      "detailPath": "assets/products/guanya-2026/diaphragm-deluge-valves-dsc_5728-1600.webp",
+      "displayPath": "assets/products/guanya-2026/diaphragm-deluge-valves-dsc_5728-640.webp",
+      "width": 1600,
+      "height": 1600,
+      "matchEvidence": "Visible grooved inlet and outlet ends; corrected from the flanged slot following the user's photograph correction on 2026-10-25. Photograph is not pressure, material-grade or certification evidence.",
+      "caption": {
+        "en": "Grooved diaphragm-deluge assembly — sample layout",
+        "ar": "مجموعة غمر غشائية ذات وصلات محززة — ترتيب العينة"
+      }
     }
   ],
   "additionalAuthorization": {
     "date": "2026-10-10",
     "verbatim": "这两个detail图片不要重复了，替换成后两张图片可以吗",
     "record": "docs/reviews/esfr-gallery-20261010/photo-records.json"
-  }
+  },
+  "subsequentReviews": [
+    {
+      "date": "2026-10-24",
+      "record": "docs/reviews/k115-quick-ec-separation-20261024/reviewed-changes.json",
+      "change": "Removed three incorrect ordinary-K115 photo overrides from EC; restore original EC-ZST-marked primary images."
+    }
+  ]
 }

@@ -115,7 +115,7 @@ for (const page of pages) {
 
 const arabicCategory = fs.readFileSync(path.join(root, "ar/products.html"), "utf8");
 assert(arabicCategory.includes('href="#valves-strainers"'), "Arabic product index does not link to the combined valves and strainers group.");
-assert(arabicCategory.includes('href="#sprinklers"'), "Arabic product index does not link to the sprinkler category.");
+assert(arabicCategory.includes('href="#sprinklers-nozzles"'), "Arabic product index does not link to the combined sprinkler and foam nozzle group.");
 
 const homePage = fs.readFileSync(path.join(root, "index.html"), "utf8");
 assert(homePage.includes('href="ar/index.html"'), "Homepage Arabic switch must point to an explicit file for local preview.");

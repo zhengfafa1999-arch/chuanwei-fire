@@ -1,0 +1,23 @@
+{
+  "releaseDate": "2026-10-25",
+  "generatedAt": "2026-10-25T11:11:01.851Z",
+  "generatedAtChina": "2026-10-25 19:11:01 Asia/Shanghai",
+  "status": "local-package-user-deploys-not-deployed",
+  "baseline": "18002712ff71c32d43fc1f80df1b1a2c7a88283e",
+  "sprinklerSeries": 17,
+  "inquiryOnlySeries": 0,
+  "allRegisteredPages": 291,
+  "files": 1094,
+  "bytes": 81340006,
+  "added": 159,
+  "changed": 269,
+  "unchangedRequired": 666,
+  "unchangedBaselineDependencies": 0,
+  "localReferencesChecked": 84911,
+  "relatedImageReferencesChecked": 132,
+  "relatedImageDependencies": 29,
+  "archive": "web-spec-enriched-20261025-public-full.zip",
+  "archiveBytes": 66054397,
+  "archiveSha256": "216e1d4ab5fb9df9e4b8afcd0d1b91bf138552c0157e2f07062744ba253ff5b0",
+  "deletes": []
+}

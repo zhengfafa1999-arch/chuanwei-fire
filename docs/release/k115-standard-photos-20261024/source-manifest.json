@@ -1,0 +1,60 @@
+{
+  "date": "2026-10-24",
+  "routeId": "product:k115-standard-response-fire-sprinkler",
+  "sources": [
+    {
+      "sourceFile": "DSC_5895.jpg",
+      "attachmentPath": "C:\\Users\\ZHENGF~1\\AppData\\Local\\Temp\\codex-clipboard-172cd9a2-139f-4bbd-88cd-923280cd8893.jpg",
+      "originalBackup": "docs/release/k115-standard-photos-20261024/source/DSC_5895.jpg",
+      "sha256": "88d6a2c9dbfc1a7c8192bd030d8f153e061ec19610c0a93fc62dafa7cfd70c7b",
+      "temperatureC": 182,
+      "orientation": "sidewall",
+      "factoryMarking": "T-ZSTBS115-182°C Q5A"
+    },
+    {
+      "sourceFile": "DSC_5898.jpg",
+      "attachmentPath": "C:\\Users\\ZHENGF~1\\AppData\\Local\\Temp\\codex-clipboard-9ee2b2a9-b73d-40f9-9bce-8bbaa644a3d8.jpg",
+      "originalBackup": "docs/release/k115-standard-photos-20261024/source/DSC_5898.jpg",
+      "sha256": "9383d81941921cb8acf22b08dc5a032e1d91d6e2bf2a8e5e7cf608a94590c6d5",
+      "temperatureC": 141,
+      "orientation": "sidewall",
+      "factoryMarking": "T-ZSTBS115-141°C Q5A"
+    },
+    {
+      "sourceFile": "DSC_5901.jpg",
+      "attachmentPath": "C:\\Users\\ZHENGF~1\\AppData\\Local\\Temp\\codex-clipboard-3cf94066-4efd-43a8-affc-38cb53b45f39.jpg",
+      "originalBackup": "docs/release/k115-standard-photos-20261024/source/DSC_5901.jpg",
+      "sha256": "9e9b8a9c5f1dea5861251c25a54bdd84d253126d37bb643a3771840aa29acb70",
+      "temperatureC": 57,
+      "orientation": "sidewall",
+      "factoryMarking": "T-ZSTBS115-57°C Q5A"
+    },
+    {
+      "sourceFile": "DSC_5902.jpg",
+      "attachmentPath": "C:\\Users\\ZHENGF~1\\AppData\\Local\\Temp\\codex-clipboard-9ae3d817-9b8f-4606-a3d8-0b772f6dc1ee.jpg",
+      "originalBackup": "docs/release/k115-standard-photos-20261024/source/DSC_5902.jpg",
+      "sha256": "4fb476a6ca48f13051fd80c4ea19259090c44482ba0017c2a5d78dbe8912f739",
+      "temperatureC": 79,
+      "orientation": "upright",
+      "factoryMarking": "T-ZSTZ115-79°C Q5A"
+    },
+    {
+      "sourceFile": "DSC_5909.jpg",
+      "attachmentPath": "C:\\Users\\ZHENGF~1\\AppData\\Local\\Temp\\codex-clipboard-e9ff205c-7704-4294-80bf-aecf53457dea.jpg",
+      "originalBackup": "docs/release/k115-standard-photos-20261024/source/DSC_5909.jpg",
+      "sha256": "4a839cefa064524ea1d5f99ebeef16174afa07bf7d000ae73ea1a2f5fa542f08",
+      "temperatureC": 260,
+      "orientation": "sidewall",
+      "factoryMarking": "T-ZSTBS115-260°C Q5A"
+    },
+    {
+      "sourceFile": "DSC_5910.jpg",
+      "attachmentPath": "C:\\Users\\ZHENGF~1\\AppData\\Local\\Temp\\codex-clipboard-6f970037-314c-4d94-a33a-7d1535bba9bd.jpg",
+      "originalBackup": "docs/release/k115-standard-photos-20261024/source/DSC_5910.jpg",
+      "sha256": "08e14d0a5451ce51513b6150da105469d4fad98e98e76c1042ff2a24eed2da32",
+      "temperatureC": 93,
+      "orientation": "upright",
+      "factoryMarking": "T-ZSTZ115-93°C Q5A"
+    }
+  ]
+}

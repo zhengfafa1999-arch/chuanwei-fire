@@ -1,0 +1,308 @@
+{
+  "template": "product-series/documented-product.njk",
+  "styles": [
+    "css/common.css",
+    "css/sprinkler-product.css",
+    "css/sprinkler-product-gallery.css",
+    "css/documented-product.css",
+    "css/site-navigation.css"
+  ],
+  "shared": {},
+  "modelColumns": [
+    {
+      "label": "configuration",
+      "field": "configuration",
+      "localized": true
+    },
+    {
+      "label": "selectionDetails",
+      "field": "selection",
+      "localized": true
+    }
+  ],
+  "confirmationItems": [
+    {
+      "label": "selection0Label",
+      "body": "selection0Body"
+    },
+    {
+      "label": "selection1Label",
+      "body": "selection1Body"
+    }
+  ],
+  "validation": {
+    "anchors": [
+      "gallery",
+      "specifications",
+      "models",
+      "quotation"
+    ],
+    "requiredTechnicalValues": []
+  },
+  "id": "grooved-flange-adapters",
+  "routeId": "product:grooved-flange-adapters",
+  "source": {
+    "evidence": "User-selected 10.23 saved product page and its approved Alibaba image package.",
+    "review": "docs/release/alibaba-five-products-20261025/source-review.json",
+    "sourceNames": [
+      "D:\\work\\codex\\外部商品连接内容\\10.23\\沟槽管件转换法兰 球墨铸铁消防连接件法兰 结实耐用卡箍转换法兰 - 阿里巴巴.html"
+    ],
+    "unresolved": [
+      "确认法兰孔数、孔距、孔径、钻孔标准及沟槽端口匹配关系",
+      "本店实际可供出口规格与型号对应关系",
+      "球墨铸铁具体牌号，必要时含密封件和紧固件材质",
+      "额定工作压力与目标市场标准或认证的有效证明",
+      "价格、币种、贸易条款、MOQ、库存及交期",
+      "每箱数量、包装方式、净重、毛重及包装尺寸",
+      "如需实物Logo定制，确认工艺、位置、MOQ、稿件格式、样品费及交期"
+    ],
+    "notes": [
+      "Three fitting bodies and pump casing materials checked against exact saved HTML; flange material left on request because title and attribute field differ.",
+      "Do not transfer pressure, thread standard, casting marks or pump performance from unrelated products."
+    ],
+    "materialReview": {
+      "reviewedAt": "2026-10-25",
+      "basis": "原供应商同商品标题明确为球墨铸铁；结构化其它属于未分类，不能当作另一种材质与标题冲突。采用材质名称，不外推牌号、压力等级或认证。",
+      "url": "https://detail.1688.com/offer/1062903625929.html"
+    },
+    "marketReference": {
+      "grade": "C-other-manufacturer-or-series-reference",
+      "reviewDate": "2026-10-25",
+      "url": "https://assets.victaulic.com/assets/uploads/literature/06.06.pdf",
+      "model": "Victaulic Style 741 · 06.06",
+      "location": "06.06, product description and materials",
+      "scope": "Selection reference only; no supplied-SKU specification, certification, compatibility or availability inferred."
+    }
+  },
+  "publication": {
+    "status": "release-candidate",
+    "externalRelease": true,
+    "imageRights": "user-confirmed-website-use",
+    "imageRightsEvidence": "docs/release/alibaba-five-products-20261025/image-rights-confirmation.json"
+  },
+  "media": {
+    "hero": "assets/products/alibaba-20261023/grooved-flange-adapters/hero.webp",
+    "features": "assets/products/alibaba-20261023/grooved-flange-adapters/features.webp"
+  },
+  "imageDimensions": {
+    "hero": {
+      "width": 800,
+      "height": 800
+    },
+    "features": {
+      "width": 750,
+      "height": 1000
+    }
+  },
+  "heroFacts": [
+    "spec0Value",
+    "spec1Value"
+  ],
+  "gallery": [
+    {
+      "media": "hero",
+      "alt": "heroAlt",
+      "caption": "heroCaption",
+      "thumbnailAlt": "heroAlt"
+    },
+    {
+      "media": "features",
+      "alt": "featuresAlt",
+      "caption": "featuresCaption",
+      "thumbnailAlt": "featuresAlt"
+    }
+  ],
+  "specifications": [
+    {
+      "label": "spec0Label",
+      "value": "spec0Value"
+    },
+    {
+      "label": "spec1Label",
+      "value": "spec1Value"
+    },
+    {
+      "label": "spec2Label",
+      "value": "spec2Value"
+    },
+    {
+      "label": "spec3Label",
+      "value": "spec3Value"
+    },
+    {
+      "label": "spec4Label",
+      "value": "spec4Value"
+    },
+    {
+      "label": "spec5Label",
+      "value": "spec5Value"
+    }
+  ],
+  "models": [
+    {
+      "configuration": "model0Name",
+      "selection": "model0Selection"
+    }
+  ],
+  "inquiry": {
+    "whatsapp": "https://wa.me/8617326528368?text=Hello%2C%20I%20am%20interested%20in%20Grooved%20Flange%20Adapters.%0AQuantity%20/%20destination%20/%20requirements%3A",
+    "email": "mailto:zhengcolin1@gmail.com"
+  },
+  "copy": {
+    "en": {
+      "onThisPage": "On this page",
+      "gallery": "Product gallery",
+      "galleryTitle": "Product views",
+      "galleryBody": "View the actual product photograph and the supporting feature illustration.",
+      "specifications": "Specifications",
+      "specificationsTitle": "Product specifications",
+      "specificationsBody": "Use the specifications together with the configuration table below.",
+      "availableModels": "Models & configurations",
+      "modelsTitle": "Models & configurations",
+      "modelsBody": "The pictured configuration is available for quotation. Send the connection and service requirements below.",
+      "modelsNote": "Final dimensions and technical data are supplied for the selected configuration.",
+      "factoryModel": "Product reference",
+      "configuration": "Configuration",
+      "selectionDetails": "Selection details",
+      "temperature": "Temperature",
+      "thermalElement": "Thermal element",
+      "quotation": "Request a quotation",
+      "quotationTitle": "Select your configuration",
+      "quotationBody": "Include the product reference, quantity and delivery destination, together with the requirements below.",
+      "askOnWhatsApp": "Ask on WhatsApp",
+      "emailSales": "Email sales",
+      "productImagePreview": "Product image preview",
+      "closeImagePreview": "Close image preview",
+      "enlargedImage": "Enlarged product image",
+      "previousProductImage": "Previous product image",
+      "nextProductImage": "Next product image",
+      "selectProductImage": "Select product image",
+      "inquiryTitle": "Request product details and a quotation",
+      "inquiryBody": "Send your selected configuration, quantity and destination.",
+      "title": "Grooved Flange Adapters",
+      "lead": "Grooved flange adapters connect a grooved pipe end to a flanged connection. The pictured range has a red surface, a short grooved neck, a central bore, bolt holes and radial reinforcing ribs.",
+      "eyebrow": "Grooved Pipe Fittings",
+      "seoTitle": "Grooved Flange Adapters | CHUANWEI FIRE",
+      "seoDescription": "Grooved flange adapters connect a grooved pipe end to a flanged connection. The pictured range has a red surface, a short grooved neck, a central bore, bolt holes and radial reinforcing ribs.",
+      "note": "Match the actual pipe dimensions and connection drawing when ordering. Size-specific dimensions and pressure data are available on request.",
+      "heroAlt": "Grooved flange adapter range — actual product photograph",
+      "heroCaption": "Grooved flange adapter range — actual product photograph",
+      "featuresAlt": "Grooved Flange Adapters — product feature illustration in English",
+      "featuresCaption": "Product feature illustration (English)",
+      "model0Name": "Grooved-to-flanged adapter",
+      "model0Selection": "Pipe outside diameter, flange drilling standard or drawing, bolt-hole dimensions and quantity.",
+      "selection0Label": "Connection and selection",
+      "selection0Body": "Pipe outside diameter, flange drilling standard or drawing, bolt-hole dimensions and quantity.",
+      "selection1Label": "Service and customization",
+      "selection1Body": "Send the service requirements, required body material, quantity and destination. Customization details are reviewed against your order.",
+      "spec0Label": "Configuration",
+      "spec0Value": "Grooved-to-flanged adapter",
+      "spec1Label": "Connection",
+      "spec1Value": "Grooved neck and flange face",
+      "spec2Label": "Body material",
+      "spec2Value": "Ductile iron",
+      "spec3Label": "Application",
+      "spec3Value": "Fire protection water piping",
+      "spec4Label": "Origin",
+      "spec4Value": "Fujian, China",
+      "spec5Label": "Customization",
+      "spec5Value": "Available",
+      "referenceHeading": "Selection reference",
+      "referenceScope": "The manufacturer example below helps you specify an enquiry. Its values describe the named reference model, not the CHUANWEI product pictured above. Request the offered model’s datasheet for your order.",
+      "referenceSource": "Manufacturer reference",
+      "reference0Title": "Victaulic Style 741 · 06.06",
+      "reference0Note": "Flange drilling and groove compatibility must match both mating components.",
+      "reference0Row0Label": "Reference size range",
+      "reference0Row0Value": "DN50–DN600",
+      "reference0Row1Label": "Housing material grade",
+      "reference0Row1Value": "ASTM A536 65-45-12"
+    },
+    "ar": {
+      "onThisPage": "في هذه الصفحة",
+      "gallery": "صور المنتج",
+      "galleryTitle": "عرض المنتج",
+      "galleryBody": "شاهد الصورة الفعلية للمنتج والرسم التوضيحي للخصائص.",
+      "specifications": "المواصفات",
+      "specificationsTitle": "مواصفات المنتج",
+      "specificationsBody": "استخدم المواصفات مع جدول التكوينات أدناه.",
+      "availableModels": "الموديلات والتكوينات",
+      "modelsTitle": "الموديلات والتكوينات",
+      "modelsBody": "التكوين المصور متاح لطلب عرض سعر. أرسل متطلبات التوصيل والتشغيل أدناه.",
+      "modelsNote": "تُقدم الأبعاد النهائية والبيانات الفنية للتكوين المختار.",
+      "factoryModel": "مرجع المنتج",
+      "configuration": "التكوين",
+      "selectionDetails": "تفاصيل الاختيار",
+      "temperature": "درجة الحرارة",
+      "thermalElement": "العنصر الحراري",
+      "quotation": "طلب عرض سعر",
+      "quotationTitle": "اختر التكوين المطلوب",
+      "quotationBody": "أرسل مرجع المنتج والكمية ووجهة التسليم والمتطلبات أدناه.",
+      "askOnWhatsApp": "استفسر عبر WhatsApp",
+      "emailSales": "راسل قسم المبيعات",
+      "productImagePreview": "معاينة صورة المنتج",
+      "closeImagePreview": "إغلاق معاينة الصورة",
+      "enlargedImage": "صورة مكبرة للمنتج",
+      "previousProductImage": "صورة المنتج السابقة",
+      "nextProductImage": "صورة المنتج التالية",
+      "selectProductImage": "اختر صورة المنتج",
+      "inquiryTitle": "اطلب تفاصيل المنتج وعرض سعر",
+      "inquiryBody": "أرسل التكوين المختار والكمية والوجهة.",
+      "title": "محولات فلنجية ذات أخاديد",
+      "lead": "تربط المحولات الفلنجية نهاية الأنبوب المحززة بوصلة فلنجية. تتميز المجموعة المصورة بسطح أحمر وعنق محزز قصير وفتحة مركزية وثقوب للمسامير وأضلاع تقوية شعاعية.",
+      "eyebrow": "وصلات الأنابيب المحززة",
+      "seoTitle": "محولات فلنجية ذات أخاديد | CHUANWEI FIRE",
+      "seoDescription": "تربط المحولات الفلنجية نهاية الأنبوب المحززة بوصلة فلنجية. تتميز المجموعة المصورة بسطح أحمر وعنق محزز قصير وفتحة مركزية وثقوب للمسامير وأضلاع تقوية شعاعية.",
+      "note": "طابق أبعاد الأنبوب الفعلية ورسم التوصيل عند الطلب. تتوفر الأبعاد وبيانات الضغط الخاصة بكل مقاس عند الطلب.",
+      "heroAlt": "مجموعة محولات فلنجية محززة — صورة فعلية للمنتج",
+      "heroCaption": "مجموعة محولات فلنجية محززة — صورة فعلية للمنتج",
+      "featuresAlt": "محولات فلنجية ذات أخاديد — رسم توضيحي لخصائص المنتج باللغة الإنجليزية",
+      "featuresCaption": "رسم توضيحي لخصائص المنتج (بالإنجليزية)",
+      "model0Name": "محول من أخدود إلى فلنجة",
+      "model0Selection": "القطر الخارجي للأنبوب ومعيار ثقوب الفلنجة أو رسمها وأبعاد ثقوب المسامير والكمية.",
+      "selection0Label": "التوصيل والاختيار",
+      "selection0Body": "القطر الخارجي للأنبوب ومعيار ثقوب الفلنجة أو رسمها وأبعاد ثقوب المسامير والكمية.",
+      "selection1Label": "التشغيل والتخصيص",
+      "selection1Body": "أرسل متطلبات الاستخدام ومادة الجسم المطلوبة والكمية والوجهة. تُراجع تفاصيل التخصيص وفق طلبك.",
+      "spec0Label": "التكوين",
+      "spec0Value": "محول من أخدود إلى فلنجة",
+      "spec1Label": "التوصيل",
+      "spec1Value": "عنق محزز ووجه فلنجي",
+      "spec2Label": "مادة الجسم",
+      "spec2Value": "حديد دكتايل",
+      "spec3Label": "الاستخدام",
+      "spec3Value": "أنابيب مياه مكافحة الحريق",
+      "spec4Label": "المنشأ",
+      "spec4Value": "فوجيان، الصين",
+      "spec5Label": "التخصيص",
+      "spec5Value": "متاح",
+      "referenceHeading": "مرجع الاختيار",
+      "referenceScope": "يساعد المثال التالي من الشركة المصنّعة المذكورة في تحديد متطلبات الاستفسار. القيم تخص الطراز المرجعي المذكور، ولا تمثل مواصفات منتج CHUANWEI المصوّر أعلاه. اطلب ورقة بيانات الطراز المعروض لطلبك.",
+      "referenceSource": "مرجع الشركة المصنّعة",
+      "reference0Title": "Victaulic Style 741 · 06.06",
+      "reference0Note": "يجب أن تتطابق ثقوب الفلنجة والأخدود مع جزأي التوصيل.",
+      "reference0Row0Label": "نطاق المقاسات المرجعي",
+      "reference0Row0Value": "DN50–DN600",
+      "reference0Row1Label": "درجة مادة الجسم",
+      "reference0Row1Value": "ASTM A536 65-45-12"
+    }
+  },
+  "referenceExamples": [
+    {
+      "title": "reference0Title",
+      "rows": [
+        {
+          "label": "reference0Row0Label",
+          "value": "reference0Row0Value",
+          "technical": true
+        },
+        {
+          "label": "reference0Row1Label",
+          "value": "reference0Row1Value",
+          "technical": true
+        }
+      ],
+      "note": "reference0Note",
+      "url": "https://assets.victaulic.com/assets/uploads/literature/06.06.pdf"
+    }
+  ]
+}

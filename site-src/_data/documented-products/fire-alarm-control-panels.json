@@ -23,7 +23,15 @@
       "只发布最高8回路及7英寸屏，不写固定总点数。",
       "包装尺寸字段cm与尺寸图mm冲突；页面未采用包装尺寸。",
       "未把附属SKU另建虚构产品；Tanda实物品牌保留。"
-    ]
+    ],
+    "marketReference": {
+      "grade": "C-other-manufacturer-or-series-reference",
+      "reviewDate": "2026-10-25",
+      "url": "https://www.pottersignal.com/ipa-fire-alarm/fire-control-panels/fire-control-panel-ipa-100",
+      "model": "Potter IPA-100",
+      "location": "Official product page",
+      "scope": "Selection reference only; no supplied-SKU specification, certification, compatibility or availability inferred."
+    }
   },
   "publication": {
     "status": "release-candidate",
@@ -172,7 +180,16 @@
       "selection0Label": "System schedule",
       "selection0Body": "Provide the required loop count, detector and module quantities, and the project device schedule.",
       "selection1Label": "Panel configuration",
-      "selection1Body": "Specify power supply, backup battery, interface and language requirements, and identify the devices to be connected."
+      "selection1Body": "Specify power supply, backup battery, interface and language requirements, and identify the devices to be connected.",
+      "referenceHeading": "Selection reference",
+      "referenceScope": "The manufacturer example below helps you specify an enquiry. Its values describe the named reference model, not the CHUANWEI product pictured above. Request the offered model’s datasheet for your order.",
+      "referenceSource": "Manufacturer reference",
+      "reference0Title": "Potter IPA-100",
+      "reference0Note": "Specify device protocol, loop capacity and the total alarm load; output ratings do not replace the overall power budget.",
+      "reference0Row0Label": "Address capacity",
+      "reference0Row0Value": "127",
+      "reference0Row1Label": "Power supply",
+      "reference0Row1Value": "5 A"
     },
     "ar": {
       "onThisPage": "في هذه الصفحة",
@@ -226,7 +243,35 @@
       "selection0Label": "جدول النظام",
       "selection0Body": "قدم عدد الحلقات المطلوب وكميات الكواشف والوحدات وجدول أجهزة المشروع.",
       "selection1Label": "تجهيز لوحة التحكم",
-      "selection1Body": "حدد متطلبات التغذية والبطارية الاحتياطية والواجهات واللغة، مع تحديد الأجهزة المطلوب توصيلها."
+      "selection1Body": "حدد متطلبات التغذية والبطارية الاحتياطية والواجهات واللغة، مع تحديد الأجهزة المطلوب توصيلها.",
+      "referenceHeading": "مرجع الاختيار",
+      "referenceScope": "يساعد المثال التالي من الشركة المصنّعة المذكورة في تحديد متطلبات الاستفسار. القيم تخص الطراز المرجعي المذكور، ولا تمثل مواصفات منتج CHUANWEI المصوّر أعلاه. اطلب ورقة بيانات الطراز المعروض لطلبك.",
+      "referenceSource": "مرجع الشركة المصنّعة",
+      "reference0Title": "Potter IPA-100",
+      "reference0Note": "حدد بروتوكول الأجهزة وسعة الحلقة وإجمالي حمل الإنذار؛ لا تحل تصنيفات المخارج محل حساب القدرة الإجمالية.",
+      "reference0Row0Label": "سعة العناوين",
+      "reference0Row0Value": "127",
+      "reference0Row1Label": "مصدر التغذية",
+      "reference0Row1Value": "5 A"
     }
-  }
+  },
+  "referenceExamples": [
+    {
+      "title": "reference0Title",
+      "rows": [
+        {
+          "label": "reference0Row0Label",
+          "value": "reference0Row0Value",
+          "technical": true
+        },
+        {
+          "label": "reference0Row1Label",
+          "value": "reference0Row1Value",
+          "technical": true
+        }
+      ],
+      "note": "reference0Note",
+      "url": "https://www.pottersignal.com/ipa-fire-alarm/fire-control-panels/fire-control-panel-ipa-100"
+    }
+  ]
 }

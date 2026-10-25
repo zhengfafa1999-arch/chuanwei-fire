@@ -1,0 +1,96 @@
+{
+  "date": "2026-10-24",
+  "routeId": "product:k80-quick-response-concealed-sprinkler",
+  "galleryOrder": [
+    "DSC_5954.jpg",
+    "DSC_5953.jpg",
+    "DSC_5950.jpg",
+    "DSC_5949.jpg",
+    "DSC_5942.jpg",
+    "DSC_5941.jpg",
+    "DSC_5938.jpg",
+    "DSC_5937.jpg"
+  ],
+  "sources": [
+    {
+      "sourceFile": "DSC_5954.jpg",
+      "inventoriedFile": "DSC_5954.jpg",
+      "originalBackup": "docs/release/k80-quick-concealed-temperatures-20261024/source/DSC_5954.jpg",
+      "attachmentPath": "C:\\Users\\ZHENGF~1\\AppData\\Local\\Temp\\codex-clipboard-a4d7ad7b-9ad2-4040-8791-80b39610080d.jpg",
+      "sha256": "c251eddd6f632ee057337323d13e4e2e928846f5ab3fc73cf83664f22aba9188",
+      "temperatureC": 57,
+      "role": "covered",
+      "alsoShownInMainGallery": false
+    },
+    {
+      "sourceFile": "DSC_5953.jpg",
+      "inventoriedFile": "DSC_5953.jpg",
+      "originalBackup": "docs/release/k80-quick-concealed-temperatures-20261024/source/DSC_5953.jpg",
+      "attachmentPath": "C:\\Users\\ZHENGF~1\\AppData\\Local\\Temp\\codex-clipboard-a9413812-5289-41fc-b705-be7e24c3aa28.jpg",
+      "sha256": "4a9d92b57c2c3fe7c6b6aba5fbc8cd0ee3d4449e080099e660d2fdd3795b4a9c",
+      "temperatureC": 57,
+      "role": "exposed",
+      "alsoShownInMainGallery": false
+    },
+    {
+      "sourceFile": "DSC_5950.jpg",
+      "inventoriedFile": "DSC_5950.jpg",
+      "originalBackup": "docs/release/k80-quick-concealed-temperatures-20261024/source/DSC_5950.jpg",
+      "attachmentPath": "C:\\Users\\ZHENGF~1\\AppData\\Local\\Temp\\codex-clipboard-86ff345c-7ebd-41c8-a604-415885800907.jpg",
+      "sha256": "307788895b9d22bb1f6d285507fdd0bc16472b4e1ce002689d39ce55244d32e8",
+      "temperatureC": 68,
+      "role": "covered",
+      "alsoShownInMainGallery": true
+    },
+    {
+      "sourceFile": "DSC_5949.jpg",
+      "inventoriedFile": "DSC_5949.jpg",
+      "originalBackup": "docs/release/k80-quick-concealed-temperatures-20261024/source/DSC_5949.jpg",
+      "attachmentPath": "C:\\Users\\ZHENGF~1\\AppData\\Local\\Temp\\codex-clipboard-42f71920-0168-49c1-ae84-bd01c0a99588.jpg",
+      "sha256": "21014ca1cb50ea1576f698bf473c67a4146f0daf93fbf61258c70b5b979cd6a2",
+      "temperatureC": 68,
+      "role": "exposed",
+      "alsoShownInMainGallery": true
+    },
+    {
+      "sourceFile": "DSC_5942.jpg",
+      "inventoriedFile": "DSC_5942.jpg",
+      "originalBackup": "docs/release/k80-quick-concealed-temperatures-20261024/source/DSC_5942.jpg",
+      "attachmentPath": "C:\\Users\\ZHENGF~1\\AppData\\Local\\Temp\\codex-clipboard-97589d76-0215-417e-bfae-3ddbf5e8f242.jpg",
+      "sha256": "c1309c34d95d54ab1c8a7d8f0e8359001fea118bddd564543f3786e34fc09f5d",
+      "temperatureC": 93,
+      "role": "covered",
+      "alsoShownInMainGallery": false
+    },
+    {
+      "sourceFile": "DSC_5941.jpg",
+      "inventoriedFile": "DSC_5941.jpg",
+      "originalBackup": "docs/release/k80-quick-concealed-temperatures-20261024/source/DSC_5941.jpg",
+      "attachmentPath": "C:\\Users\\ZHENGF~1\\AppData\\Local\\Temp\\codex-clipboard-5976ad3d-5134-4452-8cf8-bdb0439b8ce2.jpg",
+      "sha256": "1518c7c8ad0a8346ccfab6146a73c9ff7d5f429ae6c758d6f3c6ed0348c18780",
+      "temperatureC": 93,
+      "role": "exposed",
+      "alsoShownInMainGallery": false
+    },
+    {
+      "sourceFile": "DSC_5938.jpg",
+      "inventoriedFile": "DSC_5938.jpg",
+      "originalBackup": "docs/release/k80-quick-concealed-temperatures-20261024/source/DSC_5938.jpg",
+      "attachmentPath": "C:\\Users\\ZHENGF~1\\AppData\\Local\\Temp\\codex-clipboard-5aff6f35-2f4f-4371-86f1-09a226fa3529.jpg",
+      "sha256": "60cd48bf4af8dc55f23b7a2cc68bd0378bff8fac977763d9ebb898bf97d1a31d",
+      "temperatureC": 141,
+      "role": "covered",
+      "alsoShownInMainGallery": false
+    },
+    {
+      "sourceFile": "DSC_5937.jpg",
+      "inventoriedFile": "DSC_5937.jpg",
+      "originalBackup": "docs/release/k80-quick-concealed-temperatures-20261024/source/DSC_5937.jpg",
+      "attachmentPath": "C:\\Users\\ZHENGF~1\\AppData\\Local\\Temp\\codex-clipboard-8c805a7e-175c-4cf4-bcfa-c204dc3ec44c.jpg",
+      "sha256": "00a637e1f4db6d2405b66ca63a77002336b76f2148c667076ed3f99aeb818259",
+      "temperatureC": 141,
+      "role": "exposed",
+      "alsoShownInMainGallery": false
+    }
+  ]
+}

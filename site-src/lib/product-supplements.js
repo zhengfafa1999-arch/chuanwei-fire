@@ -1,4 +1,5 @@
 import { versionedProductImage } from './public-asset-versions.js';
+import { concealedSeries } from './concealed-series.js';
 // Exact-configuration facts selected from the archived manufacturer confirmations.
 // Source paths stay internal. A series supplement never changes another variant.
 const pair = (en, ar) => ({ en, ar });
@@ -128,7 +129,7 @@ export const supplementCatalog = {
   'kd-hose-couplings': ['50', '65'].map((size, i) => config(`kd${size}`, pair(`Snap-type coupling — KD${size}`, `وصلة تعشيق — KD${size}`),
     pair('Match both the hose size and the coupling profile. Overall size below is outside diameter × height.', 'طابق مقاس الخرطوم وشكل الوصلة معاً. المقاس الكلي أدناه هو القطر الخارجي × الارتفاع.'),
     'KD50-KD65-内扣式消防接口', [row('model', `KD${size}`), row('size', `DN${size}`), row('material', 'Aluminum alloy body; NBR seal', 'جسم من سبيكة ألومنيوم؛ ختم NBR'), row('pressure', '1.6 MPa / 16 bar'), row('dimensions', ['Ø98 × 77.5 mm', 'Ø111 × 82.5 mm'][i]), row('finish', 'Gray coating', 'طلاء رمادي')], mating,
-    i === 1 ? { path: 'assets/products/verified-configurations/kd65.jpg', caption: pair('KD65 source sample. A separate KD50 photograph is not shown.', 'عينة أصلية KD65. لا تعرض هنا صورة مستقلة لـ KD50.') } : null)),
+    i === 1 ? { path: 'assets/products/verified-configurations/kd65.jpg', caption: pair('KD65 hose coupling — product photograph.', 'وصلة خرطوم KD65 — صورة المنتج.') } : null)),
   'catalog-fire-hose-couplings-page-20': [
     config('bs-instantaneous', pair('Brass instantaneous coupling — 2½ in', 'وصلة فورية من النحاس الأصفر — 2½ in'),
       pair('Hose-tail diameter is a separate selection field from nominal coupling size and hose inside diameter.', 'قطر ذيل الخرطوم حقل اختيار منفصل عن المقاس الاسمي للوصلة والقطر الداخلي للخرطوم.'),
@@ -176,9 +177,22 @@ const isolate = (value, lang) => lang === 'ar'
   ? value.replace(/[A-Za-z0-9≥≤½¾Ø√][A-Za-z0-9 \t.:/(),≥≤–·+%°½¾Ø√×-]*[A-Za-z0-9%½¾)]|[A-Za-z0-9½¾]/g, run => `\u2066${run}\u2069`)
   : value;
 
+// Reuse exact-model evidence without moving or broadening the legacy records.
+// Each independent concealed page receives only its K-factor/response subset.
+export function supplementConfigurations(routeId) {
+  if (routeId === 'product:esfr-sprinklers') return supplementCatalog['large-k-factor-esfr-sprinklers'];
+  const group = concealedSeries.find(item => item.routeId === routeId);
+  if (!group) return supplementCatalog[routeId.replace('product:', '')] || [];
+  return group.supplementIds.map(id => {
+    const configuration = supplementCatalog['concealed-pendent-fire-sprinkler'].find(item => item.id === id);
+    if (!configuration) throw new Error(`${routeId}: missing configuration ${id}`);
+    return configuration;
+  });
+}
+
 export function productSupplement(routeId, lang, assetPrefix) {
-  const configs = supplementCatalog[routeId.replace('product:', '')];
-  if (!configs) return null;
+  const configs = supplementConfigurations(routeId);
+  if (!configs.length) return null;
   return {
     title: local(pair('Configuration details', 'تفاصيل التكوينات'), lang),
     lead: local(pair('Compare the specifications for each named configuration below. Values apply only to the configuration shown.', 'قارن مواصفات كل تكوين مسمى أدناه. تنطبق القيم على التكوين الموضح فقط.'), lang),
@@ -194,7 +208,7 @@ export function productSupplement(routeId, lang, assetPrefix) {
 }
 
 export function productSupplementSearchTerms(routeId) {
-  return (supplementCatalog[routeId.replace('product:', '')] || []).flatMap(item => [
+  return supplementConfigurations(routeId).flatMap(item => [
     item.title.en, item.title.ar, ...item.rows.flatMap(row => typeof row.value === 'string' ? [row.value] : Object.values(row.value))
   ]).join(' ');
 }
@@ -202,7 +216,7 @@ export function productSupplementSearchTerms(routeId) {
 export function relatedSupplementConfigurations(routeId) {
   const id = routeId.replace('product:', '');
   if (sharedViewSupplementIds.has(id)) return [];
-  const configs = supplementCatalog[id] || [];
+  const configs = supplementConfigurations(routeId);
   return configs.map(item => {
     // The archived photos explicitly represent these same-material series.
     const group = item.id.startsWith('ss-') ? 'ss-' : item.id.startsWith('ss304-') ? 'ss304-' : null;

@@ -1,0 +1,321 @@
+{
+  "template": "product-series/documented-product.njk",
+  "styles": [
+    "css/common.css",
+    "css/sprinkler-product.css",
+    "css/sprinkler-product-gallery.css",
+    "css/documented-product.css",
+    "css/site-navigation.css"
+  ],
+  "shared": {},
+  "modelColumns": [
+    {
+      "label": "configuration",
+      "field": "configuration",
+      "localized": true
+    },
+    {
+      "label": "selectionDetails",
+      "field": "selection",
+      "localized": true
+    }
+  ],
+  "confirmationItems": [
+    {
+      "label": "selection0Label",
+      "body": "selection0Body"
+    },
+    {
+      "label": "selection1Label",
+      "body": "selection1Body"
+    }
+  ],
+  "validation": {
+    "anchors": [
+      "gallery",
+      "specifications",
+      "models",
+      "quotation"
+    ],
+    "requiredTechnicalValues": []
+  },
+  "id": "grooved-equal-tees",
+  "routeId": "product:grooved-equal-tees",
+  "source": {
+    "evidence": "User-selected 10.23 saved product page and its approved Alibaba image package.",
+    "review": "docs/release/alibaba-five-products-20261025/source-review.json",
+    "sourceNames": [
+      "D:\\work\\codex\\外部商品连接内容\\10.23\\沟槽管件正三通现货 国标消防管件正三通 消防工程连接管件批发 - 阿里巴巴.html"
+    ],
+    "unresolved": [
+      "确认相同DN下不同外径系列的实际供货关系",
+      "可见XGQT03及159-2.5/3铸字不能直接作为型号、压力或认证证明",
+      "本店实际可供出口规格与型号对应关系",
+      "主体材质及牌号，必要时含密封件和紧固件材质",
+      "额定工作压力与目标市场标准或认证的有效证明",
+      "价格、币种、贸易条款、MOQ、库存及交期",
+      "每箱数量、包装方式、净重、毛重及包装尺寸",
+      "如需实物Logo定制，确认工艺、位置、MOQ、稿件格式、样品费及交期"
+    ],
+    "notes": [
+      "Three fitting bodies and pump casing materials checked against exact saved HTML; flange material left on request because title and attribute field differ.",
+      "Do not transfer pressure, thread standard, casting marks or pump performance from unrelated products."
+    ],
+    "marketReference": {
+      "grade": "C-other-manufacturer-or-series-reference",
+      "reviewDate": "2026-10-25",
+      "url": "https://assets.victaulic.com/assets/uploads/literature/07.01.pdf",
+      "model": "Victaulic grooved fittings · 07.01",
+      "location": "07.01, pages 1–2",
+      "scope": "Selection reference only; no supplied-SKU specification, certification, compatibility or availability inferred."
+    },
+    "localArchiveRecheck": {
+      "reviewDate": "2026-10-25",
+      "path": "D:\\work\\codex\\外部商品连接内容\\10.23\\沟槽管件正三通现货 国标消防管件正三通 消防工程连接管件批发 - 阿里巴巴.html",
+      "sha256": "1241c51780a187c5407f69bd286684e0c676a31af38995ecd5465637833906b2",
+      "location": "Visible product attributes and model/variant table",
+      "adopted": "采用保存页面10种DN/实际外径组合；同DN不同外径分别保留，不将其认作互换接口。",
+      "scope": "User-selected saved listing; no certification, price, stock or package-weight claims adopted."
+    }
+  },
+  "publication": {
+    "status": "release-candidate",
+    "externalRelease": true,
+    "imageRights": "user-confirmed-website-use",
+    "imageRightsEvidence": "docs/release/alibaba-five-products-20261025/image-rights-confirmation.json"
+  },
+  "media": {
+    "hero": "assets/products/alibaba-20261023/grooved-equal-tees/hero.webp",
+    "features": "assets/products/alibaba-20261023/grooved-equal-tees/features.webp"
+  },
+  "imageDimensions": {
+    "hero": {
+      "width": 800,
+      "height": 800
+    },
+    "features": {
+      "width": 750,
+      "height": 1000
+    }
+  },
+  "heroFacts": [
+    "spec0Value",
+    "spec1Value"
+  ],
+  "gallery": [
+    {
+      "media": "hero",
+      "alt": "heroAlt",
+      "caption": "heroCaption",
+      "thumbnailAlt": "heroAlt"
+    },
+    {
+      "media": "features",
+      "alt": "featuresAlt",
+      "caption": "featuresCaption",
+      "thumbnailAlt": "featuresAlt"
+    }
+  ],
+  "specifications": [
+    {
+      "label": "spec0Label",
+      "value": "spec0Value"
+    },
+    {
+      "label": "spec1Label",
+      "value": "spec1Value"
+    },
+    {
+      "label": "spec2Label",
+      "value": "spec2Value"
+    },
+    {
+      "label": "spec3Label",
+      "value": "spec3Value"
+    },
+    {
+      "label": "spec4Label",
+      "value": "spec4Value"
+    },
+    {
+      "label": "spec5Label",
+      "value": "spec5Value"
+    },
+    {
+      "label": "archiveSizeOptionsLabel",
+      "value": "archiveSizeOptionsValue",
+      "technical": true
+    }
+  ],
+  "models": [
+    {
+      "configuration": "model0Name",
+      "selection": "model0Selection"
+    }
+  ],
+  "inquiry": {
+    "whatsapp": "https://wa.me/8617326528368?text=Hello%2C%20I%20am%20interested%20in%20Grooved%20Equal%20Tees.%0AQuantity%20/%20destination%20/%20requirements%3A",
+    "email": "mailto:zhengcolin1@gmail.com"
+  },
+  "copy": {
+    "en": {
+      "onThisPage": "On this page",
+      "gallery": "Product gallery",
+      "galleryTitle": "Product views",
+      "galleryBody": "View the actual product photograph and the supporting feature illustration.",
+      "specifications": "Specifications",
+      "specificationsTitle": "Product specifications",
+      "specificationsBody": "Use the specifications together with the configuration table below.",
+      "availableModels": "Models & configurations",
+      "modelsTitle": "Models & configurations",
+      "modelsBody": "The pictured configuration is available for quotation. Send the connection and service requirements below.",
+      "modelsNote": "Final dimensions and technical data are supplied for the selected configuration.",
+      "factoryModel": "Product reference",
+      "configuration": "Configuration",
+      "selectionDetails": "Selection details",
+      "temperature": "Temperature",
+      "thermalElement": "Thermal element",
+      "quotation": "Request a quotation",
+      "quotationTitle": "Select your configuration",
+      "quotationBody": "Include the product reference, quantity and delivery destination, together with the requirements below.",
+      "askOnWhatsApp": "Ask on WhatsApp",
+      "emailSales": "Email sales",
+      "productImagePreview": "Product image preview",
+      "closeImagePreview": "Close image preview",
+      "enlargedImage": "Enlarged product image",
+      "previousProductImage": "Previous product image",
+      "nextProductImage": "Next product image",
+      "selectProductImage": "Select product image",
+      "inquiryTitle": "Request product details and a quotation",
+      "inquiryBody": "Send your selected configuration, quantity and destination.",
+      "title": "Grooved Equal Tees",
+      "lead": "Grooved equal tees form a branch connection using three grooved ports of the same nominal size. The red ductile iron body is shown with its end grooves and original casting marks.",
+      "eyebrow": "Grooved Pipe Fittings",
+      "seoTitle": "Grooved Equal Tees | CHUANWEI FIRE",
+      "seoDescription": "Grooved equal tees form a branch connection using three grooved ports of the same nominal size. The red ductile iron body is shown with its end grooves and original casting marks.",
+      "note": "Match the actual pipe dimensions and connection drawing when ordering. Size-specific dimensions and pressure data are available on request.",
+      "heroAlt": "Grooved equal tee — actual product photograph",
+      "heroCaption": "Grooved equal tee — actual product photograph",
+      "featuresAlt": "Grooved Equal Tees — product feature illustration in English",
+      "featuresCaption": "Product feature illustration (English)",
+      "model0Name": "Equal branch tee",
+      "model0Selection": "Nominal size, actual pipe outside diameter, groove profile and quantity.",
+      "selection0Label": "Connection and selection",
+      "selection0Body": "Nominal size, actual pipe outside diameter, groove profile and quantity.",
+      "selection1Label": "Service and customization",
+      "selection1Body": "Send the service requirements, quantity and destination. Customization is available; details are reviewed against your order.",
+      "spec0Label": "Configuration",
+      "spec0Value": "Equal branch tee",
+      "spec1Label": "Connection",
+      "spec1Value": "Three grooved ends",
+      "spec2Label": "Body material",
+      "spec2Value": "Ductile iron",
+      "spec3Label": "Application",
+      "spec3Value": "Fire protection water piping",
+      "spec4Label": "Origin",
+      "spec4Value": "Fujian, China",
+      "spec5Label": "Customization",
+      "spec5Value": "Available",
+      "referenceHeading": "Selection reference",
+      "referenceScope": "The manufacturer example below helps you specify an enquiry. Its values describe the named reference model, not the CHUANWEI product pictured above. Request the offered model’s datasheet for your order.",
+      "referenceSource": "Manufacturer reference",
+      "reference0Title": "Victaulic grooved fittings · 07.01",
+      "reference0Note": "Match the pipe outside diameter and groove profile; the assembly pressure rating also depends on the coupling and pipe.",
+      "reference0Row0Label": "Ductile iron grade",
+      "reference0Row0Value": "ASTM A536 65-45-12",
+      "reference0Row1Label": "Groove system",
+      "reference0Row1Value": "OGS",
+      "archiveSizeOptionsLabel": "Nominal size / pipe outside diameter options",
+      "archiveSizeOptionsValue": "DN50 / 60 mm; DN65 / 76 mm; DN80 / 89 mm; DN100 / 108 mm; DN100 / 114 mm; DN125 / 133 mm; DN125 / 140 mm; DN150 / 159 mm; DN150 / 165 mm; DN200 / 219 mm"
+    },
+    "ar": {
+      "onThisPage": "في هذه الصفحة",
+      "gallery": "صور المنتج",
+      "galleryTitle": "عرض المنتج",
+      "galleryBody": "شاهد الصورة الفعلية للمنتج والرسم التوضيحي للخصائص.",
+      "specifications": "المواصفات",
+      "specificationsTitle": "مواصفات المنتج",
+      "specificationsBody": "استخدم المواصفات مع جدول التكوينات أدناه.",
+      "availableModels": "الموديلات والتكوينات",
+      "modelsTitle": "الموديلات والتكوينات",
+      "modelsBody": "التكوين المصور متاح لطلب عرض سعر. أرسل متطلبات التوصيل والتشغيل أدناه.",
+      "modelsNote": "تُقدم الأبعاد النهائية والبيانات الفنية للتكوين المختار.",
+      "factoryModel": "مرجع المنتج",
+      "configuration": "التكوين",
+      "selectionDetails": "تفاصيل الاختيار",
+      "temperature": "درجة الحرارة",
+      "thermalElement": "العنصر الحراري",
+      "quotation": "طلب عرض سعر",
+      "quotationTitle": "اختر التكوين المطلوب",
+      "quotationBody": "أرسل مرجع المنتج والكمية ووجهة التسليم والمتطلبات أدناه.",
+      "askOnWhatsApp": "استفسر عبر WhatsApp",
+      "emailSales": "راسل قسم المبيعات",
+      "productImagePreview": "معاينة صورة المنتج",
+      "closeImagePreview": "إغلاق معاينة الصورة",
+      "enlargedImage": "صورة مكبرة للمنتج",
+      "previousProductImage": "صورة المنتج السابقة",
+      "nextProductImage": "صورة المنتج التالية",
+      "selectProductImage": "اختر صورة المنتج",
+      "inquiryTitle": "اطلب تفاصيل المنتج وعرض سعر",
+      "inquiryBody": "أرسل التكوين المختار والكمية والوجهة.",
+      "title": "وصلات T متساوية ذات أخاديد",
+      "lead": "تشكل وصلات T المتساوية فرعًا باستخدام ثلاثة منافذ محززة بالمقاس الاسمي نفسه. تظهر الصور الجسم الأحمر من حديد الدكتايل مع أخاديد الأطراف وعلامات الصب الأصلية.",
+      "eyebrow": "وصلات الأنابيب المحززة",
+      "seoTitle": "وصلات T متساوية ذات أخاديد | CHUANWEI FIRE",
+      "seoDescription": "تشكل وصلات T المتساوية فرعًا باستخدام ثلاثة منافذ محززة بالمقاس الاسمي نفسه. تظهر الصور الجسم الأحمر من حديد الدكتايل مع أخاديد الأطراف وعلامات الصب الأصلية.",
+      "note": "طابق أبعاد الأنبوب الفعلية ورسم التوصيل عند الطلب. تتوفر الأبعاد وبيانات الضغط الخاصة بكل مقاس عند الطلب.",
+      "heroAlt": "وصلة T متساوية محززة — صورة فعلية للمنتج",
+      "heroCaption": "وصلة T متساوية محززة — صورة فعلية للمنتج",
+      "featuresAlt": "وصلات T متساوية ذات أخاديد — رسم توضيحي لخصائص المنتج باللغة الإنجليزية",
+      "featuresCaption": "رسم توضيحي لخصائص المنتج (بالإنجليزية)",
+      "model0Name": "وصلة T بفرع مساوٍ",
+      "model0Selection": "المقاس الاسمي والقطر الخارجي الفعلي للأنبوب وشكل الأخدود والكمية.",
+      "selection0Label": "التوصيل والاختيار",
+      "selection0Body": "المقاس الاسمي والقطر الخارجي الفعلي للأنبوب وشكل الأخدود والكمية.",
+      "selection1Label": "التشغيل والتخصيص",
+      "selection1Body": "أرسل متطلبات التشغيل والكمية والوجهة. التخصيص متاح وتُراجع تفاصيله وفق طلبك.",
+      "spec0Label": "التكوين",
+      "spec0Value": "وصلة T بفرع مساوٍ",
+      "spec1Label": "التوصيل",
+      "spec1Value": "ثلاث نهايات محززة",
+      "spec2Label": "مادة الجسم",
+      "spec2Value": "حديد دكتايل",
+      "spec3Label": "الاستخدام",
+      "spec3Value": "أنابيب مياه مكافحة الحريق",
+      "spec4Label": "المنشأ",
+      "spec4Value": "فوجيان، الصين",
+      "spec5Label": "التخصيص",
+      "spec5Value": "متاح",
+      "referenceHeading": "مرجع الاختيار",
+      "referenceScope": "يساعد المثال التالي من الشركة المصنّعة المذكورة في تحديد متطلبات الاستفسار. القيم تخص الطراز المرجعي المذكور، ولا تمثل مواصفات منتج CHUANWEI المصوّر أعلاه. اطلب ورقة بيانات الطراز المعروض لطلبك.",
+      "referenceSource": "مرجع الشركة المصنّعة",
+      "reference0Title": "Victaulic grooved fittings · 07.01",
+      "reference0Note": "طابق القطر الخارجي للأنبوب وشكل الأخدود؛ يعتمد ضغط مجموعة التوصيل أيضاً على الوصلة والأنبوب.",
+      "reference0Row0Label": "درجة الحديد الدكتايل",
+      "reference0Row0Value": "ASTM A536 65-45-12",
+      "reference0Row1Label": "نظام الأخدود",
+      "reference0Row1Value": "OGS",
+      "archiveSizeOptionsLabel": "خيارات المقاس الاسمي / القطر الخارجي للأنبوب",
+      "archiveSizeOptionsValue": "DN50 / 60 mm; DN65 / 76 mm; DN80 / 89 mm; DN100 / 108 mm; DN100 / 114 mm; DN125 / 133 mm; DN125 / 140 mm; DN150 / 159 mm; DN150 / 165 mm; DN200 / 219 mm"
+    }
+  },
+  "referenceExamples": [
+    {
+      "title": "reference0Title",
+      "rows": [
+        {
+          "label": "reference0Row0Label",
+          "value": "reference0Row0Value",
+          "technical": true
+        },
+        {
+          "label": "reference0Row1Label",
+          "value": "reference0Row1Value",
+          "technical": true
+        }
+      ],
+      "note": "reference0Note",
+      "url": "https://assets.victaulic.com/assets/uploads/literature/07.01.pdf"
+    }
+  ]
+}

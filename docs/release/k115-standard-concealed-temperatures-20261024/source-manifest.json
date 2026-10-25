@@ -1,0 +1,96 @@
+{
+  "date": "2026-10-24",
+  "routeId": "product:k115-standard-response-concealed-sprinkler",
+  "galleryOrder": [
+    "concealed-k115-57c-covered.jpg",
+    "concealed-k115-57c-exposed.jpg",
+    "DSC_5921.jpg",
+    "DSC_5920.jpg",
+    "DSC_5915.jpg",
+    "DSC_5914.jpg",
+    "DSC_5913.jpg",
+    "DSC_5912.jpg"
+  ],
+  "sources": [
+    {
+      "sourceFile": "concealed-k115-57c-covered.jpg",
+      "inventoriedFile": "DSC_5932.jpg",
+      "originalBackup": "docs/release/k115-standard-concealed-temperatures-20261024/source/DSC_5932.jpg",
+      "attachmentPath": "C:\\Users\\ZHENGF~1\\AppData\\Local\\Temp\\codex-clipboard-e529edd4-039b-475a-bdae-20d4ebca061f.jpg",
+      "sha256": "fe999ccfbfd90e3be877b912e0980eea3441c15e944a54b04b4e226c3c7ea614",
+      "temperatureC": 57,
+      "role": "covered",
+      "reusedExistingRecord": true
+    },
+    {
+      "sourceFile": "concealed-k115-57c-exposed.jpg",
+      "inventoriedFile": "DSC_5931.jpg",
+      "originalBackup": "docs/release/k115-standard-concealed-temperatures-20261024/source/DSC_5931.jpg",
+      "attachmentPath": "C:\\Users\\ZHENGF~1\\AppData\\Local\\Temp\\codex-clipboard-b4596174-e4f7-4370-8f81-7f69592e4be8.jpg",
+      "sha256": "2a01994d537c053af9eedf804016875269861d573b9d15705e625fab899f70ed",
+      "temperatureC": 57,
+      "role": "exposed",
+      "reusedExistingRecord": true
+    },
+    {
+      "sourceFile": "DSC_5921.jpg",
+      "inventoriedFile": "DSC_5921.jpg",
+      "originalBackup": "docs/release/k115-standard-concealed-temperatures-20261024/source/DSC_5921.jpg",
+      "attachmentPath": "C:\\Users\\ZHENGF~1\\AppData\\Local\\Temp\\codex-clipboard-25c6e129-276e-47ed-9659-abe049a93c27.jpg",
+      "sha256": "a3e4ac40683885fb6991f862631dd90e20a3d35e87e030b4d81844279e1540ca",
+      "temperatureC": 79,
+      "role": "covered",
+      "reusedExistingRecord": false
+    },
+    {
+      "sourceFile": "DSC_5920.jpg",
+      "inventoriedFile": "DSC_5920.jpg",
+      "originalBackup": "docs/release/k115-standard-concealed-temperatures-20261024/source/DSC_5920.jpg",
+      "attachmentPath": "C:\\Users\\ZHENGF~1\\AppData\\Local\\Temp\\codex-clipboard-3c0565cf-c2ce-4842-a1ca-18c4294d493b.jpg",
+      "sha256": "3b402e0a4a0f8b04cc9122d2f5bdf380ab0026968fd63f8a4fffa9547ee4742d",
+      "temperatureC": 79,
+      "role": "exposed",
+      "reusedExistingRecord": false
+    },
+    {
+      "sourceFile": "DSC_5915.jpg",
+      "inventoriedFile": "DSC_5915.jpg",
+      "originalBackup": "docs/release/k115-standard-concealed-temperatures-20261024/source/DSC_5915.jpg",
+      "attachmentPath": "C:\\Users\\ZHENGF~1\\AppData\\Local\\Temp\\codex-clipboard-e31e08a9-ed06-4ff0-b650-f89d36291f98.jpg",
+      "sha256": "aad0a8626a4352efaf3401feacb5ea437f4d3bad792fff9dd82d9614bacf658e",
+      "temperatureC": 93,
+      "role": "covered",
+      "reusedExistingRecord": false
+    },
+    {
+      "sourceFile": "DSC_5914.jpg",
+      "inventoriedFile": "DSC_5914.jpg",
+      "originalBackup": "docs/release/k115-standard-concealed-temperatures-20261024/source/DSC_5914.jpg",
+      "attachmentPath": "C:\\Users\\ZHENGF~1\\AppData\\Local\\Temp\\codex-clipboard-586522af-0eed-44e0-95e0-b8a3305958e5.jpg",
+      "sha256": "e9b981085c6f2bcb5393ee05aa7fa54d6886ded016c5dff69345fc3ddc695f64",
+      "temperatureC": 93,
+      "role": "exposed",
+      "reusedExistingRecord": false
+    },
+    {
+      "sourceFile": "DSC_5913.jpg",
+      "inventoriedFile": "DSC_5913.jpg",
+      "originalBackup": "docs/release/k115-standard-concealed-temperatures-20261024/source/DSC_5913.jpg",
+      "attachmentPath": "C:\\Users\\ZHENGF~1\\AppData\\Local\\Temp\\codex-clipboard-06c1bee2-e76c-4455-9993-8e11b9d7a146.jpg",
+      "sha256": "6dc0f6756a6097131a25caf06e1c03f72d8e9f4adead63a3fd8c409e482943b2",
+      "temperatureC": 141,
+      "role": "covered",
+      "reusedExistingRecord": false
+    },
+    {
+      "sourceFile": "DSC_5912.jpg",
+      "inventoriedFile": "DSC_5912.jpg",
+      "originalBackup": "docs/release/k115-standard-concealed-temperatures-20261024/source/DSC_5912.jpg",
+      "attachmentPath": "C:\\Users\\ZHENGF~1\\AppData\\Local\\Temp\\codex-clipboard-c34c6130-5d4c-4017-8806-2435c39556cf.jpg",
+      "sha256": "00c0850ab9f59c73320c6a18f47c4d5d3be4c3aad5e277a8a82039b08592150c",
+      "temperatureC": 141,
+      "role": "exposed",
+      "reusedExistingRecord": false
+    }
+  ]
+}

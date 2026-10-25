@@ -1605,7 +1605,7 @@
     "height": 937,
     "bytes": 261484,
     "sha256": "92c8027a0c33d7498f4bd025871c975da09ebcbe2a3e6c9f4328b9a11ceef0d9",
-    "decision": "reserve: similar angle, temperature/size variant or unidentified special nozzle; not added automatically"
+    "decision": "selected: user supplied this photograph and requested addition to the existing product page on 2026-10-25"
   },
   {
     "file": "DSC_5794.jpg",
@@ -1733,7 +1733,7 @@
     "height": 1460,
     "bytes": 616425,
     "sha256": "e4a1cfec8b9d230b860284bb5eafd2d25714134b0280da27469274937f58437a",
-    "decision": "reserve: similar angle, temperature/size variant or unidentified special nozzle; not added automatically"
+    "decision": "existing website primary image: EC-ZST model marking and source provenance rechecked on 2026-10-24; outside the supplemental photo selection"
   },
   {
     "file": "DSC_5813.jpg",
@@ -1765,7 +1765,7 @@
     "height": 1291,
     "bytes": 485545,
     "sha256": "872e04103a14b1f451bfa8500927d8ed5c2585cc88fef50588244cfea7051dea",
-    "decision": "reserve: similar angle, temperature/size variant or unidentified special nozzle; not added automatically"
+    "decision": "existing website primary image: EC-ZST model marking and source provenance rechecked on 2026-10-24; outside the supplemental photo selection"
   },
   {
     "file": "DSC_5818.jpg",
@@ -1789,7 +1789,7 @@
     "height": 1527,
     "bytes": 503168,
     "sha256": "82732646fde05eb125cdcfb8b3cc9ba91a0905001e7cf5691ff3b9a17bd03441",
-    "decision": "reserve: similar angle, temperature/size variant or unidentified special nozzle; not added automatically"
+    "decision": "existing website primary image: EC-ZST model marking and source provenance rechecked on 2026-10-24; outside the supplemental photo selection"
   },
   {
     "file": "DSC_5821.jpg",
@@ -1885,7 +1885,7 @@
     "height": 1291,
     "bytes": 445018,
     "sha256": "0aa8604af89581b8f02ec4e24c547f2e15042a6b1f1dc7b6a267d7c7887e57b7",
-    "decision": "reserve: similar angle, temperature/size variant or unidentified special nozzle; not added automatically"
+    "decision": "selected: user supplied this photograph and requested addition to the existing product page on 2026-10-24"
   },
   {
     "file": "DSC_5837.jpg",
@@ -1949,7 +1949,7 @@
     "height": 1561,
     "bytes": 471863,
     "sha256": "833296348fafe307ef2f1d173a8e1498b464c93db0f3fc146bd5b08b04907145",
-    "decision": "reserve: similar angle, temperature/size variant or unidentified special nozzle; not added automatically"
+    "decision": "selected: user supplied this photograph and requested addition to the existing product page on 2026-10-24"
   },
   {
     "file": "DSC_5845.jpg",
@@ -1957,7 +1957,7 @@
     "height": 1240,
     "bytes": 421629,
     "sha256": "fa1e7a6e8e562e53555b543d394fddd4780e2922735d6d3191c2dcb13787bab2",
-    "decision": "reserve: similar angle, temperature/size variant or unidentified special nozzle; not added automatically"
+    "decision": "selected: user supplied this photograph and requested addition to the existing product page on 2026-10-24"
   },
   {
     "file": "DSC_5846.jpg",
@@ -1981,7 +1981,7 @@
     "height": 1223,
     "bytes": 411285,
     "sha256": "8c5cb4ca2b8aac3854529b7ffea0e98459960cc74cda7de62ad6a86f284d6ac1",
-    "decision": "reserve: similar angle, temperature/size variant or unidentified special nozzle; not added automatically"
+    "decision": "selected: user supplied this photograph and requested addition to the existing product page on 2026-10-24"
   },
   {
     "file": "DSC_5849.jpg",
@@ -2005,7 +2005,7 @@
     "height": 1223,
     "bytes": 410629,
     "sha256": "b0d715019f0b06edf66c8a3d2b15351a3ffabdbd0b16a502b8515a8d6b320ddc",
-    "decision": "reserve: similar angle, temperature/size variant or unidentified special nozzle; not added automatically"
+    "decision": "selected: user supplied this photograph and requested addition to the existing product page on 2026-10-24"
   },
   {
     "file": "DSC_5852.jpg",
@@ -2029,7 +2029,7 @@
     "height": 1256,
     "bytes": 420689,
     "sha256": "594970a4a5907641e899771b62a8bc0778903914f8d34a417c3afc2d4c89f64d",
-    "decision": "reserve: similar angle, temperature/size variant or unidentified special nozzle; not added automatically"
+    "decision": "selected: user supplied this photograph and requested addition to the existing product page on 2026-10-24"
   },
   {
     "file": "DSC_5856.jpg",
@@ -2165,7 +2165,7 @@
     "height": 1493,
     "bytes": 455747,
     "sha256": "a64ba636f8fc74d6bd0db8aa7cdf6bea1ae463c078e7c1027bfea35d96cf153a",
-    "decision": "reserve: similar angle, temperature/size variant or unidentified special nozzle; not added automatically"
+    "decision": "selected: user supplied this photograph and requested addition to the existing product page on 2026-10-24"
   },
   {
     "file": "DSC_5875.jpg",
@@ -2189,7 +2189,7 @@
     "height": 1425,
     "bytes": 399137,
     "sha256": "cdc64ffb6899e2ceb36bd9f42cf535e9459ea54b4f51d789bea90483a92c2f2a",
-    "decision": "reserve: similar angle, temperature/size variant or unidentified special nozzle; not added automatically"
+    "decision": "selected: user supplied this photograph and requested addition to the existing product page on 2026-10-24"
   },
   {
     "file": "DSC_5878.jpg",
@@ -2213,7 +2213,7 @@
     "height": 1408,
     "bytes": 415271,
     "sha256": "c7f59c4b9ee0921590637dd03c71973ab620d061336be2ded4bdfbac54727e15",
-    "decision": "reserve: similar angle, temperature/size variant or unidentified special nozzle; not added automatically"
+    "decision": "selected: user supplied this photograph and requested addition to the existing product page on 2026-10-24"
   },
   {
     "file": "DSC_5881.jpg",
@@ -2237,7 +2237,7 @@
     "height": 1408,
     "bytes": 394754,
     "sha256": "95d2fd54eef40ea7b67969f2b4c3e784172ac2fdcfbccce2cb14e8b37cb86fd5",
-    "decision": "reserve: similar angle, temperature/size variant or unidentified special nozzle; not added automatically"
+    "decision": "selected: user supplied this photograph and requested addition to the existing product page on 2026-10-24"
   },
   {
     "file": "DSC_5884.jpg",
@@ -2261,7 +2261,7 @@
     "height": 1459,
     "bytes": 433495,
     "sha256": "f16b6d8b6410f357f142a05f543800543fabee74275afec74f19ed077d821a65",
-    "decision": "reserve: similar angle, temperature/size variant or unidentified special nozzle; not added automatically"
+    "decision": "selected: user supplied this photograph and requested addition to the existing product page on 2026-10-24"
   },
   {
     "file": "DSC_5887.jpg",
@@ -2269,7 +2269,7 @@
     "height": 1223,
     "bytes": 383462,
     "sha256": "aecb14f9639d0f1aa4018d8d88cde0e684506366b8d42bcc5678d83f0c073b66",
-    "decision": "selected: existing export-page configuration visually matched"
+    "decision": "selected: user confirmed ordinary K115 quick-response 68°C; moved from EC to its own product page on 2026-10-24"
   },
   {
     "file": "DSC_5888.jpg",
@@ -2277,7 +2277,7 @@
     "height": 1256,
     "bytes": 394080,
     "sha256": "440a605523f75bd29b7aacfafd89d8d8fc04eef981f86054f6bd0221947f6396",
-    "decision": "selected: existing export-page configuration visually matched"
+    "decision": "selected: user confirmed ordinary K115 quick-response 68°C; moved from EC to its own product page on 2026-10-24"
   },
   {
     "file": "DSC_5889.jpg",
@@ -2285,7 +2285,7 @@
     "height": 1342,
     "bytes": 368558,
     "sha256": "92cf7d1d3bef92c979498bbc723d48a621583dcd0cd5cf87f8e049b765b624a7",
-    "decision": "selected: existing export-page configuration visually matched"
+    "decision": "selected: user confirmed ordinary K115 quick-response 68°C; moved from EC to its own product page on 2026-10-24"
   },
   {
     "file": "DSC_5890.jpg",
@@ -2309,7 +2309,7 @@
     "height": 1325,
     "bytes": 364407,
     "sha256": "d586a706adac37c93da79060db25b38951dd8b6381f5b6de1a342827b7a23911",
-    "decision": "reserve: similar angle, temperature/size variant or unidentified special nozzle; not added automatically"
+    "decision": "selected: user supplied this photograph and requested addition to the existing product page on 2026-10-24"
   },
   {
     "file": "DSC_5893.jpg",
@@ -2333,7 +2333,7 @@
     "height": 1308,
     "bytes": 370277,
     "sha256": "88d6a2c9dbfc1a7c8192bd030d8f153e061ec19610c0a93fc62dafa7cfd70c7b",
-    "decision": "reserve: similar angle, temperature/size variant or unidentified special nozzle; not added automatically"
+    "decision": "selected: user supplied this photograph and requested addition to the existing product page on 2026-10-24"
   },
   {
     "file": "DSC_5896.jpg",
@@ -2357,7 +2357,7 @@
     "height": 1308,
     "bytes": 354312,
     "sha256": "9383d81941921cb8acf22b08dc5a032e1d91d6e2bf2a8e5e7cf608a94590c6d5",
-    "decision": "reserve: similar angle, temperature/size variant or unidentified special nozzle; not added automatically"
+    "decision": "selected: user supplied this photograph and requested addition to the existing product page on 2026-10-24"
   },
   {
     "file": "DSC_5899.jpg",
@@ -2381,7 +2381,7 @@
     "height": 1375,
     "bytes": 402296,
     "sha256": "9e9b8a9c5f1dea5861251c25a54bdd84d253126d37bb643a3771840aa29acb70",
-    "decision": "reserve: similar angle, temperature/size variant or unidentified special nozzle; not added automatically"
+    "decision": "selected: user supplied this photograph and requested addition to the existing product page on 2026-10-24"
   },
   {
     "file": "DSC_5902.jpg",
@@ -2389,7 +2389,7 @@
     "height": 1156,
     "bytes": 378480,
     "sha256": "4fb476a6ca48f13051fd80c4ea19259090c44482ba0017c2a5d78dbe8912f739",
-    "decision": "reserve: similar angle, temperature/size variant or unidentified special nozzle; not added automatically"
+    "decision": "selected: user supplied this photograph and requested addition to the existing product page on 2026-10-24"
   },
   {
     "file": "DSC_5903.jpg",
@@ -2405,7 +2405,7 @@
     "height": 1223,
     "bytes": 389438,
     "sha256": "e1aa7e64f255ac294192ba4c158a60224dd07dc82dfa7526b6a93479c8fb986d",
-    "decision": "reserve: similar angle, temperature/size variant or unidentified special nozzle; not added automatically"
+    "decision": "selected: user supplied this photograph and requested addition to the existing product page on 2026-10-24"
   },
   {
     "file": "DSC_5905.jpg",
@@ -2413,7 +2413,7 @@
     "height": 1324,
     "bytes": 376276,
     "sha256": "19a2e9cdadae99c3c0bcc3901bb70d8b697bf649f6526aa1a0e89671f399c483",
-    "decision": "reserve: similar angle, temperature/size variant or unidentified special nozzle; not added automatically"
+    "decision": "selected: user supplied this photograph and requested addition to the existing product page on 2026-10-24"
   },
   {
     "file": "DSC_5906.jpg",
@@ -2421,7 +2421,7 @@
     "height": 1442,
     "bytes": 432243,
     "sha256": "3e7726c20c5489ca02d082e0aa03af154718f222f37a89b5c6d53caf1b59150e",
-    "decision": "reserve: similar angle, temperature/size variant or unidentified special nozzle; not added automatically"
+    "decision": "selected: user supplied this photograph and requested addition to the existing product page on 2026-10-24"
   },
   {
     "file": "DSC_5907.jpg",
@@ -2445,7 +2445,7 @@
     "height": 1426,
     "bytes": 413864,
     "sha256": "4a839cefa064524ea1d5f99ebeef16174afa07bf7d000ae73ea1a2f5fa542f08",
-    "decision": "reserve: similar angle, temperature/size variant or unidentified special nozzle; not added automatically"
+    "decision": "selected: user supplied this photograph and requested addition to the existing product page on 2026-10-24"
   },
   {
     "file": "DSC_5910.jpg",
@@ -2453,7 +2453,7 @@
     "height": 1122,
     "bytes": 360749,
     "sha256": "08e14d0a5451ce51513b6150da105469d4fad98e98e76c1042ff2a24eed2da32",
-    "decision": "reserve: similar angle, temperature/size variant or unidentified special nozzle; not added automatically"
+    "decision": "selected: user supplied this photograph and requested addition to the existing product page on 2026-10-24"
   },
   {
     "file": "DSC_5911.jpg",
@@ -2469,7 +2469,7 @@
     "height": 1274,
     "bytes": 499918,
     "sha256": "00c0850ab9f59c73320c6a18f47c4d5d3be4c3aad5e277a8a82039b08592150c",
-    "decision": "reserve: similar angle, temperature/size variant or unidentified special nozzle; not added automatically"
+    "decision": "selected: user supplied this photograph and requested addition to the existing product page on 2026-10-24"
   },
   {
     "file": "DSC_5913.jpg",
@@ -2477,7 +2477,7 @@
     "height": 1392,
     "bytes": 741262,
     "sha256": "6dc0f6756a6097131a25caf06e1c03f72d8e9f4adead63a3fd8c409e482943b2",
-    "decision": "reserve: similar angle, temperature/size variant or unidentified special nozzle; not added automatically"
+    "decision": "selected: user supplied this photograph and requested addition to the existing product page on 2026-10-24"
   },
   {
     "file": "DSC_5914.jpg",
@@ -2485,7 +2485,7 @@
     "height": 1274,
     "bytes": 479816,
     "sha256": "e9b981085c6f2bcb5393ee05aa7fa54d6886ded016c5dff69345fc3ddc695f64",
-    "decision": "reserve: similar angle, temperature/size variant or unidentified special nozzle; not added automatically"
+    "decision": "selected: user supplied this photograph and requested addition to the existing product page on 2026-10-24"
   },
   {
     "file": "DSC_5915.jpg",
@@ -2493,7 +2493,7 @@
     "height": 1392,
     "bytes": 651138,
     "sha256": "aad0a8626a4352efaf3401feacb5ea437f4d3bad792fff9dd82d9614bacf658e",
-    "decision": "reserve: similar angle, temperature/size variant or unidentified special nozzle; not added automatically"
+    "decision": "selected: user supplied this photograph and requested addition to the existing product page on 2026-10-24"
   },
   {
     "file": "DSC_5916.jpg",
@@ -2533,7 +2533,7 @@
     "height": 1374,
     "bytes": 527621,
     "sha256": "3b402e0a4a0f8b04cc9122d2f5bdf380ab0026968fd63f8a4fffa9547ee4742d",
-    "decision": "reserve: similar angle, temperature/size variant or unidentified special nozzle; not added automatically"
+    "decision": "selected: user supplied this photograph and requested addition to the existing product page on 2026-10-24"
   },
   {
     "file": "DSC_5921.jpg",
@@ -2541,7 +2541,7 @@
     "height": 1392,
     "bytes": 693834,
     "sha256": "a3e4ac40683885fb6991f862631dd90e20a3d35e87e030b4d81844279e1540ca",
-    "decision": "reserve: similar angle, temperature/size variant or unidentified special nozzle; not added automatically"
+    "decision": "selected: user supplied this photograph and requested addition to the existing product page on 2026-10-24"
   },
   {
     "file": "DSC_5923.jpg",
@@ -2549,7 +2549,7 @@
     "height": 1274,
     "bytes": 444146,
     "sha256": "bd189d7eefc099e83fadf24607aaa213195230725e333b7afcb928255b58877c",
-    "decision": "reserve: similar angle, temperature/size variant or unidentified special nozzle; not added automatically"
+    "decision": "selected: user supplied this photograph and requested addition to the existing product page on 2026-10-24"
   },
   {
     "file": "DSC_5925.jpg",
@@ -2557,7 +2557,7 @@
     "height": 1392,
     "bytes": 682526,
     "sha256": "b5a556608cab26597a79484e965d29ad5581683ad3cb50c246b68f5c654b3849",
-    "decision": "reserve: similar angle, temperature/size variant or unidentified special nozzle; not added automatically"
+    "decision": "selected: user supplied this photograph and requested addition to the existing product page on 2026-10-24"
   },
   {
     "file": "DSC_5926.jpg",
@@ -2613,7 +2613,7 @@
     "height": 1256,
     "bytes": 467427,
     "sha256": "947083efb2251be930e171c36e4423e06c9d2b47f4b27d186199f48e861e15da",
-    "decision": "reserve: similar angle, temperature/size variant or unidentified special nozzle; not added automatically"
+    "decision": "selected: user supplied this photograph and requested addition to the existing product page on 2026-10-24"
   },
   {
     "file": "DSC_5934.jpg",
@@ -2621,7 +2621,7 @@
     "height": 1392,
     "bytes": 718511,
     "sha256": "3331794061df8b49f6d8769e7c39a0359bc00f37738d7361d3200b94a5e4a298",
-    "decision": "reserve: similar angle, temperature/size variant or unidentified special nozzle; not added automatically"
+    "decision": "selected: user supplied this photograph and requested addition to the existing product page on 2026-10-24"
   },
   {
     "file": "DSC_5935.jpg",
@@ -2629,7 +2629,7 @@
     "height": 1291,
     "bytes": 513401,
     "sha256": "8c47b9d24a03b2affdf85342074e27fa27cfaaf3db97ad778a1fc62541093c1d",
-    "decision": "reserve: similar angle, temperature/size variant or unidentified special nozzle; not added automatically"
+    "decision": "selected: user supplied this photograph and requested addition to the existing product page on 2026-10-25"
   },
   {
     "file": "DSC_5936.jpg",
@@ -2637,7 +2637,7 @@
     "height": 1409,
     "bytes": 751685,
     "sha256": "a62f7544f3fe9cbc9dc556467980de32a79a9b0a85ac71dc6cde9b138d666c0f",
-    "decision": "reserve: similar angle, temperature/size variant or unidentified special nozzle; not added automatically"
+    "decision": "selected: user supplied this photograph and requested addition to the existing product page on 2026-10-25"
   },
   {
     "file": "DSC_5937.jpg",
@@ -2645,7 +2645,7 @@
     "height": 1291,
     "bytes": 537230,
     "sha256": "00a637e1f4db6d2405b66ca63a77002336b76f2148c667076ed3f99aeb818259",
-    "decision": "reserve: similar angle, temperature/size variant or unidentified special nozzle; not added automatically"
+    "decision": "selected: user supplied this photograph and requested addition to the existing product page on 2026-10-24"
   },
   {
     "file": "DSC_5938.jpg",
@@ -2653,7 +2653,7 @@
     "height": 1392,
     "bytes": 711492,
     "sha256": "60cd48bf4af8dc55f23b7a2cc68bd0378bff8fac977763d9ebb898bf97d1a31d",
-    "decision": "reserve: similar angle, temperature/size variant or unidentified special nozzle; not added automatically"
+    "decision": "selected: user supplied this photograph and requested addition to the existing product page on 2026-10-24"
   },
   {
     "file": "DSC_5939.jpg",
@@ -2661,7 +2661,7 @@
     "height": 1274,
     "bytes": 471273,
     "sha256": "1fd39abec42086782cd882cd60d03bbf5a9bdb182b6b39cc6556b18781a67719",
-    "decision": "reserve: similar angle, temperature/size variant or unidentified special nozzle; not added automatically"
+    "decision": "selected: user supplied this photograph and requested addition to the existing product page on 2026-10-25"
   },
   {
     "file": "DSC_5940.jpg",
@@ -2669,7 +2669,7 @@
     "height": 1392,
     "bytes": 700873,
     "sha256": "6801227a613bf5fd1d355e30e6de0f142e490eaa7c96e41280335fc574abd65b",
-    "decision": "reserve: similar angle, temperature/size variant or unidentified special nozzle; not added automatically"
+    "decision": "selected: user supplied this photograph and requested addition to the existing product page on 2026-10-25"
   },
   {
     "file": "DSC_5941.jpg",
@@ -2677,7 +2677,7 @@
     "height": 1358,
     "bytes": 515072,
     "sha256": "1518c7c8ad0a8346ccfab6146a73c9ff7d5f429ae6c758d6f3c6ed0348c18780",
-    "decision": "reserve: similar angle, temperature/size variant or unidentified special nozzle; not added automatically"
+    "decision": "selected: user supplied this photograph and requested addition to the existing product page on 2026-10-24"
   },
   {
     "file": "DSC_5942.jpg",
@@ -2685,7 +2685,7 @@
     "height": 1426,
     "bytes": 677378,
     "sha256": "c1309c34d95d54ab1c8a7d8f0e8359001fea118bddd564543f3786e34fc09f5d",
-    "decision": "reserve: similar angle, temperature/size variant or unidentified special nozzle; not added automatically"
+    "decision": "selected: user supplied this photograph and requested addition to the existing product page on 2026-10-24"
   },
   {
     "file": "DSC_5943.jpg",
@@ -2725,7 +2725,7 @@
     "height": 1341,
     "bytes": 479393,
     "sha256": "385eaa278b1eb67bcbef67c49528e2a8d972f78f34d72a7b9a52ac7bd1dbf75d",
-    "decision": "reserve: similar angle, temperature/size variant or unidentified special nozzle; not added automatically"
+    "decision": "selected: user supplied this photograph and requested addition to the existing product page on 2026-10-25"
   },
   {
     "file": "DSC_5948.jpg",
@@ -2733,7 +2733,7 @@
     "height": 1409,
     "bytes": 695082,
     "sha256": "9198140d47bdb08c8a366a587c810db98f897ce02b091dd1577c9398ff772778",
-    "decision": "reserve: similar angle, temperature/size variant or unidentified special nozzle; not added automatically"
+    "decision": "selected: user supplied this photograph and requested addition to the existing product page on 2026-10-25"
   },
   {
     "file": "DSC_5949.jpg",
@@ -2741,7 +2741,7 @@
     "height": 1274,
     "bytes": 463323,
     "sha256": "21014ca1cb50ea1576f698bf473c67a4146f0daf93fbf61258c70b5b979cd6a2",
-    "decision": "reserve: similar angle, temperature/size variant or unidentified special nozzle; not added automatically"
+    "decision": "selected: user supplied this photograph and requested addition to the existing product page on 2026-10-24"
   },
   {
     "file": "DSC_5950.jpg",
@@ -2749,7 +2749,7 @@
     "height": 1409,
     "bytes": 678606,
     "sha256": "307788895b9d22bb1f6d285507fdd0bc16472b4e1ce002689d39ce55244d32e8",
-    "decision": "reserve: similar angle, temperature/size variant or unidentified special nozzle; not added automatically"
+    "decision": "selected: user supplied this photograph and requested addition to the existing product page on 2026-10-24"
   },
   {
     "file": "DSC_5951.jpg",
@@ -2757,7 +2757,7 @@
     "height": 1375,
     "bytes": 545894,
     "sha256": "db5f7f74fc4e79ef2f49768c1aaf55df9af33eb3f4919e9835202b00463c5f66",
-    "decision": "reserve: similar angle, temperature/size variant or unidentified special nozzle; not added automatically"
+    "decision": "selected: user supplied this photograph and requested addition to the existing product page on 2026-10-25"
   },
   {
     "file": "DSC_5952.jpg",
@@ -2765,7 +2765,7 @@
     "height": 1392,
     "bytes": 699658,
     "sha256": "583261716dd418891e95337319b3c9b8374b3f30668c7aaf154b8c015aced77a",
-    "decision": "reserve: similar angle, temperature/size variant or unidentified special nozzle; not added automatically"
+    "decision": "selected: user supplied this photograph and requested addition to the existing product page on 2026-10-25"
   },
   {
     "file": "DSC_5953.jpg",
@@ -2773,7 +2773,7 @@
     "height": 1409,
     "bytes": 525000,
     "sha256": "4a9d92b57c2c3fe7c6b6aba5fbc8cd0ee3d4449e080099e660d2fdd3795b4a9c",
-    "decision": "reserve: similar angle, temperature/size variant or unidentified special nozzle; not added automatically"
+    "decision": "selected: user supplied this photograph and requested addition to the existing product page on 2026-10-24"
   },
   {
     "file": "DSC_5954.jpg",
@@ -2781,7 +2781,7 @@
     "height": 1460,
     "bytes": 736423,
     "sha256": "c251eddd6f632ee057337323d13e4e2e928846f5ab3fc73cf83664f22aba9188",
-    "decision": "reserve: similar angle, temperature/size variant or unidentified special nozzle; not added automatically"
+    "decision": "selected: user supplied this photograph and requested addition to the existing product page on 2026-10-24"
   },
   {
     "file": "DSC_5955.jpg",
@@ -3113,5 +3113,14 @@
     "bytes": 693282,
     "sha256": "33c58774b26d585f4db8eeb6809bdffd94b61b729838234184bcd91b2ba8617b",
     "decision": "selected: user-supplied concealed sprinkler actual photograph; sprinkler marking does not establish cover release temperature"
+  },
+  {
+    "file": "deluge-flanged-user-20261025.jpg",
+    "sourcePath": "D:\\code\\ai-code\\docs\\reviews\\deluge-photo-correction-20261025\\source\\deluge-flanged-user-20261025.jpg",
+    "width": 3037,
+    "height": 3020,
+    "bytes": 2433467,
+    "sha256": "738f712578046187d5e458df95461fdb24b0091f901ab80cf67c33d226bde890",
+    "decision": "selected: separately supplied photograph; product and connection confirmed by user"
   }
 ]

@@ -1,0 +1,390 @@
+{
+  "status": "confirmed",
+  "confirmedDate": "2026-10-24",
+  "scope": "CHUANWEI FIRE official website public display",
+  "authority": "User supplied and identified four pairs of K80/K115 standard/quick-response concealed sprinkler photographs, requested their category use and now requests independent product detail pages. Records requested website use, not independent licensing verification.",
+  "userRequest": "隐蔽式喷头的二级目录产品的详情页好像串联起来了，你修改一下，不要串联到一起了",
+  "factsScope": "Each new page presents only its user-confirmed K-factor, response class and 68°C samples; exact-model supplementary specifications retain their original evidence and remain scoped to the matching group.",
+  "images": [
+    {
+      "productId": "k80-standard-response-concealed-sprinkler",
+      "routeId": "product:k80-standard-response-concealed-sprinkler",
+      "path": "assets/products/concealed-series/k80-standard-concealed-covered-and-exposed.webp",
+      "sha256": "74a0e50122b8670c3b188051853e059b07aded6bf9dfbd6298861b97f6e85506",
+      "unwatermarkedSha256": "6c1439cb48f1cbde13fcc0454cade912f18e03cd9f67240851966fd3c665486f",
+      "watermarkRecord": "site-src/_data/product-watermarks.json",
+      "sources": [
+        {
+          "role": "covered",
+          "originalPath": "C:\\Users\\ZHENGF~1\\AppData\\Local\\Temp\\codex-clipboard-e10dadcf-474b-4b34-8fd7-2f30519247c4.jpg",
+          "backup": "docs/release/concealed-series-composites-20261024/source/k80-standard-concealed-covered.jpg",
+          "sha256": "fdcb7b0371405b3f8ee8f35f9688aafabf3da11a414be8fbcfab405ffb67ca51"
+        },
+        {
+          "role": "exposed",
+          "originalPath": "C:\\Users\\ZHENGF~1\\AppData\\Local\\Temp\\codex-clipboard-ff9d9949-76db-457d-be6c-3ee03fddb477.jpg",
+          "backup": "docs/release/concealed-series-composites-20261024/source/k80-standard-concealed-exposed.jpg",
+          "sha256": "cde1b1a0d2f550ea5a69f98ba73cbd92cf3172ea62813311a830f677a460f36e"
+        }
+      ],
+      "type": "generative-two-view-category-composite",
+      "publishedTransform": "CHUANWEI FIRE text watermark in clear whitespace"
+    },
+    {
+      "productId": "k80-standard-response-concealed-sprinkler",
+      "routeId": "product:k80-standard-response-concealed-sprinkler",
+      "path": "assets/products/concealed-series/k80-standard-concealed-68c-covered.webp",
+      "sha256": "656980171340d3338088d711fc571786e176d29b43d6784fb434dd8805f2ef35",
+      "unwatermarkedSha256": "f37cb8dded13719104434af8a107be158da4ddfa2a61bf51a35d127c404fa2b0",
+      "watermarkRecord": "site-src/_data/product-watermarks.json",
+      "sources": [
+        {
+          "role": "covered",
+          "originalPath": "C:\\Users\\ZHENGF~1\\AppData\\Local\\Temp\\codex-clipboard-e10dadcf-474b-4b34-8fd7-2f30519247c4.jpg",
+          "backup": "docs/release/concealed-series-composites-20261024/source/k80-standard-concealed-covered.jpg",
+          "sha256": "fdcb7b0371405b3f8ee8f35f9688aafabf3da11a414be8fbcfab405ffb67ca51"
+        },
+        {
+          "role": "exposed",
+          "originalPath": "C:\\Users\\ZHENGF~1\\AppData\\Local\\Temp\\codex-clipboard-ff9d9949-76db-457d-be6c-3ee03fddb477.jpg",
+          "backup": "docs/release/concealed-series-composites-20261024/source/k80-standard-concealed-exposed.jpg",
+          "sha256": "cde1b1a0d2f550ea5a69f98ba73cbd92cf3172ea62813311a830f677a460f36e"
+        }
+      ],
+      "type": "user-supplied-real-product-photograph",
+      "publishedTransform": "CHUANWEI FIRE text watermark in clear whitespace"
+    },
+    {
+      "productId": "k80-standard-response-concealed-sprinkler",
+      "routeId": "product:k80-standard-response-concealed-sprinkler",
+      "path": "assets/products/concealed-series/k80-standard-concealed-68c-exposed.webp",
+      "sha256": "28411357a40bc81a678a9b437753155b8543da9bd9151c37ca16d02cdae194c5",
+      "unwatermarkedSha256": "2f0da69b9f8a0b2e80a936a1110f8ba98e65fbb921bbf764ec9a72b8b5a1d0fc",
+      "watermarkRecord": "site-src/_data/product-watermarks.json",
+      "sources": [
+        {
+          "role": "covered",
+          "originalPath": "C:\\Users\\ZHENGF~1\\AppData\\Local\\Temp\\codex-clipboard-e10dadcf-474b-4b34-8fd7-2f30519247c4.jpg",
+          "backup": "docs/release/concealed-series-composites-20261024/source/k80-standard-concealed-covered.jpg",
+          "sha256": "fdcb7b0371405b3f8ee8f35f9688aafabf3da11a414be8fbcfab405ffb67ca51"
+        },
+        {
+          "role": "exposed",
+          "originalPath": "C:\\Users\\ZHENGF~1\\AppData\\Local\\Temp\\codex-clipboard-ff9d9949-76db-457d-be6c-3ee03fddb477.jpg",
+          "backup": "docs/release/concealed-series-composites-20261024/source/k80-standard-concealed-exposed.jpg",
+          "sha256": "cde1b1a0d2f550ea5a69f98ba73cbd92cf3172ea62813311a830f677a460f36e"
+        }
+      ],
+      "type": "user-supplied-real-product-photograph",
+      "publishedTransform": "CHUANWEI FIRE text watermark in clear whitespace"
+    },
+    {
+      "productId": "k80-quick-response-concealed-sprinkler",
+      "routeId": "product:k80-quick-response-concealed-sprinkler",
+      "path": "assets/products/concealed-series/k80-quick-concealed-covered-and-exposed.webp",
+      "sha256": "d1dca2a9588ffd54bf5fa80a5e1c962c9a6468ec8ae78ba529bae91773c2ef58",
+      "unwatermarkedSha256": "184907af1ed77834a24056a75eedf126a8a5f0dc5a3f94215e02aae491bb7113",
+      "watermarkRecord": "site-src/_data/product-watermarks.json",
+      "sources": [
+        {
+          "role": "covered",
+          "originalPath": "C:\\Users\\ZHENGF~1\\AppData\\Local\\Temp\\codex-clipboard-5cf6752b-fc81-43e0-b449-11c01b1ac134.jpg",
+          "backup": "docs/release/concealed-series-composites-20261024/source/k80-quick-concealed-covered.jpg",
+          "sha256": "307788895b9d22bb1f6d285507fdd0bc16472b4e1ce002689d39ce55244d32e8"
+        },
+        {
+          "role": "exposed",
+          "originalPath": "C:\\Users\\ZHENGF~1\\AppData\\Local\\Temp\\codex-clipboard-710420e3-f9c9-454a-9b33-849af4da0697.jpg",
+          "backup": "docs/release/concealed-series-composites-20261024/source/k80-quick-concealed-exposed.jpg",
+          "sha256": "21014ca1cb50ea1576f698bf473c67a4146f0daf93fbf61258c70b5b979cd6a2"
+        }
+      ],
+      "type": "generative-two-view-category-composite",
+      "publishedTransform": "CHUANWEI FIRE text watermark in clear whitespace"
+    },
+    {
+      "productId": "k80-quick-response-concealed-sprinkler",
+      "routeId": "product:k80-quick-response-concealed-sprinkler",
+      "path": "assets/products/concealed-series/k80-quick-concealed-68c-covered.webp",
+      "sha256": "5b18bd5307be22ac386c7fc6fd5ac7ce0076ac5505ab89de0e9365e1c76c8382",
+      "unwatermarkedSha256": "cbb495bee04e5b7b2e0dff1e5a7d83d9aa7d4a9d9656ed98f3ae4bd62c5c7e6a",
+      "watermarkRecord": "site-src/_data/product-watermarks.json",
+      "sources": [
+        {
+          "role": "covered",
+          "originalPath": "C:\\Users\\ZHENGF~1\\AppData\\Local\\Temp\\codex-clipboard-5cf6752b-fc81-43e0-b449-11c01b1ac134.jpg",
+          "backup": "docs/release/concealed-series-composites-20261024/source/k80-quick-concealed-covered.jpg",
+          "sha256": "307788895b9d22bb1f6d285507fdd0bc16472b4e1ce002689d39ce55244d32e8"
+        },
+        {
+          "role": "exposed",
+          "originalPath": "C:\\Users\\ZHENGF~1\\AppData\\Local\\Temp\\codex-clipboard-710420e3-f9c9-454a-9b33-849af4da0697.jpg",
+          "backup": "docs/release/concealed-series-composites-20261024/source/k80-quick-concealed-exposed.jpg",
+          "sha256": "21014ca1cb50ea1576f698bf473c67a4146f0daf93fbf61258c70b5b979cd6a2"
+        }
+      ],
+      "type": "user-supplied-real-product-photograph",
+      "publishedTransform": "CHUANWEI FIRE text watermark in clear whitespace"
+    },
+    {
+      "productId": "k80-quick-response-concealed-sprinkler",
+      "routeId": "product:k80-quick-response-concealed-sprinkler",
+      "path": "assets/products/concealed-series/k80-quick-concealed-68c-exposed.webp",
+      "sha256": "8dfbfdcdd39eae49389701e03c3f04824ce7b3e188b1619e469f8609afdbfdb4",
+      "unwatermarkedSha256": "9d552aa4b5235e8ce2322f32495e31104fb1f6a79bc6d53debf1e4834a47cafc",
+      "watermarkRecord": "site-src/_data/product-watermarks.json",
+      "sources": [
+        {
+          "role": "covered",
+          "originalPath": "C:\\Users\\ZHENGF~1\\AppData\\Local\\Temp\\codex-clipboard-5cf6752b-fc81-43e0-b449-11c01b1ac134.jpg",
+          "backup": "docs/release/concealed-series-composites-20261024/source/k80-quick-concealed-covered.jpg",
+          "sha256": "307788895b9d22bb1f6d285507fdd0bc16472b4e1ce002689d39ce55244d32e8"
+        },
+        {
+          "role": "exposed",
+          "originalPath": "C:\\Users\\ZHENGF~1\\AppData\\Local\\Temp\\codex-clipboard-710420e3-f9c9-454a-9b33-849af4da0697.jpg",
+          "backup": "docs/release/concealed-series-composites-20261024/source/k80-quick-concealed-exposed.jpg",
+          "sha256": "21014ca1cb50ea1576f698bf473c67a4146f0daf93fbf61258c70b5b979cd6a2"
+        }
+      ],
+      "type": "user-supplied-real-product-photograph",
+      "publishedTransform": "CHUANWEI FIRE text watermark in clear whitespace"
+    },
+    {
+      "productId": "k115-standard-response-concealed-sprinkler",
+      "routeId": "product:k115-standard-response-concealed-sprinkler",
+      "path": "assets/products/concealed-series/k115-standard-concealed-covered-and-exposed.webp",
+      "sha256": "fdb52efccef2600c64945d793614d54ccf32e29a14806433b74afac3b4e3bd68",
+      "unwatermarkedSha256": "cc1d7cc688e3057ae03ef2fa564554b35ca18bba966c589d33bf59eaeaa8de6c",
+      "watermarkRecord": "site-src/_data/product-watermarks.json",
+      "sources": [
+        {
+          "role": "covered",
+          "originalPath": "C:\\Users\\ZHENGF~1\\AppData\\Local\\Temp\\codex-clipboard-775482fc-3390-4803-afdf-38c8367c9e5e.jpg",
+          "backup": "docs/release/concealed-series-composites-20261024/source/k115-standard-concealed-covered.jpg",
+          "sha256": "24609f82b6e8d518672fa3db356a256396ab98a02f71c1cb95d9b747549ac7f5"
+        },
+        {
+          "role": "exposed",
+          "originalPath": "C:\\Users\\ZHENGF~1\\AppData\\Local\\Temp\\codex-clipboard-d7a1ab77-d629-470b-abe4-afe87bc019a4.jpg",
+          "backup": "docs/release/concealed-series-composites-20261024/source/k115-standard-concealed-exposed.jpg",
+          "sha256": "98869016f14eb404f4c12f0c588562723a3f10b684f6e13a094ad9030cce715d"
+        }
+      ],
+      "type": "generative-two-view-category-composite",
+      "publishedTransform": "CHUANWEI FIRE text watermark in clear whitespace"
+    },
+    {
+      "productId": "k115-standard-response-concealed-sprinkler",
+      "routeId": "product:k115-standard-response-concealed-sprinkler",
+      "path": "assets/products/concealed-series/k115-standard-concealed-68c-covered.webp",
+      "sha256": "8447f493fefdcddb804cee51d8951de8b2c76ff60c3a0a0d32d6b4cd5da51d00",
+      "unwatermarkedSha256": "805a8943cd21be48911e6f71d47a4c5ad1fd36f503e3e4b17d0cdda6cdbb9229",
+      "watermarkRecord": "site-src/_data/product-watermarks.json",
+      "sources": [
+        {
+          "role": "covered",
+          "originalPath": "C:\\Users\\ZHENGF~1\\AppData\\Local\\Temp\\codex-clipboard-775482fc-3390-4803-afdf-38c8367c9e5e.jpg",
+          "backup": "docs/release/concealed-series-composites-20261024/source/k115-standard-concealed-covered.jpg",
+          "sha256": "24609f82b6e8d518672fa3db356a256396ab98a02f71c1cb95d9b747549ac7f5"
+        },
+        {
+          "role": "exposed",
+          "originalPath": "C:\\Users\\ZHENGF~1\\AppData\\Local\\Temp\\codex-clipboard-d7a1ab77-d629-470b-abe4-afe87bc019a4.jpg",
+          "backup": "docs/release/concealed-series-composites-20261024/source/k115-standard-concealed-exposed.jpg",
+          "sha256": "98869016f14eb404f4c12f0c588562723a3f10b684f6e13a094ad9030cce715d"
+        }
+      ],
+      "type": "user-supplied-real-product-photograph",
+      "publishedTransform": "CHUANWEI FIRE text watermark in clear whitespace"
+    },
+    {
+      "productId": "k115-standard-response-concealed-sprinkler",
+      "routeId": "product:k115-standard-response-concealed-sprinkler",
+      "path": "assets/products/concealed-series/k115-standard-concealed-68c-exposed.webp",
+      "sha256": "1b274f1bf94071370d3b7a9b4f0019b646d75a22bfd8ea194ebfe430c4dcbcf7",
+      "unwatermarkedSha256": "72b7e6d780524621d323ab7240a1d8ccd7917c0a233bed6befcaba7b2afcd498",
+      "watermarkRecord": "site-src/_data/product-watermarks.json",
+      "sources": [
+        {
+          "role": "covered",
+          "originalPath": "C:\\Users\\ZHENGF~1\\AppData\\Local\\Temp\\codex-clipboard-775482fc-3390-4803-afdf-38c8367c9e5e.jpg",
+          "backup": "docs/release/concealed-series-composites-20261024/source/k115-standard-concealed-covered.jpg",
+          "sha256": "24609f82b6e8d518672fa3db356a256396ab98a02f71c1cb95d9b747549ac7f5"
+        },
+        {
+          "role": "exposed",
+          "originalPath": "C:\\Users\\ZHENGF~1\\AppData\\Local\\Temp\\codex-clipboard-d7a1ab77-d629-470b-abe4-afe87bc019a4.jpg",
+          "backup": "docs/release/concealed-series-composites-20261024/source/k115-standard-concealed-exposed.jpg",
+          "sha256": "98869016f14eb404f4c12f0c588562723a3f10b684f6e13a094ad9030cce715d"
+        }
+      ],
+      "type": "user-supplied-real-product-photograph",
+      "publishedTransform": "CHUANWEI FIRE text watermark in clear whitespace"
+    },
+    {
+      "productId": "k115-quick-response-concealed-sprinkler",
+      "routeId": "product:k115-quick-response-concealed-sprinkler",
+      "path": "assets/products/concealed-series/k115-quick-concealed-covered-and-exposed.webp",
+      "sha256": "334260eb72c532721a208fc75913477f6d40f13dfcee099a91166248cdede322",
+      "unwatermarkedSha256": "0d6a0687db845f3fcdc6ef32c727337d3d9fdd4b4789248a877c01da9065f23f",
+      "watermarkRecord": "site-src/_data/product-watermarks.json",
+      "sources": [
+        {
+          "role": "covered",
+          "originalPath": "C:\\Users\\ZHENGF~1\\AppData\\Local\\Temp\\codex-clipboard-ea4dbf99-652f-4d5a-a5f8-a8e119e1e25a.jpg",
+          "backup": "docs/release/concealed-series-composites-20261024/source/k115-quick-concealed-covered.jpg",
+          "sha256": "9198140d47bdb08c8a366a587c810db98f897ce02b091dd1577c9398ff772778"
+        },
+        {
+          "role": "exposed",
+          "originalPath": "C:\\Users\\ZHENGF~1\\AppData\\Local\\Temp\\codex-clipboard-da7ab226-1946-4c04-81eb-bb3548da724e.jpg",
+          "backup": "docs/release/concealed-series-composites-20261024/source/k115-quick-concealed-exposed.jpg",
+          "sha256": "385eaa278b1eb67bcbef67c49528e2a8d972f78f34d72a7b9a52ac7bd1dbf75d"
+        }
+      ],
+      "type": "generative-two-view-category-composite",
+      "publishedTransform": "CHUANWEI FIRE text watermark in clear whitespace"
+    },
+    {
+      "productId": "k115-quick-response-concealed-sprinkler",
+      "routeId": "product:k115-quick-response-concealed-sprinkler",
+      "path": "assets/products/concealed-series/k115-quick-concealed-68c-covered.webp",
+      "sha256": "9992bcb1f950b50e6590b87cdd44120ed8c4a4b540b7f44e8ea898ffa550dc55",
+      "unwatermarkedSha256": "3e6c5d3541978217cf3e66f5f09f43482ca8b527f5b892c26788c77ead89d861",
+      "watermarkRecord": "site-src/_data/product-watermarks.json",
+      "sources": [
+        {
+          "role": "covered",
+          "originalPath": "C:\\Users\\ZHENGF~1\\AppData\\Local\\Temp\\codex-clipboard-ea4dbf99-652f-4d5a-a5f8-a8e119e1e25a.jpg",
+          "backup": "docs/release/concealed-series-composites-20261024/source/k115-quick-concealed-covered.jpg",
+          "sha256": "9198140d47bdb08c8a366a587c810db98f897ce02b091dd1577c9398ff772778"
+        },
+        {
+          "role": "exposed",
+          "originalPath": "C:\\Users\\ZHENGF~1\\AppData\\Local\\Temp\\codex-clipboard-da7ab226-1946-4c04-81eb-bb3548da724e.jpg",
+          "backup": "docs/release/concealed-series-composites-20261024/source/k115-quick-concealed-exposed.jpg",
+          "sha256": "385eaa278b1eb67bcbef67c49528e2a8d972f78f34d72a7b9a52ac7bd1dbf75d"
+        }
+      ],
+      "type": "user-supplied-real-product-photograph",
+      "publishedTransform": "CHUANWEI FIRE text watermark in clear whitespace"
+    },
+    {
+      "productId": "k115-quick-response-concealed-sprinkler",
+      "routeId": "product:k115-quick-response-concealed-sprinkler",
+      "path": "assets/products/concealed-series/k115-quick-concealed-68c-exposed.webp",
+      "sha256": "8da725feb5dfead69b7d1c2631fc3d8ba9d820f5b4fc3b099419d0582ee53878",
+      "unwatermarkedSha256": "b21c80a7be6e1086f015ce4cad548a2bf74399aebd4df2f546da5e8696c2e977",
+      "watermarkRecord": "site-src/_data/product-watermarks.json",
+      "sources": [
+        {
+          "role": "covered",
+          "originalPath": "C:\\Users\\ZHENGF~1\\AppData\\Local\\Temp\\codex-clipboard-ea4dbf99-652f-4d5a-a5f8-a8e119e1e25a.jpg",
+          "backup": "docs/release/concealed-series-composites-20261024/source/k115-quick-concealed-covered.jpg",
+          "sha256": "9198140d47bdb08c8a366a587c810db98f897ce02b091dd1577c9398ff772778"
+        },
+        {
+          "role": "exposed",
+          "originalPath": "C:\\Users\\ZHENGF~1\\AppData\\Local\\Temp\\codex-clipboard-da7ab226-1946-4c04-81eb-bb3548da724e.jpg",
+          "backup": "docs/release/concealed-series-composites-20261024/source/k115-quick-concealed-exposed.jpg",
+          "sha256": "385eaa278b1eb67bcbef67c49528e2a8d972f78f34d72a7b9a52ac7bd1dbf75d"
+        }
+      ],
+      "type": "user-supplied-real-product-photograph",
+      "publishedTransform": "CHUANWEI FIRE text watermark in clear whitespace"
+    }
+  ],
+  "series": [
+    {
+      "seriesId": "k80-standard-concealed",
+      "productId": "k80-standard-response-concealed-sprinkler",
+      "routeId": "product:k80-standard-response-concealed-sprinkler",
+      "kFactor": 80,
+      "response": "standard",
+      "bulbCode": "Q5A",
+      "supplementIds": [
+        "zstdy80-57-q5a",
+        "zstdy80-79-q5a",
+        "zstdy80-141-q5a"
+      ],
+      "factoryModel": "ZSTDY80-68°C Q5A",
+      "name": {
+        "en": "K80 Standard Response Concealed Sprinklers",
+        "ar": "رشاشات K80 مخفية ذات استجابة قياسية",
+        "zh": "K80标准隐蔽式"
+      },
+      "image": "assets/products/concealed-series/k80-standard-concealed-covered-and-exposed.webp",
+      "imageCaption": {
+        "en": "K80 / 68°C standard-response concealed sprinkler — covered assembly and exposed mechanism.",
+        "ar": "رشاش مخفي K80 / 68°C ذو استجابة قياسية — المجموعة مع الغطاء والآلية المكشوفة."
+      }
+    },
+    {
+      "seriesId": "k80-quick-concealed",
+      "productId": "k80-quick-response-concealed-sprinkler",
+      "routeId": "product:k80-quick-response-concealed-sprinkler",
+      "kFactor": 80,
+      "response": "quick",
+      "bulbCode": "Q3A",
+      "supplementIds": [
+        "zstdy80-93-q3a"
+      ],
+      "factoryModel": "ZSTDY80-68°C Q3A",
+      "name": {
+        "en": "K80 Quick Response Concealed Sprinklers",
+        "ar": "رشاشات K80 مخفية سريعة الاستجابة",
+        "zh": "K80快速隐蔽式"
+      },
+      "image": "assets/products/concealed-series/k80-quick-concealed-covered-and-exposed.webp",
+      "imageCaption": {
+        "en": "K80 / 68°C quick-response concealed sprinkler — covered assembly and exposed mechanism.",
+        "ar": "رشاش مخفي K80 / 68°C سريع الاستجابة — المجموعة مع الغطاء والآلية المكشوفة."
+      }
+    },
+    {
+      "seriesId": "k115-standard-concealed",
+      "productId": "k115-standard-response-concealed-sprinkler",
+      "routeId": "product:k115-standard-response-concealed-sprinkler",
+      "kFactor": 115,
+      "response": "standard",
+      "bulbCode": "Q5A",
+      "supplementIds": [
+        "zstdy115-57-q5a",
+        "zstdy115-79-q5a",
+        "zstdy115-93-q5a"
+      ],
+      "factoryModel": "ZSTDY115-68°C Q5A",
+      "name": {
+        "en": "K115 Standard Response Concealed Sprinklers",
+        "ar": "رشاشات K115 مخفية ذات استجابة قياسية",
+        "zh": "K115标准隐蔽式"
+      },
+      "image": "assets/products/concealed-series/k115-standard-concealed-covered-and-exposed.webp",
+      "imageCaption": {
+        "en": "K115 / 68°C standard-response concealed sprinkler — covered assembly and exposed mechanism.",
+        "ar": "رشاش مخفي K115 / 68°C ذو استجابة قياسية — المجموعة مع الغطاء والآلية المكشوفة."
+      }
+    },
+    {
+      "seriesId": "k115-quick-concealed",
+      "productId": "k115-quick-response-concealed-sprinkler",
+      "routeId": "product:k115-quick-response-concealed-sprinkler",
+      "kFactor": 115,
+      "response": "quick",
+      "bulbCode": "Q3A",
+      "supplementIds": [],
+      "factoryModel": "ZSTDY115-68°C Q3A",
+      "name": {
+        "en": "K115 Quick Response Concealed Sprinklers",
+        "ar": "رشاشات K115 مخفية سريعة الاستجابة",
+        "zh": "K115快速隐蔽式"
+      },
+      "image": "assets/products/concealed-series/k115-quick-concealed-covered-and-exposed.webp",
+      "imageCaption": {
+        "en": "K115 / 68°C quick-response concealed sprinkler — covered assembly and exposed mechanism.",
+        "ar": "رشاش مخفي K115 / 68°C سريع الاستجابة — المجموعة مع الغطاء والآلية المكشوفة."
+      }
+    }
+  ]
+}

@@ -6,6 +6,7 @@ const read = relative => JSON.parse(fs.readFileSync(new URL(relative, import.met
 const documented = {
   'fusible-alloy-fire-sprinklers': [0,1],
   'glass-bulb-fire-sprinkler': [0,1], 'standard-response-fire-sprinkler': [1,2,3],
+  'k115-standard-response-fire-sprinkler': [0,1,2], 'k115-quick-response-fire-sprinkler': [0,1,2],
   'horizontal-handwheel-landing-valves': [0,1], 'lever-operated-fire-hose-nozzles': [0,1],
   'straight-stream-fire-hose-nozzles': [0,1]
 };

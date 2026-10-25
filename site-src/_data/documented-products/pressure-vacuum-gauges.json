@@ -20,7 +20,15 @@
     ],
     "notes": [
       "不沿用网页标题不锈钢到黑壳Y100；正压仅按实际SKU至60 MPa，不发布总范围100 MPa。"
-    ]
+    ],
+    "marketReference": {
+      "grade": "C-other-manufacturer-or-series-reference",
+      "reviewDate": "2026-10-25",
+      "url": "https://www.wika.com/media/Data-sheets/Pressure/Pressure-gauges/ds_pm0212_en_co.pdf",
+      "model": "WIKA 213.53 · connection examples",
+      "location": "PM 02.12, process connection table",
+      "scope": "Selection reference only; no supplied-SKU specification, certification, compatibility or availability inferred."
+    }
   },
   "publication": {
     "status": "release-candidate",
@@ -357,7 +365,14 @@
       "selection0Label": "Measuring range",
       "selection0Body": "Specify the required scale range and normal and maximum working pressure; each listed range is a separate gauge option.",
       "selection1Label": "Process connection and fluid",
-      "selection1Body": "Provide the mating thread drawing, working fluid, temperature and required wetted-part material."
+      "selection1Body": "Provide the mating thread drawing, working fluid, temperature and required wetted-part material.",
+      "referenceHeading": "Selection reference",
+      "referenceScope": "The manufacturer example below helps you specify an enquiry. Its values describe the named reference model, not the CHUANWEI product pictured above. Request the offered model’s datasheet for your order.",
+      "referenceSource": "Manufacturer reference",
+      "reference0Title": "WIKA 213.53 · connection examples",
+      "reference0Note": "Connection examples only. Specify both the vacuum and positive-pressure endpoints, dial size and mounting direction.",
+      "reference0Row0Label": "Thread examples",
+      "reference0Row0Value": "G 1/4 B; G 1/2 B; 1/4 NPT; 1/2 NPT"
     },
     "ar": {
       "onThisPage": "في هذه الصفحة",
@@ -481,7 +496,28 @@
       "selection0Label": "مجال القياس",
       "selection0Body": "حدد مجال التدريج المطلوب وضغط التشغيل المعتاد والأقصى؛ كل مجال مدرج خيار مستقل للمقياس.",
       "selection1Label": "توصيل العملية والمائع",
-      "selection1Body": "قدم رسم السن المقابل والمائع ودرجة الحرارة ومادة الأجزاء الملامسة للمائع المطلوبة."
+      "selection1Body": "قدم رسم السن المقابل والمائع ودرجة الحرارة ومادة الأجزاء الملامسة للمائع المطلوبة.",
+      "referenceHeading": "مرجع الاختيار",
+      "referenceScope": "يساعد المثال التالي من الشركة المصنّعة المذكورة في تحديد متطلبات الاستفسار. القيم تخص الطراز المرجعي المذكور، ولا تمثل مواصفات منتج CHUANWEI المصوّر أعلاه. اطلب ورقة بيانات الطراز المعروض لطلبك.",
+      "referenceSource": "مرجع الشركة المصنّعة",
+      "reference0Title": "WIKA 213.53 · connection examples",
+      "reference0Note": "هذه أمثلة للتوصيل فقط. حدد حد التفريغ وحد الضغط الموجب وقطر القرص واتجاه التركيب.",
+      "reference0Row0Label": "أمثلة القلاوظ",
+      "reference0Row0Value": "G 1/4 B; G 1/2 B; 1/4 NPT; 1/2 NPT"
     }
-  }
+  },
+  "referenceExamples": [
+    {
+      "title": "reference0Title",
+      "rows": [
+        {
+          "label": "reference0Row0Label",
+          "value": "reference0Row0Value",
+          "technical": true
+        }
+      ],
+      "note": "reference0Note",
+      "url": "https://www.wika.com/media/Data-sheets/Pressure/Pressure-gauges/ds_pm0212_en_co.pdf"
+    }
+  ]
 }

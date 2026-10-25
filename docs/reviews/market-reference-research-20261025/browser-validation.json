@@ -1,0 +1,2709 @@
+{
+  "status": "PASS",
+  "generatedAt": "2026-10-25T11:57:01.292Z",
+  "browser": "Edg/156.0.4314.42",
+  "checks": [
+    {
+      "scenario": "desktop/products/fire-extinguishers/portable-dry-powder-fire-extinguishers.html",
+      "status": "PASS",
+      "layout": {
+        "overflow": -15,
+        "broken": [],
+        "lang": "en",
+        "dir": "ltr"
+      },
+      "content": {
+        "h1": "Portable Dry Powder Fire Extinguishers",
+        "main": 2785,
+        "internal": false
+      },
+      "reference": {
+        "section": true,
+        "rows": 1,
+        "source": "https://amerex-fire.com/api/documents/download?a=en&d=import-amerex-portable-fire-extinguisher-catalog",
+        "scope": "The manufacturer example below helps you specify an enquiry. Its values describe the named reference model, not the CHUANWEI product pictured above. Request the offered model’s datasheet for your order."
+      }
+    },
+    {
+      "scenario": "desktop/ar/products/portable-dry-powder-fire-extinguishers/index.html",
+      "status": "PASS",
+      "layout": {
+        "overflow": -15,
+        "broken": [],
+        "lang": "ar",
+        "dir": "rtl"
+      },
+      "content": {
+        "h1": "طفايات حريق محمولة بالمسحوق الجاف",
+        "main": 2362,
+        "internal": false
+      },
+      "reference": {
+        "section": true,
+        "rows": 1,
+        "source": "https://amerex-fire.com/api/documents/download?a=en&d=import-amerex-portable-fire-extinguisher-catalog",
+        "scope": "يساعد المثال التالي من الشركة المصنّعة المذكورة في تحديد متطلبات الاستفسار. القيم تخص الطراز المرجعي المذكور، ولا تمثل مواصفات منتج CHUANWEI المصوّر أعلاه. اطلب ورقة بيانات الطراز المعروض لطلبك."
+      }
+    },
+    {
+      "scenario": "desktop/products/fire-extinguishers/portable-water-based-fire-extinguishers.html",
+      "status": "PASS",
+      "layout": {
+        "overflow": -15,
+        "broken": [],
+        "lang": "en",
+        "dir": "ltr"
+      },
+      "content": {
+        "h1": "Portable Water-Based Fire Extinguishers",
+        "main": 2875,
+        "internal": false
+      },
+      "reference": {
+        "section": true,
+        "rows": 2,
+        "source": "https://amerex-fire.com/products/fire-extinguishers/portable-fire-extinguishers/240",
+        "scope": "The manufacturer example below helps you specify an enquiry. Its values describe the named reference model, not the CHUANWEI product pictured above. Request the offered model’s datasheet for your order."
+      }
+    },
+    {
+      "scenario": "desktop/ar/products/portable-water-based-fire-extinguishers/index.html",
+      "status": "PASS",
+      "layout": {
+        "overflow": -15,
+        "broken": [],
+        "lang": "ar",
+        "dir": "rtl"
+      },
+      "content": {
+        "h1": "طفايات حريق محمولة بعامل إطفاء مائي",
+        "main": 2380,
+        "internal": false
+      },
+      "reference": {
+        "section": true,
+        "rows": 2,
+        "source": "https://amerex-fire.com/products/fire-extinguishers/portable-fire-extinguishers/240",
+        "scope": "يساعد المثال التالي من الشركة المصنّعة المذكورة في تحديد متطلبات الاستفسار. القيم تخص الطراز المرجعي المذكور، ولا تمثل مواصفات منتج CHUANWEI المصوّر أعلاه. اطلب ورقة بيانات الطراز المعروض لطلبك."
+      }
+    },
+    {
+      "scenario": "desktop/products/fire-extinguishers/portable-co2-fire-extinguishers.html",
+      "status": "PASS",
+      "layout": {
+        "overflow": -15,
+        "broken": [],
+        "lang": "en",
+        "dir": "ltr"
+      },
+      "content": {
+        "h1": "Portable CO₂ Fire Extinguishers",
+        "main": 2605,
+        "internal": false
+      },
+      "reference": {
+        "section": true,
+        "rows": 2,
+        "source": "https://amerex-fire.com/api/documents/download?a=en&d=import-amerex-portable-fire-extinguisher-catalog",
+        "scope": "The manufacturer example below helps you specify an enquiry. Its values describe the named reference model, not the CHUANWEI product pictured above. Request the offered model’s datasheet for your order."
+      }
+    },
+    {
+      "scenario": "desktop/ar/products/portable-co2-fire-extinguishers/index.html",
+      "status": "PASS",
+      "layout": {
+        "overflow": -15,
+        "broken": [],
+        "lang": "ar",
+        "dir": "rtl"
+      },
+      "content": {
+        "h1": "طفايات حريق محمولة بثاني أكسيد الكربون",
+        "main": 2220,
+        "internal": false
+      },
+      "reference": {
+        "section": true,
+        "rows": 2,
+        "source": "https://amerex-fire.com/api/documents/download?a=en&d=import-amerex-portable-fire-extinguisher-catalog",
+        "scope": "يساعد المثال التالي من الشركة المصنّعة المذكورة في تحديد متطلبات الاستفسار. القيم تخص الطراز المرجعي المذكور، ولا تمثل مواصفات منتج CHUANWEI المصوّر أعلاه. اطلب ورقة بيانات الطراز المعروض لطلبك."
+      }
+    },
+    {
+      "scenario": "desktop/products/fire-extinguishers/wheeled-dry-powder-fire-extinguishers.html",
+      "status": "PASS",
+      "layout": {
+        "overflow": -15,
+        "broken": [],
+        "lang": "en",
+        "dir": "ltr"
+      },
+      "content": {
+        "h1": "Wheeled Dry Powder Fire Extinguishers",
+        "main": 2706,
+        "internal": false
+      },
+      "reference": {
+        "section": true,
+        "rows": 2,
+        "source": "https://amerex-fire.com/api/documents/download?a=en&d=import-amerex-fire-extinguisher-parts-book",
+        "scope": "The manufacturer example below helps you specify an enquiry. Its values describe the named reference model, not the CHUANWEI product pictured above. Request the offered model’s datasheet for your order."
+      }
+    },
+    {
+      "scenario": "desktop/ar/products/wheeled-dry-powder-fire-extinguishers/index.html",
+      "status": "PASS",
+      "layout": {
+        "overflow": -15,
+        "broken": [],
+        "lang": "ar",
+        "dir": "rtl"
+      },
+      "content": {
+        "h1": "طفايات حريق بعجلات بالمسحوق الجاف",
+        "main": 2201,
+        "internal": false
+      },
+      "reference": {
+        "section": true,
+        "rows": 2,
+        "source": "https://amerex-fire.com/api/documents/download?a=en&d=import-amerex-fire-extinguisher-parts-book",
+        "scope": "يساعد المثال التالي من الشركة المصنّعة المذكورة في تحديد متطلبات الاستفسار. القيم تخص الطراز المرجعي المذكور، ولا تمثل مواصفات منتج CHUANWEI المصوّر أعلاه. اطلب ورقة بيانات الطراز المعروض لطلبك."
+      }
+    },
+    {
+      "scenario": "desktop/products/automatic-fire-suppression/suspended-dry-powder-extinguishers.html",
+      "status": "PASS",
+      "layout": {
+        "overflow": -15,
+        "broken": [],
+        "lang": "en",
+        "dir": "ltr"
+      },
+      "content": {
+        "h1": "Suspended Dry Powder Fire Extinguishers",
+        "main": 2895,
+        "internal": false
+      },
+      "reference": {
+        "section": true,
+        "rows": 2,
+        "source": "https://www.anaf.eu/en/ps2-at",
+        "scope": "The manufacturer example below helps you specify an enquiry. Its values describe the named reference model, not the CHUANWEI product pictured above. Request the offered model’s datasheet for your order."
+      }
+    },
+    {
+      "scenario": "desktop/ar/products/suspended-dry-powder-extinguishers/index.html",
+      "status": "PASS",
+      "layout": {
+        "overflow": -15,
+        "broken": [],
+        "lang": "ar",
+        "dir": "rtl"
+      },
+      "content": {
+        "h1": "طفايات حريق معلقة بالمسحوق الجاف",
+        "main": 2312,
+        "internal": false
+      },
+      "reference": {
+        "section": true,
+        "rows": 2,
+        "source": "https://www.anaf.eu/en/ps2-at",
+        "scope": "يساعد المثال التالي من الشركة المصنّعة المذكورة في تحديد متطلبات الاستفسار. القيم تخص الطراز المرجعي المذكور، ولا تمثل مواصفات منتج CHUANWEI المصوّر أعلاه. اطلب ورقة بيانات الطراز المعروض لطلبك."
+      }
+    },
+    {
+      "scenario": "desktop/products/automatic-fire-suppression/suspended-ultrafine-dry-powder-extinguishers.html",
+      "status": "PASS",
+      "layout": {
+        "overflow": -15,
+        "broken": [],
+        "lang": "en",
+        "dir": "ltr"
+      },
+      "content": {
+        "h1": "Suspended Ultrafine Dry Powder Fire Extinguishers",
+        "main": 3255,
+        "internal": false
+      },
+      "reference": {
+        "section": true,
+        "rows": 3,
+        "source": "https://www.qhxf.com/product-detail/BXZvgADW",
+        "scope": "The manufacturer example below helps you specify an enquiry. Its values describe the named reference model, not the CHUANWEI product pictured above. Request the offered model’s datasheet for your order."
+      }
+    },
+    {
+      "scenario": "desktop/ar/products/suspended-ultrafine-dry-powder-extinguishers/index.html",
+      "status": "PASS",
+      "layout": {
+        "overflow": -15,
+        "broken": [],
+        "lang": "ar",
+        "dir": "rtl"
+      },
+      "content": {
+        "h1": "طفايات حريق معلقة بالمسحوق الجاف فائق النعومة",
+        "main": 2748,
+        "internal": false
+      },
+      "reference": {
+        "section": true,
+        "rows": 3,
+        "source": "https://www.qhxf.com/product-detail/BXZvgADW",
+        "scope": "يساعد المثال التالي من الشركة المصنّعة المذكورة في تحديد متطلبات الاستفسار. القيم تخص الطراز المرجعي المذكور، ولا تمثل مواصفات منتج CHUANWEI المصوّر أعلاه. اطلب ورقة بيانات الطراز المعروض لطلبك."
+      }
+    },
+    {
+      "scenario": "desktop/products/automatic-fire-suppression/cabinet-aerosol-fire-suppression.html",
+      "status": "PASS",
+      "layout": {
+        "overflow": -15,
+        "broken": [],
+        "lang": "en",
+        "dir": "ltr"
+      },
+      "content": {
+        "h1": "Cabinet Aerosol Fire Suppression Devices",
+        "main": 2669,
+        "internal": false
+      },
+      "reference": {
+        "section": true,
+        "rows": 2,
+        "source": "https://www.statx.com/product/stat-x-fixed-system-electrical-units/",
+        "scope": "The manufacturer example below helps you specify an enquiry. Its values describe the named reference model, not the CHUANWEI product pictured above. Request the offered model’s datasheet for your order."
+      }
+    },
+    {
+      "scenario": "desktop/ar/products/cabinet-aerosol-fire-suppression/index.html",
+      "status": "PASS",
+      "layout": {
+        "overflow": -15,
+        "broken": [],
+        "lang": "ar",
+        "dir": "rtl"
+      },
+      "content": {
+        "h1": "أجهزة إطفاء الحريق بالهباء الجوي للخزائن",
+        "main": 2114,
+        "internal": false
+      },
+      "reference": {
+        "section": true,
+        "rows": 2,
+        "source": "https://www.statx.com/product/stat-x-fixed-system-electrical-units/",
+        "scope": "يساعد المثال التالي من الشركة المصنّعة المذكورة في تحديد متطلبات الاستفسار. القيم تخص الطراز المرجعي المذكور، ولا تمثل مواصفات منتج CHUANWEI المصوّر أعلاه. اطلب ورقة بيانات الطراز المعروض لطلبك."
+      }
+    },
+    {
+      "scenario": "desktop/products/fire-alarm-systems/fire-alarm-control-panels.html",
+      "status": "PASS",
+      "layout": {
+        "overflow": -15,
+        "broken": [],
+        "lang": "en",
+        "dir": "ltr"
+      },
+      "content": {
+        "h1": "Fire Alarm Control Panels",
+        "main": 2411,
+        "internal": false
+      },
+      "reference": {
+        "section": true,
+        "rows": 2,
+        "source": "https://www.pottersignal.com/ipa-fire-alarm/fire-control-panels/fire-control-panel-ipa-100",
+        "scope": "The manufacturer example below helps you specify an enquiry. Its values describe the named reference model, not the CHUANWEI product pictured above. Request the offered model’s datasheet for your order."
+      }
+    },
+    {
+      "scenario": "desktop/ar/products/fire-alarm-control-panels/index.html",
+      "status": "PASS",
+      "layout": {
+        "overflow": -15,
+        "broken": [],
+        "lang": "ar",
+        "dir": "rtl"
+      },
+      "content": {
+        "h1": "لوحات التحكم في إنذار الحريق",
+        "main": 1945,
+        "internal": false
+      },
+      "reference": {
+        "section": true,
+        "rows": 2,
+        "source": "https://www.pottersignal.com/ipa-fire-alarm/fire-control-panels/fire-control-panel-ipa-100",
+        "scope": "يساعد المثال التالي من الشركة المصنّعة المذكورة في تحديد متطلبات الاستفسار. القيم تخص الطراز المرجعي المذكور، ولا تمثل مواصفات منتج CHUANWEI المصوّر أعلاه. اطلب ورقة بيانات الطراز المعروض لطلبك."
+      }
+    },
+    {
+      "scenario": "desktop/products/fire-alarm-systems/heat-detectors.html",
+      "status": "PASS",
+      "layout": {
+        "overflow": -15,
+        "broken": [],
+        "lang": "en",
+        "dir": "ltr"
+      },
+      "content": {
+        "h1": "Heat Detectors",
+        "main": 2331,
+        "internal": false
+      },
+      "reference": {
+        "section": true,
+        "rows": 2,
+        "source": "https://www.pottersignal.com/product/manual/550-0622-AAE_Potter_PAD200_6DB_4DB_Series.pdf",
+        "scope": "The manufacturer example below helps you specify an enquiry. Its values describe the named reference model, not the CHUANWEI product pictured above. Request the offered model’s datasheet for your order."
+      }
+    },
+    {
+      "scenario": "desktop/ar/products/heat-detectors/index.html",
+      "status": "PASS",
+      "layout": {
+        "overflow": -15,
+        "broken": [],
+        "lang": "ar",
+        "dir": "rtl"
+      },
+      "content": {
+        "h1": "كواشف الحرارة",
+        "main": 1836,
+        "internal": false
+      },
+      "reference": {
+        "section": true,
+        "rows": 2,
+        "source": "https://www.pottersignal.com/product/manual/550-0622-AAE_Potter_PAD200_6DB_4DB_Series.pdf",
+        "scope": "يساعد المثال التالي من الشركة المصنّعة المذكورة في تحديد متطلبات الاستفسار. القيم تخص الطراز المرجعي المذكور، ولا تمثل مواصفات منتج CHUANWEI المصوّر أعلاه. اطلب ورقة بيانات الطراز المعروض لطلبك."
+      }
+    },
+    {
+      "scenario": "desktop/products/fire-alarm-systems/photoelectric-smoke-detectors.html",
+      "status": "PASS",
+      "layout": {
+        "overflow": -15,
+        "broken": [],
+        "lang": "en",
+        "dir": "ltr"
+      },
+      "content": {
+        "h1": "Photoelectric Smoke Detectors",
+        "main": 2566,
+        "internal": false
+      },
+      "reference": {
+        "section": true,
+        "rows": 2,
+        "source": "https://www.pottersignal.com/product/manual/550-0622-AAE_Potter_PAD200_6DB_4DB_Series.pdf",
+        "scope": "The manufacturer example below helps you specify an enquiry. Its values describe the named reference model, not the CHUANWEI product pictured above. Request the offered model’s datasheet for your order."
+      }
+    },
+    {
+      "scenario": "desktop/ar/products/photoelectric-smoke-detectors/index.html",
+      "status": "PASS",
+      "layout": {
+        "overflow": -15,
+        "broken": [],
+        "lang": "ar",
+        "dir": "rtl"
+      },
+      "content": {
+        "h1": "كواشف الدخان الكهروضوئية",
+        "main": 2022,
+        "internal": false
+      },
+      "reference": {
+        "section": true,
+        "rows": 2,
+        "source": "https://www.pottersignal.com/product/manual/550-0622-AAE_Potter_PAD200_6DB_4DB_Series.pdf",
+        "scope": "يساعد المثال التالي من الشركة المصنّعة المذكورة في تحديد متطلبات الاستفسار. القيم تخص الطراز المرجعي المذكور، ولا تمثل مواصفات منتج CHUANWEI المصوّر أعلاه. اطلب ورقة بيانات الطراز المعروض لطلبك."
+      }
+    },
+    {
+      "scenario": "desktop/products/fire-pumps-controllers/vertical-multistage-fire-pumps.html",
+      "status": "PASS",
+      "layout": {
+        "overflow": -15,
+        "broken": [],
+        "lang": "en",
+        "dir": "ltr"
+      },
+      "content": {
+        "h1": "Vertical Multistage Fire Pumps",
+        "main": 2527,
+        "internal": false
+      },
+      "reference": {
+        "section": true,
+        "rows": 2,
+        "source": "http://shanghaijiaxun.com/81.html",
+        "scope": "The manufacturer example below helps you specify an enquiry. Its values describe the named reference model, not the CHUANWEI product pictured above. Request the offered model’s datasheet for your order."
+      }
+    },
+    {
+      "scenario": "desktop/ar/products/vertical-multistage-fire-pumps/index.html",
+      "status": "PASS",
+      "layout": {
+        "overflow": -15,
+        "broken": [],
+        "lang": "ar",
+        "dir": "rtl"
+      },
+      "content": {
+        "h1": "مضخات حريق رأسية متعددة المراحل",
+        "main": 2106,
+        "internal": false
+      },
+      "reference": {
+        "section": true,
+        "rows": 2,
+        "source": "http://shanghaijiaxun.com/81.html",
+        "scope": "يساعد المثال التالي من الشركة المصنّعة المذكورة في تحديد متطلبات الاستفسار. القيم تخص الطراز المرجعي المذكور، ولا تمثل مواصفات منتج CHUANWEI المصوّر أعلاه. اطلب ورقة بيانات الطراز المعروض لطلبك."
+      }
+    },
+    {
+      "scenario": "desktop/products/fire-pumps-controllers/vertical-single-stage-fire-pumps.html",
+      "status": "PASS",
+      "layout": {
+        "overflow": -15,
+        "broken": [],
+        "lang": "en",
+        "dir": "ltr"
+      },
+      "content": {
+        "h1": "Vertical Single-stage Fire Pumps",
+        "main": 2657,
+        "internal": false
+      },
+      "reference": {
+        "section": true,
+        "rows": 2,
+        "source": "http://shanghaijiaxun.com/81.html",
+        "scope": "The manufacturer example below helps you specify an enquiry. Its values describe the named reference model, not the CHUANWEI product pictured above. Request the offered model’s datasheet for your order."
+      }
+    },
+    {
+      "scenario": "desktop/ar/products/vertical-single-stage-fire-pumps/index.html",
+      "status": "PASS",
+      "layout": {
+        "overflow": -15,
+        "broken": [],
+        "lang": "ar",
+        "dir": "rtl"
+      },
+      "content": {
+        "h1": "مضخات حريق رأسية أحادية المرحلة",
+        "main": 2183,
+        "internal": false
+      },
+      "reference": {
+        "section": true,
+        "rows": 2,
+        "source": "http://shanghaijiaxun.com/81.html",
+        "scope": "يساعد المثال التالي من الشركة المصنّعة المذكورة في تحديد متطلبات الاستفسار. القيم تخص الطراز المرجعي المذكور، ولا تمثل مواصفات منتج CHUANWEI المصوّر أعلاه. اطلب ورقة بيانات الطراز المعروض لطلبك."
+      }
+    },
+    {
+      "scenario": "desktop/products/fire-pumps-controllers/fire-pressure-maintenance-sets.html",
+      "status": "PASS",
+      "layout": {
+        "overflow": -15,
+        "broken": [],
+        "lang": "en",
+        "dir": "ltr"
+      },
+      "content": {
+        "h1": "Fire Pressure Maintenance Sets",
+        "main": 2656,
+        "internal": false
+      },
+      "reference": {
+        "section": true,
+        "rows": 2,
+        "source": "http://shanghaijiaxun.com/81.html",
+        "scope": "The manufacturer example below helps you specify an enquiry. Its values describe the named reference model, not the CHUANWEI product pictured above. Request the offered model’s datasheet for your order."
+      }
+    },
+    {
+      "scenario": "desktop/ar/products/fire-pressure-maintenance-sets/index.html",
+      "status": "PASS",
+      "layout": {
+        "overflow": -15,
+        "broken": [],
+        "lang": "ar",
+        "dir": "rtl"
+      },
+      "content": {
+        "h1": "مجموعات تثبيت ضغط مياه الحريق",
+        "main": 2152,
+        "internal": false
+      },
+      "reference": {
+        "section": true,
+        "rows": 2,
+        "source": "http://shanghaijiaxun.com/81.html",
+        "scope": "يساعد المثال التالي من الشركة المصنّعة المذكورة في تحديد متطلبات الاستفسار. القيم تخص الطراز المرجعي المذكور، ولا تمثل مواصفات منتج CHUANWEI المصوّر أعلاه. اطلب ورقة بيانات الطراز المعروض لطلبك."
+      }
+    },
+    {
+      "scenario": "desktop/products/fire-pumps-controllers/automatic-transfer-control-cabinets.html",
+      "status": "PASS",
+      "layout": {
+        "overflow": -15,
+        "broken": [],
+        "lang": "en",
+        "dir": "ltr"
+      },
+      "content": {
+        "h1": "Dual Power Control Cabinets",
+        "main": 2309,
+        "internal": false
+      },
+      "reference": {
+        "section": true,
+        "rows": 2,
+        "source": "https://new.abb.com/docs/librariesprovider22/default-document-library/truone_ats_1scc303008c0201_global_catalog_22-03.pdf?sfvrsn=11c6c60a_0",
+        "scope": "The manufacturer example below helps you specify an enquiry. Its values describe the named reference model, not the CHUANWEI product pictured above. Request the offered model’s datasheet for your order."
+      }
+    },
+    {
+      "scenario": "desktop/ar/products/automatic-transfer-control-cabinets/index.html",
+      "status": "PASS",
+      "layout": {
+        "overflow": -15,
+        "broken": [],
+        "lang": "ar",
+        "dir": "rtl"
+      },
+      "content": {
+        "h1": "خزائن تحكم بمصدرَي تغذية",
+        "main": 1874,
+        "internal": false
+      },
+      "reference": {
+        "section": true,
+        "rows": 2,
+        "source": "https://new.abb.com/docs/librariesprovider22/default-document-library/truone_ats_1scc303008c0201_global_catalog_22-03.pdf?sfvrsn=11c6c60a_0",
+        "scope": "يساعد المثال التالي من الشركة المصنّعة المذكورة في تحديد متطلبات الاستفسار. القيم تخص الطراز المرجعي المذكور، ولا تمثل مواصفات منتج CHUANWEI المصوّر أعلاه. اطلب ورقة بيانات الطراز المعروض لطلبك."
+      }
+    },
+    {
+      "scenario": "desktop/products/fire-pumps-controllers/fire-pump-inspection-control-cabinets.html",
+      "status": "PASS",
+      "layout": {
+        "overflow": -15,
+        "broken": [],
+        "lang": "en",
+        "dir": "ltr"
+      },
+      "content": {
+        "h1": "Fire Pump Inspection & Control Cabinets",
+        "main": 3114,
+        "internal": false
+      },
+      "reference": {
+        "section": true,
+        "rows": 2,
+        "source": "https://www.tornatech.com/product/gpx-series-electric-fire-pump-controllers-2/",
+        "scope": "The manufacturer example below helps you specify an enquiry. Its values describe the named reference model, not the CHUANWEI product pictured above. Request the offered model’s datasheet for your order."
+      }
+    },
+    {
+      "scenario": "desktop/ar/products/fire-pump-inspection-control-cabinets/index.html",
+      "status": "PASS",
+      "layout": {
+        "overflow": -15,
+        "broken": [],
+        "lang": "ar",
+        "dir": "rtl"
+      },
+      "content": {
+        "h1": "خزائن فحص وتحكم لمضخات الحريق",
+        "main": 2464,
+        "internal": false
+      },
+      "reference": {
+        "section": true,
+        "rows": 2,
+        "source": "https://www.tornatech.com/product/gpx-series-electric-fire-pump-controllers-2/",
+        "scope": "يساعد المثال التالي من الشركة المصنّعة المذكورة في تحديد متطلبات الاستفسار. القيم تخص الطراز المرجعي المذكور، ولا تمثل مواصفات منتج CHUANWEI المصوّر أعلاه. اطلب ورقة بيانات الطراز المعروض لطلبك."
+      }
+    },
+    {
+      "scenario": "desktop/products/pipeline-valves-strainers/flanged-y-strainers.html",
+      "status": "PASS",
+      "layout": {
+        "overflow": -15,
+        "broken": [],
+        "lang": "en",
+        "dir": "ltr"
+      },
+      "content": {
+        "h1": "Flanged Y Strainers",
+        "main": 2558,
+        "internal": false
+      },
+      "reference": {
+        "section": true,
+        "rows": 3,
+        "source": "https://www.pangovalve.cn/glq/156.html",
+        "scope": "The manufacturer example below helps you specify an enquiry. Its values describe the named reference model, not the CHUANWEI product pictured above. Request the offered model’s datasheet for your order."
+      }
+    },
+    {
+      "scenario": "desktop/ar/products/flanged-y-strainers/index.html",
+      "status": "PASS",
+      "layout": {
+        "overflow": -15,
+        "broken": [],
+        "lang": "ar",
+        "dir": "rtl"
+      },
+      "content": {
+        "h1": "مصافٍ بفلنجات على شكل Y",
+        "main": 2131,
+        "internal": false
+      },
+      "reference": {
+        "section": true,
+        "rows": 3,
+        "source": "https://www.pangovalve.cn/glq/156.html",
+        "scope": "يساعد المثال التالي من الشركة المصنّعة المذكورة في تحديد متطلبات الاستفسار. القيم تخص الطراز المرجعي المذكور، ولا تمثل مواصفات منتج CHUANWEI المصوّر أعلاه. اطلب ورقة بيانات الطراز المعروض لطلبك."
+      }
+    },
+    {
+      "scenario": "desktop/products/pipeline-valves-strainers/swing-check-valves.html",
+      "status": "PASS",
+      "layout": {
+        "overflow": -15,
+        "broken": [],
+        "lang": "en",
+        "dir": "ltr"
+      },
+      "content": {
+        "h1": "Swing Check Valves",
+        "main": 2555,
+        "internal": false
+      },
+      "reference": {
+        "section": true,
+        "rows": 2,
+        "source": "https://www.nibco.com/nibco-products/valves/check-valves/f-918-b",
+        "scope": "The manufacturer example below helps you specify an enquiry. Its values describe the named reference model, not the CHUANWEI product pictured above. Request the offered model’s datasheet for your order."
+      }
+    },
+    {
+      "scenario": "desktop/ar/products/swing-check-valves/index.html",
+      "status": "PASS",
+      "layout": {
+        "overflow": -15,
+        "broken": [],
+        "lang": "ar",
+        "dir": "rtl"
+      },
+      "content": {
+        "h1": "صمامات عدم رجوع متأرجحة",
+        "main": 2127,
+        "internal": false
+      },
+      "reference": {
+        "section": true,
+        "rows": 2,
+        "source": "https://www.nibco.com/nibco-products/valves/check-valves/f-918-b",
+        "scope": "يساعد المثال التالي من الشركة المصنّعة المذكورة في تحديد متطلبات الاستفسار. القيم تخص الطراز المرجعي المذكور، ولا تمثل مواصفات منتج CHUANWEI المصوّر أعلاه. اطلب ورقة بيانات الطراز المعروض لطلبك."
+      }
+    },
+    {
+      "scenario": "desktop/products/pipeline-valves-strainers/flanged-globe-valves.html",
+      "status": "PASS",
+      "layout": {
+        "overflow": -15,
+        "broken": [],
+        "lang": "en",
+        "dir": "ltr"
+      },
+      "content": {
+        "h1": "Flanged Globe Valves",
+        "main": 2450,
+        "internal": false
+      },
+      "reference": {
+        "section": true,
+        "rows": 2,
+        "source": "https://www.dtjt.com/proDetail_1417.html",
+        "scope": "The manufacturer example below helps you specify an enquiry. Its values describe the named reference model, not the CHUANWEI product pictured above. Request the offered model’s datasheet for your order."
+      }
+    },
+    {
+      "scenario": "desktop/ar/products/flanged-globe-valves/index.html",
+      "status": "PASS",
+      "layout": {
+        "overflow": -15,
+        "broken": [],
+        "lang": "ar",
+        "dir": "rtl"
+      },
+      "content": {
+        "h1": "صمامات غلوب بفلنجات",
+        "main": 1998,
+        "internal": false
+      },
+      "reference": {
+        "section": true,
+        "rows": 2,
+        "source": "https://www.dtjt.com/proDetail_1417.html",
+        "scope": "يساعد المثال التالي من الشركة المصنّعة المذكورة في تحديد متطلبات الاستفسار. القيم تخص الطراز المرجعي المذكور، ولا تمثل مواصفات منتج CHUANWEI المصوّر أعلاه. اطلب ورقة بيانات الطراز المعروض لطلبك."
+      }
+    },
+    {
+      "scenario": "desktop/products/pipeline-valves-strainers/two-piece-stainless-steel-ball-valves.html",
+      "status": "PASS",
+      "layout": {
+        "overflow": -15,
+        "broken": [],
+        "lang": "en",
+        "dir": "ltr"
+      },
+      "content": {
+        "h1": "Two-piece Stainless Steel Ball Valves",
+        "main": 2456,
+        "internal": false
+      },
+      "reference": {
+        "section": true,
+        "rows": 2,
+        "source": "https://catalog.nibco.com/viewitems/ball-valves-7/ntional-port-stainless-steel-trim-t-580-s6-r-66-ll",
+        "scope": "The manufacturer example below helps you specify an enquiry. Its values describe the named reference model, not the CHUANWEI product pictured above. Request the offered model’s datasheet for your order."
+      }
+    },
+    {
+      "scenario": "desktop/ar/products/two-piece-stainless-steel-ball-valves/index.html",
+      "status": "PASS",
+      "layout": {
+        "overflow": -15,
+        "broken": [],
+        "lang": "ar",
+        "dir": "rtl"
+      },
+      "content": {
+        "h1": "صمامات كروية من الستانلس ستيل بجسم من قطعتين",
+        "main": 1946,
+        "internal": false
+      },
+      "reference": {
+        "section": true,
+        "rows": 2,
+        "source": "https://catalog.nibco.com/viewitems/ball-valves-7/ntional-port-stainless-steel-trim-t-580-s6-r-66-ll",
+        "scope": "يساعد المثال التالي من الشركة المصنّعة المذكورة في تحديد متطلبات الاستفسار. القيم تخص الطراز المرجعي المذكور، ولا تمثل مواصفات منتج CHUANWEI المصوّر أعلاه. اطلب ورقة بيانات الطراز المعروض لطلبك."
+      }
+    },
+    {
+      "scenario": "desktop/products/grooved-pipe-fittings/grooved-pipe-elbows.html",
+      "status": "PASS",
+      "layout": {
+        "overflow": -15,
+        "broken": [],
+        "lang": "en",
+        "dir": "ltr"
+      },
+      "content": {
+        "h1": "Grooved Pipe Elbows",
+        "main": 6113,
+        "internal": false
+      },
+      "reference": {
+        "section": true,
+        "rows": 2,
+        "source": "https://assets.victaulic.com/assets/uploads/literature/07.01.pdf",
+        "scope": "The manufacturer example below helps you specify an enquiry. Its values describe the named reference model, not the CHUANWEI product pictured above. Request the offered model’s datasheet for your order."
+      }
+    },
+    {
+      "scenario": "desktop/ar/products/grooved-pipe-elbows/index.html",
+      "status": "PASS",
+      "layout": {
+        "overflow": -15,
+        "broken": [],
+        "lang": "ar",
+        "dir": "rtl"
+      },
+      "content": {
+        "h1": "أكواع أنابيب ذات أخاديد",
+        "main": 5795,
+        "internal": false
+      },
+      "reference": {
+        "section": true,
+        "rows": 2,
+        "source": "https://assets.victaulic.com/assets/uploads/literature/07.01.pdf",
+        "scope": "يساعد المثال التالي من الشركة المصنّعة المذكورة في تحديد متطلبات الاستفسار. القيم تخص الطراز المرجعي المذكور، ولا تمثل مواصفات منتج CHUANWEI المصوّر أعلاه. اطلب ورقة بيانات الطراز المعروض لطلبك."
+      }
+    },
+    {
+      "scenario": "desktop/products/grooved-pipe-fittings/grooved-reducing-tees.html",
+      "status": "PASS",
+      "layout": {
+        "overflow": -15,
+        "broken": [],
+        "lang": "en",
+        "dir": "ltr"
+      },
+      "content": {
+        "h1": "Grooved Reducing Tees",
+        "main": 4611,
+        "internal": false
+      },
+      "reference": {
+        "section": true,
+        "rows": 2,
+        "source": "https://assets.victaulic.com/assets/uploads/literature/07.01.pdf",
+        "scope": "The manufacturer example below helps you specify an enquiry. Its values describe the named reference model, not the CHUANWEI product pictured above. Request the offered model’s datasheet for your order."
+      }
+    },
+    {
+      "scenario": "desktop/ar/products/grooved-reducing-tees/index.html",
+      "status": "PASS",
+      "layout": {
+        "overflow": -15,
+        "broken": [],
+        "lang": "ar",
+        "dir": "rtl"
+      },
+      "content": {
+        "h1": "وصلات T مخفضة ذات أخاديد",
+        "main": 4196,
+        "internal": false
+      },
+      "reference": {
+        "section": true,
+        "rows": 2,
+        "source": "https://assets.victaulic.com/assets/uploads/literature/07.01.pdf",
+        "scope": "يساعد المثال التالي من الشركة المصنّعة المذكورة في تحديد متطلبات الاستفسار. القيم تخص الطراز المرجعي المذكور، ولا تمثل مواصفات منتج CHUANWEI المصوّر أعلاه. اطلب ورقة بيانات الطراز المعروض لطلبك."
+      }
+    },
+    {
+      "scenario": "desktop/products/grooved-pipe-fittings/grooved-equal-crosses.html",
+      "status": "PASS",
+      "layout": {
+        "overflow": -15,
+        "broken": [],
+        "lang": "en",
+        "dir": "ltr"
+      },
+      "content": {
+        "h1": "Grooved Equal Crosses",
+        "main": 3297,
+        "internal": false
+      },
+      "reference": {
+        "section": true,
+        "rows": 2,
+        "source": "https://assets.victaulic.com/assets/uploads/literature/07.01.pdf",
+        "scope": "The manufacturer example below helps you specify an enquiry. Its values describe the named reference model, not the CHUANWEI product pictured above. Request the offered model’s datasheet for your order."
+      }
+    },
+    {
+      "scenario": "desktop/ar/products/grooved-equal-crosses/index.html",
+      "status": "PASS",
+      "layout": {
+        "overflow": -15,
+        "broken": [],
+        "lang": "ar",
+        "dir": "rtl"
+      },
+      "content": {
+        "h1": "وصلات صليبية متساوية ذات أخاديد",
+        "main": 2981,
+        "internal": false
+      },
+      "reference": {
+        "section": true,
+        "rows": 2,
+        "source": "https://assets.victaulic.com/assets/uploads/literature/07.01.pdf",
+        "scope": "يساعد المثال التالي من الشركة المصنّعة المذكورة في تحديد متطلبات الاستفسار. القيم تخص الطراز المرجعي المذكور، ولا تمثل مواصفات منتج CHUANWEI المصوّر أعلاه. اطلب ورقة بيانات الطراز المعروض لطلبك."
+      }
+    },
+    {
+      "scenario": "desktop/products/grooved-pipe-fittings/rigid-grooved-pipe-couplings.html",
+      "status": "PASS",
+      "layout": {
+        "overflow": -15,
+        "broken": [],
+        "lang": "en",
+        "dir": "ltr"
+      },
+      "content": {
+        "h1": "Rigid Grooved Pipe Couplings",
+        "main": 3855,
+        "internal": false
+      },
+      "reference": {
+        "section": true,
+        "rows": 2,
+        "source": "https://assets.victaulic.com/assets/uploads/literature/06.23.pdf",
+        "scope": "The manufacturer example below helps you specify an enquiry. Its values describe the named reference model, not the CHUANWEI product pictured above. Request the offered model’s datasheet for your order."
+      }
+    },
+    {
+      "scenario": "desktop/ar/products/rigid-grooved-pipe-couplings/index.html",
+      "status": "PASS",
+      "layout": {
+        "overflow": -15,
+        "broken": [],
+        "lang": "ar",
+        "dir": "rtl"
+      },
+      "content": {
+        "h1": "وصلات أنابيب صلبة ذات أخاديد",
+        "main": 3465,
+        "internal": false
+      },
+      "reference": {
+        "section": true,
+        "rows": 2,
+        "source": "https://assets.victaulic.com/assets/uploads/literature/06.23.pdf",
+        "scope": "يساعد المثال التالي من الشركة المصنّعة المذكورة في تحديد متطلبات الاستفسار. القيم تخص الطراز المرجعي المذكور، ولا تمثل مواصفات منتج CHUANWEI المصوّر أعلاه. اطلب ورقة بيانات الطراز المعروض لطلبك."
+      }
+    },
+    {
+      "scenario": "desktop/products/pressure-gauges-accessories/pressure-vacuum-gauges.html",
+      "status": "PASS",
+      "layout": {
+        "overflow": -15,
+        "broken": [],
+        "lang": "en",
+        "dir": "ltr"
+      },
+      "content": {
+        "h1": "Pressure & Vacuum Gauges",
+        "main": 4465,
+        "internal": false
+      },
+      "reference": {
+        "section": true,
+        "rows": 1,
+        "source": "https://www.wika.com/media/Data-sheets/Pressure/Pressure-gauges/ds_pm0212_en_co.pdf",
+        "scope": "The manufacturer example below helps you specify an enquiry. Its values describe the named reference model, not the CHUANWEI product pictured above. Request the offered model’s datasheet for your order."
+      }
+    },
+    {
+      "scenario": "desktop/ar/products/pressure-vacuum-gauges/index.html",
+      "status": "PASS",
+      "layout": {
+        "overflow": -15,
+        "broken": [],
+        "lang": "ar",
+        "dir": "rtl"
+      },
+      "content": {
+        "h1": "مقاييس الضغط والفراغ",
+        "main": 3836,
+        "internal": false
+      },
+      "reference": {
+        "section": true,
+        "rows": 1,
+        "source": "https://www.wika.com/media/Data-sheets/Pressure/Pressure-gauges/ds_pm0212_en_co.pdf",
+        "scope": "يساعد المثال التالي من الشركة المصنّعة المذكورة في تحديد متطلبات الاستفسار. القيم تخص الطراز المرجعي المذكور، ولا تمثل مواصفات منتج CHUANWEI المصوّر أعلاه. اطلب ورقة بيانات الطراز المعروض لطلبك."
+      }
+    },
+    {
+      "scenario": "desktop/products/pressure-gauges-accessories/liquid-filled-pressure-gauges.html",
+      "status": "PASS",
+      "layout": {
+        "overflow": -15,
+        "broken": [],
+        "lang": "en",
+        "dir": "ltr"
+      },
+      "content": {
+        "h1": "Liquid-filled Pressure Gauges",
+        "main": 4880,
+        "internal": false
+      },
+      "reference": {
+        "section": true,
+        "rows": 2,
+        "source": "https://www.wika.com/media/Data-sheets/Pressure/Pressure-gauges/ds_pm0212_en_co.pdf",
+        "scope": "The manufacturer example below helps you specify an enquiry. Its values describe the named reference model, not the CHUANWEI product pictured above. Request the offered model’s datasheet for your order."
+      }
+    },
+    {
+      "scenario": "desktop/ar/products/liquid-filled-pressure-gauges/index.html",
+      "status": "PASS",
+      "layout": {
+        "overflow": -15,
+        "broken": [],
+        "lang": "ar",
+        "dir": "rtl"
+      },
+      "content": {
+        "h1": "مقاييس ضغط مملوءة بالسائل",
+        "main": 4196,
+        "internal": false
+      },
+      "reference": {
+        "section": true,
+        "rows": 2,
+        "source": "https://www.wika.com/media/Data-sheets/Pressure/Pressure-gauges/ds_pm0212_en_co.pdf",
+        "scope": "يساعد المثال التالي من الشركة المصنّعة المذكورة في تحديد متطلبات الاستفسار. القيم تخص الطراز المرجعي المذكور، ولا تمثل مواصفات منتج CHUANWEI المصوّر أعلاه. اطلب ورقة بيانات الطراز المعروض لطلبك."
+      }
+    },
+    {
+      "scenario": "desktop/products/pressure-gauges-accessories/pressure-gauge-syphons.html",
+      "status": "PASS",
+      "layout": {
+        "overflow": -15,
+        "broken": [],
+        "lang": "en",
+        "dir": "ltr"
+      },
+      "content": {
+        "h1": "Pressure Gauge Syphon Tubes",
+        "main": 2774,
+        "internal": false
+      },
+      "reference": {
+        "section": true,
+        "rows": 2,
+        "source": "https://www.wika.com/en-us/910_15.WIKA",
+        "scope": "The manufacturer example below helps you specify an enquiry. Its values describe the named reference model, not the CHUANWEI product pictured above. Request the offered model’s datasheet for your order."
+      }
+    },
+    {
+      "scenario": "desktop/ar/products/pressure-gauge-syphons/index.html",
+      "status": "PASS",
+      "layout": {
+        "overflow": -15,
+        "broken": [],
+        "lang": "ar",
+        "dir": "rtl"
+      },
+      "content": {
+        "h1": "أنابيب سيفون لمقاييس الضغط",
+        "main": 2199,
+        "internal": false
+      },
+      "reference": {
+        "section": true,
+        "rows": 2,
+        "source": "https://www.wika.com/en-us/910_15.WIKA",
+        "scope": "يساعد المثال التالي من الشركة المصنّعة المذكورة في تحديد متطلبات الاستفسار. القيم تخص الطراز المرجعي المذكور، ولا تمثل مواصفات منتج CHUANWEI المصوّر أعلاه. اطلب ورقة بيانات الطراز المعروض لطلبك."
+      }
+    },
+    {
+      "scenario": "desktop/products/hoses-nozzles-couplings/pistol-grip-combination-fire-nozzles.html",
+      "status": "PASS",
+      "layout": {
+        "overflow": -15,
+        "broken": [],
+        "lang": "en",
+        "dir": "ltr"
+      },
+      "content": {
+        "h1": "Pistol-grip Combination Fire Nozzles",
+        "main": 2454,
+        "internal": false
+      },
+      "reference": {
+        "section": true,
+        "rows": 1,
+        "source": "https://tft.com/product_series/g-force-series/",
+        "scope": "The manufacturer example below helps you specify an enquiry. Its values describe the named reference model, not the CHUANWEI product pictured above. Request the offered model’s datasheet for your order."
+      }
+    },
+    {
+      "scenario": "desktop/ar/products/pistol-grip-combination-fire-nozzles/index.html",
+      "status": "PASS",
+      "layout": {
+        "overflow": -15,
+        "broken": [],
+        "lang": "ar",
+        "dir": "rtl"
+      },
+      "content": {
+        "h1": "فوهات حريق متعددة الأنماط بقبضة مسدس",
+        "main": 1981,
+        "internal": false
+      },
+      "reference": {
+        "section": true,
+        "rows": 1,
+        "source": "https://tft.com/product_series/g-force-series/",
+        "scope": "يساعد المثال التالي من الشركة المصنّعة المذكورة في تحديد متطلبات الاستفسار. القيم تخص الطراز المرجعي المذكور، ولا تمثل مواصفات منتج CHUANWEI المصوّر أعلاه. اطلب ورقة بيانات الطراز المعروض لطلبك."
+      }
+    },
+    {
+      "scenario": "desktop/products/grooved-pipe-fittings/grooved-concentric-reducers.html",
+      "status": "PASS",
+      "layout": {
+        "overflow": -15,
+        "broken": [],
+        "lang": "en",
+        "dir": "ltr"
+      },
+      "content": {
+        "h1": "Grooved Concentric Reducers",
+        "main": 3104,
+        "internal": false
+      },
+      "reference": {
+        "section": true,
+        "rows": 2,
+        "source": "https://assets.victaulic.com/assets/uploads/literature/07.01.pdf",
+        "scope": "The manufacturer example below helps you specify an enquiry. Its values describe the named reference model, not the CHUANWEI product pictured above. Request the offered model’s datasheet for your order."
+      }
+    },
+    {
+      "scenario": "desktop/ar/products/grooved-concentric-reducers/index.html",
+      "status": "PASS",
+      "layout": {
+        "overflow": -15,
+        "broken": [],
+        "lang": "ar",
+        "dir": "rtl"
+      },
+      "content": {
+        "h1": "مخفضات متحدة المركز ذات أخاديد",
+        "main": 2627,
+        "internal": false
+      },
+      "reference": {
+        "section": true,
+        "rows": 2,
+        "source": "https://assets.victaulic.com/assets/uploads/literature/07.01.pdf",
+        "scope": "يساعد المثال التالي من الشركة المصنّعة المذكورة في تحديد متطلبات الاستفسار. القيم تخص الطراز المرجعي المذكور، ولا تمثل مواصفات منتج CHUANWEI المصوّر أعلاه. اطلب ورقة بيانات الطراز المعروض لطلبك."
+      }
+    },
+    {
+      "scenario": "desktop/products/grooved-pipe-fittings/threaded-mechanical-tees.html",
+      "status": "PASS",
+      "layout": {
+        "overflow": -15,
+        "broken": [],
+        "lang": "en",
+        "dir": "ltr"
+      },
+      "content": {
+        "h1": "Threaded Mechanical Tees",
+        "main": 2630,
+        "internal": false
+      },
+      "reference": {
+        "section": true,
+        "rows": 1,
+        "source": "https://assets.victaulic.com/assets/uploads/literature/11.02.pdf",
+        "scope": "The manufacturer example below helps you specify an enquiry. Its values describe the named reference model, not the CHUANWEI product pictured above. Request the offered model’s datasheet for your order."
+      }
+    },
+    {
+      "scenario": "desktop/ar/products/threaded-mechanical-tees/index.html",
+      "status": "PASS",
+      "layout": {
+        "overflow": -15,
+        "broken": [],
+        "lang": "ar",
+        "dir": "rtl"
+      },
+      "content": {
+        "h1": "وصلات T ميكانيكية بمخرج ملولب",
+        "main": 2107,
+        "internal": false
+      },
+      "reference": {
+        "section": true,
+        "rows": 1,
+        "source": "https://assets.victaulic.com/assets/uploads/literature/11.02.pdf",
+        "scope": "يساعد المثال التالي من الشركة المصنّعة المذكورة في تحديد متطلبات الاستفسار. القيم تخص الطراز المرجعي المذكور، ولا تمثل مواصفات منتج CHUANWEI المصوّر أعلاه. اطلب ورقة بيانات الطراز المعروض لطلبك."
+      }
+    },
+    {
+      "scenario": "desktop/products/grooved-pipe-fittings/grooved-equal-tees.html",
+      "status": "PASS",
+      "layout": {
+        "overflow": -15,
+        "broken": [],
+        "lang": "en",
+        "dir": "ltr"
+      },
+      "content": {
+        "h1": "Grooved Equal Tees",
+        "main": 2708,
+        "internal": false
+      },
+      "reference": {
+        "section": true,
+        "rows": 2,
+        "source": "https://assets.victaulic.com/assets/uploads/literature/07.01.pdf",
+        "scope": "The manufacturer example below helps you specify an enquiry. Its values describe the named reference model, not the CHUANWEI product pictured above. Request the offered model’s datasheet for your order."
+      }
+    },
+    {
+      "scenario": "desktop/ar/products/grooved-equal-tees/index.html",
+      "status": "PASS",
+      "layout": {
+        "overflow": -15,
+        "broken": [],
+        "lang": "ar",
+        "dir": "rtl"
+      },
+      "content": {
+        "h1": "وصلات T متساوية ذات أخاديد",
+        "main": 2256,
+        "internal": false
+      },
+      "reference": {
+        "section": true,
+        "rows": 2,
+        "source": "https://assets.victaulic.com/assets/uploads/literature/07.01.pdf",
+        "scope": "يساعد المثال التالي من الشركة المصنّعة المذكورة في تحديد متطلبات الاستفسار. القيم تخص الطراز المرجعي المذكور، ولا تمثل مواصفات منتج CHUANWEI المصوّر أعلاه. اطلب ورقة بيانات الطراز المعروض لطلبك."
+      }
+    },
+    {
+      "scenario": "desktop/products/grooved-pipe-fittings/grooved-flange-adapters.html",
+      "status": "PASS",
+      "layout": {
+        "overflow": -15,
+        "broken": [],
+        "lang": "en",
+        "dir": "ltr"
+      },
+      "content": {
+        "h1": "Grooved Flange Adapters",
+        "main": 2620,
+        "internal": false
+      },
+      "reference": {
+        "section": true,
+        "rows": 2,
+        "source": "https://assets.victaulic.com/assets/uploads/literature/06.06.pdf",
+        "scope": "The manufacturer example below helps you specify an enquiry. Its values describe the named reference model, not the CHUANWEI product pictured above. Request the offered model’s datasheet for your order."
+      }
+    },
+    {
+      "scenario": "desktop/ar/products/grooved-flange-adapters/index.html",
+      "status": "PASS",
+      "layout": {
+        "overflow": -15,
+        "broken": [],
+        "lang": "ar",
+        "dir": "rtl"
+      },
+      "content": {
+        "h1": "محولات فلنجية ذات أخاديد",
+        "main": 2098,
+        "internal": false
+      },
+      "reference": {
+        "section": true,
+        "rows": 2,
+        "source": "https://assets.victaulic.com/assets/uploads/literature/06.06.pdf",
+        "scope": "يساعد المثال التالي من الشركة المصنّعة المذكورة في تحديد متطلبات الاستفسار. القيم تخص الطراز المرجعي المذكور، ولا تمثل مواصفات منتج CHUANWEI المصوّر أعلاه. اطلب ورقة بيانات الطراز المعروض لطلبك."
+      }
+    },
+    {
+      "scenario": "desktop/products/fire-pumps-controllers/horizontal-single-stage-fire-pumps.html",
+      "status": "PASS",
+      "layout": {
+        "overflow": -15,
+        "broken": [],
+        "lang": "en",
+        "dir": "ltr"
+      },
+      "content": {
+        "h1": "Horizontal Single-Stage Fire Pumps",
+        "main": 2927,
+        "internal": false
+      },
+      "reference": {
+        "section": true,
+        "rows": 2,
+        "source": "http://shanghaijiaxun.com/81.html",
+        "scope": "The manufacturer example below helps you specify an enquiry. Its values describe the named reference model, not the CHUANWEI product pictured above. Request the offered model’s datasheet for your order."
+      }
+    },
+    {
+      "scenario": "desktop/ar/products/horizontal-single-stage-fire-pumps/index.html",
+      "status": "PASS",
+      "layout": {
+        "overflow": -15,
+        "broken": [],
+        "lang": "ar",
+        "dir": "rtl"
+      },
+      "content": {
+        "h1": "مضخات حريق أفقية أحادية المرحلة",
+        "main": 2355,
+        "internal": false
+      },
+      "reference": {
+        "section": true,
+        "rows": 2,
+        "source": "http://shanghaijiaxun.com/81.html",
+        "scope": "يساعد المثال التالي من الشركة المصنّعة المذكورة في تحديد متطلبات الاستفسار. القيم تخص الطراز المرجعي المذكور، ولا تمثل مواصفات منتج CHUANWEI المصوّر أعلاه. اطلب ورقة بيانات الطراز المعروض لطلبك."
+      }
+    },
+    {
+      "scenario": "mobile/products/fire-extinguishers/portable-dry-powder-fire-extinguishers.html",
+      "status": "PASS",
+      "layout": {
+        "overflow": 0,
+        "broken": [],
+        "lang": "en",
+        "dir": "ltr"
+      },
+      "content": {
+        "h1": "Portable Dry Powder Fire Extinguishers",
+        "main": 2779,
+        "internal": false
+      },
+      "reference": {
+        "section": true,
+        "rows": 1,
+        "source": "https://amerex-fire.com/api/documents/download?a=en&d=import-amerex-portable-fire-extinguisher-catalog",
+        "scope": "The manufacturer example below helps you specify an enquiry. Its values describe the named reference model, not the CHUANWEI product pictured above. Request the offered model’s datasheet for your order."
+      }
+    },
+    {
+      "scenario": "mobile/ar/products/portable-dry-powder-fire-extinguishers/index.html",
+      "status": "PASS",
+      "layout": {
+        "overflow": 0,
+        "broken": [],
+        "lang": "ar",
+        "dir": "rtl"
+      },
+      "content": {
+        "h1": "طفايات حريق محمولة بالمسحوق الجاف",
+        "main": 2356,
+        "internal": false
+      },
+      "reference": {
+        "section": true,
+        "rows": 1,
+        "source": "https://amerex-fire.com/api/documents/download?a=en&d=import-amerex-portable-fire-extinguisher-catalog",
+        "scope": "يساعد المثال التالي من الشركة المصنّعة المذكورة في تحديد متطلبات الاستفسار. القيم تخص الطراز المرجعي المذكور، ولا تمثل مواصفات منتج CHUANWEI المصوّر أعلاه. اطلب ورقة بيانات الطراز المعروض لطلبك."
+      }
+    },
+    {
+      "scenario": "mobile/products/fire-extinguishers/portable-water-based-fire-extinguishers.html",
+      "status": "PASS",
+      "layout": {
+        "overflow": 0,
+        "broken": [],
+        "lang": "en",
+        "dir": "ltr"
+      },
+      "content": {
+        "h1": "Portable Water-Based Fire Extinguishers",
+        "main": 2869,
+        "internal": false
+      },
+      "reference": {
+        "section": true,
+        "rows": 2,
+        "source": "https://amerex-fire.com/products/fire-extinguishers/portable-fire-extinguishers/240",
+        "scope": "The manufacturer example below helps you specify an enquiry. Its values describe the named reference model, not the CHUANWEI product pictured above. Request the offered model’s datasheet for your order."
+      }
+    },
+    {
+      "scenario": "mobile/ar/products/portable-water-based-fire-extinguishers/index.html",
+      "status": "PASS",
+      "layout": {
+        "overflow": 0,
+        "broken": [],
+        "lang": "ar",
+        "dir": "rtl"
+      },
+      "content": {
+        "h1": "طفايات حريق محمولة بعامل إطفاء مائي",
+        "main": 2374,
+        "internal": false
+      },
+      "reference": {
+        "section": true,
+        "rows": 2,
+        "source": "https://amerex-fire.com/products/fire-extinguishers/portable-fire-extinguishers/240",
+        "scope": "يساعد المثال التالي من الشركة المصنّعة المذكورة في تحديد متطلبات الاستفسار. القيم تخص الطراز المرجعي المذكور، ولا تمثل مواصفات منتج CHUANWEI المصوّر أعلاه. اطلب ورقة بيانات الطراز المعروض لطلبك."
+      }
+    },
+    {
+      "scenario": "mobile/products/fire-extinguishers/portable-co2-fire-extinguishers.html",
+      "status": "PASS",
+      "layout": {
+        "overflow": 0,
+        "broken": [],
+        "lang": "en",
+        "dir": "ltr"
+      },
+      "content": {
+        "h1": "Portable CO₂ Fire Extinguishers",
+        "main": 2599,
+        "internal": false
+      },
+      "reference": {
+        "section": true,
+        "rows": 2,
+        "source": "https://amerex-fire.com/api/documents/download?a=en&d=import-amerex-portable-fire-extinguisher-catalog",
+        "scope": "The manufacturer example below helps you specify an enquiry. Its values describe the named reference model, not the CHUANWEI product pictured above. Request the offered model’s datasheet for your order."
+      }
+    },
+    {
+      "scenario": "mobile/ar/products/portable-co2-fire-extinguishers/index.html",
+      "status": "PASS",
+      "layout": {
+        "overflow": 0,
+        "broken": [],
+        "lang": "ar",
+        "dir": "rtl"
+      },
+      "content": {
+        "h1": "طفايات حريق محمولة بثاني أكسيد الكربون",
+        "main": 2214,
+        "internal": false
+      },
+      "reference": {
+        "section": true,
+        "rows": 2,
+        "source": "https://amerex-fire.com/api/documents/download?a=en&d=import-amerex-portable-fire-extinguisher-catalog",
+        "scope": "يساعد المثال التالي من الشركة المصنّعة المذكورة في تحديد متطلبات الاستفسار. القيم تخص الطراز المرجعي المذكور، ولا تمثل مواصفات منتج CHUANWEI المصوّر أعلاه. اطلب ورقة بيانات الطراز المعروض لطلبك."
+      }
+    },
+    {
+      "scenario": "mobile/products/fire-extinguishers/wheeled-dry-powder-fire-extinguishers.html",
+      "status": "PASS",
+      "layout": {
+        "overflow": 0,
+        "broken": [],
+        "lang": "en",
+        "dir": "ltr"
+      },
+      "content": {
+        "h1": "Wheeled Dry Powder Fire Extinguishers",
+        "main": 2700,
+        "internal": false
+      },
+      "reference": {
+        "section": true,
+        "rows": 2,
+        "source": "https://amerex-fire.com/api/documents/download?a=en&d=import-amerex-fire-extinguisher-parts-book",
+        "scope": "The manufacturer example below helps you specify an enquiry. Its values describe the named reference model, not the CHUANWEI product pictured above. Request the offered model’s datasheet for your order."
+      }
+    },
+    {
+      "scenario": "mobile/ar/products/wheeled-dry-powder-fire-extinguishers/index.html",
+      "status": "PASS",
+      "layout": {
+        "overflow": 0,
+        "broken": [],
+        "lang": "ar",
+        "dir": "rtl"
+      },
+      "content": {
+        "h1": "طفايات حريق بعجلات بالمسحوق الجاف",
+        "main": 2195,
+        "internal": false
+      },
+      "reference": {
+        "section": true,
+        "rows": 2,
+        "source": "https://amerex-fire.com/api/documents/download?a=en&d=import-amerex-fire-extinguisher-parts-book",
+        "scope": "يساعد المثال التالي من الشركة المصنّعة المذكورة في تحديد متطلبات الاستفسار. القيم تخص الطراز المرجعي المذكور، ولا تمثل مواصفات منتج CHUANWEI المصوّر أعلاه. اطلب ورقة بيانات الطراز المعروض لطلبك."
+      }
+    },
+    {
+      "scenario": "mobile/products/automatic-fire-suppression/suspended-dry-powder-extinguishers.html",
+      "status": "PASS",
+      "layout": {
+        "overflow": 0,
+        "broken": [],
+        "lang": "en",
+        "dir": "ltr"
+      },
+      "content": {
+        "h1": "Suspended Dry Powder Fire Extinguishers",
+        "main": 2889,
+        "internal": false
+      },
+      "reference": {
+        "section": true,
+        "rows": 2,
+        "source": "https://www.anaf.eu/en/ps2-at",
+        "scope": "The manufacturer example below helps you specify an enquiry. Its values describe the named reference model, not the CHUANWEI product pictured above. Request the offered model’s datasheet for your order."
+      }
+    },
+    {
+      "scenario": "mobile/ar/products/suspended-dry-powder-extinguishers/index.html",
+      "status": "PASS",
+      "layout": {
+        "overflow": 0,
+        "broken": [],
+        "lang": "ar",
+        "dir": "rtl"
+      },
+      "content": {
+        "h1": "طفايات حريق معلقة بالمسحوق الجاف",
+        "main": 2306,
+        "internal": false
+      },
+      "reference": {
+        "section": true,
+        "rows": 2,
+        "source": "https://www.anaf.eu/en/ps2-at",
+        "scope": "يساعد المثال التالي من الشركة المصنّعة المذكورة في تحديد متطلبات الاستفسار. القيم تخص الطراز المرجعي المذكور، ولا تمثل مواصفات منتج CHUANWEI المصوّر أعلاه. اطلب ورقة بيانات الطراز المعروض لطلبك."
+      }
+    },
+    {
+      "scenario": "mobile/products/automatic-fire-suppression/suspended-ultrafine-dry-powder-extinguishers.html",
+      "status": "PASS",
+      "layout": {
+        "overflow": 0,
+        "broken": [],
+        "lang": "en",
+        "dir": "ltr"
+      },
+      "content": {
+        "h1": "Suspended Ultrafine Dry Powder Fire Extinguishers",
+        "main": 3249,
+        "internal": false
+      },
+      "reference": {
+        "section": true,
+        "rows": 3,
+        "source": "https://www.qhxf.com/product-detail/BXZvgADW",
+        "scope": "The manufacturer example below helps you specify an enquiry. Its values describe the named reference model, not the CHUANWEI product pictured above. Request the offered model’s datasheet for your order."
+      }
+    },
+    {
+      "scenario": "mobile/ar/products/suspended-ultrafine-dry-powder-extinguishers/index.html",
+      "status": "PASS",
+      "layout": {
+        "overflow": 0,
+        "broken": [],
+        "lang": "ar",
+        "dir": "rtl"
+      },
+      "content": {
+        "h1": "طفايات حريق معلقة بالمسحوق الجاف فائق النعومة",
+        "main": 2742,
+        "internal": false
+      },
+      "reference": {
+        "section": true,
+        "rows": 3,
+        "source": "https://www.qhxf.com/product-detail/BXZvgADW",
+        "scope": "يساعد المثال التالي من الشركة المصنّعة المذكورة في تحديد متطلبات الاستفسار. القيم تخص الطراز المرجعي المذكور، ولا تمثل مواصفات منتج CHUANWEI المصوّر أعلاه. اطلب ورقة بيانات الطراز المعروض لطلبك."
+      }
+    },
+    {
+      "scenario": "mobile/products/automatic-fire-suppression/cabinet-aerosol-fire-suppression.html",
+      "status": "PASS",
+      "layout": {
+        "overflow": 0,
+        "broken": [],
+        "lang": "en",
+        "dir": "ltr"
+      },
+      "content": {
+        "h1": "Cabinet Aerosol Fire Suppression Devices",
+        "main": 2663,
+        "internal": false
+      },
+      "reference": {
+        "section": true,
+        "rows": 2,
+        "source": "https://www.statx.com/product/stat-x-fixed-system-electrical-units/",
+        "scope": "The manufacturer example below helps you specify an enquiry. Its values describe the named reference model, not the CHUANWEI product pictured above. Request the offered model’s datasheet for your order."
+      }
+    },
+    {
+      "scenario": "mobile/ar/products/cabinet-aerosol-fire-suppression/index.html",
+      "status": "PASS",
+      "layout": {
+        "overflow": 0,
+        "broken": [],
+        "lang": "ar",
+        "dir": "rtl"
+      },
+      "content": {
+        "h1": "أجهزة إطفاء الحريق بالهباء الجوي للخزائن",
+        "main": 2108,
+        "internal": false
+      },
+      "reference": {
+        "section": true,
+        "rows": 2,
+        "source": "https://www.statx.com/product/stat-x-fixed-system-electrical-units/",
+        "scope": "يساعد المثال التالي من الشركة المصنّعة المذكورة في تحديد متطلبات الاستفسار. القيم تخص الطراز المرجعي المذكور، ولا تمثل مواصفات منتج CHUANWEI المصوّر أعلاه. اطلب ورقة بيانات الطراز المعروض لطلبك."
+      }
+    },
+    {
+      "scenario": "mobile/products/fire-alarm-systems/fire-alarm-control-panels.html",
+      "status": "PASS",
+      "layout": {
+        "overflow": 0,
+        "broken": [],
+        "lang": "en",
+        "dir": "ltr"
+      },
+      "content": {
+        "h1": "Fire Alarm Control Panels",
+        "main": 2405,
+        "internal": false
+      },
+      "reference": {
+        "section": true,
+        "rows": 2,
+        "source": "https://www.pottersignal.com/ipa-fire-alarm/fire-control-panels/fire-control-panel-ipa-100",
+        "scope": "The manufacturer example below helps you specify an enquiry. Its values describe the named reference model, not the CHUANWEI product pictured above. Request the offered model’s datasheet for your order."
+      }
+    },
+    {
+      "scenario": "mobile/ar/products/fire-alarm-control-panels/index.html",
+      "status": "PASS",
+      "layout": {
+        "overflow": 0,
+        "broken": [],
+        "lang": "ar",
+        "dir": "rtl"
+      },
+      "content": {
+        "h1": "لوحات التحكم في إنذار الحريق",
+        "main": 1939,
+        "internal": false
+      },
+      "reference": {
+        "section": true,
+        "rows": 2,
+        "source": "https://www.pottersignal.com/ipa-fire-alarm/fire-control-panels/fire-control-panel-ipa-100",
+        "scope": "يساعد المثال التالي من الشركة المصنّعة المذكورة في تحديد متطلبات الاستفسار. القيم تخص الطراز المرجعي المذكور، ولا تمثل مواصفات منتج CHUANWEI المصوّر أعلاه. اطلب ورقة بيانات الطراز المعروض لطلبك."
+      }
+    },
+    {
+      "scenario": "mobile/products/fire-alarm-systems/heat-detectors.html",
+      "status": "PASS",
+      "layout": {
+        "overflow": 0,
+        "broken": [],
+        "lang": "en",
+        "dir": "ltr"
+      },
+      "content": {
+        "h1": "Heat Detectors",
+        "main": 2325,
+        "internal": false
+      },
+      "reference": {
+        "section": true,
+        "rows": 2,
+        "source": "https://www.pottersignal.com/product/manual/550-0622-AAE_Potter_PAD200_6DB_4DB_Series.pdf",
+        "scope": "The manufacturer example below helps you specify an enquiry. Its values describe the named reference model, not the CHUANWEI product pictured above. Request the offered model’s datasheet for your order."
+      }
+    },
+    {
+      "scenario": "mobile/ar/products/heat-detectors/index.html",
+      "status": "PASS",
+      "layout": {
+        "overflow": 0,
+        "broken": [],
+        "lang": "ar",
+        "dir": "rtl"
+      },
+      "content": {
+        "h1": "كواشف الحرارة",
+        "main": 1830,
+        "internal": false
+      },
+      "reference": {
+        "section": true,
+        "rows": 2,
+        "source": "https://www.pottersignal.com/product/manual/550-0622-AAE_Potter_PAD200_6DB_4DB_Series.pdf",
+        "scope": "يساعد المثال التالي من الشركة المصنّعة المذكورة في تحديد متطلبات الاستفسار. القيم تخص الطراز المرجعي المذكور، ولا تمثل مواصفات منتج CHUANWEI المصوّر أعلاه. اطلب ورقة بيانات الطراز المعروض لطلبك."
+      }
+    },
+    {
+      "scenario": "mobile/products/fire-alarm-systems/photoelectric-smoke-detectors.html",
+      "status": "PASS",
+      "layout": {
+        "overflow": 0,
+        "broken": [],
+        "lang": "en",
+        "dir": "ltr"
+      },
+      "content": {
+        "h1": "Photoelectric Smoke Detectors",
+        "main": 2560,
+        "internal": false
+      },
+      "reference": {
+        "section": true,
+        "rows": 2,
+        "source": "https://www.pottersignal.com/product/manual/550-0622-AAE_Potter_PAD200_6DB_4DB_Series.pdf",
+        "scope": "The manufacturer example below helps you specify an enquiry. Its values describe the named reference model, not the CHUANWEI product pictured above. Request the offered model’s datasheet for your order."
+      }
+    },
+    {
+      "scenario": "mobile/ar/products/photoelectric-smoke-detectors/index.html",
+      "status": "PASS",
+      "layout": {
+        "overflow": 0,
+        "broken": [],
+        "lang": "ar",
+        "dir": "rtl"
+      },
+      "content": {
+        "h1": "كواشف الدخان الكهروضوئية",
+        "main": 2016,
+        "internal": false
+      },
+      "reference": {
+        "section": true,
+        "rows": 2,
+        "source": "https://www.pottersignal.com/product/manual/550-0622-AAE_Potter_PAD200_6DB_4DB_Series.pdf",
+        "scope": "يساعد المثال التالي من الشركة المصنّعة المذكورة في تحديد متطلبات الاستفسار. القيم تخص الطراز المرجعي المذكور، ولا تمثل مواصفات منتج CHUANWEI المصوّر أعلاه. اطلب ورقة بيانات الطراز المعروض لطلبك."
+      }
+    },
+    {
+      "scenario": "mobile/products/fire-pumps-controllers/vertical-multistage-fire-pumps.html",
+      "status": "PASS",
+      "layout": {
+        "overflow": 0,
+        "broken": [],
+        "lang": "en",
+        "dir": "ltr"
+      },
+      "content": {
+        "h1": "Vertical Multistage Fire Pumps",
+        "main": 2521,
+        "internal": false
+      },
+      "reference": {
+        "section": true,
+        "rows": 2,
+        "source": "http://shanghaijiaxun.com/81.html",
+        "scope": "The manufacturer example below helps you specify an enquiry. Its values describe the named reference model, not the CHUANWEI product pictured above. Request the offered model’s datasheet for your order."
+      }
+    },
+    {
+      "scenario": "mobile/ar/products/vertical-multistage-fire-pumps/index.html",
+      "status": "PASS",
+      "layout": {
+        "overflow": 0,
+        "broken": [],
+        "lang": "ar",
+        "dir": "rtl"
+      },
+      "content": {
+        "h1": "مضخات حريق رأسية متعددة المراحل",
+        "main": 2100,
+        "internal": false
+      },
+      "reference": {
+        "section": true,
+        "rows": 2,
+        "source": "http://shanghaijiaxun.com/81.html",
+        "scope": "يساعد المثال التالي من الشركة المصنّعة المذكورة في تحديد متطلبات الاستفسار. القيم تخص الطراز المرجعي المذكور، ولا تمثل مواصفات منتج CHUANWEI المصوّر أعلاه. اطلب ورقة بيانات الطراز المعروض لطلبك."
+      }
+    },
+    {
+      "scenario": "mobile/products/fire-pumps-controllers/vertical-single-stage-fire-pumps.html",
+      "status": "PASS",
+      "layout": {
+        "overflow": 0,
+        "broken": [],
+        "lang": "en",
+        "dir": "ltr"
+      },
+      "content": {
+        "h1": "Vertical Single-stage Fire Pumps",
+        "main": 2651,
+        "internal": false
+      },
+      "reference": {
+        "section": true,
+        "rows": 2,
+        "source": "http://shanghaijiaxun.com/81.html",
+        "scope": "The manufacturer example below helps you specify an enquiry. Its values describe the named reference model, not the CHUANWEI product pictured above. Request the offered model’s datasheet for your order."
+      }
+    },
+    {
+      "scenario": "mobile/ar/products/vertical-single-stage-fire-pumps/index.html",
+      "status": "PASS",
+      "layout": {
+        "overflow": 0,
+        "broken": [],
+        "lang": "ar",
+        "dir": "rtl"
+      },
+      "content": {
+        "h1": "مضخات حريق رأسية أحادية المرحلة",
+        "main": 2177,
+        "internal": false
+      },
+      "reference": {
+        "section": true,
+        "rows": 2,
+        "source": "http://shanghaijiaxun.com/81.html",
+        "scope": "يساعد المثال التالي من الشركة المصنّعة المذكورة في تحديد متطلبات الاستفسار. القيم تخص الطراز المرجعي المذكور، ولا تمثل مواصفات منتج CHUANWEI المصوّر أعلاه. اطلب ورقة بيانات الطراز المعروض لطلبك."
+      }
+    },
+    {
+      "scenario": "mobile/products/fire-pumps-controllers/fire-pressure-maintenance-sets.html",
+      "status": "PASS",
+      "layout": {
+        "overflow": 0,
+        "broken": [],
+        "lang": "en",
+        "dir": "ltr"
+      },
+      "content": {
+        "h1": "Fire Pressure Maintenance Sets",
+        "main": 2650,
+        "internal": false
+      },
+      "reference": {
+        "section": true,
+        "rows": 2,
+        "source": "http://shanghaijiaxun.com/81.html",
+        "scope": "The manufacturer example below helps you specify an enquiry. Its values describe the named reference model, not the CHUANWEI product pictured above. Request the offered model’s datasheet for your order."
+      }
+    },
+    {
+      "scenario": "mobile/ar/products/fire-pressure-maintenance-sets/index.html",
+      "status": "PASS",
+      "layout": {
+        "overflow": 0,
+        "broken": [],
+        "lang": "ar",
+        "dir": "rtl"
+      },
+      "content": {
+        "h1": "مجموعات تثبيت ضغط مياه الحريق",
+        "main": 2146,
+        "internal": false
+      },
+      "reference": {
+        "section": true,
+        "rows": 2,
+        "source": "http://shanghaijiaxun.com/81.html",
+        "scope": "يساعد المثال التالي من الشركة المصنّعة المذكورة في تحديد متطلبات الاستفسار. القيم تخص الطراز المرجعي المذكور، ولا تمثل مواصفات منتج CHUANWEI المصوّر أعلاه. اطلب ورقة بيانات الطراز المعروض لطلبك."
+      }
+    },
+    {
+      "scenario": "mobile/products/fire-pumps-controllers/automatic-transfer-control-cabinets.html",
+      "status": "PASS",
+      "layout": {
+        "overflow": 0,
+        "broken": [],
+        "lang": "en",
+        "dir": "ltr"
+      },
+      "content": {
+        "h1": "Dual Power Control Cabinets",
+        "main": 2303,
+        "internal": false
+      },
+      "reference": {
+        "section": true,
+        "rows": 2,
+        "source": "https://new.abb.com/docs/librariesprovider22/default-document-library/truone_ats_1scc303008c0201_global_catalog_22-03.pdf?sfvrsn=11c6c60a_0",
+        "scope": "The manufacturer example below helps you specify an enquiry. Its values describe the named reference model, not the CHUANWEI product pictured above. Request the offered model’s datasheet for your order."
+      }
+    },
+    {
+      "scenario": "mobile/ar/products/automatic-transfer-control-cabinets/index.html",
+      "status": "PASS",
+      "layout": {
+        "overflow": 0,
+        "broken": [],
+        "lang": "ar",
+        "dir": "rtl"
+      },
+      "content": {
+        "h1": "خزائن تحكم بمصدرَي تغذية",
+        "main": 1868,
+        "internal": false
+      },
+      "reference": {
+        "section": true,
+        "rows": 2,
+        "source": "https://new.abb.com/docs/librariesprovider22/default-document-library/truone_ats_1scc303008c0201_global_catalog_22-03.pdf?sfvrsn=11c6c60a_0",
+        "scope": "يساعد المثال التالي من الشركة المصنّعة المذكورة في تحديد متطلبات الاستفسار. القيم تخص الطراز المرجعي المذكور، ولا تمثل مواصفات منتج CHUANWEI المصوّر أعلاه. اطلب ورقة بيانات الطراز المعروض لطلبك."
+      }
+    },
+    {
+      "scenario": "mobile/products/fire-pumps-controllers/fire-pump-inspection-control-cabinets.html",
+      "status": "PASS",
+      "layout": {
+        "overflow": 0,
+        "broken": [],
+        "lang": "en",
+        "dir": "ltr"
+      },
+      "content": {
+        "h1": "Fire Pump Inspection & Control Cabinets",
+        "main": 3108,
+        "internal": false
+      },
+      "reference": {
+        "section": true,
+        "rows": 2,
+        "source": "https://www.tornatech.com/product/gpx-series-electric-fire-pump-controllers-2/",
+        "scope": "The manufacturer example below helps you specify an enquiry. Its values describe the named reference model, not the CHUANWEI product pictured above. Request the offered model’s datasheet for your order."
+      }
+    },
+    {
+      "scenario": "mobile/ar/products/fire-pump-inspection-control-cabinets/index.html",
+      "status": "PASS",
+      "layout": {
+        "overflow": 0,
+        "broken": [],
+        "lang": "ar",
+        "dir": "rtl"
+      },
+      "content": {
+        "h1": "خزائن فحص وتحكم لمضخات الحريق",
+        "main": 2458,
+        "internal": false
+      },
+      "reference": {
+        "section": true,
+        "rows": 2,
+        "source": "https://www.tornatech.com/product/gpx-series-electric-fire-pump-controllers-2/",
+        "scope": "يساعد المثال التالي من الشركة المصنّعة المذكورة في تحديد متطلبات الاستفسار. القيم تخص الطراز المرجعي المذكور، ولا تمثل مواصفات منتج CHUANWEI المصوّر أعلاه. اطلب ورقة بيانات الطراز المعروض لطلبك."
+      }
+    },
+    {
+      "scenario": "mobile/products/pipeline-valves-strainers/flanged-y-strainers.html",
+      "status": "PASS",
+      "layout": {
+        "overflow": 0,
+        "broken": [],
+        "lang": "en",
+        "dir": "ltr"
+      },
+      "content": {
+        "h1": "Flanged Y Strainers",
+        "main": 2552,
+        "internal": false
+      },
+      "reference": {
+        "section": true,
+        "rows": 3,
+        "source": "https://www.pangovalve.cn/glq/156.html",
+        "scope": "The manufacturer example below helps you specify an enquiry. Its values describe the named reference model, not the CHUANWEI product pictured above. Request the offered model’s datasheet for your order."
+      }
+    },
+    {
+      "scenario": "mobile/ar/products/flanged-y-strainers/index.html",
+      "status": "PASS",
+      "layout": {
+        "overflow": 0,
+        "broken": [],
+        "lang": "ar",
+        "dir": "rtl"
+      },
+      "content": {
+        "h1": "مصافٍ بفلنجات على شكل Y",
+        "main": 2125,
+        "internal": false
+      },
+      "reference": {
+        "section": true,
+        "rows": 3,
+        "source": "https://www.pangovalve.cn/glq/156.html",
+        "scope": "يساعد المثال التالي من الشركة المصنّعة المذكورة في تحديد متطلبات الاستفسار. القيم تخص الطراز المرجعي المذكور، ولا تمثل مواصفات منتج CHUANWEI المصوّر أعلاه. اطلب ورقة بيانات الطراز المعروض لطلبك."
+      }
+    },
+    {
+      "scenario": "mobile/products/pipeline-valves-strainers/swing-check-valves.html",
+      "status": "PASS",
+      "layout": {
+        "overflow": 0,
+        "broken": [],
+        "lang": "en",
+        "dir": "ltr"
+      },
+      "content": {
+        "h1": "Swing Check Valves",
+        "main": 2549,
+        "internal": false
+      },
+      "reference": {
+        "section": true,
+        "rows": 2,
+        "source": "https://www.nibco.com/nibco-products/valves/check-valves/f-918-b",
+        "scope": "The manufacturer example below helps you specify an enquiry. Its values describe the named reference model, not the CHUANWEI product pictured above. Request the offered model’s datasheet for your order."
+      }
+    },
+    {
+      "scenario": "mobile/ar/products/swing-check-valves/index.html",
+      "status": "PASS",
+      "layout": {
+        "overflow": 0,
+        "broken": [],
+        "lang": "ar",
+        "dir": "rtl"
+      },
+      "content": {
+        "h1": "صمامات عدم رجوع متأرجحة",
+        "main": 2121,
+        "internal": false
+      },
+      "reference": {
+        "section": true,
+        "rows": 2,
+        "source": "https://www.nibco.com/nibco-products/valves/check-valves/f-918-b",
+        "scope": "يساعد المثال التالي من الشركة المصنّعة المذكورة في تحديد متطلبات الاستفسار. القيم تخص الطراز المرجعي المذكور، ولا تمثل مواصفات منتج CHUANWEI المصوّر أعلاه. اطلب ورقة بيانات الطراز المعروض لطلبك."
+      }
+    },
+    {
+      "scenario": "mobile/products/pipeline-valves-strainers/flanged-globe-valves.html",
+      "status": "PASS",
+      "layout": {
+        "overflow": 0,
+        "broken": [],
+        "lang": "en",
+        "dir": "ltr"
+      },
+      "content": {
+        "h1": "Flanged Globe Valves",
+        "main": 2444,
+        "internal": false
+      },
+      "reference": {
+        "section": true,
+        "rows": 2,
+        "source": "https://www.dtjt.com/proDetail_1417.html",
+        "scope": "The manufacturer example below helps you specify an enquiry. Its values describe the named reference model, not the CHUANWEI product pictured above. Request the offered model’s datasheet for your order."
+      }
+    },
+    {
+      "scenario": "mobile/ar/products/flanged-globe-valves/index.html",
+      "status": "PASS",
+      "layout": {
+        "overflow": 0,
+        "broken": [],
+        "lang": "ar",
+        "dir": "rtl"
+      },
+      "content": {
+        "h1": "صمامات غلوب بفلنجات",
+        "main": 1992,
+        "internal": false
+      },
+      "reference": {
+        "section": true,
+        "rows": 2,
+        "source": "https://www.dtjt.com/proDetail_1417.html",
+        "scope": "يساعد المثال التالي من الشركة المصنّعة المذكورة في تحديد متطلبات الاستفسار. القيم تخص الطراز المرجعي المذكور، ولا تمثل مواصفات منتج CHUANWEI المصوّر أعلاه. اطلب ورقة بيانات الطراز المعروض لطلبك."
+      }
+    },
+    {
+      "scenario": "mobile/products/pipeline-valves-strainers/two-piece-stainless-steel-ball-valves.html",
+      "status": "PASS",
+      "layout": {
+        "overflow": 0,
+        "broken": [],
+        "lang": "en",
+        "dir": "ltr"
+      },
+      "content": {
+        "h1": "Two-piece Stainless Steel Ball Valves",
+        "main": 2450,
+        "internal": false
+      },
+      "reference": {
+        "section": true,
+        "rows": 2,
+        "source": "https://catalog.nibco.com/viewitems/ball-valves-7/ntional-port-stainless-steel-trim-t-580-s6-r-66-ll",
+        "scope": "The manufacturer example below helps you specify an enquiry. Its values describe the named reference model, not the CHUANWEI product pictured above. Request the offered model’s datasheet for your order."
+      }
+    },
+    {
+      "scenario": "mobile/ar/products/two-piece-stainless-steel-ball-valves/index.html",
+      "status": "PASS",
+      "layout": {
+        "overflow": 0,
+        "broken": [],
+        "lang": "ar",
+        "dir": "rtl"
+      },
+      "content": {
+        "h1": "صمامات كروية من الستانلس ستيل بجسم من قطعتين",
+        "main": 1940,
+        "internal": false
+      },
+      "reference": {
+        "section": true,
+        "rows": 2,
+        "source": "https://catalog.nibco.com/viewitems/ball-valves-7/ntional-port-stainless-steel-trim-t-580-s6-r-66-ll",
+        "scope": "يساعد المثال التالي من الشركة المصنّعة المذكورة في تحديد متطلبات الاستفسار. القيم تخص الطراز المرجعي المذكور، ولا تمثل مواصفات منتج CHUANWEI المصوّر أعلاه. اطلب ورقة بيانات الطراز المعروض لطلبك."
+      }
+    },
+    {
+      "scenario": "mobile/products/grooved-pipe-fittings/grooved-pipe-elbows.html",
+      "status": "PASS",
+      "layout": {
+        "overflow": 0,
+        "broken": [],
+        "lang": "en",
+        "dir": "ltr"
+      },
+      "content": {
+        "h1": "Grooved Pipe Elbows",
+        "main": 6107,
+        "internal": false
+      },
+      "reference": {
+        "section": true,
+        "rows": 2,
+        "source": "https://assets.victaulic.com/assets/uploads/literature/07.01.pdf",
+        "scope": "The manufacturer example below helps you specify an enquiry. Its values describe the named reference model, not the CHUANWEI product pictured above. Request the offered model’s datasheet for your order."
+      }
+    },
+    {
+      "scenario": "mobile/ar/products/grooved-pipe-elbows/index.html",
+      "status": "PASS",
+      "layout": {
+        "overflow": 0,
+        "broken": [],
+        "lang": "ar",
+        "dir": "rtl"
+      },
+      "content": {
+        "h1": "أكواع أنابيب ذات أخاديد",
+        "main": 5789,
+        "internal": false
+      },
+      "reference": {
+        "section": true,
+        "rows": 2,
+        "source": "https://assets.victaulic.com/assets/uploads/literature/07.01.pdf",
+        "scope": "يساعد المثال التالي من الشركة المصنّعة المذكورة في تحديد متطلبات الاستفسار. القيم تخص الطراز المرجعي المذكور، ولا تمثل مواصفات منتج CHUANWEI المصوّر أعلاه. اطلب ورقة بيانات الطراز المعروض لطلبك."
+      }
+    },
+    {
+      "scenario": "mobile/products/grooved-pipe-fittings/grooved-reducing-tees.html",
+      "status": "PASS",
+      "layout": {
+        "overflow": 0,
+        "broken": [],
+        "lang": "en",
+        "dir": "ltr"
+      },
+      "content": {
+        "h1": "Grooved Reducing Tees",
+        "main": 4605,
+        "internal": false
+      },
+      "reference": {
+        "section": true,
+        "rows": 2,
+        "source": "https://assets.victaulic.com/assets/uploads/literature/07.01.pdf",
+        "scope": "The manufacturer example below helps you specify an enquiry. Its values describe the named reference model, not the CHUANWEI product pictured above. Request the offered model’s datasheet for your order."
+      }
+    },
+    {
+      "scenario": "mobile/ar/products/grooved-reducing-tees/index.html",
+      "status": "PASS",
+      "layout": {
+        "overflow": 0,
+        "broken": [],
+        "lang": "ar",
+        "dir": "rtl"
+      },
+      "content": {
+        "h1": "وصلات T مخفضة ذات أخاديد",
+        "main": 4190,
+        "internal": false
+      },
+      "reference": {
+        "section": true,
+        "rows": 2,
+        "source": "https://assets.victaulic.com/assets/uploads/literature/07.01.pdf",
+        "scope": "يساعد المثال التالي من الشركة المصنّعة المذكورة في تحديد متطلبات الاستفسار. القيم تخص الطراز المرجعي المذكور، ولا تمثل مواصفات منتج CHUANWEI المصوّر أعلاه. اطلب ورقة بيانات الطراز المعروض لطلبك."
+      }
+    },
+    {
+      "scenario": "mobile/products/grooved-pipe-fittings/grooved-equal-crosses.html",
+      "status": "PASS",
+      "layout": {
+        "overflow": 0,
+        "broken": [],
+        "lang": "en",
+        "dir": "ltr"
+      },
+      "content": {
+        "h1": "Grooved Equal Crosses",
+        "main": 3291,
+        "internal": false
+      },
+      "reference": {
+        "section": true,
+        "rows": 2,
+        "source": "https://assets.victaulic.com/assets/uploads/literature/07.01.pdf",
+        "scope": "The manufacturer example below helps you specify an enquiry. Its values describe the named reference model, not the CHUANWEI product pictured above. Request the offered model’s datasheet for your order."
+      }
+    },
+    {
+      "scenario": "mobile/ar/products/grooved-equal-crosses/index.html",
+      "status": "PASS",
+      "layout": {
+        "overflow": 0,
+        "broken": [],
+        "lang": "ar",
+        "dir": "rtl"
+      },
+      "content": {
+        "h1": "وصلات صليبية متساوية ذات أخاديد",
+        "main": 2975,
+        "internal": false
+      },
+      "reference": {
+        "section": true,
+        "rows": 2,
+        "source": "https://assets.victaulic.com/assets/uploads/literature/07.01.pdf",
+        "scope": "يساعد المثال التالي من الشركة المصنّعة المذكورة في تحديد متطلبات الاستفسار. القيم تخص الطراز المرجعي المذكور، ولا تمثل مواصفات منتج CHUANWEI المصوّر أعلاه. اطلب ورقة بيانات الطراز المعروض لطلبك."
+      }
+    },
+    {
+      "scenario": "mobile/products/grooved-pipe-fittings/rigid-grooved-pipe-couplings.html",
+      "status": "PASS",
+      "layout": {
+        "overflow": 0,
+        "broken": [],
+        "lang": "en",
+        "dir": "ltr"
+      },
+      "content": {
+        "h1": "Rigid Grooved Pipe Couplings",
+        "main": 3849,
+        "internal": false
+      },
+      "reference": {
+        "section": true,
+        "rows": 2,
+        "source": "https://assets.victaulic.com/assets/uploads/literature/06.23.pdf",
+        "scope": "The manufacturer example below helps you specify an enquiry. Its values describe the named reference model, not the CHUANWEI product pictured above. Request the offered model’s datasheet for your order."
+      }
+    },
+    {
+      "scenario": "mobile/ar/products/rigid-grooved-pipe-couplings/index.html",
+      "status": "PASS",
+      "layout": {
+        "overflow": 0,
+        "broken": [],
+        "lang": "ar",
+        "dir": "rtl"
+      },
+      "content": {
+        "h1": "وصلات أنابيب صلبة ذات أخاديد",
+        "main": 3459,
+        "internal": false
+      },
+      "reference": {
+        "section": true,
+        "rows": 2,
+        "source": "https://assets.victaulic.com/assets/uploads/literature/06.23.pdf",
+        "scope": "يساعد المثال التالي من الشركة المصنّعة المذكورة في تحديد متطلبات الاستفسار. القيم تخص الطراز المرجعي المذكور، ولا تمثل مواصفات منتج CHUANWEI المصوّر أعلاه. اطلب ورقة بيانات الطراز المعروض لطلبك."
+      }
+    },
+    {
+      "scenario": "mobile/products/pressure-gauges-accessories/pressure-vacuum-gauges.html",
+      "status": "PASS",
+      "layout": {
+        "overflow": 0,
+        "broken": [],
+        "lang": "en",
+        "dir": "ltr"
+      },
+      "content": {
+        "h1": "Pressure & Vacuum Gauges",
+        "main": 4459,
+        "internal": false
+      },
+      "reference": {
+        "section": true,
+        "rows": 1,
+        "source": "https://www.wika.com/media/Data-sheets/Pressure/Pressure-gauges/ds_pm0212_en_co.pdf",
+        "scope": "The manufacturer example below helps you specify an enquiry. Its values describe the named reference model, not the CHUANWEI product pictured above. Request the offered model’s datasheet for your order."
+      }
+    },
+    {
+      "scenario": "mobile/ar/products/pressure-vacuum-gauges/index.html",
+      "status": "PASS",
+      "layout": {
+        "overflow": 0,
+        "broken": [],
+        "lang": "ar",
+        "dir": "rtl"
+      },
+      "content": {
+        "h1": "مقاييس الضغط والفراغ",
+        "main": 3830,
+        "internal": false
+      },
+      "reference": {
+        "section": true,
+        "rows": 1,
+        "source": "https://www.wika.com/media/Data-sheets/Pressure/Pressure-gauges/ds_pm0212_en_co.pdf",
+        "scope": "يساعد المثال التالي من الشركة المصنّعة المذكورة في تحديد متطلبات الاستفسار. القيم تخص الطراز المرجعي المذكور، ولا تمثل مواصفات منتج CHUANWEI المصوّر أعلاه. اطلب ورقة بيانات الطراز المعروض لطلبك."
+      }
+    },
+    {
+      "scenario": "mobile/products/pressure-gauges-accessories/liquid-filled-pressure-gauges.html",
+      "status": "PASS",
+      "layout": {
+        "overflow": 0,
+        "broken": [],
+        "lang": "en",
+        "dir": "ltr"
+      },
+      "content": {
+        "h1": "Liquid-filled Pressure Gauges",
+        "main": 4874,
+        "internal": false
+      },
+      "reference": {
+        "section": true,
+        "rows": 2,
+        "source": "https://www.wika.com/media/Data-sheets/Pressure/Pressure-gauges/ds_pm0212_en_co.pdf",
+        "scope": "The manufacturer example below helps you specify an enquiry. Its values describe the named reference model, not the CHUANWEI product pictured above. Request the offered model’s datasheet for your order."
+      }
+    },
+    {
+      "scenario": "mobile/ar/products/liquid-filled-pressure-gauges/index.html",
+      "status": "PASS",
+      "layout": {
+        "overflow": 0,
+        "broken": [],
+        "lang": "ar",
+        "dir": "rtl"
+      },
+      "content": {
+        "h1": "مقاييس ضغط مملوءة بالسائل",
+        "main": 4190,
+        "internal": false
+      },
+      "reference": {
+        "section": true,
+        "rows": 2,
+        "source": "https://www.wika.com/media/Data-sheets/Pressure/Pressure-gauges/ds_pm0212_en_co.pdf",
+        "scope": "يساعد المثال التالي من الشركة المصنّعة المذكورة في تحديد متطلبات الاستفسار. القيم تخص الطراز المرجعي المذكور، ولا تمثل مواصفات منتج CHUANWEI المصوّر أعلاه. اطلب ورقة بيانات الطراز المعروض لطلبك."
+      }
+    },
+    {
+      "scenario": "mobile/products/pressure-gauges-accessories/pressure-gauge-syphons.html",
+      "status": "PASS",
+      "layout": {
+        "overflow": 0,
+        "broken": [],
+        "lang": "en",
+        "dir": "ltr"
+      },
+      "content": {
+        "h1": "Pressure Gauge Syphon Tubes",
+        "main": 2768,
+        "internal": false
+      },
+      "reference": {
+        "section": true,
+        "rows": 2,
+        "source": "https://www.wika.com/en-us/910_15.WIKA",
+        "scope": "The manufacturer example below helps you specify an enquiry. Its values describe the named reference model, not the CHUANWEI product pictured above. Request the offered model’s datasheet for your order."
+      }
+    },
+    {
+      "scenario": "mobile/ar/products/pressure-gauge-syphons/index.html",
+      "status": "PASS",
+      "layout": {
+        "overflow": 0,
+        "broken": [],
+        "lang": "ar",
+        "dir": "rtl"
+      },
+      "content": {
+        "h1": "أنابيب سيفون لمقاييس الضغط",
+        "main": 2193,
+        "internal": false
+      },
+      "reference": {
+        "section": true,
+        "rows": 2,
+        "source": "https://www.wika.com/en-us/910_15.WIKA",
+        "scope": "يساعد المثال التالي من الشركة المصنّعة المذكورة في تحديد متطلبات الاستفسار. القيم تخص الطراز المرجعي المذكور، ولا تمثل مواصفات منتج CHUANWEI المصوّر أعلاه. اطلب ورقة بيانات الطراز المعروض لطلبك."
+      }
+    },
+    {
+      "scenario": "mobile/products/hoses-nozzles-couplings/pistol-grip-combination-fire-nozzles.html",
+      "status": "PASS",
+      "layout": {
+        "overflow": 0,
+        "broken": [],
+        "lang": "en",
+        "dir": "ltr"
+      },
+      "content": {
+        "h1": "Pistol-grip Combination Fire Nozzles",
+        "main": 2448,
+        "internal": false
+      },
+      "reference": {
+        "section": true,
+        "rows": 1,
+        "source": "https://tft.com/product_series/g-force-series/",
+        "scope": "The manufacturer example below helps you specify an enquiry. Its values describe the named reference model, not the CHUANWEI product pictured above. Request the offered model’s datasheet for your order."
+      }
+    },
+    {
+      "scenario": "mobile/ar/products/pistol-grip-combination-fire-nozzles/index.html",
+      "status": "PASS",
+      "layout": {
+        "overflow": 0,
+        "broken": [],
+        "lang": "ar",
+        "dir": "rtl"
+      },
+      "content": {
+        "h1": "فوهات حريق متعددة الأنماط بقبضة مسدس",
+        "main": 1975,
+        "internal": false
+      },
+      "reference": {
+        "section": true,
+        "rows": 1,
+        "source": "https://tft.com/product_series/g-force-series/",
+        "scope": "يساعد المثال التالي من الشركة المصنّعة المذكورة في تحديد متطلبات الاستفسار. القيم تخص الطراز المرجعي المذكور، ولا تمثل مواصفات منتج CHUANWEI المصوّر أعلاه. اطلب ورقة بيانات الطراز المعروض لطلبك."
+      }
+    },
+    {
+      "scenario": "mobile/products/grooved-pipe-fittings/grooved-concentric-reducers.html",
+      "status": "PASS",
+      "layout": {
+        "overflow": 0,
+        "broken": [],
+        "lang": "en",
+        "dir": "ltr"
+      },
+      "content": {
+        "h1": "Grooved Concentric Reducers",
+        "main": 3098,
+        "internal": false
+      },
+      "reference": {
+        "section": true,
+        "rows": 2,
+        "source": "https://assets.victaulic.com/assets/uploads/literature/07.01.pdf",
+        "scope": "The manufacturer example below helps you specify an enquiry. Its values describe the named reference model, not the CHUANWEI product pictured above. Request the offered model’s datasheet for your order."
+      }
+    },
+    {
+      "scenario": "mobile/ar/products/grooved-concentric-reducers/index.html",
+      "status": "PASS",
+      "layout": {
+        "overflow": 0,
+        "broken": [],
+        "lang": "ar",
+        "dir": "rtl"
+      },
+      "content": {
+        "h1": "مخفضات متحدة المركز ذات أخاديد",
+        "main": 2621,
+        "internal": false
+      },
+      "reference": {
+        "section": true,
+        "rows": 2,
+        "source": "https://assets.victaulic.com/assets/uploads/literature/07.01.pdf",
+        "scope": "يساعد المثال التالي من الشركة المصنّعة المذكورة في تحديد متطلبات الاستفسار. القيم تخص الطراز المرجعي المذكور، ولا تمثل مواصفات منتج CHUANWEI المصوّر أعلاه. اطلب ورقة بيانات الطراز المعروض لطلبك."
+      }
+    },
+    {
+      "scenario": "mobile/products/grooved-pipe-fittings/threaded-mechanical-tees.html",
+      "status": "PASS",
+      "layout": {
+        "overflow": 0,
+        "broken": [],
+        "lang": "en",
+        "dir": "ltr"
+      },
+      "content": {
+        "h1": "Threaded Mechanical Tees",
+        "main": 2624,
+        "internal": false
+      },
+      "reference": {
+        "section": true,
+        "rows": 1,
+        "source": "https://assets.victaulic.com/assets/uploads/literature/11.02.pdf",
+        "scope": "The manufacturer example below helps you specify an enquiry. Its values describe the named reference model, not the CHUANWEI product pictured above. Request the offered model’s datasheet for your order."
+      }
+    },
+    {
+      "scenario": "mobile/ar/products/threaded-mechanical-tees/index.html",
+      "status": "PASS",
+      "layout": {
+        "overflow": 0,
+        "broken": [],
+        "lang": "ar",
+        "dir": "rtl"
+      },
+      "content": {
+        "h1": "وصلات T ميكانيكية بمخرج ملولب",
+        "main": 2101,
+        "internal": false
+      },
+      "reference": {
+        "section": true,
+        "rows": 1,
+        "source": "https://assets.victaulic.com/assets/uploads/literature/11.02.pdf",
+        "scope": "يساعد المثال التالي من الشركة المصنّعة المذكورة في تحديد متطلبات الاستفسار. القيم تخص الطراز المرجعي المذكور، ولا تمثل مواصفات منتج CHUANWEI المصوّر أعلاه. اطلب ورقة بيانات الطراز المعروض لطلبك."
+      }
+    },
+    {
+      "scenario": "mobile/products/grooved-pipe-fittings/grooved-equal-tees.html",
+      "status": "PASS",
+      "layout": {
+        "overflow": 0,
+        "broken": [],
+        "lang": "en",
+        "dir": "ltr"
+      },
+      "content": {
+        "h1": "Grooved Equal Tees",
+        "main": 2702,
+        "internal": false
+      },
+      "reference": {
+        "section": true,
+        "rows": 2,
+        "source": "https://assets.victaulic.com/assets/uploads/literature/07.01.pdf",
+        "scope": "The manufacturer example below helps you specify an enquiry. Its values describe the named reference model, not the CHUANWEI product pictured above. Request the offered model’s datasheet for your order."
+      }
+    },
+    {
+      "scenario": "mobile/ar/products/grooved-equal-tees/index.html",
+      "status": "PASS",
+      "layout": {
+        "overflow": 0,
+        "broken": [],
+        "lang": "ar",
+        "dir": "rtl"
+      },
+      "content": {
+        "h1": "وصلات T متساوية ذات أخاديد",
+        "main": 2250,
+        "internal": false
+      },
+      "reference": {
+        "section": true,
+        "rows": 2,
+        "source": "https://assets.victaulic.com/assets/uploads/literature/07.01.pdf",
+        "scope": "يساعد المثال التالي من الشركة المصنّعة المذكورة في تحديد متطلبات الاستفسار. القيم تخص الطراز المرجعي المذكور، ولا تمثل مواصفات منتج CHUANWEI المصوّر أعلاه. اطلب ورقة بيانات الطراز المعروض لطلبك."
+      }
+    },
+    {
+      "scenario": "mobile/products/grooved-pipe-fittings/grooved-flange-adapters.html",
+      "status": "PASS",
+      "layout": {
+        "overflow": 0,
+        "broken": [],
+        "lang": "en",
+        "dir": "ltr"
+      },
+      "content": {
+        "h1": "Grooved Flange Adapters",
+        "main": 2614,
+        "internal": false
+      },
+      "reference": {
+        "section": true,
+        "rows": 2,
+        "source": "https://assets.victaulic.com/assets/uploads/literature/06.06.pdf",
+        "scope": "The manufacturer example below helps you specify an enquiry. Its values describe the named reference model, not the CHUANWEI product pictured above. Request the offered model’s datasheet for your order."
+      }
+    },
+    {
+      "scenario": "mobile/ar/products/grooved-flange-adapters/index.html",
+      "status": "PASS",
+      "layout": {
+        "overflow": 0,
+        "broken": [],
+        "lang": "ar",
+        "dir": "rtl"
+      },
+      "content": {
+        "h1": "محولات فلنجية ذات أخاديد",
+        "main": 2092,
+        "internal": false
+      },
+      "reference": {
+        "section": true,
+        "rows": 2,
+        "source": "https://assets.victaulic.com/assets/uploads/literature/06.06.pdf",
+        "scope": "يساعد المثال التالي من الشركة المصنّعة المذكورة في تحديد متطلبات الاستفسار. القيم تخص الطراز المرجعي المذكور، ولا تمثل مواصفات منتج CHUANWEI المصوّر أعلاه. اطلب ورقة بيانات الطراز المعروض لطلبك."
+      }
+    },
+    {
+      "scenario": "mobile/products/fire-pumps-controllers/horizontal-single-stage-fire-pumps.html",
+      "status": "PASS",
+      "layout": {
+        "overflow": 0,
+        "broken": [],
+        "lang": "en",
+        "dir": "ltr"
+      },
+      "content": {
+        "h1": "Horizontal Single-Stage Fire Pumps",
+        "main": 2921,
+        "internal": false
+      },
+      "reference": {
+        "section": true,
+        "rows": 2,
+        "source": "http://shanghaijiaxun.com/81.html",
+        "scope": "The manufacturer example below helps you specify an enquiry. Its values describe the named reference model, not the CHUANWEI product pictured above. Request the offered model’s datasheet for your order."
+      }
+    },
+    {
+      "scenario": "mobile/ar/products/horizontal-single-stage-fire-pumps/index.html",
+      "status": "PASS",
+      "layout": {
+        "overflow": 0,
+        "broken": [],
+        "lang": "ar",
+        "dir": "rtl"
+      },
+      "content": {
+        "h1": "مضخات حريق أفقية أحادية المرحلة",
+        "main": 2349,
+        "internal": false
+      },
+      "reference": {
+        "section": true,
+        "rows": 2,
+        "source": "http://shanghaijiaxun.com/81.html",
+        "scope": "يساعد المثال التالي من الشركة المصنّعة المذكورة في تحديد متطلبات الاستفسار. القيم تخص الطراز المرجعي المذكور، ولا تمثل مواصفات منتج CHUANWEI المصوّر أعلاه. اطلب ورقة بيانات الطراز المعروض لطلبك."
+      }
+    }
+  ],
+  "screenshots": [
+    "product-vertical-multistage-fire-pumps-en-desktop.png",
+    "product-vertical-multistage-fire-pumps-ar-desktop.png",
+    "product-flanged-y-strainers-en-desktop.png",
+    "product-flanged-y-strainers-ar-desktop.png",
+    "product-liquid-filled-pressure-gauges-en-desktop.png",
+    "product-liquid-filled-pressure-gauges-ar-desktop.png",
+    "product-vertical-multistage-fire-pumps-en-mobile.png",
+    "product-vertical-multistage-fire-pumps-ar-mobile.png",
+    "product-flanged-y-strainers-en-mobile.png",
+    "product-flanged-y-strainers-ar-mobile.png",
+    "product-liquid-filled-pressure-gauges-en-mobile.png",
+    "product-liquid-filled-pressure-gauges-ar-mobile.png"
+  ]
+}

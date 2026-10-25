@@ -1,0 +1,892 @@
+{
+  "status": "PASS",
+  "generatedAt": "2026-10-24T06:15:22.472Z",
+  "browser": "Edg/155.0.4283.62",
+  "scenarioCount": 4,
+  "decodedPhotoChecks": 36,
+  "newPhotoModalChecks": 24,
+  "newPhotoOrder": [
+    "DSC_5892.jpg",
+    "DSC_5874.jpg",
+    "DSC_5877.jpg",
+    "DSC_5880.jpg",
+    "DSC_5883.jpg",
+    "DSC_5886.jpg"
+  ],
+  "scenarios": [
+    {
+      "status": "PASS",
+      "viewport": "desktop",
+      "locale": "en",
+      "path": "products/消防喷头/k115-quick-response-fire-sprinkler.html",
+      "count": 9,
+      "mainGalleryCount": 3,
+      "lang": "en",
+      "dir": "ltr",
+      "overflow": 0,
+      "viewportWidth": 1440,
+      "photos": [
+        {
+          "id": "product-photograph-1",
+          "src": "assets/products/guanya-2026/extended-coverage-quick-response-fire-sprinkler-dsc_5887-640.webp",
+          "srcset": "../../assets/products/guanya-2026/extended-coverage-quick-response-fire-sprinkler-dsc_5887-640.webp?v=723ea634177d 459w, ../../assets/products/guanya-2026/extended-coverage-quick-response-fire-sprinkler-dsc_5887-1600.webp?v=29a5ff172851 877w",
+          "detail": "assets/products/guanya-2026/extended-coverage-quick-response-fire-sprinkler-dsc_5887-1600.webp",
+          "decoded": true,
+          "caption": "Upright K115 quick-response sprinkler — 68°C, marked K-ZSTZ",
+          "expectedCaption": "Upright K115 quick-response sprinkler — 68°C, marked K-ZSTZ",
+          "alt": "Upright K115 quick-response sprinkler — 68°C, marked K-ZSTZ",
+          "bounds": {
+            "left": 130,
+            "right": 507.328125
+          },
+          "width": 360,
+          "height": 501
+        },
+        {
+          "id": "product-photograph-2",
+          "src": "assets/products/guanya-2026/extended-coverage-quick-response-fire-sprinkler-dsc_5888-640.webp",
+          "srcset": "../../assets/products/guanya-2026/extended-coverage-quick-response-fire-sprinkler-dsc_5888-640.webp?v=2420cc1fb553 438w, ../../assets/products/guanya-2026/extended-coverage-quick-response-fire-sprinkler-dsc_5888-1600.webp?v=fcdf17da7f89 860w",
+          "detail": "assets/products/guanya-2026/extended-coverage-quick-response-fire-sprinkler-dsc_5888-1600.webp",
+          "decoded": true,
+          "caption": "Pendent K115 quick-response sprinkler — 68°C, marked K-ZSTX",
+          "expectedCaption": "Pendent K115 quick-response sprinkler — 68°C, marked K-ZSTX",
+          "alt": "Pendent K115 quick-response sprinkler — 68°C, marked K-ZSTX",
+          "bounds": {
+            "left": 531.328125,
+            "right": 908.65625
+          },
+          "width": 359,
+          "height": 526
+        },
+        {
+          "id": "product-photograph-3",
+          "src": "assets/products/guanya-2026/extended-coverage-quick-response-fire-sprinkler-dsc_5889-640.webp",
+          "srcset": "../../assets/products/guanya-2026/extended-coverage-quick-response-fire-sprinkler-dsc_5889-640.webp?v=1ca5a86e257b 467w, ../../assets/products/guanya-2026/extended-coverage-quick-response-fire-sprinkler-dsc_5889-1600.webp?v=9b0b678d527b 979w",
+          "detail": "assets/products/guanya-2026/extended-coverage-quick-response-fire-sprinkler-dsc_5889-1600.webp",
+          "decoded": true,
+          "caption": "Horizontal sidewall K115 quick-response sprinkler — 68°C, marked K-ZSTBS",
+          "expectedCaption": "Horizontal sidewall K115 quick-response sprinkler — 68°C, marked K-ZSTBS",
+          "alt": "Horizontal sidewall K115 quick-response sprinkler — 68°C, marked K-ZSTBS",
+          "bounds": {
+            "left": 932.65625,
+            "right": 1310
+          },
+          "width": 359,
+          "height": 493
+        },
+        {
+          "id": "product-photograph-4",
+          "src": "assets/products/guanya-2026/k115-quick-response-fire-sprinkler-dsc_5892-640.webp",
+          "srcset": "../../assets/products/guanya-2026/k115-quick-response-fire-sprinkler-dsc_5892-640.webp?v=85c70fcaacda 456w, ../../assets/products/guanya-2026/k115-quick-response-fire-sprinkler-dsc_5892-1600.webp?v=f7707372736e 945w",
+          "detail": "assets/products/guanya-2026/k115-quick-response-fire-sprinkler-dsc_5892-1600.webp",
+          "decoded": true,
+          "caption": "Horizontal sidewall K115 quick-response sprinkler — 57°C",
+          "expectedCaption": "Horizontal sidewall K115 quick-response sprinkler — 57°C",
+          "alt": "Horizontal sidewall K115 quick-response sprinkler — 57°C",
+          "bounds": {
+            "left": 130,
+            "right": 507.328125
+          },
+          "width": 360,
+          "height": 505
+        },
+        {
+          "id": "product-photograph-5",
+          "src": "assets/products/guanya-2026/k115-quick-response-fire-sprinkler-dsc_5874-640.webp",
+          "srcset": "../../assets/products/guanya-2026/k115-quick-response-fire-sprinkler-dsc_5874-640.webp?v=cbbe3f1173ac 492w, ../../assets/products/guanya-2026/k115-quick-response-fire-sprinkler-dsc_5874-1600.webp?v=294068a4158b 1147w",
+          "detail": "assets/products/guanya-2026/k115-quick-response-fire-sprinkler-dsc_5874-1600.webp",
+          "decoded": true,
+          "caption": "Horizontal sidewall K115 quick-response sprinkler — 182°C",
+          "expectedCaption": "Horizontal sidewall K115 quick-response sprinkler — 182°C",
+          "alt": "Horizontal sidewall K115 quick-response sprinkler — 182°C",
+          "bounds": {
+            "left": 531.328125,
+            "right": 908.65625
+          },
+          "width": 360,
+          "height": 468
+        },
+        {
+          "id": "product-photograph-6",
+          "src": "assets/products/guanya-2026/k115-quick-response-fire-sprinkler-dsc_5877-640.webp",
+          "srcset": "../../assets/products/guanya-2026/k115-quick-response-fire-sprinkler-dsc_5877-640.webp?v=da6fbbe35e53 455w, ../../assets/products/guanya-2026/k115-quick-response-fire-sprinkler-dsc_5877-1600.webp?v=6d5d9a18d080 1012w",
+          "detail": "assets/products/guanya-2026/k115-quick-response-fire-sprinkler-dsc_5877-1600.webp",
+          "decoded": true,
+          "caption": "Horizontal sidewall K115 quick-response sprinkler — 141°C",
+          "expectedCaption": "Horizontal sidewall K115 quick-response sprinkler — 141°C",
+          "alt": "Horizontal sidewall K115 quick-response sprinkler — 141°C",
+          "bounds": {
+            "left": 932.65625,
+            "right": 1310
+          },
+          "width": 360,
+          "height": 506
+        },
+        {
+          "id": "product-photograph-7",
+          "src": "assets/products/guanya-2026/k115-quick-response-fire-sprinkler-dsc_5880-640.webp",
+          "srcset": "../../assets/products/guanya-2026/k115-quick-response-fire-sprinkler-dsc_5880-640.webp?v=e48bda3d3ebb 460w, ../../assets/products/guanya-2026/k115-quick-response-fire-sprinkler-dsc_5880-1600.webp?v=f2b41475caa6 1012w",
+          "detail": "assets/products/guanya-2026/k115-quick-response-fire-sprinkler-dsc_5880-1600.webp",
+          "decoded": true,
+          "caption": "Horizontal sidewall K115 quick-response sprinkler — 79°C",
+          "expectedCaption": "Horizontal sidewall K115 quick-response sprinkler — 79°C",
+          "alt": "Horizontal sidewall K115 quick-response sprinkler — 79°C",
+          "bounds": {
+            "left": 130,
+            "right": 507.328125
+          },
+          "width": 360,
+          "height": 500
+        },
+        {
+          "id": "product-photograph-8",
+          "src": "assets/products/guanya-2026/k115-quick-response-fire-sprinkler-dsc_5883-640.webp",
+          "srcset": "../../assets/products/guanya-2026/k115-quick-response-fire-sprinkler-dsc_5883-640.webp?v=7bdbce6183ec 460w, ../../assets/products/guanya-2026/k115-quick-response-fire-sprinkler-dsc_5883-1600.webp?v=d230896b39ed 1012w",
+          "detail": "assets/products/guanya-2026/k115-quick-response-fire-sprinkler-dsc_5883-1600.webp",
+          "decoded": true,
+          "caption": "Horizontal sidewall K115 quick-response sprinkler — 260°C",
+          "expectedCaption": "Horizontal sidewall K115 quick-response sprinkler — 260°C",
+          "alt": "Horizontal sidewall K115 quick-response sprinkler — 260°C",
+          "bounds": {
+            "left": 531.328125,
+            "right": 908.65625
+          },
+          "width": 360,
+          "height": 500
+        },
+        {
+          "id": "product-photograph-9",
+          "src": "assets/products/guanya-2026/k115-quick-response-fire-sprinkler-dsc_5886-640.webp",
+          "srcset": "../../assets/products/guanya-2026/k115-quick-response-fire-sprinkler-dsc_5886-640.webp?v=c34cb1405f71 459w, ../../assets/products/guanya-2026/k115-quick-response-fire-sprinkler-dsc_5886-1600.webp?v=0f4352fec2bd 1046w",
+          "detail": "assets/products/guanya-2026/k115-quick-response-fire-sprinkler-dsc_5886-1600.webp",
+          "decoded": true,
+          "caption": "Horizontal sidewall K115 quick-response sprinkler — 93°C",
+          "expectedCaption": "Horizontal sidewall K115 quick-response sprinkler — 93°C",
+          "alt": "Horizontal sidewall K115 quick-response sprinkler — 93°C",
+          "bounds": {
+            "left": 932.65625,
+            "right": 1310
+          },
+          "width": 360,
+          "height": 501
+        }
+      ],
+      "newPhotoModalChecks": [
+        {
+          "photograph": 4,
+          "sourceFile": "DSC_5892.jpg",
+          "open": true,
+          "path": "assets/products/guanya-2026/k115-quick-response-fire-sprinkler-dsc_5892-1600.webp",
+          "decoded": true,
+          "alt": "Horizontal sidewall K115 quick-response sprinkler — 57°C",
+          "closed": true
+        },
+        {
+          "photograph": 5,
+          "sourceFile": "DSC_5874.jpg",
+          "open": true,
+          "path": "assets/products/guanya-2026/k115-quick-response-fire-sprinkler-dsc_5874-1600.webp",
+          "decoded": true,
+          "alt": "Horizontal sidewall K115 quick-response sprinkler — 182°C",
+          "closed": true
+        },
+        {
+          "photograph": 6,
+          "sourceFile": "DSC_5877.jpg",
+          "open": true,
+          "path": "assets/products/guanya-2026/k115-quick-response-fire-sprinkler-dsc_5877-1600.webp",
+          "decoded": true,
+          "alt": "Horizontal sidewall K115 quick-response sprinkler — 141°C",
+          "closed": true
+        },
+        {
+          "photograph": 7,
+          "sourceFile": "DSC_5880.jpg",
+          "open": true,
+          "path": "assets/products/guanya-2026/k115-quick-response-fire-sprinkler-dsc_5880-1600.webp",
+          "decoded": true,
+          "alt": "Horizontal sidewall K115 quick-response sprinkler — 79°C",
+          "closed": true
+        },
+        {
+          "photograph": 8,
+          "sourceFile": "DSC_5883.jpg",
+          "open": true,
+          "path": "assets/products/guanya-2026/k115-quick-response-fire-sprinkler-dsc_5883-1600.webp",
+          "decoded": true,
+          "alt": "Horizontal sidewall K115 quick-response sprinkler — 260°C",
+          "closed": true
+        },
+        {
+          "photograph": 9,
+          "sourceFile": "DSC_5886.jpg",
+          "open": true,
+          "path": "assets/products/guanya-2026/k115-quick-response-fire-sprinkler-dsc_5886-1600.webp",
+          "decoded": true,
+          "alt": "Horizontal sidewall K115 quick-response sprinkler — 93°C",
+          "closed": true
+        }
+      ]
+    },
+    {
+      "status": "PASS",
+      "viewport": "desktop",
+      "locale": "ar",
+      "path": "ar/products/k115-quick-response-fire-sprinkler/index.html",
+      "count": 9,
+      "mainGalleryCount": 3,
+      "lang": "ar",
+      "dir": "rtl",
+      "overflow": 0,
+      "viewportWidth": 1440,
+      "photos": [
+        {
+          "id": "product-photograph-1",
+          "src": "assets/products/guanya-2026/extended-coverage-quick-response-fire-sprinkler-dsc_5887-640.webp",
+          "srcset": "../../../assets/products/guanya-2026/extended-coverage-quick-response-fire-sprinkler-dsc_5887-640.webp?v=723ea634177d 459w, ../../../assets/products/guanya-2026/extended-coverage-quick-response-fire-sprinkler-dsc_5887-1600.webp?v=29a5ff172851 877w",
+          "detail": "assets/products/guanya-2026/extended-coverage-quick-response-fire-sprinkler-dsc_5887-1600.webp",
+          "decoded": true,
+          "caption": "رشاش K115 سريع الاستجابة قائم — 68°C، يحمل علامة K-ZSTZ",
+          "expectedCaption": "رشاش K115 سريع الاستجابة قائم — 68°C، يحمل علامة K-ZSTZ",
+          "alt": "رشاش K115 سريع الاستجابة قائم — 68°C، يحمل علامة K-ZSTZ",
+          "bounds": {
+            "left": 932.671875,
+            "right": 1310
+          },
+          "width": 360,
+          "height": 501
+        },
+        {
+          "id": "product-photograph-2",
+          "src": "assets/products/guanya-2026/extended-coverage-quick-response-fire-sprinkler-dsc_5888-640.webp",
+          "srcset": "../../../assets/products/guanya-2026/extended-coverage-quick-response-fire-sprinkler-dsc_5888-640.webp?v=2420cc1fb553 438w, ../../../assets/products/guanya-2026/extended-coverage-quick-response-fire-sprinkler-dsc_5888-1600.webp?v=fcdf17da7f89 860w",
+          "detail": "assets/products/guanya-2026/extended-coverage-quick-response-fire-sprinkler-dsc_5888-1600.webp",
+          "decoded": true,
+          "caption": "رشاش K115 سريع الاستجابة معلق — 68°C، يحمل علامة K-ZSTX",
+          "expectedCaption": "رشاش K115 سريع الاستجابة معلق — 68°C، يحمل علامة K-ZSTX",
+          "alt": "رشاش K115 سريع الاستجابة معلق — 68°C، يحمل علامة K-ZSTX",
+          "bounds": {
+            "left": 531.34375,
+            "right": 908.671875
+          },
+          "width": 359,
+          "height": 526
+        },
+        {
+          "id": "product-photograph-3",
+          "src": "assets/products/guanya-2026/extended-coverage-quick-response-fire-sprinkler-dsc_5889-640.webp",
+          "srcset": "../../../assets/products/guanya-2026/extended-coverage-quick-response-fire-sprinkler-dsc_5889-640.webp?v=1ca5a86e257b 467w, ../../../assets/products/guanya-2026/extended-coverage-quick-response-fire-sprinkler-dsc_5889-1600.webp?v=9b0b678d527b 979w",
+          "detail": "assets/products/guanya-2026/extended-coverage-quick-response-fire-sprinkler-dsc_5889-1600.webp",
+          "decoded": true,
+          "caption": "رشاش K115 سريع الاستجابة جانبي أفقي — 68°C، يحمل علامة K-ZSTBS",
+          "expectedCaption": "رشاش K115 سريع الاستجابة جانبي أفقي — 68°C، يحمل علامة K-ZSTBS",
+          "alt": "رشاش K115 سريع الاستجابة جانبي أفقي — 68°C، يحمل علامة K-ZSTBS",
+          "bounds": {
+            "left": 130,
+            "right": 507.34375
+          },
+          "width": 359,
+          "height": 493
+        },
+        {
+          "id": "product-photograph-4",
+          "src": "assets/products/guanya-2026/k115-quick-response-fire-sprinkler-dsc_5892-640.webp",
+          "srcset": "../../../assets/products/guanya-2026/k115-quick-response-fire-sprinkler-dsc_5892-640.webp?v=85c70fcaacda 456w, ../../../assets/products/guanya-2026/k115-quick-response-fire-sprinkler-dsc_5892-1600.webp?v=f7707372736e 945w",
+          "detail": "assets/products/guanya-2026/k115-quick-response-fire-sprinkler-dsc_5892-1600.webp",
+          "decoded": true,
+          "caption": "رشاش K115 سريع الاستجابة جانبي أفقي — 57°C",
+          "expectedCaption": "رشاش K115 سريع الاستجابة جانبي أفقي — 57°C",
+          "alt": "رشاش K115 سريع الاستجابة جانبي أفقي — 57°C",
+          "bounds": {
+            "left": 932.671875,
+            "right": 1310
+          },
+          "width": 360,
+          "height": 505
+        },
+        {
+          "id": "product-photograph-5",
+          "src": "assets/products/guanya-2026/k115-quick-response-fire-sprinkler-dsc_5874-640.webp",
+          "srcset": "../../../assets/products/guanya-2026/k115-quick-response-fire-sprinkler-dsc_5874-640.webp?v=cbbe3f1173ac 492w, ../../../assets/products/guanya-2026/k115-quick-response-fire-sprinkler-dsc_5874-1600.webp?v=294068a4158b 1147w",
+          "detail": "assets/products/guanya-2026/k115-quick-response-fire-sprinkler-dsc_5874-1600.webp",
+          "decoded": true,
+          "caption": "رشاش K115 سريع الاستجابة جانبي أفقي — 182°C",
+          "expectedCaption": "رشاش K115 سريع الاستجابة جانبي أفقي — 182°C",
+          "alt": "رشاش K115 سريع الاستجابة جانبي أفقي — 182°C",
+          "bounds": {
+            "left": 531.34375,
+            "right": 908.671875
+          },
+          "width": 360,
+          "height": 468
+        },
+        {
+          "id": "product-photograph-6",
+          "src": "assets/products/guanya-2026/k115-quick-response-fire-sprinkler-dsc_5877-640.webp",
+          "srcset": "../../../assets/products/guanya-2026/k115-quick-response-fire-sprinkler-dsc_5877-640.webp?v=da6fbbe35e53 455w, ../../../assets/products/guanya-2026/k115-quick-response-fire-sprinkler-dsc_5877-1600.webp?v=6d5d9a18d080 1012w",
+          "detail": "assets/products/guanya-2026/k115-quick-response-fire-sprinkler-dsc_5877-1600.webp",
+          "decoded": true,
+          "caption": "رشاش K115 سريع الاستجابة جانبي أفقي — 141°C",
+          "expectedCaption": "رشاش K115 سريع الاستجابة جانبي أفقي — 141°C",
+          "alt": "رشاش K115 سريع الاستجابة جانبي أفقي — 141°C",
+          "bounds": {
+            "left": 130,
+            "right": 507.34375
+          },
+          "width": 360,
+          "height": 506
+        },
+        {
+          "id": "product-photograph-7",
+          "src": "assets/products/guanya-2026/k115-quick-response-fire-sprinkler-dsc_5880-640.webp",
+          "srcset": "../../../assets/products/guanya-2026/k115-quick-response-fire-sprinkler-dsc_5880-640.webp?v=e48bda3d3ebb 460w, ../../../assets/products/guanya-2026/k115-quick-response-fire-sprinkler-dsc_5880-1600.webp?v=f2b41475caa6 1012w",
+          "detail": "assets/products/guanya-2026/k115-quick-response-fire-sprinkler-dsc_5880-1600.webp",
+          "decoded": true,
+          "caption": "رشاش K115 سريع الاستجابة جانبي أفقي — 79°C",
+          "expectedCaption": "رشاش K115 سريع الاستجابة جانبي أفقي — 79°C",
+          "alt": "رشاش K115 سريع الاستجابة جانبي أفقي — 79°C",
+          "bounds": {
+            "left": 932.671875,
+            "right": 1310
+          },
+          "width": 360,
+          "height": 500
+        },
+        {
+          "id": "product-photograph-8",
+          "src": "assets/products/guanya-2026/k115-quick-response-fire-sprinkler-dsc_5883-640.webp",
+          "srcset": "../../../assets/products/guanya-2026/k115-quick-response-fire-sprinkler-dsc_5883-640.webp?v=7bdbce6183ec 460w, ../../../assets/products/guanya-2026/k115-quick-response-fire-sprinkler-dsc_5883-1600.webp?v=d230896b39ed 1012w",
+          "detail": "assets/products/guanya-2026/k115-quick-response-fire-sprinkler-dsc_5883-1600.webp",
+          "decoded": true,
+          "caption": "رشاش K115 سريع الاستجابة جانبي أفقي — 260°C",
+          "expectedCaption": "رشاش K115 سريع الاستجابة جانبي أفقي — 260°C",
+          "alt": "رشاش K115 سريع الاستجابة جانبي أفقي — 260°C",
+          "bounds": {
+            "left": 531.34375,
+            "right": 908.671875
+          },
+          "width": 360,
+          "height": 500
+        },
+        {
+          "id": "product-photograph-9",
+          "src": "assets/products/guanya-2026/k115-quick-response-fire-sprinkler-dsc_5886-640.webp",
+          "srcset": "../../../assets/products/guanya-2026/k115-quick-response-fire-sprinkler-dsc_5886-640.webp?v=c34cb1405f71 459w, ../../../assets/products/guanya-2026/k115-quick-response-fire-sprinkler-dsc_5886-1600.webp?v=0f4352fec2bd 1046w",
+          "detail": "assets/products/guanya-2026/k115-quick-response-fire-sprinkler-dsc_5886-1600.webp",
+          "decoded": true,
+          "caption": "رشاش K115 سريع الاستجابة جانبي أفقي — 93°C",
+          "expectedCaption": "رشاش K115 سريع الاستجابة جانبي أفقي — 93°C",
+          "alt": "رشاش K115 سريع الاستجابة جانبي أفقي — 93°C",
+          "bounds": {
+            "left": 130,
+            "right": 507.34375
+          },
+          "width": 360,
+          "height": 501
+        }
+      ],
+      "newPhotoModalChecks": [
+        {
+          "photograph": 4,
+          "sourceFile": "DSC_5892.jpg",
+          "open": true,
+          "path": "assets/products/guanya-2026/k115-quick-response-fire-sprinkler-dsc_5892-1600.webp",
+          "decoded": true,
+          "alt": "رشاش ⁦K115⁩ سريع الاستجابة جانبي أفقي — ⁦57°C⁩",
+          "closed": true
+        },
+        {
+          "photograph": 5,
+          "sourceFile": "DSC_5874.jpg",
+          "open": true,
+          "path": "assets/products/guanya-2026/k115-quick-response-fire-sprinkler-dsc_5874-1600.webp",
+          "decoded": true,
+          "alt": "رشاش ⁦K115⁩ سريع الاستجابة جانبي أفقي — ⁦182°C⁩",
+          "closed": true
+        },
+        {
+          "photograph": 6,
+          "sourceFile": "DSC_5877.jpg",
+          "open": true,
+          "path": "assets/products/guanya-2026/k115-quick-response-fire-sprinkler-dsc_5877-1600.webp",
+          "decoded": true,
+          "alt": "رشاش ⁦K115⁩ سريع الاستجابة جانبي أفقي — ⁦141°C⁩",
+          "closed": true
+        },
+        {
+          "photograph": 7,
+          "sourceFile": "DSC_5880.jpg",
+          "open": true,
+          "path": "assets/products/guanya-2026/k115-quick-response-fire-sprinkler-dsc_5880-1600.webp",
+          "decoded": true,
+          "alt": "رشاش ⁦K115⁩ سريع الاستجابة جانبي أفقي — ⁦79°C⁩",
+          "closed": true
+        },
+        {
+          "photograph": 8,
+          "sourceFile": "DSC_5883.jpg",
+          "open": true,
+          "path": "assets/products/guanya-2026/k115-quick-response-fire-sprinkler-dsc_5883-1600.webp",
+          "decoded": true,
+          "alt": "رشاش ⁦K115⁩ سريع الاستجابة جانبي أفقي — ⁦260°C⁩",
+          "closed": true
+        },
+        {
+          "photograph": 9,
+          "sourceFile": "DSC_5886.jpg",
+          "open": true,
+          "path": "assets/products/guanya-2026/k115-quick-response-fire-sprinkler-dsc_5886-1600.webp",
+          "decoded": true,
+          "alt": "رشاش ⁦K115⁩ سريع الاستجابة جانبي أفقي — ⁦93°C⁩",
+          "closed": true
+        }
+      ]
+    },
+    {
+      "status": "PASS",
+      "viewport": "mobile",
+      "locale": "en",
+      "path": "products/消防喷头/k115-quick-response-fire-sprinkler.html",
+      "count": 9,
+      "mainGalleryCount": 3,
+      "lang": "en",
+      "dir": "ltr",
+      "overflow": 0,
+      "viewportWidth": 390,
+      "photos": [
+        {
+          "id": "product-photograph-1",
+          "src": "assets/products/guanya-2026/extended-coverage-quick-response-fire-sprinkler-dsc_5887-640.webp",
+          "srcset": "../../assets/products/guanya-2026/extended-coverage-quick-response-fire-sprinkler-dsc_5887-640.webp?v=723ea634177d 459w, ../../assets/products/guanya-2026/extended-coverage-quick-response-fire-sprinkler-dsc_5887-1600.webp?v=29a5ff172851 877w",
+          "detail": "assets/products/guanya-2026/extended-coverage-quick-response-fire-sprinkler-dsc_5887-1600.webp",
+          "decoded": true,
+          "caption": "Upright K115 quick-response sprinkler — 68°C, marked K-ZSTZ",
+          "expectedCaption": "Upright K115 quick-response sprinkler — 68°C, marked K-ZSTZ",
+          "alt": "Upright K115 quick-response sprinkler — 68°C, marked K-ZSTZ",
+          "bounds": {
+            "left": 12,
+            "right": 378
+          },
+          "width": 342,
+          "height": 476
+        },
+        {
+          "id": "product-photograph-2",
+          "src": "assets/products/guanya-2026/extended-coverage-quick-response-fire-sprinkler-dsc_5888-640.webp",
+          "srcset": "../../assets/products/guanya-2026/extended-coverage-quick-response-fire-sprinkler-dsc_5888-640.webp?v=2420cc1fb553 438w, ../../assets/products/guanya-2026/extended-coverage-quick-response-fire-sprinkler-dsc_5888-1600.webp?v=fcdf17da7f89 860w",
+          "detail": "assets/products/guanya-2026/extended-coverage-quick-response-fire-sprinkler-dsc_5888-1600.webp",
+          "decoded": true,
+          "caption": "Pendent K115 quick-response sprinkler — 68°C, marked K-ZSTX",
+          "expectedCaption": "Pendent K115 quick-response sprinkler — 68°C, marked K-ZSTX",
+          "alt": "Pendent K115 quick-response sprinkler — 68°C, marked K-ZSTX",
+          "bounds": {
+            "left": 12,
+            "right": 378
+          },
+          "width": 342,
+          "height": 499
+        },
+        {
+          "id": "product-photograph-3",
+          "src": "assets/products/guanya-2026/extended-coverage-quick-response-fire-sprinkler-dsc_5889-640.webp",
+          "srcset": "../../assets/products/guanya-2026/extended-coverage-quick-response-fire-sprinkler-dsc_5889-640.webp?v=1ca5a86e257b 467w, ../../assets/products/guanya-2026/extended-coverage-quick-response-fire-sprinkler-dsc_5889-1600.webp?v=9b0b678d527b 979w",
+          "detail": "assets/products/guanya-2026/extended-coverage-quick-response-fire-sprinkler-dsc_5889-1600.webp",
+          "decoded": true,
+          "caption": "Horizontal sidewall K115 quick-response sprinkler — 68°C, marked K-ZSTBS",
+          "expectedCaption": "Horizontal sidewall K115 quick-response sprinkler — 68°C, marked K-ZSTBS",
+          "alt": "Horizontal sidewall K115 quick-response sprinkler — 68°C, marked K-ZSTBS",
+          "bounds": {
+            "left": 12,
+            "right": 378
+          },
+          "width": 342,
+          "height": 468
+        },
+        {
+          "id": "product-photograph-4",
+          "src": "assets/products/guanya-2026/k115-quick-response-fire-sprinkler-dsc_5892-640.webp",
+          "srcset": "../../assets/products/guanya-2026/k115-quick-response-fire-sprinkler-dsc_5892-640.webp?v=85c70fcaacda 456w, ../../assets/products/guanya-2026/k115-quick-response-fire-sprinkler-dsc_5892-1600.webp?v=f7707372736e 945w",
+          "detail": "assets/products/guanya-2026/k115-quick-response-fire-sprinkler-dsc_5892-1600.webp",
+          "decoded": true,
+          "caption": "Horizontal sidewall K115 quick-response sprinkler — 57°C",
+          "expectedCaption": "Horizontal sidewall K115 quick-response sprinkler — 57°C",
+          "alt": "Horizontal sidewall K115 quick-response sprinkler — 57°C",
+          "bounds": {
+            "left": 12,
+            "right": 378
+          },
+          "width": 342,
+          "height": 480
+        },
+        {
+          "id": "product-photograph-5",
+          "src": "assets/products/guanya-2026/k115-quick-response-fire-sprinkler-dsc_5874-640.webp",
+          "srcset": "../../assets/products/guanya-2026/k115-quick-response-fire-sprinkler-dsc_5874-640.webp?v=cbbe3f1173ac 492w, ../../assets/products/guanya-2026/k115-quick-response-fire-sprinkler-dsc_5874-1600.webp?v=294068a4158b 1147w",
+          "detail": "assets/products/guanya-2026/k115-quick-response-fire-sprinkler-dsc_5874-1600.webp",
+          "decoded": true,
+          "caption": "Horizontal sidewall K115 quick-response sprinkler — 182°C",
+          "expectedCaption": "Horizontal sidewall K115 quick-response sprinkler — 182°C",
+          "alt": "Horizontal sidewall K115 quick-response sprinkler — 182°C",
+          "bounds": {
+            "left": 12,
+            "right": 378
+          },
+          "width": 342,
+          "height": 444
+        },
+        {
+          "id": "product-photograph-6",
+          "src": "assets/products/guanya-2026/k115-quick-response-fire-sprinkler-dsc_5877-640.webp",
+          "srcset": "../../assets/products/guanya-2026/k115-quick-response-fire-sprinkler-dsc_5877-640.webp?v=da6fbbe35e53 455w, ../../assets/products/guanya-2026/k115-quick-response-fire-sprinkler-dsc_5877-1600.webp?v=6d5d9a18d080 1012w",
+          "detail": "assets/products/guanya-2026/k115-quick-response-fire-sprinkler-dsc_5877-1600.webp",
+          "decoded": true,
+          "caption": "Horizontal sidewall K115 quick-response sprinkler — 141°C",
+          "expectedCaption": "Horizontal sidewall K115 quick-response sprinkler — 141°C",
+          "alt": "Horizontal sidewall K115 quick-response sprinkler — 141°C",
+          "bounds": {
+            "left": 12,
+            "right": 378
+          },
+          "width": 341,
+          "height": 481
+        },
+        {
+          "id": "product-photograph-7",
+          "src": "assets/products/guanya-2026/k115-quick-response-fire-sprinkler-dsc_5880-640.webp",
+          "srcset": "../../assets/products/guanya-2026/k115-quick-response-fire-sprinkler-dsc_5880-640.webp?v=e48bda3d3ebb 460w, ../../assets/products/guanya-2026/k115-quick-response-fire-sprinkler-dsc_5880-1600.webp?v=f2b41475caa6 1012w",
+          "detail": "assets/products/guanya-2026/k115-quick-response-fire-sprinkler-dsc_5880-1600.webp",
+          "decoded": true,
+          "caption": "Horizontal sidewall K115 quick-response sprinkler — 79°C",
+          "expectedCaption": "Horizontal sidewall K115 quick-response sprinkler — 79°C",
+          "alt": "Horizontal sidewall K115 quick-response sprinkler — 79°C",
+          "bounds": {
+            "left": 12,
+            "right": 378
+          },
+          "width": 342,
+          "height": 475
+        },
+        {
+          "id": "product-photograph-8",
+          "src": "assets/products/guanya-2026/k115-quick-response-fire-sprinkler-dsc_5883-640.webp",
+          "srcset": "../../assets/products/guanya-2026/k115-quick-response-fire-sprinkler-dsc_5883-640.webp?v=7bdbce6183ec 460w, ../../assets/products/guanya-2026/k115-quick-response-fire-sprinkler-dsc_5883-1600.webp?v=d230896b39ed 1012w",
+          "detail": "assets/products/guanya-2026/k115-quick-response-fire-sprinkler-dsc_5883-1600.webp",
+          "decoded": true,
+          "caption": "Horizontal sidewall K115 quick-response sprinkler — 260°C",
+          "expectedCaption": "Horizontal sidewall K115 quick-response sprinkler — 260°C",
+          "alt": "Horizontal sidewall K115 quick-response sprinkler — 260°C",
+          "bounds": {
+            "left": 12,
+            "right": 378
+          },
+          "width": 342,
+          "height": 475
+        },
+        {
+          "id": "product-photograph-9",
+          "src": "assets/products/guanya-2026/k115-quick-response-fire-sprinkler-dsc_5886-640.webp",
+          "srcset": "../../assets/products/guanya-2026/k115-quick-response-fire-sprinkler-dsc_5886-640.webp?v=c34cb1405f71 459w, ../../assets/products/guanya-2026/k115-quick-response-fire-sprinkler-dsc_5886-1600.webp?v=0f4352fec2bd 1046w",
+          "detail": "assets/products/guanya-2026/k115-quick-response-fire-sprinkler-dsc_5886-1600.webp",
+          "decoded": true,
+          "caption": "Horizontal sidewall K115 quick-response sprinkler — 93°C",
+          "expectedCaption": "Horizontal sidewall K115 quick-response sprinkler — 93°C",
+          "alt": "Horizontal sidewall K115 quick-response sprinkler — 93°C",
+          "bounds": {
+            "left": 12,
+            "right": 378
+          },
+          "width": 342,
+          "height": 476
+        }
+      ],
+      "newPhotoModalChecks": [
+        {
+          "photograph": 4,
+          "sourceFile": "DSC_5892.jpg",
+          "open": true,
+          "path": "assets/products/guanya-2026/k115-quick-response-fire-sprinkler-dsc_5892-1600.webp",
+          "decoded": true,
+          "alt": "Horizontal sidewall K115 quick-response sprinkler — 57°C",
+          "closed": true
+        },
+        {
+          "photograph": 5,
+          "sourceFile": "DSC_5874.jpg",
+          "open": true,
+          "path": "assets/products/guanya-2026/k115-quick-response-fire-sprinkler-dsc_5874-1600.webp",
+          "decoded": true,
+          "alt": "Horizontal sidewall K115 quick-response sprinkler — 182°C",
+          "closed": true
+        },
+        {
+          "photograph": 6,
+          "sourceFile": "DSC_5877.jpg",
+          "open": true,
+          "path": "assets/products/guanya-2026/k115-quick-response-fire-sprinkler-dsc_5877-1600.webp",
+          "decoded": true,
+          "alt": "Horizontal sidewall K115 quick-response sprinkler — 141°C",
+          "closed": true
+        },
+        {
+          "photograph": 7,
+          "sourceFile": "DSC_5880.jpg",
+          "open": true,
+          "path": "assets/products/guanya-2026/k115-quick-response-fire-sprinkler-dsc_5880-1600.webp",
+          "decoded": true,
+          "alt": "Horizontal sidewall K115 quick-response sprinkler — 79°C",
+          "closed": true
+        },
+        {
+          "photograph": 8,
+          "sourceFile": "DSC_5883.jpg",
+          "open": true,
+          "path": "assets/products/guanya-2026/k115-quick-response-fire-sprinkler-dsc_5883-1600.webp",
+          "decoded": true,
+          "alt": "Horizontal sidewall K115 quick-response sprinkler — 260°C",
+          "closed": true
+        },
+        {
+          "photograph": 9,
+          "sourceFile": "DSC_5886.jpg",
+          "open": true,
+          "path": "assets/products/guanya-2026/k115-quick-response-fire-sprinkler-dsc_5886-1600.webp",
+          "decoded": true,
+          "alt": "Horizontal sidewall K115 quick-response sprinkler — 93°C",
+          "closed": true
+        }
+      ]
+    },
+    {
+      "status": "PASS",
+      "viewport": "mobile",
+      "locale": "ar",
+      "path": "ar/products/k115-quick-response-fire-sprinkler/index.html",
+      "count": 9,
+      "mainGalleryCount": 3,
+      "lang": "ar",
+      "dir": "rtl",
+      "overflow": 0,
+      "viewportWidth": 390,
+      "photos": [
+        {
+          "id": "product-photograph-1",
+          "src": "assets/products/guanya-2026/extended-coverage-quick-response-fire-sprinkler-dsc_5887-640.webp",
+          "srcset": "../../../assets/products/guanya-2026/extended-coverage-quick-response-fire-sprinkler-dsc_5887-640.webp?v=723ea634177d 459w, ../../../assets/products/guanya-2026/extended-coverage-quick-response-fire-sprinkler-dsc_5887-1600.webp?v=29a5ff172851 877w",
+          "detail": "assets/products/guanya-2026/extended-coverage-quick-response-fire-sprinkler-dsc_5887-1600.webp",
+          "decoded": true,
+          "caption": "رشاش K115 سريع الاستجابة قائم — 68°C، يحمل علامة K-ZSTZ",
+          "expectedCaption": "رشاش K115 سريع الاستجابة قائم — 68°C، يحمل علامة K-ZSTZ",
+          "alt": "رشاش K115 سريع الاستجابة قائم — 68°C، يحمل علامة K-ZSTZ",
+          "bounds": {
+            "left": 12,
+            "right": 378
+          },
+          "width": 342,
+          "height": 476
+        },
+        {
+          "id": "product-photograph-2",
+          "src": "assets/products/guanya-2026/extended-coverage-quick-response-fire-sprinkler-dsc_5888-640.webp",
+          "srcset": "../../../assets/products/guanya-2026/extended-coverage-quick-response-fire-sprinkler-dsc_5888-640.webp?v=2420cc1fb553 438w, ../../../assets/products/guanya-2026/extended-coverage-quick-response-fire-sprinkler-dsc_5888-1600.webp?v=fcdf17da7f89 860w",
+          "detail": "assets/products/guanya-2026/extended-coverage-quick-response-fire-sprinkler-dsc_5888-1600.webp",
+          "decoded": true,
+          "caption": "رشاش K115 سريع الاستجابة معلق — 68°C، يحمل علامة K-ZSTX",
+          "expectedCaption": "رشاش K115 سريع الاستجابة معلق — 68°C، يحمل علامة K-ZSTX",
+          "alt": "رشاش K115 سريع الاستجابة معلق — 68°C، يحمل علامة K-ZSTX",
+          "bounds": {
+            "left": 12,
+            "right": 378
+          },
+          "width": 342,
+          "height": 499
+        },
+        {
+          "id": "product-photograph-3",
+          "src": "assets/products/guanya-2026/extended-coverage-quick-response-fire-sprinkler-dsc_5889-640.webp",
+          "srcset": "../../../assets/products/guanya-2026/extended-coverage-quick-response-fire-sprinkler-dsc_5889-640.webp?v=1ca5a86e257b 467w, ../../../assets/products/guanya-2026/extended-coverage-quick-response-fire-sprinkler-dsc_5889-1600.webp?v=9b0b678d527b 979w",
+          "detail": "assets/products/guanya-2026/extended-coverage-quick-response-fire-sprinkler-dsc_5889-1600.webp",
+          "decoded": true,
+          "caption": "رشاش K115 سريع الاستجابة جانبي أفقي — 68°C، يحمل علامة K-ZSTBS",
+          "expectedCaption": "رشاش K115 سريع الاستجابة جانبي أفقي — 68°C، يحمل علامة K-ZSTBS",
+          "alt": "رشاش K115 سريع الاستجابة جانبي أفقي — 68°C، يحمل علامة K-ZSTBS",
+          "bounds": {
+            "left": 12,
+            "right": 378
+          },
+          "width": 342,
+          "height": 468
+        },
+        {
+          "id": "product-photograph-4",
+          "src": "assets/products/guanya-2026/k115-quick-response-fire-sprinkler-dsc_5892-640.webp",
+          "srcset": "../../../assets/products/guanya-2026/k115-quick-response-fire-sprinkler-dsc_5892-640.webp?v=85c70fcaacda 456w, ../../../assets/products/guanya-2026/k115-quick-response-fire-sprinkler-dsc_5892-1600.webp?v=f7707372736e 945w",
+          "detail": "assets/products/guanya-2026/k115-quick-response-fire-sprinkler-dsc_5892-1600.webp",
+          "decoded": true,
+          "caption": "رشاش K115 سريع الاستجابة جانبي أفقي — 57°C",
+          "expectedCaption": "رشاش K115 سريع الاستجابة جانبي أفقي — 57°C",
+          "alt": "رشاش K115 سريع الاستجابة جانبي أفقي — 57°C",
+          "bounds": {
+            "left": 12,
+            "right": 378
+          },
+          "width": 342,
+          "height": 480
+        },
+        {
+          "id": "product-photograph-5",
+          "src": "assets/products/guanya-2026/k115-quick-response-fire-sprinkler-dsc_5874-640.webp",
+          "srcset": "../../../assets/products/guanya-2026/k115-quick-response-fire-sprinkler-dsc_5874-640.webp?v=cbbe3f1173ac 492w, ../../../assets/products/guanya-2026/k115-quick-response-fire-sprinkler-dsc_5874-1600.webp?v=294068a4158b 1147w",
+          "detail": "assets/products/guanya-2026/k115-quick-response-fire-sprinkler-dsc_5874-1600.webp",
+          "decoded": true,
+          "caption": "رشاش K115 سريع الاستجابة جانبي أفقي — 182°C",
+          "expectedCaption": "رشاش K115 سريع الاستجابة جانبي أفقي — 182°C",
+          "alt": "رشاش K115 سريع الاستجابة جانبي أفقي — 182°C",
+          "bounds": {
+            "left": 12,
+            "right": 378
+          },
+          "width": 342,
+          "height": 444
+        },
+        {
+          "id": "product-photograph-6",
+          "src": "assets/products/guanya-2026/k115-quick-response-fire-sprinkler-dsc_5877-640.webp",
+          "srcset": "../../../assets/products/guanya-2026/k115-quick-response-fire-sprinkler-dsc_5877-640.webp?v=da6fbbe35e53 455w, ../../../assets/products/guanya-2026/k115-quick-response-fire-sprinkler-dsc_5877-1600.webp?v=6d5d9a18d080 1012w",
+          "detail": "assets/products/guanya-2026/k115-quick-response-fire-sprinkler-dsc_5877-1600.webp",
+          "decoded": true,
+          "caption": "رشاش K115 سريع الاستجابة جانبي أفقي — 141°C",
+          "expectedCaption": "رشاش K115 سريع الاستجابة جانبي أفقي — 141°C",
+          "alt": "رشاش K115 سريع الاستجابة جانبي أفقي — 141°C",
+          "bounds": {
+            "left": 12,
+            "right": 378
+          },
+          "width": 341,
+          "height": 481
+        },
+        {
+          "id": "product-photograph-7",
+          "src": "assets/products/guanya-2026/k115-quick-response-fire-sprinkler-dsc_5880-640.webp",
+          "srcset": "../../../assets/products/guanya-2026/k115-quick-response-fire-sprinkler-dsc_5880-640.webp?v=e48bda3d3ebb 460w, ../../../assets/products/guanya-2026/k115-quick-response-fire-sprinkler-dsc_5880-1600.webp?v=f2b41475caa6 1012w",
+          "detail": "assets/products/guanya-2026/k115-quick-response-fire-sprinkler-dsc_5880-1600.webp",
+          "decoded": true,
+          "caption": "رشاش K115 سريع الاستجابة جانبي أفقي — 79°C",
+          "expectedCaption": "رشاش K115 سريع الاستجابة جانبي أفقي — 79°C",
+          "alt": "رشاش K115 سريع الاستجابة جانبي أفقي — 79°C",
+          "bounds": {
+            "left": 12,
+            "right": 378
+          },
+          "width": 342,
+          "height": 475
+        },
+        {
+          "id": "product-photograph-8",
+          "src": "assets/products/guanya-2026/k115-quick-response-fire-sprinkler-dsc_5883-640.webp",
+          "srcset": "../../../assets/products/guanya-2026/k115-quick-response-fire-sprinkler-dsc_5883-640.webp?v=7bdbce6183ec 460w, ../../../assets/products/guanya-2026/k115-quick-response-fire-sprinkler-dsc_5883-1600.webp?v=d230896b39ed 1012w",
+          "detail": "assets/products/guanya-2026/k115-quick-response-fire-sprinkler-dsc_5883-1600.webp",
+          "decoded": true,
+          "caption": "رشاش K115 سريع الاستجابة جانبي أفقي — 260°C",
+          "expectedCaption": "رشاش K115 سريع الاستجابة جانبي أفقي — 260°C",
+          "alt": "رشاش K115 سريع الاستجابة جانبي أفقي — 260°C",
+          "bounds": {
+            "left": 12,
+            "right": 378
+          },
+          "width": 342,
+          "height": 475
+        },
+        {
+          "id": "product-photograph-9",
+          "src": "assets/products/guanya-2026/k115-quick-response-fire-sprinkler-dsc_5886-640.webp",
+          "srcset": "../../../assets/products/guanya-2026/k115-quick-response-fire-sprinkler-dsc_5886-640.webp?v=c34cb1405f71 459w, ../../../assets/products/guanya-2026/k115-quick-response-fire-sprinkler-dsc_5886-1600.webp?v=0f4352fec2bd 1046w",
+          "detail": "assets/products/guanya-2026/k115-quick-response-fire-sprinkler-dsc_5886-1600.webp",
+          "decoded": true,
+          "caption": "رشاش K115 سريع الاستجابة جانبي أفقي — 93°C",
+          "expectedCaption": "رشاش K115 سريع الاستجابة جانبي أفقي — 93°C",
+          "alt": "رشاش K115 سريع الاستجابة جانبي أفقي — 93°C",
+          "bounds": {
+            "left": 12,
+            "right": 378
+          },
+          "width": 342,
+          "height": 476
+        }
+      ],
+      "newPhotoModalChecks": [
+        {
+          "photograph": 4,
+          "sourceFile": "DSC_5892.jpg",
+          "open": true,
+          "path": "assets/products/guanya-2026/k115-quick-response-fire-sprinkler-dsc_5892-1600.webp",
+          "decoded": true,
+          "alt": "رشاش ⁦K115⁩ سريع الاستجابة جانبي أفقي — ⁦57°C⁩",
+          "closed": true
+        },
+        {
+          "photograph": 5,
+          "sourceFile": "DSC_5874.jpg",
+          "open": true,
+          "path": "assets/products/guanya-2026/k115-quick-response-fire-sprinkler-dsc_5874-1600.webp",
+          "decoded": true,
+          "alt": "رشاش ⁦K115⁩ سريع الاستجابة جانبي أفقي — ⁦182°C⁩",
+          "closed": true
+        },
+        {
+          "photograph": 6,
+          "sourceFile": "DSC_5877.jpg",
+          "open": true,
+          "path": "assets/products/guanya-2026/k115-quick-response-fire-sprinkler-dsc_5877-1600.webp",
+          "decoded": true,
+          "alt": "رشاش ⁦K115⁩ سريع الاستجابة جانبي أفقي — ⁦141°C⁩",
+          "closed": true
+        },
+        {
+          "photograph": 7,
+          "sourceFile": "DSC_5880.jpg",
+          "open": true,
+          "path": "assets/products/guanya-2026/k115-quick-response-fire-sprinkler-dsc_5880-1600.webp",
+          "decoded": true,
+          "alt": "رشاش ⁦K115⁩ سريع الاستجابة جانبي أفقي — ⁦79°C⁩",
+          "closed": true
+        },
+        {
+          "photograph": 8,
+          "sourceFile": "DSC_5883.jpg",
+          "open": true,
+          "path": "assets/products/guanya-2026/k115-quick-response-fire-sprinkler-dsc_5883-1600.webp",
+          "decoded": true,
+          "alt": "رشاش ⁦K115⁩ سريع الاستجابة جانبي أفقي — ⁦260°C⁩",
+          "closed": true
+        },
+        {
+          "photograph": 9,
+          "sourceFile": "DSC_5886.jpg",
+          "open": true,
+          "path": "assets/products/guanya-2026/k115-quick-response-fire-sprinkler-dsc_5886-1600.webp",
+          "decoded": true,
+          "alt": "رشاش ⁦K115⁩ سريع الاستجابة جانبي أفقي — ⁦93°C⁩",
+          "closed": true
+        }
+      ]
+    }
+  ],
+  "screenshots": [
+    "gallery-desktop-en-photo-4.png",
+    "gallery-desktop-en-photo-7.png",
+    "gallery-desktop-ar-photo-4.png",
+    "gallery-desktop-ar-photo-7.png",
+    "gallery-mobile-en-photo-4.png",
+    "gallery-mobile-en-photo-5.png",
+    "gallery-mobile-en-photo-6.png",
+    "gallery-mobile-en-photo-7.png",
+    "gallery-mobile-en-photo-8.png",
+    "gallery-mobile-en-photo-9.png",
+    "gallery-mobile-ar-photo-4.png",
+    "gallery-mobile-ar-photo-5.png",
+    "gallery-mobile-ar-photo-6.png",
+    "gallery-mobile-ar-photo-7.png",
+    "gallery-mobile-ar-photo-8.png",
+    "gallery-mobile-ar-photo-9.png"
+  ]
+}

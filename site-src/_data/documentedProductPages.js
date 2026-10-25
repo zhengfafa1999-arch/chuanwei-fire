@@ -46,7 +46,7 @@ export default products.flatMap(product => ["en", "ar"].map(locale => {
     versionedProductImage(source, path.posix.relative(path.posix.dirname(route.outputPath), source))
   ]));
   return {
-    photos: productPhotos(product.routeId, locale, route.assetPrefix),
+    photos: productPhotos(product.routeId, locale, route.assetPrefix, product.photoSourceFiles),
     supplement: productSupplement(product.routeId, locale, route.assetPrefix),
     product: withInquiryDrafts(product, text.title, route.canonical, locale),
     route,

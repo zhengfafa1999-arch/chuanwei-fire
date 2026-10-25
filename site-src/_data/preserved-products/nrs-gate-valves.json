@@ -56,26 +56,6 @@
     [
       "operation",
       "handwheel"
-    ],
-    [
-      "workingPressure",
-      "availableOnRequest"
-    ],
-    [
-      "bodyDiscMaterial",
-      "availableOnRequest"
-    ],
-    [
-      "seatSealMaterial",
-      "availableOnRequest"
-    ],
-    [
-      "coating",
-      "availableOnRequest"
-    ],
-    [
-      "standardApproval",
-      "toBeConfirmed"
     ]
   ],
   "operationCards": [
@@ -264,7 +244,7 @@
       "numbers": []
     },
     "specificationsConfirmedOnRequest": {
-      "text": "Specifications confirmed on request",
+      "text": "Product configuration",
       "numbers": []
     },
     "seriesPresentedForRangeReference": {

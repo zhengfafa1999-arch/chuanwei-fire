@@ -24,7 +24,15 @@
     "notes": [
       "不沿用旧QRR候选型号；未把照片上的海外认证文字作为证据。",
       "未公布胶品牌或粘接强度；图像优化候选如改写标签不得替换原图。"
-    ]
+    ],
+    "marketReference": {
+      "grade": "C-other-manufacturer-or-series-reference",
+      "reviewDate": "2026-10-25",
+      "url": "https://www.statx.com/product/stat-x-fixed-system-electrical-units/",
+      "model": "Stat-X 30E / 100E",
+      "location": "Official product page",
+      "scope": "Selection reference only; no supplied-SKU specification, certification, compatibility or availability inferred."
+    }
   },
   "publication": {
     "status": "release-candidate",
@@ -161,14 +169,23 @@
       "spec2Label": "Product form",
       "spec2Value": "Compact housing with two thermal leads",
       "spec3Label": "Rear mounting surface",
-      "spec3Value": "Adhesive backing shown in the source photographs",
+      "spec3Value": "Adhesive-backed configuration shown",
       "model0Name": "Compact cabinet device",
       "model0Reference": "Available on request",
       "model0Selection": "Thermal-lead configuration; exact device model and charge to be selected for the enclosure.",
       "selection0Label": "Enclosure details",
       "selection0Body": "Provide cabinet dimensions, internal equipment, ventilation openings and the protected hazard.",
       "selection1Label": "Device and installation data",
-      "selection1Body": "Confirm the exact model, agent quantity, activation conditions, installation clearances and mounting method against the product documentation."
+      "selection1Body": "Confirm the exact model, agent quantity, activation conditions, installation clearances and mounting method against the product documentation.",
+      "referenceHeading": "Selection reference",
+      "referenceScope": "The manufacturer example below helps you specify an enquiry. Its values describe the named reference model, not the CHUANWEI product pictured above. Request the offered model’s datasheet for your order.",
+      "referenceSource": "Manufacturer reference",
+      "reference0Title": "Stat-X 30E / 100E",
+      "reference0Note": "Agent mass differs from generator weight. Enclosure volume, openings and hazard determine the required system design.",
+      "reference0Row0Label": "30E aerosol mass",
+      "reference0Row0Value": "30 g",
+      "reference0Row1Label": "100E aerosol mass",
+      "reference0Row1Value": "100 g"
     },
     "ar": {
       "onThisPage": "في هذه الصفحة",
@@ -215,14 +232,42 @@
       "spec2Label": "شكل المنتج",
       "spec2Value": "غلاف مدمج بسلكي بدء حراري",
       "spec3Label": "سطح التثبيت الخلفي",
-      "spec3Value": "طبقة لاصقة خلفية ظاهرة في صور المصدر",
+      "spec3Value": "تكوين مزود بطبقة لاصقة خلفية كما في الصورة",
       "model0Name": "جهاز مدمج للخزائن",
       "model0Reference": "حسب طلب الاستفسار",
       "model0Selection": "تجهيز بسلكي بدء حراري؛ يحدد الطراز والسعة وفقاً للحيز.",
       "selection0Label": "تفاصيل الحيز",
       "selection0Body": "قدم أبعاد الخزانة ومعداتها الداخلية وفتحات التهوية وطبيعة الخطر المطلوب حمايته.",
       "selection1Label": "بيانات الجهاز والتركيب",
-      "selection1Body": "أكد الطراز وكمية مادة الإطفاء وظروف التفعيل ومسافات الخلوص وطريقة التثبيت وفق وثائق المنتج."
+      "selection1Body": "أكد الطراز وكمية مادة الإطفاء وظروف التفعيل ومسافات الخلوص وطريقة التثبيت وفق وثائق المنتج.",
+      "referenceHeading": "مرجع الاختيار",
+      "referenceScope": "يساعد المثال التالي من الشركة المصنّعة المذكورة في تحديد متطلبات الاستفسار. القيم تخص الطراز المرجعي المذكور، ولا تمثل مواصفات منتج CHUANWEI المصوّر أعلاه. اطلب ورقة بيانات الطراز المعروض لطلبك.",
+      "referenceSource": "مرجع الشركة المصنّعة",
+      "reference0Title": "Stat-X 30E / 100E",
+      "reference0Note": "تختلف كتلة مادة الإطفاء عن وزن المولد. يحدد حجم الحيز والفتحات ونوع المخاطر تصميم النظام المطلوب.",
+      "reference0Row0Label": "كتلة الهباء للطراز 30E",
+      "reference0Row0Value": "30 g",
+      "reference0Row1Label": "كتلة الهباء للطراز 100E",
+      "reference0Row1Value": "100 g"
     }
-  }
+  },
+  "referenceExamples": [
+    {
+      "title": "reference0Title",
+      "rows": [
+        {
+          "label": "reference0Row0Label",
+          "value": "reference0Row0Value",
+          "technical": true
+        },
+        {
+          "label": "reference0Row1Label",
+          "value": "reference0Row1Value",
+          "technical": true
+        }
+      ],
+      "note": "reference0Note",
+      "url": "https://www.statx.com/product/stat-x-fixed-system-electrical-units/"
+    }
+  ]
 }

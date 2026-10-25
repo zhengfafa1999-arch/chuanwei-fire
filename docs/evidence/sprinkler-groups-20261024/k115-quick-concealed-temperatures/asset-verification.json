@@ -1,0 +1,29 @@
+{
+  "status": "PASS",
+  "routeId": "product:k115-quick-response-concealed-sprinkler",
+  "temperaturesC": [
+    57,
+    68,
+    93,
+    141
+  ],
+  "response": "quick / Q3A",
+  "galleryCount": 8,
+  "newDerivativeAssets": 16,
+  "reusedDerivativeAssets": 0,
+  "preservedPriorProductAssets": 276,
+  "mainGalleryCount": 3,
+  "technicalProductDataUnchanged": true,
+  "priorPhotographRecordsPreserved": 94,
+  "referenceOrder": [
+    "DSC_5952.jpg",
+    "DSC_5951.jpg",
+    "DSC_5948.jpg",
+    "DSC_5947.jpg",
+    "DSC_5940.jpg",
+    "DSC_5939.jpg",
+    "DSC_5936.jpg",
+    "DSC_5935.jpg"
+  ],
+  "noOtherSeriesPhotographsInLowerGallery": true
+}

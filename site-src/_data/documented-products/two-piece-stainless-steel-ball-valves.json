@@ -20,7 +20,15 @@
     ],
     "notes": [
       "保留PT1/4与PT1/2，不转换NPT/BSP，不采用倒写PT4/1；照片1000WOG不单独作为额定压力。"
-    ]
+    ],
+    "marketReference": {
+      "grade": "C-other-manufacturer-or-series-reference",
+      "reviewDate": "2026-10-25",
+      "url": "https://catalog.nibco.com/viewitems/ball-valves-7/ntional-port-stainless-steel-trim-t-580-s6-r-66-ll",
+      "model": "NIBCO T-580-S6-R-66-LL",
+      "location": "Official product page",
+      "scope": "Selection reference only; no supplied-SKU specification, certification, compatibility or availability inferred."
+    }
   },
   "publication": {
     "status": "release-candidate",
@@ -156,10 +164,10 @@
       "inquiryTitle": "Request product details and a quotation",
       "inquiryBody": "Send your selected configuration, quantity and destination.",
       "title": "Two-piece Stainless Steel Ball Valves",
-      "lead": "A 304 stainless steel two-piece ball valve with a manual lever and female threaded ends for pressure gauge connections. The source lists PT1/4 and PT1/2 connection options.",
+      "lead": "A 304 stainless steel two-piece ball valve with a manual lever and female threaded ends for pressure gauge connections. Connection options are PT1/4 and PT1/2.",
       "eyebrow": "Pipeline Valves & Strainers",
       "seoTitle": "Two-piece Stainless Steel Ball Valves | CHUANWEI FIRE",
-      "seoDescription": "A 304 stainless steel two-piece ball valve with a manual lever and female threaded ends for pressure gauge connections. The source lists PT1/4 and PT1/2 connection options.",
+      "seoDescription": "A 304 stainless steel two-piece ball valve with a manual lever and female threaded ends for pressure gauge connections. Connection options are PT1/4 and PT1/2.",
       "note": "Choose PT1/4 or PT1/2 and provide the mating thread drawing for dimensional verification.",
       "image0Alt": "Two-piece stainless steel ball valve with manual lever.",
       "image0Caption": "Two-piece stainless steel ball valve with manual lever.",
@@ -177,14 +185,23 @@
       "spec5Value": "Pressure gauge connections",
       "model0Name": "PT1/4 female × female",
       "model0Reference": "Available on request",
-      "model0Selection": "Select this supplier thread designation against the mating connection drawing.",
+      "model0Selection": "Match the thread designation to the mating connection drawing.",
       "model1Name": "PT1/2 female × female",
       "model1Reference": "Available on request",
-      "model1Selection": "Select this supplier thread designation against the mating connection drawing.",
+      "model1Selection": "Match the thread designation to the mating connection drawing.",
       "selection0Label": "Thread match",
       "selection0Body": "Choose PT1/4 or PT1/2 and provide the mating thread drawing for dimensional verification.",
       "selection1Label": "Service conditions",
-      "selection1Body": "State the working fluid, operating pressure and temperature for the exact supplied configuration."
+      "selection1Body": "State the working fluid, operating pressure and temperature for the exact supplied configuration.",
+      "referenceHeading": "Selection reference",
+      "referenceScope": "The manufacturer example below helps you specify an enquiry. Its values describe the named reference model, not the CHUANWEI product pictured above. Request the offered model’s datasheet for your order.",
+      "referenceSource": "Manufacturer reference",
+      "reference0Title": "NIBCO T-580-S6-R-66-LL",
+      "reference0Note": "Specify the thread standard and the required pressure at the operating temperature.",
+      "reference0Row0Label": "Seat material",
+      "reference0Row0Value": "Reinforced PTFE",
+      "reference0Row1Label": "Operating rotation",
+      "reference0Row1Value": "90°"
     },
     "ar": {
       "onThisPage": "في هذه الصفحة",
@@ -217,10 +234,10 @@
       "inquiryTitle": "اطلب تفاصيل المنتج وعرض سعر",
       "inquiryBody": "أرسل التكوين المختار والكمية والوجهة.",
       "title": "صمامات كروية من الستانلس ستيل بجسم من قطعتين",
-      "lead": "صمام كروي من الستانلس ستيل 304 بجسم من قطعتين وذراع يدوي ونهايات ملولبة داخليًا لتوصيلات مقاييس الضغط. تتضمن الخيارات الموثقة PT1/4 وPT1/2.",
+      "lead": "صمام كروي من الستانلس ستيل 304 بجسم من قطعتين وذراع يدوي ونهايات ملولبة داخليًا لتوصيلات مقاييس الضغط. خيارات التوصيل هي PT1/4 وPT1/2.",
       "eyebrow": "صمامات الأنابيب والمصافي",
       "seoTitle": "صمامات كروية من الستانلس ستيل بجسم من قطعتين | CHUANWEI FIRE",
-      "seoDescription": "صمام كروي من الستانلس ستيل 304 بجسم من قطعتين وذراع يدوي ونهايات ملولبة داخليًا لتوصيلات مقاييس الضغط. تتضمن الخيارات الموثقة PT1/4 وPT1/2.",
+      "seoDescription": "صمام كروي من الستانلس ستيل 304 بجسم من قطعتين وذراع يدوي ونهايات ملولبة داخليًا لتوصيلات مقاييس الضغط. خيارات التوصيل هي PT1/4 وPT1/2.",
       "note": "اختر PT1/4 أو PT1/2 وقدم رسم السن المقابل للتحقق من الأبعاد.",
       "image0Alt": "صمام كروي من الستانلس ستيل بجسم من قطعتين وذراع يدوي.",
       "image0Caption": "صمام كروي من الستانلس ستيل بجسم من قطعتين وذراع يدوي.",
@@ -238,14 +255,42 @@
       "spec5Value": "توصيلات مقاييس الضغط",
       "model0Name": "PT1/4 أنثى × أنثى",
       "model0Reference": "حسب طلب الاستفسار",
-      "model0Selection": "طابق رمز السن لدى المورد مع رسم التوصيل المقابل.",
+      "model0Selection": "طابق رمز السن مع رسم التوصيل المقابل.",
       "model1Name": "PT1/2 أنثى × أنثى",
       "model1Reference": "حسب طلب الاستفسار",
-      "model1Selection": "طابق رمز السن لدى المورد مع رسم التوصيل المقابل.",
+      "model1Selection": "طابق رمز السن مع رسم التوصيل المقابل.",
       "selection0Label": "مطابقة السن اللولبي",
       "selection0Body": "اختر PT1/4 أو PT1/2 وقدم رسم السن المقابل للتحقق من الأبعاد.",
       "selection1Label": "ظروف التشغيل",
-      "selection1Body": "حدد المائع وضغط التشغيل ودرجة الحرارة للتكوين المطلوب توريده."
+      "selection1Body": "حدد المائع وضغط التشغيل ودرجة الحرارة للتكوين المطلوب توريده.",
+      "referenceHeading": "مرجع الاختيار",
+      "referenceScope": "يساعد المثال التالي من الشركة المصنّعة المذكورة في تحديد متطلبات الاستفسار. القيم تخص الطراز المرجعي المذكور، ولا تمثل مواصفات منتج CHUANWEI المصوّر أعلاه. اطلب ورقة بيانات الطراز المعروض لطلبك.",
+      "referenceSource": "مرجع الشركة المصنّعة",
+      "reference0Title": "NIBCO T-580-S6-R-66-LL",
+      "reference0Note": "حدد معيار القلاوظ والضغط المطلوب عند درجة حرارة التشغيل.",
+      "reference0Row0Label": "مادة المقعد",
+      "reference0Row0Value": "PTFE مقوّى",
+      "reference0Row1Label": "زاوية التشغيل",
+      "reference0Row1Value": "90°"
     }
-  }
+  },
+  "referenceExamples": [
+    {
+      "title": "reference0Title",
+      "rows": [
+        {
+          "label": "reference0Row0Label",
+          "value": "reference0Row0Value",
+          "technical": false
+        },
+        {
+          "label": "reference0Row1Label",
+          "value": "reference0Row1Value",
+          "technical": true
+        }
+      ],
+      "note": "reference0Note",
+      "url": "https://catalog.nibco.com/viewitems/ball-valves-7/ntional-port-stainless-steel-trim-t-580-s6-r-66-ll"
+    }
+  ]
 }

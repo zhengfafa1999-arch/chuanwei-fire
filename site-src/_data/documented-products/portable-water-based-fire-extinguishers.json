@@ -28,7 +28,15 @@
       "L为药剂体积，不当作瓶体容积或整机重量。",
       "不把MS/ABEF型号字母作为国际通用火灾等级，不宣称无氟或适合带电设备。",
       "保留实物TAIRUI标识；CHUANWEI FIRE为供货方。"
-    ]
+    ],
+    "marketReference": {
+      "grade": "C-other-manufacturer-or-series-reference",
+      "reviewDate": "2026-10-25",
+      "url": "https://amerex-fire.com/products/fire-extinguishers/portable-fire-extinguishers/240",
+      "model": "Amerex 240",
+      "location": "Official product page",
+      "scope": "Selection reference only; no supplied-SKU specification, certification, compatibility or availability inferred."
+    }
   },
   "publication": {
     "status": "release-candidate",
@@ -251,7 +259,16 @@
       "selection1Label": "Project requirements",
       "selection1Body": "Send the installation location, required fire rating and destination market so the exact model documents can be checked.",
       "selection2Label": "Agent formulation",
-      "selection2Body": "Provide any formulation or environmental requirements and request the matching safety data sheet for the proposed model."
+      "selection2Body": "Provide any formulation or environmental requirements and request the matching safety data sheet for the proposed model.",
+      "referenceHeading": "Selection reference",
+      "referenceScope": "The manufacturer example below helps you specify an enquiry. Its values describe the named reference model, not the CHUANWEI product pictured above. Request the offered model’s datasheet for your order.",
+      "referenceSource": "Manufacturer reference",
+      "reference0Title": "Amerex 240",
+      "reference0Note": "This is a plain-water model; its data do not establish additive or foam compatibility for another extinguisher.",
+      "reference0Row0Label": "Discharge duration",
+      "reference0Row0Value": "55 s",
+      "reference0Row1Label": "Cylinder material",
+      "reference0Row1Value": "Stainless steel"
     },
     "ar": {
       "onThisPage": "في هذه الصفحة",
@@ -326,7 +343,35 @@
       "selection1Label": "متطلبات المشروع",
       "selection1Body": "أرسل موقع الاستخدام وتصنيف الإطفاء المطلوب وبلد الوجهة للتحقق من وثائق الطراز المحدد.",
       "selection2Label": "تركيبة مادة الإطفاء",
-      "selection2Body": "حدد متطلبات تركيبة مادة الإطفاء أو المتطلبات البيئية، واطلب صحيفة بيانات السلامة الخاصة بالطراز المقترح."
+      "selection2Body": "حدد متطلبات تركيبة مادة الإطفاء أو المتطلبات البيئية، واطلب صحيفة بيانات السلامة الخاصة بالطراز المقترح.",
+      "referenceHeading": "مرجع الاختيار",
+      "referenceScope": "يساعد المثال التالي من الشركة المصنّعة المذكورة في تحديد متطلبات الاستفسار. القيم تخص الطراز المرجعي المذكور، ولا تمثل مواصفات منتج CHUANWEI المصوّر أعلاه. اطلب ورقة بيانات الطراز المعروض لطلبك.",
+      "referenceSource": "مرجع الشركة المصنّعة",
+      "reference0Title": "Amerex 240",
+      "reference0Note": "هذا طراز يعمل بالماء فقط؛ لا تثبت بياناته توافق الإضافات أو الرغوة مع طفاية أخرى.",
+      "reference0Row0Label": "مدة التفريغ",
+      "reference0Row0Value": "55 s",
+      "reference0Row1Label": "مادة الأسطوانة",
+      "reference0Row1Value": "فولاذ مقاوم للصدأ"
     }
-  }
+  },
+  "referenceExamples": [
+    {
+      "title": "reference0Title",
+      "rows": [
+        {
+          "label": "reference0Row0Label",
+          "value": "reference0Row0Value",
+          "technical": true
+        },
+        {
+          "label": "reference0Row1Label",
+          "value": "reference0Row1Value",
+          "technical": false
+        }
+      ],
+      "note": "reference0Note",
+      "url": "https://amerex-fire.com/products/fire-extinguishers/portable-fire-extinguishers/240"
+    }
+  ]
 }

@@ -411,47 +411,13 @@
       }
     },
     {
-      "routeId": "product:extended-coverage-quick-response-fire-sprinkler",
-      "sourceFile": "DSC_5888.jpg",
-      "caption": {
-        "en": "Upright K115 / 68°C sample — marked K-ZSTZ",
-        "ar": "عينة قائم K115 / 68°C — تحمل علامة K-ZSTZ"
-      },
-      "matchEvidence": "Visible K-ZST model marking, K115 / 68°C and installation geometry. Additional sample photograph only; equivalence to EC-ZST factory models is not confirmed. Original pixels and derivatives retained.",
-      "sourcePath": "D:\\temp\\冠亚2026产品图\\DSC_5888.jpg",
-      "sourceSha256": "440a605523f75bd29b7aacfafd89d8d8fc04eef981f86054f6bd0221947f6396",
-      "sourceBytes": 394080,
-      "sourceWidth": 860,
-      "sourceHeight": 1256,
-      "display": {
-        "path": "assets/products/guanya-2026/extended-coverage-quick-response-fire-sprinkler-dsc_5888-640.webp",
-        "width": 438,
-        "height": 640,
-        "bytes": 33270,
-        "sha256": "2420cc1fb553599a16ff59126c3b66376ce711114b90845d8248a7d4dcb95c7f",
-        "quality": 85,
-        "unwatermarkedSha256": "56d197823a04231394c8da326cd0ad0a144e7888f2b4a0bfb3d20ec2c0d3fac0",
-        "watermarkRecord": "site-src/_data/product-watermarks.json"
-      },
-      "detail": {
-        "path": "assets/products/guanya-2026/extended-coverage-quick-response-fire-sprinkler-dsc_5888-1600.webp",
-        "width": 860,
-        "height": 1256,
-        "bytes": 77948,
-        "sha256": "fcdf17da7f89c04662e261e61dd3536a7924be2a3fad1e7cd6d3e6a2742cd406",
-        "quality": 85,
-        "unwatermarkedSha256": "e4345167cfacf27d04127027241daf2209aa0ba2266148ecd34c4367efbedfba",
-        "watermarkRecord": "site-src/_data/product-watermarks.json"
-      }
-    },
-    {
-      "routeId": "product:extended-coverage-quick-response-fire-sprinkler",
+      "routeId": "product:k115-quick-response-fire-sprinkler",
       "sourceFile": "DSC_5887.jpg",
       "caption": {
-        "en": "Pendent K115 / 68°C sample — marked K-ZSTX",
-        "ar": "عينة معلق K115 / 68°C — تحمل علامة K-ZSTX"
+        "en": "Upright K115 quick-response sprinkler — 68°C, marked K-ZSTZ",
+        "ar": "رشاش K115 سريع الاستجابة قائم — 68°C، يحمل علامة K-ZSTZ"
       },
-      "matchEvidence": "Visible K-ZST model marking, K115 / 68°C and installation geometry. Additional sample photograph only; equivalence to EC-ZST factory models is not confirmed. Original pixels and derivatives retained.",
+      "matchEvidence": "User confirmed on 2026-10-24 that these are ordinary K115 quick-response 68°C sprinklers, separate from the EC series. Visible model lettering establishes DSC_5887 as K-ZSTZ upright, DSC_5888 as K-ZSTX pendent, and DSC_5889 as K-ZSTBS horizontal sidewall; prior upright/pendent captions were reversed and are corrected. Original files and existing WebP bytes/URLs are retained. No EC specifications or certification transferred.",
       "sourcePath": "D:\\temp\\冠亚2026产品图\\DSC_5887.jpg",
       "sourceSha256": "aecb14f9639d0f1aa4018d8d88cde0e684506366b8d42bcc5678d83f0c073b66",
       "sourceBytes": 383462,
@@ -479,13 +445,47 @@
       }
     },
     {
-      "routeId": "product:extended-coverage-quick-response-fire-sprinkler",
+      "routeId": "product:k115-quick-response-fire-sprinkler",
+      "sourceFile": "DSC_5888.jpg",
+      "caption": {
+        "en": "Pendent K115 quick-response sprinkler — 68°C, marked K-ZSTX",
+        "ar": "رشاش K115 سريع الاستجابة معلق — 68°C، يحمل علامة K-ZSTX"
+      },
+      "matchEvidence": "User confirmed on 2026-10-24 that these are ordinary K115 quick-response 68°C sprinklers, separate from the EC series. Visible model lettering establishes DSC_5887 as K-ZSTZ upright, DSC_5888 as K-ZSTX pendent, and DSC_5889 as K-ZSTBS horizontal sidewall; prior upright/pendent captions were reversed and are corrected. Original files and existing WebP bytes/URLs are retained. No EC specifications or certification transferred.",
+      "sourcePath": "D:\\temp\\冠亚2026产品图\\DSC_5888.jpg",
+      "sourceSha256": "440a605523f75bd29b7aacfafd89d8d8fc04eef981f86054f6bd0221947f6396",
+      "sourceBytes": 394080,
+      "sourceWidth": 860,
+      "sourceHeight": 1256,
+      "display": {
+        "path": "assets/products/guanya-2026/extended-coverage-quick-response-fire-sprinkler-dsc_5888-640.webp",
+        "width": 438,
+        "height": 640,
+        "bytes": 33270,
+        "sha256": "2420cc1fb553599a16ff59126c3b66376ce711114b90845d8248a7d4dcb95c7f",
+        "quality": 85,
+        "unwatermarkedSha256": "56d197823a04231394c8da326cd0ad0a144e7888f2b4a0bfb3d20ec2c0d3fac0",
+        "watermarkRecord": "site-src/_data/product-watermarks.json"
+      },
+      "detail": {
+        "path": "assets/products/guanya-2026/extended-coverage-quick-response-fire-sprinkler-dsc_5888-1600.webp",
+        "width": 860,
+        "height": 1256,
+        "bytes": 77948,
+        "sha256": "fcdf17da7f89c04662e261e61dd3536a7924be2a3fad1e7cd6d3e6a2742cd406",
+        "quality": 85,
+        "unwatermarkedSha256": "e4345167cfacf27d04127027241daf2209aa0ba2266148ecd34c4367efbedfba",
+        "watermarkRecord": "site-src/_data/product-watermarks.json"
+      }
+    },
+    {
+      "routeId": "product:k115-quick-response-fire-sprinkler",
       "sourceFile": "DSC_5889.jpg",
       "caption": {
-        "en": "Horizontal sidewall K115 / 68°C sample — marked K-ZSTBS",
-        "ar": "عينة جانبي أفقي K115 / 68°C — تحمل علامة K-ZSTBS"
+        "en": "Horizontal sidewall K115 quick-response sprinkler — 68°C, marked K-ZSTBS",
+        "ar": "رشاش K115 سريع الاستجابة جانبي أفقي — 68°C، يحمل علامة K-ZSTBS"
       },
-      "matchEvidence": "Visible K-ZST model marking, K115 / 68°C and installation geometry. Additional sample photograph only; equivalence to EC-ZST factory models is not confirmed. Original pixels and derivatives retained.",
+      "matchEvidence": "User confirmed on 2026-10-24 that these are ordinary K115 quick-response 68°C sprinklers, separate from the EC series. Visible model lettering establishes DSC_5887 as K-ZSTZ upright, DSC_5888 as K-ZSTX pendent, and DSC_5889 as K-ZSTBS horizontal sidewall; prior upright/pendent captions were reversed and are corrected. Original files and existing WebP bytes/URLs are retained. No EC specifications or certification transferred.",
       "sourcePath": "D:\\temp\\冠亚2026产品图\\DSC_5889.jpg",
       "sourceSha256": "92cf7d1d3bef92c979498bbc723d48a621583dcd0cd5cf87f8e049b765b624a7",
       "sourceBytes": 368558,
@@ -992,10 +992,10 @@
       "routeId": "product:diaphragm-deluge-valves",
       "sourceFile": "DSC_5728.jpg",
       "caption": {
-        "en": "Flanged diaphragm-deluge assembly — sample layout",
-        "ar": "مجموعة غمر غشائية فلنجية — ترتيب العينة"
+        "en": "Grooved diaphragm-deluge assembly — sample layout",
+        "ar": "مجموعة غمر غشائية ذات وصلات محززة — ترتيب العينة"
       },
-      "matchEvidence": "Matches an existing website product configuration by visible construction; photograph is not pressure, material-grade or certification evidence.",
+      "matchEvidence": "Visible grooved inlet and outlet ends; corrected from the flanged slot following the user's photograph correction on 2026-10-25. Photograph is not pressure, material-grade or certification evidence.",
       "sourcePath": "D:\\temp\\冠亚2026产品图\\DSC_5728.jpg",
       "sourceSha256": "63c5430d9f8b41b6a3fcca0bf2801ab8a9164b9fc1fa3c758b361c9fcff9555c",
       "sourceBytes": 1802024,
@@ -1873,6 +1873,1721 @@
         "unwatermarkedSha256": "0e9dea51398fbaaeec12c5c48b123886fa949b93fbbe915bded9e0e475ed87b1",
         "watermarkRecord": "site-src/_data/product-watermarks.json"
       }
+    },
+    {
+      "routeId": "product:glass-bulb-fire-sprinkler",
+      "sourceFile": "DSC_5844.jpg",
+      "caption": {
+        "en": "Horizontal sidewall quick-response sprinkler — K-ZSTBS 80-57°C Q3A",
+        "ar": "رشاش سريع الاستجابة جانبي أفقي — K-ZSTBS 80-57°C Q3A"
+      },
+      "authorizationDate": "2026-10-24",
+      "matchEvidence": "User supplied this photograph and explicitly requested addition to the K80 quick-response lower Product photographs section on 2026-10-24. Attachment SHA256 exactly matches this previously inventoried original. Visible K-ZSTBS 80-57°C Q3A marking and horizontal sidewall deflector; 57°C is read from the marking. Photograph only; no new technical specification, thread, pressure, material or certification inferred.",
+      "sourcePath": "D:\\temp\\冠亚2026产品图\\DSC_5844.jpg",
+      "sourceSha256": "833296348fafe307ef2f1d173a8e1498b464c93db0f3fc146bd5b08b04907145",
+      "sourceBytes": 471863,
+      "sourceWidth": 928,
+      "sourceHeight": 1561,
+      "display": {
+        "path": "assets/products/guanya-2026/glass-bulb-fire-sprinkler-dsc_5844-640.webp",
+        "width": 380,
+        "height": 640,
+        "bytes": 26482,
+        "sha256": "fb2f5f69d5d21979a8cb8c1b7f6264fad9ab1851f3231c824fad3d766e3ea76e",
+        "quality": 85,
+        "unwatermarkedSha256": "ada258bed976232131aea69f5dd68778de710c4b798674b15bf4bdaf0905a081",
+        "watermarkRecord": "site-src/_data/product-watermarks.json"
+      },
+      "detail": {
+        "path": "assets/products/guanya-2026/glass-bulb-fire-sprinkler-dsc_5844-1600.webp",
+        "width": 928,
+        "height": 1561,
+        "bytes": 83932,
+        "sha256": "27751a9ce44da2f49bd8659d6892e0de83bb186ce952eaaf12578b73d3b7897a",
+        "quality": 85,
+        "unwatermarkedSha256": "956ef03853188e91fca505a480c926434f51580e03913f3df82dd98a4713e3e5",
+        "watermarkRecord": "site-src/_data/product-watermarks.json"
+      }
+    },
+    {
+      "routeId": "product:glass-bulb-fire-sprinkler",
+      "sourceFile": "DSC_5845.jpg",
+      "caption": {
+        "en": "K80 quick-response sprinkler — 93°C, green glass-bulb sample",
+        "ar": "رشاش سريع الاستجابة K80 — 93°C، عينة بعنصر زجاجي أخضر"
+      },
+      "authorizationDate": "2026-10-24",
+      "matchEvidence": "User supplied this photograph and explicitly requested addition to the K80 quick-response lower Product photographs section on 2026-10-24. Attachment SHA256 exactly matches this previously inventoried original. User explicitly confirmed this green glass-bulb sample as 93°C on 2026-10-24; the temperature is user-confirmed, not inferred from bulb color or partial markings. The confirmation applies to this depicted sample only; no installation orientation, thread, pressure, material, certification or unconfirmed parameter combinations inferred. Temperature confirmation record: docs/release/k80-quick-photos-20261024/image-rights-confirmation.json.",
+      "sourcePath": "D:\\temp\\冠亚2026产品图\\DSC_5845.jpg",
+      "sourceSha256": "fa1e7a6e8e562e53555b543d394fddd4780e2922735d6d3191c2dcb13787bab2",
+      "sourceBytes": 421629,
+      "sourceWidth": 860,
+      "sourceHeight": 1240,
+      "display": {
+        "path": "assets/products/guanya-2026/glass-bulb-fire-sprinkler-dsc_5845-640.webp",
+        "width": 444,
+        "height": 640,
+        "bytes": 37798,
+        "sha256": "3a43ceba1a0470e4071d3beba629f310c22719f3e2963f7a1f24763e6d3a7fec",
+        "quality": 85,
+        "unwatermarkedSha256": "e88e5303a70d65fe3f4e83a094f4c4f36997744936ab9bc820f7f123af5902e9",
+        "watermarkRecord": "site-src/_data/product-watermarks.json"
+      },
+      "detail": {
+        "path": "assets/products/guanya-2026/glass-bulb-fire-sprinkler-dsc_5845-1600.webp",
+        "width": 860,
+        "height": 1240,
+        "bytes": 90690,
+        "sha256": "ab0b09d63d28336b1073bf6ba3a56d2faf42309385c7cd66a1dc8a529c7f7336",
+        "quality": 85,
+        "unwatermarkedSha256": "ced7ae6f90f3ebfebee82cf8ae636350dabeba8211798c8ad23fa43966e6d14d",
+        "watermarkRecord": "site-src/_data/product-watermarks.json"
+      }
+    },
+    {
+      "routeId": "product:glass-bulb-fire-sprinkler",
+      "sourceFile": "DSC_5848.jpg",
+      "caption": {
+        "en": "K80 quick-response sprinkler — 141°C, blue glass-bulb sample",
+        "ar": "رشاش سريع الاستجابة K80 — 141°C، عينة بعنصر زجاجي أزرق"
+      },
+      "authorizationDate": "2026-10-24",
+      "matchEvidence": "User supplied this photograph and explicitly requested addition to the K80 quick-response lower Product photographs section on 2026-10-24. Attachment SHA256 exactly matches this previously inventoried original. User explicitly confirmed this blue glass-bulb sample as 141°C on 2026-10-24; the temperature is user-confirmed, not inferred from bulb color or partial markings. The confirmation applies to this depicted sample only; no installation orientation, thread, pressure, material, certification or unconfirmed parameter combinations inferred. Temperature confirmation record: docs/release/k80-quick-photos-20261024/image-rights-confirmation.json.",
+      "sourcePath": "D:\\temp\\冠亚2026产品图\\DSC_5848.jpg",
+      "sourceSha256": "8c5cb4ca2b8aac3854529b7ffea0e98459960cc74cda7de62ad6a86f284d6ac1",
+      "sourceBytes": 411285,
+      "sourceWidth": 860,
+      "sourceHeight": 1223,
+      "display": {
+        "path": "assets/products/guanya-2026/glass-bulb-fire-sprinkler-dsc_5848-640.webp",
+        "width": 450,
+        "height": 640,
+        "bytes": 37442,
+        "sha256": "91bd7556759b03c185eefaa8752aad0494709ec35c7e4558e8f6b9e4ad00c7d7",
+        "quality": 85,
+        "unwatermarkedSha256": "9dea0f02587e899bd68e83743cf6119dd03c511e242893b58a21678eb3c958a7",
+        "watermarkRecord": "site-src/_data/product-watermarks.json"
+      },
+      "detail": {
+        "path": "assets/products/guanya-2026/glass-bulb-fire-sprinkler-dsc_5848-1600.webp",
+        "width": 860,
+        "height": 1223,
+        "bytes": 86546,
+        "sha256": "5cf680055f968f75a066ce1cf42b1a527d3b9b5f0cad41328604b6b696e2adf9",
+        "quality": 85,
+        "unwatermarkedSha256": "8a0587d825e49f3218d5a8ccb233f4fb70ffc656231728faefcd0a4a5dbc343c",
+        "watermarkRecord": "site-src/_data/product-watermarks.json"
+      }
+    },
+    {
+      "routeId": "product:glass-bulb-fire-sprinkler",
+      "sourceFile": "DSC_5851.jpg",
+      "caption": {
+        "en": "K80 quick-response sprinkler — 182°C, purple glass-bulb sample",
+        "ar": "رشاش سريع الاستجابة K80 — 182°C، عينة بعنصر زجاجي بنفسجي"
+      },
+      "authorizationDate": "2026-10-24",
+      "matchEvidence": "User supplied this photograph and explicitly requested addition to the K80 quick-response lower Product photographs section on 2026-10-24. Attachment SHA256 exactly matches this previously inventoried original. User explicitly confirmed this purple glass-bulb sample as 182°C on 2026-10-24; the temperature is user-confirmed, not inferred from bulb color or partial markings. The confirmation applies to this depicted sample only; no installation orientation, thread, pressure, material, certification or unconfirmed parameter combinations inferred. Temperature confirmation record: docs/release/k80-quick-photos-20261024/image-rights-confirmation.json.",
+      "sourcePath": "D:\\temp\\冠亚2026产品图\\DSC_5851.jpg",
+      "sourceSha256": "b0d715019f0b06edf66c8a3d2b15351a3ffabdbd0b16a502b8515a8d6b320ddc",
+      "sourceBytes": 410629,
+      "sourceWidth": 827,
+      "sourceHeight": 1223,
+      "display": {
+        "path": "assets/products/guanya-2026/glass-bulb-fire-sprinkler-dsc_5851-640.webp",
+        "width": 433,
+        "height": 640,
+        "bytes": 38550,
+        "sha256": "7368823269bcd350f6f7ceab371e14d947818adeabe1bdfa6a71e4b03969b4e5",
+        "quality": 85,
+        "unwatermarkedSha256": "607838dac14228711895cc313c9563de371ce814429915460e71e401be7b1301",
+        "watermarkRecord": "site-src/_data/product-watermarks.json"
+      },
+      "detail": {
+        "path": "assets/products/guanya-2026/glass-bulb-fire-sprinkler-dsc_5851-1600.webp",
+        "width": 827,
+        "height": 1223,
+        "bytes": 93440,
+        "sha256": "e8df55596e100722a9656152080ac0096d7a19f7292dced6c6943fcafa355e01",
+        "quality": 85,
+        "unwatermarkedSha256": "099f874cefe59cf7d7d3b6a2a6364ecc392bb1fe4d4a4c8814e01c2eb4ecfe95",
+        "watermarkRecord": "site-src/_data/product-watermarks.json"
+      }
+    },
+    {
+      "routeId": "product:glass-bulb-fire-sprinkler",
+      "sourceFile": "DSC_5854.jpg",
+      "caption": {
+        "en": "K80 quick-response sprinkler — 260°C, black glass-bulb sample",
+        "ar": "رشاش سريع الاستجابة K80 — 260°C، عينة بعنصر زجاجي أسود"
+      },
+      "authorizationDate": "2026-10-24",
+      "matchEvidence": "User supplied this photograph and explicitly requested addition to the K80 quick-response lower Product photographs section on 2026-10-24. Attachment SHA256 exactly matches this previously inventoried original. User explicitly confirmed this black glass-bulb sample as 260°C on 2026-10-24; the temperature is user-confirmed, not inferred from bulb color or partial markings. The confirmation applies to this depicted sample only; no installation orientation, thread, pressure, material, certification or unconfirmed parameter combinations inferred. Temperature confirmation record: docs/release/k80-quick-photos-20261024/image-rights-confirmation.json.",
+      "sourcePath": "D:\\temp\\冠亚2026产品图\\DSC_5854.jpg",
+      "sourceSha256": "594970a4a5907641e899771b62a8bc0778903914f8d34a417c3afc2d4c89f64d",
+      "sourceBytes": 420689,
+      "sourceWidth": 860,
+      "sourceHeight": 1256,
+      "display": {
+        "path": "assets/products/guanya-2026/glass-bulb-fire-sprinkler-dsc_5854-640.webp",
+        "width": 438,
+        "height": 640,
+        "bytes": 36508,
+        "sha256": "a23576263e80fbee1479697bd7f3991499d6499f601ab1ad556bfa4f7a9844aa",
+        "quality": 85,
+        "unwatermarkedSha256": "6014763dfc6daf4b72ecb738dab4f28b37c76f7b31bf56e3a8f617931caac103",
+        "watermarkRecord": "site-src/_data/product-watermarks.json"
+      },
+      "detail": {
+        "path": "assets/products/guanya-2026/glass-bulb-fire-sprinkler-dsc_5854-1600.webp",
+        "width": 860,
+        "height": 1256,
+        "bytes": 89428,
+        "sha256": "18e891eaa234324b89f498af2ea1d98458161f044944ebb12002dd084fa6b63e",
+        "quality": 85,
+        "unwatermarkedSha256": "196fcfaca91d37f0dabf3b4d4c0ecd4c6188cb62f572ead37217649fc8ceb960",
+        "watermarkRecord": "site-src/_data/product-watermarks.json"
+      }
+    },
+    {
+      "routeId": "product:glass-bulb-fire-sprinkler",
+      "sourceFile": "DSC_5836.jpg",
+      "caption": {
+        "en": "K80 quick-response sprinkler — 79°C, light-yellow glass-bulb sample",
+        "ar": "رشاش سريع الاستجابة K80 — 79°C، عينة بعنصر زجاجي أصفر فاتح"
+      },
+      "authorizationDate": "2026-10-24",
+      "matchEvidence": "User supplied this photograph and explicitly requested addition to the K80 quick-response lower Product photographs section on 2026-10-24. Attachment SHA256 exactly matches this previously inventoried original. User explicitly confirmed this light-yellow glass-bulb sample as 79°C on 2026-10-24; the temperature is user-confirmed, not inferred from bulb color or partial markings. The confirmation applies to this depicted sample only; no installation orientation, thread, pressure, material, certification or unconfirmed parameter combinations inferred. Temperature confirmation record: docs/release/k80-quick-photos-20261024/image-rights-confirmation.json.",
+      "sourcePath": "D:\\temp\\冠亚2026产品图\\DSC_5836.jpg",
+      "sourceSha256": "0aa8604af89581b8f02ec4e24c547f2e15042a6b1f1dc7b6a267d7c7887e57b7",
+      "sourceBytes": 445018,
+      "sourceWidth": 844,
+      "sourceHeight": 1291,
+      "display": {
+        "path": "assets/products/guanya-2026/glass-bulb-fire-sprinkler-dsc_5836-640.webp",
+        "width": 418,
+        "height": 640,
+        "bytes": 37336,
+        "sha256": "050b98e05287d2e54f842a8af39587e8098d29637c14c4d77087d079e58d185f",
+        "quality": 85,
+        "unwatermarkedSha256": "6e863cedf6bb5186eff7d48339ac7c20ab88c8d806b66391dbbef7f0d2c1db11",
+        "watermarkRecord": "site-src/_data/product-watermarks.json"
+      },
+      "detail": {
+        "path": "assets/products/guanya-2026/glass-bulb-fire-sprinkler-dsc_5836-1600.webp",
+        "width": 844,
+        "height": 1291,
+        "bytes": 96862,
+        "sha256": "cdfb3c364382a66c2a66c32fb1f40953cb2223b999b257ecae80bb36d5f035e9",
+        "quality": 85,
+        "unwatermarkedSha256": "e75ae9550cacf003e16b27a02d2bd5b17aa4ecb8036196ff3afbcfb74182e288",
+        "watermarkRecord": "site-src/_data/product-watermarks.json"
+      }
+    },
+    {
+      "routeId": "product:k115-standard-response-fire-sprinkler",
+      "sourceFile": "DSC_5904.jpg",
+      "caption": {
+        "en": "Upright K115 standard-response sprinkler — 68°C",
+        "ar": "رشاش K115 ذو استجابة قياسية قائم — 68°C"
+      },
+      "authorizationDate": "2026-10-24",
+      "matchEvidence": "User supplied this exact photograph and identified the three-photo series as K115 standard response at 68°C for the second-level category and detail page on 2026-10-24. Source SHA256 matches the existing inventoried original. Visible deflector geometry and T-ZSTZ115-68°C Q5A factory marking identify the configuration. No pressure, nominal connection size, thread, material, finish, packaging or certification inferred.",
+      "sourcePath": "D:\\temp\\冠亚2026产品图\\DSC_5904.jpg",
+      "sourceSha256": "e1aa7e64f255ac294192ba4c158a60224dd07dc82dfa7526b6a93479c8fb986d",
+      "sourceBytes": 389438,
+      "sourceWidth": 911,
+      "sourceHeight": 1223,
+      "display": {
+        "path": "assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5904-640.webp",
+        "width": 477,
+        "height": 640,
+        "bytes": 32632,
+        "sha256": "8db214746fe0d3941ab37f581a5a390540bb5977ae393e0bdee989773630af69",
+        "quality": 85,
+        "unwatermarkedSha256": "ce705f249e94e49959aff2cf1ddab0d9e495fbaef88507eab65c0ff093770384",
+        "watermarkRecord": "site-src/_data/product-watermarks.json"
+      },
+      "detail": {
+        "path": "assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5904-1600.webp",
+        "width": 911,
+        "height": 1223,
+        "bytes": 70958,
+        "sha256": "ae585181158ec4b85366121a5a18d3ae2af8c594e4e89feaf48a124f7f983f01",
+        "quality": 85,
+        "unwatermarkedSha256": "7e462b8654dd0fe2a934b5cf1f9ab5821193503f10eb011436b9911b3eaee033",
+        "watermarkRecord": "site-src/_data/product-watermarks.json"
+      }
+    },
+    {
+      "routeId": "product:k115-standard-response-fire-sprinkler",
+      "sourceFile": "DSC_5905.jpg",
+      "caption": {
+        "en": "Pendent K115 standard-response sprinkler — 68°C",
+        "ar": "رشاش K115 ذو استجابة قياسية معلق — 68°C"
+      },
+      "authorizationDate": "2026-10-24",
+      "matchEvidence": "User supplied this exact photograph and identified the three-photo series as K115 standard response at 68°C for the second-level category and detail page on 2026-10-24. Source SHA256 matches the existing inventoried original. Visible deflector geometry and T-ZSTX115-68°C Q5A factory marking identify the configuration. No pressure, nominal connection size, thread, material, finish, packaging or certification inferred.",
+      "sourcePath": "D:\\temp\\冠亚2026产品图\\DSC_5905.jpg",
+      "sourceSha256": "19a2e9cdadae99c3c0bcc3901bb70d8b697bf649f6526aa1a0e89671f399c483",
+      "sourceBytes": 376276,
+      "sourceWidth": 911,
+      "sourceHeight": 1324,
+      "display": {
+        "path": "assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5905-640.webp",
+        "width": 440,
+        "height": 640,
+        "bytes": 28550,
+        "sha256": "21a33d08e8bf9427dcc4d08d3da3b0315280c67bd8dabff2ca38119da7a950b9",
+        "quality": 85,
+        "unwatermarkedSha256": "b0c31bac20516412ee1759f900225a0b02e897ccfdcb0a0c75b3ce82739f37e4",
+        "watermarkRecord": "site-src/_data/product-watermarks.json"
+      },
+      "detail": {
+        "path": "assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5905-1600.webp",
+        "width": 911,
+        "height": 1324,
+        "bytes": 67284,
+        "sha256": "e17b2c34ad8f59c24e92d7856723f16245e7e4cf629b4f3aadead19983228b09",
+        "quality": 85,
+        "unwatermarkedSha256": "3de68821fe5f6715d03a390c8354d68398c550c7e1b02338a42096b78c3efd4f",
+        "watermarkRecord": "site-src/_data/product-watermarks.json"
+      }
+    },
+    {
+      "routeId": "product:k115-standard-response-fire-sprinkler",
+      "sourceFile": "DSC_5906.jpg",
+      "caption": {
+        "en": "Horizontal sidewall K115 standard-response sprinkler — 68°C",
+        "ar": "رشاش K115 ذو استجابة قياسية جانبي أفقي — 68°C"
+      },
+      "authorizationDate": "2026-10-24",
+      "matchEvidence": "User supplied this exact photograph and identified the three-photo series as K115 standard response at 68°C for the second-level category and detail page on 2026-10-24. Source SHA256 matches the existing inventoried original. Visible deflector geometry and T-ZSTBS115-68°C Q5A factory marking identify the configuration. No pressure, nominal connection size, thread, material, finish, packaging or certification inferred.",
+      "sourcePath": "D:\\temp\\冠亚2026产品图\\DSC_5906.jpg",
+      "sourceSha256": "3e7726c20c5489ca02d082e0aa03af154718f222f37a89b5c6d53caf1b59150e",
+      "sourceBytes": 432243,
+      "sourceWidth": 1029,
+      "sourceHeight": 1442,
+      "display": {
+        "path": "assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5906-640.webp",
+        "width": 457,
+        "height": 640,
+        "bytes": 24084,
+        "sha256": "06443d8502da5bed4812654a81f3b60044d7944ba9a6bc0d09428b46eb81c9af",
+        "quality": 85,
+        "unwatermarkedSha256": "a5170593bfe71aa7140d8909c18cf34d9ffffe6981cb2e16c62f0666aaae65ce",
+        "watermarkRecord": "site-src/_data/product-watermarks.json"
+      },
+      "detail": {
+        "path": "assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5906-1600.webp",
+        "width": 1029,
+        "height": 1442,
+        "bytes": 68838,
+        "sha256": "e248d99d3403499aede73ceefdfe0e3f90f7f87f3ca3d622e1b3625f16fb3636",
+        "quality": 85,
+        "unwatermarkedSha256": "53da151873bcac8372a19cc65900764acc0946b34fb2ab392def3e52a3011039",
+        "watermarkRecord": "site-src/_data/product-watermarks.json"
+      }
+    },
+    {
+      "routeId": "product:k115-quick-response-fire-sprinkler",
+      "sourceFile": "DSC_5892.jpg",
+      "caption": {
+        "en": "Horizontal sidewall K115 quick-response sprinkler — 57°C",
+        "ar": "رشاش K115 سريع الاستجابة جانبي أفقي — 57°C"
+      },
+      "authorizationDate": "2026-10-24",
+      "matchEvidence": "User supplied this exact photograph and requested addition to the lower K115 quick-response detail gallery on 2026-10-24. Attachment SHA256 matches inventoried DSC_5892.jpg. Visible K-ZSTBS 115-57°C Q3A marking and deflector identify the horizontal sidewall sample. Temperature transcribed from the physical marking, not inferred from bulb color. No pressure, connection size, thread, materials or approvals inferred.",
+      "sourcePath": "D:\\temp\\冠亚2026产品图\\DSC_5892.jpg",
+      "sourceSha256": "d586a706adac37c93da79060db25b38951dd8b6381f5b6de1a342827b7a23911",
+      "sourceBytes": 364407,
+      "sourceWidth": 945,
+      "sourceHeight": 1325,
+      "display": {
+        "path": "assets/products/guanya-2026/k115-quick-response-fire-sprinkler-dsc_5892-640.webp",
+        "width": 456,
+        "height": 640,
+        "bytes": 23740,
+        "sha256": "85c70fcaacda305a8d01e212310eb223ade47e51abf71f7312826f98df7ef4e1",
+        "quality": 85,
+        "unwatermarkedSha256": "aa5a16a3535fd7446a78e047835013e4ba1bf6a87ba2763ecccf1a79034f16a8",
+        "watermarkRecord": "site-src/_data/product-watermarks.json"
+      },
+      "detail": {
+        "path": "assets/products/guanya-2026/k115-quick-response-fire-sprinkler-dsc_5892-1600.webp",
+        "width": 945,
+        "height": 1325,
+        "bytes": 58948,
+        "sha256": "f7707372736ea7faa960b31e1f1c1dbd09bc2c94d32788974911a30214fda610",
+        "quality": 85,
+        "unwatermarkedSha256": "8234df9baac309e6e3d50963226f8da1e528d0ece6195955aa4b56233781ea67",
+        "watermarkRecord": "site-src/_data/product-watermarks.json"
+      }
+    },
+    {
+      "routeId": "product:k115-quick-response-fire-sprinkler",
+      "sourceFile": "DSC_5874.jpg",
+      "caption": {
+        "en": "Horizontal sidewall K115 quick-response sprinkler — 182°C",
+        "ar": "رشاش K115 سريع الاستجابة جانبي أفقي — 182°C"
+      },
+      "authorizationDate": "2026-10-24",
+      "matchEvidence": "User supplied this exact photograph and requested addition to the lower K115 quick-response detail gallery on 2026-10-24. Attachment SHA256 matches inventoried DSC_5874.jpg. Visible K-ZSTBS 115-182°C Q3A marking and deflector identify the horizontal sidewall sample. Temperature transcribed from the physical marking, not inferred from bulb color. No pressure, connection size, thread, materials or approvals inferred.",
+      "sourcePath": "D:\\temp\\冠亚2026产品图\\DSC_5874.jpg",
+      "sourceSha256": "a64ba636f8fc74d6bd0db8aa7cdf6bea1ae463c078e7c1027bfea35d96cf153a",
+      "sourceBytes": 455747,
+      "sourceWidth": 1147,
+      "sourceHeight": 1493,
+      "display": {
+        "path": "assets/products/guanya-2026/k115-quick-response-fire-sprinkler-dsc_5874-640.webp",
+        "width": 492,
+        "height": 640,
+        "bytes": 23336,
+        "sha256": "cbbe3f1173ac0aadb8cb154a534afef512f1b19865eec56fcc02c5c55c2bdec0",
+        "quality": 85,
+        "unwatermarkedSha256": "0c7a646c4d765601f9aa1ce198b84b43a4c366444b9d7a5837d79c9fd7b34798",
+        "watermarkRecord": "site-src/_data/product-watermarks.json"
+      },
+      "detail": {
+        "path": "assets/products/guanya-2026/k115-quick-response-fire-sprinkler-dsc_5874-1600.webp",
+        "width": 1147,
+        "height": 1493,
+        "bytes": 66586,
+        "sha256": "294068a4158b10d678f43da67dd902c609ec6f5bae45cc3237f173081ef71b9e",
+        "quality": 85,
+        "unwatermarkedSha256": "0c1371413af6e83314feba810079440af78e8172daae7887c6850e304ba73905",
+        "watermarkRecord": "site-src/_data/product-watermarks.json"
+      }
+    },
+    {
+      "routeId": "product:k115-quick-response-fire-sprinkler",
+      "sourceFile": "DSC_5877.jpg",
+      "caption": {
+        "en": "Horizontal sidewall K115 quick-response sprinkler — 141°C",
+        "ar": "رشاش K115 سريع الاستجابة جانبي أفقي — 141°C"
+      },
+      "authorizationDate": "2026-10-24",
+      "matchEvidence": "User supplied this exact photograph and requested addition to the lower K115 quick-response detail gallery on 2026-10-24. Attachment SHA256 matches inventoried DSC_5877.jpg. Visible K-ZSTBS 115-141°C Q3A marking and deflector identify the horizontal sidewall sample. Temperature transcribed from the physical marking, not inferred from bulb color. No pressure, connection size, thread, materials or approvals inferred.",
+      "sourcePath": "D:\\temp\\冠亚2026产品图\\DSC_5877.jpg",
+      "sourceSha256": "cdc64ffb6899e2ceb36bd9f42cf535e9459ea54b4f51d789bea90483a92c2f2a",
+      "sourceBytes": 399137,
+      "sourceWidth": 1012,
+      "sourceHeight": 1425,
+      "display": {
+        "path": "assets/products/guanya-2026/k115-quick-response-fire-sprinkler-dsc_5877-640.webp",
+        "width": 455,
+        "height": 640,
+        "bytes": 23116,
+        "sha256": "da6fbbe35e537e07aac9ba8448262d9f1b22d4ab9294986a4b7a5b6c51af2b7d",
+        "quality": 85,
+        "unwatermarkedSha256": "ae107ad2eb94be7fae31c9745b5980f0619559959bf1e26c45c53e54397ba6d4",
+        "watermarkRecord": "site-src/_data/product-watermarks.json"
+      },
+      "detail": {
+        "path": "assets/products/guanya-2026/k115-quick-response-fire-sprinkler-dsc_5877-1600.webp",
+        "width": 1012,
+        "height": 1425,
+        "bytes": 62350,
+        "sha256": "6d5d9a18d080f8de3e90009ccd6bfd00a5b430848652636fcd75ce326892c147",
+        "quality": 85,
+        "unwatermarkedSha256": "2bd7c714b5c0e567a5c8228ca5fc04af300e02826ebdbeddd898708327178af8",
+        "watermarkRecord": "site-src/_data/product-watermarks.json"
+      }
+    },
+    {
+      "routeId": "product:k115-quick-response-fire-sprinkler",
+      "sourceFile": "DSC_5880.jpg",
+      "caption": {
+        "en": "Horizontal sidewall K115 quick-response sprinkler — 79°C",
+        "ar": "رشاش K115 سريع الاستجابة جانبي أفقي — 79°C"
+      },
+      "authorizationDate": "2026-10-24",
+      "matchEvidence": "User supplied this exact photograph and requested addition to the lower K115 quick-response detail gallery on 2026-10-24. Attachment SHA256 matches inventoried DSC_5880.jpg. Visible K-ZSTBS 115-79°C Q3A marking and deflector identify the horizontal sidewall sample. Temperature transcribed from the physical marking, not inferred from bulb color. No pressure, connection size, thread, materials or approvals inferred.",
+      "sourcePath": "D:\\temp\\冠亚2026产品图\\DSC_5880.jpg",
+      "sourceSha256": "c7f59c4b9ee0921590637dd03c71973ab620d061336be2ded4bdfbac54727e15",
+      "sourceBytes": 415271,
+      "sourceWidth": 1012,
+      "sourceHeight": 1408,
+      "display": {
+        "path": "assets/products/guanya-2026/k115-quick-response-fire-sprinkler-dsc_5880-640.webp",
+        "width": 460,
+        "height": 640,
+        "bytes": 24248,
+        "sha256": "e48bda3d3ebb84b73a43f4ddbc62c4c4662f43de5b8b72fd4130fe6bba18d40d",
+        "quality": 85,
+        "unwatermarkedSha256": "cd7c87bfcadb246be7ae83afaf22ec5876d48e134f7d562db3f52f68887cd98f",
+        "watermarkRecord": "site-src/_data/product-watermarks.json"
+      },
+      "detail": {
+        "path": "assets/products/guanya-2026/k115-quick-response-fire-sprinkler-dsc_5880-1600.webp",
+        "width": 1012,
+        "height": 1408,
+        "bytes": 63962,
+        "sha256": "f2b41475caa689eee54dd72550c0e89ef215fe828892e11b40ca65906833adc4",
+        "quality": 85,
+        "unwatermarkedSha256": "e07472321752228317c6e5d180bd0d1e356c001fe301cafede04b78a9a04944f",
+        "watermarkRecord": "site-src/_data/product-watermarks.json"
+      }
+    },
+    {
+      "routeId": "product:k115-quick-response-fire-sprinkler",
+      "sourceFile": "DSC_5883.jpg",
+      "caption": {
+        "en": "Horizontal sidewall K115 quick-response sprinkler — 260°C",
+        "ar": "رشاش K115 سريع الاستجابة جانبي أفقي — 260°C"
+      },
+      "authorizationDate": "2026-10-24",
+      "matchEvidence": "User supplied this exact photograph and requested addition to the lower K115 quick-response detail gallery on 2026-10-24. Attachment SHA256 matches inventoried DSC_5883.jpg. Visible K-ZSTBS 115-260°C Q3A marking and deflector identify the horizontal sidewall sample. Temperature transcribed from the physical marking, not inferred from bulb color. No pressure, connection size, thread, materials or approvals inferred.",
+      "sourcePath": "D:\\temp\\冠亚2026产品图\\DSC_5883.jpg",
+      "sourceSha256": "95d2fd54eef40ea7b67969f2b4c3e784172ac2fdcfbccce2cb14e8b37cb86fd5",
+      "sourceBytes": 394754,
+      "sourceWidth": 1012,
+      "sourceHeight": 1408,
+      "display": {
+        "path": "assets/products/guanya-2026/k115-quick-response-fire-sprinkler-dsc_5883-640.webp",
+        "width": 460,
+        "height": 640,
+        "bytes": 21188,
+        "sha256": "7bdbce6183ec811732bf244fe2af76ef031ebfec41d7edcb24e5830e29aaf217",
+        "quality": 85,
+        "unwatermarkedSha256": "c4e4c36875dca9f50fba94b91bb3600da92b1dd2034ada5cb62613c239463c80",
+        "watermarkRecord": "site-src/_data/product-watermarks.json"
+      },
+      "detail": {
+        "path": "assets/products/guanya-2026/k115-quick-response-fire-sprinkler-dsc_5883-1600.webp",
+        "width": 1012,
+        "height": 1408,
+        "bytes": 54674,
+        "sha256": "d230896b39eddd6e2d3a12334087bd6cebd4186a7b847ff4ca55d53b75762291",
+        "quality": 85,
+        "unwatermarkedSha256": "a59c8160c5280cb3b21eafe12fc2d64279776aeeab9f6a9e3b4806dfcd97168f",
+        "watermarkRecord": "site-src/_data/product-watermarks.json"
+      }
+    },
+    {
+      "routeId": "product:k115-quick-response-fire-sprinkler",
+      "sourceFile": "DSC_5886.jpg",
+      "caption": {
+        "en": "Horizontal sidewall K115 quick-response sprinkler — 93°C",
+        "ar": "رشاش K115 سريع الاستجابة جانبي أفقي — 93°C"
+      },
+      "authorizationDate": "2026-10-24",
+      "matchEvidence": "User supplied this exact photograph and requested addition to the lower K115 quick-response detail gallery on 2026-10-24. Attachment SHA256 matches inventoried DSC_5886.jpg. Visible K-ZSTBS 115-93°C Q3A marking and deflector identify the horizontal sidewall sample. Temperature transcribed from the physical marking, not inferred from bulb color. No pressure, connection size, thread, materials or approvals inferred.",
+      "sourcePath": "D:\\temp\\冠亚2026产品图\\DSC_5886.jpg",
+      "sourceSha256": "f16b6d8b6410f357f142a05f543800543fabee74275afec74f19ed077d821a65",
+      "sourceBytes": 433495,
+      "sourceWidth": 1046,
+      "sourceHeight": 1459,
+      "display": {
+        "path": "assets/products/guanya-2026/k115-quick-response-fire-sprinkler-dsc_5886-640.webp",
+        "width": 459,
+        "height": 640,
+        "bytes": 23590,
+        "sha256": "c34cb1405f711d6c4e63e2ff49452ebef04e69b4bb43053760d60b0b708eef7d",
+        "quality": 85,
+        "unwatermarkedSha256": "59136bb15b2d7f6fcf2f219e767dd855fe22f953aaa58beedec473c6e33dd57d",
+        "watermarkRecord": "site-src/_data/product-watermarks.json"
+      },
+      "detail": {
+        "path": "assets/products/guanya-2026/k115-quick-response-fire-sprinkler-dsc_5886-1600.webp",
+        "width": 1046,
+        "height": 1459,
+        "bytes": 67534,
+        "sha256": "0f4352fec2bd36d93fbd8f2360f602c6e6060694fd56a4f6c4b32999a7c1dfde",
+        "quality": 85,
+        "unwatermarkedSha256": "34bdc35ff440b21f3877913cc828480aa3269e8fade30ee41720a5f1b237e83c",
+        "watermarkRecord": "site-src/_data/product-watermarks.json"
+      }
+    },
+    {
+      "routeId": "product:k115-standard-response-fire-sprinkler",
+      "sourceFile": "DSC_5895.jpg",
+      "caption": {
+        "en": "Horizontal sidewall K115 standard-response sprinkler — 182°C",
+        "ar": "رشاش K115 ذو استجابة قياسية جانبي أفقي — 182°C"
+      },
+      "authorizationDate": "2026-10-24",
+      "matchEvidence": "User supplied this exact photograph and requested addition to the lower K115 standard-response detail gallery on 2026-10-24. Attachment SHA256 matches inventoried DSC_5895.jpg. Visible T-ZSTBS115-182°C Q5A marking and deflector identify this horizontal sidewall sample. Temperature transcribed from the physical marking, not inferred from bulb color. No pressure, connection size, thread, materials or approvals inferred.",
+      "sourcePath": "D:\\temp\\冠亚2026产品图\\DSC_5895.jpg",
+      "sourceSha256": "88d6a2c9dbfc1a7c8192bd030d8f153e061ec19610c0a93fc62dafa7cfd70c7b",
+      "sourceBytes": 370277,
+      "sourceWidth": 945,
+      "sourceHeight": 1308,
+      "display": {
+        "path": "assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5895-640.webp",
+        "width": 462,
+        "height": 640,
+        "bytes": 23358,
+        "sha256": "0c43c050d0945deb73691cd1f15e586d655317a0e41d356874bf01f954d287ec",
+        "quality": 85,
+        "unwatermarkedSha256": "af83567f85362560291d4f73cc716a680d7891bd0208f2693e0e3793547f3cd4",
+        "watermarkRecord": "site-src/_data/product-watermarks.json"
+      },
+      "detail": {
+        "path": "assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5895-1600.webp",
+        "width": 945,
+        "height": 1308,
+        "bytes": 57134,
+        "sha256": "a921938d35c5fccb5c9a226edf31df8e0144e8411da999aced7c54d4fe53be69",
+        "quality": 85,
+        "unwatermarkedSha256": "b519f4d58c224f812083f73640f1caed2674998c3df0e1529eab84ffbd50352b",
+        "watermarkRecord": "site-src/_data/product-watermarks.json"
+      }
+    },
+    {
+      "routeId": "product:k115-standard-response-fire-sprinkler",
+      "sourceFile": "DSC_5898.jpg",
+      "caption": {
+        "en": "Horizontal sidewall K115 standard-response sprinkler — 141°C",
+        "ar": "رشاش K115 ذو استجابة قياسية جانبي أفقي — 141°C"
+      },
+      "authorizationDate": "2026-10-24",
+      "matchEvidence": "User supplied this exact photograph and requested addition to the lower K115 standard-response detail gallery on 2026-10-24. Attachment SHA256 matches inventoried DSC_5898.jpg. Visible T-ZSTBS115-141°C Q5A marking and deflector identify this horizontal sidewall sample. Temperature transcribed from the physical marking, not inferred from bulb color. No pressure, connection size, thread, materials or approvals inferred.",
+      "sourcePath": "D:\\temp\\冠亚2026产品图\\DSC_5898.jpg",
+      "sourceSha256": "9383d81941921cb8acf22b08dc5a032e1d91d6e2bf2a8e5e7cf608a94590c6d5",
+      "sourceBytes": 354312,
+      "sourceWidth": 962,
+      "sourceHeight": 1308,
+      "display": {
+        "path": "assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5898-640.webp",
+        "width": 471,
+        "height": 640,
+        "bytes": 23244,
+        "sha256": "491d5806804e63b5a7bc6dcbed86eae681ee363b2582039bb006c5af0f614206",
+        "quality": 85,
+        "unwatermarkedSha256": "2cd3565ed8015574c3b74f7835f6f233ebdb795d89857289d2f37699b7f9065f",
+        "watermarkRecord": "site-src/_data/product-watermarks.json"
+      },
+      "detail": {
+        "path": "assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5898-1600.webp",
+        "width": 962,
+        "height": 1308,
+        "bytes": 55210,
+        "sha256": "898e195b3902223f8c0d82e6212625daa4ab6054c7718d1a2eeb9c2a057cdad0",
+        "quality": 85,
+        "unwatermarkedSha256": "ea32f45e5f257dd295f8693439f22a678fe904aaeecfa79779ecae5204d28b66",
+        "watermarkRecord": "site-src/_data/product-watermarks.json"
+      }
+    },
+    {
+      "routeId": "product:k115-standard-response-fire-sprinkler",
+      "sourceFile": "DSC_5901.jpg",
+      "caption": {
+        "en": "Horizontal sidewall K115 standard-response sprinkler — 57°C",
+        "ar": "رشاش K115 ذو استجابة قياسية جانبي أفقي — 57°C"
+      },
+      "authorizationDate": "2026-10-24",
+      "matchEvidence": "User supplied this exact photograph and requested addition to the lower K115 standard-response detail gallery on 2026-10-24. Attachment SHA256 matches inventoried DSC_5901.jpg. Visible T-ZSTBS115-57°C Q5A marking and deflector identify this horizontal sidewall sample. Temperature transcribed from the physical marking, not inferred from bulb color. No pressure, connection size, thread, materials or approvals inferred.",
+      "sourcePath": "D:\\temp\\冠亚2026产品图\\DSC_5901.jpg",
+      "sourceSha256": "9e9b8a9c5f1dea5861251c25a54bdd84d253126d37bb643a3771840aa29acb70",
+      "sourceBytes": 402296,
+      "sourceWidth": 962,
+      "sourceHeight": 1375,
+      "display": {
+        "path": "assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5901-640.webp",
+        "width": 448,
+        "height": 640,
+        "bytes": 23150,
+        "sha256": "4944b853dc71c43e0f1ea6dbf89bb709dad3f9c2acd47160b68d0703f747f8d8",
+        "quality": 85,
+        "unwatermarkedSha256": "455691c4b1f6eb2695c3cfc7264703efb729e2468a67c829d5d4712cd939ec06",
+        "watermarkRecord": "site-src/_data/product-watermarks.json"
+      },
+      "detail": {
+        "path": "assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5901-1600.webp",
+        "width": 962,
+        "height": 1375,
+        "bytes": 60302,
+        "sha256": "3f80f4d806d56287101da714f3a2e1cdcc743b7cf89f7a9c62ef6b12de7cf8c2",
+        "quality": 85,
+        "unwatermarkedSha256": "c405e15fe01e8cd6ec8dd4a2ab936e746bba840f6b150b8395f88af5b3254a62",
+        "watermarkRecord": "site-src/_data/product-watermarks.json"
+      }
+    },
+    {
+      "routeId": "product:k115-standard-response-fire-sprinkler",
+      "sourceFile": "DSC_5902.jpg",
+      "caption": {
+        "en": "Upright K115 standard-response sprinkler — 79°C",
+        "ar": "رشاش K115 ذو استجابة قياسية قائم — 79°C"
+      },
+      "authorizationDate": "2026-10-24",
+      "matchEvidence": "User supplied this exact photograph and requested addition to the lower K115 standard-response detail gallery on 2026-10-24. Attachment SHA256 matches inventoried DSC_5902.jpg. Visible T-ZSTZ115-79°C Q5A marking and deflector identify this upright sample. Temperature transcribed from the physical marking, not inferred from bulb color. No pressure, connection size, thread, materials or approvals inferred.",
+      "sourcePath": "D:\\temp\\冠亚2026产品图\\DSC_5902.jpg",
+      "sourceSha256": "4fb476a6ca48f13051fd80c4ea19259090c44482ba0017c2a5d78dbe8912f739",
+      "sourceBytes": 378480,
+      "sourceWidth": 861,
+      "sourceHeight": 1156,
+      "display": {
+        "path": "assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5902-640.webp",
+        "width": 477,
+        "height": 640,
+        "bytes": 35884,
+        "sha256": "b4e49defd48048abb7b0d4feaa9c75cae7cf4d8412562e4d3f505e90f74887b5",
+        "quality": 85,
+        "unwatermarkedSha256": "2e57b103f183ac5aa2ac83eae3b38b538beb238fe8c0362bb26113db09453894",
+        "watermarkRecord": "site-src/_data/product-watermarks.json"
+      },
+      "detail": {
+        "path": "assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5902-1600.webp",
+        "width": 861,
+        "height": 1156,
+        "bytes": 72910,
+        "sha256": "1a8a9a6a9b82c3276aefff8f38b4cb9b497eb0c38429b07f4c6e1695b44c28b6",
+        "quality": 85,
+        "unwatermarkedSha256": "c805ff64e28639228786ec5b0b9d8efbbceecce2ad693401dae8d28af9b15d1f",
+        "watermarkRecord": "site-src/_data/product-watermarks.json"
+      }
+    },
+    {
+      "routeId": "product:k115-standard-response-fire-sprinkler",
+      "sourceFile": "DSC_5909.jpg",
+      "caption": {
+        "en": "Horizontal sidewall K115 standard-response sprinkler — 260°C",
+        "ar": "رشاش K115 ذو استجابة قياسية جانبي أفقي — 260°C"
+      },
+      "authorizationDate": "2026-10-24",
+      "matchEvidence": "User supplied this exact photograph and requested addition to the lower K115 standard-response detail gallery on 2026-10-24. Attachment SHA256 matches inventoried DSC_5909.jpg. Visible T-ZSTBS115-260°C Q5A marking and deflector identify this horizontal sidewall sample. Temperature transcribed from the physical marking, not inferred from bulb color. No pressure, connection size, thread, materials or approvals inferred.",
+      "sourcePath": "D:\\temp\\冠亚2026产品图\\DSC_5909.jpg",
+      "sourceSha256": "4a839cefa064524ea1d5f99ebeef16174afa07bf7d000ae73ea1a2f5fa542f08",
+      "sourceBytes": 413864,
+      "sourceWidth": 1046,
+      "sourceHeight": 1426,
+      "display": {
+        "path": "assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5909-640.webp",
+        "width": 469,
+        "height": 640,
+        "bytes": 23642,
+        "sha256": "8b0714bfd924ba17f56956efb33745e00952e63c5aed7e1775f87eb427250b43",
+        "quality": 85,
+        "unwatermarkedSha256": "704a97bb3cc03a3356ba8c06bc9b02b9acd919c1f962241817ee9ebbea88d996",
+        "watermarkRecord": "site-src/_data/product-watermarks.json"
+      },
+      "detail": {
+        "path": "assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5909-1600.webp",
+        "width": 1046,
+        "height": 1426,
+        "bytes": 65936,
+        "sha256": "77f6aa2f24d5ebb5a453d9b2b5d177d7346f86e9a3bf89cf4043de7df9b19b79",
+        "quality": 85,
+        "unwatermarkedSha256": "b1a30703e0c902cc9ad72bdcfa347895b079d057aec67e67f8587a191e135719",
+        "watermarkRecord": "site-src/_data/product-watermarks.json"
+      }
+    },
+    {
+      "routeId": "product:k115-standard-response-fire-sprinkler",
+      "sourceFile": "DSC_5910.jpg",
+      "caption": {
+        "en": "Upright K115 standard-response sprinkler — 93°C",
+        "ar": "رشاش K115 ذو استجابة قياسية قائم — 93°C"
+      },
+      "authorizationDate": "2026-10-24",
+      "matchEvidence": "User supplied this exact photograph and requested addition to the lower K115 standard-response detail gallery on 2026-10-24. Attachment SHA256 matches inventoried DSC_5910.jpg. Visible T-ZSTZ115-93°C Q5A marking and deflector identify this upright sample. Temperature transcribed from the physical marking, not inferred from bulb color. No pressure, connection size, thread, materials or approvals inferred.",
+      "sourcePath": "D:\\temp\\冠亚2026产品图\\DSC_5910.jpg",
+      "sourceSha256": "08e14d0a5451ce51513b6150da105469d4fad98e98e76c1042ff2a24eed2da32",
+      "sourceBytes": 360749,
+      "sourceWidth": 844,
+      "sourceHeight": 1122,
+      "display": {
+        "path": "assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5910-640.webp",
+        "width": 481,
+        "height": 640,
+        "bytes": 35760,
+        "sha256": "f6c3ec13de451a28d0c64e37867e0caf7775a3f80252d24d62203db24d3485e5",
+        "quality": 85,
+        "unwatermarkedSha256": "885d545e887aef1615a7f6d944bf59197c67a5f026ed617a1eae3a3f92a2feca",
+        "watermarkRecord": "site-src/_data/product-watermarks.json"
+      },
+      "detail": {
+        "path": "assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5910-1600.webp",
+        "width": 844,
+        "height": 1122,
+        "bytes": 70470,
+        "sha256": "9297c8498723e073dd7e6c441415726771da20398344a3c3b90447450d0dd272",
+        "quality": 85,
+        "unwatermarkedSha256": "1fdee756474b68b873b09186ef55acb6c4195760c3423454ffe54cae28260450",
+        "watermarkRecord": "site-src/_data/product-watermarks.json"
+      }
+    },
+    {
+      "routeId": "product:k80-standard-response-concealed-sprinkler",
+      "sourceFile": "DSC_5934.jpg",
+      "caption": {
+        "en": "K80 standard-response concealed sprinkler — 57°C, covered assembly",
+        "ar": "رشاش مخفي K80 ذو استجابة قياسية — 57°C، المجموعة مع الغطاء"
+      },
+      "authorizationDate": "2026-10-24",
+      "matchEvidence": "User supplied this exact K80 concealed sprinkler photograph and requested different-temperature models on the independent detail page. Attachment SHA256 matches inventoried DSC_5934.jpg. The visible ZSTDY80-57°C Q5A marking identifies the standard-response sample and sprinkler temperature. Paired covered/exposed views are grouped by matching physical model marking, not bulb color. No cover release temperature, pressure, connection, material or approvals inferred.",
+      "sourcePath": "D:\\temp\\冠亚2026产品图\\DSC_5934.jpg",
+      "sourceSha256": "3331794061df8b49f6d8769e7c39a0359bc00f37738d7361d3200b94a5e4a298",
+      "sourceBytes": 718511,
+      "sourceWidth": 1721,
+      "sourceHeight": 1392,
+      "display": {
+        "path": "assets/products/guanya-2026/k80-standard-response-concealed-sprinkler-dsc_5934-640.webp",
+        "width": 640,
+        "height": 518,
+        "bytes": 23252,
+        "sha256": "1079923d947c2c0de4364771f96d8fbdd1b70103a5299b948c530f69e6e633a3",
+        "quality": 85,
+        "unwatermarkedSha256": "b34740a2b8bd2aa23273ed31adb3bf854d23acb58e3a83f352aa15553936e52e",
+        "watermarkRecord": "site-src/_data/product-watermarks.json"
+      },
+      "detail": {
+        "path": "assets/products/guanya-2026/k80-standard-response-concealed-sprinkler-dsc_5934-1600.webp",
+        "width": 1600,
+        "height": 1294,
+        "bytes": 73406,
+        "sha256": "e6955c1f29a5c59367f7a81b400a53d54c2345d639387a815318c41b22bf7f4b",
+        "quality": 85,
+        "unwatermarkedSha256": "bc4b04f4e63a3be19e75bdfdf897de27a01a8d5c2e2c5ecf8819dabd64ba8d05",
+        "watermarkRecord": "site-src/_data/product-watermarks.json"
+      }
+    },
+    {
+      "routeId": "product:k80-standard-response-concealed-sprinkler",
+      "sourceFile": "DSC_5933.jpg",
+      "caption": {
+        "en": "K80 standard-response concealed sprinkler — 57°C, exposed mechanism",
+        "ar": "رشاش مخفي K80 ذو استجابة قياسية — 57°C، الآلية المكشوفة"
+      },
+      "authorizationDate": "2026-10-24",
+      "matchEvidence": "User supplied this exact K80 concealed sprinkler photograph and requested different-temperature models on the independent detail page. Attachment SHA256 matches inventoried DSC_5933.jpg. The visible ZSTDY80-57°C Q5A marking identifies the standard-response sample and sprinkler temperature. Paired covered/exposed views are grouped by matching physical model marking, not bulb color. No cover release temperature, pressure, connection, material or approvals inferred.",
+      "sourcePath": "D:\\temp\\冠亚2026产品图\\DSC_5933.jpg",
+      "sourceSha256": "947083efb2251be930e171c36e4423e06c9d2b47f4b27d186199f48e861e15da",
+      "sourceBytes": 467427,
+      "sourceWidth": 860,
+      "sourceHeight": 1256,
+      "display": {
+        "path": "assets/products/guanya-2026/k80-standard-response-concealed-sprinkler-dsc_5933-640.webp",
+        "width": 438,
+        "height": 640,
+        "bytes": 42810,
+        "sha256": "561f54da054292d99ab3dcc68f49276b0ffbd38c16663bc1645e006d67539296",
+        "quality": 85,
+        "unwatermarkedSha256": "03f2451d2f8ce195ffa3de25d7d32f08952bd77752b4c936418dbb4be6e4d074",
+        "watermarkRecord": "site-src/_data/product-watermarks.json"
+      },
+      "detail": {
+        "path": "assets/products/guanya-2026/k80-standard-response-concealed-sprinkler-dsc_5933-1600.webp",
+        "width": 860,
+        "height": 1256,
+        "bytes": 106694,
+        "sha256": "d56e153bb39aa1810ae0b8919e195c24a4f8eea5f641ac84c060c7ef74e605ab",
+        "quality": 85,
+        "unwatermarkedSha256": "6800068b118a5e5974669647e3a8ad4718587aa060069f893ae1473292627eb0",
+        "watermarkRecord": "site-src/_data/product-watermarks.json"
+      }
+    },
+    {
+      "routeId": "product:k80-standard-response-concealed-sprinkler",
+      "sourceFile": "DSC_5925.jpg",
+      "caption": {
+        "en": "K80 standard-response concealed sprinkler — 79°C, covered assembly",
+        "ar": "رشاش مخفي K80 ذو استجابة قياسية — 79°C، المجموعة مع الغطاء"
+      },
+      "authorizationDate": "2026-10-24",
+      "matchEvidence": "User supplied this exact K80 concealed sprinkler photograph and requested different-temperature models on the independent detail page. Attachment SHA256 matches inventoried DSC_5925.jpg. The visible ZSTDY80-79°C Q5A marking identifies the standard-response sample and sprinkler temperature. Paired covered/exposed views are grouped by matching physical model marking, not bulb color. No cover release temperature, pressure, connection, material or approvals inferred.",
+      "sourcePath": "D:\\temp\\冠亚2026产品图\\DSC_5925.jpg",
+      "sourceSha256": "b5a556608cab26597a79484e965d29ad5581683ad3cb50c246b68f5c654b3849",
+      "sourceBytes": 682526,
+      "sourceWidth": 1721,
+      "sourceHeight": 1392,
+      "display": {
+        "path": "assets/products/guanya-2026/k80-standard-response-concealed-sprinkler-dsc_5925-640.webp",
+        "width": 640,
+        "height": 518,
+        "bytes": 21902,
+        "sha256": "36de736aff46dd2ca3b35b3c7b86917169d4bbf334044048b2e7b3243d89e8f3",
+        "quality": 85,
+        "unwatermarkedSha256": "669e69738fe4430cd8aaa7b820cede153912f6dd9ebb24ce1353f93f573cb555",
+        "watermarkRecord": "site-src/_data/product-watermarks.json"
+      },
+      "detail": {
+        "path": "assets/products/guanya-2026/k80-standard-response-concealed-sprinkler-dsc_5925-1600.webp",
+        "width": 1600,
+        "height": 1294,
+        "bytes": 67888,
+        "sha256": "9e7ec4a1333ac8bb91aee496c8a91b5b9da7b03d9d76c879f5b2f773a6f68bf3",
+        "quality": 85,
+        "unwatermarkedSha256": "cf9157be406595e88dc8ed317ec65562e7a3d7b019a071975ddbce55ed498007",
+        "watermarkRecord": "site-src/_data/product-watermarks.json"
+      }
+    },
+    {
+      "routeId": "product:k80-standard-response-concealed-sprinkler",
+      "sourceFile": "DSC_5923.jpg",
+      "caption": {
+        "en": "K80 standard-response concealed sprinkler — 79°C, exposed mechanism",
+        "ar": "رشاش مخفي K80 ذو استجابة قياسية — 79°C، الآلية المكشوفة"
+      },
+      "authorizationDate": "2026-10-24",
+      "matchEvidence": "User supplied this exact K80 concealed sprinkler photograph and requested different-temperature models on the independent detail page. Attachment SHA256 matches inventoried DSC_5923.jpg. The visible ZSTDY80-79°C Q5A marking identifies the standard-response sample and sprinkler temperature. Paired covered/exposed views are grouped by matching physical model marking, not bulb color. No cover release temperature, pressure, connection, material or approvals inferred.",
+      "sourcePath": "D:\\temp\\冠亚2026产品图\\DSC_5923.jpg",
+      "sourceSha256": "bd189d7eefc099e83fadf24607aaa213195230725e333b7afcb928255b58877c",
+      "sourceBytes": 444146,
+      "sourceWidth": 861,
+      "sourceHeight": 1274,
+      "display": {
+        "path": "assets/products/guanya-2026/k80-standard-response-concealed-sprinkler-dsc_5923-640.webp",
+        "width": 433,
+        "height": 640,
+        "bytes": 40098,
+        "sha256": "0e64552262df01aff72e4e4d6abc0706f7007b4ac28f9da8732ed2ecf83639e2",
+        "quality": 85,
+        "unwatermarkedSha256": "7febf2f388d822264be754c9bd0e100c5633455ec06bda159c3a3c679cf4730d",
+        "watermarkRecord": "site-src/_data/product-watermarks.json"
+      },
+      "detail": {
+        "path": "assets/products/guanya-2026/k80-standard-response-concealed-sprinkler-dsc_5923-1600.webp",
+        "width": 861,
+        "height": 1274,
+        "bytes": 95614,
+        "sha256": "74605d9b04a5029d6410579aed35bca51435820fb78f336b3a714088c746c882",
+        "quality": 85,
+        "unwatermarkedSha256": "68af9cae90732f120205d755e3bf78989b966221f41e3465cf4f881111ef1ba3",
+        "watermarkRecord": "site-src/_data/product-watermarks.json"
+      }
+    },
+    {
+      "routeId": "product:k80-quick-response-concealed-sprinkler",
+      "sourceFile": "DSC_5954.jpg",
+      "caption": {
+        "en": "K80 quick-response concealed sprinkler — 57°C, covered assembly",
+        "ar": "رشاش مخفي K80 سريع الاستجابة — 57°C، المجموعة مع الغطاء"
+      },
+      "authorizationDate": "2026-10-24",
+      "matchEvidence": "User supplied this exact photograph and identified it as K80 quick-response concealed sprinkler for the independent detail page. Attachment SHA256 matches inventoried DSC_5954.jpg. The visible ZSTDY80-57°C Q3A marking identifies the sample and sprinkler temperature. Covered/exposed pairs follow the physical model marking, not bulb color. No cover release temperature, pressure, connection size, materials or approvals inferred.",
+      "sourcePath": "D:\\temp\\冠亚2026产品图\\DSC_5954.jpg",
+      "sourceSha256": "c251eddd6f632ee057337323d13e4e2e928846f5ab3fc73cf83664f22aba9188",
+      "sourceBytes": 736423,
+      "sourceWidth": 1755,
+      "sourceHeight": 1460,
+      "display": {
+        "path": "assets/products/guanya-2026/k80-quick-response-concealed-sprinkler-dsc_5954-640.webp",
+        "width": 640,
+        "height": 532,
+        "bytes": 24686,
+        "sha256": "27e4e27920e31015631c1da67ba3197ad60730960630aeaa311c3c62e71328a5",
+        "quality": 85,
+        "unwatermarkedSha256": "b602b092e451a7defc7bcfc2669adb70e35686a1cf51d8eac83fd6a5813b9ccf",
+        "watermarkRecord": "site-src/_data/product-watermarks.json"
+      },
+      "detail": {
+        "path": "assets/products/guanya-2026/k80-quick-response-concealed-sprinkler-dsc_5954-1600.webp",
+        "width": 1600,
+        "height": 1331,
+        "bytes": 82172,
+        "sha256": "6eeb02351821bc2639c03047a16abbd80db86e9705ea41c4e30dff2acd69b1ee",
+        "quality": 85,
+        "unwatermarkedSha256": "91ffeab8e70da29c60b61bb7adc0d1a881a13b8c86f1e59d8da7781ececc4f4b",
+        "watermarkRecord": "site-src/_data/product-watermarks.json"
+      }
+    },
+    {
+      "routeId": "product:k80-quick-response-concealed-sprinkler",
+      "sourceFile": "DSC_5953.jpg",
+      "caption": {
+        "en": "K80 quick-response concealed sprinkler — 57°C, exposed mechanism",
+        "ar": "رشاش مخفي K80 سريع الاستجابة — 57°C، الآلية المكشوفة"
+      },
+      "authorizationDate": "2026-10-24",
+      "matchEvidence": "User supplied this exact photograph and identified it as K80 quick-response concealed sprinkler for the independent detail page. Attachment SHA256 matches inventoried DSC_5953.jpg. The visible ZSTDY80-57°C Q3A marking identifies the sample and sprinkler temperature. Covered/exposed pairs follow the physical model marking, not bulb color. No cover release temperature, pressure, connection size, materials or approvals inferred.",
+      "sourcePath": "D:\\temp\\冠亚2026产品图\\DSC_5953.jpg",
+      "sourceSha256": "4a9d92b57c2c3fe7c6b6aba5fbc8cd0ee3d4449e080099e660d2fdd3795b4a9c",
+      "sourceBytes": 525000,
+      "sourceWidth": 962,
+      "sourceHeight": 1409,
+      "display": {
+        "path": "assets/products/guanya-2026/k80-quick-response-concealed-sprinkler-dsc_5953-640.webp",
+        "width": 437,
+        "height": 640,
+        "bytes": 41688,
+        "sha256": "286dfaef6c62fe86ef485507bd531d14c6a0eb0a2c2a89d73aa5900019a9e548",
+        "quality": 85,
+        "unwatermarkedSha256": "3bb91ed93657e88b3f5e39abc4df73a98a18d832c2a0954858170ccab1b7bbb4",
+        "watermarkRecord": "site-src/_data/product-watermarks.json"
+      },
+      "detail": {
+        "path": "assets/products/guanya-2026/k80-quick-response-concealed-sprinkler-dsc_5953-1600.webp",
+        "width": 962,
+        "height": 1409,
+        "bytes": 124108,
+        "sha256": "c55f1cfb7ecd34efb937575c3659f4ccc090efe34f5ce80bc38099f0addd3713",
+        "quality": 85,
+        "unwatermarkedSha256": "7de782f9f37eb1686f408f07ee6f2d0d10d38905ec17e84766ef82aafdb7b4c5",
+        "watermarkRecord": "site-src/_data/product-watermarks.json"
+      }
+    },
+    {
+      "routeId": "product:k80-quick-response-concealed-sprinkler",
+      "sourceFile": "DSC_5950.jpg",
+      "caption": {
+        "en": "K80 quick-response concealed sprinkler — 68°C, covered assembly",
+        "ar": "رشاش مخفي K80 سريع الاستجابة — 68°C، المجموعة مع الغطاء"
+      },
+      "authorizationDate": "2026-10-24",
+      "matchEvidence": "User supplied this exact photograph and identified it as K80 quick-response concealed sprinkler for the independent detail page. Attachment SHA256 matches inventoried DSC_5950.jpg. The visible ZSTDY80-68°C Q3A marking identifies the sample and sprinkler temperature. Covered/exposed pairs follow the physical model marking, not bulb color. No cover release temperature, pressure, connection size, materials or approvals inferred.",
+      "sourcePath": "D:\\temp\\冠亚2026产品图\\DSC_5950.jpg",
+      "sourceSha256": "307788895b9d22bb1f6d285507fdd0bc16472b4e1ce002689d39ce55244d32e8",
+      "sourceBytes": 678606,
+      "sourceWidth": 1721,
+      "sourceHeight": 1409,
+      "display": {
+        "path": "assets/products/guanya-2026/k80-quick-response-concealed-sprinkler-dsc_5950-640.webp",
+        "width": 640,
+        "height": 524,
+        "bytes": 22002,
+        "sha256": "0c4f0469b0e4f9c586de3d0fa1d0129ce83fd952ae979dccb1b629922da8e1df",
+        "quality": 85,
+        "unwatermarkedSha256": "5503502bffad0082b5d17987f58877e29024948ef7c5698ef1f039e62d502323",
+        "watermarkRecord": "site-src/_data/product-watermarks.json"
+      },
+      "detail": {
+        "path": "assets/products/guanya-2026/k80-quick-response-concealed-sprinkler-dsc_5950-1600.webp",
+        "width": 1600,
+        "height": 1310,
+        "bytes": 71116,
+        "sha256": "5b18bd5307be22ac386c7fc6fd5ac7ce0076ac5505ab89de0e9365e1c76c8382",
+        "quality": 85,
+        "unwatermarkedSha256": "cbb495bee04e5b7b2e0dff1e5a7d83d9aa7d4a9d9656ed98f3ae4bd62c5c7e6a",
+        "watermarkRecord": "site-src/_data/product-watermarks.json"
+      }
+    },
+    {
+      "routeId": "product:k80-quick-response-concealed-sprinkler",
+      "sourceFile": "DSC_5949.jpg",
+      "caption": {
+        "en": "K80 quick-response concealed sprinkler — 68°C, exposed mechanism",
+        "ar": "رشاش مخفي K80 سريع الاستجابة — 68°C، الآلية المكشوفة"
+      },
+      "authorizationDate": "2026-10-24",
+      "matchEvidence": "User supplied this exact photograph and identified it as K80 quick-response concealed sprinkler for the independent detail page. Attachment SHA256 matches inventoried DSC_5949.jpg. The visible ZSTDY80-68°C Q3A marking identifies the sample and sprinkler temperature. Covered/exposed pairs follow the physical model marking, not bulb color. No cover release temperature, pressure, connection size, materials or approvals inferred.",
+      "sourcePath": "D:\\temp\\冠亚2026产品图\\DSC_5949.jpg",
+      "sourceSha256": "21014ca1cb50ea1576f698bf473c67a4146f0daf93fbf61258c70b5b979cd6a2",
+      "sourceBytes": 463323,
+      "sourceWidth": 861,
+      "sourceHeight": 1274,
+      "display": {
+        "path": "assets/products/guanya-2026/k80-quick-response-concealed-sprinkler-dsc_5949-640.webp",
+        "width": 433,
+        "height": 640,
+        "bytes": 42110,
+        "sha256": "f089031bd74171df9e2fe3e7caa5f5e5feb68b9ceadb813ca742a2aa4c40b1d7",
+        "quality": 85,
+        "unwatermarkedSha256": "bc7ec79b747613c4d3f80050a3f155a21c3c0e9f34667a5ddfe5916e87e76ce0",
+        "watermarkRecord": "site-src/_data/product-watermarks.json"
+      },
+      "detail": {
+        "path": "assets/products/guanya-2026/k80-quick-response-concealed-sprinkler-dsc_5949-1600.webp",
+        "width": 861,
+        "height": 1274,
+        "bytes": 107880,
+        "sha256": "8dfbfdcdd39eae49389701e03c3f04824ce7b3e188b1619e469f8609afdbfdb4",
+        "quality": 85,
+        "unwatermarkedSha256": "9d552aa4b5235e8ce2322f32495e31104fb1f6a79bc6d53debf1e4834a47cafc",
+        "watermarkRecord": "site-src/_data/product-watermarks.json"
+      }
+    },
+    {
+      "routeId": "product:k80-quick-response-concealed-sprinkler",
+      "sourceFile": "DSC_5942.jpg",
+      "caption": {
+        "en": "K80 quick-response concealed sprinkler — 93°C, covered assembly",
+        "ar": "رشاش مخفي K80 سريع الاستجابة — 93°C، المجموعة مع الغطاء"
+      },
+      "authorizationDate": "2026-10-24",
+      "matchEvidence": "User supplied this exact photograph and identified it as K80 quick-response concealed sprinkler for the independent detail page. Attachment SHA256 matches inventoried DSC_5942.jpg. The visible ZSTDY80-93°C Q3A marking identifies the sample and sprinkler temperature. Covered/exposed pairs follow the physical model marking, not bulb color. No cover release temperature, pressure, connection size, materials or approvals inferred.",
+      "sourcePath": "D:\\temp\\冠亚2026产品图\\DSC_5942.jpg",
+      "sourceSha256": "c1309c34d95d54ab1c8a7d8f0e8359001fea118bddd564543f3786e34fc09f5d",
+      "sourceBytes": 677378,
+      "sourceWidth": 1721,
+      "sourceHeight": 1426,
+      "display": {
+        "path": "assets/products/guanya-2026/k80-quick-response-concealed-sprinkler-dsc_5942-640.webp",
+        "width": 640,
+        "height": 530,
+        "bytes": 22942,
+        "sha256": "f26bbb897dcb83aa35c48c644499069a1720b61f6d3c6119a8df5cf04f70a7b3",
+        "quality": 85,
+        "unwatermarkedSha256": "0efb25b98d3200ff6ffe9c80bb41afc56fc471ff85cb827cab659309cf642958",
+        "watermarkRecord": "site-src/_data/product-watermarks.json"
+      },
+      "detail": {
+        "path": "assets/products/guanya-2026/k80-quick-response-concealed-sprinkler-dsc_5942-1600.webp",
+        "width": 1600,
+        "height": 1326,
+        "bytes": 72546,
+        "sha256": "181c6166e7634d1600db07c066aa4a40c9ca991f0844e6f91690d0803867a5ab",
+        "quality": 85,
+        "unwatermarkedSha256": "7d11b7d3be7bc8747ec82b873bc03f319ea6b61fd102e09c856f27331d5810b1",
+        "watermarkRecord": "site-src/_data/product-watermarks.json"
+      }
+    },
+    {
+      "routeId": "product:k80-quick-response-concealed-sprinkler",
+      "sourceFile": "DSC_5941.jpg",
+      "caption": {
+        "en": "K80 quick-response concealed sprinkler — 93°C, exposed mechanism",
+        "ar": "رشاش مخفي K80 سريع الاستجابة — 93°C، الآلية المكشوفة"
+      },
+      "authorizationDate": "2026-10-24",
+      "matchEvidence": "User supplied this exact photograph and identified it as K80 quick-response concealed sprinkler for the independent detail page. Attachment SHA256 matches inventoried DSC_5941.jpg. The visible ZSTDY80-93°C Q3A marking identifies the sample and sprinkler temperature. Covered/exposed pairs follow the physical model marking, not bulb color. No cover release temperature, pressure, connection size, materials or approvals inferred.",
+      "sourcePath": "D:\\temp\\冠亚2026产品图\\DSC_5941.jpg",
+      "sourceSha256": "1518c7c8ad0a8346ccfab6146a73c9ff7d5f429ae6c758d6f3c6ed0348c18780",
+      "sourceBytes": 515072,
+      "sourceWidth": 945,
+      "sourceHeight": 1358,
+      "display": {
+        "path": "assets/products/guanya-2026/k80-quick-response-concealed-sprinkler-dsc_5941-640.webp",
+        "width": 445,
+        "height": 640,
+        "bytes": 43552,
+        "sha256": "cf6e5bc80ad1fbeb7bd42a43a6d876a447f6a8467c7d5a131e63a4ea986da04e",
+        "quality": 85,
+        "unwatermarkedSha256": "454d3303e23d24e8ef6c9dc2ce303af2a8e6aa68a754014e6302d26a88ab120e",
+        "watermarkRecord": "site-src/_data/product-watermarks.json"
+      },
+      "detail": {
+        "path": "assets/products/guanya-2026/k80-quick-response-concealed-sprinkler-dsc_5941-1600.webp",
+        "width": 945,
+        "height": 1358,
+        "bytes": 121642,
+        "sha256": "2ef1c6cd0636612e25c7478ad63d0f425be405248b876c9d3fe134e81609489a",
+        "quality": 85,
+        "unwatermarkedSha256": "ac0747415f0328cad800e2d8c1925cb39135b96d36e95fc51f95c41def321285",
+        "watermarkRecord": "site-src/_data/product-watermarks.json"
+      }
+    },
+    {
+      "routeId": "product:k80-quick-response-concealed-sprinkler",
+      "sourceFile": "DSC_5938.jpg",
+      "caption": {
+        "en": "K80 quick-response concealed sprinkler — 141°C, covered assembly",
+        "ar": "رشاش مخفي K80 سريع الاستجابة — 141°C، المجموعة مع الغطاء"
+      },
+      "authorizationDate": "2026-10-24",
+      "matchEvidence": "User supplied this exact photograph and identified it as K80 quick-response concealed sprinkler for the independent detail page. Attachment SHA256 matches inventoried DSC_5938.jpg. The visible ZSTDY80-141°C Q3A marking identifies the sample and sprinkler temperature. Covered/exposed pairs follow the physical model marking, not bulb color. No cover release temperature, pressure, connection size, materials or approvals inferred.",
+      "sourcePath": "D:\\temp\\冠亚2026产品图\\DSC_5938.jpg",
+      "sourceSha256": "60cd48bf4af8dc55f23b7a2cc68bd0378bff8fac977763d9ebb898bf97d1a31d",
+      "sourceBytes": 711492,
+      "sourceWidth": 1721,
+      "sourceHeight": 1392,
+      "display": {
+        "path": "assets/products/guanya-2026/k80-quick-response-concealed-sprinkler-dsc_5938-640.webp",
+        "width": 640,
+        "height": 518,
+        "bytes": 24672,
+        "sha256": "14919e96408752769ec038bf5bbec2a678640a489fa6430990c4d1745cdaaa20",
+        "quality": 85,
+        "unwatermarkedSha256": "9e0663f05748fbe6f46e085ea67f205e85e8739f02defc3432d12ae6273cf55e",
+        "watermarkRecord": "site-src/_data/product-watermarks.json"
+      },
+      "detail": {
+        "path": "assets/products/guanya-2026/k80-quick-response-concealed-sprinkler-dsc_5938-1600.webp",
+        "width": 1600,
+        "height": 1294,
+        "bytes": 75748,
+        "sha256": "314bb63cb20f570b346925b66d31de07377bb3510e394f21ce0dfc34c5918bab",
+        "quality": 85,
+        "unwatermarkedSha256": "26047be3484b805798b16c214e3924cb71d9cacf6dfb15b61dce44c84111eeb6",
+        "watermarkRecord": "site-src/_data/product-watermarks.json"
+      }
+    },
+    {
+      "routeId": "product:k80-quick-response-concealed-sprinkler",
+      "sourceFile": "DSC_5937.jpg",
+      "caption": {
+        "en": "K80 quick-response concealed sprinkler — 141°C, exposed mechanism",
+        "ar": "رشاش مخفي K80 سريع الاستجابة — 141°C، الآلية المكشوفة"
+      },
+      "authorizationDate": "2026-10-24",
+      "matchEvidence": "User supplied this exact photograph and identified it as K80 quick-response concealed sprinkler for the independent detail page. Attachment SHA256 matches inventoried DSC_5937.jpg. The visible ZSTDY80-141°C Q3A marking identifies the sample and sprinkler temperature. Covered/exposed pairs follow the physical model marking, not bulb color. No cover release temperature, pressure, connection size, materials or approvals inferred.",
+      "sourcePath": "D:\\temp\\冠亚2026产品图\\DSC_5937.jpg",
+      "sourceSha256": "00a637e1f4db6d2405b66ca63a77002336b76f2148c667076ed3f99aeb818259",
+      "sourceBytes": 537230,
+      "sourceWidth": 945,
+      "sourceHeight": 1291,
+      "display": {
+        "path": "assets/products/guanya-2026/k80-quick-response-concealed-sprinkler-dsc_5937-640.webp",
+        "width": 468,
+        "height": 640,
+        "bytes": 49360,
+        "sha256": "47352cd1011ed8bae7b117b8ba42759ea9c4ec84538aac8cf2fc999c376c805b",
+        "quality": 85,
+        "unwatermarkedSha256": "cca9fcbfaca804e687c5f5086fdec7eb8e70c89b91b3ab77a06d2a8d245445ed",
+        "watermarkRecord": "site-src/_data/product-watermarks.json"
+      },
+      "detail": {
+        "path": "assets/products/guanya-2026/k80-quick-response-concealed-sprinkler-dsc_5937-1600.webp",
+        "width": 945,
+        "height": 1291,
+        "bytes": 131956,
+        "sha256": "78e34b6d573c06edc941de73726e1c687de01eed4f1e1700ae1ce69f80fa4692",
+        "quality": 85,
+        "unwatermarkedSha256": "e39b83be740afd6f56a407bdcae1a75dbef90e588f4ca6e3c2a754ffaff17c69",
+        "watermarkRecord": "site-src/_data/product-watermarks.json"
+      }
+    },
+    {
+      "routeId": "product:k115-standard-response-concealed-sprinkler",
+      "sourceFile": "DSC_5921.jpg",
+      "caption": {
+        "en": "K115 standard-response concealed sprinkler — 79°C, covered assembly",
+        "ar": "رشاش مخفي K115 ذو استجابة قياسية — 79°C، المجموعة مع الغطاء"
+      },
+      "authorizationDate": "2026-10-24",
+      "matchEvidence": "User supplied this exact photograph and identified it as K115 standard-response concealed sprinkler for the independent detail page. Attachment SHA256 matches inventoried DSC_5921.jpg. Visible ZSTDY115-79°C Q5A marking identifies the sample and sprinkler temperature. Covered/exposed pairs follow the physical model marking, not bulb color. No cover release temperature, pressure, connection size, materials or approvals inferred.",
+      "sourcePath": "D:\\temp\\冠亚2026产品图\\DSC_5921.jpg",
+      "sourceSha256": "a3e4ac40683885fb6991f862631dd90e20a3d35e87e030b4d81844279e1540ca",
+      "sourceBytes": 693834,
+      "sourceWidth": 1721,
+      "sourceHeight": 1392,
+      "display": {
+        "path": "assets/products/guanya-2026/k115-standard-response-concealed-sprinkler-dsc_5921-640.webp",
+        "width": 640,
+        "height": 518,
+        "bytes": 22880,
+        "sha256": "bd48c9c1c93c9e14312dba0ee4d1c2e7e53d2c56afa203b265f15cb988380a6e",
+        "quality": 85,
+        "unwatermarkedSha256": "5be292cd737140b7153f347eb4e571d40ea0fae2cf354b2649bb43e3a2b428f6",
+        "watermarkRecord": "site-src/_data/product-watermarks.json"
+      },
+      "detail": {
+        "path": "assets/products/guanya-2026/k115-standard-response-concealed-sprinkler-dsc_5921-1600.webp",
+        "width": 1600,
+        "height": 1294,
+        "bytes": 74770,
+        "sha256": "153f60c9dfcbc2aada9aa102c1b419ff30466f725b0626c5ba9ae7983e0e5ad5",
+        "quality": 85,
+        "unwatermarkedSha256": "8bd30ffaf4219e13391e70b57faf847ef2390abea0af3b6533135158535c0483",
+        "watermarkRecord": "site-src/_data/product-watermarks.json"
+      }
+    },
+    {
+      "routeId": "product:k115-standard-response-concealed-sprinkler",
+      "sourceFile": "DSC_5920.jpg",
+      "caption": {
+        "en": "K115 standard-response concealed sprinkler — 79°C, exposed mechanism",
+        "ar": "رشاش مخفي K115 ذو استجابة قياسية — 79°C، الآلية المكشوفة"
+      },
+      "authorizationDate": "2026-10-24",
+      "matchEvidence": "User supplied this exact photograph and identified it as K115 standard-response concealed sprinkler for the independent detail page. Attachment SHA256 matches inventoried DSC_5920.jpg. Visible ZSTDY115-79°C Q5A marking identifies the sample and sprinkler temperature. Covered/exposed pairs follow the physical model marking, not bulb color. No cover release temperature, pressure, connection size, materials or approvals inferred.",
+      "sourcePath": "D:\\temp\\冠亚2026产品图\\DSC_5920.jpg",
+      "sourceSha256": "3b402e0a4a0f8b04cc9122d2f5bdf380ab0026968fd63f8a4fffa9547ee4742d",
+      "sourceBytes": 527621,
+      "sourceWidth": 860,
+      "sourceHeight": 1374,
+      "display": {
+        "path": "assets/products/guanya-2026/k115-standard-response-concealed-sprinkler-dsc_5920-640.webp",
+        "width": 401,
+        "height": 640,
+        "bytes": 45512,
+        "sha256": "a42504a2900735d8c795f59dfc9bab7f89cf9929dda625ca2434599dc3186c32",
+        "quality": 85,
+        "unwatermarkedSha256": "00dcd94d021763306b159f655b2b701d605b3bb1151283333866c7b23d3eed31",
+        "watermarkRecord": "site-src/_data/product-watermarks.json"
+      },
+      "detail": {
+        "path": "assets/products/guanya-2026/k115-standard-response-concealed-sprinkler-dsc_5920-1600.webp",
+        "width": 860,
+        "height": 1374,
+        "bytes": 129572,
+        "sha256": "74c1453aa38c960788492bf6828b5b12ad92cebd2b9474e71f00c42dfb65e797",
+        "quality": 85,
+        "unwatermarkedSha256": "9883f42e15c2078f91983a82bdaf4d9dc717cc762abc6926297b91412881d00c",
+        "watermarkRecord": "site-src/_data/product-watermarks.json"
+      }
+    },
+    {
+      "routeId": "product:k115-standard-response-concealed-sprinkler",
+      "sourceFile": "DSC_5915.jpg",
+      "caption": {
+        "en": "K115 standard-response concealed sprinkler — 93°C, covered assembly",
+        "ar": "رشاش مخفي K115 ذو استجابة قياسية — 93°C، المجموعة مع الغطاء"
+      },
+      "authorizationDate": "2026-10-24",
+      "matchEvidence": "User supplied this exact photograph and identified it as K115 standard-response concealed sprinkler for the independent detail page. Attachment SHA256 matches inventoried DSC_5915.jpg. Visible ZSTDY115-93°C Q5A marking identifies the sample and sprinkler temperature. Covered/exposed pairs follow the physical model marking, not bulb color. No cover release temperature, pressure, connection size, materials or approvals inferred.",
+      "sourcePath": "D:\\temp\\冠亚2026产品图\\DSC_5915.jpg",
+      "sourceSha256": "aad0a8626a4352efaf3401feacb5ea437f4d3bad792fff9dd82d9614bacf658e",
+      "sourceBytes": 651138,
+      "sourceWidth": 1721,
+      "sourceHeight": 1392,
+      "display": {
+        "path": "assets/products/guanya-2026/k115-standard-response-concealed-sprinkler-dsc_5915-640.webp",
+        "width": 640,
+        "height": 518,
+        "bytes": 24552,
+        "sha256": "d6818c0cd886d87f064f45cde91fdc11def4178eca196ffd3fc8dd08376493fe",
+        "quality": 85,
+        "unwatermarkedSha256": "52b2eb134b9fc5f5138edcc9aa21eb9f8243f84389b3028ab19ab7e11e5c1d5a",
+        "watermarkRecord": "site-src/_data/product-watermarks.json"
+      },
+      "detail": {
+        "path": "assets/products/guanya-2026/k115-standard-response-concealed-sprinkler-dsc_5915-1600.webp",
+        "width": 1600,
+        "height": 1294,
+        "bytes": 76762,
+        "sha256": "7fb4bb13befc4ab650657e88e883c6fce2d355b5d8458ca62033a1f4503ed26f",
+        "quality": 85,
+        "unwatermarkedSha256": "2eacbae2e1ddab1fecee194402cbc645e025ecab60c34518ebfc54595b03ff0a",
+        "watermarkRecord": "site-src/_data/product-watermarks.json"
+      }
+    },
+    {
+      "routeId": "product:k115-standard-response-concealed-sprinkler",
+      "sourceFile": "DSC_5914.jpg",
+      "caption": {
+        "en": "K115 standard-response concealed sprinkler — 93°C, exposed mechanism",
+        "ar": "رشاش مخفي K115 ذو استجابة قياسية — 93°C، الآلية المكشوفة"
+      },
+      "authorizationDate": "2026-10-24",
+      "matchEvidence": "User supplied this exact photograph and identified it as K115 standard-response concealed sprinkler for the independent detail page. Attachment SHA256 matches inventoried DSC_5914.jpg. Visible ZSTDY115-93°C Q5A marking identifies the sample and sprinkler temperature. Covered/exposed pairs follow the physical model marking, not bulb color. No cover release temperature, pressure, connection size, materials or approvals inferred.",
+      "sourcePath": "D:\\temp\\冠亚2026产品图\\DSC_5914.jpg",
+      "sourceSha256": "e9b981085c6f2bcb5393ee05aa7fa54d6886ded016c5dff69345fc3ddc695f64",
+      "sourceBytes": 479816,
+      "sourceWidth": 861,
+      "sourceHeight": 1274,
+      "display": {
+        "path": "assets/products/guanya-2026/k115-standard-response-concealed-sprinkler-dsc_5914-640.webp",
+        "width": 433,
+        "height": 640,
+        "bytes": 45164,
+        "sha256": "c9dec0c2c90996be24c71f137ceb191eac312d409c29f8e33e0b914ab9d6aec1",
+        "quality": 85,
+        "unwatermarkedSha256": "63e7ebe82f51cbdeb413d00b9208585a1a026fca81ea251148421ed388c0d028",
+        "watermarkRecord": "site-src/_data/product-watermarks.json"
+      },
+      "detail": {
+        "path": "assets/products/guanya-2026/k115-standard-response-concealed-sprinkler-dsc_5914-1600.webp",
+        "width": 861,
+        "height": 1274,
+        "bytes": 117384,
+        "sha256": "5ec0177c60dc865362b2f2f35a2096744729d507b29f783114a031f44f7e3370",
+        "quality": 85,
+        "unwatermarkedSha256": "f4fa3e40fccddcc389dcb3365fe72d5d94a3c40df0621da29a2ae8715fb09462",
+        "watermarkRecord": "site-src/_data/product-watermarks.json"
+      }
+    },
+    {
+      "routeId": "product:k115-standard-response-concealed-sprinkler",
+      "sourceFile": "DSC_5913.jpg",
+      "caption": {
+        "en": "K115 standard-response concealed sprinkler — 141°C, covered assembly",
+        "ar": "رشاش مخفي K115 ذو استجابة قياسية — 141°C، المجموعة مع الغطاء"
+      },
+      "authorizationDate": "2026-10-24",
+      "matchEvidence": "User supplied this exact photograph and identified it as K115 standard-response concealed sprinkler for the independent detail page. Attachment SHA256 matches inventoried DSC_5913.jpg. Visible ZSTDY115-141°C Q5A marking identifies the sample and sprinkler temperature. Covered/exposed pairs follow the physical model marking, not bulb color. No cover release temperature, pressure, connection size, materials or approvals inferred.",
+      "sourcePath": "D:\\temp\\冠亚2026产品图\\DSC_5913.jpg",
+      "sourceSha256": "6dc0f6756a6097131a25caf06e1c03f72d8e9f4adead63a3fd8c409e482943b2",
+      "sourceBytes": 741262,
+      "sourceWidth": 1721,
+      "sourceHeight": 1392,
+      "display": {
+        "path": "assets/products/guanya-2026/k115-standard-response-concealed-sprinkler-dsc_5913-640.webp",
+        "width": 640,
+        "height": 518,
+        "bytes": 28204,
+        "sha256": "4dc9e744df48c3101cc6741a943381392c7bf0df5401c29c6a189599cc050ca8",
+        "quality": 85,
+        "unwatermarkedSha256": "847f3f60d3920a5ff1ed20f8a9df0ea40de9733f997d46dd5c163c71aa784943",
+        "watermarkRecord": "site-src/_data/product-watermarks.json"
+      },
+      "detail": {
+        "path": "assets/products/guanya-2026/k115-standard-response-concealed-sprinkler-dsc_5913-1600.webp",
+        "width": 1600,
+        "height": 1294,
+        "bytes": 90894,
+        "sha256": "e9e39ee6ec2010315cd09866161bdd11ca76e0f7d4fd45f5318c20f658940d07",
+        "quality": 85,
+        "unwatermarkedSha256": "e08373715fdf0c65b1eedc75316eb5ce61b0424597ca1c297bd1186c198d8e01",
+        "watermarkRecord": "site-src/_data/product-watermarks.json"
+      }
+    },
+    {
+      "routeId": "product:k115-standard-response-concealed-sprinkler",
+      "sourceFile": "DSC_5912.jpg",
+      "caption": {
+        "en": "K115 standard-response concealed sprinkler — 141°C, exposed mechanism",
+        "ar": "رشاش مخفي K115 ذو استجابة قياسية — 141°C، الآلية المكشوفة"
+      },
+      "authorizationDate": "2026-10-24",
+      "matchEvidence": "User supplied this exact photograph and identified it as K115 standard-response concealed sprinkler for the independent detail page. Attachment SHA256 matches inventoried DSC_5912.jpg. Visible ZSTDY115-141°C Q5A marking identifies the sample and sprinkler temperature. Covered/exposed pairs follow the physical model marking, not bulb color. No cover release temperature, pressure, connection size, materials or approvals inferred.",
+      "sourcePath": "D:\\temp\\冠亚2026产品图\\DSC_5912.jpg",
+      "sourceSha256": "00c0850ab9f59c73320c6a18f47c4d5d3be4c3aad5e277a8a82039b08592150c",
+      "sourceBytes": 499918,
+      "sourceWidth": 861,
+      "sourceHeight": 1274,
+      "display": {
+        "path": "assets/products/guanya-2026/k115-standard-response-concealed-sprinkler-dsc_5912-640.webp",
+        "width": 433,
+        "height": 640,
+        "bytes": 47362,
+        "sha256": "147fe89e96cc29dad842918a8eae323cf2c705a82f7b8c4c5ff964b210c80f6a",
+        "quality": 85,
+        "unwatermarkedSha256": "e31be08b30379cf9ecba886e69c4060f4534675a696a1fdc8e3d79e1e307e793",
+        "watermarkRecord": "site-src/_data/product-watermarks.json"
+      },
+      "detail": {
+        "path": "assets/products/guanya-2026/k115-standard-response-concealed-sprinkler-dsc_5912-1600.webp",
+        "width": 861,
+        "height": 1274,
+        "bytes": 122962,
+        "sha256": "68e281f353e028d6e5538f60f8731fad850f28d492eddac9765d86133aa996ec",
+        "quality": 85,
+        "unwatermarkedSha256": "55e688383087b6bd02339cd6875a38613d5fd6fb94ac9f732e86d016513322ed",
+        "watermarkRecord": "site-src/_data/product-watermarks.json"
+      }
+    },
+    {
+      "routeId": "product:k115-quick-response-concealed-sprinkler",
+      "sourceFile": "DSC_5952.jpg",
+      "caption": {
+        "en": "K115 quick-response concealed sprinkler — 57°C, covered assembly",
+        "ar": "رشاش مخفي K115 سريع الاستجابة — 57°C، المجموعة مع الغطاء"
+      },
+      "authorizationDate": "2026-10-25",
+      "matchEvidence": "User supplied this exact photograph and identified it as K115 quick-response concealed sprinkler for the independent detail page. Attachment SHA256 matches inventoried DSC_5952.jpg. The visible ZSTDY115-57°C Q3A marking identifies the sample and sprinkler temperature. Covered/exposed pairs follow the physical model marking, not bulb color. No cover release temperature, pressure, connection size, materials or approvals inferred.",
+      "sourcePath": "D:\\temp\\冠亚2026产品图\\DSC_5952.jpg",
+      "sourceSha256": "583261716dd418891e95337319b3c9b8374b3f30668c7aaf154b8c015aced77a",
+      "sourceBytes": 699658,
+      "sourceWidth": 1721,
+      "sourceHeight": 1392,
+      "display": {
+        "path": "assets/products/guanya-2026/k115-quick-response-concealed-sprinkler-dsc_5952-640.webp",
+        "width": 640,
+        "height": 518,
+        "bytes": 25724,
+        "sha256": "1f0e56b6826271b80715bcc8b170962c876ed2bf7a6ed13965bc34fc2c7ac546",
+        "quality": 85,
+        "unwatermarkedSha256": "1e0284059253e3141d69bb9abfbbfab6aec1f8514a4384fee2a77e1db1070e59",
+        "watermarkRecord": "site-src/_data/product-watermarks.json"
+      },
+      "detail": {
+        "path": "assets/products/guanya-2026/k115-quick-response-concealed-sprinkler-dsc_5952-1600.webp",
+        "width": 1600,
+        "height": 1294,
+        "bytes": 85268,
+        "sha256": "51bbb1889d36d8c742e3795f91db9d3c2473b04d3afd14478b97f46317a1261b",
+        "quality": 85,
+        "unwatermarkedSha256": "540ad2515081f3c23332d0cff9246b5bf30b95efa5f2c7765ae0ec67d1933edb",
+        "watermarkRecord": "site-src/_data/product-watermarks.json"
+      }
+    },
+    {
+      "routeId": "product:k115-quick-response-concealed-sprinkler",
+      "sourceFile": "DSC_5951.jpg",
+      "caption": {
+        "en": "K115 quick-response concealed sprinkler — 57°C, exposed mechanism",
+        "ar": "رشاش مخفي K115 سريع الاستجابة — 57°C، الآلية المكشوفة"
+      },
+      "authorizationDate": "2026-10-25",
+      "matchEvidence": "User supplied this exact photograph and identified it as K115 quick-response concealed sprinkler for the independent detail page. Attachment SHA256 matches inventoried DSC_5951.jpg. The visible ZSTDY115-57°C Q3A marking identifies the sample and sprinkler temperature. Covered/exposed pairs follow the physical model marking, not bulb color. No cover release temperature, pressure, connection size, materials or approvals inferred.",
+      "sourcePath": "D:\\temp\\冠亚2026产品图\\DSC_5951.jpg",
+      "sourceSha256": "db5f7f74fc4e79ef2f49768c1aaf55df9af33eb3f4919e9835202b00463c5f66",
+      "sourceBytes": 545894,
+      "sourceWidth": 928,
+      "sourceHeight": 1375,
+      "display": {
+        "path": "assets/products/guanya-2026/k115-quick-response-concealed-sprinkler-dsc_5951-640.webp",
+        "width": 432,
+        "height": 640,
+        "bytes": 45896,
+        "sha256": "768e270d266a59811fcd7e604c6e6479d5741d55883b08a6fa19b6ad51527fee",
+        "quality": 85,
+        "unwatermarkedSha256": "6d9f5c837c472fa4b67438b630bb7ef8d9f99157fcfe00eaa0b14fc359e21780",
+        "watermarkRecord": "site-src/_data/product-watermarks.json"
+      },
+      "detail": {
+        "path": "assets/products/guanya-2026/k115-quick-response-concealed-sprinkler-dsc_5951-1600.webp",
+        "width": 928,
+        "height": 1375,
+        "bytes": 135854,
+        "sha256": "70ea435c20adacb0c2b5763ae8286940493815f1f366c41ce17bf0f5db3eddb0",
+        "quality": 85,
+        "unwatermarkedSha256": "45b82031c01ddf13907675caee06687420723feecd8a0b3e0874829ac22f14b8",
+        "watermarkRecord": "site-src/_data/product-watermarks.json"
+      }
+    },
+    {
+      "routeId": "product:k115-quick-response-concealed-sprinkler",
+      "sourceFile": "DSC_5948.jpg",
+      "caption": {
+        "en": "K115 quick-response concealed sprinkler — 68°C, covered assembly",
+        "ar": "رشاش مخفي K115 سريع الاستجابة — 68°C، المجموعة مع الغطاء"
+      },
+      "authorizationDate": "2026-10-25",
+      "matchEvidence": "User supplied this exact photograph and identified it as K115 quick-response concealed sprinkler for the independent detail page. Attachment SHA256 matches inventoried DSC_5948.jpg. The visible ZSTDY115-68°C Q3A marking identifies the sample and sprinkler temperature. Covered/exposed pairs follow the physical model marking, not bulb color. No cover release temperature, pressure, connection size, materials or approvals inferred.",
+      "sourcePath": "D:\\temp\\冠亚2026产品图\\DSC_5948.jpg",
+      "sourceSha256": "9198140d47bdb08c8a366a587c810db98f897ce02b091dd1577c9398ff772778",
+      "sourceBytes": 695082,
+      "sourceWidth": 1805,
+      "sourceHeight": 1409,
+      "display": {
+        "path": "assets/products/guanya-2026/k115-quick-response-concealed-sprinkler-dsc_5948-640.webp",
+        "width": 640,
+        "height": 500,
+        "bytes": 22366,
+        "sha256": "2a346f26b4969a5fc307c59871b89025ad15e6354cd8440c165a0f7d02f7c907",
+        "quality": 85,
+        "unwatermarkedSha256": "eb847dd700e7f6cf311e0a03d5399cee842da402473e11d81e32e914ef475dd0",
+        "watermarkRecord": "site-src/_data/product-watermarks.json"
+      },
+      "detail": {
+        "path": "assets/products/guanya-2026/k115-quick-response-concealed-sprinkler-dsc_5948-1600.webp",
+        "width": 1600,
+        "height": 1249,
+        "bytes": 71266,
+        "sha256": "9992bcb1f950b50e6590b87cdd44120ed8c4a4b540b7f44e8ea898ffa550dc55",
+        "quality": 85,
+        "unwatermarkedSha256": "3e6c5d3541978217cf3e66f5f09f43482ca8b527f5b892c26788c77ead89d861",
+        "watermarkRecord": "site-src/_data/product-watermarks.json"
+      }
+    },
+    {
+      "routeId": "product:k115-quick-response-concealed-sprinkler",
+      "sourceFile": "DSC_5947.jpg",
+      "caption": {
+        "en": "K115 quick-response concealed sprinkler — 68°C, exposed mechanism",
+        "ar": "رشاش مخفي K115 سريع الاستجابة — 68°C، الآلية المكشوفة"
+      },
+      "authorizationDate": "2026-10-25",
+      "matchEvidence": "User supplied this exact photograph and identified it as K115 quick-response concealed sprinkler for the independent detail page. Attachment SHA256 matches inventoried DSC_5947.jpg. The visible ZSTDY115-68°C Q3A marking identifies the sample and sprinkler temperature. Covered/exposed pairs follow the physical model marking, not bulb color. No cover release temperature, pressure, connection size, materials or approvals inferred.",
+      "sourcePath": "D:\\temp\\冠亚2026产品图\\DSC_5947.jpg",
+      "sourceSha256": "385eaa278b1eb67bcbef67c49528e2a8d972f78f34d72a7b9a52ac7bd1dbf75d",
+      "sourceBytes": 479393,
+      "sourceWidth": 911,
+      "sourceHeight": 1341,
+      "display": {
+        "path": "assets/products/guanya-2026/k115-quick-response-concealed-sprinkler-dsc_5947-640.webp",
+        "width": 435,
+        "height": 640,
+        "bytes": 40482,
+        "sha256": "d3fdf4246b122379b0469cce8e61033ab47c84dff6a1c9737cbab8c37d27f1d6",
+        "quality": 85,
+        "unwatermarkedSha256": "1e0b2726e9e979fa4ac5fcbcc539e0700d47c0ee57a93701414f624f357f34b8",
+        "watermarkRecord": "site-src/_data/product-watermarks.json"
+      },
+      "detail": {
+        "path": "assets/products/guanya-2026/k115-quick-response-concealed-sprinkler-dsc_5947-1600.webp",
+        "width": 911,
+        "height": 1341,
+        "bytes": 103058,
+        "sha256": "8da725feb5dfead69b7d1c2631fc3d8ba9d820f5b4fc3b099419d0582ee53878",
+        "quality": 85,
+        "unwatermarkedSha256": "b21c80a7be6e1086f015ce4cad548a2bf74399aebd4df2f546da5e8696c2e977",
+        "watermarkRecord": "site-src/_data/product-watermarks.json"
+      }
+    },
+    {
+      "routeId": "product:k115-quick-response-concealed-sprinkler",
+      "sourceFile": "DSC_5940.jpg",
+      "caption": {
+        "en": "K115 quick-response concealed sprinkler — 93°C, covered assembly",
+        "ar": "رشاش مخفي K115 سريع الاستجابة — 93°C، المجموعة مع الغطاء"
+      },
+      "authorizationDate": "2026-10-25",
+      "matchEvidence": "User supplied this exact photograph and identified it as K115 quick-response concealed sprinkler for the independent detail page. Attachment SHA256 matches inventoried DSC_5940.jpg. The visible ZSTDY115-93°C Q3A marking identifies the sample and sprinkler temperature. Covered/exposed pairs follow the physical model marking, not bulb color. No cover release temperature, pressure, connection size, materials or approvals inferred.",
+      "sourcePath": "D:\\temp\\冠亚2026产品图\\DSC_5940.jpg",
+      "sourceSha256": "6801227a613bf5fd1d355e30e6de0f142e490eaa7c96e41280335fc574abd65b",
+      "sourceBytes": 700873,
+      "sourceWidth": 1721,
+      "sourceHeight": 1392,
+      "display": {
+        "path": "assets/products/guanya-2026/k115-quick-response-concealed-sprinkler-dsc_5940-640.webp",
+        "width": 640,
+        "height": 518,
+        "bytes": 24646,
+        "sha256": "692dfab2555c1fb14f0decfc33c6e4844b54f7f2e7d5285e11202e324ab2e0af",
+        "quality": 85,
+        "unwatermarkedSha256": "8ca0c4eb7191ad3a85393fe2ca4159f4bf6817b599a8a87e4d04289408df3e2f",
+        "watermarkRecord": "site-src/_data/product-watermarks.json"
+      },
+      "detail": {
+        "path": "assets/products/guanya-2026/k115-quick-response-concealed-sprinkler-dsc_5940-1600.webp",
+        "width": 1600,
+        "height": 1294,
+        "bytes": 82854,
+        "sha256": "0a58027a96bfb5f1586ecbfab10adf87ef557aded6f5a56d9a95977d86ff117e",
+        "quality": 85,
+        "unwatermarkedSha256": "0e3cb24e50f52f20404c217e78a4b29abfe16dfff7de8b2bb20c946b966b0e24",
+        "watermarkRecord": "site-src/_data/product-watermarks.json"
+      }
+    },
+    {
+      "routeId": "product:k115-quick-response-concealed-sprinkler",
+      "sourceFile": "DSC_5939.jpg",
+      "caption": {
+        "en": "K115 quick-response concealed sprinkler — 93°C, exposed mechanism",
+        "ar": "رشاش مخفي K115 سريع الاستجابة — 93°C، الآلية المكشوفة"
+      },
+      "authorizationDate": "2026-10-25",
+      "matchEvidence": "User supplied this exact photograph and identified it as K115 quick-response concealed sprinkler for the independent detail page. Attachment SHA256 matches inventoried DSC_5939.jpg. The visible ZSTDY115-93°C Q3A marking identifies the sample and sprinkler temperature. Covered/exposed pairs follow the physical model marking, not bulb color. No cover release temperature, pressure, connection size, materials or approvals inferred.",
+      "sourcePath": "D:\\temp\\冠亚2026产品图\\DSC_5939.jpg",
+      "sourceSha256": "1fd39abec42086782cd882cd60d03bbf5a9bdb182b6b39cc6556b18781a67719",
+      "sourceBytes": 471273,
+      "sourceWidth": 861,
+      "sourceHeight": 1274,
+      "display": {
+        "path": "assets/products/guanya-2026/k115-quick-response-concealed-sprinkler-dsc_5939-640.webp",
+        "width": 433,
+        "height": 640,
+        "bytes": 44780,
+        "sha256": "577b5d3fcb95042af3ec4ee4b3e25f4240141b7d7563e15ab5991dcbec586d02",
+        "quality": 85,
+        "unwatermarkedSha256": "ffcc8bac55eb5bc2db6cf840ad4d2e0290221018fa1d3aac1255442efbc7701c",
+        "watermarkRecord": "site-src/_data/product-watermarks.json"
+      },
+      "detail": {
+        "path": "assets/products/guanya-2026/k115-quick-response-concealed-sprinkler-dsc_5939-1600.webp",
+        "width": 861,
+        "height": 1274,
+        "bytes": 115680,
+        "sha256": "2935be837f4fc1129cfd77883d5087128a4b837d6762e1f22b3968aa1e158f46",
+        "quality": 85,
+        "unwatermarkedSha256": "46acf3531aacd9391fe7f8a118187b0a7db81823d05b7d63ee105be54e77ab9c",
+        "watermarkRecord": "site-src/_data/product-watermarks.json"
+      }
+    },
+    {
+      "routeId": "product:k115-quick-response-concealed-sprinkler",
+      "sourceFile": "DSC_5936.jpg",
+      "caption": {
+        "en": "K115 quick-response concealed sprinkler — 141°C, covered assembly",
+        "ar": "رشاش مخفي K115 سريع الاستجابة — 141°C، المجموعة مع الغطاء"
+      },
+      "authorizationDate": "2026-10-25",
+      "matchEvidence": "User supplied this exact photograph and identified it as K115 quick-response concealed sprinkler for the independent detail page. Attachment SHA256 matches inventoried DSC_5936.jpg. The visible ZSTDY115-141°C Q3A marking identifies the sample and sprinkler temperature. Covered/exposed pairs follow the physical model marking, not bulb color. No cover release temperature, pressure, connection size, materials or approvals inferred.",
+      "sourcePath": "D:\\temp\\冠亚2026产品图\\DSC_5936.jpg",
+      "sourceSha256": "a62f7544f3fe9cbc9dc556467980de32a79a9b0a85ac71dc6cde9b138d666c0f",
+      "sourceBytes": 751685,
+      "sourceWidth": 1721,
+      "sourceHeight": 1409,
+      "display": {
+        "path": "assets/products/guanya-2026/k115-quick-response-concealed-sprinkler-dsc_5936-640.webp",
+        "width": 640,
+        "height": 524,
+        "bytes": 26994,
+        "sha256": "209537c96023e91a5a5752b2c26144f94a33af86dfda5dc885bb50a64d66754d",
+        "quality": 85,
+        "unwatermarkedSha256": "f9fd183f9959df540974e38bca96ee89b63375d11c6ebd630a75a882ace2e58d",
+        "watermarkRecord": "site-src/_data/product-watermarks.json"
+      },
+      "detail": {
+        "path": "assets/products/guanya-2026/k115-quick-response-concealed-sprinkler-dsc_5936-1600.webp",
+        "width": 1600,
+        "height": 1310,
+        "bytes": 85044,
+        "sha256": "cda01828aaa04c736effe6bdf5420a22cc06992df34a87a0c453fcc81fb2ca39",
+        "quality": 85,
+        "unwatermarkedSha256": "5c7f4c11d9c15e14a8ff4f908a04ce5e8a6d338b367a589a19aac5175cf1d44b",
+        "watermarkRecord": "site-src/_data/product-watermarks.json"
+      }
+    },
+    {
+      "routeId": "product:k115-quick-response-concealed-sprinkler",
+      "sourceFile": "DSC_5935.jpg",
+      "caption": {
+        "en": "K115 quick-response concealed sprinkler — 141°C, exposed mechanism",
+        "ar": "رشاش مخفي K115 سريع الاستجابة — 141°C، الآلية المكشوفة"
+      },
+      "authorizationDate": "2026-10-25",
+      "matchEvidence": "User supplied this exact photograph and identified it as K115 quick-response concealed sprinkler for the independent detail page. Attachment SHA256 matches inventoried DSC_5935.jpg. The visible ZSTDY115-141°C Q3A marking identifies the sample and sprinkler temperature. Covered/exposed pairs follow the physical model marking, not bulb color. No cover release temperature, pressure, connection size, materials or approvals inferred.",
+      "sourcePath": "D:\\temp\\冠亚2026产品图\\DSC_5935.jpg",
+      "sourceSha256": "8c47b9d24a03b2affdf85342074e27fa27cfaaf3db97ad778a1fc62541093c1d",
+      "sourceBytes": 513401,
+      "sourceWidth": 861,
+      "sourceHeight": 1291,
+      "display": {
+        "path": "assets/products/guanya-2026/k115-quick-response-concealed-sprinkler-dsc_5935-640.webp",
+        "width": 427,
+        "height": 640,
+        "bytes": 47378,
+        "sha256": "7178463e9fca99bd6b96b016da748aa4d84d8e77017cfec2c9ae9a64a0b5f1f6",
+        "quality": 85,
+        "unwatermarkedSha256": "f30ae0345be2a9a9e237a4f1a171c7e607f4e03d6cf852cdd55cf441c1bac367",
+        "watermarkRecord": "site-src/_data/product-watermarks.json"
+      },
+      "detail": {
+        "path": "assets/products/guanya-2026/k115-quick-response-concealed-sprinkler-dsc_5935-1600.webp",
+        "width": 861,
+        "height": 1291,
+        "bytes": 127936,
+        "sha256": "976a4cedf988ed752c527b5f5f21ced2f01d3ff8ee83ec2df64838583017316d",
+        "quality": 85,
+        "unwatermarkedSha256": "fe572e6a0e4a7e38febf60102199546c7d1d852c1240ef03d27916d0651beeff",
+        "watermarkRecord": "site-src/_data/product-watermarks.json"
+      }
+    },
+    {
+      "routeId": "product:water-mist-nozzles",
+      "sourceFile": "DSC_5793.jpg",
+      "caption": {
+        "en": "Water mist nozzle — additional product sample; exact model available on request",
+        "ar": "فوهة ضباب الماء — عينة إضافية للمنتج؛ الموديل الدقيق متاح عند الطلب"
+      },
+      "authorizationDate": "2026-10-25",
+      "matchEvidence": "User supplied this exact photograph and explicitly instructed: 按照水雾喷头分组吧. Attachment SHA256 matches inventoried DSC_5793.jpg. Classification as water mist nozzle is user-confirmed; exact factory model, material, size, thread, pressure, K-factor and spray angle are not established and are not assigned from other configurations.",
+      "sourcePath": "D:\\temp\\冠亚2026产品图\\DSC_5793.jpg",
+      "sourceSha256": "92c8027a0c33d7498f4bd025871c975da09ebcbe2a3e6c9f4328b9a11ceef0d9",
+      "sourceBytes": 261484,
+      "sourceWidth": 760,
+      "sourceHeight": 937,
+      "display": {
+        "path": "assets/products/guanya-2026/water-mist-nozzles-dsc_5793-640.webp",
+        "width": 519,
+        "height": 640,
+        "bytes": 19378,
+        "sha256": "e79672476c19566f160d355b0783ed067590f0498ee050b9365dfb8e89bb4dc1",
+        "quality": 85,
+        "unwatermarkedSha256": "ac1f01cb304a368a7a973caa423bb457c81fb24a9ae9ce5a8234f03834d89780",
+        "watermarkRecord": "site-src/_data/product-watermarks.json"
+      },
+      "detail": {
+        "path": "assets/products/guanya-2026/water-mist-nozzles-dsc_5793-1600.webp",
+        "width": 760,
+        "height": 937,
+        "bytes": 32214,
+        "sha256": "5452e4c5841e67e7c6397f2a04e8dce87176b016242f00b717be8d8519aec456",
+        "quality": 85,
+        "unwatermarkedSha256": "fd393ea04b67ed76a531989adee7fba7e10a4ab64e8bf69e21b18a21624de62d",
+        "watermarkRecord": "site-src/_data/product-watermarks.json"
+      }
+    },
+    {
+      "routeId": "product:diaphragm-deluge-valves",
+      "sourceFile": "deluge-flanged-user-20261025.jpg",
+      "sourcePath": "D:\\code\\ai-code\\docs\\reviews\\deluge-photo-correction-20261025\\source\\deluge-flanged-user-20261025.jpg",
+      "authorizationDate": "2026-10-25",
+      "caption": {
+        "en": "Flanged diaphragm-deluge assembly — sample layout",
+        "ar": "مجموعة غمر غشائية فلنجية — ترتيب العينة"
+      },
+      "matchEvidence": "User supplied and explicitly identified this photograph as the flanged deluge valve on 2026-10-25; both connection flanges are visible. Photograph is not pressure, material-grade or certification evidence.",
+      "sourceSha256": "738f712578046187d5e458df95461fdb24b0091f901ab80cf67c33d226bde890",
+      "sourceBytes": 2433467,
+      "sourceWidth": 3037,
+      "sourceHeight": 3020,
+      "display": {
+        "path": "assets/products/guanya-2026/diaphragm-deluge-valves-deluge-flanged-user-20261025-640.webp",
+        "width": 640,
+        "height": 636,
+        "bytes": 52216,
+        "sha256": "0168b55ea91ca4d22687e931893b05c0ce3aea1ceea4f1947080680e0a5bffc0",
+        "quality": 85,
+        "unwatermarkedSha256": "0578924909e3e4365a7765e47bed2fafe9326a47bd8ce89ce5c00eb2d939ad03",
+        "watermarkRecord": "site-src/_data/product-watermarks.json"
+      },
+      "detail": {
+        "path": "assets/products/guanya-2026/diaphragm-deluge-valves-deluge-flanged-user-20261025-1600.webp",
+        "width": 1600,
+        "height": 1591,
+        "bytes": 190430,
+        "sha256": "15359b45653d1c31874aa7e3b156fe170c81ddc1d36060e29a54636b85830f7a",
+        "quality": 85,
+        "unwatermarkedSha256": "0ddd5952319542e2bfde58486f233660abeedcb1768c71df19a858e55fa10ee8",
+        "watermarkRecord": "site-src/_data/product-watermarks.json"
+      }
     }
   ],
   "additionalAuthorization": {
@@ -1890,6 +3605,145 @@
       "date": "2026-10-10",
       "verbatim": "这几个加到隐蔽所的图片里面，底部的图片",
       "record": "docs/reviews/concealed-photos-20261010/photo-records.json"
+    },
+    {
+      "date": "2026-10-24",
+      "verbatim": "这个加到k80快速的下面图片里面",
+      "record": "docs/release/k80-quick-photos-20261024/image-rights-confirmation.json",
+      "sourceFiles": [
+        "DSC_5844.jpg",
+        "DSC_5845.jpg",
+        "DSC_5848.jpg",
+        "DSC_5851.jpg",
+        "DSC_5854.jpg",
+        "DSC_5836.jpg"
+      ]
+    },
+    {
+      "date": "2026-10-24",
+      "verbatim": "这个是k115标注响应的68度图，你弄到2级分组和详情页里面去；这个是115快速的68度",
+      "record": "docs/release/k115-sprinklers-20261024/image-rights-confirmation.json",
+      "sourceFiles": [
+        "DSC_5904.jpg",
+        "DSC_5905.jpg",
+        "DSC_5906.jpg",
+        "DSC_5887.jpg",
+        "DSC_5888.jpg",
+        "DSC_5889.jpg"
+      ]
+    },
+    {
+      "date": "2026-10-24",
+      "confirmation": "User confirmed ordinary K115 quick-response 68°C classification for the three K-ZST photographs; keep EC separate.",
+      "record": "docs/reviews/k115-quick-ec-separation-20261024/reviewed-changes.json",
+      "sourceFiles": [
+        "DSC_5887.jpg",
+        "DSC_5888.jpg",
+        "DSC_5889.jpg"
+      ],
+      "routeId": "product:k115-quick-response-fire-sprinkler"
+    },
+    {
+      "date": "2026-10-24",
+      "verbatim": "这个加到115快速的详情页下面的图片中",
+      "record": "docs/release/k115-quick-photos-20261024/image-rights-confirmation.json",
+      "routeId": "product:k115-quick-response-fire-sprinkler",
+      "sourceFiles": [
+        "DSC_5892.jpg",
+        "DSC_5874.jpg",
+        "DSC_5877.jpg",
+        "DSC_5880.jpg",
+        "DSC_5883.jpg",
+        "DSC_5886.jpg"
+      ]
+    },
+    {
+      "date": "2026-10-24",
+      "verbatim": "这个加到115标注的详情页",
+      "interpretation": "K115 standard response; user typo resolved from prior usage and Q5A source markings",
+      "record": "docs/release/k115-standard-photos-20261024/image-rights-confirmation.json",
+      "routeId": "product:k115-standard-response-fire-sprinkler",
+      "sourceFiles": [
+        "DSC_5895.jpg",
+        "DSC_5898.jpg",
+        "DSC_5901.jpg",
+        "DSC_5902.jpg",
+        "DSC_5909.jpg",
+        "DSC_5910.jpg"
+      ]
+    },
+    {
+      "date": "2026-10-24",
+      "verbatim": "这个k80的，放到详情页，是不同的温度型号",
+      "record": "docs/release/k80-standard-concealed-temperatures-20261024/image-rights-confirmation.json",
+      "routeId": "product:k80-standard-response-concealed-sprinkler",
+      "sourceFiles": [
+        "DSC_5934.jpg",
+        "DSC_5933.jpg",
+        "DSC_5925.jpg",
+        "DSC_5923.jpg",
+        "concealed-k80-93c-covered.jpg",
+        "concealed-k80-93c-exposed.jpg",
+        "concealed-k80-141c-covered.jpg",
+        "concealed-k80-141c-exposed.jpg"
+      ]
+    },
+    {
+      "date": "2026-10-24",
+      "verbatim": "这个是k80快速的",
+      "record": "docs/release/k80-quick-concealed-temperatures-20261024/image-rights-confirmation.json",
+      "routeId": "product:k80-quick-response-concealed-sprinkler",
+      "sourceFiles": [
+        "DSC_5954.jpg",
+        "DSC_5953.jpg",
+        "DSC_5950.jpg",
+        "DSC_5949.jpg",
+        "DSC_5942.jpg",
+        "DSC_5941.jpg",
+        "DSC_5938.jpg",
+        "DSC_5937.jpg"
+      ]
+    },
+    {
+      "date": "2026-10-24",
+      "verbatim": "这个是115标准",
+      "record": "docs/release/k115-standard-concealed-temperatures-20261024/image-rights-confirmation.json",
+      "routeId": "product:k115-standard-response-concealed-sprinkler",
+      "sourceFiles": [
+        "concealed-k115-57c-covered.jpg",
+        "concealed-k115-57c-exposed.jpg",
+        "DSC_5921.jpg",
+        "DSC_5920.jpg",
+        "DSC_5915.jpg",
+        "DSC_5914.jpg",
+        "DSC_5913.jpg",
+        "DSC_5912.jpg"
+      ]
+    },
+    {
+      "date": "2026-10-25",
+      "verbatim": "这个是115快速",
+      "record": "docs/release/k115-quick-concealed-temperatures-20261024/image-rights-confirmation.json",
+      "routeId": "product:k115-quick-response-concealed-sprinkler",
+      "sourceFiles": [
+        "DSC_5952.jpg",
+        "DSC_5951.jpg",
+        "DSC_5948.jpg",
+        "DSC_5947.jpg",
+        "DSC_5940.jpg",
+        "DSC_5939.jpg",
+        "DSC_5936.jpg",
+        "DSC_5935.jpg"
+      ]
+    },
+    {
+      "date": "2026-10-25",
+      "verbatim": "按照水雾喷头分组吧",
+      "routeId": "product:water-mist-nozzles",
+      "sourceFiles": [
+        "DSC_5793.jpg"
+      ],
+      "record": "docs/release/water-mist-photo-20261025/image-rights-confirmation.json"
     }
   ]
 }

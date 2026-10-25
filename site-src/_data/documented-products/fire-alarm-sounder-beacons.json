@@ -17,13 +17,27 @@
       "TX3307A-火灾声光警报器"
     ],
     "unresolved": [
-      "各型号供电、工作电流、声压及测距条件、光输出、防护等级、编码与接线资料待核实。"
+      "TX3307（不带A）电源、工作电流、声压、底座与接线仍缺同型号说明书，不使用TX3307A参数代替。",
+      "TX3307A光强/覆盖性能与防护等级未见本次说明书明示；实际控制器兼容按项目核对。"
     ],
     "notes": [
       "同系列页仅作并列型号选择，未把TX3307与TX3307A当作互换件。",
       "TX3307源页混入A型照片，来源记录已排除；不交叉使用底座接线。",
-      "未将二总线当作无线；未采用缺测距条件的75–105 dB。"
-    ]
+      "未将二总线当作无线；未采用缺测距条件的75–105 dB。",
+      "2026-10-25：已按同型号官方说明书补充参数；此前缺失参数的备注由本次核验结果更新。"
+    ],
+    "webResearch": {
+      "reviewedAt": "2026-10-25",
+      "manufacturer": "Tanda",
+      "model": "TX3307A",
+      "url": "https://www.tandatech.com/productinfo?id=1801040103",
+      "manual": "Ver.1.0, 2021.11",
+      "pages": [
+        1
+      ],
+      "evidenceDirectory": "docs/reviews/web-spec-research-20261025",
+      "scope": "Exact model only; no certification or universal compatibility claim."
+    }
   },
   "publication": {
     "status": "release-candidate",
@@ -68,7 +82,8 @@
   "specifications": [
     {
       "label": "spec0Label",
-      "value": "spec0Value"
+      "value": "spec0Value",
+      "technical": true
     },
     {
       "label": "spec1Label",
@@ -80,7 +95,47 @@
     },
     {
       "label": "spec3Label",
-      "value": "spec3Value"
+      "value": "spec3Value",
+      "technical": true
+    },
+    {
+      "label": "verifiedVoltageLabel",
+      "value": "verifiedVoltageValue"
+    },
+    {
+      "label": "verifiedCurrentLabel",
+      "value": "verifiedCurrentValue"
+    },
+    {
+      "label": "verifiedSoundLabel",
+      "value": "verifiedSoundValue"
+    },
+    {
+      "label": "verifiedFlashLabel",
+      "value": "verifiedFlashValue",
+      "technical": true
+    },
+    {
+      "label": "verifiedBusLabel",
+      "value": "verifiedBusValue"
+    },
+    {
+      "label": "verifiedBaseLabel",
+      "value": "verifiedBaseValue",
+      "technical": true
+    },
+    {
+      "label": "verifiedDimensionsLabel",
+      "value": "verifiedDimensionsValue",
+      "technical": true
+    },
+    {
+      "label": "verifiedAmbientLabel",
+      "value": "verifiedAmbientValue"
+    },
+    {
+      "label": "verifiedHumidityLabel",
+      "value": "verifiedHumidityValue"
     }
   ],
   "modelColumns": [
@@ -143,7 +198,7 @@
       "galleryBody": "Select an image to view the pictured product or configuration.",
       "specifications": "Specifications",
       "specificationsTitle": "Product specifications",
-      "specificationsBody": "Use the specifications together with the configuration table below.",
+      "specificationsBody": "The electrical, acoustic and dimensional specifications marked TX3307A apply to that model only. Select TX3307 and TX3307A separately.",
       "availableModels": "Models & configurations",
       "modelsTitle": "Models & configurations",
       "modelsBody": "Match the product reference and selection details to your order.",
@@ -189,11 +244,29 @@
       "model0Selection": "Confirm the TX3307-specific base, wiring and panel compatibility.",
       "model1Name": "Sounder beacon — TX3307A",
       "model1Reference": "TX3307A",
-      "model1Selection": "Confirm the TX3307A-specific base, wiring and panel compatibility.",
+      "model1Selection": "Non-polarized two-wire bus, 24 V DC nominal, TX3307-DZ base.",
       "selection0Label": "Control panel compatibility",
       "selection0Body": "Provide the control panel model, protocol and existing device references so compatibility can be checked before supply.",
       "selection1Label": "Notification design",
-      "selection1Body": "Specify the exact model, installation environment and required sound and visual performance for documentation review."
+      "selection1Body": "Specify the exact model, installation environment and required sound and visual performance for documentation review.",
+      "verifiedVoltageLabel": "TX3307A — bus supply",
+      "verifiedVoltageValue": "24 V DC nominal; 15–28 V DC",
+      "verifiedCurrentLabel": "TX3307A — current",
+      "verifiedCurrentValue": "Standby ≤0.4 mA; activated ≤3 mA",
+      "verifiedSoundLabel": "TX3307A — sound level",
+      "verifiedSoundValue": "75–105 dB(A) at 3 m directly in front, after stabilization",
+      "verifiedFlashLabel": "TX3307A — flash frequency",
+      "verifiedFlashValue": "1.0–1.8 Hz",
+      "verifiedBusLabel": "TX3307A — bus connection",
+      "verifiedBusValue": "Non-polarized two-wire bus",
+      "verifiedBaseLabel": "TX3307A — matching base",
+      "verifiedBaseValue": "TX3307-DZ",
+      "verifiedDimensionsLabel": "TX3307A — dimensions including base",
+      "verifiedDimensionsValue": "121 × 86 × 45 mm",
+      "verifiedAmbientLabel": "TX3307A — operating temperature",
+      "verifiedAmbientValue": "0 to +55 °C",
+      "verifiedHumidityLabel": "TX3307A — relative humidity",
+      "verifiedHumidityValue": "≤95% RH, non-condensing"
     },
     "ar": {
       "onThisPage": "في هذه الصفحة",
@@ -202,7 +275,7 @@
       "galleryBody": "اختر صورة لعرض المنتج أو التكوين الظاهر فيها.",
       "specifications": "المواصفات",
       "specificationsTitle": "مواصفات المنتج",
-      "specificationsBody": "استخدم المواصفات مع جدول التكوينات أدناه.",
+      "specificationsBody": "تنطبق المواصفات الكهربائية والصوتية والأبعاد الموسومة TX3307A على هذا الطراز فقط. يُختار TX3307 وTX3307A كلٌ على حدة.",
       "availableModels": "الموديلات والتكوينات",
       "modelsTitle": "الموديلات والتكوينات",
       "modelsBody": "طابق مرجع المنتج وتفاصيل الاختيار مع طلبك.",
@@ -248,11 +321,29 @@
       "model0Selection": "أكد القاعدة والتوصيلات وتوافق اللوحة الخاصة بطراز TX3307.",
       "model1Name": "جهاز إنذار صوتي وضوئي — TX3307A",
       "model1Reference": "TX3307A",
-      "model1Selection": "أكد القاعدة والتوصيلات وتوافق اللوحة الخاصة بطراز TX3307A.",
+      "model1Selection": "ناقل بسلكين دون قطبية، 24 V DC اسمي، قاعدة TX3307-DZ.",
       "selection0Label": "توافق لوحة التحكم",
       "selection0Body": "قدم طراز لوحة التحكم والبروتوكول ومراجع الأجهزة الحالية للتحقق من التوافق قبل التوريد.",
       "selection1Label": "تصميم التنبيه",
-      "selection1Body": "حدد الطراز الدقيق وبيئة التركيب والأداء الصوتي والضوئي المطلوب لمراجعة الوثائق."
+      "selection1Body": "حدد الطراز الدقيق وبيئة التركيب والأداء الصوتي والضوئي المطلوب لمراجعة الوثائق.",
+      "verifiedVoltageLabel": "TX3307A — تغذية الناقل",
+      "verifiedVoltageValue": "⁦24 V DC⁩ اسمي؛ ⁦15–28 V DC⁩",
+      "verifiedCurrentLabel": "TX3307A — التيار",
+      "verifiedCurrentValue": "استعداد ⁦≤0.4 mA⁩؛ تشغيل ⁦≤3 mA⁩",
+      "verifiedSoundLabel": "TX3307A — مستوى الصوت",
+      "verifiedSoundValue": "⁦75–105 dB(A)⁩ على بعد ⁦3 m⁩ أمام الجهاز مباشرة، بعد الاستقرار",
+      "verifiedFlashLabel": "TX3307A — تردد الوميض",
+      "verifiedFlashValue": "1.0–1.8 Hz",
+      "verifiedBusLabel": "TX3307A — توصيل الناقل",
+      "verifiedBusValue": "ناقل بسلكين دون قطبية",
+      "verifiedBaseLabel": "TX3307A — القاعدة المطابقة",
+      "verifiedBaseValue": "TX3307-DZ",
+      "verifiedDimensionsLabel": "TX3307A — الأبعاد شاملة القاعدة",
+      "verifiedDimensionsValue": "121 × 86 × 45 mm",
+      "verifiedAmbientLabel": "TX3307A — درجة حرارة التشغيل",
+      "verifiedAmbientValue": "⁦0⁩ إلى ⁦+55 °C⁩",
+      "verifiedHumidityLabel": "TX3307A — الرطوبة النسبية",
+      "verifiedHumidityValue": "⁦≤95% RH⁩، دون تكاثف"
     }
   }
 }

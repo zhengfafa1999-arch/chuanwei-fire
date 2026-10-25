@@ -1,0 +1,115 @@
+{
+  "status": "confirmed",
+  "confirmedDate": "2026-10-24",
+  "scope": "CHUANWEI FIRE official website public display",
+  "authority": "User supplied all eight photographs, confirmed the four concealed sprinkler K-factor/response groups, and requested paired category images. Records requested website use, not independent licensing verification.",
+  "userRequests": [
+    "这个是隐蔽式k80的，你把这个组合成一张图，放到二级目录，当产品图",
+    "这个k115标注响应的，和上面一样处理，上面的也是标注响应",
+    "这个是k80快速响应",
+    "这个是115快速"
+  ],
+  "facts": {
+    "temperatureC": 68,
+    "basis": "visible source model markings; user identified K80/K115 and standard/quick response",
+    "scope": "Category-image replacement only; no technical specification or detail-model changes."
+  },
+  "images": [
+    {
+      "productId": "concealed-pendent-fire-sprinkler",
+      "seriesId": "k80-standard-concealed",
+      "path": "assets/products/concealed-series/k80-standard-concealed-covered-and-exposed.webp",
+      "sha256": "74a0e50122b8670c3b188051853e059b07aded6bf9dfbd6298861b97f6e85506",
+      "unwatermarkedSha256": "6c1439cb48f1cbde13fcc0454cade912f18e03cd9f67240851966fd3c665486f",
+      "sources": [
+        {
+          "role": "covered",
+          "originalPath": "C:\\Users\\ZHENGF~1\\AppData\\Local\\Temp\\codex-clipboard-e10dadcf-474b-4b34-8fd7-2f30519247c4.jpg",
+          "backup": "docs/release/concealed-series-composites-20261024/source/k80-standard-concealed-covered.jpg",
+          "sha256": "fdcb7b0371405b3f8ee8f35f9688aafabf3da11a414be8fbcfab405ffb67ca51"
+        },
+        {
+          "role": "exposed",
+          "originalPath": "C:\\Users\\ZHENGF~1\\AppData\\Local\\Temp\\codex-clipboard-ff9d9949-76db-457d-be6c-3ee03fddb477.jpg",
+          "backup": "docs/release/concealed-series-composites-20261024/source/k80-standard-concealed-exposed.jpg",
+          "sha256": "cde1b1a0d2f550ea5a69f98ba73cbd92cf3172ea62813311a830f677a460f36e"
+        }
+      ],
+      "compositionManifest": "docs/release/concealed-series-composites-20261024/composition-manifest.json",
+      "publishedTransform": "CHUANWEI FIRE text watermark in clear whitespace",
+      "watermarkRecord": "site-src/_data/product-watermarks.json"
+    },
+    {
+      "productId": "concealed-pendent-fire-sprinkler",
+      "seriesId": "k115-standard-concealed",
+      "path": "assets/products/concealed-series/k115-standard-concealed-covered-and-exposed.webp",
+      "sha256": "fdb52efccef2600c64945d793614d54ccf32e29a14806433b74afac3b4e3bd68",
+      "unwatermarkedSha256": "cc1d7cc688e3057ae03ef2fa564554b35ca18bba966c589d33bf59eaeaa8de6c",
+      "sources": [
+        {
+          "role": "covered",
+          "originalPath": "C:\\Users\\ZHENGF~1\\AppData\\Local\\Temp\\codex-clipboard-775482fc-3390-4803-afdf-38c8367c9e5e.jpg",
+          "backup": "docs/release/concealed-series-composites-20261024/source/k115-standard-concealed-covered.jpg",
+          "sha256": "24609f82b6e8d518672fa3db356a256396ab98a02f71c1cb95d9b747549ac7f5"
+        },
+        {
+          "role": "exposed",
+          "originalPath": "C:\\Users\\ZHENGF~1\\AppData\\Local\\Temp\\codex-clipboard-d7a1ab77-d629-470b-abe4-afe87bc019a4.jpg",
+          "backup": "docs/release/concealed-series-composites-20261024/source/k115-standard-concealed-exposed.jpg",
+          "sha256": "98869016f14eb404f4c12f0c588562723a3f10b684f6e13a094ad9030cce715d"
+        }
+      ],
+      "compositionManifest": "docs/release/concealed-series-composites-20261024/composition-manifest.json",
+      "publishedTransform": "CHUANWEI FIRE text watermark in clear whitespace",
+      "watermarkRecord": "site-src/_data/product-watermarks.json"
+    },
+    {
+      "productId": "concealed-pendent-fire-sprinkler",
+      "seriesId": "k80-quick-concealed",
+      "path": "assets/products/concealed-series/k80-quick-concealed-covered-and-exposed.webp",
+      "sha256": "d1dca2a9588ffd54bf5fa80a5e1c962c9a6468ec8ae78ba529bae91773c2ef58",
+      "unwatermarkedSha256": "184907af1ed77834a24056a75eedf126a8a5f0dc5a3f94215e02aae491bb7113",
+      "sources": [
+        {
+          "role": "covered",
+          "originalPath": "C:\\Users\\ZHENGF~1\\AppData\\Local\\Temp\\codex-clipboard-5cf6752b-fc81-43e0-b449-11c01b1ac134.jpg",
+          "backup": "docs/release/concealed-series-composites-20261024/source/k80-quick-concealed-covered.jpg",
+          "sha256": "307788895b9d22bb1f6d285507fdd0bc16472b4e1ce002689d39ce55244d32e8"
+        },
+        {
+          "role": "exposed",
+          "originalPath": "C:\\Users\\ZHENGF~1\\AppData\\Local\\Temp\\codex-clipboard-710420e3-f9c9-454a-9b33-849af4da0697.jpg",
+          "backup": "docs/release/concealed-series-composites-20261024/source/k80-quick-concealed-exposed.jpg",
+          "sha256": "21014ca1cb50ea1576f698bf473c67a4146f0daf93fbf61258c70b5b979cd6a2"
+        }
+      ],
+      "compositionManifest": "docs/release/concealed-series-composites-20261024/composition-manifest.json",
+      "publishedTransform": "CHUANWEI FIRE text watermark in clear whitespace",
+      "watermarkRecord": "site-src/_data/product-watermarks.json"
+    },
+    {
+      "productId": "concealed-pendent-fire-sprinkler",
+      "seriesId": "k115-quick-concealed",
+      "path": "assets/products/concealed-series/k115-quick-concealed-covered-and-exposed.webp",
+      "sha256": "334260eb72c532721a208fc75913477f6d40f13dfcee099a91166248cdede322",
+      "unwatermarkedSha256": "0d6a0687db845f3fcdc6ef32c727337d3d9fdd4b4789248a877c01da9065f23f",
+      "sources": [
+        {
+          "role": "covered",
+          "originalPath": "C:\\Users\\ZHENGF~1\\AppData\\Local\\Temp\\codex-clipboard-ea4dbf99-652f-4d5a-a5f8-a8e119e1e25a.jpg",
+          "backup": "docs/release/concealed-series-composites-20261024/source/k115-quick-concealed-covered.jpg",
+          "sha256": "9198140d47bdb08c8a366a587c810db98f897ce02b091dd1577c9398ff772778"
+        },
+        {
+          "role": "exposed",
+          "originalPath": "C:\\Users\\ZHENGF~1\\AppData\\Local\\Temp\\codex-clipboard-da7ab226-1946-4c04-81eb-bb3548da724e.jpg",
+          "backup": "docs/release/concealed-series-composites-20261024/source/k115-quick-concealed-exposed.jpg",
+          "sha256": "385eaa278b1eb67bcbef67c49528e2a8d972f78f34d72a7b9a52ac7bd1dbf75d"
+        }
+      ],
+      "compositionManifest": "docs/release/concealed-series-composites-20261024/composition-manifest.json",
+      "publishedTransform": "CHUANWEI FIRE text watermark in clear whitespace",
+      "watermarkRecord": "site-src/_data/product-watermarks.json"
+    }
+  ]
+}

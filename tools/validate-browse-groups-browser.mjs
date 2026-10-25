@@ -3,9 +3,16 @@ import http from 'node:http';
 import os from 'node:os';
 import path from 'node:path';
 import {spawn} from 'node:child_process';
+import { PRODUCT_BROWSE_GROUPS } from '../site-src/_data/productBrowseGroups.js';
+const groupCount = PRODUCT_BROWSE_GROUPS.length;
+const sprinklerGroup = 'sprinklers-nozzles';
+const sprinklerMembers = ['sprinklers', 'foam-nozzles'];
 
 const root = process.cwd();
-const evidence = path.join(root, 'docs/evidence/product-browse-groups-20261018');
+const evidenceArgument = process.argv.find(argument => argument.startsWith('--evidence-dir='));
+const evidence = evidenceArgument
+  ? path.resolve(root, evidenceArgument.slice('--evidence-dir='.length))
+  : path.join(root, 'docs/evidence/product-browse-groups-20261018');
 const valveMembers = ['system-valves', 'butterfly-valves', 'gate-valves', 'pipeline-valves-strainers'];
 const valveGroup = 'valves-strainers';
 const accessories = 'pressure-gauges-accessories';
@@ -139,10 +146,12 @@ async function menuCheck(client,locale,viewport){
     return {count:groups.length,ids:groups.map(group=>group.dataset.productBrowseGroup),valveCount:valves.length,accessoryCount:accessories.length,
       valveName:valves[0]?.querySelector('summary').textContent.trim(),accessoryName:accessories[0]?.querySelector('summary').textContent.trim(),
       members:valves[0]?[...valves[0].querySelectorAll('[data-product-subcategory]')].map(section=>section.dataset.productSubcategory):[],
+      sprinklerMembers:groups.find(group=>group.dataset.productBrowseGroup==='sprinklers-nozzles')?[...groups.find(group=>group.dataset.productBrowseGroup==='sprinklers-nozzles').querySelectorAll('[data-product-subcategory]')].map(section=>section.dataset.productSubcategory):[],
       valveHref:valves[0]?.querySelector('.global-product-category').href,accessoriesInsideValve:!!valves[0]?.querySelector('[data-product-browse-group="pressure-gauges-accessories"]'),open:menu.open};
   })()`);
-  assert(state.count===15&&state.valveCount===1&&state.accessoryCount===1&&state.open,`Menu group counts: ${JSON.stringify(state)}`);
+  assert(state.count===groupCount&&state.valveCount===1&&state.accessoryCount===1&&state.open,`Menu group counts: ${JSON.stringify(state)}`);
   assert(same(state.members,valveMembers)&&!state.ids.some(id=>valveMembers.includes(id))&&!state.accessoriesInsideValve,`Menu nesting: ${JSON.stringify(state)}`);
+  assert(same(state.sprinklerMembers,sprinklerMembers)&&state.ids.includes(sprinklerGroup)&&!state.ids.some(id=>sprinklerMembers.includes(id)),'Foam nozzles must be nested under the sprinkler menu');
   assert(new URL(state.valveHref).searchParams.get('category')===valveGroup,'Valve menu parent must filter the directory');
   if(locale==='en')assert(state.valveName==='Valves & Strainers'&&state.accessoryName==='Accessories',`English menu labels: ${JSON.stringify(state)}`);
   await layout(client);
@@ -190,12 +199,13 @@ try{
     })()`);
     assert(structure.category===valveGroup&&same(structure.members,valveMembers),'Parent group query or member mapping failed');
     assert(structure.parentTag==='OPTGROUP'&&same(structure.optgroupOptions,[valveGroup,...valveMembers]),'Original leaf options must remain within the valve optgroup');
-    assert(structure.shortcutIds.length===15&&new Set(structure.shortcutIds).size===15&&structure.shortcutIds.includes(valveGroup)&&structure.shortcutIds.includes(accessories)&&!structure.shortcutIds.some(id=>valveMembers.includes(id)),'Directory shortcuts must show 15 top-level groups');
+    assert(structure.shortcutIds.length===groupCount&&new Set(structure.shortcutIds).size===groupCount&&structure.shortcutIds.includes(valveGroup)&&structure.shortcutIds.includes(accessories)&&!structure.shortcutIds.some(id=>valveMembers.includes(id)),'Directory shortcuts must show the current top-level groups');
     if(locale==='en')assert(structure.accessoriesLabel==='Accessories','Accessories selector label was not updated');
     const valveExpected=structure.cards.filter(card=>valveMembers.includes(card.family));
     const accessoryExpected=structure.cards.filter(card=>card.family===accessories);
     const gateExpected=structure.cards.filter(card=>card.family==='gate-valves');
-    assert(accessoryExpected.length===3,'Accessories must contain exactly the 3 pressure/gauge items');
+    assert(accessoryExpected.length===4 && accessoryExpected.filter(card=>card.href.includes('sprinkler-escutcheons-decorative-covers')).length===1,'Accessories must contain the 3 pressure/gauge items and one sprinkler accessory series');
+    assert(!structure.cards.some(card=>card.family==='sprinklers' && card.href.includes('sprinkler-escutcheons-decorative-covers')),'Sprinkler accessories must not retain a duplicate sprinkler-series card');
     const initialLayout=await layout(client);
     assert(initialLayout.lang===locale&&initialLayout.dir===(locale==='ar'?'rtl':'ltr'),'Directory locale/direction mismatch');
     await screenshot(client,`${locale}-${viewport.id}-valves-first-page.png`);
@@ -226,23 +236,44 @@ try{
     const legacyLeaf=await walkPages(client,['gate-valves'],gateExpected,`${activeScenario}: legacy gate leaf`);
     await evaluate(client,"document.querySelector('.finder-shortcuts a[href=\"#valves-strainers\"]').click()");
     const shortcut=await snapshot(client);assert(shortcut.category===valveGroup&&!shortcut.query&&shortcut.page===1,'Valve shortcut did not select parent group');
+    assert(structure.shortcutIds.includes(sprinklerGroup)&&!structure.shortcutIds.some(id=>sprinklerMembers.includes(id)),'Standalone sprinkler/foam shortcut remains');
+    await navigate(client,`${origin}${directory}?category=${sprinklerGroup}`);await waitForFinder(client);
+    assert((await snapshot(client)).category===sprinklerGroup,'Sprinkler parent URL failed');
+    const sprinklerOptions=await evaluate(client,`[...document.querySelector('option[value="sprinklers-nozzles"]').parentElement.querySelectorAll('option')].map(option=>option.value)`);
+    assert(same(sprinklerOptions,[sprinklerGroup,...sprinklerMembers]),'Sprinkler optgroup must retain both original leaf filters');
+    const sprinklerExpected=structure.cards.filter(card=>sprinklerMembers.includes(card.family));
+    assert(sprinklerExpected.length===19,'Expected 17 sprinkler series and 2 foam products');
+    const sprinklerPagination=await walkPages(client,sprinklerMembers,sprinklerExpected,`${activeScenario}: sprinkler group`);
+    await screenshot(client,`${locale}-${viewport.id}-sprinklers-with-foam.png`);
+    for(const [query,family] of [['ZSPTX-80','foam-nozzles'],['T-ZSTZ161-68°C Q5','sprinklers']]){
+      await selectCategory(client,sprinklerGroup,query);
+      const results=await snapshot(client);
+      assert(results.cards.length===1&&results.cards[0].family===family,`Combined sprinkler search failed: ${query}`);
+    }
+    await navigate(client,`${origin}${directory}?category=foam-nozzles`);await waitForFinder(client);
+    const foamExpected=structure.cards.filter(card=>card.family==='foam-nozzles');
+    assert((await snapshot(client)).category==='foam-nozzles'&&foamExpected.length===2,'Original foam category URL failed');
+    const legacyFoam=await walkPages(client,['foam-nozzles'],foamExpected,`${activeScenario}: legacy foam leaf`);
+    await evaluate(client,`document.querySelector('.finder-shortcuts a[href="#sprinklers-nozzles"]').click()`);
+    assert((await snapshot(client)).category===sprinklerGroup,'Sprinkler shortcut did not select combined parent');
     const menu=await menuCheck(client,locale,viewport);
-    checks.push({scenario:activeScenario,status:'PASS',directory,rawFamilies:18,shortcuts:15,groupPagination,modelSearch:{count:modelSearch.cards.length,families:modelSearch.cards.map(card=>card.family)},accessoryResults,legacyLeaf,reloadAndDetailBack:'PASS',menu});
-    console.log(`Browse groups PASS: ${activeScenario}; ${groupPagination.productCount} valves across ${groupPagination.pages.length} pages; 3 accessories.`);
+    checks.push({scenario:activeScenario,status:'PASS',directory,rawFamilies:18,shortcuts:groupCount,groupPagination,sprinklerPagination,legacyFoam,modelSearch:{count:modelSearch.cards.length,families:modelSearch.cards.map(card=>card.family)},accessoryResults,legacyLeaf,reloadAndDetailBack:'PASS',menu});
+    console.log(`Browse groups PASS: ${activeScenario}; ${groupPagination.productCount} valves across ${groupPagination.pages.length} pages; ${accessoryExpected.length} accessories.`);
   }
   const homeChecks=[];
   for(const [locale,file] of [['en','index.html'],['ar','ar/index.html'],['zh','zh/index.html']]){
     activeScenario=`home/${locale}`;
     await client.send('Emulation.setDeviceMetricsOverride',{width:1440,height:1000,deviceScaleFactor:1,mobile:false});
     await navigate(client,`${origin}/${file}`);
-    const state=await evaluate(client,`(()=>{const cards=[...document.querySelectorAll('[data-home-family]')];const options=[...document.querySelectorAll('[data-home-family-option]')];return {ids:cards.map(card=>card.dataset.homeFamily),optionIds:options.map(option=>option.dataset.homeFamilyOption),valveHref:cards.find(card=>card.dataset.homeFamily==='valves-strainers')?.href,accessoryHref:cards.find(card=>card.dataset.homeFamily==='pressure-gauges-accessories')?.href}})()`);
-    assert(state.ids.length===15&&new Set(state.ids).size===15&&state.ids.includes(valveGroup)&&state.ids.includes(accessories)&&!state.ids.some(id=>valveMembers.includes(id)),`${locale} homepage group cards mismatch`);
+    const state=await evaluate(client,`(()=>{const cards=[...document.querySelectorAll('[data-home-family]')];const options=[...document.querySelectorAll('[data-home-family-option]')];return {ids:cards.map(card=>card.dataset.homeFamily),optionIds:options.map(option=>option.dataset.homeFamilyOption),sprinklerHref:cards.find(card=>card.dataset.homeFamily==='sprinklers-nozzles')?.href,valveHref:cards.find(card=>card.dataset.homeFamily==='valves-strainers')?.href,accessoryHref:cards.find(card=>card.dataset.homeFamily==='pressure-gauges-accessories')?.href}})()`);
+    assert(state.ids.length===groupCount&&new Set(state.ids).size===groupCount&&state.ids.includes(valveGroup)&&state.ids.includes(accessories)&&!state.ids.some(id=>valveMembers.includes(id)),`${locale} homepage group cards mismatch`);
+    assert(state.ids.includes(sprinklerGroup)&&!state.ids.some(id=>sprinklerMembers.includes(id))&&new URL(state.sprinklerHref).searchParams.get('category')===sprinklerGroup,`${locale} homepage sprinkler grouping failed`);
     assert(same(state.optionIds,state.ids),`${locale} homepage inquiry choices do not match browse groups`);
     assert(new URL(state.valveHref).searchParams.get('category')===valveGroup&&new URL(state.accessoryHref).searchParams.get('category')===accessories,`${locale} homepage links lost group filters`);
     await layout(client);
     await evaluate(client,"document.querySelector('[data-home-family]').scrollIntoView({block:'start'})");
     await screenshot(client,`${locale}-home-browse-groups.png`);
-    homeChecks.push({locale,file,status:'PASS',cards:15,valves:1,accessories:1});
+    homeChecks.push({locale,file,status:'PASS',cards:groupCount,valves:1,accessories:1});
   }
   const result={status:'PASS',generatedAt:new Date().toISOString(),browser:version.product,staticChecks,checks,homeChecks,screenshots};
   fs.writeFileSync(path.join(evidence,'browser-validation.json'),JSON.stringify(result,null,2)+'\n');

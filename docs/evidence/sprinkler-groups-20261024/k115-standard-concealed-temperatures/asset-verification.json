@@ -1,0 +1,29 @@
+{
+  "status": "PASS",
+  "routeId": "product:k115-standard-response-concealed-sprinkler",
+  "temperaturesC": [
+    57,
+    79,
+    93,
+    141
+  ],
+  "response": "standard / Q5A",
+  "galleryCount": 8,
+  "newDerivativeAssets": 12,
+  "reusedDerivativeAssets": 4,
+  "preservedPriorProductAssets": 258,
+  "mainGalleryCount": 3,
+  "technicalProductDataUnchanged": true,
+  "priorPhotographRecordsPreserved": 88,
+  "referenceOrder": [
+    "concealed-k115-57c-covered.jpg",
+    "concealed-k115-57c-exposed.jpg",
+    "DSC_5921.jpg",
+    "DSC_5920.jpg",
+    "DSC_5915.jpg",
+    "DSC_5914.jpg",
+    "DSC_5913.jpg",
+    "DSC_5912.jpg"
+  ],
+  "noOtherSeriesPhotographsInLowerGallery": true
+}

@@ -1,0 +1,102 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "path": "products/消防喷头/k80-standard-response-concealed-sprinkler.html",
+      "locale": "en",
+      "seriesId": "k80-standard-concealed",
+      "status": "PASS",
+      "model": "ZSTDY80-68°C Q5A",
+      "configurationIds": [
+        "zstdy80-57-q5a",
+        "zstdy80-79-q5a",
+        "zstdy80-141-q5a"
+      ],
+      "noOtherSeriesImagesOrDetailLinksInMain": true
+    },
+    {
+      "path": "ar/products/k80-standard-response-concealed-sprinkler/index.html",
+      "locale": "ar",
+      "seriesId": "k80-standard-concealed",
+      "status": "PASS",
+      "model": "ZSTDY80-68°C Q5A",
+      "configurationIds": [
+        "zstdy80-57-q5a",
+        "zstdy80-79-q5a",
+        "zstdy80-141-q5a"
+      ],
+      "noOtherSeriesImagesOrDetailLinksInMain": true
+    },
+    {
+      "path": "products/消防喷头/k80-quick-response-concealed-sprinkler.html",
+      "locale": "en",
+      "seriesId": "k80-quick-concealed",
+      "status": "PASS",
+      "model": "ZSTDY80-68°C Q3A",
+      "configurationIds": [
+        "zstdy80-93-q3a"
+      ],
+      "noOtherSeriesImagesOrDetailLinksInMain": true
+    },
+    {
+      "path": "ar/products/k80-quick-response-concealed-sprinkler/index.html",
+      "locale": "ar",
+      "seriesId": "k80-quick-concealed",
+      "status": "PASS",
+      "model": "ZSTDY80-68°C Q3A",
+      "configurationIds": [
+        "zstdy80-93-q3a"
+      ],
+      "noOtherSeriesImagesOrDetailLinksInMain": true
+    },
+    {
+      "path": "products/消防喷头/k115-standard-response-concealed-sprinkler.html",
+      "locale": "en",
+      "seriesId": "k115-standard-concealed",
+      "status": "PASS",
+      "model": "ZSTDY115-68°C Q5A",
+      "configurationIds": [
+        "zstdy115-57-q5a",
+        "zstdy115-79-q5a",
+        "zstdy115-93-q5a"
+      ],
+      "noOtherSeriesImagesOrDetailLinksInMain": true
+    },
+    {
+      "path": "ar/products/k115-standard-response-concealed-sprinkler/index.html",
+      "locale": "ar",
+      "seriesId": "k115-standard-concealed",
+      "status": "PASS",
+      "model": "ZSTDY115-68°C Q5A",
+      "configurationIds": [
+        "zstdy115-57-q5a",
+        "zstdy115-79-q5a",
+        "zstdy115-93-q5a"
+      ],
+      "noOtherSeriesImagesOrDetailLinksInMain": true
+    },
+    {
+      "path": "products/消防喷头/k115-quick-response-concealed-sprinkler.html",
+      "locale": "en",
+      "seriesId": "k115-quick-concealed",
+      "status": "PASS",
+      "model": "ZSTDY115-68°C Q3A",
+      "configurationIds": [],
+      "noOtherSeriesImagesOrDetailLinksInMain": true
+    },
+    {
+      "path": "ar/products/k115-quick-response-concealed-sprinkler/index.html",
+      "locale": "ar",
+      "seriesId": "k115-quick-concealed",
+      "status": "PASS",
+      "model": "ZSTDY115-68°C Q3A",
+      "configurationIds": [],
+      "noOtherSeriesImagesOrDetailLinksInMain": true
+    }
+  ],
+  "preservedLegacyRoute": "Original aggregate URL and anchors retained for existing inbound links; primary four category cards use separate detail routes.",
+  "visualReview": [
+    "product-details/edge-desktop-k80-standard-response-concealed-sprinkler-en-models.png",
+    "product-details/edge-mobile-k115-quick-response-concealed-sprinkler-ar-gallery.png"
+  ]
+}

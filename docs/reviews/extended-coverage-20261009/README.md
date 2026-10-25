@@ -49,3 +49,10 @@
 - 证据：`docs/evidence/content-optimization/extended-coverage-checks.json`、`extended-coverage-supply-desktop.png`、`extended-coverage-specifications-ar-mobile.png`。
 
 下一项按固定顺序为隐蔽式喷头完整核对；已有响应类型和K80/K115确认继续复用。
+
+
+## 图片归类修正（2026-10-24）
+
+上文为 2026-10-09 的历史审核。用户现已确认 `DSC_5887.jpg`、`DSC_5888.jpg`、`DSC_5889.jpg` 为普通 K115 快速响应 68°C 喷头，已移至独立详情页；旧图注的 5887/5888 方向对调同时纠正。EC 页面移除这三张普通喷头的覆盖绑定，恢复带 EC-ZSTX、EC-ZSTZ、EC-ZSTBS 标记的原主图库。对应用户原图为 `DSC_5817.jpg`、`DSC_5812.jpg`、`DSC_5820.jpg`，并与 EC 专属资料包来源交叉核对。现存照片有水印及原始备份，未重编码。全部 EC 型号、压力、螺纹和其他技术参数保持不变。
+
+来源及变更证据：`docs/reviews/k115-quick-ec-separation-20261024/reviewed-changes.json`。

@@ -1,0 +1,79 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "status": "PASS",
+      "scenario": "en-desktop",
+      "layout": {
+        "overflow": -15,
+        "broken": [],
+        "lang": "en",
+        "dir": "ltr"
+      },
+      "count": 2,
+      "mainCount": 5,
+      "caption": "Water mist nozzle — additional product sample; exact model available on request",
+      "path": "assets/products/guanya-2026/water-mist-nozzles-dsc_5793-1600.webp",
+      "open": true,
+      "decoded": true,
+      "closed": true
+    },
+    {
+      "status": "PASS",
+      "scenario": "ar-desktop",
+      "layout": {
+        "overflow": -15,
+        "broken": [],
+        "lang": "ar",
+        "dir": "rtl"
+      },
+      "count": 2,
+      "mainCount": 5,
+      "caption": "فوهة ضباب الماء — عينة إضافية للمنتج؛ الموديل الدقيق متاح عند الطلب",
+      "path": "assets/products/guanya-2026/water-mist-nozzles-dsc_5793-1600.webp",
+      "open": true,
+      "decoded": true,
+      "closed": true
+    },
+    {
+      "status": "PASS",
+      "scenario": "en-mobile",
+      "layout": {
+        "overflow": 0,
+        "broken": [],
+        "lang": "en",
+        "dir": "ltr"
+      },
+      "count": 2,
+      "mainCount": 5,
+      "caption": "Water mist nozzle — additional product sample; exact model available on request",
+      "path": "assets/products/guanya-2026/water-mist-nozzles-dsc_5793-1600.webp",
+      "open": true,
+      "decoded": true,
+      "closed": true
+    },
+    {
+      "status": "PASS",
+      "scenario": "ar-mobile",
+      "layout": {
+        "overflow": 0,
+        "broken": [],
+        "lang": "ar",
+        "dir": "rtl"
+      },
+      "count": 2,
+      "mainCount": 5,
+      "caption": "فوهة ضباب الماء — عينة إضافية للمنتج؛ الموديل الدقيق متاح عند الطلب",
+      "path": "assets/products/guanya-2026/water-mist-nozzles-dsc_5793-1600.webp",
+      "open": true,
+      "decoded": true,
+      "closed": true
+    }
+  ],
+  "screenshots": [
+    "en-desktop.png",
+    "ar-desktop.png",
+    "en-mobile.png",
+    "ar-mobile.png"
+  ]
+}

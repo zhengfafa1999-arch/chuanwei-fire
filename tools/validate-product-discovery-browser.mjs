@@ -73,14 +73,42 @@ async function evaluate(client, expression) {
 }
 
 
-const root=process.cwd();const evidence=root+'/docs/evidence/product-discovery';fs.mkdirSync(evidence,{recursive:true});
+const root=process.cwd();
+const evidenceArgument=process.argv.find(argument=>argument.startsWith('--evidence-dir='));
+const evidence=evidenceArgument?path.resolve(root,evidenceArgument.slice('--evidence-dir='.length)):root+'/docs/evidence/product-discovery';fs.mkdirSync(evidence,{recursive:true});
 const server=http.createServer((req,res)=>{try{let p=decodeURIComponent(new URL(req.url,'http://localhost').pathname).replace(/^\//,'')||'index.html';if(p.split('/').includes('..'))throw Error('path');if(p.endsWith('/'))p+='index.html';res.setHeader('Content-Type',({html:'text/html; charset=utf-8',css:'text/css',js:'text/javascript',jpg:'image/jpeg',png:'image/png'})[p.split('.').pop()]||'application/octet-stream');res.end(fs.readFileSync(root+'/'+p))}catch{res.statusCode=404;res.end('missing')}});
-await new Promise(r=>server.listen(0,'127.0.0.1',r));const port=await reservePort();const browser=spawn('C:/Program Files (x86)/Microsoft/Edge/Application/msedge.exe',['--headless=new','--disable-gpu','--remote-allow-origins=*','--remote-debugging-port='+port,'--user-data-dir='+path.join(os.tmpdir(),'discovery-'+process.pid),'about:blank'],{stdio:'ignore',windowsHide:true});let client;const checks=[];const verify=(value,message)=>{if(!value)throw Error(message)};
+await new Promise(r=>server.listen(0,'127.0.0.1',r));const port=await reservePort();const browser=spawn('C:/Program Files (x86)/Microsoft/Edge/Application/msedge.exe',['--headless=new','--disable-gpu','--remote-allow-origins=*','--remote-debugging-port='+port,'--user-data-dir='+path.join(os.tmpdir(),'discovery-'+process.pid),'about:blank'],{stdio:'ignore',windowsHide:true});let client;const checks=[],referencePhotoChecks=[];const verify=(value,message)=>{if(!value)throw Error(message)};
 try{const target=await waitForDebugTarget(port);client=new DevToolsClient(target.webSocketDebuggerUrl);await client.connect();await client.send('Page.enable');
 for(const file of ['products.html','ar/products.html','index.html','ar/index.html','zh/index.html','products/消防喷头/fusible-alloy-fire-sprinklers.html','ar/products/fusible-alloy-fire-sprinklers/index.html']){for(const width of [1440,768,390,320]){await client.send('Emulation.setDeviceMetricsOverride',{width,height:1000,deviceScaleFactor:1,mobile:false});await client.send('Page.navigate',{url:process.argv.includes('--file-preview') ? pathToFileURL(root+'/'+file).href : 'http://127.0.0.1:'+server.address().port+'/'+encodeURI(file)});await delay(300);for(let i=0;i<60;i++){if(await evaluate(client,'document.readyState === "complete"'))break;await delay(100)}await evaluate(client,'Promise.all(Array.from(document.images).map(i=>{i.loading="eager";return i.decode().catch(()=>{})}))');let result=await evaluate(client,'({overflow:document.documentElement.scrollWidth>innerWidth+1,broken:Array.from(document.images).filter(i=>!i.naturalWidth).length})');verify(!result.overflow&&!result.broken,JSON.stringify({file,width,result}));
 if(file==='products.html'||file==='ar/products.html'){
- const test=await evaluate(client,`(()=>{const input=document.querySelector('#product-search'),select=document.querySelector('#product-family');const visible=()=>Array.from(document.querySelectorAll('[data-search]')).filter(c=>!c.hidden).length;const total=visible();input.value='fusible';input.dispatchEvent(new Event('input'));const search=visible();select.value='system-valves';select.dispatchEvent(new Event('change'));const combined=visible();document.querySelector('[data-finder-reset]').click();select.value='sprinklers';select.dispatchEvent(new Event('change'));const category=visible();document.querySelector('[data-finder-reset]').click();input.value='رشاشات';input.dispatchEvent(new Event('input'));const arabic=visible();input.value='no-such-product-999';input.dispatchEvent(new Event('input'));const empty=!document.querySelector('[data-finder-empty]').hidden;document.querySelector('[data-finder-reset]').click();return{total,search,combined,category,arabic,empty,reset:visible()}})()`);
+ const test=await evaluate(client,`(()=>{const input=document.querySelector('#product-search'),select=document.querySelector('#product-family');const visible=()=>Array.from(document.querySelectorAll('[data-search]')).filter(c=>!c.hidden).length;const total=visible();input.value='fusible';input.dispatchEvent(new Event('input'));const search=visible();const fusibleResults=Array.from(document.querySelectorAll('#product-results .product-card')).filter(card=>!card.hidden).map(card=>({seriesId:card.dataset.sprinklerSeries,title:card.querySelector('h3').textContent.trim(),href:card.querySelector('.product-card__link').href}));select.value='system-valves';select.dispatchEvent(new Event('change'));const combined=visible();document.querySelector('[data-finder-reset]').click();select.value='sprinklers';select.dispatchEvent(new Event('change'));const category=visible();document.querySelector('[data-finder-reset]').click();input.value='رشاشات';input.dispatchEvent(new Event('input'));const arabic=visible();input.value='no-such-product-999';input.dispatchEvent(new Event('input'));const empty=!document.querySelector('[data-finder-empty]').hidden;document.querySelector('[data-finder-reset]').click();return{total,search,fusibleResults,combined,category,arabic,empty,reset:visible()}})()`);
   verify(test.total===Math.min(pageSize,totalProducts)&&test.search===2&&test.combined===0&&test.category===Math.min(pageSize,sprinklerCount)&&test.arabic>0&&test.empty&&test.reset===test.total,JSON.stringify(test));
+  const fusibleSeries=test.fusibleResults.filter(item=>item.seriesId==='fusible-alloy');
+  const fusibleEsfr=test.fusibleResults.filter(item=>item.seriesId==='esfr');
+  verify(fusibleSeries.length===1 && fusibleSeries[0].href.includes('fusible-alloy-fire-sprinklers') && fusibleEsfr.length===1 && fusibleEsfr[0].title.includes('ESFR-202/74°C UY') && fusibleEsfr[0].href.includes('/esfr-sprinklers') && fusibleEsfr[0].href.endsWith('#models'),JSON.stringify({file,width,fusibleResults:test.fusibleResults,error:'Fusible search must find one fusible-alloy series and the documented ESFR fusible-alloy model'}));
+ if(width===1440){
+  const cases=[
+   {query:'ZSTDY80-141°C Q5A',anchor:'zstdy80-141-q5a',sampleTemperature:'68°C'},
+   {query:'ZSTDY115-79°C Q5A',anchor:'zstdy115-79-q5a',sampleTemperature:'68°C'},
+   {query:'ZSTDY115-93°C Q5A',anchor:'zstdy115-93-q5a',sampleTemperature:'68°C'},
+   {query:'ZSTDY80-93°C Q3A',anchor:'zstdy80-93-q3a',sampleTemperature:'68°C'}
+  ];
+  for(const sample of cases){
+   const state=await evaluate(client,`(()=>{
+    const input=document.querySelector('#product-search');document.querySelector('#product-family').value='sprinklers';
+    input.value=${JSON.stringify(sample.query)};input.dispatchEvent(new Event('input'));
+    const cards=[...document.querySelectorAll('#product-results .product-card')],card=cards[0];
+    return {count:cards.length,title:card?.querySelector('h3')?.textContent.trim(),href:card?.querySelector('.product-card__link')?.href,
+      captions:[...(card?.querySelectorAll('.product-card__reference')||[])].map(item=>item.textContent.trim())};
+   })()`);
+   const prefix=file.startsWith('ar')?'صورة مرجعية:':'Reference photo:';
+   verify(state.count===1 && state.title.includes(sample.query) && state.href.endsWith('#configuration-'+sample.anchor),JSON.stringify({file,sample,state,error:'Related model title/destination changed'}));
+   verify(state.captions.length===1 && state.captions[0].startsWith(prefix) && state.captions[0].split(prefix).length===2,JSON.stringify({file,sample,state,error:'Reference caption missing or duplicated'}));
+   verify(state.captions[0].includes(sample.sampleTemperature),JSON.stringify({file,sample,state,error:'Reference image lost its actual sample temperature'}));
+   referencePhotoChecks.push({file,query:sample.query,status:'PASS',caption:state.captions[0]});
+  }
+  await evaluate(client,'document.querySelector("[data-finder-reset]").click()');
+ }
 }
 
 if(file==='products.html'||file==='ar/products.html'){
@@ -102,12 +130,16 @@ await client.send('Input.dispatchKeyEvent',{type:'keyDown',key:'Escape',code:'Es
 }}
 
 const configurationChecks=[];
-for(const product of PRODUCT_FAMILIES.flatMap(flatProducts).filter(p=>p.view))for(const locale of ['en','ar']){
+const photographedConfigurations=PRODUCT_FAMILIES.flatMap(flatProducts).flatMap(product=>[
+ ...(product.view?[product]:[]),
+ ...(product.relatedConfigurations||[]).filter(item=>item.suffix?.startsWith('?view=')).map(item=>({...item,routeId:product.routeId,view:new URLSearchParams(item.suffix.split('#')[0]).get('view')}))
+]);
+for(const product of photographedConfigurations)for(const locale of ['en','ar']){
  const file=SITE_ROUTES[product.routeId].locales[locale].outputPath;
- const url=(process.argv.includes('--file-preview')?pathToFileURL(root+'/'+file).href:'http://127.0.0.1:'+server.address().port+'/'+encodeURI(file))+productSuffix(product);
+ const url=(process.argv.includes('--file-preview')?pathToFileURL(root+'/'+file).href:'http://127.0.0.1:'+server.address().port+'/'+encodeURI(file))+(product.suffix||productSuffix(product));
  await client.send('Page.navigate',{url});await delay(300);for(let i=0;i<60;i++){if(await evaluate(client,'document.readyState === "complete"'))break;await delay(100)}await delay(150);
- const result=await evaluate(client, '(()=>{const selected=new URLSearchParams(location.search).get("view");const b=Array.from(document.querySelectorAll("button")).find(b=>(b.matches("[data-gallery-index], [data-index], .pdp-gallery__thumb")||b.closest("[class*=thumbs]"))&&b.querySelector("img")&&decodeURIComponent(new URL(b.querySelector("img").src).pathname).endsWith("/"+selected));return {found:!!b,active:!!b&&(b.classList.contains("active")||b.getAttribute("aria-pressed")==="true")}})()');
+ const result=await evaluate(client, '(()=>{const requested=new URLSearchParams(location.search).get("view");const aliases=JSON.parse(document.querySelector("[data-product-photo-bindings]")?.textContent||"{}");const selected=aliases[requested]||requested;const b=Array.from(document.querySelectorAll("button")).find(b=>(b.matches("[data-gallery-index], [data-index], .pdp-gallery__thumb")||b.closest("[class*=thumbs]"))&&b.querySelector("img")&&decodeURIComponent(new URL(b.querySelector("img").src).pathname).endsWith("/"+selected));return {requested,selected,found:!!b,active:!!b&&(b.classList.contains("active")||b.getAttribute("aria-pressed")==="true")}})()');
  verify(result.found&&result.active,JSON.stringify({file,view:product.view,result}));configurationChecks.push({file,view:product.view,status:'PASS'});
 }
 fs.writeFileSync(evidence+'/configuration-links'+(process.argv.includes('--file-preview')?'-file':'-http')+'.json',JSON.stringify(configurationChecks,null,2));
-fs.writeFileSync(evidence+(process.argv.includes('--file-preview')?'/file-browser-validation.json':'/browser-validation.json'),JSON.stringify({status:'PASS',checks},null,2));console.log('Discovery browser PASS: '+checks.length+' page/viewport checks, bilingual search, combined filtering, reset and menu Escape.');}finally{client?.close();browser.kill();server.close();}
+fs.writeFileSync(evidence+(process.argv.includes('--file-preview')?'/file-browser-validation.json':'/browser-validation.json'),JSON.stringify({status:'PASS',checks,referencePhotoChecks},null,2));console.log('Discovery browser PASS: '+checks.length+' page/viewport checks, bilingual search, '+referencePhotoChecks.length+' reference-photo checks, combined filtering, reset and menu Escape.');}finally{client?.close();browser.kill();server.close();}

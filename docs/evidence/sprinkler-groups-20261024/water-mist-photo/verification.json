@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "classification": "Water Mist Nozzles; user-confirmed",
+  "newPhotographs": 1,
+  "localizedDetails": 2,
+  "browserScenarios": 4,
+  "imageAndZoomChecks": "PASS",
+  "visualReview": "English mobile screenshot reviewed: complete product, legible caption, no horizontal overflow.",
+  "unchangedModelData": true,
+  "newAssetsVerifiedInArchive": 2,
+  "archiveSha256": "acc6c435059be97d2541bf330c7d617dbbadc92551059b051775787411d74416",
+  "deployed": false
+}

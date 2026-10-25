@@ -1,0 +1,82 @@
+{
+  "status": "confirmed",
+  "scope": "CHUANWEI FIRE official website public display",
+  "basis": "Reuse of existing website photographs within the user-requested separation of the two product pages; no new images or expanded licensing claim. Original photo authorization and provenance retained in the original manifests.",
+  "images": [
+    {
+      "productId": "large-k-factor-sprinklers",
+      "path": "assets/products/guanya-2026/large-k-factor-esfr-sprinklers-k161-flat-deflector-1600.webp",
+      "sha256": "1f6a77ed1f766ef2207f94126b77e30404e79ce03b6365387e51d3e182d01608",
+      "reuseEvidence": "User supplied this actual photograph and confirmed K161 on 2026-10-10. Metric K161 / US K11.2 convention is already used in this product series. Flat deflector and glass-bulb construction visible. No exact factory model, response type, orientation, temperature, thread or certification assigned to this photograph.",
+      "unwatermarkedSha256": "c22b7ad4507123c000b250e6862b2e08cc985bb58a061ad50c74cf48377bc498",
+      "publishedTransform": "CHUANWEI FIRE text watermark in clear whitespace",
+      "watermarkRecord": "site-src/_data/product-watermarks.json"
+    },
+    {
+      "productId": "large-k-factor-sprinklers",
+      "path": "assets/products/guanya-2026/large-k-factor-esfr-sprinklers-k161-upright-68c-1600.webp",
+      "sha256": "5696a1b904982c5b228e9194d49cd2e672cee4dc5bbe0a993ae57a1c299d2af7",
+      "reuseEvidence": "User supplied this actual photograph and confirmed K161 on 2026-10-10. Visible K-ZSTZ161-68°C marking matches the existing K161 upright / 68°C model family. User previously confirmed Z=upright. Exact full model suffix, connection, response-class test or certification not established from this photograph.",
+      "unwatermarkedSha256": "f004b861ceb88f4554a0bd88a20e379126ea676d24bc6b98defff6bac02e1dd2",
+      "publishedTransform": "CHUANWEI FIRE text watermark in clear whitespace",
+      "watermarkRecord": "site-src/_data/product-watermarks.json"
+    },
+    {
+      "productId": "large-k-factor-sprinklers",
+      "path": "assets/products/guanya-2026/large-k-factor-esfr-sprinklers-dsc_5816-1600.webp",
+      "sha256": "c59bbe2bf769a8b418c3cd200d8cf8e557ac668d4948514b7c38f45274c9ef17",
+      "reuseEvidence": "Matches the existing large-K202 glass-bulb views, kept separate from ESFR fusible-link performance claims.",
+      "unwatermarkedSha256": "2800cb8fe4bdd37baa92f98cbf20c5e99716bc6c5c3cc9e341849ea70aeef358",
+      "publishedTransform": "CHUANWEI FIRE text watermark in clear whitespace",
+      "watermarkRecord": "site-src/_data/product-watermarks.json"
+    },
+    {
+      "productId": "large-k-factor-sprinklers",
+      "path": "assets/products/guanya-2026/large-k-factor-esfr-sprinklers-dsc_5814-1600.webp",
+      "sha256": "05a5fbee29732989fdda0ddade1997d3fd4d8878f46d4c605c1bfdb2db6a508d",
+      "reuseEvidence": "Matches the existing large-K202 glass-bulb views, kept separate from ESFR fusible-link performance claims.",
+      "unwatermarkedSha256": "314607ae0437a2694f4e49bbee7d4e802a725ff28c2a30a6d5b3ddd18ef897d8",
+      "publishedTransform": "CHUANWEI FIRE text watermark in clear whitespace",
+      "watermarkRecord": "site-src/_data/product-watermarks.json"
+    },
+    {
+      "productId": "large-k-factor-sprinklers",
+      "path": "assets/products/guanya-2026/large-k-factor-esfr-sprinklers-dsc_5813-1600.webp",
+      "sha256": "92153c961cc8c484e727f51ebe9be9d34de2ed3c90e3d96f0d9fc0c8501d32f3",
+      "reuseEvidence": "Matches the existing large-K202 glass-bulb views, kept separate from ESFR fusible-link performance claims.",
+      "unwatermarkedSha256": "f47314ae619be175f061a848efcdacbd18ec497794b41b94ffcb8a027a5b422f",
+      "publishedTransform": "CHUANWEI FIRE text watermark in clear whitespace",
+      "watermarkRecord": "site-src/_data/product-watermarks.json"
+    },
+    {
+      "productId": "esfr-sprinklers",
+      "path": "products/消防喷头/large-k-esfr-sprinkler/esfr-pendent-series.jpg",
+      "sha256": "57dc85632430aa5b5a445923fa7fbe8c28fe8f1eab109ef2391a2038dddee779",
+      "reuseEvidence": "Existing ESFR series photograph retained from legacy page."
+    },
+    {
+      "productId": "esfr-sprinklers",
+      "path": "products/消防喷头/large-k-esfr-sprinkler/esfr-upright-series.jpg",
+      "sha256": "fdd5fa5e43fd8a80ea857bb44da293d1e6afed470c331ac013b0de8a76b611e6",
+      "reuseEvidence": "Existing ESFR series photograph retained from legacy page."
+    },
+    {
+      "productId": "esfr-sprinklers",
+      "path": "assets/products/guanya-2026/large-k-factor-esfr-sprinklers-esfr-glass-bulb-slotted-1600.webp",
+      "sha256": "dac8afd4b0e0790c96be63244e259e5f8be632f5d18fc04e985726d52952eb7c",
+      "reuseEvidence": "User supplied this photograph and explicitly requested replacement of the corresponding ESFR detail gallery slot on 2026-10-10. ESFR body marking, glass-bulb assembly and deflector shape are visible; no exact model, K-factor, temperature, pressure, response class or certification inferred.",
+      "unwatermarkedSha256": "1d9dbab6aef2815abb988ac59fadc2740d9601bc5ef1bac2b846efc829642f52",
+      "publishedTransform": "CHUANWEI FIRE text watermark in clear whitespace",
+      "watermarkRecord": "site-src/_data/product-watermarks.json"
+    },
+    {
+      "productId": "esfr-sprinklers",
+      "path": "assets/products/guanya-2026/large-k-factor-esfr-sprinklers-esfr-glass-bulb-domed-1600.webp",
+      "sha256": "36d22d409fe5ffac2a3a1c31ef3e2358e6ad220c63e81974bcc1bff7ab8f873a",
+      "reuseEvidence": "User supplied this photograph and explicitly requested replacement of the corresponding ESFR detail gallery slot on 2026-10-10. ESFR body marking, glass-bulb assembly and deflector shape are visible; no exact model, K-factor, temperature, pressure, response class or certification inferred.",
+      "unwatermarkedSha256": "0e9dea51398fbaaeec12c5c48b123886fa949b93fbbe915bded9e0e475ed87b1",
+      "publishedTransform": "CHUANWEI FIRE text watermark in clear whitespace",
+      "watermarkRecord": "site-src/_data/product-watermarks.json"
+    }
+  ]
+}

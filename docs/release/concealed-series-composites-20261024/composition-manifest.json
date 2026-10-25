@@ -1,0 +1,147 @@
+{
+  "date": "2026-10-24",
+  "mode": "built-in image_gen edit/compositing",
+  "scope": "Four second-level concealed sprinkler category images",
+  "review": {
+    "result": "accepted for category illustration",
+    "notes": "Four outputs visually compared with supplied pairs: correct K80/K115 and Q5A/Q3A, red thick/thin bulb distinction, cover, two exposed sliding posts and original view orientation. Composites are generative layout derivatives, not immutable source photographs or evidence of dimensions/performance; originals are retained separately."
+  },
+  "sets": [
+    {
+      "id": "k80-standard-concealed",
+      "kind": "K80 standard-response concealed sprinkler, 68°C Q5A",
+      "files": [
+        "C:/Users/ZHENGF~1/AppData/Local/Temp/codex-clipboard-e10dadcf-474b-4b34-8fd7-2f30519247c4.jpg",
+        "C:/Users/ZHENGF~1/AppData/Local/Temp/codex-clipboard-ff9d9949-76db-457d-be6c-3ee03fddb477.jpg"
+      ],
+      "prompt": "Use case: compositing. Asset: square white-background website category product image. Combine ONLY the two supplied real product photographs for K80 standard-response concealed sprinkler, 68°C Q5A. Image 1 is the covered assembly; Image 2 is the exposed mechanism. Place the covered assembly on the left and exposed mechanism on the right as two separate nonoverlapping photographs. Both complete, uncropped, original upright viewing orientation (white cover at top, threaded inlet at bottom), clean pure white background. Balanced layout, centered vertically, about 8 percent outer white margin, narrow clear white gutter. Preserve each object's original aspect ratio; the exposed head should be slightly taller than the wide covered assembly so both read well in a square thumbnail. This is a careful photo collage, NOT a re-render or redesign. Preserve exactly the original product shapes, metal surface texture, glass-bulb thickness and red color, two hanging sliding posts, threaded inlet, cover, red label, all existing physical printed and embossed brand/model markings including original upside-down orientation. Do not rewrite or translate existing text. Do not add any product, screws, fittings, certification marks, claims, decorative graphics, titles, borders, watermarks, numbers, shadows or captions. Do not infer or change any technical detail. Only resize/reposition the two source photos onto a shared white canvas. Keep sharp detail. Output one square image, preferably 2048 by 2048 pixels.",
+      "generatedPath": "C:\\Users\\zhengfafa\\.codex\\generated_images\\01a14cb4-7d65-73d1-9b8a-38f1eaa90d92\\exec-2a7fd368-7117-4949-997d-6dc59a7e6deb.png",
+      "masterPath": "docs/release/concealed-series-composites-20261024/masters/k80-standard-concealed.png",
+      "assetPath": "assets/products/concealed-series/k80-standard-concealed-covered-and-exposed.webp",
+      "masterSha256": "4d204cdf1200aae6db1f2eefac5a5de60a2417210521c8620a7c50f81f1d9f13",
+      "generatedSize": [
+        1254,
+        1254
+      ],
+      "unwatermarkedAssetSha256": "6c1439cb48f1cbde13fcc0454cade912f18e03cd9f67240851966fd3c665486f",
+      "finalSha256": "74a0e50122b8670c3b188051853e059b07aded6bf9dfbd6298861b97f6e85506",
+      "finalBytes": 128942,
+      "sourceEvidence": [
+        {
+          "role": "covered",
+          "originalPath": "C:\\Users\\ZHENGF~1\\AppData\\Local\\Temp\\codex-clipboard-e10dadcf-474b-4b34-8fd7-2f30519247c4.jpg",
+          "backup": "docs/release/concealed-series-composites-20261024/source/k80-standard-concealed-covered.jpg",
+          "sha256": "fdcb7b0371405b3f8ee8f35f9688aafabf3da11a414be8fbcfab405ffb67ca51"
+        },
+        {
+          "role": "exposed",
+          "originalPath": "C:\\Users\\ZHENGF~1\\AppData\\Local\\Temp\\codex-clipboard-ff9d9949-76db-457d-be6c-3ee03fddb477.jpg",
+          "backup": "docs/release/concealed-series-composites-20261024/source/k80-standard-concealed-exposed.jpg",
+          "sha256": "cde1b1a0d2f550ea5a69f98ba73cbd92cf3172ea62813311a830f677a460f36e"
+        }
+      ]
+    },
+    {
+      "id": "k115-standard-concealed",
+      "kind": "K115 standard-response concealed sprinkler, 68°C Q5A",
+      "files": [
+        "C:/Users/ZHENGF~1/AppData/Local/Temp/codex-clipboard-775482fc-3390-4803-afdf-38c8367c9e5e.jpg",
+        "C:/Users/ZHENGF~1/AppData/Local/Temp/codex-clipboard-d7a1ab77-d629-470b-abe4-afe87bc019a4.jpg"
+      ],
+      "prompt": "Use case: compositing. Asset: square white-background website category product image. Combine ONLY the two supplied real product photographs for K115 standard-response concealed sprinkler, 68°C Q5A. Image 1 is the covered assembly; Image 2 is the exposed mechanism. Place the covered assembly on the left and exposed mechanism on the right as two separate nonoverlapping photographs. Both complete, uncropped, original upright viewing orientation (white cover at top, threaded inlet at bottom), clean pure white background. Balanced layout, centered vertically, about 8 percent outer white margin, narrow clear white gutter. Preserve each object's original aspect ratio; the exposed head should be slightly taller than the wide covered assembly so both read well in a square thumbnail. This is a careful photo collage, NOT a re-render or redesign. Preserve exactly the original product shapes, metal surface texture, glass-bulb thickness and red color, two hanging sliding posts, threaded inlet, cover, red label, all existing physical printed and embossed brand/model markings including original upside-down orientation. Do not rewrite or translate existing text. Do not add any product, screws, fittings, certification marks, claims, decorative graphics, titles, borders, watermarks, numbers, shadows or captions. Do not infer or change any technical detail. Only resize/reposition the two source photos onto a shared white canvas. Keep sharp detail. Output one square image, preferably 2048 by 2048 pixels.",
+      "generatedPath": "C:\\Users\\zhengfafa\\.codex\\generated_images\\01a14cb4-7d65-73d1-9b8a-38f1eaa90d92\\exec-838efa4e-cc83-4499-aa62-6a0e99c79ae5.png",
+      "masterPath": "docs/release/concealed-series-composites-20261024/masters/k115-standard-concealed.png",
+      "assetPath": "assets/products/concealed-series/k115-standard-concealed-covered-and-exposed.webp",
+      "masterSha256": "12a669041bf158be9d2bd1880b5ca7982c0cdc988cc2637fa8c3aed0784c2cee",
+      "generatedSize": [
+        1254,
+        1254
+      ],
+      "unwatermarkedAssetSha256": "cc1d7cc688e3057ae03ef2fa564554b35ca18bba966c589d33bf59eaeaa8de6c",
+      "finalSha256": "fdb52efccef2600c64945d793614d54ccf32e29a14806433b74afac3b4e3bd68",
+      "finalBytes": 149210,
+      "sourceEvidence": [
+        {
+          "role": "covered",
+          "originalPath": "C:\\Users\\ZHENGF~1\\AppData\\Local\\Temp\\codex-clipboard-775482fc-3390-4803-afdf-38c8367c9e5e.jpg",
+          "backup": "docs/release/concealed-series-composites-20261024/source/k115-standard-concealed-covered.jpg",
+          "sha256": "24609f82b6e8d518672fa3db356a256396ab98a02f71c1cb95d9b747549ac7f5"
+        },
+        {
+          "role": "exposed",
+          "originalPath": "C:\\Users\\ZHENGF~1\\AppData\\Local\\Temp\\codex-clipboard-d7a1ab77-d629-470b-abe4-afe87bc019a4.jpg",
+          "backup": "docs/release/concealed-series-composites-20261024/source/k115-standard-concealed-exposed.jpg",
+          "sha256": "98869016f14eb404f4c12f0c588562723a3f10b684f6e13a094ad9030cce715d"
+        }
+      ]
+    },
+    {
+      "id": "k80-quick-concealed",
+      "kind": "K80 quick-response concealed sprinkler, 68°C Q3A",
+      "files": [
+        "C:/Users/ZHENGF~1/AppData/Local/Temp/codex-clipboard-5cf6752b-fc81-43e0-b449-11c01b1ac134.jpg",
+        "C:/Users/ZHENGF~1/AppData/Local/Temp/codex-clipboard-710420e3-f9c9-454a-9b33-849af4da0697.jpg"
+      ],
+      "prompt": "Use case: compositing. Asset: square white-background website category product image. Combine ONLY the two supplied real product photographs for K80 quick-response concealed sprinkler, 68°C Q3A. Image 1 is the covered assembly; Image 2 is the exposed mechanism. Place the covered assembly on the left and exposed mechanism on the right as two separate nonoverlapping photographs. Both complete, uncropped, original upright viewing orientation (white cover at top, threaded inlet at bottom), clean pure white background. Balanced layout, centered vertically, about 8 percent outer white margin, narrow clear white gutter. Preserve each object's original aspect ratio; the exposed head should be slightly taller than the wide covered assembly so both read well in a square thumbnail. This is a careful photo collage, NOT a re-render or redesign. Preserve exactly the original product shapes, metal surface texture, glass-bulb thickness and red color, two hanging sliding posts, threaded inlet, cover, red label, all existing physical printed and embossed brand/model markings including original upside-down orientation. Do not rewrite or translate existing text. Do not add any product, screws, fittings, certification marks, claims, decorative graphics, titles, borders, watermarks, numbers, shadows or captions. Do not infer or change any technical detail. Only resize/reposition the two source photos onto a shared white canvas. Keep sharp detail. Output one square image, preferably 2048 by 2048 pixels.",
+      "generatedPath": "C:\\Users\\zhengfafa\\.codex\\generated_images\\01a14cb4-7d65-73d1-9b8a-38f1eaa90d92\\exec-92500bab-5d92-4e72-b85c-4f144507e9e3.png",
+      "masterPath": "docs/release/concealed-series-composites-20261024/masters/k80-quick-concealed.png",
+      "assetPath": "assets/products/concealed-series/k80-quick-concealed-covered-and-exposed.webp",
+      "masterSha256": "6e1baafb6f6ef64848ffdc6d010a5b88cb4af5ac1da272304c3d007bcdae77bd",
+      "generatedSize": [
+        1254,
+        1254
+      ],
+      "unwatermarkedAssetSha256": "184907af1ed77834a24056a75eedf126a8a5f0dc5a3f94215e02aae491bb7113",
+      "finalSha256": "d1dca2a9588ffd54bf5fa80a5e1c962c9a6468ec8ae78ba529bae91773c2ef58",
+      "finalBytes": 123204,
+      "sourceEvidence": [
+        {
+          "role": "covered",
+          "originalPath": "C:\\Users\\ZHENGF~1\\AppData\\Local\\Temp\\codex-clipboard-5cf6752b-fc81-43e0-b449-11c01b1ac134.jpg",
+          "backup": "docs/release/concealed-series-composites-20261024/source/k80-quick-concealed-covered.jpg",
+          "sha256": "307788895b9d22bb1f6d285507fdd0bc16472b4e1ce002689d39ce55244d32e8"
+        },
+        {
+          "role": "exposed",
+          "originalPath": "C:\\Users\\ZHENGF~1\\AppData\\Local\\Temp\\codex-clipboard-710420e3-f9c9-454a-9b33-849af4da0697.jpg",
+          "backup": "docs/release/concealed-series-composites-20261024/source/k80-quick-concealed-exposed.jpg",
+          "sha256": "21014ca1cb50ea1576f698bf473c67a4146f0daf93fbf61258c70b5b979cd6a2"
+        }
+      ]
+    },
+    {
+      "id": "k115-quick-concealed",
+      "kind": "K115 quick-response concealed sprinkler, 68°C Q3A",
+      "files": [
+        "C:/Users/ZHENGF~1/AppData/Local/Temp/codex-clipboard-ea4dbf99-652f-4d5a-a5f8-a8e119e1e25a.jpg",
+        "C:/Users/ZHENGF~1/AppData/Local/Temp/codex-clipboard-da7ab226-1946-4c04-81eb-bb3548da724e.jpg"
+      ],
+      "prompt": "Use case: compositing. Asset: square white-background website category product image. Combine ONLY the two supplied real product photographs for K115 quick-response concealed sprinkler, 68°C Q3A. Image 1 is the covered assembly; Image 2 is the exposed mechanism. Place the covered assembly on the left and exposed mechanism on the right as two separate nonoverlapping photographs. Both complete, uncropped, original upright viewing orientation (white cover at top, threaded inlet at bottom), clean pure white background. Balanced layout, centered vertically, about 8 percent outer white margin, narrow clear white gutter. Preserve each object's original aspect ratio; the exposed head should be slightly taller than the wide covered assembly so both read well in a square thumbnail. This is a careful photo collage, NOT a re-render or redesign. Preserve exactly the original product shapes, metal surface texture, glass-bulb thickness and red color, two hanging sliding posts, threaded inlet, cover, red label, all existing physical printed and embossed brand/model markings including original upside-down orientation. Do not rewrite or translate existing text. Do not add any product, screws, fittings, certification marks, claims, decorative graphics, titles, borders, watermarks, numbers, shadows or captions. Do not infer or change any technical detail. Only resize/reposition the two source photos onto a shared white canvas. Keep sharp detail. Output one square image, preferably 2048 by 2048 pixels.",
+      "generatedPath": "C:\\Users\\zhengfafa\\.codex\\generated_images\\01a14cb4-7d65-73d1-9b8a-38f1eaa90d92\\exec-de6a98c3-2297-4066-ae2a-0182be93304d.png",
+      "masterPath": "docs/release/concealed-series-composites-20261024/masters/k115-quick-concealed.png",
+      "assetPath": "assets/products/concealed-series/k115-quick-concealed-covered-and-exposed.webp",
+      "masterSha256": "d8b15bc8e39ac54ca0a6e38a603692f171594e367c0b83e21253371d851ae23d",
+      "generatedSize": [
+        1254,
+        1254
+      ],
+      "unwatermarkedAssetSha256": "0d6a0687db845f3fcdc6ef32c727337d3d9fdd4b4789248a877c01da9065f23f",
+      "finalSha256": "334260eb72c532721a208fc75913477f6d40f13dfcee099a91166248cdede322",
+      "finalBytes": 120130,
+      "sourceEvidence": [
+        {
+          "role": "covered",
+          "originalPath": "C:\\Users\\ZHENGF~1\\AppData\\Local\\Temp\\codex-clipboard-ea4dbf99-652f-4d5a-a5f8-a8e119e1e25a.jpg",
+          "backup": "docs/release/concealed-series-composites-20261024/source/k115-quick-concealed-covered.jpg",
+          "sha256": "9198140d47bdb08c8a366a587c810db98f897ce02b091dd1577c9398ff772778"
+        },
+        {
+          "role": "exposed",
+          "originalPath": "C:\\Users\\ZHENGF~1\\AppData\\Local\\Temp\\codex-clipboard-da7ab226-1946-4c04-81eb-bb3548da724e.jpg",
+          "backup": "docs/release/concealed-series-composites-20261024/source/k115-quick-concealed-exposed.jpg",
+          "sha256": "385eaa278b1eb67bcbef67c49528e2a8d972f78f34d72a7b9a52ac7bd1dbf75d"
+        }
+      ]
+    }
+  ]
+}

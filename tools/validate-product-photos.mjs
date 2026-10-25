@@ -59,10 +59,11 @@ for (const binding of reviewedProductMedia.bindings) {
     assert(html.includes(binding.detailPath.split('/').at(-1)), `${binding.routeId}/${lang}: replacement not used in the original main image/gallery`);
   }
 }
-const routeIds = [...new Set(productPhotoManifest.photos.map(p => p.routeId))];
+const explicitPhotoOrders = new Map(fs.readdirSync('site-src/_data/documented-products').filter(file => file.endsWith('.json')).map(file => JSON.parse(fs.readFileSync(`site-src/_data/documented-products/${file}`, 'utf8'))).filter(product => product.photoSourceFiles).map(product => [product.routeId, product.photoSourceFiles]));
+const routeIds = [...new Set([...productPhotoManifest.photos.map(p => p.routeId), ...explicitPhotoOrders.keys()])];
 for (const routeId of routeIds) for (const lang of ['en', 'ar']) {
   const route = createProductPageRoute(routeId, lang);
-  const photos = productPhotos(routeId, lang, route.assetPrefix);
+  const photos = productPhotos(routeId, lang, route.assetPrefix, explicitPhotoOrders.get(routeId));
   assert(photos.images.length > 0);
   if (!process.argv.includes('--generated')) continue;
   const html = fs.readFileSync(route.outputPath, 'utf8');

@@ -1,0 +1,1503 @@
+{
+  "batch_date": "2026-10-23",
+  "brand": "CHUANWEI FIRE",
+  "status": "Local draft package - not published",
+  "products": [
+    {
+      "schema_version": "1.0",
+      "batch_date": "2026-10-23",
+      "product_key": "reducer",
+      "product_name": {
+        "en": "Grooved Concentric Reducer",
+        "zh": "沟槽同心异径管"
+      },
+      "output_directory": "D:\\work\\codex\\阿里国际站运营\\outputs\\alibaba-detail-image-studio\\沟槽同心异径管系列-消防沟槽大小头",
+      "package_status": "Draft content package - technical and commercial confirmation required",
+      "evidence_policy": "Only user approved brand and photo visible configuration are used in buyer copy. Domestic listing data remain internal candidates.",
+      "source": {
+        "canonical_url": "https://detail.1688.com/offer/1069120390735.html",
+        "source_html": "D:\\work\\codex\\外部商品连接内容\\10.23\\厂家批发沟槽大小头异径管 消防沟槽变径管件接头 卡箍同心大小头 - 阿里巴巴.html",
+        "source_seller": "潍坊金顺消防管件有限公司",
+        "source_brand": "金顺",
+        "source_item_number": "06",
+        "evidence_file": "D:\\work\\codex\\阿里国际站运营\\outputs\\alibaba-detail-image-studio\\沟槽同心异径管系列-消防沟槽大小头\\copy\\source-evidence.json"
+      },
+      "product_title": {
+        "english_value": "Grooved Concentric Reducer with Two Different End Diameters for Fire Protection Piping",
+        "chinese_translation": "用于消防管路的双端不同口径沟槽同心异径管",
+        "character_count": 86,
+        "max_characters": 128
+      },
+      "product_group_information": {
+        "status": "Proposed group - verify or create in Seller Center",
+        "recommended_path_en": "Grooved Pipe Fittings > Grooved Reducers",
+        "recommended_path_zh": "沟槽管件 > 沟槽异径管",
+        "labels": [
+          {
+            "en": "Grooved Pipe Fittings",
+            "zh": "沟槽管件"
+          },
+          {
+            "en": "Grooved Reducers",
+            "zh": "沟槽异径管"
+          }
+        ],
+        "copy_ready_group_value_en": "Grooved Reducers",
+        "copy_ready_group_value_zh": "沟槽异径管",
+        "note_zh": "这是卖家商品分组建议，未读取店铺现有分组；不是平台类目，未创建或修改线上分组。"
+      },
+      "required_and_standard_attributes": [
+        {
+          "field_en": "Brand",
+          "field_zh": "品牌",
+          "english_value": "CHUANWEI FIRE",
+          "chinese_translation": "CHUANWEI FIRE（用户确认的销售展示品牌）",
+          "evidence_state": "Confirmed",
+          "publishable": true
+        },
+        {
+          "field_en": "Application Scenario",
+          "field_zh": "应用场景",
+          "english_value": "Fire protection water piping",
+          "chinese_translation": "消防供水管路",
+          "evidence_state": "Documented product context",
+          "publishable": true
+        },
+        {
+          "field_en": "Material",
+          "field_zh": "材质",
+          "english_value": null,
+          "chinese_translation": "主体材质及牌号未确认；此行为内部提示，不要粘贴到买家字段",
+          "evidence_state": "Required confirmation - do not publish",
+          "publishable": false
+        },
+        {
+          "field_en": "Function",
+          "field_zh": "功能",
+          "english_value": "Connect two different pipe diameters through a concentric transition",
+          "chinese_translation": "通过同心过渡段连接两种不同管径",
+          "evidence_state": "Visible product configuration",
+          "publishable": true
+        },
+        {
+          "field_en": "Connection",
+          "field_zh": "连接结构",
+          "english_value": "Grooved ends",
+          "chinese_translation": "沟槽端口",
+          "evidence_state": "Visible",
+          "publishable": true
+        },
+        {
+          "field_en": "Color",
+          "field_zh": "颜色",
+          "english_value": "Red",
+          "chinese_translation": "红色",
+          "evidence_state": "Visible",
+          "publishable": true
+        }
+      ],
+      "custom_attributes": [
+        {
+          "field_en": "Visible Structure",
+          "field_zh": "可见结构",
+          "english_value": "Concentric transition with two different end diameters",
+          "chinese_translation": "同心过渡结构，两端开口直径不同",
+          "evidence_state": "Visible",
+          "publishable": true
+        }
+      ],
+      "attribute_placement_note_zh": "优先填入实时类目对应的标准字段；若应用场景、材质或功能仅支持自定义属性，将同一行移入自定义区，不重复填写。",
+      "sku_setup": {
+        "specification_name_en": "Configuration",
+        "specification_name_zh": "结构规格",
+        "status": "Candidate matrix only - do not create orderable variants until confirmed",
+        "publishable_options": [],
+        "candidate_options": [
+          {
+            "english_value": "Grooved concentric reducer nominal size DN80*50 pipe OD 89*60",
+            "chinese_translation": "沟槽大小头异径管 通径DN80*50外径89*60",
+            "source_sku_id": 6283637522691,
+            "publishable": false,
+            "evidence_state": "Candidate",
+            "note_zh": "原网页候选规格，未确认本店出口供货；不直接创建可下单SKU。"
+          },
+          {
+            "english_value": "Grooved concentric reducer nominal size DN80*65 pipe OD 89*76",
+            "chinese_translation": "沟槽大小头异径管 通径DN80*65外径89*76",
+            "source_sku_id": 6283637522692,
+            "publishable": false,
+            "evidence_state": "Candidate",
+            "note_zh": "原网页候选规格，未确认本店出口供货；不直接创建可下单SKU。"
+          },
+          {
+            "english_value": "Grooved concentric reducer nominal size DN100*50 pipe OD 114*60",
+            "chinese_translation": "沟槽大小头异径管 通径DN100*50外径114*60",
+            "source_sku_id": 6283637522693,
+            "publishable": false,
+            "evidence_state": "Candidate",
+            "note_zh": "原网页候选规格，未确认本店出口供货；不直接创建可下单SKU。"
+          },
+          {
+            "english_value": "Grooved concentric reducer nominal size DN100*65 pipe OD 114*76",
+            "chinese_translation": "沟槽大小头异径管 通径DN100*65外径114*76",
+            "source_sku_id": 6283637522694,
+            "publishable": false,
+            "evidence_state": "Candidate",
+            "note_zh": "原网页候选规格，未确认本店出口供货；不直接创建可下单SKU。"
+          },
+          {
+            "english_value": "Grooved concentric reducer nominal size DN100*80 pipe OD 114*89",
+            "chinese_translation": "沟槽大小头异径管 通径DN100*80外径114*89",
+            "source_sku_id": 6283637522695,
+            "publishable": false,
+            "evidence_state": "Candidate",
+            "note_zh": "原网页候选规格，未确认本店出口供货；不直接创建可下单SKU。"
+          },
+          {
+            "english_value": "Grooved concentric reducer nominal size DN125*50 pipe OD 140*60",
+            "chinese_translation": "沟槽大小头异径管 通径DN125*50外径140*60",
+            "source_sku_id": 6283637522696,
+            "publishable": false,
+            "evidence_state": "Candidate",
+            "note_zh": "原网页候选规格，未确认本店出口供货；不直接创建可下单SKU。"
+          },
+          {
+            "english_value": "Grooved concentric reducer nominal size DN125*65 pipe OD 140*76",
+            "chinese_translation": "沟槽大小头异径管 通径DN125*65外径140*76",
+            "source_sku_id": 6283637522697,
+            "publishable": false,
+            "evidence_state": "Candidate",
+            "note_zh": "原网页候选规格，未确认本店出口供货；不直接创建可下单SKU。"
+          },
+          {
+            "english_value": "Grooved concentric reducer nominal size DN125*80 pipe OD 140*89",
+            "chinese_translation": "沟槽大小头异径管 通径DN125*80外径140*89",
+            "source_sku_id": 6283637522698,
+            "publishable": false,
+            "evidence_state": "Candidate",
+            "note_zh": "原网页候选规格，未确认本店出口供货；不直接创建可下单SKU。"
+          },
+          {
+            "english_value": "Grooved concentric reducer nominal size DN125*100 pipe OD 140*114",
+            "chinese_translation": "沟槽大小头异径管 通径DN125*100外径140*114",
+            "source_sku_id": 6283637522699,
+            "publishable": false,
+            "evidence_state": "Candidate",
+            "note_zh": "原网页候选规格，未确认本店出口供货；不直接创建可下单SKU。"
+          },
+          {
+            "english_value": "Grooved concentric reducer nominal size DN150*50 pipe OD 165*60",
+            "chinese_translation": "沟槽大小头异径管 通径DN150*50外径165*60",
+            "source_sku_id": 6283637522700,
+            "publishable": false,
+            "evidence_state": "Candidate",
+            "note_zh": "原网页候选规格，未确认本店出口供货；不直接创建可下单SKU。"
+          },
+          {
+            "english_value": "Grooved concentric reducer nominal size DN150*65 pipe OD 165*76",
+            "chinese_translation": "沟槽大小头异径管 通径DN150*65外径165*76",
+            "source_sku_id": 6283637522701,
+            "publishable": false,
+            "evidence_state": "Candidate",
+            "note_zh": "原网页候选规格，未确认本店出口供货；不直接创建可下单SKU。"
+          },
+          {
+            "english_value": "Grooved concentric reducer nominal size DN150*80 pipe OD 165*89",
+            "chinese_translation": "沟槽大小头异径管 通径DN150*80外径165*89",
+            "source_sku_id": 6283637522702,
+            "publishable": false,
+            "evidence_state": "Candidate",
+            "note_zh": "原网页候选规格，未确认本店出口供货；不直接创建可下单SKU。"
+          },
+          {
+            "english_value": "Grooved concentric reducer nominal size DN150*100 pipe OD 165*114",
+            "chinese_translation": "沟槽大小头异径管 通径DN150*100外径165*114",
+            "source_sku_id": 6283637522703,
+            "publishable": false,
+            "evidence_state": "Candidate",
+            "note_zh": "原网页候选规格，未确认本店出口供货；不直接创建可下单SKU。"
+          },
+          {
+            "english_value": "Grooved concentric reducer nominal size DN150*125 pipe OD 165*140",
+            "chinese_translation": "沟槽大小头异径管 通径DN150*125外径165*140",
+            "source_sku_id": 6283637522704,
+            "publishable": false,
+            "evidence_state": "Candidate",
+            "note_zh": "原网页候选规格，未确认本店出口供货；不直接创建可下单SKU。"
+          },
+          {
+            "english_value": "Grooved concentric reducer nominal size DN200*80 pipe OD 219*89",
+            "chinese_translation": "沟槽大小头异径管 通径DN200*80外径219*89",
+            "source_sku_id": 6283637522705,
+            "publishable": false,
+            "evidence_state": "Candidate",
+            "note_zh": "原网页候选规格，未确认本店出口供货；不直接创建可下单SKU。"
+          },
+          {
+            "english_value": "Grooved concentric reducer nominal size DN200*100 pipe OD 219*114",
+            "chinese_translation": "沟槽大小头异径管 通径DN200*100外径219*114",
+            "source_sku_id": 6283637522706,
+            "publishable": false,
+            "evidence_state": "Candidate",
+            "note_zh": "原网页候选规格，未确认本店出口供货；不直接创建可下单SKU。"
+          },
+          {
+            "english_value": "Grooved concentric reducer nominal size DN200*125 pipe OD 219*140",
+            "chinese_translation": "沟槽大小头异径管 通径DN200*125外径219*140",
+            "source_sku_id": 6283637522707,
+            "publishable": false,
+            "evidence_state": "Candidate",
+            "note_zh": "原网页候选规格，未确认本店出口供货；不直接创建可下单SKU。"
+          },
+          {
+            "english_value": "Grooved concentric reducer nominal size DN200*150 pipe OD 219*165",
+            "chinese_translation": "沟槽大小头异径管 通径DN200*150外径219*165",
+            "source_sku_id": 6283637522708,
+            "publishable": false,
+            "evidence_state": "Candidate",
+            "note_zh": "原网页候选规格，未确认本店出口供货；不直接创建可下单SKU。"
+          }
+        ],
+        "note_zh": "候选来自原1688页面，非已确认出口SKU。货号不等于型号；尺寸、压力、价格、库存、MOQ均不可自动转为本店承诺。"
+      },
+      "product_selling_points": {
+        "english_value": "Grooved concentric reducer with two different end diameters and a red surface Visible grooves at both ends for connection selection Send the required pipe outside diameters and drawing for quotation",
+        "chinese_translation": "红色表面的沟槽同心异径管，两端开口直径不同。两端可见沟槽，便于选型核对。询价请提供所需管道外径及图纸。",
+        "character_count": 198,
+        "validation_regex": "^[A-Za-z0-9 ]+$",
+        "validation_passed": true,
+        "live_limit_status": "No live field length supplied; recheck the live limit when entering"
+      },
+      "logo_customization": {
+        "internal_recommendation_en": "Do not enable yet",
+        "internal_recommendation_zh": "暂不启用实物Logo定制；图片展示品牌不等于工厂具备定制能力",
+        "publishable_fields": []
+      },
+      "commercial_inputs_still_needed": [
+        "确认大端与小端的实际管道外径和沟槽尺寸，不能只凭DN选型",
+        "确认球墨铸铁材质及牌号是否适用于本店出口供货",
+        "本店实际可供出口规格与型号对应关系",
+        "主体材质及牌号，必要时含密封件和紧固件材质",
+        "额定工作压力与目标市场标准或认证的有效证明",
+        "价格、币种、贸易条款、MOQ、库存及交期",
+        "每箱数量、包装方式、净重、毛重及包装尺寸",
+        "如需实物Logo定制，确认工艺、位置、MOQ、稿件格式、样品费及交期"
+      ],
+      "english_detail_description": [
+        {
+          "en": "The grooved concentric reducer connects two different pipe diameters through a concentric transition. The reference product has a red surface and circular openings at both ends.",
+          "zh": "沟槽同心异径管通过同心过渡段连接两种不同管径。参考实物呈红色，两端均为圆形开口。"
+        },
+        {
+          "en": "The product photographs show the larger end, smaller end and circumferential end grooves. Use these views to identify the connection layout and compare the required fitting shape.",
+          "zh": "产品照片展示大端、小端及端部环形沟槽，可用于识别连接布局并核对所需管件形状。"
+        },
+        {
+          "en": "For quotation, please provide both pipe outside diameters, required material, working pressure and quantity. The final size, groove profile and connection compatibility should be confirmed against the approved drawing or sample.",
+          "zh": "询价请提供两端管道外径、所需材质、工作压力及数量。最终尺寸、沟槽形状和连接适配关系应按确认图纸或样品核实。"
+        }
+      ],
+      "inquiry_sentence": {
+        "english_value": "Please quote the grooved concentric reducer for the attached drawing and both pipe outside diameters Please confirm material working pressure quantity and packing",
+        "chinese_translation": "请按附件图纸及两端管道外径报价沟槽同心异径管，并确认材质、工作压力、数量和包装。"
+      },
+      "images": [
+        {
+          "path": "images/沟槽同心异径管系列-阿里国际站-01-产品主图-en.png",
+          "role": "product",
+          "exists": true
+        },
+        {
+          "path": "images/沟槽同心异径管系列-阿里国际站-02-外观展示图-en.png",
+          "role": "product",
+          "exists": true
+        },
+        {
+          "path": "images/沟槽同心异径管系列-阿里国际站-03-白底产品图-en.png",
+          "role": "product",
+          "exists": true
+        },
+        {
+          "path": "images/沟槽同心异径管系列-阿里国际站-04-大端开口图-en.png",
+          "role": "product",
+          "exists": true
+        },
+        {
+          "path": "images/沟槽同心异径管系列-阿里国际站-05-沟槽细节图-en.png",
+          "role": "product",
+          "exists": true
+        },
+        {
+          "path": "images/沟槽同心异径管系列-阿里国际站-06-红色表面图-en.png",
+          "role": "product",
+          "exists": true
+        },
+        {
+          "path": "images/沟槽同心异径管系列-阿里国际站-07-结构识别详情图-en.png",
+          "role": "product",
+          "exists": true
+        },
+        {
+          "path": "images/沟槽同心异径管系列-阿里国际站-08-大小端对比详情图-en.png",
+          "role": "product",
+          "exists": true
+        },
+        {
+          "path": "images/沟槽同心异径管系列-阿里国际站-09-内壁结构详情图-en.png",
+          "role": "product",
+          "exists": true
+        },
+        {
+          "path": "images/沟槽同心异径管系列-阿里国际站-10-外形轮廓详情图-en.png",
+          "role": "product",
+          "exists": true
+        }
+      ],
+      "not_published": true
+    },
+    {
+      "schema_version": "1.0",
+      "batch_date": "2026-10-23",
+      "product_key": "mechanical_tee",
+      "product_name": {
+        "en": "Threaded Outlet Mechanical Tee",
+        "zh": "丝接出口机械三通"
+      },
+      "output_directory": "D:\\work\\codex\\阿里国际站运营\\outputs\\alibaba-detail-image-studio\\丝接机械三通系列-丝接机械三通",
+      "package_status": "Draft content package - technical and commercial confirmation required",
+      "evidence_policy": "Only user approved brand and photo visible configuration are used in buyer copy. Domestic listing data remain internal candidates.",
+      "source": {
+        "canonical_url": "https://detail.1688.com/offer/1053587630009.html",
+        "source_html": "D:\\work\\codex\\外部商品连接内容\\10.23\\大口径沟槽机械三通 消防工程连接管件 丝接沟槽机械三通厂家批发 - 阿里巴巴.html",
+        "source_seller": "潍坊金顺消防管件有限公司",
+        "source_brand": "金顺",
+        "source_item_number": "19",
+        "evidence_file": "D:\\work\\codex\\阿里国际站运营\\tmp\\10.23-intake\\tees-evidence.json"
+      },
+      "product_title": {
+        "english_value": "Threaded Outlet Mechanical Tee with Bolted Saddle Housing for Fire Protection Piping",
+        "chinese_translation": "用于消防管路的螺栓鞍座壳体丝接出口机械三通",
+        "character_count": 84,
+        "max_characters": 128
+      },
+      "product_group_information": {
+        "status": "Proposed group - verify or create in Seller Center",
+        "recommended_path_en": "Grooved Pipe Fittings > Mechanical Tees",
+        "recommended_path_zh": "沟槽管件 > 机械三通",
+        "labels": [
+          {
+            "en": "Grooved Pipe Fittings",
+            "zh": "沟槽管件"
+          },
+          {
+            "en": "Mechanical Tees",
+            "zh": "机械三通"
+          }
+        ],
+        "copy_ready_group_value_en": "Mechanical Tees",
+        "copy_ready_group_value_zh": "机械三通",
+        "note_zh": "这是卖家商品分组建议，未读取店铺现有分组；不是平台类目，未创建或修改线上分组。"
+      },
+      "required_and_standard_attributes": [
+        {
+          "field_en": "Brand",
+          "field_zh": "品牌",
+          "english_value": "CHUANWEI FIRE",
+          "chinese_translation": "CHUANWEI FIRE（用户确认的销售展示品牌）",
+          "evidence_state": "Confirmed",
+          "publishable": true
+        },
+        {
+          "field_en": "Application Scenario",
+          "field_zh": "应用场景",
+          "english_value": "Fire protection water piping",
+          "chinese_translation": "消防供水管路",
+          "evidence_state": "Documented product context",
+          "publishable": true
+        },
+        {
+          "field_en": "Material",
+          "field_zh": "材质",
+          "english_value": null,
+          "chinese_translation": "主体材质及牌号未确认；此行为内部提示，不要粘贴到买家字段",
+          "evidence_state": "Required confirmation - do not publish",
+          "publishable": false
+        },
+        {
+          "field_en": "Function",
+          "field_zh": "功能",
+          "english_value": "Provide a threaded branch outlet on a pipe",
+          "chinese_translation": "在管道上形成螺纹支路出口",
+          "evidence_state": "Visible product configuration",
+          "publishable": true
+        },
+        {
+          "field_en": "Connection",
+          "field_zh": "连接结构",
+          "english_value": "Female threaded branch outlet with bolted saddle housing",
+          "chinese_translation": "内螺纹支路出口及螺栓鞍座壳体",
+          "evidence_state": "Visible",
+          "publishable": true
+        },
+        {
+          "field_en": "Color",
+          "field_zh": "颜色",
+          "english_value": "Red",
+          "chinese_translation": "红色",
+          "evidence_state": "Visible",
+          "publishable": true
+        }
+      ],
+      "custom_attributes": [
+        {
+          "field_en": "Visible Structure",
+          "field_zh": "可见结构",
+          "english_value": "Two piece housing with visible fasteners and black gasket",
+          "chinese_translation": "两片式壳体，可见紧固件及黑色密封垫",
+          "evidence_state": "Visible",
+          "publishable": true
+        }
+      ],
+      "attribute_placement_note_zh": "优先填入实时类目对应的标准字段；若应用场景、材质或功能仅支持自定义属性，将同一行移入自定义区，不重复填写。",
+      "sku_setup": {
+        "specification_name_en": "Configuration",
+        "specification_name_zh": "结构规格",
+        "status": "Candidate matrix only - do not create orderable variants until confirmed",
+        "publishable_options": [],
+        "candidate_options": [
+          {
+            "english_value": "Threaded outlet mechanical tee pipe OD 273*42-60",
+            "chinese_translation": "丝接机械三通 外径273*42-60",
+            "source_sku_id": 6094552237425,
+            "publishable": false,
+            "evidence_state": "Candidate",
+            "note_zh": "原网页候选规格，未确认本店出口供货；不直接创建可下单SKU。 原页尺寸用短横线表达多个出口候选，不能自动展开为组合。"
+          },
+          {
+            "english_value": "Grooved outlet mechanical tee pipe OD 325*114",
+            "chinese_translation": "沟槽机械三通 外径325*114",
+            "source_sku_id": 6094552237431,
+            "publishable": false,
+            "evidence_state": "Candidate",
+            "note_zh": "原网页候选规格，未确认本店出口供货；不直接创建可下单SKU。 此项为沟槽出口，与本套丝接图不对应，禁止混用。"
+          },
+          {
+            "english_value": "Grooved outlet mechanical tee pipe OD 273*114",
+            "chinese_translation": "沟槽机械三通 外径273*114",
+            "source_sku_id": 6094552237429,
+            "publishable": false,
+            "evidence_state": "Candidate",
+            "note_zh": "原网页候选规格，未确认本店出口供货；不直接创建可下单SKU。 此项为沟槽出口，与本套丝接图不对应，禁止混用。"
+          },
+          {
+            "english_value": "Grooved outlet mechanical tee pipe OD 325*165",
+            "chinese_translation": "沟槽机械三通 外径325*165",
+            "source_sku_id": 6094552237432,
+            "publishable": false,
+            "evidence_state": "Candidate",
+            "note_zh": "原网页候选规格，未确认本店出口供货；不直接创建可下单SKU。 此项为沟槽出口，与本套丝接图不对应，禁止混用。"
+          },
+          {
+            "english_value": "Threaded outlet mechanical tee pipe OD 325*60-89",
+            "chinese_translation": "丝接机械三通 外径325*60-89",
+            "source_sku_id": 6094552237430,
+            "publishable": false,
+            "evidence_state": "Candidate",
+            "note_zh": "原网页候选规格，未确认本店出口供货；不直接创建可下单SKU。 原页尺寸用短横线表达多个出口候选，不能自动展开为组合。"
+          },
+          {
+            "english_value": "Grooved outlet mechanical tee pipe OD 273*165",
+            "chinese_translation": "沟槽机械三通 外径273*165",
+            "source_sku_id": 6094552237428,
+            "publishable": false,
+            "evidence_state": "Candidate",
+            "note_zh": "原网页候选规格，未确认本店出口供货；不直接创建可下单SKU。 此项为沟槽出口，与本套丝接图不对应，禁止混用。"
+          },
+          {
+            "english_value": "Threaded outlet mechanical tee pipe OD 219*33-60",
+            "chinese_translation": "丝接机械三通 外径219*33-60",
+            "source_sku_id": 6094552237422,
+            "publishable": false,
+            "evidence_state": "Candidate",
+            "note_zh": "原网页候选规格，未确认本店出口供货；不直接创建可下单SKU。 原页尺寸用短横线表达多个出口候选，不能自动展开为组合。"
+          },
+          {
+            "english_value": "Grooved outlet mechanical tee pipe OD 325*76",
+            "chinese_translation": "沟槽机械三通外径325*76",
+            "source_sku_id": 6094552237433,
+            "publishable": false,
+            "evidence_state": "Candidate",
+            "note_zh": "原网页候选规格，未确认本店出口供货；不直接创建可下单SKU。 此项为沟槽出口，与本套丝接图不对应，禁止混用。"
+          },
+          {
+            "english_value": "Threaded outlet mechanical tee pipe OD 219*76-89",
+            "chinese_translation": "丝接机械三通 外径219*76-89",
+            "source_sku_id": 6094552237423,
+            "publishable": false,
+            "evidence_state": "Candidate",
+            "note_zh": "原网页候选规格，未确认本店出口供货；不直接创建可下单SKU。 原页尺寸用短横线表达多个出口候选，不能自动展开为组合。"
+          },
+          {
+            "english_value": "Threaded outlet mechanical tee pipe OD 273*76",
+            "chinese_translation": "丝接机械三通 外径273*76",
+            "source_sku_id": 6094552237426,
+            "publishable": false,
+            "evidence_state": "Candidate",
+            "note_zh": "原网页候选规格，未确认本店出口供货；不直接创建可下单SKU。"
+          },
+          {
+            "english_value": "Threaded outlet mechanical tee pipe OD 273*33",
+            "chinese_translation": "丝接机械三通 外径273*33",
+            "source_sku_id": 6094552237424,
+            "publishable": false,
+            "evidence_state": "Candidate",
+            "note_zh": "原网页候选规格，未确认本店出口供货；不直接创建可下单SKU。"
+          },
+          {
+            "english_value": "Threaded outlet mechanical tee pipe OD 273*89",
+            "chinese_translation": "丝接机械三通 外径273*89",
+            "source_sku_id": 6094552237427,
+            "publishable": false,
+            "evidence_state": "Candidate",
+            "note_zh": "原网页候选规格，未确认本店出口供货；不直接创建可下单SKU。"
+          }
+        ],
+        "note_zh": "候选来自原1688页面，非已确认出口SKU。货号不等于型号；尺寸、压力、价格、库存、MOQ均不可自动转为本店承诺。"
+      },
+      "product_selling_points": {
+        "english_value": "Mechanical tee with a female threaded branch outlet and bolted saddle housing The reference photo shows the black gasket and side fasteners Send the pipe outside diameter branch thread requirement and drawing for quotation",
+        "chinese_translation": "机械三通采用内螺纹支路出口和螺栓鞍座壳体。参考照片可见黑色密封垫和侧面紧固件。询价请提供主管外径、支路螺纹要求及图纸。",
+        "character_count": 222,
+        "validation_regex": "^[A-Za-z0-9 ]+$",
+        "validation_passed": true,
+        "live_limit_status": "No live field length supplied; recheck the live limit when entering"
+      },
+      "logo_customization": {
+        "internal_recommendation_en": "Do not enable yet",
+        "internal_recommendation_zh": "暂不启用实物Logo定制；图片展示品牌不等于工厂具备定制能力",
+        "publishable_fields": []
+      },
+      "commercial_inputs_still_needed": [
+        "丝接出口仅以白底图结构为准；原页沟槽出口不能混入本套丝接规格",
+        "确认BSP或NPT等实际螺纹标准，不能仅凭照片推断",
+        "确认主管外径、开孔要求、密封垫材料及供货组件",
+        "本店实际可供出口规格与型号对应关系",
+        "主体材质及牌号，必要时含密封件和紧固件材质",
+        "额定工作压力与目标市场标准或认证的有效证明",
+        "价格、币种、贸易条款、MOQ、库存及交期",
+        "每箱数量、包装方式、净重、毛重及包装尺寸",
+        "如需实物Logo定制，确认工艺、位置、MOQ、稿件格式、样品费及交期"
+      ],
+      "english_detail_description": [
+        {
+          "en": "This mechanical tee provides a female threaded branch outlet on a pipe. The selected reference photograph shows a red two-piece saddle housing, side fasteners and a black gasket.",
+          "zh": "该机械三通用于在管道上形成内螺纹支路出口。选用的参考照片展示红色两片式鞍座壳体、侧面紧固件和黑色密封垫。"
+        },
+        {
+          "en": "The image set focuses on the threaded outlet configuration. The visible thread, housing and fastener positions help identify the product layout for specification review.",
+          "zh": "本套图片聚焦丝接出口结构。可见的螺纹、壳体和紧固件位置有助于在核对规格时识别产品布局。"
+        },
+        {
+          "en": "For quotation, please provide the main pipe outside diameter, branch thread size and thread standard, required material, working pressure and quantity. Installation dimensions and compatible pipe preparation should be confirmed with the product drawing.",
+          "zh": "询价请提供主管外径、支路螺纹尺寸及螺纹标准、所需材质、工作压力和数量。安装尺寸及相应管道加工要求应按产品图纸确认。"
+        }
+      ],
+      "inquiry_sentence": {
+        "english_value": "Please quote the threaded outlet mechanical tee Please confirm the main pipe outside diameter branch thread size and standard material working pressure quantity and packing",
+        "chinese_translation": "请报丝接出口机械三通，并确认主管外径、支路螺纹尺寸及标准、材质、工作压力、数量和包装。"
+      },
+      "images": [
+        {
+          "path": "images/丝接机械三通系列-阿里国际站-01-产品主图-en.jpg",
+          "role": "product",
+          "exists": true
+        },
+        {
+          "path": "images/丝接机械三通系列-阿里国际站-02-白底产品图-en.jpg",
+          "role": "product",
+          "exists": true
+        },
+        {
+          "path": "images/丝接机械三通系列-阿里国际站-03-结构细节图-en.jpg",
+          "role": "product",
+          "exists": true
+        },
+        {
+          "path": "images/丝接机械三通系列-阿里国际站-04-接口细节图-en.jpg",
+          "role": "product",
+          "exists": true
+        },
+        {
+          "path": "images/丝接机械三通系列-阿里国际站-05-部件细节图-en.jpg",
+          "role": "product",
+          "exists": true
+        },
+        {
+          "path": "images/丝接机械三通系列-阿里国际站-06-多角度展示图-en.jpg",
+          "role": "product",
+          "exists": true
+        },
+        {
+          "path": "images/丝接机械三通系列-阿里国际站-07-产品概览详情图-en.jpg",
+          "role": "product",
+          "exists": true
+        },
+        {
+          "path": "images/丝接机械三通系列-阿里国际站-08-连接结构详情图-en.jpg",
+          "role": "product",
+          "exists": true
+        },
+        {
+          "path": "images/丝接机械三通系列-阿里国际站-09-表面细节详情图-en.jpg",
+          "role": "product",
+          "exists": true
+        },
+        {
+          "path": "images/丝接机械三通系列-阿里国际站-10-实物视角详情图-en.jpg",
+          "role": "product",
+          "exists": true
+        }
+      ],
+      "not_published": true
+    },
+    {
+      "schema_version": "1.0",
+      "batch_date": "2026-10-23",
+      "product_key": "equal_tee",
+      "product_name": {
+        "en": "Grooved Equal Tee",
+        "zh": "沟槽正三通"
+      },
+      "output_directory": "D:\\work\\codex\\阿里国际站运营\\outputs\\alibaba-detail-image-studio\\沟槽正三通系列-沟槽正三通",
+      "package_status": "Draft content package - technical and commercial confirmation required",
+      "evidence_policy": "Only user approved brand and photo visible configuration are used in buyer copy. Domestic listing data remain internal candidates.",
+      "source": {
+        "canonical_url": "https://detail.1688.com/offer/1067198403578.html",
+        "source_html": "D:\\work\\codex\\外部商品连接内容\\10.23\\沟槽管件正三通现货 国标消防管件正三通 消防工程连接管件批发 - 阿里巴巴.html",
+        "source_seller": "潍坊金顺消防管件有限公司",
+        "source_brand": "金顺",
+        "source_item_number": "58",
+        "evidence_file": "D:\\work\\codex\\阿里国际站运营\\tmp\\10.23-intake\\tees-evidence.json"
+      },
+      "product_title": {
+        "english_value": "Grooved Equal Tee with Three Grooved Ends for Fire Protection Pipe Connections",
+        "chinese_translation": "用于消防管道连接的三端沟槽正三通",
+        "character_count": 78,
+        "max_characters": 128
+      },
+      "product_group_information": {
+        "status": "Proposed group - verify or create in Seller Center",
+        "recommended_path_en": "Grooved Pipe Fittings > Grooved Tees",
+        "recommended_path_zh": "沟槽管件 > 沟槽三通",
+        "labels": [
+          {
+            "en": "Grooved Pipe Fittings",
+            "zh": "沟槽管件"
+          },
+          {
+            "en": "Grooved Tees",
+            "zh": "沟槽三通"
+          }
+        ],
+        "copy_ready_group_value_en": "Grooved Tees",
+        "copy_ready_group_value_zh": "沟槽三通",
+        "note_zh": "这是卖家商品分组建议，未读取店铺现有分组；不是平台类目，未创建或修改线上分组。"
+      },
+      "required_and_standard_attributes": [
+        {
+          "field_en": "Brand",
+          "field_zh": "品牌",
+          "english_value": "CHUANWEI FIRE",
+          "chinese_translation": "CHUANWEI FIRE（用户确认的销售展示品牌）",
+          "evidence_state": "Confirmed",
+          "publishable": true
+        },
+        {
+          "field_en": "Application Scenario",
+          "field_zh": "应用场景",
+          "english_value": "Fire protection water piping",
+          "chinese_translation": "消防供水管路",
+          "evidence_state": "Documented product context",
+          "publishable": true
+        },
+        {
+          "field_en": "Material",
+          "field_zh": "材质",
+          "english_value": null,
+          "chinese_translation": "主体材质及牌号未确认；此行为内部提示，不要粘贴到买家字段",
+          "evidence_state": "Required confirmation - do not publish",
+          "publishable": false
+        },
+        {
+          "field_en": "Function",
+          "field_zh": "功能",
+          "english_value": "Create a branch connection in a pipe network",
+          "chinese_translation": "在管道系统中形成支路连接",
+          "evidence_state": "Visible product configuration",
+          "publishable": true
+        },
+        {
+          "field_en": "Connection",
+          "field_zh": "连接结构",
+          "english_value": "Three grooved ends",
+          "chinese_translation": "三个沟槽端口",
+          "evidence_state": "Visible",
+          "publishable": true
+        },
+        {
+          "field_en": "Color",
+          "field_zh": "颜色",
+          "english_value": "Red",
+          "chinese_translation": "红色",
+          "evidence_state": "Visible",
+          "publishable": true
+        }
+      ],
+      "custom_attributes": [
+        {
+          "field_en": "Visible Structure",
+          "field_zh": "可见结构",
+          "english_value": "Three port tee body",
+          "chinese_translation": "三端口三通本体",
+          "evidence_state": "Visible",
+          "publishable": true
+        }
+      ],
+      "attribute_placement_note_zh": "优先填入实时类目对应的标准字段；若应用场景、材质或功能仅支持自定义属性，将同一行移入自定义区，不重复填写。",
+      "sku_setup": {
+        "specification_name_en": "Configuration",
+        "specification_name_zh": "结构规格",
+        "status": "Candidate matrix only - do not create orderable variants until confirmed",
+        "publishable_options": [],
+        "candidate_options": [
+          {
+            "english_value": "Grooved equal tee nominal size DN100 pipe OD 114",
+            "chinese_translation": "正三通 通径DN100外径114",
+            "source_sku_id": 6117331400234,
+            "publishable": false,
+            "evidence_state": "Candidate",
+            "note_zh": "原网页候选规格，未确认本店出口供货；不直接创建可下单SKU。"
+          },
+          {
+            "english_value": "Grooved equal tee nominal size DN125 pipe OD 140",
+            "chinese_translation": "正三通 通径DN125外径140",
+            "source_sku_id": 6117331400236,
+            "publishable": false,
+            "evidence_state": "Candidate",
+            "note_zh": "原网页候选规格，未确认本店出口供货；不直接创建可下单SKU。"
+          },
+          {
+            "english_value": "Grooved equal tee nominal size DN150 pipe OD 165",
+            "chinese_translation": "正三通 通径DN150外径165",
+            "source_sku_id": 6117331400238,
+            "publishable": false,
+            "evidence_state": "Candidate",
+            "note_zh": "原网页候选规格，未确认本店出口供货；不直接创建可下单SKU。"
+          },
+          {
+            "english_value": "Grooved equal tee nominal size DN125 pipe OD 133",
+            "chinese_translation": "正三通 通径DN125外径133",
+            "source_sku_id": 6117331400235,
+            "publishable": false,
+            "evidence_state": "Candidate",
+            "note_zh": "原网页候选规格，未确认本店出口供货；不直接创建可下单SKU。"
+          },
+          {
+            "english_value": "Grooved equal tee nominal size DN65 pipe OD 76",
+            "chinese_translation": "正三通 通径DN65外径76",
+            "source_sku_id": 6117331400231,
+            "publishable": false,
+            "evidence_state": "Candidate",
+            "note_zh": "原网页候选规格，未确认本店出口供货；不直接创建可下单SKU。"
+          },
+          {
+            "english_value": "Grooved equal tee nominal size DN50 pipe OD 60",
+            "chinese_translation": "正三通 通径DN50外径60",
+            "source_sku_id": 6117331400230,
+            "publishable": false,
+            "evidence_state": "Candidate",
+            "note_zh": "原网页候选规格，未确认本店出口供货；不直接创建可下单SKU。"
+          },
+          {
+            "english_value": "Grooved equal tee nominal size DN200 pipe OD 219",
+            "chinese_translation": "正三通 通径DN200外径219",
+            "source_sku_id": 6117331400239,
+            "publishable": false,
+            "evidence_state": "Candidate",
+            "note_zh": "原网页候选规格，未确认本店出口供货；不直接创建可下单SKU。"
+          },
+          {
+            "english_value": "Grooved equal tee nominal size DN80 pipe OD 89",
+            "chinese_translation": "正三通 通径DN80外径89",
+            "source_sku_id": 6117331400232,
+            "publishable": false,
+            "evidence_state": "Candidate",
+            "note_zh": "原网页候选规格，未确认本店出口供货；不直接创建可下单SKU。"
+          },
+          {
+            "english_value": "Grooved equal tee nominal size DN100 pipe OD 108",
+            "chinese_translation": "正三通 通径DN100外径108",
+            "source_sku_id": 6117331400233,
+            "publishable": false,
+            "evidence_state": "Candidate",
+            "note_zh": "原网页候选规格，未确认本店出口供货；不直接创建可下单SKU。"
+          },
+          {
+            "english_value": "Grooved equal tee nominal size DN150 pipe OD 159",
+            "chinese_translation": "正三通 通径DN150外径159",
+            "source_sku_id": 6117331400237,
+            "publishable": false,
+            "evidence_state": "Candidate",
+            "note_zh": "原网页候选规格，未确认本店出口供货；不直接创建可下单SKU。"
+          }
+        ],
+        "note_zh": "候选来自原1688页面，非已确认出口SKU。货号不等于型号；尺寸、压力、价格、库存、MOQ均不可自动转为本店承诺。"
+      },
+      "product_selling_points": {
+        "english_value": "Grooved equal tee with a red surface and three grooved ends The reference photographs show the body shape openings and physical casting marks Send the pipe outside diameter drawing and quantity for quotation",
+        "chinese_translation": "红色表面的沟槽正三通具有三个沟槽端口。参考照片展示本体形状、开口及实物铸字。询价请提供管道外径、图纸和数量。",
+        "character_count": 207,
+        "validation_regex": "^[A-Za-z0-9 ]+$",
+        "validation_passed": true,
+        "live_limit_status": "No live field length supplied; recheck the live limit when entering"
+      },
+      "logo_customization": {
+        "internal_recommendation_en": "Do not enable yet",
+        "internal_recommendation_zh": "暂不启用实物Logo定制；图片展示品牌不等于工厂具备定制能力",
+        "publishable_fields": []
+      },
+      "commercial_inputs_still_needed": [
+        "确认相同DN下不同外径系列的实际供货关系",
+        "可见XGQT03及159-2.5/3铸字不能直接作为型号、压力或认证证明",
+        "本店实际可供出口规格与型号对应关系",
+        "主体材质及牌号，必要时含密封件和紧固件材质",
+        "额定工作压力与目标市场标准或认证的有效证明",
+        "价格、币种、贸易条款、MOQ、库存及交期",
+        "每箱数量、包装方式、净重、毛重及包装尺寸",
+        "如需实物Logo定制，确认工艺、位置、MOQ、稿件格式、样品费及交期"
+      ],
+      "english_detail_description": [
+        {
+          "en": "The grooved equal tee forms a branch connection in a pipe network. The reference product has a red body with three circular grooved ends arranged in a tee configuration.",
+          "zh": "沟槽正三通用于在管道系统中形成支路连接。参考实物为红色本体，三个圆形沟槽端口构成三通布局。"
+        },
+        {
+          "en": "The product images show the openings, end grooves and visible casting marks. Physical marks are preserved as part of the photographed product and should be checked against the final supply specification.",
+          "zh": "产品图片展示开口、端部沟槽和可见铸字。实物标记作为所拍产品的一部分保留，应与最终供货规格核对。"
+        },
+        {
+          "en": "For quotation, please provide the pipe outside diameter, required material, working pressure, connection drawing and quantity. The end dimensions, groove profile and any required approvals should be confirmed before ordering.",
+          "zh": "询价请提供管道外径、所需材质、工作压力、连接图纸和数量。端口尺寸、沟槽形状及所需认证应在下单前确认。"
+        }
+      ],
+      "inquiry_sentence": {
+        "english_value": "Please quote the grooved equal tee Please confirm pipe outside diameter material working pressure groove dimensions quantity and packing",
+        "chinese_translation": "请报沟槽正三通，并确认管道外径、材质、工作压力、沟槽尺寸、数量和包装。"
+      },
+      "images": [
+        {
+          "path": "images/沟槽正三通系列-阿里国际站-01-产品主图-en.jpg",
+          "role": "product",
+          "exists": true
+        },
+        {
+          "path": "images/沟槽正三通系列-阿里国际站-02-白底产品图-en.jpg",
+          "role": "product",
+          "exists": true
+        },
+        {
+          "path": "images/沟槽正三通系列-阿里国际站-03-结构细节图-en.jpg",
+          "role": "product",
+          "exists": true
+        },
+        {
+          "path": "images/沟槽正三通系列-阿里国际站-04-接口细节图-en.jpg",
+          "role": "product",
+          "exists": true
+        },
+        {
+          "path": "images/沟槽正三通系列-阿里国际站-05-部件细节图-en.jpg",
+          "role": "product",
+          "exists": true
+        },
+        {
+          "path": "images/沟槽正三通系列-阿里国际站-06-多角度展示图-en.jpg",
+          "role": "product",
+          "exists": true
+        },
+        {
+          "path": "images/沟槽正三通系列-阿里国际站-07-产品概览详情图-en.jpg",
+          "role": "product",
+          "exists": true
+        },
+        {
+          "path": "images/沟槽正三通系列-阿里国际站-08-连接结构详情图-en.jpg",
+          "role": "product",
+          "exists": true
+        },
+        {
+          "path": "images/沟槽正三通系列-阿里国际站-09-表面细节详情图-en.jpg",
+          "role": "product",
+          "exists": true
+        },
+        {
+          "path": "images/沟槽正三通系列-阿里国际站-10-实物视角详情图-en.jpg",
+          "role": "product",
+          "exists": true
+        }
+      ],
+      "not_published": true
+    },
+    {
+      "schema_version": "1.0",
+      "batch_date": "2026-10-23",
+      "product_key": "flange",
+      "product_name": {
+        "en": "Grooved Flange Adapter",
+        "zh": "沟槽转换法兰"
+      },
+      "output_directory": "D:\\work\\codex\\阿里国际站运营\\outputs\\alibaba-detail-image-studio\\沟槽转换法兰系列-消防管道转换法兰",
+      "package_status": "Draft content package - technical and commercial confirmation required",
+      "evidence_policy": "Only user approved brand and photo visible configuration are used in buyer copy. Domestic listing data remain internal candidates.",
+      "source": {
+        "canonical_url": "https://detail.1688.com/offer/1062903625929.html",
+        "source_html": "D:\\work\\codex\\外部商品连接内容\\10.23\\沟槽管件转换法兰 球墨铸铁消防连接件法兰 结实耐用卡箍转换法兰 - 阿里巴巴.html",
+        "source_seller": "潍坊金顺消防管件有限公司",
+        "source_brand": "金顺",
+        "source_item_number": "51",
+        "evidence_file": "D:\\work\\codex\\阿里国际站运营\\outputs\\alibaba-detail-image-studio\\沟槽转换法兰系列-消防管道转换法兰\\copy\\source-evidence.json"
+      },
+      "product_title": {
+        "english_value": "Grooved Flange Adapter with Short Grooved Neck and Bolt Holes for Fire Protection Piping",
+        "chinese_translation": "用于消防管路的短颈沟槽及螺栓孔转换法兰",
+        "character_count": 88,
+        "max_characters": 128
+      },
+      "product_group_information": {
+        "status": "Proposed group - verify or create in Seller Center",
+        "recommended_path_en": "Grooved Pipe Fittings > Grooved Flange Adapters",
+        "recommended_path_zh": "沟槽管件 > 沟槽转换法兰",
+        "labels": [
+          {
+            "en": "Grooved Pipe Fittings",
+            "zh": "沟槽管件"
+          },
+          {
+            "en": "Grooved Flange Adapters",
+            "zh": "沟槽转换法兰"
+          }
+        ],
+        "copy_ready_group_value_en": "Grooved Flange Adapters",
+        "copy_ready_group_value_zh": "沟槽转换法兰",
+        "note_zh": "这是卖家商品分组建议，未读取店铺现有分组；不是平台类目，未创建或修改线上分组。"
+      },
+      "required_and_standard_attributes": [
+        {
+          "field_en": "Brand",
+          "field_zh": "品牌",
+          "english_value": "CHUANWEI FIRE",
+          "chinese_translation": "CHUANWEI FIRE（用户确认的销售展示品牌）",
+          "evidence_state": "Confirmed",
+          "publishable": true
+        },
+        {
+          "field_en": "Application Scenario",
+          "field_zh": "应用场景",
+          "english_value": "Fire protection water piping",
+          "chinese_translation": "消防供水管路",
+          "evidence_state": "Documented product context",
+          "publishable": true
+        },
+        {
+          "field_en": "Material",
+          "field_zh": "材质",
+          "english_value": null,
+          "chinese_translation": "主体材质及牌号未确认；此行为内部提示，不要粘贴到买家字段",
+          "evidence_state": "Required confirmation - do not publish",
+          "publishable": false
+        },
+        {
+          "field_en": "Function",
+          "field_zh": "功能",
+          "english_value": "Provide a transition between a grooved connection and a flange connection",
+          "chinese_translation": "在沟槽连接与法兰连接之间提供过渡",
+          "evidence_state": "Visible product configuration",
+          "publishable": true
+        },
+        {
+          "field_en": "Connection",
+          "field_zh": "连接结构",
+          "english_value": "Grooved neck and flange face",
+          "chinese_translation": "沟槽短颈及法兰端面",
+          "evidence_state": "Visible",
+          "publishable": true
+        },
+        {
+          "field_en": "Color",
+          "field_zh": "颜色",
+          "english_value": "Red",
+          "chinese_translation": "红色",
+          "evidence_state": "Visible",
+          "publishable": true
+        }
+      ],
+      "custom_attributes": [
+        {
+          "field_en": "Visible Structure",
+          "field_zh": "可见结构",
+          "english_value": "Circular flange with bolt holes and visible radial ribs",
+          "chinese_translation": "圆形法兰，带螺栓孔及可见径向加强筋",
+          "evidence_state": "Visible",
+          "publishable": true
+        }
+      ],
+      "attribute_placement_note_zh": "优先填入实时类目对应的标准字段；若应用场景、材质或功能仅支持自定义属性，将同一行移入自定义区，不重复填写。",
+      "sku_setup": {
+        "specification_name_en": "Configuration",
+        "specification_name_zh": "结构规格",
+        "status": "Candidate matrix only - do not create orderable variants until confirmed",
+        "publishable_options": [],
+        "candidate_options": [
+          {
+            "english_value": "Grooved flange adapter nominal size DN50 pipe OD 60",
+            "chinese_translation": "转换法兰 通径DN50外径60",
+            "source_sku_id": 6273242766961,
+            "publishable": false,
+            "evidence_state": "Candidate",
+            "note_zh": "原网页候选规格，未确认本店出口供货；不直接创建可下单SKU。"
+          },
+          {
+            "english_value": "Grooved flange adapter nominal size DN65 pipe OD 76",
+            "chinese_translation": "转换法兰 通径DN65外径76",
+            "source_sku_id": 6273242766962,
+            "publishable": false,
+            "evidence_state": "Candidate",
+            "note_zh": "原网页候选规格，未确认本店出口供货；不直接创建可下单SKU。"
+          },
+          {
+            "english_value": "Grooved flange adapter nominal size DN80 pipe OD 89",
+            "chinese_translation": "转换法兰 通径DN80外径89",
+            "source_sku_id": 6273242766963,
+            "publishable": false,
+            "evidence_state": "Candidate",
+            "note_zh": "原网页候选规格，未确认本店出口供货；不直接创建可下单SKU。"
+          },
+          {
+            "english_value": "Grooved flange adapter nominal size DN100 pipe OD 108",
+            "chinese_translation": "转换法兰 通径DN100外径108",
+            "source_sku_id": 6273242766964,
+            "publishable": false,
+            "evidence_state": "Candidate",
+            "note_zh": "原网页候选规格，未确认本店出口供货；不直接创建可下单SKU。"
+          },
+          {
+            "english_value": "Grooved flange adapter nominal size DN100 pipe OD 114",
+            "chinese_translation": "转换法兰 通径DN100外径114",
+            "source_sku_id": 6273242766965,
+            "publishable": false,
+            "evidence_state": "Candidate",
+            "note_zh": "原网页候选规格，未确认本店出口供货；不直接创建可下单SKU。"
+          },
+          {
+            "english_value": "Grooved flange adapter nominal size DN125 pipe OD 133",
+            "chinese_translation": "转换法兰 通径DN125外径133",
+            "source_sku_id": 6273242766966,
+            "publishable": false,
+            "evidence_state": "Candidate",
+            "note_zh": "原网页候选规格，未确认本店出口供货；不直接创建可下单SKU。"
+          },
+          {
+            "english_value": "Grooved flange adapter nominal size DN125 pipe OD 140",
+            "chinese_translation": "转换法兰 通径DN125外径140",
+            "source_sku_id": 6273242766967,
+            "publishable": false,
+            "evidence_state": "Candidate",
+            "note_zh": "原网页候选规格，未确认本店出口供货；不直接创建可下单SKU。"
+          },
+          {
+            "english_value": "Grooved flange adapter nominal size DN150 pipe OD 159",
+            "chinese_translation": "转换法兰 通径DN150外径159",
+            "source_sku_id": 6273242766968,
+            "publishable": false,
+            "evidence_state": "Candidate",
+            "note_zh": "原网页候选规格，未确认本店出口供货；不直接创建可下单SKU。"
+          },
+          {
+            "english_value": "Grooved flange adapter nominal size DN150 pipe OD 165",
+            "chinese_translation": "转换法兰 通径DN150外径165",
+            "source_sku_id": 6273242766969,
+            "publishable": false,
+            "evidence_state": "Candidate",
+            "note_zh": "原网页候选规格，未确认本店出口供货；不直接创建可下单SKU。"
+          },
+          {
+            "english_value": "Grooved flange adapter nominal size DN200 pipe OD 219",
+            "chinese_translation": "转换法兰 通径DN200外径219",
+            "source_sku_id": 6273242766970,
+            "publishable": false,
+            "evidence_state": "Candidate",
+            "note_zh": "原网页候选规格，未确认本店出口供货；不直接创建可下单SKU。"
+          }
+        ],
+        "note_zh": "候选来自原1688页面，非已确认出口SKU。货号不等于型号；尺寸、压力、价格、库存、MOQ均不可自动转为本店承诺。"
+      },
+      "product_selling_points": {
+        "english_value": "Grooved flange adapter with a short grooved neck circular flange and bolt holes The reference photo shows the radial ribs and red surface Send the pipe outside diameter flange drilling drawing and quantity for quotation",
+        "chinese_translation": "沟槽转换法兰具有沟槽短颈、圆形法兰及螺栓孔。参考照片可见径向加强筋和红色表面。询价请提供管道外径、法兰钻孔图纸和数量。",
+        "character_count": 219,
+        "validation_regex": "^[A-Za-z0-9 ]+$",
+        "validation_passed": true,
+        "live_limit_status": "No live field length supplied; recheck the live limit when entering"
+      },
+      "logo_customization": {
+        "internal_recommendation_en": "Do not enable yet",
+        "internal_recommendation_zh": "暂不启用实物Logo定制；图片展示品牌不等于工厂具备定制能力",
+        "publishable_fields": []
+      },
+      "commercial_inputs_still_needed": [
+        "材质存在冲突：原网页标题称球墨铸铁，结构化材质字段为其它；必须核实",
+        "确认法兰孔数、孔距、孔径、钻孔标准及沟槽端口匹配关系",
+        "本店实际可供出口规格与型号对应关系",
+        "主体材质及牌号，必要时含密封件和紧固件材质",
+        "额定工作压力与目标市场标准或认证的有效证明",
+        "价格、币种、贸易条款、MOQ、库存及交期",
+        "每箱数量、包装方式、净重、毛重及包装尺寸",
+        "如需实物Logo定制，确认工艺、位置、MOQ、稿件格式、样品费及交期"
+      ],
+      "english_detail_description": [
+        {
+          "en": "The grooved flange adapter provides a transition between a grooved connection and a flange connection. The reference product has a red surface, short grooved neck and circular flange.",
+          "zh": "沟槽转换法兰用于沟槽连接与法兰连接之间的过渡。参考实物具有红色表面、沟槽短颈和圆形法兰。"
+        },
+        {
+          "en": "The photographs show the central opening, bolt holes and radial ribs between the neck and flange rim. These details help identify the body layout for drawing review.",
+          "zh": "照片展示中心开口、螺栓孔，以及短颈与法兰边缘之间的径向加强筋。这些细节可用于图纸核对时识别本体布局。"
+        },
+        {
+          "en": "For quotation, please provide the pipe outside diameter, flange drilling standard or drawing, required material, working pressure and quantity. Bolt dimensions and connection compatibility should be checked against the approved drawing.",
+          "zh": "询价请提供管道外径、法兰钻孔标准或图纸、所需材质、工作压力和数量。螺栓尺寸及连接适配关系应按确认图纸核对。"
+        }
+      ],
+      "inquiry_sentence": {
+        "english_value": "Please quote the grooved flange adapter Please confirm pipe outside diameter flange drilling standard material working pressure quantity and packing",
+        "chinese_translation": "请报沟槽转换法兰，并确认管道外径、法兰钻孔标准、材质、工作压力、数量和包装。"
+      },
+      "images": [
+        {
+          "path": "images/沟槽转换法兰系列-阿里国际站-01-系列产品主图-en.png",
+          "role": "product",
+          "exists": true
+        },
+        {
+          "path": "images/沟槽转换法兰系列-阿里国际站-02-白底系列图-en.png",
+          "role": "product",
+          "exists": true
+        },
+        {
+          "path": "images/沟槽转换法兰系列-阿里国际站-03-正面开口图-en.png",
+          "role": "product",
+          "exists": true
+        },
+        {
+          "path": "images/沟槽转换法兰系列-阿里国际站-04-短颈沟槽细节图-en.png",
+          "role": "product",
+          "exists": true
+        },
+        {
+          "path": "images/沟槽转换法兰系列-阿里国际站-05-加强筋细节图-en.png",
+          "role": "product",
+          "exists": true
+        },
+        {
+          "path": "images/沟槽转换法兰系列-阿里国际站-06-螺栓孔细节图-en.png",
+          "role": "product",
+          "exists": true
+        },
+        {
+          "path": "images/沟槽转换法兰系列-阿里国际站-07-产品结构详情图-en.png",
+          "role": "product",
+          "exists": true
+        },
+        {
+          "path": "images/沟槽转换法兰系列-阿里国际站-08-端口识别详情图-en.png",
+          "role": "product",
+          "exists": true
+        },
+        {
+          "path": "images/沟槽转换法兰系列-阿里国际站-09-内孔表面详情图-en.png",
+          "role": "product",
+          "exists": true
+        },
+        {
+          "path": "images/沟槽转换法兰系列-阿里国际站-10-系列展示详情图-en.png",
+          "role": "product",
+          "exists": true
+        }
+      ],
+      "not_published": true
+    },
+    {
+      "schema_version": "1.0",
+      "batch_date": "2026-10-23",
+      "product_key": "pump",
+      "product_name": {
+        "en": "Horizontal Single Stage Fire Pump",
+        "zh": "卧式单级消防泵"
+      },
+      "output_directory": "D:\\work\\codex\\阿里国际站运营\\outputs\\alibaba-detail-image-studio\\XBD3.2-1W-JXL-卧式单级消防泵",
+      "package_status": "Draft content package - technical and commercial confirmation required",
+      "evidence_policy": "Only user approved brand and photo visible configuration are used in buyer copy. Domestic listing data remain internal candidates.",
+      "source": {
+        "canonical_url": "https://detail.1688.com/offer/974369022643.html",
+        "source_html": "D:\\work\\codex\\外部商品连接内容\\10.23\\消防泵水泵XBD卧式单级室内外消火栓自动喷淋增压给水稳压水泵 - 阿里巴巴.html",
+        "source_seller": "上海嘉寻泵业集团有限公司",
+        "source_brand": "嘉寻",
+        "source_item_number": null,
+        "evidence_file": "D:\\work\\codex\\阿里国际站运营\\tmp\\10.23-intake\\pump-evidence.json"
+      },
+      "product_title": {
+        "english_value": "Horizontal Single Stage Fire Pump with Electric Motor Flanged Ports and Common Baseplate",
+        "chinese_translation": "带电动机、法兰端口及共用底座的卧式单级消防泵",
+        "character_count": 88,
+        "max_characters": 128
+      },
+      "product_group_information": {
+        "status": "Proposed group - verify or create in Seller Center",
+        "recommended_path_en": "Fire Pumps > Horizontal Fire Pumps",
+        "recommended_path_zh": "消防泵 > 卧式消防泵",
+        "labels": [
+          {
+            "en": "Fire Pumps",
+            "zh": "消防泵"
+          },
+          {
+            "en": "Horizontal Fire Pumps",
+            "zh": "卧式消防泵"
+          }
+        ],
+        "copy_ready_group_value_en": "Horizontal Fire Pumps",
+        "copy_ready_group_value_zh": "卧式消防泵",
+        "note_zh": "这是卖家商品分组建议，未读取店铺现有分组；不是平台类目，未创建或修改线上分组。"
+      },
+      "required_and_standard_attributes": [
+        {
+          "field_en": "Brand",
+          "field_zh": "品牌",
+          "english_value": "CHUANWEI FIRE",
+          "chinese_translation": "CHUANWEI FIRE（用户确认的销售展示品牌）",
+          "evidence_state": "Confirmed",
+          "publishable": true
+        },
+        {
+          "field_en": "Application Scenario",
+          "field_zh": "应用场景",
+          "english_value": "Fire water supply systems",
+          "chinese_translation": "消防供水系统",
+          "evidence_state": "Documented product context",
+          "publishable": true
+        },
+        {
+          "field_en": "Material",
+          "field_zh": "材质",
+          "english_value": null,
+          "chinese_translation": "主体材质及牌号未确认；此行为内部提示，不要粘贴到买家字段",
+          "evidence_state": "Required confirmation - do not publish",
+          "publishable": false
+        },
+        {
+          "field_en": "Function",
+          "field_zh": "功能",
+          "english_value": "Transfer water for fire protection supply",
+          "chinese_translation": "输送消防供水用水",
+          "evidence_state": "Visible product configuration",
+          "publishable": true
+        },
+        {
+          "field_en": "Connection",
+          "field_zh": "连接结构",
+          "english_value": "Flanged inlet and outlet",
+          "chinese_translation": "法兰进口及出口",
+          "evidence_state": "Visible",
+          "publishable": true
+        },
+        {
+          "field_en": "Color",
+          "field_zh": "颜色",
+          "english_value": "Red",
+          "chinese_translation": "红色",
+          "evidence_state": "Visible",
+          "publishable": true
+        }
+      ],
+      "custom_attributes": [
+        {
+          "field_en": "Visible Structure",
+          "field_zh": "可见结构",
+          "english_value": "Horizontal pump and electric motor on a common baseplate",
+          "chinese_translation": "卧式泵与电动机安装在共用底座上",
+          "evidence_state": "Visible",
+          "publishable": true
+        }
+      ],
+      "attribute_placement_note_zh": "优先填入实时类目对应的标准字段；若应用场景、材质或功能仅支持自定义属性，将同一行移入自定义区，不重复填写。",
+      "sku_setup": {
+        "specification_name_en": "Factory Model",
+        "specification_name_zh": "工厂型号",
+        "status": "Candidate matrix only - do not create orderable variants until confirmed",
+        "publishable_options": [],
+        "candidate_options": [
+          {
+            "english_value": "XBD3.2/1W- JXL",
+            "chinese_translation": "XBD3.2/1W- JXL（唯一原网页工厂型号候选）",
+            "source_sku_id": 5927002252205,
+            "publishable": false,
+            "evidence_state": "Candidate",
+            "note_zh": "该型号与额定参数有同一SKU对应，仍需实物铭牌及出口供货确认。",
+            "candidate_parameters": [
+              {
+                "name": "额定功率",
+                "value": "1.5",
+                "unit_as_saved": "kw"
+              },
+              {
+                "name": "额定流量",
+                "value": "3.6",
+                "unit_as_saved": "m³/h"
+              },
+              {
+                "name": "额定扬程",
+                "value": "32",
+                "unit_as_saved": "m"
+              },
+              {
+                "name": "电压",
+                "value": "380",
+                "unit_as_saved": "V"
+              },
+              {
+                "name": "进口尺寸",
+                "value": "DN32",
+                "unit_as_saved": ""
+              },
+              {
+                "name": "重量",
+                "value": "30",
+                "unit_as_saved": "kg"
+              },
+              {
+                "name": "出口压力",
+                "value": "0.32",
+                "unit_as_saved": "Mpa"
+              },
+              {
+                "name": "应用场景",
+                "value": "楼宇消防增压供水",
+                "unit_as_saved": ""
+              }
+            ]
+          }
+        ],
+        "note_zh": "候选来自原1688页面，非已确认出口SKU。货号不等于型号；尺寸、压力、价格、库存、MOQ均不可自动转为本店承诺。"
+      },
+      "product_selling_points": {
+        "english_value": "Horizontal single stage fire pump with an electric motor and common baseplate The reference product has a front inlet flange and an upper outlet flange Send the required flow head power supply and connection drawing for quotation",
+        "chinese_translation": "卧式单级消防泵配有电动机及共用底座。参考实物具有前端进口法兰和上方出口法兰。询价请提供所需流量、扬程、电源及连接图纸。",
+        "character_count": 229,
+        "validation_regex": "^[A-Za-z0-9 ]+$",
+        "validation_passed": true,
+        "live_limit_status": "No live field length supplied; recheck the live limit when entering"
+      },
+      "logo_customization": {
+        "internal_recommendation_en": "Do not enable yet",
+        "internal_recommendation_zh": "暂不启用实物Logo定制；图片展示品牌不等于工厂具备定制能力",
+        "publishable_fields": []
+      },
+      "commercial_inputs_still_needed": [
+        "唯一工厂型号候选XBD3.2/1W- JXL对应1.5 kW、3.6 m3/h、32 m、380 V，需确认实物铭牌及出口供货关系",
+        "最大流量360与最大扬程150缺少单位和型号对应，不可发布为范围或同一工作点",
+        "SKU重量30 kg与包装表1000 g冲突，不可直接用于运费或包装信息",
+        "确认电源频率、相数、转速、性能曲线、泵体材质及法兰钻孔标准",
+        "本店实际可供出口规格与型号对应关系",
+        "主体材质及牌号，必要时含密封件和紧固件材质",
+        "额定工作压力与目标市场标准或认证的有效证明",
+        "价格、币种、贸易条款、MOQ、库存及交期",
+        "每箱数量、包装方式、净重、毛重及包装尺寸",
+        "如需实物Logo定制，确认工艺、位置、MOQ、稿件格式、样品费及交期"
+      ],
+      "english_detail_description": [
+        {
+          "en": "The horizontal single-stage fire pump is shown with an electric motor on a common baseplate. The red pump body has a front axial inlet flange and an outlet flange above the casing.",
+          "zh": "图片中的卧式单级消防泵与电动机安装在共用底座上。红色泵体前端为轴向进口法兰，泵壳上方为出口法兰。"
+        },
+        {
+          "en": "The reference photographs show the pump casing, motor housing, upper terminal box and mounting base. These details help identify the visible assembly for specification review.",
+          "zh": "参考照片展示泵壳、电机外壳、顶部接线盒和安装底座，这些细节有助于规格核对时识别总成结构。"
+        },
+        {
+          "en": "For quotation, please provide the required flow and head, supply voltage and frequency, connection drawing, installation space and quantity. The final model, duty point, materials and any required approvals should be confirmed for the destination market.",
+          "zh": "询价请提供所需流量和扬程、电源电压及频率、连接图纸、安装空间和数量。最终型号、工作点、材质及所需认证应按目标市场确认。"
+        }
+      ],
+      "inquiry_sentence": {
+        "english_value": "Please quote the horizontal single stage fire pump Please confirm the required flow head voltage frequency connection drawing material quantity and packing",
+        "chinese_translation": "请报卧式单级消防泵，并确认所需流量、扬程、电压、频率、连接图纸、材质、数量和包装。"
+      },
+      "images": [
+        {
+          "path": "images/XBD3.2-1W-JXL-阿里国际站-01-营销主图-en.jpg",
+          "role": "product",
+          "exists": true
+        },
+        {
+          "path": "images/XBD3.2-1W-JXL-阿里国际站-02-白底产品图-en.jpg",
+          "role": "product",
+          "exists": true
+        },
+        {
+          "path": "images/XBD3.2-1W-JXL-阿里国际站-03-总成结构图-en.jpg",
+          "role": "product",
+          "exists": true
+        },
+        {
+          "path": "images/XBD3.2-1W-JXL-阿里国际站-04-法兰接口细节图-en.jpg",
+          "role": "product",
+          "exists": true
+        },
+        {
+          "path": "images/XBD3.2-1W-JXL-阿里国际站-05-共用底座细节图-en.jpg",
+          "role": "product",
+          "exists": true
+        },
+        {
+          "path": "images/XBD3.2-1W-JXL-阿里国际站-06-电机外观细节图-en.jpg",
+          "role": "product",
+          "exists": true
+        },
+        {
+          "path": "images/XBD3.2-1W-JXL-阿里国际站-07-产品概览详情图-en.jpg",
+          "role": "product",
+          "exists": true
+        },
+        {
+          "path": "images/XBD3.2-1W-JXL-阿里国际站-08-双接口结构详情图-en.jpg",
+          "role": "product",
+          "exists": true
+        },
+        {
+          "path": "images/XBD3.2-1W-JXL-阿里国际站-09-泵机布置详情图-en.jpg",
+          "role": "product",
+          "exists": true
+        },
+        {
+          "path": "images/XBD3.2-1W-JXL-阿里国际站-10-应用背景图-en.jpg",
+          "role": "product",
+          "exists": true,
+          "is_marketing_visualization": true,
+          "caption_en": "Marketing background illustration",
+          "caption_zh": "营销背景示意，不代表真实安装项目"
+        }
+      ],
+      "not_published": true
+    }
+  ]
+}

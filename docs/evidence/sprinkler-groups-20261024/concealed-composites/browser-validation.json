@@ -1,0 +1,627 @@
+{
+  "status": "PASS",
+  "generatedAt": "2026-10-23T17:45:56.936Z",
+  "browser": "Edg/155.0.4283.62",
+  "checks": [
+    {
+      "scenario": "en-directory-desktop",
+      "status": "PASS",
+      "file": "products.html",
+      "viewport": {
+        "id": "desktop",
+        "width": 1440,
+        "height": 1000
+      },
+      "layout": {
+        "overflow": -15,
+        "broken": [],
+        "lang": "en",
+        "dir": "ltr"
+      },
+      "cards": [
+        {
+          "id": "k80-standard-concealed",
+          "src": "assets/catalog-thumbnails/74a0e50122b8670c3b188051-480.webp",
+          "width": 480,
+          "height": 480,
+          "href": "/products/消防喷头/concealed-pendent-fire-sprinkler.html#series-k80-standard-concealed",
+          "caption": "K80 / 68°C standard-response concealed sprinkler — covered assembly and exposed mechanism."
+        },
+        {
+          "id": "k80-quick-concealed",
+          "src": "assets/catalog-thumbnails/d1dca2a9588ffd54bf5fa80a-480.webp",
+          "width": 480,
+          "height": 480,
+          "href": "/products/消防喷头/concealed-pendent-fire-sprinkler.html#series-k80-quick-concealed",
+          "caption": "K80 / 68°C quick-response concealed sprinkler — covered assembly and exposed mechanism."
+        },
+        {
+          "id": "k115-standard-concealed",
+          "src": "assets/catalog-thumbnails/fdb52efccef2600c64945d79-480.webp",
+          "width": 480,
+          "height": 480,
+          "href": "/products/消防喷头/concealed-pendent-fire-sprinkler.html#series-k115-standard-concealed",
+          "caption": "K115 / 68°C standard-response concealed sprinkler — covered assembly and exposed mechanism."
+        },
+        {
+          "id": "k115-quick-concealed",
+          "src": "assets/catalog-thumbnails/334260eb72c532721a208fc7-480.webp",
+          "width": 480,
+          "height": 480,
+          "href": "/products/消防喷头/concealed-pendent-fire-sprinkler.html#series-k115-quick-concealed",
+          "caption": "K115 / 68°C quick-response concealed sprinkler — covered assembly and exposed mechanism."
+        }
+      ]
+    },
+    {
+      "scenario": "en-directory-mobile",
+      "status": "PASS",
+      "file": "products.html",
+      "viewport": {
+        "id": "mobile",
+        "width": 390,
+        "height": 844
+      },
+      "layout": {
+        "overflow": 0,
+        "broken": [],
+        "lang": "en",
+        "dir": "ltr"
+      },
+      "cards": [
+        {
+          "id": "k80-standard-concealed",
+          "src": "assets/catalog-thumbnails/74a0e50122b8670c3b188051-480.webp",
+          "width": 480,
+          "height": 480,
+          "href": "/products/消防喷头/concealed-pendent-fire-sprinkler.html#series-k80-standard-concealed",
+          "caption": "K80 / 68°C standard-response concealed sprinkler — covered assembly and exposed mechanism."
+        },
+        {
+          "id": "k80-quick-concealed",
+          "src": "assets/catalog-thumbnails/d1dca2a9588ffd54bf5fa80a-480.webp",
+          "width": 480,
+          "height": 480,
+          "href": "/products/消防喷头/concealed-pendent-fire-sprinkler.html#series-k80-quick-concealed",
+          "caption": "K80 / 68°C quick-response concealed sprinkler — covered assembly and exposed mechanism."
+        },
+        {
+          "id": "k115-standard-concealed",
+          "src": "assets/catalog-thumbnails/fdb52efccef2600c64945d79-480.webp",
+          "width": 480,
+          "height": 480,
+          "href": "/products/消防喷头/concealed-pendent-fire-sprinkler.html#series-k115-standard-concealed",
+          "caption": "K115 / 68°C standard-response concealed sprinkler — covered assembly and exposed mechanism."
+        },
+        {
+          "id": "k115-quick-concealed",
+          "src": "assets/catalog-thumbnails/334260eb72c532721a208fc7-480.webp",
+          "width": 480,
+          "height": 480,
+          "href": "/products/消防喷头/concealed-pendent-fire-sprinkler.html#series-k115-quick-concealed",
+          "caption": "K115 / 68°C quick-response concealed sprinkler — covered assembly and exposed mechanism."
+        }
+      ]
+    },
+    {
+      "scenario": "en-sprinklers-desktop",
+      "status": "PASS",
+      "file": "products/消防喷头.html",
+      "viewport": {
+        "id": "desktop",
+        "width": 1440,
+        "height": 1000
+      },
+      "layout": {
+        "overflow": -15,
+        "broken": [],
+        "lang": "en",
+        "dir": "ltr"
+      },
+      "cards": [
+        {
+          "id": "k80-standard-concealed",
+          "src": "assets/catalog-thumbnails/74a0e50122b8670c3b188051-480.webp",
+          "width": 480,
+          "height": 480,
+          "href": "/products/消防喷头/concealed-pendent-fire-sprinkler.html#series-k80-standard-concealed",
+          "caption": "K80 / 68°C standard-response concealed sprinkler — covered assembly and exposed mechanism."
+        },
+        {
+          "id": "k80-quick-concealed",
+          "src": "assets/catalog-thumbnails/d1dca2a9588ffd54bf5fa80a-480.webp",
+          "width": 480,
+          "height": 480,
+          "href": "/products/消防喷头/concealed-pendent-fire-sprinkler.html#series-k80-quick-concealed",
+          "caption": "K80 / 68°C quick-response concealed sprinkler — covered assembly and exposed mechanism."
+        },
+        {
+          "id": "k115-standard-concealed",
+          "src": "assets/catalog-thumbnails/fdb52efccef2600c64945d79-480.webp",
+          "width": 480,
+          "height": 480,
+          "href": "/products/消防喷头/concealed-pendent-fire-sprinkler.html#series-k115-standard-concealed",
+          "caption": "K115 / 68°C standard-response concealed sprinkler — covered assembly and exposed mechanism."
+        },
+        {
+          "id": "k115-quick-concealed",
+          "src": "assets/catalog-thumbnails/334260eb72c532721a208fc7-480.webp",
+          "width": 480,
+          "height": 480,
+          "href": "/products/消防喷头/concealed-pendent-fire-sprinkler.html#series-k115-quick-concealed",
+          "caption": "K115 / 68°C quick-response concealed sprinkler — covered assembly and exposed mechanism."
+        }
+      ]
+    },
+    {
+      "scenario": "en-sprinklers-mobile",
+      "status": "PASS",
+      "file": "products/消防喷头.html",
+      "viewport": {
+        "id": "mobile",
+        "width": 390,
+        "height": 844
+      },
+      "layout": {
+        "overflow": 0,
+        "broken": [],
+        "lang": "en",
+        "dir": "ltr"
+      },
+      "cards": [
+        {
+          "id": "k80-standard-concealed",
+          "src": "assets/catalog-thumbnails/74a0e50122b8670c3b188051-480.webp",
+          "width": 480,
+          "height": 480,
+          "href": "/products/消防喷头/concealed-pendent-fire-sprinkler.html#series-k80-standard-concealed",
+          "caption": "K80 / 68°C standard-response concealed sprinkler — covered assembly and exposed mechanism."
+        },
+        {
+          "id": "k80-quick-concealed",
+          "src": "assets/catalog-thumbnails/d1dca2a9588ffd54bf5fa80a-480.webp",
+          "width": 480,
+          "height": 480,
+          "href": "/products/消防喷头/concealed-pendent-fire-sprinkler.html#series-k80-quick-concealed",
+          "caption": "K80 / 68°C quick-response concealed sprinkler — covered assembly and exposed mechanism."
+        },
+        {
+          "id": "k115-standard-concealed",
+          "src": "assets/catalog-thumbnails/fdb52efccef2600c64945d79-480.webp",
+          "width": 480,
+          "height": 480,
+          "href": "/products/消防喷头/concealed-pendent-fire-sprinkler.html#series-k115-standard-concealed",
+          "caption": "K115 / 68°C standard-response concealed sprinkler — covered assembly and exposed mechanism."
+        },
+        {
+          "id": "k115-quick-concealed",
+          "src": "assets/catalog-thumbnails/334260eb72c532721a208fc7-480.webp",
+          "width": 480,
+          "height": 480,
+          "href": "/products/消防喷头/concealed-pendent-fire-sprinkler.html#series-k115-quick-concealed",
+          "caption": "K115 / 68°C quick-response concealed sprinkler — covered assembly and exposed mechanism."
+        }
+      ]
+    },
+    {
+      "scenario": "ar-directory-desktop",
+      "status": "PASS",
+      "file": "ar/products.html",
+      "viewport": {
+        "id": "desktop",
+        "width": 1440,
+        "height": 1000
+      },
+      "layout": {
+        "overflow": -15,
+        "broken": [],
+        "lang": "ar",
+        "dir": "rtl"
+      },
+      "cards": [
+        {
+          "id": "k80-standard-concealed",
+          "src": "assets/catalog-thumbnails/74a0e50122b8670c3b188051-480.webp",
+          "width": 480,
+          "height": 480,
+          "href": "/ar/products/concealed-pendent-fire-sprinkler/index.html#series-k80-standard-concealed",
+          "caption": "رشاش مخفي K80 / 68°C ذو استجابة قياسية — المجموعة مع الغطاء والآلية المكشوفة."
+        },
+        {
+          "id": "k80-quick-concealed",
+          "src": "assets/catalog-thumbnails/d1dca2a9588ffd54bf5fa80a-480.webp",
+          "width": 480,
+          "height": 480,
+          "href": "/ar/products/concealed-pendent-fire-sprinkler/index.html#series-k80-quick-concealed",
+          "caption": "رشاش مخفي K80 / 68°C سريع الاستجابة — المجموعة مع الغطاء والآلية المكشوفة."
+        },
+        {
+          "id": "k115-standard-concealed",
+          "src": "assets/catalog-thumbnails/fdb52efccef2600c64945d79-480.webp",
+          "width": 480,
+          "height": 480,
+          "href": "/ar/products/concealed-pendent-fire-sprinkler/index.html#series-k115-standard-concealed",
+          "caption": "رشاش مخفي K115 / 68°C ذو استجابة قياسية — المجموعة مع الغطاء والآلية المكشوفة."
+        },
+        {
+          "id": "k115-quick-concealed",
+          "src": "assets/catalog-thumbnails/334260eb72c532721a208fc7-480.webp",
+          "width": 480,
+          "height": 480,
+          "href": "/ar/products/concealed-pendent-fire-sprinkler/index.html#series-k115-quick-concealed",
+          "caption": "رشاش مخفي K115 / 68°C سريع الاستجابة — المجموعة مع الغطاء والآلية المكشوفة."
+        }
+      ]
+    },
+    {
+      "scenario": "ar-directory-mobile",
+      "status": "PASS",
+      "file": "ar/products.html",
+      "viewport": {
+        "id": "mobile",
+        "width": 390,
+        "height": 844
+      },
+      "layout": {
+        "overflow": 0,
+        "broken": [],
+        "lang": "ar",
+        "dir": "rtl"
+      },
+      "cards": [
+        {
+          "id": "k80-standard-concealed",
+          "src": "assets/catalog-thumbnails/74a0e50122b8670c3b188051-480.webp",
+          "width": 480,
+          "height": 480,
+          "href": "/ar/products/concealed-pendent-fire-sprinkler/index.html#series-k80-standard-concealed",
+          "caption": "رشاش مخفي K80 / 68°C ذو استجابة قياسية — المجموعة مع الغطاء والآلية المكشوفة."
+        },
+        {
+          "id": "k80-quick-concealed",
+          "src": "assets/catalog-thumbnails/d1dca2a9588ffd54bf5fa80a-480.webp",
+          "width": 480,
+          "height": 480,
+          "href": "/ar/products/concealed-pendent-fire-sprinkler/index.html#series-k80-quick-concealed",
+          "caption": "رشاش مخفي K80 / 68°C سريع الاستجابة — المجموعة مع الغطاء والآلية المكشوفة."
+        },
+        {
+          "id": "k115-standard-concealed",
+          "src": "assets/catalog-thumbnails/fdb52efccef2600c64945d79-480.webp",
+          "width": 480,
+          "height": 480,
+          "href": "/ar/products/concealed-pendent-fire-sprinkler/index.html#series-k115-standard-concealed",
+          "caption": "رشاش مخفي K115 / 68°C ذو استجابة قياسية — المجموعة مع الغطاء والآلية المكشوفة."
+        },
+        {
+          "id": "k115-quick-concealed",
+          "src": "assets/catalog-thumbnails/334260eb72c532721a208fc7-480.webp",
+          "width": 480,
+          "height": 480,
+          "href": "/ar/products/concealed-pendent-fire-sprinkler/index.html#series-k115-quick-concealed",
+          "caption": "رشاش مخفي K115 / 68°C سريع الاستجابة — المجموعة مع الغطاء والآلية المكشوفة."
+        }
+      ]
+    },
+    {
+      "scenario": "ar-sprinklers-desktop",
+      "status": "PASS",
+      "file": "ar/products/sprinklers/index.html",
+      "viewport": {
+        "id": "desktop",
+        "width": 1440,
+        "height": 1000
+      },
+      "layout": {
+        "overflow": -15,
+        "broken": [],
+        "lang": "ar",
+        "dir": "rtl"
+      },
+      "cards": [
+        {
+          "id": "k80-standard-concealed",
+          "src": "assets/catalog-thumbnails/74a0e50122b8670c3b188051-480.webp",
+          "width": 480,
+          "height": 480,
+          "href": "/ar/products/concealed-pendent-fire-sprinkler/index.html#series-k80-standard-concealed",
+          "caption": "رشاش مخفي K80 / 68°C ذو استجابة قياسية — المجموعة مع الغطاء والآلية المكشوفة."
+        },
+        {
+          "id": "k80-quick-concealed",
+          "src": "assets/catalog-thumbnails/d1dca2a9588ffd54bf5fa80a-480.webp",
+          "width": 480,
+          "height": 480,
+          "href": "/ar/products/concealed-pendent-fire-sprinkler/index.html#series-k80-quick-concealed",
+          "caption": "رشاش مخفي K80 / 68°C سريع الاستجابة — المجموعة مع الغطاء والآلية المكشوفة."
+        },
+        {
+          "id": "k115-standard-concealed",
+          "src": "assets/catalog-thumbnails/fdb52efccef2600c64945d79-480.webp",
+          "width": 480,
+          "height": 480,
+          "href": "/ar/products/concealed-pendent-fire-sprinkler/index.html#series-k115-standard-concealed",
+          "caption": "رشاش مخفي K115 / 68°C ذو استجابة قياسية — المجموعة مع الغطاء والآلية المكشوفة."
+        },
+        {
+          "id": "k115-quick-concealed",
+          "src": "assets/catalog-thumbnails/334260eb72c532721a208fc7-480.webp",
+          "width": 480,
+          "height": 480,
+          "href": "/ar/products/concealed-pendent-fire-sprinkler/index.html#series-k115-quick-concealed",
+          "caption": "رشاش مخفي K115 / 68°C سريع الاستجابة — المجموعة مع الغطاء والآلية المكشوفة."
+        }
+      ]
+    },
+    {
+      "scenario": "ar-sprinklers-mobile",
+      "status": "PASS",
+      "file": "ar/products/sprinklers/index.html",
+      "viewport": {
+        "id": "mobile",
+        "width": 390,
+        "height": 844
+      },
+      "layout": {
+        "overflow": 0,
+        "broken": [],
+        "lang": "ar",
+        "dir": "rtl"
+      },
+      "cards": [
+        {
+          "id": "k80-standard-concealed",
+          "src": "assets/catalog-thumbnails/74a0e50122b8670c3b188051-480.webp",
+          "width": 480,
+          "height": 480,
+          "href": "/ar/products/concealed-pendent-fire-sprinkler/index.html#series-k80-standard-concealed",
+          "caption": "رشاش مخفي K80 / 68°C ذو استجابة قياسية — المجموعة مع الغطاء والآلية المكشوفة."
+        },
+        {
+          "id": "k80-quick-concealed",
+          "src": "assets/catalog-thumbnails/d1dca2a9588ffd54bf5fa80a-480.webp",
+          "width": 480,
+          "height": 480,
+          "href": "/ar/products/concealed-pendent-fire-sprinkler/index.html#series-k80-quick-concealed",
+          "caption": "رشاش مخفي K80 / 68°C سريع الاستجابة — المجموعة مع الغطاء والآلية المكشوفة."
+        },
+        {
+          "id": "k115-standard-concealed",
+          "src": "assets/catalog-thumbnails/fdb52efccef2600c64945d79-480.webp",
+          "width": 480,
+          "height": 480,
+          "href": "/ar/products/concealed-pendent-fire-sprinkler/index.html#series-k115-standard-concealed",
+          "caption": "رشاش مخفي K115 / 68°C ذو استجابة قياسية — المجموعة مع الغطاء والآلية المكشوفة."
+        },
+        {
+          "id": "k115-quick-concealed",
+          "src": "assets/catalog-thumbnails/334260eb72c532721a208fc7-480.webp",
+          "width": 480,
+          "height": 480,
+          "href": "/ar/products/concealed-pendent-fire-sprinkler/index.html#series-k115-quick-concealed",
+          "caption": "رشاش مخفي K115 / 68°C سريع الاستجابة — المجموعة مع الغطاء والآلية المكشوفة."
+        }
+      ]
+    }
+  ],
+  "referenceChecks": [
+    {
+      "scenario": "en-directory-desktop",
+      "query": "ZSTDY80-141°C Q5A",
+      "status": "PASS",
+      "count": 1,
+      "seriesId": "k80-standard-concealed",
+      "title": "Standard response — ZSTDY80-141°C Q5A",
+      "href": "/products/消防喷头/concealed-pendent-fire-sprinkler.html#configuration-zstdy80-141-q5a",
+      "src": "assets/catalog-thumbnails/74a0e50122b8670c3b188051-480.webp",
+      "captions": [
+        "Reference photo: K80 / 68°C standard-response concealed sprinkler — covered assembly and exposed mechanism."
+      ]
+    },
+    {
+      "scenario": "en-directory-desktop",
+      "query": "ZSTDY115-79°C Q5A",
+      "status": "PASS",
+      "count": 1,
+      "seriesId": "k115-standard-concealed",
+      "title": "ZSTDY115-79°C Q5A",
+      "href": "/products/消防喷头/concealed-pendent-fire-sprinkler.html#configuration-zstdy115-79-q5a",
+      "src": "assets/catalog-thumbnails/fdb52efccef2600c64945d79-480.webp",
+      "captions": [
+        "Reference photo: K115 / 68°C standard-response concealed sprinkler — covered assembly and exposed mechanism."
+      ]
+    },
+    {
+      "scenario": "en-directory-desktop",
+      "query": "ZSTDY115-93°C Q5A",
+      "status": "PASS",
+      "count": 1,
+      "seriesId": "k115-standard-concealed",
+      "title": "ZSTDY115-93°C Q5A",
+      "href": "/products/消防喷头/concealed-pendent-fire-sprinkler.html#configuration-zstdy115-93-q5a",
+      "src": "assets/catalog-thumbnails/fdb52efccef2600c64945d79-480.webp",
+      "captions": [
+        "Reference photo: K115 / 68°C standard-response concealed sprinkler — covered assembly and exposed mechanism."
+      ]
+    },
+    {
+      "scenario": "en-directory-desktop",
+      "query": "ZSTDY80-93°C Q3A",
+      "status": "PASS",
+      "count": 1,
+      "seriesId": "k80-quick-concealed",
+      "title": "ZSTDY80-93°C Q3A",
+      "href": "/products/消防喷头/concealed-pendent-fire-sprinkler.html#configuration-zstdy80-93-q3a",
+      "src": "assets/catalog-thumbnails/d1dca2a9588ffd54bf5fa80a-480.webp",
+      "captions": [
+        "Reference photo: K80 / 68°C quick-response concealed sprinkler — covered assembly and exposed mechanism."
+      ]
+    },
+    {
+      "scenario": "en-directory-mobile",
+      "query": "ZSTDY80-141°C Q5A",
+      "status": "PASS",
+      "count": 1,
+      "seriesId": "k80-standard-concealed",
+      "title": "Standard response — ZSTDY80-141°C Q5A",
+      "href": "/products/消防喷头/concealed-pendent-fire-sprinkler.html#configuration-zstdy80-141-q5a",
+      "src": "assets/catalog-thumbnails/74a0e50122b8670c3b188051-480.webp",
+      "captions": [
+        "Reference photo: K80 / 68°C standard-response concealed sprinkler — covered assembly and exposed mechanism."
+      ]
+    },
+    {
+      "scenario": "en-directory-mobile",
+      "query": "ZSTDY115-79°C Q5A",
+      "status": "PASS",
+      "count": 1,
+      "seriesId": "k115-standard-concealed",
+      "title": "ZSTDY115-79°C Q5A",
+      "href": "/products/消防喷头/concealed-pendent-fire-sprinkler.html#configuration-zstdy115-79-q5a",
+      "src": "assets/catalog-thumbnails/fdb52efccef2600c64945d79-480.webp",
+      "captions": [
+        "Reference photo: K115 / 68°C standard-response concealed sprinkler — covered assembly and exposed mechanism."
+      ]
+    },
+    {
+      "scenario": "en-directory-mobile",
+      "query": "ZSTDY115-93°C Q5A",
+      "status": "PASS",
+      "count": 1,
+      "seriesId": "k115-standard-concealed",
+      "title": "ZSTDY115-93°C Q5A",
+      "href": "/products/消防喷头/concealed-pendent-fire-sprinkler.html#configuration-zstdy115-93-q5a",
+      "src": "assets/catalog-thumbnails/fdb52efccef2600c64945d79-480.webp",
+      "captions": [
+        "Reference photo: K115 / 68°C standard-response concealed sprinkler — covered assembly and exposed mechanism."
+      ]
+    },
+    {
+      "scenario": "en-directory-mobile",
+      "query": "ZSTDY80-93°C Q3A",
+      "status": "PASS",
+      "count": 1,
+      "seriesId": "k80-quick-concealed",
+      "title": "ZSTDY80-93°C Q3A",
+      "href": "/products/消防喷头/concealed-pendent-fire-sprinkler.html#configuration-zstdy80-93-q3a",
+      "src": "assets/catalog-thumbnails/d1dca2a9588ffd54bf5fa80a-480.webp",
+      "captions": [
+        "Reference photo: K80 / 68°C quick-response concealed sprinkler — covered assembly and exposed mechanism."
+      ]
+    },
+    {
+      "scenario": "ar-directory-desktop",
+      "query": "ZSTDY80-141°C Q5A",
+      "status": "PASS",
+      "count": 1,
+      "seriesId": "k80-standard-concealed",
+      "title": "استجابة قياسية — ZSTDY80-141°C Q5A",
+      "href": "/ar/products/concealed-pendent-fire-sprinkler/index.html#configuration-zstdy80-141-q5a",
+      "src": "assets/catalog-thumbnails/74a0e50122b8670c3b188051-480.webp",
+      "captions": [
+        "صورة مرجعية: رشاش مخفي K80 / 68°C ذو استجابة قياسية — المجموعة مع الغطاء والآلية المكشوفة."
+      ]
+    },
+    {
+      "scenario": "ar-directory-desktop",
+      "query": "ZSTDY115-79°C Q5A",
+      "status": "PASS",
+      "count": 1,
+      "seriesId": "k115-standard-concealed",
+      "title": "ZSTDY115-79°C Q5A",
+      "href": "/ar/products/concealed-pendent-fire-sprinkler/index.html#configuration-zstdy115-79-q5a",
+      "src": "assets/catalog-thumbnails/fdb52efccef2600c64945d79-480.webp",
+      "captions": [
+        "صورة مرجعية: رشاش مخفي K115 / 68°C ذو استجابة قياسية — المجموعة مع الغطاء والآلية المكشوفة."
+      ]
+    },
+    {
+      "scenario": "ar-directory-desktop",
+      "query": "ZSTDY115-93°C Q5A",
+      "status": "PASS",
+      "count": 1,
+      "seriesId": "k115-standard-concealed",
+      "title": "ZSTDY115-93°C Q5A",
+      "href": "/ar/products/concealed-pendent-fire-sprinkler/index.html#configuration-zstdy115-93-q5a",
+      "src": "assets/catalog-thumbnails/fdb52efccef2600c64945d79-480.webp",
+      "captions": [
+        "صورة مرجعية: رشاش مخفي K115 / 68°C ذو استجابة قياسية — المجموعة مع الغطاء والآلية المكشوفة."
+      ]
+    },
+    {
+      "scenario": "ar-directory-desktop",
+      "query": "ZSTDY80-93°C Q3A",
+      "status": "PASS",
+      "count": 1,
+      "seriesId": "k80-quick-concealed",
+      "title": "ZSTDY80-93°C Q3A",
+      "href": "/ar/products/concealed-pendent-fire-sprinkler/index.html#configuration-zstdy80-93-q3a",
+      "src": "assets/catalog-thumbnails/d1dca2a9588ffd54bf5fa80a-480.webp",
+      "captions": [
+        "صورة مرجعية: رشاش مخفي K80 / 68°C سريع الاستجابة — المجموعة مع الغطاء والآلية المكشوفة."
+      ]
+    },
+    {
+      "scenario": "ar-directory-mobile",
+      "query": "ZSTDY80-141°C Q5A",
+      "status": "PASS",
+      "count": 1,
+      "seriesId": "k80-standard-concealed",
+      "title": "استجابة قياسية — ZSTDY80-141°C Q5A",
+      "href": "/ar/products/concealed-pendent-fire-sprinkler/index.html#configuration-zstdy80-141-q5a",
+      "src": "assets/catalog-thumbnails/74a0e50122b8670c3b188051-480.webp",
+      "captions": [
+        "صورة مرجعية: رشاش مخفي K80 / 68°C ذو استجابة قياسية — المجموعة مع الغطاء والآلية المكشوفة."
+      ]
+    },
+    {
+      "scenario": "ar-directory-mobile",
+      "query": "ZSTDY115-79°C Q5A",
+      "status": "PASS",
+      "count": 1,
+      "seriesId": "k115-standard-concealed",
+      "title": "ZSTDY115-79°C Q5A",
+      "href": "/ar/products/concealed-pendent-fire-sprinkler/index.html#configuration-zstdy115-79-q5a",
+      "src": "assets/catalog-thumbnails/fdb52efccef2600c64945d79-480.webp",
+      "captions": [
+        "صورة مرجعية: رشاش مخفي K115 / 68°C ذو استجابة قياسية — المجموعة مع الغطاء والآلية المكشوفة."
+      ]
+    },
+    {
+      "scenario": "ar-directory-mobile",
+      "query": "ZSTDY115-93°C Q5A",
+      "status": "PASS",
+      "count": 1,
+      "seriesId": "k115-standard-concealed",
+      "title": "ZSTDY115-93°C Q5A",
+      "href": "/ar/products/concealed-pendent-fire-sprinkler/index.html#configuration-zstdy115-93-q5a",
+      "src": "assets/catalog-thumbnails/fdb52efccef2600c64945d79-480.webp",
+      "captions": [
+        "صورة مرجعية: رشاش مخفي K115 / 68°C ذو استجابة قياسية — المجموعة مع الغطاء والآلية المكشوفة."
+      ]
+    },
+    {
+      "scenario": "ar-directory-mobile",
+      "query": "ZSTDY80-93°C Q3A",
+      "status": "PASS",
+      "count": 1,
+      "seriesId": "k80-quick-concealed",
+      "title": "ZSTDY80-93°C Q3A",
+      "href": "/ar/products/concealed-pendent-fire-sprinkler/index.html#configuration-zstdy80-93-q3a",
+      "src": "assets/catalog-thumbnails/d1dca2a9588ffd54bf5fa80a-480.webp",
+      "captions": [
+        "صورة مرجعية: رشاش مخفي K80 / 68°C سريع الاستجابة — المجموعة مع الغطاء والآلية المكشوفة."
+      ]
+    }
+  ],
+  "screenshots": [
+    "en-directory-desktop-cards.png",
+    "en-directory-mobile-cards.png",
+    "en-sprinklers-desktop-cards.png",
+    "en-sprinklers-mobile-cards.png",
+    "ar-directory-desktop-cards.png",
+    "ar-directory-mobile-cards.png",
+    "ar-sprinklers-desktop-cards.png",
+    "ar-sprinklers-mobile-cards.png"
+  ]
+}

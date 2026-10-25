@@ -16,12 +16,27 @@
       "TX3212-输入输出模块"
     ],
     "unresolved": [
-      "供电、输入方式、输出触点容量、通道数、协议、接线与尺寸未核实。"
+      "实际控制器固件兼容、控制负载与联动方案按工程设计核对；不承诺直接驱动电机或消防泵。"
     ],
     "notes": [
       "包装86/33/86的cm字段不合理，未擅自改成mm。",
-      "不宣称直接驱动电机、泵或通用兼容；未编造接线图。"
-    ]
+      "不宣称直接驱动电机、泵或通用兼容；未编造接线图。",
+      "2026-10-25：已按同型号官方说明书补充参数；此前缺失参数的备注由本次核验结果更新。"
+    ],
+    "webResearch": {
+      "reviewedAt": "2026-10-25",
+      "manufacturer": "Tanda",
+      "model": "TX3212",
+      "url": "https://www.tandatech.com/productinfo?id=1801020109",
+      "manual": "Ver.1.4, 2020.03",
+      "pages": [
+        1,
+        2,
+        4
+      ],
+      "evidenceDirectory": "docs/reviews/web-spec-research-20261025",
+      "scope": "Exact model only; no certification or universal compatibility claim."
+    }
   },
   "publication": {
     "status": "release-candidate",
@@ -55,7 +70,8 @@
   "specifications": [
     {
       "label": "spec0Label",
-      "value": "spec0Value"
+      "value": "spec0Value",
+      "technical": true
     },
     {
       "label": "spec1Label",
@@ -68,6 +84,45 @@
     {
       "label": "spec3Label",
       "value": "spec3Value"
+    },
+    {
+      "label": "verifiedProtocolLabel",
+      "value": "verifiedProtocolValue",
+      "technical": true
+    },
+    {
+      "label": "verifiedBusVoltageLabel",
+      "value": "verifiedBusVoltageValue"
+    },
+    {
+      "label": "verifiedSupplyLabel",
+      "value": "verifiedSupplyValue"
+    },
+    {
+      "label": "verifiedContactsLabel",
+      "value": "verifiedContactsValue",
+      "technical": true
+    },
+    {
+      "label": "verifiedInputLabel",
+      "value": "verifiedInputValue"
+    },
+    {
+      "label": "verifiedAddressLabel",
+      "value": "verifiedAddressValue"
+    },
+    {
+      "label": "verifiedDimensionsLabel",
+      "value": "verifiedDimensionsValue",
+      "technical": true
+    },
+    {
+      "label": "verifiedAmbientLabel",
+      "value": "verifiedAmbientValue"
+    },
+    {
+      "label": "verifiedHumidityLabel",
+      "value": "verifiedHumidityValue"
     }
   ],
   "modelColumns": [
@@ -161,16 +216,34 @@
       "spec1Label": "Product type",
       "spec1Value": "Fire alarm input/output module",
       "spec2Label": "Interface functions",
-      "spec2Value": "Input and output",
+      "spec2Value": "One input and one output",
       "spec3Label": "Base arrangement",
-      "spec3Value": "Plug-in base",
+      "spec3Value": "TX3212DZ plug-in base",
       "model0Name": "Input/output module",
       "model0Reference": "TX3212",
-      "model0Selection": "Plug-in base configuration; specify control and feedback requirements.",
+      "model0Selection": "T3 bus; separate 24 V DC supply; 30 V DC / 2.0 A normally open output contact.",
       "selection0Label": "Control panel compatibility",
       "selection0Body": "Provide the control panel model, protocol and existing device references so compatibility can be checked before supply.",
       "selection1Label": "Controlled equipment and signals",
-      "selection1Body": "Provide the equipment wiring diagram, required input signal and output contact rating so the interface can be checked."
+      "selection1Body": "Provide the controlled-equipment wiring and load details. High-voltage or high-power loads require an intermediate relay interface.",
+      "verifiedProtocolLabel": "Bus protocol",
+      "verifiedProtocolValue": "T3",
+      "verifiedBusVoltageLabel": "Bus voltage",
+      "verifiedBusVoltageValue": "15–28 V pulsed",
+      "verifiedSupplyLabel": "External power supply",
+      "verifiedSupplyValue": "24 V DC nominal; 20–28 V DC",
+      "verifiedContactsLabel": "Normally open output contact",
+      "verifiedContactsValue": "30 V DC / 2.0 A",
+      "verifiedInputLabel": "Feedback input",
+      "verifiedInputValue": "Dry contact; normally open or normally closed configuration",
+      "verifiedAddressLabel": "Addressing",
+      "verifiedAddressValue": "One bus address; electronic coding 1–242",
+      "verifiedDimensionsLabel": "Dimensions including base",
+      "verifiedDimensionsValue": "86 × 86 × 33 mm",
+      "verifiedAmbientLabel": "Operating temperature",
+      "verifiedAmbientValue": "−10 to +55 °C",
+      "verifiedHumidityLabel": "Relative humidity",
+      "verifiedHumidityValue": "≤95% RH, non-condensing"
     },
     "ar": {
       "onThisPage": "في هذه الصفحة",
@@ -215,16 +288,34 @@
       "spec1Label": "نوع المنتج",
       "spec1Value": "وحدة إدخال وإخراج لإنذار الحريق",
       "spec2Label": "وظائف الواجهة",
-      "spec2Value": "إدخال وإخراج",
+      "spec2Value": "دخل واحد وخرج واحد",
       "spec3Label": "تجهيز القاعدة",
-      "spec3Value": "قاعدة قابلة للتوصيل",
+      "spec3Value": "قاعدة توصيل ⁦TX3212DZ⁩",
       "model0Name": "وحدة إدخال وإخراج",
       "model0Reference": "TX3212",
-      "model0Selection": "تجهيز بقاعدة قابلة للتوصيل؛ حدد متطلبات التحكم والتغذية الراجعة.",
+      "model0Selection": "ناقل T3؛ تغذية مستقلة 24 V DC؛ ملامس خرج مفتوح عادة 30 V DC / 2.0 A.",
       "selection0Label": "توافق لوحة التحكم",
       "selection0Body": "قدم طراز لوحة التحكم والبروتوكول ومراجع الأجهزة الحالية للتحقق من التوافق قبل التوريد.",
       "selection1Label": "المعدات المتحكم بها والإشارات",
-      "selection1Body": "قدم مخطط توصيل المعدات وإشارة الإدخال المطلوبة وتصنيف نقاط خرج التلامس للتحقق من الواجهة."
+      "selection1Body": "قدم توصيلات المعدات المتحكم بها وتفاصيل الحمل. تتطلب الأحمال ذات الجهد أو القدرة العالية واجهة مرحل وسيط.",
+      "verifiedProtocolLabel": "بروتوكول الناقل",
+      "verifiedProtocolValue": "T3",
+      "verifiedBusVoltageLabel": "جهد الناقل",
+      "verifiedBusVoltageValue": "⁦15–28 V⁩ نبضي",
+      "verifiedSupplyLabel": "مصدر التغذية الخارجي",
+      "verifiedSupplyValue": "⁦24 V DC⁩ اسمي؛ ⁦20–28 V DC⁩",
+      "verifiedContactsLabel": "ملامس الخرج المفتوح عادة",
+      "verifiedContactsValue": "30 V DC / 2.0 A",
+      "verifiedInputLabel": "دخل التغذية الراجعة",
+      "verifiedInputValue": "ملامس جاف؛ إعداد مفتوح عادة أو مغلق عادة",
+      "verifiedAddressLabel": "العنونة",
+      "verifiedAddressValue": "عنوان ناقل واحد؛ ترميز إلكتروني ⁦1–242⁩",
+      "verifiedDimensionsLabel": "الأبعاد شاملة القاعدة",
+      "verifiedDimensionsValue": "86 × 86 × 33 mm",
+      "verifiedAmbientLabel": "درجة حرارة التشغيل",
+      "verifiedAmbientValue": "⁦−10⁩ إلى ⁦+55 °C⁩",
+      "verifiedHumidityLabel": "الرطوبة النسبية",
+      "verifiedHumidityValue": "⁦≤95% RH⁩، دون تكاثف"
     }
   }
 }

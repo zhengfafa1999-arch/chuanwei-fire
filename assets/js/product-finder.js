@@ -80,6 +80,8 @@
         const title = card.querySelector('h3 a');
         const image = card.querySelector('img.finder-js-image');
         const picturedName = title.textContent;
+        const picturedCaption = card.querySelector('.product-card__reference')?.textContent;
+        card.querySelectorAll('.product-card__reference').forEach(caption => caption.remove());
         title.textContent = related.name;
         card.querySelectorAll('.product-card__image, h3 a, .product-card__link').forEach(link => link.setAttribute('href', related.href));
         if (related.image && image) {
@@ -95,7 +97,7 @@
           // A related model without its own photo must identify the illustration.
           const caption = document.createElement('p');
           caption.className = 'product-card__reference';
-          caption.textContent = (document.documentElement.lang === 'ar' ? 'تُظهر الصورة: ' : 'Photo shows: ') + picturedName;
+          caption.textContent = (document.documentElement.lang === 'ar' ? 'صورة مرجعية: ' : 'Reference photo: ') + (picturedCaption || picturedName);
           card.querySelector('.product-card__body').prepend(caption);
         }
       }

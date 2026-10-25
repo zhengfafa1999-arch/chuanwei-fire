@@ -24,7 +24,15 @@
       "仅普通干粉，未把超细干粉或七氟丙烷的参数混入。",
       "68°C来自普通干粉网页默认值，不推广到超细干粉产品。",
       "源资料品牌可能随机供货，订单需锁定品牌型号。"
-    ]
+    ],
+    "marketReference": {
+      "grade": "C-other-manufacturer-or-series-reference",
+      "reviewDate": "2026-10-25",
+      "url": "https://www.anaf.eu/en/ps2-at",
+      "model": "ANAF PS2-AT",
+      "location": "Official product page",
+      "scope": "Selection reference only; no supplied-SKU specification, certification, compatibility or availability inferred."
+    }
   },
   "publication": {
     "status": "release-candidate",
@@ -198,7 +206,16 @@
       "selection0Label": "Protected space",
       "selection0Body": "Send the protected hazard, room layout and mounting height for model and discharge-coverage review.",
       "selection1Label": "Charge and thermal release",
-      "selection1Body": "Specify the charge, ambient conditions and required activation temperature; confirm the exact supply model and brand."
+      "selection1Body": "Specify the charge, ambient conditions and required activation temperature; confirm the exact supply model and brand.",
+      "referenceHeading": "Selection reference",
+      "referenceScope": "The manufacturer example below helps you specify an enquiry. Its values describe the named reference model, not the CHUANWEI product pictured above. Request the offered model’s datasheet for your order.",
+      "referenceSource": "Manufacturer reference",
+      "reference0Title": "ANAF PS2-AT",
+      "reference0Note": "Specify the selected activation temperature and installation arrangement for the protected equipment.",
+      "reference0Row0Label": "Powder charge",
+      "reference0Row0Value": "2 kg",
+      "reference0Row1Label": "Thermal activation options",
+      "reference0Row1Value": "68°C / 79°C"
     },
     "ar": {
       "onThisPage": "في هذه الصفحة",
@@ -263,7 +280,35 @@
       "selection0Label": "الحيز المطلوب حمايته",
       "selection0Body": "أرسل طبيعة الخطر ومخطط الغرفة وارتفاع التركيب لمراجعة الطراز ونطاق التفريغ.",
       "selection1Label": "السعة وآلية الإطلاق الحرارية",
-      "selection1Body": "حدد السعة والظروف المحيطة ودرجة حرارة التفعيل المطلوبة، وأكد طراز التوريد والعلامة بدقة."
+      "selection1Body": "حدد السعة والظروف المحيطة ودرجة حرارة التفعيل المطلوبة، وأكد طراز التوريد والعلامة بدقة.",
+      "referenceHeading": "مرجع الاختيار",
+      "referenceScope": "يساعد المثال التالي من الشركة المصنّعة المذكورة في تحديد متطلبات الاستفسار. القيم تخص الطراز المرجعي المذكور، ولا تمثل مواصفات منتج CHUANWEI المصوّر أعلاه. اطلب ورقة بيانات الطراز المعروض لطلبك.",
+      "referenceSource": "مرجع الشركة المصنّعة",
+      "reference0Title": "ANAF PS2-AT",
+      "reference0Note": "حدد درجة حرارة التنشيط المختارة وترتيب التركيب للمعدات المحمية.",
+      "reference0Row0Label": "شحنة المسحوق",
+      "reference0Row0Value": "2 kg",
+      "reference0Row1Label": "خيارات التنشيط الحراري",
+      "reference0Row1Value": "68°C / 79°C"
     }
-  }
+  },
+  "referenceExamples": [
+    {
+      "title": "reference0Title",
+      "rows": [
+        {
+          "label": "reference0Row0Label",
+          "value": "reference0Row0Value",
+          "technical": true
+        },
+        {
+          "label": "reference0Row1Label",
+          "value": "reference0Row1Value",
+          "technical": true
+        }
+      ],
+      "note": "reference0Note",
+      "url": "https://www.anaf.eu/en/ps2-at"
+    }
+  ]
 }

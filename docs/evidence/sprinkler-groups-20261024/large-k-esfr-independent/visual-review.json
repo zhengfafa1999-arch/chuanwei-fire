@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "reviewed": [
+    "large-k-en-desktop-gallery.png",
+    "esfr-ar-mobile-models.png"
+  ],
+  "findings": "Large-K gallery presents only its five photographs. Arabic mobile ESFR model cards remain legible with LTR factory references and connections. Browser checks cover both details in both languages at desktop and mobile widths."
+}

@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "scope": "Local predeployment content and public package; not deployed",
+  "publicPages": 291,
+  "browserScenarios": 582,
+  "publicFiles": 1094,
+  "archive": "docs\\release\\predeploy-reviewed-20261025\\predeploy-reviewed-20261025-public-full.zip",
+  "sha256": "ac2ac31de70887b205c9499382cd68070cf65e81f6611dcf8d062bacd3c469ef",
+  "noPostPackageChanges": true,
+  "technicalFollowUpGroups": 37
+}

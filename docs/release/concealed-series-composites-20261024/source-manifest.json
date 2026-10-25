@@ -1,0 +1,93 @@
+{
+  "date": "2026-10-24",
+  "sets": [
+    {
+      "id": "k80-standard-concealed",
+      "kind": "K80 standard-response concealed sprinkler, 68°C Q5A",
+      "files": [
+        "C:/Users/ZHENGF~1/AppData/Local/Temp/codex-clipboard-e10dadcf-474b-4b34-8fd7-2f30519247c4.jpg",
+        "C:/Users/ZHENGF~1/AppData/Local/Temp/codex-clipboard-ff9d9949-76db-457d-be6c-3ee03fddb477.jpg"
+      ],
+      "sources": [
+        {
+          "role": "covered",
+          "originalPath": "C:\\Users\\ZHENGF~1\\AppData\\Local\\Temp\\codex-clipboard-e10dadcf-474b-4b34-8fd7-2f30519247c4.jpg",
+          "backup": "docs/release/concealed-series-composites-20261024/source/k80-standard-concealed-covered.jpg",
+          "sha256": "fdcb7b0371405b3f8ee8f35f9688aafabf3da11a414be8fbcfab405ffb67ca51"
+        },
+        {
+          "role": "exposed",
+          "originalPath": "C:\\Users\\ZHENGF~1\\AppData\\Local\\Temp\\codex-clipboard-ff9d9949-76db-457d-be6c-3ee03fddb477.jpg",
+          "backup": "docs/release/concealed-series-composites-20261024/source/k80-standard-concealed-exposed.jpg",
+          "sha256": "cde1b1a0d2f550ea5a69f98ba73cbd92cf3172ea62813311a830f677a460f36e"
+        }
+      ]
+    },
+    {
+      "id": "k115-standard-concealed",
+      "kind": "K115 standard-response concealed sprinkler, 68°C Q5A",
+      "files": [
+        "C:/Users/ZHENGF~1/AppData/Local/Temp/codex-clipboard-775482fc-3390-4803-afdf-38c8367c9e5e.jpg",
+        "C:/Users/ZHENGF~1/AppData/Local/Temp/codex-clipboard-d7a1ab77-d629-470b-abe4-afe87bc019a4.jpg"
+      ],
+      "sources": [
+        {
+          "role": "covered",
+          "originalPath": "C:\\Users\\ZHENGF~1\\AppData\\Local\\Temp\\codex-clipboard-775482fc-3390-4803-afdf-38c8367c9e5e.jpg",
+          "backup": "docs/release/concealed-series-composites-20261024/source/k115-standard-concealed-covered.jpg",
+          "sha256": "24609f82b6e8d518672fa3db356a256396ab98a02f71c1cb95d9b747549ac7f5"
+        },
+        {
+          "role": "exposed",
+          "originalPath": "C:\\Users\\ZHENGF~1\\AppData\\Local\\Temp\\codex-clipboard-d7a1ab77-d629-470b-abe4-afe87bc019a4.jpg",
+          "backup": "docs/release/concealed-series-composites-20261024/source/k115-standard-concealed-exposed.jpg",
+          "sha256": "98869016f14eb404f4c12f0c588562723a3f10b684f6e13a094ad9030cce715d"
+        }
+      ]
+    },
+    {
+      "id": "k80-quick-concealed",
+      "kind": "K80 quick-response concealed sprinkler, 68°C Q3A",
+      "files": [
+        "C:/Users/ZHENGF~1/AppData/Local/Temp/codex-clipboard-5cf6752b-fc81-43e0-b449-11c01b1ac134.jpg",
+        "C:/Users/ZHENGF~1/AppData/Local/Temp/codex-clipboard-710420e3-f9c9-454a-9b33-849af4da0697.jpg"
+      ],
+      "sources": [
+        {
+          "role": "covered",
+          "originalPath": "C:\\Users\\ZHENGF~1\\AppData\\Local\\Temp\\codex-clipboard-5cf6752b-fc81-43e0-b449-11c01b1ac134.jpg",
+          "backup": "docs/release/concealed-series-composites-20261024/source/k80-quick-concealed-covered.jpg",
+          "sha256": "307788895b9d22bb1f6d285507fdd0bc16472b4e1ce002689d39ce55244d32e8"
+        },
+        {
+          "role": "exposed",
+          "originalPath": "C:\\Users\\ZHENGF~1\\AppData\\Local\\Temp\\codex-clipboard-710420e3-f9c9-454a-9b33-849af4da0697.jpg",
+          "backup": "docs/release/concealed-series-composites-20261024/source/k80-quick-concealed-exposed.jpg",
+          "sha256": "21014ca1cb50ea1576f698bf473c67a4146f0daf93fbf61258c70b5b979cd6a2"
+        }
+      ]
+    },
+    {
+      "id": "k115-quick-concealed",
+      "kind": "K115 quick-response concealed sprinkler, 68°C Q3A",
+      "files": [
+        "C:/Users/ZHENGF~1/AppData/Local/Temp/codex-clipboard-ea4dbf99-652f-4d5a-a5f8-a8e119e1e25a.jpg",
+        "C:/Users/ZHENGF~1/AppData/Local/Temp/codex-clipboard-da7ab226-1946-4c04-81eb-bb3548da724e.jpg"
+      ],
+      "sources": [
+        {
+          "role": "covered",
+          "originalPath": "C:\\Users\\ZHENGF~1\\AppData\\Local\\Temp\\codex-clipboard-ea4dbf99-652f-4d5a-a5f8-a8e119e1e25a.jpg",
+          "backup": "docs/release/concealed-series-composites-20261024/source/k115-quick-concealed-covered.jpg",
+          "sha256": "9198140d47bdb08c8a366a587c810db98f897ce02b091dd1577c9398ff772778"
+        },
+        {
+          "role": "exposed",
+          "originalPath": "C:\\Users\\ZHENGF~1\\AppData\\Local\\Temp\\codex-clipboard-da7ab226-1946-4c04-81eb-bb3548da724e.jpg",
+          "backup": "docs/release/concealed-series-composites-20261024/source/k115-quick-concealed-exposed.jpg",
+          "sha256": "385eaa278b1eb67bcbef67c49528e2a8d972f78f34d72a7b9a52ac7bd1dbf75d"
+        }
+      ]
+    }
+  ]
+}

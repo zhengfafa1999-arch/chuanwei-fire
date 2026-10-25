@@ -23,7 +23,28 @@ for (const page of pages) {
     return entries.filter(item => !category || item.family === category).map(item => matchEntry(item, tokens)).filter(Boolean).map(({item, related}) => related ? {...item, name:related.name, href:related.href, image:related.image || item.image, referenceImage:!related.image} : item);
   };
   check(entries.length === PRODUCT_FAMILIES.flatMap(flatProducts).length, `${page.locale}: every existing card is retained`);
-  check(entries.every(item => item.image && !/Configuration options|خيارات التكوين/.test(item.name)), `${page.locale}: no empty or duplicate configuration-options cards remain`);
+  check(entries.every(item => !/Configuration options|خيارات التكوين/.test(item.name) && item.image), `${page.locale}: every product card has a photograph`);
+  const sprinklerCards = entries.filter(item => item.family === 'sprinklers');
+  check(sprinklerCards.length === 17 && sprinklerCards.every(item => item.seriesId) && new Set(sprinklerCards.map(item => item.seriesId)).size === 17, `${page.locale}: sprinkler directory contains 17 unique series`);
+  const inquiryCards = sprinklerCards.filter(item => item.inquiry);
+  check(inquiryCards.length === 0, `${page.locale}: all 17 sprinkler series open photographed product details`);
+  for (const [response, prefix, bulb, pathPrefix, sourceNumbers] of [
+    ['standard', 'T', 'Q5A', 'k115-standard-response-fire-sprinkler', [5904, 5905, 5906]],
+    ['quick', 'K', 'Q3A', 'extended-coverage-quick-response-fire-sprinkler', [5887, 5888, 5889]]
+  ]) {
+    const series = sprinklerCards.find(item => item.seriesId === `k115-${response}`);
+    check(series.image && series.href.includes(`/k115-${response}-response-fire-sprinkler`) && !series.href.includes('?view='), `${page.locale}: K115 ${response} has its own photographed series detail`);
+    for (const [index, model] of ['ZSTZ', 'ZSTX', 'ZSTBS'].entries()) {
+      const query = `${prefix}-${model}115-68°C ${bulb}`;
+      const results = matches(query, 'sprinklers');
+      const expectedImage = `assets/products/guanya-2026/${pathPrefix}-dsc_${sourceNumbers[index]}-1600.webp`;
+      check(results.length === 1 && results[0].seriesId === `k115-${response}` && results[0].href.endsWith(`?view=${encodeURIComponent(expectedImage)}#gallery`) && results[0].image.endsWith(thumbnailFor(expectedImage)), `${page.locale}: ${query} opens its exact orientation and photograph`);
+    }
+    for (const requirement of ['EC', '1.2 MPa', '1.21 MPa', 'BSPT', 'NPT', '3/4 in', 'DN20']) {
+      const query = `K115 ${response} 68°C ${requirement}`;
+      check(!matches(query, 'sprinklers').some(item => item.seriesId === `k115-${response}`), `${page.locale}: ${query} does not inherit unconfirmed specifications`);
+    }
+  }
   check(matches('DN100').length > 0 && matches('DN100').length === matches('DN 100').length, `${page.locale}: spaced DN queries match canonical DN`);
   check(matches('DN 100', 'system-valves').some(item => item.href.includes('wet-alarm-check')), `${page.locale}: DN100 finds wet alarm`);
   const explosionProof = matches('explosion proof DN100', 'system-valves');
@@ -32,8 +53,9 @@ for (const page of pages) {
   check(matches('explosion proof', 'sprinklers').length === 0, `${page.locale}: explosion-proof waterflow switch stays in system-valves category`);
   check(matches('ZSJZ 250-M-1.2EX', 'system-valves').some(item => item.href.includes('explosion-proof-waterflow-switches')), `${page.locale}: exact confirmed DN250 explosion-proof factory model is searchable`);
   check(matches('explosion proof DN 250', 'system-valves').some(item => item.href.includes('explosion-proof-waterflow-switches')), `${page.locale}: spaced DN250 finds the newly confirmed explosion-proof size`);
-  check(matches('装饰盘', 'sprinklers').some(item => item.href.includes('sprinkler-escutcheons-decorative-covers')), `${page.locale}: decorative accessories are discoverable in the sprinkler family`);
-  check(matches('sprinkler escutcheon', 'sprinklers').some(item => item.href.includes('sprinkler-escutcheons-decorative-covers')), `${page.locale}: English accessory naming is searchable`);
+  check(matches('装饰盘', 'pressure-gauges-accessories').some(item => item.href.includes('sprinkler-escutcheons-decorative-covers')), `${page.locale}: decorative accessories are discoverable in the accessories family`);
+  check(matches('sprinkler escutcheon', 'pressure-gauges-accessories').some(item => item.href.includes('sprinkler-escutcheons-decorative-covers')), `${page.locale}: English accessory naming is searchable in accessories`);
+  check(matches('装饰盘', 'sprinklers').length === 0 && matches('sprinkler escutcheon', 'sprinklers').length === 0, `${page.locale}: sprinkler accessories no longer appear as a sprinkler series`);
   check(matches('装饰盘', 'system-valves').length === 0, `${page.locale}: decorative sprinkler accessories do not enter valve category`);
   for (const [query, slug] of [['防爆压力开关', 'explosion-proof-pressure-switch'], ['防爆电磁阀', 'explosion-proof-solenoid-valve'], ['explosion proof pressure switch', 'explosion-proof-pressure-switch'], ['explosion proof solenoid valve', 'explosion-proof-solenoid-valve']]) {
     const results = matches(query, 'system-valves');
@@ -60,9 +82,13 @@ for (const page of pages) {
   check(matches('ZSXDF8-Q-100-16').some(item => item.href.includes('grooved-supervisory-butterfly')), `${page.locale}: exact butterfly model is searchable`);
   const pendent = matches('T-ZSTX 80-68°C Q5A');
   check(pendent.length === 1 && pendent[0].href.includes('standard-response') && pendent[0].href.includes('?view='), `${page.locale}: sprinkler model is scoped to its configuration`);
-  const standardCards = entries.filter(item => item.href.includes('standard-response-fire-sprinkler'));
-  check(standardCards.length === 3 && standardCards.every(item => item.image && item.href.includes('?view=')), `${page.locale}: standard sprinklers retain only their three photographed views`);
-  check(matches('standard response 45 g').filter(item => standardCards.includes(item)).length === 3, `${page.locale}: shared sample specifications find the original standard sprinkler views`);
+  const standardCards = entries.filter(item => item.seriesId === 'k80-standard');
+  check(standardCards.length === 1 && /[/]standard-response-fire-sprinkler[/.]/.test(standardCards[0].href) && standardCards[0].image && !standardCards[0].href.includes('?view='), `${page.locale}: photographed standard sprinkler orientations share one exact K80 standard series card`);
+  const standardSample = matches('standard response 45 g').filter(item => item.seriesId === 'k80-standard');
+  check(standardSample.length === 1 && standardSample[0].seriesId === 'k80-standard', `${page.locale}: shared sample specifications find the single standard sprinkler series`);
+  const quickSidewall = matches('K80 quick sidewall', 'sprinklers');
+  check(quickSidewall.length === 1 && quickSidewall[0].seriesId === 'k80-quick' && quickSidewall[0].href.endsWith('#configuration-quick-68'), `${page.locale}: quick-response sidewall option retains its exact reviewed configuration`);
+  check(matches('K80 quick sidewall NPT', 'sprinklers').length === 0, `${page.locale}: quick-response sidewall cannot inherit an unconfirmed NPT thread`);
   check(matches('HS-020').length === 1 && matches('HS-020')[0].href.endsWith('#configuration-obliqueFlanged'), `${page.locale}: landing valve reference stays on its own configuration`);
   check(matches('HS-020 NPT').length === 0, `${page.locale}: a flanged configuration cannot inherit another configuration's threaded connection`);
   check(matches('UHS-020').length === 1 && matches('UHS-020')[0].href.endsWith('#configuration-p21-03'), `${page.locale}: UHS adapter model is distinct from HS valve model`);
@@ -91,7 +117,10 @@ for (const page of pages) {
   check(matches('preaction flanged DN250', 'system-valves').some(item => item.href.endsWith('#product-photograph-1')), `${page.locale}: flanged preaction retains DN250`);
   check(matches('ZSFY150(G)', 'system-valves').length === 1 && matches('ZSFY150(G)', 'system-valves')[0].href.endsWith('#product-photograph-2'), `${page.locale}: grooved factory reference opens its own configuration`);
   check(matches('preaction grooved DC 24 V NBR 1.6 MPa', 'system-valves').length === 1 && matches('preaction flanged DC 24 V NBR 1.6 MPa', 'system-valves').length === 1, `${page.locale}: both preaction connections retain user-confirmed shared specifications`);
-  check(matches('ESFR-202').length === 2, `${page.locale}: ESFR models are scoped to ESFR views`);
+  check(matches('ESFR-202').length === 1 && matches('ESFR-202')[0].seriesId === 'esfr', `${page.locale}: ESFR models are scoped to the single ESFR series`);
+  for (const query of ['K161 sidewall', 'ESFR-202/74°C DN25', 'ZSTZ.X202-68°C Q5 3 mm']) {
+    check(matches(query, 'sprinklers').length === 0, `${page.locale}: ${query} cannot combine specifications from different large-K or ESFR models`);
+  }
   for (const [query, route] of [['ZSTWB34/120', 'water-mist-nozzles'], ['QZ3.5/7.5', 'straight-stream-fire-hose-nozzles'], ['KD65', 'kd-hose-couplings']]) {
     const results = matches(query);
     check(results.some(item => item.href.includes(route) && (item.href.includes('#configuration-') || !/[?#]/.test(item.href))), `${page.locale}: new ${query} model finds its published configuration`);

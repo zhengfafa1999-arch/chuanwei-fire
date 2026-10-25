@@ -20,7 +20,28 @@
     ],
     "notes": [
       "使用准确SKU XBD4.0/1W-CDL，不沿用网页标题GDL或无单位最大流量360/扬程210。"
-    ]
+    ],
+    "generalTechnicalReference": {
+      "url": "https://www.grundfos.com/au/learn/research-and-insights/duty-point",
+      "reviewedAt": "2026-10-25",
+      "scope": "General operating principle or selection guidance only; no numeric specification or certification transferred from the reference manufacturer."
+    },
+    "marketReference": {
+      "grade": "C-other-manufacturer-or-series-reference",
+      "reviewDate": "2026-10-25",
+      "url": "http://shanghaijiaxun.com/81.html",
+      "model": "Jiaxun vertical multistage series",
+      "location": "Archived manufacturer catalogue: docs/reviews/web-spec-research-20261025/jiaxun-page-5.jpg",
+      "scope": "Selection reference only; no supplied-SKU specification, certification, compatibility or availability inferred."
+    },
+    "localArchiveRecheck": {
+      "reviewDate": "2026-10-25",
+      "path": "D:\\work\\codex\\外部商品连接内容\\10.15\\小型GDL立式多级消防水泵高压高扬程消火栓喷淋泵管道增压 - 阿里巴巴.html",
+      "sha256": "c956316b82bffd09d6939d444a9801e802cc53c5c8906153b8cad6411a3f8fac",
+      "location": "Visible product attributes and model/variant table",
+      "adopted": "商品属性明确泵体材质铸铁；不据此推断叶轮、轴和外筒材质。",
+      "scope": "User-selected saved listing; no certification, price, stock or package-weight claims adopted."
+    }
   },
   "publication": {
     "status": "release-candidate",
@@ -79,6 +100,11 @@
     {
       "label": "spec6Label",
       "value": "spec6Value"
+    },
+    {
+      "label": "archiveCasingLabel",
+      "value": "archiveCasingValue",
+      "technical": false
     }
   ],
   "modelColumns": [
@@ -184,10 +210,21 @@
       "model0Name": "XBD4.0/1W-CDL",
       "model0Reference": "XBD4.0/1W-CDL",
       "model0Selection": "3.6 m³/h · 40 m · 1.1 kW · 380 V · DN32 inlet",
-      "selection0Label": "Hydraulic duty",
-      "selection0Body": "Send the required flow and head, the system duty and the proposed installation arrangement.",
+      "selection0Label": "Pump duty point and installation",
+      "selection0Body": "Provide the required flow and head at the same duty point, together with suction conditions and the installation drawing. Pump selection uses the performance curve; maximum flow and maximum head are not a simultaneous operating point.",
       "selection1Label": "Motor and connections",
-      "selection1Body": "Specify the site voltage and frequency, motor requirements and mating pipe or flange drawings."
+      "selection1Body": "Specify the site voltage and frequency, motor requirements and mating pipe or flange drawings.",
+      "referenceHeading": "Selection reference",
+      "referenceScope": "The manufacturer example below helps you specify an enquiry. Its values describe the named reference model, not the CHUANWEI product pictured above. Request the offered model’s datasheet for your order.",
+      "referenceSource": "Manufacturer reference",
+      "reference0Title": "Jiaxun vertical multistage series",
+      "reference0Note": "These catalogue ranges span multiple models; maximum flow and maximum head are not one duty point. Select the offered pump using its performance curve.",
+      "reference0Row0Label": "Series flow range",
+      "reference0Row0Value": "1–40 L/s",
+      "reference0Row1Label": "Series head range",
+      "reference0Row1Value": "36–202 m",
+      "archiveCasingLabel": "Pump casing material",
+      "archiveCasingValue": "Cast iron"
     },
     "ar": {
       "onThisPage": "في هذه الصفحة",
@@ -244,10 +281,40 @@
       "model0Name": "XBD4.0/1W-CDL",
       "model0Reference": "XBD4.0/1W-CDL",
       "model0Selection": "3.6 m³/h · 40 m · 1.1 kW · 380 V · مدخل DN32",
-      "selection0Label": "نقطة التشغيل الهيدروليكية",
-      "selection0Body": "أرسل التدفق والرفع المطلوبين ووظيفة النظام وترتيب التركيب المقترح.",
+      "selection0Label": "نقطة تشغيل المضخة والتركيب",
+      "selection0Body": "قدم التدفق والارتفاع المطلوبين عند نقطة التشغيل نفسها، مع ظروف السحب ورسم التركيب. يعتمد اختيار المضخة على منحنى الأداء؛ ولا يمثل أقصى تدفق وأقصى ارتفاع نقطة تشغيل متزامنة.",
       "selection1Label": "المحرك والتوصيلات",
-      "selection1Body": "حدد جهد الموقع وتردده ومتطلبات المحرك ورسومات الأنابيب أو الفلنجات المقابلة."
+      "selection1Body": "حدد جهد الموقع وتردده ومتطلبات المحرك ورسومات الأنابيب أو الفلنجات المقابلة.",
+      "referenceHeading": "مرجع الاختيار",
+      "referenceScope": "يساعد المثال التالي من الشركة المصنّعة المذكورة في تحديد متطلبات الاستفسار. القيم تخص الطراز المرجعي المذكور، ولا تمثل مواصفات منتج CHUANWEI المصوّر أعلاه. اطلب ورقة بيانات الطراز المعروض لطلبك.",
+      "referenceSource": "مرجع الشركة المصنّعة",
+      "reference0Title": "Jiaxun vertical multistage series",
+      "reference0Note": "تغطي نطاقات الكتالوج عدة طرازات؛ أقصى تدفق وأقصى ارتفاع ضخ ليسا نقطة تشغيل واحدة. اختر المضخة المعروضة باستخدام منحنى أدائها.",
+      "reference0Row0Label": "نطاق تدفق السلسلة",
+      "reference0Row0Value": "1–40 L/s",
+      "reference0Row1Label": "نطاق ارتفاع الضخ للسلسلة",
+      "reference0Row1Value": "36–202 m",
+      "archiveCasingLabel": "مادة جسم المضخة",
+      "archiveCasingValue": "حديد زهر"
     }
-  }
+  },
+  "referenceExamples": [
+    {
+      "title": "reference0Title",
+      "rows": [
+        {
+          "label": "reference0Row0Label",
+          "value": "reference0Row0Value",
+          "technical": true
+        },
+        {
+          "label": "reference0Row1Label",
+          "value": "reference0Row1Value",
+          "technical": true
+        }
+      ],
+      "note": "reference0Note",
+      "url": "http://shanghaijiaxun.com/81.html"
+    }
+  ]
 }

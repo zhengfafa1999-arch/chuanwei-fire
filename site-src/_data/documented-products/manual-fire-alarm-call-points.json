@@ -16,12 +16,26 @@
       "TX3142-手动火灾报警按钮"
     ],
     "unresolved": [
-      "电源电压、尺寸、复位方式、接线、电话接口与底座匹配待确认。"
+      "具体控制器与消防电话主机兼容仍须按现场系统确认；不适用于TX3142N。"
     ],
     "notes": [
       "仅TX3142，不使用TX3142N照片或参数。",
-      "不宣称未核实的电压、尺寸或认证适用性。"
-    ]
+      "不宣称未核实的电压、尺寸或认证适用性。",
+      "2026-10-25：已按同型号官方说明书补充参数；此前缺失参数的备注由本次核验结果更新。"
+    ],
+    "webResearch": {
+      "reviewedAt": "2026-10-25",
+      "manufacturer": "Tanda",
+      "model": "J-SJP-M-TX3142",
+      "url": "https://www.tandatech.com/productinfo?id=1801030106",
+      "manual": "Ver.1.2, 2021.04",
+      "pages": [
+        1,
+        3
+      ],
+      "evidenceDirectory": "docs/reviews/web-spec-research-20261025",
+      "scope": "Exact model only; no certification or universal compatibility claim."
+    }
   },
   "publication": {
     "status": "release-candidate",
@@ -55,7 +69,8 @@
   "specifications": [
     {
       "label": "spec0Label",
-      "value": "spec0Value"
+      "value": "spec0Value",
+      "technical": true
     },
     {
       "label": "spec1Label",
@@ -68,6 +83,48 @@
     {
       "label": "spec3Label",
       "value": "spec3Value"
+    },
+    {
+      "label": "verifiedVoltageLabel",
+      "value": "verifiedVoltageValue"
+    },
+    {
+      "label": "verifiedCurrentLabel",
+      "value": "verifiedCurrentValue"
+    },
+    {
+      "label": "verifiedContactLabel",
+      "value": "verifiedContactValue"
+    },
+    {
+      "label": "verifiedResetLabel",
+      "value": "verifiedResetValue"
+    },
+    {
+      "label": "verifiedBusLabel",
+      "value": "verifiedBusValue"
+    },
+    {
+      "label": "verifiedBaseLabel",
+      "value": "verifiedBaseValue",
+      "technical": true
+    },
+    {
+      "label": "verifiedDimensionsLabel",
+      "value": "verifiedDimensionsValue",
+      "technical": true
+    },
+    {
+      "label": "verifiedProtectionLabel",
+      "value": "verifiedProtectionValue"
+    },
+    {
+      "label": "verifiedAmbientLabel",
+      "value": "verifiedAmbientValue"
+    },
+    {
+      "label": "verifiedHumidityLabel",
+      "value": "verifiedHumidityValue"
     }
   ],
   "modelColumns": [
@@ -166,11 +223,31 @@
       "spec3Value": "Telephone socket",
       "model0Name": "Manual call point with telephone socket",
       "model0Reference": "TX3142",
-      "model0Selection": "Specify the matching base and telephone-system connection requirements.",
+      "model0Selection": "TX3988 base; resettable activation element; dedicated reset key; telephone socket.",
       "selection0Label": "Control panel compatibility",
       "selection0Body": "Provide the control panel model, protocol and existing device references so compatibility can be checked before supply.",
       "selection1Label": "Telephone and mounting requirements",
-      "selection1Body": "Specify the telephone-system interface, base requirement and mounting arrangement."
+      "selection1Body": "Specify the fire telephone system and whether the TX3988 base is required. The telephone connection uses separate terminals from the alarm bus.",
+      "verifiedVoltageLabel": "Bus voltage",
+      "verifiedVoltageValue": "15–28 V pulsed",
+      "verifiedCurrentLabel": "Bus current",
+      "verifiedCurrentValue": "Standby ≤0.5 mA; alarm ≤0.8 mA",
+      "verifiedContactLabel": "Dry contact output",
+      "verifiedContactValue": "30 V DC / 100 mA rated",
+      "verifiedResetLabel": "Reset method",
+      "verifiedResetValue": "Reusable element; dedicated reset key",
+      "verifiedBusLabel": "Bus connection",
+      "verifiedBusValue": "Non-polarized two-wire bus",
+      "verifiedBaseLabel": "Matching base",
+      "verifiedBaseValue": "TX3988",
+      "verifiedDimensionsLabel": "Dimensions including base",
+      "verifiedDimensionsValue": "90 × 90 × 34 mm",
+      "verifiedProtectionLabel": "Enclosure protection",
+      "verifiedProtectionValue": "IP43; indoor use",
+      "verifiedAmbientLabel": "Operating temperature",
+      "verifiedAmbientValue": "−10 to +55 °C",
+      "verifiedHumidityLabel": "Relative humidity",
+      "verifiedHumidityValue": "≤95% RH, non-condensing"
     },
     "ar": {
       "onThisPage": "في هذه الصفحة",
@@ -220,11 +297,31 @@
       "spec3Value": "مقبس هاتف",
       "model0Name": "نقطة نداء يدوية بمقبس هاتف",
       "model0Reference": "TX3142",
-      "model0Selection": "حدد القاعدة المطابقة ومتطلبات اتصال نظام الهاتف.",
+      "model0Selection": "قاعدة TX3988؛ عنصر تشغيل قابل لإعادة الضبط؛ مفتاح إعادة ضبط مخصص؛ مقبس هاتف.",
       "selection0Label": "توافق لوحة التحكم",
       "selection0Body": "قدم طراز لوحة التحكم والبروتوكول ومراجع الأجهزة الحالية للتحقق من التوافق قبل التوريد.",
       "selection1Label": "متطلبات الهاتف والتركيب",
-      "selection1Body": "حدد واجهة نظام الهاتف والحاجة إلى القاعدة وطريقة التركيب."
+      "selection1Body": "حدد نظام هاتف الحريق وما إذا كانت قاعدة TX3988 مطلوبة. يستخدم اتصال الهاتف أطرافاً منفصلة عن ناقل الإنذار.",
+      "verifiedVoltageLabel": "جهد الناقل",
+      "verifiedVoltageValue": "⁦15–28 V⁩ نبضي",
+      "verifiedCurrentLabel": "تيار الناقل",
+      "verifiedCurrentValue": "استعداد ⁦≤0.5 mA⁩؛ إنذار ⁦≤0.8 mA⁩",
+      "verifiedContactLabel": "خرج الملامس الجاف",
+      "verifiedContactValue": "⁦30 V DC / 100 mA⁩ مقنن",
+      "verifiedResetLabel": "طريقة إعادة الضبط",
+      "verifiedResetValue": "عنصر قابل لإعادة الاستخدام؛ مفتاح إعادة ضبط مخصص",
+      "verifiedBusLabel": "توصيل الناقل",
+      "verifiedBusValue": "ناقل بسلكين دون قطبية",
+      "verifiedBaseLabel": "القاعدة المطابقة",
+      "verifiedBaseValue": "TX3988",
+      "verifiedDimensionsLabel": "الأبعاد شاملة القاعدة",
+      "verifiedDimensionsValue": "90 × 90 × 34 mm",
+      "verifiedProtectionLabel": "حماية الغلاف",
+      "verifiedProtectionValue": "⁦IP43⁩؛ استخدام داخلي",
+      "verifiedAmbientLabel": "درجة حرارة التشغيل",
+      "verifiedAmbientValue": "⁦−10⁩ إلى ⁦+55 °C⁩",
+      "verifiedHumidityLabel": "الرطوبة النسبية",
+      "verifiedHumidityValue": "⁦≤95% RH⁩، دون تكاثف"
     }
   }
 }

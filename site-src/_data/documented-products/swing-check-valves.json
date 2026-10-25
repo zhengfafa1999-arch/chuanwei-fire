@@ -20,7 +20,15 @@
     ],
     "notes": [
       "实物DIN3202 F6/GGG50铸字保留在照片，不升级为全系列标准或材质等级宣称。"
-    ]
+    ],
+    "marketReference": {
+      "grade": "C-other-manufacturer-or-series-reference",
+      "reviewDate": "2026-10-25",
+      "url": "https://www.nibco.com/nibco-products/valves/check-valves/f-918-b",
+      "model": "NIBCO F-918-B",
+      "location": "Official product page",
+      "scope": "Selection reference only; no supplied-SKU specification, certification, compatibility or availability inferred."
+    }
   },
   "publication": {
     "status": "release-candidate",
@@ -221,7 +229,16 @@
       "selection0Label": "Size and mating flange",
       "selection0Body": "Specify the nominal size and provide the mating flange drilling and installation dimensions.",
       "selection1Label": "Service conditions",
-      "selection1Body": "State the working fluid, operating pressure and temperature for the exact supplied configuration."
+      "selection1Body": "State the working fluid, operating pressure and temperature for the exact supplied configuration.",
+      "referenceHeading": "Selection reference",
+      "referenceScope": "The manufacturer example below helps you specify an enquiry. Its values describe the named reference model, not the CHUANWEI product pictured above. Request the offered model’s datasheet for your order.",
+      "referenceSource": "Manufacturer reference",
+      "reference0Title": "NIBCO F-918-B",
+      "reference0Note": "This rating applies to the named valve under cold, non-shock conditions; flange class alone is not its working pressure.",
+      "reference0Row0Label": "Body / trim",
+      "reference0Row0Value": "Cast iron / bronze",
+      "reference0Row1Label": "Cold non-shock pressure",
+      "reference0Row1Value": "200 psi / 13.8 bar"
     },
     "ar": {
       "onThisPage": "في هذه الصفحة",
@@ -294,7 +311,35 @@
       "selection0Label": "المقاس والفلنجة المقابلة",
       "selection0Body": "حدد المقاس الاسمي وقدم أبعاد ثقوب الفلنجة المقابلة وأبعاد التركيب.",
       "selection1Label": "ظروف التشغيل",
-      "selection1Body": "حدد المائع وضغط التشغيل ودرجة الحرارة للتكوين المطلوب توريده."
+      "selection1Body": "حدد المائع وضغط التشغيل ودرجة الحرارة للتكوين المطلوب توريده.",
+      "referenceHeading": "مرجع الاختيار",
+      "referenceScope": "يساعد المثال التالي من الشركة المصنّعة المذكورة في تحديد متطلبات الاستفسار. القيم تخص الطراز المرجعي المذكور، ولا تمثل مواصفات منتج CHUANWEI المصوّر أعلاه. اطلب ورقة بيانات الطراز المعروض لطلبك.",
+      "referenceSource": "مرجع الشركة المصنّعة",
+      "reference0Title": "NIBCO F-918-B",
+      "reference0Note": "ينطبق هذا التصنيف على الصمام المذكور في ظروف باردة دون صدمات؛ فئة الفلنجة وحدها لا تحدد ضغط التشغيل.",
+      "reference0Row0Label": "الجسم / الأجزاء الداخلية",
+      "reference0Row0Value": "حديد زهر / برونز",
+      "reference0Row1Label": "ضغط بارد دون صدمات",
+      "reference0Row1Value": "200 psi / 13.8 bar"
     }
-  }
+  },
+  "referenceExamples": [
+    {
+      "title": "reference0Title",
+      "rows": [
+        {
+          "label": "reference0Row0Label",
+          "value": "reference0Row0Value",
+          "technical": false
+        },
+        {
+          "label": "reference0Row1Label",
+          "value": "reference0Row1Value",
+          "technical": true
+        }
+      ],
+      "note": "reference0Note",
+      "url": "https://www.nibco.com/nibco-products/valves/check-valves/f-918-b"
+    }
+  ]
 }

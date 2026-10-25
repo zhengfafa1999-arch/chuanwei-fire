@@ -22,7 +22,15 @@
     "notes": [
       "90°10组+多角度22组，保留原始配对，不生成角度与尺寸全排列。",
       "45°照片不冒充11.25°或22.5°；不将2.5铸字作为全系列工作压力。"
-    ]
+    ],
+    "marketReference": {
+      "grade": "C-other-manufacturer-or-series-reference",
+      "reviewDate": "2026-10-25",
+      "url": "https://assets.victaulic.com/assets/uploads/literature/07.01.pdf",
+      "model": "Victaulic grooved fittings · 07.01",
+      "location": "07.01, pages 1–2",
+      "scope": "Selection reference only; no supplied-SKU specification, certification, compatibility or availability inferred."
+    }
   },
   "publication": {
     "status": "release-candidate",
@@ -439,7 +447,16 @@
       "selection0Label": "Pipe and groove dimensions",
       "selection0Body": "Specify both nominal DN and actual pipe outside diameter, with the mating groove profile or drawing.",
       "selection1Label": "Joint duty",
-      "selection1Body": "Provide operating pressure, temperature and required gasket or coating details for the selected configuration."
+      "selection1Body": "Provide operating pressure, temperature and required gasket or coating details for the selected configuration.",
+      "referenceHeading": "Selection reference",
+      "referenceScope": "The manufacturer example below helps you specify an enquiry. Its values describe the named reference model, not the CHUANWEI product pictured above. Request the offered model’s datasheet for your order.",
+      "referenceSource": "Manufacturer reference",
+      "reference0Title": "Victaulic grooved fittings · 07.01",
+      "reference0Note": "Match the pipe outside diameter and groove profile; the assembly pressure rating also depends on the coupling and pipe.",
+      "reference0Row0Label": "Ductile iron grade",
+      "reference0Row0Value": "ASTM A536 65-45-12",
+      "reference0Row1Label": "Groove system",
+      "reference0Row1Value": "OGS"
     },
     "ar": {
       "onThisPage": "في هذه الصفحة",
@@ -592,7 +609,35 @@
       "selection0Label": "أبعاد الأنبوب والأخدود",
       "selection0Body": "حدد كلًا من المقاس الاسمي DN والقطر الخارجي الفعلي للأنبوب، مع شكل الأخدود المقابل أو رسمه.",
       "selection1Label": "متطلبات الوصلة",
-      "selection1Body": "قدم ضغط التشغيل ودرجة الحرارة وتفاصيل الحشية أو الطلاء المطلوبة للتكوين المختار."
+      "selection1Body": "قدم ضغط التشغيل ودرجة الحرارة وتفاصيل الحشية أو الطلاء المطلوبة للتكوين المختار.",
+      "referenceHeading": "مرجع الاختيار",
+      "referenceScope": "يساعد المثال التالي من الشركة المصنّعة المذكورة في تحديد متطلبات الاستفسار. القيم تخص الطراز المرجعي المذكور، ولا تمثل مواصفات منتج CHUANWEI المصوّر أعلاه. اطلب ورقة بيانات الطراز المعروض لطلبك.",
+      "referenceSource": "مرجع الشركة المصنّعة",
+      "reference0Title": "Victaulic grooved fittings · 07.01",
+      "reference0Note": "طابق القطر الخارجي للأنبوب وشكل الأخدود؛ يعتمد ضغط مجموعة التوصيل أيضاً على الوصلة والأنبوب.",
+      "reference0Row0Label": "درجة الحديد الدكتايل",
+      "reference0Row0Value": "ASTM A536 65-45-12",
+      "reference0Row1Label": "نظام الأخدود",
+      "reference0Row1Value": "OGS"
     }
-  }
+  },
+  "referenceExamples": [
+    {
+      "title": "reference0Title",
+      "rows": [
+        {
+          "label": "reference0Row0Label",
+          "value": "reference0Row0Value",
+          "technical": true
+        },
+        {
+          "label": "reference0Row1Label",
+          "value": "reference0Row1Value",
+          "technical": true
+        }
+      ],
+      "note": "reference0Note",
+      "url": "https://assets.victaulic.com/assets/uploads/literature/07.01.pdf"
+    }
+  ]
 }

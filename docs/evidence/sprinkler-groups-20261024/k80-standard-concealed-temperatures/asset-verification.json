@@ -1,0 +1,31 @@
+{
+  "status": "PASS",
+  "routeId": "product:k80-standard-response-concealed-sprinkler",
+  "temperaturesC": [
+    57,
+    79,
+    93,
+    141
+  ],
+  "galleryCount": 8,
+  "newDerivativeAssets": 8,
+  "reusedDerivativeAssets": 8,
+  "preservedPriorPhotographAssets": 152,
+  "mainGalleryCount": 3,
+  "technicalProductDataUnchanged": true,
+  "referenceOrder": [
+    "DSC_5934.jpg",
+    "DSC_5933.jpg",
+    "DSC_5925.jpg",
+    "DSC_5923.jpg",
+    "concealed-k80-93c-covered.jpg",
+    "concealed-k80-93c-exposed.jpg",
+    "concealed-k80-141c-covered.jpg",
+    "concealed-k80-141c-exposed.jpg"
+  ],
+  "visualReview": [
+    "gallery-desktop-en-photo-1.png",
+    "gallery-mobile-ar-photo-8.png"
+  ],
+  "buildRecovery": "Initial file-access failures resolved by rerunning navigation normalization then every remaining original build step; remaining checks exit 0."
+}

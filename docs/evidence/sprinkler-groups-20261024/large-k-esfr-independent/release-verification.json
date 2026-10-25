@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "unchangedExistingFiles": 298,
+  "legacyPageSourcesUnchanged": true,
+  "existingProductImageBytesUnchanged": true,
+  "bilingualSpecificationsAndModelCopyMatchScopedOriginals": true,
+  "newLocalizedPagesVerifiedInArchive": 4,
+  "archiveFiles": 402,
+  "archiveSha256": "240b18d5950d228cbecb78342e5c9da2ba345a538567854fbb4c94cf3af236e3",
+  "deployed": false
+}

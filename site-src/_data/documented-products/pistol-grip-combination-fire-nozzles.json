@@ -21,7 +21,15 @@
     "notes": [
       "不把多色手柄当作唯一SKU；不组合不同入口或流量图片参数，不继承既有银色直流水枪参数。",
       "DN65及2.5寸文件夹标签不构成准确接口标准证据，暂不发布。"
-    ]
+    ],
+    "marketReference": {
+      "grade": "C-other-manufacturer-or-series-reference",
+      "reviewDate": "2026-10-25",
+      "url": "https://tft.com/product_series/g-force-series/",
+      "model": "TFT G-Force GB3N2S",
+      "location": "Official product page",
+      "scope": "Selection reference only; no supplied-SKU specification, certification, compatibility or availability inferred."
+    }
   },
   "publication": {
     "status": "release-candidate",
@@ -165,7 +173,14 @@
       "selection0Label": "Inlet connection",
       "selection0Body": "Provide the mating hose coupling standard, exact dimensions and a connection drawing or photograph.",
       "selection1Label": "Required performance",
-      "selection1Body": "State flow, inlet pressure and required jet or fog duty; identify the exact nozzle configuration for a matching datasheet."
+      "selection1Body": "State flow, inlet pressure and required jet or fog duty; identify the exact nozzle configuration for a matching datasheet.",
+      "referenceHeading": "Selection reference",
+      "referenceScope": "The manufacturer example below helps you specify an enquiry. Its values describe the named reference model, not the CHUANWEI product pictured above. Request the offered model’s datasheet for your order.",
+      "referenceSource": "Manufacturer reference",
+      "reference0Title": "TFT G-Force GB3N2S",
+      "reference0Note": "Flow settings apply at the stated nozzle inlet pressure; specify the hose coupling separately.",
+      "reference0Row0Label": "Flow settings at 7 bar",
+      "reference0Row0Value": "110 / 230 / 360 / 470 / 570 L/min"
     },
     "ar": {
       "onThisPage": "في هذه الصفحة",
@@ -219,7 +234,28 @@
       "selection0Label": "توصيل المدخل",
       "selection0Body": "قدم معيار وصلة الخرطوم المقابلة وأبعادها الدقيقة ورسمًا أو صورة للتوصيل.",
       "selection1Label": "الأداء المطلوب",
-      "selection1Body": "حدد التدفق وضغط المدخل ومتطلبات النمط النفاث أو الضبابي، وحدد تكوين الفوهة الدقيق للحصول على ورقة بيانات مطابقة."
+      "selection1Body": "حدد التدفق وضغط المدخل ومتطلبات النمط النفاث أو الضبابي، وحدد تكوين الفوهة الدقيق للحصول على ورقة بيانات مطابقة.",
+      "referenceHeading": "مرجع الاختيار",
+      "referenceScope": "يساعد المثال التالي من الشركة المصنّعة المذكورة في تحديد متطلبات الاستفسار. القيم تخص الطراز المرجعي المذكور، ولا تمثل مواصفات منتج CHUANWEI المصوّر أعلاه. اطلب ورقة بيانات الطراز المعروض لطلبك.",
+      "referenceSource": "مرجع الشركة المصنّعة",
+      "reference0Title": "TFT G-Force GB3N2S",
+      "reference0Note": "تنطبق إعدادات التدفق عند ضغط مدخل الفوهة المذكور؛ حدد وصلة الخرطوم بشكل مستقل.",
+      "reference0Row0Label": "إعدادات التدفق عند 7 بار",
+      "reference0Row0Value": "110 / 230 / 360 / 470 / 570 L/min"
     }
-  }
+  },
+  "referenceExamples": [
+    {
+      "title": "reference0Title",
+      "rows": [
+        {
+          "label": "reference0Row0Label",
+          "value": "reference0Row0Value",
+          "technical": true
+        }
+      ],
+      "note": "reference0Note",
+      "url": "https://tft.com/product_series/g-force-series/"
+    }
+  ]
 }

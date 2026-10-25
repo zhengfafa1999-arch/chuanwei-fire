@@ -1,0 +1,602 @@
+[
+  {
+    "product": "grooved-concentric-reducers",
+    "grade": "C-other-manufacturer-or-series-reference",
+    "reviewDate": "2026-10-25",
+    "url": "https://assets.victaulic.com/assets/uploads/literature/07.01.pdf",
+    "model": "Victaulic grooved fittings · 07.01",
+    "location": "07.01, pages 1–2",
+    "scope": "Selection reference only; no supplied-SKU specification, certification, compatibility or availability inferred.",
+    "rows": [
+      {
+        "label": "Ductile iron grade",
+        "value": "ASTM A536 65-45-12"
+      },
+      {
+        "label": "Groove system",
+        "value": "OGS"
+      }
+    ]
+  },
+  {
+    "product": "grooved-equal-crosses",
+    "grade": "C-other-manufacturer-or-series-reference",
+    "reviewDate": "2026-10-25",
+    "url": "https://assets.victaulic.com/assets/uploads/literature/07.01.pdf",
+    "model": "Victaulic grooved fittings · 07.01",
+    "location": "07.01, pages 1–2",
+    "scope": "Selection reference only; no supplied-SKU specification, certification, compatibility or availability inferred.",
+    "rows": [
+      {
+        "label": "Ductile iron grade",
+        "value": "ASTM A536 65-45-12"
+      },
+      {
+        "label": "Groove system",
+        "value": "OGS"
+      }
+    ]
+  },
+  {
+    "product": "grooved-equal-tees",
+    "grade": "C-other-manufacturer-or-series-reference",
+    "reviewDate": "2026-10-25",
+    "url": "https://assets.victaulic.com/assets/uploads/literature/07.01.pdf",
+    "model": "Victaulic grooved fittings · 07.01",
+    "location": "07.01, pages 1–2",
+    "scope": "Selection reference only; no supplied-SKU specification, certification, compatibility or availability inferred.",
+    "rows": [
+      {
+        "label": "Ductile iron grade",
+        "value": "ASTM A536 65-45-12"
+      },
+      {
+        "label": "Groove system",
+        "value": "OGS"
+      }
+    ]
+  },
+  {
+    "product": "grooved-pipe-elbows",
+    "grade": "C-other-manufacturer-or-series-reference",
+    "reviewDate": "2026-10-25",
+    "url": "https://assets.victaulic.com/assets/uploads/literature/07.01.pdf",
+    "model": "Victaulic grooved fittings · 07.01",
+    "location": "07.01, pages 1–2",
+    "scope": "Selection reference only; no supplied-SKU specification, certification, compatibility or availability inferred.",
+    "rows": [
+      {
+        "label": "Ductile iron grade",
+        "value": "ASTM A536 65-45-12"
+      },
+      {
+        "label": "Groove system",
+        "value": "OGS"
+      }
+    ]
+  },
+  {
+    "product": "grooved-reducing-tees",
+    "grade": "C-other-manufacturer-or-series-reference",
+    "reviewDate": "2026-10-25",
+    "url": "https://assets.victaulic.com/assets/uploads/literature/07.01.pdf",
+    "model": "Victaulic grooved fittings · 07.01",
+    "location": "07.01, pages 1–2",
+    "scope": "Selection reference only; no supplied-SKU specification, certification, compatibility or availability inferred.",
+    "rows": [
+      {
+        "label": "Ductile iron grade",
+        "value": "ASTM A536 65-45-12"
+      },
+      {
+        "label": "Groove system",
+        "value": "OGS"
+      }
+    ]
+  },
+  {
+    "product": "rigid-grooved-pipe-couplings",
+    "grade": "C-other-manufacturer-or-series-reference",
+    "reviewDate": "2026-10-25",
+    "url": "https://assets.victaulic.com/assets/uploads/literature/06.23.pdf",
+    "model": "Victaulic Style 107N · 06.23",
+    "location": "06.23, page 1",
+    "scope": "Selection reference only; no supplied-SKU specification, certification, compatibility or availability inferred.",
+    "rows": [
+      {
+        "label": "Reference size range",
+        "value": "DN50–DN300"
+      },
+      {
+        "label": "Pipe material",
+        "value": "Carbon steel"
+      }
+    ]
+  },
+  {
+    "product": "grooved-flange-adapters",
+    "grade": "C-other-manufacturer-or-series-reference",
+    "reviewDate": "2026-10-25",
+    "url": "https://assets.victaulic.com/assets/uploads/literature/06.06.pdf",
+    "model": "Victaulic Style 741 · 06.06",
+    "location": "06.06, product description and materials",
+    "scope": "Selection reference only; no supplied-SKU specification, certification, compatibility or availability inferred.",
+    "rows": [
+      {
+        "label": "Reference size range",
+        "value": "DN50–DN600"
+      },
+      {
+        "label": "Housing material grade",
+        "value": "ASTM A536 65-45-12"
+      }
+    ]
+  },
+  {
+    "product": "threaded-mechanical-tees",
+    "grade": "C-other-manufacturer-or-series-reference",
+    "reviewDate": "2026-10-25",
+    "url": "https://assets.victaulic.com/assets/uploads/literature/11.02.pdf",
+    "model": "Victaulic Styles 920 / 920N · 11.02",
+    "location": "11.02, page 1",
+    "scope": "Selection reference only; no supplied-SKU specification, certification, compatibility or availability inferred.",
+    "rows": [
+      {
+        "label": "Main × branch size range",
+        "value": "DN50 × DN15 – DN200 × DN100"
+      }
+    ]
+  },
+  {
+    "product": "flanged-y-strainers",
+    "grade": "C-other-manufacturer-or-series-reference",
+    "reviewDate": "2026-10-25",
+    "url": "https://www.pangovalve.cn/glq/156.html",
+    "model": "Pango GL41H-16Q",
+    "location": "Official product page",
+    "scope": "Selection reference only; no supplied-SKU specification, certification, compatibility or availability inferred.",
+    "rows": [
+      {
+        "label": "Body material grade",
+        "value": "QT450-10"
+      },
+      {
+        "label": "Screen material grade",
+        "value": "304"
+      },
+      {
+        "label": "Nominal pressure",
+        "value": "PN16"
+      }
+    ]
+  },
+  {
+    "product": "flanged-globe-valves",
+    "grade": "C-other-manufacturer-or-series-reference",
+    "reviewDate": "2026-10-25",
+    "url": "https://www.dtjt.com/proDetail_1417.html",
+    "model": "Datian J41T-16",
+    "location": "Official product page",
+    "scope": "Selection reference only; no supplied-SKU specification, certification, compatibility or availability inferred.",
+    "rows": [
+      {
+        "label": "Nominal pressure",
+        "value": "1.6 MPa"
+      },
+      {
+        "label": "Body material",
+        "value": "Grey cast iron"
+      }
+    ]
+  },
+  {
+    "product": "swing-check-valves",
+    "grade": "C-other-manufacturer-or-series-reference",
+    "reviewDate": "2026-10-25",
+    "url": "https://www.nibco.com/nibco-products/valves/check-valves/f-918-b",
+    "model": "NIBCO F-918-B",
+    "location": "Official product page",
+    "scope": "Selection reference only; no supplied-SKU specification, certification, compatibility or availability inferred.",
+    "rows": [
+      {
+        "label": "Body / trim",
+        "value": "Cast iron / bronze"
+      },
+      {
+        "label": "Cold non-shock pressure",
+        "value": "200 psi / 13.8 bar"
+      }
+    ]
+  },
+  {
+    "product": "two-piece-stainless-steel-ball-valves",
+    "grade": "C-other-manufacturer-or-series-reference",
+    "reviewDate": "2026-10-25",
+    "url": "https://catalog.nibco.com/viewitems/ball-valves-7/ntional-port-stainless-steel-trim-t-580-s6-r-66-ll",
+    "model": "NIBCO T-580-S6-R-66-LL",
+    "location": "Official product page",
+    "scope": "Selection reference only; no supplied-SKU specification, certification, compatibility or availability inferred.",
+    "rows": [
+      {
+        "label": "Seat material",
+        "value": "Reinforced PTFE"
+      },
+      {
+        "label": "Operating rotation",
+        "value": "90°"
+      }
+    ]
+  },
+  {
+    "product": "liquid-filled-pressure-gauges",
+    "grade": "C-other-manufacturer-or-series-reference",
+    "reviewDate": "2026-10-25",
+    "url": "https://www.wika.com/media/Data-sheets/Pressure/Pressure-gauges/ds_pm0212_en_co.pdf",
+    "model": "WIKA 213.53 · NS100",
+    "location": "PM 02.12, pressure limitation table",
+    "scope": "Selection reference only; no supplied-SKU specification, certification, compatibility or availability inferred.",
+    "rows": [
+      {
+        "label": "Steady pressure limit",
+        "value": "100% FS"
+      },
+      {
+        "label": "Fluctuating pressure limit",
+        "value": "90% FS"
+      }
+    ]
+  },
+  {
+    "product": "pressure-vacuum-gauges",
+    "grade": "C-other-manufacturer-or-series-reference",
+    "reviewDate": "2026-10-25",
+    "url": "https://www.wika.com/media/Data-sheets/Pressure/Pressure-gauges/ds_pm0212_en_co.pdf",
+    "model": "WIKA 213.53 · connection examples",
+    "location": "PM 02.12, process connection table",
+    "scope": "Selection reference only; no supplied-SKU specification, certification, compatibility or availability inferred.",
+    "rows": [
+      {
+        "label": "Thread examples",
+        "value": "G 1/4 B; G 1/2 B; 1/4 NPT; 1/2 NPT"
+      }
+    ]
+  },
+  {
+    "product": "pressure-gauge-syphons",
+    "grade": "C-other-manufacturer-or-series-reference",
+    "reviewDate": "2026-10-25",
+    "url": "https://www.wika.com/en-us/910_15.WIKA",
+    "model": "WIKA 910.15",
+    "location": "Official product page",
+    "scope": "Selection reference only; no supplied-SKU specification, certification, compatibility or availability inferred.",
+    "rows": [
+      {
+        "label": "Horizontal pressure tapping",
+        "value": "U-form"
+      },
+      {
+        "label": "Vertical pressure tapping",
+        "value": "Trumpet form"
+      }
+    ]
+  },
+  {
+    "product": "portable-dry-powder-fire-extinguishers",
+    "grade": "C-other-manufacturer-or-series-reference",
+    "reviewDate": "2026-10-25",
+    "url": "https://amerex-fire.com/api/documents/download?a=en&d=import-amerex-portable-fire-extinguisher-catalog",
+    "model": "Amerex B500 / B500T",
+    "location": "Portable catalogue, ABC dry chemical table",
+    "scope": "Selection reference only; no supplied-SKU specification, certification, compatibility or availability inferred.",
+    "rows": [
+      {
+        "label": "Agent charge",
+        "value": "5 lb"
+      }
+    ]
+  },
+  {
+    "product": "portable-co2-fire-extinguishers",
+    "grade": "C-other-manufacturer-or-series-reference",
+    "reviewDate": "2026-10-25",
+    "url": "https://amerex-fire.com/api/documents/download?a=en&d=import-amerex-portable-fire-extinguisher-catalog",
+    "model": "Amerex 322 / 330",
+    "location": "Portable catalogue, carbon dioxide table",
+    "scope": "Selection reference only; no supplied-SKU specification, certification, compatibility or availability inferred.",
+    "rows": [
+      {
+        "label": "322 agent charge",
+        "value": "5 lb"
+      },
+      {
+        "label": "330 agent charge",
+        "value": "10 lb"
+      }
+    ]
+  },
+  {
+    "product": "portable-water-based-fire-extinguishers",
+    "grade": "C-other-manufacturer-or-series-reference",
+    "reviewDate": "2026-10-25",
+    "url": "https://amerex-fire.com/products/fire-extinguishers/portable-fire-extinguishers/240",
+    "model": "Amerex 240",
+    "location": "Official product page",
+    "scope": "Selection reference only; no supplied-SKU specification, certification, compatibility or availability inferred.",
+    "rows": [
+      {
+        "label": "Discharge duration",
+        "value": "55 s"
+      },
+      {
+        "label": "Cylinder material",
+        "value": "Stainless steel"
+      }
+    ]
+  },
+  {
+    "product": "suspended-dry-powder-extinguishers",
+    "grade": "C-other-manufacturer-or-series-reference",
+    "reviewDate": "2026-10-25",
+    "url": "https://www.anaf.eu/en/ps2-at",
+    "model": "ANAF PS2-AT",
+    "location": "Official product page",
+    "scope": "Selection reference only; no supplied-SKU specification, certification, compatibility or availability inferred.",
+    "rows": [
+      {
+        "label": "Powder charge",
+        "value": "2 kg"
+      },
+      {
+        "label": "Thermal activation options",
+        "value": "68°C / 79°C"
+      }
+    ]
+  },
+  {
+    "product": "suspended-ultrafine-dry-powder-extinguishers",
+    "grade": "C-other-manufacturer-or-series-reference",
+    "reviewDate": "2026-10-25",
+    "url": "https://www.qhxf.com/product-detail/BXZvgADW",
+    "model": "Qinghua FZX-ACT3/1.2",
+    "location": "Official product page",
+    "scope": "Selection reference only; no supplied-SKU specification, certification, compatibility or availability inferred.",
+    "rows": [
+      {
+        "label": "Agent charge",
+        "value": "3 kg"
+      },
+      {
+        "label": "Working pressure",
+        "value": "1.2 MPa"
+      },
+      {
+        "label": "Thermal activation",
+        "value": "68°C"
+      }
+    ]
+  },
+  {
+    "product": "cabinet-aerosol-fire-suppression",
+    "grade": "C-other-manufacturer-or-series-reference",
+    "reviewDate": "2026-10-25",
+    "url": "https://www.statx.com/product/stat-x-fixed-system-electrical-units/",
+    "model": "Stat-X 30E / 100E",
+    "location": "Official product page",
+    "scope": "Selection reference only; no supplied-SKU specification, certification, compatibility or availability inferred.",
+    "rows": [
+      {
+        "label": "30E aerosol mass",
+        "value": "30 g"
+      },
+      {
+        "label": "100E aerosol mass",
+        "value": "100 g"
+      }
+    ]
+  },
+  {
+    "product": "pistol-grip-combination-fire-nozzles",
+    "grade": "C-other-manufacturer-or-series-reference",
+    "reviewDate": "2026-10-25",
+    "url": "https://tft.com/product_series/g-force-series/",
+    "model": "TFT G-Force GB3N2S",
+    "location": "Official product page",
+    "scope": "Selection reference only; no supplied-SKU specification, certification, compatibility or availability inferred.",
+    "rows": [
+      {
+        "label": "Flow settings at 7 bar",
+        "value": "110 / 230 / 360 / 470 / 570 L/min"
+      }
+    ]
+  },
+  {
+    "product": "heat-detectors",
+    "grade": "C-other-manufacturer-or-series-reference",
+    "reviewDate": "2026-10-25",
+    "url": "https://www.pottersignal.com/product/manual/550-0622-AAE_Potter_PAD200_6DB_4DB_Series.pdf",
+    "model": "Potter PAD100-HD",
+    "location": "Detector manual, specifications page 4",
+    "scope": "Selection reference only; no supplied-SKU specification, certification, compatibility or availability inferred.",
+    "rows": [
+      {
+        "label": "Supply voltage",
+        "value": "24 VDC"
+      },
+      {
+        "label": "Standby current",
+        "value": "300 µA"
+      }
+    ]
+  },
+  {
+    "product": "photoelectric-smoke-detectors",
+    "grade": "C-other-manufacturer-or-series-reference",
+    "reviewDate": "2026-10-25",
+    "url": "https://www.pottersignal.com/product/manual/550-0622-AAE_Potter_PAD200_6DB_4DB_Series.pdf",
+    "model": "Potter PAD100-PD",
+    "location": "Detector manual, specifications page 4",
+    "scope": "Selection reference only; no supplied-SKU specification, certification, compatibility or availability inferred.",
+    "rows": [
+      {
+        "label": "Supply voltage",
+        "value": "24 VDC"
+      },
+      {
+        "label": "Standby current",
+        "value": "300 µA"
+      }
+    ]
+  },
+  {
+    "product": "fire-alarm-control-panels",
+    "grade": "C-other-manufacturer-or-series-reference",
+    "reviewDate": "2026-10-25",
+    "url": "https://www.pottersignal.com/ipa-fire-alarm/fire-control-panels/fire-control-panel-ipa-100",
+    "model": "Potter IPA-100",
+    "location": "Official product page",
+    "scope": "Selection reference only; no supplied-SKU specification, certification, compatibility or availability inferred.",
+    "rows": [
+      {
+        "label": "Address capacity",
+        "value": "127"
+      },
+      {
+        "label": "Power supply",
+        "value": "5 A"
+      }
+    ]
+  },
+  {
+    "product": "fire-pump-inspection-control-cabinets",
+    "grade": "C-other-manufacturer-or-series-reference",
+    "reviewDate": "2026-10-25",
+    "url": "https://www.tornatech.com/product/gpx-series-electric-fire-pump-controllers-2/",
+    "model": "Tornatech GPx series",
+    "location": "Official product page",
+    "scope": "Selection reference only; no supplied-SKU specification, certification, compatibility or availability inferred.",
+    "rows": [
+      {
+        "label": "Supply frequency",
+        "value": "50 / 60 Hz"
+      },
+      {
+        "label": "Starting methods",
+        "value": "Full or reduced voltage"
+      }
+    ]
+  },
+  {
+    "product": "automatic-transfer-control-cabinets",
+    "grade": "C-other-manufacturer-or-series-reference",
+    "reviewDate": "2026-10-25",
+    "url": "https://new.abb.com/docs/librariesprovider22/default-document-library/truone_ats_1scc303008c0201_global_catalog_22-03.pdf?sfvrsn=11c6c60a_0",
+    "model": "ABB TruONE",
+    "location": "TruONE global catalogue 2022, technical data",
+    "scope": "Selection reference only; no supplied-SKU specification, certification, compatibility or availability inferred.",
+    "rows": [
+      {
+        "label": "Three-phase voltage",
+        "value": "200–480 VAC"
+      },
+      {
+        "label": "Supply frequency",
+        "value": "50 / 60 Hz"
+      }
+    ]
+  },
+  {
+    "product": "vertical-single-stage-fire-pumps",
+    "grade": "C-other-manufacturer-or-series-reference",
+    "reviewDate": "2026-10-25",
+    "url": "http://shanghaijiaxun.com/81.html",
+    "model": "Jiaxun vertical single-stage series",
+    "location": "Archived manufacturer catalogue: docs/reviews/web-spec-research-20261025/jiaxun-page-5.jpg",
+    "scope": "Selection reference only; no supplied-SKU specification, certification, compatibility or availability inferred.",
+    "rows": [
+      {
+        "label": "Series flow range",
+        "value": "1–100 L/s"
+      },
+      {
+        "label": "Series head range",
+        "value": "32–150 m"
+      }
+    ]
+  },
+  {
+    "product": "horizontal-single-stage-fire-pumps",
+    "grade": "C-other-manufacturer-or-series-reference",
+    "reviewDate": "2026-10-25",
+    "url": "http://shanghaijiaxun.com/81.html",
+    "model": "Jiaxun horizontal single-stage series",
+    "location": "Archived manufacturer catalogue: docs/reviews/web-spec-research-20261025/jiaxun-page-5.jpg",
+    "scope": "Selection reference only; no supplied-SKU specification, certification, compatibility or availability inferred.",
+    "rows": [
+      {
+        "label": "Series flow range",
+        "value": "10–100 L/s"
+      },
+      {
+        "label": "Series head range",
+        "value": "35–150 m"
+      }
+    ]
+  },
+  {
+    "product": "vertical-multistage-fire-pumps",
+    "grade": "C-other-manufacturer-or-series-reference",
+    "reviewDate": "2026-10-25",
+    "url": "http://shanghaijiaxun.com/81.html",
+    "model": "Jiaxun vertical multistage series",
+    "location": "Archived manufacturer catalogue: docs/reviews/web-spec-research-20261025/jiaxun-page-5.jpg",
+    "scope": "Selection reference only; no supplied-SKU specification, certification, compatibility or availability inferred.",
+    "rows": [
+      {
+        "label": "Series flow range",
+        "value": "1–40 L/s"
+      },
+      {
+        "label": "Series head range",
+        "value": "36–202 m"
+      }
+    ]
+  },
+  {
+    "product": "fire-pressure-maintenance-sets",
+    "grade": "C-other-manufacturer-or-series-reference",
+    "reviewDate": "2026-10-25",
+    "url": "http://shanghaijiaxun.com/81.html",
+    "model": "Jiaxun multistage pressure-maintenance series",
+    "location": "Archived manufacturer catalogue: docs/reviews/web-spec-research-20261025/jiaxun-page-5.jpg",
+    "scope": "Selection reference only; no supplied-SKU specification, certification, compatibility or availability inferred.",
+    "rows": [
+      {
+        "label": "Series flow range",
+        "value": "1–5 L/s"
+      },
+      {
+        "label": "Series head range",
+        "value": "30–158 m"
+      }
+    ]
+  },
+  {
+    "product": "wheeled-dry-powder-fire-extinguishers",
+    "grade": "C-other-manufacturer-or-series-reference",
+    "reviewDate": "2026-10-25",
+    "url": "https://amerex-fire.com/api/documents/download?a=en&d=import-amerex-fire-extinguisher-parts-book",
+    "model": "Amerex 495",
+    "location": "Parts book, printed page 15 / PDF page 17",
+    "scope": "Selection reference only; no supplied-SKU specification, certification, compatibility or availability inferred.",
+    "rows": [
+      {
+        "label": "ABC powder charge",
+        "value": "50 lb"
+      },
+      {
+        "label": "Hose assembly",
+        "value": "1/2 in × 25 ft"
+      }
+    ]
+  }
+]

@@ -11,6 +11,20 @@
   "excludes": "Unlisted replacements, unmatched product configurations and other publication channels.",
   "images": [
     {
+      "productId": "glass-bulb-fire-sprinkler",
+      "path": "assets/products/guanya-2026/glass-bulb-fire-sprinkler-dsc_5841-1600.webp",
+      "sha256": "2849ca8c3fc5325e1e7f3b2a5fdf899aef821f602a9ab85b66f3b5b5f3cd7df0",
+      "originalSha256": "21886c656cdb3979e47c7e89363e199f84ea2bdb03af622a59975f5fb43a2c5e",
+      "publishedTransform": "CHUANWEI FIRE text watermark in clear whitespace",
+      "confirmedDate": "2026-10-24",
+      "authority": "User supplied the identical K-ZSTBS 80-68°C Q3A photograph and requested replacing Representative product packing with this horizontal-sidewall image.",
+      "userRequest": "换成这个侧喷",
+      "sourceManifest": "site-src/_data/guanya-photos.json",
+      "watermarkRecord": "site-src/_data/product-watermarks.json",
+      "replaces": "products/消防喷头/glass-bulb-sprinkler/quick-response-real-packing.jpg",
+      "unwatermarkedSha256": "930dcb34f0e594631a49797543cd7230f4ee99434b5974d1425b6a9591af303c"
+    },
+    {
       "productId": "standard-response-fire-sprinkler",
       "path": "products/消防喷头/standard-response-sprinkler/standard-response-three-styles.jpg",
       "sha256": "ab41c5d1d04187950e24afb11075944a4bacc1a33e135f1f7c4e9b69908b020f",

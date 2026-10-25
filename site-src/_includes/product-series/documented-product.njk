@@ -3,6 +3,8 @@
     <a href="#gallery">{{ entry.text.gallery }}</a>
     <a href="#specifications">{{ entry.text.specifications }}</a>
     <a href="#models">{{ entry.text.availableModels }}</a>
+{% if entry.product.referenceExamples %}    <a href="#selection-reference">{{ entry.text.referenceHeading }}</a>
+{% endif %}
 {% if entry.product.packaging %}    <a href="#packaging">{{ entry.text.packaging }}</a>
 {% endif %}{% if entry.downloads | length %}    <a href="#downloads">{{ entry.text.downloads }}</a>
 {% endif %}
@@ -88,6 +90,21 @@
     </div>
   </section>
 
+{% if entry.product.referenceExamples %}
+  <section class="pdp-section pdp-section--soft" id="selection-reference">
+    <div class="pdp-container">
+      <div class="pdp-heading"><div><h2>{{ entry.text.referenceHeading }}</h2></div><p>{{ entry.text.referenceScope }}</p></div>
+{% for example in entry.product.referenceExamples %}      <article class="pdp-panel">
+        <h3><bdi dir="ltr">{{ entry.text[example.title] }}</bdi></h3>
+        <dl class="pdp-specs">
+{% for item in example.rows %}          <div><dt>{{ entry.text[item.label] }}</dt><dd{% if item.technical %} dir="ltr"{% endif %}>{{ entry.text[item.value] }}</dd></div>
+{% endfor %}        </dl>
+        <p>{{ entry.text[example.note] }}</p>
+        <p><a href="{{ example.url }}" target="_blank" rel="noopener noreferrer">{{ entry.text.referenceSource }} ↗</a></p>
+      </article>
+{% endfor %}    </div>
+  </section>
+{% endif %}
 {% if entry.product.packaging %}
   <section class="pdp-section pdp-section--soft" id="packaging">
     <div class="pdp-container">

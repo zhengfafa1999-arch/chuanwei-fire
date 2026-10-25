@@ -54,9 +54,9 @@
         "zh": "消防泵与控制柜"
       },
       "description": {
-        "en": "Vertical fire pumps, pressure-maintenance equipment, transfer cabinets and pump inspection controls.",
-        "ar": "مضخات حريق رأسية ومعدات المحافظة على الضغط وخزائن تحويل التغذية والتحكم بفحص المضخات.",
-        "zh": "立式消防泵、稳压设备、双电源柜及消防泵巡检控制柜。"
+        "en": "Horizontal and vertical fire pumps, pressure-maintenance equipment, transfer cabinets and pump inspection controls.",
+        "ar": "مضخات حريق أفقية ورأسية ومعدات المحافظة على الضغط وخزائن تحويل التغذية والتحكم بفحص المضخات.",
+        "zh": "卧式及立式消防泵、稳压设备、双电源柜及消防泵巡检控制柜。"
       },
       "image": "assets/products/website-20261018/product-f30855ee4f4e.webp"
     },
@@ -84,9 +84,9 @@
         "zh": "沟槽管件"
       },
       "description": {
-        "en": "Grooved elbows, reducing tees, equal crosses and rigid pipe couplings with individual size selections.",
-        "ar": "أكواع محززة ووصلات ثلاثية مخفضة ووصلات رباعية متساوية وقارنات صلبة بمقاسات محددة لكل نوع.",
-        "zh": "沟槽弯头、异径三通、等径四通及刚性卡箍，按对应尺寸选型。"
+        "en": "Grooved couplings, elbows, tees, crosses, concentric reducers, threaded mechanical tees and flange adapters.",
+        "ar": "وصلات محززة وأكواع ووصلات T ووصلات رباعية ومخفضات متحدة المركز ووصلات T ميكانيكية ملولبة ومحولات فلنجية.",
+        "zh": "沟槽卡箍、弯头、三通、四通、同心异径管、丝接机械三通及转换法兰。"
       },
       "image": "assets/products/website-20261018/product-015b5d2c7458.webp"
     },
@@ -99,9 +99,9 @@
         "zh": "配件"
       },
       "description": {
-        "en": "Pressure/vacuum gauges, liquid-filled gauges and matching gauge syphons.",
-        "ar": "مقاييس الضغط والتفريغ والمقاييس المملوءة بالسائل وأنابيب السيفون الخاصة بها.",
-        "zh": "压力真空表、充液耐震压力表及压力表弯管。"
+        "en": "Pressure/vacuum gauges, liquid-filled gauges, gauge syphons and fire sprinkler accessories.",
+        "ar": "مقاييس الضغط والتفريغ والمقاييس المملوءة بالسائل وأنابيب السيفون وملحقات رشاشات الحريق.",
+        "zh": "压力真空表、充液耐震压力表、压力表弯管及消防喷头配件。"
       },
       "image": "assets/products/website-20261018/product-96f4cd20b07a.webp"
     }
@@ -458,6 +458,61 @@
         "zh": "手持直流喷雾消防水枪"
       },
       "image": "assets/products/website-20261018/product-49b0fe587649.webp"
+    },
+    {
+      "id": "grooved-concentric-reducers",
+      "routeId": "product:grooved-concentric-reducers",
+      "familyId": "grooved-pipe-fittings",
+      "name": {
+        "en": "Grooved Concentric Reducers",
+        "ar": "مخفضات متحدة المركز ذات أخاديد",
+        "zh": "沟槽同心异径管"
+      },
+      "image": "assets/products/alibaba-20261023/grooved-concentric-reducers/hero.webp"
+    },
+    {
+      "id": "threaded-mechanical-tees",
+      "routeId": "product:threaded-mechanical-tees",
+      "familyId": "grooved-pipe-fittings",
+      "name": {
+        "en": "Threaded Mechanical Tees",
+        "ar": "وصلات T ميكانيكية بمخرج ملولب",
+        "zh": "丝接机械三通"
+      },
+      "image": "assets/products/alibaba-20261023/threaded-mechanical-tees/hero.webp"
+    },
+    {
+      "id": "grooved-equal-tees",
+      "routeId": "product:grooved-equal-tees",
+      "familyId": "grooved-pipe-fittings",
+      "name": {
+        "en": "Grooved Equal Tees",
+        "ar": "وصلات T متساوية ذات أخاديد",
+        "zh": "沟槽正三通"
+      },
+      "image": "assets/products/alibaba-20261023/grooved-equal-tees/hero.webp"
+    },
+    {
+      "id": "grooved-flange-adapters",
+      "routeId": "product:grooved-flange-adapters",
+      "familyId": "grooved-pipe-fittings",
+      "name": {
+        "en": "Grooved Flange Adapters",
+        "ar": "محولات فلنجية ذات أخاديد",
+        "zh": "沟槽转换法兰"
+      },
+      "image": "assets/products/alibaba-20261023/grooved-flange-adapters/hero.webp"
+    },
+    {
+      "id": "horizontal-single-stage-fire-pumps",
+      "routeId": "product:horizontal-single-stage-fire-pumps",
+      "familyId": "fire-pumps-controllers",
+      "name": {
+        "en": "Horizontal Single-Stage Fire Pumps",
+        "ar": "مضخات حريق أفقية أحادية المرحلة",
+        "zh": "卧式单级消防泵"
+      },
+      "image": "assets/products/alibaba-20261023/horizontal-single-stage-fire-pumps/hero.webp"
     }
   ]
 }

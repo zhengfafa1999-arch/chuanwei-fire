@@ -88,12 +88,24 @@ for (const locale of SUPPORTED_LOCALES) {
       for (const item of focus.guideItems) assert(containsRenderedText(category.html, item), `${family.id}: buyer guidance is missing`);
       assert(category.html.includes(`href="${focusHref}"`), `${family.id}: focused product link is missing`);
     }
-    const cards=[...category.html.matchAll(/<article class="product-card">([\s\S]*?)<\/article>/g)].map(m=>m[1]);
+    const cards=[...category.html.matchAll(/<article class="product-card"(?:\s[^>]*)?>([\s\S]*?)<\/article>/g)].map(m=>m[1]);
     const products=flatProducts(family);
     assert(cards.length === products.length, `${family.id}: flat category count mismatch`);
     assert(directory.html.includes(`value="${family.id}" data-family-members="${family.id}"`), `${family.id}: existing category must retain exact filtering`);
     products.forEach((product,index)=>{
-      assert(product.image && !/Configuration options|خيارات التكوين/.test(localizedText(product.name,locale)), 'Empty duplicate configuration card returned');
+      const name=localizedText(product.name,locale);
+      assert(!/Configuration options|خيارات التكوين/.test(name), 'Empty duplicate configuration card returned');
+      if (product.inquiry) {
+        assert(family.id==='sprinklers' && ['k115-quick','k115-standard'].includes(product.seriesId), 'Only unverified ordinary K115 series may be inquiry cards');
+        assert(product.routeId===null && product.image===null && !(product.relatedConfigurations||[]).length, 'Inquiry series must not imply a verified product, photo or model');
+        for (const [html,route] of [[directory.html,directory.route],[cards[index],category.route]]) {
+          const href=listingInquiryDrafts(name,route.canonical,locale).whatsappHref.replaceAll('&','&amp;');
+          assert(containsRenderedText(html,name) && html.includes(`class="product-card__link" href="${href}"`), 'Inquiry card must open a contextual product inquiry');
+        }
+        assert(!cards[index].includes('<img'), 'Unverified inquiry series inherited a product photograph');
+        return;
+      }
+      assert(product.image, 'Published product card needs a verified image');
       assert(SITE_ROUTES[product.routeId].kind === 'product', 'Directory must link directly to detail routes');
       assert(SITE_ROUTES[product.routeId].category === family.routeId, 'Product parent changed');
       assert(SITE_ROUTES[product.routeId].locales[locale].status === 'published', 'Unexpected language fallback');
@@ -106,11 +118,20 @@ for (const locale of SUPPORTED_LOCALES) {
       }
       const href=resolveSiteRoute(product.routeId,locale,category.route.outputPath).href+productSuffix(product);
       const links=[...cards[index].matchAll(/<a\b[^>]*href="([^"]+)"/g)].map(m=>m[1]);
-      const relatedHrefs=(product.relatedConfigurations||[]).map(item=>resolveSiteRoute(product.routeId,locale,category.route.outputPath).href+'#'+item.anchor);
-      assert(links.filter(link=>link===href).length===2 && links.every(link=>link===href||relatedHrefs.includes(link)),'Image/text destinations must match; additional model links must be scoped');
+      const primaryLinks=[...cards[index].matchAll(/<a\b[^>]*class="product-card__(image|link)"[^>]*href="([^"]+)"/g)];
+      const relatedHrefs=(product.relatedConfigurations||[]).map(item=>resolveSiteRoute(product.routeId,locale,category.route.outputPath).href+(item.suffix||'#'+item.anchor));
+      assert(primaryLinks.length===2 && new Set(primaryLinks.map(link=>link[1])).size===2 && primaryLinks.every(link=>link[2]===href) && links.every(link=>link===href||relatedHrefs.includes(link)),'Image/text destinations must match; additional model links must be scoped');
       if (!product.image) assert(!cards[index].includes('<img'), 'Text-only configuration entry inherited a legacy photo');
       const detail=readOutput(SITE_ROUTES[product.routeId].locales[locale].outputPath);
-      for(const item of product.relatedConfigurations||[])assert(detail.includes(`id="${item.anchor}"`),'Additional model anchor missing');
+      for(const item of product.relatedConfigurations||[]){
+        const suffix=item.suffix||'#'+item.anchor;
+        const anchor=suffix.split('#')[1];
+        assert(anchor && detail.includes(`id="${anchor}"`),'Additional model anchor missing');
+        if(suffix.startsWith('?view=')){
+          const selected=new URLSearchParams(suffix.split('#')[0]).get('view');
+          assert(selected && detail.includes(path.basename(selected)),'Additional photographed configuration missing from detail');
+        }
+      }
       if(product.anchor)assert(detail.includes(`id="${product.anchor}"`),'Configuration anchor missing');
       if(product.view){assert(detail.includes('id="gallery"'),'Gallery target missing');assert(detail.includes(path.basename(product.image)),'Selected view missing from detail');}
     });

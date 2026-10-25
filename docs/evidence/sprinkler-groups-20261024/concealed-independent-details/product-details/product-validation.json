@@ -1,0 +1,318 @@
+{
+  "scope": "product-batch",
+  "products": [
+    "k80-standard-response-concealed-sprinkler",
+    "k80-quick-response-concealed-sprinkler",
+    "k115-standard-response-concealed-sprinkler",
+    "k115-quick-response-concealed-sprinkler"
+  ],
+  "previewMode": "http",
+  "generatedAt": "2026-10-24T10:43:24.713Z",
+  "browser": "Edg/155.0.4283.62",
+  "viewports": [
+    {
+      "id": "desktop",
+      "width": 1440,
+      "height": 900,
+      "deviceScaleFactor": 1,
+      "mobile": false
+    },
+    {
+      "id": "mobile",
+      "width": 390,
+      "height": 844,
+      "deviceScaleFactor": 1,
+      "mobile": true
+    }
+  ],
+  "validations": [
+    {
+      "slug": "k80-standard-response-concealed-sprinkler",
+      "languageSwitches": [
+        {
+          "scenario": "desktop/en: k80-standard-response-concealed-sprinkler image/text category entries, reciprocal switch, refresh, 3-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+          "status": "PASS"
+        },
+        {
+          "scenario": "desktop/ar: k80-standard-response-concealed-sprinkler image/text category entries, reciprocal switch, refresh, 3-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+          "status": "PASS"
+        },
+        {
+          "scenario": "mobile/en: k80-standard-response-concealed-sprinkler image/text category entries, reciprocal switch, refresh, 3-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+          "status": "PASS"
+        },
+        {
+          "scenario": "mobile/ar: k80-standard-response-concealed-sprinkler image/text category entries, reciprocal switch, refresh, 3-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+          "status": "PASS"
+        }
+      ],
+      "screenshots": [
+        "edge-desktop-k80-standard-response-concealed-sprinkler-en-gallery.png",
+        "edge-desktop-k80-standard-response-concealed-sprinkler-en-specifications.png",
+        "edge-desktop-k80-standard-response-concealed-sprinkler-en-models.png",
+        "edge-desktop-k80-standard-response-concealed-sprinkler-en-quotation.png",
+        "edge-desktop-k80-standard-response-concealed-sprinkler-ar-gallery.png",
+        "edge-desktop-k80-standard-response-concealed-sprinkler-ar-specifications.png",
+        "edge-desktop-k80-standard-response-concealed-sprinkler-ar-models.png",
+        "edge-desktop-k80-standard-response-concealed-sprinkler-ar-quotation.png",
+        "edge-mobile-k80-standard-response-concealed-sprinkler-en-gallery.png",
+        "edge-mobile-k80-standard-response-concealed-sprinkler-en-specifications.png",
+        "edge-mobile-k80-standard-response-concealed-sprinkler-en-models.png",
+        "edge-mobile-k80-standard-response-concealed-sprinkler-en-quotation.png",
+        "edge-mobile-k80-standard-response-concealed-sprinkler-ar-gallery.png",
+        "edge-mobile-k80-standard-response-concealed-sprinkler-ar-specifications.png",
+        "edge-mobile-k80-standard-response-concealed-sprinkler-ar-models.png",
+        "edge-mobile-k80-standard-response-concealed-sprinkler-ar-quotation.png"
+      ]
+    },
+    {
+      "slug": "k80-quick-response-concealed-sprinkler",
+      "languageSwitches": [
+        {
+          "scenario": "desktop/en: k80-quick-response-concealed-sprinkler image/text category entries, reciprocal switch, refresh, 3-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+          "status": "PASS"
+        },
+        {
+          "scenario": "desktop/ar: k80-quick-response-concealed-sprinkler image/text category entries, reciprocal switch, refresh, 3-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+          "status": "PASS"
+        },
+        {
+          "scenario": "mobile/en: k80-quick-response-concealed-sprinkler image/text category entries, reciprocal switch, refresh, 3-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+          "status": "PASS"
+        },
+        {
+          "scenario": "mobile/ar: k80-quick-response-concealed-sprinkler image/text category entries, reciprocal switch, refresh, 3-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+          "status": "PASS"
+        }
+      ],
+      "screenshots": [
+        "edge-desktop-k80-quick-response-concealed-sprinkler-en-gallery.png",
+        "edge-desktop-k80-quick-response-concealed-sprinkler-en-specifications.png",
+        "edge-desktop-k80-quick-response-concealed-sprinkler-en-models.png",
+        "edge-desktop-k80-quick-response-concealed-sprinkler-en-quotation.png",
+        "edge-desktop-k80-quick-response-concealed-sprinkler-ar-gallery.png",
+        "edge-desktop-k80-quick-response-concealed-sprinkler-ar-specifications.png",
+        "edge-desktop-k80-quick-response-concealed-sprinkler-ar-models.png",
+        "edge-desktop-k80-quick-response-concealed-sprinkler-ar-quotation.png",
+        "edge-mobile-k80-quick-response-concealed-sprinkler-en-gallery.png",
+        "edge-mobile-k80-quick-response-concealed-sprinkler-en-specifications.png",
+        "edge-mobile-k80-quick-response-concealed-sprinkler-en-models.png",
+        "edge-mobile-k80-quick-response-concealed-sprinkler-en-quotation.png",
+        "edge-mobile-k80-quick-response-concealed-sprinkler-ar-gallery.png",
+        "edge-mobile-k80-quick-response-concealed-sprinkler-ar-specifications.png",
+        "edge-mobile-k80-quick-response-concealed-sprinkler-ar-models.png",
+        "edge-mobile-k80-quick-response-concealed-sprinkler-ar-quotation.png"
+      ]
+    },
+    {
+      "slug": "k115-standard-response-concealed-sprinkler",
+      "languageSwitches": [
+        {
+          "scenario": "desktop/en: k115-standard-response-concealed-sprinkler image/text category entries, reciprocal switch, refresh, 3-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+          "status": "PASS"
+        },
+        {
+          "scenario": "desktop/ar: k115-standard-response-concealed-sprinkler image/text category entries, reciprocal switch, refresh, 3-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+          "status": "PASS"
+        },
+        {
+          "scenario": "mobile/en: k115-standard-response-concealed-sprinkler image/text category entries, reciprocal switch, refresh, 3-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+          "status": "PASS"
+        },
+        {
+          "scenario": "mobile/ar: k115-standard-response-concealed-sprinkler image/text category entries, reciprocal switch, refresh, 3-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+          "status": "PASS"
+        }
+      ],
+      "screenshots": [
+        "edge-desktop-k115-standard-response-concealed-sprinkler-en-gallery.png",
+        "edge-desktop-k115-standard-response-concealed-sprinkler-en-specifications.png",
+        "edge-desktop-k115-standard-response-concealed-sprinkler-en-models.png",
+        "edge-desktop-k115-standard-response-concealed-sprinkler-en-quotation.png",
+        "edge-desktop-k115-standard-response-concealed-sprinkler-ar-gallery.png",
+        "edge-desktop-k115-standard-response-concealed-sprinkler-ar-specifications.png",
+        "edge-desktop-k115-standard-response-concealed-sprinkler-ar-models.png",
+        "edge-desktop-k115-standard-response-concealed-sprinkler-ar-quotation.png",
+        "edge-mobile-k115-standard-response-concealed-sprinkler-en-gallery.png",
+        "edge-mobile-k115-standard-response-concealed-sprinkler-en-specifications.png",
+        "edge-mobile-k115-standard-response-concealed-sprinkler-en-models.png",
+        "edge-mobile-k115-standard-response-concealed-sprinkler-en-quotation.png",
+        "edge-mobile-k115-standard-response-concealed-sprinkler-ar-gallery.png",
+        "edge-mobile-k115-standard-response-concealed-sprinkler-ar-specifications.png",
+        "edge-mobile-k115-standard-response-concealed-sprinkler-ar-models.png",
+        "edge-mobile-k115-standard-response-concealed-sprinkler-ar-quotation.png"
+      ]
+    },
+    {
+      "slug": "k115-quick-response-concealed-sprinkler",
+      "languageSwitches": [
+        {
+          "scenario": "desktop/en: k115-quick-response-concealed-sprinkler image/text category entries, reciprocal switch, refresh, 3-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+          "status": "PASS"
+        },
+        {
+          "scenario": "desktop/ar: k115-quick-response-concealed-sprinkler image/text category entries, reciprocal switch, refresh, 3-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+          "status": "PASS"
+        },
+        {
+          "scenario": "mobile/en: k115-quick-response-concealed-sprinkler image/text category entries, reciprocal switch, refresh, 3-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+          "status": "PASS"
+        },
+        {
+          "scenario": "mobile/ar: k115-quick-response-concealed-sprinkler image/text category entries, reciprocal switch, refresh, 3-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+          "status": "PASS"
+        }
+      ],
+      "screenshots": [
+        "edge-desktop-k115-quick-response-concealed-sprinkler-en-gallery.png",
+        "edge-desktop-k115-quick-response-concealed-sprinkler-en-specifications.png",
+        "edge-desktop-k115-quick-response-concealed-sprinkler-en-models.png",
+        "edge-desktop-k115-quick-response-concealed-sprinkler-en-quotation.png",
+        "edge-desktop-k115-quick-response-concealed-sprinkler-ar-gallery.png",
+        "edge-desktop-k115-quick-response-concealed-sprinkler-ar-specifications.png",
+        "edge-desktop-k115-quick-response-concealed-sprinkler-ar-models.png",
+        "edge-desktop-k115-quick-response-concealed-sprinkler-ar-quotation.png",
+        "edge-mobile-k115-quick-response-concealed-sprinkler-en-gallery.png",
+        "edge-mobile-k115-quick-response-concealed-sprinkler-en-specifications.png",
+        "edge-mobile-k115-quick-response-concealed-sprinkler-en-models.png",
+        "edge-mobile-k115-quick-response-concealed-sprinkler-en-quotation.png",
+        "edge-mobile-k115-quick-response-concealed-sprinkler-ar-gallery.png",
+        "edge-mobile-k115-quick-response-concealed-sprinkler-ar-specifications.png",
+        "edge-mobile-k115-quick-response-concealed-sprinkler-ar-models.png",
+        "edge-mobile-k115-quick-response-concealed-sprinkler-ar-quotation.png"
+      ]
+    }
+  ],
+  "languageSwitches": [
+    {
+      "scenario": "desktop/en: k80-standard-response-concealed-sprinkler image/text category entries, reciprocal switch, refresh, 3-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+      "status": "PASS"
+    },
+    {
+      "scenario": "desktop/ar: k80-standard-response-concealed-sprinkler image/text category entries, reciprocal switch, refresh, 3-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+      "status": "PASS"
+    },
+    {
+      "scenario": "mobile/en: k80-standard-response-concealed-sprinkler image/text category entries, reciprocal switch, refresh, 3-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+      "status": "PASS"
+    },
+    {
+      "scenario": "mobile/ar: k80-standard-response-concealed-sprinkler image/text category entries, reciprocal switch, refresh, 3-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+      "status": "PASS"
+    },
+    {
+      "scenario": "desktop/en: k80-quick-response-concealed-sprinkler image/text category entries, reciprocal switch, refresh, 3-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+      "status": "PASS"
+    },
+    {
+      "scenario": "desktop/ar: k80-quick-response-concealed-sprinkler image/text category entries, reciprocal switch, refresh, 3-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+      "status": "PASS"
+    },
+    {
+      "scenario": "mobile/en: k80-quick-response-concealed-sprinkler image/text category entries, reciprocal switch, refresh, 3-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+      "status": "PASS"
+    },
+    {
+      "scenario": "mobile/ar: k80-quick-response-concealed-sprinkler image/text category entries, reciprocal switch, refresh, 3-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+      "status": "PASS"
+    },
+    {
+      "scenario": "desktop/en: k115-standard-response-concealed-sprinkler image/text category entries, reciprocal switch, refresh, 3-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+      "status": "PASS"
+    },
+    {
+      "scenario": "desktop/ar: k115-standard-response-concealed-sprinkler image/text category entries, reciprocal switch, refresh, 3-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+      "status": "PASS"
+    },
+    {
+      "scenario": "mobile/en: k115-standard-response-concealed-sprinkler image/text category entries, reciprocal switch, refresh, 3-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+      "status": "PASS"
+    },
+    {
+      "scenario": "mobile/ar: k115-standard-response-concealed-sprinkler image/text category entries, reciprocal switch, refresh, 3-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+      "status": "PASS"
+    },
+    {
+      "scenario": "desktop/en: k115-quick-response-concealed-sprinkler image/text category entries, reciprocal switch, refresh, 3-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+      "status": "PASS"
+    },
+    {
+      "scenario": "desktop/ar: k115-quick-response-concealed-sprinkler image/text category entries, reciprocal switch, refresh, 3-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+      "status": "PASS"
+    },
+    {
+      "scenario": "mobile/en: k115-quick-response-concealed-sprinkler image/text category entries, reciprocal switch, refresh, 3-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+      "status": "PASS"
+    },
+    {
+      "scenario": "mobile/ar: k115-quick-response-concealed-sprinkler image/text category entries, reciprocal switch, refresh, 3-image gallery, localized captions/zoom, arrows/wrap/swipe, three modal closes and footer returns",
+      "status": "PASS"
+    }
+  ],
+  "screenshots": [
+    "edge-desktop-k80-standard-response-concealed-sprinkler-en-gallery.png",
+    "edge-desktop-k80-standard-response-concealed-sprinkler-en-specifications.png",
+    "edge-desktop-k80-standard-response-concealed-sprinkler-en-models.png",
+    "edge-desktop-k80-standard-response-concealed-sprinkler-en-quotation.png",
+    "edge-desktop-k80-standard-response-concealed-sprinkler-ar-gallery.png",
+    "edge-desktop-k80-standard-response-concealed-sprinkler-ar-specifications.png",
+    "edge-desktop-k80-standard-response-concealed-sprinkler-ar-models.png",
+    "edge-desktop-k80-standard-response-concealed-sprinkler-ar-quotation.png",
+    "edge-mobile-k80-standard-response-concealed-sprinkler-en-gallery.png",
+    "edge-mobile-k80-standard-response-concealed-sprinkler-en-specifications.png",
+    "edge-mobile-k80-standard-response-concealed-sprinkler-en-models.png",
+    "edge-mobile-k80-standard-response-concealed-sprinkler-en-quotation.png",
+    "edge-mobile-k80-standard-response-concealed-sprinkler-ar-gallery.png",
+    "edge-mobile-k80-standard-response-concealed-sprinkler-ar-specifications.png",
+    "edge-mobile-k80-standard-response-concealed-sprinkler-ar-models.png",
+    "edge-mobile-k80-standard-response-concealed-sprinkler-ar-quotation.png",
+    "edge-desktop-k80-quick-response-concealed-sprinkler-en-gallery.png",
+    "edge-desktop-k80-quick-response-concealed-sprinkler-en-specifications.png",
+    "edge-desktop-k80-quick-response-concealed-sprinkler-en-models.png",
+    "edge-desktop-k80-quick-response-concealed-sprinkler-en-quotation.png",
+    "edge-desktop-k80-quick-response-concealed-sprinkler-ar-gallery.png",
+    "edge-desktop-k80-quick-response-concealed-sprinkler-ar-specifications.png",
+    "edge-desktop-k80-quick-response-concealed-sprinkler-ar-models.png",
+    "edge-desktop-k80-quick-response-concealed-sprinkler-ar-quotation.png",
+    "edge-mobile-k80-quick-response-concealed-sprinkler-en-gallery.png",
+    "edge-mobile-k80-quick-response-concealed-sprinkler-en-specifications.png",
+    "edge-mobile-k80-quick-response-concealed-sprinkler-en-models.png",
+    "edge-mobile-k80-quick-response-concealed-sprinkler-en-quotation.png",
+    "edge-mobile-k80-quick-response-concealed-sprinkler-ar-gallery.png",
+    "edge-mobile-k80-quick-response-concealed-sprinkler-ar-specifications.png",
+    "edge-mobile-k80-quick-response-concealed-sprinkler-ar-models.png",
+    "edge-mobile-k80-quick-response-concealed-sprinkler-ar-quotation.png",
+    "edge-desktop-k115-standard-response-concealed-sprinkler-en-gallery.png",
+    "edge-desktop-k115-standard-response-concealed-sprinkler-en-specifications.png",
+    "edge-desktop-k115-standard-response-concealed-sprinkler-en-models.png",
+    "edge-desktop-k115-standard-response-concealed-sprinkler-en-quotation.png",
+    "edge-desktop-k115-standard-response-concealed-sprinkler-ar-gallery.png",
+    "edge-desktop-k115-standard-response-concealed-sprinkler-ar-specifications.png",
+    "edge-desktop-k115-standard-response-concealed-sprinkler-ar-models.png",
+    "edge-desktop-k115-standard-response-concealed-sprinkler-ar-quotation.png",
+    "edge-mobile-k115-standard-response-concealed-sprinkler-en-gallery.png",
+    "edge-mobile-k115-standard-response-concealed-sprinkler-en-specifications.png",
+    "edge-mobile-k115-standard-response-concealed-sprinkler-en-models.png",
+    "edge-mobile-k115-standard-response-concealed-sprinkler-en-quotation.png",
+    "edge-mobile-k115-standard-response-concealed-sprinkler-ar-gallery.png",
+    "edge-mobile-k115-standard-response-concealed-sprinkler-ar-specifications.png",
+    "edge-mobile-k115-standard-response-concealed-sprinkler-ar-models.png",
+    "edge-mobile-k115-standard-response-concealed-sprinkler-ar-quotation.png",
+    "edge-desktop-k115-quick-response-concealed-sprinkler-en-gallery.png",
+    "edge-desktop-k115-quick-response-concealed-sprinkler-en-specifications.png",
+    "edge-desktop-k115-quick-response-concealed-sprinkler-en-models.png",
+    "edge-desktop-k115-quick-response-concealed-sprinkler-en-quotation.png",
+    "edge-desktop-k115-quick-response-concealed-sprinkler-ar-gallery.png",
+    "edge-desktop-k115-quick-response-concealed-sprinkler-ar-specifications.png",
+    "edge-desktop-k115-quick-response-concealed-sprinkler-ar-models.png",
+    "edge-desktop-k115-quick-response-concealed-sprinkler-ar-quotation.png",
+    "edge-mobile-k115-quick-response-concealed-sprinkler-en-gallery.png",
+    "edge-mobile-k115-quick-response-concealed-sprinkler-en-specifications.png",
+    "edge-mobile-k115-quick-response-concealed-sprinkler-en-models.png",
+    "edge-mobile-k115-quick-response-concealed-sprinkler-en-quotation.png",
+    "edge-mobile-k115-quick-response-concealed-sprinkler-ar-gallery.png",
+    "edge-mobile-k115-quick-response-concealed-sprinkler-ar-specifications.png",
+    "edge-mobile-k115-quick-response-concealed-sprinkler-ar-models.png",
+    "edge-mobile-k115-quick-response-concealed-sprinkler-ar-quotation.png"
+  ]
+}

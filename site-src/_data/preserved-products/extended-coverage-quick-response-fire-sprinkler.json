@@ -36,6 +36,11 @@
         "finish": "Chrome-plated",
         "shippingCartonQuantity": "Not requested; user deferred",
         "piecesPerBox": null
+      },
+      "subsequentPhotoReview": {
+        "date": "2026-10-24",
+        "record": "docs/reviews/k115-quick-ec-separation-20261024/reviewed-changes.json",
+        "scope": "Ordinary K115 K-ZST photographs moved to their own series; original EC-ZST primary photography restored. Existing EC model rows and specifications unchanged."
       }
     },
     "buyerCopyReview": {
@@ -119,11 +124,8 @@
       "numbers": []
     },
     "reviewThePendentUprightAndHorizontalSidewallConfigurations": {
-      "text": "Compare the three EC-ZST models in the main gallery. Additional K{n0} / {n1}°C photographs below show K-ZST-marked samples; confirm the required factory marking with your order.",
-      "numbers": [
-        "115",
-        "68"
-      ]
+      "text": "Compare the EC-ZST pendent, upright and horizontal sidewall configurations shown in the main gallery. Confirm the factory model and installation orientation with your order.",
+      "numbers": []
     },
     "pendentSprinkler": {
       "text": "Pendent Sprinkler",

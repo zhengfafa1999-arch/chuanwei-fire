@@ -22,7 +22,15 @@
     "notes": [
       "不将来源24 V擅自扩写为24 V DC。",
       "不采用未核验IP43或高温耐受营销声明。"
-    ]
+    ],
+    "marketReference": {
+      "grade": "C-other-manufacturer-or-series-reference",
+      "reviewDate": "2026-10-25",
+      "url": "https://www.pottersignal.com/product/manual/550-0622-AAE_Potter_PAD200_6DB_4DB_Series.pdf",
+      "model": "Potter PAD100-HD",
+      "location": "Detector manual, specifications page 4",
+      "scope": "Selection reference only; no supplied-SKU specification, certification, compatibility or availability inferred."
+    }
   },
   "publication": {
     "status": "release-candidate",
@@ -158,10 +166,10 @@
       "inquiryTitle": "Request product details and a quotation",
       "inquiryBody": "Send your selected configuration, quantity and destination.",
       "title": "Heat Detectors",
-      "lead": "Ceiling-mounted Tanda point-type heat detectors. The documented configuration has a 100 mm diameter, 49 mm height and a listed 24 V supply.",
+      "lead": "Ceiling-mounted Tanda point-type heat detectors with a 100 mm diameter, 49 mm height and 24 V supply.",
       "eyebrow": "Fire Alarm Equipment",
       "seoTitle": "Heat Detectors | CHUANWEI FIRE",
-      "seoDescription": "Ceiling-mounted Tanda point-type heat detectors. The documented configuration has a 100 mm diameter, 49 mm height and a listed 24 V supply.",
+      "seoDescription": "Ceiling-mounted Tanda point-type heat detectors with a 100 mm diameter, 49 mm height and 24 V supply.",
       "note": "Provide the control panel model, protocol and existing device references so compatibility can be checked before supply.",
       "image0Alt": "Tanda ceiling-mounted point-type heat detector.",
       "image0Caption": "Tanda ceiling-mounted point-type heat detector.",
@@ -183,7 +191,16 @@
       "selection0Label": "Control panel compatibility",
       "selection0Body": "Provide the control panel model, protocol and existing device references so compatibility can be checked before supply.",
       "selection1Label": "Thermal conditions",
-      "selection1Body": "Provide normal and maximum ambient temperatures and the required detector response class for model review."
+      "selection1Body": "Provide normal and maximum ambient temperatures and the required detector response class for model review.",
+      "referenceHeading": "Selection reference",
+      "referenceScope": "The manufacturer example below helps you specify an enquiry. Its values describe the named reference model, not the CHUANWEI product pictured above. Request the offered model’s datasheet for your order.",
+      "referenceSource": "Manufacturer reference",
+      "reference0Title": "Potter PAD100-HD",
+      "reference0Note": "Addressable detectors require a compatible panel and protocol; equal voltage does not establish interchangeability.",
+      "reference0Row0Label": "Supply voltage",
+      "reference0Row0Value": "24 VDC",
+      "reference0Row1Label": "Standby current",
+      "reference0Row1Value": "300 µA"
     },
     "ar": {
       "onThisPage": "في هذه الصفحة",
@@ -216,10 +233,10 @@
       "inquiryTitle": "اطلب تفاصيل المنتج وعرض سعر",
       "inquiryBody": "أرسل التكوين المختار والكمية والوجهة.",
       "title": "كواشف الحرارة",
-      "lead": "كواشف حرارة نقطية من Tanda للتركيب السقفي. يبلغ قطر التجهيز الموثق 100 mm وارتفاعه 49 mm، مع جهد تغذية مدرج 24 V.",
+      "lead": "كواشف حرارة نقطية من Tanda للتركيب السقفي، بقطر 100 mm وارتفاع 49 mm وجهد تغذية 24 V.",
       "eyebrow": "معدات إنذار الحريق",
       "seoTitle": "كواشف الحرارة | CHUANWEI FIRE",
-      "seoDescription": "كواشف حرارة نقطية من Tanda للتركيب السقفي. يبلغ قطر التجهيز الموثق 100 mm وارتفاعه 49 mm، مع جهد تغذية مدرج 24 V.",
+      "seoDescription": "كواشف حرارة نقطية من Tanda للتركيب السقفي، بقطر 100 mm وارتفاع 49 mm وجهد تغذية 24 V.",
       "note": "قدم طراز لوحة التحكم والبروتوكول ومراجع الأجهزة الحالية للتحقق من التوافق قبل التوريد.",
       "image0Alt": "كاشف حرارة نقطي سقفي من Tanda.",
       "image0Caption": "كاشف حرارة نقطي سقفي من Tanda.",
@@ -241,7 +258,35 @@
       "selection0Label": "توافق لوحة التحكم",
       "selection0Body": "قدم طراز لوحة التحكم والبروتوكول ومراجع الأجهزة الحالية للتحقق من التوافق قبل التوريد.",
       "selection1Label": "الظروف الحرارية",
-      "selection1Body": "قدم درجتي الحرارة المحيطة الاعتيادية والقصوى وفئة استجابة الكاشف المطلوبة لمراجعة الطراز."
+      "selection1Body": "قدم درجتي الحرارة المحيطة الاعتيادية والقصوى وفئة استجابة الكاشف المطلوبة لمراجعة الطراز.",
+      "referenceHeading": "مرجع الاختيار",
+      "referenceScope": "يساعد المثال التالي من الشركة المصنّعة المذكورة في تحديد متطلبات الاستفسار. القيم تخص الطراز المرجعي المذكور، ولا تمثل مواصفات منتج CHUANWEI المصوّر أعلاه. اطلب ورقة بيانات الطراز المعروض لطلبك.",
+      "referenceSource": "مرجع الشركة المصنّعة",
+      "reference0Title": "Potter PAD100-HD",
+      "reference0Note": "تتطلب الكواشف المعنونة لوحة وبروتوكولاً متوافقين؛ تساوي الجهد لا يعني إمكانية الاستبدال.",
+      "reference0Row0Label": "جهد التغذية",
+      "reference0Row0Value": "24 VDC",
+      "reference0Row1Label": "تيار الاستعداد",
+      "reference0Row1Value": "300 µA"
     }
-  }
+  },
+  "referenceExamples": [
+    {
+      "title": "reference0Title",
+      "rows": [
+        {
+          "label": "reference0Row0Label",
+          "value": "reference0Row0Value",
+          "technical": true
+        },
+        {
+          "label": "reference0Row1Label",
+          "value": "reference0Row1Value",
+          "technical": true
+        }
+      ],
+      "note": "reference0Note",
+      "url": "https://www.pottersignal.com/product/manual/550-0622-AAE_Potter_PAD200_6DB_4DB_Series.pdf"
+    }
+  ]
 }

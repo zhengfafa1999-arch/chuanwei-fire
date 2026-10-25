@@ -1,0 +1,271 @@
+{
+  "date": "2026-10-25",
+  "scope": [
+    "grooved-concentric-reducers",
+    "threaded-mechanical-tees",
+    "grooved-equal-tees",
+    "grooved-flange-adapters",
+    "horizontal-single-stage-fire-pumps"
+  ],
+  "sourceBatch": "D:\\work\\codex\\阿里国际站运营\\outputs\\alibaba-detail-image-studio\\10.23-五款商品字段总表.json",
+  "sourceBatchSha256": "50090c81f51faa23f594d33efc67e645e8156c18e201edce29b0447d93bd79a5",
+  "upstreamThread": "01a13021-b198-7fb2-b839-d8a8ee687f6a",
+  "upstreamStatus": "Four new Alibaba drafts and one existing pump draft updated; not published.",
+  "userConfirmed": {
+    "origin": "China / Fujian",
+    "customizable": true,
+    "picturedConfigurationsAvailable": true,
+    "verbatim": "全部 China / Fujian、Yes，图示款式可供货"
+  },
+  "materials": {
+    "reducer": "Exact source attribute: 球墨铸铁",
+    "mechanical_tee": "Exact source attribute: 球墨铸铁",
+    "equal_tee": "Exact source attribute: 球墨铸铁",
+    "flange": "Title: 球墨铸铁; attribute: 其它. Public material: available on request.",
+    "pump": "Exact source pump casing attribute: 铸铁"
+  },
+  "sources": [
+    {
+      "canonical_url": "https://detail.1688.com/offer/1069120390735.html",
+      "source_html": "D:\\work\\codex\\外部商品连接内容\\10.23\\厂家批发沟槽大小头异径管 消防沟槽变径管件接头 卡箍同心大小头 - 阿里巴巴.html",
+      "source_seller": "潍坊金顺消防管件有限公司",
+      "source_brand": "金顺",
+      "source_item_number": "06",
+      "evidence_file": "D:\\work\\codex\\阿里国际站运营\\outputs\\alibaba-detail-image-studio\\沟槽同心异径管系列-消防沟槽大小头\\copy\\source-evidence.json",
+      "key": "reducer",
+      "htmlSha256": "fe46c07692846cb4986b47cd1b44c17fffe2f45e66c351b9cd16b58d2d1576c3",
+      "unresolved": [
+        "确认大端与小端的实际管道外径和沟槽尺寸，不能只凭DN选型",
+        "确认球墨铸铁材质及牌号是否适用于本店出口供货",
+        "本店实际可供出口规格与型号对应关系",
+        "主体材质及牌号，必要时含密封件和紧固件材质",
+        "额定工作压力与目标市场标准或认证的有效证明",
+        "价格、币种、贸易条款、MOQ、库存及交期",
+        "每箱数量、包装方式、净重、毛重及包装尺寸",
+        "如需实物Logo定制，确认工艺、位置、MOQ、稿件格式、样品费及交期"
+      ]
+    },
+    {
+      "canonical_url": "https://detail.1688.com/offer/1053587630009.html",
+      "source_html": "D:\\work\\codex\\外部商品连接内容\\10.23\\大口径沟槽机械三通 消防工程连接管件 丝接沟槽机械三通厂家批发 - 阿里巴巴.html",
+      "source_seller": "潍坊金顺消防管件有限公司",
+      "source_brand": "金顺",
+      "source_item_number": "19",
+      "evidence_file": "D:\\work\\codex\\阿里国际站运营\\tmp\\10.23-intake\\tees-evidence.json",
+      "key": "mechanical_tee",
+      "htmlSha256": "c978ea9a6effa6ea124cbbd5ea902f68df8e25c7eacb84de43e6dd3e4d62188f",
+      "unresolved": [
+        "丝接出口仅以白底图结构为准；原页沟槽出口不能混入本套丝接规格",
+        "确认BSP或NPT等实际螺纹标准，不能仅凭照片推断",
+        "确认主管外径、开孔要求、密封垫材料及供货组件",
+        "本店实际可供出口规格与型号对应关系",
+        "主体材质及牌号，必要时含密封件和紧固件材质",
+        "额定工作压力与目标市场标准或认证的有效证明",
+        "价格、币种、贸易条款、MOQ、库存及交期",
+        "每箱数量、包装方式、净重、毛重及包装尺寸",
+        "如需实物Logo定制，确认工艺、位置、MOQ、稿件格式、样品费及交期"
+      ]
+    },
+    {
+      "canonical_url": "https://detail.1688.com/offer/1067198403578.html",
+      "source_html": "D:\\work\\codex\\外部商品连接内容\\10.23\\沟槽管件正三通现货 国标消防管件正三通 消防工程连接管件批发 - 阿里巴巴.html",
+      "source_seller": "潍坊金顺消防管件有限公司",
+      "source_brand": "金顺",
+      "source_item_number": "58",
+      "evidence_file": "D:\\work\\codex\\阿里国际站运营\\tmp\\10.23-intake\\tees-evidence.json",
+      "key": "equal_tee",
+      "htmlSha256": "1241c51780a187c5407f69bd286684e0c676a31af38995ecd5465637833906b2",
+      "unresolved": [
+        "确认相同DN下不同外径系列的实际供货关系",
+        "可见XGQT03及159-2.5/3铸字不能直接作为型号、压力或认证证明",
+        "本店实际可供出口规格与型号对应关系",
+        "主体材质及牌号，必要时含密封件和紧固件材质",
+        "额定工作压力与目标市场标准或认证的有效证明",
+        "价格、币种、贸易条款、MOQ、库存及交期",
+        "每箱数量、包装方式、净重、毛重及包装尺寸",
+        "如需实物Logo定制，确认工艺、位置、MOQ、稿件格式、样品费及交期"
+      ]
+    },
+    {
+      "canonical_url": "https://detail.1688.com/offer/1062903625929.html",
+      "source_html": "D:\\work\\codex\\外部商品连接内容\\10.23\\沟槽管件转换法兰 球墨铸铁消防连接件法兰 结实耐用卡箍转换法兰 - 阿里巴巴.html",
+      "source_seller": "潍坊金顺消防管件有限公司",
+      "source_brand": "金顺",
+      "source_item_number": "51",
+      "evidence_file": "D:\\work\\codex\\阿里国际站运营\\outputs\\alibaba-detail-image-studio\\沟槽转换法兰系列-消防管道转换法兰\\copy\\source-evidence.json",
+      "key": "flange",
+      "htmlSha256": "1c6047ed1c072e108a7f10dd75a5d70e2ba2f9cea8fb78f6f251b2fb8c82b82a",
+      "unresolved": [
+        "材质存在冲突：原网页标题称球墨铸铁，结构化材质字段为其它；必须核实",
+        "确认法兰孔数、孔距、孔径、钻孔标准及沟槽端口匹配关系",
+        "本店实际可供出口规格与型号对应关系",
+        "主体材质及牌号，必要时含密封件和紧固件材质",
+        "额定工作压力与目标市场标准或认证的有效证明",
+        "价格、币种、贸易条款、MOQ、库存及交期",
+        "每箱数量、包装方式、净重、毛重及包装尺寸",
+        "如需实物Logo定制，确认工艺、位置、MOQ、稿件格式、样品费及交期"
+      ]
+    },
+    {
+      "canonical_url": "https://detail.1688.com/offer/974369022643.html",
+      "source_html": "D:\\work\\codex\\外部商品连接内容\\10.23\\消防泵水泵XBD卧式单级室内外消火栓自动喷淋增压给水稳压水泵 - 阿里巴巴.html",
+      "source_seller": "上海嘉寻泵业集团有限公司",
+      "source_brand": "嘉寻",
+      "source_item_number": null,
+      "evidence_file": "D:\\work\\codex\\阿里国际站运营\\tmp\\10.23-intake\\pump-evidence.json",
+      "key": "pump",
+      "htmlSha256": "5030fa9b9c547484a2eb1553b18a135f104245802412296e6894573bab031331",
+      "unresolved": [
+        "唯一工厂型号候选XBD3.2/1W- JXL对应1.5 kW、3.6 m3/h、32 m、380 V，需确认实物铭牌及出口供货关系",
+        "最大流量360与最大扬程150缺少单位和型号对应，不可发布为范围或同一工作点",
+        "SKU重量30 kg与包装表1000 g冲突，不可直接用于运费或包装信息",
+        "确认电源频率、相数、转速、性能曲线、泵体材质及法兰钻孔标准",
+        "本店实际可供出口规格与型号对应关系",
+        "主体材质及牌号，必要时含密封件和紧固件材质",
+        "额定工作压力与目标市场标准或认证的有效证明",
+        "价格、币种、贸易条款、MOQ、库存及交期",
+        "每箱数量、包装方式、净重、毛重及包装尺寸",
+        "如需实物Logo定制，确认工艺、位置、MOQ、稿件格式、样品费及交期"
+      ]
+    }
+  ],
+  "images": [
+    {
+      "productId": "grooved-concentric-reducers",
+      "path": "assets/products/alibaba-20261023/grooved-concentric-reducers/hero.webp",
+      "sha256": "a3eff1f3df288568d6abaa1bd675233c8029f14a01a6ff7bbab5e50a95f057fa",
+      "sourcePath": "D:\\work\\codex\\阿里国际站运营\\outputs\\alibaba-detail-image-studio\\沟槽同心异径管系列-消防沟槽大小头\\source\\05-白底原图.webp",
+      "sourceSha256": "029a29a6adb979c95cee6e72a9860dee39e9340ac33754e90e7884a9cb6702de",
+      "kind": "real-product-photo"
+    },
+    {
+      "productId": "grooved-concentric-reducers",
+      "path": "assets/products/alibaba-20261023/grooved-concentric-reducers/features.webp",
+      "sha256": "1ecd47f17e394d69a00fe8421bd9da0c8204390f2f0d3db197335577a2c34087",
+      "sourcePath": "D:\\work\\codex\\阿里国际站运营\\outputs\\alibaba-detail-image-studio\\沟槽同心异径管系列-消防沟槽大小头\\images\\沟槽同心异径管系列-阿里国际站-07-结构识别详情图-en.png",
+      "sourceSha256": "3a49def874d7d6a9c3016aa5fd927a01ae534176aca1ca0eb00be2d6f2257dd8",
+      "kind": "existing-generated-product-feature-illustration"
+    },
+    {
+      "productId": "threaded-mechanical-tees",
+      "path": "assets/products/alibaba-20261023/threaded-mechanical-tees/hero.webp",
+      "sha256": "afe654faa1347e7665e2650b74c8bd424ee35454b4c7a877fc5f3dcc33a0343c",
+      "sourcePath": "D:\\work\\codex\\阿里国际站运营\\outputs\\alibaba-detail-image-studio\\丝接机械三通系列-丝接机械三通\\source\\O1CN01LIQPmk2Jcx9SOEJev_!!2221026429443-0-cib.jpg_.webp",
+      "sourceSha256": "eb00f99c9b6dbb2988a38cc024383c29aa13e8dfec866c4e2cf6cb6efc9a8bd4",
+      "kind": "real-product-photo"
+    },
+    {
+      "productId": "threaded-mechanical-tees",
+      "path": "assets/products/alibaba-20261023/threaded-mechanical-tees/features.webp",
+      "sha256": "6b730a0d098da4a41c9b99653d547bfe4bf3e5854b5a89a336a824e0e3023e71",
+      "sourcePath": "D:\\work\\codex\\阿里国际站运营\\outputs\\alibaba-detail-image-studio\\丝接机械三通系列-丝接机械三通\\images\\丝接机械三通系列-阿里国际站-07-产品概览详情图-en.jpg",
+      "sourceSha256": "d138ad7eae34236a9202b602de84c8c6d31e86a272b77c8d7feb8293cc6098b7",
+      "kind": "existing-generated-product-feature-illustration"
+    },
+    {
+      "productId": "grooved-equal-tees",
+      "path": "assets/products/alibaba-20261023/grooved-equal-tees/hero.webp",
+      "sha256": "474c4c6fa02515af15214669c78a9adb07597ef0e392bbe0ca419dcba1f1b86e",
+      "sourcePath": "D:\\work\\codex\\阿里国际站运营\\outputs\\alibaba-detail-image-studio\\沟槽正三通系列-沟槽正三通\\source\\O1CN01fcaid22Jcx9SB2A5k_!!2221026429443-0-cib.jpg_.webp",
+      "sourceSha256": "4a41bbb3d4f4b82212406db65f1d9c6075aa2690ee056fd1a1c5bf8e744bf31c",
+      "kind": "real-product-photo"
+    },
+    {
+      "productId": "grooved-equal-tees",
+      "path": "assets/products/alibaba-20261023/grooved-equal-tees/features.webp",
+      "sha256": "bd69fc84f9254e5491ed6397db9c7227581b4cbb4d5338b96f40a24b7c6f366c",
+      "sourcePath": "D:\\work\\codex\\阿里国际站运营\\outputs\\alibaba-detail-image-studio\\沟槽正三通系列-沟槽正三通\\images\\沟槽正三通系列-阿里国际站-07-产品概览详情图-en.jpg",
+      "sourceSha256": "2963859b270bdf1872e947850218569004cacb678920e99babb258c598431956",
+      "kind": "existing-generated-product-feature-illustration"
+    },
+    {
+      "productId": "grooved-flange-adapters",
+      "path": "assets/products/alibaba-20261023/grooved-flange-adapters/hero.webp",
+      "sha256": "33f97d4e7587435bcb6f69581d658a329addcc4df4093da56da43ad9f0b5fe92",
+      "sourcePath": "D:\\work\\codex\\阿里国际站运营\\outputs\\alibaba-detail-image-studio\\沟槽转换法兰系列-消防管道转换法兰\\source\\05-白底原图.webp",
+      "sourceSha256": "ae12d59cae14f54a3860ae884965804ccc48b3846460d2e5917194830966052a",
+      "kind": "real-product-photo"
+    },
+    {
+      "productId": "grooved-flange-adapters",
+      "path": "assets/products/alibaba-20261023/grooved-flange-adapters/features.webp",
+      "sha256": "b5c0a223c2a47d1f43c971a33d2b5c0f2a75648303c49682132062dca64372b1",
+      "sourcePath": "D:\\work\\codex\\阿里国际站运营\\outputs\\alibaba-detail-image-studio\\沟槽转换法兰系列-消防管道转换法兰\\images\\沟槽转换法兰系列-阿里国际站-07-产品结构详情图-en.png",
+      "sourceSha256": "131fa404ffd897b54134d7619fc9e034f5b0ba142bcc3abb27ba9b221f6eda2d",
+      "kind": "existing-generated-product-feature-illustration"
+    },
+    {
+      "productId": "horizontal-single-stage-fire-pumps",
+      "path": "assets/products/alibaba-20261023/horizontal-single-stage-fire-pumps/hero.webp",
+      "sha256": "9d65e85b07413b899e8f3d6d9cafad28849f042d8d22483c9ec3256863a7e4cf",
+      "sourcePath": "D:\\work\\codex\\阿里国际站运营\\outputs\\alibaba-detail-image-studio\\XBD3.2-1W-JXL-卧式单级消防泵\\source\\消防泵-原始白底产品图.webp",
+      "sourceSha256": "06da638008072e058a746e2a9e546aa8f23ea090b1b957f90f96101d3df33a07",
+      "kind": "real-product-photo"
+    },
+    {
+      "productId": "horizontal-single-stage-fire-pumps",
+      "path": "assets/products/alibaba-20261023/horizontal-single-stage-fire-pumps/features.webp",
+      "sha256": "18b5bca837fb45d1c117b72182c6fc8cf11e2eff15056eed5959bde63821c633",
+      "sourcePath": "D:\\work\\codex\\阿里国际站运营\\outputs\\alibaba-detail-image-studio\\XBD3.2-1W-JXL-卧式单级消防泵\\images\\XBD3.2-1W-JXL-阿里国际站-07-产品概览详情图-en.jpg",
+      "sourceSha256": "cabd7fac646cdef8d3eac47b1e0673931b6d79e53f83b5e540f7fb1fda0618a2",
+      "kind": "existing-generated-product-feature-illustration"
+    }
+  ],
+  "registrations": [
+    {
+      "id": "grooved-concentric-reducers",
+      "routeId": "product:grooved-concentric-reducers",
+      "familyId": "grooved-pipe-fittings",
+      "name": {
+        "en": "Grooved Concentric Reducers",
+        "ar": "مخفضات متحدة المركز ذات أخاديد",
+        "zh": "沟槽同心异径管"
+      },
+      "image": "assets/products/alibaba-20261023/grooved-concentric-reducers/hero.webp"
+    },
+    {
+      "id": "threaded-mechanical-tees",
+      "routeId": "product:threaded-mechanical-tees",
+      "familyId": "grooved-pipe-fittings",
+      "name": {
+        "en": "Threaded Mechanical Tees",
+        "ar": "وصلات T ميكانيكية بمخرج ملولب",
+        "zh": "丝接机械三通"
+      },
+      "image": "assets/products/alibaba-20261023/threaded-mechanical-tees/hero.webp"
+    },
+    {
+      "id": "grooved-equal-tees",
+      "routeId": "product:grooved-equal-tees",
+      "familyId": "grooved-pipe-fittings",
+      "name": {
+        "en": "Grooved Equal Tees",
+        "ar": "وصلات T متساوية ذات أخاديد",
+        "zh": "沟槽正三通"
+      },
+      "image": "assets/products/alibaba-20261023/grooved-equal-tees/hero.webp"
+    },
+    {
+      "id": "grooved-flange-adapters",
+      "routeId": "product:grooved-flange-adapters",
+      "familyId": "grooved-pipe-fittings",
+      "name": {
+        "en": "Grooved Flange Adapters",
+        "ar": "محولات فلنجية ذات أخاديد",
+        "zh": "沟槽转换法兰"
+      },
+      "image": "assets/products/alibaba-20261023/grooved-flange-adapters/hero.webp"
+    },
+    {
+      "id": "horizontal-single-stage-fire-pumps",
+      "routeId": "product:horizontal-single-stage-fire-pumps",
+      "familyId": "fire-pumps-controllers",
+      "name": {
+        "en": "Horizontal Single-Stage Fire Pumps",
+        "ar": "مضخات حريق أفقية أحادية المرحلة",
+        "zh": "卧式单级消防泵"
+      },
+      "image": "assets/products/alibaba-20261023/horizontal-single-stage-fire-pumps/hero.webp"
+    }
+  ]
+}

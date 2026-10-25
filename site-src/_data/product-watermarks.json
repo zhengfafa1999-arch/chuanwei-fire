@@ -6996,12 +6996,4692 @@
       ],
       "protectedProductPixelsOverlaid": 0,
       "quality": 85
+    },
+    {
+      "path": "assets/products/guanya-2026/glass-bulb-fire-sprinkler-dsc_5836-1600.webp",
+      "masterPath": ".watermark-backups/site-assets-original/guanya-2026/glass-bulb-fire-sprinkler-dsc_5836-1600.webp",
+      "originalSha256": "e75ae9550cacf003e16b27a02d2bd5b17aa4ecb8036196ff3afbcfb74182e288",
+      "watermarkedSha256": "cdfb3c364382a66c2a66c32fb1f40953cb2223b999b257ecae80bb36d5f035e9",
+      "originalBytes": 93008,
+      "bytes": 96862,
+      "width": 844,
+      "height": 1291,
+      "format": "WEBP",
+      "centerTone": "dark",
+      "cornerTone": "dark",
+      "placements": [
+        {
+          "layer": "corner",
+          "box": [
+            425,
+            1255,
+            829,
+            1276
+          ],
+          "fontSize": 23,
+          "alpha": 176
+        },
+        {
+          "layer": "diagonal",
+          "box": [
+            435,
+            1073,
+            787,
+            1263
+          ],
+          "fontSize": 45,
+          "alpha": 64
+        }
+      ],
+      "protectedProductPixelsOverlaid": 0,
+      "quality": 85
+    },
+    {
+      "path": "assets/products/guanya-2026/glass-bulb-fire-sprinkler-dsc_5836-640.webp",
+      "masterPath": ".watermark-backups/site-assets-original/guanya-2026/glass-bulb-fire-sprinkler-dsc_5836-640.webp",
+      "originalSha256": "6e863cedf6bb5186eff7d48339ac7c20ab88c8d806b66391dbbef7f0d2c1db11",
+      "watermarkedSha256": "050b98e05287d2e54f842a8af39587e8098d29637c14c4d77087d079e58d185f",
+      "originalBytes": 35352,
+      "bytes": 37336,
+      "width": 418,
+      "height": 640,
+      "format": "WEBP",
+      "centerTone": "dark",
+      "cornerTone": "dark",
+      "placements": [
+        {
+          "layer": "corner",
+          "box": [
+            214,
+            620,
+            410,
+            632
+          ],
+          "fontSize": 11,
+          "alpha": 176
+        },
+        {
+          "layer": "diagonal",
+          "box": [
+            8,
+            8,
+            161,
+            92
+          ],
+          "fontSize": 19,
+          "alpha": 64
+        }
+      ],
+      "protectedProductPixelsOverlaid": 0,
+      "quality": 85
+    },
+    {
+      "path": "assets/products/guanya-2026/glass-bulb-fire-sprinkler-dsc_5844-1600.webp",
+      "masterPath": ".watermark-backups/site-assets-original/guanya-2026/glass-bulb-fire-sprinkler-dsc_5844-1600.webp",
+      "originalSha256": "956ef03853188e91fca505a480c926434f51580e03913f3df82dd98a4713e3e5",
+      "watermarkedSha256": "27751a9ce44da2f49bd8659d6892e0de83bb186ce952eaaf12578b73d3b7897a",
+      "originalBytes": 80036,
+      "bytes": 83932,
+      "width": 928,
+      "height": 1561,
+      "format": "WEBP",
+      "centerTone": "dark",
+      "cornerTone": "dark",
+      "placements": [
+        {
+          "layer": "corner",
+          "box": [
+            473,
+            1522,
+            911,
+            1544
+          ],
+          "fontSize": 25,
+          "alpha": 176
+        },
+        {
+          "layer": "diagonal",
+          "box": [
+            17,
+            17,
+            467,
+            261
+          ],
+          "fontSize": 58,
+          "alpha": 64
+        }
+      ],
+      "protectedProductPixelsOverlaid": 0,
+      "quality": 85
+    },
+    {
+      "path": "assets/products/guanya-2026/glass-bulb-fire-sprinkler-dsc_5844-640.webp",
+      "masterPath": ".watermark-backups/site-assets-original/guanya-2026/glass-bulb-fire-sprinkler-dsc_5844-640.webp",
+      "originalSha256": "ada258bed976232131aea69f5dd68778de710c4b798674b15bf4bdaf0905a081",
+      "watermarkedSha256": "fb2f5f69d5d21979a8cb8c1b7f6264fad9ab1851f3231c824fad3d766e3ea76e",
+      "originalBytes": 24568,
+      "bytes": 26482,
+      "width": 380,
+      "height": 640,
+      "format": "WEBP",
+      "centerTone": "dark",
+      "cornerTone": "dark",
+      "placements": [
+        {
+          "layer": "corner",
+          "box": [
+            177,
+            621,
+            373,
+            633
+          ],
+          "fontSize": 11,
+          "alpha": 176
+        },
+        {
+          "layer": "diagonal",
+          "box": [
+            7,
+            7,
+            181,
+            103
+          ],
+          "fontSize": 22,
+          "alpha": 64
+        }
+      ],
+      "protectedProductPixelsOverlaid": 0,
+      "quality": 85
+    },
+    {
+      "path": "assets/products/guanya-2026/glass-bulb-fire-sprinkler-dsc_5845-1600.webp",
+      "masterPath": ".watermark-backups/site-assets-original/guanya-2026/glass-bulb-fire-sprinkler-dsc_5845-1600.webp",
+      "originalSha256": "ced7ae6f90f3ebfebee82cf8ae636350dabeba8211798c8ad23fa43966e6d14d",
+      "watermarkedSha256": "ab0b09d63d28336b1073bf6ba3a56d2faf42309385c7cd66a1dc8a529c7f7336",
+      "originalBytes": 87422,
+      "bytes": 90690,
+      "width": 860,
+      "height": 1240,
+      "format": "WEBP",
+      "centerTone": "dark",
+      "cornerTone": "dark",
+      "placements": [
+        {
+          "layer": "corner",
+          "box": [
+            441,
+            1204,
+            845,
+            1225
+          ],
+          "fontSize": 23,
+          "alpha": 176
+        },
+        {
+          "layer": "diagonal",
+          "box": [
+            15,
+            15,
+            371,
+            210
+          ],
+          "fontSize": 46,
+          "alpha": 64
+        }
+      ],
+      "protectedProductPixelsOverlaid": 0,
+      "quality": 85
+    },
+    {
+      "path": "assets/products/guanya-2026/glass-bulb-fire-sprinkler-dsc_5845-640.webp",
+      "masterPath": ".watermark-backups/site-assets-original/guanya-2026/glass-bulb-fire-sprinkler-dsc_5845-640.webp",
+      "originalSha256": "e88e5303a70d65fe3f4e83a094f4c4f36997744936ab9bc820f7f123af5902e9",
+      "watermarkedSha256": "3a43ceba1a0470e4071d3beba629f310c22719f3e2963f7a1f24763e6d3a7fec",
+      "originalBytes": 35566,
+      "bytes": 37798,
+      "width": 444,
+      "height": 640,
+      "format": "WEBP",
+      "centerTone": "dark",
+      "cornerTone": "dark",
+      "placements": [
+        {
+          "layer": "corner",
+          "box": [
+            224,
+            619,
+            436,
+            632
+          ],
+          "fontSize": 12,
+          "alpha": 176
+        },
+        {
+          "layer": "diagonal",
+          "box": [
+            8,
+            8,
+            190,
+            109
+          ],
+          "fontSize": 23,
+          "alpha": 64
+        }
+      ],
+      "protectedProductPixelsOverlaid": 0,
+      "quality": 85
+    },
+    {
+      "path": "assets/products/guanya-2026/glass-bulb-fire-sprinkler-dsc_5848-1600.webp",
+      "masterPath": ".watermark-backups/site-assets-original/guanya-2026/glass-bulb-fire-sprinkler-dsc_5848-1600.webp",
+      "originalSha256": "8a0587d825e49f3218d5a8ccb233f4fb70ffc656231728faefcd0a4a5dbc343c",
+      "watermarkedSha256": "5cf680055f968f75a066ce1cf42b1a527d3b9b5f0cad41328604b6b696e2adf9",
+      "originalBytes": 83138,
+      "bytes": 86546,
+      "width": 860,
+      "height": 1223,
+      "format": "WEBP",
+      "centerTone": "dark",
+      "cornerTone": "dark",
+      "placements": [
+        {
+          "layer": "corner",
+          "box": [
+            441,
+            1187,
+            845,
+            1208
+          ],
+          "fontSize": 23,
+          "alpha": 176
+        },
+        {
+          "layer": "diagonal",
+          "box": [
+            15,
+            15,
+            356,
+            201
+          ],
+          "fontSize": 44,
+          "alpha": 64
+        }
+      ],
+      "protectedProductPixelsOverlaid": 0,
+      "quality": 85
+    },
+    {
+      "path": "assets/products/guanya-2026/glass-bulb-fire-sprinkler-dsc_5848-640.webp",
+      "masterPath": ".watermark-backups/site-assets-original/guanya-2026/glass-bulb-fire-sprinkler-dsc_5848-640.webp",
+      "originalSha256": "9dea0f02587e899bd68e83743cf6119dd03c511e242893b58a21678eb3c958a7",
+      "watermarkedSha256": "91bd7556759b03c185eefaa8752aad0494709ec35c7e4558e8f6b9e4ad00c7d7",
+      "originalBytes": 35262,
+      "bytes": 37442,
+      "width": 450,
+      "height": 640,
+      "format": "WEBP",
+      "centerTone": "dark",
+      "cornerTone": "dark",
+      "placements": [
+        {
+          "layer": "corner",
+          "box": [
+            230,
+            619,
+            442,
+            632
+          ],
+          "fontSize": 12,
+          "alpha": 176
+        },
+        {
+          "layer": "diagonal",
+          "box": [
+            8,
+            8,
+            165,
+            95
+          ],
+          "fontSize": 20,
+          "alpha": 64
+        }
+      ],
+      "protectedProductPixelsOverlaid": 0,
+      "quality": 85
+    },
+    {
+      "path": "assets/products/guanya-2026/glass-bulb-fire-sprinkler-dsc_5851-1600.webp",
+      "masterPath": ".watermark-backups/site-assets-original/guanya-2026/glass-bulb-fire-sprinkler-dsc_5851-1600.webp",
+      "originalSha256": "099f874cefe59cf7d7d3b6a2a6364ecc392bb1fe4d4a4c8814e01c2eb4ecfe95",
+      "watermarkedSha256": "e8df55596e100722a9656152080ac0096d7a19f7292dced6c6943fcafa355e01",
+      "originalBytes": 89114,
+      "bytes": 93440,
+      "width": 827,
+      "height": 1223,
+      "format": "WEBP",
+      "centerTone": "dark",
+      "cornerTone": "dark",
+      "placements": [
+        {
+          "layer": "corner",
+          "box": [
+            428,
+            1188,
+            812,
+            1208
+          ],
+          "fontSize": 22,
+          "alpha": 176
+        },
+        {
+          "layer": "diagonal",
+          "box": [
+            15,
+            15,
+            356,
+            201
+          ],
+          "fontSize": 44,
+          "alpha": 64
+        }
+      ],
+      "protectedProductPixelsOverlaid": 0,
+      "quality": 85
+    },
+    {
+      "path": "assets/products/guanya-2026/glass-bulb-fire-sprinkler-dsc_5851-640.webp",
+      "masterPath": ".watermark-backups/site-assets-original/guanya-2026/glass-bulb-fire-sprinkler-dsc_5851-640.webp",
+      "originalSha256": "607838dac14228711895cc313c9563de371ce814429915460e71e401be7b1301",
+      "watermarkedSha256": "7368823269bcd350f6f7ceab371e14d947818adeabe1bdfa6a71e4b03969b4e5",
+      "originalBytes": 36334,
+      "bytes": 38550,
+      "width": 433,
+      "height": 640,
+      "format": "WEBP",
+      "centerTone": "dark",
+      "cornerTone": "dark",
+      "placements": [
+        {
+          "layer": "corner",
+          "box": [
+            213,
+            619,
+            425,
+            632
+          ],
+          "fontSize": 12,
+          "alpha": 176
+        },
+        {
+          "layer": "diagonal",
+          "box": [
+            8,
+            8,
+            182,
+            104
+          ],
+          "fontSize": 22,
+          "alpha": 64
+        }
+      ],
+      "protectedProductPixelsOverlaid": 0,
+      "quality": 85
+    },
+    {
+      "path": "assets/products/guanya-2026/glass-bulb-fire-sprinkler-dsc_5854-1600.webp",
+      "masterPath": ".watermark-backups/site-assets-original/guanya-2026/glass-bulb-fire-sprinkler-dsc_5854-1600.webp",
+      "originalSha256": "196fcfaca91d37f0dabf3b4d4c0ecd4c6188cb62f572ead37217649fc8ceb960",
+      "watermarkedSha256": "18e891eaa234324b89f498af2ea1d98458161f044944ebb12002dd084fa6b63e",
+      "originalBytes": 85674,
+      "bytes": 89428,
+      "width": 860,
+      "height": 1256,
+      "format": "WEBP",
+      "centerTone": "dark",
+      "cornerTone": "dark",
+      "placements": [
+        {
+          "layer": "corner",
+          "box": [
+            441,
+            1220,
+            845,
+            1241
+          ],
+          "fontSize": 23,
+          "alpha": 176
+        },
+        {
+          "layer": "diagonal",
+          "box": [
+            15,
+            15,
+            371,
+            210
+          ],
+          "fontSize": 46,
+          "alpha": 64
+        }
+      ],
+      "protectedProductPixelsOverlaid": 0,
+      "quality": 85
+    },
+    {
+      "path": "assets/products/guanya-2026/glass-bulb-fire-sprinkler-dsc_5854-640.webp",
+      "masterPath": ".watermark-backups/site-assets-original/guanya-2026/glass-bulb-fire-sprinkler-dsc_5854-640.webp",
+      "originalSha256": "6014763dfc6daf4b72ecb738dab4f28b37c76f7b31bf56e3a8f617931caac103",
+      "watermarkedSha256": "a23576263e80fbee1479697bd7f3991499d6499f601ab1ad556bfa4f7a9844aa",
+      "originalBytes": 34528,
+      "bytes": 36508,
+      "width": 438,
+      "height": 640,
+      "format": "WEBP",
+      "centerTone": "dark",
+      "cornerTone": "dark",
+      "placements": [
+        {
+          "layer": "corner",
+          "box": [
+            218,
+            619,
+            430,
+            632
+          ],
+          "fontSize": 12,
+          "alpha": 176
+        },
+        {
+          "layer": "diagonal",
+          "box": [
+            8,
+            8,
+            173,
+            99
+          ],
+          "fontSize": 21,
+          "alpha": 64
+        }
+      ],
+      "protectedProductPixelsOverlaid": 0,
+      "quality": 85
+    },
+    {
+      "path": "assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5904-1600.webp",
+      "masterPath": ".watermark-backups/site-assets-original/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5904-1600.webp",
+      "originalSha256": "7e462b8654dd0fe2a934b5cf1f9ab5821193503f10eb011436b9911b3eaee033",
+      "watermarkedSha256": "ae585181158ec4b85366121a5a18d3ae2af8c594e4e89feaf48a124f7f983f01",
+      "originalBytes": 66122,
+      "bytes": 70958,
+      "width": 911,
+      "height": 1223,
+      "format": "WEBP",
+      "centerTone": "dark",
+      "cornerTone": "dark",
+      "placements": [
+        {
+          "layer": "corner",
+          "box": [
+            457,
+            1185,
+            895,
+            1207
+          ],
+          "fontSize": 25,
+          "alpha": 176
+        },
+        {
+          "layer": "diagonal",
+          "box": [
+            16,
+            16,
+            447,
+            250
+          ],
+          "fontSize": 56,
+          "alpha": 64
+        }
+      ],
+      "protectedProductPixelsOverlaid": 0,
+      "quality": 85
+    },
+    {
+      "path": "assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5904-640.webp",
+      "masterPath": ".watermark-backups/site-assets-original/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5904-640.webp",
+      "originalSha256": "ce705f249e94e49959aff2cf1ddab0d9e495fbaef88507eab65c0ff093770384",
+      "watermarkedSha256": "8db214746fe0d3941ab37f581a5a390540bb5977ae393e0bdee989773630af69",
+      "originalBytes": 30242,
+      "bytes": 32632,
+      "width": 477,
+      "height": 640,
+      "format": "WEBP",
+      "centerTone": "dark",
+      "cornerTone": "dark",
+      "placements": [
+        {
+          "layer": "corner",
+          "box": [
+            238,
+            617,
+            468,
+            631
+          ],
+          "fontSize": 13,
+          "alpha": 176
+        },
+        {
+          "layer": "diagonal",
+          "box": [
+            9,
+            9,
+            228,
+            129
+          ],
+          "fontSize": 28,
+          "alpha": 64
+        }
+      ],
+      "protectedProductPixelsOverlaid": 0,
+      "quality": 85
+    },
+    {
+      "path": "assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5905-1600.webp",
+      "masterPath": ".watermark-backups/site-assets-original/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5905-1600.webp",
+      "originalSha256": "3de68821fe5f6715d03a390c8354d68398c550c7e1b02338a42096b78c3efd4f",
+      "watermarkedSha256": "e17b2c34ad8f59c24e92d7856723f16245e7e4cf629b4f3aadead19983228b09",
+      "originalBytes": 62484,
+      "bytes": 67284,
+      "width": 911,
+      "height": 1324,
+      "format": "WEBP",
+      "centerTone": "dark",
+      "cornerTone": "dark",
+      "placements": [
+        {
+          "layer": "corner",
+          "box": [
+            457,
+            1286,
+            895,
+            1308
+          ],
+          "fontSize": 25,
+          "alpha": 176
+        },
+        {
+          "layer": "diagonal",
+          "box": [
+            460,
+            1050,
+            891,
+            1284
+          ],
+          "fontSize": 56,
+          "alpha": 64
+        }
+      ],
+      "protectedProductPixelsOverlaid": 0,
+      "quality": 85
+    },
+    {
+      "path": "assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5905-640.webp",
+      "masterPath": ".watermark-backups/site-assets-original/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5905-640.webp",
+      "originalSha256": "b0c31bac20516412ee1759f900225a0b02e897ccfdcb0a0c75b3ce82739f37e4",
+      "watermarkedSha256": "21a33d08e8bf9427dcc4d08d3da3b0315280c67bd8dabff2ca38119da7a950b9",
+      "originalBytes": 26374,
+      "bytes": 28550,
+      "width": 440,
+      "height": 640,
+      "format": "WEBP",
+      "centerTone": "dark",
+      "cornerTone": "dark",
+      "placements": [
+        {
+          "layer": "corner",
+          "box": [
+            220,
+            619,
+            432,
+            632
+          ],
+          "fontSize": 12,
+          "alpha": 176
+        },
+        {
+          "layer": "diagonal",
+          "box": [
+            224,
+            514,
+            420,
+            622
+          ],
+          "fontSize": 25,
+          "alpha": 64
+        }
+      ],
+      "protectedProductPixelsOverlaid": 0,
+      "quality": 85
+    },
+    {
+      "path": "assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5906-1600.webp",
+      "masterPath": ".watermark-backups/site-assets-original/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5906-1600.webp",
+      "originalSha256": "53da151873bcac8372a19cc65900764acc0946b34fb2ab392def3e52a3011039",
+      "watermarkedSha256": "e248d99d3403499aede73ceefdfe0e3f90f7f87f3ca3d622e1b3625f16fb3636",
+      "originalBytes": 63848,
+      "bytes": 68838,
+      "width": 1029,
+      "height": 1442,
+      "format": "WEBP",
+      "centerTone": "dark",
+      "cornerTone": "dark",
+      "placements": [
+        {
+          "layer": "corner",
+          "box": [
+            517,
+            1399,
+            1010,
+            1423
+          ],
+          "fontSize": 28,
+          "alpha": 176
+        },
+        {
+          "layer": "diagonal",
+          "box": [
+            19,
+            19,
+            508,
+            284
+          ],
+          "fontSize": 63,
+          "alpha": 64
+        }
+      ],
+      "protectedProductPixelsOverlaid": 0,
+      "quality": 85
+    },
+    {
+      "path": "assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5906-640.webp",
+      "masterPath": ".watermark-backups/site-assets-original/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5906-640.webp",
+      "originalSha256": "a5170593bfe71aa7140d8909c18cf34d9ffffe6981cb2e16c62f0666aaae65ce",
+      "watermarkedSha256": "06443d8502da5bed4812654a81f3b60044d7944ba9a6bc0d09428b46eb81c9af",
+      "originalBytes": 21616,
+      "bytes": 24084,
+      "width": 457,
+      "height": 640,
+      "format": "WEBP",
+      "centerTone": "dark",
+      "cornerTone": "dark",
+      "placements": [
+        {
+          "layer": "corner",
+          "box": [
+            237,
+            619,
+            449,
+            632
+          ],
+          "fontSize": 12,
+          "alpha": 176
+        },
+        {
+          "layer": "diagonal",
+          "box": [
+            8,
+            8,
+            212,
+            121
+          ],
+          "fontSize": 26,
+          "alpha": 64
+        }
+      ],
+      "protectedProductPixelsOverlaid": 0,
+      "quality": 85
+    },
+    {
+      "path": "assets/products/concealed-series/k115-quick-concealed-covered-and-exposed.webp",
+      "masterPath": ".watermark-backups/site-assets-original/concealed-series/k115-quick-concealed-covered-and-exposed.webp",
+      "originalSha256": "0d6a0687db845f3fcdc6ef32c727337d3d9fdd4b4789248a877c01da9065f23f",
+      "watermarkedSha256": "334260eb72c532721a208fc75913477f6d40f13dfcee099a91166248cdede322",
+      "originalBytes": 143812,
+      "bytes": 120130,
+      "width": 1254,
+      "height": 1254,
+      "format": "WEBP",
+      "centerTone": "dark",
+      "cornerTone": "dark",
+      "placements": [
+        {
+          "layer": "corner",
+          "box": [
+            636,
+            1202,
+            1231,
+            1231
+          ],
+          "fontSize": 34,
+          "alpha": 176
+        },
+        {
+          "layer": "diagonal",
+          "box": [
+            23,
+            23,
+            714,
+            396
+          ],
+          "fontSize": 90,
+          "alpha": 64
+        }
+      ],
+      "protectedProductPixelsOverlaid": 0,
+      "quality": 85
+    },
+    {
+      "path": "assets/products/concealed-series/k115-standard-concealed-covered-and-exposed.webp",
+      "masterPath": ".watermark-backups/site-assets-original/concealed-series/k115-standard-concealed-covered-and-exposed.webp",
+      "originalSha256": "cc1d7cc688e3057ae03ef2fa564554b35ca18bba966c589d33bf59eaeaa8de6c",
+      "watermarkedSha256": "fdb52efccef2600c64945d793614d54ccf32e29a14806433b74afac3b4e3bd68",
+      "originalBytes": 178438,
+      "bytes": 149210,
+      "width": 1254,
+      "height": 1254,
+      "format": "WEBP",
+      "centerTone": "dark",
+      "cornerTone": "dark",
+      "placements": [
+        {
+          "layer": "corner",
+          "box": [
+            636,
+            1202,
+            1231,
+            1231
+          ],
+          "fontSize": 34,
+          "alpha": 176
+        },
+        {
+          "layer": "diagonal",
+          "box": [
+            127,
+            859,
+            806,
+            1224
+          ],
+          "fontSize": 88,
+          "alpha": 64
+        }
+      ],
+      "protectedProductPixelsOverlaid": 0,
+      "quality": 85
+    },
+    {
+      "path": "assets/products/concealed-series/k80-quick-concealed-covered-and-exposed.webp",
+      "masterPath": ".watermark-backups/site-assets-original/concealed-series/k80-quick-concealed-covered-and-exposed.webp",
+      "originalSha256": "184907af1ed77834a24056a75eedf126a8a5f0dc5a3f94215e02aae491bb7113",
+      "watermarkedSha256": "d1dca2a9588ffd54bf5fa80a5e1c962c9a6468ec8ae78ba529bae91773c2ef58",
+      "originalBytes": 146988,
+      "bytes": 123204,
+      "width": 1254,
+      "height": 1254,
+      "format": "WEBP",
+      "centerTone": "dark",
+      "cornerTone": "dark",
+      "placements": [
+        {
+          "layer": "corner",
+          "box": [
+            636,
+            1202,
+            1231,
+            1231
+          ],
+          "fontSize": 34,
+          "alpha": 176
+        },
+        {
+          "layer": "diagonal",
+          "box": [
+            127,
+            859,
+            806,
+            1224
+          ],
+          "fontSize": 88,
+          "alpha": 64
+        }
+      ],
+      "protectedProductPixelsOverlaid": 0,
+      "quality": 85
+    },
+    {
+      "path": "assets/products/concealed-series/k80-standard-concealed-covered-and-exposed.webp",
+      "masterPath": ".watermark-backups/site-assets-original/concealed-series/k80-standard-concealed-covered-and-exposed.webp",
+      "originalSha256": "6c1439cb48f1cbde13fcc0454cade912f18e03cd9f67240851966fd3c665486f",
+      "watermarkedSha256": "74a0e50122b8670c3b188051853e059b07aded6bf9dfbd6298861b97f6e85506",
+      "originalBytes": 153292,
+      "bytes": 128942,
+      "width": 1254,
+      "height": 1254,
+      "format": "WEBP",
+      "centerTone": "dark",
+      "cornerTone": "dark",
+      "placements": [
+        {
+          "layer": "corner",
+          "box": [
+            636,
+            1202,
+            1231,
+            1231
+          ],
+          "fontSize": 34,
+          "alpha": 176
+        },
+        {
+          "layer": "diagonal",
+          "box": [
+            23,
+            841,
+            745,
+            1231
+          ],
+          "fontSize": 94,
+          "alpha": 64
+        }
+      ],
+      "protectedProductPixelsOverlaid": 0,
+      "quality": 85
+    },
+    {
+      "path": "assets/products/guanya-2026/k115-quick-response-fire-sprinkler-dsc_5874-1600.webp",
+      "masterPath": ".watermark-backups/site-assets-original/guanya-2026/k115-quick-response-fire-sprinkler-dsc_5874-1600.webp",
+      "originalSha256": "0c1371413af6e83314feba810079440af78e8172daae7887c6850e304ba73905",
+      "watermarkedSha256": "294068a4158b10d678f43da67dd902c609ec6f5bae45cc3237f173081ef71b9e",
+      "originalBytes": 60894,
+      "bytes": 66586,
+      "width": 1147,
+      "height": 1493,
+      "format": "WEBP",
+      "centerTone": "dark",
+      "cornerTone": "dark",
+      "placements": [
+        {
+          "layer": "corner",
+          "box": [
+            583,
+            1446,
+            1126,
+            1472
+          ],
+          "fontSize": 31,
+          "alpha": 176
+        },
+        {
+          "layer": "diagonal",
+          "box": [
+            632,
+            1187,
+            1125,
+            1455
+          ],
+          "fontSize": 64,
+          "alpha": 64
+        }
+      ],
+      "protectedProductPixelsOverlaid": 0,
+      "quality": 85
+    },
+    {
+      "path": "assets/products/guanya-2026/k115-quick-response-fire-sprinkler-dsc_5874-640.webp",
+      "masterPath": ".watermark-backups/site-assets-original/guanya-2026/k115-quick-response-fire-sprinkler-dsc_5874-640.webp",
+      "originalSha256": "0c7a646c4d765601f9aa1ce198b84b43a4c366444b9d7a5837d79c9fd7b34798",
+      "watermarkedSha256": "cbbe3f1173ac0aadb8cb154a534afef512f1b19865eec56fcc02c5c55c2bdec0",
+      "originalBytes": 20888,
+      "bytes": 23336,
+      "width": 492,
+      "height": 640,
+      "format": "WEBP",
+      "centerTone": "dark",
+      "cornerTone": "dark",
+      "placements": [
+        {
+          "layer": "corner",
+          "box": [
+            253,
+            617,
+            483,
+            631
+          ],
+          "fontSize": 13,
+          "alpha": 176
+        },
+        {
+          "layer": "diagonal",
+          "box": [
+            9,
+            9,
+            205,
+            117
+          ],
+          "fontSize": 25,
+          "alpha": 64
+        }
+      ],
+      "protectedProductPixelsOverlaid": 0,
+      "quality": 85
+    },
+    {
+      "path": "assets/products/guanya-2026/k115-quick-response-fire-sprinkler-dsc_5877-1600.webp",
+      "masterPath": ".watermark-backups/site-assets-original/guanya-2026/k115-quick-response-fire-sprinkler-dsc_5877-1600.webp",
+      "originalSha256": "2bd7c714b5c0e567a5c8228ca5fc04af300e02826ebdbeddd898708327178af8",
+      "watermarkedSha256": "6d5d9a18d080f8de3e90009ccd6bfd00a5b430848652636fcd75ce326892c147",
+      "originalBytes": 56918,
+      "bytes": 62350,
+      "width": 1012,
+      "height": 1425,
+      "format": "WEBP",
+      "centerTone": "dark",
+      "cornerTone": "dark",
+      "placements": [
+        {
+          "layer": "corner",
+          "box": [
+            511,
+            1383,
+            994,
+            1407
+          ],
+          "fontSize": 27,
+          "alpha": 176
+        },
+        {
+          "layer": "diagonal",
+          "box": [
+            18,
+            18,
+            511,
+            286
+          ],
+          "fontSize": 64,
+          "alpha": 64
+        }
+      ],
+      "protectedProductPixelsOverlaid": 0,
+      "quality": 85
+    },
+    {
+      "path": "assets/products/guanya-2026/k115-quick-response-fire-sprinkler-dsc_5877-640.webp",
+      "masterPath": ".watermark-backups/site-assets-original/guanya-2026/k115-quick-response-fire-sprinkler-dsc_5877-640.webp",
+      "originalSha256": "ae107ad2eb94be7fae31c9745b5980f0619559959bf1e26c45c53e54397ba6d4",
+      "watermarkedSha256": "da6fbbe35e537e07aac9ba8448262d9f1b22d4ab9294986a4b7a5b6c51af2b7d",
+      "originalBytes": 20716,
+      "bytes": 23116,
+      "width": 455,
+      "height": 640,
+      "format": "WEBP",
+      "centerTone": "dark",
+      "cornerTone": "dark",
+      "placements": [
+        {
+          "layer": "corner",
+          "box": [
+            235,
+            619,
+            447,
+            632
+          ],
+          "fontSize": 12,
+          "alpha": 176
+        },
+        {
+          "layer": "diagonal",
+          "box": [
+            8,
+            8,
+            227,
+            128
+          ],
+          "fontSize": 28,
+          "alpha": 64
+        }
+      ],
+      "protectedProductPixelsOverlaid": 0,
+      "quality": 85
+    },
+    {
+      "path": "assets/products/guanya-2026/k115-quick-response-fire-sprinkler-dsc_5880-1600.webp",
+      "masterPath": ".watermark-backups/site-assets-original/guanya-2026/k115-quick-response-fire-sprinkler-dsc_5880-1600.webp",
+      "originalSha256": "e07472321752228317c6e5d180bd0d1e356c001fe301cafede04b78a9a04944f",
+      "watermarkedSha256": "f2b41475caa689eee54dd72550c0e89ef215fe828892e11b40ca65906833adc4",
+      "originalBytes": 59750,
+      "bytes": 63962,
+      "width": 1012,
+      "height": 1408,
+      "format": "WEBP",
+      "centerTone": "dark",
+      "cornerTone": "dark",
+      "placements": [
+        {
+          "layer": "corner",
+          "box": [
+            511,
+            1366,
+            994,
+            1390
+          ],
+          "fontSize": 27,
+          "alpha": 176
+        },
+        {
+          "layer": "diagonal",
+          "box": [
+            18,
+            18,
+            511,
+            286
+          ],
+          "fontSize": 64,
+          "alpha": 64
+        }
+      ],
+      "protectedProductPixelsOverlaid": 0,
+      "quality": 85
+    },
+    {
+      "path": "assets/products/guanya-2026/k115-quick-response-fire-sprinkler-dsc_5880-640.webp",
+      "masterPath": ".watermark-backups/site-assets-original/guanya-2026/k115-quick-response-fire-sprinkler-dsc_5880-640.webp",
+      "originalSha256": "cd7c87bfcadb246be7ae83afaf22ec5876d48e134f7d562db3f52f68887cd98f",
+      "watermarkedSha256": "e48bda3d3ebb84b73a43f4ddbc62c4c4662f43de5b8b72fd4130fe6bba18d40d",
+      "originalBytes": 21784,
+      "bytes": 24248,
+      "width": 460,
+      "height": 640,
+      "format": "WEBP",
+      "centerTone": "dark",
+      "cornerTone": "dark",
+      "placements": [
+        {
+          "layer": "corner",
+          "box": [
+            240,
+            619,
+            452,
+            632
+          ],
+          "fontSize": 12,
+          "alpha": 176
+        },
+        {
+          "layer": "diagonal",
+          "box": [
+            8,
+            8,
+            227,
+            128
+          ],
+          "fontSize": 28,
+          "alpha": 64
+        }
+      ],
+      "protectedProductPixelsOverlaid": 0,
+      "quality": 85
+    },
+    {
+      "path": "assets/products/guanya-2026/k115-quick-response-fire-sprinkler-dsc_5883-1600.webp",
+      "masterPath": ".watermark-backups/site-assets-original/guanya-2026/k115-quick-response-fire-sprinkler-dsc_5883-1600.webp",
+      "originalSha256": "a59c8160c5280cb3b21eafe12fc2d64279776aeeab9f6a9e3b4806dfcd97168f",
+      "watermarkedSha256": "d230896b39eddd6e2d3a12334087bd6cebd4186a7b847ff4ca55d53b75762291",
+      "originalBytes": 50208,
+      "bytes": 54674,
+      "width": 1012,
+      "height": 1408,
+      "format": "WEBP",
+      "centerTone": "dark",
+      "cornerTone": "dark",
+      "placements": [
+        {
+          "layer": "corner",
+          "box": [
+            511,
+            1366,
+            994,
+            1390
+          ],
+          "fontSize": 27,
+          "alpha": 176
+        },
+        {
+          "layer": "diagonal",
+          "box": [
+            18,
+            18,
+            528,
+            294
+          ],
+          "fontSize": 66,
+          "alpha": 64
+        }
+      ],
+      "protectedProductPixelsOverlaid": 0,
+      "quality": 85
+    },
+    {
+      "path": "assets/products/guanya-2026/k115-quick-response-fire-sprinkler-dsc_5883-640.webp",
+      "masterPath": ".watermark-backups/site-assets-original/guanya-2026/k115-quick-response-fire-sprinkler-dsc_5883-640.webp",
+      "originalSha256": "c4e4c36875dca9f50fba94b91bb3600da92b1dd2034ada5cb62613c239463c80",
+      "watermarkedSha256": "7bdbce6183ec811732bf244fe2af76ef031ebfec41d7edcb24e5830e29aaf217",
+      "originalBytes": 18594,
+      "bytes": 21188,
+      "width": 460,
+      "height": 640,
+      "format": "WEBP",
+      "centerTone": "dark",
+      "cornerTone": "dark",
+      "placements": [
+        {
+          "layer": "corner",
+          "box": [
+            240,
+            619,
+            452,
+            632
+          ],
+          "fontSize": 12,
+          "alpha": 176
+        },
+        {
+          "layer": "diagonal",
+          "box": [
+            8,
+            8,
+            227,
+            128
+          ],
+          "fontSize": 28,
+          "alpha": 64
+        }
+      ],
+      "protectedProductPixelsOverlaid": 0,
+      "quality": 85
+    },
+    {
+      "path": "assets/products/guanya-2026/k115-quick-response-fire-sprinkler-dsc_5886-1600.webp",
+      "masterPath": ".watermark-backups/site-assets-original/guanya-2026/k115-quick-response-fire-sprinkler-dsc_5886-1600.webp",
+      "originalSha256": "34bdc35ff440b21f3877913cc828480aa3269e8fade30ee41720a5f1b237e83c",
+      "watermarkedSha256": "0f4352fec2bd36d93fbd8f2360f602c6e6060694fd56a4f6c4b32999a7c1dfde",
+      "originalBytes": 61164,
+      "bytes": 67534,
+      "width": 1046,
+      "height": 1459,
+      "format": "WEBP",
+      "centerTone": "dark",
+      "cornerTone": "dark",
+      "placements": [
+        {
+          "layer": "corner",
+          "box": [
+            534,
+            1416,
+            1027,
+            1440
+          ],
+          "fontSize": 28,
+          "alpha": 176
+        },
+        {
+          "layer": "diagonal",
+          "box": [
+            19,
+            19,
+            529,
+            295
+          ],
+          "fontSize": 66,
+          "alpha": 64
+        }
+      ],
+      "protectedProductPixelsOverlaid": 0,
+      "quality": 85
+    },
+    {
+      "path": "assets/products/guanya-2026/k115-quick-response-fire-sprinkler-dsc_5886-640.webp",
+      "masterPath": ".watermark-backups/site-assets-original/guanya-2026/k115-quick-response-fire-sprinkler-dsc_5886-640.webp",
+      "originalSha256": "59136bb15b2d7f6fcf2f219e767dd855fe22f953aaa58beedec473c6e33dd57d",
+      "watermarkedSha256": "c34cb1405f711d6c4e63e2ff49452ebef04e69b4bb43053760d60b0b708eef7d",
+      "originalBytes": 21020,
+      "bytes": 23590,
+      "width": 459,
+      "height": 640,
+      "format": "WEBP",
+      "centerTone": "dark",
+      "cornerTone": "dark",
+      "placements": [
+        {
+          "layer": "corner",
+          "box": [
+            239,
+            619,
+            451,
+            632
+          ],
+          "fontSize": 12,
+          "alpha": 176
+        },
+        {
+          "layer": "diagonal",
+          "box": [
+            8,
+            8,
+            227,
+            128
+          ],
+          "fontSize": 28,
+          "alpha": 64
+        }
+      ],
+      "protectedProductPixelsOverlaid": 0,
+      "quality": 85
+    },
+    {
+      "path": "assets/products/guanya-2026/k115-quick-response-fire-sprinkler-dsc_5892-1600.webp",
+      "masterPath": ".watermark-backups/site-assets-original/guanya-2026/k115-quick-response-fire-sprinkler-dsc_5892-1600.webp",
+      "originalSha256": "8234df9baac309e6e3d50963226f8da1e528d0ece6195955aa4b56233781ea67",
+      "watermarkedSha256": "f7707372736ea7faa960b31e1f1c1dbd09bc2c94d32788974911a30214fda610",
+      "originalBytes": 54216,
+      "bytes": 58948,
+      "width": 945,
+      "height": 1325,
+      "format": "WEBP",
+      "centerTone": "dark",
+      "cornerTone": "dark",
+      "placements": [
+        {
+          "layer": "corner",
+          "box": [
+            474,
+            1285,
+            928,
+            1308
+          ],
+          "fontSize": 26,
+          "alpha": 176
+        },
+        {
+          "layer": "diagonal",
+          "box": [
+            17,
+            17,
+            489,
+            273
+          ],
+          "fontSize": 61,
+          "alpha": 64
+        }
+      ],
+      "protectedProductPixelsOverlaid": 0,
+      "quality": 85
+    },
+    {
+      "path": "assets/products/guanya-2026/k115-quick-response-fire-sprinkler-dsc_5892-640.webp",
+      "masterPath": ".watermark-backups/site-assets-original/guanya-2026/k115-quick-response-fire-sprinkler-dsc_5892-640.webp",
+      "originalSha256": "aa5a16a3535fd7446a78e047835013e4ba1bf6a87ba2763ecccf1a79034f16a8",
+      "watermarkedSha256": "85c70fcaacda305a8d01e212310eb223ade47e51abf71f7312826f98df7ef4e1",
+      "originalBytes": 21120,
+      "bytes": 23740,
+      "width": 456,
+      "height": 640,
+      "format": "WEBP",
+      "centerTone": "dark",
+      "cornerTone": "dark",
+      "placements": [
+        {
+          "layer": "corner",
+          "box": [
+            236,
+            619,
+            448,
+            632
+          ],
+          "fontSize": 12,
+          "alpha": 176
+        },
+        {
+          "layer": "diagonal",
+          "box": [
+            8,
+            8,
+            227,
+            128
+          ],
+          "fontSize": 28,
+          "alpha": 64
+        }
+      ],
+      "protectedProductPixelsOverlaid": 0,
+      "quality": 85
+    },
+    {
+      "path": "assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5895-1600.webp",
+      "masterPath": ".watermark-backups/site-assets-original/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5895-1600.webp",
+      "originalSha256": "b519f4d58c224f812083f73640f1caed2674998c3df0e1529eab84ffbd50352b",
+      "watermarkedSha256": "a921938d35c5fccb5c9a226edf31df8e0144e8411da999aced7c54d4fe53be69",
+      "originalBytes": 53234,
+      "bytes": 57134,
+      "width": 945,
+      "height": 1308,
+      "format": "WEBP",
+      "centerTone": "dark",
+      "cornerTone": "dark",
+      "placements": [
+        {
+          "layer": "corner",
+          "box": [
+            474,
+            1268,
+            928,
+            1291
+          ],
+          "fontSize": 26,
+          "alpha": 176
+        },
+        {
+          "layer": "diagonal",
+          "box": [
+            17,
+            17,
+            473,
+            265
+          ],
+          "fontSize": 59,
+          "alpha": 64
+        }
+      ],
+      "protectedProductPixelsOverlaid": 0,
+      "quality": 85
+    },
+    {
+      "path": "assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5895-640.webp",
+      "masterPath": ".watermark-backups/site-assets-original/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5895-640.webp",
+      "originalSha256": "af83567f85362560291d4f73cc716a680d7891bd0208f2693e0e3793547f3cd4",
+      "watermarkedSha256": "0c43c050d0945deb73691cd1f15e586d655317a0e41d356874bf01f954d287ec",
+      "originalBytes": 20826,
+      "bytes": 23358,
+      "width": 462,
+      "height": 640,
+      "format": "WEBP",
+      "centerTone": "dark",
+      "cornerTone": "dark",
+      "placements": [
+        {
+          "layer": "corner",
+          "box": [
+            242,
+            619,
+            454,
+            632
+          ],
+          "fontSize": 12,
+          "alpha": 176
+        },
+        {
+          "layer": "diagonal",
+          "box": [
+            8,
+            8,
+            224,
+            126
+          ],
+          "fontSize": 27,
+          "alpha": 64
+        }
+      ],
+      "protectedProductPixelsOverlaid": 0,
+      "quality": 85
+    },
+    {
+      "path": "assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5898-1600.webp",
+      "masterPath": ".watermark-backups/site-assets-original/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5898-1600.webp",
+      "originalSha256": "ea32f45e5f257dd295f8693439f22a678fe904aaeecfa79779ecae5204d28b66",
+      "watermarkedSha256": "898e195b3902223f8c0d82e6212625daa4ab6054c7718d1a2eeb9c2a057cdad0",
+      "originalBytes": 50864,
+      "bytes": 55210,
+      "width": 962,
+      "height": 1308,
+      "format": "WEBP",
+      "centerTone": "dark",
+      "cornerTone": "dark",
+      "placements": [
+        {
+          "layer": "corner",
+          "box": [
+            491,
+            1268,
+            945,
+            1291
+          ],
+          "fontSize": 26,
+          "alpha": 176
+        },
+        {
+          "layer": "diagonal",
+          "box": [
+            17,
+            17,
+            497,
+            278
+          ],
+          "fontSize": 62,
+          "alpha": 64
+        }
+      ],
+      "protectedProductPixelsOverlaid": 0,
+      "quality": 85
+    },
+    {
+      "path": "assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5898-640.webp",
+      "masterPath": ".watermark-backups/site-assets-original/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5898-640.webp",
+      "originalSha256": "2cd3565ed8015574c3b74f7835f6f233ebdb795d89857289d2f37699b7f9065f",
+      "watermarkedSha256": "491d5806804e63b5a7bc6dcbed86eae681ee363b2582039bb006c5af0f614206",
+      "originalBytes": 20726,
+      "bytes": 23244,
+      "width": 471,
+      "height": 640,
+      "format": "WEBP",
+      "centerTone": "dark",
+      "cornerTone": "dark",
+      "placements": [
+        {
+          "layer": "corner",
+          "box": [
+            233,
+            618,
+            463,
+            632
+          ],
+          "fontSize": 13,
+          "alpha": 176
+        },
+        {
+          "layer": "diagonal",
+          "box": [
+            8,
+            8,
+            235,
+            131
+          ],
+          "fontSize": 29,
+          "alpha": 64
+        }
+      ],
+      "protectedProductPixelsOverlaid": 0,
+      "quality": 85
+    },
+    {
+      "path": "assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5901-1600.webp",
+      "masterPath": ".watermark-backups/site-assets-original/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5901-1600.webp",
+      "originalSha256": "c405e15fe01e8cd6ec8dd4a2ab936e746bba840f6b150b8395f88af5b3254a62",
+      "watermarkedSha256": "3f80f4d806d56287101da714f3a2e1cdcc743b7cf89f7a9c62ef6b12de7cf8c2",
+      "originalBytes": 54536,
+      "bytes": 60302,
+      "width": 962,
+      "height": 1375,
+      "format": "WEBP",
+      "centerTone": "dark",
+      "cornerTone": "dark",
+      "placements": [
+        {
+          "layer": "corner",
+          "box": [
+            491,
+            1335,
+            945,
+            1358
+          ],
+          "fontSize": 26,
+          "alpha": 176
+        },
+        {
+          "layer": "diagonal",
+          "box": [
+            457,
+            1095,
+            920,
+            1346
+          ],
+          "fontSize": 60,
+          "alpha": 64
+        }
+      ],
+      "protectedProductPixelsOverlaid": 0,
+      "quality": 85
+    },
+    {
+      "path": "assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5901-640.webp",
+      "masterPath": ".watermark-backups/site-assets-original/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5901-640.webp",
+      "originalSha256": "455691c4b1f6eb2695c3cfc7264703efb729e2468a67c829d5d4712cd939ec06",
+      "watermarkedSha256": "4944b853dc71c43e0f1ea6dbf89bb709dad3f9c2acd47160b68d0703f747f8d8",
+      "originalBytes": 20832,
+      "bytes": 23150,
+      "width": 448,
+      "height": 640,
+      "format": "WEBP",
+      "centerTone": "dark",
+      "cornerTone": "dark",
+      "placements": [
+        {
+          "layer": "corner",
+          "box": [
+            228,
+            619,
+            440,
+            632
+          ],
+          "fontSize": 12,
+          "alpha": 176
+        },
+        {
+          "layer": "diagonal",
+          "box": [
+            8,
+            8,
+            197,
+            111
+          ],
+          "fontSize": 24,
+          "alpha": 64
+        }
+      ],
+      "protectedProductPixelsOverlaid": 0,
+      "quality": 85
+    },
+    {
+      "path": "assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5902-1600.webp",
+      "masterPath": ".watermark-backups/site-assets-original/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5902-1600.webp",
+      "originalSha256": "c805ff64e28639228786ec5b0b9d8efbbceecce2ad693401dae8d28af9b15d1f",
+      "watermarkedSha256": "1a8a9a6a9b82c3276aefff8f38b4cb9b497eb0c38429b07f4c6e1695b44c28b6",
+      "originalBytes": 68628,
+      "bytes": 72910,
+      "width": 861,
+      "height": 1156,
+      "format": "WEBP",
+      "centerTone": "dark",
+      "cornerTone": "dark",
+      "placements": [
+        {
+          "layer": "corner",
+          "box": [
+            442,
+            1120,
+            846,
+            1141
+          ],
+          "fontSize": 23,
+          "alpha": 176
+        },
+        {
+          "layer": "diagonal",
+          "box": [
+            15,
+            15,
+            410,
+            230
+          ],
+          "fontSize": 51,
+          "alpha": 64
+        }
+      ],
+      "protectedProductPixelsOverlaid": 0,
+      "quality": 85
+    },
+    {
+      "path": "assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5902-640.webp",
+      "masterPath": ".watermark-backups/site-assets-original/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5902-640.webp",
+      "originalSha256": "2e57b103f183ac5aa2ac83eae3b38b538beb238fe8c0362bb26113db09453894",
+      "watermarkedSha256": "b4e49defd48048abb7b0d4feaa9c75cae7cf4d8412562e4d3f505e90f74887b5",
+      "originalBytes": 33226,
+      "bytes": 35884,
+      "width": 477,
+      "height": 640,
+      "format": "WEBP",
+      "centerTone": "dark",
+      "cornerTone": "dark",
+      "placements": [
+        {
+          "layer": "corner",
+          "box": [
+            238,
+            617,
+            468,
+            631
+          ],
+          "fontSize": 13,
+          "alpha": 176
+        },
+        {
+          "layer": "diagonal",
+          "box": [
+            9,
+            9,
+            213,
+            122
+          ],
+          "fontSize": 26,
+          "alpha": 64
+        }
+      ],
+      "protectedProductPixelsOverlaid": 0,
+      "quality": 85
+    },
+    {
+      "path": "assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5909-1600.webp",
+      "masterPath": ".watermark-backups/site-assets-original/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5909-1600.webp",
+      "originalSha256": "b1a30703e0c902cc9ad72bdcfa347895b079d057aec67e67f8587a191e135719",
+      "watermarkedSha256": "77f6aa2f24d5ebb5a453d9b2b5d177d7346f86e9a3bf89cf4043de7df9b19b79",
+      "originalBytes": 59654,
+      "bytes": 65936,
+      "width": 1046,
+      "height": 1426,
+      "format": "WEBP",
+      "centerTone": "dark",
+      "cornerTone": "dark",
+      "placements": [
+        {
+          "layer": "corner",
+          "box": [
+            534,
+            1383,
+            1027,
+            1407
+          ],
+          "fontSize": 28,
+          "alpha": 176
+        },
+        {
+          "layer": "diagonal",
+          "box": [
+            19,
+            19,
+            587,
+            326
+          ],
+          "fontSize": 74,
+          "alpha": 64
+        }
+      ],
+      "protectedProductPixelsOverlaid": 0,
+      "quality": 85
+    },
+    {
+      "path": "assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5909-640.webp",
+      "masterPath": ".watermark-backups/site-assets-original/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5909-640.webp",
+      "originalSha256": "704a97bb3cc03a3356ba8c06bc9b02b9acd919c1f962241817ee9ebbea88d996",
+      "watermarkedSha256": "8b0714bfd924ba17f56956efb33745e00952e63c5aed7e1775f87eb427250b43",
+      "originalBytes": 20752,
+      "bytes": 23642,
+      "width": 469,
+      "height": 640,
+      "format": "WEBP",
+      "centerTone": "dark",
+      "cornerTone": "dark",
+      "placements": [
+        {
+          "layer": "corner",
+          "box": [
+            231,
+            618,
+            461,
+            632
+          ],
+          "fontSize": 13,
+          "alpha": 176
+        },
+        {
+          "layer": "diagonal",
+          "box": [
+            8,
+            8,
+            266,
+            148
+          ],
+          "fontSize": 33,
+          "alpha": 64
+        }
+      ],
+      "protectedProductPixelsOverlaid": 0,
+      "quality": 85
+    },
+    {
+      "path": "assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5910-1600.webp",
+      "masterPath": ".watermark-backups/site-assets-original/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5910-1600.webp",
+      "originalSha256": "1fdee756474b68b873b09186ef55acb6c4195760c3423454ffe54cae28260450",
+      "watermarkedSha256": "9297c8498723e073dd7e6c441415726771da20398344a3c3b90447450d0dd272",
+      "originalBytes": 66492,
+      "bytes": 70470,
+      "width": 844,
+      "height": 1122,
+      "format": "WEBP",
+      "centerTone": "dark",
+      "cornerTone": "dark",
+      "placements": [
+        {
+          "layer": "corner",
+          "box": [
+            425,
+            1086,
+            829,
+            1107
+          ],
+          "fontSize": 23,
+          "alpha": 176
+        },
+        {
+          "layer": "diagonal",
+          "box": [
+            15,
+            15,
+            379,
+            213
+          ],
+          "fontSize": 47,
+          "alpha": 64
+        }
+      ],
+      "protectedProductPixelsOverlaid": 0,
+      "quality": 85
+    },
+    {
+      "path": "assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5910-640.webp",
+      "masterPath": ".watermark-backups/site-assets-original/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5910-640.webp",
+      "originalSha256": "885d545e887aef1615a7f6d944bf59197c67a5f026ed617a1eae3a3f92a2feca",
+      "watermarkedSha256": "f6c3ec13de451a28d0c64e37867e0caf7775a3f80252d24d62203db24d3485e5",
+      "originalBytes": 33012,
+      "bytes": 35760,
+      "width": 481,
+      "height": 640,
+      "format": "WEBP",
+      "centerTone": "dark",
+      "cornerTone": "dark",
+      "placements": [
+        {
+          "layer": "corner",
+          "box": [
+            242,
+            617,
+            472,
+            631
+          ],
+          "fontSize": 13,
+          "alpha": 176
+        },
+        {
+          "layer": "diagonal",
+          "box": [
+            9,
+            9,
+            213,
+            122
+          ],
+          "fontSize": 26,
+          "alpha": 64
+        }
+      ],
+      "protectedProductPixelsOverlaid": 0,
+      "quality": 85
+    },
+    {
+      "path": "assets/products/concealed-series/k115-quick-concealed-68c-covered.webp",
+      "masterPath": ".watermark-backups/site-assets-original/concealed-series/k115-quick-concealed-68c-covered.webp",
+      "originalSha256": "3e6c5d3541978217cf3e66f5f09f43482ca8b527f5b892c26788c77ead89d861",
+      "watermarkedSha256": "9992bcb1f950b50e6590b87cdd44120ed8c4a4b540b7f44e8ea898ffa550dc55",
+      "originalBytes": 65184,
+      "bytes": 71266,
+      "width": 1600,
+      "height": 1249,
+      "format": "WEBP",
+      "centerTone": "dark",
+      "cornerTone": "dark",
+      "placements": [
+        {
+          "layer": "corner",
+          "box": [
+            983,
+            1198,
+            1578,
+            1227
+          ],
+          "fontSize": 34,
+          "alpha": 176
+        },
+        {
+          "layer": "diagonal",
+          "box": [
+            887,
+            854,
+            1578,
+            1227
+          ],
+          "fontSize": 90,
+          "alpha": 64
+        }
+      ],
+      "protectedProductPixelsOverlaid": 0,
+      "quality": 85
+    },
+    {
+      "path": "assets/products/concealed-series/k115-quick-concealed-68c-exposed.webp",
+      "masterPath": ".watermark-backups/site-assets-original/concealed-series/k115-quick-concealed-68c-exposed.webp",
+      "originalSha256": "b21c80a7be6e1086f015ce4cad548a2bf74399aebd4df2f546da5e8696c2e977",
+      "watermarkedSha256": "8da725feb5dfead69b7d1c2631fc3d8ba9d820f5b4fc3b099419d0582ee53878",
+      "originalBytes": 99254,
+      "bytes": 103058,
+      "width": 911,
+      "height": 1341,
+      "format": "WEBP",
+      "centerTone": "dark",
+      "cornerTone": "dark",
+      "placements": [
+        {
+          "layer": "corner",
+          "box": [
+            457,
+            1303,
+            895,
+            1325
+          ],
+          "fontSize": 25,
+          "alpha": 176
+        },
+        {
+          "layer": "diagonal",
+          "box": [
+            16,
+            16,
+            389,
+            219
+          ],
+          "fontSize": 48,
+          "alpha": 64
+        }
+      ],
+      "protectedProductPixelsOverlaid": 0,
+      "quality": 85
+    },
+    {
+      "path": "assets/products/concealed-series/k115-standard-concealed-68c-covered.webp",
+      "masterPath": ".watermark-backups/site-assets-original/concealed-series/k115-standard-concealed-68c-covered.webp",
+      "originalSha256": "805a8943cd21be48911e6f71d47a4c5ad1fd36f503e3e4b17d0cdda6cdbb9229",
+      "watermarkedSha256": "8447f493fefdcddb804cee51d8951de8b2c76ff60c3a0a0d32d6b4cd5da51d00",
+      "originalBytes": 82328,
+      "bytes": 87334,
+      "width": 1600,
+      "height": 1324,
+      "format": "WEBP",
+      "centerTone": "dark",
+      "cornerTone": "dark",
+      "placements": [
+        {
+          "layer": "corner",
+          "box": [
+            946,
+            1270,
+            1576,
+            1300
+          ],
+          "fontSize": 36,
+          "alpha": 176
+        },
+        {
+          "layer": "diagonal",
+          "box": [
+            948,
+            964,
+            1526,
+            1276
+          ],
+          "fontSize": 75,
+          "alpha": 64
+        }
+      ],
+      "protectedProductPixelsOverlaid": 0,
+      "quality": 85
+    },
+    {
+      "path": "assets/products/concealed-series/k115-standard-concealed-68c-exposed.webp",
+      "masterPath": ".watermark-backups/site-assets-original/concealed-series/k115-standard-concealed-68c-exposed.webp",
+      "originalSha256": "72b7e6d780524621d323ab7240a1d8ccd7917c0a233bed6befcaba7b2afcd498",
+      "watermarkedSha256": "1b274f1bf94071370d3b7a9b4f0019b646d75a22bfd8ea194ebfe430c4dcbcf7",
+      "originalBytes": 114928,
+      "bytes": 119676,
+      "width": 861,
+      "height": 1274,
+      "format": "WEBP",
+      "centerTone": "dark",
+      "cornerTone": "dark",
+      "placements": [
+        {
+          "layer": "corner",
+          "box": [
+            442,
+            1238,
+            846,
+            1259
+          ],
+          "fontSize": 23,
+          "alpha": 176
+        },
+        {
+          "layer": "diagonal",
+          "box": [
+            374,
+            1003,
+            846,
+            1259
+          ],
+          "fontSize": 61,
+          "alpha": 64
+        }
+      ],
+      "protectedProductPixelsOverlaid": 0,
+      "quality": 85
+    },
+    {
+      "path": "assets/products/concealed-series/k80-quick-concealed-68c-covered.webp",
+      "masterPath": ".watermark-backups/site-assets-original/concealed-series/k80-quick-concealed-68c-covered.webp",
+      "originalSha256": "cbb495bee04e5b7b2e0dff1e5a7d83d9aa7d4a9d9656ed98f3ae4bd62c5c7e6a",
+      "watermarkedSha256": "5b18bd5307be22ac386c7fc6fd5ac7ce0076ac5505ab89de0e9365e1c76c8382",
+      "originalBytes": 64890,
+      "bytes": 71116,
+      "width": 1600,
+      "height": 1310,
+      "format": "WEBP",
+      "centerTone": "dark",
+      "cornerTone": "dark",
+      "placements": [
+        {
+          "layer": "corner",
+          "box": [
+            967,
+            1257,
+            1576,
+            1286
+          ],
+          "fontSize": 35,
+          "alpha": 176
+        },
+        {
+          "layer": "diagonal",
+          "box": [
+            871,
+            906,
+            1576,
+            1286
+          ],
+          "fontSize": 92,
+          "alpha": 64
+        }
+      ],
+      "protectedProductPixelsOverlaid": 0,
+      "quality": 85
+    },
+    {
+      "path": "assets/products/concealed-series/k80-quick-concealed-68c-exposed.webp",
+      "masterPath": ".watermark-backups/site-assets-original/concealed-series/k80-quick-concealed-68c-exposed.webp",
+      "originalSha256": "9d552aa4b5235e8ce2322f32495e31104fb1f6a79bc6d53debf1e4834a47cafc",
+      "watermarkedSha256": "8dfbfdcdd39eae49389701e03c3f04824ce7b3e188b1619e469f8609afdbfdb4",
+      "originalBytes": 102758,
+      "bytes": 107880,
+      "width": 861,
+      "height": 1274,
+      "format": "WEBP",
+      "centerTone": "dark",
+      "cornerTone": "dark",
+      "placements": [
+        {
+          "layer": "corner",
+          "box": [
+            442,
+            1238,
+            846,
+            1259
+          ],
+          "fontSize": 23,
+          "alpha": 176
+        },
+        {
+          "layer": "diagonal",
+          "box": [
+            345,
+            988,
+            846,
+            1259
+          ],
+          "fontSize": 65,
+          "alpha": 64
+        }
+      ],
+      "protectedProductPixelsOverlaid": 0,
+      "quality": 85
+    },
+    {
+      "path": "assets/products/concealed-series/k80-standard-concealed-68c-covered.webp",
+      "masterPath": ".watermark-backups/site-assets-original/concealed-series/k80-standard-concealed-68c-covered.webp",
+      "originalSha256": "f37cb8dded13719104434af8a107be158da4ddfa2a61bf51a35d127c404fa2b0",
+      "watermarkedSha256": "656980171340d3338088d711fc571786e176d29b43d6784fb434dd8805f2ef35",
+      "originalBytes": 76568,
+      "bytes": 81556,
+      "width": 1600,
+      "height": 1307,
+      "format": "WEBP",
+      "centerTone": "dark",
+      "cornerTone": "dark",
+      "placements": [
+        {
+          "layer": "corner",
+          "box": [
+            967,
+            1254,
+            1576,
+            1283
+          ],
+          "fontSize": 35,
+          "alpha": 176
+        },
+        {
+          "layer": "diagonal",
+          "box": [
+            871,
+            903,
+            1576,
+            1283
+          ],
+          "fontSize": 92,
+          "alpha": 64
+        }
+      ],
+      "protectedProductPixelsOverlaid": 0,
+      "quality": 85
+    },
+    {
+      "path": "assets/products/concealed-series/k80-standard-concealed-68c-exposed.webp",
+      "masterPath": ".watermark-backups/site-assets-original/concealed-series/k80-standard-concealed-68c-exposed.webp",
+      "originalSha256": "2f0da69b9f8a0b2e80a936a1110f8ba98e65fbb921bbf764ec9a72b8b5a1d0fc",
+      "watermarkedSha256": "28411357a40bc81a678a9b437753155b8543da9bd9151c37ca16d02cdae194c5",
+      "originalBytes": 125140,
+      "bytes": 129518,
+      "width": 911,
+      "height": 1324,
+      "format": "WEBP",
+      "centerTone": "dark",
+      "cornerTone": "dark",
+      "placements": [
+        {
+          "layer": "corner",
+          "box": [
+            457,
+            1286,
+            895,
+            1308
+          ],
+          "fontSize": 25,
+          "alpha": 176
+        },
+        {
+          "layer": "diagonal",
+          "box": [
+            16,
+            16,
+            372,
+            211
+          ],
+          "fontSize": 46,
+          "alpha": 64
+        }
+      ],
+      "protectedProductPixelsOverlaid": 0,
+      "quality": 85
+    },
+    {
+      "path": "assets/products/guanya-2026/k80-standard-response-concealed-sprinkler-dsc_5923-1600.webp",
+      "masterPath": ".watermark-backups/site-assets-original/guanya-2026/k80-standard-response-concealed-sprinkler-dsc_5923-1600.webp",
+      "originalSha256": "68af9cae90732f120205d755e3bf78989b966221f41e3465cf4f881111ef1ba3",
+      "watermarkedSha256": "74605d9b04a5029d6410579aed35bca51435820fb78f336b3a714088c746c882",
+      "originalBytes": 90660,
+      "bytes": 95614,
+      "width": 861,
+      "height": 1274,
+      "format": "WEBP",
+      "centerTone": "dark",
+      "cornerTone": "dark",
+      "placements": [
+        {
+          "layer": "corner",
+          "box": [
+            442,
+            1238,
+            846,
+            1259
+          ],
+          "fontSize": 23,
+          "alpha": 176
+        },
+        {
+          "layer": "diagonal",
+          "box": [
+            345,
+            988,
+            846,
+            1259
+          ],
+          "fontSize": 65,
+          "alpha": 64
+        }
+      ],
+      "protectedProductPixelsOverlaid": 0,
+      "quality": 85
+    },
+    {
+      "path": "assets/products/guanya-2026/k80-standard-response-concealed-sprinkler-dsc_5923-640.webp",
+      "masterPath": ".watermark-backups/site-assets-original/guanya-2026/k80-standard-response-concealed-sprinkler-dsc_5923-640.webp",
+      "originalSha256": "7febf2f388d822264be754c9bd0e100c5633455ec06bda159c3a3c679cf4730d",
+      "watermarkedSha256": "0e64552262df01aff72e4e4d6abc0706f7007b4ac28f9da8732ed2ecf83639e2",
+      "originalBytes": 36946,
+      "bytes": 40098,
+      "width": 433,
+      "height": 640,
+      "format": "WEBP",
+      "centerTone": "dark",
+      "cornerTone": "dark",
+      "placements": [
+        {
+          "layer": "corner",
+          "box": [
+            213,
+            619,
+            425,
+            632
+          ],
+          "fontSize": 12,
+          "alpha": 176
+        },
+        {
+          "layer": "diagonal",
+          "box": [
+            176,
+            497,
+            425,
+            632
+          ],
+          "fontSize": 32,
+          "alpha": 64
+        }
+      ],
+      "protectedProductPixelsOverlaid": 0,
+      "quality": 85
+    },
+    {
+      "path": "assets/products/guanya-2026/k80-standard-response-concealed-sprinkler-dsc_5925-1600.webp",
+      "masterPath": ".watermark-backups/site-assets-original/guanya-2026/k80-standard-response-concealed-sprinkler-dsc_5925-1600.webp",
+      "originalSha256": "cf9157be406595e88dc8ed317ec65562e7a3d7b019a071975ddbce55ed498007",
+      "watermarkedSha256": "9e7ec4a1333ac8bb91aee496c8a91b5b9da7b03d9d76c879f5b2f773a6f68bf3",
+      "originalBytes": 61310,
+      "bytes": 67888,
+      "width": 1600,
+      "height": 1294,
+      "format": "WEBP",
+      "centerTone": "dark",
+      "cornerTone": "dark",
+      "placements": [
+        {
+          "layer": "corner",
+          "box": [
+            968,
+            1242,
+            1577,
+            1271
+          ],
+          "fontSize": 35,
+          "alpha": 176
+        },
+        {
+          "layer": "diagonal",
+          "box": [
+            862,
+            886,
+            1577,
+            1271
+          ],
+          "fontSize": 93,
+          "alpha": 64
+        }
+      ],
+      "protectedProductPixelsOverlaid": 0,
+      "quality": 85
+    },
+    {
+      "path": "assets/products/guanya-2026/k80-standard-response-concealed-sprinkler-dsc_5925-640.webp",
+      "masterPath": ".watermark-backups/site-assets-original/guanya-2026/k80-standard-response-concealed-sprinkler-dsc_5925-640.webp",
+      "originalSha256": "669e69738fe4430cd8aaa7b820cede153912f6dd9ebb24ce1353f93f573cb555",
+      "watermarkedSha256": "36de736aff46dd2ca3b35b3c7b86917169d4bbf334044048b2e7b3243d89e8f3",
+      "originalBytes": 19592,
+      "bytes": 21902,
+      "width": 640,
+      "height": 518,
+      "format": "WEBP",
+      "centerTone": "dark",
+      "cornerTone": "dark",
+      "placements": [
+        {
+          "layer": "corner",
+          "box": [
+            381,
+            495,
+            631,
+            509
+          ],
+          "fontSize": 14,
+          "alpha": 176
+        },
+        {
+          "layer": "diagonal",
+          "box": [
+            347,
+            369,
+            605,
+            509
+          ],
+          "fontSize": 33,
+          "alpha": 64
+        }
+      ],
+      "protectedProductPixelsOverlaid": 0,
+      "quality": 85
+    },
+    {
+      "path": "assets/products/guanya-2026/k80-standard-response-concealed-sprinkler-dsc_5933-1600.webp",
+      "masterPath": ".watermark-backups/site-assets-original/guanya-2026/k80-standard-response-concealed-sprinkler-dsc_5933-1600.webp",
+      "originalSha256": "6800068b118a5e5974669647e3a8ad4718587aa060069f893ae1473292627eb0",
+      "watermarkedSha256": "d56e153bb39aa1810ae0b8919e195c24a4f8eea5f641ac84c060c7ef74e605ab",
+      "originalBytes": 102330,
+      "bytes": 106694,
+      "width": 860,
+      "height": 1256,
+      "format": "WEBP",
+      "centerTone": "dark",
+      "cornerTone": "dark",
+      "placements": [
+        {
+          "layer": "corner",
+          "box": [
+            441,
+            1220,
+            845,
+            1241
+          ],
+          "fontSize": 23,
+          "alpha": 176
+        },
+        {
+          "layer": "diagonal",
+          "box": [
+            382,
+            990,
+            845,
+            1241
+          ],
+          "fontSize": 60,
+          "alpha": 64
+        }
+      ],
+      "protectedProductPixelsOverlaid": 0,
+      "quality": 85
+    },
+    {
+      "path": "assets/products/guanya-2026/k80-standard-response-concealed-sprinkler-dsc_5933-640.webp",
+      "masterPath": ".watermark-backups/site-assets-original/guanya-2026/k80-standard-response-concealed-sprinkler-dsc_5933-640.webp",
+      "originalSha256": "03f2451d2f8ce195ffa3de25d7d32f08952bd77752b4c936418dbb4be6e4d074",
+      "watermarkedSha256": "561f54da054292d99ab3dcc68f49276b0ffbd38c16663bc1645e006d67539296",
+      "originalBytes": 40630,
+      "bytes": 42810,
+      "width": 438,
+      "height": 640,
+      "format": "WEBP",
+      "centerTone": "dark",
+      "cornerTone": "dark",
+      "placements": [
+        {
+          "layer": "corner",
+          "box": [
+            218,
+            619,
+            430,
+            632
+          ],
+          "fontSize": 12,
+          "alpha": 176
+        },
+        {
+          "layer": "diagonal",
+          "box": [
+            224,
+            514,
+            420,
+            622
+          ],
+          "fontSize": 25,
+          "alpha": 64
+        }
+      ],
+      "protectedProductPixelsOverlaid": 0,
+      "quality": 85
+    },
+    {
+      "path": "assets/products/guanya-2026/k80-standard-response-concealed-sprinkler-dsc_5934-1600.webp",
+      "masterPath": ".watermark-backups/site-assets-original/guanya-2026/k80-standard-response-concealed-sprinkler-dsc_5934-1600.webp",
+      "originalSha256": "bc4b04f4e63a3be19e75bdfdf897de27a01a8d5c2e2c5ecf8819dabd64ba8d05",
+      "watermarkedSha256": "e6955c1f29a5c59367f7a81b400a53d54c2345d639387a815318c41b22bf7f4b",
+      "originalBytes": 69570,
+      "bytes": 73406,
+      "width": 1600,
+      "height": 1294,
+      "format": "WEBP",
+      "centerTone": "dark",
+      "cornerTone": "dark",
+      "placements": [
+        {
+          "layer": "corner",
+          "box": [
+            968,
+            1242,
+            1577,
+            1271
+          ],
+          "fontSize": 35,
+          "alpha": 176
+        },
+        {
+          "layer": "diagonal",
+          "box": [
+            862,
+            886,
+            1577,
+            1271
+          ],
+          "fontSize": 93,
+          "alpha": 64
+        }
+      ],
+      "protectedProductPixelsOverlaid": 0,
+      "quality": 85
+    },
+    {
+      "path": "assets/products/guanya-2026/k80-standard-response-concealed-sprinkler-dsc_5934-640.webp",
+      "masterPath": ".watermark-backups/site-assets-original/guanya-2026/k80-standard-response-concealed-sprinkler-dsc_5934-640.webp",
+      "originalSha256": "b34740a2b8bd2aa23273ed31adb3bf854d23acb58e3a83f352aa15553936e52e",
+      "watermarkedSha256": "1079923d947c2c0de4364771f96d8fbdd1b70103a5299b948c530f69e6e633a3",
+      "originalBytes": 21298,
+      "bytes": 23252,
+      "width": 640,
+      "height": 518,
+      "format": "WEBP",
+      "centerTone": "dark",
+      "cornerTone": "dark",
+      "placements": [
+        {
+          "layer": "corner",
+          "box": [
+            381,
+            495,
+            631,
+            509
+          ],
+          "fontSize": 14,
+          "alpha": 176
+        },
+        {
+          "layer": "diagonal",
+          "box": [
+            373,
+            351,
+            631,
+            491
+          ],
+          "fontSize": 33,
+          "alpha": 64
+        }
+      ],
+      "protectedProductPixelsOverlaid": 0,
+      "quality": 85
+    },
+    {
+      "path": "assets/products/guanya-2026/k80-quick-response-concealed-sprinkler-dsc_5937-1600.webp",
+      "masterPath": ".watermark-backups/site-assets-original/guanya-2026/k80-quick-response-concealed-sprinkler-dsc_5937-1600.webp",
+      "originalSha256": "e39b83be740afd6f56a407bdcae1a75dbef90e588f4ca6e3c2a754ffaff17c69",
+      "watermarkedSha256": "78e34b6d573c06edc941de73726e1c687de01eed4f1e1700ae1ce69f80fa4692",
+      "originalBytes": 126856,
+      "bytes": 131956,
+      "width": 945,
+      "height": 1291,
+      "format": "WEBP",
+      "centerTone": "dark",
+      "cornerTone": "dark",
+      "placements": [
+        {
+          "layer": "corner",
+          "box": [
+            474,
+            1251,
+            928,
+            1274
+          ],
+          "fontSize": 26,
+          "alpha": 176
+        },
+        {
+          "layer": "diagonal",
+          "box": [
+            485,
+            1029,
+            912,
+            1261
+          ],
+          "fontSize": 55,
+          "alpha": 64
+        }
+      ],
+      "protectedProductPixelsOverlaid": 0,
+      "quality": 85
+    },
+    {
+      "path": "assets/products/guanya-2026/k80-quick-response-concealed-sprinkler-dsc_5937-640.webp",
+      "masterPath": ".watermark-backups/site-assets-original/guanya-2026/k80-quick-response-concealed-sprinkler-dsc_5937-640.webp",
+      "originalSha256": "cca9fcbfaca804e687c5f5086fdec7eb8e70c89b91b3ab77a06d2a8d245445ed",
+      "watermarkedSha256": "47352cd1011ed8bae7b117b8ba42759ea9c4ec84538aac8cf2fc999c376c805b",
+      "originalBytes": 46432,
+      "bytes": 49360,
+      "width": 468,
+      "height": 640,
+      "format": "WEBP",
+      "centerTone": "dark",
+      "cornerTone": "dark",
+      "placements": [
+        {
+          "layer": "corner",
+          "box": [
+            230,
+            618,
+            460,
+            632
+          ],
+          "fontSize": 13,
+          "alpha": 176
+        },
+        {
+          "layer": "diagonal",
+          "box": [
+            255,
+            514,
+            451,
+            622
+          ],
+          "fontSize": 25,
+          "alpha": 64
+        }
+      ],
+      "protectedProductPixelsOverlaid": 0,
+      "quality": 85
+    },
+    {
+      "path": "assets/products/guanya-2026/k80-quick-response-concealed-sprinkler-dsc_5938-1600.webp",
+      "masterPath": ".watermark-backups/site-assets-original/guanya-2026/k80-quick-response-concealed-sprinkler-dsc_5938-1600.webp",
+      "originalSha256": "26047be3484b805798b16c214e3924cb71d9cacf6dfb15b61dce44c84111eeb6",
+      "watermarkedSha256": "314bb63cb20f570b346925b66d31de07377bb3510e394f21ce0dfc34c5918bab",
+      "originalBytes": 70074,
+      "bytes": 75748,
+      "width": 1600,
+      "height": 1294,
+      "format": "WEBP",
+      "centerTone": "dark",
+      "cornerTone": "dark",
+      "placements": [
+        {
+          "layer": "corner",
+          "box": [
+            968,
+            1242,
+            1577,
+            1271
+          ],
+          "fontSize": 35,
+          "alpha": 176
+        },
+        {
+          "layer": "diagonal",
+          "box": [
+            876,
+            894,
+            1577,
+            1271
+          ],
+          "fontSize": 91,
+          "alpha": 64
+        }
+      ],
+      "protectedProductPixelsOverlaid": 0,
+      "quality": 85
+    },
+    {
+      "path": "assets/products/guanya-2026/k80-quick-response-concealed-sprinkler-dsc_5938-640.webp",
+      "masterPath": ".watermark-backups/site-assets-original/guanya-2026/k80-quick-response-concealed-sprinkler-dsc_5938-640.webp",
+      "originalSha256": "9e0663f05748fbe6f46e085ea67f205e85e8739f02defc3432d12ae6273cf55e",
+      "watermarkedSha256": "14919e96408752769ec038bf5bbec2a678640a489fa6430990c4d1745cdaaa20",
+      "originalBytes": 22710,
+      "bytes": 24672,
+      "width": 640,
+      "height": 518,
+      "format": "WEBP",
+      "centerTone": "dark",
+      "cornerTone": "dark",
+      "placements": [
+        {
+          "layer": "corner",
+          "box": [
+            381,
+            495,
+            631,
+            509
+          ],
+          "fontSize": 14,
+          "alpha": 176
+        },
+        {
+          "layer": "diagonal",
+          "box": [
+            373,
+            369,
+            614,
+            501
+          ],
+          "fontSize": 31,
+          "alpha": 64
+        }
+      ],
+      "protectedProductPixelsOverlaid": 0,
+      "quality": 85
+    },
+    {
+      "path": "assets/products/guanya-2026/k80-quick-response-concealed-sprinkler-dsc_5941-1600.webp",
+      "masterPath": ".watermark-backups/site-assets-original/guanya-2026/k80-quick-response-concealed-sprinkler-dsc_5941-1600.webp",
+      "originalSha256": "ac0747415f0328cad800e2d8c1925cb39135b96d36e95fc51f95c41def321285",
+      "watermarkedSha256": "2ef1c6cd0636612e25c7478ad63d0f425be405248b876c9d3fe134e81609489a",
+      "originalBytes": 117390,
+      "bytes": 121642,
+      "width": 945,
+      "height": 1358,
+      "format": "WEBP",
+      "centerTone": "dark",
+      "cornerTone": "dark",
+      "placements": [
+        {
+          "layer": "corner",
+          "box": [
+            474,
+            1318,
+            928,
+            1341
+          ],
+          "fontSize": 26,
+          "alpha": 176
+        },
+        {
+          "layer": "diagonal",
+          "box": [
+            17,
+            17,
+            412,
+            232
+          ],
+          "fontSize": 51,
+          "alpha": 64
+        }
+      ],
+      "protectedProductPixelsOverlaid": 0,
+      "quality": 85
+    },
+    {
+      "path": "assets/products/guanya-2026/k80-quick-response-concealed-sprinkler-dsc_5941-640.webp",
+      "masterPath": ".watermark-backups/site-assets-original/guanya-2026/k80-quick-response-concealed-sprinkler-dsc_5941-640.webp",
+      "originalSha256": "454d3303e23d24e8ef6c9dc2ce303af2a8e6aa68a754014e6302d26a88ab120e",
+      "watermarkedSha256": "cf6e5bc80ad1fbeb7bd42a43a6d876a447f6a8467c7d5a131e63a4ea986da04e",
+      "originalBytes": 41016,
+      "bytes": 43552,
+      "width": 445,
+      "height": 640,
+      "format": "WEBP",
+      "centerTone": "dark",
+      "cornerTone": "dark",
+      "placements": [
+        {
+          "layer": "corner",
+          "box": [
+            225,
+            619,
+            437,
+            632
+          ],
+          "fontSize": 12,
+          "alpha": 176
+        },
+        {
+          "layer": "diagonal",
+          "box": [
+            8,
+            8,
+            173,
+            99
+          ],
+          "fontSize": 21,
+          "alpha": 64
+        }
+      ],
+      "protectedProductPixelsOverlaid": 0,
+      "quality": 85
+    },
+    {
+      "path": "assets/products/guanya-2026/k80-quick-response-concealed-sprinkler-dsc_5942-1600.webp",
+      "masterPath": ".watermark-backups/site-assets-original/guanya-2026/k80-quick-response-concealed-sprinkler-dsc_5942-1600.webp",
+      "originalSha256": "7d11b7d3be7bc8747ec82b873bc03f319ea6b61fd102e09c856f27331d5810b1",
+      "watermarkedSha256": "181c6166e7634d1600db07c066aa4a40c9ca991f0844e6f91690d0803867a5ab",
+      "originalBytes": 68442,
+      "bytes": 72546,
+      "width": 1600,
+      "height": 1326,
+      "format": "WEBP",
+      "centerTone": "dark",
+      "cornerTone": "dark",
+      "placements": [
+        {
+          "layer": "corner",
+          "box": [
+            946,
+            1272,
+            1576,
+            1302
+          ],
+          "fontSize": 36,
+          "alpha": 176
+        },
+        {
+          "layer": "diagonal",
+          "box": [
+            846,
+            908,
+            1576,
+            1302
+          ],
+          "fontSize": 95,
+          "alpha": 64
+        }
+      ],
+      "protectedProductPixelsOverlaid": 0,
+      "quality": 85
+    },
+    {
+      "path": "assets/products/guanya-2026/k80-quick-response-concealed-sprinkler-dsc_5942-640.webp",
+      "masterPath": ".watermark-backups/site-assets-original/guanya-2026/k80-quick-response-concealed-sprinkler-dsc_5942-640.webp",
+      "originalSha256": "0efb25b98d3200ff6ffe9c80bb41afc56fc471ff85cb827cab659309cf642958",
+      "watermarkedSha256": "f26bbb897dcb83aa35c48c644499069a1720b61f6d3c6119a8df5cf04f70a7b3",
+      "originalBytes": 20324,
+      "bytes": 22942,
+      "width": 640,
+      "height": 530,
+      "format": "WEBP",
+      "centerTone": "dark",
+      "cornerTone": "dark",
+      "placements": [
+        {
+          "layer": "corner",
+          "box": [
+            380,
+            506,
+            630,
+            520
+          ],
+          "fontSize": 14,
+          "alpha": 176
+        },
+        {
+          "layer": "diagonal",
+          "box": [
+            348,
+            370,
+            616,
+            515
+          ],
+          "fontSize": 34,
+          "alpha": 64
+        }
+      ],
+      "protectedProductPixelsOverlaid": 0,
+      "quality": 85
+    },
+    {
+      "path": "assets/products/guanya-2026/k80-quick-response-concealed-sprinkler-dsc_5949-1600.webp",
+      "masterPath": ".watermark-backups/site-assets-original/guanya-2026/k80-quick-response-concealed-sprinkler-dsc_5949-1600.webp",
+      "originalSha256": "9d552aa4b5235e8ce2322f32495e31104fb1f6a79bc6d53debf1e4834a47cafc",
+      "watermarkedSha256": "8dfbfdcdd39eae49389701e03c3f04824ce7b3e188b1619e469f8609afdbfdb4",
+      "originalBytes": 102758,
+      "bytes": 107880,
+      "width": 861,
+      "height": 1274,
+      "format": "WEBP",
+      "centerTone": "dark",
+      "cornerTone": "dark",
+      "placements": [
+        {
+          "layer": "corner",
+          "box": [
+            442,
+            1238,
+            846,
+            1259
+          ],
+          "fontSize": 23,
+          "alpha": 176
+        },
+        {
+          "layer": "diagonal",
+          "box": [
+            345,
+            988,
+            846,
+            1259
+          ],
+          "fontSize": 65,
+          "alpha": 64
+        }
+      ],
+      "protectedProductPixelsOverlaid": 0,
+      "quality": 85
+    },
+    {
+      "path": "assets/products/guanya-2026/k80-quick-response-concealed-sprinkler-dsc_5949-640.webp",
+      "masterPath": ".watermark-backups/site-assets-original/guanya-2026/k80-quick-response-concealed-sprinkler-dsc_5949-640.webp",
+      "originalSha256": "bc7ec79b747613c4d3f80050a3f155a21c3c0e9f34667a5ddfe5916e87e76ce0",
+      "watermarkedSha256": "f089031bd74171df9e2fe3e7caa5f5e5feb68b9ceadb813ca742a2aa4c40b1d7",
+      "originalBytes": 39164,
+      "bytes": 42110,
+      "width": 433,
+      "height": 640,
+      "format": "WEBP",
+      "centerTone": "dark",
+      "cornerTone": "dark",
+      "placements": [
+        {
+          "layer": "corner",
+          "box": [
+            213,
+            619,
+            425,
+            632
+          ],
+          "fontSize": 12,
+          "alpha": 176
+        },
+        {
+          "layer": "diagonal",
+          "box": [
+            176,
+            497,
+            425,
+            632
+          ],
+          "fontSize": 32,
+          "alpha": 64
+        }
+      ],
+      "protectedProductPixelsOverlaid": 0,
+      "quality": 85
+    },
+    {
+      "path": "assets/products/guanya-2026/k80-quick-response-concealed-sprinkler-dsc_5950-1600.webp",
+      "masterPath": ".watermark-backups/site-assets-original/guanya-2026/k80-quick-response-concealed-sprinkler-dsc_5950-1600.webp",
+      "originalSha256": "cbb495bee04e5b7b2e0dff1e5a7d83d9aa7d4a9d9656ed98f3ae4bd62c5c7e6a",
+      "watermarkedSha256": "5b18bd5307be22ac386c7fc6fd5ac7ce0076ac5505ab89de0e9365e1c76c8382",
+      "originalBytes": 64890,
+      "bytes": 71116,
+      "width": 1600,
+      "height": 1310,
+      "format": "WEBP",
+      "centerTone": "dark",
+      "cornerTone": "dark",
+      "placements": [
+        {
+          "layer": "corner",
+          "box": [
+            967,
+            1257,
+            1576,
+            1286
+          ],
+          "fontSize": 35,
+          "alpha": 176
+        },
+        {
+          "layer": "diagonal",
+          "box": [
+            871,
+            906,
+            1576,
+            1286
+          ],
+          "fontSize": 92,
+          "alpha": 64
+        }
+      ],
+      "protectedProductPixelsOverlaid": 0,
+      "quality": 85
+    },
+    {
+      "path": "assets/products/guanya-2026/k80-quick-response-concealed-sprinkler-dsc_5950-640.webp",
+      "masterPath": ".watermark-backups/site-assets-original/guanya-2026/k80-quick-response-concealed-sprinkler-dsc_5950-640.webp",
+      "originalSha256": "5503502bffad0082b5d17987f58877e29024948ef7c5698ef1f039e62d502323",
+      "watermarkedSha256": "0c4f0469b0e4f9c586de3d0fa1d0129ce83fd952ae979dccb1b629922da8e1df",
+      "originalBytes": 20138,
+      "bytes": 22002,
+      "width": 640,
+      "height": 524,
+      "format": "WEBP",
+      "centerTone": "dark",
+      "cornerTone": "dark",
+      "placements": [
+        {
+          "layer": "corner",
+          "box": [
+            381,
+            501,
+            631,
+            515
+          ],
+          "fontSize": 14,
+          "alpha": 176
+        },
+        {
+          "layer": "diagonal",
+          "box": [
+            399,
+            351,
+            626,
+            474
+          ],
+          "fontSize": 29,
+          "alpha": 64
+        }
+      ],
+      "protectedProductPixelsOverlaid": 0,
+      "quality": 85
+    },
+    {
+      "path": "assets/products/guanya-2026/k80-quick-response-concealed-sprinkler-dsc_5953-1600.webp",
+      "masterPath": ".watermark-backups/site-assets-original/guanya-2026/k80-quick-response-concealed-sprinkler-dsc_5953-1600.webp",
+      "originalSha256": "7de782f9f37eb1686f408f07ee6f2d0d10d38905ec17e84766ef82aafdb7b4c5",
+      "watermarkedSha256": "c55f1cfb7ecd34efb937575c3659f4ccc090efe34f5ce80bc38099f0addd3713",
+      "originalBytes": 117966,
+      "bytes": 124108,
+      "width": 962,
+      "height": 1409,
+      "format": "WEBP",
+      "centerTone": "dark",
+      "cornerTone": "dark",
+      "placements": [
+        {
+          "layer": "corner",
+          "box": [
+            491,
+            1369,
+            945,
+            1392
+          ],
+          "fontSize": 26,
+          "alpha": 176
+        },
+        {
+          "layer": "diagonal",
+          "box": [
+            403,
+            1100,
+            945,
+            1392
+          ],
+          "fontSize": 70,
+          "alpha": 64
+        }
+      ],
+      "protectedProductPixelsOverlaid": 0,
+      "quality": 85
+    },
+    {
+      "path": "assets/products/guanya-2026/k80-quick-response-concealed-sprinkler-dsc_5953-640.webp",
+      "masterPath": ".watermark-backups/site-assets-original/guanya-2026/k80-quick-response-concealed-sprinkler-dsc_5953-640.webp",
+      "originalSha256": "3bb91ed93657e88b3f5e39abc4df73a98a18d832c2a0954858170ccab1b7bbb4",
+      "watermarkedSha256": "286dfaef6c62fe86ef485507bd531d14c6a0eb0a2c2a89d73aa5900019a9e548",
+      "originalBytes": 38958,
+      "bytes": 41688,
+      "width": 437,
+      "height": 640,
+      "format": "WEBP",
+      "centerTone": "dark",
+      "cornerTone": "dark",
+      "placements": [
+        {
+          "layer": "corner",
+          "box": [
+            217,
+            619,
+            429,
+            632
+          ],
+          "fontSize": 12,
+          "alpha": 176
+        },
+        {
+          "layer": "diagonal",
+          "box": [
+            206,
+            514,
+            402,
+            622
+          ],
+          "fontSize": 25,
+          "alpha": 64
+        }
+      ],
+      "protectedProductPixelsOverlaid": 0,
+      "quality": 85
+    },
+    {
+      "path": "assets/products/guanya-2026/k80-quick-response-concealed-sprinkler-dsc_5954-1600.webp",
+      "masterPath": ".watermark-backups/site-assets-original/guanya-2026/k80-quick-response-concealed-sprinkler-dsc_5954-1600.webp",
+      "originalSha256": "91ffeab8e70da29c60b61bb7adc0d1a881a13b8c86f1e59d8da7781ececc4f4b",
+      "watermarkedSha256": "6eeb02351821bc2639c03047a16abbd80db86e9705ea41c4e30dff2acd69b1ee",
+      "originalBytes": 77664,
+      "bytes": 82172,
+      "width": 1600,
+      "height": 1331,
+      "format": "WEBP",
+      "centerTone": "dark",
+      "cornerTone": "dark",
+      "placements": [
+        {
+          "layer": "corner",
+          "box": [
+            946,
+            1277,
+            1576,
+            1307
+          ],
+          "fontSize": 36,
+          "alpha": 176
+        },
+        {
+          "layer": "diagonal",
+          "box": [
+            839,
+            910,
+            1576,
+            1307
+          ],
+          "fontSize": 96,
+          "alpha": 64
+        }
+      ],
+      "protectedProductPixelsOverlaid": 0,
+      "quality": 85
+    },
+    {
+      "path": "assets/products/guanya-2026/k80-quick-response-concealed-sprinkler-dsc_5954-640.webp",
+      "masterPath": ".watermark-backups/site-assets-original/guanya-2026/k80-quick-response-concealed-sprinkler-dsc_5954-640.webp",
+      "originalSha256": "b602b092e451a7defc7bcfc2669adb70e35686a1cf51d8eac83fd6a5813b9ccf",
+      "watermarkedSha256": "27e4e27920e31015631c1da67ba3197ad60730960630aeaa311c3c62e71328a5",
+      "originalBytes": 22526,
+      "bytes": 24686,
+      "width": 640,
+      "height": 532,
+      "format": "WEBP",
+      "centerTone": "dark",
+      "cornerTone": "dark",
+      "placements": [
+        {
+          "layer": "corner",
+          "box": [
+            380,
+            508,
+            630,
+            522
+          ],
+          "fontSize": 14,
+          "alpha": 176
+        },
+        {
+          "layer": "diagonal",
+          "box": [
+            374,
+            371,
+            623,
+            506
+          ],
+          "fontSize": 32,
+          "alpha": 64
+        }
+      ],
+      "protectedProductPixelsOverlaid": 0,
+      "quality": 85
+    },
+    {
+      "path": "assets/products/guanya-2026/k115-standard-response-concealed-sprinkler-dsc_5912-1600.webp",
+      "masterPath": ".watermark-backups/site-assets-original/guanya-2026/k115-standard-response-concealed-sprinkler-dsc_5912-1600.webp",
+      "originalSha256": "55e688383087b6bd02339cd6875a38613d5fd6fb94ac9f732e86d016513322ed",
+      "watermarkedSha256": "68e281f353e028d6e5538f60f8731fad850f28d492eddac9765d86133aa996ec",
+      "originalBytes": 118304,
+      "bytes": 122962,
+      "width": 861,
+      "height": 1274,
+      "format": "WEBP",
+      "centerTone": "dark",
+      "cornerTone": "dark",
+      "placements": [
+        {
+          "layer": "corner",
+          "box": [
+            442,
+            1238,
+            846,
+            1259
+          ],
+          "fontSize": 23,
+          "alpha": 176
+        },
+        {
+          "layer": "diagonal",
+          "box": [
+            15,
+            15,
+            410,
+            230
+          ],
+          "fontSize": 51,
+          "alpha": 64
+        }
+      ],
+      "protectedProductPixelsOverlaid": 0,
+      "quality": 85
+    },
+    {
+      "path": "assets/products/guanya-2026/k115-standard-response-concealed-sprinkler-dsc_5912-640.webp",
+      "masterPath": ".watermark-backups/site-assets-original/guanya-2026/k115-standard-response-concealed-sprinkler-dsc_5912-640.webp",
+      "originalSha256": "e31be08b30379cf9ecba886e69c4060f4534675a696a1fdc8e3d79e1e307e793",
+      "watermarkedSha256": "147fe89e96cc29dad842918a8eae323cf2c705a82f7b8c4c5ff964b210c80f6a",
+      "originalBytes": 44584,
+      "bytes": 47362,
+      "width": 433,
+      "height": 640,
+      "format": "WEBP",
+      "centerTone": "dark",
+      "cornerTone": "dark",
+      "placements": [
+        {
+          "layer": "corner",
+          "box": [
+            213,
+            619,
+            425,
+            632
+          ],
+          "fontSize": 12,
+          "alpha": 176
+        },
+        {
+          "layer": "diagonal",
+          "box": [
+            8,
+            8,
+            197,
+            111
+          ],
+          "fontSize": 24,
+          "alpha": 64
+        }
+      ],
+      "protectedProductPixelsOverlaid": 0,
+      "quality": 85
+    },
+    {
+      "path": "assets/products/guanya-2026/k115-standard-response-concealed-sprinkler-dsc_5913-1600.webp",
+      "masterPath": ".watermark-backups/site-assets-original/guanya-2026/k115-standard-response-concealed-sprinkler-dsc_5913-1600.webp",
+      "originalSha256": "e08373715fdf0c65b1eedc75316eb5ce61b0424597ca1c297bd1186c198d8e01",
+      "watermarkedSha256": "e9e39ee6ec2010315cd09866161bdd11ca76e0f7d4fd45f5318c20f658940d07",
+      "originalBytes": 84680,
+      "bytes": 90894,
+      "width": 1600,
+      "height": 1294,
+      "format": "WEBP",
+      "centerTone": "dark",
+      "cornerTone": "dark",
+      "placements": [
+        {
+          "layer": "corner",
+          "box": [
+            968,
+            1242,
+            1577,
+            1271
+          ],
+          "fontSize": 35,
+          "alpha": 176
+        },
+        {
+          "layer": "diagonal",
+          "box": [
+            847,
+            877,
+            1577,
+            1271
+          ],
+          "fontSize": 95,
+          "alpha": 64
+        }
+      ],
+      "protectedProductPixelsOverlaid": 0,
+      "quality": 85
+    },
+    {
+      "path": "assets/products/guanya-2026/k115-standard-response-concealed-sprinkler-dsc_5913-640.webp",
+      "masterPath": ".watermark-backups/site-assets-original/guanya-2026/k115-standard-response-concealed-sprinkler-dsc_5913-640.webp",
+      "originalSha256": "847f3f60d3920a5ff1ed20f8a9df0ea40de9733f997d46dd5c163c71aa784943",
+      "watermarkedSha256": "4dc9e744df48c3101cc6741a943381392c7bf0df5401c29c6a189599cc050ca8",
+      "originalBytes": 25880,
+      "bytes": 28204,
+      "width": 640,
+      "height": 518,
+      "format": "WEBP",
+      "centerTone": "dark",
+      "cornerTone": "dark",
+      "placements": [
+        {
+          "layer": "corner",
+          "box": [
+            381,
+            495,
+            631,
+            509
+          ],
+          "fontSize": 14,
+          "alpha": 176
+        },
+        {
+          "layer": "diagonal",
+          "box": [
+            347,
+            369,
+            605,
+            509
+          ],
+          "fontSize": 33,
+          "alpha": 64
+        }
+      ],
+      "protectedProductPixelsOverlaid": 0,
+      "quality": 85
+    },
+    {
+      "path": "assets/products/guanya-2026/k115-standard-response-concealed-sprinkler-dsc_5914-1600.webp",
+      "masterPath": ".watermark-backups/site-assets-original/guanya-2026/k115-standard-response-concealed-sprinkler-dsc_5914-1600.webp",
+      "originalSha256": "f4fa3e40fccddcc389dcb3365fe72d5d94a3c40df0621da29a2ae8715fb09462",
+      "watermarkedSha256": "5ec0177c60dc865362b2f2f35a2096744729d507b29f783114a031f44f7e3370",
+      "originalBytes": 112748,
+      "bytes": 117384,
+      "width": 861,
+      "height": 1274,
+      "format": "WEBP",
+      "centerTone": "dark",
+      "cornerTone": "dark",
+      "placements": [
+        {
+          "layer": "corner",
+          "box": [
+            442,
+            1238,
+            846,
+            1259
+          ],
+          "fontSize": 23,
+          "alpha": 176
+        },
+        {
+          "layer": "diagonal",
+          "box": [
+            15,
+            15,
+            410,
+            230
+          ],
+          "fontSize": 51,
+          "alpha": 64
+        }
+      ],
+      "protectedProductPixelsOverlaid": 0,
+      "quality": 85
+    },
+    {
+      "path": "assets/products/guanya-2026/k115-standard-response-concealed-sprinkler-dsc_5914-640.webp",
+      "masterPath": ".watermark-backups/site-assets-original/guanya-2026/k115-standard-response-concealed-sprinkler-dsc_5914-640.webp",
+      "originalSha256": "63e7ebe82f51cbdeb413d00b9208585a1a026fca81ea251148421ed388c0d028",
+      "watermarkedSha256": "c9dec0c2c90996be24c71f137ceb191eac312d409c29f8e33e0b914ab9d6aec1",
+      "originalBytes": 42334,
+      "bytes": 45164,
+      "width": 433,
+      "height": 640,
+      "format": "WEBP",
+      "centerTone": "dark",
+      "cornerTone": "dark",
+      "placements": [
+        {
+          "layer": "corner",
+          "box": [
+            213,
+            619,
+            425,
+            632
+          ],
+          "fontSize": 12,
+          "alpha": 176
+        },
+        {
+          "layer": "diagonal",
+          "box": [
+            8,
+            8,
+            197,
+            111
+          ],
+          "fontSize": 24,
+          "alpha": 64
+        }
+      ],
+      "protectedProductPixelsOverlaid": 0,
+      "quality": 85
+    },
+    {
+      "path": "assets/products/guanya-2026/k115-standard-response-concealed-sprinkler-dsc_5915-1600.webp",
+      "masterPath": ".watermark-backups/site-assets-original/guanya-2026/k115-standard-response-concealed-sprinkler-dsc_5915-1600.webp",
+      "originalSha256": "2eacbae2e1ddab1fecee194402cbc645e025ecab60c34518ebfc54595b03ff0a",
+      "watermarkedSha256": "7fb4bb13befc4ab650657e88e883c6fce2d355b5d8458ca62033a1f4503ed26f",
+      "originalBytes": 71246,
+      "bytes": 76762,
+      "width": 1600,
+      "height": 1294,
+      "format": "WEBP",
+      "centerTone": "dark",
+      "cornerTone": "dark",
+      "placements": [
+        {
+          "layer": "corner",
+          "box": [
+            968,
+            1242,
+            1577,
+            1271
+          ],
+          "fontSize": 35,
+          "alpha": 176
+        },
+        {
+          "layer": "diagonal",
+          "box": [
+            847,
+            877,
+            1577,
+            1271
+          ],
+          "fontSize": 95,
+          "alpha": 64
+        }
+      ],
+      "protectedProductPixelsOverlaid": 0,
+      "quality": 85
+    },
+    {
+      "path": "assets/products/guanya-2026/k115-standard-response-concealed-sprinkler-dsc_5915-640.webp",
+      "masterPath": ".watermark-backups/site-assets-original/guanya-2026/k115-standard-response-concealed-sprinkler-dsc_5915-640.webp",
+      "originalSha256": "52b2eb134b9fc5f5138edcc9aa21eb9f8243f84389b3028ab19ab7e11e5c1d5a",
+      "watermarkedSha256": "d6818c0cd886d87f064f45cde91fdc11def4178eca196ffd3fc8dd08376493fe",
+      "originalBytes": 22030,
+      "bytes": 24552,
+      "width": 640,
+      "height": 518,
+      "format": "WEBP",
+      "centerTone": "dark",
+      "cornerTone": "dark",
+      "placements": [
+        {
+          "layer": "corner",
+          "box": [
+            381,
+            495,
+            631,
+            509
+          ],
+          "fontSize": 14,
+          "alpha": 176
+        },
+        {
+          "layer": "diagonal",
+          "box": [
+            347,
+            369,
+            605,
+            509
+          ],
+          "fontSize": 33,
+          "alpha": 64
+        }
+      ],
+      "protectedProductPixelsOverlaid": 0,
+      "quality": 85
+    },
+    {
+      "path": "assets/products/guanya-2026/k115-standard-response-concealed-sprinkler-dsc_5920-1600.webp",
+      "masterPath": ".watermark-backups/site-assets-original/guanya-2026/k115-standard-response-concealed-sprinkler-dsc_5920-1600.webp",
+      "originalSha256": "9883f42e15c2078f91983a82bdaf4d9dc717cc762abc6926297b91412881d00c",
+      "watermarkedSha256": "74c1453aa38c960788492bf6828b5b12ad92cebd2b9474e71f00c42dfb65e797",
+      "originalBytes": 125082,
+      "bytes": 129572,
+      "width": 860,
+      "height": 1374,
+      "format": "WEBP",
+      "centerTone": "dark",
+      "cornerTone": "dark",
+      "placements": [
+        {
+          "layer": "corner",
+          "box": [
+            441,
+            1338,
+            845,
+            1359
+          ],
+          "fontSize": 23,
+          "alpha": 176
+        },
+        {
+          "layer": "diagonal",
+          "box": [
+            15,
+            15,
+            388,
+            218
+          ],
+          "fontSize": 48,
+          "alpha": 64
+        }
+      ],
+      "protectedProductPixelsOverlaid": 0,
+      "quality": 85
+    },
+    {
+      "path": "assets/products/guanya-2026/k115-standard-response-concealed-sprinkler-dsc_5920-640.webp",
+      "masterPath": ".watermark-backups/site-assets-original/guanya-2026/k115-standard-response-concealed-sprinkler-dsc_5920-640.webp",
+      "originalSha256": "00dcd94d021763306b159f655b2b701d605b3bb1151283333866c7b23d3eed31",
+      "watermarkedSha256": "a42504a2900735d8c795f59dfc9bab7f89cf9929dda625ca2434599dc3186c32",
+      "originalBytes": 43442,
+      "bytes": 45512,
+      "width": 401,
+      "height": 640,
+      "format": "WEBP",
+      "centerTone": "dark",
+      "cornerTone": "dark",
+      "placements": [
+        {
+          "layer": "corner",
+          "box": [
+            198,
+            621,
+            394,
+            633
+          ],
+          "fontSize": 11,
+          "alpha": 176
+        },
+        {
+          "layer": "diagonal",
+          "box": [
+            7,
+            7,
+            164,
+            94
+          ],
+          "fontSize": 20,
+          "alpha": 64
+        }
+      ],
+      "protectedProductPixelsOverlaid": 0,
+      "quality": 85
+    },
+    {
+      "path": "assets/products/guanya-2026/k115-standard-response-concealed-sprinkler-dsc_5921-1600.webp",
+      "masterPath": ".watermark-backups/site-assets-original/guanya-2026/k115-standard-response-concealed-sprinkler-dsc_5921-1600.webp",
+      "originalSha256": "8bd30ffaf4219e13391e70b57faf847ef2390abea0af3b6533135158535c0483",
+      "watermarkedSha256": "153f60c9dfcbc2aada9aa102c1b419ff30466f725b0626c5ba9ae7983e0e5ad5",
+      "originalBytes": 70204,
+      "bytes": 74770,
+      "width": 1600,
+      "height": 1294,
+      "format": "WEBP",
+      "centerTone": "dark",
+      "cornerTone": "dark",
+      "placements": [
+        {
+          "layer": "corner",
+          "box": [
+            968,
+            1242,
+            1577,
+            1271
+          ],
+          "fontSize": 35,
+          "alpha": 176
+        },
+        {
+          "layer": "diagonal",
+          "box": [
+            1013,
+            851,
+            1577,
+            1156
+          ],
+          "fontSize": 73,
+          "alpha": 64
+        }
+      ],
+      "protectedProductPixelsOverlaid": 0,
+      "quality": 85
+    },
+    {
+      "path": "assets/products/guanya-2026/k115-standard-response-concealed-sprinkler-dsc_5921-640.webp",
+      "masterPath": ".watermark-backups/site-assets-original/guanya-2026/k115-standard-response-concealed-sprinkler-dsc_5921-640.webp",
+      "originalSha256": "5be292cd737140b7153f347eb4e571d40ea0fae2cf354b2649bb43e3a2b428f6",
+      "watermarkedSha256": "bd48c9c1c93c9e14312dba0ee4d1c2e7e53d2c56afa203b265f15cb988380a6e",
+      "originalBytes": 21094,
+      "bytes": 22880,
+      "width": 640,
+      "height": 518,
+      "format": "WEBP",
+      "centerTone": "dark",
+      "cornerTone": "dark",
+      "placements": [
+        {
+          "layer": "corner",
+          "box": [
+            381,
+            495,
+            631,
+            509
+          ],
+          "fontSize": 14,
+          "alpha": 176
+        },
+        {
+          "layer": "diagonal",
+          "box": [
+            399,
+            369,
+            626,
+            492
+          ],
+          "fontSize": 29,
+          "alpha": 64
+        }
+      ],
+      "protectedProductPixelsOverlaid": 0,
+      "quality": 85
+    },
+    {
+      "path": "assets/products/guanya-2026/k115-quick-response-concealed-sprinkler-dsc_5935-1600.webp",
+      "masterPath": ".watermark-backups/site-assets-original/guanya-2026/k115-quick-response-concealed-sprinkler-dsc_5935-1600.webp",
+      "originalSha256": "fe572e6a0e4a7e38febf60102199546c7d1d852c1240ef03d27916d0651beeff",
+      "watermarkedSha256": "976a4cedf988ed752c527b5f5f21ced2f01d3ff8ee83ec2df64838583017316d",
+      "originalBytes": 123606,
+      "bytes": 127936,
+      "width": 861,
+      "height": 1291,
+      "format": "WEBP",
+      "centerTone": "dark",
+      "cornerTone": "dark",
+      "placements": [
+        {
+          "layer": "corner",
+          "box": [
+            442,
+            1255,
+            846,
+            1276
+          ],
+          "fontSize": 23,
+          "alpha": 176
+        },
+        {
+          "layer": "diagonal",
+          "box": [
+            15,
+            15,
+            379,
+            213
+          ],
+          "fontSize": 47,
+          "alpha": 64
+        }
+      ],
+      "protectedProductPixelsOverlaid": 0,
+      "quality": 85
+    },
+    {
+      "path": "assets/products/guanya-2026/k115-quick-response-concealed-sprinkler-dsc_5935-640.webp",
+      "masterPath": ".watermark-backups/site-assets-original/guanya-2026/k115-quick-response-concealed-sprinkler-dsc_5935-640.webp",
+      "originalSha256": "f30ae0345be2a9a9e237a4f1a171c7e607f4e03d6cf852cdd55cf441c1bac367",
+      "watermarkedSha256": "7178463e9fca99bd6b96b016da748aa4d84d8e77017cfec2c9ae9a64a0b5f1f6",
+      "originalBytes": 44786,
+      "bytes": 47378,
+      "width": 427,
+      "height": 640,
+      "format": "WEBP",
+      "centerTone": "dark",
+      "cornerTone": "dark",
+      "placements": [
+        {
+          "layer": "corner",
+          "box": [
+            207,
+            619,
+            419,
+            632
+          ],
+          "fontSize": 12,
+          "alpha": 176
+        },
+        {
+          "layer": "diagonal",
+          "box": [
+            8,
+            8,
+            182,
+            104
+          ],
+          "fontSize": 22,
+          "alpha": 64
+        }
+      ],
+      "protectedProductPixelsOverlaid": 0,
+      "quality": 85
+    },
+    {
+      "path": "assets/products/guanya-2026/k115-quick-response-concealed-sprinkler-dsc_5936-1600.webp",
+      "masterPath": ".watermark-backups/site-assets-original/guanya-2026/k115-quick-response-concealed-sprinkler-dsc_5936-1600.webp",
+      "originalSha256": "5c7f4c11d9c15e14a8ff4f908a04ce5e8a6d338b367a589a19aac5175cf1d44b",
+      "watermarkedSha256": "cda01828aaa04c736effe6bdf5420a22cc06992df34a87a0c453fcc81fb2ca39",
+      "originalBytes": 79848,
+      "bytes": 85044,
+      "width": 1600,
+      "height": 1310,
+      "format": "WEBP",
+      "centerTone": "dark",
+      "cornerTone": "dark",
+      "placements": [
+        {
+          "layer": "corner",
+          "box": [
+            967,
+            1257,
+            1576,
+            1286
+          ],
+          "fontSize": 35,
+          "alpha": 176
+        },
+        {
+          "layer": "diagonal",
+          "box": [
+            948,
+            944,
+            1548,
+            1268
+          ],
+          "fontSize": 78,
+          "alpha": 64
+        }
+      ],
+      "protectedProductPixelsOverlaid": 0,
+      "quality": 85
+    },
+    {
+      "path": "assets/products/guanya-2026/k115-quick-response-concealed-sprinkler-dsc_5936-640.webp",
+      "masterPath": ".watermark-backups/site-assets-original/guanya-2026/k115-quick-response-concealed-sprinkler-dsc_5936-640.webp",
+      "originalSha256": "f9fd183f9959df540974e38bca96ee89b63375d11c6ebd630a75a882ace2e58d",
+      "watermarkedSha256": "209537c96023e91a5a5752b2c26144f94a33af86dfda5dc885bb50a64d66754d",
+      "originalBytes": 24728,
+      "bytes": 26994,
+      "width": 640,
+      "height": 524,
+      "format": "WEBP",
+      "centerTone": "dark",
+      "cornerTone": "dark",
+      "placements": [
+        {
+          "layer": "corner",
+          "box": [
+            381,
+            501,
+            631,
+            515
+          ],
+          "fontSize": 14,
+          "alpha": 176
+        },
+        {
+          "layer": "diagonal",
+          "box": [
+            399,
+            369,
+            626,
+            492
+          ],
+          "fontSize": 29,
+          "alpha": 64
+        }
+      ],
+      "protectedProductPixelsOverlaid": 0,
+      "quality": 85
+    },
+    {
+      "path": "assets/products/guanya-2026/k115-quick-response-concealed-sprinkler-dsc_5939-1600.webp",
+      "masterPath": ".watermark-backups/site-assets-original/guanya-2026/k115-quick-response-concealed-sprinkler-dsc_5939-1600.webp",
+      "originalSha256": "46acf3531aacd9391fe7f8a118187b0a7db81823d05b7d63ee105be54e77ab9c",
+      "watermarkedSha256": "2935be837f4fc1129cfd77883d5087128a4b837d6762e1f22b3968aa1e158f46",
+      "originalBytes": 110086,
+      "bytes": 115680,
+      "width": 861,
+      "height": 1274,
+      "format": "WEBP",
+      "centerTone": "dark",
+      "cornerTone": "dark",
+      "placements": [
+        {
+          "layer": "corner",
+          "box": [
+            442,
+            1238,
+            846,
+            1259
+          ],
+          "fontSize": 23,
+          "alpha": 176
+        },
+        {
+          "layer": "diagonal",
+          "box": [
+            357,
+            994,
+            846,
+            1259
+          ],
+          "fontSize": 63,
+          "alpha": 64
+        }
+      ],
+      "protectedProductPixelsOverlaid": 0,
+      "quality": 85
+    },
+    {
+      "path": "assets/products/guanya-2026/k115-quick-response-concealed-sprinkler-dsc_5939-640.webp",
+      "masterPath": ".watermark-backups/site-assets-original/guanya-2026/k115-quick-response-concealed-sprinkler-dsc_5939-640.webp",
+      "originalSha256": "ffcc8bac55eb5bc2db6cf840ad4d2e0290221018fa1d3aac1255442efbc7701c",
+      "watermarkedSha256": "577b5d3fcb95042af3ec4ee4b3e25f4240141b7d7563e15ab5991dcbec586d02",
+      "originalBytes": 41994,
+      "bytes": 44780,
+      "width": 433,
+      "height": 640,
+      "format": "WEBP",
+      "centerTone": "dark",
+      "cornerTone": "dark",
+      "placements": [
+        {
+          "layer": "corner",
+          "box": [
+            213,
+            619,
+            425,
+            632
+          ],
+          "fontSize": 12,
+          "alpha": 176
+        },
+        {
+          "layer": "diagonal",
+          "box": [
+            224,
+            514,
+            413,
+            617
+          ],
+          "fontSize": 24,
+          "alpha": 64
+        }
+      ],
+      "protectedProductPixelsOverlaid": 0,
+      "quality": 85
+    },
+    {
+      "path": "assets/products/guanya-2026/k115-quick-response-concealed-sprinkler-dsc_5940-1600.webp",
+      "masterPath": ".watermark-backups/site-assets-original/guanya-2026/k115-quick-response-concealed-sprinkler-dsc_5940-1600.webp",
+      "originalSha256": "0e3cb24e50f52f20404c217e78a4b29abfe16dfff7de8b2bb20c946b966b0e24",
+      "watermarkedSha256": "0a58027a96bfb5f1586ecbfab10adf87ef557aded6f5a56d9a95977d86ff117e",
+      "originalBytes": 77472,
+      "bytes": 82854,
+      "width": 1600,
+      "height": 1294,
+      "format": "WEBP",
+      "centerTone": "dark",
+      "cornerTone": "dark",
+      "placements": [
+        {
+          "layer": "corner",
+          "box": [
+            968,
+            1242,
+            1577,
+            1271
+          ],
+          "fontSize": 35,
+          "alpha": 176
+        },
+        {
+          "layer": "diagonal",
+          "box": [
+            1013,
+            897,
+            1577,
+            1202
+          ],
+          "fontSize": 73,
+          "alpha": 64
+        }
+      ],
+      "protectedProductPixelsOverlaid": 0,
+      "quality": 85
+    },
+    {
+      "path": "assets/products/guanya-2026/k115-quick-response-concealed-sprinkler-dsc_5940-640.webp",
+      "masterPath": ".watermark-backups/site-assets-original/guanya-2026/k115-quick-response-concealed-sprinkler-dsc_5940-640.webp",
+      "originalSha256": "8ca0c4eb7191ad3a85393fe2ca4159f4bf6817b599a8a87e4d04289408df3e2f",
+      "watermarkedSha256": "692dfab2555c1fb14f0decfc33c6e4844b54f7f2e7d5285e11202e324ab2e0af",
+      "originalBytes": 22296,
+      "bytes": 24646,
+      "width": 640,
+      "height": 518,
+      "format": "WEBP",
+      "centerTone": "dark",
+      "cornerTone": "dark",
+      "placements": [
+        {
+          "layer": "corner",
+          "box": [
+            381,
+            495,
+            631,
+            509
+          ],
+          "fontSize": 14,
+          "alpha": 176
+        },
+        {
+          "layer": "diagonal",
+          "box": [
+            399,
+            369,
+            626,
+            492
+          ],
+          "fontSize": 29,
+          "alpha": 64
+        }
+      ],
+      "protectedProductPixelsOverlaid": 0,
+      "quality": 85
+    },
+    {
+      "path": "assets/products/guanya-2026/k115-quick-response-concealed-sprinkler-dsc_5947-1600.webp",
+      "masterPath": ".watermark-backups/site-assets-original/guanya-2026/k115-quick-response-concealed-sprinkler-dsc_5947-1600.webp",
+      "originalSha256": "b21c80a7be6e1086f015ce4cad548a2bf74399aebd4df2f546da5e8696c2e977",
+      "watermarkedSha256": "8da725feb5dfead69b7d1c2631fc3d8ba9d820f5b4fc3b099419d0582ee53878",
+      "originalBytes": 99254,
+      "bytes": 103058,
+      "width": 911,
+      "height": 1341,
+      "format": "WEBP",
+      "centerTone": "dark",
+      "cornerTone": "dark",
+      "placements": [
+        {
+          "layer": "corner",
+          "box": [
+            457,
+            1303,
+            895,
+            1325
+          ],
+          "fontSize": 25,
+          "alpha": 176
+        },
+        {
+          "layer": "diagonal",
+          "box": [
+            16,
+            16,
+            389,
+            219
+          ],
+          "fontSize": 48,
+          "alpha": 64
+        }
+      ],
+      "protectedProductPixelsOverlaid": 0,
+      "quality": 85
+    },
+    {
+      "path": "assets/products/guanya-2026/k115-quick-response-concealed-sprinkler-dsc_5947-640.webp",
+      "masterPath": ".watermark-backups/site-assets-original/guanya-2026/k115-quick-response-concealed-sprinkler-dsc_5947-640.webp",
+      "originalSha256": "1e0b2726e9e979fa4ac5fcbcc539e0700d47c0ee57a93701414f624f357f34b8",
+      "watermarkedSha256": "d3fdf4246b122379b0469cce8e61033ab47c84dff6a1c9737cbab8c37d27f1d6",
+      "originalBytes": 38480,
+      "bytes": 40482,
+      "width": 435,
+      "height": 640,
+      "format": "WEBP",
+      "centerTone": "dark",
+      "cornerTone": "dark",
+      "placements": [
+        {
+          "layer": "corner",
+          "box": [
+            215,
+            619,
+            427,
+            632
+          ],
+          "fontSize": 12,
+          "alpha": 176
+        },
+        {
+          "layer": "diagonal",
+          "box": [
+            8,
+            8,
+            173,
+            99
+          ],
+          "fontSize": 21,
+          "alpha": 64
+        }
+      ],
+      "protectedProductPixelsOverlaid": 0,
+      "quality": 85
+    },
+    {
+      "path": "assets/products/guanya-2026/k115-quick-response-concealed-sprinkler-dsc_5948-1600.webp",
+      "masterPath": ".watermark-backups/site-assets-original/guanya-2026/k115-quick-response-concealed-sprinkler-dsc_5948-1600.webp",
+      "originalSha256": "3e6c5d3541978217cf3e66f5f09f43482ca8b527f5b892c26788c77ead89d861",
+      "watermarkedSha256": "9992bcb1f950b50e6590b87cdd44120ed8c4a4b540b7f44e8ea898ffa550dc55",
+      "originalBytes": 65184,
+      "bytes": 71266,
+      "width": 1600,
+      "height": 1249,
+      "format": "WEBP",
+      "centerTone": "dark",
+      "cornerTone": "dark",
+      "placements": [
+        {
+          "layer": "corner",
+          "box": [
+            983,
+            1198,
+            1578,
+            1227
+          ],
+          "fontSize": 34,
+          "alpha": 176
+        },
+        {
+          "layer": "diagonal",
+          "box": [
+            887,
+            854,
+            1578,
+            1227
+          ],
+          "fontSize": 90,
+          "alpha": 64
+        }
+      ],
+      "protectedProductPixelsOverlaid": 0,
+      "quality": 85
+    },
+    {
+      "path": "assets/products/guanya-2026/k115-quick-response-concealed-sprinkler-dsc_5948-640.webp",
+      "masterPath": ".watermark-backups/site-assets-original/guanya-2026/k115-quick-response-concealed-sprinkler-dsc_5948-640.webp",
+      "originalSha256": "eb847dd700e7f6cf311e0a03d5399cee842da402473e11d81e32e914ef475dd0",
+      "watermarkedSha256": "2a346f26b4969a5fc307c59871b89025ad15e6354cd8440c165a0f7d02f7c907",
+      "originalBytes": 20280,
+      "bytes": 22366,
+      "width": 640,
+      "height": 500,
+      "format": "WEBP",
+      "centerTone": "dark",
+      "cornerTone": "dark",
+      "placements": [
+        {
+          "layer": "corner",
+          "box": [
+            381,
+            477,
+            631,
+            491
+          ],
+          "fontSize": 14,
+          "alpha": 176
+        },
+        {
+          "layer": "diagonal",
+          "box": [
+            399,
+            349,
+            618,
+            469
+          ],
+          "fontSize": 28,
+          "alpha": 64
+        }
+      ],
+      "protectedProductPixelsOverlaid": 0,
+      "quality": 85
+    },
+    {
+      "path": "assets/products/guanya-2026/k115-quick-response-concealed-sprinkler-dsc_5951-1600.webp",
+      "masterPath": ".watermark-backups/site-assets-original/guanya-2026/k115-quick-response-concealed-sprinkler-dsc_5951-1600.webp",
+      "originalSha256": "45b82031c01ddf13907675caee06687420723feecd8a0b3e0874829ac22f14b8",
+      "watermarkedSha256": "70ea435c20adacb0c2b5763ae8286940493815f1f366c41ce17bf0f5db3eddb0",
+      "originalBytes": 130608,
+      "bytes": 135854,
+      "width": 928,
+      "height": 1375,
+      "format": "WEBP",
+      "centerTone": "dark",
+      "cornerTone": "dark",
+      "placements": [
+        {
+          "layer": "corner",
+          "box": [
+            473,
+            1336,
+            911,
+            1358
+          ],
+          "fontSize": 25,
+          "alpha": 176
+        },
+        {
+          "layer": "diagonal",
+          "box": [
+            17,
+            17,
+            434,
+            244
+          ],
+          "fontSize": 54,
+          "alpha": 64
+        }
+      ],
+      "protectedProductPixelsOverlaid": 0,
+      "quality": 85
+    },
+    {
+      "path": "assets/products/guanya-2026/k115-quick-response-concealed-sprinkler-dsc_5951-640.webp",
+      "masterPath": ".watermark-backups/site-assets-original/guanya-2026/k115-quick-response-concealed-sprinkler-dsc_5951-640.webp",
+      "originalSha256": "6d9f5c837c472fa4b67438b630bb7ef8d9f99157fcfe00eaa0b14fc359e21780",
+      "watermarkedSha256": "768e270d266a59811fcd7e604c6e6479d5741d55883b08a6fa19b6ad51527fee",
+      "originalBytes": 43198,
+      "bytes": 45896,
+      "width": 432,
+      "height": 640,
+      "format": "WEBP",
+      "centerTone": "dark",
+      "cornerTone": "dark",
+      "placements": [
+        {
+          "layer": "corner",
+          "box": [
+            212,
+            619,
+            424,
+            632
+          ],
+          "fontSize": 12,
+          "alpha": 176
+        },
+        {
+          "layer": "diagonal",
+          "box": [
+            8,
+            8,
+            197,
+            111
+          ],
+          "fontSize": 24,
+          "alpha": 64
+        }
+      ],
+      "protectedProductPixelsOverlaid": 0,
+      "quality": 85
+    },
+    {
+      "path": "assets/products/guanya-2026/k115-quick-response-concealed-sprinkler-dsc_5952-1600.webp",
+      "masterPath": ".watermark-backups/site-assets-original/guanya-2026/k115-quick-response-concealed-sprinkler-dsc_5952-1600.webp",
+      "originalSha256": "540ad2515081f3c23332d0cff9246b5bf30b95efa5f2c7765ae0ec67d1933edb",
+      "watermarkedSha256": "51bbb1889d36d8c742e3795f91db9d3c2473b04d3afd14478b97f46317a1261b",
+      "originalBytes": 80412,
+      "bytes": 85268,
+      "width": 1600,
+      "height": 1294,
+      "format": "WEBP",
+      "centerTone": "dark",
+      "cornerTone": "dark",
+      "placements": [
+        {
+          "layer": "corner",
+          "box": [
+            968,
+            1242,
+            1577,
+            1271
+          ],
+          "fontSize": 35,
+          "alpha": 176
+        },
+        {
+          "layer": "diagonal",
+          "box": [
+            894,
+            903,
+            1577,
+            1271
+          ],
+          "fontSize": 89,
+          "alpha": 64
+        }
+      ],
+      "protectedProductPixelsOverlaid": 0,
+      "quality": 85
+    },
+    {
+      "path": "assets/products/guanya-2026/k115-quick-response-concealed-sprinkler-dsc_5952-640.webp",
+      "masterPath": ".watermark-backups/site-assets-original/guanya-2026/k115-quick-response-concealed-sprinkler-dsc_5952-640.webp",
+      "originalSha256": "1e0284059253e3141d69bb9abfbbfab6aec1f8514a4384fee2a77e1db1070e59",
+      "watermarkedSha256": "1f0e56b6826271b80715bcc8b170962c876ed2bf7a6ed13965bc34fc2c7ac546",
+      "originalBytes": 23690,
+      "bytes": 25724,
+      "width": 640,
+      "height": 518,
+      "format": "WEBP",
+      "centerTone": "dark",
+      "cornerTone": "dark",
+      "placements": [
+        {
+          "layer": "corner",
+          "box": [
+            381,
+            495,
+            631,
+            509
+          ],
+          "fontSize": 14,
+          "alpha": 176
+        },
+        {
+          "layer": "diagonal",
+          "box": [
+            9,
+            9,
+            236,
+            132
+          ],
+          "fontSize": 29,
+          "alpha": 64
+        }
+      ],
+      "protectedProductPixelsOverlaid": 0,
+      "quality": 85
+    },
+    {
+      "path": "assets/products/guanya-2026/water-mist-nozzles-dsc_5793-1600.webp",
+      "masterPath": ".watermark-backups/site-assets-original/guanya-2026/water-mist-nozzles-dsc_5793-1600.webp",
+      "originalSha256": "fd393ea04b67ed76a531989adee7fba7e10a4ab64e8bf69e21b18a21624de62d",
+      "watermarkedSha256": "5452e4c5841e67e7c6397f2a04e8dce87176b016242f00b717be8d8519aec456",
+      "originalBytes": 29872,
+      "bytes": 32214,
+      "width": 760,
+      "height": 937,
+      "format": "WEBP",
+      "centerTone": "dark",
+      "cornerTone": "dark",
+      "placements": [
+        {
+          "layer": "corner",
+          "box": [
+            374,
+            904,
+            746,
+            923
+          ],
+          "fontSize": 21,
+          "alpha": 176
+        },
+        {
+          "layer": "diagonal",
+          "box": [
+            14,
+            14,
+            316,
+            178
+          ],
+          "fontSize": 39,
+          "alpha": 64
+        }
+      ],
+      "protectedProductPixelsOverlaid": 0,
+      "quality": 85
+    },
+    {
+      "path": "assets/products/guanya-2026/water-mist-nozzles-dsc_5793-640.webp",
+      "masterPath": ".watermark-backups/site-assets-original/guanya-2026/water-mist-nozzles-dsc_5793-640.webp",
+      "originalSha256": "ac1f01cb304a368a7a973caa423bb457c81fb24a9ae9ce5a8234f03834d89780",
+      "watermarkedSha256": "e79672476c19566f160d355b0783ed067590f0498ee050b9365dfb8e89bb4dc1",
+      "originalBytes": 17042,
+      "bytes": 19378,
+      "width": 519,
+      "height": 640,
+      "format": "WEBP",
+      "centerTone": "dark",
+      "cornerTone": "dark",
+      "placements": [
+        {
+          "layer": "corner",
+          "box": [
+            260,
+            617,
+            510,
+            631
+          ],
+          "fontSize": 14,
+          "alpha": 176
+        },
+        {
+          "layer": "diagonal",
+          "box": [
+            9,
+            9,
+            205,
+            117
+          ],
+          "fontSize": 25,
+          "alpha": 64
+        }
+      ],
+      "protectedProductPixelsOverlaid": 0,
+      "quality": 85
+    },
+    {
+      "path": "assets/products/alibaba-20261023/grooved-concentric-reducers/features.webp",
+      "masterPath": ".watermark-backups/site-assets-original/alibaba-20261023/grooved-concentric-reducers/features.webp",
+      "originalSha256": "1ecd47f17e394d69a00fe8421bd9da0c8204390f2f0d3db197335577a2c34087",
+      "watermarkedSha256": "2aaa2b6f6f0ebc02e8c2a0153f97acfe6c2926a955852b0abe01e345084d85af",
+      "originalBytes": 39224,
+      "bytes": 40118,
+      "width": 750,
+      "height": 1000,
+      "format": "WEBP",
+      "centerTone": "dark",
+      "cornerTone": "dark",
+      "placements": [
+        {
+          "layer": "corner",
+          "box": [
+            385,
+            968,
+            737,
+            987
+          ],
+          "fontSize": 20,
+          "alpha": 176
+        },
+        {
+          "layer": "diagonal",
+          "box": [
+            13,
+            753,
+            444,
+            987
+          ],
+          "fontSize": 56,
+          "alpha": 64
+        }
+      ],
+      "protectedProductPixelsOverlaid": 0,
+      "quality": 85
+    },
+    {
+      "path": "assets/products/alibaba-20261023/grooved-concentric-reducers/hero.webp",
+      "masterPath": ".watermark-backups/site-assets-original/alibaba-20261023/grooved-concentric-reducers/hero.webp",
+      "originalSha256": "a3eff1f3df288568d6abaa1bd675233c8029f14a01a6ff7bbab5e50a95f057fa",
+      "watermarkedSha256": "86b8877358538f25b7727afe0219589fcac83e5dcb435d2973fe8cb59ee7ae54",
+      "originalBytes": 16434,
+      "bytes": 20008,
+      "width": 800,
+      "height": 800,
+      "format": "WEBP",
+      "centerTone": "dark",
+      "cornerTone": "dark",
+      "placements": [
+        {
+          "layer": "corner",
+          "box": [
+            402,
+            766,
+            786,
+            786
+          ],
+          "fontSize": 22,
+          "alpha": 176
+        },
+        {
+          "layer": "diagonal",
+          "box": [
+            323,
+            535,
+            786,
+            786
+          ],
+          "fontSize": 60,
+          "alpha": 64
+        }
+      ],
+      "protectedProductPixelsOverlaid": 0,
+      "quality": 85
+    },
+    {
+      "path": "assets/products/alibaba-20261023/grooved-equal-tees/features.webp",
+      "masterPath": ".watermark-backups/site-assets-original/alibaba-20261023/grooved-equal-tees/features.webp",
+      "originalSha256": "bd69fc84f9254e5491ed6397db9c7227581b4cbb4d5338b96f40a24b7c6f366c",
+      "watermarkedSha256": "dddf503c41f2c8afb1ee1579e02a615f730b60b31446b23a3b70ab61b4cf84cf",
+      "originalBytes": 52746,
+      "bytes": 50816,
+      "width": 750,
+      "height": 1000,
+      "format": "WEBP",
+      "centerTone": "dark",
+      "cornerTone": "dark",
+      "placements": [
+        {
+          "layer": "corner",
+          "box": [
+            385,
+            968,
+            737,
+            987
+          ],
+          "fontSize": 20,
+          "alpha": 176
+        },
+        {
+          "layer": "diagonal",
+          "box": [
+            354,
+            468,
+            727,
+            671
+          ],
+          "fontSize": 48,
+          "alpha": 64
+        }
+      ],
+      "protectedProductPixelsOverlaid": 0,
+      "quality": 85
+    },
+    {
+      "path": "assets/products/alibaba-20261023/grooved-equal-tees/hero.webp",
+      "masterPath": ".watermark-backups/site-assets-original/alibaba-20261023/grooved-equal-tees/hero.webp",
+      "originalSha256": "474c4c6fa02515af15214669c78a9adb07597ef0e392bbe0ca419dcba1f1b86e",
+      "watermarkedSha256": "a04d52ca98445e74a6309598e7caf9e4430c32cf3120309197ae8d7a5d7e8e07",
+      "originalBytes": 23326,
+      "bytes": 25638,
+      "width": 800,
+      "height": 800,
+      "format": "WEBP",
+      "centerTone": "dark",
+      "cornerTone": "dark",
+      "placements": [
+        {
+          "layer": "corner",
+          "box": [
+            402,
+            766,
+            786,
+            786
+          ],
+          "fontSize": 22,
+          "alpha": 176
+        },
+        {
+          "layer": "diagonal",
+          "box": [
+            323,
+            535,
+            786,
+            786
+          ],
+          "fontSize": 60,
+          "alpha": 64
+        }
+      ],
+      "protectedProductPixelsOverlaid": 0,
+      "quality": 85
+    },
+    {
+      "path": "assets/products/alibaba-20261023/grooved-flange-adapters/features.webp",
+      "masterPath": ".watermark-backups/site-assets-original/alibaba-20261023/grooved-flange-adapters/features.webp",
+      "originalSha256": "b5c0a223c2a47d1f43c971a33d2b5c0f2a75648303c49682132062dca64372b1",
+      "watermarkedSha256": "567a7fa9ea21f4d671fcb52044bd26f6eae71f3c36edeb9755cb99a827f3da0c",
+      "originalBytes": 52388,
+      "bytes": 51718,
+      "width": 750,
+      "height": 1000,
+      "format": "WEBP",
+      "centerTone": "dark",
+      "cornerTone": "dark",
+      "placements": [
+        {
+          "layer": "corner",
+          "box": [
+            385,
+            968,
+            737,
+            987
+          ],
+          "fontSize": 20,
+          "alpha": 176
+        },
+        {
+          "layer": "diagonal",
+          "box": [
+            292,
+            678,
+            723,
+            912
+          ],
+          "fontSize": 56,
+          "alpha": 64
+        }
+      ],
+      "protectedProductPixelsOverlaid": 0,
+      "quality": 85
+    },
+    {
+      "path": "assets/products/alibaba-20261023/grooved-flange-adapters/hero.webp",
+      "masterPath": ".watermark-backups/site-assets-original/alibaba-20261023/grooved-flange-adapters/hero.webp",
+      "originalSha256": "33f97d4e7587435bcb6f69581d658a329addcc4df4093da56da43ad9f0b5fe92",
+      "watermarkedSha256": "5077f5e8b71249b7f674482fab1a62a2c64fc0118617dee5b2a47e12be9ef16f",
+      "originalBytes": 20466,
+      "bytes": 24142,
+      "width": 800,
+      "height": 800,
+      "format": "WEBP",
+      "centerTone": "dark",
+      "cornerTone": "dark",
+      "placements": [
+        {
+          "layer": "corner",
+          "box": [
+            402,
+            766,
+            786,
+            786
+          ],
+          "fontSize": 22,
+          "alpha": 176
+        },
+        {
+          "layer": "diagonal",
+          "box": [
+            323,
+            535,
+            786,
+            786
+          ],
+          "fontSize": 60,
+          "alpha": 64
+        }
+      ],
+      "protectedProductPixelsOverlaid": 0,
+      "quality": 85
+    },
+    {
+      "path": "assets/products/alibaba-20261023/horizontal-single-stage-fire-pumps/features.webp",
+      "masterPath": ".watermark-backups/site-assets-original/alibaba-20261023/horizontal-single-stage-fire-pumps/features.webp",
+      "originalSha256": "18b5bca837fb45d1c117b72182c6fc8cf11e2eff15056eed5959bde63821c633",
+      "watermarkedSha256": "6ccdb16a6a97f89916c6336297494871243662cef6042dd98d682d99b5ba7dfa",
+      "originalBytes": 69096,
+      "bytes": 65284,
+      "width": 750,
+      "height": 1000,
+      "format": "WEBP",
+      "centerTone": "light",
+      "cornerTone": "dark",
+      "placements": [
+        {
+          "layer": "corner",
+          "box": [
+            385,
+            968,
+            737,
+            987
+          ],
+          "fontSize": 20,
+          "alpha": 176
+        },
+        {
+          "layer": "diagonal",
+          "box": [
+            354,
+            678,
+            680,
+            854
+          ],
+          "fontSize": 42,
+          "alpha": 64
+        }
+      ],
+      "protectedProductPixelsOverlaid": 0,
+      "quality": 85
+    },
+    {
+      "path": "assets/products/alibaba-20261023/horizontal-single-stage-fire-pumps/hero.webp",
+      "masterPath": ".watermark-backups/site-assets-original/alibaba-20261023/horizontal-single-stage-fire-pumps/hero.webp",
+      "originalSha256": "9d65e85b07413b899e8f3d6d9cafad28849f042d8d22483c9ec3256863a7e4cf",
+      "watermarkedSha256": "b7c5934007db42cb459eabb4bf4dd174a03995603bc2b7fc2f41031da9146224",
+      "originalBytes": 48968,
+      "bytes": 49344,
+      "width": 800,
+      "height": 800,
+      "format": "WEBP",
+      "centerTone": "light",
+      "cornerTone": "dark",
+      "placements": [
+        {
+          "layer": "corner",
+          "box": [
+            402,
+            766,
+            786,
+            786
+          ],
+          "fontSize": 22,
+          "alpha": 176
+        },
+        {
+          "layer": "diagonal",
+          "box": [
+            323,
+            535,
+            786,
+            786
+          ],
+          "fontSize": 60,
+          "alpha": 64
+        }
+      ],
+      "protectedProductPixelsOverlaid": 0,
+      "quality": 85
+    },
+    {
+      "path": "assets/products/alibaba-20261023/threaded-mechanical-tees/features.webp",
+      "masterPath": ".watermark-backups/site-assets-original/alibaba-20261023/threaded-mechanical-tees/features.webp",
+      "originalSha256": "6b730a0d098da4a41c9b99653d547bfe4bf3e5854b5a89a336a824e0e3023e71",
+      "watermarkedSha256": "a67e08417820823093951cb2a9d79e020a05e755aa956c31fc024437ae14a968",
+      "originalBytes": 59426,
+      "bytes": 58222,
+      "width": 750,
+      "height": 1000,
+      "format": "WEBP",
+      "centerTone": "dark",
+      "cornerTone": "dark",
+      "placements": [
+        {
+          "layer": "corner",
+          "box": [
+            385,
+            968,
+            737,
+            987
+          ],
+          "fontSize": 20,
+          "alpha": 176
+        },
+        {
+          "layer": "diagonal",
+          "box": [
+            13,
+            538,
+            444,
+            772
+          ],
+          "fontSize": 56,
+          "alpha": 64
+        }
+      ],
+      "protectedProductPixelsOverlaid": 0,
+      "quality": 85
+    },
+    {
+      "path": "assets/products/alibaba-20261023/threaded-mechanical-tees/hero.webp",
+      "masterPath": ".watermark-backups/site-assets-original/alibaba-20261023/threaded-mechanical-tees/hero.webp",
+      "originalSha256": "afe654faa1347e7665e2650b74c8bd424ee35454b4c7a877fc5f3dcc33a0343c",
+      "watermarkedSha256": "f2b195c2888ffa09ea859888188dc7576d2fe989c77cb1cf7c5c669a161bfd6a",
+      "originalBytes": 18832,
+      "bytes": 22032,
+      "width": 800,
+      "height": 800,
+      "format": "WEBP",
+      "centerTone": "dark",
+      "cornerTone": "dark",
+      "placements": [
+        {
+          "layer": "corner",
+          "box": [
+            402,
+            766,
+            786,
+            786
+          ],
+          "fontSize": 22,
+          "alpha": 176
+        },
+        {
+          "layer": "diagonal",
+          "box": [
+            323,
+            535,
+            786,
+            786
+          ],
+          "fontSize": 60,
+          "alpha": 64
+        }
+      ],
+      "protectedProductPixelsOverlaid": 0,
+      "quality": 85
+    },
+    {
+      "path": "assets/products/guanya-2026/diaphragm-deluge-valves-deluge-flanged-user-20261025-1600.webp",
+      "masterPath": ".watermark-backups/site-assets-original/guanya-2026/diaphragm-deluge-valves-deluge-flanged-user-20261025-1600.webp",
+      "originalSha256": "0ddd5952319542e2bfde58486f233660abeedcb1768c71df19a858e55fa10ee8",
+      "watermarkedSha256": "15359b45653d1c31874aa7e3b156fe170c81ddc1d36060e29a54636b85830f7a",
+      "originalBytes": 184830,
+      "bytes": 190430,
+      "width": 1600,
+      "height": 1591,
+      "format": "WEBP",
+      "centerTone": "dark",
+      "cornerTone": "dark",
+      "placements": [
+        {
+          "layer": "corner",
+          "box": [
+            820,
+            1527,
+            1571,
+            1562
+          ],
+          "fontSize": 43,
+          "alpha": 176
+        },
+        {
+          "layer": "diagonal",
+          "box": [
+            29,
+            29,
+            941,
+            520
+          ],
+          "fontSize": 119,
+          "alpha": 64
+        }
+      ],
+      "protectedProductPixelsOverlaid": 0,
+      "quality": 85
+    },
+    {
+      "path": "assets/products/guanya-2026/diaphragm-deluge-valves-deluge-flanged-user-20261025-640.webp",
+      "masterPath": ".watermark-backups/site-assets-original/guanya-2026/diaphragm-deluge-valves-deluge-flanged-user-20261025-640.webp",
+      "originalSha256": "0578924909e3e4365a7765e47bed2fafe9326a47bd8ce89ce5c00eb2d939ad03",
+      "watermarkedSha256": "0168b55ea91ca4d22687e931893b05c0ce3aea1ceea4f1947080680e0a5bffc0",
+      "originalBytes": 48610,
+      "bytes": 52216,
+      "width": 640,
+      "height": 636,
+      "format": "WEBP",
+      "centerTone": "dark",
+      "cornerTone": "dark",
+      "placements": [
+        {
+          "layer": "corner",
+          "box": [
+            333,
+            609,
+            629,
+            625
+          ],
+          "fontSize": 17,
+          "alpha": 176
+        },
+        {
+          "layer": "diagonal",
+          "box": [
+            11,
+            11,
+            384,
+            214
+          ],
+          "fontSize": 48,
+          "alpha": 64
+        }
+      ],
+      "protectedProductPixelsOverlaid": 0,
+      "quality": 85
     }
   ],
   "centerText": "CHUANWEI FIRE",
   "cornerText": "CHUANWEI FIRE · chuanweifire.com",
   "authorization": "User requested all newly added website product images be checked and watermarked on 2026-10-10.",
-  "count": 180,
+  "count": 300,
   "excluded": [
     "assets/products/sprinkler-trim/double-layer-escutcheon-640.webp",
     "assets/products/sprinkler-trim/double-layer-escutcheon-1600.webp",

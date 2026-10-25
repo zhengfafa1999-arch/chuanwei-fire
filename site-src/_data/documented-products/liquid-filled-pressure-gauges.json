@@ -20,7 +20,20 @@
     ],
     "notes": [
       "不采用“威卡款”作为WIKA品牌或授权；不宣称未核验CE，不采用网页250MPa总量程，实际SKU最高正压100 MPa。"
-    ]
+    ],
+    "generalTechnicalReference": {
+      "url": "https://blog.wika.com/en/products/filling-liquids-pressure-gauges-usage-advantages/",
+      "reviewedAt": "2026-10-25",
+      "scope": "General operating principle or selection guidance only; no numeric specification or certification transferred from the reference manufacturer."
+    },
+    "marketReference": {
+      "grade": "C-other-manufacturer-or-series-reference",
+      "reviewDate": "2026-10-25",
+      "url": "https://www.wika.com/media/Data-sheets/Pressure/Pressure-gauges/ds_pm0212_en_co.pdf",
+      "model": "WIKA 213.53 · NS100",
+      "location": "PM 02.12, pressure limitation table",
+      "scope": "Selection reference only; no supplied-SKU specification, certification, compatibility or availability inferred."
+    }
   },
   "publication": {
     "status": "release-candidate",
@@ -275,7 +288,7 @@
       "inquiryTitle": "Request product details and a quotation",
       "inquiryBody": "Send your selected configuration, quantity and destination.",
       "title": "Liquid-filled Pressure Gauges",
-      "lead": "The YN100BF is a liquid-filled analog gauge with a stainless steel case, a 100 mm nominal dial and M20x1.5 bottom connection. Choose the required measuring range from the individual options.",
+      "lead": "The YN100BF is a liquid-filled analog gauge with a stainless steel case, a 100 mm nominal dial and M20x1.5 bottom connection. Case filling helps damp movement caused by vibration. Choose the measuring range for the operating pressure.",
       "eyebrow": "Accessories",
       "seoTitle": "Liquid-filled Pressure Gauges | CHUANWEI FIRE",
       "seoDescription": "The YN100BF is a liquid-filled analog gauge with a stainless steel case, a 100 mm nominal dial and M20x1.5 bottom connection. Choose the required measuring range from the individual options.",
@@ -371,7 +384,16 @@
       "selection0Label": "Measuring range",
       "selection0Body": "Specify the required scale range and normal and maximum working pressure; each listed range is a separate gauge option.",
       "selection1Label": "Process connection and fluid",
-      "selection1Body": "Provide the mating thread drawing, working fluid, temperature and required wetted-part material."
+      "selection1Body": "Provide the mating thread drawing, working fluid, process and ambient temperatures, and required wetted-part material. Specify the case-fill fluid separately from the process fluid.",
+      "referenceHeading": "Selection reference",
+      "referenceScope": "The manufacturer example below helps you specify an enquiry. Its values describe the named reference model, not the CHUANWEI product pictured above. Request the offered model’s datasheet for your order.",
+      "referenceSource": "Manufacturer reference",
+      "reference0Title": "WIKA 213.53 · NS100",
+      "reference0Note": "FS means full scale. These limits are for the 100 mm reference model; smaller dial sizes have different limits.",
+      "reference0Row0Label": "Steady pressure limit",
+      "reference0Row0Value": "100% FS",
+      "reference0Row1Label": "Fluctuating pressure limit",
+      "reference0Row1Value": "90% FS"
     },
     "ar": {
       "onThisPage": "في هذه الصفحة",
@@ -404,7 +426,7 @@
       "inquiryTitle": "اطلب تفاصيل المنتج وعرض سعر",
       "inquiryBody": "أرسل التكوين المختار والكمية والوجهة.",
       "title": "مقاييس ضغط مملوءة بالسائل",
-      "lead": "YN100BF مقياس تناظري مملوء بالسائل، بهيكل من الستانلس ستيل وقرص بقطر اسمي 100 mm وتوصيل سفلي M20x1.5. اختر مجال القياس المطلوب من الخيارات المستقلة.",
+      "lead": "مقياس YN100BF تناظري مملوء بسائل، بغلاف من الفولاذ المقاوم للصدأ وقرص اسمي 100 mm ووصلة سفلية M20x1.5. يساعد سائل الغلاف على تخميد الحركة الناتجة عن الاهتزاز. اختر نطاق القياس وفق ضغط التشغيل.",
       "eyebrow": "الملحقات",
       "seoTitle": "مقاييس ضغط مملوءة بالسائل | CHUANWEI FIRE",
       "seoDescription": "YN100BF مقياس تناظري مملوء بالسائل، بهيكل من الستانلس ستيل وقرص بقطر اسمي 100 mm وتوصيل سفلي M20x1.5. اختر مجال القياس المطلوب من الخيارات المستقلة.",
@@ -500,7 +522,35 @@
       "selection0Label": "مجال القياس",
       "selection0Body": "حدد مجال التدريج المطلوب وضغط التشغيل المعتاد والأقصى؛ كل مجال مدرج خيار مستقل للمقياس.",
       "selection1Label": "توصيل العملية والمائع",
-      "selection1Body": "قدم رسم السن المقابل والمائع ودرجة الحرارة ومادة الأجزاء الملامسة للمائع المطلوبة."
+      "selection1Body": "قدم رسم القلاوظ المطابق ووسط التشغيل ودرجات حرارة الوسط والمحيط ومادة الأجزاء الملامسة للوسط المطلوبة. حدد سائل ملء الغلاف بصورة منفصلة عن وسط التشغيل.",
+      "referenceHeading": "مرجع الاختيار",
+      "referenceScope": "يساعد المثال التالي من الشركة المصنّعة المذكورة في تحديد متطلبات الاستفسار. القيم تخص الطراز المرجعي المذكور، ولا تمثل مواصفات منتج CHUANWEI المصوّر أعلاه. اطلب ورقة بيانات الطراز المعروض لطلبك.",
+      "referenceSource": "مرجع الشركة المصنّعة",
+      "reference0Title": "WIKA 213.53 · NS100",
+      "reference0Note": "FS تعني نهاية نطاق القياس. هذه الحدود تخص الطراز المرجعي بقطر 100 مم؛ تختلف حدود المقاسات الأصغر.",
+      "reference0Row0Label": "حد الضغط الثابت",
+      "reference0Row0Value": "100% FS",
+      "reference0Row1Label": "حد الضغط المتذبذب",
+      "reference0Row1Value": "90% FS"
     }
-  }
+  },
+  "referenceExamples": [
+    {
+      "title": "reference0Title",
+      "rows": [
+        {
+          "label": "reference0Row0Label",
+          "value": "reference0Row0Value",
+          "technical": true
+        },
+        {
+          "label": "reference0Row1Label",
+          "value": "reference0Row1Value",
+          "technical": true
+        }
+      ],
+      "note": "reference0Note",
+      "url": "https://www.wika.com/media/Data-sheets/Pressure/Pressure-gauges/ds_pm0212_en_co.pdf"
+    }
+  ]
 }

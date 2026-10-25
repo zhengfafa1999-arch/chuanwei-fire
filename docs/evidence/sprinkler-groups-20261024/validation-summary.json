@@ -1,0 +1,467 @@
+{
+  "date": "2026-10-24",
+  "scope": "17 sprinkler series, two new K115 standard/quick-response 68°C bilingual details and category images, EC photograph separation, earlier K80 photo updates and accessory category, four concealed series 68°C covered/exposed category composites, six K115 quick-response sidewall lower-gallery photographs, six K115 standard-response sidewall/upright lower-gallery photographs, four independent concealed detail routes with isolated media and exact-model supplements, eight K80 standard concealed different-temperature paired photographs, eight K80 quick-response concealed temperature-pair photographs, eight K115 standard-response concealed temperature-pair photographs, eight K115 quick-response concealed temperature-pair photographs, independent large-K and ESFR detail pages with scoped model tables, media and search destinations, foam-water nozzles nested in the Fire Sprinklers browsing group",
+  "status": "PASS",
+  "build": {
+    "command": "npm run build",
+    "exitCode": 0,
+    "publishedPages": 281,
+    "log": "foam-under-sprinklers/build.log"
+  },
+  "searchAssertions": 223,
+  "sprinklerSeries": {
+    "groups": 17,
+    "inquiryOnlyGroups": 0,
+    "detailAnchors": 0,
+    "newK115Routes": 2,
+    "independentConcealedRoutes": 4,
+    "legacyConcealedAnchorsPreserved": 4,
+    "independentLargeKEsfrRoutes": 2,
+    "legacyLargeKEsfrAnchorsPreserved": 2
+  },
+  "categoryBrowser": {
+    "navigationScenarios": 56,
+    "locales": [
+      "en",
+      "ar"
+    ],
+    "viewports": [
+      "desktop",
+      "mobile"
+    ],
+    "report": "k115-category/category-validation.json",
+    "newK115DetailClicks": 8
+  },
+  "browseGroupsBrowser": {
+    "scenarios": 4,
+    "localizedHomepages": 3,
+    "accessories": 4,
+    "evidence": "browse-groups/"
+  },
+  "discoveryBrowser": {
+    "pageViewportChecks": 28,
+    "referencePhotoChecks": 8,
+    "configurationPhotoLinks": 56,
+    "evidence": "discovery/"
+  },
+  "sidewallPhotoUpdate": {
+    "status": "PASS",
+    "sourceMatchesAttachmentSha256": "21886c656cdb3979e47c7e89363e199f84ea2bdb03af622a59975f5fb43a2c5e",
+    "buildExitCode": 0,
+    "bilingualDesktopMobileGalleryScenarios": 4,
+    "report": "quick-sidewall/product-validation.json",
+    "removedFromGallery": "Representative product packing",
+    "replacement": "K-ZSTBS 80-68°C Q3A horizontal sidewall"
+  },
+  "release": {
+    "files": 403,
+    "archiveBytes": 10119088,
+    "archiveSha256": "4c018e373dd413c3071508b50b775341a66f77ec26151d2475468e49257b5abf",
+    "manifestMatchesCurrentFiles": true,
+    "allNewPhotoAssetsIncluded": true
+  },
+  "deployment": "not-deployed; user deploys",
+  "git": "changes not committed or pushed",
+  "additionalQuickPhotos": {
+    "status": "PASS",
+    "suppliedOriginals": 6,
+    "addedWebAssets": 12,
+    "lowerPhotoCount": 9,
+    "mainGalleryCount": 3,
+    "originalWebAssetsPreserved": 110,
+    "buildExitCode": 0,
+    "bilingualDesktopMobileScenarios": 4,
+    "decodedPhotoChecks": 36,
+    "newPhotoModalChecks": 24,
+    "report": "quick-extra-photos/gallery-validation.json",
+    "mainGalleryReport": "quick-extra-photos/product-validation.json",
+    "buildLog": "quick-extra-photos/build.log"
+  },
+  "temperatureCaptionUpdate": {
+    "status": "PASS",
+    "source": "explicit user confirmation",
+    "confirmedSamples": [
+      {
+        "sourceFile": "DSC_5845.jpg",
+        "temperatureC": 93,
+        "color": "green"
+      },
+      {
+        "sourceFile": "DSC_5848.jpg",
+        "temperatureC": 141,
+        "color": "blue"
+      },
+      {
+        "sourceFile": "DSC_5851.jpg",
+        "temperatureC": 182,
+        "color": "purple"
+      },
+      {
+        "sourceFile": "DSC_5854.jpg",
+        "temperatureC": 260,
+        "color": "black"
+      },
+      {
+        "sourceFile": "DSC_5836.jpg",
+        "temperatureC": 79,
+        "color": "light-yellow"
+      }
+    ],
+    "buildExitCode": 0,
+    "bilingualDesktopMobileScenarios": 4,
+    "report": "quick-extra-photos/gallery-validation.json",
+    "buildLog": "quick-extra-photos/temperature-captions-build.log"
+  },
+  "k115ProductUpdate": {
+    "status": "PASS",
+    "responseTypes": [
+      "standard",
+      "quick"
+    ],
+    "confirmedMetricKFactor": 115,
+    "confirmedTemperatureC": 68,
+    "configurationsPerSeries": 3,
+    "sourceAttachments": 6,
+    "localizedPagesAdded": 4,
+    "mainGalleryScenarios": 12,
+    "report": "k115-details/product-validation.json",
+    "visualReview": "k115-details/visual-review.json",
+    "ecPhotos": "Restored separate EC-ZST-marked photographs; specifications unchanged",
+    "assetVerification": "k115-details/asset-verification.json"
+  },
+  "concealedCompositeUpdate": {
+    "status": "PASS",
+    "groups": 4,
+    "sourceAttachments": 8,
+    "temperatureC": 68,
+    "categoryOnly": true,
+    "buildExitCode": 0,
+    "bilingualDesktopMobileScenarios": 8,
+    "cardChecks": 32,
+    "otherTemperatureSearchChecks": 16,
+    "browserReport": "concealed-composites/browser-validation.json",
+    "imageEvidence": "../../release/concealed-series-composites-20261024/composition-manifest.json",
+    "visualReview": "en-sprinklers-desktop-cards.png and ar-sprinklers-mobile-cards.png reviewed; both product views fully visible and captions wrap correctly",
+    "packagedThumbnails": [
+      {
+        "source": "assets/products/concealed-series/k80-standard-concealed-covered-and-exposed.webp",
+        "output": "assets/catalog-thumbnails/74a0e50122b8670c3b188051-480.webp",
+        "sourceBytes": 128942,
+        "thumbnailBytes": 26604
+      },
+      {
+        "source": "assets/products/concealed-series/k80-quick-concealed-covered-and-exposed.webp",
+        "output": "assets/catalog-thumbnails/d1dca2a9588ffd54bf5fa80a-480.webp",
+        "sourceBytes": 123204,
+        "thumbnailBytes": 24706
+      },
+      {
+        "source": "assets/products/concealed-series/k115-standard-concealed-covered-and-exposed.webp",
+        "output": "assets/catalog-thumbnails/fdb52efccef2600c64945d79-480.webp",
+        "sourceBytes": 149210,
+        "thumbnailBytes": 28500
+      },
+      {
+        "source": "assets/products/concealed-series/k115-quick-concealed-covered-and-exposed.webp",
+        "output": "assets/catalog-thumbnails/334260eb72c532721a208fc7-480.webp",
+        "sourceBytes": 120130,
+        "thumbnailBytes": 24412
+      }
+    ],
+    "deployment": "not-deployed"
+  },
+  "k115QuickAdditionalPhotos": {
+    "status": "PASS",
+    "sourceAttachments": 6,
+    "newWebAssets": 12,
+    "lowerGalleryTotal": 9,
+    "mainGalleryCount": 3,
+    "previousPhotoAssetsPreserved": 128,
+    "technicalProductDataUnchanged": true,
+    "temperaturesC": [
+      57,
+      182,
+      141,
+      79,
+      260,
+      93
+    ],
+    "bilingualDesktopMobileScenarios": 4,
+    "decodedPhotoChecks": 36,
+    "newPhotoModalChecks": 24,
+    "report": "k115-quick-extra-photos/gallery-validation.json",
+    "buildLog": "k115-quick-extra-photos/build.log",
+    "visualReview": "English desktop row and Arabic mobile 260°C photo reviewed; complete products, legible captions, whitespace watermarks",
+    "all12AssetsVerifiedInPackage": true
+  },
+  "k115StandardAdditionalPhotos": {
+    "status": "PASS",
+    "sourceAttachments": 6,
+    "newWebAssets": 12,
+    "lowerGalleryTotal": 9,
+    "mainGalleryCount": 3,
+    "previousPhotoAssetsPreserved": 140,
+    "technicalProductDataUnchanged": true,
+    "temperaturesC": [
+      182,
+      141,
+      57,
+      79,
+      260,
+      93
+    ],
+    "orientations": [
+      "sidewall",
+      "sidewall",
+      "sidewall",
+      "upright",
+      "sidewall",
+      "upright"
+    ],
+    "bilingualDesktopMobileScenarios": 4,
+    "decodedPhotoChecks": 36,
+    "newPhotoModalChecks": 24,
+    "report": "k115-standard-extra-photos/gallery-validation.json",
+    "buildLog": "k115-standard-extra-photos/build.log",
+    "visualReview": "English desktop lower row and Arabic mobile upright93 photo reviewed; correct orientation captions, complete product views, whitespace watermarks",
+    "all12AssetsVerifiedInPackage": true
+  },
+  "independentConcealedDetails": {
+    "status": "PASS",
+    "independentRoutes": 4,
+    "localizedPagesAdded": 8,
+    "sourcePicturesReused": 8,
+    "realPhotoWebAssetsAdded": 8,
+    "allPreviousProductImagesPreserved": true,
+    "directoryViewportScenarios": 8,
+    "directoryCardsVerified": 32,
+    "otherTemperatureSearchChecks": 16,
+    "detailViewportScenarios": 16,
+    "languageSwitchesVerified": 16,
+    "routingReport": "concealed-independent-details/browser-validation.json",
+    "detailReport": "concealed-independent-details/product-details/product-validation.json",
+    "scopeReport": "concealed-independent-details/scope-validation.json",
+    "buildLog": "concealed-independent-details/build.log",
+    "releaseAssetsAndEightPagesVerified": true,
+    "destinations": [
+      {
+        "seriesId": "k80-standard-concealed",
+        "productId": "k80-standard-response-concealed-sprinkler"
+      },
+      {
+        "seriesId": "k80-quick-concealed",
+        "productId": "k80-quick-response-concealed-sprinkler"
+      },
+      {
+        "seriesId": "k115-standard-concealed",
+        "productId": "k115-standard-response-concealed-sprinkler"
+      },
+      {
+        "seriesId": "k115-quick-concealed",
+        "productId": "k115-quick-response-concealed-sprinkler"
+      }
+    ]
+  },
+  "k80StandardConcealedTemperatures": {
+    "status": "PASS",
+    "routeId": "product:k80-standard-response-concealed-sprinkler",
+    "temperaturesC": [
+      57,
+      79,
+      93,
+      141
+    ],
+    "galleryCount": 8,
+    "newDerivativeAssets": 8,
+    "reusedDerivativeAssets": 8,
+    "preservedPriorPhotographAssets": 152,
+    "mainGalleryCount": 3,
+    "technicalProductDataUnchanged": true,
+    "referenceOrder": [
+      "DSC_5934.jpg",
+      "DSC_5933.jpg",
+      "DSC_5925.jpg",
+      "DSC_5923.jpg",
+      "concealed-k80-93c-covered.jpg",
+      "concealed-k80-93c-exposed.jpg",
+      "concealed-k80-141c-covered.jpg",
+      "concealed-k80-141c-exposed.jpg"
+    ],
+    "visualReview": [
+      "gallery-desktop-en-photo-1.png",
+      "gallery-mobile-ar-photo-8.png"
+    ],
+    "buildRecovery": "Initial file-access failures resolved by rerunning navigation normalization then every remaining original build step; remaining checks exit 0.",
+    "bilingualDesktopMobileScenarios": 4,
+    "decodedPhotoChecks": 32,
+    "photoModalChecks": 32,
+    "browserReport": "k80-standard-concealed-temperatures/gallery-validation.json",
+    "assetReport": "k80-standard-concealed-temperatures/asset-verification.json",
+    "zipDerivativeAssetsVerified": 8,
+    "unchangedBaselineDerivativeAssetsVerified": 8
+  },
+  "k80QuickConcealedTemperatures": {
+    "status": "PASS",
+    "routeId": "product:k80-quick-response-concealed-sprinkler",
+    "temperaturesC": [
+      57,
+      68,
+      93,
+      141
+    ],
+    "response": "quick / Q3A",
+    "galleryCount": 8,
+    "newDerivativeAssets": 16,
+    "preservedPriorProductAssets": 242,
+    "mainGalleryCount": 3,
+    "technicalProductDataUnchanged": true,
+    "allPrior80PhotographRecordsUnchanged": true,
+    "referenceOrder": [
+      "DSC_5954.jpg",
+      "DSC_5953.jpg",
+      "DSC_5950.jpg",
+      "DSC_5949.jpg",
+      "DSC_5942.jpg",
+      "DSC_5941.jpg",
+      "DSC_5938.jpg",
+      "DSC_5937.jpg"
+    ],
+    "noOtherSeriesPhotographsInLowerGallery": true,
+    "bilingualDesktopMobileScenarios": 4,
+    "decodedPhotoChecks": 32,
+    "photoModalChecks": 32,
+    "browserReport": "k80-quick-concealed-temperatures/gallery-validation.json",
+    "assetReport": "k80-quick-concealed-temperatures/asset-verification.json",
+    "visualReview": "k80-quick-concealed-temperatures/visual-review.json",
+    "zipDerivativeAssetsVerified": 16,
+    "localizedPagesVerifiedInZip": 2
+  },
+  "k115StandardConcealedTemperatures": {
+    "status": "PASS",
+    "routeId": "product:k115-standard-response-concealed-sprinkler",
+    "temperaturesC": [
+      57,
+      79,
+      93,
+      141
+    ],
+    "response": "standard / Q5A",
+    "galleryCount": 8,
+    "newDerivativeAssets": 12,
+    "reusedDerivativeAssets": 4,
+    "preservedPriorProductAssets": 258,
+    "priorPhotographRecordsPreserved": 88,
+    "mainGalleryCount": 3,
+    "technicalProductDataUnchanged": true,
+    "referenceOrder": [
+      "concealed-k115-57c-covered.jpg",
+      "concealed-k115-57c-exposed.jpg",
+      "DSC_5921.jpg",
+      "DSC_5920.jpg",
+      "DSC_5915.jpg",
+      "DSC_5914.jpg",
+      "DSC_5913.jpg",
+      "DSC_5912.jpg"
+    ],
+    "noOtherSeriesPhotographsInLowerGallery": true,
+    "bilingualDesktopMobileScenarios": 4,
+    "decodedPhotoChecks": 32,
+    "photoModalChecks": 32,
+    "browserReport": "k115-standard-concealed-temperatures/gallery-validation.json",
+    "assetReport": "k115-standard-concealed-temperatures/asset-verification.json",
+    "visualReview": "k115-standard-concealed-temperatures/visual-review.json",
+    "releaseReport": "k115-standard-concealed-temperatures/release-verification.json",
+    "zipDerivativeAssetsVerified": 12,
+    "unchangedBaselineDerivativeAssetsVerified": 4,
+    "localizedPagesVerifiedInZip": 2
+  },
+  "k115QuickConcealedTemperatures": {
+    "status": "PASS",
+    "routeId": "product:k115-quick-response-concealed-sprinkler",
+    "temperaturesC": [
+      57,
+      68,
+      93,
+      141
+    ],
+    "response": "quick / Q3A",
+    "galleryCount": 8,
+    "newDerivativeAssets": 16,
+    "reusedDerivativeAssets": 0,
+    "preservedPriorProductAssets": 276,
+    "mainGalleryCount": 3,
+    "technicalProductDataUnchanged": true,
+    "priorPhotographRecordsPreserved": 94,
+    "referenceOrder": [
+      "DSC_5952.jpg",
+      "DSC_5951.jpg",
+      "DSC_5948.jpg",
+      "DSC_5947.jpg",
+      "DSC_5940.jpg",
+      "DSC_5939.jpg",
+      "DSC_5936.jpg",
+      "DSC_5935.jpg"
+    ],
+    "noOtherSeriesPhotographsInLowerGallery": true,
+    "bilingualDesktopMobileScenarios": 4,
+    "decodedPhotoChecks": 32,
+    "photoModalChecks": 32,
+    "browserReport": "k115-quick-concealed-temperatures/gallery-validation.json",
+    "assetReport": "k115-quick-concealed-temperatures/asset-verification.json",
+    "visualReview": "k115-quick-concealed-temperatures/visual-review.json",
+    "releaseReport": "k115-quick-concealed-temperatures/release-verification.json",
+    "zipDerivativeAssetsVerified": 16,
+    "localizedPagesVerifiedInZip": 2
+  },
+  "largeKEsfrIndependentDetails": {
+    "status": "PASS",
+    "detailScenarios": 8,
+    "galleryModalChecks": 36,
+    "listingScenarios": 8,
+    "modelSearchChecks": 12,
+    "newLocalizedPages": 4,
+    "modelRowsPerPage": 6,
+    "galleryCounts": [
+      5,
+      4
+    ],
+    "evidence": "large-k-esfr-independent/",
+    "buildAttempts": "Initial Windows thumbnail-write failure and an empty photo-list validation mismatch were resolved before the passing full build."
+  },
+  "waterMistDirectoryImage": {
+    "status": "PASS",
+    "localizedDirectoryAndCategoryPages": 4,
+    "source": "products/消防喷头/water-mist-nozzles/water-mist-nozzle-with-inlet-strainer.jpg",
+    "evidence": "water-mist-directory-image/",
+    "archiveVerified": true
+  },
+  "waterMistPhoto": {
+    "status": "PASS",
+    "classification": "Water Mist Nozzles; user-confirmed",
+    "newPhotographs": 1,
+    "localizedDetails": 2,
+    "browserScenarios": 4,
+    "imageAndZoomChecks": "PASS",
+    "visualReview": "English mobile screenshot reviewed: complete product, legible caption, no horizontal overflow.",
+    "unchangedModelData": true,
+    "newAssetsVerifiedInArchive": 2,
+    "archiveSha256": "acc6c435059be97d2541bf330c7d617dbbadc92551059b051775787411d74416",
+    "deployed": false,
+    "evidence": "water-mist-photo/"
+  },
+  "foamUnderSprinklers": {
+    "status": "PASS",
+    "browseGroup": "sprinklers-nozzles",
+    "topLevelGroups": 14,
+    "members": [
+      "sprinklers",
+      "foam-nozzles"
+    ],
+    "products": 19,
+    "originalFoamCategoryPreserved": true,
+    "independentFoamDetails": 2,
+    "bilingualViewportScenarios": 4,
+    "localizedHomepages": 3,
+    "evidence": "foam-under-sprinklers/browser-validation.json"
+  }
+}

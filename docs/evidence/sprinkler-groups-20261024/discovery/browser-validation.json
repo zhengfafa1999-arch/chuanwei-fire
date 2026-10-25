@@ -1,0 +1,195 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "file": "products.html",
+      "width": 1440,
+      "status": "PASS"
+    },
+    {
+      "file": "products.html",
+      "width": 768,
+      "status": "PASS"
+    },
+    {
+      "file": "products.html",
+      "width": 390,
+      "status": "PASS"
+    },
+    {
+      "file": "products.html",
+      "width": 320,
+      "status": "PASS"
+    },
+    {
+      "file": "ar/products.html",
+      "width": 1440,
+      "status": "PASS"
+    },
+    {
+      "file": "ar/products.html",
+      "width": 768,
+      "status": "PASS"
+    },
+    {
+      "file": "ar/products.html",
+      "width": 390,
+      "status": "PASS"
+    },
+    {
+      "file": "ar/products.html",
+      "width": 320,
+      "status": "PASS"
+    },
+    {
+      "file": "index.html",
+      "width": 1440,
+      "status": "PASS"
+    },
+    {
+      "file": "index.html",
+      "width": 768,
+      "status": "PASS"
+    },
+    {
+      "file": "index.html",
+      "width": 390,
+      "status": "PASS"
+    },
+    {
+      "file": "index.html",
+      "width": 320,
+      "status": "PASS"
+    },
+    {
+      "file": "ar/index.html",
+      "width": 1440,
+      "status": "PASS"
+    },
+    {
+      "file": "ar/index.html",
+      "width": 768,
+      "status": "PASS"
+    },
+    {
+      "file": "ar/index.html",
+      "width": 390,
+      "status": "PASS"
+    },
+    {
+      "file": "ar/index.html",
+      "width": 320,
+      "status": "PASS"
+    },
+    {
+      "file": "zh/index.html",
+      "width": 1440,
+      "status": "PASS"
+    },
+    {
+      "file": "zh/index.html",
+      "width": 768,
+      "status": "PASS"
+    },
+    {
+      "file": "zh/index.html",
+      "width": 390,
+      "status": "PASS"
+    },
+    {
+      "file": "zh/index.html",
+      "width": 320,
+      "status": "PASS"
+    },
+    {
+      "file": "products/消防喷头/fusible-alloy-fire-sprinklers.html",
+      "width": 1440,
+      "status": "PASS"
+    },
+    {
+      "file": "products/消防喷头/fusible-alloy-fire-sprinklers.html",
+      "width": 768,
+      "status": "PASS"
+    },
+    {
+      "file": "products/消防喷头/fusible-alloy-fire-sprinklers.html",
+      "width": 390,
+      "status": "PASS"
+    },
+    {
+      "file": "products/消防喷头/fusible-alloy-fire-sprinklers.html",
+      "width": 320,
+      "status": "PASS"
+    },
+    {
+      "file": "ar/products/fusible-alloy-fire-sprinklers/index.html",
+      "width": 1440,
+      "status": "PASS"
+    },
+    {
+      "file": "ar/products/fusible-alloy-fire-sprinklers/index.html",
+      "width": 768,
+      "status": "PASS"
+    },
+    {
+      "file": "ar/products/fusible-alloy-fire-sprinklers/index.html",
+      "width": 390,
+      "status": "PASS"
+    },
+    {
+      "file": "ar/products/fusible-alloy-fire-sprinklers/index.html",
+      "width": 320,
+      "status": "PASS"
+    }
+  ],
+  "referencePhotoChecks": [
+    {
+      "file": "products.html",
+      "query": "ZSTDY80-141°C Q5A",
+      "status": "PASS",
+      "caption": "Reference photo: Concealed K80 / 93°C sprinkler — cover fitted"
+    },
+    {
+      "file": "products.html",
+      "query": "ZSTDY115-79°C Q5A",
+      "status": "PASS",
+      "caption": "Reference photo: Concealed K115 / 57°C sprinkler — cover fitted"
+    },
+    {
+      "file": "products.html",
+      "query": "ZSTDY115-93°C Q5A",
+      "status": "PASS",
+      "caption": "Reference photo: Concealed K115 / 57°C sprinkler — cover fitted"
+    },
+    {
+      "file": "products.html",
+      "query": "ZSTDY80-93°C Q3A",
+      "status": "PASS",
+      "caption": "Reference photo: Concealed mechanism reference only; request a photograph of your selected model."
+    },
+    {
+      "file": "ar/products.html",
+      "query": "ZSTDY80-141°C Q5A",
+      "status": "PASS",
+      "caption": "صورة مرجعية: رشاش مخفي K80 / 93°C — الغطاء مركب"
+    },
+    {
+      "file": "ar/products.html",
+      "query": "ZSTDY115-79°C Q5A",
+      "status": "PASS",
+      "caption": "صورة مرجعية: رشاش مخفي K115 / 57°C — الغطاء مركب"
+    },
+    {
+      "file": "ar/products.html",
+      "query": "ZSTDY115-93°C Q5A",
+      "status": "PASS",
+      "caption": "صورة مرجعية: رشاش مخفي K115 / 57°C — الغطاء مركب"
+    },
+    {
+      "file": "ar/products.html",
+      "query": "ZSTDY80-93°C Q3A",
+      "status": "PASS",
+      "caption": "صورة مرجعية: صورة مرجعية للآلية المخفية فقط؛ اطلب صورة للموديل الذي اخترته."
+    }
+  ]
+}

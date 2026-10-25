@@ -1,0 +1,122 @@
+{
+  "status": "confirmed",
+  "scope": "CHUANWEI FIRE official website public display",
+  "date": "2026-10-25",
+  "userInstruction": "阿里国际站自动上品，这个窗口新增加了几个产品，这些产品也放到官网上，资料你可以看看D:\\work\\codex\\外部商品连接内容\\10.23，和阿里国际站生产的图片内容",
+  "priorPhotoAuthorization": {
+    "threadId": "01a166c1-bfe9-78e1-a269-f1ab77b4d0c0",
+    "verbatim": "照片可使用，按 CHUANWEI FIRE 制作"
+  },
+  "images": [
+    {
+      "productId": "grooved-concentric-reducers",
+      "path": "assets/products/alibaba-20261023/grooved-concentric-reducers/hero.webp",
+      "sha256": "86b8877358538f25b7727afe0219589fcac83e5dcb435d2973fe8cb59ee7ae54",
+      "sourcePath": "D:\\work\\codex\\阿里国际站运营\\outputs\\alibaba-detail-image-studio\\沟槽同心异径管系列-消防沟槽大小头\\source\\05-白底原图.webp",
+      "sourceSha256": "029a29a6adb979c95cee6e72a9860dee39e9340ac33754e90e7884a9cb6702de",
+      "kind": "real-product-photo",
+      "unwatermarkedSha256": "a3eff1f3df288568d6abaa1bd675233c8029f14a01a6ff7bbab5e50a95f057fa",
+      "publishedTransform": "CHUANWEI FIRE text watermark in clear whitespace",
+      "watermarkRecord": "site-src/_data/product-watermarks.json"
+    },
+    {
+      "productId": "grooved-concentric-reducers",
+      "path": "assets/products/alibaba-20261023/grooved-concentric-reducers/features.webp",
+      "sha256": "2aaa2b6f6f0ebc02e8c2a0153f97acfe6c2926a955852b0abe01e345084d85af",
+      "sourcePath": "D:\\work\\codex\\阿里国际站运营\\outputs\\alibaba-detail-image-studio\\沟槽同心异径管系列-消防沟槽大小头\\images\\沟槽同心异径管系列-阿里国际站-07-结构识别详情图-en.png",
+      "sourceSha256": "3a49def874d7d6a9c3016aa5fd927a01ae534176aca1ca0eb00be2d6f2257dd8",
+      "kind": "existing-generated-product-feature-illustration",
+      "unwatermarkedSha256": "1ecd47f17e394d69a00fe8421bd9da0c8204390f2f0d3db197335577a2c34087",
+      "publishedTransform": "CHUANWEI FIRE text watermark in clear whitespace",
+      "watermarkRecord": "site-src/_data/product-watermarks.json"
+    },
+    {
+      "productId": "threaded-mechanical-tees",
+      "path": "assets/products/alibaba-20261023/threaded-mechanical-tees/hero.webp",
+      "sha256": "f2b195c2888ffa09ea859888188dc7576d2fe989c77cb1cf7c5c669a161bfd6a",
+      "sourcePath": "D:\\work\\codex\\阿里国际站运营\\outputs\\alibaba-detail-image-studio\\丝接机械三通系列-丝接机械三通\\source\\O1CN01LIQPmk2Jcx9SOEJev_!!2221026429443-0-cib.jpg_.webp",
+      "sourceSha256": "eb00f99c9b6dbb2988a38cc024383c29aa13e8dfec866c4e2cf6cb6efc9a8bd4",
+      "kind": "real-product-photo",
+      "unwatermarkedSha256": "afe654faa1347e7665e2650b74c8bd424ee35454b4c7a877fc5f3dcc33a0343c",
+      "publishedTransform": "CHUANWEI FIRE text watermark in clear whitespace",
+      "watermarkRecord": "site-src/_data/product-watermarks.json"
+    },
+    {
+      "productId": "threaded-mechanical-tees",
+      "path": "assets/products/alibaba-20261023/threaded-mechanical-tees/features.webp",
+      "sha256": "a67e08417820823093951cb2a9d79e020a05e755aa956c31fc024437ae14a968",
+      "sourcePath": "D:\\work\\codex\\阿里国际站运营\\outputs\\alibaba-detail-image-studio\\丝接机械三通系列-丝接机械三通\\images\\丝接机械三通系列-阿里国际站-07-产品概览详情图-en.jpg",
+      "sourceSha256": "d138ad7eae34236a9202b602de84c8c6d31e86a272b77c8d7feb8293cc6098b7",
+      "kind": "existing-generated-product-feature-illustration",
+      "unwatermarkedSha256": "6b730a0d098da4a41c9b99653d547bfe4bf3e5854b5a89a336a824e0e3023e71",
+      "publishedTransform": "CHUANWEI FIRE text watermark in clear whitespace",
+      "watermarkRecord": "site-src/_data/product-watermarks.json"
+    },
+    {
+      "productId": "grooved-equal-tees",
+      "path": "assets/products/alibaba-20261023/grooved-equal-tees/hero.webp",
+      "sha256": "a04d52ca98445e74a6309598e7caf9e4430c32cf3120309197ae8d7a5d7e8e07",
+      "sourcePath": "D:\\work\\codex\\阿里国际站运营\\outputs\\alibaba-detail-image-studio\\沟槽正三通系列-沟槽正三通\\source\\O1CN01fcaid22Jcx9SB2A5k_!!2221026429443-0-cib.jpg_.webp",
+      "sourceSha256": "4a41bbb3d4f4b82212406db65f1d9c6075aa2690ee056fd1a1c5bf8e744bf31c",
+      "kind": "real-product-photo",
+      "unwatermarkedSha256": "474c4c6fa02515af15214669c78a9adb07597ef0e392bbe0ca419dcba1f1b86e",
+      "publishedTransform": "CHUANWEI FIRE text watermark in clear whitespace",
+      "watermarkRecord": "site-src/_data/product-watermarks.json"
+    },
+    {
+      "productId": "grooved-equal-tees",
+      "path": "assets/products/alibaba-20261023/grooved-equal-tees/features.webp",
+      "sha256": "dddf503c41f2c8afb1ee1579e02a615f730b60b31446b23a3b70ab61b4cf84cf",
+      "sourcePath": "D:\\work\\codex\\阿里国际站运营\\outputs\\alibaba-detail-image-studio\\沟槽正三通系列-沟槽正三通\\images\\沟槽正三通系列-阿里国际站-07-产品概览详情图-en.jpg",
+      "sourceSha256": "2963859b270bdf1872e947850218569004cacb678920e99babb258c598431956",
+      "kind": "existing-generated-product-feature-illustration",
+      "unwatermarkedSha256": "bd69fc84f9254e5491ed6397db9c7227581b4cbb4d5338b96f40a24b7c6f366c",
+      "publishedTransform": "CHUANWEI FIRE text watermark in clear whitespace",
+      "watermarkRecord": "site-src/_data/product-watermarks.json"
+    },
+    {
+      "productId": "grooved-flange-adapters",
+      "path": "assets/products/alibaba-20261023/grooved-flange-adapters/hero.webp",
+      "sha256": "5077f5e8b71249b7f674482fab1a62a2c64fc0118617dee5b2a47e12be9ef16f",
+      "sourcePath": "D:\\work\\codex\\阿里国际站运营\\outputs\\alibaba-detail-image-studio\\沟槽转换法兰系列-消防管道转换法兰\\source\\05-白底原图.webp",
+      "sourceSha256": "ae12d59cae14f54a3860ae884965804ccc48b3846460d2e5917194830966052a",
+      "kind": "real-product-photo",
+      "unwatermarkedSha256": "33f97d4e7587435bcb6f69581d658a329addcc4df4093da56da43ad9f0b5fe92",
+      "publishedTransform": "CHUANWEI FIRE text watermark in clear whitespace",
+      "watermarkRecord": "site-src/_data/product-watermarks.json"
+    },
+    {
+      "productId": "grooved-flange-adapters",
+      "path": "assets/products/alibaba-20261023/grooved-flange-adapters/features.webp",
+      "sha256": "567a7fa9ea21f4d671fcb52044bd26f6eae71f3c36edeb9755cb99a827f3da0c",
+      "sourcePath": "D:\\work\\codex\\阿里国际站运营\\outputs\\alibaba-detail-image-studio\\沟槽转换法兰系列-消防管道转换法兰\\images\\沟槽转换法兰系列-阿里国际站-07-产品结构详情图-en.png",
+      "sourceSha256": "131fa404ffd897b54134d7619fc9e034f5b0ba142bcc3abb27ba9b221f6eda2d",
+      "kind": "existing-generated-product-feature-illustration",
+      "unwatermarkedSha256": "b5c0a223c2a47d1f43c971a33d2b5c0f2a75648303c49682132062dca64372b1",
+      "publishedTransform": "CHUANWEI FIRE text watermark in clear whitespace",
+      "watermarkRecord": "site-src/_data/product-watermarks.json"
+    },
+    {
+      "productId": "horizontal-single-stage-fire-pumps",
+      "path": "assets/products/alibaba-20261023/horizontal-single-stage-fire-pumps/hero.webp",
+      "sha256": "b7c5934007db42cb459eabb4bf4dd174a03995603bc2b7fc2f41031da9146224",
+      "sourcePath": "D:\\work\\codex\\阿里国际站运营\\outputs\\alibaba-detail-image-studio\\XBD3.2-1W-JXL-卧式单级消防泵\\source\\消防泵-原始白底产品图.webp",
+      "sourceSha256": "06da638008072e058a746e2a9e546aa8f23ea090b1b957f90f96101d3df33a07",
+      "kind": "real-product-photo",
+      "unwatermarkedSha256": "9d65e85b07413b899e8f3d6d9cafad28849f042d8d22483c9ec3256863a7e4cf",
+      "publishedTransform": "CHUANWEI FIRE text watermark in clear whitespace",
+      "watermarkRecord": "site-src/_data/product-watermarks.json"
+    },
+    {
+      "productId": "horizontal-single-stage-fire-pumps",
+      "path": "assets/products/alibaba-20261023/horizontal-single-stage-fire-pumps/features.webp",
+      "sha256": "6ccdb16a6a97f89916c6336297494871243662cef6042dd98d682d99b5ba7dfa",
+      "sourcePath": "D:\\work\\codex\\阿里国际站运营\\outputs\\alibaba-detail-image-studio\\XBD3.2-1W-JXL-卧式单级消防泵\\images\\XBD3.2-1W-JXL-阿里国际站-07-产品概览详情图-en.jpg",
+      "sourceSha256": "cabd7fac646cdef8d3eac47b1e0673931b6d79e53f83b5e540f7fb1fda0618a2",
+      "kind": "existing-generated-product-feature-illustration",
+      "unwatermarkedSha256": "18b5bca837fb45d1c117b72182c6fc8cf11e2eff15056eed5959bde63821c633",
+      "publishedTransform": "CHUANWEI FIRE text watermark in clear whitespace",
+      "watermarkRecord": "site-src/_data/product-watermarks.json"
+    }
+  ]
+}

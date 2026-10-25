@@ -26,7 +26,15 @@
       "碳钢有1、2、3、4、5、6、8 kg逐张参数图核验记录。",
       "MF/ABCE为工厂型号；不把字母直接转换为国际火灾等级或认证。",
       "保留实物TAIRUI标识；CHUANWEI FIRE为供货方。"
-    ]
+    ],
+    "marketReference": {
+      "grade": "C-other-manufacturer-or-series-reference",
+      "reviewDate": "2026-10-25",
+      "url": "https://amerex-fire.com/api/documents/download?a=en&d=import-amerex-portable-fire-extinguisher-catalog",
+      "model": "Amerex B500 / B500T",
+      "location": "Portable catalogue, ABC dry chemical table",
+      "scope": "Selection reference only; no supplied-SKU specification, certification, compatibility or availability inferred."
+    }
   },
   "publication": {
     "status": "release-candidate",
@@ -273,7 +281,14 @@
       "selection0Label": "Capacity and quantity",
       "selection0Body": "Specify the agent charge or volume and the quantity required for each model.",
       "selection1Label": "Project requirements",
-      "selection1Body": "Send the installation location, required fire rating and destination market so the exact model documents can be checked."
+      "selection1Body": "Send the installation location, required fire rating and destination market so the exact model documents can be checked.",
+      "referenceHeading": "Selection reference",
+      "referenceScope": "The manufacturer example below helps you specify an enquiry. Its values describe the named reference model, not the CHUANWEI product pictured above. Request the offered model’s datasheet for your order.",
+      "referenceSource": "Manufacturer reference",
+      "reference0Title": "Amerex B500 / B500T",
+      "reference0Note": "Compare agent charge separately from shipping weight, cylinder size and fire rating.",
+      "reference0Row0Label": "Agent charge",
+      "reference0Row0Value": "5 lb"
     },
     "ar": {
       "onThisPage": "في هذه الصفحة",
@@ -357,7 +372,28 @@
       "selection0Label": "السعة والكمية",
       "selection0Body": "حدد كتلة مادة الإطفاء أو حجمها والكمية المطلوبة من كل طراز.",
       "selection1Label": "متطلبات المشروع",
-      "selection1Body": "أرسل موقع الاستخدام وتصنيف الإطفاء المطلوب وبلد الوجهة للتحقق من وثائق الطراز المحدد."
+      "selection1Body": "أرسل موقع الاستخدام وتصنيف الإطفاء المطلوب وبلد الوجهة للتحقق من وثائق الطراز المحدد.",
+      "referenceHeading": "مرجع الاختيار",
+      "referenceScope": "يساعد المثال التالي من الشركة المصنّعة المذكورة في تحديد متطلبات الاستفسار. القيم تخص الطراز المرجعي المذكور، ولا تمثل مواصفات منتج CHUANWEI المصوّر أعلاه. اطلب ورقة بيانات الطراز المعروض لطلبك.",
+      "referenceSource": "مرجع الشركة المصنّعة",
+      "reference0Title": "Amerex B500 / B500T",
+      "reference0Note": "قارن كتلة مادة الإطفاء بشكل مستقل عن وزن الشحن ومقاس الأسطوانة وتصنيف الإطفاء.",
+      "reference0Row0Label": "كتلة مادة الإطفاء",
+      "reference0Row0Value": "5 lb"
     }
-  }
+  },
+  "referenceExamples": [
+    {
+      "title": "reference0Title",
+      "rows": [
+        {
+          "label": "reference0Row0Label",
+          "value": "reference0Row0Value",
+          "technical": true
+        }
+      ],
+      "note": "reference0Note",
+      "url": "https://amerex-fire.com/api/documents/download?a=en&d=import-amerex-portable-fire-extinguisher-catalog"
+    }
+  ]
 }

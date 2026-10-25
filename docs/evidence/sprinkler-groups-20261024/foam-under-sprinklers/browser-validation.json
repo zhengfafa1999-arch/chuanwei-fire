@@ -1,0 +1,630 @@
+{
+  "status": "PASS",
+  "generatedAt": "2026-10-25T09:04:51.752Z",
+  "browser": "Edg/155.0.4283.62",
+  "staticChecks": [
+    {
+      "file": "products.html",
+      "status": "PASS",
+      "familyCount": 18
+    },
+    {
+      "file": "ar/products.html",
+      "status": "PASS",
+      "familyCount": 18
+    }
+  ],
+  "checks": [
+    {
+      "scenario": "en/desktop",
+      "status": "PASS",
+      "directory": "/products.html",
+      "rawFamilies": 18,
+      "shortcuts": 14,
+      "groupPagination": {
+        "status": "PASS",
+        "productCount": 25,
+        "pages": [
+          {
+            "page": 1,
+            "cards": 12,
+            "families": [
+              "system-valves"
+            ]
+          },
+          {
+            "page": 2,
+            "cards": 12,
+            "families": [
+              "butterfly-valves",
+              "gate-valves",
+              "pipeline-valves-strainers"
+            ]
+          },
+          {
+            "page": 3,
+            "cards": 1,
+            "families": [
+              "pipeline-valves-strainers"
+            ]
+          }
+        ]
+      },
+      "sprinklerPagination": {
+        "status": "PASS",
+        "productCount": 19,
+        "pages": [
+          {
+            "page": 1,
+            "cards": 12,
+            "families": [
+              "sprinklers"
+            ]
+          },
+          {
+            "page": 2,
+            "cards": 7,
+            "families": [
+              "sprinklers",
+              "foam-nozzles"
+            ]
+          }
+        ]
+      },
+      "legacyFoam": {
+        "status": "PASS",
+        "productCount": 2,
+        "pages": [
+          {
+            "page": 1,
+            "cards": 2,
+            "families": [
+              "foam-nozzles"
+            ]
+          }
+        ]
+      },
+      "modelSearch": {
+        "count": 1,
+        "families": [
+          "pipeline-valves-strainers"
+        ]
+      },
+      "accessoryResults": {
+        "status": "PASS",
+        "productCount": 4,
+        "pages": [
+          {
+            "page": 1,
+            "cards": 4,
+            "families": [
+              "pressure-gauges-accessories"
+            ]
+          }
+        ]
+      },
+      "legacyLeaf": {
+        "status": "PASS",
+        "productCount": 5,
+        "pages": [
+          {
+            "page": 1,
+            "cards": 5,
+            "families": [
+              "gate-valves"
+            ]
+          }
+        ]
+      },
+      "reloadAndDetailBack": "PASS",
+      "menu": {
+        "status": "PASS",
+        "count": 14,
+        "ids": [
+          "sprinklers-nozzles",
+          "valves-strainers",
+          "hose-reels",
+          "hoses-nozzles-couplings",
+          "indoor-hydrants",
+          "outdoor-hydrants",
+          "fire-department-connections",
+          "fire-equipment-cabinets",
+          "fire-extinguishers",
+          "automatic-fire-suppression",
+          "fire-alarm-systems",
+          "fire-pumps-controllers",
+          "grooved-pipe-fittings",
+          "pressure-gauges-accessories"
+        ],
+        "valveCount": 1,
+        "accessoryCount": 1,
+        "valveName": "Valves & Strainers",
+        "accessoryName": "Accessories",
+        "members": [
+          "system-valves",
+          "butterfly-valves",
+          "gate-valves",
+          "pipeline-valves-strainers"
+        ],
+        "sprinklerMembers": [
+          "sprinklers",
+          "foam-nozzles"
+        ],
+        "valveHref": "http://127.0.0.1:64261/products.html?category=valves-strainers",
+        "accessoriesInsideValve": false,
+        "open": true
+      }
+    },
+    {
+      "scenario": "ar/desktop",
+      "status": "PASS",
+      "directory": "/ar/products.html",
+      "rawFamilies": 18,
+      "shortcuts": 14,
+      "groupPagination": {
+        "status": "PASS",
+        "productCount": 25,
+        "pages": [
+          {
+            "page": 1,
+            "cards": 12,
+            "families": [
+              "system-valves"
+            ]
+          },
+          {
+            "page": 2,
+            "cards": 12,
+            "families": [
+              "butterfly-valves",
+              "gate-valves",
+              "pipeline-valves-strainers"
+            ]
+          },
+          {
+            "page": 3,
+            "cards": 1,
+            "families": [
+              "pipeline-valves-strainers"
+            ]
+          }
+        ]
+      },
+      "sprinklerPagination": {
+        "status": "PASS",
+        "productCount": 19,
+        "pages": [
+          {
+            "page": 1,
+            "cards": 12,
+            "families": [
+              "sprinklers"
+            ]
+          },
+          {
+            "page": 2,
+            "cards": 7,
+            "families": [
+              "sprinklers",
+              "foam-nozzles"
+            ]
+          }
+        ]
+      },
+      "legacyFoam": {
+        "status": "PASS",
+        "productCount": 2,
+        "pages": [
+          {
+            "page": 1,
+            "cards": 2,
+            "families": [
+              "foam-nozzles"
+            ]
+          }
+        ]
+      },
+      "modelSearch": {
+        "count": 1,
+        "families": [
+          "pipeline-valves-strainers"
+        ]
+      },
+      "accessoryResults": {
+        "status": "PASS",
+        "productCount": 4,
+        "pages": [
+          {
+            "page": 1,
+            "cards": 4,
+            "families": [
+              "pressure-gauges-accessories"
+            ]
+          }
+        ]
+      },
+      "legacyLeaf": {
+        "status": "PASS",
+        "productCount": 5,
+        "pages": [
+          {
+            "page": 1,
+            "cards": 5,
+            "families": [
+              "gate-valves"
+            ]
+          }
+        ]
+      },
+      "reloadAndDetailBack": "PASS",
+      "menu": {
+        "status": "PASS",
+        "count": 14,
+        "ids": [
+          "sprinklers-nozzles",
+          "valves-strainers",
+          "hose-reels",
+          "hoses-nozzles-couplings",
+          "indoor-hydrants",
+          "outdoor-hydrants",
+          "fire-department-connections",
+          "fire-equipment-cabinets",
+          "fire-extinguishers",
+          "automatic-fire-suppression",
+          "fire-alarm-systems",
+          "fire-pumps-controllers",
+          "grooved-pipe-fittings",
+          "pressure-gauges-accessories"
+        ],
+        "valveCount": 1,
+        "accessoryCount": 1,
+        "valveName": "الصمامات والمصافي",
+        "accessoryName": "الملحقات",
+        "members": [
+          "system-valves",
+          "butterfly-valves",
+          "gate-valves",
+          "pipeline-valves-strainers"
+        ],
+        "sprinklerMembers": [
+          "sprinklers",
+          "foam-nozzles"
+        ],
+        "valveHref": "http://127.0.0.1:64261/ar/products.html?category=valves-strainers",
+        "accessoriesInsideValve": false,
+        "open": true
+      }
+    },
+    {
+      "scenario": "en/mobile",
+      "status": "PASS",
+      "directory": "/products.html",
+      "rawFamilies": 18,
+      "shortcuts": 14,
+      "groupPagination": {
+        "status": "PASS",
+        "productCount": 25,
+        "pages": [
+          {
+            "page": 1,
+            "cards": 12,
+            "families": [
+              "system-valves"
+            ]
+          },
+          {
+            "page": 2,
+            "cards": 12,
+            "families": [
+              "butterfly-valves",
+              "gate-valves",
+              "pipeline-valves-strainers"
+            ]
+          },
+          {
+            "page": 3,
+            "cards": 1,
+            "families": [
+              "pipeline-valves-strainers"
+            ]
+          }
+        ]
+      },
+      "sprinklerPagination": {
+        "status": "PASS",
+        "productCount": 19,
+        "pages": [
+          {
+            "page": 1,
+            "cards": 12,
+            "families": [
+              "sprinklers"
+            ]
+          },
+          {
+            "page": 2,
+            "cards": 7,
+            "families": [
+              "sprinklers",
+              "foam-nozzles"
+            ]
+          }
+        ]
+      },
+      "legacyFoam": {
+        "status": "PASS",
+        "productCount": 2,
+        "pages": [
+          {
+            "page": 1,
+            "cards": 2,
+            "families": [
+              "foam-nozzles"
+            ]
+          }
+        ]
+      },
+      "modelSearch": {
+        "count": 1,
+        "families": [
+          "pipeline-valves-strainers"
+        ]
+      },
+      "accessoryResults": {
+        "status": "PASS",
+        "productCount": 4,
+        "pages": [
+          {
+            "page": 1,
+            "cards": 4,
+            "families": [
+              "pressure-gauges-accessories"
+            ]
+          }
+        ]
+      },
+      "legacyLeaf": {
+        "status": "PASS",
+        "productCount": 5,
+        "pages": [
+          {
+            "page": 1,
+            "cards": 5,
+            "families": [
+              "gate-valves"
+            ]
+          }
+        ]
+      },
+      "reloadAndDetailBack": "PASS",
+      "menu": {
+        "status": "PASS",
+        "count": 14,
+        "ids": [
+          "sprinklers-nozzles",
+          "valves-strainers",
+          "hose-reels",
+          "hoses-nozzles-couplings",
+          "indoor-hydrants",
+          "outdoor-hydrants",
+          "fire-department-connections",
+          "fire-equipment-cabinets",
+          "fire-extinguishers",
+          "automatic-fire-suppression",
+          "fire-alarm-systems",
+          "fire-pumps-controllers",
+          "grooved-pipe-fittings",
+          "pressure-gauges-accessories"
+        ],
+        "valveCount": 1,
+        "accessoryCount": 1,
+        "valveName": "Valves & Strainers",
+        "accessoryName": "Accessories",
+        "members": [
+          "system-valves",
+          "butterfly-valves",
+          "gate-valves",
+          "pipeline-valves-strainers"
+        ],
+        "sprinklerMembers": [
+          "sprinklers",
+          "foam-nozzles"
+        ],
+        "valveHref": "http://127.0.0.1:64261/products.html?category=valves-strainers",
+        "accessoriesInsideValve": false,
+        "open": true
+      }
+    },
+    {
+      "scenario": "ar/mobile",
+      "status": "PASS",
+      "directory": "/ar/products.html",
+      "rawFamilies": 18,
+      "shortcuts": 14,
+      "groupPagination": {
+        "status": "PASS",
+        "productCount": 25,
+        "pages": [
+          {
+            "page": 1,
+            "cards": 12,
+            "families": [
+              "system-valves"
+            ]
+          },
+          {
+            "page": 2,
+            "cards": 12,
+            "families": [
+              "butterfly-valves",
+              "gate-valves",
+              "pipeline-valves-strainers"
+            ]
+          },
+          {
+            "page": 3,
+            "cards": 1,
+            "families": [
+              "pipeline-valves-strainers"
+            ]
+          }
+        ]
+      },
+      "sprinklerPagination": {
+        "status": "PASS",
+        "productCount": 19,
+        "pages": [
+          {
+            "page": 1,
+            "cards": 12,
+            "families": [
+              "sprinklers"
+            ]
+          },
+          {
+            "page": 2,
+            "cards": 7,
+            "families": [
+              "sprinklers",
+              "foam-nozzles"
+            ]
+          }
+        ]
+      },
+      "legacyFoam": {
+        "status": "PASS",
+        "productCount": 2,
+        "pages": [
+          {
+            "page": 1,
+            "cards": 2,
+            "families": [
+              "foam-nozzles"
+            ]
+          }
+        ]
+      },
+      "modelSearch": {
+        "count": 1,
+        "families": [
+          "pipeline-valves-strainers"
+        ]
+      },
+      "accessoryResults": {
+        "status": "PASS",
+        "productCount": 4,
+        "pages": [
+          {
+            "page": 1,
+            "cards": 4,
+            "families": [
+              "pressure-gauges-accessories"
+            ]
+          }
+        ]
+      },
+      "legacyLeaf": {
+        "status": "PASS",
+        "productCount": 5,
+        "pages": [
+          {
+            "page": 1,
+            "cards": 5,
+            "families": [
+              "gate-valves"
+            ]
+          }
+        ]
+      },
+      "reloadAndDetailBack": "PASS",
+      "menu": {
+        "status": "PASS",
+        "count": 14,
+        "ids": [
+          "sprinklers-nozzles",
+          "valves-strainers",
+          "hose-reels",
+          "hoses-nozzles-couplings",
+          "indoor-hydrants",
+          "outdoor-hydrants",
+          "fire-department-connections",
+          "fire-equipment-cabinets",
+          "fire-extinguishers",
+          "automatic-fire-suppression",
+          "fire-alarm-systems",
+          "fire-pumps-controllers",
+          "grooved-pipe-fittings",
+          "pressure-gauges-accessories"
+        ],
+        "valveCount": 1,
+        "accessoryCount": 1,
+        "valveName": "الصمامات والمصافي",
+        "accessoryName": "الملحقات",
+        "members": [
+          "system-valves",
+          "butterfly-valves",
+          "gate-valves",
+          "pipeline-valves-strainers"
+        ],
+        "sprinklerMembers": [
+          "sprinklers",
+          "foam-nozzles"
+        ],
+        "valveHref": "http://127.0.0.1:64261/ar/products.html?category=valves-strainers",
+        "accessoriesInsideValve": false,
+        "open": true
+      }
+    }
+  ],
+  "homeChecks": [
+    {
+      "locale": "en",
+      "file": "index.html",
+      "status": "PASS",
+      "cards": 14,
+      "valves": 1,
+      "accessories": 1
+    },
+    {
+      "locale": "ar",
+      "file": "ar/index.html",
+      "status": "PASS",
+      "cards": 14,
+      "valves": 1,
+      "accessories": 1
+    },
+    {
+      "locale": "zh",
+      "file": "zh/index.html",
+      "status": "PASS",
+      "cards": 14,
+      "valves": 1,
+      "accessories": 1
+    }
+  ],
+  "screenshots": [
+    "en-desktop-valves-first-page.png",
+    "en-desktop-gl41h-group-search.png",
+    "en-desktop-accessories.png",
+    "en-desktop-sprinklers-with-foam.png",
+    "en-desktop-group-menu.png",
+    "ar-desktop-valves-first-page.png",
+    "ar-desktop-gl41h-group-search.png",
+    "ar-desktop-accessories.png",
+    "ar-desktop-sprinklers-with-foam.png",
+    "ar-desktop-group-menu.png",
+    "en-mobile-valves-first-page.png",
+    "en-mobile-gl41h-group-search.png",
+    "en-mobile-accessories.png",
+    "en-mobile-sprinklers-with-foam.png",
+    "en-mobile-group-menu.png",
+    "ar-mobile-valves-first-page.png",
+    "ar-mobile-gl41h-group-search.png",
+    "ar-mobile-accessories.png",
+    "ar-mobile-sprinklers-with-foam.png",
+    "ar-mobile-group-menu.png",
+    "en-home-browse-groups.png",
+    "ar-home-browse-groups.png",
+    "zh-home-browse-groups.png"
+  ]
+}

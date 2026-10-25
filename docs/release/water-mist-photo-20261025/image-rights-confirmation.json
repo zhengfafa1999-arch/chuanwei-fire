@@ -1,0 +1,37 @@
+{
+  "status": "confirmed",
+  "scope": "CHUANWEI FIRE official website public display",
+  "authority": "User supplied the exact image and requested categorization under Water Mist Nozzles in the current website editing task.",
+  "userRequest": "按照水雾喷头分组吧",
+  "factsScope": "Water mist grouping only; exact model and technical specifications not inferred.",
+  "images": [
+    {
+      "productId": "water-mist-nozzles",
+      "path": "assets/products/guanya-2026/water-mist-nozzles-dsc_5793-640.webp",
+      "width": 519,
+      "height": 640,
+      "bytes": 19378,
+      "sha256": "e79672476c19566f160d355b0783ed067590f0498ee050b9365dfb8e89bb4dc1",
+      "quality": 85,
+      "unwatermarkedSha256": "ac1f01cb304a368a7a973caa423bb457c81fb24a9ae9ce5a8234f03834d89780",
+      "watermarkRecord": "site-src/_data/product-watermarks.json",
+      "sourceFile": "DSC_5793.jpg",
+      "sourceSha256": "92c8027a0c33d7498f4bd025871c975da09ebcbe2a3e6c9f4328b9a11ceef0d9",
+      "publishedTransform": "CHUANWEI FIRE text watermark in clear whitespace"
+    },
+    {
+      "productId": "water-mist-nozzles",
+      "path": "assets/products/guanya-2026/water-mist-nozzles-dsc_5793-1600.webp",
+      "width": 760,
+      "height": 937,
+      "bytes": 32214,
+      "sha256": "5452e4c5841e67e7c6397f2a04e8dce87176b016242f00b717be8d8519aec456",
+      "quality": 85,
+      "unwatermarkedSha256": "fd393ea04b67ed76a531989adee7fba7e10a4ab64e8bf69e21b18a21624de62d",
+      "watermarkRecord": "site-src/_data/product-watermarks.json",
+      "sourceFile": "DSC_5793.jpg",
+      "sourceSha256": "92c8027a0c33d7498f4bd025871c975da09ebcbe2a3e6c9f4328b9a11ceef0d9",
+      "publishedTransform": "CHUANWEI FIRE text watermark in clear whitespace"
+    }
+  ]
+}

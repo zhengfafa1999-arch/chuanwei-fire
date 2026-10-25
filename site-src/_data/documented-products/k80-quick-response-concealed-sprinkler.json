@@ -1,0 +1,309 @@
+{
+  "template": "product-series/documented-product.njk",
+  "styles": [
+    "css/common.css",
+    "css/sprinkler-product.css",
+    "css/sprinkler-product-gallery.css",
+    "css/documented-product.css",
+    "css/site-navigation.css"
+  ],
+  "confirmationItems": [
+    {
+      "label": "connection",
+      "body": "connectionBody"
+    },
+    {
+      "label": "workingPressure",
+      "body": "workingPressureBody"
+    },
+    {
+      "label": "matchedCover",
+      "body": "matchedCoverBody"
+    },
+    {
+      "label": "orderQuantity",
+      "body": "orderQuantityBody"
+    }
+  ],
+  "id": "k80-quick-response-concealed-sprinkler",
+  "routeId": "product:k80-quick-response-concealed-sprinkler",
+  "source": {
+    "confirmedDate": "2026-10-24",
+    "evidence": "User confirmed this exact K-factor/response series and supplied its covered and exposed 68°C photographs. User requested four independent details.",
+    "scope": "68°C sample facts only; additional configuration facts are inherited solely through scoped exact-model supplement records. No pressure, thread size, material, cover release temperature, adjustment range or certification inherited from the combined legacy page.",
+    "sourcePhotos": [
+      {
+        "role": "covered",
+        "originalPath": "C:\\Users\\ZHENGF~1\\AppData\\Local\\Temp\\codex-clipboard-5cf6752b-fc81-43e0-b449-11c01b1ac134.jpg",
+        "backup": "docs/release/concealed-series-composites-20261024/source/k80-quick-concealed-covered.jpg",
+        "sha256": "307788895b9d22bb1f6d285507fdd0bc16472b4e1ce002689d39ce55244d32e8"
+      },
+      {
+        "role": "exposed",
+        "originalPath": "C:\\Users\\ZHENGF~1\\AppData\\Local\\Temp\\codex-clipboard-710420e3-f9c9-454a-9b33-849af4da0697.jpg",
+        "backup": "docs/release/concealed-series-composites-20261024/source/k80-quick-concealed-exposed.jpg",
+        "sha256": "21014ca1cb50ea1576f698bf473c67a4146f0daf93fbf61258c70b5b979cd6a2"
+      }
+    ]
+  },
+  "publication": {
+    "status": "release-candidate",
+    "externalRelease": true,
+    "imageRights": "user-confirmed-website-use",
+    "imageRightsEvidence": "docs/release/concealed-independent-details-20261024/image-rights-confirmation.json"
+  },
+  "media": {
+    "hero": "assets/products/concealed-series/k80-quick-concealed-covered-and-exposed.webp",
+    "covered": "assets/products/concealed-series/k80-quick-concealed-68c-covered.webp",
+    "exposed": "assets/products/concealed-series/k80-quick-concealed-68c-exposed.webp"
+  },
+  "imageDimensions": {
+    "hero": {
+      "width": 1254,
+      "height": 1254
+    },
+    "covered": {
+      "width": 1600,
+      "height": 1310
+    },
+    "exposed": {
+      "width": 861,
+      "height": 1274
+    }
+  },
+  "heroFacts": [
+    "kFactorValue",
+    "responseValue",
+    "temperatureValue"
+  ],
+  "shared": {
+    "kFactorValue": "K80 metric",
+    "temperatureValue": "68°C / 155°F"
+  },
+  "gallery": [
+    {
+      "media": "hero",
+      "alt": "heroAlt",
+      "caption": "heroCaption",
+      "thumbnailAlt": "heroThumbnail"
+    },
+    {
+      "media": "covered",
+      "alt": "coveredAlt",
+      "caption": "coveredCaption",
+      "thumbnailAlt": "coveredThumbnail"
+    },
+    {
+      "media": "exposed",
+      "alt": "exposedAlt",
+      "caption": "exposedCaption",
+      "thumbnailAlt": "exposedThumbnail"
+    }
+  ],
+  "specifications": [
+    {
+      "label": "productType",
+      "value": "productTypeValue"
+    },
+    {
+      "label": "response",
+      "value": "responseValue"
+    },
+    {
+      "label": "kFactor",
+      "value": "kFactorValue",
+      "technical": true
+    },
+    {
+      "label": "temperature",
+      "value": "temperatureValue",
+      "technical": true
+    },
+    {
+      "label": "installation",
+      "value": "installationValue"
+    }
+  ],
+  "modelColumns": [
+    {
+      "label": "factoryModel",
+      "field": "factoryModel",
+      "technical": true
+    },
+    {
+      "label": "kFactor",
+      "field": "kFactor",
+      "technical": true
+    },
+    {
+      "label": "response",
+      "field": "response",
+      "localized": true
+    },
+    {
+      "label": "temperature",
+      "field": "temperature",
+      "technical": true
+    }
+  ],
+  "models": [
+    {
+      "factoryModel": "ZSTDY80-68°C Q3A",
+      "kFactor": "K80",
+      "response": "responseValue",
+      "temperature": "68°C / 155°F"
+    }
+  ],
+  "packaging": false,
+  "downloads": [],
+  "validation": {
+    "anchors": [
+      "gallery",
+      "specifications",
+      "models",
+      "quotation"
+    ],
+    "requiredTechnicalValues": [
+      "K80",
+      "ZSTDY80-68°C Q3A",
+      "68°C / 155°F"
+    ]
+  },
+  "inquiry": {
+    "whatsapp": "https://wa.me/8617326528368?text=Hello%2C%20I%20need%20a%20quotation%20for%20K80%20Quick%20Response%20Concealed%20Sprinklers.%20Factory%20model%3A%20%5Bmodel%5D%2C%20connection%3A%20%5Brequirement%5D%2C%20matched%20cover%3A%20%5Brequirement%5D%2C%20quantity%3A%20%5Bpcs%5D.",
+    "email": "mailto:zhengcolin1@gmail.com?subject=K80%20Quick%20Response%20Concealed%20Sprinklers%20Inquiry"
+  },
+  "copy": {
+    "en": {
+      "onThisPage": "On this page",
+      "gallery": "Product images",
+      "galleryTitle": "Covered assembly and exposed sprinkler",
+      "galleryBody": "Compare the 68°C assembly with the sprinkler mechanism shown separately.",
+      "specifications": "Specifications",
+      "specificationsTitle": "Technical specifications",
+      "specificationsBody": "These specifications apply to the 68°C sample shown. Additional named configurations below have their own specifications.",
+      "productType": "Product type",
+      "productTypeValue": "Concealed fire sprinkler",
+      "response": "Response type",
+      "installation": "Installation options",
+      "installationValue": "Concealed pendent",
+      "kFactor": "K-factor (metric)",
+      "temperature": "Operating temperature",
+      "thermalElement": "Thermal element",
+      "availableModels": "Available configurations",
+      "modelsTitle": "Factory model for the pictured sample",
+      "modelsBody": "The pictured concealed sprinkler has a K80 metric flow coefficient, quick response and a 68°C sprinkler temperature rating.",
+      "orientation": "Orientation",
+      "factoryModel": "Factory model",
+      "modelsNote": "Order the cover assembly matched to the selected sprinkler. The sprinkler temperature does not specify the cover release temperature.",
+      "quotation": "Quotation details",
+      "quotationTitle": "Tell us your project requirements",
+      "quotationBody": "Send the exact sprinkler model, connection, working pressure, matched cover requirement and quantity.",
+      "connection": "Connection",
+      "connectionBody": "Provide the required connection size and thread designation.",
+      "workingPressure": "Working pressure",
+      "workingPressureBody": "Specify the working pressure required for your project.",
+      "orderQuantity": "Order quantity",
+      "orderQuantityBody": "State the quantity required for each factory model.",
+      "inquiryBody": "Include the factory model, connection requirement, working pressure and quantity.",
+      "askOnWhatsApp": "Ask on WhatsApp",
+      "emailSales": "Email sales",
+      "productImagePreview": "Product image preview",
+      "closeImagePreview": "Close image preview",
+      "previousProductImage": "Previous product image",
+      "nextProductImage": "Next product image",
+      "selectProductImage": "Select product image",
+      "title": "K80 Quick Response Concealed Sprinklers",
+      "eyebrow": "K80 Metric · Quick response · Concealed pendent",
+      "lead": "K80 metric quick-response concealed pendent sprinklers. The covered and exposed 68°C samples below belong to this series.",
+      "note": "Specify the exact sprinkler model and its matched cover assembly when ordering.",
+      "responseValue": "Quick response",
+      "inquiryTitle": "Request a quotation for K80 Quick Response Concealed Sprinklers",
+      "enlargedImage": "Enlarged K80 quick-response concealed sprinkler",
+      "seoTitle": "K80 Quick Response Concealed Sprinklers | CHUANWEI FIRE",
+      "seoDescription": "K80 metric quick-response concealed pendent sprinklers. View the covered and exposed 68°C samples and exact-model configuration details.",
+      "matchedCover": "Matched cover assembly",
+      "matchedCoverBody": "Confirm the compatible cover and its release temperature with the selected sprinkler.",
+      "heroCaption": "Covered assembly and exposed mechanism — 68°C",
+      "heroAlt": "K80 quick-response concealed sprinkler: Covered assembly and exposed mechanism — 68°C",
+      "heroThumbnail": "Covered assembly and exposed mechanism — 68°C thumbnail",
+      "coveredCaption": "Covered concealed sprinkler assembly — 68°C",
+      "coveredAlt": "K80 quick-response concealed sprinkler: Covered concealed sprinkler assembly — 68°C",
+      "coveredThumbnail": "Covered concealed sprinkler assembly — 68°C thumbnail",
+      "exposedCaption": "Exposed concealed sprinkler mechanism — 68°C",
+      "exposedAlt": "K80 quick-response concealed sprinkler: Exposed concealed sprinkler mechanism — 68°C",
+      "exposedThumbnail": "Exposed concealed sprinkler mechanism — 68°C thumbnail"
+    },
+    "ar": {
+      "onThisPage": "في هذه الصفحة",
+      "gallery": "صور المنتج",
+      "galleryTitle": "المجموعة مع الغطاء وآلية الرشاش المكشوفة",
+      "galleryBody": "قارن المجموعة بدرجة 68°C بآلية الرشاش المعروضة بشكل منفصل.",
+      "specifications": "المواصفات",
+      "specificationsTitle": "المواصفات الفنية",
+      "specificationsBody": "تنطبق هذه المواصفات على العينة المعروضة بدرجة 68°C. لكل تكوين مسمى إضافي أدناه مواصفاته الخاصة.",
+      "productType": "نوع المنتج",
+      "productTypeValue": "رشاش حريق مخفي",
+      "response": "نوع الاستجابة",
+      "installation": "خيارات التركيب",
+      "installationValue": "مخفي معلق",
+      "kFactor": "معامل K المتري",
+      "kFactorValue": "K80 متري",
+      "temperature": "درجة حرارة التشغيل",
+      "thermalElement": "العنصر الحراري",
+      "availableModels": "التكوينات المتاحة",
+      "modelsTitle": "موديل المصنع للعينة المصورة",
+      "modelsBody": "للرشاش المخفي المصور معامل تدفق K80 متري واستجابة سريعة ودرجة حرارة تشغيل للرشاش تبلغ 68°C.",
+      "orientation": "اتجاه التركيب",
+      "factoryModel": "موديل المصنع",
+      "modelsNote": "اطلب مجموعة الغطاء المطابقة للرشاش المختار. لا تحدد درجة حرارة الرشاش درجة تحرير الغطاء.",
+      "quotation": "تفاصيل عرض السعر",
+      "quotationTitle": "أرسل متطلبات مشروعك",
+      "quotationBody": "أرسل موديل الرشاش الدقيق ومتطلبات التوصيل وضغط التشغيل والغطاء المطابق والكمية.",
+      "connection": "التوصيل",
+      "connectionBody": "حدد مقاس التوصيل ونوع السن اللولبي المطلوبين.",
+      "workingPressure": "ضغط التشغيل",
+      "workingPressureBody": "حدد ضغط التشغيل المطلوب لمشروعك.",
+      "orderQuantity": "كمية الطلب",
+      "orderQuantityBody": "حدد الكمية المطلوبة لكل موديل مصنع.",
+      "inquiryBody": "أدرج موديل المصنع ومتطلبات التوصيل وضغط التشغيل والكمية.",
+      "askOnWhatsApp": "استفسر عبر WhatsApp",
+      "emailSales": "راسل قسم المبيعات",
+      "productImagePreview": "معاينة صورة المنتج",
+      "closeImagePreview": "إغلاق معاينة الصورة",
+      "previousProductImage": "صورة المنتج السابقة",
+      "nextProductImage": "صورة المنتج التالية",
+      "selectProductImage": "اختر صورة المنتج",
+      "title": "رشاشات K80 مخفية سريعة الاستجابة",
+      "eyebrow": "K80 متري · استجابة سريعة · رشاش مخفي معلق",
+      "lead": "رشاشات مخفية معلقة بمعامل K80 متري واستجابة سريعة. تنتمي عينتا المجموعة مع الغطاء والآلية المكشوفة بدرجة 68°C أدناه إلى هذه السلسلة.",
+      "note": "حدد موديل الرشاش الدقيق ومجموعة الغطاء المطابقة عند الطلب.",
+      "responseValue": "استجابة سريعة",
+      "inquiryTitle": "اطلب عرض سعر: رشاشات K80 مخفية سريعة الاستجابة",
+      "enlargedImage": "صورة مكبرة لرشاش مخفي K80 ذي استجابة سريعة",
+      "seoTitle": "رشاشات K80 مخفية سريعة الاستجابة | CHUANWEI FIRE",
+      "seoDescription": "رشاشات مخفية معلقة بمعامل K80 متري واستجابة سريعة. شاهد عينات المجموعة مع الغطاء والآلية المكشوفة بدرجة 68°C وتفاصيل كل موديل.",
+      "matchedCover": "مجموعة الغطاء المطابقة",
+      "matchedCoverBody": "أكد توافق الغطاء ودرجة تحريره مع الرشاش المختار.",
+      "heroCaption": "المجموعة مع الغطاء والآلية المكشوفة — 68°C",
+      "heroAlt": "رشاش مخفي K80 ذو استجابة سريعة: المجموعة مع الغطاء والآلية المكشوفة — 68°C",
+      "heroThumbnail": "صورة مصغرة: المجموعة مع الغطاء والآلية المكشوفة — 68°C",
+      "coveredCaption": "مجموعة الرشاش المخفي مع الغطاء — 68°C",
+      "coveredAlt": "رشاش مخفي K80 ذو استجابة سريعة: مجموعة الرشاش المخفي مع الغطاء — 68°C",
+      "coveredThumbnail": "صورة مصغرة: مجموعة الرشاش المخفي مع الغطاء — 68°C",
+      "exposedCaption": "آلية الرشاش المخفي المكشوفة — 68°C",
+      "exposedAlt": "رشاش مخفي K80 ذو استجابة سريعة: آلية الرشاش المخفي المكشوفة — 68°C",
+      "exposedThumbnail": "صورة مصغرة: آلية الرشاش المخفي المكشوفة — 68°C"
+    }
+  },
+  "photoSourceFiles": [
+    "DSC_5954.jpg",
+    "DSC_5953.jpg",
+    "DSC_5950.jpg",
+    "DSC_5949.jpg",
+    "DSC_5942.jpg",
+    "DSC_5941.jpg",
+    "DSC_5938.jpg",
+    "DSC_5937.jpg"
+  ]
+}

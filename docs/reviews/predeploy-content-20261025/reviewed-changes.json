@@ -1,0 +1,154 @@
+{
+  "diaphragm-deluge-valves": [
+    {
+      "key": "criticalProductDataIsPresentedInHTMLFor",
+      "before": "Critical product data is presented in HTML for clear international sourcing. No foreign approval is claimed on this page.",
+      "after": "Compare the specifications and configurations below. Request the documents applicable to your selected model and destination market.",
+      "occurrences": 1
+    }
+  ],
+  "dry-pipe-alarm-valves": [
+    {
+      "key": "criticalProductDataIsPresentedInHTMLFor",
+      "before": "Critical product data is presented in HTML for clear international sourcing. No foreign approval is claimed on this page.",
+      "after": "Compare the specifications and configurations below. Request the documents applicable to your selected model and destination market.",
+      "occurrences": 1
+    }
+  ],
+  "flanged-supervisory-gate-valves": [
+    {
+      "key": "criticalProductDataNationalRequirement",
+      "before": "Critical product data is presented in HTML for clear international sourcing. The valve is type-tested to a national requirement; no foreign approval is claimed on this page.",
+      "after": "Compare the specifications and configurations below. Request the documents applicable to your selected model and destination market.",
+      "occurrences": 1
+    }
+  ],
+  "grooved-supervisory-butterfly-valves": [
+    {
+      "key": "criticalProductDataNoULFM",
+      "before": "Critical product data is presented in HTML for clear international sourcing. No UL, FM or other foreign approval is claimed on this page.",
+      "after": "Compare the specifications and configurations below. Request the documents applicable to your selected model and destination market.",
+      "occurrences": 1
+    }
+  ],
+  "grooved-supervisory-gate-valves": [
+    {
+      "key": "criticalProductDataNationalRequirement",
+      "before": "Critical product data is presented in HTML for clear international sourcing. The valve is type-tested to a national requirement; no foreign approval is claimed on this page.",
+      "after": "Compare the specifications and configurations below. Request the documents applicable to your selected model and destination market.",
+      "occurrences": 1
+    }
+  ],
+  "jet-spray-fire-hose-reel": [
+    {
+      "key": "criticalProductDataIsPresentedInHTMLFor",
+      "before": "Critical product data is presented in HTML for clear international sourcing. No foreign approval is claimed on this page.",
+      "after": "Compare the specifications and configurations below. Request the documents applicable to your selected model and destination market.",
+      "occurrences": 1
+    }
+  ],
+  "lever-operated-grooved-butterfly-valves": [
+    {
+      "key": "criticalProductDataIsPresentedInHTMLFor",
+      "before": "Critical product data is presented in HTML for clear international sourcing. No foreign approval is claimed on this page.",
+      "after": "Compare the specifications and configurations below. Request the documents applicable to your selected model and destination market.",
+      "occurrences": 1
+    }
+  ],
+  "lever-operated-wafer-butterfly-valves": [
+    {
+      "key": "criticalProductDataIsPresentedInHTMLFor",
+      "before": "Critical product data is presented in HTML for clear international sourcing. No foreign approval is claimed on this page.",
+      "after": "Compare the specifications and configurations below. Request the documents applicable to your selected model and destination market.",
+      "occurrences": 1
+    }
+  ],
+  "nrs-gate-valves": [
+    {
+      "key": "specificationsConfirmedOnRequest",
+      "before": "Specifications confirmed on request",
+      "after": "Product configuration",
+      "occurrences": 1
+    },
+    {
+      "key": "remove_unresolved_spec_workingPressure",
+      "before": "<div><dt>Working pressure</dt><dd>Available on request</dd></div>",
+      "after": "",
+      "occurrences": 1
+    },
+    {
+      "key": "remove_unresolved_spec_bodyDiscMaterial",
+      "before": "<div><dt>Body &amp; disc material</dt><dd>Available on request</dd></div>",
+      "after": "",
+      "occurrences": 1
+    },
+    {
+      "key": "remove_unresolved_spec_seatSealMaterial",
+      "before": "<div><dt>Seat / seal material</dt><dd>Available on request</dd></div>",
+      "after": "",
+      "occurrences": 1
+    },
+    {
+      "key": "remove_unresolved_spec_coating",
+      "before": "<div><dt>Coating</dt><dd>Available on request</dd></div>",
+      "after": "",
+      "occurrences": 1
+    },
+    {
+      "key": "remove_unresolved_spec_standardApproval",
+      "before": "<div><dt>Product approval documents</dt><dd>Request applicable documents for your selected model</dd></div>",
+      "after": "",
+      "occurrences": 1
+    }
+  ],
+  "osy-gate-valves": [
+    {
+      "key": "criticalProductDataNationalStandard",
+      "before": "Critical product data is presented in HTML for clear international sourcing. No foreign approval is claimed on this page.",
+      "after": "Compare the specifications and configurations below. Request the documents applicable to your selected model and destination market.",
+      "occurrences": 1
+    }
+  ],
+  "rotating-pressure-regulating-hydrant": [
+    {
+      "key": "confirmedOnRequest",
+      "before": "Confirmed on request",
+      "after": "Product configuration",
+      "occurrences": 1
+    },
+    {
+      "key": "remove_unresolved_spec_nominalSize",
+      "before": "<div><dt>Nominal size</dt><dd>Available on request</dd></div>",
+      "after": "",
+      "occurrences": 1
+    },
+    {
+      "key": "remove_unresolved_spec_workingPressure",
+      "before": "<div><dt>Working pressure</dt><dd>Available on request</dd></div>",
+      "after": "",
+      "occurrences": 1
+    },
+    {
+      "key": "remove_unresolved_spec_bodyMaterial",
+      "before": "<div><dt>Body material</dt><dd>Available on request</dd></div>",
+      "after": "",
+      "occurrences": 1
+    }
+  ],
+  "straight-stream-fire-hose-reel": [
+    {
+      "key": "criticalProductDataIsPresentedInHTMLFor",
+      "before": "Critical product data is presented in HTML for clear international sourcing. No foreign approval is claimed on this page.",
+      "after": "Compare the specifications and configurations below. Request the documents applicable to your selected model and destination market.",
+      "occurrences": 1
+    }
+  ],
+  "wafer-supervisory-butterfly-valves": [
+    {
+      "key": "criticalProductDataNoULFM",
+      "before": "Critical product data is presented in HTML for clear international sourcing. No UL, FM or other foreign approval is claimed on this page.",
+      "after": "Compare the specifications and configurations below. Request the documents applicable to your selected model and destination market.",
+      "occurrences": 1
+    }
+  ]
+}

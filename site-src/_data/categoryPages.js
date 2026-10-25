@@ -1,34 +1,11 @@
+import { listingProductCard } from '../lib/listing-product-card.js';
 import { versionedProductImage } from '../lib/public-asset-versions.js';
-import {thumbnailFor} from './catalogThumbnails.js';
-import { DIRECTORY_COPY, PRODUCT_FAMILIES, flatProducts, productSuffix, localizedText } from "./productDirectory.js";
-import { SITE_ORIGIN, SITE_ROUTES, SUPPORTED_LOCALES, createListingPageRoute, resolveSiteRoute } from "./siteRoutes.js";
+import { DIRECTORY_COPY, PRODUCT_FAMILIES, flatProducts, localizedText } from "./productDirectory.js";
+import { SITE_ORIGIN, SUPPORTED_LOCALES, createListingPageRoute, resolveSiteRoute } from "./siteRoutes.js";
 import { createSeoMetadata } from "./seo.js";
 import { createSiteNavigation } from "./navigation.js";
 import { CATEGORY_SEO_FOCUS } from "./categorySeoFocus.js";
 import { listingInquiryDrafts } from "../lib/inquiry.js";
-
-function productCard(product, locale, pageRoute) {
-  if (!product.routeId) {
-    return {
-      name: localizedText(product.name, locale),
-      image: `${pageRoute.assetPrefix}${thumbnailFor(product.image)}`,
-      href: pageRoute.contactHref,
-      linkType: "inquiry"
-    };
-  }
-
-  const localizedTarget = SITE_ROUTES[product.routeId].locales[locale];
-  const targetLocale = localizedTarget.status === "published" ? locale : "en";
-  const resolvedHref = resolveSiteRoute(product.routeId, targetLocale, pageRoute.outputPath).href;
-  return {
-    name: localizedText(product.name, locale),
-    image: product.image ? `${pageRoute.assetPrefix}${thumbnailFor(product.image)}` : null,
-    href: resolvedHref + productSuffix(product),
-    configurations: product.configurations.map(item => ({name: localizedText(item.name, locale), href: resolvedHref + '#' + item.anchor})),
-    relatedConfigurations: (product.relatedConfigurations || []).map(item => ({name: localizedText(item.name, locale), href: resolvedHref + '#' + item.anchor})),
-    linkType: targetLocale === locale ? "localized" : "english"
-  };
-}
 
 export default PRODUCT_FAMILIES.flatMap((family) => SUPPORTED_LOCALES.map((locale) => {
   const copy = DIRECTORY_COPY[locale];
@@ -47,13 +24,17 @@ export default PRODUCT_FAMILIES.flatMap((family) => SUPPORTED_LOCALES.map((local
     familyId: family.id,
     familyName,
     familyDescription: localizedText(family.description, locale),
+    relatedCategory: family.id === 'sprinklers' ? {
+      href: resolveSiteRoute('category:pressure-gauges-accessories', locale, route.outputPath).href,
+      name: locale === 'ar' ? 'حلقات وأغطية وواقيات الرشاشات' : 'Sprinkler escutcheons, covers & guards'
+    } : null,
     guide: localizedFocus ? { ...localizedFocus, href: resolveSiteRoute(focus.focusProduct, locale, route.outputPath).href } : null,
     seoTitle,
     seoDescription,
     heroImage: versionedProductImage(family.image, `${route.assetPrefix}${family.image}`),
     ogImage,
     seo: createSeoMetadata(family.routeId, locale, { title: seoTitle, description: seoDescription, image: ogImage }),
-    products: flatProducts(family).map((product) => productCard(product, locale, route)),
+    products: flatProducts(family).map((product) => listingProductCard(product, locale, route, family)),
     ...listingInquiryDrafts(familyName, route.canonical, locale)
   };
 }));

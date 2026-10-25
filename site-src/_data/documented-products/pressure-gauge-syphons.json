@@ -20,7 +20,20 @@
     ],
     "notes": [
       "三材质与两螺纹不做全排列；Y100作为原资料配套字段，不冒充弯管准确工厂型号。"
-    ]
+    ],
+    "generalTechnicalReference": {
+      "url": "https://www-prod.wika.com/en-en/pressure_gauges.WIKA",
+      "reviewedAt": "2026-10-25",
+      "scope": "General operating principle or selection guidance only; no numeric specification or certification transferred from the reference manufacturer."
+    },
+    "marketReference": {
+      "grade": "C-other-manufacturer-or-series-reference",
+      "reviewDate": "2026-10-25",
+      "url": "https://www.wika.com/en-us/910_15.WIKA",
+      "model": "WIKA 910.15",
+      "location": "Official product page",
+      "scope": "Selection reference only; no supplied-SKU specification, certification, compatibility or availability inferred."
+    }
   },
   "publication": {
     "status": "release-candidate",
@@ -153,7 +166,7 @@
       "inquiryTitle": "Request product details and a quotation",
       "inquiryBody": "Send your selected configuration, quantity and destination.",
       "title": "Pressure Gauge Syphon Tubes",
-      "lead": "Coiled stainless steel tube accessories for pressure gauge connection assemblies. The material options are 201, 304 and 316L; thread and coil configuration are specified with the order.",
+      "lead": "Coiled stainless steel tube accessories for pressure gauge connection assemblies. A syphon can serve as a cooling element between a hot process and the gauge. Material options are 201, 304 and 316L; select the thread and coil arrangement for the installation.",
       "eyebrow": "Accessories",
       "seoTitle": "Pressure Gauge Syphon Tubes | CHUANWEI FIRE",
       "seoDescription": "Coiled stainless steel tube accessories for pressure gauge connection assemblies. The material options are 201, 304 and 316L; thread and coil configuration are specified with the order.",
@@ -180,7 +193,16 @@
       "selection0Label": "Material and end connections",
       "selection0Body": "Choose 201, 304 or 316L and supply the required thread and end arrangement drawing.",
       "selection1Label": "Dimensions and service",
-      "selection1Body": "Specify installation space, coil dimensions, operating pressure and process temperature."
+      "selection1Body": "Specify installation space, coil dimensions, operating pressure and process temperature.",
+      "referenceHeading": "Selection reference",
+      "referenceScope": "The manufacturer example below helps you specify an enquiry. Its values describe the named reference model, not the CHUANWEI product pictured above. Request the offered model’s datasheet for your order.",
+      "referenceSource": "Manufacturer reference",
+      "reference0Title": "WIKA 910.15",
+      "reference0Note": "Select a pressure–temperature rating for the exact material and connection; temperature and pressure maxima are not interchangeable.",
+      "reference0Row0Label": "Horizontal pressure tapping",
+      "reference0Row0Value": "U-form",
+      "reference0Row1Label": "Vertical pressure tapping",
+      "reference0Row1Value": "Trumpet form"
     },
     "ar": {
       "onThisPage": "في هذه الصفحة",
@@ -213,7 +235,7 @@
       "inquiryTitle": "اطلب تفاصيل المنتج وعرض سعر",
       "inquiryBody": "أرسل التكوين المختار والكمية والوجهة.",
       "title": "أنابيب سيفون لمقاييس الضغط",
-      "lead": "ملحقات أنبوبية ملتفة من الستانلس ستيل لتجميعات توصيل مقاييس الضغط. خيارات المادة هي 201 و304 و316L؛ ويحدد السن اللولبي وشكل الالتفاف مع الطلب.",
+      "lead": "ملحقات أنابيب ملتفة من الفولاذ المقاوم للصدأ لتوصيل مقاييس الضغط. يمكن للسيفون أن يعمل كعنصر تبريد بين الوسط الساخن والمقياس. خيارات المادة هي 201 و304 و316L؛ اختر القلاوظ وشكل الالتفاف وفق التركيب.",
       "eyebrow": "الملحقات",
       "seoTitle": "أنابيب سيفون لمقاييس الضغط | CHUANWEI FIRE",
       "seoDescription": "ملحقات أنبوبية ملتفة من الستانلس ستيل لتجميعات توصيل مقاييس الضغط. خيارات المادة هي 201 و304 و316L؛ ويحدد السن اللولبي وشكل الالتفاف مع الطلب.",
@@ -240,7 +262,35 @@
       "selection0Label": "المادة وتوصيلات النهايات",
       "selection0Body": "اختر 201 أو 304 أو 316L وقدم رسم السن وترتيب النهايات المطلوب.",
       "selection1Label": "الأبعاد وظروف التشغيل",
-      "selection1Body": "حدد مساحة التركيب وأبعاد الالتفاف وضغط التشغيل ودرجة حرارة العملية."
+      "selection1Body": "حدد مساحة التركيب وأبعاد الالتفاف وضغط التشغيل ودرجة حرارة العملية.",
+      "referenceHeading": "مرجع الاختيار",
+      "referenceScope": "يساعد المثال التالي من الشركة المصنّعة المذكورة في تحديد متطلبات الاستفسار. القيم تخص الطراز المرجعي المذكور، ولا تمثل مواصفات منتج CHUANWEI المصوّر أعلاه. اطلب ورقة بيانات الطراز المعروض لطلبك.",
+      "referenceSource": "مرجع الشركة المصنّعة",
+      "reference0Title": "WIKA 910.15",
+      "reference0Note": "اختر تصنيف الضغط ودرجة الحرارة للمادة والتوصيل المحددين؛ لا يجوز جمع القيم القصوى المستقلة للضغط والحرارة.",
+      "reference0Row0Label": "سحب الضغط الأفقي",
+      "reference0Row0Value": "شكل U",
+      "reference0Row1Label": "سحب الضغط الرأسي",
+      "reference0Row1Value": "شكل البوق"
     }
-  }
+  },
+  "referenceExamples": [
+    {
+      "title": "reference0Title",
+      "rows": [
+        {
+          "label": "reference0Row0Label",
+          "value": "reference0Row0Value",
+          "technical": false
+        },
+        {
+          "label": "reference0Row1Label",
+          "value": "reference0Row1Value",
+          "technical": false
+        }
+      ],
+      "note": "reference0Note",
+      "url": "https://www.wika.com/en-us/910_15.WIKA"
+    }
+  ]
 }

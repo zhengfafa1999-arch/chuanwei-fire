@@ -1,0 +1,250 @@
+{
+  "status": "confirmed",
+  "confirmedDate": "2026-10-24",
+  "scope": "CHUANWEI FIRE official website public display",
+  "authority": "User supplied the exact six real product photographs and requested their addition to the K115 quick-response lower detail gallery; records requested website use, not independent licensing verification.",
+  "userRequest": "这个加到115快速的详情页下面的图片中",
+  "factsScope": "K115 quick-response horizontal sidewall samples; temperatures transcribed from visible physical factory model markings. Gallery only: main gallery and technical specifications retained.",
+  "images": [
+    {
+      "productId": "k115-quick-response-fire-sprinkler",
+      "routeId": "product:k115-quick-response-fire-sprinkler",
+      "path": "assets/products/guanya-2026/k115-quick-response-fire-sprinkler-dsc_5892-640.webp",
+      "width": 456,
+      "height": 640,
+      "bytes": 23740,
+      "sha256": "85c70fcaacda305a8d01e212310eb223ade47e51abf71f7312826f98df7ef4e1",
+      "quality": 85,
+      "unwatermarkedSha256": "aa5a16a3535fd7446a78e047835013e4ba1bf6a87ba2763ecccf1a79034f16a8",
+      "watermarkRecord": "site-src/_data/product-watermarks.json",
+      "sourceFile": "DSC_5892.jpg",
+      "sourceSha256": "d586a706adac37c93da79060db25b38951dd8b6381f5b6de1a342827b7a23911",
+      "originalBackup": "docs/release/k115-quick-photos-20261024/source/DSC_5892.jpg",
+      "caption": {
+        "en": "Horizontal sidewall K115 quick-response sprinkler — 57°C",
+        "ar": "رشاش K115 سريع الاستجابة جانبي أفقي — 57°C"
+      },
+      "publishedTransform": "CHUANWEI FIRE text watermark in clear whitespace"
+    },
+    {
+      "productId": "k115-quick-response-fire-sprinkler",
+      "routeId": "product:k115-quick-response-fire-sprinkler",
+      "path": "assets/products/guanya-2026/k115-quick-response-fire-sprinkler-dsc_5892-1600.webp",
+      "width": 945,
+      "height": 1325,
+      "bytes": 58948,
+      "sha256": "f7707372736ea7faa960b31e1f1c1dbd09bc2c94d32788974911a30214fda610",
+      "quality": 85,
+      "unwatermarkedSha256": "8234df9baac309e6e3d50963226f8da1e528d0ece6195955aa4b56233781ea67",
+      "watermarkRecord": "site-src/_data/product-watermarks.json",
+      "sourceFile": "DSC_5892.jpg",
+      "sourceSha256": "d586a706adac37c93da79060db25b38951dd8b6381f5b6de1a342827b7a23911",
+      "originalBackup": "docs/release/k115-quick-photos-20261024/source/DSC_5892.jpg",
+      "caption": {
+        "en": "Horizontal sidewall K115 quick-response sprinkler — 57°C",
+        "ar": "رشاش K115 سريع الاستجابة جانبي أفقي — 57°C"
+      },
+      "publishedTransform": "CHUANWEI FIRE text watermark in clear whitespace"
+    },
+    {
+      "productId": "k115-quick-response-fire-sprinkler",
+      "routeId": "product:k115-quick-response-fire-sprinkler",
+      "path": "assets/products/guanya-2026/k115-quick-response-fire-sprinkler-dsc_5874-640.webp",
+      "width": 492,
+      "height": 640,
+      "bytes": 23336,
+      "sha256": "cbbe3f1173ac0aadb8cb154a534afef512f1b19865eec56fcc02c5c55c2bdec0",
+      "quality": 85,
+      "unwatermarkedSha256": "0c7a646c4d765601f9aa1ce198b84b43a4c366444b9d7a5837d79c9fd7b34798",
+      "watermarkRecord": "site-src/_data/product-watermarks.json",
+      "sourceFile": "DSC_5874.jpg",
+      "sourceSha256": "a64ba636f8fc74d6bd0db8aa7cdf6bea1ae463c078e7c1027bfea35d96cf153a",
+      "originalBackup": "docs/release/k115-quick-photos-20261024/source/DSC_5874.jpg",
+      "caption": {
+        "en": "Horizontal sidewall K115 quick-response sprinkler — 182°C",
+        "ar": "رشاش K115 سريع الاستجابة جانبي أفقي — 182°C"
+      },
+      "publishedTransform": "CHUANWEI FIRE text watermark in clear whitespace"
+    },
+    {
+      "productId": "k115-quick-response-fire-sprinkler",
+      "routeId": "product:k115-quick-response-fire-sprinkler",
+      "path": "assets/products/guanya-2026/k115-quick-response-fire-sprinkler-dsc_5874-1600.webp",
+      "width": 1147,
+      "height": 1493,
+      "bytes": 66586,
+      "sha256": "294068a4158b10d678f43da67dd902c609ec6f5bae45cc3237f173081ef71b9e",
+      "quality": 85,
+      "unwatermarkedSha256": "0c1371413af6e83314feba810079440af78e8172daae7887c6850e304ba73905",
+      "watermarkRecord": "site-src/_data/product-watermarks.json",
+      "sourceFile": "DSC_5874.jpg",
+      "sourceSha256": "a64ba636f8fc74d6bd0db8aa7cdf6bea1ae463c078e7c1027bfea35d96cf153a",
+      "originalBackup": "docs/release/k115-quick-photos-20261024/source/DSC_5874.jpg",
+      "caption": {
+        "en": "Horizontal sidewall K115 quick-response sprinkler — 182°C",
+        "ar": "رشاش K115 سريع الاستجابة جانبي أفقي — 182°C"
+      },
+      "publishedTransform": "CHUANWEI FIRE text watermark in clear whitespace"
+    },
+    {
+      "productId": "k115-quick-response-fire-sprinkler",
+      "routeId": "product:k115-quick-response-fire-sprinkler",
+      "path": "assets/products/guanya-2026/k115-quick-response-fire-sprinkler-dsc_5877-640.webp",
+      "width": 455,
+      "height": 640,
+      "bytes": 23116,
+      "sha256": "da6fbbe35e537e07aac9ba8448262d9f1b22d4ab9294986a4b7a5b6c51af2b7d",
+      "quality": 85,
+      "unwatermarkedSha256": "ae107ad2eb94be7fae31c9745b5980f0619559959bf1e26c45c53e54397ba6d4",
+      "watermarkRecord": "site-src/_data/product-watermarks.json",
+      "sourceFile": "DSC_5877.jpg",
+      "sourceSha256": "cdc64ffb6899e2ceb36bd9f42cf535e9459ea54b4f51d789bea90483a92c2f2a",
+      "originalBackup": "docs/release/k115-quick-photos-20261024/source/DSC_5877.jpg",
+      "caption": {
+        "en": "Horizontal sidewall K115 quick-response sprinkler — 141°C",
+        "ar": "رشاش K115 سريع الاستجابة جانبي أفقي — 141°C"
+      },
+      "publishedTransform": "CHUANWEI FIRE text watermark in clear whitespace"
+    },
+    {
+      "productId": "k115-quick-response-fire-sprinkler",
+      "routeId": "product:k115-quick-response-fire-sprinkler",
+      "path": "assets/products/guanya-2026/k115-quick-response-fire-sprinkler-dsc_5877-1600.webp",
+      "width": 1012,
+      "height": 1425,
+      "bytes": 62350,
+      "sha256": "6d5d9a18d080f8de3e90009ccd6bfd00a5b430848652636fcd75ce326892c147",
+      "quality": 85,
+      "unwatermarkedSha256": "2bd7c714b5c0e567a5c8228ca5fc04af300e02826ebdbeddd898708327178af8",
+      "watermarkRecord": "site-src/_data/product-watermarks.json",
+      "sourceFile": "DSC_5877.jpg",
+      "sourceSha256": "cdc64ffb6899e2ceb36bd9f42cf535e9459ea54b4f51d789bea90483a92c2f2a",
+      "originalBackup": "docs/release/k115-quick-photos-20261024/source/DSC_5877.jpg",
+      "caption": {
+        "en": "Horizontal sidewall K115 quick-response sprinkler — 141°C",
+        "ar": "رشاش K115 سريع الاستجابة جانبي أفقي — 141°C"
+      },
+      "publishedTransform": "CHUANWEI FIRE text watermark in clear whitespace"
+    },
+    {
+      "productId": "k115-quick-response-fire-sprinkler",
+      "routeId": "product:k115-quick-response-fire-sprinkler",
+      "path": "assets/products/guanya-2026/k115-quick-response-fire-sprinkler-dsc_5880-640.webp",
+      "width": 460,
+      "height": 640,
+      "bytes": 24248,
+      "sha256": "e48bda3d3ebb84b73a43f4ddbc62c4c4662f43de5b8b72fd4130fe6bba18d40d",
+      "quality": 85,
+      "unwatermarkedSha256": "cd7c87bfcadb246be7ae83afaf22ec5876d48e134f7d562db3f52f68887cd98f",
+      "watermarkRecord": "site-src/_data/product-watermarks.json",
+      "sourceFile": "DSC_5880.jpg",
+      "sourceSha256": "c7f59c4b9ee0921590637dd03c71973ab620d061336be2ded4bdfbac54727e15",
+      "originalBackup": "docs/release/k115-quick-photos-20261024/source/DSC_5880.jpg",
+      "caption": {
+        "en": "Horizontal sidewall K115 quick-response sprinkler — 79°C",
+        "ar": "رشاش K115 سريع الاستجابة جانبي أفقي — 79°C"
+      },
+      "publishedTransform": "CHUANWEI FIRE text watermark in clear whitespace"
+    },
+    {
+      "productId": "k115-quick-response-fire-sprinkler",
+      "routeId": "product:k115-quick-response-fire-sprinkler",
+      "path": "assets/products/guanya-2026/k115-quick-response-fire-sprinkler-dsc_5880-1600.webp",
+      "width": 1012,
+      "height": 1408,
+      "bytes": 63962,
+      "sha256": "f2b41475caa689eee54dd72550c0e89ef215fe828892e11b40ca65906833adc4",
+      "quality": 85,
+      "unwatermarkedSha256": "e07472321752228317c6e5d180bd0d1e356c001fe301cafede04b78a9a04944f",
+      "watermarkRecord": "site-src/_data/product-watermarks.json",
+      "sourceFile": "DSC_5880.jpg",
+      "sourceSha256": "c7f59c4b9ee0921590637dd03c71973ab620d061336be2ded4bdfbac54727e15",
+      "originalBackup": "docs/release/k115-quick-photos-20261024/source/DSC_5880.jpg",
+      "caption": {
+        "en": "Horizontal sidewall K115 quick-response sprinkler — 79°C",
+        "ar": "رشاش K115 سريع الاستجابة جانبي أفقي — 79°C"
+      },
+      "publishedTransform": "CHUANWEI FIRE text watermark in clear whitespace"
+    },
+    {
+      "productId": "k115-quick-response-fire-sprinkler",
+      "routeId": "product:k115-quick-response-fire-sprinkler",
+      "path": "assets/products/guanya-2026/k115-quick-response-fire-sprinkler-dsc_5883-640.webp",
+      "width": 460,
+      "height": 640,
+      "bytes": 21188,
+      "sha256": "7bdbce6183ec811732bf244fe2af76ef031ebfec41d7edcb24e5830e29aaf217",
+      "quality": 85,
+      "unwatermarkedSha256": "c4e4c36875dca9f50fba94b91bb3600da92b1dd2034ada5cb62613c239463c80",
+      "watermarkRecord": "site-src/_data/product-watermarks.json",
+      "sourceFile": "DSC_5883.jpg",
+      "sourceSha256": "95d2fd54eef40ea7b67969f2b4c3e784172ac2fdcfbccce2cb14e8b37cb86fd5",
+      "originalBackup": "docs/release/k115-quick-photos-20261024/source/DSC_5883.jpg",
+      "caption": {
+        "en": "Horizontal sidewall K115 quick-response sprinkler — 260°C",
+        "ar": "رشاش K115 سريع الاستجابة جانبي أفقي — 260°C"
+      },
+      "publishedTransform": "CHUANWEI FIRE text watermark in clear whitespace"
+    },
+    {
+      "productId": "k115-quick-response-fire-sprinkler",
+      "routeId": "product:k115-quick-response-fire-sprinkler",
+      "path": "assets/products/guanya-2026/k115-quick-response-fire-sprinkler-dsc_5883-1600.webp",
+      "width": 1012,
+      "height": 1408,
+      "bytes": 54674,
+      "sha256": "d230896b39eddd6e2d3a12334087bd6cebd4186a7b847ff4ca55d53b75762291",
+      "quality": 85,
+      "unwatermarkedSha256": "a59c8160c5280cb3b21eafe12fc2d64279776aeeab9f6a9e3b4806dfcd97168f",
+      "watermarkRecord": "site-src/_data/product-watermarks.json",
+      "sourceFile": "DSC_5883.jpg",
+      "sourceSha256": "95d2fd54eef40ea7b67969f2b4c3e784172ac2fdcfbccce2cb14e8b37cb86fd5",
+      "originalBackup": "docs/release/k115-quick-photos-20261024/source/DSC_5883.jpg",
+      "caption": {
+        "en": "Horizontal sidewall K115 quick-response sprinkler — 260°C",
+        "ar": "رشاش K115 سريع الاستجابة جانبي أفقي — 260°C"
+      },
+      "publishedTransform": "CHUANWEI FIRE text watermark in clear whitespace"
+    },
+    {
+      "productId": "k115-quick-response-fire-sprinkler",
+      "routeId": "product:k115-quick-response-fire-sprinkler",
+      "path": "assets/products/guanya-2026/k115-quick-response-fire-sprinkler-dsc_5886-640.webp",
+      "width": 459,
+      "height": 640,
+      "bytes": 23590,
+      "sha256": "c34cb1405f711d6c4e63e2ff49452ebef04e69b4bb43053760d60b0b708eef7d",
+      "quality": 85,
+      "unwatermarkedSha256": "59136bb15b2d7f6fcf2f219e767dd855fe22f953aaa58beedec473c6e33dd57d",
+      "watermarkRecord": "site-src/_data/product-watermarks.json",
+      "sourceFile": "DSC_5886.jpg",
+      "sourceSha256": "f16b6d8b6410f357f142a05f543800543fabee74275afec74f19ed077d821a65",
+      "originalBackup": "docs/release/k115-quick-photos-20261024/source/DSC_5886.jpg",
+      "caption": {
+        "en": "Horizontal sidewall K115 quick-response sprinkler — 93°C",
+        "ar": "رشاش K115 سريع الاستجابة جانبي أفقي — 93°C"
+      },
+      "publishedTransform": "CHUANWEI FIRE text watermark in clear whitespace"
+    },
+    {
+      "productId": "k115-quick-response-fire-sprinkler",
+      "routeId": "product:k115-quick-response-fire-sprinkler",
+      "path": "assets/products/guanya-2026/k115-quick-response-fire-sprinkler-dsc_5886-1600.webp",
+      "width": 1046,
+      "height": 1459,
+      "bytes": 67534,
+      "sha256": "0f4352fec2bd36d93fbd8f2360f602c6e6060694fd56a4f6c4b32999a7c1dfde",
+      "quality": 85,
+      "unwatermarkedSha256": "34bdc35ff440b21f3877913cc828480aa3269e8fade30ee41720a5f1b237e83c",
+      "watermarkRecord": "site-src/_data/product-watermarks.json",
+      "sourceFile": "DSC_5886.jpg",
+      "sourceSha256": "f16b6d8b6410f357f142a05f543800543fabee74275afec74f19ed077d821a65",
+      "originalBackup": "docs/release/k115-quick-photos-20261024/source/DSC_5886.jpg",
+      "caption": {
+        "en": "Horizontal sidewall K115 quick-response sprinkler — 93°C",
+        "ar": "رشاش K115 سريع الاستجابة جانبي أفقي — 93°C"
+      },
+      "publishedTransform": "CHUANWEI FIRE text watermark in clear whitespace"
+    }
+  ]
+}

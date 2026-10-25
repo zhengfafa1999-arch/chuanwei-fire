@@ -1,0 +1,433 @@
+[
+  {
+    "product": "automatic-transfer-control-cabinets",
+    "title": "Dual Power Control Cabinets",
+    "items": [
+      "额定电流、转换逻辑、频率、尺寸和防护等级按准确供货柜核实。"
+    ],
+    "source": "site-src/_data/documented-products/automatic-transfer-control-cabinets.json",
+    "thisReview": "no-new-sku-specific-evidence",
+    "projectMatchingOnly": false
+  },
+  {
+    "product": "cabinet-aerosol-fire-suppression",
+    "title": "Cabinet Aerosol Fire Suppression Devices",
+    "items": [
+      "精确可供型号、壳体材质、药剂量、动作条件、保护容积、安装间距待核实。",
+      "XDX10G/20G/30G/40G仅为照片候选，缺同型号说明书与供货确认，不列具体SKU。",
+      "原图保护范围m²与m³冲突，未采用。",
+      "资料标题称导轨式，但可见结构为胶贴，DIN导轨兼容性不承诺。"
+    ],
+    "source": "site-src/_data/documented-products/cabinet-aerosol-fire-suppression.json",
+    "thisReview": "no-new-sku-specific-evidence",
+    "projectMatchingOnly": false
+  },
+  {
+    "product": "combined-smoke-heat-detectors",
+    "title": "Combined Smoke and Heat Detectors",
+    "items": [
+      "具体工程的控制器、回路协议与现场设备组合仍须匹配；不宣称通用兼容。"
+    ],
+    "source": "site-src/_data/documented-products/combined-smoke-heat-detectors.json",
+    "thisReview": "exact-model-specifications-added",
+    "projectMatchingOnly": true
+  },
+  {
+    "product": "fire-alarm-control-panels",
+    "title": "Fire Alarm Control Panels",
+    "items": [
+      "1936点宣传与1600点SKU冲突，未确定单环及总容量。",
+      "实际出货回路数、电源、蓄电池、接口、语言、协议、设备兼容及尺寸需按项目核实。"
+    ],
+    "source": "site-src/_data/documented-products/fire-alarm-control-panels.json",
+    "thisReview": "no-new-sku-specific-evidence",
+    "projectMatchingOnly": false
+  },
+  {
+    "product": "fire-alarm-input-output-modules",
+    "title": "Fire Alarm Input/Output Modules",
+    "items": [
+      "实际控制器固件兼容、控制负载与联动方案按工程设计核对；不承诺直接驱动电机或消防泵。"
+    ],
+    "source": "site-src/_data/documented-products/fire-alarm-input-output-modules.json",
+    "thisReview": "exact-model-specifications-added",
+    "projectMatchingOnly": true
+  },
+  {
+    "product": "fire-alarm-sounder-beacons",
+    "title": "Fire Alarm Sounder Beacons",
+    "items": [
+      "TX3307（不带A）电源、工作电流、声压、底座与接线仍缺同型号说明书，不使用TX3307A参数代替。",
+      "TX3307A光强/覆盖性能与防护等级未见本次说明书明示；实际控制器兼容按项目核对。"
+    ],
+    "source": "site-src/_data/documented-products/fire-alarm-sounder-beacons.json",
+    "thisReview": "exact-model-specifications-added",
+    "projectMatchingOnly": false
+  },
+  {
+    "product": "fire-extinguisher-balls",
+    "title": "Dry Powder Fire Extinguisher Balls",
+    "items": [
+      "确切工厂型号、外壳材质、药剂净重、动作条件、保护范围与目的地适用文件待确认。",
+      "0.5 kg仅为产品声明重量，不能转写成0.5 kg药剂净重。"
+    ],
+    "source": "site-src/_data/documented-products/fire-extinguisher-balls.json",
+    "thisReview": "no-new-sku-specific-evidence",
+    "projectMatchingOnly": false
+  },
+  {
+    "product": "fire-pressure-maintenance-sets",
+    "title": "Fire Pressure Maintenance Sets",
+    "items": [
+      "完整SQL型号、罐容、材质、压力、流量、功率与接口资料缺失。"
+    ],
+    "source": "site-src/_data/documented-products/fire-pressure-maintenance-sets.json",
+    "thisReview": "general-guidance-added",
+    "projectMatchingOnly": false
+  },
+  {
+    "product": "fire-pump-inspection-control-cabinets",
+    "title": "Fire Pump Inspection & Control Cabinets",
+    "items": [
+      "各柜电机负载适配、频率、内部器件、防护等级待确认；未标型号柜尺寸缺失。"
+    ],
+    "source": "site-src/_data/documented-products/fire-pump-inspection-control-cabinets.json",
+    "thisReview": "no-new-sku-specific-evidence",
+    "projectMatchingOnly": false
+  },
+  {
+    "product": "flanged-globe-valves",
+    "title": "Flanged Globe Valves",
+    "items": [
+      "阀内件、密封材料、允许温度、法兰钻孔和安装尺寸待核实。"
+    ],
+    "source": "site-src/_data/documented-products/flanged-globe-valves.json",
+    "thisReview": "no-new-sku-specific-evidence",
+    "projectMatchingOnly": false
+  },
+  {
+    "product": "flanged-y-strainers",
+    "title": "Flanged Y Strainers",
+    "items": [
+      "滤网材质和孔径、法兰钻孔及运行温度待确认。"
+    ],
+    "source": "site-src/_data/documented-products/flanged-y-strainers.json",
+    "thisReview": "no-new-sku-specific-evidence",
+    "projectMatchingOnly": false
+  },
+  {
+    "product": "grooved-concentric-reducers",
+    "title": "Grooved Concentric Reducers",
+    "items": [
+      "确认大端与小端的实际管道外径和沟槽尺寸，不能只凭DN选型",
+      "确认球墨铸铁材质及牌号是否适用于本店出口供货",
+      "本店实际可供出口规格与型号对应关系",
+      "主体材质及牌号，必要时含密封件和紧固件材质",
+      "额定工作压力与目标市场标准或认证的有效证明",
+      "价格、币种、贸易条款、MOQ、库存及交期",
+      "每箱数量、包装方式、净重、毛重及包装尺寸",
+      "如需实物Logo定制，确认工艺、位置、MOQ、稿件格式、样品费及交期"
+    ],
+    "source": "site-src/_data/documented-products/grooved-concentric-reducers.json",
+    "resolvedContext": "原网页已明确主体为球墨铸铁，已填写官网。以下旧资料中的主体材质问题仅保留牌号、出口批次及其他部件的进一步确认，不要求用户重复确认球墨铸铁。",
+    "thisReview": "no-new-sku-specific-evidence",
+    "projectMatchingOnly": false
+  },
+  {
+    "product": "grooved-equal-crosses",
+    "title": "Grooved Equal Crosses",
+    "items": [
+      "压力、壁厚、重量、沟槽尺寸待核实。"
+    ],
+    "source": "site-src/_data/documented-products/grooved-equal-crosses.json",
+    "thisReview": "no-new-sku-specific-evidence",
+    "projectMatchingOnly": false
+  },
+  {
+    "product": "grooved-equal-tees",
+    "title": "Grooved Equal Tees",
+    "items": [
+      "确认相同DN下不同外径系列的实际供货关系",
+      "可见XGQT03及159-2.5/3铸字不能直接作为型号、压力或认证证明",
+      "本店实际可供出口规格与型号对应关系",
+      "主体材质及牌号，必要时含密封件和紧固件材质",
+      "额定工作压力与目标市场标准或认证的有效证明",
+      "价格、币种、贸易条款、MOQ、库存及交期",
+      "每箱数量、包装方式、净重、毛重及包装尺寸",
+      "如需实物Logo定制，确认工艺、位置、MOQ、稿件格式、样品费及交期"
+    ],
+    "source": "site-src/_data/documented-products/grooved-equal-tees.json",
+    "resolvedContext": "原网页已明确主体为球墨铸铁，已填写官网。以下旧资料中的主体材质问题仅保留牌号、出口批次及其他部件的进一步确认，不要求用户重复确认球墨铸铁。",
+    "thisReview": "no-new-sku-specific-evidence",
+    "projectMatchingOnly": false
+  },
+  {
+    "product": "grooved-flange-adapters",
+    "title": "Grooved Flange Adapters",
+    "items": [
+      "确认法兰孔数、孔距、孔径、钻孔标准及沟槽端口匹配关系",
+      "本店实际可供出口规格与型号对应关系",
+      "球墨铸铁具体牌号，必要时含密封件和紧固件材质",
+      "额定工作压力与目标市场标准或认证的有效证明",
+      "价格、币种、贸易条款、MOQ、库存及交期",
+      "每箱数量、包装方式、净重、毛重及包装尺寸",
+      "如需实物Logo定制，确认工艺、位置、MOQ、稿件格式、样品费及交期"
+    ],
+    "source": "site-src/_data/documented-products/grooved-flange-adapters.json",
+    "thisReview": "exact-model-specifications-added",
+    "projectMatchingOnly": false
+  },
+  {
+    "product": "grooved-pipe-elbows",
+    "title": "Grooved Pipe Elbows",
+    "items": [
+      "各尺寸沟槽、压力、壁厚、重量及11.25°/22.5°准确照片待核实。"
+    ],
+    "source": "site-src/_data/documented-products/grooved-pipe-elbows.json",
+    "thisReview": "no-new-sku-specific-evidence",
+    "projectMatchingOnly": false
+  },
+  {
+    "product": "grooved-reducing-tees",
+    "title": "Grooved Reducing Tees",
+    "items": [
+      "沟槽尺寸、压力、壁厚与重量待核实。"
+    ],
+    "source": "site-src/_data/documented-products/grooved-reducing-tees.json",
+    "thisReview": "no-new-sku-specific-evidence",
+    "projectMatchingOnly": false
+  },
+  {
+    "product": "heat-detectors",
+    "title": "Heat Detectors",
+    "items": [
+      "原网页静态/报警电流与工作温度缺单位，未采用。",
+      "动作温度、探测等级、AC/DC电源性质、环境范围、底座兼容与防护等级待核实。"
+    ],
+    "source": "site-src/_data/documented-products/heat-detectors.json",
+    "thisReview": "no-new-sku-specific-evidence",
+    "projectMatchingOnly": false
+  },
+  {
+    "product": "horizontal-single-stage-fire-pumps",
+    "title": "Horizontal Single-Stage Fire Pumps",
+    "items": [
+      "唯一工厂型号候选XBD3.2/1W- JXL对应1.5 kW、3.6 m3/h、32 m、380 V，需确认实物铭牌及出口供货关系",
+      "最大流量360与最大扬程150缺少单位和型号对应，不可发布为范围或同一工作点",
+      "SKU重量30 kg与包装表1000 g冲突，不可直接用于运费或包装信息",
+      "确认电源频率、相数、转速、性能曲线、泵体材质及法兰钻孔标准",
+      "本店实际可供出口规格与型号对应关系",
+      "主体材质及牌号，必要时含密封件和紧固件材质",
+      "额定工作压力与目标市场标准或认证的有效证明",
+      "价格、币种、贸易条款、MOQ、库存及交期",
+      "每箱数量、包装方式、净重、毛重及包装尺寸",
+      "如需实物Logo定制，确认工艺、位置、MOQ、稿件格式、样品费及交期"
+    ],
+    "source": "site-src/_data/documented-products/horizontal-single-stage-fire-pumps.json",
+    "resolvedContext": "原网页已明确泵体为铸铁，已填写官网；仍需核实的是材质牌号、其他部件、准确型号铭牌及性能对应关系。",
+    "thisReview": "general-guidance-added",
+    "projectMatchingOnly": false
+  },
+  {
+    "product": "liquid-filled-pressure-gauges",
+    "title": "Liquid-filled Pressure Gauges",
+    "items": [
+      "充液种类、接液件材料、温度限制与专用介质适用性待核实。"
+    ],
+    "source": "site-src/_data/documented-products/liquid-filled-pressure-gauges.json",
+    "thisReview": "general-guidance-added",
+    "projectMatchingOnly": false
+  },
+  {
+    "product": "manual-fire-alarm-call-points",
+    "title": "Manual Fire Alarm Call Points",
+    "items": [
+      "具体控制器与消防电话主机兼容仍须按现场系统确认；不适用于TX3142N。"
+    ],
+    "source": "site-src/_data/documented-products/manual-fire-alarm-call-points.json",
+    "thisReview": "exact-model-specifications-added",
+    "projectMatchingOnly": true
+  },
+  {
+    "product": "photoelectric-smoke-detectors",
+    "title": "Photoelectric Smoke Detectors",
+    "items": [
+      "两型号的协议兼容、地址设定、灵敏度、环境条件及底座包含范围待精确型号文件确认。"
+    ],
+    "source": "site-src/_data/documented-products/photoelectric-smoke-detectors.json",
+    "thisReview": "no-new-sku-specific-evidence",
+    "projectMatchingOnly": false
+  },
+  {
+    "product": "pistol-grip-combination-fire-nozzles",
+    "title": "Pistol-grip Combination Fire Nozzles",
+    "items": [
+      "准确型号、材质、接口标准、流量/压力/射程及重量需逐配置核实。"
+    ],
+    "source": "site-src/_data/documented-products/pistol-grip-combination-fire-nozzles.json",
+    "thisReview": "no-new-sku-specific-evidence",
+    "projectMatchingOnly": false
+  },
+  {
+    "product": "portable-co2-fire-extinguishers",
+    "title": "Portable CO₂ Fire Extinguishers",
+    "items": [
+      "精确型号灭火级别、充装压力、使用温度、喷射性能及目的地适用文件待核实。",
+      "整机净重、毛重、包装、交期及商务条件需按订单确认。",
+      "钢材牌号及热处理资料待核实。"
+    ],
+    "source": "site-src/_data/documented-products/portable-co2-fire-extinguishers.json",
+    "thisReview": "no-new-sku-specific-evidence",
+    "projectMatchingOnly": false
+  },
+  {
+    "product": "portable-dry-powder-fire-extinguishers",
+    "title": "Portable Dry Powder Fire Extinguishers",
+    "items": [
+      "精确型号灭火级别、充装压力、使用温度、喷射性能及目的地适用文件待核实。",
+      "整机净重、毛重、包装、交期及商务条件需按订单确认。"
+    ],
+    "source": "site-src/_data/documented-products/portable-dry-powder-fire-extinguishers.json",
+    "thisReview": "no-new-sku-specific-evidence",
+    "projectMatchingOnly": false
+  },
+  {
+    "product": "portable-water-based-fire-extinguishers",
+    "title": "Portable Water-Based Fire Extinguishers",
+    "items": [
+      "精确型号灭火级别、充装压力、使用温度、喷射性能及目的地适用文件待核实。",
+      "整机净重、毛重、包装、交期及商务条件需按订单确认。",
+      "2 L、3 L、9 L瓶体材质需单独确认。",
+      "水基药剂配方、SDS、含氟状况及电气火灾适用性未确认。"
+    ],
+    "source": "site-src/_data/documented-products/portable-water-based-fire-extinguishers.json",
+    "thisReview": "no-new-sku-specific-evidence",
+    "projectMatchingOnly": false
+  },
+  {
+    "product": "pressure-gauge-syphons",
+    "title": "Pressure Gauge Syphon Tubes",
+    "items": [
+      "尺寸、壁厚、额定压力、温度及各材质/接口/外形组合待确认。"
+    ],
+    "source": "site-src/_data/documented-products/pressure-gauge-syphons.json",
+    "thisReview": "general-guidance-added",
+    "projectMatchingOnly": false
+  },
+  {
+    "product": "pressure-vacuum-gauges",
+    "title": "Pressure & Vacuum Gauges",
+    "items": [
+      "外壳及接液材质、环境温度和介质兼容性待核实。"
+    ],
+    "source": "site-src/_data/documented-products/pressure-vacuum-gauges.json",
+    "thisReview": "no-new-sku-specific-evidence",
+    "projectMatchingOnly": false
+  },
+  {
+    "product": "rigid-grooved-pipe-couplings",
+    "title": "Rigid Grooved Pipe Couplings",
+    "items": [
+      "XGQT密封圈材质、两款沟槽图纸/压力/扭矩待确认；另一家卡箍准确型号和尺寸表缺失。",
+      "另一家卡箍的EPDM来自同组密封圈宣传，实际出货批次密封圈材质需核对。"
+    ],
+    "source": "site-src/_data/documented-products/rigid-grooved-pipe-couplings.json",
+    "thisReview": "no-new-sku-specific-evidence",
+    "projectMatchingOnly": false
+  },
+  {
+    "product": "suspended-dry-powder-extinguishers",
+    "title": "Suspended Dry Powder Fire Extinguishers",
+    "items": [
+      "精确工厂型号、供货品牌、罐体与释放组件材质待确认。",
+      "保护体积、保护面积、安装高度、充装压力、喷射性能与目的地适用文件待确认。",
+      "93°C仅为询价配置，未建立药剂与装量的一一对应，未列为SKU。"
+    ],
+    "source": "site-src/_data/documented-products/suspended-dry-powder-extinguishers.json",
+    "thisReview": "no-new-sku-specific-evidence",
+    "projectMatchingOnly": false
+  },
+  {
+    "product": "suspended-ultrafine-dry-powder-extinguishers",
+    "title": "Suspended Ultrafine Dry Powder Fire Extinguishers",
+    "items": [
+      "罐体材质、精确动作温度、充装压力、喷射性能及保护范围待同厂同型号文件确认。",
+      "3、4、5、6、10、12 kg仅有规格选项，缺逐款型号、品牌、外观对应。",
+      "图示浙安广消样品制造商资料与笼统福建产地字段不一致，未对外发布省份。"
+    ],
+    "source": "site-src/_data/documented-products/suspended-ultrafine-dry-powder-extinguishers.json",
+    "thisReview": "no-new-sku-specific-evidence",
+    "projectMatchingOnly": false
+  },
+  {
+    "product": "swing-check-valves",
+    "title": "Swing Check Valves",
+    "items": [
+      "安装方向、内部材质、密封材料、温度与法兰钻孔需核实。"
+    ],
+    "source": "site-src/_data/documented-products/swing-check-valves.json",
+    "thisReview": "no-new-sku-specific-evidence",
+    "projectMatchingOnly": false
+  },
+  {
+    "product": "threaded-mechanical-tees",
+    "title": "Threaded Mechanical Tees",
+    "items": [
+      "丝接出口仅以白底图结构为准；原页沟槽出口不能混入本套丝接规格",
+      "确认BSP或NPT等实际螺纹标准，不能仅凭照片推断",
+      "确认主管外径、开孔要求、密封垫材料及供货组件",
+      "本店实际可供出口规格与型号对应关系",
+      "主体材质及牌号，必要时含密封件和紧固件材质",
+      "额定工作压力与目标市场标准或认证的有效证明",
+      "价格、币种、贸易条款、MOQ、库存及交期",
+      "每箱数量、包装方式、净重、毛重及包装尺寸",
+      "如需实物Logo定制，确认工艺、位置、MOQ、稿件格式、样品费及交期"
+    ],
+    "source": "site-src/_data/documented-products/threaded-mechanical-tees.json",
+    "resolvedContext": "原网页已明确主体为球墨铸铁，已填写官网。以下旧资料中的主体材质问题仅保留牌号、出口批次及其他部件的进一步确认，不要求用户重复确认球墨铸铁。",
+    "thisReview": "no-new-sku-specific-evidence",
+    "projectMatchingOnly": false
+  },
+  {
+    "product": "two-piece-stainless-steel-ball-valves",
+    "title": "Two-piece Stainless Steel Ball Valves",
+    "items": [
+      "精确螺纹标准、压力温度曲线、阀座和密封材质待确认。"
+    ],
+    "source": "site-src/_data/documented-products/two-piece-stainless-steel-ball-valves.json",
+    "thisReview": "no-new-sku-specific-evidence",
+    "projectMatchingOnly": false
+  },
+  {
+    "product": "vertical-multistage-fire-pumps",
+    "title": "Vertical Multistage Fire Pumps",
+    "items": [
+      "电源频率、出口尺寸、曲线、接液件及筒体材质需核实。"
+    ],
+    "source": "site-src/_data/documented-products/vertical-multistage-fire-pumps.json",
+    "thisReview": "general-guidance-added",
+    "projectMatchingOnly": false
+  },
+  {
+    "product": "vertical-single-stage-fire-pumps",
+    "title": "Vertical Single-stage Fire Pumps",
+    "items": [
+      "缺立式泵准确型号、性能曲线、电机铭牌和尺寸图。"
+    ],
+    "source": "site-src/_data/documented-products/vertical-single-stage-fire-pumps.json",
+    "thisReview": "general-guidance-added",
+    "projectMatchingOnly": false
+  },
+  {
+    "product": "wheeled-dry-powder-fire-extinguishers",
+    "title": "Wheeled Dry Powder Fire Extinguishers",
+    "items": [
+      "精确型号灭火级别、充装压力、使用温度、喷射性能及目的地适用文件待核实。",
+      "整机净重、毛重、包装、交期及商务条件需按订单确认。",
+      "软管长度、喷枪参数、尺寸和推车部件材质待核实。"
+    ],
+    "source": "site-src/_data/documented-products/wheeled-dry-powder-fire-extinguishers.json",
+    "thisReview": "no-new-sku-specific-evidence",
+    "projectMatchingOnly": false
+  }
+]

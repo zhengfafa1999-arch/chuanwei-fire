@@ -1,3 +1,9 @@
-These three images were supplied by the user on 2026-08-21 and identified as images sourced from Baidu.
-They are temporary reference assets for page layout and model presentation.
-Replace them with matching factory-owned product photography before public commercial publication.
+Current EC-ZST image provenance — verified 2026-10-24
+
+These existing URLs now contain EC-ZSTX / EC-ZSTZ / EC-ZSTBS 115-68°C Q3A product photographs, with the original visible model markings and CHUANWEI FIRE watermarks. The historical Baidu temporary-reference description does not describe the current file contents.
+
+Pendent: user source DSC_5817.jpg. Upright: user source DSC_5812.jpg. Horizontal sidewall: user source DSC_5820.jpg. Sources were cross-checked against the EC-ZST product package originals. Pendent and sidewall source hashes exactly match the existing unwatermarked masters; upright is the same visually verified photograph with a different JPEG encoding.
+
+The ordinary K115 K-ZST photographs DSC_5887 / DSC_5888 / DSC_5889 belong to the separate K115 quick-response product page and no longer override these EC images. Existing public JPEG bytes and URLs are preserved. This source record does not establish any new performance or certification claim.
+
+Full source hashes, legacy watermark records and review scope: docs/reviews/k115-quick-ec-separation-20261024/reviewed-changes.json

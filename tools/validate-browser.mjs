@@ -4,8 +4,8 @@ import os from "node:os";
 import path from "node:path";
 import { pathToFileURL } from "node:url";
 import { spawn } from "node:child_process";
-import { SITE_ROUTES } from "../site-src/_data/siteRoutes.js";
-import { PRODUCT_FAMILIES } from "../site-src/_data/productDirectory.js";
+import { SITE_ROUTES, createListingPageRoute } from "../site-src/_data/siteRoutes.js";
+import { PRODUCT_FAMILIES, flatProducts, localizedText } from "../site-src/_data/productDirectory.js";
 import { catalogExpansionByRoute } from "../site-src/_data/catalogExpansion.js";
 import { validateSystemValveNavigation } from "./browser-system-valves.mjs";
 import { validateStandardResponse } from "./browser-standard-response.mjs";
@@ -29,7 +29,7 @@ const evidencePath = evidenceArgument?.slice('--evidence-dir='.length) || proces
 const evidenceDirectory = evidencePath
   ? path.resolve(root, evidencePath)
   : focusedSlugs.length || focusedCategorySlug
-    ? path.join(root, "docs", "evidence", "focused", focusedSlugs.length === 1 ? focusedSlugs[0] : `batch-${focusedSlugs.length}-products`, process.argv.includes('--file-preview') ? 'file' : 'http')
+    ? path.join(root, "docs", "evidence", "focused", focusedCategorySlug ? `category-${focusedCategorySlug}` : focusedSlugs.length === 1 ? focusedSlugs[0] : `batch-${focusedSlugs.length}-products`, process.argv.includes('--file-preview') ? 'file' : 'http')
     : path.join(root, "docs", "evidence", "responsive-rtl", "2026-09-05");
 const edgeCandidates = [
   process.env.EDGE_PATH,
@@ -349,6 +349,89 @@ const responsiveScreenshotTargets = new Set([
   "product:ria25-fire-hose-reel:en"
 ]);
 
+async function validateSprinklerCategorySeries(client, origin, locale, viewport) {
+  const expectedIds = ['k80-standard', 'k80-quick', 'k115-quick', 'k115-standard',
+    'k80-standard-concealed', 'k80-quick-concealed', 'k115-standard-concealed', 'k115-quick-concealed',
+    'dry', 'large-k', 'ec', 'esfr', 'fusible-alloy', 'closed-rotating', 'closed-centrifugal', 'water-mist', 'water-curtain'];
+  const family = PRODUCT_FAMILIES.find(item => item.id === 'sprinklers');
+  const products = flatProducts(family);
+  const categoryRoute = createListingPageRoute(family.routeId, locale);
+  const categoryPath = `/${categoryRoute.outputPath}`;
+  const scope = `${viewport.id}/${locale}: sprinkler series`;
+  const cards = await evaluate(client, `(() => [...document.querySelectorAll('#products .product-card')].map(card => {
+    const heading = card.querySelector('h3'), link = card.querySelector('.product-card__link');
+    return {id:card.dataset.sprinklerSeries, name:heading?.textContent.trim(), href:link?.href,
+      hasImage:!!card.querySelector('img'), inquiry:!!card.querySelector('.product-card__badge--inquiry'),
+      rendered:!!heading && heading.getBoundingClientRect().width > 0 && heading.getBoundingClientRect().height > 0 &&
+        getComputedStyle(heading).visibility !== 'hidden' && getComputedStyle(card).display !== 'none' && !card.hidden};
+  }))()`);
+  assert(JSON.stringify(cards.map(card => card.id)) === JSON.stringify(expectedIds), `${scope}: expected exactly 17 series in the approved order.`);
+  assert(cards.every((card, index) => card.rendered && card.name === localizedText(products[index].name, locale)), `${scope}: series headings are missing, hidden or incorrectly localized.`);
+  const inquiries = cards.filter(card => card.inquiry);
+  assert(inquiries.length === 0, `${scope}: all 17 photographed series must open product details.`);
+  assert(cards.every(card => card.hasImage), `${scope}: a published series lost its photograph.`);
+  const detailChecks = [];
+  for (const seriesId of ['k115-quick', 'k115-standard']) {
+    const product = products.find(item => item.seriesId === seriesId);
+    const expectedPath = `/${SITE_ROUTES[product.routeId].locales[locale].outputPath}`;
+    await navigate(client, `${origin}${encodeURI(categoryPath)}`, categoryPath);
+    const clicked = await evaluate(client, `(() => {
+      const link = document.querySelector('#products [data-sprinkler-series="${seriesId}"] .product-card__link');
+      if (!link || decodeURI(new URL(link.href).pathname) !== ${JSON.stringify(expectedPath)}) return false;
+      link.click(); return true;
+    })()`);
+    assert(clicked, `${scope}/${seriesId}: missing direct link to its own detail page.`);
+    await waitForLocation(client, expectedPath);
+    const destination = await evaluate(client, `({
+      routeId:document.body.dataset.siteRouteId,
+      heading:document.querySelector('h1')?.textContent.trim(),
+      galleryImages:document.querySelectorAll('.pdp-gallery__thumb').length,
+      modelRows:document.querySelectorAll('#models tbody tr').length
+    })`);
+    assert(destination.routeId === product.routeId && destination.heading === localizedText(product.name, locale), `${scope}/${seriesId}: wrong product or language destination.`);
+    assert(destination.galleryImages === 3 && destination.modelRows === 3, `${scope}/${seriesId}: each orientation must have a photograph and model row.`);
+    const layout = await inspectPage(client);
+    assert(layout.lang === locale && layout.brokenImageCount === 0 && layout.horizontalOverflow <= 1, `${scope}/${seriesId}: detail destination lost locale or layout.`);
+    detailChecks.push({seriesId, path:expectedPath, status:'PASS'});
+  }
+
+  const anchorIds = ['k80-standard-concealed', 'k80-quick-concealed', 'k115-standard-concealed', 'k115-quick-concealed', 'large-k', 'esfr'];
+  const anchorChecks = [];
+  for (const seriesId of anchorIds) {
+    const product = products.find(item => item.seriesId === seriesId);
+    const expectedPath = `/${SITE_ROUTES[product.routeId].locales[locale].outputPath}`;
+    const anchor = `series-${seriesId}`;
+    await navigate(client, `${origin}${encodeURI(categoryPath)}`, categoryPath);
+    const clicked = await evaluate(client, `(() => {
+      const link = document.querySelector('#products [data-sprinkler-series="${seriesId}"] .product-card__link');
+      if (!link || new URL(link.href).hash !== '#${anchor}') return false;
+      link.click(); return true;
+    })()`);
+    assert(clicked, `${scope}/${seriesId}: missing link to the correct model section.`);
+    await waitForLocation(client, expectedPath);
+    let destination;
+    for (let attempt = 0; attempt < 80; attempt += 1) {
+      destination = await evaluate(client, `(() => {
+        const target = document.getElementById('${anchor}');
+        const bounds = target?.getBoundingClientRect();
+        const headerBottom = document.querySelector('[data-global-header]')?.getBoundingClientRect().bottom || 0;
+        return {hash:location.hash, found:!!target, insideModels:!!target?.closest('#models'), tag:target?.tagName,
+          heading:target?.querySelector('h3')?.textContent.trim(), text:target?.textContent.trim(),
+          top:bounds?.top, headerBottom, visible:!!bounds && bounds.height > 0 && bounds.top >= headerBottom - 1 && bounds.top < innerHeight / 2};
+      })()`);
+      if (destination.hash === `#${anchor}` && destination.visible) break;
+      await delay(50);
+    }
+    assert(destination.found && destination.insideModels && destination.hash === `#${anchor}` && destination.visible, `${scope}/${seriesId}: model section is missing or obscured after the real link click: ${JSON.stringify(destination)}`);
+    assert(seriesId.includes('concealed') ? destination.tag === 'TR' && destination.text : destination.tag === 'DIV' && destination.heading, `${scope}/${seriesId}: anchor does not target its model row or named series section.`);
+    const layout = await inspectPage(client);
+    assert(layout.lang === locale && layout.brokenImageCount === 0 && layout.horizontalOverflow <= 1, `${scope}/${seriesId}: detail destination lost locale or layout.`);
+    anchorChecks.push({seriesId, anchor, path:expectedPath, status:'PASS'});
+  }
+  await navigate(client, `${origin}${encodeURI(categoryPath)}`, categoryPath);
+  return {viewport:viewport.id, locale, status:'PASS', series:cards.map(({id,name}) => ({id,name})), inquirySeries:inquiries.map(card => card.id), detailChecks, anchorChecks};
+}
+
 async function run() {
   const focusedProducts = focusedSlugs.map(slug => {
     const preservedSource = path.join(root, 'site-src', '_data', 'preserved-products', `${slug}.json`);
@@ -441,13 +524,20 @@ async function run() {
         client, origin, viewports, evaluate, navigate, waitForLocation, inspectPage, assert,
         categoryId: focusedCategoryId, expectedProducts: productCount
       });
-      const screenshots = [];
+      const screenshots = [], sprinklerSeriesChecks = [];
       for (const viewport of viewports) {
         await client.send('Emulation.setDeviceMetricsOverride', viewport);
         for (const locale of ['en', 'ar']) {
           const target = SITE_ROUTES[focusedCategoryId].locales[locale];
           const routePath = `/${target.outputPath}`;
           await navigate(client, `${origin}${encodeURI(routePath)}`, routePath);
+          if (focusedCategorySlug === 'sprinklers') sprinklerSeriesChecks.push(await validateSprinklerCategorySeries(client, origin, locale, viewport));
+          await evaluate(client, `(() => {
+            document.documentElement.style.scrollBehavior = 'auto';
+            const products = document.getElementById('products');
+            if (products) window.scrollTo({top:scrollY + products.getBoundingClientRect().top - (document.querySelector('[data-global-header]')?.getBoundingClientRect().height || 0), behavior:'instant'});
+            return Promise.all([...document.querySelectorAll('#products img')].map(image => {image.loading='eager';return image.decode().catch(() => {})}));
+          })()`);
           const state = await inspectPage(client);
           assert(state.lang === locale && state.dir === (locale === 'ar' ? 'rtl' : 'ltr'), `${focusedCategoryId}/${locale}: wrong language direction.`);
           assert(state.brokenImageCount === 0 && state.horizontalOverflow <= 1, `${focusedCategoryId}/${locale}: broken image or page overflow.`);
@@ -461,7 +551,7 @@ async function run() {
         scope: 'single-category', category: focusedCategorySlug,
         previewMode: process.argv.includes('--file-preview') ? 'file' : 'http',
         generatedAt: new Date().toISOString(), browser: version.Browser, viewports,
-        languageSwitches: results, screenshots
+        languageSwitches: results, sprinklerSeriesChecks, screenshots
       };
       fs.writeFileSync(path.join(evidenceDirectory, 'category-validation.json'), `${JSON.stringify(evidence, null, 2)}\n`);
       console.log(`Focused category validation passed: ${focusedCategorySlug}, ${results.length} desktop/mobile × EN/AR navigation scenarios. Full-site browser audit intentionally not run.`);

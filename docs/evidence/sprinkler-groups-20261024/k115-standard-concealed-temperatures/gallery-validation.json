@@ -1,0 +1,894 @@
+{
+  "status": "PASS",
+  "generatedAt": "2026-10-24T16:15:38.235Z",
+  "browser": "Edg/155.0.4283.62",
+  "scenarioCount": 4,
+  "decodedPhotoChecks": 32,
+  "newPhotoModalChecks": 32,
+  "newPhotoOrder": [
+    "concealed-k115-57c-covered.jpg",
+    "concealed-k115-57c-exposed.jpg",
+    "DSC_5921.jpg",
+    "DSC_5920.jpg",
+    "DSC_5915.jpg",
+    "DSC_5914.jpg",
+    "DSC_5913.jpg",
+    "DSC_5912.jpg"
+  ],
+  "scenarios": [
+    {
+      "status": "PASS",
+      "viewport": "desktop",
+      "locale": "en",
+      "path": "products/消防喷头/k115-standard-response-concealed-sprinkler.html",
+      "count": 8,
+      "mainGalleryCount": 3,
+      "lang": "en",
+      "dir": "ltr",
+      "overflow": 0,
+      "viewportWidth": 1440,
+      "photos": [
+        {
+          "id": "product-photograph-1",
+          "src": "assets/products/guanya-2026/concealed-pendent-fire-sprinkler-concealed-k115-57c-covered-640.webp",
+          "srcset": "../../assets/products/guanya-2026/concealed-pendent-fire-sprinkler-concealed-k115-57c-covered-640.webp?v=95d23a14b42e 640w, ../../assets/products/guanya-2026/concealed-pendent-fire-sprinkler-concealed-k115-57c-covered-1600.webp?v=f1bc1f726704 1600w",
+          "detail": "assets/products/guanya-2026/concealed-pendent-fire-sprinkler-concealed-k115-57c-covered-1600.webp",
+          "decoded": true,
+          "caption": "Concealed K115 / 57°C sprinkler — cover fitted",
+          "expectedCaption": "Concealed K115 / 57°C sprinkler — cover fitted",
+          "alt": "Concealed K115 / 57°C sprinkler — cover fitted",
+          "bounds": {
+            "left": 130,
+            "right": 507.328125
+          },
+          "width": 360,
+          "height": 298
+        },
+        {
+          "id": "product-photograph-2",
+          "src": "assets/products/guanya-2026/concealed-pendent-fire-sprinkler-concealed-k115-57c-exposed-640.webp",
+          "srcset": "../../assets/products/guanya-2026/concealed-pendent-fire-sprinkler-concealed-k115-57c-exposed-640.webp?v=26e1301914f8 440w, ../../assets/products/guanya-2026/concealed-pendent-fire-sprinkler-concealed-k115-57c-exposed-1600.webp?v=f26c2b898e97 945w",
+          "detail": "assets/products/guanya-2026/concealed-pendent-fire-sprinkler-concealed-k115-57c-exposed-1600.webp",
+          "decoded": true,
+          "caption": "Concealed K115 / 57°C sprinkler — exposed mechanism",
+          "expectedCaption": "Concealed K115 / 57°C sprinkler — exposed mechanism",
+          "alt": "Concealed K115 / 57°C sprinkler — exposed mechanism",
+          "bounds": {
+            "left": 531.328125,
+            "right": 908.65625
+          },
+          "width": 360,
+          "height": 523
+        },
+        {
+          "id": "product-photograph-3",
+          "src": "assets/products/guanya-2026/k115-standard-response-concealed-sprinkler-dsc_5921-640.webp",
+          "srcset": "../../assets/products/guanya-2026/k115-standard-response-concealed-sprinkler-dsc_5921-640.webp?v=bd48c9c1c93c 640w, ../../assets/products/guanya-2026/k115-standard-response-concealed-sprinkler-dsc_5921-1600.webp?v=153f60c9dfcb 1600w",
+          "detail": "assets/products/guanya-2026/k115-standard-response-concealed-sprinkler-dsc_5921-1600.webp",
+          "decoded": true,
+          "caption": "K115 standard-response concealed sprinkler — 79°C, covered assembly",
+          "expectedCaption": "K115 standard-response concealed sprinkler — 79°C, covered assembly",
+          "alt": "K115 standard-response concealed sprinkler — 79°C, covered assembly",
+          "bounds": {
+            "left": 932.65625,
+            "right": 1310
+          },
+          "width": 360,
+          "height": 291
+        },
+        {
+          "id": "product-photograph-4",
+          "src": "assets/products/guanya-2026/k115-standard-response-concealed-sprinkler-dsc_5920-640.webp",
+          "srcset": "../../assets/products/guanya-2026/k115-standard-response-concealed-sprinkler-dsc_5920-640.webp?v=a42504a29007 401w, ../../assets/products/guanya-2026/k115-standard-response-concealed-sprinkler-dsc_5920-1600.webp?v=74c1453aa38c 860w",
+          "detail": "assets/products/guanya-2026/k115-standard-response-concealed-sprinkler-dsc_5920-1600.webp",
+          "decoded": true,
+          "caption": "K115 standard-response concealed sprinkler — 79°C, exposed mechanism",
+          "expectedCaption": "K115 standard-response concealed sprinkler — 79°C, exposed mechanism",
+          "alt": "K115 standard-response concealed sprinkler — 79°C, exposed mechanism",
+          "bounds": {
+            "left": 130,
+            "right": 507.328125
+          },
+          "width": 360,
+          "height": 574
+        },
+        {
+          "id": "product-photograph-5",
+          "src": "assets/products/guanya-2026/k115-standard-response-concealed-sprinkler-dsc_5915-640.webp",
+          "srcset": "../../assets/products/guanya-2026/k115-standard-response-concealed-sprinkler-dsc_5915-640.webp?v=d6818c0cd886 640w, ../../assets/products/guanya-2026/k115-standard-response-concealed-sprinkler-dsc_5915-1600.webp?v=7fb4bb13befc 1600w",
+          "detail": "assets/products/guanya-2026/k115-standard-response-concealed-sprinkler-dsc_5915-1600.webp",
+          "decoded": true,
+          "caption": "K115 standard-response concealed sprinkler — 93°C, covered assembly",
+          "expectedCaption": "K115 standard-response concealed sprinkler — 93°C, covered assembly",
+          "alt": "K115 standard-response concealed sprinkler — 93°C, covered assembly",
+          "bounds": {
+            "left": 531.328125,
+            "right": 908.65625
+          },
+          "width": 360,
+          "height": 291
+        },
+        {
+          "id": "product-photograph-6",
+          "src": "assets/products/guanya-2026/k115-standard-response-concealed-sprinkler-dsc_5914-640.webp",
+          "srcset": "../../assets/products/guanya-2026/k115-standard-response-concealed-sprinkler-dsc_5914-640.webp?v=c9dec0c2c909 433w, ../../assets/products/guanya-2026/k115-standard-response-concealed-sprinkler-dsc_5914-1600.webp?v=5ec0177c60dc 861w",
+          "detail": "assets/products/guanya-2026/k115-standard-response-concealed-sprinkler-dsc_5914-1600.webp",
+          "decoded": true,
+          "caption": "K115 standard-response concealed sprinkler — 93°C, exposed mechanism",
+          "expectedCaption": "K115 standard-response concealed sprinkler — 93°C, exposed mechanism",
+          "alt": "K115 standard-response concealed sprinkler — 93°C, exposed mechanism",
+          "bounds": {
+            "left": 932.65625,
+            "right": 1310
+          },
+          "width": 360,
+          "height": 532
+        },
+        {
+          "id": "product-photograph-7",
+          "src": "assets/products/guanya-2026/k115-standard-response-concealed-sprinkler-dsc_5913-640.webp",
+          "srcset": "../../assets/products/guanya-2026/k115-standard-response-concealed-sprinkler-dsc_5913-640.webp?v=4dc9e744df48 640w, ../../assets/products/guanya-2026/k115-standard-response-concealed-sprinkler-dsc_5913-1600.webp?v=e9e39ee6ec20 1600w",
+          "detail": "assets/products/guanya-2026/k115-standard-response-concealed-sprinkler-dsc_5913-1600.webp",
+          "decoded": true,
+          "caption": "K115 standard-response concealed sprinkler — 141°C, covered assembly",
+          "expectedCaption": "K115 standard-response concealed sprinkler — 141°C, covered assembly",
+          "alt": "K115 standard-response concealed sprinkler — 141°C, covered assembly",
+          "bounds": {
+            "left": 130,
+            "right": 507.328125
+          },
+          "width": 360,
+          "height": 291
+        },
+        {
+          "id": "product-photograph-8",
+          "src": "assets/products/guanya-2026/k115-standard-response-concealed-sprinkler-dsc_5912-640.webp",
+          "srcset": "../../assets/products/guanya-2026/k115-standard-response-concealed-sprinkler-dsc_5912-640.webp?v=147fe89e96cc 433w, ../../assets/products/guanya-2026/k115-standard-response-concealed-sprinkler-dsc_5912-1600.webp?v=68e281f353e0 861w",
+          "detail": "assets/products/guanya-2026/k115-standard-response-concealed-sprinkler-dsc_5912-1600.webp",
+          "decoded": true,
+          "caption": "K115 standard-response concealed sprinkler — 141°C, exposed mechanism",
+          "expectedCaption": "K115 standard-response concealed sprinkler — 141°C, exposed mechanism",
+          "alt": "K115 standard-response concealed sprinkler — 141°C, exposed mechanism",
+          "bounds": {
+            "left": 531.328125,
+            "right": 908.65625
+          },
+          "width": 360,
+          "height": 532
+        }
+      ],
+      "newPhotoModalChecks": [
+        {
+          "photograph": 1,
+          "sourceFile": "concealed-k115-57c-covered.jpg",
+          "open": true,
+          "path": "assets/products/guanya-2026/concealed-pendent-fire-sprinkler-concealed-k115-57c-covered-1600.webp",
+          "decoded": true,
+          "alt": "Concealed K115 / 57°C sprinkler — cover fitted",
+          "closed": true
+        },
+        {
+          "photograph": 2,
+          "sourceFile": "concealed-k115-57c-exposed.jpg",
+          "open": true,
+          "path": "assets/products/guanya-2026/concealed-pendent-fire-sprinkler-concealed-k115-57c-exposed-1600.webp",
+          "decoded": true,
+          "alt": "Concealed K115 / 57°C sprinkler — exposed mechanism",
+          "closed": true
+        },
+        {
+          "photograph": 3,
+          "sourceFile": "DSC_5921.jpg",
+          "open": true,
+          "path": "assets/products/guanya-2026/k115-standard-response-concealed-sprinkler-dsc_5921-1600.webp",
+          "decoded": true,
+          "alt": "K115 standard-response concealed sprinkler — 79°C, covered assembly",
+          "closed": true
+        },
+        {
+          "photograph": 4,
+          "sourceFile": "DSC_5920.jpg",
+          "open": true,
+          "path": "assets/products/guanya-2026/k115-standard-response-concealed-sprinkler-dsc_5920-1600.webp",
+          "decoded": true,
+          "alt": "K115 standard-response concealed sprinkler — 79°C, exposed mechanism",
+          "closed": true
+        },
+        {
+          "photograph": 5,
+          "sourceFile": "DSC_5915.jpg",
+          "open": true,
+          "path": "assets/products/guanya-2026/k115-standard-response-concealed-sprinkler-dsc_5915-1600.webp",
+          "decoded": true,
+          "alt": "K115 standard-response concealed sprinkler — 93°C, covered assembly",
+          "closed": true
+        },
+        {
+          "photograph": 6,
+          "sourceFile": "DSC_5914.jpg",
+          "open": true,
+          "path": "assets/products/guanya-2026/k115-standard-response-concealed-sprinkler-dsc_5914-1600.webp",
+          "decoded": true,
+          "alt": "K115 standard-response concealed sprinkler — 93°C, exposed mechanism",
+          "closed": true
+        },
+        {
+          "photograph": 7,
+          "sourceFile": "DSC_5913.jpg",
+          "open": true,
+          "path": "assets/products/guanya-2026/k115-standard-response-concealed-sprinkler-dsc_5913-1600.webp",
+          "decoded": true,
+          "alt": "K115 standard-response concealed sprinkler — 141°C, covered assembly",
+          "closed": true
+        },
+        {
+          "photograph": 8,
+          "sourceFile": "DSC_5912.jpg",
+          "open": true,
+          "path": "assets/products/guanya-2026/k115-standard-response-concealed-sprinkler-dsc_5912-1600.webp",
+          "decoded": true,
+          "alt": "K115 standard-response concealed sprinkler — 141°C, exposed mechanism",
+          "closed": true
+        }
+      ]
+    },
+    {
+      "status": "PASS",
+      "viewport": "desktop",
+      "locale": "ar",
+      "path": "ar/products/k115-standard-response-concealed-sprinkler/index.html",
+      "count": 8,
+      "mainGalleryCount": 3,
+      "lang": "ar",
+      "dir": "rtl",
+      "overflow": 0,
+      "viewportWidth": 1440,
+      "photos": [
+        {
+          "id": "product-photograph-1",
+          "src": "assets/products/guanya-2026/concealed-pendent-fire-sprinkler-concealed-k115-57c-covered-640.webp",
+          "srcset": "../../../assets/products/guanya-2026/concealed-pendent-fire-sprinkler-concealed-k115-57c-covered-640.webp?v=95d23a14b42e 640w, ../../../assets/products/guanya-2026/concealed-pendent-fire-sprinkler-concealed-k115-57c-covered-1600.webp?v=f1bc1f726704 1600w",
+          "detail": "assets/products/guanya-2026/concealed-pendent-fire-sprinkler-concealed-k115-57c-covered-1600.webp",
+          "decoded": true,
+          "caption": "رشاش مخفي K115 / 57°C — الغطاء مركب",
+          "expectedCaption": "رشاش مخفي K115 / 57°C — الغطاء مركب",
+          "alt": "رشاش مخفي K115 / 57°C — الغطاء مركب",
+          "bounds": {
+            "left": 932.671875,
+            "right": 1310
+          },
+          "width": 360,
+          "height": 298
+        },
+        {
+          "id": "product-photograph-2",
+          "src": "assets/products/guanya-2026/concealed-pendent-fire-sprinkler-concealed-k115-57c-exposed-640.webp",
+          "srcset": "../../../assets/products/guanya-2026/concealed-pendent-fire-sprinkler-concealed-k115-57c-exposed-640.webp?v=26e1301914f8 440w, ../../../assets/products/guanya-2026/concealed-pendent-fire-sprinkler-concealed-k115-57c-exposed-1600.webp?v=f26c2b898e97 945w",
+          "detail": "assets/products/guanya-2026/concealed-pendent-fire-sprinkler-concealed-k115-57c-exposed-1600.webp",
+          "decoded": true,
+          "caption": "رشاش مخفي K115 / 57°C — الآلية دون الغطاء",
+          "expectedCaption": "رشاش مخفي K115 / 57°C — الآلية دون الغطاء",
+          "alt": "رشاش مخفي K115 / 57°C — الآلية دون الغطاء",
+          "bounds": {
+            "left": 531.34375,
+            "right": 908.671875
+          },
+          "width": 360,
+          "height": 523
+        },
+        {
+          "id": "product-photograph-3",
+          "src": "assets/products/guanya-2026/k115-standard-response-concealed-sprinkler-dsc_5921-640.webp",
+          "srcset": "../../../assets/products/guanya-2026/k115-standard-response-concealed-sprinkler-dsc_5921-640.webp?v=bd48c9c1c93c 640w, ../../../assets/products/guanya-2026/k115-standard-response-concealed-sprinkler-dsc_5921-1600.webp?v=153f60c9dfcb 1600w",
+          "detail": "assets/products/guanya-2026/k115-standard-response-concealed-sprinkler-dsc_5921-1600.webp",
+          "decoded": true,
+          "caption": "رشاش مخفي K115 ذو استجابة قياسية — 79°C، المجموعة مع الغطاء",
+          "expectedCaption": "رشاش مخفي K115 ذو استجابة قياسية — 79°C، المجموعة مع الغطاء",
+          "alt": "رشاش مخفي K115 ذو استجابة قياسية — 79°C، المجموعة مع الغطاء",
+          "bounds": {
+            "left": 130,
+            "right": 507.34375
+          },
+          "width": 360,
+          "height": 291
+        },
+        {
+          "id": "product-photograph-4",
+          "src": "assets/products/guanya-2026/k115-standard-response-concealed-sprinkler-dsc_5920-640.webp",
+          "srcset": "../../../assets/products/guanya-2026/k115-standard-response-concealed-sprinkler-dsc_5920-640.webp?v=a42504a29007 401w, ../../../assets/products/guanya-2026/k115-standard-response-concealed-sprinkler-dsc_5920-1600.webp?v=74c1453aa38c 860w",
+          "detail": "assets/products/guanya-2026/k115-standard-response-concealed-sprinkler-dsc_5920-1600.webp",
+          "decoded": true,
+          "caption": "رشاش مخفي K115 ذو استجابة قياسية — 79°C، الآلية المكشوفة",
+          "expectedCaption": "رشاش مخفي K115 ذو استجابة قياسية — 79°C، الآلية المكشوفة",
+          "alt": "رشاش مخفي K115 ذو استجابة قياسية — 79°C، الآلية المكشوفة",
+          "bounds": {
+            "left": 932.671875,
+            "right": 1310
+          },
+          "width": 360,
+          "height": 574
+        },
+        {
+          "id": "product-photograph-5",
+          "src": "assets/products/guanya-2026/k115-standard-response-concealed-sprinkler-dsc_5915-640.webp",
+          "srcset": "../../../assets/products/guanya-2026/k115-standard-response-concealed-sprinkler-dsc_5915-640.webp?v=d6818c0cd886 640w, ../../../assets/products/guanya-2026/k115-standard-response-concealed-sprinkler-dsc_5915-1600.webp?v=7fb4bb13befc 1600w",
+          "detail": "assets/products/guanya-2026/k115-standard-response-concealed-sprinkler-dsc_5915-1600.webp",
+          "decoded": true,
+          "caption": "رشاش مخفي K115 ذو استجابة قياسية — 93°C، المجموعة مع الغطاء",
+          "expectedCaption": "رشاش مخفي K115 ذو استجابة قياسية — 93°C، المجموعة مع الغطاء",
+          "alt": "رشاش مخفي K115 ذو استجابة قياسية — 93°C، المجموعة مع الغطاء",
+          "bounds": {
+            "left": 531.34375,
+            "right": 908.671875
+          },
+          "width": 360,
+          "height": 291
+        },
+        {
+          "id": "product-photograph-6",
+          "src": "assets/products/guanya-2026/k115-standard-response-concealed-sprinkler-dsc_5914-640.webp",
+          "srcset": "../../../assets/products/guanya-2026/k115-standard-response-concealed-sprinkler-dsc_5914-640.webp?v=c9dec0c2c909 433w, ../../../assets/products/guanya-2026/k115-standard-response-concealed-sprinkler-dsc_5914-1600.webp?v=5ec0177c60dc 861w",
+          "detail": "assets/products/guanya-2026/k115-standard-response-concealed-sprinkler-dsc_5914-1600.webp",
+          "decoded": true,
+          "caption": "رشاش مخفي K115 ذو استجابة قياسية — 93°C، الآلية المكشوفة",
+          "expectedCaption": "رشاش مخفي K115 ذو استجابة قياسية — 93°C، الآلية المكشوفة",
+          "alt": "رشاش مخفي K115 ذو استجابة قياسية — 93°C، الآلية المكشوفة",
+          "bounds": {
+            "left": 130,
+            "right": 507.34375
+          },
+          "width": 360,
+          "height": 532
+        },
+        {
+          "id": "product-photograph-7",
+          "src": "assets/products/guanya-2026/k115-standard-response-concealed-sprinkler-dsc_5913-640.webp",
+          "srcset": "../../../assets/products/guanya-2026/k115-standard-response-concealed-sprinkler-dsc_5913-640.webp?v=4dc9e744df48 640w, ../../../assets/products/guanya-2026/k115-standard-response-concealed-sprinkler-dsc_5913-1600.webp?v=e9e39ee6ec20 1600w",
+          "detail": "assets/products/guanya-2026/k115-standard-response-concealed-sprinkler-dsc_5913-1600.webp",
+          "decoded": true,
+          "caption": "رشاش مخفي K115 ذو استجابة قياسية — 141°C، المجموعة مع الغطاء",
+          "expectedCaption": "رشاش مخفي K115 ذو استجابة قياسية — 141°C، المجموعة مع الغطاء",
+          "alt": "رشاش مخفي K115 ذو استجابة قياسية — 141°C، المجموعة مع الغطاء",
+          "bounds": {
+            "left": 932.671875,
+            "right": 1310
+          },
+          "width": 360,
+          "height": 291
+        },
+        {
+          "id": "product-photograph-8",
+          "src": "assets/products/guanya-2026/k115-standard-response-concealed-sprinkler-dsc_5912-640.webp",
+          "srcset": "../../../assets/products/guanya-2026/k115-standard-response-concealed-sprinkler-dsc_5912-640.webp?v=147fe89e96cc 433w, ../../../assets/products/guanya-2026/k115-standard-response-concealed-sprinkler-dsc_5912-1600.webp?v=68e281f353e0 861w",
+          "detail": "assets/products/guanya-2026/k115-standard-response-concealed-sprinkler-dsc_5912-1600.webp",
+          "decoded": true,
+          "caption": "رشاش مخفي K115 ذو استجابة قياسية — 141°C، الآلية المكشوفة",
+          "expectedCaption": "رشاش مخفي K115 ذو استجابة قياسية — 141°C، الآلية المكشوفة",
+          "alt": "رشاش مخفي K115 ذو استجابة قياسية — 141°C، الآلية المكشوفة",
+          "bounds": {
+            "left": 531.34375,
+            "right": 908.671875
+          },
+          "width": 360,
+          "height": 532
+        }
+      ],
+      "newPhotoModalChecks": [
+        {
+          "photograph": 1,
+          "sourceFile": "concealed-k115-57c-covered.jpg",
+          "open": true,
+          "path": "assets/products/guanya-2026/concealed-pendent-fire-sprinkler-concealed-k115-57c-covered-1600.webp",
+          "decoded": true,
+          "alt": "رشاش مخفي ⁦K115 / 57°C⁩ — الغطاء مركب",
+          "closed": true
+        },
+        {
+          "photograph": 2,
+          "sourceFile": "concealed-k115-57c-exposed.jpg",
+          "open": true,
+          "path": "assets/products/guanya-2026/concealed-pendent-fire-sprinkler-concealed-k115-57c-exposed-1600.webp",
+          "decoded": true,
+          "alt": "رشاش مخفي ⁦K115 / 57°C⁩ — الآلية دون الغطاء",
+          "closed": true
+        },
+        {
+          "photograph": 3,
+          "sourceFile": "DSC_5921.jpg",
+          "open": true,
+          "path": "assets/products/guanya-2026/k115-standard-response-concealed-sprinkler-dsc_5921-1600.webp",
+          "decoded": true,
+          "alt": "رشاش مخفي ⁦K115⁩ ذو استجابة قياسية — ⁦79°C⁩، المجموعة مع الغطاء",
+          "closed": true
+        },
+        {
+          "photograph": 4,
+          "sourceFile": "DSC_5920.jpg",
+          "open": true,
+          "path": "assets/products/guanya-2026/k115-standard-response-concealed-sprinkler-dsc_5920-1600.webp",
+          "decoded": true,
+          "alt": "رشاش مخفي ⁦K115⁩ ذو استجابة قياسية — ⁦79°C⁩، الآلية المكشوفة",
+          "closed": true
+        },
+        {
+          "photograph": 5,
+          "sourceFile": "DSC_5915.jpg",
+          "open": true,
+          "path": "assets/products/guanya-2026/k115-standard-response-concealed-sprinkler-dsc_5915-1600.webp",
+          "decoded": true,
+          "alt": "رشاش مخفي ⁦K115⁩ ذو استجابة قياسية — ⁦93°C⁩، المجموعة مع الغطاء",
+          "closed": true
+        },
+        {
+          "photograph": 6,
+          "sourceFile": "DSC_5914.jpg",
+          "open": true,
+          "path": "assets/products/guanya-2026/k115-standard-response-concealed-sprinkler-dsc_5914-1600.webp",
+          "decoded": true,
+          "alt": "رشاش مخفي ⁦K115⁩ ذو استجابة قياسية — ⁦93°C⁩، الآلية المكشوفة",
+          "closed": true
+        },
+        {
+          "photograph": 7,
+          "sourceFile": "DSC_5913.jpg",
+          "open": true,
+          "path": "assets/products/guanya-2026/k115-standard-response-concealed-sprinkler-dsc_5913-1600.webp",
+          "decoded": true,
+          "alt": "رشاش مخفي ⁦K115⁩ ذو استجابة قياسية — ⁦141°C⁩، المجموعة مع الغطاء",
+          "closed": true
+        },
+        {
+          "photograph": 8,
+          "sourceFile": "DSC_5912.jpg",
+          "open": true,
+          "path": "assets/products/guanya-2026/k115-standard-response-concealed-sprinkler-dsc_5912-1600.webp",
+          "decoded": true,
+          "alt": "رشاش مخفي ⁦K115⁩ ذو استجابة قياسية — ⁦141°C⁩، الآلية المكشوفة",
+          "closed": true
+        }
+      ]
+    },
+    {
+      "status": "PASS",
+      "viewport": "mobile",
+      "locale": "en",
+      "path": "products/消防喷头/k115-standard-response-concealed-sprinkler.html",
+      "count": 8,
+      "mainGalleryCount": 3,
+      "lang": "en",
+      "dir": "ltr",
+      "overflow": 0,
+      "viewportWidth": 390,
+      "photos": [
+        {
+          "id": "product-photograph-1",
+          "src": "assets/products/guanya-2026/concealed-pendent-fire-sprinkler-concealed-k115-57c-covered-640.webp",
+          "srcset": "../../assets/products/guanya-2026/concealed-pendent-fire-sprinkler-concealed-k115-57c-covered-640.webp?v=95d23a14b42e 640w, ../../assets/products/guanya-2026/concealed-pendent-fire-sprinkler-concealed-k115-57c-covered-1600.webp?v=f1bc1f726704 1600w",
+          "detail": "assets/products/guanya-2026/concealed-pendent-fire-sprinkler-concealed-k115-57c-covered-1600.webp",
+          "decoded": true,
+          "caption": "Concealed K115 / 57°C sprinkler — cover fitted",
+          "expectedCaption": "Concealed K115 / 57°C sprinkler — cover fitted",
+          "alt": "Concealed K115 / 57°C sprinkler — cover fitted",
+          "bounds": {
+            "left": 12,
+            "right": 378
+          },
+          "width": 342,
+          "height": 283
+        },
+        {
+          "id": "product-photograph-2",
+          "src": "assets/products/guanya-2026/concealed-pendent-fire-sprinkler-concealed-k115-57c-exposed-640.webp",
+          "srcset": "../../assets/products/guanya-2026/concealed-pendent-fire-sprinkler-concealed-k115-57c-exposed-640.webp?v=26e1301914f8 440w, ../../assets/products/guanya-2026/concealed-pendent-fire-sprinkler-concealed-k115-57c-exposed-1600.webp?v=f26c2b898e97 945w",
+          "detail": "assets/products/guanya-2026/concealed-pendent-fire-sprinkler-concealed-k115-57c-exposed-1600.webp",
+          "decoded": true,
+          "caption": "Concealed K115 / 57°C sprinkler — exposed mechanism",
+          "expectedCaption": "Concealed K115 / 57°C sprinkler — exposed mechanism",
+          "alt": "Concealed K115 / 57°C sprinkler — exposed mechanism",
+          "bounds": {
+            "left": 12,
+            "right": 378
+          },
+          "width": 342,
+          "height": 497
+        },
+        {
+          "id": "product-photograph-3",
+          "src": "assets/products/guanya-2026/k115-standard-response-concealed-sprinkler-dsc_5921-640.webp",
+          "srcset": "../../assets/products/guanya-2026/k115-standard-response-concealed-sprinkler-dsc_5921-640.webp?v=bd48c9c1c93c 640w, ../../assets/products/guanya-2026/k115-standard-response-concealed-sprinkler-dsc_5921-1600.webp?v=153f60c9dfcb 1600w",
+          "detail": "assets/products/guanya-2026/k115-standard-response-concealed-sprinkler-dsc_5921-1600.webp",
+          "decoded": true,
+          "caption": "K115 standard-response concealed sprinkler — 79°C, covered assembly",
+          "expectedCaption": "K115 standard-response concealed sprinkler — 79°C, covered assembly",
+          "alt": "K115 standard-response concealed sprinkler — 79°C, covered assembly",
+          "bounds": {
+            "left": 12,
+            "right": 378
+          },
+          "width": 342,
+          "height": 276
+        },
+        {
+          "id": "product-photograph-4",
+          "src": "assets/products/guanya-2026/k115-standard-response-concealed-sprinkler-dsc_5920-640.webp",
+          "srcset": "../../assets/products/guanya-2026/k115-standard-response-concealed-sprinkler-dsc_5920-640.webp?v=a42504a29007 401w, ../../assets/products/guanya-2026/k115-standard-response-concealed-sprinkler-dsc_5920-1600.webp?v=74c1453aa38c 860w",
+          "detail": "assets/products/guanya-2026/k115-standard-response-concealed-sprinkler-dsc_5920-1600.webp",
+          "decoded": true,
+          "caption": "K115 standard-response concealed sprinkler — 79°C, exposed mechanism",
+          "expectedCaption": "K115 standard-response concealed sprinkler — 79°C, exposed mechanism",
+          "alt": "K115 standard-response concealed sprinkler — 79°C, exposed mechanism",
+          "bounds": {
+            "left": 12,
+            "right": 378
+          },
+          "width": 341,
+          "height": 545
+        },
+        {
+          "id": "product-photograph-5",
+          "src": "assets/products/guanya-2026/k115-standard-response-concealed-sprinkler-dsc_5915-640.webp",
+          "srcset": "../../assets/products/guanya-2026/k115-standard-response-concealed-sprinkler-dsc_5915-640.webp?v=d6818c0cd886 640w, ../../assets/products/guanya-2026/k115-standard-response-concealed-sprinkler-dsc_5915-1600.webp?v=7fb4bb13befc 1600w",
+          "detail": "assets/products/guanya-2026/k115-standard-response-concealed-sprinkler-dsc_5915-1600.webp",
+          "decoded": true,
+          "caption": "K115 standard-response concealed sprinkler — 93°C, covered assembly",
+          "expectedCaption": "K115 standard-response concealed sprinkler — 93°C, covered assembly",
+          "alt": "K115 standard-response concealed sprinkler — 93°C, covered assembly",
+          "bounds": {
+            "left": 12,
+            "right": 378
+          },
+          "width": 342,
+          "height": 276
+        },
+        {
+          "id": "product-photograph-6",
+          "src": "assets/products/guanya-2026/k115-standard-response-concealed-sprinkler-dsc_5914-640.webp",
+          "srcset": "../../assets/products/guanya-2026/k115-standard-response-concealed-sprinkler-dsc_5914-640.webp?v=c9dec0c2c909 433w, ../../assets/products/guanya-2026/k115-standard-response-concealed-sprinkler-dsc_5914-1600.webp?v=5ec0177c60dc 861w",
+          "detail": "assets/products/guanya-2026/k115-standard-response-concealed-sprinkler-dsc_5914-1600.webp",
+          "decoded": true,
+          "caption": "K115 standard-response concealed sprinkler — 93°C, exposed mechanism",
+          "expectedCaption": "K115 standard-response concealed sprinkler — 93°C, exposed mechanism",
+          "alt": "K115 standard-response concealed sprinkler — 93°C, exposed mechanism",
+          "bounds": {
+            "left": 12,
+            "right": 378
+          },
+          "width": 342,
+          "height": 505
+        },
+        {
+          "id": "product-photograph-7",
+          "src": "assets/products/guanya-2026/k115-standard-response-concealed-sprinkler-dsc_5913-640.webp",
+          "srcset": "../../assets/products/guanya-2026/k115-standard-response-concealed-sprinkler-dsc_5913-640.webp?v=4dc9e744df48 640w, ../../assets/products/guanya-2026/k115-standard-response-concealed-sprinkler-dsc_5913-1600.webp?v=e9e39ee6ec20 1600w",
+          "detail": "assets/products/guanya-2026/k115-standard-response-concealed-sprinkler-dsc_5913-1600.webp",
+          "decoded": true,
+          "caption": "K115 standard-response concealed sprinkler — 141°C, covered assembly",
+          "expectedCaption": "K115 standard-response concealed sprinkler — 141°C, covered assembly",
+          "alt": "K115 standard-response concealed sprinkler — 141°C, covered assembly",
+          "bounds": {
+            "left": 12,
+            "right": 378
+          },
+          "width": 342,
+          "height": 276
+        },
+        {
+          "id": "product-photograph-8",
+          "src": "assets/products/guanya-2026/k115-standard-response-concealed-sprinkler-dsc_5912-640.webp",
+          "srcset": "../../assets/products/guanya-2026/k115-standard-response-concealed-sprinkler-dsc_5912-640.webp?v=147fe89e96cc 433w, ../../assets/products/guanya-2026/k115-standard-response-concealed-sprinkler-dsc_5912-1600.webp?v=68e281f353e0 861w",
+          "detail": "assets/products/guanya-2026/k115-standard-response-concealed-sprinkler-dsc_5912-1600.webp",
+          "decoded": true,
+          "caption": "K115 standard-response concealed sprinkler — 141°C, exposed mechanism",
+          "expectedCaption": "K115 standard-response concealed sprinkler — 141°C, exposed mechanism",
+          "alt": "K115 standard-response concealed sprinkler — 141°C, exposed mechanism",
+          "bounds": {
+            "left": 12,
+            "right": 378
+          },
+          "width": 342,
+          "height": 505
+        }
+      ],
+      "newPhotoModalChecks": [
+        {
+          "photograph": 1,
+          "sourceFile": "concealed-k115-57c-covered.jpg",
+          "open": true,
+          "path": "assets/products/guanya-2026/concealed-pendent-fire-sprinkler-concealed-k115-57c-covered-1600.webp",
+          "decoded": true,
+          "alt": "Concealed K115 / 57°C sprinkler — cover fitted",
+          "closed": true
+        },
+        {
+          "photograph": 2,
+          "sourceFile": "concealed-k115-57c-exposed.jpg",
+          "open": true,
+          "path": "assets/products/guanya-2026/concealed-pendent-fire-sprinkler-concealed-k115-57c-exposed-1600.webp",
+          "decoded": true,
+          "alt": "Concealed K115 / 57°C sprinkler — exposed mechanism",
+          "closed": true
+        },
+        {
+          "photograph": 3,
+          "sourceFile": "DSC_5921.jpg",
+          "open": true,
+          "path": "assets/products/guanya-2026/k115-standard-response-concealed-sprinkler-dsc_5921-1600.webp",
+          "decoded": true,
+          "alt": "K115 standard-response concealed sprinkler — 79°C, covered assembly",
+          "closed": true
+        },
+        {
+          "photograph": 4,
+          "sourceFile": "DSC_5920.jpg",
+          "open": true,
+          "path": "assets/products/guanya-2026/k115-standard-response-concealed-sprinkler-dsc_5920-1600.webp",
+          "decoded": true,
+          "alt": "K115 standard-response concealed sprinkler — 79°C, exposed mechanism",
+          "closed": true
+        },
+        {
+          "photograph": 5,
+          "sourceFile": "DSC_5915.jpg",
+          "open": true,
+          "path": "assets/products/guanya-2026/k115-standard-response-concealed-sprinkler-dsc_5915-1600.webp",
+          "decoded": true,
+          "alt": "K115 standard-response concealed sprinkler — 93°C, covered assembly",
+          "closed": true
+        },
+        {
+          "photograph": 6,
+          "sourceFile": "DSC_5914.jpg",
+          "open": true,
+          "path": "assets/products/guanya-2026/k115-standard-response-concealed-sprinkler-dsc_5914-1600.webp",
+          "decoded": true,
+          "alt": "K115 standard-response concealed sprinkler — 93°C, exposed mechanism",
+          "closed": true
+        },
+        {
+          "photograph": 7,
+          "sourceFile": "DSC_5913.jpg",
+          "open": true,
+          "path": "assets/products/guanya-2026/k115-standard-response-concealed-sprinkler-dsc_5913-1600.webp",
+          "decoded": true,
+          "alt": "K115 standard-response concealed sprinkler — 141°C, covered assembly",
+          "closed": true
+        },
+        {
+          "photograph": 8,
+          "sourceFile": "DSC_5912.jpg",
+          "open": true,
+          "path": "assets/products/guanya-2026/k115-standard-response-concealed-sprinkler-dsc_5912-1600.webp",
+          "decoded": true,
+          "alt": "K115 standard-response concealed sprinkler — 141°C, exposed mechanism",
+          "closed": true
+        }
+      ]
+    },
+    {
+      "status": "PASS",
+      "viewport": "mobile",
+      "locale": "ar",
+      "path": "ar/products/k115-standard-response-concealed-sprinkler/index.html",
+      "count": 8,
+      "mainGalleryCount": 3,
+      "lang": "ar",
+      "dir": "rtl",
+      "overflow": 0,
+      "viewportWidth": 390,
+      "photos": [
+        {
+          "id": "product-photograph-1",
+          "src": "assets/products/guanya-2026/concealed-pendent-fire-sprinkler-concealed-k115-57c-covered-640.webp",
+          "srcset": "../../../assets/products/guanya-2026/concealed-pendent-fire-sprinkler-concealed-k115-57c-covered-640.webp?v=95d23a14b42e 640w, ../../../assets/products/guanya-2026/concealed-pendent-fire-sprinkler-concealed-k115-57c-covered-1600.webp?v=f1bc1f726704 1600w",
+          "detail": "assets/products/guanya-2026/concealed-pendent-fire-sprinkler-concealed-k115-57c-covered-1600.webp",
+          "decoded": true,
+          "caption": "رشاش مخفي K115 / 57°C — الغطاء مركب",
+          "expectedCaption": "رشاش مخفي K115 / 57°C — الغطاء مركب",
+          "alt": "رشاش مخفي K115 / 57°C — الغطاء مركب",
+          "bounds": {
+            "left": 12,
+            "right": 378
+          },
+          "width": 342,
+          "height": 283
+        },
+        {
+          "id": "product-photograph-2",
+          "src": "assets/products/guanya-2026/concealed-pendent-fire-sprinkler-concealed-k115-57c-exposed-640.webp",
+          "srcset": "../../../assets/products/guanya-2026/concealed-pendent-fire-sprinkler-concealed-k115-57c-exposed-640.webp?v=26e1301914f8 440w, ../../../assets/products/guanya-2026/concealed-pendent-fire-sprinkler-concealed-k115-57c-exposed-1600.webp?v=f26c2b898e97 945w",
+          "detail": "assets/products/guanya-2026/concealed-pendent-fire-sprinkler-concealed-k115-57c-exposed-1600.webp",
+          "decoded": true,
+          "caption": "رشاش مخفي K115 / 57°C — الآلية دون الغطاء",
+          "expectedCaption": "رشاش مخفي K115 / 57°C — الآلية دون الغطاء",
+          "alt": "رشاش مخفي K115 / 57°C — الآلية دون الغطاء",
+          "bounds": {
+            "left": 12,
+            "right": 378
+          },
+          "width": 342,
+          "height": 497
+        },
+        {
+          "id": "product-photograph-3",
+          "src": "assets/products/guanya-2026/k115-standard-response-concealed-sprinkler-dsc_5921-640.webp",
+          "srcset": "../../../assets/products/guanya-2026/k115-standard-response-concealed-sprinkler-dsc_5921-640.webp?v=bd48c9c1c93c 640w, ../../../assets/products/guanya-2026/k115-standard-response-concealed-sprinkler-dsc_5921-1600.webp?v=153f60c9dfcb 1600w",
+          "detail": "assets/products/guanya-2026/k115-standard-response-concealed-sprinkler-dsc_5921-1600.webp",
+          "decoded": true,
+          "caption": "رشاش مخفي K115 ذو استجابة قياسية — 79°C، المجموعة مع الغطاء",
+          "expectedCaption": "رشاش مخفي K115 ذو استجابة قياسية — 79°C، المجموعة مع الغطاء",
+          "alt": "رشاش مخفي K115 ذو استجابة قياسية — 79°C، المجموعة مع الغطاء",
+          "bounds": {
+            "left": 12,
+            "right": 378
+          },
+          "width": 342,
+          "height": 276
+        },
+        {
+          "id": "product-photograph-4",
+          "src": "assets/products/guanya-2026/k115-standard-response-concealed-sprinkler-dsc_5920-640.webp",
+          "srcset": "../../../assets/products/guanya-2026/k115-standard-response-concealed-sprinkler-dsc_5920-640.webp?v=a42504a29007 401w, ../../../assets/products/guanya-2026/k115-standard-response-concealed-sprinkler-dsc_5920-1600.webp?v=74c1453aa38c 860w",
+          "detail": "assets/products/guanya-2026/k115-standard-response-concealed-sprinkler-dsc_5920-1600.webp",
+          "decoded": true,
+          "caption": "رشاش مخفي K115 ذو استجابة قياسية — 79°C، الآلية المكشوفة",
+          "expectedCaption": "رشاش مخفي K115 ذو استجابة قياسية — 79°C، الآلية المكشوفة",
+          "alt": "رشاش مخفي K115 ذو استجابة قياسية — 79°C، الآلية المكشوفة",
+          "bounds": {
+            "left": 12,
+            "right": 378
+          },
+          "width": 341,
+          "height": 545
+        },
+        {
+          "id": "product-photograph-5",
+          "src": "assets/products/guanya-2026/k115-standard-response-concealed-sprinkler-dsc_5915-640.webp",
+          "srcset": "../../../assets/products/guanya-2026/k115-standard-response-concealed-sprinkler-dsc_5915-640.webp?v=d6818c0cd886 640w, ../../../assets/products/guanya-2026/k115-standard-response-concealed-sprinkler-dsc_5915-1600.webp?v=7fb4bb13befc 1600w",
+          "detail": "assets/products/guanya-2026/k115-standard-response-concealed-sprinkler-dsc_5915-1600.webp",
+          "decoded": true,
+          "caption": "رشاش مخفي K115 ذو استجابة قياسية — 93°C، المجموعة مع الغطاء",
+          "expectedCaption": "رشاش مخفي K115 ذو استجابة قياسية — 93°C، المجموعة مع الغطاء",
+          "alt": "رشاش مخفي K115 ذو استجابة قياسية — 93°C، المجموعة مع الغطاء",
+          "bounds": {
+            "left": 12,
+            "right": 378
+          },
+          "width": 342,
+          "height": 276
+        },
+        {
+          "id": "product-photograph-6",
+          "src": "assets/products/guanya-2026/k115-standard-response-concealed-sprinkler-dsc_5914-640.webp",
+          "srcset": "../../../assets/products/guanya-2026/k115-standard-response-concealed-sprinkler-dsc_5914-640.webp?v=c9dec0c2c909 433w, ../../../assets/products/guanya-2026/k115-standard-response-concealed-sprinkler-dsc_5914-1600.webp?v=5ec0177c60dc 861w",
+          "detail": "assets/products/guanya-2026/k115-standard-response-concealed-sprinkler-dsc_5914-1600.webp",
+          "decoded": true,
+          "caption": "رشاش مخفي K115 ذو استجابة قياسية — 93°C، الآلية المكشوفة",
+          "expectedCaption": "رشاش مخفي K115 ذو استجابة قياسية — 93°C، الآلية المكشوفة",
+          "alt": "رشاش مخفي K115 ذو استجابة قياسية — 93°C، الآلية المكشوفة",
+          "bounds": {
+            "left": 12,
+            "right": 378
+          },
+          "width": 342,
+          "height": 505
+        },
+        {
+          "id": "product-photograph-7",
+          "src": "assets/products/guanya-2026/k115-standard-response-concealed-sprinkler-dsc_5913-640.webp",
+          "srcset": "../../../assets/products/guanya-2026/k115-standard-response-concealed-sprinkler-dsc_5913-640.webp?v=4dc9e744df48 640w, ../../../assets/products/guanya-2026/k115-standard-response-concealed-sprinkler-dsc_5913-1600.webp?v=e9e39ee6ec20 1600w",
+          "detail": "assets/products/guanya-2026/k115-standard-response-concealed-sprinkler-dsc_5913-1600.webp",
+          "decoded": true,
+          "caption": "رشاش مخفي K115 ذو استجابة قياسية — 141°C، المجموعة مع الغطاء",
+          "expectedCaption": "رشاش مخفي K115 ذو استجابة قياسية — 141°C، المجموعة مع الغطاء",
+          "alt": "رشاش مخفي K115 ذو استجابة قياسية — 141°C، المجموعة مع الغطاء",
+          "bounds": {
+            "left": 12,
+            "right": 378
+          },
+          "width": 342,
+          "height": 276
+        },
+        {
+          "id": "product-photograph-8",
+          "src": "assets/products/guanya-2026/k115-standard-response-concealed-sprinkler-dsc_5912-640.webp",
+          "srcset": "../../../assets/products/guanya-2026/k115-standard-response-concealed-sprinkler-dsc_5912-640.webp?v=147fe89e96cc 433w, ../../../assets/products/guanya-2026/k115-standard-response-concealed-sprinkler-dsc_5912-1600.webp?v=68e281f353e0 861w",
+          "detail": "assets/products/guanya-2026/k115-standard-response-concealed-sprinkler-dsc_5912-1600.webp",
+          "decoded": true,
+          "caption": "رشاش مخفي K115 ذو استجابة قياسية — 141°C، الآلية المكشوفة",
+          "expectedCaption": "رشاش مخفي K115 ذو استجابة قياسية — 141°C، الآلية المكشوفة",
+          "alt": "رشاش مخفي K115 ذو استجابة قياسية — 141°C، الآلية المكشوفة",
+          "bounds": {
+            "left": 12,
+            "right": 378
+          },
+          "width": 342,
+          "height": 505
+        }
+      ],
+      "newPhotoModalChecks": [
+        {
+          "photograph": 1,
+          "sourceFile": "concealed-k115-57c-covered.jpg",
+          "open": true,
+          "path": "assets/products/guanya-2026/concealed-pendent-fire-sprinkler-concealed-k115-57c-covered-1600.webp",
+          "decoded": true,
+          "alt": "رشاش مخفي ⁦K115 / 57°C⁩ — الغطاء مركب",
+          "closed": true
+        },
+        {
+          "photograph": 2,
+          "sourceFile": "concealed-k115-57c-exposed.jpg",
+          "open": true,
+          "path": "assets/products/guanya-2026/concealed-pendent-fire-sprinkler-concealed-k115-57c-exposed-1600.webp",
+          "decoded": true,
+          "alt": "رشاش مخفي ⁦K115 / 57°C⁩ — الآلية دون الغطاء",
+          "closed": true
+        },
+        {
+          "photograph": 3,
+          "sourceFile": "DSC_5921.jpg",
+          "open": true,
+          "path": "assets/products/guanya-2026/k115-standard-response-concealed-sprinkler-dsc_5921-1600.webp",
+          "decoded": true,
+          "alt": "رشاش مخفي ⁦K115⁩ ذو استجابة قياسية — ⁦79°C⁩، المجموعة مع الغطاء",
+          "closed": true
+        },
+        {
+          "photograph": 4,
+          "sourceFile": "DSC_5920.jpg",
+          "open": true,
+          "path": "assets/products/guanya-2026/k115-standard-response-concealed-sprinkler-dsc_5920-1600.webp",
+          "decoded": true,
+          "alt": "رشاش مخفي ⁦K115⁩ ذو استجابة قياسية — ⁦79°C⁩، الآلية المكشوفة",
+          "closed": true
+        },
+        {
+          "photograph": 5,
+          "sourceFile": "DSC_5915.jpg",
+          "open": true,
+          "path": "assets/products/guanya-2026/k115-standard-response-concealed-sprinkler-dsc_5915-1600.webp",
+          "decoded": true,
+          "alt": "رشاش مخفي ⁦K115⁩ ذو استجابة قياسية — ⁦93°C⁩، المجموعة مع الغطاء",
+          "closed": true
+        },
+        {
+          "photograph": 6,
+          "sourceFile": "DSC_5914.jpg",
+          "open": true,
+          "path": "assets/products/guanya-2026/k115-standard-response-concealed-sprinkler-dsc_5914-1600.webp",
+          "decoded": true,
+          "alt": "رشاش مخفي ⁦K115⁩ ذو استجابة قياسية — ⁦93°C⁩، الآلية المكشوفة",
+          "closed": true
+        },
+        {
+          "photograph": 7,
+          "sourceFile": "DSC_5913.jpg",
+          "open": true,
+          "path": "assets/products/guanya-2026/k115-standard-response-concealed-sprinkler-dsc_5913-1600.webp",
+          "decoded": true,
+          "alt": "رشاش مخفي ⁦K115⁩ ذو استجابة قياسية — ⁦141°C⁩، المجموعة مع الغطاء",
+          "closed": true
+        },
+        {
+          "photograph": 8,
+          "sourceFile": "DSC_5912.jpg",
+          "open": true,
+          "path": "assets/products/guanya-2026/k115-standard-response-concealed-sprinkler-dsc_5912-1600.webp",
+          "decoded": true,
+          "alt": "رشاش مخفي ⁦K115⁩ ذو استجابة قياسية — ⁦141°C⁩، الآلية المكشوفة",
+          "closed": true
+        }
+      ]
+    }
+  ],
+  "screenshots": [
+    "gallery-desktop-en-photo-1.png",
+    "gallery-desktop-en-photo-7.png",
+    "gallery-desktop-ar-photo-1.png",
+    "gallery-desktop-ar-photo-7.png",
+    "gallery-mobile-en-photo-1.png",
+    "gallery-mobile-en-photo-8.png",
+    "gallery-mobile-ar-photo-1.png",
+    "gallery-mobile-ar-photo-8.png"
+  ]
+}

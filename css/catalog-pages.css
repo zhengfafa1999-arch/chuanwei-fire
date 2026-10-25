@@ -16,3 +16,6 @@
 
 .catalog-cta__actions{display:flex;flex-wrap:wrap;gap:12px;flex-shrink:0;max-width:100%}.catalog-cta__actions .catalog-button{margin-top:0}.catalog-cta .catalog-cta__note{margin-top:22px;max-width:900px;font-size:13px}.catalog-cta__note a{text-decoration:underline;text-underline-offset:3px}.catalog-cta__actions .catalog-button{overflow-wrap:anywhere;text-align:center}
 @media(max-width:760px){.catalog-cta__actions{margin-top:20px}}
+
+/* Series cards keep unpictured inquiry options explicit. */
+.product-card__series-label{height:230px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:10px;background:#f3f6f8;color:var(--navy)}.product-card__series-label span{font-size:12px;color:var(--muted)}.product-card__series-label strong{font-size:46px;letter-spacing:-.04em}.finder-family .product-card__series-label{height:190px}.product-card__description{margin:0 0 14px;font-size:13px;color:var(--muted)}.catalog-related-link{margin:28px 0 0;color:var(--red);font-weight:700}.product-card[id]{scroll-margin-top:110px}.product-card:target{outline:3px solid var(--red);outline-offset:3px}.product-card a:focus-visible{outline:3px solid #237bb3;outline-offset:2px}

@@ -42,6 +42,7 @@ if (process.argv.includes("--generated")) {
     assert(!forbidden.test(visibleText), `${locale.outputPath}: internal editorial wording leaked into public content`);
     assert(!/Confirmed buyer-facing specifications|confirmed replacement photographs|connection to be confirmed|\bTo be confirmed\b|مواصفات مؤكدة للمشتري|صور الاستبدال المؤكدة|يُؤكد لاحقًا/iu.test(visibleText), `${locale.outputPath}: editorial status or unresolved placeholder displayed as customer content`);
     assert(!/Verified management systems/i.test(visibleText), `${locale.outputPath}: independently verified certificate claim lacks evidence`);
+    assert(!/presented in HTML|source photographs|source material|source sample|supplier[- ](?:described|record|sequence|thread designation)|supplied model record|according to the supplier|صور المصدر|حسب ترتيب المورد|سجل المورد|يصف المورد/iu.test(visibleText), `${locale.outputPath}: sourcing/editorial notes exposed to buyers`);
     pages++;
   }
   console.log(`Rendered buyer-copy validation passed: ${pages} public pages.`);

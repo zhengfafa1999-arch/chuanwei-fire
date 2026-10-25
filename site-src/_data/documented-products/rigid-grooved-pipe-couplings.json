@@ -23,7 +23,15 @@
     "notes": [
       "不把XGQT尺寸、品牌借给另一家卡箍，不把另一家EPDM或涂层借给XGQT。",
       "另一家文件夹DN89、DN114不作为真实公称DN发布。"
-    ]
+    ],
+    "marketReference": {
+      "grade": "C-other-manufacturer-or-series-reference",
+      "reviewDate": "2026-10-25",
+      "url": "https://assets.victaulic.com/assets/uploads/literature/06.23.pdf",
+      "model": "Victaulic Style 107N · 06.23",
+      "location": "06.23, page 1",
+      "scope": "Selection reference only; no supplied-SKU specification, certification, compatibility or availability inferred."
+    }
   },
   "publication": {
     "status": "release-candidate",
@@ -81,10 +89,6 @@
     {
       "label": "spec3Label",
       "value": "spec3Value"
-    },
-    {
-      "label": "spec4Label",
-      "value": "spec4Value"
     },
     {
       "label": "spec5Label",
@@ -215,15 +219,15 @@
       "inquiryTitle": "Request product details and a quotation",
       "inquiryBody": "Send your selected configuration, quantity and destination.",
       "title": "Rigid Grooved Pipe Couplings",
-      "lead": "Bolted rigid couplings join compatible grooved pipe ends. The XGQT range and the separate reference coupling are distinct configurations; the latter has a supplier-described EPDM gasket. Confirm the gasket material for your order.",
+      "lead": "Bolted rigid couplings join compatible grooved pipe ends. Compare the XGQT size range and the additional split-housing configuration below. Specify the pipe dimensions and gasket requirements when ordering.",
       "eyebrow": "Grooved Pipe Fittings",
       "seoTitle": "Rigid Grooved Pipe Couplings | CHUANWEI FIRE",
-      "seoDescription": "Bolted rigid couplings join compatible grooved pipe ends. The XGQT range and the separate reference coupling are distinct configurations; the latter has a supplier-described EPDM gasket. Confirm the gasket material for your order.",
+      "seoDescription": "Bolted rigid couplings join compatible grooved pipe ends. Compare the XGQT size range and the additional split-housing configuration below. Specify the pipe dimensions and gasket requirements when ordering.",
       "note": "Specify both nominal DN and actual pipe outside diameter, with the mating groove profile or drawing.",
       "image0Alt": "XGQT reference coupling; listed DN and pipe OD options apply to this range.",
       "image0Caption": "XGQT reference coupling; listed DN and pipe OD options apply to this range.",
-      "image1Alt": "Separate bolted coupling reference; supplier-described EPDM gasket, confirm batch material.",
-      "image1Caption": "Separate bolted coupling reference; supplier-described EPDM gasket, confirm batch material.",
+      "image1Alt": "Additional bolted split-housing coupling",
+      "image1Caption": "Additional bolted split-housing coupling",
       "spec0Label": "XGQT housing material",
       "spec0Value": "Ductile iron",
       "spec1Label": "XGQT listed nominal sizes",
@@ -266,13 +270,22 @@
       "model9Name": "XGQT · DN200 · Pipe OD 219 mm",
       "model9Reference": "Available on request",
       "model9Selection": "Select the exact listed size and pipe OD combination; match the groove dimensions.",
-      "model10Name": "Separate bolted coupling reference",
+      "model10Name": "Additional bolted coupling",
       "model10Reference": "Available on request",
-      "model10Selection": "Ductile iron split housing; supplier-described EPDM gasket, confirm batch material. Specify the exact housing and connection dimensions.",
+      "model10Selection": "Ductile iron split housing. Specify the housing dimensions, groove profile and gasket requirements.",
       "selection0Label": "Pipe and groove dimensions",
       "selection0Body": "Specify both nominal DN and actual pipe outside diameter, with the mating groove profile or drawing.",
       "selection1Label": "Coupling and gasket configuration",
-      "selection1Body": "Identify the XGQT range or the separate reference coupling and specify the gasket compound, pressure and required assembly details."
+      "selection1Body": "Identify the XGQT range or the separate reference coupling and specify the gasket compound, pressure and required assembly details.",
+      "referenceHeading": "Selection reference",
+      "referenceScope": "The manufacturer example below helps you specify an enquiry. Its values describe the named reference model, not the CHUANWEI product pictured above. Request the offered model’s datasheet for your order.",
+      "referenceSource": "Manufacturer reference",
+      "reference0Title": "Victaulic Style 107N · 06.23",
+      "reference0Note": "Specify pipe outside diameter, groove dimensions, gasket compound and the required assembly pressure.",
+      "reference0Row0Label": "Reference size range",
+      "reference0Row0Value": "DN50–DN300",
+      "reference0Row1Label": "Pipe material",
+      "reference0Row1Value": "Carbon steel"
     },
     "ar": {
       "onThisPage": "في هذه الصفحة",
@@ -305,15 +318,15 @@
       "inquiryTitle": "اطلب تفاصيل المنتج وعرض سعر",
       "inquiryBody": "أرسل التكوين المختار والكمية والوجهة.",
       "title": "وصلات أنابيب صلبة ذات أخاديد",
-      "lead": "تربط الوصلات الصلبة المثبتة بمسامير أطراف الأنابيب ذات الأخاديد المتوافقة. مجموعة XGQT والوصلة المرجعية المنفصلة تكوينان مختلفان؛ ويصف المورد حشية الوصلة الأخيرة بأنها EPDM، مع ضرورة تأكيد مادة دفعة التوريد.",
+      "lead": "تربط الوصلات الصلبة المثبتة بمسامير أطراف الأنابيب ذات الأخاديد المتوافقة. قارن مقاسات XGQT والتكوين الإضافي ذي الجسم المقسوم أدناه، وحدد أبعاد الأنبوب ومتطلبات الحشية عند الطلب.",
       "eyebrow": "وصلات الأنابيب المحززة",
       "seoTitle": "وصلات أنابيب صلبة ذات أخاديد | CHUANWEI FIRE",
-      "seoDescription": "تربط الوصلات الصلبة المثبتة بمسامير أطراف الأنابيب ذات الأخاديد المتوافقة. مجموعة XGQT والوصلة المرجعية المنفصلة تكوينان مختلفان؛ ويصف المورد حشية الوصلة الأخيرة بأنها EPDM، مع ضرورة تأكيد مادة دفعة التوريد.",
+      "seoDescription": "تربط الوصلات الصلبة المثبتة بمسامير أطراف الأنابيب ذات الأخاديد المتوافقة. قارن مقاسات XGQT والتكوين الإضافي ذي الجسم المقسوم أدناه، وحدد أبعاد الأنبوب ومتطلبات الحشية عند الطلب.",
       "note": "حدد كلًا من المقاس الاسمي DN والقطر الخارجي الفعلي للأنبوب، مع شكل الأخدود المقابل أو رسمه.",
       "image0Alt": "وصلة XGQT مرجعية؛ تنطبق خيارات DN وقطر الأنبوب الخارجي المدرجة على هذه المجموعة.",
       "image0Caption": "وصلة XGQT مرجعية؛ تنطبق خيارات DN وقطر الأنبوب الخارجي المدرجة على هذه المجموعة.",
-      "image1Alt": "وصلة منفصلة بمسامير — صورة مرجعية؛ يصف المورد الحشية بأنها EPDM، ويجب تأكيد مادة دفعة التوريد.",
-      "image1Caption": "وصلة منفصلة بمسامير — صورة مرجعية؛ يصف المورد الحشية بأنها EPDM، ويجب تأكيد مادة دفعة التوريد.",
+      "image1Alt": "وصلة إضافية ذات جسم مقسوم ومثبت بمسامير",
+      "image1Caption": "وصلة إضافية ذات جسم مقسوم ومثبت بمسامير",
       "spec0Label": "مادة جسم XGQT",
       "spec0Value": "حديد دكتايل",
       "spec1Label": "المقاسات الاسمية المدرجة لـ XGQT",
@@ -356,13 +369,41 @@
       "model9Name": "XGQT · DN200 · القطر الخارجي للأنبوب 219 mm",
       "model9Reference": "حسب طلب الاستفسار",
       "model9Selection": "اختر مجموعة المقاس والقطر الخارجي المدرجة بدقة، وطابق أبعاد الأخدود.",
-      "model10Name": "وصلة منفصلة بمسامير — صورة مرجعية",
+      "model10Name": "وصلة إضافية مثبتة بمسامير",
       "model10Reference": "حسب طلب الاستفسار",
-      "model10Selection": "جسم مقسوم من حديد الدكتايل؛ يصف المورد الحشية بأنها EPDM، ويجب تأكيد مادة دفعة التوريد. حدد الجسم وأبعاد التوصيل بدقة.",
+      "model10Selection": "جسم مقسوم من حديد الدكتايل. حدد أبعاد الجسم وشكل الأخدود ومتطلبات الحشية.",
       "selection0Label": "أبعاد الأنبوب والأخدود",
       "selection0Body": "حدد كلًا من المقاس الاسمي DN والقطر الخارجي الفعلي للأنبوب، مع شكل الأخدود المقابل أو رسمه.",
       "selection1Label": "تكوين الوصلة والحشية",
-      "selection1Body": "حدد مجموعة XGQT أو الوصلة المرجعية المنفصلة، واذكر مركب الحشية والضغط وتفاصيل التجميع المطلوبة."
+      "selection1Body": "حدد مجموعة XGQT أو الوصلة المرجعية المنفصلة، واذكر مركب الحشية والضغط وتفاصيل التجميع المطلوبة.",
+      "referenceHeading": "مرجع الاختيار",
+      "referenceScope": "يساعد المثال التالي من الشركة المصنّعة المذكورة في تحديد متطلبات الاستفسار. القيم تخص الطراز المرجعي المذكور، ولا تمثل مواصفات منتج CHUANWEI المصوّر أعلاه. اطلب ورقة بيانات الطراز المعروض لطلبك.",
+      "referenceSource": "مرجع الشركة المصنّعة",
+      "reference0Title": "Victaulic Style 107N · 06.23",
+      "reference0Note": "حدد القطر الخارجي للأنبوب وأبعاد الأخدود ومادة الحشية وضغط مجموعة التوصيل المطلوب.",
+      "reference0Row0Label": "نطاق المقاسات المرجعي",
+      "reference0Row0Value": "DN50–DN300",
+      "reference0Row1Label": "مادة الأنبوب",
+      "reference0Row1Value": "فولاذ كربوني"
     }
-  }
+  },
+  "referenceExamples": [
+    {
+      "title": "reference0Title",
+      "rows": [
+        {
+          "label": "reference0Row0Label",
+          "value": "reference0Row0Value",
+          "technical": true
+        },
+        {
+          "label": "reference0Row1Label",
+          "value": "reference0Row1Value",
+          "technical": false
+        }
+      ],
+      "note": "reference0Note",
+      "url": "https://assets.victaulic.com/assets/uploads/literature/06.23.pdf"
+    }
+  ]
 }

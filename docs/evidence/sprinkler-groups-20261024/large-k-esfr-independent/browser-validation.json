@@ -1,0 +1,667 @@
+{
+  "status": "PASS",
+  "generatedAt": "2026-10-25T08:09:18.975Z",
+  "browser": "Edg/155.0.4283.62",
+  "checks": [
+    {
+      "scenario": "large-k-en-desktop",
+      "status": "PASS",
+      "file": "products/消防喷头/large-k-factor-sprinklers.html",
+      "layout": {
+        "overflow": -15,
+        "broken": [],
+        "lang": "en",
+        "dir": "ltr"
+      },
+      "state": {
+        "title": "Large K-Factor Sprinklers",
+        "rows": 6,
+        "thumbs": 5,
+        "supplement": false,
+        "extraPhotos": 0,
+        "alternate": "https://chuanweifire.com/ar/products/large-k-factor-sprinklers/"
+      },
+      "gallery": [
+        {
+          "main": "assets/products/guanya-2026/large-k-factor-esfr-sprinklers-k161-flat-deflector-1600.webp",
+          "modal": "assets/products/guanya-2026/large-k-factor-esfr-sprinklers-k161-flat-deflector-1600.webp",
+          "open": true,
+          "caption": "K161 metric / K11.2 US — flat-deflector sprinkler sample",
+          "count": "1 / 5",
+          "closed": true
+        },
+        {
+          "main": "assets/products/guanya-2026/large-k-factor-esfr-sprinklers-k161-upright-68c-1600.webp",
+          "modal": "assets/products/guanya-2026/large-k-factor-esfr-sprinklers-k161-upright-68c-1600.webp",
+          "open": true,
+          "caption": "K161 metric / K11.2 US — upright sprinkler, 68°C",
+          "count": "2 / 5",
+          "closed": true
+        },
+        {
+          "main": "assets/products/guanya-2026/large-k-factor-esfr-sprinklers-dsc_5816-1600.webp",
+          "modal": "assets/products/guanya-2026/large-k-factor-esfr-sprinklers-dsc_5816-1600.webp",
+          "open": true,
+          "caption": "Upright glass-bulb sprinkler — K202 / 68°C",
+          "count": "3 / 5",
+          "closed": true
+        },
+        {
+          "main": "assets/products/guanya-2026/large-k-factor-esfr-sprinklers-dsc_5814-1600.webp",
+          "modal": "assets/products/guanya-2026/large-k-factor-esfr-sprinklers-dsc_5814-1600.webp",
+          "open": true,
+          "caption": "Pendent glass-bulb sprinkler — K202 / 68°C",
+          "count": "4 / 5",
+          "closed": true
+        },
+        {
+          "main": "assets/products/guanya-2026/large-k-factor-esfr-sprinklers-dsc_5813-1600.webp",
+          "modal": "assets/products/guanya-2026/large-k-factor-esfr-sprinklers-dsc_5813-1600.webp",
+          "open": true,
+          "caption": "Horizontal sidewall glass-bulb sprinkler — K202 / 68°C",
+          "count": "5 / 5",
+          "closed": true
+        }
+      ]
+    },
+    {
+      "scenario": "esfr-en-desktop",
+      "status": "PASS",
+      "file": "products/消防喷头/esfr-sprinklers.html",
+      "layout": {
+        "overflow": -15,
+        "broken": [],
+        "lang": "en",
+        "dir": "ltr"
+      },
+      "state": {
+        "title": "ESFR Sprinklers",
+        "rows": 6,
+        "thumbs": 4,
+        "supplement": true,
+        "extraPhotos": 0,
+        "alternate": "https://chuanweifire.com/ar/products/esfr-sprinklers/"
+      },
+      "gallery": [
+        {
+          "main": "products/消防喷头/large-k-esfr-sprinkler/esfr-pendent-series.jpg",
+          "modal": "products/消防喷头/large-k-esfr-sprinkler/esfr-pendent-series.jpg",
+          "open": true,
+          "caption": "ESFR Pendent Series",
+          "count": "1 / 4",
+          "closed": true
+        },
+        {
+          "main": "products/消防喷头/large-k-esfr-sprinkler/esfr-upright-series.jpg",
+          "modal": "products/消防喷头/large-k-esfr-sprinkler/esfr-upright-series.jpg",
+          "open": true,
+          "caption": "ESFR Upright Series",
+          "count": "2 / 4",
+          "closed": true
+        },
+        {
+          "main": "assets/products/guanya-2026/large-k-factor-esfr-sprinklers-esfr-glass-bulb-slotted-1600.webp",
+          "modal": "assets/products/guanya-2026/large-k-factor-esfr-sprinklers-esfr-glass-bulb-slotted-1600.webp",
+          "open": true,
+          "caption": "ESFR glass-bulb sprinkler — slotted deflector",
+          "count": "3 / 4",
+          "closed": true
+        },
+        {
+          "main": "assets/products/guanya-2026/large-k-factor-esfr-sprinklers-esfr-glass-bulb-domed-1600.webp",
+          "modal": "assets/products/guanya-2026/large-k-factor-esfr-sprinklers-esfr-glass-bulb-domed-1600.webp",
+          "open": true,
+          "caption": "ESFR glass-bulb sprinkler — domed deflector",
+          "count": "4 / 4",
+          "closed": true
+        }
+      ]
+    },
+    {
+      "scenario": "large-k-ar-desktop",
+      "status": "PASS",
+      "file": "ar/products/large-k-factor-sprinklers/index.html",
+      "layout": {
+        "overflow": -15,
+        "broken": [],
+        "lang": "ar",
+        "dir": "rtl"
+      },
+      "state": {
+        "title": "رشاشات ذات معامل K كبير",
+        "rows": 6,
+        "thumbs": 5,
+        "supplement": false,
+        "extraPhotos": 0,
+        "alternate": "https://chuanweifire.com/products/%E6%B6%88%E9%98%B2%E5%96%B7%E5%A4%B4/large-k-factor-sprinklers.html"
+      },
+      "gallery": [
+        {
+          "main": "assets/products/guanya-2026/large-k-factor-esfr-sprinklers-k161-flat-deflector-1600.webp",
+          "modal": "assets/products/guanya-2026/large-k-factor-esfr-sprinklers-k161-flat-deflector-1600.webp",
+          "open": true,
+          "caption": "K161 متري / K11.2 أمريكي — عينة رشاش بصفيحة توزيع مسطحة",
+          "count": "1 / 5",
+          "closed": true
+        },
+        {
+          "main": "assets/products/guanya-2026/large-k-factor-esfr-sprinklers-k161-upright-68c-1600.webp",
+          "modal": "assets/products/guanya-2026/large-k-factor-esfr-sprinklers-k161-upright-68c-1600.webp",
+          "open": true,
+          "caption": "K161 متري / K11.2 أمريكي — رشاش قائم، 68°C",
+          "count": "2 / 5",
+          "closed": true
+        },
+        {
+          "main": "assets/products/guanya-2026/large-k-factor-esfr-sprinklers-dsc_5816-1600.webp",
+          "modal": "assets/products/guanya-2026/large-k-factor-esfr-sprinklers-dsc_5816-1600.webp",
+          "open": true,
+          "caption": "رشاش ببصيلة زجاجية قائم — K202 / 68°C",
+          "count": "3 / 5",
+          "closed": true
+        },
+        {
+          "main": "assets/products/guanya-2026/large-k-factor-esfr-sprinklers-dsc_5814-1600.webp",
+          "modal": "assets/products/guanya-2026/large-k-factor-esfr-sprinklers-dsc_5814-1600.webp",
+          "open": true,
+          "caption": "رشاش ببصيلة زجاجية معلق — K202 / 68°C",
+          "count": "4 / 5",
+          "closed": true
+        },
+        {
+          "main": "assets/products/guanya-2026/large-k-factor-esfr-sprinklers-dsc_5813-1600.webp",
+          "modal": "assets/products/guanya-2026/large-k-factor-esfr-sprinklers-dsc_5813-1600.webp",
+          "open": true,
+          "caption": "رشاش ببصيلة زجاجية جانبي أفقي — K202 / 68°C",
+          "count": "5 / 5",
+          "closed": true
+        }
+      ]
+    },
+    {
+      "scenario": "esfr-ar-desktop",
+      "status": "PASS",
+      "file": "ar/products/esfr-sprinklers/index.html",
+      "layout": {
+        "overflow": -15,
+        "broken": [],
+        "lang": "ar",
+        "dir": "rtl"
+      },
+      "state": {
+        "title": "رشاشات ESFR",
+        "rows": 6,
+        "thumbs": 4,
+        "supplement": true,
+        "extraPhotos": 0,
+        "alternate": "https://chuanweifire.com/products/%E6%B6%88%E9%98%B2%E5%96%B7%E5%A4%B4/esfr-sprinklers.html"
+      },
+      "gallery": [
+        {
+          "main": "products/消防喷头/large-k-esfr-sprinkler/esfr-pendent-series.jpg",
+          "modal": "products/消防喷头/large-k-esfr-sprinkler/esfr-pendent-series.jpg",
+          "open": true,
+          "caption": "مجموعة ESFR المتدلية",
+          "count": "1 / 4",
+          "closed": true
+        },
+        {
+          "main": "products/消防喷头/large-k-esfr-sprinkler/esfr-upright-series.jpg",
+          "modal": "products/消防喷头/large-k-esfr-sprinkler/esfr-upright-series.jpg",
+          "open": true,
+          "caption": "مجموعة ESFR القائمة",
+          "count": "2 / 4",
+          "closed": true
+        },
+        {
+          "main": "assets/products/guanya-2026/large-k-factor-esfr-sprinklers-esfr-glass-bulb-slotted-1600.webp",
+          "modal": "assets/products/guanya-2026/large-k-factor-esfr-sprinklers-esfr-glass-bulb-slotted-1600.webp",
+          "open": true,
+          "caption": "رشاش ESFR بعنصر زجاجي — صفيحة توزيع مشقوقة",
+          "count": "3 / 4",
+          "closed": true
+        },
+        {
+          "main": "assets/products/guanya-2026/large-k-factor-esfr-sprinklers-esfr-glass-bulb-domed-1600.webp",
+          "modal": "assets/products/guanya-2026/large-k-factor-esfr-sprinklers-esfr-glass-bulb-domed-1600.webp",
+          "open": true,
+          "caption": "رشاش ESFR بعنصر زجاجي — صفيحة توزيع مقببة",
+          "count": "4 / 4",
+          "closed": true
+        }
+      ]
+    },
+    {
+      "scenario": "large-k-en-mobile",
+      "status": "PASS",
+      "file": "products/消防喷头/large-k-factor-sprinklers.html",
+      "layout": {
+        "overflow": 0,
+        "broken": [],
+        "lang": "en",
+        "dir": "ltr"
+      },
+      "state": {
+        "title": "Large K-Factor Sprinklers",
+        "rows": 6,
+        "thumbs": 5,
+        "supplement": false,
+        "extraPhotos": 0,
+        "alternate": "https://chuanweifire.com/ar/products/large-k-factor-sprinklers/"
+      },
+      "gallery": [
+        {
+          "main": "assets/products/guanya-2026/large-k-factor-esfr-sprinklers-k161-flat-deflector-1600.webp",
+          "modal": "assets/products/guanya-2026/large-k-factor-esfr-sprinklers-k161-flat-deflector-1600.webp",
+          "open": true,
+          "caption": "K161 metric / K11.2 US — flat-deflector sprinkler sample",
+          "count": "1 / 5",
+          "closed": true
+        },
+        {
+          "main": "assets/products/guanya-2026/large-k-factor-esfr-sprinklers-k161-upright-68c-1600.webp",
+          "modal": "assets/products/guanya-2026/large-k-factor-esfr-sprinklers-k161-upright-68c-1600.webp",
+          "open": true,
+          "caption": "K161 metric / K11.2 US — upright sprinkler, 68°C",
+          "count": "2 / 5",
+          "closed": true
+        },
+        {
+          "main": "assets/products/guanya-2026/large-k-factor-esfr-sprinklers-dsc_5816-1600.webp",
+          "modal": "assets/products/guanya-2026/large-k-factor-esfr-sprinklers-dsc_5816-1600.webp",
+          "open": true,
+          "caption": "Upright glass-bulb sprinkler — K202 / 68°C",
+          "count": "3 / 5",
+          "closed": true
+        },
+        {
+          "main": "assets/products/guanya-2026/large-k-factor-esfr-sprinklers-dsc_5814-1600.webp",
+          "modal": "assets/products/guanya-2026/large-k-factor-esfr-sprinklers-dsc_5814-1600.webp",
+          "open": true,
+          "caption": "Pendent glass-bulb sprinkler — K202 / 68°C",
+          "count": "4 / 5",
+          "closed": true
+        },
+        {
+          "main": "assets/products/guanya-2026/large-k-factor-esfr-sprinklers-dsc_5813-1600.webp",
+          "modal": "assets/products/guanya-2026/large-k-factor-esfr-sprinklers-dsc_5813-1600.webp",
+          "open": true,
+          "caption": "Horizontal sidewall glass-bulb sprinkler — K202 / 68°C",
+          "count": "5 / 5",
+          "closed": true
+        }
+      ]
+    },
+    {
+      "scenario": "esfr-en-mobile",
+      "status": "PASS",
+      "file": "products/消防喷头/esfr-sprinklers.html",
+      "layout": {
+        "overflow": 0,
+        "broken": [],
+        "lang": "en",
+        "dir": "ltr"
+      },
+      "state": {
+        "title": "ESFR Sprinklers",
+        "rows": 6,
+        "thumbs": 4,
+        "supplement": true,
+        "extraPhotos": 0,
+        "alternate": "https://chuanweifire.com/ar/products/esfr-sprinklers/"
+      },
+      "gallery": [
+        {
+          "main": "products/消防喷头/large-k-esfr-sprinkler/esfr-pendent-series.jpg",
+          "modal": "products/消防喷头/large-k-esfr-sprinkler/esfr-pendent-series.jpg",
+          "open": true,
+          "caption": "ESFR Pendent Series",
+          "count": "1 / 4",
+          "closed": true
+        },
+        {
+          "main": "products/消防喷头/large-k-esfr-sprinkler/esfr-upright-series.jpg",
+          "modal": "products/消防喷头/large-k-esfr-sprinkler/esfr-upright-series.jpg",
+          "open": true,
+          "caption": "ESFR Upright Series",
+          "count": "2 / 4",
+          "closed": true
+        },
+        {
+          "main": "assets/products/guanya-2026/large-k-factor-esfr-sprinklers-esfr-glass-bulb-slotted-1600.webp",
+          "modal": "assets/products/guanya-2026/large-k-factor-esfr-sprinklers-esfr-glass-bulb-slotted-1600.webp",
+          "open": true,
+          "caption": "ESFR glass-bulb sprinkler — slotted deflector",
+          "count": "3 / 4",
+          "closed": true
+        },
+        {
+          "main": "assets/products/guanya-2026/large-k-factor-esfr-sprinklers-esfr-glass-bulb-domed-1600.webp",
+          "modal": "assets/products/guanya-2026/large-k-factor-esfr-sprinklers-esfr-glass-bulb-domed-1600.webp",
+          "open": true,
+          "caption": "ESFR glass-bulb sprinkler — domed deflector",
+          "count": "4 / 4",
+          "closed": true
+        }
+      ]
+    },
+    {
+      "scenario": "large-k-ar-mobile",
+      "status": "PASS",
+      "file": "ar/products/large-k-factor-sprinklers/index.html",
+      "layout": {
+        "overflow": 0,
+        "broken": [],
+        "lang": "ar",
+        "dir": "rtl"
+      },
+      "state": {
+        "title": "رشاشات ذات معامل K كبير",
+        "rows": 6,
+        "thumbs": 5,
+        "supplement": false,
+        "extraPhotos": 0,
+        "alternate": "https://chuanweifire.com/products/%E6%B6%88%E9%98%B2%E5%96%B7%E5%A4%B4/large-k-factor-sprinklers.html"
+      },
+      "gallery": [
+        {
+          "main": "assets/products/guanya-2026/large-k-factor-esfr-sprinklers-k161-flat-deflector-1600.webp",
+          "modal": "assets/products/guanya-2026/large-k-factor-esfr-sprinklers-k161-flat-deflector-1600.webp",
+          "open": true,
+          "caption": "K161 متري / K11.2 أمريكي — عينة رشاش بصفيحة توزيع مسطحة",
+          "count": "1 / 5",
+          "closed": true
+        },
+        {
+          "main": "assets/products/guanya-2026/large-k-factor-esfr-sprinklers-k161-upright-68c-1600.webp",
+          "modal": "assets/products/guanya-2026/large-k-factor-esfr-sprinklers-k161-upright-68c-1600.webp",
+          "open": true,
+          "caption": "K161 متري / K11.2 أمريكي — رشاش قائم، 68°C",
+          "count": "2 / 5",
+          "closed": true
+        },
+        {
+          "main": "assets/products/guanya-2026/large-k-factor-esfr-sprinklers-dsc_5816-1600.webp",
+          "modal": "assets/products/guanya-2026/large-k-factor-esfr-sprinklers-dsc_5816-1600.webp",
+          "open": true,
+          "caption": "رشاش ببصيلة زجاجية قائم — K202 / 68°C",
+          "count": "3 / 5",
+          "closed": true
+        },
+        {
+          "main": "assets/products/guanya-2026/large-k-factor-esfr-sprinklers-dsc_5814-1600.webp",
+          "modal": "assets/products/guanya-2026/large-k-factor-esfr-sprinklers-dsc_5814-1600.webp",
+          "open": true,
+          "caption": "رشاش ببصيلة زجاجية معلق — K202 / 68°C",
+          "count": "4 / 5",
+          "closed": true
+        },
+        {
+          "main": "assets/products/guanya-2026/large-k-factor-esfr-sprinklers-dsc_5813-1600.webp",
+          "modal": "assets/products/guanya-2026/large-k-factor-esfr-sprinklers-dsc_5813-1600.webp",
+          "open": true,
+          "caption": "رشاش ببصيلة زجاجية جانبي أفقي — K202 / 68°C",
+          "count": "5 / 5",
+          "closed": true
+        }
+      ]
+    },
+    {
+      "scenario": "esfr-ar-mobile",
+      "status": "PASS",
+      "file": "ar/products/esfr-sprinklers/index.html",
+      "layout": {
+        "overflow": 0,
+        "broken": [],
+        "lang": "ar",
+        "dir": "rtl"
+      },
+      "state": {
+        "title": "رشاشات ESFR",
+        "rows": 6,
+        "thumbs": 4,
+        "supplement": true,
+        "extraPhotos": 0,
+        "alternate": "https://chuanweifire.com/products/%E6%B6%88%E9%98%B2%E5%96%B7%E5%A4%B4/esfr-sprinklers.html"
+      },
+      "gallery": [
+        {
+          "main": "products/消防喷头/large-k-esfr-sprinkler/esfr-pendent-series.jpg",
+          "modal": "products/消防喷头/large-k-esfr-sprinkler/esfr-pendent-series.jpg",
+          "open": true,
+          "caption": "مجموعة ESFR المتدلية",
+          "count": "1 / 4",
+          "closed": true
+        },
+        {
+          "main": "products/消防喷头/large-k-esfr-sprinkler/esfr-upright-series.jpg",
+          "modal": "products/消防喷头/large-k-esfr-sprinkler/esfr-upright-series.jpg",
+          "open": true,
+          "caption": "مجموعة ESFR القائمة",
+          "count": "2 / 4",
+          "closed": true
+        },
+        {
+          "main": "assets/products/guanya-2026/large-k-factor-esfr-sprinklers-esfr-glass-bulb-slotted-1600.webp",
+          "modal": "assets/products/guanya-2026/large-k-factor-esfr-sprinklers-esfr-glass-bulb-slotted-1600.webp",
+          "open": true,
+          "caption": "رشاش ESFR بعنصر زجاجي — صفيحة توزيع مشقوقة",
+          "count": "3 / 4",
+          "closed": true
+        },
+        {
+          "main": "assets/products/guanya-2026/large-k-factor-esfr-sprinklers-esfr-glass-bulb-domed-1600.webp",
+          "modal": "assets/products/guanya-2026/large-k-factor-esfr-sprinklers-esfr-glass-bulb-domed-1600.webp",
+          "open": true,
+          "caption": "رشاش ESFR بعنصر زجاجي — صفيحة توزيع مقببة",
+          "count": "4 / 4",
+          "closed": true
+        }
+      ]
+    }
+  ],
+  "listingChecks": [
+    {
+      "scenario": "category:sprinklers-en-desktop",
+      "status": "PASS",
+      "links": [
+        {
+          "seriesId": "large-k",
+          "href": "消防喷头/large-k-factor-sprinklers.html"
+        },
+        {
+          "seriesId": "esfr",
+          "href": "消防喷头/esfr-sprinklers.html"
+        }
+      ],
+      "searches": []
+    },
+    {
+      "scenario": "products-en-desktop",
+      "status": "PASS",
+      "links": [
+        {
+          "seriesId": "large-k",
+          "href": "products/消防喷头/large-k-factor-sprinklers.html"
+        },
+        {
+          "seriesId": "esfr",
+          "href": "products/消防喷头/esfr-sprinklers.html"
+        }
+      ],
+      "searches": [
+        {
+          "query": "T-ZSTZ161-68°C Q5",
+          "id": "large-k",
+          "href": "products/消防喷头/large-k-factor-sprinklers.html#models"
+        },
+        {
+          "query": "ESFR-202/74°C DN20",
+          "id": "esfr",
+          "href": "products/消防喷头/esfr-sprinklers.html#models"
+        },
+        {
+          "query": "ESFR K202 68°C",
+          "id": "esfr",
+          "href": "products/消防喷头/esfr-sprinklers.html#configuration-esfr-202-68"
+        }
+      ]
+    },
+    {
+      "scenario": "category:sprinklers-ar-desktop",
+      "status": "PASS",
+      "links": [
+        {
+          "seriesId": "large-k",
+          "href": "../large-k-factor-sprinklers/index.html"
+        },
+        {
+          "seriesId": "esfr",
+          "href": "../esfr-sprinklers/index.html"
+        }
+      ],
+      "searches": []
+    },
+    {
+      "scenario": "products-ar-desktop",
+      "status": "PASS",
+      "links": [
+        {
+          "seriesId": "large-k",
+          "href": "products/large-k-factor-sprinklers/index.html"
+        },
+        {
+          "seriesId": "esfr",
+          "href": "products/esfr-sprinklers/index.html"
+        }
+      ],
+      "searches": [
+        {
+          "query": "T-ZSTZ161-68°C Q5",
+          "id": "large-k",
+          "href": "products/large-k-factor-sprinklers/index.html#models"
+        },
+        {
+          "query": "ESFR-202/74°C DN20",
+          "id": "esfr",
+          "href": "products/esfr-sprinklers/index.html#models"
+        },
+        {
+          "query": "ESFR K202 68°C",
+          "id": "esfr",
+          "href": "products/esfr-sprinklers/index.html#configuration-esfr-202-68"
+        }
+      ]
+    },
+    {
+      "scenario": "category:sprinklers-en-mobile",
+      "status": "PASS",
+      "links": [
+        {
+          "seriesId": "large-k",
+          "href": "消防喷头/large-k-factor-sprinklers.html"
+        },
+        {
+          "seriesId": "esfr",
+          "href": "消防喷头/esfr-sprinklers.html"
+        }
+      ],
+      "searches": []
+    },
+    {
+      "scenario": "products-en-mobile",
+      "status": "PASS",
+      "links": [
+        {
+          "seriesId": "large-k",
+          "href": "products/消防喷头/large-k-factor-sprinklers.html"
+        },
+        {
+          "seriesId": "esfr",
+          "href": "products/消防喷头/esfr-sprinklers.html"
+        }
+      ],
+      "searches": [
+        {
+          "query": "T-ZSTZ161-68°C Q5",
+          "id": "large-k",
+          "href": "products/消防喷头/large-k-factor-sprinklers.html#models"
+        },
+        {
+          "query": "ESFR-202/74°C DN20",
+          "id": "esfr",
+          "href": "products/消防喷头/esfr-sprinklers.html#models"
+        },
+        {
+          "query": "ESFR K202 68°C",
+          "id": "esfr",
+          "href": "products/消防喷头/esfr-sprinklers.html#configuration-esfr-202-68"
+        }
+      ]
+    },
+    {
+      "scenario": "category:sprinklers-ar-mobile",
+      "status": "PASS",
+      "links": [
+        {
+          "seriesId": "large-k",
+          "href": "../large-k-factor-sprinklers/index.html"
+        },
+        {
+          "seriesId": "esfr",
+          "href": "../esfr-sprinklers/index.html"
+        }
+      ],
+      "searches": []
+    },
+    {
+      "scenario": "products-ar-mobile",
+      "status": "PASS",
+      "links": [
+        {
+          "seriesId": "large-k",
+          "href": "products/large-k-factor-sprinklers/index.html"
+        },
+        {
+          "seriesId": "esfr",
+          "href": "products/esfr-sprinklers/index.html"
+        }
+      ],
+      "searches": [
+        {
+          "query": "T-ZSTZ161-68°C Q5",
+          "id": "large-k",
+          "href": "products/large-k-factor-sprinklers/index.html#models"
+        },
+        {
+          "query": "ESFR-202/74°C DN20",
+          "id": "esfr",
+          "href": "products/esfr-sprinklers/index.html#models"
+        },
+        {
+          "query": "ESFR K202 68°C",
+          "id": "esfr",
+          "href": "products/esfr-sprinklers/index.html#configuration-esfr-202-68"
+        }
+      ]
+    }
+  ],
+  "screenshots": [
+    "large-k-en-desktop-gallery.png",
+    "large-k-en-desktop-models.png",
+    "esfr-en-desktop-gallery.png",
+    "esfr-en-desktop-models.png",
+    "large-k-ar-desktop-gallery.png",
+    "large-k-ar-desktop-models.png",
+    "esfr-ar-desktop-gallery.png",
+    "esfr-ar-desktop-models.png",
+    "large-k-en-mobile-gallery.png",
+    "large-k-en-mobile-models.png",
+    "esfr-en-mobile-gallery.png",
+    "esfr-en-mobile-models.png",
+    "large-k-ar-mobile-gallery.png",
+    "large-k-ar-mobile-models.png",
+    "esfr-ar-mobile-gallery.png",
+    "esfr-ar-mobile-models.png"
+  ]
+}

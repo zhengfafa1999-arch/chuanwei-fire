@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "referenceProducts": 32,
+  "localEnrichedProducts": 5,
+  "previousSkuFieldsAndCopy": "unchanged",
+  "newSkuFields": "limited to 5 individually attributed local sources",
+  "technicalValueParity": "PASS"
+}

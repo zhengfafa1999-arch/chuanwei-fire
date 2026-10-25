@@ -1,0 +1,825 @@
+{
+  "scope": "single-category",
+  "category": "sprinklers",
+  "previewMode": "http",
+  "generatedAt": "2026-10-23T16:24:09.006Z",
+  "browser": "Edg/155.0.4283.62",
+  "viewports": [
+    {
+      "id": "desktop",
+      "width": 1440,
+      "height": 900,
+      "deviceScaleFactor": 1,
+      "mobile": false
+    },
+    {
+      "id": "mobile",
+      "width": 390,
+      "height": 844,
+      "deviceScaleFactor": 1,
+      "mobile": true
+    }
+  ],
+  "languageSwitches": [
+    {
+      "scenario": "desktop/en: home and directory entries, category reciprocal switch and refresh",
+      "status": "PASS"
+    },
+    {
+      "scenario": "desktop/en: product:closed-rotating-fire-sprinkler image/text entries, back, reciprocal switch, refresh and three footer returns",
+      "status": "PASS",
+      "viewport": "desktop",
+      "locale": "en",
+      "routeId": "product:closed-rotating-fire-sprinkler"
+    },
+    {
+      "scenario": "desktop/en: product:closed-centrifugal-fire-sprinklers image/text entries, back, reciprocal switch, refresh and three footer returns",
+      "status": "PASS",
+      "viewport": "desktop",
+      "locale": "en",
+      "routeId": "product:closed-centrifugal-fire-sprinklers"
+    },
+    {
+      "scenario": "desktop/en: product:water-curtain-nozzles image/text entries, back, reciprocal switch, refresh and three footer returns",
+      "status": "PASS",
+      "viewport": "desktop",
+      "locale": "en",
+      "routeId": "product:water-curtain-nozzles"
+    },
+    {
+      "scenario": "desktop/en: product:water-mist-nozzles image/text entries, back, reciprocal switch, refresh and three footer returns",
+      "status": "PASS",
+      "viewport": "desktop",
+      "locale": "en",
+      "routeId": "product:water-mist-nozzles"
+    },
+    {
+      "scenario": "desktop/en: product:standard-response-fire-sprinkler image/text entries, back, reciprocal switch, refresh and three footer returns",
+      "status": "PASS",
+      "viewport": "desktop",
+      "locale": "en",
+      "routeId": "product:standard-response-fire-sprinkler"
+    },
+    {
+      "scenario": "desktop/en: product:fusible-alloy-fire-sprinklers image/text entries, back, reciprocal switch, refresh and three footer returns",
+      "status": "PASS",
+      "viewport": "desktop",
+      "locale": "en",
+      "routeId": "product:fusible-alloy-fire-sprinklers"
+    },
+    {
+      "scenario": "desktop/en: product:glass-bulb-fire-sprinkler image/text entries, back, reciprocal switch, refresh and three footer returns",
+      "status": "PASS",
+      "viewport": "desktop",
+      "locale": "en",
+      "routeId": "product:glass-bulb-fire-sprinkler"
+    },
+    {
+      "scenario": "desktop/en: product:concealed-pendent-fire-sprinkler image/text entries, back, reciprocal switch, refresh and three footer returns",
+      "status": "PASS",
+      "viewport": "desktop",
+      "locale": "en",
+      "routeId": "product:concealed-pendent-fire-sprinkler"
+    },
+    {
+      "scenario": "desktop/en: product:dry-pendent-fire-sprinklers image/text entries, back, reciprocal switch, refresh and three footer returns",
+      "status": "PASS",
+      "viewport": "desktop",
+      "locale": "en",
+      "routeId": "product:dry-pendent-fire-sprinklers"
+    },
+    {
+      "scenario": "desktop/en: product:extended-coverage-quick-response-fire-sprinkler image/text entries, back, reciprocal switch, refresh and three footer returns",
+      "status": "PASS",
+      "viewport": "desktop",
+      "locale": "en",
+      "routeId": "product:extended-coverage-quick-response-fire-sprinkler"
+    },
+    {
+      "scenario": "desktop/en: product:large-k-factor-esfr-sprinklers image/text entries, back, reciprocal switch, refresh and three footer returns",
+      "status": "PASS",
+      "viewport": "desktop",
+      "locale": "en",
+      "routeId": "product:large-k-factor-esfr-sprinklers"
+    },
+    {
+      "scenario": "desktop/ar: home and directory entries, category reciprocal switch and refresh",
+      "status": "PASS"
+    },
+    {
+      "scenario": "desktop/ar: product:closed-rotating-fire-sprinkler image/text entries, back, reciprocal switch, refresh and three footer returns",
+      "status": "PASS",
+      "viewport": "desktop",
+      "locale": "ar",
+      "routeId": "product:closed-rotating-fire-sprinkler"
+    },
+    {
+      "scenario": "desktop/ar: product:closed-centrifugal-fire-sprinklers image/text entries, back, reciprocal switch, refresh and three footer returns",
+      "status": "PASS",
+      "viewport": "desktop",
+      "locale": "ar",
+      "routeId": "product:closed-centrifugal-fire-sprinklers"
+    },
+    {
+      "scenario": "desktop/ar: product:water-curtain-nozzles image/text entries, back, reciprocal switch, refresh and three footer returns",
+      "status": "PASS",
+      "viewport": "desktop",
+      "locale": "ar",
+      "routeId": "product:water-curtain-nozzles"
+    },
+    {
+      "scenario": "desktop/ar: product:water-mist-nozzles image/text entries, back, reciprocal switch, refresh and three footer returns",
+      "status": "PASS",
+      "viewport": "desktop",
+      "locale": "ar",
+      "routeId": "product:water-mist-nozzles"
+    },
+    {
+      "scenario": "desktop/ar: product:standard-response-fire-sprinkler image/text entries, back, reciprocal switch, refresh and three footer returns",
+      "status": "PASS",
+      "viewport": "desktop",
+      "locale": "ar",
+      "routeId": "product:standard-response-fire-sprinkler"
+    },
+    {
+      "scenario": "desktop/ar: product:fusible-alloy-fire-sprinklers image/text entries, back, reciprocal switch, refresh and three footer returns",
+      "status": "PASS",
+      "viewport": "desktop",
+      "locale": "ar",
+      "routeId": "product:fusible-alloy-fire-sprinklers"
+    },
+    {
+      "scenario": "desktop/ar: product:glass-bulb-fire-sprinkler image/text entries, back, reciprocal switch, refresh and three footer returns",
+      "status": "PASS",
+      "viewport": "desktop",
+      "locale": "ar",
+      "routeId": "product:glass-bulb-fire-sprinkler"
+    },
+    {
+      "scenario": "desktop/ar: product:concealed-pendent-fire-sprinkler image/text entries, back, reciprocal switch, refresh and three footer returns",
+      "status": "PASS",
+      "viewport": "desktop",
+      "locale": "ar",
+      "routeId": "product:concealed-pendent-fire-sprinkler"
+    },
+    {
+      "scenario": "desktop/ar: product:dry-pendent-fire-sprinklers image/text entries, back, reciprocal switch, refresh and three footer returns",
+      "status": "PASS",
+      "viewport": "desktop",
+      "locale": "ar",
+      "routeId": "product:dry-pendent-fire-sprinklers"
+    },
+    {
+      "scenario": "desktop/ar: product:extended-coverage-quick-response-fire-sprinkler image/text entries, back, reciprocal switch, refresh and three footer returns",
+      "status": "PASS",
+      "viewport": "desktop",
+      "locale": "ar",
+      "routeId": "product:extended-coverage-quick-response-fire-sprinkler"
+    },
+    {
+      "scenario": "desktop/ar: product:large-k-factor-esfr-sprinklers image/text entries, back, reciprocal switch, refresh and three footer returns",
+      "status": "PASS",
+      "viewport": "desktop",
+      "locale": "ar",
+      "routeId": "product:large-k-factor-esfr-sprinklers"
+    },
+    {
+      "scenario": "mobile/en: home and directory entries, category reciprocal switch and refresh",
+      "status": "PASS"
+    },
+    {
+      "scenario": "mobile/en: product:closed-rotating-fire-sprinkler image/text entries, back, reciprocal switch, refresh and three footer returns",
+      "status": "PASS",
+      "viewport": "mobile",
+      "locale": "en",
+      "routeId": "product:closed-rotating-fire-sprinkler"
+    },
+    {
+      "scenario": "mobile/en: product:closed-centrifugal-fire-sprinklers image/text entries, back, reciprocal switch, refresh and three footer returns",
+      "status": "PASS",
+      "viewport": "mobile",
+      "locale": "en",
+      "routeId": "product:closed-centrifugal-fire-sprinklers"
+    },
+    {
+      "scenario": "mobile/en: product:water-curtain-nozzles image/text entries, back, reciprocal switch, refresh and three footer returns",
+      "status": "PASS",
+      "viewport": "mobile",
+      "locale": "en",
+      "routeId": "product:water-curtain-nozzles"
+    },
+    {
+      "scenario": "mobile/en: product:water-mist-nozzles image/text entries, back, reciprocal switch, refresh and three footer returns",
+      "status": "PASS",
+      "viewport": "mobile",
+      "locale": "en",
+      "routeId": "product:water-mist-nozzles"
+    },
+    {
+      "scenario": "mobile/en: product:standard-response-fire-sprinkler image/text entries, back, reciprocal switch, refresh and three footer returns",
+      "status": "PASS",
+      "viewport": "mobile",
+      "locale": "en",
+      "routeId": "product:standard-response-fire-sprinkler"
+    },
+    {
+      "scenario": "mobile/en: product:fusible-alloy-fire-sprinklers image/text entries, back, reciprocal switch, refresh and three footer returns",
+      "status": "PASS",
+      "viewport": "mobile",
+      "locale": "en",
+      "routeId": "product:fusible-alloy-fire-sprinklers"
+    },
+    {
+      "scenario": "mobile/en: product:glass-bulb-fire-sprinkler image/text entries, back, reciprocal switch, refresh and three footer returns",
+      "status": "PASS",
+      "viewport": "mobile",
+      "locale": "en",
+      "routeId": "product:glass-bulb-fire-sprinkler"
+    },
+    {
+      "scenario": "mobile/en: product:concealed-pendent-fire-sprinkler image/text entries, back, reciprocal switch, refresh and three footer returns",
+      "status": "PASS",
+      "viewport": "mobile",
+      "locale": "en",
+      "routeId": "product:concealed-pendent-fire-sprinkler"
+    },
+    {
+      "scenario": "mobile/en: product:dry-pendent-fire-sprinklers image/text entries, back, reciprocal switch, refresh and three footer returns",
+      "status": "PASS",
+      "viewport": "mobile",
+      "locale": "en",
+      "routeId": "product:dry-pendent-fire-sprinklers"
+    },
+    {
+      "scenario": "mobile/en: product:extended-coverage-quick-response-fire-sprinkler image/text entries, back, reciprocal switch, refresh and three footer returns",
+      "status": "PASS",
+      "viewport": "mobile",
+      "locale": "en",
+      "routeId": "product:extended-coverage-quick-response-fire-sprinkler"
+    },
+    {
+      "scenario": "mobile/en: product:large-k-factor-esfr-sprinklers image/text entries, back, reciprocal switch, refresh and three footer returns",
+      "status": "PASS",
+      "viewport": "mobile",
+      "locale": "en",
+      "routeId": "product:large-k-factor-esfr-sprinklers"
+    },
+    {
+      "scenario": "mobile/ar: home and directory entries, category reciprocal switch and refresh",
+      "status": "PASS"
+    },
+    {
+      "scenario": "mobile/ar: product:closed-rotating-fire-sprinkler image/text entries, back, reciprocal switch, refresh and three footer returns",
+      "status": "PASS",
+      "viewport": "mobile",
+      "locale": "ar",
+      "routeId": "product:closed-rotating-fire-sprinkler"
+    },
+    {
+      "scenario": "mobile/ar: product:closed-centrifugal-fire-sprinklers image/text entries, back, reciprocal switch, refresh and three footer returns",
+      "status": "PASS",
+      "viewport": "mobile",
+      "locale": "ar",
+      "routeId": "product:closed-centrifugal-fire-sprinklers"
+    },
+    {
+      "scenario": "mobile/ar: product:water-curtain-nozzles image/text entries, back, reciprocal switch, refresh and three footer returns",
+      "status": "PASS",
+      "viewport": "mobile",
+      "locale": "ar",
+      "routeId": "product:water-curtain-nozzles"
+    },
+    {
+      "scenario": "mobile/ar: product:water-mist-nozzles image/text entries, back, reciprocal switch, refresh and three footer returns",
+      "status": "PASS",
+      "viewport": "mobile",
+      "locale": "ar",
+      "routeId": "product:water-mist-nozzles"
+    },
+    {
+      "scenario": "mobile/ar: product:standard-response-fire-sprinkler image/text entries, back, reciprocal switch, refresh and three footer returns",
+      "status": "PASS",
+      "viewport": "mobile",
+      "locale": "ar",
+      "routeId": "product:standard-response-fire-sprinkler"
+    },
+    {
+      "scenario": "mobile/ar: product:fusible-alloy-fire-sprinklers image/text entries, back, reciprocal switch, refresh and three footer returns",
+      "status": "PASS",
+      "viewport": "mobile",
+      "locale": "ar",
+      "routeId": "product:fusible-alloy-fire-sprinklers"
+    },
+    {
+      "scenario": "mobile/ar: product:glass-bulb-fire-sprinkler image/text entries, back, reciprocal switch, refresh and three footer returns",
+      "status": "PASS",
+      "viewport": "mobile",
+      "locale": "ar",
+      "routeId": "product:glass-bulb-fire-sprinkler"
+    },
+    {
+      "scenario": "mobile/ar: product:concealed-pendent-fire-sprinkler image/text entries, back, reciprocal switch, refresh and three footer returns",
+      "status": "PASS",
+      "viewport": "mobile",
+      "locale": "ar",
+      "routeId": "product:concealed-pendent-fire-sprinkler"
+    },
+    {
+      "scenario": "mobile/ar: product:dry-pendent-fire-sprinklers image/text entries, back, reciprocal switch, refresh and three footer returns",
+      "status": "PASS",
+      "viewport": "mobile",
+      "locale": "ar",
+      "routeId": "product:dry-pendent-fire-sprinklers"
+    },
+    {
+      "scenario": "mobile/ar: product:extended-coverage-quick-response-fire-sprinkler image/text entries, back, reciprocal switch, refresh and three footer returns",
+      "status": "PASS",
+      "viewport": "mobile",
+      "locale": "ar",
+      "routeId": "product:extended-coverage-quick-response-fire-sprinkler"
+    },
+    {
+      "scenario": "mobile/ar: product:large-k-factor-esfr-sprinklers image/text entries, back, reciprocal switch, refresh and three footer returns",
+      "status": "PASS",
+      "viewport": "mobile",
+      "locale": "ar",
+      "routeId": "product:large-k-factor-esfr-sprinklers"
+    }
+  ],
+  "sprinklerSeriesChecks": [
+    {
+      "viewport": "desktop",
+      "locale": "en",
+      "status": "PASS",
+      "series": [
+        {
+          "id": "k80-standard",
+          "name": "K80 Standard Response Sprinklers"
+        },
+        {
+          "id": "k80-quick",
+          "name": "K80 Quick Response Sprinklers"
+        },
+        {
+          "id": "k115-quick",
+          "name": "K115 Quick Response Sprinklers"
+        },
+        {
+          "id": "k115-standard",
+          "name": "K115 Standard Response Sprinklers"
+        },
+        {
+          "id": "k80-standard-concealed",
+          "name": "K80 Standard Response Concealed Sprinklers"
+        },
+        {
+          "id": "k80-quick-concealed",
+          "name": "K80 Quick Response Concealed Sprinklers"
+        },
+        {
+          "id": "k115-standard-concealed",
+          "name": "K115 Standard Response Concealed Sprinklers"
+        },
+        {
+          "id": "k115-quick-concealed",
+          "name": "K115 Quick Response Concealed Sprinklers"
+        },
+        {
+          "id": "dry",
+          "name": "Dry Fire Sprinklers"
+        },
+        {
+          "id": "large-k",
+          "name": "Large K-Factor Sprinklers"
+        },
+        {
+          "id": "ec",
+          "name": "EC Extended Coverage Sprinklers"
+        },
+        {
+          "id": "esfr",
+          "name": "ESFR Sprinklers"
+        },
+        {
+          "id": "fusible-alloy",
+          "name": "Fusible-Alloy Sprinklers"
+        },
+        {
+          "id": "closed-rotating",
+          "name": "Closed-Type Rotating Sprinklers"
+        },
+        {
+          "id": "closed-centrifugal",
+          "name": "Closed-Type Centrifugal Sprinklers"
+        },
+        {
+          "id": "water-mist",
+          "name": "Water Mist Nozzles"
+        },
+        {
+          "id": "water-curtain",
+          "name": "Water Curtain Nozzles"
+        }
+      ],
+      "inquirySeries": [
+        "k115-quick",
+        "k115-standard"
+      ],
+      "anchorChecks": [
+        {
+          "seriesId": "k80-standard-concealed",
+          "anchor": "series-k80-standard-concealed",
+          "path": "/products/消防喷头/concealed-pendent-fire-sprinkler.html",
+          "status": "PASS"
+        },
+        {
+          "seriesId": "k80-quick-concealed",
+          "anchor": "series-k80-quick-concealed",
+          "path": "/products/消防喷头/concealed-pendent-fire-sprinkler.html",
+          "status": "PASS"
+        },
+        {
+          "seriesId": "k115-standard-concealed",
+          "anchor": "series-k115-standard-concealed",
+          "path": "/products/消防喷头/concealed-pendent-fire-sprinkler.html",
+          "status": "PASS"
+        },
+        {
+          "seriesId": "k115-quick-concealed",
+          "anchor": "series-k115-quick-concealed",
+          "path": "/products/消防喷头/concealed-pendent-fire-sprinkler.html",
+          "status": "PASS"
+        },
+        {
+          "seriesId": "large-k",
+          "anchor": "series-large-k",
+          "path": "/products/消防喷头/large-k-factor-esfr-sprinklers.html",
+          "status": "PASS"
+        },
+        {
+          "seriesId": "esfr",
+          "anchor": "series-esfr",
+          "path": "/products/消防喷头/large-k-factor-esfr-sprinklers.html",
+          "status": "PASS"
+        }
+      ]
+    },
+    {
+      "viewport": "desktop",
+      "locale": "ar",
+      "status": "PASS",
+      "series": [
+        {
+          "id": "k80-standard",
+          "name": "رشاشات K80 ذات الاستجابة القياسية"
+        },
+        {
+          "id": "k80-quick",
+          "name": "رشاشات K80 سريعة الاستجابة"
+        },
+        {
+          "id": "k115-quick",
+          "name": "رشاشات K115 سريعة الاستجابة"
+        },
+        {
+          "id": "k115-standard",
+          "name": "رشاشات K115 ذات الاستجابة القياسية"
+        },
+        {
+          "id": "k80-standard-concealed",
+          "name": "رشاشات K80 مخفية ذات استجابة قياسية"
+        },
+        {
+          "id": "k80-quick-concealed",
+          "name": "رشاشات K80 مخفية سريعة الاستجابة"
+        },
+        {
+          "id": "k115-standard-concealed",
+          "name": "رشاشات K115 مخفية ذات استجابة قياسية"
+        },
+        {
+          "id": "k115-quick-concealed",
+          "name": "رشاشات K115 مخفية سريعة الاستجابة"
+        },
+        {
+          "id": "dry",
+          "name": "رشاشات الحريق الجافة"
+        },
+        {
+          "id": "large-k",
+          "name": "رشاشات ذات معامل K كبير"
+        },
+        {
+          "id": "ec",
+          "name": "رشاشات EC ذات التغطية الموسعة"
+        },
+        {
+          "id": "esfr",
+          "name": "رشاشات ESFR"
+        },
+        {
+          "id": "fusible-alloy",
+          "name": "رشاشات بعنصر قابل للانصهار"
+        },
+        {
+          "id": "closed-rotating",
+          "name": "رشاشات دوارة مغلقة"
+        },
+        {
+          "id": "closed-centrifugal",
+          "name": "رشاشات مغلقة بالطرد المركزي"
+        },
+        {
+          "id": "water-mist",
+          "name": "فوهات ضباب الماء"
+        },
+        {
+          "id": "water-curtain",
+          "name": "فوهات الستارة المائية"
+        }
+      ],
+      "inquirySeries": [
+        "k115-quick",
+        "k115-standard"
+      ],
+      "anchorChecks": [
+        {
+          "seriesId": "k80-standard-concealed",
+          "anchor": "series-k80-standard-concealed",
+          "path": "/ar/products/concealed-pendent-fire-sprinkler/index.html",
+          "status": "PASS"
+        },
+        {
+          "seriesId": "k80-quick-concealed",
+          "anchor": "series-k80-quick-concealed",
+          "path": "/ar/products/concealed-pendent-fire-sprinkler/index.html",
+          "status": "PASS"
+        },
+        {
+          "seriesId": "k115-standard-concealed",
+          "anchor": "series-k115-standard-concealed",
+          "path": "/ar/products/concealed-pendent-fire-sprinkler/index.html",
+          "status": "PASS"
+        },
+        {
+          "seriesId": "k115-quick-concealed",
+          "anchor": "series-k115-quick-concealed",
+          "path": "/ar/products/concealed-pendent-fire-sprinkler/index.html",
+          "status": "PASS"
+        },
+        {
+          "seriesId": "large-k",
+          "anchor": "series-large-k",
+          "path": "/ar/products/large-k-factor-esfr-sprinklers/index.html",
+          "status": "PASS"
+        },
+        {
+          "seriesId": "esfr",
+          "anchor": "series-esfr",
+          "path": "/ar/products/large-k-factor-esfr-sprinklers/index.html",
+          "status": "PASS"
+        }
+      ]
+    },
+    {
+      "viewport": "mobile",
+      "locale": "en",
+      "status": "PASS",
+      "series": [
+        {
+          "id": "k80-standard",
+          "name": "K80 Standard Response Sprinklers"
+        },
+        {
+          "id": "k80-quick",
+          "name": "K80 Quick Response Sprinklers"
+        },
+        {
+          "id": "k115-quick",
+          "name": "K115 Quick Response Sprinklers"
+        },
+        {
+          "id": "k115-standard",
+          "name": "K115 Standard Response Sprinklers"
+        },
+        {
+          "id": "k80-standard-concealed",
+          "name": "K80 Standard Response Concealed Sprinklers"
+        },
+        {
+          "id": "k80-quick-concealed",
+          "name": "K80 Quick Response Concealed Sprinklers"
+        },
+        {
+          "id": "k115-standard-concealed",
+          "name": "K115 Standard Response Concealed Sprinklers"
+        },
+        {
+          "id": "k115-quick-concealed",
+          "name": "K115 Quick Response Concealed Sprinklers"
+        },
+        {
+          "id": "dry",
+          "name": "Dry Fire Sprinklers"
+        },
+        {
+          "id": "large-k",
+          "name": "Large K-Factor Sprinklers"
+        },
+        {
+          "id": "ec",
+          "name": "EC Extended Coverage Sprinklers"
+        },
+        {
+          "id": "esfr",
+          "name": "ESFR Sprinklers"
+        },
+        {
+          "id": "fusible-alloy",
+          "name": "Fusible-Alloy Sprinklers"
+        },
+        {
+          "id": "closed-rotating",
+          "name": "Closed-Type Rotating Sprinklers"
+        },
+        {
+          "id": "closed-centrifugal",
+          "name": "Closed-Type Centrifugal Sprinklers"
+        },
+        {
+          "id": "water-mist",
+          "name": "Water Mist Nozzles"
+        },
+        {
+          "id": "water-curtain",
+          "name": "Water Curtain Nozzles"
+        }
+      ],
+      "inquirySeries": [
+        "k115-quick",
+        "k115-standard"
+      ],
+      "anchorChecks": [
+        {
+          "seriesId": "k80-standard-concealed",
+          "anchor": "series-k80-standard-concealed",
+          "path": "/products/消防喷头/concealed-pendent-fire-sprinkler.html",
+          "status": "PASS"
+        },
+        {
+          "seriesId": "k80-quick-concealed",
+          "anchor": "series-k80-quick-concealed",
+          "path": "/products/消防喷头/concealed-pendent-fire-sprinkler.html",
+          "status": "PASS"
+        },
+        {
+          "seriesId": "k115-standard-concealed",
+          "anchor": "series-k115-standard-concealed",
+          "path": "/products/消防喷头/concealed-pendent-fire-sprinkler.html",
+          "status": "PASS"
+        },
+        {
+          "seriesId": "k115-quick-concealed",
+          "anchor": "series-k115-quick-concealed",
+          "path": "/products/消防喷头/concealed-pendent-fire-sprinkler.html",
+          "status": "PASS"
+        },
+        {
+          "seriesId": "large-k",
+          "anchor": "series-large-k",
+          "path": "/products/消防喷头/large-k-factor-esfr-sprinklers.html",
+          "status": "PASS"
+        },
+        {
+          "seriesId": "esfr",
+          "anchor": "series-esfr",
+          "path": "/products/消防喷头/large-k-factor-esfr-sprinklers.html",
+          "status": "PASS"
+        }
+      ]
+    },
+    {
+      "viewport": "mobile",
+      "locale": "ar",
+      "status": "PASS",
+      "series": [
+        {
+          "id": "k80-standard",
+          "name": "رشاشات K80 ذات الاستجابة القياسية"
+        },
+        {
+          "id": "k80-quick",
+          "name": "رشاشات K80 سريعة الاستجابة"
+        },
+        {
+          "id": "k115-quick",
+          "name": "رشاشات K115 سريعة الاستجابة"
+        },
+        {
+          "id": "k115-standard",
+          "name": "رشاشات K115 ذات الاستجابة القياسية"
+        },
+        {
+          "id": "k80-standard-concealed",
+          "name": "رشاشات K80 مخفية ذات استجابة قياسية"
+        },
+        {
+          "id": "k80-quick-concealed",
+          "name": "رشاشات K80 مخفية سريعة الاستجابة"
+        },
+        {
+          "id": "k115-standard-concealed",
+          "name": "رشاشات K115 مخفية ذات استجابة قياسية"
+        },
+        {
+          "id": "k115-quick-concealed",
+          "name": "رشاشات K115 مخفية سريعة الاستجابة"
+        },
+        {
+          "id": "dry",
+          "name": "رشاشات الحريق الجافة"
+        },
+        {
+          "id": "large-k",
+          "name": "رشاشات ذات معامل K كبير"
+        },
+        {
+          "id": "ec",
+          "name": "رشاشات EC ذات التغطية الموسعة"
+        },
+        {
+          "id": "esfr",
+          "name": "رشاشات ESFR"
+        },
+        {
+          "id": "fusible-alloy",
+          "name": "رشاشات بعنصر قابل للانصهار"
+        },
+        {
+          "id": "closed-rotating",
+          "name": "رشاشات دوارة مغلقة"
+        },
+        {
+          "id": "closed-centrifugal",
+          "name": "رشاشات مغلقة بالطرد المركزي"
+        },
+        {
+          "id": "water-mist",
+          "name": "فوهات ضباب الماء"
+        },
+        {
+          "id": "water-curtain",
+          "name": "فوهات الستارة المائية"
+        }
+      ],
+      "inquirySeries": [
+        "k115-quick",
+        "k115-standard"
+      ],
+      "anchorChecks": [
+        {
+          "seriesId": "k80-standard-concealed",
+          "anchor": "series-k80-standard-concealed",
+          "path": "/ar/products/concealed-pendent-fire-sprinkler/index.html",
+          "status": "PASS"
+        },
+        {
+          "seriesId": "k80-quick-concealed",
+          "anchor": "series-k80-quick-concealed",
+          "path": "/ar/products/concealed-pendent-fire-sprinkler/index.html",
+          "status": "PASS"
+        },
+        {
+          "seriesId": "k115-standard-concealed",
+          "anchor": "series-k115-standard-concealed",
+          "path": "/ar/products/concealed-pendent-fire-sprinkler/index.html",
+          "status": "PASS"
+        },
+        {
+          "seriesId": "k115-quick-concealed",
+          "anchor": "series-k115-quick-concealed",
+          "path": "/ar/products/concealed-pendent-fire-sprinkler/index.html",
+          "status": "PASS"
+        },
+        {
+          "seriesId": "large-k",
+          "anchor": "series-large-k",
+          "path": "/ar/products/large-k-factor-esfr-sprinklers/index.html",
+          "status": "PASS"
+        },
+        {
+          "seriesId": "esfr",
+          "anchor": "series-esfr",
+          "path": "/ar/products/large-k-factor-esfr-sprinklers/index.html",
+          "status": "PASS"
+        }
+      ]
+    }
+  ],
+  "screenshots": [
+    "edge-desktop-sprinklers-en.png",
+    "edge-desktop-sprinklers-ar.png",
+    "edge-mobile-sprinklers-en.png",
+    "edge-mobile-sprinklers-ar.png"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "zipSha256": "ec7fe4bad845e0cccdbc4d9c3b1c5ab3eee51a54383ef35b4f06407e6460948b",
+  "zipFiles": 398,
+  "newDerivativesInZip": 16,
+  "unchangedBaselineDerivativesVerified": 0,
+  "localizedPagesVerified": 2,
+  "allPackagedHashesVerified": true
+}

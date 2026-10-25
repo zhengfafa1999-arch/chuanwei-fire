@@ -1,0 +1,23 @@
+{
+  "releaseDate": "2026-10-25",
+  "generatedAt": "2026-10-25T11:24:45.980Z",
+  "generatedAtChina": "2026-10-25 19:24:46 Asia/Shanghai",
+  "status": "local-package-user-deploys-not-deployed",
+  "baseline": "18002712ff71c32d43fc1f80df1b1a2c7a88283e",
+  "sprinklerSeries": 17,
+  "inquiryOnlySeries": 0,
+  "allRegisteredPages": 291,
+  "files": 1095,
+  "bytes": 81398049,
+  "added": 162,
+  "changed": 269,
+  "unchangedRequired": 664,
+  "unchangedBaselineDependencies": 0,
+  "localReferencesChecked": 84925,
+  "relatedImageReferencesChecked": 132,
+  "relatedImageDependencies": 29,
+  "archive": "deluge-photo-corrected-20261025-public-full.zip",
+  "archiveBytes": 66113655,
+  "archiveSha256": "ed5e6ccb741f7ba8f47fa7f09c3602429da7788f6a41baff33176d2f09d0be3f",
+  "deletes": []
+}

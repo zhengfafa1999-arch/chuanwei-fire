@@ -26,7 +26,15 @@
       "原网页合金钢与图片碳钢冲突，取共同可证实事实钢制，不指定钢种。",
       "仅2、3、5、7 kg手提式范围，不将30 kg推车式扩入。",
       "保留实物TAIRUI标识；型号后缀BE不转换为国际火灾等级。"
-    ]
+    ],
+    "marketReference": {
+      "grade": "C-other-manufacturer-or-series-reference",
+      "reviewDate": "2026-10-25",
+      "url": "https://amerex-fire.com/api/documents/download?a=en&d=import-amerex-portable-fire-extinguisher-catalog",
+      "model": "Amerex 322 / 330",
+      "location": "Portable catalogue, carbon dioxide table",
+      "scope": "Selection reference only; no supplied-SKU specification, certification, compatibility or availability inferred."
+    }
   },
   "publication": {
     "status": "release-candidate",
@@ -237,7 +245,16 @@
       "selection0Label": "Capacity and quantity",
       "selection0Body": "Specify the agent charge or volume and the quantity required for each model.",
       "selection1Label": "Project requirements",
-      "selection1Body": "Send the installation location, required fire rating and destination market so the exact model documents can be checked."
+      "selection1Body": "Send the installation location, required fire rating and destination market so the exact model documents can be checked.",
+      "referenceHeading": "Selection reference",
+      "referenceScope": "The manufacturer example below helps you specify an enquiry. Its values describe the named reference model, not the CHUANWEI product pictured above. Request the offered model’s datasheet for your order.",
+      "referenceSource": "Manufacturer reference",
+      "reference0Title": "Amerex 322 / 330",
+      "reference0Note": "These are carbon dioxide charge masses, not complete extinguisher weights.",
+      "reference0Row0Label": "322 agent charge",
+      "reference0Row0Value": "5 lb",
+      "reference0Row1Label": "330 agent charge",
+      "reference0Row1Value": "10 lb"
     },
     "ar": {
       "onThisPage": "في هذه الصفحة",
@@ -308,7 +325,35 @@
       "selection0Label": "السعة والكمية",
       "selection0Body": "حدد كتلة مادة الإطفاء أو حجمها والكمية المطلوبة من كل طراز.",
       "selection1Label": "متطلبات المشروع",
-      "selection1Body": "أرسل موقع الاستخدام وتصنيف الإطفاء المطلوب وبلد الوجهة للتحقق من وثائق الطراز المحدد."
+      "selection1Body": "أرسل موقع الاستخدام وتصنيف الإطفاء المطلوب وبلد الوجهة للتحقق من وثائق الطراز المحدد.",
+      "referenceHeading": "مرجع الاختيار",
+      "referenceScope": "يساعد المثال التالي من الشركة المصنّعة المذكورة في تحديد متطلبات الاستفسار. القيم تخص الطراز المرجعي المذكور، ولا تمثل مواصفات منتج CHUANWEI المصوّر أعلاه. اطلب ورقة بيانات الطراز المعروض لطلبك.",
+      "referenceSource": "مرجع الشركة المصنّعة",
+      "reference0Title": "Amerex 322 / 330",
+      "reference0Note": "هذه كتل شحنة ثاني أكسيد الكربون وليست أوزان الطفايات كاملة.",
+      "reference0Row0Label": "شحنة الطراز 322",
+      "reference0Row0Value": "5 lb",
+      "reference0Row1Label": "شحنة الطراز 330",
+      "reference0Row1Value": "10 lb"
     }
-  }
+  },
+  "referenceExamples": [
+    {
+      "title": "reference0Title",
+      "rows": [
+        {
+          "label": "reference0Row0Label",
+          "value": "reference0Row0Value",
+          "technical": true
+        },
+        {
+          "label": "reference0Row1Label",
+          "value": "reference0Row1Value",
+          "technical": true
+        }
+      ],
+      "note": "reference0Note",
+      "url": "https://amerex-fire.com/api/documents/download?a=en&d=import-amerex-portable-fire-extinguisher-catalog"
+    }
+  ]
 }

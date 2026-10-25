@@ -5,6 +5,9 @@ import { catalogExpansionByRoute, catalogExpansionListings } from './catalogExpa
 import { productSearchTerms } from './productSearchData.js';
 import { relatedSupplementConfigurations } from '../lib/product-supplements.js';
 import { websiteBatchFamilies, websiteBatchListings } from './websiteCatalogBatch.js';
+import { sprinklerSeriesCards } from './sprinklerSeries.js';
+import { concealedSeries } from '../lib/concealed-series.js';
+import { largeKEsfrSeries } from '../lib/large-k-esfr-series.js';
 
 export const DIRECTORY_COPY = {
   en: {
@@ -79,17 +82,20 @@ export const PRODUCT_FAMILIES = [
     image: "products/消防喷头/categories/standard-response-upright.jpg",
     products: [
       ["product:standard-response-fire-sprinkler", "Standard Response Fire Sprinklers", "رشاشات الحريق ذات الاستجابة القياسية", "products/消防喷头/standard-response-sprinkler/standard-response-three-styles.jpg"],
+      ["product:k115-standard-response-fire-sprinkler", "K115 Standard Response Sprinklers", "رشاشات K115 ذات الاستجابة القياسية", "assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5904-1600.webp"],
+      ["product:k115-quick-response-fire-sprinkler", "K115 Quick Response Sprinklers", "رشاشات K115 سريعة الاستجابة", "assets/products/guanya-2026/extended-coverage-quick-response-fire-sprinkler-dsc_5887-1600.webp"],
       ["product:fusible-alloy-fire-sprinklers", "Fusible-Alloy Fire Sprinklers", "رشاشات حريق بعنصر حراري قابل للانصهار", "products/消防喷头/fusible-alloy-fire-sprinklers/fusible-alloy-configuration-a.jpg"],
       ["product:glass-bulb-fire-sprinkler", "Quick Response Glass Bulb Sprinklers", "رشاشات زجاجية سريعة الاستجابة", "products/消防喷头/glass-bulb-sprinkler/quick-response-pendent.jpg"],
       ["product:extended-coverage-quick-response-fire-sprinkler", "Extended Coverage Quick Response Sprinklers", "رشاشات سريعة الاستجابة ذات تغطية موسعة", "products/消防喷头/categories/extended-coverage-quick-response.jpg"],
       ["product:concealed-pendent-fire-sprinkler", "Concealed Sprinklers — Standard / Quick Response, K80 / K115", "رشاشات مخفية — استجابة قياسية / سريعة، K80 / K115", "assets/products/concealed-listing-red-label/listing-1600.webp"],
+      ...concealedSeries.map(item => [item.routeId, item.name.en, item.name.ar, item.image]),
+      ...largeKEsfrSeries.map(item => [item.routeId, item.name.en, item.name.ar, item.image]),
       ["product:large-k-factor-esfr-sprinklers", "Large K-Factor & ESFR Sprinklers", "رشاشات بمعامل K كبير وESFR", "products/消防喷头/categories/large-k-esfr-sprinkler.jpg"],
       ["product:dry-pendent-fire-sprinklers", "Dry Pendent Fire Sprinklers", "رشاشات حريق جافة معلقة", "products/消防喷头/categories/dry-sprinkler.jpg"],
-      ["product:water-mist-nozzles", "Water Mist Nozzles", "فوهات ضباب الماء", "products/消防喷头/water-mist-nozzles/standard-water-mist-nozzle-view-1.jpg"],
+      ["product:water-mist-nozzles", "Water Mist Nozzles", "فوهات ضباب الماء", "products/消防喷头/water-mist-nozzles/water-mist-nozzle-with-inlet-strainer.jpg"],
       ["product:closed-rotating-fire-sprinkler", "Closed-Type Rotating Fire Sprinkler", "رشاش حريق دوار مغلق", "assets/products/special-sprinklers/closed-rotating-fire-sprinkler-1-1600.webp"],
       ["product:closed-centrifugal-fire-sprinklers", "Closed-Type Centrifugal Fire Sprinklers", "رشاشات حريق مغلقة بالطرد المركزي", "assets/products/special-sprinklers/closed-centrifugal-fire-sprinklers-2-1600.webp"],
       ["product:water-curtain-nozzles", "Water Curtain Nozzles", "فوهات الستارة المائية", "products/消防喷头/water-curtain-nozzles/horizontal-single-slot-water-curtain-nozzle.jpg"],
-      ["product:sprinkler-escutcheons-decorative-covers", "Fire Sprinkler Accessories", "ملحقات رشاشات الحريق", "assets/products/sprinkler-trim/double-layer-escutcheon-white-1254.webp"]
     ]
   },
   {
@@ -219,7 +225,9 @@ export const PRODUCT_FAMILIES = [
   }
 ].concat(websiteBatchFamilies).map((family) => ({
   ...family,
-  products: family.products.map(([routeId, en, ar, image]) => {
+  products: (family.id === 'pressure-gauges-accessories' ? [...family.products,
+    ["product:sprinkler-escutcheons-decorative-covers", "Fire Sprinkler Accessories", "ملحقات رشاشات الحريق", "assets/products/sprinkler-trim/double-layer-escutcheon-white-1254.webp"]
+  ] : family.products).map(([routeId, en, ar, image]) => {
     const file = new URL(`./documented-products/${routeId.replace('product:', '')}.json`, import.meta.url);
     const data = fs.existsSync(file) ? JSON.parse(fs.readFileSync(file, 'utf8')) : catalogExpansionByRoute.get(routeId) || null;
     const configurations = data?.configurationCards ? data.gallery.map(item => ({
@@ -237,6 +245,7 @@ export function localizedText(value, locale) {
 
 // Configurations with their own identified images appear alongside other products.
 export function flatProducts(family) {
+  if (family.id === 'sprinklers') return sprinklerSeriesCards(family);
   return family.products.flatMap(product => {
     const cards = product.configurations.length ? product.configurations.map(item => ({
     ...product, image: item.image, anchor: item.anchor,

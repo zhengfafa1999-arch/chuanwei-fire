@@ -110,7 +110,9 @@ export function createSiteNavigation(routeId, locale, outputPath) {
         href: resolveSiteRoute(family.routeId, routeLocale(family.routeId, locale), outputPath).href,
         products: flatProducts(family).map(product => ({
           name: product.name[locale] || product.name.en,
-          href: resolveSiteRoute(product.routeId, routeLocale(product.routeId, locale), outputPath).href + productSuffix(product)
+          href: product.inquiry
+            ? resolveSiteRoute(family.routeId, routeLocale(family.routeId, locale), outputPath).href + '#series-' + product.seriesId
+            : resolveSiteRoute(product.routeId, routeLocale(product.routeId, locale), outputPath).href + productSuffix(product)
         }))
       }));
       return {

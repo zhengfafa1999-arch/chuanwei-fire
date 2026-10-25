@@ -37,7 +37,7 @@
   "media": {
     "hero": "products/消防喷头/glass-bulb-sprinkler/quick-response-pendent.jpg",
     "upright": "products/消防喷头/glass-bulb-sprinkler/quick-response-upright.jpg",
-    "packing": "products/消防喷头/glass-bulb-sprinkler/quick-response-real-packing.jpg"
+    "sidewall": "assets/products/guanya-2026/glass-bulb-fire-sprinkler-dsc_5841-1600.webp"
   },
   "imageDimensions": {
     "hero": {
@@ -48,9 +48,9 @@
       "width": 718,
       "height": 1200
     },
-    "packing": {
-      "width": 1279,
-      "height": 1706
+    "sidewall": {
+      "width": 962,
+      "height": 1527
     }
   },
   "heroFacts": [
@@ -86,10 +86,10 @@
       "thumbnailAlt": "uprightThumbnail"
     },
     {
-      "media": "packing",
-      "alt": "packingAlt",
-      "caption": "representativePacking",
-      "thumbnailAlt": "packingThumbnail"
+      "media": "sidewall",
+      "alt": "sidewallAlt",
+      "caption": "sidewall",
+      "thumbnailAlt": "sidewallThumbnail"
     }
   ],
   "specifications": [
@@ -242,17 +242,17 @@
       "lead": "Quick-response automatic fire sprinklers with a 68°C red glass bulb, available for pendent or upright installation in wet-pipe systems.",
       "note": "BSPT is the default thread; NPT is available. Chrome-plated finish and 100 pieces per box follow the same supply options as the standard-response series.",
       "gallery": "Product images",
-      "galleryTitle": "Pendent and upright configurations",
-      "galleryBody": "Compare the pictured 68°C pendent and upright samples and protective packing trays. K-ZST upright, pendent and horizontal sidewall samples are shown in Product photographs below.",
+      "galleryTitle": "Pendent, upright and horizontal sidewall configurations",
+      "galleryBody": "Compare the pictured 68°C pendent and upright samples with the K-ZSTBS 80-68°C Q3A horizontal sidewall sprinkler. K-ZST configuration details are listed separately below.",
       "pendent": "Pendent sprinkler",
       "upright": "Upright sprinkler",
-      "representativePacking": "Representative product packing",
+      "sidewall": "Horizontal sidewall — K-ZSTBS 80-68°C Q3A",
       "pendentAlt": "Quick-response pendent fire sprinkler with red glass bulb",
       "uprightAlt": "Quick-response upright fire sprinkler with red glass bulb",
-      "packingAlt": "Glass bulb fire sprinklers arranged in protective packing trays",
+      "sidewallAlt": "K-ZSTBS 80-68°C Q3A horizontal sidewall quick-response sprinkler with red glass bulb",
       "pendentThumbnail": "Pendent sprinkler thumbnail",
       "uprightThumbnail": "Upright sprinkler thumbnail",
-      "packingThumbnail": "Representative packing thumbnail",
+      "sidewallThumbnail": "Horizontal sidewall sprinkler thumbnail",
       "specifications": "Specifications",
       "specificationsTitle": "Technical specifications",
       "specificationsBody": "Specifications below describe the pictured DN15 / K80 / 68°C pendent and upright configurations. The K-ZST options have a separate selection section below.",
@@ -299,10 +299,10 @@
       "selectProductImage": "Select product image",
       "seoTitle": "Quick Response Glass Bulb Sprinklers | DN15 · K80 · 68°C | CHUANWEI FIRE",
       "seoDescription": "DN15 quick-response glass bulb fire sprinklers with K80 metric flow coefficient and a 68°C red bulb, available in pendent and upright configurations.",
-      "packingValue": "100 pieces per box; protective tray sample shown in the gallery",
+      "packingValue": "100 pieces per box",
       "packaging": "Packing",
       "packagingTitle": "Protective packing for your order",
-      "packagingBody": "100 pieces per box. The main gallery shows a real protective tray sample. Contact sales for shipping and label requirements.",
+      "packagingBody": "100 pieces per box. Contact sales for shipping and label requirements.",
       "threadFormValue": "BSPT (default) / NPT (optional)",
       "finishValue": "Chrome-plated finish",
       "piecesPerBox": "Pieces per box"
@@ -323,17 +323,17 @@
       "lead": "رشاشات حريق آلية سريعة الاستجابة بعنصر زجاجي أحمر بدرجة 68°C، ومتاحة للتركيب المعلق أو القائم في الأنظمة ذات الأنابيب الرطبة.",
       "note": "السن BSPT هو الخيار الافتراضي؛ ويتوفر NPT. يتبع التشطيب المطلي بالكروم وعدد 100 قطعة في العلبة خيارات التوريد نفسها لسلسلة الاستجابة القياسية.",
       "gallery": "صور المنتج",
-      "galleryTitle": "تكوينان معلق وقائم",
-      "galleryBody": "قارن العينات المصورة المعلقة والقائمة بدرجة 68°C وصواني التغليف الواقية. تعرض عينات K-ZST القائمة والمعلقة والجانبية الأفقية في صور المنتج الفعلية أدناه.",
+      "galleryTitle": "تكوينات معلقة وقائمة وجانبية أفقية",
+      "galleryBody": "قارن العينات المصورة المعلقة والقائمة بدرجة 68°C مع الرشاش الجانبي الأفقي K-ZSTBS 80-68°C Q3A. ترد تفاصيل تكوينات K-ZST في قسم منفصل أدناه.",
       "pendent": "رشاش معلق",
       "upright": "رشاش قائم",
-      "representativePacking": "تغليف تمثيلي للمنتج",
+      "sidewall": "رشاش جانبي أفقي — K-ZSTBS 80-68°C Q3A",
       "pendentAlt": "رشاش حريق معلق سريع الاستجابة بعنصر زجاجي أحمر",
       "uprightAlt": "رشاش حريق قائم سريع الاستجابة بعنصر زجاجي أحمر",
-      "packingAlt": "رشاشات حريق بعنصر زجاجي مرتبة في صواني تغليف واقية",
+      "sidewallAlt": "رشاش سريع الاستجابة جانبي أفقي K-ZSTBS 80-68°C Q3A بعنصر زجاجي أحمر",
       "pendentThumbnail": "صورة مصغرة للرشاش المعلق",
       "uprightThumbnail": "صورة مصغرة للرشاش القائم",
-      "packingThumbnail": "صورة مصغرة للتغليف التمثيلي",
+      "sidewallThumbnail": "صورة مصغرة للرشاش الجانبي الأفقي",
       "specifications": "المواصفات",
       "specificationsTitle": "المواصفات الفنية",
       "specificationsBody": "تصف المواصفات أدناه التكوينات المعلقة والقائمة المصورة بمقاس DN15 ومعامل K80 ودرجة 68°C. توجد خيارات K-ZST في قسم اختيار منفصل أدناه.",
@@ -380,10 +380,10 @@
       "selectProductImage": "اختر صورة المنتج",
       "seoTitle": "رشاشات زجاجية سريعة الاستجابة | CHUANWEI FIRE",
       "seoDescription": "رشاشات حريق زجاجية سريعة الاستجابة بمقاس DN15 ومعامل K80 متري وعنصر أحمر بدرجة 68°C، ومتاحة بتكوين معلق أو قائم.",
-      "packingValue": "100 قطعة في كل علبة؛ تعرض عينة صينية واقية في المعرض",
+      "packingValue": "100 قطعة في كل علبة",
       "packaging": "التغليف",
       "packagingTitle": "تغليف واقٍ لطلبك",
-      "packagingBody": "100 قطعة في كل علبة. يعرض المعرض الرئيسي عينة فعلية لصينية واقية. تواصل مع المبيعات لمتطلبات الشحن والملصقات.",
+      "packagingBody": "100 قطعة في كل علبة. تواصل مع المبيعات لمتطلبات الشحن والملصقات.",
       "threadFormValue": "BSPT (افتراضي) / NPT (اختياري)",
       "finishValue": "تشطيب مطلي بالكروم",
       "piecesPerBox": "عدد القطع في العلبة"

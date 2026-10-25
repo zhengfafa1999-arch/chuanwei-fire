@@ -198,16 +198,23 @@ for (const entry of catalog) {
     assert.equal(baseline.split(change.before).length - 1, change.occurrences, `National-standard removal: baseline count changed for ${entry.product.id}/${change.before}`);
     baseline = baseline.replaceAll(change.before, change.after);
   }
+  // Predeployment audit: exact editorial-copy replacements and removal of
+  // empty specification rows, with immutable fixtures retained.
+  const predeployReview = JSON.parse(read('docs/reviews/predeploy-content-20261025/reviewed-changes.json'));
+  for (const change of predeployReview[entry.product.id] || []) {
+    assert.equal(baseline.split(change.before).length - 1, change.occurrences, `Predeploy audit: baseline count changed for ${entry.product.id}/${change.key}`);
+    baseline = baseline.replaceAll(change.before, change.after);
+  }
   assert.deepEqual(structure(content), structure(baseline), `${entry.lang}: original section/tag/class structure changed`);
   const expectedMedia = media(baseline, entry.product.source.path).map(file => path.resolve(reviewedPhotoPath(entry.product.routeId, path.relative(process.cwd(), file).split(path.sep).join('/'))));
   assert.deepEqual(media(content, entry.route.outputPath), expectedMedia, `${entry.lang}: product images differ from the explicitly reviewed photo bindings`);
   for (const image of media(content, entry.route.outputPath)) assert(fs.existsSync(image), `Missing product image: ${image}`);
   const bodies = [...content.matchAll(/<tbody>([\s\S]*?)<\/tbody>/g)];
-  const tableRows = bodies.flatMap(([, rows]) => rows.match(/<tr>/g) || []);
+  const tableRows = bodies.flatMap(([, rows]) => rows.match(/<tr\b[^>]*>/g) || []);
   assert.equal(tableRows.length, entry.product.models.length, `${entry.lang}: model count changed`);
   if (entry.product.modelGroups) {
     assert.deepEqual(entry.product.modelGroups.flat(), entry.product.models.map((_, i) => i), 'Model groups must reference every model once, in original order');
-    assert.deepEqual(bodies.map(([, rows]) => (rows.match(/<tr>/g) || []).length), entry.product.modelGroups.map(group => group.length), 'Model group row counts changed');
+    assert.deepEqual(bodies.map(([, rows]) => (rows.match(/<tr\b[^>]*>/g) || []).length), entry.product.modelGroups.map(group => group.length), 'Model group row counts changed');
   }
   if (entry.lang === "en") {
     const styles = html => [...html.matchAll(/<link\b[^>]*rel="stylesheet"[^>]*href="([^"]+)"/g)]

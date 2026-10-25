@@ -1,0 +1,404 @@
+{
+  "template": "product-series/documented-product.njk",
+  "styles": [
+    "css/common.css",
+    "css/sprinkler-product.css",
+    "css/sprinkler-product-gallery.css",
+    "css/documented-product.css",
+    "css/site-navigation.css"
+  ],
+  "packaging": false,
+  "downloads": [],
+  "id": "large-k-factor-sprinklers",
+  "routeId": "product:large-k-factor-sprinklers",
+  "source": {
+    "status": "scoped-existing-content-not-reaudited",
+    "splitDate": "2026-10-25",
+    "sourceProduct": "site-src/_data/preserved-products/large-k-factor-esfr-sprinklers.json",
+    "sourceModelRows": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "scope": "User requested independent Large K-Factor and ESFR details. Existing exact-model technical values retained; photographs reused without alteration."
+  },
+  "publication": {
+    "status": "release-candidate",
+    "externalRelease": true,
+    "imageRights": "user-confirmed-website-use",
+    "imageRightsEvidence": "docs/release/large-k-esfr-independent-20261025/image-rights-confirmation.json"
+  },
+  "media": {
+    "hero": "assets/products/guanya-2026/large-k-factor-esfr-sprinklers-k161-flat-deflector-1600.webp",
+    "image1": "assets/products/guanya-2026/large-k-factor-esfr-sprinklers-k161-upright-68c-1600.webp",
+    "image2": "assets/products/guanya-2026/large-k-factor-esfr-sprinklers-dsc_5816-1600.webp",
+    "image3": "assets/products/guanya-2026/large-k-factor-esfr-sprinklers-dsc_5814-1600.webp",
+    "image4": "assets/products/guanya-2026/large-k-factor-esfr-sprinklers-dsc_5813-1600.webp"
+  },
+  "imageDimensions": {
+    "hero": {
+      "width": 861,
+      "height": 1325
+    },
+    "image1": {
+      "width": 1046,
+      "height": 1240
+    },
+    "image2": {
+      "width": 827,
+      "height": 1325
+    },
+    "image3": {
+      "width": 861,
+      "height": 1291
+    },
+    "image4": {
+      "width": 1063,
+      "height": 1493
+    }
+  },
+  "gallery": [
+    {
+      "media": "hero",
+      "alt": "heroAlt",
+      "caption": "heroCaption",
+      "thumbnailAlt": "heroAlt"
+    },
+    {
+      "media": "image1",
+      "alt": "image1Alt",
+      "caption": "image1Caption",
+      "thumbnailAlt": "image1Alt"
+    },
+    {
+      "media": "image2",
+      "alt": "image2Alt",
+      "caption": "image2Caption",
+      "thumbnailAlt": "image2Alt"
+    },
+    {
+      "media": "image3",
+      "alt": "image3Alt",
+      "caption": "image3Caption",
+      "thumbnailAlt": "image3Alt"
+    },
+    {
+      "media": "image4",
+      "alt": "image4Alt",
+      "caption": "image4Caption",
+      "thumbnailAlt": "image4Alt"
+    }
+  ],
+  "shared": {
+    "availableKValue": "K161 / K202",
+    "temperatureFact": "68°C"
+  },
+  "copy": {
+    "en": {
+      "onThisPage": "On this page",
+      "gallery": "Product images",
+      "specifications": "Specifications",
+      "specificationsTitle": "Technical specifications",
+      "temperature": "Temperature",
+      "thermalElement": "Thermal element",
+      "availableModels": "Available configurations",
+      "factoryModel": "Factory model",
+      "quotation": "Quotation details",
+      "quotationTitle": "Tell us your project requirements",
+      "connection": "Connection",
+      "connectionBody": "Provide the required connection size and thread designation.",
+      "workingPressure": "Working pressure",
+      "workingPressureBody": "Specify the working pressure required for your project.",
+      "orderQuantity": "Order quantity",
+      "orderQuantityBody": "State the quantity required for each factory model.",
+      "askOnWhatsApp": "Ask on WhatsApp",
+      "emailSales": "Email sales",
+      "productImagePreview": "Product image preview",
+      "closeImagePreview": "Close image preview",
+      "previousProductImage": "Previous product image",
+      "nextProductImage": "Next product image",
+      "selectProductImage": "Select product image",
+      "standardPacking": "Standard packing",
+      "frameMaterial": "Frame material",
+      "standardResponsePendent": "Standard Response Pendent",
+      "surfaceFinish": "Surface finish",
+      "maxWorkingPressure": "Max. working pressure",
+      "standardResponseUprightPendent": "Standard Response Upright / Pendent",
+      "value68C155F": "68°C / 155°F",
+      "standardResponseWith5MmBulbQuickResponse": "Standard response with 5 mm bulb; quick response with 3 mm bulb for K161 models",
+      "value5MmBulb68C": "5 mm bulb · 68°C",
+      "responseOptions": "Response options",
+      "standardResponseUpright": "Standard Response Upright",
+      "value100PcsPerExportCarton": "Packing requirements confirmed with the order",
+      "availableKFactors": "Available K-factors",
+      "nominalConnection": "Nominal connection",
+      "k112USK161MetricK140US": "K11.2 US / K161 metric; K14.0 US / K202 metric",
+      "chromePlated": "Chrome-plated",
+      "installation": "Installation",
+      "quickResponsePendent": "Quick Response Pendent",
+      "quickResponseUpright": "Quick Response Upright",
+      "standardResponseHorizontalSidewall": "Standard Response Horizontal Sidewall",
+      "value12MPa12BarApprox175Psi": "1.2 MPa / 12 bar / approx. 175 psi",
+      "copper": "Copper",
+      "dN251InNPT": "DN25 / 1 in NPT",
+      "uprightAndPendentHorizontalSidewallAvailableForK202": "Upright and pendent; horizontal sidewall available for K202",
+      "value3MmBulb68C": "3 mm bulb · 68°C",
+      "title": "Large K-Factor Sprinklers",
+      "eyebrow": "K161 / K202 · Glass-bulb sprinklers",
+      "lead": "Large K-factor spray sprinklers with K161 and K202 metric flow coefficients. Compare standard- and quick-response models and their installation options below.",
+      "note": "Choose the exact factory model, response type and installation orientation for your project.",
+      "galleryTitle": "K161 and K202 sprinkler photographs",
+      "galleryBody": "Each caption identifies the photographed sample. Use the model table to specify the required configuration.",
+      "specificationsBody": "Specifications for the large K-factor glass-bulb models listed below.",
+      "modelsTitle": "Large K-factor factory models",
+      "modelsBody": "Compare K161 standard- and quick-response models and K202 standard-response configurations.",
+      "modelsNote": "Photographs show series samples; confirm the exact factory model and its project data when ordering.",
+      "quotationBody": "Send the factory model, installation orientation, connection requirement, working pressure and quantity.",
+      "inquiryBody": "Include the exact factory model and project requirements.",
+      "enlargedImage": "Enlarged large K-factor sprinkler",
+      "kFactor": "K-factor (US / metric)",
+      "configuration": "Configuration",
+      "seoTitle": "Large K-Factor Sprinklers | CHUANWEI FIRE",
+      "seoDescription": "Large K-factor spray sprinklers with K161 and K202 metric flow coefficients. Compare standard- and quick-response models and their installation options below.",
+      "inquiryTitle": "Request a quotation: Large K-Factor Sprinklers",
+      "heroAlt": "K161 metric / K11.2 US — flat-deflector sprinkler sample",
+      "heroCaption": "K161 metric / K11.2 US — flat-deflector sprinkler sample",
+      "image1Alt": "K161 metric / K11.2 US — upright sprinkler, 68°C",
+      "image1Caption": "K161 metric / K11.2 US — upright sprinkler, 68°C",
+      "image2Alt": "Upright glass-bulb sprinkler — K202 / 68°C",
+      "image2Caption": "Upright glass-bulb sprinkler — K202 / 68°C",
+      "image3Alt": "Pendent glass-bulb sprinkler — K202 / 68°C",
+      "image3Caption": "Pendent glass-bulb sprinkler — K202 / 68°C",
+      "image4Alt": "Horizontal sidewall glass-bulb sprinkler — K202 / 68°C",
+      "image4Caption": "Horizontal sidewall glass-bulb sprinkler — K202 / 68°C"
+    },
+    "ar": {
+      "onThisPage": "في هذه الصفحة",
+      "gallery": "صور المنتج",
+      "specifications": "المواصفات",
+      "specificationsTitle": "المواصفات الفنية",
+      "temperature": "درجة الحرارة",
+      "thermalElement": "العنصر الحراري",
+      "availableModels": "التكوينات المتاحة",
+      "factoryModel": "موديل المصنع",
+      "quotation": "تفاصيل عرض السعر",
+      "quotationTitle": "أرسل متطلبات مشروعك",
+      "connection": "التوصيل",
+      "connectionBody": "حدد مقاس التوصيل ونوع السن اللولبي المطلوبين.",
+      "workingPressure": "ضغط التشغيل",
+      "workingPressureBody": "حدد ضغط التشغيل المطلوب لمشروعك.",
+      "orderQuantity": "كمية الطلب",
+      "orderQuantityBody": "حدد الكمية المطلوبة لكل موديل مصنع.",
+      "askOnWhatsApp": "استفسر عبر WhatsApp",
+      "emailSales": "راسل قسم المبيعات",
+      "productImagePreview": "معاينة صورة المنتج",
+      "closeImagePreview": "إغلاق معاينة الصورة",
+      "previousProductImage": "صورة المنتج السابقة",
+      "nextProductImage": "صورة المنتج التالية",
+      "selectProductImage": "اختر صورة المنتج",
+      "standardPacking": "التغليف القياسي",
+      "frameMaterial": "مادة الإطار",
+      "standardResponsePendent": "متدلٍ باستجابة قياسية",
+      "surfaceFinish": "تشطيب السطح",
+      "maxWorkingPressure": "أقصى ضغط تشغيل",
+      "standardResponseUprightPendent": "قائم / متدلٍ باستجابة قياسية",
+      "value68C155F": "68°C / 155°F",
+      "standardResponseWith5MmBulbQuickResponse": "استجابة قياسية ببصيلة 5 mm؛ واستجابة سريعة ببصيلة 3 mm لطرازات K161",
+      "value5MmBulb68C": "بصيلة 5 mm · 68°C",
+      "responseOptions": "خيارات الاستجابة",
+      "standardResponseUpright": "قائم باستجابة قياسية",
+      "value100PcsPerExportCarton": "تؤكد متطلبات التعبئة مع الطلب",
+      "availableKFactors": "معاملات K المتاحة",
+      "nominalConnection": "مقاس الوصلة الاسمي",
+      "k112USK161MetricK140US": "K11.2 أمريكي / K161 متري؛ K14.0 أمريكي / K202 متري",
+      "chromePlated": "مطلي بالكروم",
+      "installation": "التركيب",
+      "quickResponsePendent": "متدلٍ باستجابة سريعة",
+      "quickResponseUpright": "قائم باستجابة سريعة",
+      "standardResponseHorizontalSidewall": "جانبي أفقي باستجابة قياسية",
+      "value12MPa12BarApprox175Psi": "1.2 MPa / 12 bar / نحو 175 psi",
+      "copper": "نحاس",
+      "dN251InNPT": "DN25 / 1 in NPT",
+      "uprightAndPendentHorizontalSidewallAvailableForK202": "قائم ومتدلٍ؛ يتوفر تركيب جانبي أفقي لطراز K202",
+      "value3MmBulb68C": "بصيلة 3 mm · 68°C",
+      "title": "رشاشات ذات معامل K كبير",
+      "eyebrow": "K161 / K202 · رشاشات ببصيلة زجاجية",
+      "lead": "رشاشات بمعامل تدفق K161 وK202 متري. قارن الموديلات ذات الاستجابة القياسية والسريعة وخيارات تركيبها أدناه.",
+      "note": "اختر موديل المصنع الدقيق ونوع الاستجابة واتجاه التركيب المناسب لمشروعك.",
+      "galleryTitle": "صور رشاشات K161 وK202",
+      "galleryBody": "يحدد كل تعليق العينة المصورة. استخدم جدول الموديلات لتحديد التكوين المطلوب.",
+      "specificationsBody": "مواصفات الموديلات ذات معامل K الكبير والبصيلة الزجاجية المدرجة أدناه.",
+      "modelsTitle": "موديلات المصنع ذات معامل K الكبير",
+      "modelsBody": "قارن موديلات K161 ذات الاستجابة القياسية والسريعة وتكوينات K202 ذات الاستجابة القياسية.",
+      "modelsNote": "تعرض الصور عينات من السلسلة؛ أكد موديل المصنع الدقيق وبيانات المشروع عند الطلب.",
+      "quotationBody": "أرسل موديل المصنع واتجاه التركيب ومتطلبات التوصيل وضغط التشغيل والكمية.",
+      "inquiryBody": "أدرج موديل المصنع الدقيق ومتطلبات المشروع.",
+      "enlargedImage": "صورة مكبرة لرشاش ذي معامل K كبير",
+      "kFactor": "معامل K (أمريكي / متري)",
+      "configuration": "التكوين",
+      "seoTitle": "رشاشات ذات معامل K كبير | CHUANWEI FIRE",
+      "seoDescription": "رشاشات بمعامل تدفق K161 وK202 متري. قارن الموديلات ذات الاستجابة القياسية والسريعة وخيارات تركيبها أدناه.",
+      "inquiryTitle": "اطلب عرض سعر: رشاشات ذات معامل K كبير",
+      "heroAlt": "K161 متري / K11.2 أمريكي — عينة رشاش بصفيحة توزيع مسطحة",
+      "heroCaption": "K161 متري / K11.2 أمريكي — عينة رشاش بصفيحة توزيع مسطحة",
+      "image1Alt": "K161 متري / K11.2 أمريكي — رشاش قائم، 68°C",
+      "image1Caption": "K161 متري / K11.2 أمريكي — رشاش قائم، 68°C",
+      "image2Alt": "رشاش ببصيلة زجاجية قائم — K202 / 68°C",
+      "image2Caption": "رشاش ببصيلة زجاجية قائم — K202 / 68°C",
+      "image3Alt": "رشاش ببصيلة زجاجية معلق — K202 / 68°C",
+      "image3Caption": "رشاش ببصيلة زجاجية معلق — K202 / 68°C",
+      "image4Alt": "رشاش ببصيلة زجاجية جانبي أفقي — K202 / 68°C",
+      "image4Caption": "رشاش ببصيلة زجاجية جانبي أفقي — K202 / 68°C"
+    }
+  },
+  "models": [
+    {
+      "configuration": "standardResponseUpright",
+      "kFactor": "K11.2 / K161",
+      "connection": "DN25 / 1 in NPT",
+      "thermalElement": "value5MmBulb68C",
+      "factoryModel": "T-ZSTZ161-68°C Q5"
+    },
+    {
+      "configuration": "standardResponsePendent",
+      "kFactor": "K11.2 / K161",
+      "connection": "DN25 / 1 in NPT",
+      "thermalElement": "value5MmBulb68C",
+      "factoryModel": "T-ZSTX161-68°C Q5"
+    },
+    {
+      "configuration": "quickResponseUpright",
+      "kFactor": "K11.2 / K161",
+      "connection": "DN25 / 1 in NPT",
+      "thermalElement": "value3MmBulb68C",
+      "factoryModel": "K-ZSTZ161-68°C Q3"
+    },
+    {
+      "configuration": "quickResponsePendent",
+      "kFactor": "K11.2 / K161",
+      "connection": "DN25 / 1 in NPT",
+      "thermalElement": "value3MmBulb68C",
+      "factoryModel": "K-ZSTX161-68°C Q3"
+    },
+    {
+      "configuration": "standardResponseUprightPendent",
+      "kFactor": "K14.0 / K202",
+      "connection": "DN25 / 1 in NPT",
+      "thermalElement": "value5MmBulb68C",
+      "factoryModel": "ZSTZ.X202-68°C Q5"
+    },
+    {
+      "configuration": "standardResponseHorizontalSidewall",
+      "kFactor": "K14.0 / K202",
+      "connection": "DN25 / 1 in NPT",
+      "thermalElement": "value5MmBulb68C",
+      "factoryModel": "ZSTBS202-68°C Q5"
+    }
+  ],
+  "confirmationItems": [
+    {
+      "label": "connection",
+      "body": "connectionBody"
+    },
+    {
+      "label": "workingPressure",
+      "body": "workingPressureBody"
+    },
+    {
+      "label": "orderQuantity",
+      "body": "orderQuantityBody"
+    }
+  ],
+  "modelColumns": [
+    {
+      "label": "configuration",
+      "field": "configuration",
+      "localized": true
+    },
+    {
+      "label": "kFactor",
+      "field": "kFactor",
+      "technical": true
+    },
+    {
+      "label": "connection",
+      "field": "connection",
+      "technical": true
+    },
+    {
+      "label": "thermalElement",
+      "field": "thermalElement",
+      "localized": true
+    },
+    {
+      "label": "factoryModel",
+      "field": "factoryModel",
+      "technical": true
+    }
+  ],
+  "specifications": [
+    {
+      "label": "availableKFactors",
+      "value": "k112USK161MetricK140US"
+    },
+    {
+      "label": "responseOptions",
+      "value": "standardResponseWith5MmBulbQuickResponse"
+    },
+    {
+      "label": "temperature",
+      "value": "value68C155F"
+    },
+    {
+      "label": "installation",
+      "value": "uprightAndPendentHorizontalSidewallAvailableForK202"
+    },
+    {
+      "label": "nominalConnection",
+      "value": "dN251InNPT"
+    },
+    {
+      "label": "frameMaterial",
+      "value": "copper"
+    },
+    {
+      "label": "surfaceFinish",
+      "value": "chromePlated"
+    },
+    {
+      "label": "maxWorkingPressure",
+      "value": "value12MPa12BarApprox175Psi"
+    },
+    {
+      "label": "standardPacking",
+      "value": "value100PcsPerExportCarton"
+    }
+  ],
+  "heroFacts": [
+    "availableKValue",
+    "temperatureFact"
+  ],
+  "validation": {
+    "anchors": [
+      "gallery",
+      "specifications",
+      "models",
+      "quotation"
+    ],
+    "requiredTechnicalValues": [
+      "T-ZSTZ161-68°C Q5",
+      "T-ZSTX161-68°C Q5",
+      "K-ZSTZ161-68°C Q3",
+      "K-ZSTX161-68°C Q3",
+      "ZSTZ.X202-68°C Q5",
+      "ZSTBS202-68°C Q5"
+    ]
+  },
+  "inquiry": {
+    "whatsapp": "https://wa.me/8617326528368?text=Hello%2C%20I%20need%20a%20quotation%20for%20Large%20K-Factor%20Sprinklers.%20Factory%20model%3A%20%5Bmodel%5D%2C%20quantity%3A%20%5Bpcs%5D.",
+    "email": "mailto:zhengcolin1@gmail.com?subject=Large%20K-Factor%20Sprinklers%20Inquiry"
+  }
+}

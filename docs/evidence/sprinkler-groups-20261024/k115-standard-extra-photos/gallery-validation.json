@@ -1,0 +1,892 @@
+{
+  "status": "PASS",
+  "generatedAt": "2026-10-24T08:12:57.284Z",
+  "browser": "Edg/155.0.4283.62",
+  "scenarioCount": 4,
+  "decodedPhotoChecks": 36,
+  "newPhotoModalChecks": 24,
+  "newPhotoOrder": [
+    "DSC_5895.jpg",
+    "DSC_5898.jpg",
+    "DSC_5901.jpg",
+    "DSC_5902.jpg",
+    "DSC_5909.jpg",
+    "DSC_5910.jpg"
+  ],
+  "scenarios": [
+    {
+      "status": "PASS",
+      "viewport": "desktop",
+      "locale": "en",
+      "path": "products/消防喷头/k115-standard-response-fire-sprinkler.html",
+      "count": 9,
+      "mainGalleryCount": 3,
+      "lang": "en",
+      "dir": "ltr",
+      "overflow": 0,
+      "viewportWidth": 1440,
+      "photos": [
+        {
+          "id": "product-photograph-1",
+          "src": "assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5904-640.webp",
+          "srcset": "../../assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5904-640.webp?v=8db214746fe0 477w, ../../assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5904-1600.webp?v=ae585181158e 911w",
+          "detail": "assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5904-1600.webp",
+          "decoded": true,
+          "caption": "Upright K115 standard-response sprinkler — 68°C",
+          "expectedCaption": "Upright K115 standard-response sprinkler — 68°C",
+          "alt": "Upright K115 standard-response sprinkler — 68°C",
+          "bounds": {
+            "left": 130,
+            "right": 507.328125
+          },
+          "width": 359,
+          "height": 483
+        },
+        {
+          "id": "product-photograph-2",
+          "src": "assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5905-640.webp",
+          "srcset": "../../assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5905-640.webp?v=21a33d08e8bf 440w, ../../assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5905-1600.webp?v=e17b2c34ad8f 911w",
+          "detail": "assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5905-1600.webp",
+          "decoded": true,
+          "caption": "Pendent K115 standard-response sprinkler — 68°C",
+          "expectedCaption": "Pendent K115 standard-response sprinkler — 68°C",
+          "alt": "Pendent K115 standard-response sprinkler — 68°C",
+          "bounds": {
+            "left": 531.328125,
+            "right": 908.65625
+          },
+          "width": 360,
+          "height": 523
+        },
+        {
+          "id": "product-photograph-3",
+          "src": "assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5906-640.webp",
+          "srcset": "../../assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5906-640.webp?v=06443d8502da 457w, ../../assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5906-1600.webp?v=e248d99d3403 1029w",
+          "detail": "assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5906-1600.webp",
+          "decoded": true,
+          "caption": "Horizontal sidewall K115 standard-response sprinkler — 68°C",
+          "expectedCaption": "Horizontal sidewall K115 standard-response sprinkler — 68°C",
+          "alt": "Horizontal sidewall K115 standard-response sprinkler — 68°C",
+          "bounds": {
+            "left": 932.65625,
+            "right": 1310
+          },
+          "width": 359,
+          "height": 504
+        },
+        {
+          "id": "product-photograph-4",
+          "src": "assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5895-640.webp",
+          "srcset": "../../assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5895-640.webp?v=0c43c050d094 462w, ../../assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5895-1600.webp?v=a921938d35c5 945w",
+          "detail": "assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5895-1600.webp",
+          "decoded": true,
+          "caption": "Horizontal sidewall K115 standard-response sprinkler — 182°C",
+          "expectedCaption": "Horizontal sidewall K115 standard-response sprinkler — 182°C",
+          "alt": "Horizontal sidewall K115 standard-response sprinkler — 182°C",
+          "bounds": {
+            "left": 130,
+            "right": 507.328125
+          },
+          "width": 360,
+          "height": 498
+        },
+        {
+          "id": "product-photograph-5",
+          "src": "assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5898-640.webp",
+          "srcset": "../../assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5898-640.webp?v=491d5806804e 471w, ../../assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5898-1600.webp?v=898e195b3902 962w",
+          "detail": "assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5898-1600.webp",
+          "decoded": true,
+          "caption": "Horizontal sidewall K115 standard-response sprinkler — 141°C",
+          "expectedCaption": "Horizontal sidewall K115 standard-response sprinkler — 141°C",
+          "alt": "Horizontal sidewall K115 standard-response sprinkler — 141°C",
+          "bounds": {
+            "left": 531.328125,
+            "right": 908.65625
+          },
+          "width": 360,
+          "height": 489
+        },
+        {
+          "id": "product-photograph-6",
+          "src": "assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5901-640.webp",
+          "srcset": "../../assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5901-640.webp?v=4944b853dc71 448w, ../../assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5901-1600.webp?v=3f80f4d806d5 962w",
+          "detail": "assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5901-1600.webp",
+          "decoded": true,
+          "caption": "Horizontal sidewall K115 standard-response sprinkler — 57°C",
+          "expectedCaption": "Horizontal sidewall K115 standard-response sprinkler — 57°C",
+          "alt": "Horizontal sidewall K115 standard-response sprinkler — 57°C",
+          "bounds": {
+            "left": 932.65625,
+            "right": 1310
+          },
+          "width": 360,
+          "height": 514
+        },
+        {
+          "id": "product-photograph-7",
+          "src": "assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5902-640.webp",
+          "srcset": "../../assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5902-640.webp?v=b4e49defd480 477w, ../../assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5902-1600.webp?v=1a8a9a6a9b82 861w",
+          "detail": "assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5902-1600.webp",
+          "decoded": true,
+          "caption": "Upright K115 standard-response sprinkler — 79°C",
+          "expectedCaption": "Upright K115 standard-response sprinkler — 79°C",
+          "alt": "Upright K115 standard-response sprinkler — 79°C",
+          "bounds": {
+            "left": 130,
+            "right": 507.328125
+          },
+          "width": 359,
+          "height": 483
+        },
+        {
+          "id": "product-photograph-8",
+          "src": "assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5909-640.webp",
+          "srcset": "../../assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5909-640.webp?v=8b0714bfd924 469w, ../../assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5909-1600.webp?v=77f6aa2f24d5 1046w",
+          "detail": "assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5909-1600.webp",
+          "decoded": true,
+          "caption": "Horizontal sidewall K115 standard-response sprinkler — 260°C",
+          "expectedCaption": "Horizontal sidewall K115 standard-response sprinkler — 260°C",
+          "alt": "Horizontal sidewall K115 standard-response sprinkler — 260°C",
+          "bounds": {
+            "left": 531.328125,
+            "right": 908.65625
+          },
+          "width": 360,
+          "height": 491
+        },
+        {
+          "id": "product-photograph-9",
+          "src": "assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5910-640.webp",
+          "srcset": "../../assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5910-640.webp?v=f6c3ec13de45 481w, ../../assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5910-1600.webp?v=9297c8498723 844w",
+          "detail": "assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5910-1600.webp",
+          "decoded": true,
+          "caption": "Upright K115 standard-response sprinkler — 93°C",
+          "expectedCaption": "Upright K115 standard-response sprinkler — 93°C",
+          "alt": "Upright K115 standard-response sprinkler — 93°C",
+          "bounds": {
+            "left": 932.65625,
+            "right": 1310
+          },
+          "width": 360,
+          "height": 479
+        }
+      ],
+      "newPhotoModalChecks": [
+        {
+          "photograph": 4,
+          "sourceFile": "DSC_5895.jpg",
+          "open": true,
+          "path": "assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5895-1600.webp",
+          "decoded": true,
+          "alt": "Horizontal sidewall K115 standard-response sprinkler — 182°C",
+          "closed": true
+        },
+        {
+          "photograph": 5,
+          "sourceFile": "DSC_5898.jpg",
+          "open": true,
+          "path": "assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5898-1600.webp",
+          "decoded": true,
+          "alt": "Horizontal sidewall K115 standard-response sprinkler — 141°C",
+          "closed": true
+        },
+        {
+          "photograph": 6,
+          "sourceFile": "DSC_5901.jpg",
+          "open": true,
+          "path": "assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5901-1600.webp",
+          "decoded": true,
+          "alt": "Horizontal sidewall K115 standard-response sprinkler — 57°C",
+          "closed": true
+        },
+        {
+          "photograph": 7,
+          "sourceFile": "DSC_5902.jpg",
+          "open": true,
+          "path": "assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5902-1600.webp",
+          "decoded": true,
+          "alt": "Upright K115 standard-response sprinkler — 79°C",
+          "closed": true
+        },
+        {
+          "photograph": 8,
+          "sourceFile": "DSC_5909.jpg",
+          "open": true,
+          "path": "assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5909-1600.webp",
+          "decoded": true,
+          "alt": "Horizontal sidewall K115 standard-response sprinkler — 260°C",
+          "closed": true
+        },
+        {
+          "photograph": 9,
+          "sourceFile": "DSC_5910.jpg",
+          "open": true,
+          "path": "assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5910-1600.webp",
+          "decoded": true,
+          "alt": "Upright K115 standard-response sprinkler — 93°C",
+          "closed": true
+        }
+      ]
+    },
+    {
+      "status": "PASS",
+      "viewport": "desktop",
+      "locale": "ar",
+      "path": "ar/products/k115-standard-response-fire-sprinkler/index.html",
+      "count": 9,
+      "mainGalleryCount": 3,
+      "lang": "ar",
+      "dir": "rtl",
+      "overflow": 0,
+      "viewportWidth": 1440,
+      "photos": [
+        {
+          "id": "product-photograph-1",
+          "src": "assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5904-640.webp",
+          "srcset": "../../../assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5904-640.webp?v=8db214746fe0 477w, ../../../assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5904-1600.webp?v=ae585181158e 911w",
+          "detail": "assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5904-1600.webp",
+          "decoded": true,
+          "caption": "رشاش K115 ذو استجابة قياسية قائم — 68°C",
+          "expectedCaption": "رشاش K115 ذو استجابة قياسية قائم — 68°C",
+          "alt": "رشاش K115 ذو استجابة قياسية قائم — 68°C",
+          "bounds": {
+            "left": 932.671875,
+            "right": 1310
+          },
+          "width": 359,
+          "height": 483
+        },
+        {
+          "id": "product-photograph-2",
+          "src": "assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5905-640.webp",
+          "srcset": "../../../assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5905-640.webp?v=21a33d08e8bf 440w, ../../../assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5905-1600.webp?v=e17b2c34ad8f 911w",
+          "detail": "assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5905-1600.webp",
+          "decoded": true,
+          "caption": "رشاش K115 ذو استجابة قياسية معلق — 68°C",
+          "expectedCaption": "رشاش K115 ذو استجابة قياسية معلق — 68°C",
+          "alt": "رشاش K115 ذو استجابة قياسية معلق — 68°C",
+          "bounds": {
+            "left": 531.34375,
+            "right": 908.671875
+          },
+          "width": 360,
+          "height": 523
+        },
+        {
+          "id": "product-photograph-3",
+          "src": "assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5906-640.webp",
+          "srcset": "../../../assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5906-640.webp?v=06443d8502da 457w, ../../../assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5906-1600.webp?v=e248d99d3403 1029w",
+          "detail": "assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5906-1600.webp",
+          "decoded": true,
+          "caption": "رشاش K115 ذو استجابة قياسية جانبي أفقي — 68°C",
+          "expectedCaption": "رشاش K115 ذو استجابة قياسية جانبي أفقي — 68°C",
+          "alt": "رشاش K115 ذو استجابة قياسية جانبي أفقي — 68°C",
+          "bounds": {
+            "left": 130,
+            "right": 507.34375
+          },
+          "width": 359,
+          "height": 504
+        },
+        {
+          "id": "product-photograph-4",
+          "src": "assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5895-640.webp",
+          "srcset": "../../../assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5895-640.webp?v=0c43c050d094 462w, ../../../assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5895-1600.webp?v=a921938d35c5 945w",
+          "detail": "assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5895-1600.webp",
+          "decoded": true,
+          "caption": "رشاش K115 ذو استجابة قياسية جانبي أفقي — 182°C",
+          "expectedCaption": "رشاش K115 ذو استجابة قياسية جانبي أفقي — 182°C",
+          "alt": "رشاش K115 ذو استجابة قياسية جانبي أفقي — 182°C",
+          "bounds": {
+            "left": 932.671875,
+            "right": 1310
+          },
+          "width": 360,
+          "height": 498
+        },
+        {
+          "id": "product-photograph-5",
+          "src": "assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5898-640.webp",
+          "srcset": "../../../assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5898-640.webp?v=491d5806804e 471w, ../../../assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5898-1600.webp?v=898e195b3902 962w",
+          "detail": "assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5898-1600.webp",
+          "decoded": true,
+          "caption": "رشاش K115 ذو استجابة قياسية جانبي أفقي — 141°C",
+          "expectedCaption": "رشاش K115 ذو استجابة قياسية جانبي أفقي — 141°C",
+          "alt": "رشاش K115 ذو استجابة قياسية جانبي أفقي — 141°C",
+          "bounds": {
+            "left": 531.34375,
+            "right": 908.671875
+          },
+          "width": 360,
+          "height": 489
+        },
+        {
+          "id": "product-photograph-6",
+          "src": "assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5901-640.webp",
+          "srcset": "../../../assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5901-640.webp?v=4944b853dc71 448w, ../../../assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5901-1600.webp?v=3f80f4d806d5 962w",
+          "detail": "assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5901-1600.webp",
+          "decoded": true,
+          "caption": "رشاش K115 ذو استجابة قياسية جانبي أفقي — 57°C",
+          "expectedCaption": "رشاش K115 ذو استجابة قياسية جانبي أفقي — 57°C",
+          "alt": "رشاش K115 ذو استجابة قياسية جانبي أفقي — 57°C",
+          "bounds": {
+            "left": 130,
+            "right": 507.34375
+          },
+          "width": 360,
+          "height": 514
+        },
+        {
+          "id": "product-photograph-7",
+          "src": "assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5902-640.webp",
+          "srcset": "../../../assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5902-640.webp?v=b4e49defd480 477w, ../../../assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5902-1600.webp?v=1a8a9a6a9b82 861w",
+          "detail": "assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5902-1600.webp",
+          "decoded": true,
+          "caption": "رشاش K115 ذو استجابة قياسية قائم — 79°C",
+          "expectedCaption": "رشاش K115 ذو استجابة قياسية قائم — 79°C",
+          "alt": "رشاش K115 ذو استجابة قياسية قائم — 79°C",
+          "bounds": {
+            "left": 932.671875,
+            "right": 1310
+          },
+          "width": 359,
+          "height": 483
+        },
+        {
+          "id": "product-photograph-8",
+          "src": "assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5909-640.webp",
+          "srcset": "../../../assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5909-640.webp?v=8b0714bfd924 469w, ../../../assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5909-1600.webp?v=77f6aa2f24d5 1046w",
+          "detail": "assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5909-1600.webp",
+          "decoded": true,
+          "caption": "رشاش K115 ذو استجابة قياسية جانبي أفقي — 260°C",
+          "expectedCaption": "رشاش K115 ذو استجابة قياسية جانبي أفقي — 260°C",
+          "alt": "رشاش K115 ذو استجابة قياسية جانبي أفقي — 260°C",
+          "bounds": {
+            "left": 531.34375,
+            "right": 908.671875
+          },
+          "width": 360,
+          "height": 491
+        },
+        {
+          "id": "product-photograph-9",
+          "src": "assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5910-640.webp",
+          "srcset": "../../../assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5910-640.webp?v=f6c3ec13de45 481w, ../../../assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5910-1600.webp?v=9297c8498723 844w",
+          "detail": "assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5910-1600.webp",
+          "decoded": true,
+          "caption": "رشاش K115 ذو استجابة قياسية قائم — 93°C",
+          "expectedCaption": "رشاش K115 ذو استجابة قياسية قائم — 93°C",
+          "alt": "رشاش K115 ذو استجابة قياسية قائم — 93°C",
+          "bounds": {
+            "left": 130,
+            "right": 507.34375
+          },
+          "width": 360,
+          "height": 479
+        }
+      ],
+      "newPhotoModalChecks": [
+        {
+          "photograph": 4,
+          "sourceFile": "DSC_5895.jpg",
+          "open": true,
+          "path": "assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5895-1600.webp",
+          "decoded": true,
+          "alt": "رشاش ⁦K115⁩ ذو استجابة قياسية جانبي أفقي — ⁦182°C⁩",
+          "closed": true
+        },
+        {
+          "photograph": 5,
+          "sourceFile": "DSC_5898.jpg",
+          "open": true,
+          "path": "assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5898-1600.webp",
+          "decoded": true,
+          "alt": "رشاش ⁦K115⁩ ذو استجابة قياسية جانبي أفقي — ⁦141°C⁩",
+          "closed": true
+        },
+        {
+          "photograph": 6,
+          "sourceFile": "DSC_5901.jpg",
+          "open": true,
+          "path": "assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5901-1600.webp",
+          "decoded": true,
+          "alt": "رشاش ⁦K115⁩ ذو استجابة قياسية جانبي أفقي — ⁦57°C⁩",
+          "closed": true
+        },
+        {
+          "photograph": 7,
+          "sourceFile": "DSC_5902.jpg",
+          "open": true,
+          "path": "assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5902-1600.webp",
+          "decoded": true,
+          "alt": "رشاش ⁦K115⁩ ذو استجابة قياسية قائم — ⁦79°C⁩",
+          "closed": true
+        },
+        {
+          "photograph": 8,
+          "sourceFile": "DSC_5909.jpg",
+          "open": true,
+          "path": "assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5909-1600.webp",
+          "decoded": true,
+          "alt": "رشاش ⁦K115⁩ ذو استجابة قياسية جانبي أفقي — ⁦260°C⁩",
+          "closed": true
+        },
+        {
+          "photograph": 9,
+          "sourceFile": "DSC_5910.jpg",
+          "open": true,
+          "path": "assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5910-1600.webp",
+          "decoded": true,
+          "alt": "رشاش ⁦K115⁩ ذو استجابة قياسية قائم — ⁦93°C⁩",
+          "closed": true
+        }
+      ]
+    },
+    {
+      "status": "PASS",
+      "viewport": "mobile",
+      "locale": "en",
+      "path": "products/消防喷头/k115-standard-response-fire-sprinkler.html",
+      "count": 9,
+      "mainGalleryCount": 3,
+      "lang": "en",
+      "dir": "ltr",
+      "overflow": 0,
+      "viewportWidth": 390,
+      "photos": [
+        {
+          "id": "product-photograph-1",
+          "src": "assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5904-640.webp",
+          "srcset": "../../assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5904-640.webp?v=8db214746fe0 477w, ../../assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5904-1600.webp?v=ae585181158e 911w",
+          "detail": "assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5904-1600.webp",
+          "decoded": true,
+          "caption": "Upright K115 standard-response sprinkler — 68°C",
+          "expectedCaption": "Upright K115 standard-response sprinkler — 68°C",
+          "alt": "Upright K115 standard-response sprinkler — 68°C",
+          "bounds": {
+            "left": 12,
+            "right": 378
+          },
+          "width": 342,
+          "height": 458
+        },
+        {
+          "id": "product-photograph-2",
+          "src": "assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5905-640.webp",
+          "srcset": "../../assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5905-640.webp?v=21a33d08e8bf 440w, ../../assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5905-1600.webp?v=e17b2c34ad8f 911w",
+          "detail": "assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5905-1600.webp",
+          "decoded": true,
+          "caption": "Pendent K115 standard-response sprinkler — 68°C",
+          "expectedCaption": "Pendent K115 standard-response sprinkler — 68°C",
+          "alt": "Pendent K115 standard-response sprinkler — 68°C",
+          "bounds": {
+            "left": 12,
+            "right": 378
+          },
+          "width": 342,
+          "height": 497
+        },
+        {
+          "id": "product-photograph-3",
+          "src": "assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5906-640.webp",
+          "srcset": "../../assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5906-640.webp?v=06443d8502da 457w, ../../assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5906-1600.webp?v=e248d99d3403 1029w",
+          "detail": "assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5906-1600.webp",
+          "decoded": true,
+          "caption": "Horizontal sidewall K115 standard-response sprinkler — 68°C",
+          "expectedCaption": "Horizontal sidewall K115 standard-response sprinkler — 68°C",
+          "alt": "Horizontal sidewall K115 standard-response sprinkler — 68°C",
+          "bounds": {
+            "left": 12,
+            "right": 378
+          },
+          "width": 342,
+          "height": 478
+        },
+        {
+          "id": "product-photograph-4",
+          "src": "assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5895-640.webp",
+          "srcset": "../../assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5895-640.webp?v=0c43c050d094 462w, ../../assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5895-1600.webp?v=a921938d35c5 945w",
+          "detail": "assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5895-1600.webp",
+          "decoded": true,
+          "caption": "Horizontal sidewall K115 standard-response sprinkler — 182°C",
+          "expectedCaption": "Horizontal sidewall K115 standard-response sprinkler — 182°C",
+          "alt": "Horizontal sidewall K115 standard-response sprinkler — 182°C",
+          "bounds": {
+            "left": 12,
+            "right": 378
+          },
+          "width": 342,
+          "height": 473
+        },
+        {
+          "id": "product-photograph-5",
+          "src": "assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5898-640.webp",
+          "srcset": "../../assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5898-640.webp?v=491d5806804e 471w, ../../assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5898-1600.webp?v=898e195b3902 962w",
+          "detail": "assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5898-1600.webp",
+          "decoded": true,
+          "caption": "Horizontal sidewall K115 standard-response sprinkler — 141°C",
+          "expectedCaption": "Horizontal sidewall K115 standard-response sprinkler — 141°C",
+          "alt": "Horizontal sidewall K115 standard-response sprinkler — 141°C",
+          "bounds": {
+            "left": 12,
+            "right": 378
+          },
+          "width": 342,
+          "height": 464
+        },
+        {
+          "id": "product-photograph-6",
+          "src": "assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5901-640.webp",
+          "srcset": "../../assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5901-640.webp?v=4944b853dc71 448w, ../../assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5901-1600.webp?v=3f80f4d806d5 962w",
+          "detail": "assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5901-1600.webp",
+          "decoded": true,
+          "caption": "Horizontal sidewall K115 standard-response sprinkler — 57°C",
+          "expectedCaption": "Horizontal sidewall K115 standard-response sprinkler — 57°C",
+          "alt": "Horizontal sidewall K115 standard-response sprinkler — 57°C",
+          "bounds": {
+            "left": 12,
+            "right": 378
+          },
+          "width": 342,
+          "height": 488
+        },
+        {
+          "id": "product-photograph-7",
+          "src": "assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5902-640.webp",
+          "srcset": "../../assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5902-640.webp?v=b4e49defd480 477w, ../../assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5902-1600.webp?v=1a8a9a6a9b82 861w",
+          "detail": "assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5902-1600.webp",
+          "decoded": true,
+          "caption": "Upright K115 standard-response sprinkler — 79°C",
+          "expectedCaption": "Upright K115 standard-response sprinkler — 79°C",
+          "alt": "Upright K115 standard-response sprinkler — 79°C",
+          "bounds": {
+            "left": 12,
+            "right": 378
+          },
+          "width": 342,
+          "height": 458
+        },
+        {
+          "id": "product-photograph-8",
+          "src": "assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5909-640.webp",
+          "srcset": "../../assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5909-640.webp?v=8b0714bfd924 469w, ../../assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5909-1600.webp?v=77f6aa2f24d5 1046w",
+          "detail": "assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5909-1600.webp",
+          "decoded": true,
+          "caption": "Horizontal sidewall K115 standard-response sprinkler — 260°C",
+          "expectedCaption": "Horizontal sidewall K115 standard-response sprinkler — 260°C",
+          "alt": "Horizontal sidewall K115 standard-response sprinkler — 260°C",
+          "bounds": {
+            "left": 12,
+            "right": 378
+          },
+          "width": 342,
+          "height": 466
+        },
+        {
+          "id": "product-photograph-9",
+          "src": "assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5910-640.webp",
+          "srcset": "../../assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5910-640.webp?v=f6c3ec13de45 481w, ../../assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5910-1600.webp?v=9297c8498723 844w",
+          "detail": "assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5910-1600.webp",
+          "decoded": true,
+          "caption": "Upright K115 standard-response sprinkler — 93°C",
+          "expectedCaption": "Upright K115 standard-response sprinkler — 93°C",
+          "alt": "Upright K115 standard-response sprinkler — 93°C",
+          "bounds": {
+            "left": 12,
+            "right": 378
+          },
+          "width": 342,
+          "height": 455
+        }
+      ],
+      "newPhotoModalChecks": [
+        {
+          "photograph": 4,
+          "sourceFile": "DSC_5895.jpg",
+          "open": true,
+          "path": "assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5895-1600.webp",
+          "decoded": true,
+          "alt": "Horizontal sidewall K115 standard-response sprinkler — 182°C",
+          "closed": true
+        },
+        {
+          "photograph": 5,
+          "sourceFile": "DSC_5898.jpg",
+          "open": true,
+          "path": "assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5898-1600.webp",
+          "decoded": true,
+          "alt": "Horizontal sidewall K115 standard-response sprinkler — 141°C",
+          "closed": true
+        },
+        {
+          "photograph": 6,
+          "sourceFile": "DSC_5901.jpg",
+          "open": true,
+          "path": "assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5901-1600.webp",
+          "decoded": true,
+          "alt": "Horizontal sidewall K115 standard-response sprinkler — 57°C",
+          "closed": true
+        },
+        {
+          "photograph": 7,
+          "sourceFile": "DSC_5902.jpg",
+          "open": true,
+          "path": "assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5902-1600.webp",
+          "decoded": true,
+          "alt": "Upright K115 standard-response sprinkler — 79°C",
+          "closed": true
+        },
+        {
+          "photograph": 8,
+          "sourceFile": "DSC_5909.jpg",
+          "open": true,
+          "path": "assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5909-1600.webp",
+          "decoded": true,
+          "alt": "Horizontal sidewall K115 standard-response sprinkler — 260°C",
+          "closed": true
+        },
+        {
+          "photograph": 9,
+          "sourceFile": "DSC_5910.jpg",
+          "open": true,
+          "path": "assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5910-1600.webp",
+          "decoded": true,
+          "alt": "Upright K115 standard-response sprinkler — 93°C",
+          "closed": true
+        }
+      ]
+    },
+    {
+      "status": "PASS",
+      "viewport": "mobile",
+      "locale": "ar",
+      "path": "ar/products/k115-standard-response-fire-sprinkler/index.html",
+      "count": 9,
+      "mainGalleryCount": 3,
+      "lang": "ar",
+      "dir": "rtl",
+      "overflow": 0,
+      "viewportWidth": 390,
+      "photos": [
+        {
+          "id": "product-photograph-1",
+          "src": "assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5904-640.webp",
+          "srcset": "../../../assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5904-640.webp?v=8db214746fe0 477w, ../../../assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5904-1600.webp?v=ae585181158e 911w",
+          "detail": "assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5904-1600.webp",
+          "decoded": true,
+          "caption": "رشاش K115 ذو استجابة قياسية قائم — 68°C",
+          "expectedCaption": "رشاش K115 ذو استجابة قياسية قائم — 68°C",
+          "alt": "رشاش K115 ذو استجابة قياسية قائم — 68°C",
+          "bounds": {
+            "left": 12,
+            "right": 378
+          },
+          "width": 342,
+          "height": 458
+        },
+        {
+          "id": "product-photograph-2",
+          "src": "assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5905-640.webp",
+          "srcset": "../../../assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5905-640.webp?v=21a33d08e8bf 440w, ../../../assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5905-1600.webp?v=e17b2c34ad8f 911w",
+          "detail": "assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5905-1600.webp",
+          "decoded": true,
+          "caption": "رشاش K115 ذو استجابة قياسية معلق — 68°C",
+          "expectedCaption": "رشاش K115 ذو استجابة قياسية معلق — 68°C",
+          "alt": "رشاش K115 ذو استجابة قياسية معلق — 68°C",
+          "bounds": {
+            "left": 12,
+            "right": 378
+          },
+          "width": 342,
+          "height": 497
+        },
+        {
+          "id": "product-photograph-3",
+          "src": "assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5906-640.webp",
+          "srcset": "../../../assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5906-640.webp?v=06443d8502da 457w, ../../../assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5906-1600.webp?v=e248d99d3403 1029w",
+          "detail": "assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5906-1600.webp",
+          "decoded": true,
+          "caption": "رشاش K115 ذو استجابة قياسية جانبي أفقي — 68°C",
+          "expectedCaption": "رشاش K115 ذو استجابة قياسية جانبي أفقي — 68°C",
+          "alt": "رشاش K115 ذو استجابة قياسية جانبي أفقي — 68°C",
+          "bounds": {
+            "left": 12,
+            "right": 378
+          },
+          "width": 342,
+          "height": 478
+        },
+        {
+          "id": "product-photograph-4",
+          "src": "assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5895-640.webp",
+          "srcset": "../../../assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5895-640.webp?v=0c43c050d094 462w, ../../../assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5895-1600.webp?v=a921938d35c5 945w",
+          "detail": "assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5895-1600.webp",
+          "decoded": true,
+          "caption": "رشاش K115 ذو استجابة قياسية جانبي أفقي — 182°C",
+          "expectedCaption": "رشاش K115 ذو استجابة قياسية جانبي أفقي — 182°C",
+          "alt": "رشاش K115 ذو استجابة قياسية جانبي أفقي — 182°C",
+          "bounds": {
+            "left": 12,
+            "right": 378
+          },
+          "width": 342,
+          "height": 473
+        },
+        {
+          "id": "product-photograph-5",
+          "src": "assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5898-640.webp",
+          "srcset": "../../../assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5898-640.webp?v=491d5806804e 471w, ../../../assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5898-1600.webp?v=898e195b3902 962w",
+          "detail": "assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5898-1600.webp",
+          "decoded": true,
+          "caption": "رشاش K115 ذو استجابة قياسية جانبي أفقي — 141°C",
+          "expectedCaption": "رشاش K115 ذو استجابة قياسية جانبي أفقي — 141°C",
+          "alt": "رشاش K115 ذو استجابة قياسية جانبي أفقي — 141°C",
+          "bounds": {
+            "left": 12,
+            "right": 378
+          },
+          "width": 342,
+          "height": 464
+        },
+        {
+          "id": "product-photograph-6",
+          "src": "assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5901-640.webp",
+          "srcset": "../../../assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5901-640.webp?v=4944b853dc71 448w, ../../../assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5901-1600.webp?v=3f80f4d806d5 962w",
+          "detail": "assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5901-1600.webp",
+          "decoded": true,
+          "caption": "رشاش K115 ذو استجابة قياسية جانبي أفقي — 57°C",
+          "expectedCaption": "رشاش K115 ذو استجابة قياسية جانبي أفقي — 57°C",
+          "alt": "رشاش K115 ذو استجابة قياسية جانبي أفقي — 57°C",
+          "bounds": {
+            "left": 12,
+            "right": 378
+          },
+          "width": 342,
+          "height": 488
+        },
+        {
+          "id": "product-photograph-7",
+          "src": "assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5902-640.webp",
+          "srcset": "../../../assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5902-640.webp?v=b4e49defd480 477w, ../../../assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5902-1600.webp?v=1a8a9a6a9b82 861w",
+          "detail": "assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5902-1600.webp",
+          "decoded": true,
+          "caption": "رشاش K115 ذو استجابة قياسية قائم — 79°C",
+          "expectedCaption": "رشاش K115 ذو استجابة قياسية قائم — 79°C",
+          "alt": "رشاش K115 ذو استجابة قياسية قائم — 79°C",
+          "bounds": {
+            "left": 12,
+            "right": 378
+          },
+          "width": 342,
+          "height": 458
+        },
+        {
+          "id": "product-photograph-8",
+          "src": "assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5909-640.webp",
+          "srcset": "../../../assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5909-640.webp?v=8b0714bfd924 469w, ../../../assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5909-1600.webp?v=77f6aa2f24d5 1046w",
+          "detail": "assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5909-1600.webp",
+          "decoded": true,
+          "caption": "رشاش K115 ذو استجابة قياسية جانبي أفقي — 260°C",
+          "expectedCaption": "رشاش K115 ذو استجابة قياسية جانبي أفقي — 260°C",
+          "alt": "رشاش K115 ذو استجابة قياسية جانبي أفقي — 260°C",
+          "bounds": {
+            "left": 12,
+            "right": 378
+          },
+          "width": 342,
+          "height": 466
+        },
+        {
+          "id": "product-photograph-9",
+          "src": "assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5910-640.webp",
+          "srcset": "../../../assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5910-640.webp?v=f6c3ec13de45 481w, ../../../assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5910-1600.webp?v=9297c8498723 844w",
+          "detail": "assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5910-1600.webp",
+          "decoded": true,
+          "caption": "رشاش K115 ذو استجابة قياسية قائم — 93°C",
+          "expectedCaption": "رشاش K115 ذو استجابة قياسية قائم — 93°C",
+          "alt": "رشاش K115 ذو استجابة قياسية قائم — 93°C",
+          "bounds": {
+            "left": 12,
+            "right": 378
+          },
+          "width": 342,
+          "height": 455
+        }
+      ],
+      "newPhotoModalChecks": [
+        {
+          "photograph": 4,
+          "sourceFile": "DSC_5895.jpg",
+          "open": true,
+          "path": "assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5895-1600.webp",
+          "decoded": true,
+          "alt": "رشاش ⁦K115⁩ ذو استجابة قياسية جانبي أفقي — ⁦182°C⁩",
+          "closed": true
+        },
+        {
+          "photograph": 5,
+          "sourceFile": "DSC_5898.jpg",
+          "open": true,
+          "path": "assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5898-1600.webp",
+          "decoded": true,
+          "alt": "رشاش ⁦K115⁩ ذو استجابة قياسية جانبي أفقي — ⁦141°C⁩",
+          "closed": true
+        },
+        {
+          "photograph": 6,
+          "sourceFile": "DSC_5901.jpg",
+          "open": true,
+          "path": "assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5901-1600.webp",
+          "decoded": true,
+          "alt": "رشاش ⁦K115⁩ ذو استجابة قياسية جانبي أفقي — ⁦57°C⁩",
+          "closed": true
+        },
+        {
+          "photograph": 7,
+          "sourceFile": "DSC_5902.jpg",
+          "open": true,
+          "path": "assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5902-1600.webp",
+          "decoded": true,
+          "alt": "رشاش ⁦K115⁩ ذو استجابة قياسية قائم — ⁦79°C⁩",
+          "closed": true
+        },
+        {
+          "photograph": 8,
+          "sourceFile": "DSC_5909.jpg",
+          "open": true,
+          "path": "assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5909-1600.webp",
+          "decoded": true,
+          "alt": "رشاش ⁦K115⁩ ذو استجابة قياسية جانبي أفقي — ⁦260°C⁩",
+          "closed": true
+        },
+        {
+          "photograph": 9,
+          "sourceFile": "DSC_5910.jpg",
+          "open": true,
+          "path": "assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5910-1600.webp",
+          "decoded": true,
+          "alt": "رشاش ⁦K115⁩ ذو استجابة قياسية قائم — ⁦93°C⁩",
+          "closed": true
+        }
+      ]
+    }
+  ],
+  "screenshots": [
+    "gallery-desktop-en-photo-4.png",
+    "gallery-desktop-en-photo-7.png",
+    "gallery-desktop-ar-photo-4.png",
+    "gallery-desktop-ar-photo-7.png",
+    "gallery-mobile-en-photo-4.png",
+    "gallery-mobile-en-photo-5.png",
+    "gallery-mobile-en-photo-6.png",
+    "gallery-mobile-en-photo-7.png",
+    "gallery-mobile-en-photo-8.png",
+    "gallery-mobile-en-photo-9.png",
+    "gallery-mobile-ar-photo-4.png",
+    "gallery-mobile-ar-photo-5.png",
+    "gallery-mobile-ar-photo-6.png",
+    "gallery-mobile-ar-photo-7.png",
+    "gallery-mobile-ar-photo-8.png",
+    "gallery-mobile-ar-photo-9.png"
+  ]
+}

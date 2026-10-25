@@ -1,0 +1,123 @@
+[
+  {
+    "product": "combined-smoke-heat-detectors",
+    "model": "JTF-GOM-TX3120A",
+    "url": "https://www.tandatech.com/productinfo?id=1801010043",
+    "manual": "Ver.1.1, 2023.05",
+    "pages": [
+      1,
+      3
+    ],
+    "addedRows": 8,
+    "updatedCopyKeys": [
+      "spec3Value",
+      "spec4Value",
+      "model0Selection",
+      "selection1Body"
+    ]
+  },
+  {
+    "product": "fire-alarm-input-output-modules",
+    "model": "TX3212",
+    "url": "https://www.tandatech.com/productinfo?id=1801020109",
+    "manual": "Ver.1.4, 2020.03",
+    "pages": [
+      1,
+      2,
+      4
+    ],
+    "addedRows": 9,
+    "updatedCopyKeys": [
+      "spec2Value",
+      "spec3Value",
+      "model0Selection",
+      "selection1Body"
+    ]
+  },
+  {
+    "product": "fire-alarm-sounder-beacons",
+    "model": "TX3307A",
+    "url": "https://www.tandatech.com/productinfo?id=1801040103",
+    "manual": "Ver.1.0, 2021.11",
+    "pages": [
+      1
+    ],
+    "addedRows": 9,
+    "updatedCopyKeys": [
+      "specificationsBody",
+      "model1Selection"
+    ]
+  },
+  {
+    "product": "manual-fire-alarm-call-points",
+    "model": "J-SJP-M-TX3142",
+    "url": "https://www.tandatech.com/productinfo?id=1801030106",
+    "manual": "Ver.1.2, 2021.04",
+    "pages": [
+      1,
+      3
+    ],
+    "addedRows": 10,
+    "updatedCopyKeys": [
+      "model0Selection",
+      "selection1Body"
+    ]
+  },
+  {
+    "product": "grooved-flange-adapters",
+    "addedRows": 1,
+    "basis": "Explicit original supplier product title; corrected earlier interpretation of unspecified category."
+  },
+  {
+    "product": "liquid-filled-pressure-gauges",
+    "generalGuidanceOnly": true,
+    "url": "https://blog.wika.com/en/products/filling-liquids-pressure-gauges-usage-advantages/",
+    "updatedCopyKeys": [
+      "lead",
+      "selection1Body"
+    ]
+  },
+  {
+    "product": "pressure-gauge-syphons",
+    "generalGuidanceOnly": true,
+    "url": "https://www-prod.wika.com/en-en/pressure_gauges.WIKA",
+    "updatedCopyKeys": [
+      "lead"
+    ]
+  },
+  {
+    "product": "fire-pressure-maintenance-sets",
+    "generalGuidanceOnly": true,
+    "url": "https://www.grundfos.com/ca/learn/research-and-insights/jockey-pump",
+    "updatedCopyKeys": [
+      "lead"
+    ]
+  },
+  {
+    "product": "horizontal-single-stage-fire-pumps",
+    "generalGuidanceOnly": true,
+    "url": "https://www.grundfos.com/au/learn/research-and-insights/duty-point",
+    "updatedCopyKeys": [
+      "selection0Label",
+      "selection0Body"
+    ]
+  },
+  {
+    "product": "vertical-single-stage-fire-pumps",
+    "generalGuidanceOnly": true,
+    "url": "https://www.grundfos.com/au/learn/research-and-insights/duty-point",
+    "updatedCopyKeys": [
+      "selection0Label",
+      "selection0Body"
+    ]
+  },
+  {
+    "product": "vertical-multistage-fire-pumps",
+    "generalGuidanceOnly": true,
+    "url": "https://www.grundfos.com/au/learn/research-and-insights/duty-point",
+    "updatedCopyKeys": [
+      "selection0Label",
+      "selection0Body"
+    ]
+  }
+]

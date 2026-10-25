@@ -1,6 +1,8 @@
 import path from "node:path";
 import { catalogExpansionRoutes } from "./catalogExpansion.js";
 import { websiteBatchRoutes } from "./websiteCatalogBatch.js";
+import { concealedSeries } from '../lib/concealed-series.js';
+import { largeKEsfrSeries } from '../lib/large-k-esfr-series.js';
 
 export const SITE_ORIGIN = "https://chuanweifire.com";
 export const SUPPORTED_LOCALES = ["en", "ar"];
@@ -12,6 +14,12 @@ const fallback = (outputPath, fragment = "") => ({ outputPath, fragment, status:
 // localized catalog section until a dedicated translated page is published.
 export const SITE_ROUTES = {
   ...websiteBatchRoutes,
+  ...Object.fromEntries([...concealedSeries, ...largeKEsfrSeries].map(item => [item.routeId, {
+    kind: 'product', category: 'category:sprinklers', locales: {
+      en: published(`products/消防喷头/${item.productId}.html`),
+      ar: published(`ar/products/${item.productId}/index.html`)
+    }
+  }])),
   "product:grooved-osy-gate-valves": { kind: "product", category: "category:gate-valves", locales: { en: published("products/消防阀门/grooved-osy-gate-valves.html"), ar: published("ar/products/grooved-osy-gate-valves/index.html") } },
   home: { kind: "core", locales: { en: published("index.html"), zh: published("zh/index.html"), ar: published("ar/index.html") } },
   products: { kind: "core", locales: { en: published("products.html"), ar: published("ar/products.html") } },
@@ -49,7 +57,7 @@ export const SITE_ROUTES = {
   "product:explosion-proof-pressure-switch": { kind: "product", category: "category:system-valves", locales: { en: published("products/消防阀/explosion-proof-pressure-switch.html"), ar: published("ar/products/explosion-proof-pressure-switch/index.html") } },
   "product:explosion-proof-solenoid-valve": { kind: "product", category: "category:system-valves", locales: { en: published("products/消防阀/explosion-proof-solenoid-valve.html"), ar: published("ar/products/explosion-proof-solenoid-valve/index.html") } },
 
-  "product:sprinkler-escutcheons-decorative-covers": { kind: "product", category: "category:sprinklers", locales: { en: published("products/消防喷头/sprinkler-escutcheons-decorative-covers.html"), ar: published("ar/products/sprinkler-escutcheons-decorative-covers/index.html") } },
+  "product:sprinkler-escutcheons-decorative-covers": { kind: "product", category: "category:pressure-gauges-accessories", locales: { en: published("products/消防喷头/sprinkler-escutcheons-decorative-covers.html"), ar: published("ar/products/sprinkler-escutcheons-decorative-covers/index.html") } },
 
   "product:closed-rotating-fire-sprinkler": { kind: "product", category: "category:sprinklers", locales: { en: published("products/closed-rotating-fire-sprinkler.html"), ar: published("ar/products/closed-rotating-fire-sprinkler/index.html") } },
   "product:closed-centrifugal-fire-sprinklers": { kind: "product", category: "category:sprinklers", locales: { en: published("products/closed-centrifugal-fire-sprinklers.html"), ar: published("ar/products/closed-centrifugal-fire-sprinklers/index.html") } },
@@ -58,6 +66,8 @@ export const SITE_ROUTES = {
   "product:water-curtain-nozzles": { kind: "product", category: "category:sprinklers", locales: { en: published("products/消防喷头/water-curtain-nozzles.html"), ar: published("ar/products/water-curtain-nozzles/index.html") } },
   "product:water-mist-nozzles": { kind: "product", category: "category:sprinklers", locales: { en: published("products/消防喷头/water-mist-nozzles.html"), ar: published("ar/products/water-mist-nozzles/index.html") } },
   "product:standard-response-fire-sprinkler": { kind: "product", category: "category:sprinklers", locales: { en: published("products/消防喷头/standard-response-fire-sprinkler.html"), ar: published("ar/products/standard-response-fire-sprinkler/index.html") } },
+  "product:k115-standard-response-fire-sprinkler": { kind: "product", category: "category:sprinklers", locales: { en: published("products/消防喷头/k115-standard-response-fire-sprinkler.html"), ar: published("ar/products/k115-standard-response-fire-sprinkler/index.html") } },
+  "product:k115-quick-response-fire-sprinkler": { kind: "product", category: "category:sprinklers", locales: { en: published("products/消防喷头/k115-quick-response-fire-sprinkler.html"), ar: published("ar/products/k115-quick-response-fire-sprinkler/index.html") } },
   "product:fusible-alloy-fire-sprinklers": { kind: "product", category: "category:sprinklers", locales: { en: published("products/消防喷头/fusible-alloy-fire-sprinklers.html"), ar: published("ar/products/fusible-alloy-fire-sprinklers/index.html") } },
   "product:glass-bulb-fire-sprinkler": { kind: "product", category: "category:sprinklers", locales: { en: published("products/消防喷头/glass-bulb-fire-sprinkler.html"), ar: published("ar/products/glass-bulb-fire-sprinkler/index.html") } },
   "product:concealed-pendent-fire-sprinkler": { kind: "product", category: "category:sprinklers", locales: { en: published("products/消防喷头/concealed-pendent-fire-sprinkler.html"), ar: published("ar/products/concealed-pendent-fire-sprinkler/index.html") } },

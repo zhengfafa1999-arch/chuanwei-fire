@@ -1,0 +1,236 @@
+{
+  "status": "confirmed",
+  "confirmedDate": "2026-10-24",
+  "scope": "CHUANWEI FIRE official website public display",
+  "authority": "User supplied these six photographs and explicitly requested adding them to the lower product photograph section of the K80 quick-response official website product page on 2026-10-24. This records the requested use, not independent ownership or licensing verification.",
+  "userRequest": "，这个加到k80快速的下面图片里面",
+  "sourceManifest": "site-src/_data/guanya-photos.json",
+  "placement": "K80 quick-response lower Product photographs section, appended as photographs 4–9; existing three main gallery slides retained.",
+  "captionPolicy": "Temperatures for the green, blue, purple, black and light-yellow samples are explicitly confirmed by the user. The sidewall model and 57°C temperature are transcribed from the legible marking. Confirmation applies to the depicted samples only, without inferring other technical specifications or parameter combinations.",
+  "images": [
+    {
+      "productId": "glass-bulb-fire-sprinkler",
+      "path": "assets/products/guanya-2026/glass-bulb-fire-sprinkler-dsc_5844-640.webp",
+      "sha256": "fb2f5f69d5d21979a8cb8c1b7f6264fad9ab1851f3231c824fad3d766e3ea76e",
+      "sourceFile": "DSC_5844.jpg",
+      "sourceSha256": "833296348fafe307ef2f1d173a8e1498b464c93db0f3fc146bd5b08b04907145",
+      "originalSha256": "833296348fafe307ef2f1d173a8e1498b464c93db0f3fc146bd5b08b04907145",
+      "originalBackup": "docs/release/k80-quick-photos-20261024/source/DSC_5844.jpg",
+      "caption": {
+        "en": "Horizontal sidewall quick-response sprinkler — K-ZSTBS 80-57°C Q3A",
+        "ar": "رشاش سريع الاستجابة جانبي أفقي — K-ZSTBS 80-57°C Q3A"
+      },
+      "publishedTransform": "CHUANWEI FIRE text watermark in clear whitespace",
+      "unwatermarkedSha256": "ada258bed976232131aea69f5dd68778de710c4b798674b15bf4bdaf0905a081",
+      "watermarkRecord": "site-src/_data/product-watermarks.json"
+    },
+    {
+      "productId": "glass-bulb-fire-sprinkler",
+      "path": "assets/products/guanya-2026/glass-bulb-fire-sprinkler-dsc_5844-1600.webp",
+      "sha256": "27751a9ce44da2f49bd8659d6892e0de83bb186ce952eaaf12578b73d3b7897a",
+      "sourceFile": "DSC_5844.jpg",
+      "sourceSha256": "833296348fafe307ef2f1d173a8e1498b464c93db0f3fc146bd5b08b04907145",
+      "originalSha256": "833296348fafe307ef2f1d173a8e1498b464c93db0f3fc146bd5b08b04907145",
+      "originalBackup": "docs/release/k80-quick-photos-20261024/source/DSC_5844.jpg",
+      "caption": {
+        "en": "Horizontal sidewall quick-response sprinkler — K-ZSTBS 80-57°C Q3A",
+        "ar": "رشاش سريع الاستجابة جانبي أفقي — K-ZSTBS 80-57°C Q3A"
+      },
+      "publishedTransform": "CHUANWEI FIRE text watermark in clear whitespace",
+      "unwatermarkedSha256": "956ef03853188e91fca505a480c926434f51580e03913f3df82dd98a4713e3e5",
+      "watermarkRecord": "site-src/_data/product-watermarks.json"
+    },
+    {
+      "productId": "glass-bulb-fire-sprinkler",
+      "path": "assets/products/guanya-2026/glass-bulb-fire-sprinkler-dsc_5845-640.webp",
+      "sha256": "3a43ceba1a0470e4071d3beba629f310c22719f3e2963f7a1f24763e6d3a7fec",
+      "sourceFile": "DSC_5845.jpg",
+      "sourceSha256": "fa1e7a6e8e562e53555b543d394fddd4780e2922735d6d3191c2dcb13787bab2",
+      "originalSha256": "fa1e7a6e8e562e53555b543d394fddd4780e2922735d6d3191c2dcb13787bab2",
+      "originalBackup": "docs/release/k80-quick-photos-20261024/source/DSC_5845.jpg",
+      "caption": {
+        "en": "K80 quick-response sprinkler — 93°C, green glass-bulb sample",
+        "ar": "رشاش سريع الاستجابة K80 — 93°C، عينة بعنصر زجاجي أخضر"
+      },
+      "publishedTransform": "CHUANWEI FIRE text watermark in clear whitespace",
+      "unwatermarkedSha256": "e88e5303a70d65fe3f4e83a094f4c4f36997744936ab9bc820f7f123af5902e9",
+      "watermarkRecord": "site-src/_data/product-watermarks.json"
+    },
+    {
+      "productId": "glass-bulb-fire-sprinkler",
+      "path": "assets/products/guanya-2026/glass-bulb-fire-sprinkler-dsc_5845-1600.webp",
+      "sha256": "ab0b09d63d28336b1073bf6ba3a56d2faf42309385c7cd66a1dc8a529c7f7336",
+      "sourceFile": "DSC_5845.jpg",
+      "sourceSha256": "fa1e7a6e8e562e53555b543d394fddd4780e2922735d6d3191c2dcb13787bab2",
+      "originalSha256": "fa1e7a6e8e562e53555b543d394fddd4780e2922735d6d3191c2dcb13787bab2",
+      "originalBackup": "docs/release/k80-quick-photos-20261024/source/DSC_5845.jpg",
+      "caption": {
+        "en": "K80 quick-response sprinkler — 93°C, green glass-bulb sample",
+        "ar": "رشاش سريع الاستجابة K80 — 93°C، عينة بعنصر زجاجي أخضر"
+      },
+      "publishedTransform": "CHUANWEI FIRE text watermark in clear whitespace",
+      "unwatermarkedSha256": "ced7ae6f90f3ebfebee82cf8ae636350dabeba8211798c8ad23fa43966e6d14d",
+      "watermarkRecord": "site-src/_data/product-watermarks.json"
+    },
+    {
+      "productId": "glass-bulb-fire-sprinkler",
+      "path": "assets/products/guanya-2026/glass-bulb-fire-sprinkler-dsc_5848-640.webp",
+      "sha256": "91bd7556759b03c185eefaa8752aad0494709ec35c7e4558e8f6b9e4ad00c7d7",
+      "sourceFile": "DSC_5848.jpg",
+      "sourceSha256": "8c5cb4ca2b8aac3854529b7ffea0e98459960cc74cda7de62ad6a86f284d6ac1",
+      "originalSha256": "8c5cb4ca2b8aac3854529b7ffea0e98459960cc74cda7de62ad6a86f284d6ac1",
+      "originalBackup": "docs/release/k80-quick-photos-20261024/source/DSC_5848.jpg",
+      "caption": {
+        "en": "K80 quick-response sprinkler — 141°C, blue glass-bulb sample",
+        "ar": "رشاش سريع الاستجابة K80 — 141°C، عينة بعنصر زجاجي أزرق"
+      },
+      "publishedTransform": "CHUANWEI FIRE text watermark in clear whitespace",
+      "unwatermarkedSha256": "9dea0f02587e899bd68e83743cf6119dd03c511e242893b58a21678eb3c958a7",
+      "watermarkRecord": "site-src/_data/product-watermarks.json"
+    },
+    {
+      "productId": "glass-bulb-fire-sprinkler",
+      "path": "assets/products/guanya-2026/glass-bulb-fire-sprinkler-dsc_5848-1600.webp",
+      "sha256": "5cf680055f968f75a066ce1cf42b1a527d3b9b5f0cad41328604b6b696e2adf9",
+      "sourceFile": "DSC_5848.jpg",
+      "sourceSha256": "8c5cb4ca2b8aac3854529b7ffea0e98459960cc74cda7de62ad6a86f284d6ac1",
+      "originalSha256": "8c5cb4ca2b8aac3854529b7ffea0e98459960cc74cda7de62ad6a86f284d6ac1",
+      "originalBackup": "docs/release/k80-quick-photos-20261024/source/DSC_5848.jpg",
+      "caption": {
+        "en": "K80 quick-response sprinkler — 141°C, blue glass-bulb sample",
+        "ar": "رشاش سريع الاستجابة K80 — 141°C، عينة بعنصر زجاجي أزرق"
+      },
+      "publishedTransform": "CHUANWEI FIRE text watermark in clear whitespace",
+      "unwatermarkedSha256": "8a0587d825e49f3218d5a8ccb233f4fb70ffc656231728faefcd0a4a5dbc343c",
+      "watermarkRecord": "site-src/_data/product-watermarks.json"
+    },
+    {
+      "productId": "glass-bulb-fire-sprinkler",
+      "path": "assets/products/guanya-2026/glass-bulb-fire-sprinkler-dsc_5851-640.webp",
+      "sha256": "7368823269bcd350f6f7ceab371e14d947818adeabe1bdfa6a71e4b03969b4e5",
+      "sourceFile": "DSC_5851.jpg",
+      "sourceSha256": "b0d715019f0b06edf66c8a3d2b15351a3ffabdbd0b16a502b8515a8d6b320ddc",
+      "originalSha256": "b0d715019f0b06edf66c8a3d2b15351a3ffabdbd0b16a502b8515a8d6b320ddc",
+      "originalBackup": "docs/release/k80-quick-photos-20261024/source/DSC_5851.jpg",
+      "caption": {
+        "en": "K80 quick-response sprinkler — 182°C, purple glass-bulb sample",
+        "ar": "رشاش سريع الاستجابة K80 — 182°C، عينة بعنصر زجاجي بنفسجي"
+      },
+      "publishedTransform": "CHUANWEI FIRE text watermark in clear whitespace",
+      "unwatermarkedSha256": "607838dac14228711895cc313c9563de371ce814429915460e71e401be7b1301",
+      "watermarkRecord": "site-src/_data/product-watermarks.json"
+    },
+    {
+      "productId": "glass-bulb-fire-sprinkler",
+      "path": "assets/products/guanya-2026/glass-bulb-fire-sprinkler-dsc_5851-1600.webp",
+      "sha256": "e8df55596e100722a9656152080ac0096d7a19f7292dced6c6943fcafa355e01",
+      "sourceFile": "DSC_5851.jpg",
+      "sourceSha256": "b0d715019f0b06edf66c8a3d2b15351a3ffabdbd0b16a502b8515a8d6b320ddc",
+      "originalSha256": "b0d715019f0b06edf66c8a3d2b15351a3ffabdbd0b16a502b8515a8d6b320ddc",
+      "originalBackup": "docs/release/k80-quick-photos-20261024/source/DSC_5851.jpg",
+      "caption": {
+        "en": "K80 quick-response sprinkler — 182°C, purple glass-bulb sample",
+        "ar": "رشاش سريع الاستجابة K80 — 182°C، عينة بعنصر زجاجي بنفسجي"
+      },
+      "publishedTransform": "CHUANWEI FIRE text watermark in clear whitespace",
+      "unwatermarkedSha256": "099f874cefe59cf7d7d3b6a2a6364ecc392bb1fe4d4a4c8814e01c2eb4ecfe95",
+      "watermarkRecord": "site-src/_data/product-watermarks.json"
+    },
+    {
+      "productId": "glass-bulb-fire-sprinkler",
+      "path": "assets/products/guanya-2026/glass-bulb-fire-sprinkler-dsc_5854-640.webp",
+      "sha256": "a23576263e80fbee1479697bd7f3991499d6499f601ab1ad556bfa4f7a9844aa",
+      "sourceFile": "DSC_5854.jpg",
+      "sourceSha256": "594970a4a5907641e899771b62a8bc0778903914f8d34a417c3afc2d4c89f64d",
+      "originalSha256": "594970a4a5907641e899771b62a8bc0778903914f8d34a417c3afc2d4c89f64d",
+      "originalBackup": "docs/release/k80-quick-photos-20261024/source/DSC_5854.jpg",
+      "caption": {
+        "en": "K80 quick-response sprinkler — 260°C, black glass-bulb sample",
+        "ar": "رشاش سريع الاستجابة K80 — 260°C، عينة بعنصر زجاجي أسود"
+      },
+      "publishedTransform": "CHUANWEI FIRE text watermark in clear whitespace",
+      "unwatermarkedSha256": "6014763dfc6daf4b72ecb738dab4f28b37c76f7b31bf56e3a8f617931caac103",
+      "watermarkRecord": "site-src/_data/product-watermarks.json"
+    },
+    {
+      "productId": "glass-bulb-fire-sprinkler",
+      "path": "assets/products/guanya-2026/glass-bulb-fire-sprinkler-dsc_5854-1600.webp",
+      "sha256": "18e891eaa234324b89f498af2ea1d98458161f044944ebb12002dd084fa6b63e",
+      "sourceFile": "DSC_5854.jpg",
+      "sourceSha256": "594970a4a5907641e899771b62a8bc0778903914f8d34a417c3afc2d4c89f64d",
+      "originalSha256": "594970a4a5907641e899771b62a8bc0778903914f8d34a417c3afc2d4c89f64d",
+      "originalBackup": "docs/release/k80-quick-photos-20261024/source/DSC_5854.jpg",
+      "caption": {
+        "en": "K80 quick-response sprinkler — 260°C, black glass-bulb sample",
+        "ar": "رشاش سريع الاستجابة K80 — 260°C، عينة بعنصر زجاجي أسود"
+      },
+      "publishedTransform": "CHUANWEI FIRE text watermark in clear whitespace",
+      "unwatermarkedSha256": "196fcfaca91d37f0dabf3b4d4c0ecd4c6188cb62f572ead37217649fc8ceb960",
+      "watermarkRecord": "site-src/_data/product-watermarks.json"
+    },
+    {
+      "productId": "glass-bulb-fire-sprinkler",
+      "path": "assets/products/guanya-2026/glass-bulb-fire-sprinkler-dsc_5836-640.webp",
+      "sha256": "050b98e05287d2e54f842a8af39587e8098d29637c14c4d77087d079e58d185f",
+      "sourceFile": "DSC_5836.jpg",
+      "sourceSha256": "0aa8604af89581b8f02ec4e24c547f2e15042a6b1f1dc7b6a267d7c7887e57b7",
+      "originalSha256": "0aa8604af89581b8f02ec4e24c547f2e15042a6b1f1dc7b6a267d7c7887e57b7",
+      "originalBackup": "docs/release/k80-quick-photos-20261024/source/DSC_5836.jpg",
+      "caption": {
+        "en": "K80 quick-response sprinkler — 79°C, light-yellow glass-bulb sample",
+        "ar": "رشاش سريع الاستجابة K80 — 79°C، عينة بعنصر زجاجي أصفر فاتح"
+      },
+      "publishedTransform": "CHUANWEI FIRE text watermark in clear whitespace",
+      "unwatermarkedSha256": "6e863cedf6bb5186eff7d48339ac7c20ab88c8d806b66391dbbef7f0d2c1db11",
+      "watermarkRecord": "site-src/_data/product-watermarks.json"
+    },
+    {
+      "productId": "glass-bulb-fire-sprinkler",
+      "path": "assets/products/guanya-2026/glass-bulb-fire-sprinkler-dsc_5836-1600.webp",
+      "sha256": "cdfb3c364382a66c2a66c32fb1f40953cb2223b999b257ecae80bb36d5f035e9",
+      "sourceFile": "DSC_5836.jpg",
+      "sourceSha256": "0aa8604af89581b8f02ec4e24c547f2e15042a6b1f1dc7b6a267d7c7887e57b7",
+      "originalSha256": "0aa8604af89581b8f02ec4e24c547f2e15042a6b1f1dc7b6a267d7c7887e57b7",
+      "originalBackup": "docs/release/k80-quick-photos-20261024/source/DSC_5836.jpg",
+      "caption": {
+        "en": "K80 quick-response sprinkler — 79°C, light-yellow glass-bulb sample",
+        "ar": "رشاش سريع الاستجابة K80 — 79°C، عينة بعنصر زجاجي أصفر فاتح"
+      },
+      "publishedTransform": "CHUANWEI FIRE text watermark in clear whitespace",
+      "unwatermarkedSha256": "e75ae9550cacf003e16b27a02d2bd5b17aa4ecb8036196ff3afbcfb74182e288",
+      "watermarkRecord": "site-src/_data/product-watermarks.json"
+    }
+  ],
+  "temperatureConfirmation": {
+    "confirmedDate": "2026-10-24",
+    "evidence": "explicit user confirmation",
+    "userRequest": "K80 quick-response sprinkler — black glass-bulb sample，这个260度，最后一张79度，绿色93度，蓝色141，紫的182度",
+    "samples": [
+      {
+        "sourceFile": "DSC_5845.jpg",
+        "temperatureC": 93,
+        "color": "green"
+      },
+      {
+        "sourceFile": "DSC_5848.jpg",
+        "temperatureC": 141,
+        "color": "blue"
+      },
+      {
+        "sourceFile": "DSC_5851.jpg",
+        "temperatureC": 182,
+        "color": "purple"
+      },
+      {
+        "sourceFile": "DSC_5854.jpg",
+        "temperatureC": 260,
+        "color": "black"
+      },
+      {
+        "sourceFile": "DSC_5836.jpg",
+        "temperatureC": 79,
+        "color": "light-yellow"
+      }
+    ]
+  }
+}

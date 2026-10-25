@@ -24,7 +24,15 @@
       "8 kg样品品牌浙安广消，制造商广东浙安消防科技有限公司；保留原标识，不当作CHUANWEI自产。",
       "同名其他厂家FZX-ACT型号钢材、1.2 MPa、68°C等联网参考明确非本SKU，全部排除。",
       "型号内1.2未拆解成已确认压力。"
-    ]
+    ],
+    "marketReference": {
+      "grade": "C-other-manufacturer-or-series-reference",
+      "reviewDate": "2026-10-25",
+      "url": "https://www.qhxf.com/product-detail/BXZvgADW",
+      "model": "Qinghua FZX-ACT3/1.2",
+      "location": "Official product page",
+      "scope": "Selection reference only; no supplied-SKU specification, certification, compatibility or availability inferred."
+    }
   },
   "publication": {
     "status": "release-candidate",
@@ -81,11 +89,6 @@
     {
       "label": "configuration",
       "field": "configuration",
-      "localized": true
-    },
-    {
-      "label": "factoryModel",
-      "field": "factoryReference",
       "localized": true
     },
     {
@@ -186,10 +189,10 @@
       "inquiryTitle": "Request product details and a quotation",
       "inquiryBody": "Send your selected configuration, quantity and destination.",
       "title": "Suspended Ultrafine Dry Powder Fire Extinguishers",
-      "lead": "Suspended automatic extinguishers using ultrafine dry powder. The pictured heat-activated unit has an 8 kg agent charge; additional documented charge options require their own model and appearance confirmation.",
+      "lead": "Suspended automatic extinguishers using ultrafine dry powder. The pictured heat-activated unit has an 8 kg agent charge. Choose a charge option below and request the matching model details.",
       "eyebrow": "Automatic Fire Suppression",
       "seoTitle": "Suspended Ultrafine Dry Powder Fire Extinguishers | CHUANWEI FIRE",
-      "seoDescription": "Suspended automatic extinguishers using ultrafine dry powder. The pictured heat-activated unit has an 8 kg agent charge; additional documented charge options require their own model and appearance confirmation.",
+      "seoDescription": "Suspended automatic extinguishers using ultrafine dry powder. The pictured heat-activated unit has an 8 kg agent charge. Choose a charge option below and request the matching model details.",
       "note": "Choose the agent charge and confirm the exact factory model, brand and matching product photo before ordering.",
       "image0Alt": "Pictured 8 kg unit, factory reference FZX-ACT8/1.2; other charges require their own matching photos.",
       "image0Caption": "Pictured 8 kg unit, factory reference FZX-ACT8/1.2; other charges require their own matching photos.",
@@ -201,33 +204,44 @@
       "spec2Value": "Heat-activated discharge head",
       "spec3Label": "Pictured agent charge",
       "spec3Value": "8 kg",
-      "spec4Label": "Documented charge options",
+      "spec4Label": "Charge options",
       "spec4Value": "3 / 4 / 5 / 6 / 8 / 10 / 12 kg",
       "model0Name": "3 kg ultrafine dry powder",
       "model0Reference": "Available on request",
-      "model0Selection": "Listed charge option; exact model, brand and matching photo required.",
+      "model0Selection": "Request the model-specific data sheet and product photograph for this charge.",
       "model1Name": "4 kg ultrafine dry powder",
       "model1Reference": "Available on request",
-      "model1Selection": "Listed charge option; exact model, brand and matching photo required.",
+      "model1Selection": "Request the model-specific data sheet and product photograph for this charge.",
       "model2Name": "5 kg ultrafine dry powder",
       "model2Reference": "Available on request",
-      "model2Selection": "Listed charge option; exact model, brand and matching photo required.",
+      "model2Selection": "Request the model-specific data sheet and product photograph for this charge.",
       "model3Name": "6 kg ultrafine dry powder",
       "model3Reference": "Available on request",
-      "model3Selection": "Listed charge option; exact model, brand and matching photo required.",
+      "model3Selection": "Request the model-specific data sheet and product photograph for this charge.",
       "model4Name": "8 kg ultrafine dry powder",
       "model4Reference": "FZX-ACT8/1.2",
-      "model4Selection": "Pictured model; charge and factory reference documented.",
+      "model4Selection": "Pictured 8 kg model: FZX-ACT8/1.2.",
       "model5Name": "10 kg ultrafine dry powder",
       "model5Reference": "Available on request",
-      "model5Selection": "Listed charge option; exact model, brand and matching photo required.",
+      "model5Selection": "Request the model-specific data sheet and product photograph for this charge.",
       "model6Name": "12 kg ultrafine dry powder",
       "model6Reference": "Available on request",
-      "model6Selection": "Listed charge option; exact model, brand and matching photo required.",
+      "model6Selection": "Request the model-specific data sheet and product photograph for this charge.",
       "selection0Label": "Charge and exact model",
       "selection0Body": "Choose the agent charge and confirm the exact factory model, brand and matching product photo before ordering.",
       "selection1Label": "Installation design",
-      "selection1Body": "Provide enclosure dimensions, protected hazard, ambient temperature and mounting layout for exact-model documentation review."
+      "selection1Body": "Provide enclosure dimensions, protected hazard, ambient temperature and mounting layout for exact-model documentation review.",
+      "referenceHeading": "Selection reference",
+      "referenceScope": "The manufacturer example below helps you specify an enquiry. Its values describe the named reference model, not the CHUANWEI product pictured above. Request the offered model’s datasheet for your order.",
+      "referenceSource": "Manufacturer reference",
+      "reference0Title": "Qinghua FZX-ACT3/1.2",
+      "reference0Note": "Protection volume and local coverage require the exact device layout and hazard design; charge alone does not determine coverage.",
+      "reference0Row0Label": "Agent charge",
+      "reference0Row0Value": "3 kg",
+      "reference0Row1Label": "Working pressure",
+      "reference0Row1Value": "1.2 MPa",
+      "reference0Row2Label": "Thermal activation",
+      "reference0Row2Value": "68°C"
     },
     "ar": {
       "onThisPage": "في هذه الصفحة",
@@ -260,10 +274,10 @@
       "inquiryTitle": "اطلب تفاصيل المنتج وعرض سعر",
       "inquiryBody": "أرسل التكوين المختار والكمية والوجهة.",
       "title": "طفايات حريق معلقة بالمسحوق الجاف فائق النعومة",
-      "lead": "طفايات آلية معلقة تستخدم مسحوقاً جافاً فائق النعومة. الوحدة المصورة ذات التفعيل الحراري تحتوي على 8 kg من مادة الإطفاء؛ أما السعات الإضافية الموثقة فتتطلب تأكيد الطراز والشكل الخاصين بها.",
+      "lead": "طفايات آلية معلقة تستخدم مسحوقاً جافاً فائق النعومة. الوحدة المصورة ذات التفعيل الحراري تحتوي على 8 kg من مادة الإطفاء. اختر السعة أدناه واطلب بيانات الموديل المطابق.",
       "eyebrow": "أجهزة الإطفاء التلقائي",
       "seoTitle": "طفايات حريق معلقة بالمسحوق الجاف فائق النعومة | CHUANWEI FIRE",
-      "seoDescription": "طفايات آلية معلقة تستخدم مسحوقاً جافاً فائق النعومة. الوحدة المصورة ذات التفعيل الحراري تحتوي على 8 kg من مادة الإطفاء؛ أما السعات الإضافية الموثقة فتتطلب تأكيد الطراز والشكل الخاصين بها.",
+      "seoDescription": "طفايات آلية معلقة تستخدم مسحوقاً جافاً فائق النعومة. الوحدة المصورة ذات التفعيل الحراري تحتوي على 8 kg من مادة الإطفاء. اختر السعة أدناه واطلب بيانات الموديل المطابق.",
       "note": "اختر سعة مادة الإطفاء وأكد الطراز المصنعي والعلامة والصورة المطابقة قبل الطلب.",
       "image0Alt": "الوحدة المصورة بسعة 8 kg، المرجع المصنعي FZX-ACT8/1.2؛ تتطلب السعات الأخرى صوراً مطابقة خاصة بها.",
       "image0Caption": "الوحدة المصورة بسعة 8 kg، المرجع المصنعي FZX-ACT8/1.2؛ تتطلب السعات الأخرى صوراً مطابقة خاصة بها.",
@@ -275,33 +289,68 @@
       "spec2Value": "رأس تفريغ يعمل بالحرارة",
       "spec3Label": "كتلة مادة الإطفاء في الصورة",
       "spec3Value": "8 kg",
-      "spec4Label": "خيارات السعة الموثقة",
+      "spec4Label": "خيارات سعة مادة الإطفاء",
       "spec4Value": "3 / 4 / 5 / 6 / 8 / 10 / 12 kg",
       "model0Name": "مسحوق جاف فائق النعومة بسعة 3 kg",
       "model0Reference": "حسب طلب الاستفسار",
-      "model0Selection": "خيار سعة مدرج؛ يلزم تحديد الطراز والعلامة والصورة المطابقة.",
+      "model0Selection": "اطلب ورقة بيانات الموديل وصورة المنتج المطابق لهذه السعة.",
       "model1Name": "مسحوق جاف فائق النعومة بسعة 4 kg",
       "model1Reference": "حسب طلب الاستفسار",
-      "model1Selection": "خيار سعة مدرج؛ يلزم تحديد الطراز والعلامة والصورة المطابقة.",
+      "model1Selection": "اطلب ورقة بيانات الموديل وصورة المنتج المطابق لهذه السعة.",
       "model2Name": "مسحوق جاف فائق النعومة بسعة 5 kg",
       "model2Reference": "حسب طلب الاستفسار",
-      "model2Selection": "خيار سعة مدرج؛ يلزم تحديد الطراز والعلامة والصورة المطابقة.",
+      "model2Selection": "اطلب ورقة بيانات الموديل وصورة المنتج المطابق لهذه السعة.",
       "model3Name": "مسحوق جاف فائق النعومة بسعة 6 kg",
       "model3Reference": "حسب طلب الاستفسار",
-      "model3Selection": "خيار سعة مدرج؛ يلزم تحديد الطراز والعلامة والصورة المطابقة.",
+      "model3Selection": "اطلب ورقة بيانات الموديل وصورة المنتج المطابق لهذه السعة.",
       "model4Name": "مسحوق جاف فائق النعومة بسعة 8 kg",
       "model4Reference": "FZX-ACT8/1.2",
-      "model4Selection": "الطراز المصور؛ السعة والمرجع المصنعي موثقان.",
+      "model4Selection": "الموديل المصور بسعة 8 kg: FZX-ACT8/1.2.",
       "model5Name": "مسحوق جاف فائق النعومة بسعة 10 kg",
       "model5Reference": "حسب طلب الاستفسار",
-      "model5Selection": "خيار سعة مدرج؛ يلزم تحديد الطراز والعلامة والصورة المطابقة.",
+      "model5Selection": "اطلب ورقة بيانات الموديل وصورة المنتج المطابق لهذه السعة.",
       "model6Name": "مسحوق جاف فائق النعومة بسعة 12 kg",
       "model6Reference": "حسب طلب الاستفسار",
-      "model6Selection": "خيار سعة مدرج؛ يلزم تحديد الطراز والعلامة والصورة المطابقة.",
+      "model6Selection": "اطلب ورقة بيانات الموديل وصورة المنتج المطابق لهذه السعة.",
       "selection0Label": "السعة والطراز المحدد",
       "selection0Body": "اختر سعة مادة الإطفاء وأكد الطراز المصنعي والعلامة والصورة المطابقة قبل الطلب.",
       "selection1Label": "تصميم التركيب",
-      "selection1Body": "قدم أبعاد الحيز وطبيعة الخطر ودرجة الحرارة المحيطة ومخطط التركيب لمراجعة وثائق الطراز المحدد."
+      "selection1Body": "قدم أبعاد الحيز وطبيعة الخطر ودرجة الحرارة المحيطة ومخطط التركيب لمراجعة وثائق الطراز المحدد.",
+      "referenceHeading": "مرجع الاختيار",
+      "referenceScope": "يساعد المثال التالي من الشركة المصنّعة المذكورة في تحديد متطلبات الاستفسار. القيم تخص الطراز المرجعي المذكور، ولا تمثل مواصفات منتج CHUANWEI المصوّر أعلاه. اطلب ورقة بيانات الطراز المعروض لطلبك.",
+      "referenceSource": "مرجع الشركة المصنّعة",
+      "reference0Title": "Qinghua FZX-ACT3/1.2",
+      "reference0Note": "يتطلب حجم الحماية والتغطية الموضعية تخطيط الجهاز وتصميم المخاطر بدقة؛ لا تحدد كتلة الشحنة وحدها نطاق التغطية.",
+      "reference0Row0Label": "كتلة مادة الإطفاء",
+      "reference0Row0Value": "3 kg",
+      "reference0Row1Label": "ضغط التشغيل",
+      "reference0Row1Value": "1.2 MPa",
+      "reference0Row2Label": "التنشيط الحراري",
+      "reference0Row2Value": "68°C"
     }
-  }
+  },
+  "referenceExamples": [
+    {
+      "title": "reference0Title",
+      "rows": [
+        {
+          "label": "reference0Row0Label",
+          "value": "reference0Row0Value",
+          "technical": true
+        },
+        {
+          "label": "reference0Row1Label",
+          "value": "reference0Row1Value",
+          "technical": true
+        },
+        {
+          "label": "reference0Row2Label",
+          "value": "reference0Row2Value",
+          "technical": true
+        }
+      ],
+      "note": "reference0Note",
+      "url": "https://www.qhxf.com/product-detail/BXZvgADW"
+    }
+  ]
 }

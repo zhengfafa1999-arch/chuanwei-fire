@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "source": "products/消防喷头/water-mist-nozzles/water-mist-nozzle-with-inlet-strainer.jpg",
+  "pages": [
+    {
+      "page": "products.html",
+      "image": "assets/catalog-thumbnails/ec0bcd9a7310441e3b79a308-480.webp"
+    },
+    {
+      "page": "products/消防喷头.html",
+      "image": "../assets/catalog-thumbnails/ec0bcd9a7310441e3b79a308-480.webp"
+    },
+    {
+      "page": "ar/products.html",
+      "image": "../assets/catalog-thumbnails/ec0bcd9a7310441e3b79a308-480.webp"
+    },
+    {
+      "page": "ar/products/sprinklers/index.html",
+      "image": "../../../assets/catalog-thumbnails/ec0bcd9a7310441e3b79a308-480.webp"
+    }
+  ]
+}

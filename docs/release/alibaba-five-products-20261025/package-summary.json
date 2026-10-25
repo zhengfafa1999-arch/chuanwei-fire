@@ -1,0 +1,23 @@
+{
+  "releaseDate": "2026-10-25",
+  "generatedAt": "2026-10-25T09:37:30.334Z",
+  "generatedAtChina": "2026-10-25 17:37:30 Asia/Shanghai",
+  "status": "local-package-user-deploys-not-deployed",
+  "baseline": "18002712ff71c32d43fc1f80df1b1a2c7a88283e",
+  "sprinklerSeries": 17,
+  "inquiryOnlySeries": 0,
+  "allRegisteredPages": 291,
+  "files": 428,
+  "bytes": 24783485,
+  "added": 159,
+  "changed": 269,
+  "unchangedRequired": 0,
+  "unchangedBaselineDependencies": 666,
+  "localReferencesChecked": 84911,
+  "relatedImageReferencesChecked": 132,
+  "relatedImageDependencies": 29,
+  "archive": "alibaba-five-products-20261025-public-delta.zip",
+  "archiveBytes": 10710050,
+  "archiveSha256": "0c7d92847f5337c5c31e2fe74664b31cf26317b56d44cc56975fe40df949ebcc",
+  "deletes": []
+}

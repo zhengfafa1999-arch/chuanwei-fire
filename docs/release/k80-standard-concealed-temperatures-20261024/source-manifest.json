@@ -1,0 +1,96 @@
+{
+  "date": "2026-10-24",
+  "routeId": "product:k80-standard-response-concealed-sprinkler",
+  "galleryOrder": [
+    "DSC_5934.jpg",
+    "DSC_5933.jpg",
+    "DSC_5925.jpg",
+    "DSC_5923.jpg",
+    "concealed-k80-93c-covered.jpg",
+    "concealed-k80-93c-exposed.jpg",
+    "concealed-k80-141c-covered.jpg",
+    "concealed-k80-141c-exposed.jpg"
+  ],
+  "sources": [
+    {
+      "sourceFile": "DSC_5934.jpg",
+      "inventoriedFile": "DSC_5934.jpg",
+      "originalBackup": "docs/release/k80-standard-concealed-temperatures-20261024/source/DSC_5934.jpg",
+      "attachmentPath": "C:\\Users\\ZHENGF~1\\AppData\\Local\\Temp\\codex-clipboard-edc8b218-e8bd-4297-8aa1-82a14f78c482.jpg",
+      "sha256": "3331794061df8b49f6d8769e7c39a0359bc00f37738d7361d3200b94a5e4a298",
+      "temperatureC": 57,
+      "role": "covered",
+      "reusedExistingRecord": false
+    },
+    {
+      "sourceFile": "DSC_5933.jpg",
+      "inventoriedFile": "DSC_5933.jpg",
+      "originalBackup": "docs/release/k80-standard-concealed-temperatures-20261024/source/DSC_5933.jpg",
+      "attachmentPath": "C:\\Users\\ZHENGF~1\\AppData\\Local\\Temp\\codex-clipboard-55110adf-e116-47b7-83e2-e9f7efb7479b.jpg",
+      "sha256": "947083efb2251be930e171c36e4423e06c9d2b47f4b27d186199f48e861e15da",
+      "temperatureC": 57,
+      "role": "exposed",
+      "reusedExistingRecord": false
+    },
+    {
+      "sourceFile": "DSC_5925.jpg",
+      "inventoriedFile": "DSC_5925.jpg",
+      "originalBackup": "docs/release/k80-standard-concealed-temperatures-20261024/source/DSC_5925.jpg",
+      "attachmentPath": "C:\\Users\\ZHENGF~1\\AppData\\Local\\Temp\\codex-clipboard-093c6d58-3278-4b73-92ef-f223dca5784d.jpg",
+      "sha256": "b5a556608cab26597a79484e965d29ad5581683ad3cb50c246b68f5c654b3849",
+      "temperatureC": 79,
+      "role": "covered",
+      "reusedExistingRecord": false
+    },
+    {
+      "sourceFile": "DSC_5923.jpg",
+      "inventoriedFile": "DSC_5923.jpg",
+      "originalBackup": "docs/release/k80-standard-concealed-temperatures-20261024/source/DSC_5923.jpg",
+      "attachmentPath": "C:\\Users\\ZHENGF~1\\AppData\\Local\\Temp\\codex-clipboard-79a6f4e1-6cf5-491e-ae2c-98cb93a3347d.jpg",
+      "sha256": "bd189d7eefc099e83fadf24607aaa213195230725e333b7afcb928255b58877c",
+      "temperatureC": 79,
+      "role": "exposed",
+      "reusedExistingRecord": false
+    },
+    {
+      "sourceFile": "concealed-k80-93c-covered.jpg",
+      "inventoriedFile": "DSC_5919.jpg",
+      "originalBackup": "docs/release/k80-standard-concealed-temperatures-20261024/source/DSC_5919.jpg",
+      "attachmentPath": "C:\\Users\\ZHENGF~1\\AppData\\Local\\Temp\\codex-clipboard-b33c8468-38d8-4d2e-86de-f081d416d70c.jpg",
+      "sha256": "e2dd07e56e9f3e69e578a36d040be7777e6859c3d23c430e0a4d352b5a5d991d",
+      "temperatureC": 93,
+      "role": "covered",
+      "reusedExistingRecord": true
+    },
+    {
+      "sourceFile": "concealed-k80-93c-exposed.jpg",
+      "inventoriedFile": "DSC_5918.jpg",
+      "originalBackup": "docs/release/k80-standard-concealed-temperatures-20261024/source/DSC_5918.jpg",
+      "attachmentPath": "C:\\Users\\ZHENGF~1\\AppData\\Local\\Temp\\codex-clipboard-0e7508bc-5e61-4a7a-8543-510817622af5.jpg",
+      "sha256": "1b788825423026d9dc531b9bd75c13ef132984b217af5abb80ed0ce563d3fc06",
+      "temperatureC": 93,
+      "role": "exposed",
+      "reusedExistingRecord": true
+    },
+    {
+      "sourceFile": "concealed-k80-141c-covered.jpg",
+      "inventoriedFile": "DSC_5917.jpg",
+      "originalBackup": "docs/release/k80-standard-concealed-temperatures-20261024/source/DSC_5917.jpg",
+      "attachmentPath": "C:\\Users\\ZHENGF~1\\AppData\\Local\\Temp\\codex-clipboard-e68cd1cd-1a99-42a5-8df0-70846a61c385.jpg",
+      "sha256": "33c58774b26d585f4db8eeb6809bdffd94b61b729838234184bcd91b2ba8617b",
+      "temperatureC": 141,
+      "role": "covered",
+      "reusedExistingRecord": true
+    },
+    {
+      "sourceFile": "concealed-k80-141c-exposed.jpg",
+      "inventoriedFile": "DSC_5916.jpg",
+      "originalBackup": "docs/release/k80-standard-concealed-temperatures-20261024/source/DSC_5916.jpg",
+      "attachmentPath": "C:\\Users\\ZHENGF~1\\AppData\\Local\\Temp\\codex-clipboard-d7eb3bfa-c387-4684-aea8-58fb8fb3c40b.jpg",
+      "sha256": "09d0d9635259d127792f745a756e5429d76263c073502a231f8fc1a030b6b950",
+      "temperatureC": 141,
+      "role": "exposed",
+      "reusedExistingRecord": true
+    }
+  ]
+}

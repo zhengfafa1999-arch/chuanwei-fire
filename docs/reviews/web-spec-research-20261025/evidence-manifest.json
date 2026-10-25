@@ -1,0 +1,227 @@
+[
+  {
+    "file": "jiaxun-81.html.txt",
+    "bytes": 18394,
+    "sha256": "048f0bf5b6c1c81c59f5a8f623a4d71e414eeca785ebfc3c7e59b98bb5c142a1"
+  },
+  {
+    "file": "jiaxun-http.html.txt",
+    "bytes": 15816,
+    "sha256": "60ac00653a424bfd4ca4acd5cab90cca44e637ab6463690b7f527c7eb82ae0d3"
+  },
+  {
+    "file": "jiaxun-page-1.jpg",
+    "bytes": 234232,
+    "sha256": "7932a55a8a581a4f8e039d0761b96a0dbb5401f3e23b26bb675b242e81d07832"
+  },
+  {
+    "file": "jiaxun-page-10.jpg",
+    "bytes": 300114,
+    "sha256": "380c72bbe9016512eae39c3d0ec11677da97c61f5fd1e454acec406cf739cfe8"
+  },
+  {
+    "file": "jiaxun-page-11.jpg",
+    "bytes": 273176,
+    "sha256": "07521c31e0d29bb97f0ffafe17d11caced092eb866b73962cd06128643883dfa"
+  },
+  {
+    "file": "jiaxun-page-12.jpg",
+    "bytes": 351645,
+    "sha256": "23dd1e0851b31bb72a6de23150141e405bb47cd09692a3d5a8f7bfd40897ec7c"
+  },
+  {
+    "file": "jiaxun-page-2.jpg",
+    "bytes": 546012,
+    "sha256": "d8035fe9b4e72b8d6cbaf7cf8877006c36b905d5cf15cd48382ab4227d356edd"
+  },
+  {
+    "file": "jiaxun-page-3.jpg",
+    "bytes": 409985,
+    "sha256": "a59517fdc38c38f2c046e9ea6972d6c17466fdaf63379b3d82cd790196a31e0d"
+  },
+  {
+    "file": "jiaxun-page-4.jpg",
+    "bytes": 417624,
+    "sha256": "d505f40520c8eae4f6efb027d37085305950811f872755faba649bce32a718ae"
+  },
+  {
+    "file": "jiaxun-page-5.jpg",
+    "bytes": 302324,
+    "sha256": "1757cd12fa1615ce1052422610082ad03f32233f7fba03fb23c023cce486bc35"
+  },
+  {
+    "file": "jiaxun-page-6.jpg",
+    "bytes": 274458,
+    "sha256": "90b080bdebbfd5ce666f90d35b8d6d3b7cc8c0593b987a720d3dc501e8237de3"
+  },
+  {
+    "file": "jiaxun-page-7.jpg",
+    "bytes": 295385,
+    "sha256": "3f23391896376eb19a85be2fd21124555d95113ff273e825cc4936c6226ee7d2"
+  },
+  {
+    "file": "jiaxun-page-8.jpg",
+    "bytes": 285080,
+    "sha256": "0ddbf00b78d20fe4869d2aec9e4c2b960a10bf322f7b8e2dc0ea9f0b17b0b16d"
+  },
+  {
+    "file": "jiaxun-page-9.jpg",
+    "bytes": 283523,
+    "sha256": "29ab8285e2773e3f3250721f9c92195018ce651e7a73041151dd6fe069243b40"
+  },
+  {
+    "file": "official-search-TX3008NL.html.txt",
+    "bytes": 13915,
+    "sha256": "9af25348d4ffadd9c21687bfecf8789db2eb63ecba101d03fce492b07e27081e"
+  },
+  {
+    "file": "official-search-TX3100N.html.txt",
+    "bytes": 12894,
+    "sha256": "e2ee2c8987a8f660adb6fba5ed8ba30d61742db0b895b0b96eb3303ece72d2f8"
+  },
+  {
+    "file": "official-search-TX3110N.html.txt",
+    "bytes": 12878,
+    "sha256": "096a9f1e79f96bc67e30409278554c15badb740fa8c4d341111cf8c94a67b9d1"
+  },
+  {
+    "file": "tanda-detail.html.txt",
+    "bytes": 73683,
+    "sha256": "38c0644e9467ce7c58c756d64a8fcf87420444169cab73327b5eb83e09fdbb19"
+  },
+  {
+    "file": "tanda-detectors.html.txt",
+    "bytes": 18834,
+    "sha256": "7bb7afd68593286e7c4a6371d7f6c8ef097b8f89f895a646ccfb9a31b88a7436"
+  },
+  {
+    "file": "tanda-manuals.html.txt",
+    "bytes": 19582,
+    "sha256": "551e9bc589259d822418c8baa0f1cd95ea6c167d33d54b08b18fee739fcd1daa"
+  },
+  {
+    "file": "tanda-products.html.txt",
+    "bytes": 80731,
+    "sha256": "88475df4f92c3610595cc7053d90c5f592cc58e589d0aeea3356ee419ae9aa9d"
+  },
+  {
+    "file": "tanda-tech.html.txt",
+    "bytes": 16463,
+    "sha256": "ce36b45b89d80fcd275f24d5e1df1334cf5fc41027ea30da29521d0ce47f4f20"
+  },
+  {
+    "file": "tanda-TX3110N.json",
+    "bytes": 317,
+    "sha256": "d667d0047500f29f345bc89fe04e0abe575ae48e323993dad08a788301e791e1"
+  },
+  {
+    "file": "TX3008NL-official.html.txt",
+    "bytes": 1441,
+    "sha256": "349a18e81b1ce748a0eac34ec3c7884eefc6781c10e82b0fa235e3c83d914727"
+  },
+  {
+    "file": "TX3008NL.json",
+    "bytes": 317,
+    "sha256": "d667d0047500f29f345bc89fe04e0abe575ae48e323993dad08a788301e791e1"
+  },
+  {
+    "file": "TX3100D.json",
+    "bytes": 317,
+    "sha256": "d667d0047500f29f345bc89fe04e0abe575ae48e323993dad08a788301e791e1"
+  },
+  {
+    "file": "TX3100N-official.html.txt",
+    "bytes": 1441,
+    "sha256": "349a18e81b1ce748a0eac34ec3c7884eefc6781c10e82b0fa235e3c83d914727"
+  },
+  {
+    "file": "TX3100N.json",
+    "bytes": 317,
+    "sha256": "d667d0047500f29f345bc89fe04e0abe575ae48e323993dad08a788301e791e1"
+  },
+  {
+    "file": "TX3110N-official.html.txt",
+    "bytes": 1441,
+    "sha256": "349a18e81b1ce748a0eac34ec3c7884eefc6781c10e82b0fa235e3c83d914727"
+  },
+  {
+    "file": "TX3120A-detail.json",
+    "bytes": 2444,
+    "sha256": "65fea8aec2446addde60617fa2ad6a1253dbf0d63293ee98302a76f25ed995a4"
+  },
+  {
+    "file": "TX3120A-manual.pdf",
+    "bytes": 176336,
+    "sha256": "01c213da2c09b5292fac73b11015df601779b9e3baa4371adf5b90eb1631dd21"
+  },
+  {
+    "file": "TX3120A-manual.txt",
+    "bytes": 4633,
+    "sha256": "51dc4a5e277f83957e6a8d8d3ef40c50d2c1b703890d642f8abe882277184103"
+  },
+  {
+    "file": "TX3120A.json",
+    "bytes": 637,
+    "sha256": "4d75eafe909720d9fa9cd70c6b752b7bc8d13298ff6a5f82c82f843cfe57f771"
+  },
+  {
+    "file": "TX3142-detail.json",
+    "bytes": 2616,
+    "sha256": "2c3a9b39f879bdcf8e8c95bdfd064c7c65197b6a46e80ba3788c439d577d3673"
+  },
+  {
+    "file": "TX3142-manual.pdf",
+    "bytes": 254417,
+    "sha256": "0fb626a3fa8e8da0ebca6f48c8e8ee4b5fb380af7841ebc91d7bac9ac473c5de"
+  },
+  {
+    "file": "TX3142-manual.txt",
+    "bytes": 6686,
+    "sha256": "080243b142072177c9beda8fd5b126442e8b65f88e91e7dddef5ffeca73144f8"
+  },
+  {
+    "file": "TX3142.json",
+    "bytes": 695,
+    "sha256": "16a6f99e43ab1554d88f7cdecf9d761f24b1fd403e2045d67f202fe9c0da0136"
+  },
+  {
+    "file": "TX3212-detail.json",
+    "bytes": 1521,
+    "sha256": "dc00563c348bc0b3cbd47873b4ee70d2ec5749d992c5e6e03a37e2487ea9b3f3"
+  },
+  {
+    "file": "TX3212-manual.pdf",
+    "bytes": 1073833,
+    "sha256": "075f7425ea65d3643d439a841be10f7173c8cce0d664c8456edd0fd0f5b3dc72"
+  },
+  {
+    "file": "TX3212-manual.txt",
+    "bytes": 6838,
+    "sha256": "8270cfff19acae00e4b3bea692b9a28a88a968bb13c7e59ab2f649d3fa95f7f7"
+  },
+  {
+    "file": "TX3212.json",
+    "bytes": 1062,
+    "sha256": "d1a4ecc2a0c7ec6b4f62817220b4504c883e5569889fd140d5c4250fc7281867"
+  },
+  {
+    "file": "TX3307A-detail.json",
+    "bytes": 3390,
+    "sha256": "1ca71d52ecaec2ddfe5759df488de573766ed01a959978a1db6e1e9e162889ce"
+  },
+  {
+    "file": "TX3307A-manual.pdf",
+    "bytes": 204511,
+    "sha256": "d05d5295d18c558e539e7aa1e40c14322bb39c3fcb08ac7fc696fc7fac2dbb2c"
+  },
+  {
+    "file": "TX3307A-manual.txt",
+    "bytes": 3983,
+    "sha256": "cafd53b00104a944f7c524b881c54e27eb3fcf856519dd12ebf4bf3f40d0a8b7"
+  },
+  {
+    "file": "TX3307A.json",
+    "bytes": 685,
+    "sha256": "af7c7d39bcde7f5e629abf6e1ad33e09f79d565de8461c6a8b66e60d1eac39c1"
+  }
+]

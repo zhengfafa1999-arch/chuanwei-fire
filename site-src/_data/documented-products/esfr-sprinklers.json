@@ -1,0 +1,380 @@
+{
+  "template": "product-series/documented-product.njk",
+  "styles": [
+    "css/common.css",
+    "css/sprinkler-product.css",
+    "css/sprinkler-product-gallery.css",
+    "css/documented-product.css",
+    "css/site-navigation.css"
+  ],
+  "packaging": false,
+  "downloads": [],
+  "id": "esfr-sprinklers",
+  "routeId": "product:esfr-sprinklers",
+  "source": {
+    "status": "scoped-existing-content-not-reaudited",
+    "splitDate": "2026-10-25",
+    "sourceProduct": "site-src/_data/preserved-products/large-k-factor-esfr-sprinklers.json",
+    "sourceModelRows": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "scope": "User requested independent Large K-Factor and ESFR details. Existing exact-model technical values retained; photographs reused without alteration."
+  },
+  "publication": {
+    "status": "release-candidate",
+    "externalRelease": true,
+    "imageRights": "user-confirmed-website-use",
+    "imageRightsEvidence": "docs/release/large-k-esfr-independent-20261025/image-rights-confirmation.json"
+  },
+  "media": {
+    "hero": "products/消防喷头/large-k-esfr-sprinkler/esfr-pendent-series.jpg",
+    "image1": "products/消防喷头/large-k-esfr-sprinkler/esfr-upright-series.jpg",
+    "image2": "assets/products/guanya-2026/large-k-factor-esfr-sprinklers-esfr-glass-bulb-slotted-1600.webp",
+    "image3": "assets/products/guanya-2026/large-k-factor-esfr-sprinklers-esfr-glass-bulb-domed-1600.webp"
+  },
+  "imageDimensions": {
+    "hero": {
+      "width": 883,
+      "height": 1600
+    },
+    "image1": {
+      "width": 1138,
+      "height": 1600
+    },
+    "image2": {
+      "width": 1057,
+      "height": 1600
+    },
+    "image3": {
+      "width": 1366,
+      "height": 1600
+    }
+  },
+  "gallery": [
+    {
+      "media": "hero",
+      "alt": "heroAlt",
+      "caption": "heroCaption",
+      "thumbnailAlt": "heroAlt"
+    },
+    {
+      "media": "image1",
+      "alt": "image1Alt",
+      "caption": "image1Caption",
+      "thumbnailAlt": "image1Alt"
+    },
+    {
+      "media": "image2",
+      "alt": "image2Alt",
+      "caption": "image2Caption",
+      "thumbnailAlt": "image2Alt"
+    },
+    {
+      "media": "image3",
+      "alt": "image3Alt",
+      "caption": "image3Caption",
+      "thumbnailAlt": "image3Alt"
+    }
+  ],
+  "shared": {
+    "availableKValue": "K202 / K242 / K363",
+    "temperatureFact": "74°C · Fusible alloy"
+  },
+  "copy": {
+    "en": {
+      "onThisPage": "On this page",
+      "gallery": "Product images",
+      "specifications": "Specifications",
+      "specificationsTitle": "Technical specifications",
+      "temperature": "Temperature",
+      "thermalElement": "Thermal element",
+      "availableModels": "Available configurations",
+      "factoryModel": "Factory model",
+      "quotation": "Quotation details",
+      "quotationTitle": "Tell us your project requirements",
+      "connection": "Connection",
+      "connectionBody": "Provide the required connection size and thread designation.",
+      "workingPressure": "Working pressure",
+      "workingPressureBody": "Specify the working pressure required for your project.",
+      "orderQuantity": "Order quantity",
+      "orderQuantityBody": "State the quantity required for each factory model.",
+      "askOnWhatsApp": "Ask on WhatsApp",
+      "emailSales": "Email sales",
+      "productImagePreview": "Product image preview",
+      "closeImagePreview": "Close image preview",
+      "previousProductImage": "Previous product image",
+      "nextProductImage": "Next product image",
+      "selectProductImage": "Select product image",
+      "standardPacking": "Standard packing",
+      "frameMaterial": "Frame material",
+      "fusibleAlloy74C": "Fusible alloy · 74°C",
+      "fusibleAlloyLink": "Fusible alloy link",
+      "eSFRPendent": "ESFR Pendent",
+      "operatingElement": "Operating element",
+      "uprightOrPendent": "Upright or pendent",
+      "maxWorkingPressure": "Max. working pressure",
+      "eSFRUpright": "ESFR Upright",
+      "value100PcsPerExportCarton": "Packing requirements confirmed with the order",
+      "k140USK202MetricK168US": "K14.0 US / K202 metric; K16.8 US / K242 metric; K25.2 US / K363 metric",
+      "availableKFactors": "Available K-factors",
+      "k202AndK242DN20InNPTK363DN25": "K202 and K242: DN20 / ¾ in NPT; K363: DN25 / 1 in NPT",
+      "value74C165F": "74°C / 165°F",
+      "installation": "Installation",
+      "connections": "Connections",
+      "surfaceFinish": "Surface finish",
+      "naturalCopperWithoutPlating": "Natural copper, without plating",
+      "copper": "Copper",
+      "value12MPa12BarApprox175Psi": "1.2 MPa / 12 bar / approx. 175 psi",
+      "title": "ESFR Sprinklers",
+      "eyebrow": "Early suppression fast response",
+      "lead": "ESFR sprinklers for storage fire-protection projects. The model table covers K202, K242 and K363 metric fusible-alloy configurations at 74°C.",
+      "note": "Select the exact ESFR model using the project storage and hydraulic requirements.",
+      "galleryTitle": "ESFR sprinkler photographs",
+      "galleryBody": "Series views and glass-bulb sample details. The glass-bulb photographs do not identify the 74°C fusible-alloy models in the table.",
+      "specificationsBody": "These specifications apply to the 74°C fusible-alloy models in the table. The separate 68°C option has its own configuration details below.",
+      "modelsTitle": "ESFR fusible-alloy factory models",
+      "modelsBody": "Upright and pendent configurations at 74°C, with the connection specified for each K-factor.",
+      "modelsNote": "Confirm storage commodity, storage height, ceiling height, spacing, minimum operating pressure and hydraulic data for the exact selected model.",
+      "quotationBody": "Send the ESFR model, storage commodity, storage and ceiling heights, hydraulic requirements and quantity.",
+      "inquiryBody": "Include the exact ESFR factory model and storage project requirements.",
+      "enlargedImage": "Enlarged ESFR sprinkler",
+      "kFactor": "K-factor (US / metric)",
+      "configuration": "Configuration",
+      "seoTitle": "ESFR Sprinklers | CHUANWEI FIRE",
+      "seoDescription": "ESFR sprinklers for storage fire-protection projects. The model table covers K202, K242 and K363 metric fusible-alloy configurations at 74°C.",
+      "inquiryTitle": "Request a quotation: ESFR Sprinklers",
+      "heroAlt": "ESFR Pendent Series",
+      "heroCaption": "ESFR Pendent Series",
+      "image1Alt": "ESFR Upright Series",
+      "image1Caption": "ESFR Upright Series",
+      "image2Alt": "ESFR glass-bulb sprinkler — slotted deflector",
+      "image2Caption": "ESFR glass-bulb sprinkler — slotted deflector",
+      "image3Alt": "ESFR glass-bulb sprinkler — domed deflector",
+      "image3Caption": "ESFR glass-bulb sprinkler — domed deflector"
+    },
+    "ar": {
+      "onThisPage": "في هذه الصفحة",
+      "gallery": "صور المنتج",
+      "specifications": "المواصفات",
+      "specificationsTitle": "المواصفات الفنية",
+      "temperature": "درجة الحرارة",
+      "thermalElement": "العنصر الحراري",
+      "availableModels": "التكوينات المتاحة",
+      "factoryModel": "موديل المصنع",
+      "quotation": "تفاصيل عرض السعر",
+      "quotationTitle": "أرسل متطلبات مشروعك",
+      "connection": "التوصيل",
+      "connectionBody": "حدد مقاس التوصيل ونوع السن اللولبي المطلوبين.",
+      "workingPressure": "ضغط التشغيل",
+      "workingPressureBody": "حدد ضغط التشغيل المطلوب لمشروعك.",
+      "orderQuantity": "كمية الطلب",
+      "orderQuantityBody": "حدد الكمية المطلوبة لكل موديل مصنع.",
+      "askOnWhatsApp": "استفسر عبر WhatsApp",
+      "emailSales": "راسل قسم المبيعات",
+      "productImagePreview": "معاينة صورة المنتج",
+      "closeImagePreview": "إغلاق معاينة الصورة",
+      "previousProductImage": "صورة المنتج السابقة",
+      "nextProductImage": "صورة المنتج التالية",
+      "selectProductImage": "اختر صورة المنتج",
+      "standardPacking": "التغليف القياسي",
+      "frameMaterial": "مادة الإطار",
+      "fusibleAlloy74C": "سبيكة قابلة للانصهار · 74°C",
+      "fusibleAlloyLink": "وصلة من سبيكة قابلة للانصهار",
+      "eSFRPendent": "ESFR متدلٍ",
+      "operatingElement": "عنصر التشغيل",
+      "uprightOrPendent": "قائم أو متدلٍ",
+      "maxWorkingPressure": "أقصى ضغط تشغيل",
+      "eSFRUpright": "ESFR قائم",
+      "value100PcsPerExportCarton": "تؤكد متطلبات التعبئة مع الطلب",
+      "k140USK202MetricK168US": "K14.0 أمريكي / K202 متري؛ K16.8 أمريكي / K242 متري؛ K25.2 أمريكي / K363 متري",
+      "availableKFactors": "معاملات K المتاحة",
+      "k202AndK242DN20InNPTK363DN25": "K202 وK242: DN20 / ¾ in NPT؛ K363: DN25 / 1 in NPT",
+      "value74C165F": "74°C / 165°F",
+      "installation": "التركيب",
+      "connections": "الوصلات",
+      "surfaceFinish": "تشطيب السطح",
+      "naturalCopperWithoutPlating": "نحاس طبيعي دون طلاء",
+      "copper": "نحاس",
+      "value12MPa12BarApprox175Psi": "1.2 MPa / 12 bar / نحو 175 psi",
+      "title": "رشاشات ESFR",
+      "eyebrow": "إخماد مبكر واستجابة سريعة",
+      "lead": "رشاشات ESFR لمشاريع الحماية من الحريق في المخازن. يغطي جدول الموديلات تكوينات K202 وK242 وK363 متري بعنصر من سبيكة قابلة للانصهار عند 74°C.",
+      "note": "اختر موديل ESFR الدقيق وفق متطلبات التخزين والحسابات الهيدروليكية للمشروع.",
+      "galleryTitle": "صور رشاشات ESFR",
+      "galleryBody": "صور للسلسلة وتفاصيل عينات ببصيلة زجاجية. لا تحدد صور البصيلة الزجاجية موديلات السبيكة القابلة للانصهار عند 74°C الواردة في الجدول.",
+      "specificationsBody": "تنطبق هذه المواصفات على موديلات السبيكة القابلة للانصهار عند 74°C في الجدول. لخيار 68°C المنفصل تفاصيل تكوين خاصة أدناه.",
+      "modelsTitle": "موديلات مصنع ESFR بعنصر قابل للانصهار",
+      "modelsBody": "تكوينات قائمة ومعلقة عند 74°C، مع تحديد التوصيل لكل معامل K.",
+      "modelsNote": "أكد نوع المواد المخزنة وارتفاع التخزين والسقف والتباعد والحد الأدنى لضغط التشغيل والبيانات الهيدروليكية للموديل المختار.",
+      "quotationBody": "أرسل موديل ESFR ونوع المواد المخزنة وارتفاع التخزين والسقف والمتطلبات الهيدروليكية والكمية.",
+      "inquiryBody": "أدرج موديل مصنع ESFR الدقيق ومتطلبات مشروع التخزين.",
+      "enlargedImage": "صورة مكبرة لرشاش ESFR",
+      "kFactor": "معامل K (أمريكي / متري)",
+      "configuration": "التكوين",
+      "seoTitle": "رشاشات ESFR | CHUANWEI FIRE",
+      "seoDescription": "رشاشات ESFR لمشاريع الحماية من الحريق في المخازن. يغطي جدول الموديلات تكوينات K202 وK242 وK363 متري بعنصر من سبيكة قابلة للانصهار عند 74°C.",
+      "inquiryTitle": "اطلب عرض سعر: رشاشات ESFR",
+      "temperatureFact": "74°C · سبيكة قابلة للانصهار",
+      "heroAlt": "مجموعة ESFR المتدلية",
+      "heroCaption": "مجموعة ESFR المتدلية",
+      "image1Alt": "مجموعة ESFR القائمة",
+      "image1Caption": "مجموعة ESFR القائمة",
+      "image2Alt": "رشاش ESFR بعنصر زجاجي — صفيحة توزيع مشقوقة",
+      "image2Caption": "رشاش ESFR بعنصر زجاجي — صفيحة توزيع مشقوقة",
+      "image3Alt": "رشاش ESFR بعنصر زجاجي — صفيحة توزيع مقببة",
+      "image3Caption": "رشاش ESFR بعنصر زجاجي — صفيحة توزيع مقببة"
+    }
+  },
+  "models": [
+    {
+      "configuration": "eSFRUpright",
+      "kFactor": "K14.0 / K202",
+      "connection": "DN20 / ¾ in NPT",
+      "thermalElement": "fusibleAlloy74C",
+      "factoryModel": "ESFR-202/74°C UY"
+    },
+    {
+      "configuration": "eSFRPendent",
+      "kFactor": "K14.0 / K202",
+      "connection": "DN20 / ¾ in NPT",
+      "thermalElement": "fusibleAlloy74C",
+      "factoryModel": "ESFR-202/74°C PY"
+    },
+    {
+      "configuration": "eSFRUpright",
+      "kFactor": "K16.8 / K242",
+      "connection": "DN20 / ¾ in NPT",
+      "thermalElement": "fusibleAlloy74C",
+      "factoryModel": "ESFR-242/74°C UY"
+    },
+    {
+      "configuration": "eSFRPendent",
+      "kFactor": "K16.8 / K242",
+      "connection": "DN20 / ¾ in NPT",
+      "thermalElement": "fusibleAlloy74C",
+      "factoryModel": "ESFR-242/74°C PY"
+    },
+    {
+      "configuration": "eSFRUpright",
+      "kFactor": "K25.2 / K363",
+      "connection": "DN25 / 1 in NPT",
+      "thermalElement": "fusibleAlloy74C",
+      "factoryModel": "ESFR-363/74°C UY"
+    },
+    {
+      "configuration": "eSFRPendent",
+      "kFactor": "K25.2 / K363",
+      "connection": "DN25 / 1 in NPT",
+      "thermalElement": "fusibleAlloy74C",
+      "factoryModel": "ESFR-363/74°C PY"
+    }
+  ],
+  "confirmationItems": [
+    {
+      "label": "connection",
+      "body": "connectionBody"
+    },
+    {
+      "label": "workingPressure",
+      "body": "workingPressureBody"
+    },
+    {
+      "label": "orderQuantity",
+      "body": "orderQuantityBody"
+    }
+  ],
+  "modelColumns": [
+    {
+      "label": "configuration",
+      "field": "configuration",
+      "localized": true
+    },
+    {
+      "label": "kFactor",
+      "field": "kFactor",
+      "technical": true
+    },
+    {
+      "label": "connection",
+      "field": "connection",
+      "technical": true
+    },
+    {
+      "label": "thermalElement",
+      "field": "thermalElement",
+      "localized": true
+    },
+    {
+      "label": "factoryModel",
+      "field": "factoryModel",
+      "technical": true
+    }
+  ],
+  "specifications": [
+    {
+      "label": "availableKFactors",
+      "value": "k140USK202MetricK168US"
+    },
+    {
+      "label": "operatingElement",
+      "value": "fusibleAlloyLink"
+    },
+    {
+      "label": "temperature",
+      "value": "value74C165F"
+    },
+    {
+      "label": "installation",
+      "value": "uprightOrPendent"
+    },
+    {
+      "label": "connections",
+      "value": "k202AndK242DN20InNPTK363DN25"
+    },
+    {
+      "label": "frameMaterial",
+      "value": "copper"
+    },
+    {
+      "label": "surfaceFinish",
+      "value": "naturalCopperWithoutPlating"
+    },
+    {
+      "label": "maxWorkingPressure",
+      "value": "value12MPa12BarApprox175Psi"
+    },
+    {
+      "label": "standardPacking",
+      "value": "value100PcsPerExportCarton"
+    }
+  ],
+  "heroFacts": [
+    "availableKValue",
+    "temperatureFact"
+  ],
+  "validation": {
+    "anchors": [
+      "gallery",
+      "specifications",
+      "models",
+      "quotation"
+    ],
+    "requiredTechnicalValues": [
+      "ESFR-202/74°C UY",
+      "ESFR-202/74°C PY",
+      "ESFR-242/74°C UY",
+      "ESFR-242/74°C PY",
+      "ESFR-363/74°C UY",
+      "ESFR-363/74°C PY"
+    ]
+  },
+  "inquiry": {
+    "whatsapp": "https://wa.me/8617326528368?text=Hello%2C%20I%20need%20a%20quotation%20for%20ESFR%20Sprinklers.%20Factory%20model%3A%20%5Bmodel%5D%2C%20quantity%3A%20%5Bpcs%5D.",
+    "email": "mailto:zhengcolin1@gmail.com?subject=ESFR%20Sprinklers%20Inquiry"
+  }
+}

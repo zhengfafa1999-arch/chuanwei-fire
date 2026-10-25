@@ -14,8 +14,15 @@ export function productPhotoAnchor(routeId, detailPath) {
 const displayCaption = (caption, lang) => lang === 'ar'
   ? caption.replace(/[A-Za-z0-9][A-Za-z0-9 .&/°-]*[A-Za-z0-9°]|[A-Za-z0-9]/g, run => `\u2066${run}\u2069`)
   : caption;
-export function productPhotos(routeId, lang, assetPrefix) {
-  const images = productPhotoManifest.photos.filter(p => p.routeId === routeId && !p.galleryOnly);
+export function productPhotos(routeId, lang, assetPrefix, sourceFiles = null) {
+  // An independent series may reuse previously reviewed source photographs
+  // without moving the legacy record or creating duplicate image assets.
+  const images = sourceFiles ? sourceFiles.map(sourceFile => {
+    const photo = productPhotoManifest.photos.find(p => p.sourceFile === sourceFile && !p.galleryOnly);
+    if (!photo) throw new Error(`${routeId}: missing requested photograph ${sourceFile}`);
+    return photo;
+  }) : productPhotoManifest.photos.filter(p => p.routeId === routeId && !p.galleryOnly);
+  if (sourceFiles && new Set(sourceFiles).size !== sourceFiles.length) throw new Error(`${routeId}: duplicate photograph references`);
   if (!images.length) return null;
   return {
     viewAliases: JSON.stringify(photoViewAliases(routeId)),

@@ -1,0 +1,28 @@
+{
+  "status": "PASS",
+  "routeId": "product:k80-quick-response-concealed-sprinkler",
+  "temperaturesC": [
+    57,
+    68,
+    93,
+    141
+  ],
+  "response": "quick / Q3A",
+  "galleryCount": 8,
+  "newDerivativeAssets": 16,
+  "preservedPriorProductAssets": 242,
+  "mainGalleryCount": 3,
+  "technicalProductDataUnchanged": true,
+  "allPrior80PhotographRecordsUnchanged": true,
+  "referenceOrder": [
+    "DSC_5954.jpg",
+    "DSC_5953.jpg",
+    "DSC_5950.jpg",
+    "DSC_5949.jpg",
+    "DSC_5942.jpg",
+    "DSC_5941.jpg",
+    "DSC_5938.jpg",
+    "DSC_5937.jpg"
+  ],
+  "noOtherSeriesPhotographsInLowerGallery": true
+}

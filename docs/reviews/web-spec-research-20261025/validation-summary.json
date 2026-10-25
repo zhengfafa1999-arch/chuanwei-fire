@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "productsUpdated": 11,
+  "localizedPagesUpdated": 22,
+  "addedSpecificationRows": 37,
+  "fullBuildPages": 291,
+  "browserPageViewports": 44,
+  "archive": "web-spec-enriched-20261025-public-full.zip",
+  "archiveSha256": "216e1d4ab5fb9df9e4b8afcd0d1b91bf138552c0157e2f07062744ba253ff5b0",
+  "deployed": false,
+  "sourceHashes": {
+    "combined-smoke-heat-detectors": "50833dff7d56c6d70296f5a72e3449af38a5859af35d29a071e02d33c5af1906",
+    "fire-alarm-input-output-modules": "e03f2e00720794d506894b039d9e681224f05e059d55d7eb8f98cd2cb484368f",
+    "fire-alarm-sounder-beacons": "bb5562ad708516971b18d70461dcd7f765624d507540ce8ecca9b9d9fc2811fe",
+    "manual-fire-alarm-call-points": "0176d13c9d15f14cd0475a1d93a9c81345d4cb5b98ae3efc532255402c6d4b2a",
+    "grooved-flange-adapters": "31038147862df5617066328e78974549368e0cce74917f8a2e9a373b5d2f8676",
+    "liquid-filled-pressure-gauges": "3a7ca93b93f95cc9132ed7b8f24a210470a341c5cdf47ea58bd8ee37c9ab8773",
+    "pressure-gauge-syphons": "f13e66766294bbf48599473fd62a961552b0931aef14f6ea701c6486d50369c1",
+    "fire-pressure-maintenance-sets": "276c7ff1494ddaf45cb59e72e72289ac5e1ae04275f021983d84f1e9f3e6ecb0",
+    "horizontal-single-stage-fire-pumps": "3c65267e17fb9635f9e92120612c7687661e1d1d2dcfd6d7dadea1577bca595f",
+    "vertical-single-stage-fire-pumps": "8594652fff2db7eb5d848dfd6ec08ef0f520afdde3a9ea3da94b89eab2371aa2",
+    "vertical-multistage-fire-pumps": "07cba7597bcdd2fa83e41198b011698da1f6908b3770c60bda0480b3c2761d3b"
+  }
+}

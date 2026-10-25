@@ -1,0 +1,250 @@
+{
+  "status": "confirmed",
+  "confirmedDate": "2026-10-24",
+  "scope": "CHUANWEI FIRE official website public display",
+  "authority": "User supplied the exact six real product photographs and requested their addition to the K115 standard-response lower detail gallery; records requested website use, not independent licensing verification.",
+  "userRequest": "这个加到115标注的详情页",
+  "factsScope": "K115 standard-response horizontal sidewall and upright samples; temperatures transcribed from visible physical factory model markings. Gallery only: main gallery and technical specifications retained.",
+  "images": [
+    {
+      "productId": "k115-standard-response-fire-sprinkler",
+      "routeId": "product:k115-standard-response-fire-sprinkler",
+      "path": "assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5895-640.webp",
+      "width": 462,
+      "height": 640,
+      "bytes": 23358,
+      "sha256": "0c43c050d0945deb73691cd1f15e586d655317a0e41d356874bf01f954d287ec",
+      "quality": 85,
+      "unwatermarkedSha256": "af83567f85362560291d4f73cc716a680d7891bd0208f2693e0e3793547f3cd4",
+      "watermarkRecord": "site-src/_data/product-watermarks.json",
+      "sourceFile": "DSC_5895.jpg",
+      "sourceSha256": "88d6a2c9dbfc1a7c8192bd030d8f153e061ec19610c0a93fc62dafa7cfd70c7b",
+      "originalBackup": "docs/release/k115-standard-photos-20261024/source/DSC_5895.jpg",
+      "caption": {
+        "en": "Horizontal sidewall K115 standard-response sprinkler — 182°C",
+        "ar": "رشاش K115 ذو استجابة قياسية جانبي أفقي — 182°C"
+      },
+      "publishedTransform": "CHUANWEI FIRE text watermark in clear whitespace"
+    },
+    {
+      "productId": "k115-standard-response-fire-sprinkler",
+      "routeId": "product:k115-standard-response-fire-sprinkler",
+      "path": "assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5895-1600.webp",
+      "width": 945,
+      "height": 1308,
+      "bytes": 57134,
+      "sha256": "a921938d35c5fccb5c9a226edf31df8e0144e8411da999aced7c54d4fe53be69",
+      "quality": 85,
+      "unwatermarkedSha256": "b519f4d58c224f812083f73640f1caed2674998c3df0e1529eab84ffbd50352b",
+      "watermarkRecord": "site-src/_data/product-watermarks.json",
+      "sourceFile": "DSC_5895.jpg",
+      "sourceSha256": "88d6a2c9dbfc1a7c8192bd030d8f153e061ec19610c0a93fc62dafa7cfd70c7b",
+      "originalBackup": "docs/release/k115-standard-photos-20261024/source/DSC_5895.jpg",
+      "caption": {
+        "en": "Horizontal sidewall K115 standard-response sprinkler — 182°C",
+        "ar": "رشاش K115 ذو استجابة قياسية جانبي أفقي — 182°C"
+      },
+      "publishedTransform": "CHUANWEI FIRE text watermark in clear whitespace"
+    },
+    {
+      "productId": "k115-standard-response-fire-sprinkler",
+      "routeId": "product:k115-standard-response-fire-sprinkler",
+      "path": "assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5898-640.webp",
+      "width": 471,
+      "height": 640,
+      "bytes": 23244,
+      "sha256": "491d5806804e63b5a7bc6dcbed86eae681ee363b2582039bb006c5af0f614206",
+      "quality": 85,
+      "unwatermarkedSha256": "2cd3565ed8015574c3b74f7835f6f233ebdb795d89857289d2f37699b7f9065f",
+      "watermarkRecord": "site-src/_data/product-watermarks.json",
+      "sourceFile": "DSC_5898.jpg",
+      "sourceSha256": "9383d81941921cb8acf22b08dc5a032e1d91d6e2bf2a8e5e7cf608a94590c6d5",
+      "originalBackup": "docs/release/k115-standard-photos-20261024/source/DSC_5898.jpg",
+      "caption": {
+        "en": "Horizontal sidewall K115 standard-response sprinkler — 141°C",
+        "ar": "رشاش K115 ذو استجابة قياسية جانبي أفقي — 141°C"
+      },
+      "publishedTransform": "CHUANWEI FIRE text watermark in clear whitespace"
+    },
+    {
+      "productId": "k115-standard-response-fire-sprinkler",
+      "routeId": "product:k115-standard-response-fire-sprinkler",
+      "path": "assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5898-1600.webp",
+      "width": 962,
+      "height": 1308,
+      "bytes": 55210,
+      "sha256": "898e195b3902223f8c0d82e6212625daa4ab6054c7718d1a2eeb9c2a057cdad0",
+      "quality": 85,
+      "unwatermarkedSha256": "ea32f45e5f257dd295f8693439f22a678fe904aaeecfa79779ecae5204d28b66",
+      "watermarkRecord": "site-src/_data/product-watermarks.json",
+      "sourceFile": "DSC_5898.jpg",
+      "sourceSha256": "9383d81941921cb8acf22b08dc5a032e1d91d6e2bf2a8e5e7cf608a94590c6d5",
+      "originalBackup": "docs/release/k115-standard-photos-20261024/source/DSC_5898.jpg",
+      "caption": {
+        "en": "Horizontal sidewall K115 standard-response sprinkler — 141°C",
+        "ar": "رشاش K115 ذو استجابة قياسية جانبي أفقي — 141°C"
+      },
+      "publishedTransform": "CHUANWEI FIRE text watermark in clear whitespace"
+    },
+    {
+      "productId": "k115-standard-response-fire-sprinkler",
+      "routeId": "product:k115-standard-response-fire-sprinkler",
+      "path": "assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5901-640.webp",
+      "width": 448,
+      "height": 640,
+      "bytes": 23150,
+      "sha256": "4944b853dc71c43e0f1ea6dbf89bb709dad3f9c2acd47160b68d0703f747f8d8",
+      "quality": 85,
+      "unwatermarkedSha256": "455691c4b1f6eb2695c3cfc7264703efb729e2468a67c829d5d4712cd939ec06",
+      "watermarkRecord": "site-src/_data/product-watermarks.json",
+      "sourceFile": "DSC_5901.jpg",
+      "sourceSha256": "9e9b8a9c5f1dea5861251c25a54bdd84d253126d37bb643a3771840aa29acb70",
+      "originalBackup": "docs/release/k115-standard-photos-20261024/source/DSC_5901.jpg",
+      "caption": {
+        "en": "Horizontal sidewall K115 standard-response sprinkler — 57°C",
+        "ar": "رشاش K115 ذو استجابة قياسية جانبي أفقي — 57°C"
+      },
+      "publishedTransform": "CHUANWEI FIRE text watermark in clear whitespace"
+    },
+    {
+      "productId": "k115-standard-response-fire-sprinkler",
+      "routeId": "product:k115-standard-response-fire-sprinkler",
+      "path": "assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5901-1600.webp",
+      "width": 962,
+      "height": 1375,
+      "bytes": 60302,
+      "sha256": "3f80f4d806d56287101da714f3a2e1cdcc743b7cf89f7a9c62ef6b12de7cf8c2",
+      "quality": 85,
+      "unwatermarkedSha256": "c405e15fe01e8cd6ec8dd4a2ab936e746bba840f6b150b8395f88af5b3254a62",
+      "watermarkRecord": "site-src/_data/product-watermarks.json",
+      "sourceFile": "DSC_5901.jpg",
+      "sourceSha256": "9e9b8a9c5f1dea5861251c25a54bdd84d253126d37bb643a3771840aa29acb70",
+      "originalBackup": "docs/release/k115-standard-photos-20261024/source/DSC_5901.jpg",
+      "caption": {
+        "en": "Horizontal sidewall K115 standard-response sprinkler — 57°C",
+        "ar": "رشاش K115 ذو استجابة قياسية جانبي أفقي — 57°C"
+      },
+      "publishedTransform": "CHUANWEI FIRE text watermark in clear whitespace"
+    },
+    {
+      "productId": "k115-standard-response-fire-sprinkler",
+      "routeId": "product:k115-standard-response-fire-sprinkler",
+      "path": "assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5902-640.webp",
+      "width": 477,
+      "height": 640,
+      "bytes": 35884,
+      "sha256": "b4e49defd48048abb7b0d4feaa9c75cae7cf4d8412562e4d3f505e90f74887b5",
+      "quality": 85,
+      "unwatermarkedSha256": "2e57b103f183ac5aa2ac83eae3b38b538beb238fe8c0362bb26113db09453894",
+      "watermarkRecord": "site-src/_data/product-watermarks.json",
+      "sourceFile": "DSC_5902.jpg",
+      "sourceSha256": "4fb476a6ca48f13051fd80c4ea19259090c44482ba0017c2a5d78dbe8912f739",
+      "originalBackup": "docs/release/k115-standard-photos-20261024/source/DSC_5902.jpg",
+      "caption": {
+        "en": "Upright K115 standard-response sprinkler — 79°C",
+        "ar": "رشاش K115 ذو استجابة قياسية قائم — 79°C"
+      },
+      "publishedTransform": "CHUANWEI FIRE text watermark in clear whitespace"
+    },
+    {
+      "productId": "k115-standard-response-fire-sprinkler",
+      "routeId": "product:k115-standard-response-fire-sprinkler",
+      "path": "assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5902-1600.webp",
+      "width": 861,
+      "height": 1156,
+      "bytes": 72910,
+      "sha256": "1a8a9a6a9b82c3276aefff8f38b4cb9b497eb0c38429b07f4c6e1695b44c28b6",
+      "quality": 85,
+      "unwatermarkedSha256": "c805ff64e28639228786ec5b0b9d8efbbceecce2ad693401dae8d28af9b15d1f",
+      "watermarkRecord": "site-src/_data/product-watermarks.json",
+      "sourceFile": "DSC_5902.jpg",
+      "sourceSha256": "4fb476a6ca48f13051fd80c4ea19259090c44482ba0017c2a5d78dbe8912f739",
+      "originalBackup": "docs/release/k115-standard-photos-20261024/source/DSC_5902.jpg",
+      "caption": {
+        "en": "Upright K115 standard-response sprinkler — 79°C",
+        "ar": "رشاش K115 ذو استجابة قياسية قائم — 79°C"
+      },
+      "publishedTransform": "CHUANWEI FIRE text watermark in clear whitespace"
+    },
+    {
+      "productId": "k115-standard-response-fire-sprinkler",
+      "routeId": "product:k115-standard-response-fire-sprinkler",
+      "path": "assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5909-640.webp",
+      "width": 469,
+      "height": 640,
+      "bytes": 23642,
+      "sha256": "8b0714bfd924ba17f56956efb33745e00952e63c5aed7e1775f87eb427250b43",
+      "quality": 85,
+      "unwatermarkedSha256": "704a97bb3cc03a3356ba8c06bc9b02b9acd919c1f962241817ee9ebbea88d996",
+      "watermarkRecord": "site-src/_data/product-watermarks.json",
+      "sourceFile": "DSC_5909.jpg",
+      "sourceSha256": "4a839cefa064524ea1d5f99ebeef16174afa07bf7d000ae73ea1a2f5fa542f08",
+      "originalBackup": "docs/release/k115-standard-photos-20261024/source/DSC_5909.jpg",
+      "caption": {
+        "en": "Horizontal sidewall K115 standard-response sprinkler — 260°C",
+        "ar": "رشاش K115 ذو استجابة قياسية جانبي أفقي — 260°C"
+      },
+      "publishedTransform": "CHUANWEI FIRE text watermark in clear whitespace"
+    },
+    {
+      "productId": "k115-standard-response-fire-sprinkler",
+      "routeId": "product:k115-standard-response-fire-sprinkler",
+      "path": "assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5909-1600.webp",
+      "width": 1046,
+      "height": 1426,
+      "bytes": 65936,
+      "sha256": "77f6aa2f24d5ebb5a453d9b2b5d177d7346f86e9a3bf89cf4043de7df9b19b79",
+      "quality": 85,
+      "unwatermarkedSha256": "b1a30703e0c902cc9ad72bdcfa347895b079d057aec67e67f8587a191e135719",
+      "watermarkRecord": "site-src/_data/product-watermarks.json",
+      "sourceFile": "DSC_5909.jpg",
+      "sourceSha256": "4a839cefa064524ea1d5f99ebeef16174afa07bf7d000ae73ea1a2f5fa542f08",
+      "originalBackup": "docs/release/k115-standard-photos-20261024/source/DSC_5909.jpg",
+      "caption": {
+        "en": "Horizontal sidewall K115 standard-response sprinkler — 260°C",
+        "ar": "رشاش K115 ذو استجابة قياسية جانبي أفقي — 260°C"
+      },
+      "publishedTransform": "CHUANWEI FIRE text watermark in clear whitespace"
+    },
+    {
+      "productId": "k115-standard-response-fire-sprinkler",
+      "routeId": "product:k115-standard-response-fire-sprinkler",
+      "path": "assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5910-640.webp",
+      "width": 481,
+      "height": 640,
+      "bytes": 35760,
+      "sha256": "f6c3ec13de451a28d0c64e37867e0caf7775a3f80252d24d62203db24d3485e5",
+      "quality": 85,
+      "unwatermarkedSha256": "885d545e887aef1615a7f6d944bf59197c67a5f026ed617a1eae3a3f92a2feca",
+      "watermarkRecord": "site-src/_data/product-watermarks.json",
+      "sourceFile": "DSC_5910.jpg",
+      "sourceSha256": "08e14d0a5451ce51513b6150da105469d4fad98e98e76c1042ff2a24eed2da32",
+      "originalBackup": "docs/release/k115-standard-photos-20261024/source/DSC_5910.jpg",
+      "caption": {
+        "en": "Upright K115 standard-response sprinkler — 93°C",
+        "ar": "رشاش K115 ذو استجابة قياسية قائم — 93°C"
+      },
+      "publishedTransform": "CHUANWEI FIRE text watermark in clear whitespace"
+    },
+    {
+      "productId": "k115-standard-response-fire-sprinkler",
+      "routeId": "product:k115-standard-response-fire-sprinkler",
+      "path": "assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5910-1600.webp",
+      "width": 844,
+      "height": 1122,
+      "bytes": 70470,
+      "sha256": "9297c8498723e073dd7e6c441415726771da20398344a3c3b90447450d0dd272",
+      "quality": 85,
+      "unwatermarkedSha256": "1fdee756474b68b873b09186ef55acb6c4195760c3423454ffe54cae28260450",
+      "watermarkRecord": "site-src/_data/product-watermarks.json",
+      "sourceFile": "DSC_5910.jpg",
+      "sourceSha256": "08e14d0a5451ce51513b6150da105469d4fad98e98e76c1042ff2a24eed2da32",
+      "originalBackup": "docs/release/k115-standard-photos-20261024/source/DSC_5910.jpg",
+      "caption": {
+        "en": "Upright K115 standard-response sprinkler — 93°C",
+        "ar": "رشاش K115 ذو استجابة قياسية قائم — 93°C"
+      },
+      "publishedTransform": "CHUANWEI FIRE text watermark in clear whitespace"
+    }
+  ]
+}

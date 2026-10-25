@@ -111,31 +111,31 @@
       "matchEvidence": "Visible K-ZST / Q3 / 68°C markings match the existing quick-response range; orientation identified from deflector."
     },
     {
-      "routeId": "product:extended-coverage-quick-response-fire-sprinkler",
-      "sourceFile": "DSC_5888.jpg",
-      "caption": {
-        "en": "Upright K115 / 68°C sample — marked K-ZSTZ",
-        "ar": "عينة قائم K115 / 68°C — تحمل علامة K-ZSTZ"
-      },
-      "matchEvidence": "Visible K-ZST model marking, K115 / 68°C and installation geometry. Additional sample photograph only; equivalence to EC-ZST factory models is not confirmed. Original pixels and derivatives retained."
-    },
-    {
-      "routeId": "product:extended-coverage-quick-response-fire-sprinkler",
+      "routeId": "product:k115-quick-response-fire-sprinkler",
       "sourceFile": "DSC_5887.jpg",
       "caption": {
-        "en": "Pendent K115 / 68°C sample — marked K-ZSTX",
-        "ar": "عينة معلق K115 / 68°C — تحمل علامة K-ZSTX"
+        "en": "Upright K115 quick-response sprinkler — 68°C, marked K-ZSTZ",
+        "ar": "رشاش K115 سريع الاستجابة قائم — 68°C، يحمل علامة K-ZSTZ"
       },
-      "matchEvidence": "Visible K-ZST model marking, K115 / 68°C and installation geometry. Additional sample photograph only; equivalence to EC-ZST factory models is not confirmed. Original pixels and derivatives retained."
+      "matchEvidence": "User confirmed on 2026-10-24 that these are ordinary K115 quick-response 68°C sprinklers, separate from the EC series. Visible model lettering establishes DSC_5887 as K-ZSTZ upright, DSC_5888 as K-ZSTX pendent, and DSC_5889 as K-ZSTBS horizontal sidewall; prior upright/pendent captions were reversed and are corrected. Original files and existing WebP bytes/URLs are retained. No EC specifications or certification transferred."
     },
     {
-      "routeId": "product:extended-coverage-quick-response-fire-sprinkler",
+      "routeId": "product:k115-quick-response-fire-sprinkler",
+      "sourceFile": "DSC_5888.jpg",
+      "caption": {
+        "en": "Pendent K115 quick-response sprinkler — 68°C, marked K-ZSTX",
+        "ar": "رشاش K115 سريع الاستجابة معلق — 68°C، يحمل علامة K-ZSTX"
+      },
+      "matchEvidence": "User confirmed on 2026-10-24 that these are ordinary K115 quick-response 68°C sprinklers, separate from the EC series. Visible model lettering establishes DSC_5887 as K-ZSTZ upright, DSC_5888 as K-ZSTX pendent, and DSC_5889 as K-ZSTBS horizontal sidewall; prior upright/pendent captions were reversed and are corrected. Original files and existing WebP bytes/URLs are retained. No EC specifications or certification transferred."
+    },
+    {
+      "routeId": "product:k115-quick-response-fire-sprinkler",
       "sourceFile": "DSC_5889.jpg",
       "caption": {
-        "en": "Horizontal sidewall K115 / 68°C sample — marked K-ZSTBS",
-        "ar": "عينة جانبي أفقي K115 / 68°C — تحمل علامة K-ZSTBS"
+        "en": "Horizontal sidewall K115 quick-response sprinkler — 68°C, marked K-ZSTBS",
+        "ar": "رشاش K115 سريع الاستجابة جانبي أفقي — 68°C، يحمل علامة K-ZSTBS"
       },
-      "matchEvidence": "Visible K-ZST model marking, K115 / 68°C and installation geometry. Additional sample photograph only; equivalence to EC-ZST factory models is not confirmed. Original pixels and derivatives retained."
+      "matchEvidence": "User confirmed on 2026-10-24 that these are ordinary K115 quick-response 68°C sprinklers, separate from the EC series. Visible model lettering establishes DSC_5887 as K-ZSTZ upright, DSC_5888 as K-ZSTX pendent, and DSC_5889 as K-ZSTBS horizontal sidewall; prior upright/pendent captions were reversed and are corrected. Original files and existing WebP bytes/URLs are retained. No EC specifications or certification transferred."
     },
     {
       "routeId": "product:large-k-factor-esfr-sprinklers",
@@ -269,10 +269,10 @@
       "routeId": "product:diaphragm-deluge-valves",
       "sourceFile": "DSC_5728.jpg",
       "caption": {
-        "en": "Flanged diaphragm-deluge assembly — sample layout",
-        "ar": "مجموعة غمر غشائية فلنجية — ترتيب العينة"
+        "en": "Grooved diaphragm-deluge assembly — sample layout",
+        "ar": "مجموعة غمر غشائية ذات وصلات محززة — ترتيب العينة"
       },
-      "matchEvidence": "Matches an existing website product configuration by visible construction; photograph is not pressure, material-grade or certification evidence."
+      "matchEvidence": "Visible grooved inlet and outlet ends; corrected from the flanged slot following the user's photograph correction on 2026-10-25. Photograph is not pressure, material-grade or certification evidence."
     },
     {
       "routeId": "product:preaction-valve-assemblies",
@@ -509,6 +509,497 @@
         "ar": "رشاش ESFR بعنصر زجاجي — صفيحة توزيع مقببة"
       },
       "matchEvidence": "User supplied this photograph and explicitly requested replacement of the corresponding ESFR detail gallery slot on 2026-10-10. ESFR body marking, glass-bulb assembly and deflector shape are visible; no exact model, K-factor, temperature, pressure, response class or certification inferred."
+    },
+    {
+      "routeId": "product:glass-bulb-fire-sprinkler",
+      "sourceFile": "DSC_5844.jpg",
+      "caption": {
+        "en": "Horizontal sidewall quick-response sprinkler — K-ZSTBS 80-57°C Q3A",
+        "ar": "رشاش سريع الاستجابة جانبي أفقي — K-ZSTBS 80-57°C Q3A"
+      },
+      "authorizationDate": "2026-10-24",
+      "matchEvidence": "User supplied this photograph and explicitly requested addition to the K80 quick-response lower Product photographs section on 2026-10-24. Attachment SHA256 exactly matches this previously inventoried original. Visible K-ZSTBS 80-57°C Q3A marking and horizontal sidewall deflector; 57°C is read from the marking. Photograph only; no new technical specification, thread, pressure, material or certification inferred."
+    },
+    {
+      "routeId": "product:glass-bulb-fire-sprinkler",
+      "sourceFile": "DSC_5845.jpg",
+      "caption": {
+        "en": "K80 quick-response sprinkler — 93°C, green glass-bulb sample",
+        "ar": "رشاش سريع الاستجابة K80 — 93°C، عينة بعنصر زجاجي أخضر"
+      },
+      "authorizationDate": "2026-10-24",
+      "matchEvidence": "User supplied this photograph and explicitly requested addition to the K80 quick-response lower Product photographs section on 2026-10-24. Attachment SHA256 exactly matches this previously inventoried original. User explicitly confirmed this green glass-bulb sample as 93°C on 2026-10-24; the temperature is user-confirmed, not inferred from bulb color or partial markings. The confirmation applies to this depicted sample only; no installation orientation, thread, pressure, material, certification or unconfirmed parameter combinations inferred. Temperature confirmation record: docs/release/k80-quick-photos-20261024/image-rights-confirmation.json."
+    },
+    {
+      "routeId": "product:glass-bulb-fire-sprinkler",
+      "sourceFile": "DSC_5848.jpg",
+      "caption": {
+        "en": "K80 quick-response sprinkler — 141°C, blue glass-bulb sample",
+        "ar": "رشاش سريع الاستجابة K80 — 141°C، عينة بعنصر زجاجي أزرق"
+      },
+      "authorizationDate": "2026-10-24",
+      "matchEvidence": "User supplied this photograph and explicitly requested addition to the K80 quick-response lower Product photographs section on 2026-10-24. Attachment SHA256 exactly matches this previously inventoried original. User explicitly confirmed this blue glass-bulb sample as 141°C on 2026-10-24; the temperature is user-confirmed, not inferred from bulb color or partial markings. The confirmation applies to this depicted sample only; no installation orientation, thread, pressure, material, certification or unconfirmed parameter combinations inferred. Temperature confirmation record: docs/release/k80-quick-photos-20261024/image-rights-confirmation.json."
+    },
+    {
+      "routeId": "product:glass-bulb-fire-sprinkler",
+      "sourceFile": "DSC_5851.jpg",
+      "caption": {
+        "en": "K80 quick-response sprinkler — 182°C, purple glass-bulb sample",
+        "ar": "رشاش سريع الاستجابة K80 — 182°C، عينة بعنصر زجاجي بنفسجي"
+      },
+      "authorizationDate": "2026-10-24",
+      "matchEvidence": "User supplied this photograph and explicitly requested addition to the K80 quick-response lower Product photographs section on 2026-10-24. Attachment SHA256 exactly matches this previously inventoried original. User explicitly confirmed this purple glass-bulb sample as 182°C on 2026-10-24; the temperature is user-confirmed, not inferred from bulb color or partial markings. The confirmation applies to this depicted sample only; no installation orientation, thread, pressure, material, certification or unconfirmed parameter combinations inferred. Temperature confirmation record: docs/release/k80-quick-photos-20261024/image-rights-confirmation.json."
+    },
+    {
+      "routeId": "product:glass-bulb-fire-sprinkler",
+      "sourceFile": "DSC_5854.jpg",
+      "caption": {
+        "en": "K80 quick-response sprinkler — 260°C, black glass-bulb sample",
+        "ar": "رشاش سريع الاستجابة K80 — 260°C، عينة بعنصر زجاجي أسود"
+      },
+      "authorizationDate": "2026-10-24",
+      "matchEvidence": "User supplied this photograph and explicitly requested addition to the K80 quick-response lower Product photographs section on 2026-10-24. Attachment SHA256 exactly matches this previously inventoried original. User explicitly confirmed this black glass-bulb sample as 260°C on 2026-10-24; the temperature is user-confirmed, not inferred from bulb color or partial markings. The confirmation applies to this depicted sample only; no installation orientation, thread, pressure, material, certification or unconfirmed parameter combinations inferred. Temperature confirmation record: docs/release/k80-quick-photos-20261024/image-rights-confirmation.json."
+    },
+    {
+      "routeId": "product:glass-bulb-fire-sprinkler",
+      "sourceFile": "DSC_5836.jpg",
+      "caption": {
+        "en": "K80 quick-response sprinkler — 79°C, light-yellow glass-bulb sample",
+        "ar": "رشاش سريع الاستجابة K80 — 79°C، عينة بعنصر زجاجي أصفر فاتح"
+      },
+      "authorizationDate": "2026-10-24",
+      "matchEvidence": "User supplied this photograph and explicitly requested addition to the K80 quick-response lower Product photographs section on 2026-10-24. Attachment SHA256 exactly matches this previously inventoried original. User explicitly confirmed this light-yellow glass-bulb sample as 79°C on 2026-10-24; the temperature is user-confirmed, not inferred from bulb color or partial markings. The confirmation applies to this depicted sample only; no installation orientation, thread, pressure, material, certification or unconfirmed parameter combinations inferred. Temperature confirmation record: docs/release/k80-quick-photos-20261024/image-rights-confirmation.json."
+    },
+    {
+      "routeId": "product:k115-standard-response-fire-sprinkler",
+      "sourceFile": "DSC_5904.jpg",
+      "caption": {
+        "en": "Upright K115 standard-response sprinkler — 68°C",
+        "ar": "رشاش K115 ذو استجابة قياسية قائم — 68°C"
+      },
+      "authorizationDate": "2026-10-24",
+      "matchEvidence": "User supplied this exact photograph and identified the three-photo series as K115 standard response at 68°C for the second-level category and detail page on 2026-10-24. Source SHA256 matches the existing inventoried original. Visible deflector geometry and T-ZSTZ115-68°C Q5A factory marking identify the configuration. No pressure, nominal connection size, thread, material, finish, packaging or certification inferred."
+    },
+    {
+      "routeId": "product:k115-standard-response-fire-sprinkler",
+      "sourceFile": "DSC_5905.jpg",
+      "caption": {
+        "en": "Pendent K115 standard-response sprinkler — 68°C",
+        "ar": "رشاش K115 ذو استجابة قياسية معلق — 68°C"
+      },
+      "authorizationDate": "2026-10-24",
+      "matchEvidence": "User supplied this exact photograph and identified the three-photo series as K115 standard response at 68°C for the second-level category and detail page on 2026-10-24. Source SHA256 matches the existing inventoried original. Visible deflector geometry and T-ZSTX115-68°C Q5A factory marking identify the configuration. No pressure, nominal connection size, thread, material, finish, packaging or certification inferred."
+    },
+    {
+      "routeId": "product:k115-standard-response-fire-sprinkler",
+      "sourceFile": "DSC_5906.jpg",
+      "caption": {
+        "en": "Horizontal sidewall K115 standard-response sprinkler — 68°C",
+        "ar": "رشاش K115 ذو استجابة قياسية جانبي أفقي — 68°C"
+      },
+      "authorizationDate": "2026-10-24",
+      "matchEvidence": "User supplied this exact photograph and identified the three-photo series as K115 standard response at 68°C for the second-level category and detail page on 2026-10-24. Source SHA256 matches the existing inventoried original. Visible deflector geometry and T-ZSTBS115-68°C Q5A factory marking identify the configuration. No pressure, nominal connection size, thread, material, finish, packaging or certification inferred."
+    },
+    {
+      "routeId": "product:k115-quick-response-fire-sprinkler",
+      "sourceFile": "DSC_5892.jpg",
+      "caption": {
+        "en": "Horizontal sidewall K115 quick-response sprinkler — 57°C",
+        "ar": "رشاش K115 سريع الاستجابة جانبي أفقي — 57°C"
+      },
+      "authorizationDate": "2026-10-24",
+      "matchEvidence": "User supplied this exact photograph and requested addition to the lower K115 quick-response detail gallery on 2026-10-24. Attachment SHA256 matches inventoried DSC_5892.jpg. Visible K-ZSTBS 115-57°C Q3A marking and deflector identify the horizontal sidewall sample. Temperature transcribed from the physical marking, not inferred from bulb color. No pressure, connection size, thread, materials or approvals inferred."
+    },
+    {
+      "routeId": "product:k115-quick-response-fire-sprinkler",
+      "sourceFile": "DSC_5874.jpg",
+      "caption": {
+        "en": "Horizontal sidewall K115 quick-response sprinkler — 182°C",
+        "ar": "رشاش K115 سريع الاستجابة جانبي أفقي — 182°C"
+      },
+      "authorizationDate": "2026-10-24",
+      "matchEvidence": "User supplied this exact photograph and requested addition to the lower K115 quick-response detail gallery on 2026-10-24. Attachment SHA256 matches inventoried DSC_5874.jpg. Visible K-ZSTBS 115-182°C Q3A marking and deflector identify the horizontal sidewall sample. Temperature transcribed from the physical marking, not inferred from bulb color. No pressure, connection size, thread, materials or approvals inferred."
+    },
+    {
+      "routeId": "product:k115-quick-response-fire-sprinkler",
+      "sourceFile": "DSC_5877.jpg",
+      "caption": {
+        "en": "Horizontal sidewall K115 quick-response sprinkler — 141°C",
+        "ar": "رشاش K115 سريع الاستجابة جانبي أفقي — 141°C"
+      },
+      "authorizationDate": "2026-10-24",
+      "matchEvidence": "User supplied this exact photograph and requested addition to the lower K115 quick-response detail gallery on 2026-10-24. Attachment SHA256 matches inventoried DSC_5877.jpg. Visible K-ZSTBS 115-141°C Q3A marking and deflector identify the horizontal sidewall sample. Temperature transcribed from the physical marking, not inferred from bulb color. No pressure, connection size, thread, materials or approvals inferred."
+    },
+    {
+      "routeId": "product:k115-quick-response-fire-sprinkler",
+      "sourceFile": "DSC_5880.jpg",
+      "caption": {
+        "en": "Horizontal sidewall K115 quick-response sprinkler — 79°C",
+        "ar": "رشاش K115 سريع الاستجابة جانبي أفقي — 79°C"
+      },
+      "authorizationDate": "2026-10-24",
+      "matchEvidence": "User supplied this exact photograph and requested addition to the lower K115 quick-response detail gallery on 2026-10-24. Attachment SHA256 matches inventoried DSC_5880.jpg. Visible K-ZSTBS 115-79°C Q3A marking and deflector identify the horizontal sidewall sample. Temperature transcribed from the physical marking, not inferred from bulb color. No pressure, connection size, thread, materials or approvals inferred."
+    },
+    {
+      "routeId": "product:k115-quick-response-fire-sprinkler",
+      "sourceFile": "DSC_5883.jpg",
+      "caption": {
+        "en": "Horizontal sidewall K115 quick-response sprinkler — 260°C",
+        "ar": "رشاش K115 سريع الاستجابة جانبي أفقي — 260°C"
+      },
+      "authorizationDate": "2026-10-24",
+      "matchEvidence": "User supplied this exact photograph and requested addition to the lower K115 quick-response detail gallery on 2026-10-24. Attachment SHA256 matches inventoried DSC_5883.jpg. Visible K-ZSTBS 115-260°C Q3A marking and deflector identify the horizontal sidewall sample. Temperature transcribed from the physical marking, not inferred from bulb color. No pressure, connection size, thread, materials or approvals inferred."
+    },
+    {
+      "routeId": "product:k115-quick-response-fire-sprinkler",
+      "sourceFile": "DSC_5886.jpg",
+      "caption": {
+        "en": "Horizontal sidewall K115 quick-response sprinkler — 93°C",
+        "ar": "رشاش K115 سريع الاستجابة جانبي أفقي — 93°C"
+      },
+      "authorizationDate": "2026-10-24",
+      "matchEvidence": "User supplied this exact photograph and requested addition to the lower K115 quick-response detail gallery on 2026-10-24. Attachment SHA256 matches inventoried DSC_5886.jpg. Visible K-ZSTBS 115-93°C Q3A marking and deflector identify the horizontal sidewall sample. Temperature transcribed from the physical marking, not inferred from bulb color. No pressure, connection size, thread, materials or approvals inferred."
+    },
+    {
+      "routeId": "product:k115-standard-response-fire-sprinkler",
+      "sourceFile": "DSC_5895.jpg",
+      "caption": {
+        "en": "Horizontal sidewall K115 standard-response sprinkler — 182°C",
+        "ar": "رشاش K115 ذو استجابة قياسية جانبي أفقي — 182°C"
+      },
+      "authorizationDate": "2026-10-24",
+      "matchEvidence": "User supplied this exact photograph and requested addition to the lower K115 standard-response detail gallery on 2026-10-24. Attachment SHA256 matches inventoried DSC_5895.jpg. Visible T-ZSTBS115-182°C Q5A marking and deflector identify this horizontal sidewall sample. Temperature transcribed from the physical marking, not inferred from bulb color. No pressure, connection size, thread, materials or approvals inferred."
+    },
+    {
+      "routeId": "product:k115-standard-response-fire-sprinkler",
+      "sourceFile": "DSC_5898.jpg",
+      "caption": {
+        "en": "Horizontal sidewall K115 standard-response sprinkler — 141°C",
+        "ar": "رشاش K115 ذو استجابة قياسية جانبي أفقي — 141°C"
+      },
+      "authorizationDate": "2026-10-24",
+      "matchEvidence": "User supplied this exact photograph and requested addition to the lower K115 standard-response detail gallery on 2026-10-24. Attachment SHA256 matches inventoried DSC_5898.jpg. Visible T-ZSTBS115-141°C Q5A marking and deflector identify this horizontal sidewall sample. Temperature transcribed from the physical marking, not inferred from bulb color. No pressure, connection size, thread, materials or approvals inferred."
+    },
+    {
+      "routeId": "product:k115-standard-response-fire-sprinkler",
+      "sourceFile": "DSC_5901.jpg",
+      "caption": {
+        "en": "Horizontal sidewall K115 standard-response sprinkler — 57°C",
+        "ar": "رشاش K115 ذو استجابة قياسية جانبي أفقي — 57°C"
+      },
+      "authorizationDate": "2026-10-24",
+      "matchEvidence": "User supplied this exact photograph and requested addition to the lower K115 standard-response detail gallery on 2026-10-24. Attachment SHA256 matches inventoried DSC_5901.jpg. Visible T-ZSTBS115-57°C Q5A marking and deflector identify this horizontal sidewall sample. Temperature transcribed from the physical marking, not inferred from bulb color. No pressure, connection size, thread, materials or approvals inferred."
+    },
+    {
+      "routeId": "product:k115-standard-response-fire-sprinkler",
+      "sourceFile": "DSC_5902.jpg",
+      "caption": {
+        "en": "Upright K115 standard-response sprinkler — 79°C",
+        "ar": "رشاش K115 ذو استجابة قياسية قائم — 79°C"
+      },
+      "authorizationDate": "2026-10-24",
+      "matchEvidence": "User supplied this exact photograph and requested addition to the lower K115 standard-response detail gallery on 2026-10-24. Attachment SHA256 matches inventoried DSC_5902.jpg. Visible T-ZSTZ115-79°C Q5A marking and deflector identify this upright sample. Temperature transcribed from the physical marking, not inferred from bulb color. No pressure, connection size, thread, materials or approvals inferred."
+    },
+    {
+      "routeId": "product:k115-standard-response-fire-sprinkler",
+      "sourceFile": "DSC_5909.jpg",
+      "caption": {
+        "en": "Horizontal sidewall K115 standard-response sprinkler — 260°C",
+        "ar": "رشاش K115 ذو استجابة قياسية جانبي أفقي — 260°C"
+      },
+      "authorizationDate": "2026-10-24",
+      "matchEvidence": "User supplied this exact photograph and requested addition to the lower K115 standard-response detail gallery on 2026-10-24. Attachment SHA256 matches inventoried DSC_5909.jpg. Visible T-ZSTBS115-260°C Q5A marking and deflector identify this horizontal sidewall sample. Temperature transcribed from the physical marking, not inferred from bulb color. No pressure, connection size, thread, materials or approvals inferred."
+    },
+    {
+      "routeId": "product:k115-standard-response-fire-sprinkler",
+      "sourceFile": "DSC_5910.jpg",
+      "caption": {
+        "en": "Upright K115 standard-response sprinkler — 93°C",
+        "ar": "رشاش K115 ذو استجابة قياسية قائم — 93°C"
+      },
+      "authorizationDate": "2026-10-24",
+      "matchEvidence": "User supplied this exact photograph and requested addition to the lower K115 standard-response detail gallery on 2026-10-24. Attachment SHA256 matches inventoried DSC_5910.jpg. Visible T-ZSTZ115-93°C Q5A marking and deflector identify this upright sample. Temperature transcribed from the physical marking, not inferred from bulb color. No pressure, connection size, thread, materials or approvals inferred."
+    },
+    {
+      "routeId": "product:k80-standard-response-concealed-sprinkler",
+      "sourceFile": "DSC_5934.jpg",
+      "caption": {
+        "en": "K80 standard-response concealed sprinkler — 57°C, covered assembly",
+        "ar": "رشاش مخفي K80 ذو استجابة قياسية — 57°C، المجموعة مع الغطاء"
+      },
+      "authorizationDate": "2026-10-24",
+      "matchEvidence": "User supplied this exact K80 concealed sprinkler photograph and requested different-temperature models on the independent detail page. Attachment SHA256 matches inventoried DSC_5934.jpg. The visible ZSTDY80-57°C Q5A marking identifies the standard-response sample and sprinkler temperature. Paired covered/exposed views are grouped by matching physical model marking, not bulb color. No cover release temperature, pressure, connection, material or approvals inferred."
+    },
+    {
+      "routeId": "product:k80-standard-response-concealed-sprinkler",
+      "sourceFile": "DSC_5933.jpg",
+      "caption": {
+        "en": "K80 standard-response concealed sprinkler — 57°C, exposed mechanism",
+        "ar": "رشاش مخفي K80 ذو استجابة قياسية — 57°C، الآلية المكشوفة"
+      },
+      "authorizationDate": "2026-10-24",
+      "matchEvidence": "User supplied this exact K80 concealed sprinkler photograph and requested different-temperature models on the independent detail page. Attachment SHA256 matches inventoried DSC_5933.jpg. The visible ZSTDY80-57°C Q5A marking identifies the standard-response sample and sprinkler temperature. Paired covered/exposed views are grouped by matching physical model marking, not bulb color. No cover release temperature, pressure, connection, material or approvals inferred."
+    },
+    {
+      "routeId": "product:k80-standard-response-concealed-sprinkler",
+      "sourceFile": "DSC_5925.jpg",
+      "caption": {
+        "en": "K80 standard-response concealed sprinkler — 79°C, covered assembly",
+        "ar": "رشاش مخفي K80 ذو استجابة قياسية — 79°C، المجموعة مع الغطاء"
+      },
+      "authorizationDate": "2026-10-24",
+      "matchEvidence": "User supplied this exact K80 concealed sprinkler photograph and requested different-temperature models on the independent detail page. Attachment SHA256 matches inventoried DSC_5925.jpg. The visible ZSTDY80-79°C Q5A marking identifies the standard-response sample and sprinkler temperature. Paired covered/exposed views are grouped by matching physical model marking, not bulb color. No cover release temperature, pressure, connection, material or approvals inferred."
+    },
+    {
+      "routeId": "product:k80-standard-response-concealed-sprinkler",
+      "sourceFile": "DSC_5923.jpg",
+      "caption": {
+        "en": "K80 standard-response concealed sprinkler — 79°C, exposed mechanism",
+        "ar": "رشاش مخفي K80 ذو استجابة قياسية — 79°C، الآلية المكشوفة"
+      },
+      "authorizationDate": "2026-10-24",
+      "matchEvidence": "User supplied this exact K80 concealed sprinkler photograph and requested different-temperature models on the independent detail page. Attachment SHA256 matches inventoried DSC_5923.jpg. The visible ZSTDY80-79°C Q5A marking identifies the standard-response sample and sprinkler temperature. Paired covered/exposed views are grouped by matching physical model marking, not bulb color. No cover release temperature, pressure, connection, material or approvals inferred."
+    },
+    {
+      "routeId": "product:k80-quick-response-concealed-sprinkler",
+      "sourceFile": "DSC_5954.jpg",
+      "caption": {
+        "en": "K80 quick-response concealed sprinkler — 57°C, covered assembly",
+        "ar": "رشاش مخفي K80 سريع الاستجابة — 57°C، المجموعة مع الغطاء"
+      },
+      "authorizationDate": "2026-10-24",
+      "matchEvidence": "User supplied this exact photograph and identified it as K80 quick-response concealed sprinkler for the independent detail page. Attachment SHA256 matches inventoried DSC_5954.jpg. The visible ZSTDY80-57°C Q3A marking identifies the sample and sprinkler temperature. Covered/exposed pairs follow the physical model marking, not bulb color. No cover release temperature, pressure, connection size, materials or approvals inferred."
+    },
+    {
+      "routeId": "product:k80-quick-response-concealed-sprinkler",
+      "sourceFile": "DSC_5953.jpg",
+      "caption": {
+        "en": "K80 quick-response concealed sprinkler — 57°C, exposed mechanism",
+        "ar": "رشاش مخفي K80 سريع الاستجابة — 57°C، الآلية المكشوفة"
+      },
+      "authorizationDate": "2026-10-24",
+      "matchEvidence": "User supplied this exact photograph and identified it as K80 quick-response concealed sprinkler for the independent detail page. Attachment SHA256 matches inventoried DSC_5953.jpg. The visible ZSTDY80-57°C Q3A marking identifies the sample and sprinkler temperature. Covered/exposed pairs follow the physical model marking, not bulb color. No cover release temperature, pressure, connection size, materials or approvals inferred."
+    },
+    {
+      "routeId": "product:k80-quick-response-concealed-sprinkler",
+      "sourceFile": "DSC_5950.jpg",
+      "caption": {
+        "en": "K80 quick-response concealed sprinkler — 68°C, covered assembly",
+        "ar": "رشاش مخفي K80 سريع الاستجابة — 68°C، المجموعة مع الغطاء"
+      },
+      "authorizationDate": "2026-10-24",
+      "matchEvidence": "User supplied this exact photograph and identified it as K80 quick-response concealed sprinkler for the independent detail page. Attachment SHA256 matches inventoried DSC_5950.jpg. The visible ZSTDY80-68°C Q3A marking identifies the sample and sprinkler temperature. Covered/exposed pairs follow the physical model marking, not bulb color. No cover release temperature, pressure, connection size, materials or approvals inferred."
+    },
+    {
+      "routeId": "product:k80-quick-response-concealed-sprinkler",
+      "sourceFile": "DSC_5949.jpg",
+      "caption": {
+        "en": "K80 quick-response concealed sprinkler — 68°C, exposed mechanism",
+        "ar": "رشاش مخفي K80 سريع الاستجابة — 68°C، الآلية المكشوفة"
+      },
+      "authorizationDate": "2026-10-24",
+      "matchEvidence": "User supplied this exact photograph and identified it as K80 quick-response concealed sprinkler for the independent detail page. Attachment SHA256 matches inventoried DSC_5949.jpg. The visible ZSTDY80-68°C Q3A marking identifies the sample and sprinkler temperature. Covered/exposed pairs follow the physical model marking, not bulb color. No cover release temperature, pressure, connection size, materials or approvals inferred."
+    },
+    {
+      "routeId": "product:k80-quick-response-concealed-sprinkler",
+      "sourceFile": "DSC_5942.jpg",
+      "caption": {
+        "en": "K80 quick-response concealed sprinkler — 93°C, covered assembly",
+        "ar": "رشاش مخفي K80 سريع الاستجابة — 93°C، المجموعة مع الغطاء"
+      },
+      "authorizationDate": "2026-10-24",
+      "matchEvidence": "User supplied this exact photograph and identified it as K80 quick-response concealed sprinkler for the independent detail page. Attachment SHA256 matches inventoried DSC_5942.jpg. The visible ZSTDY80-93°C Q3A marking identifies the sample and sprinkler temperature. Covered/exposed pairs follow the physical model marking, not bulb color. No cover release temperature, pressure, connection size, materials or approvals inferred."
+    },
+    {
+      "routeId": "product:k80-quick-response-concealed-sprinkler",
+      "sourceFile": "DSC_5941.jpg",
+      "caption": {
+        "en": "K80 quick-response concealed sprinkler — 93°C, exposed mechanism",
+        "ar": "رشاش مخفي K80 سريع الاستجابة — 93°C، الآلية المكشوفة"
+      },
+      "authorizationDate": "2026-10-24",
+      "matchEvidence": "User supplied this exact photograph and identified it as K80 quick-response concealed sprinkler for the independent detail page. Attachment SHA256 matches inventoried DSC_5941.jpg. The visible ZSTDY80-93°C Q3A marking identifies the sample and sprinkler temperature. Covered/exposed pairs follow the physical model marking, not bulb color. No cover release temperature, pressure, connection size, materials or approvals inferred."
+    },
+    {
+      "routeId": "product:k80-quick-response-concealed-sprinkler",
+      "sourceFile": "DSC_5938.jpg",
+      "caption": {
+        "en": "K80 quick-response concealed sprinkler — 141°C, covered assembly",
+        "ar": "رشاش مخفي K80 سريع الاستجابة — 141°C، المجموعة مع الغطاء"
+      },
+      "authorizationDate": "2026-10-24",
+      "matchEvidence": "User supplied this exact photograph and identified it as K80 quick-response concealed sprinkler for the independent detail page. Attachment SHA256 matches inventoried DSC_5938.jpg. The visible ZSTDY80-141°C Q3A marking identifies the sample and sprinkler temperature. Covered/exposed pairs follow the physical model marking, not bulb color. No cover release temperature, pressure, connection size, materials or approvals inferred."
+    },
+    {
+      "routeId": "product:k80-quick-response-concealed-sprinkler",
+      "sourceFile": "DSC_5937.jpg",
+      "caption": {
+        "en": "K80 quick-response concealed sprinkler — 141°C, exposed mechanism",
+        "ar": "رشاش مخفي K80 سريع الاستجابة — 141°C، الآلية المكشوفة"
+      },
+      "authorizationDate": "2026-10-24",
+      "matchEvidence": "User supplied this exact photograph and identified it as K80 quick-response concealed sprinkler for the independent detail page. Attachment SHA256 matches inventoried DSC_5937.jpg. The visible ZSTDY80-141°C Q3A marking identifies the sample and sprinkler temperature. Covered/exposed pairs follow the physical model marking, not bulb color. No cover release temperature, pressure, connection size, materials or approvals inferred."
+    },
+    {
+      "routeId": "product:k115-standard-response-concealed-sprinkler",
+      "sourceFile": "DSC_5921.jpg",
+      "caption": {
+        "en": "K115 standard-response concealed sprinkler — 79°C, covered assembly",
+        "ar": "رشاش مخفي K115 ذو استجابة قياسية — 79°C، المجموعة مع الغطاء"
+      },
+      "authorizationDate": "2026-10-24",
+      "matchEvidence": "User supplied this exact photograph and identified it as K115 standard-response concealed sprinkler for the independent detail page. Attachment SHA256 matches inventoried DSC_5921.jpg. Visible ZSTDY115-79°C Q5A marking identifies the sample and sprinkler temperature. Covered/exposed pairs follow the physical model marking, not bulb color. No cover release temperature, pressure, connection size, materials or approvals inferred."
+    },
+    {
+      "routeId": "product:k115-standard-response-concealed-sprinkler",
+      "sourceFile": "DSC_5920.jpg",
+      "caption": {
+        "en": "K115 standard-response concealed sprinkler — 79°C, exposed mechanism",
+        "ar": "رشاش مخفي K115 ذو استجابة قياسية — 79°C، الآلية المكشوفة"
+      },
+      "authorizationDate": "2026-10-24",
+      "matchEvidence": "User supplied this exact photograph and identified it as K115 standard-response concealed sprinkler for the independent detail page. Attachment SHA256 matches inventoried DSC_5920.jpg. Visible ZSTDY115-79°C Q5A marking identifies the sample and sprinkler temperature. Covered/exposed pairs follow the physical model marking, not bulb color. No cover release temperature, pressure, connection size, materials or approvals inferred."
+    },
+    {
+      "routeId": "product:k115-standard-response-concealed-sprinkler",
+      "sourceFile": "DSC_5915.jpg",
+      "caption": {
+        "en": "K115 standard-response concealed sprinkler — 93°C, covered assembly",
+        "ar": "رشاش مخفي K115 ذو استجابة قياسية — 93°C، المجموعة مع الغطاء"
+      },
+      "authorizationDate": "2026-10-24",
+      "matchEvidence": "User supplied this exact photograph and identified it as K115 standard-response concealed sprinkler for the independent detail page. Attachment SHA256 matches inventoried DSC_5915.jpg. Visible ZSTDY115-93°C Q5A marking identifies the sample and sprinkler temperature. Covered/exposed pairs follow the physical model marking, not bulb color. No cover release temperature, pressure, connection size, materials or approvals inferred."
+    },
+    {
+      "routeId": "product:k115-standard-response-concealed-sprinkler",
+      "sourceFile": "DSC_5914.jpg",
+      "caption": {
+        "en": "K115 standard-response concealed sprinkler — 93°C, exposed mechanism",
+        "ar": "رشاش مخفي K115 ذو استجابة قياسية — 93°C، الآلية المكشوفة"
+      },
+      "authorizationDate": "2026-10-24",
+      "matchEvidence": "User supplied this exact photograph and identified it as K115 standard-response concealed sprinkler for the independent detail page. Attachment SHA256 matches inventoried DSC_5914.jpg. Visible ZSTDY115-93°C Q5A marking identifies the sample and sprinkler temperature. Covered/exposed pairs follow the physical model marking, not bulb color. No cover release temperature, pressure, connection size, materials or approvals inferred."
+    },
+    {
+      "routeId": "product:k115-standard-response-concealed-sprinkler",
+      "sourceFile": "DSC_5913.jpg",
+      "caption": {
+        "en": "K115 standard-response concealed sprinkler — 141°C, covered assembly",
+        "ar": "رشاش مخفي K115 ذو استجابة قياسية — 141°C، المجموعة مع الغطاء"
+      },
+      "authorizationDate": "2026-10-24",
+      "matchEvidence": "User supplied this exact photograph and identified it as K115 standard-response concealed sprinkler for the independent detail page. Attachment SHA256 matches inventoried DSC_5913.jpg. Visible ZSTDY115-141°C Q5A marking identifies the sample and sprinkler temperature. Covered/exposed pairs follow the physical model marking, not bulb color. No cover release temperature, pressure, connection size, materials or approvals inferred."
+    },
+    {
+      "routeId": "product:k115-standard-response-concealed-sprinkler",
+      "sourceFile": "DSC_5912.jpg",
+      "caption": {
+        "en": "K115 standard-response concealed sprinkler — 141°C, exposed mechanism",
+        "ar": "رشاش مخفي K115 ذو استجابة قياسية — 141°C، الآلية المكشوفة"
+      },
+      "authorizationDate": "2026-10-24",
+      "matchEvidence": "User supplied this exact photograph and identified it as K115 standard-response concealed sprinkler for the independent detail page. Attachment SHA256 matches inventoried DSC_5912.jpg. Visible ZSTDY115-141°C Q5A marking identifies the sample and sprinkler temperature. Covered/exposed pairs follow the physical model marking, not bulb color. No cover release temperature, pressure, connection size, materials or approvals inferred."
+    },
+    {
+      "routeId": "product:k115-quick-response-concealed-sprinkler",
+      "sourceFile": "DSC_5952.jpg",
+      "caption": {
+        "en": "K115 quick-response concealed sprinkler — 57°C, covered assembly",
+        "ar": "رشاش مخفي K115 سريع الاستجابة — 57°C، المجموعة مع الغطاء"
+      },
+      "authorizationDate": "2026-10-25",
+      "matchEvidence": "User supplied this exact photograph and identified it as K115 quick-response concealed sprinkler for the independent detail page. Attachment SHA256 matches inventoried DSC_5952.jpg. The visible ZSTDY115-57°C Q3A marking identifies the sample and sprinkler temperature. Covered/exposed pairs follow the physical model marking, not bulb color. No cover release temperature, pressure, connection size, materials or approvals inferred."
+    },
+    {
+      "routeId": "product:k115-quick-response-concealed-sprinkler",
+      "sourceFile": "DSC_5951.jpg",
+      "caption": {
+        "en": "K115 quick-response concealed sprinkler — 57°C, exposed mechanism",
+        "ar": "رشاش مخفي K115 سريع الاستجابة — 57°C، الآلية المكشوفة"
+      },
+      "authorizationDate": "2026-10-25",
+      "matchEvidence": "User supplied this exact photograph and identified it as K115 quick-response concealed sprinkler for the independent detail page. Attachment SHA256 matches inventoried DSC_5951.jpg. The visible ZSTDY115-57°C Q3A marking identifies the sample and sprinkler temperature. Covered/exposed pairs follow the physical model marking, not bulb color. No cover release temperature, pressure, connection size, materials or approvals inferred."
+    },
+    {
+      "routeId": "product:k115-quick-response-concealed-sprinkler",
+      "sourceFile": "DSC_5948.jpg",
+      "caption": {
+        "en": "K115 quick-response concealed sprinkler — 68°C, covered assembly",
+        "ar": "رشاش مخفي K115 سريع الاستجابة — 68°C، المجموعة مع الغطاء"
+      },
+      "authorizationDate": "2026-10-25",
+      "matchEvidence": "User supplied this exact photograph and identified it as K115 quick-response concealed sprinkler for the independent detail page. Attachment SHA256 matches inventoried DSC_5948.jpg. The visible ZSTDY115-68°C Q3A marking identifies the sample and sprinkler temperature. Covered/exposed pairs follow the physical model marking, not bulb color. No cover release temperature, pressure, connection size, materials or approvals inferred."
+    },
+    {
+      "routeId": "product:k115-quick-response-concealed-sprinkler",
+      "sourceFile": "DSC_5947.jpg",
+      "caption": {
+        "en": "K115 quick-response concealed sprinkler — 68°C, exposed mechanism",
+        "ar": "رشاش مخفي K115 سريع الاستجابة — 68°C، الآلية المكشوفة"
+      },
+      "authorizationDate": "2026-10-25",
+      "matchEvidence": "User supplied this exact photograph and identified it as K115 quick-response concealed sprinkler for the independent detail page. Attachment SHA256 matches inventoried DSC_5947.jpg. The visible ZSTDY115-68°C Q3A marking identifies the sample and sprinkler temperature. Covered/exposed pairs follow the physical model marking, not bulb color. No cover release temperature, pressure, connection size, materials or approvals inferred."
+    },
+    {
+      "routeId": "product:k115-quick-response-concealed-sprinkler",
+      "sourceFile": "DSC_5940.jpg",
+      "caption": {
+        "en": "K115 quick-response concealed sprinkler — 93°C, covered assembly",
+        "ar": "رشاش مخفي K115 سريع الاستجابة — 93°C، المجموعة مع الغطاء"
+      },
+      "authorizationDate": "2026-10-25",
+      "matchEvidence": "User supplied this exact photograph and identified it as K115 quick-response concealed sprinkler for the independent detail page. Attachment SHA256 matches inventoried DSC_5940.jpg. The visible ZSTDY115-93°C Q3A marking identifies the sample and sprinkler temperature. Covered/exposed pairs follow the physical model marking, not bulb color. No cover release temperature, pressure, connection size, materials or approvals inferred."
+    },
+    {
+      "routeId": "product:k115-quick-response-concealed-sprinkler",
+      "sourceFile": "DSC_5939.jpg",
+      "caption": {
+        "en": "K115 quick-response concealed sprinkler — 93°C, exposed mechanism",
+        "ar": "رشاش مخفي K115 سريع الاستجابة — 93°C، الآلية المكشوفة"
+      },
+      "authorizationDate": "2026-10-25",
+      "matchEvidence": "User supplied this exact photograph and identified it as K115 quick-response concealed sprinkler for the independent detail page. Attachment SHA256 matches inventoried DSC_5939.jpg. The visible ZSTDY115-93°C Q3A marking identifies the sample and sprinkler temperature. Covered/exposed pairs follow the physical model marking, not bulb color. No cover release temperature, pressure, connection size, materials or approvals inferred."
+    },
+    {
+      "routeId": "product:k115-quick-response-concealed-sprinkler",
+      "sourceFile": "DSC_5936.jpg",
+      "caption": {
+        "en": "K115 quick-response concealed sprinkler — 141°C, covered assembly",
+        "ar": "رشاش مخفي K115 سريع الاستجابة — 141°C، المجموعة مع الغطاء"
+      },
+      "authorizationDate": "2026-10-25",
+      "matchEvidence": "User supplied this exact photograph and identified it as K115 quick-response concealed sprinkler for the independent detail page. Attachment SHA256 matches inventoried DSC_5936.jpg. The visible ZSTDY115-141°C Q3A marking identifies the sample and sprinkler temperature. Covered/exposed pairs follow the physical model marking, not bulb color. No cover release temperature, pressure, connection size, materials or approvals inferred."
+    },
+    {
+      "routeId": "product:k115-quick-response-concealed-sprinkler",
+      "sourceFile": "DSC_5935.jpg",
+      "caption": {
+        "en": "K115 quick-response concealed sprinkler — 141°C, exposed mechanism",
+        "ar": "رشاش مخفي K115 سريع الاستجابة — 141°C، الآلية المكشوفة"
+      },
+      "authorizationDate": "2026-10-25",
+      "matchEvidence": "User supplied this exact photograph and identified it as K115 quick-response concealed sprinkler for the independent detail page. Attachment SHA256 matches inventoried DSC_5935.jpg. The visible ZSTDY115-141°C Q3A marking identifies the sample and sprinkler temperature. Covered/exposed pairs follow the physical model marking, not bulb color. No cover release temperature, pressure, connection size, materials or approvals inferred."
+    },
+    {
+      "routeId": "product:water-mist-nozzles",
+      "sourceFile": "DSC_5793.jpg",
+      "caption": {
+        "en": "Water mist nozzle — additional product sample; exact model available on request",
+        "ar": "فوهة ضباب الماء — عينة إضافية للمنتج؛ الموديل الدقيق متاح عند الطلب"
+      },
+      "authorizationDate": "2026-10-25",
+      "matchEvidence": "User supplied this exact photograph and explicitly instructed: 按照水雾喷头分组吧. Attachment SHA256 matches inventoried DSC_5793.jpg. Classification as water mist nozzle is user-confirmed; exact factory model, material, size, thread, pressure, K-factor and spray angle are not established and are not assigned from other configurations."
+    },
+    {
+      "routeId": "product:diaphragm-deluge-valves",
+      "sourceFile": "deluge-flanged-user-20261025.jpg",
+      "sourcePath": "docs/reviews/deluge-photo-correction-20261025/source/deluge-flanged-user-20261025.jpg",
+      "authorizationDate": "2026-10-25",
+      "caption": {
+        "en": "Flanged diaphragm-deluge assembly — sample layout",
+        "ar": "مجموعة غمر غشائية فلنجية — ترتيب العينة"
+      },
+      "matchEvidence": "User supplied and explicitly identified this photograph as the flanged deluge valve on 2026-10-25; both connection flanges are visible. Photograph is not pressure, material-grade or certification evidence."
     }
   ],
   "additionalAuthorization": {
@@ -526,6 +1017,145 @@
       "date": "2026-10-10",
       "verbatim": "这几个加到隐蔽所的图片里面，底部的图片",
       "record": "docs/reviews/concealed-photos-20261010/photo-records.json"
+    },
+    {
+      "date": "2026-10-24",
+      "verbatim": "这个加到k80快速的下面图片里面",
+      "record": "docs/release/k80-quick-photos-20261024/image-rights-confirmation.json",
+      "sourceFiles": [
+        "DSC_5844.jpg",
+        "DSC_5845.jpg",
+        "DSC_5848.jpg",
+        "DSC_5851.jpg",
+        "DSC_5854.jpg",
+        "DSC_5836.jpg"
+      ]
+    },
+    {
+      "date": "2026-10-24",
+      "verbatim": "这个是k115标注响应的68度图，你弄到2级分组和详情页里面去；这个是115快速的68度",
+      "record": "docs/release/k115-sprinklers-20261024/image-rights-confirmation.json",
+      "sourceFiles": [
+        "DSC_5904.jpg",
+        "DSC_5905.jpg",
+        "DSC_5906.jpg",
+        "DSC_5887.jpg",
+        "DSC_5888.jpg",
+        "DSC_5889.jpg"
+      ]
+    },
+    {
+      "date": "2026-10-24",
+      "confirmation": "User confirmed ordinary K115 quick-response 68°C classification for the three K-ZST photographs; keep EC separate.",
+      "record": "docs/reviews/k115-quick-ec-separation-20261024/reviewed-changes.json",
+      "sourceFiles": [
+        "DSC_5887.jpg",
+        "DSC_5888.jpg",
+        "DSC_5889.jpg"
+      ],
+      "routeId": "product:k115-quick-response-fire-sprinkler"
+    },
+    {
+      "date": "2026-10-24",
+      "verbatim": "这个加到115快速的详情页下面的图片中",
+      "record": "docs/release/k115-quick-photos-20261024/image-rights-confirmation.json",
+      "routeId": "product:k115-quick-response-fire-sprinkler",
+      "sourceFiles": [
+        "DSC_5892.jpg",
+        "DSC_5874.jpg",
+        "DSC_5877.jpg",
+        "DSC_5880.jpg",
+        "DSC_5883.jpg",
+        "DSC_5886.jpg"
+      ]
+    },
+    {
+      "date": "2026-10-24",
+      "verbatim": "这个加到115标注的详情页",
+      "interpretation": "K115 standard response; user typo resolved from prior usage and Q5A source markings",
+      "record": "docs/release/k115-standard-photos-20261024/image-rights-confirmation.json",
+      "routeId": "product:k115-standard-response-fire-sprinkler",
+      "sourceFiles": [
+        "DSC_5895.jpg",
+        "DSC_5898.jpg",
+        "DSC_5901.jpg",
+        "DSC_5902.jpg",
+        "DSC_5909.jpg",
+        "DSC_5910.jpg"
+      ]
+    },
+    {
+      "date": "2026-10-24",
+      "verbatim": "这个k80的，放到详情页，是不同的温度型号",
+      "record": "docs/release/k80-standard-concealed-temperatures-20261024/image-rights-confirmation.json",
+      "routeId": "product:k80-standard-response-concealed-sprinkler",
+      "sourceFiles": [
+        "DSC_5934.jpg",
+        "DSC_5933.jpg",
+        "DSC_5925.jpg",
+        "DSC_5923.jpg",
+        "concealed-k80-93c-covered.jpg",
+        "concealed-k80-93c-exposed.jpg",
+        "concealed-k80-141c-covered.jpg",
+        "concealed-k80-141c-exposed.jpg"
+      ]
+    },
+    {
+      "date": "2026-10-24",
+      "verbatim": "这个是k80快速的",
+      "record": "docs/release/k80-quick-concealed-temperatures-20261024/image-rights-confirmation.json",
+      "routeId": "product:k80-quick-response-concealed-sprinkler",
+      "sourceFiles": [
+        "DSC_5954.jpg",
+        "DSC_5953.jpg",
+        "DSC_5950.jpg",
+        "DSC_5949.jpg",
+        "DSC_5942.jpg",
+        "DSC_5941.jpg",
+        "DSC_5938.jpg",
+        "DSC_5937.jpg"
+      ]
+    },
+    {
+      "date": "2026-10-24",
+      "verbatim": "这个是115标准",
+      "record": "docs/release/k115-standard-concealed-temperatures-20261024/image-rights-confirmation.json",
+      "routeId": "product:k115-standard-response-concealed-sprinkler",
+      "sourceFiles": [
+        "concealed-k115-57c-covered.jpg",
+        "concealed-k115-57c-exposed.jpg",
+        "DSC_5921.jpg",
+        "DSC_5920.jpg",
+        "DSC_5915.jpg",
+        "DSC_5914.jpg",
+        "DSC_5913.jpg",
+        "DSC_5912.jpg"
+      ]
+    },
+    {
+      "date": "2026-10-25",
+      "verbatim": "这个是115快速",
+      "record": "docs/release/k115-quick-concealed-temperatures-20261024/image-rights-confirmation.json",
+      "routeId": "product:k115-quick-response-concealed-sprinkler",
+      "sourceFiles": [
+        "DSC_5952.jpg",
+        "DSC_5951.jpg",
+        "DSC_5948.jpg",
+        "DSC_5947.jpg",
+        "DSC_5940.jpg",
+        "DSC_5939.jpg",
+        "DSC_5936.jpg",
+        "DSC_5935.jpg"
+      ]
+    },
+    {
+      "date": "2026-10-25",
+      "verbatim": "按照水雾喷头分组吧",
+      "routeId": "product:water-mist-nozzles",
+      "sourceFiles": [
+        "DSC_5793.jpg"
+      ],
+      "record": "docs/release/water-mist-photo-20261025/image-rights-confirmation.json"
     }
   ]
 }

@@ -1,0 +1,72 @@
+[
+  {
+    "product": "automatic-transfer-control-cabinets",
+    "source": {
+      "reviewDate": "2026-10-25",
+      "path": "D:\\work\\codex\\外部商品连接内容\\10.13\\消防泵控制柜双电源软启动星三角自动巡检柜水泵配电箱PLC机柜 - 阿里巴巴.html",
+      "sha256": "a08a3dd1f8c29f02e848fad2f509403956d498e9e5f9cb41ff96fc4d8d873d03",
+      "location": "Visible product attributes and model/variant table",
+      "adopted": "SKU表柜体尺寸1200*600*400，另一处表头明确mm。仅用于JX-ATS-63A，不推广到全部控制柜。",
+      "scope": "User-selected saved listing; no certification, price, stock or package-weight claims adopted."
+    },
+    "addedKeys": [
+      "archiveCabinetDimensions"
+    ]
+  },
+  {
+    "product": "fire-pump-inspection-control-cabinets",
+    "source": {
+      "reviewDate": "2026-10-25",
+      "path": "D:\\work\\codex\\外部商品连接内容\\10.13\\消防泵控制柜双电源软启动星三角自动巡检柜水泵配电箱PLC机柜 - 阿里巴巴.html",
+      "sha256": "a08a3dd1f8c29f02e848fad2f509403956d498e9e5f9cb41ff96fc4d8d873d03",
+      "location": "Visible product attributes and model/variant table",
+      "adopted": "两款命名SKU均列1200*600*400 mm；未标型号附加照片不套用该尺寸。",
+      "scope": "User-selected saved listing; no certification, price, stock or package-weight claims adopted."
+    },
+    "addedKeys": [
+      "archiveCabinetDimensions"
+    ]
+  },
+  {
+    "product": "vertical-multistage-fire-pumps",
+    "source": {
+      "reviewDate": "2026-10-25",
+      "path": "D:\\work\\codex\\外部商品连接内容\\10.15\\小型GDL立式多级消防水泵高压高扬程消火栓喷淋泵管道增压 - 阿里巴巴.html",
+      "sha256": "c956316b82bffd09d6939d444a9801e802cc53c5c8906153b8cad6411a3f8fac",
+      "location": "Visible product attributes and model/variant table",
+      "adopted": "商品属性明确泵体材质铸铁；不据此推断叶轮、轴和外筒材质。",
+      "scope": "User-selected saved listing; no certification, price, stock or package-weight claims adopted."
+    },
+    "addedKeys": [
+      "archiveCasing"
+    ]
+  },
+  {
+    "product": "grooved-equal-tees",
+    "source": {
+      "reviewDate": "2026-10-25",
+      "path": "D:\\work\\codex\\外部商品连接内容\\10.23\\沟槽管件正三通现货 国标消防管件正三通 消防工程连接管件批发 - 阿里巴巴.html",
+      "sha256": "1241c51780a187c5407f69bd286684e0c676a31af38995ecd5465637833906b2",
+      "location": "Visible product attributes and model/variant table",
+      "adopted": "采用保存页面10种DN/实际外径组合；同DN不同外径分别保留，不将其认作互换接口。",
+      "scope": "User-selected saved listing; no certification, price, stock or package-weight claims adopted."
+    },
+    "addedKeys": [
+      "archiveSizeOptions"
+    ]
+  },
+  {
+    "product": "grooved-concentric-reducers",
+    "source": {
+      "reviewDate": "2026-10-25",
+      "path": "D:\\work\\codex\\外部商品连接内容\\10.23\\厂家批发沟槽大小头异径管 消防沟槽变径管件接头 卡箍同心大小头 - 阿里巴巴.html",
+      "sha256": "fe46c07692846cb4986b47cd1b44c17fffe2f45e66c351b9cd16b58d2d1576c3",
+      "location": "Visible product attributes and model/variant table",
+      "adopted": "采用保存页面18组同心大小头DN和两端实际外径，不扩展未列出的规格。",
+      "scope": "User-selected saved listing; no certification, price, stock or package-weight claims adopted."
+    },
+    "addedKeys": [
+      "archiveSizeOptions"
+    ]
+  }
+]

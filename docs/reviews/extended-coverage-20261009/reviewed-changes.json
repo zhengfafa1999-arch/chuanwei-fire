@@ -62,7 +62,7 @@
     ],
     [
       "Review the pendent, upright and horizontal sidewall configurations. Product markings are retained for configuration and factory-reference identification.",
-      "Compare the three EC-ZST models in the main gallery. Additional K115 / 68°C photographs below show K-ZST-marked samples; confirm the required factory marking with your order."
+      "Compare the EC-ZST pendent, upright and horizontal sidewall configurations shown in the main gallery. Confirm the factory model and installation orientation with your order."
     ],
     [
       "The current factory range is organized by installation orientation. All listed versions share the confirmed nominal size, K-factor and temperature rating.",
@@ -105,5 +105,12 @@
     "gallery": "arrows, enlargement and Escape passed",
     "pdf": "unchanged SHA256 4726e11252e8776a359b726a3d610937bd21913f3f68b13ae679b02a764146c8",
     "deployed": false
-  }
+  },
+  "subsequentReviews": [
+    {
+      "date": "2026-10-24",
+      "record": "docs/reviews/k115-quick-ec-separation-20261024/reviewed-changes.json",
+      "scope": "Refresh the existing controlled gallery-description replacement only; preserve EC technical values and three model rows."
+    }
+  ]
 }

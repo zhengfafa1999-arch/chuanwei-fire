@@ -23,7 +23,15 @@
     "notes": [
       "20、35、50 kg分别有碳钢参数图记录；未采用干粉90%浓度宣传。",
       "推车式与手提式分别建页，未共用充装或喷枪参数。"
-    ]
+    ],
+    "marketReference": {
+      "grade": "C-other-manufacturer-or-series-reference",
+      "reviewDate": "2026-10-25",
+      "url": "https://amerex-fire.com/api/documents/download?a=en&d=import-amerex-fire-extinguisher-parts-book",
+      "model": "Amerex 495",
+      "location": "Parts book, printed page 15 / PDF page 17",
+      "scope": "Selection reference only; no supplied-SKU specification, certification, compatibility or availability inferred."
+    }
   },
   "publication": {
     "status": "release-candidate",
@@ -200,7 +208,16 @@
       "selection1Label": "Project requirements",
       "selection1Body": "Send the installation location, required fire rating and destination market so the exact model documents can be checked.",
       "selection2Label": "Handling and discharge equipment",
-      "selection2Body": "Specify access constraints and the required hose arrangement so overall dimensions and equipment can be checked."
+      "selection2Body": "Specify access constraints and the required hose arrangement so overall dimensions and equipment can be checked.",
+      "referenceHeading": "Selection reference",
+      "referenceScope": "The manufacturer example below helps you specify an enquiry. Its values describe the named reference model, not the CHUANWEI product pictured above. Request the offered model’s datasheet for your order.",
+      "referenceSource": "Manufacturer reference",
+      "reference0Title": "Amerex 495",
+      "reference0Note": "Charge mass and hose size are separate selection criteria; compare the complete unit dimensions and fire rating for the offered model.",
+      "reference0Row0Label": "ABC powder charge",
+      "reference0Row0Value": "50 lb",
+      "reference0Row1Label": "Hose assembly",
+      "reference0Row1Value": "1/2 in × 25 ft"
     },
     "ar": {
       "onThisPage": "في هذه الصفحة",
@@ -264,7 +281,35 @@
       "selection1Label": "متطلبات المشروع",
       "selection1Body": "أرسل موقع الاستخدام وتصنيف الإطفاء المطلوب وبلد الوجهة للتحقق من وثائق الطراز المحدد.",
       "selection2Label": "المناولة وتجهيزات التفريغ",
-      "selection2Body": "حدد قيود الوصول وتجهيز الخرطوم المطلوب للتحقق من الأبعاد الكلية والمعدات."
+      "selection2Body": "حدد قيود الوصول وتجهيز الخرطوم المطلوب للتحقق من الأبعاد الكلية والمعدات.",
+      "referenceHeading": "مرجع الاختيار",
+      "referenceScope": "يساعد المثال التالي من الشركة المصنّعة المذكورة في تحديد متطلبات الاستفسار. القيم تخص الطراز المرجعي المذكور، ولا تمثل مواصفات منتج CHUANWEI المصوّر أعلاه. اطلب ورقة بيانات الطراز المعروض لطلبك.",
+      "referenceSource": "مرجع الشركة المصنّعة",
+      "reference0Title": "Amerex 495",
+      "reference0Note": "كتلة الشحنة ومقاس الخرطوم معياران مستقلان للاختيار؛ قارن أبعاد الوحدة الكاملة وتصنيف الإطفاء للطراز المعروض.",
+      "reference0Row0Label": "شحنة مسحوق ABC",
+      "reference0Row0Value": "50 lb",
+      "reference0Row1Label": "مجموعة الخرطوم",
+      "reference0Row1Value": "1/2 in × 25 ft"
     }
-  }
+  },
+  "referenceExamples": [
+    {
+      "title": "reference0Title",
+      "rows": [
+        {
+          "label": "reference0Row0Label",
+          "value": "reference0Row0Value",
+          "technical": true
+        },
+        {
+          "label": "reference0Row1Label",
+          "value": "reference0Row1Value",
+          "technical": true
+        }
+      ],
+      "note": "reference0Note",
+      "url": "https://amerex-fire.com/api/documents/download?a=en&d=import-amerex-fire-extinguisher-parts-book"
+    }
+  ]
 }

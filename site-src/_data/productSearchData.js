@@ -104,17 +104,23 @@ function selectedRows(source, image, anchor) {
 
 // Build from the same values shown in the detail tables. Evidence, source paths,
 // unused translation entries and quotation-only capabilities are never indexed.
-export function productSearchTerms(routeId, { image, anchor, includeSupplements = true } = {}) {
+export function productSearchTerms(routeId, { image, anchor, modelRowIndexes, includeSupplements = true } = {}) {
   const id = routeId.replace('product:', '');
   const source = sourceFor(id);
   const terms = [...(aliases[id] ?? [])];
   // Shared facts may be indexed on the views they explicitly cover. New variant
   // facts remain on the series result, never on unrelated legacy photographs.
-  if ((includeSupplements && !image && !anchor) || sharedViewSupplementIds.has(id)) terms.push(productSupplementSearchTerms(routeId));
+  if ((includeSupplements && !image && !anchor && !modelRowIndexes) || sharedViewSupplementIds.has(id)) terms.push(productSupplementSearchTerms(routeId));
   if (!source) return terms.join(' ');
   const { product, kind, dictionaries } = source;
-  const scoped = Boolean(image || anchor);
-  const rows = selectedRows(source, image, anchor);
+  // Series cards may share a detail page while representing different K-factors
+  // or response classes. Explicit row selection must not index the whole page.
+  const scoped = Boolean(image || anchor || modelRowIndexes);
+  const rows = modelRowIndexes ? modelRowIndexes.map(index => {
+    const row = product.models?.[index];
+    if (!row) throw new Error(`${routeId}: search row ${index} is missing`);
+    return row;
+  }) : selectedRows(source, image, anchor);
   // Keep earlier appearance-based names searchable only for their own
   // configuration, without promoting a finish label to a material fact.
   for (const row of rows) terms.push(...(product.searchAliasesByConfiguration?.[row.configuration] ?? []));

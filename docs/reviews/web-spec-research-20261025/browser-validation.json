@@ -1,0 +1,681 @@
+{
+  "status": "PASS",
+  "generatedAt": "2026-10-25T11:10:11.401Z",
+  "browser": "Edg/156.0.4314.42",
+  "checks": [
+    {
+      "scenario": "desktop/products/fire-alarm-systems/combined-smoke-heat-detectors.html",
+      "status": "PASS",
+      "layout": {
+        "overflow": -15,
+        "broken": [],
+        "lang": "en",
+        "dir": "ltr"
+      },
+      "content": {
+        "h1": "Combined Smoke and Heat Detectors",
+        "main": 2207,
+        "internal": false
+      }
+    },
+    {
+      "scenario": "desktop/ar/products/combined-smoke-heat-detectors/index.html",
+      "status": "PASS",
+      "layout": {
+        "overflow": -15,
+        "broken": [],
+        "lang": "ar",
+        "dir": "rtl"
+      },
+      "content": {
+        "h1": "كواشف الدخان والحرارة المدمجة",
+        "main": 1761,
+        "internal": false
+      }
+    },
+    {
+      "scenario": "desktop/products/fire-alarm-systems/manual-fire-alarm-call-points.html",
+      "status": "PASS",
+      "layout": {
+        "overflow": -15,
+        "broken": [],
+        "lang": "en",
+        "dir": "ltr"
+      },
+      "content": {
+        "h1": "Manual Fire Alarm Call Points",
+        "main": 2452,
+        "internal": false
+      }
+    },
+    {
+      "scenario": "desktop/ar/products/manual-fire-alarm-call-points/index.html",
+      "status": "PASS",
+      "layout": {
+        "overflow": -15,
+        "broken": [],
+        "lang": "ar",
+        "dir": "rtl"
+      },
+      "content": {
+        "h1": "نقاط نداء يدوية لإنذار الحريق",
+        "main": 1984,
+        "internal": false
+      }
+    },
+    {
+      "scenario": "desktop/products/fire-alarm-systems/fire-alarm-input-output-modules.html",
+      "status": "PASS",
+      "layout": {
+        "overflow": -15,
+        "broken": [],
+        "lang": "en",
+        "dir": "ltr"
+      },
+      "content": {
+        "h1": "Fire Alarm Input/Output Modules",
+        "main": 2472,
+        "internal": false
+      }
+    },
+    {
+      "scenario": "desktop/ar/products/fire-alarm-input-output-modules/index.html",
+      "status": "PASS",
+      "layout": {
+        "overflow": -15,
+        "broken": [],
+        "lang": "ar",
+        "dir": "rtl"
+      },
+      "content": {
+        "h1": "وحدات إدخال وإخراج لإنذار الحريق",
+        "main": 2028,
+        "internal": false
+      }
+    },
+    {
+      "scenario": "desktop/products/fire-alarm-systems/fire-alarm-sounder-beacons.html",
+      "status": "PASS",
+      "layout": {
+        "overflow": -15,
+        "broken": [],
+        "lang": "en",
+        "dir": "ltr"
+      },
+      "content": {
+        "h1": "Fire Alarm Sounder Beacons",
+        "main": 2693,
+        "internal": false
+      }
+    },
+    {
+      "scenario": "desktop/ar/products/fire-alarm-sounder-beacons/index.html",
+      "status": "PASS",
+      "layout": {
+        "overflow": -15,
+        "broken": [],
+        "lang": "ar",
+        "dir": "rtl"
+      },
+      "content": {
+        "h1": "أجهزة إنذار حريق صوتية وضوئية",
+        "main": 2325,
+        "internal": false
+      }
+    },
+    {
+      "scenario": "desktop/products/fire-pumps-controllers/vertical-multistage-fire-pumps.html",
+      "status": "PASS",
+      "layout": {
+        "overflow": -15,
+        "broken": [],
+        "lang": "en",
+        "dir": "ltr"
+      },
+      "content": {
+        "h1": "Vertical Multistage Fire Pumps",
+        "main": 2003,
+        "internal": false
+      }
+    },
+    {
+      "scenario": "desktop/ar/products/vertical-multistage-fire-pumps/index.html",
+      "status": "PASS",
+      "layout": {
+        "overflow": -15,
+        "broken": [],
+        "lang": "ar",
+        "dir": "rtl"
+      },
+      "content": {
+        "h1": "مضخات حريق رأسية متعددة المراحل",
+        "main": 1623,
+        "internal": false
+      }
+    },
+    {
+      "scenario": "desktop/products/fire-pumps-controllers/vertical-single-stage-fire-pumps.html",
+      "status": "PASS",
+      "layout": {
+        "overflow": -15,
+        "broken": [],
+        "lang": "en",
+        "dir": "ltr"
+      },
+      "content": {
+        "h1": "Vertical Single-stage Fire Pumps",
+        "main": 2161,
+        "internal": false
+      }
+    },
+    {
+      "scenario": "desktop/ar/products/vertical-single-stage-fire-pumps/index.html",
+      "status": "PASS",
+      "layout": {
+        "overflow": -15,
+        "broken": [],
+        "lang": "ar",
+        "dir": "rtl"
+      },
+      "content": {
+        "h1": "مضخات حريق رأسية أحادية المرحلة",
+        "main": 1722,
+        "internal": false
+      }
+    },
+    {
+      "scenario": "desktop/products/fire-pumps-controllers/fire-pressure-maintenance-sets.html",
+      "status": "PASS",
+      "layout": {
+        "overflow": -15,
+        "broken": [],
+        "lang": "en",
+        "dir": "ltr"
+      },
+      "content": {
+        "h1": "Fire Pressure Maintenance Sets",
+        "main": 2152,
+        "internal": false
+      }
+    },
+    {
+      "scenario": "desktop/ar/products/fire-pressure-maintenance-sets/index.html",
+      "status": "PASS",
+      "layout": {
+        "overflow": -15,
+        "broken": [],
+        "lang": "ar",
+        "dir": "rtl"
+      },
+      "content": {
+        "h1": "مجموعات تثبيت ضغط مياه الحريق",
+        "main": 1683,
+        "internal": false
+      }
+    },
+    {
+      "scenario": "desktop/products/pressure-gauges-accessories/liquid-filled-pressure-gauges.html",
+      "status": "PASS",
+      "layout": {
+        "overflow": -15,
+        "broken": [],
+        "lang": "en",
+        "dir": "ltr"
+      },
+      "content": {
+        "h1": "Liquid-filled Pressure Gauges",
+        "main": 4431,
+        "internal": false
+      }
+    },
+    {
+      "scenario": "desktop/ar/products/liquid-filled-pressure-gauges/index.html",
+      "status": "PASS",
+      "layout": {
+        "overflow": -15,
+        "broken": [],
+        "lang": "ar",
+        "dir": "rtl"
+      },
+      "content": {
+        "h1": "مقاييس ضغط مملوءة بالسائل",
+        "main": 3792,
+        "internal": false
+      }
+    },
+    {
+      "scenario": "desktop/products/pressure-gauges-accessories/pressure-gauge-syphons.html",
+      "status": "PASS",
+      "layout": {
+        "overflow": -15,
+        "broken": [],
+        "lang": "en",
+        "dir": "ltr"
+      },
+      "content": {
+        "h1": "Pressure Gauge Syphon Tubes",
+        "main": 2302,
+        "internal": false
+      }
+    },
+    {
+      "scenario": "desktop/ar/products/pressure-gauge-syphons/index.html",
+      "status": "PASS",
+      "layout": {
+        "overflow": -15,
+        "broken": [],
+        "lang": "ar",
+        "dir": "rtl"
+      },
+      "content": {
+        "h1": "أنابيب سيفون لمقاييس الضغط",
+        "main": 1793,
+        "internal": false
+      }
+    },
+    {
+      "scenario": "desktop/products/grooved-pipe-fittings/grooved-flange-adapters.html",
+      "status": "PASS",
+      "layout": {
+        "overflow": -15,
+        "broken": [],
+        "lang": "en",
+        "dir": "ltr"
+      },
+      "content": {
+        "h1": "Grooved Flange Adapters",
+        "main": 2189,
+        "internal": false
+      }
+    },
+    {
+      "scenario": "desktop/ar/products/grooved-flange-adapters/index.html",
+      "status": "PASS",
+      "layout": {
+        "overflow": -15,
+        "broken": [],
+        "lang": "ar",
+        "dir": "rtl"
+      },
+      "content": {
+        "h1": "محولات فلنجية ذات أخاديد",
+        "main": 1712,
+        "internal": false
+      }
+    },
+    {
+      "scenario": "desktop/products/fire-pumps-controllers/horizontal-single-stage-fire-pumps.html",
+      "status": "PASS",
+      "layout": {
+        "overflow": -15,
+        "broken": [],
+        "lang": "en",
+        "dir": "ltr"
+      },
+      "content": {
+        "h1": "Horizontal Single-Stage Fire Pumps",
+        "main": 2428,
+        "internal": false
+      }
+    },
+    {
+      "scenario": "desktop/ar/products/horizontal-single-stage-fire-pumps/index.html",
+      "status": "PASS",
+      "layout": {
+        "overflow": -15,
+        "broken": [],
+        "lang": "ar",
+        "dir": "rtl"
+      },
+      "content": {
+        "h1": "مضخات حريق أفقية أحادية المرحلة",
+        "main": 1891,
+        "internal": false
+      }
+    },
+    {
+      "scenario": "mobile/products/fire-alarm-systems/combined-smoke-heat-detectors.html",
+      "status": "PASS",
+      "layout": {
+        "overflow": 0,
+        "broken": [],
+        "lang": "en",
+        "dir": "ltr"
+      },
+      "content": {
+        "h1": "Combined Smoke and Heat Detectors",
+        "main": 2201,
+        "internal": false
+      }
+    },
+    {
+      "scenario": "mobile/ar/products/combined-smoke-heat-detectors/index.html",
+      "status": "PASS",
+      "layout": {
+        "overflow": 0,
+        "broken": [],
+        "lang": "ar",
+        "dir": "rtl"
+      },
+      "content": {
+        "h1": "كواشف الدخان والحرارة المدمجة",
+        "main": 1755,
+        "internal": false
+      }
+    },
+    {
+      "scenario": "mobile/products/fire-alarm-systems/manual-fire-alarm-call-points.html",
+      "status": "PASS",
+      "layout": {
+        "overflow": 0,
+        "broken": [],
+        "lang": "en",
+        "dir": "ltr"
+      },
+      "content": {
+        "h1": "Manual Fire Alarm Call Points",
+        "main": 2446,
+        "internal": false
+      }
+    },
+    {
+      "scenario": "mobile/ar/products/manual-fire-alarm-call-points/index.html",
+      "status": "PASS",
+      "layout": {
+        "overflow": 0,
+        "broken": [],
+        "lang": "ar",
+        "dir": "rtl"
+      },
+      "content": {
+        "h1": "نقاط نداء يدوية لإنذار الحريق",
+        "main": 1978,
+        "internal": false
+      }
+    },
+    {
+      "scenario": "mobile/products/fire-alarm-systems/fire-alarm-input-output-modules.html",
+      "status": "PASS",
+      "layout": {
+        "overflow": 0,
+        "broken": [],
+        "lang": "en",
+        "dir": "ltr"
+      },
+      "content": {
+        "h1": "Fire Alarm Input/Output Modules",
+        "main": 2466,
+        "internal": false
+      }
+    },
+    {
+      "scenario": "mobile/ar/products/fire-alarm-input-output-modules/index.html",
+      "status": "PASS",
+      "layout": {
+        "overflow": 0,
+        "broken": [],
+        "lang": "ar",
+        "dir": "rtl"
+      },
+      "content": {
+        "h1": "وحدات إدخال وإخراج لإنذار الحريق",
+        "main": 2022,
+        "internal": false
+      }
+    },
+    {
+      "scenario": "mobile/products/fire-alarm-systems/fire-alarm-sounder-beacons.html",
+      "status": "PASS",
+      "layout": {
+        "overflow": 0,
+        "broken": [],
+        "lang": "en",
+        "dir": "ltr"
+      },
+      "content": {
+        "h1": "Fire Alarm Sounder Beacons",
+        "main": 2687,
+        "internal": false
+      }
+    },
+    {
+      "scenario": "mobile/ar/products/fire-alarm-sounder-beacons/index.html",
+      "status": "PASS",
+      "layout": {
+        "overflow": 0,
+        "broken": [],
+        "lang": "ar",
+        "dir": "rtl"
+      },
+      "content": {
+        "h1": "أجهزة إنذار حريق صوتية وضوئية",
+        "main": 2319,
+        "internal": false
+      }
+    },
+    {
+      "scenario": "mobile/products/fire-pumps-controllers/vertical-multistage-fire-pumps.html",
+      "status": "PASS",
+      "layout": {
+        "overflow": 0,
+        "broken": [],
+        "lang": "en",
+        "dir": "ltr"
+      },
+      "content": {
+        "h1": "Vertical Multistage Fire Pumps",
+        "main": 1997,
+        "internal": false
+      }
+    },
+    {
+      "scenario": "mobile/ar/products/vertical-multistage-fire-pumps/index.html",
+      "status": "PASS",
+      "layout": {
+        "overflow": 0,
+        "broken": [],
+        "lang": "ar",
+        "dir": "rtl"
+      },
+      "content": {
+        "h1": "مضخات حريق رأسية متعددة المراحل",
+        "main": 1617,
+        "internal": false
+      }
+    },
+    {
+      "scenario": "mobile/products/fire-pumps-controllers/vertical-single-stage-fire-pumps.html",
+      "status": "PASS",
+      "layout": {
+        "overflow": 0,
+        "broken": [],
+        "lang": "en",
+        "dir": "ltr"
+      },
+      "content": {
+        "h1": "Vertical Single-stage Fire Pumps",
+        "main": 2155,
+        "internal": false
+      }
+    },
+    {
+      "scenario": "mobile/ar/products/vertical-single-stage-fire-pumps/index.html",
+      "status": "PASS",
+      "layout": {
+        "overflow": 0,
+        "broken": [],
+        "lang": "ar",
+        "dir": "rtl"
+      },
+      "content": {
+        "h1": "مضخات حريق رأسية أحادية المرحلة",
+        "main": 1716,
+        "internal": false
+      }
+    },
+    {
+      "scenario": "mobile/products/fire-pumps-controllers/fire-pressure-maintenance-sets.html",
+      "status": "PASS",
+      "layout": {
+        "overflow": 0,
+        "broken": [],
+        "lang": "en",
+        "dir": "ltr"
+      },
+      "content": {
+        "h1": "Fire Pressure Maintenance Sets",
+        "main": 2146,
+        "internal": false
+      }
+    },
+    {
+      "scenario": "mobile/ar/products/fire-pressure-maintenance-sets/index.html",
+      "status": "PASS",
+      "layout": {
+        "overflow": 0,
+        "broken": [],
+        "lang": "ar",
+        "dir": "rtl"
+      },
+      "content": {
+        "h1": "مجموعات تثبيت ضغط مياه الحريق",
+        "main": 1677,
+        "internal": false
+      }
+    },
+    {
+      "scenario": "mobile/products/pressure-gauges-accessories/liquid-filled-pressure-gauges.html",
+      "status": "PASS",
+      "layout": {
+        "overflow": 0,
+        "broken": [],
+        "lang": "en",
+        "dir": "ltr"
+      },
+      "content": {
+        "h1": "Liquid-filled Pressure Gauges",
+        "main": 4425,
+        "internal": false
+      }
+    },
+    {
+      "scenario": "mobile/ar/products/liquid-filled-pressure-gauges/index.html",
+      "status": "PASS",
+      "layout": {
+        "overflow": 0,
+        "broken": [],
+        "lang": "ar",
+        "dir": "rtl"
+      },
+      "content": {
+        "h1": "مقاييس ضغط مملوءة بالسائل",
+        "main": 3786,
+        "internal": false
+      }
+    },
+    {
+      "scenario": "mobile/products/pressure-gauges-accessories/pressure-gauge-syphons.html",
+      "status": "PASS",
+      "layout": {
+        "overflow": 0,
+        "broken": [],
+        "lang": "en",
+        "dir": "ltr"
+      },
+      "content": {
+        "h1": "Pressure Gauge Syphon Tubes",
+        "main": 2296,
+        "internal": false
+      }
+    },
+    {
+      "scenario": "mobile/ar/products/pressure-gauge-syphons/index.html",
+      "status": "PASS",
+      "layout": {
+        "overflow": 0,
+        "broken": [],
+        "lang": "ar",
+        "dir": "rtl"
+      },
+      "content": {
+        "h1": "أنابيب سيفون لمقاييس الضغط",
+        "main": 1787,
+        "internal": false
+      }
+    },
+    {
+      "scenario": "mobile/products/grooved-pipe-fittings/grooved-flange-adapters.html",
+      "status": "PASS",
+      "layout": {
+        "overflow": 0,
+        "broken": [],
+        "lang": "en",
+        "dir": "ltr"
+      },
+      "content": {
+        "h1": "Grooved Flange Adapters",
+        "main": 2183,
+        "internal": false
+      }
+    },
+    {
+      "scenario": "mobile/ar/products/grooved-flange-adapters/index.html",
+      "status": "PASS",
+      "layout": {
+        "overflow": 0,
+        "broken": [],
+        "lang": "ar",
+        "dir": "rtl"
+      },
+      "content": {
+        "h1": "محولات فلنجية ذات أخاديد",
+        "main": 1706,
+        "internal": false
+      }
+    },
+    {
+      "scenario": "mobile/products/fire-pumps-controllers/horizontal-single-stage-fire-pumps.html",
+      "status": "PASS",
+      "layout": {
+        "overflow": 0,
+        "broken": [],
+        "lang": "en",
+        "dir": "ltr"
+      },
+      "content": {
+        "h1": "Horizontal Single-Stage Fire Pumps",
+        "main": 2422,
+        "internal": false
+      }
+    },
+    {
+      "scenario": "mobile/ar/products/horizontal-single-stage-fire-pumps/index.html",
+      "status": "PASS",
+      "layout": {
+        "overflow": 0,
+        "broken": [],
+        "lang": "ar",
+        "dir": "rtl"
+      },
+      "content": {
+        "h1": "مضخات حريق أفقية أحادية المرحلة",
+        "main": 1885,
+        "internal": false
+      }
+    }
+  ],
+  "screenshots": [
+    "product-combined-smoke-heat-detectors-en-desktop.png",
+    "product-combined-smoke-heat-detectors-ar-desktop.png",
+    "product-manual-fire-alarm-call-points-en-desktop.png",
+    "product-manual-fire-alarm-call-points-ar-desktop.png",
+    "product-fire-alarm-sounder-beacons-en-desktop.png",
+    "product-fire-alarm-sounder-beacons-ar-desktop.png",
+    "product-combined-smoke-heat-detectors-en-mobile.png",
+    "product-combined-smoke-heat-detectors-ar-mobile.png",
+    "product-manual-fire-alarm-call-points-en-mobile.png",
+    "product-manual-fire-alarm-call-points-ar-mobile.png",
+    "product-fire-alarm-sounder-beacons-en-mobile.png",
+    "product-fire-alarm-sounder-beacons-ar-mobile.png"
+  ]
+}

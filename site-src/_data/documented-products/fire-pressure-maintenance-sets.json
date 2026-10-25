@@ -20,7 +20,20 @@
     ],
     "notes": [
       "只描述可见组装配置，不承诺一用一备、隔膜结构、自动控制逻辑或控制柜包含在内。"
-    ]
+    ],
+    "generalTechnicalReference": {
+      "url": "https://www.grundfos.com/ca/learn/research-and-insights/jockey-pump",
+      "reviewedAt": "2026-10-25",
+      "scope": "General operating principle or selection guidance only; no numeric specification or certification transferred from the reference manufacturer."
+    },
+    "marketReference": {
+      "grade": "C-other-manufacturer-or-series-reference",
+      "reviewDate": "2026-10-25",
+      "url": "http://shanghaijiaxun.com/81.html",
+      "model": "Jiaxun multistage pressure-maintenance series",
+      "location": "Archived manufacturer catalogue: docs/reviews/web-spec-research-20261025/jiaxun-page-5.jpg",
+      "scope": "Selection reference only; no supplied-SKU specification, certification, compatibility or availability inferred."
+    }
   },
   "publication": {
     "status": "release-candidate",
@@ -147,7 +160,7 @@
       "inquiryTitle": "Request product details and a quotation",
       "inquiryBody": "Send your selected configuration, quantity and destination.",
       "title": "Fire Pressure Maintenance Sets",
-      "lead": "The SQL series reference assembly combines a vertical pressure vessel and two pumps on a common skid for fire water pressure maintenance.",
+      "lead": "The SQL series reference assembly combines a vertical pressure vessel and two pumps on a common skid for fire water pressure maintenance. Pressure-maintenance equipment compensates for small pressure losses and reduces unnecessary main fire-pump starts. Select the assembly to match the system pressure and maintenance duty.",
       "eyebrow": "Fire Pumps & Control Cabinets",
       "seoTitle": "Fire Pressure Maintenance Sets | CHUANWEI FIRE",
       "seoDescription": "The SQL series reference assembly combines a vertical pressure vessel and two pumps on a common skid for fire water pressure maintenance.",
@@ -170,7 +183,16 @@
       "selection0Label": "Pressure and vessel duty",
       "selection0Body": "Provide the required operating pressure, usable water volume and pressure-maintenance flow.",
       "selection1Label": "Assembly scope",
-      "selection1Body": "Specify pump configuration, power supply, control requirements and the equipment to include in the set."
+      "selection1Body": "Specify pump configuration, power supply, control requirements and the equipment to include in the set.",
+      "referenceHeading": "Selection reference",
+      "referenceScope": "The manufacturer example below helps you specify an enquiry. Its values describe the named reference model, not the CHUANWEI product pictured above. Request the offered model’s datasheet for your order.",
+      "referenceSource": "Manufacturer reference",
+      "reference0Title": "Jiaxun multistage pressure-maintenance series",
+      "reference0Note": "These catalogue ranges span multiple models; maximum flow and maximum head are not one duty point. Select the offered pump using its performance curve.",
+      "reference0Row0Label": "Series flow range",
+      "reference0Row0Value": "1–5 L/s",
+      "reference0Row1Label": "Series head range",
+      "reference0Row1Value": "30–158 m"
     },
     "ar": {
       "onThisPage": "في هذه الصفحة",
@@ -203,7 +225,7 @@
       "inquiryTitle": "اطلب تفاصيل المنتج وعرض سعر",
       "inquiryBody": "أرسل التكوين المختار والكمية والوجهة.",
       "title": "مجموعات تثبيت ضغط مياه الحريق",
-      "lead": "يجمع التكوين المرجعي من سلسلة SQL خزان ضغط رأسيًا ومضختين على قاعدة مشتركة لتثبيت ضغط مياه الحريق.",
+      "lead": "تجمع مجموعة سلسلة SQL المعروضة وعاء ضغط رأسياً ومضختين على قاعدة مشتركة للمحافظة على ضغط مياه الحريق. تعوض معدات المحافظة على الضغط الفواقد الصغيرة وتحد من مرات التشغيل غير الضرورية لمضخة الحريق الرئيسية. اختر المجموعة وفق ضغط النظام ومتطلبات المحافظة عليه.",
       "eyebrow": "مضخات الحريق وخزائن التحكم",
       "seoTitle": "مجموعات تثبيت ضغط مياه الحريق | CHUANWEI FIRE",
       "seoDescription": "يجمع التكوين المرجعي من سلسلة SQL خزان ضغط رأسيًا ومضختين على قاعدة مشتركة لتثبيت ضغط مياه الحريق.",
@@ -226,7 +248,35 @@
       "selection0Label": "الضغط ومتطلبات الخزان",
       "selection0Body": "قدم ضغط التشغيل المطلوب وحجم الماء القابل للاستخدام وتدفق تثبيت الضغط.",
       "selection1Label": "نطاق التجميع",
-      "selection1Body": "حدد تكوين المضخات والتغذية الكهربائية ومتطلبات التحكم والمعدات المطلوب تضمينها في المجموعة."
+      "selection1Body": "حدد تكوين المضخات والتغذية الكهربائية ومتطلبات التحكم والمعدات المطلوب تضمينها في المجموعة.",
+      "referenceHeading": "مرجع الاختيار",
+      "referenceScope": "يساعد المثال التالي من الشركة المصنّعة المذكورة في تحديد متطلبات الاستفسار. القيم تخص الطراز المرجعي المذكور، ولا تمثل مواصفات منتج CHUANWEI المصوّر أعلاه. اطلب ورقة بيانات الطراز المعروض لطلبك.",
+      "referenceSource": "مرجع الشركة المصنّعة",
+      "reference0Title": "Jiaxun multistage pressure-maintenance series",
+      "reference0Note": "تغطي نطاقات الكتالوج عدة طرازات؛ أقصى تدفق وأقصى ارتفاع ضخ ليسا نقطة تشغيل واحدة. اختر المضخة المعروضة باستخدام منحنى أدائها.",
+      "reference0Row0Label": "نطاق تدفق السلسلة",
+      "reference0Row0Value": "1–5 L/s",
+      "reference0Row1Label": "نطاق ارتفاع الضخ للسلسلة",
+      "reference0Row1Value": "30–158 m"
     }
-  }
+  },
+  "referenceExamples": [
+    {
+      "title": "reference0Title",
+      "rows": [
+        {
+          "label": "reference0Row0Label",
+          "value": "reference0Row0Value",
+          "technical": true
+        },
+        {
+          "label": "reference0Row1Label",
+          "value": "reference0Row1Value",
+          "technical": true
+        }
+      ],
+      "note": "reference0Note",
+      "url": "http://shanghaijiaxun.com/81.html"
+    }
+  ]
 }

@@ -1,0 +1,135 @@
+{
+  "date": "2026-10-24",
+  "status": "source-verified; generated pages and release validation performed by the coordinating task",
+  "ordinaryK115Route": "product:k115-quick-response-fire-sprinkler",
+  "ordinaryK115Photographs": [
+    {
+      "sourceFile": "DSC_5887.jpg",
+      "caption": {
+        "en": "Upright K115 quick-response sprinkler — 68°C, marked K-ZSTZ",
+        "ar": "رشاش K115 سريع الاستجابة قائم — 68°C، يحمل علامة K-ZSTZ"
+      },
+      "detailPath": "assets/products/guanya-2026/extended-coverage-quick-response-fire-sprinkler-dsc_5887-1600.webp"
+    },
+    {
+      "sourceFile": "DSC_5888.jpg",
+      "caption": {
+        "en": "Pendent K115 quick-response sprinkler — 68°C, marked K-ZSTX",
+        "ar": "رشاش K115 سريع الاستجابة معلق — 68°C، يحمل علامة K-ZSTX"
+      },
+      "detailPath": "assets/products/guanya-2026/extended-coverage-quick-response-fire-sprinkler-dsc_5888-1600.webp"
+    },
+    {
+      "sourceFile": "DSC_5889.jpg",
+      "caption": {
+        "en": "Horizontal sidewall K115 quick-response sprinkler — 68°C, marked K-ZSTBS",
+        "ar": "رشاش K115 سريع الاستجابة جانبي أفقي — 68°C، يحمل علامة K-ZSTBS"
+      },
+      "detailPath": "assets/products/guanya-2026/extended-coverage-quick-response-fire-sprinkler-dsc_5889-1600.webp"
+    }
+  ],
+  "removedEcBindings": [
+    {
+      "routeId": "product:extended-coverage-quick-response-fire-sprinkler",
+      "mediaKey": "hero",
+      "originalPath": "products/消防喷头/extended-coverage-quick-response-sprinkler/temporary-reference-pendent.jpg",
+      "photoSourceFile": "DSC_5887.jpg",
+      "detailPath": "assets/products/guanya-2026/extended-coverage-quick-response-fire-sprinkler-dsc_5887-1600.webp",
+      "displayPath": "assets/products/guanya-2026/extended-coverage-quick-response-fire-sprinkler-dsc_5887-640.webp",
+      "width": 877,
+      "height": 1223,
+      "matchEvidence": "Visible K-ZST model marking, K115 / 68°C and installation geometry. Additional sample photograph only; equivalence to EC-ZST factory models is not confirmed. Original pixels and derivatives retained.",
+      "caption": {
+        "en": "Pendent K115 / 68°C sample — marked K-ZSTX",
+        "ar": "عينة معلق K115 / 68°C — تحمل علامة K-ZSTX"
+      }
+    },
+    {
+      "routeId": "product:extended-coverage-quick-response-fire-sprinkler",
+      "mediaKey": "image1",
+      "originalPath": "products/消防喷头/extended-coverage-quick-response-sprinkler/temporary-reference-upright.jpg",
+      "photoSourceFile": "DSC_5888.jpg",
+      "detailPath": "assets/products/guanya-2026/extended-coverage-quick-response-fire-sprinkler-dsc_5888-1600.webp",
+      "displayPath": "assets/products/guanya-2026/extended-coverage-quick-response-fire-sprinkler-dsc_5888-640.webp",
+      "width": 860,
+      "height": 1256,
+      "matchEvidence": "Visible K-ZST model marking, K115 / 68°C and installation geometry. Additional sample photograph only; equivalence to EC-ZST factory models is not confirmed. Original pixels and derivatives retained.",
+      "caption": {
+        "en": "Upright K115 / 68°C sample — marked K-ZSTZ",
+        "ar": "عينة قائم K115 / 68°C — تحمل علامة K-ZSTZ"
+      }
+    },
+    {
+      "routeId": "product:extended-coverage-quick-response-fire-sprinkler",
+      "mediaKey": "image2",
+      "originalPath": "products/消防喷头/extended-coverage-quick-response-sprinkler/temporary-reference-horizontal-sidewall.jpg",
+      "photoSourceFile": "DSC_5889.jpg",
+      "detailPath": "assets/products/guanya-2026/extended-coverage-quick-response-fire-sprinkler-dsc_5889-1600.webp",
+      "displayPath": "assets/products/guanya-2026/extended-coverage-quick-response-fire-sprinkler-dsc_5889-640.webp",
+      "width": 979,
+      "height": 1342,
+      "matchEvidence": "Visible K-ZST model marking, K115 / 68°C and installation geometry. Additional sample photograph only; equivalence to EC-ZST factory models is not confirmed. Original pixels and derivatives retained.",
+      "caption": {
+        "en": "Horizontal sidewall K115 / 68°C sample — marked K-ZSTBS",
+        "ar": "عينة جانبي أفقي K115 / 68°C — تحمل علامة K-ZSTBS"
+      }
+    }
+  ],
+  "restoredEcPhotographs": [
+    {
+      "modelPrefix": "EC-ZSTX",
+      "publicPath": "products/消防喷头/extended-coverage-quick-response-sprinkler/temporary-reference-pendent.jpg",
+      "publishedSha256": "5e43b0511ea0a4517844c74572fe676e29ea84276bdf38fb083637db930532da",
+      "publishedBytes": 204508,
+      "watermarkManifest": ".watermark-backups/product-watermark-manifest.json",
+      "unwatermarkedMasterPath": ".watermark-backups/product-images-original/消防喷头/extended-coverage-quick-response-sprinkler/temporary-reference-pendent.jpg",
+      "masterSha256": "872e04103a14b1f451bfa8500927d8ed5c2585cc88fef50588244cfea7051dea",
+      "cameraSource": "D:\\temp\\冠亚2026产品图\\DSC_5817.jpg",
+      "cameraSourceSha256": "872e04103a14b1f451bfa8500927d8ed5c2585cc88fef50588244cfea7051dea",
+      "commercialPackageSource": "D:\\work\\codex\\阿里国际站运营\\outputs\\alibaba-detail-image-studio\\EC-ZST系列-115-68℃-扩大覆盖洒水喷头\\source\\EC-ZSTX-115-68C-Q3A-下垂型-原图.jpg",
+      "commercialPackageSourceSha256": "872e04103a14b1f451bfa8500927d8ed5c2585cc88fef50588244cfea7051dea",
+      "match": "Exact source hash equals the existing unwatermarked master"
+    },
+    {
+      "modelPrefix": "EC-ZSTZ",
+      "publicPath": "products/消防喷头/extended-coverage-quick-response-sprinkler/temporary-reference-upright.jpg",
+      "publishedSha256": "35b1dfcb317ab914ba5cc804a1d8a9b55c61940968afdc1e0113370a1ac7bfb8",
+      "publishedBytes": 223000,
+      "watermarkManifest": ".watermark-backups/product-watermark-manifest.json",
+      "unwatermarkedMasterPath": ".watermark-backups/product-images-original/消防喷头/extended-coverage-quick-response-sprinkler/temporary-reference-upright.jpg",
+      "masterSha256": "4a523b945992a7f942487db2198e42911052ddcf20c2eaedfa8c74423b1b84b2",
+      "cameraSource": "D:\\temp\\冠亚2026产品图\\DSC_5812.jpg",
+      "cameraSourceSha256": "e4a1cfec8b9d230b860284bb5eafd2d25714134b0280da27469274937f58437a",
+      "commercialPackageSource": "D:\\work\\codex\\阿里国际站运营\\outputs\\alibaba-detail-image-studio\\EC-ZST系列-115-68℃-扩大覆盖洒水喷头\\source\\EC-ZSTZ-115-68C-Q3A-直立型-原图.jpg",
+      "commercialPackageSourceSha256": "e4a1cfec8b9d230b860284bb5eafd2d25714134b0280da27469274937f58437a",
+      "match": "Same EC-ZSTZ photo visually verified, equal 1316x1460 dimensions; old unwatermarked master is a JPEG re-encoding, per-channel mean absolute difference below 0.82/255. No byte-identity claim."
+    },
+    {
+      "modelPrefix": "EC-ZSTBS",
+      "publicPath": "products/消防喷头/extended-coverage-quick-response-sprinkler/temporary-reference-horizontal-sidewall.jpg",
+      "publishedSha256": "6ff81d0ebace1113ea2fb468dca2eb656b599f3a48e0a1089c2b0911a2b1df7b",
+      "publishedBytes": 207395,
+      "watermarkManifest": ".watermark-backups/product-watermark-manifest.json",
+      "unwatermarkedMasterPath": ".watermark-backups/product-images-original/消防喷头/extended-coverage-quick-response-sprinkler/temporary-reference-horizontal-sidewall.jpg",
+      "masterSha256": "82732646fde05eb125cdcfb8b3cc9ba91a0905001e7cf5691ff3b9a17bd03441",
+      "cameraSource": "D:\\temp\\冠亚2026产品图\\DSC_5820.jpg",
+      "cameraSourceSha256": "82732646fde05eb125cdcfb8b3cc9ba91a0905001e7cf5691ff3b9a17bd03441",
+      "commercialPackageSource": "D:\\work\\codex\\阿里国际站运营\\outputs\\alibaba-detail-image-studio\\EC-ZST系列-115-68℃-扩大覆盖洒水喷头\\source\\EC-ZSTBS-115-68C-Q3A-边墙型-原图.jpg",
+      "commercialPackageSourceSha256": "82732646fde05eb125cdcfb8b3cc9ba91a0905001e7cf5691ff3b9a17bd03441",
+      "match": "Exact source hash equals the existing unwatermarked master"
+    }
+  ],
+  "sourceAuthorization": "User supplied the folder and requested suitable existing export-product photos be added to the official website on 2026-10-09; preserve physical marks and original files.",
+  "sourceNoteCorrection": "The historical Baidu temporary-reference note does not describe the current JPEG bytes. Current images are traceable to user-supplied EC-ZST photographs and the EC-specific commercial source package. Preserve existing public URLs and watermarks.",
+  "reviewedEnglishCopyChanges": [
+    [
+      "Compare the three EC-ZST models in the main gallery. Additional K115 / 68°C photographs below show K-ZST-marked samples; confirm the required factory marking with your order.",
+      "Compare the EC-ZST pendent, upright and horizontal sidewall configurations shown in the main gallery. Confirm the factory model and installation orientation with your order."
+    ]
+  ],
+  "protectedEcData": {
+    "modelsUnchanged": true,
+    "mediaPathsUnchanged": true,
+    "technicalSpecificationsUnchanged": true
+  }
+}

@@ -1,0 +1,296 @@
+{
+  "template": "product-series/documented-product.njk",
+  "styles": [
+    "css/common.css",
+    "css/sprinkler-product.css",
+    "css/sprinkler-product-gallery.css",
+    "css/documented-product.css",
+    "css/site-navigation.css"
+  ],
+  "shared": {},
+  "modelColumns": [
+    {
+      "label": "configuration",
+      "field": "configuration",
+      "localized": true
+    },
+    {
+      "label": "selectionDetails",
+      "field": "selection",
+      "localized": true
+    }
+  ],
+  "confirmationItems": [
+    {
+      "label": "selection0Label",
+      "body": "selection0Body"
+    },
+    {
+      "label": "selection1Label",
+      "body": "selection1Body"
+    }
+  ],
+  "validation": {
+    "anchors": [
+      "gallery",
+      "specifications",
+      "models",
+      "quotation"
+    ],
+    "requiredTechnicalValues": []
+  },
+  "id": "threaded-mechanical-tees",
+  "routeId": "product:threaded-mechanical-tees",
+  "source": {
+    "evidence": "User-selected 10.23 saved product page and its approved Alibaba image package.",
+    "review": "docs/release/alibaba-five-products-20261025/source-review.json",
+    "sourceNames": [
+      "D:\\work\\codex\\外部商品连接内容\\10.23\\大口径沟槽机械三通 消防工程连接管件 丝接沟槽机械三通厂家批发 - 阿里巴巴.html"
+    ],
+    "unresolved": [
+      "丝接出口仅以白底图结构为准；原页沟槽出口不能混入本套丝接规格",
+      "确认BSP或NPT等实际螺纹标准，不能仅凭照片推断",
+      "确认主管外径、开孔要求、密封垫材料及供货组件",
+      "本店实际可供出口规格与型号对应关系",
+      "主体材质及牌号，必要时含密封件和紧固件材质",
+      "额定工作压力与目标市场标准或认证的有效证明",
+      "价格、币种、贸易条款、MOQ、库存及交期",
+      "每箱数量、包装方式、净重、毛重及包装尺寸",
+      "如需实物Logo定制，确认工艺、位置、MOQ、稿件格式、样品费及交期"
+    ],
+    "notes": [
+      "Three fitting bodies and pump casing materials checked against exact saved HTML; flange material left on request because title and attribute field differ.",
+      "Do not transfer pressure, thread standard, casting marks or pump performance from unrelated products."
+    ],
+    "marketReference": {
+      "grade": "C-other-manufacturer-or-series-reference",
+      "reviewDate": "2026-10-25",
+      "url": "https://assets.victaulic.com/assets/uploads/literature/11.02.pdf",
+      "model": "Victaulic Styles 920 / 920N · 11.02",
+      "location": "11.02, page 1",
+      "scope": "Selection reference only; no supplied-SKU specification, certification, compatibility or availability inferred."
+    }
+  },
+  "publication": {
+    "status": "release-candidate",
+    "externalRelease": true,
+    "imageRights": "user-confirmed-website-use",
+    "imageRightsEvidence": "docs/release/alibaba-five-products-20261025/image-rights-confirmation.json"
+  },
+  "media": {
+    "hero": "assets/products/alibaba-20261023/threaded-mechanical-tees/hero.webp",
+    "features": "assets/products/alibaba-20261023/threaded-mechanical-tees/features.webp"
+  },
+  "imageDimensions": {
+    "hero": {
+      "width": 800,
+      "height": 800
+    },
+    "features": {
+      "width": 750,
+      "height": 1000
+    }
+  },
+  "heroFacts": [
+    "spec0Value",
+    "spec1Value"
+  ],
+  "gallery": [
+    {
+      "media": "hero",
+      "alt": "heroAlt",
+      "caption": "heroCaption",
+      "thumbnailAlt": "heroAlt"
+    },
+    {
+      "media": "features",
+      "alt": "featuresAlt",
+      "caption": "featuresCaption",
+      "thumbnailAlt": "featuresAlt"
+    }
+  ],
+  "specifications": [
+    {
+      "label": "spec0Label",
+      "value": "spec0Value"
+    },
+    {
+      "label": "spec1Label",
+      "value": "spec1Value"
+    },
+    {
+      "label": "spec2Label",
+      "value": "spec2Value"
+    },
+    {
+      "label": "spec3Label",
+      "value": "spec3Value"
+    },
+    {
+      "label": "spec4Label",
+      "value": "spec4Value"
+    },
+    {
+      "label": "spec5Label",
+      "value": "spec5Value"
+    }
+  ],
+  "models": [
+    {
+      "configuration": "model0Name",
+      "selection": "model0Selection"
+    }
+  ],
+  "inquiry": {
+    "whatsapp": "https://wa.me/8617326528368?text=Hello%2C%20I%20am%20interested%20in%20Threaded%20Mechanical%20Tees.%0AQuantity%20/%20destination%20/%20requirements%3A",
+    "email": "mailto:zhengcolin1@gmail.com"
+  },
+  "copy": {
+    "en": {
+      "onThisPage": "On this page",
+      "gallery": "Product gallery",
+      "galleryTitle": "Product views",
+      "galleryBody": "View the actual product photograph and the supporting feature illustration.",
+      "specifications": "Specifications",
+      "specificationsTitle": "Product specifications",
+      "specificationsBody": "Use the specifications together with the configuration table below.",
+      "availableModels": "Models & configurations",
+      "modelsTitle": "Models & configurations",
+      "modelsBody": "The pictured configuration is available for quotation. Send the connection and service requirements below.",
+      "modelsNote": "Final dimensions and technical data are supplied for the selected configuration.",
+      "factoryModel": "Product reference",
+      "configuration": "Configuration",
+      "selectionDetails": "Selection details",
+      "temperature": "Temperature",
+      "thermalElement": "Thermal element",
+      "quotation": "Request a quotation",
+      "quotationTitle": "Select your configuration",
+      "quotationBody": "Include the product reference, quantity and delivery destination, together with the requirements below.",
+      "askOnWhatsApp": "Ask on WhatsApp",
+      "emailSales": "Email sales",
+      "productImagePreview": "Product image preview",
+      "closeImagePreview": "Close image preview",
+      "enlargedImage": "Enlarged product image",
+      "previousProductImage": "Previous product image",
+      "nextProductImage": "Next product image",
+      "selectProductImage": "Select product image",
+      "inquiryTitle": "Request product details and a quotation",
+      "inquiryBody": "Send your selected configuration, quantity and destination.",
+      "title": "Threaded Mechanical Tees",
+      "lead": "Threaded mechanical tees provide a female-threaded branch outlet on a pipe. The pictured ductile iron assembly has a red two-piece saddle housing, side fasteners and a black gasket.",
+      "eyebrow": "Grooved Pipe Fittings",
+      "seoTitle": "Threaded Mechanical Tees | CHUANWEI FIRE",
+      "seoDescription": "Threaded mechanical tees provide a female-threaded branch outlet on a pipe. The pictured ductile iron assembly has a red two-piece saddle housing, side fasteners and a black gasket.",
+      "note": "Match the actual pipe dimensions and connection drawing when ordering. Size-specific dimensions and pressure data are available on request.",
+      "heroAlt": "Threaded mechanical tee — actual product photograph",
+      "heroCaption": "Threaded mechanical tee — actual product photograph",
+      "featuresAlt": "Threaded Mechanical Tees — product feature illustration in English",
+      "featuresCaption": "Product feature illustration (English)",
+      "model0Name": "Female-threaded branch outlet",
+      "model0Selection": "Main pipe outside diameter, branch thread size and thread standard, gasket requirements and quantity.",
+      "selection0Label": "Connection and selection",
+      "selection0Body": "Main pipe outside diameter, branch thread size and thread standard, gasket requirements and quantity.",
+      "selection1Label": "Service and customization",
+      "selection1Body": "Send the service requirements, quantity and destination. Customization is available; details are reviewed against your order.",
+      "spec0Label": "Configuration",
+      "spec0Value": "Female-threaded branch outlet",
+      "spec1Label": "Connection",
+      "spec1Value": "Bolted saddle with threaded outlet",
+      "spec2Label": "Body material",
+      "spec2Value": "Ductile iron body",
+      "spec3Label": "Application",
+      "spec3Value": "Fire protection water piping",
+      "spec4Label": "Origin",
+      "spec4Value": "Fujian, China",
+      "spec5Label": "Customization",
+      "spec5Value": "Available",
+      "referenceHeading": "Selection reference",
+      "referenceScope": "The manufacturer example below helps you specify an enquiry. Its values describe the named reference model, not the CHUANWEI product pictured above. Request the offered model’s datasheet for your order.",
+      "referenceSource": "Manufacturer reference",
+      "reference0Title": "Victaulic Styles 920 / 920N · 11.02",
+      "reference0Note": "Select the exact outlet connection and use the hole dimensions specified for that size.",
+      "reference0Row0Label": "Main × branch size range",
+      "reference0Row0Value": "DN50 × DN15 – DN200 × DN100"
+    },
+    "ar": {
+      "onThisPage": "في هذه الصفحة",
+      "gallery": "صور المنتج",
+      "galleryTitle": "عرض المنتج",
+      "galleryBody": "شاهد الصورة الفعلية للمنتج والرسم التوضيحي للخصائص.",
+      "specifications": "المواصفات",
+      "specificationsTitle": "مواصفات المنتج",
+      "specificationsBody": "استخدم المواصفات مع جدول التكوينات أدناه.",
+      "availableModels": "الموديلات والتكوينات",
+      "modelsTitle": "الموديلات والتكوينات",
+      "modelsBody": "التكوين المصور متاح لطلب عرض سعر. أرسل متطلبات التوصيل والتشغيل أدناه.",
+      "modelsNote": "تُقدم الأبعاد النهائية والبيانات الفنية للتكوين المختار.",
+      "factoryModel": "مرجع المنتج",
+      "configuration": "التكوين",
+      "selectionDetails": "تفاصيل الاختيار",
+      "temperature": "درجة الحرارة",
+      "thermalElement": "العنصر الحراري",
+      "quotation": "طلب عرض سعر",
+      "quotationTitle": "اختر التكوين المطلوب",
+      "quotationBody": "أرسل مرجع المنتج والكمية ووجهة التسليم والمتطلبات أدناه.",
+      "askOnWhatsApp": "استفسر عبر WhatsApp",
+      "emailSales": "راسل قسم المبيعات",
+      "productImagePreview": "معاينة صورة المنتج",
+      "closeImagePreview": "إغلاق معاينة الصورة",
+      "enlargedImage": "صورة مكبرة للمنتج",
+      "previousProductImage": "صورة المنتج السابقة",
+      "nextProductImage": "صورة المنتج التالية",
+      "selectProductImage": "اختر صورة المنتج",
+      "inquiryTitle": "اطلب تفاصيل المنتج وعرض سعر",
+      "inquiryBody": "أرسل التكوين المختار والكمية والوجهة.",
+      "title": "وصلات T ميكانيكية بمخرج ملولب",
+      "lead": "توفر وصلات T الميكانيكية مخرجًا فرعيًا بسن داخلي على الأنبوب. تتكون المجموعة المصورة من حديد الدكتايل مع جسم أحمر من قطعتين ومثبتات جانبية وحشية سوداء.",
+      "eyebrow": "وصلات الأنابيب المحززة",
+      "seoTitle": "وصلات T ميكانيكية بمخرج ملولب | CHUANWEI FIRE",
+      "seoDescription": "توفر وصلات T الميكانيكية مخرجًا فرعيًا بسن داخلي على الأنبوب. تتكون المجموعة المصورة من حديد الدكتايل مع جسم أحمر من قطعتين ومثبتات جانبية وحشية سوداء.",
+      "note": "طابق أبعاد الأنبوب الفعلية ورسم التوصيل عند الطلب. تتوفر الأبعاد وبيانات الضغط الخاصة بكل مقاس عند الطلب.",
+      "heroAlt": "وصلة T ميكانيكية ملولبة — صورة فعلية للمنتج",
+      "heroCaption": "وصلة T ميكانيكية ملولبة — صورة فعلية للمنتج",
+      "featuresAlt": "وصلات T ميكانيكية بمخرج ملولب — رسم توضيحي لخصائص المنتج باللغة الإنجليزية",
+      "featuresCaption": "رسم توضيحي لخصائص المنتج (بالإنجليزية)",
+      "model0Name": "مخرج فرعي بسن داخلي",
+      "model0Selection": "القطر الخارجي للأنبوب الرئيسي ومقاس سن الفرع ومعياره ومتطلبات الحشية والكمية.",
+      "selection0Label": "التوصيل والاختيار",
+      "selection0Body": "القطر الخارجي للأنبوب الرئيسي ومقاس سن الفرع ومعياره ومتطلبات الحشية والكمية.",
+      "selection1Label": "التشغيل والتخصيص",
+      "selection1Body": "أرسل متطلبات التشغيل والكمية والوجهة. التخصيص متاح وتُراجع تفاصيله وفق طلبك.",
+      "spec0Label": "التكوين",
+      "spec0Value": "مخرج فرعي بسن داخلي",
+      "spec1Label": "التوصيل",
+      "spec1Value": "سرج مثبت بمسامير مع مخرج ملولب",
+      "spec2Label": "مادة الجسم",
+      "spec2Value": "جسم من حديد الدكتايل",
+      "spec3Label": "الاستخدام",
+      "spec3Value": "أنابيب مياه مكافحة الحريق",
+      "spec4Label": "المنشأ",
+      "spec4Value": "فوجيان، الصين",
+      "spec5Label": "التخصيص",
+      "spec5Value": "متاح",
+      "referenceHeading": "مرجع الاختيار",
+      "referenceScope": "يساعد المثال التالي من الشركة المصنّعة المذكورة في تحديد متطلبات الاستفسار. القيم تخص الطراز المرجعي المذكور، ولا تمثل مواصفات منتج CHUANWEI المصوّر أعلاه. اطلب ورقة بيانات الطراز المعروض لطلبك.",
+      "referenceSource": "مرجع الشركة المصنّعة",
+      "reference0Title": "Victaulic Styles 920 / 920N · 11.02",
+      "reference0Note": "اختر نوع توصيل المخرج بدقة واستخدم أبعاد الثقب المحددة لذلك المقاس.",
+      "reference0Row0Label": "نطاق مقاس الأنبوب الرئيسي × الفرع",
+      "reference0Row0Value": "DN50 × DN15 – DN200 × DN100"
+    }
+  },
+  "referenceExamples": [
+    {
+      "title": "reference0Title",
+      "rows": [
+        {
+          "label": "reference0Row0Label",
+          "value": "reference0Row0Value",
+          "technical": true
+        }
+      ],
+      "note": "reference0Note",
+      "url": "https://assets.victaulic.com/assets/uploads/literature/11.02.pdf"
+    }
+  ]
+}

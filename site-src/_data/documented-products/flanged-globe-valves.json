@@ -20,7 +20,15 @@
     ],
     "notes": [
       "采用本款用户确认PN16和球墨铸铁，不借其他止回阀或过滤器参数。"
-    ]
+    ],
+    "marketReference": {
+      "grade": "C-other-manufacturer-or-series-reference",
+      "reviewDate": "2026-10-25",
+      "url": "https://www.dtjt.com/proDetail_1417.html",
+      "model": "Datian J41T-16",
+      "location": "Official product page",
+      "scope": "Selection reference only; no supplied-SKU specification, certification, compatibility or availability inferred."
+    }
   },
   "publication": {
     "status": "release-candidate",
@@ -219,7 +227,16 @@
       "selection0Label": "Size and mating flange",
       "selection0Body": "Specify the nominal size and provide the mating flange drilling and installation dimensions.",
       "selection1Label": "Service conditions",
-      "selection1Body": "State the working fluid, operating pressure and temperature for the exact supplied configuration."
+      "selection1Body": "State the working fluid, operating pressure and temperature for the exact supplied configuration.",
+      "referenceHeading": "Selection reference",
+      "referenceScope": "The manufacturer example below helps you specify an enquiry. Its values describe the named reference model, not the CHUANWEI product pictured above. Request the offered model’s datasheet for your order.",
+      "referenceSource": "Manufacturer reference",
+      "reference0Title": "Datian J41T-16",
+      "reference0Note": "Match flange drilling, medium and operating temperature to the offered valve.",
+      "reference0Row0Label": "Nominal pressure",
+      "reference0Row0Value": "1.6 MPa",
+      "reference0Row1Label": "Body material",
+      "reference0Row1Value": "Grey cast iron"
     },
     "ar": {
       "onThisPage": "في هذه الصفحة",
@@ -291,7 +308,35 @@
       "selection0Label": "المقاس والفلنجة المقابلة",
       "selection0Body": "حدد المقاس الاسمي وقدم أبعاد ثقوب الفلنجة المقابلة وأبعاد التركيب.",
       "selection1Label": "ظروف التشغيل",
-      "selection1Body": "حدد المائع وضغط التشغيل ودرجة الحرارة للتكوين المطلوب توريده."
+      "selection1Body": "حدد المائع وضغط التشغيل ودرجة الحرارة للتكوين المطلوب توريده.",
+      "referenceHeading": "مرجع الاختيار",
+      "referenceScope": "يساعد المثال التالي من الشركة المصنّعة المذكورة في تحديد متطلبات الاستفسار. القيم تخص الطراز المرجعي المذكور، ولا تمثل مواصفات منتج CHUANWEI المصوّر أعلاه. اطلب ورقة بيانات الطراز المعروض لطلبك.",
+      "referenceSource": "مرجع الشركة المصنّعة",
+      "reference0Title": "Datian J41T-16",
+      "reference0Note": "طابق ثقوب الفلنجة والوسط ودرجة حرارة التشغيل مع الصمام المعروض.",
+      "reference0Row0Label": "الضغط الاسمي",
+      "reference0Row0Value": "1.6 MPa",
+      "reference0Row1Label": "مادة الجسم",
+      "reference0Row1Value": "حديد زهر رمادي"
     }
-  }
+  },
+  "referenceExamples": [
+    {
+      "title": "reference0Title",
+      "rows": [
+        {
+          "label": "reference0Row0Label",
+          "value": "reference0Row0Value",
+          "technical": true
+        },
+        {
+          "label": "reference0Row1Label",
+          "value": "reference0Row1Value",
+          "technical": false
+        }
+      ],
+      "note": "reference0Note",
+      "url": "https://www.dtjt.com/proDetail_1417.html"
+    }
+  ]
 }

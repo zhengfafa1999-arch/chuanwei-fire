@@ -1,0 +1,292 @@
+{
+  "id": "k115-standard-response-fire-sprinkler",
+  "routeId": "product:k115-standard-response-fire-sprinkler",
+  "template": "product-series/documented-product.njk",
+  "styles": [
+    "css/common.css",
+    "css/sprinkler-product.css",
+    "css/sprinkler-product-gallery.css",
+    "css/documented-product.css",
+    "css/site-navigation.css"
+  ],
+  "source": {
+    "confirmedDate": "2026-10-24",
+    "evidence": "A-user for K115, response classification and 68°C; real supplied photographs for configuration and factory markings.",
+    "scope": "Three pictured 68°C configurations only. No pressure, connection, material, bulb-diameter, packing or approval specifications are inherited from other sprinkler series.",
+    "temperatureConversion": "68°C equals 154.4°F; 155°F is the rounded nominal temperature presentation used on this website."
+  },
+  "publication": {
+    "status": "release-candidate",
+    "externalRelease": true,
+    "imageRights": "user-confirmed-website-use",
+    "imageRightsEvidence": "docs/release/k115-sprinklers-20261024/image-rights-confirmation.json"
+  },
+  "media": {
+    "hero": "assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5904-1600.webp",
+    "pendent": "assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5905-1600.webp",
+    "horizontalSidewall": "assets/products/guanya-2026/k115-standard-response-fire-sprinkler-dsc_5906-1600.webp"
+  },
+  "imageDimensions": {
+    "hero": {
+      "width": 911,
+      "height": 1223
+    },
+    "pendent": {
+      "width": 911,
+      "height": 1324
+    },
+    "horizontalSidewall": {
+      "width": 1029,
+      "height": 1442
+    }
+  },
+  "heroFacts": [
+    "kFactorValue",
+    "responseValue",
+    "temperatureValue"
+  ],
+  "shared": {
+    "kFactorValue": "K115 metric",
+    "temperatureValue": "68°C / 155°F"
+  },
+  "gallery": [
+    {
+      "media": "hero",
+      "alt": "uprightAlt",
+      "caption": "upright",
+      "thumbnailAlt": "uprightThumbnail"
+    },
+    {
+      "media": "pendent",
+      "alt": "pendentAlt",
+      "caption": "pendent",
+      "thumbnailAlt": "pendentThumbnail"
+    },
+    {
+      "media": "horizontalSidewall",
+      "alt": "horizontalSidewallAlt",
+      "caption": "horizontalSidewall",
+      "thumbnailAlt": "horizontalSidewallThumbnail"
+    }
+  ],
+  "specifications": [
+    {
+      "label": "productType",
+      "value": "productTypeValue"
+    },
+    {
+      "label": "response",
+      "value": "responseValue"
+    },
+    {
+      "label": "kFactor",
+      "value": "kFactorValue",
+      "technical": true
+    },
+    {
+      "label": "temperature",
+      "value": "temperatureValue",
+      "technical": true
+    },
+    {
+      "label": "installation",
+      "value": "installationValue"
+    }
+  ],
+  "modelColumns": [
+    {
+      "label": "orientation",
+      "field": "orientation",
+      "localized": true
+    },
+    {
+      "label": "factoryModel",
+      "field": "factoryModel",
+      "technical": true
+    },
+    {
+      "label": "kFactor",
+      "field": "kFactor",
+      "technical": true
+    },
+    {
+      "label": "temperature",
+      "field": "temperature",
+      "technical": true
+    }
+  ],
+  "models": [
+    {
+      "orientation": "upright",
+      "factoryModel": "T-ZSTZ115-68°C Q5A",
+      "kFactor": "K115",
+      "temperature": "68°C / 155°F"
+    },
+    {
+      "orientation": "pendent",
+      "factoryModel": "T-ZSTX115-68°C Q5A",
+      "kFactor": "K115",
+      "temperature": "68°C / 155°F"
+    },
+    {
+      "orientation": "horizontalSidewall",
+      "factoryModel": "T-ZSTBS115-68°C Q5A",
+      "kFactor": "K115",
+      "temperature": "68°C / 155°F"
+    }
+  ],
+  "confirmationItems": [
+    {
+      "label": "connection",
+      "body": "connectionBody"
+    },
+    {
+      "label": "workingPressure",
+      "body": "workingPressureBody"
+    },
+    {
+      "label": "orderQuantity",
+      "body": "orderQuantityBody"
+    }
+  ],
+  "packaging": false,
+  "downloads": [],
+  "validation": {
+    "anchors": [
+      "gallery",
+      "specifications",
+      "models",
+      "quotation"
+    ],
+    "requiredTechnicalValues": [
+      "K115",
+      "68°C / 155°F",
+      "T-ZSTZ115-68°C Q5A",
+      "T-ZSTX115-68°C Q5A",
+      "T-ZSTBS115-68°C Q5A"
+    ]
+  },
+  "inquiry": {
+    "whatsapp": "https://wa.me/8617326528368?text=Hello%2C%20I%20need%20a%20quotation%20for%20K115%20Standard%20Response%20Sprinklers.%20Factory%20model%3A%20%5Bmodel%5D%2C%20connection%3A%20%5Brequirement%5D%2C%20working%20pressure%3A%20%5Brequirement%5D%2C%20quantity%3A%20%5Bpcs%5D.",
+    "email": "mailto:zhengcolin1@gmail.com?subject=K115%20Standard%20Response%20Sprinklers%20Inquiry"
+  },
+  "copy": {
+    "en": {
+      "onThisPage": "On this page",
+      "gallery": "Product images",
+      "galleryTitle": "Upright, pendent and horizontal sidewall",
+      "galleryBody": "Compare the three 68°C configurations and select the orientation required for your project.",
+      "upright": "Upright",
+      "pendent": "Pendent",
+      "horizontalSidewall": "Horizontal sidewall",
+      "uprightThumbnail": "Upright sprinkler thumbnail",
+      "pendentThumbnail": "Pendent sprinkler thumbnail",
+      "horizontalSidewallThumbnail": "Horizontal sidewall sprinkler thumbnail",
+      "specifications": "Specifications",
+      "specificationsTitle": "Technical specifications",
+      "specificationsBody": "These specifications apply to the three K115 / 68°C configurations shown on this page.",
+      "productType": "Product type",
+      "productTypeValue": "Fire sprinkler",
+      "response": "Response type",
+      "installation": "Installation options",
+      "installationValue": "Upright / Pendent / Horizontal sidewall",
+      "kFactor": "K-factor (metric)",
+      "temperature": "Operating temperature",
+      "thermalElement": "Thermal element",
+      "availableModels": "Available configurations",
+      "modelsTitle": "Select your sprinkler configuration",
+      "modelsBody": "Match the installation orientation to its factory model. Each configuration below has a K115 metric flow coefficient and a 68°C temperature rating.",
+      "orientation": "Orientation",
+      "factoryModel": "Factory model",
+      "modelsNote": "Include the factory model when requesting a quotation.",
+      "quotation": "Quotation details",
+      "quotationTitle": "Tell us your project requirements",
+      "quotationBody": "Send your connection requirement, working pressure and order quantity with the selected factory model.",
+      "connection": "Connection",
+      "connectionBody": "Provide the required connection size and thread designation.",
+      "workingPressure": "Working pressure",
+      "workingPressureBody": "Specify the working pressure required for your project.",
+      "orderQuantity": "Order quantity",
+      "orderQuantityBody": "State the quantity required for each factory model.",
+      "inquiryBody": "Include the factory model, connection requirement, working pressure and quantity.",
+      "askOnWhatsApp": "Ask on WhatsApp",
+      "emailSales": "Email sales",
+      "productImagePreview": "Product image preview",
+      "closeImagePreview": "Close image preview",
+      "previousProductImage": "Previous product image",
+      "nextProductImage": "Next product image",
+      "selectProductImage": "Select product image",
+      "title": "K115 Standard Response Sprinklers",
+      "eyebrow": "K115 Metric · Standard response · 68°C",
+      "lead": "K115 metric standard-response fire sprinklers rated at 68°C, available in upright, pendent and horizontal sidewall configurations.",
+      "note": "Select the orientation and factory model for your project.",
+      "responseValue": "Standard response",
+      "uprightAlt": "K115 standard-response upright fire sprinkler rated at 68°C",
+      "pendentAlt": "K115 standard-response pendent fire sprinkler rated at 68°C",
+      "horizontalSidewallAlt": "K115 standard-response horizontal sidewall fire sprinkler rated at 68°C",
+      "inquiryTitle": "Request a quotation for K115 standard-response sprinklers",
+      "enlargedImage": "Enlarged K115 standard-response fire sprinkler",
+      "seoTitle": "K115 Standard Response Sprinklers | 68°C | CHUANWEI FIRE",
+      "seoDescription": "K115 metric standard-response fire sprinklers rated at 68°C in upright, pendent and horizontal sidewall configurations. Compare photographs and factory models."
+    },
+    "ar": {
+      "onThisPage": "في هذه الصفحة",
+      "gallery": "صور المنتج",
+      "galleryTitle": "تكوينات قائمة ومعلقة وجانبية أفقية",
+      "galleryBody": "قارن التكوينات الثلاثة بدرجة 68°C واختر اتجاه التركيب المطلوب لمشروعك.",
+      "upright": "قائم",
+      "pendent": "معلق",
+      "horizontalSidewall": "جانبي أفقي",
+      "uprightThumbnail": "صورة مصغرة للرشاش القائم",
+      "pendentThumbnail": "صورة مصغرة للرشاش المعلق",
+      "horizontalSidewallThumbnail": "صورة مصغرة للرشاش الجانبي الأفقي",
+      "specifications": "المواصفات",
+      "specificationsTitle": "المواصفات الفنية",
+      "specificationsBody": "تنطبق هذه المواصفات على التكوينات الثلاثة بمعامل K115 ودرجة 68°C المعروضة في هذه الصفحة.",
+      "productType": "نوع المنتج",
+      "productTypeValue": "رشاش حريق",
+      "response": "نوع الاستجابة",
+      "installation": "خيارات التركيب",
+      "installationValue": "قائم / معلق / جانبي أفقي",
+      "kFactor": "معامل K المتري",
+      "kFactorValue": "K115 متري",
+      "temperature": "درجة حرارة التشغيل",
+      "thermalElement": "العنصر الحراري",
+      "availableModels": "التكوينات المتاحة",
+      "modelsTitle": "اختر تكوين الرشاش",
+      "modelsBody": "طابق اتجاه التركيب مع موديل المصنع. لكل تكوين أدناه معامل تدفق K115 متري ودرجة حرارة تشغيل 68°C.",
+      "orientation": "اتجاه التركيب",
+      "factoryModel": "موديل المصنع",
+      "modelsNote": "أدرج موديل المصنع عند طلب عرض السعر.",
+      "quotation": "تفاصيل عرض السعر",
+      "quotationTitle": "أرسل متطلبات مشروعك",
+      "quotationBody": "أرسل متطلبات التوصيل وضغط التشغيل وكمية الطلب مع موديل المصنع المختار.",
+      "connection": "التوصيل",
+      "connectionBody": "حدد مقاس التوصيل ونوع السن اللولبي المطلوبين.",
+      "workingPressure": "ضغط التشغيل",
+      "workingPressureBody": "حدد ضغط التشغيل المطلوب لمشروعك.",
+      "orderQuantity": "كمية الطلب",
+      "orderQuantityBody": "حدد الكمية المطلوبة لكل موديل مصنع.",
+      "inquiryBody": "أدرج موديل المصنع ومتطلبات التوصيل وضغط التشغيل والكمية.",
+      "askOnWhatsApp": "استفسر عبر WhatsApp",
+      "emailSales": "راسل قسم المبيعات",
+      "productImagePreview": "معاينة صورة المنتج",
+      "closeImagePreview": "إغلاق معاينة الصورة",
+      "previousProductImage": "صورة المنتج السابقة",
+      "nextProductImage": "صورة المنتج التالية",
+      "selectProductImage": "اختر صورة المنتج",
+      "title": "رشاشات K115 ذات الاستجابة القياسية",
+      "eyebrow": "K115 متري · استجابة قياسية · 68°C",
+      "lead": "رشاشات حريق بمعامل K115 متري واستجابة قياسية ودرجة حرارة تشغيل 68°C، متاحة بتكوينات قائمة ومعلقة وجانبية أفقية.",
+      "note": "اختر اتجاه التركيب وموديل المصنع المناسبين لمشروعك.",
+      "responseValue": "استجابة قياسية",
+      "uprightAlt": "رشاش حريق قائم K115 باستجابة قياسية بدرجة حرارة تشغيل 68°C",
+      "pendentAlt": "رشاش حريق معلق K115 باستجابة قياسية بدرجة حرارة تشغيل 68°C",
+      "horizontalSidewallAlt": "رشاش حريق جانبي أفقي K115 باستجابة قياسية بدرجة حرارة تشغيل 68°C",
+      "inquiryTitle": "اطلب عرض سعر لرشاشات K115 ذات الاستجابة القياسية",
+      "enlargedImage": "صورة مكبرة لرشاش حريق K115 باستجابة قياسية",
+      "seoTitle": "رشاشات K115 ذات الاستجابة القياسية | 68°C | CHUANWEI FIRE",
+      "seoDescription": "رشاشات حريق بمعامل K115 متري واستجابة قياسية ودرجة 68°C بتكوينات قائمة ومعلقة وجانبية أفقية. قارن صور المنتجات وموديلات المصنع."
+    }
+  }
+}
