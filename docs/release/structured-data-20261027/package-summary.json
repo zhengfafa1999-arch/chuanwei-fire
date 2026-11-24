@@ -1,0 +1,31 @@
+{
+  "releaseDate": "2026-10-27",
+  "generatedAt": "2026-10-27T15:44:46.459Z",
+  "generatedAtChina": "2026-10-27 23:44:46 Asia/Shanghai",
+  "status": "local-package-user-deploys-not-deployed",
+  "baselineManifest": "docs/release/market-reference-enriched-20261025/release-manifest.json",
+  "allRegisteredPages": 291,
+  "webPages": 291,
+  "breadcrumbTrails": 288,
+  "organizationDescriptions": 5,
+  "canonicalWebsites": 1,
+  "files": 1095,
+  "bytes": 82107867,
+  "changedHtmlFiles": 291,
+  "unchangedPublicDependencies": 804,
+  "addedPublicDependencies": 0,
+  "schemaReferencesChecked": 3153,
+  "nonHtmlChanges": [],
+  "bodyChanges": [],
+  "outsideStructuredDataChanges": [],
+  "ga4Enabled": false,
+  "archive": "structured-data-20261027-public-full.zip",
+  "archiveBytes": 66247875,
+  "archiveSha256": "86907c6552589dd78648d356dabf1c6a3863120d5beb427802f371ab62013ac4",
+  "archiveVerification": {
+    "fileSetVerified": true,
+    "crcVerified": true,
+    "sha256VerifiedFiles": 1095
+  },
+  "deletes": []
+}

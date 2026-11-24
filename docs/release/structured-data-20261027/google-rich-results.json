@@ -1,0 +1,20 @@
+{
+  "checkedDate": "2026-10-27",
+  "tool": "Google Rich Results Test",
+  "mode": "code",
+  "sourcePage": "about.html",
+  "inputScope": "The generated AboutPage, Organization and BreadcrumbList graph, with compact JSON whitespace inside a minimal HTML wrapper; this was not a live URL crawl.",
+  "resultUrl": "https://search.google.com/test/rich-results/result?id=hrTur7TqwT642hbopUfIOg",
+  "observedResult": "Detected 3 valid items",
+  "detectedFeatures": [
+    { "name": "Breadcrumbs", "validItems": 1, "nonCriticalIssuesShown": false },
+    { "name": "Local businesses", "validItems": 1, "nonCriticalIssuesShown": true },
+    { "name": "Organization", "validItems": 1, "nonCriticalIssuesShown": true }
+  ],
+  "criticalErrorsShown": false,
+  "limitations": [
+    "Non-critical issue details were not retrieved; no claim that all optional fields are complete.",
+    "This tests representative supplied code, not all 291 URLs in Google's external tool.",
+    "The new public build has not been deployed or recrawled by Google."
+  ]
+}
